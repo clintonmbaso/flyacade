@@ -1,0 +1,68 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+}
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    #number-container {
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      cursor: pointer;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    select, button.option {
+      margin-top: 5px;
+      padding: 5px;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .highlight {
+      color: red;
+    }
+    #answerDisplay {
+      margin-top: 20px;
+      display: none;
+      color: #4caf50;
+      font-size: 16px;
+    }
+    #scoreDisplay, #timeDisplay {
+      margin-top: 20px;
+      color: #333;
+      font-size: 18px;
+    }
+  

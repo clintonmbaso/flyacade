@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="flyacade.css" rel="stylesheet">
+<link href="place_values.css" rel="stylesheet">
+</head>
+<body>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Flip Game</title>
+  </head>
+<body>
+   <div id="number-container">
+      <h2>Number Flip Game</h2>
+      <p id="scoreDisplay">Score: <span id="score">0</span></p>
+      <p id="targetScoreDisplay">Target Score: <span id="targetScore">10</span></p>
+      <p id="timeDisplay">Time Left: <span id="time">60</span> seconds</p>
+      <button onclick="generateNumber()">Flip Number</button>
+      <div id="flipping-number"></div>
+      <p id="prompt">
+      <div id="optionsContainer"></div>
+      <p id="answerDisplay">
+   </div>
+   <script>   
+     let randomNumber, randomDigitIndex, score = 0, timeLeft = 60, targetScore = 10; // Adjust targetScore as needed
+     let timer;
+   
+     function startTimer() {
+       timer = setInterval(function() {
+         timeLeft -= 1;
+         document.getElementById('time').textContent = timeLeft;
+   
+         if (timeLeft === 0 || score >= targetScore) {
+           clearInterval(timer);
+           endGame();
+         }
+       }, 1000);
+     }
+   
+     function endGame() {
+       if (score >= targetScore) {
+         alert(`Congratulations! You reached the target score of ${targetScore} in time.`);
+       } else {
+         alert(`Game over. You didn't reach the target score in time.`);
+       }
+   
+       // Reset variables and start a new game
+       score = 0;
+       timeLeft = 60;
+       document.getElementById('score').textContent = score;
+       document.getElementById('time').textContent = timeLeft;
+       generateNumber();
+       startTimer();
+     }
+   
+     function generateRandomNumber() {
+       const wholeNumberPart = Math.floor(Math.random() * 10000000); // Maximum of 7 whole numbers
+       const decimalPart = Math.random().toFixed(3).substring(2); // Maximum of 3 decimal places
+       return wholeNumberPart + '.' + decimalPart;
+     }
+   
+     function generateNumber() {
+       const numberContainer = document.getElementById('flipping-number');
+       numberContainer.innerHTML = '';
+   
+       // Hide correct answer display
+       document.getElementById('answerDisplay').style.display = 'none';
+   
+       randomNumber = generateRandomNumber();
+       randomDigitIndex = Math.floor(Math.random() * randomNumber.length);
+       const numberWithHighlight = highlightDigit(randomNumber, randomDigitIndex);
+   
+       const numberElement = document.createElement('div');
+       numberElement.innerHTML = numberWithHighlight;
+       numberContainer.appendChild(numberElement);
+   
+       const optionsContainer = document.getElementById('optionsContainer');
+       optionsContainer.innerHTML = generateOptionsButtons(randomNumber, randomDigitIndex);
+   
+       const correctPlaceValue = getCorrectPlaceValue(randomNumber, randomDigitIndex);
+       document.getElementById('prompt').innerHTML = 'Select the correct place value for the red-highlighted digit in the whole number.';
+     }
+   
+     function highlightDigit(number, index) {
+       return number.substring(0, index) + '<span class="highlight">' + number.charAt(index) + '</span>' + number.substring(index + 1);
+     }
+   
+     function generateOptionsButtons(number, index) {
+       const options = ['decimal point', 'tenth', 'hundredth', 'thousandth', 'ones', 'tens', 'hundreds', 'thousands', 'ten-thousands', 'hundred-thousands', 'millions'];
+       const correctPlaceValue = getCorrectPlaceValue(number, index);
+       const optionsAroundCorrect = getOptionsAroundCorrect(options, correctPlaceValue);
+       const shuffledOptions = shuffleArray(optionsAroundCorrect);
+       const optionButtons = shuffledOptions.map(option => `<button class="option" onclick="checkPlaceValue('${option}')">${option}</button>`);
+   
+       return optionButtons.join('');
+     }
+   
+     function getOptionsAroundCorrect(allOptions, correctPlaceValue) {
+       const index = allOptions.indexOf(correctPlaceValue);
+       const optionsAroundCorrect = [];
+   
+       // Include 2 options before and 2 options after the correct place value
+       for (let i = index - 2; i <= index + 2; i++) {
+         if (i >= 0 && i < allOptions.length && !optionsAroundCorrect.includes(allOptions[i])) {
+           optionsAroundCorrect.push(allOptions[i]);
+         }
+       }
+   
+       return optionsAroundCorrect;
+     }
+   
+     function shuffleArray(array) {
+       for (let i = array.length - 1; i > 0; i--) {
+         const j = Math.floor(Math.random() * (i + 1));
+         [array[i], array[j]] = [array[j], array[i]];
+       }
+       return array;
+     }
+   
+     function getCorrectPlaceValue(number, index) {
+       const positionFromLeft = number.length - index - 1; // Position from the left
+       const decimalIndex = number.indexOf('.');
+   
+       if (decimalIndex !== -1) {
+         const positionFromDecimal = decimalIndex - index;
+   
+         if (positionFromDecimal === 1) return 'ones';
+         if (positionFromDecimal === 2) return 'tens';
+         if (positionFromDecimal === 3) return 'hundreds';
+         if (positionFromDecimal === 4) return 'thousands';
+         if (positionFromDecimal === 5) return 'ten-thousands';
+         if (positionFromDecimal === 6) return 'hundred-thousands';
+         if (positionFromDecimal === 7) return 'millions';
+         if (positionFromDecimal === 0) return 'decimal point';
+   
+         if (positionFromDecimal === -1) return 'tenth';
+         if (positionFromDecimal === -2) return 'hundredth';
+         if (positionFromDecimal === -3) return 'thousandth';
+         // Handling case when index is in the whole number part
+       }
+   
+       return 'undefined'; // Default to units if position is not determined
+     }
+   
+     function checkPlaceValue(selectedOption) {
+       const correctPlaceValue = getCorrectPlaceValue(randomNumber, randomDigitIndex);
+       const answerDisplay = document.getElementById('answerDisplay');
+       const scoreDisplay = document.getElementById('score');
+   
+       if (selectedOption === correctPlaceValue) {
+         score += 1; // Increase score for correct answer
+         scoreDisplay.textContent = score; // Update score display
+         generateNumber(); // Automatically generate the next number
+       } else {
+         answerDisplay.textContent = `Correct Answer: ${correctPlaceValue}`;
+         answerDisplay.style.display = 'block'; // Show correct answer display
+         setTimeout(() => {
+           answerDisplay.style.display = 'none'; // Hide correct answer display after a delay
+           generateNumber(); // Automatically generate the next number
+         }, 2000); // Adjust the delay (in milliseconds) as needed
+       }
+     }
+   
+     // Initialize the game
+     generateNumber();
+     startTimer();
+   </script>
+</body>
+</html>

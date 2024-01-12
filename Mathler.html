@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="flyacade.css" rel="stylesheet">
+<link href="Mathler.css" rel="stylesheet">
+</head>
+<body>
+
+</body>
+</html>  <h2>Flying Mathler</h2>
+   <p>Try to create an equation using the operations <br> +, -, *, / and digits 0-9 that equals the target number!</p>
+  
+   <div>
+      <h3>Target Number: <span id="targetNumber"></span></h3>
+   </div>
+   <div id="game-container">
+    <!-- Guess input fields will be added dynamically here -->
+   </div>
+   <div>
+    <!-- Number buttons -->
+      <button onclick="appendNumber(7)">7</button>
+      <button onclick="appendNumber(8)">8</button>
+      <button onclick="appendNumber(9)">9</button>
+      <button onclick="appendOperation('*')">*</button><br>
+      <button onclick="appendNumber(4)">4</button>
+      <button onclick="appendNumber(5)">5</button>
+      <button onclick="appendNumber(6)">6</button>
+      <button onclick="appendOperation('/')">/</button><br>
+      <button onclick="appendNumber(1)">1</button>
+      <button onclick="appendNumber(2)">2</button>
+    
+    <!-- Operation buttons -->
+      <button onclick="appendNumber(3)">3</button>
+      <button onclick="appendOperation('-')">-</button><br>
+      <button onclick="checkGuess()">=</button>
+      <button onclick="appendNumber(0)">0</button>
+    <!-- Enter and Delete buttons -->
+      <button onclick="deleteLastEntry()">Del</button>
+      <button onclick="appendOperation('+')">+</button>
+   </div>  <script>   
+       let targetAnswer;
+       let currentEntry = 0;
+       let maxGuesses = 6;
+       let currentGuess = 1;
+   
+       function generateTargetNumber() {
+         targetAnswer = Math.floor(Math.random() * 100) + 1;
+         document.getElementById("targetNumber").innerText = targetAnswer;
+       }
+   
+       function createInputFields() {
+         let container = document.getElementById("game-container");
+         container.innerHTML = "";
+   
+         for (let i = 0; i < 6; i++) {
+           let input = document.createElement("input");
+           input.setAttribute("type", "text");
+           input.setAttribute("maxlength", "1");
+           input.setAttribute("oninput", "validateInput(this)");
+           container.appendChild(input);
+         }
+       }
+   
+       function appendNumber(number) {
+         if (currentEntry < 6) {
+           document.getElementById("game-container").getElementsByTagName("input")[currentEntry].value = number;
+           currentEntry++;
+         }
+       }
+   
+       function appendOperation(operation) {
+         if (currentEntry < 6) {
+           document.getElementById("game-container").getElementsByTagName("input")[currentEntry].value = operation;
+           currentEntry++;
+         }
+       }
+   
+       function validateInput(input) {
+         input.value = input.value.replace(/[^0-9\+\-\*\/]/g, "");
+       }
+   
+       function deleteLastEntry() {
+         if (currentEntry > 0) {
+           currentEntry--;
+           document.getElementById("game-container").getElementsByTagName("input")[currentEntry].value = "";
+         }
+       }
+   
+       function checkGuess() {
+         let equation = "";
+         let tiles = document.getElementById("game-container").getElementsByTagName("input");
+   
+         for (let i = 0; i < tiles.length; i++) {
+           equation += tiles[i].value;
+         }
+   
+         let result = evaluateEquation(equation);
+         let feedback = generateFeedback(result);
+   
+         displayFeedback(feedback);
+   
+         currentGuess++;
+         if (currentGuess > maxGuesses) {
+           alert("Game over. You ran out of guesses. The target number was: " + targetAnswer);
+           location.reload();
+         } else {
+           currentEntry = 0;
+           createInputFields();
+         }
+       }
+   
+       function evaluateEquation(equation) {
+         try {
+           return eval(equation);
+         } catch (error) {
+           return null;
+         }
+       }
+   
+       function generateFeedback(result) {
+         if (result === null) {
+           return Array(6).fill("gray");
+         }
+   
+         let feedback = [];
+         let resultDiff = Math.abs(targetAnswer - result);
+   
+         for (let i = 0; i < 6; i++) {
+           let digit = parseInt(result.toString()[i]) || 0;
+           let targetDigit = parseInt(targetAnswer.toString()[i]) || 0;
+   
+           if (digit === targetDigit) {
+             feedback.push("green");
+           } else if (result.toString().includes(targetDigit.toString())) {
+             feedback.push("orange");
+           } else {
+             feedback.push("gray");
+           }
+         }
+   
+         if (resultDiff === 0) {
+           alert("Congratulations! You guessed the correct target number: " + targetAnswer);
+           location.reload();
+         }
+   
+         return feedback;
+       }
+   
+       function displayFeedback(feedback) {
+         let tiles = document.getElementById("game-container").getElementsByClassName("tile");
+         for (let i = 0; i < feedback.length; i++) {
+           tiles[i].classList = "tile " + feedback[i];
+         }
+       }
+   
+       window.onload = function () {
+         generateTargetNumber();
+         createInputFields();
+       };
+     
+   </script>

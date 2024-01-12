@@ -1,0 +1,203 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgba(23,245,199,0.1);
+      text-align: center;
+      margin: 50px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    #game-container {
+      margin-top: 20px;
+    }
+
+    input {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      margin: 3px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ddd;
+    }
+
+    button {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .tile {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .green {
+      background-color: #4CAF50;
+    }
+
+    .orange {
+      background-color: #FFA500;
+    }
+
+    .gray {
+      background-color: #ddd;
+    }
+
+    #number-buttons {
+      margin-top: 20px;
+    }
+
+    #number-buttons button {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #3498db;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    #number-buttons button:hover {
+      background-color: #2980b9;
+    }
+
+    #operation-buttons {
+      margin-top: 10px;
+    }
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgba(23,245,199,0.1);
+      text-align: center;
+      margin: 50px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    #game-container {
+      margin-top: 20px;
+    }
+
+    input {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      margin: 3px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ddd;
+    }
+
+    button {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .tile {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .green {
+      background-color: #4CAF50;
+    }
+
+    .orange {
+      background-color: #FFA500;
+    }
+
+    .gray {
+      background-color: #ddd;
+    }
+
+    #number-buttons {
+      margin-top: 20px;
+    }
+
+    #number-buttons button {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #3498db;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    #number-buttons button:hover {
+      background-color: #2980b9;
+    }
+
+    #operation-buttons {
+      margin-top: 10px;
+    }
+}

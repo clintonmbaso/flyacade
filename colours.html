@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="flyacade.css" rel="stylesheet">
+<link href="colours.css" rel="stylesheet">
+</head>
+<body>
+   <div id="game-container">
+      <div id="canvas">
+         <div id="shape"></div>
+      </div>
+      <div id="colorName"></div>
+      <div id="options"></div>
+      <div id="score" class="score">Score: 0</div>
+   </div>
+
+</body>
+</html> <script>   
+       const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink', 'brown', 'grey', 'black', 'white', 'maroon', 'gold', 'indigo', 'turquoise'];
+       const shapes = ['square', 'rectangle', 'circle', 'oval', 'triangle', 'crescent', 'star', 'diamond'];
+       let currentColor;
+       let currentShape;
+       let score = 0;
+   
+       function startGame() {
+         currentColor = colors[Math.floor(Math.random() * colors.length)];
+         currentShape = shapes[Math.floor(Math.random() * shapes.length)];
+   
+         document.getElementById('canvas').style.backgroundColor = currentColor;
+         document.getElementById('colorName').textContent = '';
+   
+         // Set shape class
+         const shapeElement = document.getElementById('shape');
+         shapeElement.className = currentShape;
+   
+         // Generate three closely related options
+         const options = [currentColor];
+         while (options.length < 4) {
+           const randomColor = colors[Math.floor(Math.random() * colors.length)];
+           if (!options.includes(randomColor)) {
+             options.push(randomColor);
+           }
+         }
+   
+         // Shuffle options
+         options.sort(() => Math.random() - 1);
+   
+         // Display options
+         document.getElementById('options').innerHTML = options.map(color =>
+           `<button class="colorButton" onclick="checkColor('${color}')">${color}</button>`
+         ).join('');
+       }
+   
+       function checkColor(color) {
+         if (color === currentColor) {
+           if (currentShape === 'square') {
+             score += 2;
+           } else {
+             score += 1;
+           }
+         } else {
+           if (score > 0) {
+             score -= 1;
+           }
+         }
+         updateScore();
+         setTimeout(startGame, 1000);
+       }
+   
+       function updateScore() {
+         document.getElementById('score').textContent = `Score: ${score}`;
+       }
+   
+       startGame();
+     
+   </script>

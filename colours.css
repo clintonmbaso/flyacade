@@ -1,0 +1,165 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      background-color: #f7f7f7;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #game-container {
+      text-align: center;
+    }
+
+    #canvas {
+      width: 80vw;
+      height: 200px;
+      border: 2px solid #000;
+      margin: 20px;
+      overflow: hidden;
+      position: relative;
+      animation: scaleUp 0.5s ease-in-out;
+    }
+
+    #shape {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+    }
+
+    #colorName {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .colorButton {
+      padding: 5px;
+      margin: 2px;
+      width: 80px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 14px;
+      align-text: center;
+      transition: background-color 0.3s;
+    }
+
+    .colorButton:hover {
+      background-color: #45a049;
+    }
+
+    .score {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    @keyframes scaleUp {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      background-color: #f7f7f7;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #game-container {
+      text-align: center;
+    }
+
+    #canvas {
+      width: 80vw;
+      height: 200px;
+      border: 2px solid #000;
+      margin: 20px;
+      overflow: hidden;
+      position: relative;
+      animation: scaleUp 0.5s ease-in-out;
+    }
+
+    #shape {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+    }
+
+    #colorName {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .colorButton {
+      padding: 5px;
+      margin: 2px;
+      width: 80px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 14px;
+      align-text: center;
+      transition: background-color 0.3s;
+    }
+
+    .colorButton:hover {
+      background-color: #45a049;
+    }
+
+    .score {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    @keyframes scaleUp {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+}
