@@ -171,7 +171,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customizable Calendar</title>
+    <title>Flying Calendar</title>
 </head>
 <body>
   <!-- Date Picker Triggered by Clicking on Month and Year -->
@@ -199,7 +199,7 @@
    <div id="eventModal" class="modal" onclick="closeModal()">
       <div class="modal-content">
          <h3></h3>
-         <p>Event Details:</p>
+         <p><b>Event Details:</b></p>
          <p id="eventList">
          <p id="eventDetails">
          <button class="close-button" onclick="closeModal()">Close</button>
@@ -252,7 +252,7 @@
              events = [`New Year on ${currentDate.getFullYear() + 1}-01-${i}`, `The day we rejoice on as it represents a fresh beginnings.`];
    			
            } else if (currentDate.getMonth() === 11 && i === 29) {
-             events = [`School Open on ${currentDate.getFullYear()}-01-${i}`];
+             events = [`School Open on ${currentDate.getFullYear() + 1}-01-${i}`];
    			
    	    // February
    			
