@@ -1841,6 +1841,28 @@ body
    font-size: 13px;
    line-height: 16px;
 }
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: right;
+   vertical-align: top;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
 #SiteSearch
 {
    border-top-width: 0px;
@@ -3983,12 +4005,8 @@ body
 }
 #PanelLayer_panel
 {
-   background-color: transparent;
-   background-image: url('images/IMG_5535.jpg');
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-attachment: fixed;
-   background-size: cover;
+   background-color: rgba(0,0,0,0.59);
+   background-image: none;
    border-radius: 0px;
    display: none;
    position: fixed;
@@ -7008,8 +7026,8 @@ body
 }
 #EmbeddedPage1
 {
-   width: 79px;
-   height: 51px;
+   width: 797px;
+   height: 544px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -7058,12 +7076,6 @@ body
    left: 691px;
    top: 1px;
    width: 306px;
-   background-color: transparent;
-   background-image: url('images/IMG_5535.jpg');
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-attachment: fixed;
-   background-size: cover;
 }
 #PanelLayer
 {
@@ -9251,7 +9263,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 33px;
+   width: 42px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -9260,7 +9272,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 33px;
+   width: 42px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -9291,9 +9303,6 @@ body
    left: 329px;
    top: 4px;
    width: 306px;
-   background-color: rgba(0,0,0,0.58);
-   background-image: none;
-   background-image: none;
 }
 #PanelLayer
 {
