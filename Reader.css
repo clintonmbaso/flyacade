@@ -1171,6 +1171,28 @@ body
    font-size: 13px;
    line-height: 16px;
 }
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: right;
+   vertical-align: top;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
 #SiteSearch
 {
    border-top-width: 0px;
@@ -4985,12 +5007,8 @@ body
 }
 #PanelLayer_panel
 {
-   background-color: transparent;
-   background-image: url('images/IMG_5535.jpg');
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-attachment: fixed;
-   background-size: cover;
+   background-color: rgba(0,0,0,0.59);
+   background-image: none;
    border-radius: 0px;
    display: none;
    position: fixed;
@@ -6304,7 +6322,7 @@ body
 {
    outline: 0;
 }
-#shaelynMbaso1 
+#wb_shaelynMbaso1 
 {
    background-color: rgba(238,238,238,0.39);
    background-image: none;
@@ -6317,23 +6335,52 @@ body
    text-align: center;
    box-shadow: 0px 0px 10px #008B8B;
 }
-#shaelynMbaso1
+#wb_shaelynMbaso1
 {
    color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
 }
-#shaelynMbaso1 div
+#wb_shaelynMbaso1 div
 {
    text-align: center;
 }
-#shaelynMbaso1
+#wb_shaelynMbaso1
 {
    display: block;
    margin: 0;
    box-sizing: border-box;
    width: 100%;
+}
+#wb_shaelynMbaso1
+{
+   overflow: hidden;
+   position: relative;
+}
+#shaelynMbaso1
+{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   animation: shaelynMbaso1-marquee 10000ms linear infinite;
+}
+@keyframes shaelynMbaso1-marquee
+{
+   0%
+   {
+   transform: translateX(100%);
+   }
+   100%
+   {
+   transform: translateX(-100%);
+   }
+}
+#wb_shaelynMbaso1:hover #shaelynMbaso1
+{
+   animation-play-state: paused;
 }
 #wb_Card6
 {
@@ -6359,9 +6406,6 @@ body
    width: 155px;
    height: 35px;
    z-index: 24;
-}
-#shaelynMbaso1
-{
 }
 #wb_callFontAwesomeIcon
 {
@@ -8642,7 +8686,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 33px;
+   width: 42px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -8651,7 +8695,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 33px;
+   width: 42px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -8682,9 +8726,6 @@ body
    left: 329px;
    top: 4px;
    width: 306px;
-   background-color: rgba(0,0,0,0.58);
-   background-image: none;
-   background-image: none;
 }
 #PanelLayer
 {
@@ -10103,7 +10144,7 @@ body
    visibility: visible;
    display: block;
 }
-#shaelynMbaso1
+#wb_shaelynMbaso1
 {
    font-family: Arial;
    font-weight: 400;
