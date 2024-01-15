@@ -3517,57 +3517,6 @@ body
 {
    background-color: #EEEEEE;
 }
-#wb_facebookIconFont
-{
-   background-color: #1E90FF;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   animation: twister-down-in 2000ms ease 0ms 1 normal both;
-   margin: 0;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-}
-#wb_facebookIconFont a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_facebookIconFont:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-}
-#facebookIconFont
-{
-   height: 15px;
-   width: 15px;
-}
-#facebookIconFont i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 15px;
-   line-height: 15px;
-   vertical-align: middle;
-   width: 14px;
-}
-#wb_facebookIconFont:hover #facebookIconFont i
-{
-   color: #4F4F4F;
-}
-#wb_facebookIconFont
-{
-   transition: all 500ms linear 0ms;
-}
 #wb_menuPanel a, #menuPanel_markup li a
 {
    display: block;
@@ -4658,7 +4607,7 @@ body
 {
    outline: 0;
 }
-#Btn20
+#Btn16
 {
    border: 1px solid #2E6DA4;
    border-radius: 4px;
@@ -4675,7 +4624,7 @@ body
    margin: 0;
 }
 }
-#Btn20:focus
+#Btn16:focus
 {
    outline: 0;
 }
@@ -5814,7 +5763,7 @@ body
 #wb_linksTabMenu
 {
    display: inline-block;
-   width: 324px;
+   width: 334px;
    height: 34px;
    z-index: 99;
    overflow: hidden;
@@ -5892,13 +5841,6 @@ body
    height: 35px;
    z-index: 47;
 }
-#Btn20
-{
-   display: inline-block;
-   width: 155px;
-   height: 35px;
-   z-index: 35;
-}
 #PanelLayer
 {
    text-align: right;
@@ -5909,15 +5851,6 @@ body
    width: 155px;
    height: 35px;
    z-index: 74;
-}
-#Html4
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 22px;
-   height: 21px;
-   z-index: 193;
 }
 #blog18
 {
@@ -6037,15 +5970,6 @@ body
    height: 35px;
    z-index: 20;
 }
-#wb_EmbeddedPage2
-{
-   position: absolute;
-   left: 417px;
-   top: 132px;
-   width: 22px;
-   height: 21px;
-   z-index: 297;
-}
 #blog24
 {
    overflow: hidden;
@@ -6079,17 +6003,6 @@ body
    display: inline-block;
    width: 100%;
    z-index: 2;
-}
-#wb_facebookIconFont
-{
-   position: absolute;
-   left: 0px;
-   top: 33px;
-   width: 15px;
-   height: 15px;
-   visibility: hidden;
-   text-align: center;
-   z-index: 194;
 }
 #blog23
 {
@@ -6201,6 +6114,13 @@ body
 #blog2
 {
    overflow: hidden;
+}
+#Btn16
+{
+   display: inline-block;
+   width: 155px;
+   height: 35px;
+   z-index: 35;
 }
 #blog20
 {
@@ -6648,7 +6568,7 @@ body
 }
 #wb_linksTabMenu
 {
-   width: 326px;
+   width: 336px;
    height: 36px;
    visibility: visible;
    display: inline-block;
@@ -7528,15 +7448,6 @@ body
 {
    display: block;
 }
-#wb_EmbeddedPage2
-{
-   left: 320px;
-   top: 57px;
-   width: 22px;
-   height: 21px;
-   visibility: visible;
-   display: inline;
-}
 #EmbeddedPage1
 {
    width: 320px;
@@ -8261,7 +8172,7 @@ body
    border-bottom-right-radius: 0px;
    border-bottom-left-radius: 30px;
 }
-#Btn20
+#Btn16
 {
    width: 130px;
    height: 25px;
@@ -9273,69 +9184,7 @@ body
    border-bottom-left-radius: 0px;
 }
 }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    #bottomSheet {
-      display: none;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      border-radius: 20px 20px 0 0;
-      width: 100%;
-      max-width: 400px;
-      height: 50%;
-      background-color: rgba(255,245,249,0.9);
-      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-      padding: 5px;
-      box-sizing: border-box;
-      align-content:center;
-    }
-    #bottomSheet button {
-      background: none;
-      border: none;
-      padding: 0;
-      margin: 0 10px;
-      cursor: pointer;
-      
-    }
-    .openicon, #openButton {
-      position: fixed;
-      bottom: 15px;
-      right: 15px;
-      width: 50px;
-      height: 50px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 1;
-      background: transparent;
-    }
-  
-  .icons {
-    width: 40px;
-    height: 40px;
-    margin: 0px;
-  }
-  
-  #icons {
-    width: 20px;
-    height: 20px;
-  }
-    .bridget {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            filter: blur(20px);
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust background color and opacity as needed */
-            z-index: 0;
-        }
-        
-            .navigation-buttons {
+          .navigation-buttons {
             display: flex;
         }
   
