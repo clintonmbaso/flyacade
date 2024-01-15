@@ -128,6 +128,243 @@ body
    width: 100% !important;
 }
 }
+#wb_lg1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url('images/2.JPG');
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lg1
+{
+   box-sizing: border-box;
+   padding: 2px 15px 2px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#lg1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lg1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lg1 > .row > .col-1
+{
+   float: left;
+}
+#lg1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#lg1 > .row > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0 10px 0;
+}
+#lg1:before,
+#lg1:after,
+#lg1 .row:before,
+#lg1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lg1:after,
+#lg1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lg1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_lg2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url('images/2.JPG');
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lg2
+{
+   box-sizing: border-box;
+   padding: 2px 15px 2px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#lg2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lg2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lg2 > .row > .col-1
+{
+   float: left;
+}
+#lg2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#lg2 > .row > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0 10px 0;
+}
+#lg2:before,
+#lg2:after,
+#lg2 .row:before,
+#lg2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lg2:after,
+#lg2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lg2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_lg3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url('images/2.JPG');
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lg3
+{
+   box-sizing: border-box;
+   padding: 2px 15px 2px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#lg3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lg3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lg3 > .row > .col-1
+{
+   float: left;
+}
+#lg3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#lg3 > .row > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0 10px 0;
+}
+#lg3:before,
+#lg3:after,
+#lg3 .row:before,
+#lg3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#lg3:after,
+#lg3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lg3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
 #blog1
 {
    background-color: rgba(255,255,255,0.78);
@@ -870,7 +1107,6 @@ body
    background-color: #FFFFFF;
    background-image: none;
    border: 1px solid #DDDDDD;
-   box-sizing: border-box;
    padding: 4px 4px 4px 4px;
    margin: 0;
 }
@@ -4105,85 +4341,6 @@ body
 {
    text-align: center;
 }
-#wb_LayoutGrid3
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: url('images/2.JPG');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid3
-{
-   box-sizing: border-box;
-   padding: 2px 15px 2px 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#LayoutGrid3 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid3 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid3 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid3 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#LayoutGrid3 > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 10px 0 10px 0;
-}
-#LayoutGrid3:before,
-#LayoutGrid3:after,
-#LayoutGrid3 .row:before,
-#LayoutGrid3 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid3:after,
-#LayoutGrid3 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid3 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_LayoutGrid17
 {
    clear: both;
@@ -4627,85 +4784,6 @@ body
 #Btn16:focus
 {
    outline: 0;
-}
-#wb_LayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: url('images/2.JPG');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 2px 15px 2px 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#LayoutGrid1 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 10px 0 10px 0;
-}
-#LayoutGrid1:before,
-#LayoutGrid1:after,
-#LayoutGrid1 .row:before,
-#LayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid1:after,
-#LayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
 }
 #wb_LayoutGrid2
 {
@@ -5151,85 +5229,6 @@ body
 {
    outline: 0;
 }
-#wb_LayoutGrid4
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: url('images/2.JPG');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid4
-{
-   box-sizing: border-box;
-   padding: 2px 15px 2px 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#LayoutGrid4 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#LayoutGrid4 > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 10px 0 10px 0;
-}
-#LayoutGrid4:before,
-#LayoutGrid4:after,
-#LayoutGrid4 .row:before,
-#LayoutGrid4 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid4:after,
-#LayoutGrid4 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid4 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_LayoutGrid5
 {
    clear: both;
@@ -5674,6 +5673,69 @@ body
 {
    outline: 0;
 }
+#Button33
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+}
+#Button33:focus
+{
+   outline: 0;
+}
+#Button34
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+}
+#Button34:focus
+{
+   outline: 0;
+}
+#Button35
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+}
+#Button35:focus
+{
+   outline: 0;
+}
 #blog17
 {
    overflow: hidden;
@@ -5683,35 +5745,35 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 80;
+   z-index: 82;
 }
 #Button13
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 59;
+   z-index: 62;
 }
 #Button4
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 50;
+   z-index: 53;
 }
 #Btn12
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 31;
+   z-index: 35;
 }
 #Btn9
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 28;
+   z-index: 32;
 }
 #wb_callFontAwesomeIcon
 {
@@ -5719,14 +5781,14 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 106;
+   z-index: 105;
 }
 #Button22
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 79;
+   z-index: 81;
 }
 #blog14
 {
@@ -5737,35 +5799,42 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 56;
+   z-index: 59;
 }
 #Button3
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 49;
+   z-index: 52;
 }
 #Btn13
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 32;
+   z-index: 36;
 }
 #Btn8
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 27;
+   z-index: 31;
+}
+#Button34
+{
+   display: inline-block;
+   width: 110px;
+   height: 37px;
+   z-index: 20;
 }
 #wb_linksTabMenu
 {
    display: inline-block;
    width: 334px;
    height: 34px;
-   z-index: 99;
+   z-index: 18;
    overflow: hidden;
 }
 #wb_OverlayMenu2
@@ -5779,7 +5848,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 78;
+   z-index: 80;
 }
 #blog15
 {
@@ -5790,14 +5859,21 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 57;
+   z-index: 60;
 }
 #Button2
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 48;
+   z-index: 51;
+}
+#Button35
+{
+   display: inline-block;
+   width: 100px;
+   height: 37px;
+   z-index: 21;
 }
 #wb_home_logo
 {
@@ -5825,32 +5901,44 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 77;
+   z-index: 79;
 }
 #Button16
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 62;
+   z-index: 65;
 }
 #Button1
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 47;
+   z-index: 50;
 }
 #PanelLayer
 {
    text-align: right;
+}
+#tabs1-page-3
+{
+   height: 356px;
+}
+#tabs1-page-2
+{
+   height: 356px;
+}
+#tabs1-page-1
+{
+   height: 356px;
 }
 #Button17
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 74;
+   z-index: 76;
 }
 #blog18
 {
@@ -5861,7 +5949,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 87;
+   z-index: 89;
 }
 #blog9
 {
@@ -5872,14 +5960,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 60;
+   z-index: 63;
 }
 #Btn5
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 24;
+   z-index: 28;
 }
 #wb_facebookFontAwesomeIcon
 {
@@ -5887,7 +5975,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 105;
+   z-index: 104;
 }
 #blog19
 {
@@ -5898,14 +5986,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 88;
+   z-index: 90;
 }
 #Button15
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 61;
+   z-index: 64;
 }
 #blog8
 {
@@ -5916,21 +6004,21 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 23;
+   z-index: 27;
 }
 #Button32
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 89;
+   z-index: 91;
 }
 #Btn7
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 26;
+   z-index: 30;
 }
 #wb_smsFontAwesomeIcon
 {
@@ -5938,7 +6026,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 108;
+   z-index: 107;
 }
 #blog7
 {
@@ -5949,7 +6037,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 25;
+   z-index: 29;
+}
+#Button33
+{
+   display: inline-block;
+   width: 100px;
+   height: 37px;
+   z-index: 19;
 }
 #wb_menuPanel
 {
@@ -5968,7 +6063,16 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 20;
+   z-index: 24;
+}
+#Tabs1
+{
+   position: absolute;
+   left: 2px;
+   top: 159px;
+   width: 956px;
+   height: 402px;
+   z-index: 138;
 }
 #blog24
 {
@@ -5979,24 +6083,18 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 86;
+   z-index: 88;
 }
 #Button18
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 75;
+   z-index: 77;
 }
 #blog5
 {
    overflow: hidden;
-}
-#Tabs1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 100;
 }
 #wb_Heading20
 {
@@ -6013,14 +6111,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 85;
+   z-index: 87;
 }
 #Button19
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 76;
+   z-index: 78;
 }
 #blog4
 {
@@ -6031,14 +6129,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 33;
+   z-index: 37;
 }
 #Btn3
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 22;
+   z-index: 26;
 }
 #wb_IconFont2
 {
@@ -6061,7 +6159,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 55;
+   z-index: 58;
 }
 #blog3
 {
@@ -6072,14 +6170,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 34;
+   z-index: 38;
 }
 #Btn2
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 21;
+   z-index: 25;
 }
 #wb_emailFontAwesomeIcon
 {
@@ -6087,7 +6185,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 104;
+   z-index: 103;
 }
 #blog21
 {
@@ -6098,7 +6196,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 84;
+   z-index: 86;
 }
 #blog13
 {
@@ -6109,7 +6207,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 54;
+   z-index: 57;
 }
 #blog2
 {
@@ -6120,7 +6218,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 35;
+   z-index: 39;
 }
 #blog20
 {
@@ -6131,7 +6229,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 83;
+   z-index: 85;
 }
 #blog10
 {
@@ -6142,7 +6240,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 53;
+   z-index: 56;
 }
 #blog1
 {
@@ -6153,7 +6251,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 82;
+   z-index: 84;
 }
 #blog11
 {
@@ -6164,14 +6262,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 52;
+   z-index: 55;
 }
 #Btn10
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 29;
+   z-index: 33;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -6179,14 +6277,14 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 107;
+   z-index: 106;
 }
 #Button24
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 81;
+   z-index: 83;
 }
 #blog16
 {
@@ -6197,21 +6295,21 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 58;
+   z-index: 61;
 }
 #Button5
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 51;
+   z-index: 54;
 }
 #Btn11
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 30;
+   z-index: 34;
 }
 @media only screen and (max-width: 969px)
 {
@@ -6272,6 +6370,90 @@ body
 {
    margin-right: -2px;
    margin-left: -2px;
+}
+#wb_lg1
+{
+   visibility: visible;
+   display: table;
+   background-color: transparent;
+   background-image: url('images/IMG_5535.png');
+   background-repeat: repeat;
+   background-position: left top;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+}
+#wb_lg1
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lg1
+{
+   height: auto;
+   padding: 2px 5px 2px 5px;
+}
+#lg1 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#wb_lg2
+{
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: url('images/IMG_5535.png');
+   background-repeat: repeat;
+   background-position: left top;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+}
+#wb_lg2
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lg2
+{
+   height: auto;
+   padding: 2px 5px 2px 5px;
+}
+#lg2 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#wb_lg3
+{
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: url('images/IMG_5535.png');
+   background-repeat: repeat;
+   background-position: left top;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+}
+#wb_lg3
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lg3
+{
+   height: auto;
+   padding: 2px 5px 2px 5px;
+}
+#lg3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
 }
 #blog1
 {
@@ -6561,7 +6743,10 @@ body
 }
 #Tabs1
 {
-   width: 100%;
+   left: 399px;
+   top: 1229px;
+   width: 306px;
+   height: 416px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -7707,34 +7892,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_LayoutGrid3
-{
-   visibility: visible;
-   display: table;
-   background-color: transparent;
-   background-image: url('images/IMG_5535.png');
-   background-repeat: repeat;
-   background-position: left top;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
-}
-#wb_LayoutGrid3
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid3
-{
-   height: auto;
-   padding: 2px 5px 2px 5px;
-}
-#LayoutGrid3 .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
 #wb_LayoutGrid17
 {
    visibility: visible;
@@ -8198,34 +8355,6 @@ body
    border-top-right-radius: 0px;
    border-bottom-right-radius: 30px;
    border-bottom-left-radius: 0px;
-}
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   background-color: transparent;
-   background-image: url('images/IMG_5535.png');
-   background-repeat: repeat;
-   background-position: left top;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
-}
-#wb_LayoutGrid1
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   height: auto;
-   padding: 2px 5px 2px 5px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
 }
 #wb_LayoutGrid2
 {
@@ -8691,34 +8820,6 @@ body
    border-bottom-right-radius: 30px;
    border-bottom-left-radius: 0px;
 }
-#wb_LayoutGrid4
-{
-   visibility: visible;
-   display: table;
-   background-color: transparent;
-   background-image: url('images/IMG_5535.png');
-   background-repeat: repeat;
-   background-position: left top;
-   background-attachment: fixed;
-   background-position: 50% 0;
-   background-size: cover;
-}
-#wb_LayoutGrid4
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid4
-{
-   height: auto;
-   padding: 2px 5px 2px 5px;
-}
-#LayoutGrid4 .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
 #wb_LayoutGrid5
 {
    visibility: visible;
@@ -9182,6 +9283,87 @@ body
    border-top-right-radius: 0px;
    border-bottom-right-radius: 30px;
    border-bottom-left-radius: 0px;
+}
+#Button33
+{
+   width: 100px;
+   height: 32px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 0 5px 0 ;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(0,100,0,0.59);
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+#Button34
+{
+   width: 100px;
+   height: 32px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 5px 5px 5px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(0,100,0,0.59);
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+#Button35
+{
+   width: 100px;
+   height: 32px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 0 5px 0 ;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(0,100,0,0.59);
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
 }
 }
           .navigation-buttons {
