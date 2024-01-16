@@ -214,12 +214,8 @@ body
 }
 #PanelLayer_panel
 {
-   background-color: transparent;
-   background-image: url('images/IMG_5535.jpg');
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-attachment: fixed;
-   background-size: cover;
+   background-color: rgba(0,0,0,0.59);
+   background-image: none;
    border-radius: 0px;
    display: none;
    position: fixed;
@@ -930,7 +926,7 @@ body
    top: 0px;
    width: 22px;
    height: 22px;
-   z-index: 44;
+   z-index: 43;
 }
 #wb_Heading20
 {
@@ -1010,7 +1006,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 40px;
+   width: 44px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -1019,7 +1015,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 40px;
+   width: 44px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -1050,9 +1046,6 @@ body
    left: 329px;
    top: 4px;
    width: 306px;
-   background-color: rgba(0,0,0,0.58);
-   background-image: none;
-   background-image: none;
 }
 #PanelLayer
 {
@@ -1346,7 +1339,7 @@ body
       left: 0;
       border-radius: 20px 20px 0 0;
       width: 100%;
-      maximum width: 600px;
+      max-width: 400px;
       height: 50%;
       background-color: rgba(255,245,249,0.9);
       box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
@@ -1408,7 +1401,7 @@ body
             padding: 5px;
             width: 80%;
             margin-top: 5px;
-            margin-left: 8%;
+            margin-left: 5%;
         }
         label {
             display: block;
