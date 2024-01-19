@@ -15,11 +15,6 @@
 <script>   
    $(document).ready(function()
    {
-      $("a[href*='#LayoutGrid26']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid26').offset().top-88 }, 600, 'easeOutCirc');
-      });
       $('#blog1').each(function()
       {
          var currentPage = 0;
@@ -46,6 +41,11 @@
          }
          $pager.prependTo($blog).find('span.page-number:first').addClass('active');
          repaginate();
+      });
+      $("a[href*='#LayoutGrid26']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid26').offset().top-88 }, 600, 'easeOutCirc');
       });
       $("a[href*='#lg1']").click(function(event)
       {
@@ -714,7 +714,7 @@
                   <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
                   <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
                   <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                  <li><a role="menuitem" href="#" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
+                  <li><a role="menuitem" href="./G1_SP1.html" onclick="window.location.href='./G1_SP1.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
                   <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
                </ul>
             </div>
@@ -784,9 +784,10 @@
                         <li><a href="./G1_English.html" class="active" itemprop="url"><span itemprop="name">E</span></a></li>
                         <li><a href="./G1_Science.html" itemprop="url"><span itemprop="name">S</span></a></li>
                         <li><a href="./G1_Literacy.html" itemprop="url"><span itemprop="name">Lit</span></a></li>
+                        <li><a href="./G1_SP1.html" itemprop="url"><span itemprop="name">SP1</span></a></li>
                         <li><a href="./G1_Social_Studies.html" itemprop="url"><span itemprop="name">S.S</span></a></li>
                         <li><a href="./G1_CTS.html" itemprop="url"><span itemprop="name">CTS</span></a></li>
-                        <li><a href="./Middle_Class.html" itemprop="url"><span itemprop="name">></span></a></li>
+                        <li><a href="./G2.html" itemprop="url"><span itemprop="name">></span></a></li>
                      </ul>
                   </div>
                   <input type="submit" id="Button35" onclick="ShowObjectWithEffect('wb_lg1', 1, 'fade', 1);ShowObjectWithEffect('wb_lg2', 0, 'fade', 1);ShowObjectWithEffect('wb_lg3', 0, 'fade', 1);return false;" name="" value="Term 1">
