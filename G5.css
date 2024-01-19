@@ -183,23 +183,23 @@ body
 #classeslayout
 {
    box-sizing: border-box;
-   padding: 0 2px 0 2px;
+   padding: 0 15px 0 15px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
 }
 #classeslayout > .row
 {
-   margin-right: -2px;
-   margin-left: -2px;
+   margin-right: -15px;
+   margin-left: -15px;
 }
 #classeslayout > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
    min-height: 1px;
-   padding-right: 2px;
-   padding-left: 2px;
+   padding-right: 15px;
+   padding-left: 15px;
    position: relative;
 }
 #classeslayout > .row > .col-1
@@ -209,7 +209,7 @@ body
 #classeslayout > .row > .col-1
 {
    background-color: transparent;
-   background-image: url('images/G2_classeslayout%2dcol1_bkgrnd.png');
+   background-image: url('images/G5_classeslayout%2dcol1_bkgrnd.png');
    background-repeat: repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -236,6 +236,94 @@ body
 {
    float: none;
    width: 100%;
+}
+}
+#TabMenu2
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 15px 0 4px 10px;
+   overflow: hidden;
+}
+#TabMenu2 li
+{
+   float: left;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   position: relative;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu2 li a
+{
+   padding: 5px 8px 8px 8px;
+   margin-right: 0px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   transition: 200ms all ease-in;
+}
+#TabMenu2 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#TabMenu2
+{
+   border-bottom: 1px solid #C0C0C0;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   background-color: #00FA9A;
+   color: #8A2BE2;
+}
+#TabMenu2 li a
+{
+   border: 1px solid #C0C0C0;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #EEEEEE;
+   color: #666666;
+}
+#TabMenu2 li a:hover
+{
+   background-color: #C0C0C0;
+   color: #666666;
+}
+@media all and (max-width:310px) 
+{
+#TabMenu2
+{
+   border-bottom: none;
+   float: none;
+   padding: 0;
+}
+#TabMenu2 li
+{
+   float: none;
+}
+#TabMenu2 li a
+{
+   display: block;
+   margin: 0 0 0px 0;
+   padding: 5px 8px 4px 8px;
+}
+#TabMenu2 li a:hover
+{
+   top: 0;
 }
 }
 #wb_quizgrid1
@@ -327,6 +415,234 @@ body
    width: 100% !important;
 }
 }
+#wb_englishlanguageCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#englishlanguageCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#englishlanguageCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#englishlanguageCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#englishlanguageCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_integratedscienceCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#integratedscienceCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#integratedscienceCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#integratedscienceCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#integratedscienceCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Button4
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button4:focus
+{
+   outline: 0;
+}
+#wb_Card14
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#Card14-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card14-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card14-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card14-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Button1
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button1:focus
+{
+   outline: 0;
+}
+#Button2
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button2:focus
+{
+   outline: 0;
+}
 #wb_quizgrid2
 {
    clear: both;
@@ -416,6 +732,234 @@ body
    width: 100% !important;
 }
 }
+#wb_languageliteracyCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#languageliteracyCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#languageliteracyCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#languageliteracyCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#languageliteracyCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_socialstudiesCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#socialstudiesCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#socialstudiesCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#socialstudiesCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#socialstudiesCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_homeeconomicsCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#homeeconomicsCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#homeeconomicsCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#homeeconomicsCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#homeeconomicsCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Button3
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button3:focus
+{
+   outline: 0;
+}
+#Button5
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button5:focus
+{
+   outline: 0;
+}
+#Button6
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button6:focus
+{
+   outline: 0;
+}
 #wb_quizgrid3
 {
    clear: both;
@@ -504,6 +1048,234 @@ body
    float: none;
    width: 100% !important;
 }
+}
+#wb_technologystudyCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#technologystudyCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#technologystudyCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#technologystudyCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 21px;
+}
+#technologystudyCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_expressiveartsCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#expressiveartsCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#expressiveartsCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#expressiveartsCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#expressiveartsCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card12
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#Card12-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card12-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card12-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card12-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Button7
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button7:focus
+{
+   outline: 0;
+}
+#Button8
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button8:focus
+{
+   outline: 0;
+}
+#Button9
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button9:focus
+{
+   outline: 0;
 }
 #wb_lowerfooterLayoutGrid
 {
@@ -629,7 +1401,7 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#wb_Text7 
+#wb_Text10 
 {
    background-color: transparent;
    background-image: none;
@@ -639,11 +1411,11 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_Text7 div
+#wb_Text10 div
 {
    text-align: center;
 }
-#wb_Text7
+#wb_Text10
 {
    display: block;
    margin: 0;
@@ -1130,778 +1902,6 @@ body
    margin: 5px 0 5px 0 ;
    box-sizing: border-box;
    width: 100%;
-}
-#wb_englishlanguageCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#englishlanguageCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#englishlanguageCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#englishlanguageCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#englishlanguageCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_integratedscienceCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#integratedscienceCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#integratedscienceCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#integratedscienceCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#integratedscienceCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#Button4
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button4:focus
-{
-   outline: 0;
-}
-#wb_Card14
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#Card14-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#Card14-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#Card14-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#Card14-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#Button1
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button1:focus
-{
-   outline: 0;
-}
-#Button2
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button2:focus
-{
-   outline: 0;
-}
-#wb_languageliteracyCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#languageliteracyCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#languageliteracyCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#languageliteracyCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#languageliteracyCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_socialstudiesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#socialstudiesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#socialstudiesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#socialstudiesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#socialstudiesCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_homeeconomicsCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#homeeconomicsCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#homeeconomicsCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#homeeconomicsCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#homeeconomicsCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#Button3
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button3:focus
-{
-   outline: 0;
-}
-#Button5
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button5:focus
-{
-   outline: 0;
-}
-#Button6
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button6:focus
-{
-   outline: 0;
-}
-#wb_technologystudyCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#technologystudyCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#technologystudyCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#technologystudyCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#technologystudyCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_expressiveartsCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#expressiveartsCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#expressiveartsCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#expressiveartsCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#expressiveartsCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_Card12
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#Card12-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#Card12-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#Card12-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#Card12-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#Button7
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button7:focus
-{
-   outline: 0;
-}
-#Button8
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button8:focus
-{
-   outline: 0;
-}
-#Button9
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button9:focus
-{
-   outline: 0;
-}
-#TabMenu2
-{
-   text-align: left;
-   float: left;
-   margin: 0;
-   width: 100%;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   list-style-type: none;
-   padding: 15px 0 4px 10px;
-   overflow: hidden;
-}
-#TabMenu2 li
-{
-   float: left;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   position: relative;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   z-index: 2;
-}
-#TabMenu2 li a
-{
-   padding: 5px 10px 8px 10px;
-   margin-right: 0px;
-   text-decoration: none;
-   border-bottom: none;
-   position: relative;
-   top: 0;
-   transition: 200ms all ease-in;
-}
-#TabMenu2 li a:hover
-{
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   top: -4px;
-}
-#TabMenu2
-{
-   border-bottom: 1px solid #C0C0C0;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   background-color: #00FA9A;
-   color: #8A2BE2;
-}
-#TabMenu2 li a
-{
-   border: 1px solid #C0C0C0;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   background-color: #EEEEEE;
-   color: #666666;
-}
-#TabMenu2 li a:hover
-{
-   background-color: #C0C0C0;
-   color: #666666;
-}
-@media all and (max-width:310px) 
-{
-#TabMenu2
-{
-   border-bottom: none;
-   float: none;
-   padding: 0;
-}
-#TabMenu2 li
-{
-   float: none;
-}
-#TabMenu2 li a
-{
-   display: block;
-   margin: 0 0 0px 0;
-   padding: 5px 10px 4px 10px;
-}
-#TabMenu2 li a:hover
-{
-   top: 0;
-}
 }
 #wb_facebookIconFont
 {
@@ -2687,8 +2687,8 @@ body
 #wb_EmbeddedPage2
 {
    position: absolute;
-   left: 417px;
-   top: 132px;
+   left: 970px;
+   top: 75px;
    width: 22px;
    height: 21px;
    z-index: 77;
@@ -2696,7 +2696,7 @@ body
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 307px;
+   width: 339px;
    height: 34px;
    z-index: 18;
    overflow: hidden;
@@ -2877,17 +2877,17 @@ body
 #classeslayout
 {
    height: auto;
-   padding: 0 2px 0 2px;
+   padding: 0 15px 0 15px;
 }
 #classeslayout .row
 {
-   margin-right: -2px;
-   margin-left: -2px;
+   margin-right: -15px;
+   margin-left: -15px;
 }
 #classeslayout > .row > .col-1
 {
-   padding-right: 2px;
-   padding-left: 2px;
+   padding-right: 15px;
+   padding-left: 15px;
 }
 #classeslayout > .row > .col-1
 {
@@ -2896,6 +2896,14 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
+}
+#wb_TabMenu2
+{
+   width: 341px;
+   height: 36px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
 }
 #wb_quizgrid1
 {
@@ -2918,6 +2926,186 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
+#wb_englishlanguageCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#englishlanguageCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#englishlanguageCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#englishlanguageCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_englishlanguageCard
+{
+   text-align: left;
+}
+#wb_integratedscienceCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#integratedscienceCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#integratedscienceCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#integratedscienceCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_integratedscienceCard
+{
+   text-align: left;
+}
+#Button4
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button4
+{
+   line-height: 21px;
+}
+#wb_Card14
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#Card14-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card14-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card14-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card14
+{
+   text-align: left;
+}
+#Button1
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button1
+{
+   line-height: 21px;
+}
+#Button2
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button2
+{
+   line-height: 21px;
+}
 #wb_quizgrid2
 {
    visibility: visible;
@@ -2939,6 +3127,186 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
+#wb_languageliteracyCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#languageliteracyCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#languageliteracyCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#languageliteracyCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_languageliteracyCard
+{
+   text-align: left;
+}
+#wb_socialstudiesCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#socialstudiesCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#socialstudiesCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#socialstudiesCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_socialstudiesCard
+{
+   text-align: left;
+}
+#wb_homeeconomicsCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#homeeconomicsCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#homeeconomicsCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#homeeconomicsCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_homeeconomicsCard
+{
+   text-align: left;
+}
+#Button3
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button3
+{
+   line-height: 21px;
+}
+#Button5
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button5
+{
+   line-height: 21px;
+}
+#Button6
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button6
+{
+   line-height: 21px;
+}
 #wb_quizgrid3
 {
    visibility: visible;
@@ -2959,6 +3327,186 @@ body
 {
    margin-right: -15px;
    margin-left: -15px;
+}
+#wb_technologystudyCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#technologystudyCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#technologystudyCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 21px;
+}
+#technologystudyCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_technologystudyCard
+{
+   text-align: left;
+}
+#wb_expressiveartsCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#expressiveartsCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#expressiveartsCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#expressiveartsCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_expressiveartsCard
+{
+   text-align: left;
+}
+#wb_Card12
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#Card12-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card12-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card12-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card12
+{
+   text-align: left;
+}
+#Button7
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button7
+{
+   line-height: 21px;
+}
+#Button8
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button8
+{
+   line-height: 21px;
+}
+#Button9
+{
+   width: 98px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button9
+{
+   line-height: 21px;
 }
 #wb_lowerfooterLayoutGrid
 {
@@ -3032,12 +3580,12 @@ body
    margin: 5px 0 0 0 ;
    padding: 5px 0 5px 0;
 }
-#wb_Text7
+#wb_Text10
 {
    visibility: visible;
    display: block;
 }
-#wb_Text7
+#wb_Text10
 {
    margin: 0;
    padding: 10px 0 10px 0;
@@ -3246,558 +3794,10 @@ body
    padding: 0;
    text-align: center;
 }
-#wb_englishlanguageCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#englishlanguageCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#englishlanguageCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#englishlanguageCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_englishlanguageCard
-{
-   text-align: left;
-}
-#wb_integratedscienceCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#integratedscienceCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#integratedscienceCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#integratedscienceCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_integratedscienceCard
-{
-   text-align: left;
-}
-#Button4
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button4
-{
-   line-height: 21px;
-}
-#wb_Card14
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#Card14-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#Card14-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#Card14-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_Card14
-{
-   text-align: left;
-}
-#Button1
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button1
-{
-   line-height: 21px;
-}
-#Button2
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button2
-{
-   line-height: 21px;
-}
-#wb_languageliteracyCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#languageliteracyCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#languageliteracyCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#languageliteracyCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_languageliteracyCard
-{
-   text-align: left;
-}
-#wb_socialstudiesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#socialstudiesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#socialstudiesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#socialstudiesCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_socialstudiesCard
-{
-   text-align: left;
-}
-#wb_homeeconomicsCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#homeeconomicsCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#homeeconomicsCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#homeeconomicsCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_homeeconomicsCard
-{
-   text-align: left;
-}
-#Button3
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button3
-{
-   line-height: 21px;
-}
-#Button5
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button5
-{
-   line-height: 21px;
-}
-#Button6
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button6
-{
-   line-height: 21px;
-}
-#wb_technologystudyCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#technologystudyCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#technologystudyCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#technologystudyCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_technologystudyCard
-{
-   text-align: left;
-}
-#wb_expressiveartsCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#expressiveartsCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#expressiveartsCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#expressiveartsCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_expressiveartsCard
-{
-   text-align: left;
-}
-#wb_Card12
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#Card12-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#Card12-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#Card12-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_Card12
-{
-   text-align: left;
-}
-#Button7
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button7
-{
-   line-height: 21px;
-}
-#Button8
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button8
-{
-   line-height: 21px;
-}
-#Button9
-{
-   width: 98px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button9
-{
-   line-height: 21px;
-}
-#wb_TabMenu2
-{
-   width: 312px;
-   height: 36px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
 #wb_EmbeddedPage2
 {
-   left: 320px;
-   top: 58px;
+   left: 759px;
+   top: 235px;
    width: 22px;
    height: 21px;
    visibility: visible;
@@ -3805,8 +3805,8 @@ body
 }
 #EmbeddedPage1
 {
-   width: 320px;
-   height: 57px;
+   width: 52px;
+   height: 46px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -3815,7 +3815,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 42px;
+   width: 6px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -3824,7 +3824,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 42px;
+   width: 6px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -3852,7 +3852,7 @@ body
 }
 #PanelLayer
 {
-   left: 329px;
+   left: 463px;
    top: 4px;
    width: 306px;
 }
