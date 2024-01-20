@@ -5658,7 +5658,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 42px;
+   width: 44px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -5667,7 +5667,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 42px;
+   width: 44px;
    height: 41px;
 }
 #menuPanel .line:first-child
