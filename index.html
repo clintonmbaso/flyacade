@@ -11,7 +11,7 @@
 <link href="FWA.ico" rel="shortcut icon" type="image/x-icon">
 <link href="owl.carousel.min.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="flyacade.css" rel="stylesheet">
+<link href="Flying_Wings_Academy.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.animatesvg.min.js"></script>
@@ -128,7 +128,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_backtoTop').offset().top }, 800, 'linear');
       });
-      $('#wb_LayoutGrid1').parallax();
       function onScrolltopfooterLayoutGridDividerTop()
       {
          var $obj = $('#topfooterLayoutGrid-divider-top');
@@ -249,13 +248,13 @@
       $('#grade3Text').parallax();
       $('#grade4Text').parallax();
       $("#CardContainer1").owlCarousel({autoplayTimeout:10000, margin: 16, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},320: {items: 1},480: {items: 1}, slideBy: 1}});
-      $('#Text8').parallax();
       $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
       $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
       {
          event.preventDefault();
          $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
       });
+      $('#Text4').parallax();
    });
 </script>
 <!-- Insert Google Analytics code here -->    <script>   
@@ -1032,68 +1031,30 @@
 </script>
 </head>
 <body>
-   <div id="FlexContainer2">
-      <div id="PanelLayer">
-         <div id="wb_IconFont2">
-            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
-         </div>
-         <div id="wb_Image1">
-            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
-         </div>
-         <div id="wb_Heading20">
-            <h2 id="Heading20">Flying Wings Academy</h2>
-         </div>
-         <div id="wb_OverlayMenu2">
-            <div class="OverlayMenu2">
-               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
-                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
-                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
-                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
-                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                  <li><a role="menuitem" href="#" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
-                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
-               </ul>
+   <div id="wb_HeaderLayoutGrid">
+      <div id="HeaderLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_home_logo">
+                  <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="244" height="200"></a>
+               </div>
             </div>
-         </div>
-         <div id="wb_Text40">
-            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-         </div>
-      </div>
-      <div id="wb_HeaderLayoutGrid">
-         <div id="HeaderLayoutGrid">
-            <div class="row">
-               <div class="col-1">
-                  <div id="wb_home_logo">
-                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
-                  </div>
+            <div class="col-2">
+               <div id="wb_Header">
+                  <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:24px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:24px;"><strong>ACADEMY</strong></span>
                </div>
-               <div class="col-2">
-                  <div id="wb_Header">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text3">
-                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text2">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text5">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text1">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text4">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text6">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
-                  </div>
+               <div id="wb_Text3">
+                  <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
                </div>
-               <div class="col-3">
+               <div id="wb_Text2">
+                  <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span>
+               </div>
+               <div id="wb_Text5">
+                  <span style="color:#C71585;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_EmbeddedPage1">
                   <div id="wb_menuPanel">
                      <a href="#PanelLayer" id="menuPanel">
                         <span class="line"></span>
@@ -1101,14 +1062,41 @@
                         <span class="line"></span>
                      </a>
                   </div>
+                  <div id="PanelLayer">
+                     <div id="wb_IconFont2">
+                        <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+                     </div>
+                     <div id="wb_Image1">
+                        <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+                     </div>
+                     <div id="wb_Heading20">
+                        <h2 id="Heading20">Flying Wings Academy</h2>
+                     </div>
+                     <div id="wb_OverlayMenu2">
+                        <div class="OverlayMenu2">
+                           <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                              <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                              <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
+                              <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
+                              <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
+                              <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
+                              <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
+                              <li><a role="menuitem" href="Player/New Player.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Music&nbsp;Player</a></li>
+                              <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
+                              <li><a role="menuitem" href="./News_Updates.html" onclick="window.location.href='./News_Updates.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Upcoming&nbsp;Events</a></li>
+                              <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                              <li><a role="menuitem" href="./About.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
+                              <li><a role="menuitem" href="./Contacts.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="wb_Text40">
+                        <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
-   </div>
-   <div id="FlexContainer3">
-      <div id="wb_Text9">
-         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
       </div>
    </div>
    <div id="wb_Slidehead">
@@ -1295,7 +1283,7 @@
                            <ul id="linksTabMenu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                               <li><a href="./Assessment.html" itemprop="url"><span itemprop="name">Quiz</span></a></li>
                               <li><a href="./Download.html" itemprop="url"><span itemprop="name">Files</span></a></li>
-                              <li><a href="#" itemprop="url"><span itemprop="name">Events</span></a></li>
+                              <li><a href="./News_Updates.html" itemprop="url"><span itemprop="name">Events</span></a></li>
                               <li><a href="./Study_Centre.html" itemprop="url"><span itemprop="name">Study</span></a></li>
                            </ul>
                         </div>
@@ -1581,7 +1569,7 @@
                                     <div id="wb_Image2">
                                        <a href="#" onclick="showPopup('Nimbus Navigators', 'Nurturing a sense of exploration and discovery, paralleling how nimbus clouds guide students through the educational journey with a touch of enchantment.', 'images/grade_6.png');return false;"><img src="images/grade_6.png" id="Image2" alt="" width="613" height="426"></a>
                                     </div>
-                                    <div id="wb_Text8">
+                                    <div id="wb_Text4">
                                        <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Grade 6 marks the transition to middle school with a comprehensive curriculum. Students delve into advanced language arts, mathematics, science, and social studies. They refine research and presentation skills through complex projects. Critical thinking is honed, and independence in learning is encouraged. The curriculum may include introductory subjects like foreign languages. Parents play a vital role by fostering organizational skills, supporting time management, and maintaining open communication with teachers to ensure a smooth academic progression.</span>
                                     </div>
                                     <div id="wb_otherservicesHeading">
@@ -1704,7 +1692,7 @@
                <input type="button" id="searchButton" onclick="searchPage();return false;" name="Search" value="Search">
                <div id="footerlinksFlexContainer">
                   <a id="testsButton" href="./Flying_Calendar.html">Calendar</a>
-                  <a id="updatesButton" href="#">Updates</a>
+                  <a id="updatesButton" href="./News_Updates.html">Updates</a>
                   <a id="downloadButton" href="./Download.html">Download</a>
                </div>
             </div>
@@ -1788,7 +1776,7 @@
                <div id="wb_locationText">
                   <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
                </div>
-               <div id="wb_Text7">
+               <div id="wb_Text1">
                   <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
                </div>
             </div>
@@ -1854,10 +1842,10 @@
          <button id="openButton"><img class="openicon" src="icons/flyacade.png"></button>
          <div id="bottomSheet">
             <p>Special Links</p>
-            <a href="./FWA.html"><button class="icon"><i id="icons" class="fa fa-sitemap"></i><br>OrgCharts</button></a>
+            <a href="./OrgCharts.html"><button class="icon"><i id="icons" class="fa fa-sitemap"></i><br>OrgCharts</button></a>
             <a href="./Flying_Calendar.html"><button class="icon"><i id="icons" class="fa fa-calendar"></i><br>Calendar</button></a>
             <a href="./Report.html"><button class="icon"><i id="icons" class="fa fa-address-card-o"></i><br>Report</button></a>
-            <a href="https://youtube.com/@flyingwingsacademy21"><button class="icon"><i id="icons" class="fa fa-diamond"></i><br>Videos</button></a>
+            <a href="./All.html"><button class="icon"><i id="icons" class="fa fa-diamond"></i><br>Admin</button></a>
             <a href="./Student_Search.html"><button class="icon"><i id="icons" class="fa fa-child"></i><br>Portal</button></a>
             <hr>
             <p>Game Links</p>
@@ -1870,7 +1858,7 @@
             <p>Other Links</p>
             <a href="./binary.html"><button class="icon"><i id="icons" class="fa fa-binoculars"></i><br>Binary</button></a>
             <a href="./Mathler.html"><button class="icon"><i id="icons" class="fa fa-superscript"></i><br>Mathler</button></a>
-            <a href="https://www.afrocharts.com/album?id=8425093255"><button class="icon"><i id="icons" class="fa fa-book"></i><br>Music</button></a>
+            <a href="./Church_Lessons.html"><button class="icon"><i id="icons" class="fa fa-book"></i><br>Church</button></a>
             <a href="./Assessment.html"><button class="icon"><i id="icons" class="fa fa-thermometer-three-quarters"></i><br>Quiz</button></a>
             <a href="./Flying_Sudoku.html"><button class="icon"><i id="icons" class="fa fa-suitcase"></i><br>Sudoku</button></a>
             <hr>
