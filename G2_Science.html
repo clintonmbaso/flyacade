@@ -1,0 +1,1781 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flyacade.css" rel="stylesheet">
+<link href="G2_Science.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#mainLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_mainLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog24').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#lg1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg1').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg3').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog1').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog2').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog4').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog5').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog6').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog7').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog9').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog10').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog11').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog12').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog13').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog14').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog15').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog16').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog17').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog18').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog19').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog20').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog21').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog22').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog23').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog3').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="FlexContainer2">
+      <div id="PanelLayer">
+         <div id="wb_IconFont2">
+            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+         </div>
+         <div id="wb_Image1">
+            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+         </div>
+         <div id="wb_Heading20">
+            <h2 id="Heading20">Flying Wings Academy</h2>
+         </div>
+         <div id="wb_OverlayMenu2">
+            <div class="OverlayMenu2">
+               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
+                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
+                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
+                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                  <li><a role="menuitem" href="./G1_SP1.html" onclick="window.location.href='./G1_SP1.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
+                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="wb_Text40">
+            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+         </div>
+      </div>
+      <div id="wb_HeaderLayoutGrid">
+         <div id="HeaderLayoutGrid">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_home_logo">
+                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div id="wb_Header">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text2">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text5">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text1">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text4">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text6">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexContainer3">
+      <div id="wb_Text9">
+         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
+      </div>
+   </div>
+   <div id="wb_mainLayoutGrid">
+      <div id="mainLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TabMenu1">
+                     <ul id="TabMenu1" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                        <li><a href="./Study_Centre.html" itemprop="url"><span itemprop="name">SC</span></a></li>
+                        <li><a href="./G2_Math.html" itemprop="url"><span itemprop="name">M</span></a></li>
+                        <li><a href="./G2_English.html" itemprop="url"><span itemprop="name">E</span></a></li>
+                        <li><a href="./G2_Science.html" class="active" itemprop="url"><span itemprop="name">S</span></a></li>
+                        <li><a href="./G2_Literacy.html" itemprop="url"><span itemprop="name">Lit</span></a></li>
+                        <li><a href="./G2_SP1.html" itemprop="url"><span itemprop="name">SP1</span></a></li>
+                        <li><a href="./G2_Social_Studies.html" itemprop="url"><span itemprop="name">S.S</span></a></li>
+                        <li><a href="./G2_CTS.html" itemprop="url"><span itemprop="name">CTS</span></a></li>
+                        <li><a href="./G3.html" itemprop="url"><span itemprop="name">></span></a></li>
+                     </ul>
+                  </div>
+                  <div id="wb_servicesHeading">
+                     <h2 id="servicesHeading">Grade 2 Science</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg1">
+      <div id="lg1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid28">
+                     <div id="LayoutGrid28">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text13">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 Science Term 1</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Btn1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn2" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn1', 0, 'fade', 1);ShowObjectWithEffect('Btn2', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObject('blog2', 1);ShowObject('blog1', 0);return false;" name="" value="Week 3">
+                  <input type="submit" id="Btn3" onclick="navigateToPage('blog1');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn1', 1, 'fade', 1);ShowObjectWithEffect('Btn2', 1, 'fade', 1);ShowObject('blog1', 1);ShowObject('blog2', 0);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Btn4" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObject('blog3', 1);ShowObject('blog2', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn5" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObject('blog2', 1);ShowObject('blog3', 0);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn6" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObject('blog4', 1);ShowObject('blog3', 0);return false;" name="" value="Week 5">
+                  <input type="submit" id="Btn7" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObject('blog3', 1);ShowObject('blog4', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn8" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObject('blog5', 1);ShowObject('blog4', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Btn9" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObject('blog4', 1);ShowObject('blog5', 0);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Btn10" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObject('blog6', 1);ShowObject('blog5', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn11" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObject('blog5', 1);ShowObject('blog6', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn12" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObject('blog7', 1);ShowObject('blog6', 0);return false;" name="" value="Week 9">
+                  <input type="submit" id="Btn13" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObject('blog6', 1);ShowObject('blog7', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn14" onclick="navigateToPage('blog8');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn15', 1, 'fade', 1);ShowObjectWithEffect('Btn16', 1, 'fade', 1);ShowObject('blog8', 1);ShowObject('blog7', 0);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Btn15" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn15', 0, 'fade', 1);ShowObjectWithEffect('Btn16', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObject('blog7', 1);ShowObject('blog8', 0);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="submit" id="Btn16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="Blog24">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Introduction to Living and Non-Living Things</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Define living and non-living things.<br>
+- Give examples of living things (plants, animals, people) and non-living things (rocks, water, toys).<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Introduction%20to%20Living%20and%20Non%2dLiving%20Things">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">Characteristics of Living Things</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, December 22, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Discuss the basic characteristics of living things (growth, reproduction, movement, and response to stimuli).<br>
+- Provide examples and activities to illustrate these characteristics.<br>
+                           <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Characteristics%20of%20Living%20Things">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">Characteristics of Non-Living Things</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, December 22, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Explain the characteristics of non-living things (no growth, no reproduction, no response to stimuli).<br>
+- Contrast these characteristics with living things.<br>
+                           <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Characteristics%20of%20Non%2dLiving%20Things">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog3">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L07 – Interactions Between Living and Non-Living Things</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Explain how living things interact with non-living elements in their environment (e.g., plants needing sunlight and water).<br>
+- Explore simple food chains to illustrate these interactions.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L07%20&#8211;%20Interactions%20Between%20Living%20and%20Non%2dLiving%20Things">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L08 – Review and Assessment</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Review the key concepts learned in the previous lessons.<br>
+- Conduct an assessment to test the students' understanding of living and non-living things.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L08%20&#8211;%20Review%20and%20Assessment">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog2">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L05 – The Mouth</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><br>
+What is the mouth and its functions.<br>
+what is found in the mouth and their functions.</span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L05%20&#8211;%20The%20Mouth">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L06 – The Nose</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><br>
+What is the nose and its functions.</span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L06%20&#8211;%20The%20Nose">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">major internal parts</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, December 22, 2023<br></div>
+                        <span style="color:#000000;"><br>
+Major internal parts<br>
+Brain, <br>
+throat, <br>
+lungs, <br>
+stomach, <br>
+intestines and <br>
+heart<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=major%20internal%20parts">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog1">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L03 – Functions of the major internal parts</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><br>
+Functions of major parts; <br>
+                           <br>
+Brain-thinking, <br>
+throat -passing food, <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L03%20&#8211;%20Functions%20of%20the%20major%20internal%20parts">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L04 – Functions of the major internal parts</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><br>
+Functions of major parts; <br>
+                           <br>
+lungs - exchanging air, <br>
+stomach-digesting food, <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L04%20&#8211;%20Functions%20of%20the%20major%20internal%20parts">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L04 – Functions of the major internal parts</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, December 22, 2023<br></div>
+                        <span style="color:#000000;"><br>
+Functions of major parts; <br>
+                           <br>
+Intestine-food absorption, <br>
+Heart- pumping blood<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L04%20&#8211;%20Functions%20of%20the%20major%20internal%20parts">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog4">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Introduction to Plants</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Define what plants are and discuss their importance.<br>
+- Introduce the basic parts of a plant: roots, stems, leaves, flowers, and fruits.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Introduction%20to%20Plants">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Parts of a Plant - Roots and Stems</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Focus on the functions of roots and stems in plants.<br>
+- Explore different types of roots and stems and their adaptations.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Parts%20of%20a%20Plant%20%2d%20Roots%20and%20Stems">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog5">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Parts of a Plant - Leaves</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Explain the role of leaves in photosynthesis.<br>
+- Discuss the different shapes and sizes of leaves and how they vary among plants.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Parts%20of%20a%20Plant%20%2d%20Leaves">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog6">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Plant Life Cycle</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Introduce the life cycle of a plant, including germination, growth, flowering, and reproduction.<br>
+- Use visuals and diagrams to illustrate the life cycle.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Plant%20Life%20Cycle">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Plant Care</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Teach students how to care for plants, including watering, sunlight, and soil.<br>
+- Discuss the importance of plants in our daily lives and the environment.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Plant%20Care">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog7">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Types of Plants</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong><br>
+                           </strong>- Introduce different types of plants, such as flowering plants, non-flowering plants (ferns, mosses), and trees.<br>
+- Discuss the characteristics that distinguish these plant types.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Types%20of%20Plants">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg2">
+      <div id="lg2">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid30">
+                     <div id="LayoutGrid30">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text8">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 Science Term 2</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button2" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button1', 0, 'fade', 1);ShowObjectWithEffect('Button2', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObject('blog10', 1);ShowObject('blog9', 0);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button3" onclick="navigateToPage('blog9');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button1', 1, 'fade', 1);ShowObjectWithEffect('Button2', 1, 'fade', 1);ShowObject('blog9', 1);ShowObject('blog10', 0);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button4" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObject('blog11', 1);ShowObject('blog10', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button5" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObject('blog10', 1);ShowObject('blog11', 0);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button6" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObject('blog12', 1);ShowObject('blog11', 0);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button7" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObject('blog11', 1);ShowObject('blog12', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button8" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObject('blog13', 1);ShowObject('blog12', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button9" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObject('blog12', 1);ShowObject('blog13', 0);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button10" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObject('blog14', 1);ShowObject('blog13', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button11" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObject('blog13', 1);ShowObject('blog14', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button12" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button13', 1, 'fade', 1);ShowObjectWithEffect('Button14', 1, 'fade', 1);ShowObject('blog15', 1);ShowObject('blog14', 0);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button13" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObject('blog14', 1);ShowObject('blog15', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button14" onclick="navigateToPage('blog16');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObject('blog16', 1);ShowObject('blog15', 0);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button15" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button15', 0, 'fade', 1);ShowObjectWithEffect('Button16', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObject('blog15', 1);ShowObject('blog16', 0);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="Blog8">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Animals<br>
+                           </strong>- Define what animals are and discuss their diversity.<br>
+- Introduce the basic characteristics of animals, such as movement and the need for food and water.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Classification of Animals<br>
+                           </strong>- Explain how animals are classified into different groups, such as mammals, birds, reptiles, amphibians, and fish.<br>
+- Discuss the key characteristics of each group.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Mammals<br>
+                           </strong>- Focus on mammals, their characteristics (e.g., fur, live birth, milk production), and examples (e.g., cats, dogs, humans).<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog9">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Birds<br>
+                           </strong>- Explore birds, their characteristics (e.g., feathers, beaks, laying eggs), and examples (e.g., sparrows, eagles, penguins).<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Reptiles<br>
+                           </strong>- Discuss reptiles, their characteristics (e.g., scales, laying eggs), and examples (e.g., snakes, turtles, lizards).<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog10">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Amphibians<br>
+                           </strong>- Introduce amphibians, their characteristics (e.g., moist skin, life stages), and examples (e.g., frogs, toads, salamanders).<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Fish<br>
+                           </strong>- Cover fish, their characteristics (e.g., gills, fins, scales), and examples (e.g., goldfish, salmon, sharks).<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog11">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Animal Life Cycles<br>
+                           </strong>- Explain the life cycles of animals, including birth, growth, reproduction, and aging.<br>
+- Compare the life cycles of different animal groups.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 9: Animal Habitats<br>
+                           </strong>- Explore various animal habitats (e.g., forests, oceans, deserts) and how animals adapt to their environments.<br>
+- Discuss the importance of conserving these habitats.<br>
+                           <br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 10: Review and Assessment<br>
+                           </strong>- Review key concepts learned in the previous lessons.<br>
+- Conduct an assessment to test students' understanding of different animal groups, their characteristics, and habitats.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog12">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Materials<br>
+                           </strong>- Define what materials are and why they are important in our daily lives.<br>
+- Introduce the concept of properties and characteristics of materials.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Solid, Liquid, and Gas<br>
+                           </strong>- Explore the three states of matter: solid, liquid, and gas.<br>
+- Discuss the properties and examples of each state.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Properties of Materials - Hardness and Softness<br>
+                           </strong>- Focus on the property of hardness and softness in materials.<br>
+- Conduct hands-on activities to help students distinguish between hard and soft materials.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog13">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Properties of Materials - Transparency and Opacity<br>
+                           </strong>- Explore the properties of transparency and opacity in materials.<br>
+- Use various objects and materials to demonstrate these properties.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Properties of Materials - Conductivity and Insulation<br>
+                           </strong>- Discuss the concepts of conductivity and insulation in materials.<br>
+- Conduct simple experiments to show how some materials conduct heat or electricity, while others insulate.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog14">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Uses of Materials<br>
+                           </strong>- Investigate the different uses of materials in everyday life (e.g., building materials, clothing, utensils).<br>
+- Discuss how the properties of materials make them suitable for specific purposes.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Who or What?</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1EngT1L02 – Who or What?" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Natural vs. Man-Made Materials<br>
+                           </strong>- Compare natural materials (e.g., wood, cotton) with man-made materials (e.g., plastic, metal).<br>
+- Discuss the processes involved in making man-made materials.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Who%20or%20What%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Recycling and Sustainability<br>
+                           </strong>- Explain the importance of recycling and sustainable use of materials.<br>
+- Discuss how recycling can help conserve natural resources and reduce waste.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog15">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words Tell deas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 9: Changes in Materials<br>
+                           </strong>- Introduce the concept of physical and chemical changes in materials.<br>
+- Provide examples and conduct simple experiments to illustrate these changes.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20Tell%20deas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Review: Adjectives</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 10: Review and Assessment<br>
+                           </strong>- Review key concepts learned in the previous lessons.<br>
+- Conduct an assessment to test students' understanding of material properties, uses, and changes.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Review:%20Adjectives">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg3">
+      <div id="lg3">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid32">
+                     <div id="LayoutGrid32">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text10">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 Science Term 3</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button33" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button34" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button33', 0, 'fade', 1);ShowObjectWithEffect('Button34', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObject('blog18', 1);ShowObject('blog17', 0);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button19" onclick="navigateToPage('blog17');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button33', 1, 'fade', 1);ShowObjectWithEffect('Button34', 1, 'fade', 1);ShowObject('blog17', 1);ShowObject('blog18', 0);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button20" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObject('blog19', 1);ShowObject('blog18', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button21" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObject('blog18', 1);ShowObject('blog19', 0);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button22" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObject('blog20', 1);ShowObject('blog19', 0);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button23" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObject('blog19', 1);ShowObject('blog20', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button24" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObject('blog21', 1);ShowObject('blog20', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button25" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObject('blog20', 1);ShowObject('blog21', 0);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button26" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObject('blog22', 1);ShowObject('blog21', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button27" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObject('blog21', 1);ShowObject('blog22', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button28" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObject('blog23', 1);ShowObject('blog22', 0);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button29" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObject('blog22', 1);ShowObject('blog23', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button30" onclick="navigateToPage('blog24');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button31', 1, 'fade', 1);ShowObjectWithEffect('Button32', 1, 'fade', 1);ShowObject('blog24', 1);ShowObject('blog23', 0);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button31" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button31', 0, 'fade', 1);ShowObjectWithEffect('Button32', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObject('blog23', 1);ShowObject('blog24', 0);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button32" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="Blog16">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT2L01 – Using The</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Forces and Motion<br>
+                           </strong>- Define what forces are and introduce the concept of motion.<br>
+- Discuss the importance of understanding forces in our daily lives.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT2L01%20&#8211;%20Using%20The">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT2L02 – Using A and An</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Types of Forces<br>
+                           </strong>- Explore different types of forces, such as pushing, pulling, gravity, and friction.<br>
+- Provide examples to illustrate each type of force.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT2L02%20&#8211;%20Using%20A%20and%20An">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Push and Pull Forces<br>
+                           </strong>- Focus on the concepts of push and pull forces.<br>
+- Engage students in hands-on activities to experience and understand these forces.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog17">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT2L03 – Using And</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Gravity<br>
+                           </strong>- Explain the force of gravity and how it keeps us grounded.<br>
+- Explore the concept of weight and how it varies on different planets.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT2L03%20&#8211;%20Using%20And">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Friction<br>
+                           </strong>- Discuss the force of friction and its effects on motion.<br>
+- Conduct experiments to show how different surfaces can affect friction.<br>
+                           <br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Measuring Motion<br>
+                           </strong>- Introduce basic concepts of measuring motion, including speed and distance.<br>
+- Use simple tools like rulers and stopwatches for measurement.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Balance and Unbalance Forces<br>
+                           </strong>- Explain the concepts of balanced and unbalanced forces.<br>
+- Use practical examples to demonstrate how forces can cause or prevent motion.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog18">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT2L04 – Or</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Simple Machines<br>
+                           </strong>- Explore simple machines like levers, pulleys, and inclined planes.<br>
+- Discuss how these machines make work easier and relate them to forces.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT2L04%20&#8211;%20Or">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog19">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Words That Tell Where</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Properties of Light<br>
+                           </strong>- Explore the properties of light, such as traveling in straight lines and reflecting off surfaces.<br>
+- Use simple experiments to demonstrate these properties.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Words%20That%20Tell%20Where">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Place Words</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Transparent, Translucent, and Opaque Objects<br>
+                           </strong>- Discuss the concepts of transparency, translucency, and opacity in relation to materials and objects.<br>
+- Provide examples and engage students in hands-on activities.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Place%20Words">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L03 – Review: Prepositions</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Thursday, August 31, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Sources of Light<br>
+                           </strong>- Introduce different sources of light, such as natural sources (the sun) and artificial sources (light bulbs, flashlights).<br>
+- Discuss their uses and differences.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L03%20&#8211;%20Review:%20Prepositions">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Shadows<br>
+                           </strong>- Explore how shadows are formed and how they change in size and shape.<br>
+- Conduct shadow-related activities to help students understand this concept.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog20">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Writing Month Names</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Properties of Sound<br>
+                           </strong>- Explain the properties of sound, including vibration, pitch, and volume.<br>
+- Use musical instruments and sound-making objects to illustrate these properties.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Writing%20Month%20Names">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Writing Dates</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Producing Sound<br>
+                           </strong>- Discuss how sound is produced by various sources, including musical instruments, the human voice, and machines.<br>
+- Explore how changes in the source affect the sound produced.<br>
+                           <br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Writing%20Dates">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Sound and Hearing<br>
+                           </strong>- Explore the human sense of hearing and the importance of the ear.<br>
+- Discuss how sound travels to the ear and is processed by the brain.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 9: Sound in Our Environment<br>
+                           </strong>- Investigate how sound is present in our environment, such as through music, natural sounds, and communication.<br>
+- Discuss the importance of noise control and protection of hearing.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog21">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Using Commas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Earth and Space<br>
+                           </strong>- Define what Earth is and introduce the concept of space.<br>
+- Discuss the importance of understanding our planet and the universe.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Using%20Commas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Review: Capitalization and Punctuation</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: The Earth's Surface<br>
+                           </strong>- Explore the different features of the Earth's surface, including land, water, mountains, and valleys.<br>
+- Introduce basic geographical terms.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Review:%20Capitalization%20and%20Punctuation">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Day and Night<br>
+                           </strong>- Explain the concepts of day and night, rotation, and the Earth's axis.<br>
+- Use visual aids and models to help students understand these concepts.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog22">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Short Vowels</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: The Sun<br>
+                           </strong>- Discuss the Sun as the source of light and energy for Earth.<br>
+- Explore the concept of solar energy and its uses.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Short%20Vowels">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L02 – Long Vowels</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: The Moon<br>
+                           </strong>- Introduce the Moon as Earth's natural satellite.<br>
+- Discuss the Moon's phases and its effect on tides.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L02%20&#8211;%20Long%20Vowels">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Stars and Constellations<br>
+                           </strong>- Explore the concept of stars and constellations.<br>
+- Introduce some basic constellations and their significance in navigation.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Our Solar System<br>
+                           </strong>- Discuss the components of our solar system, including the Sun, planets, and their moons.<br>
+- Explore the order of the planets in our solar system.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog23">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1EngT1L01 – Adding -ing and -ed</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Earth's Place in the Universe<br>
+                           </strong>- Explore the vastness of the universe and Earth's place within it.<br>
+- Discuss the concept of galaxies and the Milky Way.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1EngT1L01%20&#8211;%20Adding%20%2ding%20and%20%2ded">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 9: Protecting Our Planet<br>
+                           </strong>- Discuss the importance of taking care of Earth, conservation, and environmental responsibility.<br>
+- Introduce basic concepts of recycling and reducing waste.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, October 20, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 10: Review and Assessment<br>
+                           </strong>- Review key concepts learned in the previous lessons.<br>
+- Conduct an assessment to test students' understanding of Earth and space topics.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_locationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
+               </div>
+               <div id="wb_Text7">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_contactsText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_emailFontAwesomeIcon">
+                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_facebookFontAwesomeIcon">
+                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_callFontAwesomeIcon">
+                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_whatsappFontAwesomeIcon">
+                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_smsFontAwesomeIcon">
+                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_copywriteText">
+                  <span style="color:#FFFFFF;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>     <script>   
+       function navigateToPage(blogId) {
+         // Hide all pages
+         var pages = document.querySelectorAll('.blog');
+         pages.forEach(function(blog) {
+           page.style.display = 'none';
+         });
+   
+         // Show the selected page
+         var selectedPage = document.getElementById(blogId);
+         selectedPage.style.display = 'block';
+       }
+     
+   </script>

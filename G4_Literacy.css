@@ -4916,6 +4916,94 @@ body
 {
    outline: 0;
 }
+#TabMenu2
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 15px 0 4px 10px;
+   overflow: hidden;
+}
+#TabMenu2 li
+{
+   float: left;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   position: relative;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu2 li a
+{
+   padding: 5px 9px 8px 9px;
+   margin-right: 0px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   transition: 200ms all ease-in;
+}
+#TabMenu2 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#TabMenu2
+{
+   border-bottom: 1px solid #C0C0C0;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   background-color: #00FA9A;
+   color: #666666;
+}
+#TabMenu2 li a
+{
+   border: 1px solid #C0C0C0;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #EEEEEE;
+   color: #666666;
+}
+#TabMenu2 li a:hover
+{
+   background-color: #C0C0C0;
+   color: #666666;
+}
+@media all and (max-width:310px) 
+{
+#TabMenu2
+{
+   border-bottom: none;
+   float: none;
+   padding: 0;
+}
+#TabMenu2 li
+{
+   float: none;
+}
+#TabMenu2 li a
+{
+   display: block;
+   margin: 0 0 0px 0;
+   padding: 5px 9px 4px 9px;
+}
+#TabMenu2 li a:hover
+{
+   top: 0;
+}
+}
 #wb_lowerfooterLayoutGrid
 {
    clear: both;
@@ -5391,94 +5479,6 @@ body
    margin: 5px 0 5px 0 ;
    box-sizing: border-box;
    width: 100%;
-}
-#TabMenu2
-{
-   text-align: left;
-   float: left;
-   margin: 0;
-   width: 100%;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   list-style-type: none;
-   padding: 15px 0 4px 10px;
-   overflow: hidden;
-}
-#TabMenu2 li
-{
-   float: left;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   position: relative;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   z-index: 2;
-}
-#TabMenu2 li a
-{
-   padding: 5px 9px 8px 9px;
-   margin-right: 0px;
-   text-decoration: none;
-   border-bottom: none;
-   position: relative;
-   top: 0;
-   transition: 200ms all ease-in;
-}
-#TabMenu2 li a:hover
-{
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   top: -4px;
-}
-#TabMenu2
-{
-   border-bottom: 1px solid #C0C0C0;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   background-color: #00FA9A;
-   color: #666666;
-}
-#TabMenu2 li a
-{
-   border: 1px solid #C0C0C0;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   background-color: #EEEEEE;
-   color: #666666;
-}
-#TabMenu2 li a:hover
-{
-   background-color: #C0C0C0;
-   color: #666666;
-}
-@media all and (max-width:310px) 
-{
-#TabMenu2
-{
-   border-bottom: none;
-   float: none;
-   padding: 0;
-}
-#TabMenu2 li
-{
-   float: none;
-}
-#TabMenu2 li a
-{
-   display: block;
-   margin: 0 0 0px 0;
-   padding: 5px 9px 4px 9px;
-}
-#TabMenu2 li a:hover
-{
-   top: 0;
-}
 }
 #blog17
 {
@@ -8822,6 +8822,14 @@ body
    border-bottom-right-radius: 20px;
    border-bottom-left-radius: 20px;
 }
+#wb_TabMenu2
+{
+   width: 349px;
+   height: 36px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
 #wb_lowerfooterLayoutGrid
 {
    visibility: visible;
@@ -9017,14 +9025,6 @@ body
    margin: 5px 0 5px 0 ;
    padding: 0;
    text-align: center;
-}
-#wb_TabMenu2
-{
-   width: 349px;
-   height: 36px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
 }
 }
           .navigation-buttons {

@@ -1,0 +1,1886 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flyacade.css" rel="stylesheet">
+<link href="G2_CTS.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#LayoutGrid28']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid28').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#blog1').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#lg1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg1').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg3').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#blog2').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog3').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog4').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog6').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog7').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog10').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog11').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog12').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog13').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog14').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog16').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog17').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog18').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog19').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog20').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog26').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog21').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog22').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog24').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog25').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog27').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog5').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog15').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog23').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog9').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="FlexContainer2">
+      <div id="PanelLayer">
+         <div id="wb_IconFont2">
+            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+         </div>
+         <div id="wb_Image1">
+            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+         </div>
+         <div id="wb_Heading20">
+            <h2 id="Heading20">Flying Wings Academy</h2>
+         </div>
+         <div id="wb_OverlayMenu2">
+            <div class="OverlayMenu2">
+               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
+                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
+                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
+                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                  <li><a role="menuitem" href="./G1_SP1.html" onclick="window.location.href='./G1_SP1.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
+                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="wb_Text40">
+            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+         </div>
+      </div>
+      <div id="wb_HeaderLayoutGrid">
+         <div id="HeaderLayoutGrid">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_home_logo">
+                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div id="wb_Header">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text2">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text5">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text1">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text4">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text6">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexContainer3">
+      <div id="wb_Text9">
+         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid28">
+      <div id="LayoutGrid28">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TabMenu2">
+                     <ul id="TabMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                        <li><a href="./Study_Centre.html" itemprop="url"><span itemprop="name">SC</span></a></li>
+                        <li><a href="./G2_Math.html" itemprop="url"><span itemprop="name">M</span></a></li>
+                        <li><a href="./G2_English.html" itemprop="url"><span itemprop="name">E</span></a></li>
+                        <li><a href="./G2_Science.html" itemprop="url"><span itemprop="name">S</span></a></li>
+                        <li><a href="./G2_Literacy.html" itemprop="url"><span itemprop="name">Lit</span></a></li>
+                        <li><a href="./G2_SP1.html" itemprop="url"><span itemprop="name">SP1</span></a></li>
+                        <li><a href="./G2_Social_Studies.html" itemprop="url"><span itemprop="name">S.S</span></a></li>
+                        <li><a href="./G2_CTS.html" class="active" itemprop="url"><span itemprop="name">CTS</span></a></li>
+                        <li><a href="./G3.html" itemprop="url"><span itemprop="name">></span></a></li>
+                     </ul>
+                  </div>
+                  <input type="submit" id="Button35" onclick="ShowObjectWithEffect('wb_lg1', 1, 'fade', 1);ShowObjectWithEffect('wb_lg2', 0, 'fade', 1);ShowObjectWithEffect('wb_lg3', 0, 'fade', 1);return false;" name="" value="Term 1">
+                  <input type="submit" id="Button36" onclick="ShowObjectWithEffect('wb_lg2', 1, 'fade', 1);ShowObjectWithEffect('wb_lg1', 0, 'fade', 1);ShowObjectWithEffect('wb_lg3', 0, 'fade', 1);return false;" name="" value="Term 2">
+                  <input type="submit" id="Button37" onclick="ShowObjectWithEffect('wb_lg3', 1, 'fade', 1);ShowObjectWithEffect('wb_lg1', 0, 'fade', 1);ShowObjectWithEffect('wb_lg2', 0, 'fade', 1);return false;" name="" value="Term 3">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg1">
+      <div id="lg1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid29">
+                     <div id="LayoutGrid29">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text13">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 CTS Term 1</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Btn1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn2" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn1', 0, 'fade', 1);ShowObjectWithEffect('Btn2', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Btn3" onclick="navigateToPage('blog1');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn1', 1, 'fade', 1);ShowObjectWithEffect('Btn2', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Btn4" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn5" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn6" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Btn7" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn8" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObjectWithEffect('blog7', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Btn9" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog7', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Btn10" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog7', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn11" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObjectWithEffect('blog7', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn12" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObjectWithEffect('blog7', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Btn13" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog7', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn14" onclick="navigateToPage('blog8');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn15', 1, 'fade', 1);ShowObjectWithEffect('Btn16', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog7', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Btn15" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn15', 0, 'fade', 1);ShowObjectWithEffect('Btn16', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObjectWithEffect('blog7', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="submit" id="Btn16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog1">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L01 – COLORS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#0563C1;"><em><u><a href="Quiz/G1EngT1L01 (Published)/G1EngT1L01.html">COLORS</a></u></em></span><span style="color:#2F5496;"><em><br>
+                           </em></span><span style="color:#000000;">Learn about primary colors (red, blue, yellow) and how to mix them to create new colors.<br>
+                           <br>
+                           <strong>Primary Colors: </strong><br>
+Primary colors are the most basic colors used in art and color theory. The primary colors are typically red, blue, and yellow. These colors are considered &quot;pure&quot; because they cannot be created by mixing other colors together. Primary colors are the foundation for creating all other colors in the color spectrum.<br>
+                        </span><span style="color:#221F20;"><br>
+                           <br>
+Take a</span><span style="color:#000000;"> Q<a href="Quiz/G1EngT1L01 (Published)/G1EngT1L01.html">uick Quiz<br>
+                              <br>
+                           </a></span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L01%20&#8211;%20COLORS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L02 – Mixing Primary Colors</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Mixing Primary Colors: </strong><br>
+By mixing primary colors in different combinations, you can create a wide range of colors. Here's how it works:<br>
+                           <br>
+Red + Blue = Purple: Mixing red and blue together creates the color purple.<br>
+                           <br>
+Red + Yellow = Orange: Mixing red and yellow together creates the color orange.<br>
+                           <br>
+Blue + Yellow = Green: Mixing blue and yellow together creates the color green.<br>
+                        </span><span style="color:#231F20;"><br>
+                        </span><span style="color:#000000;"><a href="Quiz/G1EngT1L02 (Published)/G1EngT1L02.html">Take a Quick Quiz</a><br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L02%20&#8211;%20Mixing%20Primary%20Colors">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog2">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L03 – SHAPES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Explore basic shapes like circles, squares, and triangles through drawing and crafting. Practice drawing simple objects like houses, trees, and animals using these shapes. Develop hand-eye coordination and fine motor skills through coloring and tracing.<br>
+                           <br>
+                           <strong>Basic Shapes:<br>
+                              <br>
+1. Circle</strong>: A circle is a perfectly round shape with no corners or edges. It is often found in objects like wheels, coins, and balls.<br>
+                           <br>
+                           <strong>2. Square</strong>: A square has four equal sides and four right angles. It is commonly seen in objects like books, windows, and picture frames.<br>
+                           <strong><br>
+3. Triangle</strong>: A triangle has three sides and three angles. It can come in various forms, such as equilateral (all sides and angles are equal), isosceles (two sides and two angles are equal), or scalene (no sides or angles are equal).<br>
+                           <br>
+                           <strong>4. Rectangle</strong>: A rectangle has four sides with opposite sides being equal in length and four right angles. Common objects like doors, screens, and paper are often rectangular.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L03%20&#8211;%20SHAPES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L04 – Drawing Basic Shapes</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST1L04 – Drawing Basic Shapes" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>How to Draw Basic Shapes</strong>: <br>
+Drawing basic shapes is an essential skill for young learners. Here's how to draw each of them:<br>
+                           <br>
+                           <strong>1. Circle</strong>: Start by drawing a point in the center, then draw lines or curves around it, keeping the distance from the center point equal.<br>
+                           <br>
+                           <strong>2. Square</strong>: Draw four equal sides connected by four right angles. You can start by drawing one side and then adding the other three.<br>
+                           <br>
+                           <strong>3. Triangle</strong>: Begin with a straight line for the base. From each endpoint of the base, draw lines slanting towards each other to create the triangle.<br>
+                           <br>
+                           <strong>4. Rectangle</strong>: Draw two equal pairs of parallel lines, with each pair being opposite to the other. Ensure that the angles are right angles.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L04%20&#8211;%20Drawing%20Basic%20Shapes">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog3">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L05 – Using Basic Shapes</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Using Basic Shapes</strong><br>
+Basic shapes serve as building blocks for more complex objects and drawings.<br>
+They are used in a variety of applications:<br>
+                           <br>
+                           <strong>1. Art</strong>: Artists often use basic shapes as the starting point for creating more intricate artwork. For example, circles can become the basis for a sun or moon in a painting.<br>
+                           <br>
+                           <strong>2. Geometry</strong>: Basic shapes are fundamental to geometry, where they are used to understand and solve various mathematical problems.<br>
+                           <br>
+                           <strong>3. Design</strong>: Graphic designers use shapes in logo design, creating icons, and arranging elements in layouts.<br>
+                           <br>
+                           <strong>4. Architecture</strong>: Architects use shapes as the foundation for designing buildings and structures.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L05%20&#8211;%20Using%20Basic%20Shapes">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L06 – DRAWING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Practice drawing simple objects and animals using basic shapes and lines.<br>
+                           <br>
+                           <strong>Drawing Simple Objects Using Basic Shapes and Lines</strong>:<br>
+                           <br>
+                           <strong>1. Select an Object</strong>: Choose a simple object you want to draw, such as an apple, a cup, or a ball.<br>
+                           <br>
+                           <strong>2. Analyze the Object</strong>: Look closely at the object and try to break it down into basic shapes. Identify the key shapes that make up the object.<br>
+                           <br>
+                           <strong>3. Start with Basic Shapes</strong>: Begin your drawing by lightly sketching the basic shapes that represent the object's main components. For example, if you're drawing an apple, start with a circle for the apple's body and an oval for the stem.<br>
+                           <br>
+                           <strong>4. Refine the Details</strong>: Once you have the basic shapes in place, start adding more details using lines. Pay attention to any curves, edges, or patterns on the object, and use lines to represent these features.<br>
+                           <br>
+                           <strong>5. Erase and Adjust</strong><br>
+Don't worry if your initial lines and shapes aren't perfect. Use an eraser to refine your drawing, adjusting the proportions and shapes as needed.<br>
+                           <br>
+                           <strong>6. Add Shadows and Shading (Optional)</strong>: To make your object appear more three-dimensional, you can add shading to create shadows and highlights. Shade areas of the object that would be in shadow and leave others lighter to show highlights.<br>
+                           <br>
+                           <strong>7. Finalize Your Drawing</strong>: Once you're satisfied with your drawing, go over your lines with darker, more defined lines to make your object stand out.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L06%20&#8211;%20DRAWING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog4">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L07 – Types of Lines</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Types of Lines</strong><br>
+There are various types of lines used in art and design, each serving a different purpose and creating a unique visual effect. Here are details on some common types of lines:<br>
+                           <br>
+                           <strong>1. Straight Line</strong>: A straight line is simple and unbroken, extending from one point to another without curves. It can convey stability, order, and precision. <br>
+                           <em>Examples: Ruler-edge lines, the edge of a book.<br>
+                              <br>
+                           </em><strong>2. Curved Line</strong>: A curved line is gentle and flows smoothly, often forming a continuous curve. It can suggest grace, movement, and fluidity.<br>
+                           <em>Examples: Circles, arcs, and waves.<br>
+                           </em></span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L07%20&#8211;%20Types%20of%20Lines">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L08 – Types of Lines</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>3. Zigzag Line</strong>: A zigzag line consists of sharp, angular changes in direction and can represent chaos, excitement, or instability. It can create a sense of disruption or unpredictability.<br>
+                           <em>Examples: Lightning bolts, jagged edges.<br>
+                              <br>
+                           </em><strong>4. Broken Line</strong>: A broken line consists of segments with gaps in between. It can convey discontinuity, interruption, or a sense of incompleteness.<br>
+                           <em>Examples: Dashed lines, broken road markings.<br>
+                           </em><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L08%20&#8211;%20Types%20of%20Lines">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog5">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L09 – TECHNOLOGY AROUND US</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Technology surrounds us in countless ways, shaping our daily lives, work, and society as a whole. Understand that technology is all around us in the form of gadgets, appliances, and machines. Here are details on technology around us:<br>
+                           <br>
+                           <strong>1. Communication Technology</strong>:<br>
+                           <strong>a. Smartphones</strong>: These portable devices provide communication, internet access, navigation, and various apps for everyday tasks.<br>
+                           <strong>b. Social Media</strong>: Platforms like Facebook, Twitter, and Instagram enable global connectivity and information sharing.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L09%20&#8211;%20TECHNOLOGY%20AROUND%20US">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L10 – TECHNOLOGY AROUND US</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>2. Internet and Connectivity</strong>: The internet is the backbone of modern technology, connecting people, devices, and information worldwide. High-speed broadband and 5G networks enable faster data transmission and support emerging technologies.<br>
+                           <br>
+                           <strong>3. Home Technology</strong>:<br>
+                           <strong>a. Smart Homes</strong>: Devices like smart thermostats, lights, and security systems allow homeowners to control and automate their homes.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L10%20&#8211;%20TECHNOLOGY%20AROUND%20US">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog6">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L11 – BASIC DEVICES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Learn about common devices like computers, tablets, and smartphones. &quot;Basic devices&quot; typically refer to common electronic devices that many people use in their daily lives. Here are details on some basic devices:<br>
+                           <br>
+                           <strong>1. Smartphones</strong>: Smartphones are handheld mobile devices that offer various features, including calling, texting, internet access, camera capabilities, and app downloads. They serve as communication tools, cameras, GPS devices, and much more.<br>
+                           <br>
+                           <strong>2. Computers</strong>: Computers are versatile devices used for a wide range of tasks, including word processing, internet browsing, email, gaming, and programming. There are two main types: desktop computers and laptops, each with its own advantages.<br>
+                           <br>
+3. <strong>Tablets</strong>: Tablets are compact, touchscreen devices that bridge the gap between smartphones and laptops. They are suitable for tasks like web browsing, email, media consumption, and some productivity apps.<br>
+                           <br>
+                           <strong>4. Televisions</strong>: Televisions are devices used for viewing broadcast, cable, or streaming content, including movies, TV shows, and news. Modern TVs often have smart capabilities, allowing access to online streaming services.</span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L11%20&#8211;%20BASIC%20DEVICES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L12 – BASIC DEVICES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>5. Printers</strong>: Printers produce physical copies of digital documents or images. There are inkjet, laser, and all-in-one printers with scanning and copying capabilities.<br>
+                           <br>
+                           <strong>6. Digital Cameras</strong>: Digital cameras capture photos and videos in digital format. They come in various types, from point-and-shoot to professional DSLRs. They offer features like zoom, image stabilization, and advanced shooting modes.<br>
+                           <br>
+                           <strong>7. Wearable Devices</strong>: Wearable devices, such as smartwatches and fitness trackers, are worn on the body and often connect to smartphones. They track health data, provide notifications, and offer various apps and features.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L12%20&#8211;%20BASIC%20DEVICES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog7">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L13 – BUTTONS AND FUNCTIONS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#2F5496;"><br>
+                        </span><span style="color:#000000;">Buttons and functions vary depending on the device, but I can provide an overview of common buttons and their functions found on electronic devices like smartphones, remote controls, and gaming consoles:<br>
+                           <br>
+                           <strong>1. Power Button</strong>: The Power button turns the device on or off. On some devices, a long press of the Power button may offer options like restart or shutdown.<br>
+                           <strong><br>
+2. Volume Buttons</strong>: Volume buttons control the device's audio output. Typically, there are separate buttons for increasing and decreasing volume. In some cases, holding both volume buttons simultaneously may mute the device.<br>
+                           <strong><br>
+3. Play/Pause and Skip Buttons</strong>: These buttons control media playback on devices like music players, TVs, and streaming devices. Play/Pause starts or stops playback, while Skip buttons move to the next or previous track or chapter.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L13%20&#8211;%20BUTTONS%20AND%20FUNCTIONS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L14 – BUTTONS AND FUNCTIONS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Thursday, August 31, 2023<br></div>
+                        <span style="color:#000000;"><strong>4. Home Button</strong>: The Home button, often found on smartphones and tablets, takes you to the device's home screen. It's a central navigation button for accessing apps and functions.<br>
+                           <strong><br>
+5. Back Button</strong>: The Back button (common on smartphones) returns you to the previous screen or action. It aids in navigating through menus and apps.<br>
+                           <strong><br>
+6. Menu Button</strong>: The Menu button (often on older devices) displays options related to the current screen or app. It can reveal settings or additional functions.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L14%20&#8211;%20BUTTONS%20AND%20FUNCTIONS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog8">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L15 – FOOD GROUPS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Food groups are categories of foods that share similar nutritional properties. They provide essential nutrients required for the body to function properly. Learn about the basic food groups, including fruits, vegetables, grains, proteins, and dairy. The basic food groups typically include:<br>
+                           <br>
+                           <strong>1. Fruits</strong>: Fruits are rich in vitamins, minerals, fiber, and antioxidants. Examples include apples, bananas, oranges, berries, and grapes. They provide essential vitamins like vitamin C, potassium, and folate.<br>
+                           <br>
+                           <strong>2. Vegetables</strong>: Vegetables are nutrient-dense foods containing vitamins, minerals, fiber, and phytonutrients. Examples include leafy greens, carrots, broccoli, and bell peppers. They are a source of vitamins like vitamin A, vitamin K, and minerals like potassium.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L15%20&#8211;%20FOOD%20GROUPS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L16 – FOOD GROUPS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>1. Protein Foods</strong>: Protein foods are vital for growth, repair, and overall body function. Examples include meat, poultry, fish, beans, lentils, tofu, and nuts. They provide essential amino acids necessary for muscle development and immune function.<br>
+                           <br>
+                           <strong>2. Sweets and Sugary Foods</strong>: These foods, including candies, sugary beverages, and desserts, are high in added sugars and should be consumed sparingly. Excessive sugar intake can lead to health issues like obesity and dental problems.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L16%20&#8211;%20FOOD%20GROUPS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog9">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L17 – HEALTHY EATING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Healthy eating is a practice that involves making conscious food choices to maintain and improve overall health and well-being. It involves consuming a balanced diet that provides essential nutrients while minimizing the intake of unhealthy or processed foods. Here are details on healthy eating:<br>
+                           <br>
+                           <strong>Balanced Diet</strong>: A balanced diet includes a variety of foods from different food groups, such as fruits, vegetables, lean proteins, whole grains, and dairy (or alternatives). Each food group provides essential nutrients like vitamins, minerals, protein, carbohydrates, and healthy fats.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L17%20&#8211;%20HEALTHY%20EATING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L18 – HEALTHY EATING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Plan and Prepare Meals</strong>: Planning meals in advance and cooking at home allows better control over ingredients and portion sizes.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L18%20&#8211;%20HEALTHY%20EATING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg2">
+      <div id="lg2">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid30">
+                     <div id="LayoutGrid30">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text8">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 CTS Term 2</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button2" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button1', 0, 'fade', 1);ShowObjectWithEffect('Button2', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button3" onclick="navigateToPage('blog9');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button1', 1, 'fade', 1);ShowObjectWithEffect('Button2', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button4" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button5" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button6" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button7" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button8" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button9" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button10" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button11" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button12" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button13', 1, 'fade', 1);ShowObjectWithEffect('Button14', 1, 'fade', 1);ShowObjectWithEffect('blog26', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button13" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog26', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button14" onclick="navigateToPage('blog16');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog26', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button15" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button15', 0, 'fade', 1);ShowObjectWithEffect('Button16', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObjectWithEffect('blog26', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog10">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L01 – CRAFTS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Create simple crafts using materials like paper, cardboard, and clay. Create paper masks, greeting cards, and small sculptures. Encourage creativity by allowing children to design and decorate their crafts.<br>
+                           <br>
+                           <strong>What is Craft? <br>
+                           </strong>Craft refers to a wide range of creative activities that involve making things by hand. It can include various materials and techniques.<br>
+                           <br>
+                           <strong>2.Types of Craft: <br>
+                           </strong>There are countless types of crafts, including:<br>
+                           <strong>i. Paper Crafts</strong>: Origami, papercutting, card making, and paper mache.<br>
+                           <strong>ii. Textile Crafts</strong>: Sewing, knitting, crocheting, and embroidery.<br>
+                           <strong>iii. Painting and Drawing</strong>: Creating artwork on paper, canvas, or other surfaces.<br>
+                           <strong>iv. Jewelry Making</strong>: Crafting necklaces, bracelets, and earrings.</span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L01%20&#8211;%20CRAFTS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L02 – CRAFTS</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L02 – CRAFTS" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>v. Woodworking</strong>: Creating items from wood, such as carving or making wooden toys.<br>
+                           <br>
+                           <strong>vi. Pottery and Ceramics</strong>: Sculpting clay into pottery, sculptures, or functional items.<br>
+                           <br>
+                           <strong>vii. Recycled Crafts</strong>: Creating art from recycled materials like bottles, cans, or cardboard.<br>
+                           <br>
+                           <strong>viii. Beadwork</strong>: Making jewelry and decorative items with beads.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L02%20&#8211;%20CRAFTS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog11">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L03 – MUSIC</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Explore rhythm and beat through clapping, tapping, and playing simple percussion instruments like tambourines or rhythm sticks. Listen to and mimic basic patterns and sequences of sounds.<br>
+                           <br>
+                           <strong>1. Rhythm and Beat</strong>: Introduce the concept of rhythm and beat through clapping, tapping, or using simple percussion instruments like tambourines or rhythm sticks. Teach students to distinguish between a steady beat and different rhythms.<br>
+                           <br>
+                           <strong>2. Basic Music Notation</strong>: Begin to familiarize students with basic music symbols, such as notes and rests. Explain the concept of musical notation, including how notes represent duration.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L03%20&#8211;%20MUSIC">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L04 – MUSIC</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L04 – MUSIC" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>3. Singing and Pitch</strong>: Encourage students to sing simple songs, nursery rhymes, or folk songs. Explore high and low pitches in singing and encourage matching pitches.<br>
+                           <br>
+                           <strong>4. Listening to Music</strong>: Play a variety of music styles and genres for students to listen to and discuss. Prompt students to identify instruments, emotions conveyed, or the mood of the music.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L04%20&#8211;%20MUSIC">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog12">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L05 – DANCE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Learn basic dance movements such as jumping, hopping, and spinning. Express feelings and emotions through movement and dance. Participate in simple dance routines or games that involve movement. Dance is a diverse and expressive art form that involves rhythmically moving the body in a coordinated and artistic manner. Here are details on dance:<br>
+                           <br>
+                           <strong>Dance as an Art Form</strong>: <br>
+Dance is considered one of the performing arts and is often used as a means of artistic expression and storytelling.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L05%20&#8211;%20DANCE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L06 – Types of Dance</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L06 – Types of Dance" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Types of Dance</strong>: <br>
+Dance encompasses various styles and genres, including:<br>
+                           <br>
+                           <strong>1. Ballet</strong>: A classical dance style known for its graceful and precise movements.<br>
+                           <strong>2. Hip-Hop</strong>: A street dance style characterized by dynamic movements, often set to hip-hop music.<br>
+                           <strong>3. Jazz</strong>: A lively and energetic dance style with a focus on improvisation and syncopated rhythms.<br>
+                           <strong>4. Ballroom</strong>: A partner dance style with various types like waltz, tango, and foxtrot.<br>
+                           <strong>5. Folk and Cultural Dances</strong>: Traditional dances from specific regions or cultures around the world.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L06%20&#8211;%20Types%20of%20Dance">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog13">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L07 – INTERNET SAFETY</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Internet safety is crucial to protect yourself and your personal information while using online services. Begin to understand basic internet safety rules, like not sharing personal information online. Here are more details on internet safety:<br>
+                           <br>
+                           <strong>1. Strong Passwords</strong>: Use strong, unique passwords for each online account. Combine letters, numbers, and symbols. Consider using a reputable password manager to help generate and store passwords securely.<br>
+                           <strong><br>
+                           </strong></span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L07%20&#8211;%20INTERNET%20SAFETY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L08 – INTERNET SAFETY</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L08 – INTERNET SAFETY" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>2. Secure Browsing</strong>: Use secure, up-to-date web browsers that offer built-in security features, such as Chrome or Firefox. Look for &quot;https://&quot; in website URLs, especially when entering sensitive data.<br>
+                           <strong><br>
+3. Education and Awareness</strong>: Stay informed about current online threats and scams. Educate yourself and others, especially children, about safe online practices.<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L08%20&#8211;%20INTERNET%20SAFETY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog14">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L09 – CODING CONCEPTS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Basic coding concepts are fundamental principles and ideas that form the foundation of computer programming. These concepts are essential for understanding how coding works and for building more complex programs. Here are details on some of the basic coding concepts:<br>
+                           <br>
+Introduce basic coding concepts through simple games or activities, like sequencing.<br>
+                           <strong><br>
+                           </strong></span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L09%20&#8211;%20CODING%20CONCEPTS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L10 – Data Types</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L10 – Data Types" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Data Types</strong>:<br>
+Data types specify the kind of data a variable can hold. Common data types include <br>
+                           <br>
+1. Integers (whole numbers), <br>
+2. Floating-point numbers (decimals), <br>
+3. Strings (text), and <br>
+4. Boolean (true/false).<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L10%20&#8211;%20Data%20Types">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog15">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L11 – SIMPLE MACHINES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Simple machines are basic mechanical devices that can be used to amplify or redirect a force, making it easier to perform work. These machines are the fundamental building blocks of more complex machines and mechanisms. There are six primary types of simple machines:<br>
+                           <br>
+1. <strong>Lever</strong>: A lever consists of a rigid bar (the beam), a pivot point called the fulcrum, and two force arms (input and output). Levers are used to lift, push, or balance loads. Examples of levers include seesaws, crowbars, and the human forearm.<br>
+                           <strong><br>
+2. Inclined Plane</strong>: An inclined plane is a flat, sloping surface. It allows you to move an object up or down with less effort than lifting it straight up. <br>
+                           <em>Examples include ramps, staircases, and hills.</em><br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L11%20&#8211;%20SIMPLE%20MACHINES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L12 – SIMPLE MACHINES</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L12 – SIMPLE MACHINES" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>2. Pulley</strong>: A pulley is a wheel with a groove or channel for a rope or cable. Pulleys are used to change the direction of an applied force and to lift heavy loads.<br>
+                           <br>
+                           <strong>a. Fixed pulleys</strong> are anchored in place, while movable pulleys are attached to the load being lifted.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L12%20&#8211;%20SIMPLE%20MACHINES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog16">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L13 – KITCHEN SAFETY</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Kitchen safety is essential to prevent accidents, injuries, and foodborne illnesses while cooking or preparing meals. Following proper safety guidelines ensures a secure and enjoyable cooking experience. Here are details on kitchen safety:<br>
+                           <br>
+                           <strong>1. Handwashing</strong>: Wash your hands thoroughly with soap and warm water before handling food, and continue to do so during food preparation.<br>
+                           <br>
+                           <strong>2. Food Handling</strong>: Handle raw and cooked foods separately to prevent cross-contamination. Use separate cutting boards and utensils for raw meats, poultry, and vegetables.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L13%20&#8211;%20KITCHEN%20SAFETY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L14 – KITCHEN SAFETY</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G1CTST2L14 – KITCHEN SAFETY" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>3. Knife Safety</strong>: Keep knives sharp to reduce the risk of accidents, as dull knives are more likely to slip. Cut away from your body and use proper cutting techniques. Store knives in a knife block or on a magnetic strip, away from the reach of children.<br>
+                           <br>
+                           <strong>4. Fire Safety</strong>: Keep flammable objects, such as kitchen towels and paper towels, away from open flames, stovetops, and hot surfaces. Use oven mitts or potholders when handling hot pots and pans. Have a fire extinguisher in the kitchen and know how to use it.<br>
+                           <br>
+                           <strong>5. Electrical Safety</strong>: Inspect electrical cords and plugs for damage before using appliances. Keep electrical appliances away from water to prevent electrical shocks.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L14%20&#8211;%20KITCHEN%20SAFETY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog17">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L15 – TABLE SETTING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Table setting is the arrangement of utensils, dishes, glassware, and other items on a dining table for a meal. Proper table setting not only enhances the dining experience but also demonstrates good etiquette. Here are details on how to set a formal dining table:<br>
+                           <br>
+                           <strong>1. Place Setting</strong>: Start by placing a clean tablecloth or table runner on the dining table.<br>
+                           <br>
+                           <strong>2. Dinner Plate</strong>: Position the dinner plate at the center of the setting, aligning it with the chair.<br>
+                           <br>
+                           <strong>3. Napkins</strong>: Place a folded cloth napkin either to the left of the dinner plate or on the dinner plate itself.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L15%20&#8211;%20TABLE%20SETTING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L16 – TABLE SETTING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>4. Forks</strong>: Arrange forks to the left of the dinner plate. The dinner fork goes closest to the plate, followed by the salad fork (if needed).<br>
+                           <br>
+                           <strong>5. Knives and Spoons</strong>: Place knives to the right of the dinner plate, with the blade facing the plate. Place spoons to the right of the knives.<br>
+                           <br>
+                           <strong>6. Glassware</strong>: Set drinking glasses above the knives and spoons. The water glass goes on the left, while any wine or other beverage glasses are on the right.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L16%20&#8211;%20TABLE%20SETTING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog18">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L17 – CLEANING AND HYGIENE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Understand the importance of cleanliness and hygiene in the kitchen and when handling food.<br>
+Maintaining proper cleaning and hygiene practices is crucial for a clean and healthy living environment. It helps prevent the spread of germs, reduces the risk of illnesses, and creates a pleasant and safe space. Here are details on cleaning and hygiene:<br>
+                           <br>
+                           <strong>1. Handwashing</strong>: Regularly wash your hands with soap and warm water for at least 20 seconds, especially before eating, after using the restroom, and when handling food.<br>
+                           <strong><br>
+2. Cleaning Surfaces</strong>: Clean frequently touched surfaces like doorknobs, light switches, countertops, and tables daily with disinfectant or a mixture of water and soap.<br>
+                           <strong><br>
+3. Personal Hygiene</strong>: Maintain personal hygiene by taking daily showers, brushing teeth, and using deodorant. Wear clean clothes and change bed linens regularly.<br>
+                           <strong><br>
+                           </strong></span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L17%20&#8211;%20CLEANING%20AND%20HYGIENE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L18 – CLEANING AND HYGIENE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>4. Kitchen Hygiene</strong>: Keep the kitchen clean by washing dishes promptly, wiping down counters, and cleaning appliances. Store raw meats separately from other foods to prevent cross-contamination.<br>
+                           <strong><br>
+5. Bathroom Hygiene</strong>: Clean and disinfect bathroom fixtures, including the toilet, sink, and shower regularly. Use separate towels for hands and the body.<br>
+                           <strong><br>
+6. Garbage Disposal</strong>: Dispose of trash properly in sealed bags or bins with lids to prevent pests and odors. Empty kitchen trash regularly, especially if it contains food waste.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L18%20&#8211;%20CLEANING%20AND%20HYGIENE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg3">
+      <div id="lg3">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid32">
+                     <div id="LayoutGrid32">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text10">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 CTS Term 3</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button33" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button34" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button33', 0, 'fade', 1);ShowObjectWithEffect('Button34', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObjectWithEffect('blog26', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button19" onclick="navigateToPage('blog17');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button33', 1, 'fade', 1);ShowObjectWithEffect('Button34', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog26', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button20" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog26', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button21" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObjectWithEffect('blog26', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button22" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button23" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button24" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button25" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button26" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button27" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button28" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObjectWithEffect('blog27', 1, 'fade', 1);ShowObjectWithEffect('blog25', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button29" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObjectWithEffect('blog25', 1, 'fade', 1);ShowObjectWithEffect('blog27', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button30" onclick="navigateToPage('blog24');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button31', 1, 'fade', 1);ShowObjectWithEffect('Button32', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog27', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button31" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button31', 0, 'fade', 1);ShowObjectWithEffect('Button32', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObjectWithEffect('blog27', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button32" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog19">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L01 – STORYTELLING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Storytelling is the art of using words, images, or other mediums to convey a narrative, engage an audience, and evoke emotions. Use pictures and simple sentences to tell a story inspired by an artwork or drawing. Encourage children to use their imaginations to create narratives for their art. Here are details on storytelling:<br>
+                           <br>
+                           <strong>The Power of Stories</strong>: Stories have been a fundamental part of human culture throughout history, serving as a means of communication, entertainment, and education.<br>
+                           <br>
+                           <strong>Key Elements of Storytelling</strong>:<br>
+                           <strong>1. Characters</strong>: Stories often revolve around characters, each with their own motivations and development.<br>
+                           <br>
+                           <strong>2. Plot</strong>: The plot is the sequence of events that make up the story, including the conflict, climax, and resolution.<br>
+                           <br>
+                           <strong>3. Setting</strong>: The setting provides the context and environment in which the story takes place.<br>
+                           <br>
+                           <strong>4. Conflict</strong>: Conflict is a central element that drives the story forward, creating tension and challenges for the characters.<br>
+                           <strong>Theme</strong>: Themes are the underlying ideas or messages conveyed by the story.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L01%20&#8211;%20STORYTELLING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L02 – Purpose of Storytelling</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Purpose of Storytelling</strong>: <br>
+Storytelling serves various purposes, including:<br>
+                           <br>
+                           <strong>1. Entertainment</strong>: Stories captivate and engage audiences, providing enjoyment and escapism.<br>
+                           <br>
+                           <strong>2. Education</strong>: Stories convey lessons, morals, and knowledge.<br>
+                           <br>
+                           <strong>3. Persuasion</strong>: Stories can influence opinions, beliefs, and behaviors.<br>
+                           <br>
+                           <strong>4. Cultural Preservation</strong>: Stories preserve and transmit cultural traditions and values.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L02%20&#8211;%20Purpose%20of%20Storytelling">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog20">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L03 – Storytelling Formats</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Storytelling Formats</strong>: <br>
+Stories can take different formats, such as:<br>
+                           <br>
+                           <strong>1. Short Stories</strong>: Concise narratives that deliver a complete story in a brief format.<br>
+                           <br>
+                           <strong>2. Novels</strong>: Longer works of fiction that allow for in-depth character development and complex plots.<br>
+                           <br>
+                           <strong>3. Fairy Tales</strong>: Traditional stories often featuring magical elements and moral lessons.<br>
+                           <br>
+                           <strong>4. Myths and Legends</strong>: Stories that explain natural phenomena, origins, and cultural beliefs.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L03%20&#8211;%20Storytelling%20Formats">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog21">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L04 – DIGITAL CITIZENSHIP</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Digital citizenship refers to the responsible and ethical use of technology, particularly the internet, in a manner that promotes positive and constructive engagement with digital tools and platforms. It encompasses a wide range of behaviors, attitudes, and skills that individuals need to navigate the digital world effectively and responsibly. Here are details on digital citizenship:<br>
+                           <br>
+                           <strong>1. Respect and Empathy</strong>: Digital citizens treat others with respect and empathy online, just as they would in face-to-face interactions. They are considerate of people's feelings and perspectives.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L04%20&#8211;%20DIGITAL%20CITIZENSHIP">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L05 – DIGITAL CITIZENSHIP</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>2. Online Etiquette (Netiquette)</strong>: Netiquette refers to the set of polite and courteous behaviors one should exhibit online. This includes using proper language, not posting offensive content, and refraining from cyberbullying or harassment.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L05%20&#8211;%20DIGITAL%20CITIZENSHIP">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L06 – DIGITAL CITIZENSHIP</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Thursday, August 31, 2023<br></div>
+                        <span style="color:#000000;"><strong>3. Privacy and Security</strong>: Digital citizens are cautious about sharing personal information online and are aware of the risks associated with sharing sensitive data. They use strong passwords and take measures to protect their online privacy.<br>
+                           <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L06%20&#8211;%20DIGITAL%20CITIZENSHIP">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog22">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L07 – EXPLORATION</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Exploration is the act of traveling or investigating new and unfamiliar territories, whether they are physical, intellectual, or conceptual. It has played a significant role in human history and continues to drive progress and discovery in various fields. Here are details on exploration:<br>
+                           <br>
+                           <strong>Types of Exploration:<br>
+1. Physical Exploration</strong>: This involves traveling to new geographic regions, whether on land, sea, or space. It includes expeditions, voyages, and space missions.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L07%20&#8211;%20EXPLORATION">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L08 – EXPLORATION</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>2. Scientific Exploration</strong>: Scientists explore the natural world to understand phenomena, discover new species, or uncover the secrets of the universe through experiments and research.<br>
+                           <br>
+                           <strong>3. Personal Exploration</strong>: Individuals explore their own capabilities, emotions, and potential for growth through self-discovery and introspection.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L08%20&#8211;%20EXPLORATION">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog23">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L09 – CREATIVITY</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Creativity is a complex and multifaceted human trait that involves the ability to generate, combine, and transform ideas, images, or concepts in novel and meaningful ways. It is a fundamental aspect of human cognition and plays a crucial role in various aspects of life. Here are details on creativity:<br>
+                           <br>
+                           <strong>Definition of Creativity</strong>: Creativity is the capacity to produce original and valuable ideas, solutions, or expressions. It often involves thinking beyond conventional boundaries and connecting seemingly unrelated concepts.<br>
+                           <strong><br>
+Key Characteristics of Creativity</strong>:<br>
+                           <strong>1. Originality</strong>: Creative ideas or creations are unique and distinct from what already exists.<br>
+                           <strong>2. Relevance</strong>: Creative outputs are meaningful, solving problems or addressing needs.<br>
+                           <strong>3. Flexibility</strong>: Creativity often involves adapting and changing ideas as circumstances evolve.<br>
+                           <strong>4. Imagination</strong>: Creative individuals have vivid imaginations and can envision possibilities beyond the present reality.<br>
+                           <strong>5. Open-Mindedness</strong>: Being receptive to new ideas, perspectives, and experiences is essential for creativity.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L09%20&#8211;%20CREATIVITY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L10 – Forms of Creativity</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Forms of Creativity</strong>:<br>
+Creativity can manifest in various domains, including:<br>
+                           <br>
+                           <strong>1. Artistic Creativity</strong>: Expressing creativity through visual arts, music, literature, dance, and other forms of artistic expression.<br>
+                           <strong><br>
+2. Scientific Creativity</strong>: Generating innovative hypotheses, experimental designs, and solutions to scientific problems.<br>
+                           <strong><br>
+3. Innovation</strong>: Applying creative thinking to create new products, services, or processes in business and technology.<br>
+                           <strong><br>
+4. Everyday Creativity</strong>: Solving everyday problems, finding new ways to complete tasks, or coming up with innovative solutions to daily challenges.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L10%20&#8211;%20Forms%20of%20Creativity">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog24">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L11 – FOOD STORAGE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Proper food storage is essential to maintain food quality, prevent spoilage, and ensure food safety. It involves storing different types of food at the correct temperatures and using suitable containers to minimize the risk of contamination. Here are details on food storage:<br>
+                           <br>
+                           <strong>1. Freezing</strong>: Freeze foods that you don't plan to use immediately, such as meats, vegetables, and bread. Package items in airtight containers or freezer bags to prevent freezer burn. Label packages with the date of freezing to keep track of freshness.<br>
+                           <br>
+                           <strong>2. Dry Storage</strong>: Dry storage is suitable for non-perishable items like grains, cereals, canned goods, and dry pasta. Keep these foods in a cool, dry place away from direct sunlight and moisture.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L11%20&#8211;%20FOOD%20STORAGE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L12 – FOOD STORAGE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>3. Containers</strong>: Use food-safe, airtight containers for storage to prevent odors from spreading and maintain food quality. Glass, plastic, and metal containers with tight-fitting lids are suitable for different types of food.<br>
+                           <br>
+                           <strong>4. Keep Eggs in the Carton</strong>: Store eggs in their original carton in the refrigerator, as it helps protect them from absorbing strong odors and maintains freshness.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L12%20&#8211;%20FOOD%20STORAGE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog25">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L13 – MEASURING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Accurate measuring is crucial in cooking and baking to ensure recipes turn out as intended. It involves using standardized units of measurement for ingredients. Here are details on measuring:<br>
+                           <br>
+                           <strong>Measuring Tools</strong>:<br>
+Common measuring tools include measuring cups, measuring spoons, and kitchen scales. Measuring cups come in various sizes (e.g., 1 cup, 1/2 cup, 1/4 cup) and are used for dry and liquid ingredients. Measuring spoons are used for smaller quantities and come in various sizes (e.g., 1 tablespoon, 1 teaspoon, 1/2 teaspoon).<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L13%20&#8211;%20MEASURING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L14 – MEASURING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>1. Dry Ingredients</strong>: For dry ingredients like flour, sugar, and spices, use dry measuring cups. Fill the cup to overflowing and level it off with a flat edge (e.g., a knife) for an accurate measurement. Use a straight-edged spatula or knife to level the dry ingredients in the cup without tapping or shaking the cup.<br>
+                           <br>
+                           <strong>2. Liquid Ingredients</strong>: For liquids like water, milk, or oil, use liquid measuring cups. Fill the cup to the desired mark at eye level for an accurate measurement. Check the meniscus (the curved surface of the liquid) to ensure an accurate measurement.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L14%20&#8211;%20MEASURING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog26">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L15 – NUTRITION</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Explore the concept of nutrients in food and their role in helping us grow and stay healthy.<br>
+                           <br>
+                           <strong>1. Macronutrients</strong>: Macronutrients are the major nutrients needed by the body in larger quantities. They include:<br>
+                           <strong>a. Carbohydrates</strong>: Provide energy and include sources like grains, fruits, and vegetables.<br>
+                           <strong>b. Proteins</strong>: Essential for growth, repair, and overall body function; found in foods like meat, beans, and dairy.<br>
+                           <strong>c. Fats</strong>: Provide energy, support cell growth, and protect organs; found in oils, nuts, and fatty fish.</span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L15%20&#8211;%20NUTRITION">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L16 – NUTRITION</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>2. Micronutrients</strong>: Micronutrients are essential vitamins and minerals required in smaller amounts for various bodily functions. Examples include <strong>vitamin</strong> C for immunity, calcium for strong bones, and iron for oxygen transport.<br>
+                           <br>
+                           <strong>3. Balanced Diet</strong>: A balanced diet includes foods from all food groups to ensure a wide range of nutrients. Strive to fill your plate with colorful fruits and vegetables, lean proteins, whole grains, and healthy fats.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L16%20&#8211;%20NUTRITION">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog27">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L17 – FAMILY MEALS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;">Family meals are essential for fostering strong family bonds, promoting healthy eating habits, and providing opportunities for communication. Here are details on family meals:<br>
+                           <br>
+                           <strong>Importance of Family Meals</strong>:&nbsp; Family meals offer a chance for family members to come together, connect, and share experiences.&nbsp; They provide a platform for open communication, where family members can discuss their day, concerns, and achievements. Regular family meals can positively influence children's development, academic performance, and emotional well-being. They promote healthy eating habits by offering balanced and nutritious meals.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L17%20&#8211;%20FAMILY%20MEALS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L18 – FAMILY MEALS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, September 22, 2023<br></div>
+                        <span style="color:#000000;"><strong>Planning Family Meals</strong>: Plan family meals ahead to accommodate everyone's schedules. Choose a time that works for all family members as often as possible. Involve family members in meal planning and allow them to contribute ideas and preferences. Consider dietary restrictions or preferences when planning meals.</span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L18%20&#8211;%20FAMILY%20MEALS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_locationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
+               </div>
+               <div id="wb_Text7">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_contactsText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_emailFontAwesomeIcon">
+                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_facebookFontAwesomeIcon">
+                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_callFontAwesomeIcon">
+                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_whatsappFontAwesomeIcon">
+                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_smsFontAwesomeIcon">
+                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_copywriteText">
+                  <span style="color:#FFFFFF;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>     <script>   
+       function navigateToPage(blogId) {
+         // Hide all pages
+         var pages = document.querySelectorAll('.blog');
+         pages.forEach(function(blog) {
+           page.style.display = 'none';
+         });
+   
+         // Show the selected page
+         var selectedPage = document.getElementById(blogId);
+         selectedPage.style.display = 'block';
+       }
+     
+   </script>

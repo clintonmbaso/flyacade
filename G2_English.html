@@ -1,0 +1,2644 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flyacade.css" rel="stylesheet">
+<link href="G2_English.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#mainLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_mainLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#blog1').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#lg1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg1').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg3').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#blog2').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog3').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog4').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog5').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog6').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog7').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog9').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog10').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog11').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog12').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog13').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog14').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog15').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog17').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog18').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog19').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog20').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog21').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog22').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog23').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog24').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="FlexContainer2">
+      <div id="PanelLayer">
+         <div id="wb_IconFont2">
+            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+         </div>
+         <div id="wb_Image1">
+            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+         </div>
+         <div id="wb_Heading20">
+            <h2 id="Heading20">Flying Wings Academy</h2>
+         </div>
+         <div id="wb_OverlayMenu2">
+            <div class="OverlayMenu2">
+               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
+                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
+                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
+                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                  <li><a role="menuitem" href="./G1_SP1.html" onclick="window.location.href='./G1_SP1.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
+                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="wb_Text40">
+            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+         </div>
+      </div>
+      <div id="wb_HeaderLayoutGrid">
+         <div id="HeaderLayoutGrid">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_home_logo">
+                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div id="wb_Header">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text2">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text5">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text1">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text4">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text6">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexContainer3">
+      <div id="wb_Text9">
+         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
+      </div>
+   </div>
+   <div id="wb_mainLayoutGrid">
+      <div id="mainLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TabMenu1">
+                     <ul id="TabMenu1" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                        <li><a href="./Study_Centre.html" itemprop="url"><span itemprop="name">SC</span></a></li>
+                        <li><a href="./G2_Math.html" itemprop="url"><span itemprop="name">M</span></a></li>
+                        <li><a href="./G2_English.html" class="active" itemprop="url"><span itemprop="name">E</span></a></li>
+                        <li><a href="./G2_Science.html" itemprop="url"><span itemprop="name">S</span></a></li>
+                        <li><a href="./G2_Literacy.html" itemprop="url"><span itemprop="name">Lit</span></a></li>
+                        <li><a href="./G2_SP1.html" itemprop="url"><span itemprop="name">SP1</span></a></li>
+                        <li><a href="./G2_Social_Studies.html" itemprop="url"><span itemprop="name">S.S</span></a></li>
+                        <li><a href="./G2_CTS.html" itemprop="url"><span itemprop="name">CTS</span></a></li>
+                        <li><a href="./G3.html" itemprop="url"><span itemprop="name">></span></a></li>
+                     </ul>
+                  </div>
+                  <div id="wb_servicesHeading">
+                     <h2 id="servicesHeading">Grade 2 English</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg1">
+      <div id="lg1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid28">
+                     <div id="LayoutGrid28">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text13">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 English Term 1</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Btn1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn2" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn1', 0, 'fade', 1);ShowObjectWithEffect('Btn2', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObjectWithEffect('blog2', 1, 'fade', 1);ShowObjectWithEffect('blog1', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Btn3" onclick="navigateToPage('blog1');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn1', 1, 'fade', 1);ShowObjectWithEffect('Btn2', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Btn4" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn5" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn6" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Btn7" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn8" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Btn9" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Btn10" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn11" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn12" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Btn13" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn14" onclick="navigateToPage('blog8');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn15', 1, 'fade', 1);ShowObjectWithEffect('Btn16', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Btn15" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn15', 0, 'fade', 1);ShowObjectWithEffect('Btn16', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="submit" id="Btn16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog1">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L01 – What Is a Sentence?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A sentence is a group of words that tells a complete idea.<br>
+Sentence: <strong>The fireworks are loud.<br>
+                           </strong>Not a Sentence: <strong>The fireworks.<br>
+                              <br>
+                           </strong>A. Write <strong>sentence </strong>or <strong>not a sentence</strong>.<br>
+1. The colors are bright. ____________________________<br>
+2. Fireworks streak through the dark. ____________________________<br>
+3. Fireworks light up the night. ____________________________<br>
+4. Fall to the ground. ____________________________<br>
+5. High in the sky. ____________________________<br>
+6. People watch in delight. ____________________________<br>
+                           <br>
+B. Add words to make sentences.<br>
+7. The noise ___________________________________________________.<br>
+8. ____________________________________ are red, yellow, and green.<br>
+                           <br>
+                           <strong>Activity 1: <br>
+                              <br>
+                           </strong>A. <br>
+1. sentence <br>
+2. Sentence <br>
+3. sentence <br>
+4. not a sentence <br>
+5. not a sentence <br>
+6. sentence <br>
+                           <br>
+B. <br>
+7.–8. <br>
+Check that students write complete sentences.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L01%20&#8211;%20What%20Is%20a%20Sentence%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L02 – In Order </span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Sentences<br>
+The order of words tells what a sentence means.<br>
+Sentence: <strong>Maisie has a camera.<br>
+                           </strong>Not a Sentence: <strong>Camera Maisie has a.<br>
+                           </strong>Underline under the words that make a sentence.<br>
+                           <br>
+1. <br>
+a. Maisie takes good pictures.<br>
+b. Good Maisie pictures takes.<br>
+                           <br>
+2. <br>
+a. Subject she a chooses.<br>
+b. She chooses a subject.<br>
+                           <br>
+3. <br>
+a. She looks through the lens.<br>
+b. Through she looks the lens.<br>
+                           <br>
+4. <br>
+a. The shot right to get it is hard.<br>
+b. It is hard to get the right shot.<br>
+                           <br>
+5. <br>
+a. The shutter she snaps.<br>
+b. She snaps the shutter.<br>
+                           <br>
+6. <br>
+a. A picture appears.<br>
+b. Appears a picture.<br>
+                           <strong><br>
+Activity 2: <br>
+                              <br>
+                           </strong>A.<br>
+1. a <br>
+2. b <br>
+3. a <br>
+4. b <br>
+                           <br>
+B. <br>
+5. b <br>
+6. a<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L02%20&#8211;%20In%20Order%20">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L03 – Sentence Subjects</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">The subject of a sentence tells who or what does something.<br>
+                           <br>
+                           <strong>The dog watches the cat.<br>
+                           </strong>subject of sentence <br>
+                           <br>
+Add a subject to each sentence. Use the picture to help you.<br>
+                           <br>
+1. A ___________________________ looks at his glasses.<br>
+2. The ___________________________ has a teddy bear.<br>
+3. One ___________________________ opens his suitcase.<br>
+4. ___________________________ holds his skateboard.<br>
+5. A ___________________________ wants food in her dish.<br>
+6. Her ___________________________ is empty.<br>
+7. The ___________________________ will wear her hat.<br>
+8. The ___________________________ holds a bone.<br>
+                           <br>
+                           <strong>Activity 3: <br>
+                              <br>
+                           </strong>Answers will vary. Possible:<br>
+1. man <br>
+2. girl <br>
+3. boy <br>
+4. Kevin <br>
+5. cat <br>
+6. dish<br>
+7. woman or mother <br>
+8. dog<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L03%20&#8211;%20Sentence%20Subjects">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog2">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L04 – Sentence Action</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Some words in a sentence tell what happens.<br>
+                           <br>
+                           <strong>A faucet drips.</strong><br>
+what happens<br>
+                           <br>
+Tell what happens in each sentence. Use the word bank.<br>
+                           <br>
+1. A fan _______________________________.<br>
+2. A broom ____________________________.<br>
+3. A ball _______________________________.<br>
+4. A bell _______________________________.<br>
+5. A flag _______________________________.<br>
+6. A ruler ______________________________.<br>
+7. A clock ______________________________.<br>
+8. A cradle _____________________________.<br>
+                           <br>
+sentences<br>
+bounces rocks<br>
+waves sweeps<br>
+rings ticks<br>
+cools measures<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 4: <br>
+                              <br>
+                           </strong>1. cools <br>
+2. sweeps <br>
+3. bounces<br>
+4. rings <br>
+5. waves <br>
+6. measures <br>
+7. ticks <br>
+8. rocks<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L04%20&#8211;%20Sentence%20Action">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L05 – Sentence Parts</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A sentence has two parts.<br>
+One part is the subject.<br>
+The other part tells what the subject does.<br>
+                           <br>
+                           <strong>The hikers saw an empty cabin.</strong><br>
+subject what happens<br>
+                           <br>
+Draw a line to match the two parts of each sentence.<br>
+                           <br>
+1. A loose shutter <br>
+a. grew over the path.<br>
+                           <br>
+2. The air <br>
+b. covered the furniture.<br>
+                           <br>
+3. A mouse <br>
+c. ran into a hole.<br>
+                           <br>
+4. Weeds <br>
+d. banged.<br>
+                           <br>
+5. Dust <br>
+e. sagged at the windows.<br>
+                           <br>
+6. Old curtains <br>
+f. smelled musty.<br>
+                           <br>
+7. The floorboards <br>
+g. was on the ceiling.<br>
+                           <br>
+8. A cobweb <br>
+h. creaked loudly.<br>
+                           <br>
+                           <br>
+                           <strong>Activity 5: <br>
+                           </strong>1. d <br>
+2. f <br>
+3. c <br>
+4. a <br>
+5. b <br>
+6. e <br>
+7. h <br>
+8. g<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L05%20&#8211;%20Sentence%20Parts">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L06 – Statements and Questions</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">A sentence that tells something is a statement.<br>
+A sentence that asks something is a question.<br>
+Statement: <strong>The water was chilly.</strong><br>
+Question: <strong>Was the water chilly?</strong><br>
+A. Read each sentence. Write <strong>statement </strong>or <strong>question</strong>.<br>
+1. Max jumped into the pool. ___________________________<br>
+2. It was a cool day. ___________________________<br>
+3. How did the water feel? ___________________________<br>
+4. How long did Max stay in the pool? ___________________________<br>
+5. He swam for a long time. ___________________________<br>
+6. Did he get sick? ___________________________<br>
+B. Complete the statement and question.<br>
+7. Max needed _________________________________________________.<br>
+8. Will he ______________________________________________________?<br>
+sentences<br>
+                           <strong><br>
+Activity 6: <br>
+                           </strong>A. <br>
+1. statement <br>
+2. statement<br>
+3. question <br>
+4. question <br>
+5. statement<br>
+6. question <br>
+                           <br>
+B. <br>
+7. Check that students complete the statement. <br>
+8. Check that students complete the question.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L06%20&#8211;%20Statements%20and%20Questions">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog3">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L07 – Writing Statements and Questions</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A sentence always begins with a capital letter.<br>
+A statement ends with a period.<br>
+A question ends with a question mark.<br>
+                           <br>
+Statement: <strong>It’s time for the race.</strong><br>
+capital letter period<br>
+Question: <strong>Will the runners line up?</strong><br>
+capital letter question mark<br>
+Write the sentences so that they begin and end correctly.<br>
+                           <br>
+1. how many runners are on a team<br>
+____________________________________________________________<br>
+2. how far will they run<br>
+____________________________________________________________<br>
+3. the race is on the track<br>
+____________________________________________________________<br>
+4. is everyone ready<br>
+____________________________________________________________<br>
+                           <br>
+                           <strong>Activity 7: <br>
+                           </strong>1. How many runners are on a team? <br>
+2. How far will they run? <br>
+3. The race is on the track. <br>
+4. Is everyone ready?<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L07%20&#8211;%20Writing%20Statements%20and%20Questions">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L08 – More Kinds of Sentences</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A command is a sentence that tells what to do.<br>
+The subject of a command is <em>you</em>,<br>
+but it is not said or written.<br>
+                           <br>
+Command: <strong>Set the table.</strong><br>
+The subject <em>you </em>is not stated.<br>
+An exclamation is a sentence that shows strong feeling.<br>
+Exclamation: <strong>That’s great!<br>
+                           </strong><br>
+A. Read each sentence. Write <strong>statement </strong>or <strong>command</strong>.<br>
+1. Don’t forget the napkins. ______________________________<br>
+2. Use the blue plates. ______________________________<br>
+3. The forks go on the left. ______________________________<br>
+4. The table looks nice. ______________________________<br>
+                           <br>
+B. Read each sentence. Write <strong>command </strong>or <strong>exclamation</strong>.<br>
+5. Wow! ______________________________<br>
+6. Put glasses on the table. ______________________________<br>
+7. Please sit down. ______________________________<br>
+8. Thanks! ______________________________<br>
+                           <br>
+                           <strong>Activity 8: <br>
+                           </strong>A. <br>
+1. command <br>
+2. command<br>
+3. statement <br>
+4. statement <br>
+                           <br>
+B. <br>
+5. exclamation<br>
+6. command <br>
+7. command <br>
+8. exclamation<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L08%20&#8211;%20More%20Kinds%20of%20Sentences">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L09 – Writing Commands and Exclamations</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">A sentence always begins with a capital letter.<br>
+A command ends with a period.<br>
+An exclamation ends with an exclamation mark.<br>
+Command: <strong>Play ball.</strong><br>
+capital letter period<br>
+Exclamation: <strong>Hurray!</strong><br>
+capital letter exclamation mark<br>
+                           <br>
+Write the sentences so that they begin and end correctly.<br>
+1. pass the ball __________________________________________<br>
+2. wow __________________________________________<br>
+3. guard that player __________________________________________<br>
+4. nice play __________________________________________<br>
+5. make that shot __________________________________________<br>
+6. great game __________________________________________<br>
+                           <br>
+                           <strong>Activity 9: <br>
+                           </strong>1. Pass the ball. <br>
+2. Wow!<br>
+3. Guard that player. <br>
+4. Nice play! <br>
+5. Make that shot. <br>
+6. Great game!<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L09%20&#8211;%20Writing%20Commands%20and%20Exclamations">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog4">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L10 – Sentences With And</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">The word <em>and </em>can link ideas in a sentence.<br>
+                           <strong>Mrs. Hill went to a store, and she bought beets.</strong><br>
+idea 1 linking word idea 2<br>
+                           <br>
+A. Add <strong>and </strong>to link the two ideas in each sentence.<br>
+Then number the two ideas.<br>
+                           <br>
+1. The beets were red, ___________ they were ripe.<br>
+idea ____ idea ____<br>
+                           <br>
+2. Mrs. Hill paid for the beets, ___________ she took them home.<br>
+idea ____ idea ____<br>
+                           <br>
+3. She put the beets in a pot, ___________ they were soon boiling.<br>
+idea ____ idea ____<br>
+                           <br>
+4. The beets colored the water, ___________ Mrs. Hill had a pink dye.<br>
+idea ____ idea ____<br>
+                           <br>
+B. Add an idea to complete each sentence.<br>
+5. Mrs. Hill got some cloth, and __________________________________.<br>
+6. The cloth was pretty, and _____________________________________.<br>
+                           <br>
+                           <strong>Activity 10: <br>
+                           </strong>A. 1.–4. Check that students<br>
+label both ideas and add <em>and </em>to each<br>
+sentence. <br>
+B. 5.–6. Answers will vary.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L10%20&#8211;%20Sentences%20With%20And">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L11 – Sentences With Because</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">The word <em>because </em>can link ideas in a sentence.<br>
+                           <strong>Walt put on earmuffs because it was cold.</strong><br>
+idea 1 linking word idea 2<br>
+A. Add <strong>because </strong>to link the two ideas in each sentence.<br>
+Number the two ideas in each sentence.<br>
+1. Walt wore boots ___________________ the snow was wet.<br>
+idea ____ idea ____<br>
+2. His scarf got damp ___________________ it dragged in the snow.<br>
+idea ____ idea ____<br>
+3. His hands were cold ___________________ he forgot his mittens.<br>
+idea ____ idea ____<br>
+4. Walt’s head was warm ___________________ he wore a hat.<br>
+idea ____ idea ____<br>
+B. Add an idea to complete each sentence.<br>
+5. Walt took a walk because ____________________________________.<br>
+6. His mother called him because ______________________________.<br>
+                           <br>
+                           <strong>Activity 11: <br>
+                           </strong>A. 1.–4. Check that students<br>
+label both ideas and add <em>because </em>to each<br>
+sentence. <br>
+B. 5.–6. Answers will vary.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L11%20&#8211;%20Sentences%20With%20Because">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L12 – Review: Sentences</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">A sentence that tells something is a statement.<br>
+A sentence that asks something is a question.<br>
+A command is a sentence that tells what to do.<br>
+The subject of a command is <em>you, </em>but it is not said or written.<br>
+An exclamation is a sentence that shows strong feeling.<br>
+                           <br>
+A. Read each sentence. Write <strong>statement</strong>, <strong>question</strong>, <strong>command</strong>, or<br>
+                           <strong>exclamation</strong>. Add the correct end punctuation mark.<br>
+                           <br>
+1. We’re going to the playground___ ___________________________<br>
+2. When are we going___ ___________________________<br>
+3. Put your shoes on___ ___________________________<br>
+4. Did you see the slide___ ___________________________<br>
+5. Wow___ ___________________________<br>
+6. It is very tall___ ___________________________<br>
+                           <br>
+B. Write the words and punctuation mark in order so that they<br>
+form a sentence.<br>
+7. ate <strong>. </strong>our We at park lunch the<br>
+_______________________________________________________<br>
+                           <br>
+                           <strong>Activity 12: </strong>A. 1. period; statement<br>
+2. question mark; question 3. period;<br>
+command 4. question mark; question<br>
+5. exclamation point; exclamation<br>
+6. period; statement B. 7. We ate our lunch<br>
+at the park.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L12%20&#8211;%20Review:%20Sentences">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog5">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L13 – What Is a Noun?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A noun is a word that names a person, place, or thing.<br>
+Person: <strong>girl</strong><br>
+Place: <strong>school</strong><br>
+Thing: <strong>pencil</strong><br>
+A. Look at the picture above. Circle the noun that answers each question.<br>
+1. Who is in the picture? doctor policeman riding<br>
+2. What place is shown? farm strong city<br>
+3. What thing is in the picture? saddle later help<br>
+                           <br>
+B. Write a noun from the word bank to complete each sentence.<br>
+4. The ________________ walks along. <br>
+5. His ________________ waves back and forth. <br>
+6. The ________________ is empty. <br>
+7. A man looks out his ________________.<br>
+8. A ________________ floats by a building.<br>
+blue bicycle horse window street tail cloud sunny<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 13: </strong>A. 1. policeman 2. city 3. saddle<br>
+B. 4. horse 5. tail 6. street 7. window 8. cloud<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L13%20&#8211;%20What%20Is%20a%20Noun%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L14 – Proper Nouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A proper noun is the specific name for a person, place or thing.<br>
+A proper noun can also be the name of a place or a holiday.<br>
+Each word in a proper noun begins with a capital letter.<br>
+Proper Nouns: <strong>Jeff Young, Mona Lang, Seattle, Halloween</strong><br>
+A. Circle the proper nouns in each sentence.<br>
+1. Becca Hardy went to the Rocky Mountains with her family.<br>
+2. They also visited Salt Lake City and San Francisco.<br>
+3. Mia Grasso joined them for Columbus Day.<br>
+B. Write the name of a holiday for each clue.<br>
+4. Eat turkey. ___________________________________<br>
+5. Play a joke. ___________________________________<br>
+6. Watch fireworks. ___________________________________<br>
+7. Make a heart. ___________________________________<br>
+C. Write the name of your city.<br>
+8. _____________________________________________________________<br>
+                           <br>
+                           <strong>Activity 14: </strong>A. 1. Becca Hardy; Rocky<br>
+Mountains 2. Salt Lake City; San Francisco<br>
+3. Mia Grasso; Columbus Day<br>
+B. 4. Thanksgiving 5. April Fool’s Day<br>
+6. Independence Day or Fourth of July<br>
+7. Valentine’s Day C. 8. Check that students<br>
+write the city name correctly.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L14%20&#8211;%20Proper%20Nouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L15 – Plural Nouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">A plural noun names more than one person, place, or thing.<br>
+Most plural nouns end in <em>-s</em>.<br>
+One: <strong>pretzel</strong><br>
+More Than One: <strong>pretzels<br>
+                           </strong><br>
+A. Circle the plural noun or nouns in each sentence.<br>
+1. Nick brought nuts for his snack. 2. Ezra had bags of beans.<br>
+3. Where are Amy’s carrots? 4. We bought hotdogs and rolls.<br>
+                           <br>
+B. Write the correct noun form in each sentence.<br>
+5. Dad ate a bunch of _________________________<br>
+grape grapes.<br>
+6. We had a good _________________________<br>
+cheese cheeses at lunch.<br>
+7. Mom made two _________________________<br>
+cake cakes for the fair.<br>
+8. How many _________________________<br>
+pie pies did you sell?<br>
+                           <br>
+                           <strong>Activity 15: <br>
+                           </strong>A. <br>
+1. nuts 2. bags; beans<br>
+3. carrots 4. hotdogs; rolls B. 5. grapes<br>
+6. cheese 7. cakes 8. pies<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L15%20&#8211;%20Plural%20Nouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog6">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L16 – More Plural Nouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Some nouns have different plural forms.<br>
+Write each sentence so that the underlined nouns are plural.<br>
+1. The goose flew over the house.<br>
+____________________________________________________________<br>
+2. The child chased after the ball.<br>
+____________________________________________________________<br>
+3. The mouse ran when the woman screamed.<br>
+____________________________________________________________<br>
+4. The man hitched the ox to a cart.<br>
+____________________________________________________________<br>
+5. The sock covered Ella’s foot.<br>
+____________________________________________________________<br>
+                           <br>
+SINGULAR PLURAL<br>
+child children woman women man men mouse mice<br>
+                           <br>
+SINGULAR PLURAL<br>
+foot feet ox oxen tooth teeth goose geese<br>
+                           <br>
+                           <strong>Activity 16: </strong>1. The geese flew over the<br>
+houses. 2. The children chased after the balls.<br>
+3. The mice ran when the women screamed.<br>
+4. The men hitched the oxen to a cart. 5. The<br>
+socks covered Ella’s feet.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L16%20&#8211;%20More%20Plural%20Nouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L17 – Names for Groups</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Thursday, August 31, 2023<br></div>
+                        <span style="color:#231F20;">Some nouns name groups of animals.<br>
+A. Write a group noun for each animal.<br>
+1. A group of sheep is called a ___________________________.<br>
+2. Lions live together in a ___________________________. <br>
+3. A ___________________________ of fish is a group of them.<br>
+4. A group of geese swimming is a ___________________________.<br>
+B. Write the plural noun for an animal in each sentence.<br>
+5. An army of ___________________________ came to our picnic.<br>
+6. We saw a troop of ___________________________ in a movie. <br>
+7. A swarm of ___________________________ flew to the hive.<br>
+8. A pack of ___________________________ ran in the street.<br>
+                           <br>
+ANIMAL GROUP NAME<br>
+fish school lion pride bee swarm dog pack<br>
+                           <br>
+ANIMAL GROUP NAME<br>
+sheep flock ant army ape troop goose gaggle<br>
+                           <br>
+                           <strong>Activity 17: </strong>A. 1. flock 2. pride 3. School 4. gaggle B. 5. ants 6. apes 7. bees 8. dogs<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L17%20&#8211;%20Names%20for%20Groups">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L18 – Possessive Nouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A possessive noun shows who owns something.<br>
+The noun ends with an apostrophe and an <em>s</em>: <strong>’s</strong>.<br>
+                           <strong>the boy’s bike The bike belongs to the boy.</strong><br>
+apostrophe and <em>s </em>show possession<br>
+A. Circle the word in each sentence that shows who owns something.<br>
+1. Jamie’s bike is red.<br>
+2. His brother’s bike has three wheels.<br>
+3. His friend’s bike is gray. <br>
+4. Dad’s bike needs a repair.<br>
+B. Read the first sentence. Then add a possessive noun<br>
+to the second sentence.<br>
+5. The bell belonging to Mom is shiny.<br>
+It is __________________________ bell.<br>
+6. That helmet belongs to Ada.<br>
+It is __________________________ helmet.<br>
+                           <br>
+                           <strong>Activity 18: </strong>A. 1. Jamie’s 2. brother’s 3. friend’s 4. Dad’s B. 5. Mom’s 6. Ada’s<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L18%20&#8211;%20Possessive%20Nouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog7">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L19 – What Is a Pronoun?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A pronoun takes the place of a noun or nouns.<br>
+                           <em>He, she, they, </em>and <em>it </em>are pronouns.<br>
+                           <strong>Carson went to the park. He went on the slide.</strong><br>
+noun pronoun takes place of noun<br>
+                           <br>
+A. Underline the noun in the first sentence. Circle the pronoun<br>
+that replaces that noun in the second sentence.<br>
+1. The swing was empty. Carson hopped on it. <br>
+2. Carson swung high. He could see far away. <br>
+3. Some kids came by. They rode around on scooters.<br>
+4. Polly showed up. She was happy to see Carson.<br>
+                           <br>
+B. Read the first sentence. Then complete the second sentence<br>
+with <strong>He</strong>, <strong>She</strong>, <strong>They</strong>, or <strong>It</strong>.<br>
+5. Carson was hungry. __________________ took out some pretzels.<br>
+6. Polly smiled. __________________ wanted some too.<br>
+7. The sun disappeared. __________________ went behind a cloud.<br>
+8. Polly and Carson left. __________________ went home together.<br>
+                           <br>
+                           <strong>Activity 19: </strong>A. 1. swing; it 2. Carson; He 3. kids; They 4. Polly; She B. 5. He 6. She 7. It 8. They<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L19%20&#8211;%20What%20Is%20a%20Pronoun%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L20 – More Pronouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A pronoun takes the place of a noun or nouns.<br>
+                           <em>I, me, you, </em>and <em>we </em>are pronouns.<br>
+                           <strong>“I will measure you,” Jada told Owen.</strong><br>
+pronoun replaces pronoun replaces<br>
+Jada’s name Owen’s name<br>
+Circle the pronoun in each sentence. Write the name<br>
+of the person or persons the pronoun replaces.<br>
+                           <br>
+1. Jada said, “I am growing.” ___________________<br>
+2. “Yes, you are,” agreed Owen. ___________________<br>
+3. “How tall are you?” asked Jada. ___________________<br>
+4. “Measure me,” said Owen. ___________________<br>
+5. “Okay, I will,” Jada said. ___________________<br>
+6. “Please stand next to me,” Jada added. ___________________<br>
+7. “We can take turns,” Owen suggested. ___________________<br>
+8. “You are very tall,” Jada said. ___________________<br>
+                           <br>
+                           <strong>Activity 20: </strong>1. I; Jada 2. you; Jada 3. you; Owen 4. me; Owen 5. I; Jada 6. Me; Jada 7. We; Owen and Jada 8. you; Owen <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L20%20&#8211;%20More%20Pronouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L21 – Pronouns With Endings</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">Some pronouns end with <em>self</em>.<br>
+These pronouns tell more about the<br>
+sentence subject.<br>
+                           <strong>I can mop the floor by myself.</strong><br>
+subject pronoun tells more about subject<br>
+Write a pronoun from the word bank to complete each sentence.<br>
+                           <br>
+1. Fran raked the leaves by ____________________________.<br>
+2. Can Josh carry the tray by ____________________________?<br>
+3. Neil and Roger pulled the wagons ____________________________.<br>
+4. The ball rolled by ___________________________ down the hill. <br>
+5. I put the umbrella up by ____________________________.<br>
+6. Did you wash the dog by ____________________________?<br>
+7. We did it by ____________________________.<br>
+                           <br>
+myself yourself <br>
+herself himself<br>
+itself ourselves<br>
+themselves<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 21: </strong>1. herself 2. himself<br>
+3. themselves 4. itself 5. myself 6. Yourself&nbsp; 7. ourselves<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L21%20&#8211;%20Pronouns%20With%20Endings">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog8">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT1L22 – Review: Nouns and Pronouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A noun is a word that names a person, place, or thing.<br>
+A pronoun takes the place of the name of a person, place, or thing.<br>
+                           <br>
+Read each pair of sentences. Circle the pronoun in the second sentence of each pair. Then write what noun the pronoun stands for.<br>
+                           <br>
+1. Wyatt did not like to clean his room.<br>
+He liked a messy room. _______________________<br>
+                           <br>
+2. Mother wanted Wyatt to do some work.<br>
+She handed Wyatt a broom. _______________________<br>
+                           <br>
+3. The pigs came into Wyatt’s room.<br>
+They helped Wyatt clean the room. _______________________<br>
+                           <br>
+4. Then Wyatt and the pigs played a game.<br>
+Wyatt and the pigs had fun playing it. _______________________<br>
+                           <br>
+5. The pigs and Wyatt played for a long time.<br>
+They liked to play games. _______________________<br>
+                           <br>
+6. Wyatt was sad to see his friends go.<br>
+He liked playing with the pigs. _______________________<br>
+                           <br>
+                           <strong>Activity 22: <br>
+                           </strong>1. He; Wyatt <br>
+2. She; Mother <br>
+3. They; pigs <br>
+4. it; game <br>
+5. They; pigs and Wyatt <br>
+5. He; Wyatt<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT1L22%20&#8211;%20Review:%20Nouns%20and%20Pronouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg2">
+      <div id="lg2">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid30">
+                     <div id="LayoutGrid30">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text8">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 English Term 2</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button2" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button1', 0, 'fade', 1);ShowObjectWithEffect('Button2', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button3" onclick="navigateToPage('blog9');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button1', 1, 'fade', 1);ShowObjectWithEffect('Button2', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button4" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button5" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button6" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button7" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button8" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button9" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button10" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button11" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button12" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button13', 1, 'fade', 1);ShowObjectWithEffect('Button14', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button13" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button14" onclick="navigateToPage('blog16');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button15" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button15', 0, 'fade', 1);ShowObjectWithEffect('Button16', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog9">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L01 – What Is a Verb?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A verb is a word that tells what someone or something does.<br>
+Every sentence has a verb.<br>
+                           <strong>Marco cut a flower for his teacher.</strong><br>
+                           <br>
+A. Circle the verb in each sentence.<br>
+1. The flower needed water.<br>
+2. It drooped in Marco’s hand.<br>
+3. Kiri gave Marco a wet paper towel.<br>
+4. The flower got water from the towel.<br>
+5. Marco took the flower to school safely.<br>
+                           <br>
+B. Write a verb from the word bank to complete each sentence.<br>
+6. Mrs. Hill _______________________ the flower. <br>
+7. The teacher _______________________ the flower in a vase.<br>
+8. She _______________________ Marco for the gift.<br>
+                           <br>
+thanked won helped put liked fed<br>
+                           <strong>Activity 23: </strong>A. 1. needed 2. drooped 3. gave<br>
+4. got 5. took B. 6. liked 7. put 8. thanked<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L01%20&#8211;%20What%20Is%20a%20Verb%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L02 – Noun and Verb Agreement</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A verb showing the action of one person or thing ends in <em>-s.</em><br>
+A verb showing the action of more than one person or thing does not end in <em>-s</em>.<br>
+                           <strong>The wolf looks happy. The pigs talk to the wolf.</strong><br>
+shows action of one shows action of more than one<br>
+Write the correct verb form in each sentence.<br>
+                           <br>
+The three pigs ___________________________ fear fears Wally Wolf.<br>
+He ___________________________ like likes to eat pigs.<br>
+Parker Pig ___________________________ build builds a straw house.<br>
+Penny Pig ___________________________ make makes a wood house.<br>
+The wolf ___________________________ destroy destroys their houses.<br>
+Can the pigs ___________________________ fool fools Wally?<br>
+Peter Pig ___________________________ design designs a stone house for all of them.<br>
+                           <br>
+                           <strong>Activity 24: </strong>1. fear 2. likes 3. builds<br>
+4. makes 5. destroys 6. fool 7. designs<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L02%20&#8211;%20Noun%20and%20Verb%20Agreement">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog10">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L03 – Past and Present Tense Verbs</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Verbs can tell about action in the present and the past.<br>
+Most past tense verbs end in <em>-ed</em>.<br>
+Present: <strong>walk walks</strong><br>
+Past: <strong>walked<br>
+                           </strong><br>
+A. Circle the verb in each sentence. Write <strong>present </strong>or <strong>past </strong>to tell about the verb tense.<br>
+1. Fiona waits at the stoplight. __________________<br>
+2. A police officer directs traffic. __________________<br>
+3. Many people fill the busy sidewalk. __________________<br>
+4. Once, Fiona arrived late for her music lesson. __________________<br>
+5. She missed part of the lesson. __________________<br>
+6. This week, Fiona enters the class on time. __________________<br>
+                           <br>
+B. Write one sentence with a verb in the present tense and one sentence with a verb in the past tense.<br>
+7. Present: _____________________________________________________<br>
+8. Past: ________________________________________________________<br>
+                           <br>
+                           <strong>Activity 25: <br>
+                           </strong>A. 1. waits; present 2. directs;<br>
+present 3. fill; present 4. arrived; past 5.<br>
+missed; past 6. enters; present B. 7.–8.<br>
+Answers will vary.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L03%20&#8211;%20Past%20and%20Present%20Tense%20Verbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L04 – Future Tense Verbs</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G2EngT2L04 – Future Tense Verbs" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Verbs can tell about action in the future.<br>
+Future verbs have <em>will </em>in front of them.<br>
+Future: <strong>It will rain tomorrow.</strong><br>
+                           <br>
+A. Circle the verb in each sentence. Write <strong>present</strong>, <strong>past</strong>,<br>
+or <strong>future </strong>to tell about the verb tense.<br>
+1. The rain flooded our yard last night. ________________________<br>
+2. It covered all the tree trunks. ________________________<br>
+3. Now Dad looks at the yard in dismay. ________________________<br>
+4. He takes a picture of the damage. ________________________<br>
+5. The water will disappear soon. ________________________<br>
+6. Then we will clean up the yard. ________________________<br>
+B. Write two sentences that show action in the future.<br>
+7. ______________________________________________________________<br>
+8. ______________________________________________________________<br>
+                           <br>
+                           <strong>Activity 26: </strong>A. 1. flooded; past 2. covered;<br>
+past 3. looks; present 4. takes; present 5. will<br>
+disappear; future 6. will clean; future B. 7.–8.<br>
+Answers will vary.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L04%20&#8211;%20Future%20Tense%20Verbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L05 – More About Verbs</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#000000;">Some past tense verbs do not end in the regular way.<br>
+                           <br>
+A. Circle the verb in each sentence. Write <strong>present</strong><br>
+or <strong>past </strong>to tell about the verb tense.<br>
+1. Uma sits at a table in a restaurant. _______________________<br>
+2. She wears her new dress. _______________________<br>
+3. A minute ago, she ate something spicy. _______________________<br>
+4. She told the waiter right away. _______________________<br>
+5. He ran for a glass of water. _______________________<br>
+6. He quickly got the water for Uma. _______________________<br>
+                           <br>
+B. Write two sentences that show the past. Choose verbs from<br>
+the charts above.<br>
+7. ______________________________________________________________<br>
+8. ______________________________________________________________<br>
+                        </span><span style="color:#2F5496;"><br>
+                        </span><span style="color:#231F20;"><br>
+PRESENT PAST<br>
+sit/sits sat<br>
+get/gets got<br>
+run/runs ran<br>
+hold/holds held<br>
+                           <br>
+PRESENT PAST<br>
+hide/hides hid<br>
+tell/tells told<br>
+eat/eats ate<br>
+wear/wears wore<br>
+                           <br>
+                           <strong>Activity 27: </strong>A. 1. sits; present 2. wears;<br>
+present 3. ate; past 4. told; past 5. ran; past<br>
+6. got; past B. 7.–8. Answers will vary.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L05%20&#8211;%20More%20About%20Verbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog11">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L06 – Using Is/Are and Was/Were</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Some verbs link the subject of a sentence to the words in the rest of the sentence.<br>
+Present Past<br>
+One: <strong>is was</strong><br>
+More Than One: <strong>are were</strong><br>
+                           <strong>The camper is ready. The camper was ready.</strong><br>
+one camper in present one camper in past<br>
+                           <strong>The tents are new. The tents were new.</strong><br>
+more than one tent in present more than one tent in past<br>
+                           <br>
+A. Write <strong>is </strong>or <strong>are </strong>in each sentence to show the present.<br>
+1. The tents __________ green. <br>
+2. The campers __________ here.<br>
+3. Tori’s tent __________ there. <br>
+4. My tent __________ small.<br>
+5. Some campers __________ sleepy. <br>
+6. My sleeping bag __________<br>
+warm.<br>
+                           <br>
+B. Underline the correct sentence to show the past.<br>
+7. a. Blake was awake. b. Blake were awake.<br>
+8. a. The bugs was busy. b. The bugs were busy.<br>
+9. a. Ron’s flashlight was on. b. Ron’s flashlight were on.<br>
+                           <br>
+                           <strong>Activity 28: </strong>A. 1. are 2. are 3. is 4. is 5. are<br>
+6. is B. 7. a 8. b 9. a<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L06%20&#8211;%20Using%20Is/Are%20and%20Was/Were">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L07 – Using Has and Have</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G2EngT2L07 – Using Has and Have" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Use the verb <em>has </em>with one person or thing.<br>
+Use the verb <em>have </em>with more than one person or thing.<br>
+Use <em>have </em>with the pronouns <em>I </em>and <em>you.</em><br>
+                           <strong>We have a treehouse. Our treehouse has a ladder.</strong><br>
+more than one person one treehouse<br>
+                           <strong>I have fun in it. You have fun, too.</strong><br>
+pronoun I pronoun <em>you<br>
+                           </em><br>
+A. Write <strong>has </strong>or <strong>have </strong>in each sentence.<br>
+1. The treehouse ____________ a door. <br>
+2. It ____________ a window.<br>
+3. We ____________ furniture there. <br>
+4. I ____________ toys there.<br>
+5. You ____________ lunch there. <br>
+6. Some birds ____________ a nest in the tree.<br>
+                           <br>
+B. Underline the correct sentence.<br>
+7. a. The tree has big branches. b. The tree have big branches.<br>
+8. a. The branches has b. The branches have many<br>
+many leaves. leaves.<br>
+9. a. I has a rug in the treehouse. b. I have a rug in the treehouse.<br>
+                           <strong><br>
+Activity 29: </strong>A. 1. has 2. has 3. have 4. have<br>
+5. have 6. have B. 7. a 8. b 9. b<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L07%20&#8211;%20Using%20Has%20and%20Have">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog12">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L08 – What Is a Contraction?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A verb and the word <em>not </em>can combine to make a smaller<br>
+word called a contraction.<br>
+The letter <em>o </em>is left out. An apostrophe <strong>’ </strong>takes the place<br>
+of the missing letter.<br>
+Verb and Not: <strong>is not did not was not</strong><br>
+Contraction: <strong>isn’t didn’t wasn’t<br>
+                           </strong><br>
+A. Write the two words for each contraction. <br>
+1. don’t ____________________ <br>
+2. aren’t ____________________<br>
+3. didn’t ____________________ <br>
+4. hasn’t ____________________<br>
+5. haven’t ____________________ <br>
+6. weren’t ____________________<br>
+                           <br>
+B. Read the first sentence. In the second sentence, write the<br>
+contraction for the underlined words.<br>
+7. Jody is not here. No, she _________________ here.<br>
+8. She was not well yesterday. She _________________ well at all.<br>
+9. She did not eat her lunch. She _________________ play either.<br>
+10. She could not do her math. She _________________ read her book.<br>
+                           <br>
+                           <strong>Activity 30: <br>
+                              <br>
+                           </strong>A. 1. do not 2. are not 3. did not<br>
+4. has not 5. have not 6. were not <br>
+                           <br>
+B. 7. isn’t<br>
+8. wasn’t 9. didn’t 10. couldn’t<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L08%20&#8211;%20What%20Is%20a%20Contraction%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L09 – Using Contractions</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G2EngT2L09 – Using Contractions" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A verb and the word <em>not </em>can combine to make a smaller<br>
+word called a contraction.<br>
+The letter <em>o </em>is left out. An apostrophe <strong>’ </strong>takes the place<br>
+of the missing letter.<br>
+Verb and Not: <strong>do not </strong>Contraction: <strong>don’t</strong><br>
+Some contractions are not formed in the regular way.<br>
+Verb and Not: <strong>will not cannot</strong><br>
+Contraction: <strong>won’t can’t<br>
+                           </strong><br>
+A. Write a contraction for each set of words.<br>
+1. should not _________________ <br>
+2. are not _________________<br>
+3. will not _________________ <br>
+4. do not _________________<br>
+5. were not _________________ <br>
+6. cannot _________________<br>
+                           <br>
+B. Read the first sentence. In the second sentence, write the<br>
+contraction for the underlined words.<br>
+7. Scott will not go to the skating rink.<br>
+He ____________________ be there.<br>
+8. He cannot find his skates.<br>
+He ____________________ find them anywhere.<br>
+                           <br>
+                           <strong>Activity 31: </strong>A. 1. shouldn’t 2. aren’t 3. won’t<br>
+4. don’t 5. weren’t 6. can’t B. 7. won’t 8. can’t<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L09%20&#8211;%20Using%20Contractions">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L10 – Review: Verbs</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">A verb is an action word. It tells what someone or something is doing, will do, or has done.<br>
+Choose the best verb from the word bank to complete each sentence.<br>
+1. Next week, Mateo’s family _________________ camping.<br>
+2. Alicia _________________ hiking the best.<br>
+3. Dad and Mom _________________ bird-watching.<br>
+4. Mom and Alicia always _________________ the campfire.<br>
+5. Last summer, Dad _________________ our only cook.<br>
+6. We _________________ his cooking a lot.<br>
+7. He _________________ burn any of the food!<br>
+8. This time, Mateo _________________ to help him.<br>
+9. After dinner, we all _________________ into our tents.<br>
+10. The family _________________ wait!<br>
+                           <br>
+build can’t was<br>
+didn’t like isn’t<br>
+will go liked likes<br>
+crawl wants is<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 32: </strong>1. will go 2. likes 3. like 4. build<br>
+5. was 6. liked 7. didn’t 8. wants 9. crawl<br>
+10. can’t<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L10%20&#8211;%20Review:%20Verbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog13">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L11 – What Is an Adjective?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">An adjective is a word that describes a noun. <br>
+An adjective can tell size, shape, and color.<br>
+                           <strong>Pippa sits in a big, red chair with square pillows.</strong><br>
+size of chair color of chair shape of pillows<br>
+                           <br>
+A. Circle the adjective in each sentence.<br>
+1. A tall lamp stands near the chair.<br>
+2. Pippa wears a green top.<br>
+3. She reads a book about a small lamb.<br>
+4. The chair has round spots on it.<br>
+                           <br>
+B. Look at the picture. Then choose the best<br>
+adjective from the word bank to complete<br>
+each sentence. Use each word only once.<br>
+5. Pippa has ______________________ hair.<br>
+6. She sits on a ______________________ cushion.<br>
+7. She has on her ______________________ jeans.<br>
+8. Pippa can put up her feet in the ______________________ chair.<br>
+                           <br>
+wide<br>
+blue<br>
+square<br>
+long<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 33: </strong>A. 1. tall 2. green 3. small<br>
+4. round B. 5. long 6. square 7. blue 8. wide<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L11%20&#8211;%20What%20Is%20an%20Adjective%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L12 – More Adjectives</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#2F5496;"><em>Lesson 34 - <br>
+                           </em></span><span style="color:#231F20;">An adjective is a word that describes a noun. <br>
+An adjective can tell how many.<br>
+An adjective can describe the senses:<br>
+sight, touch, sound, taste, and smell.<br>
+HOW MANY SIGHT TOUCH SOUND TASTE SMELL<br>
+two<br>
+many<br>
+few<br>
+large<br>
+dark<br>
+empty<br>
+sticky<br>
+silky<br>
+itchy<br>
+quiet<br>
+noisy<br>
+rustling<br>
+sweet<br>
+dry<br>
+sour<br>
+stinky<br>
+rotten<br>
+sharp<br>
+                           <br>
+A. Read each sentence. Write the word that suggests one of the senses.<br>
+1. The itchy straw made Kiri sneeze. ___________________<br>
+2. The crackers were stale. ___________________<br>
+3. Tony could smell the fresh air at the beach. ___________________<br>
+4. A booming sound woke up the baby. ___________________<br>
+5. A yellow pear grew on the tree. ___________________<br>
+                           <br>
+B. Circle the adjective in each sentence.<br>
+6. Nils got five stars on his paper. 7. Donna ate two apples.<br>
+8. There were many balloons in the air.<br>
+                           <br>
+                           <strong>Activity 34: </strong>A. 1. itchy 2. stale 3. fresh<br>
+4. booming 5. yellow B. 6. five 7. two<br>
+8. many<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L12%20&#8211;%20More%20Adjectives">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L13 – Adjectives and Nouns</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">An adjective is a word that describes a noun.<br>
+                           <strong>Kim made a picture.<br>
+Kim made an amazing picture.</strong><br>
+                           <br>
+A. Reach each sentence. Circle the adjective and underline the noun it describes.<br>
+1. Kim cut small pieces of paper. <br>
+2. Kim’s funny cat watched.<br>
+3. Kim made many shapes. <br>
+4. She tried different designs.<br>
+5. A colorful design filled <br>
+6. Then the naughty cat walked the page. on it!<br>
+                           <br>
+B. Write two adjectives to describe each noun. <br>
+7. <strong>top&nbsp;&nbsp; </strong>__________________ __________________<br>
+8. <strong>wagon </strong>__________________ __________________<br>
+9. <strong>sled </strong>__________________ __________________<br>
+10. <strong>drum </strong>__________________ __________________<br>
+                           <br>
+                           <strong>Activity 35: </strong>A. 1. small; pieces 2. funny; cat<br>
+3. many; shapes 4. different; designs<br>
+5. colorful; design 6. naughty; cat<br>
+B. 7.–10. Check that students describe the<br>
+items pictured.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L13%20&#8211;%20Adjectives%20and%20Nouns">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog14">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L14 – What Is an Adverb?</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">An adverb is a word that describes a verb.<br>
+An adverb tells when, where, or how an action happens.<br>
+when: <strong>We visited the castle today.</strong><br>
+where: <strong>We rode there.</strong><br>
+How: <strong>We pedaled fast.<br>
+                           </strong><br>
+A. The verb in each sentence is underlined. Circle the adverb<br>
+that describes the verb.<br>
+1. We wait at the castle now. <br>
+2. The keeper will come soon.<br>
+3. He arrives here on time. <br>
+4. We greet him happily.<br>
+5. He opens the gate quickly. <br>
+6. We follow him excitedly.<br>
+                           <br>
+B. Underline the verb in each sentence.<br>
+Then choose the best adverb from<br>
+the word bank to complete<br>
+each sentence.<br>
+7. A dragon lives ________________________!<br>
+8. The dragon awakes from his nap ________________________.<br>
+9. We leave the castle ________________________!<br>
+                           <br>
+                           <strong>Activity 36: </strong>A. 1. now 2. soon 3. here<br>
+4. happily 5. quickly 6. excitedly B. 7. lives;<br>
+inside 8. awakes; early 9. leave; quickly<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L14%20&#8211;%20What%20Is%20an%20Adverb%3f">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L15 – More Adverbs</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G2EngT2L15 – More Adverbs" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">An adverb is a word that describes a verb.<br>
+An adverb tells when, where, or how an action happens.<br>
+WHEN WHERE HOW<br>
+                           <br>
+today<br>
+tomorrow<br>
+earlier<br>
+there<br>
+everywhere<br>
+anywhere<br>
+swiftly<br>
+strongly<br>
+carefully<br>
+                           <br>
+A. Read each sentence. Write a word that suggests when, where, or how.<br>
+1. We visited the lake ____________________________.<br>
+2. It took a long time to get ____________________________.<br>
+3. We drove ____________________________.<br>
+4. The wind was blowing ____________________________.<br>
+5. Our boat sailed ____________________________.<br>
+6. We want to return ____________________________.<br>
+                           <br>
+B. Read the words below. Cross out the word in each set that is not an adverb.<br>
+7. never 8. later 9. outside<br>
+seven easily gladly<br>
+slowly sunny upstairs<br>
+yesterday perfectly purple<br>
+                           <br>
+                           <strong>Activity 37: </strong>A. Answers will vary. Possible:<br>
+1. today 2. there 3. carefully 4. strongly 5. swiftly 6. tomorrow B. 7. seven 8. Sunny 9. purple<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L15%20&#8211;%20More%20Adverbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog15">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L16 – Adverbs and Verbs</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">An adverb is a word that describes a verb.<br>
+                           <strong>It rained. It rained today.</strong><br>
+verb adverb<br>
+                           <br>
+A. Read each sentence. Underline the verb.<br>
+Circle the adverb that describes the verb.<br>
+1. The rain fell heavily.<br>
+2. Mrs. Greene walked rapidly.<br>
+3. She held the umbrella tightly.<br>
+                           <br>
+B. Read the verbs on the left and the adverbs on the right. Draw a line to connect each verb to an adverb that is a good partner.<br>
+4. tip-toe<br>
+5. laugh<br>
+6. answer<br>
+7. cry<br>
+8. help<br>
+a. loudly<br>
+b. kindly<br>
+c. sadly<br>
+d. softly<br>
+e. politely<br>
+                           <strong><br>
+Activity 38: </strong>A. 1. fell; heavily 2. walked; rapidly 3. held; tightly B. 4. d 5. a 6. e 7. C 8. b<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L16%20&#8211;%20Adverbs%20and%20Verbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT2L17 – Review: Adjectives and Adverbs</span>
+                        <div class="blogthumb"><a href="images/1.PNG"><img alt="G2EngT2L17 – Review: Adjectives and Adverbs" src="images/1.PNG" loading="lazy"></a></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">An adjective describes a noun. An adverb describes a verb.<br>
+                           <strong>Six children stand in line. The students stand silently.</strong><br>
+                           <br>
+A. Circle the noun in each sentence.<br>
+Write an adjective from the word bank to describe it.<br>
+1. A ____________________ bell rang.<br>
+2. The ____________________ school listened.<br>
+3. The ____________________ teacher led the class.<br>
+4. It was a ____________________ drill.<br>
+                           <br>
+B. Circle the verb in each sentence.<br>
+Write an adverb from the<br>
+word bank to describe it.<br>
+5. The drills happen ____________________.<br>
+6. Students walk ____________________.<br>
+7. They listen ____________________ to the teacher.<br>
+8. Safety matters ____________________.<br>
+                           <br>
+ADJECTIVES ADVERBS<br>
+calm greatly<br>
+clanging outside<br>
+practice carefully<br>
+whole often<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 39: <br>
+                           </strong>A. 1. clanging; bell 2. whole; school 3. calm; teacher 4. practice; drills<br>
+B. <br>
+5. happen; often 6. walk; outside 7. listen; carefully 8. matters; greatly<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT2L17%20&#8211;%20Review:%20Adjectives%20and%20Adverbs">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg3">
+      <div id="lg3">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid32">
+                     <div id="LayoutGrid32">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text10">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G2 English Term 3</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button33" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button34" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button33', 0, 'fade', 1);ShowObjectWithEffect('Button34', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button19" onclick="navigateToPage('blog17');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button33', 1, 'fade', 1);ShowObjectWithEffect('Button34', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button20" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button21" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button22" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button23" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button24" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button25" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button26" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button27" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button28" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button29" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button30" onclick="navigateToPage('blog24');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button31', 1, 'fade', 1);ShowObjectWithEffect('Button32', 1, 'fade', 1);ShowObjectWithEffect('blog15', 1, 'fade', 1);ShowObjectWithEffect('blog24', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button31" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button31', 0, 'fade', 1);ShowObjectWithEffect('Button32', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObjectWithEffect('blog24', 1, 'fade', 1);ShowObjectWithEffect('blog15', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button32" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog17">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L01 – Where Words</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A preposition is a word that can help tell where something is.<br>
+                           <strong>The kite is over the ground.</strong><br>
+where the kite is<br>
+PREPOSITIONS<br>
+on under over beside to<br>
+near above around into by<br>
+in along onto between at<br>
+                           <br>
+A. Match the words on the left to the phrase on the right that<br>
+tells where in the picture each thing is.<br>
+1. bird a. behind the girl<br>
+2. kite b. above the bird<br>
+3. rabbits c. on the branch<br>
+4. bee d. in the air<br>
+B. Circle the preposition in each sentence.<br>
+5. The girl holds onto the string. 6. Flowers grow near the tree.<br>
+7. The girl has a bow on her head. 8. The rabbits run along the ground.<br>
+                           <br>
+                           <strong>Activity 40: </strong>A. 1. c 2. d 3. a 4. b B. 5. Onto 6. near 7. on 8. along<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L01%20&#8211;%20Where%20Words">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog18">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L02 – Building Sentences With Prepositions</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A preposition is a word that can help tell where something is or when something happens. You can build sentences by adding phrases beginning with a preposition.<br>
+                           <strong>Theo liked eggs.</strong><br>
+                           <strong>Theo liked eggs in the morning.</strong><br>
+when Theo liked eggs<br>
+Choose the best phrase from the list to build each sentence.<br>
+1. Each morning Theo awoke __________________________________.<br>
+2. He walked _____________________________________.<br>
+3. He found eggs _____________________________________.<br>
+4. Theo carried the eggs _____________________________________.<br>
+5. His Mom put them _____________________________________.<br>
+6. She cooked them _____________________________________.<br>
+7. Theo sat _____________________________________.<br>
+8. Then he was ready _____________________________________.<br>
+                           <br>
+for school<br>
+in a basket<br>
+on the stove<br>
+under the hens<br>
+at the table<br>
+to the henhouse<br>
+into a pan<br>
+at dawn<br>
+                           <br>
+                           <strong>Activity 41: </strong>1. at dawn 2. to the henhouse<br>
+3. under the hens 4. in a basket 5. into a pan<br>
+6. on the stove 7. at the table 8. for school<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L02%20&#8211;%20Building%20Sentences%20With%20Prepositions">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog19">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L03 – Review: Prepositions</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A preposition is a word that can<br>
+help tell where something is or when<br>
+something happens.<br>
+                           <br>
+Choose the best preposition from the word bank to complete each sentence.<br>
+Use each word only once.<br>
+1. _________________ the afternoon, I took a walk.<br>
+2. I saw a very special dog _________________ a flower patch.<br>
+3. He was dressed nicely and wore a hat _________________ his head.<br>
+4. A crowd formed _________________ the dog.<br>
+5. The people watched him juggle<br>
+four balls _________________<br>
+his head.<br>
+6. The balls flew _________________ the air.<br>
+7. He caught each one _________________ his paws.<br>
+8. An amazed man pointed _________________ the dog.<br>
+9. The grass was soft _________________ everyone’s feet.<br>
+10. There was a butterfly _________________ the action.<br>
+                           <br>
+around by<br>
+in into<br>
+near on<br>
+over to<br>
+under with<br>
+                        </span><span style="color:#000000;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 42: </strong>1. In 2. by 3. on 4. around<br>
+5. over 6. into 7. with 8. to 9. under 10. near<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L03%20&#8211;%20Review:%20Prepositions">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog20">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L04 – Using Capital Letters</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Sentences begin with capital letters.<br>
+Proper nouns begin also with capital letters.<br>
+                           <strong>We played baseball with Kira’s bat.</strong><br>
+capital letter capital letter<br>
+                           <br>
+Rewrite each sentence correctly. Use capital letters where they are needed.<br>
+1. tomorrow is saturday and we have a big game.<br>
+____________________________________________________________<br>
+2. our team is called the bayview bears.<br>
+____________________________________________________________<br>
+3. are we playing against the central tigers?<br>
+____________________________________________________________<br>
+4. usually, i play in left field.<br>
+____________________________________________________________<br>
+5. i hope that jamie hits the ball.<br>
+____________________________________________________________<br>
+                           <br>
+                           <strong>Activity 43: </strong>When rewriting the sentences,<br>
+students should capitalize the following<br>
+words: 1. Tomorrow; Saturday 2. Our;<br>
+Bayview Bears 3. Are; Central Tigers<br>
+4. Usually; I 5. I; Jamie<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L04%20&#8211;%20Using%20Capital%20Letters">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog21">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L05 – Using Commas</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">Commas separate words in a series.<br>
+                           <strong>Mom had a suitcase, purse, and camera.</strong><br>
+commas separate words in series<br>
+                           <br>
+Complete each sentence with the person’s list. Use commas to separate the words in a series.<br>
+1. Jed took a _________________________________________<br>
+___________________________________________________.<br>
+2. Honey brought a __________________________________<br>
+__________________________________________________.<br>
+3. Dad carried a _____________________________________<br>
+__________________________________________________.<br>
+4. In Grandma’s bag she had an extra ________________<br>
+___________________________________________________<br>
+__________________________________________________ .<br>
+                           <br>
+jEd’S LIST<br>
+backpack<br>
+book<br>
+game<br>
+                           <br>
+HONEy’S LIST<br>
+bear<br>
+pillow<br>
+snack<br>
+                           <br>
+dAd’S LIST<br>
+magazine<br>
+briefcase<br>
+computer<br>
+                           <br>
+GRANdMA’S LIST<br>
+skirt<br>
+sweater<br>
+blouse<br>
+scarf<br>
+                           <br>
+                           <strong>Activity 44: </strong>1. Jed took a backpack, book,<br>
+and game. 2. Honey brought a bear, pillow,<br>
+and snack. 3. Dad carried a magazine,<br>
+briefcase, and computer. 4. In Grandma’s<br>
+bag she had an extra skirt, sweater, blouse,<br>
+and scarf.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L05%20&#8211;%20Using%20Commas">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog22">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L06 – Writing Dates</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">The name of each month is a proper noun.<br>
+It begins with a capital letter.<br>
+A comma comes between the day and the year in a date.<br>
+                           <strong>December 31, 2015</strong><br>
+month year<br>
+Write each date correctly.<br>
+1. october 15 2006 _______________________________________<br>
+2. june 21 1960 _______________________________________<br>
+3. february 2 2015 _______________________________________<br>
+4. september 30 1998 _______________________________________<br>
+5. july 4 1776 _______________________________________<br>
+6. your birthday _______________________________________<br>
+7. today’s date _______________________________________<br>
+8. yesterday’s date _______________________________________<br>
+                           <br>
+day followed<br>
+by comma<br>
+                           <br>
+                           <strong>Activity 45: </strong>1. October 15, 2006 2. June 21,<br>
+1960 3. February 2, 2015 4. September 30,<br>
+1998 5. July 4, 1776 6.–8. Check that students<br>
+write each date correctly.<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L06%20&#8211;%20Writing%20Dates">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog23">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L07 – Writing a Letter</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">A comma comes between the day and year in a date.<br>
+A comma follows the greeting and closing in a letter.<br>
+The greeting and first word of the closing begin with a<br>
+capital letter.<br>
+July 2, 2015<br>
+Dear Uncle Alex,<br>
+Thank you for the book you sent for my<br>
+birthday. I have wanted to read it for a<br>
+long time. Now I can!<br>
+Your niece,<br>
+Sue<br>
+Rewrite the letter correctly.<br>
+Use capital letters and<br>
+commas where they<br>
+are needed.<br>
+may 5 2015<br>
+dear kurt<br>
+we are looking forward<br>
+to your visit this summer.<br>
+your cousin luke can’t wait!<br>
+bring your swimsuit. we will<br>
+go to the beach every day.<br>
+lots of love<br>
+aunt rosa<br>
+begins with capital letter;<br>
+comma after greeting<br>
+comma between day and year<br>
+first word begins with capital<br>
+letter; comma after closing<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+_______________________________________________________<br>
+                           <strong><br>
+Activity 46:</strong><br>
+May 5, 2015<br>
+Dear Kurt,<br>
+We are looking forward to your visit this<br>
+summer. Your cousin Luke can’t wait!<br>
+Bring your swimsuit. We will go to the<br>
+beach every day.<br>
+Lots of love,<br>
+Aunt Rosa<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L07%20&#8211;%20Writing%20a%20Letter">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog24">
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L08 – Using Apostrophes</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#231F20;">An apostrophe with an <em>s </em>can make a noun possessive.<br>
+It can also help turn a verb phrase into a contraction.<br>
+                           <strong>Amir’s room is not isn’t</strong><br>
+apostrophe; possessive apostrophe; contraction<br>
+                           <br>
+A. Complete each sentence below. Use a noun from<br>
+the word bank and make it possessive.<br>
+1. The __________________ whiskers are long.<br>
+2. My __________________ room is neat.<br>
+3. The __________________ nest was in the tree.<br>
+4. Did you taste __________________ macaroni?<br>
+B. Complete each sentence below. Use a verb phrase from<br>
+the word bank and turn it into a contraction.<br>
+5. They __________________ at home now.<br>
+6. Felix __________________ on time.<br>
+7. It’s hot, so __________________ touch it.<br>
+8. Jenna __________________ go to the party.<br>
+                           <br>
+are not<br>
+did not<br>
+was not<br>
+do not<br>
+                        </span><span style="color:#FFFFFF;">Word Bank<br>
+                        </span><span style="color:#231F20;">Mom<br>
+bird<br>
+brother<br>
+cat<br>
+                        </span><span style="color:#FFFFFF;"><br>
+                        </span><span style="color:#231F20;"><strong>Activity 47: </strong>A. 1. cat’s 2. brother’s 3. bird’s<br>
+4. Mom’s B. 5. aren’t 6. wasn’t 7. don’t<br>
+8. didn’t<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L08%20&#8211;%20Using%20Apostrophes">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject">G2EngT3L09 – Review: Capitalization and Punctuation</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Saturday, September 23, 2023<br></div>
+                        <span style="color:#231F20;">Using capitals and correct punctuation makes a sentence easier to read. Remember to use<br>
+capitals at the beginning of sentences and proper nouns.<br>
+End punctuation shows what kind of sentence it is.<br>
+Commas separate words in a series.<br>
+Write each sentence correctly. Use capitals where they are needed and end punctuation. Use commas to separate words in a series.<br>
+1. the sand at the beach is white gritty and warm<br>
+____________________________________________________________<br>
+2. why can’t you visit us on thanksgiving<br>
+____________________________________________________________<br>
+3. the children in this group are ryan gabrielle and justin<br>
+____________________________________________________________<br>
+4. where are the slide swings and treehouse<br>
+____________________________________________________________<br>
+5. watch out<br>
+____________________________________________________________<br>
+                           <br>
+                           <strong>Activity 48: </strong>1. The sand at the beach is<br>
+white, gritty, and warm. 2. Why can’t you<br>
+visit us on Thanksgiving? 3. The children in<br>
+this group are Ryan, Gabrielle, and Justin.<br>
+4. Where are the slide, swings, and<br>
+treehouse? 5. Watch out!<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G2EngT3L09%20&#8211;%20Review:%20Capitalization%20and%20Punctuation">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_locationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
+               </div>
+               <div id="wb_Text7">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_contactsText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_emailFontAwesomeIcon">
+                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_facebookFontAwesomeIcon">
+                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_callFontAwesomeIcon">
+                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_whatsappFontAwesomeIcon">
+                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_smsFontAwesomeIcon">
+                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_copywriteText">
+                  <span style="color:#FFFFFF;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>     <script>   
+       function navigateToPage(blogId) {
+         // Hide all pages
+         var pages = document.querySelectorAll('.blog');
+         pages.forEach(function(blog) {
+           page.style.display = 'none';
+         });
+   
+         // Show the selected page
+         var selectedPage = document.getElementById(blogId);
+         selectedPage.style.display = 'block';
+       }
+     
+   </script>

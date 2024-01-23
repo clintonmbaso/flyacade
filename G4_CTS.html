@@ -1,0 +1,1919 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flyacade.css" rel="stylesheet">
+<link href="G4_CTS.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#mainLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_mainLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#blog1').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog2').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog3').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog4').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog5').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog6').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog9').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog10').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog11').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog13').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog14').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog15').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog16').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog17').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog18').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog19').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog20').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog21').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog22').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog23').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog26').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog7').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+      $("a[href*='#lg1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg1').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#lg3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_lg3').offset().top-88 }, 600, 'easeOutCirc');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="FlexContainer2">
+      <div id="PanelLayer">
+         <div id="wb_IconFont2">
+            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+         </div>
+         <div id="wb_Image1">
+            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+         </div>
+         <div id="wb_Heading20">
+            <h2 id="Heading20">Flying Wings Academy</h2>
+         </div>
+         <div id="wb_OverlayMenu2">
+            <div class="OverlayMenu2">
+               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
+                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
+                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
+                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
+                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                  <li><a role="menuitem" href="./G1_SP1.html" onclick="window.location.href='./G1_SP1.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
+                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="wb_Text40">
+            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+         </div>
+      </div>
+      <div id="wb_HeaderLayoutGrid">
+         <div id="HeaderLayoutGrid">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_home_logo">
+                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div id="wb_Header">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text2">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text5">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text1">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
+                  </div>
+                  <div id="wb_Text4">
+                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
+                  </div>
+                  <div id="wb_Text6">
+                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexContainer3">
+      <div id="wb_Text9">
+         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
+      </div>
+   </div>
+   <div id="wb_mainLayoutGrid">
+      <div id="mainLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TabMenu2">
+                     <ul id="TabMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                        <li><a href="./Study_Centre.html" itemprop="url"><span itemprop="name">SC</span></a></li>
+                        <li><a href="./G4_Math.html" itemprop="url"><span itemprop="name">M</span></a></li>
+                        <li><a href="./G4_English.html" itemprop="url"><span itemprop="name">E</span></a></li>
+                        <li><a href="./G4_Science.html" itemprop="url"><span itemprop="name">S</span></a></li>
+                        <li><a href="./G4_Literacy.html" itemprop="url"><span itemprop="name">Lit</span></a></li>
+                        <li><a href="./G4_SP1.html" itemprop="url"><span itemprop="name">SP1</span></a></li>
+                        <li><a href="./G4_Social_Studies.html" itemprop="url"><span itemprop="name">S.S</span></a></li>
+                        <li><a href="./G4_CTS.html" class="active" itemprop="url"><span itemprop="name">CTS</span></a></li>
+                        <li><a href="./G5.html" itemprop="url"><span itemprop="name">></span></a></li>
+                     </ul>
+                  </div>
+                  <input type="submit" id="Button35" onclick="ShowObjectWithEffect('wb_lg1', 1, 'fade', 1);ShowObjectWithEffect('wb_lg2', 0, 'fade', 1);ShowObjectWithEffect('wb_lg3', 0, 'fade', 1);return false;" name="" value="Term 1">
+                  <input type="submit" id="Button36" onclick="ShowObjectWithEffect('wb_lg2', 1, 'fade', 1);ShowObjectWithEffect('wb_lg1', 0, 'fade', 1);ShowObjectWithEffect('wb_lg3', 0, 'fade', 1);return false;" name="" value="Term 2">
+                  <input type="submit" id="Button37" onclick="ShowObjectWithEffect('wb_lg3', 1, 'fade', 1);ShowObjectWithEffect('wb_lg1', 0, 'fade', 1);ShowObjectWithEffect('wb_lg2', 0, 'fade', 1);return false;" name="" value="Term 3">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg1">
+      <div id="lg1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid28">
+                     <div id="LayoutGrid28">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text13">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G4 CTS Term 1</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Btn1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn2" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn1', 0, 'fade', 1);ShowObjectWithEffect('Btn2', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObjectWithEffect('blog2', 1, 'fade', 1);ShowObjectWithEffect('blog1', 0, 'fade', 1);return false;" name="" value="Week 3">
+                  <input type="submit" id="Btn3" onclick="navigateToPage('blog1');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn1', 1, 'fade', 1);ShowObjectWithEffect('Btn2', 1, 'fade', 1);ShowObjectWithEffect('blog1', 1, 'fade', 1);ShowObjectWithEffect('blog2', 0, 'fade', 1);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Btn4" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn3', 0, 'fade', 1);ShowObjectWithEffect('Btn4', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObjectWithEffect('blog3', 1, 'fade', 1);ShowObjectWithEffect('blog2', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn5" onclick="navigateToPage('blog2');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn3', 1, 'fade', 1);ShowObjectWithEffect('Btn4', 1, 'fade', 1);ShowObjectWithEffect('blog2', 1, 'fade', 1);ShowObjectWithEffect('blog3', 0, 'fade', 1);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn6" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn5', 0, 'fade', 1);ShowObjectWithEffect('Btn6', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObjectWithEffect('blog4', 1, 'fade', 1);ShowObjectWithEffect('blog3', 0, 'fade', 1);return false;" name="" value="Week 5">
+                  <input type="submit" id="Btn7" onclick="navigateToPage('blog3');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn5', 1, 'fade', 1);ShowObjectWithEffect('Btn6', 1, 'fade', 1);ShowObjectWithEffect('blog3', 1, 'fade', 1);ShowObjectWithEffect('blog4', 0, 'fade', 1);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Btn8" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn7', 0, 'fade', 1);ShowObjectWithEffect('Btn8', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObjectWithEffect('blog5', 1, 'fade', 1);ShowObjectWithEffect('blog4', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Btn9" onclick="navigateToPage('blog4');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn7', 1, 'fade', 1);ShowObjectWithEffect('Btn8', 1, 'fade', 1);ShowObjectWithEffect('blog4', 1, 'fade', 1);ShowObjectWithEffect('blog5', 0, 'fade', 1);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Btn10" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn9', 0, 'fade', 1);ShowObjectWithEffect('Btn10', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObjectWithEffect('blog6', 1, 'fade', 1);ShowObjectWithEffect('blog5', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn11" onclick="navigateToPage('blog5');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn9', 1, 'fade', 1);ShowObjectWithEffect('Btn10', 1, 'fade', 1);ShowObjectWithEffect('blog5', 1, 'fade', 1);ShowObjectWithEffect('blog6', 0, 'fade', 1);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Btn12" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn11', 0, 'fade', 1);ShowObjectWithEffect('Btn12', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObjectWithEffect('blog7', 1, 'fade', 1);ShowObjectWithEffect('blog6', 0, 'fade', 1);return false;" name="" value="Week 9">
+                  <input type="submit" id="Btn13" onclick="navigateToPage('blog6');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn11', 1, 'fade', 1);ShowObjectWithEffect('Btn12', 1, 'fade', 1);ShowObjectWithEffect('blog6', 1, 'fade', 1);ShowObjectWithEffect('blog7', 0, 'fade', 1);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Btn14" onclick="navigateToPage('blog8');ShowObjectWithEffect('Btn13', 0, 'fade', 1);ShowObjectWithEffect('Btn14', 0, 'fade', 1);ShowObjectWithEffect('Btn15', 1, 'fade', 1);ShowObjectWithEffect('Btn16', 1, 'fade', 1);ShowObjectWithEffect('blog8', 1, 'fade', 1);ShowObjectWithEffect('blog7', 0, 'fade', 1);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Btn15" onclick="navigateToPage('blog7');ShowObjectWithEffect('Btn15', 0, 'fade', 1);ShowObjectWithEffect('Btn16', 0, 'fade', 1);ShowObjectWithEffect('Btn13', 1, 'fade', 1);ShowObjectWithEffect('Btn14', 1, 'fade', 1);ShowObjectWithEffect('blog7', 1, 'fade', 1);ShowObjectWithEffect('blog8', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="submit" id="Btn16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="blog1">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L01 – COLORS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Nature-Inspired Art<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discuss the concept of drawing inspiration from nature.<br>
+&nbsp;&nbsp; - Show examples of artworks inspired by nature.<br>
+&nbsp;&nbsp; - Have a short drawing activity using simple natural elements.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L01%20&#8211;%20COLORS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Kitchen Basics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to the kitchen layout.<br>
+&nbsp;&nbsp; - Identification of basic kitchen tools.<br>
+&nbsp;&nbsp; - Overview of common utensils.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Computers<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Basics of computer hardware<br>
+&nbsp;&nbsp; - Understanding the different components<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog2">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L03 – SHAPES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Exploring Leaves and Patterns<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Focus on leaves as a central theme.<br>
+&nbsp;&nbsp; - Teach different leaf shapes and patterns.<br>
+&nbsp;&nbsp; - Engage in a leaf-pattern art project.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L03%20&#8211;%20SHAPES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Measuring Skills<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Learning to measure ingredients accurately.<br>
+&nbsp;&nbsp; - Understanding different measuring tools.<br>
+&nbsp;&nbsp; - Practice measuring various ingredients.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Types of Devices<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Exploring various electronic devices<br>
+&nbsp;&nbsp; - Recognizing their functions and uses<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog3">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L05 – Using Basic Shapes</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Flower Power<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduce flowers as a source of inspiration.<br>
+&nbsp;&nbsp; - Explore different flower shapes and colors.<br>
+&nbsp;&nbsp; - Create a floral artwork using various techniques.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L05%20&#8211;%20Using%20Basic%20Shapes">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Simple Snack Preparation<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to easy, no-cook snacks.<br>
+&nbsp;&nbsp; - Hands-on preparation of a simple snack.<br>
+&nbsp;&nbsp; - Emphasis on safety and cleanliness in the kitchen.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Digital Literacy<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to fundamental digital skills<br>
+&nbsp;&nbsp; - Navigating digital tools and interfaces<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog4">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L07 – Types of Lines</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Cultural Celebrations Introduction<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduce the concept of cultural celebrations through art.<br>
+&nbsp;&nbsp; - Show examples of art related to diverse celebrations.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L07%20&#8211;%20Types%20of%20Lines">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Importance of Handwashing<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Understanding the importance of hand hygiene.<br>
+&nbsp;&nbsp; - Proper handwashing techniques.<br>
+&nbsp;&nbsp; - Discussion on preventing foodborne illnesses.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Basic Troubleshooting<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Identifying common tech issues<br>
+&nbsp;&nbsp; - Learning simple problem-solving techniques<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog5">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L11 – BASIC DEVICES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Dive into a Specific Cultural Celebration<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Choose a specific cultural celebration.<br>
+&nbsp;&nbsp; - Discuss its significance and traditional art associated with it.<br>
+&nbsp;&nbsp; - Engage in an art project inspired by that celebration.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L11%20&#8211;%20BASIC%20DEVICES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Safe Handling of Knives<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to different types of knives.<br>
+&nbsp;&nbsp; - Basic knife skills and safe cutting techniques.<br>
+&nbsp;&nbsp; - Hands-on practice with supervision.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Computer Lab Session 1<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Hands-on practice with computers<br>
+&nbsp;&nbsp; - Applying knowledge from previous lessons<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog6">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L13 – BUTTONS AND FUNCTIONS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Collage Basics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduce the concept of collage.<br>
+&nbsp;&nbsp; - Discuss different materials suitable for collages.<br>
+&nbsp;&nbsp; - Have a hands-on collage creation session.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L13%20&#8211;%20BUTTONS%20AND%20FUNCTIONS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Kitchen Hazards Awareness<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Identifying potential kitchen hazards.<br>
+&nbsp;&nbsp; - Teaching precautions and safe practices.<br>
+&nbsp;&nbsp; - Creating a safe kitchen environment.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Computer Lab Session 2<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Continued exploration of devices and digital literacy<br>
+&nbsp;&nbsp; - Basic exercises in troubleshooting scenarios<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog7">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L15 – FOOD GROUPS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Collage Creations - Storytelling<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Combine elements of nature and cultural celebrations in a collage.<br>
+&nbsp;&nbsp; - Encourage students to create a visual narrative through their collages.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L15%20&#8211;%20FOOD%20GROUPS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Personal Cleanliness<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Importance of personal cleanliness in the kitchen.<br>
+&nbsp;&nbsp; - Proper attire and hygiene practices.<br>
+&nbsp;&nbsp; - Role-play scenarios for reinforcing concepts.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Review and Q&amp;A Session<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Recap of concepts covered so far<br>
+&nbsp;&nbsp; - Addressing questions and reinforcing understanding<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="blog8">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST1L17 – HEALTHY EATING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Reflection and Sharing<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Allow students to reflect on what they've learned.<br>
+&nbsp;&nbsp; - Have a class discussion where students can share and explain their artworks.<br>
+&nbsp;&nbsp; - Showcase the finished pieces in the classroom.<br>
+                           <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST1L17%20&#8211;%20HEALTHY%20EATING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Review and Practical Application<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Recap of kitchen basics and safety rules.<br>
+&nbsp;&nbsp; - Practical application through preparing a simple recipe.<br>
+&nbsp;&nbsp; - Q&amp;A session to address any questions or concerns.<br>
+                           <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Assessment<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Practical assessment on basic computer knowledge<br>
+&nbsp;&nbsp; - Feedback and reinforcement of key concepts<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg2">
+      <div id="lg2">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid30">
+                     <div id="LayoutGrid30">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text8">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G4 CTS Term 2</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button1" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button2" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button1', 0, 'fade', 1);ShowObjectWithEffect('Button2', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObject('blog10', 1);ShowObject('blog9', 0);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button3" onclick="navigateToPage('blog9');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button1', 1, 'fade', 1);ShowObjectWithEffect('Button2', 1, 'fade', 1);ShowObject('blog9', 1);ShowObject('blog10', 0);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button4" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button3', 0, 'fade', 1);ShowObjectWithEffect('Button4', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObject('blog11', 1);ShowObject('blog10', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button5" onclick="navigateToPage('blog10');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button3', 1, 'fade', 1);ShowObjectWithEffect('Button4', 1, 'fade', 1);ShowObject('blog10', 1);ShowObject('blog11', 0);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button6" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button5', 0, 'fade', 1);ShowObjectWithEffect('Button6', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObject('blog12', 1);ShowObject('blog11', 0);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button7" onclick="navigateToPage('blog11');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button5', 1, 'fade', 1);ShowObjectWithEffect('Button6', 1, 'fade', 1);ShowObject('blog11', 1);ShowObject('blog12', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button8" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button7', 0, 'fade', 1);ShowObjectWithEffect('Button8', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObject('blog13', 1);ShowObject('blog12', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button9" onclick="navigateToPage('blog12');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObject('blog12', 1);ShowObject('blog13', 0);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button10" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button10', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObject('blog14', 1);ShowObject('blog13', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button11" onclick="navigateToPage('blog13');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button9', 1, 'fade', 1);ShowObjectWithEffect('Button10', 1, 'fade', 1);ShowObject('blog13', 1);ShowObject('blog14', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button12" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button11', 0, 'fade', 1);ShowObjectWithEffect('Button12', 0, 'fade', 1);ShowObjectWithEffect('Button13', 1, 'fade', 1);ShowObjectWithEffect('Button14', 1, 'fade', 1);ShowObject('blog15', 1);ShowObject('blog14', 0);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button13" onclick="navigateToPage('blog14');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button11', 1, 'fade', 1);ShowObjectWithEffect('Button12', 1, 'fade', 1);ShowObject('blog14', 1);ShowObject('blog15', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button14" onclick="navigateToPage('blog16');ShowObjectWithEffect('Button13', 0, 'fade', 1);ShowObjectWithEffect('Button14', 0, 'fade', 1);ShowObjectWithEffect('Button15', 1, 'fade', 1);ShowObjectWithEffect('Button16', 1, 'fade', 1);ShowObject('blog16', 1);ShowObject('blog15', 0);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button15" onclick="navigateToPage('blog15');ShowObjectWithEffect('Button15', 0, 'fade', 1);ShowObjectWithEffect('Button16', 0, 'fade', 1);ShowObjectWithEffect('Button13', 1, 'fade', 1);ShowObjectWithEffect('Button14', 1, 'fade', 1);ShowObject('blog15', 1);ShowObject('blog16', 0);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="submit" id="Button16" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="Blog8">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L01 – CRAFTS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Abstract Expressionism<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Define abstract art and abstract expressionism.<br>
+&nbsp;&nbsp; - Show examples of famous abstract artists.<br>
+&nbsp;&nbsp; - Discuss the freedom of expression in abstract art.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L01%20&#8211;%20CRAFTS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Nutrition<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Overview of the importance of nutrition.<br>
+&nbsp;&nbsp; - Discussion on different food groups.<br>
+&nbsp;&nbsp; - Introduction to the food pyramid.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Graphic Design Basics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to basic graphic design principles<br>
+&nbsp;&nbsp; - Hands-on activities using kid-friendly design tools<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog9">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L03 – MUSIC</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Exploring Colors and Emotions<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discuss the emotional impact of colors.<br>
+&nbsp;&nbsp; - Engage in a color exploration activity, associating colors with emotions.<br>
+&nbsp;&nbsp; - Introduce basic color theory.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L03%20&#8211;%20MUSIC">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Exploring Food Groups<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - In-depth exploration of each food group.<br>
+&nbsp;&nbsp; - Examples of foods in each category.<br>
+&nbsp;&nbsp; - Group activity to categorize different foods.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Introduction to Robotics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Understanding what robots are and their applications<br>
+&nbsp;&nbsp; - Simple activities demonstrating basic robotic movements<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog10">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L05 – DANCE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Abstract Shapes and Forms<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Experiment with creating abstract shapes and forms.<br>
+&nbsp;&nbsp; - Encourage students to express emotions through shapes.<br>
+&nbsp;&nbsp; - Explore different techniques like splatter painting or controlled chaos.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L05%20&#8211;%20DANCE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Healthy Food Choices<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Understanding the concept of balanced meals.<br>
+&nbsp;&nbsp; - Discussion on the importance of variety.<br>
+&nbsp;&nbsp; - Planning a balanced meal together.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Exploring Educational Apps<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to various apps for learning and creativity<br>
+&nbsp;&nbsp; - Hands-on exploration of selected educational apps<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog11">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L07 – INTERNET SAFETY</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Self-Portraits Introduction<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discuss the concept of self-portraits.<br>
+&nbsp;&nbsp; - Show examples of self-portraits from different artists.<br>
+&nbsp;&nbsp; - Have a brief discussion on expressing identity through art.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L07%20&#8211;%20INTERNET%20SAFETY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Fruits and Vegetables<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Highlighting the nutritional value of fruits and vegetables.<br>
+&nbsp;&nbsp; - Creative ways to incorporate more into meals.<br>
+&nbsp;&nbsp; - Simple recipes featuring fruits and vegetables.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Introduction to 3D Printing<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Basics of 3D printing technology<br>
+&nbsp;&nbsp; - Simple 3D printing design exercises<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog26">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L11 – SIMPLE MACHINES</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Elements of a Self-Portrait<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Break down the elements of a self-portrait (eyes, nose, mouth, etc.).<br>
+&nbsp;&nbsp; - Guide students in sketching their facial features.<br>
+&nbsp;&nbsp; - Discuss different styles of self-portraits.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L11%20&#8211;%20SIMPLE%20MACHINES">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Proteins, Carbohydrates, and Fats<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Detailed discussion on macronutrients.<br>
+&nbsp;&nbsp; - Identifying sources of proteins, carbohydrates, and fats.<br>
+&nbsp;&nbsp; - Emphasis on moderation and balance.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Creative Project - Design Your Robot<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Integrating graphic design and robotics concepts<br>
+&nbsp;&nbsp; - Students design and present their own virtual robots<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog13">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L13 – KITCHEN SAFETY</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Adding Personality to Self-Portraits<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Encourage students to add elements that represent their interests and personalities.<br>
+&nbsp;&nbsp; - Discuss symbolism in art.<br>
+&nbsp;&nbsp; - Provide various materials for added texture and dimension.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L13%20&#8211;%20KITCHEN%20SAFETY">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Budgeting Basics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to the concept of budgeting.<br>
+&nbsp;&nbsp; - Identifying needs vs. wants in food choices.<br>
+&nbsp;&nbsp; - Planning a simple budget for a week's meals.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Computer Lab Session - App Exploration<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Guided exploration of educational and creative apps<br>
+&nbsp;&nbsp; - Hands-on activities related to selected apps<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog14">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L15 – TABLE SETTING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Musical Art Introduction<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discuss the connection between music and art.<br>
+&nbsp;&nbsp; - Introduce a piece of music and discuss the emotions it evokes.<br>
+&nbsp;&nbsp; - Begin brainstorming visual representations for specific emotions in the music.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L15%20&#8211;%20TABLE%20SETTING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Making Informed Food Choices<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Reading and understanding food labels.<br>
+&nbsp;&nbsp; - Recognizing healthy and unhealthy ingredients.<br>
+&nbsp;&nbsp; - Smart shopping tips for nutritious meals.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Computer Lab Session - 3D Printing Design<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Practical session on creating simple designs for 3D printing<br>
+&nbsp;&nbsp; - Troubleshooting common design issues<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog15">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST2L17 – CLEANING AND HYGIENE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Creating Visual Representations of Music<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Have students create artwork inspired by a piece of music.<br>
+&nbsp;&nbsp; - Discuss the different interpretations and expressions within the class.<br>
+&nbsp;&nbsp; - Reflect on the connection between visual art and music.<br>
+                           <br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST2L17%20&#8211;%20CLEANING%20AND%20HYGIENE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Introduction to Saving Money<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Basics of saving money on grocery shopping.<br>
+&nbsp;&nbsp; - Discussing the concept of meal planning.<br>
+&nbsp;&nbsp; - Planning a cost-effective and nutritious meal.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Review and Showcase<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Review of creative projects<br>
+&nbsp;&nbsp; - Showcasing what students have learned and created<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lg3">
+      <div id="lg3">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid32">
+                     <div id="LayoutGrid32">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text10">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>G4 CTS Term 3</strong></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="submit" id="Button33" name="" value="Prologue" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button34" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button33', 0, 'fade', 1);ShowObjectWithEffect('Button34', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObject('blog18', 1);ShowObject('blog17', 0);return false;" name="" value="Week 3">
+                  <input type="submit" id="Button19" onclick="navigateToPage('blog17');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button33', 1, 'fade', 1);ShowObjectWithEffect('Button34', 1, 'fade', 1);ShowObject('blog17', 1);ShowObject('blog18', 0);return false;" name="" value="Week 2" class="navigation-buttons">
+                  <input type="submit" id="Button20" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button19', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObject('blog19', 1);ShowObject('blog18', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button21" onclick="navigateToPage('blog18');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button19', 1, 'fade', 1);ShowObjectWithEffect('Button20', 1, 'fade', 1);ShowObject('blog18', 1);ShowObject('blog19', 0);return false;" name="" value="Week 3" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button22" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button21', 0, 'fade', 1);ShowObjectWithEffect('Button22', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObject('blog20', 1);ShowObject('blog19', 0);return false;" name="" value="Week 5">
+                  <input type="submit" id="Button23" onclick="navigateToPage('blog19');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button21', 1, 'fade', 1);ShowObjectWithEffect('Button22', 1, 'fade', 1);ShowObject('blog19', 1);ShowObject('blog20', 0);return false;" name="" value="Week 4" class="navigation-buttons">
+                  <input type="submit" id="Button24" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button23', 0, 'fade', 1);ShowObjectWithEffect('Button24', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObject('blog21', 1);ShowObject('blog20', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+                  <input type="submit" id="Button25" onclick="navigateToPage('blog20');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button23', 1, 'fade', 1);ShowObjectWithEffect('Button24', 1, 'fade', 1);ShowObject('blog20', 1);ShowObject('blog21', 0);return false;" name="" value="Week 5" class="navigation-buttons">
+                  <input type="submit" id="Button26" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button25', 0, 'fade', 1);ShowObjectWithEffect('Button26', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObject('blog22', 1);ShowObject('blog21', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button27" onclick="navigateToPage('blog21');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button25', 1, 'fade', 1);ShowObjectWithEffect('Button26', 1, 'fade', 1);ShowObject('blog21', 1);ShowObject('blog22', 0);return false;" name="" value="Week 7" class="navigation-buttons">
+class="navigation-buttons"<input type="submit" id="Button28" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button27', 0, 'fade', 1);ShowObjectWithEffect('Button28', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObject('blog23', 1);ShowObject('blog22', 0);return false;" name="" value="Week 9">
+                  <input type="submit" id="Button29" onclick="navigateToPage('blog22');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button27', 1, 'fade', 1);ShowObjectWithEffect('Button28', 1, 'fade', 1);ShowObject('blog22', 1);ShowObject('blog23', 0);return false;" name="" value="Week 8" class="navigation-buttons">
+                  <input type="submit" id="Button30" onclick="navigateToPage('blog24');ShowObjectWithEffect('Button29', 0, 'fade', 1);ShowObjectWithEffect('Button30', 0, 'fade', 1);ShowObjectWithEffect('Button31', 1, 'fade', 1);ShowObjectWithEffect('Button32', 1, 'fade', 1);ShowObjectWithEffect('blog8', 1, 'fade', 1);ShowObject('blog23', 0);return false;" name="" value="Week 10" class="navigation-buttons">
+                  <input type="submit" id="Button31" onclick="navigateToPage('blog23');ShowObjectWithEffect('Button31', 0, 'fade', 1);ShowObjectWithEffect('Button32', 0, 'fade', 1);ShowObjectWithEffect('Button29', 1, 'fade', 1);ShowObjectWithEffect('Button30', 1, 'fade', 1);ShowObject('blog23', 1);ShowObjectWithEffect('blog8', 0, 'fade', 1);return false;" name="" value="Week 9" class="navigation-buttons">
+                  <input type="button" id="Button32" name="" value="Epilogue" class="navigation-buttons">
+                  <div id="Blog16">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L01 – STORYTELLING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Introduction to Recycled Art<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discuss the importance of recycling and environmental awareness.<br>
+&nbsp;&nbsp; - Introduce the concept of creating art from recycled materials.<br>
+&nbsp;&nbsp; - Show examples of recycled art projects.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L01%20&#8211;%20STORYTELLING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Setting a Basic Table<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to different table settings.<br>
+&nbsp;&nbsp; - Placement of dinnerware, glassware, and cutlery.<br>
+&nbsp;&nbsp; - Practice setting a basic table.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 1: Internet Safety Basics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Understanding the importance of online safety<br>
+&nbsp;&nbsp; - Identifying potential online risks<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog17">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L03 – Storytelling Formats</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Materials Exploration<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Explore different recycled materials suitable for art (e.g., newspapers, cardboard, bottle caps).<br>
+&nbsp;&nbsp; - Discuss the versatility of these materials in creating art.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L03%20&#8211;%20Storytelling%20Formats">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Proper Use of Cutlery<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Teaching proper handling of forks, knives, and spoons.<br>
+&nbsp;&nbsp; - Etiquette for using cutlery during meals.<br>
+&nbsp;&nbsp; - Interactive activities for practical learning.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 2: Environmental Impact of Technology<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discussion on how technology affects the environment<br>
+&nbsp;&nbsp; - Exploring positive and negative impacts<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog19">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L04 – DIGITAL CITIZENSHIP</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Recycled Collage Creations<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Apply collage techniques learned from Scheme 1 to recycled materials.<br>
+&nbsp;&nbsp; - Create individual or group collages using recycled items.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L04%20&#8211;%20DIGITAL%20CITIZENSHIP">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: Mealtime Etiquette<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Discussing good manners during meals.<br>
+&nbsp;&nbsp; - Importance of politeness and respectful behavior.<br>
+&nbsp;&nbsp; - Role-playing scenarios for practicing etiquette.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 3: E-Waste Awareness<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Recognizing the significance of responsible e-waste disposal<br>
+&nbsp;&nbsp; - Learning about the environmental consequences of improper disposal<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog20">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L07 – EXPLORATION</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Mural Painting Introduction<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduce the concept of mural painting.<br>
+&nbsp;&nbsp; - Discuss famous murals and their impact.<br>
+&nbsp;&nbsp; - Brainstorm ideas for a collaborative mural project.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L07%20&#8211;%20EXPLORATION">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Introduction to Food Preservation<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Understanding the need for food preservation.<br>
+&nbsp;&nbsp; - Overview of freezing and refrigeration.<br>
+&nbsp;&nbsp; - Exploring different methods of food preservation.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 4: Digital Citizenship<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Emphasizing responsible online behavior<br>
+&nbsp;&nbsp; - Exploring the concept of digital rights and responsibilities<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog21">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L11 – FOOD STORAGE</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Planning the Mural<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Collaboratively plan the theme and design for the class mural.<br>
+&nbsp;&nbsp; - Discuss the roles and responsibilities of each student in contributing to the mural.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L11%20&#8211;%20FOOD%20STORAGE">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Understanding Expiration Dates<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Teaching how to read and interpret expiration dates.<br>
+&nbsp;&nbsp; - Importance of checking product freshness.<br>
+&nbsp;&nbsp; - Practical exercises on checking expiration dates.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 5: Introduction to Renewable Energy<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Understanding how technology is used in renewable energy<br>
+&nbsp;&nbsp; - Exploring different sources of renewable energy<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog22">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L13 – MEASURING</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Mural Painting - Part 1<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Begin the process of transferring the mural design onto a larger canvas or wall.<br>
+&nbsp;&nbsp; - Assign specific sections to students for the initial painting.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L13%20&#8211;%20MEASURING">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Basics of Food Storage<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Proper storage of different food items.<br>
+&nbsp;&nbsp; - Containers and techniques for preserving freshness.<br>
+&nbsp;&nbsp; - Tips for organizing a pantry or refrigerator.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 6: Project - Create an E-Waste Poster<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Applying knowledge of e-waste awareness<br>
+&nbsp;&nbsp; - Designing posters to raise awareness in the school community<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog18">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L15 – NUTRITION</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Mural Painting - Part 2<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Continue working on the mural, ensuring a cohesive visual flow.<br>
+&nbsp;&nbsp; - Provide guidance on techniques and color choices.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L15%20&#8211;%20NUTRITION">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Basic Sewing Skills<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduction to essential sewing tools.<br>
+&nbsp;&nbsp; - Practice sewing on buttons.<br>
+&nbsp;&nbsp; - Simple stitching techniques for fabric.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 7: Digital Citizenship Scenarios<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Role-playing scenarios related to digital citizenship<br>
+&nbsp;&nbsp; - Discussing appropriate responses and behaviors<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+                  <div id="Blog23">
+                     <div class="blogitem">
+                        <span class="blogsubject">G1CTST3L17 – FAMILY MEALS</span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Sunday, April 02, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Mask Making<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Introduce the history and cultural significance of masks.<br>
+&nbsp;&nbsp; - Provide materials for creating masks, encouraging creativity in design.<br>
+&nbsp;&nbsp; - Discuss the stories or emotions each mask represents.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1CTST3L17%20&#8211;%20FAMILY%20MEALS">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Gardening Basics<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Overview of basic gardening concepts.<br>
+&nbsp;&nbsp; - Planting simple herbs or vegetables in containers.<br>
+&nbsp;&nbsp; - Understanding the growth process and care.<br>
+                           <br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                     <div class="blogitem">
+                        <span class="blogsubject"></span>
+                        <div class="no-thumb"></div>
+                        <div class="blogdate">Friday, November 10, 2023<br></div>
+                        <span style="color:#000000;"><strong>Lesson 8: Reflection and Action Plan<br>
+                           </strong></span><span style="color:#000000;">&nbsp;&nbsp; - Reflecting on what was learned throughout the scheme<br>
+&nbsp;&nbsp; - Creating an action plan for responsible technology use<br>
+                        </span><br>
+                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=">Lesson Evaluation</a></div>
+                     </div>
+                     <div class="clearfix visible-col1"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_emailFontAwesomeIcon">
+                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_facebookFontAwesomeIcon">
+                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_callFontAwesomeIcon">
+                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_whatsappFontAwesomeIcon">
+                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_smsFontAwesomeIcon">
+                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-3">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_copywriteText">
+                  <span style="color:#FFFFFF;">Copyright © 2024 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>     <script>   
+       function navigateToPage(blogId) {
+         // Hide all pages
+         var pages = document.querySelectorAll('.blog');
+         pages.forEach(function(blog) {
+           page.style.display = 'none';
+         });
+   
+         // Show the selected page
+         var selectedPage = document.getElementById(blogId);
+         selectedPage.style.display = 'block';
+       }
+     
+   </script>
