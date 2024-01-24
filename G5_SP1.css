@@ -5420,7 +5420,7 @@ body
 }
 #TabMenu2 li a
 {
-   padding: 5px 9px 8px 9px;
+   padding: 5px 5px 8px 5px;
    margin-right: 0px;
    text-decoration: none;
    border-bottom: none;
@@ -5473,7 +5473,7 @@ body
 {
    display: block;
    margin: 0 0 0px 0;
-   padding: 5px 9px 4px 9px;
+   padding: 5px 5px 4px 5px;
 }
 #TabMenu2 li a:hover
 {
@@ -7102,7 +7102,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 39px;
+   width: 40px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -7111,7 +7111,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 39px;
+   width: 40px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -9020,7 +9020,7 @@ body
 }
 #wb_TabMenu2
 {
-   width: 349px;
+   width: 338px;
    height: 36px;
    visibility: visible;
    display: inline-block;

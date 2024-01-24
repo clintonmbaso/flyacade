@@ -1049,57 +1049,6 @@ body
    width: 100% !important;
 }
 }
-#wb_technologystudyCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: left;
-}
-#technologystudyCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#technologystudyCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#technologystudyCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#technologystudyCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
 #wb_expressiveartsCard
 {
    position: relative;
@@ -1276,6 +1225,95 @@ body
 #Button9:focus
 {
    outline: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #193441;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 5px 15px 5px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 976px;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
 }
 #wb_lowerfooterLayoutGrid
 {
@@ -2542,6 +2580,285 @@ body
 {
    text-align: center;
 }
+#wb_Card3
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#Card3-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card3-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card3-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card3-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Button17
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button17:focus
+{
+   outline: 0;
+}
+#wb_Card4
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#Card4-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card4-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card4-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 21px;
+}
+#Card4-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card5
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#Card5-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card5-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card5-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Button10
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button10:focus
+{
+   outline: 0;
+}
+#Button11
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0 1px 0 1px;
+}
+}
+#Button11:focus
+{
+   outline: 0;
+}
+#wb_commonmistakesCard
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: left;
+}
+#commonmistakesCard-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#commonmistakesCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#commonmistakesCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#commonmistakesCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
 #Button4
 {
    display: inline-block;
@@ -2555,13 +2872,14 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 45;
+   z-index: 51;
 }
-#wb_technologystudyCard
+#Button10
 {
-   display: flex;
-   width: 100%;
-   z-index: 34;
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   z-index: 43;
 }
 #Button3
 {
@@ -2575,6 +2893,13 @@ body
    display: inline-block;
    width: 100%;
    z-index: 3;
+}
+#Button11
+{
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   z-index: 41;
 }
 #wb_languageliteracyCard
 {
@@ -2616,6 +2941,12 @@ body
    height: auto;
    z-index: 1;
 }
+#wb_Card3
+{
+   display: flex;
+   width: 100%;
+   z-index: 44;
+}
 #wb_socialstudiesCard
 {
    display: flex;
@@ -2639,6 +2970,13 @@ body
 {
    text-align: right;
 }
+#Button17
+{
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   z-index: 45;
+}
 #Html4
 {
    position: absolute;
@@ -2646,7 +2984,7 @@ body
    top: 0px;
    width: 22px;
    height: 21px;
-   z-index: 51;
+   z-index: 57;
 }
 #wb_facebookFontAwesomeIcon
 {
@@ -2654,7 +2992,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 44;
+   z-index: 50;
 }
 #wb_integratedscienceCard
 {
@@ -2668,7 +3006,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 47;
+   z-index: 53;
 }
 #wb_menuPanel
 {
@@ -2691,7 +3029,7 @@ body
    top: 75px;
    width: 22px;
    height: 21px;
-   z-index: 77;
+   z-index: 84;
 }
 #wb_TabMenu2
 {
@@ -2716,7 +3054,7 @@ body
    height: 15px;
    visibility: hidden;
    text-align: center;
-   z-index: 52;
+   z-index: 58;
 }
 #wb_IconFont2
 {
@@ -2739,7 +3077,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 43;
+   z-index: 49;
 }
 #Button8
 {
@@ -2760,6 +3098,12 @@ body
    width: 100%;
    z-index: 26;
 }
+#wb_Card5
+{
+   display: flex;
+   width: 100%;
+   z-index: 42;
+}
 #Button7
 {
    display: inline-block;
@@ -2772,6 +3116,12 @@ body
    display: flex;
    width: 100%;
    z-index: 36;
+}
+#wb_Card4
+{
+   display: flex;
+   width: 100%;
+   z-index: 40;
 }
 #Button6
 {
@@ -2786,7 +3136,13 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 46;
+   z-index: 52;
+}
+#wb_commonmistakesCard
+{
+   display: flex;
+   width: 100%;
+   z-index: 34;
 }
 #Button5
 {
@@ -2899,7 +3255,7 @@ body
 }
 #wb_TabMenu2
 {
-   width: 341px;
+   width: 313px;
    height: 36px;
    visibility: visible;
    display: inline-block;
@@ -3328,49 +3684,6 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#wb_technologystudyCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#technologystudyCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#technologystudyCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#technologystudyCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_technologystudyCard
-{
-   text-align: left;
-}
 #wb_expressiveartsCard
 {
    width: 100%;
@@ -3507,6 +3820,27 @@ body
 #Button9
 {
    line-height: 21px;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   height: auto;
+   padding: 5px 15px 5px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
 }
 #wb_lowerfooterLayoutGrid
 {
@@ -3805,8 +4139,8 @@ body
 }
 #EmbeddedPage1
 {
-   width: 52px;
-   height: 46px;
+   width: 320px;
+   height: 57px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -3815,7 +4149,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 6px;
+   width: 40px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -3824,7 +4158,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 6px;
+   width: 40px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -3852,7 +4186,7 @@ body
 }
 #PanelLayer
 {
-   left: 463px;
+   left: 329px;
    top: 4px;
    width: 306px;
 }
@@ -4061,6 +4395,229 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#wb_Card3
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#Card3-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card3-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card3-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card3
+{
+   text-align: left;
+}
+#Button17
+{
+   width: 139px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button17
+{
+   line-height: 21px;
+}
+#wb_Card4
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#Card4-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card4-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 21px;
+}
+#Card4-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card4
+{
+   text-align: left;
+}
+#wb_Card5
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#Card5-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#Card5-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#Card5-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_Card5
+{
+   text-align: left;
+}
+#Button10
+{
+   width: 139px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button10
+{
+   line-height: 21px;
+}
+#Button11
+{
+   width: 139px;
+   height: 25px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 1px 0 1px;
+   padding: 1px 6px 1px 6px;
+   background-color: rgba(51,112,183,0.39);
+   background-image: none;
+   border: 1px solid #193441;
+   border-radius: 99px;
+}
+#Button11
+{
+   line-height: 21px;
+}
+#wb_commonmistakesCard
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0;
+}
+#commonmistakesCard-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: 150px;
+}
+#commonmistakesCard-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+}
+#commonmistakesCard-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 5px 0 ;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#wb_commonmistakesCard
+{
+   text-align: left;
 }
 }
     body {
