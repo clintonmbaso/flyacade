@@ -15,43 +15,6 @@
 <script src="jquery-1.12.4.min.js"></script>
 <script src="skrollr.min.js"></script>
 <script>   
-   document.addEventListener('DOMContentLoaded', function(event)
-   {
-      var progressbar1 = document.querySelector('#progressbar1 .progress-bar');
-      var progressbar1_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar1_observer.observe(progressbar1);
-      var progressbar2 = document.querySelector('#progressbar2 .progress-bar');
-      var progressbar2_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar2_observer.observe(progressbar2);
-      var progressbar3 = document.querySelector('#progressbar3 .progress-bar');
-      var progressbar3_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar3_observer.observe(progressbar3);
-      var progressbar4 = document.querySelector('#progressbar4 .progress-bar');
-      var progressbar4_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar4_observer.observe(progressbar4);
-   });
-</script>
-<script>   
    $(document).ready(function()
    {
       function skrollrInit()
@@ -488,34 +451,34 @@
       <input type="text" id="classdescription" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
       <div id="wb_Form1">
          <form name="Form1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="Form1">
-            <div id="wb_Checkbox4">
-               <input type="checkbox" id="Checkbox4" name="Checkbox4" value="on" disabled><label for="Checkbox4"></label></div>
+            <div id="wb_rb">
+               <input type="checkbox" id="rb" name="Checkbox4" value="on" disabled><label for="rb"></label></div>
             <div id="wb_Text27">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">R</span></div>
-            <div id="wb_Checkbox9">
-               <input type="checkbox" id="Checkbox9" name="Checkbox9" value="on" disabled><label for="Checkbox9"></label></div>
+            <div id="wb_t1b">
+               <input type="checkbox" id="t1b" name="Checkbox9" value="on" disabled><label for="t1b"></label></div>
             <div id="wb_Text26">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">T</span></div>
-            <div id="wb_Checkbox14">
-               <input type="checkbox" id="Checkbox14" name="Checkbox14" value="on" disabled><label for="Checkbox14"></label></div>
-            <div id="wb_Checkbox17">
-               <input type="checkbox" id="Checkbox17" name="Checkbox17" value="on" disabled><label for="Checkbox17"></label></div>
-            <div id="wb_Checkbox10">
-               <input type="checkbox" id="Checkbox10" name="Checkbox10" value="on" disabled><label for="Checkbox10"></label></div>
+            <div id="wb_t2b">
+               <input type="checkbox" id="t2b" name="Checkbox14" value="on" disabled><label for="t2b"></label></div>
+            <div id="wb_t3b">
+               <input type="checkbox" id="t3b" name="Checkbox17" value="on" disabled><label for="t3b"></label></div>
+            <div id="wb_s1b">
+               <input type="checkbox" id="s1b" name="Checkbox10" value="on" disabled><label for="s1b"></label></div>
             <div id="wb_Text25">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">S</span></div>
-            <div id="wb_Checkbox13">
-               <input type="checkbox" id="Checkbox13" name="Checkbox13" value="on" disabled><label for="Checkbox13"></label></div>
-            <div id="wb_Checkbox16">
-               <input type="checkbox" id="Checkbox16" name="Checkbox16" value="on" disabled><label for="Checkbox16"></label></div>
+            <div id="wb_s2b">
+               <input type="checkbox" id="s2b" name="Checkbox13" value="on" disabled><label for="s2b"></label></div>
+            <div id="wb_s3b">
+               <input type="checkbox" id="s3b" name="Checkbox16" value="on" disabled><label for="s3b"></label></div>
             <div id="wb_Text10">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">B</span></div>
             <picture id="wb_classpic">
                <source media="(max-width:1008px)" srcset="">
                <img src="images/avatar_bw.jpg" loading="lazy" id="classpic" alt="" width="155" height="155">
             </picture>
-            <div id="wb_Checkbox11">
-               <input type="checkbox" id="Checkbox11" name="Checkbox11" value="on" disabled><label for="Checkbox11"></label></div>
+            <div id="wb_bb">
+               <input type="checkbox" id="bb" name="Checkbox11" value="on" disabled><label for="bb"></label></div>
             <input type="text" id="parentname" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Parent Name">
             <div id="wb_term1b">
                <input type="checkbox" id="term1b" name="Checkbox1" value="on" disabled><label for="term1b"></label></div>
@@ -537,18 +500,6 @@
             <input type="text" id="teachertitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
             <div id="wb_Text16">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;"><strong>Contact the School</strong></span></div>
-            <div id="progressbar1">
-               <div class="progress-bar" role="progressbar" aria-valuenow="15" title="15%" aria-valuemin="0" aria-valuemax="100">15%</div>
-            </div>
-            <div id="progressbar2">
-               <div class="progress-bar" role="progressbar" aria-valuenow="71" title="71%" aria-valuemin="0" aria-valuemax="100">71%</div>
-            </div>
-            <div id="progressbar3">
-               <div class="progress-bar" role="progressbar" aria-valuenow="87" title="87%" aria-valuemin="0" aria-valuemax="100">87%</div>
-            </div>
-            <div id="progressbar4">
-               <div class="progress-bar" role="progressbar" aria-valuenow="42" title="42%" aria-valuemin="0" aria-valuemax="100">42%</div>
-            </div>
             <div id="wb_Text6">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Tuition Fees</span></div>
             <input type="text" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 1 Fees">
@@ -667,14 +618,18 @@
             <div id="wb_Image3">
                <a href="sms:"><img src="images/mail.png" id="Image3" alt="email" width="45" height="45"></a></div>
             <div id="Html2">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSV Form</title>
-</head>
-<body>
+               <input type="range" id="progressbar1" min="0" max="100" disabled>
+               <span id="slider1Value">%</span>
+               <br>
+               <input type="range" id="progressbar2" min="0" max="100" disabled>
+               <span id="slider2Value"></span>
+               <br>
+               <input type="range" id="progressbar3" min="0" max="100" disabled>
+               <span id="slider3Value"></span>
+               <br>
+               <input type="range" id="progressbar4" min="0" max="100" disabled>
+               <span id="slider4Value"></span>
+               <br>
                <script>               
                    let csvData = [];
                    let currentRow = 0;
@@ -722,7 +677,42 @@
                      const term1 = document.getElementById('term1');
                      const term2 = document.getElementById('term2');
                      const term3 = document.getElementById('term3');
-                     const classdescription = document.getElementById('classdescription');
+               
+                     const progressbar1 = document.getElementById('progressbar1');
+                     const progressbar2 = document.getElementById('progressbar2');
+                     const progressbar3 = document.getElementById('progressbar3');
+                     const progressbar4 = document.getElementById('progressbar4');
+                     
+                     const janb = document.getElementById('janb');
+                     const febb = document.getElementById('febb');
+                     const marb = document.getElementById('marb');
+                     
+                     const mayb = document.getElementById('mayb');
+                     const junb = document.getElementById('junb');
+                     const julb = document.getElementById('julb');
+                     
+                     const sepb = document.getElementById('sepb');
+                     const octb = document.getElementById('octb');
+                     const novb = document.getElementById('novb');
+               
+                     const term1b = document.getElementById('term1b');
+                     const term2b = document.getElementById('term2b');
+                     const term3b = document.getElementById('term3b');
+               
+                     const s1b = document.getElementById('s1b');
+                     const s2b = document.getElementById('s2b');
+                     const s3b = document.getElementById('s3b');
+                     const t1b = document.getElementById('t1b');
+                     const t2b = document.getElementById('t2b');
+                     const t3b = document.getElementById('t3b');
+                     const bb = document.getElementById('bb');
+                     const rb = document.getElementById('rb');
+                     const totalb = document.getElementById('totalb');
+               
+               
+               
+               
+               
                
                
                
@@ -759,7 +749,43 @@
                      term1.value = rowData[18];
                      term2.value = rowData[19];
                      term3.value = rowData[20];
-                     classdescription.value = rowData[21];
+                     progressbar1.value = rowData[21];
+                     progressbar2.value = rowData[22];
+                     progressbar3.value = rowData[23];
+                     progressbar4.value = rowData[24];
+                     
+                     slider1Value.textContent = `${rowData[21]}`;
+                     slider2Value.textContent = `${rowData[22]}`;
+                     slider3Value.textContent = `${rowData[23]}`;
+                     slider4Value.textContent = `${rowData[24]}`;
+                     
+                     janb.checked = rowData[25] === 'true';
+                     febb.checked = rowData[26] === 'true';
+                     marb.checked = rowData[27] === 'true';
+                     
+                     mayb.checked = rowData[28] === 'true';
+                     junb.checked = rowData[29] === 'true';
+                     julb.checked = rowData[30] === 'true';
+                     
+                     sepb.checked = rowData[31] === 'true';
+                     octb.checked = rowData[32] === 'true';
+                     novb.checked = rowData[33] === 'true';
+                     
+                     term1b.checked = rowData[34] === 'true';
+                     term2b.checked = rowData[35] === 'true';
+                     term3b.checked = rowData[36] === 'true';
+                     
+                     s1b.checked = rowData[37] === 'true';
+                     s2b.checked = rowData[38] === 'true';
+                     s3b.checked = rowData[39] === 'true';
+                     
+                     t1b.checked = rowData[40] === 'true';
+                     t2b.checked = rowData[41] === 'true';
+                     t3b.checked = rowData[42] === 'true';
+                     
+                     bb.checked = rowData[43] === 'true';
+                     rb.checked = rowData[44] === 'true';
+                     totalb.checked = rowData[45] === 'true';
                    }
                
                    function previousRow() {
@@ -779,9 +805,7 @@
                    // Load CSV data when the page loads
                    loadCSV();
                  
-               </script>
-</body>
-</html></div>
+               </script></div>
             <input type="button" id="Button2" onclick="previousRow();return false;" name="" value="Previous Record">
             <input type="button" id="Button1" onclick="nextRow();return false;" name="" value="Next Record">
          </form>
@@ -847,77 +871,9 @@
          <div id="wb_facebookIconFont">
             <a href="https://www.facebook.com/briclintons"><div id="facebookIconFont"><i class="fa fa-facebook"></i></div></a></div>
       </div>
-
       <div id="wb_EmbeddedPage4">
 
       </div>
    </div>
-   <script>   
-       // Term 1
-       document.getElementById('term1').addEventListener('input', function () {
-           var inputValue = this.value;
-           var janb = document.getElementById('janb');
-           var febb = document.getElementById('febb');
-           var marb = document.getElementById('marb');
-           var term1b = document.getElementById('term1b');
-   
-           // Check conditions and update checkboxes accordingly
-           janb.checked = Number(inputValue) >= 150;
-           febb.checked = Number(inputValue) >= 300;
-           marb.checked = Number(inputValue) >= 450;
-           term1b.checked = Number(inputValue) >= 450;
-       });
-       
-       // Term 2
-       document.getElementById('term2').addEventListener('input', function () {
-           var inputValue = this.value;
-           var mayb = document.getElementById('mayb');
-           var junb = document.getElementById('junb');
-           var julb = document.getElementById('julb');
-           var term2b = document.getElementById('term2b');
-   
-           // Check conditions and update checkboxes accordingly
-           mayb.checked = Number(inputValue) >= 150;
-           junb.checked = Number(inputValue) >= 300;
-           julb.checked = Number(inputValue) >= 450;
-           term2b.checked = Number(inputValue) >= 450;
-       });
-       
-       // Term 3
-       document.getElementById('term3').addEventListener('input', function () {
-           var inputValue = this.value;
-           var sepb = document.getElementById('sepb');
-           var octb = document.getElementById('octb');
-           var novb = document.getElementById('novb');
-           var term3b = document.getElementById('term3b');
-   
-           // Check conditions and update checkboxes accordingly
-           sepb.checked = Number(inputValue) >= 150;
-           octb.checked = Number(inputValue) >= 300;
-           novb.checked = Number(inputValue) >= 450;
-           term3b.checked = Number(inputValue) >= 450;
-       });
-       
-       // Total
-       document.getElementById('total').addEventListener('input', function () {
-           var inputValue = this.value;
-           var totalb = document.getElementById('totalb');
-           
-           // Check conditions and update checkboxes accordingly
-           totalb.checked = Number(inputValue) >= 1350;
-           });
-       
-   </script>
-   <script>   
-           function calculateTotal() {
-               var term1 = parseFloat(document.getElementById("term1").value) || 0;
-               var term2 = parseFloat(document.getElementById("term2").value) || 0;
-               var term3 = parseFloat(document.getElementById("term3").value) || 0;
-   
-               var total = term1 + term2 + term3;
-   
-               document.getElementById("total").value = total;
-           }
-       
-   </script></body>
+</body>
 </html>
