@@ -14,46 +14,41 @@
 <link href="FS20BC0000S-A3.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="skrollr.min.js"></script>
-<script src="wb.overlay.min.js"></script>
-<script src="wb.drilldownmenu.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
-<script src="wwb18.min.js"></script>
 <script>   
    document.addEventListener('DOMContentLoaded', function(event)
    {
-      var progressbar_html = document.querySelector('#progressbar_html .progress-bar');
-      var progressbar_html_observer = new window.ResizeObserver(entries => 
+      var progressbar1 = document.querySelector('#progressbar1 .progress-bar');
+      var progressbar1_observer = new window.ResizeObserver(entries => 
       {
          var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
          entries[0].target.innerText = val + '%';
          entries[0].target.setAttribute('aria-valuenow', val);
       });
-      progressbar_html_observer.observe(progressbar_html);
-      var Progressbar1 = document.querySelector('#Progressbar1 .progress-bar');
-      var Progressbar1_observer = new window.ResizeObserver(entries => 
+      progressbar1_observer.observe(progressbar1);
+      var progressbar2 = document.querySelector('#progressbar2 .progress-bar');
+      var progressbar2_observer = new window.ResizeObserver(entries => 
       {
          var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
          entries[0].target.innerText = val + '%';
          entries[0].target.setAttribute('aria-valuenow', val);
       });
-      Progressbar1_observer.observe(Progressbar1);
-      var Progressbar2 = document.querySelector('#Progressbar2 .progress-bar');
-      var Progressbar2_observer = new window.ResizeObserver(entries => 
+      progressbar2_observer.observe(progressbar2);
+      var progressbar3 = document.querySelector('#progressbar3 .progress-bar');
+      var progressbar3_observer = new window.ResizeObserver(entries => 
       {
          var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
          entries[0].target.innerText = val + '%';
          entries[0].target.setAttribute('aria-valuenow', val);
       });
-      Progressbar2_observer.observe(Progressbar2);
-      var Progressbar3 = document.querySelector('#Progressbar3 .progress-bar');
-      var Progressbar3_observer = new window.ResizeObserver(entries => 
+      progressbar3_observer.observe(progressbar3);
+      var progressbar4 = document.querySelector('#progressbar4 .progress-bar');
+      var progressbar4_observer = new window.ResizeObserver(entries => 
       {
          var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
          entries[0].target.innerText = val + '%';
          entries[0].target.setAttribute('aria-valuenow', val);
       });
-      Progressbar3_observer.observe(Progressbar3);
+      progressbar4_observer.observe(progressbar4);
    });
 </script>
 <script>   
@@ -64,24 +59,6 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
-      $("#term1").change(function()
-      {
-         $('#wb_janb').trigger('change');
-      });
-      $("#term1").trigger('change');
-      $('#OverlayMenu1-overlay').overlay({hideTransition:true});
-      $('.OverlayMenu1').drilldownmenu({backText: 'Fly Back'});
-      $('#OverlayMenu1').on('click', function(e)
-      {
-         $.overlay.show($('#OverlayMenu1-overlay'));
-         return false;
-      });
-      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
-      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
-      {
-         event.preventDefault();
-         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
-      });
    });
 </script>
     <script>   
@@ -534,7 +511,7 @@
             <div id="wb_Text10">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">B</span></div>
             <picture id="wb_classpic">
-               <source media="(max-width:1008px)" srcset="images/avatar_bw.jpg">
+               <source media="(max-width:1008px)" srcset="">
                <img src="images/avatar_bw.jpg" loading="lazy" id="classpic" alt="" width="155" height="155">
             </picture>
             <div id="wb_Checkbox11">
@@ -548,38 +525,42 @@
                <input type="checkbox" id="term3b" name="Checkbox3" value="on" disabled><label for="term3b"></label></div>
             <div id="wb_totalb">
                <input type="checkbox" id="totalb" name="Checkbox8" value="on" disabled><label for="totalb"></label></div>
-            <input type="text" id="type" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="Enrolment Status">
+            <input type="text" id="typeInput" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="Enrolment Status">
             <div id="wb_Text31">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">2024</span></div>
             <input type="text" id="phone" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
             <input type="text" id="teacher" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Teacher">
-            <input type="text" id="lastname" name="learners_last_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Last Name">
-            <input type="datetime" id="doe" name="Student_DoE" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Enrolment">
+            <input type="text" id="lastnameInput" name="learners_last_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Last Name">
+            <input type="datetime" id="doeInput" name="Student_DoE" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Enrolment">
             <input type="text" id="parenttitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
-            <input type="email" id="email" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="email address">
+            <input type="email" id="emailInput" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="email address">
             <input type="text" id="teachertitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
             <div id="wb_Text16">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;"><strong>Contact the School</strong></span></div>
-            <div id="progressbar_html">
-               <div class="progress-bar" role="progressbar" aria-valuenow="10" title="10%" aria-valuemin="0" aria-valuemax="100">10%</div>
+            <div id="progressbar1">
+               <div class="progress-bar" role="progressbar" aria-valuenow="15" title="15%" aria-valuemin="0" aria-valuemax="100">15%</div>
             </div>
-            <div id="Progressbar1">
+            <div id="progressbar2">
                <div class="progress-bar" role="progressbar" aria-valuenow="71" title="71%" aria-valuemin="0" aria-valuemax="100">71%</div>
             </div>
-            <div id="Progressbar2">
+            <div id="progressbar3">
                <div class="progress-bar" role="progressbar" aria-valuenow="87" title="87%" aria-valuemin="0" aria-valuemax="100">87%</div>
             </div>
-            <div id="Progressbar3">
+            <div id="progressbar4">
                <div class="progress-bar" role="progressbar" aria-valuenow="42" title="42%" aria-valuemin="0" aria-valuemax="100">42%</div>
             </div>
-            <div id="wb_Text13">
+            <div id="wb_Text6">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Tuition Fees</span></div>
-            <input type="number" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 1 Fees">
-            <input type="number" id="term2" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 2 Fees">
-            <input type="number" id="term3" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 3 Fees">
+            <input type="text" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 1 Fees">
+            <input type="text" id="term2" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 2 Fees">
+            <input type="text" id="term3" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 3 Fees">
+            <div id="wb_Text13">
+               <span style="color:#8B008B;font-family:'MS Sans Serif';font-size:12px;"><strong>The Way to Success</strong></span></div>
             <input type="text" id="total" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Annual Fees">
             <div id="wb_Text15">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Annual Pay</span></div>
+            <div id="wb_Text12">
+               <span style="color:#000000;font-family:'MS Serif';font-size:29px;"><strong>F</strong></span><span style="color:#000000;font-family:'MS Serif';font-size:20px;"><strong>lying Wings </strong></span><span style="color:#8A2BE2;font-family:'MS Serif';font-size:29px;"><strong>A</strong></span><span style="color:#8A2BE2;font-family:'MS Serif';font-size:20px;"><strong>cademy</strong></span></div>
             <div id="wb_Text28">
                <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
             <div id="wb_Text29">
@@ -611,42 +592,42 @@
             <div id="wb_Text36">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">O</span></div>
             <picture id="wb_teacherpic">
-               <source media="(max-width:1008px)" srcset="images/avatar_green.jpg">
+               <source media="(max-width:1008px)" srcset="">
                <img src="images/avatar_green.jpg" id="teacherpic" alt="" width="74" height="74">
             </picture>
             <div id="wb_Text19">
                <span style="color:#000000;font-family:Share;font-size:11px;">Spellings:</span></div>
-            <a href="#" onclick="openFileInput();return false;">
-               <picture id="wb_learnerpic">
-                  <source media="(max-width:1008px)" srcset="images/avatar_bw.jpg">
-                  <img src="images/avatar_bw.jpg" id="learnerpic" alt="" width="155" height="155">
-               </picture>
-            </a>
-            <marquee direction="left" scrolldelay="200" scrollamount="4" behavior="scroll" loop="0" id="shaelynMbaso1" onmouseover="this.stop()" onmouseout="this.start()"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">We are opening for term One on January 8 2024</span></marquee>
+            <picture id="wb_learnerpic">
+               <source media="(max-width:1008px)" srcset="">
+               <img src="images/avatar_bw.jpg" id="learnerpic" alt="" width="155" height="155">
+            </picture>
+            <div id="wb_Parent_Notification" dir="rtl">
+               <div id="Parent_Notification">
+                  <span style="color:#000000;">We are opening for term One on January 8 2024</span></div></div>
             <div id="wb_Text18">
                <span style="color:#000000;font-family:Share;font-size:11px;">Subjects:</span></div>
             <div id="wb_Text22" data-top="opacity:1.0;opacity:1.0;">
-               <span style="color:#B8860B;font-family:'Times New Roman';font-size:21px;">Admin Student's Portal</span></div>
-            <input type="text" id="firstname" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
-            <input type="datetime" id="dob" name="Student_DoB" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Birth">
-            <div id="wb_Text14">
+               <span style="color:#B8860B;font-family:'Times New Roman';font-size:27px;">Student's Portal</span></div>
+            <input type="text" id="firstnameInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
+            <input type="datetime" id="dobInput" name="Student_DoB" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Birth">
+            <div id="wb_Text1">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Parent's Information</span></div>
             <hr id="Line1">
             <div id="wb_Text11">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Payment Record</span></div>
             <picture id="wb_parentpic">
-               <source media="(max-width:1008px)" srcset="images/avatar_green.jpg">
+               <source media="(max-width:1008px)" srcset="">
                <img src="images/avatar_green.jpg" id="parentpic" alt="" width="119" height="119">
             </picture>
-            <div id="wb_Text17">
+            <div id="wb_Text4">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Performance Record</span></div>
-            <div id="wb_Text38">
+            <div id="wb_Text5">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Teacher's Details</span></div>
             <div id="wb_Text20">
                <span style="color:#000000;font-family:Share;font-size:11px;">Mathematics:</span></div>
             <div id="wb_Text21">
                <span style="color:#000000;font-family:Share;font-size:11px;">Literacy:</span></div>
-            <input type="text" id="class" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Class">
+            <input type="text" id="classInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Class">
             <div id="wb_Text7">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">J</span></div>
             <div id="wb_janb">
@@ -659,15 +640,10 @@
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">S</span></div>
             <div id="wb_sepb">
                <input type="checkbox" id="sepb" name="Checkbox11" value="on" disabled><label for="sepb"></label></div>
+            <div id="wb_Image1">
+               <a href="index.html"><img src="images/Flying_Wings_Academy.png" id="Image1" alt="Logo" title="Flying Wings Home" width="187" height="153"></a></div>
             <input type="text" id="status" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="Status">
-            <input type="text" id="studentid" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="ID Number">
-            <div id="wb_OverlayMenu1">
-               <a href="#" id="OverlayMenu1">
-                  <span class="line"></span>
-                  <span class="line">
-                  </span><span class="line"></span>
-               </a>
-            </div>
+            <input type="text" id="idInput" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="ID Number">
             <div id="wb_EmbeddedPage3">
                <div id="wb_facebookFontAwesomeIcon">
                   <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a></div>
@@ -690,6 +666,124 @@
                <a href="tel:"><img src="images/call.png" id="Image4" alt="Call" width="43" height="43"></a></div>
             <div id="wb_Image3">
                <a href="sms:"><img src="images/mail.png" id="Image3" alt="email" width="45" height="45"></a></div>
+            <div id="Html2">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Form</title>
+</head>
+<body>
+               <script>               
+                   let csvData = [];
+                   let currentRow = 0;
+               
+                   function loadCSV() {
+                     const xhr = new XMLHttpRequest();
+                     xhr.onreadystatechange = function () {
+                       if (xhr.readyState === XMLHttpRequest.DONE) {
+                         if (xhr.status === 200) {
+                           csvData = parseCSV(xhr.responseText);
+                           displayRow();
+                         } else {
+                           console.error('Failed to load CSV file.');
+                         }
+                       }
+                     };
+                     xhr.open('GET', 'flyacade.csv', true);
+                     xhr.send();
+                   }
+               
+                   function parseCSV(content) {
+                     const rows = content.split('\n');
+                     return rows.map(row => row.split(','));
+                   }
+               
+                   function displayRow() {
+                     const idInput = document.getElementById('idInput');
+                     const firstnameInput = document.getElementById('firstnameInput');
+                     const lastnameInput = document.getElementById('lastnameInput');
+                     const classInput = document.getElementById('classInput');
+                     const classpic = document.getElementById('classpic');
+                     const learnerpic = document.getElementById('learnerpic');
+                     const teacherpic = document.getElementById('teacherpic');
+                     const teachertitle = document.getElementById('teachertitle');
+                     const teacher = document.getElementById('teacher');
+                     const parentpic = document.getElementById('parentpic');
+                     const phone = document.getElementById('phone');
+                     const parenttitle = document.getElementById('parenttitle');
+                     const parentname = document.getElementById('parentname');
+                     const typeInput = document.getElementById('typeInput');
+                     const status = document.getElementById('status');
+                     const dobInput = document.getElementById('dobInput');
+                     const doeInput = document.getElementById('doeInput');
+                     const emailInput = document.getElementById('emailInput');
+                     const term1 = document.getElementById('term1');
+                     const term2 = document.getElementById('term2');
+                     const term3 = document.getElementById('term3');
+                     const classdescription = document.getElementById('classdescription');
+               
+               
+               
+                     // Assuming the CSV has three columns: ID, Name, Email
+                     const rowData = csvData[currentRow];
+                     idInput.value = rowData[0];
+                     firstnameInput.value = rowData[1];
+                     lastnameInput.value = rowData[2];
+                     classInput.value = rowData[3];
+                     
+                     const classpicURL = rowData[4]; 
+                     classpic.src = classpicURL;
+                     
+                     const learnerpicURL = rowData[5];
+                     learnerpic.src = learnerpicURL;
+                     
+                     const teacherpicURL = rowData[6];
+                     teacherpic.src = teacherpicURL;
+                     
+                     teachertitle.value = rowData[7];
+                     teacher.value = rowData[8];
+                     
+                     const parentpicURL = rowData[9];
+                     parentpic.src = parentpicURL;
+                     
+                     phone.value = rowData[10];
+                     parenttitle.value = rowData[11];
+                     parentname.value = rowData[12];
+                     typeInput.value = rowData[13];
+                     status.value = rowData[14];
+                     dobInput.value = rowData[15];
+                     doeInput.value = rowData[16];
+                     emailInput.value = rowData[17];
+                     term1.value = rowData[18];
+                     term2.value = rowData[19];
+                     term3.value = rowData[20];
+                     classdescription.value = rowData[21];
+                   }
+               
+                   function previousRow() {
+                     if (currentRow > 0) {
+                       currentRow--;
+                       displayRow();
+                     }
+                   }
+               
+                   function nextRow() {
+                     if (currentRow < csvData.length - 1) {
+                       currentRow++;
+                       displayRow();
+                     }
+                   }
+               
+                   // Load CSV data when the page loads
+                   loadCSV();
+                 
+               </script>
+</body>
+</html></div>
+            <input type="button" id="Button2" onclick="previousRow();return false;" name="" value="Previous Record">
+            <input type="button" id="Button1" onclick="nextRow();return false;" name="" value="Next Record">
          </form>
       </div>
       <div id="wb_EmbeddedPage2">
@@ -754,187 +848,8 @@
             <a href="https://www.facebook.com/briclintons"><div id="facebookIconFont"><i class="fa fa-facebook"></i></div></a></div>
       </div>
 
-      <div id="wb_Text12" data-top="opacity:1.0;opacity:1.0;">
-         <span style="color:#B8860B;font-family:'Times New Roman';font-size:27px;">Admin Student's Portal</span>
-      </div>
       <div id="wb_EmbeddedPage4">
 
-      </div>
-   </div>
-   <div id="OverlayMenu1-overlay">
-      <div class="OverlayMenu1">
-         <ul class="drilldown-menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Baby&nbsp;Class</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0001S-SM.html" class="OverlayMenu1-effect">Shaelyn&nbsp;Mbaso</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Middle&nbsp;Class</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0039S-BN.html" class="OverlayMenu1-effect">Beatrice&nbsp;Nakamba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0015S-BL.html" class="OverlayMenu1-effect">Blessings&nbsp;Lungendo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0032S-GC.html" class="OverlayMenu1-effect">Grace&nbsp;Chola</a></li>
-                  <li><a role="menuitem" href="./FL20BC0042S-PK.html" class="OverlayMenu1-effect">Penlop&nbsp;Kaluba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0020S-SM.html" class="OverlayMenu1-effect">Sylvester&nbsp;Mweemba</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Reception&nbsp;Class</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0017S-AM.html" class="OverlayMenu1-effect">Alice&nbsp;Makoloni</a></li>
-                  <li><a role="menuitem" href="./FL20BC0048S-BS.html" class="OverlayMenu1-effect">Bessy&nbsp;Saili</a></li>
-                  <li><a role="menuitem" href="./FL20BC0008S-BN.html" class="OverlayMenu1-effect">Blessings&nbsp;Nambela</a></li>
-                  <li><a role="menuitem" href="./FL20BC0025S-CM.html" class="OverlayMenu1-effect">Chisha&nbsp;Rest&nbsp;Mulenga</a></li>
-                  <li><a role="menuitem" href="./FL20BC0024S-CM.html" class="OverlayMenu1-effect">Comfort&nbsp;Mulenga</a></li>
-                  <li><a role="menuitem" href="./FL20BC0016S-FL.html" class="OverlayMenu1-effect">Francis&nbsp;Lumbongo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0023S-ML.html" class="OverlayMenu1-effect">Memory&nbsp;Lumbongo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0007S-ML.html" class="OverlayMenu1-effect">Mercy&nbsp;Lungu</a></li>
-                  <li><a role="menuitem" href="./FL20BC0006S-NS.html" class="OverlayMenu1-effect">Natasha&nbsp;Shamboko</a></li>
-                  <li><a role="menuitem" href="./FL20BC0051S-SH.html" class="OverlayMenu1-effect">Saidi&nbsp;Hamuzembo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0026S-SK.html" class="OverlayMenu1-effect">Samuel&nbsp;Kakoma</a></li>
-                  <li><a role="menuitem" href="./FL20BC0009S-TM.html" class="OverlayMenu1-effect">Thelma&nbsp;Mukuka</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;1</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0018S-AS.html" class="OverlayMenu1-effect">Abel&nbsp;Silungwe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0008S-BN.html" class="OverlayMenu1-effect">Blessings&nbsp;Nambela</a></li>
-                  <li><a role="menuitem" href="./FL20BC0014S-CM.html" class="OverlayMenu1-effect">Comfort&nbsp;Mutambo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0021S-EP.html" class="OverlayMenu1-effect">Eric&nbsp;Ponda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0010S-EM.html" class="OverlayMenu1-effect">Esta&nbsp;Mbewe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0030S-FK.html" class="OverlayMenu1-effect">Finess&nbsp;Kashanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0027S-KK.html" class="OverlayMenu1-effect">Kennedy&nbsp;Kaonga</a></li>
-                  <li><a role="menuitem" href="./FL20BC0041S-MC.html" class="OverlayMenu1-effect">Mirriam&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0031S-NM.html" class="OverlayMenu1-effect">Naomi&nbsp;Mainza</a></li>
-                  <li><a role="menuitem" href="./FL20BC0009S-TM.html" class="OverlayMenu1-effect">Thelma&nbsp;Mukuka</a></li>
-                  <li><a role="menuitem" href="./FL20BC0040S-VC.html" class="OverlayMenu1-effect">Victor&nbsp;Chibuye</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;2</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0033S-CN.html" class="OverlayMenu1-effect">Catherine&nbsp;Nkandu</a></li>
-                  <li><a role="menuitem" href="./FL20BC0052S-CP.html" class="OverlayMenu1-effect">Christine&nbsp;Phiri</a></li>
-                  <li><a role="menuitem" href="./FL20BC0034S-CS.html" class="OverlayMenu1-effect">Clarence&nbsp;Silwamba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0035S-EK.html" class="OverlayMenu1-effect">Esther&nbsp;Kombe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0019S-RP.html" class="OverlayMenu1-effect">Ruth&nbsp;Phiri</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;3</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0005S-FC.html" class="OverlayMenu1-effect">Faith&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0053S-FP.html" class="OverlayMenu1-effect">Favour&nbsp;Phiri</a></li>
-                  <li><a role="menuitem" href="./FL20BC0004S-FS.html" class="OverlayMenu1-effect">Frank&nbsp;Shamboko</a></li>
-                  <li><a role="menuitem" href="./FL20BC0037S-KC.html" class="OverlayMenu1-effect">Kimberly&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0002S-LM.html" class="OverlayMenu1-effect">Luyando&nbsp;Mweemba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0054S-NK.html" class="OverlayMenu1-effect">Nathan&nbsp;Kavimbe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0038S-PC.html" class="OverlayMenu1-effect">Promise&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0003S-TL.html" class="OverlayMenu1-effect">Taonga&nbsp;Lungu</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;4</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0055S-BM.html" class="OverlayMenu1-effect">Bertha&nbsp;Munanku</a></li>
-                  <li><a role="menuitem" href="./FL20BC0056S-JH.html" class="OverlayMenu1-effect">Joshua&nbsp;Habeenzu</a></li>
-                  <li><a role="menuitem" href="./FL20BC0036S-NM.html" class="OverlayMenu1-effect">Naomi&nbsp;Malupande</a></li>
-                  <li><a role="menuitem" href="./FL20BC0022S-PM.html" class="OverlayMenu1-effect">Patience&nbsp;Mukwenya</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;5</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0012S-JS.html" class="OverlayMenu1-effect">Jessica&nbsp;Shamboko</a></li>
-                  <li><a role="menuitem" href="./FL20BC0011S-TM.html" class="OverlayMenu1-effect">Taonga&nbsp;Mbewe</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;6</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0013S-ES.html" class="OverlayMenu1-effect">Effeso&nbsp;Sinkala</a></li>
-                  <li><a role="menuitem" href="./FL20BC0029S-LM.html" class="OverlayMenu1-effect">Lushomo&nbsp;Milimo</a></li>
-               </ul>
-            </li>
-         </ul>
-      </div>
-      <a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
-   </div>
-   <div id="FlexContainer2">
-      <div id="PanelLayer">
-         <div id="wb_IconFont2">
-            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
-         </div>
-         <div id="wb_Image1">
-            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
-         </div>
-         <div id="wb_Heading20">
-            <h2 id="Heading20">Flying Wings Academy</h2>
-         </div>
-         <div id="wb_OverlayMenu2">
-            <div class="OverlayMenu2">
-               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
-                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
-                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
-                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
-                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                  <li><a role="menuitem" href="./G1_SP1.html" onclick="window.location.href='./G1_SP1.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
-                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
-               </ul>
-            </div>
-         </div>
-         <div id="wb_Text40">
-            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-         </div>
-      </div>
-      <div id="wb_HeaderLayoutGrid">
-         <div id="HeaderLayoutGrid">
-            <div class="row">
-               <div class="col-1">
-                  <div id="wb_home_logo">
-                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
-                  </div>
-               </div>
-               <div class="col-2">
-                  <div id="wb_Header">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text3">
-                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text2">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text5">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text1">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text4">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text6">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
-                  </div>
-               </div>
-               <div class="col-3">
-                  <div id="wb_menuPanel">
-                     <a href="#PanelLayer" id="menuPanel">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
       </div>
    </div>
    <script>   
