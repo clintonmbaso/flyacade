@@ -3106,10 +3106,9 @@ a:hover
 #slider3Value
 {
    position: absolute;
-   left: 100px;
-   top: 420px;
+   left: 70px;
+   top: 421px;
    font-size: 8px;
-   color: gold;
 }
 #wb_callFontAwesomeIcon
 {
@@ -3768,10 +3767,9 @@ a:hover
 #slider4Value
 {
    position: absolute;
-   left: 100px;
-   top: 435px;
+   left: 70px;
+   top: 436px;
    font-size: 8px;
-   color: gold;
 }
 #wb_EmbeddedPage3
 {
@@ -3998,10 +3996,9 @@ a:hover
 #slider1Value
 {
    position: absolute;
-   left: 100px;
-   top: 390px;
+   left: 70px;
+   top: 391px;
    font-size: 8px;
-   color: gold;
 }
 #wb_Text24
 {
@@ -4017,10 +4014,9 @@ a:hover
 #slider2Value
 {
    position: absolute;
-   left: 100px;
-   top: 405px;
+   left: 70px;
+   top: 406px;
    font-size: 8px;
-   color: gold;
 }
 #classInput
 {
@@ -4222,7 +4218,7 @@ body
    left: 0px;
    top: 0px;
    width: 321px;
-   height: 1029px;
+   height: 1033px;
    visibility: visible;
    display: inline;
 }
@@ -5394,7 +5390,7 @@ body
 {
    left: 10px;
    top: 517px;
-   width: 74px;
+   width: 53px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -5437,7 +5433,7 @@ body
 {
    left: 9px;
    top: 487px;
-   width: 75px;
+   width: 54px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -5579,7 +5575,7 @@ body
 {
    left: 0px;
    top: 532px;
-   width: 84px;
+   width: 63px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -5593,7 +5589,7 @@ body
 {
    left: 5px;
    top: 501px;
-   width: 79px;
+   width: 58px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -6047,7 +6043,35 @@ body
    background-image: none;
 }
 }
-    body {
+    /* Customize the appearance of the sliders */
+    input[type="range"] {
+      //-webkit-appearance: none;
+      background: #A29595;
+      border-radius: 2px;
+      outline: none;
+      opacity: 1;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+  
+    input[type="range"]::-webkit-slider-thumb {
+      //-webkit-appearance: none;
+      //appearance: none;
+      width: 0px;
+      height: 0px;
+      background-color: #932424;
+      border-radius: 20%;
+      cursor: pointer;
+    }
+    input[type="range"]:hover {
+      opacity: 1;
+    }
+    /* Remove the default tooltip for the sliders*/
+    input[type="range"]::-moz-range-tooltip,
+    input[type="range"]::-ms-tooltip {
+      display: none;
+    }
+      body {
       margin: 0;
       font-family: Arial, sans-serif;
     }
