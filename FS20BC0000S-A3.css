@@ -2910,86 +2910,6 @@ a:hover
    transform: rotate(360deg) ;
    transition: transform 500ms linear 0ms;
 }
-#wb_Image7
-{
-   vertical-align: top;
-}
-#Image7
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image6
-{
-   vertical-align: top;
-}
-#Image6
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image5
-{
-   vertical-align: top;
-}
-#Image5
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image4
-{
-   vertical-align: top;
-}
-#Image4
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   filter: drop-shadow(0px 0px 10px rgba(0,0,0,1.00));
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #Button1
 {
    border: 1px solid #2E6DA4;
@@ -3162,7 +3082,7 @@ a:hover
    top: 126px;
    width: 122px;
    height: 26px;
-   z-index: 89;
+   z-index: 84;
 }
 #idInput
 {
@@ -3218,7 +3138,7 @@ a:hover
    top: 126px;
    width: 122px;
    height: 26px;
-   z-index: 90;
+   z-index: 85;
 }
 #wb_sepb
 {
@@ -3263,15 +3183,6 @@ a:hover
    position: absolute;
    left: 0;
    top: 0;
-}
-#wb_Image3
-{
-   position: absolute;
-   left: 221px;
-   top: 500px;
-   width: 15px;
-   height: 15px;
-   z-index: 87;
 }
 #wb_Text5
 {
@@ -3326,7 +3237,7 @@ a:hover
    width: 480px;
    visibility: hidden;
    height: 48px;
-   z-index: 101;
+   z-index: 96;
 }
 #Html4
 {
@@ -3335,15 +3246,6 @@ a:hover
    top: 0px;
    width: 22px;
    height: 21px;
-   z-index: 91;
-}
-#wb_Image4
-{
-   position: absolute;
-   left: 199px;
-   top: 501px;
-   width: 13px;
-   height: 13px;
    z-index: 86;
 }
 #sepb
@@ -3427,15 +3329,6 @@ a:hover
    height: 16px;
    z-index: 9;
 }
-#wb_Image5
-{
-   position: absolute;
-   left: 178px;
-   top: 500px;
-   width: 15px;
-   height: 15px;
-   z-index: 85;
-}
 #wb_facebookFontAwesomeIcon
 {
    position: absolute;
@@ -3497,15 +3390,6 @@ a:hover
    width: 22px;
    height: 16px;
    z-index: 5;
-}
-#wb_Image6
-{
-   position: absolute;
-   left: 154px;
-   top: 500px;
-   width: 15px;
-   height: 15px;
-   z-index: 84;
 }
 #wb_janb
 {
@@ -3578,15 +3462,6 @@ a:hover
    width: 22px;
    height: 16px;
    z-index: 11;
-}
-#wb_Image7
-{
-   position: absolute;
-   left: 132px;
-   top: 500px;
-   width: 15px;
-   height: 15px;
-   z-index: 83;
 }
 #wb_smsFontAwesomeIcon
 {
@@ -3744,7 +3619,7 @@ a:hover
    height: 41px;
    visibility: hidden;
    text-align: center;
-   z-index: 99;
+   z-index: 94;
 }
 #wb_EmbeddedPage4
 {
@@ -3753,7 +3628,7 @@ a:hover
    top: 0px;
    width: 22px;
    height: 22px;
-   z-index: 104;
+   z-index: 99;
 }
 #wb_EmbeddedPage2
 {
@@ -3762,7 +3637,7 @@ a:hover
    top: 116px;
    width: 22px;
    height: 21px;
-   z-index: 103;
+   z-index: 98;
 }
 #slider4Value
 {
@@ -3831,7 +3706,7 @@ a:hover
    height: 15px;
    visibility: hidden;
    text-align: center;
-   z-index: 92;
+   z-index: 87;
 }
 #wb_Text21
 {
@@ -4009,7 +3884,7 @@ a:hover
    height: 73px;
    visibility: hidden;
    text-align: center;
-   z-index: 100;
+   z-index: 95;
 }
 #slider2Value
 {
@@ -4082,7 +3957,7 @@ a:hover
    top: 101px;
    width: 296px;
    height: 15px;
-   z-index: 88;
+   z-index: 83;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -4153,7 +4028,7 @@ a:hover
    top: 0px;
    width: 1007px;
    height: 530px;
-   z-index: 102;
+   z-index: 97;
 }
 @media only screen and (max-width: 1008px)
 {
@@ -5943,61 +5818,6 @@ body
    font-size: 16px;
    width: 15px;
 }
-#wb_Image7
-{
-   left: 118px;
-   top: 873px;
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image6
-{
-   left: 159px;
-   top: 873px;
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image5
-{
-   left: 203px;
-   top: 873px;
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image4
-{
-   left: 245px;
-   top: 873px;
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image3
-{
-   left: 286px;
-   top: 872px;
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
 #wb_EmbeddedPage4
 {
    left: 323px;
@@ -6070,6 +5890,22 @@ body
     input[type="range"]::-moz-range-tooltip,
     input[type="range"]::-ms-tooltip {
       display: none;
+    }
+    /* Style for tel and email icons */
+    .contact-icon {
+      font-size: 20px;
+      margin-right: 5px;
+      text-decoration: none;
+      color: #333;
+      position:absolute;
+      top: 700px;
+    }
+    #emailIcon {
+      left: 150px;
+    }
+    
+    #telIcon {
+      left: 115px;
     }
       body {
       margin: 0;

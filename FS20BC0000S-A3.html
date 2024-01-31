@@ -607,29 +607,17 @@
                <div id="wb_smsFontAwesomeIcon">
                   <a href="sms:+260968084570"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a></div>
             </div>
-            <div id="wb_Image7">
-               <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><img src="images/whatsapp.png" id="Image7" alt="WhatsApp" width="45" height="45"></a></div>
-            <div id="wb_Image6">
-               <a href="http://www.facebook.com/lastadventstudio"><img src="images/facebook.png" id="Image6" alt="facebook" width="45" height="45"></a></div>
-            <div id="wb_Image5">
-               <a href="https://www.google.com/maps/?q=-15.22,28.26"><img src="images/google%20maps.png" id="Image5" alt="Google Map" width="45" height="45"></a></div>
-            <div id="wb_Image4">
-               <a href="tel:"><img src="images/call.png" id="Image4" alt="Call" width="43" height="43"></a></div>
-            <div id="wb_Image3">
-               <a href="sms:"><img src="images/mail.png" id="Image3" alt="email" width="45" height="45"></a></div>
             <div id="Html2">
-               <input type="range" id="progressbar1" min="0" max="100" disabled>
-               <span id="slider1Value">%</span>
-               <br>
-               <input type="range" id="progressbar2" min="0" max="100" disabled>
-               <span id="slider2Value"></span>
-               <br>
-               <input type="range" id="progressbar3" min="0" max="100" disabled>
-               <span id="slider3Value"></span>
-               <br>
-               <input type="range" id="progressbar4" min="0" max="100" disabled>
-               <span id="slider4Value"></span>
-               <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Form</title>
+  </head>
+<body>
+
+
                <script>               
                    let csvData = [];
                    let currentRow = 0;
@@ -641,6 +629,7 @@
                          if (xhr.status === 200) {
                            csvData = parseCSV(xhr.responseText);
                            displayRow();
+                           initContactIcons(); // Initialize icons after loading CSV
                          } else {
                            console.error('Failed to load CSV file.');
                          }
@@ -710,13 +699,7 @@
                      const totalb = document.getElementById('totalb');
                
                
-               
-               
-               
-               
-               
-               
-                     // Assuming the CSV has three columns: ID, Name, Email
+                     // Assuming the CSV has eleven columns: ID, Name, Email, PictureURL, Slider1, Slider2, Checkbox1, Checkbox2, Tel, Email
                      const rowData = csvData[currentRow];
                      idInput.value = rowData[0];
                      firstnameInput.value = rowData[1];
@@ -786,6 +769,26 @@
                      bb.checked = rowData[43] === 'true';
                      rb.checked = rowData[44] === 'true';
                      totalb.checked = rowData[45] === 'true';
+               
+               
+                     // Assuming Tel and Email are in the ninth and tenth columns
+                     telIcon.href = 'tel:' + rowData[46];
+                     emailIcon.href = 'mailto:' + rowData[47];
+                   }
+               
+                   function initContactIcons() {
+                     const telIcon = document.getElementById('telIcon');
+                     const emailIcon = document.getElementById('emailIcon');
+               
+                     telIcon.addEventListener('click', function(event) {
+                       event.preventDefault(); // Prevent default behavior for anchors
+                       window.location.href = telIcon.href;
+                     });
+               
+                     emailIcon.addEventListener('click', function(event) {
+                       event.preventDefault();
+                       window.location.href = emailIcon.href;
+                     });
                    }
                
                    function previousRow() {
@@ -805,7 +808,28 @@
                    // Load CSV data when the page loads
                    loadCSV();
                  
-               </script></div>
+               </script>
+               <input type="range" id="progressbar1" min="0" max="100" disabled>
+               <span id="slider1Value">%</span>
+               <br>
+               <input type="range" id="progressbar2" min="0" max="100" disabled>
+               <span id="slider2Value"></span>
+               <br>
+               <input type="range" id="progressbar3" min="0" max="100" disabled>
+               <span id="slider3Value"></span>
+               <br>
+               <input type="range" id="progressbar4" min="0" max="100" disabled>
+               <span id="slider4Value"></span>
+               <br>
+
+               <form id="csvForm">
+
+    <!-- Icons for tel and email -->
+                  <a href="#" id="telIcon" class="contact-icon">&#x260E;</a>
+                  <a href="#" id="emailIcon" class="contact-icon">&#x2709;</a>
+               </form>
+</body>
+</html></div>
             <input type="button" id="Button2" onclick="previousRow();return false;" name="" value="Previous Record">
             <input type="button" id="Button1" onclick="nextRow();return false;" name="" value="Next Record">
          </form>
