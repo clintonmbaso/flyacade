@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        #chat-box {
+            flex: 1;
+            overflow-y: scroll;
+            padding: 10px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .message {
+            position: relative;
+            margin-bottom: 8px;
+            padding: 8px;
+            border-radius: 5px;
+            word-wrap: break-word;
+        }
+
+        .message-content {
+            display: inline-block;
+            max-width: 80%; /* Adjust the width as needed */
+        }
+
+        .edit-delete-buttons {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .edit-button, .delete-button {
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+            margin: 2px;
+            font-size: 12px;
+            color: #555;
+            opacity: 0.7;
+        }
+
+        #input-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        #message-input {
+            flex: 1;
+            margin-right: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            resize: vertical; /* Allow vertical resizing of the textarea */
+        }
+
+        #send-button {
+            cursor: pointer;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-box"></div>
+    <div id="input-box">
+        <textarea id="message-input" placeholder="Type your message..." rows="3"></textarea>
+        <button id="send-button" onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        var username = prompt("Please enter your username:");
+
+        function sendMessage() {
+            var messageInput = document.getElementById('message-input');
+            var chatBox = document.getElementById('chat-box');
+
+            var message = messageInput.value.trim();
+
+            if (message === '') {
+                alert('Please enter a message.');
+                return;
+            }
+
+            var timestamp = new Date().toLocaleTimeString();
+            var userColor = getUserColor(username);
+            var newMessage = document.createElement('div');
+            newMessage.className = 'message';
+            newMessage.style.backgroundColor = userColor;
+            newMessage.innerHTML = `<span class="message-content" style="color: rgba(0, 0, 0, 0.8);">${timestamp} ${username}: ${message}</span>
+                                    <div class="edit-delete-buttons">
+                                        <button class="edit-button" onclick="editMessage(this)">Edit</button>
+                                        <button class="delete-button" onclick="deleteMessage(this)">Delete</button>
+                                    </div>`;
+            chatBox.appendChild(newMessage);
+
+            // Save message to local storage
+            saveMessage(timestamp, username, message, userColor);
+
+            // Clear the input field
+            messageInput.value = '';
+
+            // Scroll to the bottom to show the latest message
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function saveMessage(timestamp, username, message, userColor) {
+            // Retrieve existing messages from local storage
+            var messages = JSON.parse(localStorage.getItem('chatMessages')) || [];
+
+            // Add the new message
+            messages.push({ timestamp: timestamp, username: username, message: message, userColor: userColor });
+
+            // Save the updated messages to local storage
+            localStorage.setItem('chatMessages', JSON.stringify(messages));
+        }
+
+        function editMessage(button) {
+            var messageElement = button.parentElement.parentElement;
+            var currentMessage = messageElement.querySelector('.message-content').textContent;
+
+            var editedMessage = prompt('Edit your message:', currentMessage);
+            if (editedMessage !== null) {
+                var timestamp = new Date().toLocaleTimeString();
+                messageElement.querySelector('.message-content').innerHTML = `${timestamp} ${username}: ${editedMessage}`;
+
+                // Update the edited message in local storage
+                updateLocalStorage();
+            }
+        }
+
+        function deleteMessage(button) {
+            var messageElement = button.parentElement.parentElement;
+            messageElement.remove();
+
+            // Update local storage after deletion
+            updateLocalStorage();
+        }
+
+        function updateLocalStorage() {
+            var chatBox = document.getElementById('chat-box');
+            var messages = Array.from(chatBox.getElementsByClassName('message')).map(function(msgElement) {
+                var timestamp = msgElement.querySelector('.message-content').textContent.split(' ')[0];
+                var message = msgElement.querySelector('.message-content').textContent.slice(timestamp.length + username.length + 2).trim();
+                var userColor = msgElement.style.backgroundColor;
+                return { timestamp: timestamp, username: username, message: message, userColor: userColor };
+            });
+
+            // Save the updated messages to local storage
+            localStorage.setItem('chatMessages', JSON.stringify(messages));
+        }
+
+        function getUserColor(username) {
+            // Generate a color based on the hash of the username
+            var hash = 0;
+            for (var i = 0; i < username.length; i++) {
+                hash = username.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            var color = Math.abs(hash) % 16777215; // Limit to a hex color
+
+            // Set transparency (adjust the alpha channel, e.g., 0.8)
+            var alpha = 0.8;
+
+            return `rgba(${(color >> 16) & 255}, ${(color >> 8) & 255}, ${color & 255}, ${alpha})`;
+        }
+
+        // Load previous messages on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            var chatBox = document.getElementById('chat-box');
+            var messages = JSON.parse(localStorage.getItem('chatMessages')) || [];
+
+            // Display previous messages
+            messages.forEach(function(msg) {
+                var messageElement = document.createElement('div');
+                messageElement.className = 'message';
+                messageElement.style.backgroundColor = msg.userColor;
+                messageElement.innerHTML = `<span class="message-content" style="color: rgba(0, 0, 0, 0.8);">${msg.timestamp} ${msg.username}: ${msg.message}</span>
+                                            <div class="edit-delete-buttons">
+                                                <button class="edit-button" onclick="editMessage(this)">Edit</button>
+                                                <button class="delete-button" onclick="deleteMessage(this)">Delete</button>
+                                            </div>`;
+              chatBox.appendChild(messageElement);
+            });
+
+            // Scroll to the bottom to show the latest message
+            chatBox.scrollTop = chatBox.scrollHeight;
+        });
+    </script>
+</body>
+</html>
