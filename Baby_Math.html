@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="flyacade.css" rel="stylesheet">
-<link href="page3.css" rel="stylesheet">
+<link href="Baby_Math.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script src="jquery-ui.min.js"></script>
@@ -780,7 +780,7 @@
                   <div id="wb_linksTabMenu">
                      <ul id="linksTabMenu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                         <li><a href="./Study_Centre.html" itemprop="url"><span itemprop="name">SC</span></a></li>
-                        <li><a href="./Baby_Math.html" itemprop="url"><span itemprop="name">M</span></a></li>
+                        <li><a href="./Baby_Maths.html" itemprop="url"><span itemprop="name">M</span></a></li>
                         <li><a href="./Baby_English.html" itemprop="url"><span itemprop="name">E</span></a></li>
                         <li><a href="./Baby_Science.html" itemprop="url"><span itemprop="name">S</span></a></li>
                         <li><a href="./Baby_Social_Studies.html" itemprop="url"><span itemprop="name">S.S</span></a></li>
@@ -5756,28 +5756,44 @@ class="navigation-buttons"<input type="submit" id="Button28" onclick="navigateTo
       </div>
    </div>
    <div id="Html1">
+      <script src="https://hammerjs.github.io/dist/hammer.js"></script>
       <script>      
-          document.addEventListener("DOMContentLoaded", function () {
-              showPage(1);
-          });
+              document.addEventListener("DOMContentLoaded", function () {
+                  showPage(1);
       
-          let currentPage = 1;
+                  const pageContainer = document.getElementById('lg1');
+                  const hammer = new Hammer(pageContainer);
       
-          function navigate(direction) {
-              const pages = document.querySelectorAll('.term1');
-              pages.forEach(page => page.style.display = 'none');
+                  hammer.on('swipeleft', function () {
+                      navigate('next');
+                  });
       
-              if (direction === 'prev' && currentPage > 1) {
-                  currentPage--;
-              } else if (direction === 'next' && currentPage < pages.length) {
-                  currentPage++;
+                  hammer.on('swiperight', function () {
+                      navigate('prev');
+                  });
+              });
+      
+              let currentPage = 1;
+      
+              function navigate(direction) {
+                  const pages = document.querySelectorAll('.term1');
+                  pages.forEach(page => page.style.display = 'none');
+      
+                  if (direction === 'prev' && currentPage > 1) {
+                      currentPage--;
+                  } else if (direction === 'next' && currentPage < pages.length) {
+                      currentPage++;
+                  }
+      
+                  showPage(currentPage);
               }
       
-              showPage(currentPage);
-          }
-          function showPage(pageNumber) {
-              document.getElementById(`page${pageNumber}`).style.display = 'block';
-          }
+              function showPage(pageNumber) {
+                  const currentPageElement = document.getElementById(`page${pageNumber}`);
+                  currentPageElement.style.display = 'block';
+                  currentPageElement.style.opacity = 1;
+              }
+          
       </script></div>
 </body>
 </html>
