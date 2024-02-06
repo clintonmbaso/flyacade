@@ -1202,7 +1202,7 @@ body
 {
    background-color: #EEEEEE;
 }
-#page9
+#blog1
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1218,14 +1218,14 @@ body
    position: relative;
    width: 100%;
 }
-#page9 .blogitem
+#blog1 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page9 .blogdate
+#blog1 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1234,7 +1234,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page9 .blogsubject
+#blog1 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1243,7 +1243,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page9 .blogcomments
+#blog1 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1252,48 +1252,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page9 .blogsubject a:link, #page9 .blogsubject a:visited, #page9 .blogsubject a:hover
+#blog1 .blogsubject a:link, #blog1 .blogsubject a:visited, #blog1 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page9 .blogcomments a:link, #page9 .blogcomments a:visited, #page9 .blogcomments a:hover
+#blog1 .blogcomments a:link, #blog1 .blogcomments a:visited, #blog1 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page9 .blogcomments
+#blog1 .blogcomments
 {
    text-decoration: none;
 }
-#page9 .no-thumb
+#blog1 .no-thumb
 {
    display: none;
 }
-#page9 .blogsubject
+#blog1 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page9 .blogthumb
+#blog1 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page9 .blogthumb img
+#blog1 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page9 .pager
+#blog1 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page9 .page-number
+#blog1 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -1305,11 +1305,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page9 .active 
+#blog1 .active 
 {
    background-color: #EEEEEE;
 }
-#page10
+#blog2
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1325,14 +1325,14 @@ body
    position: relative;
    width: 100%;
 }
-#page10 .blogitem
+#blog2 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page10 .blogdate
+#blog2 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1341,7 +1341,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page10 .blogsubject
+#blog2 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1350,7 +1350,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page10 .blogcomments
+#blog2 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1359,48 +1359,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page10 .blogsubject a:link, #page10 .blogsubject a:visited, #page10 .blogsubject a:hover
+#blog2 .blogsubject a:link, #blog2 .blogsubject a:visited, #blog2 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page10 .blogcomments a:link, #page10 .blogcomments a:visited, #page10 .blogcomments a:hover
+#blog2 .blogcomments a:link, #blog2 .blogcomments a:visited, #blog2 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page10 .blogcomments
+#blog2 .blogcomments
 {
    text-decoration: none;
 }
-#page10 .no-thumb
+#blog2 .no-thumb
 {
    display: none;
 }
-#page10 .blogsubject
+#blog2 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page10 .blogthumb
+#blog2 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page10 .blogthumb img
+#blog2 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page10 .pager
+#blog2 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page10 .page-number
+#blog2 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -1412,7 +1412,7 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page10 .active 
+#blog2 .active 
 {
    background-color: #EEEEEE;
 }
@@ -1523,7 +1523,7 @@ body
 {
    background-color: #EEEEEE;
 }
-#page13
+#blog5
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1539,14 +1539,14 @@ body
    position: relative;
    width: 100%;
 }
-#page13 .blogitem
+#blog5 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page13 .blogdate
+#blog5 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1555,7 +1555,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page13 .blogsubject
+#blog5 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1564,7 +1564,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page13 .blogcomments
+#blog5 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1573,48 +1573,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page13 .blogsubject a:link, #page13 .blogsubject a:visited, #page13 .blogsubject a:hover
+#blog5 .blogsubject a:link, #blog5 .blogsubject a:visited, #blog5 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page13 .blogcomments a:link, #page13 .blogcomments a:visited, #page13 .blogcomments a:hover
+#blog5 .blogcomments a:link, #blog5 .blogcomments a:visited, #blog5 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page13 .blogcomments
+#blog5 .blogcomments
 {
    text-decoration: none;
 }
-#page13 .no-thumb
+#blog5 .no-thumb
 {
    display: none;
 }
-#page13 .blogsubject
+#blog5 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page13 .blogthumb
+#blog5 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page13 .blogthumb img
+#blog5 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page13 .pager
+#blog5 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page13 .page-number
+#blog5 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -1626,11 +1626,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page13 .active 
+#blog5 .active 
 {
    background-color: #EEEEEE;
 }
-#page14
+#blog6
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1646,14 +1646,14 @@ body
    position: relative;
    width: 100%;
 }
-#page14 .blogitem
+#blog6 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page14 .blogdate
+#blog6 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1662,7 +1662,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page14 .blogsubject
+#blog6 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1671,7 +1671,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page14 .blogcomments
+#blog6 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1680,48 +1680,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page14 .blogsubject a:link, #page14 .blogsubject a:visited, #page14 .blogsubject a:hover
+#blog6 .blogsubject a:link, #blog6 .blogsubject a:visited, #blog6 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page14 .blogcomments a:link, #page14 .blogcomments a:visited, #page14 .blogcomments a:hover
+#blog6 .blogcomments a:link, #blog6 .blogcomments a:visited, #blog6 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page14 .blogcomments
+#blog6 .blogcomments
 {
    text-decoration: none;
 }
-#page14 .no-thumb
+#blog6 .no-thumb
 {
    display: none;
 }
-#page14 .blogsubject
+#blog6 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page14 .blogthumb
+#blog6 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page14 .blogthumb img
+#blog6 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page14 .pager
+#blog6 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page14 .page-number
+#blog6 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -1733,11 +1733,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page14 .active 
+#blog6 .active 
 {
    background-color: #EEEEEE;
 }
-#page15
+#blog7
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1753,14 +1753,14 @@ body
    position: relative;
    width: 100%;
 }
-#page15 .blogitem
+#blog7 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page15 .blogdate
+#blog7 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1769,7 +1769,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page15 .blogsubject
+#blog7 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1778,7 +1778,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page15 .blogcomments
+#blog7 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1787,48 +1787,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page15 .blogsubject a:link, #page15 .blogsubject a:visited, #page15 .blogsubject a:hover
+#blog7 .blogsubject a:link, #blog7 .blogsubject a:visited, #blog7 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page15 .blogcomments a:link, #page15 .blogcomments a:visited, #page15 .blogcomments a:hover
+#blog7 .blogcomments a:link, #blog7 .blogcomments a:visited, #blog7 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page15 .blogcomments
+#blog7 .blogcomments
 {
    text-decoration: none;
 }
-#page15 .no-thumb
+#blog7 .no-thumb
 {
    display: none;
 }
-#page15 .blogsubject
+#blog7 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page15 .blogthumb
+#blog7 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page15 .blogthumb img
+#blog7 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page15 .pager
+#blog7 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page15 .page-number
+#blog7 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -1840,11 +1840,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page15 .active 
+#blog7 .active 
 {
    background-color: #EEEEEE;
 }
-#page17
+#nav1
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1860,14 +1860,14 @@ body
    position: relative;
    width: 100%;
 }
-#page17 .blogitem
+#nav1 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page17 .blogdate
+#nav1 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1876,7 +1876,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page17 .blogsubject
+#nav1 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1885,7 +1885,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page17 .blogcomments
+#nav1 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1894,48 +1894,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page17 .blogsubject a:link, #page17 .blogsubject a:visited, #page17 .blogsubject a:hover
+#nav1 .blogsubject a:link, #nav1 .blogsubject a:visited, #nav1 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page17 .blogcomments a:link, #page17 .blogcomments a:visited, #page17 .blogcomments a:hover
+#nav1 .blogcomments a:link, #nav1 .blogcomments a:visited, #nav1 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page17 .blogcomments
+#nav1 .blogcomments
 {
    text-decoration: none;
 }
-#page17 .no-thumb
+#nav1 .no-thumb
 {
    display: none;
 }
-#page17 .blogsubject
+#nav1 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page17 .blogthumb
+#nav1 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page17 .blogthumb img
+#nav1 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page17 .pager
+#nav1 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page17 .page-number
+#nav1 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -1947,11 +1947,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page17 .active 
+#nav1 .active 
 {
    background-color: #EEEEEE;
 }
-#page18
+#nav2
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -1967,14 +1967,14 @@ body
    position: relative;
    width: 100%;
 }
-#page18 .blogitem
+#nav2 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page18 .blogdate
+#nav2 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1983,7 +1983,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page18 .blogsubject
+#nav2 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -1992,7 +1992,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page18 .blogcomments
+#nav2 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2001,48 +2001,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page18 .blogsubject a:link, #page18 .blogsubject a:visited, #page18 .blogsubject a:hover
+#nav2 .blogsubject a:link, #nav2 .blogsubject a:visited, #nav2 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page18 .blogcomments a:link, #page18 .blogcomments a:visited, #page18 .blogcomments a:hover
+#nav2 .blogcomments a:link, #nav2 .blogcomments a:visited, #nav2 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page18 .blogcomments
+#nav2 .blogcomments
 {
    text-decoration: none;
 }
-#page18 .no-thumb
+#nav2 .no-thumb
 {
    display: none;
 }
-#page18 .blogsubject
+#nav2 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page18 .blogthumb
+#nav2 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page18 .blogthumb img
+#nav2 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page18 .pager
+#nav2 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page18 .page-number
+#nav2 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2054,11 +2054,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page18 .active 
+#nav2 .active 
 {
    background-color: #EEEEEE;
 }
-#page19
+#nav3
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2074,14 +2074,14 @@ body
    position: relative;
    width: 100%;
 }
-#page19 .blogitem
+#nav3 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page19 .blogdate
+#nav3 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2090,7 +2090,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page19 .blogsubject
+#nav3 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2099,7 +2099,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page19 .blogcomments
+#nav3 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2108,48 +2108,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page19 .blogsubject a:link, #page19 .blogsubject a:visited, #page19 .blogsubject a:hover
+#nav3 .blogsubject a:link, #nav3 .blogsubject a:visited, #nav3 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page19 .blogcomments a:link, #page19 .blogcomments a:visited, #page19 .blogcomments a:hover
+#nav3 .blogcomments a:link, #nav3 .blogcomments a:visited, #nav3 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page19 .blogcomments
+#nav3 .blogcomments
 {
    text-decoration: none;
 }
-#page19 .no-thumb
+#nav3 .no-thumb
 {
    display: none;
 }
-#page19 .blogsubject
+#nav3 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page19 .blogthumb
+#nav3 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page19 .blogthumb img
+#nav3 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page19 .pager
+#nav3 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page19 .page-number
+#nav3 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2161,11 +2161,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page19 .active 
+#nav3 .active 
 {
    background-color: #EEEEEE;
 }
-#page20
+#nav4
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2181,14 +2181,14 @@ body
    position: relative;
    width: 100%;
 }
-#page20 .blogitem
+#nav4 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page20 .blogdate
+#nav4 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2197,7 +2197,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page20 .blogsubject
+#nav4 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2206,7 +2206,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page20 .blogcomments
+#nav4 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2215,48 +2215,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page20 .blogsubject a:link, #page20 .blogsubject a:visited, #page20 .blogsubject a:hover
+#nav4 .blogsubject a:link, #nav4 .blogsubject a:visited, #nav4 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page20 .blogcomments a:link, #page20 .blogcomments a:visited, #page20 .blogcomments a:hover
+#nav4 .blogcomments a:link, #nav4 .blogcomments a:visited, #nav4 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page20 .blogcomments
+#nav4 .blogcomments
 {
    text-decoration: none;
 }
-#page20 .no-thumb
+#nav4 .no-thumb
 {
    display: none;
 }
-#page20 .blogsubject
+#nav4 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page20 .blogthumb
+#nav4 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page20 .blogthumb img
+#nav4 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page20 .pager
+#nav4 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page20 .page-number
+#nav4 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2268,11 +2268,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page20 .active 
+#nav4 .active 
 {
    background-color: #EEEEEE;
 }
-#page11
+#blog3
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2288,14 +2288,14 @@ body
    position: relative;
    width: 100%;
 }
-#page11 .blogitem
+#blog3 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page11 .blogdate
+#blog3 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2304,7 +2304,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page11 .blogsubject
+#blog3 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2313,7 +2313,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page11 .blogcomments
+#blog3 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2322,48 +2322,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page11 .blogsubject a:link, #page11 .blogsubject a:visited, #page11 .blogsubject a:hover
+#blog3 .blogsubject a:link, #blog3 .blogsubject a:visited, #blog3 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page11 .blogcomments a:link, #page11 .blogcomments a:visited, #page11 .blogcomments a:hover
+#blog3 .blogcomments a:link, #blog3 .blogcomments a:visited, #blog3 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page11 .blogcomments
+#blog3 .blogcomments
 {
    text-decoration: none;
 }
-#page11 .no-thumb
+#blog3 .no-thumb
 {
    display: none;
 }
-#page11 .blogsubject
+#blog3 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page11 .blogthumb
+#blog3 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page11 .blogthumb img
+#blog3 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page11 .pager
+#blog3 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page11 .page-number
+#blog3 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2375,11 +2375,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page11 .active 
+#blog3 .active 
 {
    background-color: #EEEEEE;
 }
-#page16
+#blog8
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2395,14 +2395,14 @@ body
    position: relative;
    width: 100%;
 }
-#page16 .blogitem
+#blog8 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page16 .blogdate
+#blog8 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2411,7 +2411,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page16 .blogsubject
+#blog8 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2420,7 +2420,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page16 .blogcomments
+#blog8 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2429,48 +2429,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page16 .blogsubject a:link, #page16 .blogsubject a:visited, #page16 .blogsubject a:hover
+#blog8 .blogsubject a:link, #blog8 .blogsubject a:visited, #blog8 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page16 .blogcomments a:link, #page16 .blogcomments a:visited, #page16 .blogcomments a:hover
+#blog8 .blogcomments a:link, #blog8 .blogcomments a:visited, #blog8 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page16 .blogcomments
+#blog8 .blogcomments
 {
    text-decoration: none;
 }
-#page16 .no-thumb
+#blog8 .no-thumb
 {
    display: none;
 }
-#page16 .blogsubject
+#blog8 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page16 .blogthumb
+#blog8 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page16 .blogthumb img
+#blog8 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page16 .pager
+#blog8 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page16 .page-number
+#blog8 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2482,11 +2482,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page16 .active 
+#blog8 .active 
 {
    background-color: #EEEEEE;
 }
-#page12
+#blog4
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2502,14 +2502,14 @@ body
    position: relative;
    width: 100%;
 }
-#page12 .blogitem
+#blog4 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page12 .blogdate
+#blog4 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2518,7 +2518,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page12 .blogsubject
+#blog4 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2527,7 +2527,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page12 .blogcomments
+#blog4 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2536,48 +2536,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page12 .blogsubject a:link, #page12 .blogsubject a:visited, #page12 .blogsubject a:hover
+#blog4 .blogsubject a:link, #blog4 .blogsubject a:visited, #blog4 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page12 .blogcomments a:link, #page12 .blogcomments a:visited, #page12 .blogcomments a:hover
+#blog4 .blogcomments a:link, #blog4 .blogcomments a:visited, #blog4 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page12 .blogcomments
+#blog4 .blogcomments
 {
    text-decoration: none;
 }
-#page12 .no-thumb
+#blog4 .no-thumb
 {
    display: none;
 }
-#page12 .blogsubject
+#blog4 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page12 .blogthumb
+#blog4 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page12 .blogthumb img
+#blog4 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page12 .pager
+#blog4 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page12 .page-number
+#blog4 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2589,11 +2589,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page12 .active 
+#blog4 .active 
 {
    background-color: #EEEEEE;
 }
-#page21
+#nav5
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2609,14 +2609,14 @@ body
    position: relative;
    width: 100%;
 }
-#page21 .blogitem
+#nav5 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page21 .blogdate
+#nav5 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2625,7 +2625,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page21 .blogsubject
+#nav5 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2634,7 +2634,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page21 .blogcomments
+#nav5 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2643,48 +2643,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page21 .blogsubject a:link, #page21 .blogsubject a:visited, #page21 .blogsubject a:hover
+#nav5 .blogsubject a:link, #nav5 .blogsubject a:visited, #nav5 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page21 .blogcomments a:link, #page21 .blogcomments a:visited, #page21 .blogcomments a:hover
+#nav5 .blogcomments a:link, #nav5 .blogcomments a:visited, #nav5 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page21 .blogcomments
+#nav5 .blogcomments
 {
    text-decoration: none;
 }
-#page21 .no-thumb
+#nav5 .no-thumb
 {
    display: none;
 }
-#page21 .blogsubject
+#nav5 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page21 .blogthumb
+#nav5 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page21 .blogthumb img
+#nav5 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page21 .pager
+#nav5 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page21 .page-number
+#nav5 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2696,11 +2696,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page21 .active 
+#nav5 .active 
 {
    background-color: #EEEEEE;
 }
-#page24
+#nav8
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2716,14 +2716,14 @@ body
    position: relative;
    width: 100%;
 }
-#page24 .blogitem
+#nav8 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page24 .blogdate
+#nav8 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2732,7 +2732,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page24 .blogsubject
+#nav8 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2741,7 +2741,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page24 .blogcomments
+#nav8 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2750,48 +2750,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page24 .blogsubject a:link, #page24 .blogsubject a:visited, #page24 .blogsubject a:hover
+#nav8 .blogsubject a:link, #nav8 .blogsubject a:visited, #nav8 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page24 .blogcomments a:link, #page24 .blogcomments a:visited, #page24 .blogcomments a:hover
+#nav8 .blogcomments a:link, #nav8 .blogcomments a:visited, #nav8 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page24 .blogcomments
+#nav8 .blogcomments
 {
    text-decoration: none;
 }
-#page24 .no-thumb
+#nav8 .no-thumb
 {
    display: none;
 }
-#page24 .blogsubject
+#nav8 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page24 .blogthumb
+#nav8 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page24 .blogthumb img
+#nav8 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page24 .pager
+#nav8 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page24 .page-number
+#nav8 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2803,11 +2803,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page24 .active 
+#nav8 .active 
 {
    background-color: #EEEEEE;
 }
-#page22
+#nav6
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2823,14 +2823,14 @@ body
    position: relative;
    width: 100%;
 }
-#page22 .blogitem
+#nav6 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page22 .blogdate
+#nav6 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2839,7 +2839,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page22 .blogsubject
+#nav6 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2848,7 +2848,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page22 .blogcomments
+#nav6 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2857,48 +2857,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page22 .blogsubject a:link, #page22 .blogsubject a:visited, #page22 .blogsubject a:hover
+#nav6 .blogsubject a:link, #nav6 .blogsubject a:visited, #nav6 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page22 .blogcomments a:link, #page22 .blogcomments a:visited, #page22 .blogcomments a:hover
+#nav6 .blogcomments a:link, #nav6 .blogcomments a:visited, #nav6 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page22 .blogcomments
+#nav6 .blogcomments
 {
    text-decoration: none;
 }
-#page22 .no-thumb
+#nav6 .no-thumb
 {
    display: none;
 }
-#page22 .blogsubject
+#nav6 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page22 .blogthumb
+#nav6 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page22 .blogthumb img
+#nav6 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page22 .pager
+#nav6 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page22 .page-number
+#nav6 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -2910,11 +2910,11 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page22 .active 
+#nav6 .active 
 {
    background-color: #EEEEEE;
 }
-#page23
+#nav7
 {
    background-color: rgba(255,255,255,0.78);
    background-image: none;
@@ -2930,14 +2930,14 @@ body
    position: relative;
    width: 100%;
 }
-#page23 .blogitem
+#nav7 .blogitem
 {
    margin-bottom: 13px;
    margin-bottom: 6px;
    padding: 5px;
    text-align: left;
 }
-#page23 .blogdate
+#nav7 .blogdate
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2946,7 +2946,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page23 .blogsubject
+#nav7 .blogsubject
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2955,7 +2955,7 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page23 .blogcomments
+#nav7 .blogcomments
 {
    font-family: Tahoma;
    font-weight: bold;
@@ -2964,48 +2964,48 @@ body
    font-style: normal;
    text-decoration: none;
 }
-#page23 .blogsubject a:link, #page23 .blogsubject a:visited, #page23 .blogsubject a:hover
+#nav7 .blogsubject a:link, #nav7 .blogsubject a:visited, #nav7 .blogsubject a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page23 .blogcomments a:link, #page23 .blogcomments a:visited, #page23 .blogcomments a:hover
+#nav7 .blogcomments a:link, #nav7 .blogcomments a:visited, #nav7 .blogcomments a:hover
 {
    color: inherit;
    text-decoration: inherit;
 }
-#page23 .blogcomments
+#nav7 .blogcomments
 {
    text-decoration: none;
 }
-#page23 .no-thumb
+#nav7 .no-thumb
 {
    display: none;
 }
-#page23 .blogsubject
+#nav7 .blogsubject
 {
    display: block;
    margin: 0;
    padding: 0;
 }
-#page23 .blogthumb
+#nav7 .blogthumb
 {
    margin: 0 0 5px 0;
    float: right;
    padding: 0 5px 0 0;
 }
-#page23 .blogthumb img
+#nav7 .blogthumb img
 {
    border-width: 0px;
    width: 120px;
    height: auto;
    margin: 0px 0px 0px 0px;
 }
-#page23 .pager
+#nav7 .pager
 {
    margin: 2px 0px 2px 0px;
 }
-#page23 .page-number
+#nav7 .page-number
 {
    font-family: Arial;
    font-weight: normal;
@@ -3017,7 +3017,7 @@ body
    border: 1px #EEEEEE solid;
    margin-right: 2px;
 }
-#page23 .active 
+#nav7 .active 
 {
    background-color: #EEEEEE;
 }
@@ -4598,21 +4598,23 @@ body
 {
    outline: 0;
 }
-#Html3
+#nav1
 {
-   position: absolute;
-   left: 320px;
-   top: 196px;
-   width: 39px;
-   height: 29px;
-   z-index: 93;
+   overflow: hidden;
 }
 #prevButton3
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 48;
+   z-index: 51;
+}
+#Html3
+{
+   display: inline-block;
+   width: 218px;
+   height: 29px;
+   z-index: 49;
 }
 #page8
 {
@@ -4624,9 +4626,9 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 79;
+   z-index: 82;
 }
-#page9
+#nav2
 {
    overflow: hidden;
 }
@@ -4635,7 +4637,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 36;
+   z-index: 38;
 }
 #Button34
 {
@@ -4658,16 +4660,7 @@ body
    width: 100%;
    z-index: 3;
 }
-#Html1
-{
-   position: absolute;
-   left: 320px;
-   top: 84px;
-   width: 39px;
-   height: 29px;
-   z-index: 91;
-}
-#page22
+#nav3
 {
    overflow: hidden;
 }
@@ -4676,7 +4669,14 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 24;
+   z-index: 25;
+}
+#Html1
+{
+   display: inline-block;
+   width: 222px;
+   height: 29px;
+   z-index: 23;
 }
 #Button35
 {
@@ -4706,11 +4706,7 @@ body
    height: auto;
    z-index: 1;
 }
-#page23
-{
-   overflow: hidden;
-}
-#page19
+#nav4
 {
    overflow: hidden;
 }
@@ -4718,19 +4714,11 @@ body
 {
    text-align: right;
 }
-#page20
+#nav5
 {
    overflow: hidden;
 }
-#page18
-{
-   overflow: hidden;
-}
-#page21
-{
-   overflow: hidden;
-}
-#page17
+#nav6
 {
    overflow: hidden;
 }
@@ -4744,9 +4732,13 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 78;
+   z-index: 81;
 }
-#page16
+#nav7
+{
+   overflow: hidden;
+}
+#blog8
 {
    overflow: hidden;
 }
@@ -4754,7 +4746,7 @@ body
 {
    overflow: hidden;
 }
-#page15
+#nav8
 {
    overflow: hidden;
 }
@@ -4768,13 +4760,9 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 81;
+   z-index: 84;
 }
-#page24
-{
-   overflow: hidden;
-}
-#page14
+#blog7
 {
    overflow: hidden;
 }
@@ -4797,11 +4785,11 @@ body
    text-align: center;
    z-index: 13;
 }
-#page13
+#blog6
 {
    overflow: hidden;
 }
-#page12
+#blog5
 {
    overflow: hidden;
 }
@@ -4815,7 +4803,7 @@ body
    width: 100%;
    z-index: 2;
 }
-#page11
+#blog4
 {
    overflow: hidden;
 }
@@ -4828,7 +4816,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 25;
+   z-index: 26;
 }
 #wb_IconFont2
 {
@@ -4838,7 +4826,7 @@ body
    text-align: center;
    z-index: 0;
 }
-#page10
+#blog3
 {
    overflow: hidden;
 }
@@ -4847,7 +4835,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 37;
+   z-index: 39;
 }
 #page3
 {
@@ -4859,23 +4847,22 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 77;
+   z-index: 80;
 }
 #nextButton3
 {
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 49;
+   z-index: 52;
 }
-#Html2
+#blog2
 {
-   position: absolute;
-   left: 320px;
-   top: 138px;
-   width: 39px;
-   height: 29px;
-   z-index: 92;
+   overflow: hidden;
+}
+#blog1
+{
+   overflow: hidden;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -4883,7 +4870,14 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 80;
+   z-index: 83;
+}
+#Html2
+{
+   display: inline-block;
+   width: 213px;
+   height: 29px;
+   z-index: 36;
 }
 @media only screen and (max-width: 969px)
 {
@@ -5303,79 +5297,79 @@ body
 {
    display: block;
 }
-#page9
+#blog1
 {
    visibility: visible;
    display: block;
 }
-#page9
+#blog1
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page9 .blogdate
+#blog1 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page9 .blogsubject
+#blog1 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page9 .blogcomments
+#blog1 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page9 .page-number
+#blog1 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page9 .blogcolumn
+#blog1 .blogcolumn
 {
    width: 100%;
 }
-#page9 .visible-col1
+#blog1 .visible-col1
 {
    display: block;
 }
-#page10
+#blog2
 {
    visibility: visible;
    display: block;
 }
-#page10
+#blog2
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page10 .blogdate
+#blog2 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page10 .blogsubject
+#blog2 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page10 .blogcomments
+#blog2 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page10 .page-number
+#blog2 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page10 .blogcolumn
+#blog2 .blogcolumn
 {
    width: 100%;
 }
-#page10 .visible-col1
+#blog2 .visible-col1
 {
    display: block;
 }
@@ -5417,535 +5411,535 @@ body
 {
    display: block;
 }
-#page13
+#blog5
 {
    visibility: visible;
    display: block;
 }
-#page13
+#blog5
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page13 .blogdate
+#blog5 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page13 .blogsubject
+#blog5 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page13 .blogcomments
+#blog5 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page13 .page-number
+#blog5 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page13 .blogcolumn
+#blog5 .blogcolumn
 {
    width: 100%;
 }
-#page13 .visible-col1
+#blog5 .visible-col1
 {
    display: block;
 }
-#page14
+#blog6
 {
    visibility: visible;
    display: block;
 }
-#page14
+#blog6
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page14 .blogdate
+#blog6 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page14 .blogsubject
+#blog6 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page14 .blogcomments
+#blog6 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page14 .page-number
+#blog6 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page14 .blogcolumn
+#blog6 .blogcolumn
 {
    width: 100%;
 }
-#page14 .visible-col1
+#blog6 .visible-col1
 {
    display: block;
 }
-#page15
+#blog7
 {
    visibility: visible;
    display: block;
 }
-#page15
+#blog7
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page15 .blogdate
+#blog7 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page15 .blogsubject
+#blog7 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page15 .blogcomments
+#blog7 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page15 .page-number
+#blog7 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page15 .blogcolumn
+#blog7 .blogcolumn
 {
    width: 100%;
 }
-#page15 .visible-col1
+#blog7 .visible-col1
 {
    display: block;
 }
-#page17
+#nav1
 {
    visibility: visible;
    display: block;
 }
-#page17
+#nav1
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page17 .blogdate
+#nav1 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page17 .blogsubject
+#nav1 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page17 .blogcomments
+#nav1 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page17 .page-number
+#nav1 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page17 .blogcolumn
+#nav1 .blogcolumn
 {
    width: 100%;
 }
-#page17 .visible-col1
+#nav1 .visible-col1
 {
    display: block;
 }
-#page18
+#nav2
 {
    visibility: visible;
    display: block;
 }
-#page18
+#nav2
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page18 .blogdate
+#nav2 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page18 .blogsubject
+#nav2 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page18 .blogcomments
+#nav2 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page18 .page-number
+#nav2 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page18 .blogcolumn
+#nav2 .blogcolumn
 {
    width: 100%;
 }
-#page18 .visible-col1
+#nav2 .visible-col1
 {
    display: block;
 }
-#page19
+#nav3
 {
    visibility: visible;
    display: block;
 }
-#page19
+#nav3
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page19 .blogdate
+#nav3 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page19 .blogsubject
+#nav3 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page19 .blogcomments
+#nav3 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page19 .page-number
+#nav3 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page19 .blogcolumn
+#nav3 .blogcolumn
 {
    width: 100%;
 }
-#page19 .visible-col1
+#nav3 .visible-col1
 {
    display: block;
 }
-#page20
+#nav4
 {
    visibility: visible;
    display: block;
 }
-#page20
+#nav4
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page20 .blogdate
+#nav4 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page20 .blogsubject
+#nav4 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page20 .blogcomments
+#nav4 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page20 .page-number
+#nav4 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page20 .blogcolumn
+#nav4 .blogcolumn
 {
    width: 100%;
 }
-#page20 .visible-col1
+#nav4 .visible-col1
 {
    display: block;
 }
-#page11
+#blog3
 {
    visibility: visible;
    display: block;
 }
-#page11
+#blog3
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page11 .blogdate
+#blog3 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page11 .blogsubject
+#blog3 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page11 .blogcomments
+#blog3 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page11 .page-number
+#blog3 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page11 .blogcolumn
+#blog3 .blogcolumn
 {
    width: 100%;
 }
-#page11 .visible-col1
+#blog3 .visible-col1
 {
    display: block;
 }
-#page16
+#blog8
 {
    visibility: visible;
    display: block;
 }
-#page16
+#blog8
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page16 .blogdate
+#blog8 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page16 .blogsubject
+#blog8 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page16 .blogcomments
+#blog8 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page16 .page-number
+#blog8 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page16 .blogcolumn
+#blog8 .blogcolumn
 {
    width: 100%;
 }
-#page16 .visible-col1
+#blog8 .visible-col1
 {
    display: block;
 }
-#page12
+#blog4
 {
    visibility: visible;
    display: block;
 }
-#page12
+#blog4
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page12 .blogdate
+#blog4 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page12 .blogsubject
+#blog4 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page12 .blogcomments
+#blog4 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page12 .page-number
+#blog4 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page12 .blogcolumn
+#blog4 .blogcolumn
 {
    width: 100%;
 }
-#page12 .visible-col1
+#blog4 .visible-col1
 {
    display: block;
 }
-#page21
+#nav5
 {
    visibility: visible;
    display: block;
 }
-#page21
+#nav5
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page21 .blogdate
+#nav5 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page21 .blogsubject
+#nav5 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page21 .blogcomments
+#nav5 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page21 .page-number
+#nav5 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page21 .blogcolumn
+#nav5 .blogcolumn
 {
    width: 100%;
 }
-#page21 .visible-col1
+#nav5 .visible-col1
 {
    display: block;
 }
-#page24
+#nav8
 {
    visibility: visible;
    display: block;
 }
-#page24
+#nav8
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page24 .blogdate
+#nav8 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page24 .blogsubject
+#nav8 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page24 .blogcomments
+#nav8 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page24 .page-number
+#nav8 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page24 .blogcolumn
+#nav8 .blogcolumn
 {
    width: 100%;
 }
-#page24 .visible-col1
+#nav8 .visible-col1
 {
    display: block;
 }
-#page22
+#nav6
 {
    visibility: visible;
    display: block;
 }
-#page22
+#nav6
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page22 .blogdate
+#nav6 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page22 .blogsubject
+#nav6 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page22 .blogcomments
+#nav6 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page22 .page-number
+#nav6 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page22 .blogcolumn
+#nav6 .blogcolumn
 {
    width: 100%;
 }
-#page22 .visible-col1
+#nav6 .visible-col1
 {
    display: block;
 }
-#page23
+#nav7
 {
    visibility: visible;
    display: block;
 }
-#page23
+#nav7
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page23 .blogdate
+#nav7 .blogdate
 {
    font-family: Tahoma;
    font-size: 11px;
 }
-#page23 .blogsubject
+#nav7 .blogsubject
 {
    font-family: Tahoma;
    font-size: 13px;
 }
-#page23 .blogcomments
+#nav7 .blogcomments
 {
    font-family: "Times New Roman";
    font-size: 11px;
 }
-#page23 .page-number
+#nav7 .page-number
 {
    font-family: Arial;
    font-size: 13px;
 }
-#page23 .blogcolumn
+#nav7 .blogcolumn
 {
    width: 100%;
 }
-#page23 .visible-col1
+#nav7 .visible-col1
 {
    display: block;
 }
@@ -6767,30 +6761,24 @@ body
 }
 #Html1
 {
-   left: 320px;
-   top: 84px;
-   width: 39px;
+   width: 222px;
    height: 29px;
    visibility: visible;
-   display: inline;
+   display: inline-block;
 }
 #Html2
 {
-   left: 320px;
-   top: 138px;
-   width: 39px;
+   width: 213px;
    height: 29px;
    visibility: visible;
-   display: inline;
+   display: inline-block;
 }
 #Html3
 {
-   left: 320px;
-   top: 196px;
-   width: 39px;
+   width: 218px;
    height: 29px;
    visibility: visible;
-   display: inline;
+   display: inline-block;
 }
 #prevButton3
 {
