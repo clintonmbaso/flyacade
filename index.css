@@ -6880,8 +6880,8 @@ body
 #wb_linksTabMenu
 {
    display: inline-block;
-   width: 284px;
-   height: 34px;
+   width: 286px;
+   height: 36px;
    z-index: 40;
    overflow: hidden;
 }
@@ -7252,7 +7252,7 @@ body
    top: 0px;
    width: 22px;
    height: 22px;
-   z-index: 319;
+   z-index: 318;
 }
 #wb_EmbeddedPage4
 {
@@ -10648,7 +10648,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 38px;
+   width: 46px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -10657,7 +10657,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 38px;
+   width: 46px;
    height: 41px;
 }
 #menuPanel .line:first-child
