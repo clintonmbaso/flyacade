@@ -88,56 +88,71 @@
     <div id="colorName"></div>
     <div id="options"></div>
     <div id="score" class="score">Score: 0</div>
+    <div id="levelNotification" style="display: none;"></div>
+  </div>
   </div>
   
   <script>
-    const colors = ['red', 'yellow', 'green', 'blue', 'black', 'grey', 'white'];
-    const shapes = ['square', 'rectangle', 'circle', 'oval', 'triangle', 'crescent', 'star', 'diamond'];
+    const primaryColors = ['red', 'yellow', 'blue'];
+    const secondaryColors = ['orange', 'green', 'purple'];
+    const tertiaryColors = ['cyan', 'magenta', 'lime', 'pink'];
+
+    const levels = [
+      { name: 'Primary Colors', options: 2, colors: primaryColors },
+      { name: 'Secondary Colors', options: 3, colors: secondaryColors },
+      { name: 'Tertiary Colors', options: 4, colors: tertiaryColors }
+      // Add more levels as needed
+    ];
+
+    let currentLevel = 0;
     let currentColor;
-    let currentShape;
     let score = 0;
 
     function startGame() {
-      currentColor = colors[Math.floor(Math.random() * colors.length)];
-      currentShape = shapes[Math.floor(Math.random() * shapes.length)];
+      const level = levels[currentLevel];
+      const numOptions = level.options;
+      const colorsSubset = level.colors;
+
+      currentColor = colorsSubset[Math.floor(Math.random() * colorsSubset.length)];
 
       document.getElementById('canvas').style.backgroundColor = currentColor;
       document.getElementById('colorName').textContent = '';
 
-      // Set shape class
-      const shapeElement = document.getElementById('shape');
-      shapeElement.className = currentShape;
-
-      // Generate three closely related options
       const options = [currentColor];
-      while (options.length < 4) {
-        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      while (options.length < numOptions) {
+        const randomColor = colorsSubset[Math.floor(Math.random() * colorsSubset.length)];
         if (!options.includes(randomColor)) {
           options.push(randomColor);
         }
       }
-
-      // Shuffle options
       options.sort(() => Math.random() - 0.5);
 
-      // Display options
       document.getElementById('options').innerHTML = options.map(color =>
         `<button class="colorButton" onclick="checkColor('${color}')">${color}</button>`
       ).join('');
+
+      // Display level notification
+      document.getElementById('levelNotification').textContent = `Entering ${level.name} level`;
+      document.getElementById('levelNotification').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('levelNotification').style.display = 'none';
+      }, 2000); // Hide after 2 seconds
     }
 
     function checkColor(color) {
       if (color === currentColor) {
-        if (currentShape === 'square') {
-          score += 2;
-        } else {
-          score += 1;
+        score += 1;
+        if (score >= 10 && currentLevel < levels.length - 1) {
+          currentLevel++;
+          score = 0; // Reset score for the new level
+          startGame(); // Start the next level immediately
         }
       } else {
         if (score > 0) {
           score -= 1;
         }
       }
+
       updateScore();
       setTimeout(startGame, 1000);
     }
@@ -147,6 +162,9 @@
     }
 
     startGame();
+  </script>
+</body>
+</html>
   </script>
 </body>
 </html>
