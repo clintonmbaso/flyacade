@@ -1,0 +1,85 @@
+<!-- search.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search CSV</title>
+</head>
+<body>
+
+  <script>
+    let csvData = [];
+
+    function loadCSV() {
+      const xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          if (xhr.status === 200) {
+            csvData = parseCSV(xhr.responseText);
+          } else {
+            console.error('Failed to load CSV file.');
+          }
+        }
+      };
+      xhr.open('GET', 'flyacade.csv', true);
+      xhr.send();
+    }
+
+    function parseCSV(content) {
+      const rows = content.split('\n');
+      return rows.map(row => row.split(','));
+    }
+
+    function searchRow() {
+      const searchCriterion = document.getElementById('searchCriterion').value;
+      const searchValue = document.getElementById('searchValue').value;
+
+      // Assuming the first row contains the column headers (ID, Name, Email)
+      const columnIndex = csvData[0].indexOf(searchCriterion);
+
+      if (columnIndex !== -1) {
+        const row = csvData.find(data => data[columnIndex] === searchValue);
+
+        if (row) {
+			
+			  const classPicLink = row[csvData[4].indexOf('classpic')];
+			  const learnerPicLink = row[csvData[5].indexOf('learnerpic')];
+			  const teacherPicLink = row[csvData[6].indexOf('teacherpic')];
+			  const parentPicLink = row[csvData[9].indexOf('parentpic')];
+			
+          // Redirect to the navigation page with search result as URL parameters
+          window.location.href = `individual.html?id=${row[0]}&name=${row[1]}&surname=${row[2]}&classes=${row[3]}&teacher_title=${row[7]}&teachers=${row[8]}&phones=${row[10]}&parent_title=${row[11]}&parent_name=${row[12]}&type_Input=${row[13]}&statuses=${row[14]}&dob_Input=${row[15]}&doe_Input=${row[16]}&email_Input=${row[17]}&term_1=${row[18]}&term_2=${row[19]}&term_3=${row[20]}&totals=${row[48]}&classpic=${encodeURIComponent(classPicLink)}&learnerpic=${encodeURIComponent(learnerPicLink)}&teacherpic=${encodeURIComponent(teacherPicLink)}&parentpic=${encodeURIComponent(parentPicLink)}`;
+        } else {
+          alert('No matching row found.');
+        }
+      } else {
+        alert('Invalid search criterion.');
+      }
+    }
+
+    // Load CSV data when the page loads
+    loadCSV();
+  </script>
+
+  <form id="searchForm">
+    <label for="searchCriterion">Search by:</label>
+    <select id="searchCriterion">
+      <option value="idInput">ID</option>
+      <option value="firstnameInput">First Name</option>
+      <option value="lastnameInput">last Name</option>
+    </select>
+    <br>
+    <label for="searchValue">Search Value:</label>
+    <input type="text" id="searchValue">
+    <br>
+    <button type="button" onclick="searchRow()">Search</button>
+  </form>
+
+</body>
+</html>
+
+
+
+
