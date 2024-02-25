@@ -5271,11 +5271,11 @@ body
 }
 #lg1_page7 .blogcolumn
 {
-   width: 100%;
+   width: %;
 }
 #lg1_page7 .visible-col1
 {
-   display: block;
+   display: none;
 }
 #lg1_page8
 {
@@ -5309,11 +5309,11 @@ body
 }
 #lg1_page8 .blogcolumn
 {
-   width: 100%;
+   width: %;
 }
 #lg1_page8 .visible-col1
 {
-   display: block;
+   display: none;
 }
 #lg2_page1
 {
