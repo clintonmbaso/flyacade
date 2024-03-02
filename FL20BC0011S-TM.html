@@ -14,46 +14,6 @@
 <link href="FL20BC0011S-TM.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="skrollr.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
-<script src="wwb18.min.js"></script>
-<script>   
-   document.addEventListener('DOMContentLoaded', function(event)
-   {
-      var progressbar_html = document.querySelector('#progressbar_html .progress-bar');
-      var progressbar_html_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar_html_observer.observe(progressbar_html);
-      var Progressbar1 = document.querySelector('#Progressbar1 .progress-bar');
-      var Progressbar1_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      Progressbar1_observer.observe(Progressbar1);
-      var Progressbar2 = document.querySelector('#Progressbar2 .progress-bar');
-      var Progressbar2_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      Progressbar2_observer.observe(Progressbar2);
-      var Progressbar3 = document.querySelector('#Progressbar3 .progress-bar');
-      var Progressbar3_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      Progressbar3_observer.observe(Progressbar3);
-   });
-</script>
 <script>   
    $(document).ready(function()
    {
@@ -62,12 +22,6 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
-      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
-      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
-      {
-         event.preventDefault();
-         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
-      });
    });
 </script>
     <script>   
@@ -497,77 +451,67 @@
       <input type="text" id="classdescription" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
       <div id="wb_Form1">
          <form name="Form1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="Form1">
-            <div id="wb_Checkbox4">
-               <input type="checkbox" id="Checkbox4" name="Checkbox4" value="on" disabled><label for="Checkbox4"></label></div>
+            <div id="wb_rb">
+               <input type="checkbox" id="rb" name="Checkbox4" value="on" disabled><label for="rb"></label></div>
             <div id="wb_Text27">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">R</span></div>
-            <div id="wb_Checkbox9">
-               <input type="checkbox" id="Checkbox9" name="Checkbox9" value="on" disabled><label for="Checkbox9"></label></div>
+            <div id="wb_t1b">
+               <input type="checkbox" id="t1b" name="Checkbox9" value="on" disabled><label for="t1b"></label></div>
             <div id="wb_Text26">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">T</span></div>
-            <div id="wb_Checkbox14">
-               <input type="checkbox" id="Checkbox14" name="Checkbox14" value="on" disabled><label for="Checkbox14"></label></div>
-            <div id="wb_Checkbox17">
-               <input type="checkbox" id="Checkbox17" name="Checkbox17" value="on" disabled><label for="Checkbox17"></label></div>
-            <div id="wb_Checkbox10">
-               <input type="checkbox" id="Checkbox10" name="Checkbox10" value="on" disabled><label for="Checkbox10"></label></div>
+            <div id="wb_t2b">
+               <input type="checkbox" id="t2b" name="Checkbox14" value="on" disabled><label for="t2b"></label></div>
+            <div id="wb_t3b">
+               <input type="checkbox" id="t3b" name="Checkbox17" value="on" disabled><label for="t3b"></label></div>
+            <div id="wb_s1b">
+               <input type="checkbox" id="s1b" name="Checkbox10" value="on" disabled><label for="s1b"></label></div>
             <div id="wb_Text25">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">S</span></div>
-            <div id="wb_Checkbox13">
-               <input type="checkbox" id="Checkbox13" name="Checkbox13" value="on" disabled><label for="Checkbox13"></label></div>
-            <div id="wb_Checkbox16">
-               <input type="checkbox" id="Checkbox16" name="Checkbox16" value="on" disabled><label for="Checkbox16"></label></div>
+            <div id="wb_s2b">
+               <input type="checkbox" id="s2b" name="Checkbox13" value="on" disabled><label for="s2b"></label></div>
+            <div id="wb_s3b">
+               <input type="checkbox" id="s3b" name="Checkbox16" value="on" disabled><label for="s3b"></label></div>
             <div id="wb_Text10">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">B</span></div>
-            <a href="#" onclick="showPopup('Avian Aces', 'Recognizing and celebrating the excellence of students, likening their achievements to the mastery of aces among the avian community.', 'images/grade_5.jpg');return false;">
-               <picture id="wb_classpic">
-                  <source media="(max-width:1008px)" srcset="images/grade_5.jpg">
-                  <img src="images/grade_5.jpg" loading="lazy" id="classpic" alt="" width="155" height="103">
-               </picture>
-            </a>
-            <div id="wb_Checkbox11">
-               <input type="checkbox" id="Checkbox11" name="Checkbox11" value="on" disabled><label for="Checkbox11"></label></div>
-            <input type="text" id="parentname" name="Editbox2" value="Mbewe" readonly autocomplete="off" spellcheck="false" placeholder="Parent Name">
+            <picture id="wb_classpic">
+               <source media="(max-width:1008px)" srcset="">
+               <img src="images/avatar_bw.jpg" loading="lazy" id="classpic" alt="" width="104" height="104">
+            </picture>
+            <div id="wb_bb">
+               <input type="checkbox" id="bb" name="Checkbox11" value="on" disabled><label for="bb"></label></div>
+            <input type="text" id="parentname" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Parent Name">
             <div id="wb_term1b">
-               <input type="checkbox" id="term1b" name="Checkbox1" value="on" checked disabled><label for="term1b"></label></div>
+               <input type="checkbox" id="term1b" name="Checkbox1" value="on" disabled><label for="term1b"></label></div>
             <div id="wb_term2b">
                <input type="checkbox" id="term2b" name="Checkbox2" value="on" disabled><label for="term2b"></label></div>
             <div id="wb_term3b">
                <input type="checkbox" id="term3b" name="Checkbox3" value="on" disabled><label for="term3b"></label></div>
             <div id="wb_totalb">
                <input type="checkbox" id="totalb" name="Checkbox8" value="on" disabled><label for="totalb"></label></div>
-            <input type="text" id="type" name="learners_id" value="Kabwe Branch" readonly autocomplete="off" spellcheck="false" placeholder="Enrolment Status">
+            <input type="text" id="typeInput" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="Enrolment Status">
             <div id="wb_Text31">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">2024</span></div>
-            <input type="text" id="phone" onclick="window.location.href='sms:+260979528111';return false;" name="Editbox2" value="+260979528111" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
-            <input type="text" id="teacher" name="Editbox2" value="Mbaso" readonly autocomplete="off" spellcheck="false" placeholder="Teacher">
-            <input type="text" id="lastname" name="learners_last_name" value="Mbewe" readonly autocomplete="off" spellcheck="false" placeholder="Last Name">
-            <input type="datetime" id="doe" name="Student_DoE" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Enrolment">
-            <input type="text" id="parenttitle" name="Editbox2" value="Mr" readonly autocomplete="off" spellcheck="false" placeholder="Title">
-            <input type="email" id="email" onclick="window.location.href='mailto:sambulombewe@gmail.com';return false;" name="Editbox2" value="sambulombewe@gmail.com" readonly autocomplete="off" spellcheck="false" placeholder="email address">
-            <input type="text" id="teachertitle" name="Editbox2" value="Mr" readonly autocomplete="off" spellcheck="false" placeholder="Title">
+            <input type="text" id="phone" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
+            <input type="text" id="teacher" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Teacher">
+            <input type="text" id="lastnameInput" name="learners_last_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Last Name">
+            <input type="datetime" id="doeInput" name="Student_DoE" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Enrolment">
+            <input type="text" id="parenttitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
+            <input type="email" id="emailInput" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="email address">
+            <input type="text" id="teachertitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
             <div id="wb_Text16">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;"><strong>Contact the School</strong></span></div>
-            <div id="progressbar_html">
-               <div class="progress-bar" role="progressbar" aria-valuenow="86" title="86%" aria-valuemin="0" aria-valuemax="100">86%</div>
-            </div>
-            <div id="Progressbar1">
-               <div class="progress-bar" role="progressbar" aria-valuenow="88" title="88%" aria-valuemin="0" aria-valuemax="100">88%</div>
-            </div>
-            <div id="Progressbar2">
-               <div class="progress-bar" role="progressbar" aria-valuenow="89" title="89%" aria-valuemin="0" aria-valuemax="100">89%</div>
-            </div>
-            <div id="Progressbar3">
-               <div class="progress-bar" role="progressbar" aria-valuenow="79" title="79%" aria-valuemin="0" aria-valuemax="100">79%</div>
-            </div>
-            <div id="wb_Text12">
+            <div id="wb_Text6">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Tuition Fees</span></div>
-            <input type="text" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="600" readonly autocomplete="off" spellcheck="false" placeholder="Term 1 Fees">
+            <input type="text" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 1 Fees">
             <input type="text" id="term2" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 2 Fees">
             <input type="text" id="term3" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Term 3 Fees">
-            <input type="text" id="total" name="Editbox2" value="600" readonly autocomplete="off" spellcheck="false" placeholder="Annual Fees">
+            <div id="wb_Text13">
+               <span style="color:#8B008B;font-family:'MS Sans Serif';font-size:12px;"><strong>The Way to Success</strong></span></div>
+            <input type="text" id="total" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Annual Fees">
             <div id="wb_Text15">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Annual Pay</span></div>
+            <div id="wb_Text12">
+               <span style="color:#000000;font-family:'MS Serif';font-size:29px;"><strong>F</strong></span><span style="color:#000000;font-family:'MS Serif';font-size:20px;"><strong>lying Wings </strong></span><span style="color:#8A2BE2;font-family:'MS Serif';font-size:29px;"><strong>A</strong></span><span style="color:#8A2BE2;font-family:'MS Serif';font-size:20px;"><strong>cademy</strong></span></div>
             <div id="wb_Text28">
                <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
             <div id="wb_Text29">
@@ -577,7 +521,7 @@
             <div id="wb_Text9">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">M</span></div>
             <div id="wb_marb">
-               <input type="checkbox" id="marb" name="Checkbox9" value="on" checked disabled><label for="marb"></label></div>
+               <input type="checkbox" id="marb" name="Checkbox9" value="on" disabled><label for="marb"></label></div>
             <div id="wb_Text34">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">J</span></div>
             <div id="wb_julb">
@@ -591,7 +535,7 @@
             <div id="wb_Text8">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">F</span></div>
             <div id="wb_febb">
-               <input type="checkbox" id="febb" name="Checkbox10" value="on" checked disabled><label for="febb"></label></div>
+               <input type="checkbox" id="febb" name="Checkbox10" value="on" disabled><label for="febb"></label></div>
             <div id="wb_junb">
                <input type="checkbox" id="junb" name="Checkbox10" value="on" disabled><label for="junb"></label></div>
             <div id="wb_octb">
@@ -599,46 +543,46 @@
             <div id="wb_Text36">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">O</span></div>
             <picture id="wb_teacherpic">
-               <source media="(max-width:1008px)" srcset="images/Teacher%20Clinton%20Mbaso.jpg">
-               <img src="images/Teacher%20Clinton%20Mbaso.jpg" id="teacherpic" alt="" width="74" height="74">
+               <source media="(max-width:1008px)" srcset="">
+               <img src="images/avatar_green.jpg" id="teacherpic" alt="" width="79" height="79">
             </picture>
             <div id="wb_Text19">
-               <span style="color:#000000;font-family:Share;font-size:11px;">IQ Test:</span></div>
-            <a href="#" onclick="showPopup('Taonga Mbewe', 'Grade 5 introduces advanced concepts in language arts, mathematics, science, and social studies. Students deepen their critical thinking and analytical skills, tackling more sophisticated topics. The curriculum often includes project-based learning, fostering creativity and independent research. Developing effective time management becomes crucial for handling increased workload. Parents can support by promoting self-discipline, facilitating a conducive study environment, and engaging in discussions to enhance understanding. Collaboration with teachers remains essential for monitoring progress and addressing challenges.', 'images/G5 - Taonga Mbewe.jpg');return false;">
-               <picture id="wb_learnerpic">
-                  <source media="(max-width:1008px)" srcset="images/G5%20%2d%20Taonga%20Mbewe.jpg">
-                  <img src="images/G5%20%2d%20Taonga%20Mbewe.jpg" id="learnerpic" alt="" width="155" height="194">
-               </picture>
-            </a>
-            <marquee direction="left" scrolldelay="200" scrollamount="4" behavior="scroll" loop="0" id="shaelynMbaso1" onmouseover="this.stop()" onmouseout="this.start()"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">We are opening for term One on January 8 2024</span></marquee>
+               <span style="color:#000000;font-family:Share;font-size:11px;">IQ Tests:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
+            <picture id="wb_learnerpic">
+               <source media="(max-width:1008px)" srcset="">
+               <img src="images/avatar_bw.jpg" id="learnerpic" alt="" width="163" height="163">
+            </picture>
+            <div id="wb_Parent_Notification" dir="rtl">
+               <div id="Parent_Notification">
+                  <span style="color:#000000;">We are opening for term One on January 8 2024</span></div></div>
             <div id="wb_Text18">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Subjects:</span></div>
+               <span style="color:#000000;font-family:Share;font-size:11px;">Subjects:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <div id="wb_Text22" data-top="opacity:1.0;opacity:1.0;">
                <span style="color:#B8860B;font-family:'Times New Roman';font-size:27px;">Student's Portal</span></div>
-            <input type="text" id="firstname" name="learners_first_name" value="Taonga" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
-            <input type="datetime" id="dob" name="Student_DoB" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Birth">
-            <div id="wb_Text13">
+            <input type="text" id="firstnameInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
+            <input type="datetime" id="dobInput" name="Student_DoB" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Birth">
+            <div id="wb_Text1">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Parent's Information</span></div>
             <hr id="Line1">
             <div id="wb_Text11">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Payment Record</span></div>
             <picture id="wb_parentpic">
-               <source media="(max-width:1008px)" srcset="images/Parent%20S.%20Mbewe.jpg">
-               <img src="images/Parent%20S.%20Mbewe.jpg" id="parentpic" alt="" width="119" height="127">
+               <source media="(max-width:1008px)" srcset="">
+               <img src="images/avatar_green.jpg" id="parentpic" alt="" width="119" height="119">
             </picture>
-            <div id="wb_Text14">
+            <div id="wb_Text4">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Performance Record</span></div>
-            <div id="wb_Text17">
+            <div id="wb_Text5">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Teacher's Details</span></div>
             <div id="wb_Text20">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Mathematics:</span></div>
+               <span style="color:#000000;font-family:Share;font-size:11px;">Math:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <div id="wb_Text21">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Literacy:</span></div>
-            <input type="text" id="class" name="learners_first_name" value="Grade 5" readonly autocomplete="off" spellcheck="false" placeholder="Class">
+               <span style="color:#000000;font-family:Share;font-size:11px;">Literacy:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
+            <input type="text" id="classInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Class">
             <div id="wb_Text7">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">J</span></div>
             <div id="wb_janb">
-               <input type="checkbox" id="janb" name="Checkbox11" value="on" checked disabled><label for="janb"></label></div>
+               <input type="checkbox" id="janb" name="Checkbox11" value="on" disabled><label for="janb"></label></div>
             <div id="wb_Text32">
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">M</span></div>
             <div id="wb_mayb">
@@ -647,8 +591,10 @@
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">S</span></div>
             <div id="wb_sepb">
                <input type="checkbox" id="sepb" name="Checkbox11" value="on" disabled><label for="sepb"></label></div>
-            <input type="text" id="status" name="learners_id" value="Active" readonly autocomplete="off" spellcheck="false" placeholder="Status">
-            <input type="text" id="studentid" name="learners_id" value="FL20BC0011" readonly autocomplete="off" spellcheck="false" placeholder="ID Number">
+            <div id="wb_Image1">
+               <a href="index.html"><img src="images/Flying_Wings_Academy.png" id="Image1" alt="Logo" title="Flying Wings Home" width="96" height="79"></a></div>
+            <input type="text" id="status" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="Status">
+            <input type="text" id="idInput" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="ID Number">
             <div id="wb_EmbeddedPage3">
                <div id="wb_facebookFontAwesomeIcon">
                   <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a></div>
@@ -661,302 +607,240 @@
                <div id="wb_smsFontAwesomeIcon">
                   <a href="sms:+260968084570"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a></div>
             </div>
-            <input type="text" id="Editbox1" name="learners_first_name" value="Susan" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
-            <div id="wb_Icon1">
-               <a href="mailto:sambulombewe@gmail.com"><div id="Icon1"><i class="fa fa-envelope-o"></i></div></a></div>
-            <div id="wb_Icon2">
-               <div id="Icon2"><i class="fa fa-facebook"></i></div></div>
-            <div id="wb_Icon3">
-               <a href="tel:+260979528111"><div id="Icon3"><i class="fa fa-volume-control-phone"></i></div></a></div>
-            <div id="wb_Icon4">
-               <div id="Icon4"><i class="fa fa-whatsapp"></i></div></div>
-            <div id="wb_Icon5">
-               <a href="sms:+260979528111"><div id="Icon5"><i class="fa fa-commenting-o"></i></div></a></div>
+            <div id="Html2">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Form</title>
+  </head>
+<body>
+
+
+               <script>               
+                   let csvData = [];
+                   let currentRow = 11;
+               
+                   function loadCSV() {
+                     const xhr = new XMLHttpRequest();
+                     xhr.onreadystatechange = function () {
+                       if (xhr.readyState === XMLHttpRequest.DONE) {
+                         if (xhr.status === 200) {
+                           csvData = parseCSV(xhr.responseText);
+                           displayRow();
+                           initContactIcons(); // Initialize icons after loading CSV
+                         } else {
+                           console.error('Failed to load CSV file.');
+                         }
+                       }
+                     };
+                     xhr.open('GET', 'flyacade.csv', true);
+                     xhr.send();
+                   }
+               
+                   function parseCSV(content) {
+                     const rows = content.split('\n');
+                     return rows.map(row => row.split(','));
+                   }
+               
+                   function displayRow() {
+                     const idInput = document.getElementById('idInput');
+                     const firstnameInput = document.getElementById('firstnameInput');
+                     const lastnameInput = document.getElementById('lastnameInput');
+                     const classInput = document.getElementById('classInput');
+                     const classpic = document.getElementById('classpic');
+                     const learnerpic = document.getElementById('learnerpic');
+                     const teacherpic = document.getElementById('teacherpic');
+                     const teachertitle = document.getElementById('teachertitle');
+                     const teacher = document.getElementById('teacher');
+                     const parentpic = document.getElementById('parentpic');
+                     const phone = document.getElementById('phone');
+                     const parenttitle = document.getElementById('parenttitle');
+                     const parentname = document.getElementById('parentname');
+                     const typeInput = document.getElementById('typeInput');
+                     const status = document.getElementById('status');
+                     const dobInput = document.getElementById('dobInput');
+                     const doeInput = document.getElementById('doeInput');
+                     const emailInput = document.getElementById('emailInput');
+                     const term1 = document.getElementById('term1');
+                     const term2 = document.getElementById('term2');
+                     const term3 = document.getElementById('term3');
+                     const total = document.getElementById('total');
+                     
+                     
+                     const progressbar1 = document.getElementById('progressbar1');
+                     const progressbar2 = document.getElementById('progressbar2');
+                     const progressbar3 = document.getElementById('progressbar3');
+                     const progressbar4 = document.getElementById('progressbar4');
+                     
+                     const janb = document.getElementById('janb');
+                     const febb = document.getElementById('febb');
+                     const marb = document.getElementById('marb');
+                     
+                     const mayb = document.getElementById('mayb');
+                     const junb = document.getElementById('junb');
+                     const julb = document.getElementById('julb');
+                     
+                     const sepb = document.getElementById('sepb');
+                     const octb = document.getElementById('octb');
+                     const novb = document.getElementById('novb');
+               
+                     const term1b = document.getElementById('term1b');
+                     const term2b = document.getElementById('term2b');
+                     const term3b = document.getElementById('term3b');
+               
+                     const s1b = document.getElementById('s1b');
+                     const s2b = document.getElementById('s2b');
+                     const s3b = document.getElementById('s3b');
+                     const t1b = document.getElementById('t1b');
+                     const t2b = document.getElementById('t2b');
+                     const t3b = document.getElementById('t3b');
+                     const bb = document.getElementById('bb');
+                     const rb = document.getElementById('rb');
+                     const totalb = document.getElementById('totalb');
+               
+               
+                     // Assuming the CSV has eleven columns: ID, Name, Email, PictureURL, Slider1, Slider2, Checkbox1, Checkbox2, Tel, Email
+                     const rowData = csvData[currentRow];
+                     idInput.value = rowData[0];
+                     firstnameInput.value = rowData[1];
+                     lastnameInput.value = rowData[2];
+                     classInput.value = rowData[3];
+                     
+                     const classpicURL = rowData[4]; 
+                     classpic.src = classpicURL;
+                     
+                     const learnerpicURL = rowData[5];
+                     learnerpic.src = learnerpicURL;
+                     
+                     const teacherpicURL = rowData[6];
+                     teacherpic.src = teacherpicURL;
+                     
+                     teachertitle.value = rowData[7];
+                     teacher.value = rowData[8];
+                     
+                     const parentpicURL = rowData[9];
+                     parentpic.src = parentpicURL;
+                     
+                     phone.value = rowData[10];
+                     parenttitle.value = rowData[11];
+                     parentname.value = rowData[12];
+                     typeInput.value = rowData[13];
+                     status.value = rowData[14];
+                     dobInput.value = rowData[15];
+                     doeInput.value = rowData[16];
+                     emailInput.value = rowData[17];
+                     term1.value = rowData[18];
+                     term2.value = rowData[19];
+                     term3.value = rowData[20];
+                     progressbar1.value = rowData[21];
+                     progressbar2.value = rowData[22];
+                     progressbar3.value = rowData[23];
+                     progressbar4.value = rowData[24];
+                     
+                     slider1Value.textContent = `${rowData[21]}`;
+                     slider2Value.textContent = `${rowData[22]}`;
+                     slider3Value.textContent = `${rowData[23]}`;
+                     slider4Value.textContent = `${rowData[24]}`;
+                     
+                     janb.checked = rowData[25] === 'true';
+                     febb.checked = rowData[26] === 'true';
+                     marb.checked = rowData[27] === 'true';
+                     
+                     mayb.checked = rowData[28] === 'true';
+                     junb.checked = rowData[29] === 'true';
+                     julb.checked = rowData[30] === 'true';
+                     
+                     sepb.checked = rowData[31] === 'true';
+                     octb.checked = rowData[32] === 'true';
+                     novb.checked = rowData[33] === 'true';
+                     
+                     term1b.checked = rowData[34] === 'true';
+                     term2b.checked = rowData[35] === 'true';
+                     term3b.checked = rowData[36] === 'true';
+                     
+                     s1b.checked = rowData[37] === 'true';
+                     s2b.checked = rowData[38] === 'true';
+                     s3b.checked = rowData[39] === 'true';
+                     
+                     t1b.checked = rowData[40] === 'true';
+                     t2b.checked = rowData[41] === 'true';
+                     t3b.checked = rowData[42] === 'true';
+                     
+                     bb.checked = rowData[43] === 'true';
+                     rb.checked = rowData[44] === 'true';
+                     totalb.checked = rowData[45] === 'true';
+               
+               
+                     // Assuming Tel and Email are in the ninth and tenth columns
+                     telIcon.href = 'tel:' + rowData[46];
+                     emailIcon.href = 'mailto:' + rowData[47];
+                     
+                     total.value = rowData[48];
+                   }
+               
+                   function initContactIcons() {
+                     const telIcon = document.getElementById('telIcon');
+                     const emailIcon = document.getElementById('emailIcon');
+               
+                     telIcon.addEventListener('click', function(event) {
+                       event.preventDefault(); // Prevent default behavior for anchors
+                       window.location.href = telIcon.href;
+                     });
+               
+                     emailIcon.addEventListener('click', function(event) {
+                       event.preventDefault();
+                       window.location.href = emailIcon.href;
+                     });
+                   }
+               
+                   function previousRow() {
+                     if (currentRow > 0) {
+                       currentRow--;
+                       displayRow();
+                     }
+                   }
+               
+                   function nextRow() {
+                     if (currentRow < csvData.length - 1) {
+                       currentRow++;
+                       displayRow();
+                     }
+                   }
+               
+                   // Load CSV data when the page loads
+                   loadCSV();
+                 
+               </script>
+               <input type="range" id="progressbar1" min="0" max="100" disabled>
+               <span id="slider1Value">%</span>
+               <br>
+               <input type="range" id="progressbar2" min="0" max="100" disabled>
+               <span id="slider2Value"></span>
+               <br>
+               <input type="range" id="progressbar3" min="0" max="100" disabled>
+               <span id="slider3Value"></span>
+               <br>
+               <input type="range" id="progressbar4" min="0" max="100" disabled>
+               <span id="slider4Value"></span>
+               <br>
+
+               <form id="csvForm">
+
+    <!-- Icons for tel and email -->
+                  <a href="#" id="telIcon" class="contact-icon">&#x260E;</a>
+                  <a href="#" id="emailIcon" class="contact-icon">&#x2709;</a>
+               </form>
+</body>
+</html></div>
+            <div id="wb_Text2">
+               <span style="color:#0000FF;font-family:'Times New Roman';font-size:17px;"><strong>K</strong></span></div>
          </form>
       </div>
-
       <div id="wb_EmbeddedPage4">
-         <div id="Html1">
-  
-            <div id="countdown" onclick="showPopup('School Open - Jan 8, 2024', 'Civilian Day - Feb 9, 2024', 'images/767048.jpg')"></div>
-    <!-- Popups container and blurred background -->
-            <div class="popups-container" id="popupsContainer">
-               <div id="popups" class="popups">
-                  <img id="popupsImage" src="" alt="Current Event">
-                  <p id="popupsCaption">
-                  <p id="popupsDetails">
-                  <button onclick="closePopup()">Close</button>
-               </div>
-            </div>
-            <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
-            <script>            
-              // Array of events with their respective dates and reminder thresholds
-              const events = [
-                { name: "New Year", date: new Date("Jan 1, 2024 00:00:00").getTime(), reminderDays: 2, reminderHours: 12 },
-                { name: "School Open", date: new Date("Jan 29, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-                { name: "Civilian Day", date: new Date("Mar 1, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-                { name: "Mid Term Tests", date: new Date("Mar 4, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-            	{ name: "Quiz Day", date: new Date("Apr 12, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-                { name: "End Term Tests", date: new Date("Apr 17, 2024 08:00:00").getTime(), reminderDays: 5, reminderHours: 12 },
-            	{ name: "Compilling Results", date: new Date("Apr 18, 2024 08:00:00").getTime(), reminderDays: 2, reminderHours: 12 },
-            	{ name: "Collecting Results", date: new Date("Apr 19, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-            	{ name: "Closing School", date: new Date("Apr 19, 2024 12:00:00").getTime(), reminderDays: 0, reminderHours: 2 }
-              ];
-            
-              let currentEventIndex = 0;
-            
-              function updateCountdown() {
-                // Get the current date and time
-                const now = new Date().getTime();
-            
-                // Get the details of the current event
-                const currentEvent = events[currentEventIndex];
-            
-                // Calculate the time remaining for the current event
-                const distance = currentEvent.date - now;
-            
-                // Calculate days, hours, minutes, and seconds
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-                // Display the countdown for the current event with the event name as a link
-                document.getElementById("countdown").innerHTML =
-                  "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
-                  days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-            
-                // Check if it's time to show a reminder
-                if (distance > 0) {
-                  if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
-                    showReminder(currentEvent.name);
-                  }
-                }
-            
-                // If the countdown for the current event is over, move to the next event
-                if (distance < 0) {
-                  currentEventIndex++;
-                  // If all events are completed, display a message
-                  if (currentEventIndex >= events.length) {
-                    document.getElementById("countdown").innerHTML = "All events completed!";
-                  } else {
-                    // Update the countdown for the next event
-                    updateCountdown();
-                  }
-                }
-              }
-            
-              // Function to show a reminder
-              function showReminder(eventName) {
-                const notificationOptions = {
-                  body: "Your event '" + eventName + "' is approaching!",
-                  icon: "icons/fwa.png" // Provide the path to an icon image
-                };
-            
-                // Check if the browser supports notifications
-                if ("Notification" in window) {
-                  // Request permission to show notifications
-                  Notification.requestPermission().then(function (permission) {
-                    if (permission === "granted") {
-                      // Show the notification
-                      const notification = new Notification("Event Reminder", notificationOptions);
-            
-                      // Vibrate for 1 second
-                      if ("vibrate" in navigator) {
-                        navigator.vibrate(1000);
-                      }
-            
-                      // Play a sound (may not work in all browsers)
-                      const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
-                      audio.play();
-                    }
-                  });
-                }
-              }
-            
-              // Update the countdown every 1 second
-              setInterval(updateCountdown, 1000);
-            
-                    // Function to show the popup with image, caption, and details
-                    function showPopup(caption, details, imageUrl) {
-                        document.getElementById('popupsImage').src = imageUrl;
-                        document.getElementById('popupsCaption').innerHTML = caption;
-                        document.getElementById('popupsDetails').innerHTML = details;
-                        document.getElementById('popupsContainer').style.display = 'block';
-                        document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
-                    }
-            
-                    // Function to close the popups
-                    function closePopup() {
-                        document.getElementById('popupsContainer').style.display = 'none';
-                        document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
-                    }
-            
-              let lastScrollPosition = 0;
-              const countdown = document.getElementById('countdown');
-            
-              window.addEventListener('scroll', () => {
-                const currentScrollPosition = window.scrollY;
-            
-                if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
-                  countdown.classList.add('hide');
-                } else {
-                  countdown.classList.remove('hide');
-                }
-            
-                lastScrollPosition = currentScrollPosition;
-              });
-                    
-                    // Close the popup and blurred background on page load
-                    window.onload = function() {
-                        closePopup();
-                    };
-            </script></div>
-      </div>
-      <div id="wb_EmbeddedPage5">
 
       </div>
    </div>
-   <div id="FlexContainer2">
-      <div id="PanelLayer">
-         <div id="wb_IconFont2">
-            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
-         </div>
-         <div id="wb_Image1">
-            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
-         </div>
-         <div id="wb_Heading20">
-            <h2 id="Heading20">Flying Wings Academy</h2>
-         </div>
-         <div id="wb_OverlayMenu2">
-            <div class="OverlayMenu2">
-               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
-                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
-                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
-                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
-                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                  <li><a role="menuitem" href="#" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
-                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
-               </ul>
-            </div>
-         </div>
-         <div id="wb_Text40">
-            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-         </div>
-      </div>
-      <div id="wb_HeaderLayoutGrid">
-         <div id="HeaderLayoutGrid">
-            <div class="row">
-               <div class="col-1">
-                  <div id="wb_home_logo">
-                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
-                  </div>
-               </div>
-               <div class="col-2">
-                  <div id="wb_Header">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text3">
-                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text2">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text5">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text1">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text4">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text6">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
-                  </div>
-               </div>
-               <div class="col-3">
-                  <div id="wb_menuPanel">
-                     <a href="#PanelLayer" id="menuPanel">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <script>   
-       // Term 1
-       document.getElementById('term1').addEventListener('input', function () {
-           var inputValue = this.value;
-           var janb = document.getElementById('janb');
-           var febb = document.getElementById('febb');
-           var marb = document.getElementById('marb');
-           var term1b = document.getElementById('term1b');
-   
-           // Check conditions and update checkboxes accordingly
-           janb.checked = Number(inputValue) >= 150;
-           febb.checked = Number(inputValue) >= 300;
-           marb.checked = Number(inputValue) >= 450;
-           term1b.checked = Number(inputValue) >= 450;
-       });
-       
-       // Term 2
-       document.getElementById('term2').addEventListener('input', function () {
-           var inputValue = this.value;
-           var mayb = document.getElementById('mayb');
-           var junb = document.getElementById('junb');
-           var julb = document.getElementById('julb');
-           var term2b = document.getElementById('term2b');
-   
-           // Check conditions and update checkboxes accordingly
-           mayb.checked = Number(inputValue) >= 150;
-           junb.checked = Number(inputValue) >= 300;
-           julb.checked = Number(inputValue) >= 450;
-           term2b.checked = Number(inputValue) >= 450;
-       });
-       
-       // Term 3
-       document.getElementById('term3').addEventListener('input', function () {
-           var inputValue = this.value;
-           var sepb = document.getElementById('sepb');
-           var octb = document.getElementById('octb');
-           var novb = document.getElementById('novb');
-           var term3b = document.getElementById('term3b');
-   
-           // Check conditions and update checkboxes accordingly
-           sepb.checked = Number(inputValue) >= 150;
-           octb.checked = Number(inputValue) >= 300;
-           novb.checked = Number(inputValue) >= 450;
-           term3b.checked = Number(inputValue) >= 450;
-       });
-       
-       // Total
-       document.getElementById('total').addEventListener('input', function () {
-           var inputValue = this.value;
-           var totalb = document.getElementById('totalb');
-           
-           // Check conditions and update checkboxes accordingly
-           totalb.checked = Number(inputValue) >= 1350;
-           });
-       
-   </script>
-   <script>   
-           function calculateTotal() {
-               var term1 = parseFloat(document.getElementById("term1").value) || 0;
-               var term2 = parseFloat(document.getElementById("term2").value) || 0;
-               var term3 = parseFloat(document.getElementById("term3").value) || 0;
-   
-               var total = term1 + term2 + term3;
-   
-               document.getElementById("total").value = total;
-           }
-       
-   </script></body>
+</body>
 </html>
