@@ -1,3 +1,10 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
 body
 {
    background-color: #FFFFFF;
@@ -7,7 +14,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 #wb_Form1
 {
@@ -1943,58 +1950,6 @@ body
    width: 100%;
    height: 100%;
 }
-#wb_Parent_Notification 
-{
-   background-color: #EEEEEE;
-   background-image: none;
-   border: 1px solid #C0C0C0;
-   border-radius: 5px;
-   overflow-y: hidden;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-   box-shadow: 0px 0px 10px #000000;
-}
-#wb_Parent_Notification
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_Parent_Notification div
-{
-   text-align: center;
-}
-#wb_Parent_Notification
-{
-   overflow: hidden;
-   position: relative;
-}
-#Parent_Notification
-{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   animation: Parent_Notification-marquee 10000ms linear infinite;
-}
-@keyframes Parent_Notification-marquee
-{
-   0%
-   {
-   transform: translateX(100%);
-   }
-   100%
-   {
-   transform: translateX(-100%);
-   }
-}
-#wb_Parent_Notification:hover #Parent_Notification
-{
-   animation-play-state: paused;
-}
 #wb_Text18 
 {
    background-color: transparent;
@@ -2907,7 +2862,7 @@ body
    top: 330px;
    width: 87px;
    height: 16px;
-   z-index: 80;
+   z-index: 79;
 }
 #wb_Text19
 {
@@ -2942,7 +2897,7 @@ body
    top: 330px;
    width: 160px;
    height: 19px;
-   z-index: 81;
+   z-index: 80;
 }
 #wb_Image1
 {
@@ -2951,7 +2906,7 @@ body
    top: 19px;
    width: 66px;
    height: 54px;
-   z-index: 79;
+   z-index: 78;
 }
 #dobInput
 {
@@ -2960,7 +2915,7 @@ body
    top: 435px;
    width: 132px;
    height: 16px;
-   z-index: 63;
+   z-index: 62;
 }
 #wb_Text18
 {
@@ -2970,7 +2925,7 @@ body
    width: 83px;
    height: 12px;
    text-align: right;
-   z-index: 60;
+   z-index: 59;
 }
 #wb_Text29
 {
@@ -2989,7 +2944,7 @@ body
    top: 671px;
    width: 16px;
    height: 16px;
-   z-index: 78;
+   z-index: 77;
 }
 #wb_Text35
 {
@@ -2999,7 +2954,7 @@ body
    width: 14px;
    height: 15px;
    text-align: center;
-   z-index: 77;
+   z-index: 76;
 }
 #wb_Text4
 {
@@ -3009,7 +2964,7 @@ body
    width: 308px;
    height: 21px;
    text-align: center;
-   z-index: 68;
+   z-index: 67;
 }
 #wb_octb
 {
@@ -3034,7 +2989,7 @@ body
    width: 306px;
    height: 21px;
    text-align: center;
-   z-index: 69;
+   z-index: 68;
 }
 #julb
 {
@@ -3170,7 +3125,7 @@ body
    width: 14px;
    height: 15px;
    text-align: center;
-   z-index: 73;
+   z-index: 72;
 }
 #Line1
 {
@@ -3178,7 +3133,7 @@ body
    left: 0px;
    top: 547px;
    width: 310px;
-   z-index: 65;
+   z-index: 64;
 }
 #wb_Text36
 {
@@ -3221,7 +3176,7 @@ body
    top: 601px;
    width: 16px;
    height: 16px;
-   z-index: 74;
+   z-index: 73;
 }
 #wb_teacherpic
 {
@@ -3303,7 +3258,7 @@ body
    width: 306px;
    height: 21px;
    text-align: center;
-   z-index: 64;
+   z-index: 63;
 }
 #wb_Text22
 {
@@ -3313,7 +3268,7 @@ body
    width: 295px;
    height: 30px;
    text-align: center;
-   z-index: 61;
+   z-index: 60;
 }
 #wb_Text30
 {
@@ -3391,7 +3346,7 @@ body
    width: 23px;
    height: 19px;
    text-align: center;
-   z-index: 84;
+   z-index: 83;
 }
 #wb_mayb
 {
@@ -3400,7 +3355,7 @@ body
    top: 637px;
    width: 16px;
    height: 16px;
-   z-index: 76;
+   z-index: 75;
 }
 #wb_Text11
 {
@@ -3410,7 +3365,7 @@ body
    width: 308px;
    height: 21px;
    text-align: center;
-   z-index: 66;
+   z-index: 65;
 }
 #firstnameInput
 {
@@ -3419,7 +3374,7 @@ body
    top: 406px;
    width: 132px;
    height: 18px;
-   z-index: 62;
+   z-index: 61;
 }
 #wb_Text33
 {
@@ -3440,15 +3395,6 @@ body
    height: 16px;
    z-index: 34;
 }
-#wb_EmbeddedPage4
-{
-   position: absolute;
-   left: 323px;
-   top: 74px;
-   width: 22px;
-   height: 22px;
-   z-index: 92;
-}
 #slider4Value
 {
    position: absolute;
@@ -3463,7 +3409,7 @@ body
    top: 976px;
    width: 200px;
    height: 50px;
-   z-index: 82;
+   z-index: 81;
 }
 #wb_Text32
 {
@@ -3473,7 +3419,7 @@ body
    width: 14px;
    height: 15px;
    text-align: center;
-   z-index: 75;
+   z-index: 74;
 }
 #wb_Text20
 {
@@ -3483,7 +3429,7 @@ body
    width: 92px;
    height: 12px;
    text-align: right;
-   z-index: 70;
+   z-index: 69;
 }
 #term3b
 {
@@ -3515,7 +3461,7 @@ body
    width: 87px;
    height: 12px;
    text-align: right;
-   z-index: 71;
+   z-index: 70;
 }
 #term3
 {
@@ -3610,7 +3556,7 @@ body
    top: 767px;
    width: 119px;
    height: 96px;
-   z-index: 67;
+   z-index: 66;
 }
 #wb_julb
 {
@@ -3688,17 +3634,7 @@ body
    top: 375px;
    width: 132px;
    height: 16px;
-   z-index: 72;
-}
-#wb_Parent_Notification
-{
-   position: absolute;
-   left: 8px;
-   top: 76px;
-   width: 294px;
-   height: 17px;
-   text-align: center;
-   z-index: 59;
+   z-index: 71;
 }
 #wb_Text8
 {
@@ -3745,7 +3681,7 @@ body
    top: 99px;
    width: 296px;
    height: 15px;
-   z-index: 83;
+   z-index: 82;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -3816,10 +3752,14 @@ body
    top: 0px;
    width: 321px;
    height: 1033px;
-   z-index: 91;
+   z-index: 89;
 }
 @media only screen and (max-width: 969px)
 {
+div#container
+{
+   width: 320px;
+}
 body
 {
    background-color: #FFFFFF;
@@ -5021,24 +4961,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Parent_Notification
-{
-   left: 8px;
-   top: 76px;
-   width: 294px;
-   height: 17px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Parent_Notification
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
 #wb_Text18
 {
    left: 9px;
@@ -5562,15 +5484,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_EmbeddedPage4
-{
-   left: 323px;
-   top: 74px;
-   width: 22px;
-   height: 22px;
-   visibility: visible;
-   display: inline;
 }
 }
     /* Customize the appearance of the sliders */
