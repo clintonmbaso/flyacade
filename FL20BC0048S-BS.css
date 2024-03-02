@@ -2018,58 +2018,6 @@ a:hover
    width: 100%;
    height: 100%;
 }
-#wb_Parent_Notification 
-{
-   background-color: #EEEEEE;
-   background-image: none;
-   border: 1px solid #C0C0C0;
-   border-radius: 5px;
-   overflow-y: hidden;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-   box-shadow: 0px 0px 10px #000000;
-}
-#wb_Parent_Notification
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_Parent_Notification div
-{
-   text-align: center;
-}
-#wb_Parent_Notification
-{
-   overflow: hidden;
-   position: relative;
-}
-#Parent_Notification
-{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   animation: Parent_Notification-marquee 10000ms linear infinite;
-}
-@keyframes Parent_Notification-marquee
-{
-   0%
-   {
-   transform: translateX(100%);
-   }
-   100%
-   {
-   transform: translateX(-100%);
-   }
-}
-#wb_Parent_Notification:hover #Parent_Notification
-{
-   animation-play-state: paused;
-}
 #wb_Text18 
 {
    background-color: transparent;
@@ -2982,7 +2930,7 @@ a:hover
    top: 330px;
    width: 87px;
    height: 16px;
-   z-index: 80;
+   z-index: 79;
 }
 #wb_Text19
 {
@@ -3017,7 +2965,7 @@ a:hover
    top: 330px;
    width: 160px;
    height: 19px;
-   z-index: 81;
+   z-index: 80;
 }
 #wb_Image1
 {
@@ -3026,7 +2974,7 @@ a:hover
    top: 19px;
    width: 66px;
    height: 54px;
-   z-index: 79;
+   z-index: 78;
 }
 #dobInput
 {
@@ -3035,7 +2983,7 @@ a:hover
    top: 435px;
    width: 132px;
    height: 16px;
-   z-index: 63;
+   z-index: 62;
 }
 #wb_Text18
 {
@@ -3045,7 +2993,7 @@ a:hover
    width: 83px;
    height: 12px;
    text-align: right;
-   z-index: 60;
+   z-index: 59;
 }
 #wb_Text29
 {
@@ -3064,7 +3012,7 @@ a:hover
    top: 671px;
    width: 16px;
    height: 16px;
-   z-index: 78;
+   z-index: 77;
 }
 #wb_Text35
 {
@@ -3074,7 +3022,7 @@ a:hover
    width: 14px;
    height: 15px;
    text-align: center;
-   z-index: 77;
+   z-index: 76;
 }
 #wb_Text4
 {
@@ -3084,7 +3032,7 @@ a:hover
    width: 308px;
    height: 21px;
    text-align: center;
-   z-index: 68;
+   z-index: 67;
 }
 #wb_octb
 {
@@ -3109,7 +3057,7 @@ a:hover
    width: 306px;
    height: 21px;
    text-align: center;
-   z-index: 69;
+   z-index: 68;
 }
 #julb
 {
@@ -3154,7 +3102,7 @@ a:hover
    width: 480px;
    visibility: hidden;
    height: 48px;
-   z-index: 93;
+   z-index: 91;
 }
 #sepb
 {
@@ -3255,7 +3203,7 @@ a:hover
    width: 14px;
    height: 15px;
    text-align: center;
-   z-index: 73;
+   z-index: 72;
 }
 #Line1
 {
@@ -3263,7 +3211,7 @@ a:hover
    left: 0px;
    top: 547px;
    width: 310px;
-   z-index: 65;
+   z-index: 64;
 }
 #wb_Text36
 {
@@ -3306,7 +3254,7 @@ a:hover
    top: 601px;
    width: 16px;
    height: 16px;
-   z-index: 74;
+   z-index: 73;
 }
 #wb_teacherpic
 {
@@ -3388,7 +3336,7 @@ a:hover
    width: 306px;
    height: 21px;
    text-align: center;
-   z-index: 64;
+   z-index: 63;
 }
 #wb_Text22
 {
@@ -3398,7 +3346,7 @@ a:hover
    width: 295px;
    height: 30px;
    text-align: center;
-   z-index: 61;
+   z-index: 60;
 }
 #wb_Text30
 {
@@ -3476,7 +3424,7 @@ a:hover
    width: 23px;
    height: 19px;
    text-align: center;
-   z-index: 84;
+   z-index: 83;
 }
 #wb_mayb
 {
@@ -3485,7 +3433,7 @@ a:hover
    top: 637px;
    width: 16px;
    height: 16px;
-   z-index: 76;
+   z-index: 75;
 }
 #wb_Text11
 {
@@ -3495,7 +3443,7 @@ a:hover
    width: 308px;
    height: 21px;
    text-align: center;
-   z-index: 66;
+   z-index: 65;
 }
 #firstnameInput
 {
@@ -3504,7 +3452,7 @@ a:hover
    top: 406px;
    width: 132px;
    height: 18px;
-   z-index: 62;
+   z-index: 61;
 }
 #wb_Text33
 {
@@ -3534,16 +3482,7 @@ a:hover
    height: 41px;
    visibility: hidden;
    text-align: center;
-   z-index: 91;
-}
-#wb_EmbeddedPage4
-{
-   position: absolute;
-   left: 323px;
-   top: 74px;
-   width: 22px;
-   height: 22px;
-   z-index: 95;
+   z-index: 89;
 }
 #slider4Value
 {
@@ -3559,7 +3498,7 @@ a:hover
    top: 976px;
    width: 200px;
    height: 50px;
-   z-index: 82;
+   z-index: 81;
 }
 #wb_Text32
 {
@@ -3569,7 +3508,7 @@ a:hover
    width: 14px;
    height: 15px;
    text-align: center;
-   z-index: 75;
+   z-index: 74;
 }
 #wb_Text20
 {
@@ -3579,7 +3518,7 @@ a:hover
    width: 92px;
    height: 12px;
    text-align: right;
-   z-index: 70;
+   z-index: 69;
 }
 #term3b
 {
@@ -3611,7 +3550,7 @@ a:hover
    width: 87px;
    height: 12px;
    text-align: right;
-   z-index: 71;
+   z-index: 70;
 }
 #term3
 {
@@ -3706,7 +3645,7 @@ a:hover
    top: 767px;
    width: 119px;
    height: 96px;
-   z-index: 67;
+   z-index: 66;
 }
 #wb_julb
 {
@@ -3779,7 +3718,7 @@ a:hover
    height: 73px;
    visibility: hidden;
    text-align: center;
-   z-index: 92;
+   z-index: 90;
 }
 #slider2Value
 {
@@ -3795,17 +3734,7 @@ a:hover
    top: 375px;
    width: 132px;
    height: 16px;
-   z-index: 72;
-}
-#wb_Parent_Notification
-{
-   position: absolute;
-   left: 8px;
-   top: 76px;
-   width: 294px;
-   height: 17px;
-   text-align: center;
-   z-index: 59;
+   z-index: 71;
 }
 #wb_Text8
 {
@@ -3852,7 +3781,7 @@ a:hover
    top: 99px;
    width: 296px;
    height: 15px;
-   z-index: 83;
+   z-index: 82;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -3923,7 +3852,7 @@ a:hover
    top: 0px;
    width: 321px;
    height: 1033px;
-   z-index: 94;
+   z-index: 92;
 }
 @media only screen and (max-width: 1008px)
 {
@@ -5179,24 +5108,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Parent_Notification
-{
-   left: 8px;
-   top: 76px;
-   width: 294px;
-   height: 17px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Parent_Notification
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
 #wb_Text18
 {
    left: 9px;
@@ -5720,15 +5631,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_EmbeddedPage4
-{
-   left: 323px;
-   top: 74px;
-   width: 22px;
-   height: 22px;
-   visibility: visible;
-   display: inline;
 }
 }
     /* Customize the appearance of the sliders */
