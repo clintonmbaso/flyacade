@@ -1080,7 +1080,7 @@ a:hover
 }
 #wb_Text31 
 {
-   background-color: rgba(128,128,128,0.35);
+   background-color: rgba(0,0,0,0.12);
    background-image: none;
    border: 0px solid #000000;
    border-radius: 5px;
@@ -1144,10 +1144,10 @@ a:hover
    background-image: none;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 15px;
+   line-height: 18px;
    margin: 0;
    text-align: left;
    padding: 4px 4px 4px 4px;
@@ -1280,7 +1280,7 @@ a:hover
    border-radius: 4px;
    background-color: #FFFFFF;
    background-image: none;
-   color: #000000;
+   color: #006400;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -1302,7 +1302,7 @@ a:hover
    border-radius: 4px;
    background-color: #FFFFFF;
    background-image: none;
-   color: #000000;
+   color: #20B2AA;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -1324,7 +1324,7 @@ a:hover
    border-radius: 4px;
    background-color: #FFFFFF;
    background-image: none;
-   color: #000000;
+   color: #B8860B;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -1358,14 +1358,14 @@ a:hover
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
-   background-color: #FFFFFF;
+   background-color: rgba(255,182,193,0.27);
    background-image: none;
-   color: #000000;
+   color: #0000FF;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 15px;
+   line-height: 18px;
    margin: 0;
    text-align: left;
    padding: 4px 4px 4px 4px;
@@ -1995,8 +1995,22 @@ a:hover
 }
 #learnerpic
 {
-   border: 0px solid #000000;
-   border-radius: 0px;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 0px;
    padding: 0;
    object-fit: contain;
    left: 0;
@@ -2092,10 +2106,10 @@ a:hover
    background-image: none;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 15px;
+   line-height: 18px;
    margin: 0;
    text-align: left;
    padding: 4px 4px 4px 4px;
@@ -2539,7 +2553,7 @@ a:hover
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
-   background-color: rgba(240,128,128,0.35);
+   background-color: rgba(240,128,128,0.31);
    background-image: none;
    color: #000000;
    font-family: Arial;
@@ -2561,14 +2575,14 @@ a:hover
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
-   background-color: #FFFFFF;
+   background-color: rgba(255,255,255,0.59);
    background-image: none;
-   color: #000000;
+   color: #C71585;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 15px;
+   line-height: 19px;
    margin: 0;
    text-align: center;
    padding: 4px 4px 4px 4px;
@@ -2859,48 +2873,6 @@ a:hover
    transform: rotate(360deg) ;
    transition: transform 500ms linear 0ms;
 }
-#Button1
-{
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
-}
-#Button1:focus
-{
-   outline: 0;
-}
-#Button2
-{
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
-}
-#Button2:focus
-{
-   outline: 0;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -2914,298 +2886,6 @@ a:hover
 #wb_Text2 div
 {
    text-align: center;
-}
-#OverlayMenu1
-{
-   background-color: rgba(66,66,66,0.00);
-   background-image: none;
-   border: 0px solid #424242;
-   border-radius: 0px;
-   margin: 0;
-}
-#OverlayMenu1:hover
-{
-   background-color: #CCCCCC;
-   background-image: none;
-   border-color: #424242;
-}
-#OverlayMenu1
-{
-   display: block;
-   width: 207px;
-   height: 36px;
-   position: absolute;
-   overflow: hidden;
-}
-#OverlayMenu1 .line
-{
-   width: 32px;
-   height: 6px;
-   position: relative;
-   top: -2px;
-   background: #4F4F4F;
-   display: block;
-   margin: 6px auto;
-}
-#OverlayMenu1:hover .line
-{
-   background: #424242;
-}
-#OverlayMenu1-close
-{
-   background: transparent;
-   font-size: 10px;
-   height: 2.8em; 
-   outline: none;
-   position: absolute;
-   right: 10px;
-   text-align: left;
-   top: 10px;
-   width: 3em; 
-}
-#OverlayMenu1-close:before, #OverlayMenu1-close:after
-{
-   background: #FFFFFF;
-   content: "";
-   display: block;
-   height: 0.6em;
-   left: 0;
-   opacity: 1;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-#OverlayMenu1-close span
-{
-   background: #FFFFFF;
-   height: 0.6em;
-   margin-top: -0.3em;
-   position: absolute;
-   top: 50%;
-   transform-origin: 50% 50%;
-   width: 100%;
-}
-#OverlayMenu1-close span::after
-{
-   background: #FFFFFF;
-   content: "";
-   display: block;
-   height: 0.6em;
-   position: absolute;
-   transform-origin: 50% 50%;
-   width: 100%;
-}
-#OverlayMenu1-close:before
-{
-   margin-top: -0.3em;
-   opacity: 0;
-   top: 50%;
-}
-#OverlayMenu1-close:after
-{
-   bottom: 50%;
-   opacity: 0;
-}
-#OverlayMenu1-close span
-{
-   background: #FFFFFF;
-   transform: rotate(-45deg);
-}
-#OverlayMenu1-close span:after
-{
-   background: #FFFFFF;
-   transform: rotate(-90deg);
-}
-#OverlayMenu1-overlay
-{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100%;
-   left: 0;
-   overflow-y: auto;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: -1;
-   background-color: rgba(122,122,122,0.87);
-   -webkit-backdrop-filter: blur(2px);
-   backdrop-filter: blur(2px);
-}
-#OverlayMenu1-overlay ul
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 19px;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-.OverlayMenu1
-{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: row;
-   width: 100%;
-   max-width: 970px;
-}
-.OverlayMenu1 a
-{
-   text-decoration: none;
-}
-.OverlayMenu1 ul
-{
-   list-style: none;
-   padding: 0;
-   text-align: center;
-}
-.OverlayMenu1 li
-{
-   position: relative;
-}
-.OverlayMenu1 li a
-{
-   display: block;
-   position: relative;
-   padding: 10px 15px 10px 15px;
-   color: #FFFFFF;
-   outline: none;
-}
-.OverlayMenu1 li a:hover
-{
-   color: #424242;
-   background-color: #CCCCCC;
-}
-#OverlayMenu1-overlay
-{
-   visibility: hidden;
-   width: 0;
-   left: 50%;
-   transform: translateX(-50%);
-   transition: width 500ms 0.3s, visibility 0s 800ms;
-}
-#OverlayMenu1-overlay.show
-{
-   visibility: visible;
-   width: 100%;
-   transition: width 500ms;
-}
-#OverlayMenu1-overlay .OverlayMenu1
-{
-   opacity: 0;
-   transition: opacity 0.3s 500ms;
-}
-#OverlayMenu1-overlay.show .OverlayMenu1
-{
-   opacity: 1;
-   transition-delay: 500ms;
-}
-#OverlayMenu1-overlay.hide .OverlayMenu1
-{
-   transition-delay: 0s;
-}
-.OverlayMenu1 li.drilldown-back > a 
-{
-   padding-left: 40px;
-   background: rgba(0,0,0,0.1);
-}
-.OverlayMenu1 li.drilldown-back > a:hover
-{
-   background-color: #CCCCCC;
-}
-.OverlayMenu1 li.drilldown-back a:after,
-.OverlayMenu1 li > a:not(:only-child):after
-{
-   position: absolute;
-   top: 50%;
-   transform: translateY(-50%);
-   display: inline-block;
-   width: 0;
-   height: 0;
-   margin-left: 9px;
-   border-left: 9px solid #FFFFFF;
-   border-top: 7px solid transparent;
-   border-bottom: 7px solid transparent;
-   border-right: 0 dotted;
-   content: " ";
-}
-.OverlayMenu1 li.drilldown-back a:after
-{
-   left: 9px;
-   color: #FFFFFF;
-   transform: translateY(-50%) rotate(180deg);
-}
-.OverlayMenu1 li.drilldown-back a:hover:after,
-.OverlayMenu1 li > a:not(:only-child):hover:after
-{
-   border-left-color: #424242;
-}
-.OverlayMenu1 li > a:after
-{
-   color: rgba(0,0,0,0.15);
-   right: 10px;
-}
-.OverlayMenu1 .drilldown-menu 
-{
-   margin: 0;
-   width: 100%;
-}
-.OverlayMenu1 li .drilldown-submenu 
-{
-   display: none;
-}
-.drilldown-menu.drilldown-subview li,
-.drilldown-menu.drilldown-subview li.drilldown-subviewopen > a,
-.drilldown-menu.drilldown-subview li.drilldown-subview > a 
-{
-   display: none;
-}
-.drilldown-menu.drilldown-subview li.drilldown-subview,
-.drilldown-menu.drilldown-subview li.drilldown-subview .drilldown-submenu,
-.drilldown-menu.drilldown-subview li.drilldown-subviewopen,
-.drilldown-menu.drilldown-subview li.drilldown-subviewopen > .drilldown-submenu,
-.drilldown-menu.drilldown-subview li.drilldown-subviewopen > .drilldown-submenu > li 
-{
-   display: block;
-}
-.OverlayMenu1 > .drilldown-submenu
-{
-   left: 0;
-   margin: 0;
-   position: absolute;
-   top: 50px;
-   width: 100%;
-}
-#OverlayMenu1-overlay .overlay-icon
-{
-   margin: 0 10px 0 0 ;
-}
-#OverlayMenu1-social
-{
-   padding: 40px 0 0 0;
-}
-#OverlayMenu1-social .social-icon 
-{
-   border-radius: 50%;
-   background-color: #FFFFFF;
-   color: #7A7A7A;
-   display: inline-block;
-   font-size: 19px;
-   margin: 0 .5em;
-   padding: 7px;
-   transition: all .2s linear 0s;
-   width: 19px;
-}
-#OverlayMenu1-social .social-icon:hover 
-{
-   background-color: #424242;
-   color: #CCCCCC;
-}
-.OverlayMenu1-effect
-{
-   transition: all 500ms linear;
 }
 #progressbar4
 {
@@ -3248,10 +2928,10 @@ a:hover
 #total
 {
    position: absolute;
-   left: 657px;
-   top: 424px;
-   width: 100px;
-   height: 16px;
+   left: 84px;
+   top: 709px;
+   width: 78px;
+   height: 18px;
    z-index: 38;
 }
 #totalb
@@ -3263,17 +2943,17 @@ a:hover
 #wb_totalb
 {
    position: absolute;
-   left: 771px;
-   top: 429px;
-   width: 22px;
-   height: 16px;
+   left: 175px;
+   top: 714px;
+   width: 16px;
+   height: 20px;
    z-index: 22;
 }
 #wb_t3b
 {
    position: absolute;
-   left: 602px;
-   top: 428px;
+   left: 259px;
+   top: 670px;
    width: 16px;
    height: 16px;
    z-index: 10;
@@ -3298,18 +2978,18 @@ a:hover
 #status
 {
    position: absolute;
-   left: 18px;
-   top: 151px;
-   width: 68px;
+   left: 15px;
+   top: 330px;
+   width: 87px;
    height: 16px;
    z-index: 80;
 }
 #wb_Text19
 {
    position: absolute;
-   left: 265px;
-   top: 217px;
-   width: 88px;
+   left: 10px;
+   top: 516px;
+   width: 82px;
    height: 12px;
    text-align: right;
    z-index: 57;
@@ -3317,8 +2997,8 @@ a:hover
 #wb_Text28
 {
    position: absolute;
-   left: 377px;
-   top: 362px;
+   left: 63px;
+   top: 603px;
    width: 23px;
    height: 15px;
    text-align: center;
@@ -3330,57 +3010,39 @@ a:hover
    left: 0;
    top: 0;
 }
-#wb_OverlayMenu1
-{
-   position: absolute;
-   left: 782px;
-   top: 262px;
-   width: 207px;
-   height: 36px;
-   z-index: 87;
-}
-#Button2
-{
-   position: absolute;
-   left: 365px;
-   top: 126px;
-   width: 122px;
-   height: 26px;
-   z-index: 84;
-}
 #idInput
 {
    position: absolute;
-   left: 671px;
-   top: 250px;
-   width: 312px;
-   height: 16px;
+   left: 134px;
+   top: 330px;
+   width: 160px;
+   height: 19px;
    z-index: 81;
 }
 #wb_Image1
 {
    position: absolute;
-   left: 835px;
-   top: 58px;
-   width: 157px;
-   height: 128px;
+   left: 17px;
+   top: 19px;
+   width: 66px;
+   height: 54px;
    z-index: 79;
 }
 #dobInput
 {
    position: absolute;
-   left: 9px;
-   top: 248px;
-   width: 218px;
+   left: 3px;
+   top: 435px;
+   width: 132px;
    height: 16px;
    z-index: 63;
 }
 #wb_Text18
 {
    position: absolute;
-   left: 265px;
-   top: 185px;
-   width: 88px;
+   left: 9px;
+   top: 486px;
+   width: 83px;
    height: 12px;
    text-align: right;
    z-index: 60;
@@ -3388,37 +3050,28 @@ a:hover
 #wb_Text29
 {
    position: absolute;
-   left: 377px;
-   top: 397px;
-   width: 21px;
+   left: 63px;
+   top: 638px;
+   width: 23px;
    height: 15px;
    text-align: center;
    z-index: 42;
 }
-#Button1
-{
-   position: absolute;
-   left: 651px;
-   top: 126px;
-   width: 122px;
-   height: 26px;
-   z-index: 85;
-}
 #wb_sepb
 {
    position: absolute;
-   left: 308px;
-   top: 428px;
-   width: 22px;
+   left: 6px;
+   top: 671px;
+   width: 16px;
    height: 16px;
    z-index: 78;
 }
 #wb_Text35
 {
    position: absolute;
-   left: 305px;
-   top: 415px;
-   width: 22px;
+   left: 6px;
+   top: 657px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 77;
@@ -3426,9 +3079,9 @@ a:hover
 #wb_Text4
 {
    position: absolute;
-   left: 364px;
-   top: 159px;
-   width: 412px;
+   left: 2px;
+   top: 464px;
+   width: 308px;
    height: 21px;
    text-align: center;
    z-index: 68;
@@ -3436,9 +3089,9 @@ a:hover
 #wb_octb
 {
    position: absolute;
-   left: 333px;
-   top: 428px;
-   width: 21px;
+   left: 24px;
+   top: 671px;
+   width: 16px;
    height: 16px;
    z-index: 54;
 }
@@ -3451,9 +3104,9 @@ a:hover
 #wb_Text5
 {
    position: absolute;
-   left: 798px;
-   top: 315px;
-   width: 194px;
+   left: 3px;
+   top: 902px;
+   width: 306px;
    height: 21px;
    text-align: center;
    z-index: 69;
@@ -3467,9 +3120,9 @@ a:hover
 #wb_Text34
 {
    position: absolute;
-   left: 352px;
-   top: 383px;
-   width: 19px;
+   left: 43px;
+   top: 623px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 46;
@@ -3477,9 +3130,9 @@ a:hover
 #wb_Text16
 {
    position: absolute;
-   left: 871px;
-   top: 402px;
-   width: 121px;
+   left: 112px;
+   top: 961px;
+   width: 195px;
    height: 15px;
    text-align: center;
    z-index: 32;
@@ -3487,10 +3140,10 @@ a:hover
 #wb_classpic
 {
    position: absolute;
-   left: 173px;
-   top: 71px;
-   width: 155px;
-   height: 94px;
+   left: 200px;
+   top: 263px;
+   width: 104px;
+   height: 67px;
    z-index: 16;
 }
 #classdescription
@@ -3501,7 +3154,7 @@ a:hover
    width: 480px;
    visibility: hidden;
    height: 48px;
-   z-index: 96;
+   z-index: 93;
 }
 #sepb
 {
@@ -3519,17 +3172,17 @@ a:hover
 {
    position: absolute;
    left: 9px;
-   top: 13px;
-   width: 155px;
-   height: 152px;
+   top: 182px;
+   width: 163px;
+   height: 162px;
    z-index: 58;
 }
 #wb_Text37
 {
    position: absolute;
-   left: 353px;
-   top: 415px;
-   width: 19px;
+   left: 42px;
+   top: 657px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 48;
@@ -3537,9 +3190,9 @@ a:hover
 #wb_Text15
 {
    position: absolute;
-   left: 657px;
-   top: 410px;
-   width: 110px;
+   left: 84px;
+   top: 694px;
+   width: 86px;
    height: 15px;
    text-align: center;
    z-index: 39;
@@ -3547,9 +3200,9 @@ a:hover
 #wb_Text6
 {
    position: absolute;
-   left: 398px;
-   top: 342px;
-   width: 87px;
+   left: 84px;
+   top: 582px;
+   width: 88px;
    height: 15px;
    text-align: center;
    z-index: 33;
@@ -3557,9 +3210,9 @@ a:hover
 #typeInput
 {
    position: absolute;
-   left: 173px;
-   top: 13px;
-   width: 145px;
+   left: 176px;
+   top: 229px;
+   width: 118px;
    height: 16px;
    z-index: 23;
 }
@@ -3578,9 +3231,9 @@ a:hover
 #wb_t2b
 {
    position: absolute;
-   left: 602px;
-   top: 396px;
-   width: 19px;
+   left: 259px;
+   top: 637px;
+   width: 16px;
    height: 16px;
    z-index: 9;
 }
@@ -3597,9 +3250,9 @@ a:hover
 #wb_Text7
 {
    position: absolute;
-   left: 306px;
-   top: 353px;
-   width: 22px;
+   left: 6px;
+   top: 587px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 73;
@@ -3607,17 +3260,17 @@ a:hover
 #Line1
 {
    position: absolute;
-   left: 1px;
-   top: 308px;
-   width: 1000px;
+   left: 0px;
+   top: 547px;
+   width: 310px;
    z-index: 65;
 }
 #wb_Text36
 {
    position: absolute;
-   left: 329px;
-   top: 415px;
-   width: 22px;
+   left: 24px;
+   top: 657px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 55;
@@ -3631,56 +3284,55 @@ a:hover
 #lastnameInput
 {
    position: absolute;
-   left: 128px;
-   top: 219px;
-   width: 99px;
-   height: 16px;
+   left: 152px;
+   top: 406px;
+   width: 146px;
+   height: 18px;
    z-index: 27;
 }
 #wb_rb
 {
    position: absolute;
-   left: 635px;
-   top: 360px;
-   width: 22px;
+   left: 287px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 5;
 }
 #wb_janb
 {
    position: absolute;
-   left: 308px;
-   top: 366px;
-   width: 22px;
+   left: 6px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 74;
 }
 #wb_teacherpic
 {
    position: absolute;
-   left: 795px;
-   top: 341px;
-   width: 74px;
-   height: 81px;
+   left: 13px;
+   top: 928px;
+   width: 79px;
+   height: 98px;
    z-index: 56;
 }
 #wb_Text13
 {
    position: absolute;
-   left: 724px;
-   top: 32px;
+   left: 84px;
+   top: 34px;
    width: 141px;
    height: 15px;
-   visibility: hidden;
    text-align: center;
    z-index: 37;
 }
 #wb_Text31
 {
    position: absolute;
-   left: 173px;
-   top: 41px;
-   width: 155px;
+   left: 176px;
+   top: 182px;
+   width: 126px;
    height: 21px;
    text-align: center;
    z-index: 24;
@@ -3688,18 +3340,18 @@ a:hover
 #wb_s3b
 {
    position: absolute;
-   left: 570px;
-   top: 429px;
-   width: 22px;
+   left: 231px;
+   top: 670px;
+   width: 16px;
    height: 16px;
    z-index: 14;
 }
 #wb_s2b
 {
    position: absolute;
-   left: 568px;
-   top: 396px;
-   width: 22px;
+   left: 231px;
+   top: 637px;
+   width: 16px;
    height: 16px;
    z-index: 13;
 }
@@ -3712,9 +3364,9 @@ a:hover
 #wb_s1b
 {
    position: absolute;
-   left: 568px;
-   top: 360px;
-   width: 22px;
+   left: 231px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 11;
 }
@@ -3731,9 +3383,9 @@ a:hover
 #wb_Text1
 {
    position: absolute;
-   left: 9px;
-   top: 315px;
-   width: 288px;
+   left: 3px;
+   top: 743px;
+   width: 306px;
    height: 21px;
    text-align: center;
    z-index: 64;
@@ -3741,20 +3393,19 @@ a:hover
 #wb_Text22
 {
    position: absolute;
-   left: 1px;
-   top: 102px;
-   width: 361px;
+   left: 9px;
+   top: 148px;
+   width: 295px;
    height: 30px;
-   visibility: hidden;
    text-align: center;
    z-index: 61;
 }
 #wb_Text30
 {
    position: absolute;
-   left: 377px;
-   top: 430px;
-   width: 21px;
+   left: 63px;
+   top: 671px;
+   width: 23px;
    height: 15px;
    text-align: center;
    z-index: 43;
@@ -3762,28 +3413,27 @@ a:hover
 #wb_Text12
 {
    position: absolute;
-   left: 134px;
-   top: 16px;
-   width: 469px;
+   left: 71px;
+   top: 37px;
+   width: 232px;
    height: 36px;
-   visibility: hidden;
    text-align: center;
    z-index: 40;
 }
 #doeInput
 {
    position: absolute;
-   left: 9px;
-   top: 277px;
-   width: 218px;
+   left: 152px;
+   top: 435px;
+   width: 146px;
    height: 16px;
    z-index: 28;
 }
 #wb_term3b
 {
    position: absolute;
-   left: 490px;
-   top: 429px;
+   left: 176px;
+   top: 670px;
    width: 22px;
    height: 16px;
    z-index: 21;
@@ -3791,8 +3441,8 @@ a:hover
 #wb_term2b
 {
    position: absolute;
-   left: 490px;
-   top: 396px;
+   left: 176px;
+   top: 637px;
    width: 22px;
    height: 16px;
    z-index: 20;
@@ -3812,37 +3462,37 @@ a:hover
 #wb_t1b
 {
    position: absolute;
-   left: 602px;
-   top: 360px;
-   width: 22px;
+   left: 259px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 7;
 }
 #wb_Text2
 {
    position: absolute;
-   left: 377px;
-   top: 430px;
-   width: 21px;
-   height: 15px;
+   left: 63px;
+   top: 713px;
+   width: 23px;
+   height: 19px;
    text-align: center;
-   z-index: 86;
+   z-index: 84;
 }
 #wb_mayb
 {
    position: absolute;
-   left: 308px;
-   top: 396px;
-   width: 22px;
+   left: 6px;
+   top: 637px;
+   width: 16px;
    height: 16px;
    z-index: 76;
 }
 #wb_Text11
 {
    position: absolute;
-   left: 375px;
-   top: 315px;
-   width: 412px;
+   left: 2px;
+   top: 556px;
+   width: 308px;
    height: 21px;
    text-align: center;
    z-index: 66;
@@ -3850,18 +3500,18 @@ a:hover
 #firstnameInput
 {
    position: absolute;
-   left: 9px;
-   top: 219px;
-   width: 99px;
-   height: 16px;
+   left: 3px;
+   top: 406px;
+   width: 132px;
+   height: 18px;
    z-index: 62;
 }
 #wb_Text33
 {
    position: absolute;
-   left: 328px;
-   top: 383px;
-   width: 22px;
+   left: 25px;
+   top: 623px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 50;
@@ -3869,9 +3519,9 @@ a:hover
 #term1
 {
    position: absolute;
-   left: 398px;
-   top: 356px;
-   width: 77px;
+   left: 84px;
+   top: 597px;
+   width: 78px;
    height: 16px;
    z-index: 34;
 }
@@ -3884,16 +3534,16 @@ a:hover
    height: 41px;
    visibility: hidden;
    text-align: center;
-   z-index: 94;
+   z-index: 91;
 }
 #wb_EmbeddedPage4
 {
    position: absolute;
-   left: 0px;
-   top: 0px;
+   left: 323px;
+   top: 74px;
    width: 22px;
    height: 22px;
-   z-index: 98;
+   z-index: 95;
 }
 #slider4Value
 {
@@ -3905,8 +3555,8 @@ a:hover
 #wb_EmbeddedPage3
 {
    position: absolute;
-   left: 782px;
-   top: 478px;
+   left: 109px;
+   top: 976px;
    width: 200px;
    height: 50px;
    z-index: 82;
@@ -3914,9 +3564,9 @@ a:hover
 #wb_Text32
 {
    position: absolute;
-   left: 305px;
-   top: 383px;
-   width: 22px;
+   left: 6px;
+   top: 623px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 75;
@@ -3924,9 +3574,9 @@ a:hover
 #wb_Text20
 {
    position: absolute;
-   left: 254px;
-   top: 234px;
-   width: 99px;
+   left: 0px;
+   top: 531px;
+   width: 92px;
    height: 12px;
    text-align: right;
    z-index: 70;
@@ -3946,9 +3596,9 @@ a:hover
 #wb_Text10
 {
    position: absolute;
-   left: 528px;
-   top: 341px;
-   width: 22px;
+   left: 205px;
+   top: 582px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 15;
@@ -3956,9 +3606,9 @@ a:hover
 #wb_Text21
 {
    position: absolute;
-   left: 254px;
-   top: 201px;
-   width: 99px;
+   left: 5px;
+   top: 501px;
+   width: 87px;
    height: 12px;
    text-align: right;
    z-index: 71;
@@ -3966,36 +3616,36 @@ a:hover
 #term3
 {
    position: absolute;
-   left: 398px;
-   top: 424px;
-   width: 77px;
+   left: 84px;
+   top: 665px;
+   width: 78px;
    height: 16px;
    z-index: 36;
 }
 #teachertitle
 {
    position: absolute;
-   left: 949px;
-   top: 340px;
-   width: 33px;
+   left: 121px;
+   top: 932px;
+   width: 25px;
    height: 16px;
    z-index: 31;
 }
 #phone
 {
    position: absolute;
-   left: 135px;
-   top: 371px;
-   width: 152px;
+   left: 186px;
+   top: 797px;
+   width: 112px;
    height: 16px;
    z-index: 25;
 }
 #wb_bb
 {
    position: absolute;
-   left: 532px;
-   top: 361px;
-   width: 22px;
+   left: 204px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 17;
 }
@@ -4008,27 +3658,27 @@ a:hover
 #term2
 {
    position: absolute;
-   left: 398px;
-   top: 391px;
-   width: 77px;
+   left: 84px;
+   top: 632px;
+   width: 78px;
    height: 16px;
    z-index: 35;
 }
 #teacher
 {
    position: absolute;
-   left: 871px;
-   top: 368px;
-   width: 111px;
+   left: 161px;
+   top: 932px;
+   width: 137px;
    height: 16px;
    z-index: 26;
 }
 #wb_Text26
 {
    position: absolute;
-   left: 599px;
-   top: 341px;
-   width: 19px;
+   left: 259px;
+   top: 582px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 8;
@@ -4052,8 +3702,8 @@ a:hover
 #wb_parentpic
 {
    position: absolute;
-   left: 9px;
-   top: 356px;
+   left: 4px;
+   top: 767px;
    width: 119px;
    height: 96px;
    z-index: 67;
@@ -4061,18 +3711,18 @@ a:hover
 #wb_julb
 {
    position: absolute;
-   left: 355px;
-   top: 396px;
-   width: 22px;
+   left: 42px;
+   top: 637px;
+   width: 16px;
    height: 16px;
    z-index: 47;
 }
 #parenttitle
 {
    position: absolute;
-   left: 134px;
-   top: 340px;
-   width: 29px;
+   left: 145px;
+   top: 767px;
+   width: 25px;
    height: 16px;
    z-index: 29;
 }
@@ -4085,9 +3735,9 @@ a:hover
 #parentname
 {
    position: absolute;
-   left: 179px;
-   top: 340px;
-   width: 108px;
+   left: 186px;
+   top: 767px;
+   width: 113px;
    height: 16px;
    z-index: 18;
 }
@@ -4106,9 +3756,9 @@ a:hover
 #wb_Text27
 {
    position: absolute;
-   left: 632px;
-   top: 341px;
-   width: 20px;
+   left: 288px;
+   top: 582px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 6;
@@ -4129,7 +3779,7 @@ a:hover
    height: 73px;
    visibility: hidden;
    text-align: center;
-   z-index: 95;
+   z-index: 92;
 }
 #slider2Value
 {
@@ -4141,18 +3791,18 @@ a:hover
 #classInput
 {
    position: absolute;
-   left: 9px;
-   top: 190px;
-   width: 99px;
+   left: 3px;
+   top: 375px;
+   width: 132px;
    height: 16px;
    z-index: 72;
 }
 #wb_Parent_Notification
 {
    position: absolute;
-   left: 245px;
-   top: 284px;
-   width: 745px;
+   left: 8px;
+   top: 76px;
+   width: 294px;
    height: 17px;
    text-align: center;
    z-index: 59;
@@ -4160,9 +3810,9 @@ a:hover
 #wb_Text8
 {
    position: absolute;
-   left: 329px;
-   top: 353px;
-   width: 22px;
+   left: 24px;
+   top: 587px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 51;
@@ -4170,27 +3820,27 @@ a:hover
 #emailInput
 {
    position: absolute;
-   left: 135px;
-   top: 400px;
-   width: 152px;
+   left: 123px;
+   top: 827px;
+   width: 175px;
    height: 16px;
    z-index: 30;
 }
 #wb_term1b
 {
    position: absolute;
-   left: 490px;
-   top: 360px;
-   width: 22px;
+   left: 176px;
+   top: 601px;
+   width: 17px;
    height: 16px;
    z-index: 19;
 }
 #wb_Text25
 {
    position: absolute;
-   left: 564px;
-   top: 341px;
-   width: 22px;
+   left: 232px;
+   top: 582px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 12;
@@ -4198,8 +3848,8 @@ a:hover
 #Html2
 {
    position: absolute;
-   left: 422px;
-   top: 101px;
+   left: 7px;
+   top: 99px;
    width: 296px;
    height: 15px;
    z-index: 83;
@@ -4217,18 +3867,18 @@ a:hover
 #wb_junb
 {
    position: absolute;
-   left: 332px;
-   top: 396px;
-   width: 22px;
+   left: 24px;
+   top: 637px;
+   width: 16px;
    height: 16px;
    z-index: 53;
 }
 #wb_febb
 {
    position: absolute;
-   left: 332px;
-   top: 366px;
-   width: 22px;
+   left: 24px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 52;
 }
@@ -4241,27 +3891,27 @@ a:hover
 #wb_novb
 {
    position: absolute;
-   left: 355px;
-   top: 428px;
-   width: 22px;
+   left: 42px;
+   top: 671px;
+   width: 16px;
    height: 16px;
    z-index: 49;
 }
 #wb_marb
 {
    position: absolute;
-   left: 354px;
-   top: 366px;
-   width: 22px;
+   left: 42px;
+   top: 601px;
+   width: 16px;
    height: 16px;
    z-index: 45;
 }
 #wb_Text9
 {
    position: absolute;
-   left: 352px;
-   top: 353px;
-   width: 19px;
+   left: 42px;
+   top: 587px;
+   width: 14px;
    height: 15px;
    text-align: center;
    z-index: 44;
@@ -4269,11 +3919,11 @@ a:hover
 #wb_Form1
 {
    position: absolute;
-   left: 2px;
+   left: 0px;
    top: 0px;
-   width: 1007px;
-   height: 530px;
-   z-index: 97;
+   width: 321px;
+   height: 1033px;
+   z-index: 94;
 }
 @media only screen and (max-width: 1008px)
 {
@@ -4893,8 +4543,6 @@ body
    height: 21px;
    visibility: visible;
    display: inline;
-   background-color: rgba(0,0,0,0.12);
-   background-image: none;
 }
 #wb_Text31
 {
@@ -4944,11 +4592,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   font-size: 15px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
 }
 #lastnameInput
 {
@@ -5057,7 +4700,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   color: #006400;
 }
 #term1
 {
@@ -5074,7 +4716,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   color: #20B2AA;
 }
 #term2
 {
@@ -5091,7 +4732,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   color: #B8860B;
 }
 #term3
 {
@@ -5122,14 +4762,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   color: #0000FF;
-   font-size: 15px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   background-color: rgba(255,182,193,0.27);
-   background-image: none;
 }
 #total
 {
@@ -5547,25 +5179,6 @@ body
    margin: 0;
    padding: 0;
 }
-#learnerpic
-{
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-   border-top-left-radius: 50px;
-   border-top-right-radius: 0px;
-   border-bottom-right-radius: 50px;
-   border-bottom-left-radius: 0px;
-}
 #wb_Parent_Notification
 {
    left: 8px;
@@ -5623,11 +5236,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   font-size: 15px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
 }
 #firstnameInput
 {
@@ -5950,8 +5558,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: center;
-   background-color: rgba(240,128,128,0.31);
-   background-image: none;
 }
 #status
 {
@@ -5968,14 +5574,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: center;
-   color: #C71585;
-   font-size: 15px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   background-color: rgba(255,255,255,0.59);
-   background-image: none;
 }
 #idInput
 {
@@ -6100,15 +5698,6 @@ body
    font-size: 16px;
    width: 15px;
 }
-#wb_EmbeddedPage4
-{
-   left: 323px;
-   top: 74px;
-   width: 22px;
-   height: 22px;
-   visibility: visible;
-   display: inline;
-}
 #Html2
 {
    left: 7px;
@@ -6117,32 +5706,6 @@ body
    height: 15px;
    visibility: visible;
    display: inline;
-}
-#Button1
-{
-   left: 182px;
-   top: 118px;
-   width: 122px;
-   height: 26px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-}
-#Button2
-{
-   left: 11px;
-   top: 118px;
-   width: 122px;
-   height: 26px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
 }
 #wb_Text2
 {
@@ -6158,47 +5721,14 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_OverlayMenu1
+#wb_EmbeddedPage4
 {
-   left: 259px;
-   top: 13px;
-   width: 52px;
-   height: 36px;
+   left: 323px;
+   top: 74px;
+   width: 22px;
+   height: 22px;
    visibility: visible;
    display: inline;
-   margin: 0;
-}
-#OverlayMenu1
-{
-   background-color: rgba(66,66,66,0.00);
-   background-image: none;
-   border: 0px solid #424242;
-   border-radius: 0px;
-   width: 52px;
-   height: 36px;
-}
-#OverlayMenu1:hover
-{
-   background-color: #CCCCCC;
-   background-image: none;
-   border-color: #424242;
-}
-#OverlayMenu1 .line
-{
-   background: #4F4F4F;
-}
-#OverlayMenu1:hover .line
-{
-   background: #424242;
-}
-#OverlayMenu1 .line
-{
-   top: -2px;
-}
-#OverlayMenu1-overlay ul
-{
-   font-size: 19px;
-   text-align: center;
 }
 }
     /* Customize the appearance of the sliders */

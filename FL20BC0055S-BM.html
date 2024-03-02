@@ -11,11 +11,9 @@
 <link href="FWA.ico" rel="shortcut icon" type="image/x-icon">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="flyacade.css" rel="stylesheet">
-<link href="FS20BC0000S-A3.css" rel="stylesheet">
+<link href="FL20BC0055S-BM.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="skrollr.min.js"></script>
-<script src="wb.overlay.min.js"></script>
-<script src="wb.drilldownmenu.min.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -24,13 +22,6 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
-      $('#OverlayMenu1-overlay').overlay({hideTransition:true});
-      $('.OverlayMenu1').drilldownmenu({backText: 'Fly Back'});
-      $('#OverlayMenu1').on('click', function(e)
-      {
-         $.overlay.show($('#OverlayMenu1-overlay'));
-         return false;
-      });
    });
 </script>
     <script>   
@@ -484,7 +475,7 @@
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">B</span></div>
             <picture id="wb_classpic">
                <source media="(max-width:1008px)" srcset="">
-               <img src="images/avatar_bw.jpg" loading="lazy" id="classpic" alt="" width="155" height="155">
+               <img src="images/avatar_bw.jpg" loading="lazy" id="classpic" alt="" width="104" height="104">
             </picture>
             <div id="wb_bb">
                <input type="checkbox" id="bb" name="Checkbox11" value="on" disabled><label for="bb"></label></div>
@@ -553,13 +544,13 @@
                <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">O</span></div>
             <picture id="wb_teacherpic">
                <source media="(max-width:1008px)" srcset="">
-               <img src="images/avatar_green.jpg" id="teacherpic" alt="" width="74" height="74">
+               <img src="images/avatar_green.jpg" id="teacherpic" alt="" width="79" height="79">
             </picture>
             <div id="wb_Text19">
                <span style="color:#000000;font-family:Share;font-size:11px;">IQ Tests:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <picture id="wb_learnerpic">
                <source media="(max-width:1008px)" srcset="">
-               <img src="images/avatar_bw.jpg" id="learnerpic" alt="" width="155" height="155">
+               <img src="images/avatar_bw.jpg" id="learnerpic" alt="" width="163" height="163">
             </picture>
             <div id="wb_Parent_Notification" dir="rtl">
                <div id="Parent_Notification">
@@ -601,7 +592,7 @@
             <div id="wb_sepb">
                <input type="checkbox" id="sepb" name="Checkbox11" value="on" disabled><label for="sepb"></label></div>
             <div id="wb_Image1">
-               <a href="index.html"><img src="images/Flying_Wings_Academy.png" id="Image1" alt="Logo" title="Flying Wings Home" width="187" height="153"></a></div>
+               <a href="index.html"><img src="images/Flying_Wings_Academy.png" id="Image1" alt="Logo" title="Flying Wings Home" width="96" height="79"></a></div>
             <input type="text" id="status" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="Status">
             <input type="text" id="idInput" name="learners_id" value="" readonly autocomplete="off" spellcheck="false" placeholder="ID Number">
             <div id="wb_EmbeddedPage3">
@@ -629,7 +620,7 @@
 
                <script>               
                    let csvData = [];
-                   let currentRow = 0;
+                   let currentRow = 55;
                
                    function loadCSV() {
                      const xhr = new XMLHttpRequest();
@@ -843,127 +834,13 @@
                </form>
 </body>
 </html></div>
-            <input type="button" id="Button2" onclick="previousRow();return false;" name="" value="Previous Record">
-            <input type="button" id="Button1" onclick="nextRow();return false;" name="" value="Next Record">
             <div id="wb_Text2">
                <span style="color:#0000FF;font-family:'Times New Roman';font-size:17px;"><strong>K</strong></span></div>
-            <div id="wb_OverlayMenu1">
-               <a href="#" id="OverlayMenu1">
-                  <span class="line"></span>
-                  <span class="line">
-                  </span><span class="line"></span>
-               </a>
-            </div>
          </form>
       </div>
       <div id="wb_EmbeddedPage4">
 
       </div>
-   </div>
-   <div id="OverlayMenu1-overlay">
-      <div class="OverlayMenu1">
-         <ul class="drilldown-menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Baby&nbsp;Class</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0001S-SM.html" class="OverlayMenu1-effect">Shaelyn&nbsp;Mbaso</a></li>
-                  <li><a role="menuitem" href="./FL20BC0058S-MD.html" class="OverlayMenu1-effect">Manasseh&nbsp;Daka</a></li>
-                  <li><a role="menuitem" href="./FL20BC0062S-CM.html" class="OverlayMenu1-effect">Chipego&nbsp;Milimo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0057S-GS.html" class="OverlayMenu1-effect">Gabriel&nbsp;Sinkala</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Middle&nbsp;Class</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0039S-BN.html" class="OverlayMenu1-effect">Beatrice&nbsp;Nakamba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0015S-BL.html" class="OverlayMenu1-effect">Blessings&nbsp;Lungendo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0032S-GC.html" class="OverlayMenu1-effect">Grace&nbsp;Chola</a></li>
-                  <li><a role="menuitem" href="./FL20BC0042S-PK.html" class="OverlayMenu1-effect">Penlop&nbsp;Kaluba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0020S-SM.html" class="OverlayMenu1-effect">Sylvester&nbsp;Mweemba</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Reception&nbsp;Class</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0017S-AM.html" class="OverlayMenu1-effect">Alice&nbsp;Makoloni</a></li>
-                  <li><a role="menuitem" href="./FL20BC0048S-BS.html" class="OverlayMenu1-effect">Bessy&nbsp;Saili</a></li>
-                  <li><a role="menuitem" href="./FL20BC0008S-BN.html" class="OverlayMenu1-effect">Blessings&nbsp;Nambela</a></li>
-                  <li><a role="menuitem" href="./FL20BC0024S-CM.html" class="OverlayMenu1-effect">Comfort&nbsp;Mulenga</a></li>
-                  <li><a role="menuitem" href="./FL20BC0016S-FL.html" class="OverlayMenu1-effect">Francis&nbsp;Lumbongo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0023S-ML.html" class="OverlayMenu1-effect">Memory&nbsp;Lumbongo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0007S-ML.html" class="OverlayMenu1-effect">Mercy&nbsp;Lungu</a></li>
-                  <li><a role="menuitem" href="./FL20BC0006S-NS.html" class="OverlayMenu1-effect">Natasha&nbsp;Shamboko</a></li>
-                  <li><a role="menuitem" href="./FL20BC0051S-SH.html" class="OverlayMenu1-effect">Saidi&nbsp;Hamuzembo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0026S-SK.html" class="OverlayMenu1-effect">Samuel&nbsp;Kakoma</a></li>
-                  <li><a role="menuitem" href="./FL20BC0009S-TM.html" class="OverlayMenu1-effect">Thelma&nbsp;Mukuka</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;1</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0018S-AS.html" class="OverlayMenu1-effect">Abel&nbsp;Silungwe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0008S-BN.html" class="OverlayMenu1-effect">Blessings&nbsp;Nambela</a></li>
-                  <li><a role="menuitem" href="./FL20BC0014S-CM.html" class="OverlayMenu1-effect">Comfort&nbsp;Mutambo</a></li>
-                  <li><a role="menuitem" href="./FL20BC0021S-EP.html" class="OverlayMenu1-effect">Eric&nbsp;Ponda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0010S-EM.html" class="OverlayMenu1-effect">Esta&nbsp;Mbewe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0030S-FK.html" class="OverlayMenu1-effect">Finess&nbsp;Kashanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0027S-KK.html" class="OverlayMenu1-effect">Kennedy&nbsp;Kaonga</a></li>
-                  <li><a role="menuitem" href="./FL20BC0041S-MC.html" class="OverlayMenu1-effect">Mirriam&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0031S-NM.html" class="OverlayMenu1-effect">Naomi&nbsp;Mainza</a></li>
-                  <li><a role="menuitem" href="./FL20BC0009S-TM.html" class="OverlayMenu1-effect">Thelma&nbsp;Mukuka</a></li>
-                  <li><a role="menuitem" href="./FL20BC0040S-VC.html" class="OverlayMenu1-effect">Victor&nbsp;Chibuye</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;2</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0033S-CN.html" class="OverlayMenu1-effect">Catherine&nbsp;Nkandu</a></li>
-                  <li><a role="menuitem" href="./FL20BC0052S-CP.html" class="OverlayMenu1-effect">Christine&nbsp;Phiri</a></li>
-                  <li><a role="menuitem" href="./FL20BC0034S-CS.html" class="OverlayMenu1-effect">Clarence&nbsp;Silwamba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0035S-EK.html" class="OverlayMenu1-effect">Esther&nbsp;Kombe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0019S-RP.html" class="OverlayMenu1-effect">Ruth&nbsp;Phiri</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;3</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0005S-FC.html" class="OverlayMenu1-effect">Faith&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0053S-FP.html" class="OverlayMenu1-effect">Favour&nbsp;Phiri</a></li>
-                  <li><a role="menuitem" href="./FL20BC0004S-FS.html" class="OverlayMenu1-effect">Frank&nbsp;Shamboko</a></li>
-                  <li><a role="menuitem" href="./FL20BC0037S-KC.html" class="OverlayMenu1-effect">Kimberly&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0002S-LM.html" class="OverlayMenu1-effect">Luyando&nbsp;Mweemba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0054S-NK.html" class="OverlayMenu1-effect">Nathan&nbsp;Kavimba</a></li>
-                  <li><a role="menuitem" href="./FL20BC0038S-PC.html" class="OverlayMenu1-effect">Promise&nbsp;Chanda</a></li>
-                  <li><a role="menuitem" href="./FL20BC0003S-TL.html" class="OverlayMenu1-effect">Taonga&nbsp;Lungu</a></li>
-                  <li><a role="menuitem" href="./FL20BC0059S-EM.html" class="OverlayMenu1-effect">Emmanuel&nbsp;Mwanza</a></li>
-                  <li><a role="menuitem" href="./FL20BC0063S-DK.html" class="OverlayMenu1-effect">Deborah&nbsp;Kaonga</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;4</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0061S-JS.html" class="OverlayMenu1-effect">Jonathan&nbsp;Siame</a></li>
-                  <li><a role="menuitem" href="./FL20BC0022S-PM.html" class="OverlayMenu1-effect">Patience&nbsp;Mukwenya</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;5</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0012S-JS.html" class="OverlayMenu1-effect">Jessica&nbsp;Shamboko</a></li>
-                  <li><a role="menuitem" href="./FL20BC0011S-TM.html" class="OverlayMenu1-effect">Taonga&nbsp;Mbewe</a></li>
-                  <li><a role="menuitem" href="./FL20BC0063S-DK.html" class="OverlayMenu1-effect">Emmanuel&nbsp;Kasonde</a></li>
-               </ul>
-            </li>
-            <li>
-               <a role="menuitem" href="#" class="OverlayMenu1-effect">Grade&nbsp;6</a>
-               <ul class="drilldown-submenu" role="menu">
-                  <li><a role="menuitem" href="./FL20BC0013S-ES.html" class="OverlayMenu1-effect">Effeso&nbsp;Sinkala</a></li>
-                  <li><a role="menuitem" href="./FL20BC0029S-LM.html" class="OverlayMenu1-effect">Lushomo&nbsp;Milimo</a></li>
-               </ul>
-            </li>
-         </ul>
-      </div>
-      <a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
    </div>
 </body>
 </html>
