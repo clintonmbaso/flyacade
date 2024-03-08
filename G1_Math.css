@@ -6831,14 +6831,14 @@ body
     background-color: #f1f1f1;
     padding: 10px;
     border-radius: 5px;
-	  z-index: 999;
+	  z-index: 99;
   }
   /* Styles for individual icons */
   .icon {
     margin-bottom: 20px;
     cursor: pointer;
     color: black;
-	  z-index: 999;
+    z-index: 99;
   }
   /* Styles for Font Awesome icons */
   .fa-icon {
