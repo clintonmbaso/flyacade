@@ -6820,7 +6820,7 @@ body
     line-height: 50px;
     cursor: pointer;
     color: white;
-	  z-index: 999;
+    z-index: 999;
   }
   /* Styles for icon list */
   .icon-list {
@@ -6831,14 +6831,13 @@ body
     background-color: #f1f1f1;
     padding: 10px;
     border-radius: 5px;
-	  z-index: 99;
   }
   /* Styles for individual icons */
   .icon {
     margin-bottom: 20px;
     cursor: pointer;
     color: black;
-    z-index: 99;
+    
   }
   /* Styles for Font Awesome icons */
   .fa-icon {
@@ -6900,7 +6899,7 @@ body
         max-height: 80%;
         overflow-y: auto;
         border-radius: 20px;
-	z-index: 888;
+	z-index: 999;
     }
     /* Overlay styles */
     .overlay {
