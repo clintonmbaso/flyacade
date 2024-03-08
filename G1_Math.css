@@ -6900,6 +6900,7 @@ body
         max-height: 80%;
         overflow-y: auto;
         border-radius: 20px;
+	z-index: 888;
     }
     /* Overlay styles */
     .overlay {
