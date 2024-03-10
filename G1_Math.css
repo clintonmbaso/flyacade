@@ -5925,8 +5925,8 @@ body
 }
 #EmbeddedPage1
 {
-   width: 53px;
-   height: 46px;
+   width: 320px;
+   height: 57px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -5935,7 +5935,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 6px;
+   width: 44px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -5944,7 +5944,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 6px;
+   width: 44px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -5972,7 +5972,7 @@ body
 }
 #PanelLayer
 {
-   left: 462px;
+   left: 329px;
    top: 4px;
    width: 306px;
 }
@@ -6649,11 +6649,11 @@ body
 }
 #prevButton1
 {
-   width: 80px;
+   width: 90px;
    height: 25px;
    visibility: visible;
    display: inline-block;
-   margin: 0 20px 10px 0 ;
+   margin: 0 40px 10px 0 ;
    padding: 1px 6px 1px 6px;
    border-top-width: 0px;
    border-right-width: 0px;
@@ -6674,11 +6674,11 @@ body
 }
 #nextButton1
 {
-   width: 80px;
+   width: 90px;
    height: 25px;
    visibility: visible;
    display: inline-block;
-   margin: 0 0 10px 20px;
+   margin: 0 0 10px 40px;
    padding: 1px 6px 1px 6px;
    border-top-width: 0px;
    border-right-width: 0px;
@@ -6801,7 +6801,7 @@ body
 {
    left: 320px;
    top: 71px;
-   width: 29px;
+   width: 19px;
    height: 29px;
    visibility: visible;
    display: inline;
@@ -6820,7 +6820,7 @@ body
     line-height: 50px;
     cursor: pointer;
     color: white;
-    z-index: 999;
+	  z-index: 999;
   }
   /* Styles for icon list */
   .icon-list {
@@ -6831,13 +6831,14 @@ body
     background-color: #f1f1f1;
     padding: 10px;
     border-radius: 5px;
+	  z-index: 999;
   }
   /* Styles for individual icons */
   .icon {
     margin-bottom: 20px;
     cursor: pointer;
     color: black;
-    
+	  z-index: 999;
   }
   /* Styles for Font Awesome icons */
   .fa-icon {
@@ -6860,8 +6861,8 @@ body
 .icon img {
   width: 24px; /* Or any size you prefer */
   height: auto;
+  background: blue;
 }
-
 .icon-container {
   display: flex;
   align-items: center;
@@ -6899,7 +6900,7 @@ body
         max-height: 80%;
         overflow-y: auto;
         border-radius: 20px;
-	z-index: 999;
+        z-index: 999;
     }
     /* Overlay styles */
     .overlay {
@@ -6915,18 +6916,4 @@ body
   #popupContent {
         text-align: justify;
     }
-  
-   .week-iconic {
-      font-size: 24px;
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      border-radius: 50%;
-      background-color: #007bff; /* You can change the background color */
-      color: #ffffff; /* You can change the text color */
-	    }
-	
-	
-	
+

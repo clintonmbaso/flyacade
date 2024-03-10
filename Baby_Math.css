@@ -5943,7 +5943,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 46px;
+   width: 44px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -5952,7 +5952,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 46px;
+   width: 44px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -6807,3 +6807,113 @@ body
    border-bottom-left-radius: 0px;
 }
 }
+  /* Styles for sticky icon */
+  #sticky-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: white;
+	  z-index: 999;
+  }
+  /* Styles for icon list */
+  .icon-list {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    display: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+	  z-index: 999;
+  }
+  /* Styles for individual icons */
+  .icon {
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: black;
+	  z-index: 999;
+  }
+  /* Styles for Font Awesome icons */
+  .fa-icon {
+    font-size: 34px;
+  }
+  /* Styles for PDF viewer */
+  #pdf-viewer {
+    width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scrolling */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+  }
+        .pdf-page {
+            margin: 10px 0;
+            max-width: 100%;
+            max-height: 100%;
+        }
+.icon img {
+  width: 24px; /* Or any size you prefer */
+  height: auto;
+  background: blue;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative; /* Allow absolute positioning within */
+}
+.icon-caption {
+  position: absolute;
+  left: -60px; /* Adjust based on the actual width of your captions */
+  white-space: nowrap;
+  font-size: 14px;
+  visibility: visible; /* Hide caption initially */
+  opacity: 0.7;
+  transition: all 2s ease; /* Smooth transition for sliding in */
+  font-family: 'Your Fancy Font', cursive; /* Replace 'Your Fancy Font' with your desired font */
+  color: blue; /* Blue color */
+  font-style: italic; /* Italic style */
+  text-align: center; /* Align text to the right */
+}
+.child-icon {
+ border-radius: 50px; /* Adjustments if needed */
+}
+	
+    /* Popup styles */
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 80vw; /* Updated width */
+        max-height: 80%;
+        overflow-y: auto;
+        border-radius: 20px;
+        z-index: 999;
+    }
+    /* Overlay styles */
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+  
+  #popupContent {
+        text-align: justify;
+    }
+
