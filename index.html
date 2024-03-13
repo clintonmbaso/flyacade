@@ -9,6 +9,18 @@
   gtag('js', new Date());
 
   gtag('config', 'G-4SGB13276C');
+
+
+// Request permission for notifications
+Notification.requestPermission().then(function(permission) {
+  if (permission === 'granted') {
+    // Notification permission granted
+    new Notification('Title', {
+      body: 'Notification body text'
+    });
+  }
+});
+
 </script>
    
 <meta charset="utf-8">
