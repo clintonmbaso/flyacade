@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- Assuming you're using Font Awesome for icons -->
+<!-- Link to Font Awesome for the lightbulb icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Link to noUiSlider CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+
+<!-- Link to noUiSlider JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>    <style>
+body {
+            font-family: Arial, sans-serif;
+            background-image: url('images/nature1.jpg'); /* Replace 'background-image.jpg' with your image file */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+/* Quiz container */
+#quiz {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+    display: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form styling */
+#email-form {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#email-form label {
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#email-form input[type="text"],
+#email-form input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#phone {
+  width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#email-form button {
+    width: 100%;
+}
+
+/* Result container styling */
+#result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Adjusted alignment */
+}
+
+#result-container h2 {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgba(24,56,26,0.2);
+    text-align: center; /* Centered heading */
+}
+
+#result-text {
+    font-size: 16px; /* Reduced font size for better readability */
+    line-height: 1.6;
+    margin-top: 20px; /* Added spacing between heading and content */
+}
+
+#result-text p {
+    margin-bottom: 10px; /* Added spacing between paragraphs */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.result-value {
+    font-weight: normal;
+    white-space: normal; /* Allows wrapping */
+}
+
+/* Timer container */
+#timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#timer-slider {
+    flex: 1;
+    pointer-events: none; 
+}
+
+#hint-button-container {
+    margin-right: auto; /* Adjust as needed */
+}
+
+#hint-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hint-button:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+#hint-button:hover .bulb-icon {
+    text-shadow: 0 0 10px yellow; /* Add text shadow effect only to the bulb icon on hover */
+}
+
+.hint-disabled #hint-button:hover .bulb-icon {
+    text-shadow: none; /* Remove text shadow effect when hint is disabled */
+}
+
+#timer-display {
+    font-size: 16px; /* Adjust as needed */
+    margin-left: auto; 
+}
+
+/* Quiz question styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+#question-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#question-container li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#question-container li:hover {
+    background-color: #e9e9e9;
+}
+
+#question-container li.correct {
+    background-color: #b9e3b3; /* Green color for correct answer */
+    animation: correctEffect 0.5s ease;
+}
+
+#question-container li.incorrect {
+    background-color: #ffcccc; /* Red color for incorrect answer */
+    animation: incorrectEffect 0.5s ease;
+}
+
+@keyframes correctEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes incorrectEffect {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+  
+  .hint-tooltip {
+    position: fixed;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+  
+  .bulb-icon {
+    color: red; /* Default color for enabled hint */
+}
+
+.hint-disabled .bulb-icon {
+    color: black; /* Color for disabled hint */
+}
+
+/* Custom styles for the slider */
+
+/* Background color of the slider track */
+.noUi-target {
+    background-color: green;
+}
+
+/* Hide the slider handle */
+.noUi-handle {
+    display: block;
+}
+
+/* Color of the active part of the slider track */
+.noUi-connect {
+    background-color: #4CAF50;
+}
+
+/* Color of the inactive part of the slider track */
+.noUi-connects {
+    background-color: #ddd;
+}
+    </style>
+</head>
+<body>
+    <form id="email-form" action="send_email.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="church">Church:</label>
+        <input type="text" id="church" name="church"><br>
+        <label for="ministry">Ministry:</label>
+        <input type="text" id="ministry" name="ministry"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <button type="button" onclick="startQuiz()">Start Quiz</button>
+    </form>
+
+    <div id="quiz" style="display: none;">
+        <div id="timer-container">
+          <div id="hint-button-container">
+             <button id="hint-button" onclick="showHint(questions[currentQuestionIndex])"><i class="fas fa-lightbulb bulb-icon"></i></button>
+          </div>
+          <input type="range" id="timer-slider" min="0" max="100" value="100">
+          <!--  <div id="timer-slider"></div> -->
+          <div id="timer-display"></div>
+     </div>
+
+        <div id="question-container"></div>
+        <div id="navigation-buttons">
+            <button onclick="prevQuestion()" id="prev-btn" style="display: none;">Previous</button>
+            <button onclick="nextQuestion()" id="next-btn" style="display: none;">Next</button>
+            <button onclick="submitQuiz()" id="submit-btn" style="display: none;">Submit</button>
+ </div>
+            </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+
+     </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+    <script>
+        let name;
+        let email;
+        let quizStarted = false;
+
+        const questions = [
+  {
+        "question": "Which branch of biology focuses on the study of plants?",
+        "options": [
+            { "text": "Zoology", "isCorrect": false },
+            { "text": "Botany", "isCorrect": true },
+            { "text": "Ecology", "isCorrect": false },
+            { "text": "Entomology", "isCorrect": false }
+        ],
+        "hint": "This branch deals with the life processes and structures of various plant species."
+    },
+    {
+        "question": "What is the process by which living organisms produce offspring?",
+        "options": [
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Excretion", "isCorrect": false },
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": true }
+        ],
+        "hint": "This involves the creation of new individuals of the same species."
+    },
+    {
+        "question": "Which type of respiration occurs in the absence of oxygen?",
+        "options": [
+            { "text": "Aerobic respiration", "isCorrect": false },
+            { "text": "Anaerobic respiration", "isCorrect": true },
+            { "text": "Photosynthesis", "isCorrect": false },
+            { "text": "Autotrophic respiration", "isCorrect": false }
+        ],
+        "hint": "This type of respiration is less efficient in yielding energy compared to another type."
+    },
+    {
+        "question": "What is the removal of toxic metabolic wastes from the cells of the body called?",
+        "options": [
+            { "text": "Feeding", "isCorrect": false },
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Excretion", "isCorrect": true },
+            { "text": "Irritability", "isCorrect": false }
+        ],
+        "hint": "It involves getting rid of harmful substances produced during metabolism."
+    },
+    {
+        "question": "Which type of nutrition involves an organism making its own food?",
+        "options": [
+            { "text": "Autotrophic nutrition", "isCorrect": true },
+            { "text": "Heterotrophic nutrition", "isCorrect": false },
+            { "text": "Anaerobic nutrition", "isCorrect": false },
+            { "text": "Photosynthetic nutrition", "isCorrect": false }
+        ],
+        "hint": "This type of nutrition is common among green plants."
+    },
+    {
+        "question": "What is the ability of an organism to detect and respond to stimuli called?",
+        "options": [
+            { "text": "Excretion", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": false },
+            { "text": "Irritability", "isCorrect": true },
+            { "text": "Respiration", "isCorrect": false }
+        ],
+        "hint": "This characteristic allows organisms to react to changes in their environment."
+    },
+    {
+        "question": "Which branch of biology studies the interactions of organisms with each other and their non-living environment?",
+        "options": [
+            { "text": "Botany", "isCorrect": false },
+            { "text": "Ecology", "isCorrect": true },
+            { "text": "Zoology", "isCorrect": false },
+            { "text": "Entomology", "isCorrect": false }
+        ],
+        "hint": "This branch explores ecosystems and environmental relationships."
+    },
+    {
+        "question": "Which type of metabolic reaction involves the breakdown of complex molecules into simpler ones?",
+        "options": [
+            { "text": "Anabolic reactions", "isCorrect": false },
+            { "text": "Catabolic reactions", "isCorrect": true },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Photosynthesis", "isCorrect": false }
+        ],
+        "hint": "This process releases energy from larger molecules."
+    },
+    {
+        "question": "Which characteristic of living things involves a permanent increase in size and complexity?",
+        "options": [
+            { "text": "Movement", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": false },
+            { "text": "Growth", "isCorrect": true },
+            { "text": "Feeding", "isCorrect": false }
+        ],
+        "hint": "This feature is evident in the development of an organism."
+    },
+    {
+        "question": "Which type of reproduction involves the fusion of male and female gametes?",
+        "options": [
+            { "text": "Asexual reproduction", "isCorrect": false },
+            { "text": "Autotrophic reproduction", "isCorrect": false },
+            { "text": "Heterotrophic reproduction", "isCorrect": false },
+            { "text": "Sexual reproduction", "isCorrect": true }
+        ],
+        "hint": "This type of reproduction leads to genetic variation in offspring."
+    },
+    {
+        "question": "Which metabolic reactions involve the synthesis of complex molecules from simpler ones?",
+        "options": [
+            { "text": "Catabolic reactions", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Digestion", "isCorrect": false },
+            { "text": "Anabolic reactions", "isCorrect": true }
+        ],
+        "hint": "This process requires energy input."
+    },
+    {
+        "question": "Which type of nutrition involves obtaining food from the bodies of other organisms?",
+        "options": [
+            { "text": "Heterotrophic nutrition", "isCorrect": true },
+            { "text": "Autotrophic nutrition", "isCorrect": false },
+            { "text": "Anaerobic nutrition", "isCorrect": false },
+            { "text": "Photosynthetic nutrition", "isCorrect": false }
+        ],
+        "hint": "This type of nutrition involves consuming pre-existing organic matter."
+    },
+    {
+        "question": "What are the basic functional units of living organisms?",
+        "options": [
+            { "text": "Organs", "isCorrect": false },
+            { "text": "Tissues", "isCorrect": false },
+            { "text": "Cells", "isCorrect": true },
+            { "text": "Systems", "isCorrect": false }
+        ],
+        "hint": "These units are the building blocks of all living organisms."
+    },
+    {
+        "question": "Which type of respiration occurs in the presence of oxygen?",
+        "options": [
+            { "text": "Anaerobic respiration", "isCorrect": false },
+            { "text": "Autotrophic respiration", "isCorrect": false },
+            { "text": "Aerobic respiration", "isCorrect": true },
+            { "text": "Photosynthetic respiration", "isCorrect": false }
+        ],
+        "hint": "This type of respiration is more efficient and yields more energy."
+    },
+    {
+        "question": "What is the process by which living organisms obtain food?",
+        "options": [
+            { "text": "Irritability", "isCorrect": false },
+            { "text": "Movement", "isCorrect": false },
+            { "text": "Feeding", "isCorrect": true },
+            { "text": "Respiration", "isCorrect": false }
+        ],
+        "hint": "This process involves consuming nutrients for energy and growth."
+    },
+    {
+        "question": "Which characteristic of living things involves the ability to move and change position?",
+        "options": [
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": false },
+            { "text": "Movement", "isCorrect": true },
+            { "text": "Excretion", "isCorrect": false }
+        ],
+        "hint": "This characteristic includes locomotion and changes in posture."
+    },
+    {
+        "question": "Which branch of biology studies the study of insects?",
+        "options": [
+            { "text": "Botany", "isCorrect": false },
+            { "text": "Ecology", "isCorrect": false },
+            { "text": "Zoology", "isCorrect": false },
+            { "text": "Entomology", "isCorrect": true }
+        ],
+        "hint": "This branch specifically focuses on the diverse world of insects."
+    },
+    {
+        "question": "What is the sum total of chemical reactions inside living cells called?",
+        "options": [
+            { "text": "Metabolism", "isCorrect": true },
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Excretion", "isCorrect": false }
+        ],
+        "hint": "This term encompasses all the biochemical processes in an organism."
+    },
+    {
+        "question": "Which type of reproduction results in genetically identical offspring?",
+        "options": [
+            { "text": "Asexual reproduction", "isCorrect": true },
+            { "text": "Sexual reproduction", "isCorrect": false },
+            { "text": "Heterotrophic reproduction", "isCorrect": false },
+            { "text": "Autotrophic reproduction", "isCorrect": false }
+        ],
+        "hint": "This type of reproduction involves no genetic variation."
+    },
+    {
+        "question": "What is the release of energy from food substances inside living cells called?",
+        "options": [
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Movement", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": true },
+            { "text": "Excretion", "isCorrect": false }
+        ],
+        "hint": "This process is essential for providing energy to sustain life."
+    },
+    {
+        "question": "Which branch of biology focuses on the study of animal life?",
+        "options": [
+            { "text": "Botany", "isCorrect": false },
+            { "text": "Zoology", "isCorrect": true },
+            { "text": "Ecology", "isCorrect": false },
+            { "text": "Entomology", "isCorrect": false }
+        ],
+        "hint": "This branch delves into the diversity and behaviors of various animal species."
+    },
+    {
+        "question": "What is the process by which living organisms convert food into energy?",
+        "options": [
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": true },
+            { "text": "Excretion", "isCorrect": false }
+        ],
+        "hint": "This process involves the breakdown of food molecules to release energy."
+    },
+    {
+        "question": "Which type of nutrition involves consuming food produced by other organisms?",
+        "options": [
+            { "text": "Autotrophic nutrition", "isCorrect": false },
+            { "text": "Heterotrophic nutrition", "isCorrect": true },
+            { "text": "Anaerobic nutrition", "isCorrect": false },
+            { "text": "Photosynthetic nutrition", "isCorrect": false }
+        ],
+        "hint": "This type of nutrition relies on ingesting pre-formed organic molecules."
+    },
+    {
+        "question": "What characteristic of living things involves responding to external stimuli?",
+        "options": [
+            { "text": "Movement", "isCorrect": false },
+            { "text": "Feeding", "isCorrect": false },
+            { "text": "Sensitivity", "isCorrect": true },
+            { "text": "Growth", "isCorrect": false }
+        ],
+        "hint": "This characteristic enables organisms to detect changes in their environment."
+    },
+    {
+        "question": "Which type of reproduction involves the formation of offspring from a single parent without gamete fusion?",
+        "options": [
+            { "text": "Sexual reproduction", "isCorrect": false },
+            { "text": "Asexual reproduction", "isCorrect": true },
+            { "text": "Heterotrophic reproduction", "isCorrect": false },
+            { "text": "Autotrophic reproduction", "isCorrect": false }
+        ],
+        "hint": "This type of reproduction yields genetically identical offspring."
+    },
+    {
+        "question": "Which metabolic reactions involve the synthesis of complex molecules from simpler ones?",
+        "options": [
+            { "text": "Catabolic reactions", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Digestion", "isCorrect": false },
+            { "text": "Anabolic reactions", "isCorrect": true }
+        ],
+        "hint": "This process requires energy and is involved in growth and repair."
+    },
+    {
+        "question": "What is the removal of carbon dioxide and other metabolic wastes from the body called?",
+        "options": [
+            { "text": "Feeding", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Excretion", "isCorrect": true },
+            { "text": "Reproduction", "isCorrect": false }
+        ],
+        "hint": "This process helps maintain internal balance and prevent toxin buildup."
+    },
+    {
+        "question": "Which type of respiration occurs in the absence of oxygen?",
+        "options": [
+            { "text": "Aerobic respiration", "isCorrect": false },
+            { "text": "Anaerobic respiration", "isCorrect": true },
+            { "text": "Autotrophic respiration", "isCorrect": false },
+            { "text": "Photosynthetic respiration", "isCorrect": false }
+        ],
+        "hint": "This type of respiration is less efficient in energy production."
+    },
+    {
+        "question": "Which characteristic of living things involves an increase in size and complexity?",
+        "options": [
+            { "text": "Movement", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": false },
+            { "text": "Growth", "isCorrect": true },
+            { "text": "Sensitivity", "isCorrect": false }
+        ],
+        "hint": "This characteristic is evident in the development of an organism over time."
+    },
+    {
+        "question": "Which branch of biology studies the interactions between organisms and their environment?",
+        "options": [
+            { "text": "Botany", "isCorrect": false },
+            { "text": "Ecology", "isCorrect": true },
+            { "text": "Zoology", "isCorrect": false },
+            { "text": "Entomology", "isCorrect": false }
+        ],
+        "hint": "This branch explores how organisms adapt and survive in different habitats."
+    },
+    {
+        "question": "Which type of nutrition involves producing food using sunlight?",
+        "options": [
+            { "text": "Autotrophic nutrition", "isCorrect": true },
+            { "text": "Heterotrophic nutrition", "isCorrect": false },
+            { "text": "Anaerobic nutrition", "isCorrect": false },
+            { "text": "Photosynthetic nutrition", "isCorrect": false }
+        ],
+        "hint": "This type of nutrition is characteristic of green plants."
+    },
+    {
+        "question": "What is the ability of an organism to move independently called?",
+        "options": [
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Sensitivity", "isCorrect": false },
+            { "text": "Locomotion", "isCorrect": true },
+            { "text": "Growth", "isCorrect": false }
+        ],
+        "hint": "This allows organisms to change position and respond to their surroundings."
+    },
+    {
+        "question": "Which metabolic reactions involve breaking down complex molecules into simpler ones?",
+        "options": [
+            { "text": "Anabolic reactions", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Photosynthesis", "isCorrect": false },
+            { "text": "Catabolic reactions", "isCorrect": true }
+        ],
+        "hint": "This process releases energy used by the organism."
+    },
+    {
+        "question": "What are the basic units of life that make up all living organisms?",
+        "options": [
+            { "text": "Organs", "isCorrect": false },
+            { "text": "Tissues", "isCorrect": false },
+            { "text": "Cells", "isCorrect": true },
+            { "text": "Systems", "isCorrect": false }
+        ],
+        "hint": "These structures are responsible for all functions of living organisms."
+    },
+    {
+        "question": "What are the basic units of life that make up all living organisms?",
+        "options": [
+            { "text": "Organs", "isCorrect": false },
+            { "text": "Tissues", "isCorrect": false },
+            { "text": "Cells", "isCorrect": true },
+            { "text": "Systems", "isCorrect": false }
+        ],
+        "hint": "These structures are responsible for all functions of living organisms."
+    },
+    {
+        "question": "Which type of reproduction involves the fusion of male and female gametes?",
+        "options": [
+            { "text": "Asexual reproduction", "isCorrect": false },
+            { "text": "Autotrophic reproduction", "isCorrect": false },
+            { "text": "Heterotrophic reproduction", "isCorrect": false },
+            { "text": "Sexual reproduction", "isCorrect": true }
+        ],
+        "hint": "This type of reproduction leads to genetic variation among offspring."
+    },
+    {
+        "question": "What is the sum of all chemical reactions occurring in an organism called?",
+        "options": [
+            { "text": "Metabolism", "isCorrect": true },
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": false },
+            { "text": "Excretion", "isCorrect": false }
+        ],
+        "hint": "This encompasses both anabolic and catabolic processes."
+    },
+    {
+        "question": "Which type of nutrition involves obtaining food by consuming other organisms?",
+        "options": [
+            { "text": "Autotrophic nutrition", "isCorrect": false },
+            { "text": "Heterotrophic nutrition", "isCorrect": true },
+            { "text": "Anaerobic nutrition", "isCorrect": false },
+            { "text": "Photosynthetic nutrition", "isCorrect": false }
+        ],
+        "hint": "This type of nutrition involves feeding on other living or dead organisms."
+    },
+    {
+        "question": "Which characteristic of living things involves the breakdown of food to release energy?",
+        "options": [
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": false },
+            { "text": "Respiration", "isCorrect": true },
+            { "text": "Excretion", "isCorrect": false }
+        ],
+        "hint": "This process provides the necessary energy for life activities."
+    },
+    {
+        "question": "Which branch of biology studies the structure and function of plants?",
+        "options": [
+            { "text": "Zoology", "isCorrect": false },
+            { "text": "Ecology", "isCorrect": false },
+            { "text": "Botany", "isCorrect": true },
+            { "text": "Entomology", "isCorrect": false }
+        ],
+        "hint": "This branch focuses on plant life, including their growth and reproduction."
+    },
+    {
+        "question": "What is the process by which organisms produce offspring called?",
+        "options": [
+            { "text": "Movement", "isCorrect": false },
+            { "text": "Growth", "isCorrect": false },
+            { "text": "Reproduction", "isCorrect": true },
+            { "text": "Sensitivity", "isCorrect": false }
+        ],
+        "hint": "This process ensures the continuation of species through the generation of new individuals."
+    }
+];
+
+        let currentQuestionIndex = 0;
+        const numQuestions = 15; // Total number of questions
+        let timerInterval;
+        let score = 0;
+
+function startQuiz() {
+    name = document.getElementById('name').value;
+    email = document.getElementById('email').value;
+    church = document.getElementById('church').value;
+   ministry = document.getElementById('ministry').value; // Get ministry value
+    phone = document.getElementById('phone').value; // Get phone value
+
+  
+    if (name.trim() === '') {
+        alert('Please enter your name.');
+        return;
+    }
+
+    // Additional validation for email if needed
+
+    document.getElementById('email-form').style.display = 'none';
+    document.getElementById('quiz').style.display = 'block';
+    quizStarted = true;
+    initializeQuiz();
+    startTimer();
+
+    const timerSlider = document.getElementById('timer-slider');
+
+    noUiSlider.create(timerSlider, {
+        start: 100, // Initial value
+        range: {
+            'min': 0,
+            'max': 100
+        },
+        format: {
+            to: function (value) {
+                return value + '%';
+            },
+            from: function (value) {
+                return value.replace('%', '');
+            }
+        },
+        tooltips: false, // Show tooltips
+       // pips: { mode: 'values', values: [0, 25, 50, 75, 100], density: 3 } // Customize pips (optional)
+    });
+}
+
+        function initializeQuiz() {
+            shuffleArray(questions);
+            currentQuestionIndex = 0;
+            score = 0;
+            showQuestion(currentQuestionIndex);
+        }
+
+        function showQuestion(index) {
+            const quizContainer = document.getElementById('question-container');
+            quizContainer.innerHTML = '';
+
+            const questionDiv = document.createElement('div');
+            const currentQuestion = questions[index];
+
+            const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
+            questionDiv.innerHTML = `
+                <h3>${index + 1}. ${currentQuestion.question}</h3>
+                <ul>
+                    ${shuffledOptions.map((opt, i) => `<li onclick="checkAnswer(${i}, ${opt.isCorrect})">${opt.text}</li>`).join('')}
+                </ul>
+            `;
+            quizContainer.appendChild(questionDiv);
+
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            if (index > 0) {
+                prevBtn.style.display = 'inline-block';
+            } else {
+                prevBtn.style.display = 'none';
+            }
+
+            if (index < numQuestions - 1) {
+                nextBtn.style.display = 'inline-block';
+            } else {
+                nextBtn.style.display = 'none';
+                document.getElementById('submit-btn').style.display = 'inline-block';
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < numQuestions - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function checkAnswer(selectedOptionIndex, isCorrect) {
+    const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
+    
+    // Check if the option has already been answered
+    if (!selectedOption.classList.contains('correct') && !selectedOption.classList.contains('incorrect')) {
+        if (isCorrect) {
+            selectedOption.classList.add('correct');
+            score++; // Increment score only for correct answers
+        } else {
+            selectedOption.classList.add('incorrect');
+            // Find the correct option index in the original options array
+            const correctOptionIndex = questions[currentQuestionIndex].options.findIndex(option => option.isCorrect);
+            // Find the index of the correct option in the shuffled options array
+            const shuffledOptions = document.getElementById('question-container').querySelectorAll('li');
+            const correctShuffledIndex = Array.from(shuffledOptions).findIndex(option => option.textContent === questions[currentQuestionIndex].options[correctOptionIndex].text);
+            // Highlight the correct option in the shuffled list
+            shuffledOptions[correctShuffledIndex].classList.add('correct');
+        }
+
+        // Disable all options after answering
+        const allOptions = document.getElementById('question-container').querySelectorAll('li');
+        allOptions.forEach(option => {
+            option.style.pointerEvents = 'none';
+        });
+    }
+}
+
+        function startTimer() {
+    let totalTime = numQuestions * 30; // Total time for the quiz in seconds
+    let timerDisplay = document.getElementById('timer-display');
+    let timerSlider = document.getElementById('timer-slider');
+    updateSliderValue(totalTime, timerSlider); // Update slider value initially
+
+    timerInterval = setInterval(() => {
+        totalTime--;
+        updateSliderValue(totalTime, timerSlider); // Update slider value
+        timerDisplay.textContent = formatTime(totalTime);
+
+        if (totalTime <= 0) {
+            clearInterval(timerInterval);
+            submitQuiz(); // Call the submitQuiz function when the timer reaches zero
+        }
+    }, 1000);
+}
+
+        function updateSliderValue(totalTime, slider) {
+    const percentage = (totalTime / (numQuestions * 30)) * 100;
+    slider.value = percentage;
+}
+
+let hintCount = 0; // Variable to keep track of hint usage
+
+function showHint(currentQuestion) {
+    const hint = currentQuestion.hint;
+    const hintButton = document.getElementById('hint-button');
+
+    if (hint && hintCount < 3) {
+        const tooltip = document.createElement('div');
+        tooltip.textContent = hint;
+        tooltip.classList.add('hint-tooltip');
+        document.body.appendChild(tooltip);
+        setTimeout(() => {
+            tooltip.remove();
+        }, 7000); // Adjust the timeout as needed
+
+        hintCount++;
+        if (hintCount === 3) {
+            hintButton.disabled = true;
+            hintButton.classList.add('hint-disabled');
+        }
+    } else {
+        window.alert("No hint available for this question or maximum hint usage reached.");
+    }
+}
+
+        function submitQuiz() {
+    clearInterval(timerInterval);
+    const percentage = (score / numQuestions) * 100;
+    let comment;
+
+    if (percentage >= 80) {
+        comment = "Excellent! You scored very well!";
+    } else if (percentage >= 60) {
+        comment = "Good job! You did quite well.";
+    } else if (percentage >= 40) {
+        comment = "Not bad! You're getting there.";
+    } else {
+        comment = "Keep practicing! You'll improve.";
+    }
+
+    const resultText = `Name: ${name}\nEmail: ${email}\nChurch: ${church}\nScore: ${score}/${numQuestions}\nPercentage: ${percentage.toFixed(2)}%\nComment: ${comment}`;
+
+    // Send quiz results to PHP script using AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "send_email.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        console.log("Ready state:", xhr.readyState);
+        console.log("Status:", xhr.status);
+        console.log("Response:", xhr.responseText);
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            // Email sent successfully
+            alert("Quiz results sent successfully!");
+            // Optionally, you can redirect the user to a thank you page or perform other actions here
+        } else if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 200) {
+            // Failed to send email
+            alert("Error sending quiz results. Please try again later.");
+        }
+    };
+    xhr.send("name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&church=" + encodeURIComponent(church) + "&score=" + score + "&totalQuestions=" + numQuestions);
+
+    // Display quiz results in the result container
+    const resultContainer = document.getElementById('result-text');
+    resultContainer.textContent = resultText;
+    resultContainer.style.whiteSpace = 'pre-line'; // Preserve newline characters
+    document.getElementById('result-container').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none'; // Hide the quiz container
+}
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function formatTime(totalSeconds) {
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }
+    </script>
+</body>
+</html>
