@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- Assuming you're using Font Awesome for icons -->
+<!-- Link to Font Awesome for the lightbulb icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Link to noUiSlider CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+
+<!-- Link to noUiSlider JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>    <style>
+body {
+            font-family: Arial, sans-serif;
+            background-image: url('nature1.jpg'); /* Replace 'background-image.jpg' with your image file */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+/* Quiz container */
+#quiz {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+    display: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form styling */
+#email-form {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#email-form label {
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#email-form input[type="text"],
+#email-form input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#phone {
+  width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#email-form button {
+    width: 100%;
+}
+
+/* Result container styling */
+#result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Adjusted alignment */
+}
+
+#result-container h2 {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgba(24,56,26,0.2);
+    text-align: center; /* Centered heading */
+}
+
+#result-text {
+    font-size: 16px; /* Reduced font size for better readability */
+    line-height: 1.6;
+    margin-top: 20px; /* Added spacing between heading and content */
+}
+
+#result-text p {
+    margin-bottom: 10px; /* Added spacing between paragraphs */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.result-value {
+    font-weight: normal;
+    white-space: normal; /* Allows wrapping */
+}
+
+/* Timer container */
+#timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#timer-slider {
+    flex: 1;
+    pointer-events: none; 
+}
+
+#hint-button-container {
+    margin-right: auto; /* Adjust as needed */
+}
+
+#hint-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hint-button:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+#hint-button:hover .bulb-icon {
+    text-shadow: 0 0 10px yellow; /* Add text shadow effect only to the bulb icon on hover */
+}
+
+.hint-disabled #hint-button:hover .bulb-icon {
+    text-shadow: none; /* Remove text shadow effect when hint is disabled */
+}
+
+#timer-display {
+    font-size: 16px; /* Adjust as needed */
+    margin-left: auto; 
+}
+
+/* Quiz question styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+#question-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#question-container li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#question-container li:hover {
+    background-color: #e9e9e9;
+}
+
+#question-container li.correct {
+    background-color: #b9e3b3; /* Green color for correct answer */
+    animation: correctEffect 0.5s ease;
+}
+
+#question-container li.incorrect {
+    background-color: #ffcccc; /* Red color for incorrect answer */
+    animation: incorrectEffect 0.5s ease;
+}
+
+@keyframes correctEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes incorrectEffect {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+  
+  .hint-tooltip {
+    position: fixed;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+  
+  .bulb-icon {
+    color: red; /* Default color for enabled hint */
+}
+
+.hint-disabled .bulb-icon {
+    color: black; /* Color for disabled hint */
+}
+
+/* Custom styles for the slider */
+
+/* Background color of the slider track */
+.noUi-target {
+    background-color: green;
+}
+
+/* Hide the slider handle */
+.noUi-handle {
+    display: block;
+}
+
+/* Color of the active part of the slider track */
+.noUi-connect {
+    background-color: #4CAF50;
+}
+
+/* Color of the inactive part of the slider track */
+.noUi-connects {
+    background-color: #ddd;
+}
+    </style>
+</head>
+<body>
+    <form id="email-form" action="send_email.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="church">Church:</label>
+        <input type="text" id="church" name="church"><br>
+        <label for="ministry">Ministry:</label>
+        <input type="text" id="ministry" name="ministry"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <button type="button" onclick="startQuiz()">Start Quiz</button>
+    </form>
+
+    <div id="quiz" style="display: none;">
+        <div id="timer-container">
+          <div id="hint-button-container">
+             <button id="hint-button" onclick="showHint(questions[currentQuestionIndex])"><i class="fas fa-lightbulb bulb-icon"></i></button>
+          </div>
+          <input type="range" id="timer-slider" min="0" max="100" value="100">
+          <!--  <div id="timer-slider"></div> -->
+          <div id="timer-display"></div>
+     </div>
+
+        <div id="question-container"></div>
+        <div id="navigation-buttons">
+            <button onclick="prevQuestion()" id="prev-btn" style="display: none;">Previous</button>
+            <button onclick="nextQuestion()" id="next-btn" style="display: none;">Next</button>
+            <button onclick="submitQuiz()" id="submit-btn" style="display: none;">Submit</button>
+ </div>
+            </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+
+     </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+    <script>
+        let name;
+        let email;
+        let quizStarted = false;
+
+        const questions = [
+{
+    question: "Which gland is known as the 'master gland' because it controls the functions of many other endocrine glands?",
+    options: [
+        { text: "Thyroid gland", isCorrect: false },
+        { text: "Pituitary gland", isCorrect: true },
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Pancreas", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone regulates blood sugar levels by promoting the uptake of glucose into cells?",
+    options: [
+        { text: "Insulin", isCorrect: true },
+        { text: "Glucagon", isCorrect: false },
+        { text: "Cortisol", isCorrect: false },
+        { text: "Thyroxine", isCorrect: false }
+    ]
+},
+{
+    question: "Growth hormone is primarily secreted by which gland?",
+    options: [
+        { text: "Thyroid gland", isCorrect: false },
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Pituitary gland", isCorrect: true },
+        { text: "Pancreas", isCorrect: false }
+    ]
+},
+{
+    question: "The hormone responsible for stimulating milk production in the mammary glands after childbirth is:",
+    options: [
+        { text: "Estrogen", isCorrect: false },
+        { text: "Progesterone", isCorrect: false },
+        { text: "Prolactin", isCorrect: true },
+        { text: "Oxytocin", isCorrect: false }
+    ]
+},
+{
+    question: "Which gland is located just below the Adam's apple and is responsible for regulating metabolism?",
+    options: [
+        { text: "Pineal gland", isCorrect: false },
+        { text: "Thyroid gland", isCorrect: true },
+        { text: "Pituitary gland", isCorrect: false },
+        { text: "Thymus gland", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is released in response to stress and helps increase blood sugar levels?",
+    options: [
+        { text: "Insulin", isCorrect: false },
+        { text: "Cortisol", isCorrect: true },
+        { text: "Testosterone", isCorrect: false },
+        { text: "Estrogen", isCorrect: false }
+    ]
+},
+{
+    question: "The fight-or-flight response is triggered by the release of which hormone from the adrenal glands?",
+    options: [
+        { text: "Aldosterone", isCorrect: false },
+        { text: "Cortisol", isCorrect: false },
+        { text: "Epinephrine (Adrenaline)", isCorrect: true },
+        { text: "Thyroxine", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for the regulation of calcium levels in the blood?",
+    options: [
+        { text: "Calcitonin", isCorrect: false },
+        { text: "PTH (Parathyroid hormone)", isCorrect: true },
+        { text: "Insulin", isCorrect: false },
+        { text: "Estrogen", isCorrect: false }
+    ]
+},
+{
+    question: "The hormone vasopressin is also known as:",
+    options: [
+        { text: "Growth hormone", isCorrect: false },
+        { text: "Antidiuretic hormone (ADH)", isCorrect: true },
+        { text: "Thyroxine", isCorrect: false },
+        { text: "Cortisol", isCorrect: false }
+    ]
+},
+{
+    question: "Which gland is responsible for producing melatonin, which regulates sleep-wake cycles?",
+    options: [
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Pancreas", isCorrect: false },
+        { text: "Pineal gland", isCorrect: true },
+        { text: "Thymus gland", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone stimulates the development of male secondary sexual characteristics?",
+    options: [
+        { text: "Estrogen", isCorrect: false },
+        { text: "Progesterone", isCorrect: false },
+        { text: "Testosterone", isCorrect: true },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "The hormone responsible for stimulating ovulation in females is:",
+    options: [
+        { text: "Progesterone", isCorrect: false },
+        { text: "Estrogen", isCorrect: false },
+        { text: "FSH (Follicle-stimulating hormone)", isCorrect: false },
+        { text: "LH (Luteinizing hormone)", isCorrect: true }
+    ]
+},
+{
+    question: "Which hormone regulates salt and water balance in the body?",
+    options: [
+        { text: "Aldosterone", isCorrect: true },
+        { text: "Oxytocin", isCorrect: false },
+        { text: "Prolactin", isCorrect: false },
+        { text: "Glucagon", isCorrect: false }
+    ]
+},
+{
+    question: "Which gland plays a key role in the immune system and produces T-cells?",
+    options: [
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Pancreas", isCorrect: false },
+        { text: "Thymus gland", isCorrect: true },
+        { text: "Pineal gland", isCorrect: false }
+    ]
+},
+{
+    question: "The hormone responsible for stimulating uterine contractions during childbirth and milk ejection during nursing is:",
+    options: [
+        { text: "Estrogen", isCorrect: false },
+        { text: "Progesterone", isCorrect: false },
+        { text: "Oxytocin", isCorrect: true },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for regulating the body's metabolism?",
+    options: [
+        { text: "Insulin", isCorrect: false },
+        { text: "Glucagon", isCorrect: false },
+        { text: "Thyroxine", isCorrect: true },
+        { text: "Melatonin", isCorrect: false }
+    ]
+},
+{
+    question: "Which of the following hormones is NOT produced by the pancreas?",
+    options: [
+        { text: "Insulin", isCorrect: false },
+        { text: "Glucagon", isCorrect: false },
+        { text: "Cortisol", isCorrect: true },
+        { text: "Somatostatin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone stimulates the kidneys to reabsorb water and constrict blood vessels?",
+    options: [
+        { text: "Cortisol", isCorrect: false },
+        { text: "Aldosterone", isCorrect: true },
+        { text: "Estrogen", isCorrect: false },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for promoting the development and maintenance of female secondary sexual characteristics?",
+    options: [
+        { text: "Testosterone", isCorrect: false },
+        { text: "Estrogen", isCorrect: true },
+        { text: "Progesterone", isCorrect: false },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is involved in regulating blood calcium levels by promoting calcium deposition into bones?",
+    options: [
+        { text: "PTH (Parathyroid hormone)", isCorrect: true },
+        { text: "Calcitonin", isCorrect: false },
+        { text: "Aldosterone", isCorrect: false },
+        { text: "Oxytocin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for regulating the body's response to stress, including increasing heart rate and blood pressure?",
+    options: [
+        { text: "Insulin", isCorrect: false },
+        { text: "Cortisol", isCorrect: true },
+        { text: "Thyroxine", isCorrect: false },
+        { text: "Estrogen", isCorrect: false }
+    ]
+},
+{
+    question: "Which gland produces insulin and glucagon to regulate blood sugar levels?",
+    options: [
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Thyroid gland", isCorrect: false },
+        { text: "Pancreas", isCorrect: true },
+        { text: "Pituitary gland", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is involved in the regulation of the body's sleep-wake cycle and seasonal biological rhythms?",
+    options: [
+        { text: "Insulin", isCorrect: false },
+        { text: "Melatonin", isCorrect: true },
+        { text: "Estrogen", isCorrect: false },
+        { text: "Testosterone", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone stimulates the growth and development of ovarian follicles in females and sperm production in males?",
+    options: [
+        { text: "FSH (Follicle-stimulating hormone)", isCorrect: true },
+        { text: "LH (Luteinizing hormone)", isCorrect: false },
+        { text: "Prolactin", isCorrect: false },
+        { text: "Oxytocin", isCorrect: false }
+    ]
+},
+{
+    question: "The adrenal medulla produces which hormone that prepares the body for 'fight or flight' response?",
+    options: [
+        { text: "Epinephrine (Adrenaline)", isCorrect: true },
+        { text: "Aldosterone", isCorrect: false },
+        { text: "Cortisol", isCorrect: false },
+        { text: "Insulin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone regulates the body's metabolism by controlling the rate of oxygen consumption and energy production?",
+    options: [
+        { text: "Glucagon", isCorrect: false },
+        { text: "Insulin", isCorrect: false },
+        { text: "Thyroxine", isCorrect: true },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for the development of male reproductive tissues and secondary sexual characteristics?",
+    options: [
+        { text: "Estrogen", isCorrect: false },
+        { text: "Progesterone", isCorrect: false },
+        { text: "Testosterone", isCorrect: true },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is released by the posterior pituitary gland and plays a role in uterine contractions during childbirth?",
+    options: [
+        { text: "Oxytocin", isCorrect: true },
+        { text: "Prolactin", isCorrect: false },
+        { text: "ADH (Antidiuretic hormone)", isCorrect: false },
+        { text: "Melatonin", isCorrect: false }
+    ]
+},
+{
+    question: "Which gland produces hormones that help regulate metabolism, growth, and development of the body?",
+    options: [
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Pituitary gland", isCorrect: false },
+        { text: "Thyroid gland", isCorrect: true },
+        { text: "Thymus gland", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for stimulating milk production in the mammary glands?",
+    options: [
+        { text: "Prolactin", isCorrect: true },
+        { text: "Oxytocin", isCorrect: false },
+        { text: "Estrogen", isCorrect: false },
+        { text: "Progesterone", isCorrect: false }
+    ]
+},
+{
+    question: "The hormone calcitonin is involved in:",
+    options: [
+        { text: "Regulating blood sugar levels", isCorrect: false },
+        { text: "Regulating calcium levels in the blood", isCorrect: true },
+        { text: "Stimulating growth", isCorrect: false },
+        { text: "Enhancing immune responses", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone stimulates the kidneys to conserve water by reducing urine production?",
+    options: [
+        { text: "Aldosterone", isCorrect: false },
+        { text: "Cortisol", isCorrect: false },
+        { text: "ADH (Antidiuretic hormone)", isCorrect: true },
+        { text: "Thyroxine", isCorrect: false }
+    ]
+},
+{
+    question: "Which gland is responsible for producing hormones that regulate the body's metabolism?",
+    options: [
+        { text: "Thymus gland", isCorrect: false },
+        { text: "Adrenal gland", isCorrect: false },
+        { text: "Pancreas", isCorrect: false },
+        { text: "Thyroid gland", isCorrect: true }
+    ]
+},
+{
+    question: "Which hormone is known for its role in promoting the development and maintenance of female reproductive structures and secondary sexual characteristics?",
+    options: [
+        { text: "Testosterone", isCorrect: false },
+        { text: "Estrogen", isCorrect: true },
+        { text: "Progesterone", isCorrect: false },
+        { text: "Prolactin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is involved in stimulating the release of eggs from the ovaries and the production of sperm in males?",
+    options: [
+        { text: "FSH (Follicle-stimulating hormone)", isCorrect: false },
+        { text: "LH (Luteinizing hormone)", isCorrect: true },
+        { text: "Prolactin", isCorrect: false },
+        { text: "Thyroxine", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is responsible for increasing blood calcium levels by stimulating calcium release from bones?",
+    options: [
+        { text: "Calcitonin", isCorrect: false },
+        { text: "Aldosterone", isCorrect: false },
+        { text: "PTH (Parathyroid hormone)", isCorrect: true },
+        { text: "Insulin", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone regulates the body's response to low blood glucose levels by stimulating the breakdown of glycogen into glucose?",
+    options: [
+        { text: "Insulin", isCorrect: false },
+        { text: "Glucagon", isCorrect: true },
+        { text: "Cortisol", isCorrect: false },
+        { text: "Estrogen", isCorrect: false }
+    ]
+},
+{
+    question: "Which hormone is primarily responsible for regulating the body's water balance?",
+    options: [
+    { text: "Prolactin", isCorrect: false },
+    { text: "Aldosterone", isCorrect: true },
+    { text: "Thyroxine", isCorrect: false },
+    { text: "Melatonin", isCorrect: false }
+]}, 
+{ question: "The thymus gland is responsible for the production of which important immune system cells?", 
+  options: [ { text: "B-cells", isCorrect: false }, 
+  { text: "T-cells", isCorrect: true },
+  { text: "Natural killer cells", isCorrect: false }, 
+  { text: "Macrophages", isCorrect: false } ] }, 
+{ question: "Which hormone is released by the ovaries and is important for the development and maintenance of female reproductive tissues?", 
+  options: [ { text: "Estrogen", isCorrect: true }, 
+  { text: "Testosterone", isCorrect: false },
+  { text: "Progesterone", isCorrect: false }, 
+  { text: "Prolactin", isCorrect: false }
+  ] 
+  
+}
+
+
+
+];
+
+        let currentQuestionIndex = 0;
+        const numQuestions = 15; // Total number of questions
+        let timerInterval;
+        let score = 0;
+
+function startQuiz() {
+    name = document.getElementById('name').value;
+    email = document.getElementById('email').value;
+    church = document.getElementById('church').value;
+   ministry = document.getElementById('ministry').value; // Get ministry value
+    phone = document.getElementById('phone').value; // Get phone value
+
+  
+    if (name.trim() === '') {
+        alert('Please enter your name.');
+        return;
+    }
+
+    // Additional validation for email if needed
+
+    document.getElementById('email-form').style.display = 'none';
+    document.getElementById('quiz').style.display = 'block';
+    quizStarted = true;
+    initializeQuiz();
+    startTimer();
+
+    const timerSlider = document.getElementById('timer-slider');
+
+    noUiSlider.create(timerSlider, {
+        start: 100, // Initial value
+        range: {
+            'min': 0,
+            'max': 100
+        },
+        format: {
+            to: function (value) {
+                return value + '%';
+            },
+            from: function (value) {
+                return value.replace('%', '');
+            }
+        },
+        tooltips: false, // Show tooltips
+       // pips: { mode: 'values', values: [0, 25, 50, 75, 100], density: 3 } // Customize pips (optional)
+    });
+}
+
+        function initializeQuiz() {
+            shuffleArray(questions);
+            currentQuestionIndex = 0;
+            score = 0;
+            showQuestion(currentQuestionIndex);
+        }
+
+        function showQuestion(index) {
+            const quizContainer = document.getElementById('question-container');
+            quizContainer.innerHTML = '';
+
+            const questionDiv = document.createElement('div');
+            const currentQuestion = questions[index];
+
+            const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
+            questionDiv.innerHTML = `
+                <h3>${index + 1}. ${currentQuestion.question}</h3>
+                <ul>
+                    ${shuffledOptions.map((opt, i) => `<li onclick="checkAnswer(${i}, ${opt.isCorrect})">${opt.text}</li>`).join('')}
+                </ul>
+            `;
+            quizContainer.appendChild(questionDiv);
+
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            if (index > 0) {
+                prevBtn.style.display = 'inline-block';
+            } else {
+                prevBtn.style.display = 'none';
+            }
+
+            if (index < numQuestions - 1) {
+                nextBtn.style.display = 'inline-block';
+            } else {
+                nextBtn.style.display = 'none';
+                document.getElementById('submit-btn').style.display = 'inline-block';
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < numQuestions - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function checkAnswer(selectedOptionIndex, isCorrect) {
+    const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
+    
+    // Check if the option has already been answered
+    if (!selectedOption.classList.contains('correct') && !selectedOption.classList.contains('incorrect')) {
+        if (isCorrect) {
+            selectedOption.classList.add('correct');
+            score++; // Increment score only for correct answers
+        } else {
+            selectedOption.classList.add('incorrect');
+            // Find the correct option index in the original options array
+            const correctOptionIndex = questions[currentQuestionIndex].options.findIndex(option => option.isCorrect);
+            // Find the index of the correct option in the shuffled options array
+            const shuffledOptions = document.getElementById('question-container').querySelectorAll('li');
+            const correctShuffledIndex = Array.from(shuffledOptions).findIndex(option => option.textContent === questions[currentQuestionIndex].options[correctOptionIndex].text);
+            // Highlight the correct option in the shuffled list
+            shuffledOptions[correctShuffledIndex].classList.add('correct');
+        }
+
+        // Disable all options after answering
+        const allOptions = document.getElementById('question-container').querySelectorAll('li');
+        allOptions.forEach(option => {
+            option.style.pointerEvents = 'none';
+        });
+    }
+}
+
+        function startTimer() {
+    let totalTime = numQuestions * 30; // Total time for the quiz in seconds
+    let timerDisplay = document.getElementById('timer-display');
+    let timerSlider = document.getElementById('timer-slider');
+    updateSliderValue(totalTime, timerSlider); // Update slider value initially
+
+    timerInterval = setInterval(() => {
+        totalTime--;
+        updateSliderValue(totalTime, timerSlider); // Update slider value
+        timerDisplay.textContent = formatTime(totalTime);
+
+        if (totalTime <= 0) {
+            clearInterval(timerInterval);
+            submitQuiz(); // Call the submitQuiz function when the timer reaches zero
+        }
+    }, 1000);
+}
+
+        function updateSliderValue(totalTime, slider) {
+    const percentage = (totalTime / (numQuestions * 30)) * 100;
+    slider.value = percentage;
+}
+
+let hintCount = 0; // Variable to keep track of hint usage
+
+function showHint(currentQuestion) {
+    const hint = currentQuestion.hint;
+    const hintButton = document.getElementById('hint-button');
+
+    if (hint && hintCount < 3) {
+        const tooltip = document.createElement('div');
+        tooltip.textContent = hint;
+        tooltip.classList.add('hint-tooltip');
+        document.body.appendChild(tooltip);
+        setTimeout(() => {
+            tooltip.remove();
+        }, 7000); // Adjust the timeout as needed
+
+        hintCount++;
+        if (hintCount === 3) {
+            hintButton.disabled = true;
+            hintButton.classList.add('hint-disabled');
+        }
+    } else {
+        window.alert("No hint available for this question or maximum hint usage reached.");
+    }
+}
+
+        function submitQuiz() {
+    clearInterval(timerInterval);
+    const percentage = (score / numQuestions) * 100;
+    let comment;
+
+    if (percentage >= 80) {
+        comment = "Excellent! You scored very well!";
+    } else if (percentage >= 60) {
+        comment = "Good job! You did quite well.";
+    } else if (percentage >= 40) {
+        comment = "Not bad! You're getting there.";
+    } else {
+        comment = "Keep practicing! You'll improve.";
+    }
+
+    const resultText = `Name: ${name}\nEmail: ${email}\nChurch: ${church}\nScore: ${score}/${numQuestions}\nPercentage: ${percentage.toFixed(2)}%\nComment: ${comment}`;
+
+    // Send quiz results to PHP script using AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "send_email.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        console.log("Ready state:", xhr.readyState);
+        console.log("Status:", xhr.status);
+        console.log("Response:", xhr.responseText);
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            // Email sent successfully
+            alert("Quiz results sent successfully!");
+            // Optionally, you can redirect the user to a thank you page or perform other actions here
+        } else if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 200) {
+            // Failed to send email
+            alert("Error sending quiz results. Please try again later.");
+        }
+    };
+    xhr.send("name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&church=" + encodeURIComponent(church) + "&score=" + score + "&totalQuestions=" + numQuestions);
+
+    // Display quiz results in the result container
+    const resultContainer = document.getElementById('result-text');
+    resultContainer.textContent = resultText;
+    resultContainer.style.whiteSpace = 'pre-line'; // Preserve newline characters
+    document.getElementById('result-container').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none'; // Hide the quiz container
+}
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function formatTime(totalSeconds) {
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }
+    </script>
+</body>
+</html>
