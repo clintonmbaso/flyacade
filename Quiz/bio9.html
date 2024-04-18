@@ -338,361 +338,547 @@ ul li:hover {
         let quizStarted = false;
 
         const questions = [
-{
-    question: "Which gland is known as the 'master gland' because it controls the functions of many other endocrine glands?",
-    options: [
-        { text: "Thyroid gland", isCorrect: false },
-        { text: "Pituitary gland", isCorrect: true },
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Pancreas", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone regulates blood sugar levels by promoting the uptake of glucose into cells?",
-    options: [
-        { text: "Insulin", isCorrect: true },
-        { text: "Glucagon", isCorrect: false },
-        { text: "Cortisol", isCorrect: false },
-        { text: "Thyroxine", isCorrect: false }
-    ]
-},
-{
-    question: "Growth hormone is primarily secreted by which gland?",
-    options: [
-        { text: "Thyroid gland", isCorrect: false },
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Pituitary gland", isCorrect: true },
-        { text: "Pancreas", isCorrect: false }
-    ]
-},
-{
-    question: "The hormone responsible for stimulating milk production in the mammary glands after childbirth is:",
-    options: [
-        { text: "Estrogen", isCorrect: false },
-        { text: "Progesterone", isCorrect: false },
-        { text: "Prolactin", isCorrect: true },
-        { text: "Oxytocin", isCorrect: false }
-    ]
-},
-{
-    question: "Which gland is located just below the Adam's apple and is responsible for regulating metabolism?",
-    options: [
-        { text: "Pineal gland", isCorrect: false },
-        { text: "Thyroid gland", isCorrect: true },
-        { text: "Pituitary gland", isCorrect: false },
-        { text: "Thymus gland", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is released in response to stress and helps increase blood sugar levels?",
-    options: [
-        { text: "Insulin", isCorrect: false },
-        { text: "Cortisol", isCorrect: true },
-        { text: "Testosterone", isCorrect: false },
-        { text: "Estrogen", isCorrect: false }
-    ]
-},
-{
-    question: "The fight-or-flight response is triggered by the release of which hormone from the adrenal glands?",
-    options: [
-        { text: "Aldosterone", isCorrect: false },
-        { text: "Cortisol", isCorrect: false },
-        { text: "Epinephrine (Adrenaline)", isCorrect: true },
-        { text: "Thyroxine", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for the regulation of calcium levels in the blood?",
-    options: [
-        { text: "Calcitonin", isCorrect: false },
-        { text: "PTH (Parathyroid hormone)", isCorrect: true },
-        { text: "Insulin", isCorrect: false },
-        { text: "Estrogen", isCorrect: false }
-    ]
-},
-{
-    question: "The hormone vasopressin is also known as:",
-    options: [
-        { text: "Growth hormone", isCorrect: false },
-        { text: "Antidiuretic hormone (ADH)", isCorrect: true },
-        { text: "Thyroxine", isCorrect: false },
-        { text: "Cortisol", isCorrect: false }
-    ]
-},
-{
-    question: "Which gland is responsible for producing melatonin, which regulates sleep-wake cycles?",
-    options: [
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Pancreas", isCorrect: false },
-        { text: "Pineal gland", isCorrect: true },
-        { text: "Thymus gland", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone stimulates the development of male secondary sexual characteristics?",
-    options: [
-        { text: "Estrogen", isCorrect: false },
-        { text: "Progesterone", isCorrect: false },
-        { text: "Testosterone", isCorrect: true },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "The hormone responsible for stimulating ovulation in females is:",
-    options: [
-        { text: "Progesterone", isCorrect: false },
-        { text: "Estrogen", isCorrect: false },
-        { text: "FSH (Follicle-stimulating hormone)", isCorrect: false },
-        { text: "LH (Luteinizing hormone)", isCorrect: true }
-    ]
-},
-{
-    question: "Which hormone regulates salt and water balance in the body?",
-    options: [
-        { text: "Aldosterone", isCorrect: true },
-        { text: "Oxytocin", isCorrect: false },
-        { text: "Prolactin", isCorrect: false },
-        { text: "Glucagon", isCorrect: false }
-    ]
-},
-{
-    question: "Which gland plays a key role in the immune system and produces T-cells?",
-    options: [
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Pancreas", isCorrect: false },
-        { text: "Thymus gland", isCorrect: true },
-        { text: "Pineal gland", isCorrect: false }
-    ]
-},
-{
-    question: "The hormone responsible for stimulating uterine contractions during childbirth and milk ejection during nursing is:",
-    options: [
-        { text: "Estrogen", isCorrect: false },
-        { text: "Progesterone", isCorrect: false },
-        { text: "Oxytocin", isCorrect: true },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for regulating the body's metabolism?",
-    options: [
-        { text: "Insulin", isCorrect: false },
-        { text: "Glucagon", isCorrect: false },
-        { text: "Thyroxine", isCorrect: true },
-        { text: "Melatonin", isCorrect: false }
-    ]
-},
-{
-    question: "Which of the following hormones is NOT produced by the pancreas?",
-    options: [
-        { text: "Insulin", isCorrect: false },
-        { text: "Glucagon", isCorrect: false },
-        { text: "Cortisol", isCorrect: true },
-        { text: "Somatostatin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone stimulates the kidneys to reabsorb water and constrict blood vessels?",
-    options: [
-        { text: "Cortisol", isCorrect: false },
-        { text: "Aldosterone", isCorrect: true },
-        { text: "Estrogen", isCorrect: false },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for promoting the development and maintenance of female secondary sexual characteristics?",
-    options: [
-        { text: "Testosterone", isCorrect: false },
-        { text: "Estrogen", isCorrect: true },
-        { text: "Progesterone", isCorrect: false },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is involved in regulating blood calcium levels by promoting calcium deposition into bones?",
-    options: [
-        { text: "PTH (Parathyroid hormone)", isCorrect: true },
-        { text: "Calcitonin", isCorrect: false },
-        { text: "Aldosterone", isCorrect: false },
-        { text: "Oxytocin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for regulating the body's response to stress, including increasing heart rate and blood pressure?",
-    options: [
-        { text: "Insulin", isCorrect: false },
-        { text: "Cortisol", isCorrect: true },
-        { text: "Thyroxine", isCorrect: false },
-        { text: "Estrogen", isCorrect: false }
-    ]
-},
-{
-    question: "Which gland produces insulin and glucagon to regulate blood sugar levels?",
-    options: [
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Thyroid gland", isCorrect: false },
-        { text: "Pancreas", isCorrect: true },
-        { text: "Pituitary gland", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is involved in the regulation of the body's sleep-wake cycle and seasonal biological rhythms?",
-    options: [
-        { text: "Insulin", isCorrect: false },
-        { text: "Melatonin", isCorrect: true },
-        { text: "Estrogen", isCorrect: false },
-        { text: "Testosterone", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone stimulates the growth and development of ovarian follicles in females and sperm production in males?",
-    options: [
-        { text: "FSH (Follicle-stimulating hormone)", isCorrect: true },
-        { text: "LH (Luteinizing hormone)", isCorrect: false },
-        { text: "Prolactin", isCorrect: false },
-        { text: "Oxytocin", isCorrect: false }
-    ]
-},
-{
-    question: "The adrenal medulla produces which hormone that prepares the body for 'fight or flight' response?",
-    options: [
-        { text: "Epinephrine (Adrenaline)", isCorrect: true },
-        { text: "Aldosterone", isCorrect: false },
-        { text: "Cortisol", isCorrect: false },
-        { text: "Insulin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone regulates the body's metabolism by controlling the rate of oxygen consumption and energy production?",
-    options: [
-        { text: "Glucagon", isCorrect: false },
-        { text: "Insulin", isCorrect: false },
-        { text: "Thyroxine", isCorrect: true },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for the development of male reproductive tissues and secondary sexual characteristics?",
-    options: [
-        { text: "Estrogen", isCorrect: false },
-        { text: "Progesterone", isCorrect: false },
-        { text: "Testosterone", isCorrect: true },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is released by the posterior pituitary gland and plays a role in uterine contractions during childbirth?",
-    options: [
-        { text: "Oxytocin", isCorrect: true },
-        { text: "Prolactin", isCorrect: false },
-        { text: "ADH (Antidiuretic hormone)", isCorrect: false },
-        { text: "Melatonin", isCorrect: false }
-    ]
-},
-{
-    question: "Which gland produces hormones that help regulate metabolism, growth, and development of the body?",
-    options: [
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Pituitary gland", isCorrect: false },
-        { text: "Thyroid gland", isCorrect: true },
-        { text: "Thymus gland", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for stimulating milk production in the mammary glands?",
-    options: [
-        { text: "Prolactin", isCorrect: true },
-        { text: "Oxytocin", isCorrect: false },
-        { text: "Estrogen", isCorrect: false },
-        { text: "Progesterone", isCorrect: false }
-    ]
-},
-{
-    question: "The hormone calcitonin is involved in:",
-    options: [
-        { text: "Regulating blood sugar levels", isCorrect: false },
-        { text: "Regulating calcium levels in the blood", isCorrect: true },
-        { text: "Stimulating growth", isCorrect: false },
-        { text: "Enhancing immune responses", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone stimulates the kidneys to conserve water by reducing urine production?",
-    options: [
-        { text: "Aldosterone", isCorrect: false },
-        { text: "Cortisol", isCorrect: false },
-        { text: "ADH (Antidiuretic hormone)", isCorrect: true },
-        { text: "Thyroxine", isCorrect: false }
-    ]
-},
-{
-    question: "Which gland is responsible for producing hormones that regulate the body's metabolism?",
-    options: [
-        { text: "Thymus gland", isCorrect: false },
-        { text: "Adrenal gland", isCorrect: false },
-        { text: "Pancreas", isCorrect: false },
-        { text: "Thyroid gland", isCorrect: true }
-    ]
-},
-{
-    question: "Which hormone is known for its role in promoting the development and maintenance of female reproductive structures and secondary sexual characteristics?",
-    options: [
-        { text: "Testosterone", isCorrect: false },
-        { text: "Estrogen", isCorrect: true },
-        { text: "Progesterone", isCorrect: false },
-        { text: "Prolactin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is involved in stimulating the release of eggs from the ovaries and the production of sperm in males?",
-    options: [
-        { text: "FSH (Follicle-stimulating hormone)", isCorrect: false },
-        { text: "LH (Luteinizing hormone)", isCorrect: true },
-        { text: "Prolactin", isCorrect: false },
-        { text: "Thyroxine", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is responsible for increasing blood calcium levels by stimulating calcium release from bones?",
-    options: [
-        { text: "Calcitonin", isCorrect: false },
-        { text: "Aldosterone", isCorrect: false },
-        { text: "PTH (Parathyroid hormone)", isCorrect: true },
-        { text: "Insulin", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone regulates the body's response to low blood glucose levels by stimulating the breakdown of glycogen into glucose?",
-    options: [
-        { text: "Insulin", isCorrect: false },
-        { text: "Glucagon", isCorrect: true },
-        { text: "Cortisol", isCorrect: false },
-        { text: "Estrogen", isCorrect: false }
-    ]
-},
-{
-    question: "Which hormone is primarily responsible for regulating the body's water balance?",
-    options: [
-    { text: "Prolactin", isCorrect: false },
-    { text: "Aldosterone", isCorrect: true },
-    { text: "Thyroxine", isCorrect: false },
-    { text: "Melatonin", isCorrect: false }
-]}, 
-{ question: "The thymus gland is responsible for the production of which important immune system cells?", 
-  options: [ { text: "B-cells", isCorrect: false }, 
-  { text: "T-cells", isCorrect: true },
-  { text: "Natural killer cells", isCorrect: false }, 
-  { text: "Macrophages", isCorrect: false } ] }, 
-{ question: "Which hormone is released by the ovaries and is important for the development and maintenance of female reproductive tissues?", 
-  options: [ { text: "Estrogen", isCorrect: true }, 
-  { text: "Testosterone", isCorrect: false },
-  { text: "Progesterone", isCorrect: false }, 
-  { text: "Prolactin", isCorrect: false }
-  ] 
-  
-}
 
+{
+    "question": "Which gland is referred to as the 'master gland' of the endocrine system?",
+    "options": [
+        { "text": "Thyroid gland", "isCorrect": false },
+        { "text": "Adrenal gland", "isCorrect": false },
+        { "text": "Pituitary gland", "isCorrect": true },
+        { "text": "Pancreas", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the function of Thyroid Stimulating Hormone (TSH) produced by the pituitary gland?",
+    "options": [
+        { "text": "Stimulates the adrenal cortex", "isCorrect": false },
+        { "text": "Stimulates the thyroid gland", "isCorrect": true },
+        { "text": "Stimulates the ovaries", "isCorrect": false },
+        { "text": "Stimulates the testes", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone causes ovulation and formation of the corpus luteum in females?",
+    "options": [
+        { "text": "Follicle Stimulating Hormone (FSH)", "isCorrect": false },
+        { "text": "Luteinising Hormone (LH)", "isCorrect": true },
+        { "text": "Growth Hormone", "isCorrect": false },
+        { "text": "Prolactin", "isCorrect": false }
+    ]
+},
+{
+    "question": "What does Adrenocorticotrophic Hormone (ACTH) from the pituitary gland stimulate?",
+    "options": [
+        { "text": "Thyroid gland", "isCorrect": false },
+        { "text": "Adrenal cortex", "isCorrect": true },
+        { "text": "Testes", "isCorrect": false },
+        { "text": "Ovaries", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone stimulates milk production by the mammary glands?",
+    "options": [
+        { "text": "Oxytocin", "isCorrect": false },
+        { "text": "Prolactin", "isCorrect": true },
+        { "text": "Antidiuretic Hormone (ADH)", "isCorrect": false },
+        { "text": "Growth Hormone", "isCorrect": false }
+    ]
+},
+{
+    "question": "Lack of Antidiuretic Hormone (ADH) can lead to which condition?",
+    "options": [
+        { "text": "Cushing's syndrome", "isCorrect": false },
+        { "text": "Diabetes insipidus", "isCorrect": true },
+        { "text": "Acromegaly", "isCorrect": false },
+        { "text": "Dwarfism", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the effect of Growth Hormone when secreted in excess during childhood?",
+    "options": [
+        { "text": "Dwarfism", "isCorrect": false },
+        { "text": "Acromegaly", "isCorrect": true },
+        { "text": "Gigantism", "isCorrect": false },
+        { "text": "Cretinism", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone stimulates reabsorption of water in the kidneys?",
+    "options": [
+        { "text": "Growth Hormone", "isCorrect": false },
+        { "text": "Thyroid Stimulating Hormone (TSH)", "isCorrect": false },
+        { "text": "Antidiuretic Hormone (ADH)", "isCorrect": true },
+        { "text": "Oxytocin", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which gland secretes the hormone oxytocin?",
+    "options": [
+        { "text": "Pituitary gland", "isCorrect": true },
+        { "text": "Thyroid gland", "isCorrect": false },
+        { "text": "Pancreas", "isCorrect": false },
+        { "text": "Adrenal gland", "isCorrect": false }
+    ]
+},
+{
+    "question": "What does Luteinising Hormone (LH) primarily stimulate in females?",
+    "options": [
+        { "text": "Thyroid gland", "isCorrect": false },
+        { "text": "Ovaries", "isCorrect": true },
+        { "text": "Adrenal cortex", "isCorrect": false },
+        { "text": "Mammary glands", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone stimulates the formation of follicles in the ovaries?",
+    "options": [
+        { "text": "Adrenocorticotrophic Hormone (ACTH)", "isCorrect": false },
+        { "text": "Interstitial Cell Stimulating Hormone (ICSH)", "isCorrect": false },
+        { "text": "Follicle Stimulating Hormone (FSH)", "isCorrect": true },
+        { "text": "Prolactin", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the consequence of insufficient growth hormone secretion during childhood?",
+    "options": [
+        { "text": "Giantism", "isCorrect": false },
+        { "text": "Cretinism", "isCorrect": false },
+        { "text": "Dwarfism", "isCorrect": true },
+        { "text": "Acromegaly", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone stimulates the adrenal cortex to secrete hormones?",
+    "options": [
+        { "text": "Luteinising Hormone (LH)", "isCorrect": false },
+        { "text": "Thyroid Stimulating Hormone (TSH)", "isCorrect": false },
+        { "text": "Adrenocorticotrophic Hormone (ACTH)", "isCorrect": true },
+        { "text": "Growth Hormone", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the primary function of Prolactin?",
+    "options": [
+        { "text": "Stimulates growth", "isCorrect": false },
+        { "text": "Stimulates milk production", "isCorrect": true },
+        { "text": "Stimulates thyroid activity", "isCorrect": false },
+        { "text": "Regulates water balance", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone causes enlargement of bones and soft tissues, particularly in adults?",
+    "options": [
+        { "text": "Growth Hormone", "isCorrect": true },
+        { "text": "Luteinising Hormone (LH)", "isCorrect": false },
+        { "text": "Thyroid Stimulating Hormone (TSH)", "isCorrect": false },
+        { "text": "Prolactin", "isCorrect": false }
+    ]
+},
+{
+"question": "What is the function of Interstitial Cell Stimulating Hormone (ICSH) in males?",
+    "options": [
+        { "text": "Stimulates growth", "isCorrect": false },
+        { "text": "Stimulates thyroid activity", "isCorrect": false },
+        { "text": "Stimulates testes to function", "isCorrect": true },
+        { "text": "Stimulates milk production", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which hormone stimulates the synthesis of macromolecules such as proteins and carbohydrates?",
+    "options": [
+        { "text": "Luteinising Hormone (LH)", "isCorrect": false },
+        { "text": "Thyroid Stimulating Hormone (TSH)", "isCorrect": false },
+        { "text": "Growth Hormone", "isCorrect": true },
+        { "text": "Prolactin", "isCorrect": false }
+    ]
+},
+{
+    "question": "What does Antidiuretic Hormone (ADH) stimulate in the kidneys?",
+    "options": [
+        { "text": "Urine production", "isCorrect": false },
+        { "text": "Water reabsorption", "isCorrect": true },
+        { "text": "Sodium excretion", "isCorrect": false },
+        { "text": "Potassium retention", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which gland secretes the hormone Growth Hormone?",
+    "options": [
+        { "text": "Pituitary gland", "isCorrect": true },
+        { "text": "Thyroid gland", "isCorrect": false },
+        { "text": "Adrenal gland", "isCorrect": false },
+        { "text": "Pancreas", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the function of Oxytocin during childbirth?",
+    "options": [
+        { "text": "Stimulates contractions of the uterus", "isCorrect": true },
+        { "text": "Stimulates milk production", "isCorrect": false },
+        { "text": "Stimulates thyroid activity", "isCorrect": false },
+        { "text": "Regulates blood sugar levels", "isCorrect": false }
+    ]
+},
+{
+    "question": "What hormone is primarily produced by the thyroid gland to regulate basal metabolic rate (BMR)?",
+    "options": [
+        { "text": "Insulin", "isCorrect": false },
+        { "text": "Cortisol", "isCorrect": false },
+        { "text": "Thyroxine", "isCorrect": true },
+        { "text": "Estrogen", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which element is essential for the formation of thyroxine by the thyroid gland?",
+    "options": [
+        { "text": "Calcium", "isCorrect": false },
+        { "text": "Iodine", "isCorrect": true },
+        { "text": "Sodium", "isCorrect": false },
+        { "text": "Iron", "isCorrect": false }
+    ]
+},
+{
+    "question": "Overproduction of thyroxine leads to which condition characterized by increased metabolic rate and irritability?",
+    "options": [
+        { "text": "Cretinism", "isCorrect": false },
+        { "text": "Myxoedema", "isCorrect": false },
+        { "text": "Goitre", "isCorrect": false },
+        { "text": "Hyperthyroidism", "isCorrect": true }
+    ]
+},
+{
+    "question": "What condition results from underproduction of thyroxine, causing slow metabolism and mental development?",
+    "options": [
+        { "text": "Cretinism", "isCorrect": true },
+        { "text": "Goitre", "isCorrect": false },
+        { "text": "Hyperthyroidism", "isCorrect": false },
+        { "text": "Myxoedema", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is a common consequence of iodine deficiency in relation to the thyroid gland?",
+    "options": [
+        { "text": "Diabetes", "isCorrect": false },
+        { "text": "Goitre", "isCorrect": true },
+        { "text": "Cushing's syndrome", "isCorrect": false },
+        { "text": "Gigantism", "isCorrect": false }
+    ]
+},
+{
+    "question": "Where are the adrenal glands located in the human body?",
+    "options": [
+        { "text": "Near the liver", "isCorrect": false },
+        { "text": "Above each kidney", "isCorrect": true },
+        { "text": "In the lungs", "isCorrect": false },
+        { "text": "Along the spine", "isCorrect": false }
+    ]
+},
+{
+    "question": "What hormone is primarily produced by the adrenal medulla during fight-or-flight responses?",
+    "options": [
+        { "text": "Thyroxine", "isCorrect": false },
+        { "text": "Adrenaline", "isCorrect": true },
+        { "text": "Insulin", "isCorrect": false },
+        { "text": "Estrogen", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which of the following is NOT a physiological response triggered by adrenaline during stress?",
+    "options": [
+        { "text": "Decreased heart rate", "isCorrect": true },
+        { "text": "Increased breathing rate", "isCorrect": false },
+        { "text": "Dilation of pupils", "isCorrect": false },
+        { "text": "Enhanced muscle blood flow", "isCorrect": false }
+    ]
+},
+{
+    "question": "Adrenaline increases the conversion of glycogen to glucose. What is the purpose of this action?",
+    "options": [
+        { "text": "To reduce blood sugar levels", "isCorrect": false },
+        { "text": "To store energy in muscles", "isCorrect": false },
+        { "text": "To supply energy for immediate use", "isCorrect": true },
+        { "text": "To slow down metabolism", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which body system does adrenaline prioritize during a fight-or-flight response by diverting blood away from the gut?",
+    "options": [
+        { "text": "Respiratory system", "isCorrect": false },
+        { "text": "Digestive system", "isCorrect": true },
+        { "text": "Muscular system", "isCorrect": false },
+        { "text": "Endocrine system", "isCorrect": false }
+    ]
+},
+{
+    "question": "What effect does adrenaline have on the eyes during a stressful situation?",
+    "options": [
+        { "text": "Constricts pupils", "isCorrect": false },
+        { "text": "Dilates pupils", "isCorrect": true },
+        { "text": "Closes eyelids", "isCorrect": false },
+        { "text": "Decreases vision clarity", "isCorrect": false }
+    ]
+},
+{
+    "question": "Adrenaline causes dilation of which part of the body to increase air intake?",
+    "options": [
+        { "text": "Alveoli", "isCorrect": false },
+        { "text": "Bronchi", "isCorrect": true },
+        { "text": "Diaphragm", "isCorrect": false },
+        { "text": "Sinuses", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which physiological response is associated with adrenaline in furry animals?",
+    "options": [
+        { "text": "Increased sweating", "isCorrect": false },
+        { "text": "Hair standing on end", "isCorrect": true },
+        { "text": "Decreased heart rate", "isCorrect": false },
+        { "text": "Enhanced digestion", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is a typical response caused by adrenaline during a fight-or-flight reaction?",
+    "options": [
+        { "text": "Decreased nervous system sensitivity", "isCorrect": false },
+        { "text": "Slowed reflexes", "isCorrect": false },
+        { "text": "Shivering", "isCorrect": false },
+        { "text": "Increased shivering", "isCorrect": false }
+    ]
+},
+{
+    "question": "Adrenaline is commonly known as the 'fight or flight hormone' because it:",
+    "options": [
+        { "text": "Induces sleep", "isCorrect": false },
+        { "text": "Enhances digestion", "isCorrect": false },
+        { "text": "Prepares the body for action", "isCorrect": true },
+        { "text": "Reduces heart rate", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the primary function of thyroxine produced by the thyroid gland?",
+    "options": [
+        { "text": "Regulates blood calcium levels", "isCorrect": false },
+        { "text": "Controls basal metabolic rate (BMR)", "isCorrect": true },
+        { "text": "Stimulates insulin production", "isCorrect": false },
+        { "text": "Promotes muscle growth", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which condition is characterized by an enlarged thyroid gland due to iodine deficiency?",
+    "options": [
+        { "text": "Cretinism", "isCorrect": false },
+        { "text": "Myxoedema", "isCorrect": false },
+        { "text": "Hyperthyroidism", "isCorrect": false },
+        { "text": "Goitre", "isCorrect": true }
+    ]
+},
+{
+    "question": "What is the consequence of hyperthyroidism, an overproduction of thyroxine?",
+    "options": [
+        { "text": "Slow metabolism", "isCorrect": false },
+        { "text": "Weight gain", "isCorrect": false },
+        { "text": "Increased heart rate", "isCorrect": true },
+        { "text": "Cold intolerance", "isCorrect": false }
+    ]
+},
+{
+    "question": "What role does iodine play in the production of thyroxine?",
+    "options": [
+        { "text": "Stimulates growth of thyroid cells", "isCorrect": false },
+        { "text": "Acts as a precursor for adrenaline", "isCorrect": false },
+        { "text": "Facilitates synthesis of thyroid hormones", "isCorrect": true },
+        { "text": "Promotes insulin secretion", "isCorrect": false }
+    ]
+},
+{
+    "question": "What condition results from untreated congenital hypothyroidism, leading to stunted physical and mental development?",
+    "options": [
+        { "text": "Hyperthyroidism", "isCorrect": false },
+        { "text": "Cretinism", "isCorrect": true },
+        { "text": "Goitre", "isCorrect": false },
+        { "text": "Diabetes insipidus", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the primary function of the pancreas in the endocrine system?",
+    "options": [
+        { "text": "Producing bile for fat digestion", "isCorrect": false },
+        { "text": "Regulating blood glucose levels", "isCorrect": true },
+        { "text": "Filtering blood toxins", "isCorrect": false },
+        { "text": "Secreting digestive enzymes", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which cells in the pancreas produce insulin?",
+    "options": [
+        { "text": "Alpha cells", "isCorrect": false },
+        { "text": "Beta cells", "isCorrect": true },
+        { "text": "Gamma cells", "isCorrect": false },
+        { "text": "Delta cells", "isCorrect": false }
+    ]
+},
+{
+    "question": "What hormone is secreted by alpha cells of the pancreas to raise blood glucose levels?",
+    "options": [
+        { "text": "Insulin", "isCorrect": false },
+        { "text": "Glucagon", "isCorrect": true },
+        { "text": "Thyroxine", "isCorrect": false },
+        { "text": "Cortisol", "isCorrect": false }
+    ]
+},
+{
+    "question": "How does insulin lower blood glucose levels?",
+    "options": [
+        { "text": "By converting glycogen to glucose", "isCorrect": false },
+        { "text": "By converting glucose to glycogen", "isCorrect": true },
+        { "text": "By converting fat to glucose", "isCorrect": false },
+        { "text": "By converting proteins to glucose", "isCorrect": false }
+    ]
+},
+{
+    "question": "Where is excess glucose stored in the body with the help of insulin?",
+    "options": [
+        { "text": "Kidneys", "isCorrect": false },
+        { "text": "Brain", "isCorrect": false },
+        { "text": "Adipose tissue", "isCorrect": true },
+        { "text": "Lungs", "isCorrect": false }
+    ]
+},
+{
+    "question": "What medical condition results from insufficient insulin production or function?",
+    "options": [
+        { "text": "Hypertension", "isCorrect": false },
+        { "text": "Diabetes mellitus", "isCorrect": true },
+        { "text": "Osteoporosis", "isCorrect": false },
+        { "text": "Anemia", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which symptom is commonly associated with diabetes mellitus?",
+    "options": [
+        { "text": "Low blood pressure", "isCorrect": false },
+        { "text": "Excessive thirst", "isCorrect": true },
+        { "text": "Decreased appetite", "isCorrect": false },
+        { "text": "Weight gain", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the role of glucagon during low blood glucose levels?",
+    "options": [
+        { "text": "Converts glycogen to glucose", "isCorrect": true },
+        { "text": "Converts glucose to glycogen", "isCorrect": false },
+        { "text": "Stimulates insulin release", "isCorrect": false },
+        { "text": "Promotes fat storage", "isCorrect": false }
+    ]
+},
+{
+    "question": "Where is glycogen stored for quick energy release when blood glucose levels drop?",
+    "options": [
+        { "text": "Adipose tissue", "isCorrect": false },
+        { "text": "Liver and muscles", "isCorrect": true },
+        { "text": "Brain", "isCorrect": false },
+        { "text": "Lungs", "isCorrect": false }
+    ]
+},
+{
+    "question": "How does glucagon increase blood glucose levels?",
+    "options": [
+        { "text": "By converting fat to glycogen", "isCorrect": false },
+        { "text": "By converting glycogen to glucose", "isCorrect": true },
+        { "text": "By inhibiting insulin secretion", "isCorrect": false },
+        { "text": "By promoting protein synthesis", "isCorrect": false }
+    ]
+},
+{
+    "question": "Which cells of the pancreas are responsible for producing glucagon?",
+    "options": [
+        { "text": "Alpha cells", "isCorrect": true },
+        { "text": "Beta cells", "isCorrect": false },
+        { "text": "Gamma cells", "isCorrect": false },
+        { "text": "Delta cells", "isCorrect": false }
+    ]
+},
+{
+    "question": "What effect does insulin have on fat metabolism?",
+    "options": [
+        { "text": "Converts fat to glycogen", "isCorrect": false },
+        { "text": "Converts glycogen to fat", "isCorrect": true },
+        { "text": "Converts glucose to fat", "isCorrect": false },
+        { "text": "Converts protein to fat", "isCorrect": false }
+    ]
+},
+{
+    "question": "What happens to excess glucose in the presence of insulin?",
+    "options": [
+        { "text": "Stored as glycogen", "isCorrect": true },
+        { "text": "Converted to protein", "isCorrect": false },
+        { "text": "Excreted in urine", "isCorrect": false },
+        { "text": "Stored in the lungs", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is a classic symptom of hypoglycemia (low blood sugar)?",
+    "options": [
+        { "text": "Excessive thirst", "isCorrect": false },
+        { "text": "Weight gain", "isCorrect": false },
+        { "text": "Shakiness and sweating", "isCorrect": true },
+        { "text": "Increased appetite", "isCorrect": false }
+    ]
+},
+{
+    "question": "In diabetes mellitus, why is there glucose present in the urine?",
+    "options": [
+        { "text": "Kidneys cannot reabsorb glucose", "isCorrect": true },
+        { "text": "Insulin resistance leads to glucose leakage", "isCorrect": false },
+        { "text": "Liver dysfunction increases glucose production", "isCorrect": false },
+        { "text": "Pancreas stops producing glucagon", "isCorrect": false }
+    ]
+},
+{
+    "question": "What is the primary purpose of a negative feedback mechanism in the body?",
+    "options": [
+        { "text": "To maintain stable levels of substances", "isCorrect": true },
+        { "text": "To increase hormone production", "isCorrect": false },
+        { "text": "To induce rapid changes in the internal environment", "isCorrect": false },
+        { "text": "To eliminate excess hormones", "isCorrect": false }
+    ]
+},
+{
+    "question": "In a negative feedback loop involving insulin and glucagon, what acts as the detector of blood glucose levels?",
+    "options": [
+        { "text": "Liver", "isCorrect": false },
+        { "text": "Pancreas", "isCorrect": true },
+        { "text": "Adipose tissue", "isCorrect": false },
+        { "text": "Brain", "isCorrect": false }
+    ]
+},
+{
+    "question": "When blood glucose levels rise above normal, which hormone is secreted to lower glucose levels?",
+    "options": [
+        { "text": "Glucagon", "isCorrect": false },
+        { "text": "Cortisol", "isCorrect": false },
+        { "text": "Thyroxine", "isCorrect": false },
+        { "text": "Insulin", "isCorrect": true }
+    ]
+},
+{
+    "question": "How does insulin contribute to the negative feedback loop to reduce blood glucose levels?",
+    "options": [
+        { "text": "By converting glycogen to glucose", "isCorrect": false },
+        { "text": "By converting glucose to glycogen", "isCorrect": true },
+        { "text": "By inhibiting glucagon release", "isCorrect": false },
+        { "text": "By promoting fat breakdown", "isCorrect": false }
+    ]
+},
+{
+    "question": "What effect does the negative feedback mechanism have on blood glucose levels when they drop below normal?",
+    "options": [
+        { "text": "Glucagon secretion increases", "isCorrect": false },
+        { "text": "Insulin secretion decreases", "isCorrect": false },
+        { "text": "Glucagon secretion decreases", "isCorrect": true },
+        { "text": "Insulin secretion increases", "isCorrect": true }
+    ]
+}
 
 
 ];
