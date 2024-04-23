@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- Assuming you're using Font Awesome for icons -->
+<!-- Link to Font Awesome for the lightbulb icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Link to noUiSlider CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+
+<!-- Link to noUiSlider JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>    <style>
+body {
+            font-family: Arial, sans-serif;
+            background-image: url('images/nature1.jpg'); /* Replace 'background-image.jpg' with your image file */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+/* Quiz container */
+#quiz {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+    display: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form styling */
+#email-form {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#email-form label {
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#email-form input[type="text"],
+#email-form input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#phone {
+  width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#email-form button {
+    width: 100%;
+}
+
+/* Result container styling */
+#result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Adjusted alignment */
+}
+
+#result-container h2 {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgba(24,56,26,0.2);
+    text-align: center; /* Centered heading */
+}
+
+#result-text {
+    font-size: 16px; /* Reduced font size for better readability */
+    line-height: 1.6;
+    margin-top: 20px; /* Added spacing between heading and content */
+}
+
+#result-text p {
+    margin-bottom: 10px; /* Added spacing between paragraphs */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.result-value {
+    font-weight: normal;
+    white-space: normal; /* Allows wrapping */
+}
+
+/* Timer container */
+#timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#timer-slider {
+    flex: 1;
+    pointer-events: none; 
+}
+
+#hint-button-container {
+    margin-right: auto; /* Adjust as needed */
+}
+
+#hint-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hint-button:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+#hint-button:hover .bulb-icon {
+    text-shadow: 0 0 10px yellow; /* Add text shadow effect only to the bulb icon on hover */
+}
+
+.hint-disabled #hint-button:hover .bulb-icon {
+    text-shadow: none; /* Remove text shadow effect when hint is disabled */
+}
+
+#timer-display {
+    font-size: 16px; /* Adjust as needed */
+    margin-left: auto; 
+}
+
+/* Quiz question styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+#question-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#question-container li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#question-container li:hover {
+    background-color: #e9e9e9;
+}
+
+#question-container li.correct {
+    background-color: #b9e3b3; /* Green color for correct answer */
+    animation: correctEffect 0.5s ease;
+}
+
+#question-container li.incorrect {
+    background-color: #ffcccc; /* Red color for incorrect answer */
+    animation: incorrectEffect 0.5s ease;
+}
+
+@keyframes correctEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes incorrectEffect {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+  
+  .hint-tooltip {
+    position: fixed;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+  
+  .bulb-icon {
+    color: red; /* Default color for enabled hint */
+}
+
+.hint-disabled .bulb-icon {
+    color: black; /* Color for disabled hint */
+}
+
+/* Custom styles for the slider */
+
+/* Background color of the slider track */
+.noUi-target {
+    background-color: green;
+}
+
+/* Hide the slider handle */
+.noUi-handle {
+    display: block;
+}
+
+/* Color of the active part of the slider track */
+.noUi-connect {
+    background-color: #4CAF50;
+}
+
+/* Color of the inactive part of the slider track */
+.noUi-connects {
+    background-color: #ddd;
+}
+    </style>
+</head>
+<body>
+    <form id="email-form" action="send_email.php" method="post">
+        <label for="name">Full Names:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="church">School:</label>
+        <input type="text" id="church" name="church"><br>
+        <label for="ministry">Grade:</label>
+        <input type="text" id="ministry" name="ministry"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <button type="button" onclick="startQuiz()">Start Quiz</button>
+    </form>
+
+    <div id="quiz" style="display: none;">
+        <div id="timer-container">
+          <div id="hint-button-container">
+             <button id="hint-button" onclick="showHint(questions[currentQuestionIndex])"><i class="fas fa-lightbulb bulb-icon"></i></button>
+          </div>
+          <input type="range" id="timer-slider" min="0" max="100" value="100">
+          <!--  <div id="timer-slider"></div> -->
+          <div id="timer-display"></div>
+     </div>
+
+        <div id="question-container"></div>
+        <div id="navigation-buttons">
+            <button onclick="prevQuestion()" id="prev-btn" style="display: none;">Previous</button>
+            <button onclick="nextQuestion()" id="next-btn" style="display: none;">Next</button>
+            <button onclick="submitQuiz()" id="submit-btn" style="display: none;">Submit</button>
+ </div>
+            </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+
+     </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+    <script>
+        let name;
+        let email;
+        let quizStarted = false;
+
+        const questions = [
+{
+    question: "What is locomotion?",
+    options: [
+        { text: "Movement of an entire organism from one place to another.", isCorrect: true },
+        { text: "Movement of body parts while remaining fixed.", isCorrect: false },
+        { text: "Mechanical support provided by skeletons.", isCorrect: false },
+        { text: "Protection of softer body parts.", isCorrect: false }
+    ],
+    hint: "Locomotion refers specifically to the movement of an entire organism."
+},
+{
+    question: "Which organisms can carry out locomotion?",
+    options: [
+        { text: "Animals.", isCorrect: true },
+        { text: "Plants.", isCorrect: false },
+        { text: "Trees.", isCorrect: false },
+        { text: "Invertebrates.", isCorrect: false }
+    ],
+    hint: "The text specifies that only animals can carry out locomotion."
+},
+{
+    question: "What is a skeleton?",
+    options: [
+        { text: "A firm structure that provides mechanical support and protection.", isCorrect: true },
+        { text: "A type of fluid found inside the body.", isCorrect: false },
+        { text: "A type of exoskeleton in invertebrates.", isCorrect: false },
+        { text: "A method of locomotion in soft-bodied organisms.", isCorrect: false }
+    ],
+    hint: "A skeleton is defined as a supportive structure that offers mechanical support and protection."
+},
+{
+    question: "How many types of skeletons are mentioned?",
+    options: [
+        { text: "Three.", isCorrect: true },
+        { text: "Four.", isCorrect: false },
+        { text: "Two.", isCorrect: false },
+        { text: "Five.", isCorrect: false }
+    ],
+    hint: "The text lists three types of skeletons."
+},
+{
+    question: "What is a hydrostatic skeleton?",
+    options: [
+        { text: "A skeleton made of watery fluids inside the body.", isCorrect: true },
+        { text: "A hard external shell providing support.", isCorrect: false },
+        { text: "A type of muscle in invertebrates.", isCorrect: false },
+        { text: "A bony framework inside vertebrates.", isCorrect: false }
+    ],
+    hint: "A hydrostatic skeleton is composed of watery fluids inside the body."
+},
+{
+    question: "Which organisms have hydrostatic skeletons?",
+    options: [
+        { text: "Soft-bodied invertebrates like earthworms and sea anemones.", isCorrect: true },
+        { text: "Vertebrates like fish and mammals.", isCorrect: false },
+        { text: "Plants and trees.", isCorrect: false },
+        { text: "Hard-shelled invertebrates like snails and slugs.", isCorrect: false }
+    ],
+    hint: "Hydrostatic skeletons are found in soft-bodied invertebrates."
+},
+{
+    question: "What are the important characteristics of water mentioned for a hydrostatic skeleton?",
+    options: [
+        { text: "Incompressibility, equal pressure transmission, and container shaping.", isCorrect: true },
+        { text: "Compressibility, directional pressure, and solid form.", isCorrect: false },
+        { text: "Low viscosity, high density, and rapid movement.", isCorrect: false },
+        { text: "Transparent nature, high solubility, and low surface tension.", isCorrect: false }
+    ],
+    hint: "The text describes water's properties that make it suitable for a hydrostatic skeleton."
+},
+{
+    question: "What type of muscle contraction occurs during locomotion in an earthworm?",
+    options: [
+        { text: "Circular and longitudinal muscles contracting in turns.", isCorrect: true },
+        { text: "Smooth and cardiac muscles contracting simultaneously.", isCorrect: false },
+        { text: "Muscles contracting in a random pattern.", isCorrect: false },
+        { text: "Muscles contracting only along the body's length.", isCorrect: false }
+    ],
+    hint: "The text specifies the type of muscle action in earthworm locomotion."
+},
+{
+    question: "What are peristaltic waves?",
+    options: [
+        { text: "Waves of muscle contraction that propel movement.", isCorrect: true },
+        { text: "Waves of water movement inside the body.", isCorrect: false },
+        { text: "Waves of skeleton compression.", isCorrect: false },
+        { text: "Waves of nerve impulses.", isCorrect: false }
+    ],
+    hint: "Peristaltic waves are related to muscle contractions involved in movement."
+},
+{
+    question: "Where do peristaltic waves begin during earthworm locomotion?",
+    options: [
+        { text: "At the front end of the body.", isCorrect: true },
+        { text: "At the middle of the body.", isCorrect: false },
+        { text: "At the rear end of the body.", isCorrect: false },
+        { text: "Randomly along the body.", isCorrect: false }
+    ],
+    hint: "Peristaltic waves start from a specific location on the earthworm's body."
+},
+{
+    question: "Which body parts contract to produce peristaltic waves in an earthworm?",
+    options: [
+        { text: "Circular and longitudinal muscles.", isCorrect: true },
+        { text: "Tentacles and sensory organs.", isCorrect: false },
+        { text: "Exoskeleton segments.", isCorrect: false },
+        { text: "Digestive organs.", isCorrect: false }
+    ],
+    hint: "The text specifies the muscles involved in generating peristaltic waves."
+},
+{
+    question: "What is the purpose of a hydrostatic skeleton in locomotion?",
+    options: [
+        { text: "To provide mechanical support and aid in movement.", isCorrect: true },
+        { text: "To protect the softer body parts.", isCorrect: false },
+        { text: "To form a hard external shell.", isCorrect: false },
+        { text: "To transmit nerve impulses efficiently.", isCorrect: false }
+    ],
+    hint: "The hydrostatic skeleton contributes to movement and support during locomotion."
+},
+{
+    question: "Which of these is NOT a type of skeleton mentioned?",
+    options: [
+        { text: "Pneumatic skeleton.", isCorrect: true },
+        { text: "Exoskeleton.", isCorrect: false },
+        { text: "Endoskeleton.", isCorrect: false },
+        { text: "Hydrostatic skeleton.", isCorrect: false }
+    ],
+    hint: "Identify the type of skeleton that is not discussed in the text."
+},
+{
+    question: "What role do circular and longitudinal muscles play in locomotion?",
+    options: [
+        { text: "They contract to produce peristaltic waves.", isCorrect: true },
+        { text: "They protect the body from external threats.", isCorrect: false },
+        { text: "They provide structural support.", isCorrect: false },
+        { text: "They secrete the hydrostatic fluids.", isCorrect: false }
+    ],
+    hint: "These muscles are specifically involved in generating movement through peristaltic waves."
+},
+{
+    question: "Which part of the earthworm is involved in locomotion through peristaltic waves?",
+    options: [
+        { text: "Muscles.", isCorrect: false },
+        { text: "Nervous system.", isCorrect: false },
+        { text: "Body segments.", isCorrect: true },
+        { text: "Exoskeleton.", isCorrect: false }
+    ],
+    hint: "Identify the anatomical part of the earthworm that participates in generating movement waves."
+},
+{
+    question: "What is the main function of an exoskeleton?",
+    options: [
+        { text: "To provide external protection and support.", isCorrect: true },
+        { text: "To store hydrostatic fluids.", isCorrect: false },
+        { text: "To transmit nerve impulses.", isCorrect: false },
+        { text: "To contract and relax for movement.", isCorrect: false }
+    ],
+    hint: "Exoskeletons primarily offer external protection and support to the body."
+},
+{
+    question: "Which type of organism has an exoskeleton?",
+    options: [
+        { text: "Insects.", isCorrect: true },
+        { text: "Vertebrates.", isCorrect: false },
+        { text: "Mammals.", isCorrect: false },
+        { text: "Trees.", isCorrect: false }
+    ],
+    hint: "Exoskeletons are characteristic of certain groups of invertebrates like insects."
+},
+{
+    question: "What provides mechanical support to the body and protection to softer parts?",
+    options: [
+        { text: "Skeleton.", isCorrect: true },
+        { text: "Muscles.", isCorrect: false },
+        { text: "Hydrostatic fluids.", isCorrect: false },
+        { text: "Nervous system.", isCorrect: false }
+    ],
+    hint: "This structure is defined as offering both mechanical support and protection."
+},
+{
+    question: "Which type of skeleton occurs in soft-bodied invertebrates like earthworms?",
+    options: [
+        { text: "Hydrostatic skeleton.", isCorrect: true },
+        { text: "Endoskeleton.", isCorrect: false },
+        { text: "Exoskeleton.", isCorrect: false },
+        { text: "Pneumatic skeleton.", isCorrect: false }
+    ],
+    hint: "Soft-bodied invertebrates rely on this type of skeleton for support and movement."
+},
+{
+    question: "What is the function of a skeleton in locomotion?",
+    options: [
+        { text: "To provide structural support and aid in movement.", isCorrect: true },
+        { text: "To generate nerve impulses for muscle contraction.", isCorrect: false },
+        { text: "To store and distribute hydrostatic fluids.", isCorrect: false },
+        { text: "To sense environmental changes.", isCorrect: false }
+    ],
+    hint: "The skeleton contributes to structural support and facilitates movement during locomotion."
+},
+{
+    question: "What type of fluids make up a hydrostatic skeleton?",
+    options: [
+        { text: "Watery fluids.", isCorrect: true },
+        { text: "Viscous oils.", isCorrect: false },
+        { text: "Solid minerals.", isCorrect: false },
+        { text: "Gas bubbles.", isCorrect: false }
+    ],
+    hint: "Hydrostatic skeletons are composed of these specific types of fluids."
+},
+{
+    question: "Where is an exoskeleton located?",
+    options: [
+        { text: "Outside the muscles of the body.", isCorrect: true },
+        { text: "Inside the muscles of the body.", isCorrect: false },
+        { text: "Within the bones of the body.", isCorrect: false },
+        { text: "Around the nervous system.", isCorrect: false }
+    ],
+    hint: "Exoskeletons are situated externally, outside the body's muscle layer."
+},
+{
+    question: "Which organisms have an exoskeleton?",
+    options: [
+        { text: "Arthropods (crustaceans, insects, myriapods, and arachnids).", isCorrect: true },
+        { text: "Vertebrates like fish and mammals.", isCorrect: false },
+        { text: "Soft-bodied invertebrates like earthworms.", isCorrect: false },
+        { text: "Plants and trees.", isCorrect: false }
+    ],
+    hint: "Exoskeletons are a characteristic feature of arthropods."
+},
+{
+    question: "What is the main component of an insect's exoskeleton?",
+    options: [
+        { text: "Chitin.", isCorrect: true },
+        { text: "Proteins.", isCorrect: false },
+        { text: "Lipids.", isCorrect: false },
+        { text: "Calcium carbonate.", isCorrect: false }
+    ],
+    hint: "The exoskeleton of insects is largely composed of this polysaccharide."
+},
+{
+    question: "What is the outer layer of an insect's cuticle called?",
+    options: [
+        { text: "Epicuticle.", isCorrect: true },
+        { text: "Chitin.", isCorrect: false },
+        { text: "Procuticle.", isCorrect: false },
+        { text: "Endocuticle.", isCorrect: false }
+    ],
+    hint: "Identify the name of the waxy thin outer layer of the insect's cuticle."
+},
+{
+    question: "What is the inner layer of an insect's cuticle made of?",
+    options: [
+        { text: "Chitin (procuticle).", isCorrect: true },
+        { text: "Epicuticle.", isCorrect: false },
+        { text: "Wax.", isCorrect: false },
+        { text: "Polysaccharide.", isCorrect: false }
+    ],
+    hint: "The inner layer of an insect's cuticle is composed of this polysaccharide."
+},
+{
+    question: "Which layer of the procuticle is closer to the epicuticle?",
+    options: [
+        { text: "Exocuticle.", isCorrect: true },
+        { text: "Endocuticle.", isCorrect: false },
+        { text: "Chitin.", isCorrect: false },
+        { text: "Wax.", isCorrect: false }
+    ],
+    hint: "Identify the layer of the procuticle that is adjacent to the epicuticle."
+},
+{
+    question: "What material largely makes up the exoskeleton's cuticle?",
+    options: [
+        { text: "Chitin.", isCorrect: true },
+        { text: "Protein.", isCorrect: false },
+        { text: "Lipid.", isCorrect: false },
+        { text: "Wax.", isCorrect: false }
+    ],
+    hint: "The cuticle of the exoskeleton is predominantly composed of this substance."
+},
+{
+    question: "What is the exoskeleton in insects also known as?",
+    options: [
+        { text: "Cuticle.", isCorrect: true },
+        { text: "Endoskeleton.", isCorrect: false },
+        { text: "Hydrostatic skeleton.", isCorrect: false },
+        { text: "Chitin skeleton.", isCorrect: false }
+    ],
+    hint: "In insects, the exoskeleton is referred to by this alternate term."
+},
+{
+    question: "What role does wax play in an insect's exoskeleton?",
+    options: [
+        { text: "Covering the chitin and providing protection.", isCorrect: true },
+        { text: "Forming the inner layer of the cuticle.", isCorrect: false },
+        { text: "Secreting hydrostatic fluids.", isCorrect: false },
+        { text: "Transmitting nerve signals.", isCorrect: false }
+    ],
+    hint: "Wax serves this specific function in relation to the insect's exoskeleton."
+},
+{
+    question: "Which layer of the exoskeleton is made of chitin?",
+    options: [
+        { text: "Procuticle.", isCorrect: true },
+        { text: "Epicuticle.", isCorrect: false },
+        { text: "Exocuticle.", isCorrect: false },
+        { text: "Endocuticle.", isCorrect: false }
+    ],
+    hint: "Identify the layer of the exoskeleton that contains chitin as a major component."
+},
+{
+    question: "Where is an endoskeleton located?",
+    options: [
+        { text: "Inside the body.", isCorrect: true },
+        { text: "Outside the body.", isCorrect: false },
+        { text: "Within the muscles.", isCorrect: false },
+        { text: "Around the nervous system.", isCorrect: false }
+    ],
+    hint: "Endoskeletons are situated internally, within the body."
+},
+{
+    question: "Which organisms have an endoskeleton?",
+    options: [
+        { text: "All vertebrates (fish, amphibians, reptiles, birds, and mammals).", isCorrect: true },
+        { text: "Insects.", isCorrect: false },
+        { text: "Plants.", isCorrect: false },
+        { text: "Soft-bodied invertebrates.", isCorrect: false }
+    ],
+    hint: "Endoskeletons are a characteristic feature of vertebrates."
+},
+{
+    question: "What is the endoskeleton of a vertebrate fetus largely made up of?",
+    options: [
+        { text: "Cartilage.", isCorrect: true },
+        { text: "Bone.", isCorrect: false },
+        { text: "Muscle.", isCorrect: false },
+        { text: "Nerve tissue.", isCorrect: false }
+    ],
+    hint: "The endoskeleton of vertebrate fetuses primarily consists of this material."
+},
+{
+    question: "What type of skeleton do cartilaginous fish like sharks have?",
+    options: [
+        { text: "Entirely cartilaginous skeleton.", isCorrect: true },
+        { text: "Entirely bony skeleton.", isCorrect: false },
+        { text: "Exoskeleton.", isCorrect: false },
+        { text: "Hydrostatic skeleton.", isCorrect: false }
+    ],
+    hint: "Some adult vertebrates, like cartilaginous fish, have this type of skeleton."
+},
+{
+    question: "What is cartilage made of?",
+    options: [
+        { text: "Living cells and collagen fibers embedded in a matrix of chondrin.", isCorrect: true },
+        { text: "Bone and muscle fibers.", isCorrect: false },
+        { text: "Proteins and lipids.", isCorrect: false },
+        { text: "Wax and polysaccharides.", isCorrect: false }
+    ],
+    hint: "Cartilage consists of these specific components."
+},
+{
+    question: "Where is cartilage found in the vertebrate body?",
+    options: [
+        { text: "Trachea, nose, ear lobes, larynx, and ends of bones.", isCorrect: true },
+        { text: "Muscles and tendons.", isCorrect: false },
+        { text: "Exoskeleton.", isCorrect: false },
+        { text: "Nervous system.", isCorrect: false }
+    ],
+    hint: "Cartilage is located in these firm yet flexible parts of the vertebrate body."
+},
+{
+    question: "What function does cartilage serve between the vertebrae in the spine?",
+    options: [
+        { text: "Allows bending of the spine.", isCorrect: true },
+        { text: "Produces blood cells.", isCorrect: false },
+        { text: "Transmits nerve signals.", isCorrect: false },
+        { text: "Stores minerals.", isCorrect: false }
+    ],
+    hint: "Cartilage between vertebrae contributes to this specific spinal function."
+},
+{
+    question: "What does cartilage do in the trachea?",
+    options: [
+        { text: "Keeps it open even when the neck bends.", isCorrect: true },
+        { text: "Provides flexibility to the trachea.", isCorrect: false },
+        { text: "Generates sound.", isCorrect: false },
+        { text: "Stores air.", isCorrect: false }
+    ],
+    hint: "Cartilage in the trachea helps maintain this structural feature."
+},
+{
+    question: "What role does cartilage play in the pinna and the end of the nose?",
+    options: [
+        { text: "Helps keep them firm.", isCorrect: true },
+        { text: "Transmits sensory signals.", isCorrect: false },
+        { text: "Filters air.", isCorrect: false },
+        { text: "Supports muscle attachment.", isCorrect: false }
+    ],
+    hint: "Cartilage contributes to maintaining the firmness of these body parts."
+},
+{
+    question: "What function does cartilage serve at the ends of bones in joints?",
+    options: [
+        { text: "Reduces friction, cushions bones, and bears loads.", isCorrect: true },
+        { text: "Supports muscle contraction.", isCorrect: false },
+        { text: "Regulates body temperature.", isCorrect: false },
+        { text: "Transmits electrical signals.", isCorrect: false }
+    ],
+    hint: "Cartilage at joints performs these important biomechanical roles."
+},
+{
+    question: "What is the main skeletal material of vertebrate embryos?",
+    options: [
+        { text: "Cartilage.", isCorrect: true },
+        { text: "Bone.", isCorrect: false },
+        { text: "Muscle.", isCorrect: false },
+        { text: "Tendon.", isCorrect: false }
+    ],
+    hint: "Cartilage is the predominant skeletal material in vertebrate embryos."
+},
+{
+    question: "What is bone tissue made of?",
+    options: [
+        { text: "Living cells and collagen fibers in a matrix of calcium phosphate and magnesium salts.", isCorrect: true },
+        { text: "Muscle fibers and blood vessels.", isCorrect: false },
+        { text: "Nerve cells and cartilage.", isCorrect: false },
+        { text: "Lipids and proteins.", isCorrect: false }
+    ],
+    hint: "Bone tissue consists of these components within its matrix."
+},
+{
+    question: "Where do living cells in bone tissue occur?",
+    options: [
+        { text: "In lacunae.", isCorrect: true },
+        { text: "In canaliculi.", isCorrect: false },
+        { text: "In Haversian canals.", isCorrect: false },
+        { text: "In Volkmann canals.", isCorrect: false }
+    ],
+    hint: "Living bone cells are housed within these structural features of bone tissue."
+},
+{
+    question: "What is the matrix of bone tissue mainly composed of?",
+    options: [
+        { text: "Calcium phosphate and magnesium salts.", isCorrect: true },
+        { text: "Collagen fibers and proteins.", isCorrect: false },
+        { text: "Lipids and carbohydrates.", isCorrect: false },
+        { text: "Water and minerals.", isCorrect: false }
+    ],
+    hint: "The bone matrix primarily consists of these mineral components."
+},
+{
+    question: "What is the system formed by concentric rings of bone matrix?",
+    options: [
+        { text: "Haversian system.", isCorrect: true },
+        { text: "Canaliculi system.", isCorrect: false },
+        { text: "Volkmann system.", isCorrect: false },
+        { text: "Lacunar system.", isCorrect: false }
+    ],
+    hint: "Concentric rings of bone matrix form this structural system within bones."
+},
+{
+    question: "How are lacunae (singular = lacuna) linked to each other?",
+    options: [
+        { text: "By channels of cytoplasm known as canaliculi.", isCorrect: true },
+        { text: "By blood vessels.", isCorrect: false },
+        { text: "By nerve fibers.", isCorrect: false },
+        { text: "By collagen fibers.", isCorrect: false }
+    ],
+    hint: "Lacunae are connected via these microscopic channels within bone tissue."
+},
+{
+    question: "What structures are found in the central space of the Haversian system?",
+    options: [
+        { text: "Haversian canal containing blood vessels, nerves, and lymphatic vessels.", isCorrect: true },
+        { text: "Lacunae and canaliculi.", isCorrect: false },
+        { text: "Volkmann canals.", isCorrect: false },
+        { text: "Bone marrow.", isCorrect: false }
+    ],
+    hint: "The central space of the Haversian system contains these components."
+},
+{
+    question: "What structure links the Haversian canal to the bone marrow?",
+    options: [
+        { text: "Volkmann canal.", isCorrect: true },
+        { text: "Canaliculus.", isCorrect: false },
+        { text: "Lacuna.", isCorrect: false },
+        { text: "Haversian canal.", isCorrect: false }
+    ],
+    hint: "This canal extends transversely from the Haversian canal to the bone marrow."
+},
+{
+    question: "What type of bone is found at the ends of long bones in vertebrates?",
+    options: [
+        { text: "Spongy bone.", isCorrect: true },
+        { text: "Compact bone.", isCorrect: false },
+        { text: "Cancellous bone.", isCorrect: false },
+        { text: "Dense bone.", isCorrect: false }
+    ],
+    hint: "The ends of long bones contain this type of bone tissue."
+},
+{
+    question: "What is compact bone primarily composed of?",
+    options: [
+        { text: "Many Haversian systems grouped together.", isCorrect: true },
+        { text: "Chondrin and collagen fibers.", isCorrect: false },
+        { text: "Blood vessels and nerves.", isCorrect: false },
+        { text: "Mineral salts and water.", isCorrect: false }
+    ],
+    hint: "Compact bone consists of numerous Haversian systems packed closely together."
+},
+{
+    question: "Which part of the bone tissue houses blood vessels, nerves, and lymphatic vessels?",
+    options: [
+        { text: "Haversian canal.", isCorrect: true },
+        { text: "Lacuna.", isCorrect: false },
+        { text: "Canaliculus.", isCorrect: false },
+        { text: "Volkmann canal.", isCorrect: false }
+    ],
+    hint: "These structures are contained within the Haversian canal."
+},
+{
+    question: "What kind of bone tissue forms concentric rings around a central Haversian canal?",
+    options: [
+        { text: "Compact bone.", isCorrect: true },
+        { text: "Spongy bone.", isCorrect: false },
+        { text: "Cancellous bone.", isCorrect: false },
+        { text: "Dense bone.", isCorrect: false }
+    ],
+    hint: "This type of bone tissue is arranged in concentric layers around the Haversian canal."
+},
+{
+    question: "What is the name of the microscopic channels that connect lacunae?",
+    options: [
+        { text: "Canaliculi.", isCorrect: true },
+        { text: "Haversian canals.", isCorrect: false },
+        { text: "Volkmann canals.", isCorrect: false },
+        { text: "Lacunae.", isCorrect: false }
+    ],
+    hint: "These channels facilitate communication between lacunae."
+},
+{
+    question: "What mineral is a major component of the bone matrix?",
+    options: [
+        { text: "Calcium phosphate.", isCorrect: true },
+        { text: "Magnesium sulfate.", isCorrect: false },
+        { text: "Sodium chloride.", isCorrect: false },
+        { text: "Potassium nitrate.", isCorrect: false }
+    ],
+    hint: "This mineral is a key component of the matrix in bone tissue."
+},
+{
+    question: "What is the role of collagen fibers in bone tissue?",
+    options: [
+        { text: "Provide strength and flexibility.", isCorrect: true },
+        { text: "Conduct nerve signals.", isCorrect: false },
+        { text: "Transport oxygen.", isCorrect: false },
+        { text: "Store minerals.", isCorrect: false }
+    ],
+    hint: "Collagen fibers contribute to these properties of bone tissue."
+},
+{
+    question: "What does the Haversian system consist of?",
+    options: [
+        { text: "Concentric rings of bone matrix around a central Haversian canal.", isCorrect: true },
+        { text: "Blood vessels and nerves.", isCorrect: false },
+        { text: "Canaliculi and lacunae.", isCorrect: false },
+        { text: "Volkmann canal and bone marrow.", isCorrect: false }
+    ],
+    hint: "The Haversian system is characterized by this specific arrangement within bone tissue."
+},
+{
+    question: "What are the two main regions of the human skeleton?",
+    options: [
+        { text: "Axial skeleton and appendicular skeleton.", isCorrect: true },
+        { text: "Superior skeleton and inferior skeleton.", isCorrect: false },
+        { text: "Cranial skeleton and spinal skeleton.", isCorrect: false },
+        { text: "Upper skeleton and lower skeleton.", isCorrect: false }
+    ],
+    hint: "The human skeleton is divided into these two distinct regions."
+},
+{
+    question: "What bones make up the axial skeleton?",
+    options: [
+        { text: "Skull, vertebral column (spine), ribs, and sternum.", isCorrect: true },
+        { text: "Arms and legs.", isCorrect: false },
+        { text: "Shoulder blades and collar bones.", isCorrect: false },
+        { text: "Pelvis and girdles.", isCorrect: false }
+    ],
+    hint: "The axial skeleton comprises these specific bones."
+},
+{
+    question: "Which part of the skeleton is composed of the limbs and girdles?",
+    options: [
+        { text: "Appendicular skeleton.", isCorrect: true },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Cranial skeleton.", isCorrect: false },
+        { text: "Spinal skeleton.", isCorrect: false }
+    ],
+    hint: "The appendicular skeleton consists of these structures."
+},
+{
+    question: "How many sets of limbs are there in the human skeleton?",
+    options: [
+        { text: "Two sets - fore limbs (arms) and hind limbs (legs).", isCorrect: true },
+        { text: "Three sets - arms, legs, and wings.", isCorrect: false },
+        { text: "One set - legs only.", isCorrect: false },
+        { text: "Four sets - two arms and two legs.", isCorrect: false }
+    ],
+    hint: "The human skeleton includes this number of limb sets."
+},
+{
+    question: "What is the function of the girdles in the human skeleton?",
+    options: [
+        { text: "To link the axial skeleton with the limbs.", isCorrect: true },
+        { text: "To provide protection to internal organs.", isCorrect: false },
+        { text: "To support the weight of the body.", isCorrect: false },
+        { text: "To facilitate blood circulation.", isCorrect: false }
+    ],
+    hint: "Girdles serve this specific role in the skeletal system."
+},
+{
+    question: "What are the two types of girdles in the human skeleton?",
+    options: [
+        { text: "Pectoral girdle and pelvic girdle.", isCorrect: true },
+        { text: "Shoulder girdle and hip girdle.", isCorrect: false },
+        { text: "Axial girdle and appendicular girdle.", isCorrect: false },
+        { text: "Upper girdle and lower girdle.", isCorrect: false }
+    ],
+    hint: "These are the two main types of girdles in the human skeletal system."
+},
+{
+    question: "Which bones make up the pectoral girdle?",
+    options: [
+        { text: "Shoulder blades (scapulas) and collar bones (clavicles).", isCorrect: true },
+        { text: "Pelvis bones.", isCorrect: false },
+        { text: "Femur and tibia.", isCorrect: false },
+        { text: "Vertebrae.", isCorrect: false }
+    ],
+    hint: "The pectoral girdle is composed of these specific bones."
+},
+{
+    question: "What is another name for the pelvic girdle?",
+    options: [
+        { text: "Pelvis.", isCorrect: true },
+        { text: "Sacrum.", isCorrect: false },
+        { text: "Coccyx.", isCorrect: false },
+        { text: "Ilium.", isCorrect: false }
+    ],
+    hint: "The pelvic girdle is also known by this alternate name."
+},
+{
+    question: "Which bones make up the pelvic girdle?",
+    options: [
+        { text: "Pubis, ilium, and ischium.", isCorrect: true },
+        { text: "Scapula and clavicle.", isCorrect: false },
+        { text: "Femur and tibia.", isCorrect: false },
+        { text: "Vertebrae.", isCorrect: false }
+    ],
+    hint: "The pelvic girdle includes these specific bones."
+},
+{
+    question: "What is the function of the pectoral girdle?",
+    options: [
+        { text: "To link the fore limbs to the axial skeleton.", isCorrect: true },
+        { text: "To provide support to the spinal column.", isCorrect: false },
+        { text: "To facilitate breathing.", isCorrect: false },
+        { text: "To assist in balance and coordination.", isCorrect: false }
+    ],
+    hint: "The pectoral girdle performs this role in the skeletal system."
+},
+{
+    question: "What is the function of the pelvic girdle?",
+    options: [
+        { text: "To link the hind limbs to the axial skeleton.", isCorrect: true },
+        { text: "To protect the heart and lungs.", isCorrect: false },
+        { text: "To facilitate digestion.", isCorrect: false },
+        { text: "To regulate body temperature.", isCorrect: false }
+    ],
+    hint: "The pelvic girdle serves this specific function in the skeletal system."
+},
+{
+    question: "Which part of the skeleton is formed by the shoulder blades and collar bones?",
+    options: [
+        { text: "Pectoral girdle.", isCorrect: true },
+        { text: "Pelvic girdle.", isCorrect: false },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Appendicular skeleton.", isCorrect: false }
+    ],
+    hint: "The shoulder blades and collar bones collectively make up this part of the skeleton."
+},
+{
+    question: "Which part of the skeleton is formed by the pubis, ilium, and ischium bones?",
+    options: [
+        { text: "Pelvic girdle (or pelvis).", isCorrect: true },
+        { text: "Pectoral girdle.", isCorrect: false },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Appendicular skeleton.", isCorrect: false }
+    ],
+    hint: "These bones collectively form the pelvic girdle in the skeletal system."
+},
+{
+    question: "What is the main role of the appendicular skeleton?",
+    options: [
+        { text: "To provide movement and support through the limbs.", isCorrect: true },
+        { text: "To protect the brain and spinal cord.", isCorrect: false },
+        { text: "To facilitate breathing and circulation.", isCorrect: false },
+        { text: "To support the body's weight and posture.", isCorrect: false }
+    ],
+    hint: "The appendicular skeleton primarily functions in facilitating this aspect of the skeletal system."
+},
+{
+    question: "Which part of the skeleton comprises the limbs and girdles?",
+    options: [
+        { text: "Appendicular skeleton.", isCorrect: true },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Cranial skeleton.", isCorrect: false },
+        { text: "Spinal skeleton.", isCorrect: false }
+    ],
+    hint: "The limbs and girdles form this major component of the human skeleton."
+},
+{
+    question: "What does the pectoral girdle link to the axial skeleton?",
+    options: [
+        { text: "Fore limbs (arms).", isCorrect: true },
+        { text: "Hind limbs (legs).", isCorrect: false },
+        { text: "Vertebral column.", isCorrect: false },
+        { text: "Rib cage.", isCorrect: false }
+    ],
+    hint: "The pectoral girdle connects this part of the appendicular skeleton to the axial skeleton."
+},
+{
+    question: "What does the pelvic girdle link to the axial skeleton?",
+    options: [
+        { text: "Hind limbs (legs).", isCorrect: true },
+        { text: "Fore limbs (arms).", isCorrect: false },
+        { text: "Skull.", isCorrect: false },
+        { text: "Sternum.", isCorrect: false }
+    ],
+    hint: "The pelvic girdle attaches this part of the appendicular skeleton to the axial skeleton."
+},
+{
+    question: "What bones make up the appendicular skeleton?",
+    options: [
+        { text: "Limbs and girdles.", isCorrect: true },
+        { text: "Skull and vertebrae.", isCorrect: false },
+        { text: "Ribs and sternum.", isCorrect: false },
+        { text: "Shoulder blades and collar bones.", isCorrect: false }
+    ],
+    hint: "The appendicular skeleton is composed of these specific structures."
+},
+{
+    question: "Which part of the skeleton includes the shoulder blades and collar bones?",
+    options: [
+        { text: "Pectoral girdle.", isCorrect: true },
+        { text: "Pelvic girdle.", isCorrect: false },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Appendicular skeleton.", isCorrect: false }
+    ],
+    hint: "The shoulder blades and collar bones are components of this skeletal region."
+},
+{
+    question: "Which part of the skeleton includes the pubis, ilium, and ischium bones?",
+    options: [
+        { text: "Pelvic girdle (or pelvis).", isCorrect: true },
+        { text: "Pectoral girdle.", isCorrect: false },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Appendicular skeleton.", isCorrect: false }
+    ],
+    hint: "These bones collectively form this part of the appendicular skeleton."
+},
+{
+    question: "What is the main role of the appendicular skeleton in the human body?",
+    options: [
+        { text: "To provide mobility and support through the limbs.", isCorrect: true },
+        { text: "To protect vital organs.", isCorrect: false },
+        { text: "To assist in respiration.", isCorrect: false },
+        { text: "To produce blood cells.", isCorrect: false }
+    ],
+    hint: "The appendicular skeleton primarily functions in this capacity within the human body."
+},
+{
+    question: "Which part of the skeleton includes the arms and legs?",
+    options: [
+        { text: "Appendicular skeleton.", isCorrect: true },
+        { text: "Axial skeleton.", isCorrect: false },
+        { text: "Cranial skeleton.", isCorrect: false },
+        { text: "Spinal skeleton.", isCorrect: false }
+    ],
+    hint: "The arms and legs are integral components of this major skeletal division."
+},
+{
+    question: "What is the function of the pectoral girdle?",
+    options: [
+        { text: "To link the arms to the axial skeleton.", isCorrect: true },
+        { text: "To support the weight of the body.", isCorrect: false },
+        { text: "To protect the heart and lungs.", isCorrect: false },
+        { text: "To facilitate digestion.", isCorrect: false }
+    ],
+    hint: "The pectoral girdle performs this specific function in the skeletal system."
+},
+{
+    question: "What is the function of the pelvic girdle?",
+    options: [
+        { text: "To link the legs to the axial skeleton.", isCorrect: true },
+        { text: "To protect the brain.", isCorrect: false },
+        { text: "To assist in breathing.", isCorrect: false },
+        { text: "To regulate body temperature.", isCorrect: false }
+    ],
+    hint: "The pelvic girdle serves this specific role in the skeletal system."
+},
+{
+    question: "What are the bones that make up the vertebral column called?",
+    options: [
+        { text: "Vertebrae (singular = vertebra).", isCorrect: true },
+        { text: "Tendons.", isCorrect: false },
+        { text: "Femurs.", isCorrect: false },
+        { text: "Cartilage.", isCorrect: false }
+    ],
+    hint: "The bones of the vertebral column are known by this term."
+},
+{
+    question: "Where are cervical vertebrae located?",
+    options: [
+        { text: "Neck region.", isCorrect: true },
+        { text: "Chest region.", isCorrect: false },
+        { text: "Abdominal region.", isCorrect: false },
+        { text: "Hip region.", isCorrect: false }
+    ],
+    hint: "Cervical vertebrae are situated in this region of the body."
+},
+{
+    question: "How many cervical vertebrae are there in the human spine?",
+    options: [
+        { text: "7.", isCorrect: true },
+        { text: "12.", isCorrect: false },
+        { text: "5.", isCorrect: false },
+        { text: "4.", isCorrect: false }
+    ],
+    hint: "The human spine consists of this number of cervical vertebrae."
+},
+{
+    question: "Which region of the body do thoracic vertebrae belong to?",
+    options: [
+        { text: "Chest region.", isCorrect: true },
+        { text: "Neck region.", isCorrect: false },
+        { text: "Abdominal region.", isCorrect: false },
+        { text: "Hip region.", isCorrect: false }
+    ],
+    hint: "Thoracic vertebrae are located in this specific body region."
+},
+{
+    question: "How many thoracic vertebrae are typically found in the human spine?",
+    options: [
+        { text: "12.", isCorrect: true },
+        { text: "7.", isCorrect: false },
+        { text: "5.", isCorrect: false },
+        { text: "4.", isCorrect: false }
+    ],
+    hint: "The human spine typically contains this number of thoracic vertebrae."
+},
+{
+    question: "Where are lumbar vertebrae located?",
+    options: [
+        { text: "Abdominal region or loin.", isCorrect: true },
+        { text: "Neck region.", isCorrect: false },
+        { text: "Chest region.", isCorrect: false },
+        { text: "Hip region.", isCorrect: false }
+    ],
+    hint: "Lumbar vertebrae are situated in this area of the body."
+},
+{
+    question: "How many lumbar vertebrae are typically present in the human spine?",
+    options: [
+        { text: "5.", isCorrect: true },
+        { text: "7.", isCorrect: false },
+        { text: "12.", isCorrect: false },
+        { text: "4.", isCorrect: false }
+    ],
+    hint: "The human spine usually contains this number of lumbar vertebrae."
+},
+{
+    question: "Where are sacral vertebrae located?",
+    options: [
+        { text: "Hip region.", isCorrect: true },
+        { text: "Neck region.", isCorrect: false },
+        { text: "Chest region.", isCorrect: false },
+        { text: "Abdominal region.", isCorrect: false }
+    ],
+    hint: "Sacral vertebrae."
+},
+{
+    question: "What is the primary function of the vertebral column (spine) in the human body?",
+    options: [
+        { text: "Protecting the spinal cord from mechanical damage.", isCorrect: true },
+        { text: "Supporting the weight of the skull.", isCorrect: false },
+        { text: "Facilitating digestion.", isCorrect: false },
+        { text: "Aiding in respiration.", isCorrect: false }
+    ],
+    hint: "The vertebral column serves this primary purpose in the human body."
+},
+{
+    question: "Besides protecting the spinal cord, what other function does the vertebral column serve?",
+    options: [
+        { text: "Providing attachment for ribs and girdles.", isCorrect: true },
+        { text: "Producing red blood cells.", isCorrect: false },
+        { text: "Aiding in temperature regulation.", isCorrect: false },
+        { text: "Facilitating sensory perception.", isCorrect: false }
+    ],
+    hint: "In addition to protecting the spinal cord, the vertebral column has this secondary role."
+},
+{
+    question: "What part of the body does the vertebral column provide support to?",
+    options: [
+        { text: "Body trunk.", isCorrect: true },
+        { text: "Limbs.", isCorrect: false },
+        { text: "Skull.", isCorrect: false },
+        { text: "Internal organs.", isCorrect: false }
+    ],
+    hint: "The vertebral column imparts support to this region of the body."
+},
+{
+    question: "How does the vertebral column contribute to the flexibility of the body trunk?",
+    options: [
+        { text: "Through the presence of cartilaginous joints.", isCorrect: true },
+        { text: "By protecting the heart and lungs.", isCorrect: false },
+        { text: "By facilitating blood circulation.", isCorrect: false },
+        { text: "By producing white blood cells.", isCorrect: false }
+    ],
+    hint: "The flexibility of the body trunk is influenced by this characteristic of the vertebral column."
+},
+{
+    question: "What is the primary purpose of the neural arch in a vertebra?",
+    options: [
+        { text: "To protect the spinal cord.", isCorrect: true },
+        { text: "To facilitate muscle attachment.", isCorrect: false },
+        { text: "To link adjacent vertebrae together.", isCorrect: false },
+        { text: "To provide surfaces for ligament attachment.", isCorrect: false }
+    ],
+    hint: "The neural arch has this main function within a vertebra."
+},
+{
+    question: "What is the function of the neural canal within the neural arch?",
+    options: [
+        { text: "To serve as a passage for the spinal cord.", isCorrect: true },
+        { text: "To provide support to adjacent vertebrae.", isCorrect: false },
+        { text: "To anchor muscles and ligaments.", isCorrect: false },
+        { text: "To link the centrum to the transverse processes.", isCorrect: false }
+    ],
+    hint: "The neural canal performs this specific role within the neural arch of a vertebra."
+},
+{
+    question: "What do transverse processes on a vertebra provide surfaces for?",
+    options: [
+        { text: "Muscle and ligament attachment.", isCorrect: true },
+        { text: "Nerve transmission.", isCorrect: false },
+        { text: "Blood vessel penetration.", isCorrect: false },
+        { text: "Spinal cord protection.", isCorrect: false }
+    ],
+    hint: "The transverse processes serve as attachment points for these anatomical structures."
+},
+{
+    question: "What is the primary role of the centrum in a vertebra?",
+    options: [
+        { text: "To bind to the intervertebral disc and form a joint with the next vertebra.", isCorrect: true },
+        { text: "To protect the spinal cord.", isCorrect: false },
+        { text: "To anchor the neural spine.", isCorrect: false },
+        { text: "To provide a passage for the spinal cord.", isCorrect: false }
+    ],
+    hint: "The centrum plays this primary function within a vertebra."
+},
+{
+    question: "What type of tissue is a muscle?",
+    options: [
+        { text: "Contractile tissue.", isCorrect: true },
+        { text: "Nervous tissue.", isCorrect: false },
+        { text: "Epithelial tissue.", isCorrect: false },
+        { text: "Connective tissue.", isCorrect: false }
+    ],
+    hint: "Muscle tissue contracts to produce movement in the body."
+},
+{
+    question: "Where is cardiac muscle found?",
+    options: [
+        { text: "Heart.", isCorrect: true },
+        { text: "Lungs.", isCorrect: false },
+        { text: "Stomach.", isCorrect: false },
+        { text: "Liver.", isCorrect: false }
+    ],
+    hint: "Cardiac muscle is located in this organ of the body."
+},
+{
+    question: "What characteristic defines cardiac muscle as myogenic?",
+    options: [
+        { text: "Self-stimulating.", isCorrect: true },
+        { text: "Contraction controlled by nerves.", isCorrect: false },
+        { text: "Found in the heart.", isCorrect: false },
+        { text: "Multinucleated.", isCorrect: false }
+    ],
+    hint: "Cardiac muscle has this quality where the stimulus for contraction originates within the muscle itself."
+},
+{
+    question: "Which type of muscle does not get fatigued?",
+    options: [
+        { text: "Cardiac muscle.", isCorrect: true },
+        { text: "Smooth muscle.", isCorrect: false },
+        { text: "Skeletal muscle.", isCorrect: false },
+        { text: "Visceral muscle.", isCorrect: false }
+    ],
+    hint: "This type of muscle, found in the heart, does not experience fatigue."
+},
+{
+    question: "What is the structure of cardiac muscle cells?",
+    options: [
+        { text: "Branched and interconnected forming a net-like structure.", isCorrect: true },
+        { text: "Long and spindle-shaped.", isCorrect: false },
+        { text: "Striated appearance under a microscope.", isCorrect: false },
+        { text: "Single, uninucleated cells.", isCorrect: false }
+    ],
+    hint: "Cardiac muscle cells have this specific arrangement."
+},
+{
+    question: "Where are smooth muscles (visceral muscles) found?",
+    options: [
+        { text: "In the walls of body tubes and organs.", isCorrect: true },
+        { text: "In the heart.", isCorrect: false },
+        { text: "In skeletal muscles.", isCorrect: false },
+        { text: "In the brain.", isCorrect: false }
+    ],
+    hint: "Smooth muscles are located in these regions of the body."
+},
+{
+    question: "What are rings of smooth muscles called?",
+    options: [
+        { text: "Sphincters.", isCorrect: true },
+        { text: "Striations.", isCorrect: false },
+        { text: "Fibers.", isCorrect: false },
+        { text: "Tendons.", isCorrect: false }
+    ],
+    hint: "Circular arrangements of smooth muscles are referred to by this term."
+},
+{
+    question: "Where are skeletal muscles attached?",
+    options: [
+        { text: "To the skeleton.", isCorrect: true },
+        { text: "To the heart.", isCorrect: false },
+        { text: "To the brain.", isCorrect: false },
+        { text: "To the lungs.", isCorrect: false }
+    ],
+    hint: "Skeletal muscles are connected to this part of the body."
+},
+{
+    question: "How do skeletal muscles appear under a microscope?",
+    options: [
+        { text: "Striped or striated.", isCorrect: true },
+        { text: "Smooth.", isCorrect: false },
+        { text: "Branched.", isCorrect: false },
+        { text: "Spindle-shaped.", isCorrect: false }
+    ],
+    hint: "Skeletal muscles exhibit this distinctive appearance when viewed under a microscope."
+},
+{
+    question: "What is the primary characteristic of voluntary muscles?",
+    options: [
+        { text: "Contraction is consciously controlled by the brain.", isCorrect: true },
+        { text: "Contraction is self-stimulated.", isCorrect: false },
+        { text: "Contraction is involuntary.", isCorrect: false },
+        { text: "Muscles are found in the heart.", isCorrect: false }
+    ],
+    hint: "Voluntary muscles are defined by this key feature related to control."
+},
+{
+    question: "What are antagonistic muscles?",
+    options: [
+        { text: "Pairs of muscles that produce movement in opposite directions at the same joint.", isCorrect: true },
+        { text: "Muscles found in the heart.", isCorrect: false },
+        { text: "Muscles attached to the skeleton.", isCorrect: false },
+        { text: "Muscles that do not experience fatigue.", isCorrect: false }
+    ],
+    hint: "Antagonistic muscles are characterized by this type of relationship and function."
+},
+{
+    question: "What is the function of a flexor muscle?",
+    options: [
+        { text: "Causes bending of the joint when it contracts.", isCorrect: true },
+        { text: "Causes extending of the joint when it contracts.", isCorrect: false },
+        { text: "Connects muscles to bones.", isCorrect: false },
+        { text: "Supports body weight.", isCorrect: false }
+    ],
+    hint: "A flexor muscle performs this specific action when contracted."
+},
+{
+    question: "What is the function of an extensor muscle?",
+    options: [
+        { text: "Causes extending of the joint when it contracts.", isCorrect: true },
+        { text: "Causes bending of the joint when it contracts.", isCorrect: false },
+        { text: "Supports body weight.", isCorrect: false },
+        { text: "Links muscles to bones.", isCorrect: false }
+    ],
+    hint: "An extensor muscle performs this specific action when contracted."
+},
+{
+    question: "Which muscles are responsible for locomotion?",
+    options: [
+        { text: "Skeletal muscles.", isCorrect: true },
+        { text: "Cardiac muscles.", isCorrect: false },
+        { text: "Smooth muscles.", isCorrect: false },
+        { text: "Visceral muscles.", isCorrect: false }
+    ],
+    hint: "The type of muscle attached to the skeleton and involved in movement."
+},
+{
+    question: "What is the role of antagonistic muscle pairs?",
+    options: [
+        { text: "Produce movement in opposite directions at the same joint.", isCorrect: true },
+        { text: "Contract simultaneously to strengthen joint stability.", isCorrect: false },
+        { text: "Coordinate muscle contractions across multiple joints.", isCorrect: false },
+        { text: "Prevent muscle fatigue during prolonged activity.", isCorrect: false }
+    ],
+    hint: "Antagonistic muscle pairs work together in this manner to facilitate joint movement."
+},
+{
+    question: "Which muscles are voluntary?",
+    options: [
+        { text: "Skeletal muscles.", isCorrect: true },
+        { text: "Cardiac muscles.", isCorrect: false },
+        { text: "Smooth muscles.", isCorrect: false },
+        { text: "Visceral muscles.", isCorrect: false }
+    ],
+    hint: "Voluntary muscles are those that are consciously controlled by the brain."
+},
+{
+    question: "What is the characteristic appearance of skeletal muscles under a microscope?",
+    options: [
+        { text: "Striped or striated.", isCorrect: true },
+        { text: "Smooth.", isCorrect: false },
+        { text: "Branched.", isCorrect: false },
+        { text: "Spindle-shaped.", isCorrect: false }
+    ],
+    hint: "Skeletal muscles exhibit this unique appearance when viewed under a microscope."
+},
+{
+    question: "What type of muscles are branched and interconnected forming a net-like structure?",
+    options: [
+        { text: "Cardiac muscles.", isCorrect: true },
+        { text: "Smooth muscles.", isCorrect: false },
+        { text: "Skeletal muscles.", isCorrect: false },
+        { text: "Visceral muscles.", isCorrect: false }
+    ],
+    hint: "This type of muscle, found in the heart, has a distinctive branched appearance."
+},
+{
+    question: "Which type of muscle cells are multinucleated?",
+    options: [
+        { text: "Skeletal muscle cells.", isCorrect: true },
+        { text: "Cardiac muscle cells.", isCorrect: false },
+        { text: "Smooth muscle cells.", isCorrect: false },
+        { text: "Visceral muscle cells.", isCorrect: false }
+    ],
+    hint: "Muscle cells with multiple nuclei are characteristic of this type of muscle."
+},
+{
+    question: "What is the primary role of smooth muscles in the body?",
+    options: [
+        { text: "To control the movement of body tubes and organs.", isCorrect: true },
+        { text: "To support the skeleton.", isCorrect: false },
+        { text: "To produce conscious movements.", isCorrect: false },
+        { text: "To contract the heart.", isCorrect: false }
+    ],
+    hint: "Smooth muscles play this primary function related to the movement of internal structures."
+},
+{
+    question: "What term is used for pairs of muscles that produce movement in opposite directions at the same joint?",
+    options: [
+        { text: "Antagonistic muscles.", isCorrect: true },
+        { text: "Flexor muscles.", isCorrect: false },
+        { text: "Extensor muscles.", isCorrect: false },
+        { text: "Sphincter muscles.", isCorrect: false }
+    ],
+    hint: "This term describes the relationship between pairs of muscles at a joint."
+},
+{
+    question: "Which type of muscle is found in the walls of body tubes and organs?",
+    options: [
+        { text: "Smooth muscles.", isCorrect: true },
+        { text: "Cardiac muscles.", isCorrect: false },
+        { text: "Skeletal muscles.", isCorrect: false },
+        { text: "Visceral muscles.", isCorrect: false }
+    ],
+    hint: "Muscles that line body tubes and organs are known as this type."
+},
+{
+    question: "What is the primary characteristic of skeletal muscles?",
+    options: [
+        { text: "Voluntary control.", isCorrect: true },
+        { text: "Involuntary control.", isCorrect: false },
+        { text: "Branched structure.", isCorrect: false },
+        { text: "Smooth appearance under a microscope.", isCorrect: false }
+    ],
+    hint: "Skeletal muscles are defined by this feature related to conscious control."
+},
+{
+    question: "Which type of muscle is characterized by striations?",
+    options: [
+        { text: "Skeletal muscles.", isCorrect: true },
+        { text: "Smooth muscles.", isCorrect: false },
+        { text: "Cardiac muscles.", isCorrect: false },
+        { text: "Visceral muscles.", isCorrect: false }
+    ],
+    hint: "This type of muscle displays a striped appearance under a microscope."
+},
+{
+    question: "What muscle is primarily responsible for bending the elbow joint?",
+    options: [
+        { text: "Biceps.", isCorrect: true },
+        { text: "Triceps.", isCorrect: false },
+        { text: "Deltoid.", isCorrect: false },
+        { text: "Quadriceps.", isCorrect: false }
+    ],
+    hint: "This muscle contracts to pull the radius upwards towards the humerus during elbow flexion."
+},
+{
+    question: "What action does the brain take to initiate elbow flexion?",
+    options: [
+        { text: "Sends impulses to stimulate contraction of the biceps.", isCorrect: true },
+        { text: "Sends impulses to stimulate contraction of the triceps.", isCorrect: false },
+        { text: "Inhibits contraction of the biceps.", isCorrect: false },
+        { text: "Relaxes the triceps.", isCorrect: false }
+    ],
+    hint: "The brain triggers this muscle to contract during the bending of the elbow joint."
+},
+{
+    question: "What happens to the triceps muscle during elbow flexion?",
+    options: [
+        { text: "Triceps relax and are stretched.", isCorrect: true },
+        { text: "Triceps contract and pull the radius upwards.", isCorrect: false },
+        { text: "Triceps contract to bend the elbow.", isCorrect: false },
+        { text: "Triceps inhibit contraction of the biceps.", isCorrect: false }
+    ],
+    hint: "This muscle undergoes this action when the elbow is bent."
+},
+{
+    question: "Which muscle contracts to straighten the elbow joint?",
+    options: [
+        { text: "Triceps.", isCorrect: true },
+        { text: "Biceps.", isCorrect: false },
+        { text: "Deltoid.", isCorrect: false },
+        { text: "Quadriceps.", isCorrect: false }
+    ],
+    hint: "During elbow extension, this muscle contracts to pull the ulna and extend the lower arm."
+},
+{
+    question: "What action does the brain take to initiate elbow extension?",
+    options: [
+        { text: "Sends impulses to stimulate contraction of the triceps.", isCorrect: true },
+        { text: "Sends impulses to stimulate contraction of the biceps.", isCorrect: false },
+        { text: "Inhibits contraction of the triceps.", isCorrect: false },
+        { text: "Relaxes the triceps.", isCorrect: false }
+    ],
+    hint: "The brain triggers this muscle to contract during the straightening of the elbow joint."
+},
+{
+    question: "What happens to the biceps muscle during elbow extension?",
+    options: [
+        { text: "Biceps are stretched by the contraction of the triceps.", isCorrect: true },
+        { text: "Biceps contract to straighten the elbow.", isCorrect: false },
+        { text: "Biceps relax and are inhibited.", isCorrect: false },
+        { text: "Biceps contract to bend the elbow.", isCorrect: false }
+    ],
+    hint: "This muscle experiences this action when the elbow is straightened."
+},
+{
+    question: "What is the primary action of the biceps during elbow flexion?",
+    options: [
+        { text: "Pulls the radius upwards and towards the humerus.", isCorrect: true },
+        { text: "Pulls the ulna downwards.", isCorrect: false },
+        { text: "Stimulates contraction of the triceps.", isCorrect: false },
+        { text: "Inhibits muscle contraction.", isCorrect: false }
+    ],
+    hint: "The biceps muscle performs this action to bend the elbow joint."
+},
+{
+    question: "Which type of joint permits no movement and is held tightly together by short, tough fibers?",
+    options: [
+        { text: "Fibrous joint.", isCorrect: true },
+        { text: "Cartilaginous joint.", isCorrect: false },
+        { text: "Synovial joint.", isCorrect: false }
+    ],
+    hint: "This type of joint is also known as an immovable joint, such as the sutures in the skull."
+},
+{
+    question: "Which type of joint allows slight movements and is held together by cartilage?",
+    options: [
+        { text: "Cartilaginous joint.", isCorrect: true },
+        { text: "Fibrous joint.", isCorrect: false },
+        { text: "Synovial joint.", isCorrect: false }
+    ],
+    hint: "These joints permit limited movements and are found in the intervertebral discs of the spine."
+},
+{
+    question: "What is the main characteristic of synovial joints?",
+    options: [
+        { text: "They allow movement in one or more planes.", isCorrect: true },
+        { text: "They are held together by short, tough fibers.", isCorrect: false },
+        { text: "They permit no movement.", isCorrect: false }
+    ],
+    hint: "Synovial joints are known for their ability to allow various types of movement."
+},
+{
+    question: "What type of joint is characterized by cavities containing synovial fluid?",
+    options: [
+        { text: "Synovial joint.", isCorrect: true },
+        { text: "Fibrous joint.", isCorrect: false },
+        { text: "Cartilaginous joint.", isCorrect: false }
+    ],
+    hint: "This type of joint has fluid-filled cavities that enable smooth movement between bones."
+},
+{
+    question: "Which type of synovial joint allows movement in three planes?",
+    options: [
+        { text: "Ball-and-socket joint.", isCorrect: true },
+        { text: "Hinge joint.", isCorrect: false },
+        { text: "Pivot joint.", isCorrect: false }
+    ],
+    hint: "These joints have a round bone end (ball) fitting into a socket, enabling versatile movement."
+},
+{
+    question: "What is the function of ligaments in a joint?",
+    options: [
+        { text: "To join bone to bone and keep the joint stable.", isCorrect: true },
+        { text: "To join muscle to bone and produce movement.", isCorrect: false },
+        { text: "To secrete synovial fluid.", isCorrect: false }
+    ],
+    hint: "Ligaments play a crucial role in stabilizing joints and preventing dislocation."
+},
+{
+    question: "What is the function of tendons in a joint?",
+    options: [
+        { text: "To join muscle to bone and translate muscle contraction into movement.", isCorrect: true },
+        { text: "To join bone to bone and keep the joint stable.", isCorrect: false },
+        { text: "To supply nutrients and act as a lubricant.", isCorrect: false }
+    ],
+    hint: "Tendons connect muscles to bones, allowing muscle contractions to produce movement."
+},
+{
+    question: "What is the main role of synovial fluid in a joint?",
+    options: [
+        { text: "To act as a lubricant and reduce friction.", isCorrect: true },
+        { text: "To join bone to bone and keep the joint stable.", isCorrect: false },
+        { text: "To secrete collagen fibers.", isCorrect: false }
+    ],
+    hint: "Synovial fluid helps to minimize friction between bones during movement."
+},
+{
+    question: "What type of tissue is cartilage in a joint?",
+    options: [
+        { text: "Firm and flexible rubber-like tissue.", isCorrect: true },
+        { text: "Elastic fibrous tissue.", isCorrect: false },
+        { text: "Tough and inelastic fibrous tissue.", isCorrect: false }
+    ],
+    hint: "Cartilage is a specialized tissue that provides cushioning and flexibility in joints."
+},
+{
+    question: "Which type of joint permits movement in only one plane?",
+    options: [
+        { text: "Hinge joint.", isCorrect: true },
+        { text: "Ball-and-socket joint.", isCorrect: false },
+        { text: "Pivot joint.", isCorrect: false }
+    ],
+    hint: "This type of joint allows movement primarily in one direction, like the elbow or knee joint."
+},
+{
+    question: "What is the main function of ligaments in a joint?",
+    options: [
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: true },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Supplies nutrients and acts as a lubricant.", isCorrect: false },
+        { text: "Secretes synovial fluid.", isCorrect: false }
+    ],
+    hint: "Ligaments play a crucial role in stabilizing joints and preventing bones from moving out of place."
+},
+{
+    question: "What is the composition of ligaments?",
+    options: [
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: true },
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: false },
+        { text: "Firm and flexible rubber-like tissue made of chondrin.", isCorrect: false },
+        { text: "Living cells and collagen fibers.", isCorrect: false }
+    ],
+    hint: "Ligaments are composed of elastic fibrous tissue containing a protein called yellow elastin."
+},
+{
+    question: "What is the main function of tendons in a joint?",
+    options: [
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Supplies nutrients and acts as a lubricant.", isCorrect: false },
+        { text: "Secretes synovial fluid.", isCorrect: false }
+    ],
+    hint: "Tendons connect muscles to bones, allowing muscle contractions to produce movement at the joint."
+},
+{
+    question: "What is the composition of tendons?",
+    options: [
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: true },
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: false },
+        { text: "Firm and flexible rubber-like tissue made of chondrin.", isCorrect: false },
+        { text: "Living cells and collagen fibers.", isCorrect: false }
+    ],
+    hint: "Tendons consist of tough and inelastic fibrous protein primarily composed of collagen."
+},
+{
+    question: "What is the main function of synovial fluid in a joint?",
+    options: [
+        { text: "Supplies nutrients and acts as a lubricant that reduces friction.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Secretes synovial fluid.", isCorrect: false }
+    ],
+    hint: "Synovial fluid helps to nourish joint tissues and reduce friction during movement."
+},
+{
+    question: "What is the composition of synovial fluid?",
+    options: [
+        { text: "Viscous fluid containing nutrients and lubricating substances.", isCorrect: true },
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: false },
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: false },
+        { text: "Firm and flexible rubber-like tissue made of chondrin.", isCorrect: false }
+    ],
+    hint: "Synovial fluid is a viscous fluid that contains nutrients and acts as a lubricant."
+},
+{
+    question: "What is the main function of cartilage in a joint?",
+    options: [
+        { text: "Reduces friction at ends of bones, absorbs mechanical shocks, and spreads forces.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Secretes synovial fluid.", isCorrect: false }
+    ],
+    hint: "Cartilage serves to cushion and protect the ends of bones within a joint."
+},
+{
+    question: "What is the composition of cartilage?",
+    options: [
+        { text: "Firm and flexible rubber-like tissue made of living cells and collagen fibers embedded in a matrix of chondrin.", isCorrect: true },
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: false },
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: false },
+        { text: "Viscous fluid containing nutrients and lubricating substances.", isCorrect: false }
+    ],
+    hint: "Cartilage is composed of a firm, flexible rubber-like tissue containing living cells and collagen fibers."
+},
+{
+    question: "What structure encloses the joint and provides structural support?",
+    options: [
+        { text: "Joint capsule.", isCorrect: true },
+        { text: "Ligament.", isCorrect: false },
+        { text: "Tendon.", isCorrect: false },
+        { text: "Synovial membrane.", isCorrect: false }
+    ],
+    hint: "This structure forms a protective covering around the joint, holding it together."
+},
+{
+    question: "What is the main role of the synovial membrane in a joint?",
+    options: [
+        { text: "Secretes synovial fluid.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Reduces friction and absorbs shock.", isCorrect: false }
+    ],
+    hint: "The synovial membrane is responsible for producing and releasing synovial fluid into the joint cavity, contributing to joint lubrication."
+},
+{
+    question: "What type of tissue are ligaments primarily composed of?",
+    options: [
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: true },
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: false },
+        { text: "Firm and flexible rubber-like tissue made of living cells and collagen fibers embedded in a matrix of chondrin.", isCorrect: false },
+        { text: "Viscous fluid containing nutrients and lubricating substances.", isCorrect: false }
+    ],
+    hint: "Ligaments are composed of elastic fibrous tissue containing a protein called yellow elastin."
+},
+{
+    question: "What type of tissue are tendons primarily composed of?",
+    options: [
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: true },
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: false },
+        { text: "Firm and flexible rubber-like tissue made of living cells and collagen fibers embedded in a matrix of chondrin.", isCorrect: false },
+        { text: "Viscous fluid containing nutrients and lubricating substances.", isCorrect: false }
+    ],
+    hint: "Tendons are made up of tough and inelastic fibrous protein, mainly composed of collagen."
+},
+{
+    question: "What type of tissue is the synovial membrane?",
+    options: [
+        { text: "Soft tissue that secretes synovial fluid.", isCorrect: true },
+        { text: "Elastic fibrous tissue made of yellow elastin.", isCorrect: false },
+        { text: "Tough and inelastic fibrous protein largely made of collagen.", isCorrect: false },
+        { text: "Firm and flexible rubber-like tissue made of living cells and collagen fibers embedded in a matrix of chondrin.", isCorrect: false }
+    ],
+    hint: "The synovial membrane is a soft tissue responsible for secreting synovial fluid within the joint."
+},
+{
+    question: "What is the role of synovial fluid in joint function?",
+    options: [
+        { text: "Supplies nutrients and acts as a lubricant to reduce friction.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Absorbs mechanical shocks and spreads forces across the joint.", isCorrect: false }
+    ],
+    hint: "Synovial fluid helps nourish the joint and reduce friction between the moving surfaces of bones."
+},
+{
+    question: "What does cartilage do to the ends of bones in a joint?",
+    options: [
+        { text: "Reduces friction, absorbs mechanical shocks, and spreads forces.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Supplies nutrients and acts as a lubricant to reduce friction.", isCorrect: false }
+    ],
+    hint: "Cartilage cushions the ends of bones, providing shock absorption and reducing friction during movement."
+},
+{
+    question: "What protein is a major component of tendons?",
+    options: [
+        { text: "Collagen.", isCorrect: true },
+        { text: "Elastin.", isCorrect: false },
+        { text: "Chondrin.", isCorrect: false },
+        { text: "Keratin.", isCorrect: false }
+    ],
+    hint: "Tendons are composed mainly of collagen, a tough and inelastic fibrous protein."
+},
+{
+    question: "What protein is a major component of ligaments?",
+    options: [
+        { text: "Elastin.", isCorrect: true },
+        { text: "Collagen.", isCorrect: false },
+        { text: "Chondrin.", isCorrect: false },
+        { text: "Keratin.", isCorrect: false }
+    ],
+    hint: "Ligaments contain elastic fibrous tissue primarily composed of elastin protein."
+},
+{
+    question: "What is the primary function of ligaments in a joint?",
+    options: [
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: true },
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: false },
+        { text: "Supplies nutrients and acts as a lubricant to reduce friction.", isCorrect: false },
+        { text: "Secretes synovial fluid.", isCorrect: false }
+    ],
+    hint: "Ligaments hold bones together and provide stability to the joint, preventing excessive movement and dislocation."
+},
+{
+    question: "What is the primary function of tendons in a joint?",
+    options: [
+        { text: "Joins muscle to bone and translates muscle contraction into movement of bone.", isCorrect: true },
+        { text: "Joins bone to bone and keeps the joint stable by preventing dislocation.", isCorrect: false },
+        { text: "Supplies nutrients and acts as a lubricant to reduce friction.", isCorrect: false },
+        { text: "Secretes synovial fluid.", isCorrect: false }
+    ],
+    hint: "Tendons connect muscles to bones, allowing muscle contractions to move the bones at the joint."
+},
+{
+    question: "What is gout characterized by?",
+    options: [
+        { text: "Formation of uric acid crystals at the joints.", isCorrect: true },
+        { text: "Inflammation of the synovial membranes.", isCorrect: false },
+        { text: "Uncontrolled division of cells in the bone marrow.", isCorrect: false },
+        { text: "Formation of tubercles in the bones.", isCorrect: false }
+    ],
+    hint: "Gout is associated with the deposition of uric acid crystals in the joints, leading to swelling and pain."
+},
+{
+    question: "How can gout be managed?",
+    options: [
+        { text: "By reducing the intake of meat and meat products.", isCorrect: true },
+        { text: "By avoiding physical activity.", isCorrect: false },
+        { text: "By increasing the intake of uric acid-rich foods.", isCorrect: false },
+        { text: "By increasing the intake of calcium supplements.", isCorrect: false }
+    ],
+    hint: "Reducing the consumption of certain foods can help control uric acid levels in gout."
+},
+{
+    question: "What is arthritis characterized by?",
+    options: [
+        { text: "Inflammation of joints leading to painful and swollen joints.", isCorrect: true },
+        { text: "Formation of uric acid crystals at the joints.", isCorrect: false },
+        { text: "Uncontrolled division of cells in the bone marrow.", isCorrect: false },
+        { text: "Formation of tubercles in the bones.", isCorrect: false }
+    ],
+    hint: "Arthritis involves joint inflammation and can lead to cartilage and bone damage."
+},
+{
+    question: "Which condition involves bones moving out of place at a joint?",
+    options: [
+        { text: "Dislocation.", isCorrect: true },
+        { text: "Gout.", isCorrect: false },
+        { text: "Arthritis.", isCorrect: false },
+        { text: "Tuberculosis of the bones.", isCorrect: false }
+    ],
+    hint: "Dislocation occurs when bones are displaced from their normal positions at a joint."
+},
+{
+    question: "What causes tuberculosis of the bones?",
+    options: [
+        { text: "Infection by Mycobacterium tuberculosis.", isCorrect: true },
+        { text: "Formation of uric acid crystals at the joints.", isCorrect: false },
+        { text: "Uncontrolled division of cells in the bone marrow.", isCorrect: false },
+        { text: "Formation of tubercles in the bones.", isCorrect: false }
+    ],
+    hint: "Tuberculosis of the bones is caused by an infection with Mycobacterium tuberculosis."
+},
+{
+    question: "What is bone marrow cancer characterized by?",
+    options: [
+        { text: "Uncontrolled division of cells in the bone marrow.", isCorrect: true },
+        { text: "Formation of uric acid crystals at the joints.", isCorrect: false },
+        { text: "Inflammation of joints leading to painful and swollen joints.", isCorrect: false },
+        { text: "Formation of tubercles in the bones.", isCorrect: false }
+    ],
+    hint: "Bone marrow cancer involves abnormal and uncontrolled cell division in the bone marrow."
+},
+{
+    question: "Which disorder is associated with the formation of tubercles in the bones?",
+    options: [
+        { text: "Tuberculosis of the bones.", isCorrect: true },
+        { text: "Gout.", isCorrect: false },
+        { text: "Arthritis.", isCorrect: false },
+        { text: "Dislocation.", isCorrect: false }
+    ],
+    hint: "Tuberculosis of the bones is characterized by the formation of tubercles due to Mycobacterium tuberculosis infection."
+},
+{
+    question: "What symptom is common in both gout and arthritis?",
+    options: [
+        { text: "Painful and swollen joints.", isCorrect: true },
+        { text: "Formation of uric acid crystals at the joints.", isCorrect: false },
+        { text: "Bone displacement at joints.", isCorrect: false },
+        { text: "Formation of tubercles in the bones.", isCorrect: false }
+    ],
+    hint: "Both gout and arthritis exhibit joint inflammation leading to pain and swelling."
+},
+{
+    question: "What dietary advice can help manage gout?",
+    options: [
+        { text: "Reducing intake of meat and meat products.", isCorrect: true },
+        { text: "Increasing intake of sugary foods.", isCorrect: false },
+        { text: "Avoiding fruits and vegetables.", isCorrect: false },
+        { text: "Consuming more red meat.", isCorrect: false }
+    ],
+    hint: "Reducing meat consumption can help lower uric acid levels in gout."
+},
+{
+    question: "Which joint disorder primarily affects the synovial membranes?",
+    options: [
+        { text: "Arthritis.", isCorrect: true },
+        { text: "Gout.", isCorrect: false },
+        { text: "Dislocation.", isCorrect: false },
+        { text: "Tuberculosis of the bones.", isCorrect: false }
+    ],
+    hint: "Arthritis initially affects the synovial membranes before progressing to cartilage and bone damage."
+},
+{
+    question: "What is one of the main functions of the human skeleton?",
+    options: [
+        { text: "Supporting the body and providing the framework.", isCorrect: true },
+        { text: "Producing blood cells.", isCorrect: false },
+        { text: "Protecting the brain.", isCorrect: false },
+        { text: "Transmitting sound from the ear drum.", isCorrect: false }
+    ],
+    hint: "The skeleton serves as a structural support and framework for the human body."
+},
+{
+    question: "Which body parts are protected by the ribcage?",
+    options: [
+        { text: "Heart and lungs.", isCorrect: true },
+        { text: "Brain.", isCorrect: false },
+        { text: "Liver and kidneys.", isCorrect: false },
+        { text: "Stomach and intestines.", isCorrect: false }
+    ],
+    hint: "The ribcage provides protection to vital organs such as the heart and lungs."
+},
+{
+    question: "Where are some white blood cells produced in the human body?",
+    options: [
+        { text: "Yellow bone marrow.", isCorrect: true },
+        { text: "Red bone marrow.", isCorrect: false },
+        { text: "Liver.", isCorrect: false },
+        { text: "Spleen.", isCorrect: false }
+    ],
+    hint: "Some types of white blood cells are produced in the yellow bone marrow."
+},
+{
+    question: "Which part of the skeleton is responsible for transmitting sound from the ear drum?",
+    options: [
+        { text: "Ear ossicles.", isCorrect: true },
+        { text: "Ribcage.", isCorrect: false },
+        { text: "Vertebrae.", isCorrect: false },
+        { text: "Pelvis.", isCorrect: false }
+    ],
+    hint: "Ear ossicles are small bones in the middle ear that transmit sound vibrations from the ear drum to the inner ear."
+},
+{
+    question: "What is the function of the ribcage in breathing?",
+    options: [
+        { text: "Contributes to breathing by moving upwards and outwards during inspiration.", isCorrect: true },
+        { text: "Protects the brain from injury.", isCorrect: false },
+        { text: "Supports the body and provides framework.", isCorrect: false },
+        { text: "Transmits sound from the ear drum.", isCorrect: false }
+    ],
+    hint: "The ribcage expands and contracts to aid in the process of breathing, moving upward and outward during inhalation."
+},
+{
+    question: "Which bone protects the brain?",
+    options: [
+        { text: "Skull (cranium).", isCorrect: true },
+        { text: "Vertebrae.", isCorrect: false },
+        { text: "Humerus.", isCorrect: false },
+        { text: "Pelvis.", isCorrect: false }
+    ],
+    hint: "The skull, specifically the cranium, provides protection to the brain."
+},
+{
+    question: "What is the primary function of the human skeleton in locomotion?",
+    options: [
+        { text: "Supporting movement and facilitating locomotion.", isCorrect: true },
+        { text: "Producing blood cells.", isCorrect: false },
+        { text: "Protecting delicate body parts.", isCorrect: false },
+        { text: "Transmitting sound from the ear drum.", isCorrect: false }
+    ],
+    hint: "The skeleton supports movement by providing attachment points for muscles and enabling locomotion."
+},
+{
+    question: "Where are red blood cells primarily produced in the human body?",
+    options: [
+        { text: "Red bone marrow.", isCorrect: true },
+        { text: "Yellow bone marrow.", isCorrect: false },
+        { text: "Liver.", isCorrect: false },
+        { text: "Kidneys.", isCorrect: false }
+    ],
+    hint: "Red blood cells are primarily produced in the red bone marrow."
+},
+{
+    question: "What function does the skeleton serve during movement?",
+    options: [
+        { text: "Facilitating movement by providing a structure for muscle attachment.", isCorrect: true },
+        { text: "Producing sound vibrations.", isCorrect: false },
+        { text: "Protecting delicate body parts.", isCorrect: false },
+        { text: "Supporting the body and providing framework.", isCorrect: false }
+    ],
+    hint: "The skeleton supports movement by providing attachment points for muscles and enabling joint mobility."
+},
+{
+    question: "What does the skeleton provide for the body?",
+    options: [
+        { text: "Framework and support.", isCorrect: true },
+        { text: "Vision.", isCorrect: false },
+        { text: "Hearing.", isCorrect: false },
+        { text: "Digestive enzymes.", isCorrect: false }
+    ],
+    hint: "The skeleton provides a framework that supports the body and anchors muscles for movement."
+}
+
+
+
+];
+
+        let currentQuestionIndex = 0;
+        const numQuestions = 15; // Total number of questions
+        let timerInterval;
+        let score = 0;
+
+function startQuiz() {
+    name = document.getElementById('name').value;
+    email = document.getElementById('email').value;
+    church = document.getElementById('church').value;
+   ministry = document.getElementById('ministry').value; // Get ministry value
+    phone = document.getElementById('phone').value; // Get phone value
+
+  
+    if (name.trim() === '') {
+        alert('Please enter your name.');
+        return;
+    }
+
+    // Additional validation for email if needed
+
+    document.getElementById('email-form').style.display = 'none';
+    document.getElementById('quiz').style.display = 'block';
+    quizStarted = true;
+    initializeQuiz();
+    startTimer();
+
+    const timerSlider = document.getElementById('timer-slider');
+
+    noUiSlider.create(timerSlider, {
+        start: 100, // Initial value
+        range: {
+            'min': 0,
+            'max': 100
+        },
+        format: {
+            to: function (value) {
+                return value + '%';
+            },
+            from: function (value) {
+                return value.replace('%', '');
+            }
+        },
+        tooltips: false, // Show tooltips
+       // pips: { mode: 'values', values: [0, 25, 50, 75, 100], density: 3 } // Customize pips (optional)
+    });
+}
+
+        function initializeQuiz() {
+            shuffleArray(questions);
+            currentQuestionIndex = 0;
+            score = 0;
+            showQuestion(currentQuestionIndex);
+        }
+
+        function showQuestion(index) {
+            const quizContainer = document.getElementById('question-container');
+            quizContainer.innerHTML = '';
+
+            const questionDiv = document.createElement('div');
+            const currentQuestion = questions[index];
+
+            const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
+            questionDiv.innerHTML = `
+                <h3>${index + 1}. ${currentQuestion.question}</h3>
+                <ul>
+                    ${shuffledOptions.map((opt, i) => `<li onclick="checkAnswer(${i}, ${opt.isCorrect})">${opt.text}</li>`).join('')}
+                </ul>
+            `;
+            quizContainer.appendChild(questionDiv);
+
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            if (index > 0) {
+                prevBtn.style.display = 'inline-block';
+            } else {
+                prevBtn.style.display = 'none';
+            }
+
+            if (index < numQuestions - 1) {
+                nextBtn.style.display = 'inline-block';
+            } else {
+                nextBtn.style.display = 'none';
+                document.getElementById('submit-btn').style.display = 'inline-block';
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < numQuestions - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function checkAnswer(selectedOptionIndex, isCorrect) {
+    const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
+    
+    // Check if the option has already been answered
+    if (!selectedOption.classList.contains('correct') && !selectedOption.classList.contains('incorrect')) {
+        if (isCorrect) {
+            selectedOption.classList.add('correct');
+            score++; // Increment score only for correct answers
+        } else {
+            selectedOption.classList.add('incorrect');
+            // Find the correct option index in the original options array
+            const correctOptionIndex = questions[currentQuestionIndex].options.findIndex(option => option.isCorrect);
+            // Find the index of the correct option in the shuffled options array
+            const shuffledOptions = document.getElementById('question-container').querySelectorAll('li');
+            const correctShuffledIndex = Array.from(shuffledOptions).findIndex(option => option.textContent === questions[currentQuestionIndex].options[correctOptionIndex].text);
+            // Highlight the correct option in the shuffled list
+            shuffledOptions[correctShuffledIndex].classList.add('correct');
+        }
+
+        // Disable all options after answering
+        const allOptions = document.getElementById('question-container').querySelectorAll('li');
+        allOptions.forEach(option => {
+            option.style.pointerEvents = 'none';
+        });
+    }
+}
+
+        function startTimer() {
+    let totalTime = numQuestions * 30; // Total time for the quiz in seconds
+    let timerDisplay = document.getElementById('timer-display');
+    let timerSlider = document.getElementById('timer-slider');
+    updateSliderValue(totalTime, timerSlider); // Update slider value initially
+
+    timerInterval = setInterval(() => {
+        totalTime--;
+        updateSliderValue(totalTime, timerSlider); // Update slider value
+        timerDisplay.textContent = formatTime(totalTime);
+
+        if (totalTime <= 0) {
+            clearInterval(timerInterval);
+            submitQuiz(); // Call the submitQuiz function when the timer reaches zero
+        }
+    }, 1000);
+}
+
+        function updateSliderValue(totalTime, slider) {
+    const percentage = (totalTime / (numQuestions * 30)) * 100;
+    slider.value = percentage;
+}
+
+let hintCount = 0; // Variable to keep track of hint usage
+
+function showHint(currentQuestion) {
+    const hint = currentQuestion.hint;
+    const hintButton = document.getElementById('hint-button');
+
+    if (hint && hintCount < 3) {
+        const tooltip = document.createElement('div');
+        tooltip.textContent = hint;
+        tooltip.classList.add('hint-tooltip');
+        document.body.appendChild(tooltip);
+        setTimeout(() => {
+            tooltip.remove();
+        }, 7000); // Adjust the timeout as needed
+
+        hintCount++;
+        if (hintCount === 3) {
+            hintButton.disabled = true;
+            hintButton.classList.add('hint-disabled');
+        }
+    } else {
+        window.alert("No hint available for this question or maximum hint usage reached.");
+    }
+}
+
+        function submitQuiz() {
+    clearInterval(timerInterval);
+    const percentage = (score / numQuestions) * 100;
+    let comment;
+
+    if (percentage >= 80) {
+        comment = "Excellent! You scored very well!";
+    } else if (percentage >= 60) {
+        comment = "Good job! You did quite well.";
+    } else if (percentage >= 40) {
+        comment = "Not bad! You're getting there.";
+    } else {
+        comment = "Keep practicing! You'll improve.";
+    }
+
+    const resultText = `Name: ${name}\nEmail: ${email}\nChurch: ${church}\nScore: ${score}/${numQuestions}\nPercentage: ${percentage.toFixed(2)}%\nComment: ${comment}`;
+
+    // Send quiz results to PHP script using AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "send_email.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        console.log("Ready state:", xhr.readyState);
+        console.log("Status:", xhr.status);
+        console.log("Response:", xhr.responseText);
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            // Email sent successfully
+            alert("Quiz results sent successfully!");
+            // Optionally, you can redirect the user to a thank you page or perform other actions here
+        } else if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 200) {
+            // Failed to send email
+            alert("Error sending quiz results. Please try again later.");
+        }
+    };
+    xhr.send("name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&church=" + encodeURIComponent(church) + "&score=" + score + "&totalQuestions=" + numQuestions);
+
+    // Display quiz results in the result container
+    const resultContainer = document.getElementById('result-text');
+    resultContainer.textContent = resultText;
+    resultContainer.style.whiteSpace = 'pre-line'; // Preserve newline characters
+    document.getElementById('result-container').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none'; // Hide the quiz container
+}
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function formatTime(totalSeconds) {
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }
+    </script>
+</body>
+</html>
