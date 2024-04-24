@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4SGB13276C');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- Assuming you're using Font Awesome for icons -->
+<!-- Link to Font Awesome for the lightbulb icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Link to noUiSlider CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+
+<!-- Link to noUiSlider JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>    <style>
+body {
+            font-family: Arial, sans-serif;
+            background-image: url('nature1.jpg'); /* Replace 'background-image.jpg' with your image file */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+/* Quiz container */
+#quiz {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+    display: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form styling */
+#email-form {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#email-form label {
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#email-form input[type="text"],
+#email-form input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#phone {
+  width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#email-form button {
+    width: 100%;
+}
+
+/* Result container styling */
+#result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Adjusted alignment */
+}
+
+#result-container h2 {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgba(24,56,26,0.2);
+    text-align: center; /* Centered heading */
+}
+
+#result-text {
+    font-size: 16px; /* Reduced font size for better readability */
+    line-height: 1.6;
+    margin-top: 20px; /* Added spacing between heading and content */
+}
+
+#result-text p {
+    margin-bottom: 10px; /* Added spacing between paragraphs */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.result-value {
+    font-weight: normal;
+    white-space: normal; /* Allows wrapping */
+}
+
+/* Timer container */
+#timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#timer-slider {
+    flex: 1;
+    pointer-events: none; 
+}
+
+#hint-button-container {
+    margin-right: auto; /* Adjust as needed */
+}
+
+#hint-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hint-button:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+#hint-button:hover .bulb-icon {
+    text-shadow: 0 0 10px yellow; /* Add text shadow effect only to the bulb icon on hover */
+}
+
+.hint-disabled #hint-button:hover .bulb-icon {
+    text-shadow: none; /* Remove text shadow effect when hint is disabled */
+}
+
+#timer-display {
+    font-size: 16px; /* Adjust as needed */
+    margin-left: auto; 
+}
+
+/* Quiz question styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+#question-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#question-container li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#question-container li:hover {
+    background-color: #e9e9e9;
+}
+
+#question-container li.correct {
+    background-color: #b9e3b3; /* Green color for correct answer */
+    animation: correctEffect 0.5s ease;
+}
+
+#question-container li.incorrect {
+    background-color: #ffcccc; /* Red color for incorrect answer */
+    animation: incorrectEffect 0.5s ease;
+}
+
+@keyframes correctEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes incorrectEffect {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+  
+  .hint-tooltip {
+    position: fixed;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+  
+  .bulb-icon {
+    color: red; /* Default color for enabled hint */
+}
+
+.hint-disabled .bulb-icon {
+    color: black; /* Color for disabled hint */
+}
+
+/* Custom styles for the slider */
+
+/* Background color of the slider track */
+.noUi-target {
+    background-color: green;
+}
+
+/* Hide the slider handle */
+.noUi-handle {
+    display: block;
+}
+
+/* Color of the active part of the slider track */
+.noUi-connect {
+    background-color: #4CAF50;
+}
+
+/* Color of the inactive part of the slider track */
+.noUi-connects {
+    background-color: #ddd;
+}
+    </style>
+</head>
+<body>
+    <form id="email-form" action="send_email.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="church">Church:</label>
+        <input type="text" id="church" name="church"><br>
+        <label for="ministry">Ministry:</label>
+        <input type="text" id="ministry" name="ministry"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <button type="button" onclick="startQuiz()">Start Quiz</button>
+    </form>
+
+    <div id="quiz" style="display: none;">
+        <div id="timer-container">
+          <div id="hint-button-container">
+             <button id="hint-button" onclick="showHint(questions[currentQuestionIndex])"><i class="fas fa-lightbulb bulb-icon"></i></button>
+          </div>
+          <input type="range" id="timer-slider" min="0" max="100" value="100">
+          <!--  <div id="timer-slider"></div> -->
+          <div id="timer-display"></div>
+     </div>
+
+        <div id="question-container"></div>
+        <div id="navigation-buttons">
+            <button onclick="prevQuestion()" id="prev-btn" style="display: none;">Previous</button>
+            <button onclick="nextQuestion()" id="next-btn" style="display: none;">Next</button>
+            <button onclick="submitQuiz()" id="submit-btn" style="display: none;">Submit</button>
+ </div>
+            </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+
+     </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="result-text"></p>
+    </div>
+
+    <script>
+        let name;
+        let email;
+        let quizStarted = false;
+
+        const questions = [
+
+{
+    question: "What is asexual reproduction?",
+    options: [
+        { text: "Reproduction involving one parent and producing genetically identical offspring.", isCorrect: true },
+        { text: "Reproduction involving two parents and producing genetically diverse offspring.", isCorrect: false },
+        { text: "Reproduction involving fusion of gametes from two parents.", isCorrect: false },
+        { text: "Reproduction requiring pollination and dispersal agents.", isCorrect: false }
+    ],
+    hint: "Think about the process where offspring are produced without the fusion of gametes and are genetically identical to the parent."
+},
+{
+    question: "Which type of reproduction involves the fusion of gametes?",
+    options: [
+        { text: "Sexual reproduction", isCorrect: true },
+        { text: "Asexual reproduction", isCorrect: false },
+        { text: "Mitotic reproduction", isCorrect: false },
+        { text: "Clonal reproduction", isCorrect: false }
+    ],
+    hint: "Consider the process where two parents are involved in creating genetically diverse offspring through the fusion of gametes."
+},
+{
+    question: "What advantage does asexual reproduction offer in terms of mating?",
+    options: [
+        { text: "No mate required for producing offspring", isCorrect: true },
+        { text: "Greater genetic diversity in offspring", isCorrect: false },
+        { text: "Easier adaptation to varied habitats", isCorrect: false },
+        { text: "Enhanced survival in harsh environments", isCorrect: false }
+    ],
+    hint: "Think about why a mate is not necessary for the process of asexual reproduction."
+},
+{
+    question: "Which of the following is a disadvantage of asexual reproduction?",
+    options: [
+        { text: "Lack of genetic variation", isCorrect: true },
+        { text: "Ability to adapt to different environments", isCorrect: false },
+        { text: "Production of genetically diverse offspring", isCorrect: false },
+        { text: "Higher resource competition among offspring", isCorrect: false }
+    ],
+    hint: "Consider why genetic uniformity might be a limitation in a changing environment."
+},
+{
+    question: "What is a common method of asexual reproduction used in plants like sugar cane and pineapples?",
+    options: [
+        { text: "Stem cuttings", isCorrect: true },
+        { text: "Seed dispersal", isCorrect: false },
+        { text: "Pollination", isCorrect: false },
+        { text: "Fusion of gametes", isCorrect: false }
+    ],
+    hint: "Think about how new plants can be grown from a part of an existing plant without the use of seeds."
+},
+{
+    question: "Which scenario might trigger asexual reproduction in certain fungi like Mucor?",
+    options: [
+        { text: "Harsh environmental conditions", isCorrect: true },
+        { text: "Abundance of resources", isCorrect: false },
+        { text: "Presence of pollinators", isCorrect: false },
+        { text: "High genetic diversity", isCorrect: false }
+    ],
+    hint: "Consider what environmental factor might prompt fungi to switch to asexual reproduction."
+},
+{
+    question: "Why can asexual reproduction lead to overcrowding and competition among offspring?",
+    options: [
+        { text: "Large numbers of genetically identical offspring are produced.", isCorrect: true },
+        { text: "Offspring inherit desirable features from parents.", isCorrect: false },
+        { text: "Offspring are more adaptable to varied habitats.", isCorrect: false },
+        { text: "Asexual reproduction occurs only in favorable conditions.", isCorrect: false }
+    ],
+    hint: "Think about why a lack of genetic variation might contribute to overcrowding and competition."
+},
+{
+    question: "What is a key disadvantage of asexual reproduction related to passing on parental traits?",
+    options: [
+        { text: "Undesirable features of parents are passed on unchanged.", isCorrect: true },
+        { text: "Genetic diversity increases with each generation.", isCorrect: false },
+        { text: "Offspring exhibit higher adaptability.", isCorrect: false },
+        { text: "It requires the fusion of gametes.", isCorrect: false }
+    ],
+    hint: "Consider why the lack of genetic recombination might be a limitation in terms of passing on traits."
+},
+{
+    question: "Which type of reproduction allows for the production of offspring without pollination?",
+    options: [
+        { text: "Asexual reproduction", isCorrect: true },
+        { text: "Sexual reproduction", isCorrect: false },
+        { text: "Clonal reproduction", isCorrect: false },
+        { text: "Mitotic reproduction", isCorrect: false }
+    ],
+    hint: "Think about the process that does not involve the fusion of gametes or the need for pollinators."
+},
+{
+    question: "What factor makes it challenging for asexually reproducing organisms to adapt to changing environments?",
+    options: [
+        { text: "Lack of genetic variation", isCorrect: true },
+        { text: "Large numbers of offspring produced", isCorrect: false },
+        { text: "Ability to reproduce rapidly", isCorrect: false },
+        { text: "Genetic diversity among offspring", isCorrect: false }
+    ],
+    hint: "Consider why uniform genetic makeup might hinder adaptability in a changing environment."
+},
+{
+    question: "Which term describes the process of producing offspring that are genetically identical to the parent?",
+    options: [
+        { text: "Cloning", isCorrect: true },
+        { text: "Genetic recombination", isCorrect: false },
+        { text: "Pollination", isCorrect: false },
+        { text: "Dispersal", isCorrect: false }
+    ],
+    hint: "Think about the method of reproduction where offspring are exact copies of the parent."
+},
+{
+    question: "What feature of asexual reproduction allows for rapid multiplication of offspring?",
+    options: [
+        { text: "Production of genetically identical offspring", isCorrect: true },
+        { text: "Requires fusion of gametes", isCorrect: false },
+        { text: "Generates diverse genetic combinations", isCorrect: false },
+        { text: "Involves seed dispersal", isCorrect: false }
+    ],
+    hint: "Consider why asexual reproduction can lead to the quick generation of numerous identical offspring."
+},
+{
+    question: "What is a notable challenge faced by asexually reproducing organisms due to lack of genetic diversity?",
+    options: [
+        { text: "Difficulty adapting to new or changing environments", isCorrect: true },
+        { text: "Reduced competition among offspring", isCorrect: false },
+        { text: "Improved ability to withstand harsh conditions", isCorrect: false },
+        { text: "Increased genetic variation among offspring", isCorrect: false }
+    ],
+    hint: "Think about why a uniform genetic makeup might limit an organism's ability to thrive in different environments."
+},
+{
+    question: "Which characteristic of asexual reproduction makes it advantageous in situations where seeds fail?",
+    options: [
+        { text: "Ability to produce new plants without seeds", isCorrect: true },
+        { text: "Enhanced genetic diversity in offspring", isCorrect: false },
+        { text: "Reliance on pollinators for reproduction", isCorrect: false },
+        { text: "Preference for crowded environments", isCorrect: false }
+    ],
+    hint: "Consider why a method of reproduction that does not rely on seeds might be beneficial when seed-based reproduction fails."
+},
+{
+    question: "Which of the following is NOT an advantage of asexual reproduction?",
+    options: [
+        { text: "Enhanced genetic variation in offspring", isCorrect: true },
+        { text: "Production of large numbers of offspring", isCorrect: false },
+        { text: "Ability to grow new plants from existing parts", isCorrect: false },
+        { text: "No need for pollination or dispersal agents", isCorrect: false }
+    ],
+    hint: "Think about why asexual reproduction might lack certain benefits compared to sexual reproduction."
+},
+{
+    question: "In asexual reproduction, why are desirable features of parents passed on unchanged?",
+    options: [
+        { text: "Offspring are genetically identical to the parent", isCorrect: true },
+        { text: "Offspring inherit traits from multiple parents", isCorrect: false },
+        { text: "Offspring exhibit diverse genetic combinations", isCorrect: false },
+        { text: "Offspring require pollination for reproduction", isCorrect: false }
+    ],
+    hint: "Consider why asexual reproduction results in offspring that closely resemble the parent."
+},
+{
+    question: "What is a key limitation of asexual reproduction in terms of genetic diversity?",
+    options: [
+        { text: "Difficulty adapting to changing environmental conditions", isCorrect: true },
+        { text: "Enhanced ability to produce diverse offspring", isCorrect: false },
+        { text: "Higher likelihood of genetic mutations", isCorrect: false },
+        { text: "Dependence on multiple parents for reproduction", isCorrect: false }
+    ],
+    hint: "Think about why a lack of genetic variation might pose challenges for organisms facing environmental changes."
+},
+{
+    question: "Why is asexual reproduction more prevalent in certain organisms during harsh environmental conditions?",
+    options: [
+        { text: "It allows for rapid reproduction without the need for a mate", isCorrect: true },
+        { text: "It promotes genetic diversity among offspring", isCorrect: false },
+        { text: "It requires specific pollinators for successful reproduction", isCorrect: false },
+        { text: "It leads to the production of genetically unique offspring", isCorrect: false }
+    ],
+    hint: "Consider why a method of reproduction that does not rely on external factors like mates or pollinators might be advantageous in challenging environments."
+},
+{
+    question: "Which type of reproduction is more likely to result in overcrowding and competition for resources among offspring?",
+    options: [
+        { text: "Asexual reproduction", isCorrect: true },
+        { text: "Sexual reproduction", isCorrect: false },
+        { text: "Clonal reproduction", isCorrect: false },
+        { text: "Mitotic reproduction", isCorrect: false }
+    ],
+    hint: "Think about why producing large numbers of genetically identical offspring might lead to competition for resources."
+},
+{
+    question: "What challenge arises from the lack of genetic variation in asexually reproducing organisms?",
+    options: [
+        { text: "Limited adaptability to changing conditions", isCorrect: true },
+        { text: "Increased resistance to diseases", isCorrect: false },
+        { text: "Enhanced reproductive success", isCorrect: false },
+        { text: "Reduced resource competition among offspring", isCorrect: false }
+    ],
+    hint: "Consider why a uniform genetic makeup might restrict an organism's ability to thrive in various environments."
+},
+{
+    question: "What is binary fission?",
+    options: [
+        { text: "A type of asexual reproduction where one parent cell divides into two daughter cells.", isCorrect: true },
+        { text: "A type of sexual reproduction involving the fusion of gametes.", isCorrect: false },
+        { text: "A process where offspring receive genetic material from two parents.", isCorrect: false },
+        { text: "A method of reproduction requiring pollination.", isCorrect: false }
+    ],
+    hint: "Think about how one cell splits into two identical daughter cells in this type of reproduction."
+},
+{
+    question: "Which organisms commonly undergo binary fission?",
+    options: [
+        { text: "Bacteria and Amoeba", isCorrect: true },
+        { text: "Plants and animals", isCorrect: false },
+        { text: "Fungi and algae", isCorrect: false },
+        { text: "Insects and birds", isCorrect: false }
+    ],
+    hint: "Consider the types of organisms where one parent cell divides to produce two identical offspring."
+},
+{
+    question: "What happens during the stage of DNA replication in binary fission?",
+    options: [
+        { text: "The genetic material of the parent cell is duplicated.", isCorrect: true },
+        { text: "The parent cell increases in size.", isCorrect: false },
+        { text: "The two daughter cells separate from each other.", isCorrect: false },
+        { text: "The cell membrane constricts around the nucleus.", isCorrect: false }
+    ],
+    hint: "Think about the process where the genetic material is copied before cell division."
+},
+{
+    question: "Which stage of binary fission involves the division of cytoplasm to separate daughter cells?",
+    options: [
+        { text: "Cell membrane constricts", isCorrect: true },
+        { text: "DNA replication", isCorrect: false },
+        { text: "Formation of daughter nuclei", isCorrect: false },
+        { text: "Parent cell growth", isCorrect: false }
+    ],
+    hint: "Consider the step where the cell physically splits into two separate cells."
+},
+{
+    question: "What is the final outcome of binary fission?",
+    options: [
+        { text: "Formation of two daughter cells", isCorrect: true },
+        { text: "Fusion of gametes", isCorrect: false },
+        { text: "Development of multiple parent cells", isCorrect: false },
+        { text: "Release of spores", isCorrect: false }
+    ],
+    hint: "Think about the end result of the process where one cell divides into two identical cells."
+},
+{
+    question: "Which part of the cell divides during binary fission to separate the cytoplasm?",
+    options: [
+        { text: "Cell membrane", isCorrect: true },
+        { text: "Nucleus", isCorrect: false },
+        { text: "Cytoplasm", isCorrect: false },
+        { text: "DNA", isCorrect: false }
+    ],
+    hint: "Consider the structure responsible for physically splitting the cell into two."
+},
+{
+    question: "What is the role of mitosis in binary fission?",
+    options: [
+        { text: "To ensure each daughter cell receives a complete set of genetic material.", isCorrect: true },
+        { text: "To increase the size of the parent cell.", isCorrect: false },
+        { text: "To form two separate parent cells.", isCorrect: false },
+        { text: "To produce gametes for sexual reproduction.", isCorrect: false }
+    ],
+    hint: "Think about why mitosis is essential in ensuring genetic continuity between parent and daughter cells."
+},
+{
+    question: "How do daughter cells compare to the parent cell in binary fission?",
+    options: [
+        { text: "They are genetically identical to the parent cell.", isCorrect: true },
+        { text: "They have half the genetic material of the parent cell.", isCorrect: false },
+        { text: "They exhibit genetic variation.", isCorrect: false },
+        { text: "They are produced through the fusion of gametes.", isCorrect: false }
+    ],
+    hint: "Consider why offspring produced through binary fission are clones of the parent cell."
+},
+{
+    question: "What term describes the process where the parent cell grows in size before undergoing binary fission?",
+    options: [
+        { text: "Cellular enlargement", isCorrect: true },
+        { text: "Nuclear fusion", isCorrect: false },
+        { text: "Chromosomal replication", isCorrect: false },
+        { text: "Cytoplasmic division", isCorrect: false }
+    ],
+    hint: "Think about the initial phase where the parent cell prepares for division by increasing its size."
+},
+{
+    question: "Why is binary fission considered a form of asexual reproduction?",
+    options: [
+        { text: "It involves the production of genetically identical offspring from a single parent.", isCorrect: true },
+        { text: "It requires the fusion of gametes from two parents.", isCorrect: false },
+        { text: "It results in the formation of diverse genetic combinations.", isCorrect: false },
+        { text: "It leads to the development of haploid cells.", isCorrect: false }
+    ],
+    hint: "Consider why the offspring produced through binary fission are clones of the parent cell."
+},
+{
+    question: "What is budding?",
+    options: [
+        { text: "A type of asexual reproduction where a parent organism develops an outgrowth called a bud that detaches to become a new organism.", isCorrect: true },
+        { text: "A process where two parent cells fuse to produce offspring.", isCorrect: false },
+        { text: "A method of reproduction involving the formation of spores.", isCorrect: false },
+        { text: "A type of sexual reproduction in plants.", isCorrect: false }
+    ],
+    hint: "Think about how a new organism develops as an outgrowth from the parent organism in this type of reproduction."
+},
+{
+    question: "Which organisms commonly undergo budding?",
+    options: [
+        { text: "Yeast and Hydra", isCorrect: true },
+        { text: "Bacteria and Amoeba", isCorrect: false },
+        { text: "Fungi and Algae", isCorrect: false },
+        { text: "Insects and Birds", isCorrect: false }
+    ],
+    hint: "Consider the types of organisms where a new individual develops from an outgrowth of the parent."
+},
+{
+    question: "What happens to the bud in budding once it increases in size?",
+    options: [
+        { text: "It detaches from the parent to become an independent organism.", isCorrect: true },
+        { text: "It merges with the parent organism.", isCorrect: false },
+        { text: "It remains attached to the parent indefinitely.", isCorrect: false },
+        { text: "It develops into a reproductive structure.", isCorrect: false }
+    ],
+    hint: "Think about the fate of the bud once it matures and grows larger."
+},
+{
+    question: "What is a colony in the context of budding?",
+    options: [
+        { text: "A group of undetached buds.", isCorrect: true },
+        { text: "A group of detached offspring.", isCorrect: false },
+        { text: "A cluster of spores.", isCorrect: false },
+        { text: "A mature reproductive structure.", isCorrect: false }
+    ],
+    hint: "Consider the term used to describe a collection of buds that remain attached to the parent organism."
+},
+{
+    question: "What is spore formation?",
+    options: [
+        { text: "A type of asexual reproduction where an organism produces microscopic structures capable of germinating under favorable conditions.", isCorrect: true },
+        { text: "A process where organisms develop buds that detach to form new individuals.", isCorrect: false },
+        { text: "A method of sexual reproduction involving the fusion of gametes.", isCorrect: false },
+        { text: "A type of reproduction common in multicellular organisms.", isCorrect: false }
+    ],
+    hint: "Think about the method of asexual reproduction where specialized structures are produced for dispersal and survival."
+},
+{
+    question: "Which organisms commonly produce spores?",
+    options: [
+        { text: "Fungi such as Mucor and Rhizopus", isCorrect: true },
+        { text: "Yeast and Hydra", isCorrect: false },
+        { text: "Plants and animals", isCorrect: false },
+        { text: "Bacteria and viruses", isCorrect: false }
+    ],
+    hint: "Consider the types of organisms where spore formation is a common method of reproduction."
+},
+{
+    question: "What triggers the production of spores?",
+    options: [
+        { text: "Unfavorable environmental conditions for sexual reproduction", isCorrect: true },
+        { text: "Abundance of resources", isCorrect: false },
+        { text: "Presence of specific pollinators", isCorrect: false },
+        { text: "High genetic diversity", isCorrect: false }
+    ],
+    hint: "Think about why organisms resort to spore formation when conditions are not suitable for sexual reproduction."
+},
+{
+    question: "How are spores dispersed?",
+    options: [
+        { text: "By wind", isCorrect: true },
+        { text: "Through fusion with other spores", isCorrect: false },
+        { text: "By insects", isCorrect: false },
+        { text: "Through water currents", isCorrect: false }
+    ],
+    hint: "Consider the method by which spores are carried to new locations for germination."
+},
+{
+    question: "When do fungi like Mucor and Rhizopus resort to asexual reproduction?",
+    options: [
+        { text: "During harsh environmental conditions", isCorrect: true },
+        { text: "In favorable and stable environments", isCorrect: false },
+        { text: "When resources are abundant", isCorrect: false },
+        { text: "During the mating season", isCorrect: false }
+    ],
+    hint: "Think about the circumstances under which these fungi opt for asexual reproduction instead of sexual reproduction."
+},
+{
+    question: "What type of spore is formed by fungi like Mucor and Rhizopus during asexual reproduction?",
+    options: [
+        { text: "Conidia", isCorrect: true },
+        { text: "Zygospores", isCorrect: false },
+        { text: "Ascospores", isCorrect: false },
+        { text: "Basidiospores", isCorrect: false }
+    ],
+    hint: "Consider the specific term used to describe the spores produced by these fungi under harsh conditions."
+},
+{
+    question: "What is fragmentation?",
+    options: [
+        { text: "A type of asexual reproduction where pieces cut from an organism develop into independent organisms.", isCorrect: true },
+        { text: "A process where two parent cells fuse to produce offspring.", isCorrect: false },
+        { text: "A method of reproduction involving the formation of spores.", isCorrect: false },
+        { text: "A type of sexual reproduction in plants.", isCorrect: false }
+    ],
+    hint: "Think about how new organisms are formed from separated pieces of the parent organism in this type of reproduction."
+},
+{
+    question: "Which organisms commonly undergo fragmentation?",
+    options: [
+        { text: "Spirogyra, flatworms, and sponges", isCorrect: true },
+        { text: "Bacteria and Amoeba", isCorrect: false },
+        { text: "Fungi and Algae", isCorrect: false },
+        { text: "Insects and Birds", isCorrect: false }
+    ],
+    hint: "Consider the types of organisms where a new individual develops from separated pieces of the parent."
+},
+{
+    question: "What happens to the pieces cut from the parent organism during fragmentation?",
+    options: [
+        { text: "They develop into independent organisms.", isCorrect: true },
+        { text: "They remain attached to the parent indefinitely.", isCorrect: false },
+        { text: "They merge with other organisms to form colonies.", isCorrect: false },
+        { text: "They undergo sexual reproduction.", isCorrect: false }
+    ],
+    hint: "Think about the fate of the separated pieces from the parent organism in fragmentation."
+},
+{
+    question: "How does fragmentation differ from budding?",
+    options: [
+        { text: "Fragmentation involves the separation of pieces from the parent, while budding involves the development of an outgrowth.", isCorrect: true },
+        { text: "Fragmentation only occurs in plants, while budding occurs in animals.", isCorrect: false },
+        { text: "Fragmentation requires the formation of spores, while budding does not.", isCorrect: false },
+        { text: "Fragmentation leads to the formation of colonies, while budding results in independent organisms.", isCorrect: false }
+    ],
+    hint: "Consider the key differences in the methods and outcomes of fragmentation and budding."
+},
+{
+    question: "What term describes a new organism formed from a piece of the parent organism in fragmentation?",
+    options: [
+        { text: "Regeneration", isCorrect: true },
+        { text: "Conjugation", isCorrect: false },
+        { text: "Fission", isCorrect: false },
+        { text: "Germination", isCorrect: false }
+    ],
+    hint: "Think about the process where separated pieces develop into complete, independent organisms."
+},
+{
+    question: "What is vegetative propagation?",
+    options: [
+        { text: "A form of asexual reproduction in flowering plants where new plants develop from vegetative parts such as roots, stems, or leaves, without involving seeds.", isCorrect: true },
+        { text: "A method of reproduction involving the fusion of gametes in plants.", isCorrect: false },
+        { text: "A process where plants produce spores for dispersal.", isCorrect: false },
+        { text: "A type of sexual reproduction in plants.", isCorrect: false }
+    ],
+    hint: "Think about how new plants are produced from non-seed parts of a parent plant in vegetative propagation."
+},
+{
+    question: "Which parts of a plant are involved in vegetative propagation?",
+    options: [
+        { text: "Roots, stems, and leaves", isCorrect: true },
+        { text: "Flowers and fruits", isCorrect: false },
+        { text: "Seeds and pollen grains", isCorrect: false },
+        { text: "Stamens and pistils", isCorrect: false }
+    ],
+    hint: "Consider the vegetative structures from which new plants can develop without the need for seeds."
+},
+{
+    question: "What distinguishes natural vegetative propagation from artificial vegetative propagation?",
+    options: [
+        { text: "Natural propagation occurs without human intervention, while artificial propagation involves human intervention.", isCorrect: true },
+        { text: "Natural propagation produces genetically diverse offspring, while artificial propagation produces identical offspring.", isCorrect: false },
+        { text: "Natural propagation is slower than artificial propagation.", isCorrect: false },
+        { text: "Natural propagation occurs only in wild plants, while artificial propagation occurs only in cultivated plants.", isCorrect: false }
+    ],
+    hint: "Think about the role of human intervention in the process of vegetative propagation."
+},
+{
+    question: "What are perennating organs in the context of vegetative propagation?",
+    options: [
+        { text: "Underground structures that enable plants to survive and propagate vegetatively from year to year.", isCorrect: true },
+        { text: "Reproductive structures involved in seed formation.", isCorrect: false },
+        { text: "Aerial structures that aid in photosynthesis.", isCorrect: false },
+        { text: "Structures responsible for pollen production.", isCorrect: false }
+    ],
+    hint: "Consider the specialized structures that support vegetative propagation in flowering plants."
+},
+{
+    question: "What type of buds are located at the end of the stem in vegetative propagation?",
+    options: [
+        { text: "Apical buds", isCorrect: true },
+        { text: "Lateral buds", isCorrect: false },
+        { text: "Axillary buds", isCorrect: false },
+        { text: "Adventitious buds", isCorrect: false }
+    ],
+    hint: "Think about the specific term used to describe buds at the tip of a plant's stem."
+},
+{
+    question: "What is the role of adventitious roots in vegetative propagation?",
+    options: [
+        { text: "They provide additional anchorage and absorb nutrients for the developing plant.", isCorrect: true },
+        { text: "They produce seeds for dispersal.", isCorrect: false },
+        { text: "They protect buds from environmental stress.", isCorrect: false },
+        { text: "They assist in pollen transfer between plants.", isCorrect: false }
+    ],
+    hint: "Consider the function of roots that develop from non-typical locations in vegetative propagation."
+},
+{
+    question: "Which of the following is an example of a perennating organ used in natural vegetative propagation?",
+    options: [
+        { text: "Bulb", isCorrect: true },
+        { text: "Pollen grain", isCorrect: false },
+        { text: "Pistil", isCorrect: false },
+        { text: "Stamen", isCorrect: false }
+    ],
+    hint: "Think about the specialized structure that supports the survival and propagation of plants through vegetative means."
+},
+{
+    question: "What is the function of scale leaves in perennating organs?",
+    options: [
+        { text: "They protect buds from mechanical damage and environmental stress.", isCorrect: true },
+        { text: "They assist in photosynthesis.", isCorrect: false },
+        { text: "They produce reproductive structures.", isCorrect: false },
+        { text: "They aid in seed dispersal.", isCorrect: false }
+    ],
+    hint: "Consider the role of specialized leaves in protecting vegetative structures during propagation."
+},
+{
+    question: "Which type of vegetative propagation involves the growth of new plants from underground stems?",
+    options: [
+        { text: "Rhizomes", isCorrect: true },
+        { text: "Bulbs", isCorrect: false },
+        { text: "Suckers", isCorrect: false },
+        { text: "Corms", isCorrect: false }
+    ],
+    hint: "Think about the specific underground stem structure that supports vegetative propagation."
+},
+{
+    question: "What distinguishes a corm from a bulb in vegetative propagation?",
+    options: [
+        { text: "A corm is a swollen stem base, while a bulb is a modified underground bud with fleshy storage leaves.", isCorrect: true },
+        { text: "A bulb is a swollen stem base, while a corm is a modified underground bud.", isCorrect: false },
+        { text: "A corm produces lateral shoots, while a bulb produces adventitious roots.", isCorrect: false },
+        { text: "A bulb is found above ground, while a corm is found underground.", isCorrect: false }
+    ],
+    hint: "Consider the structural differences between two types of underground storage organs used in vegetative propagation."
+},
+{
+    question: "What is the purpose of storing food in perennating organs during vegetative propagation?",
+    options: [
+        { text: "To provide energy for the growth of new shoots and roots.", isCorrect: true },
+        { text: "To attract pollinators for reproduction.", isCorrect: false },
+        { text: "To assist in seed dispersal.", isCorrect: false },
+        { text: "To protect buds from herbivores.", isCorrect: false }
+    ],
+    hint: "Think about why plants store nutrients in specialized organs for vegetative propagation."
+},
+{
+    question: "What is a root tuber?",
+    options: [
+        { text: "A swollen root containing stored food that can grow into a new plant.", isCorrect: true },
+        { text: "An underground stem with eye buds capable of growing into new plants.", isCorrect: false },
+        { text: "A swollen stem used for vegetative propagation.", isCorrect: false },
+        { text: "A type of aerial structure found in certain plants.", isCorrect: false }
+    ],
+    hint: "Think about the specialized root structure that stores nutrients and supports vegetative propagation."
+},
+{
+    question: "Which plant is an example of a root tuber?",
+    options: [
+        { text: "Sweet potatoes", isCorrect: true },
+        { text: "Irish potatoes", isCorrect: false },
+        { text: "Garlic", isCorrect: false },
+        { text: "Onion", isCorrect: false }
+    ],
+    hint: "Consider the specific plant known for developing swollen roots used for vegetative propagation."
+},
+{
+    question: "What distinguishes a stem tuber from a root tuber?",
+    options: [
+        { text: "A stem tuber is an underground stem with eye buds, while a root tuber is a swollen root.", isCorrect: true },
+        { text: "A stem tuber is a swollen root, while a root tuber is an underground stem.", isCorrect: false },
+        { text: "A stem tuber contains fleshy leaves, while a root tuber contains stored food.", isCorrect: false },
+        { text: "A stem tuber is found above ground, while a root tuber is underground.", isCorrect: false }
+    ],
+    hint: "Consider the structural differences between two types of swollen underground storage organs."
+},
+{
+    question: "Which plant is an example of a stem tuber?",
+    options: [
+        { text: "Irish potatoes", isCorrect: true },
+        { text: "Sweet potatoes", isCorrect: false },
+        { text: "Garlic", isCorrect: false },
+        { text: "Onion", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing swollen underground stems used for vegetative propagation."
+},
+{
+    question: "What is a corm?",
+    options: [
+        { text: "A swollen underground stem with apical and axillary buds that can grow into new shoots.", isCorrect: true },
+        { text: "A bulb made of fleshy leaves growing from a short stem.", isCorrect: false },
+        { text: "An enlarged root containing stored food.", isCorrect: false },
+        { text: "A specialized structure found in flowers.", isCorrect: false }
+    ],
+    hint: "Consider the description of a swollen underground stem structure capable of producing new shoots."
+},
+{
+    question: "Which plant is an example of a corm?",
+    options: [
+        { text: "Crocus", isCorrect: true },
+        { text: "Sweet potatoes", isCorrect: false },
+        { text: "Irish potatoes", isCorrect: false },
+        { text: "Garlic", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing swollen underground stems used for vegetative propagation."
+},
+{
+    question: "What distinguishes a bulb from a corm?",
+    options: [
+        { text: "A bulb is made of fleshy leaves, while a corm is a swollen stem.", isCorrect: true },
+        { text: "A bulb contains eye buds, while a corm contains scale leaves.", isCorrect: false },
+        { text: "A bulb is found above ground, while a corm is underground.", isCorrect: false },
+        { text: "A bulb is used for sexual reproduction, while a corm is used for asexual reproduction.", isCorrect: false }
+    ],
+    hint: "Consider the structural differences between two types of underground storage organs used in vegetative propagation."
+},
+{
+    question: "Which plant is an example of a bulb?",
+    options: [
+        { text: "Garlic", isCorrect: true },
+        { text: "Crocus", isCorrect: false },
+        { text: "Sweet potatoes", isCorrect: false },
+        { text: "Irish potatoes", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing underground fleshy leaves used for vegetative propagation."
+},
+{
+    question: "What is the purpose of stored food in a bulb?",
+    options: [
+        { text: "To provide nutrients for the growth of new shoots and roots.", isCorrect: true },
+        { text: "To attract pollinators for reproduction.", isCorrect: false },
+        { text: "To protect the plant from herbivores.", isCorrect: false },
+        { text: "To produce flowers for sexual reproduction.", isCorrect: false }
+    ],
+    hint: "Consider why plants store nutrients in specialized underground structures used for vegetative propagation."
+},
+{
+    question: "What type of buds are present in a stem tuber?",
+    options: [
+        { text: "Eye buds", isCorrect: true },
+        { text: "Apical buds", isCorrect: false },
+        { text: "Axillary buds", isCorrect: false },
+        { text: "Adventitious buds", isCorrect: false }
+    ],
+    hint: "Think about the specialized buds capable of growing into new shoots present in certain underground stem structures."
+},
+{
+    question: "Which organ in a bulb contains stored food?",
+    options: [
+        { text: "Fleshy leaves", isCorrect: true },
+        { text: "Scale leaves", isCorrect: false },
+        { text: "Apical buds", isCorrect: false },
+        { text: "Axillary buds", isCorrect: false }
+    ],
+    hint: "Consider the specific part of a bulb that serves as a nutrient reserve for vegetative propagation."
+},
+{
+    question: "What differentiates a stem tuber from a root tuber?",
+    options: [
+        { text: "Stem tubers are underground swollen stems with eye buds, while root tubers are swollen roots.", isCorrect: true },
+        { text: "Stem tubers are modified leaves, while root tubers are modified stems.", isCorrect: false },
+        { text: "Stem tubers are found above ground, while root tubers are underground.", isCorrect: false },
+        { text: "Stem tubers produce flowers, while root tubers do not.", isCorrect: false }
+    ],
+    hint: "Consider the structural and functional differences between two types of underground storage organs used for vegetative propagation."
+},
+{
+    question: "What is a rhizome?",
+    options: [
+        { text: "A swollen underground horizontal stem with adventitious roots and buds capable of developing into new shoots.", isCorrect: true },
+        { text: "An underground lateral branch with terminal buds and adventitious roots.", isCorrect: false },
+        { text: "A type of aerial stem that grows above the ground.", isCorrect: false },
+        { text: "A modified leaf with stored food used for vegetative propagation.", isCorrect: false }
+    ],
+    hint: "Think about the specialized underground stem structure capable of producing new shoots and roots."
+},
+{
+    question: "Which plant is an example of a rhizome?",
+    options: [
+        { text: "Ginger", isCorrect: true },
+        { text: "Bananas", isCorrect: false },
+        { text: "Plantains", isCorrect: false },
+        { text: "Sweet potatoes", isCorrect: false }
+    ],
+    hint: "Consider the specific plant known for developing a swollen underground horizontal stem used for vegetative propagation."
+},
+{
+    question: "What distinguishes suckers from rhizomes?",
+    options: [
+        { text: "Suckers are underground lateral branches with terminal buds, while rhizomes are horizontal stems with nodes.", isCorrect: true },
+        { text: "Suckers are above-ground stems, while rhizomes are underground stems.", isCorrect: false },
+        { text: "Suckers are modified leaves, while rhizomes are modified roots.", isCorrect: false },
+        { text: "Suckers produce leaves, while rhizomes produce flowers.", isCorrect: false }
+    ],
+    hint: "Consider the structural differences between two types of specialized stems used for vegetative propagation."
+},
+{
+    question: "Which plant is an example of a sucker?",
+    options: [
+        { text: "Bananas", isCorrect: true },
+        { text: "Ginger", isCorrect: false },
+        { text: "Plantains", isCorrect: false },
+        { text: "Sweet potatoes", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing underground lateral branches used for vegetative propagation."
+},
+{
+    question: "What are runners, stolons, and vines?",
+    options: [
+        { text: "Horizontal stems growing above the ground with adventitious roots and buds at the nodes.", isCorrect: true },
+        { text: "Underground lateral branches with terminal buds.", isCorrect: false },
+        { text: "Modified leaves with stored food and buds.", isCorrect: false },
+        { text: "Aerial stems with swollen nodes.", isCorrect: false }
+    ],
+    hint: "Consider the description of specialized horizontal stems capable of producing new shoots and roots."
+},
+{
+    question: "Which plant is an example of a runner?",
+    options: [
+        { text: "Lawn grass", isCorrect: true },
+        { text: "Ginger", isCorrect: false },
+        { text: "Bananas", isCorrect: false },
+        { text: "Plantains", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing horizontal stems above the ground used for vegetative propagation."
+},
+{
+    question: "What is a characteristic of leaves involved in vegetative propagation in plants like Bryophyllum?",
+    options: [
+        { text: "They are swollen with stored food and have buds and adventitious roots.", isCorrect: true },
+        { text: "They are modified underground stems.", isCorrect: false },
+        { text: "They produce flowers for sexual reproduction.", isCorrect: false },
+        { text: "They are aerial structures used for photosynthesis.", isCorrect: false }
+    ],
+    hint: "Consider the specialized features of leaves that support vegetative propagation in certain plant species."
+},
+{
+    question: "Which plant is an example of using leaves for vegetative propagation?",
+    options: [
+        { text: "Bryophyllum", isCorrect: true },
+        { text: "Ginger", isCorrect: false },
+        { text: "Lawn grass", isCorrect: false },
+        { text: "Plantains", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing swollen leaves with buds and adventitious roots used for vegetative propagation."
+},
+{
+    question: "What is the purpose of adventitious roots in stems like runners, stolons, and vines?",
+    options: [
+        { text: "To anchor the stem and absorb water and nutrients.", isCorrect: true },
+        { text: "To produce flowers for reproduction.", isCorrect: false },
+        { text: "To store food reserves for growth.", isCorrect: false },
+        { text: "To protect the stem from herbivores.", isCorrect: false }
+    ],
+    hint: "Consider the function of specialized roots that develop from stem nodes in horizontal stems used for vegetative propagation."
+},
+{
+    question: "What type of buds are present in rhizomes?",
+    options: [
+        { text: "Adventitious buds", isCorrect: true },
+        { text: "Apical buds", isCorrect: false },
+        { text: "Axillary buds", isCorrect: false },
+        { text: "Terminal buds", isCorrect: false }
+    ],
+    hint: "Think about the specific buds capable of developing into new shoots present along the nodes of rhizomes."
+},
+{
+    question: "Which plant is an example of using rhizomes for vegetative propagation?",
+    options: [
+        { text: "Ginger", isCorrect: true },
+        { text: "Lawn grass", isCorrect: false },
+        { text: "Bryophyllum", isCorrect: false },
+        { text: "Plantains", isCorrect: false }
+    ],
+    hint: "Think about the specific plant known for developing swollen underground horizontal stems with buds and roots used for vegetative propagation."
+},
+{
+    question: "What is stem cutting in artificial vegetative propagation?",
+    options: [
+        { text: "Cutting stems just below the node and planting them to produce new plants.", isCorrect: true },
+        { text: "Cutting leaves from a plant to reduce transpiration.", isCorrect: false },
+        { text: "Cutting roots and replanting them for growth.", isCorrect: false },
+        { text: "Cutting flowers for floral arrangements.", isCorrect: false }
+    ],
+    hint: "Think about the process of using stem segments to propagate new plants in artificial vegetative propagation."
+},
+{
+    question: "What develops from the node of a stem cutting during propagation?",
+    options: [
+        { text: "Adventitious roots", isCorrect: true },
+        { text: "Flowers", isCorrect: false },
+        { text: "Fruits", isCorrect: false },
+        { text: "Leaves", isCorrect: false }
+    ],
+    hint: "Consider the specialized roots that develop from the node of a stem cutting to support the growth of a new plant."
+},
+{
+    question: "How is the process of stem cutting enhanced in artificial vegetative propagation?",
+    options: [
+        { text: "By applying rooting powder to stimulate development of adventitious roots.", isCorrect: true },
+        { text: "By increasing exposure to sunlight.", isCorrect: false },
+        { text: "By watering the cuttings frequently.", isCorrect: false },
+        { text: "By removing all leaves from the stem.", isCorrect: false }
+    ],
+    hint: "Think about the method used to promote root development in stem cuttings during artificial vegetative propagation."
+},
+{
+    question: "What is the purpose of removing leaves from the stem during stem cutting?",
+    options: [
+        { text: "To reduce the rate of transpiration.", isCorrect: true },
+        { text: "To stimulate flower formation.", isCorrect: false },
+        { text: "To promote root growth.", isCorrect: false },
+        { text: "To prevent diseases.", isCorrect: false }
+    ],
+    hint: "Consider why leaves are removed from stems during the process of artificial vegetative propagation."
+},
+{
+    question: "Which plant can be propagated using stem cuttings?",
+    options: [
+        { text: "Sugar cane", isCorrect: true },
+        { text: "Garlic", isCorrect: false },
+        { text: "Carrots", isCorrect: false },
+        { text: "Onions", isCorrect: false }
+    ],
+    hint: "Think about the specific plant mentioned that can be propagated using stem cuttings in artificial vegetative propagation."
+},
+{
+    question: "What is grafting in artificial vegetative propagation?",
+    options: [
+        { text: "Bringing together a stock and a scion from two closely related plants to create a new plant.", isCorrect: true },
+        { text: "Transferring pollen between plants for seed formation.", isCorrect: false },
+        { text: "Planting seeds in controlled conditions.", isCorrect: false },
+        { text: "Cross-breeding different plant species.", isCorrect: false }
+    ],
+    hint: "Think about the process of combining parts of two plants to create a new plant in artificial vegetative propagation."
+},
+{
+    question: "What is the role of the stock in grafting?",
+    options: [
+        { text: "It provides an established root system responsible for absorbing water and minerals.", isCorrect: true },
+        { text: "It produces the flowers and fruits of the new plant.", isCorrect: false },
+        { text: "It promotes root growth in the scion.", isCorrect: false },
+        { text: "It provides support for the scion.", isCorrect: false }
+    ],
+    hint: "Consider the function of the base part of the grafted plant that contributes an essential component to the new plant."
+},
+{
+    question: "What is the scion in grafting?",
+    options: [
+        { text: "The aerial part of the grafted plant that bears buds for shoot formation.", isCorrect: true },
+        { text: "The part that provides an established root system.", isCorrect: false },
+        { text: "The part that absorbs water and minerals.", isCorrect: false },
+        { text: "The support structure for the new plant.", isCorrect: false }
+    ],
+    hint: "Think about the specific part of the grafted plant that contributes the desired characteristics like stem, leaves, flowers, or fruits."
+},
+{
+    question: "What is a key requirement for successful grafting?",
+    options: [
+        { text: "The stock and scion should have identical diameters.", isCorrect: true },
+        { text: "The stock and scion should belong to different plant families.", isCorrect: false },
+        { text: "The stock should have large leaves.", isCorrect: false },
+        { text: "The scion should be fully mature.", isCorrect: false }
+    ],
+    hint: "Consider an important factor that contributes to the success of grafting in artificial vegetative propagation."
+},
+{
+    question: "Which plant can be propagated using grafting?",
+    options: [
+        { text: "Roses", isCorrect: true },
+        { text: "Sugar cane", isCorrect: false },
+        { text: "Cassava", isCorrect: false },
+        { text: "Carrots", isCorrect: false }
+    ],
+    hint: "Think about the specific plant mentioned that can be propagated using grafting in artificial vegetative propagation."
+},
+{
+    question: "What is done to the cut ends of stock and scion before they are joined in grafting?",
+    options: [
+        { text: "They are cut with complementary shapes that fit into each other.", isCorrect: true },
+        { text: "They are coated with rooting powder.", isCorrect: false },
+        { text: "They are covered with leaves to prevent water loss.", isCorrect: false },
+        { text: "They are watered heavily to promote rapid growth.", isCorrect: false }
+    ],
+    hint: "Consider the preparation of the cut ends of plant parts before they are joined together in grafting."
+},
+{
+    question: "What is applied to the cut end exposed to air during stem cutting to reduce water loss?",
+    options: [
+        { text: "Paint or another substance", isCorrect: true },
+        { text: "Rooting powder", isCorrect: false },
+        { text: "Water", isCorrect: false },
+        { text: "Fertilizer", isCorrect: false }
+    ],
+    hint: "Think about the method used to protect the cut end from dehydration during stem cutting in artificial vegetative propagation."
+},
+{
+    question: "What is budding in vegetative propagation?",
+    options: [
+        { text: "A method where a bud is used as scion and inserted into the bark of a plant used as stock.", isCorrect: true },
+        { text: "A method where stems are cut and planted to produce new plants.", isCorrect: false },
+        { text: "A method where seeds are planted directly into the soil.", isCorrect: false },
+        { text: "A method where roots are cut and replanted for growth.", isCorrect: false }
+    ],
+    hint: "Think about the process of using a bud to create a new plant by inserting it into the bark of another plant."
+},
+{
+    question: "What part of the plant is used as the stock in budding?",
+    options: [
+        { text: "Bark of an entire plant", isCorrect: true },
+        { text: "Roots", isCorrect: false },
+        { text: "Leaves", isCorrect: false },
+        { text: "Stems", isCorrect: false }
+    ],
+    hint: "Consider the specific part of a plant used as the base for inserting the scion bud in budding."
+},
+{
+    question: "What is the purpose of making a T-shaped cut in the scion during budding?",
+    options: [
+        { text: "To reach the cambium layer of the scion.", isCorrect: true },
+        { text: "To remove excess leaves from the scion.", isCorrect: false },
+        { text: "To promote root growth in the scion.", isCorrect: false },
+        { text: "To protect the scion from diseases.", isCorrect: false }
+    ],
+    hint: "Think about why a specific cut is made in the scion during the process of budding."
+},
+{
+    question: "What is the function of cambium in budding?",
+    options: [
+        { text: "It is responsible for producing new vascular tissue and allows for graft union.", isCorrect: true },
+        { text: "It stores nutrients for plant growth.", isCorrect: false },
+        { text: "It absorbs water and minerals from the soil.", isCorrect: false },
+        { text: "It regulates gas exchange in the plant.", isCorrect: false }
+    ],
+    hint: "Consider the role of cambium in facilitating the successful union between scion and stock during budding."
+},
+{
+    question: "Which plant can be propagated using budding?",
+    options: [
+        { text: "Citrus fruits", isCorrect: true },
+        { text: "Carrots", isCorrect: false },
+        { text: "Potatoes", isCorrect: false },
+        { text: "Onions", isCorrect: false }
+    ],
+    hint: "Think about the specific type of plant mentioned that can be propagated using budding in vegetative propagation."
+},
+{
+    question: "What is the purpose of tying and sealing the graft union with wax during budding?",
+    options: [
+        { text: "To prevent excessive transpiration and protect the bud.", isCorrect: true },
+        { text: "To stimulate root growth in the stock.", isCorrect: false },
+        { text: "To enhance nutrient absorption in the scion.", isCorrect: false },
+        { text: "To encourage flowering in the scion.", isCorrect: false }
+    ],
+    hint: "Consider the role of wax in maintaining the moisture balance and preventing dehydration in the graft union during budding."
+},
+{
+    question: "What part of the bud is left exposed during budding?",
+    options: [
+        { text: "The bud itself", isCorrect: true },
+        { text: "The cambium layer", isCorrect: false },
+        { text: "The roots", isCorrect: false },
+        { text: "The leaves", isCorrect: false }
+    ],
+    hint: "Think about which specific part of the scion bud remains uncovered and exposed during the process of budding."
+},
+{
+    question: "How does wax help prevent excessive transpiration during budding?",
+    options: [
+        { text: "By creating a barrier that seals moisture and reduces water loss.", isCorrect: true },
+        { text: "By promoting air circulation around the graft union.", isCorrect: false },
+        { text: "By providing nutrients to the scion.", isCorrect: false },
+        { text: "By enhancing root development in the stock.", isCorrect: false }
+    ],
+    hint: "Consider the mechanism by which wax maintains moisture levels and prevents dehydration in the budding process."
+},
+{
+    question: "What is inserted into the T-shaped part of the stock during budding?",
+    options: [
+        { text: "The bud (scion)", isCorrect: true },
+        { text: "The leaves", isCorrect: false },
+        { text: "The roots", isCorrect: false },
+        { text: "The stem", isCorrect: false }
+    ],
+    hint: "Think about what specific part of the scion is inserted into the prepared T-shaped cut in the stock during budding."
+},
+{
+    question: "What is the role of the cambium contact between the scion and stock during budding?",
+    options: [
+        { text: "It promotes the union and growth of vascular tissues between the two parts.", isCorrect: true },
+        { text: "It protects the scion from diseases.", isCorrect: false },
+        { text: "It stores nutrients for the scion.", isCorrect: false },
+        { text: "It anchors the scion to the stock.", isCorrect: false }
+    ],
+    hint: "Consider the significance of cambium contact in facilitating the successful integration of scion and stock during budding."
+},
+{
+    question: "What is layering in vegetative propagation?",
+    options: [
+        { text: "A method where a ring of bark is removed from a branch to expose the cambium and stimulate root development.", isCorrect: true },
+        { text: "A method where stem cuttings are planted directly into the soil.", isCorrect: false },
+        { text: "A method where seeds are dispersed by wind.", isCorrect: false },
+        { text: "A method where leaves are detached from a plant and replanted for growth.", isCorrect: false }
+    ],
+    hint: "Think about the process of inducing root development on a branch while still attached to the parent plant in layering."
+},
+{
+    question: "What is exposed by removing a ring of bark from a branch during layering?",
+    options: [
+        { text: "Cambium", isCorrect: true },
+        { text: "Leaves", isCorrect: false },
+        { text: "Roots", isCorrect: false },
+        { text: "Stem", isCorrect: false }
+    ],
+    hint: "Consider the specific layer of tissue exposed by removing bark from a branch in the process of layering."
+},
+{
+    question: "What is the purpose of covering the wounded part of the branch with moist soil during layering?",
+    options: [
+        { text: "To stimulate the development of adventitious roots.", isCorrect: true },
+        { text: "To promote flowering of the branch.", isCorrect: false },
+        { text: "To protect the branch from insects.", isCorrect: false },
+        { text: "To reduce transpiration from the branch.", isCorrect: false }
+    ],
+    hint: "Think about why moist soil is applied to the wounded part of the branch in layering."
+},
+{
+    question: "When is the branch separated from the parent plant in layering?",
+    options: [
+        { text: "Once it has developed new roots and shoots.", isCorrect: true },
+        { text: "Immediately after applying the moist soil.", isCorrect: false },
+        { text: "Before exposing the cambium layer.", isCorrect: false },
+        { text: "After the leaves have fallen off.", isCorrect: false }
+    ],
+    hint: "Consider the stage at which the branch is ready to be detached from the parent plant in layering."
+},
+{
+    question: "Which plants can be propagated using layering?",
+    options: [
+        { text: "Bougainvillea and strawberry plants", isCorrect: true },
+        { text: "Sugar cane and cassava", isCorrect: false },
+        { text: "Carrots and potatoes", isCorrect: false },
+        { text: "Roses and tulips", isCorrect: false }
+    ],
+    hint: "Think about the specific plants mentioned that can be propagated using the layering method in vegetative propagation."
+},
+{
+    question: "What type of roots develop on the branch during layering?",
+    options: [
+        { text: "Adventitious roots", isCorrect: true },
+        { text: "Fibrous roots", isCorrect: false },
+        { text: "Taproots", isCorrect: false },
+        { text: "Contractile roots", isCorrect: false }
+    ],
+    hint: "Consider the specialized roots that develop from the wounded part of the branch during the process of layering."
+},
+{
+    question: "What part of the plant is covered with moist soil during layering?",
+    options: [
+        { text: "Wounded part of the branch", isCorrect: true },
+        { text: "Leaves", isCorrect: false },
+        { text: "Flowers", isCorrect: false },
+        { text: "Roots", isCorrect: false }
+    ],
+    hint: "Think about which specific part of the plant is treated with moist soil to stimulate root development in layering."
+},
+{
+    question: "What is the role of adventitious roots in layering?",
+    options: [
+        { text: "To anchor the branch and absorb water and nutrients.", isCorrect: true },
+        { text: "To produce flowers for reproduction.", isCorrect: false },
+        { text: "To store food reserves for growth.", isCorrect: false },
+        { text: "To protect the branch from diseases.", isCorrect: false }
+    ],
+    hint: "Consider the function of specialized roots that develop from the wounded part of the branch in layering."
+},
+{
+    question: "Why is moist soil used to cover the wounded part of the branch in layering?",
+    options: [
+        { text: "To provide a conducive environment for root development.", isCorrect: true },
+        { text: "To protect the branch from sunlight.", isCorrect: false },
+        { text: "To prevent insects from damaging the branch.", isCorrect: false },
+        { text: "To enhance flower production.", isCorrect: false }
+    ],
+    hint: "Think about the purpose of applying moist soil to the wounded part of the branch during the process of layering."
+},
+{
+    question: "What does the exposed cambium contact with during layering to stimulate root development?",
+    options: [
+        { text: "Moist soil", isCorrect: true },
+        { text: "Sunlight", isCorrect: false },
+        { text: "Water", isCorrect: false },
+        { text: "Fertilizer", isCorrect: false }
+    ],
+    hint: "Consider the specific material that the exposed cambium comes into contact with during the process of layering."
+}
+
+
+
+];
+
+        let currentQuestionIndex = 0;
+        const numQuestions = 15; // Total number of questions
+        let timerInterval;
+        let score = 0;
+
+function startQuiz() {
+    name = document.getElementById('name').value;
+    email = document.getElementById('email').value;
+    church = document.getElementById('church').value;
+   ministry = document.getElementById('ministry').value; // Get ministry value
+    phone = document.getElementById('phone').value; // Get phone value
+
+  
+    if (name.trim() === '') {
+        alert('Please enter your name.');
+        return;
+    }
+
+    // Additional validation for email if needed
+
+    document.getElementById('email-form').style.display = 'none';
+    document.getElementById('quiz').style.display = 'block';
+    quizStarted = true;
+    initializeQuiz();
+    startTimer();
+
+    const timerSlider = document.getElementById('timer-slider');
+
+    noUiSlider.create(timerSlider, {
+        start: 100, // Initial value
+        range: {
+            'min': 0,
+            'max': 100
+        },
+        format: {
+            to: function (value) {
+                return value + '%';
+            },
+            from: function (value) {
+                return value.replace('%', '');
+            }
+        },
+        tooltips: false, // Show tooltips
+       // pips: { mode: 'values', values: [0, 25, 50, 75, 100], density: 3 } // Customize pips (optional)
+    });
+}
+
+        function initializeQuiz() {
+            shuffleArray(questions);
+            currentQuestionIndex = 0;
+            score = 0;
+            showQuestion(currentQuestionIndex);
+        }
+
+        function showQuestion(index) {
+            const quizContainer = document.getElementById('question-container');
+            quizContainer.innerHTML = '';
+
+            const questionDiv = document.createElement('div');
+            const currentQuestion = questions[index];
+
+            const shuffledOptions = shuffleArray([...currentQuestion.options]);
+
+            questionDiv.innerHTML = `
+                <h3>${index + 1}. ${currentQuestion.question}</h3>
+                <ul>
+                    ${shuffledOptions.map((opt, i) => `<li onclick="checkAnswer(${i}, ${opt.isCorrect})">${opt.text}</li>`).join('')}
+                </ul>
+            `;
+            quizContainer.appendChild(questionDiv);
+
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            if (index > 0) {
+                prevBtn.style.display = 'inline-block';
+            } else {
+                prevBtn.style.display = 'none';
+            }
+
+            if (index < numQuestions - 1) {
+                nextBtn.style.display = 'inline-block';
+            } else {
+                nextBtn.style.display = 'none';
+                document.getElementById('submit-btn').style.display = 'inline-block';
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < numQuestions - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function checkAnswer(selectedOptionIndex, isCorrect) {
+    const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
+    
+    // Check if the option has already been answered
+    if (!selectedOption.classList.contains('correct') && !selectedOption.classList.contains('incorrect')) {
+        if (isCorrect) {
+            selectedOption.classList.add('correct');
+            score++; // Increment score only for correct answers
+        } else {
+            selectedOption.classList.add('incorrect');
+            // Find the correct option index in the original options array
+            const correctOptionIndex = questions[currentQuestionIndex].options.findIndex(option => option.isCorrect);
+            // Find the index of the correct option in the shuffled options array
+            const shuffledOptions = document.getElementById('question-container').querySelectorAll('li');
+            const correctShuffledIndex = Array.from(shuffledOptions).findIndex(option => option.textContent === questions[currentQuestionIndex].options[correctOptionIndex].text);
+            // Highlight the correct option in the shuffled list
+            shuffledOptions[correctShuffledIndex].classList.add('correct');
+        }
+
+        // Disable all options after answering
+        const allOptions = document.getElementById('question-container').querySelectorAll('li');
+        allOptions.forEach(option => {
+            option.style.pointerEvents = 'none';
+        });
+    }
+}
+
+        function startTimer() {
+    let totalTime = numQuestions * 30; // Total time for the quiz in seconds
+    let timerDisplay = document.getElementById('timer-display');
+    let timerSlider = document.getElementById('timer-slider');
+    updateSliderValue(totalTime, timerSlider); // Update slider value initially
+
+    timerInterval = setInterval(() => {
+        totalTime--;
+        updateSliderValue(totalTime, timerSlider); // Update slider value
+        timerDisplay.textContent = formatTime(totalTime);
+
+        if (totalTime <= 0) {
+            clearInterval(timerInterval);
+            submitQuiz(); // Call the submitQuiz function when the timer reaches zero
+        }
+    }, 1000);
+}
+
+        function updateSliderValue(totalTime, slider) {
+    const percentage = (totalTime / (numQuestions * 30)) * 100;
+    slider.value = percentage;
+}
+
+let hintCount = 0; // Variable to keep track of hint usage
+
+function showHint(currentQuestion) {
+    const hint = currentQuestion.hint;
+    const hintButton = document.getElementById('hint-button');
+
+    if (hint && hintCount < 3) {
+        const tooltip = document.createElement('div');
+        tooltip.textContent = hint;
+        tooltip.classList.add('hint-tooltip');
+        document.body.appendChild(tooltip);
+        setTimeout(() => {
+            tooltip.remove();
+        }, 7000); // Adjust the timeout as needed
+
+        hintCount++;
+        if (hintCount === 3) {
+            hintButton.disabled = true;
+            hintButton.classList.add('hint-disabled');
+        }
+    } else {
+        window.alert("No hint available for this question or maximum hint usage reached.");
+    }
+}
+
+        function submitQuiz() {
+    clearInterval(timerInterval);
+    const percentage = (score / numQuestions) * 100;
+    let comment;
+
+    if (percentage >= 80) {
+        comment = "Excellent! You scored very well!";
+    } else if (percentage >= 60) {
+        comment = "Good job! You did quite well.";
+    } else if (percentage >= 40) {
+        comment = "Not bad! You're getting there.";
+    } else {
+        comment = "Keep practicing! You'll improve.";
+    }
+
+    const resultText = `Name: ${name}\nEmail: ${email}\nChurch: ${church}\nScore: ${score}/${numQuestions}\nPercentage: ${percentage.toFixed(2)}%\nComment: ${comment}`;
+
+    // Send quiz results to PHP script using AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "send_email.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        console.log("Ready state:", xhr.readyState);
+        console.log("Status:", xhr.status);
+        console.log("Response:", xhr.responseText);
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            // Email sent successfully
+            alert("Quiz results sent successfully!");
+            // Optionally, you can redirect the user to a thank you page or perform other actions here
+        } else if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 200) {
+            // Failed to send email
+            alert("Error sending quiz results. Please try again later.");
+        }
+    };
+    xhr.send("name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&church=" + encodeURIComponent(church) + "&score=" + score + "&totalQuestions=" + numQuestions);
+
+    // Display quiz results in the result container
+    const resultContainer = document.getElementById('result-text');
+    resultContainer.textContent = resultText;
+    resultContainer.style.whiteSpace = 'pre-line'; // Preserve newline characters
+    document.getElementById('result-container').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none'; // Hide the quiz container
+}
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function formatTime(totalSeconds) {
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }
+    </script>
+</body>
+</html>
