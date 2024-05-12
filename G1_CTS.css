@@ -4967,8 +4967,8 @@ body
 }
 #wb_lg1
 {
-   visibility: visible;
-   display: table;
+   visibility: hidden;
+   display: none;
    background-color: transparent;
    background-image: url('images/IMG_5535.png');
    background-repeat: repeat;
@@ -4995,8 +4995,8 @@ body
 }
 #wb_lg2
 {
-   visibility: hidden;
-   display: none;
+   visibility: visible;
+   display: table;
    background-color: transparent;
    background-image: url('images/IMG_5535.png');
    background-repeat: repeat;
