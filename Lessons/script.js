@@ -70,8 +70,9 @@ filteredLessonPlans.forEach(plan => {
             <div class="buttons">
                 <button onclick="downloadPlan('${plan.title}')">Download</button>
 
-                <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=G1SDST1L01%20&#8211;%20Identifying%20Important%20Places%20in%20Our%20Communities">Evaluation</a></div>
-
+<div class="blogcomments">
+    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}">Evaluation</a>
+</div>
                 <button onclick="printPlan('${plan.title}')">Print</button>
             </div>
         `;
