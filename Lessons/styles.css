@@ -1,0 +1,248 @@
+.container {
+            max-width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: rgba(0,0,0,0.50);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #searchForm {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+
+        #searchForm input[type="text"] {
+            width: calc(25% - 5px);
+            padding: 2px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        #searchForm button {
+            padding: 5px 20px;
+            border: none;
+            width: 100%;
+            border-radius: 0 0 30px 30px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #searchForm button:hover {
+            background-color: #0056b3;
+        }
+
+        .lesson-plans {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .lesson-plan {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .lesson-plan h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: blue;
+        }
+
+        .lesson-plan p {
+            margin: 5px 0;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }
+
+/* Add CSS for hiding the search input fields initially */
+.hidden {
+    display: none;
+}
+.icons {
+      height: 30px;
+}
+/* Position the search icon */
+.search-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999; /* Ensure the icon appears above other content */
+}
+
+/* Add your styles for visual appeal */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/nature1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.search-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.lesson-plan {
+    background-color: rgba(255,255,255,0.6);
+    padding: 0 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	
+}
+
+.search-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    width: 30px;
+}
+
+#label {
+	background-color: cadetblue;
+	border-radius: 10px 10px 0 0;
+	padding: 0 10px;
+	width: 50vw;
+}
+#top {
+	Width:100%;
+	border-radius: 50px;
+}
+.toplogo {
+	width: 100px;
+	height: auto;
+}
+.search-icon i {
+    font-size: 24px;
+}
+
+#toptitle {
+	margin: 1px;
+}
+
+.titlez {
+	background-color: rgba(82,67,67,0.3);
+	padding: 0 20px;
+	border-radius: 10px;
+	color: rgba(9,0,17,0.95);
+	margin-top: 0;
+}
+
+.now {
+	border-radius: 0 0 10px 10px;
+	margin-top: -5px;
+}
+
+.blank {
+	background-color: rgba(82,67,67,0.9);
+	border-radius: 10px 10px 0 0;
+	padding: 5px 20px;
+	color: white;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.lessonsplan {
+	background-color: rgba(82,67,67,0.9);
+	border-radius: 0 0 50px 50px;
+	padding: 5px 20px;
+	color: white;
+	margin: 2px;
+	text-align: center;
+	
+}
+
+ul ol {
+	margin-top: 1px;
+}
+
+        /* Responsive Design */
+        @media only screen and (max-width: 600px) {
+            .lesson-plans {
+                max-width: 100%;
+            }
+        }
+
