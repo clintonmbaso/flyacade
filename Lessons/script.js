@@ -1,3 +1,9 @@
+// Define the updateLessonPlanCount function
+function updateLessonPlanCount(filteredLessonPlans, allLessonPlans) {
+    const lessonCountElement = document.getElementById('lessonCount');
+    lessonCountElement.textContent = `Lesson ${filteredLessonPlans} of ${allLessonPlans}`;
+}
+
 // Function to filter lesson plans based on search input
 function searchLessonPlans(event) {
     event.preventDefault(); // Prevent form submission
@@ -13,7 +19,7 @@ function searchLessonPlans(event) {
     lessonPlansContainer.innerHTML = ''; // Clear previous results
 
     // Combine lesson plans from all data files
-    const allLessonPlans = [...lessonPlans];//, ...lessonPlans2, ...lessonPlans3, ...lessonPlans4, ...lessonPlans5, ...lessonPlans6, ...lessonPlans7, ...lessonPlans8, ...lessonPlans9, ...lessonPlans10, ...lessonPlans11, ...lessonPlans12, ...lessonPlans13, ...lessonPlans14, ...lessonPlans15, ...lessonPlans16, ...lessonPlans17, ...lessonPlans18, ...lessonPlans19, ...lessonPlans20, ...lessonPlans21, ...lessonPlans22, ...lessonPlans23, ...lessonPlans24, ...lessonPlans25, ...lessonPlans26, ...lessonPlans27, ...lessonPlans28, ...lessonPlans29, ...lessonPlans30, ...lessonPlans31, ...lessonPlans32, ...lessonPlans33, ...lessonPlans34, ...lessonPlans35, ...lessonPlans36, ...lessonPlans37, ...lessonPlans38, ...lessonPlans39, ...lessonPlans40, ...lessonPlans41, ...lessonPlans42, ...lessonPlans43, ...lessonPlans44, ...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49, ...lessonPlans50, ...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54, ...lessonPlans55, ...lessonPlans56, ...lessonPlans57, ...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,];
+    const allLessonPlans = [...lessonPlans, ...lessonPlans2, ...lessonPlans3, ...lessonPlans4, ...lessonPlans5, ...lessonPlans6, ...lessonPlans7, ...lessonPlans8, ...lessonPlans9, ...lessonPlans10, ...lessonPlans11, ...lessonPlans12, ...lessonPlans13, ...lessonPlans14, ...lessonPlans15, ...lessonPlans16, ...lessonPlans17, ...lessonPlans18, ...lessonPlans19, ...lessonPlans20, ...lessonPlans21, ...lessonPlans22, ...lessonPlans23, ...lessonPlans24, ...lessonPlans25, ...lessonPlans26, ...lessonPlans27, ...lessonPlans28, ...lessonPlans29, ...lessonPlans30, ...lessonPlans31, ...lessonPlans32, ...lessonPlans33, ...lessonPlans34, ...lessonPlans35, ...lessonPlans36, ...lessonPlans37, ...lessonPlans38, ...lessonPlans39, ...lessonPlans40, ...lessonPlans41, ...lessonPlans42, ...lessonPlans43, ...lessonPlans44, ...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49, ...lessonPlans50, ...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54, ...lessonPlans55, ...lessonPlans56, ...lessonPlans57, ...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,];
 
     const filteredLessonPlans = allLessonPlans.filter(plan => {
         return plan.title.toLowerCase().includes(searchTitle) &&
@@ -24,20 +30,58 @@ function searchLessonPlans(event) {
             (searchLessonNumber === '' || plan.lessonNumber === searchLessonNumber);
     });
 
+// Define a mapping of grade to teacher's name
+const teacherNames = {
+    "Baby Birds": "Mrs. Siazyana",
+    "Sky Sprouts": "Mrs. Siazyana",
+    "Nestlings Navigators": "Ms. Maureen",
+    "Feather Flyers": "Ms. Maureen",
+    "Cloud Chicks": "Ms. Faith",
+    "Wing Whiz": "Ms. Faith",
+    "Sky Soarers": "Mr. Mbaso",
+    "Avian Aces": "Mr. Mbaso",
+    "Nimbus Navigators": "Mr. Mbaso"
+};
+
+// Define a mapping of teacher's name to TCZ number
+const tczNumbers = {
+    "Mrs. Siazyana": "TCZ123",
+    "Ms. Maureen": "TCZ789",
+    "Ms. Faith": "TCZ345",
+    "Mr. Mbaso": "19/09/0904/021725"
+};
+    
+    
 filteredLessonPlans.forEach(plan => {
     const gradeAbbreviation = plan.grade.split(' ').map(word => word[0].toUpperCase()).join(''); // Abbreviate plan.grade
     const titlePrefix = `${gradeAbbreviation}${plan.subject.substring(0, 3)}T${plan.term}W${plan.week}L${plan.lessonNumber}`;
+    
+    // Use the mapping to display the teacher's name based on plan.grade
+    const teacherName = teacherNames[plan.grade];
+      // Use the mapping to display the TCZ number based on teacherName
+    const tczNumber = tczNumbers[teacherName];
+    
     const card = document.createElement('div');
     card.classList.add('lesson-plan');
     card.innerHTML = `
         <h3 class="lessonsplan">LESSON PLAN</h3>
         <p><em>${titlePrefix} - ${plan.topic}</em></p>
+        <p><strong>School:</strong> FLYING WINGS ACADEMY</p>
+        <p><strong>Teacher:</strong> ${teacherName}</p>
     
-
-            <p><strong>School:</strong> ${plan.school}</p>
-            <p><strong>Teacher:</strong> ${plan.teacher}</p>
+    
+    
+    
+    
+    
+    
             <p><strong>Date:</strong> ${plan.date}</p>
-            <p><strong>TCZ Number:</strong> ${plan.tcz}</p>
+
+    
+    
+    
+    
+            <p><strong>TCZ Number:</strong> ${tczNumber}</p>
 
             <p><strong>Subject:</strong> ${plan.subject}</p>
             <p><strong>Topic:</strong> ${plan.topic}</p>
@@ -52,18 +96,54 @@ filteredLessonPlans.forEach(plan => {
             <h4 class="titlez">Objectives:</h4>
             <ul>${plan.objectives.map(objective => `<li>${objective}</li>`).join('')}</ul>
             <h4 class="titlez">Rationale:</h4>
-            <ul>${plan.rationale.map(rationale => `<li>${rationale}</li>`).join('')}</ul>
+            <p>${plan.rationale}</p>
             <h4 class="titlez">Teacher Exposition:</h4>
             <ul>${plan.exposition.map(exposition => `<li>${exposition}</li>`).join('')}</ul>
 
             <p class="blank">LESSON DEVELOPMENT</p>
-            <h4 class="titlez now">ACTIVITIES:</h4>
-            <ol>${plan.activities.map(activity => `<li>${activity}</li>`).join('')}</ol>
-
+    
+<h4 class="titlez now">ACTIVITIES:</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Learning Points</th>
+    </tr>
+  </thead>
+  <tbody>
+<!-- First Row -->
+    <tr>
+      <td>${plan.activities[0][0]}</td>
+      <td>${plan.activities[1][0]}</td>
+    </tr>
+    <!-- Second Row -->
+    <tr>
+      <td>${plan.activities[0][1]}</td>
+      <td>${plan.activities[1][1]}</td>
+    </tr>
+    <!-- Third Row -->
+    <tr>
+      <td>${plan.activities[0][2]}</td>
+      <td>${plan.activities[1][2]}</td>
+    </tr>
+    <!-- Second Row -->
+    <tr>
+      <td>${plan.activities[0][3]}</td>
+      <td>${plan.activities[1][3]}</td>
+    </tr>
+    <!-- Third Row -->
+    <tr>
+      <td>${plan.activities[0][4]}</td>
+      <td>${plan.activities[1][4]}</td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
+    
             <h4 class="titlez">Assessments:</h4>
             <ul>${plan.assessments.map(assessment => `<li>${assessment}</li>`).join('')}</ul>
             <h4 class="titlez">Conclusion:</h4>
-            <ul>${plan.conclusion.map(conclusion => `<li>${conclusion}</li>`).join('')}</ul>
+            <p>${plan.conclusion}</p>
 
 
 
@@ -71,13 +151,16 @@ filteredLessonPlans.forEach(plan => {
                 <button onclick="downloadPlan('${plan.title}')">Download</button>
 
 <div class="blogcomments">
-    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greetings Sir,%0D%0A%0D%0AI hope this finds you well. Evaluation of recent lesson:%0D%0A%0D%0A1. **Objectives:**%0D%0A   - Clear and achievable? [Yes/No]%0D%0A%0D%0A2. **Content/Delivery:**%0D%0A   - Aligned with objectives? [Yes/No]%0D%0A   - Engaging and effective? [Yes/No]%0D%0A%0D%0A3. **Student Engagement:**%0D%0A   - Active participation? [Yes/No]%0D%0A%0D%0A4. **Assessment:**%0D%0A   - Student understanding assessed? [Yes/No]%0D%0A   - Methods appropriate? [Yes/No]%0D%0A   - Timely feedback provided? [Yes/No]%0D%0A%0D%0A5. **Overall:**%0D%0A   - Strengths? [Yes/No]%0D%0A   - Areas for improvement? [Yes/No]%0D%0A%0D%0AFeedback appreciated.%0D%0A%0D%0ABest,%0D%0A[Teacher's Name]">Evaluation</a>
+    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greeting Sir,%0D%0A%0D%0AI hope this evaluation finds you well. This is the evaluation of the recent lesson:%0D%0A%0D%0A1. Where the objectives met? [Yes/No]%0D%0A%0D%0A%0D%0A%0D%0A2. How would you rate the lesson in terms of the learners' performance? [Very good/Good/Average/Not good/Very Bad]%0D%0A%0D%0A%0D%0A3. What is your recommendation? [Proceed to the next lesson/Proceed with Revisions/Repeat the Lesson]%0D%0A%0D%0AFeedback completed.%0D%0A%0D%0ABest regards,%0D%0A[Teacher's Name]">Evaluation</a>
 </div>
                 <button onclick="printPlan('${plan.title}')">Print</button>
             </div>
         `;
         lessonPlansContainer.appendChild(card);
     });
+    
+    // Call updateLessonPlanCount function after filtering
+    updateLessonPlanCount(filteredLessonPlans.length, allLessonPlans.length);
 }
 
 // Add event listener to the search form
@@ -91,6 +174,15 @@ function hideSearch() {
         input.classList.add('hidden');
     });
 }
+
+function chunkArray(array, size) {
+  const result = [];
+  for (let i = 0; i < array.length; i += size) {
+    result.push(array.slice(i, i + size));
+  }
+  return result;
+}
+
 
 // Function to show search input fields
 function showSearch() {

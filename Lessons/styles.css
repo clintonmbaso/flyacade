@@ -1,6 +1,6 @@
 .container {
             max-width: 800px;
-            margin: 10px auto;
+            margin: 5px;
             padding: 10px;
             background-color: rgba(0,0,0,0.50);
             border-radius: 10px;
@@ -9,16 +9,43 @@
 a {
   text-decoration: none;
 }
+
+  table {
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 1px;
+  }
+
+  /* Styles for specific cells */
+  /* For example, styling the first cell in each row */
+  tr td:first-child {
+    font-weight: bold; /* Bold text */
+    text-align: center;
+  }
+  th {
+    background-color: rgba(82,67,67,0.3); /* Light gray background */
+    font-weight: bold; /* Bold text */
+  }
+
+  /* Styling the third cell in each row */
+  tr td:nth-child(4) {
+    font-style: italic; /* Italic text */
+    color: brown;
+  }
+
         header {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         #searchForm {
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         #searchForm input[type="text"] {
@@ -48,20 +75,20 @@
         .lesson-plans {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
+            gap: 10px;
         }
 
         .lesson-plan {
             background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 5px;
-            padding: 20px;
+            padding: 10px;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
         }
 
         .lesson-plan h2 {
             margin-top: 0;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             color: blue;
         }
 
@@ -96,8 +123,8 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('images/nature1.jpg');
-	background-size: cover;
-	background-attachment: fixed;
+   	background-size: cover;
+   	background-attachment: fixed;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -109,13 +136,13 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .container {
     max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .search-form {
@@ -166,7 +193,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	
+	  padding: 1px;
 }
 
 .search-icon {
@@ -204,13 +231,18 @@ button {
 #toptitle {
 	margin: 1px;
 }
-
+#lessonCount {
+  color: wheat;
+  text-align: center;
+   margin: 0;
+}
 .titlez {
 	background-color: rgba(82,67,67,0.3);
 	padding: 0 20px;
 	border-radius: 10px;
 	color: rgba(9,0,17,0.95);
-	margin-top: 0;
+	margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .now {
