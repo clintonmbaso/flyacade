@@ -45,9 +45,9 @@ const teacherNames = {
 
 // Define a mapping of teacher's name to TCZ number
 const tczNumbers = {
-    "Mrs. Siazyana": "TCZ123",
-    "Ms. Maureen": "TCZ789",
-    "Ms. Faith": "TCZ345",
+    "Mrs. Siazyana": "FS20BC0009",
+    "Ms. Maureen": "FS20BC0010",
+    "Ms. Faith": "FS20BC0011",
     "Mr. Mbaso": "19/09/0904/021725"
 };
     
