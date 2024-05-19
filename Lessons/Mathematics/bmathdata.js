@@ -21,8 +21,8 @@ const lessonPlans = [
   lessonNumber: "1",
   description: "This lesson introduces the concept of zero to the students in a fun and interactive way.",
   materials: [
-    "Whiteboard",
-    "Markers",
+    "An empty cup",
+    "A closed hand",
     "Flashcards"
   ],
   objectives: [
@@ -32,16 +32,22 @@ const lessonPlans = [
   rationale: [
     "Understanding the concept of zero is fundamental for building a strong foundation in mathematics."
   ],
-  exposition: [
-    "The exposition will utilize interactive methods to engage students in understanding the concept of zero. It will include visual aids such as drawings on the whiteboard to demonstrate the concept of zero as an absence of quantity. Additionally, interactive discussions and activities will be employed to help students relate the concept of zero to real-life situations. By using a variety of teaching techniques, the exposition aims to ensure that students grasp the concept of zero effectively and develop a deeper understanding of its importance in mathematics."
+  methodology: [
+    "The lesson should have teacher and learner centered approaches; explanation, group discussions, questions and answers."
   ],
   activities: [
       ["1", "2", "3", "4", "5"],
-      ["Introduction (Teacher activity 1): Begin the lesson by asking students if they know what comes before and after numbers. Introduce the concept of zero as representing nothing or an empty set.", "Interactive Discussion (Teacher activity 2): Engage students in a discussion about when and where we encounter zero in daily life. Use examples such as an empty basket, no toys in a box, or zero candies.", "Visual Representation (Teacher activity 3): Draw simple illustrations on the whiteboard to demonstrate the concept of zero. Show how zero is represented as '0' and explain its position in the number line.", "Group Activity (Teacher activity 4): Divide the class into small groups. Provide each group with flashcards representing numbers and ask them to arrange the cards in ascending order, starting from zero.", "Reinforcement (Teacher activity 5): Review the concept of zero by asking questions and providing additional examples. Encourage students to explain the importance of zero in counting and arithmetic."],
+      [
+       "Introduction: Begin the lesson by asking students if they know what comes before and after numbers. Introduce the concept of zero as representing nothing or an empty set.", 
+       "Interactive Discussion: Engage students in a discussion about when and where we encounter zero in daily life. Use examples such as an empty basket, no toys in a box, or zero candies.", 
+       "Visual Representation: Draw simple illustrations on the whiteboard to demonstrate the concept of zero. Show how zero is represented as '0' and explain its position in the number line.", 
+       "Group Activity: Divide the class into small groups. Provide each group with flashcards representing numbers and ask them to arrange the cards in ascending order, starting from zero.", 
+       "Reinforcement: Review the concept of zero by asking questions and providing additional examples. Encourage students to explain the importance of zero in counting and arithmetic."
+       ],
   ],
   assessments: [
-    "Written quiz: Students complete a short quiz to assess their understanding of the concept of zero and its application.",
-    "Observation during activities: The teacher observes students' participation, engagement, and comprehension during group and individual activities."
+    "Class Exercise: Students complete a short class exercise to assess their understanding of the concept of zero and its application based on the given objectives.",
+    "Observation during activities: The teacher should observe students' participation, engagement, and comprehension during group and individual activities."
   ],
   conclusion: [
     "The introduction of the concept of zero is vital for laying the groundwork for future mathematical learning. By understanding zero, students develop a deeper comprehension of numbers and arithmetic operations."
