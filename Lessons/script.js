@@ -19,7 +19,7 @@ function searchLessonPlans(event) {
     lessonPlansContainer.innerHTML = ''; // Clear previous results
 
     // Combine lesson plans from all data files
-    const allLessonPlans = [...lessonPlans,/* ...lessonPlans2, ...lessonPlans3, ...lessonPlans4, ...lessonPlans5, ...lessonPlans6, ...lessonPlans7, ...lessonPlans8, ...lessonPlans9, ...lessonPlans10, ...lessonPlans11, ...lessonPlans12, ...lessonPlans13, ...lessonPlans14, ...lessonPlans15, ...lessonPlans16, ...lessonPlans17, ...lessonPlans18, ...lessonPlans19, ...lessonPlans20, ...lessonPlans21,*/ ...lessonPlans22b, ...lessonPlans23b, ...lessonPlans24b, ...lessonPlans25a, ...lessonPlans25b, ...lessonPlans25c, ...lessonPlans26a, ...lessonPlans26b, ...lessonPlans26c,/*...lessonPlans27, ...lessonPlans28, ...lessonPlans29, ...lessonPlans30, ...lessonPlans31, */...lessonPlans32b, /*...lessonPlans33, ...lessonPlans34, ...lessonPlans35, ...lessonPlans36, ...lessonPlans37, ...lessonPlans38, ...lessonPlans39, ...lessonPlans40, ...lessonPlans41, ...lessonPlans42, ...lessonPlans43, ...lessonPlans44, ...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49, ...lessonPlans50, ...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54, ...lessonPlans55, ...lessonPlans56, ...lessonPlans57, ...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,*/];
+    const allLessonPlans = [...lessonPlans,/* ...lessonPlans2, ...lessonPlans3, ...lessonPlans4, ...lessonPlans5, ...lessonPlans6, ...lessonPlans7, ...lessonPlans8, ...lessonPlans9, ...lessonPlans10, ...lessonPlans11, ...lessonPlans12, ...lessonPlans13, ...lessonPlans14, ...lessonPlans15, ...lessonPlans16, ...lessonPlans17, ...lessonPlans18, ...lessonPlans19, ...lessonPlans20, ...lessonPlans21,*/ ...lessonPlans22b, ...lessonPlans23b, ...lessonPlans24b, ...lessonPlans25a, ...lessonPlans25b, ...lessonPlans25c, ...lessonPlans26a, ...lessonPlans26b, ...lessonPlans26c,/*...lessonPlans27, ...lessonPlans28, ...lessonPlans29, ...lessonPlans30,*/ ...lessonPlans31b, ...lessonPlans32b, /*...lessonPlans33, ...lessonPlans34, ...lessonPlans35, ...lessonPlans36, ...lessonPlans37, ...lessonPlans38, ...lessonPlans39,*/ ...lessonPlans40b,/* ...lessonPlans41, ...lessonPlans42, ...lessonPlans43, ...lessonPlans44, ...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49, ...lessonPlans50, ...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54, ...lessonPlans55, ...lessonPlans56, ...lessonPlans57, ...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,*/];
 
     const filteredLessonPlans = allLessonPlans.filter(plan => {
         return plan.title.toLowerCase().includes(searchTitle) &&
@@ -32,8 +32,8 @@ function searchLessonPlans(event) {
 
 // Define a mapping of grade to teacher's name
 const teacherNames = {
-    "Baby Birds": "Mrs. Siazyana",
-    "Sky Sprouts": "Mrs. Siazyana",
+    "Baby Birds": "Ms. Chikondi",
+    "Sky Sprouts": "Ms. Chikondi",
     "Nestlings Navigators": "Ms. Maureen",
     "Feather Flyers": "Ms. Maureen",
     "Cloud Chicks": "Ms. Faith",
@@ -45,7 +45,7 @@ const teacherNames = {
 
 // Define a mapping of teacher's name to TCZ number
 const tczNumbers = {
-    "Mrs. Siazyana": "FS20BC0009",
+    "Ms. Chikondi": "FS20BC0012",
     "Ms. Maureen": "FS20BC0010",
     "Ms. Faith": "FS20BC0011",
     "Mr. Mbaso": "19/09/0904/021725"
@@ -151,7 +151,7 @@ filteredLessonPlans.forEach(plan => {
                 <button onclick="downloadPlan('${plan.title}')">Download</button>
 
 <div class="blogcomments">
-    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greeting Sir,%0D%0A%0D%0AI hope this evaluation finds you well. This is the evaluation of the recent lesson:%0D%0A%0D%0A1. Where the objectives met? [Yes/No]%0D%0A%0D%0A%0D%0A%0D%0A2. How would you rate the lesson in terms of the learners' performance? [Very good/Good/Average/Not good/Very Bad]%0D%0A%0D%0A%0D%0A3. What is your recommendation? [Proceed to the next lesson/Proceed with Revisions/Repeat the Lesson]%0D%0A%0D%0AFeedback completed.%0D%0A%0D%0ABest regards,%0D%0A[Teacher's Name]">Evaluation</a>
+    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greeting Sir,%0D%0A%0D%0AI hope this email finds you well. %0D%0A%0D%0AI would like to submit the evaluation of the stated lesson:%0D%0A%0D%0A1. Where the objectives met?%0D%0A%0D%0A [Yes/No]%0D%0A%0D%0A%0D%0A%0D%0A2. How would you rate the lesson in terms of the learners' performance?%0D%0A%0D%0A [Good/Average/Not Good]%0D%0A%0D%0A%0D%0A%0D%0A3. What is your recommendation?%0D%0A%0D%0A [Proceed to the next lesson/Repeat the Lesson]%0D%0A%0D%0AFeedback completed.%0D%0A%0D%0ABest regards,%0D%0A${teacherName}">Evaluation</a>
 </div>
                 <button onclick="printPlan('${plan.title}')">Print</button>
             </div>
