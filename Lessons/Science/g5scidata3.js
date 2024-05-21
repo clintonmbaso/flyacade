@@ -1,6 +1,0 @@
-const lessonPlans26c = [
-
-	
-	
-	
-];
