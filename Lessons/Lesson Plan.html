@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans</title>
+    <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-v2Yn2eOXv4kx8Y93lpPV2kod50f6F9uYv6C/w+K18O2l0K/oR56mzwsZv+fyfJatn5MzV6yMJKC3zXWdO3p6Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+    <div class="logo title">
+        <img class="toplogo" src="images/Flying_Wings_Academy.png" alt="Logo">
+        <h2 id="toptitle"><span style="color: white;">Flying Wings</span> - <span style="color: orange;">Academy</span></h2>
+      <p id="toptitle" class="motto" style="color: pink;">The way to Success</p>
+    </div>
+
+    </header>
+    
+    <div class="container">
+        <!-- Search form -->
+        <form id="searchForm">
+
+			<label id="label" class="search-input">Lesson Title</label>
+			<input type="text" id="searchTitle" class="search-input"></input>
+
+			<label id="label" class="search-input">Class</label>
+            <select id="searchGrade" class="search-input">
+                <option value=""></option>
+                <option value="Baby Birds">Baby Birds</option>
+                <option value="Sky Sprouts">Sky Sprouts</option>
+                <option value="Nestlings Navigators">Nestlings Navigators</option>
+                <option value="Feather Flyers">Feather Flyers</option>
+                <option value="Cloud Chicks">Cloud Chicks</option>
+                <option value="Wing Whiz">Wing Whiz</option>
+                <option value="Sky Soarers">Sky Soarers</option>
+                <option value="Avian Aces">Avian Aces</option>
+                <option value="Nimbus Navigators">Nimbus Navigators</option>
+            </select>
+			
+			<label id="label" class="search-input">Term</label>
+            <select id="searchTerm" class="search-input">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+			
+			<label id="label" class="search-input">Week</label>
+            <select id="searchWeek" class="search-input">
+                <option value=""></option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+			
+			<label id="label" class="search-input">Leson Number</label>
+            <select id="searchLessonNumber" class="search-input">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+			
+			<label id="label" class="search-input">Select A Subject</label>
+            <select id="searchSubject" class="search-input">
+                <option value=""></option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="English">English</option>
+                <option value="Science">Science</option>
+                <option value="Social Studies">Social Studies</option>
+                <option value="Expressive Arts">Expressive Arts</option>
+                <option value="Home Economics">Home Economics</option>
+                <option value="Technology Studies">Technology Studies</option>
+                <option value="Literacy">Literacy</option>
+                <option value="Mental Math">Mental Math</option>
+                <option value="Special Paper 1">Special Paper 1</option>
+                <option value="Special Paper 2">Special Paper 2</option>
+            </select>
+          
+            <button class="button" type="submit">Search</button>
+        </form>
+          <p id="lessonCount">Lesson 1 of 20</p>
+        <!-- Display lesson plans -->
+        <div class="lesson-plans" id="lesson-plans">
+            <!-- Lesson plan cards will be dynamically generated here -->
+        </div>
+    </div>
+
+        <!-- Search icon to toggle visibility of search input fields -->
+    <div id="toggleSearch" class="search-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+
+<script src="script.js"></script>
+	
+<!-- Mathematics -->
+<script src="Mathematics/bmathdata.js"></script>
+<script src="Mathematics/mmathdata2.js"></script>
+<script src="Mathematics/rmathdata.js"></script>
+<script src="Mathematics/g1mathdata2.js"></script>
+<script src="Mathematics/g2mathdata.js"></script>
+<script src="Mathematics/g3mathdata.js"></script>
+<script src="Mathematics/g4mathdata.js"></script>
+<script src="Mathematics/g5mathdata2.js"></script>
+<script src="Mathematics/g6mathdata.js"></script>
+
+<!-- English -->
+<script src="English/bengdata.js"></script>
+<script src="English/mengdata.js"></script>
+<script src="English/rengdata.js"></script>
+<script src="English/g1engdata.js"></script>
+<script src="English/g2engdata.js"></script>
+<script src="English/g3engdata.js"></script>
+<script src="English/g4engdata.js"></script>
+<script src="English/g5engdata.js"></script>
+<script src="English/g6engdata.js"></script>
+	
+<!-- Science -->
+<script src="Science/bscidata2.js"></script>
+<script src="Science/mscidata.js"></script>
+<script src="Science/rscidata.js"></script>
+<script src="Science/g1scidata2.js"></script>
+<!--<script src="Science/g1scidata2.js"></script>
+<script src="Science/g1scidata3.js"></script>-->
+<script src="Science/g2scidata2.js"></script>
+<!--<script src="Science/g2scidata2.js"></script>
+<script src="Science/g2scidata3.js"></script>-->
+<script src="Science/g3scidata2.js"></script>
+<!--<script src="Science/g3scidata2.js"></script>
+<script src="Science/g3scidata3.js"></script>-->
+<script src="Science/g4scidata1.js"></script>
+<script src="Science/g4scidata2.js"></script>
+<script src="Science/g4scidata3.js"></script>
+<script src="Science/g5scidata1.js"></script>
+<script src="Science/g5scidata2.js"></script>
+<script src="Science/g5scidata3.js"></script>
+<script src="Science/g6scidata.js"></script>
+	
+<!-- Social_Studies 36-->
+<script src="Social_Studies/bssdata.js"></script>
+<script src="Social_Studies/mssdata.js"></script>
+<script src="Social_Studies/rssdata.js"></script>
+<script src="Social_Studies/g1ssdata2.js"></script>
+<script src="Social_Studies/g2ssdata2.js"></script>
+<script src="Social_Studies/g3ssdata.js"></script>
+<script src="Social_Studies/g4ssdata.js"></script>
+<script src="Social_Studies/g5ssdata.js"></script>
+<script src="Social_Studies/g6ssdata.js"></script>
+	
+<!-- Expressive_Arts -->
+<script src="Expressive_Arts/beadata.js"></script>
+<script src="Expressive_Arts/meadata.js"></script>
+<script src="Expressive_Arts/readata.js"></script>
+<script src="Expressive_Arts/g1eadata2.js"></script>
+<script src="Expressive_Arts/g2eadata.js"></script>
+<script src="Expressive_Arts/g3eadata.js"></script>
+<script src="Expressive_Arts/g4eadata.js"></script>
+<script src="Expressive_Arts/g5eadata.js"></script>
+<script src="Expressive_Arts/g6eadata.js"></script>
+	
+<!-- Home_Economics 51-->
+<script src="Home_Economics/g1hedata.js"></script>
+<script src="Home_Economics/g2hedata.js"></script>
+<script src="Home_Economics/g3hedata.js"></script>
+<script src="Home_Economics/g4hedata.js"></script>
+<script src="Home_Economics/g5hedata.js"></script>
+<script src="Home_Economics/g6hedata.js"></script>
+	 
+<!-- Literacy -->
+<script src="Literacy/blitdata.js"></script>
+<script src="Literacy/mlitdata.js"></script>
+<script src="Literacy/rlitdata.js"></script>
+<script src="Literacy/g1litdata.js"></script>
+<script src="Literacy/g2litdata.js"></script>
+<script src="Literacy/g3litdata.js"></script>
+<script src="Literacy/g4litdata.js"></script>
+<script src="Literacy/g5litdata.js"></script>
+<script src="Literacy/g6litdata.js"></script>
+	
+<!-- Sp1 -->
+<script src="Sp1/g1Sp1data.js"></script>
+<script src="Sp1/g2Sp1data.js"></script>
+<script src="Sp1/g3Sp1data.js"></script>
+<script src="Sp1/g4Sp1data.js"></script>
+<script src="Sp1/g5Sp1data.js"></script>
+<script src="Sp1/g6Sp1data.js"></script>
+
+</body>
+</html>
