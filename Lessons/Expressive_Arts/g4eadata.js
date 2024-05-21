@@ -1,9 +1,0 @@
-const lessonPlans43 = [
-
-	
-	
-	
-];
-
-
-
