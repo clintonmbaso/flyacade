@@ -32,6 +32,32 @@
 <script src="js/second.js"></script>
 <script src="js/third.js"></script>
 
+<style>
+.popupMenuz {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.popupMenuz a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.popupMenuz a:hover {
+  background-color: #f1f1f1;
+}
+
+#regicons {
+  width: 50px;
+  height: auto;
+}
+</style>
 
 </head>
 <body>
@@ -141,6 +167,13 @@
                        educators seeking professional 
                        development and inspiration in their 
                        teaching journey.
+                       
+                       
+
+                       
+                      
+                       
+                       
                            </span>
                   </div>
                </div>
@@ -173,13 +206,58 @@
                      </div>
                   </div>
                </div>
+              
+              
+              
                <div id="wb_alllinksFlexContainer">
                   <div id="alllinksFlexContainer">
                      <div id="alllinks">
                         <div id="wb_linksTabMenu">
                            <ul id="linksTabMenu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-                              <li><a href="http://www.flyacade.c1.is/Register/reg.php" itemprop="url"><span itemprop="name">Attendance</span></a></li>
-                              <li><a href="http://www.flyacade.c1.is/Register/register.php" itemprop="url"><span itemprop="name">Main Register</span></a></li>
+                              <li><a href="#" itemprop="url"><span itemprop="name">Classroom</span></a></li>
+                              <li><a href="#" itemprop="url"><span itemprop="name">Profile</span></a></li>
+                              <li><a href="#" id="menuLinkz">Registers</a></li>
+  <div id="popupMenuz" class="popupMenuz">
+  <a href="http://www.flyacade.c1.is/Register/Classes/baby.php"><img src="images/baby_class.png" id="regicons"> Baby Class</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/middle.php"><img src="images/middle_class.png" id="regicons"> Middle Class</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/reception.php"><img src="images/reception_class.jpg" id="regicons"> Reception Class</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/grade1.php"><img src="images/Grade_1.png" id="regicons"> Grade 1</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/grade2.php"><img src="images/Grade_2.jpg" id="regicons"> Grade 2</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/grade3.php"><img src="images/Grade_3.png" id="regicons"> Grade 3</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/grade4.php"><img src="images/Grade_4.png" id="regicons"> Grade 4</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/grade5.php"><img src="images/Grade_5.jpg" id="regicons"> Grade 5</a>
+  <a href="http://www.flyacade.c1.is/Register/Classes/grade6.php"><img src="images/Grade_6.png" id="regicons"> Grade 6</a>
+</div>
+                             
+<script>
+
+document.addEventListener("click", function(event) {
+  var menu = document.getElementById("popupMenuz");
+  var menuLinkz = document.getElementById("menuLinkz");
+  
+  if (event.target !== menu && event.target !== menuLinkz && !menu.contains(event.target)) {
+    menu.style.display = "none";
+  }
+});
+
+document.getElementById("menuLinkz").addEventListener("click", function(event) {
+  event.preventDefault();
+  var menu = document.getElementById("popupMenuz");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+});
+
+document.querySelectorAll("#popupMenuz a").forEach(function(link) {
+  link.addEventListener("click", function() {
+    var menu = document.getElementById("popupMenuz");
+    menu.style.display = "none";
+  });
+});
+
+</script>
                               <li><a href="Lessons/Lesson Plan.html" itemprop="url"><span itemprop="name">Plans</span></a></li>
                            </ul>
                         </div>
@@ -198,11 +276,24 @@
                                  <div class="col-1">
                                     <div id="wb_prelogueclassesText">
                              </div>
+                                   
+
+                                   
+                                   
                                     <div id="wb_Heading1">
                                        <h1 id="Heading1">OUR KEY LESSONS</h1>
                                     </div>
+
                                     <div id="wb_babyclassHeading">
                                        <h3 id="babyclassHeading">TEACHING NUMBERS</h3>
+                                      
+
+
+                             
+                                   
+                                      
+                                      
+                                      
                                     </div>
                                     <div id="wb_babyclassImage">
                                        <a href="#" onclick="showPopup('Baby Birds', 'Fostering the earliest stages of growth and discovery, just as baby birds learn to spread their wings and explore the world for the first time.', 'images/baby_class.png');return false;"><img src="images/baby_class.png" id="babyclassImage" alt="" width="613" height="384"></a>
