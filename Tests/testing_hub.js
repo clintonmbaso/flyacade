@@ -79,12 +79,13 @@
 
     // Function to generate PDF with random questions
 // Function to generate PDF with random questions and marking key
+// Function to generate PDF with random questions and marking key
 function generatePDF() {
   const doc = new jsPDF();
-  
+
   // Generate random questions
   const questions = generateRandomQuestions();
-  
+
   // Add questions to the PDF
   let yPos = 10;
   questions.forEach((q, index) => {
@@ -120,7 +121,7 @@ function generatePDF() {
     }
     yPos += 10;
   });
-  
+
   // Add marking key
   yPos += 10;
   doc.text("Marking Key", 10, yPos);
@@ -133,7 +134,7 @@ function generatePDF() {
   });
 
   // Save the PDF
-  doc.save("questions.pdf");
+  doc.save("Flyacade.pdf");
 }
 
     // Event listener for button click to display questions
