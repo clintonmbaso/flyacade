@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Questions PDF Generator</title>
+  <link rel="stylesheet" href="testing_hub.css">
+</head>
+<body>
+  <div class="container">
+    <button id="toggle-form">Filter Questions</button>
+    <div class="form-container" id="form-container">
+      <div class="form-content">
+        <div>
+          <label for="num-multiple-choice">Multiple Choice Questions:</label>
+          <input type="number" id="num-multiple-choice" min="0" value="2">
+        </div>
+        <div>
+          <label for="num-true-false">True or False Questions:</label>
+          <input type="number" id="num-true-false" min="0" value="3">
+        </div>
+        <div>
+          <label for="num-one-word">One Word Answer Questions:</label>
+          <input type="number" id="num-one-word" min="0" value="2">
+        </div>
+        <div>
+          <label for="num-fill-in-the-blank">Fill in the Blank Questions:</label>
+          <input type="number" id="num-fill-in-the-blank" min="0" value="2">
+        </div>
+        <div>
+          <label for="num-matching">Matching Questions:</label>
+          <input type="number" id="num-matching" min="0" value="2">
+        </div>
+      </div>
+    </div>
+    <div id="questions-container"></div>
+    <button id="generate-pdf" style="display: none;">Generate PDF</button>
+    <button id="refresh-questions">Refresh Questions</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="multiple_choice.js"></script>
+  <script src="true_false.js"></script>
+  <script src="one_word.js"></script>
+  <script src="fill_in_the_blank.js"></script>
+  <script src="matching.js"></script>
+  <script src="testing_hub.js"></script>
+</body>
+</html>
