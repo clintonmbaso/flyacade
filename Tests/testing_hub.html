@@ -8,42 +8,175 @@
 </head>
 <body>
   <div class="container">
-    <button id="toggle-form">Filter Questions</button>
+    <button id="toggle-form">☰</button>
     <div class="form-container" id="form-container">
+         <div style="display: flex; justify-content: space-between; margin: 0 10px;">
+           <a href="../index.html"><img src="../images/Flying_Wings_Academy.png"  id="logo" alt="home_logo" title="Flying_Wings_Home" width="306" height="250"></a>
+            <h2  id="Heading">Flyacade Online Tests</h2>
+         </div>
+      <hr>
+      
       <div class="form-content">
+        <h3 id="sidebars">Test Filters</h3>
+        
+        <div id="filtered">
         <div>
+          <label for="class-filter">Class:</label><br>
+          <select id="class-filter">
+            <option value="">All Classes</option>
+            <option value="Baby Birds">Baby Birds</option>
+            <option value="Sky Sprouts">Sky Sprouts</option>
+            <option value="Nestlings Navigators">Nestlings Navigators</option>
+            <option value="Feather Flyers">Feather Flyers</option>
+            <option value="Cloud Chicks">Cloud Chicks</option>
+            <option value="Wing Whiz">Wing Whiz</option>
+            <option value="Sky Soarers">Sky Soarers</option>
+            <option value="Avian Aces">Avian Aces</option>
+            <option value="Nimbus Navigators">Nimbus Navigators</option>
+          </select>
+        </div>
+        <div>
+          <label for="subject-filter">Subject:</label><br>
+          <select id="subject-filter">
+            <option value="">All Subjects</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="English">English</option>
+            <option value="Science">Science</option>
+            <option value="Social Studies">Social Studies</option>
+            <option value="Expressive Arts">Expressive Arts</option>
+            <option value="Home Economics">Home Economics</option>
+            <option value="Technology Studies">Technology Studies</option>
+            <option value="Literacy">Literacy</option>
+            <option value="Mental Math">Mental Math</option>
+            <option value="Special Paper 1">Special Paper 1</option>
+            <option value="Special Paper 2">Special Paper 2</option>
+            <option value="Values">Values</option>
+          </select>
+        </div>
+        <div>
+          <label for="term-filter">Term:</label><br>
+          <select id="term-filter">
+            <option value="">All Terms</option>
+            <option value="Term 1">Term 1</option>
+            <option value="Term 2">Term 2</option>
+            <option value="Term 3">Term 3</option>
+          </select>
+        </div>
+        <div>
+          <label for="part-filter">Part:</label><br>
+          <select id="part-filter">
+            <option value="">All Parts</option>
+            <option value="Mid Term">Mid Term</option>
+            <option value="End Term">End Term</option>
+          </select>
+        </div>
+        </div>
+        <br>
+        
+        <h3 id="sidebars">Number of Questions</h3>
+        <div id="filtered">
+        <div style="display: flex; justify-content: space-between;">
           <label for="num-multiple-choice">Multiple Choice Questions:</label>
           <input type="number" id="num-multiple-choice" min="0" value="10">
         </div>
-        <div>
+        
+        <div style="display: flex; justify-content: space-between;">
           <label for="num-true-false">True or False Questions:</label>
-          <input type="number" id="num-true-false" min="0" value="0">
+          <input type="number" id="num-true-false" min="0" value="10">
         </div>
-        <div>
+        
+        <div style="display: flex; justify-content: space-between;">
           <label for="num-one-word">One Word Answer Questions:</label>
-          <input type="number" id="num-one-word" min="0" value="0">
+          <input type="number" id="num-one-word" min="0" value="5">
         </div>
-        <div>
+        
+        <div style="display: flex; justify-content: space-between;">
           <label for="num-fill-in-the-blank">Fill in the Blank Questions:</label>
-          <input type="number" id="num-fill-in-the-blank" min="0" value="0">
+          <input type="number" id="num-fill-in-the-blank" min="0" value="5">
         </div>
-        <div>
+        
+        <div style="display: flex; justify-content: space-between;">
           <label for="num-matching">Matching Questions:</label>
-          <input type="number" id="num-matching" min="0" value="0">
+          <input type="number" id="num-matching" min="0" value="2">
+        </div>
+        </div>
+        <br>
+        
+        <div>
+          <button id="search-button">Search</button>
         </div>
       </div>
     </div>
     <div id="questions-container"></div>
+    
+    <div id="buttonz" style="display: flex; justify-content: space-between;">
     <button id="generate-pdf" style="display: none;">Generate PDF</button>
     <button id="refresh-questions">Refresh Questions</button>
   </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-<script src="multiple_choice.js"></script>
-  <script src="true_false.js"></script>
-  <script src="one_word.js"></script>
-  <script src="fill_in_the_blank.js"></script>
-  <script src="matching.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+
+<!-- Science -->
+
+<!-- Reception Class -->
+<!-- Multiple Choice -->
+  <script src="science/reception/recscit2amultipleChoiceQuestions.js"></script>
+  <script src="science/reception/recscit2bmultipleChoiceQuestions.js"></script>
+
+<!-- Grade 1 -->
+<!-- Multiple Choice -->
+  <script src="science/grade1/g1scit1amultipleChoiceQuestions.js"></script>
+  <script src="science/grade1/g1scit1bmultipleChoiceQuestions.js"></script>
+  <script src="science/grade1/g1scit2amultipleChoiceQuestions.js"></script>
+  <script src="science/grade1/g1scit2bmultipleChoiceQuestions.js"></script>
+  <script src="science/grade1/g1scit3amultipleChoiceQuestions.js"></script>
+  <script src="science/grade1/g1scit3bmultipleChoiceQuestions.js"></script>
+
+<!-- True or False -->
+  <script src="science/grade1/g1scit1atrueFalseQuestions.js"></script>
+  <script src="science/grade1/g1scit1btrueFalseQuestions.js"></script>
+  <script src="science/grade1/g1scit2atrueFalseQuestions.js"></script>
+  <script src="science/grade1/g1scit2btrueFalseQuestions.js"></script>
+  <script src="science/grade1/g1scit3atrueFalseQuestions.js"></script>
+  <script src="science/grade1/g1scit3btrueFalseQuestions.js"></script>
+
+<!-- One Word Questions -->
+  <script src="science/grade1/g1scit1aoneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit1boneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit2aoneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit2boneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit3aoneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit3boneWordQuestions.js"></script>
+
+<!-- Fill in the Blank Questions -->
+  <script src="science/grade1/g1scit1afillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit1bfillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit2afillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit2bfillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit3afillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit3bfillInTheBlankQuestions.js"></script>
+
+<!-- One Word Questions -->
+  <script src="science/grade1/g1scit1amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit1bmatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit2amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit2bmatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit3amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit3bmatchingQuestions.js"></script>
+
+
+<!-- Grade 5 -->
+<!-- Multiple Choice -->
+  <script src="science/grade5/g5scit1amultipleChoiceQuestions.js"></script>
+  <script src="science/grade5/g5scit1bmultipleChoiceQuestions.js"></script>
+  <script src="science/grade5/g5scit2amultipleChoiceQuestions.js"></script>
+  <script src="science/grade5/g5scit2bmultipleChoiceQuestions.js"></script>
+  <script src="science/grade5/g5scit3amultipleChoiceQuestions.js"></script>
+  <script src="science/grade5/g5scit3bmultipleChoiceQuestions.js"></script>
+
+
+
   <script src="testing_hub.js"></script>
 </body>
 </html>
