@@ -80,6 +80,17 @@ const questionsBank = [
   ...g1scit3amatchingQuestions,
   ...g1scit3bmatchingQuestions,
 
+  // Grade 3
+  // Multiple Choice
+  ...g3sp1t1amultipleChoiceQuestions,
+  ...g3sp1t1bmultipleChoiceQuestions,
+  ...g3sp1t2amultipleChoiceQuestions,
+  ...g3sp1t2bmultipleChoiceQuestions,
+  ...g3sp1t3amultipleChoiceQuestions,
+  ...g3sp1t3bmultipleChoiceQuestions,
+
+
+
 
   // Grade 5
   // Multiple Choice
@@ -89,6 +100,17 @@ const questionsBank = [
   ...g5scit2bmultipleChoiceQuestions,
   ...g5scit3amultipleChoiceQuestions,
   ...g5scit3bmultipleChoiceQuestions,
+
+
+
+  // One Word Questions
+  ...g5scit1amatchingQuestions,
+  ...g5scit1bmatchingQuestions,
+  ...g5scit2amatchingQuestions,
+  ...g5scit2bmatchingQuestions,
+  ...g5scit3amatchingQuestions,
+  ...g5scit3bmatchingQuestions,
+
 
 ];
 
