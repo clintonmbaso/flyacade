@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Payout Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="teacher-form">
+        <h1 id="teacherName">Teacher 1</h1>
+        <img id="teacherImage" src="https://drive.google.com/file/d/1-hs_wHZ7vMzIqf24LIs4Sp_qopLW7Yzm/view?usp=drivesdk" alt="Teacher 1">
+        <form>
+            <label for="teacherPupils">Number of pupils:</label><br>
+            <input type="number" id="teacherPupils" placeholder="Number of pupils"><br>
+            <label for="teacherPerformance">Class performance (%):</label><br>
+            <input type="number" id="teacherPerformance" placeholder="Class performance (%)"><br>
+            <label for="teacherMonths">Months worked:</label><br>
+            <input type="number" id="teacherMonths" placeholder="Months worked"><br>
+            <label for="teacherQualification">Qualification (in points):</label><br>
+            <input type="number" id="teacherQualification" placeholder="Qualification (in points)"><br>
+            <label for="teacherAttendance">Attendance (%):</label><br>
+            <input type="number" id="teacherAttendance" placeholder="Attendance (%)"><br><br>
+        </form>
+        <button type="button" onclick="calculateSalary()">Calculate</button>
+        <button type="button" onclick="previousTeacher()">Previous Teacher</button>
+        <button type="button" onclick="nextTeacher()">Next Teacher</button>
+    </div>
+
+    <label for="salaryPool">Salary Pool:</label><br>
+    <input type="number" id="salaryPool" placeholder="Enter salary pool amount"><br><br>
+
+    <h2>Salary Payout</h2>
+    <div id="salaryResult"></div>
+
+    <script src="teachers.js"></script>
+    <script src="main.js"></script>
+    <script>
+        showTeacher(0);
+    </script>
+</body>
+</html>
