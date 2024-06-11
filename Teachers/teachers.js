@@ -7,7 +7,7 @@ var teachers = [
         months: 2,
         qualification: 45,
         attendance: 97,
-        image: "https://drive.google.com/file/d/1-hs_wHZ7vMzIqf24LIs4Sp_qopLW7Yzm/view?usp=drivesdk"
+        image: "../images/Teacher Chikondi.jpg"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ var teachers = [
         months: 8,
         qualification: 45,
         attendance: 89,
-        image: "https://1drv.ms/i/s!AhLdauWY6gvBg2nU3sVbYi4vXWAE=1"   
+        image: "../images/Teacher Maureen Kapya.jpg"   
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ var teachers = [
         months: 2,
         qualification: 45,
         attendance: 87,
-        image: "https://1drv.ms/i/s!AhLdauWY6gvBg2nU3sVbYi4vXWAE=1"
+        image: "../images/Teacher Faith.jpg"
     },
     {
         id: 4,
@@ -37,6 +37,7 @@ var teachers = [
         months: 56,
         qualification: 80,
         attendance: 93,
-        image: "https://1drv.ms/i/s!AhLdauWY6gvBg2nU3sVbYi4vXWAE=1"
-    }
+        image: "../images/Teacher Clinton Mbaso.jpg"
+        
+            }
 ];
