@@ -1,24 +1,10 @@
-const g1scit2amatchingQuestions = [
+const g5scit3bmatchingQuestions = [
   {
     type: "matching",
-    class: "Nimbus Navigators",
-    subject: "Mental Math",
-    term: "Term 1",
-    part: "Mid Term",
-    question: "Match the following countries with their capitals:",
-    pairs: [
-      { question: "India", answer: "New Delhi" },
-      { question: "Germany", answer: "Berlin" },
-      { question: "Brazil", answer: "Brasilia" },
-      { question: "Australia", answer: "Canberra" }
-    ]
-  },
-  {
-    type: "matching",
-    class: "Nimbus Navigators",
-    subject: "Mental Math",
-    term: "Term 1",
-    part: "Mid Term",
+    class: "Avian Aces",
+    subject: "Science",
+    term: "Term 3",
+    part: "End Term",
     question: "Match the following animals with their sounds:",
     pairs: [
       { question: "Cat", answer: "Meow" },

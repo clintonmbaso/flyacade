@@ -1,22 +1,16 @@
-const g1scit2amultipleChoiceQuestions = [
+const g5scit3amatchingQuestions = [
   {
-    type: "multiple_choice",
-    class: "Baby Birds",
-    subject: "Mathematics",
-    term: "Term 1",
+    type: "matching",
+    class: "Avian Aces",
+    subject: "Science",
+    term: "Term 3",
     part: "Mid Term",
-    question: "What is 2 + 2?",
-    choices: ["3", "4", "5", "6"],
-    answer: "4"
-  },
-  {
-    type: "multiple_choice",
-    class: "Sky Sprouts",
-    subject: "English",
-    term: "Term 2",
-    part: "End Term",
-    question: "Who wrote 'Romeo and Juliet'?",
-    choices: ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
-    answer: "William Shakespeare"
+    question: "Match the following animals with their sounds:",
+    pairs: [
+      { question: "Cat", answer: "Meow" },
+      { question: "Dog", answer: "Woof" },
+      { question: "Cow", answer: "Moo" },
+      { question: "Rooster", answer: "Cock-a-doodle-doo" }
+    ]
   }
 ];
