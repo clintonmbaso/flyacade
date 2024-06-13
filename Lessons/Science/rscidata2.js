@@ -776,6 +776,765 @@ const lessonPlans21b = [
 
 // Week 7
 // Lesson 1
-	
+{
+  "title": "Exploring Spring Weather and Dressing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, May 20, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Exploring Spring Weather and Dressing",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson aims to focus on spring as a season and discuss how it's associated with blooming flowers and warmer weather.",
+  "materials": [
+    "Pictures or illustrations of spring landscapes",
+    "Clothing items suitable for spring weather (e.g., light jackets, raincoats)",
+    "Markers or crayons",
+    "Large whiteboard or chart paper"
+  ],
+  "objectives": [
+    "Students will focus on spring as a season.",
+    "Students will discuss how spring is associated with blooming flowers and warmer weather."
+  ],
+  "rationale": [
+    "Understanding spring weather and dressing is important as it helps students recognize the characteristics of the season and how to dress appropriately for the changing weather."
+  ],
+  "methodology": [
+    "The lesson will incorporate discussions, visual aids, and hands-on activities to engage students in exploring spring weather and dressing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Spring as a Season</b>:<br>1. Begin with a discussion about what students know about spring.<br>2. Show pictures or illustrations of spring landscapes, focusing on blooming flowers and warmer weather.",
+      "<b>Group Discussion: Spring Characteristics</b>:<br>1. Engage students in a group discussion about the characteristics of spring.<br>2. Discuss how spring is associated with blooming flowers and warmer weather.",
+      "<b>Exploration of Spring Clothing</b>:<br>1. Show clothing items suitable for spring weather (e.g., light jackets, raincoats).<br>2. Discuss why these clothing items are appropriate for the changing weather conditions of spring.",
+      "<b>Class Activity: Dressing for Spring</b>:<br>1. Divide the class into small groups.<br>2. Provide each group with a scenario (e.g., going for a picnic, playing in the park) and ask them to choose appropriate clothing for spring weather.<br>3. Have each group present their clothing choices and explain their reasoning.",
+      "<b>Reflection and Drawing Activity</b>:<br>1. Ask students to reflect on what they have learned about spring weather and dressing.<br>2. Have them draw or illustrate a scene depicting spring weather and appropriate clothing choices."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and group activities.",
+    "<b>Drawing Activity</b>: Assess students' understanding by evaluating their drawings or illustrations depicting spring weather and appropriate clothing choices."
+  ],
+  "conclusion": [
+    "Through discussions, visual aids, and hands-on activities, students will develop a deeper understanding of spring as a season and appropriate clothing choices for spring weather."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Summer Weather and Dressing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Summer Weather and Dressing",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson explores the characteristics of summer, such as hot weather and longer days, and discusses summer activities like going to the beach.",
+  "materials": [
+    "Illustrations or diagrams showing summer weather patterns",
+    "Pictures or videos depicting summer activities",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will explore the characteristics of summer weather.",
+    "Students will learn about summer activities associated with hot weather."
+  ],
+  "rationale": [
+    "Understanding summer weather and associated activities is important for preparing students to cope with seasonal changes and enjoy outdoor experiences safely."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of images and videos to engage students in learning about summer weather and activities."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Exploration of Summer Characteristics:</b><br>Begin by discussing the characteristics of summer, such as hot weather, longer days, and clear skies. Show illustrations or diagrams to help students visualize.",
+      "<b>Discussion on Summer Activities:</b><br>Discuss summer activities that are popular during hot weather, such as going to the beach, swimming, and having picnics. Show pictures or videos depicting these activities.",
+      "<b>Exploration of Summer Clothing:</b><br>Show images or videos of appropriate clothing for hot weather, such as shorts, T-shirts, and sun hats. Discuss the importance of wearing sunscreen and staying hydrated.",
+      "<b>Group Brainstorm:</b><br>Divide students into groups and ask them to brainstorm and list different summer activities they enjoy. Encourage creativity and collaboration.",
+      "<b>Class Discussion:</b><br>Have each group share their list of summer activities with the class, discussing the reasons why they enjoy these activities and any safety precautions they need to take."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, their engagement in the group brainstorming activity, and their ability to describe summer weather characteristics and activities.",
+    "<br><b>Homework:</b><br>Ask students to write about their favorite summer activity and why they enjoy it, including any safety tips they have learned."
+  ],
+  "conclusion": [
+    "By learning about summer weather and associated activities, students will gain a deeper appreciation for the changing seasons and develop skills in planning and enjoying outdoor experiences safely."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Rain Weather and Dressing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Rain Weather and Dressing",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on the fall season, with its cooler temperatures and falling leaves, and discusses activities like apple picking.",
+  "materials": [
+    "Illustrations or diagrams showing fall weather patterns",
+    "Pictures or videos depicting fall activities",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will focus on understanding the characteristics of fall weather.",
+    "Students will learn about fall activities associated with cooler temperatures."
+  ],
+  "rationale": [
+    "Understanding fall weather and associated activities is important for preparing students to cope with seasonal changes and enjoy outdoor experiences safely."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of images and videos to engage students in learning about fall weather and activities."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Exploration of Fall Characteristics:</b><br>Begin by discussing the characteristics of fall, such as cooler temperatures, shorter days, and falling leaves. Show illustrations or diagrams to help students visualize.",
+      "<b>Discussion on Fall Activities:</b><br>Discuss fall activities that are popular during cooler weather, such as apple picking, hiking, and pumpkin carving. Show pictures or videos depicting these activities.",
+      "<b>Exploration of Fall Clothing:</b><br>Show images or videos of appropriate clothing for fall weather, such as sweaters, jackets, and boots. Discuss the importance of layering and staying warm.",
+      "<b>Group Brainstorm:</b><br>Divide students into groups and ask them to brainstorm and list different fall activities they enjoy. Encourage creativity and collaboration.",
+      "<b>Class Discussion:</b><br>Have each group share their list of fall activities with the class, discussing the reasons why they enjoy these activities and any safety precautions they need to take."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, their engagement in the group brainstorming activity, and their ability to describe fall weather characteristics and activities.",
+    "<br><b>Homework:</b><br>Ask students to write about their favorite fall activity and why they enjoy it, including any safety tips they have learned."
+  ],
+  "conclusion": [
+    "By learning about fall weather and associated activities, students will gain a deeper appreciation for the changing seasons and develop skills in planning and enjoying outdoor experiences safely."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Winter Weather and Dressing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Winter Weather and Dressing",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "4",
+  "description": "This lesson explores winter with its cold weather and snow, and discusses winter activities like building snowmen and ice skating.",
+  "materials": [
+    "Illustrations or diagrams showing winter weather patterns",
+    "Pictures or videos depicting winter activities",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will explore the characteristics of winter weather.",
+    "Students will learn about winter activities associated with cold temperatures and snow."
+  ],
+  "rationale": [
+    "Understanding winter weather and associated activities is important for preparing students to cope with seasonal changes and enjoy outdoor experiences safely."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of images and videos to engage students in learning about winter weather and activities."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Exploration of Winter Characteristics:</b><br>Begin by discussing the characteristics of winter, such as cold weather, snow, and shorter days. Show illustrations or diagrams to help students visualize.",
+      "<b>Discussion on Winter Activities:</b><br>Discuss winter activities that are popular during cold weather and snow, such as building snowmen, ice skating, and having hot cocoa. Show pictures or videos depicting these activities.",
+      "<b>Exploration of Winter Clothing:</b><br>Show images or videos of appropriate clothing for winter weather, such as coats, hats, gloves, and boots. Discuss the importance of staying warm and dry.",
+      "<b>Group Brainstorm:</b><br>Divide students into groups and ask them to brainstorm and list different winter activities they enjoy. Encourage creativity and collaboration.",
+      "<b>Class Discussion:</b><br>Have each group share their list of winter activities with the class, discussing the reasons why they enjoy these activities and any safety precautions they need to take."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, their engagement in the group brainstorming activity, and their ability to describe winter weather characteristics and activities.",
+    "<br><b>Homework:</b><br>Ask students to write about their favorite winter activity and why they enjoy it, including any safety tips they have learned."
+  ],
+  "conclusion": [
+    "By learning about winter weather and associated activities, students will gain a deeper appreciation for the changing seasons and develop skills in planning and enjoying outdoor experiences safely."
+  ]
+},
+
+// Week 8
+// Lesson 1
+{
+  "title": "Introduction to Rocks and Minerals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Introduction to Rocks and Minerals",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson provides a basic introduction to what rocks and minerals are, showing pictures of various rocks and minerals and discussing their differences.",
+  "materials": [
+    "Pictures or samples of various rocks and minerals",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will understand the basic concepts of rocks and minerals.",
+    "Students will be able to identify and differentiate between rocks and minerals."
+  ],
+  "rationale": [
+    "Understanding the fundamentals of rocks and minerals is essential for understanding geology and Earth's processes."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of images to engage students in learning about rocks and minerals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Rocks and Minerals:</b><br>Begin by explaining what rocks and minerals are. Discuss their differences and their importance in the Earth's crust.",
+      "<b>Visual Presentation:</b><br>Show pictures of various rocks and minerals. Discuss the characteristics of each and ask students to identify whether they are rocks or minerals.",
+      "<b>Discussion on Differences:</b><br>Engage students in a discussion about the differences between rocks and minerals. Highlight features such as composition, texture, and formation process.",
+      "<b>Hands-on Activity:</b><br>Provide samples of rocks and minerals for students to examine. Ask them to describe the physical properties of each and identify whether they are rocks or minerals.",
+      "<b>Class Recap:</b><br>Review the main points of the lesson and summarize the differences between rocks and minerals. Encourage students to ask questions for clarification."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the hands-on activity, and their ability to differentiate between rocks and minerals.",
+    "<br><b>Homework:</b><br>Ask students to collect samples of rocks and minerals from their surroundings and categorize them into rocks and minerals, based on what they learned in class."
+  ],
+  "conclusion": [
+    "By learning about rocks and minerals, students will gain a foundational understanding of geology and develop skills in observation and classification."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "What Are Rocks?",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "What Are Rocks?",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson explores what rocks are made of (minerals) and their characteristics, discussing different types of rocks, such as igneous, sedimentary, and metamorphic.",
+  "materials": [
+    "Samples of igneous, sedimentary, and metamorphic rocks",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will understand the composition and characteristics of rocks.",
+    "Students will be able to identify and differentiate between different types of rocks."
+  ],
+  "rationale": [
+    "Understanding the fundamentals of rocks is essential for understanding geology and Earth's processes."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of different types of rocks to engage students in learning about rocks."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Exploration of Rock Composition:</b><br>Begin by explaining what rocks are made of (minerals) and discussing their characteristics, such as hardness, texture, and color.",
+      "<b>Discussion on Types of Rocks:</b><br>Discuss different types of rocks, including igneous, sedimentary, and metamorphic. Explain how each type is formed and show examples of each.",
+      "<b>Visual Presentation:</b><br>Show samples of igneous, sedimentary, and metamorphic rocks. Discuss the distinctive features of each type and ask students to identify and classify them.",
+      "<b>Hands-on Activity:</b><br>Provide samples of different types of rocks for students to examine. Ask them to describe the physical properties of each and classify them into the appropriate rock type.",
+      "<b>Class Recap:</b><br>Review the main points of the lesson and summarize the characteristics of different types of rocks. Encourage students to ask questions for clarification."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the hands-on activity, and their ability to differentiate between different types of rocks.",
+    "<br><b>Homework:</b><br>Ask students to collect samples of rocks from their surroundings and categorize them into different types of rocks, based on what they learned in class."
+  ],
+  "conclusion": [
+    "By learning about rocks and their characteristics, students will gain a foundational understanding of geology and develop skills in observation and classification."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Types of Minerals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Types of Minerals",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson introduces the concept of minerals and their importance, showing examples of common minerals like copper, gold, and emerald.",
+  "materials": [
+    "Samples or pictures of common minerals (copper, gold, emerald)",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will understand the concept of minerals and their significance.",
+    "Students will be able to identify examples of common minerals."
+  ],
+  "rationale": [
+    "Understanding the fundamentals of minerals is important for understanding geology and Earth's resources."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of different types of minerals to engage students in learning about minerals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Minerals:</b><br>Begin by explaining what minerals are and their importance in various industries and everyday life.",
+      "<b>Discussion on Common Minerals:</b><br>Show examples of common minerals such as copper, gold, and emerald. Discuss their properties, uses, and where they are found.",
+      "<b>Visual Presentation:</b><br>Show samples or pictures of copper, gold, and emerald minerals. Discuss their physical properties, such as color, luster, and hardness.",
+      "<b>Hands-on Activity:</b><br>Provide samples of common minerals for students to examine. Ask them to describe the physical properties of each mineral and identify them based on the information provided.",
+      "<b>Class Recap:</b><br>Review the main points of the lesson and summarize the characteristics of common minerals. Encourage students to ask questions for clarification."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the hands-on activity, and their ability to identify common minerals.",
+    "<br><b>Homework:</b><br>Ask students to research and find examples of other common minerals and write a short description of each, including their properties and uses."
+  ],
+  "conclusion": [
+    "By learning about minerals and their characteristics, students will gain a foundational understanding of Earth's resources and develop skills in observation and identification."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Where Do Rocks Form?",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Where Do Rocks Form?",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "4",
+  "description": "This lesson discusses the environments where rocks are formed, such as underground or in volcanoes, using visual aids to show these processes.",
+  "materials": [
+    "Visual aids depicting rock formation processes (diagrams, videos)",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will understand the different environments where rocks are formed.",
+    "Students will be able to identify and describe the processes of rock formation."
+  ],
+  "rationale": [
+    "Understanding where rocks form and the processes involved is essential for understanding geology and Earth's processes."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of different rock formation processes to engage students in learning about the environments where rocks form."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Discussion on Rock Formation Environments:</b><br>Begin by discussing the different environments where rocks are formed, such as underground, in volcanoes, or along coastlines.",
+      "<b>Visual Presentation:</b><br>Show visual aids depicting the processes of rock formation in various environments. Use diagrams or videos to illustrate these processes.",
+      "<b>Explanation of Rock Formation Processes:</b><br>Explain the processes involved in rock formation in different environments, such as sedimentation, cooling and solidification, and metamorphism.",
+      "<b>Group Activity:</b><br>Divide students into groups and provide them with visual aids depicting different rock formation processes. Ask each group to analyze and describe the processes shown.",
+      "<b>Class Discussion:</b><br>Have each group present their findings to the class. Discuss the similarities and differences between the rock formation processes in different environments."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the group activity, and their ability to describe the processes of rock formation.",
+    "<br><b>Homework:</b><br>Ask students to research and find examples of rocks formed in different environments and write a short description of each, including the processes involved in their formation."
+  ],
+  "conclusion": [
+    "By learning about the environments where rocks form and the processes involved, students will gain a deeper understanding of geology and Earth's processes."
+  ]
+},
+
+// Week 9
+// Lesson 1
+{
+  "title": "Rock Cycle",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Rock Cycle",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces the rock cycle and its stages (igneous, sedimentary, metamorphic), explaining how rocks can change from one type to another.",
+  "materials": [
+    "Illustrations or diagrams showing the rock cycle stages",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will understand the concept of the rock cycle.",
+    "Students will be able to identify and describe the stages of the rock cycle."
+  ],
+  "rationale": [
+    "Understanding the rock cycle is essential for comprehending the dynamic processes that shape Earth's surface."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of the rock cycle stages to engage students in learning about the transformation of rocks."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Rock Cycle:</b><br>Begin by explaining what the rock cycle is and its significance in understanding geological processes. Discuss the three main stages: igneous, sedimentary, and metamorphic.",
+      "<b>Visual Presentation:</b><br>Show illustrations or diagrams depicting the rock cycle stages. Explain each stage and how rocks transition from one type to another.",
+      "<b>Explanation of Rock Cycle Stages:</b><br>Describe each stage of the rock cycle in detail. Explain how igneous rocks form from magma or lava, how sedimentary rocks form from sediments, and how metamorphic rocks form from existing rocks under heat and pressure.",
+      "<b>Group Activity:</b><br>Divide students into groups and provide them with visual aids depicting different stages of the rock cycle. Ask each group to analyze and describe the processes shown.",
+      "<b>Class Discussion:</b><br>Have each group present their findings to the class. Discuss the similarities and differences between the stages of the rock cycle and how rocks transform from one type to another."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the group activity, and their ability to describe the stages of the rock cycle.",
+    "<br><b>Homework:</b><br>Ask students to draw and label a diagram illustrating the rock cycle stages, including explanations of each stage."
+  ],
+  "conclusion": [
+    "By learning about the rock cycle and its stages, students will gain a deeper understanding of the dynamic processes that shape Earth's surface and the interrelatedness of different types of rocks."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "How to Identify Rocks",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "How to Identify Rocks",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson teaches children how to identify rocks based on their properties like color, texture, and hardness, followed by a simple identification activity.",
+  "materials": [
+    "Samples of different types of rocks",
+    "Magnifying glasses",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will learn how to identify rocks based on their properties.",
+    "Students will be able to apply their knowledge to conduct a simple rock identification activity."
+  ],
+  "rationale": [
+    "Learning how to identify rocks is essential for understanding geology and the Earth's surface."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, demonstrations, discussions, and hands-on activities to engage students in learning how to identify rocks."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Rock Identification:</b><br>Begin by explaining the importance of identifying rocks and introducing the properties used for identification, such as color, texture, and hardness.",
+      "<b>Discussion on Rock Properties:</b><br>Discuss each property in detail, explaining how color, texture, and hardness can vary among different types of rocks and how they are used in identification.",
+      "<b>Demonstration:</b><br>Provide samples of different types of rocks and demonstrate how to observe and analyze their properties using magnifying glasses. Show how to determine color, texture, and hardness.",
+      "<b>Rock Identification Activity:</b><br>Divide students into groups and provide them with samples of rocks. Ask each group to observe and identify the rocks based on their properties. Encourage them to discuss and compare their observations.",
+      "<b>Class Discussion:</b><br>Have each group present their findings to the class. Discuss the similarities and differences in their observations and conclusions. Clarify any misconceptions and reinforce key concepts."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the identification activity, and their ability to correctly identify rocks based on their properties.",
+    "<br><b>Homework:</b><br>Ask students to collect three different rocks from their surroundings and write a short description of each, including their properties and how they identified them."
+  ],
+  "conclusion": [
+    "By learning how to identify rocks based on their properties, students will develop important skills in observation, classification, and scientific inquiry."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Where to Find Rocks",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Where to Find Rocks",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson discusses where rocks can be found, such as mountains, rivers, and beaches, and encourages children to explore their surroundings for rocks.",
+  "materials": [
+    "Pictures of different rock formations (mountains, rivers, beaches)",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will learn where rocks can be found in nature.",
+    "Students will be encouraged to explore their surroundings for rocks."
+  ],
+  "rationale": [
+    "Understanding where to find rocks is essential for understanding Earth's geology and the distribution of rock formations."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and an exploration activity to engage students in learning about the different locations where rocks can be found."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Discussion on Rock Locations:</b><br>Begin by discussing where rocks can be found in nature, such as mountains, rivers, beaches, and other natural landscapes.",
+      "<b>Visual Presentation:</b><br>Show pictures of different rock formations, including mountains, rivers, and beaches. Explain the geological processes that lead to the formation of these features.",
+      "<b>Class Discussion:</b><br>Engage students in a discussion about the various types of rocks and minerals that can be found in each location. Encourage them to share any personal experiences they have had exploring these environments.",
+      "<b>Exploration Activity:</b><br>Take the students on a short nature walk around the school grounds or nearby area. Encourage them to search for rocks and observe their surroundings.",
+      "<b>Class Reflection:</b><br>Return to the classroom and have a discussion about what the students found during their exploration. Ask them to describe the rocks they found and where they found them. Encourage them to share any interesting observations or experiences."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the exploration activity, and their ability to describe the rocks they found.",
+    "<br><b>Homework:</b><br>Ask students to write a short journal entry about their exploration experience, including details about the rocks they found and where they found them."
+  ],
+  "conclusion": [
+    "By learning about where to find rocks and exploring their surroundings, students will develop a deeper appreciation for Earth's geology and the natural world around them."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Uses of Rocks and Minerals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Uses of Rocks and Minerals",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "4",
+  "description": "This lesson explores the many uses of rocks and minerals in daily life, such as building materials and gemstones, showing pictures and examples of these uses.",
+  "materials": [
+    "Pictures and examples of various uses of rocks and minerals (e.g., building materials, gemstones)",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will learn about the various uses of rocks and minerals in daily life.",
+    "Students will be able to identify and describe common uses of rocks and minerals."
+  ],
+  "rationale": [
+    "Understanding the uses of rocks and minerals is important for understanding their significance in various industries and everyday life."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of different uses of rocks and minerals to engage students in learning about their practical applications."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Uses of Rocks and Minerals:</b><br>Begin by explaining the importance of rocks and minerals in daily life and introducing various common uses, such as building materials and gemstones.",
+      "<b>Visual Presentation:</b><br>Show pictures and examples of different uses of rocks and minerals. Discuss each use and its significance in various industries and everyday life.",
+      "<b>Discussion on Common Uses:</b><br>Engage students in a discussion about the different uses of rocks and minerals. Encourage them to share any personal experiences they have had with these materials.",
+      "<b>Exploration Activity:</b><br>Provide students with samples or pictures of rocks and minerals used in various applications. Ask them to examine and identify the uses of each material.",
+      "<b>Class Reflection:</b><br>Have students share their findings with the class. Discuss the significance of rocks and minerals in different industries and everyday life, emphasizing their importance."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the exploration activity, and their ability to identify and describe common uses of rocks and minerals.",
+    "<br><b>Homework:</b><br>Ask students to research and find examples of additional uses of rocks and minerals not covered in class and write a short description of each."
+  ],
+  "conclusion": [
+    "By learning about the various uses of rocks and minerals, students will gain a deeper appreciation for their significance in various industries and everyday life."
+  ]
+},
+
+// Week 10
+// Lesson 1
+{
+  "title": "Volcanoes and Lava",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Volcanoes and Lava",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson explores how igneous rocks are formed through volcanic activity and explains the concept of lava and volcanic eruptions.",
+  "materials": [
+    "Pictures and diagrams of volcanoes and lava flows",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will learn how igneous rocks are formed through volcanic activity.",
+    "Students will understand the concept of lava and volcanic eruptions."
+  ],
+  "rationale": [
+    "Understanding volcanoes and lava is essential for comprehending geological processes and the formation of igneous rocks."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of volcanic activity to engage students in learning about how igneous rocks are formed and the concept of lava and volcanic eruptions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Volcanoes:</b><br>Begin by discussing what volcanoes are and where they are found. Explain that volcanoes are openings in the Earth's crust where magma, gases, and ash erupt onto the surface.",
+      "<b>Visual Presentation:</b><br>Show pictures and diagrams of volcanoes and lava flows. Explain the process of volcanic eruptions and how lava flows are formed.",
+      "<b>Discussion on Igneous Rock Formation:</b><br>Engage students in a discussion about how igneous rocks are formed through volcanic activity. Explain that when lava cools and solidifies, it forms igneous rocks.",
+      "<b>Exploration Activity:</b><br>Provide students with samples of igneous rocks and volcanic materials. Ask them to examine the samples and discuss their characteristics and how they might have been formed.",
+      "<b>Class Reflection:</b><br>Have students share their observations and reflections on volcanic activity and igneous rock formation. Summarize the key points of the lesson and clarify any misconceptions."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the exploration activity, and their ability to describe the formation of igneous rocks and the concept of volcanic eruptions.",
+    "<br><b>Homework:</b><br>Ask students to research and find examples of famous volcanoes around the world and write a short description of each, including any significant eruptions they may have had."
+  ],
+  "conclusion": [
+    "By learning about volcanoes and lava, students will gain a deeper understanding of geological processes and the formation of igneous rocks."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Rock Collecting and Safety",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Rock Collecting and Safety",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson teaches children how to safely collect rocks and minerals and discusses the importance of respecting natural environments.",
+  "materials": [
+    "Pictures of safe rock collecting practices",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will learn how to safely collect rocks and minerals.",
+    "Students will understand the importance of respecting natural environments while collecting rocks."
+  ],
+  "rationale": [
+    "Learning how to safely collect rocks and minerals is important for ensuring students' safety and environmental preservation."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and interactive activities to engage students in learning about safe rock collecting practices and environmental respect."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Rock Collecting:</b><br>Begin by discussing the excitement of collecting rocks and minerals and introduce the importance of doing so safely and responsibly.",
+      "<b>Visual Presentation:</b><br>Show pictures of safe rock collecting practices, such as wearing appropriate clothing and footwear, using gloves, and being aware of potential hazards.",
+      "<b>Discussion on Safety Measures:</b><br>Engage students in a discussion about the safety measures they should take when collecting rocks and minerals. Emphasize the importance of being cautious around cliffs, rivers, and other natural features.",
+      "<b>Interactive Activity:</b><br>Divide students into groups and provide them with scenarios related to rock collecting. Ask each group to discuss and come up with safety measures for each scenario.",
+      "<b>Discussion on Environmental Respect:</b><br>Discuss the importance of respecting natural environments while collecting rocks and minerals. Emphasize the need to leave the environment as it was found and to avoid damaging rocks and their surroundings."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the interactive activity, and their ability to identify and describe safe rock collecting practices.",
+    "<br><b>Homework:</b><br>Ask students to create a poster or brochure outlining safe rock collecting practices and the importance of environmental respect."
+  ],
+  "conclusion": [
+    "By learning about safe rock collecting practices and environmental respect, students will develop important skills in safety awareness and environmental stewardship."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Earth's Layers and How Rocks Form",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Earth's Layers and How Rocks Form",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson explains how rocks are related to the layers of the Earth's crust and discusses the formation of rocks through geological processes.",
+  "materials": [
+    "Pictures and diagrams of Earth's layers",
+    "Class chart or whiteboard"
+  ],
+  "objectives": [
+    "Students will learn how rocks are related to the layers of the Earth's crust.",
+    "Students will understand the formation of rocks through geological processes."
+  ],
+  "rationale": [
+    "Understanding Earth's layers and how rocks form is essential for comprehending geological processes and the structure of the Earth."
+  ],
+  "methodology": [
+    "The lesson will involve visual aids, discussions, and exploration of geological processes to engage students in learning about Earth's layers and the formation of rocks."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Earth's Layers:</b><br>Begin by discussing the different layers of the Earth, including the crust, mantle, and core. Explain the characteristics and composition of each layer.",
+      "<b>Visual Presentation:</b><br>Show pictures and diagrams of Earth's layers and discuss how rocks are related to the crust. Explain that rocks are formed in the crust through various geological processes.",
+      "<b>Discussion on Rock Formation:</b><br>Engage students in a discussion about the formation of rocks through geological processes such as weathering, erosion, and deposition. Explain how these processes contribute to the formation of sedimentary, igneous, and metamorphic rocks.",
+      "<b>Exploration Activity:</b><br>Provide students with samples of different types of rocks and ask them to examine the samples. Encourage them to discuss how each type of rock might have been formed based on their knowledge of geological processes.",
+      "<b>Class Reflection:</b><br>Have students share their observations and reflections on Earth's layers and the formation of rocks. Summarize the key points of the lesson and clarify any misconceptions."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in discussions, their engagement in the exploration activity, and their ability to describe the relationship between Earth's layers and the formation of rocks.",
+    "<br><b>Homework:</b><br>Ask students to research and create a diagram showing the different layers of the Earth's crust and the geological processes involved in the formation of rocks."
+  ],
+  "conclusion": [
+    "By learning about Earth's layers and how rocks form, students will gain a deeper understanding of geological processes and the structure of the Earth."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Recap and Rock and Mineral Display",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Recap and Rock and Mineral Display",
+  "grade": "Nestlings Navigators",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "4",
+  "description": "This lesson reviews what children have learned about rocks and minerals and encourages them to create a rock and mineral display with the specimens they've collected.",
+  "materials": [
+    "Various rocks and minerals collected by students",
+    "Display boards or tables"
+  ],
+  "objectives": [
+    "Students will review what they have learned about rocks and minerals.",
+    "Students will create a rock and mineral display with the specimens they've collected."
+  ],
+  "rationale": [
+    "Reviewing the lessons on rocks and minerals reinforces students' understanding, and creating a display allows them to showcase their knowledge and specimens."
+  ],
+  "methodology": [
+    "The lesson will involve a review session followed by a hands-on activity where students create a rock and mineral display."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Recap Session:</b><br>Begin by reviewing what the students have learned about rocks and minerals in previous lessons. Encourage them to recall key concepts, types of rocks, and their characteristics.",
+      "<b>Discussion:</b><br>Engage students in a discussion about the importance of rocks and minerals in our daily lives. Encourage them to share interesting facts they have learned.",
+      "<b>Hands-on Activity - Creating a Rock and Mineral Display:</b><br>Provide students with the rocks and minerals they have collected. Allow them to arrange the specimens on display boards or tables, labeling each one with its name and a brief description.",
+      "<b>Group Sharing:</b><br>Once the displays are complete, have students present their displays to the class. Encourage them to explain the significance of each specimen and share any interesting facts they have learned.",
+      "<b>Class Reflection:</b><br>Conclude the lesson with a reflection session. Discuss what students enjoyed most about creating the displays and any new insights they gained."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in the recap session, their engagement in creating the rock and mineral displays, and the quality of their presentations.",
+    "<br><b>Homework:</b><br>Ask students to write a short reflection on what they have learned about rocks and minerals throughout the lesson series and what they found most interesting."
+  ],
+  "conclusion": [
+    "By reviewing what they have learned and creating rock and mineral displays, students will consolidate their knowledge and develop a deeper appreciation for the world of geology."
+  ]
+},
+
 ];
 
