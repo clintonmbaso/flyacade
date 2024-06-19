@@ -36,10 +36,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Empathy:</b><br>Begin by discussing the concept of empathy, explaining that it involves understanding and sharing the feelings of others.",
-      "<b>Storytelling:</b><br>Read a story or show a video illustrating empathy and sharing. Discuss the characters' feelings and actions.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm situations where empathy and sharing are demonstrated. Encourage students to contribute their ideas.",
+      "<b>Notes:</b><br>Read a story or show a video illustrating empathy and sharing. Discuss the characters' feelings and actions.",
+      "<b>Notes:</b><br>Use chart paper or the whiteboard to brainstorm situations where empathy and sharing are demonstrated. Encourage students to contribute their ideas.",
       "<b>Role-playing:</b><br>Divide students into pairs and assign each pair a scenario where empathy and sharing are needed. Have them role-play the scenario, emphasizing understanding each other's feelings.",
-      "<b>Sharing Activity:</b><br>Provide materials for a sharing activity, such as snacks or toys. Encourage students to practice empathy by sharing with their classmates."
+      "<b>Key Words:</b><br>Provide materials for a sharing activity, such as snacks or toys. Encourage students to practice empathy by sharing with their classmates."
     ]
   ],
   "assessments": [
@@ -57,9 +57,7 @@ const lessonPlans67a = [
     "Needs",
     "Compassion",
     "Cooperation",
-    "Community",
-    "Role-playing",
-    "Reflection"
+    "Community"
   ]
 },
 
@@ -889,9 +887,7 @@ const lessonPlans67a = [
     "Consideration",
     "Inclusivity",
     "Mutual respect",
-    "Dignity",
-    "Reflective activity",
-    "Discussion"
+    "Dignity"
   ]
 },
 
@@ -949,9 +945,7 @@ const lessonPlans67a = [
     "Mistakes",
     "Learning",
     "Growth",
-    "Integrity",
-    "Reflective activity",
-    "Discussion"
+    "Integrity"
   ]
 },
 
@@ -1008,9 +1002,7 @@ const lessonPlans67a = [
     "Dependability",
     "Commitments",
     "Deadlines",
-    "Trust",
-    "Reflective activity",
-    "Discussion"
+    "Trust"
   ]
 },
 
@@ -1066,9 +1058,7 @@ const lessonPlans67a = [
     "Responsibility",
     "Proactivity",
     "Leadership",
-    "Empowerment",
-    "Reflective activity",
-    "Discussion"
+    "Empowerment"
   ]
 },
 
@@ -1126,9 +1116,7 @@ const lessonPlans67a = [
     "Wisdom",
     "Time management",
     "Productivity",
-    "Personal growth",
-    "Reflective activity",
-    "Discussion"
+    "Personal growth"
   ]
 },
 
@@ -1186,9 +1174,7 @@ const lessonPlans67a = [
     "Environmental consciousness",
     "Volunteering",
     "Community engagement",
-    "Environmental stewardship",
-    "Reflective activity",
-    "Discussion"
+    "Environmental stewardship"
   ]
 },
 	
@@ -1227,10 +1213,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Authenticity:</b><br>Begin by discussing the concept of authenticity, explaining that honesty involves being genuine and truthful.",
-      "<b>Storytelling:</b><br>Share a story or show a video depicting examples of authenticity in action. Discuss how being authentic contributes to trust and genuine connections.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm ways in which students can demonstrate authenticity in their daily lives. Encourage students to think of scenarios where they can be true to themselves and their beliefs, even when it's difficult.",
+      "<b>Notes:</b><br>Honesty involves being authentic and genuine in our words and actions.",
+      "<b>Notes:</b><br>Honesty means being truthful about who we are, our intentions, and our beliefs, even when it's difficult or uncomfortable.",
       "<b>Reflective Activity:</b><br>Provide students with reflective prompts or questions related to authenticity. Ask them to journal their thoughts and experiences, focusing on how they can promote honesty and transparency through authenticity.",
-      "<b>Discussion:</b><br>Facilitate a class discussion on the reflective activity. Ask students to share their reflections and ideas on how they can practice authenticity in their interactions."
+      "<b>Key Words:</b><br>Authenticity, Honesty, Genuineness, Trust, Integrity."
     ]
   ],
   "assessments": [
@@ -1239,15 +1225,6 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "By understanding the importance of authenticity, students will develop trustworthiness and integrity skills that are essential for demonstrating honesty and fostering genuine connections and transparency in their communities."
-  ],
-  "keyTerms": [
-    "Authenticity",
-    "Honesty",
-    "Genuineness",
-    "Trust",
-    "Integrity",
-    "Reflective activity",
-    "Discussion"
   ]
 },
 
@@ -1285,10 +1262,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Integrity:</b><br>Begin by discussing the concept of integrity, explaining that honesty includes upholding moral principles.",
-      "<b>Storytelling:</b><br>Share a story or show a video depicting examples of integrity in action. Discuss how acting ethically contributes to trust and moral courage.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm ways in which students can demonstrate integrity in their daily lives. Encourage students to think of scenarios where they can uphold moral principles, even when faced with challenges.",
+      "<b>Notes:</b><br>Honesty includes having integrity and upholding moral principles.",
+      "<b>Notes:</b><br>Honesty means acting in accordance with what we believe is right and ethical, even when faced with challenges or temptations.",
       "<b>Reflective Activity:</b><br>Provide students with reflective prompts or questions related to integrity. Ask them to journal their thoughts and experiences, focusing on how they can promote honesty and ethical behavior through integrity.",
-      "<b>Discussion:</b><br>Facilitate a class discussion on the reflective activity. Ask students to share their reflections and ideas on how they can practice integrity in their interactions."
+      "<b>Key Words:</b><br>Integrity, Honesty, Moral principles, Ethical behavior, Trust, Moral courage."
     ]
   ],
   "assessments": [
@@ -1297,16 +1274,6 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "By understanding the importance of integrity, students will develop moral courage and ethical responsibility skills that are essential for demonstrating honesty and fostering trust and integrity in their communities."
-  ],
-  "keyTerms": [
-    "Integrity",
-    "Honesty",
-    "Moral principles",
-    "Ethical behavior",
-    "Trust",
-    "Moral courage",
-    "Reflective activity",
-    "Discussion"
   ]
 },
 
@@ -1344,10 +1311,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Transparency:</b><br>Begin by discussing the concept of transparency, explaining that honesty entails being open and truthful in communication.",
-      "<b>Storytelling:</b><br>Share a story or show a video depicting examples of transparency in action. Discuss how open and honest communication contributes to trust and accountability.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm ways in which students can demonstrate transparency in their daily lives. Encourage students to think of scenarios where they can share information openly and accurately.",
+      "<b>Notes:</b><br>Honesty entails being transparent and open in our communication.",
+      "<b>Notes:</b><br>Honesty means sharing information openly, honestly, and accurately, without withholding or distorting facts.",
       "<b>Reflective Activity:</b><br>Provide students with reflective prompts or questions related to transparency. Ask them to journal their thoughts and experiences, focusing on how they can promote honesty and effective communication through transparency.",
-      "<b>Discussion:</b><br>Facilitate a class discussion on the reflective activity. Ask students to share their reflections and ideas on how they can practice transparency in their interactions."
+      "<b>Key Terms:</b><br>Transparency, Honesty, Open communication, Accountability, Effective communication, Trust."
     ]
   ],
   "assessments": [
@@ -1356,16 +1323,6 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "By understanding the importance of transparency, students will develop communication and accountability skills that are essential for demonstrating honesty and fostering trust and integrity in their communities."
-  ],
-  "keyTerms": [
-    "Transparency",
-    "Honesty",
-    "Open communication",
-    "Accountability",
-    "Effective communication",
-    "Trust",
-    "Reflective activity",
-    "Discussion"
   ]
 },
 
@@ -1403,10 +1360,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Accountability:</b><br>Begin by discussing the concept of accountability, explaining that honesty involves taking responsibility for one's words and actions.",
-      "<b>Storytelling:</b><br>Share a story or show a video depicting examples of accountability in action. Discuss how taking responsibility contributes to growth and learning.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm ways in which students can demonstrate accountability in their daily lives. Encourage students to think of scenarios where they can admit mistakes and accept consequences.",
+      "<b>Notes:</b><br>Honesty involves taking accountability for our words and actions.",
+      "<b>Notes:</b><br>It means owning up to our mistakes, admitting when we're wrong, and accepting the consequences of our decisions.",
       "<b>Reflective Activity:</b><br>Provide students with reflective prompts or questions related to accountability. Ask them to journal their thoughts and experiences, focusing on how they can promote honesty and personal responsibility through accountability.",
-      "<b>Discussion:</b><br>Facilitate a class discussion on the reflective activity. Ask students to share their reflections and ideas on how they can practice accountability in their interactions."
+      "<b>Key Words:</b><br>Accountability, Honesty, Responsibility, Growth, Learning, Integrity."
     ]
   ],
   "assessments": [
@@ -1415,16 +1372,6 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "By understanding the importance of accountability, students will develop integrity and personal responsibility skills that are essential for demonstrating honesty and fostering growth and learning in their communities."
-  ],
-  "keyTerms": [
-    "Accountability",
-    "Honesty",
-    "Responsibility",
-    "Growth",
-    "Learning",
-    "Integrity",
-    "Reflective activity",
-    "Discussion"
   ]
 },
 
@@ -1462,10 +1409,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Trustworthiness:</b><br>Begin by discussing the concept of trustworthiness, explaining that honesty includes being dependable and reliable.",
-      "<b>Storytelling:</b><br>Share a story or show a video depicting examples of trustworthiness in action. Discuss how being trustworthy contributes to building strong relationships.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm ways in which students can demonstrate trustworthiness in their daily lives. Encourage students to think of scenarios where they can keep promises and maintain consistency between their words and actions.",
+      "<b>Notes:</b><br>Honesty extends to being trustworthy and dependable.",
+      "<b>Notes:</b><br>It means being someone others can rely on, keeping our promises, and maintaining consistency between our words and deeds.",
       "<b>Reflective Activity:</b><br>Provide students with reflective prompts or questions related to trustworthiness. Ask them to journal their thoughts and experiences, focusing on how they can promote honesty and trust through being trustworthy.",
-      "<b>Discussion:</b><br>Facilitate a class discussion on the reflective activity. Ask students to share their reflections and ideas on how they can practice trustworthiness in their interactions."
+      "<b>Key Terms:</b><br>Trustworthiness, Honesty, Dependability, Reliability, Strong relationships, Consistency."
     ]
   ],
   "assessments": [
@@ -1474,16 +1421,6 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "By understanding the importance of trustworthiness, students will develop reliability and credibility skills that are essential for demonstrating honesty and fostering strong relationships and integrity in their communities."
-  ],
-  "keyTerms": [
-    "Trustworthiness",
-    "Honesty",
-    "Dependability",
-    "Reliability",
-    "Strong relationships",
-    "Consistency",
-    "Reflective activity",
-    "Discussion"
   ]
 },
 
@@ -1522,10 +1459,10 @@ const lessonPlans67a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Introduction to Empathy:</b><br>Begin by discussing the concept of empathy, explaining that compassion involves understanding others' feelings and perspectives.",
-      "<b>Storytelling:</b><br>Share a story or show a video depicting examples of empathy in action. Discuss how putting oneself in others' shoes contributes to building strong relationships.",
-      "<b>Brainstorming:</b><br>Use chart paper or the whiteboard to brainstorm ways in which students can demonstrate empathy in their daily lives. Encourage students to think of scenarios where they can understand others' feelings and perspectives.",
+      "<b>Notes:</b><br>Share",
+      "<b>Notes:</b><br>empathy",
       "<b>Reflective Activity:</b><br>Provide students with reflective prompts or questions related to empathy. Ask them to journal their thoughts and experiences, focusing on how they can promote compassion and understanding through empathy.",
-      "<b>Discussion:</b><br>Facilitate a class discussion on the reflective activity. Ask students to share their reflections and ideas on how they can practice empathy in their interactions."
+      "<b>Key Words:</b><br>Empathy, Compassion, Understanding, Perspectives, Strong relationships."
     ]
   ],
   "assessments": [
@@ -1534,15 +1471,6 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "By understanding the importance of empathy, students will develop compassion and understanding skills that are essential for demonstrating empathy and fostering strong relationships and understanding in their communities."
-  ],
-  "keyTerms": [
-    "Empathy",
-    "Compassion",
-    "Understanding",
-    "Perspectives",
-    "Strong relationships",
-    "Reflective activity",
-    "Discussion"
   ]
 },
 
