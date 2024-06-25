@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabbed Content Example</title>
+<style>
+    /* Basic styles for tabs */
+    .tab {
+        display: none;
+    }
+    .tab.active {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="tabs">
+    <button class="tablinks" onclick="openTab(event, 'tab1')">2021</button>
+    <button class="tablinks" onclick="openTab(event, 'tab2')">2022</button>
+    <button class="tablinks" onclick="openTab(event, 'tab3')">2023</button>
+    <button class="tablinks" onclick="openTab(event, 'tab4')">2024</button>
+    <button class="tablinks" onclick="openTab(event, 'tab5')">2025</button>
+</div>
+
+<div id="tab1" class="tab active">
+    <ul>
+        <li><a href="#">FWT210101</a> - Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">FWT210102</a> - Consectetur adipiscing elit.</li>
+        <li><a href="#">FWT210201</a> - Sed do eiusmod tempor incididunt.</li>
+        <li><a href="#">FWT210202</a> - Ut labore et dolore magna.</li>
+        <li><a href="#">FWT210301</a> - Ut enim ad minim veniam.</li>
+        <li><a href="#">FWT210302</a> - Quis nostrud exercitation ullamco.</li>
+    </ul>
+</div>
+
+<div id="tab2" class="tab">
+    <ul>
+        <li><a href="#">FWT220101</a> - Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">FWT220102</a> - Consectetur adipiscing elit.</li>
+        <li><a href="#">FWT220201</a> - Sed do eiusmod tempor incididunt.</li>
+        <li><a href="#">FWT220202</a> - Ut labore et dolore magna.</li>
+        <li><a href="#">FWT220301</a> - Ut enim ad minim veniam.</li>
+        <li><a href="#">FWT220302</a> - Quis nostrud exercitation ullamco.</li>
+    </ul>
+</div>
+
+<div id="tab3" class="tab">
+    <ul>
+        <li><a href="#">FWT230101</a> - Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">FWT230102</a> - Consectetur adipiscing elit.</li>
+        <li><a href="#">FWT230201</a> - Sed do eiusmod tempor incididunt.</li>
+        <li><a href="#">FWT230202</a> - Ut labore et dolore magna.</li>
+        <li><a href="#">FWT230301</a> - Ut enim ad minim veniam.</li>
+        <li><a href="#">FWT230302</a> - Quis nostrud exercitation ullamco.</li>
+    </ul>
+</div>
+
+<div id="tab4" class="tab">
+    <ul>
+        <li><a href="#">FWT240101</a> - Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">FWT240102</a> - Consectetur adipiscing elit.</li>
+        <li><a href="2024/fwt240201.php">FWT240201</a> - Sed do eiusmod tempor incididunt.</li>
+        <li><a href="#">FWT240202</a> - Ut labore et dolore magna.</li>
+        <li><a href="#">FWT240301</a> - Ut enim ad minim veniam.</li>
+        <li><a href="#">FWT240302</a> - Quis nostrud exercitation ullamco.</li>
+    </ul>
+</div>
+
+<div id="tab5" class="tab">
+    <ul>
+        <li><a href="#">FWT250101</a> - Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">FWT250102</a> - Consectetur adipiscing elit.</li>
+        <li><a href="#">FWT250201</a> - Sed do eiusmod tempor incididunt.</li>
+        <li><a href="#">FWT250202</a> - Ut labore et dolore magna.</li>
+        <li><a href="#">FWT250301</a> - Ut enim ad minim veniam.</li>
+        <li><a href="#">FWT250302</a> - Quis nostrud exercitation ullamco.</li>
+    </ul>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.add("active");
+    }
+</script>
+
+</body>
+</html>
