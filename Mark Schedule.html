@@ -16,7 +16,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('../../images/nature.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-image: url('images/nature.jpg'); /* Replace 'background-image.jpg' with your image file */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -87,10 +87,30 @@ body {
 .tab ul li a:hover {
     text-decoration: underline;
 }
+  
+  #why {
+    align-self: flex-end;
+    
+}
+
+img {
+    display: block;
+    margin: 2px;
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: cover;
+    border-radius: 50% !important;
+    border: 3px solid #FFB6C1; /* Pastel Pink */
+}
+  
 </style>
 </head>
 <body>
 
+<div id="why" style="display: flex; justify-content: space-between;">
+    <h2 id="attender" style="color:white;">Flying Wings Academy <br>MARK SCHEDULES</h2>
+    <img src="images/flyacade.png" alt="class logo" onclick="window.location.href='https://clintonmbaso.github.io/flyacade/teaching_hub.html'">
+</div>
 <div class="tabs">
     <button class="tablinks" onclick="openTab(event, 'tab1')">2021</button>
     <button class="tablinks" onclick="openTab(event, 'tab2')">2022</button>
