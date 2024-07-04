@@ -93,6 +93,7 @@ const questionsBank = [
 
 
   // Grade 5
+  // Science
   // Multiple Choice
   ...g5scit1amultipleChoiceQuestions,
   ...g5scit1bmultipleChoiceQuestions,
@@ -100,9 +101,6 @@ const questionsBank = [
   ...g5scit2bmultipleChoiceQuestions,
   ...g5scit3amultipleChoiceQuestions,
   ...g5scit3bmultipleChoiceQuestions,
-
-
-
   // One Word Questions
   ...g5scit1amatchingQuestions,
   ...g5scit1bmatchingQuestions,
@@ -110,6 +108,26 @@ const questionsBank = [
   ...g5scit2bmatchingQuestions,
   ...g5scit3amatchingQuestions,
   ...g5scit3bmatchingQuestions,
+
+  // Grade 5
+  // Social Studies
+  // Multiple Choice
+  ...g5sst1amultipleChoiceQuestions,
+  ...g5sst1bmultipleChoiceQuestions,
+  ...g5sst2amultipleChoiceQuestions,
+  ...g5sst2bmultipleChoiceQuestions,
+  ...g5sst3amultipleChoiceQuestions,
+  ...g5sst3bmultipleChoiceQuestions,
+  // True or False
+  ...g5sst1atrueFalseQuestions,
+  ...g5sst1btrueFalseQuestions,
+  ...g5sst2atrueFalseQuestions,
+  ...g5sst2btrueFalseQuestions,
+  ...g5sst3atrueFalseQuestions,
+  ...g5sst3btrueFalseQuestions,
+
+
+
 
 
 ];
@@ -122,7 +140,6 @@ function generateRandomQuestions() {
   const numFillInTheBlank = parseInt(document.getElementById("num-fill-in-the-blank").value);
   const numMatching = parseInt(document.getElementById("num-matching").value);
 
-  // New filters
   const selectedClass = document.getElementById("class-filter").value;
   const selectedSubject = document.getElementById("subject-filter").value;
   const selectedTerm = document.getElementById("term-filter").value;
@@ -138,18 +155,27 @@ function generateRandomQuestions() {
     );
   });
 
-  const randomQuestions = [];
+  // Shuffle the filtered questions array
+  const shuffledQuestions = shuffleArray(filteredQuestions);
 
-  function getRandomQuestionsByType(type, num) {
-    const questionsOfType = filteredQuestions.filter(question => question.type === type);
-    const randomQuestionsOfType = [];
-    for (let i = 0; i < num; i++) {
-      const randomIndex = Math.floor(Math.random() * questionsOfType.length);
-      randomQuestionsOfType.push(questionsOfType[randomIndex]);
+  // Function to shuffle an array (Fisher-Yates shuffle)
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
     }
-    return randomQuestionsOfType;
+    return array;
   }
 
+  const randomQuestions = [];
+
+  // Function to get random questions by type from shuffled array
+  function getRandomQuestionsByType(type, num) {
+    const questionsOfType = shuffledQuestions.filter(question => question.type === type);
+    return questionsOfType.slice(0, num); // Select the first `num` questions
+  }
+
+  // Push randomly selected questions of each type to randomQuestions array
   randomQuestions.push(...getRandomQuestionsByType("multiple_choice", numMultipleChoice));
   randomQuestions.push(...getRandomQuestionsByType("true_false", numTrueFalse));
   randomQuestions.push(...getRandomQuestionsByType("one_word", numOneWord));
