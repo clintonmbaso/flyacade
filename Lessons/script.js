@@ -44,7 +44,7 @@ const teacherNames = {
     "All Classes": "All Teachers"
 };
 
-// Define a mapping of teacher's name to TCZ number
+// Define a mapping of teachers name to TCZ number
 const tczNumbers = {
     "Ms. Chikondi": "FS20BC0012",
     "Ms. Maureen": "FS20BC0010",
@@ -58,7 +58,7 @@ filteredLessonPlans.forEach(plan => {
     const gradeAbbreviation = plan.grade.split(' ').map(word => word[0].toUpperCase()).join(''); // Abbreviate plan.grade
     const titlePrefix = `${gradeAbbreviation}${plan.subject.substring(0, 3)}T${plan.term}W${plan.week}L${plan.lessonNumber}`;
     
-    // Use the mapping to display the teacher's name based on plan.grade
+    // Use the mapping to display the teachers name based on plan.grade
     const teacherName = teacherNames[plan.grade];
       // Use the mapping to display the TCZ number based on teacherName
     const tczNumber = tczNumbers[teacherName];
@@ -141,8 +141,8 @@ filteredLessonPlans.forEach(plan => {
 <div class="blogcomments">
     <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greetings Sir,%0D%0A%0D%0AI hope this email finds you well. %0D%0A%0D%0AI would like to submit the evaluation of the stated lesson:%0D%0A%0D%0A1. Where the objectives met?%0D%0A%0D%0A [Yes/No]%0D%0A%0D%0A%0D%0A%0D%0A2. How would you rate the lesson in terms of the learners' performance?%0D%0A%0D%0A [Good/Average/Not Good]%0D%0A%0D%0A%0D%0A%0D%0A3. What is your recommendation?%0D%0A%0D%0A [Proceed to the next lesson/Repeat the Lesson]%0D%0A%0D%0A%0D%0A%0D%0AEvaluation Completed.%0D%0A%0D%0A%0D%0A%0D%0ABest regards,%0D%0A${teacherName}">Evaluation</a>
 </div>
-                <button onclick="printPlan('${plan.title}')">Print</button>
-            </div>
+<button onclick="showPopup('<h2>${plan.heading}</h2>', '<p>${plan.details}</p>', '<img src=${plan.pic}')">Details</button>
+    
         `;
         lessonPlansContainer.appendChild(card);
     });

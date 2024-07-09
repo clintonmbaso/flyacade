@@ -97,7 +97,32 @@
             <!-- Lesson plan cards will be dynamically generated here -->
         </div>
     </div>
+  <div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <div id="popupContent"></div>
+</div>
+<script>
+    function showPopup(title, details, imageSrc) {
+        var popupContent = document.getElementById('popupContent');
+        popupContent.innerHTML = title + details; // Set the title and details
 
+        if (imageSrc) {
+            var image = document.createElement('img');
+            image.src = imageSrc;
+            popupContent.appendChild(image); // Append the image
+        }
+
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+      
+      
+    }
+
+    document.getElementById('overlay').addEventListener('click', function() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    });
+</script>
         <!-- Search icon to toggle visibility of search input fields -->
     <div id="toggleSearch" class="search-icon">
         <i class="fas fa-bars"></i>
