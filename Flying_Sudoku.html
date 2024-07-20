@@ -253,7 +253,7 @@
         solve(grid);
 
         const puzzle = grid.map(row => row.slice());
-        const cluesToRemove = Math.floor(Math.random() * 15) + 40;
+        const cluesToRemove = Math.floor(Math.random() * 15) + 15;
 
         for (let i = 0; i < cluesToRemove; i++) {
           let row, col;
