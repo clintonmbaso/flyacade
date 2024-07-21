@@ -337,7 +337,7 @@ a:hover
 #Slidehead .frame-1
 {
    background-color: transparent;
-   background-image: url('images/IMG_7281.jpg');
+   background-image: url('images/fly1.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -346,7 +346,7 @@ a:hover
 #Slidehead .frame-2
 {
    background-color: transparent;
-   background-image: url('images/IMG_7284.jpg');
+   background-image: url('images/fly2.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -355,7 +355,7 @@ a:hover
 #Slidehead .frame-3
 {
    background-color: transparent;
-   background-image: url('images/IMG_7319.jpg');
+   background-image: url('images/fly3.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -364,7 +364,7 @@ a:hover
 #Slidehead .frame-4
 {
    background-color: transparent;
-   background-image: url('images/IMG_6077.jpg');
+   background-image: url('images/fly4.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -373,7 +373,7 @@ a:hover
 #Slidehead .frame-5
 {
    background-color: transparent;
-   background-image: url('images/IMG_6079.jpg');
+   background-image: url('images/fly5.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -382,7 +382,7 @@ a:hover
 #Slidehead .frame-6
 {
    background-color: transparent;
-   background-image: url('images/IMG_6086.jpg');
+   background-image: url('images/fly6.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -391,7 +391,7 @@ a:hover
 #Slidehead .frame-7
 {
    background-color: transparent;
-   background-image: url('images/IMG_6183.jpg');
+   background-image: url('images/fly7.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -400,7 +400,7 @@ a:hover
 #Slidehead .frame-8
 {
    background-color: transparent;
-   background-image: url('images/IMG_6233.jpg');
+   background-image: url('images/fly8.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -409,7 +409,7 @@ a:hover
 #Slidehead .frame-9
 {
    background-color: transparent;
-   background-image: url('images/IMG_6099.jpg');
+   background-image: url('images/fly9.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -418,7 +418,142 @@ a:hover
 #Slidehead .frame-10
 {
    background-color: transparent;
-   background-image: url('images/IMG_6064.jpg');
+   background-image: url('images/fly10.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-11
+{
+   background-color: transparent;
+   background-image: url('images/fly11.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-12
+{
+   background-color: transparent;
+   background-image: url('images/fly12.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-13
+{
+   background-color: transparent;
+   background-image: url('images/fly13.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-14
+{
+   background-color: transparent;
+   background-image: url('images/fly14.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-15
+{
+   background-color: transparent;
+   background-image: url('images/fly15.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-16
+{
+   background-color: transparent;
+   background-image: url('images/fly16.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-17
+{
+   background-color: transparent;
+   background-image: url('images/fly17.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-18
+{
+   background-color: transparent;
+   background-image: url('images/fly18.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-19
+{
+   background-color: transparent;
+   background-image: url('images/fly19.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-20
+{
+   background-color: transparent;
+   background-image: url('images/fly20.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-21
+{
+   background-color: transparent;
+   background-image: url('images/fly21.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-22
+{
+   background-color: transparent;
+   background-image: url('images/fly22.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-23
+{
+   background-color: transparent;
+   background-image: url('images/fly23.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-24
+{
+   background-color: transparent;
+   background-image: url('images/fly24.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-25
+{
+   background-color: transparent;
+   background-image: url('images/fly25.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -6750,6 +6885,321 @@ body
 {
    text-align: center;
 }
+#wb_Text10 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
+#wb_Text10
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text11 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+}
+#wb_Text11
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text12 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text12 div
+{
+   text-align: center;
+}
+#wb_Text12
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text13 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text13 div
+{
+   text-align: center;
+}
+#wb_Text13
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text14 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14 div
+{
+   text-align: center;
+}
+#wb_Text14
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text15 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15 div
+{
+   text-align: center;
+}
+#wb_Text15
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+  #wb_Text16 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text16 div
+{
+   text-align: center;
+}
+#wb_Text16
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text17 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_Text17
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text18 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text18 div
+{
+   text-align: center;
+}
+#wb_Text18
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text19 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text19 div
+{
+   text-align: center;
+}
+#wb_Text19
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text20 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text20 div
+{
+   text-align: center;
+}
+#wb_Text20
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text21 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text21 div
+{
+   text-align: center;
+}
+#wb_Text21
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text22 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text22 div
+{
+   text-align: center;
+}
+#wb_Text22
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text23 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text23 div
+{
+   text-align: center;
+}
+#wb_Text23
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text24 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text24 div
+{
+   text-align: center;
+}
+#wb_Text24
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_Card6
 {
    display: flex;
@@ -7689,7 +8139,7 @@ body
 }
 #Slidehead .carousel-item-inner
 {
-   padding: 0 0 50px 0;
+   padding: 0 0 5px 0;
 }
 #wb_slideText1
 {
