@@ -34,7 +34,7 @@ const questionsBank = [
 
   // Science
 
-  // Grade 1
+  // Reception
   // Multiple Choice
   ...recscit2amultipleChoiceQuestions,
   ...recscit2bmultipleChoiceQuestions,
@@ -47,7 +47,6 @@ const questionsBank = [
   ...g1scit2bmultipleChoiceQuestions,
   ...g1scit3amultipleChoiceQuestions,
   ...g1scit3bmultipleChoiceQuestions,
-
   // True or False
   ...g1scit1atrueFalseQuestions,
   ...g1scit1btrueFalseQuestions,
@@ -55,7 +54,6 @@ const questionsBank = [
   ...g1scit2btrueFalseQuestions,
   ...g1scit3atrueFalseQuestions,
   ...g1scit3btrueFalseQuestions,
-
   // One Word Questions
   ...g1scit1aoneWordQuestions,
   ...g1scit1boneWordQuestions,
@@ -63,7 +61,6 @@ const questionsBank = [
   ...g1scit2boneWordQuestions,
   ...g1scit3aoneWordQuestions,
   ...g1scit3boneWordQuestions,
-
   // Fill in the Blank Questions
   ...g1scit1afillInTheBlankQuestions,
   ...g1scit1bfillInTheBlankQuestions,
@@ -71,7 +68,6 @@ const questionsBank = [
   ...g1scit2bfillInTheBlankQuestions,
   ...g1scit3afillInTheBlankQuestions,
   ...g1scit3bfillInTheBlankQuestions,
-
   // One Word Questions
   ...g1scit1amatchingQuestions,
   ...g1scit1bmatchingQuestions,
@@ -80,17 +76,46 @@ const questionsBank = [
   ...g1scit3amatchingQuestions,
   ...g1scit3bmatchingQuestions,
 
+  // Grade 2
+  // Multiple Choice
+  // Math
+  ...g2matht1amultipleChoiceQuestions,
+  ...g2matht1bmultipleChoiceQuestions,
+  ...g2matht2amultipleChoiceQuestions,
+  ...g2matht2bmultipleChoiceQuestions,
+  ...g2matht3amultipleChoiceQuestions,
+  ...g2matht3bmultipleChoiceQuestions,
+  // Science
+  ...g2scit1amultipleChoiceQuestions,
+  ...g2scit1bmultipleChoiceQuestions,
+  ...g2scit2amultipleChoiceQuestions,
+  ...g2scit2bmultipleChoiceQuestions,
+  ...g2scit3amultipleChoiceQuestions,
+  ...g2scit3bmultipleChoiceQuestions,
+
   // Grade 3
   // Multiple Choice
+  // SP1
   ...g3sp1t1amultipleChoiceQuestions,
   ...g3sp1t1bmultipleChoiceQuestions,
   ...g3sp1t2amultipleChoiceQuestions,
   ...g3sp1t2bmultipleChoiceQuestions,
   ...g3sp1t3amultipleChoiceQuestions,
   ...g3sp1t3bmultipleChoiceQuestions,
-
-
-
+  // Math
+  ...g3matht1amultipleChoiceQuestions,
+  ...g3matht1bmultipleChoiceQuestions,
+  ...g3matht2amultipleChoiceQuestions,
+  ...g3matht2bmultipleChoiceQuestions,
+  ...g3matht3amultipleChoiceQuestions,
+  ...g3matht3bmultipleChoiceQuestions,
+  // Science
+  ...g3scit1amultipleChoiceQuestions,
+  ...g3scit1bmultipleChoiceQuestions,
+  ...g3scit2amultipleChoiceQuestions,
+  ...g3scit2bmultipleChoiceQuestions,
+  ...g3scit3amultipleChoiceQuestions,
+  ...g3scit3bmultipleChoiceQuestions,
 
   // Grade 5
   // Science
@@ -194,6 +219,33 @@ function displayQuestions() {
     const questionWrapper = document.createElement("div");
     questionWrapper.classList.add("question-wrapper");
 
+// Determine section identifier based on question type
+let sectionIdentifierText;
+switch (q.type) {
+  case "multiple_choice":
+    sectionIdentifierText = "Section A";
+    break;
+  case "true_false":
+    sectionIdentifierText = "Section B";
+    break;
+  case "one_word":
+  case "fill_in_the_blank":
+    sectionIdentifierText = "Section C";
+    break;
+  case "matching":
+    sectionIdentifierText = "Section D";
+    break;
+  default:
+    sectionIdentifierText = "Section";
+    break;
+}
+
+// Add section identifier
+const sectionIdentifier = document.createElement("div");
+sectionIdentifier.classList.add("section-identifier");
+sectionIdentifier.innerHTML = sectionIdentifierText;
+questionWrapper.appendChild(sectionIdentifier);
+      
     const questionText = document.createElement("div");
     questionText.innerHTML = `${index + 1}. ${q.question}`;
     questionWrapper.appendChild(questionText);
