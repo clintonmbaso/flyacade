@@ -47,6 +47,15 @@ const lessonPlans5b = [
   ],
   "conclusion": [
     "By understanding the concept of money and being able to identify Zambian Kwacha coins and bills, students will develop essential skills for managing finances and making informed decisions."
+  ],
+  "heading": [
+    "Introduction to Money with a Focus on Zambian Kwacha: Multiple-Choice Questions"
+  ],
+  "details": [
+    "1. What is the primary purpose of money?<br>   - A) To buy toys<br>   - B) To trade goods and services<br>   - C) To collect as a hobby<br>   - D) To decorate homes<br><br>2. Which of the following is a form of money used in Zambia?<br>   - A) Dollar<br>   - B) Euro<br>   - C) Kwacha<br>   - D) Yen<br><br>3. What is the currency used in Zambia?<br>   - A) Rand<br>   - B) Kwacha<br>   - C) Shilling<br>   - D) Pula<br><br>4. How many Kwacha coins are there in 1 Kwacha?<br>   - A) 50 ngwee<br>   - B) 100 ngwee<br>   - C) 10 ngwee<br>   - D) 5 ngwee<br><br>5. Which of these is a Zambian Kwacha bill denomination?<br>   - A) 50 cents<br>   - B) 10 Kwacha<br>   - C) 25 ngwee<br>   - D) 5 dollars<br><br>6. What is the value of a 50 ngwee coin in Kwacha?<br>   - A) 0.5 Kwacha<br>   - B) 5 Kwacha<br>   - C) 50 Kwacha<br>   - D) 500 Kwacha<br><br>7. Which Kwacha bill features an image of the national coat of arms?<br>   - A) 2 Kwacha<br>   - B) 5 Kwacha<br>   - C) 10 Kwacha<br>   - D) 20 Kwacha<br><br>8. How many ngwee are in 1 Kwacha?<br>   - A) 50<br>   - B) 100<br>   - C) 10<br>   - D) 5<br><br>9. Which coin denomination is the smallest in value among Zambian Kwacha coins?<br>   - A) 1 Kwacha<br>   - B) 50 ngwee<br>   - C) 10 ngwee<br>   - D) 5 ngwee<br><br>10. What is the value of a 5 Kwacha coin in ngwee?<br>    - A) 500 ngwee<br>    - B) 50 ngwee<br>    - C) 5 ngwee<br>    - D) 5000 ngwee<br><br>11. Which of these is a feature of Zambian Kwacha coins?<br>    - A) They are triangular in shape<br>    - B) They are made of plastic<br>    - C) They have unique shapes for each denomination<br>    - D) They are all silver in color<br><br>12. What is the value of a 100 Kwacha bill in ngwee?<br>    - A) 100 ngwee<br>    - B) 1000 ngwee<br>    - C) 10,000 ngwee<br>    - D) 1,000,000 ngwee<br><br>13. Which Kwacha bill features an image of a notable Zambian leader?<br>    - A) 5 Kwacha<br>    - B) 10 Kwacha<br>    - C) 20 Kwacha<br>    - D) 50 Kwacha<br><br>14. How many Kwacha coins are there in 10 Kwacha?<br>    - A) 100<br>    - B) 50<br>    - C) 10<br>    - D) 5<br><br>15. What is the value of a 10 ngwee coin in Kwacha?<br>    - A) 0.1 Kwacha<br>    - B) 1 Kwacha<br>    - C) 10 Kwacha<br>    - D) 100 Kwacha<br><br>16. Which of these is not a Zambian Kwacha coin denomination?<br>    - A) 2 Kwacha<br>    - B) 25 ngwee<br>    - C) 5 Kwacha<br>    - D) 75 ngwee<br><br>17. What is the value of a 20 Kwacha bill in ngwee?<br>    - A) 200 ngwee<br>    - B) 2000 ngwee<br>    - C) 20,000 ngwee<br>    - D) 2,000,000 ngwee<br><br>18. Which Zambian Kwacha coin is equivalent to 100 ngwee?<br>    - A) 1 Kwacha<br>    - B) 10 Kwacha<br>    - C) 100 Kwacha<br>    - D) 1000 Kwacha<br><br>19. What is the value of a 500 Kwacha bill in ngwee?<br>    - A) 5000 ngwee<br>    - B) 50,000 ngwee<br>    - C) 500,000 ngwee<br>    - D) 5,000,000 ngwee<br><br>20. Which of these denominations is the largest Zambian Kwacha bill currently in circulation?<br>    - A) 50 Kwacha<br>    - B) 100 Kwacha<br>    - C) 500 Kwacha<br>    - D) 1000 Kwacha"
+  ],
+  "pic": [
+    "https://example.com/zambian-kwacha-money-quiz.jpg"
   ]
 },
 
@@ -95,6 +104,15 @@ const lessonPlans5b = [
   ],
   "conclusion": [
     "By being able to identify and recognize Zambian Kwacha coins and understanding their values, students will develop essential skills for handling money and making informed decisions."
+  ],
+  "heading": [
+    "Identifying Zambian Kwacha Coins: Multiple-Choice Questions"
+  ],
+  "details": [
+    "1. Which of the following coins is a Zambian Kwacha denomination?<br>   - A) 20 Ngwee<br>   - B) 25 Ngwee<br>   - C) 30 Ngwee<br>   - D) 50 Ngwee<br><br>2. What is the value of a 5 Ngwee coin in Zambian Kwacha?<br>   - A) 0.05 Kwacha<br>   - B) 0.5 Kwacha<br>   - C) 5 Kwacha<br>   - D) 50 Kwacha<br><br>3. Which coin is equivalent to 100 Ngwee?<br>   - A) 5 Ngwee<br>   - B) 10 Ngwee<br>   - C) 50 Ngwee<br>   - D) 1 Kwacha<br><br>4. What is the value of a 50 Ngwee coin in Zambian Kwacha?<br>   - A) 0.50 Kwacha<br>   - B) 5 Kwacha<br>   - C) 50 Kwacha<br>   - D) 500 Kwacha<br><br>5. Which coin has the smallest value among Zambian Kwacha coins?<br>   - A) 5 Ngwee<br>   - B) 10 Ngwee<br>   - C) 50 Ngwee<br>   - D) 1 Kwacha<br><br>6. What is the value of a 10 Ngwee coin in Zambian Kwacha?<br>   - A) 0.01 Kwacha<br>   - B) 0.10 Kwacha<br>   - C) 1 Kwacha<br>   - D) 10 Kwacha<br><br>7. Which coin denomination features an elephant on the reverse side?<br>   - A) 5 Ngwee<br>   - B) 10 Ngwee<br>   - C) 50 Ngwee<br>   - D) 1 Kwacha<br><br>8. What is the value of a 1 Kwacha coin in Ngwee?<br>   - A) 10 Ngwee<br>   - B) 50 Ngwee<br>   - C) 100 Ngwee<br>   - D) 1000 Ngwee<br><br>9. Which coin has the highest value among Zambian Kwacha coins?<br>   - A) 5 Ngwee<br>   - B) 10 Ngwee<br>   - C) 50 Ngwee<br>   - D) 1 Kwacha<br><br>10. What is the color of a 10 Ngwee coin?<br>    - A) Silver<br>    - B) Gold<br>    - C) Copper<br>    - D) Bronze<br><br>11. Which coin denomination is smaller in size compared to others?<br>    - A) 5 Ngwee<br>    - B) 10 Ngwee<br>    - C) 50 Ngwee<br>    - D) 1 Kwacha<br><br>12. What animal is depicted on the 50 Ngwee coin?<br>    - A) Lion<br>    - B) Elephant<br>    - C) Rhino<br>    - D) Giraffe<br><br>13. What is the value of two 5 Ngwee coins together?<br>    - A) 0.05 Kwacha<br>    - B) 0.1 Kwacha<br>    - C) 0.5 Kwacha<br>    - D) 5 Kwacha<br><br>14. Which coin has the largest diameter among Zambian Kwacha coins?<br>    - A) 5 Ngwee<br>    - B) 10 Ngwee<br>    - C) 50 Ngwee<br>    - D) 1 Kwacha<br><br>15. What is the shape of a 1 Kwacha coin?<br>    - A) Circular<br>    - B) Square<br>    - C) Triangular<br>    - D) Pentagon<br><br>16. Which coin denomination is the heaviest in weight?<br>    - A) 5 Ngwee<br>    - B) 10 Ngwee<br>    - C) 50 Ngwee<br>    - D) 1 Kwacha<br><br>17. What is the value of three 10 Ngwee coins together?<br>    - A) 0.03 Kwacha<br>    - B) 0.30 Kwacha<br>    - C) 3 Kwacha<br>    - D) 30 Kwacha<br><br>18. Which coin features the Zambian national emblem on its reverse side?<br>    - A) 5 Ngwee<br>    - B) 10 Ngwee<br>    - C) 50 Ngwee<br>    - D) 1 Kwacha<br><br>19. What is the color of a 5 Ngwee coin?<br>    - A) Silver<br>    - B) Gold<br>    - C) Copper<br>    - D) Bronze<br><br>20. Which coin denomination is commonly used for smaller transactions in Zambia?<br>    - A) 5 Ngwee<br>    - B) 10 Ngwee<br>    - C) 50 Ngwee<br>    - D) 1 Kwacha"
+  ],
+  "pic": [
+    "https://example.com/zambian-kwacha-coins-quiz.jpg"
   ]
 },
 
@@ -143,6 +161,15 @@ const lessonPlans5b = [
   ],
   "conclusion": [
     "By being able to count single Zambian Kwacha coins and small groups of coins, students will develop essential skills for handling money and making accurate transactions."
+  ],
+  "heading": [
+    "Counting Zambian Kwacha Coins: Multiple-Choice Questions"
+  ],
+  "details": [
+    "1. How much is 2 coins of 5 Ngwee each?<br>   - A) 5 Ngwee<br>   - B) 10 Ngwee<br>   - C) 15 Ngwee<br>   - D) 20 Ngwee<br><br>2. If you have 3 coins of 10 Ngwee each, what is their total value?<br>   - A) 20 Ngwee<br>   - B) 30 Ngwee<br>   - C) 40 Ngwee<br>   - D) 50 Ngwee<br><br>3. What is the total value of 4 coins of 50 Ngwee each?<br>   - A) 50 Ngwee<br>   - B) 100 Ngwee<br>   - C) 200 Ngwee<br>   - D) 250 Ngwee<br><br>4. If you have 6 coins of 5 Ngwee each, how much do you have in total?<br>   - A) 10 Ngwee<br>   - B) 20 Ngwee<br>   - C) 30 Ngwee<br>   - D) 40 Ngwee<br><br>5. How much is 3 coins of 1 Kwacha each?<br>   - A) 1 Kwacha<br>   - B) 2 Kwacha<br>   - C) 3 Kwacha<br>   - D) 4 Kwacha<br><br>6. If you have 5 coins of 10 Ngwee each, what is their total value?<br>   - A) 25 Ngwee<br>   - B) 50 Ngwee<br>   - C) 75 Ngwee<br>   - D) 100 Ngwee<br><br>7. What is the total value of 2 coins of 50 Ngwee and 3 coins of 5 Ngwee each?<br>   - A) 60 Ngwee<br>   - B) 65 Ngwee<br>   - C) 70 Ngwee<br>   - D) 75 Ngwee<br><br>8. If you have 8 coins of 5 Ngwee each, how much do you have in total?<br>   - A) 35 Ngwee<br>   - B) 40 Ngwee<br>   - C) 45 Ngwee<br>   - D) 50 Ngwee<br><br>9. How much is 4 coins of 1 Kwacha each?<br>   - A) 2 Kwacha<br>   - B) 3 Kwacha<br>   - C) 4 Kwacha<br>   - D) 5 Kwacha<br><br>10. If you have 7 coins of 10 Ngwee each, what is their total value?<br>    - A) 40 Ngwee<br>    - B) 50 Ngwee<br>    - C) 60 Ngwee<br>    - D) 70 Ngwee<br><br>11. What is the total value of 3 coins of 50 Ngwee and 2 coins of 10 Ngwee each?<br>    - A) 100 Ngwee<br>    - B) 110 Ngwee<br>    - C) 120 Ngwee<br>    - D) 130 Ngwee<br><br>12. If you have 9 coins of 5 Ngwee each, how much do you have in total?<br>    - A) 40 Ngwee<br>    - B) 45 Ngwee<br>    - C) 50 Ngwee<br>    - D) 55 Ngwee<br><br>13. How much is 5 coins of 1 Kwacha each?<br>    - A) 2 Kwacha<br>    - B) 3 Kwacha<br>    - C) 4 Kwacha<br>    - D) 5 Kwacha<br><br>14. If you have 6 coins of 10 Ngwee each, what is their total value?<br>    - A) 30 Ngwee<br>    - B) 40 Ngwee<br>    - C) 50 Ngwee<br>    - D) 60 Ngwee<br><br>15. What is the total value of 4 coins of 50 Ngwee and 3 coins of 5 Ngwee each?<br>    - A) 150 Ngwee<br>    - B) 155 Ngwee<br>    - C) 160 Ngwee<br>    - D) 165 Ngwee<br><br>16. If you have 7 coins of 5 Ngwee each, how much do you have in total?<br>    - A) 30 Ngwee<br>    - B) 35 Ngwee<br>    - C) 40 Ngwee<br>    - D) 45 Ngwee<br><br>17. How much is 6 coins of 1 Kwacha each?<br>    - A) 3 Kwacha<br>    - B) 4 Kwacha<br>    - C) 5 Kwacha<br>    - D) 6 Kwacha<br><br>18. If you have 8 coins of 10 Ngwee each, what is their total value?<br>    - A) 60 Ngwee<br>    - B) 70 Ngwee<br>    - C) 80 Ngwee<br>    - D) 90 Ngwee<br><br>19. What is the total value of 5 coins of 50 Ngwee and 4 coins of 5 Ngwee each?<br>    - A) 250 Ngwee<br>    - B) 255 Ngwee<br>    - C) 260 Ngwee<br>    - D) 265 Ngwee<br><br>20. If you have 9 coins of 5 Ngwee each, how much do you have in total?<br>    - A) 40 Ngwee<br>    - B) 45 Ngwee<br>    - C) 50 Ngwee<br>    - D) 55 Ngwee"
+  ],
+  "pic": [
+    "https://example.com/zambian-kwacha-coins-counting-quiz.jpg"
   ]
 },
 
@@ -192,7 +219,8 @@ const lessonPlans5b = [
   ],
   "conclusion": [
     "By being able to identify and count Zambian Kwacha notes and understand the concept that 1 Kwacha equals 100 Ngwee, students will develop essential skills for managing money and making informed decisions."
-  ]
+  ],
+    
 },
 
 // Lesson 2

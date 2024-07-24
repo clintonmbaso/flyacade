@@ -116,45 +116,87 @@ const lessonPlans5a = [
   "term": "1",
   "week": "2",
   "lessonNumber": "3",
-  "description": "This lesson focuses on extending addition skills to three-digit numbers without regrouping, emphasizing place value understanding and real-life applications.",
+  "description": "This lesson extends students' understanding of addition to three-digit numbers, focusing on adding them without regrouping through step-by-step examples and practice exercises.",
   "materials": [
-    "Base-10 blocks or place value charts",
     "Whiteboard and markers",
-    "Example sheets with three-digit addition problems",
-    "Real-life word problem scenarios"
+    "Example sheets with three-digit addition problems (without regrouping)"
   ],
   "objectives": [
-    "Students will extend their understanding of addition to three-digit numbers.",
-    "Students will learn to add three-digit numbers without regrouping.",
-    "Students will practice through various examples and real-life word problems."
+    "Extend students' understanding of addition to three-digit numbers.",
+    "Teach students how to add three-digit numbers without regrouping."
   ],
   "rationale": [
-    "Mastering addition of three-digit numbers builds on foundational math skills and prepares students for more complex arithmetic and problem-solving."
+    "Mastering addition of three-digit numbers without regrouping builds foundational math skills and enhances computational fluency."
   ],
   "methodology": [
-    "The lesson will involve interactive demonstrations using base-10 blocks or place value charts, guided practice with example problems, solving real-life word problems, and collaborative learning through partner activities."
+    "The lesson will involve direct instruction, interactive discussions, guided practice, independent practice, and a review of addition strategies."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Discuss the concept of adding three-digit numbers and review place value.",
-      "<b>Place Value Demonstration:</b> Use base-10 blocks or place value charts to demonstrate adding hundreds, tens, and ones separately.",
-      "<b>Example Problems:</b> Solve three-digit addition problems together as a class, focusing on adding without regrouping (e.g., 235 + 124).",
-      "<b>Real-life Word Problems:</b> Present scenarios where students apply three-digit addition to real-world situations (e.g., adding quantities from a shopping list).",
-      "<b>Partner Activity:</b> Pair students to solve three-digit addition problems using whiteboards and markers, exchanging and verifying answers.",
-      "<b>Class Discussion:</b> Review addition strategies and discuss any challenges encountered during the activity.",
-      "<b>Class Exercise:</b><br>1. Solve three-digit addition problems independently.<br>2. Exchange papers with a partner to check solutions.<br>3. Discuss different approaches used to solve the problems.",
-      "<b>Homework:</b><br>1. Practice adding three-digit numbers at home using the example sheets provided.<br>2. Solve real-life word problems involving three-digit addition and write down solutions to discuss in class."
+      "<b>Introduction:</b> Begin by reviewing addition concepts and explaining the process of adding three-digit numbers without regrouping.",
+      "<b>Example Problems:</b> Provide step-by-step examples of how to add three-digit numbers without regrouping, using problems like 345 + 178.",
+      "<b>Practical Life Examples:</b> Discuss real-life scenarios where adding three-digit numbers without regrouping can be useful, such as in calculating expenses or quantities.",
+      "<b>Class Exercise:</b><br>1. Solve addition problems like 456 + 289, 523 + 187, and 745 + 123 independently.<br>2. Provide a marking key to check solutions and discuss different methods used.",
+      "<b>Homework:</b><br>1. Practice adding three-digit numbers without regrouping at home using the example sheets provided.<br>2. Write down scenarios where knowledge of adding three-digit numbers without regrouping is applicable."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of place value and addition techniques through their participation in activities and class discussions.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' ability to correctly solve three-digit addition problems independently.<br>2. Review homework problems for accuracy and understanding."
+    "<b>Observation:</b> The teacher will assess students' ability to add three-digit numbers without regrouping through their participation in activities and class discussions.",
+    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in solving addition problems involving three-digit numbers without regrouping independently.<br>2. Review homework assignments for completeness and understanding."
   ],
   "conclusion": [
-    "By actively engaging in hands-on activities, solving real-life scenarios, and collaborative problem-solving, students will develop confidence in adding three-digit numbers and apply their skills effectively."
+    "By actively engaging in activities, practicing addition of three-digit numbers without regrouping, and discussing practical applications, students will develop proficiency in this mathematical skill."
   ]
 },
+
+// Lesson 4
+{
+  "title": "Adding Four-Digit Numbers",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Adding Four-Digit Numbers",
+  "grade": "Cloud Chicks",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "4",
+  "description": "This lesson extends students' understanding of addition to four-digit numbers, focusing on adding them without regrouping through step-by-step examples and practice exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Example sheets with four-digit addition problems (without regrouping)"
+  ],
+  "objectives": [
+    "Extend students' understanding of addition to four-digit numbers.",
+    "Teach students how to add four-digit numbers without regrouping."
+  ],
+  "rationale": [
+    "Mastering addition of four-digit numbers without regrouping builds foundational math skills and enhances computational fluency."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction, interactive discussions, guided practice, independent practice, and a review of addition strategies."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction:</b> Begin by reviewing addition concepts and explaining the process of adding four-digit numbers without regrouping.",
+      "<b>Example Problems:</b> Provide step-by-step examples of how to add four-digit numbers without regrouping, using problems like 3245 + 1876.",
+      "<b>Practical Life Examples:</b> Discuss real-life scenarios where adding four-digit numbers without regrouping can be useful, such as in budgeting or counting large quantities.",
+      "<b>Class Exercise:</b><br>1. Solve addition problems like 4367 + 2894, 5123 + 1987, and 7456 + 1234 independently.<br>2. Provide a marking key to check solutions and discuss different methods used.",
+      "<b>Homework:</b><br>1. Practice adding four-digit numbers without regrouping at home using the example sheets provided.<br>2. Write down scenarios where knowledge of adding four-digit numbers without regrouping is applicable."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' ability to add four-digit numbers without regrouping through their participation in activities and class discussions.",
+    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in solving addition problems involving four-digit numbers without regrouping independently.<br>2. Review homework assignments for completeness and understanding."
+  ],
+  "conclusion": [
+    "By actively engaging in activities, practicing addition of four-digit numbers without regrouping, and discussing practical applications, students will develop proficiency in this mathematical skill."
+  ]
+},
+
 
 // Week 3
 // Lesson 1
