@@ -1,30 +1,11 @@
-const g1scit2amatchingQuestions = [
-  {
-    type: "matching",
-    class: "Nimbus Navigators",
-    subject: "Mental Math",
-    term: "Term 1",
-    part: "Mid Term",
-    question: "Match the following countries with their capitals:",
-    pairs: [
-      { question: "India", answer: "New Delhi" },
-      { question: "Germany", answer: "Berlin" },
-      { question: "Brazil", answer: "Brasilia" },
-      { question: "Australia", answer: "Canberra" }
-    ]
-  },
-  {
-    type: "matching",
-    class: "Nimbus Navigators",
-    subject: "Mental Math",
-    term: "Term 1",
-    part: "Mid Term",
-    question: "Match the following animals with their sounds:",
-    pairs: [
-      { question: "Cat", answer: "Meow" },
-      { question: "Dog", answer: "Woof" },
-      { question: "Cow", answer: "Moo" },
-      { question: "Rooster", answer: "Cock-a-doodle-doo" }
-    ]
-  }
+const g3scit1amultipleChoiceQuestions = [
+{
+  "heading": [
+    "Grade 3 Materials: Multiple-Choice Questions"
+  ],
+  "details": [
+    "1. What are materials?<br>   - A) Things we use for games<br>   - B) Things we use in everyday life<br>   - C) Things that are colorful<br>   - D) Things that fly in the sky<br><br>2. Why are materials important in everyday life?<br>   - A) To build houses and make clothes<br>   - B) To count stars in the sky<br>   - C) To learn new games<br>   - D) To dance in the rain<br><br>3. Which of these is an example of a natural material?<br>   - A) Plastic<br>   - B) Glass<br>   - C) Cotton<br>   - D) Metal<br><br>4. What are natural materials?<br>   - A) Materials made by people<br>   - B) Materials found in nature<br>   - C) Materials that are blue<br>   - D) Materials that are big<br><br>5. Which of these is an example of a man-made material?<br>   - A) Wood<br>   - B) Stone<br>   - C) Rubber<br>   - D) Water<br><br>6. How are man-made materials different from natural materials?<br>   - A) Man-made materials come from plants<br>   - B) Man-made materials are made by people<br>   - C) Man-made materials are always heavy<br>   - D) Man-made materials are all black<br><br>7. Which material is made from cotton?<br>   - A) Plastic bag<br>   - B) T-shirt<br>   - C) Metal spoon<br>   - D) Glass bottle<br><br>8. What is an example of a natural material used to build houses?<br>   - A) Glass<br>   - B) Brick<br>   - C) Plastic<br>   - D) Rubber<br><br>9. Which material is man-made and used to make shoes?<br>   - A) Leather<br>   - B) Wool<br>   - C) Stone<br>   - D) Sand<br><br>10. Which material is natural and can be eaten?<br>    - A) Plastic<br>    - B) Metal<br>    - C) Wood<br>    - D) Fruit<br><br>11. What is an example of a man-made material used to make toys?<br>    - A) Paper<br>    - B) Wood<br>    - C) Plastic<br>    - D) Rock<br><br>12. Which material is natural and used to make paper?<br>    - A) Cotton<br>    - B) Glass<br>    - C) Metal<br>    - D) Plastic<br><br>13. What is an example of a man-made material used to make roads?<br>    - A) Sand<br>    - B) Cement<br>    - C) Stone<br>    - D) Soil<br><br>14. Which material is natural and used to make ropes?<br>    - A) Rubber<br>    - B) Wool<br>    - C) Plastic<br>    - D) Glass<br><br>15. What is an example of a man-made material used to make computers?<br>    - A) Wood<br>    - B) Metal<br>    - C) Plastic<br>    - D) Cotton<br><br>16. Which material is natural and used to make honey?<br>    - A) Plastic<br>    - B) Metal<br>    - C) Glass<br>    - D) Beeswax<br><br>17. What is an example of a man-made material used to make clothes?<br>    - A) Cotton<br>    - B) Wool<br>    - C) Silk<br>    - D) Leather<br><br>18. Which material is natural and used to make milk?<br>    - A) Plastic<br>    - B) Metal<br>    - C) Glass<br>    - D) Cow<br><br>19. What is an example of a man-made material used to make cars?<br>    - A) Wood<br>    - B) Metal<br>    - C) Cotton<br>    - D) Wool<br><br>20. Which material is natural and used to make ice cream?<br>    - A) Plastic<br>    - B) Metal<br>    - C) Glass<br>    - D) Milk"
+  ],
+  "pic": []
+}
 ];

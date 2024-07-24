@@ -1,4 +1,4 @@
-const g1scit2amatchingQuestions = [
+const g3scit3amultipleChoiceQuestions = [
   {
     type: "matching",
     class: "Nimbus Navigators",
