@@ -1,4 +1,4 @@
-const g1scit2afillInTheBlankQuestions = [
+const g4scit3amultipleChoiceQuestions = [
   {
     type: "fill_in_the_blank",
     class: "Sky Soarers",

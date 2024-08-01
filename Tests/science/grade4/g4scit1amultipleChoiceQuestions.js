@@ -1,4 +1,4 @@
-const g4scit1bmultipleChoiceQuestions = [
+const g4scit1amultipleChoiceQuestions = [
   {
     type: "matching",
     class: "Nimbus Navigators",

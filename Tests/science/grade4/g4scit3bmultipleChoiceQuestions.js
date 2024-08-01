@@ -1,4 +1,4 @@
-const g1scit2aoneWordQuestions = [
+const g4scit3bmultipleChoiceQuestions = [
   {
     type: "one_word",
     class: "Cloud Chicks",
