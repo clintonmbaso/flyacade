@@ -13,8 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // Event listener for button click to display questions
+  // Display questions when the page loads
   displayQuestions();
+
+  // Display the total number of questions
+  const questionCountDisplay = document.getElementById("question-count");
+  if (questionCountDisplay) {
+    questionCountDisplay.innerHTML = `Total Bank Questions: ${countTotalQuestions()}`;
+  }
 
   // Event listener for button click to generate PDF
   document.getElementById("generate-pdf").addEventListener("click", generatePDF);
@@ -31,6 +37,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Merge arrays from separate files into a single questionsBank array
 const questionsBank = [
+
+  // Middle
+  // Science
+  ...midscit1amultipleChoiceQuestions,
+  ...midscit1bmultipleChoiceQuestions,
+  ...midscit2amultipleChoiceQuestions,
+  ...midscit2bmultipleChoiceQuestions,
+  ...midscit3amultipleChoiceQuestions,
+  ...midscit3bmultipleChoiceQuestions,
+
 
   // Science
 
@@ -117,6 +133,22 @@ const questionsBank = [
   ...g3scit3amultipleChoiceQuestions,
   ...g3scit3bmultipleChoiceQuestions,
 
+// Grade 4
+  // Science
+  ...g4scit1amultipleChoiceQuestions,
+  ...g4scit1bmultipleChoiceQuestions,
+  ...g4scit2amultipleChoiceQuestions,
+  ...g4scit2bmultipleChoiceQuestions,
+  ...g4scit3amultipleChoiceQuestions,
+  ...g4scit3bmultipleChoiceQuestions,
+// True or False
+  ...g4scit1atrueFalseQuestions,
+  ...g4scit1btrueFalseQuestions,
+  ...g4scit2atrueFalseQuestions,
+  ...g4scit2btrueFalseQuestions,
+  ...g4scit3atrueFalseQuestions,
+  ...g4scit3btrueFalseQuestions,
+
   // Grade 5
   // Science
   // Multiple Choice
@@ -151,11 +183,14 @@ const questionsBank = [
   ...g5sst3atrueFalseQuestions,
   ...g5sst3btrueFalseQuestions,
 
-
-
-
-
 ];
+
+
+
+// Function to count the total number of questions in the questionsBank array
+function countTotalQuestions() {
+  return questionsBank.length;
+}
 
 // Function to generate random questions
 function generateRandomQuestions() {
@@ -171,7 +206,6 @@ function generateRandomQuestions() {
   const selectedPart = document.getElementById("part-filter").value;
 
   const filteredQuestions = questionsBank.filter(question => {
-    // Add conditions based on selected filters
     return (
       (selectedClass === "" || question.class === selectedClass) &&
       (selectedSubject === "" || question.subject === selectedSubject) &&
@@ -215,37 +249,52 @@ function displayQuestions() {
   const questionsContainer = document.getElementById("questions-container");
   questionsContainer.innerHTML = ""; // Clear previous questions
   const questions = generateRandomQuestions();
+  
+  // Track added sections to avoid duplicates
+  const addedSections = {
+    "multiple_choice": false,
+    "true_false": false,
+    "one_word": false,
+    "fill_in_the_blank": false,
+    "matching": false
+  };
+
+  let sectionIdentifierText = "";
+
   questions.forEach((q, index) => {
     const questionWrapper = document.createElement("div");
     questionWrapper.classList.add("question-wrapper");
 
-// Determine section identifier based on question type
-let sectionIdentifierText;
-switch (q.type) {
-  case "multiple_choice":
-    sectionIdentifierText = "Section A";
-    break;
-  case "true_false":
-    sectionIdentifierText = "Section B";
-    break;
-  case "one_word":
-  case "fill_in_the_blank":
-    sectionIdentifierText = "Section C";
-    break;
-  case "matching":
-    sectionIdentifierText = "Section D";
-    break;
-  default:
-    sectionIdentifierText = "Section";
-    break;
-}
+    // Determine section identifier based on question type and whether it has been added
+    if (!addedSections[q.type]) {
+      addedSections[q.type] = true;
 
-// Add section identifier
-const sectionIdentifier = document.createElement("div");
-sectionIdentifier.classList.add("section-identifier");
-sectionIdentifier.innerHTML = sectionIdentifierText;
-questionWrapper.appendChild(sectionIdentifier);
-      
+      switch (q.type) {
+        case "multiple_choice":
+          sectionIdentifierText = "Section A";
+          break;
+        case "true_false":
+          sectionIdentifierText = "Section B";
+          break;
+        case "one_word":
+        case "fill_in_the_blank":
+          sectionIdentifierText = "Section C";
+          break;
+        case "matching":
+          sectionIdentifierText = "Section D";
+          break;
+        default:
+          sectionIdentifierText = "Section";
+          break;
+      }
+
+      // Add section identifier
+      const sectionIdentifier = document.createElement("div");
+      sectionIdentifier.classList.add("section-identifier");
+      sectionIdentifier.innerHTML = sectionIdentifierText;
+      questionWrapper.appendChild(sectionIdentifier);
+    }
+
     const questionText = document.createElement("div");
     questionText.innerHTML = `${index + 1}. ${q.question}`;
     questionWrapper.appendChild(questionText);
@@ -341,7 +390,7 @@ function generatePDF() {
     doc.text(`${index + 1}. ${q.question}`, 10, yPos);
     yPos += 5; 
         
-switch (q.type) {
+    switch (q.type) {
       case "multiple_choice":
         q.choices.forEach((choice, i) => {
           yPos += 5;
@@ -349,39 +398,26 @@ switch (q.type) {
         });
         break;
       case "true_false":
-        yPos += 5;
         doc.text("a) True", 15, yPos);
         yPos += 5;
         doc.text("b) False", 15, yPos);
         break;
       case "one_word":
       case "fill_in_the_blank":
-        yPos += 5;
-        doc.text("Answer: ______________________", 15, yPos);
+        doc.text("Answer: __________________", 15, yPos);
         break;
       case "matching":
         q.pairs.forEach((pair, i) => {
           yPos += 5;
-          doc.text(`${i + 1}. ${pair.question} - ______________________`, 15, yPos);
+          doc.text(`${i + 1}) ${pair.question} __________________`, 15, yPos);
         });
         break;
       default:
         break;
     }
-    yPos += 10;
-  });
-
-  // Add marking key
-  yPos += 10;
-  doc.text("Marking Key", 10, yPos);
-  yPos += 5;
-  questions.forEach((q, index) => {
-    yPos += 10;
-    doc.text(`${index + 1}. ${q.question}`, 10, yPos);
-    yPos += 5;
-    doc.text(`Answer: ${q.answer}`, 15, yPos);
+    yPos += 10; // Add space between questions
   });
 
   // Save the PDF
-  doc.save("questions.pdf");
+  doc.save('questions.pdf');
 }
