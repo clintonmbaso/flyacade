@@ -8,18 +8,19 @@
 </head>
 <body>
     <div class="gallery-container">
-        <div class="gallery">
-            <!-- Add your images here -->
-            <div class="gallery-item">
-                <img src="https://drive.usercontent.google.com/download?id=1-hs_wHZ7vMzIqf24LIs4Sp_qopLW7Yzm&export=view&authuser=0" alt="Image 1" />
-                <div class="gallery-item-info">
-                    <button onclick="downloadImage('../images/nature.jpg')">Download</button>
-                    <button onclick="saveImage('../images/nature.jpg')">Save to Phone</button>
-                </div>
-            </div>
-            <!-- Repeat for more images -->
+        <div class="gallery" id="gallery">
+            <!-- Images will be dynamically loaded here -->
         </div>
     </div>
+
+    <!-- Modal for full-size image display -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="photo.js"></script>
     <script src="galary.js"></script>
 </body>
 </html>

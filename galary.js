@@ -1,54 +1,67 @@
-function downloadImage(url) {
-    // Create an anchor element and trigger download
+// Function to create gallery items
+function createGallery() {
+    const gallery = document.getElementById('gallery');
+
+    imageData.forEach(image => {
+        const galleryItem = document.createElement('div');
+        galleryItem.className = 'gallery-item';
+
+        const img = document.createElement('img');
+        img.src = image.url;
+        img.alt = image.alt;
+        img.onclick = () => showFullImage(image.url, image.alt);
+        img.onerror = function() {
+            img.src = 'https://via.placeholder.com/150'; // Placeholder image on error
+            img.alt = 'Image not found';
+        };
+
+        const infoDiv = document.createElement('div');
+        infoDiv.className = 'gallery-item-info';
+
+        const downloadButton = document.createElement('button');
+        downloadButton.textContent = 'Download';
+        downloadButton.onclick = (e) => {
+            e.stopPropagation(); // Prevent modal from opening
+            downloadImage(image.url, image.alt);
+        };
+
+        infoDiv.appendChild(downloadButton);
+        galleryItem.appendChild(img);
+        galleryItem.appendChild(infoDiv);
+        gallery.appendChild(galleryItem);
+    });
+}
+
+// Function to handle image download
+function downloadImage(url, filename) {
     const a = document.createElement('a');
     a.href = url;
-    a.download = url.split('/').pop();
+    a.download = filename; // Use the image filename for download
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
 }
 
-function saveImage(url) {
-    // Open IndexedDB and store image
-    if (!window.indexedDB) {
-        alert('IndexedDB not supported.');
-        return;
-    }
+// Function to show full-size image in modal
+function showFullImage(url, alt) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const captionText = document.getElementById('caption');
 
-    const request = indexedDB.open('photoGallery', 1);
-
-    request.onupgradeneeded = function(event) {
-        const db = event.target.result;
-        if (!db.objectStoreNames.contains('images')) {
-            db.createObjectStore('images', { keyPath: 'id', autoIncrement: true });
-        }
-    };
-
-    request.onsuccess = function(event) {
-        const db = event.target.result;
-        const transaction = db.transaction(['images'], 'readwrite');
-        const store = transaction.objectStore('images');
-
-        fetch(url)
-            .then(response => response.blob())
-            .then(blob => {
-                const reader = new FileReader();
-                reader.onloadend = function() {
-                    store.add({ id: url, data: reader.result });
-                };
-                reader.readAsDataURL(blob);
-            });
-
-        transaction.oncomplete = function() {
-            alert('Image saved to IndexedDB.');
-        };
-
-        transaction.onerror = function() {
-            alert('Error saving image.');
-        };
-    };
-
-    request.onerror = function() {
-        alert('Database error.');
-    };
+    modal.style.display = 'block';
+    modalImg.src = url;
+    captionText.innerHTML = alt;
 }
+
+// Function to close the modal
+function closeModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+}
+
+// Event listener for closing the modal
+const closeModalBtn = document.querySelector('.close');
+closeModalBtn.onclick = closeModal;
+
+// Initialize the gallery when the page loads
+window.onload = createGallery;
