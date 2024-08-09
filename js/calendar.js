@@ -262,11 +262,11 @@ function displayCalendar(inputDate) {
       }
       
       else if (month === 8 && day === 13) {
-        return [`All requirents should be brought in on ${year}-09-${day}`,`KEMD - Pathfinder Back to School Community Service on ${year}-09-${day}`];
+        return [`All requirents should be brought in on ${year}-09-${day}`];
       }
       
       else if (month === 8 && day === 20) {
-        return [`All September Payments should be cleared on ${year}-09-${day}`,`KEMD - Adventurer Fun Day on ${year}-09-${day}`];
+        return [`All September Payments should be cleared on ${year}-09-${day}`];
       }
       
  /*     else if (month === 8 && day === 21) {
@@ -286,6 +286,18 @@ function displayCalendar(inputDate) {
       
       //October
       
+        else if (month === 9 && day === 5) {
+        return [`Teachers Day on ${year}-10-${day}`];
+      }
+        
+      else if (month === 9 && day === 6) {
+        return [`Teachers Day Out on ${year}-10-${day}`];
+      }
+        
+      else if (month === 9 && day === 7) {
+        return [`Mid-Term 3 Assessments Begin on ${year}-10-${day}`];
+      }
+        
       else if (month === 9 && day === 13) {
         return [`Happy Birthday Bridget on ${year}-10-${day}`];
       }
@@ -304,36 +316,25 @@ function displayCalendar(inputDate) {
       
       
       //November
-      else if (month === 10 && day === 10) {
-        return [`KEMD - Church Heritage Exams on ${year}-11-${day}`];
+      else if (month === 10 && day === 25) {
+        return [`End-Term Assessments Begin on ${year}-11-${day}`];
       }
-      
-      else if (month === 10 && day === 24) {
-        return [`KEMD - Young Adult Recreation on ${year}-11-${day}`];
-      }
-      
-      
-      
+        
       
       
       //December
-      else if (month === 11 && day === 7) {
-        return [`MEZC - Grand Investiture at MICC KK Wing on ${year}-12-${day}`];
+      else if (month === 11 && day === 4) {
+        return [`End of Assessments on ${year}-12-${day}`];
       }
       
-      else if (month === 11 && day === 28) {
-        return [`KEMD - Pathfinder Big Sabbath on ${year}-12-${day}`];
+      else if (month === 11 && day === 5) {
+        return [`Graduation Day on ${year}-12-${day}`];
       }
       
-      else if (month === 11 && day === 29) {
-        return [`MEZC - I Love My Neighbor by the Young Adults in Local Churches on ${year}-12-${day}`];
+      else if (month === 11 && day === 6) {
+        return [`Open Day on ${year}-12-${day}`];
       }
-      
-      else if (month === 11 && day === 31) {
-        return [`KEMD - Music Crossover tour on ${year}-12-${day}`];
-      }
-      
-      
+        
       
       return [];
     }
