@@ -7,9 +7,9 @@ function createGallery() {
         galleryItem.className = 'gallery-item';
 
         const img = document.createElement('img');
-        img.src = image.url;
+        img.src = image.viewUrl;
         img.alt = image.alt;
-        img.onclick = () => showFullImage(image.url, image.alt);
+        img.onclick = () => showFullImage(image.viewUrl, image.alt);
         img.onerror = function() {
             img.src = 'https://via.placeholder.com/150'; // Placeholder image on error
             img.alt = 'Image not found';
@@ -22,7 +22,7 @@ function createGallery() {
         downloadButton.textContent = 'Download';
         downloadButton.onclick = (e) => {
             e.stopPropagation(); // Prevent modal from opening
-            downloadImage(image.url, image.alt);
+            downloadImage(image.downloadUrl, image.alt);
         };
 
         infoDiv.appendChild(downloadButton);
