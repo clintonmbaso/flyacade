@@ -2,7 +2,10 @@
 function createGallery() {
     const gallery = document.getElementById('gallery');
 
-    imageData.forEach(image => {
+    // Reverse the order of imageData to show latest images first
+    const reversedImageData = imageData.slice().reverse(); // Create a reversed copy of the imageData array
+
+    reversedImageData.forEach(image => {
         const galleryItem = document.createElement('div');
         galleryItem.className = 'gallery-item';
 
