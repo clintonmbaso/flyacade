@@ -20,7 +20,7 @@ body {
 
 .gallery-item {
     position: relative;
-    width: 200px;
+    width: 100%;
     height: auto;
     overflow: hidden;
     border-radius: 8px;
