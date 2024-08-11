@@ -229,17 +229,17 @@ a:hover
    padding: 0;
    margin: 0;
    position: absolute;
-   margin-left: -210px;
-   left: 50%;
+   margin-left: 0px;
+   left: 5%;
    vertical-align: middle;
    z-index: 999;
 }
 #Slidehead .carousel-indicators li
 {
    display: block;
-   float: left;
-   margin: 6px 6px 6px 6px;
-   width: 29px;
+   float: right;
+   margin: 3px;
+   width: 7px;
    height: 3px;
    cursor: pointer;
    text-indent: -999px;
@@ -337,7 +337,7 @@ a:hover
 #Slidehead .frame-1
 {
    background-color: transparent;
-   background-image: url('images/fly1.jpg');
+   background-image: url('images/fly01.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -346,7 +346,7 @@ a:hover
 #Slidehead .frame-2
 {
    background-color: transparent;
-   background-image: url('images/fly2.jpg');
+   background-image: url('images/fly02.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -355,7 +355,7 @@ a:hover
 #Slidehead .frame-3
 {
    background-color: transparent;
-   background-image: url('images/fly3.jpg');
+   background-image: url('images/fly03.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -364,7 +364,7 @@ a:hover
 #Slidehead .frame-4
 {
    background-color: transparent;
-   background-image: url('images/fly4.jpg');
+   background-image: url('images/fly04.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -373,7 +373,7 @@ a:hover
 #Slidehead .frame-5
 {
    background-color: transparent;
-   background-image: url('images/fly5.jpg');
+   background-image: url('images/fly05.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -382,7 +382,7 @@ a:hover
 #Slidehead .frame-6
 {
    background-color: transparent;
-   background-image: url('images/fly6.jpg');
+   background-image: url('images/fly06.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -391,7 +391,7 @@ a:hover
 #Slidehead .frame-7
 {
    background-color: transparent;
-   background-image: url('images/fly7.jpg');
+   background-image: url('images/fly07.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -400,7 +400,7 @@ a:hover
 #Slidehead .frame-8
 {
    background-color: transparent;
-   background-image: url('images/fly8.jpg');
+   background-image: url('images/fly08.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -409,7 +409,7 @@ a:hover
 #Slidehead .frame-9
 {
    background-color: transparent;
-   background-image: url('images/fly9.jpg');
+   background-image: url('images/fly09.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
