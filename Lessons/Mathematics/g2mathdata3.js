@@ -149,52 +149,152 @@ const lessonPlans5c = [
 // Week 3
 // Lesson 1
 {
-  "title": "Pictographs",
+  "title": "Analyzing and Comparing Bar Graphs",
   "school": "Flying Wings Academy",
-  "teacher": "Mr. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, October 14, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Analyzing and Comparing Bar Graphs",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "3",
+  "lessonNumber": "1",
+  "description": "This lesson focuses on reviewing bar graphs, analyzing and comparing different graphs, and conducting a new class survey to create and discuss a bar graph.",
+  "materials": [
+    "Previous student-created bar graphs",
+    "Whiteboard and markers",
+    "Chart paper",
+    "Stickers or cutouts for survey data",
+    "Paper and pencils for students"
+  ],
+  "objectives": [
+    "Students will review the basics of bar graphs and analyze previously created graphs.",
+    "Students will compare multiple bar graphs and discuss similarities and differences.",
+    "Students will conduct a new class survey, create a bar graph, and discuss its findings."
+  ],
+  "rationale": [
+    "Analyzing and comparing bar graphs helps students understand how to interpret data from multiple sources and improve their data analysis skills. Conducting a new survey allows students to apply their learning in a practical way."
+  ],
+  "methodology": [
+    "The lesson will start with a review of previous bar graphs, followed by analyzing and comparing new graphs. Students will then conduct a class survey and discuss the results."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review (10 minutes):</b><br>Start by reviewing the basics of bar graphs from the previous lesson. Use the graphs created by the students to refresh their understanding and highlight key concepts.",
+      "<b>Analyzing Graphs (15 minutes):</b><br>Present two or more simple bar graphs on the whiteboard, each representing different data (e.g., favorite colors and favorite animals). Discuss with students which category has the most votes in each graph.",
+      "<b>Comparing Graphs (15 minutes):</b><br>Have students compare the two graphs and identify similarities and differences. Ask questions such as 'Which category has more votes: favorite colors or favorite animals?' to guide the discussion.",
+      "<b>Class Survey (20 minutes):</b><br>Conduct a new class survey on a different topic, such as 'favorite seasons.' Help students create a new bar graph on the whiteboard using the collected data, ensuring they understand the process of data representation.",
+      "<b>Discussion (10 minutes):</b><br>Engage the class in a discussion about the new graph. Compare it to previous graphs, discuss what can be learned from it, and identify the most and least popular categories based on the graph."
+    ]
+  ],
+  "assessments": [
+    "<b>Class Participation:</b> Observe students' engagement during the graph analysis and comparison activities. Ensure they can correctly interpret and compare bar graphs.",
+    "<br><b>Class Survey and Graph Creation:</b> Review the new bar graph created by students for accuracy. Provide feedback on their ability to conduct a survey and represent data visually."
+  ],
+  "conclusion": [
+    "Summarize the key points about analyzing and comparing bar graphs. Reinforce the importance of understanding how to interpret and use graphs to make informed conclusions about data."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Creating Simple Pictographs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, October 15, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Pictographs",
   "grade": "Cloud Chicks",
   "term": "3",
   "week": "3",
-  "lessonNumber": "1",
-  "description": "This lesson aims to introduce second-grade students to pictographs, teaching them how to create simple pictographs, read and interpret information from them, and count picture symbols to gather data.",
+  "lessonNumber": "2",
+  "description": "This lesson will focus on guiding students through the process of creating simple pictographs using picture symbols, ensuring they understand how to represent data visually.",
   "materials": [
-    "Chart paper or whiteboard",
+    "Chart paper",
     "Markers or colored pencils",
-    "Picture symbols (e.g., stickers, drawings)"
+    "Picture symbols (pre-printed or drawn by students)",
+    "Paper and pencils for students"
   ],
   "objectives": [
-    "Students will understand what pictographs are and why they are used.",
     "Students will create simple pictographs using picture symbols.",
-    "Students will read and interpret information presented in pictographs.",
-    "Students will count picture symbols to gather data."
+    "Students will understand the process of creating a pictograph.",
+    "Students will learn the importance of selecting appropriate picture symbols.",
+    "Students will be guided in choosing a data set and corresponding symbols."
   ],
   "rationale": [
-    "Learning about pictographs helps students develop visual literacy skills and understand how to represent and interpret data using visual representations."
+    "Pictographs are a simple and effective way for young students to represent data visually. This lesson helps students learn to communicate information clearly and accurately using symbols."
   ],
   "methodology": [
-    "The lesson will include interactive discussions, hands-on activities, and practical exercises to engage students in understanding and creating pictographs."
+    "The lesson will involve a step-by-step guide on creating a pictograph, including selecting data and symbols. Students will be actively engaged in designing their own pictographs."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Explain the purpose of pictographs and show examples of different pictographs.",
-      "<b>Creating a Pictograph:</b> Guide students through creating a simple pictograph using picture symbols (e.g., stickers, drawings) on chart paper or whiteboard.",
-      "<b>Interpreting Pictographs:</b> Discuss how to read and interpret information presented in pictographs, including comparing data sets.",
-      "<b>Counting Picture Symbols:</b> Practice counting picture symbols in pictographs to gather data and understand the representation.",
-      "<b>Class Exercise:</b><br>1. Work in pairs to create a pictograph based on given data and present it to the class.<br>2. Analyze different pictographs and discuss the information they convey.<br>3. Discuss the advantages of using pictographs to represent data compared to other types of graphs.",
-      "<b>Homework:</b><br>1. Design a set of picture symbols (e.g., smiley faces, stars) to represent data on a topic of your choice. Create a pictograph using these symbols.<br>2. Write a short explanation of what the pictograph shows and any conclusions drawn from it.<br>3. Find examples of pictographs in newspapers, magazines, or online. Describe one example and explain its purpose.<br>4. Draw a picture or diagram illustrating a situation where using a pictograph would be helpful."
+      "<b>Introduction (10 minutes):</b><br>Begin by introducing the concept of pictographs. Explain that a pictograph is a way to show data using pictures or symbols, and it is useful for making information easy to understand.",
+      "<b>Key Concepts (10 minutes):</b><br>Explain the process of creating a pictograph. Discuss the importance of choosing picture symbols that accurately represent the data. For example, if the data is about favorite fruits, each picture symbol might represent a specific number of students who like that fruit.",
+      "<b>Choosing Data and Symbols (10 minutes):</b><br>Guide students in choosing a data set to represent with a pictograph. This could be based on a class survey or another simple data set. Then, help students select or create appropriate picture symbols to use in their pictograph.",
+      "<b>Creating Pictographs (20 minutes):</b><br>Distribute materials to the students and have them create their own pictographs using the data set and symbols they chose. Assist them as needed, ensuring they correctly represent the data with the chosen symbols.",
+      "<b>Sharing and Discussion (10 minutes):</b><br>Allow students to share their pictographs with the class. Discuss the different pictographs, focusing on how the choice of symbols and the way the data is represented can affect how easily the information is understood."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to create, interpret, and count picture symbols in pictographs during class activities and discussions.",
-    "<br><b>Homework:</b><br>1. Present the set of picture symbols you designed and show the pictograph you created based on the collected data.<br>2. Explain the information presented in the pictograph and any conclusions you drew from it.<br>3. Discuss the example of a pictograph you found in newspapers, magazines, or online."
+    "<b>Class Participation:</b> Monitor student engagement during the activity, particularly in choosing data sets and symbols.",
+    "<br><b>Pictograph Creation:</b> Review the students' pictographs for accuracy and clarity. Provide feedback on their ability to represent data using picture symbols."
   ],
   "conclusion": [
-    "Through hands-on activities and discussions, students will develop skills in understanding, creating, and interpreting pictographs, enabling them to effectively communicate and analyze data using visual representations."
+    "Summarize the key points about creating pictographs, emphasizing the importance of selecting appropriate symbols and accurately representing data. Encourage students to think about how they can use pictographs in other subjects or areas of interest."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Reading and Interpreting Pictographs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Thursday, October 17, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Pictographs",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "3",
+  "lessonNumber": "3",
+  "description": "This lesson will focus on teaching students how to read and interpret information presented in pictographs, with an emphasis on accurately counting picture symbols and understanding the data they represent.",
+  "materials": [
+    "Chart paper with sample pictographs",
+    "Markers or colored pencils",
+    "Pencils and worksheets with pictograph exercises"
+  ],
+  "objectives": [
+    "Students will read and interpret information presented in pictographs.",
+    "Students will count picture symbols to gather data from pictographs.",
+    "Students will identify common mistakes in interpreting pictographs and learn strategies for accurate interpretation."
+  ],
+  "rationale": [
+    "Understanding how to read and interpret pictographs is a fundamental skill in data literacy. This lesson helps students develop the ability to accurately gather and analyze information from visual data representations."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction on reading pictographs, followed by guided practice in interpreting data. Students will engage in hands-on activities to reinforce their understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction (10 minutes):</b><br>Begin by introducing the importance of being able to read and understand pictographs. Explain that pictographs use pictures or symbols to represent data, and knowing how to interpret them is a key skill.",
+      "<b>Key Concepts (15 minutes):</b><br>Teach students how to read a pictograph. Use sample pictographs on chart paper to demonstrate how each picture or symbol represents a specific number of items. Emphasize the importance of looking at the key or legend to understand what each symbol represents.",
+      "<b>Counting Picture Symbols (10 minutes):</b><br>Have students practice counting picture symbols on a sample pictograph. Guide them in gathering data by counting and recording the information represented by the symbols.",
+      "<b>Common Mistakes and Tips (10 minutes):</b><br>Discuss common mistakes students might make when reading pictographs, such as misinterpreting the key or counting incorrectly. Provide tips for accurate interpretation, such as double-checking counts and carefully reading the legend.",
+      "<b>Hands-On Practice (15 minutes):</b><br>Distribute worksheets with various pictographs for students to read and interpret. Encourage them to count the picture symbols and answer questions about the data presented. Offer support as needed."
+    ]
+  ],
+  "assessments": [
+    "<b>Class Participation:</b> Observe student engagement during the introduction and key concepts discussion.",
+    "<br><b>Worksheet Completion:</b> Review the students' worksheets for accuracy in counting symbols and interpreting data. Provide feedback on their ability to correctly understand the information presented in pictographs."
+  ],
+  "conclusion": [
+    "Summarize the key points about reading and interpreting pictographs, reinforcing the importance of careful counting and understanding of the legend. Encourage students to use these skills when they encounter pictographs in other contexts."
   ]
 },
 
