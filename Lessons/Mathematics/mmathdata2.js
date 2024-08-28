@@ -1,3 +1,4 @@
+// Middle Class Mathematics lesson plans
 const lessonPlans2b = [
 
 // Term 2
