@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4SGB13276C');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyacade Reader</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="../flyacade.css" rel="stylesheet">
+    <link href="../indexes.css" rel="stylesheet">
+
+<style>
+h3 {
+    font-size: 18px;
+    background-color: rgba(0,150,200,0.7);
+    padding: 7px 40px 7px 2px;
+    margin-left: -10px;
+    margin-top: 55px;
+    color: white;
+    border-radius: 0 20px 20px 0;
+}
+  .title {
+        font-size: 20px;
+        text-align: center;
+        background-color: rgba(0,150,200,0.7);
+        width: 100%;
+        padding: 5px 20px;
+        color: white;
+        border-radius: 0 0 50px 50px;
+    }
+</style>
+
+</head>
+<body>
+  
+       <div id="FlexContainer2">
+<div class="bridget-shaelyn">
+    
+     <div class="log-clinton" id="why" style="display: flex; justify-content: space-between;">
+        <h5 style="margin-right:25px;"><span style="color: green;">Flyacade</span><span style="color: white;"> - </span><span style="color: orange;">Reader</span></h5>
+        <img src="../images/Classes_1.png" alt="Logo 1" class="logos">
+        <img src="../images/Classes_2.png" alt="Logo 2" class="logos">
+        <img src="../images/Classes_3.png" alt="Logo 3" class="logos">
+        <img src="../images/Classes_4.png" alt="Logo 4" class="logos">
+        <img src="../images/Classes_5.png" alt="Logo 5" class="logos">
+        <img src="../images/Classes_6.png" alt="Logo 6" class="logos">
+        <img src="../images/Classes_7.png" alt="Logo 7" class="logos">
+        <img src="../images/Classes_8.png" alt="Logo 8" class="logos">
+        <img src="../images/Classes_9.png" alt="Logo 9" class="logos">
+    </div>
+  
+    <div class="log bri">
+        <img src="../images/Flying_Wings_Academy.png" alt="Log">
+    </div>
+
+</div>
+   </div>
+  
+  <br>
+  <br>
+    <br>
+  <br>
+  
+    <div class="container">
+        
+        
+        <div id="story-tabs">
+            <button class="tab-button active" onclick="openTab('part1')">S1</button>
+            <button class="tab-button" onclick="openTab('part2')">S2</button>
+            <button class="tab-button" onclick="openTab('part3')">S3</button>
+            <button class="tab-button" onclick="openTab('part4')">S4</button>
+            <button class="tab-button" onclick="openTab('part5')">S5</button>
+            <button class="tab-button" onclick="openTab('part6')">S6</button>
+            <button class="tab-button" onclick="openTab('part7')">S7</button>
+            <button class="tab-button" onclick="openTab('part8')">S8</button>
+            <button class="tab-button" onclick="openTab('part9')">S9</button>
+            <button class="tab-button" onclick="openTab('part10')">S10</button>
+        </div>
+
+        <div id="story-content">
+            <div id="part1" class="tab-content active"></div>
+            <div id="part2" class="tab-content"></div>
+            <div id="part3" class="tab-content"></div>
+            <div id="part4" class="tab-content"></div>
+            <div id="part5" class="tab-content"></div>
+            <div id="part6" class="tab-content"></div>
+            <div id="part7" class="tab-content"></div>
+            <div id="part8" class="tab-content"></div>
+            <div id="part9" class="tab-content"></div>
+            <div id="part10" class="tab-content"></div>
+          <hr>
+        <div id="interactive-elements">
+        <h2>Interactive Elements</h2>
+          <div id="why" style="display: flex; justify-content: space-between;">
+            <button id="quiz-button">Take Quiz</button>
+            <button id="drawing-button">Draw a Scene</button>
+          </div>
+        </div>
+          
+          
+            <button id="read-aloud"></button>
+
+        </div>
+        
+
+
+        <!-- Quiz Modal -->
+        <div id="quiz-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Quiz: Worm Adventures</h2>
+                <form id="quiz-form">
+                    <!-- Quiz questions will be loaded here -->
+                    <button type="submit">Submit Quiz</button>
+                </form>
+                <div id="quiz-result"></div>
+            </div>
+        </div>
+
+        <!-- Drawing Canvas -->
+        <div id="drawing-canvas" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Draw a Scene</h2>
+                <canvas id="canvas" width="500" height="400" style="border:1px solid #000000;"></canvas>
+                <button id="clear-canvas">Clear</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2024 Interactive Flyacade Story Reader</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="quiz-questions.js"></script>
+</body>
+</html>
