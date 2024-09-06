@@ -1,6 +1,6 @@
-const lessonPlans13a = [
+const lessonPlans13b = [
 
-// Term 1
+// Term 2
 // Week 2
 // Lesson 1
 
@@ -112,7 +112,7 @@ const lessonPlans13a = [
 // Lesson 4
 	
 	
-	
+
 	
 	
 	
