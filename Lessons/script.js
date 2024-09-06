@@ -46,11 +46,10 @@ const teacherNames = {
 
 // Define a mapping of teachers name to TCZ number
 const tczNumbers = {
-    "Ms. Chikondi": "FS20BC0012",
+    "Mrs. Loveness": "FS20BC0003",
     "Ms. Maureen": "FS20BC0010",
     "Ms. Faith": "FS20BC0011",
     "All Teachers": "FS20BC1111",
-    "Mrs. Loveness": "FS20BC0003",
     "Mr. Mbaso": "19/09/0904/021725"
 };
     
