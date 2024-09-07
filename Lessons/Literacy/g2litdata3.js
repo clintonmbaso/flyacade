@@ -1,6 +1,6 @@
-const lessonPlans56b = [
+const lessonPlans56c = [
 
-// Term 2
+// Term 3
 // Week 2
 // Lesson 1
 
