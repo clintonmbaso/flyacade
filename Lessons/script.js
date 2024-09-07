@@ -19,7 +19,7 @@ function searchLessonPlans(event) {
     lessonPlansContainer.innerHTML = ''; // Clear previous results
 
     // Combine lesson plans from all data files
-    const allLessonPlans = [...lessonPlans1a, ...lessonPlans1b, ...lessonPlans1c, ...lessonPlans2a, ...lessonPlans2b, ...lessonPlans2c, ...lessonPlans3a, ...lessonPlans3b, ...lessonPlans3c, ...lessonPlans4a, ...lessonPlans4b, ...lessonPlans4c, ...lessonPlans5a, ...lessonPlans5b, ...lessonPlans5c, ...lessonPlans6a, ...lessonPlans6b, ...lessonPlans6c, ...lessonPlans7a, ...lessonPlans7b, ...lessonPlans7c, ...lessonPlans8a, ...lessonPlans8b, ...lessonPlans8c, /*...lessonPlans9, ...lessonPlans10, ...lessonPlans11, ...lessonPlans12, */...lessonPlans13a, ...lessonPlans13b, ...lessonPlans13c, ...lessonPlans14a, ...lessonPlans14b, ...lessonPlans14c, ...lessonPlans15a, ...lessonPlans15b, ...lessonPlans15c, ...lessonPlans16a, ...lessonPlans16b, ...lessonPlans16c, ...lessonPlans17b, /*...lessonPlans18a, ...lessonPlans18b, ...lessonPlans18c, */...lessonPlans19a, ...lessonPlans19b, ...lessonPlans19c, ...lessonPlans20a, ...lessonPlans20b, ...lessonPlans20c, ...lessonPlans21a, ...lessonPlans21b, ...lessonPlans21c, ...lessonPlans22a, ...lessonPlans22b, ...lessonPlans22c, ...lessonPlans23a, ...lessonPlans23b, ...lessonPlans23c, ...lessonPlans24a, ...lessonPlans24b, ...lessonPlans24c, ...lessonPlans25a, ...lessonPlans25b, ...lessonPlans25c, ...lessonPlans26a, ...lessonPlans26b, ...lessonPlans26c,/*...lessonPlans27, */...lessonPlans28a, ...lessonPlans28b, ...lessonPlans28c, /*...lessonPlans29, ...lessonPlans30,*/ ...lessonPlans31b, ...lessonPlans32b, ...lessonPlans33a, ...lessonPlans33b, ...lessonPlans33c, /*...lessonPlans34,*/ ...lessonPlans35a, ...lessonPlans35b, ...lessonPlans35c, /*...lessonPlans36, ...lessonPlans37, ...lessonPlans38, ...lessonPlans39,*/ ...lessonPlans40b,/* ...lessonPlans41, ...lessonPlans42, */...lessonPlans43b, /*...lessonPlans44, ...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49,*/ ...lessonPlans50b, /*...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54, ...lessonPlans55, */...lessonPlans56b,/* ...lessonPlans57, ...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,*/ ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c, ...lessonPlans68b, ...lessonPlans69b,];
+    const allLessonPlans = [...lessonPlans1a, ...lessonPlans1b, ...lessonPlans1c, ...lessonPlans2a, ...lessonPlans2b, ...lessonPlans2c, ...lessonPlans3a, ...lessonPlans3b, ...lessonPlans3c, ...lessonPlans4a, ...lessonPlans4b, ...lessonPlans4c, ...lessonPlans5a, ...lessonPlans5b, ...lessonPlans5c, ...lessonPlans6a, ...lessonPlans6b, ...lessonPlans6c, ...lessonPlans7a, ...lessonPlans7b, ...lessonPlans7c, ...lessonPlans8a, ...lessonPlans8b, ...lessonPlans8c, /*...lessonPlans9, ...lessonPlans10, ...lessonPlans11, ...lessonPlans12, */...lessonPlans13a, ...lessonPlans13b, ...lessonPlans13c, ...lessonPlans14a, ...lessonPlans14b, ...lessonPlans14c, ...lessonPlans15a, ...lessonPlans15b, ...lessonPlans15c, ...lessonPlans16a, ...lessonPlans16b, ...lessonPlans16c, ...lessonPlans17b, /*...lessonPlans18a, ...lessonPlans18b, ...lessonPlans18c, */...lessonPlans19a, ...lessonPlans19b, ...lessonPlans19c, ...lessonPlans20a, ...lessonPlans20b, ...lessonPlans20c, ...lessonPlans21a, ...lessonPlans21b, ...lessonPlans21c, ...lessonPlans22a, ...lessonPlans22b, ...lessonPlans22c, ...lessonPlans23a, ...lessonPlans23b, ...lessonPlans23c, ...lessonPlans24a, ...lessonPlans24b, ...lessonPlans24c, ...lessonPlans25a, ...lessonPlans25b, ...lessonPlans25c, ...lessonPlans26a, ...lessonPlans26b, ...lessonPlans26c,/*...lessonPlans27, */...lessonPlans28a, ...lessonPlans28b, ...lessonPlans28c, /*...lessonPlans29, ...lessonPlans30,*/ ...lessonPlans31b, ...lessonPlans32b, ...lessonPlans33a, ...lessonPlans33b, ...lessonPlans33c, /*...lessonPlans34,*/ ...lessonPlans35a, ...lessonPlans35b, ...lessonPlans35c, /*...lessonPlans36, ...lessonPlans37, ...lessonPlans38, ...lessonPlans39,*/ ...lessonPlans40b,/* ...lessonPlans41, ...lessonPlans42, */...lessonPlans43b, /*...lessonPlans44, ...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49,*/ ...lessonPlans50b, /*...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54,*/ ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c, ...lessonPlans56b,/* ...lessonPlans57, ...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,*/ ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c, ...lessonPlans68b, ...lessonPlans69b,];
 
     const filteredLessonPlans = allLessonPlans.filter(plan => {
         return plan.title.toLowerCase().includes(searchTitle) &&
@@ -32,10 +32,10 @@ function searchLessonPlans(event) {
 
 // Define a mapping of grade to teacher's name
 const teacherNames = {
-    "Baby Birds": "Mrs. Loveness",
-    "Sky Sprouts": "Mrs. Loveness",
-    "Nestlings Navigators": "Ms. Maureen",
-    "Feather Flyers": "Ms. Maureen",
+    "Baby Birds": "Mrs. Loveness Muwila",
+    "Sky Sprouts": "Mrs. Loveness Muwila",
+    "Nestlings Navigators": "Ms. Maureen Kapya",
+    "Feather Flyers": "Ms. Maureen Kapya",
     "Cloud Chicks": "Ms. Faith",
     "Wing Whiz": "Ms. Faith",
     "Sky Soarers": "Mr. Mbaso",
@@ -46,13 +46,21 @@ const teacherNames = {
 
 // Define a mapping of teachers name to TCZ number
 const tczNumbers = {
-    "Mrs. Loveness": "FS20BC0003",
-    "Ms. Maureen": "FS20BC0010",
+    "Mrs. Loveness Muwila": "FS20BC0003",
+    "Ms. Maureen Kapya": "FS20BC0010",
     "Ms. Faith": "FS20BC0011",
     "All Teachers": "FS20BC1111",
-    "Mr. Mbaso": "19/09/0904/021725"
+    "Mr. Mbaso Clint": "19/09/0904/021725"
 };
     
+// Example usage in your main file
+const className = 'Nestlings Navigators'; // Change as needed
+const subject = 'Mathematics'; // Specify the subject
+const numberOfLessons = 32; // Set the number of lessons required
+const lessonDates = generateLessonDates(className, subject, numberOfLessons);
+
+// Use lessonDates to set the accurate dates in each lesson plan
+console.log('Accurate Lesson Dates:', lessonDates);
     
 filteredLessonPlans.forEach(plan => {
     const gradeAbbreviation = plan.grade.split(' ').map(word => word[0].toUpperCase()).join(''); // Abbreviate plan.grade
@@ -139,7 +147,7 @@ filteredLessonPlans.forEach(plan => {
                 <button onclick="downloadPlan('${plan.title}')">Download</button>
 
 <div class="blogcomments">
-    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greetings Sir,%0D%0A%0D%0AI hope this email finds you well. %0D%0A%0D%0AI would like to submit the evaluation of the stated lesson:%0D%0A%0D%0A1. Where the objectives met?%0D%0A%0D%0A [Yes/No]%0D%0A%0D%0A%0D%0A%0D%0A2. How would you rate the lesson in terms of the learners' performance?%0D%0A%0D%0A [Good/Average/Not Good]%0D%0A%0D%0A%0D%0A%0D%0A3. What is your recommendation?%0D%0A%0D%0A [Proceed to the next lesson/Repeat the Lesson]%0D%0A%0D%0A%0D%0A%0D%0AEvaluation Completed.%0D%0A%0D%0A%0D%0A%0D%0ABest regards,%0D%0A${teacherName}">Evaluation</a>
+    <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greetings Madam Bridget,%0D%0A%0D%0AI hope this email finds you well. %0D%0A%0D%0AI would like to submit the evaluation of ${titlePrefix} - ${plan.topic} lesson:%0D%0A%0D%0A1. Where the objectives met?%0D%0A%0D%0A [Yes/No]%0D%0A%0D%0A%0D%0A%0D%0A2. How would you rate the lesson in terms of the learners' performance?%0D%0A%0D%0A [Good/Average/Not Good]%0D%0A%0D%0A%0D%0A%0D%0A3. What is your recommendation?%0D%0A%0D%0A [Proceed to the next lesson/Repeat the Lesson]%0D%0A%0D%0A%0D%0A%0D%0AEvaluation Completed.%0D%0A%0D%0A%0D%0A%0D%0ABest regards,%0D%0A${teacherName}">Evaluation</a>
 </div>
 <button onclick="showPopup('<h4>${plan.heading}</h4>', '<p>${plan.details}</p>', '<img src=${plan.pic}')">Details</button>
     
