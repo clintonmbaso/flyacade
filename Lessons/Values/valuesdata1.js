@@ -48,6 +48,15 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "Through discussion and practical examples, students will learn how respect plays a crucial role in their relationships and interactions with others."
+  ],
+  "heading": [
+    "Leo the Lion - Part 1"
+  ],
+  "details": [
+    "Once upon a time, there was a lion named Leo. He was the king of the jungle, and all the animals looked up to him. But Leo wasn’t always nice. He would interrupt others and never listened when they were talking.<br><br>One day, the animals gathered to plan a fun fair. Everyone was excited to share their talents. Leo rushed in and said, <em>I want the best spot so everyone can see me!</em> The other animals were sad, but they were too scared to speak up."
+  ],
+  "pic": [
+    "https://pixabay.com/photos/lion-wildlife-savannah-predator-3012515/"
   ]
 },
 
@@ -97,6 +106,15 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "Through class discussions and role-playing, students will learn the importance of respecting the differences in opinions, cultures, and personal boundaries, fostering a more respectful community."
+  ],
+  "heading": [
+    "Leo the Lion - Part 2"
+  ],
+  "details": [
+    "When the day of the fair came, Leo stood in the center, ready to roar. But when it was time for the other animals to share, they didn’t want to. The squirrels didn’t do flips, the birds didn’t sing, and the rabbits didn’t dance.<br><br>Leo looked around and saw that no one was smiling or cheering. He realized that his actions had hurt his friends, and they didn’t feel happy or respected."
+  ],
+  "pic": [
+    "https://pixabay.com/photos/lion-wildlife-savannah-predator-3012515/"
   ]
 },
 
@@ -146,6 +164,16 @@ const lessonPlans67a = [
   ],
   "conclusion": [
     "Through practical examples and discussion, students will learn how respecting property, the environment, and others' feelings contributes to a positive community."
+  ],
+  
+  "heading": [
+    "Leo the Lion - Part 3"
+  ],
+  "details": [
+    "Leo felt sorry and said, <em>I’m sorry, everyone. I was thinking only of myself. I know now that we all deserve respect.</em> The animals forgave Leo because they knew he meant it.<br><br>From that day on, Leo was kind and listened to everyone. The animals were happy, and the jungle was a fun place again. Leo learned that respect was even stronger than his roar."
+  ],
+  "pic": [
+    "https://pixabay.com/photos/lion-wildlife-savannah-predator-3012515/"
   ]
 },
 
