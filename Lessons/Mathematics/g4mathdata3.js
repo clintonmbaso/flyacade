@@ -4,1127 +4,607 @@ const lessonPlans7c = [
 // Week 2
 // Lesson 1
 {
-  "title": "Introduction to Measurement",
+  "title": "Measuring the Distance of Lines Using a Ruler",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, September 2, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Introduction to Measurement",
+  "topic": "Measuring with a Ruler",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "2",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to the concept of measurement, emphasizing its importance and the basic units used for measuring length, mass, and capacity. Students will practice measuring objects using standard units.",
+  "description": "This lesson aims to teach students how to accurately measure the distance of lines using a ruler. Students will learn about units of measurement, proper ruler alignment, and practical uses of measuring in everyday tasks.",
   "materials": [
-    "Rulers",
-    "Measuring tapes",
-    "Scales",
-    "Containers for measuring capacity"
+    "Rulers (with centimeters and inches)",
+    "Paper and pencils",
+    "Pre-drawn lines for measurement practice"
   ],
   "objectives": [
-    "Understand the concept of measurement and its significance in everyday life.",
-    "Learn about basic units of measurement such as length, mass, and capacity.",
-    "Practice measuring objects using standard units."
+    "Students will understand how to measure the length of lines accurately using a ruler.",
+    "Students will learn the units of measurement commonly found on a ruler.",
+    "Students will practice measuring lines in centimeters and inches."
   ],
   "rationale": [
-    "Understanding measurement is essential for navigating the physical world and solving practical problems. Familiarity with standard units of measurement helps students perform accurate and consistent measurements."
+    "Measuring skills are essential in various tasks, from academics to everyday life. Learning to use a ruler correctly helps students perform activities that require precision, such as drawing, cutting, and crafting."
   ],
   "methodology": [
-    "The lesson will include direct instruction, hands-on practice, guided demonstrations, interactive discussions, and practical exercises."
+    "The lesson will involve demonstrations on how to use a ruler, followed by guided practice where students measure lines themselves. Visual aids and hands-on activities will reinforce learning."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Begin with a discussion on the importance of measurement in everyday life. Explain what measurement is and why it is necessary.",
-      "<b>Basic Units:</b> Introduce the basic units of measurement for length (meters, centimeters), mass (grams, kilograms), and capacity (liters, milliliters).",
-      "<b>Demonstration:</b> Show how to measure different objects using rulers, scales, and measuring containers. Demonstrate measuring the length of a book, the mass of an apple, and the capacity of a water bottle.",
-      "<b>Class Exercise:</b><br>1. Divide students into small groups to practice measuring objects around the classroom using the provided tools.<br>2. Each group will measure at least one object for length, mass, and capacity, recording their findings.",
-      "<b>Homework:</b><br>1. Measure three objects at home using a ruler, a scale, or a measuring cup.<br>2. Record the measurements and bring them to the next class for discussion."
+      "<b>Introduction to Measuring with a Ruler:</b><br>Begin the lesson by introducing a ruler as a tool used to measure the length of lines or objects. Explain that rulers have markings in centimeters (cm) and inches (in), which are units of measurement. Discuss how a centimeter is part of the metric system, while an inch is part of the imperial system.",
+      "<b>Using a Ruler Properly:</b><br>Demonstrate how to use a ruler correctly by aligning the 0 mark with one end of the line. Show how to ensure the ruler is straight and lies flat against the surface for accurate measurement. Emphasize the importance of reading the measurement at the other end of the line.",
+      "<b>Measuring in Centimeters and Inches:</b><br>Explain how to measure in centimeters by counting the smaller marks between whole numbers, such as 3.5 cm, which represents three centimeters and five millimeters. Discuss measuring in inches, highlighting how they are divided into fractions like halves, quarters, and eighths.",
+      "<b>Practical Uses of Measuring with a Ruler:</b><br>Discuss everyday uses of rulers, such as drawing, cutting fabric, and checking object sizes. Explain that accurate measurement ensures tasks are completed correctly. Allow students to practice measuring various lines on paper to become familiar with using a ruler.",
+      "<b>Class Exercise:</b><br>1. What is a ruler used for?<br>2. Name the two units of measurement found on a ruler.<br>3. True or False: The 0 mark on the ruler should line up with one end of the line.<br>4. If a line measures 5 cm, how many millimeters is that?<br>5. What is the importance of measuring accurately?<br>6. Circle the correct answer: Centimeters are part of the (metric / imperial) system.<br>7. How many halves are in one inch?<br>8. Why is it important to align the ruler correctly when measuring?<br>9. Draw a 6 cm line on your paper.<br>10. Measure the line drawn in Question 9 and write the length."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of measurement concepts and their ability to use measurement tools during class activities.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of students' measurements recorded during the group activity.<br>2. Review homework assignments to ensure understanding and correct application of measurement techniques."
+    "<b>Observation:</b> The teacher will assess students' ability to align the ruler correctly and read measurements accurately during practice exercises.",
+    "<b>Feedback:</b> Provide guidance on any common mistakes and encourage students to practice using a ruler correctly in different scenarios."
   ],
   "conclusion": [
-    "By engaging in hands-on activities and applying measurement concepts, students will gain a foundational understanding of how to measure objects accurately and why measurement is important in various aspects of life."
+    "By engaging in demonstrations, guided practice, and exercises, students will develop essential skills in measuring accurately with a ruler, which is vital for academic and everyday tasks."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Length and Distance",
+  "title": "Measuring Distance Using Speed and Time",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, September 9, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Length and Distance",
+  "topic": "Measuring Distance with Speed and Time",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson focuses on teaching students how to measure length and distance using rulers, yardsticks, and measuring tapes. Students will practice measuring objects in both metric and customary units.",
+  "description": "This lesson introduces students to measuring distance using the formula involving speed and time. Students will learn definitions, apply the formula in practical examples, and explore real-life applications.",
   "materials": [
-    "Rulers",
-    "Yardsticks",
-    "Measuring tapes",
-    "Objects for measurement practice"
+    "Whiteboard and markers",
+    "Chart showing speed, time, and distance examples",
+    "Worksheets with practice problems"
   ],
   "objectives": [
-    "Understand how to measure length and distance using standard tools.",
-    "Learn to use rulers, yardsticks, and measuring tapes effectively.",
-    "Practice measuring objects in both metric (meters, centimeters) and customary units (inches, feet)."
+    "Students will understand the relationship between speed, time, and distance.",
+    "Students will learn to use the formula Distance = Speed × Time.",
+    "Students will apply the formula in real-life scenarios and solve problems involving unit conversions."
   ],
   "rationale": [
-    "Knowing how to measure length and distance accurately is essential in daily life and various professions. Understanding both metric and customary units allows students to work with different measurement systems."
+    "Understanding how to measure distance using speed and time helps students solve practical problems in everyday life, such as travel planning and athletic performance assessments."
   ],
   "methodology": [
-    "The lesson will include direct instruction, hands-on measurement activities, guided practice, and group exercises."
+    "The lesson will include direct instruction, demonstration of calculations, real-life examples, and interactive practice exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Begin with a discussion on the importance of measuring length and distance. Introduce the tools used for measurement, such as rulers, yardsticks, and measuring tapes.",
-      "<b>Using Measurement Tools:</b> Demonstrate how to use rulers, yardsticks, and measuring tapes to measure objects. Explain the difference between metric units (meters, centimeters) and customary units (inches, feet).",
-      "<b>Practical Demonstration:</b> Measure the length of a desk, the height of a chair, and the distance across the classroom using both metric and customary units. Show how to record these measurements accurately.",
-      "<b>Class Exercise:</b><br>1. Students will work in pairs to measure various objects in the classroom, using rulers, yardsticks, and measuring tapes.<br>2. They will record the measurements in both metric and customary units and compare the results.",
-      "<b>Homework:</b><br>1. Measure three objects at home using both a ruler (metric units) and a yardstick (customary units).<br>2. Record and compare the measurements, noting any differences."
+      "<b>Understanding Speed, Time, and Distance:</b><br>Define each term clearly: Speed is how fast something moves (e.g., 60 km/h), Time is the duration (e.g., 2 hours), and Distance is how far something travels (e.g., 120 km). Introduce the formula: Distance = Speed × Time. Emphasize understanding and the relationship between these variables.",
+      "<b>Applying the Formula to Find Distance:</b><br>Demonstrate how to use the formula with an example. For instance, if a car travels at 50 km/h for 3 hours, calculate the distance: 50 km/h × 3 hours = 150 km. Highlight the importance of matching units, such as km/h with hours or m/s with seconds.",
+      "<b>Real-Life Applications of Measuring Distance:</b><br>Discuss how this formula applies to everyday situations, such as planning travel routes, estimating arrival times, or calculating fuel needs. Explain how athletes use the formula to measure distances in sports like running, cycling, or swimming.",
+      "<b>Converting Units:</b><br>Introduce different units of measurement (e.g., converting hours to minutes or kilometers to miles). Practice converting units to ensure students can apply the formula correctly across different scenarios. Provide practice problems involving conversions.",
+      "<b>Class Exercise:</b><br>1. What is the formula for finding distance?<br>2. Calculate the distance if speed is 10 m/s and time is 20 seconds.<br>3. True or False: Speed is measured in units like km/h or m/s.<br>4. A train moves at 100 km/h for 4 hours. What distance does it cover?<br>5. What should you check before multiplying speed and time?<br>6. Convert 2 hours into minutes.<br>7. If a cyclist moves at 15 km/h for 30 minutes, how far does he travel?<br>8. Name one real-life situation where you need to measure distance.<br>9. How would you convert 1 hour into seconds?<br>10. Calculate the distance: Speed = 8 m/s, Time = 15 seconds."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to use measurement tools accurately and their understanding of metric and customary units.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of measurements recorded during the pair activity.<br>2. Review homework assignments to ensure proper use of both measurement systems."
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, application of the formula, and problem-solving exercises.",
+    "<b>Homework:</b> Solve three problems involving measuring distance with different units. Include at least one conversion of time or speed."
   ],
   "conclusion": [
-    "Through hands-on practice and group activities, students will develop the skills needed to measure length and distance accurately, using both metric and customary units."
+    "By understanding and applying the formula for measuring distance, students will enhance their problem-solving skills and gain practical knowledge useful in everyday life, from travel planning to sports."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Weight and Mass",
+  "title": "Measuring Weight Using Mass and Gravity",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, September 16, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Weight and Mass",
+  "topic": "Understanding Weight, Mass, and Gravity",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "2",
   "lessonNumber": "3",
-  "description": "This lesson explores the concepts of weight and mass, teaching students how to use scales and balances for measuring mass. Students will practice measuring objects in grams, kilograms, ounces, and pounds.",
+  "description": "This lesson aims to teach students how to measure weight using the relationship between mass and gravity. Students will explore the concepts of mass, weight, and gravity and learn how to apply the formula to calculate weight.",
   "materials": [
-    "Scales",
-    "Balances",
-    "Various objects for measuring mass",
-    "Weight sets (grams, kilograms, ounces, pounds)"
+    "Whiteboard and markers",
+    "Scales for measuring weight",
+    "Objects of different masses (e.g., books, small weights)",
+    "Worksheet with exercises"
   ],
   "objectives": [
-    "Understand the difference between weight and mass.",
-    "Learn how to use scales and balances to measure mass.",
-    "Practice measuring objects in both metric (grams, kilograms) and customary units (ounces, pounds)."
+    "Students will understand the concepts of mass, weight, and gravity.",
+    "Students will learn to calculate weight using the formula: Weight = Mass × Gravity.",
+    "Students will explore the importance of measuring weight in daily life and different environments."
   ],
   "rationale": [
-    "Understanding weight and mass is essential for scientific inquiry and everyday tasks. Familiarity with both metric and customary units of mass allows students to interpret and apply measurements in various contexts."
+    "Understanding how weight is measured helps students grasp fundamental scientific concepts that are applicable in real-world situations, such as safety in construction and understanding how different planets affect weight."
   ],
   "methodology": [
-    "The lesson will include direct instruction, demonstrations of using scales and balances, hands-on measurement activities, and guided practice."
+    "The lesson will include direct instruction, demonstration of calculations, practical experiments, and interactive exercises to ensure comprehension of measuring weight using mass and gravity."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Begin with a discussion on the difference between weight and mass, and why these concepts are important. Introduce the tools used for measuring mass, such as scales and balances.",
-      "<b>Using Scales and Balances:</b> Demonstrate how to use scales and balances to measure the mass of different objects. Explain the difference between metric units (grams, kilograms) and customary units (ounces, pounds).",
-      "<b>Practical Demonstration:</b> Measure the mass of a book, a fruit, and a container of water using both metric and customary units. Show how to record these measurements accurately.",
-      "<b>Class Exercise:</b><br>1. Students will work in small groups to measure the mass of various objects provided in the classroom.<br>2. They will use scales and balances to measure in both metric and customary units and record their findings.",
-      "<b>Homework:</b><br>1. Measure the mass of three household items using a kitchen scale, recording the measurements in grams or ounces.<br>2. Convert the measurements between metric and customary units where applicable."
+      "<b>Understanding Mass, Weight, and Gravity:</b><br>Start by explaining the definitions of mass, gravity, and weight. Mass is the amount of matter in an object, measured in kilograms or grams. Gravity is the force that pulls objects toward Earth. Weight is the force of gravity acting on an object's mass. Introduce the formula: Weight = Mass × Gravity, and explain that the standard gravity on Earth is 9.8 m/s².",
+      "<b>Applying the Formula to Find Weight:</b><br>Demonstrate how to use the formula with an example: If an object has a mass of 10 kg, its weight is 10 kg × 9.8 m/s² = 98 N (Newtons). Explain the importance of using proper units: mass in kilograms or grams and weight in Newtons. Encourage students to ask questions and solve similar problems.",
+      "<b>Importance of Measuring Weight:</b><br>Discuss why measuring weight is important in everyday life, such as in cooking, exercising, or determining vehicle load limits. Highlight safety considerations in fields like construction and aviation, where knowing weight is essential to prevent accidents and ensure structural integrity.",
+      "<b>Experimenting with Weight in Different Gravities:</b><br>Explain that weight changes with gravity, so an object weighs less on the Moon than on Earth. Conduct simple experiments using scales to measure the weight of different objects, reinforcing the relationship between mass, gravity, and weight. Discuss how astronauts experience different weights in space.",
+      "<b>Class Exercise:</b><br>1. What is the formula for measuring weight?<br>2. Calculate the weight if the mass is 5 kg.<br>3. True or False: Mass is the same as weight.<br>4. What is the standard gravity on Earth?<br>5. If gravity is 9.8 m/s² and mass is 20 kg, find the weight.<br>6. Name one daily life example where measuring weight is important.<br>7. In which unit is weight measured?<br>8. What happens to weight when you go to the Moon?<br>9. How does gravity affect weight?<br>10. Write the weight formula using words instead of symbols."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of weight and mass, as well as their ability to use scales and balances accurately.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of students' mass measurements recorded during the group activity.<br>2. Review homework assignments to ensure proper understanding and application of both measurement systems."
+    "<b>Observation:</b> The teacher will assess students' understanding through participation in class discussions, practical experiments, and their ability to apply the formula to find weight.",
+    "<b>Worksheet:</b> A worksheet will be provided with problems requiring students to calculate weight, ensuring they grasp the concept and can apply it independently."
   ],
   "conclusion": [
-    "By engaging in hands-on measurement activities and applying the concepts of weight and mass, students will develop a clear understanding of how to measure mass accurately using both metric and customary units."
+    "By learning about mass, gravity, and weight, students will be able to measure weight accurately and understand its importance in daily life and different environments."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Measuring Capacity",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, September 11, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Measuring Capacity",
+  "grade": "Sky Soarers",
+  "term": "3",
+  "week": "2",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the concept of measuring capacity, focusing on understanding volume, units of measurement, and practical applications in daily life.",
+  "materials": [
+    "Measuring cups",
+    "Beakers",
+    "Graduated cylinders",
+    "Water",
+    "Containers of various sizes"
+  ],
+  "objectives": [
+    "Students will understand what capacity is and how it is measured.",
+    "Students will learn to use measuring tools such as measuring cups and beakers to determine capacity.",
+    "Students will practice converting between different units of capacity.",
+    "Students will recognize the importance of accurate capacity measurements in real-world situations."
+  ],
+  "rationale": [
+    "Learning to measure capacity is a vital skill that helps students understand volume and apply their knowledge to everyday tasks, such as cooking, science experiments, and other practical activities."
+  ],
+  "methodology": [
+    "The lesson will use hands-on demonstrations, group activities, and real-life examples to teach students how to measure capacity accurately and convert between units. Students will engage in guided practice and complete exercises to reinforce their understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Understanding Capacity:</b><br>Introduce the concept of capacity by explaining that it measures how much liquid or substance a container can hold. Discuss common units of capacity, such as liters (L) and milliliters (mL), and provide examples of where these units are used in daily life.",
+      "<b>Tools for Measuring Capacity:</b><br>Show students different tools used to measure capacity, such as measuring cups, beakers, and graduated cylinders. Demonstrate how to read measurements accurately by observing the liquid level at eye level. Emphasize the importance of using the correct tool for the right situation.",
+      "<b>Converting Capacity Units:</b><br>Teach students how to convert between different units of capacity, such as liters to milliliters and vice versa. Provide simple conversion examples, like 1 liter = 1,000 milliliters, and allow students to practice these conversions using sample measurements.",
+      "<b>Real-World Uses of Measuring Capacity:</b><br>Discuss practical applications of measuring capacity in everyday life, such as cooking, baking, and conducting science experiments. Highlight the importance of accurate measurements to ensure successful outcomes in these tasks.",
+      "<b>Class Exercise:</b><br>1. What does capacity measure?<br>2. Name two units of capacity.<br>3. True or False: 1 liter is equal to 100 milliliters.<br>4. What tool would you use to measure liquid for a science experiment?<br>5. How many milliliters are in 3 liters?<br>6. If you have a 500 mL bottle, how many liters is that?<br>7. Why is it important to measure at eye level?<br>8. Convert 2 liters into milliliters.<br>9. Name one situation where you measure capacity at home.<br>10. If a cup holds 250 mL, how many cups are in 1 liter?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students as they measure liquids and convert units to assess their understanding and accuracy.",
+    "<b>Class Discussion:</b> Engage students in a discussion on the importance of measuring capacity correctly in various situations and provide feedback based on their responses."
+  ],
+  "conclusion": [
+    "By learning to measure capacity, students gain valuable skills that they can use in everyday activities, such as cooking and experiments. Understanding capacity units and their conversions helps students handle real-world tasks with greater confidence."
+  ]
+},
+
+// Lesson 5
+{
+  "title": "Measuring Volume Given the Height, Length, and Width",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Calculating Volume of Objects",
+  "grade": "Sky Soarers",
+  "term": "3",
+  "week": "2",
+  "lessonNumber": "5",
+  "description": "This lesson teaches students how to measure the volume of objects using the formula for volume based on height, length, and width.",
+  "materials": [
+    "Rulers or measuring tapes",
+    "Rectangular objects (e.g., boxes)",
+    "Worksheets with volume calculation exercises"
+  ],
+  "objectives": [
+    "Students will understand the concept of volume.",
+    "Students will learn how to use the formula to calculate the volume of rectangular objects.",
+    "Students will practice measuring dimensions accurately and applying the formula to find volume."
+  ],
+  "rationale": [
+    "Understanding how to measure volume helps students in real-life applications such as packing, shipping, and scientific experiments. It also enhances their problem-solving skills in math."
+  ],
+  "methodology": [
+    "The lesson will include explanations, demonstrations of the formula, hands-on measurement activities, and exercises to reinforce understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Understanding Volume:</b><br>Introduce the concept of volume by defining it as the amount of space an object occupies. Explain that volume is measured in cubic units such as cubic centimeters (cm³) or cubic meters (m³). Discuss common units used for measuring volume, including cm³, m³, and liters (L) for liquids.",
+      "<b>The Formula for Calculating Volume:</b><br>Teach students the formula for finding the volume of a rectangular object: Volume = Length × Width × Height. Provide an example calculation: For a box with a length of 4 cm, width of 3 cm, and height of 2 cm, the volume would be 4 cm × 3 cm × 2 cm = 24 cm³. Emphasize the importance of using the correct units.",
+      "<b>Measuring Each Dimension Accurately:</b><br>Show students how to measure length, width, and height using rulers or measuring tapes. Provide tips for accurate measurement, such as double-checking values, aligning the measuring tool correctly, and recording measurements before calculating the volume.",
+      "<b>Practical Applications of Measuring Volume:</b><br>Discuss real-life applications of measuring volume, such as packing items, shipping, filling containers, and conducting experiments. Explain how volume helps in everyday decisions, like choosing the right size of a storage box or determining the amount of liquid a container can hold.",
+      "<b>Class Exercise:</b><br>1. What is the formula for calculating the volume of a rectangular object?<br>2. Calculate the volume of a box with a length of 5 cm, width of 4 cm, and height of 3 cm.<br>3. True or False: Volume is measured in square units.<br>4. Name one unit used to measure volume.<br>5. If the length is 10 cm, width is 2 cm, and height is 5 cm, what is the volume?<br>6. Why is it important to use the same unit when measuring length, width, and height?<br>7. Convert a volume of 1,000 cm³ into liters.<br>8. How would you find the volume of a book?<br>9. What happens to the volume if you double the height of a box?<br>10. If a container’s volume is 200 cm³, how much space does it occupy?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in measuring activities and volume calculations.",
+    "<b>Worksheet:</b> Students will complete worksheet exercises involving volume calculations using the formula and real-life scenarios."
+  ],
+  "conclusion": [
+    "Students will learn how to measure and calculate the volume of rectangular objects using the formula. This skill will help them in practical situations, enhancing their mathematical reasoning and problem-solving abilities."
   ]
 },
 
 // Week 3
 // Lesson 1
 {
-  "title": "Capacity",
+  "title": "Measuring Angles",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, October 7, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Capacity",
+  "topic": "Measuring Angles Using a Protractor",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson introduces the concept of capacity. Students will learn to use measuring cups, containers, and graduated cylinders to measure the capacity of liquids.",
+  "description": "This lesson introduces students to the concept of angles and teaches them how to measure angles accurately using a protractor.",
   "materials": [
-    "Measuring cups",
-    "Various containers",
-    "Graduated cylinders",
-    "Water or other safe liquids for measuring"
+    "Protractors for each student",
+    "Rulers",
+    "Worksheets with angles to measure",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Understand the concept of capacity and its importance in measurement.",
-    "Learn how to use measuring cups, containers, and graduated cylinders to measure liquid capacity.",
-    "Practice measuring the capacity of liquids using different tools."
+    "Students will understand what an angle is and how it is formed.",
+    "Students will learn to identify different types of angles.",
+    "Students will be able to measure angles accurately using a protractor.",
+    "Students will practice measuring a variety of angles and checking their accuracy."
   ],
   "rationale": [
-    "Understanding capacity is essential for everyday activities such as cooking, science experiments, and other practical tasks. Learning to measure capacity accurately develops essential math and science skills."
+    "Measuring angles is an important skill in geometry, helping students understand shapes, designs, and structures in the world around them. Learning to use a protractor accurately will enhance their mathematical skills."
   ],
   "methodology": [
-    "The lesson will include direct instruction, hands-on measurement activities, guided practice, and group exercises."
+    "The lesson will begin with an introduction to angles and their types, followed by a demonstration on how to use a protractor. Students will then practice measuring angles through guided activities and exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Start with a discussion on what capacity is and why it's an important concept in daily life. Explain how capacity is different from volume, and introduce the tools used for measuring capacity, such as measuring cups, containers, and graduated cylinders.",
-      "<b>Using Measurement Tools:</b> Demonstrate how to use measuring cups, containers, and graduated cylinders to measure the capacity of liquids. Explain how to read the measurements on each tool accurately.",
-      "<b>Practical Demonstration:</b> Measure the capacity of different liquids using various tools, showing how to use each one effectively.",
-      "<b>Class Exercise:</b><br>1. Students will work in small groups to measure the capacity of liquids provided in the classroom using measuring cups and graduated cylinders.<br>2. They will record the measurements and compare the results to see how different tools provide consistent measurements.",
-      "<b>Homework:</b><br>1. Measure the capacity of three different containers at home using a measuring cup, and record the measurements.<br>2. Describe any differences observed when using different tools for the same measurement."
+      "<b>Understanding Angles:</b><br>Explain that an angle is formed when two lines meet at a common point called the vertex. Angles help describe the space between two lines and are measured in degrees. Discuss the four main types of angles: acute (less than 90°), right (90°), obtuse (between 90° and 180°), and straight (180°). Show examples of each type on the board.",
+      "<b>Using a Protractor:</b><br>Introduce the protractor as a tool used to measure angles. Show students the different parts of the protractor, including the curved edge marked with degrees from 0° to 180°, and the center mark which is placed on the vertex of the angle. Demonstrate how to align one side of the angle with the 0° line and read the number where the other side crosses the protractor scale.",
+      "<b>Step-by-Step Guide to Measuring Angles:</b><br>Provide a step-by-step demonstration on how to measure an angle. Position the protractor correctly on the angle with the center mark on the vertex, align one arm of the angle with the 0° line, and read the degree mark where the other arm of the angle crosses the scale. Emphasize the importance of correct alignment and checking the reading twice for accuracy.",
+      "<b>Practice Measuring Angles:</b><br>Give students practice angles to measure. Have them identify the type of angle before measuring, such as acute, right, or obtuse. Encourage students to double-check their alignment and measurements to ensure accuracy. Walk around the room to provide assistance and check their progress.",
+      "<b>Class Exercise:</b><br>1. What tool is used to measure angles?<br>2. Name the four types of angles.<br>3. What degree is a right angle?<br>4. How many degrees is a straight angle?<br>5. Describe an acute angle.<br>6. What part of the protractor is placed on the vertex of the angle?<br>7. True or False: A protractor measures angles in degrees.<br>8. Where do you align the protractor when measuring an angle?<br>9. What should you do if the angle arm does not reach the degree marks?<br>10. Measure an angle in your book and write down its type and measurement."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of capacity and their ability to use measuring tools accurately.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of students' capacity measurements recorded during the group activity.<br>2. Review homework assignments to ensure proper understanding and application of capacity measurement."
+    "<b>Observation:</b> The teacher will observe students as they measure angles, providing feedback on their technique and helping correct any mistakes in alignment and reading.",
+    "<b>Exercise Review:</b> Review the students’ answers to the class exercise, discussing correct measurements and clarifying any misunderstandings about types of angles or protractor usage."
   ],
   "conclusion": [
-    "Through hands-on activities and guided practice, students will develop a clear understanding of capacity and how to measure it accurately using different tools."
+    "By learning to use a protractor and practicing measuring angles, students will gain a better understanding of geometry and the role of angles in different shapes. The skills learned in this lesson are foundational for more advanced mathematical concepts."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Volume",
+  "title": "Drawing Angles Accurately",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, October 14, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Volume",
+  "topic": "Drawing Angles Accurately Using a Protractor",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "3",
   "lessonNumber": "2",
-  "description": "This lesson introduces the concept of volume and focuses on measuring liquids in milliliters and liters. Students will learn to measure volume accurately using appropriate tools.",
+  "description": "This lesson teaches students how to draw angles accurately using a protractor. The lesson covers the basics of drawing angles, provides a step-by-step guide, and includes an exercise to reinforce the learning.",
   "materials": [
-    "Measuring cups",
-    "Graduated cylinders",
-    "Containers of various sizes",
-    "Water or other safe liquids for measuring"
+    "Protractors",
+    "Rulers",
+    "Pencils",
+    "Graph paper for practice",
+    "Sample angles for demonstration"
   ],
   "objectives": [
-    "Understand the concept of volume and its importance in measurement.",
-    "Learn how to measure liquids accurately using milliliters and liters.",
-    "Practice measuring the volume of liquids using graduated cylinders and measuring cups."
+    "Students will understand the importance of drawing angles accurately.",
+    "Students will learn how to use a protractor to draw angles.",
+    "Students will practice drawing and verifying angles."
   ],
   "rationale": [
-    "Volume measurement is essential for many practical applications, including cooking, science experiments, and understanding everyday quantities. Mastering the skill of measuring volume helps students develop important math and science skills."
+    "Accurate drawing of angles is essential in geometry and design. Learning to use a protractor effectively ensures precision in creating shapes and solving math problems."
   ],
   "methodology": [
-    "The lesson will involve direct instruction, demonstrations, hands-on measurement activities, guided practice, and collaborative exercises."
+    "The lesson includes an explanation of why drawing angles accurately is important, a step-by-step guide to using a protractor, and practical exercises to reinforce the concepts."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Begin with an explanation of what volume is and how it is used in everyday life. Discuss the difference between capacity and volume, emphasizing that volume refers to the amount of space a liquid occupies.",
-      "<b>Measuring Volume:</b> Demonstrate how to use measuring cups and graduated cylinders to measure liquids in milliliters and liters. Show how to read the measurements accurately on each tool.",
-      "<b>Practical Demonstration:</b> Measure different amounts of liquid using graduated cylinders and measuring cups, explaining the process step-by-step.",
-      "<b>Class Exercise:</b><br>1. Students will work in pairs to measure specific amounts of liquid using graduated cylinders and measuring cups.<br>2. They will record their measurements in both milliliters and liters, comparing their results to ensure accuracy.",
-      "<b>Homework:</b><br>1. Measure the volume of different liquids at home using a measuring cup, and record the results in milliliters and liters.<br>2. Reflect on the accuracy of the measurements and any challenges faced during the process."
+      "<b>Understanding the Basics:</b><br>Discuss why drawing angles is important in geometry and design. Explain that accurate angles are crucial for solving problems and creating shapes in math and real-world applications.",
+      "<b>Tools Needed:</b><br>Introduce the tools required: a ruler, a pencil, and a protractor. Show how each tool is used to ensure accurate angle drawing and measurement.",
+      "<b>Step-by-Step Guide:</b><br>1. Draw a base line using a ruler.<br>2. Position the protractor’s center on one end of the line, aligning the line with the 0° mark.<br>3. Mark the desired angle measurement on the protractor.<br>4. Remove the protractor and draw a line from the vertex through the mark to complete the angle.",
+      "<b>Checking Your Work:</b><br>Use the protractor to measure the drawn angle and compare it with the intended measurement. If the angle is incorrect, adjust it to match the desired measurement.",
+      "<b>Exercise Questions:</b><br>1. What tools are needed to draw angles?<br>2. What is the first step in drawing an angle?<br>3. How do you position the protractor to draw an angle?<br>4. Where do you make a mark when drawing an angle?<br>5. What should you do after marking the desired angle?<br>6. True or False: You don’t need to use a ruler when drawing angles.<br>7. What do you do if the drawn angle does not match the intended measurement?<br>8. Draw a 45° angle and measure it.<br>9. Name a situation where drawing angles accurately is important.<br>10. What is the purpose of checking your drawn angles?"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of volume and their ability to measure liquids accurately using the tools provided.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of students' volume measurements recorded during the class activity.<br>2. Review homework assignments to ensure students grasp the concept of volume and can apply it in practical situations."
+    "<b>Observation:</b> The teacher will observe students as they draw angles, ensuring they use the protractor and ruler correctly and measure angles accurately.",
+    "<b>Feedback:</b> Provide feedback on each student's ability to draw and measure angles. Offer additional practice and clarification as needed."
   ],
   "conclusion": [
-    "Through interactive activities and hands-on practice, students will develop a solid understanding of volume and how to measure it accurately in milliliters and liters."
+    "Through understanding the basics, using the tools, following the step-by-step guide, and practicing the exercises, students will develop the skills needed to draw and measure angles accurately."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Time",
+  "title": "Measuring the Area of Rectangles",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, October 21, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Time",
+  "topic": "Measuring the Area of Rectangles",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "3",
   "lessonNumber": "3",
-  "description": "This lesson focuses on measuring time. Students will learn to read clocks and understand various time units, such as hours and minutes, through practice and interactive activities.",
+  "description": "This lesson teaches students how to measure the area of rectangles using the formula and understanding its practical applications.",
   "materials": [
-    "Analog clocks",
-    "Digital clocks",
-    "Worksheets with clock faces",
-    "Flashcards with time units (hours, minutes)"
+    "Rulers",
+    "Grid paper",
+    "Visual aids showing rectangles and area calculations",
+    "Example rectangles for practice"
   ],
   "objectives": [
-    "Understand the concept of time and its significance in daily life.",
-    "Learn to read both analog and digital clocks.",
-    "Familiarize students with different time units, including hours and minutes."
+    "Students will understand the concept of area and how it applies to rectangles.",
+    "Students will learn and apply the formula for measuring the area of rectangles.",
+    "Students will practice calculating the area of rectangles using real-life examples."
   ],
   "rationale": [
-    "Mastering the ability to read time is a fundamental life skill that helps students manage daily activities and develop a sense of responsibility. Understanding time units is essential for scheduling, time management, and practical decision-making."
+    "Understanding how to measure area is fundamental in mathematics and practical for daily tasks. Learning this concept helps students develop problem-solving skills and apply mathematical reasoning."
   ],
   "methodology": [
-    "The lesson will include direct instruction, clock reading exercises, guided practice, and interactive time-related activities."
+    "The lesson includes an explanation of area, demonstration of the formula, step-by-step calculation, and practical applications. Activities will involve hands-on practice and real-life examples to reinforce learning."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Start with a discussion on the concept of time and its importance in everyday life. Introduce the different types of clocks (analog and digital) and explain how they display time.",
-      "<b>Reading Clocks:</b> Demonstrate how to read both analog and digital clocks, focusing on the position of the hour and minute hands for analog clocks and the digital display for digital clocks.",
-      "<b>Practical Exercise:</b> Provide students with worksheets that have various clock faces. Have them write down the time shown on each clock, practicing with both hours and minutes.",
-      "<b>Class Activity:</b><br>1. Students will participate in a time-matching game using flashcards with different times written on them and corresponding clock faces.<br>2. They will work in pairs to match the correct time to the corresponding clock face, reinforcing their understanding of time units.",
-      "<b>Homework:</b><br>1. Practice reading the time on different clocks at home, both analog and digital.<br>2. Record the times at different points in the day (morning, afternoon, evening) and write down the activities associated with those times."
+      "<b>Understanding the Concept of Area:</b><br>Explain what area is, emphasizing that it represents the amount of space inside a shape. For rectangles, area measures the surface covered. Introduce units of measurement such as square centimeters (cm²) and square meters (m²).",
+      "<b>Formula for Measuring the Area:</b><br>Introduce the formula for finding the area of a rectangle: Area = Length × Width. Demonstrate how to apply this formula by measuring the length and width of a rectangle and multiplying them together.",
+      "<b>Step-by-Step Calculation:</b><br>Guide students through the process of measuring the length and width using a ruler. Show how to multiply these measurements to find the area. Provide an example with a rectangle of length 5 cm and width 3 cm, resulting in an area of 15 cm².",
+      "<b>Practical Examples:</b><br>Discuss real-life scenarios where measuring the area of rectangles is useful, such as finding the size of a room or covering a space with tiles. Use visual aids and examples to illustrate these applications.",
+      "<b>Exercise Questions:</b><br>1. What does the area of a rectangle represent?<br>2. What is the formula for finding the area of a rectangle?<br>3. If the length of a rectangle is 7 cm and the width is 4 cm, what is the area?<br>4. In which units is area measured?<br>5. What tools do you need to measure the area of a rectangle?<br>6. True or False: Area can be measured in square units.<br>7. Name a real-life use of measuring the area of rectangles.<br>8. Find the area of a rectangle with a length of 10 m and width of 2 m.<br>9. Why is it important to measure accurately?<br>10. Draw a rectangle and label its length and width."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to read both analog and digital clocks during class activities.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of students' responses on the clock-reading worksheets.<br>2. Review homework assignments to ensure students are comfortable reading time and associating it with daily activities."
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions and practical exercises. Check their ability to use the formula correctly and apply it to real-life examples.",
+    "<b>Feedback:</b> Provide feedback on students' calculations and understanding of the concept. Offer additional support to those who need help with measuring or applying the formula."
   ],
   "conclusion": [
-    "Through interactive exercises and practice, students will develop the ability to read time accurately on both analog and digital clocks, and understand the importance of different time units like hours and minutes."
+    "By learning how to measure the area of rectangles, students will gain valuable mathematical skills that are applicable in various real-life situations, enhancing their problem-solving abilities and understanding of spatial relationships."
   ]
 },
 
 // Lesson 4
 {
-  "title": "Temperature",
+  "title": "Measuring the Area of Squares",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, October 28, 2024",
+  "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Temperature",
+  "subject": "Mathematics",
+  "topic": "Measuring the Area of Squares",
   "grade": "Sky Soarers",
   "term": "3",
   "week": "3",
   "lessonNumber": "4",
-  "description": "This lesson focuses on understanding temperature scales, specifically Celsius and Fahrenheit, and practicing how to read thermometers accurately. Students will learn the differences between the scales and the importance of temperature in everyday life.",
+  "description": "This lesson aims to teach students how to measure the area of squares, using simple calculations and practical applications.",
   "materials": [
-    "Thermometers (digital and analog)",
-    "Charts displaying Celsius and Fahrenheit scales",
-    "Worksheet with temperature reading exercises",
-    "Flashcards with different temperatures labeled in both scales"
+    "Rulers",
+    "Square-shaped objects",
+    "Whiteboard and markers",
+    "Worksheets for practice"
   ],
   "objectives": [
-    "Understand the concept of temperature and its significance.",
-    "Learn to read thermometers accurately in both Celsius and Fahrenheit.",
-    "Familiarize students with the differences between the Celsius and Fahrenheit temperature scales."
+    "Students will understand the properties of squares.",
+    "Students will learn the formula for measuring the area of squares.",
+    "Students will practice calculating the area of squares using measurements."
   ],
   "rationale": [
-    "Understanding how to read temperature is essential for daily life, from checking the weather to ensuring the safety of food and maintaining health. Mastering both Celsius and Fahrenheit scales enhances students' ability to interpret and respond to temperature-related information."
+    "Understanding how to measure the area of squares is fundamental in geometry and practical for various everyday applications, such as designing spaces and solving real-life problems."
   ],
   "methodology": [
-    "The lesson will involve direct instruction, demonstrations of thermometer use, hands-on practice with reading temperatures, guided discussions, and collaborative activities."
+    "The lesson will include explanations of square properties, demonstrations of the area formula, step-by-step calculations, and practical applications. Students will engage in hands-on activities and exercises to reinforce learning."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Begin with an explanation of temperature, its importance, and the two main scales used to measure it: Celsius and Fahrenheit. Discuss common situations where temperature is measured, such as weather reports and cooking.",
-      "<b>Reading Thermometers:</b> Demonstrate how to read both digital and analog thermometers. Show how the temperature is displayed on the Celsius and Fahrenheit scales and explain how to interpret the readings.",
-      "<b>Practical Exercise:</b> Provide students with worksheets that include pictures of thermometers showing different temperatures. Have students write down the temperature readings in both Celsius and Fahrenheit.",
-      "<b>Class Activity:</b><br>1. Students will use real or simulated thermometers to measure the temperature of different objects or environments (e.g., warm water, room temperature, outside air).<br>2. They will record the readings in both Celsius and Fahrenheit and compare the results.",
-      "<b>Homework:</b><br>1. Practice reading temperatures at home using any available thermometers (e.g., weather app, indoor thermometer).<br>2. Write down the temperatures in both Celsius and Fahrenheit and describe how the temperature feels (hot, cold, warm, etc.)."
+      "<b>Understanding Squares and Their Properties:</b><br>Explain that a square has four equal sides and four right angles. Emphasize that all sides are of the same length, and this characteristic makes it different from other shapes.",
+      "<b>Formula for Measuring the Area of Squares:</b><br>Introduce the formula for calculating the area of a square: Area = Side × Side or Area = Side². Show how to apply this formula by measuring one side and squaring the measurement.",
+      "<b>Step-by-Step Calculation of Area:</b><br>1. Measure the side of the square using a ruler.<br>2. Square the measurement by multiplying it by itself (e.g., if the side is 4 cm, then Area = 4 cm × 4 cm = 16 cm²).<br>3. Practice this with different square measurements.",
+      "<b>Practical Uses of Measuring the Area of Squares:</b><br>Discuss everyday applications, such as designing floors, gardens, or any square-shaped spaces. Explain how knowing the area helps in planning and designing.",
+      "<b>Exercise Questions:</b><br>1. What is unique about a square’s sides?<br>2. What is the formula for finding the area of a square?<br>3. If a square has a side length of 6 cm, what is its area?<br>4. True or False: A square has four sides of different lengths.<br>5. Measure the side of a square in your book and find its area.<br>6. What units do you use to measure area?<br>7. Draw a square and label its side length.<br>8. Why do you only need to measure one side of a square?<br>9. Find the area of a square with a side of 8 m.<br>10. Name a place where squares are commonly found."
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to read temperatures accurately during class activities.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the correctness of students' temperature readings on the worksheets.<br>2. Review homework assignments to ensure students can accurately read and interpret temperature using both Celsius and Fahrenheit scales."
+    "<b>Observation:</b> The teacher will observe students' understanding of the properties of squares, their ability to use the area formula, and their practical application through exercises.",
+    "<b>Feedback:</b> Provide feedback on students' calculations, understanding of concepts, and ability to apply the formula correctly. Offer additional practice as needed."
   ],
   "conclusion": [
-    "By engaging in hands-on practice and activities, students will develop a clear understanding of how to read and interpret temperature using both Celsius and Fahrenheit scales, enhancing their ability to respond to temperature-related situations in everyday life."
+    "By learning how to measure the area of squares, students will gain essential mathematical skills that apply to various practical situations and build a strong foundation for further geometric concepts."
   ]
 },
+
+// Lesson 5
+{
+  "title": "Measuring the Area of Triangles",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Measuring the Area of Triangles",
+  "grade": "Sky Soarers",
+  "term": "3",
+  "week": "3",
+  "lessonNumber": "5",
+  "description": "This lesson focuses on teaching students how to measure the area of triangles. Students will learn about the structure of triangles, the formula for finding their area, and practical applications.",
+  "materials": [
+    "Rulers",
+    "Paper and pencils",
+    "Triangle diagrams",
+    "Examples of real-life triangular objects"
+  ],
+  "objectives": [
+    "Students will understand the structure of triangles and the concept of base and height.",
+    "Students will learn the formula for calculating the area of triangles.",
+    "Students will apply the formula to calculate the area of triangles in practice exercises."
+  ],
+  "rationale": [
+    "Measuring the area of triangles is an essential mathematical skill with practical applications in various fields. Understanding this concept helps students build a foundation for more advanced geometry and real-world problem-solving."
+  ],
+  "methodology": [
+    "The lesson will include explanations of triangle properties, demonstration of the area formula, guided practice, and real-life application examples. Students will work through exercises to reinforce their understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Understanding the Structure of Triangles:</b><br>A triangle is a shape with three sides and three angles. Discuss different types of triangles: equilateral, isosceles, and scalene. Explain the base (any side of the triangle) and height (the perpendicular distance from the base to the opposite vertex).",
+      "<b>Formula for Measuring the Area:</b><br>Introduce the area formula: Area = 1/2 × Base × Height. Explain how to apply this formula by measuring the base and height of the triangle and then substituting these values into the formula.",
+      "<b>Step-by-Step Calculation:</b><br>Guide students through measuring the base and height of a triangle using a ruler. Demonstrate a calculation example: For a base of 5 cm and height of 8 cm, Area = 1/2 × 5 cm × 8 cm = 20 cm².",
+      "<b>Practical Uses:</b><br>Discuss real-life applications such as calculating the area of triangular garden plots or roof sections. Explain why knowing how to measure area is useful in various practical scenarios.",
+      "<b>Exercise Questions:</b><br>1. How many sides does a triangle have?<br>2. What is the formula for finding the area of a triangle?<br>3. If the base of a triangle is 7 cm and the height is 4 cm, what is its area?<br>4. True or False: The height of a triangle must be perpendicular to the base.<br>5. How do you determine which side to use as the base of a triangle?<br>6. Measure the base and height of a triangle in your book and calculate its area.<br>7. What unit is used to measure the area of triangles?<br>8. Why is it important to ensure the height is perpendicular when calculating the area of a triangle?<br>9. Draw a triangle with a base of 6 cm and a height of 9 cm. Calculate its area.<br>10. Name a practical situation where measuring the area of a triangle might be useful."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, ability to apply the formula correctly, and accuracy in exercises.",
+    "<b>Feedback:</b> Provide feedback on the accuracy of calculations and understanding of concepts. Offer additional support for students struggling with the material."
+  ],
+  "conclusion": [
+    "By understanding the structure of triangles, learning the area formula, and practicing measurements, students will develop a strong foundation in geometry and its practical applications."
+  ]
+},
+
 
 // Week 4
 // Lesson 1
-{
-  "title": "Introduction to Telling Time",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, November 4, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Introduction to Telling Time",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "4",
-  "lessonNumber": "1",
-  "description": "This lesson introduces students to the basics of telling time using both analog and digital clocks. Students will learn to identify the hour and minute hands on an analog clock and practice reading and writing time on both types of clocks.",
-  "materials": [
-    "Analog clock models",
-    "Digital clocks",
-    "Worksheets with blank clock faces",
-    "Flashcards with different times",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Understand the basics of telling time using both analog and digital clocks.",
-    "Learn to identify the hour and minute hands on an analog clock.",
-    "Practice reading and writing time on both analog and digital clocks."
-  ],
-  "rationale": [
-    "Telling time is a fundamental skill that students need for daily life. Understanding how to read both analog and digital clocks helps students manage their time effectively and navigate various aspects of their day."
-  ],
-  "methodology": [
-    "The lesson will include direct instruction, hands-on practice with clock models, guided practice through worksheets, interactive discussions, and collaborative activities."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by introducing the concept of time and discussing why it is important to know how to tell time. Explain the differences between analog and digital clocks.",
-      "<b>Identifying Clock Hands:</b> Use analog clock models to show students the hour and minute hands. Explain how the hour hand points to the hour and the minute hand points to the minutes. Demonstrate how to read the time on an analog clock.",
-      "<b>Reading Digital Clocks:</b> Show students how to read the time on a digital clock, explaining the format of hours and minutes. Compare the time on a digital clock with the corresponding time on an analog clock.",
-      "<b>Practical Exercise:</b> Provide students with worksheets that feature blank analog clock faces. Have them draw the hour and minute hands to show different times. Then, have them write the corresponding time in digital format.",
-      "<b>Class Activity:</b><br>1. Engage students in a matching game where they match flashcards with different times to the correct clock faces (analog and digital).<br>2. Have students work in pairs to practice telling time using both types of clocks, reinforcing their understanding of hours and minutes.",
-      "<b>Homework:</b><br>1. Practice telling time at home by reading both analog and digital clocks throughout the day.<br>2. Write down the times of different activities (e.g., waking up, going to bed) and note whether they were read from an analog or digital clock."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to correctly identify the hour and minute hands on an analog clock and read the time on both types of clocks during class activities.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in drawing clock hands and writing the correct time on worksheets.<br>2. Review homework assignments to ensure students are practicing and understanding how to tell time using both analog and digital clocks."
-  ],
-  "conclusion": [
-    "Through interactive practice and exercises, students will gain confidence in telling time using both analog and digital clocks, enhancing their ability to manage and understand time in their daily lives."
-  ]
-},
+
 
 // Lesson 2
-{
-  "title": "Telling Time to the Nearest Hour and Half Hour",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, November 11, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Telling Time to the Nearest Hour and Half Hour",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "4",
-  "lessonNumber": "2",
-  "description": "This lesson focuses on teaching students how to read and tell time to the nearest hour and half-hour. Students will learn to use phrases like 'o'clock' and 'half past,' and practice telling time using different methods.",
-  "materials": [
-    "Analog clock models with movable hands",
-    "Digital clocks",
-    "Flashcards with times showing the nearest hour and half-hour",
-    "Worksheets for practice",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Focus on reading time to the nearest hour and half-hour.",
-    "Learn how to use phrases like 'o'clock' and 'half past.'",
-    "Practice telling time using different time-telling methods."
-  ],
-  "rationale": [
-    "Understanding how to tell time to the nearest hour and half-hour is a key skill in time management. Learning these concepts helps students become more aware of the passage of time and how it is measured in daily activities."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction, guided practice with clock models, interactive class activities, and independent practice through worksheets."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Start by reviewing how to tell time on an analog clock. Introduce the concept of reading time to the nearest hour and half-hour, and explain the phrases 'o'clock' and 'half past.'",
-      "<b>Demonstration:</b> Use analog clock models with movable hands to show different times on the hour and half-hour. Emphasize how the minute hand points to 12 for 'o'clock' and to 6 for 'half past.'",
-      "<b>Practice with Analog Clocks:</b> Have students practice moving the hands on their own clock models to show times like 3:00 ('three o'clock') and 3:30 ('half past three').",
-      "<b>Practice with Digital Clocks:</b> Show students how these times appear on digital clocks. Compare the display on digital clocks with the corresponding time on analog clocks.",
-      "<b>Class Activity:</b><br>1. Use flashcards with different times to engage students in a game where they identify whether the time is on the hour or half-hour and state it correctly (e.g., 'two o'clock' or 'half past two').<br>2. Have students work in pairs to quiz each other using clock models and flashcards.",
-      "<b>Homework:</b><br>1. Complete worksheets that focus on telling time to the nearest hour and half-hour.<br>2. At home, students can practice telling time by setting clocks to specific times and stating the correct phrase ('o'clock' or 'half past')."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of telling time to the nearest hour and half-hour through their participation in activities and correct use of phrases.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in placing the hands on analog clocks and stating the correct time during class practice.<br>2. Review worksheets to ensure students are correctly identifying and writing times to the nearest hour and half-hour."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will be able to confidently tell time to the nearest hour and half-hour, using both analog and digital clocks, and correctly apply the phrases 'o'clock' and 'half past.'"
-  ]
-},
+
+
+// Lesson 3
+
+
+// Lesson 4
+
+
+// Lesson 5
+
 
 
 // Week 5
 // Lesson 1
-{
-  "title": "Telling Time to the Quarter Hour",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, November 18, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Telling Time to the Quarter Hour",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "5",
-  "lessonNumber": "1",
-  "description": "This lesson introduces students to reading time to the nearest quarter-hour. They will learn to use phrases like 'quarter past' and 'quarter to,' and practice telling time with precision to 15-minute intervals.",
-  "materials": [
-    "Analog clock models with movable hands",
-    "Digital clocks",
-    "Flashcards with times showing the nearest quarter-hour",
-    "Worksheets for practice",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Introduce reading time to the nearest quarter-hour.",
-    "Learn to use phrases like 'quarter past' and 'quarter to.'",
-    "Practice telling time with precision to 15-minute intervals."
-  ],
-  "rationale": [
-    "Being able to tell time to the nearest quarter-hour is an important step in understanding time management and planning. Learning these concepts helps students accurately track time in both everyday activities and timed tasks."
-  ],
-  "methodology": [
-    "The lesson will include direct instruction, hands-on practice with clock models, interactive class activities, and independent practice through worksheets."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by reviewing the concepts of telling time to the nearest hour and half-hour. Introduce the concept of the quarter-hour, explaining how the clock is divided into four quarters.",
-      "<b>Demonstration:</b> Use analog clock models to show times like 3:15 ('quarter past three') and 3:45 ('quarter to four'). Discuss how the minute hand points to 3 for 'quarter past' and to 9 for 'quarter to.'",
-      "<b>Practice with Analog Clocks:</b> Have students practice moving the hands on their own clock models to display various times to the nearest quarter-hour, such as 4:15, 4:30, and 4:45.",
-      "<b>Practice with Digital Clocks:</b> Show how these times appear on digital clocks, and compare the digital display with the corresponding time on analog clocks. Discuss the importance of recognizing both formats.",
-      "<b>Class Activity:</b><br>1. Use flashcards to engage students in identifying and stating times to the nearest quarter-hour (e.g., 'quarter past six,' 'quarter to seven').<br>2. Pair students for a quiz activity where they take turns setting times on clock models and asking their partner to identify the time using the correct phrases.",
-      "<b>Homework:</b><br>1. Complete worksheets that focus on telling time to the nearest quarter-hour.<br>2. At home, students can practice by reading clocks at specific times and stating whether it is 'quarter past' or 'quarter to.'"
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of telling time to the nearest quarter-hour through their participation in activities and the correct use of phrases.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in placing the hands on analog clocks and stating the correct time during class practice.<br>2. Review worksheets to ensure students are correctly identifying and writing times to the nearest quarter-hour."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will be able to confidently tell time to the nearest quarter-hour, using both analog and digital clocks, and accurately use phrases like 'quarter past' and 'quarter to.'"
-  ]
-},
+
 
 // Lesson 2
-{
-  "title": "Elapsed Time",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, December 2, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Elapsed Time",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "5",
-  "lessonNumber": "2",
-  "description": "This lesson introduces students to the concept of elapsed time. They will learn how to calculate the time that has passed between two given times, and practice solving problems involving elapsed time in hours and minutes.",
-  "materials": [
-    "Analog clocks with movable hands",
-    "Digital clocks",
-    "Elapsed time word problems worksheets",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Explore the concept of elapsed time.",
-    "Teach students how to calculate the time that has passed between two given times.",
-    "Practice solving elapsed time problems involving hours and minutes."
-  ],
-  "rationale": [
-    "Understanding elapsed time is essential for daily time management and planning. Students will develop skills to calculate time intervals, which is a critical aspect of scheduling and organizing activities."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction, hands-on practice with clocks, interactive problem-solving, and independent work on elapsed time calculations."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by discussing the importance of knowing how much time has passed between two events. Introduce the concept of elapsed time and how it can be calculated.",
-      "<b>Demonstration:</b> Use analog clocks to demonstrate how to calculate elapsed time. For example, show a start time of 2:00 PM and an end time of 4:30 PM, and walk through the steps to find the elapsed time (2 hours and 30 minutes).",
-      "<b>Interactive Practice:</b> Give students clocks with movable hands and ask them to set the start and end times for various problems. Have them calculate the elapsed time for each scenario and discuss their answers.",
-      "<b>Problem-Solving Activity:</b> Provide students with word problems involving elapsed time (e.g., 'If a movie starts at 1:45 PM and ends at 3:10 PM, how long did it last?'). Work through a few examples together on the whiteboard, then have students solve additional problems independently.",
-      "<b>Class Discussion:</b> Review the answers to the problems, focusing on different strategies for calculating elapsed time, such as counting forward by hours and minutes or subtracting the start time from the end time.",
-      "<b>Homework:</b><br>1. Complete a worksheet with various elapsed time problems.<br>2. Ask students to observe and calculate elapsed time for activities at home, such as the duration of their favorite TV show or the time it takes to complete homework."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of elapsed time through their participation in hands-on activities and problem-solving discussions.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate the accuracy of students' calculations during independent practice and their ability to set clocks to display specific times.<br>2. Review completed worksheets to ensure understanding of elapsed time concepts."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will be able to confidently calculate elapsed time between two given times, and apply these skills to both everyday activities and mathematical problems."
-  ]
-},
+
 
 // Lesson 3
-{
-  "title": "Word Problems and Real-World Applications",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, December 9, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Word Problems and Real-World Applications",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "5",
-  "lessonNumber": "3",
-  "description": "This lesson focuses on applying time calculation skills to solve word problems and real-world scenarios. Students will explore how time calculations are used in scheduling, understanding time zones, and other everyday situations. The lesson also aims to develop students' problem-solving skills involving hours and minutes in various contexts.",
-  "materials": [
-    "Word problem worksheets",
-    "World map with time zones",
-    "Clocks (analog and digital)",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Apply time calculation skills to solve word problems and practical scenarios.",
-    "Explore how time calculations are used in scheduling, time zones, and everyday situations.",
-    "Develop problem-solving skills involving hours and minutes in various contexts."
-  ],
-  "rationale": [
-    "Understanding how to apply time calculations in real-world situations is crucial for effective time management and planning. This lesson will help students recognize the importance of accurate time calculations in their daily lives and develop essential problem-solving skills."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on solving time-related word problems, exploration of time zones and their impact, guided practice with real-world scenarios, and independent problem-solving activities."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Start by discussing the relevance of time calculations in everyday life, such as scheduling appointments, travel planning, and understanding time zones.",
-      "<b>Time Zone Exploration:</b> Show students a world map with time zones. Explain how time zones work and discuss examples of how they affect global communication and travel. Provide a few time zone-related problems for students to solve (e.g., 'If it’s 3:00 PM in London, what time is it in New York?').",
-      "<b>Word Problems:</b> Introduce various word problems that require time calculations, such as determining start and end times, calculating the duration of events, or adjusting for time zone differences. Solve a few problems together on the whiteboard, modeling the thought process and calculations.",
-      "<b>Real-World Scenarios:</b> Present students with practical scenarios that involve time calculations, such as creating a daily schedule, planning travel across time zones, or determining the duration of a TV show or event. Have students work in pairs or small groups to solve these scenarios, then discuss their solutions as a class.",
-      "<b>Homework:</b><br>1. Complete additional word problems involving time calculations.<br>2. Reflect on a situation in their daily lives where time calculations were necessary, such as setting an alarm or planning a trip, and write a brief explanation of how they solved it."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding and application of time calculations through their participation in class discussions, group activities, and problem-solving exercises.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in solving word problems and real-world scenarios involving time calculations.<br>2. Review completed worksheets and homework for understanding of the concepts and application of time calculation skills."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will be able to confidently apply time calculation skills to solve word problems and navigate real-world scenarios involving time. They will understand the importance of these skills in managing their daily lives and be better equipped to handle time-related challenges."
-  ]
-},
+
+
+// Lesson 4
+
+
+// Lesson 5
+
 
 
 // Week 7
 // Lesson 1
-{
-  "title": "Introduction to Data",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, January 8, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Introduction to Data",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "7",
-  "lessonNumber": "1",
-  "description": "This lesson introduces students to the concept of data and its importance. The focus will be on teaching students how to collect and organize data using charts, tables, and graphs. Students will also practice reading and interpreting basic data representations.",
-  "materials": [
-    "Whiteboard and markers",
-    "Chart paper",
-    "Graph paper",
-    "Examples of charts, tables, and graphs",
-    "Data collection sheets"
-  ],
-  "objectives": [
-    "Understand the concept of data and why it's important.",
-    "Learn to collect and organize data using charts, tables, and graphs.",
-    "Practice reading and interpreting basic data representations."
-  ],
-  "rationale": [
-    "Data is an essential part of everyday life and is used in many areas such as business, science, and education. This lesson will help students understand how to collect, organize, and interpret data, which are key skills for problem-solving and decision-making."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on the concept of data, interactive activities for collecting and organizing data, guided practice in creating charts, tables, and graphs, and opportunities for students to read and interpret data representations."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by explaining what data is and discussing why it is important in various fields such as science, business, and everyday decision-making.",
-      "<b>Data Collection Activity:</b> Guide students in a simple data collection activity. For example, have them count the number of each color of markers in the classroom and record their findings.",
-      "<b>Organizing Data:</b> Show students how to organize the collected data into charts and tables. Use the marker color data as an example, creating a bar chart on the whiteboard.",
-      "<b>Creating Graphs:</b> Teach students how to represent their data using different types of graphs such as bar graphs and pie charts. Provide examples and have students create their own graphs based on the data they collected earlier.",
-      "<b>Interpreting Data:</b> Discuss how to read and interpret the data presented in charts, tables, and graphs. Ask students questions about the graphs they created, such as 'Which color marker is the most common?' and 'How many more red markers are there than blue markers?'",
-      "<b>Homework:</b><br>1. Collect data on a topic of their choice (e.g., the number of pets owned by classmates).<br>2. Organize the data into a table or chart and create a corresponding graph.<br>3. Write a brief paragraph interpreting the data they collected and explaining what it shows."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of data concepts and their ability to collect, organize, and interpret data through participation in class activities.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy and creativity in organizing data and creating graphs.<br>2. Review homework assignments for completeness and understanding of data representation."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a foundational understanding of data and its importance. They will be able to collect, organize, and represent data using charts, tables, and graphs, and will be prepared to interpret data in various contexts."
-  ]
-},
+
 
 // Lesson 2
-{
-  "title": "Types of Data and Graphs",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, January 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Types of Data and Graphs",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "7",
-  "lessonNumber": "2",
-  "description": "This lesson explores different types of data, including categorical and numerical data. Students will learn about various types of graphs, such as bar graphs, line graphs, and pictographs. The lesson will involve practice in creating and reading different types of graphs.",
-  "materials": [
-    "Whiteboard and markers",
-    "Graph paper",
-    "Examples of bar graphs, line graphs, and pictographs",
-    "Data collection sheets",
-    "Colored pencils or markers"
-  ],
-  "objectives": [
-    "Explore different types of data, including categorical and numerical data.",
-    "Learn about various types of graphs, such as bar graphs, line graphs, and pictographs.",
-    "Practice creating and reading different types of graphs."
-  ],
-  "rationale": [
-    "Understanding the different types of data and how to represent them using graphs is essential for analyzing and interpreting information effectively. This lesson will help students distinguish between types of data and select appropriate graph types for data representation."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on types of data and graphs, interactive demonstrations of creating various graphs, guided practice in plotting data, and independent activities for creating and interpreting graphs."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by discussing the two main types of data: categorical (e.g., favorite colors, types of pets) and numerical (e.g., number of pets, ages). Explain the importance of choosing the right type of graph for each data type.",
-      "<b>Types of Graphs:</b> Introduce and demonstrate different types of graphs: bar graphs, line graphs, and pictographs. Show examples and explain when each type of graph is most appropriate.",
-      "<b>Graph Creation:</b> Provide students with data sets and guide them in creating different types of graphs based on the data provided. For example, use a data set of favorite fruits to create a bar graph, or use a temperature data set to create a line graph.",
-      "<b>Reading Graphs:</b> Teach students how to read and interpret the data presented in various graphs. Provide practice problems where students analyze and answer questions based on different types of graphs.",
-      "<b>Independent Practice:</b> Distribute worksheets with data sets and have students create their own graphs, then interpret the data. Encourage students to choose the most suitable type of graph for each data set.",
-      "<b>Homework:</b><br>1. Collect data on a topic of interest (e.g., number of different types of pets in the neighborhood).<br>2. Create a bar graph, line graph, and pictograph based on the collected data.<br>3. Write a brief summary of what each graph shows."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of data types and graphs through their participation in class activities and their ability to create and interpret graphs.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy and clarity in creating and reading different types of graphs.<br>2. Review homework assignments for completeness and correct representation of data."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a better understanding of different types of data and graphs. They will be able to create and interpret bar graphs, line graphs, and pictographs, and will be able to select appropriate graph types for various data sets."
-  ]
-},
+
 
 // Lesson 3
-{
-  "title": "Measures of Central Tendency",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, January 22, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Measures of Central Tendency",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "7",
-  "lessonNumber": "3",
-  "description": "This lesson introduces measures of central tendency, including mean, median, and mode. Students will learn how to calculate and interpret these measures and practice finding central tendencies in data sets.",
-  "materials": [
-    "Whiteboard and markers",
-    "Examples of data sets",
-    "Calculation worksheets",
-    "Graph paper"
-  ],
-  "objectives": [
-    "Introduce measures of central tendency, including mean, median, and mode.",
-    "Learn how to calculate and interpret these measures.",
-    "Practice finding central tendencies in data sets."
-  ],
-  "rationale": [
-    "Understanding measures of central tendency is crucial for summarizing and interpreting data. This lesson will provide students with the skills to calculate and interpret mean, median, and mode, which are essential for analyzing data sets in various contexts."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on mean, median, and mode, interactive demonstrations of calculations, guided practice with data sets, and independent activities for finding central tendencies."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by explaining what measures of central tendency are and why they are important for analyzing data. Introduce the concepts of mean, median, and mode with simple examples.",
-      "<b>Mean Calculation:</b> Demonstrate how to calculate the mean of a data set by adding all values and dividing by the number of values. Use an example data set, such as the test scores of the class, to illustrate the process.",
-      "<b>Median Calculation:</b> Show how to find the median by arranging the data in numerical order and identifying the middle value. If there is an even number of values, explain how to average the two middle values.",
-      "<b>Mode Calculation:</b> Explain how to identify the mode as the value that appears most frequently in a data set. Use examples to demonstrate finding the mode in different data sets.",
-      "<b>Practice Exercises:</b><br>1. Provide students with data sets and have them calculate the mean, median, and mode.<br>2. Discuss the results as a class and compare different data sets.",
-      "<b>Homework:</b><br>1. Complete a worksheet with various data sets, calculating mean, median, and mode for each.<br>2. Write a brief explanation of which measure of central tendency is most appropriate for different types of data and why."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of mean, median, and mode through their participation in class activities and ability to calculate these measures accurately.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in calculating mean, median, and mode from provided data sets.<br>2. Review homework assignments for correct calculations and explanations."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a solid understanding of measures of central tendency. They will be able to calculate and interpret mean, median, and mode, and apply these concepts to summarize and analyze data sets."
-  ]
-},
+
+
+// Lesson 4
+
+
+// Lesson 5
+
 
 
 // Week 8
 // Lesson 1
-{
-  "title": "Data Variability and Range",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, January 29, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Data Variability and Range",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "8",
-  "lessonNumber": "1",
-  "description": "This lesson focuses on understanding data variability and how it relates to the range. Students will learn how to calculate the range of a data set and explore how variability affects the interpretation of data.",
-  "materials": [
-    "Whiteboard and markers",
-    "Examples of data sets",
-    "Calculation worksheets",
-    "Graph paper"
-  ],
-  "objectives": [
-    "Understand data variability and how it relates to the range.",
-    "Learn how to calculate the range of a data set.",
-    "Explore how variability affects the interpretation of data."
-  ],
-  "rationale": [
-    "Understanding data variability and range is crucial for interpreting the spread of data. This lesson will help students calculate and understand the range, which is essential for analyzing how much data values differ from one another."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on data variability and range, interactive demonstrations of calculating the range, guided practice with data sets, and discussions on the implications of variability in data interpretation."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by explaining data variability and its importance in understanding how data values differ. Introduce the concept of range as a measure of variability.",
-      "<b>Range Calculation:</b> Demonstrate how to calculate the range by subtracting the smallest value from the largest value in a data set. Use a sample data set, such as the temperatures recorded over a week, to illustrate the calculation.",
-      "<b>Exploring Variability:</b> Discuss how the range provides insights into the spread of data and how variability affects data interpretation. Show examples where a larger range indicates greater variability.",
-      "<b>Practice Exercises:</b><br>1. Provide students with various data sets and have them calculate the range for each.<br>2. Discuss the results and how the range reflects the variability within the data sets.",
-      "<b>Homework:</b><br>1. Complete a worksheet with data sets requiring range calculation.<br>2. Write a brief explanation of how the range impacts the interpretation of data and provide examples."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of data variability and range through their participation in class activities and their ability to calculate and interpret the range.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in calculating the range from provided data sets.<br>2. Review homework assignments for correct range calculations and explanations of data interpretation."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a clear understanding of data variability and range. They will be able to calculate the range of a data set and understand how variability affects the interpretation of data, leading to more informed data analysis."
-  ]
-},
-
-// Lesson 2
-{
-  "title": "Data Analysis and Real-World Applications",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, February 5, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Data Analysis and Real-World Applications",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "8",
-  "lessonNumber": "2",
-  "description": "This lesson focuses on applying data and statistics skills to solve real-world problems and scenarios. Students will explore how data analysis is used in various fields such as surveys, economics, and science, and develop problem-solving skills involving data and statistics in different contexts.",
-  "materials": [
-    "Whiteboard and markers",
-    "Examples of real-world data sets",
-    "Survey results and economic data",
-    "Graph paper"
-  ],
-  "objectives": [
-    "Apply data and statistics skills to solve real-world problems and scenarios.",
-    "Explore how data analysis is used in areas like surveys, economics, and science.",
-    "Develop problem-solving skills involving data and statistics in various contexts."
-  ],
-  "rationale": [
-    "Applying data and statistics skills to real-world problems enhances students' understanding of how these concepts are used in everyday life. This lesson will help students connect classroom learning with practical applications in various fields."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on applying data analysis skills, interactive exploration of real-world scenarios, guided practice with data sets, and discussions on the use of data in different fields."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by discussing the importance of data analysis in solving real-world problems. Introduce examples from surveys, economics, and science where data analysis plays a crucial role.",
-      "<b>Survey Analysis:</b> Provide students with sample survey results and guide them in analyzing the data to answer specific questions. Discuss how survey data can be used to make informed decisions.",
-      "<b>Economic Data:</b> Show examples of economic data, such as market trends or population statistics, and explain how data analysis is used in economics. Guide students in analyzing economic data to identify patterns and make predictions.",
-      "<b>Scientific Data:</b> Discuss how data analysis is used in scientific research and experiments. Provide examples of scientific data sets and have students analyze them to draw conclusions or identify trends.",
-      "<b>Practice Exercises:</b><br>1. Provide students with various real-world data sets and scenarios for analysis.<br>2. Have students solve problems and answer questions based on the data provided.",
-      "<b>Homework:</b><br>1. Complete a worksheet with real-world data sets, solving problems and answering questions.<br>2. Write a brief report on how data analysis is used in a specific field of interest, providing examples and explanations."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to apply data and statistics skills through their participation in class activities and problem-solving exercises.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in analyzing real-world data sets and solving related problems.<br>2. Review homework assignments for correct analysis and problem-solving skills, as well as the quality of reports on data use in various fields."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have developed skills in applying data and statistics to real-world problems. They will understand how data analysis is used in different fields and be able to solve problems using these skills in various contexts."
-  ]
-},
-
-// Week 9
-// Lesson 1
-{
-  "title": "Introduction to Patterns",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, March 4, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Introduction to Patterns",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "9",
-  "lessonNumber": "1",
-  "description": "This lesson introduces the concept of patterns in mathematics. Students will understand the importance of patterns, learn to identify and create simple patterns, and practice describing and extending them.",
-  "materials": [
-    "Whiteboard and markers",
-    "Pattern blocks or manipulatives",
-    "Pattern worksheets",
-    "Colored pencils or markers"
-  ],
-  "objectives": [
-    "Understand the concept of patterns and their importance in mathematics.",
-    "Learn to identify and create simple patterns.",
-    "Practice describing and extending patterns."
-  ],
-  "rationale": [
-    "Understanding patterns is fundamental in mathematics as it helps develop problem-solving and critical thinking skills. This lesson will provide a foundation for recognizing and working with patterns in various contexts."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on the concept of patterns, interactive activities for identifying and creating patterns, guided practice, and independent exercises to describe and extend patterns."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by explaining what patterns are and why they are important in mathematics. Use examples like repeating shapes or number sequences to illustrate basic patterns.",
-      "<b>Identifying Patterns:</b> Show students various patterns using pattern blocks or manipulatives. Have students identify the patterns and describe the sequence.",
-      "<b>Creating Patterns:</b> Guide students in creating their own patterns using colored pencils or markers. Provide worksheets with incomplete patterns for students to complete and extend.",
-      "<b>Practice Exercises:</b><br>1. Provide students with different pattern sequences and ask them to describe and extend the patterns.<br>2. Encourage students to create and share their own patterns with the class.",
-      "<b>Homework:</b><br>1. Complete a worksheet with various pattern activities, including identifying, creating, and extending patterns.<br>2. Write a short explanation of how patterns are used in everyday life."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of patterns through their participation in class activities and their ability to describe and extend patterns.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in identifying, creating, and extending patterns.<br>2. Review homework assignments for correct pattern descriptions and extensions, as well as explanations of real-world applications."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a solid understanding of patterns and their importance. They will be able to identify, create, and extend patterns, and recognize the role of patterns in mathematics and everyday life."
-  ]
-},
 
 
 // Lesson 2
-{
-  "title": "Number Patterns",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, March 11, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Number Patterns",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "9",
-  "lessonNumber": "2",
-  "description": "This lesson explores number patterns, including sequences of counting numbers, even and odd numbers, and multiples. Students will learn to write and continue number patterns and practice identifying the rules governing these patterns.",
-  "materials": [
-    "Whiteboard and markers",
-    "Number pattern worksheets",
-    "Number pattern manipulatives (e.g., number tiles)",
-    "Colored pencils or markers"
-  ],
-  "objectives": [
-    "Explore number patterns, including sequences of counting numbers, even and odd numbers, and multiples.",
-    "Learn to write and continue number patterns.",
-    "Practice identifying rules governing number patterns."
-  ],
-  "rationale": [
-    "Understanding number patterns is essential for developing mathematical reasoning and problem-solving skills. This lesson will help students recognize and extend number patterns, providing a foundation for more complex mathematical concepts."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on number patterns, interactive activities for writing and continuing patterns, guided practice to identify rules, and independent exercises to reinforce understanding."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by discussing what number patterns are and why they are important. Introduce sequences of counting numbers, even and odd numbers, and multiples.",
-      "<b>Exploring Patterns:</b> Use number tiles or manipulatives to show different types of number patterns. Have students identify and describe the patterns they see.",
-      "<b>Writing and Continuing Patterns:</b> Guide students in writing their own number patterns based on given sequences. Practice continuing patterns such as 2, 4, 6, ___ or 5, 10, 15, ___.",
-      "<b>Identifying Rules:</b><br>1. Provide students with number patterns and ask them to identify the rule governing each pattern.<br>2. Have students write their own patterns and explain the rules they used to create them.",
-      "<b>Homework:</b><br>1. Complete a worksheet with various number pattern exercises, including writing, continuing, and identifying rules.<br>2. Create and share a number pattern with the class, including an explanation of the rule used."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of number patterns through their participation in class activities and their ability to write, continue, and identify patterns.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in completing number patterns and identifying rules.<br>2. Review homework assignments for correct pattern sequences and explanations of the rules governing the patterns."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a deeper understanding of number patterns, including how to write, continue, and identify them. They will also be able to explain the rules governing these patterns and apply their knowledge to solve problems."
-  ]
-},
 
 
 // Lesson 3
-{
-  "title": "Shape and Geometric Patterns",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, March 18, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Shape and Geometric Patterns",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "9",
-  "lessonNumber": "3",
-  "description": "This lesson focuses on geometric patterns involving shapes, symmetry, and tessellations. Students will learn to recognize and create repeating geometric designs and practice describing and extending these patterns.",
-  "materials": [
-    "Whiteboard and markers",
-    "Geometric pattern worksheets",
-    "Shape manipulatives (e.g., pattern blocks, geometric tiles)",
-    "Colored pencils or markers"
-  ],
-  "objectives": [
-    "Focus on geometric patterns involving shapes, symmetry, and tessellations.",
-    "Learn how to recognize and create repeating geometric designs.",
-    "Practice describing and extending geometric patterns."
-  ],
-  "rationale": [
-    "Understanding geometric patterns is important for developing spatial reasoning and problem-solving skills. This lesson will help students recognize and create patterns with shapes, symmetry, and tessellations, providing a foundation for more complex geometric concepts."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on geometric patterns, interactive activities for creating and recognizing patterns, guided practice in describing and extending patterns, and independent exercises to reinforce understanding."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by discussing geometric patterns, including shapes, symmetry, and tessellations. Explain how these elements are used to create repeating designs.",
-      "<b>Recognizing Patterns:</b> Use shape manipulatives to demonstrate geometric patterns. Have students identify patterns involving shapes and symmetry, and discuss the properties of tessellations.",
-      "<b>Creating Patterns:</b> Guide students in creating their own geometric patterns using shape manipulatives and colored pencils. Encourage them to experiment with symmetry and tessellations.",
-      "<b>Describing and Extending Patterns:</b><br>1. Provide students with geometric patterns and ask them to describe the design and extend it.<br>2. Have students share their patterns with the class and explain the rules they used.",
-      "<b>Homework:</b><br>1. Complete a worksheet with various geometric pattern exercises, including identifying, creating, and extending patterns.<br>2. Design and draw a geometric pattern incorporating shapes, symmetry, and tessellations."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of geometric patterns through their participation in class activities and their ability to recognize, create, describe, and extend patterns.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in creating and extending geometric patterns.<br>2. Review homework assignments for correct pattern designs and descriptions, as well as understanding of symmetry and tessellations."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a strong understanding of geometric patterns, including how to recognize, create, and describe them. They will also be able to explain the role of shapes, symmetry, and tessellations in geometric designs."
-  ]
-},
+
+
+// Lesson 4
+
+
+// Lesson 5
+
+
+
+// Week 9
+// Lesson 1
+
+
+// Lesson 2
+
+
+// Lesson 3
+
+
+// Lesson 4
+
+
+// Lesson 5
+
 
 
 // Week 10
 // Lesson 1
-{
-  "title": "Introduction to Algebra",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, March 25, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Introduction to Algebra",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "10",
-  "lessonNumber": "1",
-  "description": "This lesson introduces the basics of algebra, including variables, expressions, and equations. Students will learn to write and solve simple algebraic equations and practice using algebra to represent real-world situations.",
-  "materials": [
-    "Whiteboard and markers",
-    "Algebra worksheets",
-    "Algebra tiles or manipulatives",
-    "Colored pencils or markers"
-  ],
-  "objectives": [
-    "Introduce the basics of algebra, including variables, expressions, and equations.",
-    "Learn to write and solve simple algebraic equations.",
-    "Practice using algebra to represent real-world situations."
-  ],
-  "rationale": [
-    "Understanding algebra is crucial for developing problem-solving and critical thinking skills. This lesson will provide students with a foundation in algebraic concepts, enabling them to solve equations and apply algebra to real-world scenarios."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on algebraic concepts, interactive activities for writing and solving equations, guided practice with algebraic expressions, and independent exercises to reinforce understanding."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by explaining the basics of algebra, including variables, expressions, and equations. Discuss how algebra is used to represent relationships and solve problems.",
-      "<b>Writing Equations:</b> Show examples of simple algebraic equations and demonstrate how to write and solve them. Use algebra tiles or manipulatives to visually represent equations.",
-      "<b>Solving Equations:</b> Guide students in solving basic algebraic equations, such as x + 3 = 7 or 2x = 10. Provide step-by-step instructions and practice problems.",
-      "<b>Real-World Applications:</b><br>1. Present real-world scenarios where algebra is used, such as calculating total cost or solving for an unknown quantity.<br>2. Have students create and solve their own equations based on these scenarios.",
-      "<b>Homework:</b><br>1. Complete a worksheet with simple algebraic equations and real-world problems.<br>2. Write and solve an algebraic equation based on a real-world situation of their choice."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of algebra through their participation in class activities and their ability to write and solve algebraic equations.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in solving algebraic equations and applying algebra to real-world problems.<br>2. Review homework assignments for correct solutions and application of algebraic concepts."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will have a foundational understanding of algebra, including how to write and solve simple equations. They will also be able to apply algebraic concepts to solve real-world problems."
-  ]
-},
+
 
 // Lesson 2
-{
-  "title": "Word Problems and Real-World Applications",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 1, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Word Problems and Real-World Applications",
-  "grade": "Sky Soarers",
-  "term": "3",
-  "week": "10",
-  "lessonNumber": "2",
-  "description": "This lesson focuses on applying pattern and algebra skills to solve word problems and practical scenarios. Students will explore how algebra is used in problem-solving, equations, and everyday situations, and develop problem-solving skills involving patterns and algebra in various contexts.",
-  "materials": [
-    "Whiteboard and markers",
-    "Word problem worksheets",
-    "Pattern and algebra manipulatives",
-    "Colored pencils or markers"
-  ],
-  "objectives": [
-    "Apply pattern and algebra skills to solve word problems and practical scenarios.",
-    "Explore how algebra is used in problem-solving, equations, and everyday situations.",
-    "Develop problem-solving skills involving patterns and algebra in various contexts."
-  ],
-  "rationale": [
-    "Applying algebra and pattern skills to real-world problems enhances students' problem-solving abilities and demonstrates the practical utility of mathematical concepts. This lesson helps students connect algebraic principles to everyday situations."
-  ],
-  "methodology": [
-    "The lesson will involve direct instruction on applying algebra to word problems, interactive activities for solving practical scenarios, guided practice with various types of word problems, and independent exercises to reinforce problem-solving skills."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Begin by discussing how algebra and patterns are used to solve real-world problems. Explain the importance of applying mathematical skills to practical scenarios.",
-      "<b>Word Problems:</b> Present various word problems that require algebra and pattern skills to solve. Demonstrate how to break down and analyze these problems to find solutions.",
-      "<b>Solving Scenarios:</b> Guide students in solving practical scenarios involving algebra and patterns, such as calculating expenses or interpreting data. Provide step-by-step instructions and practice problems.",
-      "<b>Real-World Applications:</b><br>1. Discuss examples of how algebra and patterns are used in everyday life, such as budgeting, scheduling, or planning.<br>2. Have students create and solve their own word problems based on real-world situations.",
-      "<b>Homework:</b><br>1. Complete a worksheet with word problems and scenarios involving algebra and patterns.<br>2. Write and solve a word problem based on a real-world situation of their choice, explaining the algebraic and pattern concepts used."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of applying algebra and patterns through their participation in class activities and their ability to solve word problems and practical scenarios.",
-    "<br><b>Class Exercise:</b><br>1. Evaluate students' accuracy in solving word problems and applying algebra and pattern skills.<br>2. Review homework assignments for correct solutions and application of problem-solving skills in real-world contexts."
-  ],
-  "conclusion": [
-    "By the end of the lesson, students will be able to apply their pattern and algebra skills to solve word problems and practical scenarios. They will understand how algebra is used in problem-solving and everyday situations, enhancing their overall problem-solving abilities."
-  ]
-}
+
+
+// Lesson 3
+
+
+// Lesson 4
+
+
+// Lesson 5
+
+
+
 ];
