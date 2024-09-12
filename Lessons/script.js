@@ -38,9 +38,9 @@ const teacherNames = {
     "Feather Flyers": "Ms. Maureen Kapya",
     "Cloud Chicks": "Ms. Faith",
     "Wing Whiz": "Ms. Faith",
-    "Sky Soarers": "Mr. Mbaso Clinton",
-    "Avian Aces": "Mr. Mbaso Clinton",
-    "Nimbus Navigators": "Mr. Mbaso Clinton",
+    "Sky Soarers": "Mr. Muteba",
+    "Avian Aces": "Mr. Muteba",
+    "Nimbus Navigators": "Mr. Muteba",
     "All Classes": "All Teachers"
 };
 
@@ -50,7 +50,7 @@ const tczNumbers = {
     "Ms. Maureen Kapya": "FS20BC0010",
     "Ms. Faith": "FS20BC0011",
     "All Teachers": "FS20BC1111",
-    "Mr. Mbaso Clinton": "19/09/0904/021725"
+    "Mr. Muteba": "FS20BC0013"
 };
     
 // Example usage in your main file
