@@ -522,17 +522,260 @@ const lessonPlans12c = [
   ]
 },
 	
-// Werk 4
+// Week 4
 // Lesson 1
+{
+  "title": "Short 'i' CVC Words",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, September 2, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'i' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "1",
+  "description": "This lesson focuses on recognizing and practicing the short 'i' sound in CVC words. Students will learn to identify, sound out, and write simple short 'i' words following the consonant-vowel-consonant pattern.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with CVC words",
+    "Phonics worksheets for exercises",
+    "Word list with short 'i' CVC words"
+  ],
+  "objectives": [
+    "Students will understand and recognize the short 'i' sound in CVC words.",
+    "Students will be able to identify short 'i' words by sight and sound.",
+    "Students will practice sounding out and spelling short 'i' CVC words."
+  ],
+  "rationale": [
+    "Understanding the short 'i' sound is crucial for early reading and spelling development. CVC words help students practice decoding and blending sounds, which builds foundational literacy skills."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction, interactive word reading, and hands-on phonics practice. Students will engage in group activities, individual exercises, and writing practice."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Short 'i' Sound:</b><br>The short 'i' sound is found in many simple words, such as 'pig' and 'sit.' When saying the short 'i' sound, the mouth opens slightly, and the sound is quick and short, like in the word 'pig.' Recognizing this sound helps students read and spell CVC words more easily.",
+      "<b>Identifying Short 'i' CVC Words:</b><br>Examples of short 'i' CVC words include 'pig,' 'sit,' 'win,' and 'dig.' These words follow the consonant-vowel-consonant (CVC) pattern, with the short 'i' sound in the middle. Students will repeat each word and focus on the 'i' sound in the middle.",
+      "<b>Sounding Out Short 'i' Words:</b><br>Students will learn to sound out CVC words by breaking them into individual sounds. For example, for the word 'dig,' students will sound out the 'd' sound, then the short 'i' sound, and finally the 'g' sound, before blending them together. Practice will continue with words like 'sit' and 'win.'",
+      "<b>Practice with Short 'i' Words:</b><br>Students will practice reading short 'i' CVC words such as 'pit,' 'hit,' 'fig,' 'tip,' and 'lip' aloud. Then, they will practice writing these words by breaking them down into their sounds and matching them with the appropriate letters.",
+      "<b>Exercise Questions:</b><br>1. What sound does the short 'i' make in the word 'pig'?<br>2. Name a word that has the short 'i' sound.<br>3. True or False: The word 'sit' has the short 'i' sound.<br>4. Which of the following words has the short 'i' sound: cat or tip?<br>5. Break down the word 'win' into its three sounds.<br>6. Write a CVC word with the short 'i' sound.<br>7. Circle the short 'i' sound in this word: dig.<br>8. What vowel is in the middle of the word 'lip'?<br>9. Sound out the word 'hit.' What is the first sound?<br>10. True or False: The word 'pit' is a CVC word."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' ability to identify and sound out short 'i' CVC words during the class activities and their responses to the exercise questions.",
+    "<b>Homework:</b> Write three short 'i' CVC words and practice reading them aloud."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to recognize, sound out, and write short 'i' CVC words, further developing their phonics and early reading skills."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Flashcards and Word-Building with Short ‘i’ CVC Words",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, September 1, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Flashcards and Word-Building with Short ‘i’ CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on using flashcards to practice and strengthen understanding of short ‘i’ CVC words. Students will also engage in interactive word-building games to improve their reading and spelling skills.",
+  "materials": [
+    "Paper or index cards",
+    "Markers",
+    "Letter tiles or blocks",
+    "List of short ‘i’ CVC words"
+  ],
+  "objectives": [
+    "Students will understand what flashcards are and how they help in learning short ‘i’ CVC words.",
+    "Students will create their own flashcards with short ‘i’ CVC words.",
+    "Students will practice reading, spelling, and building short ‘i’ words through a word-building game.",
+    "Students will understand the benefits of using flashcards and word-building games for learning."
+  ],
+  "rationale": [
+    "Learning to read and spell short ‘i’ CVC words is an essential skill for early literacy. Using flashcards and word-building games makes this process engaging, helping students internalize the CVC pattern while having fun."
+  ],
+  "methodology": [
+    "The lesson will begin with an introduction to flashcards, followed by students creating their own flashcards with short ‘i’ CVC words. Afterward, students will participate in an interactive word-building game using the flashcards. The lesson will conclude with a discussion on the benefits of flashcards and word-building games."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Flashcards with Short ‘i’ Words:</b><br>Begin by explaining what flashcards are. Flashcards are small cards with a word written on one side. In today’s lesson, we will create flashcards with short ‘i’ CVC words like 'sit,' 'pig,' and 'hit.' Flashcards help us practice reading and remembering new words.",
+      "<b>Creating Flashcards with Short ‘i’ CVC Words:</b><br>Provide students with paper or index cards and markers. Ask them to write one short ‘i’ CVC word on each card, such as 'pig,' 'sit,' 'dig,' and 'win.' Encourage students to draw small pictures next to the words to help with recognition. For example, next to 'pig,' they can draw a small pig. After creating the flashcards, have students practice reading the words aloud.",
+      "<b>Word-Building Game:</b><br>Once students finish their flashcards, introduce them to the word-building game. Shuffle the flashcards and place them face down. Students take turns picking a card, reading the word aloud, and spelling it out. After reading the word, they can use letter tiles, blocks, or even draw the letters to 'build' the word again. For example, if a student picks the word 'dig,' they will spell it out 'd-i-g' using letter tiles and say each letter aloud.",
+      "<b>Benefits of Flashcards and Word-Building Games:</b><br>Explain how flashcards help reinforce learning by providing repeated exposure to the words. The more students practice with their flashcards, the better they will become at reading and recognizing short ‘i’ CVC words. Word-building games help students understand how letters form words and improve their spelling skills in a fun and interactive way.",
+      "<b>Exercise Questions:</b><br>1. What is a flashcard?<br>2. Why are flashcards useful for learning new words?<br>3. True or False: A flashcard should have big, clear letters so it is easy to read.<br>4. What should you do after creating your flashcards?<br>5. Name a short ‘i’ word that could go on a flashcard.<br>6. What do you do in a word-building game?<br>7. What word can you build from the letters s-i-t?<br>8. True or False: Flashcards help you practice words by looking at them once.<br>9. Write down a word you built in the game.<br>10. How can playing a word-building game help you with spelling?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students’ understanding through their responses to the exercise questions and participation in the word-building game.",
+    "<b>Flashcard Practice:</b> Students will practice reading their flashcards aloud during class and at home.",
+    "<b>Homework:</b> Students will create three more flashcards with short ‘i’ words and practice them at home."
+  ],
+  "conclusion": [
+    "Through the use of flashcards and word-building games, students will strengthen their ability to read and spell short ‘i’ CVC words. These interactive methods make learning enjoyable and promote better retention of new vocabulary."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Short ‘i’ CVC Word Scavenger Hunt",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, September 5, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short ‘i’ CVC Word Scavenger Hunt",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "In this lesson, students will recognize and identify short ‘i’ CVC words through an engaging outdoor scavenger hunt. Students will connect these words to real-world objects, reinforcing their understanding of the short ‘i’ sound.",
+  "materials": [
+    "Whiteboard and markers",
+    "Outdoor space for scavenger hunt",
+    "Clipboards and pencils",
+    "Word list for short ‘i’ CVC words"
+  ],
+  "objectives": [
+    "Students will recognize and identify short ‘i’ CVC words.",
+    "Students will participate in an outdoor scavenger hunt, connecting short ‘i’ CVC words to real-world objects.",
+    "Students will explain how objects found in the scavenger hunt relate to short ‘i’ words."
+  ],
+  "rationale": [
+    "The scavenger hunt makes learning phonics interactive and engaging, helping students solidify their understanding of short ‘i’ CVC words. By connecting words to physical objects, students are more likely to remember and apply their phonics knowledge."
+  ],
+  "methodology": [
+    "The lesson will start with an introduction to scavenger hunts, followed by a review of short ‘i’ CVC words. The main activity will be an outdoor scavenger hunt where students will find objects that match or rhyme with short ‘i’ words. The lesson will conclude with a group reflection, where students share their findings and explain their word connections."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Scavenger Hunt:</b><br>Begin by explaining what a scavenger hunt is. A scavenger hunt is a game where we search for specific items based on clues or instructions. Today, students will be searching for objects that represent or rhyme with short ‘i’ CVC words such as 'pig,' 'sit,' and 'dig.' The purpose of the scavenger hunt is to make learning fun and help students remember these words by connecting them to real-world objects.",
+      "<b>Review of Short ‘i’ CVC Words:</b><br>Before the scavenger hunt begins, review some short ‘i’ CVC words such as 'pig,' 'sit,' 'dig,' 'tip,' and 'lip.' These words follow the consonant-vowel-consonant pattern, with the short ‘i’ sound in the middle. Discuss how some of these words can describe objects or actions the students may see outside. For example, they might find a twig (which rhymes with 'pig') or see someone sit on a bench.",
+      "<b>Preparing for the Scavenger Hunt:</b><br>Explain the rules of the scavenger hunt. Students will go outdoors and search for objects that match or rhyme with short ‘i’ CVC words. For example, they might find a twig (rhymes with 'pig'), a bin (rhymes with 'win'), or a kid (matches the word 'kid'). Once they find an object, they will say the word that matches it and explain how it relates to the short ‘i’ sound.",
+      "<b>Playing the Scavenger Hunt:</b><br>During the scavenger hunt, guide the students as they explore the outdoors, encouraging them to listen for sounds or actions that match the short ‘i’ CVC words. They might see someone sit down, find a twig or stick, or spot a bin. After the scavenger hunt, students will gather and share their discoveries. Each student will explain the objects they found and how they relate to a short ‘i’ CVC word.",
+      "<b>Exercise Questions:</b><br>1. What is a scavenger hunt?<br>2. Name a short ‘i’ word that rhymes with 'pig.'<br>3. True or False: The word 'bin' has the short ‘i’ sound.<br>4. What object could you find that rhymes with 'sit'?<br>5. Name one thing you found on the scavenger hunt and the short ‘i’ word it relates to.<br>6. Circle the word that has the short ‘i’ sound: sit or cat?<br>7. True or False: You can find a 'kid' on a scavenger hunt.<br>8. What short ‘i’ word describes something people do on a bench?<br>9. Write down two short ‘i’ words you found during the scavenger hunt.<br>10. Explain how the word 'twig' relates to a short ‘i’ word."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' participation in the scavenger hunt and their ability to connect objects to short ‘i’ CVC words. The reflection portion will be used to evaluate their understanding.",
+    "<b>Homework:</b> Ask students to draw a picture of one object they found during the scavenger hunt and label it with a short ‘i’ CVC word."
+  ],
+  "conclusion": [
+    "By participating in the scavenger hunt, students will reinforce their understanding of short ‘i’ CVC words through hands-on learning. Connecting words to real-world objects helps solidify their phonics skills and makes the lesson memorable and fun."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Creating a CVC Word Crossword Puzzle with Short 'i' Words",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, September 17, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "CVC Words and Crossword Puzzle Creation",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "4",
+  "description": "This lesson will engage students in a fun and interactive way to review CVC words with the short 'i' sound by creating a crossword puzzle. The students will review the CVC word structure and learn how to design their own crossword puzzles using short 'i' words.",
+  "materials": [
+    "Whiteboard and markers",
+    "Crossword puzzle templates or blank paper",
+    "Pencils and erasers",
+    "List of short 'i' CVC words"
+  ],
+  "objectives": [
+    "Students will review the short 'i' sound in CVC words.",
+    "Students will understand the structure of CVC words.",
+    "Students will learn how to create a crossword puzzle using short 'i' CVC words.",
+    "Students will be able to write clues for a crossword puzzle."
+  ],
+  "rationale": [
+    "Reinforcing phonics through interactive activities like creating crossword puzzles helps strengthen students' understanding of sounds, spelling, and vocabulary. It also encourages creativity and problem-solving skills."
+  ],
+  "methodology": [
+    "The lesson will start with a review of the short 'i' sound, followed by an introduction to crossword puzzles. Students will then engage in creating their own puzzles using short 'i' CVC words, applying their knowledge of spelling and phonics. The lesson will include hands-on activities, class discussions, and a puzzle-solving exercise."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'i' CVC Words:</b><br>Begin with a recap of the short 'i' sound found in words like 'pig,' 'sit,' 'hit,' and 'dig.' Explain that these words follow the consonant-vowel-consonant (CVC) pattern, with the short 'i' sound in the middle. Ask students to share examples of other short 'i' CVC words they know. Some examples include: pig, win, sit, fig, tip.",
+      "<b>Introduction to Crossword Puzzles:</b><br>Explain that a crossword puzzle is a game where words are placed in a grid, and each word connects with another word through shared letters. Discuss how clues are used to guess the words in the puzzle. Demonstrate how to solve a simple crossword puzzle on the board.",
+      "<b>Creating Your Own CVC Crossword Puzzle:</b><br>Step 1: Ask students to choose 5–10 short 'i' CVC words to include in their puzzle. Some examples include: sit, pig, win, hit, big, fig, tip, lip, dig.<br>Step 2: Students will draw a grid on their paper and place their words in the grid, making sure the letters overlap where possible.",
+      "<b>Writing the Clues for the Crossword Puzzle:</b><br>Step 3: Guide students in writing clues for each of their words. Encourage them to think of simple, clear clues that describe the meaning of the word or use it in a sentence. For example, 'A small farm animal that says ‘oink’' (Answer: Pig) or 'To place yourself on a chair' (Answer: Sit).<br>Step 4: Ask students to swap puzzles with a classmate or take their puzzle home to test with a family member.",
+      "<b>Exercise Questions:</b><br>1. What sound does the short 'i' make in the word 'sit'?<br>2. Name three CVC words with the short 'i' sound.<br>3. What is a crossword puzzle?<br>4. Which word fits this clue: 'To win a race'?<br>5. Fill in the missing letters: _ _ g (Hint: a small animal that likes mud).<br>6. What word matches the clue: 'To place yourself on a chair'?<br>7. True or False: The word 'dog' is a short ‘i’ CVC word.<br>8. Circle the CVC word: cat, tip, bat.<br>9. Write your own clue for the word 'dig.'<br>10. Complete this crossword clue: 'A fruit that is small and purple' (Answer: _ _ g)."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will monitor student participation during the review and crossword puzzle creation, assessing their understanding of short 'i' words and their ability to apply the CVC structure.",
+    "<b>Homework:</b> Students will complete a crossword puzzle at home using different CVC words and create new clues for each word."
+  ],
+  "conclusion": [
+    "By creating and solving crossword puzzles, students will reinforce their understanding of CVC words with the short 'i' sound. This activity helps strengthen spelling, vocabulary, and problem-solving skills in an engaging and interactive way."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Using Short ‘i’ CVC Words in Sentences and Storytime",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short ‘i’ CVC Words in Sentences and Storytime",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "5",
+  "description": "This lesson focuses on using short ‘i’ CVC words in simple sentences and within a story context. Students will practice creating sentences, reading sentences with short ‘i’ CVC words, and writing their own short stories.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence and story worksheets",
+    "Short ‘i’ CVC word flashcards"
+  ],
+  "objectives": [
+    "Students will use short ‘i’ CVC words to create simple sentences.",
+    "Students will practice reading sentences that include short ‘i’ CVC words.",
+    "Students will read and understand a short story that features short ‘i’ CVC words.",
+    "Students will create their own sentences and a short story using short ‘i’ CVC words.",
+    "Students will identify short ‘i’ CVC words in sentences and stories."
+  ],
+  "rationale": [
+    "Understanding and using CVC (consonant-vowel-consonant) words helps students improve their reading and writing skills. By integrating these words into sentences and stories, students can better grasp how words function in context."
+  ],
+  "methodology": [
+    "The lesson will involve explanations of how to create sentences, practice reading sentences, and storytelling with short ‘i’ CVC words. Interactive exercises will include sentence construction, story reading, and creative writing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Writing Simple Sentences with Short ‘i’ CVC Words:</b><br>Short ‘i’ CVC words are easy to use in simple sentences. For example: 'The pig can dig,' 'I will sit on the mat,' and 'We can win the game.' To write a sentence, start with a subject (e.g., 'The pig'), add a verb (e.g., 'can dig'), and complete with an object or detail (e.g., 'in the dirt'). Practice creating different sentences using short ‘i’ CVC words.",
+      "<b>Reading Sentences with Short ‘i’ CVC Words:</b><br>Read sentences aloud that include short ‘i’ CVC words. Focus on the pronunciation of the words and their role in the sentence. For example: 'The kit is on the lid,' 'The dog will dig a pit,' and 'I sit in the big chair.' Understand the structure: Subject + Verb + Object, and practice identifying these parts.",
+      "<b>Short ‘i’ CVC Words in a Story:</b><br>Short ‘i’ CVC words can be used in stories to make them engaging and easy to read. For example, read the story: 'The Pig in the Pit.' The pig sat in a pit, was big, had a hat, and liked to dig and win a prize. Discuss the story and how the short ‘i’ CVC words help describe the pig’s actions and surroundings.",
+      "<b>Creating Your Own Sentences and Story:</b><br>Create your own sentences using short ‘i’ CVC words. For instance: 'The kid can win the game.' Write a short story with at least three short ‘i’ CVC words. Think about what the characters are doing and how the words fit into the story. Share your story with a friend or family member.",
+      "<b>Exercise Questions:</b><br>1. Write a sentence using the short ‘i’ CVC word 'sit.'<br>2. True or False: The word 'pig' can be used in a sentence like 'The pig can dig.'<br>3. Circle the short ‘i’ CVC word in this sentence: 'The kid can win.'<br>4. Read the sentence: 'The dog can dig.' What is the short ‘i’ CVC word?<br>5. Write a short sentence using the word 'win.'<br>6. What is the subject of this sentence: 'The pig sits on the mat'?<br>7. True or False: The sentence 'I sit in the big pit' uses short ‘i’ CVC words.<br>8. Identify the short ‘i’ CVC words in the story: 'The pig digs in the pit.'<br>9. Write a sentence using the word 'dig.'<br>10. Read the story: 'The cat is in the kit.' What short ‘i’ CVC words are in the story?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' ability to create sentences, read sentences aloud, and understand the story. Participation in the exercises and creative writing will also be observed.",
+    "<b>Homework:</b> Write two sentences using short ‘i’ CVC words and create a short story incorporating at least three of these words."
+  ],
+  "conclusion": [
+    "By practicing with short ‘i’ CVC words in sentences and stories, students will enhance their reading and writing skills. They will understand how these words fit into sentences and stories, improving their overall literacy."
+  ]
+}
 	
 // Werk 5
 // Lesson 1
