@@ -309,24 +309,311 @@ const lessonPlans35c = [
 	
 // Week 4
 // Lesson 1
-
+{
+  "title": "Understanding Entrepreneurship",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Introduction to Entrepreneurship and Its Impact",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of entrepreneurship, including its characteristics, the process of starting a business, and its impact on wealth generation.",
+  "materials": [
+    "Whiteboard and markers",
+    "Entrepreneurship-related visual aids",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand what entrepreneurship is and its importance.",
+    "Students will learn the key characteristics of entrepreneurs.",
+    "Students will be able to describe the basic process of starting a business.",
+    "Students will understand how entrepreneurship contributes to wealth generation and economic growth."
+  ],
+  "rationale": [
+    "Understanding entrepreneurship helps students appreciate the role of business in society, recognize the traits of successful entrepreneurs, and see how businesses contribute to economic development and job creation."
+  ],
+  "methodology": [
+    "The lesson will include explanations, discussions, and interactive exercises. Students will engage in activities that help them grasp the concepts and understand the impact of entrepreneurship on wealth generation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Entrepreneurship:</b><br>Entrepreneurship involves starting and managing a business to achieve goals, often to earn money. Entrepreneurs are individuals who create new ideas, start businesses, and take risks to make those ideas successful. Entrepreneurs are vital for the economy as they create jobs, introduce new products or services, and foster economic growth through innovation.",
+      "<b>Key Characteristics of Entrepreneurs:</b><br>Entrepreneurs are often creative and innovative, coming up with new ideas and improving existing products or services. They are also risk-takers, willing to face financial uncertainties to achieve their goals. These traits are crucial for the success of their ventures.",
+      "<b>The Process of Starting a Business:</b><br>1. Identifying Opportunities: Entrepreneurs look for problems or needs that require solutions. This involves researching market trends and identifying gaps.<br>2. Developing a Business Plan: A business plan includes goals, strategies, market analysis, and financial plans. It guides the business and helps attract investors.",
+      "<b>The Impact of Entrepreneurship on Wealth Generation:</b><br>Entrepreneurs create jobs and generate income, contributing to wealth creation for themselves, their employees, and the community. Their ventures stimulate economic growth by leading to more investments and supporting related industries.",
+      "<b>Exercise Questions:</b><br>1. What is entrepreneurship?<br>2. Name two key characteristics of an entrepreneur.<br>3. Why is creativity important for entrepreneurs?<br>4. True or False: Entrepreneurs avoid taking risks.<br>5. What is the first step in starting a business?<br>6. What should a business plan include?<br>7. How does entrepreneurship contribute to job creation?<br>8. Describe one way entrepreneurs contribute to economic growth.<br>9. Circle the term: An entrepreneur is someone who (follows instructions / creates new ideas).<br>10. Write a sentence about the role of risk-taking in entrepreneurship."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to the exercise questions and their participation in discussions and activities.",
+    "<b>Homework:</b> Write a short paragraph describing an entrepreneur you know or admire and explain why they are successful."
+  ],
+  "conclusion": [
+    "By learning about entrepreneurship, students will gain insight into how businesses are started, the traits of successful entrepreneurs, and the role of entrepreneurship in generating wealth and contributing to economic growth. This understanding helps students appreciate the value of entrepreneurship in society."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding How Wealth Can Be Generated",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding How Wealth Can Be Generated",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the basic concepts of wealth generation, including definitions, methods, and the importance of financial education. It covers various ways wealth can be created and emphasizes the role of financial literacy.",
+  "materials": [
+    "Whiteboard and markers",
+    "Charts or posters illustrating types of wealth and methods of generating wealth",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand what wealth is and its different types.",
+    "Students will learn methods of generating wealth, including employment, investing, and entrepreneurship.",
+    "Students will recognize the importance of financial education and planning.",
+    "Students will identify risks associated with wealth generation and understand the importance of making informed decisions."
+  ],
+  "rationale": [
+    "Understanding how wealth can be generated helps students develop a foundation for making informed financial decisions in the future. Knowledge of wealth types, generation methods, and financial education is crucial for financial literacy and planning."
+  ],
+  "methodology": [
+    "The lesson will involve explanations of key concepts, discussions about different wealth-generation methods, and interactive exercises. Students will be encouraged to ask questions and participate in activities that reinforce their understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>What is Wealth?</b><br>Wealth refers to having valuable resources or assets, such as money, property, investments, and personal belongings. It provides financial security and opportunities for growth. Wealth can be categorized into:<br>- Financial Wealth: Includes cash, savings, stocks, and bonds.<br>- Physical Wealth: Includes property, land, and personal belongings.<br>- Human Capital: Includes skills, education, and knowledge that can be used to earn money.",
+      "<b>Methods of Generating Wealth:</b><br>1. Earning Through Employment: Generating wealth by earning a salary or wages. Career advancement, gaining new skills, and seeking promotions can increase wealth.<br>2. Investing: Putting money into assets like stocks, bonds, or real estate with the expectation of earning returns. Investments can grow over time.<br>3. Starting a Business: Entrepreneurship involves starting and running a successful business to create income and build assets.<br>4. Saving and Budgeting: Managing expenses, saving a portion of income, and making smart financial decisions help in accumulating wealth.",
+      "<b>The Importance of Financial Education:</b><br>Understanding financial concepts like interest rates, inflation, and compound growth enhances wealth-building strategies. Setting realistic financial goals and planning involve budgeting, saving, and investing wisely.",
+      "<b>Risks and Considerations:</b><br>Generating wealth involves risks such as market fluctuations and economic changes. It is important to make informed decisions by conducting research and seeking professional advice. Continuously reviewing and adjusting financial plans based on circumstances and goals is essential.",
+      "<b>Exercise Questions:</b><br>1. What is wealth?<br>2. Name two types of wealth.<br>3. How can you generate wealth through employment?<br>4. True or False: Investing involves putting money into assets with the expectation of earning a return.<br>5. Give an example of a way to generate wealth through investing.<br>6. What is entrepreneurship?<br>7. How can saving and budgeting contribute to wealth generation?<br>8. Why is financial education important for building wealth?<br>9. What are some risks associated with generating wealth?<br>10. Write a sentence about a method you might use to generate wealth."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to the exercise questions and their participation in discussions and activities.",
+    "<b>Homework:</b> Write a short paragraph on one method of generating wealth and how it could be applied in real life."
+  ],
+  "conclusion": [
+    "By understanding how wealth is generated through various means, students will be better equipped to make informed financial decisions. The lesson emphasizes the importance of financial education and planning for future financial security."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Steps to Set Up a Small Business",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding and Setting Up a Small Business",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the basic steps of setting up a small business, including understanding what a small business is, planning business ideas, setting up the business, and running it effectively.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts on business planning",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand what constitutes a small business.",
+    "Students will learn how to plan and research a business idea.",
+    "Students will know how to create a simple business plan and organize resources.",
+    "Students will understand the basics of starting and managing a small business.",
+    "Students will be able to apply their knowledge by developing a simple business idea."
+  ],
+  "rationale": [
+    "Understanding how to set up a small business is essential for students interested in entrepreneurship. This lesson equips students with foundational knowledge and practical steps for turning a business idea into reality."
+  ],
+  "methodology": [
+    "The lesson includes explanations, discussions on business concepts, and interactive exercises. Students will engage in practical activities such as developing a business plan and brainstorming business ideas."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Understanding What a Small Business Is:</b><br>A small business is a company usually owned by one person or a small group. It serves a local area and has fewer employees than large corporations. Examples include a local bakery, a neighborhood store, or a pet-sitting service. Starting a small business can be a way to turn a hobby into a job, make money, or offer something valuable to the community.",
+      "<b>Planning Your Business Idea:</b><br>Consider what you are interested in or skilled at when choosing a business idea. Your idea should be something you enjoy and that people need or want. For instance, if you love baking, a small bakery could be a great business idea. Research to see if there are similar businesses and understand what makes your idea unique.",
+      "<b>Setting Up the Business:</b><br>Create a business plan that outlines what your business will do, who your customers will be, and how you will make money. Include details like the products or services you will offer, your target customers, and your advertising strategies. Organize resources such as materials, equipment, or space, and make a list of what you need and how much it might cost.",
+      "<b>Running the Business:</b><br>Start your business by setting up everything you need and beginning to sell your product or service. Ensure you register your business name and follow local rules. Manage your business by tracking earnings and expenses, providing good customer service, and continually improving based on feedback.",
+      "<b>Exercise Questions:</b><br>1. What is a small business?<br>2. Why might someone want to start a small business?<br>3. What should you consider when choosing a business idea?<br>4. How can researching help your business idea?<br>5. What is a business plan?<br>6. Name one thing you might include in a business plan.<br>7. Why is it important to organize your resources before starting a business?<br>8. What is one step to take before starting your business?<br>9. How can you keep track of your business’s success?<br>10. Write a simple business idea and list one thing you need to start it."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to the exercise questions and their participation in discussions and activities.",
+    "<b>Homework:</b> Write a brief description of a business idea, including what you would offer, who your customers might be, and one resource you would need to get started."
+  ],
+  "conclusion": [
+    "By learning the steps to set up a small business, students will gain a foundational understanding of entrepreneurship and practical skills for planning, organizing, and managing a business idea."
+  ]
+},
 
 
 // Week 5
 // Lesson 1
-
+{
+  "title": "Understanding Transport Services in the District",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Transport Services and Their Impact",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson will introduce students to the concept of transport, its historical development, and its impact on their district. Students will learn about different transport methods, their importance, and the challenges faced in transport development.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of various transport methods",
+    "Maps of the district showing local transport services",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand the concept of transport and its different methods.",
+    "Students will learn about the historical development of transport and its impact on communities.",
+    "Students will identify types of transport services in their district and discuss their importance.",
+    "Students will recognize challenges in transport development and possible solutions.",
+    "Students will engage in activities to reinforce their understanding of transport and its impact."
+  ],
+  "rationale": [
+    "Understanding transport services is essential for recognizing their role in daily life and community development. Learning about the history and current transport options helps students appreciate how transport impacts their district and identify ways to improve it."
+  ],
+  "methodology": [
+    "The lesson will include explanations with visual aids, discussions about historical and modern transport methods, and interactive activities to engage students in understanding the impact of transport on their community."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>What is Transport?</b><br>Transport involves moving people and goods from one place to another using various methods such as cars, buses, trains, bicycles, and trucks. It is essential for daily life, helping people reach their destinations and supporting economic activities.",
+      "<b>Importance of Transport:</b><br>Good transport services are crucial for economic development. They facilitate travel, enable businesses to operate efficiently, and ensure the delivery of goods. Efficient transport systems improve access to schools, jobs, and healthcare services.",
+      "<b>Historical Development of Transport:</b><br>Early transport methods included walking, using animals like horses and donkeys, and simple carts and boats. Modern transport has evolved to include cars, buses, trains, and airplanes, making travel faster and more efficient.",
+      "<b>Types of Transport in the District:</b><br>Local transport services in many districts include buses, taxis, and local trains. These services help residents travel within the district and connect to nearby areas. Efficient transport systems support local businesses by facilitating the movement of goods and services.",
+      "<b>Challenges in Transport Development:</b><br>Common issues include traffic congestion, poor road conditions, and limited public transport options. Solutions involve upgrading infrastructure, expanding public transport options, and implementing traffic management strategies.",
+      "<b>Exercise Questions:</b><br>1. What is transport?<br>2. Name two early methods of transport.<br>3. How has modern transport developed?<br>4. What types of transport are commonly found in your district?<br>5. Why is transport important for a community?<br>6. Describe one challenge faced in transport development.<br>7. How can traffic congestion be managed?<br>8. What impact does efficient transport have on local businesses?<br>9. Name one local transport service in your district.<br>10. Write a sentence about how transport has changed over time."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions and their answers to exercise questions.",
+    "<b>Homework:</b> Write a short paragraph about how transport services in your district have changed over time and their impact on your community."
+  ],
+  "conclusion": [
+    "By learning about the development and impact of transport services, students will gain a deeper understanding of their importance in daily life and community development. They will also be able to identify challenges and suggest improvements for better transport systems."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding Communication Services in the District",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Development and Impact of Communication Services",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of communication, its historical development, the types of communication services available in their district, and the challenges faced in communication development.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures and diagrams of communication methods",
+    "Worksheet with exercise questions"
+  ],
+  "objectives": [
+    "Students will understand what communication is and its importance.",
+    "Students will learn about the historical development of communication methods.",
+    "Students will identify types of communication services in their district and their impacts on the community.",
+    "Students will recognize common challenges in communication development and explore possible solutions."
+  ],
+  "rationale": [
+    "Understanding communication services helps students appreciate the role of these services in their daily lives and the community. Learning about the historical development and challenges allows students to better grasp the importance of continuous improvement in communication infrastructure."
+  ],
+  "methodology": [
+    "The lesson will include explanations, discussions about historical and modern communication methods, and interactive exercises. Visual aids and real-life examples will be used to make the concepts more relatable."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>What is Communication?</b><br>Communication is the process of sharing information and ideas through various methods, such as speaking, writing, and using technology. It helps people stay connected and exchange important information. Effective communication is crucial for education, business, and personal relationships as it keeps people informed and allows for collaboration.",
+      "<b>Historical Development of Communication:</b><br>In the past, communication methods included spoken words, written letters, and messengers, which were slow and had limited reach. With advancements like the telegraph, telephone, and internet, communication has become faster and more efficient, enabling people to connect over long distances.",
+      "<b>Types of Communication Services in the District:</b><br>Local communication services in the district often include telephone lines, internet access, and postal services. These services are vital for staying in touch, accessing information, supporting education through online resources, and connecting with emergency services.",
+      "<b>Challenges in Communication Development:</b><br>Common challenges include limited internet coverage, poor phone signals, and delays in postal services. Addressing these issues involves expanding infrastructure, investing in new technologies, and improving service coverage to enhance communication quality.",
+      "<b>Exercise Questions:</b><br>1. What is communication?<br>2. Name two early methods of communication.<br>3. How have communication methods advanced over time?<br>4. What types of communication services are available in your district?<br>5. Why is effective communication important for education?<br>6. Describe one challenge faced in communication development.<br>7. How can internet coverage issues be addressed?<br>8. What impact do communication services have on businesses?<br>9. Name one local communication service in your district.<br>10. Write a sentence about how communication has evolved over time."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to the exercise questions and participation in class discussions.",
+    "<b>Homework:</b> Write a short essay on the importance of communication services in your daily life and how improvements in these services could benefit the community."
+  ],
+  "conclusion": [
+    "By learning about communication, its history, types of services, and challenges, students will gain a deeper appreciation for how communication connects people and supports community functions. Understanding these concepts prepares students to better engage with and contribute to their local environment."
+  ]
+},
 
 // Lesson 3
-	
+{
+  "title": "Development of Transport and Communication Services",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Impact of Transport and Communication Services",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson explores how the development of transport and communication services impacts the local district and contributes to its growth. It covers the integration of services, economic benefits, community enhancements, and future improvements.",
+  "materials": [
+    "Whiteboard and markers",
+    "Maps showing transport and communication infrastructure",
+    "Examples of local development projects",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand how transport and communication services are integrated and their impact on the community.",
+    "Students will learn about the economic benefits of improved transport and communication services.",
+    "Students will recognize how these services enhance daily life and support local development.",
+    "Students will explore future directions for transport and communication services and the importance of community involvement."
+  ],
+  "rationale": [
+    "Understanding the development of transport and communication services helps students appreciate their role in community growth and personal daily life. This knowledge also prepares students to engage in discussions about future improvements and community planning."
+  ],
+  "methodology": [
+    "The lesson includes explanations, discussions, and interactive exercises to help students understand the integration and benefits of transport and communication services. Visual aids and real-life examples will be used to illustrate key concepts."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Integration of Transport and Communication Services:</b><br>Transport and communication services often work together to enhance access and connectivity. For example, roads with internet access points or transport hubs with communication centers improve community benefits by linking different services effectively.",
+      "<b>Impact on Economic Growth:</b><br>Improved transport and communication services can stimulate local economic growth by attracting businesses, creating jobs, and supporting trade. These services enable businesses to operate efficiently and connect with customers, leading to increased property values and better access to markets.",
+      "<b>Community Benefits and Development:</b><br>Reliable transport and communication services make daily life easier by facilitating travel, increasing access to information, and connecting people with essential services. They also promote social and educational opportunities by providing access to online learning and maintaining communication with friends and family.",
+      "<b>Future Directions and Improvements:</b><br>Future advancements in technology and infrastructure, such as smart transport systems and expanded internet coverage, can further enhance transport and communication services. Involving the community in planning can ensure these developments meet local needs and preferences.",
+      "<b>Exercise Questions:</b><br>1. How do transport and communication services work together?<br>2. What are the economic benefits of improved transport and communication services?<br>3. How can better services support local development?<br>4. Name two ways transport and communication services enhance daily life.<br>5. Why is it important to invest in future developments for transport and communication?<br>6. Describe one example of how transport and communication can be integrated.<br>7. How can improved services affect property values?<br>8. What impact do better services have on educational opportunities?<br>9. Name one future development that could improve transport or communication.<br>10. Write a sentence about the benefits of combining transport and communication services."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to the exercise questions and their participation in discussions and activities.",
+    "<b>Homework:</b> Write a short paragraph about how improved transport and communication services could benefit your community."
+  ],
+  "conclusion": [
+    "By learning about the development and integration of transport and communication services, students will gain insight into their impact on economic growth, community benefits, and future improvements. This knowledge will help students understand how these services contribute to their daily lives and the overall growth of their district."
+  ]
+},
 	
 // Week 7
 // Lesson 1
