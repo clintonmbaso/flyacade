@@ -138,7 +138,7 @@
       height: 30px;
 }
 /* Position the search icon */
-.search-icon {
+.search-iconing {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -223,7 +223,7 @@ button {
 	  padding: 1px;
 }
 
-.search-icon {
+.search-iconing {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -235,6 +235,8 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     height: 30px;
     width: 30px;
+    align-content: center;
+    align-items: center;
 }
 
 #label {
@@ -251,7 +253,7 @@ button {
 	width: 100px;
 	height: auto;
 }
-.search-icon i {
+.search-iconing i {
     font-size: 24px;
 }
 
