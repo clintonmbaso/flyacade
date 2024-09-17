@@ -775,21 +775,263 @@ const lessonPlans12c = [
   "conclusion": [
     "By practicing with short ‘i’ CVC words in sentences and stories, students will enhance their reading and writing skills. They will understand how these words fit into sentences and stories, improving their overall literacy."
   ]
-}
+},
 	
-// Werk 5
+// Week 5
 // Lesson 1
+{
+  "title": "Short 'o' CVC Words",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, September 2, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'o' Sound in CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson focuses on teaching students how to recognize, sound out, and read words with the short 'o' sound in consonant-vowel-consonant (CVC) patterns. Students will practice blending sounds and expand their vocabulary with short 'o' words.",
+  "materials": [
+    "Flashcards with CVC words",
+    "Whiteboard and markers",
+    "Worksheets for exercises",
+    "Picture cards for matching activities"
+  ],
+  "objectives": [
+    "Students will understand and recognize the short 'o' sound in CVC words.",
+    "Students will learn how to sound out and blend CVC words with the short 'o' sound.",
+    "Students will practice reading and writing CVC words with the short 'o' sound."
+  ],
+  "rationale": [
+    "CVC words with the short 'o' sound form the foundation for early reading skills. Understanding how to sound out and blend CVC words enables students to read and spell more complex words as they progress in their literacy development."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction on the short 'o' sound, guided practice with sounding out CVC words, and interactive activities to reinforce the concept. Students will be encouraged to practice blending sounds and expanding their vocabulary through writing and matching exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Short 'o' Sound:</b><br>The short 'o' sound is the vowel sound in words like 'dog,' 'pot,' and 'log.' It's a quick sound made when the mouth opens slightly but not for too long. It's important to differentiate the short 'o' sound from the long 'o' sound, as in 'go.' The teacher will model the pronunciation and have students repeat words like 'dog' and 'hot' to practice the short 'o' sound.",
+      "<b>Understanding CVC Words:</b><br>CVC words are three-letter words that follow a consonant-vowel-consonant pattern. For example, in the word 'dog,' 'd' is the consonant, 'o' is the vowel, and 'g' is the consonant. These words are important because they help students break down words into individual sounds, making it easier to read and spell.",
+      "<b>Sounding Out CVC Words with Short 'o':</b><br>The teacher will demonstrate how to blend sounds together to read CVC words. For example, in the word 'dog,' blend 'd' (duh), 'o' (aw), and 'g' (guh) to say the word. Students will practice sounding out and blending CVC words with the short 'o' sound, such as 'dog,' 'pot,' 'log,' and 'top.'",
+      "<b>Expanding Vocabulary with Short 'o' Words:</b><br>The teacher will introduce additional CVC words with the short 'o' sound, such as 'fox,' 'mom,' 'rod,' 'box,' and 'job.' Students will practice reading these words aloud and writing them. The teacher will guide students through spelling each word by breaking it into its consonant-vowel-consonant parts and writing it down.",
+      "<b>Exercise Questions:</b><br>1. What is the short 'o' sound in the word 'dog'?<br>2. Circle the CVC word with a short 'o' sound:<br>   a. sun<br>   b. pot<br>   c. cap<br>3. True or False: The word 'dog' has the short 'o' sound.<br>4. What does CVC stand for?<br>5. Write the CVC word: d-o-g<br>6. Which word has a short 'o' sound?<br>   a. hot<br>   b. bat<br>   c. man<br>7. Say the word 'log.' What sound is in the middle?<br>8. How do you spell the word that means 'a small animal with fur that barks'?<br>9. Match the CVC word to the picture (dog, pot, fox).<br>10. Fill in the missing letter: l- _ - g (word is 'log')."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their ability to correctly sound out, read, and write short 'o' CVC words during the lesson.",
+    "<b>Worksheet:</b> Students will complete an exercise worksheet with CVC words, practicing spelling and identifying short 'o' words."
+  ],
+  "conclusion": [
+    "By practicing short 'o' CVC words, students will develop stronger phonics skills and be better equipped to read more complex words. This lesson lays the groundwork for future literacy development by focusing on blending sounds and expanding vocabulary."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Short 'o' CVC Words (Flashcards and Bingo Game)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, September 2, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'o' CVC Words (Flashcards and Bingo Game)",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on reinforcing students' understanding of short 'o' CVC words through interactive flashcard creation and a fun bingo game. The activities will build confidence in recognizing and reading short 'o' CVC words.",
+  "materials": [
+    "Blank flashcards",
+    "Markers or crayons",
+    "Bingo cards with short 'o' CVC words",
+    "Small tokens or chips for marking bingo cards"
+  ],
+  "objectives": [
+    "Students will review and recognize short 'o' CVC words.",
+    "Students will create and decorate their own flashcards with short 'o' CVC words.",
+    "Students will practice reading short 'o' CVC words aloud using flashcards.",
+    "Students will apply their knowledge of short 'o' CVC words in a bingo game."
+  ],
+  "rationale": [
+    "Using interactive activities like flashcards and games reinforces phonics skills and helps students feel more confident in reading short vowel words. The bingo game offers a fun way to practice recognition of short 'o' CVC words in an engaging environment."
+  ],
+  "methodology": [
+    "This lesson will be interactive, with students creating their own flashcards, practicing reading in groups, and playing a bingo game to apply their knowledge. The teacher will guide the activities, ensuring participation and understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'o' CVC Words:</b><br>Begin by recapping the short 'o' sound, which was introduced in the previous lesson. Explain how the short 'o' sound is found in CVC words like 'dog,' 'pot,' and 'log.' Emphasize that today’s lesson will reinforce this sound through fun activities with flashcards and a bingo game.",
+      "<b>Creating Flashcards with Short 'o' CVC Words:</b><br>Students will create their own flashcards using short 'o' CVC words. The teacher will provide example words, such as 'dog,' 'pot,' 'mom,' and 'log.' Encourage students to decorate their cards with small pictures that match the words, like drawing a dog for the word 'dog.'",
+      "<b>Using Flashcards to Practice Short 'o' Words:</b><br>Once the flashcards are created, students will practice reading the words aloud. They will hold up a card and sound out each letter slowly, blending the sounds together to form the word. For example, for 'dog,' they will say 'd-o-g.' Students can also work with a partner, taking turns holding up the card and reading the word.",
+      "<b>Playing the Bingo Game with Short 'o' Words:</b><br>Students will play a bingo game using short 'o' CVC words. Each student will receive a bingo card with various short 'o' words. The teacher will call out words from the flashcards, and students will mark the words on their bingo cards if they have them. The first person to mark all the words in a row, column, or diagonal will shout 'Bingo!' and win the game. This game reinforces recognition of short 'o' CVC words while making learning fun.",
+      "<b>Exercise Questions:</b><br>1. What sound is in the middle of the word 'pot'?<br>2. Write two short 'o' CVC words you would put on your flashcards.<br>3. True or False: Flashcards help us practice reading words.<br>4. What does CVC stand for?<br>5. In the word 'mom,' what is the vowel sound?<br>6. Say the word 'log.' What is the first sound in the word?<br>7. Circle the short 'o' CVC word: <br>a. dog <br>b. sun <br>c. cap.<br>8. How do you play bingo with short 'o' CVC words?<br>9. What word means a small animal with a bushy tail that says 'bark'?<br>10. Match the flashcard to the word: 'mop' - picture of a mop, 'fox' - picture of a fox, 'job' - picture of a worker."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students' participation during the flashcard reading practice and the bingo game. Special attention will be given to students' ability to sound out and blend letters in short 'o' CVC words.",
+    "<b>Homework:</b> Students will take their flashcards home and practice reading the words aloud to their parents or guardians."
+  ],
+  "conclusion": [
+    "By creating flashcards and playing a bingo game, students will reinforce their understanding of short 'o' CVC words. The interactive nature of these activities makes learning fun and engaging, while also building confidence in recognizing and reading new words."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Sorting Short 'o' CVC Words into Categories",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, September 1, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Sorting Short 'o' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "In this lesson, students will practice identifying and sorting CVC words with the short 'o' sound. They will learn to categorize these words based on their meanings, such as animals or objects.",
+  "materials": [
+    "Whiteboard and markers",
+    "Word cards for sorting activity",
+    "Worksheets for sorting exercises"
+  ],
+  "objectives": [
+    "Students will review and identify the short 'o' sound in CVC words.",
+    "Students will categorize CVC words based on their meanings, such as animals or objects.",
+    "Students will demonstrate their understanding by sorting words into appropriate categories.",
+    "Students will practice reading and writing CVC words."
+  ],
+  "rationale": [
+    "Learning to categorize words helps students develop their vocabulary and understanding of word meanings. By identifying the short 'o' sound and grouping CVC words based on categories, students strengthen their phonics skills."
+  ],
+  "methodology": [
+    "The lesson will begin with a review of the short 'o' sound and CVC word structure. Students will then be introduced to the concept of categorizing words. The lesson will include a sorting activity where students classify CVC words into categories like animals and objects, followed by exercises and discussions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of the Short 'o' Sound and CVC Words:</b><br>The short 'o' sound is the sound in words like 'dog,' 'fox,' and 'pot.' It's a quick sound heard in the middle of the word. We will review what CVC (consonant-vowel-consonant) words are. For example, in the word 'dog,' 'd' is the consonant, 'o' is the vowel, and 'g' is the consonant.",
+      "<b>Introduction to Categorizing Words:</b><br>Categorizing means grouping things based on something they have in common. Today, we will categorize CVC words with the short 'o' sound into two categories: animals and objects. This helps us understand words better by knowing how they are similar or different.",
+      "<b>Sorting Short 'o' CVC Words: Animals and Objects:</b><br>Examples of short 'o' CVC words for animals include 'dog,' 'fox,' and 'hog.' These are living creatures. Examples of short 'o' CVC words for objects include 'pot,' 'box,' and 'log,' which are things we can see or touch.",
+      "<b>Practicing Sorting Words:</b><br>In this activity, we will sort more short 'o' CVC words into the categories of animals and objects. Words like 'rod' will go into the object category, while words like 'dog' will go into the animal category. We will also explore creating more categories, such as 'people' for words like 'mom.'",
+      "<b>Exercise Questions:</b><br>1. What is the short 'o' sound in the word 'fox'?<br>2. True or False: The word 'dog' is a CVC word with the short 'o' sound.<br>3. Sort the following word into the correct category (Animal or Object): 'log'<br>4. Which of these words names an animal?<br>a. fox<br>b. pot<br>c. job<br>5. Circle the word that names an object: dog / pot / hog<br>6. Write a CVC word that names an animal.<br>7. Write a CVC word that names an object.<br>8. What category does the word 'rod' belong to?<br>a. Animal<br>b. Object<br>9. Match the word to its category:<br>dog → (Animal / Object)<br>box → (Animal / Object)<br>10. Fill in the blank with an animal CVC word: f- _ - x (word is 'fox')."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' ability to sort words correctly through class participation and the sorting activity.",
+    "<b>Homework:</b> Write two short 'o' CVC words from each category (animal and object)."
+  ],
+  "conclusion": [
+    "By learning to sort short 'o' CVC words into categories, students will enhance their understanding of word meanings and develop their phonics skills. They will be able to recognize patterns in word structures and meanings, which will help them as they learn more complex words."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Creating a Short 'o' CVC Word Search Puzzle",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, September 5, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'o' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "4",
+  "description": "In this lesson, students will enhance their understanding of short 'o' CVC words by creating and solving a word search puzzle. This activity will strengthen their reading, spelling, and recognition skills through a fun, interactive exercise.",
+  "materials": [
+    "Whiteboard and markers",
+    "Grid paper for word search puzzles",
+    "Pencils and erasers",
+    "Short 'o' CVC word list"
+  ],
+  "objectives": [
+    "Students will be able to identify and recognize short 'o' CVC words.",
+    "Students will create a word search puzzle using short 'o' CVC words.",
+    "Students will solve word search puzzles to reinforce their understanding of short 'o' words.",
+    "Students will improve their focus and word recognition through interactive puzzle-solving."
+  ],
+  "rationale": [
+    "Practicing short 'o' CVC words enhances reading and spelling skills, particularly for early learners. By engaging in word search puzzles, students will become more familiar with spelling patterns and improve their ability to recognize these words in reading and writing."
+  ],
+  "methodology": [
+    "The lesson will include a review of short 'o' CVC words, followed by a step-by-step guide on creating a word search puzzle. Students will work individually to create their own puzzles, then swap and solve each other's puzzles to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'o' CVC Words:</b><br>Begin by reviewing what short 'o' CVC words are. CVC words follow a consonant-vowel-consonant pattern, with the vowel making a short 'o' sound. Examples include words like 'dog,' 'pot,' 'log,' 'fox,' and 'rod.' Explain that practicing these words helps improve both reading and spelling skills, making students more confident readers.",
+      "<b>Introduction to Word Search Puzzles:</b><br>A word search puzzle is a fun activity where students search for hidden words in a grid of letters. In this lesson, the words to find will all be short 'o' CVC words. Word searches help improve focus, vocabulary, and letter recognition by making students more familiar with word patterns.",
+      "<b>Steps to Create a Short 'o' Word Search Puzzle:</b><br>Guide the students through the process of creating their own word search puzzle.<br>Step 1: Choose 5-8 short 'o' CVC words (e.g., 'dog,' 'pot,' 'log,' 'fox,' 'rod').<br>Step 2: Draw a 6x6 or larger grid on paper.<br>Step 3: Write the chosen words into the grid across, down, or diagonally.<br>Step 4: Fill in the remaining empty spaces with random letters to make the puzzle more challenging.<br>Students can overlap words to increase difficulty.",
+      "<b>Solving and Sharing the Word Search Puzzle:</b><br>Once students have created their word search puzzles, they will swap puzzles with a partner and attempt to solve each other's. Circling each word as it is found will help them keep track. This activity improves their concentration, attention to detail, and word recognition skills.",
+      "<b>Exercise Questions:</b><br>1. What is a word search puzzle?<br>2. True or False: All the words in this word search puzzle will have a short 'o' sound.<br>3. Name two short 'o' CVC words that you could include in your word search.<br>4. How many letters should a grid have for a simple word search puzzle?<br>5. Where can you place the words in a word search puzzle?<br>a. Across, down, or diagonally<br>b. Only across<br>c. Only down<br>6. What do you fill the empty spaces in the grid with?<br>7. Write one short 'o' CVC word you would put in your word search.<br>8. Why is solving word search puzzles helpful for learning?<br>9. True or False: You can overlap words in a word search puzzle to make it more challenging.<br>10. After completing a word search, what should you do to show you found a word?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students based on their ability to correctly create and solve word search puzzles, as well as their understanding of short 'o' CVC words during the review and exercise questions.",
+    "<b>Homework:</b> Create a new word search puzzle using short 'a' CVC words, and bring it to class for a friend to solve."
+  ],
+  "conclusion": [
+    "By creating and solving word search puzzles, students will improve their understanding of short 'o' CVC words, enhance their focus and concentration, and develop stronger spelling and reading skills."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Using Short 'o' CVC Words in Simple Sentences and Storytime",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, September 2, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Using Short 'o' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "5",
+  "description": "This lesson will focus on using short 'o' CVC (Consonant-Vowel-Consonant) words in sentences and storytelling. Students will review short 'o' words, create sentences using them, and participate in story-building activities to enhance their reading and writing skills.",
+  "materials": [
+    "Whiteboard and markers",
+    "Picture cards of short 'o' words",
+    "Worksheets for exercises",
+    "Storybooks containing short 'o' CVC words"
+  ],
+  "objectives": [
+    "Students will review short 'o' CVC words and their sounds.",
+    "Students will create simple sentences using short 'o' CVC words.",
+    "Students will use short 'o' CVC words to build stories.",
+    "Students will practice reading short 'o' stories aloud and improve their listening skills."
+  ],
+  "rationale": [
+    "Learning and using CVC words helps children build strong phonetic awareness and reading fluency. By focusing on short 'o' sounds, students will enhance their ability to recognize, read, and use these words in both sentences and storytelling."
+  ],
+  "methodology": [
+    "The lesson will begin with a review of the short 'o' CVC words, followed by sentence creation and storytelling exercises. Students will practice reading aloud and listening to stories that reinforce the use of these words."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'o' CVC Words:</b><br>We will start by reviewing the short 'o' sound and some common CVC words like 'dog,' 'pot,' and 'log.' The teacher will display and read the words aloud, and students will repeat them. The goal is to reinforce how the short 'o' sound is produced in the middle of these words.",
+      "<b>Creating Simple Sentences with Short 'o' CVC Words:</b><br>After reviewing, students will learn how to form simple sentences using the CVC words. The teacher will provide examples such as 'The dog is big.' and 'Mom has a pot.' Students will then create their own sentences using words like 'rod,' 'box,' or 'log.'",
+      "<b>Storytime with Short 'o' CVC Words:</b><br>Next, the class will work on building short stories using the CVC words. For example, the teacher will provide a story like: 'Tom has a dog. The dog is on a log. Tom runs to the log and picks up his dog.' Students will then create their own short stories using at least three CVC words.",
+      "<b>Reading and Listening to Stories:</b><br>Students will take turns reading short CVC word stories aloud to practice fluency. The teacher will also read a short story to the class, allowing students to listen to how short 'o' words are used in sentences. This will help with comprehension and phonetic recognition.",
+      "<b>Exercise Questions:</b><br>1. Fill in the blank: The ___ ran to the log. (Options: dog, fox, cat)<br>2. Write a sentence with the word 'pot.'<br>3. Which word fits in the sentence? The ___ is on the top. (Options: box, mop, log)<br>4. Write a sentence with the word 'box.'<br>5. True or False: 'The dog jumps on the pot' is a sentence with short 'o' words.<br>6. Fill in the blank: The ___ is red. (Options: rod, mop, top)<br>7. Use the word 'log' in a sentence.<br>8. Which word fits in the sentence? Mom puts the ___ in the pot. (Options: rod, fox, box)<br>9. Write a short sentence using two CVC words with short 'o' sounds.<br>10. Finish the sentence: The ___ is in the box. (Options: top, dog, pot)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding by observing their participation in sentence creation, story-building, and reading exercises.",
+    "<b>Worksheet:</b> Students will complete the worksheet with exercise questions to assess their ability to use short 'o' CVC words in sentences."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to recognize short 'o' CVC words, use them in sentences, and apply their knowledge in storytelling. This will help improve both their reading fluency and writing skills."
+  ]
+},
 	
-// Werk 7
+// Week 7
 // Lesson 1
 
 // Lesson 2
