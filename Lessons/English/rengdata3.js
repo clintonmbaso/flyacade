@@ -1033,49 +1033,1021 @@ const lessonPlans12c = [
 	
 // Week 7
 // Lesson 1
+{
+  "title": "Short 'u' CVC Words",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, September 1, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'u' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the short 'u' sound in CVC words. It helps them recognize, sound out, and read simple short 'u' CVC words, providing opportunities for practice through engaging activities and exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with short 'u' CVC words",
+    "Word sorting worksheets",
+    "Picture cards for matching"
+  ],
+  "objectives": [
+    "Students will recognize the short 'u' sound in CVC words.",
+    "Students will learn to sound out and blend short 'u' CVC words.",
+    "Students will practice reading and identifying short 'u' words in sentences.",
+    "Students will engage in activities to reinforce their understanding of the short 'u' sound."
+  ],
+  "rationale": [
+    "Understanding short vowel sounds, particularly in CVC words, is a foundational skill in early reading development. This lesson helps students build confidence in decoding words and improves their phonics skills through repetition and practice."
+  ],
+  "methodology": [
+    "The lesson will include teacher-led instruction on recognizing and sounding out short 'u' CVC words. Interactive activities like word sorting and hands-on games will provide practice opportunities, and guided exercises will help students apply their knowledge."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Short 'u' Sound:</b><br>The short 'u' sound is the vowel sound heard in words like 'mud,' 'sun,' and 'bug.' It sounds like 'uh.' Emphasize that it’s a short, quick sound, made when the mouth opens slightly. To help students recognize this sound, show examples of common words such as 'cup,' 'hug,' 'bus,' and 'run,' and ask students to listen for the short 'u' sound in the middle.",
+      "<b>Understanding CVC Words:</b><br>CVC words are three-letter words that follow the consonant-vowel-consonant pattern. Examples include 'mud,' 'sun,' 'cup,' and 'fun.' Teach students to sound out each letter in these words. For example, 'mud' is sounded out as 'mmm-uh-duh.' Practice sounding out words together as a class.",
+      "<b>Practice Sounding Out Short 'u' CVC Words:</b><br>Write short 'u' CVC words like 'bus,' 'bug,' 'cub,' 'rub,' and 'hut' on the board. As a class, sound out the letters and blend them to form the word. For example, 'b-u-s' becomes 'bus.' Have individual students sound out and read the words independently.",
+      "<b>Activities to Reinforce the Short 'u' Sound:</b><br>1. Word Sorting: Create a list of words with different short vowel sounds (e.g., short 'a,' 'e,' 'i,' 'o,' 'u') and ask students to sort the words into categories based on their vowel sounds.<br>2. Reading Simple Sentences: Practice reading sentences that include short 'u' CVC words, such as 'The bug is on the rug' and 'The sun is up.'<br>3. Hands-On Game: Play a game where students pick a word card with a short 'u' CVC word, sound out the letters, and match it to a picture of the word (e.g., 'cup' to a picture of a cup).",
+      "<b>Exercise Questions:</b><br>1. What sound does the short 'u' make?<br>2. Which of these words has the short 'u' sound: 'bus' or 'cat'?<br>3. Sound out the word: s-u-n. What word does it make?<br>4. True or False: 'mud' is a CVC word.<br>5. Write down a word that follows the CVC pattern and uses the short 'u.'<br>6. Circle the CVC word: dog, bug, run, cat.<br>7. Which letter makes the short 'u' sound in the word 'cup'?<br>8. Spell a word with the short 'u' sound that means a yellow vehicle people ride in.<br>9. True or False: 'cup' is a CVC word.<br>10. Write a sentence using the word 'sun.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' ability to sound out short 'u' CVC words by observing their participation in the guided practice and activities.",
+    "<b>Worksheet:</b> Students will complete a word sorting worksheet, categorizing words by their vowel sounds.",
+    "<b>Homework:</b> Write five short 'u' CVC words and use two of them in sentences."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will have a strong understanding of the short 'u' sound and CVC words. They will be able to recognize, sound out, and read short 'u' CVC words confidently."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Short 'u' CVC Words - Flashcards and Word Hunt",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, September 5, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'u' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on recognizing and reading short 'u' CVC (consonant-vowel-consonant) words. Through flashcard creation, a word hunt, and group games, students will engage in fun activities to reinforce their understanding of short 'u' words.",
+  "materials": [
+    "Whiteboard and markers",
+    "Blank cards for flashcards",
+    "Markers or crayons",
+    "Tape for hiding flashcards"
+  ],
+  "objectives": [
+    "Students will be able to recognize the short 'u' sound in CVC words.",
+    "Students will create and use flashcards to practice short 'u' words.",
+    "Students will participate in a word hunt activity to find and read short 'u' words.",
+    "Students will practice using short 'u' CVC words in sentences."
+  ],
+  "rationale": [
+    "Understanding short vowel sounds, such as the short 'u' sound, is fundamental in early phonics development. Engaging students in interactive activities such as flashcard games and word hunts helps reinforce phonemic awareness in a fun and memorable way."
+  ],
+  "methodology": [
+    "This lesson uses visual, auditory, and kinesthetic learning approaches to help students grasp short 'u' CVC words. The lesson begins with direct instruction, followed by hands-on activities, and concludes with a review through fun group games."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'u' CVC Words:</b><br>Begin by reviewing the short 'u' sound with the class. Remind students that it is the sound in words like 'mud,' 'bus,' and 'sun.' Have students repeat the sound after you to reinforce pronunciation. Write examples of CVC words with the short 'u' sound on the board, such as 'bug,' 'cub,' 'rub,' and 'hut.' Ask students to sound out these words and come up with other short 'u' words they know.",
+      "<b>Creating Short 'u' Flashcards:</b><br>Hand out blank cards to students and guide them in creating their own flashcards with short 'u' CVC words. On one side of the card, they write a word (e.g., 'cup,' 'sun') and can draw a picture on the other side. Once the flashcards are made, students will pair up and take turns reading the words aloud to each other, reinforcing their ability to sound out the words.",
+      "<b>'u' Word Hunt Game:</b><br>Hide the flashcards with short 'u' CVC words around the classroom. Explain to students that their task is to find these flashcards and read the word aloud when they find one. Each time a student finds a card, they should sound out the letters and read the word to the class. Encourage cooperation by having students help each other with tricky words.",
+      "<b>Practicing 'u' Words through Games:</b><br>Gather the class together after the word hunt and use the flashcards for group games. For example, shuffle the cards and hold them up one by one. The class takes turns reading the words aloud or playing a rapid-response game, where students compete to read the word correctly. To challenge students further, ask them to use the words in simple sentences, such as 'The sun is hot.'",
+      "<b>Exercise Questions:</b><br>1. What is the short 'u' sound in the word 'bug'?<br>2. Write down two words with the short 'u' sound.<br>3. True or False: 'sun' is a CVC word.<br>4. What CVC word is hidden in these letters: b-u-s?<br>5. Draw a picture of one CVC word you found during the word hunt.<br>6. Circle the CVC word: hat, cub, dog, cat.<br>7. Sound out this word: r-u-n. What word does it make?<br>8. True or False: 'bus' has a short 'u' sound.<br>9. Which word from the flashcards means a large yellow vehicle?<br>10. Use the word 'mud' in a sentence."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students’ ability to sound out short 'u' CVC words during the flashcard and word hunt activities.",
+    "<b>Homework:</b> Ask students to write down three short 'u' words they remember from class and use one in a sentence."
+  ],
+  "conclusion": [
+    "By participating in this interactive lesson, students will improve their recognition and understanding of short 'u' CVC words. Through the flashcard and word hunt activities, they will solidify their phonics skills and enjoy learning in a playful environment."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Sorting Short 'u' CVC Words into Living and Non-Living Things",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Sorting Short 'u' CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on sorting short 'u' CVC words into the categories of living and non-living things. Students will learn to recognize and categorize words based on their properties and practice distinguishing between living and non-living things.",
+  "materials": [
+    "Word cards with short 'u' CVC words",
+    "Whiteboard and markers",
+    "Worksheets for sorting activity"
+  ],
+  "objectives": [
+    "Students will recognize and sound out short 'u' CVC words.",
+    "Students will understand the difference between living and non-living things.",
+    "Students will sort short 'u' CVC words into living and non-living categories.",
+    "Students will engage in discussions to explain their sorting choices."
+  ],
+  "rationale": [
+    "Sorting words into categories helps students practice phonics while reinforcing their understanding of living versus non-living things. This activity supports vocabulary development and critical thinking."
+  ],
+  "methodology": [
+    "The lesson will include a review of short 'u' CVC words, an explanation of living and non-living things, and a sorting activity. Students will work with word cards and participate in group discussions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'u' CVC Words:</b><br>Short 'u' CVC words follow a simple pattern: Consonant-Vowel-Consonant with the vowel being the short 'u' sound. Examples include 'bug,' 'sun,' 'cub,' and 'mud.' Practice sounding out these words by breaking them into individual sounds and blending them together.",
+      "<b>Understanding Living and Non-Living Things:</b><br>Living things grow, move, breathe, and need food and water, like animals and plants. Non-living things do not grow or need food; they remain the same over time, like rocks and chairs.",
+      "<b>Sorting Short 'u' CVC Words:</b><br>Students will sort short 'u' CVC words into two categories: living and non-living things. For instance, 'bug' belongs to living things, while 'cup' belongs to non-living things. Provide examples such as: Living things: bug, cub, pup; Non-living things: sun, cup, rug.",
+      "<b>Activity: Word Sorting:</b><br>Create word cards for short 'u' CVC words and have students sort them into living and non-living categories. They can place the cards in two columns on the board or on a worksheet. After sorting, discuss their choices and reasoning.",
+      "<b>Exercise Questions:</b><br>1. What makes something a living thing?<br>2. What is a non-living thing?<br>3. Sort the word: bug—Is it living or non-living?<br>4. True or False: The word 'cup' represents a living thing.<br>5. Write down a short 'u' CVC word that is a living thing.<br>6. Circle the non-living thing: pup, rug, bug.<br>7. Which word represents a living thing: cub or sun?<br>8. Name one thing that makes a living thing different from a non-living thing.<br>9. Sound out the word 'pup' and decide if it's living or non-living.<br>10. Write a sentence using a short 'u' CVC word that describes a living thing."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students' participation in the sorting activity and discussions to assess their understanding of short 'u' CVC words and their ability to categorize them correctly.",
+    "<b>Homework:</b> Write a sentence using one short 'u' CVC word and describe whether it is living or non-living."
+  ],
+  "conclusion": [
+    "By sorting short 'u' CVC words and discussing their properties, students will enhance their phonics skills and understanding of the difference between living and non-living things. This lesson provides a foundational skill in categorization and vocabulary building."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Creating a Short 'u' CVC Words Crossword Puzzle",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'u' CVC Words Crossword Puzzle",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "4",
+  "description": "This lesson focuses on recognizing and spelling short 'u' CVC words through the creation and solving of a crossword puzzle, enhancing vocabulary and problem-solving skills.",
+  "materials": [
+    "Grid paper or blank crossword puzzle templates",
+    "Pencils or markers",
+    "Examples of short 'u' CVC words"
+  ],
+  "objectives": [
+    "Students will understand what a crossword puzzle is and how it works.",
+    "Students will review and recognize short 'u' CVC words.",
+    "Students will practice creating and solving a crossword puzzle using short 'u' CVC words.",
+    "Students will learn to write clues for the words and ensure accuracy in their puzzles."
+  ],
+  "rationale": [
+    "Creating and solving crossword puzzles help reinforce vocabulary and spelling while making learning engaging and interactive. This activity develops problem-solving skills and reinforces the recognition of short 'u' CVC words."
+  ],
+  "methodology": [
+    "The lesson includes a detailed explanation of crossword puzzles, a review of short 'u' CVC words, and step-by-step guidance on designing and solving the puzzle. Students will create their own puzzles and solve their classmates' puzzles."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Crossword Puzzles:</b><br>A crossword puzzle is a game where you fill in words based on clues. The words fit into a grid of squares, with horizontal and vertical spaces that intersect. The words share letters where they overlap. For example, if the clue is “a container for drinking,” the answer might be “cup.”",
+      "<b>Understanding Short 'u' CVC Words:</b><br>Short 'u' CVC words follow the Consonant-Vowel-Consonant pattern. Examples include 'mud,' 'bus,' 'fun,' and 'nut.' Practice pronouncing these words and understanding their meanings. Select a few short 'u' CVC words to include in your crossword puzzle.",
+      "<b>Designing the Crossword Puzzle:</b><br>Draw a grid with empty squares to start designing the crossword. Decide on the number of words and how they will intersect. Begin placing words into the grid, starting with the longest word and fitting other words around it, ensuring they share letters where they intersect. Write numbers next to each word to indicate clues.",
+      "<b>Writing the Clues:</b><br>Create simple and clear clues for each word. For example, for the word “mud,” a clue might be “wet dirt.” Ensure that clues are appropriate for the students' level. After writing the clues, check the puzzle for accuracy and make copies for students to solve.",
+      "<b>Exercise Questions:</b><br>1. What is a crossword puzzle?<br>2. Name two short 'u' CVC words you might use in a crossword puzzle.<br>3. How do you decide which words to include in the crossword puzzle?<br>4. Write a clue for the word “nut.”<br>5. What should you check for when designing the grid for a crossword puzzle?<br>6. True or False: In a crossword puzzle, words do not need to intersect.<br>7. Create a crossword puzzle with three short 'u' CVC words and provide the clues.<br>8. What is an example of a short 'u' CVC word that could be used in the puzzle?<br>9. Circle the correct answer: The word “mud” would be a clue for (mud / cat / dog).<br>10. Solve the following clue: “A vehicle that moves on tracks” (Answer: ___)."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in creating and solving the crossword puzzles and their responses to the exercise questions.",
+    "<b>Homework:</b> Create a crossword puzzle with five short 'u' CVC words, including clues and a completed grid."
+  ],
+  "conclusion": [
+    "By creating and solving crossword puzzles, students will reinforce their understanding of short 'u' CVC words and develop their problem-solving skills. The activity also makes learning engaging and interactive."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Using Short 'u' CVC Words in Simple Sentences and Storytime",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Short 'u' CVC Words in Sentences and Stories",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "5",
+  "description": "This lesson focuses on using short 'u' CVC words in simple sentences and understanding their application through storytime. Students will practice saying, reading, and writing sentences and stories using these words.",
+  "materials": [
+    "Word cards with short 'u' CVC words",
+    "Whiteboard and markers",
+    "Short storybooks with short 'u' CVC words",
+    "Worksheets for exercises",
+    "Drawing materials for story illustration"
+  ],
+  "objectives": [
+    "Students will recall the short 'u' sound and recognize short 'u' CVC words.",
+    "Students will practice using short 'u' CVC words in simple sentences.",
+    "Students will understand how short 'u' CVC words can be used in story contexts.",
+    "Students will build their own sentences and stories using short 'u' CVC words.",
+    "Students will reinforce their learning through various reading and writing activities."
+  ],
+  "rationale": [
+    "Practicing with short 'u' CVC words helps students improve their phonetic skills and sentence construction. Integrating these words into stories enhances comprehension and application, making learning engaging and meaningful."
+  ],
+  "methodology": [
+    "The lesson will include direct instruction, guided practice, and interactive activities. Students will engage in sentence creation, story reading, and writing exercises to reinforce their understanding of short 'u' CVC words."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of Short 'u' CVC Words:</b><br>Start by recapping the short 'u' sound found in words like 'mud,' 'sun,' 'bug,' and 'cup.' Reinforce the Consonant-Vowel-Consonant (CVC) pattern. Have students repeat these words to practice pronunciation and recognition.",
+      "<b>Using Short 'u' CVC Words in Simple Sentences:</b><br>Explain how sentences use words to convey complete ideas. Show examples of sentences with short 'u' CVC words: 'The bug is on the rug.' and 'I see a cup on the table.' Write sentences on the board and read them aloud. Have students practice reading and creating sentences using short 'u' CVC words.",
+      "<b>Introducing Storytime with Short 'u' CVC Words:</b><br>Show how short 'u' CVC words can be used in simple stories. Read a short story aloud that includes these words, emphasizing them as you read. Example: 'Once upon a time, a bug lived in a cup. The bug liked to play in the sun and jump on the rug.' Discuss the story and how the words fit into the narrative.",
+      "<b>Activities for Reinforcement:</b><br>1. Sentence Building Game: Students choose a short 'u' CVC word card and use it to build a sentence, then share with the class.<br>2. Storytime Writing: Students write a short story or a few sentences using a list of short 'u' CVC words and illustrate their stories.<br>3. Reading Practice: Students practice reading a short book or story with short 'u' CVC words aloud with a partner or in small groups.",
+      "<b>Exercise Questions:</b><br>1. What is a simple sentence?<br>2. Write a sentence using the word 'bug.'<br>3. True or False: 'The sun is fun' is a sentence with a short 'u' word.<br>4. Circle the correct sentence: 'The cup is in the sun' / 'The cup is in the moon'.<br>5. Write a sentence using the word 'mud.'<br>6. What word would fit in the sentence: 'The cat sat on the ____'? (choices: rug, box, car)<br>7. Write a short story using at least three short 'u' CVC words.<br>8. True or False: 'The cat runs in the mud' is a sentence with short 'u' words.<br>9. Which sentence uses the word 'cup': 'The dog plays with a cup.' / 'The dog sleeps in the cup.'<br>10. Read and circle the short 'u' CVC words in the sentence: 'The sun and the bug are fun.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in sentence and story-building activities, as well as their responses to exercise questions.",
+    "<b>Homework:</b> Write a short story using at least five short 'u' CVC words from the lesson and illustrate it."
+  ],
+  "conclusion": [
+    "Through practice with sentences and stories, students will gain confidence in using short 'u' CVC words. Engaging in reading, writing, and illustrating activities will reinforce their understanding and application of these words."
+  ]
+},
 	
 // Werk 8
 // Lesson 1
+{
+  "title": "Introduction to Simple CVC Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding and Writing Simple CVC Sentences",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of sentences and simple CVC (Consonant-Vowel-Consonant) words. Students will learn how to construct basic sentences and practice using CVC words.",
+  "materials": [
+    "Whiteboard and markers",
+    "CVC word cards",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand what constitutes a sentence.",
+    "Students will learn about CVC words and their structure.",
+    "Students will practice writing simple sentences using CVC words.",
+    "Students will apply their knowledge to build and analyze sentences."
+  ],
+  "rationale": [
+    "Understanding sentences and CVC words is fundamental for early reading and writing skills. This lesson provides a foundation for constructing basic sentences and recognizing word patterns."
+  ],
+  "methodology": [
+    "The lesson will include definitions, examples, and interactive practice with CVC sentences. Students will engage in activities that reinforce sentence structure and CVC word usage."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>What is a Sentence?</b><br>A sentence is a group of words that expresses a complete thought. It starts with a capital letter and ends with a punctuation mark such as a period (.), question mark (?), or exclamation mark (!). A sentence includes a subject (who or what the sentence is about) and a predicate (what the subject does). For example, 'The cat sleeps' has 'The cat' as the subject and 'sleeps' as the predicate.",
+      "<b>Introduction to CVC Words:</b><br>CVC words are simple words that follow the Consonant-Vowel-Consonant pattern. They are typically short and easy to sound out, making them ideal for early readers. Examples include cat, dog, big, hat, and run. In these words, the first and last letters are consonants, and the middle letter is a vowel.",
+      "<b>Writing Simple CVC Sentences:</b><br>To create a simple sentence using CVC words, combine the words to express a clear idea. For instance, 'The cat is big' uses 'The cat' as the subject and 'is big' as the predicate. Write several CVC sentences on the board and read them aloud to demonstrate how CVC words fit into sentences.",
+      "<b>Practice and Application:</b><br>Encourage students to build their own sentences using a mix of CVC words such as pen, top, sun, and mat. Remind them that each sentence should have a clear subject and predicate, start with a capital letter, and end with appropriate punctuation.",
+      "<b>Exercise Questions:</b><br>1. What is a sentence?<br>2. Circle the CVC word: cat, blue, shoe.<br>3. Identify the subject in this sentence: 'The dog runs.'<br>4. Write a sentence using the CVC words 'hat' and 'big.'<br>5. What punctuation mark ends a sentence?<br>6. True or False: 'The cat is big' is a complete sentence.<br>7. Choose the correct sentence: a) 'Dog runs.' b) 'The dog runs.' c) 'Runs the dog.'<br>8. Write a CVC sentence using the word 'sun.'<br>9. What is the middle letter in the CVC word 'cat'?<br>10. Build a sentence with the CVC words 'top' and 'mat.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to exercise questions and their ability to construct and analyze simple CVC sentences.",
+    "<b>Homework:</b> Write three sentences using different CVC words and highlight the subject and predicate in each sentence."
+  ],
+  "conclusion": [
+    "By understanding sentences and practicing with CVC words, students will enhance their early reading and writing skills. Continued practice will help them become more confident in constructing simple sentences and recognizing word patterns."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Building and Understanding Simple Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Building and Understanding Simple Sentences",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on helping students practice building and understanding simple sentences, discussing their meanings, and using them in various contexts.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence building cards",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will learn to build simple sentences with a clear structure.",
+    "Students will understand the meaning of sentences and how to use them in different contexts.",
+    "Students will practice correct pronunciation and clarity when reading sentences aloud.",
+    "Students will create additional sentences using the learned structure.",
+    "Students will complete exercises to reinforce their understanding of sentence structure."
+  ],
+  "rationale": [
+    "Understanding and building simple sentences is fundamental to developing effective communication skills. This lesson provides a foundation for sentence structure, meaning, and usage."
+  ],
+  "methodology": [
+    "The lesson will include explanations of sentence structure, discussions on sentence meaning, reading practice, collaborative sentence creation, and exercises to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Building a Simple Sentence:</b><br>A simple sentence consists of a subject and a predicate. For example, 'This is a cat.' Here, 'This' is the subject (what we are talking about), and 'is a cat' is the predicate (what we are saying about the subject). This basic structure helps convey a clear and complete idea.",
+      "<b>Discussing the Meaning of the Sentence:</b><br>Break down the sentence 'This is a cat' to explain its meaning. 'This' refers to the object or animal being identified, and 'is a cat' describes what it is. Discuss how such sentences help in identifying and describing objects or animals in various contexts, like showing a picture and saying, 'This is a cat.'",
+      "<b>Reading the Sentence Aloud:</b><br>Read 'This is a cat' aloud to model correct pronunciation. Encourage students to repeat after you to practice clear and accurate speech. Emphasize that clear pronunciation helps others understand what is being said.",
+      "<b>Building More Sentences Together:</b><br>Work with the students to build more simple sentences using similar structures, such as 'This is a dog' or 'This is a hat.' This reinforces sentence structure and helps with sentence formation. Invite students to suggest sentences with objects or animals they know and write them on the board for collective reading.",
+      "<b>Exercise Questions:</b><br>1. What is the subject in the sentence 'This is a cat'?<br>2. Circle the predicate: This / is a cat.<br>3. What does the sentence 'This is a cat' mean?<br>4. True or False: 'This is a cat' is a complete sentence.<br>5. Write a sentence using 'This is a ____.' (Fill in the blank with an object or animal.)<br>6. Read aloud the sentence 'This is a dog.' What is the subject?<br>7. Which sentence is correct? a) 'Is this a cat.' b) 'This is a cat.' c) 'Cat is this.'<br>8. Create a simple sentence using the word 'dog.'<br>9. What punctuation mark should end the sentence 'This is a cat'?<br>10. Build and write another sentence using the structure 'This is a ____.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their responses to exercise questions, participation in discussions, and ability to build and read sentences correctly.",
+    "<b>Homework:</b> Write three sentences using the structure 'This is a ____.' and illustrate each with a simple drawing or example."
+  ],
+  "conclusion": [
+    "By practicing building and understanding simple sentences, students will enhance their ability to communicate clearly and accurately. The lesson reinforces the importance of sentence structure and meaning in everyday communication."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Creating and Using CVC Flashcards",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Creating and Using CVC Flashcards to Form Sentences",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on using flashcards with CVC (consonant-vowel-consonant) words to arrange and form the sentence 'This is a cat.' Students will learn how to create and use flashcards to practice vocabulary and sentence structure.",
+  "materials": [
+    "Index cards or cut paper",
+    "Markers or colored pens",
+    "Sample flashcards with the words This, is, a, cat"
+  ],
+  "objectives": [
+    "Students will understand what flashcards are and their purpose in learning.",
+    "Students will create their own flashcards with CVC words.",
+    "Students will arrange flashcards to form the sentence 'This is a cat.'",
+    "Students will practice sentence structure by reviewing the components of a sentence.",
+    "Students will receive feedback and reinforce their understanding of sentence formation and CVC words."
+  ],
+  "rationale": [
+    "Flashcards are effective tools for reinforcing vocabulary and sentence structure. By creating and using flashcards with CVC words, students will improve their understanding of how words fit together to form meaningful sentences."
+  ],
+  "methodology": [
+    "The lesson involves introducing flashcards, creating and using them to form sentences, and reinforcing sentence structure through practice and feedback."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Flashcards:</b><br>Flashcards are cards with words or pictures that help with learning and memory. They are useful for practicing vocabulary, spelling, and sentence formation. Flashcards make it easier to see and arrange words into sentences, especially for CVC words.",
+      "<b>Creating CVC Flashcards:</b><br>Prepare flashcards with individual CVC words. For the sentence 'This is a cat,' you will need flashcards with the words This, is, a, and cat. Use index cards or cut paper into small pieces and write each word in large, legible letters. Different colors or pictures can make the flashcards more engaging.",
+      "<b>Arranging Flashcards to Form a Sentence:</b><br>Have students work with the flashcards to arrange them in the correct order to form the sentence 'This is a cat.' Start by showing the correct arrangement and reading the sentence aloud. Let students try arranging the flashcards themselves to reinforce their understanding of sentence structure and CVC words.",
+      "<b>Reinforcing the Sentence Structure:</b><br>Explain that a complete sentence includes a subject and a predicate. In the sentence 'This is a cat,' 'This' is the subject, and 'is a cat' describes what the subject is. Provide feedback as students arrange the flashcards, encourage them to read the sentence out loud, and check if it makes sense.",
+      "<b>Exercise Questions:</b><br>1. What are flashcards used for?<br>2. Write the word 'cat' on a flashcard.<br>3. True or False: Flashcards can help with learning sentences.<br>4. Arrange the following flashcards to form a sentence: a, is, This, cat.<br>5. Circle the correct sentence: a) 'This is a cat.' b) 'Cat is a this.' c) 'A this cat is.'<br>6. What is the subject in the sentence 'This is a cat'?<br>7. Fill in the blank with a flashcard word: '___ is a cat.' (Options: This, Dog, Run)<br>8. Why is it important to arrange flashcards in the correct order?<br>9. Write a sentence using the flashcards 'is,' 'a,' and 'dog.'<br>10. Create a flashcard with the word 'this' and use it in a sentence."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their ability to create and arrange flashcards, their responses to exercise questions, and their participation in sentence formation activities.",
+    "<b>Homework:</b> Create three flashcards with different CVC words and use them to write a sentence for each word."
+  ],
+  "conclusion": [
+    "By creating and using CVC flashcards, students will improve their ability to form sentences and understand sentence structure. The practice will help reinforce their learning and enhance their vocabulary."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Illustrating the Sentence 'This is a Cat'",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Visual Representation of Sentences",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "4",
+  "description": "This lesson helps students understand how to visually represent a sentence by drawing a picture that illustrates the sentence 'This is a cat.' It focuses on breaking down the sentence, the importance of illustration, and sharing and discussing drawings.",
+  "materials": [
+    "Drawing paper",
+    "Crayons or colored pencils",
+    "Example drawings of cats",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will break down the sentence 'This is a cat' into its components.",
+    "Students will understand the importance of visual representation in understanding sentences.",
+    "Students will create a drawing that illustrates the sentence 'This is a cat.'",
+    "Students will share their drawings and discuss how they represent the sentence.",
+    "Students will recognize how illustrations can help clarify written text."
+  ],
+  "rationale": [
+    "Illustrating sentences helps bridge the gap between written and visual language. It reinforces comprehension by allowing students to create a concrete representation of abstract ideas, improving their understanding and retention of the material."
+  ],
+  "methodology": [
+    "The lesson will involve breaking down the sentence, demonstrating the importance of illustrations, guiding students through drawing, and encouraging sharing and discussion of their drawings. Students will be engaged through hands-on activities and interactive discussions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Understanding the Sentence:</b><br>The sentence 'This is a cat' consists of a subject ('This'), a linking verb ('is'), and a predicate ('a cat'). The subject refers to the object being described, the verb connects the subject to the predicate, and the predicate identifies the object.",
+      "<b>Importance of Illustration:</b><br>Drawing helps students understand and reinforce the meaning of sentences by creating a visual representation. It connects text to images, making abstract ideas more concrete and comprehensible.",
+      "<b>Drawing the Picture:</b><br>Guide students through drawing a basic shape of a cat and adding details such as ears, eyes, and whiskers. Encourage creativity in color and style, focusing on capturing the essence of the sentence rather than perfection.",
+      "<b>Sharing and Discussing Drawings:</b><br>Have students share their drawings with the class. Discuss how each drawing represents the sentence and how different interpretations reflect various ideas. This activity helps students appreciate diverse perspectives and enhances verbal skills.",
+      "<b>Exercise Questions:</b><br>1. What does the sentence 'This is a cat' mean?<br>2. Circle the subject in the sentence: 'This is a cat.'<br>3. What verb is used in the sentence 'This is a cat'?<br>4. Draw a picture that illustrates the sentence 'This is a cat.'<br>5. True or False: The sentence 'This is a cat' includes a cat.<br>6. Describe what your drawing shows.<br>7. How can drawing help you understand a sentence better?<br>8. What details did you include in your drawing of the cat?<br>9. Share your drawing with a partner and explain it.<br>10. Why is it important to make your drawing clear and recognizable?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their drawings and participation in discussions. The accuracy of their illustrations and explanations will be evaluated.",
+    "<b>Feedback:</b> Provide feedback on how well students captured the essence of the sentence in their drawings and how effectively they communicated their ideas."
+  ],
+  "conclusion": [
+    "By drawing and discussing the sentence 'This is a cat,' students will enhance their ability to visualize and understand written text. The lesson fosters creativity, comprehension, and effective communication of ideas."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Acting Out Sentences with Props",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Acting Out Sentences with Props",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "5",
+  "description": "This lesson aims to help students understand and express simple sentences by acting them out using props or stuffed animals. The activity will make learning interactive and enjoyable, allowing students to visualize sentence structures and meanings.",
+  "materials": [
+    "Stuffed animals",
+    "Various props (e.g., mats, balls, toy trees, toy cars)",
+    "Space for acting out sentences"
+  ],
+  "objectives": [
+    "Students will understand the purpose of acting out sentences to visualize their meanings.",
+    "Students will select appropriate props or stuffed animals to match sentences.",
+    "Students will demonstrate sentences using props and encourage their peers to do the same.",
+    "Students will practice taking turns and reinforcing their understanding of sentence structure through interactive play."
+  ],
+  "rationale": [
+    "Acting out sentences helps students grasp the meaning of words and how they fit together in a sentence. It also makes learning fun and interactive, engaging students through visual and physical representation of language."
+  ],
+  "methodology": [
+    "The lesson involves introducing the activity, demonstrating how to use props, allowing students to practice acting out sentences, and discussing their performances to reinforce understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Acting Out Sentences:</b><br>Acting out sentences helps students see and understand the meaning of words and sentences by making them come to life. For example, if the sentence is 'The cat sleeps on the mat,' students can use a stuffed cat and a mat to show how the cat lies on the mat.",
+      "<b>Choosing Props or Stuffed Animals:</b><br>Select props or stuffed animals that fit the sentences. For instance, use a stuffed dog and a ball for a sentence about a dog and a ball. Arrange the props to clearly illustrate the sentence, like placing the mat on the floor for the cat to 'sleep' on.",
+      "<b>Demonstrating the Activity:</b><br>Start by modeling how to act out a sentence. For example, for 'The bird flies over the tree,' move a stuffed bird up and over a toy tree while saying the sentence. Invite students to use the props to act out sentences themselves and encourage them to speak clearly.",
+      "<b>Practicing with Different Sentences:</b><br>Give each student a turn to act out a sentence with the props. Encourage creativity and imagination. After each performance, discuss how the props and actions matched the sentence to reinforce comprehension and correct misunderstandings.",
+      "<b>Exercise Questions:</b><br>1. What is the purpose of acting out sentences?<br>2. Choose a prop for the sentence: 'The dog barks at the cat.' (Options: stuffed dog, stuffed cat, ball)<br>3. True or False: Acting out sentences helps students understand the meaning of words.<br>4. Demonstrate acting out this sentence: 'The frog jumps over the log.'<br>5. Which sentence could you act out with a toy car and a toy garage? a) 'The car drives.' b) 'The car parks in the garage.' c) 'The car eats food.'<br>6. What do you need to act out the sentence 'The bear hugs the tree'?<br>7. Write a sentence that you can act out with a stuffed animal and a chair.<br>8. Describe how you would use props to show the sentence 'The cat chases the mouse.'<br>9. Why is it important for students to take turns acting out sentences?<br>10. Create a sentence and list two props you would use to act it out."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding based on their ability to accurately act out sentences using props and their participation in the activity.",
+    "<b>Feedback:</b> Provide feedback on how well students are using the props to represent the sentences and offer guidance on improving their demonstrations."
+  ],
+  "conclusion": [
+    "Acting out sentences with props helps students better understand sentence structure and meaning. By participating in this interactive activity, students will improve their ability to visualize and express simple sentences."
+  ]
+},
 	
-// Werk 9
+// Week 9
 // Lesson 1
+{
+  "title": "Expanding CVC Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Building and Expanding Simple CVC Sentences",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson aims to help students use CVC (Consonant-Vowel-Consonant) words to build and expand simple sentences, enhancing their early reading and writing skills.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with CVC words",
+    "Worksheets for sentence building and exercises"
+  ],
+  "objectives": [
+    "Students will review and understand CVC words.",
+    "Students will learn to form sentences using CVC words.",
+    "Students will practice expanding sentences with additional details.",
+    "Students will create their own sentences using new CVC words.",
+    "Students will demonstrate sentence structure and use proper punctuation and capitalization."
+  ],
+  "rationale": [
+    "Understanding and using CVC words are foundational skills in early reading and writing. Expanding sentences helps students convey more detailed information and practice sentence structure."
+  ],
+  "methodology": [
+    "The lesson includes reviewing CVC words, demonstrating sentence building, and practicing sentence expansion. Students will engage in hands-on activities to create and refine their own sentences."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of CVC Words:</b><br>CVC words are three-letter words following the Consonant-Vowel-Consonant pattern. These words are simple to sound out and read, which is useful for early reading practice. Examples include cat, dog, and big. Introduce new CVC words such as run, fun, and sun, which follow the same pattern.",
+      "<b>Building Sentences with New CVC Words:</b><br>Show how to create sentences using new CVC words. For example, 'The sun is hot' or 'We run for fun.' Each sentence uses CVC words to convey a simple idea. Remind students that a sentence must have a clear subject and predicate, like 'The sun' (subject) and 'is hot' (predicate) in the sentence 'The sun is hot.'",
+      "<b>Expanding Sentences with Additional Details:</b><br>Teach students how to add more details to their sentences using additional words or phrases. For example, 'The sun is bright and hot' adds more information about the sun. Write sentences on the board with new CVC words and additional details, such as 'We run in the park' or 'The fun game is on the mat.'",
+      "<b>Encouraging Independent Sentence Creation:</b><br>Encourage students to create their own sentences using new CVC words. They should use words like run, fun, and sun to build sentences describing actions or objects. Check that their sentences include a subject and predicate, and remind them to use proper punctuation and capitalization.",
+      "<b>Exercise Questions:</b><br>1. What does CVC stand for?<br>2. Circle the CVC word: sun, blue, cake.<br>3. Write a sentence using the CVC word 'run.'<br>4. Identify the subject in the sentence: 'The sun is bright.'<br>5. True or False: 'We run in the park' is an example of a CVC sentence.<br>6. Choose the correct sentence: a) 'The fun is game.' b) 'The fun game is.' c) 'The fun game is.'<br>7. Write a sentence with 'sun' and 'hot.'<br>8. What is the predicate in the sentence: 'The sun is hot'?<br>9. Build a sentence using the CVC words 'fun' and 'run.'<br>10. Complete the sentence: 'We run __ the park.' (Options: in, on, with)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in sentence building activities and their responses to the exercise questions.",
+    "<b>Homework:</b> Write three sentences using different CVC words learned in class, including at least one sentence with added details."
+  ],
+  "conclusion": [
+    "By reviewing and expanding CVC sentences, students will enhance their reading and writing skills. They will be better able to construct and elaborate on sentences, improving their ability to express ideas clearly."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Creating a Sentence-Building Game with CVC Words",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Sentence-Building with CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on engaging students in a sentence-building game to practice using CVC (Consonant-Vowel-Consonant) words. Students will create sentences, reinforcing their understanding of sentence structure in a fun and interactive way.",
+  "materials": [
+    "CVC word cards (prepared in advance)",
+    "Index cards or small pieces of paper",
+    "Markers or colored pens for card creation",
+    "Timer (optional)"
+  ],
+  "objectives": [
+    "Students will understand the purpose of the sentence-building game.",
+    "Students will create sentences using CVC words.",
+    "Students will identify and correct mistakes in their sentence construction.",
+    "Students will practice using sentence structure with clear subjects and predicates.",
+    "Students will explore variations of the game to reinforce learning."
+  ],
+  "rationale": [
+    "Using a sentence-building game makes learning sentence structure engaging and interactive. It helps students practice forming correct sentences using CVC words, reinforcing their understanding of grammar and sentence formation."
+  ],
+  "methodology": [
+    "The lesson involves an introduction to the game, preparation of CVC word cards, demonstration of game play, and variations to enhance practice. Students will actively participate in building sentences and receive feedback to improve their skills."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Sentence-Building Game:</b><br>The purpose of the game is to help students practice forming sentences using CVC words. The game is designed to make learning fun and to reinforce their understanding of how sentences are structured with a clear subject and predicate.",
+      "<b>Preparing the CVC Word Cards:</b><br>Prepare cards with various CVC words such as cat, dog, run, fun, and sun. Use index cards or cut paper into small pieces. Organize the cards so there are enough for each student or group. Color-code or shape-code the cards to distinguish between subjects and predicates.",
+      "<b>Playing the Sentence-Building Game:</b><br>Distribute the CVC word cards to students. Instruct them to pick cards and arrange them to form meaningful sentences. For example, students might use the cards to create the sentence 'The dog runs.' Demonstrate how to form sentences and check for correctness.",
+      "<b>Encouraging Practice and Reinforcement:</b><br>Introduce variations to the game, such as setting a timer to see how many sentences students can create in a set time or challenging them to make sentences with specific themes like animals or actions. Review sentences created by students, provide feedback, and discuss any common errors.",
+      "<b>Exercise Questions:</b><br>1. What is the purpose of the sentence-building game?<br>2. Circle the CVC word: dog, sky, lamp.<br>3. How do you create a sentence using the game?<br>4. True or False: A sentence must have a subject and a predicate.<br>5. Write a sentence using the CVC words 'sun' and 'fun.'<br>6. What should you check when forming a sentence?<br>7. Choose the correct sentence from these words: a) 'cat big the' b) 'The big cat' c) 'The cat big'<br>8. Write a sentence with the CVC word 'run.'<br>9. How can you make the game more challenging?<br>10. What will you do if you make a mistake in a sentence?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' ability to form sentences correctly using CVC words, their participation in the game, and their responses to the exercise questions.",
+    "<b>Feedback:</b> Provide individual and group feedback on sentence formation, creativity, and accuracy. Discuss common errors and praise correct sentence construction."
+  ],
+  "conclusion": [
+    "By engaging in the sentence-building game, students will practice constructing sentences with CVC words, reinforcing their understanding of sentence structure. The variations and exercises will further solidify their learning and provide opportunities for improvement."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Practice Writing Sentences on Mini Whiteboards Using Word Cards",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Building Sentences with Word Cards and Mini Whiteboards",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on practicing sentence-building skills using mini whiteboards and word cards. Students will learn how to create sentences and enhance their writing abilities through hands-on activities.",
+  "materials": [
+    "Mini whiteboards and markers",
+    "Word cards with individual words",
+    "Sample sentences for demonstration"
+  ],
+  "objectives": [
+    "Students will understand how to use word cards to build sentences.",
+    "Students will practice writing sentences on mini whiteboards.",
+    "Students will focus on sentence structure, proper capitalization, and punctuation.",
+    "Students will share their sentences and receive feedback.",
+    "Students will learn strategies for effective sentence-building and use of mini whiteboards."
+  ],
+  "rationale": [
+    "Using word cards and mini whiteboards helps students practice and improve their sentence-building skills. These tools provide immediate feedback and encourage creativity while reinforcing fundamental writing concepts."
+  ],
+  "methodology": [
+    "The lesson will include demonstrations, hands-on practice with word cards and mini whiteboards, and interactive discussions. Students will be encouraged to explore different sentence structures and receive feedback on their work."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Word Cards:</b><br>Word cards are small cards with individual words written on them. They help students build sentences by combining words. For example, cards might include 'cat,' 'run,' and 'big.' Show students how to use these cards to create meaningful sentences and focus on proper sentence structure.",
+      "<b>Using Mini Whiteboards:</b><br>Mini whiteboards are small, erasable boards that students can use to write and correct sentences. Demonstrate how to write sentences on the whiteboards, starting with simple sentences like 'The cat is big.' Show how to build and correct sentences using the word cards and emphasize proper capitalization and punctuation.",
+      "<b>Practice Activity:</b><br>Provide students with word cards and mini whiteboards. Ask them to arrange the word cards to form sentences and write these sentences on their whiteboards. Encourage them to check for correct structure and punctuation. After writing, have students share their sentences with a partner or the class, discuss their work, and provide feedback.",
+      "<b>Tips for Successful Practice:</b><br>Encourage students to create a variety of sentences, from simple to more complex. Provide support for students who may struggle and offer additional prompts or examples. Ensure every student practices and improves their sentence-writing skills. Highlight examples of well-written sentences during discussions.",
+      "<b>Exercise Questions:</b><br>1. What is a word card?<br>2. How can word cards help you build sentences?<br>3. Write a sentence using the word cards: dog, runs, fast.<br>4. What should you include at the end of a sentence?<br>5. True or False: Mini whiteboards are used to write and erase sentences.<br>6. Write a sentence with the following words: the, is, big, cat.<br>7. What is one tip for using mini whiteboards effectively?<br>8. Circle the sentence with correct punctuation: a) “The cat runs” b) “the cat runs.” c) “The cat runs.”<br>9. Rearrange these words to make a sentence: ball, the, bounces.<br>10. Write a sentence on your whiteboard using the word cards: sun, shines, brightly."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' sentence-building skills through their participation in the practice activity, the clarity of their writing on mini whiteboards, and their ability to follow proper sentence structure and punctuation.",
+    "<b>Feedback:</b> Provide feedback on sentence structure, word choice, and punctuation. Offer additional support or guidance based on individual student needs."
+  ],
+  "conclusion": [
+    "By practicing with word cards and mini whiteboards, students will enhance their ability to build sentences and improve their writing skills. Continued practice will help reinforce proper sentence structure and punctuation."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Sentence-Building Relay Race",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Sentence Building through Relay Race",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "4",
+  "description": "This lesson focuses on practicing sentence building using word cards in an interactive relay race. Students will learn about sentence structure and improve their reading and writing skills in a fun, engaging way.",
+  "materials": [
+    "Word cards with CVC words, subjects, predicates, and punctuation marks",
+    "Large sheets of paper or boards for building sentences",
+    "Markers or pens for writing"
+  ],
+  "objectives": [
+    "Students will understand the concept of sentence building.",
+    "Students will practice arranging words to create meaningful sentences.",
+    "Students will improve their teamwork and communication skills through a relay race activity.",
+    "Students will learn the importance of sentence structure, including capital letters and punctuation."
+  ],
+  "rationale": [
+    "Sentence building helps students understand sentence structure, which is essential for effective communication. The relay race format makes learning fun and encourages collaborative skills while reinforcing important grammar concepts."
+  ],
+  "methodology": [
+    "The lesson will involve a relay race activity where students use word cards to build sentences. Instructions will be provided, and students will be guided through the activity with demonstrations and feedback to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Sentence Building:</b><br>Sentence building involves arranging words in a specific order to form meaningful sentences. Understanding sentence structure helps improve reading and writing skills. A sentence typically includes a subject (who or what the sentence is about) and a predicate (what the subject does). For example, 'The cat sleeps' has 'The cat' as the subject and 'sleeps' as the predicate.",
+      "<b>Explanation of the Relay Race Activity:</b><br>Divide the class into teams and give each team a set of word cards. These cards should include CVC words, subjects, predicates, and punctuation marks. Teams will take turns selecting cards and arranging them to form correct sentences on a large sheet of paper or board. The first team to build a correct sentence wins.",
+      "<b>Demonstrating the Activity:</b><br>Show how to select and arrange the word cards to form a sentence, emphasizing sentence structure and proper use of capital letters and punctuation. Explain the importance of teamwork and communication in deciding the best way to build the sentence.",
+      "<b>Monitoring and Guiding the Activity:</b><br>Observe the teams as they build their sentences, providing guidance and feedback as needed. Ensure that the sentences are structurally correct and offer assistance to help students improve their sentence construction. After the race, review and discuss the sentences built by each team, highlighting successes and areas for improvement.",
+      "<b>Exercise Questions:</b><br>1. What is the main goal of the sentence-building relay race?<br>2. Circle the correct component of a sentence: subject, color, number.<br>3. Write a sentence using three of the following words: “cat,” “sleeps,” “the.”<br>4. What do you need to build a complete sentence? (Options: subject and predicate, color and shape, number and size)<br>5. True or False: The sentence “The dog runs fast” is a complete sentence.<br>6. What punctuation mark should end a sentence?<br>7. Choose the correct sentence: a) “Runs the dog fast.” b) “The dog runs fast.” c) “Dog the runs fast.”<br>8. What role does teamwork play in the relay race?<br>9. Write a sentence with the words “sun,” “shines,” and “the.”<br>10. Why is it important to use capital letters and punctuation in sentences?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in the relay race and their ability to construct meaningful sentences. Feedback will be provided based on sentence structure and teamwork.",
+    "<b>Homework:</b> Write three sentences using different word cards provided during the lesson, focusing on correct sentence structure and punctuation."
+  ],
+  "conclusion": [
+    "By participating in the sentence-building relay race, students will gain hands-on experience with sentence structure, enhance their reading and writing skills, and learn the importance of teamwork and clear communication."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Group Storytelling Session",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Collaborative Storytelling",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "5",
+  "description": "This lesson focuses on collaborative storytelling, where students work together to create a group story. The aim is to enhance creativity, sentence formation, and teamwork skills through a fun and interactive activity.",
+  "materials": [
+    "Whiteboard and markers",
+    "Story prompt cards",
+    "Paper and pencils"
+  ],
+  "objectives": [
+    "Students will understand the concept of storytelling and its importance.",
+    "Students will learn how to contribute effectively to a group story.",
+    "Students will practice building a story with a clear beginning, middle, and end.",
+    "Students will develop their creativity and teamwork skills.",
+    "Students will use transition words to connect sentences in the story."
+  ],
+  "rationale": [
+    "Collaborative storytelling fosters creativity, improves sentence formation, and enhances teamwork. By working together on a story, students learn how to contribute to a narrative and how different parts of a story connect to create a cohesive whole."
+  ],
+  "methodology": [
+    "The lesson includes an introduction to storytelling, instructions on how to contribute to a group story, and practical exercises to apply the concepts. Students will be encouraged to participate actively and support each other in building the story."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Storytelling:</b><br>Storytelling is the art of creating and sharing stories, involving a narrative with a beginning, middle, and end. It can be about anything and is a fun way to communicate ideas. Collaborative storytelling allows everyone to contribute their ideas and helps build a cohesive narrative.",
+      "<b>How to Contribute to a Group Story:</b><br>Start by choosing a topic or theme for the story. For example, it could be about a magical adventure or a day at the zoo. The first student begins with an introductory sentence. Each student then adds one sentence, building on the previous one. Encourage students to listen carefully and add details that make the story interesting and coherent.",
+      "<b>Structure of a Group Story:</b><br>A good story has a clear structure with a beginning, middle, and end. The beginning introduces characters and setting, the middle describes main events or conflicts, and the end resolves the story. Guide students to contribute sentences that fit these parts and ensure logical connections between sentences using transition words like 'then,' 'next,' or 'after.'",
+      "<b>Tips for Effective Storytelling:</b><br>Encourage creativity by reminding students that there are no wrong ideas in storytelling. Every contribution adds value. Emphasize teamwork and respect by listening to others and building on their ideas, creating a positive and collaborative environment.",
+      "<b>Exercise Questions:</b><br>1. What is storytelling?<br>2. True or False: In a group story, each student should add a sentence.<br>3. What are the three main parts of a story?<br>4. How should each sentence connect in a group story?<br>5. Choose the correct beginning for a story: a) 'The cat was sad.' b) 'Let’s eat lunch.' c) 'One sunny day, a cat went on an adventure.'<br>6. Why is it important to listen to others in a group storytelling session?<br>7. Write a sentence that could be added to a story about a magical forest.<br>8. True or False: The ending of a story should introduce new characters and conflicts.<br>9. How can transition words help in storytelling?<br>10. Create a sentence that connects with the sentence: 'The rabbit found a magical key.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' participation in the group storytelling activity, their ability to contribute relevant sentences, and their use of transition words to connect ideas.",
+    "<b>Feedback:</b> Provide feedback on how well students are working together, their creativity, and their understanding of the story structure."
+  ],
+  "conclusion": [
+    "By participating in collaborative storytelling, students will enhance their creativity, improve their ability to form coherent sentences, and develop teamwork skills. This activity will help them understand the structure of a story and the importance of contributing to a collective narrative."
+  ]
+},
 	
-// Werk 10
+// Week 10
 // Lesson 1
+{
+  "title": "Building Longer Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Expanding Sentences with CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson aims to help students learn how to build longer, more detailed sentences by expanding simple sentences with additional CVC words, adjectives, and adverbs.",
+  "materials": [
+    "Whiteboard and markers",
+    "CVC word flashcards",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand what CVC words are and how to use them in sentences.",
+    "Students will learn how to add adjectives and adverbs to create longer, more detailed sentences.",
+    "Students will practice expanding sentences and maintaining sentence clarity."
+  ],
+  "rationale": [
+    "Building longer sentences helps students improve their writing and communication skills by allowing them to express more detailed and interesting ideas. Understanding sentence structure and expansion also supports their overall literacy development."
+  ],
+  "methodology": [
+    "The lesson will involve reviewing CVC words, demonstrating sentence expansion with adjectives and adverbs, providing interactive practice, and emphasizing the importance of clarity in sentence structure."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of CVC Words:</b><br>CVC words follow the Consonant-Vowel-Consonant pattern and are foundational for building basic sentences. Examples include 'cat,' 'dog,' 'big,' 'hat,' and 'run.' These words help create simple sentences, such as 'The cat runs.'",
+      "<b>Expanding Sentences with More Detail:</b><br>To make sentences longer, add adjectives (which describe nouns) and adverbs (which describe verbs). For example, expand 'The cat runs' to 'The big cat runs quickly.' Demonstrate how adding details enhances the meaning of a sentence.",
+      "<b>Practice with Sentence Expansion:</b><br>Encourage students to practice creating longer sentences by adding descriptive words. Start with sentences like 'The dog is happy' and expand them to 'The small, happy dog plays outside.' Provide examples and let students practice by filling in the blanks with adjectives and adverbs.",
+      "<b>Reviewing Sentence Structure:</b><br>Maintain clarity while expanding sentences by ensuring each sentence has a clear subject and predicate. Avoid adding excessive details that could confuse the meaning. Show examples of clear expanded sentences, such as changing 'The cat is on the run' to 'The big, fast cat is on the run in the park.'",
+      "<b>Exercise Questions:</b><br>1. What does CVC stand for in CVC words?<br>2. Write a simple sentence using the CVC word 'dog.'<br>3. Expand this sentence: 'The cat is ____.' (Options: on the bed, under the bed, behind the bed)<br>4. What is an adjective? Provide an example.<br>5. How can you expand the sentence 'The hat is red'?<br>6. True or False: 'The big cat is on the run in the yard' is an expanded sentence.<br>7. Choose the expanded sentence: a) 'The cat runs.' b) 'The big cat runs fast.' c) 'The cat quickly runs.'<br>8. Fill in the blank: 'The small ____ dog barks loudly.' (Options: happy, sad, big)<br>9. Write a longer sentence using 'sun' and 'shines.'<br>10. Expand the sentence: 'The bird sings ____.' (Options: loudly, quickly, quietly)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in sentence expansion activities and their responses to the exercise questions.",
+    "<b>Homework:</b> Write three expanded sentences using CVC words, including at least one adjective and one adverb in each sentence."
+  ],
+  "conclusion": [
+    "By learning how to expand sentences with additional CVC words, adjectives, and adverbs, students will be able to create more detailed and interesting sentences. Practicing sentence expansion will enhance their writing skills and improve their ability to communicate effectively."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Creating Your Own CVC Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Creating Sentences with CVC Words",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on creating sentences using Consonant-Vowel-Consonant (CVC) words. Students will review CVC words, understand sentence structure, create their own sentences, and practice sharing and reviewing.",
+  "materials": [
+    "Whiteboard and markers",
+    "List of CVC words",
+    "Worksheets for sentence creation"
+  ],
+  "objectives": [
+    "Students will review and recall Consonant-Vowel-Consonant (CVC) words.",
+    "Students will understand the basic structure of sentences and how CVC words fit into it.",
+    "Students will practice creating their own sentences using CVC words.",
+    "Students will share their sentences with peers and review for clarity and correctness."
+  ],
+  "rationale": [
+    "Understanding and creating sentences with CVC words helps students build foundational reading and writing skills. This practice enhances their ability to form simple, meaningful sentences and boosts confidence in their language use."
+  ],
+  "methodology": [
+    "The lesson includes a review of CVC words, explanations of sentence structure, guided practice in sentence creation, and opportunities for sharing and peer feedback."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Review of CVC Words:</b><br>Begin by revisiting the Consonant-Vowel-Consonant (CVC) words previously learned, such as cat, dog, big, hat, run, and sun. Explain that these words are the building blocks for creating sentences. Show how these words can be identified in simple sentences, like 'The cat runs,' where 'cat' and 'runs' are CVC words.",
+      "<b>Understanding Sentence Structure:</b><br>Discuss the components of a sentence: the subject (who or what the sentence is about) and the predicate (what the subject does). Use examples like 'The dog runs' and 'The hat is big' to illustrate how CVC words fit into sentence structure. Explain how adding more words can make sentences more detailed and descriptive.",
+      "<b>Creating Sentences with CVC Words:</b><br>Guide students in creating their own sentences using a list of CVC words (e.g., cat, dog, red, run, hat). Encourage them to mix and match these words to form complete sentences. Support their creativity with examples like 'The red cat runs fast' or 'The hat is on the mat.'",
+      "<b>Sharing and Reviewing Sentences:</b><br>Have students write sentences using a combination of CVC words and share them with the class or in small groups. This practice reinforces their understanding and allows for peer feedback. Review some sentences as a class, discuss any mistakes, and provide constructive feedback to help improve their sentence formation.",
+      "<b>Exercise Questions:</b><br>1. Write a sentence using the CVC words 'cat' and 'hat.'<br>2. Choose the correct sentence: a) 'The big runs cat.' b) 'The cat runs big.' c) 'The big cat runs.'<br>3. True or False: 'The dog is on the sun' is a correct sentence.<br>4. Create a sentence with the CVC words 'sun' and 'hat.'<br>5. Write a sentence about a 'red' and 'dog.'<br>6. Fill in the blank: 'The ____ cat runs.' (Options: small, big, loud)<br>7. Choose the correct sentence: a) 'The hat is red.' b) 'Hat red is the.' c) 'Red the is hat.'<br>8. Write a complete sentence using 'mat' and 'runs.'<br>9. True or False: 'The sun is big' is an example of a CVC sentence.<br>10. Create a sentence using 'dog,' 'run,' and 'fast.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding through their participation in sentence creation, sharing, and the exercise questions.",
+    "<b>Homework:</b> Write three sentences using different CVC words and illustrate them with drawings."
+  ],
+  "conclusion": [
+    "By reviewing CVC words, understanding sentence structure, and practicing sentence creation, students will improve their ability to form simple sentences and gain confidence in their writing skills. Sharing and reviewing sentences will reinforce their learning and help them apply their new skills effectively."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Sentence Construction Competition",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Building Grammatically Correct and Longer Sentences",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on practicing sentence construction through a competitive activity. Students will build grammatically correct and longer sentences using given words or phrases.",
+  "materials": [
+    "Whiteboard and markers",
+    "Words or phrases for the competition",
+    "Paper and pencils for students"
+  ],
+  "objectives": [
+    "Students will understand the basic structure of a sentence.",
+    "Students will practice building both simple and complex sentences.",
+    "Students will participate in a competition to create the longest grammatically correct sentence.",
+    "Students will learn to use adjectives and adverbs to enhance their sentences.",
+    "Students will be able to evaluate sentence correctness and clarity."
+  ],
+  "rationale": [
+    "Practicing sentence construction helps students improve their grammar skills and ability to communicate effectively. The competitive element adds motivation and excitement to the learning process."
+  ],
+  "methodology": [
+    "The lesson will involve explanations of sentence structure, a competitive activity where students build sentences, and guided practice to reinforce learning. Feedback and evaluation will be provided to support student improvement."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Sentence Construction:</b><br>Understand that a sentence needs a subject (who or what the sentence is about) and a predicate (what the subject does). For example, 'The cat sleeps.' To build longer sentences, add details like adjectives (describing words) and adverbs (words describing actions). For example, 'The small, playful cat runs quickly.'",
+      "<b>Explaining the Competition Rules:</b><br>Divide students into small groups or pairs. Each group will race to build the longest grammatically correct sentence using given words or phrases. Sentences will be judged based on correctness (grammar and punctuation) and length (number of words). Ensure sentences are clear and make sense.",
+      "<b>Practice Building Sentences:</b><br>Start with a warm-up exercise where students use simple words or phrases to create sentences, e.g., 'cat,' 'runs,' 'quickly.' For instance, 'The cat runs quickly.' Then, guide students through examples of short and longer sentences, e.g., 'The cat is on the bed' vs. 'The small, playful cat is happily sleeping on the soft bed by the window.'",
+      "<b>Conducting the Competition:</b><br>Give each group a set of words or phrases to construct sentences. Allow a set amount of time for sentence creation. Monitor progress and provide assistance if needed. Review sentences to select the longest grammatically correct ones and announce the winners. Praise all participants for their efforts and creativity.",
+      "<b>Exercise Questions:</b><br>1. What are the two main parts of a sentence?<br>2. True or False: A sentence must start with a capital letter.<br>3. Write a simple sentence using the words 'dog' and 'barks.'<br>4. What is an adjective? Give an example used in a sentence.<br>5. Create a longer sentence from the phrase 'The cat is.'<br>6. Fill in the blank to make a sentence: 'The ____ cat runs fast.' (Options: big, small, happy)<br>7. Which sentence is correct? a) 'The cat runs fast quickly.' b) 'The quickly cat runs fast.' c) 'The cat quickly runs fast.'<br>8. How do you know if a sentence is grammatically correct?<br>9. Write a sentence using 'bird,' 'flies,' and 'high.'<br>10. Why is it important for sentences to be clear and make sense?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' sentence construction skills through their participation in the competition and their responses to the exercise questions.",
+    "<b>Feedback:</b> Provide feedback on sentence correctness, clarity, and creativity during the competition. Offer individual feedback to help students improve their sentence-building skills."
+  ],
+  "conclusion": [
+    "Through practicing sentence construction and participating in the competition, students will enhance their understanding of grammar, improve their ability to create longer sentences, and develop skills for clear and effective communication."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Creating a 'Sentence of the Day' Board",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Sentence Writing with the 'Sentence of the Day' Board",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the 'Sentence of the Day' board activity, designed to practice writing sentences. Each student will take turns writing a new sentence daily, helping to improve their writing skills and creativity.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence examples and guidelines",
+    "Worksheet for exercises"
+  ],
+  "objectives": [
+    "Students will understand the purpose of the 'Sentence of the Day' board.",
+    "Students will practice writing sentences using basic sentence structure.",
+    "Students will learn and follow guidelines for writing sentences.",
+    "Students will review and share their sentences with the class to build confidence.",
+    "Students will improve their writing and speaking skills through daily practice."
+  ],
+  "rationale": [
+    "The 'Sentence of the Day' activity encourages regular writing practice, helps students understand sentence structure, and fosters creativity. Sharing sentences builds confidence and enhances communication skills."
+  ],
+  "methodology": [
+    "The lesson includes an introduction to the activity, explanations of sentence structure, writing guidelines, and a review process. Students will participate in writing and sharing their sentences, with guidance and feedback provided throughout."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the 'Sentence of the Day' Board:</b><br>The 'Sentence of the Day' board helps students practice writing sentences. Each student will have a turn to write a new sentence daily. This activity encourages creativity and improves writing skills by focusing on sentence structure and proper punctuation.",
+      "<b>Writing Sentences:</b><br>Review the basic structure of a sentence: it must have a subject and a predicate. For example, 'The cat sleeps' includes 'The cat' (subject) and 'sleeps' (predicate). Provide examples and discuss how to add details to make sentences more interesting.",
+      "<b>Guidelines for Writing Sentences:</b><br>Each sentence should start with a capital letter and end with a period, question mark, or exclamation mark. Encourage students to be creative with their sentences and use descriptive words. This will help them express their thoughts clearly and improve their writing skills.",
+      "<b>Reviewing and Sharing Sentences:</b><br>At the end of each day, review the student's sentence. Discuss any interesting words or ideas and provide positive feedback. The student will share their sentence with the class, which helps build their confidence in writing and speaking.",
+      "<b>Exercise Questions:</b><br>1. What is the purpose of the 'Sentence of the Day' board?<br>2. What should every sentence start with?<br>3. True or False: A sentence must end with a question mark.<br>4. Write a simple sentence about a pet.<br>5. What are the two main parts of a sentence?<br>6. Choose the correct punctuation: 'The dog runs ____' (Options: !, ?, .)<br>7. Write a sentence using the word 'happy.'<br>8. Why is it important to use a capital letter at the beginning of a sentence?<br>9. What should you do at the end of each sentence?<br>10. Write a sentence about something you did today."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' understanding of sentence structure and writing guidelines through their participation in the 'Sentence of the Day' activity and their responses to exercise questions.",
+    "<b>Feedback:</b> Provide feedback on students' sentences, focusing on correctness, creativity, and adherence to sentence guidelines."
+  ],
+  "conclusion": [
+    "By participating in the 'Sentence of the Day' activity, students will enhance their writing skills, learn sentence structure, and gain confidence in expressing their ideas. Regular practice and sharing will help them become more proficient in writing and communication."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Sentence Showcase",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, August 30, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Celebrating Sentence Creation",
+  "grade": "Nestlings Navigators",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "5",
+  "description": "This lesson focuses on celebrating students' progress by having them present their favorite sentences to the class. The showcase allows students to demonstrate their understanding of sentence construction and creativity while gaining confidence in their writing skills.",
+  "materials": [
+    "Whiteboard and markers",
+    "Seating arrangement for presentations",
+    "Certificates or small awards for recognition"
+  ],
+  "objectives": [
+    "Students will present their favorite sentences to the class.",
+    "Students will demonstrate their understanding of sentence construction and creativity.",
+    "Students will gain confidence in their writing and presentation skills.",
+    "Students will learn to provide and receive constructive feedback."
+  ],
+  "rationale": [
+    "Presenting sentences helps students celebrate their progress and gain confidence. It also encourages them to reflect on their learning, practice their presentation skills, and engage with their peers' work in a supportive environment."
+  ],
+  "methodology": [
+    "The lesson includes an introduction to the Sentence Showcase, guidelines for presenting, conducting the event, and reflecting on the experience. Interactive discussions and feedback sessions will be incorporated to enhance learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Sentence Showcase:</b><br>Explain that the Sentence Showcase is a chance for students to share sentences they have created and are proud of. This event celebrates their progress and boosts their confidence. Encourage students to choose sentences that reflect their creativity or that they’ve worked on in lessons. Remind them to practice reading aloud with clarity and expression.",
+      "<b>Guidelines for the Showcase:</b><br>Provide tips for effective presentation, such as speaking clearly, maintaining good volume, and making eye contact. Students should be prepared to explain why they chose their sentence and how they created it. Reinforce the importance of listening respectfully to peers and showing appreciation through clapping or other positive gestures.",
+      "<b>Conducting the Sentence Showcase:</b><br>Organize the classroom so students can see and hear each other. Decide whether students will present individually or in small groups. Allow time for each student to present their sentence and receive feedback or answer questions from classmates. This interaction encourages reflection and engagement.",
+      "<b>Reflecting on the Experience:</b><br>After all presentations, hold a class discussion on the experience. Ask students about their feelings and what they learned from their peers' sentences. Discuss what made the sentences interesting or creative. Celebrate students' achievements with awards or certificates for creativity, clarity, or improvement.",
+      "<b>Exercise Questions:</b><br>1. What is the purpose of the Sentence Showcase?<br>2. True or False: The Sentence Showcase is an opportunity for students to share their favorite sentences.<br>3. Name one presentation tip for students.<br>4. How should students show appreciation after a classmate's presentation?<br>5. What should students practice before the showcase?<br>6. Why is it important to listen respectfully during the showcase?<br>7. What can students explain when presenting their sentences?<br>8. How can students reflect on their experience after the showcase?<br>9. What could be a way to celebrate students’ progress?<br>10. Write a sentence you would present at the Sentence Showcase and explain why you chose it."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will assess students' presentation skills, their understanding of sentence construction, and their ability to engage with and provide feedback to their peers.",
+    "<b>Feedback:</b> Provide constructive feedback on each student's presentation and celebrate their achievements with awards or certificates."
+  ],
+  "conclusion": [
+    "The Sentence Showcase allows students to celebrate their progress, demonstrate their writing skills, and gain confidence. By engaging in presentations and reflections, students enhance their understanding of sentence construction and contribute to a positive classroom environment."
+  ]
+}
 ];
