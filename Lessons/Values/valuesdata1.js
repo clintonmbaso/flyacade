@@ -1,4 +1,4 @@
-const lessonPlans67a = [
+const lessonPlans671a = [
 
 // Term 1
 // Week 2
