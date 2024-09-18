@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+body {
+            font-family: Arial, sans-serif;
+            background-image: url('../images/nature1.jpg'); /* Replace 'background-image.jpg' with your image file */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="number"],
+        .login-container input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #218838;
+        }
+        .message {
+            text-align: center;
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <input type="number" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <div class="message" id="message"></div>
+</div>
+
+<script>
+    // Array of user objects with usernames and passwords
+    const users = [
+        { username: "2020", password: "*25#" }
+    ];
+
+    function login() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        // Check if the entered username and password match any user in the array
+        var userFound = users.find(user => user.username === username && user.password === password);
+
+        if (userFound) {
+            document.getElementById("message").style.color = "green";
+            document.getElementById("message").innerHTML = "Login successful!";
+            
+            // Redirect to a specific page after successful login
+            setTimeout(function() {
+                window.location.href = "http://flyacade.com.preview.services/Learners/hi.html"; // Replace with your desired page
+            }, 1000); // Delay before redirecting (optional)
+        } else {
+            document.getElementById("message").style.color = "red";
+            document.getElementById("message").innerHTML = "Invalid username or password.";
+        }
+    }
+</script>
+
+</body>
+</html>
