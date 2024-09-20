@@ -56,6 +56,15 @@ const questionsBank = [
   ...recscit2bmultipleChoiceQuestions,
 
   // Grade 1
+  // English
+  ...g1engt1amultipleChoiceQuestions,
+  ...g1engt1bmultipleChoiceQuestions,
+  ...g1engt2amultipleChoiceQuestions,
+  ...g1engt2bmultipleChoiceQuestions,
+  ...g1engt3amultipleChoiceQuestions,
+  ...g1engt3bmultipleChoiceQuestions,
+
+  // Science
   // Multiple Choice
   ...g1scit1amultipleChoiceQuestions,
   ...g1scit1bmultipleChoiceQuestions,
@@ -84,7 +93,7 @@ const questionsBank = [
   ...g1scit2bfillInTheBlankQuestions,
   ...g1scit3afillInTheBlankQuestions,
   ...g1scit3bfillInTheBlankQuestions,
-  // One Word Questions
+  // Matching Questions
   ...g1scit1amatchingQuestions,
   ...g1scit1bmatchingQuestions,
   ...g1scit2amatchingQuestions,
@@ -92,6 +101,61 @@ const questionsBank = [
   ...g1scit3amatchingQuestions,
   ...g1scit3bmatchingQuestions,
 
+// Social Studies
+  // True or False
+  ...g1sst1atrueFalseQuestions,
+  ...g1sst1btrueFalseQuestions,
+  ...g1sst2atrueFalseQuestions,
+  ...g1sst2btrueFalseQuestions,
+  ...g1sst3atrueFalseQuestions,
+  ...g1sst3btrueFalseQuestions,
+
+// Math
+  // True or False
+  ...g1matht1atrueFalseQuestions,
+  ...g1matht1btrueFalseQuestions,
+  ...g1matht2atrueFalseQuestions,
+  ...g1matht2btrueFalseQuestions,
+  ...g1matht3atrueFalseQuestions,
+  ...g1matht3btrueFalseQuestions,
+
+  // CTS
+  // Multiple Choice
+  ...g1ctst1amultipleChoiceQuestions,
+  ...g1ctst1bmultipleChoiceQuestions,
+  ...g1ctst2amultipleChoiceQuestions,
+  ...g1ctst2bmultipleChoiceQuestions,
+  ...g1ctst3amultipleChoiceQuestions,
+  ...g1ctst3bmultipleChoiceQuestions,
+  // True or False
+  ...g1ctst1atrueFalseQuestions,
+  ...g1ctst1btrueFalseQuestions,
+  ...g1ctst2atrueFalseQuestions,
+  ...g1ctst2btrueFalseQuestions,
+  ...g1ctst3atrueFalseQuestions,
+  ...g1ctst3btrueFalseQuestions,
+  // One Word Questions
+/*  ...g1scit1aoneWordQuestions,
+  ...g1scit1boneWordQuestions,
+  ...g1scit2aoneWordQuestions,
+  ...g1scit2boneWordQuestions,
+  ...g1scit3aoneWordQuestions,
+  ...g1scit3boneWordQuestions,
+  // Fill in the Blank Questions
+  ...g1scit1afillInTheBlankQuestions,
+  ...g1scit1bfillInTheBlankQuestions,
+  ...g1scit2afillInTheBlankQuestions,
+  ...g1scit2bfillInTheBlankQuestions,
+  ...g1scit3afillInTheBlankQuestions,
+  ...g1scit3bfillInTheBlankQuestions,
+  // Matching Questions
+  ...g1scit1amatchingQuestions,
+  ...g1scit1bmatchingQuestions,
+  ...g1scit2amatchingQuestions,
+  ...g1scit2bmatchingQuestions,
+  ...g1scit3amatchingQuestions,
+  ...g1scit3bmatchingQuestions,
+*/
   // Grade 2
   // Multiple Choice
   // Math
@@ -101,37 +165,91 @@ const questionsBank = [
   ...g2matht2bmultipleChoiceQuestions,
   ...g2matht3amultipleChoiceQuestions,
   ...g2matht3bmultipleChoiceQuestions,
+
   // Science
+  // Multiple Choice
   ...g2scit1amultipleChoiceQuestions,
   ...g2scit1bmultipleChoiceQuestions,
   ...g2scit2amultipleChoiceQuestions,
   ...g2scit2bmultipleChoiceQuestions,
   ...g2scit3amultipleChoiceQuestions,
   ...g2scit3bmultipleChoiceQuestions,
+  // True or False
+  ...g2scit1atrueFalseQuestions,
+  ...g2scit1btrueFalseQuestions,
+  ...g2scit2atrueFalseQuestions,
+  ...g2scit2btrueFalseQuestions,
+  ...g2scit3atrueFalseQuestions,
+  ...g2scit3btrueFalseQuestions,
+
+  // Social Studies
+  // True or False
+  ...g2sst1atrueFalseQuestions,
+  ...g2sst1btrueFalseQuestions,
+  ...g2sst2atrueFalseQuestions,
+  ...g2sst2btrueFalseQuestions,
+  ...g2sst3atrueFalseQuestions,
+  ...g2sst3btrueFalseQuestions,
+
+  // CTS
+  // True or False
+  ...g2ctst1atrueFalseQuestions,
+  ...g2ctst1btrueFalseQuestions,
+  ...g2ctst2atrueFalseQuestions,
+  ...g2ctst2btrueFalseQuestions,
+  ...g2ctst3atrueFalseQuestions,
+  ...g2ctst3btrueFalseQuestions,
 
   // Grade 3
-  // Multiple Choice
   // SP1
+  // Multiple Choice
   ...g3sp1t1amultipleChoiceQuestions,
   ...g3sp1t1bmultipleChoiceQuestions,
   ...g3sp1t2amultipleChoiceQuestions,
   ...g3sp1t2bmultipleChoiceQuestions,
   ...g3sp1t3amultipleChoiceQuestions,
   ...g3sp1t3bmultipleChoiceQuestions,
+
   // Math
+  // Multiple Choice
   ...g3matht1amultipleChoiceQuestions,
   ...g3matht1bmultipleChoiceQuestions,
   ...g3matht2amultipleChoiceQuestions,
   ...g3matht2bmultipleChoiceQuestions,
   ...g3matht3amultipleChoiceQuestions,
   ...g3matht3bmultipleChoiceQuestions,
+
   // Science
+  // Multiple Choice
   ...g3scit1amultipleChoiceQuestions,
   ...g3scit1bmultipleChoiceQuestions,
   ...g3scit2amultipleChoiceQuestions,
   ...g3scit2bmultipleChoiceQuestions,
   ...g3scit3amultipleChoiceQuestions,
   ...g3scit3bmultipleChoiceQuestions,
+// True or False
+  ...g3scit1atrueFalseQuestions,
+  ...g3scit1btrueFalseQuestions,
+  ...g3scit2atrueFalseQuestions,
+  ...g3scit2btrueFalseQuestions,
+  ...g3scit3atrueFalseQuestions,
+  ...g3scit3btrueFalseQuestions,
+
+  // Science
+  // Multiple Choice
+//  ...g3scit1amultipleChoiceQuestions,
+//  ...g3scit1bmultipleChoiceQuestions,
+//  ...g3scit2amultipleChoiceQuestions,
+//  ...g3scit2bmultipleChoiceQuestions,
+//  ...g3scit3amultipleChoiceQuestions,
+//  ...g3scit3bmultipleChoiceQuestions,
+// True or False
+  ...g3sst1atrueFalseQuestions,
+  ...g3sst1btrueFalseQuestions,
+  ...g3sst2atrueFalseQuestions,
+  ...g3sst2btrueFalseQuestions,
+  ...g3sst3atrueFalseQuestions,
+  ...g3sst3btrueFalseQuestions,
 
 // Grade 4
   // Science
@@ -271,17 +389,19 @@ function displayQuestions() {
 
       switch (q.type) {
         case "multiple_choice":
-          sectionIdentifierText = "Section A";
+          sectionIdentifierText = "Section A - Multiple Choice";
           break;
         case "true_false":
-          sectionIdentifierText = "Section B";
+          sectionIdentifierText = "Section B - True or False";
           break;
         case "one_word":
+          sectionIdentifierText = "Section C - One Word Answer";
+          break;
         case "fill_in_the_blank":
-          sectionIdentifierText = "Section C";
+          sectionIdentifierText = "Section D - Fill in the Blanks";
           break;
         case "matching":
-          sectionIdentifierText = "Section D";
+          sectionIdentifierText = "Section E - Matching Questions";
           break;
         default:
           sectionIdentifierText = "Section";
@@ -341,7 +461,12 @@ function displayQuestions() {
         questionWrapper.appendChild(falseLabel);
         questionWrapper.appendChild(document.createElement("br"));
         break;
+      
+      // One Word html Layout
       case "one_word":
+        
+      
+      // Fill in tge Blanks html Layout
       case "fill_in_the_blank":
         const answerInput = document.createElement("input");
         answerInput.setAttribute("type", "text");
@@ -353,71 +478,126 @@ function displayQuestions() {
         questionWrapper.appendChild(answerInput);
         questionWrapper.appendChild(document.createElement("br"));
         break;
+      
+      // Matching html Layout
       case "matching":
-        const matchingContainer = document.createElement("div");
-        q.pairs.forEach((pair, i) => {
-          const matchingText = document.createElement("div");
-          matchingText.innerHTML = `${i + 1}. ${pair.question} - `;
-          const matchingInput = document.createElement("input");
-          matchingInput.setAttribute("type", "text");
-          matchingInput.setAttribute("id", `answer-${index}-${i}`);
-          matchingInput.setAttribute("name", `question-${index}-${i}`);
-          matchingText.appendChild(matchingInput);
-          matchingContainer.appendChild(matchingText);
-          matchingContainer.appendChild(document.createElement("br"));
-        });
-        questionWrapper.appendChild(matchingContainer);
-        break;
+    const matchingContainer = document.createElement("div");
+
+    // Prepare the first and second statements
+    const firstStatements = q.pairs.map((pair, i) => `${i + 1}. ${pair.question}`);
+    const secondStatements = q.pairs.map(pair => pair.answer);
+
+    // Shuffle the second statements
+    const shuffledSecondStatements = shuffleArray(secondStatements.slice());
+
+    // Create a table for displaying the matching questions
+    const table = document.createElement("table");
+    const tbody = document.createElement("tbody");
+
+    // Create table header
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+    const headers = ["Match", "First Statement", "Second Statement"];
+    headers.forEach(headerText => {
+        const th = document.createElement("th");
+        th.innerText = headerText;
+        headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // Create rows for the table
+    firstStatements.forEach((statement, i) => {
+        const row = document.createElement("tr");
+
+        // Input field cell
+        const inputCell = document.createElement("td");
+        const matchingInput = document.createElement("input");
+        matchingInput.setAttribute("type", "text");
+        matchingInput.setAttribute("id", `answer-${index}-${i}`);
+        matchingInput.setAttribute("name", `question-${index}-${i}`);
+        matchingInput.setAttribute("placeholder", "");
+        matchingInput.classList.add("matching-input"); // Add a class for styling
+        inputCell.appendChild(matchingInput);
+        row.appendChild(inputCell);
+
+        // First statement cell
+        const statementCell = document.createElement("td");
+        statementCell.innerText = statement;
+        row.appendChild(statementCell);
+
+        // Second statement cell with letters
+        const secondStatementCell = document.createElement("td");
+        const shuffledIndex = i % shuffledSecondStatements.length; // Ensure options repeat if fewer than statements
+        const optionElement = document.createElement("div");
+        optionElement.innerText = `${String.fromCharCode(65 + shuffledIndex)}. ${shuffledSecondStatements[shuffledIndex]}`;
+        secondStatementCell.appendChild(optionElement);
+        row.appendChild(secondStatementCell);
+
+        tbody.appendChild(row);
+    });
+
+    table.appendChild(tbody);
+    matchingContainer.appendChild(table);
+    questionWrapper.appendChild(matchingContainer);
+    break;
+
+function shuffleArray(array) {
+    const shuffled = array.slice();
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
       default:
         break;
     }
     questionsContainer.appendChild(questionWrapper);
   });
 
+  
   // Show generate PDF button after displaying questions
   document.getElementById("generate-pdf").style.display = "block";
-}
+
+
+
+        }
+
+        
 
 // Function to generate PDF with random questions and marking key
 function generatePDF() {
-  const doc = new jsPDF();
-  const questions = generateRandomQuestions();
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
 
-  // Add questions and marking key to the PDF
-  let yPos = 10;
-  questions.forEach((q, index) => {
-    yPos += 10;
-    doc.text(`${index + 1}. ${q.question}`, 10, yPos);
-    yPos += 5; 
-        
-    switch (q.type) {
-      case "multiple_choice":
-        q.choices.forEach((choice, i) => {
-          yPos += 5;
-          doc.text(`${String.fromCharCode(97 + i)}) ${choice}`, 15, yPos);
-        });
-        break;
-      case "true_false":
-        doc.text("a) True", 15, yPos);
-        yPos += 5;
-        doc.text("b) False", 15, yPos);
-        break;
-      case "one_word":
-      case "fill_in_the_blank":
-        doc.text("Answer: __________________", 15, yPos);
-        break;
-      case "matching":
-        q.pairs.forEach((pair, i) => {
-          yPos += 5;
-          doc.text(`${i + 1}) ${pair.question} __________________`, 15, yPos);
-        });
-        break;
-      default:
-        break;
-    }
-    yPos += 10; // Add space between questions
-  });
+    // Title of the PDF
+    doc.setFontSize(18);
+    doc.text('Questions Bank', 10, 10);
 
-  // Save the PDF
-  doc.save('questions.pdf');
+    // Add questions to the PDF from the questionsBank array
+    let yPosition = 20;  // Starting Y position for text in the PDF
+    questionsBank.forEach((question, index) => {
+        // Add each question to the PDF
+        doc.setFontSize(12);
+        doc.text(`${index + 1}. ${question.question}`, 10, yPosition);
+        yPosition += 10;
+
+        // Add choices if the question has them
+        if (question.choices) {
+            question.choices.forEach((choice, choiceIndex) => {
+                doc.text(`    ${String.fromCharCode(65 + choiceIndex)}. ${choice}`, 10, yPosition);
+                yPosition += 10;
+            });
+        }
+
+        // Check if the Y position goes off the page, then add a new page
+        if (yPosition > 270) { // Page break threshold
+            doc.addPage();
+            yPosition = 20; // Reset Y position on the new page
+        }
+    });
+
+    // Save the PDF with a filename
+    doc.save('questions_bank.pdf');
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
 <script>
@@ -15,6 +15,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Questions PDF Generator</title>
   <link rel="stylesheet" href="testing_hub.css">
+
+    
 </head>
 <body>
   <div class="container">
@@ -121,10 +123,17 @@
     <div id="questions-container"></div>
     
     <div id="buttonz" style="display: flex; justify-content: space-between;">
-    <button id="generate-pdf" style="display: none;">Generate PDF</button>
-    <button id="refresh-questions">Refresh Questions</button>
-  </div>
+    <button id="generate-pdf" style="display: none;">Download PDF</button>
+        <button id="refresh-questions">Refresh</button>
+    </div>
 
+      
+
+<div id="quiz-results">
+  <!-- Results will be displayed here -->
+</div>
+      
+      
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
 
@@ -143,6 +152,17 @@
   <script src="science/reception/recscit2bmultipleChoiceQuestions.js"></script>
 
 <!-- Grade 1 -->
+
+<!-- English -->
+<!-- Multiple Choice -->
+  <script src="english/grade1/g1engt1amultipleChoiceQuestions.js"></script>
+  <script src="english/grade1/g1engt1bmultipleChoiceQuestions.js"></script>
+  <script src="english/grade1/g1engt2amultipleChoiceQuestions.js"></script>
+  <script src="english/grade1/g1engt2bmultipleChoiceQuestions.js"></script>
+  <script src="english/grade1/g1engt3amultipleChoiceQuestions.js"></script>
+  <script src="english/grade1/g1engt3bmultipleChoiceQuestions.js"></script>
+
+<!-- Science -->
 <!-- Multiple Choice -->
   <script src="science/grade1/g1scit1amultipleChoiceQuestions.js"></script>
   <script src="science/grade1/g1scit1bmultipleChoiceQuestions.js"></script>
@@ -179,6 +199,61 @@
   <script src="science/grade1/g1scit3amatchingQuestions.js"></script>
   <script src="science/grade1/g1scit3bmatchingQuestions.js"></script>
 
+<!-- True or False -->
+  <script src="ss/grade1/g1sst1atrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst1btrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst2atrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst2btrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst3atrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst3btrueFalseQuestions.js"></script>
+
+<!-- Math -->
+<!-- True or False -->
+  <script src="math/grade1/g1matht1atrueFalseQuestions.js"></script>
+  <script src="math/grade1/g1matht1btrueFalseQuestions.js"></script>
+  <script src="math/grade1/g1matht2atrueFalseQuestions.js"></script>
+  <script src="math/grade1/g1matht2btrueFalseQuestions.js"></script>
+  <script src="math/grade1/g1matht3atrueFalseQuestions.js"></script>
+  <script src="math/grade1/g1matht3btrueFalseQuestions.js"></script>
+
+<!-- CTS -->
+<!-- Multiple Choice -->
+  <script src="cts/grade1/g1ctst1amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade1/g1ctst1bmultipleChoiceQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2bmultipleChoiceQuestions.js"></script>
+  <script src="cts/grade1/g1ctst3amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade1/g1ctst3bmultipleChoiceQuestions.js"></script>
+<!-- True or False -->
+  <script src="cts/grade1/g1ctst1atrueFalseQuestions.js"></script>
+  <script src="cts/grade1/g1ctst1btrueFalseQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2atrueFalseQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2btrueFalseQuestions.js"></script>
+  <script src="cts/grade1/g1ctst3atrueFalseQuestions.js"></script>
+  <script src="cts/grade1/g1ctst3btrueFalseQuestions.js"></script>
+<!-- One Word Questions 
+  <script src="science/grade1/g1scit1aoneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit1boneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit2aoneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit2boneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit3aoneWordQuestions.js"></script>
+  <script src="science/grade1/g1scit3boneWordQuestions.js"></script>
+<!-- Fill in the Blank Questions 
+  <script src="science/grade1/g1scit1afillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit1bfillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit2afillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit2bfillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit3afillInTheBlankQuestions.js"></script>
+  <script src="science/grade1/g1scit3bfillInTheBlankQuestions.js"></script>
+<!-- One Word Questions 
+  <script src="science/grade1/g1scit1amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit1bmatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit2amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit2bmatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit3amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit3bmatchingQuestions.js"></script>
+
+
 <!-- Grade 2 -->
 <!-- Multiple Choice -->
 <!-- Math -->
@@ -190,12 +265,38 @@
   <script src="math/grade2/g2matht3bmultipleChoiceQuestions.js"></script>
 
 <!-- Science -->
+<!-- Multiple Choice -->
   <script src="science/grade2/g2scit1amultipleChoiceQuestions.js"></script>
   <script src="science/grade2/g2scit1bmultipleChoiceQuestions.js"></script>
   <script src="science/grade2/g2scit2amultipleChoiceQuestions.js"></script>
   <script src="science/grade2/g2scit2bmultipleChoiceQuestions.js"></script>
   <script src="science/grade2/g2scit3amultipleChoiceQuestions.js"></script>
   <script src="science/grade2/g2scit3bmultipleChoiceQuestions.js"></script>
+<!-- True or False -->
+  <script src="science/grade2/g2scit1atrueFalseQuestions.js"></script>
+  <script src="science/grade2/g2scit1btrueFalseQuestions.js"></script>
+  <script src="science/grade2/g2scit2atrueFalseQuestions.js"></script>
+  <script src="science/grade2/g2scit2btrueFalseQuestions.js"></script>
+  <script src="science/grade2/g2scit3atrueFalseQuestions.js"></script>
+  <script src="science/grade2/g2scit3btrueFalseQuestions.js"></script>
+
+<!-- Social Studies -->
+<!-- True or False -->
+  <script src="ss/grade2/g2sst1atrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst1btrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst2atrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst2btrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst3atrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst3btrueFalseQuestions.js"></script>
+
+<!-- CTS -->
+<!-- True or False -->
+  <script src="cts/grade2/g2ctst1atrueFalseQuestions.js"></script>
+  <script src="cts/grade2/g2ctst1btrueFalseQuestions.js"></script>
+  <script src="cts/grade2/g2ctst2atrueFalseQuestions.js"></script>
+  <script src="cts/grade2/g2ctst2btrueFalseQuestions.js"></script>
+  <script src="cts/grade2/g2ctst3atrueFalseQuestions.js"></script>
+  <script src="cts/grade2/g2ctst3btrueFalseQuestions.js"></script>
 
 
 <!-- Grade 3 -->
@@ -214,16 +315,35 @@
   <script src="math/grade3/g3matht2bmultipleChoiceQuestions.js"></script>
   <script src="math/grade3/g3matht3amultipleChoiceQuestions.js"></script>
   <script src="math/grade3/g3matht3bmultipleChoiceQuestions.js"></script>
+
 <!-- Science -->
+<!-- Multiple Choice -->
   <script src="science/grade3/g3scit1amultipleChoiceQuestions.js"></script>
   <script src="science/grade3/g3scit1bmultipleChoiceQuestions.js"></script>
   <script src="science/grade3/g3scit2amultipleChoiceQuestions.js"></script>
   <script src="science/grade3/g3scit2bmultipleChoiceQuestions.js"></script>
   <script src="science/grade3/g3scit3amultipleChoiceQuestions.js"></script>
   <script src="science/grade3/g3scit3bmultipleChoiceQuestions.js"></script>
+<!-- True or False -->
+  <script src="science/grade3/g3scit1atrueFalseQuestions.js"></script>
+  <script src="science/grade3/g3scit1btrueFalseQuestions.js"></script>
+  <script src="science/grade3/g3scit2atrueFalseQuestions.js"></script>
+  <script src="science/grade3/g3scit2btrueFalseQuestions.js"></script>
+  <script src="science/grade3/g3scit3atrueFalseQuestions.js"></script>
+  <script src="science/grade3/g3scit3btrueFalseQuestions.js"></script>
+
+<!-- Social Studies -->
+<!-- True or False -->
+  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst3atrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
 
 <!-- Grade 4 -->
 <!-- Science -->
+<!-- Multiple Choice -->
   <script src="science/grade4/g4scit1amultipleChoiceQuestions.js"></script>
   <script src="science/grade4/g4scit1bmultipleChoiceQuestions.js"></script>
   <script src="science/grade4/g4scit2amultipleChoiceQuestions.js"></script>
