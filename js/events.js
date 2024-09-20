@@ -135,28 +135,28 @@
                imageUrl: "images/Rockside Survival Camp.jpg" 	     
          	   },
 
-      	      { name: "GC Adventurer Day", 
-      	        date: new Date("May 18, 2024 08:00:00").getTime(), 
+      	      { name: "Civilian Day", 
+      	        date: new Date("Sep 27, 2024 08:00:00").getTime(), 
       	        reminderDays: 2, reminderHours: 12,
-               caption: "GC Adventurer Day", 
-               details: "Description of GC Adventurer Day", 
-               imageUrl: "images/GC Adventurer Day.jpg" 	        
+               caption: "Embracing Self-Expression", 
+               details: "Civilian Day at school allows students to wear casual clothes, fostering self-expression, creativity, and promoting a relaxed atmosphere.", 
+               imageUrl: "images/tour1/IMG-20240809-WA0061.jpg" 	        
       	      },
      
-       	     { name: "MEZC Youth Council", 
-       	       date: new Date("May 19, 2024 08:00:00").getTime(), 
+       	     { name: "Teachers Party", 
+       	       date: new Date("Oct 4, 2024 08:00:00").getTime(), 
        	       reminderDays: 2, reminderHours: 12,
-               caption: "MEZC Youth Council", 
-               details: "The conference youth council meeting reviews past activities and reports to improve Adventist Youth Ministries in both regions. It empowers youth to develop strategies for enhancement, fostering leadership skills and emphasizing the social value of their contributions to drive meaningful change within the community.", 
+               caption: "Pre-World Teachers' Day Celebration: Honoring Educators with Joy and Appreciation", 
+               details: "A lively celebration for teachers, filled with laughter, music, and appreciation, honoring their dedication on the eve of World Teachers' Day.", 
                imageUrl: "images/MEZC Council.jpg" 	       
        	     },
      
      
-         	   { name: "KEMD Church Heritage Exams", 
-         	     date: new Date("Jun 9, 2024 08:00:00").getTime(), 
+         	   { name: "Teachers Day", 
+         	     date: new Date("Oct 5, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
                caption: "KEMD Church Heritage Exams", 
-               details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
+               details: "World Teachers' Day 2024 centers on the theme 'Valuing teacher voices: Towards a new social contract for education,' highlighting the importance of empowering educators and fostering collaboration for better education systems worldwide.", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
      
