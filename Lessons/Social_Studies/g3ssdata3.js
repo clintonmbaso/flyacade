@@ -1,5 +1,6 @@
 const lessonPlans33c = [
 
+// Term 3
 // Week 2
 // Lesson 1
 {
@@ -12,7 +13,7 @@ const lessonPlans33c = [
   "topic": "Transportation and the Importance of Road Safety",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "1",
+  "week": "2",
   "lessonNumber": "1",
   "description": "This lesson aims to teach students about the concept of transportation and the importance of road safety.",
   "materials": [
