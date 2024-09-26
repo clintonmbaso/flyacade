@@ -181,7 +181,10 @@ const questionsBank = [
   ...g2scit2btrueFalseQuestions,
   ...g2scit3atrueFalseQuestions,
   ...g2scit3btrueFalseQuestions,
-
+  ...g2scit3afillInTheBlankQuestions,
+// Matching
+  ...g2scit3amatchingQuestions,
+ 
   // Social Studies
   // True or False
   ...g2sst1atrueFalseQuestions,
@@ -394,14 +397,14 @@ function displayQuestions() {
         case "true_false":
           sectionIdentifierText = "Section B - True or False";
           break;
-        case "one_word":
-          sectionIdentifierText = "Section C - One Word Answer";
-          break;
         case "fill_in_the_blank":
-          sectionIdentifierText = "Section D - Fill in the Blanks";
+          sectionIdentifierText = "Section C - Fill in the Blanks";
           break;
         case "matching":
-          sectionIdentifierText = "Section E - Matching Questions";
+          sectionIdentifierText = "Section D - Matching Questions";
+          break;
+        case "one_word":
+          sectionIdentifierText = "Section E - One Word Answer";
           break;
         default:
           sectionIdentifierText = "Section";
