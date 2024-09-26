@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question-wrapper {
+            margin-bottom: 20px;
+        }
+        .section-identifier {
+            font-weight: bold;
+            margin-bottom: 10px;
+            background-color: rgba(245,255,5,0.4);
+            width: 100%;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="test-container"></div>
+    <button onclick="window.print()">Print Test</button>
+    <script>
+        // Get questions data from local storage
+        const questionsData = JSON.parse(localStorage.getItem('questionsData'));
+
+        function displayQuestions() {
+            const testContainer = document.getElementById('test-container');
+            testContainer.innerHTML = ''; // Clear previous questions
+
+            // Track added sections to avoid duplicates
+            const addedSections = {
+                "multiple_choice": false,
+                "true_false": false,
+                "one_word": false,
+                "fill_in_the_blank": false,
+                "matching": false
+            };
+
+            let sectionIdentifierText = "";
+
+            questionsData.forEach((q, index) => {
+                const questionWrapper = document.createElement('div');
+                questionWrapper.classList.add('question-wrapper');
+
+                // Determine section identifier based on question type and whether it has been added
+                if (!addedSections[q.type]) {
+                    addedSections[q.type] = true;
+
+                    switch (q.type) {
+                        case "multiple_choice":
+                            sectionIdentifierText = "Section A";
+                            break;
+                        case "true_false":
+                            sectionIdentifierText = "Section B";
+                            break;
+                        case "one_word":
+                            sectionIdentifierText = "Section C";
+                            break;
+                        case "fill_in_the_blank":
+                            sectionIdentifierText = "Section D";
+                            break;
+                        case "matching":
+                            sectionIdentifierText = "Section E";
+                            break;
+                        default:
+                            sectionIdentifierText = "Section";
+                            break;
+                    }
+
+                    // Add section identifier
+                    const sectionIdentifier = document.createElement('div');
+                    sectionIdentifier.classList.add('section-identifier');
+                    sectionIdentifier.innerHTML = sectionIdentifierText;
+                    questionWrapper.appendChild(sectionIdentifier);
+                }
+
+                const questionText = document.createElement('div');
+                questionText.innerHTML = `${index + 1}. ${q.question}`;
+                questionWrapper.appendChild(questionText);
+
+                switch (q.type) {
+                    case "multiple_choice":
+                        const choicesContainer = document.createElement('div');
+                        q.choices.forEach((choice, i) => {
+                            const choiceInput = document.createElement('input');
+                            choiceInput.setAttribute('type', 'radio');
+                            choiceInput.setAttribute('id', `choice-${i}`);
+                            choiceInput.setAttribute('name', `question-${index}`);
+                            choiceInput.setAttribute('value', choice);
+                            const choiceLabel = document.createElement('label');
+                            choiceLabel.setAttribute('for', `choice-${i}`);
+                            choiceLabel.innerHTML = choice;
+                            choicesContainer.appendChild(choiceInput);
+                            choicesContainer.appendChild(choiceLabel);
+                            choicesContainer.appendChild(document.createElement('br'));
+                        });
+                        questionWrapper.appendChild(choicesContainer);
+                        break;
+                    case "true_false":
+                        const trueInput = document.createElement('input');
+                        trueInput.setAttribute('type', 'radio');
+                        trueInput.setAttribute('id', `true-${index}`);
+                        trueInput.setAttribute('name', `question-${index}`);
+                        trueInput.setAttribute('value', 'true');
+                        const trueLabel = document.createElement('label');
+                        trueLabel.setAttribute('for', `true-${index}`);
+                        trueLabel.innerHTML = 'True';
+                        questionWrapper.appendChild(trueInput);
+                        questionWrapper.appendChild(trueLabel);
+
+                        const falseInput = document.createElement('input');
+                        falseInput.setAttribute('type', 'radio');
+                        falseInput.setAttribute('id', `false-${index}`);
+                        falseInput.setAttribute('name', `question-${index}`);
+                        falseInput.setAttribute('value', 'false');
+                        const falseLabel = document.createElement('label');
+                        falseLabel.setAttribute('for', `false-${index}`);
+                        falseLabel.innerHTML = 'False';
+                        questionWrapper.appendChild(falseInput);
+                        questionWrapper.appendChild(falseLabel);
+                        questionWrapper.appendChild(document.createElement('br'));
+                        break;
+                    case "one_word":
+                    case "fill_in_the_blank":
+                        const answerInput = document.createElement('input');
+                        answerInput.setAttribute('type', 'text');
+                        answerInput.setAttribute('id', `answer-${index}`);
+                        answerInput.setAttribute('name', `question-${index}`);
+                        const answerLabel = document.createElement('label');
+                        answerLabel.innerHTML = 'Answer: ';
+                        questionWrapper.appendChild(answerLabel);
+                        questionWrapper.appendChild(answerInput);
+                        questionWrapper.appendChild(document.createElement('br'));
+                        break;
+                    case "matching":
+                        const matchingContainer = document.createElement('div');
+                        q.pairs.forEach((pair, i) => {
+                            const matchingText = document.createElement('div');
+                            matchingText.innerHTML = `${i + 1}. ${pair.question} - `;
+                            const matchingInput = document.createElement('input');
+                            matchingInput.setAttribute('type', 'text');
+                            matchingInput.setAttribute('id', `answer-${index}-${i}`);
+                            matchingInput.setAttribute('name', `question-${index}-${i}`);
+                            matchingText.appendChild(matchingInput);
+                            matchingContainer.appendChild(matchingText);
+                            matchingContainer.appendChild(document.createElement('br'));
+                        });
+                        questionWrapper.appendChild(matchingContainer);
+                        break;
+                    default:
+                        break;
+                }
+                testContainer.appendChild(questionWrapper);
+            });
+        }
+
+        // Display questions when page loads
+        window.onload = displayQuestions;
+    </script>
+</body>
+</html>

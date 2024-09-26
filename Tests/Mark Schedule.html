@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Grade Sheet</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+  //  background: linear-gradient(135deg, #3498db, #8e44ad);
+    overflow-y: auto;
+  }
+  table {
+    width: 100%;
+    overflow-x: auto;
+ //   border-collapse: collapse;
+    margin-bottom: 5px;
+  }
+  td {
+    border: 1px solid #dddddd;
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    vertical-align: middle;
+  }
+  .total {
+    font-weight: bold;
+  }
+  .add-row-btn {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    display: flex;
+  }
+input {
+   border: none;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+input:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+input
+{
+   width: 30px;
+   height: 20px;
+}
+        th:nth-child(1) {
+            left: 0;
+            z-index: 3;
+            position: sticky;
+        }
+        td:nth-child(1) {
+            background-color: rgb(255,255,255);
+            position: sticky;
+            left: 0;
+            z-index: 2;
+        }
+
+th:not(:nth-child(1)),
+td:not(:nth-child(1)) {
+    z-index: 1;
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 2px;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 14px;
+}
+</style>
+<script>
+  var subjectChart; // Variable to store the Chart.js instance globally
+
+  function addRow() {
+    var table = document.getElementById("gradeTable");
+    var row = table.insertRow(-1); // Insert row at the end of the table
+    var cellCount = table.rows[0].cells.length; // Get number of cells in the header row
+    
+    // Loop through each cell in the header row and create corresponding cell in new row
+    for (var i = 0; i < cellCount; i++) {
+      var cell = row.insertCell(i);
+      if (i === 0) {
+        // First cell is for student name
+        cell.innerHTML = '<input type="text" placeholder="Student Name">';
+      } else if (i === cellCount - 4) {
+        // Fourth last cell is for total (initially empty)
+        cell.innerHTML = '';
+      } else if (i === cellCount - 3) {
+        // Third last cell is for average (initially empty)
+        cell.innerHTML = '';
+      } else if (i === cellCount - 2) {
+        // Second last cell is for grade (initially empty)
+        cell.innerHTML = '';
+      } else if (i === cellCount - 1) {
+        // Last cell is for class position (initially empty)
+        cell.innerHTML = '';
+      } else {
+        // All other cells are for subjects with input fields
+        cell.innerHTML = '<input type="number" class="score" oninput="calculate(this.parentNode.parentNode)">';
+      }
+    }
+  }
+
+  function calculate(row) {
+    var totalCell = row.cells[row.cells.length - 4]; // Total cell is fourth last cell in the row
+    var avgCell = row.cells[row.cells.length - 3]; // Average cell is third last cell in the row
+    var gradeCell = row.cells[row.cells.length - 2]; // Grade cell is second last cell in the row
+    var positionCell = row.cells[row.cells.length - 1]; // Position cell is last cell in the row
+
+    var total = 0;
+    var cells = row.cells.length - 5; // Exclude the name and last four cells (total, average, grade, and position)
+    
+    for (var i = 1; i <= cells; i++) { // Start from 1 to skip the name cell
+      var score = parseFloat(row.cells[i].querySelector('.score').value) || 0; // Get score value or default to 0
+      total += score;
+    }
+    
+    totalCell.textContent = total; // Update total cell with calculated total
+    
+    var average = total / cells;
+    avgCell.textContent = average.toFixed(2); // Update average cell with calculated average
+    
+    // Determine grade based on average score
+    if (average >= 90) {
+      gradeCell.textContent = 'A+';
+    } else if (average >= 80) {
+      gradeCell.textContent = 'A';
+    } else if (average >= 70) {
+      gradeCell.textContent = 'B+';
+    } else if (average >= 60) {
+      gradeCell.textContent = 'B';
+    } else if (average >= 50) {
+      gradeCell.textContent = 'C+';
+    } else if (average >= 40) {
+      gradeCell.textContent = 'C';
+    } else {
+      gradeCell.textContent = 'D';
+    }
+    
+    // Calculate class position
+    calculateClassPosition();
+    
+    // Update chart data
+    updateChart();
+  }
+
+  function calculateClassPosition() {
+    var table = document.getElementById("gradeTable");
+    var avgScores = [];
+
+    // Iterate through each row (starting from index 1 to skip header row)
+    for (var i = 1; i < table.rows.length; i++) {
+      var avgCell = table.rows[i].cells[table.rows[i].cells.length - 3]; // Average cell is third last cell in the row
+      var average = parseFloat(avgCell.textContent);
+      avgScores.push({ index: i, average: average });
+    }
+
+    // Sort average scores in descending order
+    avgScores.sort(function(a, b) {
+      return b.average - a.average;
+    });
+
+    // Update position based on sorted order
+    for (var j = 0; j < avgScores.length; j++) {
+      var positionCell = table.rows[avgScores[j].index].cells[table.rows[avgScores[j].index].cells.length - 1]; // Position cell is last cell in the row
+      positionCell.textContent = j + 1; // Set position (rank)
+    }
+  }
+
+  // Function to update the chart with average scores for each subject
+  function updateChart() {
+    var table = document.getElementById("gradeTable");
+    var subjects = [];
+    var averages = [];
+
+    // Iterate through each subject column (starting from index 1 to skip student name column)
+    for (var i = 1; i < table.rows[0].cells.length - 4; i++) { // Exclude non-subject columns
+        var sum = 0;
+        var count = 0;
+        
+        // Iterate through each student row to calculate subject total
+        for (var j = 1; j < table.rows.length; j++) {
+            sum += parseFloat(table.rows[j].cells[i].querySelector('.score').value) || 0;
+            count++;
+        }
+        
+        // Calculate average for the subject
+        var avg = sum / count;
+        averages.push(avg.toFixed(2));
+        
+        // Push subject name from table header
+        subjects.push(table.rows[0].cells[i].textContent);
+    }
+
+    // Update chart with new data
+    var ctx = document.getElementById('subjectChart').getContext('2d');
+    if (subjectChart) {
+      subjectChart.destroy(); // Destroy previous chart instance if exists
+    }
+    subjectChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: subjects, // Subject names from table header
+            datasets: [{
+                label: 'Average Scores',
+                data: averages,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+  }
+</script>
+</head>
+<body>
+
+<h2>Student Grade Sheet</h2>
+
+<canvas id="subjectChart" width="300" height="200"></canvas>
+    <div style="overflow-x:auto; overflow-y:auto; width:100%;height:100vh;">
+<table id="gradeTable">
+  <thead>
+    <tr>
+      <th>Student Name</th>
+      <th>Math</th>
+      <th>Eng</th>
+      <th>Sci</th>
+      <th>SDS</th>
+      <th>CTS</th>
+      <th>Lit</th>
+      <th>SP1</th>
+      <th>SP2</th>
+      <th>Total</th>
+      <th>Ave</th>
+      <th>Grade</th>
+      <th>Rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- No initial rows -->
+  </tbody>
+</table>
+
+<button class="add-row-btn" onclick="addRow()" style="display: flex;">+</button>
+                      <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
