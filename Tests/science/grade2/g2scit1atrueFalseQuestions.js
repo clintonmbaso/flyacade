@@ -1,4 +1,4 @@
-const g1scit2atrueFalseQuestions = [
+const g2scit1atrueFalseQuestions = [
   {
     type: "true_false",
     class: "Nestlings Navigators",

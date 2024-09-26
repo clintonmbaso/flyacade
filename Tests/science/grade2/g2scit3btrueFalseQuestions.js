@@ -1,4 +1,4 @@
-const g1scit2amultipleChoiceQuestions = [
+const g2scit3btrueFalseQuestions = [
   {
     type: "multiple_choice",
     class: "Baby Birds",
