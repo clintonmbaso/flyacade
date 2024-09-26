@@ -1,165 +1,233 @@
 const g1scit1amultipleChoiceQuestions = [
 
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Which of these is a characteristic of living things?",
-    "choices": ["Growing", "Changing colors", "Staying still", "Breaking easily"],
-    "answer": "Growing"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What do living things need to do to stay alive?",
-    "choices": ["Sleep", "Drink water", "Play games", "Watch TV"],
-    "answer": "Drink water"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Which is an example of a living thing?",
-    "choices": ["Rock", "Tree", "Chair", "Coin"],
-    "answer": "Tree"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What do living things do to their environment?",
-    "choices": ["Change it", "Leave it alone", "Hide from it", "Ask for help"],
-    "answer": "Change it"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What happens when living things reproduce?",
-    "choices": ["They get bigger", "They make more of themselves", "They turn into something else", "They stop growing"],
-    "answer": "They make more of themselves"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Which of these is NOT a characteristic of living things?",
-    "choices": ["Needing food", "Moving around", "Changing shape", "Talking loudly"],
-    "answer": "Talking loudly"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What happens when you touch something hot?",
-    "choices": ["It doesn't matter", "You don't feel it", "You move away", "You touch it more"],
-    "answer": "You move away"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Which of these is a living thing that grows?",
-    "choices": ["Car", "Flower", "Table", "TV"],
-    "answer": "Flower"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What do living things need to stay alive?",
-    "choices": ["Food, water, and air", "Toys and books", "Money and clothes", "Cars and bikes"],
-    "answer": "Food, water, and air"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Which is an example of a non-living thing?",
-    "choices": ["Dog", "Chair", "Bird", "Fish"],
-    "answer": "Chair"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What happens when living things grow?",
-    "choices": ["They get smaller", "They stay the same size", "They increase in size and complexity", "They stop moving"],
-    "answer": "They increase in size and complexity"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "How do living things move?",
-    "choices": ["By flying", "By making noise", "In response to changes in their environment", "By staying still"],
-    "answer": "In response to changes in their environment"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Why do living things reproduce?",
-    "choices": ["To get bigger", "To make food", "To continue their species", "To hide from predators"],
-    "answer": "To continue their species"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "What is one way living things respond to stimuli?",
-    "choices": ["By sleeping all day", "By making loud noises", "By changing color", "By reacting to changes in their environment"],
-    "answer": "By reacting to changes in their environment"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "Which of these is an example of growth in a living thing?",
-    "choices": ["A rock getting heavier", "A plant growing taller", "A toy staying the same size", "A book changing colors"],
-    "answer": "A plant growing taller"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "Science",
-    "term": "Term 1",
-    "part": "Mid Term",
-    "question": "How do living things move in response to stimuli?",
-    "choices": ["By staying in one place", "By sleeping", "By eating more", "By changing their position or behavior"],
-    "answer": "By changing their position or behavior"
-  },
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Which of these is a characteristic of living things?",
+  "options": [
+    { "text": "Growing", "isCorrect": true },
+    { "text": "Changing colors", "isCorrect": false },
+    { "text": "Staying still", "isCorrect": false },
+    { "text": "Breaking easily", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What do living things need to do to stay alive?",
+  "options": [
+    { "text": "Sleep", "isCorrect": false },
+    { "text": "Drink water", "isCorrect": true },
+    { "text": "Play games", "isCorrect": false },
+    { "text": "Watch TV", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Which is an example of a living thing?",
+  "options": [
+    { "text": "Rock", "isCorrect": false },
+    { "text": "Tree", "isCorrect": true },
+    { "text": "Chair", "isCorrect": false },
+    { "text": "Coin", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What do living things do to their environment?",
+  "options": [
+    { "text": "Change it", "isCorrect": true },
+    { "text": "Leave it alone", "isCorrect": false },
+    { "text": "Hide from it", "isCorrect": false },
+    { "text": "Ask for help", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What happens when living things reproduce?",
+  "options": [
+    { "text": "They get bigger", "isCorrect": false },
+    { "text": "They make more of themselves", "isCorrect": true },
+    { "text": "They turn into something else", "isCorrect": false },
+    { "text": "They stop growing", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Which of these is NOT a characteristic of living things?",
+  "options": [
+    { "text": "Needing food", "isCorrect": false },
+    { "text": "Moving around", "isCorrect": false },
+    { "text": "Changing shape", "isCorrect": false },
+    { "text": "Talking loudly", "isCorrect": true }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What happens when you touch something hot?",
+  "options": [
+    { "text": "It doesn't matter", "isCorrect": false },
+    { "text": "You don't feel it", "isCorrect": false },
+    { "text": "You move away", "isCorrect": true },
+    { "text": "You touch it more", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Which of these is a living thing that grows?",
+  "options": [
+    { "text": "Car", "isCorrect": false },
+    { "text": "Flower", "isCorrect": true },
+    { "text": "Table", "isCorrect": false },
+    { "text": "TV", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What do living things need to stay alive?",
+  "options": [
+    { "text": "Food, water, and air", "isCorrect": true },
+    { "text": "Toys and books", "isCorrect": false },
+    { "text": "Money and clothes", "isCorrect": false },
+    { "text": "Cars and bikes", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Which is an example of a non-living thing?",
+  "options": [
+    { "text": "Dog", "isCorrect": false },
+    { "text": "Chair", "isCorrect": true },
+    { "text": "Bird", "isCorrect": false },
+    { "text": "Fish", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What happens when living things grow?",
+  "options": [
+    { "text": "They get smaller", "isCorrect": false },
+    { "text": "They stay the same size", "isCorrect": false },
+    { "text": "They increase in size and complexity", "isCorrect": true },
+    { "text": "They stop moving", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "How do living things move?",
+  "options": [
+    { "text": "By flying", "isCorrect": false },
+    { "text": "By making noise", "isCorrect": false },
+    { "text": "In response to changes in their environment", "isCorrect": true },
+    { "text": "By staying still", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Why do living things reproduce?",
+  "options": [
+    { "text": "To get bigger", "isCorrect": false },
+    { "text": "To make food", "isCorrect": false },
+    { "text": "To continue their species", "isCorrect": true },
+    { "text": "To hide from predators", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "What is one way living things respond to stimuli?",
+  "options": [
+    { "text": "By sleeping all day", "isCorrect": false },
+    { "text": "By making loud noises", "isCorrect": false },
+    { "text": "By changing color", "isCorrect": false },
+    { "text": "By reacting to changes in their environment", "isCorrect": true }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "Which of these is an example of growth in a living thing?",
+  "options": [
+    { "text": "A rock getting heavier", "isCorrect": false },
+    { "text": "A plant growing taller", "isCorrect": true },
+    { "text": "A toy staying the same size", "isCorrect": false },
+    { "text": "A book changing colors", "isCorrect": false }
+  ]
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "Science",
+  "term": "Term 1",
+  "part": "Mid Term",
+  "question": "How do living things move in response to stimuli?",
+  "options": [
+    { "text": "By staying in one place", "isCorrect": false },
+    { "text": "By sleeping", "isCorrect": false },
+    { "text": "By eating more", "isCorrect": false },
+    { "text": "By changing their position or behaviour", "isCorrect": false }
+  ]
+},
+
+
+
+
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
@@ -180,7 +248,7 @@ const g1scit1amultipleChoiceQuestions = [
     "choices": ["It becomes quiet", "It stays the same", "It changes its behavior or movement", "It stops growing"],
     "answer": "It changes its behavior or movement"
   },
-  {
+/*  {
     "type": "multiple_choice",
     "class": "Feather Flyers",
     "subject": "Science",
@@ -2100,4 +2168,5 @@ const g1scit1amultipleChoiceQuestions = [
     "choices": ["They dig holes in the ground.", "They use leaves and twigs.", "They swim in water.", "They sleep in caves."],
     "answer": "They use leaves and twigs."
   }
+*/
 ];
