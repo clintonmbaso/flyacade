@@ -16,7 +16,7 @@ const g4scit2bmultipleChoiceQuestions = [
     "subject": "Science",
     "term": "Term 2",
     "part": "End Term",
-    "question": "How are materials described in the text?",
+    "question": "How are materials described?",
     "choices": ["As complex substances", "As simple substances", "As substances from which things are made", "As insects"],
     "answer": "As substances from which things are made"
   },
@@ -26,7 +26,7 @@ const g4scit2bmultipleChoiceQuestions = [
     "subject": "Science",
     "term": "Term 2",
     "part": "End Term",
-    "question": "What are some examples of materials mentioned in the text?",
+    "question": "What are some examples of materials?",
     "choices": ["Flowers and fruits", "Metals, plastics, ceramics, and natural materials (e.g., wood, stone)", "Trees and bushes", "Birds and insects"],
     "answer": "Metals, plastics, ceramics, and natural materials (e.g., wood, stone)"
   },
@@ -2599,5 +2599,490 @@ const g4scit2bmultipleChoiceQuestions = [
     "question": "What safety precaution should be taken when constructing an electromagnet?",
     "choices": ["Avoid using too much wire", "Ensure the battery and wires do not overheat", "Use colored wires for better visibility", "Increase the number of nails used"],
     "answer": "Ensure the battery and wires do not overheat"
-  }
+  },
+ {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How can you create a magnetic field using electricity?",
+    "choices": [
+      "By wrapping copper wire around an iron nail and connecting it to a battery",
+      "By heating up a metal rod",
+      "By placing a magnet near a battery",
+      "By using a light bulb"
+    ],
+    "answer": "By wrapping copper wire around an iron nail and connecting it to a battery"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What materials are typically used to construct a simple electromagnet?",
+    "choices": [
+      "Iron nails, copper wire, and battery cells",
+      "Wooden sticks, plastic wire, and light bulbs",
+      "Glass bottles, paper clips, and batteries",
+      "Aluminum foil, rubber bands, and magnets"
+    ],
+    "answer": "Iron nails, copper wire, and battery cells"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What happens when you wrap copper wire around an iron nail and connect it to a battery?",
+    "choices": [
+      "It creates a magnetic field",
+      "It makes the nail float",
+      "It changes the color of the nail",
+      "It makes the nail turn into a magnet"
+    ],
+    "answer": "It creates a magnetic field"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How can you visualize the magnetic field created by an electromagnet?",
+    "choices": [
+      "By using iron filings",
+      "By using colored water",
+      "By using a thermometer",
+      "By using a magnifying glass"
+    ],
+    "answer": "By using iron filings"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What will happen to the magnetic field if you increase the number of wire coils around the iron core of an electromagnet?",
+    "choices": [
+      "The magnetic field will become stronger",
+      "The magnetic field will become weaker",
+      "The magnetic field will disappear",
+      "The magnetic field will change color"
+    ],
+    "answer": "The magnetic field will become stronger"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is one common use of electromagnets in everyday life?",
+    "choices": [
+      "Electric motors",
+      "Flashlights",
+      "Cooking pans",
+      "Telephones"
+    ],
+    "answer": "Electric motors"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How does an electromagnet in a doorbell work?",
+    "choices": [
+      "It creates a magnetic field to move a striker that makes the bell ring",
+      "It lights up the doorbell",
+      "It heats the doorbell",
+      "It changes the color of the doorbell"
+    ],
+    "answer": "It creates a magnetic field to move a striker that makes the bell ring"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is one way to make an electromagnet stronger?",
+    "choices": [
+      "Increase the number of wire coils around the core",
+      "Use a larger battery",
+      "Use a shorter piece of wire",
+      "Decrease the number of iron nails"
+    ],
+    "answer": "Increase the number of wire coils around the core"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What do iron filings reveal about the magnetic field of an electromagnet?",
+    "choices": [
+      "The shape and strength of the magnetic field",
+      "The color of the electromagnet",
+      "The size of the electromagnet",
+      "The temperature of the electromagnet"
+    ],
+    "answer": "The shape and strength of the magnetic field"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What component of an electromagnet is usually made of iron?",
+    "choices": [
+      "The core",
+      "The wire",
+      "The battery",
+      "The switch"
+    ],
+    "answer": "The core"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What role does the battery play in creating a magnetic field with an electromagnet?",
+    "choices": [
+      "It provides the electrical current needed to generate the magnetic field",
+      "It changes the size of the magnetic field",
+      "It makes the electromagnet colorful",
+      "It controls the temperature of the electromagnet"
+    ],
+    "answer": "It provides the electrical current needed to generate the magnetic field"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What practical device uses electromagnets to help it work?",
+    "choices": [
+      "Electric motor",
+      "Oven",
+      "Microwave",
+      "Television"
+    ],
+    "answer": "Electric motor"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How can you change the direction of the magnetic field in an electromagnet?",
+    "choices": [
+      "By reversing the direction of the electric current",
+      "By changing the color of the wire",
+      "By changing the size of the iron core",
+      "By adjusting the length of the wire"
+    ],
+    "answer": "By reversing the direction of the electric current"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What happens if you disconnect the battery from an electromagnet?",
+    "choices": [
+      "The magnetic field disappears",
+      "The iron core becomes magnetic",
+      "The wire gets shorter",
+      "The electromagnet turns into a permanent magnet"
+    ],
+    "answer": "The magnetic field disappears"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How do you demonstrate the effect of a magnetic field using iron filings?",
+    "choices": [
+      "Sprinkle them around the electromagnet and observe their arrangement",
+      "Place them in water and observe their movement",
+      "Heat them and observe their reaction",
+      "Mix them with oil and observe the changes"
+    ],
+    "answer": "Sprinkle them around the electromagnet and observe their arrangement"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is one way to make an electromagnet weaker?",
+    "choices": [
+      "Decrease the number of wire coils",
+      "Increase the size of the iron core",
+      "Use a larger battery",
+      "Increase the number of iron nails"
+    ],
+    "answer": "Decrease the number of wire coils"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is the purpose of the iron core in an electromagnet?",
+    "choices": [
+      "To strengthen the magnetic field",
+      "To increase the battery life",
+      "To reduce the size of the electromagnet",
+      "To change the color of the wire"
+    ],
+    "answer": "To strengthen the magnetic field"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What type of current is used in electromagnets to generate a magnetic field?",
+    "choices": [
+      "Electric current",
+      "Water current",
+      "Air current",
+      "Sound waves"
+    ],
+    "answer": "Electric current"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "Which device is commonly used to make objects move by using an electromagnet?",
+    "choices": [
+      "Electric motor",
+      "Calculator",
+      "Camera",
+      "Radio"
+    ],
+    "answer": "Electric motor"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What happens when two bar magnets with opposite poles face each other?",
+    "choices": ["They attract each other", "They repel each other", "They stay in place", "They disappear"],
+    "answer": "They attract each other"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What happens when two bar magnets with like poles face each other?",
+    "choices": ["They repel each other", "They attract each other", "They stick together", "They create sparks"],
+    "answer": "They repel each other"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "Which material can be attracted to a magnet?",
+    "choices": ["Paper clip", "Plastic cup", "Wooden stick", "Glass bottle"],
+    "answer": "Paper clip"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What does flipping the orientation of a magnet change?",
+    "choices": ["The position of its poles", "The color of the magnet", "The size of the magnet", "The weight of the magnet"],
+    "answer": "The position of its poles"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How does the orientation of a magnet affect its interactions with other magnets?",
+    "choices": ["It changes whether they attract or repel", "It makes them disappear", "It changes their color", "It increases their weight"],
+    "answer": "It changes whether they attract or repel"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is one real-life application of magnets in transportation?",
+    "choices": ["Magnetic levitation trains", "Electric cars", "Airplanes", "Bicycles"],
+    "answer": "Magnetic levitation trains"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is one real-life application of magnets in medical technology?",
+    "choices": ["MRI machines", "X-ray machines", "Thermometers", "Stethoscopes"],
+    "answer": "MRI machines"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How do magnetic closures in electronic devices work?",
+    "choices": ["They use magnets to hold the device closed", "They use electricity to keep the device closed", "They use glue to keep the device closed", "They use screws to keep the device closed"],
+    "answer": "They use magnets to hold the device closed"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What can you use to show how magnets attract and repel each other?",
+    "choices": ["Bar magnets and paper clips", "Rulers and pencils", "Water and paper", "Paint and brushes"],
+    "answer": "Bar magnets and paper clips"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What do you notice when you bring two magnets with opposite poles close together?",
+    "choices": ["They pull towards each other", "They push away from each other", "They stay still", "They turn into liquids"],
+    "answer": "They pull towards each other"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What is the effect of changing the orientation of a magnet in relation to another magnet?",
+    "choices": ["It changes the type of interaction (attraction or repulsion)", "It makes the magnets glow", "It makes the magnets lose their power", "It changes the color of the magnets"],
+    "answer": "It changes the type of interaction (attraction or repulsion)"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "Which of the following is NOT a real-life use of magnets?",
+    "choices": ["Magnetic levitation trains", "MRI machines", "Microwave ovens", "Magnetic closures in devices"],
+    "answer": "Microwave ovens"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What do you observe when two magnets with like poles are brought close to each other?",
+    "choices": ["They push away from each other", "They pull towards each other", "They spin around", "They change shape"],
+    "answer": "They push away from each other"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How can you demonstrate magnetic repulsion?",
+    "choices": ["By bringing like poles of two magnets together", "By bringing opposite poles of two magnets together", "By placing magnets in a line", "By floating magnets in water"],
+    "answer": "By bringing like poles of two magnets together"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "In which field are magnetic levitation trains used?",
+    "choices": ["Transportation", "Cooking", "Agriculture", "Communication"],
+    "answer": "Transportation"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What happens to the magnetic force between two magnets as you move them farther apart?",
+    "choices": ["The force decreases", "The force increases", "The force stays the same", "The magnets turn off"],
+    "answer": "The force decreases"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What kind of magnetic poles attract each other?",
+    "choices": ["Opposite poles", "Like poles", "Neutral poles", "Random poles"],
+    "answer": "Opposite poles"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "How do magnets help in MRI machines?",
+    "choices": ["They create strong magnetic fields to produce images of the inside of the body", "They power the machine", "They cool the machine", "They clean the machine"],
+    "answer": "They create strong magnetic fields to produce images of the inside of the body"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+    "question": "What does an increased distance between two magnets affect?",
+    "choices": ["The strength of the magnetic force", "The color of the magnets", "The weight of the magnets", "The shape of the magnets"],
+    "answer": "The strength of the magnetic force"
+  },
+{
+  "type": "multiple_choice",
+    "class": "Sky Soarers",
+    "subject": "Science",
+    "term": "Term 2",
+    "part": "End Term",
+  "question": "What visual tool can be used to see the magnetic field lines around a magnet?",
+  "choices": ["Iron filings", "Colored water", "Light bulbs", "Measuring tape"],
+  "answer": "Iron filings"
+}
 ];
