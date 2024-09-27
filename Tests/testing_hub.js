@@ -237,8 +237,12 @@ const questionsBank = [
   ...g3scit2btrueFalseQuestions,
   ...g3scit3atrueFalseQuestions,
   ...g3scit3btrueFalseQuestions,
+// Fill in the Blanks
+  ...g3scit3afillInTheBlankQuestions,
+// Matching
+  ...g3scit3amatchingQuestions,
 
-  // Science
+// Social Studies
   // Multiple Choice
 //  ...g3scit1amultipleChoiceQuestions,
 //  ...g3scit1bmultipleChoiceQuestions,
