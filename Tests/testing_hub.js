@@ -273,6 +273,21 @@ const questionsBank = [
   ...g4scit2btrueFalseQuestions,
   ...g4scit3atrueFalseQuestions,
   ...g4scit3btrueFalseQuestions,
+// Fill in the Blanks
+//  ...g4scit1atrueFalseQuestions,
+//  ...g4scit1btrueFalseQuestions,
+//  ...g4scit2atrueFalseQuestions,
+//  ...g4scit2btrueFalseQuestions,
+  ...g4scit3afillInTheBlankQuestions,
+//  ...g4scit3btrueFalseQuestions,
+
+// Matching
+//  ...g4scit1atrueFalseQuestions,
+//  ...g4scit1btrueFalseQuestions,
+//  ...g4scit2atrueFalseQuestions,
+//  ...g4scit2btrueFalseQuestions,
+  ...g4scit3amatchingQuestions,
+//  ...g4scit3btrueFalseQuestions,
 
   // Grade 5
   // Science
