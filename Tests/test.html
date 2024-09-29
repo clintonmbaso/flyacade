@@ -427,29 +427,22 @@ document.addEventListener('DOMContentLoaded', displayTestDetails);
     </script>
     
     <script>
-    /*
-    // Function to save the test as a PDF
-document.getElementById('savePDF').addEventListener('click', () => {
-    const element = document.getElementById('test-container'); // Get the test container element
-    html2pdf()
-        .from(element) // Specify the content to convert to PDF
-        .save('test.pdf'); // Specify the filename for the downloaded PDF
-});
-    */
+
             // Function to save the current page content as PDF
-        document.getElementById('savePDF').addEventListener('click', () => {
-    const element = document.getElementById('test-container'); // Get the test container element
+        // Function to save the entire page content as PDF
+document.getElementById('savePDF').addEventListener('click', () => {
+    const element = document.body; // Get the entire body element
     html2pdf()
-                .set({
-                    margin: 10,
-                    filename: 'flyacade.pdf', // Name of the generated PDF
-                    image: { type: 'jpeg', quality: 0.98 },
-                    html2canvas: { scale: 2 },
-                    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-                })
-                .from(element)
-                .save(); // Save the PDF
-        });
+        .set({
+            margin: 10,
+            filename: 'flyacade.pdf', // Name of the generated PDF
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        })
+        .from(element) // Use the body element to capture the entire page
+        .save(); // Save the PDF
+});
     
     
     // Function to display the answer key in the modal
