@@ -142,3 +142,28 @@ select {
     box-sizing: border-box;
   text-align: center;
 }
+
+
+/* Button Style with Icon */
+#save-btn {
+    border: none;
+    padding: 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 20px; 
+    top: 5px; 
+     right: 5px;
+    cursor: pointer; 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+}
+
+#save-btn i {
+    font-size: 24px; 
+}

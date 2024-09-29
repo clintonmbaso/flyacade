@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Test</title>
+     <link rel="stylesheet" href="test.css">
+        <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+</head>
+<body>
+    
+             <div style="display: flex; justify-content: space-between; margin: 0 5px;">
+           <a href="../index.html"><img src="../images/Flying_Wings_Academy.png"  id="logo" alt="home_logo" title="Flying_Wings_Home" width="306" height="250"></a>
+            <h2  id="Heading">Flying Wings Academy</h2>
+         </div>
+    <p id="motto">The Way to Success</p>
+    
+             <div style="display: flex; justify-content: space-between; margin: 0 5px;">
+<p id="class">Class</p>
+<p id="subject">Subject</p>
+<p id="term">Term</p>
+<p id="part">Part</p>
+             </div>
+<img id="classImage" src="" alt="Class Image" />
+    
+    
+    <div id="test-container"></div>
+    <button onclick="window.print()">Print Test</button>
+<!-- Button to Open Answer Key Modal -->
+<button id="show-answer-key-btn">🗝️</button>
+           <!-- Button to save as PDF -->
+    <button class="btn" id="savePDF">PDF</button>
+
+<!-- Modal Structure -->
+<div id="answer-key-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Answer Key</h2>
+        <div id="answer-key-container"></div>
+    </div>
+</div>
+
+
+    <script>
+        // Get questions data from local storage
+        const questionsData = JSON.parse(localStorage.getItem('displayedQuestions')) || [];
+
+        function displayQuestions() {
+            const testContainer = document.getElementById('test-container');
+            testContainer.innerHTML = ''; // Clear previous questions
+
+            // Track added sections to avoid duplicates
+            const addedSections = {
+                "multiple_choice": false,
+                "true_false": false,
+                "one_word": false,
+                "fill_in_the_blank": false,
+                "matching": false
+            };
+
+            let sectionIdentifierText = "";
+
+            questionsData.forEach((q, index) => {
+                const questionWrapper = document.createElement('div');
+                questionWrapper.classList.add('question-wrapper');
+
+                // Determine section identifier based on question type and whether it has been added
+                if (!addedSections[q.type]) {
+                    addedSections[q.type] = true;
+
+                    switch (q.type) {
+        case "multiple_choice":
+          sectionIdentifierText = "Section A - Multiple Choice";
+          break;
+        case "true_false":
+          sectionIdentifierText = "Section B - True or False";
+          break;
+        case "fill_in_the_blank":
+          sectionIdentifierText = "Section C - Fill in the Blanks";
+          break;
+        case "matching":
+          sectionIdentifierText = "Section D - Matching Questions";
+          break;
+        
+        default:
+          sectionIdentifierText = "Section";
+          break;
+      }
+
+                    // Add section identifier
+                    const sectionIdentifier = document.createElement('div');
+                    sectionIdentifier.classList.add('section-identifier');
+                    sectionIdentifier.innerHTML = sectionIdentifierText;
+                    questionWrapper.appendChild(sectionIdentifier);
+                }
+
+                // Only append questions if they are not 'true_false' type
+if (q.type !== "true_false" && q.type !== "fill_in_the_blank") {
+    const questionText = document.createElement('div');
+    questionText.innerHTML = `${index + 1}. ${q.question}`;
+    questionWrapper.appendChild(questionText);
+}
+                
+                
+                
+                switch (q.type) {
+      case "multiple_choice":
+        const choicesContainer = document.createElement("div");
+        q.choices.forEach((choice, i) => {
+          const choiceInput = document.createElement("input");
+          choiceInput.setAttribute("type", "radio");
+          choiceInput.setAttribute("id", `choice-${i}`);
+          choiceInput.setAttribute("name", `question-${index}`);
+          choiceInput.setAttribute("value", choice);
+          const choiceLabel = document.createElement("label");
+          choiceLabel.setAttribute("for", `choice-${i}`);
+          choiceLabel.innerHTML = choice;
+          choicesContainer.appendChild(choiceInput);
+          choicesContainer.appendChild(choiceLabel);
+          choicesContainer.appendChild(document.createElement("br"));
+        });
+        questionWrapper.appendChild(choicesContainer);
+        break;
+                    
+                    
+                    
+    case "true_false":
+    // Check if the table already exists
+    let trueFalseTable = document.querySelector(".true-false-table");
+
+    // If the table doesn't exist, create it
+    if (!trueFalseTable) {
+        trueFalseTable = document.createElement("table");
+        trueFalseTable.classList.add("true-false-table");
+
+        // Create table header with a new "Serial Number" column
+        const headersRow = document.createElement("tr");
+        const serialHeader = document.createElement("th");
+        serialHeader.innerText = "Sn.";
+        const questionHeader = document.createElement("th");
+        questionHeader.innerText = "Question";
+        const trueHeader = document.createElement("th");
+        trueHeader.innerText = "True";
+        const falseHeader = document.createElement("th");
+        falseHeader.innerText = "False";
+
+        headersRow.appendChild(serialHeader);
+        headersRow.appendChild(questionHeader);
+        headersRow.appendChild(trueHeader);
+        headersRow.appendChild(falseHeader);
+        trueFalseTable.appendChild(headersRow);
+
+        // Append the table to the question wrapper
+        questionWrapper.appendChild(trueFalseTable);
+    }
+
+    // Create a new row for the current question
+    const row = document.createElement("tr");
+
+    // Create the serial number cell
+    const serialCell = document.createElement("td");
+    serialCell.innerText = `${index + 1}`; // Serial number starts from 1
+    row.appendChild(serialCell);
+
+    // Create the question cell
+    const questionCell = document.createElement("td");
+    questionCell.innerText = q.question;
+    row.appendChild(questionCell);
+
+    // Create True radio button cell
+    const trueCell = document.createElement("td");
+    const trueInput = document.createElement("input");
+    trueInput.setAttribute("type", "radio");
+    trueInput.setAttribute("id", `true-${index}`);
+    trueInput.setAttribute("name", `question-${index}`);
+    trueInput.setAttribute("value", "true");
+    trueCell.appendChild(trueInput);
+    row.appendChild(trueCell);
+
+    // Create False radio button cell
+    const falseCell = document.createElement("td");
+    const falseInput = document.createElement("input");
+    falseInput.setAttribute("type", "radio");
+    falseInput.setAttribute("id", `false-${index}`);
+    falseInput.setAttribute("name", `question-${index}`);
+    falseInput.setAttribute("value", "false");
+    falseCell.appendChild(falseInput);
+    row.appendChild(falseCell);
+
+    // Append the row to the table
+    trueFalseTable.appendChild(row);
+    break;
+                    
+
+                    
+
+        
+      
+      // Fill in tge Blanks html Layout
+      case "fill_in_the_blank":
+    // Check if the word bank table already exists
+    let wordBankTable = document.querySelector(".word-bank-table");
+
+    // If the table doesn't exist, create it
+    if (!wordBankTable) {
+        wordBankTable = document.createElement("table");
+        wordBankTable.classList.add("word-bank-table");
+
+        const row = document.createElement("tr"); // Create a single row for the word bank
+
+        // Collect all the answers for fill-in-the-blank questions
+        let fillInAnswers = questionsData.filter(q => q.type === "fill_in_the_blank").map(q => q.answer);
+
+        // Shuffle the answers using Fisher-Yates algorithm
+        for (let i = fillInAnswers.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [fillInAnswers[i], fillInAnswers[j]] = [fillInAnswers[j], fillInAnswers[i]]; // Swap elements
+        }
+
+        // Create table cells with the shuffled answers
+        fillInAnswers.forEach((answer) => {
+            const cell = document.createElement("td");
+            cell.innerText = answer; // Add the shuffled answer to the table cell
+            row.appendChild(cell);
+        });
+
+        wordBankTable.appendChild(row); // Add the row to the table
+        questionWrapper.appendChild(wordBankTable); // Append the table to the question wrapper
+    }
+
+    // Create the fill-in-the-blank question element with a serial number
+    const fillInTheBlank = document.createElement("div");
+    fillInTheBlank.innerHTML = `${index + 1}. ${questionsData[index].question}`; // Example question text
+
+    // Append the fill-in-the-blank question to the question wrapper
+    questionWrapper.appendChild(fillInTheBlank);
+
+    // Continue with displaying the fill-in-the-blank question and input field
+    const answerInput = document.createElement("input");
+    answerInput.setAttribute("type", "text");
+    answerInput.setAttribute("id", `answer-${index}`);
+    answerInput.setAttribute("name", `question-${index}`);
+    
+
+    questionWrapper.appendChild(answerInput);
+    questionWrapper.appendChild(document.createElement("br"));
+    break;
+                    
+                    
+                    
+                    
+                    
+                    
+                    case "matching":
+    const matchingContainer = document.createElement("div");
+
+    // Prepare the first and second statements
+    const firstStatements = q.pairs.map((pair, i) => `${i + 1}. ${pair.question}`);
+    const secondStatements = q.pairs.map(pair => pair.answer);
+
+    // Shuffle the second statements
+    const shuffledSecondStatements = shuffleArray(secondStatements.slice());
+
+    // Create a table for displaying the matching questions
+    const table = document.createElement("table");
+    const tbody = document.createElement("tbody");
+
+    // Create table header
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+    const headers = ["Match", "First Statement", "Second Statement"];
+    headers.forEach(headerText => {
+        const th = document.createElement("th");
+        th.innerText = headerText;
+        headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // Create rows for the table
+    firstStatements.forEach((statement, i) => {
+        const row = document.createElement("tr");
+
+        // Input field cell
+        const inputCell = document.createElement("td");
+        const matchingInput = document.createElement("input");
+        matchingInput.setAttribute("type", "text");
+        matchingInput.setAttribute("id", `answer-${index}-${i}`);
+        matchingInput.setAttribute("name", `question-${index}-${i}`);
+        matchingInput.setAttribute("placeholder", "");
+        matchingInput.classList.add("matching-input"); // Add a class for styling
+        inputCell.appendChild(matchingInput);
+        row.appendChild(inputCell);
+
+        // First statement cell
+        const statementCell = document.createElement("td");
+        statementCell.innerText = statement;
+        row.appendChild(statementCell);
+
+        // Second statement cell with letters
+        const secondStatementCell = document.createElement("td");
+        const shuffledIndex = i % shuffledSecondStatements.length; // Ensure options repeat if fewer than statements
+        const optionElement = document.createElement("div");
+        optionElement.innerText = `${String.fromCharCode(65 + shuffledIndex)}. ${shuffledSecondStatements[shuffledIndex]}`;
+        secondStatementCell.appendChild(optionElement);
+        row.appendChild(secondStatementCell);
+
+        tbody.appendChild(row);
+    });
+
+    table.appendChild(tbody);
+    matchingContainer.appendChild(table);
+    questionWrapper.appendChild(matchingContainer);
+    break;
+
+function shuffleArray(array) {
+    const shuffled = array.slice();
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+      
+                    default:
+                        break;
+                }
+                testContainer.appendChild(questionWrapper);
+                
+                
+                
+                
+                
+                
+                
+            });
+        }
+
+        // Display questions when page loads
+        window.onload = displayQuestions;
+    </script>
+    
+    <script>
+// Function to retrieve questions from localStorage
+function getQuestionsFromLocalStorage() {
+    const questionsString = localStorage.getItem('displayedQuestions');
+    if (questionsString) {
+        return JSON.parse(questionsString); // Parse the JSON string to an array
+    }
+    return null; // Return null if no data is found
+}
+
+// Helper function to check if all values in an array are the same
+function checkUniformity(values) {
+    return values.every(value => value === values[0]);
+}
+
+// Function to display class, subject, term, and part, and load class image
+function displayTestDetails() {
+    const questions = getQuestionsFromLocalStorage();
+    if (questions && questions.length > 0) {
+        // Collect all classes, subjects, terms, and parts from the questions
+        const classes = questions.map(q => q.class);
+        const subjects = questions.map(q => q.subject);
+        const terms = questions.map(q => q.term);
+        const parts = questions.map(q => q.part);
+
+        // Determine what to display based on uniformity
+        const className = checkUniformity(classes) ? classes[0] : "All Classes";
+        const subjectName = checkUniformity(subjects) ? subjects[0] : "All Subjects";
+        const termName = checkUniformity(terms) ? terms[0] : "All Terms";
+        const partName = checkUniformity(parts) ? parts[0] : "All Parts";
+
+        // Display class, subject, term, and part
+        document.getElementById('class').innerHTML = `${className}`;
+        document.getElementById('subject').innerHTML = `${subjectName}`;
+        document.getElementById('term').innerHTML = `${termName}`;
+        document.getElementById('part').innerHTML = `${partName}`;
+
+        // Set the image based on the class if it's not "All Classes"
+        const classImage = document.getElementById('classImage');
+        if (className !== "All Classes") {
+            switch (className) {
+                case "Baby Birds":
+                classImage.src = "../images/Classes_1.png"; // Path to Baby Birds image
+                break;
+            case "Sky Sprouts":
+                classImage.src = "../images/Classes_2.png"; // Path to Baby Birds image
+                break;
+            case "Nestlings Navigators":
+                classImage.src = "../images/Classes_3.png"; // Path to Baby Birds image
+                break;
+            case "Feather Flyers":
+                classImage.src = "../images/Classes_4.png"; // Path to Baby Birds image
+                break;
+            case "Cloud Chicks":
+                classImage.src = "../images/Classes_5.png"; // Path to Cloud Chicks image
+                break;
+            case "Wing Whiz":
+                classImage.src = "../images/Classes_6.png"; // Path to Wing Whiz image
+                break;
+            case "Sky Soarers":
+                classImage.src = "../images/Classes_7.png"; // Path to Baby Birds image
+                break;
+            case "Avian Aces":
+                classImage.src = "../images/Classes_8.png"; // Path to Cloud Chicks image
+                break;
+            case "Nimbus Navigators":
+                classImage.src = "../images/Classes_9.png"; // Path to Wing Whiz image
+                break;
+            // Add more cases for other classes if needed
+            default:
+                classImage.src = "../images/flyacade.png"; // Default image if class doesn't match
+                break;
+        }
+        } else {
+            classImage.src = "../images/flyacade.png"; // Display an image for mixed classes
+        }
+    } else {
+        console.error('No questions data found in localStorage');
+    }
+}
+
+// Call this function to display details and image when the page loads
+document.addEventListener('DOMContentLoaded', displayTestDetails);
+    </script>
+    
+    <script>
+    
+    // Function to save the test as a PDF
+document.getElementById('savePDF').addEventListener('click', () => {
+    const element = document.getElementById('test-container'); // Get the test container element
+    html2pdf()
+        .from(element) // Specify the content to convert to PDF
+        .save('test.pdf'); // Specify the filename for the downloaded PDF
+});
+    
+    // Function to display the answer key in the modal
+// Function to display the answer key in the modal, grouped by sections
+function displayAnswerKey() {
+    const answerKeyContainer = document.getElementById('answer-key-container');
+    answerKeyContainer.innerHTML = ''; // Clear previous answers
+
+    // Track added sections for answers
+    const addedSectionsForAnswers = {
+        "multiple_choice": false,
+        "true_false": false,
+        "one_word": false,
+        "fill_in_the_blank": false,
+        "matching": false
+    };
+
+    let answerSectionIdentifierText = "";
+
+    // Loop through the questions to populate the answers
+    questionsData.forEach((q, index) => {
+        // Determine section identifier based on question type and whether it has been added
+        if (!addedSectionsForAnswers[q.type]) {
+            addedSectionsForAnswers[q.type] = true;
+
+            switch (q.type) {
+                case "multiple_choice":
+                    answerSectionIdentifierText = "Section A - Answers for Multiple Choice";
+                    break;
+                case "true_false":
+                    answerSectionIdentifierText = "Section B - Answers for True or False";
+                    break;
+                case "fill_in_the_blank":
+                    answerSectionIdentifierText = "Section C - Answers for Fill in the Blanks";
+                    break;
+                case "matching":
+                    answerSectionIdentifierText = "Section D - Answers for Matching Questions";
+                    break;
+                default:
+                    answerSectionIdentifierText = "Section";
+                    break;
+            }
+
+            // Add section identifier for answers
+            const answerSectionIdentifier = document.createElement('div');
+            answerSectionIdentifier.classList.add('section-identifier');
+            answerSectionIdentifier.innerHTML = `<strong>${answerSectionIdentifierText}</strong>`;
+            answerKeyContainer.appendChild(answerSectionIdentifier);
+        }
+
+        // Display the answer for each question
+        let answerText = "";
+        switch (q.type) {
+            case "multiple_choice":
+                answerText = `${index + 1}. ${q.answer}`;
+                break;
+            case "true_false":
+                answerText = `${index + 1}. ${q.answer}`;
+                break;
+            case "fill_in_the_blank":
+                answerText = `${index + 1}. ${q.answer}`;
+                break;
+            case "matching":
+                const matchingAnswers = q.pairs.map((pair, i) => {
+                    const letter = String.fromCharCode(65 + i); // Use the assigned letters (A, B, C...)
+                    return `${pair.question} (${letter}) - ${pair.answer}`; // Format: Question (Letter) - Answer
+                }).join('<br>'); // Join answers with line breaks
+                answerText = `${index + 1}. ${matchingAnswers}`;
+                break;
+            default:
+                break;
+        }
+
+        const answerDiv = document.createElement('div');
+        answerDiv.innerHTML = answerText;
+        answerKeyContainer.appendChild(answerDiv);
+    });
+}
+
+// Open the modal when the button is clicked
+document.getElementById('show-answer-key-btn').onclick = function() {
+    displayAnswerKey(); // Populate the modal with answers
+    document.getElementById('answer-key-modal').style.display = 'block'; // Show the modal
+};
+
+// Close the modal when the <span> (x) is clicked
+document.querySelector('.close').onclick = function() {
+    document.getElementById('answer-key-modal').style.display = 'none';
+};
+
+// Close the modal when clicking anywhere outside of the modal
+window.onclick = function(event) {
+    const modal = document.getElementById('answer-key-modal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+};
+    
+    </script>
+    
+    
+    
+    
+
+    
+</body>
+</html>

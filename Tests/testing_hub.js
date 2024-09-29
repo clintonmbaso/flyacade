@@ -305,6 +305,8 @@ const questionsBank = [
   ...g5scit2bmatchingQuestions,
   ...g5scit3amatchingQuestions,
   ...g5scit3bmatchingQuestions,
+// Fill in the Blanks
+...g5scit3afillInTheBlankQuestions,
 
   // Grade 5
   // Social Studies
@@ -459,6 +461,8 @@ function displayQuestions() {
         });
         questionWrapper.appendChild(choicesContainer);
         break;
+      
+      
       case "true_false":
         const trueInput = document.createElement("input");
         trueInput.setAttribute("type", "radio");
@@ -579,11 +583,10 @@ function shuffleArray(array) {
   });
 
   
+  localStorage.setItem('displayedQuestions', JSON.stringify(questions));
+  
   // Show generate PDF button after displaying questions
   document.getElementById("generate-pdf").style.display = "block";
-
-
-
         }
 
         
@@ -623,3 +626,54 @@ function generatePDF() {
     // Save the PDF with a filename
     doc.save('questions_bank.pdf');
 }
+
+// Function to dynamically generate a button
+function createSaveButton() {
+    const saveButton = document.createElement("button");
+    saveButton.innerHTML = "💾";
+    saveButton.setAttribute("id", "save-btn");
+    
+    // Append button to the page (you can append it anywhere appropriate)
+    document.body.appendChild(saveButton);
+
+    // Add event listener to save questions to local storage and open test.html
+    saveButton.addEventListener("click", () => {
+        saveQuestionsToLocalStorage();
+        window.location.href = "test.html"; // Navigate to test.html
+    });
+}
+
+// Function to save questions to local storage
+function saveQuestionsToLocalStorage() {
+    // Assuming you have an array of questions
+    const question = [
+        // Add your question data here, example format
+        { type: "fill_in_the_blank", question: "What is 2 + 2?", answer: "4" },
+        // Add more questions as needed
+    ];
+
+    // Save questions to local storage as JSON string
+    localStorage.setItem("savedQuestions", JSON.stringify(question));
+
+    console.log("Questions saved to local storage!");
+}
+
+// Assuming this code runs when questions are loaded dynamically
+function loadQuestions() {
+    // Your existing code to load questions dynamically goes here
+    // Example question generation code (for fill-in-the-blank questions):
+    const questionWrapper = document.createElement("div");
+    questionWrapper.setAttribute("id", "questions");
+
+
+    // Append questionWrapper to body (or another container)
+    document.body.appendChild(questionWrapper);
+
+    // After questions load, call the function to create the button
+    createSaveButton();
+}
+
+// Call the function to load questions when appropriate (e.g., on page load)
+window.onload = function () {
+    loadQuestions();
+};
