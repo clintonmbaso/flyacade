@@ -443,78 +443,65 @@ function addPageBreaks() {
 }
     
     // Function to format the class, subject, part, and term into the desired filename format
+function generateFilename() {
+    const className = document.getElementById('class-name').textContent;
+    const subject = document.getElementById('subject').textContent;
+    const part = document.getElementById('part').textContent;
+    const term = document.getElementById('term').textContent;
+
+    // Get the initials of the class (first letters of the two words)
+    const classInitials = className
+        .split(' ')
+        .map(word => word.charAt(0))
+        .join(''); // Example: Avian Aces -> AA
+
+    // Get the first three letters of the subject
+    const subjectInitials = subject.substring(0, 3); // Example: Science -> Sci
+
+    // Get the initials of the part (e.g., Mid Term -> MT)
+    const partInitials = part
+        .split(' ')
+        .map(word => word.charAt(0))
+        .join(''); // Example: Mid Term -> MT
+
+    // Extract the number from the term (e.g., Term 3 -> 3)
+    const termNumber = term.match(/\d+/)[0]; // Example: Term 3 -> 3
+
+    // Combine everything to form the filename
+    return `${classInitials}${subjectInitials}${partInitials}${termNumber}`;
+}
+    
+    
 // Function to save the entire page content as PDF
 document.getElementById('savePDF').addEventListener('click', () => {
-    const filename = generateFilename(); // Generate the filename based on class, subject, part, and term
+    const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
     const savePDFButton = document.getElementById('savePDF');
-    const classImages = document.getElementById('classImage'); // Adjust ID as needed
+    const classImages = document.getElementById('classImage');
 
-    // Hide the buttons and other unnecessary elements
+    // Hide the buttons
     answerKeyButton.style.display = 'none';
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    const element = document.body; // Get the entire body element for full page capture
-
-    // Save the content as a PDF using html2pdf
+    const element = document.body; // Get the entire body element
     html2pdf()
         .set({
-            margin: [10, 10, 10, 10], // Use array for specific margins [top, left, bottom, right]
-            filename: `${filename}.pdf`, // Use the generated filename
+            margin: 10,
+            filename: `${filename}.pdf`, // Use the generated
             image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { 
-                scale: 2, // Increase canvas scale for better quality
-                useCORS: true // Allow cross-origin content to be included
-            },
-            jsPDF: { 
-                unit: 'mm', 
-                format: 'a4', 
-                orientation: 'portrait' 
-            }
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
         })
-        .from(element) // Capture the entire body
-        .toPdf() // Convert to PDF
-        .get('pdf')
-        .then(function(pdf) {
-            // If content is too long, handle page breaks
-            const totalPages = pdf.internal.getNumberOfPages();
-            for (let i = 1; i <= totalPages; i++) {
-                pdf.setPage(i);
-                pdf.setFontSize(10); // Optionally adjust font size for overflow pages
-            }
-        })
+        .from(element) // Use the body element to capture the entire page
         .save() // Save the PDF
         .then(() => {
-            // Restore the hidden elements after saving the PDF
+            // Restore the buttons after saving the PDF
             answerKeyButton.style.display = 'block';
             savePDFButton.style.display = 'block';
             classImages.style.display = 'block';
         });
 });
-
-// Function to generate filename based on class, subject, part, and term
-function generateFilename() {
-    const className = "Avian Aces"; // Example class name
-    const subject = "Science"; // Example subject
-    const part = "Mid Term"; // Example part
-    const term = "Term 3"; // Example term
-
-    // Extract class initials (e.g., "Avian Aces" -> "AA")
-    const classInitials = className.split(' ').map(word => word.charAt(0)).join('');
-
-    // Extract subject abbreviation (e.g., "Science" -> "Sci")
-    const subjectAbbreviation = subject.slice(0, 3);
-
-    // Extract part initials (e.g., "Mid Term" -> "MT")
-    const partInitials = part.split(' ').map(word => word.charAt(0)).join('');
-
-    // Extract term number (e.g., "Term 3" -> "3")
-    const termNumber = term.match(/\d+/)[0];
-
-    // Combine to create the filename (e.g., "AASciMT3")
-    return `${classInitials}${subjectAbbreviation}${partInitials}${termNumber}`;
-}
     
     
     // Function to display the answer key in the modal
