@@ -474,32 +474,35 @@ function generateFilename() {
     
 // Function to save the entire page content as PDF
 document.getElementById('savePDF').addEventListener('click', () => {
-    const filename = generateFilename();
-    const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
+    // Hide buttons
+    const answerKeyButton = document.getElementById('answer-key-button');
     const savePDFButton = document.getElementById('savePDF');
-    const classImages = document.getElementById('classImage');
-
-    // Hide the buttons
     answerKeyButton.style.display = 'none';
     savePDFButton.style.display = 'none';
-    classImages.style.display = 'none';
 
-    const element = document.body; // Get the entire body element
+    const element = document.body; // The full page content
     html2pdf()
         .set({
             margin: 10,
-            filename: `${filename}.pdf`, // Use the generated
+            filename: 'flyacade.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 2 },
             jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
         })
-        .from(element) // Use the body element to capture the entire page
-        .save() // Save the PDF
-        .then(() => {
-            // Restore the buttons after saving the PDF
+        .from(element)
+        .outputPdf('dataurlstring') // Generate the PDF as a Base64 string
+        .then((pdfBase64) => {
+            // Create a link element to trigger download
+            const link = document.createElement('a');
+            link.href = pdfBase64;
+            link.download = `${generateFilename()}.pdf`; // Set filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link); // Clean up the link element
+
+            // Show buttons again after download
             answerKeyButton.style.display = 'block';
             savePDFButton.style.display = 'block';
-            classImages.style.display = 'block';
         });
 });
     
