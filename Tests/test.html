@@ -17,7 +17,7 @@
     <p id="motto">The Way to Success</p>
     
              <div style="display: flex; justify-content: space-between; margin: 0 5px;">
-<p id="class">Class</p>
+<p id="class-name">Class</p>
 <p id="subject">Subject</p>
 <p id="term">Term</p>
 <p id="part">Part</p>
@@ -32,7 +32,7 @@
 <!-- Button to Open Answer Key Modal -->
 <button id="show-answer-key-btn">🗝️</button>
            <!-- Button to save as PDF -->
-    <button class="btn" id="savePDF">PDF</button>
+    <button class="btn" id="savePDF"><img src="../images/pdf.png" alt="pdf" id="imgPdf"></button>
 
 <!-- Modal Structure -->
 <div id="answer-key-modal" class="modal">
@@ -375,7 +375,7 @@ function displayTestDetails() {
         const partName = checkUniformity(parts) ? parts[0] : "All Parts";
 
         // Display class, subject, term, and part
-        document.getElementById('class').innerHTML = `${className}`;
+        document.getElementById('class-name').innerHTML = `${className}`;
         document.getElementById('subject').innerHTML = `${subjectName}`;
         document.getElementById('term').innerHTML = `${termName}`;
         document.getElementById('part').innerHTML = `${partName}`;
@@ -444,7 +444,7 @@ function addPageBreaks() {
     
     // Function to format the class, subject, part, and term into the desired filename format
 function generateFilename() {
-    const className = document.getElementById('class').textContent;
+    const className = document.getElementById('class-name').textContent;
     const subject = document.getElementById('subject').textContent;
     const part = document.getElementById('part').textContent;
     const term = document.getElementById('term').textContent;
@@ -474,6 +474,7 @@ function generateFilename() {
     
 // Function to save the entire page content as PDF
 document.getElementById('savePDF').addEventListener('click', () => {
+    const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
     const savePDFButton = document.getElementById('savePDF');
     const classImages = document.getElementById('classImage');
