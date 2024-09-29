@@ -23,11 +23,19 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Event listener for button click to generate PDF
-  document.getElementById("generate-pdf").addEventListener("click", generatePDF);
-
+  
+  
+  
+  
+  
   // Event listener for button click to refresh questions
   document.getElementById("refresh-questions").addEventListener("click", displayQuestions);
-
+  
+  
+  
+  
+  
+  
   // Event listener for button click to search questions
   document.getElementById("search-button").addEventListener("click", function() {
     displayQuestions();
@@ -307,6 +315,8 @@ const questionsBank = [
   ...g5scit3bmatchingQuestions,
 // Fill in the Blanks
 ...g5scit3afillInTheBlankQuestions,
+// True or False
+...g5scit3atrueFalseQuestions,
 
   // Grade 5
   // Social Studies
