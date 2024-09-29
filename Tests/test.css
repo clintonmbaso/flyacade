@@ -205,3 +205,22 @@ input[type="number"] {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media print {
+    body {
+        margin: 0; /* Remove default margins */
+        padding: 10mm; /* Add padding if needed */
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        overflow: visible; /* Allow content to flow freely */
+    }
+
+    .content-section {
+        margin-bottom: 20mm; /* Space between sections */
+    }
+
+    .page-break {
+        page-break-after: always; /* Force page break after this element */
+        break-after: always; /* For other browsers */
+    }
+}
