@@ -442,6 +442,36 @@ function addPageBreaks() {
     });
 }
     
+    // Function to format the class, subject, part, and term into the desired filename format
+function generateFilename() {
+    const className = document.getElementById('class').textContent;
+    const subject = document.getElementById('subject').textContent;
+    const part = document.getElementById('part').textContent;
+    const term = document.getElementById('term').textContent;
+
+    // Get the initials of the class (first letters of the two words)
+    const classInitials = className
+        .split(' ')
+        .map(word => word.charAt(0))
+        .join(''); // Example: Avian Aces -> AA
+
+    // Get the first three letters of the subject
+    const subjectInitials = subject.substring(0, 3); // Example: Science -> Sci
+
+    // Get the initials of the part (e.g., Mid Term -> MT)
+    const partInitials = part
+        .split(' ')
+        .map(word => word.charAt(0))
+        .join(''); // Example: Mid Term -> MT
+
+    // Extract the number from the term (e.g., Term 3 -> 3)
+    const termNumber = term.match(/\d+/)[0]; // Example: Term 3 -> 3
+
+    // Combine everything to form the filename
+    return `${classInitials}${subjectInitials}${partInitials}${termNumber}`;
+}
+    
+    
 // Function to save the entire page content as PDF
 document.getElementById('savePDF').addEventListener('click', () => {
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -457,7 +487,7 @@ document.getElementById('savePDF').addEventListener('click', () => {
     html2pdf()
         .set({
             margin: 10,
-            filename: 'flyacade.pdf', // Name of the generated PDF
+            filename: `${filename}.pdf`, // Use the generated
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 2 },
             jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
