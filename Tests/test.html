@@ -427,14 +427,22 @@ document.addEventListener('DOMContentLoaded', displayTestDetails);
     </script>
     
     <script>
-    
-    // Function to save the test as a PDF
-document.getElementById('savePDF').addEventListener('click', () => {
-    const element = document.getElementById('test-container'); // Get the test container element
-    html2pdf()
-        .from(element) // Specify the content to convert to PDF
-        .save('test.pdf'); // Specify the filename for the downloaded PDF
-});
+        // Function to save the current page content as PDF
+        document.getElementById('savePDF').addEventListener('click', function () {
+            const element = document.getElementById('content'); // Select the content to save as PDF
+
+            // Use html2pdf to generate PDF
+            html2pdf()
+                .set({
+                    margin: 10,
+                    filename: 'test-details.pdf', // Name of the generated PDF
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2 },
+                    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+                })
+                .from(element)
+                .save(); // Save the PDF
+        });
     
     // Function to display the answer key in the modal
 // Function to display the answer key in the modal, grouped by sections
