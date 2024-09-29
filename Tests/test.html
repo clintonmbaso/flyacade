@@ -472,21 +472,22 @@ function generateFilename() {
 }
     
     
-// Function to save the entire page content as PDF
+// Function to save the entire page content as PDF, including the answer key
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
     const savePDFButton = document.getElementById('savePDF');
     const classImages = document.getElementById('classImage');
-    const answerKeySection = document.getElementById('answer-key-container'); // The section containing the answer key
-    
+    const answerKeyModal = document.getElementById('answer-key-modal'); // Modal containing the answer key
+    const answerKeyContent = answerKeyModal.querySelector('.modal-content'); // The answer key content inside the modal
+
     // Hide the buttons
     answerKeyButton.style.display = 'none';
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    // Clone the answer key section and append it to the body temporarily for PDF generation
-    const answerKeyClone = answerKeySection.cloneNode(true); // Clone the answer key section
+    // Clone the answer key content and append it to the body temporarily for PDF generation
+    const answerKeyClone = answerKeyContent.cloneNode(true); // Clone the answer key content
     answerKeyClone.style.display = 'block'; // Make sure the answer key is visible in the PDF
     document.body.appendChild(answerKeyClone); // Append answer key after the rest of the content
 
