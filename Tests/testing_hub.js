@@ -76,7 +76,12 @@ const questionsBank = [
   ...g1engt2bmultipleChoiceQuestions,
   ...g1engt3amultipleChoiceQuestions,
   ...g1engt3bmultipleChoiceQuestions,
-
+// Fill in the Blanks
+...g1engt3afillInTheBlankQuestions,
+// True or False
+...g1scit3atrueFalseQuestions,
+// Matching
+...g1scit3amatchingQuestions,
   // Science
   // Multiple Choice
   ...g1scit1amultipleChoiceQuestions,
