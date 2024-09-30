@@ -60,8 +60,13 @@ const questionsBank = [
 
   // Reception
   // Multiple Choice
-  ...recscit2amultipleChoiceQuestions,
-  ...recscit2bmultipleChoiceQuestions,
+  ...recscit2amultipleChoiceQuestions, ...recscit2bmultipleChoiceQuestions, ...recscit3amultipleChoiceQuestions,
+// Fill in the Blanks
+...recscit3afillInTheBlankQuestions,
+// True or False
+...recscit3atrueFalseQuestions,
+// Matching
+...recscit3amatchingQuestions,
 
   // Grade 1
   // English
