@@ -184,6 +184,16 @@ const questionsBank = [
   ...g2matht3amultipleChoiceQuestions,
   ...g2matht3bmultipleChoiceQuestions,
 
+// English
+// Multiple Choice
+...g2engt3amultipleChoiceQuestions,
+// True or False
+...g2engt3atrueFalseQuestions,
+// Fill in the Blanks
+...g2engt2afillInTheBlankQuestions,
+// Matching
+...g2engt3amatchingQuestions,
+
   // Science
   // Multiple Choice
   ...g2scit1amultipleChoiceQuestions,
