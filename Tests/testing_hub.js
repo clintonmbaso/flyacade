@@ -324,13 +324,41 @@ const questionsBank = [
 //  ...g4scit2btrueFalseQuestions,
   ...g4scit3afillInTheBlankQuestions,
 //  ...g4scit3btrueFalseQuestions,
-
 // Matching
 //  ...g4scit1atrueFalseQuestions,
 //  ...g4scit1btrueFalseQuestions,
 //  ...g4scit2atrueFalseQuestions,
 //  ...g4scit2btrueFalseQuestions,
   ...g4scit3amatchingQuestions,
+//  ...g4scit3btrueFalseQuestions,
+
+  // English
+/*  ...g4engt1amultipleChoiceQuestions,
+  ...g4engt1bmultipleChoiceQuestions,
+  ...g4engt2amultipleChoiceQuestions,
+  ...g4engt2bmultipleChoiceQuestions,*/
+  ...g4engt3amultipleChoiceQuestions,
+//  ...g4engt3bmultipleChoiceQuestions,
+// True or False
+/*  ...g4scit1atrueFalseQuestions,
+  ...g4scit1btrueFalseQuestions,
+  ...g4scit2atrueFalseQuestions,
+  ...g4scit2btrueFalseQuestions,*/
+  ...g4engt3atrueFalseQuestions,
+//  ...g4scit3btrueFalseQuestions,
+// Fill in the Blanks
+//  ...g4scit1atrueFalseQuestions,
+//  ...g4scit1btrueFalseQuestions,
+//  ...g4scit2atrueFalseQuestions,
+//  ...g4scit2btrueFalseQuestions,
+  ...g4engt3afillInTheBlankQuestions,
+//  ...g4scit3btrueFalseQuestions,
+// Matching
+//  ...g4scit1atrueFalseQuestions,
+//  ...g4scit1btrueFalseQuestions,
+//  ...g4scit2atrueFalseQuestions,
+//  ...g4scit2btrueFalseQuestions,
+  ...g4engt3amatchingQuestions,
 //  ...g4scit3btrueFalseQuestions,
 
   // Grade 5
