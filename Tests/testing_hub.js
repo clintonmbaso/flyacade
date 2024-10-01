@@ -186,7 +186,13 @@ const questionsBank = [
 
 // English
 // Multiple Choice
+/*...g2engt1amultipleChoiceQuestions,
+...g2engt1bmultipleChoiceQuestions,
+...g2engt2amultipleChoiceQuestions,
+...g2engt2bmultipleChoiceQuestions,*/
 ...g2engt3amultipleChoiceQuestions,
+//...g2engt3bmultipleChoiceQuestions,
+
 // True or False
 ...g2engt3atrueFalseQuestions,
 // Fill in the Blanks
@@ -232,6 +238,16 @@ const questionsBank = [
   ...g2ctst3btrueFalseQuestions,
 
   // Grade 3
+// English
+// Multiple Choice
+...g3engt3amultipleChoiceQuestions,
+// True or False
+...g3engt3atrueFalseQuestions,
+// Fill
+...g3engt3afillInTheBlankQuestions,
+// Marching
+...g3engt3amatchingQuestions,
+
   // SP1
   // Multiple Choice
   ...g3sp1t1amultipleChoiceQuestions,
