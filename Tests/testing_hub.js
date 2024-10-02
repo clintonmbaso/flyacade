@@ -47,6 +47,19 @@ document.addEventListener("DOMContentLoaded", function() {
 const questionsBank = [
 
   // Middle
+// English
+// Multiple Choice
+...midengt3amultipleChoiceQuestions,
+
+// True or False
+...midengt3atrueFalseQuestions,
+
+// Fill
+...midengt3afillInTheBlankQuestions,
+
+// Matching
+...midengt3amatchingQuestions,
+
   // Science
   ...midscit1amultipleChoiceQuestions,
   ...midscit1bmultipleChoiceQuestions,
@@ -57,7 +70,6 @@ const questionsBank = [
 
 
   // Science
-
   // Reception
   // Multiple Choice
   ...recscit2amultipleChoiceQuestions, ...recscit2bmultipleChoiceQuestions, ...recscit3amultipleChoiceQuestions,
@@ -381,6 +393,26 @@ const questionsBank = [
 ...g5scit3afillInTheBlankQuestions,
 // True or False
 ...g5scit3atrueFalseQuestions,
+
+  // English
+  // Multiple Choice
+/*  ...g5scit1amultipleChoiceQuestions,
+  ...g5scit1bmultipleChoiceQuestions,
+  ...g5scit2amultipleChoiceQuestions,
+  ...g5scit2bmultipleChoiceQuestions,*/
+  ...g5engt3amultipleChoiceQuestions,
+//  ...g5scit3bmultipleChoiceQuestions,
+  // One Word Questions
+/*  ...g5scit1amatchingQuestions,
+  ...g5scit1bmatchingQuestions,
+  ...g5scit2amatchingQuestions,
+  ...g5scit2bmatchingQuestions,*/
+  ...g5engt3amatchingQuestions,
+//  ...g5scit3bmatchingQuestions,
+// Fill in the Blanks
+...g5engt3afillInTheBlankQuestions,
+// True or False
+...g5engt3atrueFalseQuestions,
 
   // Grade 5
   // Social Studies
