@@ -250,6 +250,27 @@ const questionsBank = [
   ...g2sst2btrueFalseQuestions,
   ...g2sst3atrueFalseQuestions,
   ...g2sst3btrueFalseQuestions,
+  // Multiple Choice
+/*  ...g2sst1atrueFalseQuestions,
+  ...g2sst1btrueFalseQuestions,
+  ...g2sst2atrueFalseQuestions,
+  ...g2sst2btrueFalseQuestions,*/
+  ...g2sst3amultipleChoiceQuestions,
+//  ...g2sst3btrueFalseQuestions,
+  // Fill Blanks
+/*  ...g2sst1atrueFalseQuestions,
+  ...g2sst1btrueFalseQuestions,
+  ...g2sst2atrueFalseQuestions,
+  ...g2sst2btrueFalseQuestions,*/
+  ...g2sst3afillInTheBlankQuestions,
+//  ...g2sst3btrueFalseQuestions,
+  // Matching
+/*  ...g2sst1atrueFalseQuestions,
+  ...g2sst1btrueFalseQuestions,
+  ...g2sst2atrueFalseQuestions,
+  ...g2sst2btrueFalseQuestions,*/
+  ...g2sst3amatchingQuestions,
+//  ...g2sst3btrueFalseQuestions,
 
   // CTS
   // True or False
