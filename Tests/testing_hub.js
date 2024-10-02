@@ -139,6 +139,17 @@ const questionsBank = [
   ...g1sst2btrueFalseQuestions,
   ...g1sst3atrueFalseQuestions,
   ...g1sst3btrueFalseQuestions,
+  // Fill
+/*  ...g1sst1afillInTheBlankQuestions,
+  ...g1sst1btrueFalseQuestions,
+  ...g1sst2atrueFalseQuestions,
+  ...g1sst2btrueFalseQuestions,*/
+  ...g1sst3afillInTheBlankQuestions,
+//  ...g1sst3btrueFalseQuestions,
+// Matching
+...g1sst3amatchingQuestions,
+// Multiple Choice
+...g1sst3amultipleChoiceQuestions,
 
 // Math
   // True or False
