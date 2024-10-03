@@ -477,7 +477,20 @@ const questionsBank = [
   ...g5sst2btrueFalseQuestions,
   ...g5sst3atrueFalseQuestions,
   ...g5sst3btrueFalseQuestions,
-
+  // Fill in the Blanks
+/*  ...g5sst1afillInTheBlankQuestions,
+  ...g5sst1bfillInTheBlankQuestions,
+  ...g5sst2afillInTheBlankQuestions,
+  ...g5sst2bfillInTheBlankQuestions,*/
+  ...g5sst3afillInTheBlankQuestions,
+//  ...g5sst3bfillInTheBlankQuestions,
+  // Matching
+/*  ...g5sst1amatchingQuestions,
+  ...g5sst1bmatchingQuestions,
+  ...g5sst2amatchingQuestions,
+  ...g5sst2bmatchingQuestions,*/
+  ...g5sst3amatchingQuestions,
+//  ...g5sst3bmatchingQuestions,
 ];
 
 
