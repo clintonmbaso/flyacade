@@ -336,7 +336,7 @@ const questionsBank = [
 //  ...g3scit1bmultipleChoiceQuestions,
 //  ...g3scit2amultipleChoiceQuestions,
 //  ...g3scit2bmultipleChoiceQuestions,
-//  ...g3scit3amultipleChoiceQuestions,
+  ...g3sst3amultipleChoiceQuestions,
 //  ...g3scit3bmultipleChoiceQuestions,
 // True or False
   ...g3sst1atrueFalseQuestions,
@@ -345,9 +345,13 @@ const questionsBank = [
   ...g3sst2btrueFalseQuestions,
   ...g3sst3atrueFalseQuestions,
   ...g3sst3btrueFalseQuestions,
+// Fill in the Blank
+...g3sst3afillInTheBlankQuestions,
+// Matching
+...g3sst3amatchingQuestions,
 
 // Grade 4
-  // Science
+// Science
   ...g4scit1amultipleChoiceQuestions,
   ...g4scit1bmultipleChoiceQuestions,
   ...g4scit2amultipleChoiceQuestions,
@@ -376,7 +380,8 @@ const questionsBank = [
   ...g4scit3amatchingQuestions,
 //  ...g4scit3btrueFalseQuestions,
 
-  // English
+// English
+// Multiple Choice
 /*  ...g4engt1amultipleChoiceQuestions,
   ...g4engt1bmultipleChoiceQuestions,
   ...g4engt2amultipleChoiceQuestions,
@@ -404,6 +409,16 @@ const questionsBank = [
 //  ...g4scit2btrueFalseQuestions,
   ...g4engt3amatchingQuestions,
 //  ...g4scit3btrueFalseQuestions,
+
+// Social Studies
+// Multiple Choice
+...g4sst3amultipleChoiceQuestions,
+// True or False
+...g4sst3atrueFalseQuestions,
+// Fill in the Blanks
+...g4sst3afillInTheBlankQuestions,
+// Matching
+...g4sst3amatchingQuestions,
 
   // Grade 5
   // Science
