@@ -178,3 +178,77 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 };
+
+
+
+
+
+// Function to submit the answers to the server
+function submitAnswers() {
+    const studentName = document.getElementById('student-name').value; // Input for student's name
+    const className = document.getElementById('class-name').textContent; // Get class name
+    const subject = document.getElementById('subject').textContent; // Get subject
+    const term = document.getElementById('term').textContent; // Get term
+    const part = document.getElementById('part').textContent; // Get part
+    const answers = []; // Array to hold user's answers
+    const correctAnswers = []; // Array to hold correct answers
+
+    // Assuming your questions data is stored in questionsData
+    questionsData.forEach((question) => {
+        const userAnswer = document.querySelector(`input[name='answer-${question.id}']:checked`);
+        if (userAnswer) {
+            answers.push(userAnswer.value); // User's answer
+        } else {
+            answers.push(''); // If no answer, push empty
+        }
+        correctAnswers.push(question.answer); // Store correct answer
+    });
+
+    const score = answers.reduce((total, answer, index) => {
+        return total + (answer === correctAnswers[index] ? 1 : 0); // Increment score for correct answers
+    }, 0);
+
+    // Send data to the server using fetch API
+    fetch('http://flyacade.com.preview.services/Teachers/submit_answers.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            student_name: studentName,
+            class: className,
+            subject: subject,
+            term: term,
+            part: part,
+            answers: answers,
+            correct_answers: correctAnswers,
+            score: score
+        }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Handle response (show results and quiz)
+        function displayResults(data) {
+    const resultContainer = document.getElementById('result-container');
+    resultContainer.innerHTML = `<h2>Your Score: ${data.score} / ${data.total_questions}</h2>`;
+
+    // Display each question with the user's answer and correct answer
+    const quizContainer = document.getElementById('quiz-container');
+    quizContainer.innerHTML = ''; // Clear previous quiz
+
+    data.answers.forEach((answer, index) => {
+        const questionText = questionsData[index].question; // Assuming question text is stored in questionsData
+        const correctAnswer = data.correct_answers[index];
+
+        quizContainer.innerHTML += `
+            <div class="question">
+                <p>${questionText}</p>
+                <p>Your Answer: ${answer}</p>
+                <p>Correct Answer: ${correctAnswer}</p>
+            </div>
+        `;
+    });
+}
+    })
+    .catch(error => console.error('Error:', error));
+}
