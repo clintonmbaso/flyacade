@@ -491,6 +491,38 @@ const questionsBank = [
   ...g5sst2bmatchingQuestions,*/
   ...g5sst3amatchingQuestions,
 //  ...g5sst3bmatchingQuestions,
+
+  // Expressive Arts
+  // Multiple Choice
+/*  ...g5expt1amultipleChoiceQuestions,
+  ...g5expt1bmultipleChoiceQuestions,
+  ...g5expt2amultipleChoiceQuestions,
+  ...g5expt2bmultipleChoiceQuestions,*/
+  ...g5expt3amultipleChoiceQuestions,
+//  ...g5expt3bmultipleChoiceQuestions,
+  // True or False
+/*  ...g5expt1atrueFalseQuestions,
+  ...g5expt1btrueFalseQuestions,
+  ...g5expt2atrueFalseQuestions,
+  ...g5expt2btrueFalseQuestions,*/
+  ...g5expt3atrueFalseQuestions,
+//  ...g5expt3btrueFalseQuestions,
+  // Fill in the Blanks
+/*  ...g5expt1afillInTheBlankQuestions,
+  ...g5expt1bfillInTheBlankQuestions,
+  ...g5expt2afillInTheBlankQuestions,
+  ...g5expt2bfillInTheBlankQuestions,*/
+  ...g5expt3afillInTheBlankQuestions,
+//  ...g5expt3bfillInTheBlankQuestions,
+  // Matching
+/*  ...g5expt1amatchingQuestions,
+  ...g5expt1bmatchingQuestions,
+  ...g5expt2amatchingQuestions,
+  ...g5expt2bmatchingQuestions,*/
+  ...g5expt3amatchingQuestions,
+//  ...g5expt3bmatchingQuestions,
+
+
 ];
 
 
