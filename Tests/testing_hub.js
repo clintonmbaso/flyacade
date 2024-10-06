@@ -552,6 +552,67 @@ const questionsBank = [
   ...g5het3amatchingQuestions,
 //  ...g5expt3bmatchingQuestions,
 
+  // Technology Studies
+  // Multiple Choice
+/*  ...g5expt1amultipleChoiceQuestions,
+  ...g5expt1bmultipleChoiceQuestions,
+  ...g5expt2amultipleChoiceQuestions,
+  ...g5expt2bmultipleChoiceQuestions,*/
+  ...g5tst3amultipleChoiceQuestions,
+//  ...g5expt3bmultipleChoiceQuestions,
+  // True or False
+/*  ...g5expt1atrueFalseQuestions,
+  ...g5expt1btrueFalseQuestions,
+  ...g5expt2atrueFalseQuestions,
+  ...g5expt2btrueFalseQuestions,*/
+  ...g5tst3atrueFalseQuestions,
+//  ...g5expt3btrueFalseQuestions,
+  // Fill in the Blanks
+/*  ...g5expt1afillInTheBlankQuestions,
+  ...g5expt1bfillInTheBlankQuestions,
+  ...g5expt2afillInTheBlankQuestions,
+  ...g5expt2bfillInTheBlankQuestions,*/
+  ...g5tst3afillInTheBlankQuestions,
+//  ...g5expt3bfillInTheBlankQuestions,
+  // Matching
+/*  ...g5expt1amatchingQuestions,
+  ...g5expt1bmatchingQuestions,
+  ...g5expt2amatchingQuestions,
+  ...g5expt2bmatchingQuestions,*/
+  ...g5tst3amatchingQuestions,
+//  ...g5expt3bmatchingQuestions,
+
+  // Mathematics
+  // Multiple Choice
+/*  ...g5expt1amultipleChoiceQuestions,
+  ...g5expt1bmultipleChoiceQuestions,
+  ...g5expt2amultipleChoiceQuestions,
+  ...g5expt2bmultipleChoiceQuestions,*/
+  ...g5matht3amultipleChoiceQuestions,
+//  ...g5expt3bmultipleChoiceQuestions,
+  // True or False
+/*  ...g5expt1atrueFalseQuestions,
+  ...g5expt1btrueFalseQuestions,
+  ...g5expt2atrueFalseQuestions,
+  ...g5expt2btrueFalseQuestions,*/
+  ...g5matht3atrueFalseQuestions,
+//  ...g5expt3btrueFalseQuestions,
+  // Fill in the Blanks
+/*  ...g5expt1afillInTheBlankQuestions,
+  ...g5expt1bfillInTheBlankQuestions,
+  ...g5expt2afillInTheBlankQuestions,
+  ...g5expt2bfillInTheBlankQuestions,*/
+  ...g5matht3afillInTheBlankQuestions,
+//  ...g5expt3bfillInTheBlankQuestions,
+  // Matching
+/*  ...g5expt1amatchingQuestions,
+  ...g5expt1bmatchingQuestions,
+  ...g5expt2amatchingQuestions,
+  ...g5expt2bmatchingQuestions,*/
+  ...g5matht3amatchingQuestions,
+//  ...g5expt3bmatchingQuestions,
+
+
 
 ];
 
@@ -717,8 +778,9 @@ function displayQuestions() {
         break;
       
       // One Word html Layout
-      case "one_word":
-        
+
+        case "one_word":
+
       
       // Fill in tge Blanks html Layout
       case "fill_in_the_blank":
