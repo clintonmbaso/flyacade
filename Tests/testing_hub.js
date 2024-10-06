@@ -522,6 +522,36 @@ const questionsBank = [
   ...g5expt3amatchingQuestions,
 //  ...g5expt3bmatchingQuestions,
 
+  // Home Economics
+  // Multiple Choice
+/*  ...g5expt1amultipleChoiceQuestions,
+  ...g5expt1bmultipleChoiceQuestions,
+  ...g5expt2amultipleChoiceQuestions,
+  ...g5expt2bmultipleChoiceQuestions,*/
+  ...g5het3amultipleChoiceQuestions,
+//  ...g5expt3bmultipleChoiceQuestions,
+  // True or False
+/*  ...g5expt1atrueFalseQuestions,
+  ...g5expt1btrueFalseQuestions,
+  ...g5expt2atrueFalseQuestions,
+  ...g5expt2btrueFalseQuestions,*/
+  ...g5het3atrueFalseQuestions,
+//  ...g5expt3btrueFalseQuestions,
+  // Fill in the Blanks
+/*  ...g5expt1afillInTheBlankQuestions,
+  ...g5expt1bfillInTheBlankQuestions,
+  ...g5expt2afillInTheBlankQuestions,
+  ...g5expt2bfillInTheBlankQuestions,*/
+  ...g5het3afillInTheBlankQuestions,
+//  ...g5expt3bfillInTheBlankQuestions,
+  // Matching
+/*  ...g5expt1amatchingQuestions,
+  ...g5expt1bmatchingQuestions,
+  ...g5expt2amatchingQuestions,
+  ...g5expt2bmatchingQuestions,*/
+  ...g5het3amatchingQuestions,
+//  ...g5expt3bmatchingQuestions,
+
 
 ];
 
