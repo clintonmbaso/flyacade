@@ -103,6 +103,20 @@ const questionsBank = [
 // Matching
 ...recsst3amatchingQuestions,
 
+  // Expressive Arts
+  // Multiple Choice
+//  ...recengt2amultipleChoiceQuestions,
+//  ...recengt2bmultipleChoiceQuestions, 
+  ...recexpt3amultipleChoiceQuestions,
+// Fill in the Blanks
+...recexpt3afillInTheBlankQuestions,
+// True or False
+...recexpt3atrueFalseQuestions,
+// Matching
+...recexpt3amatchingQuestions,
+
+
+
   // Grade 1
   // English
   ...g1engt1amultipleChoiceQuestions,
