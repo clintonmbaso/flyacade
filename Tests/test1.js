@@ -29,21 +29,28 @@
                     switch (q.type) {
                         
         case "multiple_choice":
-    sectionIdentifierText = "Section A - Multiple Choice: <br><em>Tick the correct option from the given choices.</em>";
+    sectionIdentifierText = "Multiple Choice<br><em>Tick the correct option from the given choices.</em>";
     break;
 
         case "true_false":
-    sectionIdentifierText = "Section B - True or False: <br><em>Select whether the statement is true or false by ticking.</em>";
+    sectionIdentifierText = "True or False<br><em>Select whether the statement is true or false by ticking.</em>";
     break;
 
         case "fill_in_the_blank":
-    sectionIdentifierText = "Section C - Fill in the Blanks:<br> <em>Fill in the missing word(s) in the blank space with the correct word from the bank.</em>";
+    sectionIdentifierText = "Fill in the Blanks<br><em>Fill in the missing word(s) in the blank space with the correct word from the bank.</em>";
     break;
 
         case "matching":
-    sectionIdentifierText = "Section D - Matching Questions: <br><em>Match the items from the two statements by writing the letter associated with the matching box.</em>";
+    sectionIdentifierText = "Matching Questions <br><em>Match the items from the two statements by writing the letter associated with the matching box.</em>";
     break;
         
+                case "one_word":
+          sectionIdentifierText = "Solving Questions<br><em>Solve the following questions</em>";
+          break;
+                        
+        case "comprehension":
+          sectionIdentifierText = "Comprehension <br><em>Read the story and answer the questions that follow</em>";
+          break;
         default:
           sectionIdentifierText = "Section";
           break;
@@ -291,6 +298,44 @@ if (q.type !== "true_false" && q.type !== "fill_in_the_blank") {
     questionWrapper.appendChild(matchingContainer);
     break;
 
+                    
+                    
+case "comprehension":
+  // Create and display the story
+  const storyContainer = document.createElement("div");
+  const storyParagraph = document.createElement("p");
+  storyParagraph.innerHTML = q.story;  // Display the story text
+  storyContainer.appendChild(storyParagraph);
+  questionWrapper.appendChild(storyContainer);
+
+  // Loop through the comprehension questions and display each multiple-choice question
+  q.questions.forEach((subQuestion, subIndex) => {
+    const subQuestionText = document.createElement("p");
+    subQuestionText.innerHTML = `${index + 1}.${subIndex + 1} ${subQuestion.question}`;  // Add main question index
+    questionWrapper.appendChild(subQuestionText);
+
+    const subChoicesContainer = document.createElement("div");
+    subQuestion.choices.forEach((choice, i) => {
+      const choiceInput = document.createElement("input");
+      choiceInput.setAttribute("type", "radio");
+      choiceInput.setAttribute("id", `comprehension-choice-${index}-${subIndex}-${i}`); // Unique ID for each comprehension choice
+      choiceInput.setAttribute("name", `comprehension-question-${index}-${subIndex}`);   // Ensure unique names per sub-question
+      choiceInput.setAttribute("value", choice);
+
+      const choiceLabel = document.createElement("label");
+      choiceLabel.setAttribute("for", `comprehension-choice-${index}-${subIndex}-${i}`);
+      choiceLabel.innerHTML = choice;
+
+      subChoicesContainer.appendChild(choiceInput);
+      subChoicesContainer.appendChild(choiceLabel);
+      subChoicesContainer.appendChild(document.createElement("br"));
+    });
+
+    questionWrapper.appendChild(subChoicesContainer);
+  });
+  break;
+                    
+                    
 function shuffleArray(array) {
     const shuffled = array.slice();
     for (let i = shuffled.length - 1; i > 0; i--) {

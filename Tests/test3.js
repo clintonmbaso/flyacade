@@ -107,21 +107,32 @@ function displayAnswerKey() {
             addedSectionsForAnswers[q.type] = true;
 
             switch (q.type) {
-                case "multiple_choice":
-                    answerSectionIdentifierText = "Section A - Answers for Multiple Choice";
-                    break;
-                case "true_false":
-                    answerSectionIdentifierText = "Section B - Answers for True or False";
-                    break;
-                case "fill_in_the_blank":
-                    answerSectionIdentifierText = "Section C - Answers for Fill in the Blanks";
-                    break;
-                case "matching":
-                    answerSectionIdentifierText = "Section D - Answers for Matching Questions";
-                    break;
-                default:
-                    answerSectionIdentifierText = "Section";
-                    break;
+        case "multiple_choice":
+    sectionIdentifierText = "Multiple Choice";
+    break;
+
+        case "true_false":
+    sectionIdentifierText = "True or False";
+    break;
+
+        case "fill_in_the_blank":
+    sectionIdentifierText = "Fill in the Blanks";
+    break;
+
+        case "matching":
+    sectionIdentifierText = "Matching Questions";
+    break;
+        
+                case "one_word":
+          sectionIdentifierText = "Solving Questions";
+          break;
+                        
+        case "comprehension":
+          sectionIdentifierText = "Comprehension";
+          break;
+        default:
+          sectionIdentifierText = "Section";
+          break;
             }
 
             // Add section identifier for answers
@@ -137,12 +148,15 @@ function displayAnswerKey() {
             case "multiple_choice":
                 answerText = `${index + 1}. ${q.answer}`;
                 break;
+            
             case "true_false":
                 answerText = `${index + 1}. ${q.answer}`;
                 break;
+            
             case "fill_in_the_blank":
                 answerText = `${index + 1}. ${q.answer}`;
                 break;
+            
             case "matching":
                 const matchingAnswers = q.pairs.map((pair, i) => {
                     const letter = String.fromCharCode(65 + i); // Use the assigned letters (A, B, C...)
@@ -150,6 +164,15 @@ function displayAnswerKey() {
                 }).join('<br>'); // Join answers with line breaks
                 answerText = `${index + 1}. ${matchingAnswers}`;
                 break;
+            
+            case "one_word":
+                answerText = `${index + 1}. ${q.answer}`;
+                break;
+            
+            case "comprehension":
+                answerText = `${index + 1}. ${q.subanswer}`;
+                break;
+            
             default:
                 break;
         }

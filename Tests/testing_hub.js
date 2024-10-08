@@ -50,13 +50,10 @@ const questionsBank = [
 // English
 // Multiple Choice
 ...midengt3amultipleChoiceQuestions,
-
 // True or False
 ...midengt3atrueFalseQuestions,
-
 // Fill
 ...midengt3afillInTheBlankQuestions,
-
 // Matching
 ...midengt3amatchingQuestions,
 
@@ -72,13 +69,39 @@ const questionsBank = [
   // Science
   // Reception
   // Multiple Choice
-  ...recscit2amultipleChoiceQuestions, ...recscit2bmultipleChoiceQuestions, ...recscit3amultipleChoiceQuestions,
+  ...recscit2amultipleChoiceQuestions,
+  ...recscit2bmultipleChoiceQuestions, 
+  ...recscit3amultipleChoiceQuestions,
 // Fill in the Blanks
 ...recscit3afillInTheBlankQuestions,
 // True or False
 ...recscit3atrueFalseQuestions,
 // Matching
 ...recscit3amatchingQuestions,
+
+  // English
+  // Multiple Choice
+//  ...recengt2amultipleChoiceQuestions,
+//  ...recengt2bmultipleChoiceQuestions, 
+  ...recengt3amultipleChoiceQuestions,
+// Fill in the Blanks
+...recengt3afillInTheBlankQuestions,
+// True or False
+...recengt3atrueFalseQuestions,
+// Matching
+...recengt3amatchingQuestions,
+
+  // Social Studies
+  // Multiple Choice
+//  ...recengt2amultipleChoiceQuestions,
+//  ...recengt2bmultipleChoiceQuestions, 
+  ...recsst3amultipleChoiceQuestions,
+// Fill in the Blanks
+...recsst3afillInTheBlankQuestions,
+// True or False
+...recsst3atrueFalseQuestions,
+// Matching
+...recsst3amatchingQuestions,
 
   // Grade 1
   // English
@@ -407,7 +430,7 @@ const questionsBank = [
 //  ...g4scit1btrueFalseQuestions,
 //  ...g4scit2atrueFalseQuestions,
 //  ...g4scit2btrueFalseQuestions,
-  ...g4engt3amatchingQuestions,
+  ...g4engt3acomprehensionQuestions,
 //  ...g4scit3btrueFalseQuestions,
 
 // Social Studies
@@ -454,7 +477,7 @@ const questionsBank = [
   ...g5scit1bmatchingQuestions,
   ...g5scit2amatchingQuestions,
   ...g5scit2bmatchingQuestions,*/
-  ...g5engt3amatchingQuestions,
+  ...g5engt3acomprehensionQuestions,
 //  ...g5scit3bmatchingQuestions,
 // Fill in the Blanks
 ...g5engt3afillInTheBlankQuestions,
@@ -611,7 +634,13 @@ const questionsBank = [
   ...g5expt2bmatchingQuestions,*/
   ...g5matht3amatchingQuestions,
 //  ...g5expt3bmatchingQuestions,
-
+  // One Word
+/*  ...g5expt1amatchingQuestions,
+  ...g5expt1bmatchingQuestions,
+  ...g5expt2amatchingQuestions,
+  ...g5expt2bmatchingQuestions,*/
+  ...g5matht3aoneWordQuestions,
+//  ...g5expt3bmatchingQuestions,
 
 
 ];
@@ -627,9 +656,10 @@ function countTotalQuestions() {
 function generateRandomQuestions() {
   const numMultipleChoice = parseInt(document.getElementById("num-multiple-choice").value);
   const numTrueFalse = parseInt(document.getElementById("num-true-false").value);
-  const numOneWord = parseInt(document.getElementById("num-one-word").value);
   const numFillInTheBlank = parseInt(document.getElementById("num-fill-in-the-blank").value);
   const numMatching = parseInt(document.getElementById("num-matching").value);
+  const numOneWord = parseInt(document.getElementById("num-one-word").value);
+  const numComprehension = parseInt(document.getElementById("num-comprehension").value);
 
   const selectedClass = document.getElementById("class-filter").value;
   const selectedSubject = document.getElementById("subject-filter").value;
@@ -668,9 +698,10 @@ function generateRandomQuestions() {
   // Push randomly selected questions of each type to randomQuestions array
   randomQuestions.push(...getRandomQuestionsByType("multiple_choice", numMultipleChoice));
   randomQuestions.push(...getRandomQuestionsByType("true_false", numTrueFalse));
-  randomQuestions.push(...getRandomQuestionsByType("one_word", numOneWord));
   randomQuestions.push(...getRandomQuestionsByType("fill_in_the_blank", numFillInTheBlank));
   randomQuestions.push(...getRandomQuestionsByType("matching", numMatching));
+  randomQuestions.push(...getRandomQuestionsByType("one_word", numOneWord));
+  randomQuestions.push(...getRandomQuestionsByType("comprehension", numComprehension));
 
   return randomQuestions;
 }
@@ -685,9 +716,10 @@ function displayQuestions() {
   const addedSections = {
     "multiple_choice": false,
     "true_false": false,
-    "one_word": false,
     "fill_in_the_blank": false,
-    "matching": false
+    "matching": false,
+    "one_word": false,
+    "comprehension": false    
   };
 
   let sectionIdentifierText = "";
@@ -714,7 +746,10 @@ function displayQuestions() {
           sectionIdentifierText = "Section D - Matching Questions";
           break;
         case "one_word":
-          sectionIdentifierText = "Section E - One Word Answer";
+          sectionIdentifierText = "Section E - Solve the following questions";
+          break;
+        case "comprehension":
+          sectionIdentifierText = "Section F - Read the story and answer the questions that follow";
           break;
         default:
           sectionIdentifierText = "Section";
@@ -777,11 +812,7 @@ function displayQuestions() {
         questionWrapper.appendChild(document.createElement("br"));
         break;
       
-      // One Word html Layout
 
-        case "one_word":
-
-      
       // Fill in tge Blanks html Layout
       case "fill_in_the_blank":
         const answerInput = document.createElement("input");
@@ -858,6 +889,48 @@ function displayQuestions() {
     questionWrapper.appendChild(matchingContainer);
     break;
 
+      // One Word html Layout
+        case "one_word":
+      
+break;
+      
+      // Comprehension html Layout
+case "comprehension":
+  // Create and display the story (no number before the story)
+  const storyContainer = document.createElement("div");
+  const storyParagraph = document.createElement("p");
+  storyParagraph.innerHTML = q.story;  // Display the story text
+  storyContainer.appendChild(storyParagraph);
+  questionWrapper.appendChild(storyContainer);
+
+  // Loop through the comprehension questions and display each multiple-choice question
+  q.questions.forEach((subQuestion, subIndex) => {
+    const subQuestionText = document.createElement("p");
+    subQuestionText.innerHTML = `${index + 1}.${subIndex + 1} ${subQuestion.question}`;  // Display the question text
+    questionWrapper.appendChild(subQuestionText);
+
+    const subChoicesContainer = document.createElement("div");
+    subQuestion.choices.forEach((choice, i) => {
+      const choiceInput = document.createElement("input");
+      choiceInput.setAttribute("type", "radio");
+      choiceInput.setAttribute("id", `choice-${subIndex}-${i}`);
+      choiceInput.setAttribute("name", `subquestion-${index}-${subIndex}`);
+      choiceInput.setAttribute("value", choice);
+
+      const choiceLabel = document.createElement("label");
+      choiceLabel.setAttribute("for", `choice-${subIndex}-${i}`);
+      choiceLabel.innerHTML = choice;
+
+      subChoicesContainer.appendChild(choiceInput);
+      subChoicesContainer.appendChild(choiceLabel);
+      subChoicesContainer.appendChild(document.createElement("br"));
+    });
+
+    questionWrapper.appendChild(subChoicesContainer);
+  });
+  break;
+      
+      
 function shuffleArray(array) {
     const shuffled = array.slice();
     for (let i = shuffled.length - 1; i > 0; i--) {
