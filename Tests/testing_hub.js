@@ -212,27 +212,20 @@ const questionsBank = [
   ...g1ctst2btrueFalseQuestions,
   ...g1ctst3atrueFalseQuestions,
   ...g1ctst3btrueFalseQuestions,
-  // One Word Questions
-/*  ...g1scit1aoneWordQuestions,
-  ...g1scit1boneWordQuestions,
-  ...g1scit2aoneWordQuestions,
-  ...g1scit2boneWordQuestions,
-  ...g1scit3aoneWordQuestions,
-  ...g1scit3boneWordQuestions,
-  // Fill in the Blank Questions
+  /* Fill in the Blank Questions
   ...g1scit1afillInTheBlankQuestions,
   ...g1scit1bfillInTheBlankQuestions,
   ...g1scit2afillInTheBlankQuestions,
-  ...g1scit2bfillInTheBlankQuestions,
-  ...g1scit3afillInTheBlankQuestions,
-  ...g1scit3bfillInTheBlankQuestions,
+  ...g1scit2bfillInTheBlankQuestions,*/
+  ...g1ctst3afillInTheBlankQuestions,
+/*  ...g1scit3bfillInTheBlankQuestions,
   // Matching Questions
   ...g1scit1amatchingQuestions,
   ...g1scit1bmatchingQuestions,
   ...g1scit2amatchingQuestions,
-  ...g1scit2bmatchingQuestions,
-  ...g1scit3amatchingQuestions,
-  ...g1scit3bmatchingQuestions,
+  ...g1scit2bmatchingQuestions,*/
+  ...g1ctst3amatchingQuestions,
+/*  ...g1scit3bmatchingQuestions,
 */
   // Grade 2
   // Multiple Choice
