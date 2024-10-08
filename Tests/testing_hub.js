@@ -199,19 +199,19 @@ const questionsBank = [
 
   // CTS
   // Multiple Choice
-  ...g1ctst1amultipleChoiceQuestions,
+/*  ...g1ctst1amultipleChoiceQuestions,
   ...g1ctst1bmultipleChoiceQuestions,
   ...g1ctst2amultipleChoiceQuestions,
-  ...g1ctst2bmultipleChoiceQuestions,
+  ...g1ctst2bmultipleChoiceQuestions,*/
   ...g1ctst3amultipleChoiceQuestions,
-  ...g1ctst3bmultipleChoiceQuestions,
+//  ...g1ctst3bmultipleChoiceQuestions,
   // True or False
-  ...g1ctst1atrueFalseQuestions,
+/*  ...g1ctst1atrueFalseQuestions,
   ...g1ctst1btrueFalseQuestions,
   ...g1ctst2atrueFalseQuestions,
-  ...g1ctst2btrueFalseQuestions,
+  ...g1ctst2btrueFalseQuestions,*/
   ...g1ctst3atrueFalseQuestions,
-  ...g1ctst3btrueFalseQuestions,
+//  ...g1ctst3btrueFalseQuestions,
   /* Fill in the Blank Questions
   ...g1scit1afillInTheBlankQuestions,
   ...g1scit1bfillInTheBlankQuestions,
@@ -225,8 +225,9 @@ const questionsBank = [
   ...g1scit2amatchingQuestions,
   ...g1scit2bmatchingQuestions,*/
   ...g1ctst3amatchingQuestions,
-/*  ...g1scit3bmatchingQuestions,
-*/
+//  ...g1scit3bmatchingQuestions,
+
+
   // Grade 2
   // Multiple Choice
   // Math
@@ -245,7 +246,6 @@ const questionsBank = [
 ...g2engt2bmultipleChoiceQuestions,*/
 ...g2engt3amultipleChoiceQuestions,
 //...g2engt3bmultipleChoiceQuestions,
-
 // True or False
 ...g2engt3atrueFalseQuestions,
 // Fill in the Blanks
@@ -304,12 +304,33 @@ const questionsBank = [
 
   // CTS
   // True or False
-  ...g2ctst1atrueFalseQuestions,
+/*  ...g2ctst1atrueFalseQuestions,
   ...g2ctst1btrueFalseQuestions,
   ...g2ctst2atrueFalseQuestions,
-  ...g2ctst2btrueFalseQuestions,
+  ...g2ctst2btrueFalseQuestions,*/
   ...g2ctst3atrueFalseQuestions,
-  ...g2ctst3btrueFalseQuestions,
+//  ...g2ctst3btrueFalseQuestions,
+  // Multiple Choice
+/*  ...g2ctst1atrueFalseQuestions,
+  ...g2ctst1btrueFalseQuestions,
+  ...g2ctst2atrueFalseQuestions,
+  ...g2ctst2btrueFalseQuestions,*/
+  ...g2ctst3amultipleChoiceQuestions,
+//  ...g2ctst3btrueFalseQuestions,
+  // Fill
+/*  ...g2ctst1atrueFalseQuestions,
+  ...g2ctst1btrueFalseQuestions,
+  ...g2ctst2atrueFalseQuestions,
+  ...g2ctst2btrueFalseQuestions,*/
+  ...g2ctst3afillInTheBlankQuestions,
+//  ...g2ctst3btrueFalseQuestions,
+  // Matching
+/*  ...g2ctst1atrueFalseQuestions,
+  ...g2ctst1btrueFalseQuestions,
+  ...g2ctst2atrueFalseQuestions,
+  ...g2ctst2btrueFalseQuestions,*/
+  ...g2ctst3amatchingQuestions,
+//  ...g2ctst3btrueFalseQuestions,
 
   // Grade 3
 // English
@@ -379,6 +400,28 @@ const questionsBank = [
 ...g3sst3afillInTheBlankQuestions,
 // Matching
 ...g3sst3amatchingQuestions,
+
+// CTS
+  // Multiple Choice
+//  ...g3scit1amultipleChoiceQuestions,
+//  ...g3scit1bmultipleChoiceQuestions,
+//  ...g3scit2amultipleChoiceQuestions,
+//  ...g3scit2bmultipleChoiceQuestions,
+  ...g3ctst3amultipleChoiceQuestions,
+//  ...g3scit3bmultipleChoiceQuestions,
+// True or False
+/*  ...g3sst1atrueFalseQuestions,
+  ...g3sst1btrueFalseQuestions,
+  ...g3sst2atrueFalseQuestions,
+  ...g3sst2btrueFalseQuestions,*/
+  ...g3ctst3atrueFalseQuestions,
+//  ...g3sst3btrueFalseQuestions,
+// Fill in the Blank
+...g3ctst3afillInTheBlankQuestions,
+// Matching
+...g3ctst3amatchingQuestions,
+
+
 
 // Grade 4
 // Science
