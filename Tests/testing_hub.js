@@ -523,6 +523,35 @@ const questionsBank = [
 ...g4ctst3amatchingQuestions,
 //...g4ctst3bmatchingQuestions,
 
+// Mathematics
+// Multiple Choice
+/*...g4ctst1amultipleChoiceQuestions,
+...g4ctst1bmultipleChoiceQuestions,
+...g4ctst2amultipleChoiceQuestions,
+...g4ctst2bmultipleChoiceQuestions,*/
+...g4matht3amultipleChoiceQuestions,
+//...g4ctst3bmultipleChoiceQuestions,
+// True or False
+/*...g4ctst1atrueFalseQuestions,
+...g4ctst1btrueFalseQuestions,
+...g4ctst2atrueFalseQuestions,
+...g4ctst2btrueFalseQuestions,*/
+//...g4matht3atrueFalseQuestions,
+//...g4ctst3btrueFalseQuestions,
+// Fill in the Blanks
+/*...g4ctst1afillInTheBlankQuestions,
+...g4ctst1bfillInTheBlankQuestions,
+...g4ctst2afillInTheBlankQuestions,
+...g4ctst2bfillInTheBlankQuestions,*/
+//...g4matht3afillInTheBlankQuestions,
+//...g4ctst3bfillInTheBlankQuestions,
+// Matching
+/*...g4ctst1amatchingQuestions,
+...g4ctst1bmatchingQuestions,
+...g4ctst2amatchingQuestions,
+...g4ctst2bmatchingQuestions,*/
+...g4matht3aoneWordQuestions,
+//...g4ctst3bmatchingQuestions,
 
 
   // Grade 5
