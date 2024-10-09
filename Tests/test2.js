@@ -12,6 +12,21 @@ function checkUniformity(values) {
     return values.every(value => value === values[0]);
 }
 
+// Mapping of classes to teacher names
+const classTeachers = {
+    "Baby Birds": "Mrs. Loveness Muwila",
+    "Sky Sprouts": "Mrs. Loveness Muwila",
+    "Nestlings Navigators": "Ms. Maureen Kapya",
+    "Feather Flyers": "Ms. Maureen Kapya",
+    "Cloud Chicks": "Ms. Faith Nakaonga",
+    "Wing Whiz": "Ms. Faith Nakaonga",
+    "Sky Soarers": "Mr. Muteba Masheka",
+    "Avian Aces": "Mr. Muteba Masheka",
+    "Nimbus Navigators": "Mr. Muteba Masheka",
+    "All Classes": "Mr. Clinton Mbaso"
+    // Add more mappings as needed
+};
+
 // Function to display class, subject, term, and part, and load class image
 function displayTestDetails() {
     const questions = getQuestionsFromLocalStorage();
@@ -33,6 +48,13 @@ function displayTestDetails() {
         document.getElementById('subject').innerHTML = `${subjectName}`;
         document.getElementById('term').innerHTML = `${termName}`;
         document.getElementById('part').innerHTML = `${partName}`;
+
+        // Display teacher's name based on the selected class
+        const teacherName = classTeachers[className] || "N/A"; // Default to N/A if no teacher is found
+        document.getElementById('teacher-name').innerHTML = `
+        <p class="bottom-head">THE END</p>
+        <p class="bottom-teacher">Prepared by ${teacherName}</p>
+        `;
 
         // Set the image based on the class if it's not "All Classes"
         const classImage = document.getElementById('classImage');

@@ -71,7 +71,7 @@
 
                 
                 // Only append questions if they are not 'true_false' type
-if (q.type !== "true_false" && q.type !== "fill_in_the_blank") {
+if (q.type !== "true_false" && q.type !== "fill_in_the_blank" && q.type !== "comprehension") {
     const questionText = document.createElement('div');
     questionText.innerHTML = `${index + 1}. ${q.question}`;
     questionWrapper.appendChild(questionText);
