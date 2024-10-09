@@ -257,6 +257,8 @@ const questionsBank = [
 ...g2engt2afillInTheBlankQuestions,
 // Matching
 ...g2engt3amatchingQuestions,
+// Comprehension
+...g2engt3acomprehensionQuestions,
 
   // Science
   // Multiple Choice
@@ -349,6 +351,8 @@ const questionsBank = [
 ...g3engt3afillInTheBlankQuestions,
 // Marching
 ...g3engt3amatchingQuestions,
+// Comprehension
+...g3engt3acomprehensionQuestions,
 
   // SP1
   // Multiple Choice
