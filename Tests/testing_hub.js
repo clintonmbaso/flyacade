@@ -238,12 +238,14 @@ const questionsBank = [
   // Grade 2
   // Multiple Choice
   // Math
-  ...g2matht1amultipleChoiceQuestions,
+/*  ...g2matht1amultipleChoiceQuestions,
   ...g2matht1bmultipleChoiceQuestions,
   ...g2matht2amultipleChoiceQuestions,
-  ...g2matht2bmultipleChoiceQuestions,
+  ...g2matht2bmultipleChoiceQuestions,*/
   ...g2matht3amultipleChoiceQuestions,
-  ...g2matht3bmultipleChoiceQuestions,
+//  ...g2matht3bmultipleChoiceQuestions,
+// One Word
+...g2matht3aoneWordQuestions,
 
 // English
 // Multiple Choice
