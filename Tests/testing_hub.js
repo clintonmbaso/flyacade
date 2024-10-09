@@ -131,6 +131,8 @@ const questionsBank = [
 ...g1scit3atrueFalseQuestions,
 // Matching
 ...g1scit3amatchingQuestions,
+// Comprehension
+...g1engt3acomprehensionQuestions,
 
   // Science
   // Multiple Choice
