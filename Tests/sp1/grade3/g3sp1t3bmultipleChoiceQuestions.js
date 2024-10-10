@@ -2,7 +2,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -12,7 +12,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -22,7 +22,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -32,7 +32,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -42,7 +42,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -52,7 +52,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -62,7 +62,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -72,7 +72,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -82,7 +82,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -92,7 +92,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -102,7 +102,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -112,7 +112,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -122,7 +122,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -132,7 +132,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -142,7 +142,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -152,7 +152,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -162,7 +162,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -172,7 +172,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -182,7 +182,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -192,7 +192,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -202,7 +202,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -212,7 +212,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -222,7 +222,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -232,7 +232,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -242,7 +242,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -252,7 +252,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -262,7 +262,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -272,7 +272,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -282,7 +282,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -292,7 +292,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -302,7 +302,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -312,7 +312,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -322,7 +322,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -332,7 +332,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -342,7 +342,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -352,7 +352,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -362,7 +362,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -372,7 +372,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -382,7 +382,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -392,7 +392,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -402,7 +402,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -412,7 +412,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -422,7 +422,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -432,7 +432,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -442,7 +442,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -452,7 +452,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -462,7 +462,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -472,7 +472,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -482,7 +482,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -492,7 +492,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -502,7 +502,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -512,7 +512,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -522,7 +522,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -532,7 +532,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -542,7 +542,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -552,7 +552,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -562,7 +562,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -572,7 +572,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -582,7 +582,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
@@ -592,7 +592,7 @@ const g3sp1t3bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "End Term",
     "question": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",

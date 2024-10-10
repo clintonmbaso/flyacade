@@ -2,7 +2,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Sun is to day as moon is to ____",
@@ -12,7 +12,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Cat is to kitten as dog is to ____",
@@ -22,7 +22,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Circle is to round as square is to ____",
@@ -32,7 +32,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Happy is to sad as hot is to ____",
@@ -42,7 +42,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Nurse is to hospital as teacher is to ____",
@@ -52,7 +52,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Book is to read as pen is to ____",
@@ -62,7 +62,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Up is to down as fast is to ____",
@@ -72,7 +72,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Day is to night as morning is to ____",
@@ -82,7 +82,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Tree is to trunk as bird is to ____",
@@ -92,7 +92,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Big is to small as tall is to ____",
@@ -102,7 +102,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Swim is to pool as skate is to ____",
@@ -112,7 +112,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Cat is to meow as dog is to ____",
@@ -122,7 +122,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Winter is to cold as summer is to ____",
@@ -132,7 +132,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Feather is to bird as fur is to ____",
@@ -142,7 +142,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Read is to book as eat is to ____",
@@ -152,7 +152,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Sun is to day as moon is to ____",
@@ -162,7 +162,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Doctor is to hospital as chef is to ____",
@@ -172,7 +172,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Run is to fast as walk is to ____",
@@ -182,7 +182,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Flower is to garden as fish is to ____",
@@ -192,7 +192,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Laugh is to happy as cry is to ____",
@@ -202,7 +202,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Jump is to high as crawl is to ____",
@@ -212,7 +212,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Apple is to fruit as carrot is to ____",
@@ -222,7 +222,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "School is to student as zoo is to ____",
@@ -232,7 +232,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Circle is to round as square is to ____",
@@ -242,7 +242,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Read is to book as watch is to ____",
@@ -252,7 +252,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Sun is to hot as snow is to ____",
@@ -262,7 +262,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Chair is to sit as bed is to ____",
@@ -272,7 +272,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Bird is to feather as dog is to ____",
@@ -282,7 +282,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Swim is to water as fly is to ____",
@@ -292,7 +292,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Flower is to bloom as tree is to ____",
@@ -302,7 +302,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Rain is to umbrella as sun is to ____",
@@ -312,7 +312,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Train is to track as car is to ____",
@@ -322,7 +322,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Circle is to round as square is to ____",
@@ -332,7 +332,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Bird is to fly as fish is to ____",
@@ -342,7 +342,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Teacher is to school as chef is to ____",
@@ -352,7 +352,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Day is to morning as night is to ____",
@@ -362,7 +362,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Cat is to meow as dog is to ____",
@@ -372,7 +372,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Snow is to winter as rain is to ____",
@@ -382,7 +382,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Read is to write as listen is to ____",
@@ -392,7 +392,7 @@ const g3sp1t1amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "Mid Term",
     "question": "Earth is to planet as moon is to ____",

@@ -2,7 +2,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following shapes has THREE sides?",
@@ -12,7 +12,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals is the FASTEST?",
@@ -22,7 +22,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is the HEAVIEST?",
@@ -32,7 +32,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following numbers is LARGEST?",
@@ -42,7 +42,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is a source of LIGHT?",
@@ -52,7 +52,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following vehicles has the FEWEST wheels?",
@@ -62,7 +62,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is HOT?",
@@ -72,7 +72,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following fruits is YELLOW?",
@@ -82,7 +82,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following numbers is ODD?",
@@ -92,7 +92,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following colors is a PRIMARY color?",
@@ -102,7 +102,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is used for WRITING?",
@@ -112,7 +112,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following shapes has FOUR sides?",
@@ -122,7 +122,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals can FLY?",
@@ -132,7 +132,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following numbers is GREATER than 50?",
@@ -142,7 +142,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals lives in WATER?",
@@ -152,7 +152,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following objects is SHAPED like a SPHERE?",
@@ -162,7 +162,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals is the LARGEST?",
@@ -172,7 +172,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is a SOURCE of WATER?",

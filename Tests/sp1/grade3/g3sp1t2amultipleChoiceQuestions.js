@@ -2,7 +2,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come LAST if they were arranged in ALPHABETICAL order?",
@@ -12,7 +12,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following numbers is SMALLEST?",
@@ -22,7 +22,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come THIRD if they were arranged in ALPHABETICAL order?",
@@ -32,7 +32,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes SECOND when arranged in ALPHABETICAL order?",
@@ -42,7 +42,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes FIRST when arranged in ALPHABETICAL order?",
@@ -52,7 +52,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come LAST if arranged in ALPHABETICAL order?",
@@ -62,7 +62,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come FIRST when arranged in ALPHABETICAL order?",
@@ -72,7 +72,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes FIRST in ALPHABETICAL order?",
@@ -82,7 +82,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come FIRST if arranged in ALPHABETICAL order?",
@@ -92,7 +92,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes LAST in ALPHABETICAL order?",
@@ -102,7 +102,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes THIRD when arranged in ALPHABETICAL order?",
@@ -112,7 +112,7 @@ const g3sp1t2amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes FIRST when arranged in ALPHABETICAL order?",

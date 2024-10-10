@@ -2,7 +2,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A bicycle ALWAYS has...",
@@ -12,7 +12,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A tree ALWAYS has...",
@@ -22,7 +22,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A book ALWAYS has...",
@@ -32,7 +32,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A house ALWAYS has...",
@@ -42,7 +42,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A car ALWAYS has...",
@@ -52,7 +52,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A clock ALWAYS has...",
@@ -62,7 +62,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A fish ALWAYS has...",
@@ -72,7 +72,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A chair ALWAYS has...",
@@ -82,7 +82,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A plant ALWAYS has...",
@@ -92,7 +92,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A computer ALWAYS has...",
@@ -102,7 +102,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A river ALWAYS has...",
@@ -112,7 +112,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A light bulb ALWAYS has...",
@@ -122,7 +122,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A pencil ALWAYS has...",
@@ -132,7 +132,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A ball ALWAYS has...",
@@ -142,7 +142,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",    
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A candle ALWAYS has...",
@@ -152,7 +152,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A car ALWAYS has ...",
@@ -162,7 +162,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A bird ALWAYS has ...",
@@ -172,7 +172,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A triangle ALWAYS has ...",
@@ -182,7 +182,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A road ALWAYS has ...",
@@ -192,7 +192,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A rainbow ALWAYS has ...",
@@ -202,7 +202,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A spider ALWAYS has ...",
@@ -212,7 +212,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A square ALWAYS has ...",
@@ -222,7 +222,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A butterfly ALWAYS has ...",
@@ -232,7 +232,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A dog ALWAYS has ...",
@@ -242,7 +242,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A fish ALWAYS breathes in ...",
@@ -252,7 +252,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A clock ALWAYS shows ...",
@@ -262,7 +262,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A triangle ALWAYS has ...",
@@ -272,7 +272,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A human ALWAYS has ...",
@@ -282,7 +282,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A dog ALWAYS has ...",
@@ -292,7 +292,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A bicycle ALWAYS has ...",
@@ -302,7 +302,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A train ALWAYS travels on ...",
@@ -312,7 +312,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A zebra ALWAYS has ...",
@@ -322,7 +322,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A star ALWAYS ...",
@@ -332,7 +332,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A tree ALWAYS grows ...",
@@ -342,7 +342,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A lion ALWAYS ...",
@@ -352,7 +352,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A kangaroo ALWAYS ...",
@@ -362,7 +362,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A spoon ALWAYS has ...",
@@ -372,7 +372,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A bird ALWAYS ...",
@@ -382,7 +382,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A river ALWAYS ...",
@@ -392,7 +392,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A wheel ALWAYS ...",
@@ -402,7 +402,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A pencil ALWAYS ...",
@@ -412,7 +412,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A dog ALWAYS has ...",
@@ -422,7 +422,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A ladder ALWAYS ...",
@@ -432,7 +432,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A circle ALWAYS ...",
@@ -442,7 +442,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A car ALWAYS ...",
@@ -452,7 +452,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A key ALWAYS ...",
@@ -462,7 +462,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A clock ALWAYS ...",
@@ -472,7 +472,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A spider ALWAYS ...",
@@ -482,7 +482,7 @@ const g3sp1t1bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 1",
     "part": "End Term",
     "question": "A mountain ALWAYS ...",

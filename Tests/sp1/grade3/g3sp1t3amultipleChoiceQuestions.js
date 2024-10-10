@@ -2,7 +2,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If TRIANGLE is 98765432, then ANGLER is ...",
@@ -12,7 +12,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If CAT is 312, then TAC is ...",
@@ -22,7 +22,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If CLOCK is 67895, then LOCK is ...",
@@ -32,7 +32,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If ELEPHANT is 75784621, then PLANE is ...",
@@ -42,7 +42,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If TEACHER is 4321537, then EACH is ...",
@@ -52,7 +52,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If COMPUTER is 15948763, then PUT is ...",
@@ -62,7 +62,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If CIRCLE is 654621, then CLERC is ...",
@@ -72,7 +72,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If ANIMAL is 986793, then NAIL is ...",
@@ -82,7 +82,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If FLOWER is 276349, then LOWER is ...",
@@ -92,7 +92,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If SQUARE is 987654, then QUARE is ...",
@@ -102,7 +102,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If TRIANGLE is 21345678, then EAGLE is ...",
@@ -112,7 +112,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If NUMBER is 541236, then BURN is ...",
@@ -122,7 +122,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If FRIEND is 348971, then END is ...",
@@ -132,7 +132,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If FAMILY is 987654, then LILY is ...",
@@ -142,7 +142,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If CARPET is 452376, then PET is ...",
@@ -152,7 +152,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If MOUNTAINS is 876143215, then STAINS is ...",
@@ -162,7 +162,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If WINDOW is 125461, then WIND is ...",
@@ -172,7 +172,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If STATION is 9383765, then NOTION is ...",
@@ -182,7 +182,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If RAINBOW is 7653421, then BOW is ...",
@@ -194,7 +194,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If DESERT is 123654, then DUST is ...",
@@ -204,7 +204,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If FOREST is 879512, then REST is ...",
@@ -214,7 +214,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If JUNGLE is 432168, then GUN is ...",
@@ -224,7 +224,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If WINTER is 918276, then WIND is ...",
@@ -234,7 +234,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If SCHOOL is 765431, then COOL is ...",
@@ -244,7 +244,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If BRIDGE is 134625, then RIDGE is ...",
@@ -254,7 +254,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If COUNTRY is 8126543, then COUNT is ...",
@@ -264,7 +264,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If PLANET is 215643, then PLAN is ...",
@@ -274,7 +274,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If FLOWER is 154263, then FLO is ...",
@@ -284,7 +284,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If GARDEN is 765432, then DEN is ...",
@@ -294,7 +294,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If TRAVEL is 918374, then RAVEL is ...",
@@ -308,7 +308,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If BOOK is 2488, then 8299 is ...",
@@ -318,7 +318,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If TREE is 8722, then 9322 is ...",
@@ -328,7 +328,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If CAT is 312, then 514 is ...",
@@ -338,7 +338,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 5431 is STOP, then 5131 is ...",
@@ -348,7 +348,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 6742 is DOOR, then 5742 is ...",
@@ -358,7 +358,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 2891 is DUST, then 2893 is ...",
@@ -368,7 +368,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 4231 is FISH, then 4211 is ...",
@@ -378,7 +378,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 3712 is BOOK, then 4712 is ...",
@@ -388,7 +388,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 7842 is CART, then 7822 is ...",
@@ -398,7 +398,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 1981 is LAMP, then 1971 is ...",
@@ -408,7 +408,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 5614 is GOLD, then 5611 is ...",
@@ -418,7 +418,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 6913 is LEAF, then 6923 is ...",
@@ -428,7 +428,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 7451 is FAST, then 7454 is ...",
@@ -438,7 +438,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 3172 is BALL, then 3272 is ...",
@@ -448,7 +448,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 1345 is BAND, then 1355 is ...",
@@ -458,7 +458,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 4321 is STAR, then 4324 is ...",
@@ -468,7 +468,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 2486 is BOOK, then 2686 is ...",
@@ -478,7 +478,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 5713 is JUMP, then 5723 is ...",
@@ -488,7 +488,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 8215 is GAME, then 8415 is ...",
@@ -498,7 +498,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 9136 is TRAIN, then 9137 is ...",
@@ -508,7 +508,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 6542 is STOP, then 6541 is ...",
@@ -518,7 +518,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 7324 is DOOR, then 7323 is ...",
@@ -528,7 +528,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 4912 is BEAR, then 4913 is ...",
@@ -538,7 +538,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 5931 is FAST, then 5934 is ...",
@@ -548,7 +548,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 7432 is ROAD, then 7422 is ...",
@@ -558,7 +558,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 6184 is SAND, then 6182 is ...",
@@ -568,7 +568,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 8219 is TUNE, then 8229 is ...",
@@ -578,7 +578,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 5316 is ROSE, then 5326 is ...",
@@ -588,7 +588,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 7413 is ROCK, then 7411 is ...",
@@ -598,7 +598,7 @@ const g3sp1t3amultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Wing Whiz",
-    "subject": "sp1",
+    "subject": "Special Paper 1",
     "term": "Term 3",
     "part": "Mid Term",
     "question": "If 9623 is LIGHT, then 9613 is ...",
