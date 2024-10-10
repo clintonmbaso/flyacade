@@ -134,6 +134,15 @@ const questionsBank = [
 // Comprehension
 ...g1engt3acomprehensionQuestions,
 
+// Literacy
+...g1litt1amultipleChoiceQuestions,
+...g1litt1bmultipleChoiceQuestions,
+...g1litt2amultipleChoiceQuestions,
+...g1litt2bmultipleChoiceQuestions,
+...g1litt3amultipleChoiceQuestions,
+...g1litt3bmultipleChoiceQuestions,
+
+
   // Science
   // Multiple Choice
   ...g1scit1amultipleChoiceQuestions,
