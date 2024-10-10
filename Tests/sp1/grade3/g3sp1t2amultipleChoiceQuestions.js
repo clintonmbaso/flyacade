@@ -6,7 +6,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come LAST if they were arranged in ALPHABETICAL order?",
-    "options": ["APPLE", "APPEAR", "APPROACH", "APPETITE"],
+    "choices": ["APPLE", "APPEAR", "APPROACH", "APPETITE"],
     "answer": "APPROACH"
   },
   {
@@ -16,7 +16,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following numbers is SMALLEST?",
-    "options": ["234", "243", "432", "423"],
+    "choices": ["234", "243", "432", "423"],
     "answer": "234"
   },
   {
@@ -26,7 +26,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come THIRD if they were arranged in ALPHABETICAL order?",
-    "options": ["BANANA", "BAND", "BANK", "BANNER"],
+    "choices": ["BANANA", "BAND", "BANK", "BANNER"],
     "answer": "BANK"
   },
   {
@@ -36,7 +36,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes SECOND when arranged in ALPHABETICAL order?",
-    "options": ["DOG", "CAT", "COW", "DEER"],
+    "choices": ["DOG", "CAT", "COW", "DEER"],
     "answer": "COW"
   },
   {
@@ -46,7 +46,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes FIRST when arranged in ALPHABETICAL order?",
-    "options": ["CHAIR", "CHILD", "CHALK", "CHESS"],
+    "choices": ["CHAIR", "CHILD", "CHALK", "CHESS"],
     "answer": "CHALK"
   },
   {
@@ -56,7 +56,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come LAST if arranged in ALPHABETICAL order?",
-    "options": ["BREAD", "BRAVE", "BRIGHT", "BRICK"],
+    "choices": ["BREAD", "BRAVE", "BRIGHT", "BRICK"],
     "answer": "BRIGHT"
   },
   {
@@ -66,7 +66,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come FIRST when arranged in ALPHABETICAL order?",
-    "options": ["APPLE", "ANT", "APRICOT", "ARM"],
+    "choices": ["APPLE", "ANT", "APRICOT", "ARM"],
     "answer": "ANT"
   },
   {
@@ -76,7 +76,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes FIRST in ALPHABETICAL order?",
-    "options": ["KITE", "KING", "KEY", "KIND"],
+    "choices": ["KITE", "KING", "KEY", "KIND"],
     "answer": "KEY"
   },
   {
@@ -86,7 +86,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words would come FIRST if arranged in ALPHABETICAL order?",
-    "options": ["LION", "LEMON", "LEAF", "LAMP"],
+    "choices": ["LION", "LEMON", "LEAF", "LAMP"],
     "answer": "LAMP"
   },
   {
@@ -96,7 +96,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes LAST in ALPHABETICAL order?",
-    "options": ["CAT", "CAR", "COW", "CUP"],
+    "choices": ["CAT", "CAR", "COW", "CUP"],
     "answer": "CUP"
   },
   {
@@ -106,7 +106,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes THIRD when arranged in ALPHABETICAL order?",
-    "options": ["BAT", "BAG", "BALL", "BANK"],
+    "choices": ["BAT", "BAG", "BALL", "BANK"],
     "answer": "BANK"
   },
   {
@@ -116,7 +116,7 @@ const g3sp1t2amultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "Mid Term",
     "question": "Which of the following words comes FIRST when arranged in ALPHABETICAL order?",
-    "options": ["SUN", "SNAKE", "SLEEP", "SING"],
+    "choices": ["SUN", "SNAKE", "SLEEP", "SING"],
     "answer": "SING"
   }
 ];

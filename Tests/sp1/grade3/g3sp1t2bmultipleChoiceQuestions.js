@@ -6,7 +6,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following shapes has THREE sides?",
-    "options": ["CIRCLE", "SQUARE", "TRIANGLE", "RECTANGLE"],
+    "choices": ["CIRCLE", "SQUARE", "TRIANGLE", "RECTANGLE"],
     "answer": "TRIANGLE"
   },
   {
@@ -16,7 +16,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals is the FASTEST?",
-    "options": ["CHEETAH", "TURTLE", "HORSE", "DOG"],
+    "choices": ["CHEETAH", "TURTLE", "HORSE", "DOG"],
     "answer": "CHEETAH"
   },
   {
@@ -26,7 +26,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is the HEAVIEST?",
-    "options": ["FEATHER", "BRICK", "PAPER", "STICK"],
+    "choices": ["FEATHER", "BRICK", "PAPER", "STICK"],
     "answer": "BRICK"
   },
   {
@@ -36,7 +36,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following numbers is LARGEST?",
-    "options": ["567", "675", "576", "765"],
+    "choices": ["567", "675", "576", "765"],
     "answer": "765"
   },
   {
@@ -46,7 +46,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is a source of LIGHT?",
-    "options": ["SUN", "ROCK", "WATER", "TREE"],
+    "choices": ["SUN", "ROCK", "WATER", "TREE"],
     "answer": "SUN"
   },
   {
@@ -56,7 +56,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following vehicles has the FEWEST wheels?",
-    "options": ["CAR", "TRUCK", "BIKE", "BUS"],
+    "choices": ["CAR", "TRUCK", "BIKE", "BUS"],
     "answer": "BIKE"
   },
   {
@@ -66,7 +66,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is HOT?",
-    "options": ["ICE", "FIRE", "WATER", "WIND"],
+    "choices": ["ICE", "FIRE", "WATER", "WIND"],
     "answer": "FIRE"
   },
   {
@@ -76,7 +76,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following fruits is YELLOW?",
-    "options": ["APPLE", "BANANA", "CHERRY", "GRAPE"],
+    "choices": ["APPLE", "BANANA", "CHERRY", "GRAPE"],
     "answer": "BANANA"
   },
   {
@@ -86,7 +86,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following numbers is ODD?",
-    "options": ["4", "12", "9", "16"],
+    "choices": ["4", "12", "9", "16"],
     "answer": "9"
   },
   {
@@ -96,7 +96,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following colors is a PRIMARY color?",
-    "options": ["PURPLE", "GREEN", "BLUE", "ORANGE"],
+    "choices": ["PURPLE", "GREEN", "BLUE", "ORANGE"],
     "answer": "BLUE"
   },
   {
@@ -106,7 +106,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is used for WRITING?",
-    "options": ["PENCIL", "SCISSORS", "ERASER", "RULER"],
+    "choices": ["PENCIL", "SCISSORS", "ERASER", "RULER"],
     "answer": "PENCIL"
   },
   {
@@ -116,7 +116,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following shapes has FOUR sides?",
-    "options": ["CIRCLE", "TRIANGLE", "RECTANGLE", "HEXAGON"],
+    "choices": ["CIRCLE", "TRIANGLE", "RECTANGLE", "HEXAGON"],
     "answer": "RECTANGLE"
   },
   {
@@ -126,7 +126,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals can FLY?",
-    "options": ["DOG", "FISH", "BIRD", "HORSE"],
+    "choices": ["DOG", "FISH", "BIRD", "HORSE"],
     "answer": "BIRD"
   },
   {
@@ -136,7 +136,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following numbers is GREATER than 50?",
-    "options": ["45", "60", "30", "25"],
+    "choices": ["45", "60", "30", "25"],
     "answer": "60"
   },
   {
@@ -146,7 +146,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals lives in WATER?",
-    "options": ["ELEPHANT", "FISH", "DOG", "CAT"],
+    "choices": ["ELEPHANT", "FISH", "DOG", "CAT"],
     "answer": "FISH"
   },
   {
@@ -156,7 +156,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following objects is SHAPED like a SPHERE?",
-    "options": ["BOOK", "CUBE", "BALL", "TRIANGLE"],
+    "choices": ["BOOK", "CUBE", "BALL", "TRIANGLE"],
     "answer": "BALL"
   },
   {
@@ -166,7 +166,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following animals is the LARGEST?",
-    "options": ["ELEPHANT", "MOUSE", "DOG", "CAT"],
+    "choices": ["ELEPHANT", "MOUSE", "DOG", "CAT"],
     "answer": "ELEPHANT"
   },
   {
@@ -176,7 +176,7 @@ const g3sp1t2bmultipleChoiceQuestions = [
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of the following is a SOURCE of WATER?",
-    "options": ["RIVER", "MOUNTAIN", "TREE", "SUN"],
+    "choices": ["RIVER", "MOUNTAIN", "TREE", "SUN"],
     "answer": "RIVER"
   }
 ];
