@@ -5,10 +5,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'water falling from the sky'? ",
-    "choices": ["rain", "ran", "rin", "raan"],
-    "answer": "rain",
-    "definition": "Rain is water that falls from the sky in droplets."
+    "question": "Which of the following is the correct spelling for a word used to ask for information?",
+    "choices": ["What", "Wat", "Whut", "Wht"],
+    "answer": "What"
   },
   {
     "type": "multiple_choice",
@@ -16,10 +15,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a long chain used to fasten something'? ",
-    "choices": ["chain", "chane", "chayn", "chian"],
-    "answer": "chain",
-    "definition": "A chain is a series of connected metal links used to fasten or secure things."
+    "question": "Which of the following is the correct spelling for asking about time?",
+    "choices": ["When", "Wen", "Whan", "Whon"],
+    "answer": "When"
   },
   {
     "type": "multiple_choice",
@@ -27,10 +25,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'hurt or injured'? ",
-    "choices": ["pain", "pane", "paan", "pen"],
-    "answer": "pain",
-    "definition": "Pain is the feeling of discomfort or hurt in the body."
+    "question": "Which of the following is the correct spelling for asking about a location?",
+    "choices": ["Where", "Were", "Whar", "Whear"],
+    "answer": "Where"
   },
   {
     "type": "multiple_choice",
@@ -38,10 +35,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a piece of land'? ",
-    "choices": ["plain", "plan", "plean", "plin"],
-    "answer": "plain",
-    "definition": "A plain is a large, flat area of land with few trees."
+    "question": "Which of the following is the correct spelling for asking about a reason?",
+    "choices": ["Why", "Whie", "Wye", "Wi"],
+    "answer": "Why"
   },
   {
     "type": "multiple_choice",
@@ -49,10 +45,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a large boat used to travel on water'? ",
-    "choices": ["sail", "sel", "soil", "seel"],
-    "answer": "sail",
-    "definition": "A sail is a piece of fabric used to catch the wind on a boat and help it move through the water."
+    "question": "Which of the following is the correct spelling for asking about a person?",
+    "choices": ["Who", "Whu", "Whoe", "Woe"],
+    "answer": "Who"
   },
   {
     "type": "multiple_choice",
@@ -60,10 +55,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'to color or apply paint'? ",
-    "choices": ["paint", "peint", "paent", "pent"],
-    "answer": "paint",
-    "definition": "To paint is to apply color to a surface using a brush or other tool."
+    "question": "Which of the following is the correct spelling for a tool used to make something move fast?",
+    "choices": ["Whip", "Wip", "Whiip", "Weep"],
+    "answer": "Whip"
   },
   {
     "type": "multiple_choice",
@@ -71,10 +65,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'to complain about something'? ",
-    "choices": ["complain", "complen", "complein", "compline"],
-    "answer": "complain",
-    "definition": "To complain is to express dissatisfaction or annoyance about something."
+    "question": "Which of the following is the correct spelling for a kitchen tool used for mixing?",
+    "choices": ["Whisk", "Whysk", "Wisk", "Whissk"],
+    "answer": "Whisk"
   },
   {
     "type": "multiple_choice",
@@ -82,10 +75,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a vehicle used for transport on tracks'? ",
-    "choices": ["train", "trane", "trien", "treen"],
-    "answer": "train",
-    "definition": "A train is a long vehicle that moves along tracks and is used for transporting people or goods."
+    "question": "Which of the following is the correct spelling for something that helps a car move?",
+    "choices": ["Wheel", "Weel", "Whill", "Whyl"],
+    "answer": "Wheel"
   },
   {
     "type": "multiple_choice",
@@ -93,10 +85,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a liquid drink used to cool off or hydrate'? ",
-    "choices": ["drain", "dreen", "draine", "drink"],
-    "answer": "drink",
-    "definition": "A drink is a liquid that is taken into the body to hydrate, like water or juice."
+    "question": "Which of the following is the correct spelling for a strong hit or blow?",
+    "choices": ["Whack", "Whac", "Whak", "Wack"],
+    "answer": "Whack"
   },
   {
     "type": "multiple_choice",
@@ -104,10 +95,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'to receive or obtain something'? ",
-    "choices": ["gain", "gaine", "gane", "gen"],
-    "answer": "gain",
-    "definition": "To gain is to receive or obtain something that adds value or benefit."
+    "question": "Which of the following is the correct spelling for a slight smell or scent?",
+    "choices": ["Whiff", "Wiff", "Whif", "Whef"],
+    "answer": "Whiff"
   },
   {
     "type": "multiple_choice",
@@ -115,10 +105,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'to make an effort or try to do something'? ",
-    "choices": ["strain", "strine", "strein", "strane"],
-    "answer": "strain",
-    "definition": "To strain is to make an effort to do something that requires strength or focus."
+    "question": "Which of the following is the correct spelling for a high-pitched complaint?",
+    "choices": ["Whine", "Wine", "Whinne", "Whyne"],
+    "answer": "Whine"
   },
   {
     "type": "multiple_choice",
@@ -126,10 +115,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a large number of people moving in a line'? ",
-    "choices": ["train", "trein", "tarn", "trien"],
-    "answer": "train",
-    "definition": "A train can also mean a large group of people moving in a line, like a parade or a procession."
+    "question": "Which of the following is the correct spelling for something that spins around quickly?",
+    "choices": ["Whirl", "Whil", "Whurrl", "Werl"],
+    "answer": "Whirl"
   },
   {
     "type": "multiple_choice",
@@ -137,10 +125,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a type of weather with a lot of water falling from the sky'? ",
-    "choices": ["rain", "rane", "raan", "rein"],
-    "answer": "rain",
-    "definition": "Rain is the weather where water droplets fall from the sky to the ground."
+    "question": "Which of the following is the correct spelling for a long, stiff hair found on animals?",
+    "choices": ["Whisker", "Whiscer", "Wisker", "Whisskerr"],
+    "answer": "Whisker"
   },
   {
     "type": "multiple_choice",
@@ -148,10 +135,9 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'the part of the body used for thinking'? ",
-    "choices": ["brain", "brine", "bran", "braine"],
-    "answer": "brain",
-    "definition": "The brain is the organ inside your head that helps you think, learn, and control your body."
+    "question": "Which of the following is the correct spelling for the sound made by blowing air through a small hole?",
+    "choices": ["Whistle", "Whistel", "Whistl", "Whisell"],
+    "answer": "Whistle"
   },
   {
     "type": "multiple_choice",
@@ -159,10 +145,308 @@ const g1litt3amultipleChoiceQuestions = [
     "subject": "Literacy",
     "term": "Term 3",
     "part": "Mid Term",
-    "question": "Which of the following is the correct spelling of a word meaning 'a tool used to hammer nails into surfaces'? ",
-    "choices": ["nail", "naile", "nale", "neil"],
-    "answer": "nail",
-    "definition": "A nail is a small, thin piece of metal used to attach things to surfaces by hammering it in."
+    "question": "Which of the following is the correct spelling for a large sea mammal?",
+    "choices": ["Whale", "Whall", "Weil", "Whayl"],
+    "answer": "Whale"
   },
-
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for the color of the sky on a clear day?",
+    "choices": ["Blue", "Blew", "Blu", "Bloue"],
+    "answer": "Blue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for something that is real or accurate?",
+    "choices": ["True", "Tru", "Trew", "Ture"],
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a sticky substance used to join things together?",
+    "choices": ["Glue", "Glew", "Gloue", "Glu"],
+    "answer": "Glue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for something that is expected or owed at a certain time?",
+    "choices": ["Due", "Dew", "Duwe", "Doo"],
+    "answer": "Due"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a signal given to someone to do something?",
+    "choices": ["Cue", "Que", "Cu", "Cew"],
+    "answer": "Cue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a common girl's name?",
+    "choices": ["Sue", "Su", "Sew", "Shoe"],
+    "answer": "Sue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for helping someone escape from danger?",
+    "choices": ["Rescue", "Rescu", "Resq", "Resque"],
+    "answer": "Rescue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for the importance or worth of something?",
+    "choices": ["Value", "Valu", "Valew", "Valoue"],
+    "answer": "Value"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a topic or concern that needs attention?",
+    "choices": ["Issue", "Isue", "Issu", "Ishew"],
+    "answer": "Issue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for engaging in a disagreement?",
+    "choices": ["Argue", "Argew", "Arque", "Argyou"],
+    "answer": "Argue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for something that goes on for a longer time?",
+    "choices": ["Continue", "Contenu", "Continew", "Continoue"],
+    "answer": "Continue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a place where events happen?",
+    "choices": ["Venue", "Venew", "Venoue", "Venew"],
+    "answer": "Venue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a line of people waiting for something?",
+    "choices": ["Queue", "Queu", "Quewe", "Quew"],
+    "answer": "Queue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a street, often found in cities?",
+    "choices": ["Avenue", "Avenew", "Avenoue", "Aveneu"],
+    "answer": "Avenue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for calming or controlling something?",
+    "choices": ["Subdue", "Subdo", "Subdew", "Subdoe"],
+    "answer": "Subdue"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for something that has not been used before?",
+    "choices": ["New", "Nue", "Knew", "Niew"],
+    "answer": "New"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a small number or amount?",
+    "choices": ["Few", "Flew", "Fue", "Phue"],
+    "answer": "Few"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for the moisture found on grass in the morning?",
+    "choices": ["Dew", "Due", "Do", "Doo"],
+    "answer": "Dew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for already having knowledge about something?",
+    "choices": ["Knew", "New", "Knu", "Knuw"],
+    "answer": "Knew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for using your teeth to bite food?",
+    "choices": ["Chew", "Chue", "Chu", "Choo"],
+    "answer": "Chew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for moving through the air with wings?",
+    "choices": ["Flew", "Flue", "Flow", "Few"],
+    "answer": "Flew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a group of people working together on a ship or plane?",
+    "choices": ["Crew", "Cree", "Creu", "Cru"],
+    "answer": "Crew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for forcing air from your mouth to cool something?",
+    "choices": ["Blew", "Blue", "Blu", "Bleu"],
+    "answer": "Blew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for making a drink by soaking tea or coffee in hot water?",
+    "choices": ["Brew", "Brue", "Broo", "Bruew"],
+    "answer": "Brew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for a thick soup made by simmering meat and vegetables?",
+    "choices": ["Stew", "Stue", "Stu", "Sew"],
+    "answer": "Stew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for looking at something?",
+    "choices": ["View", "Veu", "Vew", "Few"],
+    "answer": "View"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for becoming bigger or taller over time?",
+    "choices": ["Grew", "Grue", "Gru", "Grey"],
+    "answer": "Grew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for something that is slanted or tilted to one side?",
+    "choices": ["Skew", "Skue", "Skee", "Skeu"],
+    "answer": "Skew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for turning or rotating?",
+    "choices": ["Slew", "Slue", "Sleu", "Sloo"],
+    "answer": "Slew"
+  },
+  {
+    "type": "multiple_choice",
+    "class": "Feather Flyers",
+    "subject": "Literacy",
+    "term": "Term 3",
+    "part": "Mid Term",
+    "question": "Which of the following is the correct spelling for cutting something down with an axe?",
+    "choices": ["Hew", "Hue", "Houe", "Howe"],
+    "answer": "Hew"
+  }
 ];
