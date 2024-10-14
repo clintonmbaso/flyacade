@@ -503,23 +503,297 @@ const lessonPlans31c = [
 
 // Week 8
 // Lesson 1
-
+{
+  "title": "Introduction to Transport",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Transport",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of transport, its different types, and its importance for people and goods.",
+  "materials": [
+    "Pictures of different forms of transport",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn the meaning of transport.",
+    "Students will identify different types of transport.",
+    "Students will understand how transport helps people and goods move."
+  ],
+  "rationale": [
+    "Understanding the role of transport helps students recognize its importance in daily life and how it connects people, goods, and services."
+  ],
+  "methodology": [
+    "The lesson will use discussions, pictures, and real-life examples to explain the importance and types of transport."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Transport</b>:<br><br>What is Transport?<br>Transport refers to the movement of people, goods, and services from one place to another. It helps us get from where we are to where we need to be, whether it's for school, work, or visiting family.<br><br>Types of Transport:<br><br>Land Transport: Cars, buses, trains, bicycles.<br>Water Transport: Boats, ships.<br>Air Transport: Airplanes, helicopters.<br><br>Discussion:<br><br>Ask students how they got to school today.<br>Introduce the different types of transport and let them identify which ones they have used before.",
+      "<b>Part 2: Importance of Transport for People</b>:<br><br>Easier and Quicker Movement:<br>Transport allows us to move from one point to another more quickly and easily. Without transport, it would take a long time to walk everywhere.<br><br>Examples of Transport for People:<br>Going to school by bus.<br>Visiting a friend by car.<br>Traveling to another city by airplane.<br><br>Class Activity:<br>Show pictures of different forms of transport.<br>Ask students to match the form of transport with the situation in which they might use it (e.g., car for local trips, airplane for long distances).",
+      "<b>Part 3: Importance of Transport for Goods and Services</b>:<br><br>Moving Goods:<br>Transport is essential for delivering products, food, and other important goods from one place to another. This helps us get the things we need, like groceries or toys, from shops.<br><br>Examples of Transport for Goods:<br>Trucks bringing food to the market.<br>Ships carrying goods from one country to another.<br><br>Facilitating Services:<br>Transport also helps people provide services. For example, doctors can reach patients quickly by car or ambulance, and mail is delivered through vehicles or airplanes.<br><br>Class Activity:<br>Ask students to think about how food and toys get to shops.<br>Discuss how transport plays a role in making sure we have everything we need, like food and medicine.",
+      "<b>Part 4: How Transport Helps Communities</b>:<br><br>Helping the Economy:<br>Transport helps people get to work and helps businesses grow by allowing goods and services to reach customers. Communities can grow and develop because of transport.<br><br>Connecting People and Places:<br>Transport allows families and friends to visit each other and helps people stay connected with those who live far away.<br><br>Class Activity:<br>Draw a simple map showing a community and label places like homes, schools, and markets.<br>Have students suggest different transport options to connect these places on the map.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is transport?<br>2. Why is transport important for people?<br>3. Can you name two forms of land transport?<br>4. How does transport make movement easier?<br>5. Why is transport important for goods?<br>6. How are goods delivered to shops?<br>7. Can you name a form of water transport?<br>8. What kind of transport would you use to travel far away, like to another country?<br>9. How does transport help families and friends stay connected?<br>10. Can you think of a job that relies on transport to help people?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and matching activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of transport and its importance."
+  ],
+  "conclusion": [
+    "By learning about transport and its role in moving people and goods, students will understand its importance in daily life and how it connects communities."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding Communication",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "The Basics of Communication",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of communication, its importance in daily life, and the tools we use to share information.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of communication tools",
+    "Activity worksheets"
+  ],
+  "objectives": [
+    "Students will learn what communication is and why people communicate.",
+    "Students will understand the importance of sharing information.",
+    "Students will explore how communication helps in daily life.",
+    "Students will learn about different tools for communication."
+  ],
+  "rationale": [
+    "Understanding communication is essential for students to interact effectively with others, solve problems, and work collaboratively."
+  ],
+  "methodology": [
+    "The lesson will include explanations, discussions, and activities to help students understand and apply the concept of communication."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Communication?</b><br><br>Communication is how people share ideas, thoughts, and feelings with each other. It helps us understand one another and work together.<br><br>Why Do People Communicate?<br>To share information.<br>To ask for help or give instructions.<br>To express feelings like happiness, sadness, or excitement.<br><br>Discussion:<br>Ask students why they talk to their friends or family members.<br>Explain that communication can happen in many ways, such as talking, writing, or even using gestures.",
+      "<b>Part 2: The Importance of Sharing Information</b><br><br>What Does It Mean to Share Information?<br>Sharing information means giving others important details or news that they need to know. When we communicate, we make sure that people understand what is happening around them.<br><br>Why Is It Important?<br>It helps people understand each other better.<br>It allows us to solve problems together.<br>It makes working together easier.<br><br>Examples of Sharing Information:<br>In School: Teachers tell students what to do during lessons.<br>At Home: Parents talk to children about family plans or safety rules.<br><br>Class Activity:<br>Have students work in pairs, where one student shares something they know, like a fun fact or instructions for a game, and the other listens and responds.",
+      "<b>Part 3: How Communication Helps Us</b><br><br>How Does Communication Help Us in Daily Life?<br>Communication is a big part of our everyday lives. It helps us get things done, stay safe, and make friends. Without communication, it would be hard to understand what others want or need.<br><br>Ways Communication Helps:<br>1. At School: Asking questions in class helps students learn. Teachers explain lessons so students can understand.<br>2. At Home: Families talk to each other to plan activities. Parents give instructions, like telling children to clean their room or do homework.<br>3. With Friends: Sharing stories helps build friendships. Communication helps us play games and work together.<br><br>Class Activity:<br>Role-play different scenarios where communication is important, like asking for help in class or explaining a game to a friend.",
+      "<b>Part 4: Tools for Communication</b><br><br>What Tools Do We Use to Communicate?<br>We use different methods and tools to communicate, especially when we cannot be face-to-face.<br><br>Examples of Communication Tools:<br>Talking: Speaking directly to others in person or on the phone.<br>Writing: Sending letters or messages to share information.<br>Technology: Using phones, computers, and other devices to communicate over long distances.<br><br>Why Are These Tools Important?<br>They help us stay in touch with people far away.<br>They make it easier to share information quickly.<br><br>Class Activity:<br>Ask students to draw pictures of different tools we use for communication, such as phones, letters, or computers.",
+      "<b>Part 5: Exercise (10 Questions)</b><br><br>1. What is communication?<br>2. Why do people need to communicate?<br>3. What does it mean to share information?<br>4. How does communication help us at school?<br>5. How does communication help us at home?<br>6. Can you name a tool we use for communication?<br>7. Why is sharing information important?<br>8. How do teachers share information with students?<br>9. How do parents use communication to help at home?<br>10. What can happen if people don't communicate well?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and role-play activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of communication and its importance."
+  ],
+  "conclusion": [
+    "By understanding the concept of communication and its tools, students will be able to communicate effectively with others in their daily lives."
+  ]
+},
 
 // Week 9
 // Lesson 1
-
+{
+  "title": "Introduction to Road Signs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Road Signs",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of road signs, focusing on their importance, types, and how they guide and protect drivers and pedestrians.",
+  "materials": [
+    "Pictures of road signs",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn what road signs are and why they are important.",
+    "Students will be able to identify different types of road signs: warning, regulatory, and informational.",
+    "Students will understand the role of road signs in ensuring safety on the roads."
+  ],
+  "rationale": [
+    "Understanding road signs helps students stay safe as pedestrians and future drivers. It also promotes road safety awareness."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, discussions, and examples of common road signs to engage students and teach them about road safety."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Road Signs</b>:<br><br>What Are Road Signs?<br>Road signs are symbols placed along roads to give drivers and pedestrians information, warnings, or directions. They help keep everyone safe.<br><br>Why Are Road Signs Important?<br>- They tell us what to do on the road.<br>- They help prevent accidents.<br>- They guide drivers and pedestrians safely.<br><br>Discussion:<br>Ask students if they have seen road signs while traveling.<br>Show pictures of common road signs.",
+      "<b>Part 2: Types of Road Signs</b>:<br><br>Warning Signs:<br>Warning signs alert drivers about potential dangers on the road.<br><br>Examples:<br>- Bump Ahead: Tells drivers to slow down because of an upcoming bump.<br>- Pedestrian Crossing: Warns drivers to look out for people crossing the road.<br><br>Regulatory Signs:<br>These signs tell drivers what they must or must not do.<br><br>Examples:<br>- Stop Sign: Tells drivers to stop completely before moving.<br>- No U-Turn: Prohibits drivers from making a U-turn.",
+      "<b>Part 3: Informational Signs</b>:<br><br>What Are Informational Signs?<br>Informational signs give drivers and pedestrians helpful information.<br><br>Examples:<br>- Hospital: Shows the location of a nearby hospital.<br>- Parking: Tells drivers where they can park their vehicles.<br><br>Class Activity:<br>Show signs and ask students to guess their meanings.<br>Discuss why following these signs is important.",
+      "<b>Part 4: Importance of Road Signs</b>:<br><br>Why Should We Follow Road Signs?<br>- To stay safe while walking or driving.<br>- To help avoid accidents.<br>- To ensure everyone knows where to go and how to act on the road.<br><br>Class Activity:<br>Role-play different road situations where students follow road signs.<br>Discuss what might happen if someone ignores a road sign.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is a road sign?<br>2. Why are road signs important?<br>3. What does a \"Stop\" sign mean?<br>4. What does a \"Pedestrian Crossing\" sign tell drivers?<br>5. Can you name a warning sign?<br>6. What does a \"No U-Turn\" sign mean?<br>7. What is an example of an informational sign?<br>8. Where might you see a \"Parking\" sign?<br>9. Why should drivers follow road signs?<br>10. What happens if road signs are not followed?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will assess students' understanding of road signs and their importance."
+  ],
+  "conclusion": [
+    "By learning about road signs, students will gain an understanding of how they help keep people safe and ensure smooth traffic flow."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Introduction to Road Safety",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Road Safety",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to road safety, focusing on safe behavior when walking along the road and important safety rules to follow.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or diagrams of roads and safe walking practices"
+  ],
+  "objectives": [
+    "Students will understand what road safety is and why it is important.",
+    "Students will learn the correct side of the road to walk on for safety.",
+    "Students will understand basic road safety rules, including how to walk safely on the road."
+  ],
+  "rationale": [
+    "Learning about road safety helps students avoid accidents and develop safe habits while walking along roads."
+  ],
+  "methodology": [
+    "The lesson will use explanations, visual aids, and practice activities to teach students how to stay safe on roads."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Road Safety</b>:<br><br>What is Road Safety?<br>Road safety means staying safe when you are walking, cycling, or traveling on the road. It is important to know how to behave on the road so that we can avoid accidents and keep ourselves safe.<br><br>Why Is Road Safety Important?<br>To avoid accidents with cars or other vehicles.<br>To make sure everyone stays safe while walking along busy roads.<br><br>Discussion:<br>Ask students if they have ever walked on a road and what they did to stay safe.<br>Introduce the idea that we have to be extra careful when walking near cars.",
+      "<b>Part 2: The Correct Side of the Road to Walk Along</b>:<br><br>What Side of the Road Should We Walk On?<br>When walking along a road without sidewalks, it is important to walk on the right-hand side of the road. This means you should be facing the traffic coming towards you.<br><br>Why the Right-Hand Side?<br>Walking on the right-hand side allows you to see cars and other vehicles coming towards you.<br>You can step aside if needed when you see a car approaching.<br>It helps avoid surprises from vehicles behind you that you might not see.<br><br>Class Activity:<br>Show a simple picture or diagram of a road with people walking on the right-hand side and cars on the left.<br>Ask students to point out where they would walk on the road to stay safe.",
+      "<b>Part 3: How to Walk Safely on the Road</b>:<br><br>Steps to Walk Safely on the Road:<br>1. Walk on the Right: Always stay on the right-hand side of the road so you can see oncoming cars.<br>2. Stay Close to the Edge: Keep as close to the edge of the road as possible to give space for cars.<br>3. Be Aware: Keep looking ahead and watch for any vehicles or obstacles.<br>4. Be Visible: Wear bright clothing, especially if walking in the evening or in poor weather.<br><br>Class Activity:<br>Practice walking safely by setting up a small road-like path in the classroom or playground.<br>Have students demonstrate walking on the right-hand side and looking out for vehicles (pretend cars).",
+      "<b>Part 4: Basic Road Safety Rules</b>:<br><br>Other Important Road Safety Tips for Walking:<br>Look both ways: Before crossing any road, always look left, right, and left again to make sure no cars are coming.<br>Use crosswalks: Always cross at pedestrian crossings or traffic lights if they are available.<br>Hold hands: Younger children should hold an adult's hand when walking along busy roads.<br><br>Why Are These Rules Important?<br>They help us avoid accidents.<br>They keep us alert and aware of what's happening around us.<br>They help drivers see us clearly, especially when crossing the road.<br><br>Class Activity:<br>Role-play a scenario where students practice crossing the road safely by looking both ways and using a crosswalk.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is road safety?<br>2. Which side of the road should we walk on when there is no sidewalk?<br>3. Why do we walk on the right-hand side of the road?<br>4. What should you do if a car is coming towards you?<br>5. Where should we walk if there is no space on the road?<br>6. What should you wear if you are walking in the evening?<br>7. What do you do before crossing the road?<br>8. Where should we cross the road?<br>9. Why is it important to stay aware when walking on the road?<br>10. How can younger children stay safe when walking near roads?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' understanding and participation during the activities and role-playing.",
+    "<b>Exercise</b>: The 10-question exercise will assess students' grasp of road safety concepts."
+  ],
+  "conclusion": [
+    "By learning the basic rules of road safety, students will understand how to stay safe when walking near roads and avoid accidents."
+  ]
+},
 
 // Week 10
 // Lesson 1
-
+{
+  "title": "Road and Rail Line Safety",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Road and Rail Line Safety",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to road and rail line safety rules, teaching them how to cross roads and rail lines safely.",
+  "materials": [
+    "Images or videos of roads and rail lines",
+    "Tape to mark a 'road' in the classroom",
+    "Pictures of pedestrian crossings and railway gates"
+  ],
+  "objectives": [
+    "Students will learn the importance of road and rail line safety.",
+    "Students will understand the steps for crossing roads and rail lines safely.",
+    "Students will recognize the importance of using pedestrian crossings and railway gates.",
+    "Students will practice safe crossing behavior through classroom activities."
+  ],
+  "rationale": [
+    "Understanding safety rules helps students avoid accidents and ensures they can navigate roads and rail lines safely."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and role-playing activities to demonstrate safe crossing behaviors."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Road and Rail Line Safety</b>:<br><br>Why is Road and Rail Line Safety Important?<br>Roads and rail lines are places where vehicles, trains, and people meet, making safety important to avoid accidents.<br>Following safety rules helps keep everyone safe when walking or crossing.<br><br>Key Safety Principles:<br>Always be alert when crossing a road or rail line.<br>Always use a pedestrian crossing or railway gate if available.<br><br>Discussion:<br>Ask students if they have crossed a busy road or rail line.<br>Show them images or videos of roads and rail lines to help them visualize.",
+      "<b>Part 2: How to Safely Cross a Road</b>:<br><br>Steps to Safely Cross the Road:<br>1. Stop at the Edge of the Road: Never run onto the road without stopping first.<br>2. Look Right, Look Left, and Look Right Again: This ensures that no vehicles are coming.<br>3. Wait for a Safe Gap: Only cross when it is clear, or the vehicles have stopped for you.<br>4. Walk, Don’t Run: Cross the road quickly, but do not run. Running might cause accidents.<br><br>Crossing at Pedestrian Crossings:<br>Use a zebra crossing or pedestrian light whenever available.<br>Press the button and wait for the green man to appear before crossing at a traffic light.<br><br>Class Activity:<br>Practice road crossing steps in the classroom, marking a 'road' with tape and having students demonstrate the correct way to cross.",
+      "<b>Part 3: How to Safely Cross a Rail Line</b>:<br><br>Steps to Safely Cross a Rail Line:<br>1. Use the Pedestrian Bridge or Crossing Gate: Always use an official crossing point.<br>2. Stop and Look Both Ways for Trains: Before crossing, look right and left for any oncoming trains.<br>3. Cross Quickly but Safely: Do not linger on the tracks. Cross quickly when it is safe.<br>4. Never Cross When Gates Are Down: If crossing gates are down, never try to cross as a train is coming.<br><br>Class Discussion:<br>Explain the importance of not crossing tracks at unauthorized places.<br>Talk about how trains cannot stop quickly, so it is important to always be cautious.",
+      "<b>Part 4: Importance of Following Crossing Rules</b>:<br><br>Why Should We Follow Road and Rail Line Safety Rules?<br>To protect ourselves and others from harm.<br>Vehicles and trains move quickly and can be dangerous if we are not careful.<br>Crossing rules help us stay safe in busy or dangerous areas.<br><br>Class Activity:<br>Discuss what might happen if someone crosses the road or rail line without looking or using the crossing points.<br>Role-play safe crossing scenarios in small groups.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. Why is it important to stop at the edge of the road before crossing?<br>2. What are the steps for safely crossing the road?<br>3. When you are crossing the road, which way should you look first?<br>4. Why should you use a pedestrian crossing when available?<br>5. Should you walk or run when crossing the road? Why?<br>6. What should you do before crossing a rail line?<br>7. Why is it important to wait for the green light or green man when crossing at a traffic light?<br>8. Why should you never cross a rail line if the gates are down?<br>9. What is the safe way to cross at a rail line crossing point?<br>10. What happens if someone doesn’t follow the rules for crossing roads and rail lines?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the activities and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will assess the students' understanding of road and rail line safety."
+  ],
+  "conclusion": [
+    "By learning about road and rail line safety, students will understand the importance of following rules to protect themselves and others from harm when crossing."
+  ]
+},
 
 // Lesson 2
-
-
+{
+  "title": "Introduction to Zebra Crossings",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Zebra Crossings",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to zebra crossings, their importance in road safety, and the correct way to use them.",
+  "materials": [
+    "Pictures of zebra crossings",
+    "Whiteboard and markers",
+    "Floor tape for mock zebra crossing"
+  ],
+  "objectives": [
+    "Students will understand what a zebra crossing is.",
+    "Students will learn the steps to safely use a zebra crossing.",
+    "Students will discuss the importance of using zebra crossings for road safety."
+  ],
+  "rationale": [
+    "Learning about zebra crossings helps students understand road safety and reduces the risk of accidents when crossing busy streets."
+  ],
+  "methodology": [
+    "The lesson will include discussions, practical demonstrations, and role-playing exercises to help students understand zebra crossings."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Zebra Crossings</b>:<br><br>What is a Zebra Crossing?<br>A zebra crossing is a place on the road marked with white stripes where pedestrians have the right of way to cross the road safely. Drivers must stop and allow pedestrians to cross when they see someone at the zebra crossing.<br><br>Why is it Called a Zebra Crossing?<br>It’s named after the black and white stripes, which look like the pattern on a zebra.<br><br>Discussion:<br>Show students pictures of zebra crossings and ask if they have ever used one.<br>Explain how zebra crossings are placed on busy roads to help people cross safely.",
+      "<b>Part 2: How to Use a Zebra Crossing</b>:<br><br>Steps to Safely Use a Zebra Crossing:<br>1. Stop at the Edge of the Zebra Crossing: Stand at the edge but do not step onto the road yet.<br>2. Look Right, Look Left, and Look Right Again: Ensure there are no cars coming, and if a car is approaching, make sure it is stopping for you.<br>3. Make Eye Contact with Drivers: This helps ensure that the driver has seen you and is stopping.<br>4. Walk Across the Road Carefully: Once the cars have stopped, walk, do not run, across the crossing.<br><br>Important Reminder:<br>Always wait for cars to stop before crossing, even if you are at the zebra crossing.<br><br>Class Activity:<br>Mark out a pretend zebra crossing in the classroom and have students practice stopping, looking both ways, and crossing safely.",
+      "<b>Part 3: The Importance of Using Zebra Crossings</b>:<br><br>Why Should We Use Zebra Crossings?<br>Zebra crossings are designed to make crossing busy roads safer for pedestrians.<br>Drivers are required to stop at zebra crossings, so it’s safer than crossing at other places on the road.<br><br>What Could Happen if We Don’t Use Zebra Crossings?<br>If we cross the road in places where there are no zebra crossings, drivers may not expect to stop, which increases the risk of accidents.<br><br>Class Activity:<br>Discuss with students what might happen if they cross the road without using a zebra crossing. Let students suggest other safe crossing points, such as pedestrian bridges or traffic lights.",
+      "<b>Part 4: Importance of Being Careful</b>:<br><br>Even at a Zebra Crossing:<br>Just because you’re at a zebra crossing doesn’t mean you should step onto the road without looking. Always check that cars are stopping.<br>Some drivers might not stop immediately, so it’s important to be patient.<br><br>Class Activity:<br>Have students work in pairs to demonstrate the correct use of a zebra crossing, showing each other how to look for cars and cross safely.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is a zebra crossing?<br>2. Why is it important to use a zebra crossing when crossing the road?<br>3. What should you do before stepping onto the zebra crossing?<br>4. Why should you look right, left, and right again before crossing?<br>5. What should you do if you see a car approaching the zebra crossing?<br>6. Why is it important to make eye contact with drivers at a zebra crossing?<br>7. Should you walk or run when crossing a zebra crossing?<br>8. What might happen if you cross the road without using a zebra crossing?<br>9. Why do drivers need to stop at zebra crossings?<br>10. Is it safe to step onto a zebra crossing if a car hasn’t stopped yet?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the activities and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will assess students' understanding of zebra crossings and road safety."
+  ],
+  "conclusion": [
+    "By learning about zebra crossings, students will understand how to safely cross the road and the importance of using designated crossings."
+  ]
+}
 ];
