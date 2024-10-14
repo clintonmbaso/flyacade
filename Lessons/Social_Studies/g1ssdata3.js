@@ -1,404 +1,7 @@
 const lessonPlans31c = [
- 
-//Term 2
+
+// Term 3
 // Week 2
-// Lesson 1
-{
-  "title": "Design Elements and Significance of the Zambian Flag",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding the Zambian Flag",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "1",
-  "description": "This lesson aims to help students understand the design elements of the Zambian flag, including the significance of each color and symbol. Students will explore how the flag reflects Zambia’s culture, history, and environment.",
-  "materials": [
-    "Printed images of the Zambian flag",
-    "Coloring sheets with blank Zambian flag outlines",
-    "Colored pencils or crayons (green, red, black, and orange)",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Students will identify the main design elements of the Zambian flag.",
-    "Students will learn the meanings behind each color and symbol on the flag.",
-    "Students will understand how the flag represents Zambia’s culture, history, and resources."
-  ],
-  "rationale": [
-    "Understanding the national flag helps students connect with their cultural heritage and develop a sense of national pride. Learning the significance of each element fosters respect for the symbols that represent Zambia’s identity."
-  ],
-  "methodology": [
-    "The lesson will include visual demonstrations, discussions, and interactive exercises. Students will analyze the flag’s design, engage in group activities, and complete exercises to reinforce their understanding of the flag's significance."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to the Zambian Flag:</b><br>Begin by showing an image of the Zambian flag. Ask students if they recognize it and what they know about it. Discuss the importance of flags as national symbols that represent a country's identity.",
-      "<b>Explanation of Design Elements:</b><br>Describe the design of the Zambian flag, including its four main colors: green, red, black, and orange, and the placement of the eagle. Explain the layout: the green background, the stripes on the right, and the eagle positioned above the stripes.",
-      "<b>Significance of Colors and Symbols:</b><br>Discuss the meaning of each color and the eagle on the flag:<br>- <b>Green:</b> Represents Zambia’s lush vegetation and natural resources.<br>- <b>Red:</b> Symbolizes the struggle for independence.<br>- <b>Black:</b> Represents the Zambian people.<br>- <b>Orange:</b> Signifies the country’s mineral wealth, particularly copper.<br>- <b>Eagle:</b> Symbolizes freedom and strength.",
-      "<b>Visual Analysis and Discussion:</b><br>Encourage students to draw or visualize the flag. Use the coloring sheets and guide them to color each part correctly, labeling each color and symbol with its meaning. Discuss how each element tells the story of Zambia.",
-      "<b>Class Exercise:</b><br>1. What are the main colors of the Zambian flag?<br>2. What does the green color on the Zambian flag represent?<br>3. Why is the red stripe on the flag important?<br>4. What does the black stripe symbolize?<br>5. Which color on the Zambian flag represents the country’s mineral wealth?<br>6. Describe the position of the eagle on the flag.<br>7. What does the eagle symbolize on the Zambian flag?<br>8. How do the colors and the eagle work together to tell the story of Zambia?<br>9. Match the symbol with its meaning: Green (a. Mineral wealth, b. Vegetation, c. People).<br>10. Draw the Zambian flag and label each color and symbol with its meaning."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will observe students' participation during discussions and their ability to correctly identify and explain the design elements of the flag.",
-    "<b>Exercise Review:</b> Review students’ drawings and answers to ensure understanding of the flag’s elements and their meanings."
-  ],
-  "conclusion": [
-    "Students will leave the lesson with a better understanding of the Zambian flag, appreciating how each element reflects the nation’s culture, history, and environment. They will also gain skills in visual analysis and symbolic interpretation."
-  ]
-},
-// Lesson 2
-{
-  "title": "History and Changes of the Zambian Flag",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding the Zambian Flag and Its Changes",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "2",
-  "description": "This lesson aims to teach students about the history of the Zambian flag, its origins, changes over time, and its significance as a national symbol.",
-  "materials": [
-    "Images of the Zambian flag over time",
-    "Map of Zambia for context",
-    "Worksheets for exercises"
-  ],
-  "objectives": [
-    "Students will learn about the history of the Zambian flag and its origins.",
-    "Students will understand the changes that have occurred to the flag since its adoption.",
-    "Students will recognize the flag's role in Zambia's national identity."
-  ],
-  "rationale": [
-    "Understanding the history and symbolism of the national flag helps students connect with their country’s heritage, fostering a sense of pride and unity."
-  ],
-  "methodology": [
-    "The lesson will include explanations of the flag's history, visual comparisons of the flag before and after changes, and discussions on the flag's significance. Interactive exercises will help reinforce the learning objectives."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to the Zambian Flag:</b><br>Begin the lesson by introducing the Zambian flag, explaining its colors and symbols. Discuss why flags are important symbols of a country’s identity and history.",
-      "<b>History of the Zambian Flag:</b><br>Explain that the Zambian flag was first hoisted on October 24, 1964, the day Zambia gained independence from British colonial rule. Describe the flag's design, which represents the nation’s aspirations and struggles.",
-      "<b>Changes to the Flag:</b><br>Discuss the minor changes made to the flag in 1996, particularly the adjustment in the shade of the green background. Explain why these changes were made, emphasizing the importance of maintaining vivid and symbolic colors that represent Zambia’s identity.",
-      "<b>Comparisons and Significance:</b><br>Compare the Zambian flag to other national flags, highlighting its unique colors and symbols. Discuss how the flag differs from others and the message it conveys both nationally and internationally. Emphasize its role in representing Zambia's sovereignty, culture, and journey to independence.",
-      "<b>Class Exercise:</b><br>1. When was the Zambian flag first hoisted?<br>2. What significant event does the flag’s adoption date represent?<br>3. What changes were made to the flag in 1996?<br>4. Why were the changes to the Zambian flag necessary?<br>5. How does the Zambian flag differ from other national flags?<br>6. What does the flag symbolize for the people of Zambia?<br>7. Name one event where the Zambian flag is prominently displayed.<br>8. Why is the flag important in representing national identity?<br>9. What message does the Zambian flag convey internationally?<br>10. Discuss one way the Zambian flag reflects the country’s journey to independence."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, responses to questions, and ability to relate the flag to Zambia’s history.",
-    "<b>Homework:</b> Draw the Zambian flag and write a short paragraph explaining its colors and what they represent."
-  ],
-  "conclusion": [
-    "By exploring the history, changes, and significance of the Zambian flag, students will gain a deeper appreciation for this important national symbol and its role in representing Zambia’s identity and independence."
-  ]
-},
-
-// Week 3
-// Lesson 1
-{
-  "title": "Introduction to the Zambian Flag and Its Rules",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding the Zambian Flag",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "3",
-  "lessonNumber": "1",
-  "description": "This lesson introduces students to the design, symbolism, and rules of the Zambian flag. It aims to educate students about the importance of respecting the flag and understanding its national significance.",
-  "materials": [
-    "Printed images of the Zambian flag",
-    "Whiteboard and markers",
-    "Projector for flag demonstrations",
-    "Worksheet with flag-related questions"
-  ],
-  "objectives": [
-    "Students will learn about the design and symbolism of the Zambian flag.",
-    "Students will understand the rules for displaying the Zambian flag.",
-    "Students will identify appropriate places for displaying the flag and the importance of flag etiquette during ceremonies."
-  ],
-  "rationale": [
-    "Understanding the national flag fosters a sense of patriotism and respect for national symbols. Teaching the rules for flag use instills respect for the country's heritage and cultural identity."
-  ],
-  "methodology": [
-    "The lesson will include explanations of the flag's design and symbolism, demonstrations on proper flag etiquette, and interactive discussions about the rules for displaying the flag."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Design of the Zambian Flag:</b><br>Explain that the Zambian flag consists of four main colors: green, red, black, and orange. Each color has a specific meaning: <br> - Green represents Zambia’s rich natural resources and vegetation. <br> - Red symbolizes the struggle for freedom and independence. <br> - Black represents the Zambian people. <br> - Orange stands for the country’s mineral wealth, particularly copper. <br> Emphasize the eagle in flight in the top right corner, which symbolizes the ability to rise above challenges.",
-      "<b>Rules for Displaying the Zambian Flag:</b><br>Discuss the importance of respecting the flag, stating that it should never touch the ground, be torn, or be used for decoration. Explain that the flag must always be clean and in good condition, representing the nation's pride.",
-      "<b>Appropriate Places to Display the Flag:</b><br>Teach the students about where the flag is appropriately displayed, such as government buildings, schools, airports, and on official vehicles during national ceremonies. Emphasize that the flag should be prominently displayed in places of national importance.",
-      "<b>Flag Etiquette in Ceremonies:</b><br>Explain how the flag should be handled during national ceremonies, such as being hoisted respectfully, often while the national anthem is played. The flag should be flown proudly and visibly during these important events.",
-      "<b>Class Exercise:</b><br>1. What do the colors on the Zambian flag represent?<br>2. What does the eagle on the flag symbolize?<br>3. Name one rule for displaying the Zambian flag.<br>4. Where should the Zambian flag not be used?<br>5. Where can you find the Zambian flag displayed?<br>6. Why is the flag displayed at government buildings?<br>7. What should you do if the flag becomes torn or dirty?<br>8. During what events is the flag hoisted?<br>9. How should the flag be handled during national ceremonies?<br>10. Why should the flag never touch the ground?"
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will observe students' participation during discussions and their understanding of the rules for displaying the flag.",
-    "<b>Feedback:</b> Provide feedback on the students' responses during the exercise, emphasizing key points about the flag’s design, symbolism, and rules."
-  ],
-  "conclusion": [
-    "By learning about the design, symbolism, and rules of the Zambian flag, students will develop a deeper understanding and respect for this important national symbol."
-  ]
-},
-
-// Lesson 2
-{
-  "title": "Flag Position and Meaning of Its Height on the Pole",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding Flag Position and Its Significance",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "3",
-  "lessonNumber": "2",
-  "description": "This lesson teaches students about the proper display of the national flag, the significance of its height on the pole, and the protocols for raising and lowering it.",
-  "materials": [
-    "Picture of a flagpole with flags at different heights",
-    "National flag and a model flagpole for demonstration",
-    "Worksheet with questions on flag protocol"
-  ],
-  "objectives": [
-    "Students will learn the correct position of the flag on a pole.",
-    "Students will understand the meaning of the flag's height, including full mast and half mast.",
-    "Students will know the protocols for raising and lowering the flag."
-  ],
-  "rationale": [
-    "Understanding flag protocols instills a sense of national pride and respect. It helps students appreciate the symbolic meanings of the flag's position and height on the pole."
-  ],
-  "methodology": [
-    "The lesson will include demonstrations of flag positions, explanations of protocols, and interactive group discussions to engage students in learning about the flag's significance."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Flag Position:</b><br>Begin by explaining the importance of the flag’s position on the pole. Show students how the flag is displayed at different heights during various occasions and discuss what each position represents.",
-      "<b>Full Mast and Half Mast:</b><br>Explain that the flag flown at full mast symbolizes celebration, pride, and national unity, while half mast signifies mourning or respect. Use pictures to illustrate these positions on the pole.",
-      "<b>Protocol for Raising and Lowering the Flag:</b><br>Demonstrate how to properly raise and lower the flag. Show that when raising the flag, it should be hoisted briskly, and when lowering, it should be brought down slowly and respectfully. If flown at half-mast, the flag should first be raised to the top before being lowered halfway.",
-      "<b>Respect for the Flag’s Position:</b><br>Discuss the rules for displaying the flag with others. Emphasize that the national flag should never be flown lower than other flags when displayed together. It should always be the first raised and the last lowered.",
-      "<b>Class Exercise:</b><br>1. What does it mean when the flag is flown at full mast?<br>2. What does flying the flag at half-mast signify?<br>3. How should the flag be raised?<br>4. How should the flag be lowered?<br>5. When flying at half-mast, what is the first step?<br>6. Why should the flag not be flown lower than other flags?<br>7. When is the flag flown at full mast?<br>8. What is the proper order when lowering multiple flags?<br>9. What does it show if the flag is flown at full height?<br>10. What should be done if another flag is displayed alongside the Zambian flag?"
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions, ability to identify flag positions, and adherence to protocols during demonstrations.",
-    "<b>Worksheet:</b> Students will complete a worksheet with questions on flag protocols, demonstrating their comprehension of the lesson."
-  ],
-  "conclusion": [
-    "By learning about the flag’s position and its significance, students will develop a deeper appreciation of national symbols and the respect required in their display."
-  ]
-},
-
-// Week 4
-// Lesson 1
-{
-  "title": "Understanding Children's Rights at Home",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, September 9, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Children's Rights at Home",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "4",
-  "lessonNumber": "1",
-  "description": "This lesson aims to help students understand their basic rights at home, such as being safe, heard, and cared for, and the importance of balancing education and play.",
-  "materials": [
-    "Visual aids showing different rights (pictures of children being loved, playing, studying, etc.)",
-    "Whiteboard and markers",
-    "Worksheets for exercises"
-  ],
-  "objectives": [
-    "Students will understand what children's rights are and why they are important.",
-    "Students will identify their rights at home, such as the right to be heard and the right to safety.",
-    "Students will learn how to express their opinions respectfully and understand the role of family in supporting their rights."
-  ],
-  "rationale": [
-    "Teaching children about their rights helps them understand their value and encourages a safe and respectful environment at home. It also empowers them to speak up and engage positively with their families."
-  ],
-  "methodology": [
-    "The lesson will include discussions, demonstrations, and interactive exercises that help students relate to their rights at home. Visual aids and real-life examples will be used to explain concepts clearly."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Children's Rights:</b><br>Begin by explaining what children's rights are—special rules that ensure kids are safe, loved, and healthy. Discuss examples of basic rights, such as having food, being safe, and receiving care when sick. Highlight that these rights apply at home and are essential for a happy and healthy life.",
-      "<b>The Right to Be Heard:</b><br>Explain that every child has the right to be listened to. Discuss the importance of parents paying attention to what children say and involving them in family discussions. Teach children how to express their feelings respectfully using polite language, like 'please' and 'thank you,' to create a respectful environment.",
-      "<b>The Right to Safety and Protection:</b><br>Discuss the importance of feeling safe at home. Children should never be afraid, and it’s the family’s role to create a loving and protective environment. Explain that safety includes protection from harm and a home free from shouting or fear.",
-      "<b>The Right to Education and Play:</b><br>Highlight the importance of learning and playing at home. Explain that education starts at home with learning manners and life skills, while play helps with creativity and relaxation. Discuss how balancing study and playtime is crucial for a child's overall development.",
-      "<b>Class Exercise:</b><br>1. What are children's rights?<br>2. Name two rights children have at home.<br>3. Why is it important for parents to listen to their children?<br>4. Circle the right: Children have the right to (feel scared / be safe) at home.<br>5. How can children show respect when speaking?<br>6. What is the role of parents in keeping children safe?<br>7. True or False: Children do not have the right to play at home.<br>8. Name one way children can be safe at home.<br>9. Why is balancing study and play important?<br>10. Write a sentence about a right you have at home."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will observe students during discussions and group activities to assess their understanding of children's rights and how they express their thoughts.",
-    "<b>Feedback:</b> Provide feedback on students' responses during the exercise, highlighting key points about rights and respectful communication. Encourage students to share their thoughts on how these rights are practiced at home."
-  ],
-  "conclusion": [
-    "By understanding their rights at home, students will learn the importance of safety, respect, and communication. This lesson will help them feel empowered and valued as part of their family."
-  ]
-},
-
-// Lesson 2
-{
-  "title": "Respect and Communication Within the Family",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Respect and Communication in the Family",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "4",
-  "lessonNumber": "2",
-  "description": "This lesson focuses on understanding the importance of respect and effective communication within the family. Students will learn how to demonstrate respect, communicate effectively, and resolve conflicts in a respectful manner.",
-  "materials": [
-    "Whiteboard and markers",
-    "Visual aids or charts on respect and communication",
-    "Role-play cards for conflict resolution"
-  ],
-  "objectives": [
-    "Students will recognize the importance of respect and communication in family relationships.",
-    "Students will understand how to show respect and communicate effectively within their families.",
-    "Students will learn strategies for resolving conflicts respectfully and creating a positive family environment."
-  ],
-  "rationale": [
-    "Understanding and practicing respect and effective communication are crucial for building strong, harmonious family relationships. These skills help children interact positively with family members and resolve conflicts constructively."
-  ],
-  "methodology": [
-    "The lesson will include explanations, discussions, and role-playing activities to illustrate the concepts of respect and communication. Visual aids and interactive exercises will be used to enhance understanding and engagement."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Understanding Respect in the Family:</b><br>Explain what respect means: treating others with kindness, listening, and valuing their opinions. Discuss examples of showing respect at home, such as listening when someone is talking, using polite words, and being considerate in actions.",
-      "<b>The Importance of Communication in the Family:</b><br>Define communication as talking and listening to each other. Discuss how good communication helps families understand needs, solve problems, and build strong relationships. Explain effective communication practices, including speaking calmly and listening without interrupting.",
-      "<b>Solving Problems Through Respectful Communication:</b><br>Discuss how conflicts can be resolved respectfully by talking calmly, listening to different viewpoints, and working together to find solutions. Emphasize the importance of apologizing and forgiving to maintain peace at home. Include a role-play activity where students practice resolving a simple conflict respectfully.",
-      "<b>Creating a Respectful Environment at Home:</b><br>Discuss the roles of parents and children in creating a respectful home environment. Explain how parents can set good examples and children can follow rules and show respect. Talk about the benefits of respect and good communication, such as feeling valued and maintaining harmony.",
-      "<b>Exercise Questions:</b><br>1. What does respect mean?<br>2. Name two ways you can show respect at home.<br>3. True or False: Communication means only talking, not listening.<br>4. How can you solve a conflict respectfully?<br>5. Why is it important to listen when someone is talking?<br>6. What should you avoid doing when communicating?<br>7. Circle the correct statement: Good communication helps (solve problems / create problems).<br>8. Name one benefit of respectful communication in a family.<br>9. Write a sentence about how you can show respect to your siblings.<br>10. What should you do if you are wrong in a disagreement?"
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of respect and communication through their participation in discussions and role-playing activities.",
-    "<b>Feedback:</b> Provide feedback on students' responses to the exercise questions and their participation in role-playing, emphasizing areas for improvement and reinforcing positive behaviors."
-  ],
-  "conclusion": [
-    "By learning about and practicing respect and effective communication, students will develop skills to foster positive relationships within their families. This will contribute to a supportive and harmonious home environment."
-  ]
-},
-
-// Week 5
-// Lesson 1
-{
-  "title": "Understanding Children's Rights in a School Setting",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Children's Rights in School",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "5",
-  "lessonNumber": "1",
-  "description": "This lesson helps students recognize and understand their rights as children in a school setting. It covers their right to safety, fair treatment, and the ability to voice their opinions.",
-  "materials": [
-    "Whiteboard and markers",
-    "Printed handouts on children's rights",
-    "Visual aids illustrating children's rights"
-  ],
-  "objectives": [
-    "Students will understand what children's rights are in a school setting.",
-    "Students will recognize their right to a safe learning environment and fair treatment.",
-    "Students will learn the importance of voicing their opinions and how to do so."
-  ],
-  "rationale": [
-    "Understanding children's rights helps students feel secure and valued, promotes fairness, and encourages them to participate actively in their school community."
-  ],
-  "methodology": [
-    "The lesson will include explanations, discussions, and activities to help students grasp the concept of children's rights. Visual aids and handouts will support learning and facilitate understanding."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Children's Rights at School:</b><br>Discuss what children’s rights are and why they are important. Explain that these rights ensure students are treated fairly and have the chance to grow and learn in a safe environment.",
-      "<b>Examples of Rights in School:</b><br>Provide examples of rights such as the right to attend classes, get help when needed, be free from bullying, and express opinions. Explain how understanding these rights helps students feel secure and valued.",
-      "<b>The Right to a Safe Learning Environment:</b><br>Discuss what a safe learning environment means, including protection from harm and discrimination. Explain the responsibilities of both students and staff in maintaining safety in school.",
-      "<b>The Right to Fair Treatment:</b><br>Explain the importance of being treated fairly, which includes not being discriminated against and having equal access to resources and opportunities. Discuss how fair treatment benefits everyone in the classroom.",
-      "<b>Exercise Questions:</b><br>1. What are children's rights at school?<br>2. Name two rights that students have in a school setting.<br>3. True or False: Students have the right to be safe from bullying.<br>4. How can students help maintain a safe school environment?<br>5. What does it mean to be treated fairly in school?<br>6. Circle the right: Students have the right to (equal access / unequal access) to resources.<br>7. Why is it important for students to voice their opinions?<br>8. Name one way students can express their thoughts at school.<br>9. True or False: Students should ignore concerns about safety.<br>10. Write a sentence about the right to a safe learning environment."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of their rights through participation in discussions and completion of exercise questions.",
-    "<b>Feedback:</b> Provide feedback on students' responses to the exercise questions and their engagement in the discussion about rights and responsibilities."
-  ],
-  "conclusion": [
-    "By understanding and discussing their rights, students will feel more secure and respected in their school environment. They will also learn how to advocate for themselves and others, contributing to a positive school community."
-  ]
-},
-
-// Lesson 2
-{
-  "title": "Cooperation and Fairness in School",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding Cooperation and Fairness",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "5",
-  "lessonNumber": "2",
-  "description": "This lesson aims to help students understand the importance of cooperation and fairness in the school environment. Through discussions, examples, and activities, students will learn how these concepts contribute to a positive and productive school atmosphere.",
-  "materials": [
-    "Whiteboard and markers",
-    "Visual aids with examples of cooperation and fairness",
-    "Worksheets for exercises"
-  ],
-  "objectives": [
-    "Students will understand what cooperation and fairness mean in a school context.",
-    "Students will identify the benefits of cooperation and fairness.",
-    "Students will practice cooperation and fairness through group activities and discussions."
-  ],
-  "rationale": [
-    "Cooperation and fairness are fundamental to creating a positive learning environment. Understanding and practicing these concepts help students work better together, develop empathy, and ensure everyone has an equal opportunity to succeed."
-  ],
-  "methodology": [
-    "The lesson will include explanations of cooperation and fairness, discussions about their importance, and practical exercises to help students apply these concepts. Visual aids and interactive activities will be used to reinforce learning."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Understanding Cooperation:</b><br>Explain that cooperation means working together to achieve common goals. Discuss how helping classmates, sharing responsibilities, and teamwork are essential in school.",
-      "<b>Benefits of Cooperation:</b><br>Discuss the benefits of cooperation, such as creating a positive classroom environment, improving teamwork skills, and making learning more enjoyable. Use examples to illustrate these points.",
-      "<b>The Importance of Fairness:</b><br>Define fairness as treating everyone equally and ensuring everyone has the same opportunities. Explain how fairness involves honesty and making just decisions for all.",
-      "<b>Examples of Fairness:</b><br>Provide examples of fairness in school, such as giving all students a chance to participate, grading based on individual work, and ensuring equal access to resources.",
-      "<b>Exercise Questions:</b><br>1. What does cooperation mean?<br>2. Name two benefits of cooperating with classmates.<br>3. True or False: Fairness means treating everyone equally.<br>4. How can students practice fairness in the classroom?<br>5. What are some examples of cooperation in school?<br>6. Circle the benefit: Cooperation helps create a (positive / negative) classroom environment.<br>7. Why is it important for students to ensure fairness?<br>8. Name one way students can work together on a project.<br>9. True or False: Fairness involves making sure everyone has the same opportunities.<br>10. Write a sentence about the importance of fairness in school."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions and their responses to exercise questions.",
-    "<b>Worksheet Review:</b> Review the completed worksheets to evaluate students' grasp of cooperation and fairness concepts and their ability to apply them."
-  ],
-  "conclusion": [
-    "By understanding and practicing cooperation and fairness, students will contribute to a positive and productive school environment. These skills will help them work effectively with others and ensure everyone has a fair chance to succeed."
-  ]
-},
-
-// Week 7
 // Lesson 1
 {
   "title": "Introduction to Friendship and Love",
@@ -410,7 +13,7 @@ const lessonPlans31c = [
   "topic": "Understanding Friendship and Love",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "7",
+  "week": "2",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the concepts of friendship and love, with a focus on understanding the qualities of a good friend and how to apply them in daily life.",
   "materials": [
@@ -459,7 +62,7 @@ const lessonPlans31c = [
   "topic": "Understanding Jesus’ Friendship",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "7",
+  "week": "2",
   "lessonNumber": "2",
   "description": "This lesson introduces students to the friendship of Jesus, focusing on His love and care for children, as demonstrated in stories from the Bible.",
   "materials": [
@@ -497,7 +100,7 @@ const lessonPlans31c = [
   ]
 },
 
-// Week 8
+// Week 3
 // Lesson 1
 {
   "title": "Introduction to Jesus’ Friendship",
@@ -509,7 +112,7 @@ const lessonPlans31c = [
   "topic": "Understanding Jesus’ Friendship",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "8",
+  "week": "3",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the friendship of Jesus, focusing on His love and care for children, as demonstrated in stories from the Bible.",
   "materials": [
@@ -558,7 +161,7 @@ const lessonPlans31c = [
   "topic": "Understanding God’s Good Gifts",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "8",
+  "week": "3",
   "lessonNumber": "2",
   "description": "This lesson introduces students to the goodness of God and the special gifts He provides for us, focusing on life, water, air, and sunlight.",
   "materials": [
@@ -596,7 +199,7 @@ const lessonPlans31c = [
   ]
 },
 
-// Week 9
+// Week 4
 // Lesson 1
 {
   "title": "Introduction to God’s Good Gifts",
@@ -608,7 +211,7 @@ const lessonPlans31c = [
   "topic": "Understanding God’s Good Gifts",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "9",
+  "week": "4",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the good gifts from God, focusing on food, parents, and protection, as blessings that show His love and care for us.",
   "materials": [
@@ -659,7 +262,7 @@ const lessonPlans31c = [
   "topic": "Understanding the Good Samaritan",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "9",
+  "week": "4",
   "lessonNumber": "2",
   "description": "This lesson introduces students to the story of the Good Samaritan, focusing on love, kindness, and helping others.",
   "materials": [
@@ -697,7 +300,7 @@ const lessonPlans31c = [
   ]
 },
 
-// Week 10
+// Week 5
 // Lesson 1
 {
   "title": "Introduction to Helping Others",
@@ -709,7 +312,7 @@ const lessonPlans31c = [
   "topic": "Understanding Helping Others",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "10",
+  "week": "5",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the concept of helping others, focusing on caring for the sick and elderly.",
   "materials": [
@@ -759,7 +362,7 @@ const lessonPlans31c = [
   "topic": "Understanding the Importance of Helping Others",
   "grade": "Feather Flyers",
   "term": "3",
-  "week": "10",
+  "week": "5",
   "lessonNumber": "2",
   "description": "This lesson introduces students to the concept of helping others, emphasizing the importance and various ways to assist those in need.",
   "materials": [
@@ -795,5 +398,128 @@ const lessonPlans31c = [
   "conclusion": [
     "By learning about helping others and different ways to assist those in need, students will understand the significance of kindness and community support."
   ]
-}
+},
+
+// Week 7
+// Lesson 1
+{
+  "title": "Introduction to Transport",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Different Types of Transport",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of transport, its importance in daily life, and the different types of transport available.",
+  "materials": [
+    "Pictures or drawings of different types of transport",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn the definition of transport and its importance.",
+    "Students will identify different types of transport, including walking, riding, cycling, flying, and paddling.",
+    "Students will discuss how transport helps in moving people and goods.",
+    "Students will understand the role of transport in their own communities."
+  ],
+  "rationale": [
+    "Understanding transport and its role in society helps students relate to the ways in which people and goods move around, fostering awareness of the world around them."
+  ],
+  "methodology": [
+    "The lesson will use discussions, storytelling, and visuals to explain the concept of transport and its various types."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Transport</b>:<br><br>What is Transport?<br>Transport refers to the different ways that people and goods move from one place to another. It is an important part of our daily lives, helping us travel and get the things we need.<br><br>Importance of Transport:<br>Transport helps us visit places, meet people, and get food, clothes, and other items.<br>It allows goods to move from farms, factories, and shops to where people live.<br><br>Discussion:<br>Ask students how they traveled to school today.<br>Introduce the idea that there are many different types of transport, each with a special purpose.",
+      "<b>Part 2: Types of Transport</b>:<br><br>1. Walking (Feet):<br>The simplest form of transport is walking. We use our feet to move from one place to another, especially for short distances.<br>Example: Walking to school or the nearby shop.<br><br>2. Riding (Scotch-cart, Motor Vehicle, Train, Wheelbarrow):<br>Riding involves using vehicles to travel. Some examples include riding in a scotch-cart, a car, a train, or pushing a wheelbarrow.<br>Scotch-cart: A cart pulled by animals, used to carry goods in rural areas.<br>Motor Vehicle: Cars, trucks, and buses that move people and goods quickly.<br>Train: Trains can carry many passengers and goods over long distances.<br>Wheelbarrow: Used for moving smaller items by pushing it on one wheel.<br><br>Class Activity:<br>Ask students to share experiences of riding in any of these types of transport.<br>Discuss what goods can be carried using each type.",
+      "<b>Part 3: Other Forms of Transport</b>:<br><br>3. Cycling (Bicycle):<br>A bicycle is a two-wheeled vehicle that people pedal to move. It is a simple, eco-friendly form of transport.<br>Example: Using a bicycle to deliver goods or travel short distances.<br><br>4. Flying (Aeroplane):<br>Aeroplanes are used for fast travel over long distances, such as between countries. People and goods are moved quickly across the world.<br>Example: Flying in an airplane for a holiday or transporting important goods to other countries.<br><br>5. Paddling (Boat):<br>Boats are used to travel across water by paddling or using motors. They can carry people and goods, especially in areas with lakes, rivers, or oceans.<br>Example: Paddling a boat to carry goods across a river.<br><br>Class Activity:<br>Show pictures of different types of transport, such as bicycles, aeroplanes, and boats.<br>Let students describe how they have seen or used these types of transport.",
+      "<b>Part 4: Understanding the Role of Transport in Daily Life</b>:<br><br>How Does Transport Help Us?<br>Transport helps us move from place to place, whether by walking or riding.<br>It allows farmers, manufacturers, and shops to deliver goods to homes and markets.<br>It helps connect people across towns, cities, and countries.<br><br>Connecting Transport to Daily Life:<br>Ask students how different types of transport are used in their community.<br>Discuss how goods like food, toys, or clothing are transported from factories to stores and homes.<br><br>Class Activity:<br>Create a 'Types of Transport' chart on the board where students can draw or write the names of the types of transport they use or have seen.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is transport?<br>2. Name two types of transport people can use to walk.<br>3. How do people use scotch-carts to move goods?<br>4. What type of transport is a bicycle?<br>5. Why do people use aeroplanes?<br>6. What is a train used for?<br>7. How is a wheelbarrow helpful for moving things?<br>8. What kind of transport is used to travel across water?<br>9. Can you name a type of transport used to travel long distances?<br>10. Why is transport important for delivering goods to homes and shops?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and their understanding of different types of transport.",
+    "<b>Exercise</b>: The 10-question exercise will assess students' knowledge of the types of transport and their uses."
+  ],
+  "conclusion": [
+    "By learning about transport and its importance, students will understand how people and goods move from one place to another and how transport helps in daily life."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Introduction to Communication",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Communication",
+  "grade": "Feather Flyers",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of communication, including verbal and non-verbal methods, and explores the tools used to communicate in different ways.",
+  "materials": [
+    "Whiteboard and markers",
+    "Phone",
+    "Letter",
+    "Pictures of communication tools",
+    "Drum"
+  ],
+  "objectives": [
+    "Students will learn what communication is and why it is important.",
+    "Students will understand the difference between verbal and non-verbal communication.",
+    "Students will explore different tools and methods used to communicate."
+  ],
+  "rationale": [
+    "Understanding different ways of communicating helps students express themselves better and connect with others."
+  ],
+  "methodology": [
+    "The lesson will use discussions, examples, and activities to teach students about communication."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Communication</b>:<br><br>What is Communication?<br>Communication is how people share their thoughts, ideas, and feelings with others. It allows us to express ourselves, connect with others, and solve problems.<br><br>Why Do We Communicate?<br>To express needs and feelings.<br>To share information or ideas.<br>To build relationships with others.<br><br>Discussion:<br>Ask students how they talk to their friends or family and what tools they use to communicate.<br>Introduce the concept of different ways to communicate.",
+      "<b>Part 2: Verbal Communication</b>:<br><br>What is Verbal Communication?<br>Verbal communication involves using words to express ideas. It can happen face-to-face or over a distance.<br><br>Examples of Verbal Communication:<br>Speaking: Talking directly to someone in person or over the phone.<br>Singing: Sharing feelings or stories through songs.<br><br>Tools Used in Verbal Communication:<br>Phone: A tool to talk to someone far away.<br>Letter: Writing down thoughts and sending them through the mail.<br><br>Class Activity:<br>Practice speaking to a classmate about something they like.<br>Ask students to imagine they are calling a friend and what they might say.",
+      "<b>Part 3: Non-Verbal Communication</b>:<br><br>What is Non-Verbal Communication?<br>Non-verbal communication means sharing messages without using words. It can include gestures, facial expressions, and body language.<br><br>Examples of Non-Verbal Communication:<br>Gestures: Waving to say hello or goodbye.<br>Facial Expressions: Smiling to show happiness or frowning to show sadness.<br>Drums: In some cultures, drums are used to send messages over long distances.<br><br>Class Activity:<br>Use gestures to say hello or ask for something without speaking.<br>Demonstrate different facial expressions and ask the class to guess the emotion.",
+      "<b>Part 4: Tools and Methods of Communication</b>:<br><br>Different Tools for Communication:<br>1. Letters: Writing to someone who is far away, and the message is delivered through the post.<br>2. Phone: A device that allows people to talk over long distances.<br>3. Drums: In certain communities, drums are used to send signals or messages, especially in traditional settings.<br><br>Why Are These Tools Important?<br>Letters help when people can't meet in person.<br>Phones allow for instant communication across the world.<br>Drums and other non-verbal methods help convey messages in places where modern tools aren’t available.<br><br>Class Activity:<br>Show examples of different tools like a phone or a letter and ask how students would use them to communicate.<br>Demonstrate how drums might have been used in the past for communication in some cultures.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is communication?<br>2. Why do people communicate with each other?<br>3. What is verbal communication?<br>4. Can you name a tool used in verbal communication?<br>5. What is non-verbal communication?<br>6. Give an example of non-verbal communication.<br>7. What tool can we use to talk to someone far away?<br>8. How can a letter be used to communicate?<br>9. In what way were drums used for communication in some cultures?<br>10. Why is it important to know different ways of communicating?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in class discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of communication."
+  ],
+  "conclusion": [
+    "By learning about verbal and non-verbal communication, students will gain a better understanding of how to connect with others and express their thoughts and feelings."
+  ]
+},
+
+// Week 8
+// Lesson 1
+
+
+// Lesson 2
+
+
+// Week 9
+// Lesson 1
+
+
+// Lesson 2
+
+
+// Week 10
+// Lesson 1
+
+
+// Lesson 2
+
+
 ];
