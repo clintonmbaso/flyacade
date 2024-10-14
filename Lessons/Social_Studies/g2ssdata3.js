@@ -600,175 +600,594 @@ const lessonPlans32c = [
 // Week 7
 // Lesson 1
 {
-  "title": "Understanding Pedestrians as Road Users",
+  "title": "Introduction to Motorists and Road Safety",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Social Studies",
-  "topic": "Understanding Pedestrians and Their Roles",
+  "topic": "Understanding Motorists and Their Responsibilities",
   "grade": "Cloud Chicks",
   "term": "3",
   "week": "7",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to the concept of pedestrians as road users, highlighting their roles, responsibilities, safety tips, and rights on the road.",
+  "description": "This lesson introduces students to the concept of motorists, their responsibilities, and safe driving practices, focusing on how motorists contribute to road safety.",
   "materials": [
-    "Illustrations of road signs and pedestrian crossings",
-    "Pictures showing pedestrians in different scenarios",
-    "Whiteboard and markers"
+    "Pictures of road signs",
+    "Whiteboard and markers",
+    "Seatbelt demonstration materials"
   ],
   "objectives": [
-    "Students will learn who pedestrians are and identify examples of pedestrians.",
-    "Students will understand the responsibilities of pedestrians on the road.",
-    "Students will be able to list safety tips that pedestrians should follow.",
-    "Students will learn about pedestrian rights on the road.",
-    "Students will apply their knowledge through exercise questions."
+    "Students will learn who motorists are and what vehicles they drive.",
+    "Students will understand the responsibilities of motorists and the importance of following road signs and speed limits.",
+    "Students will identify safe driving practices such as wearing seatbelts and avoiding distractions.",
+    "Students will understand how motorists contribute to road safety for everyone."
   ],
   "rationale": [
-    "Teaching students about pedestrians and their roles as road users helps promote road safety awareness, reducing the risk of accidents and encouraging responsible behavior on the road."
+    "Understanding motorists and their responsibilities helps students develop awareness of road safety, which is important for both motorists and pedestrians."
   ],
   "methodology": [
-    "The lesson will include definitions, demonstrations with visual aids, discussions, and interactive exercises to help students understand the role and responsibilities of pedestrians on the road."
+    "The lesson will use discussions, demonstrations, and role-playing to help students understand the role and responsibilities of motorists in maintaining road safety."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Who Are Pedestrians?</b><br>Definition of Pedestrians: Pedestrians are people who walk on the streets, sidewalks, or cross the road. They are one of the most common road users and include children, adults, the elderly, and people with disabilities.<br>Examples of Pedestrians: Examples of pedestrians include school children walking to class, parents pushing strollers, people jogging on sidewalks, and seniors walking with canes. Discuss these examples with visual aids.",
-      "<b>Responsibilities of Pedestrians:</b><br>Following Traffic Rules: Pedestrians should always use sidewalks, crosswalks, and pedestrian bridges when available. They should look both ways before crossing the road and follow traffic signals, like crossing when the light is green for pedestrians.<br>Staying Visible and Safe: Pedestrians should wear bright or reflective clothing, especially at night, to be seen by motorists and cyclists. They should avoid distractions like using phones while crossing the road to stay aware of their surroundings.",
-      "<b>Safety Tips for Pedestrians:</b><br>Using Crosswalks and Zebra Crossings: Always cross at designated crosswalks or zebra crossings. If there is no crosswalk, look for a safe spot where you can see oncoming traffic clearly.<br>Being Aware of Surroundings: Pedestrians should be alert, avoid wearing headphones when crossing streets, and watch out for vehicles, cyclists, and other road users to stay safe.",
-      "<b>Pedestrian Rights on the Road:</b><br>Right of Way at Crosswalks: Pedestrians have the right of way at crosswalks, and motorists are required to stop and let them pass. However, pedestrians should ensure it is safe before stepping onto the road.<br>Respect from Other Road Users: Pedestrians should be treated with respect by all road users, including motorists and cyclists, ensuring a safe and friendly road environment.",
-      "<b>Class Exercise:</b><br>1. Who are pedestrians?<br>2. Name two examples of pedestrians.<br>3. Why should pedestrians use crosswalks?<br>4. True or False: Pedestrians should cross the road anywhere they like.<br>5. What should pedestrians wear at night to stay visible?<br>6. Circle the correct answer: Pedestrians should (ignore / follow) traffic signals.<br>7. Why is it important for pedestrians to stay alert?<br>8. Where should pedestrians walk when there is a sidewalk?<br>9. What should a pedestrian do before crossing the road?<br>10. Describe one way pedestrians can stay safe on the road."
+      "<b>Part 1: Introduction to Motorists</b>:<br><br>Who Are Motorists?<br>Motorists are people who drive vehicles like cars, buses, trucks, or motorcycles on the road. They use vehicles to move from one place to another.<br><br>Why Is It Important to Know About Motorists?<br>They share the road with pedestrians and cyclists.<br>They help transport people and goods.<br>Knowing how motorists act helps us stay safe on the road.<br><br>Discussion:<br>Ask students if they have seen people driving cars, buses, or motorcycles.<br>Discuss what vehicles motorists drive and how important they are for transportation.",
+      "<b>Part 2: Responsibilities of Motorists</b>:<br><br>What Do Motorists Need to Do?<br>Motorists have many responsibilities to ensure their safety and the safety of others on the road.<br><br>Key Responsibilities:<br>Follow Road Signs: Motorists must obey road signs like “Stop” and “Yield” to avoid accidents.<br>Observe Speed Limits: Motorists should drive within the speed limits, especially in areas like schools or pedestrian crossings.<br>Stop for Pedestrians: Motorists must stop and let pedestrians cross at pedestrian crossings or traffic lights.<br><br>Class Activity:<br>Show pictures of road signs and discuss how motorists follow them.<br>Ask students why it’s important for drivers to obey speed limits.",
+      "<b>Part 3: Safe Driving Practices</b>:<br><br>What Are Safe Driving Practices?<br>Safe driving practices are actions motorists take to avoid accidents and make the roads safer for everyone.<br><br>Examples of Safe Practices:<br>Wearing a Seatbelt: Motorists should always wear a seatbelt to protect themselves.<br>No Distractions: Motorists should not use their phones or get distracted while driving.<br>Using Indicators: Motorists should use their indicators to show other drivers when they are turning or changing lanes.<br><br>Class Activity:<br>Demonstrate how seatbelts work and why they are important for motorists.<br>Discuss the importance of paying attention while driving and not using a phone.",
+      "<b>Part 4: Importance of Motorists in Road Safety</b>:<br><br>Why Are Motorists Important for Road Safety?<br>Motorists play a crucial role in keeping roads safe for everyone.<br><br>How Do Motorists Contribute to Road Safety?<br>By Following Traffic Laws: This prevents accidents and ensures smooth traffic flow.<br>Being Aware of Other Road Users: Motorists must watch out for pedestrians, cyclists, and other vehicles on the road.<br>Stopping at Crossings: This ensures that pedestrians can cross the road safely.<br><br>Class Activity:<br>Discuss with students how motorists help pedestrians by stopping at crossings.<br>Role-play a scenario where a motorist stops for pedestrians.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. Who are motorists?<br>2. What types of vehicles do motorists drive?<br>3. Why is it important for motorists to follow road signs?<br>4. What does a motorist do at a pedestrian crossing?<br>5. Why should motorists follow speed limits?<br>6. What safety item should a motorist always wear?<br>7. Why shouldn’t motorists use their phones while driving?<br>8. How do motorists show other drivers when they are turning?<br>9. What do motorists need to do to keep roads safe for everyone?<br>10. Why should motorists be aware of pedestrians and cyclists?"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students’ understanding through participation in discussions and their responses to the exercise questions.",
-    "<b>Feedback:</b> Provide feedback on answers, highlight key pedestrian safety tips, and emphasize the importance of following road rules."
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of motorists and their responsibilities."
   ],
   "conclusion": [
-    "By understanding who pedestrians are, their responsibilities, safety tips, and rights on the road, students will be better equipped to navigate as safe and responsible road users."
+    "By learning about motorists and road safety, students will develop a better understanding of how to stay safe on the roads and the responsibilities of those who drive."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Understanding Motorists as Road Users",
+  "title": "Introduction to Road Users",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Social Studies",
-  "topic": "Motorists as Road Users",
+  "topic": "Understanding Road Users",
   "grade": "Cloud Chicks",
   "term": "3",
   "week": "7",
   "lessonNumber": "2",
-  "description": "This lesson aims to teach students about motorists, their responsibilities on the road, and how they interact with other road users to ensure safety.",
+  "description": "This lesson introduces students to road users, focusing on their roles and responsibilities, with an emphasis on pedestrians and cyclists.",
   "materials": [
     "Whiteboard and markers",
-    "Pictures of different motorists (e.g., car drivers, bus drivers)",
-    "Traffic signs and road safety posters"
+    "Pictures of pedestrians and cyclists",
+    "Traffic signal cards"
   ],
   "objectives": [
-    "Students will understand who motorists are and their roles on the road.",
-    "Students will learn about the responsibilities of motorists.",
-    "Students will identify ways motorists can ensure road safety for themselves and others."
+    "Students will learn who road users are and why they are important.",
+    "Students will understand the roles of pedestrians and cyclists.",
+    "Students will learn how pedestrians and cyclists can share the road safely."
   ],
   "rationale": [
-    "Learning about motorists and their responsibilities helps students understand the importance of road safety and the role each road user plays in maintaining a safe environment."
+    "Understanding the responsibilities of road users helps ensure safety and promotes responsible behavior on the road."
   ],
   "methodology": [
-    "The lesson includes explanations, demonstrations using visuals, group discussions, and interactive exercises to help students understand the roles and responsibilities of motorists."
+    "The lesson will use discussion, role-playing, and interactive activities to teach students about road users, focusing on safety and sharing the road."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Who Are Motorists?</b><br>Motorists are people who drive vehicles on the road. This includes drivers of cars, trucks, buses, motorcycles, and other motorized vehicles. Understanding who motorists are helps students identify different road users and recognize their importance in daily transportation.",
-      "<b>Responsibilities of Motorists:</b><br>Motorists must follow traffic rules, such as obeying speed limits, stopping at red lights, using turn signals, and yielding to pedestrians at crosswalks. They should maintain a safe distance from other vehicles, cyclists, and pedestrians to prevent accidents. These responsibilities are crucial for the safety of all road users.",
-      "<b>Safety Tips for Motorists:</b><br>Motorists should avoid distractions like texting or eating while driving. Using seat belts is essential for safety, and signals should always be used when turning or changing lanes to inform other road users of their intentions. These practices help reduce the risk of accidents.",
-      "<b>Respecting Other Road Users:</b><br>Motorists should yield to pedestrians at crosswalks and give space to cyclists. Sharing the road respectfully with all users, including cyclists and pedestrians, helps create a safer and more harmonious road environment.",
-      "<b>Exercise:</b><br>1. Who are motorists?<br>2. Name two examples of vehicles driven by motorists.<br>3. What is one responsibility of a motorist?<br>4. True or False: Motorists should yield to pedestrians at crosswalks.<br>5. What should motorists avoid to stay safe while driving?<br>6. Circle the correct answer: Motorists should (ignore / follow) traffic rules.<br>7. Why is using seat belts important?<br>8. How can motorists show respect to cyclists?<br>9. What should motorists do at red traffic lights?<br>10. Describe one way motorists can share the road safely."
+      "<b>Part 1: Introduction to Road Users</b>:<br><br>What Are Road Users?<br>Road users are people who travel on or near the road. Everyone who walks, cycles, or drives is a road user.<br><br>Why Is It Important to Know About Road Users?<br>To ensure safety for everyone.<br>To understand how to behave on the road.<br>To know how to share the road responsibly.<br><br>Discussion:<br>Ask students how they get to school or visit other places.<br>Introduce two key road users: pedestrians and cyclists.",
+      "<b>Part 2: Pedestrians</b>:<br><br>Who Are Pedestrians?<br>Pedestrians are people who walk along the road or cross it.<br><br>Responsibilities of Pedestrians:<br>Always walk on the sidewalk or footpath if available.<br>Cross the road at safe places, like a pedestrian crossing or traffic light.<br>Look left, right, and left again before crossing the road.<br><br>Class Activity:<br>Practice crossing the road safely using an imaginary crossing.<br>Discuss how pedestrians can stay safe, especially near busy roads.",
+      "<b>Part 3: Cyclists</b>:<br><br>Who Are Cyclists?<br>Cyclists are people who ride bicycles on the road.<br><br>Responsibilities of Cyclists:<br>Wear a helmet and bright clothing for safety.<br>Ride on the correct side of the road, going in the same direction as traffic.<br>Follow the same traffic rules as cars and other vehicles.<br><br>Class Activity:<br>Ask students to imagine they are riding a bike. What rules should they follow to stay safe?<br>Discuss why it is important for cyclists to be visible to other road users.",
+      "<b>Part 4: How Pedestrians and Cyclists Share the Road</b>:<br><br>Sharing the Road Safely:<br>Pedestrians and cyclists must share the road carefully, especially when there are no separate paths for walking and biking.<br><br>How to Share the Road:<br>Pedestrians should stay on the sidewalk and avoid walking in the road.<br>Cyclists should ride on the road and not on the sidewalk.<br>Both should watch out for each other and follow traffic signals.<br><br>Class Activity:<br>Role-play a situation where students act as pedestrians and cyclists, showing how they can share the road safely.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is a road user?<br>2. Who are pedestrians?<br>3. Where should pedestrians walk for safety?<br>4. What should pedestrians do before crossing the road?<br>5. Who are cyclists?<br>6. What should cyclists wear for safety?<br>7. Why should cyclists follow the same traffic rules as cars?<br>8. Where should cyclists ride: on the road or sidewalk?<br>9. How can pedestrians and cyclists share the road safely?<br>10. Why is it important for both pedestrians and cyclists to follow road rules?"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions and responses to the exercise questions.",
-    "<b>Homework:</b> Write a short paragraph about why it is important for motorists to follow traffic rules."
+    "<b>Observation</b>: The teacher will observe students' participation in role-playing activities and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of road users and their responsibilities."
   ],
   "conclusion": [
-    "Through this lesson, students will gain an understanding of who motorists are, their responsibilities, and how they contribute to road safety. Recognizing these roles helps students appreciate the importance of safe driving practices and respectful sharing of the road."
+    "By learning about road users, students will understand the importance of safe and responsible behavior on the road, both as pedestrians and cyclists."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Understanding Cyclists, Animal Handlers, and Animals as Road Users",
+  "title": "Introduction to Animal Handlers and Animals",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Social Studies",
-  "topic": "Understanding Cyclists, Animal Handlers, and Animals as Road Users",
+  "topic": "Understanding Animal Handlers and Animals on the Road",
   "grade": "Cloud Chicks",
   "term": "3",
   "week": "7",
   "lessonNumber": "3",
-  "description": "This lesson aims to teach students about cyclists, animal handlers, and animals as road users, focusing on their roles, responsibilities, and how to safely share the road.",
+  "description": "This lesson introduces students to animal handlers, the animals they guide, and how road safety is important for both handlers and their animals.",
   "materials": [
-    "Illustrations or pictures of cyclists, animal handlers, and animals",
-    "Road safety signs and symbols",
-    "Worksheets for exercises"
+    "Pictures of animal handlers",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will understand who cyclists and animal handlers are and their roles on the road.",
-    "Students will learn about the responsibilities of cyclists and animal handlers.",
-    "Students will understand how to safely interact with animals on the road and respect all road users."
+    "Students will understand who animal handlers are and what they do.",
+    "Students will identify types of animals that might be seen on the road.",
+    "Students will learn the responsibilities of animal handlers to ensure road safety."
   ],
   "rationale": [
-    "Understanding the roles and responsibilities of different road users helps students develop awareness of road safety and promotes courteous behavior towards all road users, including cyclists and those handling animals."
+    "Understanding animal handlers’ roles and responsibilities helps students comprehend road safety measures involving animals, which is important for preventing accidents."
   ],
   "methodology": [
-    "The lesson includes explanations with visual aids, discussions on responsibilities, and interactive exercises to engage students in understanding road safety."
+    "The lesson will use discussions, demonstrations, and role-playing activities to help students understand the role of animal handlers and road safety."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Who Are Cyclists?</b><br>Cyclists are people who ride bicycles on roads or paths. They are considered vulnerable road users because they have less protection compared to motorists. It is important for them to follow road rules, use bike lanes when available, and wear helmets for their safety. Cyclists should also use hand signals to indicate turns or stops.",
-      "<b>Understanding Animal Handlers and Their Roles:</b><br>Animal handlers are people who guide or control animals on the road, such as shepherds, horse riders, or those walking dogs. They must ensure that the animals are under control at all times and use reflective gear if walking animals at dawn, dusk, or night. Animal handlers should keep animals calm and guide them safely on the side of the road.",
-      "<b>Animals as Road Users:</b><br>Animals like horses, cattle, and dogs can be seen on roads, especially in rural areas. Motorists and cyclists must be cautious around animals to prevent accidents. Slowing down, keeping a safe distance, and avoiding sudden movements or loud noises help keep both the animals and road users safe.",
-      "<b>Respecting All Road Users:</b><br>All road users should respect each other’s space. Cyclists should ride in a straight line and be visible, while motorists should give them enough space. Animal handlers should keep animals away from traffic when possible. Patience and courtesy are essential in ensuring safety; giving space to slower road users and waiting patiently behind animals can prevent accidents.",
-      "<b>Exercise Questions:</b><br>1. Who are cyclists?<br>2. What should cyclists wear for safety?<br>3. Name one responsibility of an animal handler.<br>4. True or False: Cyclists should follow traffic rules just like motorists.<br>5. What should motorists do when they see animals on the road?<br>6. Circle the correct answer: Cyclists should (ride anywhere / use bike lanes).<br>7. How can animal handlers keep their animals safe on the road?<br>8. What is a common road rule that cyclists and motorists must follow?<br>9. Why should motorists be cautious around animals on the road?<br>10. Describe one way to respect cyclists on the road."
+      "<b>Part 1: Introduction to Animal Handlers and Animals</b>:<br><br>Who Are Animal Handlers?<br>Animal handlers are people who take care of and guide animals on or near the road. They might walk dogs, ride horses, or transport animals using carts.<br><br>What Animals Might Be Seen on the Road?<br>Domestic animals: Dogs, horses, and sometimes cattle may be seen on roads.<br>Farm animals: In rural areas, you might see goats, sheep, or cows being guided by farmers.<br><br>Discussion:<br>Ask students if they have seen animals walking on or near the road.<br>Discuss the types of animals they’ve seen and who might be with them.",
+      "<b>Part 2: Responsibilities of Animal Handlers</b>:<br><br>What Do Animal Handlers Do?<br>Animal handlers ensure that animals move safely along the road and do not cause accidents.<br><br>Key Responsibilities:<br>Keep Animals Under Control: They must hold on to their animals securely, such as holding a dog on a leash.<br>Guide Animals Safely: Animal handlers make sure that animals cross the road at safe points, like pedestrian crossings.<br>Follow Traffic Rules: Like pedestrians, animal handlers must follow traffic rules to keep themselves and the animals safe.<br><br>Class Activity:<br>Show pictures of an animal handler walking a dog or leading a horse and explain how they guide the animals safely.<br>Discuss why it's important for handlers to control their animals, especially on busy roads.",
+      "<b>Part 3: Animals as Road Users</b>:<br><br>How Do Animals Use the Road?<br>Animals may walk on the side of the road with their handlers or sometimes cross roads. Animals may not understand traffic, so their handlers help them.<br><br>Examples of Animal Road Users:<br>Dogs: Walked by their owners, sometimes near traffic.<br>Horses: Ridden or led along rural roads or parks.<br>Farm Animals: In rural areas, animals like cows and goats may cross the road under the guidance of a farmer.<br><br>Class Activity:<br>Ask students to imagine they are walking a dog or riding a horse. Discuss how they would guide the animal safely.<br>Role-play a situation where students need to cross the road with an animal.",
+      "<b>Part 4: Importance of Road Safety for Animal Handlers and Animals</b>:<br><br>Why Is Road Safety Important for Animal Handlers and Animals?<br>Animal handlers and their animals need to stay safe to avoid accidents, both for themselves and other road users like motorists and pedestrians.<br><br>How Do They Contribute to Road Safety?<br>By Controlling the Animal: Keeping the animal calm and on the side of the road.<br>Crossing Roads Safely: Animal handlers ensure animals cross at safe places and do not run into the road unexpectedly.<br>Being Visible: Handlers often wear reflective clothing, especially when walking animals at night, to ensure drivers see them.<br><br>Class Activity:<br>Discuss how a handler walking a dog at night could stay visible to drivers.<br>Demonstrate how to cross a road safely with an animal, imagining the animal is on a leash.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. Who are animal handlers?<br>2. Name two types of animals that might walk on or near the road.<br>3. What should an animal handler do to keep their animal safe on the road?<br>4. Why do animal handlers need to follow traffic rules?<br>5. What type of animal might you see being ridden or led on the road?<br>6. What could happen if an animal is not controlled properly near the road?<br>7. How can animal handlers and their animals cross the road safely?<br>8. Why should animal handlers wear reflective clothing at night?<br>9. Why do farm animals sometimes walk on or cross the road?<br>10. What can motorists do to stay safe around animal handlers and their animals?"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in discussions and their responses to the exercise questions.",
-    "<b>Feedback:</b> Provide feedback on students’ comprehension of the roles and responsibilities of cyclists and animal handlers, and their understanding of road safety."
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and role-play activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of animal handlers and road safety."
   ],
   "conclusion": [
-    "By learning about cyclists, animal handlers, and animals as road users, students will gain a better understanding of road safety, the importance of respecting all road users, and how to interact safely with animals on the road."
+    "By learning about the role of animal handlers and road safety, students will understand how to stay safe around animals and ensure they follow traffic rules when on the road."
   ]
 },
 
 // Week 8
 // Lesson 1
+{
+  "title": "Introduction to Regulatory Signs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Regulatory Signs",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to regulatory signs, focusing on their importance in ensuring road safety and understanding various types of signs.",
+  "materials": [
+    "Pictures of regulatory signs",
+    "Whiteboard and markers",
+    "Role-play props for class activity"
+  ],
+  "objectives": [
+    "Students will learn what regulatory signs are and their importance for road safety.",
+    "Students will identify and understand the meanings of specific regulatory signs.",
+    "Students will engage in discussions about the role of signs in guiding drivers."
+  ],
+  "rationale": [
+    "Understanding regulatory signs is crucial for students to become responsible road users and to recognize the rules that help keep them safe."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and role-play to engage students in learning about regulatory signs."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Regulatory Signs</b>:<br><br>What Are Regulatory Signs?<br>Regulatory signs are traffic signs that tell drivers what they must or must not do on the road. They help keep everyone safe by providing clear rules for driving.<br><br>Why Are Regulatory Signs Important?<br>They guide drivers in making safe choices.<br>They help prevent accidents and confusion on the road.<br>Knowing these signs is essential for being a responsible road user.<br><br>Discussion:<br>Ask students if they have seen any traffic signs while traveling.<br>Talk about how signs give important information to drivers.",
+      "<b>Part 2: Stop Sign</b>:<br><br>What is a Stop Sign?<br>A stop sign is a red, octagonal sign that requires drivers to come to a complete stop at an intersection.<br><br>Importance of the Stop Sign:<br>It ensures that drivers check for other vehicles and pedestrians before proceeding.<br>It helps prevent accidents by allowing all road users to see each other.<br><br>Class Activity:<br>Show a picture of a stop sign and discuss what it looks like.<br>Role-play stopping at a stop sign when crossing the street.",
+      "<b>Part 3: Yield Sign and Other Signs</b>:<br><br>What is a Yield Sign?<br>A yield sign is a triangular sign that indicates drivers must yield to oncoming traffic and allow them to go first.<br><br>Importance of the Yield Sign:<br>It helps maintain a smooth flow of traffic.<br>It ensures safety at intersections where cars may come from different directions.<br><br>Other Regulatory Signs:<br>1. Speed Limit Sign: Indicates the maximum speed allowed on a road.<br>Importance: Helps keep traffic flowing safely and prevents speeding.<br>2. No Parking Sign: Prohibits parking in specific areas.<br>Importance: Keeps roads clear for traffic and prevents accidents.<br>3. One Way Sign: Indicates that traffic can only flow in one direction.<br>Importance: Prevents confusion and accidents by directing traffic.<br>4. Do Not Enter Sign: Indicates that entry is prohibited.<br>Importance: Keeps drivers safe from entering dangerous areas.<br><br>Class Activity:<br>Show pictures of each sign and discuss their meanings.<br>Ask students to identify scenarios where they might see these signs.",
+      "<b>Part 4: The Role of Regulatory Signs in Road Safety</b>:<br><br>How Do Regulatory Signs Help?<br>Regulatory signs play a vital role in ensuring road safety by providing essential information to drivers.<br><br>Key Points on Their Importance:<br>They prevent accidents by guiding drivers.<br>They help maintain order on the roads, ensuring everyone follows the rules.<br>By obeying these signs, drivers can contribute to safer roads for everyone.<br><br>Class Activity:<br>Create a mini traffic scenario in class where students can practice recognizing and responding to regulatory signs.<br>Discuss what would happen if drivers did not follow these signs.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What are regulatory signs?<br>2. What does a stop sign look like?<br>3. What must drivers do at a stop sign?<br>4. What does a yield sign indicate?<br>5. Why is it important to yield to oncoming traffic?<br>6. What does a speed limit sign tell drivers?<br>7. Why is a no parking sign important?<br>8. What does a one way sign indicate?<br>9. Why should drivers obey the do not enter sign?<br>10. How do regulatory signs help keep roads safe?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of regulatory signs and their importance."
+  ],
+  "conclusion": [
+    "By learning about regulatory signs, students will understand their significance in promoting road safety and their role as responsible road users."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Introduction to Warning Signs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Warning Signs",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to warning signs on the road, their meanings, and the importance of obeying them for safety.",
+  "materials": [
+    "Images of various warning signs",
+    "Whiteboard and markers",
+    "Traffic safety brochures"
+  ],
+  "objectives": [
+    "Students will learn about different warning signs and their meanings.",
+    "Students will understand the importance of warning signs in preventing accidents.",
+    "Students will engage in discussions about their experiences with warning signs."
+  ],
+  "rationale": [
+    "Understanding warning signs is essential for promoting safe behavior on the road and protecting both drivers and pedestrians."
+  ],
+  "methodology": [
+    "The lesson will include discussions, visual aids, and role-play scenarios to enhance students' understanding of warning signs."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Warning Signs</b>:<br><br>What Are Warning Signs?<br>Warning signs are special signs placed on the road to alert drivers about potential hazards or changes in road conditions. These signs help keep everyone safe on the road.<br><br>Why Are Warning Signs Important?<br>They help drivers be aware of what’s ahead.<br>They prevent accidents by informing drivers about dangers.<br>They promote safe driving behaviors in different areas.<br><br>Discussion:<br>Ask students if they have seen any warning signs while traveling with their families.<br>Discuss why it's important to pay attention to these signs.",
+      "<b>Part 2: Understanding Specific Warning Signs</b>:<br><br>1. Curve Ahead Sign<br>Meaning: This sign warns drivers that there is a curve in the road ahead, and they should slow down.<br>Discussion Point: Why is it important for drivers to slow down when approaching a curve?<br><br>2. Intersection Ahead Sign<br>Meaning: This sign alerts drivers to an upcoming intersection where they may need to stop or yield.<br>Discussion Point: What should a driver do when they see this sign?<br><br>3. Pedestrian Crossing Sign<br>Meaning: This sign warns drivers that there is a pedestrian crossing zone, and they should be careful for people crossing the road.<br>Discussion Point: Why is it important to stop for pedestrians at this sign?<br><br>4. School Zone Sign<br>Meaning: This sign indicates an area near a school where children are present, and drivers should be extra cautious.<br>Discussion Point: What should drivers do when they see a school zone sign?",
+      "<b>Part 3: More Warning Signs</b>:<br><br>5. Slippery When Wet Sign<br>Meaning: This sign warns drivers that the road may be slippery when wet, especially during rain or snow.<br>Discussion Point: Why should drivers drive slowly when it’s wet outside?<br><br>6. Animal Crossing Sign<br>Meaning: This sign alerts drivers that animals may cross the road, and they should be on the lookout.<br>Discussion Point: What could happen if a driver does not pay attention to this sign?<br><br>Class Activity:<br>Show images of each warning sign discussed.<br>Ask students to share any experiences they’ve had related to these signs.",
+      "<b>Part 4: Importance of Obeying Warning Signs</b>:<br><br>Why Is It Important to Obey Warning Signs?<br>Prevents Accidents: By following warning signs, drivers can avoid dangerous situations.<br>Promotes Safety for Everyone: Warning signs help keep pedestrians, cyclists, and other road users safe.<br>Increases Awareness: Warning signs remind drivers to stay alert and cautious while driving.<br><br>Class Activity:<br>Role-play different scenarios where students can act as drivers or pedestrians encountering warning signs.<br>Discuss how each character should behave when seeing a specific sign.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What are warning signs?<br>2. Why are warning signs important for drivers?<br>3. What does a curve ahead sign warn drivers about?<br>4. What should a driver do when they see an intersection ahead sign?<br>5. Why is it important to stop for pedestrians when they see a pedestrian crossing sign?<br>6. What does a school zone sign indicate?<br>7. How should drivers behave when they see a slippery when wet sign?<br>8. What warning does an animal crossing sign give to drivers?<br>9. Why is it important to obey warning signs?<br>10. Can you name one warning sign you have seen before?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and role-plays.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of warning signs and their importance."
+  ],
+  "conclusion": [
+    "By learning about warning signs and their meanings, students will understand the importance of paying attention to these signs for their safety and the safety of others."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Introduction to Information Signs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Information Signs",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to information signs, focusing on their importance, types, and how to recognize them in everyday life.",
+  "materials": [
+    "Pictures of various information signs",
+    "Whiteboard and markers",
+    "Handouts with information sign descriptions"
+  ],
+  "objectives": [
+    "Students will learn what information signs are and their importance.",
+    "Students will identify different types of information signs.",
+    "Students will understand the significance of each type of information sign.",
+    "Students will recognize information signs in their community.",
+    "Students will engage in activities related to information signs."
+  ],
+  "rationale": [
+    "Understanding information signs is crucial for safety and navigation in our daily lives."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and practical applications to convey the importance of information signs."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Information Signs</b>:<br><br>What Are Information Signs?<br>Information signs are signs that provide important information to drivers and pedestrians about the road and nearby facilities. They help keep everyone safe and informed while traveling.<br><br>Why Are Information Signs Important?<br>They guide drivers to essential places.<br>They warn of potential hazards.<br>They help with navigation along roads and highways.<br><br>Discussion:<br>Ask students if they have seen any road signs on their way to school or home. Discuss the different signs they might have noticed and what those signs indicate.",
+      "<b>Part 2: Types of Information Signs</b>:<br><br>1. Hospital Sign<br>Description: This sign indicates the direction to the nearest hospital.<br>Purpose: It helps drivers find medical assistance quickly in case of emergencies.<br><br>2. Railroad Crossing Sign<br>Description: This sign warns drivers of an upcoming railroad crossing.<br>Purpose: It alerts drivers to stop and look for trains, helping prevent accidents.<br><br>3. Route Number Sign<br>Description: This sign shows the number of the road or highway.<br>Purpose: It helps drivers understand where they are and which route to take to reach their destination.<br><br>4. Rest Area Sign<br>Description: This sign directs drivers to rest areas where they can take breaks during long drives.<br>Purpose: It encourages drivers to rest, helping prevent fatigue and ensuring safe driving.<br><br>Class Activity:<br>Show pictures of each type of information sign. Discuss their meanings and where students might see these signs in their community.",
+      "<b>Part 3: Importance of Each Information Sign</b>:<br><br>Hospital Sign<br>Importance: Knowing where the nearest hospital is can save lives during emergencies.<br>Activity: Ask students to think of a situation where they might need to find a hospital quickly.<br><br>Railroad Crossing Sign<br>Importance: It helps prevent accidents by warning drivers to be cautious near train tracks.<br>Activity: Discuss what drivers should do when they see this sign.<br><br>Route Number Sign<br>Importance: This sign helps drivers navigate effectively, making it easier to find their way.<br>Activity: Ask students if they know any local road numbers or names.<br><br>Rest Area Sign<br>Importance: Taking breaks during long trips is vital for safety.<br>Activity: Discuss how a driver might feel after a long drive and why resting is essential.",
+      "<b>Part 4: Recognizing Information Signs in Everyday Life</b>:<br><br>How Can We Recognize Information Signs?<br>Students should learn to identify these signs when they are out in their community, which can help them stay safe and informed.<br><br>Practical Applications:<br>Encourage students to look for these signs when traveling with their families.<br>Discuss how recognizing these signs helps everyone know where to go and what to expect on the road.<br><br>Class Activity:<br>Go for a short walk or take a virtual tour around the school or nearby streets. Have students point out any information signs they see and discuss their meanings.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What are information signs?<br>2. What does a hospital sign indicate?<br>3. Why is it important to know where the nearest hospital is?<br>4. What warning does a railroad crossing sign give?<br>5. What does a route number sign show?<br>6. How does a route number sign help drivers?<br>7. What is the purpose of a rest area sign?<br>8. Why is it important for drivers to take breaks during long drives?<br>9. Name one type of information sign you might see on the road.<br>10. How can recognizing information signs help keep us safe?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of information signs."
+  ],
+  "conclusion": [
+    "By learning about information signs, students will understand their importance for safety and navigation in everyday life."
+  ]
+},
 
 // Week 9
 // Lesson 1
+{
+  "title": "Introduction to Traffic Light Signals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Traffic Light Signals",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to traffic light signals, focusing on their meanings, importance, and the actions drivers and pedestrians should take.",
+  "materials": [
+    "Images of traffic lights",
+    "Chart with arrow signals",
+    "Role-play props"
+  ],
+  "objectives": [
+    "Students will learn about the different traffic light colors and their meanings.",
+    "Students will understand the importance of obeying traffic signals for safety.",
+    "Students will recognize arrow signals and flashing signals and their implications."
+  ],
+  "rationale": [
+    "Understanding traffic light signals is crucial for safety in traffic and helps students learn about responsible behavior as pedestrians and future drivers."
+  ],
+  "methodology": [
+    "The lesson will utilize discussions, visual aids, and role-play to engage students in understanding traffic signals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Traffic Light Signals</b>:<br><br>What Are Traffic Light Signals?<br>Traffic light signals are color-coded lights used at intersections to control the flow of traffic and ensure safety for drivers and pedestrians.<br><br>Why Are Traffic Light Signals Important?<br>They help manage traffic movement.<br>They protect pedestrians crossing the street.<br>They reduce the risk of accidents by providing clear instructions for drivers.<br><br>Discussion:<br>Ask students if they have seen traffic lights while traveling. Discuss their experiences with traffic lights and why they think they are important.",
+      "<b>Part 2: Understanding Traffic Light Colors</b>:<br><br>1. Red Light<br>Meaning: The red light indicates that vehicles must stop. No entry is allowed until the light changes to green.<br>Discussion Point: Why is it important for drivers to stop at a red light?<br><br>2. Yellow Light (Amber)<br>Meaning: The yellow light signals that the light is about to change to red. Drivers should prepare to stop if it is safe to do so.<br>Discussion Point: What should drivers do when they see a yellow light?<br><br>3. Green Light<br>Meaning: The green light indicates that vehicles may proceed. However, drivers must still yield to pedestrians and follow other traffic rules.<br>Discussion Point: Why must drivers be cautious even when the light is green?<br><br>Class Activity:<br>Show images of each traffic light color. Ask students to mimic the actions they should take when seeing each light (stop, prepare to stop, go).",
+      "<b>Part 3: Understanding Arrow Signals</b>:<br><br>1. Red Arrow<br>Meaning: The red arrow indicates that drivers must not proceed in the direction of the arrow.<br>Discussion Point: Why should drivers obey a red arrow signal?<br><br>2. Yellow Arrow<br>Meaning: The yellow arrow warns that the light is about to change to red. Drivers should prepare to stop if it is safe.<br>Discussion Point: How can drivers ensure they stop safely when they see a yellow arrow?<br><br>3. Green Arrow<br>Meaning: The green arrow indicates that drivers may proceed in the direction of the arrow, often while opposing traffic is stopped.<br>Discussion Point: Why is it important for drivers to check for pedestrians when going in the direction of a green arrow?<br><br>Class Activity:<br>Use a chart with images of arrow signals. Have students practice saying what they would do for each signal.",
+      "<b>Part 4: Understanding Flashing Signals</b>:<br><br>1. Flashing Red Light<br>Meaning: The flashing red light functions like a stop sign. Drivers must come to a complete stop and proceed only when it is safe.<br>Discussion Point: How is a flashing red light similar to a stop sign?<br><br>2. Flashing Yellow Light<br>Meaning: The flashing yellow light alerts drivers to proceed with caution. It indicates that the area may require special attention (e.g., construction zones).<br>Discussion Point: Why is it important to be careful when seeing a flashing yellow light?<br><br>3. Flashing Yellow Arrow<br>Meaning: The flashing yellow arrow indicates that drivers can turn in the direction of the arrow but must yield to oncoming traffic and pedestrians.<br>Discussion Point: What should drivers do when turning with a flashing yellow arrow?<br><br>Class Activity:<br>Role-play scenarios where students can act out what they should do when encountering different flashing signals.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What does a red light indicate for drivers?<br>2. What should a driver do when they see a yellow light?<br>3. What does a green light allow drivers to do?<br>4. What does a red arrow mean for drivers?<br>5. What warning does a yellow arrow give to drivers?<br>6. When can drivers proceed with a green arrow?<br>7. How does a flashing red light function?<br>8. What does a flashing yellow light alert drivers to do?<br>9. What should drivers do when they see a flashing yellow arrow?<br>10. Why is it important to obey all traffic signals?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will assess students' understanding of traffic light signals and their meanings."
+  ],
+  "conclusion": [
+    "By learning about traffic light signals, students will understand their importance for safety and the necessary actions to take as pedestrians and future drivers."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Introduction to Pedestrian and Bicycle Signals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Pedestrian and Bicycle Signals",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to pedestrian and bicycle signals, focusing on their importance for safety and the meaning of each type of signal.",
+  "materials": [
+    "Pictures of pedestrian and bicycle signals",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn what pedestrian signals are and their importance for safety.",
+    "Students will identify the different types of pedestrian signals and their meanings.",
+    "Students will learn what bicycle signals are and how they differ from pedestrian signals.",
+    "Students will recognize the importance of following traffic signals for both pedestrians and cyclists.",
+    "Students will engage in discussions about pedestrian and bicycle signals in their community."
+  ],
+  "rationale": [
+    "Understanding pedestrian and bicycle signals helps students navigate their surroundings safely and promotes awareness of traffic safety."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and group activities to engage students and reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Pedestrian Signals</b>:<br><br>What Are Pedestrian Signals?<br>Pedestrian signals are special signals that tell people when it is safe to cross the street. They help pedestrians know when to walk and when to wait.<br><br>Why Are Pedestrian Signals Important?<br>They help keep pedestrians safe by guiding when to cross.<br>They reduce the chances of accidents between pedestrians and vehicles.<br><br>Discussion:<br>Ask students if they have seen any pedestrian signals at traffic lights or crosswalks.<br>Discuss where they might see these signals in their community.",
+      "<b>Part 2: Types of Pedestrian Signals</b>:<br><br>1. Walk Signal (Walking Person Icon)<br>Description: This signal shows a walking person icon.<br>Meaning: It indicates that pedestrians may safely cross the street.<br><br>2. Don't Walk Signal (Hand Icon)<br>Description: This signal displays a hand icon.<br>Meaning: It indicates that pedestrians should not cross the street.<br><br>Class Activity:<br>Show pictures of the walk and don’t walk signals.<br>Discuss what each signal means and the appropriate actions for pedestrians when they see them.",
+      "<b>Part 3: Introduction to Bicycle Signals</b>:<br><br>What Are Bicycle Signals?<br>Bicycle signals are special traffic signals that help cyclists know when it is safe to ride through intersections. They are similar to pedestrian signals but are designed specifically for cyclists.<br><br>Why Are Bicycle Signals Important?<br>They help keep cyclists safe by guiding when to ride.<br>They help cyclists avoid accidents with vehicles and pedestrians.<br><br>Discussion:<br>Ask students if they have seen bicycle signals and how they differ from pedestrian signals.<br>Discuss where cyclists might see these signals in their community.",
+      "<b>Part 4: Types of Bicycle Signals</b>:<br><br>1. Bicycle Green Signal<br>Description: This signal shows a green light for bicycles.<br>Meaning: It allows cyclists to proceed through an intersection.<br><br>2. Bicycle Red Signal<br>Description: This signal shows a red light for bicycles.<br>Meaning: It indicates that cyclists must stop.<br><br>Class Activity:<br>Show pictures of the bicycle green and red signals.<br>Discuss what cyclists should do when they see each signal and the importance of following these signals for safety.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What are pedestrian signals?<br>2. What does a walk signal indicate?<br>3. What does a don't walk signal mean?<br>4. Why are pedestrian signals important for safety?<br>5. What are bicycle signals?<br>6. What does a bicycle green signal allow cyclists to do?<br>7. What should cyclists do when they see a bicycle red signal?<br>8. Why is it important for cyclists to follow bicycle signals?<br>9. Name one type of pedestrian signal you might see at a crosswalk.<br>10. How do pedestrian and bicycle signals help keep everyone safe on the road?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of pedestrian and bicycle signals."
+  ],
+  "conclusion": [
+    "By learning about pedestrian and bicycle signals, students will understand the importance of following these signals for their safety and the safety of others on the road."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Introduction to Hand Signals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Hand Signals",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to hand signals used by cyclists and drivers to communicate their intentions on the road, promoting safety and understanding.",
+  "materials": [
+    "Visual aids for hand signals",
+    "Whiteboard and markers",
+    "Pictures illustrating cyclists and drivers using hand signals"
+  ],
+  "objectives": [
+    "Students will learn what hand signals are and their importance in road safety.",
+    "Students will understand how to perform hand signals for cyclists.",
+    "Students will learn the hand signals used by drivers."
+  ],
+  "rationale": [
+    "Understanding hand signals helps students become safer cyclists and drivers, reducing the risk of accidents through effective communication."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, discussions, and activities to engage students and reinforce their understanding of hand signals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Hand Signals</b>:<br><br>What Are Hand Signals?<br>Hand signals are gestures made by cyclists and drivers to communicate their intentions on the road. They help ensure safety by letting others know what a cyclist or driver plans to do.<br><br>Why Are Hand Signals Important?<br>They promote safe driving and cycling.<br>They help prevent accidents by informing other road users of actions like turning or stopping.<br>They are a simple and effective way to communicate on the road.<br><br>Discussion:<br>Ask students if they have seen hand signals while biking or driving.<br>Discuss the importance of communication on the road.",
+      "<b>Part 2: Hand Signals for Cyclists</b>:<br><br>1. Left Turn Signal<br>Description: Extend the left arm straight out to the left side.<br>Meaning: This signal indicates that the cyclist is turning left.<br><br>2. Right Turn Signal<br>Description: Extend the right arm straight out to the right side or bend the left arm at the elbow with the forearm pointing upward.<br>Meaning: This signal indicates that the cyclist is turning right.<br><br>3. Stop or Slow Down Signal<br>Description: Bend the left arm at the elbow with the forearm pointing downwards.<br>Meaning: This signal indicates that the cyclist is slowing down or coming to a stop.<br><br>Class Activity:<br>Demonstrate each hand signal.<br>Have students practice these signals in pairs, ensuring they understand how to perform them correctly.",
+      "<b>Part 3: Hand Signals for Drivers</b>:<br><br>1. Left Turn Signal<br>Description: Extend the left arm straight out of the window.<br>Meaning: This signal indicates that the driver is making a left turn.<br><br>2. Right Turn Signal<br>Description: Extend the right arm straight out of the window or bend the left arm at the elbow with the forearm pointing upward.<br>Meaning: This signal indicates that the driver is making a right turn.<br><br>3. Stop or Slow Down Signal<br>Description: Bend the left arm at the elbow with the forearm pointing downwards.<br>Meaning: This signal indicates to other drivers that the vehicle is slowing down or stopping.<br><br>Class Activity:<br>Show pictures or videos of drivers using these signals.<br>Discuss the importance of using hand signals while driving.",
+      "<b>Part 4: Important Notes on Hand Signals</b>:<br><br>Visibility<br>Hand signals should be used when it is safe to do so and can be clearly seen by other road users.<br>Encourage students to always be aware of their surroundings when using hand signals.<br><br>Local Regulations<br>Explain that local traffic laws may vary regarding the use of hand signals.<br>Encourage students to learn about the rules in their area.<br><br>Discussion:<br>Ask students how they can ensure they are seen when using hand signals.<br>Discuss any specific local traffic laws they might know.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What are hand signals?<br>2. Why are hand signals important for cyclists?<br>3. How do you signal a left turn as a cyclist?<br>4. How do you signal a right turn as a cyclist?<br>5. What signal do you use to indicate that you are slowing down or stopping as a cyclist?<br>6. How does a driver signal a left turn?<br>7. How does a driver signal a right turn?<br>8. What signal does a driver use to indicate that they are stopping or slowing down?<br>9. Why is it important for hand signals to be visible to other road users?<br>10. What should you check regarding hand signals before using them?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the demonstrations and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of hand signals for cyclists and drivers."
+  ],
+  "conclusion": [
+    "By learning about hand signals for cyclists and drivers, students will understand their importance in promoting road safety and effective communication."
+  ]
+},
 
 // Week 10
 // Lesson 1
+{
+  "title": "Introduction to Transport",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Transport",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of transport, its importance, different types, and their characteristics.",
+  "materials": [
+    "Pictures of different transport modes",
+    "Whiteboard and markers",
+    "Art supplies for drawing activity"
+  ],
+  "objectives": [
+    "Students will learn what transport is and why it is important.",
+    "Students will identify different types of transport and their characteristics.",
+    "Students will understand how transport affects their daily lives."
+  ],
+  "rationale": [
+    "Understanding transport helps students appreciate its role in connecting people and facilitating trade and exploration."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and group activities to engage students in learning about transport."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Transport</b>:<br><br>What Is Transport?<br>Transport refers to the movement of people and goods from one place to another. It plays a vital role in our daily lives, helping us travel, trade, and communicate.<br><br>Why Is Transport Important?<br>It connects people to places like schools, homes, and markets.<br>It allows for the delivery of goods and services.<br>It enables exploration and discovery of new areas.<br><br>Discussion:<br>Ask students how they get to school or other places.<br>Discuss the different ways they travel, such as by walking, riding in a car, or using a bus.",
+      "<b>Part 2: Types of Transport</b>:<br><br>1. Land Transport<br>Description: This includes vehicles that travel on roads and tracks.<br>Examples: Cars, buses, bicycles, motorcycles, trains.<br><br>2. Water Transport<br>Description: This involves vehicles that travel on water.<br>Examples: Boats, ships, ferries, submarines.<br><br>3. Air Transport<br>Description: This includes vehicles that fly in the air.<br>Examples: Airplanes, helicopters, hot air balloons.<br><br>Class Activity:<br>Show pictures of each type of transport.<br>Discuss where students might see these vehicles and how they are used.",
+      "<b>Part 3: Characteristics of Each Type of Transport</b>:<br><br>Land Transport<br>Purpose: Used for short to medium distances; easily accessible.<br>Advantages: Flexible routes; can reach places not accessible by other means.<br>Discussion: Ask students about their favorite land transport method and why they like it.<br><br>Water Transport<br>Purpose: Used for transporting goods and people across rivers, lakes, and oceans.<br>Advantages: Can carry large amounts of cargo; essential for trade.<br>Discussion: Discuss when students might travel by boat or see large ships.<br><br>Air Transport<br>Purpose: Used for long distances, especially for international travel.<br>Advantages: Fast and efficient over long distances.<br>Discussion: Ask students if they have ever traveled by airplane and what they experienced.",
+      "<b>Part 4: The Importance of Transport in Our Lives</b>:<br><br>How Transport Affects Our Lives:<br>It allows us to visit family and friends who live far away.<br>It helps us go to work, school, and other important places.<br>It enables trade and exchange of goods between different regions.<br><br>Class Activity:<br>Have students draw their favorite mode of transport and share it with the class.<br>Discuss how each transport method is important for our communities.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is transport?<br>2. Why is transport important in our daily lives?<br>3. Name one type of land transport.<br>4. Give two examples of water transport.<br>5. What is an example of air transport?<br>6. Why is land transport considered flexible?<br>7. How does water transport help with trade?<br>8. What are the advantages of air transport?<br>9. Name a type of transport you have used.<br>10. How does transport help connect people in our community?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of the transport topic."
+  ],
+  "conclusion": [
+    "By learning about transport, students will understand its importance in connecting people, facilitating trade, and enhancing exploration."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Introduction to Communication",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Communication",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to communication, focusing on its importance, types, effective practices, and skills.",
+  "materials": [
+    "Whiteboard and markers",
+    "Drawing materials",
+    "Role-play scenario cards"
+  ],
+  "objectives": [
+    "Students will understand what communication is and its importance in expressing needs and building relationships.",
+    "Students will learn about the different types of communication: verbal, non-verbal, written, and visual.",
+    "Students will explore what makes communication effective and how to practice communication skills."
+  ],
+  "rationale": [
+    "Understanding communication helps students connect with others and express themselves clearly, preventing misunderstandings."
+  ],
+  "methodology": [
+    "The lesson will include discussions, brainstorming activities, role-playing, and group reflection to engage students."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Communication</b>:<br><br>What Is Communication?<br>Communication is the process of sharing information, thoughts, and feelings with others. It helps people understand each other and connect.<br><br>Why Is Communication Important?<br>It allows us to express our needs and ideas. It helps us build relationships with others. Effective communication can prevent misunderstandings and conflicts.<br><br>Discussion:<br>Ask students if they can think of times when they needed to communicate something. Discuss how they felt when they were able to express themselves clearly.",
+      "<b>Part 2: Types of Communication</b>:<br><br>1. Verbal Communication<br>Description: This involves using spoken or written words to convey a message.<br>Examples: Talking with friends, reading a book, or writing a letter.<br><br>Importance:<br>Verbal communication allows for clear and direct sharing of ideas. It can be used in everyday conversations, storytelling, and giving instructions.<br><br>2. Non-Verbal Communication<br>Description: This includes gestures, facial expressions, body language, and eye contact.<br>Examples: Smiling to show happiness, crossing arms to indicate discomfort.<br><br>Importance:<br>Non-verbal cues can enhance or change the meaning of verbal messages. It helps convey emotions and attitudes without words.<br><br>3. Written Communication<br>Description: This is the process of sending messages through writing.<br>Examples: Letters, emails, books, and text messages.<br><br>Importance:<br>Written communication allows for messages to be shared over distances and preserved for future reference. It is important for sharing information clearly and formally.<br><br>4. Visual Communication<br>Description: This involves using images, symbols, graphs, and charts to convey ideas.<br>Examples: Traffic signs, infographics, and illustrations.<br><br>Importance:<br>Visual communication can help explain complex ideas more easily. It grabs attention and makes information easier to understand.<br><br>Class Activity:<br>Have students brainstorm examples of each type of communication and share them with the class.",
+      "<b>Part 3: Effective Communication</b>:<br><br>What Makes Communication Effective?<br>Clarity: Messages should be clear and easy to understand. Listening: Listening to others is just as important as speaking. Body Language: Using positive body language can enhance verbal communication. Respect: Being respectful and polite improves interactions.<br><br>Discussion:<br>Discuss how students can be better communicators. Talk about the importance of listening and respecting others' opinions.",
+      "<b>Part 4: Practicing Communication Skills</b>:<br><br>Activities to Practice Communication:<br>1. Role-Playing: Students can pair up and practice different types of communication scenarios (e.g., asking for help, sharing a story).<br><br>2. Drawing Activity: Have students draw a picture that represents a message and explain it to the class, combining visual and verbal communication.<br><br>3. Body Language Game: Play a game where students express feelings through facial expressions and gestures without using words, and others guess the emotion.<br><br>Class Reflection:<br>Ask students what they learned about communication during the activities. Discuss how they can apply these skills in their daily interactions.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is communication?<br>2. Why is communication important?<br>3. What is verbal communication?<br>4. Can you give an example of non-verbal communication?<br>5. What does written communication involve?<br>6. How can visual communication help us understand information better?<br>7. What are some characteristics of effective communication?<br>8. Why is listening important in communication?<br>9. How can body language affect how we communicate?<br>10. Can you think of a situation where you used different types of communication? What were they?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of communication."
+  ],
+  "conclusion": [
+    "By learning about communication and its various forms, students will develop essential skills for expressing themselves and understanding others."
+  ]
+},
 
 // Lesson 3
-
-
+{
+  "title": "Introduction to Zambian Money and Understanding Needs and Wants",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Zambian Money and Basic Needs and Wants",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to Zambian money, the concepts of needs and wants, and how to manage money wisely.",
+  "materials": [
+    "Pictures of Zambian coins and banknotes",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn about the different denominations of Zambian money.",
+    "Students will understand the importance of recognizing needs and wants.",
+    "Students will discuss how to manage money effectively."
+  ],
+  "rationale": [
+    "Understanding money, needs, and wants helps students make wise financial choices and prioritize their spending."
+  ],
+  "methodology": [
+    "The lesson will involve discussions, activities, and visual aids to teach students about money, needs, and wants."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Zambian Money</b>:<br><br>What is Money?<br>Money is a medium of exchange used to buy goods and services. In Zambia, the currency is the Zambian Kwacha (ZMW).<br><br>Different Denominations of Zambian Money:<br>Coins: 1 Ngwee, 2 Ngwee, 5 Ngwee, 10 Ngwee, 50 Ngwee. Banknotes: 1 Kwacha, 2 Kwacha, 5 Kwacha, 10 Kwacha, 20 Kwacha, 50 Kwacha, 100 Kwacha, 200 Kwacha.<br><br>Discussion:<br>Show pictures of Zambian coins and banknotes. Discuss the importance of recognizing different denominations for making purchases.",
+      "<b>Part 2: Understanding Needs</b>:<br><br>What Are Needs?<br>Needs are essential things that people must have to survive and live a healthy life. Examples include: Food, Water, Shelter, Clothing, Healthcare.<br><br>Why Are Needs Important?<br>Needs are fundamental for survival and well-being. Understanding needs helps people prioritize spending and make wise financial choices.<br><br>Activity:<br>Engage students in a discussion about their needs. Ask them to list their needs on a board and categorize them as essential items.",
+      "<b>Part 3: Understanding Wants</b>:<br><br>What Are Wants?<br>Wants are things that people desire but do not need for survival. Examples include: Toys, Candy, Video games, New clothes (not necessary for basic needs).<br><br>Why Is It Important to Distinguish Wants from Needs?<br>Recognizing wants helps individuals manage their money effectively. It allows people to prioritize their spending on needs before wants.<br><br>Class Activity:<br>Show images of various items and ask students to classify them as needs or wants. Have students explain why they categorized each item the way they did.",
+      "<b>Part 4: Managing Money</b>:<br><br>How to Use Money Wisely:<br>Make a budget: Plan how to spend money on needs first, then on wants. Save: Encourage saving a portion of money for future needs or wants.<br><br>Discussion:<br>Discuss the importance of saving and budgeting in managing money. Share examples of how to save money, such as keeping coins in a jar or setting aside allowances.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is the currency used in Zambia?<br>2. Name three different denominations of Zambian coins.<br>3. What are needs? Give two examples.<br>4. What are wants? Give two examples.<br>5. Why is it important to know the difference between needs and wants?<br>6. How can you manage your money effectively?<br>7. What is one way to save money?<br>8. Why is food considered a need?<br>9. Can you give an example of a want that you might have?<br>10. What would you prioritize in your budget: a new toy or food? Why?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of Zambian money, needs, and wants."
+  ],
+  "conclusion": [
+    "By learning about Zambian money, needs, and wants, students will understand the importance of managing money wisely and prioritizing their spending."
+  ]
+}
 ];
