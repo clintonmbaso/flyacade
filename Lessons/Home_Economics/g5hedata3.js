@@ -402,34 +402,419 @@ const lessonPlans50c = [
   "conclusion": [
     "By learning safety rules, practicing safe storage, and childproofing techniques, students will understand how to create a safer home environment, reducing the risk of accidents and injuries."
   ]
-}
+},
 
 // Week 7
 // Lesson 1
-
+{
+  "title": "Introduction to Needlework Tools",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Needlework Tools and Their Uses",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the basic tools used in needlework, their functions, and how to use them for sewing tasks.",
+  "materials": [
+    "Needles",
+    "Thimbles",
+    "Stilettos",
+    "Measuring Cards",
+    "Measuring Tapes",
+    "Fabric pieces"
+  ],
+  "objectives": [
+    "Students will understand what needlework is.",
+    "Students will learn the names and functions of common needlework tools.",
+    "Students will practice using basic needlework tools such as needles and thimbles.",
+    "Students will understand how to take accurate measurements using measuring tapes and cards."
+  ],
+  "rationale": [
+    "Understanding the tools used in needlework helps students complete sewing tasks accurately and efficiently, preparing them for more advanced sewing projects."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, hands-on activities, and discussions to teach students about needlework tools."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Needlework</b>:<br><br>What is Needlework?<br>Define needlework as the art or practice of sewing, stitching, or embroidery. Explain that to perform needlework properly, we need specific tools that help make our sewing tasks easier and more accurate.",
+      "<b>Part 2: Introducing Needlework Tools</b>:<br><br>Common Needlework Tools and Their Uses:<br>1. Needles: Explain that needles are used for stitching fabric together. Discuss the different types of needles (sharp, embroidery, darning) and their uses based on the fabric and task.<br>2. Thimbles: Describe thimbles as protective tools worn on the finger to push the needle through the fabric. Demonstrate how to wear a thimble and why it is useful during sewing.<br>3. Stilettos: Show a stiletto, a tool with a pointed tip, used to make holes in fabric or to guide the fabric while sewing. Explain how this tool helps when working on intricate sewing patterns.<br>4. Measuring Cards: Explain that measuring cards help in marking fabric before cutting or stitching. Demonstrate how to use a measuring card to ensure precise measurements.<br>5. Measuring Tapes: Show how measuring tapes are used to measure fabric and body parts for clothing. Discuss the importance of accurate measurements when making garments.<br>6. Tailor’s Tacking: Define tailor’s tacking as temporary stitches used to hold fabric together before final stitching. Show students how to use tailor’s tacking to plan and check their sewing before committing to a final stitch.",
+      "<b>Part 3: Demonstration and Hands-On Activity</b>:<br><br>Tool Demonstration:<br>Show each tool one by one and demonstrate how to use it properly. Provide simple sewing tasks for students to try out the tools (e.g., using a needle and thimble to make basic stitches, measuring fabric with a measuring tape, etc.).<br>Hands-On Activity:<br>Give students different pieces of fabric and ask them to use the tools to complete simple tasks: 1. Measuring the fabric with measuring tapes. 2. Marking the fabric with measuring cards. 3. Making small stitches with needles, using thimbles for protection.",
+      "<b>Part 4: Group Discussion and Feedback</b>:<br><br>Discussion Questions:<br>What did you learn about the tools used in needlework?<br>Which tool was your favorite to use, and why?<br>How did the tools help you make more accurate stitches or measurements?<br>Feedback:<br>Allow students to share their experiences using the tools, and provide guidance on how to improve their technique.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is the main purpose of a needle in sewing?<br>2. Why do we use a thimble while sewing?<br>3. What is a stiletto used for in needlework?<br>4. How do measuring tapes help in sewing?<br>5. What is tailor’s tacking?<br>6. Which tool do you use to measure fabric accurately?<br>7. What type of needlework task would require a stiletto?<br>8. How does using a thimble make sewing safer?<br>9. Can you describe how to use a measuring card?<br>10. What is the importance of taking accurate measurements when sewing clothes?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' understanding during the demonstrations and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of needlework tools and their uses."
+  ],
+  "conclusion": [
+    "By learning about the tools used in needlework, students will be able to complete sewing tasks more efficiently and with greater precision."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Introduction to Measuring Cards",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Creating and Using Measuring Cards",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to measuring cards, focusing on creating them using simple materials and understanding their importance in needlework and other crafts.",
+  "materials": [
+    "Thin boxes or cardboard (recycled cereal boxes)",
+    "Scissors",
+    "Ruler",
+    "Pencil or pen",
+    "Markers or colored pencils (optional for decoration)"
+  ],
+  "objectives": [
+    "Students will understand the purpose and importance of measuring cards in crafts and needlework.",
+    "Students will create their own measuring card using simple materials.",
+    "Students will practice using their measuring card to measure fabric or thread accurately."
+  ],
+  "rationale": [
+    "Introducing students to measuring cards will enhance their ability to measure small distances in needlework and other crafts accurately, improving their precision and efficiency."
+  ],
+  "methodology": [
+    "The lesson will use hands-on crafting activities and demonstrations to help students understand the importance of measuring accuracy."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Measuring Cards</b>:<br><br>What is a Measuring Card?<br>A measuring card is a simple tool used in needlework to help measure fabric and thread accurately. It allows you to keep track of small measurements, like 1 cm or 2 cm, which are often used in sewing and crafting projects.<br><br>Why Are Measuring Cards Important?<br>Explain the importance of accuracy in needlework to ensure that stitching and cutting are precise. Discuss how a measuring card can help save time and improve the quality of your work.",
+      "<b>Part 2: Materials Needed</b>:<br><br>Gathering Materials:<br>Thin boxes or cardboard (recycled cereal boxes work well). Scissors. Ruler (for accurate measurements). Pencil or pen (for marking). Markers or colored pencils (optional, for decoration).",
+      "<b>Part 3: Step-by-Step Instructions for Creating a Measuring Card</b>:<br><br>Step 1: Cutting the Cardboard<br>Guide students in cutting a rectangular piece from the thin box (roughly 10 cm by 5 cm, or whatever size is comfortable). Encourage precision while cutting to ensure straight edges.<br><br>Step 2: Marking the Measurements<br>Use a ruler to mark 1 cm, 2 cm, and other relevant measurements along one edge of the card. Show how to make small, clear marks for each measurement. Draw lines to indicate each measurement clearly and label them accordingly (1 cm, 2 cm, etc.).<br><br>Step 3: Final Touches<br>Allow students to decorate their measuring cards with colored pencils or markers if they want to personalize them. Make sure that the measurement marks are still visible and clear after decoration.",
+      "<b>Part 4: Practical Use of the Measuring Card</b>:<br><br>Demonstrating Use in Needlework:<br>Show how to place the measuring card on fabric or thread to check for accurate measurements. Practice using the card to measure small distances, such as the length of a stitch or the width of a seam.<br><br>Importance of Accuracy in Sewing:<br>Reinforce the importance of using the measuring card to ensure that needlework is precise and neat. Discuss how this tool can make sewing easier and more efficient.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is the purpose of a measuring card?<br>2. What materials do you need to make a measuring card?<br>3. Why is it important to mark accurate measurements on your card?<br>4. How do you use a ruler to measure 1 cm on your card?<br>5. Why do you need to cut the cardboard carefully?<br>6. How can a measuring card help in needlework?<br>7. What size did you cut your measuring card?<br>8. How can you decorate your measuring card without covering the measurements?<br>9. Name one other craft where a measuring card might be useful.<br>10. How does using a measuring card improve the quality of your sewing projects?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and participation during the creation of measuring cards.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of the purpose and use of measuring cards."
+  ],
+  "conclusion": [
+    "By creating and using their own measuring cards, students will learn the importance of accuracy in crafting, and how simple tools can make their needlework more precise and efficient."
+  ]
+},
 
 // Week 8
 // Lesson 1
-
+{
+  "title": "Introduction to Stitching",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Understanding Stitches",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of stitching, focusing on different types of stitches: permanent, neatening, and decorative stitches, and their purposes.",
+  "materials": [
+    "Fabric pieces",
+    "Needles",
+    "Thread",
+    "Scissors"
+  ],
+  "objectives": [
+    "Students will learn what stitches are and their uses in sewing.",
+    "Students will identify different types of stitches and their purposes.",
+    "Students will demonstrate basic stitching techniques (running stitch, backstitch, hemming stitch, and chain stitch)."
+  ],
+  "rationale": [
+    "Learning basic stitching techniques helps students develop important life skills, creativity, and an appreciation for handcrafts."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, hands-on activities, and group discussions to teach stitching techniques."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Stitching</b>:<br><br>What are Stitches?<br>Explain that stitches are small loops of thread used to join fabric pieces together or decorate them.<br><br>Discuss how different types of stitches serve different purposes, such as holding fabric in place, making it neat, or adding decoration.",
+      "<b>Part 2: Types of Stitches</b>:<br><br>1. Permanent Stitches:<br><br>Definition: Stitches that are meant to hold fabric together permanently.<br>Examples: Running stitch, backstitch, and overcast stitch.<br>Demonstration: Show students how to do a basic running stitch and backstitch, explaining how these stitches are often used to sew seams.<br><br>2. Neatening Stitches:<br><br>Definition: Stitches used to prevent fabric edges from fraying and to make the seams neat.<br>Examples: Hemming stitch, overlock stitch, and zigzag stitch.<br>Demonstration: Show how a hemming stitch is used to neaten the edges of fabric, making them secure and neat.<br><br>3. Decorative Stitches:<br><br>Definition: Stitches used for decoration or to add designs to fabric.<br>Examples: Chain stitch, cross stitch, and satin stitch.<br>Demonstration: Show students how to create simple chain and cross stitches, explaining how these are often used to add designs to clothing or fabric projects.",
+      "<b>Part 3: Hands-On Activity</b>:<br><br>Sample Creation:<br><br>Divide students into groups and give them fabric pieces, needles, and threads.<br><br>Ask them to create small sample pieces that demonstrate each type of stitch.<br>1. Permanent Stitches: Create a seam using a running stitch or backstitch.<br>2. Neatening Stitches: Hem the edge of a piece of fabric using a hemming stitch.<br>3. Decorative Stitches: Add a simple design to fabric using a chain stitch or cross stitch.",
+      "<b>Part 4: Group Discussion and Feedback</b>:<br><br>Discussion Questions:<br><br>What is the difference between permanent, neatening, and decorative stitches?<br>Which type of stitch did you find easiest to make?<br>Why is it important to use neatening stitches on fabric edges?<br><br>Feedback:<br><br>Allow students to share their sample pieces and discuss what they learned.<br>Provide feedback on their stitch technique and encourage them to continue practicing.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What are permanent stitches used for?<br>2. Name one example of a permanent stitch.<br>3. Why do we use neatening stitches?<br>4. Give an example of a stitch used to prevent fabric from fraying.<br>5. What is the purpose of decorative stitches?<br>6. Name two decorative stitches.<br>7. Which stitch is often used to join fabric together?<br>8. How does a hemming stitch make fabric look neat?<br>9. Can you describe how to make a basic running stitch?<br>10. What type of stitch would you use to add a design to a piece of fabric?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' stitch demonstrations and participation during group discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of stitch types and their uses."
+  ],
+  "conclusion": [
+    "By learning different stitching techniques, students will gain a practical skill and understand the importance of stitches in fabric work."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Introduction to Stitches",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Learning Different Types of Stitches",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the different types of stitches, their purposes, and how to apply them to fabric articles.",
+  "materials": [
+    "Fabric articles (chair backs, tray cloths, toys, elasticated skirts, table mats, food covers)",
+    "Thread (variety of colors)",
+    "Needle",
+    "Beads (optional, for decoration)",
+    "Scissors",
+    "Elastic (for elasticated skirts)",
+    "Pins"
+  ],
+  "objectives": [
+    "Students will learn what stitches are and their different types.",
+    "Students will practice permanent, neatening, and decorative stitches.",
+    "Students will apply stitches to fabric articles, including chair backs and elasticated skirts."
+  ],
+  "rationale": [
+    "Learning about different stitches is essential for students to develop practical sewing skills, apply them to real-world projects, and enhance creativity in fabric work."
+  ],
+  "methodology": [
+    "The lesson will involve demonstrating each type of stitch, followed by student practice and a project-based application."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Stitches</b>:<br><br>What Are Stitches?<br>Stitches are loops of thread used to hold fabric together, create neat edges, or add decorative details. There are different types of stitches, each serving a unique purpose in needlework.<br><br>Types of Stitches:<br><br>1. Permanent Stitches: Used to hold fabric pieces together permanently. Examples include running stitch and backstitch.<br>2. Neatening Stitches: Used to prevent fabric edges from fraying and make the article look clean and finished. Examples include zigzag stitch and overcast stitch.<br>3. Decorative Stitches: Used to add beauty to the fabric. Examples include blanket stitch, chain stitch, and embellishments like beads.",
+      "<b>Part 2: Materials Needed</b>:<br><br>Gathering Materials:<br>Fabric articles (chair backs, tray cloths, toys, elasticated skirts, table mats, or food covers), thread (variety of colors), needle, beads (optional), scissors, elastic (for elasticated skirts), and pins for securing fabric.",
+      "<b>Part 3: Demonstrating Different Stitches</b>:<br><br>Step 1: Permanent Stitches<br>Running Stitch: Demonstrate how to use running stitch to join two fabric pieces together permanently.<br>Backstitch: Show how to create a stronger stitch for durability.<br><br>Step 2: Neatening Stitches<br>Overcast Stitch: Demonstrate how to prevent fabric edges from fraying by stitching along the edge.<br>Zigzag Stitch: Use a zigzag stitch to secure raw edges and give the fabric a finished look.<br><br>Step 3: Decorative Stitches<br>Blanket Stitch: Show how to use this stitch to add a decorative edge to fabric, especially on chair backs or tray cloths.<br>Chain Stitch & Beadwork: Demonstrate how to add beads or decorative thread to articles like food covers or toys to enhance their visual appeal.",
+      "<b>Part 4: Applying Stitches to Various Articles</b>:<br><br>Example 1: Chair Backs<br>Use permanent stitches to sew fabric pieces together. Apply neatening stitches on the edges to prevent fraying. Add decorative stitches and beads to enhance the design.<br><br>Example 2: Elasticated Skirts<br>Use permanent stitches to create seams and attach the elastic. Use neatening stitches to tidy up the edges. Add decorative stitches along the hemline for a finished look.<br><br>Example 3: Tray Cloths & Table Mats<br>Demonstrate how to use neatening stitches on the edges to keep them clean. Use decorative stitches to add creative designs, possibly incorporating beads.<br><br>Example 4: Toys<br>Sew the pieces of fabric together with permanent stitches. Use neatening stitches to ensure no frayed edges. Add beads or decorative stitches to make the toys visually appealing.",
+      "<b>Part 5: Task (10 Questions)</b>:<br><br>1. What are permanent stitches used for?<br>2. Name one example of a neatening stitch.<br>3. How can decorative stitches enhance the look of an article?<br>4. What type of stitch would you use to sew two fabric pieces together?<br>5. Why is it important to use neatening stitches on fabric edges?<br>6. What is a running stitch used for?<br>7. How can beads be incorporated into decorative stitching?<br>8. Which stitch would you use to add a decorative edge to a tray cloth?<br>9. How do you apply an elastic to a skirt using stitches?<br>10. Why is it important to use the right type of stitch for the right purpose?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the demonstration and their ability to perform the stitches.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of different stitches and their applications."
+  ],
+  "conclusion": [
+    "By learning about different types of stitches, students will develop essential sewing skills and understand how to apply them to real-world projects, enhancing their creativity and craftsmanship."
+  ]
+},
 
 // Week 9
 // Lesson 1
-
+{
+  "title": "Introduction to Seams",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Understanding Seams",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to different types of seams, including flat ridged seams and flannel seams, focusing on their uses, methods of sewing, and practical applications.",
+  "materials": [
+    "Sewing machine",
+    "Fabric (denim, flannel)",
+    "Iron and ironing board",
+    "Sewing needles and thread"
+  ],
+  "objectives": [
+    "Students will learn what a seam is and why seams are important in sewing.",
+    "Students will understand the differences between flat ridged seams and flannel seams.",
+    "Students will practice sewing a flat ridged seam and a flannel seam.",
+    "Students will reflect on the use of different seams in various fabric projects."
+  ],
+  "rationale": [
+    "Understanding how to sew different types of seams helps students develop essential skills in creating well-constructed and comfortable fabric projects."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, hands-on practice, and reflection to explore the different types of seams and their purposes."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Seams</b>:<br><br>A seam is the line where two pieces of fabric are sewn together. Seams are essential for creating clothing, accessories, and other fabric projects. Different types of seams are used based on the material and the final look or function of the project.",
+      "<b>Part 2: Classes of Seams</b>:<br><br>1. Flat Ridged Seams<br>Description: A flat ridged seam lies flat on the fabric and creates a slight ridge on one side.<br>Uses: This type of seam is often used for decorative purposes or when a strong, visible seam is needed.<br>Example: Common in denim and heavy-duty fabrics.<br>How to Sew It: The fabric edges are sewn together, and then the seam is pressed open, creating a flat surface with a small ridge.<br><br>2. Flannel Seams<br>Description: A flannel seam is commonly used for soft fabrics like flannel, providing a smooth and gentle seam.<br>Uses: This seam is ideal for projects that require comfort, such as pajamas, baby blankets, or soft clothing.<br>Example: Used for stitching flannel fabric where the seam needs to be both strong and soft.<br>How to Sew It: The fabric is sewn with a simple straight stitch, and the seam is often pressed flat for comfort.",
+      "<b>Part 3: Purpose of Different Seams</b>:<br><br>Seams are chosen based on the fabric and the purpose of the item being sewn. Flat ridged seams are used for durability and decoration, especially in outerwear. Flannel seams are used for soft, cozy materials to provide comfort without bulk.",
+      "<b>Part 4: Hands-On Activity</b>:<br><br>1. Practice Sewing a Flat Ridged Seam:<br>Students will practice sewing two pieces of fabric together using a flat ridged seam. Start by sewing a straight line, then press the seam open to create the ridge.<br><br>2. Practice Sewing a Flannel Seam:<br>Students will sew two pieces of flannel fabric together, focusing on making a neat and comfortable seam. The goal is to create a smooth, flat seam that doesn't irritate the skin.",
+      "<b>Part 5: Reflection and Class Discussion</b>:<br><br>Review of the Seams:<br>Have students share their work and reflect on which seam they found easier or more useful. Discuss where they might use these seams in future sewing projects.<br><br>Questions for Discussion:<br>1. What is a seam?<br>2. What are the differences between a flat ridged seam and a flannel seam?<br>3. When would you use a flat ridged seam?<br>4. Why is a flannel seam good for soft materials?<br>5. Can you think of other projects where you might use a flannel seam?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the seam sewing activities and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of different types of seams."
+  ],
+  "conclusion": [
+    "By learning about and practicing different types of seams, students will be able to apply these skills in creating various fabric projects, with an understanding of how seam choice affects durability, comfort, and appearance."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Introduction to Seams",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Understanding Seams in Garment Construction",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of seams in garment construction, exploring different types of seams and their applications based on fabric and garment types.",
+  "materials": [
+    "Samples of lightweight and heavyweight fabrics",
+    "Needles and threads of different thicknesses",
+    "Scissors",
+    "Pins",
+    "Sewing machine (optional)"
+  ],
+  "objectives": [
+    "Students will understand the definition and importance of seams in garment construction.",
+    "Students will learn about different seam types based on fabric weight and garment styles.",
+    "Students will be able to demonstrate sewing various seams."
+  ],
+  "rationale": [
+    "Understanding seams is crucial for garment construction, affecting durability, appearance, and comfort of clothing."
+  ],
+  "methodology": [
+    "The lesson will involve demonstrations of different seams and discussions on their applications in garment construction."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Seams</b>:<br><br>What Are Seams?<br>A seam is the line where two pieces of fabric are sewn together.<br><br>Seams are essential in garment construction, providing structure and shape.<br><br>Why Is Seam Choice Important?<br>The choice of seam affects the durability, appearance, and comfort of the garment.",
+      "<b>Part 2: Factors Affecting the Choice of Seams</b>:<br><br>Factor 1: Materials Being Used<br>Lightweight Fabrics: Need seams that won't add bulk. Example: French seams for delicate fabrics like silk or chiffon.<br><br>Heavyweight Fabrics: Require strong seams that can hold up to the weight. Example: Flat-felled seams for denim or canvas.<br><br>Factor 2: Type of Garment<br>Casual Wear: Requires comfortable seams that allow movement. Example: Overlocked seams for t-shirts and casual clothing.<br><br>Formal Wear: Needs neat, inconspicuous seams. Example: Invisible seams in gowns or formal dresses.<br><br>Outdoor/Work Wear: Requires durable seams. Example: Double-stitched seams for jackets or work trousers.<br><br>Factor 3: Position of the Seam<br>Side Seams: Often require strong seams to withstand pressure from movement.<br>Shoulder Seams: Need reinforcement, especially for heavy fabrics.<br>Hems: Usually require neat, decorative seams, as they are visible on the garment's exterior. Example: Blind hem stitches for clean finishes on trousers or skirts.",
+      "<b>Part 3: Materials Needed</b>:<br><br>Gathering Materials:<br>Samples of lightweight and heavyweight fabrics.<br>Needles and threads of different thicknesses.<br>Scissors.<br>Pins.<br>Sewing machine (optional).",
+      "<b>Part 4: Demonstrating Different Seams</b>:<br><br>Step 1: French Seam (for Lightweight Fabrics)<br>Demonstrate how to sew a French seam, which encloses the raw edges and provides a neat finish.<br>Explain that this seam is best for delicate fabrics to avoid fraying.<br><br>Step 2: Flat-Felled Seam (for Heavy Fabrics)<br>Show how to sew a flat-felled seam, which is strong and durable, making it ideal for jeans or outerwear.<br>Explain that this seam adds strength and prevents edges from unraveling.<br><br>Step 3: Overlocked Seam (for Casual Garments)<br>Demonstrate how to use an overlocker to sew seams in t-shirts or casual wear.<br>Explain that this seam stretches with the fabric, making it ideal for knit fabrics.",
+      "<b>Part 5: Application of Seams in Garments</b>:<br><br>Example 1: Dress Construction<br>Explain how a French seam can be used for the side seams of a dress made from delicate fabric.<br><br>Example 2: Jacket Construction<br>Demonstrate how a flat-felled seam can be used for the shoulder seams of a jacket to ensure durability.<br><br>Example 3: Skirt Hem<br>Show how to use a blind hem stitch to create a clean, nearly invisible hem on a skirt."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the demonstrations and discussions.",
+    "<b>Practical Exercise</b>: Students will practice sewing different seams on fabric samples."
+  ],
+  "conclusion": [
+    "By learning about different seams and their applications, students will understand how to select appropriate seams based on fabric types and garment styles."
+  ]
+},
 
 // Week 10
 // Lesson 1
-
+{
+  "title": "Introduction to Seams",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Understanding Seams",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to seams, focusing on their importance, rules for working out seams, and hands-on activities to practice seam techniques.",
+  "materials": [
+    "Fabric samples",
+    "Various types of thread",
+    "Sewing machines",
+    "Measuring tape",
+    "Scissors"
+  ],
+  "objectives": [
+    "Students will learn what seams are and their importance in sewing projects.",
+    "Students will understand the rules for working out seams, including thread selection and seam width.",
+    "Students will practice selecting appropriate threads and sewing seams of different widths."
+  ],
+  "rationale": [
+    "Understanding seams and their construction is essential for creating durable and aesthetically pleasing sewn items. It lays the foundation for advanced sewing techniques."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, demonstrations, and hands-on activities to engage students in learning about seams."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Seams</b>:<br><br>What are Seams?<br>A seam is created when two pieces of fabric are stitched together. The type and quality of the seam can affect the durability and appearance of the finished product.",
+      "<b>Part 2: Rules for Working Out Seams</b>:<br><br>1. Suitable Threads<br>Explanation: The thread used for sewing must be appropriate for the fabric.<br>Example: Use cotton thread for cotton fabrics and polyester thread for synthetic fabrics.<br>Importance: Using the correct thread ensures that the seam is strong and does not break easily.<br><br>2. Width Depends on Material<br>Explanation: The width of the seam allowance (the space between the fabric edge and the seam) should be chosen based on the type of material being used.<br>Example: Heavier fabrics may require wider seams, while lighter fabrics can work with narrower seams.<br>Importance: Choosing the right seam width helps prevent fraying and ensures the integrity of the seam.<br><br>3. Similar Width for Same Type of Seams<br>Explanation: When using multiple seams of the same type in a project, they should be of similar width.<br>Example: If you use a 1/4 inch seam for one part of a garment, use the same 1/4 inch seam for all other pieces to ensure a proper fit.<br>Importance: Consistency in seam width helps maintain the overall structure and appearance of the item.",
+      "<b>Part 3: Importance of These Rules</b>:<br><br>Why Follow These Rules?<br>Ensuring that threads, seam widths, and types are consistent is crucial for achieving a professional finish in sewing projects. Adhering to these rules prevents issues such as fabric distortion, weak seams, and uneven stitching.",
+      "<b>Part 4: Hands-On Activity</b>:<br><br>Thread Selection Activity:<br>Provide students with various types of fabric and threads. Have them match the appropriate thread to each fabric type, explaining their choices.<br><br>Seam Width Practice:<br>Give students fabric samples and ask them to practice sewing seams of different widths based on the provided fabric types. Encourage them to consider the rules discussed regarding seam width and material.",
+      "<b>Part 5: Reflection and Class Discussion</b>:<br><br>Review of the Rules:<br>Engage the class in a discussion about the rules for working out seams. Ask students to share their experiences with selecting threads and widths during their practice."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the hands-on activities and class discussions.",
+    "<b>Reflection</b>: Students will participate in a discussion to assess their understanding of the rules for working out seams."
+  ],
+  "conclusion": [
+    "By learning about seams and practicing the rules for their construction, students will be better equipped to create high-quality sewing projects with strong and aesthetically pleasing seams."
+  ]
+},
 
 // Lesson 2
-
-
+{
+  "title": "Introduction to Seams",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Understanding Different Types of Seams",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to seams, their types, and purposes in sewing, providing hands-on practice to reinforce learning.",
+  "materials": [
+    "Fabric pieces for sewing practice",
+    "Sewing machine",
+    "Scissors",
+    "Measuring tape",
+    "Iron and ironing board"
+  ],
+  "objectives": [
+    "Students will learn what seams are and their significance in sewing.",
+    "Students will identify different types of seams and their appropriate uses.",
+    "Students will practice sewing various seam types to enhance their skills."
+  ],
+  "rationale": [
+    "Understanding seams is crucial for sewing projects, as the choice of seam affects both the durability and appearance of the finished item."
+  ],
+  "methodology": [
+    "The lesson will utilize direct instruction, demonstrations, and hands-on practice to engage students in learning about seams."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Seams</b>:<br><br>What are Seams?<br>Seams are the lines where two pieces of fabric are sewn together. Different types of seams are used based on the fabric, the purpose of the item, and the desired appearance.",
+      "<b>Part 2: Types of Seams</b>:<br><br>1. Open Seam<br>Description: An open seam is created by sewing two pieces of fabric together with a straight stitch, then pressing the seam allowances open.<br>Uses: Commonly used in many sewing projects for joining fabric pieces.<br>Example: Found in garments like shirts and skirts.<br><br>2. French Seam<br>Description: A French seam encloses the raw edges of the fabric within the seam itself, making it ideal for lightweight or sheer fabrics.<br>Uses: Used for garments where a neat finish is important, such as blouses or curtains.<br>How to Sew It: Sew the wrong sides together, trim, then fold the fabric so the right sides are together and sew again.<br><br>3. Run and Fell Seam<br>Description: A run and fell seam consists of one piece of fabric being folded over another, creating a flat, strong seam with no raw edges visible.<br>Uses: Ideal for denim and heavier fabrics; provides durability.<br>How to Sew It: Sew the first fabric piece, fold over the second, and sew along the folded edge.<br><br>4. Overlaid Seam<br>Description: An overlaid seam involves sewing one piece of fabric over another, typically with the raw edges aligned.<br>Uses: Often used for decorative purposes, adding texture or visual interest.<br>Example: Seen in garments or accessories where design elements are added.",
+      "<b>Part 3: Purpose of Different Seams</b>:<br><br>Why Are Different Seams Used?<br>Seams are chosen based on the type of fabric and the function of the item being sewn.<br>Open seams are simple and versatile for most projects.<br>French seams provide a clean finish for delicate fabrics.<br>Run and fell seams offer strength for heavy materials.<br>Overlaid seams add decorative elements to projects.",
+      "<b>Part 4: Hands-On Activity</b>:<br><br>Sewing Practice:<br>Students will practice sewing samples of each seam type using appropriate fabric pieces.<br><br>1. Open Seam:<br>Take two fabric pieces, place them right sides together, and sew along the edge. Press open the seam allowances.<br><br>2. French Seam:<br>Sew the wrong sides of the fabric together, trim the seam allowance, then fold the fabric so the right sides are together and sew again.<br><br>3. Run and Fell Seam:<br>Fold one fabric piece over the other, aligning the raw edges, and sew along the folded edge to create a secure seam.<br><br>4. Overlaid Seam:<br>Place one fabric piece over another, ensuring the raw edges are aligned, and sew through both layers to create an overlaid effect.",
+      "<b>Part 5: Reflection and Class Discussion</b>:<br><br>Review of the Seams:<br>Have students share their sewing samples and discuss what they learned about each seam type.<br><br>Discuss which seams were easiest or most challenging to sew.<br><br>Questions for Discussion:<br>1. What is an open seam, and when would you use it?<br>2. How do you create a French seam?<br>3. What are the benefits of using a run and fell seam?<br>4. Why might someone choose to use an overlaid seam in a project?<br>5. How do the types of seams affect the overall look and durability of a finished item?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' sewing techniques and engagement during practice.<br><b>Reflection</b>: Students will discuss their learning experiences and the challenges they faced while sewing different seams."
+  ],
+  "conclusion": [
+    "By understanding different types of seams and practicing sewing them, students will enhance their sewing skills and be able to choose the right seam for various fabric types and project purposes."
+  ]
+}
 ];
