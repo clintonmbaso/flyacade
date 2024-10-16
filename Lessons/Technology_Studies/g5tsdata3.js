@@ -209,14 +209,201 @@ const lessonPlans67c = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "Introduction to Electricity",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Understanding Electricity and Hydroelectric Power",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to electricity, focusing on its definition, generation process, and the importance of hydroelectric power.",
+  "materials": [
+    "Model of a water wheel or small turbine",
+    "Cup of water for demonstration",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn what electricity is and how it is generated.",
+    "Students will understand the hydroelectric generation process and its components.",
+    "Students will explore the importance of hydroelectric power as a renewable energy source."
+  ],
+  "rationale": [
+    "Understanding electricity and hydroelectric power helps students appreciate energy sources and their impact on the environment."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, and hands-on activities to engage students in learning about electricity and hydroelectric power."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Electricity</b>:<br><br>What is Electricity?<br>Electricity is a form of energy that powers our homes, schools, and devices. It is used for lighting, heating, and running appliances.<br><br>How is Electricity Generated?<br>Electricity can be generated using various methods, one of which is through hydroelectric power.",
+      "<b>Part 2: The Hydro Electric Generation Process</b>:<br><br>1. Water Source<br>Explanation: The process begins with a water source, such as a river or a dam.<br>Importance: A sufficient flow of water is necessary to generate electricity.<br><br>2. Reservoir<br>Explanation: Water is stored in a reservoir (a large lake created by a dam) to ensure a steady supply.<br>Importance: This stored water can be released when needed to generate electricity.<br><br>3. Turbine<br>Explanation: When water is released from the reservoir, it flows through turbines.<br>Importance: The force of the moving water turns the turbine blades, which converts the kinetic energy of the water into mechanical energy.<br><br>4. Generator<br>Explanation: The turbine is connected to a generator.<br>Importance: As the turbine spins, it activates the generator, which converts mechanical energy into electrical energy.<br><br>5. Transmission Lines<br>Explanation: The generated electricity is then transmitted through power lines to homes and businesses.<br>Importance: This allows people to use the electricity for their everyday needs.",
+      "<b>Part 3: Importance of Hydroelectric Power</b>:<br><br>Why is Hydroelectric Power Important?<br>Renewable Energy: It is a clean and renewable source of energy that does not pollute the environment.<br>Sustainable: It relies on the natural water cycle and can provide a continuous supply of electricity as long as there is water flow.<br>Cost-Effective: Once established, hydroelectric plants have low operating costs and can produce electricity at a lower price compared to fossil fuels.",
+      "<b>Part 4: Hands-On Activity</b>:<br><br>Water Flow Experiment:<br>Provide students with a simple model of a water wheel or a small turbine.<br>Use a cup of water to simulate how flowing water can turn the wheel or turbine, illustrating how energy is generated.<br>Discuss how this small-scale model relates to large hydroelectric power plants.",
+      "<b>Part 5: Reflection and Class Discussion</b>:<br><br>Review of the Hydro Electric Generation Process:<br>Engage the class in a discussion about the hydroelectric process and its components.<br>Ask students to share what they learned about how water can be used to generate electricity."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and hands-on activity.",
+    "<b>Class Discussion</b>: Students will demonstrate their understanding of the hydroelectric generation process through participation in the discussion."
+  ],
+  "conclusion": [
+    "By learning about electricity and hydroelectric power, students will understand the importance of renewable energy sources and how they benefit the environment."
+  ]
+},
 
 // Week 8
 // Lesson 1
+{
+  "title": "Introduction to Electricity",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Understanding Electricity",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of electricity, its uses, common electric appliances, and important safety precautions.",
+  "materials": [
+    "Pictures of electric appliances",
+    "Art supplies for safety posters",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will understand what electricity is and its significance in daily life.",
+    "Students will learn about common electric appliances and their functions.",
+    "Students will recognize safety precautions when using electric appliances."
+  ],
+  "rationale": [
+    "Understanding electricity and safety measures helps students to use electric appliances responsibly and prevent accidents."
+  ],
+  "methodology": [
+    "The lesson will include direct instruction, discussions, and hands-on activities to engage students in learning about electricity."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Electricity</b>:<br><br>What is Electricity?<br>Electricity is a form of energy that powers many devices we use every day. It is essential for lighting our homes, running appliances, and powering electronic devices.<br><br>Uses of Electricity:<br>Lighting: Electricity powers light bulbs to illuminate our rooms. Heating: Electric heaters and stoves provide warmth and cook food. Cooling: Air conditioners and fans keep us cool during hot weather. Entertainment: TVs, computers, and gaming consoles require electricity to function.",
+      "<b>Part 2: Common Electric Appliances</b>:<br><br>1. Light Bulb<br>Function: Provides illumination in homes and public spaces.<br>Safety Note: Ensure the bulb is turned off before changing it to avoid electric shock.<br><br>2. Refrigerator<br>Function: Keeps food fresh and prevents spoilage.<br>Safety Note: Do not place hot items directly inside to avoid damaging the appliance.<br><br>3. Microwave<br>Function: Heats and cooks food quickly.<br>Safety Note: Use microwave-safe containers to prevent melting or fires.<br><br>4. Washing Machine<br>Function: Cleans clothes automatically.<br>Safety Note: Make sure the machine is properly grounded to prevent electric shock.",
+      "<b>Part 3: Safety Precautions When Using Electric Appliances</b>:<br><br>1. Keep Dry<br>Explanation: Water and electricity do not mix.<br>Precaution: Always keep electric appliances away from water to prevent electric shock.<br><br>2. Unplug When Not in Use<br>Explanation: Leaving appliances plugged in can be a fire hazard.<br>Precaution: Unplug devices when they are not being used, especially in wet areas.<br><br>3. Use Safe Cords and Outlets<br>Explanation: Damaged cords and improper outlets can lead to accidents.<br>Precaution: Check for frayed cords and use grounded outlets. Never overload electrical sockets.<br><br>4. Ask for Help<br>Explanation: Not all appliances are safe for children to use alone.<br>Precaution: Always ask an adult for help when using electric appliances.",
+      "<b>Part 4: Hands-On Activity</b>:<br><br>Appliance Identification:<br>Provide pictures of various electric appliances.<br>Ask students to identify each appliance and discuss its function.<br><br>Safety Poster Creation:<br>Have students create a safety poster that highlights the precautions they learned about electric appliances.<br>Encourage them to use drawings or cutouts from magazines.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is electricity?<br>2. Name three uses of electricity in the home.<br>3. What does a refrigerator do?<br>4. Why is it important to unplug appliances when not in use?<br>5. What can happen if you use a damaged cord?<br>6. How can you keep electric appliances safe from water?<br>7. What should you do if you see a frayed cord?<br>8. Why is it important to ask an adult for help?<br>9. What type of container should you use in a microwave?<br>10. How can we help prevent accidents with electric appliances?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and hands-on activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of electricity and safety precautions."
+  ],
+  "conclusion": [
+    "By learning about electricity and safety measures, students will be better equipped to use electric appliances responsibly and understand the importance of staying safe."
+  ]
+},
 
 // Week 9
 // Lesson 1
+{
+  "title": "Introduction to Costing and Pricing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Understanding Costing and Pricing",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concepts of costing and pricing, focusing on understanding the costs involved in producing a product and how to set an appropriate price.",
+  "materials": [
+    "Whiteboard and markers",
+    "Examples of products",
+    "Calculators"
+  ],
+  "objectives": [
+    "Students will learn the definition of costing and its importance in business.",
+    "Students will identify different types of costs involved in production.",
+    "Students will understand the concept of pricing and its significance for businesses."
+  ],
+  "rationale": [
+    "Understanding costing and pricing is essential for students as it equips them with knowledge of how businesses operate and make financial decisions."
+  ],
+  "methodology": [
+    "The lesson will utilize discussions, activities, and group work to engage students in learning about costing and pricing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Costing</b>:<br><br>What is Costing?<br>Define costing as the process of determining the total costs involved in producing a product.<br><br>Explain the different types of costs involved:<br>1. Fixed Costs: Costs that do not change regardless of the number of products made (e.g., rent, salaries).<br><br>2. Variable Costs: Costs that vary with the level of production (e.g., materials, labor).",
+      "<b>Part 2: Introduction to Pricing</b>:<br><br>What is Pricing?<br>Define pricing as the process of setting a price for a product to be sold.<br><br>Explain why pricing is important for a business:<br>It determines profit margins.<br>It influences customer perceptions and demand.<br><br>Factors to Consider in Pricing:<br>1. Cost of Production: Ensure that the price covers all costs involved in making the product.<br>2. Market Demand: Understand what customers are willing to pay.<br>3. Competition: Consider how similar products are priced by competitors.",
+      "<b>Part 3: Costing and Pricing Activity</b>:<br><br>Calculating Costs and Setting Prices:<br>1. Example Scenario:<br>Present a simple product scenario, such as a homemade lemonade stand.<br>List the fixed costs (e.g., lemonade stand rental) and variable costs (e.g., lemons, sugar, cups).<br>Help students calculate the total cost.<br><br>2. Setting the Selling Price:<br>Discuss how to set a selling price based on the calculated costs and desired profit margin.<br>Introduce the formula:<br><br><span style='font-family:monospace;'>Selling Price = Total Cost + Desired Profit</span>",
+      "<b>Part 4: Understanding the Importance of Pricing Strategies</b>:<br><br>Discussing Pricing Strategies:<br>Introduce common pricing strategies:<br>Cost-Plus Pricing: Adding a fixed percentage to the cost of production.<br>Competitive Pricing: Setting prices based on what competitors charge.<br>Value-Based Pricing: Setting prices based on perceived value to the customer.<br><br>Activity:<br>Role Play: Have students role-play as business owners and customers to practice negotiating prices based on their product ideas and pricing strategies.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is costing, and why is it important in business?<br>2. What are fixed costs? Provide an example.<br>3. What are variable costs? Provide an example.<br>4. What is pricing, and how does it affect a business?<br>5. Name two factors to consider when setting a price for a product.<br>6. How do you calculate the selling price of a product?<br>7. What is cost-plus pricing?<br>8. How can competition influence pricing?<br>9. What is the difference between cost-based pricing and value-based pricing?<br>10. Why is it essential to understand pricing strategies for a business’s success?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will assess the students' understanding of costing and pricing concepts."
+  ],
+  "conclusion": [
+    "By learning about costing and pricing, students will gain insight into essential business concepts that influence decision-making and financial success."
+  ]
+},
 
 // Week 10
 // Lesson 1
-
+{
+  "title": "Introduction to Financial Records",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Understanding Financial Records",
+  "grade": "Avian Aces",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of financial records, their types, importance, benefits, and best practices.",
+  "materials": [
+    "Projector and screen",
+    "Whiteboard and markers",
+    "Handouts of financial record types"
+  ],
+  "objectives": [
+    "Students will understand the definition and importance of financial records.",
+    "Students will learn about different types of financial records.",
+    "Students will identify the benefits of keeping accurate financial records."
+  ],
+  "rationale": [
+    "Understanding financial records is crucial for effective business management and decision-making."
+  ],
+  "methodology": [
+    "The lesson will utilize discussions, examples, and group activities to engage students in understanding financial records."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Financial Records</b>:<br><br>Definition: Financial records are documents that track the financial activities of a business, providing a comprehensive overview of its financial health.<br><br>Importance:<br>1. Tracking Performance: Helps entrepreneurs assess how well their business is performing over time.<br>2. Decision-Making: Provides critical information for making informed business decisions.<br>3. Legal Compliance: Ensures the business meets legal requirements for tax reporting and audits.<br>4. Financial Analysis: Enables businesses to analyze costs, revenues, and profits to identify areas for improvement.",
+      "<b>Part 2: Types of Financial Records</b>:<br><br>1. Income Statements:<br>Description: Reports revenues, expenses, and profits over a specific period.<br>Purpose: Shows the profitability of the business and helps track financial performance.<br><br>2. Balance Sheets:<br>Description: Provides a snapshot of a company’s assets, liabilities, and equity at a given point in time.<br>Purpose: Helps assess the financial position and stability of the business.<br><br>3. Cash Flow Statements:<br>Description: Tracks the flow of cash in and out of the business.<br>Purpose: Shows how cash is generated and used, indicating liquidity and operational efficiency.<br><br>4. Receipts and Invoices:<br>Description: Records of transactions that provide proof of purchases and sales.<br>Purpose: Essential for tracking expenses and revenues, and for tax purposes.<br><br>5. Bank Statements:<br>Description: Summarizes all transactions in a business bank account over a specific period.<br>Purpose: Helps reconcile cash flow and monitor financial activity.",
+      "<b>Part 3: Benefits of Keeping Financial Records</b>:<br><br>1. Financial Control: Maintaining accurate records allows entrepreneurs to monitor spending and avoid overspending.<br>2. Budgeting: Helps in creating and maintaining budgets, facilitating better financial planning.<br>3. Investor Relations: Attracts potential investors by demonstrating a well-organized financial structure.<br>4. Loan Acquisition: Simplifies the process of applying for loans by providing lenders with accurate financial data.<br>5. Tax Preparation: Streamlines the process of preparing taxes and ensures compliance with tax laws.",
+      "<b>Part 4: Best Practices for Keeping Financial Records</b>:<br><br>1. Consistency: Regularly update records to ensure they are current and accurate.<br>2. Organization: Use accounting software or a filing system to categorize records for easy access.<br>3. Backup: Regularly back up financial data to prevent loss due to technical failures.<br>4. Review: Periodically review financial records to assess the business’s financial health and make necessary adjustments.<br>5. Professional Help: Consider hiring an accountant or financial advisor for complex financial situations or tax planning.",
+      "<b>Part 5: Exercise</b>:<br><br>Questions:<br>1. What is the purpose of an income statement?<br>2. Name two types of financial records that are important for a business.<br>3. How can keeping financial records help with budgeting?<br>4. Why is it important to regularly update financial records?<br>5. What role do receipts and invoices play in financial record-keeping?<br>6. Describe one benefit of maintaining accurate financial records.<br>7. What is a balance sheet used for?<br>8. How can financial records aid in obtaining loans?<br>9. Why should a business regularly back up its financial data?<br>10. What might be a reason to hire a professional accountant for your business?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The questions will evaluate the students' understanding of financial records."
+  ],
+  "conclusion": [
+    "By understanding the importance and types of financial records, students will gain insights into effective business management and the benefits of maintaining accurate financial documentation."
+  ]
+}
 ];
