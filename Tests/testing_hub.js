@@ -768,7 +768,7 @@ const questionsBank = [
   ...g5expt2amultipleChoiceQuestions,
   ...g5expt2bmultipleChoiceQuestions,*/
   ...g5matht3amultipleChoiceQuestions,
-//  ...g5expt3bmultipleChoiceQuestions,
+  ...g5matht3bmultipleChoiceQuestions,
   // True or False
 /*  ...g5expt1atrueFalseQuestions,
   ...g5expt1btrueFalseQuestions,
@@ -796,7 +796,7 @@ const questionsBank = [
   ...g5expt2amatchingQuestions,
   ...g5expt2bmatchingQuestions,*/
   ...g5matht3aoneWordQuestions,
-//  ...g5expt3bmatchingQuestions,
+  ...g5matht3boneWordQuestions,
 
 
 ];
