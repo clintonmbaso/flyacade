@@ -20,6 +20,7 @@ body {
   background: #2c3e50;
   transition: left 0.5s ease-in-out;
   z-index: 3;
+  overflow-y: auto;
 }
 
 .show-form {
@@ -166,4 +167,223 @@ select {
 
 #save-btn i {
     font-size: 24px; 
+}
+
+.puzzle-based-container {
+    margin: 20px 0;
+  
+}
+
+.sudoku-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    border: 3px solid #000; /* Thicker outer border */
+  
+}
+
+.sudoku-input {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+     font-weight: bold;
+     padding: none;
+}
+
+.sudoku-table td {
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+}
+.sudoku-table tr:nth-child(3), .sudoku-table tr:nth-child(6) {
+      border-bottom: 3px solid #000; /* Thicken third and sixth row bottom borders */
+    }
+.sudoku-table td:nth-child(3), .sudoku-table td:nth-child(6) {
+      border-right: 3px solid #000; /* Thicken third and sixth column right borders */
+    }
+
+.black-cell {
+    background-color: grey;
+}
+
+
+
+
+.tracing-container {
+    text-align: center; /* Center the canvas and prompt in the container */
+    margin: 20px auto;  /* Add space around the container */
+}
+
+.tracing-canvas {
+    display: block;
+    margin: 0 auto; /* This centers the canvas itself */
+    border: 1px solid #ccc; /* Optional border for visibility */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.tracing-prompt {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    color: #333;
+}0
+
+
+
+
+.crossword-input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    text-align: center;
+  display: flex;
+}
+
+.clue-number {
+    font-size: 0.5em;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: darkblue;
+}
+
+.crossword-table {
+    position: relative;
+    border-collapse: collapse;
+}
+
+.crossword-table td {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.crossword-clues-container {
+    margin-top: 20px;
+}
+
+.crossword-clues-container h3 {
+    margin: 10px 0;
+}
+
+.crossword-clues-container p {
+    margin: 5px 0;
+}
+
+
+
+
+/* Style for the special question container */
+.special-container {
+    text-align: left; /* Center the content */
+    margin: 0;
+}
+
+/* Style for the question image */
+.special-container img.question-image {
+    max-width: 300px; /* Regulate the size of the question image */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Style for the choices (radio inputs with images) */
+.special-container .choice-container {
+    display: inline-block; /* Display the options inline */
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style for the choice images */
+.special-container .choice-container img {
+    max-width: 100px; /* Regulate the size of choice images */
+    width: 50%;
+    height: auto;
+//    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Align the text below the image */
+.special-container .choice-container label span {
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* Style for the handwriting question container */
+.handwriting-container {
+    margin: 20px 0;
+    text-align: center; /* Center the content */
+}
+
+/* Style for the handwriting prompt image */
+.handwriting-container img.handwriting-prompt-image {
+    max-width: 300px; /* Adjust image size as needed */
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Center the image */
+}
+
+/* Style for the handwriting textarea */
+.handwriting-container .handwriting-input {
+    width: 80%; /* Adjust width */
+    max-width: 500px;
+    font-size: 20px; /* Increase font size for better readability */
+    padding: 10px;
+    border: 2px solid #ccc; /* Basic border styling */
+    border-radius: 5px;
+    resize: none; /* Disable manual resizing */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Easy font for children */
+    line-height: 1.2; /* Line height to create space for tall letters */
+    
+    /* Create lines in the background */
+    background-image: repeating-linear-gradient(
+        white,            /* Color of the background */
+        white 10px,      /* End of white area */
+        lightgray 10px,  /* Start of the line */
+        lightgray 11px   /* End of the line (thickness) */
+    ); 
+    background-size: 100% 20px; /* Total height for each repeat */
+    
+    color: #333; /* Text color */
+    overflow-y: hidden; /* Prevents vertical scrollbar */
+}
+
+
+
+
+
+/* Style for the reading question container */
+.reading-container {
+    margin: 20px 0;
+    text-align: center; /* Center the content */
+}
+
+/* Style for the reading prompt (title or instruction) */
+.reading-container .reading-prompt {
+    font-size: 24px; /* Large and readable title */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the reading content (word, sentence, or paragraph) */
+.reading-container .reading-content {
+    font-size: 50px; /* Adjust font size for readability */
+    line-height: 1.5; /* Spacing between lines */
+    margin: 15px auto; /* Space around the text */
+    width: 80%;
+    max-width: 600px; /* Limit width for better readability */
+    text-align: left; /* Left-align for better reading */
+    font-family: 'Advantage', sans-serif; /* Simple font for children */
+}
+
+/* Style for the reading prompt image */
+.reading-container .reading-prompt-image {
+    max-width: 300px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Center the image */
 }

@@ -16,7 +16,8 @@
   <title>Random Questions PDF Generator</title>
   <link rel="stylesheet" href="testing_hub.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Advantage&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -24,7 +25,7 @@
     <div class="form-container" id="form-container">
          <div style="display: flex; justify-content: space-between; margin: 0 10px;">
            <a href="../index.html"><img src="../images/Flying_Wings_Academy.png"  id="logo" alt="home_logo" title="Flying_Wings_Home" width="306" height="250"></a>
-            <h2  id="Heading">Flyacade Tests</h2>
+            <h2  id="Heading">Flyacade Assessments</h2>
          </div>
       <hr>
       
@@ -91,32 +92,72 @@
           
         <div style="display: flex; justify-content: space-between;">
           <label for="num-multiple-choice">Multiple Choice Questions:</label>
-          <input type="number" id="num-multiple-choice" min="0" value="10">
+          <input type="number" id="num-multiple-choice" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-special">SP2 Questions:</label>
+          <input type="number" id="num-special" min="0" value="1">
         </div>
         
         <div style="display: flex; justify-content: space-between;">
           <label for="num-true-false">True or False Questions:</label>
-          <input type="number" id="num-true-false" min="0" value="10">
+          <input type="number" id="num-true-false" min="0" value="1">
         </div>
        
         <div style="display: flex; justify-content: space-between;">
           <label for="num-fill-in-the-blank">Fill in the Blank Questions:</label>
-          <input type="number" id="num-fill-in-the-blank" min="0" value="5">
+          <input type="number" id="num-fill-in-the-blank" min="0" value="1">
         </div>
         
         <div style="display: flex; justify-content: space-between;">
           <label for="num-matching">Matching Questions:</label>
-          <input type="number" id="num-matching" min="0" value="2">
+          <input type="number" id="num-matching" min="0" value="1">
         </div>
           
         <div style="display: flex; justify-content: space-between;">
           <label for="num-one-word">Calculation Questions:</label>
-          <input type="number" id="num-one-word" min="0" value="5">
+          <input type="number" id="num-one-word" min="0" value="1">
         </div>
           
         <div style="display: flex; justify-content: space-between;">
           <label for="num-comprehension">Comprehension Questions:</label>
           <input type="number" id="num-comprehension" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-image_based">Image Questions:</label>
+          <input type="number" id="num-image_based" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-maze">Maze Questions:</label>
+          <input type="number" id="num-maze" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-sudoku">Sudoku Questions:</label>
+          <input type="number" id="num-sudoku" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-crossword">Crossword Questions:</label>
+          <input type="number" id="num-crossword" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-tracing">Tracing Questions:</label>
+          <input type="number" id="num-tracing" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-handwriting">Handwriting Questions:</label>
+          <input type="number" id="num-handwriting" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-reading">Reading Questions:</label>
+          <input type="number" id="num-reading" min="0" value="1">
         </div>
           
         </div>
@@ -127,6 +168,7 @@
         </div>
       </div>
 <p id="question-count"></p>
+      
     </div>
     <div id="questions-container"></div>
     
@@ -148,14 +190,68 @@
 <!-- English -->
 <!-- Middle Class -->
 <!-- Multiple Choice -->
+  <script src="english/middle/midengt1amultipleChoiceQuestions.js"></script>
+  <script src="english/middle/midengt1bmultipleChoiceQuestions.js"></script>
+  <script src="english/middle/midengt2amultipleChoiceQuestions.js"></script>
+  <script src="english/middle/midengt2bmultipleChoiceQuestions.js"></script>
   <script src="english/middle/midengt3amultipleChoiceQuestions.js"></script>
-<!-- True or False -->    
+  <script src="english/middle/midengt3bmultipleChoiceQuestions.js"></script>
+<!-- True or False -->
+  <script src="english/middle/midengt1atrueFalseQuestions.js"></script>
+  <script src="english/middle/midengt1btrueFalseQuestions.js"></script>
+  <script src="english/middle/midengt2atrueFalseQuestions.js"></script>
+  <script src="english/middle/midengt2btrueFalseQuestions.js"></script>
   <script src="english/middle/midengt3atrueFalseQuestions.js"></script>
+  <script src="english/middle/midengt3btrueFalseQuestions.js"></script>
 <!-- Fill in the Blanks -->
+  <script src="english/middle/midengt1afillInTheBlankQuestions.js"></script>
+  <script src="english/middle/midengt1bfillInTheBlankQuestions.js"></script>
+  <script src="english/middle/midengt2afillInTheBlankQuestions.js"></script>
+  <script src="english/middle/midengt2bfillInTheBlankQuestions.js"></script>
   <script src="english/middle/midengt3afillInTheBlankQuestions.js"></script>
+  <script src="english/middle/midengt3bfillInTheBlankQuestions.js"></script>
 <!-- Matching -->
+  <script src="english/middle/midengt1amatchingQuestions.js"></script>
+  <script src="english/middle/midengt1bmatchingQuestions.js"></script>
+  <script src="english/middle/midengt2amatchingQuestions.js"></script>
+  <script src="english/middle/midengt2bmatchingQuestions.js"></script>
   <script src="english/middle/midengt3amatchingQuestions.js"></script>
+  <script src="english/middle/midengt3bmatchingQuestions.js"></script>
 
+<!-- Literacy -->
+<!-- Handwriting -->
+  <script src="literacy/middle/midlitt1ahandwritingQuestions.js"></script>
+  <script src="literacy/middle/midlitt1bhandwritingQuestions.js"></script>
+  <script src="literacy/middle/midlitt2ahandwritingQuestions.js"></script>
+  <script src="literacy/middle/midlitt2bhandwritingQuestions.js"></script>
+  <script src="literacy/middle/midlitt3ahandwritingQuestions.js"></script>
+  <script src="literacy/middle/midlitt3bhandwritingQuestions.js"></script>
+<!-- Reading -->
+  <script src="literacy/middle/midlitt1areadingQuestions.js"></script>
+  <script src="literacy/middle/midlitt1breadingQuestions.js"></script>
+  <script src="literacy/middle/midlitt2areadingQuestions.js"></script>
+  <script src="literacy/middle/midlitt2breadingQuestions.js"></script>
+  <script src="literacy/middle/midlitt3areadingQuestions.js"></script>
+  <script src="literacy/middle/midlitt3breadingQuestions.js"></script>
+<!-- Tracing -->
+  <script src="literacy/middle/midlitt1atracingQuestions.js"></script>
+  <script src="literacy/middle/midlitt1btracingQuestions.js"></script>
+  <script src="literacy/middle/midlitt2atracingQuestions.js"></script>
+  <script src="literacy/middle/midlitt2btracingQuestions.js"></script>
+  <script src="literacy/middle/midlitt3atracingQuestions.js"></script>
+  <script src="literacy/middle/midlitt3btracingQuestions.js"></script>
+    
+<!-- Expressive Arts -->
+<!-- Tracing -->
+  <script src="expressive_arts/middle/midexpt1atracingQuestions.js"></script>
+  <script src="expressive_arts/middle/midexpt1btracingQuestions.js"></script>
+  <script src="expressive_arts/middle/midexpt2atracingQuestions.js"></script>
+  <script src="expressive_arts/middle/midexpt2btracingQuestions.js"></script>
+  <script src="expressive_arts/middle/midexpt3atracingQuestions.js"></script>
+  <script src="expressive_arts/middle/midexpt3btracingQuestions.js"></script>
+
+    
+    
 <!-- Science -->
 <!-- Middle Class -->
 <!-- Multiple Choice -->
@@ -165,6 +261,16 @@
   <script src="science/middle/midscit2bmultipleChoiceQuestions.js"></script>
   <script src="science/middle/midscit3amultipleChoiceQuestions.js"></script>
   <script src="science/middle/midscit3bmultipleChoiceQuestions.js"></script>
+    
+<!-- Multiple Choice -->
+  <script src="science/middle/midscit1aimageBasedQuestions.js"></script>
+  <script src="science/middle/midscit1bimageBasedQuestions.js"></script>
+  <script src="science/middle/midscit2aimageBasedQuestions.js"></script>
+  <script src="science/middle/midscit2bimageBasedQuestions.js"></script>
+  <script src="science/middle/midscit3aimageBasedQuestions.js"></script>
+  <script src="science/middle/midscit3bimageBasedQuestions.js"></script>
+    
+    
 <!-- Reception Class -->
 <!-- Multiple Choice -->
   <script src="science/reception/recscit2amultipleChoiceQuestions.js"></script>
@@ -194,12 +300,16 @@
   <script src="english/reception/recengt2amultipleChoiceQuestions.js"></script>
   <script src="english/reception/recengt2bmultipleChoiceQuestions.js"></script>-->
   <script src="ss/reception/recsst3amultipleChoiceQuestions.js"></script>
+  <script src="ss/reception/recsst3bmultipleChoiceQuestions.js"></script>
 <!-- Fill in the Blanks -->
   <script src="ss/reception/recsst3afillInTheBlankQuestions.js"></script>
+  <script src="ss/reception/recsst3bfillInTheBlankQuestions.js"></script>
 <!-- True or False -->
   <script src="ss/reception/recsst3atrueFalseQuestions.js"></script>
+  <script src="ss/reception/recsst3btrueFalseQuestions.js"></script>
 <!-- Matching -->
   <script src="ss/reception/recsst3amatchingQuestions.js"></script>
+  <script src="ss/reception/recsst3bmatchingQuestions.js"></script>
 
         <!-- Expressive Arts -->
 <!-- Multiple Choice --
@@ -212,6 +322,14 @@
   <script src="expressive_arts/reception/recexpt3atrueFalseQuestions.js"></script>
 <!-- Matching -->
   <script src="expressive_arts/reception/recexpt3amatchingQuestions.js"></script>
+
+<!-- SP 2 -->
+  <script src="sp2/reception/recsp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/reception/recsp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/reception/recsp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/reception/recsp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/reception/recsp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/reception/recsp2t3bimageBasedQuestions.js"></script>
 
     
     
@@ -279,7 +397,15 @@
   <script src="science/grade1/g1scit2bmatchingQuestions.js"></script>
   <script src="science/grade1/g1scit3amatchingQuestions.js"></script>
   <script src="science/grade1/g1scit3bmatchingQuestions.js"></script>
+<!-- Image Questions --
+  <script src="science/grade1/g1scit1amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit1bmatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit2amatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit2bmatchingQuestions.js"></script>
+  <script src="science/grade1/g1scit3amatchingQuestions.js"></script>-->
+  <script src="science/grade1/g1scit3bimageBasedQuestions.js"></script>
 
+    <!-- Social Studies -->
 <!-- True or False -->
   <script src="ss/grade1/g1sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst1btrueFalseQuestions.js"></script>
@@ -293,21 +419,21 @@
   <script src="ss/grade1/g1sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade1/g1sst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="ss/grade1/g1sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst3bfillInTheBlankQuestions.js"></script>
 <!-- Matching --
   <script src="ss/grade1/g1sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade1/g1sst3amatchingQuestions.js"></script>
-    <!--  <script src="ss/grade1/g1sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst3bmatchingQuestions.js"></script>
 <!-- Multiple Choice --
   <script src="ss/grade1/g1sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade1/g1sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade1/g1sst3amultipleChoiceQuestions.js"></script>
-    <!--  <script src="ss/grade1/g1sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade1/g1sst3bmultipleChoiceQuestions.js"></script>
 
 <!-- Math -->
 <!-- True or False -->
@@ -337,22 +463,31 @@
   <script src="cts/grade1/g1ctst2btrueFalseQuestions.js"></script>
   <script src="cts/grade1/g1ctst3atrueFalseQuestions.js"></script>
   <script src="cts/grade1/g1ctst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blank Questions 
-  <script src="cts/grade1/g1scit1afillInTheBlankQuestions.js"></script>
-  <script src="cts/grade1/g1scit1bfillInTheBlankQuestions.js"></script>
-  <script src="cts/grade1/g1scit2afillInTheBlankQuestions.js"></script>
-  <script src="cts/grade1/g1scit2bfillInTheBlankQuestions.js"></script>-->
+<!-- Fill in the Blank Questions -->
+  <script src="cts/grade1/g1ctst1afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade1/g1ctst1bfillInTheBlankQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2bfillInTheBlankQuestions.js"></script>
   <script src="cts/grade1/g1ctst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="cts/grade1/g1scit3bfillInTheBlankQuestions.js"></script>
-<!-- Matching Questions 
-  <script src="cts/grade1/g1scit1amatchingQuestions.js"></script>
-  <script src="cts/grade1/g1scit1bmatchingQuestions.js"></script>
-  <script src="cts/grade1/g1scit2amatchingQuestions.js"></script>
-  <script src="cts/grade1/g1scit2bmatchingQuestions.js"></script>-->
+  <script src="cts/grade1/g1ctst3bfillInTheBlankQuestions.js"></script>
+<!-- Matching Questions -->
+  <script src="cts/grade1/g1ctst1amatchingQuestions.js"></script>
+  <script src="cts/grade1/g1ctst1bmatchingQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2amatchingQuestions.js"></script>
+  <script src="cts/grade1/g1ctst2bmatchingQuestions.js"></script>
   <script src="cts/grade1/g1ctst3amatchingQuestions.js"></script>
-    <!--  <script src="cts/grade1/g1scit3bmatchingQuestions.js"></script>
+  <script src="cts/grade1/g1ctst3bmatchingQuestions.js"></script>
 
+<!-- SP 2 -->
+  <script src="sp2/grade1/g1sp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/grade1/g1sp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/grade1/g1sp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/grade1/g1sp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/grade1/g1sp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/grade1/g1sp2t3bimageBasedQuestions.js"></script>
 
+    
+    
 <!-- Grade 2 -->
 <!-- Multiple Choice -->
 <!-- Math -->
@@ -422,38 +557,62 @@
   <script src="ss/grade2/g2sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade2/g2sst3afillInTheBlankQuestions.js"></script>
-<!--  <script src="ss/grade2/g2sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst3bfillInTheBlankQuestions.js"></script>
 <!-- Multiple Choice --
   <script src="ss/grade2/g2sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade2/g2sst3amultipleChoiceQuestions.js"></script>
-<!--  <script src="ss/grade2/g2sst3btrueFalseQuestions.js"></script>
+ <script src="ss/grade2/g2sst3bmultipleChoiceQuestions.js"></script>
 <!-- Matching --
   <script src="ss/grade2/g2sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade2/g2sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade2/g2sst3amatchingQuestions.js"></script>
-<!--  <script src="ss/grade2/g2sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade2/g2sst3bmatchingQuestions.js"></script>
 
     
 <!-- CTS -->
-<!-- True or False --
+<!-- True or False -->
   <script src="cts/grade2/g2ctst1atrueFalseQuestions.js"></script>
   <script src="cts/grade2/g2ctst1btrueFalseQuestions.js"></script>
   <script src="cts/grade2/g2ctst2atrueFalseQuestions.js"></script>
-  <script src="cts/grade2/g2ctst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade2/g2ctst2btrueFalseQuestions.js"></script>
   <script src="cts/grade2/g2ctst3atrueFalseQuestions.js"></script>
-    <!--  <script src="cts/grade2/g2ctst3btrueFalseQuestions.js"></script>
+  <script src="cts/grade2/g2ctst3btrueFalseQuestions.js"></script>
 <!-- Multiple Choice -->
+  <script src="cts/grade2/g2ctst1amultipleChoiceQuestions.js"></script>    
+  <script src="cts/grade2/g2ctst2amultipleChoiceQuestions.js"></script>    
+  <script src="cts/grade2/g2ctst2amultipleChoiceQuestions.js"></script>    
+  <script src="cts/grade2/g2ctst2bmultipleChoiceQuestions.js"></script>    
   <script src="cts/grade2/g2ctst3amultipleChoiceQuestions.js"></script>    
+  <script src="cts/grade2/g2ctst3bmultipleChoiceQuestions.js"></script>    
 <!-- Fill in the Blanks -->
+  <script src="cts/grade2/g2ctst1afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade2/g2ctst1bfillInTheBlankQuestions.js"></script>
+  <script src="cts/grade2/g2ctst2afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade2/g2ctst2bfillInTheBlankQuestions.js"></script>
   <script src="cts/grade2/g2ctst3afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade2/g2ctst3bfillInTheBlankQuestions.js"></script>
 <!-- Matching -->
+  <script src="cts/grade2/g2ctst1amatchingQuestions.js"></script>
+  <script src="cts/grade2/g2ctst1bmatchingQuestions.js"></script>
+  <script src="cts/grade2/g2ctst2amatchingQuestions.js"></script>
+  <script src="cts/grade2/g2ctst2bmatchingQuestions.js"></script>
   <script src="cts/grade2/g2ctst3amatchingQuestions.js"></script>
+  <script src="cts/grade2/g2ctst3bmatchingQuestions.js"></script>
 
+<!-- SP 2 -->
+  <script src="sp2/grade2/g2sp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/grade2/g2sp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/grade2/g2sp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/grade2/g2sp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/grade2/g2sp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/grade2/g2sp2t3bimageBasedQuestions.js"></script>
+
+    
     
     
 <!-- Grade 3 -->
@@ -549,58 +708,65 @@
   <script src="ss/grade3/g3sst3atrueFalseQuestions.js"></script>
   <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
 <!-- Fill in the Blanks --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade3/g3sst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst3afillInTheBlankQuestions.js"></script>
+  <script src="ss/grade3/g3sst3afillInTheBlankQuestions.js"></script>
+  <script src="ss/grade3/g3sst3afillInTheBlankQuestions.js"></script>-->
+  <script src="ss/grade3/g3sst3afillInTheBlankQuestions.js"></script>
+  <script src="ss/grade3/g3sst3bfillInTheBlankQuestions.js"></script>
 <!-- Fill in the Blanks --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade3/g3sst3amultipleChoiceQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst3amultipleChoiceQuestions.js"></script>
+  <script src="ss/grade3/g3sst3amultipleChoiceQuestions.js"></script>
+  <script src="ss/grade3/g3sst3amultipleChoiceQuestions.js"></script>-->
+  <script src="ss/grade3/g3sst3amultipleChoiceQuestions.js"></script>
+  <script src="ss/grade3/g3sst3bmultipleChoiceQuestions.js"></script>
 <!-- Fill in the Blanks --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade3/g3sst3amatchingQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade3/g3sst3amatchingQuestions.js"></script>
+  <script src="ss/grade3/g3sst3amatchingQuestions.js"></script>
+  <script src="ss/grade3/g3sst3amatchingQuestions.js"></script>-->
+  <script src="ss/grade3/g3sst3amatchingQuestions.js"></script>
+  <script src="ss/grade3/g3sst3bmatchingQuestions.js"></script>
 
 <!-- CTS -->
-<!-- True or False --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
+<!-- True or False -->
+  <script src="cts/grade3/g3ctst1atrueFalseQuestions.js"></script>
+  <script src="cts/grade3/g3ctst1btrueFalseQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2atrueFalseQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2btrueFalseQuestions.js"></script>
   <script src="cts/grade3/g3ctst3atrueFalseQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blanks --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade3/g3ctst3btrueFalseQuestions.js"></script>
+<!-- Fill in the Blanks -->
+  <script src="cts/grade3/g3ctst1afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade3/g3ctst1bfillInTheBlankQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2bfillInTheBlankQuestions.js"></script>
   <script src="cts/grade3/g3ctst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blanks --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade3/g3ctst3bfillInTheBlankQuestions.js"></script>
+<!-- Fill in the Blanks -->
+  <script src="cts/grade3/g3ctst1amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade3/g3ctst1bmultipleChoiceQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2bmultipleChoiceQuestions.js"></script>
   <script src="cts/grade3/g3ctst3amultipleChoiceQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blanks --
-  <script src="ss/grade3/g3sst1atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst1btrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2atrueFalseQuestions.js"></script>
-  <script src="ss/grade3/g3sst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade3/g3ctst3bmultipleChoiceQuestions.js"></script>
+<!-- Fill in the Blanks -->
+  <script src="cts/grade3/g3ctst1amatchingQuestions.js"></script>
+  <script src="cts/grade3/g3ctst1bmatchingQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2amatchingQuestions.js"></script>
+  <script src="cts/grade3/g3ctst2bmatchingQuestions.js"></script>
   <script src="cts/grade3/g3ctst3amatchingQuestions.js"></script>
-    <!--  <script src="ss/grade3/g3sst3btrueFalseQuestions.js"></script>
+  <script src="cts/grade3/g3ctst3bmatchingQuestions.js"></script>
 
-    
+<!-- SP 2 -->
+  <script src="sp2/grade3/g3sp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/grade3/g3sp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/grade3/g3sp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/grade3/g3sp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/grade3/g3sp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/grade3/g3sp2t3bimageBasedQuestions.js"></script>
+
     
     
     
@@ -672,58 +838,58 @@
   <script src="ss/grade4/g4sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade4/g4sst3atrueFalseQuestions.js"></script>
-    <!--  <script src="ss/grade4/g4sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade4/g4sst3btrueFalseQuestions.js"></script>
 <!-- Fill in the Blanks --
   <script src="ss/grade4/g4sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade4/g4sst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="ss/grade4/g4sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade4/g4sst3bfillInTheBlankQuestions.js"></script>
 <!-- Fill in the Blanks --
   <script src="ss/grade4/g4sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade4/g4sst3amultipleChoiceQuestions.js"></script>
-    <!--  <script src="ss/grade4/g4sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade4/g4sst3bmultipleChoiceQuestions.js"></script>
 <!-- Fill in the Blanks --
   <script src="ss/grade4/g4sst1atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst1btrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2atrueFalseQuestions.js"></script>
   <script src="ss/grade4/g4sst2btrueFalseQuestions.js"></script>-->
   <script src="ss/grade4/g4sst3amatchingQuestions.js"></script>
-    <!--  <script src="ss/grade4/g4sst3btrueFalseQuestions.js"></script>
+  <script src="ss/grade4/g4sst3bmatchingQuestions.js"></script>
 
 <!-- CTS -->
-<!-- True or False --
+<!-- True or False -->
   <script src="cts/grade4/g4ctst1atrueFalseQuestions.js"></script>
   <script src="cts/grade4/g4ctst1btrueFalseQuestions.js"></script>
   <script src="cts/grade4/g4ctst2atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade4/g4ctst2btrueFalseQuestions.js"></script>
   <script src="cts/grade4/g4ctst3atrueFalseQuestions.js"></script>
-    <!--  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blanks --
-  <script src="cts/grade4/g4ctst1atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst1btrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
+<!-- Fill in the Blanks -->
+  <script src="cts/grade4/g4ctst1afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade4/g4ctst1bfillInTheBlankQuestions.js"></script>
+  <script src="cts/grade4/g4ctst2afillInTheBlankQuestions.js"></script>
+  <script src="cts/grade4/g4ctst2bfillInTheBlankQuestions.js"></script>
   <script src="cts/grade4/g4ctst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blanks --
-  <script src="cts/grade4/g4ctst1atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst1btrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade4/g4ctst3bfillInTheBlankQuestions.js"></script>
+<!-- Fill in the Blanks -->
+  <script src="cts/grade4/g4ctst1amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade4/g4ctst1bmultipleChoiceQuestions.js"></script>
+  <script src="cts/grade4/g4ctst2amultipleChoiceQuestions.js"></script>
+  <script src="cts/grade4/g4ctst2bmultipleChoiceQuestions.js"></script>
   <script src="cts/grade4/g4ctst3amultipleChoiceQuestions.js"></script>
-    <!--  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
-<!-- Fill in the Blanks --
-  <script src="cts/grade4/g4ctst1atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst1btrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2atrueFalseQuestions.js"></script>
-  <script src="cts/grade4/g4ctst2btrueFalseQuestions.js"></script>-->
+  <script src="cts/grade4/g4ctst3bmultipleChoiceQuestions.js"></script>
+<!-- Fill in the Blanks -->
+  <script src="cts/grade4/g4ctst1amatchingQuestions.js"></script>
+  <script src="cts/grade4/g4ctst1bmatchingQuestions.js"></script>
+  <script src="cts/grade4/g4ctst2amatchingQuestions.js"></script>
+  <script src="cts/grade4/g4ctst2bmatchingQuestions.js"></script>
   <script src="cts/grade4/g4ctst3amatchingQuestions.js"></script>
-    <!--  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
+  <script src="cts/grade4/g4ctst3bmatchingQuestions.js"></script>
 
 <!-- Mathematics -->
 <!-- True or False --
@@ -755,6 +921,16 @@
   <script src="math/grade4/g4matht3aoneWordQuestions.js"></script>
     <!--  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
 
+<!-- SP 2 -->
+  <script src="sp2/grade4/g4sp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/grade4/g4sp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/grade4/g4sp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/grade4/g4sp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/grade4/g4sp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/grade4/g4sp2t3bimageBasedQuestions.js"></script>
+
+    
+    
     
 <!-- Grade 5 -->
 <!-- Science -->
@@ -818,14 +994,14 @@
   <script src="ss/grade5/g5sst2afillInTheBlankQuestions.js"></script>
   <script src="ss/grade5/g5sst2bfillInTheBlankQuestions.js"></script>-->
   <script src="ss/grade5/g5sst3afillInTheBlankQuestions.js"></script>
-    <!--  <script src="ss/grade5/g5sst3bfillInTheBlankQuestions.js"></script>
+  <script src="ss/grade5/g5sst3bfillInTheBlankQuestions.js"></script>
 <!-- Matching --
   <script src="ss/grade5/g5sst1amatchingQuestions.js"></script>
   <script src="ss/grade5/g5sst1bmatchingQuestions.js"></script>
   <script src="ss/grade5/g5sst2amatchingQuestions.js"></script>
   <script src="ss/grade5/g5sst2bmatchingQuestions.js"></script>-->
   <script src="ss/grade5/g5sst3amatchingQuestions.js"></script>
-    <!--  <script src="ss/grade5/g5sst3bmatchingQuestions.js"></script>
+  <script src="ss/grade5/g5sst3bmatchingQuestions.js"></script>
 
     <!-- Expressive Arts -->
 <!-- Multiple Choice --
@@ -969,10 +1145,57 @@
     
     <script src="science/grade5/g5scit3atrueFalseQuestions.js"></script>
 
+<!-- SP 2 -->
+  <script src="sp2/grade5/g5sp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/grade5/g5sp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/grade5/g5sp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/grade5/g5sp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/grade5/g5sp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/grade5/g5sp2t3bimageBasedQuestions.js"></script>
+
+<!-- SP 1 --
+  <script src="sp1/grade5/g5sp1t1asudokuQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t1bimageBasedQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t2aimageBasedQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t2bimageBasedQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t3aimageBasedQuestions.js"></script>-->
+  <script src="sp1/grade5/g5sp1t3bsudokuQuestions.js"></script>
+    
+<!-- SP 1 --
+  <script src="sp1/grade5/g5sp1t1asudokuQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t1bimageBasedQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t2aimageBasedQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t2bimageBasedQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t3aimageBasedQuestions.js"></script>-->
+  <script src="sp1/grade5/g5sp1t3bcrosswordQuestions.js"></script>
+    
+    
+<!-- SP 2 -->
+  <script src="sp2/grade6/g6sp2t1aimageBasedQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t1bimageBasedQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t2aimageBasedQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t2bimageBasedQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t3aimageBasedQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t3bimageBasedQuestions.js"></script>
+
+<!-- Special --
+  <script src="sp2/grade6/g6sp2t1aspecialQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t1bspecialQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t2aspecialQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t2bspecialQuestions.js"></script>
+  <script src="sp2/grade6/g6sp2t3aspecialQuestions.js"></script>-->
+  <script src="sp2/grade6/g6sp2t3bspecialQuestions.js"></script>
+
+<!-- Special2 --
+  <script src="sp2/grade6/g6sp2t1aspecial2Questions.js"></script>
+  <script src="sp2/grade6/g6sp2t1bspecial2Questions.js"></script>
+  <script src="sp2/grade6/g6sp2t2aspecial2Questions.js"></script>
+  <script src="sp2/grade6/g6sp2t2bspecial2Questions.js"></script>
+  <script src="sp2/grade6/g6sp2t3aspecial2Questions.js"></script>-->
+  <script src="sp2/grade6/g6sp2t3bspecial2Questions.js"></script>
     
 
-
+    <!--     -->
 <script src="testing_hub.js"></script>
-      
 </body>
 </html>

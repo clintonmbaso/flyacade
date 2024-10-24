@@ -245,3 +245,56 @@ input[type="number"] {
   text-align: center;
   margin-top: 0;
 }
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 47%;
+}
+
+.puzzle-based-container {
+    margin: 20px 0;
+}
+
+.sudoku-table,
+.crossword-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    border: 3px solid #000; /* Thicker outer border */
+}
+
+.sudoku-input, 
+.crossword-input {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.sudoku-table td, 
+.crossword-table td {
+    border: 1px solid #000;
+    width: 25px;
+    height: 25px;
+}
+.sudoku-table tr:nth-child(3), .sudoku-table tr:nth-child(6) {
+      border-bottom: 3px solid #000; /* Thicken third and sixth row bottom borders */
+    }
+.sudoku-table td:nth-child(3), .sudoku-table td:nth-child(6) {
+      border-right: 3px solid #000; /* Thicken third and sixth column right borders */
+    }
+.black-cell {
+    background-color: #000;
+}
+
+.tracing-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+canvas {
+    cursor: crosshair;
+}

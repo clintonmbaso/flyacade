@@ -11,7 +11,9 @@
                 "true_false": false,
                 "one_word": false,
                 "fill_in_the_blank": false,
-                "matching": false
+                "matching": false,
+                "image_based": false,
+                "puzzle": false
             };
 
             let sectionIdentifierText = "";
@@ -43,14 +45,23 @@
         case "matching":
     sectionIdentifierText = "Matching Questions <br><em>Match the items from the two statements by writing the letter associated with the matching box.</em>";
     break;
-        
-                case "one_word":
+                        
+          case "one_word":
           sectionIdentifierText = "Solving Questions<br><em>Solve the following questions</em>";
           break;
                         
-        case "comprehension":
+          case "comprehension":
           sectionIdentifierText = "Comprehension <br><em>Read the story and answer the questions that follow</em>";
           break;
+                        
+          case "image_based":
+          sectionIdentifierText = "Image Based <br><em>Carefully analyse the given image and answer the questions that follow</em>";
+          break;
+                        
+          case "puzzle":
+          sectionIdentifierText = "Puzzle <br><em>Complete the puzzle given below based on the instructions in the question</em>";
+          break;
+                        
         default:
           sectionIdentifierText = "Section";
           break;
@@ -71,7 +82,7 @@
 
                 
                 // Only append questions if they are not 'true_false' type
-if (q.type !== "true_false" && q.type !== "fill_in_the_blank" && q.type !== "comprehension") {
+if (q.type !== "true_false" && q.type !== "fill_in_the_blank") {
     const questionText = document.createElement('div');
     questionText.innerHTML = `${index + 1}. ${q.question}`;
     questionWrapper.appendChild(questionText);
@@ -83,29 +94,32 @@ if (q.type !== "true_false" && q.type !== "fill_in_the_blank" && q.type !== "com
                     
                     
       case "multiple_choice":
-    const choicesContainer = document.createElement("div");
-
-    // Function to generate letter labels (A, B, C, ...)
-    const getLetter = (i) => String.fromCharCode(65 + i);  // 65 is the char code for 'A'
-
-    q.choices.forEach((choice, i) => {
-        const choiceInput = document.createElement("input");
-        choiceInput.setAttribute("type", "radio");
-        choiceInput.setAttribute("id", `choice-${i}`);
-        choiceInput.setAttribute("name", `question-${index}`);
-        choiceInput.setAttribute("value", choice);
-
-        const choiceLabel = document.createElement("label");
-        choiceLabel.setAttribute("for", `choice-${i}`);
-        choiceLabel.innerHTML = `${getLetter(i)}. ${choice}`;  // Add dynamic letter before the choice
-
-        choicesContainer.appendChild(choiceInput);
-        choicesContainer.appendChild(choiceLabel);
-        choicesContainer.appendChild(document.createElement("br"));
-    });
-
-    questionWrapper.appendChild(choicesContainer);
-    break;
+  const choicesContainer = document.createElement("div");
+  
+  // Function to generate letter labels (A, B, C, ...)
+  const getLetter = (i) => String.fromCharCode(65 + i); // 65 is the char code for 'A'
+  
+  // Shuffle the choices array
+  const shuffledChoices = [...q.choices].sort(() => Math.random() - 0.5);
+  
+  shuffledChoices.forEach((choice, i) => {
+    const choiceInput = document.createElement("input");
+    choiceInput.setAttribute("type", "radio");
+    choiceInput.setAttribute("id", `question-${index}-choice-${i}`);
+    choiceInput.setAttribute("name", `question-${index}`);
+    choiceInput.setAttribute("value", choice);
+    
+    const choiceLabel = document.createElement("label");
+    choiceLabel.setAttribute("for", `question-${index}-choice-${i}`);
+    choiceLabel.innerHTML = `${getLetter(i)}. ${choice}`;
+    
+    choicesContainer.appendChild(choiceInput);
+    choicesContainer.appendChild(choiceLabel);
+    choicesContainer.appendChild(document.createElement("br"));
+  });
+  
+  questionWrapper.appendChild(choicesContainer);
+  break;
                     
                     
                     
@@ -334,6 +348,167 @@ case "comprehension":
     questionWrapper.appendChild(subChoicesContainer);
   });
   break;
+                    
+                    
+                    
+case "image_based":
+    // Create a container div for the image-based question
+    const imageQuestionContainer = document.createElement("div");
+    imageQuestionContainer.classList.add("image-based-container"); // Optional class for styling
+
+    // Create image element
+    const imgElement = document.createElement("img");
+
+    // Check if the image source exists and log the path
+    if (q.imageSrc) {
+        console.log("Loading image from: " + q.imageSrc); // Log image path for debugging
+        imgElement.setAttribute("src", q.imageSrc); // Set the image source dynamically
+    } else {
+        console.log("Image source is missing for question: ", q); // Log missing image source for debugging
+    }
+
+    imgElement.setAttribute("alt", "Question Image");
+    imgElement.setAttribute("width", "100%"); // Set width as per your requirement
+    imgElement.setAttribute("height", "auto"); // Set height as per your requirement
+    imageQuestionContainer.appendChild(imgElement);
+    imageQuestionContainer.appendChild(document.createElement("br"));
+
+    // Add a question description below the image
+    const questionDescription = document.createElement("p");
+    questionDescription.innerHTML = q.description;
+    imageQuestionContainer.appendChild(questionDescription);
+
+    // Create a sub-choices container for the options or input field
+    const sub1ChoicesContainer = document.createElement("div");
+    sub1ChoicesContainer.classList.add("sub1-choices-container"); // Optional class for styling
+
+    // Based on the sub-question type, we add either multiple-choice or fill-in-the-blank options
+    if (q.subType === "multiple_choice") {
+        q.options.forEach((option, optionIndex) => {
+            const radioInput = document.createElement("input");
+            radioInput.setAttribute("type", "radio");
+            radioInput.setAttribute("id", `option-${index}-${optionIndex}`);
+            radioInput.setAttribute("name", `question-${index}`);
+            radioInput.setAttribute("value", option);
+
+            const label = document.createElement("label");
+            label.setAttribute("for", `option-${index}-${optionIndex}`);
+            label.innerHTML = option;
+
+            sub1ChoicesContainer.appendChild(radioInput);
+            sub1ChoicesContainer.appendChild(label);
+            sub1ChoicesContainer.appendChild(document.createElement("br"));
+        });
+    } else if (q.subType === "fill_in_the_blank") {
+        const answerInput = document.createElement("input");
+        answerInput.setAttribute("type", "text");
+        answerInput.setAttribute("id", `answer-${index}`);
+        answerInput.setAttribute("name", `question-${index}`);
+
+        const answerLabel = document.createElement("label");
+        answerLabel.innerHTML = "Answer: ";
+
+        sub1ChoicesContainer.appendChild(answerLabel);
+        sub1ChoicesContainer.appendChild(answerInput);
+        sub1ChoicesContainer.appendChild(document.createElement("br"));
+    }
+
+    // Append the sub-choices container to the image-based question container
+    imageQuestionContainer.appendChild(sub1ChoicesContainer);
+
+    // Finally, append the image-based question container to the questionWrapper
+    questionWrapper.appendChild(imageQuestionContainer);
+    break;
+                    
+                    
+case "puzzle":
+    // Create a container for the puzzle-based question
+    const puzzleQuestionContainer = document.createElement("div");
+    puzzleQuestionContainer.classList.add("puzzle-based-container"); // Optional class for styling
+
+    // Create a question description or instruction
+    const puzzleDescription = document.createElement("p");
+    puzzleDescription.innerHTML = q.description; // Set puzzle instructions
+    puzzleQuestionContainer.appendChild(puzzleDescription);
+
+    // Handle different puzzle types (maze, sudoku, crossword)
+    switch (q.puzzleType) {
+        case "maze":
+            // Create maze image or canvas
+            const mazeImg = document.createElement("img");
+            mazeImg.setAttribute("src", q.puzzleSrc); // Dynamic maze image or canvas rendering
+            mazeImg.setAttribute("alt", "Maze Puzzle");
+            mazeImg.setAttribute("width", "100%");
+            mazeImg.setAttribute("height", "auto");
+            puzzleQuestionContainer.appendChild(mazeImg);
+            break;
+
+        case "sudoku":
+            // Create a grid for Sudoku
+            const sudokuTable = document.createElement("table");
+            sudokuTable.classList.add("sudoku-table");
+            
+            for (let row = 0; row < 9; row++) {
+                const sudokuRow = document.createElement("tr");
+                for (let col = 0; col < 9; col++) {
+                    const sudokuCell = document.createElement("td");
+                    const inputField = document.createElement("input");
+                    inputField.setAttribute("type", "number");
+                    inputField.setAttribute("min", "1");
+                    inputField.setAttribute("max", "9");
+                    inputField.setAttribute("maxlength", "1");
+                    inputField.classList.add("sudoku-input");
+                    // Check if there's a pre-filled value
+                    if (q.puzzleData && q.puzzleData[row][col]) {
+                        inputField.value = q.puzzleData[row][col];
+                        inputField.setAttribute("readonly", true); // Make pre-filled cells read-only
+                    }
+                    sudokuCell.appendChild(inputField);
+                    sudokuRow.appendChild(sudokuCell);
+                }
+                sudokuTable.appendChild(sudokuRow);
+            }
+            puzzleQuestionContainer.appendChild(sudokuTable);
+            break;
+
+        case "crossword":
+            // Create a grid for Crossword
+            const crosswordTable = document.createElement("table");
+            crosswordTable.classList.add("crossword-table");
+
+            for (let row = 0; row < q.puzzleData.length; row++) {
+                const crosswordRow = document.createElement("tr");
+                for (let col = 0; col < q.puzzleData[row].length; col++) {
+                    const crosswordCell = document.createElement("td");
+                    if (q.puzzleData[row][col] === "#") {
+                        // Add a black cell
+                        crosswordCell.classList.add("black-cell");
+                    } else {
+                        // Add input for letters
+                        const inputField = document.createElement("input");
+                        inputField.setAttribute("type", "text");
+                        inputField.setAttribute("maxlength", "1");
+                        inputField.classList.add("crossword-input");
+                        crosswordCell.appendChild(inputField);
+                    }
+                    crosswordRow.appendChild(crosswordCell);
+                }
+                crosswordTable.appendChild(crosswordRow);
+            }
+            puzzleQuestionContainer.appendChild(crosswordTable);
+            break;
+
+        default:
+            const errorMsg = document.createElement("p");
+            errorMsg.innerHTML = "Unknown puzzle type";
+            puzzleQuestionContainer.appendChild(errorMsg);
+            break;
+    }
+
+    // Append the puzzle-based question container to the main question wrapper
+    questionWrapper.appendChild(puzzleQuestionContainer);
+    break;
+                    
                     
                     
 function shuffleArray(array) {
