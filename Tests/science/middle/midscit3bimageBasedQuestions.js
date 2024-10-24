@@ -9,7 +9,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the source of water around us.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Well", "Sink", "Tap", "Bathtab"], // Multiple-choice options
+        options: ["Well", "Bathtab"], // Multiple-choice options
         correctAnswer: "Bathtab" // Correct answer (optional, for validation)
     },
     {
@@ -22,7 +22,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the source of water around us.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Well", "Sink", "Tap", "Bathtab"], // Multiple-choice options
+        options: ["Well", "Sink"], // Multiple-choice options
         correctAnswer: "Sink" // Correct answer (optional, for validation)
     },
     {
@@ -35,7 +35,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the source of water around us.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Well", "Sink", "Tap", "Bathtab"], // Multiple-choice options
+        options: ["Well", "Tap"], // Multiple-choice options
         correctAnswer: "Tap" // Correct answer (optional, for validation)
     },
     {
@@ -48,7 +48,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the source of water around us.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Well", "Sink", "Tap", "Bathtab"], // Multiple-choice options
+        options: ["Well", "Bathtab"], // Multiple-choice options
         correctAnswer: "Well" // Correct answer (optional, for validation)
     },
     {
@@ -61,7 +61,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the type of water transport that can float on water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Boat", "Ship", "Canoe", "Submarine"], // Multiple-choice options
+        options: ["Boat", "Submarine"], // Multiple-choice options
         correctAnswer: "Boat" // Correct answer (optional, for validation)
     },
     {
@@ -74,7 +74,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the type of water transport that can float on water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Boat", "Ship", "Canoe", "Submarine"], // Multiple-choice options
+        options: [""Ship", "Canoe"], // Multiple-choice options
         correctAnswer: "Ship" // Correct answer (optional, for validation)
     },
     {
@@ -87,7 +87,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the type of water transport that can float on water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Boat", "Ship", "Canoe", "Submarine"], // Multiple-choice options
+        options: ["Canoe", "Submarine"], // Multiple-choice options
         correctAnswer: "Canoe" // Correct answer (optional, for validation)
     },
     {
@@ -100,7 +100,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the type of water transport that can float in and on water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Boat", "Ship", "Canoe", "Submarine"], // Multiple-choice options
+        options: ["Ship", "Submarine"], // Multiple-choice options
         correctAnswer: "Submarine" // Correct answer (optional, for validation)
     },
     {
@@ -113,7 +113,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Fish", "Dolphin", "Shark", "Jellyfish"], // Multiple-choice options
+        options: ["Fish", "Dolphin"], // Multiple-choice options
         correctAnswer: "Fish" // Correct answer (optional, for validation)
     },
     {
@@ -126,7 +126,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Fish", "Dolphin", "Shark", "Jellyfish"], // Multiple-choice options
+        options: ["Dolphin", "Jellyfish"], // Multiple-choice options
         correctAnswer: "Dolphin" // Correct answer (optional, for validation)
     },
     {
@@ -139,7 +139,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Fish", "Dolphin", "Shark", "Jellyfish"], // Multiple-choice options
+        options: ["Shark", "Jellyfish"], // Multiple-choice options
         correctAnswer: "Shark" // Correct answer (optional, for validation)
     },
     {
@@ -152,7 +152,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Fish", "Dolphin", "Shark", "Jellyfish"], // Multiple-choice options
+        options: ["Fish", "Jellyfish"], // Multiple-choice options
         correctAnswer: "Jellyfish" // Correct answer (optional, for validation)
     },
     {
@@ -165,7 +165,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Lake", "Ocean", "Sea", "River"], // Multiple-choice options
+        options: ["Lake", "Ocean"], // Multiple-choice options
         correctAnswer: "Lake" // Correct answer (optional, for validation)
     },
     {
@@ -178,7 +178,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Lake", "Ocean", "Sea", "River"], // Multiple-choice options
+        options: ["Ocean", "River"], // Multiple-choice options
         correctAnswer: "Ocean" // Correct answer (optional, for validation)
     },
     {
@@ -191,7 +191,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the marine animal that can float in water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Lake", "Ocean", "Sea", "River"], // Multiple-choice options
+        options: ["Ocean", "River"], // Multiple-choice options
         correctAnswer: "River" // Correct answer (optional, for validation)
     }
 ];
