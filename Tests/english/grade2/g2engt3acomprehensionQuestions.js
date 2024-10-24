@@ -5,6 +5,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's Home</h4><p>Sammy, a small snail, loved his shiny shell, which was both his home and protection. He enjoyed exploring the garden each day, knowing his shell kept him safe from danger. Sammy felt secure in his cozy shell and appreciated the simple beauty of his life in the garden.</p>",
   "questions": [
     {
@@ -40,6 +41,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A Slow Start</h4><p>Sammy the Snail moved slowly but didn’t mind. His slow pace let him notice the beauty of the garden that others might miss. While his friends moved quickly, Sammy valued his unique way of exploring the world and enjoyed the peaceful, thoughtful adventures he experienced each day.</p>",
   "questions": [
     {
@@ -75,6 +77,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Meeting New Friends</h4><p>One day, Sammy met Bella the Butterfly and Freddie the Frog, who admired his slow pace and gentle nature. They shared stories about their different ways of exploring the garden, and soon, the three became good friends, learning that new friendships bring joy and understanding.</p>",
   "questions": [
     {
@@ -110,6 +113,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Rainy Day</h4><p>When rain covered the garden, Sammy was happy. The rain made it easier for him to slide around, and he enjoyed the beauty of the refreshed garden. Sammy, along with Bella and Freddie, played together in the rain, learning to appreciate the different ways animals enjoy rainy days.</p>",
   "questions": [
     {
@@ -145,6 +149,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Big Challenge</h4><p>Sammy wanted to explore a new garden but faced the challenge of crossing a large puddle. With patience and perseverance, he carefully used floating leaves as stepping stones. After overcoming the challenge, Sammy realized that hard work and determination can lead to amazing rewards and discoveries.</p>",
   "questions": [
     {
@@ -180,6 +185,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Finding New Friends</h4><p>In the new garden, Sammy met Benny the Beetle and Lily the Ladybug, who welcomed him and showed him around. They shared their favorite places and enjoyed each other’s company. Sammy learned that making new friends adds excitement and joy to any adventure.</p>",
   "questions": [
     {
@@ -215,6 +221,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Great Feast</h4><p>Benny and Lily hosted a special feast to welcome Sammy, where they shared delicious foods from the garden. Sammy enjoyed the meal and shared stories from his own garden. The feast strengthened their friendship, teaching Sammy that sharing food and moments creates lasting bonds.</p>",
   "questions": [
     {
@@ -250,6 +257,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Stormy Night</h4><p>During a stormy night, Benny and Lily helped Sammy find shelter under a large leaf. While the storm raged, they comforted each other with stories and songs. Sammy learned that friends can make difficult times easier and that true friendship means helping each other through challenges.</p>",
   "questions": [
     {
@@ -285,6 +293,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Returning Home</h4><p>After enjoying his time in the new garden, Sammy decided to return home. His friends Benny and Lily helped him prepare for the journey. Crossing the puddle again, Sammy felt happy to be back in his familiar garden, appreciating both his adventures and the comfort of home.</p>",
   "questions": [
     {
@@ -320,6 +329,7 @@ const g2engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A New Adventure</h4><p>Back home, Sammy shared stories of his adventure with his old friends. Though he loved being home, he also looked forward to future adventures and visiting his new friends again. Sammy realized that exploring new places, meeting new friends, and returning home made his life richer and more exciting.</p>",
   "questions": [
     {
