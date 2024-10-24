@@ -5,6 +5,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's Home</h4><p>In a lush green garden, a small snail named Sammy lived happily in his shiny, spiral shell. This shell was more than just a home; it provided him comfort and protection from harsh weather and potential dangers. Sammy felt safe inside, where he had a cozy spot to sleep and store his food, which made it his perfect sanctuary.</p><p>Every morning, Sammy would venture out to explore his garden, appreciating the soft grass and vibrant flowers. He enjoyed moving slowly, allowing him to observe the beauty around him, including the tiny insects and the songs of birds. His shell not only offered shelter but also a sense of security, making it his cherished home.</p><p>Sammy was content with his life in the garden, knowing that despite being small and slow, his shell was a source of comfort and safety. He valued his cozy home and understood how it contributed to his happiness, reinforcing the idea that home is where one feels most secure and loved.</p>",
   "questions": [
     {
@@ -40,6 +41,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A Slow Start</h4><p>Sammy the Snail embraced his slow nature, finding joy in moving at his own pace while other animals rushed around the garden. He took pleasure in examining flowers and tiny insects up close, appreciating the details that others might overlook. Sammy’s leisurely explorations allowed him to enjoy the beauty of his surroundings fully.</p><p>One sunny day, Sammy decided to explore a new area of the garden, admiring the vibrant petals and glistening dew on leaves. He relished being slow because it meant he could soak in every detail, making his journey more fulfilling. Sammy felt proud of his unique way of exploring and shared this perspective with his friends, who often questioned his speed.</p><p>Through his adventures, Sammy learned that everyone has their own way of experiencing the world. His slow pace led him to discover many wonders, and he felt content knowing that being different was perfectly okay. Sammy embraced his journey, understanding that his method of exploring brought him joy and fulfillment.</p>",
   "questions": [
     {
@@ -75,6 +77,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Meeting New Friends</h4><p>While exploring one afternoon, Sammy encountered two new animals: Bella the Butterfly and Freddie the Frog. Excited to make new friends, Sammy greeted them, and they welcomed him warmly, appreciating his slow, careful movements. Bella admired Sammy’s unique nature, while Freddie enjoyed his ability to notice details in the garden.</p><p>Sammy shared stories about his adventures with Bella and Freddie, who in turn told him about their favorite activities. Bella loved dancing in the air, while Freddie enjoyed hopping around the pond. The trio laughed together, finding joy in their different ways of having fun.</p><p>As the day ended, Bella and Freddie invited Sammy to join them for an evening by the pond, deepening their newfound friendship. Sammy felt grateful for their kindness and learned that making friends and sharing experiences added special moments to his adventures. He cherished the connection they formed, realizing how important friendship can be.</p>",
   "questions": [
     {
@@ -110,6 +113,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Rainy Day</h4><p>One morning, dark clouds gathered, and rain began to fall, much to Sammy's delight. He loved rainy days because they made the garden wet and slippery, allowing him to glide effortlessly. As he explored, Sammy admired how the raindrops made the leaves shine and enhanced the flowers' beauty, filling the air with a refreshing scent.</p><p>Bella the Butterfly and Freddie the Frog also enjoyed the rain, engaging in playful activities. Bella carefully fluttered to avoid getting soaked, while Freddie joyfully hopped from puddle to puddle. Sammy joined in their fun, discovering how different animals celebrated rainy days in their unique ways.</p><p>As the storm subsided and the sun reappeared, Sammy appreciated the sparkling beauty of the garden after the rain. He learned to embrace changes like the weather, which could lead to new experiences and joy. This rainy day brought Sammy and his friends closer together, deepening their bond in the vibrant garden.</p>",
   "questions": [
     {
@@ -145,6 +149,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Big Challenge</h4><p>Sammy learned of a beautiful garden across a large puddle, sparking his excitement to explore new territory. However, he knew crossing the deep puddle would be a significant challenge. Determined to reach the other side, Sammy prepared himself for the journey, feeling both nervous and exhilarated.</p><p>As he approached the puddle, Sammy searched for a way around but soon realized it was too wide. He spotted big leaves floating on the surface and decided to use them as stepping stones. This required patience and careful movements, but Sammy was determined to succeed, inching across the leaves one at a time.</p><p>After a long, cautious journey, Sammy successfully crossed the puddle, feeling a strong sense of accomplishment. Arriving in the new garden filled him with awe, as he marveled at the colorful flowers and tasty plants. Sammy learned that facing challenges can lead to rewarding experiences and discoveries, enriching his adventures.</p>",
   "questions": [
     {
@@ -180,6 +185,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Finding New Friends</h4><p>In the new garden, Sammy quickly met Benny the Beetle and Lily the Ladybug. Eager to make new friends, he introduced himself, sharing his story of crossing the puddle. Benny and Lily welcomed him, excited to show him their beautiful garden and share their favorite spots.</p><p>As they explored together, Benny and Lily introduced Sammy to various delights in the garden, from delicious food to breathtaking flowers. Sammy was amazed by the sights and sounds, feeling grateful for their companionship. Together, they discovered the joys of friendship and adventure.</p><p>At the end of the day, Sammy felt a deep sense of happiness and gratitude for the new friends he had made. He realized that sharing adventures with others made them even more enjoyable and fulfilling. Sammy looked forward to many more explorations with Benny and Lily, cherishing the memories they created together.</p>",
   "questions": [
     {
@@ -215,6 +221,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Great Feast</h4><p>Benny the Beetle and Lily the Ladybug decided to host a special feast to celebrate Sammy’s visit to the new garden. They prepared a delightful meal of delicious leaves and juicy fruits, and Sammy eagerly anticipated trying these new foods. The feast symbolized their friendship and shared experiences.</p><p>When the feast was ready, Sammy was amazed by the variety of foods. The crunchy leaves and sweet, refreshing fruits delighted his taste buds, and he enjoyed every bite. As they feasted, the trio shared laughter and stories about their favorite dishes, deepening their bond through their love of food.</p><p>By the end of the feast, all three friends felt full and satisfied. Sammy realized that sharing meals and celebrating together created lasting memories and strengthened their friendship. He cherished the kindness of his new friends and looked forward to many more joyful gatherings in the future.</p>",
   "questions": [
     {
@@ -250,6 +257,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Stormy Night</h4><p>One night, a fierce storm swept through the garden, causing worry for Sammy, Benny, and Lily. The howling wind and heavy rain made Sammy feel uncertain about where to find safety. Sensing his fear, Benny and Lily quickly invited him to take shelter with them under a broad leaf.</p><p>As they huddled together, the storm raged outside, but inside their shelter, they shared comforting stories and songs. Sammy felt scared, but his friends’ presence helped ease his fears. They discussed their favorite memories and ways to stay safe during storms, providing Sammy with comfort and reassurance.</p><p>When the storm finally passed, the garden appeared fresh and beautiful. Sammy expressed his gratitude to Benny and Lily for their kindness and support during the stormy night. He learned the importance of friendship, especially in difficult times, and felt thankful to have friends who looked out for one another.</p>",
   "questions": [
     {
@@ -285,6 +293,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Returning Home</h4><p>After spending joyful moments in the new garden, Sammy felt it was time to return to his original home. Although he enjoyed his adventure and made wonderful friends, he missed the comfort of his cozy shell and familiar surroundings. Sammy knew he needed to head back to where he felt most at home.</p><p>Benny and Lily were saddened to see Sammy go, but they understood his decision. They helped him prepare for his journey, packing tasty treats to enjoy along the way. Sammy felt grateful for their friendship and support as he set off on his journey back.</p><p>Crossing the large puddle again proved challenging, but Sammy felt confident in his abilities. Upon returning to his original garden, he felt a wave of comfort and happiness. Sammy realized that while adventures are thrilling, there's truly no place like home, and he looked forward to visiting his new friends again in the future.</p>",
   "questions": [
     {
@@ -320,6 +329,7 @@ const g4engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A New Adventure Awaits</h4><p>As Sammy settled back into his familiar garden, he felt a renewed sense of joy and appreciation for both his old home and the adventures he had experienced. He looked around at the colorful flowers, the lush greenery, and the familiar sounds of nature, feeling grateful for the comfort and security his garden provided. Sammy realized that each place held its unique beauty, and he cherished the memories he had made with his new friends in the other garden.</p><p>Eager to share his experiences, Sammy gathered his old friends and recounted the exciting adventures he had during his travels. He spoke about Benny the Beetle and Lily the Ladybug, describing their delightful feast and the stormy night they had spent together. His friends listened intently, amazed by the stories of bravery and friendship. Sammy felt happy sharing his experiences, knowing that he could inspire others with his tales.</p><p>With the memories fresh in his mind, Sammy contemplated his next adventure. He understood that exploring new places and meeting new friends was an essential part of life, and he looked forward to future journeys. Sammy knew that the world was full of wonders waiting to be discovered, and he was excited to take on new challenges, both in his familiar garden and beyond. With a heart full of hope, Sammy prepared for the adventures that lay ahead, ready to embrace whatever came his way.</p>",
   "questions": [
     {
