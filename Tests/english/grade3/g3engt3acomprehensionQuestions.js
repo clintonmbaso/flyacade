@@ -5,6 +5,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's Home</h4><p>In a beautiful garden, there lived a small snail named Sammy, who cherished his shiny, spiral shell. His shell was not just a home but a safe and cozy space where he could rest and feel secure from rain and strong winds.</p><p>Every morning, Sammy would explore the garden, enjoying the soft grass and colorful flowers. He appreciated his shell for providing safety and comfort, understanding that it was the best place for him as he enjoyed his slow-paced life.</p>",
   "questions": [
     {
@@ -40,6 +41,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A Slow Start</h4><p>Sammy was a slow snail, but he enjoyed moving at his own pace. While other animals rushed around, he took his time to admire the flowers and watch tiny insects, finding beauty in the small details of the garden.</p><p>His friends often wondered about his slow pace, but Sammy felt proud that it allowed him to notice more. He realized that his unique way of exploring led to fun adventures and that being different was something to embrace.</p>",
   "questions": [
     {
@@ -75,6 +77,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Meeting New Friends</h4><p>One sunny afternoon, Sammy met Bella the Butterfly and Freddie the Frog while exploring the garden. They were friendly and welcomed Sammy, who felt excited to make new friends.</p><p>They shared stories about their different activities and laughed together. As the day ended, Bella and Freddie invited Sammy to join them for an evening by the pond, and he felt grateful for their friendship.</p>",
   "questions": [
     {
@@ -110,6 +113,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Rainy Day</h4><p>When it started to rain, Sammy felt happy because he loved rainy days. The rain made the garden shine, and he enjoyed the fresh smell and puddles that formed.</p><p>Sammy played in the rain with Bella and Freddie, discovering how each of them enjoyed the weather differently. They had fun together, and Sammy appreciated how the rain made their garden adventures more exciting.</p>",
   "questions": [
     {
@@ -145,6 +149,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Big Challenge</h4><p>Sammy wanted to visit a beautiful garden on the other side of a big puddle but knew it would be a challenge to cross. Determined, he slowly made his way to the puddle and found some leaves to use as stepping stones.</p><p>After carefully crossing, Sammy felt proud of his accomplishment. He learned that challenges could be overcome with patience and hard work, making the new garden even more special to him.</p>",
   "questions": [
     {
@@ -180,6 +185,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Finding New Friends</h4><p>In the new garden, Sammy met Benny the Beetle and Lily the Ladybug. They were happy to see him and offered to show him around. Sammy enjoyed learning about their favorite spots in the garden.</p><p>Exploring together made Sammy feel thankful for his new friends. He realized that having friends to share adventures with made everything more enjoyable and memorable.</p>",
   "questions": [
     {
@@ -215,6 +221,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Great Feast</h4><p>Benny and Lily planned a special feast to celebrate Sammy's visit, inviting him to enjoy delicious leaves and juicy fruits. Sammy was excited to try new foods and appreciated their hospitality.</p><p>As they shared their favorite foods and stories, Sammy learned that feasting together created wonderful memories and strengthened their friendship. He felt happy to be included in their celebration.</p>",
   "questions": [
     {
@@ -250,6 +257,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Stormy Night</h4><p>A strong storm hit the garden one night, and Sammy felt scared and unsure where to go. Benny and Lily invited him to take shelter under a large leaf, where they huddled together until the storm passed.</p><p>While waiting, they comforted each other with stories and songs, and Sammy learned how important it is to have friends who support you in difficult times. He felt grateful for their kindness and felt safe with them.</p>",
   "questions": [
     {
@@ -285,6 +293,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Returning Home</h4><p>After a lovely time in the new garden, Sammy decided it was time to return home to his original garden. Benny and Lily helped him pack tasty treats for his journey back, showing their kindness.</p><p>As Sammy crossed the puddle again and reached home, he felt comforted by the familiar surroundings. He realized that while adventures were exciting, there was no place like home and looked forward to visiting his new friends again.</p>",
   "questions": [
     {
@@ -320,6 +329,7 @@ const g3engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A Special Friendship</h4><p>Back in his original garden, Sammy the Snail felt happy to be home, but he also cherished the memories of his adventure and the friends he had made. He shared stories of his journey with his friends and showed them the delicious treats Benny and Lily had given him. Everyone listened eagerly, excited to hear about Sammy’s experiences and the new garden he had explored.</p><p>Sammy realized that even though he loved his home, it was wonderful to have friends in different places. He promised himself that he would visit Benny and Lily again soon. Sammy understood that friendships could grow, no matter the distance, and he felt grateful for the special connections he had made.</p>",
   "questions": [
     {
