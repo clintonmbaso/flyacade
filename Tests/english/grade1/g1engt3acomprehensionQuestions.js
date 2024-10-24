@@ -5,6 +5,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy and His Shell</h4><p>1. Sammy, a small snail, loved his shiny shell.</p><p>2. The shiny shell served as both home and protection.</p><p>3. Daily garden exploration brought joy to Sammy.</p><p>4. The sturdy shell provided safety from danger.</p><p>5. Life in the garden offered simple beauty and security.</p>",
   "questions": [
     {
@@ -40,6 +41,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>A Slow Start</h4><p>1. Sammy the Snail moved slowly but didn’t mind.</p><p>2. This slow pace allowed the observation of the beauty of the garden that others might miss.</p><p>3. While friends moved quickly, Sammy valued a unique way of exploring the world.</p><p>4. Peaceful, thoughtful adventures defined each day for Sammy.</p><p>5. Enjoyment stemmed from the daily experiences of exploration.</p>",
   "questions": [
     {
@@ -75,6 +77,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's New Friends</h4><p>1. One day, Sammy met Bella the Butterfly and Freddie the Frog.</p><p>2. They admired Sammy's slow pace and gentle nature.</p><p>3. The three friends shared stories about their different ways of exploring the garden.</p><p>4. Sammy, Bella, and Freddie quickly became good friends.</p><p>5. They learned that new friendships bring both joy and understanding.</p>",
   
   "questions": [
@@ -111,6 +114,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Rainy Day</h4><p>1. When rain covered the garden, Sammy felt happy.</p><p>2. The rain made it easier for him to slide around.</p><p>3. He enjoyed the beauty of the refreshed garden.</p><p>4. Sammy, Bella, and Freddie played together in the rain.</p><p>5. They learned to appreciate the different ways animals enjoy rainy days.</p>",
   "questions": [
     {
@@ -146,6 +150,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's Adventure</h4><p>1. Sammy wanted to explore a new garden.</p><p>2. He faced the challenge of crossing a large puddle.</p><p>3. With patience and perseverance, he carefully used floating leaves as stepping stones.</p><p>4. After overcoming the challenge, Sammy felt proud of his accomplishment.</p><p>5. He realized that hard work and determination can lead to amazing rewards and discoveries.</p>",
   
   "questions": [
@@ -182,6 +187,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's New Garden Friends</h4><p>1. In the new garden, Sammy met Benny the Beetle and Lily the Ladybug.</p><p>2. They welcomed him and showed him around.</p><p>3. The three of them shared their favorite places and enjoyed each other’s company.</p><p>4. Sammy discovered that making new friends can be fun.</p><p>5. He learned that new friendships add excitement and joy to any adventure.</p>",
   
   "questions": [
@@ -218,6 +224,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>The Special Feast</h4><p>1. Benny and Lily hosted a special feast to welcome Sammy.</p><p>2. They shared delicious foods from the garden.</p><p>3. Sammy enjoyed the meal and shared stories from his own garden.</p><p>4. The feast strengthened their friendship.</p><p>5. Sammy learned that sharing food and moments creates lasting bonds.</p>",
   
   "questions": [
@@ -254,6 +261,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's Stormy Night</h4><p>1. During a stormy night, Benny and Lily helped Sammy find shelter under a large leaf.</p><p>2. While the storm raged outside, they comforted each other with stories and songs.</p><p>3. Sammy felt grateful for the company of his friends during the storm.</p><p>4. He learned that friends can make difficult times easier.</p><p>5. True friendship means helping each other through challenges.</p>",
   
   "questions": [
@@ -290,6 +298,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Returning Home</h4><p>1. After enjoying his time in the new garden, Sammy decided to return home.</p><p>2. His friends Benny and Lily helped him prepare for the journey.</p><p>3. Sammy crossed the puddle again with their support.</p><p>4. He felt happy to be back in his familiar garden.</p><p>5. Sammy appreciated both his adventures and the comfort of home.</p>",
   
   "questions": [
@@ -326,6 +335,7 @@ const g1engt3acomprehensionQuestions = [
   "subject": "English",
   "term": "Term 3",
   "part": "Mid Term",
+  "question": "Read the story below carefully and answer the questions that follow",
   "story": "<h4>Sammy's Adventures</h4><p>1. Back home, Sammy shared stories of his adventure with his old friends.</p><p>2. Although he loved being home, he looked forward to future adventures.</p><p>3. Sammy was excited about visiting his new friends again.</p><p>4. He realized that exploring new places made his life richer.</p><p>5. Meeting new friends and returning home added excitement to his life.</p>",
   
   "questions": [
