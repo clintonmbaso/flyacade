@@ -1,3 +1,3 @@
-const g1scit2amultipleChoiceQuestions = [
+const g3sst2bmultipleChoiceQuestions = [
 
 ];
