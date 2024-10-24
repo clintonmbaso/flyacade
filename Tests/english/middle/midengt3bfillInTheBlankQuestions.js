@@ -1,74 +1,74 @@
-const midengt3afillInTheBlankQuestions = [
+const midengt3bfillInTheBlankQuestions = [
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Red Robot says _________.",
-  answer: "Rr"
+    "part": "End Term",
+    "question": "Walter Walrus says _________.",
+  answer: "Ww"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Sammy Snake says _________.",
-  answer: "Ss"
+    "part": "End Term",
+    "question": "Fix it Max says _________.",
+  answer: "Xx"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Talking Tess says _________.",
-  answer: "Tt"
+    "part": "End Term",
+    "question": "Yellow Yoyoman says _________.",
+  answer: "Yy"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Vicky Violet says _________.",
-  answer: "Vv"
+    "part": "End Term",
+    "question": "Zigzag Zebra says _________.",
+  answer: "Zz"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Sound 'Rr' for _________.",
-  answer: "Red Robot"
+    "part": "End Term",
+    "question": "Sound 'Ww' for _________.",
+  answer: "Walter Walrus"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Sound 'Ss' for _________.",
-  answer: "Sammy Snake"
+    "part": "End Term",
+    "question": "Sound 'Xx' for _________.",
+  answer: "Fix it Max"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Sound 'Tt' for _________.",
-  answer: "Talking Tess"
+    "part": "End Term",
+    "question": "Sound 'Yy' for _________.",
+  answer: "Yellow Yoyoman"
 },
 {
   type: "fill_in_the_blank",
     "class": "Sky Sprouts",
     "subject": "English",
     "term": "Term 3",
-    "part": "Mid Term",
-    "question": "Sound 'Vv' for _________.",
-  answer: "Vicky Violet"
+    "part": "End Term",
+    "question": "Sound 'Zz' for _________.",
+  answer: "Zigzag Zebra"
 }
 ];
