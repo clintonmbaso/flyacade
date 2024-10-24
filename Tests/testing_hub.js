@@ -392,9 +392,23 @@ const questionsBank = [
   ...g2scit2btrueFalseQuestions,
   ...g2scit3atrueFalseQuestions,
   ...g2scit3btrueFalseQuestions,
+// Fill in the Blanks
+/*
+   ...g2scit1afillInTheBlankQuestions,
+  ...g2scit1bfillInTheBlankQuestions,
+  ...g2scit2afillInTheBlankQuestions,
+  ...g2scit2bfillInTheBlankQuestions,
+*/
   ...g2scit3afillInTheBlankQuestions,
+  ...g2scit3bfillInTheBlankQuestions,
 // Matching
+/*
+  ...g2scit1amatchingQuestions,
+  ...g2scit1bmatchingQuestions,
+  ...g2scit2amatchingQuestions,
+  ...g2scit2bmatchingQuestions,*/
   ...g2scit3amatchingQuestions,
+  ...g2scit3bmatchingQuestions,
  
   // Social Studies
   // True or False
@@ -785,28 +799,28 @@ const questionsBank = [
   ...g5expt2amultipleChoiceQuestions,
   ...g5expt2bmultipleChoiceQuestions,*/
   ...g5expt3amultipleChoiceQuestions,
-//  ...g5expt3bmultipleChoiceQuestions,
+  ...g5expt3bmultipleChoiceQuestions,
   // True or False
 /*  ...g5expt1atrueFalseQuestions,
   ...g5expt1btrueFalseQuestions,
   ...g5expt2atrueFalseQuestions,
   ...g5expt2btrueFalseQuestions,*/
   ...g5expt3atrueFalseQuestions,
-//  ...g5expt3btrueFalseQuestions,
+  ...g5expt3btrueFalseQuestions,
   // Fill in the Blanks
 /*  ...g5expt1afillInTheBlankQuestions,
   ...g5expt1bfillInTheBlankQuestions,
   ...g5expt2afillInTheBlankQuestions,
   ...g5expt2bfillInTheBlankQuestions,*/
   ...g5expt3afillInTheBlankQuestions,
-//  ...g5expt3bfillInTheBlankQuestions,
+  ...g5expt3bfillInTheBlankQuestions,
   // Matching
 /*  ...g5expt1amatchingQuestions,
   ...g5expt1bmatchingQuestions,
   ...g5expt2amatchingQuestions,
   ...g5expt2bmatchingQuestions,*/
   ...g5expt3amatchingQuestions,
-//  ...g5expt3bmatchingQuestions,
+  ...g5expt3bmatchingQuestions,
 
   // Home Economics
   // Multiple Choice
@@ -815,28 +829,28 @@ const questionsBank = [
   ...g5expt2amultipleChoiceQuestions,
   ...g5expt2bmultipleChoiceQuestions,*/
   ...g5het3amultipleChoiceQuestions,
-//  ...g5expt3bmultipleChoiceQuestions,
+  ...g5het3bmultipleChoiceQuestions,
   // True or False
 /*  ...g5expt1atrueFalseQuestions,
   ...g5expt1btrueFalseQuestions,
   ...g5expt2atrueFalseQuestions,
   ...g5expt2btrueFalseQuestions,*/
   ...g5het3atrueFalseQuestions,
-//  ...g5expt3btrueFalseQuestions,
+  ...g5het3btrueFalseQuestions,
   // Fill in the Blanks
 /*  ...g5expt1afillInTheBlankQuestions,
   ...g5expt1bfillInTheBlankQuestions,
   ...g5expt2afillInTheBlankQuestions,
   ...g5expt2bfillInTheBlankQuestions,*/
   ...g5het3afillInTheBlankQuestions,
-//  ...g5expt3bfillInTheBlankQuestions,
+  ...g5het3bfillInTheBlankQuestions,
   // Matching
 /*  ...g5expt1amatchingQuestions,
   ...g5expt1bmatchingQuestions,
   ...g5expt2amatchingQuestions,
   ...g5expt2bmatchingQuestions,*/
   ...g5het3amatchingQuestions,
-//  ...g5expt3bmatchingQuestions,
+  ...g5het3bmatchingQuestions,
 
   // Technology Studies
   // Multiple Choice
@@ -845,28 +859,28 @@ const questionsBank = [
   ...g5expt2amultipleChoiceQuestions,
   ...g5expt2bmultipleChoiceQuestions,*/
   ...g5tst3amultipleChoiceQuestions,
-//  ...g5expt3bmultipleChoiceQuestions,
+  ...g5tst3bmultipleChoiceQuestions,
   // True or False
 /*  ...g5expt1atrueFalseQuestions,
   ...g5expt1btrueFalseQuestions,
   ...g5expt2atrueFalseQuestions,
   ...g5expt2btrueFalseQuestions,*/
   ...g5tst3atrueFalseQuestions,
-//  ...g5expt3btrueFalseQuestions,
+  ...g5tst3btrueFalseQuestions,
   // Fill in the Blanks
 /*  ...g5expt1afillInTheBlankQuestions,
   ...g5expt1bfillInTheBlankQuestions,
   ...g5expt2afillInTheBlankQuestions,
   ...g5expt2bfillInTheBlankQuestions,*/
   ...g5tst3afillInTheBlankQuestions,
-//  ...g5expt3bfillInTheBlankQuestions,
+  ...g5tst3bfillInTheBlankQuestions,
   // Matching
 /*  ...g5expt1amatchingQuestions,
   ...g5expt1bmatchingQuestions,
   ...g5expt2amatchingQuestions,
   ...g5expt2bmatchingQuestions,*/
   ...g5tst3amatchingQuestions,
-//  ...g5expt3bmatchingQuestions,
+  ...g5tst3bmatchingQuestions,
 
   // Mathematics
   // Multiple Choice
@@ -1078,28 +1092,28 @@ function displayQuestions() {
         
         
         case "multiple_choice":
-          sectionIdentifierText = "Multiple Choice Section - Multiple Choice";
+          sectionIdentifierText = "Multiple Choice Section";
           break;
         case "special":
-          sectionIdentifierText = "Special Paper 2 Section - Multiple Choice";
+          sectionIdentifierText = "Special Paper 2 Section";
           break;
         case "true_false":
-          sectionIdentifierText = "True or False Section - True or False";
+          sectionIdentifierText = "True or False Section";
           break;
         case "fill_in_the_blank":
-          sectionIdentifierText = "Fill in the Blanks Section - Fill in the Blanks";
+          sectionIdentifierText = "Fill in the Blanks Section";
           break;
         case "matching":
-          sectionIdentifierText = "Matching Section - Matching Questions";
+          sectionIdentifierText = "Matching Section";
           break;
         case "one_word":
-          sectionIdentifierText = "Calculation Section - Solve the following questions";
+          sectionIdentifierText = "Calculation Section";
           break;
         case "comprehension":
-          sectionIdentifierText = "Comprehension Section - Read the story and answer the questions that follow";
+          sectionIdentifierText = "Comprehension Section";
           break;
         case "image_based":
-          sectionIdentifierText = "Image Section - Carefully analyse the given image and answer the questions that follow";
+          sectionIdentifierText = "Image Section";
           break;
         case "maze":
           sectionIdentifierText = "Maze Section - complete the puzzle given below based on the instructions in the question";
