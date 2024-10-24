@@ -1,9 +1,8 @@
 const g1ctst2bmultipleChoiceQuestions = [
-
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why is it important to brush your teeth?",
@@ -13,7 +12,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How often should you brush your teeth?",
@@ -23,7 +22,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the best way to wash your hands?",
@@ -33,7 +32,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "When should you wash your hands?",
@@ -43,7 +42,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is a good habit for keeping your body clean?",
@@ -53,7 +52,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why should you wash your hands after using the bathroom?",
@@ -63,7 +62,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you use to clean your face?",
@@ -73,7 +72,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How can you keep your nails clean?",
@@ -83,7 +82,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why is it important to change your clothes regularly?",
@@ -93,7 +92,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is a good practice for keeping your hair clean?",
@@ -103,7 +102,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why should you use a clean towel to dry yourself?",
@@ -113,7 +112,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is a good habit for maintaining personal hygiene?",
@@ -123,7 +122,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why should you cover your mouth when you cough or sneeze?",
@@ -133,7 +132,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How should you clean up after eating?",
@@ -143,7 +142,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do if you have a runny nose?",
@@ -153,7 +152,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why should you use clean bed linens?",
@@ -163,7 +162,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is a good way to keep your environment clean?",
@@ -173,7 +172,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How often should you wash your hands during the day?",
@@ -183,7 +182,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do if you have dirt on your hands?",
@@ -193,7 +192,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
       "term": "Term 2",
     "part": "End Term",
     "question": "Why is it important to have good personal hygiene?",
@@ -203,7 +202,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why is it important to wash your hands before cooking?",
@@ -213,7 +212,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you use to wash your hands?",
@@ -223,7 +222,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How long should you wash your hands?",
@@ -233,7 +232,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the best way to dry your hands after washing them?",
@@ -243,7 +242,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do if you touch something dirty while cooking?",
@@ -253,7 +252,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How should you clean a kitchen counter?",
@@ -263,7 +262,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do if you drop food on the floor?",
@@ -273,7 +272,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is a good practice for cleaning dishes?",
@@ -283,7 +282,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why should you keep raw food separate from cooked food?",
@@ -293,7 +292,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is important to do after handling raw meat?",
@@ -303,7 +302,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you use to clean up spills in the kitchen?",
@@ -313,7 +312,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the right way to handle kitchen utensils?",
@@ -323,7 +322,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do with a dish towel after using it?",
@@ -333,7 +332,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why is it important to wash fruits and vegetables before eating them?",
@@ -343,7 +342,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the best way to store food in the kitchen?",
@@ -353,7 +352,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How can you avoid spreading germs while cooking?",
@@ -363,7 +362,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do if you see a dirty kitchen tool?",
@@ -373,7 +372,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do after touching something that is not clean?",
@@ -383,7 +382,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why should you keep your kitchen clean?",
@@ -393,7 +392,7 @@ const g1ctst2bmultipleChoiceQuestions = [
 {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the best practice for keeping your kitchen clean?",
@@ -403,7 +402,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the first thing you should do when setting a table?",
@@ -413,7 +412,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Where does the fork go when setting a table?",
@@ -423,7 +422,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What side of the plate should the knife be placed?",
@@ -433,7 +432,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Where does the spoon go in a table setting?",
@@ -443,7 +442,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you place in the center of the table setting?",
@@ -453,7 +452,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How should the knife be positioned on the table?",
@@ -463,7 +462,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the correct placement for a napkin?",
@@ -473,7 +472,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Where should the dessert spoon or fork be placed?",
@@ -483,7 +482,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the purpose of setting the table properly?",
@@ -493,7 +492,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What goes in the center of the table when setting it?",
@@ -503,7 +502,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How should the utensils be arranged if you are using a fork, knife, and spoon?",
@@ -513,7 +512,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the correct way to set a glass or cup?",
@@ -523,7 +522,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "When setting a table for more than one course, where should the utensils for the main course be placed?",
@@ -533,7 +532,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the best place for a bread plate in a formal table setting?",
@@ -543,7 +542,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How should you set the silverware for a meal with multiple courses?",
@@ -553,7 +552,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Where does the salad fork go in a table setting?",
@@ -563,7 +562,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What should you do with a spoon if you are setting the table for dessert?",
@@ -573,7 +572,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What do you place on the left side of the plate?",
@@ -583,7 +582,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What goes to the right of the plate?",
@@ -593,7 +592,7 @@ const g1ctst2bmultipleChoiceQuestions = [
 {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why is it important to follow table setting etiquette?",
@@ -993,7 +992,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Kitchen Safety",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why is handwashing important after handling raw food?",
@@ -1003,7 +1002,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is an inclined plane?",
@@ -1013,7 +1012,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What does an inclined plane help us do?",
@@ -1023,7 +1022,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is an example of an inclined plane?",
@@ -1033,7 +1032,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the shape of an inclined plane?",
@@ -1043,7 +1042,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How does an inclined plane make lifting easier?",
@@ -1053,7 +1052,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What can you find at the end of an inclined plane?",
@@ -1063,7 +1062,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is an inclined plane used for?",
@@ -1073,7 +1072,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is NOT an inclined plane?",
@@ -1083,7 +1082,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What do you call the surface of an inclined plane?",
@@ -1093,7 +1092,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Why are inclined planes useful?",
@@ -1103,7 +1102,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is an example of an inclined plane you might see at a playground?",
@@ -1113,7 +1112,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "When using an inclined plane, what happens to the effort needed to move something?",
@@ -1123,7 +1122,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What shape is the ramp on an inclined plane?",
@@ -1133,7 +1132,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How does an inclined plane help when pushing a heavy box up a hill?",
@@ -1143,7 +1142,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What can you use an inclined plane for at home?",
@@ -1153,7 +1152,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What happens when you increase the angle of an inclined plane?",
@@ -1163,7 +1162,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is an inclined plane?",
@@ -1173,7 +1172,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What can be found at the bottom of an inclined plane?",
@@ -1183,7 +1182,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which tool is an inclined plane?",
@@ -1193,7 +1192,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How does an inclined plane make moving a box easier?",
@@ -1203,7 +1202,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is a lever?",
@@ -1213,7 +1212,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is a part of a lever?",
@@ -1223,7 +1222,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What does a lever help us do?",
@@ -1233,7 +1232,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What do you call the point where a lever turns?",
@@ -1243,7 +1242,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "In a seesaw, what is the fulcrum?",
@@ -1253,7 +1252,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is an example of a lever?",
@@ -1263,7 +1262,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "If you push down on one side of a seesaw, what happens?",
@@ -1273,7 +1272,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What can levers be used for?",
@@ -1283,7 +1282,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What is the load in a lever?",
@@ -1293,7 +1292,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is NOT a lever?",
@@ -1303,7 +1302,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "How does a lever make work easier?",
@@ -1313,7 +1312,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What do you call the long part of a lever that you push or pull?",
@@ -1323,7 +1322,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which part of a lever is closest to the load?",
@@ -1333,7 +1332,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What happens if you move the fulcrum closer to the load?",
@@ -1343,7 +1342,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these tools is used like a lever?",
@@ -1353,7 +1352,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What do you call the end of a lever where you push or pull?",
@@ -1363,7 +1362,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "When you use a lever to lift something, what happens to the lever arm?",
@@ -1373,7 +1372,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "Which of these is an example of a lever in your house?",
@@ -1383,7 +1382,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "In a seesaw, where should you sit to go up?",
@@ -1393,7 +1392,7 @@ const g1ctst2bmultipleChoiceQuestions = [
   {
     "type": "multiple_choice",
     "class": "Feather Flyers",
-    "subject": "Expressive Arts",
+    "subject": "cts",
     "term": "Term 2",
     "part": "End Term",
     "question": "What makes a lever move up and down?",
