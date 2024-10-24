@@ -139,7 +139,7 @@ const midscit3aimageBasedQuestions = [
         question: "Identify the animal that can only see during the day.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: [""Squirrel", "Cow"], // Multiple-choice options
+        options: ["Squirrel", "Cow"], // Multiple-choice options
         correctAnswer: "Squirrel" // Correct answer (optional, for validation)
     },
     {

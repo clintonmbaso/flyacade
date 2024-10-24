@@ -74,7 +74,7 @@ const midscit3bimageBasedQuestions = [
         question: "Identify the type of water transport that can float on water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: [""Ship", "Canoe"], // Multiple-choice options
+        options: ["Ship", "Canoe"], // Multiple-choice options
         correctAnswer: "Ship" // Correct answer (optional, for validation)
     },
     {
