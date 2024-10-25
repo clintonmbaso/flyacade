@@ -5,12 +5,12 @@ const midscit3bimageBasedQuestions = [
         subject: "Science",
         term: "Term 3",
         part: "End Term",
-        imageSrc: "images/science/middle/bathtab.png", // Path to the image (e.g., map image)
-        question: "Identify the source of water around us.", // Description or prompt for the question
+        imageSrc: "images/science/middle/bathtub.png", // Path to the image (e.g., map image)
+        question: "Identify the source of water within our home.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
-        options: ["Well", "Bathtab"], // Multiple-choice options
-        correctAnswer: "Bathtab" // Correct answer (optional, for validation)
+        options: ["Well", "Bathtub"], // Multiple-choice options
+        correctAnswer: "Bathtub" // Correct answer (optional, for validation)
     },
     {
         type: "image_based", // The case that matches your switch
@@ -19,7 +19,7 @@ const midscit3bimageBasedQuestions = [
         term: "Term 3",
         part: "End Term",
         imageSrc: "images/science/middle/sink.png", // Path to the image (e.g., map image)
-        question: "Identify the source of water around us.", // Description or prompt for the question
+        question: "Identify the source of water within our home.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
         options: ["Well", "Sink"], // Multiple-choice options
@@ -32,7 +32,7 @@ const midscit3bimageBasedQuestions = [
         term: "Term 3",
         part: "EndTerm",
         imageSrc: "images/science/middle/tap.png", // Path to the image (e.g., map image)
-        question: "Identify the source of water around us.", // Description or prompt for the question
+        question: "Identify the source of water within our home.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
         options: ["Well", "Tap"], // Multiple-choice options
@@ -45,7 +45,7 @@ const midscit3bimageBasedQuestions = [
         term: "Term 3",
         part: "EndTerm",
         imageSrc: "images/science/middle/well.png", // Path to the image (e.g., map image)
-        question: "Identify the source of water around us.", // Description or prompt for the question
+        question: "Identify the source of water within our home.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
         options: ["Well", "Bathtab"], // Multiple-choice options
@@ -162,7 +162,7 @@ const midscit3bimageBasedQuestions = [
         term: "Term 3",
         part: "End Term",
         imageSrc: "images/science/middle/lake.png", // Path to the image (e.g., map image)
-        question: "Identify the marine animal that can float in water.", // Description or prompt for the question
+        question: "Identify a source of water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
         options: ["Lake", "Ocean"], // Multiple-choice options
@@ -175,7 +175,7 @@ const midscit3bimageBasedQuestions = [
         term: "Term 3",
         part: "End Term",
         imageSrc: "images/science/middle/ocean.png", // Path to the image (e.g., map image)
-        question: "Identify the marine animal that can float in water.", // Description or prompt for the question
+        question: "Identify a source of water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
         options: ["Ocean", "River"], // Multiple-choice options
@@ -188,7 +188,7 @@ const midscit3bimageBasedQuestions = [
         term: "Term 3",
         part: "End Term",
         imageSrc: "images/science/middle/river.png", // Path to the image (e.g., map image)
-        question: "Identify the marine animal that can float in water.", // Description or prompt for the question
+        question: "Identify a source of water.", // Description or prompt for the question
         description: "Image Identification",
         subType: "multiple_choice", // Subtype can be 'multiple_choice' or 'fill_in_the_blank'
         options: ["Ocean", "River"], // Multiple-choice options
