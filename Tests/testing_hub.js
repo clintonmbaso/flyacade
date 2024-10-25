@@ -737,8 +737,18 @@ const questionsBank = [
   ...g5scit3amatchingQuestions,
   ...g5scit3bmatchingQuestions,
 // Fill in the Blanks
+/*...g5scit1afillInTheBlankQuestions,
+...g5scit1bfillInTheBlankQuestions,
+...g5scit2afillInTheBlankQuestions,
+...g5scit2bfillInTheBlankQuestions,*/
 ...g5scit3afillInTheBlankQuestions,
+...g5scit3bfillInTheBlankQuestions,
 // True or False
+/*...g5scit3atrueFalseQuestions,
+...g5scit3atrueFalseQuestions,
+...g5scit3atrueFalseQuestions,
+...g5scit3atrueFalseQuestions,*/
+...g5scit3atrueFalseQuestions,
 ...g5scit3atrueFalseQuestions,
 
   // English
