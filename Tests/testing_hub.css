@@ -356,34 +356,34 @@ select {
 
 
 
-/* Style for the reading question container */
 .reading-container {
-    margin: 20px 0;
-    text-align: center; /* Center the content */
+    margin: 10px 0;
 }
 
-/* Style for the reading prompt (title or instruction) */
-.reading-container .reading-prompt {
-    font-size: 24px; /* Large and readable title */
-    font-weight: bold;
-    margin-bottom: 10px;
+.reading-words-container {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5em; /* Bigger font for children */
 }
 
-/* Style for the reading content (word, sentence, or paragraph) */
-.reading-container .reading-content {
-    font-size: 50px; /* Adjust font size for readability */
-    line-height: 1.5; /* Spacing between lines */
-    margin: 15px auto; /* Space around the text */
-    width: 80%;
-    max-width: 600px; /* Limit width for better readability */
-    text-align: left; /* Left-align for better reading */
-    font-family: 'Advantage', sans-serif; /* Simple font for children */
+.reading-word {
+    font-size: 2em; /* Even larger for clarity */
 }
 
-/* Style for the reading prompt image */
-.reading-container .reading-prompt-image {
-    max-width: 300px; /* Adjust size as needed */
-    height: auto;
+.reading-short-sentences-container {
     display: block;
-    margin: 10px auto; /* Center the image */
+    font-size: 1.2em; /* Smaller font for mid-aged learners */
+}
+
+.reading-short-sentence {
+    margin: 10px 0;
+}
+
+.reading-long-sentences-container {
+    display: block;
+    font-size: 1em; /* Normal font for adults */
+}
+
+.reading-long-sentence {
+    margin: 15px 0;
 }
