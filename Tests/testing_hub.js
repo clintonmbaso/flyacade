@@ -161,6 +161,22 @@ const questionsBank = [
 // Matching
 ...recengt3amatchingQuestions,
 
+  // Literacy
+  // Multiple Choice
+//  ...recengt2amultipleChoiceQuestions,
+//  ...recengt2bmultipleChoiceQuestions, 
+//  ...recengt3amultipleChoiceQuestions,
+// Fill in the Blanks
+//...recengt3afillInTheBlankQuestions,
+// True or False
+//...recengt3atrueFalseQuestions,
+// Matching
+//...recengt3amatchingQuestions,
+// reading
+...reclitt3breadingQuestions,
+
+
+
   // Social Studies
   // Multiple Choice
 //  ...recengt2amultipleChoiceQuestions,
@@ -223,7 +239,13 @@ const questionsBank = [
 ...g1litt2bmultipleChoiceQuestions,
 ...g1litt3amultipleChoiceQuestions,
 ...g1litt3bmultipleChoiceQuestions,
-
+// Reading
+/*...g1litt1areadingQuestions,
+...g1litt1breadingQuestions,
+...g1litt2areadingQuestions,
+...g1litt2breadingQuestions,*/
+//...g1litt3areadingQuestions,
+...g1litt3breadingQuestions,
 
   // Science
   // Multiple Choice
@@ -1126,22 +1148,22 @@ function displayQuestions() {
           sectionIdentifierText = "Image Section";
           break;
         case "maze":
-          sectionIdentifierText = "Maze Section - complete the puzzle given below based on the instructions in the question";
+          sectionIdentifierText = "Maze Section";
           break;
         case "sudoku":
-          sectionIdentifierText = "Sudoku Section - complete the puzzle given below based on the instructions in the question";
+          sectionIdentifierText = "Sudoku Section";
           break;
         case "crossword":
-          sectionIdentifierText = "Crossword Section - complete the puzzle given below based on the instructions in the question";
+          sectionIdentifierText = "Crossword Section";
           break;
         case "tracing":
-          sectionIdentifierText = "Tracing Section - Trace the given work as neatly as you possibly can.";
+          sectionIdentifierText = "Tracing Section";
           break;
         case "handwriting":
-          sectionIdentifierText = "Handwriting Section - Write the given work as neatly as you possibly can.";
+          sectionIdentifierText = "Handwriting Section";
           break;
         case "reading":
-          sectionIdentifierText = "Reading Section - Read the given work following the sounding rules.";
+          sectionIdentifierText = "Reading Section.";
           break;
         
         
@@ -1965,14 +1987,53 @@ case "handwriting":
       
 case "reading":
     const readingContainer = document.createElement("div");
-    readingContainer.classList.add("reading-container"); // Add class for styling
+    readingContainer.classList.add("reading-container"); // Add main container class for styling
       
-    // Add the reading content (word, sentence, or paragraph)
-    const readingContent = document.createElement("p");
-    readingContent.innerHTML = q.readingContent || "Please read the following text:";
-    readingContent.classList.add("reading-content"); // Add class for styling
-    readingContainer.appendChild(readingContent);
-      
+
+    switch (q.subtype) {
+        case "words":
+            // For single words, aligned horizontally with a bigger font size
+            readingContainer.classList.add("reading-words-container"); // Add specific class for styling
+
+            // Loop through each word in readingContent and create a styled span
+            q.readingContent.forEach(word => {
+                const wordItem = document.createElement("span");
+                wordItem.textContent = word;
+                wordItem.classList.add("reading-word"); // Style for bigger font
+                readingContainer.appendChild(wordItem);
+            });
+            break;
+
+        case "short-sentences":
+            // For shorter sentences, aligned vertically with smaller font size
+            readingContainer.classList.add("reading-short-sentences-container"); // Add specific class for styling
+            q.readingContent.forEach(sentence => {
+                const sentenceItem = document.createElement("p");
+                sentenceItem.textContent = sentence;
+                sentenceItem.classList.add("reading-short-sentence"); // Style for smaller font
+                readingContainer.appendChild(sentenceItem);
+            });
+            break;
+
+        case "long-sentences":
+            // For longer sentences, aligned vertically with normal font size
+            readingContainer.classList.add("reading-long-sentences-container"); // Add specific class for styling
+            q.readingContent.forEach(longSentence => {
+                const longSentenceItem = document.createElement("p");
+                longSentenceItem.textContent = longSentence;
+                longSentenceItem.classList.add("reading-long-sentence"); // Style for normal font
+                readingContainer.appendChild(longSentenceItem);
+            });
+            break;
+
+        default:
+            const defaultContent = document.createElement("p");
+            defaultContent.innerHTML = q.readingContent || "Please read the following text:";
+            defaultContent.classList.add("reading-content"); // General styling
+            readingContainer.appendChild(defaultContent);
+            break;
+    }
+
     // Append the reading container to the question wrapper
     questionWrapper.appendChild(readingContainer);
     break;
