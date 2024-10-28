@@ -174,37 +174,126 @@ select {
   
 }
 
+
+
+
+/* Container for the sudoku question */
+.sudoku-based-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Styling for the sudoku description */
+.sudoku-based-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Sudoku table (grid) */
 .sudoku-table {
     border-collapse: collapse;
     margin: 10px 0;
-    border: 3px solid #000; /* Thicker outer border */
-  
+    border: 2px solid #000;
 }
 
-.sudoku-input {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    font-size: 16px;
-     font-weight: bold;
-     padding: none;
+/* 4x4 grid thicker borders */
+.sudoku-table-4x4 td:nth-child(2),
+.sudoku-table-4x4 td:nth-child(4) {
+    border-right: 2px solid #333;
 }
 
+.sudoku-table-4x4 tr:nth-child(2) td,
+.sudoku-table-4x4 tr:nth-child(4) td {
+    border-bottom: 2px solid #333;
+}
+
+/* 6x6 grid thicker borders */
+.sudoku-table-6x6 td:nth-child(3),
+.sudoku-table-6x6 td:nth-child(6) {
+    border-right: 2px solid #333;
+}
+
+.sudoku-table-6x6 tr:nth-child(2) td,
+.sudoku-table-6x6 tr:nth-child(4) td,
+.sudoku-table-6x6 tr:nth-child(6) td {
+    border-bottom: 2px solid #333;
+}
+
+
+/* 9x9 grid thicker borders */
+.sudoku-table-9x9 td:nth-child(3),
+.sudoku-table-9x9 td:nth-child(6),
+.sudoku-table-9x9 td:nth-child(9) {
+    border-right: 2px solid #333;
+}
+
+.sudoku-table-9x9 tr:nth-child(3) td,
+.sudoku-table-9x9 tr:nth-child(6) td,
+.sudoku-table-9x9 tr:nth-child(9) td {
+    border-bottom: 2px solid #333;
+}
+
+/* Each cell in the Sudoku */
 .sudoku-table td {
-    border: 1px solid #000;
-    width: 20px;
-    height: 20px;
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    border: 1px solid #333;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
 }
-.sudoku-table tr:nth-child(3), .sudoku-table tr:nth-child(6) {
-      border-bottom: 3px solid #000; /* Thicken third and sixth row bottom borders */
+
+
+
+/* Input fields styling */
+.sudoku-input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+/* Read-only cells styling */
+.sudoku-input[readonly] {
+    background-color: none;
+    font-weight: bold;
+    color: #333;
+    pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sudoku-table td {
+        width: 30px; /* Smaller width */
+        height: 30px; /* Smaller height */
     }
-.sudoku-table td:nth-child(3), .sudoku-table td:nth-child(6) {
-      border-right: 3px solid #000; /* Thicken third and sixth column right borders */
-    }
+}
+
+
+
 
 .black-cell {
     background-color: grey;
 }
+
+
+
 
 
 
@@ -230,47 +319,119 @@ select {
 
 
 
-.crossword-input {
-    width: 100%;
-    height: 100%;
-    font-size: 1.5em;
+/* Container for the crossword question */
+.crossword-based-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Styling for the crossword description */
+.crossword-based-container p {
+    font-size: 1.2rem;
     text-align: center;
-  display: flex;
+    margin-bottom: 10px;
 }
 
-.clue-number {
-    font-size: 0.5em;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    color: darkblue;
-}
-
+/* Crossword table (grid) */
 .crossword-table {
-    position: relative;
     border-collapse: collapse;
-}
-
-.crossword-table td {
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border: 1px solid black;
-}
-
-.crossword-clues-container {
-    margin-top: 20px;
-}
-
-.crossword-clues-container h3 {
     margin: 10px 0;
 }
 
-.crossword-clues-container p {
+/* Each cell in the crossword */
+.crossword-table td {
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    border: 1px solid #333;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Input fields styling */
+.crossword-input {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+/* Clue number overlay */
+.clue-number {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 0.7rem;
+    color: #333;
+    z-index: 2; /* Higher than input field to overlay */
+    pointer-events: none; /* Ensure it doesn't block input */
+}
+
+/* Styling for black cells */
+.black-cell {
+    background-color: #333;
+}
+
+/* Container for clues */
+.crossword-clues-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Common styling for clues lists */
+.across-clues, .down-clues {
+    width: 45%; /* Adjust width if needed */
+    padding: 10px;
+}
+
+/* Heading styling for clues sections */
+.across-clues h3, .down-clues h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Individual clue items */
+.across-clues p, .down-clues p {
+    font-size: 1rem;
     margin: 5px 0;
+    color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .crossword-table td {
+        width: 30px; /* Smaller width */
+        height: 30px; /* Smaller height */
+    }
+    .across-clues, .down-clues {
+        width: 100%; /* Full width */
+        padding: 5px;
+    }
 }
 
 
+
+
+
+l
 
 
 /* Style for the special question container */
@@ -386,4 +547,49 @@ select {
 
 .reading-long-sentence {
     margin: 15px 0;
+}
+
+
+
+
+
+.math-container {
+    margin: 10px;
+}
+
+.math-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.math-baby-question {
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+.math-primary-question {
+    font-size: 1.3em;
+    color: #FF9800;
+}
+
+.math-middle-question {
+    font-size: 1.2em;
+    color: #2196F3;
+}
+
+.math-high-school-question {
+    font-size: 1.1em;
+    color: #9C27B0;
+}
+
+.math-advanced-question {
+    font-size: 1em;
+    color: #F44336;
+}
+
+.pie-chart, .bar-chart, .line-graph, .pictograph {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
 }
