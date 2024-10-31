@@ -4,7 +4,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
-<script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -18,6 +19,178 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Advantage&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  
+      <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  
+  <style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 20px;
+}
+
+.form-container {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background: #2c3e50;
+  transition: left 0.5s ease-in-out;
+  z-index: 3;
+  overflow-y: auto;
+}
+
+.show-form {
+  left: 0;
+}
+
+.form-content {
+  padding: 10px;
+}
+
+#toggle-form {
+  align-self: flex-end;
+}
+
+        .question-wrapper {
+            margin-bottom: 10px;
+        }
+        .section-identifier {
+            font-weight: bold;
+            margin-bottom: 5px;
+            background-color: rgba(245,255,5,0.4);
+            width: 100%;
+            padding: 5px 0;
+            border-radius: 5px;
+            
+        }
+
+label {
+  display: inline;
+  margin-bottom: 3px;
+}
+
+input[type="number"] {
+  width: 30px;
+  align-self: flex-end;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+}
+
+#questions-container {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 10px;
+}
+
+#questions-container div {
+  margin-bottom: 10px;
+}
+
+#questions-container input[type="radio"],
+#questions-container input[type="text"] {
+  margin-left: 10px;
+}
+
+#generate-pdf,
+#refresh-questions {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(245,255,5,0.4);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#generate-pdf:hover,
+#refresh-questions:hover {
+  background-color: #2980b9;
+}
+
+#sidebars {
+  background: rgba(173,75,57,0.7);
+  border-radius: 20px 20px 0 0;
+  padding: 2px 0;
+  text-align: center;
+  margin: 0px;
+}
+
+#filtered {
+  padding: 10px;
+  background: rgba(173,75,57,0.3);
+}
+
+#search-button {
+  background: rgba(173,75,57,0.9);
+  width: 100%;
+  border-radius: 20px;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+
+}
+
+#Heading #refresh-questions {
+  font-size: 20px;
+    align-self: flex-end;
+}
+
+#buttonz {
+         display: flex;
+            justify-content: space-between;
+            position: sticky;
+            bottom: 0;
+            padding: 5px;
+            width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+/* Button Style with Icon */
+#save-btn {
+    border: none;
+    padding: 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 20px; 
+    top: 5px; 
+     right: 5px;
+    cursor: pointer; 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+}
+
+#save-btn i {
+    font-size: 24px; 
+}
+
+  </style>
+  
+  
 </head>
 <body>
   <div class="container">
@@ -121,6 +294,11 @@
         </div>
           
         <div style="display: flex; justify-content: space-between;">
+          <label for="num-math">Mathematics Questions:</label>
+          <input type="number" id="num-math" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
           <label for="num-comprehension">Comprehension Questions:</label>
           <input type="number" id="num-comprehension" min="0" value="1">
         </div>
@@ -136,13 +314,18 @@
         </div>
           
         <div style="display: flex; justify-content: space-between;">
-          <label for="num-sudoku">Sudoku Questions:</label>
-          <input type="number" id="num-sudoku" min="0" value="1">
+          <label for="num-crossword">Crossword Questions:</label>
+          <input type="number" id="num-crossword" min="0" value="1">
         </div>
           
         <div style="display: flex; justify-content: space-between;">
-          <label for="num-crossword">Crossword Questions:</label>
-          <input type="number" id="num-crossword" min="0" value="1">
+          <label for="num-coloring">Coloring Questions:</label>
+          <input type="number" id="num-coloring" min="0" value="5">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-identification">Identification Questions:</label>
+          <input type="number" id="num-identification" min="0" value="5">
         </div>
           
         <div style="display: flex; justify-content: space-between;">
@@ -160,6 +343,11 @@
           <input type="number" id="num-reading" min="0" value="1">
         </div>
           
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-sudoku">Sudoku Questions:</label>
+          <input type="number" id="num-sudoku" min="0" value="1">
+        </div>
+          
         </div>
         <br>
         
@@ -170,12 +358,14 @@
 <p id="question-count"></p>
       
     </div>
-    <div id="questions-container"></div>
-    
+
     <div id="buttonz" style="display: flex; justify-content: space-between;">
-    <button id="generate-pdf" style="display: none;">Download PDF</button>
-        <button id="refresh-questions">Refresh</button>
+      <button id="generate-pdf" style="display: none;">Download PDF</button>
+      <button class="refreshBtn" id="refreshBtn"></button>
+      <button id="refresh-questions">Refresh</button>
     </div>
+
+    
 
       
 
@@ -183,17 +373,63 @@
   <!-- Results will be displayed here -->
 </div>
     
-
+    <div id="questions-container"></div>
+          <div id="chart-container" style="width: 100%; max-width: 600px;">
+    <canvas id="question-chart"></canvas>
+</div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
+
+<!-- Baby Class -->
+<!-- English --
+  <script src="english/baby/babyengt1acoloringQuestions.js"></script>
+  <script src="english/baby/babyengt1bcoloringQuestions.js"></script>
+  <script src="english/baby/babyengt2acoloringQuestions.js"></script>
+  <script src="english/baby/babyengt2bcoloringQuestions.js"></script>
+  <script src="english/baby/babyengt3acoloringQuestions.js"></script>-->
+  <script src="english/baby/babyengt3bcoloringQuestions.js"></script>
+<!-- English --
+  <script src="english/baby/babyengt3bidentificationQuestions.js"></script>
+  <script src="english/baby/babyengt3bidentificationQuestions.js"></script>
+  <script src="english/baby/babyengt3bidentificationQuestions.js"></script>
+  <script src="english/baby/babyengt3bidentificationQuestions.js"></script>
+  <script src="english/baby/babyengt3bidentificationQuestions.js"></script>-->
+  <script src="english/baby/babyengt3bidentificationQuestions.js"></script>
+    
+    
+    
+<!-- Math --
+  <script src="math/baby/babymatht1acoloringQuestions.js"></script>
+  <script src="math/baby/babymatht1bcoloringQuestions.js"></script>
+  <script src="math/baby/babymatht2acoloringQuestions.js"></script>
+  <script src="math/baby/babymatht2bcoloringQuestions.js"></script>
+  <script src="math/baby/babymatht3acoloringQuestions.js"></script>-->
+  <script src="math/baby/babymatht3bcoloringQuestions.js"></script>
+<!-- Counting --
+  <script src="math/baby/babymatht1acountingQuestions.js"></script>
+  <script src="math/baby/babymatht1bcountingQuestions.js"></script>
+  <script src="math/baby/babymatht2acountingQuestions.js"></script>
+  <script src="math/baby/babymatht2bcountingQuestions.js"></script>
+  <script src="math/baby/babymatht3acountingQuestions.js"></script>-->
+  <script src="math/baby/babymatht3bcountingQuestions.js"></script>
+<!-- Identification --
+  <script src="math/baby/babymatht3bidentificationQuestions.js"></script>
+  <script src="math/baby/babymatht3bidentificationQuestions.js"></script>
+  <script src="math/baby/babymatht3bidentificationQuestions.js"></script>
+  <script src="math/baby/babymatht3bidentificationQuestions.js"></script>
+  <script src="math/baby/babymatht3bidentificationQuestions.js"></script>-->
+  <script src="math/baby/babymatht3bidentificationQuestions.js"></script>
+        
+    
+    
 <!-- English -->
 <!-- Middle Class -->
 <!-- Multiple Choice --
-  <script src="english/middle/midengt3amultipleChoiceQuestions.js"></script>
-  <script src="english/middle/midengt3amultipleChoiceQuestions.js"></script>
-  <script src="english/middle/midengt3amultipleChoiceQuestions.js"></script>
-  <script src="english/middle/midengt3amultipleChoiceQuestions.js"></script>-->
+  <script src="english/middle/midengt1amultipleChoiceQuestions.js"></script>
+  <script src="english/middle/midengt1bmultipleChoiceQuestions.js"></script>
+  <script src="english/middle/midengt2amultipleChoiceQuestions.js"></script>
+  <script src="english/middle/midengt2bmultipleChoiceQuestions.js"></script>-->
   <script src="english/middle/midengt3amultipleChoiceQuestions.js"></script>
   <script src="english/middle/midengt3bmultipleChoiceQuestions.js"></script>
 <!-- True or False --
@@ -792,6 +1028,14 @@
   <script src="cts/grade3/g3ctst3amatchingQuestions.js"></script>
   <script src="cts/grade3/g3ctst3bmatchingQuestions.js"></script>
 
+<!-- SP 1 --
+  <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>-->
+    
 <!-- SP 2 -->
   <script src="sp2/grade3/g3sp2t1aimageBasedQuestions.js"></script>
   <script src="sp2/grade3/g3sp2t1bimageBasedQuestions.js"></script>
@@ -954,6 +1198,15 @@
   <script src="math/grade4/g4matht3aoneWordQuestions.js"></script>
     <!--  <script src="cts/grade4/g4ctst3btrueFalseQuestions.js"></script>
 
+<!-- SP 1 --
+  <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
+  <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>-->
+    
+    
 <!-- SP 2 -->
   <script src="sp2/grade4/g4sp2t1aimageBasedQuestions.js"></script>
   <script src="sp2/grade4/g4sp2t1bimageBasedQuestions.js"></script>
@@ -1184,7 +1437,14 @@
   <script src="math/grade5/g5sst2bmatchingQuestions.js"></script>-->
   <script src="math/grade5/g5matht3aoneWordQuestions.js"></script>
   <script src="math/grade5/g5matht3boneWordQuestions.js"></script>
-
+<!-- Graphical --
+  <script src="math/grade5/g5sst1amatchingQuestions.js"></script>
+  <script src="math/grade5/g5sst1bmatchingQuestions.js"></script>
+  <script src="math/grade5/g5sst2amatchingQuestions.js"></script>
+  <script src="math/grade5/g5sst2bmatchingQuestions.js"></script>
+  <script src="math/grade5/g5matht3aoneWordQuestions.js"></script>-->
+  <script src="math/grade5/g5matht3bgraphicalQuestions.js"></script>
+
     
 
 <!-- SP 2 -->

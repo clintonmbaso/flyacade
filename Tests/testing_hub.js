@@ -26,8 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
   
   
-  
-  
   // Event listener for button click to refresh questions
   document.getElementById("refresh-questions").addEventListener("click", displayQuestions);
   
@@ -45,6 +43,49 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Merge arrays from separate files into a single questionsBank array
 const questionsBank = [
+// Baby
+/*
+...babyengt1acoloringQuestions,
+...babyengt1bcoloringQuestions,
+...babyengt2acoloringQuestions,
+...babyengt2bcoloringQuestions,
+...babyengt3acoloringQuestions,*/
+...babyengt3bcoloringQuestions,
+// Identification
+/*
+...babyengt3bidentificationQuestions,
+...babyengt3bidentificationQuestions,
+...babyengt3bidentificationQuestions,
+...babyengt3bidentificationQuestions,
+...babyengt3bidentificationQuestions,*/
+...babyengt3bidentificationQuestions,
+
+
+// Math
+// Coloring
+/*
+...babymatht1acoloringQuestions,
+...babymatht1bcoloringQuestions,
+...babymatht2acoloringQuestions,
+...babymatht2bcoloringQuestions,
+...babymatht3acoloringQuestions,*/
+...babymatht3bcoloringQuestions,
+// Counting
+/*
+...babymatht1acountingQuestions,
+...babymatht1bcountingQuestions,
+...babymatht2acountingQuestions,
+...babymatht2bcountingQuestions,
+...babymatht3acountingQuestions,*/
+...babymatht3bcountingQuestions,
+// Identification
+/*
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,*/
+...babymatht3bidentificationQuestions,
 
   // Middle
 // English
@@ -593,6 +634,10 @@ const questionsBank = [
 // One Word
 ...g3matht3aoneWordQuestions,
 
+  // SP1
+  // Sudoku
+// /*  ...g3sp1t1bsudokuQuestions, ...g3sp1t1bsudokuQuestions, ...g3sp1t2asudokuQuestions, ...g3sp1t2bsudokuQuestions, ...g3sp1t3asudokuQuestions,*/ ...g3sp1t3bsudokuQuestions,
+
   // SP2
   // Image Based
   ...g3sp2t1aimageBasedQuestions, ...g3sp2t1bimageBasedQuestions, ...g3sp2t2aimageBasedQuestions, ...g3sp2t2bimageBasedQuestions, ...g3sp2t3aimageBasedQuestions, ...g3sp2t3bimageBasedQuestions,
@@ -600,19 +645,9 @@ const questionsBank = [
 
 // Grade 4
 // Science
-  ...g4scit1amultipleChoiceQuestions,
-  ...g4scit1bmultipleChoiceQuestions,
-  ...g4scit2amultipleChoiceQuestions,
-  ...g4scit2bmultipleChoiceQuestions,
-  ...g4scit3amultipleChoiceQuestions,
-  ...g4scit3bmultipleChoiceQuestions,
+  ...g4scit1amultipleChoiceQuestions, ...g4scit1bmultipleChoiceQuestions, ...g4scit2amultipleChoiceQuestions, ...g4scit2bmultipleChoiceQuestions, ...g4scit3amultipleChoiceQuestions, ...g4scit3bmultipleChoiceQuestions,
 // True or False
-  ...g4scit1atrueFalseQuestions,
-  ...g4scit1btrueFalseQuestions,
-  ...g4scit2atrueFalseQuestions,
-  ...g4scit2btrueFalseQuestions,
-  ...g4scit3atrueFalseQuestions,
-  ...g4scit3btrueFalseQuestions,
+  ...g4scit1atrueFalseQuestions, ...g4scit1btrueFalseQuestions, ...g4scit2atrueFalseQuestions, ...g4scit2btrueFalseQuestions, ...g4scit3atrueFalseQuestions, ...g4scit3btrueFalseQuestions,
 // Fill in the Blanks
 //  ...g4scit1atrueFalseQuestions,
 //  ...g4scit1btrueFalseQuestions,
@@ -674,33 +709,13 @@ const questionsBank = [
 
 // CTS
 // Multiple Choice
-...g4ctst1amultipleChoiceQuestions,
-...g4ctst1bmultipleChoiceQuestions,
-...g4ctst2amultipleChoiceQuestions,
-...g4ctst2bmultipleChoiceQuestions,
-...g4ctst3amultipleChoiceQuestions,
-...g4ctst3bmultipleChoiceQuestions,
+...g4ctst1amultipleChoiceQuestions, ...g4ctst1bmultipleChoiceQuestions, ...g4ctst2amultipleChoiceQuestions, ...g4ctst2bmultipleChoiceQuestions, ...g4ctst3amultipleChoiceQuestions, ...g4ctst3bmultipleChoiceQuestions,
 // True or False
-...g4ctst1atrueFalseQuestions,
-...g4ctst1btrueFalseQuestions,
-...g4ctst2atrueFalseQuestions,
-...g4ctst2btrueFalseQuestions,
-...g4ctst3atrueFalseQuestions,
-...g4ctst3btrueFalseQuestions,
+...g4ctst1atrueFalseQuestions, ...g4ctst1btrueFalseQuestions, ...g4ctst2atrueFalseQuestions, ...g4ctst2btrueFalseQuestions, ...g4ctst3atrueFalseQuestions, ...g4ctst3btrueFalseQuestions,
 // Fill in the Blanks
-...g4ctst1afillInTheBlankQuestions,
-...g4ctst1bfillInTheBlankQuestions,
-...g4ctst2afillInTheBlankQuestions,
-...g4ctst2bfillInTheBlankQuestions,
-...g4ctst3afillInTheBlankQuestions,
-...g4ctst3bfillInTheBlankQuestions,
+...g4ctst1afillInTheBlankQuestions, ...g4ctst1bfillInTheBlankQuestions, ...g4ctst2afillInTheBlankQuestions, ...g4ctst2bfillInTheBlankQuestions, ...g4ctst3afillInTheBlankQuestions, ...g4ctst3bfillInTheBlankQuestions,
 // Matching
-...g4ctst1amatchingQuestions,
-...g4ctst1bmatchingQuestions,
-...g4ctst2amatchingQuestions,
-...g4ctst2bmatchingQuestions,
-...g4ctst3amatchingQuestions,
-...g4ctst3bmatchingQuestions,
+...g4ctst1amatchingQuestions, ...g4ctst1bmatchingQuestions, ...g4ctst2amatchingQuestions, ...g4ctst2bmatchingQuestions, ...g4ctst3amatchingQuestions, ...g4ctst3bmatchingQuestions,
 
 // Mathematics
 // Multiple Choice
@@ -732,14 +747,13 @@ const questionsBank = [
 ...g4matht3aoneWordQuestions,
 //...g4ctst3bmatchingQuestions,
 
+  // SP1
+  // Sudoku
+// /*  ...g4sp1t1bsudokuQuestions, ...g4sp1t1bsudokuQuestions, ...g4sp1t2asudokuQuestions, ...g4sp1t2bsudokuQuestions, ...g4sp1t3asudokuQuestions,*/ ...g4sp1t3bsudokuQuestions,
+
   // SP2
   // Image Based
-  ...g4sp2t1aimageBasedQuestions,
-  ...g4sp2t1bimageBasedQuestions,
-  ...g4sp2t2aimageBasedQuestions,
-  ...g4sp2t2bimageBasedQuestions,
-  ...g4sp2t3aimageBasedQuestions,
-  ...g4sp2t3bimageBasedQuestions,
+  ...g4sp2t1aimageBasedQuestions, ...g4sp2t1bimageBasedQuestions, ...g4sp2t2aimageBasedQuestions, ...g4sp2t2bimageBasedQuestions, ...g4sp2t3aimageBasedQuestions, ...g4sp2t3bimageBasedQuestions,
 
 
   // Grade 5
@@ -950,6 +964,13 @@ const questionsBank = [
   ...g5expt2bmatchingQuestions,*/
   ...g5matht3aoneWordQuestions,
   ...g5matht3boneWordQuestions,
+  // Graphical
+/*  ...g5matht3bgraphicalQuestions,
+  ...g5matht3bgraphicalQuestions,
+  ...g5matht3bgraphicalQuestions,
+  ...g5matht3bgraphicalQuestions,
+  ...g5matht3agraphicalQuestions,*/
+  ...g5matht3bgraphicalQuestions,
 
   // SP2
   // Image Based
@@ -1022,14 +1043,17 @@ function generateRandomQuestions() {
   const numFillInTheBlank = parseInt(document.getElementById("num-fill-in-the-blank").value);
   const numMatching = parseInt(document.getElementById("num-matching").value);
   const numOneWord = parseInt(document.getElementById("num-one-word").value);
+  const numMath = parseInt(document.getElementById("num-math").value);
   const numComprehension = parseInt(document.getElementById("num-comprehension").value);
   const numImageBased = parseInt(document.getElementById("num-image_based").value);
   const numMaze = parseInt(document.getElementById("num-maze").value);
-  const numSudoku = parseInt(document.getElementById("num-sudoku").value);
   const numCrossword = parseInt(document.getElementById("num-crossword").value);
+  const numColoring = parseInt(document.getElementById("num-coloring").value);
+  const numIdentification = parseInt(document.getElementById("num-identification").value);
   const numTracing = parseInt(document.getElementById("num-tracing").value);
   const numHandwriting = parseInt(document.getElementById("num-handwriting").value);
   const numReading = parseInt(document.getElementById("num-reading").value);
+  const numSudoku = parseInt(document.getElementById("num-sudoku").value);
 
   
   
@@ -1074,14 +1098,17 @@ function generateRandomQuestions() {
   randomQuestions.push(...getRandomQuestionsByType("fill_in_the_blank", numFillInTheBlank));
   randomQuestions.push(...getRandomQuestionsByType("matching", numMatching));
   randomQuestions.push(...getRandomQuestionsByType("one_word", numOneWord));
+  randomQuestions.push(...getRandomQuestionsByType("math", numMath));
   randomQuestions.push(...getRandomQuestionsByType("comprehension", numComprehension));
   randomQuestions.push(...getRandomQuestionsByType("image_based", numImageBased));
   randomQuestions.push(...getRandomQuestionsByType("maze", numMaze));
-  randomQuestions.push(...getRandomQuestionsByType("sudoku", numSudoku));
   randomQuestions.push(...getRandomQuestionsByType("crossword", numCrossword));
+  randomQuestions.push(...getRandomQuestionsByType("coloring", numColoring));
+  randomQuestions.push(...getRandomQuestionsByType("identification", numIdentification));
   randomQuestions.push(...getRandomQuestionsByType("tracing", numTracing));
   randomQuestions.push(...getRandomQuestionsByType("handwriting", numHandwriting));
   randomQuestions.push(...getRandomQuestionsByType("reading", numReading));
+  randomQuestions.push(...getRandomQuestionsByType("sudoku", numSudoku));
 
   return randomQuestions;
 }
@@ -1100,14 +1127,18 @@ function displayQuestions() {
     "fill_in_the_blank": false,
     "matching": false,
     "one_word": false,
+    "math": false,
     "comprehension": false,
     "image_based": false,
     "maze": false,
-    "sudoku": false,
     "crossword": false,
+    "coloring": false,    
+    "identification": false,        
     "tracing": false,
     "handwriting": false,
-    "reading": false
+    "reading": false,
+    "sudoku": false
+
   };
 
   let sectionIdentifierText = "";
@@ -1141,6 +1172,9 @@ function displayQuestions() {
         case "one_word":
           sectionIdentifierText = "Calculation Section";
           break;
+        case "math":
+          sectionIdentifierText = "Math Section";
+          break;
         case "comprehension":
           sectionIdentifierText = "Comprehension Section";
           break;
@@ -1150,11 +1184,14 @@ function displayQuestions() {
         case "maze":
           sectionIdentifierText = "Maze Section";
           break;
-        case "sudoku":
-          sectionIdentifierText = "Sudoku Section";
-          break;
         case "crossword":
           sectionIdentifierText = "Crossword Section";
+          break;
+        case "coloring":
+          sectionIdentifierText = "Coloring Section";
+          break;
+        case "identification":
+          sectionIdentifierText = "Identification Section";
           break;
         case "tracing":
           sectionIdentifierText = "Tracing Section";
@@ -1165,7 +1202,10 @@ function displayQuestions() {
         case "reading":
           sectionIdentifierText = "Reading Section.";
           break;
-        
+        case "sudoku":
+          sectionIdentifierText = "Sudoku Section";
+          break;
+
         
         
         
@@ -1311,6 +1351,8 @@ case "special":
         questionWrapper.appendChild(document.createElement("br"));
         break;
       
+      
+      
       // Matching html Layout
       case "matching":
     const matchingContainer = document.createElement("div");
@@ -1377,6 +1419,176 @@ case "special":
       // One Word html Layout
         case "one_word":
 break;
+      
+      
+      
+      
+      
+      case "math":
+    const mathContainer = document.createElement("div");
+    mathContainer.classList.add("math-container"); // Add main container class for styling
+
+
+    switch (q.subtype) {
+case "counting":
+    const countingContainer = document.createElement("div");
+    countingContainer.classList.add("counting-container"); // Add a container for styling
+      
+    // Check if the question has an image to display multiple times
+    if (q.imgSrc) {
+        const imgContainer = document.createElement("div");
+        imgContainer.classList.add("img-container"); // Class for styling image layout
+
+        // Loop to add the image according to the count specified
+        for (let i = 0; i < q.count; i++) {
+            const imgElement = document.createElement("img");
+            imgElement.setAttribute("src", q.imgSrc);
+            imgElement.setAttribute("alt", "Counting Image");
+            imgElement.classList.add("counting-image"); // Style for individual images
+            imgContainer.appendChild(imgElement);
+        }
+
+        // Add image container to countingContainer
+        countingContainer.appendChild(imgContainer);
+    }
+
+    // Append countingContainer to the main question wrapper
+    questionWrapper.appendChild(countingContainer);
+    break;
+      
+      
+      
+        case "statistics":
+            // For graphical math questions like charts
+            switch (q.chartType) {
+                case "pie-chart":
+    // Create a canvas element for Chart.js to render the chart
+    const canvas = document.createElement("canvas");
+    canvas.classList.add("pie-chart"); // Style for pie chart
+    mathContainer.appendChild(canvas);
+
+    // Pie chart data and configuration
+    const data = {
+        labels: q.chartData.labels || ["Category 1", "Category 2", "Category 3"], // Sample labels
+        datasets: [{
+            data: q.chartData.values || [30, 50, 20], // Sample values
+            backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+        }]
+    };
+
+    const options = {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top',
+            },
+        }
+    };
+
+    // Generate the pie chart using Chart.js
+    new Chart(canvas, {
+        type: "pie",
+        data: data,
+        options: options
+    });
+    break;
+
+                case "bar-chart":
+                    // Load bar chart image or generate chart dynamically
+                    const barChart = document.createElement("img");
+                    barChart.src = q.chartData.src || "path/to/barchart.png";
+                    barChart.alt = "Bar Chart";
+                    barChart.classList.add("bar-chart"); // Style for bar chart
+                    mathContainer.appendChild(barChart);
+                    break;
+
+                case "line-graph":
+                    // Load line graph image or generate chart dynamically
+                    const lineGraph = document.createElement("img");
+                    lineGraph.src = q.chartData.src || "path/to/linegraph.png";
+                    lineGraph.alt = "Line Graph";
+                    lineGraph.classList.add("line-graph"); // Style for line graph
+                    mathContainer.appendChild(lineGraph);
+                    break;
+
+                case "pictograph":
+                    // Load pictograph image or generate chart dynamically
+                    const pictograph = document.createElement("img");
+                    pictograph.src = q.chartData.src || "path/to/pictograph.png";
+                    pictograph.alt = "Pictograph";
+                    pictograph.classList.add("pictograph"); // Style for pictograph
+                    mathContainer.appendChild(pictograph);
+                    break;
+
+                default:
+                    const defaultGraphic = document.createElement("p");
+                    defaultGraphic.textContent = "Graphical question type not specified.";
+                    mathContainer.appendChild(defaultGraphic);
+                    break;
+            }
+            break;
+      
+        case "primary":
+            // For primary level math (simple arithmetic)
+            const primaryContent = q.mathContent || ["5 + 3 =", "7 - 2 ="];
+            primaryContent.forEach(expression => {
+                const expressionElement = document.createElement("p");
+                expressionElement.textContent = expression;
+                expressionElement.classList.add("math-primary-question"); // Style for primary-level questions
+                mathContainer.appendChild(expressionElement);
+            });
+            break;
+
+        case "middle-school":
+            // For middle school math (fractions, decimals, simple algebra)
+            const middleSchoolContent = q.mathContent || ["1/2 + 1/4 =", "Solve for x: 3x + 5 = 20"];
+            middleSchoolContent.forEach(problem => {
+                const problemElement = document.createElement("p");
+                problemElement.textContent = problem;
+                problemElement.classList.add("math-middle-question"); // Style for middle school-level questions
+                mathContainer.appendChild(problemElement);
+            });
+            break;
+
+        case "high-school":
+            // For high school math (geometry, trigonometry, calculus basics)
+            const highSchoolContent = q.mathContent || ["Find the area of a circle with radius 5", "sin(45°)"];
+            highSchoolContent.forEach(highSchoolProblem => {
+                const highSchoolProblemElement = document.createElement("p");
+                highSchoolProblemElement.textContent = highSchoolProblem;
+                highSchoolProblemElement.classList.add("math-high-school-question"); // Style for high school-level questions
+                mathContainer.appendChild(highSchoolProblemElement);
+            });
+            break;
+
+        case "advanced":
+            // For advanced level math (complex calculus, algebra, etc.)
+            const advancedMathContent = q.mathContent || ["Differentiate: d/dx(x^3 + 3x^2)", "Integrate: ∫(2x dx)"];
+            advancedMathContent.forEach(advancedProblem => {
+                const advancedProblemElement = document.createElement("p");
+                advancedProblemElement.textContent = advancedProblem;
+                advancedProblemElement.classList.add("math-advanced-question"); // Style for advanced-level questions
+                mathContainer.appendChild(advancedProblemElement);
+            });
+            break;
+
+        default:
+            // Default math question if subtype is not specified
+            const defaultMathContent = document.createElement("p");
+            defaultMathContent.textContent = q.mathContent || "Solve the math problem:";
+            defaultMathContent.classList.add("math-question"); // General styling
+            mathContainer.appendChild(defaultMathContent);
+            break;
+    }
+
+    // Append the math container to the question wrapper
+    questionWrapper.appendChild(mathContainer);
+    break;
+      
+      
+      
+      
+      
       
       
       
@@ -1513,65 +1725,30 @@ case "maze":
       
       
       
-      case "sudoku":
-    // Create a container for the sudoku-based question
-    const sudokuQuestionContainer = document.createElement("div");
-    sudokuQuestionContainer.classList.add("sudoku-based-container"); // Optional class for styling
 
-    // Create a question description or instruction
-    const sudokuDescription = document.createElement("p");
-    sudokuDescription.innerHTML = q.description; // Set sudoku instructions
-    sudokuQuestionContainer.appendChild(sudokuDescription);
-
-    // Create a grid for Sudoku
-    const sudokuTable = document.createElement("table");
-    sudokuTable.classList.add("sudoku-table");
-
-    for (let row = 0; row < 9; row++) {
-        const sudokuRow = document.createElement("tr");
-        for (let col = 0; col < 9; col++) {
-            const sudokuCell = document.createElement("td");
-            const inputField = document.createElement("input");
-            inputField.setAttribute("type", "number");
-            inputField.setAttribute("min", "1");
-            inputField.setAttribute("max", "9");
-            inputField.setAttribute("maxlength", "1");
-            inputField.classList.add("sudoku-input");
-            // Check if there's a pre-filled value
-            if (q.puzzleData && q.puzzleData[row][col]) {
-                inputField.value = q.puzzleData[row][col];
-                inputField.setAttribute("readonly", true); // Make pre-filled cells read-only
-            }
-            sudokuCell.appendChild(inputField);
-            sudokuRow.appendChild(sudokuCell);
-        }
-        sudokuTable.appendChild(sudokuRow);
-    }
-    sudokuQuestionContainer.appendChild(sudokuTable);
-
-    // Append the sudoku-based question container to the main question wrapper
-    questionWrapper.appendChild(sudokuQuestionContainer);
-    break;
+      
+      
+      
       
       
       
 case "crossword":
     // Create a container for the crossword-based question
     const crosswordQuestionContainer = document.createElement("div");
-    crosswordQuestionContainer.classList.add("crossword-based-container"); // Optional class for styling
+    crosswordQuestionContainer.classList.add("crossword-based-container");
 
     // Create a question description or instruction
     const crosswordDescription = document.createElement("p");
-    crosswordDescription.innerHTML = q.description; // Set crossword instructions
+    crosswordDescription.innerHTML = q.description;
     crosswordQuestionContainer.appendChild(crosswordDescription);
 
-    // Create a grid for Crossword
+    // Create a grid for the Crossword
     const crosswordTable = document.createElement("table");
     crosswordTable.classList.add("crossword-table");
 
-    let clueNumber = 1; // Initialize the clue number
-    let acrossCluesMap = {}; // Store clue numbers for across clues
-    let downCluesMap = {}; // Store clue numbers for down clues
+    let clueNumber = 1; // Initialize clue number counter
+    const acrossCluesMap = {}; // To store across clues by number
+    const downCluesMap = {}; // To store down clues by number
 
     for (let row = 0; row < q.puzzleData.length; row++) {
         const crosswordRow = document.createElement("tr");
@@ -1580,7 +1757,7 @@ case "crossword":
             const crosswordCell = document.createElement("td");
 
             if (q.puzzleData[row][col] === "#") {
-                // Add a black cell
+                // Black cell for non-playable area
                 crosswordCell.classList.add("black-cell");
             } else {
                 // Add input for letters
@@ -1589,24 +1766,27 @@ case "crossword":
                 inputField.setAttribute("maxlength", "1");
                 inputField.classList.add("crossword-input");
 
-                // Check if the current cell is the start of a word (either horizontally or vertically)
-                const isStartOfWord = (row === 0 || q.puzzleData[row - 1][col] === "#") || 
-                                      (col === 0 || q.puzzleData[row][col - 1] === "#");
+                // Detect if this cell is the start of an "Across" word
+                const isAcrossStart = (col === 0 || q.puzzleData[row][col - 1] === "#") &&
+                                      (col < q.puzzleData[row].length - 1 && q.puzzleData[row][col + 1] !== "#");
 
-                if (isStartOfWord) {
-                    // Add a small number in the top-left corner for the clue
+                // Detect if this cell is the start of a "Down" word
+                const isDownStart = (row === 0 || q.puzzleData[row - 1][col] === "#") &&
+                                    (row < q.puzzleData.length - 1 && q.puzzleData[row + 1][col] !== "#");
+
+                // Assign and display clue number if it's the start of a word
+                if (isAcrossStart || isDownStart) {
                     const clueNumberSpan = document.createElement("span");
                     clueNumberSpan.classList.add("clue-number");
                     clueNumberSpan.innerText = clueNumber;
-
                     crosswordCell.appendChild(clueNumberSpan);
 
-                    // Map the clue number for across and down clues
-                    if (col === 0 || q.puzzleData[row][col - 1] === "#") {
-                        acrossCluesMap[clueNumber] = q.acrossClues.shift(); // Use first clue from across
+                    // Assign clues to maps
+                    if (isAcrossStart && q.acrossClues.length > 0) {
+                        acrossCluesMap[clueNumber] = q.acrossClues.shift();
                     }
-                    if (row === 0 || q.puzzleData[row - 1][col] === "#") {
-                        downCluesMap[clueNumber] = q.downClues.shift(); // Use first clue from down
+                    if (isDownStart && q.downClues.length > 0) {
+                        downCluesMap[clueNumber] = q.downClues.shift();
                     }
 
                     clueNumber++; // Increment the clue number
@@ -1623,11 +1803,10 @@ case "crossword":
 
     crosswordQuestionContainer.appendChild(crosswordTable);
 
-    // Create a container for the clues
+    // Create containers for "Across" and "Down" clues
     const cluesContainer = document.createElement("div");
     cluesContainer.classList.add("crossword-clues-container");
 
-    // Create a list of Across clues
     const acrossCluesList = document.createElement("div");
     acrossCluesList.classList.add("across-clues");
     const acrossCluesHeading = document.createElement("h3");
@@ -1642,7 +1821,6 @@ case "crossword":
 
     cluesContainer.appendChild(acrossCluesList);
 
-    // Create a list of Down clues
     const downCluesList = document.createElement("div");
     downCluesList.classList.add("down-clues");
     const downCluesHeading = document.createElement("h3");
@@ -1657,12 +1835,207 @@ case "crossword":
 
     cluesContainer.appendChild(downCluesList);
 
-    // Append clues to the main container
     crosswordQuestionContainer.appendChild(cluesContainer);
 
-    // Append the crossword-based question container to the main question wrapper
     questionWrapper.appendChild(crosswordQuestionContainer);
     break;
+      
+      
+      
+      
+      
+      
+      
+
+case "coloring":
+    const coloringContainer = document.createElement("div");
+    coloringContainer.classList.add("coloring-container");
+
+    // Add a coloring prompt or title
+    if (q.coloringPrompt) {
+        const coloringPrompt = document.createElement("h3");
+        coloringPrompt.innerHTML = q.coloringPrompt;
+        coloringPrompt.classList.add("coloring-prompt");
+        coloringContainer.appendChild(coloringPrompt);
+    }
+
+    // Create a canvas for coloring
+    const coloringCanvas = document.createElement("canvas");
+    coloringCanvas.setAttribute("width", "400");
+    coloringCanvas.setAttribute("height", "300");
+    coloringCanvas.classList.add("coloring-canvas");
+    coloringContainer.appendChild(coloringCanvas);
+
+    // Append the coloring container to the question wrapper
+    questionWrapper.appendChild(coloringContainer);
+
+    const coloringCtx = coloringCanvas.getContext("2d");
+
+    // Set up basic brush properties for coloring
+    let coloringDrawing = false;
+    let currentColor = "#000000"; // Default color is black
+    coloringCtx.lineWidth = 2;
+    coloringCtx.lineCap = "round";
+
+    // Add color palette for selecting different colors
+    const colorPalette = document.createElement("div");
+    colorPalette.classList.add("color-palette");
+
+    const colors = ["#FF0000", "#00FF00", "#0000FF", "#FFFF00", "#FFA500", "#800080"];
+    colors.forEach(color => {
+        const colorButton = document.createElement("button");
+        colorButton.classList.add("color-button");
+        colorButton.style.backgroundColor = color;
+        colorButton.onclick = () => {
+            currentColor = color;
+            coloringCtx.strokeStyle = currentColor;
+        };
+        colorPalette.appendChild(colorButton);
+    });
+
+    coloringContainer.appendChild(colorPalette);
+
+    // Draw dotted outlines for coloring based on type
+    function drawOutline(content) {
+        coloringCtx.clearRect(0, 0, coloringCanvas.width, coloringCanvas.height); // Clear canvas before drawing
+        coloringCtx.setLineDash([5, 5]); // Dotted outline for guiding coloring
+
+        if (q.coloringType === "letter") {
+            coloringCtx.font = "200px 'Fredoka One', sans-serif";
+            coloringCtx.strokeText(content, 100, 200);
+        } else if (q.coloringType === "word") {
+            coloringCtx.font = "200px 'Fredoka One', sans-serif";
+            coloringCtx.strokeText(content, 50, 150);
+        } else if (q.coloringType === "number") {
+            coloringCtx.font = "200px 'Fredoka One', sans-serif";
+            coloringCtx.strokeText(content, 120, 200);
+        } else if (q.coloringType === "image") {
+            // Sample image drawing (e.g., circle as a simple shape)
+            coloringCtx.beginPath();
+            coloringCtx.arc(200, 150, 100, 0, Math.PI * 2);
+            coloringCtx.stroke();
+        }
+    }
+
+    // Call function to draw outline based on the question content and type
+    if (q.coloringContent) {
+        drawOutline(q.coloringContent);
+    }
+
+    // Functions for handling drawing on the canvas
+    function getTouchPos(canvas, touchEvent) {
+        const rect = canvas.getBoundingClientRect();
+        return {
+            x: touchEvent.touches[0].clientX - rect.left,
+            y: touchEvent.touches[0].clientY - rect.top
+        };
+    }
+
+    coloringCanvas.addEventListener("touchstart", function(event) {
+        event.preventDefault(); // Prevent scrolling while drawing
+        const touchPos = getTouchPos(coloringCanvas, event);
+        coloringDrawing = true;
+        coloringCtx.beginPath();
+        coloringCtx.moveTo(touchPos.x, touchPos.y);
+    });
+
+    coloringCanvas.addEventListener("touchmove", function(event) {
+        event.preventDefault(); // Prevent scrolling while drawing
+        if (coloringDrawing) {
+            const touchPos = getTouchPos(coloringCanvas, event);
+            coloringCtx.lineTo(touchPos.x, touchPos.y);
+            coloringCtx.strokeStyle = currentColor;
+            coloringCtx.stroke();
+        }
+    });
+
+    coloringCanvas.addEventListener("touchend", function() {
+        coloringDrawing = false;
+        coloringCtx.closePath();
+    });
+
+    coloringCanvas.addEventListener("touchleave", function() {
+        coloringDrawing = false;
+        coloringCtx.closePath();
+    });
+
+    break;
+      
+      
+case "identification":
+    const identificationContainer = document.createElement("div");
+    identificationContainer.classList.add("identification-container");
+
+    // If the item type is a number, display number with images and dots
+    if (q.subtype === "number") {
+        // Display number text at the bottom
+        const numberText = document.createElement("p");
+        numberText.classList.add("number-text");
+        numberText.textContent = q.value; // E.g., "7"
+        identificationContainer.appendChild(numberText);
+
+        // Create a dot container to match the number
+        const dotsContainer = document.createElement("div");
+        dotsContainer.classList.add("dots-container");
+
+        // Add dots based on the number value
+        for (let i = 0; i < q.value; i++) {
+            const dot = document.createElement("span");
+            dot.classList.add("dot"); // Style individual dot
+            dotsContainer.appendChild(dot);
+        }
+        identificationContainer.appendChild(dotsContainer);
+
+        // Create an image container for repeated images matching the number
+        const imageContainer = document.createElement("div");
+        imageContainer.classList.add("image-container");
+
+        for (let i = 0; i < q.value; i++) {
+            const imgElement = document.createElement("img");
+            imgElement.src = q.imgSrc; // Image source for repeated images
+            imgElement.alt = "Counting Image";
+            imgElement.classList.add("identification-image");
+            imageContainer.appendChild(imgElement);
+        }
+        identificationContainer.appendChild(imageContainer);
+    }
+
+    // If the item type is a letter, display the letter for identification
+    else if (q.subtype === "letter") {
+        const letterContainer = document.createElement("div");
+        letterContainer.classList.add("letter-container");
+
+        const letterText = document.createElement("p");
+        letterText.classList.add("letter-text");
+        letterText.textContent = q.value; // Letter, e.g., "A"
+
+/*      const letterImage = document.createElement("img");
+        letterImage.src = q.imgsSrc; // Image source for the shape
+        letterImage.alt = "Letter Image";
+        letterImage.classList.add("shape-image");
+
+        letterContainer.appendChild(letterImage);*/
+        letterContainer.appendChild(letterText);
+        identificationContainer.appendChild(letterContainer);
+    }
+
+    // If the item type is a shape, display the shape for identification
+    else if (q.subtype === "shape") {
+        const shapeContainer = document.createElement("div");
+        shapeContainer.classList.add("shape-container");
+
+        const shapeImage = document.createElement("img");
+        shapeImage.src = q.imgSrc; // Image source for the shape
+        shapeImage.alt = "Shape Image";
+        shapeImage.classList.add("shape-image");
+
+        shapeContainer.appendChild(shapeImage);
+        identificationContainer.appendChild(shapeContainer);
+    }
+
+    // Append the identification container to the main question wrapper
+    questionWrapper.appendChild(identificationContainer);
+    break;      
       
       
       
@@ -1695,7 +2068,7 @@ case "tracing":
         const fontSize = 200; // Set the font size
         ctx.font = `${fontSize}px 'Advantage', sans-serif`; // Use Advantage font
         ctx.strokeStyle = "#000"; // Set fill color for the text
-        ctx.setLineDash([5, 10]); // Set dash pattern for dotted effect
+        ctx.setLineDash([5, 5]); // Set dash pattern for dotted effect
 
         // Measure the text width and center it horizontally
         const textMetrics = ctx.measureText(text);
@@ -1714,7 +2087,7 @@ case "tracing":
         const img = new Image();
         img.onload = function() {
             ctx.drawImage(img, 0, 0, tracingCanvas.width, tracingCanvas.height); // Adjust size and positioning
-            ctx.setLineDash([6, 7]); // Dotted effect over the image
+            ctx.setLineDash([5, 5]); // Dotted effect over the image
         };
         img.src = imageSrc;
     }
@@ -1723,7 +2096,7 @@ case "tracing":
     // Function to draw a dotted polygon
     function drawDottedPolygon(sides, x, y, radius) {
         ctx.beginPath();
-        ctx.setLineDash([6, 7]);
+        ctx.setLineDash([5, 5]);
         for (let i = 0; i <= sides; i++) {
             const angle = (2 * Math.PI * i) / sides;
             const dx = x + radius * Math.cos(angle);
@@ -1737,7 +2110,7 @@ case "tracing":
 
     // Function to draw a dotted heart
     function drawDottedHeart(x, y, size) {
-        ctx.setLineDash([6, 7]); // Dotted line
+        ctx.setLineDash([5, 5]); // Dotted line
         ctx.beginPath();
         ctx.moveTo(x, y);
         ctx.bezierCurveTo(x, y - size / 2, x - size, y - size / 2, x - size, y);
@@ -1749,7 +2122,7 @@ case "tracing":
 
     // Function to draw a dotted crescent
     function drawDottedCrescent(x, y, radius) {
-        ctx.setLineDash([6, 7]);
+        ctx.setLineDash([5, 5]);
         ctx.beginPath();
         ctx.arc(x, y, radius, Math.PI * 0.25, Math.PI * 1.75, false);
         ctx.arc(x - radius / 2, y, radius, Math.PI * 1.75, Math.PI * 0.25, true);
@@ -1764,7 +2137,7 @@ case "tracing":
 
         ctx.beginPath();
         ctx.moveTo(x, y - outerRadius);
-        ctx.setLineDash([5, 10]);
+        ctx.setLineDash([5, 5]);
 
         for (let i = 0; i < spikes; i++) {
             let xOuter = x + Math.cos(rot) * outerRadius;
@@ -1797,7 +2170,7 @@ case "tracing":
                 drawDottedPolygon(3, centerX, centerY, 50); // Draw a triangle
                 break;
             case "rectangle":
-                ctx.setLineDash([6, 7]);
+                ctx.setLineDash([5, 5]);
                 ctx.strokeRect(centerX - 75, centerY - 50, 150, 100); // Draw a rectangle
                 break;
             case "pentagon":
@@ -1831,7 +2204,7 @@ case "tracing":
                 drawDottedCrescent(centerX, centerY, 50); // Draw a crescent
                 break;
             case "oval":
-                ctx.setLineDash([5, 10]);
+                ctx.setLineDash([5, 5]);
                 ctx.beginPath();
                 ctx.ellipse(centerX, centerY, 75, 50, 0, 0, Math.PI * 2); // Draw an oval
                 ctx.stroke();
@@ -2037,6 +2410,93 @@ case "reading":
     // Append the reading container to the question wrapper
     questionWrapper.appendChild(readingContainer);
     break;
+      
+      
+case "sudoku":
+    // Create a container for the sudoku-based question
+    const sudokuQuestionContainer = document.createElement("div");
+    sudokuQuestionContainer.classList.add("sudoku-based-container");
+
+    // Create a question description or instruction
+    const sudokuDescription = document.createElement("p");
+    sudokuQuestionContainer.appendChild(sudokuDescription);
+
+    // Dropdown to select puzzle size
+    const sizeSelector = document.createElement("select");
+    sizeSelector.innerHTML = `
+        <option value="4">4x4 Sudoku</option>
+        <option value="6">6x6 Sudoku</option>
+        <option value="9" selected>9x9 Sudoku</option>
+    `;
+    sudokuQuestionContainer.appendChild(sizeSelector);
+
+    // Container to display the selected Sudoku grid
+    const sudokuGridContainer = document.createElement("div");
+    sudokuQuestionContainer.appendChild(sudokuGridContainer);
+
+    // Function to create a Sudoku grid based on selected size and data
+function createSudokuGrid(size, maxValue, puzzleData) {
+    sudokuGridContainer.innerHTML = ""; // Clear previous grid
+
+    // Add the appropriate class based on size
+    const sudokuTable = document.createElement("table");
+    sudokuTable.classList.add("sudoku-table", `sudoku-table-${size}x${size}`); // Add the size-specific class
+
+    for (let row = 0; row < size; row++) {
+        const sudokuRow = document.createElement("tr");
+        for (let col = 0; col < size; col++) {
+            const sudokuCell = document.createElement("td");
+            const inputField = document.createElement("input");
+            inputField.setAttribute("type", "number");
+            inputField.setAttribute("min", "1");
+            inputField.setAttribute("max", maxValue);
+            inputField.classList.add("sudoku-input");
+
+            // Set pre-filled values if present in the puzzle data
+            if (puzzleData && puzzleData[row] && puzzleData[row][col] !== null) {
+                inputField.value = puzzleData[row][col];
+                inputField.setAttribute("readonly", true);
+            }
+            sudokuCell.appendChild(inputField);
+            sudokuRow.appendChild(sudokuCell);
+        }
+        sudokuTable.appendChild(sudokuRow);
+    }
+    sudokuGridContainer.appendChild(sudokuTable);
+}
+
+    // Function to load the current question data into the grid
+    function loadSudokuQuestion(question) {
+        sudokuDescription.innerHTML = question.description; // Set the question description
+        const selectedSize = parseInt(sizeSelector.value);
+        const puzzleData = question.puzzleData[`${selectedSize}x${selectedSize}`];
+        createSudokuGrid(selectedSize, selectedSize, puzzleData);
+    }
+
+    // Initial load of the default 9x9 Sudoku grid with the first question
+    loadSudokuQuestion(q);
+
+    // Update the grid when the selected size changes
+    sizeSelector.addEventListener("change", function() {
+        const selectedSize = parseInt(sizeSelector.value);
+        const puzzleData = q.puzzleData[`${selectedSize}x${selectedSize}`];
+        createSudokuGrid(selectedSize, selectedSize, puzzleData);
+    });
+
+    // Assume there's a refresh button that shuffles the question
+    const refreshBtn = document.getElementById("refreshBtn"); // Make sure to add this button in your HTML
+    refreshBtn.addEventListener("click", function() {
+        // Shuffle questions and get a new question
+        q = getNewShuffledQuestion(); // Assume this function shuffles and returns a new question
+        loadSudokuQuestion(q); // Load the new question data into the grid
+    });
+
+    // Append the sudoku-based question container to the main question wrapper
+    questionWrapper.appendChild(sudokuQuestionContainer);
+    break;
+      
+      
+      
       
       
       
