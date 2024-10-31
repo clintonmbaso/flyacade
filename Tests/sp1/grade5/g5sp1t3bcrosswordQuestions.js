@@ -9,11 +9,11 @@ const g5sp1t3bcrosswordQuestions = [
     question: "Fill in the Sudoku puzzle.",
     description: "Avain Crossword Puzzle",
     puzzleData: [
-        ["#", "#", "D", "O", "G", "#", "#"],
-        ["#", "C", "#", "#", "#", "A", "#"],
-        ["B", "I", "R", "D", "#", "T", "O"],
-        ["#", "A", "#", "#", "#", "P", "#"],
-        ["#", "#", "C", "A", "T", "#", "#"]
+        ["E", "A", "G", "L", "E", "#", "#"],
+        ["#", "#", "R", "#", "#", "#", "#"],
+        ["#", "#", "E", "#", "#", "#", "#"],
+        ["#", "#", "E", "#", "#", "#", "#"],
+        ["#", "#", "N", "#", "#", "#", "#"]
     ],
     clues: {
         across: [
@@ -104,6 +104,40 @@ const g5sp1t3bcrosswordQuestions = [
         ]
     }
 },*/
+{
+    type: "crossword",
+    class: "Avian Aces",
+    subject: "Special Paper 1",
+    term: "Term 3",
+    part: "End Term", 
+    question: "Fill in the Sudoku puzzle.",
+    description: "Avain Crossword Puzzle",
+    puzzleData: [
+        ["C", "O", "A", "T", "S", "#", "B", "E", "E"],
+        ["A", "#", "C", "#", "E", "#", "#", "#", "P"],
+        ["R", "O", "T", "T", "E", "N", "#", "#", "I"],
+        ["#", "#", "#", "#", "#", "#", "#", "B", "C"],
+        ["M", "O", "U", "S", "E", "#", "#", "E", "#"],
+        ["O", "#", "#", "#", "#", "#", "P", "I", "E"],
+        ["I", "M", "P", "O", "R", "T", "I", "N", "G"],
+        ["S", "#", "L", "#", "#", "#", "#", "G", "#"],
+        ["T", "E", "A", "C", "H", "E", "R", "#", "G"]
+    ],
+    "acrossClues": [
+        "1. A small furry animal (3 letters)",  // CAT
+        "2. A common pet that barks (3 letters)", // DOG
+        "3. An insect that produces honey (3 letters)", // BEE
+        "4. An object used to make music (3 letters)", // BAT
+        "5. A place where people live (5 letters)" // HOUSE
+    ],
+    "downClues": [
+        "1. The opposite of 'off' (2 letters)", // ON
+        "2. A place where you can watch movies (4 letters)", // CINE
+        "3. Shoes for the feet (4 letters)", // SOCK
+        "4. A piece of furniture you sit on (4 letters)", // CHAIR
+        "5. Something that helps plants grow (4 letters)" // WATER
+    ]
+},
 {
     type: "crossword",
     class: "Avian Aces",

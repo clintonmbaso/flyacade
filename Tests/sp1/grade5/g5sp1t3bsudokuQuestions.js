@@ -4,10 +4,25 @@ const g5sp1t3bsudokuQuestions = [
     class: "Avian Aces",
     subject: "Special Paper 1",
     term: "Term 3",
-    part: "End Term", 
+    part: "End Term",  
     question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
+    description: "Avian Sudoku.",
+    puzzleData: {
+        "4x4": [
+            [1, null, 3, null],
+            [null, 2, null, 4],
+            [4, null, 2, null],
+            [null, 3, null, 1]
+        ],
+        "6x6": [
+            [null, 3, null, null, 2, null],
+            [2, null, 6, null, null, 3],
+            [null, null, null, 5, null, null],
+            [null, null, 1, null, null, null],
+            [3, null, null, 2, null, 6],
+            [null, 5, null, null, 1, null]
+        ],
+        "9x9": [
         [7, null, null, 5, null, null, null, null, 9],
         [null, 2, null, null, null, null, 3, null, 6],
         [null, null, 6, 3, 8, null, null, null, null],
@@ -17,30 +32,8 @@ const g5sp1t3bsudokuQuestions = [
         [null, null, null, null, 9, 1, 6, null, null],
         [5, null, 1, null, null, null, null, 4, null],
         [2, null, null, null, null, 5, null, null, 1]
-    ]
-},
-
-
-/*
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [8, null, null, null, null, null, null, null, null],
-        [null, null, 3, 6, null, null, null, null, null],
-        [null, 7, null, null, 9, null, 2, null, null],
-        [null, 5, null, null, null, 7, null, null, null],
-        [null, null, null, null, 4, 5, 7, null, null],
-        [null, null, null, 1, null, null, null, 3, null],
-        [null, null, 1, null, null, null, null, 6, 8],
-        [null, null, 8, 5, null, null, null, 1, null],
-        [null, 9, null, null, null, null, 4, null, null]
-    ]
+        ]
+    }
 },
 {
     type: "sudoku",
@@ -49,18 +42,34 @@ const g5sp1t3bsudokuQuestions = [
     term: "Term 3",
     part: "End Term",  
     question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [null, 2, null, 6, null, 8, null, null, null],
-        [5, 8, null, null, null, 9, 7, null, null],
-        [null, null, null, null, 4, null, null, null, null],
-        [3, 7, null, null, null, null, 5, null, null],
-        [6, null, null, null, null, null, null, null, 4],
-        [null, null, 8, null, null, null, null, 1, 3],
-        [null, null, null, null, 2, null, null, null, null],
-        [null, null, 9, 8, null, null, null, 3, 6],
-        [null, null, null, 3, null, 6, null, 9, null]
-    ]
+    description: "Avian Sudoku Puzzle",
+    puzzleData: {
+        "4x4": [
+            [1, null, 3, null],
+            [2, null, null, null],
+            [null, null, null, 4],
+            [null, 1, null, null]
+        ],
+        "6x6": [
+            [5, null, null, null, 4, null],
+            [null, null, 3, 5, null, null],
+            [null, null, 4, null, null, 5],
+            [6, null, null, 4, null, null],
+            [null, null, 5, 3, null, null],
+            [null, 1, null, null, null, null]
+        ],
+        "9x9": [
+        [null, 8, 2, null, null, 7, null, 1, null],
+        [null, null, null, null, 2, null, 8, 4, null],
+        [9, null, null, null, 8, 6, null, null, null],
+        [5, null, 4, 7, null, null, null, null, 2],
+        [null, 6, null, null, null, null, null, 3, null],
+        [7, null, null, null, null, 1, 4, null, 5],
+        [null, null, null, 6, 4, null, null, null, 3],
+        [null, 2, 6, null, 7, null, null, null, null],
+        [null, 7, null, 3, null, null, 6, 2, null]
+        ]
+    }
 },
 {
     type: "sudoku",
@@ -69,137 +78,85 @@ const g5sp1t3bsudokuQuestions = [
     term: "Term 3",
     part: "End Term",  
     question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [null, null, 5, 3, null, null, null, null, null],
-        [8, null, null, null, null, null, null, 2, null],
-        [null, 7, null, null, 1, null, 5, null, null],
-        [4, null, null, null, null, 5, 3, null, null],
-        [null, 1, null, null, 7, null, null, null, 6],
-        [null, null, 3, 2, null, null, null, 8, null],
-        [null, 6, null, 5, null, null, null, null, 9],
-        [null, null, 4, null, null, null, null, 3, null],
-        [null, null, null, null, null, 9, 7, null, null]
-    ]
-},
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
+    description: "Avian Sudoku Puzzle",
+        puzzleData: {
+            "4x4": [
+                [1, null, 3, null],
+                [null, 2, null, 4],
+                [4, null, 2, null],
+                [null, 3, null, 1]
+            ],
+            "6x6": [
+                [null, 3, null, null, 2, null],
+                [2, null, 6, null, null, 3],
+                [null, null, null, 5, null, null],
+                [null, null, 1, null, null, null],
+                [3, null, null, 2, null, 6],
+                [null, 5, null, null, 1, null]
+            ],
+            "9x9": [
         [null, null, null, null, null, null, null, null, null],
-        [null, null, 1, null, 9, 5, null, null, null],
-        [null, 9, 8, null, null, null, null, 6, null],
-        [8, null, null, null, 6, null, null, null, 3],
-        [4, null, null, 8, null, 3, null, null, 1],
-        [7, null, null, null, 2, null, null, null, 6],
-        [null, 6, null, null, null, null, 2, 8, null],
-        [null, null, null, 4, 1, 9, null, null, 5],
-        [null, null, null, null, 8, null, null, 7, 9]
-    ]
-},
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [5, 3, null, null, 7, null, null, null, null],
-        [6, null, null, 1, 9, 5, null, null, null],
-        [null, 9, 8, null, null, null, null, 6, null],
-        [8, null, null, null, 6, null, null, null, 3],
-        [4, null, null, 8, null, 3, null, null, 1],
-        [7, null, null, null, 2, null, null, null, 6],
-        [null, 6, null, null, null, null, 2, 8, null],
-        [null, null, null, 4, 1, 9, null, null, 5],
-        [null, null, null, null, 8, null, null, 7, 9]
-    ]
-},
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [null, 2, null, 6, null, 8, null, null, null],
-        [5, 8, null, null, null, null, null, 9, 7],
-        [null, null, null, null, 3, 4, null, 1, null],
-        [7, 5, 3, null, null, null, null, null, 2],
-        [null, null, null, 1, 9, 5, null, null, null],
-        [6, null, null, null, null, null, 5, 3, 1],
-        [null, 9, null, 4, 5, null, null, null, null],
-        [4, 7, null, null, null, null, null, 2, 6],
-        [null, null, null, 7, null, 6, null, 5, null]
-    ]
-},
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [9, 3, null, null, 7, null, 8, null, null],
-        [null, 7, null, 2, null, null, 6, null, 9],
-        [null, 1, null, null, null, 3, null, 5, null],
-        [8, 9, null, null, null, null, null, null, null],
-        [null, null, 7, null, null, null, 3, null, null],
-        [null, null, null, null, null, null, null, 2, 8],
-        [null, 6, null, 5, null, null, null, 1, null],
-        [3, null, 8, null, null, 6, null, 9, null],
-        [null, null, 2, null, 4, null, null, 6, 7]
-    ]
-},
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [null, null, 4, 3, null, null, 2, 9, null],
-        [null, 9, null, null, 2, null, null, 3, null],
-        [null, 2, 8, null, null, null, null, 6, 4],
-        [2, null, 6, null, null, 4, null, 7, 8],
-        [7, null, null, null, null, null, null, null, 5],
-        [8, 5, null, 2, null, null, 6, null, 9],
-        [4, 7, null, null, null, null, 8, 5, null],
-        [null, 1, null, null, 5, null, null, 4, null],
-        [null, 6, 5, null, null, 8, 9, null, null]
-    ]
-},
-{
-    type: "sudoku",
-    class: "Avian Aces",
-    subject: "Special Paper 1",
-    term: "Term 3",
-    part: "End Term",  
-    question: "Fill in the Sudoku puzzle.",
-    description: "9x9 Sudoku",
-    puzzleData: [
-        [null, 6, null, 1, null, null, null, 7, 9],
-        [5, null, null, null, 9, 3, null, null, 8],
-        [null, null, 8, null, null, 6, null, null, 2],
-        [8, 5, null, 4, null, null, null, 1, 3],
-        [9, null, 6, null, null, null, 7, null, 4],
-        [2, 3, null, null, null, 8, null, 5, 6],
-        [3, null, null, 9, null, null, 4, null, null],
-        [7, null, null, 5, 6, null, null, null, 1],
-        [6, 9, null, null, null, 1, null, 8, null]
-    ]
-}*/
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null]
+            ]
+        }
+    },
+    // Add other questions as needed
 ];
+
+// Shuffle and return a new question
+function getNewShuffledQuestion() {
+    const randomIndex = Math.floor(Math.random() * questionBank.length);
+    return questionBank[randomIndex];
+}
+
+// Function to load a Sudoku question
+function loadSudokuQuestion(question) {
+    const gridSize = "4x4"; // Specify grid size or dynamically determine it
+    const puzzleData = question.puzzleData[gridSize]; 
+    createSudokuGrid(gridSize, puzzleData);
+}
+
+// Create the Sudoku grid based on provided data
+function createSudokuGrid(size, puzzleData) {
+    const sudokuGridContainer = document.getElementById("sudokuGridContainer");
+    sudokuGridContainer.innerHTML = ""; // Clear previous grid
+
+    const sudokuTable = document.createElement("table");
+    sudokuTable.classList.add("sudoku-table", `sudoku-table-${size}`);
+
+    puzzleData.forEach((rowData, row) => {
+        const sudokuRow = document.createElement("tr");
+        rowData.forEach((cellData, col) => {
+            const sudokuCell = document.createElement("td");
+            const inputField = document.createElement("input");
+            inputField.setAttribute("type", "number");
+            inputField.classList.add("sudoku-input");
+
+            if (cellData !== null) {
+                inputField.value = cellData;
+                inputField.setAttribute("readonly", true);
+            }
+            sudokuCell.appendChild(inputField);
+            sudokuRow.appendChild(sudokuCell);
+        });
+        sudokuTable.appendChild(sudokuRow);
+    });
+    sudokuGridContainer.appendChild(sudokuTable);
+}
+
+// Set up refresh button click event
+const refreshBtn = document.getElementById("refreshBtn");
+refreshBtn.addEventListener("click", function () {
+    const newQuestion = getNewShuffledQuestion(); // Get a new shuffled question
+    loadSudokuQuestion(newQuestion); // Load it into the grid
+});
+
+// Initial load
+loadSudokuQuestion(getNewShuffledQuestion());
