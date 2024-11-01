@@ -86,6 +86,15 @@ const questionsBank = [
 ...babymatht3bidentificationQuestions,
 ...babymatht3bidentificationQuestions,*/
 ...babymatht3bidentificationQuestions,
+// Identity
+/*
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,
+...babymatht3bidentificationQuestions,*/
+...babymatht3bidentityQuestions,
+
 
   // Middle
 // English
@@ -1054,6 +1063,7 @@ function generateRandomQuestions() {
   const numHandwriting = parseInt(document.getElementById("num-handwriting").value);
   const numReading = parseInt(document.getElementById("num-reading").value);
   const numSudoku = parseInt(document.getElementById("num-sudoku").value);
+  const numIdentity = parseInt(document.getElementById("num-identity").value);
 
   
   
@@ -1109,6 +1119,7 @@ function generateRandomQuestions() {
   randomQuestions.push(...getRandomQuestionsByType("handwriting", numHandwriting));
   randomQuestions.push(...getRandomQuestionsByType("reading", numReading));
   randomQuestions.push(...getRandomQuestionsByType("sudoku", numSudoku));
+  randomQuestions.push(...getRandomQuestionsByType("identity", numIdentity));
 
   return randomQuestions;
 }
@@ -1137,7 +1148,8 @@ function displayQuestions() {
     "tracing": false,
     "handwriting": false,
     "reading": false,
-    "sudoku": false
+    "sudoku": false,
+    "identity": false
 
   };
 
@@ -1151,9 +1163,9 @@ function displayQuestions() {
     if (!addedSections[q.type]) {
       addedSections[q.type] = true;
 
+      
+      
       switch (q.type) {
-        
-        
         case "multiple_choice":
           sectionIdentifierText = "Multiple Choice Section";
           break;
@@ -1204,6 +1216,9 @@ function displayQuestions() {
           break;
         case "sudoku":
           sectionIdentifierText = "Sudoku Section";
+          break;
+        case "identity":
+          sectionIdentifierText = "Identity Section";
           break;
 
         
@@ -1861,7 +1876,7 @@ case "coloring":
 
     // Create a canvas for coloring
     const coloringCanvas = document.createElement("canvas");
-    coloringCanvas.setAttribute("width", "400");
+    coloringCanvas.setAttribute("width", "300");
     coloringCanvas.setAttribute("height", "300");
     coloringCanvas.classList.add("coloring-canvas");
     coloringContainer.appendChild(coloringCanvas);
@@ -1962,6 +1977,11 @@ case "coloring":
     break;
       
       
+      
+      
+      
+      
+      
 case "identification":
     const identificationContainer = document.createElement("div");
     identificationContainer.classList.add("identification-container");
@@ -2036,6 +2056,9 @@ case "identification":
     // Append the identification container to the main question wrapper
     questionWrapper.appendChild(identificationContainer);
     break;      
+      
+      
+      
       
       
       
@@ -2493,6 +2516,50 @@ function createSudokuGrid(size, maxValue, puzzleData) {
 
     // Append the sudoku-based question container to the main question wrapper
     questionWrapper.appendChild(sudokuQuestionContainer);
+    break;
+      
+      
+      
+      
+case "identity":
+    const identityContainer = document.createElement("div");
+    identityContainer.classList.add("identity-container");
+
+    // Add a prompt for the identity question
+    const identityPrompt = document.createElement("h3");
+    identityPrompt.innerHTML = q.identityPrompt;
+    identityPrompt.classList.add("identity-prompt");
+    identityContainer.appendChild(identityPrompt);
+
+    // Create an array of numbers/letters
+    const identityContent = q.identityContent; // Should be an array from your external file
+    // Shuffle the content array
+    const shuffledContent = identityContent.sort(() => Math.random() - 0.5);
+
+    // Create a container for the identity items
+    const identityContentContainer = document.createElement("div");
+    identityContentContainer.classList.add("identity-content-container");
+
+    // Generate identity items
+    shuffledContent.forEach(item => {
+        const identityItem = document.createElement("div");
+        identityItem.classList.add("identity-item");
+        identityItem.textContent = item;
+
+        // Add click event to highlight the item
+        identityItem.addEventListener("click", function() {
+            this.classList.toggle("highlight"); // Toggle highlight on click
+        });
+
+        identityContentContainer.appendChild(identityItem);
+    });
+
+    // Append the content container to the identity container
+    identityContainer.appendChild(identityContentContainer);
+
+    // Append the entire identity container to the question wrapper
+    questionWrapper.appendChild(identityContainer);
+
     break;
       
       

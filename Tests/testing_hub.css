@@ -272,8 +272,6 @@
 
 
 
-l
-
 
 /* Style for the special question container */
 .special-container {
@@ -494,14 +492,136 @@ l
 
 
 
+/* General styles for the coloring container */
 .coloring-container {
-    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 }
+
+/* Styling the coloring prompt */
+.coloring-prompt {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #333;
+    text-align: center;
+}
+
+/* Canvas styling */
+.coloring-canvas {
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: crosshair; /* Change cursor to indicate drawing */
+    margin-bottom: 2px;
+}
+
+/* Color palette styles */
 .color-palette {
-    margin: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
 }
+
+/* Individual color button styles */
 .color-button {
     width: 20px;
     height: 20px;
-    border-radius: 10px;
+    border: none;
+    border-radius: 50%; /* Circular buttons */
+    margin: 0 5px;
+    cursor: pointer; /* Change cursor to pointer for buttons */
+    transition: transform 0.2s; /* Animation effect */
+}
+
+/* Hover effect for color buttons */
+.color-button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+}
+
+/* Dotted outline style for the drawing area */
+.dotted-outline {
+    stroke-dasharray: 5, 5; /* Dotted effect */
+}
+
+/* Style for the highlighted drawing outline */
+.highlighted-outline {
+    stroke: red; /* Change color for the highlighted outline */
+}
+
+/* Media query for responsiveness
+@media (max-width: 100%) {
+    .coloring-container {
+        width: 100%; 
+        padding: 2px;
+    }
+    .coloring-prompt {
+        font-size: 20px;
+    }
+    .color-button {
+        width: 20px;
+        height: 20px;
+    }
+}
+*/
+
+
+
+
+/* General styles for the identity container */
+.identity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the prompt and content */
+    margin: 20px;
+    font-family: 'Arial', sans-serif; /* Readable font for children */
+}
+
+/* Style for the identity prompt */
+.identity-prompt {
+    font-size: 24px; /* Larger font for easy readability */
+    margin-bottom: 20px; /* Space below the prompt */
+}
+
+/* Style for the content container holding the identity items */
+.identity-content-container {
+    display: flex; /* Arrange items in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center; /* Center the items */
+    gap: 15px; /* Space between items */
+}
+
+/* Style for individual identity items */
+.identity-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Fixed width for items */
+    height: 60px; /* Fixed height for items */
+    font-size: 30px; /* Larger font size for visibility */
+    border: 2px solid #007BFF; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f0f8ff; /* Light background color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s; /* Smooth scaling effect */
+    color: blueviolet;
+}
+
+/* Hover effect for identity items */
+.identity-item:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Highlight style for the target item */
+.highlight {
+    border: 3px solid red; /* Distinct border for the target */
+    background-color: #fff3cd; /* Light yellow background for emphasis */
+    font-weight: bold; /* Bold text for emphasis */
 }
