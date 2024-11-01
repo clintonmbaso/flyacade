@@ -785,7 +785,7 @@ const questionsBank = [
 ...g5scit3atrueFalseQuestions,
 ...g5scit3atrueFalseQuestions,*/
 ...g5scit3atrueFalseQuestions,
-...g5scit3atrueFalseQuestions,
+...g5scit3btrueFalseQuestions,
 
   // English
   // Multiple Choice
