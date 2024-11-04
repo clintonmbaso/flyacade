@@ -371,6 +371,24 @@ const questionsBank = [
 
   ...g1matht3aoneWordQuestions,
 
+
+// Primary
+/*
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,*/
+...g1matht3bprimaryQuestions,
+// Time
+/*
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,
+...g1matht3bprimaryQuestions,*/
+...g1matht3btimeQuestions,
+
   // CTS
   // Multiple Choice
   ...g1ctst1amultipleChoiceQuestions,
@@ -400,6 +418,15 @@ const questionsBank = [
   ...g1ctst2bmatchingQuestions,
   ...g1ctst3amatchingQuestions,
   ...g1ctst3bmatchingQuestions,
+
+  // SP1
+  // Search Word
+/*  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
+  ...g1sp1t3bwordSearchQuestions,
 
   // SP2
   // Image Based
@@ -542,6 +569,15 @@ const questionsBank = [
   ...g2ctst3amatchingQuestions,
   ...g2ctst3bmatchingQuestions,
 
+  // SP1
+  // Search Word
+/*  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
+  ...g2sp1t3bwordSearchQuestions,
+
   // SP2
   // Image Based
   ...g2sp2t1aimageBasedQuestions,
@@ -573,7 +609,14 @@ const questionsBank = [
   ...g3sp1t2bmultipleChoiceQuestions,
   ...g3sp1t3amultipleChoiceQuestions,
   ...g3sp1t3bmultipleChoiceQuestions,
-
+  // SP1
+  // Search Word
+/*  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
+  ...g3sp1t3bwordSearchQuestions,
 
 
   // Science
@@ -759,6 +802,22 @@ const questionsBank = [
   // SP1
   // Sudoku
 // /*  ...g4sp1t1bsudokuQuestions, ...g4sp1t1bsudokuQuestions, ...g4sp1t2asudokuQuestions, ...g4sp1t2bsudokuQuestions, ...g4sp1t3asudokuQuestions,*/ ...g4sp1t3bsudokuQuestions,
+  // SP1
+  // Search Word
+/*  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
+  ...g4sp1t3bwordSearchQuestions,
+  // Multiple Choice
+/*  ...g4sp1t3bmultipleChoiceQuestions,
+  ...g4sp1t3bmultipleChoiceQuestions,
+  ...g4sp1t3bmultipleChoiceQuestions,
+  ...g4sp1t3bmultipleChoiceQuestions,
+  ...g4sp1t3bmultipleChoiceQuestions,*/
+  ...g4sp1t3bmultipleChoiceQuestions,
+
 
   // SP2
   // Image Based
@@ -768,19 +827,9 @@ const questionsBank = [
   // Grade 5
   // Science
   // Multiple Choice
-  ...g5scit1amultipleChoiceQuestions,
-  ...g5scit1bmultipleChoiceQuestions,
-  ...g5scit2amultipleChoiceQuestions,
-  ...g5scit2bmultipleChoiceQuestions,
-  ...g5scit3amultipleChoiceQuestions,
-  ...g5scit3bmultipleChoiceQuestions,
+  ...g5scit1amultipleChoiceQuestions, ...g5scit1bmultipleChoiceQuestions, ...g5scit2amultipleChoiceQuestions, ...g5scit2bmultipleChoiceQuestions, ...g5scit3amultipleChoiceQuestions, ...g5scit3bmultipleChoiceQuestions,
   // One Word Questions
-  ...g5scit1amatchingQuestions,
-  ...g5scit1bmatchingQuestions,
-  ...g5scit2amatchingQuestions,
-  ...g5scit2bmatchingQuestions,
-  ...g5scit3amatchingQuestions,
-  ...g5scit3bmatchingQuestions,
+  ...g5scit1amatchingQuestions, ...g5scit1bmatchingQuestions, ...g5scit2amatchingQuestions, ...g5scit2bmatchingQuestions, ...g5scit3amatchingQuestions, ...g5scit3bmatchingQuestions,
 // Fill in the Blanks
 /*...g5scit1afillInTheBlankQuestions,
 ...g5scit1bfillInTheBlankQuestions,
@@ -819,19 +868,9 @@ const questionsBank = [
   // Grade 5
   // Social Studies
   // Multiple Choice
-  ...g5sst1amultipleChoiceQuestions,
-  ...g5sst1bmultipleChoiceQuestions,
-  ...g5sst2amultipleChoiceQuestions,
-  ...g5sst2bmultipleChoiceQuestions,
-  ...g5sst3amultipleChoiceQuestions,
-  ...g5sst3bmultipleChoiceQuestions,
+  ...g5sst1amultipleChoiceQuestions, ...g5sst1bmultipleChoiceQuestions, ...g5sst2amultipleChoiceQuestions, ...g5sst2bmultipleChoiceQuestions, ...g5sst3amultipleChoiceQuestions, ...g5sst3bmultipleChoiceQuestions,
   // True or False
-  ...g5sst1atrueFalseQuestions,
-  ...g5sst1btrueFalseQuestions,
-  ...g5sst2atrueFalseQuestions,
-  ...g5sst2btrueFalseQuestions,
-  ...g5sst3atrueFalseQuestions,
-  ...g5sst3btrueFalseQuestions,
+  ...g5sst1atrueFalseQuestions, ...g5sst1btrueFalseQuestions, ...g5sst2atrueFalseQuestions, ...g5sst2btrueFalseQuestions, ...g5sst3atrueFalseQuestions, ...g5sst3btrueFalseQuestions,
   // Fill in the Blanks
 /*  ...g5sst1afillInTheBlankQuestions,
   ...g5sst1bfillInTheBlankQuestions,
@@ -981,14 +1020,18 @@ const questionsBank = [
   ...g5matht3agraphicalQuestions,*/
   ...g5matht3bgraphicalQuestions,
 
+  // SP1
+  // Search Word
+/*  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
+  ...g5sp1t3bwordSearchQuestions,
+
   // SP2
   // Image Based
-  ...g5sp2t1aimageBasedQuestions,
-  ...g5sp2t1bimageBasedQuestions,
-  ...g5sp2t2aimageBasedQuestions,
-  ...g5sp2t2bimageBasedQuestions,
-  ...g5sp2t3aimageBasedQuestions,
-  ...g5sp2t3bimageBasedQuestions,
+  ...g5sp2t1aimageBasedQuestions, ...g5sp2t1bimageBasedQuestions, ...g5sp2t2aimageBasedQuestions, ...g5sp2t2bimageBasedQuestions, ...g5sp2t3aimageBasedQuestions, ...g5sp2t3bimageBasedQuestions,
 
   // SP1
   // Sudoku
@@ -1012,12 +1055,7 @@ const questionsBank = [
 // Grade 6
   // SP2
   // Image Based
-  ...g6sp2t1aimageBasedQuestions,
-  ...g6sp2t1bimageBasedQuestions,
-  ...g6sp2t2aimageBasedQuestions,
-  ...g6sp2t2bimageBasedQuestions,
-  ...g6sp2t3aimageBasedQuestions,
-  ...g6sp2t3bimageBasedQuestions,
+  ...g6sp2t1aimageBasedQuestions, ...g6sp2t1bimageBasedQuestions, ...g6sp2t2aimageBasedQuestions, ...g6sp2t2bimageBasedQuestions, ...g6sp2t3aimageBasedQuestions, ...g6sp2t3bimageBasedQuestions,
 
   // Special
 /*  ...g6sp2t1aimageBasedQuestions,
@@ -1064,6 +1102,8 @@ function generateRandomQuestions() {
   const numReading = parseInt(document.getElementById("num-reading").value);
   const numSudoku = parseInt(document.getElementById("num-sudoku").value);
   const numIdentity = parseInt(document.getElementById("num-identity").value);
+  const numTime = parseInt(document.getElementById("num-time").value);
+  const numWordSearchPuzzle = parseInt(document.getElementById("num-wordSearchPuzzle").value);
 
   
   
@@ -1120,7 +1160,10 @@ function generateRandomQuestions() {
   randomQuestions.push(...getRandomQuestionsByType("reading", numReading));
   randomQuestions.push(...getRandomQuestionsByType("sudoku", numSudoku));
   randomQuestions.push(...getRandomQuestionsByType("identity", numIdentity));
+  randomQuestions.push(...getRandomQuestionsByType("time", numTime));
+  randomQuestions.push(...getRandomQuestionsByType("wordSearchPuzzle", numWordSearchPuzzle));
 
+  
   return randomQuestions;
 }
 
@@ -1149,7 +1192,9 @@ function displayQuestions() {
     "handwriting": false,
     "reading": false,
     "sudoku": false,
-    "identity": false
+    "identity": false,
+    "time": false,
+    "wordSearchPuzzle": false      
 
   };
 
@@ -1220,7 +1265,12 @@ function displayQuestions() {
         case "identity":
           sectionIdentifierText = "Identity Section";
           break;
-
+        case "time":
+          sectionIdentifierText = "Time Section";
+          break;
+        case "wordSearchPuzzle":
+          sectionIdentifierText = "Word Search Puzzle Section";
+          break;
         
         
         
@@ -1554,7 +1604,9 @@ case "counting":
             });
             break;
 
-        case "middle-school":
+      
+      
+case "middle-school":
             // For middle school math (fractions, decimals, simple algebra)
             const middleSchoolContent = q.mathContent || ["1/2 + 1/4 =", "Solve for x: 3x + 5 = 20"];
             middleSchoolContent.forEach(problem => {
@@ -2559,9 +2611,249 @@ case "identity":
 
     // Append the entire identity container to the question wrapper
     questionWrapper.appendChild(identityContainer);
+    break;
+      
+      
+      
+      
+      
+      
+      
+case "time":
+    const timeContainer = document.createElement("div");
+    timeContainer.classList.add("time-container");
+
+    // Add time prompt
+    if (q.timePrompt) {
+        const timePrompt = document.createElement("h3");
+        timePrompt.innerHTML = q.timePrompt;
+        timePrompt.classList.add("time-prompt");
+        timeContainer.appendChild(timePrompt);
+    }
+
+    // Create clock face
+    const clockFace = document.createElement("div");
+    clockFace.classList.add("clock-face");
+
+    // Add hour numbers in a circular pattern
+    for (let i = 1; i <= 12; i++) {
+        const hourNumber = document.createElement("div");
+        hourNumber.classList.add("hour-number");
+        hourNumber.style.transform = `rotate(${i * 30}deg) translate(0, -80px) rotate(-${i * 30}deg)`;
+        hourNumber.innerText = i;
+        clockFace.appendChild(hourNumber);
+    }
+
+    // Add minute markers around the clock
+    for (let i = 0; i < 60; i++) {
+        const minuteMark = document.createElement("div");
+        minuteMark.classList.add("minute-mark");
+        minuteMark.style.transform = `rotate(${i * 6}deg) translate(0, -90px)`;
+        clockFace.appendChild(minuteMark);
+    }
+
+    // Create clock hands for reading and setting modes
+    const hourHand = document.createElement("div");
+    hourHand.classList.add("clock-hand", "hour-hand");
+    const minuteHand = document.createElement("div");
+    minuteHand.classList.add("clock-hand", "minute-hand");
+    clockFace.appendChild(hourHand);
+    clockFace.appendChild(minuteHand);
+
+    timeContainer.appendChild(clockFace);
+    questionWrapper.appendChild(timeContainer);
+
+    // Display time inputs for reading mode
+    if (q.timeMode === "read") {
+        const inputContainer = document.createElement("div");
+        inputContainer.classList.add("input-container");
+
+        const hourInput = document.createElement("input");
+        hourInput.type = "number";
+        hourInput.placeholder = "Hour";
+        hourInput.classList.add("time-input");
+        inputContainer.appendChild(hourInput);
+
+        const minuteInput = document.createElement("input");
+        minuteInput.type = "number";
+        minuteInput.placeholder = "Minute";
+        minuteInput.classList.add("time-input");
+        inputContainer.appendChild(minuteInput);
+
+        timeContainer.appendChild(inputContainer);
+
+        // Set the clock hands to the specified time
+        const hourAngle = (q.displayedHour % 12) * 30 + (q.displayedMinute / 60) * 30;
+        const minuteAngle = q.displayedMinute * 6;
+        hourHand.style.transform = `rotate(${hourAngle}deg)`;
+        minuteHand.style.transform = `rotate(${minuteAngle}deg)`;
+    } else if (q.timeMode === "set") {
+        // Interactive clock for setting mode with touch support
+        let isHourHandMoving = false;
+        let isMinuteHandMoving = false;
+
+        function rotateHand(e, hand, degreesPerStep) {
+            const rect = clockFace.getBoundingClientRect();
+            const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left - rect.width / 2;
+            const y = (e.touches ? e.touches[0].clientY : e.clientY) - rect.top - rect.height / 2;
+            const angle = Math.atan2(y, x) * (180 / Math.PI) + 90;
+            hand.style.transform = `rotate(${Math.round(angle / degreesPerStep) * degreesPerStep}deg)`;
+        }
+
+        hourHand.addEventListener("mousedown", () => { isHourHandMoving = true; });
+        minuteHand.addEventListener("mousedown", () => { isMinuteHandMoving = true; });
+
+        hourHand.addEventListener("touchstart", () => { isHourHandMoving = true; });
+        minuteHand.addEventListener("touchstart", () => { isMinuteHandMoving = true; });
+
+        document.addEventListener("mousemove", (e) => {
+            if (isHourHandMoving) rotateHand(e, hourHand, 30);
+            if (isMinuteHandMoving) rotateHand(e, minuteHand, 6);
+        });
+
+        document.addEventListener("touchmove", (e) => {
+            if (isHourHandMoving) rotateHand(e, hourHand, 30);
+            if (isMinuteHandMoving) rotateHand(e, minuteHand, 6);
+        });
+
+        document.addEventListener("mouseup", () => {
+            isHourHandMoving = false;
+            isMinuteHandMoving = false;
+        });
+
+        document.addEventListener("touchend", () => {
+            isHourHandMoving = false;
+            isMinuteHandMoving = false;
+        });
+    }
 
     break;
       
+      
+      
+      
+      
+case "wordSearchPuzzle":
+    const puzzleContainer = document.createElement("div");
+    puzzleContainer.classList.add("puzzle-container");
+
+    // Add puzzle prompt
+    if (q.puzzlePrompt) {
+        const puzzlePrompt = document.createElement("h3");
+        puzzlePrompt.innerHTML = q.puzzlePrompt;
+        puzzlePrompt.classList.add("puzzle-prompt");
+        puzzleContainer.appendChild(puzzlePrompt);
+    }
+
+    // Puzzle grid dimensions (e.g., 10x10)
+    const gridSize = q.gridSize || 10;
+    const grid = [];
+    const targetWords = q.targetWords || ["EXAMPLE", "WORD", "SEARCH"];
+    let selectedCells = [];
+
+    // Create the grid structure and add random letters
+    for (let row = 0; row < gridSize; row++) {
+        const rowElement = document.createElement("div");
+        rowElement.classList.add("puzzle-row");
+
+        const rowCells = [];
+        for (let col = 0; col < gridSize; col++) {
+            const cell = document.createElement("div");
+            cell.classList.add("puzzle-cell");
+            cell.innerText = String.fromCharCode(65 + Math.floor(Math.random() * 26)); // Random letter
+            cell.dataset.row = row;
+            cell.dataset.col = col;
+
+            cell.addEventListener("click", () => {
+                cell.classList.toggle("highlighted");
+                const cellId = `${row}-${col}`;
+                if (selectedCells.includes(cellId)) {
+                    selectedCells = selectedCells.filter(id => id !== cellId);
+                } else {
+                    selectedCells.push(cellId);
+                }
+                checkForWord();
+            });
+
+            rowElement.appendChild(cell);
+            rowCells.push(cell);
+        }
+
+        puzzleContainer.appendChild(rowElement);
+        grid.push(rowCells);
+    }
+
+    // Function to place target words in the grid
+    function placeWord(word) {
+        const directions = [
+            { row: 0, col: 1 },  // Horizontal right
+            { row: 1, col: 0 },  // Vertical down
+            { row: 1, col: 1 },  // Diagonal down-right
+            { row: -1, col: 1 }  // Diagonal up-right
+        ];
+
+        let placed = false;
+        while (!placed) {
+            const startRow = Math.floor(Math.random() * gridSize);
+            const startCol = Math.floor(Math.random() * gridSize);
+            const direction = directions[Math.floor(Math.random() * directions.length)];
+            let canPlace = true;
+
+            for (let i = 0; i < word.length; i++) {
+                const row = startRow + i * direction.row;
+                const col = startCol + i * direction.col;
+                if (
+                    row < 0 || row >= gridSize ||
+                    col < 0 || col >= gridSize ||
+                    (grid[row][col].innerText !== word[i] &&
+                        grid[row][col].classList.contains("word-cell"))
+                ) {
+                    canPlace = false;
+                    break;
+                }
+            }
+
+            if (canPlace) {
+                for (let i = 0; i < word.length; i++) {
+                    const row = startRow + i * direction.row;
+                    const col = startCol + i * direction.col;
+                    grid[row][col].innerText = word[i];
+                    grid[row][col].classList.add("word-cell"); // Mark as part of a word
+                }
+                placed = true;
+            }
+        }
+    }
+
+    // Place each word in the puzzle
+    targetWords.forEach(placeWord);
+
+    // Display target words below the puzzle grid
+    const targetWordsContainer = document.createElement("div");
+    targetWordsContainer.classList.add("target-words-container");
+    targetWordsContainer.innerHTML = "<strong>Words to Find:</strong> " + targetWords.join(", ");
+    puzzleContainer.appendChild(targetWordsContainer);
+
+    // Check if selected cells form any target word
+    function checkForWord() {
+        const selectedWord = selectedCells
+            .map(cellId => {
+                const [row, col] = cellId.split("-").map(Number);
+                return grid[row][col].innerText;
+            })
+            .join("");
+
+        if (targetWords.includes(selectedWord)) {
+            selectedCells.forEach(cellId => {
+                const [row, col] = cellId.split("-").map(Number);
+                grid[row][col].classList.add("found");
+            });
+            selectedCells = []; // Clear selection after finding a word
+        }
+    }
+
+    questionWrapper.appendChild(puzzleContainer);
+    break;
       
       
       

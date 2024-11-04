@@ -23,7 +23,8 @@
     "tracing": false,
     "handwriting": false,
     "reading": false,
-    "sudoku": false
+    "sudoku": false,
+    "wordSearchPuzzle": false
   };
 
             let sectionIdentifierText = "";
@@ -108,6 +109,10 @@
         
           case "sudoku":
           sectionIdentifierText = "Sudoku <br><em>Solve the sudoku given below accurately.</em>";
+          break;
+        
+          case "wordSearchPuzzle":
+          sectionIdentifierText = "Word Search Puzzle <br><em>Solve the puzzle given below by circling all the hidden words.</em>";
           break;
                         
           default:
@@ -1468,6 +1473,179 @@ function createSudokuGrid(size, maxValue, puzzleData) {
       
                     
                     
+case "identity":
+    const identityContainer = document.createElement("div");
+    identityContainer.classList.add("identity-container");
+
+    // Add a prompt for the identity question
+    const identityPrompt = document.createElement("h3");
+    identityPrompt.innerHTML = q.identityPrompt;
+    identityPrompt.classList.add("identity-prompt");
+    identityContainer.appendChild(identityPrompt);
+
+    // Create an array of numbers/letters
+    const identityContent = q.identityContent; // Should be an array from your external file
+    // Shuffle the content array
+    const shuffledContent = identityContent.sort(() => Math.random() - 0.5);
+
+    // Create a container for the identity items
+    const identityContentContainer = document.createElement("div");
+    identityContentContainer.classList.add("identity-content-container");
+
+    // Generate identity items
+    shuffledContent.forEach(item => {
+        const identityItem = document.createElement("div");
+        identityItem.classList.add("identity-item");
+        identityItem.textContent = item;
+
+        // Add click event to highlight the item
+        identityItem.addEventListener("click", function() {
+            this.classList.toggle("highlight"); // Toggle highlight on click
+        });
+
+        identityContentContainer.appendChild(identityItem);
+    });
+
+    // Append the content container to the identity container
+    identityContainer.appendChild(identityContentContainer);
+
+    // Append the entire identity container to the question wrapper
+    questionWrapper.appendChild(identityContainer);
+
+    break;
+                  
+                  
+                  
+                  
+                  
+                  
+case "wordSearchPuzzle":
+    const puzzleContainer = document.createElement("div");
+    puzzleContainer.classList.add("puzzle-container");
+
+    // Add puzzle prompt
+    if (q.puzzlePrompt) {
+        const puzzlePrompt = document.createElement("h3");
+        puzzlePrompt.innerHTML = q.puzzlePrompt;
+        puzzlePrompt.classList.add("puzzle-prompt");
+        puzzleContainer.appendChild(puzzlePrompt);
+    }
+
+    // Puzzle grid dimensions (e.g., 10x10)
+    const gridSize = q.gridSize || 10;
+    const grid = [];
+    const targetWords = q.targetWords || ["EXAMPLE", "WORD", "SEARCH"];
+    let selectedCells = [];
+
+    // Create the grid structure and add random letters
+    for (let row = 0; row < gridSize; row++) {
+        const rowElement = document.createElement("div");
+        rowElement.classList.add("puzzle-row");
+
+        const rowCells = [];
+        for (let col = 0; col < gridSize; col++) {
+            const cell = document.createElement("div");
+            cell.classList.add("puzzle-cell");
+            cell.innerText = String.fromCharCode(65 + Math.floor(Math.random() * 26)); // Random letter
+            cell.dataset.row = row;
+            cell.dataset.col = col;
+
+            cell.addEventListener("click", () => {
+                cell.classList.toggle("highlighted");
+                const cellId = `${row}-${col}`;
+                if (selectedCells.includes(cellId)) {
+                    selectedCells = selectedCells.filter(id => id !== cellId);
+                } else {
+                    selectedCells.push(cellId);
+                }
+                checkForWord();
+            });
+
+            rowElement.appendChild(cell);
+            rowCells.push(cell);
+        }
+
+        puzzleContainer.appendChild(rowElement);
+        grid.push(rowCells);
+    }
+
+    // Function to place target words in the grid
+    function placeWord(word) {
+        const directions = [
+            { row: 0, col: 1 },  // Horizontal right
+            { row: 1, col: 0 },  // Vertical down
+            { row: 1, col: 1 },  // Diagonal down-right
+            { row: -1, col: 1 }  // Diagonal up-right
+        ];
+
+        let placed = false;
+        while (!placed) {
+            const startRow = Math.floor(Math.random() * gridSize);
+            const startCol = Math.floor(Math.random() * gridSize);
+            const direction = directions[Math.floor(Math.random() * directions.length)];
+            let canPlace = true;
+
+            for (let i = 0; i < word.length; i++) {
+                const row = startRow + i * direction.row;
+                const col = startCol + i * direction.col;
+                if (
+                    row < 0 || row >= gridSize ||
+                    col < 0 || col >= gridSize ||
+                    (grid[row][col].innerText !== word[i] &&
+                        grid[row][col].classList.contains("word-cell"))
+                ) {
+                    canPlace = false;
+                    break;
+                }
+            }
+
+            if (canPlace) {
+                for (let i = 0; i < word.length; i++) {
+                    const row = startRow + i * direction.row;
+                    const col = startCol + i * direction.col;
+                    grid[row][col].innerText = word[i];
+                    grid[row][col].classList.add("word-cell"); // Mark as part of a word
+                }
+                placed = true;
+            }
+        }
+    }
+
+    // Place each word in the puzzle
+    targetWords.forEach(placeWord);
+
+    // Display target words below the puzzle grid
+    const targetWordsContainer = document.createElement("div");
+    targetWordsContainer.classList.add("target-words-container");
+    targetWordsContainer.innerHTML = "<strong>Words to Find:</strong> " + targetWords.join(", ");
+    puzzleContainer.appendChild(targetWordsContainer);
+
+    // Check if selected cells form any target word
+    function checkForWord() {
+        const selectedWord = selectedCells
+            .map(cellId => {
+                const [row, col] = cellId.split("-").map(Number);
+                return grid[row][col].innerText;
+            })
+            .join("");
+
+        if (targetWords.includes(selectedWord)) {
+            selectedCells.forEach(cellId => {
+                const [row, col] = cellId.split("-").map(Number);
+                grid[row][col].classList.add("found");
+            });
+            selectedCells = []; // Clear selection after finding a word
+        }
+    }
+
+    questionWrapper.appendChild(puzzleContainer);
+    break;
+                  
+                  
+                  
+                  
+                  
+                  
                     
 function shuffleArray(array) {
     const shuffled = array.slice();

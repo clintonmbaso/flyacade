@@ -14,7 +14,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Random Questions PDF Generator</title>
+  <title>Flyacade Quizit</title>
   <link rel="stylesheet" href="testing_hub.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -320,12 +320,12 @@ select {
           
         <div style="display: flex; justify-content: space-between;">
           <label for="num-coloring">Coloring Questions:</label>
-          <input type="number" id="num-coloring" min="0" value="5">
+          <input type="number" id="num-coloring" min="0" value="2">
         </div>
           
         <div style="display: flex; justify-content: space-between;">
           <label for="num-identification">Identification Questions:</label>
-          <input type="number" id="num-identification" min="0" value="5">
+          <input type="number" id="num-identification" min="0" value="1">
         </div>
           
         <div style="display: flex; justify-content: space-between;">
@@ -350,8 +350,19 @@ select {
           
         <div style="display: flex; justify-content: space-between;">
           <label for="num-identity">Identity Questions:</label>
-          <input type="number" id="num-identity" min="0" value="2">
+          <input type="number" id="num-identity" min="0" value="1">
         </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-time">Time Questions:</label>
+          <input type="number" id="num-time" min="0" value="1">
+        </div>
+          
+        <div style="display: flex; justify-content: space-between;">
+          <label for="num-wordSearchPuzzle">wordSearchPuzzle Questions:</label>
+          <input type="number" id="num-wordSearchPuzzle" min="0" value="1">
+        </div>
+          
           
         </div>
         <br>
@@ -379,9 +390,7 @@ select {
 </div>
     
     <div id="questions-container"></div>
-          <div id="chart-container" style="width: 100%; max-width: 600px;">
-    <canvas id="question-chart"></canvas>
-</div>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
@@ -720,6 +729,23 @@ select {
 
   <script src="math/grade1/g1matht3aoneWordQuestions.js"></script>
     
+<!-- Primary --
+  <script src="math/grade1/g1matht1aprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht1bprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht2aprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht2bprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht3aprimaryQuestions.js"></script>-->
+  <script src="math/grade1/g1matht3bprimaryQuestions.js"></script>
+<!-- Time --
+  <script src="math/grade1/g1matht1aprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht1bprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht2aprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht2bprimaryQuestions.js"></script>
+  <script src="math/grade1/g1matht3aprimaryQuestions.js"></script>-->
+  <script src="math/grade1/g1matht3btimeQuestions.js"></script>
+
+    
+    
 <!-- CTS -->
 <!-- Multiple Choice -->
   <script src="cts/grade1/g1ctst1amultipleChoiceQuestions.js"></script>
@@ -750,6 +776,15 @@ select {
   <script src="cts/grade1/g1ctst3amatchingQuestions.js"></script>
   <script src="cts/grade1/g1ctst3bmatchingQuestions.js"></script>
 
+<!-- SP 1 --
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>-->
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+
+    
 <!-- SP 2 -->
   <script src="sp2/grade1/g1sp2t1aimageBasedQuestions.js"></script>
   <script src="sp2/grade1/g1sp2t1bimageBasedQuestions.js"></script>
@@ -886,6 +921,15 @@ select {
   <script src="cts/grade2/g2ctst3amatchingQuestions.js"></script>
   <script src="cts/grade2/g2ctst3bmatchingQuestions.js"></script>
 
+<!-- Search Word --
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>-->
+  <script src="sp1/grade2/g2sp1t3bwordSearchQuestions.js"></script>
+        
+    
 <!-- SP 2 -->
   <script src="sp2/grade2/g2sp2t1aimageBasedQuestions.js"></script>
   <script src="sp2/grade2/g2sp2t1bimageBasedQuestions.js"></script>
@@ -1048,7 +1092,15 @@ select {
   <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
   <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>
   <script src="sp1/grade3/g3sp1t3bsudokuQuestions.js"></script>-->
-    
+<!-- Search Word --
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>-->
+  <script src="sp1/grade3/g3sp1t3bwordSearchQuestions.js"></script>
+  
+        
 <!-- SP 2 -->
   <script src="sp2/grade3/g3sp2t1aimageBasedQuestions.js"></script>
   <script src="sp2/grade3/g3sp2t1bimageBasedQuestions.js"></script>
@@ -1218,7 +1270,22 @@ select {
   <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
   <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>
   <script src="sp1/grade4/g4sp1t3bsudokuQuestions.js"></script>-->
-    
+<!-- Search Word --
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade1/g1sp1t3bwordSearchQuestions.js"></script>-->
+  <script src="sp1/grade4/g4sp1t3bwordSearchQuestions.js"></script>
+<!-- Search Word --
+  <script src="sp1/grade1/g4sp1t3bmultipleChoiceQuestions.js"></script>
+  <script src="sp1/grade1/g4sp1t3bmultipleChoiceQuestions.js"></script>
+  <script src="sp1/grade1/g4sp1t3bmultipleChoiceQuestions.js"></script>
+  <script src="sp1/grade1/g4sp1t3bmultipleChoiceQuestions.js"></script>
+  <script src="sp1/grade1/g4sp1t3bmultipleChoiceQuestions.js"></script>-->
+  <script src="sp1/grade4/g4sp1t3bmultipleChoiceQuestions.js"></script>
+        
+  
     
 <!-- SP 2 -->
   <script src="sp2/grade4/g4sp2t1aimageBasedQuestions.js"></script>
@@ -1458,7 +1525,14 @@ select {
   <script src="math/grade5/g5matht3aoneWordQuestions.js"></script>-->
   <script src="math/grade5/g5matht3bgraphicalQuestions.js"></script>
 
-    
+<!-- Search Word --
+  <script src="sp1/grade5/g5sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t3bwordSearchQuestions.js"></script>
+  <script src="sp1/grade5/g5sp1t3bwordSearchQuestions.js"></script>-->
+  <script src="sp1/grade5/g5sp1t3bwordSearchQuestions.js"></script>
+        
 
 <!-- SP 2 -->
   <script src="sp2/grade5/g5sp2t1aimageBasedQuestions.js"></script>
