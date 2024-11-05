@@ -577,6 +577,13 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,*/
   ...g2sp1t3bwordSearchQuestions,
+  // Fill in the Blanks
+/*  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
+  ...g2sp1t3bfillInTheBlankQuestions,
 
   // SP2
   // Image Based
@@ -648,7 +655,12 @@ const questionsBank = [
   ...g3sst3amultipleChoiceQuestions,
   ...g3sst3bmultipleChoiceQuestions,
 // True or False
-  ...g3sst1atrueFalseQuestions, ...g3sst1btrueFalseQuestions, ...g3sst2atrueFalseQuestions, ...g3sst2btrueFalseQuestions, ...g3sst3atrueFalseQuestions, ...g3sst3btrueFalseQuestions,
+  ...g3sst1atrueFalseQuestions, 
+...g3sst1btrueFalseQuestions, 
+...g3sst2atrueFalseQuestions, 
+...g3sst2btrueFalseQuestions, 
+...g3sst3atrueFalseQuestions, 
+...g3sst3btrueFalseQuestions,
 // Fill in the Blank
 ...g3sst3afillInTheBlankQuestions,
 ...g3sst3bfillInTheBlankQuestions,
@@ -658,13 +670,33 @@ const questionsBank = [
 
 // CTS
   // Multiple Choice
-  ...g3ctst1amultipleChoiceQuestions, ...g3ctst1bmultipleChoiceQuestions, ...g3ctst2amultipleChoiceQuestions, ...g3ctst2bmultipleChoiceQuestions, ...g3ctst3amultipleChoiceQuestions, ...g3ctst3bmultipleChoiceQuestions,
+  ...g3ctst1amultipleChoiceQuestions, 
+...g3ctst1bmultipleChoiceQuestions, 
+...g3ctst2amultipleChoiceQuestions, 
+...g3ctst2bmultipleChoiceQuestions, 
+...g3ctst3amultipleChoiceQuestions, 
+...g3ctst3bmultipleChoiceQuestions,
 // True or False
-  ...g3ctst1atrueFalseQuestions, ...g3ctst1btrueFalseQuestions, ...g3ctst2atrueFalseQuestions, ...g3ctst2btrueFalseQuestions, ...g3ctst3atrueFalseQuestions, ...g3ctst3btrueFalseQuestions,
+  ...g3ctst1atrueFalseQuestions, 
+...g3ctst1btrueFalseQuestions, 
+...g3ctst2atrueFalseQuestions,
+...g3ctst2btrueFalseQuestions, 
+...g3ctst3atrueFalseQuestions,
+...g3ctst3btrueFalseQuestions,
 // Fill in the Blank
-...g3ctst1afillInTheBlankQuestions, ...g3ctst1bfillInTheBlankQuestions, ...g3ctst2afillInTheBlankQuestions, ...g3ctst2bfillInTheBlankQuestions, ...g3ctst3afillInTheBlankQuestions, ...g3ctst3bfillInTheBlankQuestions,
+...g3ctst1afillInTheBlankQuestions, 
+...g3ctst1bfillInTheBlankQuestions,
+...g3ctst2afillInTheBlankQuestions,
+...g3ctst2bfillInTheBlankQuestions, 
+...g3ctst3afillInTheBlankQuestions,
+...g3ctst3bfillInTheBlankQuestions,
 // Matching
-...g3ctst1amatchingQuestions, ...g3ctst1bmatchingQuestions, ...g3ctst2amatchingQuestions, ...g3ctst2bmatchingQuestions, ...g3ctst3amatchingQuestions, ...g3ctst3bmatchingQuestions,
+...g3ctst1amatchingQuestions, 
+...g3ctst1bmatchingQuestions, 
+...g3ctst2amatchingQuestions, 
+...g3ctst2bmatchingQuestions,
+...g3ctst3amatchingQuestions, 
+...g3ctst3bmatchingQuestions,
 
   // Math
   // Multiple Choice
@@ -688,18 +720,38 @@ const questionsBank = [
 
   // SP1
   // Sudoku
-// /*  ...g3sp1t1bsudokuQuestions, ...g3sp1t1bsudokuQuestions, ...g3sp1t2asudokuQuestions, ...g3sp1t2bsudokuQuestions, ...g3sp1t3asudokuQuestions,*/ ...g3sp1t3bsudokuQuestions,
-
+ /*  ...g3sp1t1bsudokuQuestions, 
+...g3sp1t1bsudokuQuestions,
+...g3sp1t2asudokuQuestions, 
+...g3sp1t2bsudokuQuestions, 
+...g3sp1t3asudokuQuestions,
+...g3sp1t3bsudokuQuestions,
+*/
   // SP2
   // Image Based
-  ...g3sp2t1aimageBasedQuestions, ...g3sp2t1bimageBasedQuestions, ...g3sp2t2aimageBasedQuestions, ...g3sp2t2bimageBasedQuestions, ...g3sp2t3aimageBasedQuestions, ...g3sp2t3bimageBasedQuestions,
+  ...g3sp2t1aimageBasedQuestions, 
+...g3sp2t1bimageBasedQuestions, 
+...g3sp2t2aimageBasedQuestions, 
+...g3sp2t2bimageBasedQuestions, 
+...g3sp2t3aimageBasedQuestions, 
+...g3sp2t3bimageBasedQuestions,
 
 
 // Grade 4
 // Science
-  ...g4scit1amultipleChoiceQuestions, ...g4scit1bmultipleChoiceQuestions, ...g4scit2amultipleChoiceQuestions, ...g4scit2bmultipleChoiceQuestions, ...g4scit3amultipleChoiceQuestions, ...g4scit3bmultipleChoiceQuestions,
+  ...g4scit1amultipleChoiceQuestions, 
+...g4scit1bmultipleChoiceQuestions,
+...g4scit2amultipleChoiceQuestions, 
+...g4scit2bmultipleChoiceQuestions, 
+...g4scit3amultipleChoiceQuestions, 
+...g4scit3bmultipleChoiceQuestions,
 // True or False
-  ...g4scit1atrueFalseQuestions, ...g4scit1btrueFalseQuestions, ...g4scit2atrueFalseQuestions, ...g4scit2btrueFalseQuestions, ...g4scit3atrueFalseQuestions, ...g4scit3btrueFalseQuestions,
+  ...g4scit1atrueFalseQuestions,
+...g4scit1btrueFalseQuestions, 
+...g4scit2atrueFalseQuestions, 
+...g4scit2btrueFalseQuestions, 
+...g4scit3atrueFalseQuestions, 
+...g4scit3btrueFalseQuestions,
 // Fill in the Blanks
 //  ...g4scit1atrueFalseQuestions,
 //  ...g4scit1btrueFalseQuestions,
@@ -761,13 +813,33 @@ const questionsBank = [
 
 // CTS
 // Multiple Choice
-...g4ctst1amultipleChoiceQuestions, ...g4ctst1bmultipleChoiceQuestions, ...g4ctst2amultipleChoiceQuestions, ...g4ctst2bmultipleChoiceQuestions, ...g4ctst3amultipleChoiceQuestions, ...g4ctst3bmultipleChoiceQuestions,
+...g4ctst1amultipleChoiceQuestions,
+...g4ctst1bmultipleChoiceQuestions, 
+...g4ctst2amultipleChoiceQuestions,
+...g4ctst2bmultipleChoiceQuestions, 
+...g4ctst3amultipleChoiceQuestions, 
+...g4ctst3bmultipleChoiceQuestions,
 // True or False
-...g4ctst1atrueFalseQuestions, ...g4ctst1btrueFalseQuestions, ...g4ctst2atrueFalseQuestions, ...g4ctst2btrueFalseQuestions, ...g4ctst3atrueFalseQuestions, ...g4ctst3btrueFalseQuestions,
+...g4ctst1atrueFalseQuestions, 
+...g4ctst1btrueFalseQuestions, 
+...g4ctst2atrueFalseQuestions,
+...g4ctst2btrueFalseQuestions, 
+...g4ctst3atrueFalseQuestions,
+...g4ctst3btrueFalseQuestions,
 // Fill in the Blanks
-...g4ctst1afillInTheBlankQuestions, ...g4ctst1bfillInTheBlankQuestions, ...g4ctst2afillInTheBlankQuestions, ...g4ctst2bfillInTheBlankQuestions, ...g4ctst3afillInTheBlankQuestions, ...g4ctst3bfillInTheBlankQuestions,
+...g4ctst1afillInTheBlankQuestions, 
+...g4ctst1bfillInTheBlankQuestions, 
+...g4ctst2afillInTheBlankQuestions,
+...g4ctst2bfillInTheBlankQuestions, 
+...g4ctst3afillInTheBlankQuestions,
+...g4ctst3bfillInTheBlankQuestions,
 // Matching
-...g4ctst1amatchingQuestions, ...g4ctst1bmatchingQuestions, ...g4ctst2amatchingQuestions, ...g4ctst2bmatchingQuestions, ...g4ctst3amatchingQuestions, ...g4ctst3bmatchingQuestions,
+...g4ctst1amatchingQuestions, 
+...g4ctst1bmatchingQuestions, 
+...g4ctst2amatchingQuestions, 
+...g4ctst2bmatchingQuestions, 
+...g4ctst3amatchingQuestions, 
+...g4ctst3bmatchingQuestions,
 
 // Mathematics
 // Multiple Choice
@@ -801,7 +873,12 @@ const questionsBank = [
 
   // SP1
   // Sudoku
-// /*  ...g4sp1t1bsudokuQuestions, ...g4sp1t1bsudokuQuestions, ...g4sp1t2asudokuQuestions, ...g4sp1t2bsudokuQuestions, ...g4sp1t3asudokuQuestions,*/ ...g4sp1t3bsudokuQuestions,
+ /*  ...g4sp1t1bsudokuQuestions, 
+...g4sp1t1bsudokuQuestions,
+...g4sp1t2asudokuQuestions, 
+...g4sp1t2bsudokuQuestions, 
+...g4sp1t3asudokuQuestions,
+...g4sp1t3bsudokuQuestions,*/
   // SP1
   // Search Word
 /*  ...g1sp1t3bwordSearchQuestions,
@@ -821,15 +898,30 @@ const questionsBank = [
 
   // SP2
   // Image Based
-  ...g4sp2t1aimageBasedQuestions, ...g4sp2t1bimageBasedQuestions, ...g4sp2t2aimageBasedQuestions, ...g4sp2t2bimageBasedQuestions, ...g4sp2t3aimageBasedQuestions, ...g4sp2t3bimageBasedQuestions,
+  ...g4sp2t1aimageBasedQuestions, 
+...g4sp2t1bimageBasedQuestions, 
+...g4sp2t2aimageBasedQuestions, 
+...g4sp2t2bimageBasedQuestions, 
+...g4sp2t3aimageBasedQuestions,
+...g4sp2t3bimageBasedQuestions,
 
 
   // Grade 5
   // Science
   // Multiple Choice
-  ...g5scit1amultipleChoiceQuestions, ...g5scit1bmultipleChoiceQuestions, ...g5scit2amultipleChoiceQuestions, ...g5scit2bmultipleChoiceQuestions, ...g5scit3amultipleChoiceQuestions, ...g5scit3bmultipleChoiceQuestions,
+  ...g5scit1amultipleChoiceQuestions, 
+...g5scit1bmultipleChoiceQuestions,
+...g5scit2amultipleChoiceQuestions, 
+...g5scit2bmultipleChoiceQuestions, 
+...g5scit3amultipleChoiceQuestions, 
+...g5scit3bmultipleChoiceQuestions,
   // One Word Questions
-  ...g5scit1amatchingQuestions, ...g5scit1bmatchingQuestions, ...g5scit2amatchingQuestions, ...g5scit2bmatchingQuestions, ...g5scit3amatchingQuestions, ...g5scit3bmatchingQuestions,
+  ...g5scit1amatchingQuestions, 
+...g5scit1bmatchingQuestions, 
+...g5scit2amatchingQuestions, 
+...g5scit2bmatchingQuestions, 
+...g5scit3amatchingQuestions, 
+...g5scit3bmatchingQuestions,
 // Fill in the Blanks
 /*...g5scit1afillInTheBlankQuestions,
 ...g5scit1bfillInTheBlankQuestions,
@@ -868,9 +960,19 @@ const questionsBank = [
   // Grade 5
   // Social Studies
   // Multiple Choice
-  ...g5sst1amultipleChoiceQuestions, ...g5sst1bmultipleChoiceQuestions, ...g5sst2amultipleChoiceQuestions, ...g5sst2bmultipleChoiceQuestions, ...g5sst3amultipleChoiceQuestions, ...g5sst3bmultipleChoiceQuestions,
+  ...g5sst1amultipleChoiceQuestions, 
+...g5sst1bmultipleChoiceQuestions, 
+...g5sst2amultipleChoiceQuestions, 
+...g5sst2bmultipleChoiceQuestions, 
+...g5sst3amultipleChoiceQuestions, 
+...g5sst3bmultipleChoiceQuestions,
   // True or False
-  ...g5sst1atrueFalseQuestions, ...g5sst1btrueFalseQuestions, ...g5sst2atrueFalseQuestions, ...g5sst2btrueFalseQuestions, ...g5sst3atrueFalseQuestions, ...g5sst3btrueFalseQuestions,
+  ...g5sst1atrueFalseQuestions, 
+...g5sst1btrueFalseQuestions,
+...g5sst2atrueFalseQuestions, 
+...g5sst2btrueFalseQuestions, 
+...g5sst3atrueFalseQuestions,
+...g5sst3btrueFalseQuestions,
   // Fill in the Blanks
 /*  ...g5sst1afillInTheBlankQuestions,
   ...g5sst1bfillInTheBlankQuestions,
@@ -1017,8 +1119,8 @@ const questionsBank = [
   ...g5matht3bgraphicalQuestions,
   ...g5matht3bgraphicalQuestions,
   ...g5matht3bgraphicalQuestions,
-  ...g5matht3agraphicalQuestions,*/
-  ...g5matht3bgraphicalQuestions,
+  ...g5matht3agraphicalQuestions,
+  ...g5matht3bgraphicalQuestions,*/
 
   // SP1
   // Search Word
@@ -1031,7 +1133,12 @@ const questionsBank = [
 
   // SP2
   // Image Based
-  ...g5sp2t1aimageBasedQuestions, ...g5sp2t1bimageBasedQuestions, ...g5sp2t2aimageBasedQuestions, ...g5sp2t2bimageBasedQuestions, ...g5sp2t3aimageBasedQuestions, ...g5sp2t3bimageBasedQuestions,
+  ...g5sp2t1aimageBasedQuestions, 
+...g5sp2t1bimageBasedQuestions, 
+...g5sp2t2aimageBasedQuestions, 
+...g5sp2t2bimageBasedQuestions, 
+...g5sp2t3aimageBasedQuestions, 
+...g5sp2t3bimageBasedQuestions,
 
   // SP1
   // Sudoku
@@ -1055,7 +1162,12 @@ const questionsBank = [
 // Grade 6
   // SP2
   // Image Based
-  ...g6sp2t1aimageBasedQuestions, ...g6sp2t1bimageBasedQuestions, ...g6sp2t2aimageBasedQuestions, ...g6sp2t2bimageBasedQuestions, ...g6sp2t3aimageBasedQuestions, ...g6sp2t3bimageBasedQuestions,
+  ...g6sp2t1aimageBasedQuestions, 
+...g6sp2t1bimageBasedQuestions,
+...g6sp2t2aimageBasedQuestions, 
+...g6sp2t2bimageBasedQuestions,
+...g6sp2t3aimageBasedQuestions, 
+...g6sp2t3bimageBasedQuestions,
 
   // Special
 /*  ...g6sp2t1aimageBasedQuestions,
@@ -1522,7 +1634,7 @@ case "counting":
     break;
       
       
-      
+      /*
         case "statistics":
             // For graphical math questions like charts
             switch (q.chartType) {
@@ -1592,6 +1704,8 @@ case "counting":
                     break;
             }
             break;
+      
+      */
       
         case "primary":
             // For primary level math (simple arithmetic)
