@@ -901,14 +901,21 @@ const questionsBank = [
   ...g5scit2amultipleChoiceQuestions,
   ...g5scit2bmultipleChoiceQuestions,*/
   ...g5engt3amultipleChoiceQuestions,
-//  ...g5scit3bmultipleChoiceQuestions,
+  ...g5engt3bmultipleChoiceQuestions,
+  // Multiple Choice
+/*  ...g5engt3bpunctuationQuestions,
+  ...g5engt3bpunctuationQuestions,
+  ...g5engt3bpunctuationQuestions,
+  ...g5engt3bpunctuationQuestions,
+  ...g5engt3apunctuationQuestions,*/
+  ...g5engt3bpunctuationQuestions,
   // One Word Questions
 /*  ...g5scit1amatchingQuestions,
   ...g5scit1bmatchingQuestions,
   ...g5scit2amatchingQuestions,
   ...g5scit2bmatchingQuestions,*/
   ...g5engt3acomprehensionQuestions,
-//  ...g5scit3bmatchingQuestions,
+  ...g5engt3bcomprehensionQuestions,
 // Fill in the Blanks
 ...g5engt3afillInTheBlankQuestions,
 // True or False
@@ -1144,3 +1151,8 @@ const questionsBank = [
 
 
 ];
+
+// Function to count the total number of questions in the questionsBank array
+function countTotalQuestions() {
+  return questionsBank.length;
+}

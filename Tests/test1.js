@@ -24,6 +24,8 @@
     "handwriting": false,
     "reading": false,
     "sudoku": false,
+    "identity": false,
+    "time": false,
     "wordSearchPuzzle": false
   };
 
@@ -109,6 +111,14 @@
         
           case "sudoku":
           sectionIdentifierText = "Sudoku <br><em>Solve the sudoku given below accurately.</em>";
+          break;
+        
+          case "identity":
+          sectionIdentifierText = "Identity <br><em>Solve the sudoku given below accurately.</em>";
+          break;
+        
+          case "time":
+          sectionIdentifierText = "Time <br><em>Write the time or show the time given.</em>";
           break;
         
           case "wordSearchPuzzle":
@@ -1515,7 +1525,118 @@ case "identity":
     break;
                   
                   
-                  
+     
+      
+case "time":
+    const timeContainer = document.createElement("div");
+    timeContainer.classList.add("time-container");
+
+    // Add time prompt
+    if (q.timePrompt) {
+        const timePrompt = document.createElement("h3");
+        timePrompt.innerHTML = q.timePrompt;
+        timePrompt.classList.add("time-prompt");
+        timeContainer.appendChild(timePrompt);
+    }
+
+    // Create clock face
+    const clockFace = document.createElement("div");
+    clockFace.classList.add("clock-face");
+
+    // Add hour numbers in a circular pattern
+    for (let i = 1; i <= 12; i++) {
+        const hourNumber = document.createElement("div");
+        hourNumber.classList.add("hour-number");
+        hourNumber.style.transform = `rotate(${i * 30}deg) translate(0, -80px) rotate(-${i * 30}deg)`;
+        hourNumber.innerText = i;
+        clockFace.appendChild(hourNumber);
+    }
+
+    // Add minute markers around the clock
+    for (let i = 0; i < 60; i++) {
+        const minuteMark = document.createElement("div");
+        minuteMark.classList.add("minute-mark");
+        minuteMark.style.transform = `rotate(${i * 6}deg) translate(0, -90px)`;
+        clockFace.appendChild(minuteMark);
+    }
+
+    // Create clock hands for reading and setting modes
+    const hourHand = document.createElement("div");
+    hourHand.classList.add("clock-hand", "hour-hand");
+    const minuteHand = document.createElement("div");
+    minuteHand.classList.add("clock-hand", "minute-hand");
+    clockFace.appendChild(hourHand);
+    clockFace.appendChild(minuteHand);
+
+    timeContainer.appendChild(clockFace);
+    questionWrapper.appendChild(timeContainer);
+
+    // Display time inputs for reading mode
+    if (q.timeMode === "read") {
+        const inputContainer = document.createElement("div");
+        inputContainer.classList.add("input-container");
+
+        const hourInput = document.createElement("input");
+        hourInput.type = "number";
+        hourInput.placeholder = "Hour";
+        hourInput.classList.add("time-input");
+        inputContainer.appendChild(hourInput);
+
+        const minuteInput = document.createElement("input");
+        minuteInput.type = "number";
+        minuteInput.placeholder = "Minute";
+        minuteInput.classList.add("time-input");
+        inputContainer.appendChild(minuteInput);
+
+        timeContainer.appendChild(inputContainer);
+
+        // Set the clock hands to the specified time
+        const hourAngle = (q.displayedHour % 12) * 30 + (q.displayedMinute / 60) * 30;
+        const minuteAngle = q.displayedMinute * 6;
+        hourHand.style.transform = `rotate(${hourAngle}deg)`;
+        minuteHand.style.transform = `rotate(${minuteAngle}deg)`;
+    } else if (q.timeMode === "set") {
+        // Interactive clock for setting mode with touch support
+        let isHourHandMoving = false;
+        let isMinuteHandMoving = false;
+
+        function rotateHand(e, hand, degreesPerStep) {
+            const rect = clockFace.getBoundingClientRect();
+            const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left - rect.width / 2;
+            const y = (e.touches ? e.touches[0].clientY : e.clientY) - rect.top - rect.height / 2;
+            const angle = Math.atan2(y, x) * (180 / Math.PI) + 90;
+            hand.style.transform = `rotate(${Math.round(angle / degreesPerStep) * degreesPerStep}deg)`;
+        }
+
+        hourHand.addEventListener("mousedown", () => { isHourHandMoving = true; });
+        minuteHand.addEventListener("mousedown", () => { isMinuteHandMoving = true; });
+
+        hourHand.addEventListener("touchstart", () => { isHourHandMoving = true; });
+        minuteHand.addEventListener("touchstart", () => { isMinuteHandMoving = true; });
+
+        document.addEventListener("mousemove", (e) => {
+            if (isHourHandMoving) rotateHand(e, hourHand, 30);
+            if (isMinuteHandMoving) rotateHand(e, minuteHand, 6);
+        });
+
+        document.addEventListener("touchmove", (e) => {
+            if (isHourHandMoving) rotateHand(e, hourHand, 30);
+            if (isMinuteHandMoving) rotateHand(e, minuteHand, 6);
+        });
+
+        document.addEventListener("mouseup", () => {
+            isHourHandMoving = false;
+            isMinuteHandMoving = false;
+        });
+
+        document.addEventListener("touchend", () => {
+            isHourHandMoving = false;
+            isMinuteHandMoving = false;
+        });
+    }
+
+    break;
+              
                   
                   
                   
