@@ -15,6 +15,7 @@ function displayQuestions() {
     "math": false,
     "comprehension": false,
     "image_based": false,
+    "imaging": false,    
     "maze": false,
     "crossword": false,
     "coloring": false,    
@@ -69,6 +70,9 @@ function displayQuestions() {
         case "image_based":
           sectionIdentifierText = "Image Section";
           break;
+        case "imaging":
+          sectionIdentifierText = "Imaging Section";
+          break;        
         case "maze":
           sectionIdentifierText = "Maze Section";
           break;
@@ -321,6 +325,7 @@ break;
       
       
       case "math":
+      
     const mathContainer = document.createElement("div");
     mathContainer.classList.add("math-container"); // Add main container class for styling
 
@@ -353,7 +358,7 @@ case "counting":
     break;
       
       
-      /*
+      
         case "statistics":
             // For graphical math questions like charts
             switch (q.chartType) {
@@ -424,7 +429,7 @@ case "counting":
             }
             break;
       
-      */
+      
       
         case "primary":
             // For primary level math (simple arithmetic)
@@ -470,6 +475,7 @@ case "middle-school":
                 advancedProblemElement.classList.add("math-advanced-question"); // Style for advanced-level questions
                 mathContainer.appendChild(advancedProblemElement);
             });
+      
             break;
 
         default:
@@ -598,6 +604,84 @@ case "image_based":
     // Finally, append the image-based question container to the questionWrapper
     questionWrapper.appendChild(imageQuestionContainer);
     break;
+      
+      
+      
+      
+case "imaging":
+    // Create a container div for the image and associated questions
+    const imagingContainer = document.createElement("div");
+    imagingContainer.classList.add("imaging-container"); // Unique class for styling
+
+    // Create and add the image element only once
+    const imagingImgElement = document.createElement("img");
+
+    // Check if the image source exists and log the path
+    if (q.imageSrc) {
+        console.log("Loading image from: " + q.imageSrc); // Log image path for debugging
+        imagingImgElement.setAttribute("src", q.imageSrc); // Set the image source dynamically
+    } else {
+        console.log("Image source is missing for question set: ", q); // Log missing image source for debugging
+    }
+
+    imagingImgElement.setAttribute("alt", "Question Image");
+    imagingImgElement.setAttribute("width", "100%"); // Set width as needed
+    imagingImgElement.setAttribute("height", "auto"); // Set height as needed
+    imagingContainer.appendChild(imagingImgElement);
+    imagingContainer.appendChild(document.createElement("br"));
+
+    // Loop through each question related to this single image
+    q.questions.forEach((question, questionIndex) => {
+        // Create a question description for each question
+        const imagingQuestionDescription = document.createElement("p");
+        imagingQuestionDescription.innerHTML = question.description; // Use the individual question description
+        imagingContainer.appendChild(imagingQuestionDescription);
+
+        // Create a unique sub-choices container for each question's options or input field
+        const imagingSubChoicesContainer = document.createElement("div");
+        imagingSubChoicesContainer.classList.add("imaging-sub-choices-container"); // Unique class for styling
+
+        // Based on the question's sub-type, add either multiple-choice or fill-in-the-blank options
+        if (question.subType === "multiple_choice") {
+            question.options.forEach((option, optionIndex) => {
+                const imagingRadioInput = document.createElement("input");
+                imagingRadioInput.setAttribute("type", "radio");
+                imagingRadioInput.setAttribute("id", `imaging-option-${questionIndex}-${optionIndex}`);
+                imagingRadioInput.setAttribute("name", `imaging-question-${questionIndex}`);
+                imagingRadioInput.setAttribute("value", option);
+
+                const imagingLabel = document.createElement("label");
+                imagingLabel.setAttribute("for", `imaging-option-${questionIndex}-${optionIndex}`);
+                imagingLabel.innerHTML = option;
+
+                imagingSubChoicesContainer.appendChild(imagingRadioInput);
+                imagingSubChoicesContainer.appendChild(imagingLabel);
+                imagingSubChoicesContainer.appendChild(document.createElement("br"));
+            });
+        } else if (question.subType === "fill_in_the_blank") {
+            const imagingAnswerInput = document.createElement("input");
+            imagingAnswerInput.setAttribute("type", "text");
+            imagingAnswerInput.setAttribute("id", `imaging-answer-${questionIndex}`);
+            imagingAnswerInput.setAttribute("name", `imaging-question-${questionIndex}`);
+
+            const imagingAnswerLabel = document.createElement("label");
+            imagingAnswerLabel.innerHTML = "Answer: ";
+
+            imagingSubChoicesContainer.appendChild(imagingAnswerLabel);
+            imagingSubChoicesContainer.appendChild(imagingAnswerInput);
+            imagingSubChoicesContainer.appendChild(document.createElement("br"));
+        }
+
+        // Append each question's sub-choices container to the main container
+        imagingContainer.appendChild(imagingSubChoicesContainer);
+    });
+
+    // Finally, append the entire container for this case to the questionWrapper
+    questionWrapper.appendChild(imagingContainer);
+    break;
+
+    
+      
       
       
       

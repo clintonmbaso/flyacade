@@ -41,45 +41,49 @@ function generateFilename() {
 }
     
     
-// Function to save the entire page content as PDF, including the answer key
-document.getElementById('savePDF').addEventListener('click', () => {
-    const filename = generateFilename();
-    const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
-    const savePDFButton = document.getElementById('savePDF');
-    const classImages = document.getElementById('classImage');
-    const answerKeyModal = document.getElementById('answer-key-modal'); // Modal containing the answer key
-    const answerKeyContent = answerKeyModal.querySelector('.modal-content'); // The answer key content inside the modal
 
-    // Hide the buttons
+
+// Function to save the page content as an editable Word document (docx)
+document.getElementById('saveDoc').addEventListener('click', () => {
+    const filename = generateFilename(); // Use the filename generator function
+    const answerKeyButton = document.getElementById('show-answer-key-btn');
+    const saveDocButton = document.getElementById('saveDoc');
+    const classImages = document.getElementById('classImage');
+    const answerKeyModal = document.getElementById('answer-key-modal');
+    const answerKeyContent = answerKeyModal.querySelector('.modal-content');
+
+    // Hide the buttons before generating the document
     answerKeyButton.style.display = 'none';
-    savePDFButton.style.display = 'none';
+    saveDocButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    // Clone the answer key content and append it to the body temporarily for PDF generation
-    const answerKeyClone = answerKeyContent.cloneNode(true); // Clone the answer key content
-    answerKeyClone.style.display = 'block'; // Make sure the answer key is visible in the PDF
-    document.body.appendChild(answerKeyClone); // Append answer key after the rest of the content
+    // Clone the answer key content and append it to the body temporarily for saving
+    const answerKeyClone = answerKeyContent.cloneNode(true);
+    answerKeyClone.style.display = 'block';
+    document.body.appendChild(answerKeyClone);
 
-    const element = document.body; // Get the entire body element
-    html2pdf()
-        .set({
-            margin: 10,
-            filename: `${filename}.pdf`, // Use the generated filename
-            image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2 },
-            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-        })
-        .from(element) // Use the body element to capture the entire page, including answer key
-        .save() // Save the PDF
-        .then(() => {
-            // Remove the answer key from the page after saving the PDF
-            answerKeyClone.remove();
+    // Grab the entire body content to include all sections, including the answer key
+    const contentToSave = document.body.innerHTML;
 
-            // Restore the hidden buttons after saving the PDF
-            answerKeyButton.style.display = 'block';
-            savePDFButton.style.display = 'block';
-            classImages.style.display = 'block';
-        });
+    // Convert HTML content to docx using html-docx-js
+    const convertedDoc = htmlDocx.asBlob(contentToSave, {
+        orientation: 'portrait',  // Document orientation
+        margins: { top: 720, left: 720, bottom: 720, right: 720 } // Margins (in twips)
+    });
+
+    // Trigger a download of the Word document
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(convertedDoc);
+    link.download = `${filename}.docx`; // Filename with .docx extension
+    link.click(); // Initiate download
+
+    // Cleanup: remove the cloned answer key content
+    answerKeyClone.remove();
+
+    // Restore the hidden buttons
+    answerKeyButton.style.display = 'block';
+    saveDocButton.style.display = 'block';
+    classImages.style.display = 'block';
 });
     
     

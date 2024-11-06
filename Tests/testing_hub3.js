@@ -291,7 +291,7 @@ const questionsBank = [
   ...g1scit3amatchingQuestions,
   ...g1scit3bmatchingQuestions,
 // Image
-  ...g1scit3bimageBasedQuestions,
+  ...g1scit3bimagingQuestions,
 
 // Social Studies
   // True or False

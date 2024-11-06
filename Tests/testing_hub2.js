@@ -9,6 +9,7 @@ function generateRandomQuestions() {
   const numMath = parseInt(document.getElementById("num-math").value);
   const numComprehension = parseInt(document.getElementById("num-comprehension").value);
   const numImageBased = parseInt(document.getElementById("num-image_based").value);
+  const numImaging = parseInt(document.getElementById("num-imaging").value);
   const numMaze = parseInt(document.getElementById("num-maze").value);
   const numCrossword = parseInt(document.getElementById("num-crossword").value);
   const numColoring = parseInt(document.getElementById("num-coloring").value);
@@ -67,6 +68,7 @@ function generateRandomQuestions() {
   randomQuestions.push(...getRandomQuestionsByType("math", numMath));
   randomQuestions.push(...getRandomQuestionsByType("comprehension", numComprehension));
   randomQuestions.push(...getRandomQuestionsByType("image_based", numImageBased));
+  randomQuestions.push(...getRandomQuestionsByType("imaging", numImaging));
   randomQuestions.push(...getRandomQuestionsByType("maze", numMaze));
   randomQuestions.push(...getRandomQuestionsByType("crossword", numCrossword));
   randomQuestions.push(...getRandomQuestionsByType("coloring", numColoring));
