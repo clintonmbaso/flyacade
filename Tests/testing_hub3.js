@@ -867,14 +867,14 @@ const questionsBank = [
   ...g4sp1t3bmultipleChoiceQuestions,*/
   ...g4sp1t3bmultipleChoiceQuestions,
 
-
+/*
   // SP2
   // Image Based
   ...g4sp2t1aimageBasedQuestions, 
 ...g4sp2t1bimageBasedQuestions, 
 ...g4sp2t2aimageBasedQuestions, 
 ...g4sp2t2bimageBasedQuestions, 
-...g4sp2t3aimageBasedQuestions,
+...g4sp2t3aimageBasedQuestions,*/
 ...g4sp2t3bimageBasedQuestions,
 
 
@@ -1110,14 +1110,14 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g5sp1t3bwordSearchQuestions,
 */
-
+/*
   // SP2
   // Image Based
   ...g5sp2t1aimageBasedQuestions, 
 ...g5sp2t1bimageBasedQuestions, 
 ...g5sp2t2aimageBasedQuestions, 
 ...g5sp2t2bimageBasedQuestions, 
-...g5sp2t3aimageBasedQuestions, 
+...g5sp2t3aimageBasedQuestions, */
 ...g5sp2t3bimageBasedQuestions,
 
   // SP1
