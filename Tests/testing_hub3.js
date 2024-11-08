@@ -1117,7 +1117,7 @@ const questionsBank = [
 ...g5sp2t1bimageBasedQuestions, 
 ...g5sp2t2aimageBasedQuestions, 
 ...g5sp2t2bimageBasedQuestions, 
-...g5sp2t3aimageBasedQuestions, */
+...g5sp2t3aimageBasedQuestions, 
 ...g5sp2t3bimageBasedQuestions,
 
   // SP1
