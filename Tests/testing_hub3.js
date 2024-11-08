@@ -1117,7 +1117,7 @@ const questionsBank = [
 ...g5sp2t1bimageBasedQuestions, 
 ...g5sp2t2aimageBasedQuestions, 
 ...g5sp2t2bimageBasedQuestions, 
-...g5sp2t3aimageBasedQuestions, 
+...g5sp2t3aimageBasedQuestions, */
 ...g5sp2t3bimageBasedQuestions,
 
   // SP1
@@ -1126,7 +1126,7 @@ const questionsBank = [
   ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,
+  ...g5sp1t3bsudokuQuestions,*/
   ...g5sp1t3bsudokuQuestions,
 
   // Crossword
@@ -1134,11 +1134,11 @@ const questionsBank = [
   ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,*/
   ...g5sp1t3bcrosswordQuestions,
 
 
-*/
+
 // Grade 6
   // SP2
   // Image Based
