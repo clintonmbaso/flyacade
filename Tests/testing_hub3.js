@@ -698,7 +698,7 @@ const questionsBank = [
 ...g3sp1t2bsudokuQuestions, 
 ...g3sp1t3asudokuQuestions,
 ...g3sp1t3bsudokuQuestions,
-
+*/
   // SP2
   // Image Based
   ...g3sp2t1aimageBasedQuestions, 
