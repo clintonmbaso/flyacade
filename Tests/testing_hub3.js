@@ -1126,7 +1126,7 @@ const questionsBank = [
   ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,*/
+  ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
 
   // Crossword
@@ -1134,11 +1134,11 @@ const questionsBank = [
   ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,*/
+  ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
 
 
-
+*/
 // Grade 6
   // SP2
   // Image Based
