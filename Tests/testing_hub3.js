@@ -864,9 +864,9 @@ const questionsBank = [
   ...g4sp1t3bmultipleChoiceQuestions,
   ...g4sp1t3bmultipleChoiceQuestions,
   ...g4sp1t3bmultipleChoiceQuestions,
+  ...g4sp1t3bmultipleChoiceQuestions,*/
   ...g4sp1t3bmultipleChoiceQuestions,
-  ...g4sp1t3bmultipleChoiceQuestions,
-/*
+
 
   // SP2
   // Image Based
@@ -877,7 +877,7 @@ const questionsBank = [
 ...g4sp2t3aimageBasedQuestions,
 ...g4sp2t3bimageBasedQuestions,
 
-*/
+
   // Grade 5
   // Science
   // Multiple Choice
@@ -1110,7 +1110,7 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g5sp1t3bwordSearchQuestions,
 */
-/*
+
   // SP2
   // Image Based
   ...g5sp2t1aimageBasedQuestions, 
@@ -1119,24 +1119,24 @@ const questionsBank = [
 ...g5sp2t2bimageBasedQuestions, 
 ...g5sp2t3aimageBasedQuestions, 
 ...g5sp2t3bimageBasedQuestions,
-*/
+
   // SP1
   // Sudoku
 /*  ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,
+  ...g5sp1t3bsudokuQuestions,*/
   ...g5sp1t3bsudokuQuestions,
 
   // Crossword
-/*  ...g5sp2t1aimageBasedQuestions,
-  ...g5sp2t1bimageBasedQuestions,
-  ...g5sp2t2aimageBasedQuestions,
-  ...g5sp2t2bimageBasedQuestions,
-  ...g5sp2t3aimageBasedQuestions,
+/*  ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
-*/
+  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,*/
+  ...g5sp1t3bcrosswordQuestions,
+
 
 
 // Grade 6
