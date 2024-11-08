@@ -775,12 +775,12 @@
 }
 
 .hour-hand {
-    height: 6px;
-    width: 30%;
+    height: 3px;
+    width: 25%;
 }
 
 .minute-hand {
-    height: 4px;
+    height: 3px;
     width: 45%;
 }
 

@@ -149,32 +149,24 @@ const questionsBank = [
 /*  ...recscit2amultipleChoiceQuestions,
   ...recscit2bmultipleChoiceQuestions, */
   ...recscit3amultipleChoiceQuestions,
-  ...recscit3bmultipleChoiceQuestions,
 // Fill in the Blanks
 ...recscit3afillInTheBlankQuestions,
-...recscit3bfillInTheBlankQuestions,
 // True or False
 ...recscit3atrueFalseQuestions,
-...recscit3btrueFalseQuestions,
 // Matching
 ...recscit3amatchingQuestions,
-...recscit3bmatchingQuestions,
 
   // English
   // Multiple Choice
 //  ...recengt2amultipleChoiceQuestions,
 //  ...recengt2bmultipleChoiceQuestions, 
   ...recengt3amultipleChoiceQuestions,
-  ...recengt3bmultipleChoiceQuestions,
 // Fill in the Blanks
 ...recengt3afillInTheBlankQuestions,
-...recengt3bfillInTheBlankQuestions,
 // True or False
 ...recengt3atrueFalseQuestions,
-...recengt3btrueFalseQuestions,
 // Matching
 ...recengt3amatchingQuestions,
-...recengt3bmatchingQuestions,
 
   // Literacy
   // Multiple Choice
@@ -214,16 +206,12 @@ const questionsBank = [
 //  ...recengt2amultipleChoiceQuestions,
 //  ...recengt2bmultipleChoiceQuestions, 
   ...recexpt3amultipleChoiceQuestions,
-  ...recexpt3bmultipleChoiceQuestions,
 // Fill in the Blanks
 ...recexpt3afillInTheBlankQuestions,
-...recexpt3bfillInTheBlankQuestions,
 // True or False
 ...recexpt3atrueFalseQuestions,
-...recexpt3btrueFalseQuestions,
 // Matching
 ...recexpt3amatchingQuestions,
-...recexpt3bmatchingQuestions,
 
   // SP2
   // Image Based
@@ -1136,9 +1124,9 @@ const questionsBank = [
   ...g5sp2t2bimageBasedQuestions,
   ...g5sp2t3aimageBasedQuestions,
   ...g5sp1t3bcrosswordQuestions,
-*/
 
 
+/*
 // Grade 6
   // SP2
   // Image Based
@@ -1148,23 +1136,23 @@ const questionsBank = [
 ...g6sp2t2bimageBasedQuestions,
 ...g6sp2t3aimageBasedQuestions, 
 ...g6sp2t3bimageBasedQuestions,
-/*
+*/
   // Special
-  ...g6sp2t1aimageBasedQuestions,
+/*  ...g6sp2t1aimageBasedQuestions,
   ...g6sp2t1bimageBasedQuestions,
   ...g6sp2t2aimageBasedQuestions,
   ...g6sp2t2bimageBasedQuestions,
-  ...g6sp2t3aimageBasedQuestions,*/
+  ...g6sp2t3aimageBasedQuestions,
   ...g6sp2t3bspecialQuestions,
-/*
-  // Special2
-  ...g6sp2t3bspecial2Questions,
-  ...g6sp2t3bspecial2Questions,
-  ...g6sp2t3bspecial2Questions,
-  ...g6sp2t3bspecial2Questions,
-  ...g6sp2t3aspecial2Questions,*/
-  ...g6sp2t3bspecial2Questions,
 
+  // Special2
+/*  ...g6sp2t3bspecial2Questions,
+  ...g6sp2t3bspecial2Questions,
+  ...g6sp2t3bspecial2Questions,
+  ...g6sp2t3bspecial2Questions,
+  ...g6sp2t3aspecial2Questions,
+  ...g6sp2t3bspecial2Questions,
+*/
 ];
 
 // Function to count the total number of questions in the questionsBank array
