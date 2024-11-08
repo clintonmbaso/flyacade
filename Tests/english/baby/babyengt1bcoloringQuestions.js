@@ -1,3 +1,0 @@
-const babyengt1bcoloringQuestions = [
-
-];
