@@ -232,8 +232,16 @@ const questionsBank = [
 ...recexpt3bmatchingQuestions,
 
 // Math
+...recmatht3bmultipleChoiceQuestions,
 // Simple Arithmetic
 ...recmatht3bsimpleArithmeticQuestions,
+// Number Table
+...recmatht3bnumberTableQuestions,
+// Object Math
+...recmatht3bobjectMathQuestions,
+// Object Math
+...recmatht3btimeQuestions,
+
 
   // SP2
   // Image Based

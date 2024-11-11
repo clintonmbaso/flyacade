@@ -356,36 +356,101 @@
 
 
 
-.reading-container {
-    margin: 10px 0;
-}
-
-.reading-words-container {
+.time-container {
     display: flex;
-    gap: 20px;
-    font-size: 1.5em; /* Bigger font for children */
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 
-.reading-word {
-    font-size: 2em; /* Even larger for clarity */
+.clock-face {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 4px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.reading-short-sentences-container {
-    display: block;
-    font-size: 1.2em; /* Smaller font for mid-aged learners */
+.hour-number {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transform-origin: center;
+    transform: translate(-50%, -50%);
 }
 
-.reading-short-sentence {
-    margin: 10px 0;
+.minute-mark {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform-origin: 50% 150px;
 }
 
-.reading-long-sentences-container {
-    display: block;
-    font-size: 1em; /* Normal font for adults */
+.clockHand {
+    position: absolute;
+    width: 2px; /* Adjust as needed */
+    background-color: black; /* Adjust as needed */
+    transform-origin: 50% 2%; /* Pivot at the center bottom of the hand */
+    left: 47%; /* Center horizontally */
+    top: 44.6%; /* Center vertically */
+    transform: rotate(0deg); /* Initial state */
+    transition: transform 0.3s ease; /* Smooth rotation */
 }
 
-.reading-long-sentence {
-    margin: 15px 0;
+.hourHand {
+    width: 5px;
+    height: 45px;
+    border-radius: 20px;
+    z-index: 2; /* Ensures hour hand is above the minute hand */
+}
+
+.hourHand::before {
+    content: ''; /* Empty content */
+    position: absolute;
+    border-radius: 10px;
+    top: 5; /* Position the white line at the top of the hour hand */
+    left: 50%; /* Center it horizontally */
+    width: 2px; /* Adjust the width of the white line */
+    height: 80%; /* Make the line extend the full height of the hour hand */
+    background-color: white; /* Set the color of the line */
+    transform: translateX(-50%); /* Center the white line inside the hour hand */
+}
+
+.minuteHand {
+    width: 5px;
+    border-radius: 20px;
+    height: 75px;
+    z-index: 1; /* Ensures minute hand is below the hour hand */
+}
+.minuteHand::before {
+    content: ''; /* Empty content */
+    position: absolute;
+    border-radius: 10px;
+    top: 5; /* Position the white line at the top of the hour hand */
+    left: 50%; /* Center it horizontally */
+    width: 2px; /* Adjust the width of the white line */
+    height: 70%; /* Make the line extend the full height of the hour hand */
+    background-color: white; /* Set the color of the line */
+    transform: translateX(-50%); /* Center the white line inside the hour hand */
+}
+
+/* Center dot at the middle of the clock face */
+.clockDot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 10;
+    left: 46%; /* Center horizontally */
+    top: 43%; /* Center vertically */
+
 }
 
 
@@ -985,4 +1050,105 @@
     height: 40px;
     transform: rotate(360deg);
     margin-left: 10px;
+}
+
+
+
+.number-table-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.number-table-prompt {
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.number-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: auto;
+}
+
+.number-cell {
+    border: 1px solid #333;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+}
+
+.number-cell.highlighted {
+    background-color: #d1e7fd; /* Highlight color */
+}
+
+
+
+
+
+
+.object-math-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left-objects-container,
+.right-objects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 120px; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    border: 1px solid #ddd; /* Optional border */
+    background-color: #f9f9f9; /* Background color */
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.object-image {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    margin: 2px; /* Spacing between images */
+}
+
+/* Adding randomness to positioning */
+.object-image:nth-child(1) { top: 10px; left: 5px; }
+.object-image:nth-child(2) { top: 10px; left: 35px; }
+.object-image:nth-child(3) { top: 10px; left: 65px; }
+.object-image:nth-child(4) { top: 10px; left: 95px; }
+.object-image:nth-child(5) { top: 10px; left: 125px; }
+.object-image:nth-child(6) { top: 50px; left: 5px; }
+.object-image:nth-child(7) { top: 50px; left: 35px; }
+.object-image:nth-child(8) { top: 50px; left: 65px; }
+.object-image:nth-child(9) { top: 50px; left: 95px; }
+.object-image:nth-child(10) { top: 50px; left: 125px; }
+
+.operator-display {
+    font-size: 40px; /* Adjust size as needed */
+    font-weight: bold;
+    margin: 0 5px; /* Spacing between operator and objects */
+}
+
+.result-input {
+    display: flex;
+    position: relative;
+    width: 80px; /* Adjust width as needed */
+    padding: 5px;
+    font-size: 18px; /* Adjust font size as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0; /* Adds space above the input */
+}
+
+
+.inline-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }

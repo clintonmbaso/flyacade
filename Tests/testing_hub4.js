@@ -26,8 +26,9 @@ function displayQuestions() {
     "sudoku": false,
     "identity": false,
     "time": false,
-    "wordSearchPuzzle": false      
-
+    "wordSearchPuzzle": false,
+    "numberTable": false,
+    "objectMath": false
   };
 
   let sectionIdentifierText = "";
@@ -106,8 +107,13 @@ function displayQuestions() {
         case "wordSearchPuzzle":
           sectionIdentifierText = "Word Search Puzzle Section";
           break;
-        
-        
+        case "numberTable":
+          sectionIdentifierText = "Number Table Section";
+          break;
+        case "objectMath":
+          sectionIdentifierText = "Object Math Section";
+          break;
+        
         
         default:
           sectionIdentifierText = "Section";
@@ -1611,11 +1617,14 @@ case "time":
 
     // Create clock hands for reading and setting modes
     const hourHand = document.createElement("div");
-    hourHand.classList.add("clock-hand", "hour-hand");
+    hourHand.classList.add("clockHand", "hourHand");
     const minuteHand = document.createElement("div");
-    minuteHand.classList.add("clock-hand", "minute-hand");
+    minuteHand.classList.add("clockHand", "minuteHand");
+    const clockDot = document.createElement("div");
+    clockDot.classList.add("clockHand", "clockDot");
     clockFace.appendChild(hourHand);
     clockFace.appendChild(minuteHand);
+    clockFace.appendChild(clockDot);
 
     timeContainer.appendChild(clockFace);
     questionWrapper.appendChild(timeContainer);
@@ -1811,6 +1820,116 @@ case "wordSearchPuzzle":
 
     questionWrapper.appendChild(puzzleContainer);
     break;
+      
+      
+      
+      
+      
+      
+case "numberTable":
+    const numberTableContainer = document.createElement("div");
+    numberTableContainer.classList.add("number-table-container");
+      
+
+    // Create a table element for displaying numbers
+    const numberTable = document.createElement("table");
+    numberTable.classList.add("number-table");
+
+    // Generate numbers based on the specified range and shuffle them
+    let start = q.rangeStart; // Starting number (e.g., 1)
+    let end = q.rangeEnd; // Ending number (e.g., 100)
+    let columns = q.columns || 10; // Number of columns, defaults to 10
+
+    // Create an array of numbers within the specified range
+    let numbers = [];
+    for (let i = start; i <= end; i++) {
+        numbers.push(i);
+    }
+
+    // Shuffle the numbers array
+    for (let i = numbers.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+    }
+
+    // Display shuffled numbers in the table
+    let row;
+    for (let i = 0; i < numbers.length; i++) {
+        if (i % columns === 0) {
+            row = document.createElement("tr");
+            numberTable.appendChild(row);
+        }
+
+        const cell = document.createElement("td");
+        cell.classList.add("number-cell");
+        cell.innerHTML = numbers[i];
+        cell.onclick = () => {
+            cell.classList.toggle("highlighted"); // Toggle highlight when clicked
+        };
+        row.appendChild(cell);
+    }
+
+    numberTableContainer.appendChild(numberTable);
+    questionWrapper.appendChild(numberTableContainer);
+    break;
+      
+      
+      
+case "objectMath":
+    const objectMathContainer = document.createElement("div");
+    objectMathContainer.classList.add("object-math-container");
+      
+    // Create a wrapper for the containers and operator to display them inline
+    const inlineWrapper = document.createElement("div");
+    inlineWrapper.classList.add("inline-wrapper");
+
+    // Create containers for the objects (e.g., images of items)
+    const leftObjectsContainer = document.createElement("div");
+    leftObjectsContainer.classList.add("objects-container", "left-objects-container");
+
+    const rightObjectsContainer = document.createElement("div");
+    rightObjectsContainer.classList.add("objects-container", "right-objects-container");
+
+    // Function to create object images and append them to a container
+    function createObjectImages(container, count, imageSrc) {
+        for (let i = 0; i < count; i++) {
+            const objectImage = document.createElement("img");
+            objectImage.src = imageSrc;
+            objectImage.classList.add("object-image");
+            container.appendChild(objectImage);
+        }
+    }
+
+    // Add objects for addition or subtraction based on the provided numbers
+    createObjectImages(leftObjectsContainer, q.num1, q.objectImage);
+    createObjectImages(rightObjectsContainer, q.num2, q.objectImage);
+
+    // Create an operator display (e.g., "+" or "-")
+    const operatorDisplay = document.createElement("div");
+    operatorDisplay.classList.add("operator-display");
+    operatorDisplay.innerHTML = q.operator;
+
+    // Append containers and operator to the inline wrapper
+    inlineWrapper.appendChild(leftObjectsContainer);
+    inlineWrapper.appendChild(operatorDisplay);
+    inlineWrapper.appendChild(rightObjectsContainer);
+
+    // Append the inline wrapper to the main container
+    objectMathContainer.appendChild(inlineWrapper);
+
+    // Create an input field for the result
+    const resultInput = document.createElement("input");
+    resultInput.type = "number";
+    resultInput.classList.add("result-input");
+    
+
+    // Append the result input below the inline wrapper
+    objectMathContainer.appendChild(resultInput);
+
+    // Append the object math container to the question wrapper
+    questionWrapper.appendChild(objectMathContainer);
+    break;
+      
       
       
       
