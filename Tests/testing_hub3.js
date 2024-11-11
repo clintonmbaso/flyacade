@@ -16,7 +16,13 @@ const questionsBank = [
 ...babyengt3bidentificationQuestions,
 ...babyengt3bidentificationQuestions,*/
 ...babyengt3bidentificationQuestions,
-
+// Letters
+...babyengt1aimageBasedQuestions,
+...babyengt1bimageBasedQuestions,
+...babyengt2aimageBasedQuestions,
+...babyengt2bimageBasedQuestions,
+...babyengt3aimageBasedQuestions,
+...babyengt3bimageBasedQuestions,
 
 // Math
 // Coloring
@@ -224,6 +230,10 @@ const questionsBank = [
 // Matching
 ...recexpt3amatchingQuestions,
 ...recexpt3bmatchingQuestions,
+
+// Math
+// Simple Arithmetic
+...recmatht3bsimpleArithmeticQuestions,
 
   // SP2
   // Image Based

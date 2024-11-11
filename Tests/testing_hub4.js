@@ -431,16 +431,56 @@ case "counting":
       
       
       
-        case "primary":
-            // For primary level math (simple arithmetic)
-            const primaryContent = q.mathContent || ["5 + 3 =", "7 - 2 ="];
-            primaryContent.forEach(expression => {
-                const expressionElement = document.createElement("p");
-                expressionElement.textContent = expression;
-                expressionElement.classList.add("math-primary-question"); // Style for primary-level questions
-                mathContainer.appendChild(expressionElement);
-            });
-            break;
+
+case "simpleArithmetic":
+    const mathContainer = document.createElement("div");
+    mathContainer.classList.add("math-container");
+
+    const arithmeticContainer = document.createElement("div");
+    arithmeticContainer.classList.add("arithmetic-container");
+
+    const num1Box = document.createElement("div");
+    num1Box.classList.add("number-box");
+    num1Box.textContent = q.num1;
+    arithmeticContainer.appendChild(num1Box);
+
+    const operator = document.createElement("div");
+    operator.classList.add("operator");
+    operator.textContent = q.operator;
+    arithmeticContainer.appendChild(operator);
+
+    const num2Box = document.createElement("div");
+    num2Box.classList.add("number-box");
+    num2Box.textContent = q.num2;
+    arithmeticContainer.appendChild(num2Box);
+
+    mathContainer.appendChild(arithmeticContainer);
+
+    // Add arrows below the numbers
+    const arrowsContainer = document.createElement("div");
+    arrowsContainer.classList.add("arrows");
+
+    const leftArrow = document.createElement("div");
+    leftArrow.classList.add("leftArrow");
+    arrowsContainer.appendChild(leftArrow);
+
+    const rightArrow = document.createElement("div");
+    rightArrow.classList.add("rightArrow");
+    arrowsContainer.appendChild(rightArrow);
+
+    mathContainer.appendChild(arrowsContainer);
+
+    // Add result box
+    const resultBox = document.createElement("div");
+    resultBox.classList.add("result-box");
+    const resultInput = document.createElement("input");
+    resultInput.type = "number";
+    resultInput.placeholder = "?";
+    resultBox.appendChild(resultInput);
+    mathContainer.appendChild(resultBox);
+
+    questionWrapper.appendChild(mathContainer);
+    break;
 
       
       

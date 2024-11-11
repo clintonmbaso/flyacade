@@ -918,3 +918,71 @@
   text-align: center;
     font-size: 15px;
 }
+
+
+
+
+.math-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.arithmetic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.number-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.operator {
+    font-size: 35px;
+    margin: 0 5px;
+}
+
+.result-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    margin-top: -40px;
+    font-size: 24px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-top: -20px;
+}
+
+.rightArrow {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    width: 20px;
+    height: 40px;
+    transform: rotate(-360deg);
+    margin-right: 10px;
+}
+.leftArrow {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 20px;
+    height: 40px;
+    transform: rotate(360deg);
+    margin-left: 10px;
+}

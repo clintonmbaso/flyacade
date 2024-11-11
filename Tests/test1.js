@@ -361,17 +361,12 @@ case "true_false":
                     
                     
       case "math":
-    const mathContainer = document.createElement("div");
+const mathContainer = document.createElement("div");
     mathContainer.classList.add("math-container"); // Add main container class for styling
 
-    // Display question text
-    const mathQuestionText = document.createElement("p");
-    mathQuestionText.textContent = q.question || "Solve the following:";
-    mathQuestionText.classList.add("math-question"); // Add class for styling question text
-    mathContainer.appendChild(mathQuestionText);
 
     switch (q.subtype) {
-        case "counting":
+case "counting":
     const countingContainer = document.createElement("div");
     countingContainer.classList.add("counting-container"); // Add a container for styling
       
@@ -466,19 +461,58 @@ case "true_false":
                     break;
             }
             break;
-      
-        case "primary":
-            // For primary level math (simple arithmetic)
-            const primaryContent = q.mathContent || ["5 + 3 =", "7 - 2 ="];
-            primaryContent.forEach(expression => {
-                const expressionElement = document.createElement("p");
-                expressionElement.textContent = expression;
-                expressionElement.classList.add("math-primary-question"); // Style for primary-level questions
-                mathContainer.appendChild(expressionElement);
-            });
-            break;
 
-        case "middle-school":
+case "simpleArithmetic":
+    const mathContainer = document.createElement("div");
+    mathContainer.classList.add("math-container");
+
+    const arithmeticContainer = document.createElement("div");
+    arithmeticContainer.classList.add("arithmetic-container");
+
+    const num1Box = document.createElement("div");
+    num1Box.classList.add("number-box");
+    num1Box.textContent = q.num1;
+    arithmeticContainer.appendChild(num1Box);
+
+    const operator = document.createElement("div");
+    operator.classList.add("operator");
+    operator.textContent = q.operator;
+    arithmeticContainer.appendChild(operator);
+
+    const num2Box = document.createElement("div");
+    num2Box.classList.add("number-box");
+    num2Box.textContent = q.num2;
+    arithmeticContainer.appendChild(num2Box);
+
+    mathContainer.appendChild(arithmeticContainer);
+
+    // Add arrows below the numbers
+    const arrowsContainer = document.createElement("div");
+    arrowsContainer.classList.add("arrows");
+
+    const leftArrow = document.createElement("div");
+    leftArrow.classList.add("leftArrow");
+    arrowsContainer.appendChild(leftArrow);
+
+    const rightArrow = document.createElement("div");
+    rightArrow.classList.add("rightArrow");
+    arrowsContainer.appendChild(rightArrow);
+
+    mathContainer.appendChild(arrowsContainer);
+
+    // Add result box
+    const resultBox = document.createElement("div");
+    resultBox.classList.add("result-box");
+    const resultInput = document.createElement("input");
+    resultInput.type = "number";
+    resultInput.placeholder = "?";
+    resultBox.appendChild(resultInput);
+    mathContainer.appendChild(resultBox);
+
+    questionWrapper.appendChild(mathContainer);
+    break;
+
+case "middle-school":
             // For middle school math (fractions, decimals, simple algebra)
             const middleSchoolContent = q.mathContent || ["1/2 + 1/4 =", "Solve for x: 3x + 5 = 20"];
             middleSchoolContent.forEach(problem => {
@@ -509,6 +543,7 @@ case "true_false":
                 advancedProblemElement.classList.add("math-advanced-question"); // Style for advanced-level questions
                 mathContainer.appendChild(advancedProblemElement);
             });
+      
             break;
 
         default:
@@ -522,9 +557,12 @@ case "true_false":
 
     // Append the math container to the question wrapper
     questionWrapper.appendChild(mathContainer);
-    break;
+    break;
       
-                    
+      
+      
+      
+      
                     
                     
                     case "matching":
