@@ -3,108 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Test</title>
+    <title>Save Page Content as Word Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-docx-js/0.4.1/html-docx.min.js"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
         .container {
-            max-width: 600px;
-            margin: 0 auto;
+            margin: 20px;
             padding: 20px;
-        }
-        h2 {
-            text-align: center;
-        }
-        form {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        input[type="text"], select {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
             border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
         }
-        fieldset {
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        legend {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .question {
-            margin-bottom: 10px;
+        .classImage img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Online Test</h2>
-        <form id="testForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="class">Class:</label>
-            <select id="class" name="class" required>
-            <option value="">Select Class</option>
-            <option value="Baby Birds">Baby Birds</option>
-            <option value="Sky Sprouts">Sky Sprouts</option>
-            <option value="Nestlings Navigators">Nestlings Navigators</option>
-            <option value="Feather Flyers">Feather Flyers</option>
-            <option value="Cloud Chicks">Cloud Chicks</option>
-            <option value="Wing Whiz">Wing Whiz</option>
-            <option value="Sky Soarers">Sky Soarers</option>
-            <option value="Avian Aces">Avian Aces</option>
-            <option value="Nimbus Navigators">Nimbus Navigators</option>
-            </select>
-            
-            <fieldset>
-                <legend>Section 1: Mathematics</legend>
-                <div class="question">
-                    <label>1. What is 2 + 2?</label>
-                    <input type="radio" name="math_q1" value="a"> 4
-                    <input type="radio" name="math_q1" value="b"> 5
-                    <input type="radio" name="math_q1" value="c"> 6
-                </div>
-                <div class="question">
-                    <label>2. What is the square root of 25?</label>
-                    <input type="radio" name="math_q2" value="a"> 4
-                    <input type="radio" name="math_q2" value="b"> 5
-                    <input type="radio" name="math_q2" value="c"> 6
-                </div>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Section 2: Science</legend>
-                <div class="question">
-                    <label>1. What is the chemical symbol for water?</label>
-                    <input type="radio" name="science_q1" value="a"> H2O
-                    <input type="radio" name="science_q1" value="b"> CO2
-                    <input type="radio" name="science_q1" value="c"> NaCl
-                </div>
-                <div class="question">
-                    <label>2. What is the freezing point of water?</label>
-                    <input type="radio" name="science_q2" value="a"> 0°C
-                    <input type="radio" name="science_q2" value="b"> 100°C
-                    <input type="radio" name="science_q2" value="c"> -10°C
-                </div>
-            </fieldset>
-            
-            <button type="submit">Submit</button>
-        </form>
+    <div class="container" id="content">
+        <h1>Sample Page for Document Export</h1>
+        <p>This is a simple test page containing text, numbers, graphics, and images.</p>
+        <ul>
+            <li>Number 1: Important point one.</li>
+            <li>Number 2: Important point two.</li>
+            <li>Number 3: Important point three.</li>
+        </ul>
+        <div id="classImage">
+            <h2>Sample Image</h2>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        </div>
+        <canvas id="sampleCanvas" width="300" height="100" style="border:1px solid #000;"></canvas>
+
+        <!-- Answer Key Modal (Hidden initially) -->
+        <div id="answer-key-modal" style="display: none;">
+            <div class="modal-content">
+                <h3>Answer Key</h3>
+                <p>This is where the answer key content will be shown.</p>
+            </div>
+        </div>
+
+        <button id="show-answer-key-btn">Show Answer Key</button>
+        <button id="saveDoc">Save as Word Document</button>
     </div>
+
+    <script>
+        // Function to generate a filename based on date and time
+        function generateFilename() {
+            const now = new Date();
+            return `Document_${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}_${now.getHours().toString().padStart(2, '0')}${now.getMinutes().toString().padStart(2, '0')}${now.getSeconds().toString().padStart(2, '0')}`;
+        }
+
+        // Your provided JavaScript code to save the content as a Word document
+        document.getElementById('saveDoc').addEventListener('click', () => {
+            const filename = generateFilename(); // Use the filename generator function
+            const answerKeyButton = document.getElementById('show-answer-key-btn');
+            const saveDocButton = document.getElementById('saveDoc');
+            const classImages = document.getElementById('classImage');
+            const answerKeyModal = document.getElementById('answer-key-modal');
+            const answerKeyContent = answerKeyModal.querySelector('.modal-content');
+
+            // Hide the buttons before generating the document
+            answerKeyButton.style.display = 'none';
+            saveDocButton.style.display = 'none';
+            classImages.style.display = 'none';
+
+            // Clone the answer key content and append it to the body temporarily for saving
+            const answerKeyClone = answerKeyContent.cloneNode(true);
+            answerKeyClone.style.display = 'block';
+            document.body.appendChild(answerKeyClone);
+
+            // Grab the entire body content to include all sections, including the answer key
+            const contentToSave = document.body.innerHTML;
+
+            // Convert HTML content to docx using html-docx-js
+            const convertedDoc = htmlDocx.asBlob(contentToSave, {
+                orientation: 'portrait',  // Document orientation
+                margins: { top: 720, left: 720, bottom: 720, right: 720 } // Margins (in twips)
+            });
+
+            // Trigger a download of the Word document
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(convertedDoc);
+            link.download = `${filename}.docx`; // Filename with .docx extension
+            link.click(); // Initiate download
+
+            // Cleanup: remove the cloned answer key content
+            answerKeyClone.remove();
+
+            // Restore the hidden buttons
+            answerKeyButton.style.display = 'block';
+            saveDocButton.style.display = 'block';
+            classImages.style.display = 'block';
+        });
+
+        // Draw something on the canvas for demonstration
+        const canvas = document.getElementById('sampleCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = "red";
+        ctx.fillRect(10, 10, 280, 80);
+        ctx.fillStyle = "white";
+        ctx.font = "20px Arial";
+        ctx.fillText("Canvas Graphic", 50, 50);
+    </script>
 </body>
 </html>
