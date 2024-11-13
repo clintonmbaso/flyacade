@@ -43,9 +43,10 @@ function generateFilename() {
     
 
 
-// Ensure to include the html-docx-js library in your HTML:
+// Ensure to include the jsPDF library in your HTML:
 
 document.getElementById('saveDoc').addEventListener('click', () => {
+    const { jsPDF } = window.jspdf;
     const filename = generateFilename(); // Use the filename generator function
     const answerKeyButton = document.getElementById('show-answer-key-btn');
     const saveDocButton = document.getElementById('saveDoc');
@@ -66,19 +67,16 @@ document.getElementById('saveDoc').addEventListener('click', () => {
     document.body.appendChild(tempContainer);
 
     // Grab the content of the main container to include all necessary parts
-    const contentToSave = document.body.innerHTML;
-    
-    // Convert HTML content to docx using html-docx-js
-    const convertedDoc = htmlDocx.asBlob(contentToSave, {
-        orientation: 'portrait',  // Document orientation
-        margins: { top: 720, left: 720, bottom: 720, right: 720 } // Margins (in twips)
-    });
+    const contentToSave = document.getElementById('main-content').innerText; // Replace 'main-content' with your content container ID
 
-    // Trigger a download of the Word document
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(convertedDoc);
-    link.download = `${filename}.docx`; // Filename with .docx extension
-    link.click(); // Initiate download
+    // Create a new PDF document
+    const pdf = new jsPDF();
+
+    // Add the content to the PDF
+    pdf.text(contentToSave, 10, 10); // Adjust x and y positions as needed
+
+    // Save the PDF with the filename
+    pdf.save(`${filename}.pdf`);
 
     // Cleanup: remove the temporary container
     tempContainer.remove();
@@ -89,10 +87,6 @@ document.getElementById('saveDoc').addEventListener('click', () => {
     classImages.style.display = 'block';
 });
 
-// Optional: URL cleanup to release memory
-link.addEventListener('click', () => {
-    setTimeout(() => URL.revokeObjectURL(link.href), 100);
-});
 
     
     
