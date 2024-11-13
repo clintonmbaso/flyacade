@@ -43,7 +43,7 @@ function generateFilename() {
     
 
 
-// Function to save the entire page content as a text-based PDF, including the answer key
+// Function to save the entire page content as PDF, including the answer key
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -63,13 +63,17 @@ document.getElementById('savePDF').addEventListener('click', () => {
     document.body.appendChild(answerKeyClone); // Append answer key after the rest of the content
 
     const element = document.body; // Get the entire body element
-
-    // Use jsPDF directly to preserve text content
-    const pdf = new jsPDF('p', 'mm', 'a4');
-    pdf.html(element, {
-        callback: function (pdf) {
-            pdf.save(`${filename}.pdf`); // Save the PDF
-            
+    html2pdf()
+        .set({
+            margin: 10,
+            filename: `${filename}.pdf`, // Use the generated filename
+            image: { type: 'jpeg', quality: 1 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        })
+        .from(element) // Use the body element to capture the entire page, including answer key
+        .save() // Save the PDF
+        .then(() => {
             // Remove the answer key from the page after saving the PDF
             answerKeyClone.remove();
 
@@ -77,15 +81,7 @@ document.getElementById('savePDF').addEventListener('click', () => {
             answerKeyButton.style.display = 'block';
             savePDFButton.style.display = 'block';
             classImages.style.display = 'block';
-        },
-        x: 10,
-        y: 10,
-        html2canvas: {
-            scale: 1, // Use a lower scale to avoid excessive image rendering
-            logging: false,
-            useCORS: true
-        }
-    });
+        });
 });
 
 
