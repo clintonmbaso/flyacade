@@ -31,7 +31,8 @@
     
     
     "numberTable": false,
-    "objectMath": false
+    "objectMath": false,
+    "numberLine": false
   };
 
             let sectionIdentifierText = "";
@@ -142,7 +143,10 @@
           case "objectMath":
           sectionIdentifierText = "Object Math <br><em>Solve the puzzle given below by circling all the hidden words.</em>";
           break;
-                        
+                       
+          case "numberLine":
+          sectionIdentifierText = "Number Line <br><em>Solve the arithmetic below using a number line.</em>";
+          break;
                       
           default:
           sectionIdentifierText = "Section";
@@ -1951,6 +1955,95 @@ case "objectMath":
                   
                   
                     
+                  
+case "numberLine":
+    const numberLineActivityContainer = document.createElement("div");
+    numberLineActivityContainer.classList.add("number-line-activity-container");
+
+    // Add a unique prompt for this specific number line activity
+    if (q.activityPrompt) {
+        const activityPrompt = document.createElement("h3");
+        activityPrompt.innerHTML = q.activityPrompt;
+        activityPrompt.classList.add("activity-prompt");
+        numberLineActivityContainer.appendChild(activityPrompt);
+    }
+
+    // Create a unique number line element
+    const numberLineElement = document.createElement("div");
+    numberLineElement.classList.add("number-line-element");
+    numberLineElement.style.position = "relative";
+
+    // Generate numbers and matching ticks for the number line based on the provided range
+    const startRange = q.startRange || 0;
+    const endRange = q.endRange || 20;
+    const spacing = 40; // Adjust this value to change the space between numbers and ticks
+
+    for (let i = startRange; i <= endRange; i++) {
+        // Create and style the number mark
+        const uniqueNumberMark = document.createElement("div");
+        uniqueNumberMark.classList.add("unique-number-mark");
+        uniqueNumberMark.innerText = i;
+        uniqueNumberMark.style.position = "absolute";
+        uniqueNumberMark.style.left = `${(i - startRange) * spacing}px`;
+        uniqueNumberMark.style.bottom = "10px"; // Position the number above the tick
+        uniqueNumberMark.style.textAlign = "center";
+        numberLineElement.appendChild(uniqueNumberMark);
+
+        // Create and style the tick mark
+        const tick = document.createElement("div");
+        tick.classList.add("number-line-tick");
+        tick.style.position = "absolute";
+        tick.style.left = `${(i - startRange) * spacing}px`;
+        tick.style.width = "1px";
+        tick.style.height = "5px"; // Adjust the height of the tick
+        tick.style.backgroundColor = "black";
+        numberLineElement.appendChild(tick);
+    }
+
+    numberLineActivityContainer.appendChild(numberLineElement);
+
+    // Add a specific expression display section for this activity
+    if (q.mathExpression) {
+        const mathExpressionDisplay = document.createElement("div");
+        mathExpressionDisplay.classList.add("math-expression-display");
+        mathExpressionDisplay.innerHTML = `<strong>Solve:</strong> ${q.mathExpression}`;
+        numberLineActivityContainer.appendChild(mathExpressionDisplay);
+    }
+
+    // Create a unique input field for answers
+    const activityAnswerInput = document.createElement("input");
+    activityAnswerInput.type = "number";
+    activityAnswerInput.classList.add("activity-answer-input");
+    numberLineActivityContainer.appendChild(activityAnswerInput);
+
+    // Append the container to the main question wrapper
+    questionWrapper.appendChild(numberLineActivityContainer);
+
+    // Function to handle point highlighting on the number line
+    function highlightActivityPoint(value) {
+        const marks = numberLineElement.querySelectorAll('.unique-number-mark');
+        marks.forEach(mark => {
+            if (parseInt(mark.innerText, 10) === value) {
+                mark.classList.add('highlighted-point');
+            } else {
+                mark.classList.remove('highlighted-point');
+            }
+        });
+    }
+
+    // Event listener for real-time input interaction
+    activityAnswerInput.addEventListener('input', () => {
+        const answerValue = parseInt(activityAnswerInput.value, 10);
+        if (!isNaN(answerValue)) {
+            highlightActivityPoint(answerValue);
+        }
+    });
+    break;
+
+                  
+                  
+                  
+                  
                   
                   
                   

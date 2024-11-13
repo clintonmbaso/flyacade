@@ -707,6 +707,8 @@ const questionsBank = [
 //...g3matht3afillInTheBlankQuestions,
 // One Word
 ...g3matht3aoneWordQuestions,
+// Number Line
+...g3matht3bnumberLineQuestions,
 
   // SP1
   // Sudoku

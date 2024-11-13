@@ -1152,3 +1152,70 @@
     align-items: center;
     margin-bottom: 10px;
 }
+
+
+
+
+/* Main container styling for the number line activity */
+.number-line-activity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Styling for the number line element */
+.number-line-element {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid #333;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* Styling for individual number marks */
+.unique-number-mark {
+    position: absolute;
+    bottom: -25px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #333;
+}
+
+/* Styling for tick marks */
+.number-line-tick {
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    background-color: #333;
+    bottom: 25px;
+}
+
+/* Highlighted point styling */
+.highlighted-point {
+    color: red;
+    font-weight: bold;
+}
+
+/* Styling for the math expression display */
+.math-expression-display {
+    font-size: 1.25em;
+    color: #444;
+    margin-bottom: 1px;
+}
+
+/* Styling for the answer input field */
+.activity-answer-input {
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 20%;
+    text-align: center;
+}

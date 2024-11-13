@@ -43,7 +43,8 @@ function generateFilename() {
     
 
 
-// Function to save the page content as an editable Word document (docx)
+// Ensure to include the html-docx-js library in your HTML:
+
 document.getElementById('saveDoc').addEventListener('click', () => {
     const filename = generateFilename(); // Use the filename generator function
     const answerKeyButton = document.getElementById('show-answer-key-btn');
@@ -57,13 +58,15 @@ document.getElementById('saveDoc').addEventListener('click', () => {
     saveDocButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    // Clone the answer key content and append it to the body temporarily for saving
+    // Create a temporary container for the answer key
+    const tempContainer = document.createElement('div');
     const answerKeyClone = answerKeyContent.cloneNode(true);
     answerKeyClone.style.display = 'block';
-    document.body.appendChild(answerKeyClone);
+    tempContainer.appendChild(answerKeyClone);
+    document.body.appendChild(tempContainer);
 
-    // Grab the entire body content to include all sections, including the answer key
-    const contentToSave = document.body.innerHTML;
+    // Grab the content of the main container to include all necessary parts
+    const contentToSave = document.getElementById('questionWrapper').innerHTML; // Replace 'main-content' with your content container ID
 
     // Convert HTML content to docx using html-docx-js
     const convertedDoc = htmlDocx.asBlob(contentToSave, {
@@ -77,14 +80,20 @@ document.getElementById('saveDoc').addEventListener('click', () => {
     link.download = `${filename}.docx`; // Filename with .docx extension
     link.click(); // Initiate download
 
-    // Cleanup: remove the cloned answer key content
-    answerKeyClone.remove();
+    // Cleanup: remove the temporary container
+    tempContainer.remove();
 
     // Restore the hidden buttons
     answerKeyButton.style.display = 'block';
     saveDocButton.style.display = 'block';
     classImages.style.display = 'block';
 });
+
+// Optional: URL cleanup to release memory
+link.addEventListener('click', () => {
+    setTimeout(() => URL.revokeObjectURL(link.href), 100);
+});
+
     
     
     // Function to display the answer key in the modal

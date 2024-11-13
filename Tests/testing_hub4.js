@@ -28,7 +28,8 @@ function displayQuestions() {
     "time": false,
     "wordSearchPuzzle": false,
     "numberTable": false,
-    "objectMath": false
+    "objectMath": false,
+    "numberLine": false    
   };
 
   let sectionIdentifierText = "";
@@ -113,7 +114,12 @@ function displayQuestions() {
         case "objectMath":
           sectionIdentifierText = "Object Math Section";
           break;
-        
+        case "numberLine":
+          sectionIdentifierText = "Number Line Section";
+          break;
+        
+        
+        
         
         default:
           sectionIdentifierText = "Section";
@@ -1929,6 +1935,92 @@ case "objectMath":
     // Append the object math container to the question wrapper
     questionWrapper.appendChild(objectMathContainer);
     break;
+      
+      
+
+      
+      
+case "numberLine":
+    const numberLineActivityContainer = document.createElement("div");
+    numberLineActivityContainer.classList.add("number-line-activity-container");
+
+    // Add a unique prompt for this specific number line activity
+    if (q.activityPrompt) {
+        const activityPrompt = document.createElement("h3");
+        activityPrompt.innerHTML = q.activityPrompt;
+        activityPrompt.classList.add("activity-prompt");
+        numberLineActivityContainer.appendChild(activityPrompt);
+    }
+
+    // Create a unique number line element
+    const numberLineElement = document.createElement("div");
+    numberLineElement.classList.add("number-line-element");
+
+    // Generate numbers for the number line based on provided range
+    const startRange = q.startRange || 0;
+    const endRange = q.endRange || 20;
+    for (let i = startRange; i <= endRange; i++) {
+        const uniqueNumberMark = document.createElement("div");
+        uniqueNumberMark.classList.add("unique-number-mark");
+        uniqueNumberMark.innerText = i;
+        numberLineElement.appendChild(uniqueNumberMark);
+    }
+
+    // Add small tick marks to the number line
+    createNumberLineTicks(startRange, endRange, numberLineElement);
+
+    numberLineActivityContainer.appendChild(numberLineElement);
+
+    // Add a specific expression display section for this activity
+    if (q.mathExpression) {
+        const mathExpressionDisplay = document.createElement("div");
+        mathExpressionDisplay.classList.add("math-expression-display");
+        mathExpressionDisplay.innerHTML = `<strong>Solve:</strong> ${q.mathExpression}`;
+        numberLineActivityContainer.appendChild(mathExpressionDisplay);
+    }
+
+    // Create a unique input field for answers
+    const activityAnswerInput = document.createElement("input");
+    activityAnswerInput.type = "text";
+    activityAnswerInput.classList.add("activity-answer-input");
+    activityAnswerInput.placeholder = "Type your answer";
+    numberLineActivityContainer.appendChild(activityAnswerInput);
+
+    // Append the container to the main question wrapper
+    questionWrapper.appendChild(numberLineActivityContainer);
+
+    // Function to create small tick marks on the number line
+    function createNumberLineTicks(start, end, container) {
+        for (let i = start; i <= end; i++) {
+            const tick = document.createElement("div");
+            tick.classList.add("number-line-tick");
+            tick.style.left = `${(i - start) / (end - start) * 100}%`;
+            container.appendChild(tick);
+        }
+    }
+
+    // Function to handle point highlighting on the number line
+    function highlightActivityPoint(value) {
+        const marks = numberLineElement.querySelectorAll('.unique-number-mark');
+        marks.forEach(mark => {
+            if (parseInt(mark.innerText, 10) === value) {
+                mark.classList.add('highlighted-point');
+            } else {
+                mark.classList.remove('highlighted-point');
+            }
+        });
+    }
+
+    // Event listener for real-time input interaction
+    activityAnswerInput.addEventListener('input', () => {
+        const answerValue = parseInt(activityAnswerInput.value, 10);
+        if (!isNaN(answerValue)) {
+            highlightActivityPoint(answerValue);
+        }
+    });
+    break;
+      
+      
       
       
       
