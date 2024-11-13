@@ -67,8 +67,8 @@ document.getElementById('saveDoc').addEventListener('click', () => {
     document.body.appendChild(tempContainer);
 
     // Grab the content of the main container to include all necessary parts
-    const contentToSave = document.getElementById('main-content').innerText; // Replace 'main-content' with your content container ID
-
+    const contentToSave = document.body.innerHTML;
+    
     // Create a new PDF document
     const pdf = new jsPDF();
 
