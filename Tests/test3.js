@@ -43,49 +43,51 @@ function generateFilename() {
     
 
 
-// Ensure to include the jsPDF library in your HTML:
-
-document.getElementById('saveDoc').addEventListener('click', () => {
-    const { jsPDF } = window.jspdf;
-    const filename = generateFilename(); // Use the filename generator function
-    const answerKeyButton = document.getElementById('show-answer-key-btn');
-    const saveDocButton = document.getElementById('saveDoc');
+// Function to save the entire page content as a text-based PDF, including the answer key
+document.getElementById('savePDF').addEventListener('click', () => {
+    const filename = generateFilename();
+    const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
+    const savePDFButton = document.getElementById('savePDF');
     const classImages = document.getElementById('classImage');
-    const answerKeyModal = document.getElementById('answer-key-modal');
-    const answerKeyContent = answerKeyModal.querySelector('.modal-content');
+    const answerKeyModal = document.getElementById('answer-key-modal'); // Modal containing the answer key
+    const answerKeyContent = answerKeyModal.querySelector('.modal-content'); // The answer key content inside the modal
 
-    // Hide the buttons before generating the document
+    // Hide the buttons
     answerKeyButton.style.display = 'none';
-    saveDocButton.style.display = 'none';
+    savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    // Create a temporary container for the answer key
-    const tempContainer = document.createElement('div');
-    const answerKeyClone = answerKeyContent.cloneNode(true);
-    answerKeyClone.style.display = 'block';
-    tempContainer.appendChild(answerKeyClone);
-    document.body.appendChild(tempContainer);
+    // Clone the answer key content and append it to the body temporarily for PDF generation
+    const answerKeyClone = answerKeyContent.cloneNode(true); // Clone the answer key content
+    answerKeyClone.style.display = 'block'; // Make sure the answer key is visible in the PDF
+    document.body.appendChild(answerKeyClone); // Append answer key after the rest of the content
 
-    // Grab the content of the main container to include all necessary parts
-    const contentToSave = document.body.innerHTML;
-    
-    // Create a new PDF document
-    const pdf = new jsPDF();
+    const element = document.body; // Get the entire body element
 
-    // Add the content to the PDF
-    pdf.text(contentToSave, 10, 10); // Adjust x and y positions as needed
+    // Use jsPDF directly to preserve text content
+    const pdf = new jsPDF('p', 'mm', 'a4');
+    pdf.html(element, {
+        callback: function (pdf) {
+            pdf.save(`${filename}.pdf`); // Save the PDF
+            
+            // Remove the answer key from the page after saving the PDF
+            answerKeyClone.remove();
 
-    // Save the PDF with the filename
-    pdf.save(`${filename}.pdf`);
-
-    // Cleanup: remove the temporary container
-    tempContainer.remove();
-
-    // Restore the hidden buttons
-    answerKeyButton.style.display = 'block';
-    saveDocButton.style.display = 'block';
-    classImages.style.display = 'block';
+            // Restore the hidden buttons after saving the PDF
+            answerKeyButton.style.display = 'block';
+            savePDFButton.style.display = 'block';
+            classImages.style.display = 'block';
+        },
+        x: 10,
+        y: 10,
+        html2canvas: {
+            scale: 1, // Use a lower scale to avoid excessive image rendering
+            logging: false,
+            useCORS: true
+        }
+    });
 });
+
 
 
     
