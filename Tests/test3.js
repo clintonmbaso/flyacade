@@ -66,8 +66,8 @@ document.getElementById('saveDoc').addEventListener('click', () => {
     document.body.appendChild(tempContainer);
 
     // Grab the content of the main container to include all necessary parts
-    const contentToSave = document.getElementById('questionWrapper').innerHTML; // Replace 'main-content' with your content container ID
-
+    const contentToSave = document.body.innerHTML;
+    
     // Convert HTML content to docx using html-docx-js
     const convertedDoc = htmlDocx.asBlob(contentToSave, {
         orientation: 'portrait',  // Document orientation
