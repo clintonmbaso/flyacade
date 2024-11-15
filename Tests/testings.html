@@ -2,106 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save Page Content as Word Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-docx-js/0.4.1/html-docx.min.js"></script>
-    <style>
-        .container {
-            margin: 20px;
-            padding: 20px;
-            border: 1px solid #ccc;
-        }
-        .classImage img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Sample Web Page with Save Feature</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
 </head>
 <body>
-    <div class="container" id="content">
-        <h1>Sample Page for Document Export</h1>
-        <p>This is a simple test page containing text, numbers, graphics, and images.</p>
-        <ul>
-            <li>Number 1: Important point one.</li>
-            <li>Number 2: Important point two.</li>
-            <li>Number 3: Important point three.</li>
-        </ul>
-        <div id="classImage">
-            <h2>Sample Image</h2>
-            <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-        </div>
-        <canvas id="sampleCanvas" width="300" height="100" style="border:1px solid #000;"></canvas>
+    <h1>Welcome to My Sample Page</h1>
+    <p>This is an example of a simple web page that contains text, images, and a table.</p>
 
-        <!-- Answer Key Modal (Hidden initially) -->
-        <div id="answer-key-modal" style="display: none;">
-            <div class="modal-content">
-                <h3>Answer Key</h3>
-                <p>This is where the answer key content will be shown.</p>
-            </div>
-        </div>
+    <h2>Sample Image</h2>
+    <img src="images/science/apple.png" alt="Sample Image" style="display:block; margin-bottom:20px;width:50px;height:auto;">
 
-        <button id="show-answer-key-btn">Show Answer Key</button>
-        <button id="saveDoc">Save as Word Document</button>
-    </div>
+    <h2>Sample Table</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price ($)</th>
+        </tr>
+        <tr>
+            <td>Item 1</td>
+            <td>Sample Description 1</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Item 2</td>
+            <td>Sample Description 2</td>
+            <td>20.00</td>
+        </tr>
+        <tr>
+            <td>Item 3</td>
+            <td>Sample Description 3</td>
+            <td>30.00</td>
+        </tr>
+    </table>
+
+    <h2>Additional Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dolor vel orci porta, nec ultrices orci dictum. Quisque facilisis libero non ex sodales, sed laoreet est porttitor.</p>
+
+    <button onclick="saveAsWord()">Save as Word Document</button>
 
     <script>
-        // Function to generate a filename based on date and time
-        function generateFilename() {
-            const now = new Date();
-            return `Document_${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}_${now.getHours().toString().padStart(2, '0')}${now.getMinutes().toString().padStart(2, '0')}${now.getSeconds().toString().padStart(2, '0')}`;
-        }
-
-        // Your provided JavaScript code to save the content as a Word document
-        document.getElementById('saveDoc').addEventListener('click', () => {
-            const filename = generateFilename(); // Use the filename generator function
-            const answerKeyButton = document.getElementById('show-answer-key-btn');
-            const saveDocButton = document.getElementById('saveDoc');
-            const classImages = document.getElementById('classImage');
-            const answerKeyModal = document.getElementById('answer-key-modal');
-            const answerKeyContent = answerKeyModal.querySelector('.modal-content');
-
-            // Hide the buttons before generating the document
-            answerKeyButton.style.display = 'none';
-            saveDocButton.style.display = 'none';
-            classImages.style.display = 'none';
-
-            // Clone the answer key content and append it to the body temporarily for saving
-            const answerKeyClone = answerKeyContent.cloneNode(true);
-            answerKeyClone.style.display = 'block';
-            document.body.appendChild(answerKeyClone);
-
-            // Grab the entire body content to include all sections, including the answer key
-            const contentToSave = document.body.innerHTML;
-
-            // Convert HTML content to docx using html-docx-js
-            const convertedDoc = htmlDocx.asBlob(contentToSave, {
-                orientation: 'portrait',  // Document orientation
-                margins: { top: 720, left: 720, bottom: 720, right: 720 } // Margins (in twips)
+        function saveAsWord() {
+            const content = document.body.innerHTML;
+            const blob = new Blob(['\ufeff' + content], {
+                type: 'application/msword'
             });
-
-            // Trigger a download of the Word document
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(convertedDoc);
-            link.download = `${filename}.docx`; // Filename with .docx extension
-            link.click(); // Initiate download
-
-            // Cleanup: remove the cloned answer key content
-            answerKeyClone.remove();
-
-            // Restore the hidden buttons
-            answerKeyButton.style.display = 'block';
-            saveDocButton.style.display = 'block';
-            classImages.style.display = 'block';
-        });
-
-        // Draw something on the canvas for demonstration
-        const canvas = document.getElementById('sampleCanvas');
-        const ctx = canvas.getContext('2d');
-        ctx.fillStyle = "red";
-        ctx.fillRect(10, 10, 280, 80);
-        ctx.fillStyle = "white";
-        ctx.font = "20px Arial";
-        ctx.fillText("Canvas Graphic", 50, 50);
+            saveAs(blob, 'webpage.doc');
+        }
     </script>
 </body>
 </html>
