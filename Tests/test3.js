@@ -43,7 +43,7 @@ function generateFilename() {
     
 
 
-// Function to save the dynamically loaded content with CSS as a Word document, including the answer key
+// Function to save the dynamically loaded content with CSS and images as a Word document, including the answer key
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -81,10 +81,23 @@ document.getElementById('savePDF').addEventListener('click', () => {
     styleElement.textContent = css;
     clone.querySelector('head').appendChild(styleElement);
 
+    // Convert images to data URLs
+    const images = clone.querySelectorAll('img');
+    images.forEach((img) => {
+        if (img.src && !img.src.startsWith('data:')) {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.width = img.width;
+            canvas.height = img.height;
+            context.drawImage(img, 0, 0, img.width, img.height);
+            img.src = canvas.toDataURL('image/png');
+        }
+    });
+
     const tempDiv = document.createElement('div');
     tempDiv.appendChild(clone);
 
-    const content = tempDiv.innerHTML; // Get the entire rendered HTML with CSS
+    const content = tempDiv.innerHTML; // Get the entire rendered HTML with CSS and image data URLs
     const blob = new Blob(['\ufeff' + content], {
         type: 'application/msword'
     });
@@ -95,6 +108,7 @@ document.getElementById('savePDF').addEventListener('click', () => {
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
 });
+
 
 
 
