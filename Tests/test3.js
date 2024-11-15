@@ -43,7 +43,7 @@ function generateFilename() {
     
 
 
-// elementsntsnction to save the dynamically loaded content with CSS, images, and canvas as a Word document
+// Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -94,7 +94,7 @@ document.getElementById('savePDF').addEventListener('click', () => {
         }
     });
 
-    // Convert canvas elements to images
+    // Convert canvas elements to images with their content
     const canvases = clone.querySelectorAll('canvas');
     canvases.forEach((canvas) => {
         const dataURL = canvas.toDataURL('image/png');
@@ -102,24 +102,23 @@ document.getElementById('savePDF').addEventListener('click', () => {
         img.src = dataURL;
         img.width = canvas.width;
         img.height = canvas.height;
-        canvas.parentNode.replaceChild(img, canvas);
+        canvas.replaceWith(img); // Replace the canvas with the image
     });
 
-    const tempDiv = document.createElement('div');
-    tempDiv.appendChild(clone);
-
-    const content = tempDiv.innerHTML; // Get the entire rendered HTML with CSS, image, and canvas data URLs
-    const blob = new Blob(['\ufeff' + content], {
+    // Create a Blob from the cloned content
+    const blob = new Blob(['\uFEFF' + clone.outerHTML], {
         type: 'application/msword'
     });
 
+    // Save the document as a Word file
     saveAs(blob, `${filename}.doc`);
 
-    // Restore the hidden buttons
+    // Restore the hidden buttons after saving the document
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
 });
+
 
 
 
