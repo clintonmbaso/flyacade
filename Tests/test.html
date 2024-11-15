@@ -13,7 +13,9 @@
       <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+
 </head>
 <body>
     
@@ -41,7 +43,7 @@
 <!-- Button to Open Answer Key Modal -->
 <button id="show-answer-key-btn">🗝️</button>
            <!-- Button to save as PDF -->
-    <button class="btn" id="savePDF"><img src="../images/pdf.png" alt="pdf" id="imgPdf"></button>
+    <button onclick="saveAsWord()" class="btn"><img src="../images/pdf.png" alt="pdf" id="imgPdf"></button>
     <button id="refreshBtn"></button>
     
 <!-- Modal Structure -->
@@ -61,6 +63,14 @@
     <script src="test2.js"></script>
     <script src="test3.js"></script>
     <script src="test4.js"></script>
-
+    <script>
+        function saveAsWord() {
+            const content = document.body.innerHTML;
+            const blob = new Blob(['\ufeff' + content], {
+                type: 'application/msword'
+            });
+            saveAs(blob, 'flyacade.doc');
+        }
+    </script>
 </body>
 </html>
