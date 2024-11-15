@@ -43,7 +43,7 @@ function generateFilename() {
     
 
 
-// Function to save the entire page content as a Word document, including the answer key
+// Function to save the dynamically loaded content as a Word document, including the answer key
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -57,25 +57,27 @@ document.getElementById('savePDF').addEventListener('click', () => {
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    // Clone the answer key content and append it to the body temporarily for Word document generation
-    const answerKeyClone = answerKeyContent.cloneNode(true); // Clone the answer key content
-    answerKeyClone.style.display = 'block'; // Make sure the answer key is visible in the Word document
-    document.body.appendChild(answerKeyClone); // Append answer key after the rest of the content
+    // Clone the body content dynamically
+    const clone = document.documentElement.cloneNode(true);
+    clone.querySelector('#show-answer-key-btn').style.display = 'block';
+    clone.querySelector('#savePDF').style.display = 'block';
+    clone.querySelector('#classImage').style.display = 'block';
 
-    const content = document.body.innerHTML; // Get the entire body content
+    const tempDiv = document.createElement('div');
+    tempDiv.appendChild(clone);
+
+    const content = tempDiv.innerHTML; // Get the entire rendered HTML
     const blob = new Blob(['\ufeff' + content], {
         type: 'application/msword'
     });
     saveAs(blob, `${filename}.doc`); // Save as a Word document
-
-    // Remove the answer key from the page after saving the Word document
-    answerKeyClone.remove();
 
     // Restore the hidden buttons after saving the Word document
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
 });
+
 
 
 
