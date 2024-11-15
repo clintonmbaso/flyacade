@@ -64,7 +64,7 @@ document.getElementById('savePDF').addEventListener('click', () => {
     clone.querySelector('#savePDF').style.display = 'block';
     clone.querySelector('#classImage').style.display = 'block';
 
-    // Get all the stylesheets
+    // Get all the stylesheets and inline styles
     let css = '';
     for (let i = 0; i < document.styleSheets.length; i++) {
         try {
@@ -88,9 +88,9 @@ document.getElementById('savePDF').addEventListener('click', () => {
         if (img.src && !img.src.startsWith('data:')) {
             const canvas = document.createElement('canvas');
             const context = canvas.getContext('2d');
-            canvas.width = img.width;
-            canvas.height = img.height;
-            context.drawImage(img, 0, 0, img.width, img.height);
+            canvas.width = img.naturalWidth;
+            canvas.height = img.naturalHeight;
+            context.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight);
             img.src = canvas.toDataURL('image/png');
         }
     });
@@ -107,27 +107,37 @@ document.getElementById('savePDF').addEventListener('click', () => {
     });
 
     // Create a Blob from the cloned content
-    const htmlContent = '<!DOCTYPE html>' + clone.outerHTML;
+    const htmlContent = '<!DOCTYPE html><html>' + clone.outerHTML + '</html>';
     const blob = new Blob(['\uFEFF' + htmlContent], {
-        type: 'application/msword'
+        type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     });
 
-    // Save the document as a Word file
+    // Save the file using a download link
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
     link.download = `${filename}.docx`;
     document.body.appendChild(link);
     link.click();
-
-    // Clean up
     document.body.removeChild(link);
-    URL.revokeObjectURL(link.href);
 
-    // Restore the hidden buttons after saving the Word document
+    // Restore the buttons' visibility after saving
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
 });
+
+// Function to generate a filename with a timestamp
+function generateFilename() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = (now.getMonth() + 1).toString().padStart(2, '0');
+    const day = now.getDate().toString().padStart(2, '0');
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    return `document_${year}${month}${day}_${hours}${minutes}${seconds}`;
+}
+
 
 
 
