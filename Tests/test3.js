@@ -43,7 +43,7 @@ function generateFilename() {
     
 
 
-// Function to save the entire page content as PDF, including the answer key
+// Function to save the entire page content as a Word document, including the answer key
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -57,32 +57,26 @@ document.getElementById('savePDF').addEventListener('click', () => {
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
 
-    // Clone the answer key content and append it to the body temporarily for PDF generation
+    // Clone the answer key content and append it to the body temporarily for Word document generation
     const answerKeyClone = answerKeyContent.cloneNode(true); // Clone the answer key content
-    answerKeyClone.style.display = 'block'; // Make sure the answer key is visible in the PDF
+    answerKeyClone.style.display = 'block'; // Make sure the answer key is visible in the Word document
     document.body.appendChild(answerKeyClone); // Append answer key after the rest of the content
 
-    const element = document.body; // Get the entire body element
-    html2pdf()
-        .set({
-            margin: 10,
-            filename: `${filename}.pdf`, // Use the generated filename
-            image: { type: 'jpeg', quality: 1 },
-            html2canvas: { scale: 2 },
-            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-        })
-        .from(element) // Use the body element to capture the entire page, including answer key
-        .save() // Save the PDF
-        .then(() => {
-            // Remove the answer key from the page after saving the PDF
-            answerKeyClone.remove();
+    const content = document.body.innerHTML; // Get the entire body content
+    const blob = new Blob(['\ufeff' + content], {
+        type: 'application/msword'
+    });
+    saveAs(blob, `${filename}.doc`); // Save as a Word document
 
-            // Restore the hidden buttons after saving the PDF
-            answerKeyButton.style.display = 'block';
-            savePDFButton.style.display = 'block';
-            classImages.style.display = 'block';
-        });
+    // Remove the answer key from the page after saving the Word document
+    answerKeyClone.remove();
+
+    // Restore the hidden buttons after saving the Word document
+    answerKeyButton.style.display = 'block';
+    savePDFButton.style.display = 'block';
+    classImages.style.display = 'block';
 });
+
 
 
     
