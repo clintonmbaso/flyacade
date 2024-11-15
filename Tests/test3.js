@@ -44,6 +44,7 @@ function generateFilename() {
 
 
 // Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
+
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
@@ -106,18 +107,28 @@ document.getElementById('savePDF').addEventListener('click', () => {
     });
 
     // Create a Blob from the cloned content
-    const blob = new Blob(['\uFEFF' + clone.outerHTML], {
+    const htmlContent = '<!DOCTYPE html>' + clone.outerHTML;
+    const blob = new Blob(['\uFEFF' + htmlContent], {
         type: 'application/msword'
     });
 
     // Save the document as a Word file
-    saveAs(blob, `${filename}.doc`);
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `${filename}.docx`;
+    document.body.appendChild(link);
+    link.click();
 
-    // Restore the hidden buttons after saving the document
+    // Clean up
+    document.body.removeChild(link);
+    URL.revokeObjectURL(link.href);
+
+    // Restore the hidden buttons after saving the Word document
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
 });
+
 
 
 
