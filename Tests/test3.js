@@ -48,20 +48,30 @@ document.getElementById('printContent').addEventListener('click', () => {
     const answerKeyButton = document.getElementById('show-answer-key-btn');
     const savePDFButton = document.getElementById('savePDF');
     const classImages = document.getElementById('classImage');
+    const refreshBtn = document.getElementById('refreshBtn');
+    const printContent = document.getElementById('printContent');
 
     // Temporarily hide buttons
     answerKeyButton.style.display = 'none';
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
+    refreshBtn.style.display = 'none';
+    printContent.style.display = 'none';
 
-    // Trigger print
-    window.print();
+    // Wait for a moment to allow the DOM to update, then print
+    setTimeout(() => {
+        window.print();
 
     // Restore buttons
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
+    refreshBtn.style.display = 'block';
+    printContent.style.display = 'block';
+    }, 100);
 });
+
+
 
 
 
@@ -76,11 +86,15 @@ document.getElementById('savePDF').addEventListener('click', () => {
     const classImages = document.getElementById('classImage');
     const answerKeyModal = document.getElementById('answer-key-modal'); // Modal containing the answer key
     const answerKeyContent = answerKeyModal.querySelector('.modal-content'); // The answer key content inside the modal
+    const refreshBtn = document.getElementById('refreshBtn');
+    const printContent = document.getElementById('printContent');
 
     // Hide the buttons
     answerKeyButton.style.display = 'none';
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
+    refreshBtn.style.display = 'none';
+    printContent.style.display = 'none';
 
     // Clone the body content dynamically
     const clone = document.documentElement.cloneNode(true);
@@ -148,6 +162,8 @@ document.getElementById('savePDF').addEventListener('click', () => {
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
+    refreshBtn.style.display = 'block';
+    printContent.style.display = 'block';
 });
 
 
