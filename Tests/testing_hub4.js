@@ -1709,18 +1709,12 @@ case "wordSearchPuzzle":
     const puzzleContainer = document.createElement("div");
     puzzleContainer.classList.add("puzzle-container");
 
-    // Add puzzle prompt
-    if (q.puzzlePrompt) {
-        const puzzlePrompt = document.createElement("h3");
-        puzzlePrompt.innerHTML = q.puzzlePrompt;
-        puzzlePrompt.classList.add("puzzle-prompt");
-        puzzleContainer.appendChild(puzzlePrompt);
-    }
+
 
     // Puzzle grid dimensions (e.g., 10x10)
-    const gridSize = q.gridSize || 10;
+    const gridSize = q.gridSize || 15;
     const grid = [];
-    const targetWords = q.targetWords || ["EXAMPLE", "WORD", "SEARCH"];
+    const targetWords = q.targetWords || [];
     let selectedCells = [];
 
     // Create the grid structure and add random letters
@@ -1754,6 +1748,7 @@ case "wordSearchPuzzle":
         puzzleContainer.appendChild(rowElement);
         grid.push(rowCells);
     }
+      
 
     // Function to place target words in the grid
     function placeWord(word) {
@@ -1805,6 +1800,7 @@ case "wordSearchPuzzle":
     targetWordsContainer.classList.add("target-words-container");
     targetWordsContainer.innerHTML = "<strong>Words to Find:</strong> " + targetWords.join(", ");
     puzzleContainer.appendChild(targetWordsContainer);
+      
 
     // Check if selected cells form any target word
     function checkForWord() {

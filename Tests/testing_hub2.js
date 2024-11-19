@@ -23,7 +23,8 @@ function generateRandomQuestions() {
   const numWordSearchPuzzle = parseInt(document.getElementById("num-wordSearchPuzzle").value);
   const numNumberTable = parseInt(document.getElementById("num-numberTable").value);
   const numObjectMath = parseInt(document.getElementById("num-objectMath").value);
-
+  const numNumberLine = parseInt(document.getElementById("num-numberLine").value);
+
   
   
   const selectedClass = document.getElementById("class-filter").value;
@@ -84,7 +85,8 @@ function generateRandomQuestions() {
   randomQuestions.push(...getRandomQuestionsByType("wordSearchPuzzle", numWordSearchPuzzle));
   randomQuestions.push(...getRandomQuestionsByType("numberTable", numNumberTable));
   randomQuestions.push(...getRandomQuestionsByType("objectMath", numObjectMath));
-
+  randomQuestions.push(...getRandomQuestionsByType("numberLine", numNumberLine));
+
   
   return randomQuestions;
 }

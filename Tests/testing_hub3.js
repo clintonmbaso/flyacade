@@ -413,7 +413,7 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
   ...g1sp1t3bwordSearchQuestions,
 
   // SP2
@@ -563,16 +563,16 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
   ...g2sp1t3bwordSearchQuestions,
   // Fill in the Blanks
-/*  ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,*/
+/*  ...g2sp1t3bfillInTheBlankQuestions,
   ...g2sp1t3bfillInTheBlankQuestions,
-/*
+  ...g2sp1t3bfillInTheBlankQuestions,
+  ...g2sp1t3bfillInTheBlankQuestions,
+  ...g2sp1t3bfillInTheBlankQuestions,*/
+  ...g2sp1t3bfillInTheBlankQuestions,
+
   // SP2
   // Image Based
   ...g2sp2t1aimageBasedQuestions,
@@ -581,7 +581,7 @@ const questionsBank = [
   ...g2sp2t2bimageBasedQuestions,
   ...g2sp2t3aimageBasedQuestions,
   ...g2sp2t3bimageBasedQuestions,
-*/
+
 
   // Grade 3
 // English
@@ -610,9 +610,9 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
   ...g3sp1t3bwordSearchQuestions,
-*/
+
 
   // Science
   // Multiple Choice
@@ -721,7 +721,7 @@ const questionsBank = [
 */
   // SP2
   // Image Based
-  ...g3sp2t1aimageBasedQuestions, 
+...g3sp2t1aimageBasedQuestions, 
 ...g3sp2t1bimageBasedQuestions, 
 ...g3sp2t2aimageBasedQuestions, 
 ...g3sp2t2bimageBasedQuestions, 
@@ -877,7 +877,7 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
   ...g4sp1t3bwordSearchQuestions,
   // Multiple Choice
 /*  ...g4sp1t3bmultipleChoiceQuestions,
@@ -1127,20 +1127,17 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,
-  ...g1sp1t3bwordSearchQuestions,
+  ...g1sp1t3bwordSearchQuestions,*/
   ...g5sp1t3bwordSearchQuestions,
-*/
 
-  // SP2
-  // Image Based
-  ...g5sp2t1aimageBasedQuestions, 
-...g5sp2t1bimageBasedQuestions, 
-...g5sp2t2aimageBasedQuestions, 
-...g5sp2t2bimageBasedQuestions, 
-...g5sp2t3aimageBasedQuestions, 
-...g5sp2t3bimageBasedQuestions,
+// Multiple Choice
+/*...g5sp1t3bmultipleChoiceQuestions,
+...g5sp1t3bmultipleChoiceQuestions,
+...g5sp1t3bmultipleChoiceQuestions,
+...g5sp1t3bmultipleChoiceQuestions,
+...g5sp1t3bmultipleChoiceQuestions,*/
+...g5sp1t3bmultipleChoiceQuestions,
 
-  // SP1
   // Sudoku
 /*  ...g5sp1t3bsudokuQuestions,
   ...g5sp1t3bsudokuQuestions,
@@ -1158,6 +1155,31 @@ const questionsBank = [
   ...g5sp1t3bcrosswordQuestions,
 
 
+  // SP2
+  // Image Based
+...g5sp2t1aimageBasedQuestions, 
+...g5sp2t1bimageBasedQuestions, 
+...g5sp2t2aimageBasedQuestions, 
+...g5sp2t2bimageBasedQuestions, 
+...g5sp2t3aimageBasedQuestions, 
+...g5sp2t3bimageBasedQuestions,
+  // Special
+  /*...g5sp2t3bspecialQuestions,
+  ...g5sp2t3bspecialQuestions,
+  ...g5sp2t3bspecialQuestions,
+  ...g5sp2t3bspecialQuestions,
+  ...g5sp2t3bspecialQuestions,*/
+  ...g5sp2t3bspecialQuestions,
+/*
+  // Special2
+  ...g5sp2t3bspecial2Questions,
+  ...g5sp2t3bspecial2Questions,
+  ...g5sp2t3bspecial2Questions,
+  ...g5sp2t3bspecial2Questions,
+  ...g5sp2t3aspecial2Questions,*/
+  ...g5sp2t3bspecial2Questions,
+
+
 
 // Grade 6
   // SP2
@@ -1170,11 +1192,11 @@ const questionsBank = [
 ...g6sp2t3bimageBasedQuestions,
 /*
   // Special
-  ...g6sp2t1aimageBasedQuestions,
-  ...g6sp2t1bimageBasedQuestions,
-  ...g6sp2t2aimageBasedQuestions,
-  ...g6sp2t2bimageBasedQuestions,
-  ...g6sp2t3aimageBasedQuestions,*/
+  ...g6sp2t3bspecialQuestions,
+  ...g6sp2t3bspecialQuestions,
+  ...g6sp2t3bspecialQuestions,
+  ...g6sp2t3bspecialQuestions,
+  ...g6sp2t3bspecialQuestions,*/
   ...g6sp2t3bspecialQuestions,
 /*
   // Special2
