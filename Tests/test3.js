@@ -43,20 +43,87 @@ function generateFilename() {
     
 
 
+// Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
+
 document.getElementById('savePDF').addEventListener('click', () => {
-    const doc = new jsPDF();
-
-    // Add content manually
-    doc.setFont('Helvetica'); // Set font
-    doc.setFontSize(12);
-    doc.text('Your Content Goes Here', 10, 10);
-
-    // Add more content, adjust positions
-    doc.text('Another line of text.', 10, 20);
-
-    // Save the PDF
     const filename = generateFilename();
-    doc.save(`${filename}.pdf`);
+    const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
+    const savePDFButton = document.getElementById('savePDF');
+    const classImages = document.getElementById('classImage');
+    const answerKeyModal = document.getElementById('answer-key-modal'); // Modal containing the answer key
+    const answerKeyContent = answerKeyModal.querySelector('.modal-content'); // The answer key content inside the modal
+
+    // Hide the buttons
+    answerKeyButton.style.display = 'none';
+    savePDFButton.style.display = 'none';
+    classImages.style.display = 'none';
+
+    // Clone the body content dynamically
+    const clone = document.documentElement.cloneNode(true);
+    clone.querySelector('#show-answer-key-btn').style.display = 'block';
+    clone.querySelector('#savePDF').style.display = 'block';
+    clone.querySelector('#classImage').style.display = 'block';
+
+    // Get all the stylesheets and inline styles
+    let css = '';
+    for (let i = 0; i < document.styleSheets.length; i++) {
+        try {
+            const rules = document.styleSheets[i].cssRules;
+            for (let j = 0; j < rules.length; j++) {
+                css += rules[j].cssText + '\n';
+            }
+        } catch (e) {
+            console.warn('Cannot access CSS rules:', e);
+        }
+    }
+
+    // Create a style element
+    const styleElement = document.createElement('style');
+    styleElement.textContent = css;
+    clone.querySelector('head').appendChild(styleElement);
+
+    // Convert images to data URLs
+    const images = clone.querySelectorAll('img');
+    images.forEach((img) => {
+        if (img.src && !img.src.startsWith('data:')) {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.width = img.naturalWidth;
+            canvas.height = img.naturalHeight;
+            context.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight);
+            img.src = canvas.toDataURL('image/png');
+        }
+    });
+
+    // Convert canvas elements to images with their content
+    const canvases = clone.querySelectorAll('canvas');
+    canvases.forEach((canvas) => {
+        const dataURL = canvas.toDataURL('image/png');
+        const img = document.createElement('img');
+        img.src = dataURL;
+        img.width = canvas.width;
+        img.height = canvas.height;
+        canvas.replaceWith(img); // Replace the canvas with the image
+    });
+
+    // Create a Blob from the cloned content
+    const htmlContent = '<!DOCTYPE html><html>' + clone.outerHTML + '</html>';
+    const blob = new Blob(['\uFEFF' + htmlContent], {
+        type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+    });
+
+    // Save the file using a download link
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `${filename}.docx`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Restore the buttons' visibility after saving
+    answerKeyButton.style.display = 'block';
+    savePDFButton.style.display = 'block';
+    classImages.style.display = 'block';
 });
 
 // Function to generate a filename with a timestamp
