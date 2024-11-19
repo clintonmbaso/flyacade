@@ -44,6 +44,28 @@ function generateFilename() {
 
 
 
+document.getElementById('printContent').addEventListener('click', () => {
+    const answerKeyButton = document.getElementById('show-answer-key-btn');
+    const savePDFButton = document.getElementById('savePDF');
+    const classImages = document.getElementById('classImage');
+
+    // Temporarily hide buttons
+    answerKeyButton.style.display = 'none';
+    savePDFButton.style.display = 'none';
+    classImages.style.display = 'none';
+
+    // Trigger print
+    window.print();
+
+    // Restore buttons
+    answerKeyButton.style.display = 'block';
+    savePDFButton.style.display = 'block';
+    classImages.style.display = 'block';
+});
+
+
+
+
 
 
 // Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
