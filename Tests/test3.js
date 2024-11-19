@@ -78,6 +78,13 @@ document.getElementById('printContent').addEventListener('click', () => {
 
 
 
+
+
+
+
+
+
+
 // Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
@@ -158,6 +165,13 @@ document.getElementById('savePDF').addEventListener('click', () => {
     link.click();
     document.body.removeChild(link);
 
+            .from(element) // Use the body element to capture the entire page, including answer key
+        .save() // Save the PDF
+        .then(() => {
+            // Remove the answer key from the page after saving the PDF
+            answerKeyClone.remove();
+
+    
     // Restore the buttons' visibility after saving
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
