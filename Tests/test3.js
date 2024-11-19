@@ -43,8 +43,10 @@ function generateFilename() {
     
 
 
-// Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
 
+
+
+// Function to save the dynamically loaded content with CSS, images, and canvas as a Word document
 document.getElementById('savePDF').addEventListener('click', () => {
     const filename = generateFilename();
     const answerKeyButton = document.getElementById('show-answer-key-btn'); // Adjust ID as needed
