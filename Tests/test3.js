@@ -44,17 +44,19 @@ function generateFilename() {
 
 
 document.getElementById('savePDF').addEventListener('click', () => {
-    const content = document.documentElement.outerHTML; // Get the full HTML content
-    const converted = htmlDocx.asBlob(content); // Convert to Word-compatible blob
-    const filename = generateFilename();
+    const doc = new jsPDF();
 
-    // Save the file
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(converted);
-    link.download = `${filename}.docx`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Add content manually
+    doc.setFont('Helvetica'); // Set font
+    doc.setFontSize(12);
+    doc.text('Your Content Goes Here', 10, 10);
+
+    // Add more content, adjust positions
+    doc.text('Another line of text.', 10, 20);
+
+    // Save the PDF
+    const filename = generateFilename();
+    doc.save(`${filename}.pdf`);
 });
 
 // Function to generate a filename with a timestamp

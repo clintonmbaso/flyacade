@@ -74,7 +74,7 @@
           break;
                         
           case "math":
-          sectionIdentifierText = "Math Questions<br><em>ggfhh</em>";
+          sectionIdentifierText = "Math Questions<br><em>Solve the following Math Expressions.</em>";
           break;
                         
           case "comprehension":
@@ -485,6 +485,16 @@ case "counting":
             }
             break;
 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 case "simpleArithmetic":
     const mathContainer = document.createElement("div");
     mathContainer.classList.add("math-container");
@@ -535,6 +545,13 @@ case "simpleArithmetic":
     questionWrapper.appendChild(mathContainer);
     break;
 
+      
+      
+      
+      
+      
+      
+      
 case "middle-school":
             // For middle school math (fractions, decimals, simple algebra)
             const middleSchoolContent = q.mathContent || ["1/2 + 1/4 =", "Solve for x: 3x + 5 = 20"];
