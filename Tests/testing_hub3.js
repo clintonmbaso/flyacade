@@ -1,5 +1,15 @@
 // Merge arrays from separate files into a single questionsBank array
 const questionsBank = [
+// General Files
+// Reading
+/*...g1litt1areadingQuestions,
+...g1litt1breadingQuestions,
+...g1litt2areadingQuestions,
+...g1litt2breadingQuestions,*/
+//...g1litt3areadingQuestions,
+...litt3breadingQuestions,
+
+
 // Baby
 /*
 ...babyengt1acoloringQuestions,
@@ -277,13 +287,7 @@ const questionsBank = [
 ...g1litt2bmultipleChoiceQuestions,
 ...g1litt3amultipleChoiceQuestions,
 ...g1litt3bmultipleChoiceQuestions,
-// Reading
-/*...g1litt1areadingQuestions,
-...g1litt1breadingQuestions,
-...g1litt2areadingQuestions,
-...g1litt2breadingQuestions,*/
-//...g1litt3areadingQuestions,
-...g1litt3breadingQuestions,
+
 
   // Science
   // Multiple Choice
@@ -424,6 +428,13 @@ const questionsBank = [
   ...g1sp2t2bimageBasedQuestions,
   ...g1sp2t3aimageBasedQuestions,
   ...g1sp2t3bimageBasedQuestions,
+  // Multiple Choice
+/*  ...g1sp2t1amultipleChoiceQuestions,
+  ...g1sp2t1bmultipleChoiceQuestions,
+  ...g1sp2t2amultipleChoiceQuestions,
+  ...g1sp2t2bmultipleChoiceQuestions,
+  ...g1sp2t3amultipleChoiceQuestions,*/
+  ...g1sp2t3bmultipleChoiceQuestions,
 
 
   // Grade 2
@@ -581,6 +592,13 @@ const questionsBank = [
   ...g2sp2t2bimageBasedQuestions,
   ...g2sp2t3aimageBasedQuestions,
   ...g2sp2t3bimageBasedQuestions,
+  // Multiple Choice
+/*  ...g2sp2t1amultipleChoiceQuestions,
+  ...g2sp2t1bmultipleChoiceQuestions,
+  ...g2sp2t2amultipleChoiceQuestions,
+  ...g2sp2t2bmultipleChoiceQuestions,
+  ...g2sp2t3amultipleChoiceQuestions,*/
+  ...g2sp2t3bmultipleChoiceQuestions,
 
 
   // Grade 3
@@ -727,6 +745,14 @@ const questionsBank = [
 ...g3sp2t2bimageBasedQuestions, 
 ...g3sp2t3aimageBasedQuestions, 
 ...g3sp2t3bimageBasedQuestions,
+  // Multiple Choice
+/*  ...g3sp2t1amultipleChoiceQuestions,
+  ...g3sp2t1bmultipleChoiceQuestions,
+  ...g3sp2t2amultipleChoiceQuestions,
+  ...g3sp2t2bmultipleChoiceQuestions,
+  ...g3sp2t3amultipleChoiceQuestions,*/
+  ...g3sp2t3bmultipleChoiceQuestions,
+
 
 
 // Grade 4
@@ -896,6 +922,13 @@ const questionsBank = [
 ...g4sp2t2bimageBasedQuestions, 
 ...g4sp2t3aimageBasedQuestions,
 ...g4sp2t3bimageBasedQuestions,
+  // Special
+/*  ...g4sp2t3bspecialQuestions,
+  ...g4sp2t3bspecialQuestions,
+  ...g4sp2t3bspecialQuestions,
+  ...g4sp2t3bspecialQuestions,
+  ...g4sp2t3bspecialQuestions,*/
+  ...g4sp2t3bspecialQuestions,
 
 
   // Grade 5

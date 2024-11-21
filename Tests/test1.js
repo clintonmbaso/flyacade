@@ -822,57 +822,77 @@ case "crossword":
     const acrossCluesMap = {}; // To store across clues by number
     const downCluesMap = {}; // To store down clues by number
 
-    for (let row = 0; row < q.puzzleData.length; row++) {
-        const crosswordRow = document.createElement("tr");
+                  
+                  
+                  
+for (let row = 0; row < q.puzzleData.length; row++) {
+    const crosswordRow = document.createElement("tr");
 
-        for (let col = 0; col < q.puzzleData[row].length; col++) {
-            const crosswordCell = document.createElement("td");
+    for (let col = 0; col < q.puzzleData[row].length; col++) {
+        const crosswordCell = document.createElement("td");
 
-            if (q.puzzleData[row][col] === "#") {
-                // Black cell for non-playable area
-                crosswordCell.classList.add("black-cell");
+        if (q.puzzleData[row][col] === "#") {
+            // Check if the cell is fully surrounded by playable cells
+            const isConfined = (
+                row > 0 &&
+                row < q.puzzleData.length - 1 &&
+                col > 0 &&
+                col < q.puzzleData[row].length - 1 &&
+                q.puzzleData[row - 1][col] !== "#" && // Top
+                q.puzzleData[row + 1][col] !== "#" && // Bottom
+                q.puzzleData[row][col - 1] !== "#" && // Left
+                q.puzzleData[row][col + 1] !== "#"    // Right
+            );
+
+            if (isConfined) {
+                crosswordCell.classList.add("confined-blank");
             } else {
-                // Add input for letters
-                const inputField = document.createElement("input");
-                inputField.setAttribute("type", "text");
-                inputField.setAttribute("maxlength", "1");
-                inputField.classList.add("crossword-input");
+                crosswordCell.classList.add("black-cell");
+            }
+        } else {
+            // Add input for letters
+            const inputField = document.createElement("input");
+            inputField.setAttribute("type", "text");
+            inputField.setAttribute("maxlength", "1");
+            inputField.classList.add("crossword-input");
 
-                // Detect if this cell is the start of an "Across" word
-                const isAcrossStart = (col === 0 || q.puzzleData[row][col - 1] === "#") &&
-                                      (col < q.puzzleData[row].length - 1 && q.puzzleData[row][col + 1] !== "#");
+            // Detect if this cell is the start of an "Across" word
+            const isAcrossStart = (col === 0 || q.puzzleData[row][col - 1] === "#") &&
+                                  (col < q.puzzleData[row].length - 1 && q.puzzleData[row][col + 1] !== "#");
 
-                // Detect if this cell is the start of a "Down" word
-                const isDownStart = (row === 0 || q.puzzleData[row - 1][col] === "#") &&
-                                    (row < q.puzzleData.length - 1 && q.puzzleData[row + 1][col] !== "#");
+            // Detect if this cell is the start of a "Down" word
+            const isDownStart = (row === 0 || q.puzzleData[row - 1][col] === "#") &&
+                                (row < q.puzzleData.length - 1 && q.puzzleData[row + 1][col] !== "#");
 
-                // Assign and display clue number if it's the start of a word
-                if (isAcrossStart || isDownStart) {
-                    const clueNumberSpan = document.createElement("span");
-                    clueNumberSpan.classList.add("clue-number");
-                    clueNumberSpan.innerText = clueNumber;
-                    crosswordCell.appendChild(clueNumberSpan);
+            // Assign and display clue number if it's the start of a word
+            if (isAcrossStart || isDownStart) {
+                const clueNumberSpan = document.createElement("span");
+                clueNumberSpan.classList.add("clue-number");
+                clueNumberSpan.innerText = clueNumber;
+                crosswordCell.appendChild(clueNumberSpan);
 
-                    // Assign clues to maps
-                    if (isAcrossStart && q.acrossClues.length > 0) {
-                        acrossCluesMap[clueNumber] = q.acrossClues.shift();
-                    }
-                    if (isDownStart && q.downClues.length > 0) {
-                        downCluesMap[clueNumber] = q.downClues.shift();
-                    }
+                // Assign clues to maps
+if (isAcrossStart && q.acrossClues.length > 0) {
+    acrossCluesMap[clueNumber] = q.acrossClues.shift();
+}
+if (isDownStart && q.downClues.length > 0) {
+    downCluesMap[clueNumber] = q.downClues.shift();
+}
 
-                    clueNumber++; // Increment the clue number
-                }
-
-                crosswordCell.appendChild(inputField);
+                clueNumber++; // Increment the clue number
             }
 
-            crosswordRow.appendChild(crosswordCell);
+            crosswordCell.appendChild(inputField);
         }
 
-        crosswordTable.appendChild(crosswordRow);
+        crosswordRow.appendChild(crosswordCell);
     }
 
+    crosswordTable.appendChild(crosswordRow);
+}
+
+                  
+                  
     crosswordQuestionContainer.appendChild(crosswordTable);
 
     // Create containers for "Across" and "Down" clues
