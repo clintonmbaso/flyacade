@@ -2,56 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web Page with Save Feature</title>
+    <title>Save Page as Word</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Sample Page</h1>
-    <p>This is an example of a simple web page that contains text, images, and a table.</p>
+    <h1>Welcome to My Web Page</h1>
+    <p>This page demonstrates text, images, a canvas element, and a table.</p>
 
-    <h2>Sample Image</h2>
-    <img src="images/science/apple.png" alt="Sample Image" style="display:block; margin-bottom:20px;width:50px;height:auto;">
+    <h2>Image Section</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
 
-    <h2>Sample Table</h2>
-    <table border="1" cellspacing="0" cellpadding="10">
+    <h2>Canvas Section</h2>
+    <canvas id="drawingCanvas" width="300" height="200"></canvas>
+    <p>Draw something on the canvas above!</p>
+
+    <h2>Table Section</h2>
+    <table>
         <tr>
-            <th>Item</th>
-            <th>Description</th>
-            <th>Price ($)</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
         </tr>
         <tr>
-            <td>Item 1</td>
-            <td>Sample Description 1</td>
-            <td>10.00</td>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
         </tr>
         <tr>
-            <td>Item 2</td>
-            <td>Sample Description 2</td>
-            <td>20.00</td>
-        </tr>
-        <tr>
-            <td>Item 3</td>
-            <td>Sample Description 3</td>
-            <td>30.00</td>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
         </tr>
     </table>
 
-    <h2>Additional Content</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dolor vel orci porta, nec ultrices orci dictum. Quisque facilisis libero non ex sodales, sed laoreet est porttitor.</p>
-
-    <button onclick="saveAsWord()">Save as Word Document</button>
+    <button id="saveButton">Save as Word File</button>
 
     <script>
-        function saveAsWord() {
-            const content = document.body.innerHTML;
-            const blob = new Blob(['\ufeff' + content], {
-                type: 'application/msword'
-            });
+        // Initialize canvas drawing
+        const canvas = document.getElementById('drawingCanvas');
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+
+        canvas.addEventListener('mousedown', () => drawing = true);
+        canvas.addEventListener('mouseup', () => drawing = false);
+        canvas.addEventListener('mousemove', (e) => {
+            if (drawing) {
+                ctx.lineWidth = 2;
+                ctx.lineCap = 'round';
+                ctx.strokeStyle = '#000';
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.moveTo(e.offsetX, e.offsetY);
+            }
+        });
+
+        // Save as Word file
+        document.getElementById('saveButton').addEventListener('click', () => {
+            const content = document.documentElement.innerHTML;
+            const blob = new Blob([content], { type: 'application/msword' });
             saveAs(blob, 'webpage.doc');
-        }
+        });
     </script>
 </body>
 </html>
