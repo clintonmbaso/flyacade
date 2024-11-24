@@ -72,6 +72,77 @@ const litt3bfillInTheBlankQuestions = [
   "answer": "cl"
 },
 
-// Cloud Chicks
-
+// Wing Whiz
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "The __ __em of that tree is __ __ill growing.",
+  "answer": "st"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "Tell the boy to __ __itch to another __ __ing.",
+  "answer": "sw"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "This __ __mbol is not part of the __ __llable.",
+  "answer": "sy"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "__ __e rat is moving smoo__ __ly.",
+  "answer": "th"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "The __ __ee is at the center of the s__ __eet.",
+  "answer": "tr"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "__ __ist the __ __eeters.",
+  "answer": "tw"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "__ __in tge wheel if you have a strong __ __ine.",
+  "answer": "sp"
+},
+{
+  "type": "fill_in_the_blank",
+  "class": "Wing Whiz",
+  "subject": "Literacy",
+  "term": "Term 3",
+  "part": "End Term",
+  "question": "The __ __uare people are __ __uatting.",
+  "answer": "sq"
+}
 ];
