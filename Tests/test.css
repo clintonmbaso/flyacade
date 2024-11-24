@@ -1,7 +1,6 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 20px;
-  
   padding: 0;
     color: black;
   overflow-x: hidden;
@@ -38,9 +37,8 @@ input[type="number"] {
 
 #test-container {
   border: 1px solid #ccc;
-            border-radius: 5px;
-  
-            padding: 5px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 #test-container div {
@@ -64,7 +62,7 @@ input[type="number"] {
   display: flex; 
   right: 5%;
   align-self: flex-end;
-  top: 30px;
+  top: 50px;
   font-style: italic;
   color: brown;
   position: absolute;
@@ -94,15 +92,19 @@ input[type="number"] {
   z-index: 1;
 }
 
+
+
+
+
 .matching-input {
-    width: 20px; /* Adjust the width as needed */
-    padding: 1px; /* Add padding for better appearance */
+    width: 20px; 
+    padding: 1px; 
     box-sizing: border-box;
   text-align: center;
 }
 
 
-/* Button Style with Icon */
+
 #show-answer-key-btn, .btn {
     border: none;
     padding: 10px; 
@@ -143,63 +145,62 @@ input[type="number"] {
 }
 
 .word-bank-container {
-    /* Enable horizontal scrolling */
     margin-top: 5px;
     position: fixed;
 }
 
 .word-bank-table {
   overflow-x: auto; 
-    border-collapse: collapse; /* Merge table borders */
-    width: 80%; /* Adjust width to auto to enable wrapping */
-    max-width: 400px; /* Minimum width for the table to avoid excessive shrinkage */
-    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+    border-collapse: collapse;
+    width: 80%; 
+    max-width: 400px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .word-bank-table tr {
-    background-color: #f9f9f9; /* Light gray background for rows */
+    background-color: #f9f9f9;
 }
 
 .word-bank-table td {
-    border: 1px solid #ccc; /* Border for each cell */
-    padding: 2px; /* Padding inside cells */
-    text-align: center; /* Center-align text */
-    font-weight: bold; /* Bold text */
+    border: 1px solid #ccc; 
+    padding: 2px; 
+    text-align: center; 
+    font-weight: bold;
 }
 
 .word-bank-table td:hover {
-    background-color: #e0e0e0; /* Change background color on hover */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #e0e0e0;
+    cursor: pointer; 
 }
 
 .word-bank-table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Zebra striping for even rows */
+    background-color: #f2f2f2;
 }
 
 .word-bank-table tr:hover {
-    background-color: #dcdcdc; /* Darker background for the entire row on hover */
+    background-color: #dcdcdc;
 }
 
 
 /* Modal Styles */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%; 
 }
 
 .close {
@@ -254,3 +255,4 @@ input[type="number"] {
 .column {
   width: 47%;
 }
+

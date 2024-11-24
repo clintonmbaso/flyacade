@@ -50,19 +50,39 @@ document.getElementById('printContent').addEventListener('click', () => {
     const answerKeyButton = document.getElementById('show-answer-key-btn');
     const savePDFButton = document.getElementById('savePDF');
     const classImages = document.getElementById('classImage');
+    const refreshBtn = document.getElementById('refreshBtn');
+    const printContent = document.getElementById('printContent');
 
-    // Temporarily hide buttons
+    // Temporarily hide buttons and images
     answerKeyButton.style.display = 'none';
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
+    refreshBtn.style.display = 'none';
+    printContent.style.display = 'none';
 
     // Trigger print
     window.print();
+});
 
-    // Restore buttons
+// Handle the print events to restore visibility after printing
+window.addEventListener('afterprint', () => {
+    const answerKeyButton = document.getElementById('show-answer-key-btn');
+    const savePDFButton = document.getElementById('savePDF');
+    const classImages = document.getElementById('classImage');
+    const refreshBtn = document.getElementById('refreshBtn');
+    const printContent = document.getElementById('printContent');
+
+    // Restore buttons and images after printing
     answerKeyButton.style.display = 'block';
     savePDFButton.style.display = 'block';
     classImages.style.display = 'block';
+    refreshBtn.style.display = 'block';
+    printContent.style.display = 'block';
+});
+
+// Optionally, you can listen for the beforeprint event to perform any pre-print tasks
+window.addEventListener('beforeprint', () => {
+    // You can perform other tasks here if needed
 });
 
 
