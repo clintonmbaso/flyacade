@@ -29,17 +29,20 @@
 </head>
 <body>
     <h1>Welcome to My Web Page</h1>
-    <p>This page demonstrates text, images, a canvas element, and a table.</p>
+    <p>This page demonstrates dynamic content loading, text, images, a canvas element, and a table.</p>
 
+    <!-- Image Section -->
     <h2>Image Section</h2>
-    <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" id="dynamicImage" />
 
+    <!-- Canvas Section -->
     <h2>Canvas Section</h2>
     <canvas id="drawingCanvas" width="300" height="200"></canvas>
     <p>Draw something on the canvas above!</p>
 
+    <!-- Table Section -->
     <h2>Table Section</h2>
-    <table>
+    <table id="dynamicTable">
         <tr>
             <th>Column 1</th>
             <th>Column 2</th>
@@ -50,16 +53,22 @@
             <td>Row 1, Col 2</td>
             <td>Row 1, Col 3</td>
         </tr>
-        <tr>
-            <td>Row 2, Col 1</td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
-        </tr>
     </table>
 
     <button id="saveButton">Save as Word File</button>
 
     <script>
+        // Dynamically Load Content (Simulating API call)
+        window.onload = () => {
+            // Simulate dynamic content loading
+            setTimeout(() => {
+                document.getElementById('dynamicImage').src = "https://via.placeholder.com/300";
+                const newRow = document.createElement('tr');
+                newRow.innerHTML = '<td>Row 2, Col 1</td><td>Row 2, Col 2</td><td>Row 2, Col 3</td>';
+                document.getElementById('dynamicTable').appendChild(newRow);
+            }, 2000); // Simulate content loading after 2 seconds
+        };
+
         // Initialize canvas drawing
         const canvas = document.getElementById('drawingCanvas');
         const ctx = canvas.getContext('2d');
@@ -79,11 +88,25 @@
             }
         });
 
-        // Save as Word file
+        // Convert canvas to image and save content as Word file
         document.getElementById('saveButton').addEventListener('click', () => {
             const content = document.documentElement.innerHTML;
-            const blob = new Blob([content], { type: 'application/msword' });
-            saveAs(blob, 'webpage.doc');
+
+            // Convert canvas to image (Base64)
+            const canvasImage = canvas.toDataURL('image/png');
+
+            // Append canvas image to content
+            const contentWithCanvasImage = content.replace('</body>', `
+                <h2>Canvas Image</h2>
+                <img src="${canvasImage}" alt="Canvas Image" />
+                </body>
+            `);
+
+            // Create a Blob with the modified content
+            const blob = new Blob([contentWithCanvasImage], { type: 'application/msword' });
+
+            // Save the Word file
+            saveAs(blob, 'webpage_with_canvas.doc');
         });
     </script>
 </body>
