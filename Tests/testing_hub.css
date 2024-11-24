@@ -160,74 +160,65 @@
 
 
 
-/* Container for the crossword question */
-.crossword-based-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 10px;
-}
 
-/* Styling for the crossword description */
-.crossword-based-container p {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 10px;
-}
 
-/* Crossword table (grid) */
+
 .crossword-table {
-    border-collapse: collapse;
-    margin: 10px 0;
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: auto;
 }
 
-/* Each cell in the crossword */
 .crossword-table td {
-    width: 40px; /* Adjust width */
-    height: 40px; /* Adjust height */
-    border: 1px solid #333;
-    position: relative;
-    padding: 0;
-    text-align: center;
-    box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border: 1px solid black; /* Visible cells will have borders */
 }
 
-/* Input fields styling */
+.crossword-table td.black-cell {
+  background-color: transparent;
+  border: none; /* No borders for black cells */
+}
+
 .crossword-input {
     width: 100%;
     height: 100%;
-    text-align: left;
-    font-size: 1rem;
-    font-weight: bold;
     border: none;
+    text-align: left;
+    font-size: 18px;
+    background-color: transparent;
+    font-weight: bold;
+    top: 0;
+    left: -4px;
+    font-size: 1rem;
     outline: none;
     padding: 0;
     margin: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    z-index: 1;
 }
 
-/* Clue number overlay */
+.crossword-table td.confined-blank {
+    background-color: rgba(0,0,0,0.5); /* Light gray background */
+}
+
+.crossword-table td.black-cell {
+    background-color: none;
+    border: none; /* No border for black cells */
+}
+
+
 .clue-number {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    font-size: 0.7rem;
-    color: #333;
-    z-index: 2; /* Higher than input field to overlay */
-    pointer-events: none; /* Ensure it doesn't block input */
+  position: absolute;
+  font-size: 12px;
+  margin: -5px 0 0 -5px;
+  background-color: grey;
+  padding: 2px;
+  border-radius: 3px;
+  color: white;
 }
 
-/* Styling for black cells */
-.black-cell {
-    background-color: #333;
-}
-
-/* Container for clues */
 .crossword-clues-container {
     display: flex;
     flex-direction: row;
@@ -236,37 +227,14 @@
     width: 100%;
 }
 
-/* Common styling for clues lists */
-.across-clues, .down-clues {
-    width: 45%; /* Adjust width if needed */
-    padding: 10px;
-}
 
-/* Heading styling for clues sections */
-.across-clues h3, .down-clues h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    text-align: left;
-}
 
-/* Individual clue items */
-.across-clues p, .down-clues p {
-    font-size: 1rem;
-    margin: 5px 0;
-    color: black;
-}
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .crossword-table td {
-        width: 30px; /* Smaller width */
-        height: 30px; /* Smaller height */
-    }
-    .across-clues, .down-clues {
-        width: 100%; /* Full width */
-        padding: 5px;
-    }
-}
+
+
+
+
+
 
 
 
@@ -326,7 +294,14 @@
     display: block;
     margin: 10px auto; /* Center the image */
 }
-
+.handwritingPrompt {
+    font-size: 18px;
+    margin-left: 15px;
+    text-align: left;
+    border-left: 3px solid grey;
+    padding-left: 10px;
+    font-family: 'Patrick Hand', Advantage;
+}
 /* Style for the handwriting textarea */
 .handwriting-container .handwriting-input {
     width: 80%; /* Adjust width */
@@ -351,6 +326,10 @@
     color: #333; /* Text color */
     overflow-y: hidden; /* Prevents vertical scrollbar */
 }
+
+
+
+
 
 
 
@@ -869,75 +848,19 @@
 
 
 
-/*
-.puzzle-container {
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.puzzle-prompt {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.puzzle-row {
-  display: flex;
-  justify-content: center;
-}
-
-.puzzle-cell {
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  
-  cursor: pointer;
-}
-
-.puzzle-cell.highlighted {
-  background-color: chocolate;
-  border-color: brown;
-    color: red;
-}
-
-.puzzle-cell.found {
-  background-color: darkcyan;
-  border-color: aquamarine;
-  color: yellow;
-}
-
-
-
-.target-words-container strong {
-  font-size: 18px;
-  margin-right: 10px;
-}
-
-
-
-*/
-
 .puzzle-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5px;
-}
-
-/* Add an outer border for the entire grid */
-.puzzle-container {
+    margin-top: 0;
     border: 1px solid #333;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .puzzle-prompt {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     text-align: center;
 }
 
@@ -958,15 +881,6 @@
     border-radius: 5px;
 }
 
-/* Remove inner cell borders 
-.puzzle-cell:not(:last-child) {
-    border-right: none;
-}
-
-.puzzle-row:not(:last-child) .puzzle-cell {
-    border-bottom: none;
-}
-*/
 .puzzle-cell.highlighted {
     background-color: #ffd54f;
 }
@@ -983,6 +897,10 @@
   text-align: center;
     font-size: 15px;
 }
+
+
+
+
 
 
 

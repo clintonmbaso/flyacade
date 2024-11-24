@@ -332,9 +332,8 @@ case "true_false":
                     
 
         
-      
-      // Fill in tge Blanks html Layout
-      case "fill_in_the_blank":
+// Fill in the Blanks HTML Layout
+case "fill_in_the_blank":
     // Check if the word bank table already exists
     let wordBankTable = document.querySelector(".word-bank-table");
 
@@ -372,20 +371,17 @@ case "true_false":
     // Append the fill-in-the-blank question to the question wrapper
     questionWrapper.appendChild(fillInTheBlank);
 
-    // Continue with displaying the fill-in-the-blank question and input field
-    const answerInput = document.createElement("input");
-    answerInput.setAttribute("type", "text");
-    answerInput.setAttribute("id", `answer-${index}`);
-    answerInput.setAttribute("name", `question-${index}`);
-                    
-    questionWrapper.appendChild(answerInput);
-    questionWrapper.appendChild(document.createElement("br"));
+    // Add a line break for spacing
     break;
                     
                     
+                  
+                  
+                  
+                  
       case "math":
 const mathContainer = document.createElement("div");
-    mathContainer.classList.add("math-container"); // Add main container class for styling
+    mathContainer.classList.add("mathContainer"); // Add main container class for styling
 
 
     switch (q.subtype) {
@@ -674,6 +670,7 @@ case "comprehension":
   const storyContainer = document.createElement("div");
   const storyParagraph = document.createElement("p");
   storyParagraph.innerHTML = q.story;  // Display the story text
+  storyParagraph.classList.add("handwritingPrompt");
   storyContainer.appendChild(storyParagraph);
   questionWrapper.appendChild(storyContainer);
 

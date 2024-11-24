@@ -556,6 +556,7 @@ case "comprehension":
   const storyContainer = document.createElement("div");
   const storyParagraph = document.createElement("p");
   storyParagraph.innerHTML = q.story;  // Display the story text
+  storyParagraph.classList.add("handwritingPrompt");
   storyContainer.appendChild(storyParagraph);
   questionWrapper.appendChild(storyContainer);
 
@@ -786,59 +787,81 @@ case "crossword":
     const acrossCluesMap = {}; // To store across clues by number
     const downCluesMap = {}; // To store down clues by number
 
-    for (let row = 0; row < q.puzzleData.length; row++) {
-        const crosswordRow = document.createElement("tr");
+      
+      
+      
+      
+for (let row = 0; row < q.puzzleData.length; row++) {
+    const crosswordRow = document.createElement("tr");
 
-        for (let col = 0; col < q.puzzleData[row].length; col++) {
-            const crosswordCell = document.createElement("td");
+    for (let col = 0; col < q.puzzleData[row].length; col++) {
+        const crosswordCell = document.createElement("td");
 
-            if (q.puzzleData[row][col] === "#") {
-                // Black cell for non-playable area
-                crosswordCell.classList.add("black-cell");
+        if (q.puzzleData[row][col] === "#") {
+            // Check if the cell is fully surrounded by playable cells
+            const isConfined = (
+                row > 0 &&
+                row < q.puzzleData.length - 1 &&
+                col > 0 &&
+                col < q.puzzleData[row].length - 1 &&
+                q.puzzleData[row - 1][col] !== "#" && // Top
+                q.puzzleData[row + 1][col] !== "#" && // Bottom
+                q.puzzleData[row][col - 1] !== "#" && // Left
+                q.puzzleData[row][col + 1] !== "#"    // Right
+            );
+
+            if (isConfined) {
+                crosswordCell.classList.add("confined-blank");
             } else {
-                // Add input for letters
-                const inputField = document.createElement("input");
-                inputField.setAttribute("type", "text");
-                inputField.setAttribute("maxlength", "1");
-                inputField.classList.add("crossword-input");
+                crosswordCell.classList.add("black-cell");
+            }
+        } else {
+            // Add input for letters
+            const inputField = document.createElement("input");
+            inputField.setAttribute("type", "text");
+            inputField.setAttribute("maxlength", "1");
+            inputField.classList.add("crossword-input");
 
-                // Detect if this cell is the start of an "Across" word
-                const isAcrossStart = (col === 0 || q.puzzleData[row][col - 1] === "#") &&
-                                      (col < q.puzzleData[row].length - 1 && q.puzzleData[row][col + 1] !== "#");
+            // Detect if this cell is the start of an "Across" word
+            const isAcrossStart = (col === 0 || q.puzzleData[row][col - 1] === "#") &&
+                                  (col < q.puzzleData[row].length - 1 && q.puzzleData[row][col + 1] !== "#");
 
-                // Detect if this cell is the start of a "Down" word
-                const isDownStart = (row === 0 || q.puzzleData[row - 1][col] === "#") &&
-                                    (row < q.puzzleData.length - 1 && q.puzzleData[row + 1][col] !== "#");
+            // Detect if this cell is the start of a "Down" word
+            const isDownStart = (row === 0 || q.puzzleData[row - 1][col] === "#") &&
+                                (row < q.puzzleData.length - 1 && q.puzzleData[row + 1][col] !== "#");
 
-                // Assign and display clue number if it's the start of a word
-                if (isAcrossStart || isDownStart) {
-                    const clueNumberSpan = document.createElement("span");
-                    clueNumberSpan.classList.add("clue-number");
-                    clueNumberSpan.innerText = clueNumber;
-                    crosswordCell.appendChild(clueNumberSpan);
+            // Assign and display clue number if it's the start of a word
+            if (isAcrossStart || isDownStart) {
+                const clueNumberSpan = document.createElement("span");
+                clueNumberSpan.classList.add("clue-number");
+                clueNumberSpan.innerText = clueNumber;
+                crosswordCell.appendChild(clueNumberSpan);
 
-                    // Assign clues to maps
-                    if (isAcrossStart && q.acrossClues.length > 0) {
-                        acrossCluesMap[clueNumber] = q.acrossClues.shift();
-                    }
-                    if (isDownStart && q.downClues.length > 0) {
-                        downCluesMap[clueNumber] = q.downClues.shift();
-                    }
-
-                    clueNumber++; // Increment the clue number
+                // Assign clues to maps
+                if (isAcrossStart && clueNumber - 1 < q.acrossClues.length) {
+                    acrossCluesMap[clueNumber] = q.acrossClues[clueNumber - 1];
+                }
+                if (isDownStart && clueNumber - 1 < q.downClues.length) {
+                    downCluesMap[clueNumber] = q.downClues[clueNumber - 1];
                 }
 
-                crosswordCell.appendChild(inputField);
+                clueNumber++; // Increment the clue number
             }
 
-            crosswordRow.appendChild(crosswordCell);
+            crosswordCell.appendChild(inputField);
         }
 
-        crosswordTable.appendChild(crosswordRow);
+        crosswordRow.appendChild(crosswordCell);
     }
+
+    crosswordTable.appendChild(crosswordRow);
+}
 
     crosswordQuestionContainer.appendChild(crosswordTable);
 
+      
+      
+      
     // Create containers for "Across" and "Down" clues
     const cluesContainer = document.createElement("div");
     cluesContainer.classList.add("crossword-clues-container");
@@ -1369,18 +1392,18 @@ case "handwriting":
     const handwritingContainer = document.createElement("div");
     handwritingContainer.classList.add("handwriting-container"); // Add class for styling
 
+          // Add a reading prompt (title or introduction)
+        const handwritingTitle = document.createElement("h3");
+        handwritingTitle.innerHTML = q.handwritingTitle;
+        handwritingTitle.classList.add("handwritingTitle"); // Add class for styling
+        handwritingContainer.appendChild(handwritingTitle);
+
     // Add a question prompt
     const handwritingPrompt = document.createElement("p");
-    handwritingPrompt.innerHTML = q.prompt || "Please write your answer below:";
+    handwritingPrompt.innerHTML = q.handwritingPrompt || "Please write your answer below:";
+    handwritingPrompt.classList.add("handwritingPrompt");
     handwritingContainer.appendChild(handwritingPrompt);
 
-    // Add a reading prompt (title or introduction)
-    if (q.readingPrompt) {
-        const readingPrompt = document.createElement("h3");
-        readingPrompt.innerHTML = q.readingPrompt;
-        readingPrompt.classList.add("reading-prompt"); // Add class for styling
-        readingContainer.appendChild(readingPrompt);
-    }
 
 
     // Create a textarea for the user to type their handwritten response
@@ -1400,6 +1423,12 @@ case "handwriting":
         this.style.height = (this.scrollHeight) + 'px'; // Adjust height based on content
     });
     break;
+      
+      
+      
+      
+      
+      
       
       
 case "reading":
@@ -1708,8 +1737,6 @@ case "time":
 case "wordSearchPuzzle":
     const puzzleContainer = document.createElement("div");
     puzzleContainer.classList.add("puzzle-container");
-
-
 
     // Puzzle grid dimensions (e.g., 10x10)
     const gridSize = q.gridSize || 15;

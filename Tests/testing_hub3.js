@@ -8,6 +8,49 @@ const questionsBank = [
 ...g1litt2breadingQuestions,*/
 //...g1litt3areadingQuestions,
 ...litt3breadingQuestions,
+// Handwriting
+/*
+...litt1ahandwritingQuestions,
+...litt1bhandwritingQuestions,
+...litt2ahandwritingQuestions,
+...litt2bhandwritingQuestions,
+...litt3ahandwritingQuestions,*/
+...litt3bhandwritingQuestions,
+  // Sudoku
+/*  ...g5sp1t3bsudokuQuestions,
+  ...g5sp1t3bsudokuQuestions,
+  ...g5sp1t3bsudokuQuestions,
+  ...g5sp1t3bsudokuQuestions,
+  ...g5sp1t3bsudokuQuestions,*/
+  ...sp1t3bsudokuQuestions,
+
+  // Crossword
+/*  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,
+  ...g5sp1t3bcrosswordQuestions,*/
+  ...sp1t3bcrosswordQuestions,
+// Literacy - Fill in the Blanks
+...litt1afillInTheBlankQuestions,
+...litt1bfillInTheBlankQuestions,
+//...litt2afillInTheBlankQuestions,
+//...litt2bfillInTheBlankQuestions,
+//...litt3afillInTheBlankQuestions,
+...litt3bfillInTheBlankQuestions,
+// Comprehension
+//  ...engt1acomprehensionQuestions,
+//  ...engt2bcomprehensionQuestions,
+//  ...engt2acomprehensionQuestions,
+//  ...engt2bcomprehensionQuestions,
+  ...engt3acomprehensionQuestions,
+  ...engt3bcomprehensionQuestions,
+
+
+
+
+
+
 
 
 // Baby
@@ -103,16 +146,6 @@ const questionsBank = [
 ...midengt3bmatchingQuestions,*/
 ...midengt3amatchingQuestions,
 ...midengt3bmatchingQuestions,
-
-
-// Handwriting
-/*
-...midlitt3bhandwritingQuestions,
-...midlitt3bhandwritingQuestions,
-...midlitt3bhandwritingQuestions,
-...midlitt3bhandwritingQuestions,
-...midlitt3bhandwritingQuestions,*/
-...midlitt3bhandwritingQuestions,
 
 // Handwriting
 /*
@@ -807,13 +840,7 @@ const questionsBank = [
 //  ...g4engt3afillInTheBlankQuestions,
   ...g4engt3afillInTheBlankQuestions,
 //  ...g4engt3afillInTheBlankQuestions,
-// Matching
-//  ...g4engt3acomprehensionQuestions,
-//  ...g4engt3acomprehensionQuestions,
-//  ...g4engt3acomprehensionQuestions,
-//  ...g4engt3acomprehensionQuestions,
-  ...g4engt3acomprehensionQuestions,
-//  ...g4engt3bcomprehensionQuestions,
+
 
 // Social Studies
 // Multiple Choice
@@ -977,17 +1004,12 @@ const questionsBank = [
   ...g5engt3bpunctuationQuestions,
   ...g5engt3apunctuationQuestions,*/
   ...g5engt3bpunctuationQuestions,
-  // One Word Questions
-/*  ...g5scit1amatchingQuestions,
-  ...g5scit1bmatchingQuestions,
-  ...g5scit2amatchingQuestions,
-  ...g5scit2bmatchingQuestions,*/
-  ...g5engt3acomprehensionQuestions,
-  ...g5engt3bcomprehensionQuestions,
 // Fill in the Blanks
 ...g5engt3afillInTheBlankQuestions,
 // True or False
 ...g5engt3atrueFalseQuestions,
+
+
 
   // Grade 5
   // Social Studies
@@ -1171,21 +1193,6 @@ const questionsBank = [
 ...g5sp1t3bmultipleChoiceQuestions,*/
 ...g5sp1t3bmultipleChoiceQuestions,
 
-  // Sudoku
-/*  ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,
-  ...g5sp1t3bsudokuQuestions,*/
-  ...g5sp1t3bsudokuQuestions,
-
-  // Crossword
-/*  ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,*/
-  ...g5sp1t3bcrosswordQuestions,
 
 
   // SP2
