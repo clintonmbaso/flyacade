@@ -45,7 +45,8 @@ const questionsBank = [
 //  ...engt2bcomprehensionQuestions,
   ...engt3acomprehensionQuestions,
   ...engt3bcomprehensionQuestions,
-
+// Social Studies Images
+...sst3bimagingQuestions,
 
 
 

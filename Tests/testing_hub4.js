@@ -250,7 +250,7 @@ case "special":
         break;
       
 
-      // Fill in tge Blanks html Layout
+      // Fill in the Blanks html Layout
       case "fill_in_the_blank":
         const answerInput = document.createElement("input");
         answerInput.setAttribute("type", "text");
