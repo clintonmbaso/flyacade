@@ -29,7 +29,7 @@ const questionsBank = [
   ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
   ...g5sp1t3bcrosswordQuestions,
-  ...g5sp1t3bcrosswordQuestions,*
+  ...g5sp1t3bcrosswordQuestions,*/
   ...sp1t3bcrosswordQuestions,
 // Literacy - Fill in the Blanks
 ...litt1afillInTheBlankQuestions,
@@ -46,7 +46,7 @@ const questionsBank = [
   ...engt3acomprehensionQuestions,
   ...engt3bcomprehensionQuestions,
 
-*/
+
 
 
 
