@@ -258,5 +258,32 @@ const litt3breadingQuestions = [
      "The man with a blue cap has a nice, warm cup of tea.",
      "The big bat was hiding inside the dark bag."
         ]
+},
+
+
+{
+  type: "reading",
+     subtype: "long-sentences",
+     class: "Avian Aces",
+     subject: "Literacy",
+     term: "Term 3",
+     part: "End Term",  
+    question: "Read the following sentences.",
+    readingContent: [
+     "The brave knight journeyed through the dense forest to rescue the lost prince.",
+     "The scientist carefully examined the strange rock that glowed in the dark.",
+     "A group of students planned a surprise for their teacher's birthday celebration.",
+     "The clever fox managed to escape the trap set by the farmer.",
+     "Sophie spent the afternoon reading an exciting book about ancient civilizations.",
+     "The thunder roared as lightning lit up the sky during the fierce storm.",
+     "A curious bird perched on the windowsill, pecking at the crumbs left behind.",
+     "The artist painted a beautiful landscape of mountains, rivers, and a golden sunset.",
+     "As the spaceship landed, the astronauts prepared to explore the mysterious planet.",
+     "The young inventor built a robot that could help with chores around the house."
+        ]
 }
+
+
+
+
 ];
