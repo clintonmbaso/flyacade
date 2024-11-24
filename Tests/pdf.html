@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Test</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <style>
+        /* Side Navigation Styling */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .delete-btn {
+            color: red;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Side Navigation -->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h2>Saved Data</h2>
+    <ul id="savedDataList">
+        <!-- Saved data from local storage will be listed here -->
+    </ul>
+</div>
+
+<!-- Main content -->
+<div id="main">
+    <div style="display: flex; justify-content: space-between; margin: 0 5px;">
+        <a href="../index.html">
+            <img src="../images/Flying_Wings_Academy.png" id="logo" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+        </a>
+        <h2 id="Heading">Flying Wings Academy</h2>
+    </div>
+    <p id="motto">The Way to Success</p>
+
+    <div style="display: flex; justify-content: space-between; margin: 0 5px;">
+        <p id="class-name"></p>
+        <p id="subject">Subject</p>
+        <p id="term">Term</p>
+        <p id="part">Part</p>
+    </div>
+    <img id="classImage" src="" alt="Class Image" />
+
+    <div id="test-container">
+        <div class="content-section"></div>
+    </div>
+
+    <!-- Button to Open Answer Key Modal -->
+    <button id="show-answer-key-btn">🗝️</button>
+
+    <!-- Button to save as PDF -->
+    <button class="btn" id="savePDF"><img src="../images/pdf.png" alt="pdf" id="imgPdf"></button>
+
+    <!-- Modal Structure -->
+    <div id="answer-key-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Answer Key</h2>
+            <div id="answer-key-container"></div>
+        </div>
+    </div>
+
+    <!-- Button to open Side Navigation -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open Saved Data</span>
+</div>
+
+<script src="test1.js"></script>
+<script src="test2.js"></script>
+<script src="test3.js"></script>
+<script src="test4.js"></script> <!-- Link to your new JS file for handling side nav and saved data -->
+
+</body>
+</html>
