@@ -12,7 +12,7 @@ const litt3bhandwritingQuestions = [
     handwritingPrompt: "ghyfvgh",
     promptImage: "https://example.com/handwriting-prompt.jpg"
 },
-
+*/
 // Feather Flyers
 {
      type: "handwriting",
@@ -22,7 +22,7 @@ const litt3bhandwritingQuestions = [
      part: "End Term",
     question: "Write the following sentence in your best handwriting.",
      handwritingTitle: "Timmy a shy turtle",
-    handwritingPrompt: "ghyfvgh",
+    handwritingPrompt: "Despite his dreams, he never found the courage to step out. One day, something happened that was about to change his life.",
     promptImage: "https://example.com/handwriting-prompt.jpg"
 },
 
@@ -35,10 +35,10 @@ const litt3bhandwritingQuestions = [
      part: "End Term",
     question: "Write the following sentence in your best handwriting.",
      handwritingTitle: "Timmy a shy turtle",
-    handwritingPrompt: "ghyfvgh",
+    handwritingPrompt: "Timmy, a shy turtle, lived in a cozy nook in a big forest where he watched other animals play and enjoy life from afar. Though he dreamed of making friends and joining in their fun, his fear kept him hidden in his shell. He often imagined adventures but never found the courage to step out.</p>",
     promptImage: "https://example.com/handwriting-prompt.jpg"
 },
-*/
+
 // Wing Whiz
 {
      type: "handwriting",
