@@ -1,0 +1,163 @@
+        /* General styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2C3E50;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Container for the filters and table */
+        .filters-container {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+
+        select:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2C3E50;
+            color: #fff;
+            font-size: 1.1em;
+        }
+
+        td {
+            padding: 4px;
+            background-color: #f9f9f9;
+            text-align: left;
+            vertical-align: top;
+        }
+  
+td:nth-child(1) {
+    text-align: center; /* Center the week number */
+    font-size: 22px; /* Set font size */
+    color: brown;
+    font-weight: bold; /* Make the font bold */
+    background-color: #f0f0f0; /* Optional: background color for week cells */
+    border-right: 2px solid #ddd; /* Optional: a border to separate week numbers */
+}
+  
+  td:nth-child(2) {
+    text-align: center; /* Center the week number */
+    font-size: 22px; /* Set font size */
+    font-weight: bold; /* Make the font bold */
+}
+/* Adjust the width of the Objectives column */
+table th:nth-child(4), 
+table td:nth-child(4) {
+    width: 90%; /* Set the desired width */
+    max-width: 500px; /* Ensure it doesn’t exceed this width */
+    word-wrap: break-word; /* Break long words to fit the width */
+    vertical-align: top; /* Align content to the top of the cell */
+    text-align: left; /* Align text to the left */
+}
+  
+        tr:hover td {
+            background-color: #f1f1f1;
+        }
+
+        /* No data message */
+        .no-data {
+            text-align: center;
+            color: #888;
+            font-style: italic;
+            padding: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+
+            .filters-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            label {
+                margin-bottom: 5px;
+            }
+
+            select {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+          
+          table th:nth-child(4), 
+          table td:nth-child(4) {
+    width: 90%; /* Set the desired width */
+    max-width: 300px; /* Ensure it doesn’t exceed this width */
+    word-wrap: break-word; /* Break long words to fit the width */
+    vertical-align: top; /* Align content to the top of the cell */
+    text-align: left; /* Align text to the left */
+}
+        }
+  
+  /* Style for unordered lists in table cells */
+td ul {
+    margin: 0; /* Add space around the list */
+    padding-left: 10px; /* Add space between the bullet points and the table cell border */
+    list-style-type: disc; /* Ensure bullet points are discs */
+}
+
+/* Style for list items */
+td ul li {
+    font-size: 14px; /* Adjust the font size */
+    line-height: 1.2; /* Add space between bullet points */
+    color: #333; /* Set the text color */
+    text-align: left; /* Align text to the left */
+}
+
+/* Optional: Add hover effect for list items */
+td ul li:hover {
+    color: #007BFF; /* Change color on hover */
+    cursor: default; /* Keep cursor as default */
+}

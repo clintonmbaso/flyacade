@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Focus</title>
+      <link rel="stylesheet" href="weeklyFocust.css">
+  
+  
+</head>
+<body>
+    <h1>Schemes of Work</h1>
+
+    <!-- Dropdown Filters -->
+    <label for="weekFilter">Week:</label>
+    <select id="weekFilter">
+        <option value="all">All Weeks</option>
+        <!-- Weeks will be dynamically added here -->
+    </select>
+
+    <label for="gradeFilter">Grade:</label>
+    <select id="gradeFilter">
+        <option value="all">All Classes</option>
+        <!-- Classes will be dynamically added here -->
+    </select>
+
+    <label for="subjectFilter">Subject:</label>
+    <select id="subjectFilter">
+        <option value="all">All Subjects</option>
+        <!-- Subjects will be dynamically added here -->
+    </select>
+
+    <label for="termFilter">Term:</label>
+    <select id="termFilter">
+        <option value="all">All Terms</option>
+        <!-- Terms will be dynamically added here -->
+    </select>
+
+    <br><br>
+    <p id="lessonStatus" style="font-weight: bold; margin-top: 10px;"></p>
+    <!-- Table to display weekly focus lesson plans -->
+    <table id="weekly-focus-table" border="1">
+        <!-- Table content will be populated dynamically -->
+    </table>
+
+    <!-- Link to external JavaScript files -->
+<!-- Mathematics -->
+<script src="Mathematics/bmathdata1.js"></script>
+<script src="Mathematics/bmathdata2.js"></script>
+<script src="Mathematics/bmathdata3.js"></script>
+
+<script src="Mathematics/mmathdata1.js"></script>
+<script src="Mathematics/mmathdata2.js"></script>
+<script src="Mathematics/mmathdata3.js"></script>
+
+<script src="Mathematics/rmathdata1.js"></script>
+<script src="Mathematics/rmathdata2.js"></script>
+<script src="Mathematics/rmathdata3.js"></script>
+    
+<script src="Mathematics/g1mathdata1.js"></script>
+<script src="Mathematics/g1mathdata2.js"></script>
+<script src="Mathematics/g1mathdata3.js"></script>
+    
+<script src="Mathematics/g2mathdata1.js"></script>
+<script src="Mathematics/g2mathdata2.js"></script>
+<script src="Mathematics/g2mathdata3.js"></script>
+    
+<script src="Mathematics/g3mathdata1.js"></script>
+<script src="Mathematics/g3mathdata2.js"></script>
+<script src="Mathematics/g3mathdata3.js"></script>
+    
+<script src="Mathematics/g4mathdata1.js"></script>
+<script src="Mathematics/g4mathdata2.js"></script>
+<script src="Mathematics/g4mathdata3.js"></script>
+    
+<script src="Mathematics/g5mathdata1.js"></script>
+<script src="Mathematics/g5mathdata2.js"></script>
+<script src="Mathematics/g5mathdata3.js"></script>
+    
+<script src="Mathematics/g6mathdata.js"></script>
+
+<!-- English -->
+<script src="English/bengdata1.js"></script>
+<script src="English/bengdata2.js"></script>
+<script src="English/bengdata3.js"></script>
+    
+<script src="English/mengdata1.js"></script>
+<script src="English/mengdata2.js"></script>
+<script src="English/mengdata3.js"></script>
+    
+<script src="English/rengdata1.js"></script>
+<script src="English/rengdata2.js"></script>
+<script src="English/rengdata3.js"></script>
+    
+<script src="English/g1engdata1.js"></script>
+<script src="English/g1engdata2.js"></script>
+<script src="English/g1engdata3.js"></script>
+    
+<script src="English/g2engdata1.js"></script>
+<script src="English/g2engdata2.js"></script>
+<script src="English/g2engdata3.js"></script>
+    
+<script src="English/g3engdata1.js"></script>
+<script src="English/g3engdata2.js"></script>
+<script src="English/g3engdata3.js"></script>
+    
+<script src="English/g4engdata1.js"></script>
+<script src="English/g4engdata2.js"></script>
+<script src="English/g4engdata3.js"></script>
+    
+<script src="English/g5engdata1.js"></script>
+<script src="English/g5engdata2.js"></script>
+<script src="English/g5engdata3.js"></script>
+    
+<script src="English/g6engdata.js"></script>
+	
+<!-- Science -->
+<script src="Science/bscidata1.js"></script>
+<script src="Science/bscidata2.js"></script>
+<script src="Science/bscidata3.js"></script>
+    
+<script src="Science/mscidata1.js"></script>
+<script src="Science/mscidata2.js"></script>
+<script src="Science/mscidata3.js"></script>
+    
+<script src="Science/rscidata1.js"></script>
+<script src="Science/rscidata2.js"></script>
+<script src="Science/rscidata3.js"></script>
+    
+<script src="Science/g1scidata1.js"></script>
+<script src="Science/g1scidata2.js"></script>
+<script src="Science/g1scidata3.js"></script>
+    
+<script src="Science/g2scidata1.js"></script>
+<script src="Science/g2scidata2.js"></script>
+<script src="Science/g2scidata3.js"></script>
+    
+<script src="Science/g3scidata1.js"></script>
+<script src="Science/g3scidata2.js"></script>
+<script src="Science/g3scidata3.js"></script>
+    
+<script src="Science/g4scidata1.js"></script>
+<script src="Science/g4scidata2.js"></script>
+<script src="Science/g4scidata3.js"></script>
+    
+<script src="Science/g5scidata1.js"></script>
+<script src="Science/g5scidata2.js"></script>
+<script src="Science/g5scidata3.js"></script>
+    
+<script src="Science/g6scidata.js"></script>
+	
+<!-- Social_Studies 36-->
+<script src="Social_Studies/bssdata1.js"></script>
+<script src="Social_Studies/bssdata2.js"></script>
+<script src="Social_Studies/bssdata3.js"></script>
+    
+<script src="Social_Studies/mssdata1.js"></script>
+<script src="Social_Studies/mssdata2.js"></script>
+<script src="Social_Studies/mssdata3.js"></script>
+    
+<script src="Social_Studies/rssdata1.js"></script>
+<script src="Social_Studies/rssdata2.js"></script>
+<script src="Social_Studies/rssdata3.js"></script>
+    
+<script src="Social_Studies/g1ssdata1.js"></script>
+<script src="Social_Studies/g1ssdata2.js"></script>
+<script src="Social_Studies/g1ssdata3.js"></script>
+    
+<script src="Social_Studies/g2ssdata1.js"></script>
+<script src="Social_Studies/g2ssdata2.js"></script>
+<script src="Social_Studies/g2ssdata3.js"></script>
+    
+<script src="Social_Studies/g3ssdata1.js"></script>
+<script src="Social_Studies/g3ssdata2.js"></script>
+<script src="Social_Studies/g3ssdata3.js"></script>
+    
+<script src="Social_Studies/g4ssdata1.js"></script>
+<script src="Social_Studies/g4ssdata2.js"></script>
+<script src="Social_Studies/g4ssdata3.js"></script>
+    
+<script src="Social_Studies/g5ssdata1.js"></script>
+<script src="Social_Studies/g5ssdata2.js"></script>
+<script src="Social_Studies/g5ssdata3.js"></script>
+    
+<script src="Social_Studies/g6ssdata.js"></script>
+	
+<!-- Expressive_Arts -->
+<script src="Expressive_Arts/beadata1.js"></script>
+<script src="Expressive_Arts/beadata2.js"></script>
+<script src="Expressive_Arts/beadata3.js"></script>
+    
+<script src="Expressive_Arts/meadata1.js"></script>
+<script src="Expressive_Arts/meadata2.js"></script>
+<script src="Expressive_Arts/meadata3.js"></script>
+    
+<script src="Expressive_Arts/readata1.js"></script>
+<script src="Expressive_Arts/readata2.js"></script>
+<script src="Expressive_Arts/readata3.js"></script>
+    
+<script src="Expressive_Arts/g1eadata1.js"></script>
+<script src="Expressive_Arts/g1eadata2.js"></script>
+<script src="Expressive_Arts/g1eadata3.js"></script>
+    
+<script src="Expressive_Arts/g2eadata1.js"></script>
+<script src="Expressive_Arts/g2eadata2.js"></script>
+<script src="Expressive_Arts/g2eadata3.js"></script>
+    
+<script src="Expressive_Arts/g3eadata1.js"></script>
+<script src="Expressive_Arts/g3eadata2.js"></script>
+<script src="Expressive_Arts/g3eadata3.js"></script>
+    
+<script src="Expressive_Arts/g4eadata1.js"></script>
+<script src="Expressive_Arts/g4eadata2.js"></script>
+<script src="Expressive_Arts/g4eadata3.js"></script>
+    
+<script src="Expressive_Arts/g5eadata1.js"></script>
+<script src="Expressive_Arts/g5eadata2.js"></script>
+<script src="Expressive_Arts/g5eadata3.js"></script>
+    
+<script src="Expressive_Arts/g6eadata.js"></script>
+	
+<!-- Home_Economics 51-->
+<script src="Home_Economics/g1hedata.js"></script>
+<script src="Home_Economics/g2hedata.js"></script>
+    
+<script src="Home_Economics/g3hedata.js"></script>
+<script src="Home_Economics/g4hedata.js"></script>
+    
+<script src="Home_Economics/g5hedata1.js"></script>
+<script src="Home_Economics/g5hedata2.js"></script>
+<script src="Home_Economics/g5hedata3.js"></script>
+    
+<script src="Home_Economics/g6hedata.js"></script>
+	 
+<!-- Technology_Studies -->
+<script src="Technology_Studies/g2tsdata2.js"></script>
+<script src="Technology_Studies/g3tsdata2.js"></script>
+    
+<script src="Technology_Studies/g5tsdata1.js"></script>
+<script src="Technology_Studies/g5tsdata2.js"></script>
+<script src="Technology_Studies/g5tsdata3.js"></script>
+
+<!-- Literacy -->
+<script src="Literacy/blitdata.js"></script>
+<script src="Literacy/mlitdata.js"></script>
+<script src="Literacy/rlitdata.js"></script>
+    
+<script src="Literacy/g1litdata1.js"></script>
+<script src="Literacy/g1litdata2.js"></script>
+<script src="Literacy/g1litdata3.js"></script>
+    
+<script src="Literacy/g2litdata1.js"></script>
+<script src="Literacy/g2litdata2.js"></script>
+<script src="Literacy/g2litdata3.js"></script>
+    
+<script src="Literacy/g3litdata1.js"></script>
+<script src="Literacy/g3litdata2.js"></script>
+<script src="Literacy/g3litdata3.js"></script>
+    
+<script src="Literacy/g4litdata.js"></script>
+<script src="Literacy/g5litdata.js"></script>
+<script src="Literacy/g6litdata.js"></script>
+	
+<!-- Sp1 -->
+<script src="Sp1/g1Sp1data.js"></script>
+<script src="Sp1/g2Sp1data.js"></script>
+<script src="Sp1/g3Sp1data.js"></script>
+<script src="Sp1/g4Sp1data.js"></script>
+<script src="Sp1/g5Sp1data.js"></script>
+<script src="Sp1/g6Sp1data.js"></script>
+
+<!-- Values -->
+<script src="Values/valuesdata1.js"></script>
+<script src="Values/valuesdata2.js"></script>
+<script src="Values/valuesdata3.js"></script>
+
+    <script src="weeklyFocust.js"></script>
+</body>
+</html>
