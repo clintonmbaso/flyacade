@@ -103,8 +103,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Week 3
-// Lesson 1
+// Lesson 3
 {
   "title": "Working Out Temporal Stitches",
   "school": "Flying Wings Academy",
@@ -115,8 +114,8 @@ const lessonPlans42c = [
   "topic": "Understanding and Working Out Temporal Stitches",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "2",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to temporal stitches, including their purpose, types, and the step-by-step process of working them out. It emphasizes their use in sewing to temporarily hold fabric together for adjustments before final stitching.",
   "materials": [
     "Needles and thread",
@@ -155,7 +154,8 @@ const lessonPlans42c = [
   ]
 },
 
-// Lesson 2
+// Week 3
+// Lesson 1
 {
   "title": "Practicing Stitches",
   "school": "Flying Wings Academy",
@@ -167,7 +167,7 @@ const lessonPlans42c = [
   "grade": "Wing Whiz",
   "term": "3",
   "week": "3",
-  "lessonNumber": "2",
+  "lessonNumber": "1",
   "description": "This lesson aims to help students practice stitching skills by applying the rules for working stitches and creating different types of temporal stitches.",
   "materials": [
     "Fabric pieces (cotton preferred)",
@@ -206,8 +206,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Week 4
-// Lesson 1
+// Lesson 2
 {
   "title": "Performing Local Dances with Simple Rhythm",
   "school": "Flying Wings Academy",
@@ -218,8 +217,8 @@ const lessonPlans42c = [
   "topic": "Performing Local Dances with Simple Rhythm",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "3",
+  "lessonNumber": "2",
   "description": "This lesson focuses on introducing students to local dances and simple rhythms, combining structured and unstructured movements with basic beats to enhance their dance skills.",
   "materials": [
     "Music player with local dance music",
@@ -256,7 +255,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Lesson 2
+// Lesson 3
 {
   "title": "Understanding Child Abuse",
   "school": "Flying Wings Academy",
@@ -267,8 +266,8 @@ const lessonPlans42c = [
   "topic": "Understanding and Recognizing Child Abuse",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "4",
-  "lessonNumber": "2",
+  "week": "3",
+  "lessonNumber": "3",
   "description": "This lesson aims to help students understand what child abuse is, recognize different types of abuse, and know how to protect themselves by identifying safe people and places.",
   "materials": [
     "Whiteboard and markers",
@@ -305,7 +304,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Week 5
+// Week 4
 // Lesson 1
 {
   "title": "Understanding the Impact of Abuse",
@@ -317,7 +316,7 @@ const lessonPlans42c = [
   "topic": "The Impact of Abuse",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "5",
+  "week": "4",
   "lessonNumber": "1",
   "description": "This lesson aims to help students understand the effects of abuse on emotions, behavior, and physical health, and to emphasize the importance of seeking support and building resilience.",
   "materials": [
@@ -366,7 +365,7 @@ const lessonPlans42c = [
   "topic": "Reporting Abuse and Seeking Help",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "5",
+  "week": "4",
   "lessonNumber": "2",
   "description": "This lesson aims to educate students on how to report abuse, seek help, and stay safe. It provides clear instructions on reporting procedures, safety tips, and the importance of ongoing support.",
   "materials": [
@@ -405,6 +404,202 @@ const lessonPlans42c = [
     "By learning how to report abuse, seek help, and stay safe, students will be better equipped to protect themselves and others. Continued support and a safe environment are essential for ensuring well-being and security."
   ]
 },
+
+// Lesson 3
+{
+  "title": "Introduction to MS Office Excel",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Basic Functions and Features of MS Office Excel",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the basic functions and features of MS Excel, including cell formatting, entering data, and simple calculations.",
+  "materials": [
+    "Computers with MS Excel installed",
+    "Projector for demonstration",
+    "Handouts with basic Excel exercises"
+  ],
+  "objectives": [
+    "Students will learn how to navigate MS Excel and input data into cells.",
+    "Students will understand the basics of formatting cells and performing simple calculations in Excel."
+  ],
+  "rationale": [
+    "Learning Excel is crucial for organizing data and performing calculations efficiently, which is a valuable skill for both academic and professional success."
+  ],
+  "methodology": [
+    "The lesson will include demonstrations of basic Excel functions, guided practice, and hands-on activities to ensure students gain practical experience."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will explain what MS Excel is and its common uses in organizing and analyzing data.",
+      "<b>Excel Interface</b>: The teacher will demonstrate the basic Excel interface, including the ribbon, cells, columns, and rows.",
+      "<b>Entering Data</b>: Students will practice entering data into cells and will be guided on how to move between cells using the keyboard or mouse.",
+      "<b>Cell Formatting</b>: The teacher will show students how to format cells, including adjusting column width, changing text color, and applying bold or italics.",
+      "<b>Simple Calculations</b>: Students will learn how to perform simple arithmetic calculations (addition, subtraction) in Excel by using formulas."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' ability to correctly navigate Excel, input data, format cells, and perform basic calculations during the hands-on activities.",
+    "<br><b>Homework</b>:<br>1. Open a new Excel sheet and create a simple table with 5 rows and 3 columns, enter data into the cells, and apply formatting (bold, italics, etc.)."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to confidently navigate MS Excel, enter and format data, and perform simple calculations."
+  ]
+},
+
+// Week 5
+// Lesson 1
+{
+  "title": "Explaining the Meaning of Symbols in MS Excel Formulas",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Understanding Symbols in MS Excel Formulas",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson will help students understand the meaning and usage of common symbols in MS Excel formulas: =, :, ,, and ().",
+  "materials": [
+    "Computers with MS Excel installed",
+    "Projector for demonstration",
+    "Printed examples of Excel formulas"
+  ],
+  "objectives": [
+    "Students will identify the function of the = symbol in Excel formulas.",
+    "Students will understand the meaning and use of the : symbol for ranges.",
+    "Students will learn how to use commas (,) to separate arguments in Excel functions.",
+    "Students will recognize how parentheses () are used in Excel formulas."
+  ],
+  "rationale": [
+    "Understanding these basic symbols is essential for working with formulas in Excel and performing calculations."
+  ],
+  "methodology": [
+    "The lesson will involve demonstrations, guided practice, and individual exercises to reinforce understanding of Excel formulas and symbols."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will introduce the topic of formulas in Excel and explain the importance of symbols in making formulas work.",
+      "<b>Explaining = (Equal Sign)</b>: The teacher will demonstrate how the = symbol is used to begin a formula, indicating the start of a calculation or expression.",
+      "<b>Explaining : (Colon)</b>: The teacher will explain how the : symbol is used to define a range of cells in a formula, such as A1:A5.",
+      "<b>Explaining , (Comma)</b>: The teacher will demonstrate how commas are used to separate multiple arguments within Excel functions, like SUM(A1, A2, A3).",
+      "<b>Explaining () (Parentheses)</b>: The teacher will show how parentheses are used to group arguments and clarify the order of operations within a formula, for example, =SUM(A1, (B1+B2))."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' understanding through their participation in the demonstration and hands-on exercises.",
+    "<br><b>Homework</b>:<br>1. Write an Excel formula using each of the following symbols: =, :, ,, and (). Submit your work in the next class."
+  ],
+  "conclusion": [
+    "By understanding the role of these symbols in Excel formulas, students will be able to create more complex calculations and efficiently use Excel in their work."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Performing Simple Addition Formula Calculations in MS Office Excel",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Performing Simple Addition Formula Calculations in MS Office Excel",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson aims to help students understand how to perform simple addition calculations using formulas in MS Excel.",
+  "materials": [
+    "Computers with MS Excel installed",
+    "Projector for demonstration",
+    "Handouts with example data for calculations"
+  ],
+  "objectives": [
+    "Students will identify the formula bar in MS Excel.",
+    "Students will use the SUM formula to perform addition calculations on given data."
+  ],
+  "rationale": [
+    "Learning basic Excel functions like addition will help students manage and analyze data efficiently, an essential skill in both academics and future careers."
+  ],
+  "methodology": [
+    "The lesson will include a live demonstration of the formula application in Excel, followed by guided practice, and individual exercises to ensure mastery of the concept."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will explain the concept of formulas in Excel and how they can automate calculations.",
+      "<b>Formula Identification</b>: The teacher will demonstrate where to find and how to use the SUM formula in Excel to add numbers.",
+      "<b>Demonstration</b>: The teacher will show how to select a range of cells and apply the SUM formula to calculate the total.",
+      "<b>Hands-On Practice</b>: Students will practice using the SUM formula by adding data provided in handouts, following the teacher's instructions.",
+      "<b>Class Exercise</b>:<br>1. Open Excel and enter a set of numbers in adjacent cells.<br>2. Use the SUM formula to calculate the total of the numbers.<br>3. Check your result and verify with the teacher."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' understanding based on their ability to correctly use the SUM formula during the hands-on practice.",
+    "<br><b>Homework</b>:<br>1. Create a simple Excel spreadsheet with a list of numbers and use the SUM formula to calculate the total. Submit the file in the next lesson."
+  ],
+  "conclusion": [
+    "By applying the SUM formula in Excel, students will develop important skills for data management and calculations, which will be useful in both academic and professional contexts."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Making a Simple Budget in Excel",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Creating a Simple Budget with Items, Prices, and Total Amount Formula in Excel",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to create a simple budget in Excel, including entering items, their prices, and using formulas to calculate total amounts.",
+  "materials": [
+    "Computers with Excel installed",
+    "Projector for demonstration",
+    "Handouts with budget template exercises"
+  ],
+  "objectives": [
+    "Students will learn how to enter items and their prices into an Excel spreadsheet.",
+    "Students will create a formula to calculate the total amount in a budget."
+  ],
+  "rationale": [
+    "Learning how to create and manage a budget is a vital life skill, and Excel is a powerful tool for organizing and calculating financial data."
+  ],
+  "methodology": [
+    "The lesson will include step-by-step demonstrations, guided practice, and independent exercises to ensure students understand how to create a simple budget in Excel."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will introduce the concept of budgeting and explain how Excel can be used to organize and calculate financial information.",
+      "<b>Demonstration</b>: The teacher will show how to create a simple budget in Excel, including entering items, prices, and applying a formula to calculate the total.",
+      "<b>Hands-On Practice</b>: Students will follow along, creating their own budget using Excel, entering their own items and prices.",
+      "<b>Creating Formulas</b>: The teacher will guide students on how to create a formula to sum the prices and calculate the total amount.",
+      "<b>Class Exercise</b>:<br>1. Enter at least five items in your budget.<br>2. Enter the price for each item.<br>3. Use a formula to calculate the total amount for your budget."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' understanding based on their ability to correctly enter data into Excel and apply the correct formula.",
+    "<br><b>Homework</b>:<br>1. Create a simple budget for a pretend shopping list in Excel, using at least ten items. Submit the file in the next lesson."
+  ],
+  "conclusion": [
+    "By learning how to use Excel to create a simple budget, students will gain valuable skills in managing finances and using technology to solve real-world problems."
+  ]
+},
+
 
 // Week 7
 // Lesson 1
@@ -505,8 +700,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Week 8
-// Lesson 1
+// Lesson 3
 {
   "title": "Introduction to Knot Tying",
   "school": "Flying Wings Academy",
@@ -517,8 +711,8 @@ const lessonPlans42c = [
   "topic": "Understanding Knot Tying",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "8",
-  "lessonNumber": "1",
+  "week": "7",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to the basics of knot tying, explaining its importance and demonstrating basic knots.",
   "materials": [
     "Rope or string for each student",
@@ -555,7 +749,8 @@ const lessonPlans42c = [
   ]
 },
 
-// Lesson 2
+// Week 8
+// Lesson 1
 {
   "title": "Introduction to Knot Types",
   "school": "Flying Wings Academy",
@@ -567,7 +762,7 @@ const lessonPlans42c = [
   "grade": "Wing Whiz",
   "term": "3",
   "week": "8",
-  "lessonNumber": "2",
+  "lessonNumber": "1",
   "description": "This lesson introduces students to the importance of knots and demonstrates how to tie various types, including the square knot, granny knot, and bowline knot.",
   "materials": [
     "Rope or string for each student",
@@ -604,8 +799,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Week 9
-// Lesson 1
+// Lesson 2
 {
   "title": "Introduction to Pool Hygiene",
   "school": "Flying Wings Academy",
@@ -616,8 +810,8 @@ const lessonPlans42c = [
   "topic": "Understanding Pool Hygiene",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "9",
-  "lessonNumber": "1",
+  "week": "8",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to pool hygiene, focusing on its importance for health and safety, as well as key practices to maintain cleanliness in and around the pool.",
   "materials": [
     "Poster on pool hygiene",
@@ -656,7 +850,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Lesson 2
+// Lesson 3
 {
   "title": "Introduction to Swimming Strokes",
   "school": "Flying Wings Academy",
@@ -667,8 +861,8 @@ const lessonPlans42c = [
   "topic": "Learning Different Swimming Strokes",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "9",
-  "lessonNumber": "2",
+  "week": "8",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to different swimming strokes, emphasizing their importance for safety and enjoyment in the water.",
   "materials": [
     "Swimming pool",
@@ -706,7 +900,7 @@ const lessonPlans42c = [
   ]
 },
 
-// Week 10
+// Week 9
 // Lesson 1
 {
   "title": "Introduction to Businesses in the Community",
@@ -718,7 +912,7 @@ const lessonPlans42c = [
   "topic": "Understanding Businesses in the Community",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "10",
+  "week": "9",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the concept of businesses in their community, focusing on the importance of crop and animal-related businesses.",
   "materials": [
@@ -767,7 +961,7 @@ const lessonPlans42c = [
   "topic": "Understanding Community Businesses",
   "grade": "Wing Whiz",
   "term": "3",
-  "week": "10",
+  "week": "9",
   "lessonNumber": "2",
   "description": "This lesson introduces students to the concept of community businesses, their importance, and the different types of businesses found in the community.",
   "materials": [
@@ -803,5 +997,199 @@ const lessonPlans42c = [
   "conclusion": [
     "By learning about community businesses, students will appreciate their role in the local economy and understand the importance of supporting local enterprises."
   ]
+},
+
+// Lesson 3
+{
+  "title": "Adding and Customizing a Picture in MS Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Inserting and Customizing Pictures in MS Word",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to add and customize pictures in MS Word documents, including resizing, positioning, and applying effects.",
+  "materials": [
+    "Computers with MS Word installed",
+    "Projector for demonstration",
+    "Images for insertion"
+  ],
+  "objectives": [
+    "Students will learn how to insert pictures into an MS Word document.",
+    "Students will practice resizing, positioning, and applying effects to images."
+  ],
+  "rationale": [
+    "Being able to insert and customize images enhances the visual appeal of documents, which is an essential skill for creating professional reports and presentations."
+  ],
+  "methodology": [
+    "The lesson will include a step-by-step demonstration, followed by hands-on practice to allow students to apply their new skills."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will explain the importance of using images in documents to enhance visual appeal and communication.",
+      "<b>Inserting a Picture</b>: The teacher will demonstrate how to insert a picture into a Word document using the 'Insert' tab.",
+      "<b>Resizing and Positioning</b>: The teacher will show how to resize and position the inserted image, using the corners and alignment options.",
+      "<b>Applying Picture Effects</b>: The teacher will demonstrate how to apply effects such as borders, shadows, and color corrections to images.",
+      "<b>Class Exercise</b>:<br>1. Insert a picture into your document.<br>2. Resize the picture to fit within the document margins.<br>3. Apply a border and shadow effect to the image.<br>4. Position the image within the document text."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will monitor students' ability to follow instructions and apply image customization techniques during the class exercise.",
+    "<br><b>Homework</b>:<br>1. Insert a picture of your choice into a Word document, resize it, apply at least two effects, and save the document to submit for review."
+  ],
+  "conclusion": [
+    "By learning to add and customize pictures in MS Word, students will develop essential skills for enhancing the visual presentation of their work."
+  ]
+},
+
+// Week 10
+// Lesson 1
+{
+  "title": "Creating and Modifying a Table in MS Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Creating and Modifying a Table in MS Word",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students how to create and modify tables in MS Word, including adjusting rows, columns, and cell content.",
+  "materials": [
+    "Computers with MS Word installed",
+    "Projector for demonstration",
+    "Handouts with table creation exercises"
+  ],
+  "objectives": [
+    "Students will create a table in MS Word.",
+    "Students will modify table properties, including adjusting rows, columns, and cell content."
+  ],
+  "rationale": [
+    "Learning to work with tables in MS Word is essential for organizing information clearly and efficiently in documents."
+  ],
+  "methodology": [
+    "The lesson will include a demonstration on how to create and modify tables, followed by hands-on practice with guided exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will explain the importance of using tables to organize data in documents and demonstrate how to insert a basic table.",
+      "<b>Creating a Table</b>: Students will follow along with the teacher to create a table with a set number of rows and columns in MS Word.",
+      "<b>Modifying Table Properties</b>: The teacher will show how to adjust the size of rows and columns, add or delete rows and columns, and merge cells.",
+      "<b>Formatting the Table</b>: Students will learn how to apply table styles, change the color of cells, and adjust text alignment within the table.",
+      "<b>Class Exercise</b>:<br>1. Create a table with 3 rows and 4 columns.<br>2. Modify the table by adding one row and one column.<br>3. Merge two cells in the first row.<br>4. Change the text alignment in the table to center the content."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' ability to follow the steps to create and modify a table during the class exercises.",
+    "<br><b>Homework</b>:<br>1. Create a table in MS Word with 5 rows and 3 columns, and format the table by adjusting the size and alignment of the cells. Submit a printed copy in the next lesson."
+  ],
+  "conclusion": [
+    "By practicing creating and modifying tables in MS Word, students will gain valuable skills for organizing and presenting information effectively in documents."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Adding Information in MS Word and Excel Tables",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Adding Information in MS Word and Excel Tables, including Headers",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to adding information in tables within MS Word and Excel, including how to format headers and populate the table with data.",
+  "materials": [
+    "Computers with MS Word and Excel installed",
+    "Projector for demonstration",
+    "Handouts with sample table exercises"
+  ],
+  "objectives": [
+    "Students will learn how to create and format tables in MS Word and Excel.",
+    "Students will be able to add headers and input data into the table."
+  ],
+  "rationale": [
+    "Knowing how to use tables in both MS Word and Excel is a critical skill for organizing and presenting data efficiently."
+  ],
+  "methodology": [
+    "The lesson will involve step-by-step demonstrations of creating tables, adding headers, and entering data. Students will follow along with hands-on exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will introduce the concept of tables in MS Word and Excel, explaining their use for organizing information.",
+      "<b>Creating a Table in MS Word</b>: The teacher will demonstrate how to insert a table in MS Word, add headers, and enter data into the table.",
+      "<b>Creating a Table in MS Excel</b>: The teacher will show how to create a table in Excel, format headers, and input data, highlighting the difference between Word and Excel tables.",
+      "<b>Hands-On Practice</b>: Students will practice creating tables in both MS Word and Excel, adding headers and entering relevant data based on given exercises.",
+      "<b>Class Exercise</b>:<br>1. Create a table in MS Word with 3 columns and 4 rows, adding headers for each column.<br>2. Create a table in MS Excel with 4 columns and 5 rows, and enter sample data under each header."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' ability to create tables, format headers, and input data during the hands-on practice and class exercise.",
+    "<br><b>Homework</b>:<br>1. Create a table in MS Word with 4 columns and 5 rows, including headers, and populate the table with any data of your choice. Submit it in the next class."
+  ],
+  "conclusion": [
+    "By practicing the creation of tables in MS Word and Excel, students will develop valuable skills for organizing and displaying information in professional documents and spreadsheets."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Making a Timetable Using Excel and MS Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Creating a Timetable Using Excel and MS Word",
+  "grade": "Wing Whiz",
+  "term": "3",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to create a timetable using Excel for data organization and MS Word for document presentation.",
+  "materials": [
+    "Computers with Excel and MS Word installed",
+    "Projector for demonstration",
+    "Handouts with step-by-step instructions"
+  ],
+  "objectives": [
+    "Students will learn how to use Excel to create and format a timetable.",
+    "Students will understand how to transfer the Excel timetable to MS Word for presentation."
+  ],
+  "rationale": [
+    "Learning to create and format a timetable is an essential skill for organizing daily activities and managing time effectively."
+  ],
+  "methodology": [
+    "The lesson will involve a live demonstration, followed by guided practice, and individual student exercises to apply skills learned."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: The teacher will explain the importance of timetables and how they can help in organizing time efficiently.",
+      "<b>Using Excel</b>: The teacher will demonstrate how to create a table in Excel, add rows and columns, and input data such as days of the week and class subjects.",
+      "<b>Formatting in Excel</b>: Students will be shown how to adjust the size of cells, change fonts, and apply colors to make the timetable visually appealing.",
+      "<b>Transferring to MS Word</b>: The teacher will demonstrate how to copy the timetable from Excel and paste it into MS Word, adjusting the format for better presentation.",
+      "<b>Class Exercise</b>:<br>1. Create a timetable in Excel for your weekly schedule.<br>2. Format the timetable with different colors and fonts.<br>3. Transfer your timetable to MS Word and adjust the layout for printing."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' ability to follow the steps in Excel and MS Word during the class exercises.",
+    "<br><b>Homework</b>:<br>1. Create a personal weekly timetable in Excel and format it using different colors and fonts. Transfer it to MS Word and submit a printed copy in the next lesson."
+  ],
+  "conclusion": [
+    "By learning how to create a timetable using Excel and MS Word, students will develop valuable skills in data organization and document presentation."
+  ]
 }
+
 ];

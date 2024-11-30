@@ -9,7 +9,7 @@ const lessonPlans41c = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Recognizing and Using Desktop Icons",
   "grade": "Cloud Chicks",
   "term": "3",
@@ -59,7 +59,7 @@ const lessonPlans41c = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Navigating and Using Desktop Icons",
   "grade": "Cloud Chicks",
   "term": "3",
@@ -111,7 +111,7 @@ const lessonPlans41c = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Understanding and Demonstrating Hospitality",
   "grade": "Cloud Chicks",
   "term": "3",
@@ -159,7 +159,7 @@ const lessonPlans41c = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Identifying Plant Sources of Food",
   "grade": "Cloud Chicks",
   "term": "3",
@@ -209,7 +209,7 @@ const lessonPlans41c = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Animal Sources of Food",
   "grade": "Cloud Chicks",
   "term": "3",
@@ -258,7 +258,7 @@ const lessonPlans41c = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, August 30, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Introduction to Cooking Equipment",
   "grade": "Cloud Chicks",
   "term": "3",
@@ -301,11 +301,106 @@ const lessonPlans41c = [
   ]
 },
 
+
 // Week 5
 // Lesson 1
-
+{
+  "title": "Making Items Out of Paper",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Making Items Out of Paper",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson aims to introduce students to the art of making paper objects such as planes, boxes, and simple houses by focusing on folding, cutting, and shaping paper.",
+  "materials": [
+    "Colored paper sheets",
+    "Scissors",
+    "Glue or tape",
+    "Markers or crayons for decoration"
+  ],
+  "objectives": [
+    "Students will learn how to fold, cut, and shape paper to create various objects.",
+    "Students will demonstrate creativity by making paper planes, boxes, and simple houses."
+  ],
+  "rationale": [
+    "Developing the skill of making items out of paper encourages creativity, fine motor skills, and an understanding of basic design principles."
+  ],
+  "methodology": [
+    "The lesson will include a hands-on approach where students will follow step-by-step instructions to create paper objects, promoting creativity and teamwork."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to Paper Crafting</b>: Students will be introduced to the basic techniques of folding, cutting, and shaping paper.",
+      "<b>Making Paper Planes</b>: Students will follow instructions to create paper planes and decorate them with markers or crayons.",
+      "<b>Making Paper Boxes</b>: Students will learn to fold paper into simple boxes, focusing on precise folds to ensure they hold together.",
+      "<b>Creating Paper Houses</b>: Students will create simple paper houses by folding paper into a box shape and adding a roof, then decorating them.",
+      "<b>Class Exercise</b>:<br>1. What shapes can you create by folding paper?<br>2. How can you make your paper house more interesting?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' ability to follow instructions and use paper crafting techniques during the activities.",
+    "<br><b>Homework</b>:<br>1. Create a paper object at home and bring it to class for show-and-tell."
+  ],
+  "conclusion": [
+    "By engaging in the activity of making paper objects, students will develop their creative and fine motor skills while learning the basics of design and crafting."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Making Items Out of Paper and Wire",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, April 15, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Making Items Out of Paper and Wire",
+  "grade": "Cloud Chicks",
+  "term": "3",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson aims to help students explore creativity by combining paper and wire to create complex items such as wire cars and structures.",
+  "materials": [
+    "Wire",
+    "Paper",
+    "Scissors",
+    "Glue",
+    "Markers or colored pens"
+  ],
+  "objectives": [
+    "Students will learn how to combine paper and wire to create three-dimensional objects.",
+    "Students will enhance their problem-solving and creativity skills by making items like wire cars and paper structures."
+  ],
+  "rationale": [
+    "This lesson encourages creativity and fine motor skills development, as students engage in hands-on building and problem-solving with everyday materials."
+  ],
+  "methodology": [
+    "The lesson will focus on hands-on activities where students can experiment with shaping wire and attaching paper to create unique designs. The teacher will provide guidance and examples, and students will have the opportunity to showcase their creations."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: Discuss the materials needed for the activity (paper, wire, glue). Explain how wire can be used to create a framework and how paper can be attached to form the surface of an object.",
+      "<b>Demonstration</b>: The teacher will demonstrate how to use wire to form simple shapes, such as a wire car frame, and attach paper to complete the design.",
+      "<b>Hands-on Creation</b>: Students will create their own items using wire and paper. They will be encouraged to make a wire car or another structure of their choice.",
+      "<b>Discussion</b>: After the activity, students will share their creations with the class, explaining the process and how they combined paper and wire to form their items.",
+      "<b>Class Exercise</b>:<br>1. What did you create using paper and wire?<br>2. How did you attach the paper to the wire?<br>3. What was challenging about using wire to make shapes?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess students' creativity, problem-solving abilities, and fine motor skills as they engage in the activity.",
+    "<br><b>Homework</b>:<br>1. Create a drawing of an item you would like to make using paper and wire, and explain how you would combine the materials."
+  ],
+  "conclusion": [
+    "Through this hands-on activity, students will develop their creativity and learn how to combine simple materials to make more complex items, enhancing their problem-solving and fine motor skills."
+  ]
+},
 
 
 // Week 7
