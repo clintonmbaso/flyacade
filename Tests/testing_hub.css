@@ -167,6 +167,7 @@
   border-collapse: collapse;
   margin: 20px 0;
   width: auto;
+  margin: 0 auto;
 }
 
 .crossword-table td {
@@ -243,13 +244,13 @@
 
 /* Style for the special question container */
 .special-container {
-    text-align: left; /* Center the content */
+    text-align: center; /* Center the content */
     margin: 0;
 }
 
 /* Style for the question image */
 .special-container img.question-image {
-    max-width: 300px; /* Regulate the size of the question image */
+    max-width: 250px; /* Regulate the size of the question image */
     height: auto;
     display: block;
     margin: 0 auto; /* Center the image */
@@ -264,7 +265,7 @@
 
 /* Style for the choice images */
 .special-container .choice-container img {
-    max-width: 100px; /* Regulate the size of choice images */
+    max-width: 80px; /* Regulate the size of choice images */
     width: 50%;
     height: auto;
 //    display: block;
@@ -304,8 +305,8 @@
 }
 /* Style for the handwriting textarea */
 .handwriting-container .handwriting-input {
-    width: 80%; /* Adjust width */
-    max-width: 500px;
+    width: 95%; /* Adjust width */
+    
     font-size: 20px; /* Increase font size for better readability */
     padding: 10px;
     border: 2px solid #ccc; /* Basic border styling */
@@ -521,6 +522,9 @@
 
 .letter-container, .shape-container {
     text-align: center;
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
 }
 
 .letter-text {
@@ -869,8 +873,8 @@
 }
 
 .puzzle-cell {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -879,6 +883,8 @@
     user-select: none;
     border: 1px solid #ccc;
     border-radius: 5px;
+    padding: 0;
+    margin: 0;
 }
 
 .puzzle-cell.highlighted {
@@ -935,25 +941,28 @@
     margin: 0 5px;
 }
 
-.result-box {
-    display: inline-flex;
+.resultBox {
+//    display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     border: 2px solid #000;
     width: 40px;
     height: 40px;
-    margin-top: -40px;
+    margin-top: -90%;
     font-size: 24px;
 }
 
 .arrows {
     display: flex;
+//    
     justify-content: space-between;
     width: 100px;
-    margin-top: -20px;
+    margin-top: -70px;
 }
 
 .rightArrow {
+    position: absolute;
     border-bottom: 2px solid #000;
     border-right: 2px solid #000;
     width: 20px;
@@ -962,12 +971,14 @@
     margin-right: 10px;
 }
 .leftArrow {
+    position: absolute;
     border-bottom: 2px solid #000;
     border-left: 2px solid #000;
     width: 20px;
     height: 40px;
     transform: rotate(360deg);
     margin-left: 10px;
+    margin-top: 60px;
 }
 
 
@@ -1136,4 +1147,21 @@
     margin-top: 10px;
     width: 20%;
     text-align: center;
+}
+
+
+.imagingImg {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+.reading-word {
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: Advantage;
 }

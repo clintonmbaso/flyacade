@@ -56,10 +56,20 @@ document.getElementById('printContent').addEventListener('click', () => {
     savePDFButton.style.display = 'none';
     classImages.style.display = 'none';
 
+    // Set a dynamic file name
+    const filename = "MyDynamicFileName"; // Replace with your dynamic logic, e.g., `${filename}`
+    const originalTitle = document.title;
+    document.title = filename;
+
     // Add a short delay before triggering the print
     setTimeout(() => {
         window.print();
-    }, 300); // 100 milliseconds delay
+    }, 300); // 300 milliseconds delay
+
+    // Restore the original title after printing
+    setTimeout(() => {
+        document.title = originalTitle;
+    }, 1000); // Slightly longer delay to ensure print is complete
 });
 
 // Handle the print events to restore visibility after printing

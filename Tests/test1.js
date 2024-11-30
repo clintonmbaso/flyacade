@@ -16,6 +16,7 @@
     "math": false,
     "comprehension": false,
     "image_based": false,
+    "imaging": false,
     "maze": false,
     "crossword": false,
     "coloring": false,    
@@ -82,9 +83,12 @@
           break;
                         
           case "image_based":
-          sectionIdentifierText = "Image Based <br><em>Carefully analyse the given image and answer the questions that follow</em>";
+          sectionIdentifierText = "Image Based <br><em>Carefully analyse the given image and answer the question that follow</em>";
           break;
                       
+          case "imaging":
+          sectionIdentifierText = "Imaging <br><em>Carefully analyse the given image and answer the questions that follow</em>";
+          break;
                       
           case "maze":
           sectionIdentifierText = "Maze <br><em>Carefully find the path through the maze from start to finish.</em>";
@@ -516,27 +520,57 @@ case "simpleArithmetic":
     mathContainer.appendChild(arithmeticContainer);
 
     // Add arrows below the numbers
-    const arrowsContainer = document.createElement("div");
-    arrowsContainer.classList.add("arrows");
+// Create arrows container
+const arrowsContainer = document.createElement("div");
+arrowsContainer.classList.add("arrows");
+arrowsContainer.style.display = "flex"; // Flexbox for easy positioning
+arrowsContainer.style.justifyContent = "space-between"; // Space arrows evenly
+arrowsContainer.style.alignItems = "center"; // Align arrows vertically
+arrowsContainer.style.marginTop = "1px"; // Example position
+arrowsContainer.style.marginBottom = "40px";
+arrowsContainer.style.left = "50%"; // Example position
 
-    const leftArrow = document.createElement("div");
-    leftArrow.classList.add("leftArrow");
-    arrowsContainer.appendChild(leftArrow);
+// Create left arrow
+const leftArrow = document.createElement("div");
+leftArrow.classList.add("leftArrow");
+leftArrow.style.cursor = "pointer";
+leftArrow.style.fontSize = "24px"; // Styling for size
+leftArrow.style.left = "45%"; // Space between arrows
+arrowsContainer.appendChild(leftArrow);
 
-    const rightArrow = document.createElement("div");
-    rightArrow.classList.add("rightArrow");
-    arrowsContainer.appendChild(rightArrow);
+// Create right arrow
+const rightArrow = document.createElement("div");
+rightArrow.classList.add("rightArrow");
+rightArrow.style.cursor = "pointer";
+rightArrow.style.fontSize = "24px"; // Styling for size
+rightArrow.style.right = "45%"; // Space between arrows
+arrowsContainer.appendChild(rightArrow);
 
-    mathContainer.appendChild(arrowsContainer);
+// Add arrows to container
+mathContainer.appendChild(arrowsContainer);
 
-    // Add result box
-    const resultBox = document.createElement("div");
-    resultBox.classList.add("result-box");
-    const resultInput = document.createElement("input");
-    resultInput.type = "number";
-    resultInput.placeholder = "?";
-    resultBox.appendChild(resultInput);
-    mathContainer.appendChild(resultBox);
+// Add result box
+const resultBox = document.createElement("div");
+resultBox.classList.add("resultBox");
+resultBox.style.display = "inline-flex"; // Allow absolute positioning
+resultBox.style.marginTop = "80px"; // Example position
+resultBox.style.marginBottom = "10px";
+resultBox.style.left = "46.4%"; // Example position
+resultBox.style.padding = "5px"; // Add padding for design
+resultBox.style.fontSize = "54px";
+resultBox.style.border = "1px solid #fff"; // Example styling for box
+resultBox.style.borderRadius = "5px"; // Rounded corners
+resultBox.style.backgroundColor = "#f9f9f9"; // Light background
+
+const resultInput = document.createElement("input");
+resultInput.type = "number";
+resultInput.style.width = "40px";
+resultInput.style.height = "40px";
+resultInput.style.textAlign = "center"; // Center the number
+resultBox.appendChild(resultInput);
+
+// Add result box to mathContainer
+mathContainer.appendChild(resultBox);
 
     questionWrapper.appendChild(mathContainer);
     break;
@@ -773,6 +807,83 @@ case "image_based":
     break;
                     
                     
+                  
+case "imaging":
+    // Create a container div for the image and associated questions
+    const imagingContainer = document.createElement("div");
+    imagingContainer.classList.add("imaging-container"); // Unique class for styling
+
+    // Create and add the image element only once
+    const imagingImgElement = document.createElement("img");
+                  imagingImgElement.classList.add("imagingImg"); // Unique class for styling
+
+    // Check if the image source exists and log the path
+    if (q.imageSrc) {
+        console.log("Loading image from: " + q.imageSrc); // Log image path for debugging
+        imagingImgElement.setAttribute("src", q.imageSrc); // Set the image source dynamically
+    } else {
+        console.log("Image source is missing for question set: ", q); // Log missing image source for debugging
+    }
+
+    imagingImgElement.setAttribute("alt", "Question Image");
+    imagingImgElement.setAttribute("width", "100%"); // Set width as needed
+    imagingImgElement.setAttribute("height", "auto"); // Set height as needed
+    imagingContainer.appendChild(imagingImgElement);
+    imagingContainer.appendChild(document.createElement("br"));
+
+    // Loop through each question related to this single image
+    q.questions.forEach((question, questionIndex) => {
+        // Create a question description for each question
+        const imagingQuestionDescription = document.createElement("p");
+        imagingQuestionDescription.innerHTML = question.description; // Use the individual question description
+        imagingContainer.appendChild(imagingQuestionDescription);
+
+        // Create a unique sub-choices container for each question's options or input field
+        const imagingSubChoicesContainer = document.createElement("div");
+        imagingSubChoicesContainer.classList.add("imaging-sub-choices-container"); // Unique class for styling
+
+        // Based on the question's sub-type, add either multiple-choice or fill-in-the-blank options
+        if (question.subType === "multiple_choice") {
+            question.options.forEach((option, optionIndex) => {
+                const imagingRadioInput = document.createElement("input");
+                imagingRadioInput.setAttribute("type", "radio");
+                imagingRadioInput.setAttribute("id", `imaging-option-${questionIndex}-${optionIndex}`);
+                imagingRadioInput.setAttribute("name", `imaging-question-${questionIndex}`);
+                imagingRadioInput.setAttribute("value", option);
+
+                const imagingLabel = document.createElement("label");
+                imagingLabel.setAttribute("for", `imaging-option-${questionIndex}-${optionIndex}`);
+                imagingLabel.innerHTML = option;
+
+                imagingSubChoicesContainer.appendChild(imagingRadioInput);
+                imagingSubChoicesContainer.appendChild(imagingLabel);
+                imagingSubChoicesContainer.appendChild(document.createElement("br"));
+            });
+        } else if (question.subType === "fill_in_the_blank") {
+            const imagingAnswerInput = document.createElement("input");
+            imagingAnswerInput.setAttribute("type", "text");
+            imagingAnswerInput.setAttribute("id", `imaging-answer-${questionIndex}`);
+            imagingAnswerInput.setAttribute("name", `imaging-question-${questionIndex}`);
+
+            const imagingAnswerLabel = document.createElement("label");
+            imagingAnswerLabel.innerHTML = "Answer: ";
+
+            imagingSubChoicesContainer.appendChild(imagingAnswerLabel);
+            imagingSubChoicesContainer.appendChild(imagingAnswerInput);
+            imagingSubChoicesContainer.appendChild(document.createElement("br"));
+        }
+
+        // Append each question's sub-choices container to the main container
+        imagingContainer.appendChild(imagingSubChoicesContainer);
+    });
+
+    // Finally, append the entire container for this case to the questionWrapper
+    questionWrapper.appendChild(imagingContainer);
+    break;
+                  
+                  
+                  
+                  
                     
 case "maze":
     // Create a container for the maze-based question
@@ -1084,21 +1195,25 @@ case "identification":
     }
 
     // If the item type is a letter, display the letter for identification
-    else if (q.subtype === "letter") {
-        const letterContainer = document.createElement("div");
-        letterContainer.classList.add("letter-container");
+else if (q.subtype === "letter") {
+    const letterContainer = document.createElement("div");
+    letterContainer.classList.add("letter-container");
 
-        const letterText = document.createElement("p");
+    // Split the value array into individual letters
+    q.value.forEach((letter) => {
+        const letterText = document.createElement("span"); // Use <span> for inline styling
         letterText.classList.add("letter-text");
-        letterText.textContent = q.value; // Letter, e.g., "A"
-
+        letterText.textContent = letter; // Add each letter
+        letterContainer.appendChild(letterText);
+    });
+  
 /*      const letterImage = document.createElement("img");
         letterImage.src = q.imgsSrc; // Image source for the shape
         letterImage.alt = "Letter Image";
         letterImage.classList.add("shape-image");
 
         letterContainer.appendChild(letterImage);*/
-        letterContainer.appendChild(letterText);
+        
         identificationContainer.appendChild(letterContainer);
     }
 
@@ -1406,18 +1521,18 @@ case "handwriting":
     const handwritingContainer = document.createElement("div");
     handwritingContainer.classList.add("handwriting-container"); // Add class for styling
 
+          // Add a reading prompt (title or introduction)
+        const handwritingTitle = document.createElement("h3");
+        handwritingTitle.innerHTML = q.handwritingTitle;
+        handwritingTitle.classList.add("handwritingTitle"); // Add class for styling
+        handwritingContainer.appendChild(handwritingTitle);
+
     // Add a question prompt
     const handwritingPrompt = document.createElement("p");
-    handwritingPrompt.innerHTML = q.prompt || "Please write your answer below:";
+    handwritingPrompt.innerHTML = q.handwritingPrompt || "Please write your answer below:";
+    handwritingPrompt.classList.add("handwritingPrompt");
     handwritingContainer.appendChild(handwritingPrompt);
 
-    // Add a reading prompt (title or introduction)
-    if (q.readingPrompt) {
-        const readingPrompt = document.createElement("h3");
-        readingPrompt.innerHTML = q.readingPrompt;
-        readingPrompt.classList.add("reading-prompt"); // Add class for styling
-        readingContainer.appendChild(readingPrompt);
-    }
 
 
     // Create a textarea for the user to type their handwritten response
@@ -1439,6 +1554,11 @@ case "handwriting":
     break;
       
       
+                  
+                  
+                  
+                  
+                  
 case "reading":
     const readingContainer = document.createElement("div");
     readingContainer.classList.add("reading-container"); // Add main container class for styling
@@ -1577,6 +1697,8 @@ function createSudokuGrid(size, maxValue, puzzleData) {
     break;
       
                     
+                  
+                  
                     
 case "identity":
     const identityContainer = document.createElement("div");
@@ -1767,12 +1889,12 @@ case "wordSearchPuzzle":
 
     // Create the grid structure and add random letters
     for (let row = 0; row < gridSize; row++) {
-        const rowElement = document.createElement("div");
+        const rowElement = document.createElement("span");
         rowElement.classList.add("puzzle-row");
 
         const rowCells = [];
         for (let col = 0; col < gridSize; col++) {
-            const cell = document.createElement("div");
+            const cell = document.createElement("span");
             cell.classList.add("puzzle-cell");
             cell.innerText = String.fromCharCode(65 + Math.floor(Math.random() * 26)); // Random letter
             cell.dataset.row = row;

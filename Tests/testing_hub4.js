@@ -1066,20 +1066,22 @@ case "identification":
 
     // If the item type is a letter, display the letter for identification
     else if (q.subtype === "letter") {
-        const letterContainer = document.createElement("div");
-        letterContainer.classList.add("letter-container");
+    const letterContainer = document.createElement("div");
+    letterContainer.classList.add("letter-container");
 
-        const letterText = document.createElement("p");
+    // Split the value array into individual letters
+    q.value.forEach((letter) => {
+        const letterText = document.createElement("span"); // Use <span> for inline styling
         letterText.classList.add("letter-text");
-        letterText.textContent = q.value; // Letter, e.g., "A"
-
+        letterText.textContent = letter; // Add each letter
+        letterContainer.appendChild(letterText);
+    });
 /*      const letterImage = document.createElement("img");
         letterImage.src = q.imgsSrc; // Image source for the shape
         letterImage.alt = "Letter Image";
         letterImage.classList.add("shape-image");
 
         letterContainer.appendChild(letterImage);*/
-        letterContainer.appendChild(letterText);
         identificationContainer.appendChild(letterContainer);
     }
 
@@ -1443,7 +1445,7 @@ case "reading":
 
             // Loop through each word in readingContent and create a styled span
             q.readingContent.forEach(word => {
-                const wordItem = document.createElement("span");
+                const wordItem = document.createElement("d");
                 wordItem.textContent = word;
                 wordItem.classList.add("reading-word"); // Style for bigger font
                 readingContainer.appendChild(wordItem);

@@ -196,17 +196,31 @@ const questionsBank = [
   // Science
   // Reception
   // Multiple Choice
-/*  ...recscit2amultipleChoiceQuestions,
-  ...recscit2bmultipleChoiceQuestions, */
+  ...recscit1amultipleChoiceQuestions,
+  ...recscit1bmultipleChoiceQuestions,
+  ...recscit2amultipleChoiceQuestions,
+  ...recscit2bmultipleChoiceQuestions,
   ...recscit3amultipleChoiceQuestions,
   ...recscit3bmultipleChoiceQuestions,
 // Fill in the Blanks
+...recscit1afillInTheBlankQuestions,
+...recscit1bfillInTheBlankQuestions,
+...recscit2afillInTheBlankQuestions,
+...recscit2bfillInTheBlankQuestions,
 ...recscit3afillInTheBlankQuestions,
 ...recscit3bfillInTheBlankQuestions,
 // True or False
+...recscit1atrueFalseQuestions,
+...recscit1btrueFalseQuestions,
+...recscit2atrueFalseQuestions,
+...recscit2btrueFalseQuestions,
 ...recscit3atrueFalseQuestions,
 ...recscit3btrueFalseQuestions,
 // Matching
+...recscit1amatchingQuestions,
+...recscit1bmatchingQuestions,
+...recscit2amatchingQuestions,
+...recscit2bmatchingQuestions,
 ...recscit3amatchingQuestions,
 ...recscit3bmatchingQuestions,
 
@@ -241,21 +255,35 @@ const questionsBank = [
 
 ...reclitt3breadingQuestions,
 
-
+...reclitt3bidentificationQuestions,
 
   // Social Studies
   // Multiple Choice
-//  ...recengt2amultipleChoiceQuestions,
-//  ...recengt2bmultipleChoiceQuestions, 
+//  ...recsst1amultipleChoiceQuestions,
+//  ...recsst1bmultipleChoiceQuestions,
+//  ...recsst2amultipleChoiceQuestions,
+//  ...recsst2bmultipleChoiceQuestions,
   ...recsst3amultipleChoiceQuestions,
   ...recsst3bmultipleChoiceQuestions,
 // Fill in the Blanks
+//...recsst1afillInTheBlankQuestions,
+//...recsst1bfillInTheBlankQuestions,
+//...recsst2afillInTheBlankQuestions,
+//...recsst2bfillInTheBlankQuestions,
 ...recsst3afillInTheBlankQuestions,
 ...recsst3bfillInTheBlankQuestions,
 // True or False
+//...recsst1atrueFalseQuestions,
+//...recsst1btrueFalseQuestions,
+//...recsst2atrueFalseQuestions,
+//...recsst2btrueFalseQuestions,
 ...recsst3atrueFalseQuestions,
 ...recsst3btrueFalseQuestions,
 // Matching
+//...recsst1amatchingQuestions,
+//...recsst1bmatchingQuestions,
+//...recsst2amatchingQuestions,
+//...recsst2bmatchingQuestions,
 ...recsst3amatchingQuestions,
 ...recsst3bmatchingQuestions,
 
@@ -307,10 +335,6 @@ const questionsBank = [
   ...g1engt3bmultipleChoiceQuestions,
 // Fill in the Blanks
 ...g1engt3afillInTheBlankQuestions,
-// True or False
-...g1scit3atrueFalseQuestions,
-// Matching
-...g1scit3amatchingQuestions,
 // Comprehension
 ...g1engt3acomprehensionQuestions,
 
@@ -338,13 +362,6 @@ const questionsBank = [
   ...g1scit2btrueFalseQuestions,
   ...g1scit3atrueFalseQuestions,
   ...g1scit3btrueFalseQuestions,
-  // One Word Questions
-  ...g1scit1aoneWordQuestions,
-  ...g1scit1boneWordQuestions,
-  ...g1scit2aoneWordQuestions,
-  ...g1scit2boneWordQuestions,
-  ...g1scit3aoneWordQuestions,
-  ...g1scit3boneWordQuestions,
   // Fill in the Blank Questions
   ...g1scit1afillInTheBlankQuestions,
   ...g1scit1bfillInTheBlankQuestions,
@@ -371,16 +388,24 @@ const questionsBank = [
   ...g1sst3atrueFalseQuestions,
   ...g1sst3btrueFalseQuestions,
   // Fill
-/*  ...g1sst1afillInTheBlankQuestions,
-  ...g1sst1btrueFalseQuestions,
-  ...g1sst2atrueFalseQuestions,
-  ...g1sst2btrueFalseQuestions,*/
+  ...g1sst1afillInTheBlankQuestions,
+  ...g1sst1bfillInTheBlankQuestions,
+  ...g1sst2afillInTheBlankQuestions,
+  ...g1sst2bfillInTheBlankQuestions,
   ...g1sst3afillInTheBlankQuestions,
   ...g1sst3bfillInTheBlankQuestions,
 // Matching
+...g1sst1amatchingQuestions,
+...g1sst1bmatchingQuestions,
+...g1sst2amatchingQuestions,
+...g1sst2bmatchingQuestions,
 ...g1sst3amatchingQuestions,
 ...g1sst3bmatchingQuestions,
 // Multiple Choice
+...g1sst1amultipleChoiceQuestions,
+...g1sst1bmultipleChoiceQuestions,
+...g1sst2amultipleChoiceQuestions,
+...g1sst2bmultipleChoiceQuestions,
 ...g1sst3amultipleChoiceQuestions,
 ...g1sst3bmultipleChoiceQuestions,
 
@@ -394,6 +419,7 @@ const questionsBank = [
   ...g1matht3atrueFalseQuestions,
 
   ...g1matht3amultipleChoiceQuestions,
+  ...g1matht3bmultipleChoiceQuestions,
 
   ...g1matht3aoneWordQuestions,
 
@@ -453,6 +479,13 @@ const questionsBank = [
   ...g1sp1t3bwordSearchQuestions,
   ...g1sp1t3bwordSearchQuestions,*/
   ...g1sp1t3bwordSearchQuestions,
+  // Search Word
+/*  ...g1sp1t1amultipleChoiceQuestions,
+  ...g1sp1t1bmultipleChoiceQuestions,
+  ...g1sp1t2amultipleChoiceQuestions,
+  ...g1sp1t2bmultipleChoiceQuestions,
+  ...g1sp1t3amultipleChoiceQuestions,*/
+  ...g1sp1t3bmultipleChoiceQuestions,
 
   // SP2
   // Image Based
@@ -479,18 +512,18 @@ const questionsBank = [
   ...g2matht2amultipleChoiceQuestions,
   ...g2matht2bmultipleChoiceQuestions,*/
   ...g2matht3amultipleChoiceQuestions,
-//  ...g2matht3bmultipleChoiceQuestions,
+  ...g2matht3bmultipleChoiceQuestions,
 // One Word
 ...g2matht3aoneWordQuestions,
 
 // English
 // Multiple Choice
-/*...g2engt1amultipleChoiceQuestions,
+...g2engt1amultipleChoiceQuestions,
 ...g2engt1bmultipleChoiceQuestions,
 ...g2engt2amultipleChoiceQuestions,
-...g2engt2bmultipleChoiceQuestions,*/
+...g2engt2bmultipleChoiceQuestions,
 ...g2engt3amultipleChoiceQuestions,
-//...g2engt3bmultipleChoiceQuestions,
+...g2engt3bmultipleChoiceQuestions,
 // True or False
 ...g2engt3atrueFalseQuestions,
 // Fill in the Blanks
@@ -530,7 +563,7 @@ const questionsBank = [
   ...g2scit1bfillInTheBlankQuestions,
   ...g2scit2afillInTheBlankQuestions,
   ...g2scit2bfillInTheBlankQuestions,
-*/
+*
   ...g2scit3afillInTheBlankQuestions,
   ...g2scit3bfillInTheBlankQuestions,
 // Matching
@@ -639,6 +672,7 @@ const questionsBank = [
 // English
 // Multiple Choice
 ...g3engt3amultipleChoiceQuestions,
+...g3engt3bmultipleChoiceQuestions,
 // True or False
 ...g3engt3atrueFalseQuestions,
 // Fill
@@ -747,7 +781,7 @@ const questionsBank = [
   ...g3matht2amultipleChoiceQuestions,
   ...g3matht2bmultipleChoiceQuestions,*/
   ...g3matht3amultipleChoiceQuestions,
-//  ...g3matht3bmultipleChoiceQuestions,
+  ...g3matht3bmultipleChoiceQuestions,
 // True or False
 /*  ...g3sst1atrueFalseQuestions,
   ...g3sst1btrueFalseQuestions,
@@ -821,12 +855,12 @@ const questionsBank = [
 
 // English
 // Multiple Choice
-/*  ...g4engt1amultipleChoiceQuestions,
+  ...g4engt1amultipleChoiceQuestions,
   ...g4engt1bmultipleChoiceQuestions,
   ...g4engt2amultipleChoiceQuestions,
-  ...g4engt2bmultipleChoiceQuestions,*/
+  ...g4engt2bmultipleChoiceQuestions,
   ...g4engt3amultipleChoiceQuestions,
-//  ...g4engt3bmultipleChoiceQuestions,
+  ...g4engt3bmultipleChoiceQuestions,
 // True or False
 /*  ...g4engt3atrueFalseQuestions,
   ...g4engt3atrueFalseQuestions,
@@ -872,6 +906,7 @@ const questionsBank = [
 ...g4ctst2btrueFalseQuestions, 
 ...g4ctst3atrueFalseQuestions,
 ...g4ctst3btrueFalseQuestions,
+/* */
 // Fill in the Blanks
 ...g4ctst1afillInTheBlankQuestions, 
 ...g4ctst1bfillInTheBlankQuestions, 
@@ -894,7 +929,9 @@ const questionsBank = [
 ...g4ctst2amultipleChoiceQuestions,
 ...g4ctst2bmultipleChoiceQuestions,*/
 ...g4matht3amultipleChoiceQuestions,
-//...g4ctst3bmultipleChoiceQuestions,
+...g4matht3bmultipleChoiceQuestions,
+
+...g4mentalt3bmultipleChoiceQuestions,
 // True or False
 /*...g4ctst1atrueFalseQuestions,
 ...g4ctst1btrueFalseQuestions,
@@ -976,19 +1013,27 @@ const questionsBank = [
 ...g5scit3amatchingQuestions, 
 ...g5scit3bmatchingQuestions,
 // Fill in the Blanks
-/*...g5scit1afillInTheBlankQuestions,
+...g5scit1afillInTheBlankQuestions,
 ...g5scit1bfillInTheBlankQuestions,
 ...g5scit2afillInTheBlankQuestions,
-...g5scit2bfillInTheBlankQuestions,*/
+...g5scit2bfillInTheBlankQuestions,
 ...g5scit3afillInTheBlankQuestions,
 ...g5scit3bfillInTheBlankQuestions,
 // True or False
-/*...g5scit3atrueFalseQuestions,
-...g5scit3atrueFalseQuestions,
-...g5scit3atrueFalseQuestions,
-...g5scit3atrueFalseQuestions,*/
+...g5scit1atrueFalseQuestions,
+...g5scit1btrueFalseQuestions,
+...g5scit2atrueFalseQuestions,
+...g5scit2btrueFalseQuestions,
 ...g5scit3atrueFalseQuestions,
 ...g5scit3btrueFalseQuestions,
+// True or False
+/*...g5scit3bimagingQuestions,
+...g5scit3bimagingQuestions,
+...g5scit3bimagingQuestions,
+...g5scit3bimagingQuestions,
+...g5scit3bimagingQuestions,*
+...g5scit3bimagingQuestions,
+
 
   // English
   // Multiple Choice
@@ -1029,19 +1074,26 @@ const questionsBank = [
 ...g5sst3atrueFalseQuestions,
 ...g5sst3btrueFalseQuestions,
   // Fill in the Blanks
-/*  ...g5sst1afillInTheBlankQuestions,
+  ...g5sst1afillInTheBlankQuestions,
   ...g5sst1bfillInTheBlankQuestions,
   ...g5sst2afillInTheBlankQuestions,
-  ...g5sst2bfillInTheBlankQuestions,*/
+  ...g5sst2bfillInTheBlankQuestions,
   ...g5sst3afillInTheBlankQuestions,
   ...g5sst3bfillInTheBlankQuestions,
   // Matching
-/*  ...g5sst1amatchingQuestions,
+  ...g5sst1amatchingQuestions,
   ...g5sst1bmatchingQuestions,
   ...g5sst2amatchingQuestions,
-  ...g5sst2bmatchingQuestions,*/
+  ...g5sst2bmatchingQuestions,
   ...g5sst3amatchingQuestions,
   ...g5sst3bmatchingQuestions,
+  // Imaging
+/*  ...g5sst3bimagingQuestions,
+  ...g5sst3bimagingQuestions,
+  ...g5sst3bimagingQuestions,
+  ...g5sst3bimagingQuestions,
+  ...g5sst3aimagingQuestions,*/
+  ...g5sst3bimagingQuestions,
 
   // Expressive Arts
   // Multiple Choice
@@ -1072,6 +1124,13 @@ const questionsBank = [
   ...g5expt2bmatchingQuestions,*/
   ...g5expt3amatchingQuestions,
   ...g5expt3bmatchingQuestions,
+  // Imaging
+/*  ...g5expt3bimagingQuestions,
+  ...g5expt3bimagingQuestions,
+  ...g5expt3bimagingQuestions,
+  ...g5expt3bimagingQuestions,
+  ...g5expt3bimagingQuestions,*/
+  ...g5expt3bimagingQuestions,
 
   // Home Economics
   // Multiple Choice
@@ -1176,6 +1235,15 @@ const questionsBank = [
   ...g5matht3bgraphicalQuestions,
   ...g5matht3agraphicalQuestions,
   ...g5matht3bgraphicalQuestions,
+  // Multiple Choice
+/*  ...g5mentalMatht1amultipleChoiceQuestions,
+  ...g5mentalMatht1bmultipleChoiceQuestions,
+  ...g5mentalMatht2amultipleChoiceQuestions,
+  ...g5mentalMatht2bmultipleChoiceQuestions,
+  ...g5mentalMatht3amultipleChoiceQuestions,*/
+  ...g5mentalMatht3bmultipleChoiceQuestions,
+
+
 
   // SP1
   // Search Word

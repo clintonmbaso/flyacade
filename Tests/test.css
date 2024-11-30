@@ -60,9 +60,9 @@ input[type="number"] {
 }
 #motto {
   display: flex; 
-  right: 5%;
+  right: 1%;
   align-self: flex-end;
-  top: 50px;
+  top: 15px;
   font-style: italic;
   color: brown;
   position: absolute;
@@ -256,3 +256,56 @@ input[type="number"] {
   width: 47%;
 }
 
+
+
+
+    
+
+
+
+
+
+    /* Explicitly match screen styles for print */
+    @media print {
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    * {
+        -webkit-print-color-adjust: exact; /* For WebKit browsers */
+        print-color-adjust: exact; /* For modern browsers */
+    }
+        /* Ensure all elements match the screen layout */
+        #content {
+            display: block;
+            width: 100%;
+        }
+
+        /* Include all visible elements and styles */
+        * {
+            color: inherit;
+            background-color: inherit;
+            box-shadow: none; /* Avoid unnecessary shadows in print */
+        }
+
+        /* Prevent page-breaking issues */
+        .no-break {
+            page-break-inside: avoid;
+        }
+
+        /* Hide unnecessary elements in print */
+        #show-answer-key-btn,
+        #savePDF,
+        #refreshBtn,
+        #printContent,
+        #classImage,
+        .print-only-hidden {
+            display: none !important;
+        }
+
+        /* Customize headers, margins, and footers for better fit */
+        @page {
+            margin: 1cm; /* Adjust page margins */
+        }
+    }
