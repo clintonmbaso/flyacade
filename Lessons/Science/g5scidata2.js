@@ -1607,8 +1607,4 @@ const lessonPlans26b = [
     "Through interactive discussions and activities, students will develop a comprehensive understanding of the impact of individual and community actions on energy conservation, recognizing the importance of small changes contributing to larger collective efforts in promoting sustainability."
   ]
 }
-
 ];
-
-
-
