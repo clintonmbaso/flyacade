@@ -199,7 +199,102 @@ const lessonPlans27a = [
 
 // Week 3
 // Lesson 1
+{
+  "title": "Features of Pregnancy",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, January 22, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Understanding Features of Pregnancy",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "5",
+  "description": "This lesson introduces students to the features of pregnancy, focusing on physical, hormonal, and emotional changes experienced during this period.",
+  "materials": [
+    "Charts showing pregnancy stages",
+    "Whiteboard and markers",
+    "Diagrams illustrating physical changes during pregnancy"
+  ],
+  "objectives": [
+    "Students will learn about the physical changes that occur during pregnancy, including the protrusion of the tummy and enlargement of breasts.",
+    "Students will understand the hormonal changes involved in pregnancy and their effects on the body.",
+    "Students will explore the emotional and psychological changes experienced during pregnancy."
+  ],
+  "rationale": [
+    "Understanding the features of pregnancy helps students appreciate the biological and emotional aspects of this unique process and fosters empathy and knowledge about human development."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, discussions, and examples to explain the physical, hormonal, and emotional changes during pregnancy."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Protrusion of the Tummy</b>:<br><br>During pregnancy, the uterus expands to accommodate the growing baby, resulting in the noticeable protrusion of the tummy. This change typically becomes more evident in the second trimester as the baby grows larger and the uterus pushes outward.<br><br>Discussion:<br>What do you think causes the tummy to grow during pregnancy? Why does this change become more noticeable in the second trimester?",
+      "<b>Part 2: Enlargement of Breasts</b>:<br><br>The breasts increase in size during pregnancy due to hormonal changes, particularly the increased levels of estrogen and progesterone. These hormones prepare the body for breastfeeding by enlarging milk-producing glands and increasing blood flow to the breasts.<br><br>Discussion:<br>What are some reasons the body might prepare the breasts for feeding during pregnancy? How do hormones play a role in these changes?",
+      "<b>Part 3: Hormonal and Physical Changes</b>:<br><br>Pregnancy involves significant hormonal changes, including higher levels of human chorionic gonadotropin (hCG), progesterone, and estrogen. These changes may lead to symptoms such as nausea (morning sickness), fatigue, mood swings, and skin changes, like the appearance of stretch marks or darkened areas (linea nigra) on the skin.<br><br>Discussion:<br>What are some of the symptoms caused by hormonal changes during pregnancy? How do you think these changes help support the growing baby?",
+      "<b>Part 4: Emotional and Psychological Changes</b>:<br><br>Pregnancy can bring about various emotional changes, ranging from excitement and joy to anxiety and mood swings. These feelings are influenced by hormonal fluctuations and the anticipation of the responsibilities of parenthood.<br><br>Discussion:<br>How do you think emotions might change during pregnancy? Why do you think these emotional changes happen?",
+      "<b>Part 5: Exercise (5 Questions)</b>:<br><br>1. What causes the tummy to grow during pregnancy?<br>2. Why do the breasts increase in size during pregnancy?<br>3. What hormonal changes occur during pregnancy?<br>4. What are some physical symptoms of pregnancy caused by hormonal changes?<br>5. How can pregnancy affect emotions and psychological well-being?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the discussions.",
+    "<b>Exercise</b>: The 5-question exercise will evaluate the students' understanding of the features of pregnancy."
+  ],
+  "conclusion": [
+    "By learning about the features of pregnancy, students will understand the physical, hormonal, and emotional changes involved, fostering empathy and a deeper appreciation for human development."
+  ]
+},
 
+// Lesson 2
+{
+  "title": "Signs and Symptoms of Pregnancy",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, January 22, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Health Education",
+  "topic": "Understanding Pregnancy Signs and Symptoms",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the signs and symptoms of pregnancy, focusing on changes in the body and feelings during early pregnancy.",
+  "materials": [
+    "Illustrations of pregnant women",
+    "Whiteboard and markers",
+    "Handouts on pregnancy symptoms"
+  ],
+  "objectives": [
+    "Students will identify the early signs of pregnancy.",
+    "Students will understand the physical and emotional changes during early pregnancy.",
+    "Students will learn about the symptoms of morning sickness and other related changes."
+  ],
+  "rationale": [
+    "Understanding pregnancy signs and symptoms helps students recognize and respect the changes that occur in a pregnant woman’s body, fostering empathy and awareness."
+  ],
+  "methodology": [
+    "The lesson will use storytelling, discussions, and visual aids to explain the early signs and symptoms of pregnancy."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What Happens First?</b>:<br><br>A woman may miss her period (a sign her body is preparing for a baby).<br>She might feel very tired and need more rest.<br>Her chest might feel sore or tender.",
+      "<b>Part 2: Stomach Changes</b>:<br><br>Some women feel sick in the morning or vomit (this is called morning sickness).<br>They may want certain foods or not like some smells.<br>Their stomachs might feel full or bloated.",
+      "<b>Part 3: Feelings and Body Changes</b>:<br><br>Women might have mood swings (feel happy, sad, or angry easily).<br>They may need to go to the bathroom more often.<br>Their skin near their chest might become darker.",
+      "<b>Part 4: Other Body Signs</b>:<br><br>They may see a little spotting or feel mild cramps as the baby grows.<br>Some women gain a little weight as their body changes.",
+      "<b>Part 5: Class Discussion</b>:<br><br>1. Why might a woman miss her period when she is pregnant?<br>2. What is morning sickness, and why does it happen?<br>3. Why might a pregnant woman feel tired or need more rest?<br>4. How do mood swings affect women during pregnancy?<br>5. Why do some women’s stomachs feel bloated during pregnancy?<br>6. How does a pregnant woman’s body prepare for the baby’s growth?<br>7. What are some physical changes women notice early in pregnancy?<br>8. How can family members support pregnant women?<br>9. Why might some smells or foods bother pregnant women?<br>10. How does the body change to protect and nourish the baby?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and understanding of the topic.",
+    "<b>Exercise</b>: The class discussion will help evaluate students' comprehension of the signs and symptoms of pregnancy."
+  ],
+  "conclusion": [
+    "By learning about the signs and symptoms of pregnancy, students will gain a better understanding of the physical and emotional changes during early pregnancy."
+  ]
+},
 	
 	
 	
