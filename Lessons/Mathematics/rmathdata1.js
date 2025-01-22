@@ -12,7 +12,7 @@ const lessonPlans3a = [
   "topic": "Introduction to Numbers 1-3",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "1",
+  "week": "2",
   "lessonNumber": "1",
   "description": "This lesson introduces students to numbers 1-3 through visual, verbal, and tactile activities.",
   "materials": [
@@ -61,7 +61,7 @@ const lessonPlans3a = [
   "grade": "Nestlings Navigators",
   "term": "1",
   "week": "2",
-  "lessonNumber": "1",
+  "lessonNumber": "2",
   "description": "This lesson introduces learners to numbers 4 and 5 through engaging activities such as counting, tracing, and peer interactions.",
   "materials": [
     "Flashcards displaying numbers 4 and 5",
@@ -109,8 +109,8 @@ const lessonPlans3a = [
   "topic": "Numbers 6-8",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "2",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to numbers 6, 7, and 8 through visual aids, counting objects, and interactive activities.",
   "materials": [
     "Colorful chart with numbers 6, 7, and 8",
@@ -159,8 +159,8 @@ const lessonPlans3a = [
   "topic": "Numbers 9-10",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "2",
+  "lessonNumber": "4",
   "description": "This lesson introduces students to numbers 9 and 10, reinforcing counting skills with hands-on activities such as counting objects and using finger counting.",
   "materials": [
     "Counting objects (toys, blocks)",
@@ -210,8 +210,8 @@ const lessonPlans3a = [
   "topic": "Introduction to Numbers 11-13",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "3",
+  "week": "3",
+  "lessonNumber": "1",
   "description": "This lesson introduces numbers 11-13, focusing on counting, visualization, and using objects and fingers for practice.",
   "materials": [
     "Number chart (1-13)",
@@ -260,7 +260,7 @@ const lessonPlans3a = [
   "grade": "Nestlings Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "1",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to counting 14 and 15, reinforcing sequential understanding and tactile counting skills.",
   "materials": [
     "Counting objects (e.g., blocks, beads)",
@@ -313,8 +313,8 @@ const lessonPlans3a = [
   "topic": "Introducing Numbers 16-18",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "10",
-  "lessonNumber": "1",
+  "week": "2",
+  "lessonNumber": "3",
   "description": "This lesson introduces kindergarten learners to numbers 16-18 through counting objects and fingers.",
   "materials": [
     "Counting objects",
@@ -363,7 +363,7 @@ const lessonPlans3a = [
   "grade": "Nestlings Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "1",
+  "lessonNumber": "4",
   "description": "This lesson helps students recognize and count numbers 19 and 20 while reinforcing previously learned numbers 1-18.",
   "materials": [
     "Chart with numbers 19-20",
@@ -412,7 +412,7 @@ const lessonPlans3a = [
   "topic": "Counting 19-20 and Review",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
+  "week": "4",
   "lessonNumber": "1",
   "description": "This lesson helps students recognize and count numbers 19 and 20 while reinforcing previously learned numbers 1-18.",
   "materials": [
@@ -461,8 +461,8 @@ const lessonPlans3a = [
   "topic": "Numbers 24-26",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "3",
+  "week": "4",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to the numbers 24, 25, and 26 through singing, hands-on activities, and games to reinforce their understanding.",
   "materials": [
     "Colorful number chart",
@@ -511,8 +511,8 @@ const lessonPlans3a = [
   "topic": "Counting 27-30",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "4",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to counting numbers 27-30 and provides practice through counting objects and recognizing these numbers in different contexts.",
   "materials": [
     "Counting objects (e.g., blocks, beads, or counters)",
@@ -560,8 +560,8 @@ const lessonPlans3a = [
   "topic": "Counting 31-33",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "4",
+  "lessonNumber": "4",
   "description": "This lesson introduces students to counting the numbers 31 to 33 using objects and interactive activities.",
   "materials": [
     "Counting objects (blocks, buttons, small toys)",
@@ -611,7 +611,7 @@ const lessonPlans3a = [
   "topic": "Counting Numbers 34-35",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
+  "week": "5",
   "lessonNumber": "1",
   "description": "This lesson introduces the numbers 34 and 35 through counting objects, worksheets, and interactive activities to engage students in learning the new numbers.",
   "materials": [
@@ -660,8 +660,8 @@ const lessonPlans3a = [
   "topic": "Numbers 36-38",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "5",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to numbers 36-38, focusing on their sequence, pronunciation, and representation using objects.",
   "materials": [
     "Counting objects (blocks or counters)",
@@ -711,8 +711,8 @@ const lessonPlans3a = [
   "topic": "Counting Numbers 39 and 40",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "5",
+  "week": "5",
+  "lessonNumber": "3",
   "description": "This lesson focuses on introducing the numbers 39 and 40 through songs, discussions, hands-on activities, and practice exercises.",
   "materials": [
     "Counting objects (blocks, beads, toys)",
@@ -761,8 +761,8 @@ const lessonPlans3a = [
   "topic": "Counting and Recognition of Numbers 41-45",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "2",
+  "week": "5",
+  "lessonNumber": "4",
   "description": "This lesson focuses on introducing numbers 41-45 through interactive activities, counting with objects, and number recognition games.",
   "materials": [
     "Number chart (41-45)",
@@ -810,8 +810,8 @@ const lessonPlans3a = [
   "topic": "Numbers 46-50",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "4",
+  "week": "5",
+  "lessonNumber": "5",
   "description": "This lesson introduces students to numbers 46-50 through engaging activities, counting with objects, and writing practice.",
   "materials": [
     "Colorful number chart (46-50)",
@@ -854,7 +854,7 @@ const lessonPlans3a = [
   ]
 },
 	
-// Week 5
+// Week 7
 // Lesson 1
 {
   "title": "Introduction to Numbers 1-5",
@@ -866,8 +866,8 @@ const lessonPlans3a = [
   "topic": "Recognizing and Writing Numbers 1-5",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "3",
+  "week": "7",
+  "lessonNumber": "1",
   "description": "This lesson introduces students to numbers 1-5 through recognition, writing, and interactive activities.",
   "materials": [
     "Number flashcards",
@@ -914,8 +914,8 @@ const lessonPlans3a = [
   "topic": "Numbers 6-10 Recognition and Writing",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "1",
+  "week": "7",
+  "lessonNumber": "2",
   "description": "This lesson introduces and reviews the numbers 6-10, focusing on recognizing, writing, and counting these numbers using objects.",
   "materials": [
     "Number flashcards",
@@ -963,8 +963,8 @@ const lessonPlans3a = [
   "topic": "Number Recognition 11-15",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "7",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to the numbers 11 to 15, focusing on recognition, writing, and engaging activities to reinforce their understanding.",
   "materials": [
     "Flashcards with numbers 11-15",
@@ -1011,8 +1011,8 @@ const lessonPlans3a = [
   "topic": "Number Recognition 16-25",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "7",
+  "lessonNumber": "4",
   "description": "This lesson introduces students to number recognition for numbers 16-25, focusing on visual and auditory recognition, writing practice, and applying the concept through a counting activity.",
   "materials": [
     "Flashcards with numbers 16-25",
@@ -1048,7 +1048,7 @@ const lessonPlans3a = [
   ]
 },
 	
-// Week 7
+// Week 8
 // Lesson 1
 {
   "title": "Number Recognition 26-30",
@@ -1060,7 +1060,7 @@ const lessonPlans3a = [
   "topic": "Number Recognition 26-30",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
+  "week": "8",
   "lessonNumber": "1",
   "description": "This lesson helps students recognize and write the numbers 26-30 while practicing counting through engaging activities.",
   "materials": [
@@ -1108,8 +1108,8 @@ const lessonPlans3a = [
   "topic": "Counting 31-35",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "1",
+  "week": "8",
+  "lessonNumber": "2",
   "description": "This lesson focuses on recognizing, writing, and practicing the numbers 31-35 with interactive activities and a fun game.",
   "materials": [
     "Number flashcards (31-35)",
@@ -1155,8 +1155,8 @@ const lessonPlans3a = [
   "topic": "Introduction to Numbers 36-40",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "8",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to the numbers 36-40, focusing on recognition, writing, and counting activities.",
   "materials": [
     "Number flashcards",
@@ -1201,10 +1201,10 @@ const lessonPlans3a = [
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Basic Addition",
-  "grade": "Kindergarten",
+  "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "1",
+  "week": "8",
+  "lessonNumber": "4",
   "description": "This lesson introduces kindergarten learners to the concept of addition using objects.",
   "materials": [
     "Objects for counting (e.g., apples, blocks, toys)",
@@ -1241,7 +1241,7 @@ const lessonPlans3a = [
   ]
 },
 	
-// Week 8
+// Week 9
 // Lesson 1
 {
   "title": "Introduction to Addition",
@@ -1253,7 +1253,7 @@ const lessonPlans3a = [
   "topic": "Introduction to Addition",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
+  "week": "9",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the concept of addition using flashcards and counting objects.",
   "materials": [
@@ -1300,10 +1300,10 @@ const lessonPlans3a = [
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Introduction to Addition",
-  "grade": "Reception Class",
+  "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "9",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to the concept of addition using objects, flashcards, and simple addition problems up to 4.",
   "materials": [
     "Flashcards with numbers (0-4)",
@@ -1349,10 +1349,10 @@ const lessonPlans3a = [
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Introduction to Subtraction with Minuends up to 2",
-  "grade": "Kindergarten",
+  "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "6",
-  "lessonNumber": "1",
+  "week": "9",
+  "lessonNumber": "3",
   "description": "This lesson introduces kindergarten learners to basic subtraction with minuends up to 2, helping them understand how to subtract by counting objects.",
   "materials": [
     "Counting objects (e.g., small toys, blocks, or counters)",
@@ -1399,8 +1399,8 @@ const lessonPlans3a = [
   "topic": "Introduction to Subtraction",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
-  "lessonNumber": "1",
+  "week": "9",
+  "lessonNumber": "4",
   "description": "This lesson introduces students to subtraction, focusing on the concept of taking away objects from a group to understand how many are left.",
   "materials": [
     "Number flashcards",
@@ -1437,7 +1437,7 @@ const lessonPlans3a = [
   ]
 },
 	
-// Week 9
+// Week 10
 // Lesson 1
 {
   "title": "Addition and Subtraction Review",
@@ -1449,7 +1449,7 @@ const lessonPlans3a = [
   "topic": "Addition and Subtraction with Numbers 0-5",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "9",
+  "week": "10",
   "lessonNumber": "1",
   "description": "This lesson reviews simple addition and subtraction with numbers up to 5, using counting objects and visual aids.",
   "materials": [
@@ -1498,7 +1498,7 @@ const lessonPlans3a = [
   "topic": "Advancing Addition and Subtraction to Numbers up to 10",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "9",
+  "week": "10",
   "lessonNumber": "2",
   "description": "This lesson introduces students to addition and subtraction using numbers up to 10, focusing on visual and hands-on learning with objects.",
   "materials": [
@@ -1547,7 +1547,7 @@ const lessonPlans3a = [
   "topic": "Addition and Subtraction Up to 10",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "9",
+  "week": "10",
   "lessonNumber": "3",
   "description": "This lesson focuses on reviewing and practicing basic addition and subtraction skills with numbers up to 10, using interactive activities and games.",
   "materials": [
@@ -1597,7 +1597,7 @@ const lessonPlans3a = [
   "topic": "Applying Addition and Subtraction in Real-life Scenarios",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "9",
+  "week": "10",
   "lessonNumber": "4",
   "description": "This lesson introduces students to addition and subtraction through real-life scenarios, helping them understand how these concepts are used in everyday life.",
   "materials": [
@@ -1634,6 +1634,5 @@ const lessonPlans3a = [
     "By learning how addition and subtraction are used in real-life situations, students will understand the practical applications of these math concepts and develop problem-solving skills."
   ]
 }
-
 
 ];
