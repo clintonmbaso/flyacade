@@ -297,16 +297,200 @@ const lessonPlans15a = [
 },
 
 // Lesson 2
-
+{
+  "title": "Exclamations",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, January 23, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Exclamations",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to exclamations, helping them understand how to recognize and use exclamations in different situations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets with example sentences"
+  ],
+  "objectives": [
+    "Students will understand the concept of exclamations and how they express strong emotions.",
+    "Students will learn the difference between commands and exclamations.",
+    "Students will practice identifying and using exclamations in sentences."
+  ],
+  "rationale": [
+    "Understanding exclamations helps students express their feelings and reactions clearly, adding emotion and excitement to their language."
+  ],
+  "methodology": [
+    "The lesson will use direct explanation, examples, and exercises to help students differentiate between commands and exclamations, as well as recognize and use exclamations appropriately."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is an Exclamation?</b>:<br><br>An exclamation is a type of sentence that shows strong feelings, excitement, or surprise. It often expresses emotions like joy, anger, excitement, or wonder. Unlike statements or questions, exclamatory sentences end with an exclamation mark (!) instead of a period.<br><br>Example:<br>\"Wow, that was amazing!\"<br>\"I can’t believe we won!\"",
+      "<b>Part 2: Difference Between a Command and an Exclamation</b>:<br><br><b>Command:</b> A command tells someone to do something. It is a directive or instruction.<br>Example: \"Clean your room.\"<br>It ends with a period.<br><br><b>Exclamation:</b> An exclamation shows strong feelings or excitement and ends with an exclamation mark.<br>Example: \"What a beautiful day!\"",
+      "<b>Part 3: How to Recognize Exclamations</b>:<br><br>Exclamations often contain words that show strong emotions, like:<br>\"Wow!\"<br>\"Hooray!\"<br>\"Oh no!\"<br>\"Yay!\"<br><br>They are used to express excitement, surprise, or intense emotion.",
+      "<b>Part 4: When to Use Exclamations</b>:<br><br>Use exclamations when you want to show excitement, surprise, happiness, or any strong feeling. They are often used in reactions to something unexpected or when you want to emphasize something important.<br><br>Example Sentences:<br>\"What a fantastic performance!\"<br>\"I can't believe it!\"",
+      "<b>Part 5: Exercise</b>:<br><br><b>Task 1:</b> Read the sentences and decide if they are commands or exclamations. Write \"Command\" or \"Exclamation\" next to each sentence.<br>1. \"Sit down and listen carefully.\"<br>2. \"That was the best movie ever!\"<br>3. \"Please pass the salt.\"<br>4. \"I can’t wait for the weekend!\"<br>5. \"Close the door behind you.\"<br><br><b>Task 2:</b> Write 3 exclamations of your own that express excitement, surprise, or strong feeling."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' ability to recognize and distinguish between commands and exclamations during the exercise.",
+    "<b>Exercise</b>: The exercises in Task 1 and Task 2 will assess the students' understanding of exclamations and their ability to use them correctly."
+  ],
+  "conclusion": [
+    "By understanding and practicing exclamations, students will be able to express strong feelings and emotions effectively in their writing and speech."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Punctuation in Commands and Exclamations",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, January 23, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Punctuation in Commands and Exclamations",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about the different punctuation marks used in statements, questions, commands, and exclamations, helping them understand when and how to use them correctly.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed exercise sheets",
+    "Punctuation charts"
+  ],
+  "objectives": [
+    "Students will understand the purpose of a period, question mark, and exclamation mark.",
+    "Students will learn how to use punctuation marks correctly in different sentence types.",
+    "Students will practice identifying the correct punctuation for statements, questions, commands, and exclamations."
+  ],
+  "rationale": [
+    "Correct punctuation helps students communicate clearly and understand the meaning of sentences. By learning the rules of punctuation, students will be able to write with accuracy and clarity."
+  ],
+  "methodology": [
+    "The lesson will include explanations, discussions, and exercises to demonstrate the correct use of punctuation marks in different types of sentences."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Using a Period for a Statement</b>:<br><br>A statement is a sentence that provides information or makes a declaration. When you finish a statement, always use a period (.) to indicate the end of the sentence.<br><br>Example:<br>'The cat is sleeping.'",
+      "<b>Part 2: Using a Question Mark for a Question</b>:<br><br>A question is a sentence that asks for information. To show that a sentence is a question, always use a question mark (?) at the end.<br><br>Example:<br>'What is your name?'",
+      "<b>Part 3: Using a Period for a Command</b>:<br><br>A command is a sentence that tells someone to do something. Commands often end with a period (.) unless they are very strong, in which case they might end with an exclamation mark.<br><br>Example:<br>'Please pass the salt.'",
+      "<b>Part 4: Using an Exclamation Mark for an Exclamation</b>:<br><br>An exclamation is a sentence that shows strong feeling or excitement. To express these feelings, use an exclamation mark (!) at the end of the sentence.<br><br>Example:<br>'Wow, that’s amazing!'",
+      "<b>Part 5: Exercise (Punctuation Practice)</b>:<br><br>Read the following sentences and write them with the correct punctuation at the end (period, question mark, or exclamation mark).<br><br>1. Can you help me with this problem<br>2. What a beautiful day<br>3. Please bring the book<br>4. Do you like pizza<br>5. I can't believe we won the game"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and practice exercises.",
+    "<b>Exercise</b>: The punctuation practice exercise will assess students' understanding of the correct punctuation marks to use."
+  ],
+  "conclusion": [
+    "By understanding how to use punctuation marks correctly, students will improve their writing and communication skills, making their sentences clearer and more effective."
+  ]
+},
 
 // Lesson 4
-
+{
+  "title": "Types of Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, January 23, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding Types of Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "4",
+  "description": "This lesson teaches students about the four types of sentences: statement, question, command, and exclamation. Students will practice identifying and creating sentences of each type.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed sentence examples",
+    "Flashcards with sentence types"
+  ],
+  "objectives": [
+    "Students will learn to identify the four types of sentences: statement, question, command, and exclamation.",
+    "Students will understand the purpose of each sentence type and how they are used in writing.",
+    "Students will practice creating their own sentences for each type."
+  ],
+  "rationale": [
+    "Understanding the different types of sentences helps students communicate clearly and effectively in writing and speech."
+  ],
+  "methodology": [
+    "The lesson will involve reading and analyzing examples, group discussions, and hands-on practice with sentence creation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Statements</b>:<br><br>A statement is a sentence that tells you something. It simply gives information or makes a declaration. It always ends with a period. For example: <br>The sky is blue. <br>I have a pet dog.",
+      "<b>Part 2: Introduction to Questions</b>:<br><br>A question is a sentence that asks something. It seeks information and ends with a question mark. For example: <br>What is your name? <br>How old are you?",
+      "<b>Part 3: Introduction to Commands</b>:<br><br>A command is a sentence that tells someone to do something. It gives an instruction or direction and usually ends with a period. For example: <br>Close the door. <br>Please write your name.",
+      "<b>Part 4: Introduction to Exclamations</b>:<br><br>An exclamation is a sentence that shows strong feelings or excitement. It often expresses emotions like surprise, happiness, or anger and ends with an exclamation mark. For example: <br>Wow, that’s amazing! <br>I can’t believe it!",
+      "<b>Part 5: Exercise (Identify the Sentence Type)</b>:<br><br>Read the sentences below and identify whether they are a statement, question, command, or exclamation. Write your answer on the line.<br>1. Did you finish your homework? ___________<br>2. Please pass the salt. ___________<br>3. The sun is shining brightly. ___________<br>4. I won the race! ___________<br>5. Where is my book? ___________<br><br><b>Bonus:</b> Now, create your own sentences for each type (statement, question, command, exclamation)."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the discussion and sentence identification exercise.",
+    "<b>Exercise</b>: The sentence identification and creation exercise will assess students' understanding of the four sentence types."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to identify and create sentences of different types and understand their purpose in communication."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Identifying Sentence Types and Punctuation",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, January 23, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Identifying Sentence Types and Punctuation",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "5",
+  "description": "This lesson helps students understand different sentence types (statements, questions, commands, exclamations) and how to punctuate them correctly.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed examples of sentences",
+    "Punctuation worksheets"
+  ],
+  "objectives": [
+    "Students will identify different sentence types.",
+    "Students will practice correcting punctuation in sentences.",
+    "Students will write their own examples for each sentence type."
+  ],
+  "rationale": [
+    "Understanding sentence types and correct punctuation is essential for clear and effective communication in writing."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction, group practice, and individual exercises to reinforce sentence types and punctuation rules."
+  ],
+  "activities": [
+    [
+      "1", "2", "3", "4", "5"
+    ],
+    [
+      "<b>Part 1: Correcting Punctuation and Identifying Sentence Types</b>:<br><br>1. My dad collects clocks.<br>(This is a statement, so it ends with a period.)<br><br>2. Do you collect anything?<br>(This is a question, so it ends with a question mark.)<br><br>3. Wow, it would be fun to collect autographs!<br>(This is an exclamation, so it ends with an exclamation mark.)<br><br>4. Write down your favorite hobbies.<br>(This is a command, so it ends with a period.)<br><br>5. I can’t believe Dad has over one hundred clocks!<br>(This is an exclamation, so it ends with an exclamation mark.)",
+      "<b>Part 2: Identifying Sentence Types and Correcting Punctuation</b>:<br><br>6. oh no, Mom can’t find her keys<br>Correction: Oh no, Mom can’t find her keys!<br>(This is an exclamation, so it should end with an exclamation mark. The sentence should also begin with a capital letter.)<br><br>7. look on the table<br>Correction: Look on the table.<br>(This is a command, so it should end with a period, and the first word should start with a capital letter.)<br><br>8. search under the car seat<br>Correction: Search under the car seat.<br>(This is a command, so it should end with a period, and the first word should start with a capital letter.)<br><br>9. we just can’t be late today<br>Correction: We just can’t be late today!<br>(This is an exclamation, so it should end with an exclamation mark, and the first word should start with a capital letter.)<br><br>10. wow, I found the keys in the toy box<br>Correction: Wow, I found the keys in the toy box!<br>(This is an exclamation, so it should end with an exclamation mark, and the first word should start with a capital letter.)",
+      "<b>Part 3: Explanation</b>:<br><br>Statements (S): These sentences provide information or state facts. They end with a period. Example: 'My dad collects clocks.'<br><br>Questions (Q): These sentences ask for information. They end with a question mark. Example: 'Do you collect anything?'<br><br>Commands (C): These sentences give an order or instruction. They end with a period and usually start with an action verb. Example: 'Look on the table.'<br><br>Exclamations (E): These sentences express strong emotions, like surprise, excitement, or disbelief. They end with an exclamation mark. Example: 'Wow, it would be fun to collect autographs!'",
+      "<b>Part 4: Exercise</b>:<br><br>Write your own examples for each sentence type:<br><br>1. Statement (S): _________________________________<br><br>2. Question (Q): _________________________________<br><br>3. Command (C): _________________________________<br><br>4. Exclamation (E): _________________________________<br><br>Now, identify the sentence types and punctuate them correctly."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the sentence correction activities.",
+    "<b>Exercise</b>: The students' completion of the sentence identification and punctuation exercise will demonstrate their understanding."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will have a clearer understanding of sentence types and how to punctuate them correctly, enhancing their writing skills."
+  ]
+},
 
 	
 	// Week 4
