@@ -3,7 +3,7 @@ const lessonPlans1b = [
 
 
 // Mathematics
-// Term 1
+// Term 2
 // Week 2
 // Lesson 1
 
