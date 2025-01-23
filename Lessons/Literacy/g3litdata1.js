@@ -501,35 +501,700 @@ const lessonPlans57a = [
 },
 
 // Lesson 2
+{
+  title: "The Trigraph 'ipe'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ipe'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "5",
+  lessonNumber: "2",
+  description: "This lesson will teach students about the trigraph 'ipe,' its pronunciation, and its usage in words and sentences.",
+  materials: [
+    "Flashcards with 'ipe' words",
+    "Whiteboard and markers",
+    "Worksheets with 'ipe' words",
+    "Pictures illustrating words like 'pipe,' 'ripe,' and 'wipe'"
+  ],
+  objectives: [
+    "Students will identify and pronounce the trigraph 'ipe.'",
+    "Students will read and recognize words containing the trigraph 'ipe.'",
+    "Students will use 'ipe' words in simple sentences."
+  ],
+  rationale: [
+    "Understanding trigraphs like 'ipe' is essential for students to improve their reading and pronunciation skills."
+  ],
+  methodology: [
+    "The lesson will include direct instruction, sentence building, and reading exercises to help students engage with and understand the trigraph 'ipe.'"
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ipe' and explain that it makes the long 'i' sound, followed by the 'p' sound and silent 'e,' as in the word 'pipe.' Demonstrate the pronunciation of 'ipe' by stretching the 'i' sound and making the 'p' sound sharp. Use examples like 'ripe' and 'wipe.'",
+      "<b>Varying Usage</b>: Explain how 'ipe' is typically found at the end of words like 'pipe' and 'ripe.' Show that the silent 'e' changes the vowel sound from short to long, such as 'rip' becoming 'ripe.'",
+      "<b>Application in Sentences</b>: Create simple sentences using 'ipe' words, such as 'I need to wipe the table.' Read the sentences aloud and have students repeat them, focusing on the 'ipe' sound.",
+      "<b>Words with the Trigraph</b>: Provide a list of words with the trigraph 'ipe,' such as 'pipe,' 'ripe,' 'wipe,' and 'stripe.' Write these words on the board, explain their meanings, and use visuals to illustrate them.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ipe' words for students to read aloud. Each student will read an 'ipe' word, focusing on pronunciation. Ask students to underline the trigraph 'ipe' in each word."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: The teacher will observe students' pronunciation and reading of 'ipe' words.",
+    "<b>Classwork</b>: Students will write sentences using at least one 'ipe' word, and the teacher will check for correct usage."
+  ],
+  conclusion: [
+    "The lesson will conclude with a review of the trigraph 'ipe' and its role in making the long 'i' sound, helping students to recognize and use it in reading and writing."
+  ]
+},
 
 // Lesson 3
-	
+{
+  title: "The Trigraph 'ire'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ire'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "5",
+  lessonNumber: "3",
+  description: "This lesson introduces students to the trigraph 'ire,' focusing on its pronunciation and use in reading and writing.",
+  materials: [
+    "Flashcards with 'ire' words",
+    "Whiteboard and markers",
+    "Worksheets with 'ire' words",
+    "Pictures to illustrate 'ire' words"
+  ],
+  objectives: [
+    "Students will learn the pronunciation of the trigraph 'ire' (/aɪər/).",
+    "Students will identify and read words containing the trigraph 'ire.'",
+    "Students will use 'ire' words in simple sentences."
+  ],
+  rationale: [
+    "Learning phonics, including trigraphs like 'ire,' is critical for developing strong reading and writing skills in early education."
+  ],
+  methodology: [
+    "The lesson will use direct instruction, examples, and guided reading to engage students in learning the trigraph 'ire.'"
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ire' and explain that it creates the sound /aɪər/ like in the word 'fire.' Demonstrate the pronunciation by emphasizing the long 'i' sound followed by the 'r' sound.",
+      "<b>Varying Usage</b>: Discuss how 'ire' is typically found at the end of words but can also appear within words. Provide examples like 'fire' (end), 'tired' (middle), and 'wire.'",
+      "<b>Application in Sentences</b>: Create simple sentences using words with the trigraph 'ire,' such as 'The fire is warm,' 'I am tired after running,' and 'We need to fix the wire.' Students will practice repeating the sentences.",
+      "<b>Words with the Trigraph</b>: Provide a list of words containing 'ire,' such as 'fire,' 'tire,' 'wire,' 'hire,' and 'inspire.' Discuss their meanings with examples or pictures.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ire' words for reading practice. Organize a reading activity where students take turns reading aloud from the list, focusing on correct pronunciation."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students' pronunciation of 'ire' words during reading activities and sentence creation.",
+    "<b>Feedback</b>: Provide guidance as students form their own sentences using 'ire' words."
+  ],
+  conclusion: [
+    "The lesson will conclude by reviewing the sound of 'ire' and its usage in words and sentences. Students will be reminded of the importance of correct pronunciation in their reading practice."
+  ]
+},
+
 // Week 7
 // Lesson 1
+{
+  title: "The Trigraph 'ise'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ise'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "7",
+  lessonNumber: "1",
+  description: "This lesson focuses on teaching students about the trigraph 'ise,' its pronunciation, usage in words and sentences, and practicing reading 'ise' words.",
+  materials: [
+    "Whiteboard and markers",
+    "Flashcards with 'ise' words",
+    "Worksheets with reading exercises",
+    "Visual aids for sentence illustrations"
+  ],
+  objectives: [
+    "Students will recognize the trigraph 'ise' and pronounce it correctly.",
+    "Students will apply 'ise' in words and simple sentences.",
+    "Students will practice reading and understanding words containing the trigraph 'ise'."
+  ],
+  rationale: [
+    "Learning phonics, especially trigraphs like 'ise,' is essential for improving students' reading and pronunciation skills, helping them recognize common patterns in words."
+  ],
+  methodology: [
+    "The lesson will include teacher-led explanation, guided reading, and interactive practice to help students grasp the trigraph 'ise' and use it confidently."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to the Trigraph 'ise'</b>: Explain that the trigraph 'ise' makes the sound /aɪz/, commonly found at the end of words. Pronounce examples like 'rise' and 'surprise.'",
+      "<b>Exploring 'ise' in Words</b>: Discuss how 'ise' is used in various verbs and nouns, and write examples on the board like 'advise,' 'exercise,' and 'promise.'",
+      "<b>Sentence Practice</b>: Create and read sentences containing 'ise' words, such as 'I will rise early tomorrow.' Ask students to repeat the sentences and identify the 'ise' sound.",
+      "<b>Word List and Definitions</b>: Provide a list of words with 'ise' (e.g., 'rise,' 'exercise,' 'surprise'). Discuss their meanings and use visuals or actions to demonstrate.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ise' words and have students practice reading aloud. Focus on accurate pronunciation and comprehension."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students during the reading exercise to assess their ability to recognize and pronounce 'ise' words.",
+    "<b>Feedback</b>: Provide individual feedback and encourage students to create their own sentences using 'ise' words."
+  ],
+  conclusion: [
+    "Review the 'ise' trigraph by revisiting its sound and usage. Encourage students to continue practicing the pronunciation and application of 'ise' words in their daily reading."
+  ]
+},
 
 // Lesson 2
+{
+  title: "The Trigraph 'ite'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ite'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "7",
+  lessonNumber: "2",
+  description: "This lesson introduces the trigraph 'ite' and its pronunciation, usage in words, and sentences.",
+  materials: [
+    "Whiteboard and markers",
+    "Word cards with 'ite' words",
+    "Worksheets for practice",
+    "Visuals for word examples"
+  ],
+  objectives: [
+    "Students will learn how to pronounce the trigraph 'ite'.",
+    "Students will identify and use words containing the trigraph 'ite'.",
+    "Students will practice reading and using 'ite' words in sentences."
+  ],
+  rationale: [
+    "Understanding the trigraph 'ite' is important for developing reading skills, especially in recognizing long vowel sounds and familiar word patterns."
+  ],
+  methodology: [
+    "The lesson will include direct teaching, demonstration, guided practice, and independent reading activities to reinforce learning."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ite', explaining that it makes the long 'i' sound followed by the 't' sound. For example, in 'kite', the sound is /ait/.",
+      "<b>Varying Usage</b>: Discuss how 'ite' is commonly found at the end of words. Provide examples such as 'bite', 'kite', and 'white'. Explain that it gives a strong long 'i' sound.",
+      "<b>Application in Sentences</b>: Create simple sentences with 'ite' words like, 'I can fly a kite' or 'She took a bite'. Read aloud and have students repeat after you.",
+      "<b>Words with the Trigraph</b>: Write a list of 'ite' words like 'kite', 'bite', 'white', 'site', 'quite'. Explain their meanings using visuals to help students connect the words.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ite' words. Have students practice reading them aloud and identifying the 'ite' trigraph in each word."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students as they read and pronounce 'ite' words.",
+    "<b>Sentence Creation</b>: Ask students to make simple sentences with 'ite' words and check their accuracy."
+  ],
+  conclusion: [
+    "Review the 'ite' sound and its usage. Encourage students to recognize and pronounce 'ite' words in future reading and writing."
+  ]
+},
 
 // Lesson 3
-	
+{
+  title: "The Trigraph 'ive'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ive'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "7",
+  lessonNumber: "3",
+  description: "This lesson focuses on teaching students about the trigraph 'ive,' its pronunciation, usage in words and sentences, and reading practice.",
+  materials: [
+    "Word cards with 'ive' words",
+    "Whiteboard and markers",
+    "Worksheets with 'ive' words and sentences"
+  ],
+  objectives: [
+    "Students will learn to pronounce the trigraph 'ive' in words.",
+    "Students will practice using 'ive' words in sentences.",
+    "Students will be able to recognize 'ive' in both written and spoken contexts."
+  ],
+  rationale: [
+    "Understanding trigraphs like 'ive' is fundamental in improving students' reading and spelling abilities."
+  ],
+  methodology: [
+    "The lesson will include teacher demonstrations, class discussions, and individual reading exercises to ensure active engagement and learning."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ive' and explain that it makes the 'ive' sound, as in 'give.' Demonstrate the correct pronunciation using words like 'live' and 'drive.'",
+      "<b>Varying Usage</b>: Discuss the appearance of 'ive' in different words, mostly at the end of words like 'give' and 'live.' Explain how 'ive' adds specific meanings to words.",
+      "<b>Application in Sentences</b>: Create and read sentences using 'ive' words. Examples: 'I live in a big house,' 'Please give me the book,' and 'We will drive to school.' Have students repeat these sentences.",
+      "<b>Words with the Trigraph</b>: Write a list of 'ive' words on the board, such as 'give,' 'live,' 'drive,' 'arrive,' and 'survive.' Explain each word's meaning and context.",
+      "<b>Class Exercise</b>: Hand out worksheets containing 'ive' words and sentences for reading practice. Encourage students to read aloud and write their own sentences using 'ive' words."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: The teacher will listen to students' pronunciation and check their understanding of 'ive' words during reading activities.",
+    "<b>Writing Exercise</b>: Students will write a sentence using a word with the trigraph 'ive,' and the teacher will review their usage."
+  ],
+  conclusion: [
+    "Review the trigraph 'ive,' focusing on its sound, meaning, and use in words and sentences. Emphasize the importance of recognizing this trigraph in both reading and writing."
+  ]
+},
+
 // Week 8
 // Lesson 1
+{
+  title: "The Trigraph 'ize'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Monday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Understanding and Using the Trigraph 'ize'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "8",
+  lessonNumber: "1",
+  description: "This lesson introduces students to the trigraph 'ize,' focusing on its pronunciation, usage in sentences, and reading practice.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with 'ize' words",
+    "Visual aids or drawings for word meanings"
+  ],
+  objectives: [
+    "Students will learn to recognize and pronounce the trigraph 'ize.'",
+    "Students will practice using 'ize' in sentences.",
+    "Students will read and understand words containing the trigraph 'ize.'"
+  ],
+  rationale: [
+    "Understanding trigraphs helps improve phonics skills, essential for reading and writing development in early education."
+  ],
+  methodology: [
+    "The lesson will use explanation, demonstration, and hands-on practice to help students understand and apply the trigraph 'ize.'"
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ize' and explain that it makes the 'ize' sound, like in 'realize.' Demonstrate the pronunciation by emphasizing the sound in isolation and within words such as 'size' and 'prize.'",
+      "<b>Varying Usage</b>: Discuss how 'ize' is used in different words, typically at the end. Provide examples like 'size,' 'prize,' 'advertise,' and 'recognize.' Highlight the consistent 'ize' sound in each case.",
+      "<b>Application in Sentences</b>: Create and read simple sentences using words with the trigraph 'ize.' For instance, 'I will recognize my friend at the party,' and 'She won a prize for her drawing.' Have students repeat after you.",
+      "<b>Words with the Trigraph</b>: Write a list of words containing 'ize' on the board, such as 'size,' 'prize,' 'realize,' 'advertise,' and 'recognize.' Discuss their meanings with visuals or drawings to aid understanding.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ize' words for students to read. Conduct a reading activity where students take turns reading the words aloud, focusing on the 'ize' sound and pronunciation."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students as they read words with the trigraph 'ize' and provide feedback on their pronunciation and understanding.",
+    "<b>Sentence Creation</b>: Ask students to create their own sentences using words with 'ize' to check their grasp of the trigraph in context."
+  ],
+  conclusion: [
+    "Review the 'ize' sound and its usage in words and sentences. Emphasize the importance of recognizing and pronouncing the trigraph 'ize' correctly in both reading and writing."
+  ]
+},
 
 // Lesson 2
+{
+  title: "The Trigraph 'est'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Monday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Understanding and Using the Trigraph 'est'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "8",
+  lessonNumber: "2",
+  description: "This lesson aims to help students recognize, pronounce, and use the trigraph 'est' in words and sentences.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with 'est' words",
+    "Visual aids or drawings representing words with 'est'"
+  ],
+  objectives: [
+    "Students will identify the trigraph 'est' and understand its pronunciation.",
+    "Students will recognize and use 'est' in words and sentences.",
+    "Students will practice reading and creating sentences with 'est' words."
+  ],
+  rationale: [
+    "Understanding trigraphs is crucial for developing reading and pronunciation skills. The 'est' trigraph is common in superlative and comparative forms, which is important for building vocabulary."
+  ],
+  methodology: [
+    "The lesson will use explanation, demonstration, and interactive activities to engage students in learning the trigraph 'est.' Students will practice reading and using 'est' in various contexts."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'est' and explain its pronunciation, as in the word 'best.' Demonstrate how 'est' sounds in isolation and in words like 'test' and 'nest.'",
+      "<b>Varying Usage</b>: Discuss how 'est' is used at the end of words to form superlatives and comparisons. Show examples like 'biggest' and 'fastest' to illustrate its use.",
+      "<b>Application in Sentences</b>: Create and read simple sentences using 'est' words. Examples include 'The cat is the best pet' and 'This is the biggest pumpkin.' Have students repeat the sentences after you.",
+      "<b>Words with the Trigraph</b>: Provide a list of 'est' words such as 'best,' 'nest,' 'test,' 'rest,' and 'fastest.' Write these on the board, discuss their meanings, and use visuals to illustrate.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'est' words for students to read. Conduct a reading activity where students take turns reading aloud and focusing on the 'est' sound."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students during the reading activity and provide feedback on their pronunciation and understanding of 'est.'",
+    "<b>Creation of Sentences</b>: Ask students to create their own sentences using 'est' words and check their ability to use 'est' correctly."
+  ],
+  conclusion: [
+    "Recap the lesson by reviewing the 'est' sound and its usage in words and sentences. Reinforce the importance of recognizing and pronouncing the trigraph 'est' accurately in reading and writing."
+  ]
+},
 
 // Lesson 3
-	
+{
+  title: "The Trigraph 'ost'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Monday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning and Practicing the Trigraph 'ost'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "8",
+  lessonNumber: "3",
+  description: "This lesson focuses on introducing and practicing the trigraph 'ost,' including its pronunciation and usage in words and sentences.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with 'ost' words",
+    "Visual aids or drawings illustrating word meanings",
+    "Audio recording of trigraph pronunciation (optional)"
+  ],
+  objectives: [
+    "Students will learn about the trigraph 'ost,' its pronunciation, and usage in words.",
+    "Students will practice reading words containing the trigraph 'ost' and using them in sentences."
+  ],
+  rationale: [
+    "Understanding trigraphs like 'ost' helps improve phonics skills, which are essential for reading and writing."
+  ],
+  methodology: [
+    "The lesson will include direct instruction, interactive discussion, and practical exercises to engage students in learning the trigraph 'ost.'"
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ost' and explain its sound. Demonstrate pronunciation by emphasizing 'ost' in words like 'most,' 'post,' and 'lost.'",
+      "<b>Varying Usage</b>: Discuss how 'ost' appears in different positions within words. Show examples like 'lost' at the end and 'post' in the middle, highlighting the consistent 'ost' sound.",
+      "<b>Application in Sentences</b>: Create simple sentences using 'ost' words. Read sentences aloud and have students repeat, such as 'I found the lost toy' and 'The mailman will deliver the post.'",
+      "<b>Words with the Trigraph</b>: Provide a list of 'ost' words and write them on the board. Discuss their meanings with visuals. Examples include 'lost,' 'post,' 'most,' 'host,' and 'frost.'",
+      "<b>Class Exercise</b>: Hand out worksheets with 'ost' words for students to read. Conduct a reading activity where students take turns reading aloud and focus on the 'ost' sound."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students as they read and provide feedback on their pronunciation and understanding of 'ost.'",
+    "<b>Activity Check</b>: Assess students' ability to use 'ost' words in sentences and their recognition of the trigraph in different contexts."
+  ],
+  conclusion: [
+    "Review the trigraph 'ost,' emphasizing its sound and usage. Reinforce the importance of recognizing and pronouncing 'ost' correctly in reading and writing."
+  ]
+},
+
 // Week 9
 // Lesson 1
+{
+  title: "The Trigraph 'ust'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Monday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ust'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "9",
+  lessonNumber: "1",
+  description: "This lesson introduces the trigraph 'ust,' focusing on its pronunciation, usage in words and sentences, and practice in reading.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with words containing 'ust'",
+    "Visual aids or drawings for word meanings"
+  ],
+  objectives: [
+    "Students will recognize and pronounce the trigraph 'ust.'",
+    "Students will understand how 'ust' is used in different words.",
+    "Students will practice reading words and sentences containing the trigraph 'ust.'"
+  ],
+  rationale: [
+    "Understanding trigraphs helps students improve their phonetic skills, which are essential for reading and writing."
+  ],
+  methodology: [
+    "The lesson will use explanations, examples, and interactive activities to engage students in learning the trigraph 'ust.'"
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ust' and explain that it makes the sound /ʌst/, as in the word 'trust.' Demonstrate the pronunciation in isolation and within words like 'just' and 'must.'",
+      "<b>Varying Usage</b>: Discuss how 'ust' is used at the end of words and provide examples such as 'trust' and 'dust.' Highlight the consistent /ʌst/ sound in each example.",
+      "<b>Application in Sentences</b>: Create and read simple sentences using 'ust' words. Examples include: 'We must clean the room.' 'The dust is on the shelf.' 'Trust your friends.' Have students repeat the sentences aloud.",
+      "<b>Words with the Trigraph</b>: Provide a list of 'ust' words such as 'just,' 'trust,' 'dust,' 'must,' and 'rust.' Write these on the board, discuss their meanings, and use visuals or drawings to aid understanding.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ust' words for students to read. Conduct a reading activity where students take turns reading the words aloud, focusing on the /ʌst/ sound."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Monitor students as they read and provide feedback on their pronunciation of 'ust' words.",
+    "<b>Check Understanding</b>: Ask students to create their own sentences using 'ust' words to assess their grasp of the trigraph."
+  ],
+  conclusion: [
+    "Review the trigraph 'ust' and its usage in words and sentences. Reinforce the importance of recognizing and pronouncing 'ust' correctly in both reading and writing."
+  ]
+},
 
 // Lesson 2
+{
+  title: "The Trigraph 'str'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Monday, September 16, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'str'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "9",
+  lessonNumber: "2",
+  description: "This lesson aims to help students learn about the trigraph 'str,' its pronunciation, and usage in words and sentences.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with words containing 'str'",
+    "Visual aids or drawings",
+    "Audio examples (optional)"
+  ],
+  objectives: [
+    "Students will identify and pronounce the trigraph 'str.'",
+    "Students will use the trigraph 'str' in sentences.",
+    "Students will read and understand words containing the trigraph 'str.'"
+  ],
+  rationale: [
+    "Understanding trigraphs is crucial for developing reading skills and phonemic awareness."
+  ],
+  methodology: [
+    "The lesson will use explanations, examples, and interactive activities to engage students in learning the trigraph 'str.'"
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'str,' explaining that it represents a group of three letters that together make a single sound. Demonstrate the pronunciation with examples such as 'street' and 'strong.'",
+      "<b>Varying Usage</b>: Discuss how 'str' appears in different words and positions (beginning, middle, and end). Show examples like 'street,' 'strong,' and 'stray,' highlighting consistent pronunciation.",
+      "<b>Application in Sentences</b>: Create simple sentences using words with 'str.' Read sentences aloud and have students repeat them, such as 'The street is very busy,' 'She is strong and brave,' and 'The stray cat is hungry.'",
+      "<b>Words with the Trigraph</b>: Provide a list of words containing 'str,' such as 'street,' 'strong,' 'stray,' 'stripe,' and 'stream.' Write these on the board, discuss their meanings, and use visuals to illustrate each word.",
+      "<b>Class Exercise</b>: Hand out worksheets with 'str' words for students to read. Conduct a reading activity where students take turns reading aloud, focusing on the 'str' sound. Encourage clear pronunciation and sentence creation."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Observe students as they read and use words with the trigraph 'str,' providing feedback on their pronunciation and sentence construction.",
+    "<b>Worksheet Review</b>: Check students' worksheets to assess their understanding of 'str' words and their ability to use them in sentences."
+  ],
+  conclusion: [
+    "Review the lesson by summarizing the trigraph 'str,' its pronunciation, and its usage. Reinforce the importance of recognizing and pronouncing 'str' correctly in reading and writing."
+  ]
+},
 
 // Lesson 3
-	
+{
+  title: "The Trigraph 'ing'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Monday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Introduction to the Trigraph 'ing'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "9",
+  lessonNumber: "3",
+  description: "This lesson introduces students to the trigraph 'ing', focusing on its pronunciation, usage in words and sentences, and practice in reading.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with words containing 'ing'",
+    "Visual aids or drawings for example words",
+    "Audio resources for pronunciation practice"
+  ],
+  objectives: [
+    "Students will learn to recognize and pronounce the trigraph 'ing'.",
+    "Students will understand the usage of 'ing' in different words and sentences.",
+    "Students will practice reading words with the trigraph 'ing'."
+  ],
+  rationale: [
+    "Understanding and recognizing common trigraphs like 'ing' is crucial for developing reading and writing skills in early learners."
+  ],
+  methodology: [
+    "The lesson will use explanation, demonstration, and hands-on practice to engage students in learning the trigraph 'ing'."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ing' and explain that it represents the sound /ɪŋ/. Demonstrate the pronunciation by emphasizing its sound in isolation and within words, using examples like 'king' and 'ring'.",
+      "<b>Varying Usage</b>: Discuss how 'ing' is used as a suffix to denote action or process, turning verbs into gerunds or present participles (e.g., 'running', 'playing'). Show examples of words where 'ing' is added to verbs and highlight the consistent sound it makes.",
+      "<b>Application in Sentences</b>: Create simple sentences using 'ing' words, such as 'The children are singing a song.' Read the sentences aloud and have students repeat them to practice pronunciation.",
+      "<b>Words with the Trigraph</b>: Provide a list of 'ing' words such as 'sing', 'ring', 'king', 'wing', and 'playing'. Write these words on the board and discuss their meanings with the help of visuals or drawings.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ing' words for students to read. Conduct a reading activity where students take turns reading the words aloud, focusing on the 'ing' sound."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Observe students as they read and pronounce words with the trigraph 'ing', providing feedback and support as needed.",
+    "<b>Sentence Creation</b>: Check students' understanding by asking them to create their own sentences using 'ing' words."
+  ],
+  conclusion: [
+    "Recap the lesson by reviewing the trigraph 'ing', its pronunciation, and its usage in words and sentences. Reinforce the importance of recognizing and correctly pronouncing 'ing' in reading and writing."
+  ]
+},
+
 // Week 10
 // Lesson 1
+{
+  title: "The Trigraph 'tch'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "The Trigraph 'tch' and its Pronunciation",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "10",
+  lessonNumber: "1",
+  description: "This lesson aims to introduce students to the trigraph 'tch', help them understand its pronunciation, and practice reading words containing the trigraph.",
+  materials: [
+    "Whiteboard and markers",
+    "Flashcards with 'tch' words",
+    "Worksheets with 'tch' words for reading practice",
+    "Visual aids or pictures for word meanings"
+  ],
+  objectives: [
+    "Students will identify and pronounce the trigraph 'tch'.",
+    "Students will recognize words that contain the trigraph 'tch'.",
+    "Students will use 'tch' words in simple sentences."
+  ],
+  rationale: [
+    "Learning the trigraph 'tch' is essential for students to improve their phonics skills and build confidence in reading and writing."
+  ],
+  methodology: [
+    "The lesson will combine explanation, group activities, and reading practice to help students master the 'tch' sound."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction to 'tch'</b>: Introduce the trigraph 'tch' by explaining that it makes the /ch/ sound, as heard in words like 'match' and 'catch'. Write the letters 'tch' on the board and demonstrate its pronunciation.",
+      "<b>Explain Usage</b>: Discuss that 'tch' usually comes at the end of one-syllable words after a short vowel sound. Provide examples like 'catch', 'watch', 'hatch', and 'match'. Reinforce that 'tch' doesn’t appear at the beginning of words.",
+      "<b>Sentence Practice</b>: Create simple sentences using 'tch' words, such as: 'I will catch the ball' and 'The chick will hatch soon'. Read these sentences aloud and have students repeat after you to practice pronunciation.",
+      "<b>Word Exploration</b>: Write 'tch' words like 'watch', 'hatch', 'witch', and 'match' on the board. Discuss their meanings and use pictures or visuals to explain the words. Encourage students to use the words in sentences.",
+      "<b>Class Exercise</b>: Hand out worksheets with 'tch' words for students to practice reading. Ask students to take turns reading the words aloud. Monitor their pronunciation and provide guidance as needed."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: The teacher will assess students’ pronunciation of 'tch' words through reading activities and provide feedback.",
+    "<b>Participation</b>: Students will be asked to create their own sentences using 'tch' words to assess their understanding."
+  ],
+  conclusion: [
+    "Review the sound and usage of the trigraph 'tch'. Reinforce its presence at the end of short vowel words, and encourage students to continue practicing at home."
+  ]
+},
 
 // Lesson 2
+{
+  title: "The Trigraph 'ear'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ear'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "10",
+  lessonNumber: "2",
+  description: "This lesson focuses on teaching students the trigraph 'ear', its pronunciation, usage, and reading practice.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with 'ear' words",
+    "Pictures or illustrations for 'ear' words"
+  ],
+  objectives: [
+    "Students will learn to identify and pronounce the trigraph 'ear'.",
+    "Students will practice reading words containing the trigraph 'ear'.",
+    "Students will use 'ear' words in simple sentences."
+  ],
+  rationale: [
+    "Understanding and pronouncing trigraphs like 'ear' helps students develop essential reading and phonics skills."
+  ],
+  methodology: [
+    "The lesson will include explanation, demonstration, reading practice, and hands-on exercises to ensure students understand the trigraph 'ear'."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Introduction</b>: Introduce the trigraph 'ear' and explain that it represents the sound /ɪə/ (as in 'hear'). Demonstrate how to pronounce 'ear' using words like 'hear' and 'dear'.",
+      "<b>Varying Usage</b>: Discuss how 'ear' appears in different positions in words like 'ear', 'fear', and 'clear'. Explain how the sound blends the vowels 'e' and 'a' with 'r'.",
+      "<b>Application in Sentences</b>: Create simple sentences using 'ear' words, like 'I can hear the birds sing' or 'The water is clear in the lake'. Have students repeat after you.",
+      "<b>Word List Practice</b>: Provide students with a list of 'ear' words like 'hear', 'near', and 'clear'. Write the words on the board, discuss their meanings, and use gestures to illustrate.",
+      "<b>Class Exercise</b>: Hand out worksheets for students to practice reading 'ear' words, followed by group reading. Emphasize smooth blending of sounds."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: Assess students' pronunciation of 'ear' words during reading activities and provide feedback.",
+    "<b>Sentence Creation</b>: Ask students to create their own sentences using 'ear' words and share them with the class."
+  ],
+  conclusion: [
+    "Summarize the lesson by reviewing the sound of the trigraph 'ear' and its usage in words. Encourage students to practice reading 'ear' words at home."
+  ]
+},
 
 // Lesson 3
-	
+{
+  title: "The Trigraph 'ure'",
+  school: "Flying Wings Academy",
+  teacher: "Mr. C. Mbaso",
+  date: "Tuesday, September 17, 2024",
+  tcz: "19/09/0904/021725",
+  subject: "Literacy",
+  topic: "Learning the Trigraph 'ure'",
+  grade: "Wing Whiz",
+  term: "1",
+  week: "10",
+  lessonNumber: "3",
+  description: "This lesson aims to introduce the trigraph 'ure,' focusing on its pronunciation, usage in words and sentences, and reading practice.",
+  materials: [
+    "Whiteboard and markers",
+    "Worksheets with 'ure' words",
+    "Pictures representing words with 'ure' (e.g., cure, picture)",
+    "Flashcards with 'ure' words"
+  ],
+  objectives: [
+    "Students will learn the trigraph 'ure' and its pronunciation.",
+    "Students will understand how to use 'ure' words in sentences.",
+    "Students will practice reading and pronouncing words containing the trigraph 'ure'."
+  ],
+  rationale: [
+    "Learning trigraphs is essential for developing reading fluency and phonetic awareness, helping students recognize sound patterns in words."
+  ],
+  methodology: [
+    "The lesson will include direct instruction, interactive reading activities, and practice exercises to engage students in learning the trigraph 'ure'."
+  ],
+  activities: [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Clear Explanation</b>: Introduce the trigraph 'ure' and explain that it sounds like 'yoor,' as in the word 'pure.' Slowly pronounce the sound and emphasize how the three letters create one sound.",
+      "<b>Varying Usage</b>: Show how 'ure' often appears at the end of words, using examples such as 'sure,' 'cure,' and 'picture.' Explain the meanings of these words with simple definitions and visuals.",
+      "<b>Application in Sentences</b>: Create simple sentences using 'ure' words like 'I am sure about the answer,' and 'The doctor found a cure.' Ask students to repeat these sentences, focusing on the 'ure' sound.",
+      "<b>Words with the Trigraph</b>: Write words like 'pure,' 'sure,' 'cure,' and 'secure' on the board. Discuss their meanings, using pictures or examples to reinforce understanding.",
+      "<b>Class Exercise</b>: Distribute worksheets with 'ure' words. Students will circle the trigraph in each word and read them aloud, practicing the sound of 'ure.' Encourage them to create sentences using these words in pairs or small groups."
+    ]
+  ],
+  assessments: [
+    "<b>Observation</b>: The teacher will assess students’ pronunciation and understanding of 'ure' words during the reading and sentence creation activities.",
+    "<b>Oral Assessment</b>: Ask students to make their own sentences using 'ure' words, checking for correct pronunciation and usage."
+  ],
+  conclusion: [
+    "Review the trigraph 'ure' by asking students to give examples of words with 'ure.' Reinforce their understanding by discussing how 'ure' sounds and is used in sentences."
+  ]
+}
 ];
