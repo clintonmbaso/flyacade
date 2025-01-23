@@ -19,7 +19,7 @@ function searchLessonPlans(event) {
     lessonPlansContainer.innerHTML = ''; // Clear previous results
 
     // Combine lesson plans from all data files
-    const allLessonPlans = [...lessonPlans1a, ...lessonPlans1b, ...lessonPlans1c, ...lessonPlans2a, ...lessonPlans2b, ...lessonPlans2c, ...lessonPlans3a, ...lessonPlans3b, ...lessonPlans3c, ...lessonPlans4a, ...lessonPlans4b, ...lessonPlans4c, ...lessonPlans5a, ...lessonPlans5b, ...lessonPlans5c, ...lessonPlans6a, ...lessonPlans6b, ...lessonPlans6c, ...lessonPlans7a, ...lessonPlans7b, ...lessonPlans7c, ...lessonPlans8a, ...lessonPlans8b, ...lessonPlans8c, /*...lessonPlans9,*/ ...lessonPlans10a, ...lessonPlans10b, ...lessonPlans10c, ...lessonPlans11a, ...lessonPlans11b, ...lessonPlans11c, ...lessonPlans12a, ...lessonPlans12b, ...lessonPlans12c, ...lessonPlans13a, ...lessonPlans13b, ...lessonPlans13c, ...lessonPlans14a, ...lessonPlans14b, ...lessonPlans14c, ...lessonPlans15a, ...lessonPlans15b, ...lessonPlans15c, ...lessonPlans16a, ...lessonPlans16b, ...lessonPlans16c, ...lessonPlans17a, ...lessonPlans17b, ...lessonPlans17c,/*...lessonPlans18a, ...lessonPlans18b, ...lessonPlans18c, */...lessonPlans19a, ...lessonPlans19b, ...lessonPlans19c, ...lessonPlans20a, ...lessonPlans20b, ...lessonPlans20c, ...lessonPlans21a, ...lessonPlans21b, ...lessonPlans21c, ...lessonPlans22a, ...lessonPlans22b, ...lessonPlans22c, ...lessonPlans23a, ...lessonPlans23b, ...lessonPlans23c, ...lessonPlans24a, ...lessonPlans24b, ...lessonPlans24c, ...lessonPlans25a, ...lessonPlans25b, ...lessonPlans25c, ...lessonPlans26a, ...lessonPlans26b, ...lessonPlans26c,/*...lessonPlans27, */...lessonPlans28a, ...lessonPlans28b, ...lessonPlans28c, ...lessonPlans29a, ...lessonPlans29b, ...lessonPlans29c, ...lessonPlans30a, ...lessonPlans30b, ...lessonPlans30c, ...lessonPlans31a, ...lessonPlans31b, ...lessonPlans31c, ...lessonPlans32a, ...lessonPlans32b, ...lessonPlans32c, ...lessonPlans33a, ...lessonPlans33b, ...lessonPlans33c, ...lessonPlans34a, ...lessonPlans34b, ...lessonPlans34c, ...lessonPlans35a, ...lessonPlans35b, ...lessonPlans35c, /*...lessonPlans36,*/ ...lessonPlans37a, ...lessonPlans37b, ...lessonPlans37c, ...lessonPlans38a, ...lessonPlans38b, ...lessonPlans38c, ...lessonPlans39a, ...lessonPlans39b, ...lessonPlans39c, ...lessonPlans40a, ...lessonPlans40b, ...lessonPlans40c, ...lessonPlans41a, ...lessonPlans41b, ...lessonPlans41c, ...lessonPlans42a, ...lessonPlans42b, ...lessonPlans42c, ...lessonPlans43a, ...lessonPlans43b, ...lessonPlans43c,...lessonPlans44a, ...lessonPlans44b, ...lessonPlans44c, /*...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49,*/...lessonPlans50a, ...lessonPlans50b, ...lessonPlans50c,/*...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54,*/ ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c, ...lessonPlans56a, ...lessonPlans56b, ...lessonPlans56c, ...lessonPlans57a, ...lessonPlans57b, ...lessonPlans57c, /*...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,*/ ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c, ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, ...lessonPlans68b, ...lessonPlans69b,];
+    const allLessonPlans = [...lessonPlans1a, ...lessonPlans1b, ...lessonPlans1c, ...lessonPlans2a, ...lessonPlans2b, ...lessonPlans2c, ...lessonPlans3a, ...lessonPlans3b, ...lessonPlans3c, ...lessonPlans4a, ...lessonPlans4b, ...lessonPlans4c, ...lessonPlans5a, ...lessonPlans5b, ...lessonPlans5c, ...lessonPlans6a, ...lessonPlans6b, ...lessonPlans6c, ...lessonPlans7a, ...lessonPlans7b, ...lessonPlans7c, ...lessonPlans8a, ...lessonPlans8b, ...lessonPlans8c, /*...lessonPlans9,*/ ...lessonPlans10a, ...lessonPlans10b, ...lessonPlans10c, ...lessonPlans11a, ...lessonPlans11b, ...lessonPlans11c, ...lessonPlans12a, ...lessonPlans12b, ...lessonPlans12c, ...lessonPlans13a, ...lessonPlans13b, ...lessonPlans13c, ...lessonPlans14a, ...lessonPlans14b, ...lessonPlans14c, ...lessonPlans15a, ...lessonPlans15b, ...lessonPlans15c, ...lessonPlans16a, ...lessonPlans16b, ...lessonPlans16c, ...lessonPlans17a, ...lessonPlans17b, ...lessonPlans17c,/*...lessonPlans18a, ...lessonPlans18b, ...lessonPlans18c, */...lessonPlans19a, ...lessonPlans19b, ...lessonPlans19c, ...lessonPlans20a, ...lessonPlans20b, ...lessonPlans20c, ...lessonPlans21a, ...lessonPlans21b, ...lessonPlans21c, ...lessonPlans22a, ...lessonPlans22b, ...lessonPlans22c, ...lessonPlans23a, ...lessonPlans23b, ...lessonPlans23c, ...lessonPlans24a, ...lessonPlans24b, ...lessonPlans24c, ...lessonPlans25a, ...lessonPlans25b, ...lessonPlans25c, ...lessonPlans26a, ...lessonPlans26b, ...lessonPlans26c, ...lessonPlans27a, ...lessonPlans27b, ...lessonPlans27c, ...lessonPlans28a, ...lessonPlans28b, ...lessonPlans28c, ...lessonPlans29a, ...lessonPlans29b, ...lessonPlans29c, ...lessonPlans30a, ...lessonPlans30b, ...lessonPlans30c, ...lessonPlans31a, ...lessonPlans31b, ...lessonPlans31c, ...lessonPlans32a, ...lessonPlans32b, ...lessonPlans32c, ...lessonPlans33a, ...lessonPlans33b, ...lessonPlans33c, ...lessonPlans34a, ...lessonPlans34b, ...lessonPlans34c, ...lessonPlans35a, ...lessonPlans35b, ...lessonPlans35c,/* ...lessonPlans36a,  ...lessonPlans36b, ...lessonPlan36c,*/ ...lessonPlans37a, ...lessonPlans37b, ...lessonPlans37c, ...lessonPlans38a, ...lessonPlans38b, ...lessonPlans38c, ...lessonPlans39a, ...lessonPlans39b, ...lessonPlans39c, ...lessonPlans40a, ...lessonPlans40b, ...lessonPlans40c, ...lessonPlans41a, ...lessonPlans41b, ...lessonPlans41c, ...lessonPlans42a, ...lessonPlans42b, ...lessonPlans42c, ...lessonPlans43a, ...lessonPlans43b, ...lessonPlans43c,...lessonPlans44a, ...lessonPlans44b, ...lessonPlans44c, /*...lessonPlans45, ...lessonPlans46, ...lessonPlans47, ...lessonPlans48, ...lessonPlans49,*/...lessonPlans50a, ...lessonPlans50b, ...lessonPlans50c,/*...lessonPlans51, ...lessonPlans52, ...lessonPlans53, ...lessonPlans54,*/ ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c, ...lessonPlans56a, ...lessonPlans56b, ...lessonPlans56c, ...lessonPlans57a, ...lessonPlans57b, ...lessonPlans57c, /*...lessonPlans58, ...lessonPlans59, ...lessonPlans60, ...lessonPlans61, ...lessonPlans62, ...lessonPlans63, ...lessonPlans64, ...lessonPlans65, ...lessonPlans66,*/ ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c, ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, ...lessonPlans68b, ...lessonPlans69b,];
 
     const filteredLessonPlans = allLessonPlans.filter(plan => {
         return plan.title.toLowerCase().includes(searchTitle) &&
@@ -32,25 +32,25 @@ function searchLessonPlans(event) {
 
 // Define a mapping of grade to teacher's name
 const teacherNames = {
-    "Baby Birds": "Mrs. Loveness Muwila",
-    "Sky Sprouts": "Mrs. Loveness Muwila",
-    "Nestlings Navigators": "Ms. Maureen Kapya",
-    "Feather Flyers": "Ms. Maureen Kapya",
-    "Cloud Chicks": "Ms. Faith",
-    "Wing Whiz": "Ms. Faith",
-    "Sky Soarers": "Mr. Muteba",
-    "Avian Aces": "Mr. Muteba",
-    "Nimbus Navigators": "Mr. Muteba",
+    "Baby Birds": "Mrs. Kuligwa Siazyana",
+    "Sky Sprouts": "Mrs. Kuligwa Siazyana",
+    "Nestlings Navigators": "Mrs. Loveness Muwila",
+    "Feather Flyers": "Mrs. Loveness Muwila",
+    "Cloud Chicks": "Ms. Faith Nakaonga",
+    "Wing Whiz": "Ms. Faith Nakaonga",
+    "Sky Soarers": "Mr. Muteba Masheka",
+    "Avian Aces": "Mr. Muteba Masheka",
+    "Nimbus Navigators": "Mr. Clinton Mbaso",
     "All Classes": "All Teachers"
 };
 
 // Define a mapping of teachers name to TCZ number
 const tczNumbers = {
     "Mrs. Loveness Muwila": "FS20BC0003",
-    "Ms. Maureen Kapya": "FS20BC0010",
-    "Ms. Faith": "FS20BC0011",
+    "Mrs. Kuligwa Siazyana": "FS20BC0012",
+    "Ms. Faith Nakaonga": "FS20BC0011",
     "All Teachers": "FS20BC1111",
-    "Mr. Muteba": "FS20BC0013"
+    "Mr. Muteba Masheka": "FS20BC0013"
 };
     
 // Example usage in your main file
@@ -71,14 +71,51 @@ filteredLessonPlans.forEach(plan => {
       // Use the mapping to display the TCZ number based on teacherName
     const tczNumber = tczNumbers[teacherName];
     
-    const card = document.createElement('div');
-    card.classList.add('lesson-plan');
-    card.innerHTML = `
-        <h3 class="lessonsplan">LESSON PLAN</h3>
-        <p><em>${titlePrefix} - ${plan.topic}</em></p>
-        <p><strong>School:</strong> FLYING WINGS ACADEMY</p>
-        <p><strong>Teacher:</strong> ${teacherName}</p>
-            <p><strong>Date:</strong> ${plan.date}</p>
+    
+    
+// Define a starting point for each term
+const termStartDates = {
+    1: new Date("2025-01-06"), // Example starting date for Term 1
+    2: new Date("2025-05-06"), // Example starting date for Term 2
+    3: new Date("2025-09-02")  // Example starting date for Term 3
+};
+
+// Function to calculate the lesson date
+const getLessonDate = (lessonNumber, week, term) => {
+    // Validate inputs
+    if (!termStartDates[term]) {
+        console.error("Invalid term entered!");
+        return "Invalid Term";
+    }
+    if (week < 1 || week > 14) { // Assuming a term has 14 weeks
+        console.error("Invalid week entered!");
+        return "Invalid Week";
+    }
+
+    const startDate = new Date(termStartDates[term]);
+    const lessonDate = new Date(startDate);
+
+    // Calculate the day of the week based on lessonNumber (e.g., Mon-Fri for lessons 1-5)
+    const dayOffset = (lessonNumber - 1) % 5; // Adjust for Monday to Friday
+
+    // Add the calculated weeks and the day offset
+    lessonDate.setDate(startDate.getDate() + (week - 1) * 7 + dayOffset);
+
+    return lessonDate.toDateString(); // Return date as a human-readable string
+};
+
+    
+    
+    
+// Modify the card rendering code to use getLessonDate
+const card = document.createElement('div');
+card.classList.add('lesson-plan');
+card.innerHTML = `
+    <h3 class="lessonsplan">LESSON PLAN</h3>
+    <p><em>${titlePrefix} - ${plan.topic}</em></p>
+    <p><strong>School:</strong> FLYING WINGS ACADEMY</p>
+    <p><strong>Teacher:</strong> ${teacherName}</p>
+    <p><strong>Date:</strong> ${getLessonDate(plan.lessonNumber, plan.week, plan.term)}</p>
             <p><strong>Teacher ID:</strong> ${tczNumber}</p>
             <p><strong>Subject:</strong> ${plan.subject}</p>
             <p><strong>Topic:</strong> ${plan.topic}</p>
