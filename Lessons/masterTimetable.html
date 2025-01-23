@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Timetable</title>
+<link rel="stylesheet" href="styles.css">
+  
+  <style>
+body {
+font-family: Arial, sans-serif;
+}
+
+.container {
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+}
+
+.filters {
+margin-bottom: 20px;
+}
+
+#timetable-table {
+border-collapse: collapse;
+width: 100%;
+}
+
+#timetable-table th, #timetable-table td {
+border: 1px solid #ddd;
+padding: 10px;
+text-align: left;
+}
+
+#timetable-table th {
+background-color: #f0f0f0;
+}
+
+#timetableStatus {
+text-align: center;
+color: #666;
+}
+</style>
+  
+  
+</head>
+<body>
+<div class="container">
+<h1>Master Timetable</h1>
+<div class="filters">
+<select id="dayFilter">
+<option value="all">All Days</option>
+</select>
+<select id="subjectFilter">
+<option value="all">All Subjects</option>
+</select>
+<select id="teacherFilter">
+<option value="all">All Teachers</option>
+</select>
+</div>
+<table id="timetable-table"></table>
+<p id="timetableStatus"></p>
+</div>
+  
+<script src="masterTimetable.js"></script>
+</body>
+</html>
