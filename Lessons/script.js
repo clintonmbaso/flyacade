@@ -82,12 +82,12 @@ function searchLessonPlans(event) {
     /*...lessonPlans45, 
       ...lessonPlans46, 
      ...lessonPlans47, 
-    ...lessonPlans48, ...lessonPlans49,*/
+    ...lessonPlans48, ...lessonPlans49,*
     
     ...lessonPlans50a, ...lessonPlans50b, ...lessonPlans50c,
     
     /*...lessonPlans51, ...lessonPlans52, ...lessonPlans53, 
-     ...lessonPlans54,*/
+     ...lessonPlans54,*
     
     ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c, 
     ...lessonPlans56a, ...lessonPlans56b, ...lessonPlans56c,
