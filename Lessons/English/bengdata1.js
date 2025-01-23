@@ -13,4 +13,3 @@ const lessonPlans10a = [
 	
 	
 ];
-
