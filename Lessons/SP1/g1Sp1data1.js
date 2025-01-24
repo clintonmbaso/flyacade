@@ -252,7 +252,7 @@ const lessonPlans61a = [
 
 // Lesson 2
 {
-  "title": "Applying \"If-Then\" Statements in Problem-Solving",
+  "title": "Applying 'If-Then' Statements in Problem-Solving",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Tuesday, January 23, 2025",
@@ -263,39 +263,39 @@ const lessonPlans61a = [
   "term": "1",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson introduces students to the concept of \"If-Then\" statements, focusing on their application in problem-solving and deductive reasoning.",
+  "description": "This lesson introduces students to the concept of 'If-Then' statements, focusing on their application in problem-solving and deductive reasoning.",
   "materials": [
     "Whiteboard and markers",
     "Printed worksheets with problem scenarios",
     "Examples of real-life situations for application"
   ],
   "objectives": [
-    "Students will understand the concept of \"If-Then\" statements and their use in problem-solving.",
-    "Students will apply deductive reasoning to solve problems using \"If-Then\" statements.",
-    "Students will create their own \"If-Then\" statements based on everyday situations."
+    "Students will understand the concept of 'If-Then' statements and their use in problem-solving.",
+    "Students will apply deductive reasoning to solve problems using 'If-Then' statements.",
+    "Students will create their own 'If-Then' statements based on everyday situations."
   ],
   "rationale": [
-    "Understanding \"If-Then\" statements helps students develop logical thinking and problem-solving skills, which are essential for academic and real-life applications."
+    "Understanding 'If-Then' statements helps students develop logical thinking and problem-solving skills, which are essential for academic and real-life applications."
   ],
   "methodology": [
-    "The lesson will use discussions, demonstrations, and practical exercises to help students understand and apply \"If-Then\" statements."
+    "The lesson will use discussions, demonstrations, and practical exercises to help students understand and apply 'If-Then' statements."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction to \"If-Then\" Statements</b>:<br><br>Explain that an \"If-Then\" statement is a logical expression used to show the relationship between two things, where one condition leads to another.<br><br>Example: \"If it rains, then I will bring an umbrella.\" Here, \"it rains\" is the condition (if), and \"I will bring an umbrella\" is the result (then).",
-      "<b>Part 2: Understanding Deductive Reasoning</b>:<br><br>Discuss how \"If-Then\" statements are essential for deductive reasoning, which involves drawing conclusions from premises or known facts.<br><br>Example: \"If all mammals have fur and a cat is a mammal, then a cat must have fur.\"",
-      "<b>Part 3: Practical Scenarios</b>:<br><br>Provide students with real-life scenarios where they need to apply \"If-Then\" reasoning.<br><br>Example 1: \"If you finish your homework early, then you can play outside.\"<br>Example 2: \"If you water the plant every day, then it will grow taller.\"<br><br>Emphasize how identifying the cause (if) and effect (then) helps in making decisions.",
-      "<b>Part 4: Problem-Solving with \"If-Then\" Statements</b>:<br><br>Demonstrate how to break down a problem into smaller parts using \"If-Then\" statements.<br><br>Example Problem: \"If I forget to charge my phone, then it will die, and I won’t be able to use it.\"<br>Ask students how they could avoid this problem using \"If-Then\" reasoning (e.g., \"If I charge my phone every night, then it will be ready in the morning\").",
-      "<b>Part 5: Exercise: Apply \"If-Then\" Statements</b>:<br><br>Task: Give students a set of problems to solve using \"If-Then\" statements.<br><br>Example Exercise 1: \"If it is cold outside, then I will wear a jacket. If I wear a jacket, then I will stay warm.\"<br>Example Exercise 2: \"If I study for 30 minutes every day, then I will improve my grades.\"<br><br>Encourage students to create their own \"If-Then\" statements based on everyday situations, and ask them to share with the class."
+      "<b>Part 1: Introduction to 'If-Then' Statements</b>:<br><br>Explain that an 'If-Then' statement is a logical expression used to show the relationship between two things, where one condition leads to another.<br><br>Example: 'If it rains, then I will bring an umbrella.' Here, 'it rains' is the condition (if), and 'I will bring an umbrella' is the result (then).",
+      "<b>Part 2: Understanding Deductive Reasoning</b>:<br><br>Discuss how 'If-Then' statements are essential for deductive reasoning, which involves drawing conclusions from premises or known facts.<br><br>Example: 'If all mammals have fur and a cat is a mammal, then a cat must have fur.'",
+      "<b>Part 3: Practical Scenarios</b>:<br><br>Provide students with real-life scenarios where they need to apply 'If-Then' reasoning.<br><br>Example 1: 'If you finish your homework early, then you can play outside.'<br>Example 2: 'If you water the plant every day, then it will grow taller.'<br><br>Emphasize how identifying the cause (if) and effect (then) helps in making decisions.",
+      "<b>Part 4: Problem-Solving with 'If-Then' Statements</b>:<br><br>Demonstrate how to break down a problem into smaller parts using 'If-Then' statements.<br><br>Example Problem: 'If I forget to charge my phone, then it will die, and I won’t be able to use it.'<br>Ask students how they could avoid this problem using 'If-Then' reasoning (e.g., 'If I charge my phone every night, then it will be ready in the morning').",
+      "<b>Part 5: Exercise: Apply 'If-Then' Statements</b>:<br><br>Task: Give students a set of problems to solve using 'If-Then' statements.<br><br>Example Exercise 1: 'If it is cold outside, then I will wear a jacket. If I wear a jacket, then I will stay warm.'<br>Example Exercise 2: 'If I study for 30 minutes every day, then I will improve my grades.'<br><br>Encourage students to create their own 'If-Then' statements based on everyday situations, and ask them to share with the class."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students' participation in class discussions and their application of \"If-Then\" reasoning during exercises.",
-    "<b>Exercise</b>: The practical exercises will assess students' ability to apply \"If-Then\" statements to solve problems and think logically."
+    "<b>Observation</b>: The teacher will observe students' participation in class discussions and their application of 'If-Then' reasoning during exercises.",
+    "<b>Exercise</b>: The practical exercises will assess students' ability to apply 'If-Then' statements to solve problems and think logically."
   ],
   "conclusion": [
-    "By learning to apply \"If-Then\" statements, students will enhance their problem-solving and deductive reasoning skills, which are essential for academic and real-life situations."
+    "By learning to apply 'If-Then' statements, students will enhance their problem-solving and deductive reasoning skills, which are essential for academic and real-life situations."
   ]
 },
 
@@ -581,7 +581,7 @@ const lessonPlans61a = [
     ["1", "2", "3", "4", "5"],
     [
       "<b>Part 1: Introduction to Deductive Reasoning</b>:<br><br>Definition: Deductive reasoning is the process of drawing conclusions based on premises that are generally assumed to be true. It is a logical approach where if the premises are true, the conclusion must be true.<br><br>Examples: Provide simple examples to illustrate deductive reasoning. For instance:<br>Premise 1: All mammals have hearts.<br>Premise 2: A dog is a mammal.<br>Conclusion: Therefore, a dog has a heart.",
-      "<b>Part 2: Role of Deductive Reasoning in Everyday Life</b>:<br><br>Practical Application: Discuss how deductive reasoning is used in various real-life scenarios, such as problem-solving, decision-making, or scientific investigation.<br><br>Everyday Examples:<br>\"If it’s raining, then the ground will be wet.\"<br>\"If I study, I will perform well on the test.\"<br>Discuss how these everyday conclusions rely on deductive reasoning.",
+      "<b>Part 2: Role of Deductive Reasoning in Everyday Life</b>:<br><br>Practical Application: Discuss how deductive reasoning is used in various real-life scenarios, such as problem-solving, decision-making, or scientific investigation.<br><br>Everyday Examples:<br>'If it’s raining, then the ground will be wet.'<br>'If I study, I will perform well on the test.'<br>Discuss how these everyday conclusions rely on deductive reasoning.",
       "<b>Part 3: Encouraging Group Interaction</b>:<br><br>Small Group Discussions: Divide the class into small groups and give each group a set of premises to evaluate. Have students apply deductive reasoning to arrive at a conclusion.<br><br>Sharing Conclusions: After discussions, groups share their conclusions and reasoning with the class. This allows for collaborative learning and critical thinking.",
       "<b>Part 4: Challenging Common Misconceptions</b>:<br><br>Addressing Errors in Reasoning: Sometimes, conclusions drawn through deductive reasoning can be flawed due to false premises. Discuss the importance of validating premises before reaching conclusions.<br><br>Example:<br>Premise 1: All birds can fly.<br>Premise 2: A penguin is a bird.<br>Incorrect Conclusion: Therefore, a penguin can fly.<br>Discuss how false premises can lead to incorrect conclusions.",
       "<b>Part 5: Exercise: Collaborative Problem-Solving</b>:<br><br>Group Exercise: Present a problem where students must apply deductive reasoning in groups to solve it.<br>Example Problem:<br>Premise 1: All cars need fuel to run.<br>Premise 2: A Tesla is a car.<br>Premise 3: A Tesla runs on electricity.<br>Conclusion: Does a Tesla need fuel to run?<br><br>Objective: The students must identify the logical conclusion based on the premises and discuss their reasoning as a group."
@@ -681,7 +681,7 @@ const lessonPlans61a = [
     [
       "<b>Part 1: Introduction to Deductive Reasoning</b>:<br><br>Deductive reasoning is a logical process where a conclusion is drawn from a set of premises. These premises are generally accepted as true, and through reasoning, you deduce a specific outcome. For example, if all humans are mortal, and Socrates is a human, then Socrates must be mortal. In real-world problem-solving, deductive reasoning helps individuals make sound decisions based on known facts or general principles.<br><br>Discussion:<br>Ask students: Can anyone think of a situation where we could use deductive reasoning? What are the key elements of deductive reasoning?",
       "<b>Part 2: The Structure of Deductive Reasoning</b>:<br><br>Deductive reasoning involves two key components:<br><br>Major Premise: A general statement or principle that is universally true.<br>Minor Premise: A specific statement related to the major premise.<br>Conclusion: The outcome or deduction made from the premises.<br><br>In real-world problems, the major premise could be a rule, law, or accepted truth, while the minor premise relates to a specific situation. The conclusion then follows logically from these premises.<br><br>Discussion:<br>Can anyone give an example of a major and minor premise that could lead to a conclusion?",
-      "<b>Part 3: Applying Deductive Reasoning to Real-World Scenarios</b>:<br><br>Deductive reasoning is used in various real-world scenarios, such as:<br><br>Legal Reasoning: Lawyers use deductive reasoning to draw conclusions based on laws and the facts of a case. If the law states that \"drivers must stop at red lights,\" and a person was driving when the light was red, the conclusion is that they have violated the law.<br><br>Medical Diagnoses: Doctors use deductive reasoning when diagnosing patients. For instance, if a patient has certain symptoms (fever, cough), and the general rule is that these symptoms often indicate the flu, the doctor may conclude that the patient has the flu.<br><br>Business Decisions: In business, managers apply deductive reasoning when making decisions based on market trends. For example, if a company knows that demand for a product increases during the holiday season, and it is approaching the holiday season, the company may predict an increase in sales.<br><br>Discussion:<br>How do you think deductive reasoning helps lawyers, doctors, and business managers in their work?",
+      "<b>Part 3: Applying Deductive Reasoning to Real-World Scenarios</b>:<br><br>Deductive reasoning is used in various real-world scenarios, such as:<br><br>Legal Reasoning: Lawyers use deductive reasoning to draw conclusions based on laws and the facts of a case. If the law states that 'drivers must stop at red lights,' and a person was driving when the light was red, the conclusion is that they have violated the law.<br><br>Medical Diagnoses: Doctors use deductive reasoning when diagnosing patients. For instance, if a patient has certain symptoms (fever, cough), and the general rule is that these symptoms often indicate the flu, the doctor may conclude that the patient has the flu.<br><br>Business Decisions: In business, managers apply deductive reasoning when making decisions based on market trends. For example, if a company knows that demand for a product increases during the holiday season, and it is approaching the holiday season, the company may predict an increase in sales.<br><br>Discussion:<br>How do you think deductive reasoning helps lawyers, doctors, and business managers in their work?",
       "<b>Part 4: Benefits of Deductive Reasoning</b>:<br><br>Deductive reasoning has several benefits:<br><br>Clarity and Precision: Deductive reasoning leads to clear, logical conclusions, reducing uncertainty.<br><br>Time-Saving: By eliminating illogical possibilities, it allows quicker problem-solving.<br><br>Objectivity: Deductive reasoning relies on facts and established principles, helping decision-making processes remain unbiased.<br><br>Discussion:<br>Why is it important to make decisions based on clear, logical conclusions? Can anyone think of a decision they made using deductive reasoning?",
       "<b>Part 5: Exercise (Deductive Reasoning Scenarios)</b>:<br><br>Use deductive reasoning to solve the following problems:<br><br>1. Scenario 1: All students who study for at least two hours before a test perform well. John studied for two hours before the test. Did John perform well on the test? Why?<br>2. Scenario 2: Only people with a valid driver's license can legally drive a car. Sarah does not have a valid driver's license. Can Sarah legally drive a car? Why?<br>3. Scenario 3: If the temperature is below 32°F, water freezes. The temperature outside is 28°F. Will water freeze outside? Why?<br>4. Scenario 4: If it is raining, the ground will be wet. It is raining outside. Is the ground wet? Why?"
     ]
