@@ -216,7 +216,7 @@ const lessonPlans24a = [
     "Various food items (sugar, lemon, salt, bitter food)",
     "Worksheet with a blank tongue diagram"
   ],
-  "objectives": [9
+  "objectives": [
     "Students will be able to identify and describe the different parts of the tongue.",
     "Students will understand the function of each part of the tongue.",
     "Students will recognize the role the tongue plays in tasting, speaking, and swallowing."
@@ -353,10 +353,10 @@ const lessonPlans24a = [
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Basic External Parts of the Eye",
-  "grade": "Grade 4",
+  "grade": "Wing Whiz",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "4",
+  "lessonNumber": "2",
   "description": "This lesson focuses on identifying and understanding the functions of the eyelid, eyelashes, and eyebrows as the basic external parts of the eye.",
   "materials": [
     "Picture of an eye or mirrors",
