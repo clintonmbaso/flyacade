@@ -200,7 +200,7 @@ const lessonPlans34a = [
   ]
 },
 
-// Week 4
+// Lesson 4
 // Lesson 1
 {
   "title": "Introduction to Obligations and Duties of a Citizen",
