@@ -86,7 +86,8 @@ function searchLessonPlans(event) {
     
     ...lessonPlans50a, ...lessonPlans50b, ...lessonPlans50c,
     
-    /*...lessonPlans51, ...lessonPlans52, ...lessonPlans53, 
+    ...lessonPlans51a, 
+    /*...lessonPlans52, ...lessonPlans53, 
      ...lessonPlans54,*/
     
     ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c, 
@@ -97,9 +98,11 @@ function searchLessonPlans(event) {
      ...lessonPlans59, 
     ...lessonPlans60, */
     
-/*    ...lessonPlans61a, /*...lessonPlans61b, ...lessonPlans61c,
-    
-    /*...lessonPlans62, ...lessonPlans63, 
+    ...lessonPlans61a, /*...lessonPlans61b, ...lessonPlans61c,
+    */
+        ...lessonPlans62a, 
+/*        ...lessonPlans63, 
+     
      ...lessonPlans64, ...lessonPlans65, 
     ...lessonPlans66,*/
     
