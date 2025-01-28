@@ -1,6 +1,5 @@
 const lessonPlans22a = [
- 
-// Term 1
+
 // Week 2
 // Lesson 1
 {
@@ -708,74 +707,6 @@ const lessonPlans22a = [
   "pic": []
 },
 
-// Lesson 4
-{
-  title: "Reviewing Plant Concepts: Parts, Growth, and Care",
-  school: "Flying Wings Academy",
-  teacher: "Mr. Mbaso",
-  date: "Monday, January 27, 2025",
-  tcz: "19/09/0904/021725",
-  subject: "Science",
-  topic: "Review of Plant Parts, Growth, and Care",
-  grade: "Feather Flyers",
-  term: "1",
-  week: "5",
-  lessonNumber: "4",
-  description: "This lesson will review key concepts learned in previous lessons about plant parts, growth, and care. It includes an assessment to gauge understanding and encourages questions and discussions about the role of plants in the environment.",
-  materials: [
-    "Review worksheets or quizzes",
-    "Visual aids or charts summarizing plant parts, growth, and care",
-    "Classroom whiteboard or chart paper for discussion",
-    "Potted plants for demonstration or review"
-  ],
-  objectives: [
-    "Students will review key concepts about plant parts, growth, and care.",
-    "Students will complete an assessment to gauge their understanding of these concepts.",
-    "Students will engage in discussions about the role of plants in the environment and ask questions to clarify their understanding."
-  ],
-  rationale: [
-    "Reviewing key concepts helps reinforce learning and ensures students have a solid understanding of plant biology. The assessment and discussions provide opportunities to address any misunderstandings and highlight the importance of plants in the environment."
-  ],
-  methodology: [
-    "The lesson will include a review of plant concepts using visual aids and class discussions. Students will complete an assessment to demonstrate their understanding and participate in discussions about the environmental role of plants."
-  ],
-  activities: [
-    ["1", "2", "3", "4", "5"],
-[
-  "<b>Part 1: The Parts of a Plant</b>:<br><br>A plant has several important parts, each with a specific role in its growth and survival. Understanding these parts helps us know how plants live and grow. The main parts of a plant are:<br><br>1. <b>Roots</b>:<br>Definition: The roots anchor the plant to the soil and absorb water and nutrients.<br>Explanation: Roots also store food for the plant.<br><br>2. <b>Stem</b>:<br>Definition: The stem supports the plant and holds it upright.<br>Explanation: It transports water, nutrients, and sugars between the roots and the leaves.<br><br>3. <b>Leaves</b>:<br>Definition: Leaves are the food-making part of the plant.<br>Explanation: They use sunlight, water, and carbon dioxide to make food through photosynthesis.<br><br>4. <b>Flowers</b>:<br>Definition: Flowers help plants reproduce by attracting pollinators like bees or birds.<br>Explanation: Flowers produce seeds that can grow into new plants.<br><br>5. <b>Seeds</b>:<br>Definition: Seeds are the starting point for new plants.<br>Explanation: When planted in the right conditions, they can sprout and grow into a full plant.",
-  
-  "<b>Part 2: How Plants Grow</b>:<br><br>Plants grow in stages, starting from a seed and developing into a mature plant. The growth process involves several key steps:<br><br>1. <b>Germination</b>:<br>Definition: This is the process when a seed begins to sprout. It requires water, warmth, and sometimes light.<br>Explanation: The root is the first part of the seed to grow, followed by the stem and leaves.<br><br>2. <b>Seedling Stage</b>:<br>Definition: The seedling is the young plant that has just sprouted.<br>Explanation: It is still very small and depends on the nutrients stored in the seed.<br><br>3. <b>Mature Plant</b>:<br>Definition: As the plant grows, it develops more leaves and stems.<br>Explanation: The plant can now produce its own food through photosynthesis and begins to prepare for reproduction (producing flowers and seeds).<br><br>4. <b>Reproduction</b>:<br>Definition: Once mature, the plant produces flowers that eventually turn into seeds, starting the life cycle over again.",
-  
-  "<b>Part 3: How to Care for Plants</b>:<br><br>Caring for plants ensures they grow healthy and strong. Here are the basic needs of a plant for proper care:<br><br>1. <b>Watering</b>:<br>Definition: Plants need water to absorb nutrients and stay hydrated.<br>Explanation: The amount of water depends on the type of plant. Over-watering or under-watering can harm the plant.<br><br>2. <b>Sunlight</b>:<br>Definition: Sunlight is crucial for photosynthesis, where the plant makes its food.<br>Explanation: Different plants need different amounts of sunlight, but most plants need at least a few hours of sunlight each day.<br><br>3. <b>Soil</b>:<br>Definition: Plants need soil that provides nutrients and good drainage.<br>Explanation: The soil type (e.g., sandy, clay, or loamy) can affect how well the plant grows.<br><br>4. <b>Temperature</b>:<br>Definition: Plants thrive in certain temperature ranges.<br>Explanation: Some plants grow best in warm climates, while others prefer cooler temperatures.<br><br>5. <b>Fertilizing</b>:<br>Definition: Adding fertilizer to the soil provides extra nutrients to help the plant grow.<br>Explanation: However, too much fertilizer can damage the plant.",
-  
-  "<b>Part 4: Plant Growth and Care Activity</b>:<br><br>Encourage students to share their knowledge and experiences related to plants. Here are some ways to engage the class:<br><br>1. <b>Ask Questions</b>:<br>Have you ever planted a seed? What happened to it as it grew?<br>What do you think happens when a plant does not get enough sunlight or water?<br><br>2. <b>Class Discussion</b>:<br>Let students share their thoughts on what plants need to grow.<br>Show pictures or charts of plants in different growth stages and ask students to identify the parts.<br><br>3. <b>Hands-On Activity</b>:<br>Let students plant their own seeds in small pots and observe the growth process.<br>Discuss the importance of watering, sunlight, and proper care.<br><br>4. <b>Show Visual Aids</b>:<br>Use diagrams or models to show the parts of a plant and how they function together.<br>Create a growth chart that students can fill in as they observe their plants' progress.",
-  
-  "<b>Class Exercise</b>:<br><br>Answer the following questions:<br><br>1. What are the five main parts of a plant?<br>2. Why are roots important for a plant?<br>3. True or False: Leaves are responsible for making food for the plant.<br>4. What does a plant need to grow? Name at least three things.<br>5. What is the first thing to grow when a seed begins to sprout?<br>6. Can plants grow without sunlight? Why or why not?<br>7. What happens when a plant does not get enough water?<br>8. How does a flower help a plant?<br>9. What is the role of a stem in a plant's life cycle?<br>10. How can you care for a plant at home?"
-],
-  ],
-  assessments: [
-    "<b>Review Worksheet or Quiz</b>: The teacher will assess students' understanding through their responses on the review worksheet or quiz.",
-    "<br><b>Discussion Participation</b>: The teacher will gauge understanding based on students' participation in the discussion and their ability to articulate concepts about plant roles and care."
-  ],
-  conclusion: [
-    "By reviewing key concepts and participating in discussions, students will reinforce their understanding of plant biology and recognize the importance of plants in the environment."
-  ],
-  "heading": [
-    "Middle-Class Level Concept Review Questions: Plant Parts, Growth, and Care"
-  ],
-  "details": [
-    "1. What are the main parts of a plant?<br>   - A) Leaves, roots, and stem<br>   - B) Toys, books, and clothes<br>   - C) Cars, bikes, and planes<br>   - D) Water, air, and food<br><br>2. What is the job of roots in a plant?<br>   - A) To make food<br>   - B) To store water<br>   - C) To take in air<br>   - D) To hold the plant in place<br><br>3. Where does a plant get water from?<br>   - A) From the air<br>   - B) From the ground<br>   - C) From the sun<br>   - D) From toys<br><br>4. How do plants make their own food?<br>   - A) By sleeping<br>   - B) By playing games<br>   - C) By photosynthesis<br>   - D) By watching TV<br><br>5. What happens to a seed when it starts to grow?<br>   - A) It turns into a flower<br>   - B) It gets smaller<br>   - C) It starts to change color<br>   - D) It begins to sprout roots and leaves<br><br>6. Why do plants need sunlight?<br>   - A) To sleep<br>   - B) To stay warm<br>   - C) To make food<br>   - D) To play games<br><br>7. What is the role of leaves in a plant?<br>   - A) To hold the plant in place<br>   - B) To make flowers<br>   - C) To take in air<br>   - D) To make food<br><br>8. How can you help a plant grow well?<br>   - A) Give it lots of toys<br>   - B) Water it regularly and give it sunlight<br>   - C) Keep it in the dark<br>   - D) Move it around often<br><br>9. What should you do if you see pests on a plant?<br>   - A) Leave them alone<br>   - B) Spray the plant with water<br>   - C) Spray the plant with soap<br>   - D) Give the pests food<br><br>10. Why is it important to take care of plants?<br>    - A) To make them sad<br>    - B) To make them grow<br>    - C) To make them change color<br>    - D) To keep them healthy"
-  ],
-  "pic": []
-},
-
-
-
-
-
-
-
-
 
 // Week 7
 // Lesson 1
@@ -1253,4 +1184,5 @@ const lessonPlans22a = [
   ],
   "pic": []
 }
+
 ];

@@ -1,6 +1,5 @@
 const lessonPlans23b = [
- 
-// Term 2
+
 // Week 2
 // Lesson 1
 {
@@ -82,11 +81,9 @@ const lessonPlans23b = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Classification of Animals</b>: Animals are classified into different groups based on similarities in their characteristics and evolutionary relationships. The main groups include mammals, birds, reptiles, amphibians, and fish.",
-      "<b>Mammals</b>: Mammals are warm-blooded animals that typically have fur or hair, give birth to live young, and nurse their offspring with milk. Examples include dogs, cats, and humans.",
-      "<b>Birds</b>: Birds are feathered, warm-blooded animals with wings and beaks. They lay hard-shelled eggs and are adapted for flight. Examples include eagles, sparrows, and penguins.",
-      "<b>Reptiles</b>: Reptiles are cold-blooded animals with scales or bony plates covering their bodies. They lay eggs on land and breathe air. Examples include snakes, turtles, and crocodiles.",
-      "<b>Amphibians</b>: Amphibians are cold-blooded animals that typically undergo metamorphosis from aquatic larvae to terrestrial adults. They have moist skin and lay eggs in water. Examples include frogs, toads, and salamanders.",
+      "<b>Classification of Animals</b>: Animals are classified into different groups based on similarities in their characteristics. The main groups include mammals, birds, reptiles, amphibians, and fish.",
+      "<b>Mammals</b>: Mammals are warm-blooded animals that typically have fur or hair, give birth to live young, and nurse their offspring with milk. Examples include dogs, cats, and humans.<br><br><b>Birds</b>: Birds are feathered, warm-blooded animals with wings and beaks. They lay hard-shelled eggs and are adapted for flight. Examples include eagles, sparrows, and penguins.",
+      "<b>Reptiles</b>: Reptiles are cold-blooded animals with scales or bony plates covering their bodies. They lay eggs on land and breathe air. Examples include snakes, turtles, and crocodiles.<br><br><b>Amphibians</b>: Amphibians are cold-blooded animals that typically undergo metamorphosis from aquatic larvae to terrestrial adults. They have moist skin and lay eggs in water. Examples include frogs, toads, and salamanders.",
       "<b>Fish</b>: Fish are cold-blooded animals with scales and fins. They live exclusively in water and breathe through gills. Examples include goldfish, trout, and sharks.",
       "<b>Group Discussion</b>:<br>1. How are animals classified?<br>2. Can you name some characteristics of mammals?<br>3. What makes birds different from other animal groups?<br>4. Why do reptiles need scales?<br>5. How are amphibians adapted to live both on land and in water?"
     ]
@@ -486,6 +483,616 @@ const lessonPlans23b = [
   ]
 },
 
+
+
+// Week 7
+// Lesson 1
+{
+  "title": "External Parts of the Body",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "External Parts of the Body",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students to identify the external parts of the body, understand their functions, and relate them to everyday activities.",
+  "materials": [
+    "Picture or model of the human body",
+    "Worksheets with pictures of body parts and functions",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Identify the main external parts of the human body.",
+    "Understand the basic function of each part.",
+    "Relate the parts to everyday activities and senses.",
+    "Engage in an activity to reinforce learning."
+  ],
+  "rationale": [
+    "Understanding the external parts of the body helps students appreciate their functions and develop habits for taking care of their bodies."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and activities to teach the topic in an engaging and interactive manner."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Begin with a class discussion by asking:<br>\"What can you see when you look at yourself in the mirror?\"<br>\"What do you use your hands, legs, or eyes for?\"<br><br>Show a large picture or a model of the human body highlighting external parts such as the head, arms, legs, hands, feet, etc.<br>Explain that these are called \"external parts\" because they are on the outside of our body and are visible.",
+      "<b>Part 2: Explanation of External Parts and Their Functions (15 minutes)</b>:<br><br>Go through the external parts one by one, describing their functions:<br>Head: The part that holds your brain and face. It helps you think, see, and speak.<br>Arms and Hands: Used for holding, writing, eating, and waving.<br>Legs and Feet: Help you stand, walk, run, and jump.<br>Eyes: Allow you to see the world around you.<br>Ears: Help you hear sounds.<br>Nose: Used for smelling and breathing.<br>Mouth: Used for speaking, eating, and smiling.<br>Skin: Covers the body, protects it, and helps you feel things.<br><br>Use simple examples to make the explanation relatable. For example, \"Your hands help you pick up your lunchbox.\"",
+      "<b>Part 3: Relating to Everyday Activities (10 minutes)</b>:<br><br>Ask students to relate external parts to what they do every day:<br>\"What do you use to write your homework?\"<br>\"How do you see your favorite cartoon?\"<br>\"Which part of your body helps you run during playtime?\"<br><br>Show pictures or videos of people doing activities (e.g., running, eating, listening to music) and ask students to identify the body parts used.",
+      "<b>Part 4: Importance of Taking Care of External Parts (10 minutes)</b>:<br><br>Explain why we should take care of our body parts:<br>\"Wash your hands to keep them clean.\"<br>\"Brush your teeth to keep your mouth healthy.\"<br>\"Wear shoes to protect your feet.\"<br><br>Encourage healthy habits, such as wearing sunglasses to protect the eyes and using lotion for skin.",
+      "<b>Part 5: Exercise: Matching and Drawing Activity (15 minutes)</b>:<br><br>Part 1: Hand out worksheets with pictures of body parts on one side and their functions on the other. Students will draw lines to match each part to its function.<br>Part 2: Ask students to draw a simple human figure and label at least 5 external parts.<br>Part 3: As a class, review the answers and discuss why each part is important."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ engagement during discussions and activities.",
+    "<b>Worksheet</b>: Matching body parts to their functions and labeling a human figure will assess understanding."
+  ],
+  "task": [
+    "Look at yourself in a mirror and identify all the external parts you learned in class.",
+    "Draw or write what you see and what each part does."
+  ],
+  "conclusion": [
+    "Recap the main points: 'External parts of the body are what we see on the outside. Each part has an important job.'",
+    "End with a fun question: 'Can you imagine what it would be like if we didn’t have hands or legs? How would we do things?'"
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Functions and Features of the Nose",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Thursday, January 25, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Functions and Features of the Nose",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson helps students understand the nose's functions and features, emphasizing its importance in the human body.",
+  "materials": [
+    "Diagrams of the nose",
+    "Handouts for labeling and matching activity",
+    "Markers/pens for students to label the diagram"
+  ],
+  "objectives": [
+    "Students will identify and describe the functions and features of the nose.",
+    "Students will understand the importance of the nose in the human body, particularly in breathing, smelling, and protecting the body."
+  ],
+  "rationale": [
+    "Understanding the nose's functions and features helps students appreciate its role in breathing, smelling, and protecting the body from harmful particles."
+  ],
+  "methodology": [
+    "The lesson will include discussions, demonstrations, and an interactive activity to help students understand the nose's structure and its various roles."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Nose</b>:<br><br>Class Discussion: Begin by asking the students what they know about the nose. What do we use it for? How does it help us? Guide the discussion towards the idea that the nose is not just for smelling but has other important jobs.<br><br>Features of the Nose:<br>Nostrils: The openings through which air enters and exits.<br>Nasal Passage: The space inside the nose where air travels.<br>Nose Hairs: Small hairs that trap dust and dirt from the air before it enters the lungs.<br>Septum: The part inside the nose that separates the two nostrils.",
+      "<b>Part 2: The Function of the Nose in Breathing</b>:<br><br>Breathing Through the Nose: Explain that the nose helps us breathe. Air enters through the nostrils and travels through the nasal passages to the lungs.<br><br>Benefits of Breathing Through the Nose:<br>The air is warmed and moistened before reaching the lungs.<br>The nose filters out dust, pollen, and germs using tiny hairs and mucus.<br>Breathing through the nose also helps us smell things better.",
+      "<b>Part 3: The Function of the Nose in Smelling</b>:<br><br>How We Smell: Explain that the nose helps us smell by detecting different odors. Inside the nose, there are special cells that send signals to the brain when they detect smells.<br><br>The Importance of Smell:<br>Discuss how smell helps us enjoy food, stay safe (e.g., detecting smoke or a bad smell), and remember things (smells can remind us of places or people).",
+      "<b>Part 4: The Nose's Role in Protecting the Body</b>:<br><br>Nose as a Protector: The nose helps protect our body by filtering out harmful particles like dust and germs before they reach the lungs. The nose hairs and mucus in the nasal passages trap these particles.<br><br>Cleansing Action: The mucus produced in the nose also helps trap dust, bacteria, and other harmful substances, preventing them from reaching deeper into the respiratory system.",
+      "<b>Part 5: Exercise</b>:<br><br>Activity: 'Parts of the Nose and Their Functions'<br>Instructions: Give students a handout or display a simple diagram of the nose. Ask them to label the parts of the nose (nostrils, nasal passage, septum, nose hairs) and match them to their functions. For example, the nostrils are where air enters, and the nose hairs filter dust.<br><br>Class Discussion: After the activity, go over the answers as a class. Encourage students to share what they learned about each part of the nose and its function.<br><br>Reflection: Ask the students to think about the different things they can smell and how the nose helps them with those experiences. Can they name something they smell right now? Why is the nose so important?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activity and class discussions to assess their understanding of the nose's functions and features.",
+    "<b>Exercise</b>: The labeling and matching activity will evaluate the students' grasp of the nose's parts and their functions."
+  ],
+  "conclusion": [
+    "By learning about the nose's features and functions, students will appreciate its vital role in breathing, smelling, and protecting the body from harmful particles."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Functions and Features of the Eyes",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Thursday, January 25, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Functions and Features of the Eyes",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand the functions and features of the eyes, focusing on the different parts of the eyes and their roles in vision.",
+  "materials": [
+    "Diagram of the human eye",
+    "Pictures of the eye's parts",
+    "Flashcards for the matching game"
+  ],
+  "objectives": [
+    "Students will understand the functions and features of the eyes.",
+    "Students will learn how the eyes help us see and understand the different parts of the eyes and their roles."
+  ],
+  "rationale": [
+    "Understanding the eye and its functions helps students appreciate the importance of sight and the role of the eyes in interacting with the world."
+  ],
+  "methodology": [
+    "The lesson will use diagrams, visual aids, discussions, and activities to engage students in learning about the parts of the eye and their functions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Eyes</b>:<br><br>Start by introducing the concept of the eye as the organ that helps us see. Show students a simple diagram of the human eye.<br><br>Key Points:<br>The eyes are organs that allow us to see the world around us.<br>Eyes work with the brain to create the images we see.<br>Without eyes, we wouldn’t be able to see or understand the environment around us.<br><br>Ask the class:<br>What do we use our eyes for?<br>Can anyone name the parts of the eyes?",
+      "<b>Part 2: Features of the Eyes</b>:<br><br>Explain the different parts of the eye and their functions. Use visual aids (such as a labeled diagram) to help the students understand.<br><br>Key Parts and Functions:<br>Cornea: The clear, protective outer layer that helps focus light entering the eye.<br>Pupil: The black circle in the center of the eye that changes size to let in light.<br>Iris: The colored part of the eye that controls the size of the pupil.",
+      "<b>Part 3: Functions of the Eyes</b>:<br><br>Now, explain how the eyes work to help us see and understand what is around us.<br><br>Key Functions:<br>The cornea and lens focus light that enters the eye.<br>The pupil adjusts in size to control how much light enters.<br>The brain then processes these signals so we can see and understand the environment.<br><br>Explain how both eyes work together to help us see things clearly and in 3D (depth perception).",
+      "<b>Part 4: How Eyes Help Us See</b>:<br><br>Now, explain how eyes work together to help us understand the world.<br><br>Key Points:<br>Eyes help us see color, shapes, and movement.<br>Our eyes allow us to see near and far objects, and even notice tiny details.<br>The eyes help us stay safe by allowing us to see danger (like cars coming or people approaching).<br>Discuss how we use our eyes for learning, reading, and playing.",
+      "<b>Part 5: Exercise</b>:<br><br><b>Activity:</b><br>Matching Game: Show pictures of the different parts of the eye (e.g., retina, lens, pupil, iris) and have the students match each part with its function. For example, a picture of the pupil and a description like 'This part controls how much light enters the eye.'<br><br>True or False Questions: Ask the students simple true or false questions like:<br>'The lens helps us see colors.' (False)<br>'The retina sends signals to the brain.' (True)<br><br><b>Class Discussion:</b><br>Ask students how they use their eyes every day and why it's important to take care of them.<br>Discuss habits that help protect eyes, like not staring at bright lights and wearing sunglasses in the sun."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and discussions.",
+    "<b>Exercise</b>: The matching game and true or false questions will evaluate the students' understanding of the parts and functions of the eyes."
+  ],
+  "conclusion": [
+    "By learning about the functions and features of the eyes, students will understand how eyes help us see and the importance of protecting them."
+  ]
+},
+
+// Week 3
+// Lesson 1
+{
+  "title": "The Mouth - Functions and Features",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, January 25, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Mouth: Its Functions and What is Found Inside",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson focuses on understanding the structure and functions of the mouth, identifying its parts, and explaining how it helps in eating, speaking, and breathing.",
+  "materials": [
+    "A model or diagram of the mouth",
+    "Pictures of the parts of the mouth (teeth, tongue, etc.)",
+    "A whiteboard or chart paper for illustrations"
+  ],
+  "objectives": [
+    "Understand the structure and functions of the mouth.",
+    "Identify the parts of the mouth and their roles.",
+    "Explain how the mouth helps in eating, speaking, and breathing."
+  ],
+  "rationale": [
+    "Learning about the mouth helps students understand its role in the digestive system, communication, and breathing, emphasizing its importance in daily life."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, interactive discussions, and exercises to ensure comprehension."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction</b>:<br><br>Begin with a discussion:<br>Ask the class: 'What do we use our mouth for?' (Expected answers: eating, talking, breathing, etc.).<br>Show a picture or model of the mouth.<br>Briefly explain that the mouth is an important part of our body that helps us in many ways.<br><br>Key Point to Teach:<br>The mouth is the opening on our face that we use to eat, talk, and breathe. It is the first part of our digestive system.",
+      "<b>Part 2: Functions of the Mouth</b>:<br><br>Explain the three main functions of the mouth:<br><br>1. Eating and Drinking:<br>The mouth helps us chew food with our teeth, mix it with saliva, and swallow. Chewing breaks down food into small pieces for easy digestion.<br><br>2. Speaking:<br>The mouth helps us produce sounds and words. The tongue, lips, and teeth work together to help us speak clearly.<br><br>3. Breathing:<br>The mouth can also help us breathe, especially when we have a stuffy nose.",
+      "<b>Part 3: What is Found Inside the Mouth</b>:<br><br>Discuss the different parts of the mouth and their roles:<br><br>1. Teeth:<br>Help us chew food. There are different types of teeth: incisors, canines, molars.<br><br>2. Tongue:<br>Helps us taste food (sweet, sour, salty, bitter). Moves food around in the mouth. Helps us speak clearly.<br><br>3. Saliva:<br>A watery liquid that helps soften food and makes it easier to swallow. Starts breaking down food during chewing.<br><br>4. Gums:<br>Hold the teeth in place.<br><br>5. Uvula:<br>The small piece of tissue at the back of the mouth that helps guide food when we swallow.",
+      "<b>Part 4: Care of the Mouth</b>:<br><br>Discuss simple ways to take care of the mouth:<br><br>1. Brush your teeth twice a day to keep them clean and healthy.<br>2. Eat healthy foods to make your teeth and gums strong.<br>3. Avoid eating too many sweets or sugary foods.<br>4. Visit the dentist regularly.",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions: Answer the following questions in your notebooks:<br><br>1. Name three functions of the mouth.<br>2. List three parts of the mouth and explain their roles.<br>3. What is saliva, and how does it help us?<br>4. Draw and label the parts of the mouth (teeth, tongue, gums).<br>5. Write two ways you can take care of your mouth.<br><br>Extension Activity:<br>Ask students to share why it is important to take care of their mouths."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussion and explanations.",
+    "<b>Exercise</b>: The notebook answers will evaluate students' understanding of the mouth's functions, parts, and care."
+  ],
+  "conclusion": [
+    "By learning about the mouth's structure, functions, and care, students will understand its importance in eating, speaking, and breathing, as well as maintaining oral hygiene."
+  ]
+},
+
+
+// Lesson 2
+{
+  "title": "The Ear - Its Functions and Parts",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Thursday, January 25, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Ear - Its Functions and Parts",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the parts of the ear, its functions, and the importance of hearing in daily life.",
+  "materials": [
+    "Diagram of the ear",
+    "Whiteboard and markers",
+    "Poster paper for the task"
+  ],
+  "objectives": [
+    "Students will be able to identify the parts of the ear.",
+    "Students will understand the functions of the ear.",
+    "Students will recognize the importance of hearing in daily life."
+  ],
+  "rationale": [
+    "Understanding the ear and its functions helps students appreciate the importance of hearing and how it impacts their daily activities."
+  ],
+  "methodology": [
+    "The lesson will involve direct explanation, a hands-on activity with labeling parts of the ear, and a group task to create a poster about the ear."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Ear</b>:<br><br>Begin by introducing the ear as one of the five senses, specifically for hearing. Explain that our ears help us listen to sounds around us, like music, talking, and nature sounds. Ask students to think of some sounds they hear every day (birds chirping, bells ringing, etc.).<br><br>Key Points:<br>The ear is the organ responsible for hearing.<br>It helps us listen to music, people speaking, and other sounds in our environment.",
+      "<b>Part 2: Parts of the Ear</b>:<br><br>Explain the three main parts of the ear:<br>Outer Ear (Pinna): The part we can see on the outside of our head. It collects sound from the environment and directs it into the ear canal.<br>Middle Ear (Ear Drum): The ear drum vibrates when sound waves hit it, and these vibrations are passed along to the inner ear.<br>Inner Ear (Cochlea): The cochlea contains tiny hair cells that turn the vibrations into electrical signals that are sent to the brain, where they are understood as sounds.<br><br>Use a diagram of the ear to point to each part as you explain.",
+      "<b>Part 3: Functions of the Ear</b>:<br><br>Explain the three key functions of the ear:<br>Hearing: The ear collects sound waves from the environment and converts them into signals that our brain can understand.<br>Balance: The inner ear also helps us keep our balance, which is why we can walk or stand without falling over.<br>Protection: The ear helps protect us from harmful sounds by warning us when sounds are too loud.",
+      "<b>Part 4: The Importance of the Ear</b>:<br><br>Discuss why it’s important to take care of our ears. Explain that loud noises, like those from concerts or fireworks, can hurt our ears. Remind students to avoid putting objects like cotton swabs into their ears, as this can also damage them. Encourage them to keep their ears clean and safe.",
+      "<b>Part 5: Exercise: Ear Parts and Functions Quiz</b>:<br><br>To test students' understanding, provide a simple quiz or activity that involves matching parts of the ear to their functions.<br><br>Exercise:<br>1. Label the Parts of the Ear<br>Draw a blank ear diagram on the board and ask the students to label the parts of the ear (Pinna, Ear Drum, Cochlea).<br>2. Match the Function<br>Write down the following functions and have the students match them to the correct part of the ear:<br>Collects Sound: Outer Ear (Pinna)<br>Converts Vibrations into Signals: Inner Ear (Cochlea)<br>Helps with Balance: Inner Ear<br>Vibrates with Sound: Middle Ear (Ear Drum)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and their ability to identify the parts of the ear.",
+    "<b>Exercise</b>: The quiz will assess students' understanding of the parts and functions of the ear."
+  ],
+  "conclusion": [
+    "By learning about the parts of the ear and its functions, students will understand how important hearing is in their daily lives and why it is essential to take care of our ears."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Major Internal Parts",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, January 24, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Major Internal Parts",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the major internal parts of the human body, including the brain, throat, lungs, stomach, intestines, and heart.",
+  "materials": [
+    "Pictures of human body organs",
+    "Whiteboard and markers",
+    "Diagrams of the human body"
+  ],
+  "objectives": [
+    "Students will learn about the major internal parts of the human body.",
+    "Students will understand the function of the brain, throat, lungs, stomach, intestines, and heart.",
+    "Students will be able to identify these internal parts and explain their functions."
+  ],
+  "rationale": [
+    "Understanding the internal parts of the human body helps students appreciate how their body works and how to take care of it."
+  ],
+  "methodology": [
+    "The lesson will include a combination of explanations, visual aids, and discussions to help students understand the functions of the internal body parts."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Brain</b>:<br><br>The brain is the control center of the body, responsible for thinking, memory, and controlling body functions. Discuss the importance of the brain in our daily activities, such as remembering things and making decisions.",
+      "<b>Part 2: Throat</b>:<br><br>The throat is a passage for air, food, and liquids, leading to the lungs and stomach. Explain how the throat helps in breathing and swallowing, and why it's essential for these processes to happen smoothly.",
+      "<b>Part 3: Lungs</b>:<br><br>The lungs are responsible for breathing and oxygenating the blood. Discuss the importance of oxygen in the body and how the lungs work to supply oxygen to the bloodstream for energy and health.",
+      "<b>Part 4: Stomach, Intestines, and Heart</b>:<br><br>The stomach digests food, the intestines absorb nutrients, and the heart pumps blood throughout the body. Explain how food is broken down in the stomach, how nutrients are absorbed in the intestines, and how the heart circulates blood to keep the body healthy.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is the brain responsible for?<br>2. What does the throat do in the body?<br>3. How do the lungs help the body?<br>4. What happens in the stomach during digestion?<br>5. What is the role of the intestines?<br>6. Why is the heart important to the body?<br>7. How does the brain help us think and remember things?<br>8. Why do we need oxygen from the lungs?<br>9. How does food travel through the body?<br>10. Why is it important to take care of our internal organs?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of the major internal parts and their functions."
+  ],
+  "conclusion": [
+    "By learning about the major internal parts of the body, students will understand how each part functions and the importance of taking care of them for overall health."
+  ]
+},
+
+// Week 4
+// Lesson 1
+{
+  "title": "The Functions of the Brain",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, January 24, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Functions of the Brain",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson explores the functions and parts of the brain, its role in thinking, feelings, movement, and senses, as well as how to take care of it.",
+  "materials": [
+    "Poster of the brain",
+    "Whiteboard and markers",
+    "Pencil and paper"
+  ],
+  "objectives": [
+    "Students will learn about the different parts of the brain and their functions.",
+    "Students will understand how the brain helps with thinking, feelings, movement, and senses.",
+    "Students will learn ways to take care of their brain."
+  ],
+  "rationale": [
+    "Understanding the brain's functions helps students appreciate its role in daily activities and emphasizes the importance of taking care of it."
+  ],
+  "methodology": [
+    "The lesson will include a combination of direct instruction, visual aids, and interactive exercises to ensure students understand the brain's functions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Brain</b>:<br><br>The brain is like a big boss inside your head. It helps you think, remember things, and control what your body does. It tells you when to move, talk, and even breathe! Without the brain, your body wouldn’t know what to do.",
+      "<b>Part 2: Parts of the Brain</b>:<br><br>The brain has three main parts:<br><br>The Cerebrum: This is the largest part of the brain. It helps you think, solve problems, and talk.<br>The Cerebellum: This part helps you keep your balance and move your body smoothly, like when you walk or ride a bike.<br>The Brainstem: This is like the brain’s control center. It helps with basic things like breathing, heartbeats, and sleeping.",
+      "<b>Part 3: What the Brain Does</b>:<br><br>Thinking: Your brain helps you learn new things and solve problems. If you're figuring out a puzzle or remembering your friend's name, it’s your brain working!<br>Feelings: The brain helps you feel emotions like happiness, sadness, and excitement.<br>Movement: The brain tells your muscles to move when you walk, run, or even wave your hand.<br>Senses: Your brain helps you see, hear, smell, taste, and touch by using signals from your eyes, ears, nose, mouth, and skin.",
+      "<b>Part 4: Taking Care of Your Brain</b>:<br><br>Just like you take care of your body, you need to take care of your brain too!<br>Eat healthy food: Foods like fruits, vegetables, and fish are good for your brain.<br>Sleep well: The brain needs rest to work properly. That’s why you need a good night’s sleep!<br>Exercise: Moving your body helps your brain work better.<br>Stay safe: Always wear a helmet when riding your bike to protect your brain!",
+      "<b>Part 5: Exercise (Brain Function Matching Game)</b>:<br><br>Instructions: Draw lines to match the function to the part of the brain that does it."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in the matching game and class discussion to ensure they understand the functions of the brain.",
+    "<b>Exercise</b>: The Brain Function Matching Game will assess the students' understanding of the parts of the brain and their roles."
+  ],
+  "conclusion": [
+    "By learning about the brain's functions, students will gain a better understanding of how their brain helps them in daily activities and the importance of taking care of it."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "The Functions of the Throat",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, January 24, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Functions of the Throat",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the functions of the throat, focusing on breathing, talking, and swallowing.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of the throat and its parts"
+  ],
+  "objectives": [
+    "Students will learn that the throat helps us breathe, talk, and swallow.",
+    "Students will understand how the throat functions in breathing, talking, and swallowing.",
+    "Students will be able to demonstrate the functions of the throat through activities."
+  ],
+  "rationale": [
+    "Understanding the functions of the throat helps students appreciate how their body works and encourages them to take care of their health."
+  ],
+  "methodology": [
+    "The lesson will use explanations, demonstrations, and exercises to teach the students about the functions of the throat."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Throat</b>:<br><br>The throat is a special part inside your neck. It helps us do three important things:<br><br>1. Breathing: Air goes through your nose or mouth and into your throat so you can breathe.<br><br>2. Talking: Your throat helps you make sounds when you speak. It has a part called the voice box (larynx) that makes sounds.<br><br>3. Swallowing: When you eat or drink, your throat helps move the food or drink from your mouth to your stomach.",
+      "<b>Part 2: Breathing with the Throat</b>:<br><br>When we breathe, air enters through our nose or mouth, travels down the throat, and then into our lungs. The throat is like a tunnel that carries the air to the lungs so our body gets the oxygen it needs.<br><br><b>Example:</b> Try breathing in deeply through your nose, hold for a moment, and then breathe out through your mouth. Feel the air passing through your throat!",
+      "<b>Part 3: Talking with the Throat</b>:<br><br>The voice box inside our throat helps us speak. When air passes through it, it makes sound. Our tongue and lips help shape the sound into words. That’s how we talk to each other!<br><br><b>Example:</b> Try humming and feel your throat vibrating. That’s your voice box working!",
+      "<b>Part 4: Swallowing with the Throat</b>:<br><br>When we eat or drink, we chew the food, and then we swallow it. The throat helps push the food down to the stomach. If food goes the wrong way, it can make us cough or choke.<br><br><b>Example:</b> Take a small sip of water and feel your throat working to send the water down to your stomach!",
+      "<b>Part 5: Exercise: Throat Functions Activity</b>:<br><br><b>1. Breathing Exercise:</b> Breathe in deeply through your nose and then out through your mouth. Do this five times.<br>Question: Where does the air go after you breathe it in? (Answer: Through your throat into your lungs.)<br><br><b>2. Talking Activity:</b> Say “hello” out loud, and try to feel your throat vibrate.<br>Question: What part of your body helps you talk? (Answer: The throat/voice box.)<br><br><b>3. Swallowing Exercise:</b> Pretend to eat a bite of food. Then, act like you are swallowing and feel your throat move.<br>Question: What happens to the food when you swallow it? (Answer: It goes down the throat to the stomach.)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students' participation during the exercises and their ability to explain the functions of the throat.",
+    "<b>Exercise:</b> The activity questions will assess students' understanding of how the throat helps with breathing, talking, and swallowing."
+  ],
+  "conclusion": [
+    "The throat is very important because it helps us breathe, talk, and swallow. We should take care of our throat by drinking plenty of water, eating healthy foods, and not shouting too much!"
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Functions of the Lungs",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Functions of the Lungs",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "By the end of the lesson, students will understand the role of the lungs in the body, how they work, and why they are important.",
+  "materials": [
+    "Picture or diagram of the lungs",
+    "Balloons",
+    "Worksheet for labeling lungs"
+  ],
+  "objectives": [
+    "Students will learn about the role of lungs in breathing and why they are essential.",
+    "Students will understand how lungs help with oxygen and carbon dioxide exchange.",
+    "Students will identify ways to keep their lungs healthy."
+  ],
+  "rationale": [
+    "Understanding the functions of the lungs is crucial for students to appreciate their body's vital processes and learn habits for healthy living."
+  ],
+  "methodology": [
+    "The lesson will use diagrams, discussions, and hands-on activities to explain the functions and importance of the lungs."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (What Are Lungs?)</b>:<br><br>Begin by asking students:<br>“What do you think happens when we breathe?”<br><br>Explain that lungs are two spongy organs inside our chest.<br>Show a picture or a simple diagram of the lungs and explain their location (inside the ribcage).<br><br><b>Key Points:</b><br>Lungs help us breathe in oxygen and breathe out carbon dioxide.<br>Breathing is something our body does without us thinking about it.",
+      "<b>Part 2: How Do Lungs Work?</b>:<br><br>Demonstrate breathing by asking students to take a deep breath and notice their chest moving.<br><br><b>Explain the process of breathing:</b><br>When we breathe in, our lungs fill with air that contains oxygen.<br>Oxygen is sent to the blood, which takes it to the rest of the body.<br>When we breathe out, our lungs remove a gas called carbon dioxide.<br><br><b>Activity:</b> Use a balloon to show how lungs expand (inflate) and contract (deflate).",
+      "<b>Part 3: Why Are Lungs Important?</b>:<br><br>Explain the importance of oxygen:<br>Our body needs oxygen to stay alive and work properly.<br>Lungs make sure we get the oxygen we need and remove the waste (carbon dioxide).<br><br>Link the lungs to physical activities like running or playing:<br>“Have you ever felt like you’re breathing faster when you run? That’s because your body needs more oxygen!”",
+      "<b>Part 4: How Can We Keep Our Lungs Healthy?</b>:<br><br>Discuss habits that keep lungs healthy:<br>- Avoid smoking and being around smoke.<br>- Exercise regularly to make lungs stronger.<br>- Breathe fresh air and avoid polluted areas.<br><br>Encourage students to take care of their lungs by staying active and eating healthy.",
+      "<b>Part 5: Exercise (Activity)</b>:<br><br><b>Task 1: Label the Lungs</b>: Provide a worksheet with a simple diagram of the lungs. Students will label parts like the trachea, lungs, and diaphragm.<br><br><b>Task 2: Breathing Practice</b>: Ask students to sit quietly, close their eyes, and practice deep breathing:<br>Breathe in for 4 seconds, hold for 4 seconds, and breathe out for 4 seconds.<br><br><b>Task 3: Write a Sentence</b>: Ask students to write one sentence about why lungs are important.<br><br><b>Extension:</b> Let students share what they learned about lungs with the class."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in activities and discussions.",
+    "<b>Worksheet</b>: Evaluate students’ ability to correctly label the parts of the lungs.",
+    "<b>Writing Task</b>: Assess the students’ understanding through their sentences about the importance of lungs."
+  ],
+  "conclusion": [
+    "Recap the main points:<br>Lungs help us breathe.<br>They give us oxygen and remove waste.<br>We need to take care of our lungs.<br><br>End the lesson with a quick Q&A session to check for understanding."
+  ]
+},
+
+// Week 5
+// Lesson 1
+{
+  "title": "Functions of the Stomach",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Functions of the Stomach",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the stomach as an organ in the digestive system, focusing on its functions, role in digestion, and its importance for the body.",
+  "materials": [
+    "Diagram or model of the digestive system",
+    "Whiteboard and markers",
+    "Video or animation about digestion",
+    "Interactive worksheets"
+  ],
+  "objectives": [
+    "Students will identify the stomach as an organ in the digestive system.",
+    "Students will understand the basic functions of the stomach.",
+    "Students will explain the role of the stomach in breaking down food.",
+    "Students will demonstrate understanding through an interactive exercise."
+  ],
+  "rationale": [
+    "Learning about the stomach and its functions helps students understand the digestive system and its importance in turning food into energy for the body."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, discussions, activities, and worksheets to explain the functions of the stomach."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>What is the Stomach?<br>Begin by showing a diagram or model of the digestive system and point out the stomach.<br>Explain that the stomach is a hollow, muscular organ located between the esophagus and the intestines.<br>Use simple language to describe its shape as 'like a pouch' or 'a small sack that holds food.'<br><br>Class Discussion:<br>Ask students what they think happens to the food they eat after swallowing it.<br>Introduce the idea that the stomach plays a big role in turning food into energy for the body.",
+      "<b>Part 2: How the Stomach Works (15 minutes)</b>:<br><br>Functions of the Stomach – Breaking Down Food:<br>Explain that the stomach has two main jobs:<br>1. Mixing food: The stomach muscles squeeze and churn the food to break it into smaller pieces.<br>2. Adding stomach juices: The stomach makes special juices called acid and enzymes, which help dissolve food into a paste called chyme.<br><br>Use a simple analogy: The stomach is like a washing machine, mixing everything inside to make it ready for the next step.<br><br>Visual Aid:<br>Show a video or animation of how food moves from the mouth to the stomach and how the stomach churns the food.",
+      "<b>Part 3: Protecting the Body and Moving Food (10 minutes)</b>:<br><br>Stomach's Other Important Roles:<br>Killing germs: Explain that the acid in the stomach helps kill bacteria and germs in the food, keeping us safe.<br>Passing food along: The stomach sends the soft food paste to the small intestine, where the body takes the nutrients it needs.<br><br>Quick Fact:<br>Tell students that a stomach can hold about 1 liter of food and liquid!<br>Compare it to something familiar, like a water bottle.<br><br>Activity:<br>Ask students to act out the stomach’s functions: pretend to mix food by rubbing their hands together, and imagine passing it along to the intestines.",
+      "<b>Part 4: Fun Facts and Recap (10 minutes)</b>:<br><br>Fun and Recap:<br>Share a fun fact: Did you know that your stomach growls when it’s empty because it’s squeezing and making noise?<br><br>Recap the functions:<br>1. Mixing food.<br>2. Adding juices to break it down.<br>3. Killing germs.<br>4. Passing food to the small intestine.<br><br>Q&A Session:<br>Allow students to ask questions about the stomach.<br>Reinforce understanding by asking questions like:<br>What does the stomach do with food?<br>Why does the stomach add acid?",
+      "<b>Part 5: Exercise (15 minutes)</b>:<br><br>Interactive Worksheet:<br>Distribute a worksheet with the following activities:<br>1. Label the stomach on a diagram of the digestive system.<br>2. Match the stomach function to its description:<br>Mixing food.<br>Adding juices.<br>Passing food.<br>Killing germs.<br>3. Fill in the blanks:<br>The stomach turns food into a paste called ______.<br>The stomach uses ______ to kill germs.<br>4. Draw and explain:<br>Draw a picture of your stomach. Write one sentence about what it does.<br>5. Group Activity (Optional):<br>In small groups, discuss what might happen if the stomach didn’t work properly."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Worksheets</b>: Review the completed worksheets to evaluate students' understanding of the stomach's functions."
+  ],
+  "conclusion": [
+    "Students will gain a clear understanding of the stomach's role in digestion, including mixing food, breaking it down with juices, killing germs, and passing food to the small intestine."
+  ]
+},
+
+
+// Lesson 2
+{
+  "title": "Functions of the Intestines",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Thursday, January 25, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Functions of the Intestines",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson explains the basic functions of the intestines, including digestion, nutrient absorption, and waste removal. It also helps students identify the parts of the intestines and understand their importance in the digestive system.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of the digestive system",
+    "Diagram of the intestines"
+  ],
+  "objectives": [
+    "Students will be able to explain the basic functions of the intestines.",
+    "Students will identify the small intestine and large intestine and understand their roles in the digestive system.",
+    "Students will understand how food is processed in the intestines, including digestion, nutrient absorption, and waste removal."
+  ],
+  "rationale": [
+    "Understanding the functions of the intestines helps students appreciate how their body processes food and absorbs nutrients essential for growth and health."
+  ],
+  "methodology": [
+    "The lesson will involve a combination of direct explanation, class discussion, and visual aids such as diagrams and pictures of the digestive system."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Intestines</b>:<br><br>What Are the Intestines?<br>The intestines are part of the digestive system in our body. There are two main parts: the small intestine and the large intestine.<br><br>Small Intestine: The long, coiled tube where most digestion and absorption of food happen.<br>Large Intestine: The wider tube where water is absorbed and waste is prepared to leave the body.<br><br>Why Do We Need the Intestines?<br>The intestines help process the food we eat and give our bodies the nutrients it needs to grow and stay healthy.",
+      "<b>Part 2: Function of the Small Intestine</b>:<br><br>Digestion:<br>After food leaves the stomach, it enters the small intestine. In the small intestine, food is broken down further by digestive juices, and nutrients like vitamins, minerals, and sugars are absorbed by tiny hair-like structures called villi.<br><br>Nutrient Absorption:<br>The villi help the body absorb the nutrients from food into the bloodstream. These nutrients are then carried to different parts of the body where they are used for energy, growth, and repair.",
+      "<b>Part 3: Function of the Large Intestine</b>:<br><br>Absorption of Water:<br>Once the small intestine has absorbed most of the nutrients, the leftover food moves into the large intestine. Here, the large intestine absorbs most of the water from the remaining food.<br><br>Waste Formation:<br>The remaining waste, which now becomes solid, is then moved into the rectum and later leaves the body through the anus.",
+      "<b>Part 4: Summary and Diagram</b>:<br><br>Diagram of the Digestive System:<br>Draw a simple diagram of the digestive system on the board. Label the mouth, stomach, small intestine, and large intestine. Show how food moves from one part to another and highlight the absorption of nutrients in the small intestine and the removal of waste in the large intestine.",
+      "<b>Part 5: Exercise: Intestines Quiz</b>:<br><br>Instructions:<br>Ask the students to answer the following questions based on what they learned in the lesson.<br><br>1. True or False: The small intestine is where most of the digestion and absorption of food happens. (True)<br>2. Fill in the blank: The large intestine absorbs _______ from the food that is left over. (water)<br>3. Multiple Choice: What part of the intestine helps absorb nutrients from food?<br>a) Large intestine<br>b) Small intestine<br>c) Stomach (Correct answer: b)<br>4. Matching: Match the intestine with its function.<br>a) Small intestine - _______<br>b) Large intestine - _______<br>1. Absorbs nutrients<br>2. Absorbs water and forms waste (Correct answer: a) 1, b) 2)<br>5. Draw and Label: Draw a simple picture of the digestive system and label the small intestine and large intestine."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the class discussion and quiz.",
+    "<b>Exercise</b>: The quiz will help assess students' understanding of the functions of the intestines."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will understand the roles of the small and large intestines in the digestive process and how they contribute to digestion, nutrient absorption, and waste removal."
+  ]
+},
+
+// Week 5
+// Lesson 1
+{
+  "title": "Functions of the Heart",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Thursday, January 25, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Functions of the Heart",
+  "grade": "Cloud Chicks",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand the heart's functions and its vital role in maintaining the body's health by pumping blood.",
+  "materials": [
+    "Heart diagram",
+    "Animation or video of blood flow through the heart",
+    "Pictures of body parts (brain, lungs, muscles, stomach, etc.)"
+  ],
+  "objectives": [
+    "Students will identify the heart’s functions and understand how it helps the body.",
+    "Students will understand the importance of the heart in maintaining health.",
+    "Students will learn ways to keep the heart healthy through lifestyle choices."
+  ],
+  "rationale": [
+    "Understanding the functions of the heart is crucial for students to learn about human anatomy and the importance of cardiovascular health."
+  ],
+  "methodology": [
+    "The lesson will use diagrams, videos, discussions, and hands-on activities to reinforce the functions of the heart."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Heart</b>:<br><br>Ask students if they know where the heart is and what it does. Discuss the importance of the heart.<br><br>Show a simple diagram of the heart.<br>Explain that the heart is a muscle that pumps blood to different parts of the body.",
+      "<b>Part 2: The Functions of the Heart</b>:<br><br>Explain how the heart has specific jobs, such as:<br>Pumping oxygen-rich blood: Blood that carries oxygen travels from the lungs to the heart and is pumped out to the body.<br>Pumping nutrients: Blood carries nutrients like food and water to different parts of the body.<br>Removing waste: The heart helps remove waste like carbon dioxide from the body by pumping it to the lungs.<br><br>Show a simple animation or video that shows the blood flow through the heart, highlighting how oxygen and nutrients travel.",
+      "<b>Part 3: The Importance of the Heart in Everyday Life</b>:<br><br>Ask the students to notice their heartbeat after running or jumping. Explain that the heart works faster when we are active because our body needs more oxygen and nutrients.<br><br>Discuss how the heart keeps us alive by continuously pumping blood to the brain, muscles, and other organs.<br><br>Key Points to Cover:<br>The heart helps us stay alive by circulating blood.<br>It also helps regulate body temperature and provides energy for different body functions.",
+      "<b>Part 4: How to Keep the Heart Healthy</b>:<br><br>Discuss ways to keep the heart healthy. Ask students about activities they think are good for the heart.<br><br>Key Points to Cover:<br>Eating healthy foods like fruits and vegetables.<br>Getting enough exercise, like running, playing, and swimming.<br>Avoiding things that are bad for the heart, like too much junk food.<br>Getting enough sleep.<br><br>Have the students pretend to be the heart by moving their arms in a rhythm that mimics the heartbeat.",
+      "<b>Part 5: Exercise/Activity: Heart Function Matching Game</b>:<br><br>Materials Needed:<br>Pictures or drawings of different body parts (brain, lungs, muscles, stomach, etc.)<br>A picture of the heart.<br><br>Instructions:<br>Place the heart picture in the center of the room.<br>Give each student a picture of a body part (brain, lungs, muscles, stomach, etc.).<br>Have students walk up and place their body part next to the heart, explaining how the heart helps that organ (e.g., \"The heart sends oxygen to the lungs,\" or \"The heart sends nutrients to the muscles\")."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the class discussions and activities.",
+    "<b>Exercise</b>: The heart function matching game will assess students' understanding of how the heart works with different body parts."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand the heart's essential role in the body and learn how to maintain a healthy heart."
+  ]
+},
+
+// Lesson 2
+
+
+// Lesson 3
+
+
+/*
 // Week 7
 // Lesson 1
 {
@@ -1038,5 +1645,5 @@ const lessonPlans23b = [
   ],
   "pic": []
 }
-
+*/
 ];

@@ -4,6 +4,3 @@ const lessonPlans27b = [
 	
 	
 ];
-
-
-
