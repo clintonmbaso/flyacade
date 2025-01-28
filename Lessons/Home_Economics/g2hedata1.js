@@ -1,0 +1,6 @@
+const lessonPlans47a = [
+
+	
+	
+	
+];
