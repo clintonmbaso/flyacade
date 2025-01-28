@@ -100,11 +100,12 @@ function searchLessonPlans(event) {
     
     ...lessonPlans61a, /*...lessonPlans61b, ...lessonPlans61c,
     */
-        ...lessonPlans62a, 
-/*        ...lessonPlans63, 
+    ...lessonPlans62a, 
+    ...lessonPlans63a, 
      
-     ...lessonPlans64, ...lessonPlans65, 
-    ...lessonPlans66,*/
+    ...lessonPlans64a, 
+    ...lessonPlans65a,
+    ...lessonPlans66a,
     
     ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c, 
     ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, 
