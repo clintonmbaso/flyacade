@@ -207,10 +207,10 @@ const lessonPlans27a = [
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Understanding Features of Pregnancy",
-  "grade": "Nestlings Navigators",
+  "grade": "Nimbus Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "5",
+  "lessonNumber": "1",
   "description": "This lesson introduces students to the features of pregnancy, focusing on physical, hormonal, and emotional changes experienced during this period.",
   "materials": [
     "Charts showing pregnancy stages",
@@ -254,12 +254,12 @@ const lessonPlans27a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, January 22, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Health Education",
+  "subject": "Science",
   "topic": "Understanding Pregnancy Signs and Symptoms",
-  "grade": "Nestlings Navigators",
+  "grade": "Nimbus Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "1",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to the signs and symptoms of pregnancy, focusing on changes in the body and feelings during early pregnancy.",
   "materials": [
     "Illustrations of pregnant women",
@@ -299,6 +299,3 @@ const lessonPlans27a = [
 	
 	
 ];
-
-
-
