@@ -66,7 +66,7 @@ function searchLessonPlans(event) {
     ...lessonPlans34a, ...lessonPlans34b, ...lessonPlans34c, 
     ...lessonPlans35a, ...lessonPlans35b, ...lessonPlans35c,
     
-    /* ...lessonPlans36a,  ...lessonPlans36b, ...lessonPlan36c,*/
+    ...lessonPlans36a,  /*...lessonPlans36b, ...lessonPlan36c,*/
      
      
      ...lessonPlans37a, ...lessonPlans37b, ...lessonPlans37c, 
@@ -133,7 +133,8 @@ const teacherNames = {
     "Wing Whiz": "Ms. Faith Nakaonga",
     "Sky Soarers": "Mr. Muteba Masheka",
     "Avian Aces": "Mr. Muteba Masheka",
-    "Nimbus Navigators": "Mr. Clinton Mbaso",
+    "Nimbus Navigators": "Mr. Clinton Mbaso"
+,
     "All Classes": "All Teachers"
 };
 
