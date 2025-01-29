@@ -54,6 +54,59 @@ const lessonPlans60a = [
 },
 
 // Lesson 2
+{
+  "title": "Understanding Contractions",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Literacy",
+  "topic": "Understanding Contractions",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "2",
+  "description": "By the end of the lesson, students will be able to understand what contractions are, identify common contractions and their full forms, form contractions using apostrophes correctly, and apply contractions in sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with contractions",
+    "Worksheets for practice"
+  ],
+  "objectives": [
+    "Understand what contractions are and why they are used.",
+    "Identify common contractions and their full forms.",
+    "Form contractions using apostrophes correctly.",
+    "Apply contractions in sentences."
+  ],
+  "rationale": [
+    "Contractions make speech and writing more natural and efficient. Understanding contractions helps students improve their reading and writing fluency."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, discussions, and exercises to reinforce understanding of contractions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Contractions</b>:<br><br>(What are Contractions?)<br>Begin by asking students if they have ever heard words like 'don’t,' 'I’m,' or 'it’s.'<br><br>Explain that contractions are shortened forms of two words combined into one, using an apostrophe (') to replace the missing letters.<br><br>Give a simple example:<br>Do not → Don’t<br>I am → I’m<br>It is → It’s<br><br>Discuss why contractions are used:<br>They make speech and writing faster and more natural.<br>They are common in spoken English and casual writing.",
+      "<b>Part 2: Forming Contractions</b>:<br><br>(How are Contractions Made?)<br>Explain that contractions are formed by removing one or more letters from two words and replacing the missing letters with an apostrophe.<br><br>Show a list of common contractions:<br>Write a few sentences on the board and have students identify the contractions.",
+      "<b>Part 3: Using Contractions in Sentences</b>:<br><br>(Why Do We Use Contractions?)<br>Explain that contractions are used in casual conversations and informal writing.<br><br>Give example sentences:<br>Without contractions: I am going to the park because it is a sunny day.<br>With contractions: I'm going to the park because it's a sunny day.<br><br>Have students read both versions and discuss which one sounds more natural.<br>Provide some sentences without contractions and ask students to rewrite them using contractions.",
+      "<b>Part 4: Common Mistakes & Apostrophe Placement</b>:<br><br>(Where Does the Apostrophe Go?)<br>Explain that the apostrophe only replaces the missing letters and should not be placed randomly.<br><br>Show examples of incorrect vs. correct usage:<br>Incorrect: Do'nt<br>Correct: Don't<br>Incorrect: She'is<br>Correct: She's<br><br>Discuss tricky contractions like won’t (will not) and can’t (cannot), explaining that some contractions change spelling slightly.",
+      "<b>Part 5: Exercise – Let’s Practice!</b>:<br><br>Activity 1: Match the Contractions<br>Provide a worksheet where students match contractions to their full forms.<br><br>Activity 2: Fill in the Blanks<br>Give sentences with missing contractions and ask students to fill them in.<br><br>Example:<br>1. It ___ (is) a beautiful day outside.<br>2. We ___ (are) going to the zoo tomorrow.<br>3. She ___ (does not) like scary movies.<br><br>Activity 3: Sentence Writing<br>Ask students to write five sentences using contractions correctly."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and exercises.",
+    "<b>Exercise</b>: The completion of worksheets and correct usage of contractions in sentences will be assessed."
+  ],
+  "conclusion": [
+    "Review what contractions are and why they are important.",
+    "Ask students to give examples of contractions they learned.",
+    "End the lesson with a fun 'Contractions Song' or a quick game where students say the full form and their classmates say the contraction."
+  ]
+},
+
+// Lesson 3
+
 
 	
 	
