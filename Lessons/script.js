@@ -95,9 +95,9 @@ function searchLessonPlans(event) {
     ...lessonPlans56a, ...lessonPlans56b, ...lessonPlans56c,
     ...lessonPlans57a, ...lessonPlans57b, ...lessonPlans57c,
     ...lessonPlans58a, 
-    ...lessonPlans59a,
+    ...lessonPlans59a*/
     ...lessonPlans60a,
-    */
+    
     ...lessonPlans61a, ...lessonPlans61b, ...lessonPlans61c,
     ...lessonPlans62a, 
     ...lessonPlans63a,
