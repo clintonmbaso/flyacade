@@ -86,7 +86,7 @@ function searchLessonPlans(event) {
     ...lessonPlans49a,
     
     ...lessonPlans50a, ...lessonPlans50b, ...lessonPlans50c,
-    *
+    */
     ...lessonPlans51a, 
     /*...lessonPlans52, ...lessonPlans53, 
      ...lessonPlans54,*/
@@ -96,17 +96,17 @@ function searchLessonPlans(event) {
     ...lessonPlans57a, ...lessonPlans57b, ...lessonPlans57c,
     
     /*...lessonPlans58, 
-     ...lessonPlans59, 
-    ...lessonPlans60, *
+     ...lessonPlans59, */
+    ...lessonPlans60a,
     
     ...lessonPlans61a, ...lessonPlans61b, ...lessonPlans61c,
     /*
-    ...lessonPlans62a, *
+    ...lessonPlans62a, */
     ...lessonPlans63a,
     ...lessonPlans64a, 
     ...lessonPlans65a,
     ...lessonPlans66a,
-    */
+    
     ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c, 
     ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, 
     ...lessonPlans68b, 
@@ -149,8 +149,7 @@ const teacherNames = {
     "Wing Whiz": "Ms. Faith Nakaonga",
     "Sky Soarers": "Mr. Muteba Masheka",
     "Avian Aces": "Mr. Muteba Masheka",
-    "Nimbus Navigators": "Mr. Clinton Mbaso"
-,
+    "Nimbus Navigators": "Mr. Clinton Mbaso",
     "All Classes": "All Teachers"
 };
 
@@ -159,6 +158,7 @@ const tczNumbers = {
     "Mrs. Loveness Muwila": "FS20BC0003",
     "Mrs. Kuligwa Siazyana": "FS20BC0012",
     "Ms. Faith Nakaonga": "FS20BC0011",
+    "Mr. Clinton Mbaso": "19/09/0904/021725",    
     "All Teachers": "FS20BC1111",
     "Mr. Muteba Masheka": "FS20BC0013"
 };
