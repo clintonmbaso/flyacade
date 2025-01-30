@@ -109,7 +109,7 @@ function searchLessonPlans(event) {
     ...lessonPlans66a,
     
     */
-    ...lessonPlans67a, /*...lessonPlans67b, ...lessonPlans67c, */
+    ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c,
  /*   ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, 
     ...lessonPlans68b, 
     ...lessonPlans69b,
