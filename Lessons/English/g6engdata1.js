@@ -58,7 +58,7 @@ const lessonPlans18a = [
   "tcz": "19/09/0904/021725",
   "subject": "English",
   "topic": "Understanding Imperative and Exclamatory Sentences",
-  "grade": "Avian Aces",
+  "grade": "Nimbus Navigators",
   "term": "1",
   "week": "2",
   "lessonNumber": "2",
