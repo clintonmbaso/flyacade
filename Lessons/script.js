@@ -101,9 +101,9 @@ function searchLessonPlans(event) {
     ...lessonPlans61a, ...lessonPlans61b, ...lessonPlans61c,
     
     ...lessonPlans62a, 
-    */
+    
     ...lessonPlans63a,
-    /*
+    
     ...lessonPlans64a, 
     ...lessonPlans65a,
     ...lessonPlans66a,
