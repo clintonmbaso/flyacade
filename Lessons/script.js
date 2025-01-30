@@ -130,9 +130,9 @@ function searchLessonPlans(event) {
     ...lessonPlans78a, ...lessonPlans78b, ...lessonPlans78c,
     /*
     ...lessonPlans79a,
-    
-    ...lessonPlans80a, ...lessonPlans80b, ...lessonPlans80c,
     */
+    ...lessonPlans80a, ...lessonPlans80b, ...lessonPlans80c,
+    
     ];
      
      
