@@ -263,7 +263,60 @@ const lessonPlans60a = [
 },
 
 // Lesson 3
-
+{
+  "title": "Using Synonyms and Antonyms in Everyday Life",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Literacy",
+  "topic": "Using Synonyms and Antonyms in Everyday Life",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand the meanings of synonyms and antonyms, identify them in sentences, and use them correctly in writing and speech to enhance their vocabulary.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with synonyms and antonyms",
+    "Worksheets with exercises",
+    "Printed word lists"
+  ],
+  "objectives": [
+    "Understand the meanings of synonyms and antonyms.",
+    "Identify synonyms and antonyms in sentences.",
+    "Use synonyms and antonyms correctly in writing and speech.",
+    "Enhance their vocabulary by learning different word choices."
+  ],
+  "rationale": [
+    "Learning synonyms and antonyms helps students expand their vocabulary and improve their writing and speaking skills.",
+    "Understanding synonyms allows students to express ideas more effectively and avoid repetition.",
+    "Recognizing antonyms helps in making comparisons and understanding differences in meanings."
+  ],
+  "methodology": [
+    "The lesson will use discussions, examples, group activities, and creative writing exercises to help students grasp the concepts of synonyms and antonyms."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Synonyms and Antonyms</b>:<br><br>1. Begin with a class discussion:<br>Ask students if they know words that mean the same thing as 'happy.' Write their answers on the board (e.g., joyful, cheerful, glad).<br>Ask if they know words that mean the opposite of 'happy' (e.g., sad, miserable, upset).<br><br>2. Define the terms:<br>Synonyms are words that have the same or similar meanings. Example: big – large, tiny – small.<br>Antonyms are words that have opposite meanings. Example: hot – cold, up – down.<br><br>3. Give examples:<br>Show a list of words with their synonyms and antonyms.<br>Ask students to come up with more words and their synonyms/antonyms.",
+      "<b>Part 2: The Importance of Synonyms and Antonyms in Everyday Life</b>:<br><br>1. Why do we use synonyms?<br>To make our speech and writing more interesting.<br>To avoid repeating the same words.<br>To express ourselves better.<br>Example: Instead of saying, 'The cake is good,' we can say, 'The cake is delicious.'<br><br>2. Why do we use antonyms?<br>To describe differences and contrasts in ideas.<br>To make comparisons.<br>Example: 'The morning was cold, but the afternoon was warm.'",
+      "<b>Part 3: Using Synonyms and Antonyms in Sentences</b>:<br><br>1. Practice with synonyms:<br>Give students simple sentences and ask them to replace a word with a synonym.<br>Example:<br>Original: The little boy was happy.<br>Synonym: The small boy was joyful.<br><br>2. Practice with antonyms:<br>Give students sentences where they replace a word with its opposite.<br>Example:<br>Original: The weather is hot.<br>Antonym: The weather is cold.<br><br>3. Group Activity:<br>Divide the class into two groups. One group finds synonyms for given words, and the other finds antonyms.<br>Have students read their words aloud.",
+      "<b>Part 4: Real-Life Examples & Creative Writing</b>:<br><br>1. Reading examples:<br>Read a short paragraph and identify synonyms and antonyms in the text.<br><br>2. Writing activity:<br>Ask students to write a short paragraph about their day using at least 2 synonyms and 2 antonyms.<br>Example: Today, I woke up feeling happy. I quickly got dressed and ate a big breakfast. The sun was bright, but the wind was cool. I had a fun day at school.",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>1. Match the synonym:<br>Happy → (a) joyful (b) sad<br>Big → (a) huge (b) small<br>Fast → (a) quick (b) slow<br><br>2. Match the antonym:<br>Dark → (a) bright (b) shadow<br>High → (a) up (b) low<br>Soft → (a) smooth (b) rough<br><br>3. Fill in the blanks with a synonym or antonym:<br>The dog was very _______ (synonym for large).<br>My shoes are clean, but yours are _______ (antonym for clean).<br><br>4. Write a short story (5-6 sentences) using at least two synonyms and two antonyms."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and group activities.",
+    "<b>Exercise</b>: The matching and fill-in-the-blank activities will assess students' understanding of synonyms and antonyms.",
+    "<b>Creative Writing</b>: The short paragraph exercise will evaluate students’ ability to use synonyms and antonyms correctly in writing."
+  ],
+  "conclusion": [
+    "Review the importance of synonyms and antonyms in everyday life.",
+    "Encourage students to use new words in their writing and conversations.",
+    "Give students a list of words to practice with at home."
+  ]
+},
 
 // Week 4
 // Lesson 1
@@ -373,12 +426,60 @@ const lessonPlans60a = [
 },
 
 // Lesson 3
-
+{
+  "title": "Root Words with Prefixes and Suffixes",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Literacy",
+  "topic": "Root Words with Prefixes and Suffixes",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concept of root words, prefixes, and suffixes. Students will learn how these elements change the meaning of words and how to use them in sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheet with exercises on prefixes and suffixes"
+  ],
+  "objectives": [
+    "Understand the meaning of root words, prefixes, and suffixes.",
+    "Identify common prefixes and suffixes.",
+    "Form new words by adding prefixes and suffixes to root words.",
+    "Use words with prefixes and suffixes correctly in sentences."
+  ],
+  "rationale": [
+    "Understanding root words, prefixes, and suffixes helps students expand their vocabulary and improve their reading and writing skills."
+  ],
+  "methodology": [
+    "The lesson will use explanations, class discussions, board activities, and a worksheet to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Root Words (10 minutes)</b>:<br><br><b>What is a Root Word?</b><br>A root word is the main part of a word that gives it its basic meaning. Other word parts, such as prefixes and suffixes, can be added to change its meaning.<br><br><b>Examples of Root Words:</b><br>Play, Help, Kind, Happy.<br><br><b>Class Discussion:</b><br>1. Ask students if they can think of other simple words that have meaning on their own.<br>2. Write some of their answers on the board.<br>3. Explain that these words can be changed by adding parts at the beginning or end.",
+      "<b>Part 2: Understanding Prefixes (10 minutes)</b>:<br><br><b>What is a Prefix?</b><br>A prefix is a group of letters added before a root word to change its meaning.<br><br><b>Common Prefixes and Their Meanings:</b><br>(List of prefixes can be provided in discussion)<br><br><b>Class Activity:</b><br>Write a few root words on the board (e.g., happy, do, like, write).<br>Ask students to add prefixes to these words and explain the new meaning.",
+      "<b>Part 3: Understanding Suffixes (10 minutes)</b>:<br><br><b>What is a Suffix?</b><br>A suffix is a group of letters added at the end of a root word to change its meaning or its word form (e.g., changing a noun to an adjective).<br><br><b>Common Suffixes and Their Meanings:</b><br>(List of suffixes can be provided in discussion)<br><br><b>Class Activity:</b><br>Write some root words on the board (e.g., care, joy, teach, quick).<br>Ask students to add suffixes to form new words and explain their meanings.",
+      "<b>Part 4: Using Words with Prefixes and Suffixes in Sentences (10 minutes)</b>:<br><br><b>Sentence Practice:</b><br>1. Write the following root words on the board: kind, play, use, happy, help.<br>2. Call on students to add a prefix or suffix to make a new word.<br>3. Have them use the new word in a sentence.<br><br><b>Example:</b><br>Root Word: kind<br>New Word: unkind<br>Sentence: 'It is unkind to say mean things to others.'",
+      "<b>Part 5: Exercise – Prefixes and Suffixes Worksheet (10 minutes)</b>:<br><br><b>A. Choose the correct prefix or suffix to complete the word.</b><br>1. ____kind (un-, re-, dis-)<br>2. help____ (-er, -ful, -less)<br>3. ____write (pre-, re-, un-)<br>4. care____ (-ly, -ful, -less)<br>5. ____happy (un-, re-, pre-).<br><br><b>B. Use the words in sentences.</b><br>Choose any two words from the exercise above and write a sentence using them."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Worksheet Exercise</b>: The worksheet will assess students' ability to correctly use prefixes and suffixes."
+  ],
+  "conclusion": [
+    "Ask students to share what they learned today.",
+    "Quickly review prefixes, suffixes, and how they change root words.",
+    "Encourage students to find more examples in their reading books."
+  ]
+},
 
 // Week 5
 // Lesson 1
 {
-  "title": "Homonyms for Grade 3",
+  "title": "Homonyms",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, January 29, 2025",
