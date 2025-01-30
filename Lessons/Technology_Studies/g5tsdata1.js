@@ -455,10 +455,223 @@ const lessonPlans67a = [
 
 // Week 5
 // Lesson 1
+{
+  "title": "Demonstrating the Use of the Workbench and Tools",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Demonstrating the Use of the Workbench and Tools",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students to identify, handle, and use specific tools on a workbench and practice marking out workpieces using these tools.",
+  "materials": [
+    "Workbench",
+    "Tools (ruler, tape measure, square, pencil, marker, saw, utility knife, clamps, vise, hammer, screwdriver)",
+    "Sample workpieces (wood or cardboard)",
+    "Safety gear (gloves, goggles)"
+  ],
+  "objectives": [
+    "Students will learn what a workbench is and its key features.",
+    "Students will identify and understand the purpose of common tools.",
+    "Students will practice using tools safely and correctly.",
+    "Students will understand the importance of tool organization and maintenance.",
+    "Students will apply skills by measuring, marking, and pretending to cut a workpiece."
+  ],
+  "rationale": [
+    "Learning about workbenches and tools helps students develop practical skills that are essential for completing tasks accurately and safely."
+  ],
+  "methodology": [
+    "The lesson will involve demonstrations, hands-on practice, and discussions about tool usage and safety."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (15 minutes)</b><br><br>1. What is a Workbench?<br>Explain that a workbench is a sturdy table used for working on projects like woodworking, metalworking, or crafts. Show images or a real workbench in the classroom and highlight key features (e.g., clamps, vise, flat surface). Emphasize the importance of safety and keeping the workbench organized.<br><br>2. Why Learn About Tools?<br>Discuss how tools help us complete tasks accurately and efficiently. Explain the importance of using the right tool for the right task.",
+      "<b>Part 2: Identifying Tools (20 minutes)</b><br><br>1. Introduce Common Tools on a Workbench:<br>Show students real tools or pictures of tools like: Measuring tools (ruler, tape measure, square), Marking tools (pencil, marker, scribe), Cutting tools (saw, utility knife), Holding tools (clamps, vise), Driving tools (hammer, screwdriver). Pass the tools around so students can see and touch them.<br><br>2. Explain the Purpose of Each Tool:<br>For example, the square is used for marking 90-degree angles. Clamps hold materials steady during cutting or assembling.",
+      "<b>Part 3: Demonstrating Tool Usage (20 minutes)</b><br><br>1. Measuring and Marking:<br>Demonstrate how to measure and mark a piece of wood or cardboard accurately using a ruler and pencil. Show how to ensure straight lines with a square.<br><br>2. Cutting and Holding:<br>Demonstrate how to secure the material using a vise or clamps. Show how to cut along the marked line safely using a saw or utility knife.<br><br>3. Safe Handling Practices:<br>Discuss the importance of wearing safety gear (e.g., gloves, goggles). Teach students how to hold and handle tools correctly to avoid accidents.",
+      "<b>Part 4: Organizing and Maintaining Tools (10 minutes)</b><br><br>1. Tool Storage:<br>Show students how tools should be placed back in their designated spots after use. Emphasize that a clean and organized workbench ensures efficiency and safety.<br><br>2. Tool Maintenance:<br>Briefly discuss how tools should be cleaned and inspected regularly for damage.",
+      "<b>Part 5: Exercise (25 minutes)</b><br><br>1. Activity:<br>Provide students with a simple workpiece (e.g., a small block of wood or cardboard). Ask them to measure and mark a 10 cm line on the material using a ruler and square. Secure the material on the workbench using clamps or a vise. Pretend to cut along the marked line (or use a safe cutting tool, if allowed).<br><br>2. Review:<br>Walk around and observe students' technique. Provide feedback on their tool handling and safety practices.<br><br>3. Discussion:<br>Ask students to share what they found easy or challenging. Reinforce the importance of using the right tools and maintaining safety."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in discussions and hands-on practice.",
+    "<b>Activity Review</b>: Feedback will be provided on students' techniques during the exercise."
+  ],
+  "conclusion": [
+    "Recap the lesson by asking students to name the tools they used and their functions.",
+    "Remind them that practicing these skills builds confidence and precision.",
+    "Assign students to draw and label five tools they learned about today as homework."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Marking-Out Tools and Their Uses",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Identifying and Understanding Marking-Out Tools",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to marking-out tools, their specific uses, and how to apply them in practical situations.",
+  "materials": [
+    "Marking gauge",
+    "Try-square",
+    "Mortice gauge",
+    "Marking knife",
+    "Pieces of wood",
+    "Ruler"
+  ],
+  "objectives": [
+    "Students will be able to identify key marking-out tools.",
+    "Students will understand the specific purposes of each tool.",
+    "Students will demonstrate the use of marking-out tools in practical applications."
+  ],
+  "rationale": [
+    "Learning about marking-out tools develops students' skills in precision and accuracy, which are essential for woodworking and metalworking."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, discussions, and hands-on activities to teach about marking-out tools and their uses."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "Part 1: Introduction (10 minutes):<br><br>1. Start with a Discussion:<br>Ask students: What do you think marking-out tools are used for?<br>Explain that marking-out tools are essential in woodworking and metalworking to draw precise lines and measurements for cutting, drilling, or assembling.<br><br>2. Introduce the Tools:<br>Briefly introduce the four tools:<br>- Marking Gauge: Used to draw parallel lines to an edge.<br>- Try-Square: Ensures right angles and straight lines.<br>- Mortice Gauge: Marks two parallel lines for mortices and tenons.<br>- Marking Knife: Creates fine, precise lines, often for cutting joints.<br><br>3. Relate to Real Life:<br>Mention examples where precision is crucial, like building furniture or making a wooden frame.",
+      "Part 2: Detailed Explanation of Each Tool (10 minutes):<br><br>1. Marking Gauge:<br>Describe its structure: a stem, stock, and adjustable pin.<br>Explain its purpose: marking parallel lines for cutting or chiseling.<br><br>2. Try-Square:<br>Show its shape: a right-angled L with a stock and blade.<br>Explain its use: marking and checking right angles or testing if edges are square.<br><br>3. Mortice Gauge:<br>Highlight its similarity to the marking gauge but with two pins.<br>Explain its purpose: marking parallel lines for joinery work like mortices and tenons.<br><br>4. Marking Knife:<br>Show its sharp blade and comfortable handle.<br>Explain its function: creating precise lines that won't smudge like pencil marks.",
+      "Part 3: Demonstration (10 minutes):<br><br>1. Show the Tools in Action:<br>- Use each tool to demonstrate its function:<br>  - Mark a parallel line on wood with the marking gauge.<br>  - Check and draw a right angle using the try-square.<br>  - Mark parallel lines for a mortice using the mortice gauge.<br>  - Create a precise line for a cut using the marking knife.<br><br>2. Emphasize Safety:<br>Highlight the importance of handling tools carefully, especially the marking knife.",
+      "Part 4: Discussion and Questions (5 minutes):<br><br>1. Recap the Key Points:<br>Ask students to name the four tools and their uses.<br>Discuss why precision is essential in woodworking and metalworking.<br><br>2. Encourage Participation:<br>Allow students to ask questions or share observations.",
+      "Part 5: Exercise (5 minutes):<br><br>Activity:<br><br>1. Materials: Provide students with pieces of wood, marking-out tools, and rulers.<br><br>2. Task:<br>Use the tools to:<br>- Draw a parallel line with the marking gauge.<br>- Check if a corner is square using the try-square.<br>- Mark two parallel lines for a mortice using the mortice gauge.<br>- Create a precise cut line using the marking knife.<br><br>3. Evaluation:<br>Walk around and assess students' accuracy and technique."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and participation during the activities.",
+    "<b>Exercise</b>: The teacher will assess students' accuracy and technique during the practical activity."
+  ],
+  "conclusion": [
+    "Reinforce that marking-out tools are essential for precise and professional results.",
+    "Encourage students to practice using these tools at home or during practical lessons."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Proper Use of Marking-Out Tools",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, January 28, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Proper Use of Marking-Out Tools",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students the correct use of marking-out tools to ensure accurate measurements and markings in practical tasks.",
+  "materials": [
+    "Ruler",
+    "Tape measure",
+    "Try square",
+    "Scriber",
+    "Compass/Dividers",
+    "Marking gauge",
+    "Pencils",
+    "Paper or cardboard"
+  ],
+  "objectives": [
+    "Students will be able to identify common marking-out tools.",
+    "Students will understand the correct techniques for using marking-out tools.",
+    "Students will learn how to avoid common mistakes when using marking-out tools.",
+    "Students will understand real-life applications of marking-out tools.",
+    "Students will practice accurate marking using marking-out tools."
+  ],
+  "rationale": [
+    "Learning to use marking-out tools correctly helps students develop skills for accurate measurements and markings in practical tasks, which are essential in many fields such as carpentry, sewing, and metalwork."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, and practical exercises to teach the proper use of marking-out tools."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Marking-Out Tools (10 minutes)</b>:<br><br>1. Discussion:<br>Start by asking the class: 'Why do you think accurate measurements are important in building, crafting, or any practical work?' Explain that marking-out tools help us measure and mark precisely, ensuring that the pieces we cut or assemble fit together perfectly.<br><br>2. Show Examples of Tools:<br>Introduce common marking-out tools such as:<br>• Ruler/Tape Measure: For straight measurements.<br>• Try Square: For marking and checking right angles.<br>• Scriber: For scratching fine lines on metal or wood.<br>• Compass/Dividers: For marking circles or arcs.<br>• Marking Gauge: For marking parallel lines.",
+      "<b>Part 2: Demonstrating the Use of Marking-Out Tools (15 minutes)</b>:<br><br>1. Ruler/Tape Measure:<br>Demonstrate how to hold the tool steady while measuring. Show how to align the edge properly to avoid errors.<br><br>2. Try Square:<br>Demonstrate checking for 90-degree angles and marking perpendicular lines.<br><br>3. Marking Gauge:<br>Show how to adjust the gauge to the desired distance and drag it along the edge for a parallel line.<br><br>4. Compass/Dividers:<br>Explain how to set the radius and mark arcs or circles.",
+      "<b>Part 3: Common Mistakes and How to Avoid Them (10 minutes)</b>:<br><br>1. Discuss mistakes like:<br>• Misaligning tools while marking.<br>• Applying too much pressure with the scriber or marking gauge, damaging the material.<br>• Incorrectly reading the tape measure (e.g., mixing up cm and mm).<br><br>2. Provide tips:<br>• Always double-check measurements.<br>• Use light, even pressure.<br>• Work on a stable, flat surface.",
+      "<b>Part 4: Real-Life Applications (10 minutes)</b>:<br><br>1. Discuss Applications:<br>• Carpentry: Cutting wood pieces accurately for furniture.<br>• Sewing: Measuring fabric for patterns.<br>• Metalwork: Marking precise cuts for assembly.<br><br>2. Show an example:<br>Bring a small wooden piece and demonstrate marking it for cutting.",
+      "<b>Part 5: Exercise (15 minutes)</b>:<br><br>1. Task:<br>• Provide each student (or group) with a piece of paper or cardboard, a ruler, a try square, and a pencil.<br><br>2. Instruct them to:<br>• Measure and mark a rectangle of 10 cm x 5 cm using the ruler and try square.<br>• Mark a diagonal line across the rectangle using the ruler.<br>• Use a compass to draw a circle with a radius of 3 cm inside the rectangle.<br><br>3. Review Work:<br>Check the accuracy of their markings and provide feedback."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and accuracy during the practical exercise.",
+    "<b>Exercise</b>: The accuracy of students' markings will be reviewed to evaluate their understanding and application of the tools."
+  ],
+  "conclusion": [
+    "Recap the importance of accurate markings and how it impacts real-world tasks.",
+    "Ask: 'What was the most challenging part of the exercise?'",
+    "Emphasize the need for practice to improve precision."
+  ],
+  "homework": [
+    "Measure and draw a simple layout of a room at home, marking its length and width accurately using a ruler or tape measure."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Holding Tools (Vices and Cramps)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, January 28, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Holding Tools (Vices and Cramps)",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to holding tools such as vices and cramps, focusing on their purpose, importance, types, uses, and care.",
+  "materials": [
+    "Pictures of vices and cramps",
+    "Sample bench vice and G-clamp",
+    "Whiteboard and markers",
+    "Worksheets with tool identification activities"
+  ],
+  "objectives": [
+    "Understand the purpose and importance of holding tools.",
+    "Identify common holding tools, such as vices and cramps.",
+    "Learn how to properly use and care for holding tools.",
+    "Be able to explain the differences between vices and cramps."
+  ],
+  "rationale": [
+    "Understanding holding tools helps students develop safe and efficient working habits and supports their ability to perform various tasks involving precision and safety."
+  ],
+  "methodology": [
+    "The lesson will involve interactive discussions, demonstrations, and practical exercises to reinforce learning about holding tools."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction</b>:<br><br>Begin by asking students:<br>“What do we use to hold objects firmly when working on them?”<br>Discuss the need for holding tools in activities such as cutting, drilling, sawing, or gluing.<br>Highlight the importance of safety and precision when using tools.",
+      "<b>Part 2: Explanation of Holding Tools</b>:<br><br>Definition: Holding tools are tools used to secure or hold objects in place during work.<br><br>Examples:<br>1. Vices: Tools designed to clamp and hold objects securely in place, typically mounted on a workbench.<br>Types of Vices:<br>- Bench Vice (for woodwork and metalwork).<br>- Pipe Vice (for gripping round objects like pipes).<br>Uses: Cutting, filing, or hammering objects.<br><br>2. Cramps (Clamps): Portable tools used to hold objects tightly together, often used for gluing or temporary holding.<br>Types of Cramps:<br>- G-Clamp.<br>- Bar Clamp.<br>- Spring Clamp.<br>Uses: Securing wood pieces during assembly or repair.",
+      "<b>Part 3: Demonstration</b>:<br><br>Show a real-life example or picture of a vice and a clamp.<br>Demonstrate:<br>- How to use a bench vice to hold a piece of wood securely.<br>- How to use a G-clamp to secure two pieces of wood for gluing.<br><br>Emphasize safety precautions:<br>- Ensure the tool is properly secured.<br>- Avoid placing fingers in the clamping area.<br>- Do not overtighten, as this could damage the object.",
+      "<b>Part 4: Class Discussion</b>:<br><br>Ask students:<br>- “Where have you seen vices or cramps being used?”<br>- “Why do you think these tools are important in workshops or at home?”<br><br>Discuss how holding tools make tasks easier and safer.<br>Encourage students to share their thoughts on other tools they’ve seen that could hold objects.",
+      "<b>Part 5: Exercise</b>:<br><br>Activity: Match and Identify<br>Provide students with a worksheet featuring pictures of vices, cramps, and other tools.<br><br>Part A: Match the picture of each tool to its name.<br>Part B: Write down one use for each tool.<br>Part C: Describe in a sentence the difference between a vice and a clamp.<br><br>Bonus Question:<br>Imagine you need to fix two pieces of wood together. Which tool would you use, and why?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and demonstrations.",
+    "<b>Exercise</b>: The worksheet activity will assess students' understanding of the types, uses, and differences between vices and clamps."
+  ],
+  "conclusion": [
+    "By understanding the purpose, types, uses, and safety precautions of holding tools, students will be able to use these tools effectively in various tasks."
+  ]
+},
 
 // Week 7
 // Lesson 1
