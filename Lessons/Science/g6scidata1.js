@@ -200,6 +200,59 @@ const lessonPlans27a = [
 // Week 3
 // Lesson 1
 {
+  "title": "Pregnancy in Humans",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Pregnancy in Humans",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to pregnancy in humans, explaining how it occurs, the stages of pregnancy, baby development inside the womb, and how to care for a pregnant mother.",
+  "materials": [
+    "Diagrams of the female reproductive system",
+    "Images of fetal development",
+    "Short animation on baby development"
+  ],
+  "objectives": [
+    "Understand what pregnancy is and how it occurs.",
+    "Describe the stages of pregnancy.",
+    "Explain how the baby develops inside the womb.",
+    "Understand how to take care of a pregnant mother."
+  ],
+  "rationale": [
+    "Learning about pregnancy helps students understand human reproduction and the process of fetal development.",
+    "It fosters appreciation for maternal health and the importance of supporting pregnant women."
+  ],
+  "methodology": [
+    "The lesson will use discussions, images, animations, and group activities to enhance understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Pregnancy?</b>:<br><br>Pregnancy is the period during which a baby grows inside a mother’s womb.<br>It begins when a sperm from the father fertilizes an egg from the mother.<br>This fertilized egg, called a zygote, travels to the uterus and attaches to the wall, beginning the pregnancy.<br>Pregnancy in humans lasts about 9 months (40 weeks) and is divided into three stages called trimesters.<br><br><b>Activity:</b><br>Ask students: “Where does a baby grow during pregnancy?”<br>Show a simple diagram of the female reproductive system.",
+      "<b>Part 2: The Three Stages of Pregnancy</b>:<br><br><b>First Trimester (0-12 weeks)</b>:<br>The fertilized egg develops into an embryo.<br>The heart starts beating, and basic organs begin to form.<br>The mother may experience morning sickness, tiredness, and food cravings.<br><br><b>Second Trimester (13-27 weeks)</b>:<br>The embryo develops into a fetus, and body parts grow (arms, legs, fingers, and toes).<br>The baby starts moving, and the mother can feel kicks.<br>The mother’s belly becomes larger.<br><br><b>Third Trimester (28-40 weeks)</b>:<br>The baby gains more weight and prepares for birth.<br>The lungs develop, and the baby moves into a head-down position.<br>The mother may feel heavier and more tired as the baby grows.<br><br><b>Activity:</b><br>Show images of how a baby looks in different stages of pregnancy.<br>Ask students: “What changes do you think happen in the mother’s body during pregnancy?”",
+      "<b>Part 3: Baby Development Inside the Womb</b>:<br><br>The baby gets oxygen and food from the mother through the placenta and umbilical cord.<br>The amniotic fluid surrounds the baby, keeping it safe inside the womb.<br>The brain, lungs, and heart continue developing until birth.<br>Around 9 months, the baby is ready to be born, and the mother goes into labor.<br><br><b>Activity:</b><br>Show a short animation or pictures of baby development inside the womb.<br>Have students discuss: “What do babies need to grow inside the womb?”",
+      "<b>Part 4: Taking Care of a Pregnant Mother</b>:<br><br>Pregnant women should eat healthy foods like fruits, vegetables, and proteins.<br>They should avoid alcohol, smoking, and harmful drugs.<br>They need regular check-ups with a doctor.<br>Exercise and rest are important for a healthy pregnancy.<br>Emotional support from family members is essential.<br><br><b>Activity:</b><br>Divide students into small groups and ask: “What can a family do to support a pregnant mother?”<br>Have students present their answers.",
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is pregnancy?<br>2. How long does pregnancy last in humans?<br>3. Name the three stages of pregnancy and one key event in each stage.<br>4. How does a baby get food and oxygen inside the womb?<br>5. List three ways to take care of a pregnant mother.<br><br><b>Bonus Question:</b><br>Why do you think it is important for pregnant women to visit a doctor regularly?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of pregnancy in humans."
+  ],
+  "conclusion": [
+    "By understanding pregnancy, students will appreciate the importance of maternal health and fetal development.",
+    "Encourage students to share what they have learned with their families.",
+    "Allow students to ask any remaining questions."
+  ]
+},
+
+// Lesson 2
+{
   "title": "Features of Pregnancy",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
@@ -210,7 +263,7 @@ const lessonPlans27a = [
   "grade": "Nimbus Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "1",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to the features of pregnancy, focusing on physical, hormonal, and emotional changes experienced during this period.",
   "materials": [
     "Charts showing pregnancy stages",
@@ -247,7 +300,7 @@ const lessonPlans27a = [
   ]
 },
 
-// Lesson 2
+// Lesson 3
 {
   "title": "Signs and Symptoms of Pregnancy",
   "school": "Flying Wings Academy",
@@ -259,7 +312,7 @@ const lessonPlans27a = [
   "grade": "Nimbus Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "2",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to the signs and symptoms of pregnancy, focusing on changes in the body and feelings during early pregnancy.",
   "materials": [
     "Illustrations of pregnant women",
@@ -296,6 +349,10 @@ const lessonPlans27a = [
   ]
 },
 	
+// Lesson 4
+
+// Lesson 5
+
 	
 	
 ];
