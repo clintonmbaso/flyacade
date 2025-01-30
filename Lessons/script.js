@@ -90,10 +90,12 @@ function searchLessonPlans(event) {
     ...lessonPlans51a, 
     ...lessonPlans52, ...lessonPlans53, 
      ...lessonPlans54,
-    
+    */
     ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c, 
+    
     ...lessonPlans56a, ...lessonPlans56b, ...lessonPlans56c,
     ...lessonPlans57a, ...lessonPlans57b, ...lessonPlans57c,
+    /*
     ...lessonPlans58a, 
     ...lessonPlans59a,
     
