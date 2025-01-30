@@ -29,10 +29,7 @@ function searchLessonPlans(event) {
     ...lessonPlans6a, ...lessonPlans6b, ...lessonPlans6c, 
     ...lessonPlans7a, ...lessonPlans7b, ...lessonPlans7c, 
     ...lessonPlans8a, ...lessonPlans8b, ...lessonPlans8c,
-    
-    /*...lessonPlans9,*/
-     
-     
+    /*...lessonPlans9a, ...lessonPlans9b, ...lessonPlans9c,*/
      ...lessonPlans10a, ...lessonPlans10b, ...lessonPlans10c, 
      
     ...lessonPlans11a, ...lessonPlans11b, ...lessonPlans11c, 
@@ -43,10 +40,10 @@ function searchLessonPlans(event) {
     ...lessonPlans16a, ...lessonPlans16b, ...lessonPlans16c, 
     ...lessonPlans17a, ...lessonPlans17b, ...lessonPlans17c,
     
-    /*...lessonPlans18a, ...lessonPlans18b, ...lessonPlans18c, */
+    ...lessonPlans18a, ...lessonPlans18b, ...lessonPlans18c, 
      
      
-     ...lessonPlans19a, ...lessonPlans19b, ...lessonPlans19c, 
+    ...lessonPlans19a, ...lessonPlans19b, ...lessonPlans19c, 
     ...lessonPlans20a, ...lessonPlans20b, ...lessonPlans20c, 
     
     ...lessonPlans21a, ...lessonPlans21b, ...lessonPlans21c, 
