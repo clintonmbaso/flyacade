@@ -616,12 +616,200 @@ const lessonPlans74a = [
 
 // Week 9
 // Lesson 1
+{
+  "title": "Understanding Time of the Day",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Time of the Day",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the different periods of the day and helps them recognize and understand how time changes throughout the day.",
+  "materials": [
+    "Analog clock",
+    "Whiteboard and markers",
+    "Worksheet for matching times to activities",
+    "Visual aid showing different times of the day"
+  ],
+  "objectives": [
+    "Students will recognize and identify the four main periods of the day: morning, midday, afternoon, and evening.",
+    "Students will learn to read the time on an analog clock and relate it to these periods.",
+    "Students will connect daily activities with specific times of the day."
+  ],
+  "rationale": [
+    "Understanding time and its relation to daily activities is crucial for students to develop an awareness of the world around them and manage their daily routines effectively."
+  ],
+  "methodology": [
+    "The lesson will use interactive clock demonstrations, class discussions, and hands-on activities to reinforce the concepts of time and its connection to daily life."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Time of the Day</b>:<br><br>Ask students: 'What time do you wake up?' 'What time do you go to bed?' Use their responses to introduce the four main periods of the day: morning, midday, afternoon, and evening.<br><br>Explain the periods of the day as follows:<br><br>Morning: The time between when you wake up and around 10 AM.<br>Midday (Noon): The middle of the day, around 12:00 PM.<br>Afternoon: After midday, typically from 12:00 PM to around 6:00 PM.<br>Evening: The time when the sun begins to set, from around 6:00 PM until nightfall.",
+      "<b>Part 2: Understanding the Time on a Clock</b>:<br><br>Draw or show a clock with hands pointing to different times throughout the day.<br>Explain how the hour hand and minute hand work together to show time.<br><br>Examples: Morning: 7:00 AM, Midday: 12:00 PM, Afternoon: 3:00 PM, Evening: 6:00 PM.",
+      "<b>Part 3: Discussing Time in Relation to Activities</b>:<br><br>Discuss the following daily activities and their corresponding times:<br><br>Morning: Breakfast, getting ready for school.<br>Midday: Lunch, rest.<br>Afternoon: Playing, school activities.<br>Evening: Dinner, relaxation, preparing for bed.<br><br>Encourage students to share their routines and match them with the correct periods of the day.",
+      "<b>Part 4: Recap and Reinforcement of Time</b>:<br><br>Ask students to recall the four periods of the day.<br>Use questions like: 'What time do we have lunch?' or 'When does the sun start setting?' to check understanding.<br><br>Use a visual chart of the clock showing 7 AM, 12 PM, 3 PM, and 6 PM clearly.",
+      "<b>Part 5: Exercise – Matching Time to Activity</b>:<br><br>Distribute a worksheet for students to match times of the day (7:00 AM, 12:00 PM, 3:00 PM, 6:00 PM) with corresponding activities ('Eat breakfast,' 'Have lunch,' 'Play outside,' 'Go to bed').<br>Support students as needed while they complete the exercise and hold a class discussion after to review answers."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the class discussion and clock demonstrations.",
+    "<b>Exercise</b>: The matching activity will assess students' ability to connect times of the day with typical activities."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to recognize the four periods of the day and understand how time influences daily activities."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Using Words with the Same Spelling but Different Sounds",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Using Words with the Same Spelling but Different Sounds",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to homographs, words that are spelled the same but have different meanings and pronunciations depending on the context.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheets with sentences containing homographs",
+    "Examples of homographs in context"
+  ],
+  "objectives": [
+    "Students will be able to identify homographs and their meanings.",
+    "Students will learn how the pronunciation of homographs changes based on context.",
+    "Students will practice using homographs in sentences."
+  ],
+  "rationale": [
+    "Understanding homographs is important for improving vocabulary and reading comprehension. Recognizing how context affects meaning and pronunciation helps students become more fluent readers and speakers."
+  ],
+  "methodology": [
+    "The lesson will use explanations, discussions, and interactive activities to teach homographs and their usage."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Homographs</b>:<br><br>Explanation: Homographs are words that are spelled the same but have different meanings and can sound different depending on the context.<br><br>Examples:<br>1. Lead (to guide) vs. Lead (a type of metal)<br>2. Tear (to rip) vs. Tear (a drop of liquid from the eye)<br>3. Read (present tense) vs. Read (past tense)<br><br>Discussion: Ask students to think of words they know that might have more than one meaning. Use the board to list some of these examples.",
+      "<b>Part 2: How Homographs Work</b>:<br><br>Explanation: In homographs, the meaning of the word can change based on the context (what’s happening in the sentence). Sometimes, the pronunciation of the word changes too.<br><br>Examples:<br>'I will lead the group in our activity.' (pronounced /leed/)<br>'The pipe is made of lead.' (pronounced /led/)<br><br>Activity: Write a few sentences on the board with words that are homographs but are pronounced differently. For example: 'He will tear the paper.'<br>'She couldn’t stop the tear from falling.'",
+      "<b>Part 3: Identifying Homographs in Context</b>:<br><br>Explanation: The meaning of homographs depends on how the word is used in a sentence. Pay attention to the rest of the sentence to understand how to pronounce and understand the word.<br><br>Example:<br>'The wind was very strong.' (Here, “wind” is a noun, pronounced /wɪnd/.)<br>'Please wind the clock before bed.' (Here, “wind” is a verb, pronounced /waɪnd/.)<br><br>Activity: Have students read sentences aloud that contain homographs. Ask them to decide which meaning of the word fits and how it should be pronounced.",
+      "<b>Part 4: Practicing Homographs</b>:<br><br>Activity: Provide students with a list of homographs and sentences with missing words. Have them fill in the blanks with the correct word and then read the sentences aloud.<br><br>Example:<br>Sentence 1: 'I need to ______ the door.' (Answer: close)<br>Sentence 2: 'I saw the bird ______ above the tree.' (Answer: soar)<br><br>Discussion: Go over the answers with the class and emphasize how the meaning and pronunciation change.",
+      "<b>Part 5: Exercise - Creating Sentences</b>:<br><br>Activity: Give students a worksheet with pairs of homographs. For each pair, they will write two sentences that use each word with its correct meaning and pronunciation.<br><br>Example pairs:<br>1. Bow (to bend forward) and Bow (a curved weapon)<br>2. Wind (moving air) and Wind (to twist or turn)<br><br>Extension: Students can work in pairs to compare their sentences and check for accuracy."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and check for understanding during class discussions.",
+    "<b>Exercise</b>: The worksheet with homograph pairs will assess students' ability to correctly use the words in context and with the appropriate pronunciation."
+  ],
+  "conclusion": [
+    "By learning about homographs, students will better understand how context affects the meaning and pronunciation of words, improving their reading and speaking skills."
+  ]
+},
 
 // Week 10
 // Lesson 1
+{
+  "title": "Words with the Same Spelling, Same Sounds, but Different Meanings (Homographs)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Homographs",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to homographs—words with the same spelling and pronunciation but different meanings. Students will learn how to use them correctly in sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed examples of homographs",
+    "Notebook and pencil"
+  ],
+  "objectives": [
+    "Students will understand homographs—words that have the same spelling and pronunciation but different meanings.",
+    "Students will learn how to use homographs correctly in sentences by identifying the correct meaning based on context."
+  ],
+  "rationale": [
+    "Understanding homographs helps students enhance their reading comprehension and writing skills by recognizing how context affects meaning."
+  ],
+  "methodology": [
+    "The lesson will use examples, discussions, and interactive exercises to help students understand and practice using homographs."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Homographs</b>:<br><br>Start by explaining that some words in English are spelled the same and sound the same but have different meanings. These words are called homographs.<br><br>Example:<br>Lead (to guide)<br>Lead (a type of metal)<br>Both words are spelled the same and sound the same, but they have different meanings.<br><br>Ask the students if they know any other words that might fit this description and write their examples on the board.",
+      "<b>Part 2: Exploring Common Homographs</b>:<br><br>Discuss a few common homographs. For each one, write it on the board and explain the different meanings.<br><br>Examples:<br><br><b>Bat</b><br>1. A flying mammal (e.g., 'The bat flew at night.')<br>2. A piece of sports equipment used in baseball (e.g., 'He hit the ball with a bat.')<br><br><b>Tear</b><br>1. To rip something (e.g., 'Be careful not to tear the paper.')<br>2. Drops of liquid from the eyes (e.g., 'She had tears in her eyes.')<br><br><b>Bow</b><br>1. To bend forward in respect (e.g., 'The actor took a bow after the performance.')<br>2. A tied knot used in decorations or clothing (e.g., 'She wore a bow in her hair.')",
+      "<b>Part 3: How to Use Homographs in Sentences</b>:<br><br>Now, explain how understanding the context of a sentence helps determine which meaning of the homograph to use. Emphasize that homographs are usually understood by the surrounding words and sentences.<br><br>Example:<br><b>Bow</b><br>'She gave a deep bow to the audience after her performance.' (Here, bow means bending forward.)<br>'He tied a red bow on the gift.' (In this case, bow means a knot or decoration.)<br><br>Let the students know that by looking at the other words in the sentence, they can figure out which meaning of the word is correct.",
+      "<b>Part 4: Practice Using Homographs in Sentences</b>:<br><br>Give students a list of homographs and ask them to create sentences based on the different meanings. Here are a few to start with:<br><br>Light (not heavy / brightness)<br>Row (to paddle a boat / a line of things)<br>Park (a recreational area / to stop a car)<br><br>Encourage them to use their imagination and creativity when coming up with sentences.",
+      "<b>Part 5: Exercise: Homograph Matching Game</b>:<br><br><b>Objective</b>: To reinforce understanding of homographs by identifying the correct meaning in different sentences.<br><br><b>Instructions:</b><br>1. Provide the students with a list of sentences. Each sentence will have a homograph, and students need to choose which meaning of the word fits best.<br><br>Example sentences:<br>'I can’t bear the noise anymore.' (Choose: bear = a large mammal / bear = to endure)<br>'He used a spring to bounce the ball.' (Choose: spring = a metal coil / spring = a season of the year)<br><br>2. Ask students to write the correct meaning of the homograph next to each sentence. Once completed, review the answers together."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities, ensuring they understand how context helps identify the correct meaning of homographs.",
+    "<b>Exercise</b>: The homograph matching game will assess students' ability to identify and apply the correct meanings of homographs."
+  ],
+  "conclusion": [
+    "By understanding homographs and how context determines meaning, students will enhance their ability to read and write more effectively, ensuring they can use words correctly based on their meanings."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Conducting Simple Dialogues",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Conducting Simple Dialogues",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on teaching students how to conduct simple dialogues, including greetings, asking questions, and responding in English.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed handouts with dialogue examples",
+    "Worksheets for practice"
+  ],
+  "objectives": [
+    "Students will be able to conduct simple dialogues, practicing basic speech exchanges, including greetings, questions, and responses.",
+    "Students will improve their listening and speaking skills in everyday situations.",
+    "Students will learn to work in pairs to create and perform dialogues."
+  ],
+  "rationale": [
+    "Developing dialogue skills helps students improve their communication and social interaction, which are essential in everyday life."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction, practice through role-play, and independent dialogue creation. Students will work in pairs for hands-on practice."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Simple Dialogues</b>:<br><br>Explanation:<br>Start by introducing the concept of a dialogue: A dialogue is when two or more people talk to each other. It's a way of communicating and sharing ideas.<br><br>Explain that dialogues can be used in various situations like greeting someone, asking questions, or talking about daily activities.<br><br>Example:<br>Teacher demonstrates a simple dialogue with a student or another teacher:<br><br>Teacher: 'Good morning, how are you?'<br>Student: 'I'm fine, thank you! How about you?'<br>Teacher: 'I'm good too, thank you for asking!'<br><br>Highlight the use of greetings, questions, and responses in a dialogue.",
+      "<b>Part 2: Vocabulary and Phrases for Dialogues</b>:<br><br>Explanation:<br>Introduce key phrases and expressions students can use in dialogues. Write them on the board and go over their meanings.<br><br>Common phrases:<br>Greetings: 'Hello!', 'Good morning!', 'Hi there!'<br>Asking about feelings: 'How are you?', 'How do you feel?', 'What’s new?'<br>Offering help or asking for something: 'Can I help you?', 'Please pass the pen.'<br>Saying goodbye: 'Goodbye!', 'See you later!'<br><br>Practice:<br>Have students repeat the phrases after you to ensure they understand the pronunciation and meaning.<br>Provide students with examples, encouraging them to match the correct phrase with the situation (e.g., greeting a friend in the morning).",
+      "<b>Part 3: Practice Dialogue</b>:<br><br>Explanation:<br>Organize the class into pairs. Assign each pair a simple dialogue to practice.<br><br>Examples:<br>1. Greeting Dialogue:<br>Student A: 'Hello, how are you today?'<br>Student B: 'I’m good, thank you! How about you?'<br>Student A: 'I’m fine too, thanks!'<br><br>2. Asking for help:<br>Student A: 'Can you help me with my homework?'<br>Student B: 'Sure, what do you need help with?'<br><br>Activity:<br>Ask each pair to practice the dialogue aloud. Walk around to offer guidance and ensure students are using the correct phrases.",
+      "<b>Part 4: Create Your Own Dialogue</b>:<br><br>Explanation:<br>Give students a prompt or a situation where they need to create their own dialogue. For example:<br>'Imagine you meet a friend in the park. What would you say?'<br>'You need to ask a teacher about a book. What questions would you ask?'<br><br>Activity:<br>In pairs, students will come up with a short dialogue based on the given scenario.<br>Encourage them to use the phrases and structures they've learned.<br>Have some pairs perform their dialogues in front of the class.",
+      "<b>Part 5: Exercise and Task</b>:<br><br>Exercise:<br>Provide students with a worksheet that includes the following exercises:<br>1. Fill in the blanks: Complete the dialogue with appropriate phrases.<br>Example:<br>A: 'Good morning, how are you?'<br>B: 'I’m _____. How about you?'<br><br>2. Match the phrases: Match the greeting with the correct response.<br>'Goodbye!' → 'See you later!'<br>'How are you?' → 'I'm fine, thank you.'<br><br>3. Write your own dialogue: Create a short dialogue between two friends talking about their day.<br><br>Task:<br>As a final task, students will work in pairs to create and perform a new dialogue for the class. They can use any phrases they’ve learned, but the dialogue should make sense and be appropriate for the given situation."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the practice dialogues and their ability to use appropriate phrases.",
+    "<b>Exercise</b>: The worksheet exercises will evaluate the students' understanding of the dialogue structure and key phrases."
+  ],
+  "conclusion": [
+    "By practicing simple dialogues, students will develop their ability to communicate effectively in different situations, helping them build confidence in speaking and listening."
+  ]
+}
 
 ];
