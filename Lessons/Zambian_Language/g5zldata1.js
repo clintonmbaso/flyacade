@@ -415,22 +415,396 @@ const lessonPlans76a = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "Income Generation – Planning, Marketing, and Accounting",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Income Generation – Planning, Marketing, and Accounting",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the basics of preparing a business plan, focusing on planning, marketing, and accounting.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed examples of simple business plans",
+    "Calculator"
+  ],
+  "objectives": [
+    "Students will understand the concept of a business plan.",
+    "Students will learn how to plan for a business, including setting goals and identifying a target market.",
+    "Students will understand basic marketing strategies and how to promote a business.",
+    "Students will learn how to track business income and expenses through basic accounting practices."
+  ],
+  "rationale": [
+    "Understanding how to create and manage a business plan helps students develop entrepreneurial skills and a practical understanding of how businesses operate."
+  ],
+  "methodology": [
+    "The lesson will use a mix of explanation, discussion, and exercises to teach business planning, marketing, and accounting."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Business Plans</b>:<br><br>A business plan is a written document that explains the goals of a business, how the business will operate, and the steps to achieve those goals. In this lesson, we will focus on three key areas: planning, marketing, and accounting. Understanding these areas is important for anyone wanting to start a business.<br><br>Planning: This involves deciding what kind of business you want to start, what products or services you will offer, and who your customers will be.<br><br>Marketing: This is about promoting your business and telling people about the products or services you offer. It’s how you attract customers and make sales.<br><br>Accounting: This is the process of keeping track of the money the business makes and spends. Good accounting helps the business owner understand if the business is making a profit or losing money.",
+      "<b>Part 2: Income Generation – Planning</b>:<br><br>What is Income Generation? Income generation refers to the ways a business earns money. Every business needs to have a plan for how it will make money.<br><br>Creating a Business Plan (Planning Phase)<br>Step 1: Think about what kind of business you want to start. For example, a lemonade stand or a bakery.<br><br>Step 2: Identify your target market. Who will buy your product? Are they children, adults, or businesses?<br><br>Step 3: Set goals for the business. What are your goals? For example, making $50 by the end of the month.",
+      "<b>Part 3: Income Generation – Marketing</b>:<br><br>What is Marketing? Marketing helps you tell people about your business and your products. It helps create awareness and interest.<br><br>Effective Marketing Strategies<br>Word of Mouth: Tell your friends, family, and community about your business.<br>Flyers: You can create simple flyers to hand out to people or post them on notice boards.<br>Social Media: If possible, use social media to reach more people (e.g., Instagram, Facebook).<br>Promotions: You could offer a discount or a special deal to attract customers.<br><br>What makes marketing successful?<br>Knowing your audience: Make sure your marketing speaks to the right people.<br>Clear messaging: Be clear about what you’re selling and why it’s special.",
+      "<b>Part 4: Income Generation – Accounting</b>:<br><br>What is Accounting? Accounting helps a business keep track of the money it makes and spends. It is important for understanding whether a business is successful or needs to improve.<br><br>Basic Accounting Practices<br>Track Sales: Keep a list of how much money you make from each sale.<br>Track Expenses: Keep track of how much money you spend on supplies, marketing, and other costs.<br>Profit: The difference between your income and expenses. If you earn more than you spend, you are making a profit!<br><br>Simple Accounting Example<br>You start a lemonade stand and sell lemonade for $2 per cup.<br>In one day, you sell 10 cups, making $20.<br>Your costs (lemons, sugar, cups) total $5.<br>Your profit would be $20 (income) - $5 (expenses) = $15.",
+      "<b>Part 5: Exercise - Create a Simple Business Plan</b>:<br><br>Task: Now that you know the basics of planning, marketing, and accounting, let's create a simple business plan.<br>1. Choose Your Business Idea: What business would you like to start? (e.g., a lemonade stand, a pet-sitting service, or a small store).<br>2. Create a Plan: Write down what your business is about. Who will your customers be? What are your goals for the first month?<br>3. Marketing Strategy: How will you tell people about your business? Think of two ways you can market your business (e.g., telling friends, handing out flyers).<br>4. Accounting Plan: How will you keep track of your money? Write down how you will track your sales and expenses. You can create a simple table."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the business plan creation exercise.",
+    "<b>Exercise</b>: Students' business plans will be evaluated based on the clarity of their ideas and the inclusion of planning, marketing, and accounting elements."
+  ],
+  "conclusion": [
+    "By understanding the basics of planning, marketing, and accounting, students will be able to create a simple business plan and apply these concepts in real-life business scenarios."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Report Personal Experiences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Reporting Personal Experiences",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson helps students report personal experiences using appropriate tenses, vocabulary, and a structured approach to storytelling.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed examples of personal experience reports"
+  ],
+  "objectives": [
+    "Students will learn to report personal experiences using the past tense.",
+    "Students will expand their vocabulary to describe experiences more vividly.",
+    "Students will structure their reports with an introduction, details, feelings, and conclusion."
+  ],
+  "rationale": [
+    "Understanding how to report personal experiences helps students improve their storytelling, writing, and communication skills."
+  ],
+  "methodology": [
+    "The lesson will involve explanations, examples, discussions, and a writing exercise to help students practice reporting their experiences."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Reporting Personal Experiences</b>:<br><br>Reporting personal experiences means sharing something that has happened to you in the past. We often use the past tense when describing experiences. For example: “I went to the park last Saturday.”<br><br><b>Key Vocabulary:</b><br>Experience, Event, Adventure, Travel, Memory, Experience phrases (e.g., 'I remember when...', 'Last summer I...')<br><br>Discussion: Ask students to think about their favorite event or memory and how they would share it with a friend. Discuss what kind of details make a good story: who, what, when, where, and why.",
+      "<b>Part 2: Understanding Tenses for Reporting Experiences</b>:<br><br>The past tense is commonly used when talking about experiences. Here are some key points:<br><br>Simple past tense: Used for actions that are finished. E.g., 'I visited the zoo yesterday.'<br>Past continuous tense: Used for actions that were happening at a certain time in the past. E.g., 'I was reading when the phone rang.'<br>Past perfect tense: Used to show an action that happened before another action in the past. E.g., 'I had finished my homework before I went outside.'<br><br><b>Examples:</b><br>Simple past: 'I went to the beach last weekend.'<br>Past continuous: 'I was watching TV when I heard the doorbell.'<br>Past perfect: 'I had traveled to three countries before I turned 10.'",
+      "<b>Part 3: Expanding Vocabulary and Content</b>:<br><br><b>Vocabulary:</b> Focus on words and phrases that help describe experiences more vividly.<br>Use adjectives to make the experience more colorful. E.g., 'It was an exciting, fun day.'<br>Use adverbs to describe how something was done. E.g., 'I quickly ran to the bus stop.'<br>Time markers: 'Last week,' 'When I was younger,' 'A few years ago.'<br><br><b>Example Sentences:</b><br>'I had a wonderful experience at the amusement park last summer.'<br>'We traveled to the mountains, and it was a peaceful trip.'<br><br><b>Content Focus:</b> Teach students to add details that will make their reports interesting. For example, 'What did you see, hear, or feel?' or 'What was the best part of your experience?'",
+      "<b>Part 4: Structuring the Experience Report</b>:<br><br>A good personal experience report includes:<br><br>1. Introduction: Introduce the experience (e.g., where it happened, when, with whom).<br>2. Details: Describe what happened. Use chronological order (first, then, after that, finally).<br>3. Feelings or Reflections: Share how the experience made you feel or what you learned.<br>4. Conclusion: Wrap up the story by summarizing or explaining the impact of the experience.<br><br><b>Example:</b> 'Last summer, I went to the beach with my family. We swam in the sea, played volleyball, and built sandcastles. It was so much fun! I felt really happy to spend time with my family, and I learned how to swim better.'",
+      "<b>Part 5: Exercise (Reporting Personal Experiences)</b>:<br><br>Activity:<br>1. Ask students to think of a personal experience they want to share (e.g., a trip, a family gathering, or an interesting event).<br>2. They should write their report using the following structure:<br>Introduction: Where, when, and who was involved.<br>Details: What happened? What was exciting or interesting?<br>Feelings: How did they feel during the experience?<br>Conclusion: What did they learn or how did the experience end?<br><br>3. Encourage them to use the past tense and appropriate vocabulary.<br>4. After they finish writing, let them share their stories with a partner or the class.<br>5. Optional Challenge: Ask them to use at least one past continuous and one past perfect tense in their report."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and their ability to use the correct tenses and vocabulary in their reports.",
+    "<b>Exercise</b>: The written report will assess the students' understanding of the structure, vocabulary, and tenses used in reporting personal experiences."
+  ],
+  "conclusion": [
+    "By learning how to report personal experiences, students will improve their writing and storytelling skills, while also developing a better understanding of the use of tenses in English."
+  ]
+},
 
 // Week 8
 // Lesson 1
+{
+  "title": "Reporting on a Conversation, Speech, or Scenery",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Reporting on a Conversation, Speech, or Scenery",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson focuses on teaching students how to report briefly on a conversation, speech, or scenery by identifying the main point, using the correct tense, and including relevant content.",
+  "materials": [
+    "Audio clips of conversations",
+    "Short video or story scenes",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will learn how to report on a conversation, speech, or scenery by identifying the main point.",
+    "Students will practice using the correct tense (past, present, future) when reporting.",
+    "Students will enhance their skills in writing clear and concise reports."
+  ],
+  "rationale": [
+    "Learning to report effectively helps students summarize key ideas and messages in different contexts, improving their communication and writing skills."
+  ],
+  "methodology": [
+    "The lesson will involve explanation, activities, and practice exercises to help students master the skill of reporting."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Reporting</b>:<br><br>Start by explaining that reporting involves briefly summarizing the main points of a conversation, speech, or scenery. When reporting, it's important to convey the key idea or message without going into unnecessary details.<br><br>Discuss the importance of identifying the main point of what is being said or seen. This will be the focus of the report.<br><br>Mention that when reporting, students need to pay attention to the tense (past, present, or future) depending on when the event took place.<br><br>Example: Conversation – “I spoke with my friend, and she told me about her trip to the zoo. The main point was that she saw a tiger for the first time.” Tense: Past tense, since the conversation happened earlier.",
+      "<b>Part 2: Identifying the Main Point</b>:<br><br>Teach students to listen or look for the most important idea in a conversation, speech, or scene. This is the main point.<br><br>The main point is usually the central theme, such as a key event, an important piece of information, or the core idea of the discussion or description.<br><br>Emphasize that students should focus on what the speaker or the scene is trying to communicate most strongly.<br><br>Activity: Play a short audio clip of a conversation or show a scene from a story or video. Ask students to identify the main point.<br><br>Example conversation: “I went to the park yesterday. I saw my friend and we played soccer. It was really fun.” Main Point: They played soccer in the park.",
+      "<b>Part 3: Using the Correct Tense</b>:<br><br>Discuss how tense (past, present, future) changes depending on when the event occurred.<br><br>Past tense: When something has already happened.<br>Present tense: When something is happening now.<br>Future tense: When something is going to happen.<br><br>Example:<br>Past tense: “He spoke about the weather during his speech.”<br>Present tense: “She is explaining the results of the experiment.”<br>Future tense: “They will talk about the new book next week.”<br><br>Activity: Provide sentences in different tenses. Have students identify the tense and rewrite the sentence with the correct tense.",
+      "<b>Part 4: Reporting on Scenery, Conversation, or Speech</b>:<br><br>Demonstrate how to report on a conversation, speech, or scenery. Focus on:<br>Conversation: Report who was talking, what was said, and the main point.<br>Speech: Mention the speaker, the topic, and the main message.<br>Scenery: Describe what was seen briefly and highlight the key details.<br><br>Examples:<br>Conversation: 'John and Mary were talking about their weekend plans. John said he was going to the beach, and Mary was planning to visit her grandparents. The main point was that they were both excited about their plans.'<br>Speech: 'The teacher gave a speech about the importance of teamwork. She emphasized that working together helps us achieve more. The main point was that cooperation is key to success.'<br>Scenery: 'The garden was filled with colorful flowers and buzzing bees. The main point was the beauty and liveliness of the garden.'",
+      "<b>Part 5: Exercise</b>:<br><br>Activity 1: Reporting on a Conversation<br>Listen to a short conversation (or read a dialogue). Write down the main point and use the correct tense to report it.<br><br>Activity 2: Reporting on a Speech<br>Watch a short speech (or read a short passage from a speech). Write a brief report, identifying the main point and using the appropriate tense.<br><br>Activity 3: Reporting on Scenery<br>Show an image or video of a scene. Write a brief description of the main point of the scene."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and discussions.",
+    "<b>Exercise</b>: The reports written by students will be evaluated for accuracy in identifying the main point and using the correct tense."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will be able to report on conversations, speeches, and scenery effectively, focusing on the main point and using the appropriate tense."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Sources of Income Generation",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, February 1, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Sources of Income Generation",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of income generation, covering different sources of income, potential organizations offering financial assistance, and how to access income-generating opportunities.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts on types of income generation",
+    "Pictures or illustrations of different income-generating activities"
+  ],
+  "objectives": [
+    "Students will learn the different types of sources of income generation.",
+    "Students will be introduced to organizations that offer financial assistance.",
+    "Students will understand how to access and utilize income-generating opportunities."
+  ],
+  "rationale": [
+    "Understanding sources of income generation helps students become aware of various ways to earn money and the importance of financial independence."
+  ],
+  "methodology": [
+    "The lesson will be interactive, including discussions, explanations, and group exercises to engage students and reinforce the concepts of income generation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Income Generation</b>:<br><br>Income generation refers to the ways in which people earn money to meet their needs and wants. It can come from different sources, such as working for a company, running a business, or receiving financial support from various organizations.<br><br>Discussion Points:<br>People earn money in different ways depending on their skills, interests, and the available opportunities.<br>Examples of income-generating activities: working as a teacher, selling products, farming, or providing a service like babysitting.",
+      "<b>Part 2: Types of Sources of Income Generation</b>:<br><br><b>1. Employment</b>: People work for a company or organization and receive a salary or wage in return for their time and skills.<br>Examples: Teachers, doctors, office workers.<br><br><b>2. Business</b>: Entrepreneurs start their own businesses to provide goods or services and earn income from sales.<br>Examples: Shop owners, online sellers, farmers.<br><br><b>3. Investments</b>: People can invest their money in businesses or financial products, which then generate returns (interest, dividends, or capital gains).<br>Examples: Bank interest, stock market investments, rental income from property.<br><br><b>4. Government Assistance and Grants</b>: Organizations or governments offer financial assistance to support individuals or businesses in need.<br>Examples: Government grants, community support programs, educational scholarships.",
+      "<b>Part 3: Potential Organizations Offering Financial Assistance</b>:<br><br><b>Non-governmental Organizations (NGOs)</b>: Many NGOs provide financial assistance for education, healthcare, and business development.<br>Examples: UNICEF, World Bank.<br><br><b>Banks and Microfinance Institutions</b>: These offer loans and financial services to individuals or businesses, especially in underdeveloped areas.<br>Example: Microfinance loans to small-scale farmers or local entrepreneurs.<br><br><b>Government Programs</b>: Governments often create programs to provide financial support to students, farmers, or those facing economic hardship.<br>Examples: Social security, unemployment benefits, business development grants.<br><br><b>Private Companies</b>: Some companies offer financial aid through scholarships, funding for projects, or corporate social responsibility initiatives.<br>Example: Coca-Cola, Google, and other large companies offering grants for education or small business funding.",
+      "<b>Part 4: How to Access and Use Income-Generating Opportunities</b>:<br><br><b>Research</b>: Find out which organizations offer assistance in your local area or online.<br><b>Apply</b>: Fill out the necessary forms and meet the requirements (like business plans for loans or proof of need for grants).<br><b>Manage Funds</b>: Use the financial help responsibly, whether it's reinvesting in a business, paying for education, or saving for the future.",
+      "<b>Part 5: Exercise (Identifying Income Generation Sources)</b>:<br><br>In groups, have students list at least 5 different sources of income generation they know or have learned about in the lesson.<br>For each source, describe briefly how it works and give an example (e.g., employment: teachers work in schools to earn a salary).<br>Have each group share one source of income with the class and explain how it helps people or businesses."
+    ]
+  ],
+  "assessments": [
+    "<b>Group Exercise</b>: Students will demonstrate their understanding by listing different income sources and explaining them to the class.",
+    "<b>Discussion</b>: Evaluate students' understanding during the class discussion and group sharing of income generation sources."
+  ],
+  "conclusion": [
+    "By learning about the different sources of income generation, students will understand how people earn money and how they can access opportunities for financial support."
+  ]
+},
 
 // Week 9
 // Lesson 1
+{
+  "title": "Expressing Agreement and Disagreement",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, February 3, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Expressing Agreement and Disagreement",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students how to express agreement and disagreement in English using various vocabulary and phrases.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets"
+  ],
+  "objectives": [
+    "Students will understand and use different vocabulary to express agreement and disagreement.",
+    "Students will formulate sentences to affirm or deny statements in English."
+  ],
+  "rationale": [
+    "Learning how to express agreement and disagreement is essential for clear communication and understanding others’ opinions."
+  ],
+  "methodology": [
+    "The lesson will include explanations, dialogues, and practice activities to reinforce the use of phrases for agreeing and disagreeing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Agreement and Disagreement</b>:<br><br>Begin by explaining that in conversations, we often need to agree or disagree with someone’s opinion or statement. There are different ways to express both agreement and disagreement, and it's important to use the right words to convey how we feel.<br><br>Examples of Agreement:<br>'Yes'<br>'I agree'<br>'That's right'<br>'I think so too'<br>'Exactly!'<br><br>Examples of Disagreement:<br>'No'<br>'I disagree'<br>'That's not true'<br>'Not at all'<br>'Never'",
+      "<b>Part 2: Affirming or Agreeing</b>:<br><br>Focus on how we can affirm or agree with statements. Explain that agreeing means to show that we share the same opinion or belief.<br><br>Vocabulary to Affirm:<br>Yes: A simple way to agree.<br>I agree: Shows you share the same opinion.<br>That's right: Confirms what someone has said.<br>I think so too: Expresses that you have the same opinion.<br>Exactly: Shows complete agreement.<br><br>Activity: Read a few statements aloud and ask students to affirm them. For example, 'The sky is blue.' Students will respond with phrases like 'Yes' or 'I agree.'",
+      "<b>Part 3: Denying or Disagreeing</b>:<br><br>Now, let's look at how to disagree or deny a statement. Disagreeing means to express that you do not share the same opinion or that something is not true.<br><br>Vocabulary to Deny:<br>No: A direct way to disagree.<br>I disagree: A polite way to show you don’t agree.<br>That’s not true: Denies the statement by saying it's incorrect.<br>Never: Strongly denies something.<br>Not at all: A polite way of strongly disagreeing.<br><br>Activity: Read statements aloud and ask students to disagree. For example, 'The sun is green.' Students will respond with 'That's not true' or 'I disagree.'",
+      "<b>Part 4: Practicing in Context</b>:<br><br>Now, let's practice using agreement and disagreement in sentences. Create dialogues with students where they have to agree or disagree with various statements.<br><br>Example Dialogues:<br>Teacher: 'The earth is flat.'<br>Student 1: 'No, that's not true.'<br>Teacher: 'I like ice cream.'<br>Student 2: 'I agree, I love ice cream too!'<br><br>Encourage students to create their own sentences, using the vocabulary they've learned for both agreeing and disagreeing.",
+      "<b>Part 5: Exercise (Practice)</b>:<br><br>Instructions: Hand out a worksheet with 10 statements. Students must decide whether they agree or disagree with each one, and then write a response using the correct vocabulary.<br><br>Example Worksheet:<br>1. 'Cats can fly.'<br>2. 'The moon is made of cheese.'<br>3. 'You can learn a new language.'<br>4. 'All fish can live in fresh water.'<br>5. 'The earth is the center of the universe.'<br><br>Exercise:<br>Write your response to each statement, using phrases like 'Yes,' 'I agree,' 'That's not true,' 'I disagree,' or 'Never.'<br><br>Wrap-up: After completing the worksheet, review the answers as a class and discuss why certain statements are true or false. Encourage students to use different phrases for agreement and disagreement as they explain their answers."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: Observe students as they participate in the dialogues and complete the worksheet.",
+    "<b>Exercise</b>: Check if students can correctly use different vocabulary to express agreement and disagreement."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will have gained the ability to express agreement and disagreement using appropriate vocabulary and will understand the importance of using these expressions to communicate effectively."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Identifying Types of Businesses",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Identifying Types of Businesses",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about different types of businesses such as basket making, door mats, and pottery. They will learn the basic nature of these businesses and how they operate.",
+  "materials": [
+    "Pictures or videos of basket making, door mats, and pottery",
+    "Paper and markers for the exercise"
+  ],
+  "objectives": [
+    "Students will be able to identify different types of businesses such as basket making, door mats, and pottery.",
+    "Students will understand the basic nature of these businesses and how they operate."
+  ],
+  "rationale": [
+    "Learning about various types of businesses provides students with an understanding of local industries and encourages entrepreneurial thinking."
+  ],
+  "methodology": [
+    "The lesson will involve explaining different businesses through videos and images, followed by hands-on exercises for students to apply what they've learned."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Business</b>:<br><br>Definition of Business:<br>Start by explaining that a business is an organization or activity where goods or services are produced or provided in exchange for money. Businesses can range from small local operations to large global companies.<br><br>Types of Businesses:<br>Introduce the concept that there are many types of businesses, each producing different types of products or services. Some businesses are based on physical goods, while others provide services. Explain that today, we will focus on businesses that produce physical goods like handmade products.",
+      "<b>Part 2: Basket Making</b>:<br><br>What is Basket Making?:<br>Basket making is a traditional business where people create baskets from materials like reeds, willow, or plastic. The baskets can be used for storage, decoration, or carrying things.<br><br>Process of Basket Making:<br>Show a short video or pictures of how baskets are made. Discuss how raw materials are collected, prepared, and then woven into a finished product.<br><br>Importance of Basket Making Business:<br>Talk about how basket making can be a local business, often passed down through generations. It can provide income to families and offer unique, handmade products to the community.",
+      "<b>Part 3: Door Mat Business</b>:<br><br>What is a Door Mat Business?:<br>This business involves the production of mats used at the entrance of homes or offices. Door mats can be made from different materials such as coir (coconut fiber), rubber, or synthetic fibers.<br><br>Process of Making Door Mats:<br>Explain how raw materials are sourced, cut, shaped, and often printed with designs or messages. Discuss how some businesses may offer customized mats for specific customers.<br><br>Importance of Door Mat Business:<br>Highlight that this type of business caters to both the decorative and functional needs of homes and businesses. It can also provide job opportunities in manufacturing and design.",
+      "<b>Part 4: Pottery Business</b>:<br><br>What is Pottery?:<br>Pottery involves creating items such as bowls, plates, cups, and vases from clay. Pottery businesses can range from small home-based studios to larger factories producing goods for the global market.<br><br>Process of Pottery Making:<br>Explain the steps of making pottery: selecting clay, shaping it (by hand or on a potter's wheel), firing it in a kiln, and then glazing it for decoration. You can show examples of finished pottery.<br><br>Importance of Pottery Business:<br>Discuss how pottery businesses often have both artistic and functional purposes. Pottery can also be sold in local markets or online.",
+      "<b>Part 5: Exercise (Identifying Types of Businesses)</b>:<br><br>1. Match the Business to its Description:<br>Provide students with descriptions of different types of businesses (e.g., Basket making, Door mats, Pottery) and have them match each description to the correct business type.<br><br>2. Create Your Own Business Idea:<br>Ask students to think of their own small business idea. Have them draw a picture of what their product might look like and write a short description of what their business would produce and how it could benefit the community.<br><br>3. Class Discussion:<br>After completing the activity, ask students to share their business ideas with the class. Discuss the benefits of various businesses and why they might succeed in different environments."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in the matching exercise and class discussion.",
+    "<b>Exercise</b>: The matching exercise and student business ideas will be assessed to check their understanding of different types of businesses."
+  ],
+  "conclusion": [
+    "By learning about different types of businesses, students will develop a better understanding of local industries and the importance of small businesses in their communities."
+  ]
+},
 
 // Week 10
 // Lesson 1
+{
+  "title": "Correct Use of Language to Express Respect, Responsibility, and Leadership",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Correct Use of Language to Express Respect, Responsibility, and Leadership",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson will teach students how to use language to express respect, responsibility, and leadership, enhancing their vocabulary and understanding the importance of language in different contexts.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts with vocabulary lists",
+    "Role play scenario cards"
+  ],
+  "objectives": [
+    "Students will learn how to use language to express respect, responsibility, and leadership.",
+    "Students will expand their vocabulary related to respect, responsibility, and leadership.",
+    "Students will understand how language choices can impact relationships and leadership."
+  ],
+  "rationale": [
+    "Teaching students how to use language to express respect, responsibility, and leadership helps them communicate effectively, build positive relationships, and become strong leaders."
+  ],
+  "methodology": [
+    "The lesson will involve direct instruction, vocabulary building, role-playing, and reflection to help students apply what they learn in real-life situations."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Respect, Responsibility, and Leadership</b>:<br><br>What is Respect?<br>Respect means treating others with kindness, valuing their opinions, and recognizing their worth.<br><br>Key Questions:<br>How do we show respect to others in our classroom?<br>Why is it important to respect our peers, teachers, and community?<br><br>Examples of Respectful Language:<br>'Please,' 'Thank you,' 'Excuse me.'<br>Active listening, giving people space to speak, and acknowledging others' ideas.",
+      "<b>Part 2: What is Responsibility?</b>:<br><br>Definition: Responsibility is being accountable for your actions and understanding the consequences of your behavior.<br><br>Key Questions:<br>What responsibilities do we have as students?<br>How can we show responsibility to our friends, family, and school?<br><br>Examples of Responsible Language:<br>'I will take care of this,' 'I will complete my tasks on time.'<br>Apologizing when making a mistake and offering solutions.",
+      "<b>Part 3: What is Leadership?</b>:<br><br>Definition: Leadership is guiding and motivating others to work towards a common goal, setting a positive example.<br><br>Key Questions:<br>What makes a good leader?<br>How can we show leadership in our daily life?<br><br>Examples of Leadership Language:<br>'Let's work together,' 'I believe in you.'<br>Encouraging others, offering help, and being a role model.",
+      "<b>Part 4: Building a Wider Vocabulary for Expressing Respect, Responsibility, and Leadership</b>:<br><br>Expanding Vocabulary:<br>Discuss words that show respect, responsibility, and leadership.<br><br>Respectful Vocabulary: polite, considerate, empathetic, kind, courteous.<br>Responsible Vocabulary: accountable, dependable, reliable, trustworthy, disciplined.<br>Leadership Vocabulary: motivating, guiding, inspiring, confident, supportive.",
+      "<b>Part 5: Practical Application of Respect, Responsibility, and Leadership</b>:<br><br>Role Play:<br>Have students role-play different situations where they need to use language that expresses respect, responsibility, and leadership.<br><br>Scenario 1: A student needs to help another who is struggling with a task.<br>Scenario 2: A disagreement occurs, and students need to resolve it respectfully.<br>Scenario 3: A group project is underway, and a student shows leadership in organizing the group."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during role play and class discussions.",
+    "<b>Exercise</b>: The vocabulary application exercise will assess the students' ability to use respectful, responsible, and leadership language in context."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand how to use language to express respect, responsibility, and leadership, and be able to apply this in their everyday interactions."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Understanding and Expressing Area, Mass, Weight, Capacity, and Height",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Zambian Language",
+  "topic": "Understanding and Expressing Area, Mass, Weight, Capacity, and Height",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on helping students express and calculate area, mass, weight, capacity, and height using appropriate units of measurement.",
+  "materials": [
+    "Measuring tape",
+    "Scale",
+    "Measuring cups and containers",
+    "Rectangular paper or book",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will be able to express and calculate area, mass, weight, capacity, and height using appropriate units of measurement.",
+    "Students will understand the different units used to measure area, mass, weight, capacity, and height, and how to convert between them.",
+    "Students will apply their knowledge to real-life scenarios, such as calculating the area of a room or measuring the capacity of a container."
+  ],
+  "rationale": [
+    "Understanding these basic measurements is important for students as they are essential in everyday life, from cooking and construction to understanding the physical world around them."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, class discussions, practical exercises, and examples to explain the concepts of area, mass, weight, capacity, and height."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Area, Mass, Weight, Capacity, and Height</b>:<br><br>Area: Area refers to the amount of space inside a shape or surface. It is measured in square units, such as square meters (m²) or square centimeters (cm²). For example, the area of a rectangle can be calculated using the formula:<br><br>Mass: Mass is the measure of how much matter is in an object. The common unit for mass is the kilogram (kg) or gram (g). For example, a book may have a mass of 500 grams.<br><br>Weight: Weight is the force exerted by gravity on an object, and it is often measured in newtons (N) or kilograms (kg). The weight of an object depends on its mass and the force of gravity acting upon it.<br><br>Capacity: Capacity is the amount of space inside a container or how much liquid a container can hold. It is typically measured in liters (L) or milliliters (mL). For example, a water bottle may have a capacity of 500 mL.<br><br>Height: Height refers to the measurement of how tall something is, often measured in meters (m) or centimeters (cm). For example, the height of a tree could be 3 meters.",
+      "<b>Part 2: Units of Measurement and Conversion</b>:<br><br>Area Units: Square meters (m²) and square centimeters (cm²) are the primary units for measuring area.<br><br>Conversion: 1 m² = 10,000 cm².<br>Example: A rectangle with dimensions 2 meters by 3 meters has an area of 6 m² or 60,000 cm².<br><br>Mass Units: Kilograms (kg) and grams (g) are used for mass.<br><br>Conversion: 1 kg = 1,000 g.<br>Example: A package weighing 2 kg is equivalent to 2,000 g.<br><br>Weight Units: Weight is commonly measured in newtons (N), but for everyday use, kilograms (kg) are often used to describe weight in places where gravity is constant.<br>Example: A person weighing 50 kg would have a weight of 490 N on Earth, as weight is calculated by mass × gravity (9.8 m/s²).<br><br>Capacity Units: Liters (L) and milliliters (mL) are used for measuring liquids.<br><br>Conversion: 1 L = 1,000 mL.<br>Example: A bottle with a capacity of 2 L holds 2,000 mL of water.<br><br>Height Units: Meters (m) and centimeters (cm) are used for height.<br><br>Conversion: 1 m = 100 cm.<br>Example: A building with a height of 5 m is equivalent to 500 cm.",
+      "<b>Part 3: Real-life Applications</b>:<br><br>Area: Example: To cover the floor of a room with tiles, we need to calculate the area of the floor. If the room is 4 meters long and 5 meters wide, the area would be:<br><br>Mass and Weight: Example: A sack of rice weighs 10 kg. If you were to lift it, you are essentially lifting the weight of 10 kg, which can also be described as the force exerted by gravity on the mass of the rice.<br><br>Capacity: Example: A jug can hold 2 liters of juice. If you pour 500 mL into the jug, you are adding half of the jug's capacity.<br><br>Height: Example: The height of a basketball hoop is 3 meters. You may compare it to the height of your classmates to understand relative heights.",
+      "<b>Part 4: Practical Demonstrations</b>:<br><br>1. Measuring Area: Use a rectangular piece of paper or a book and measure its length and width. Multiply them to find the area in square centimeters or meters.<br><br>2. Weighing Objects: Bring a scale to class and weigh different objects such as books, bags, or fruits. Record the mass in grams or kilograms.<br><br>3. Capacity Exploration: Fill different containers with liquid and measure their capacity. Use a measuring cup to check how many milliliters or liters each container holds.<br><br>4. Height Comparison: Use a measuring tape to measure the height of various students in the class and compare them to objects around the room.",
+      "<b>Part 5: Exercise</b>:<br><br>1. Area Calculation: Calculate the area of a rectangle with a length of 7 meters and a width of 3 meters.<br><br>2. Mass Conversion: Convert the following: 500 grams to kilograms, 2.5 kg to grams.<br><br>3. Weight Calculation: If a person has a mass of 60 kg, what is their approximate weight on Earth in newtons?<br><br>4. Capacity Conversion: Convert the following: 3 liters to milliliters, 450 mL to liters.<br><br>5. Height Comparison: Measure the height of your desk and compare it to the height of your friend. Which is taller, and by how much?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the demonstrations and exercises.",
+    "<b>Exercise</b>: The exercise will evaluate the students' understanding of the concepts and their ability to perform the necessary calculations."
+  ],
+  "conclusion": [
+    "This lesson provided an understanding of how we measure different quantities such as area, mass, weight, capacity, and height. Students learned about the appropriate units used and how to convert between them. In the exercise, students practiced applying these concepts to real-life examples."
+  ]
+}
 
 ];
