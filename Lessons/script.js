@@ -83,8 +83,9 @@ function searchLessonPlans(event) {
     ...lessonPlans49a,
     
     ...lessonPlans50a, ...lessonPlans50b, ...lessonPlans50c,
-    /*
+    */
     ...lessonPlans51a, 
+    /*
     ...lessonPlans52, ...lessonPlans53, 
      ...lessonPlans54,
     */
@@ -104,9 +105,9 @@ function searchLessonPlans(event) {
     ...lessonPlans62a, 
     
     ...lessonPlans63a,
-    
+    */
     ...lessonPlans64a, 
-    ...lessonPlans65a,
+/*    ...lessonPlans65a,
     ...lessonPlans66a,
     
     
@@ -156,6 +157,7 @@ const teacherNames = {
     "Sky Soarers": "Mr. Muteba Masheka",
     "Avian Aces": "Mr. Muteba Masheka",
     "Nimbus Navigators": "Mr. Clinton Mbaso",
+    "Fledgling Falcons": "Mr. Clinton Mbaso",
     "All Classes": "All Teachers"
 };
 
