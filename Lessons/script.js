@@ -126,10 +126,10 @@ function searchLessonPlans(event) {
     ...lessonPlans79a,
     */
     ...lessonPlans80a, ...lessonPlans80b, ...lessonPlans80c,
-    /*
+    
     ...lessonPlans81a, ...lessonPlans81b, ...lessonPlans81c,
     ...lessonPlans82a, ...lessonPlans82b, ...lessonPlans82c,
-    ...lessonPlans83a, ...lessonPlans83b, ...lessonPlans83c,
+/*    ...lessonPlans83a, ...lessonPlans83b, ...lessonPlans83c,
     ...lessonPlans84a, ...lessonPlans84b, ...lessonPlans84c,
     ...lessonPlans85a, ...lessonPlans85b, ...lessonPlans85c,
     ...lessonPlans86a, ...lessonPlans86b, ...lessonPlans86c,
