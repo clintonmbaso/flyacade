@@ -103,293 +103,322 @@ const lessonPlans41a = [
 // Week 3
 // Lesson 1
 {
-  "title": "Body Movement: Skip, Bend, Hoop",
+  "title": "Enhancing Coordination and Flexibility through Movement",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, February 3, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Body Movement: Skip, Bend, Hoop",
+  "topic": "Coordination and Flexibility",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students practice and improve their body movement skills, including skipping, bending, and using a hoop.",
+  "description": "This lesson focuses on improving students' coordination and flexibility through practical movement activities, including skipping, bending, and using hoops.",
   "materials": [
-    "Hoops",
-    "Cones or markers for obstacle courses",
-    "Music for movement activities"
+    "Skipping ropes",
+    "Hula hoops",
+    "Exercise mats"
   ],
   "objectives": [
-    "Students will practice skipping, bending, and using hoops.",
-    "Students will understand how body movement can improve coordination and flexibility."
+    "Students will practice skipping, bending, and using hoops to enhance coordination and flexibility.",
+    "Students will understand the importance of body movement in improving physical fitness.",
+    "Students will engage in physical exercises that promote agility, balance, and muscle control."
   ],
   "rationale": [
-    "Body movement activities are important for developing physical coordination, strength, and flexibility, as well as fostering teamwork and communication skills."
+    "Improving coordination and flexibility is essential for physical fitness, preventing injuries, and enhancing overall movement skills. This lesson helps students develop body awareness and muscle control through engaging activities."
   ],
   "methodology": [
-    "The lesson will include guided physical activities, music, and interactive games to engage students in fun and challenging movement tasks."
+    "The lesson will include discussions, demonstrations, and practical movement exercises to enhance coordination and flexibility."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Body Movement</b>: Students will discuss the importance of body movement and how it helps us stay healthy and strong.",
-      "<b>Skipping Practice</b>: Students will practice skipping in place and moving around the room, focusing on rhythm and coordination.",
-      "<b>Bending Exercise</b>: Students will practice bending their knees and touching their toes, exploring different bending movements.",
-      "<b>Hoop Activity</b>: Students will learn how to use hoops for rolling, twirling, and jumping through, enhancing their motor skills.",
-      "<b>Class Exercise</b>:<br>1. Skip from one side of the room to the other.<br>2. Bend down and try to touch your toes.<br>3. Use the hoop to roll it to a partner."
+      "<b>Part 1: Introduction to Coordination and Flexibility (10 minutes)</b><br><br>Discussion Questions:<br>1. What do you think coordination means in movement?<br>2. Why is flexibility important for the body?<br>3. Can you think of activities that improve coordination and flexibility?<br><br>Teacher Explanation:<br>Coordination is the ability to move different parts of the body smoothly and efficiently. Good coordination helps in activities like running, jumping, and catching a ball.<br><br>Flexibility is the ability of muscles and joints to move through a full range of motion. It prevents injuries and improves performance in physical activities.<br><br>Examples of activities that improve coordination and flexibility include skipping, bending, and using hoops.",
+      "<b>Part 2: Benefits of Skipping, Bending, and Using Hoops (10 minutes)</b><br><br>Skipping:<br>• Improves cardiovascular endurance.<br>• Strengthens leg muscles and improves foot coordination.<br>• Helps with rhythm and balance.<br><br>Bending:<br>• Increases flexibility in the back, legs, and core.<br>• Prevents stiffness and improves posture.<br>• Helps in everyday movements like picking up objects safely.<br><br>Using Hoops:<br>• Improves hand-eye coordination.<br>• Strengthens core muscles when twisting or moving with the hoop.<br>• Encourages creativity and fun in movement.",
+      "<b>Part 3: Demonstration and Instructions (10 minutes)</b><br><br>The teacher demonstrates proper techniques for skipping, bending, and using hoops.<br>Students observe and ask questions.<br><br>Break down movements into simple steps:<br>• Skipping: Start with small jumps, maintain a steady rhythm.<br>• Bending: Stretch slowly, avoid jerking movements.<br>• Hoops: Begin with simple waist movements, then try arm and leg movements.",
+      "<b>Part 4: Practical Application – Group Activity (15 minutes)</b><br><br>Divide students into three stations:<br>1. Skipping station – students practice skipping for 1-2 minutes.<br>2. Bending station – students perform stretching and bending exercises.<br>3. Hoops station – students try various hoop movements.<br><br>Rotate after 3-4 minutes so all students experience each activity.",
+      "<b>Part 5: Exercise Routine & Cool Down (10 minutes)</b><br><br>Full-Body Workout Routine:<br>1. Warm-up (2 minutes) – Light jogging on the spot.<br>2. Skipping (2 minutes) – Jump continuously with a steady rhythm.<br>3. Bending Exercises (2 minutes) – Toe touches, side bends, and back stretches.<br>4. Hoop Exercises (2 minutes) – Spinning around the waist or passing it between hands.<br>5. Cool down (2 minutes) – Deep breathing and slow stretching.<br><br>Reflection:<br>• What did you find easy or challenging?<br>• How can these exercises help in other sports and daily life?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' participation and ability to follow the movement instructions during the activities.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of you skipping or bending, and describe the movement you used."
+    "<b>Observation</b>: The teacher will observe students’ participation and technique during the exercises.",
+    "<b>Discussion</b>: Students will reflect on their experiences and share how they felt during the activities."
   ],
   "conclusion": [
-    "Through practice and interactive activities, students will improve their body movement skills and develop greater physical coordination and flexibility."
+    "Recap the importance of coordination and flexibility.",
+    "Encourage students to practice these movements at home to improve fitness.",
+    "End with a fun challenge: Who can keep the hoop spinning the longest?"
   ]
 },
 
 // Lesson 2
 {
-  "title": "Body Movement: Hop, Balance, and Manipulation",
+  "title": "Hopping, Balancing, and Manipulating Objects",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Body Movement: Hop, Balance, and Manipulation",
+  "topic": "Coordination and Motor Skills Development",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "3",
   "lessonNumber": "2",
-  "description": "This lesson aims to help students explore different types of body movement, including hopping, balancing, and manipulation skills.",
+  "description": "This lesson focuses on improving students' coordination and motor skills through hopping, balancing, and object manipulation activities.",
   "materials": [
-    "Open space for physical movement",
-    "Cones or markers for balancing activities",
-    "Small objects (e.g., beanbags) for manipulation exercises"
+    "Cones",
+    "Bean bags",
+    "Balls",
+    "Hoops",
+    "Balance beam or tape"
   ],
   "objectives": [
-    "Students will practice hopping, balancing, and manipulating objects.",
-    "Students will develop coordination and motor skills through these activities."
+    "Perform hopping, balancing, and object manipulation activities with improved coordination.",
+    "Develop motor skills by engaging in structured movement-based exercises.",
+    "Understand the importance of balance, control, and agility in physical activities.",
+    "Apply learned skills in a fun and engaging exercise challenge."
   ],
   "rationale": [
-    "Developing physical skills like hopping, balancing, and manipulation is essential for overall motor development and coordination."
+    "Enhancing coordination and motor skills is essential for physical development, injury prevention, and success in sports and daily activities."
   ],
   "methodology": [
-    "The lesson will include a combination of demonstrations, guided practice, and independent activities to allow students to explore and develop their movement skills."
+    "The lesson will involve demonstrations, guided exercises, and an obstacle course challenge to develop students' coordination, balance, and object manipulation skills."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Body Movement</b>: The teacher will explain the importance of body movement and introduce the activities of hopping, balancing, and manipulation.",
-      "<b>Hopping Exercise</b>: Students will practice hopping on one foot and then on both feet, focusing on balance and coordination.",
-      "<b>Balancing Exercise</b>: Students will walk along a line or use cones as markers to practice balancing, aiming to stay steady without falling.",
-      "<b>Manipulation Exercise</b>: Students will practice manipulating small objects (like beanbags or balls), passing them from hand to hand or balancing them on different body parts.",
-      "<b>Class Exercise</b>:<br>1. Hop from one side of the room to the other. <br>2. Balance on one foot for 10 seconds. <br>3. Try to pass an object from one hand to the other without dropping it."
+      "<b>Part 1: Introduction</b>:<br><br>Begin by discussing the importance of coordination and motor skills in daily activities and sports.<br>Explain that today’s lesson will focus on hopping, balancing, and manipulating objects, which help improve agility, stability, and overall body control.<br><br>Ask students:<br>- Why do athletes practice coordination exercises?<br>- Can they think of any sports that require good balance? (e.g., gymnastics, basketball, soccer)<br><br>Demonstrate a few simple movements to introduce the key skills (e.g., hopping in place, standing on one foot, rolling a ball across the floor).",
+      "<b>Part 2: Hopping and Jumping Activities</b>:<br><br>Explain that hopping helps improve leg strength and coordination.<br><br>Lead students through the following hopping exercises:<br>1. <b>Single-Leg Hopping</b>: Hop forward and backward on one foot, then switch to the other foot.<br>2. <b>Side-to-Side Hops</b>: Jump side to side over a line or marker.<br>3. <b>Hopscotch Challenge</b>: Use a drawn hopscotch grid or cones to practice hopping in a pattern.<br>4. <b>Relay Race</b>: Students hop from one point to another while maintaining speed and control.<br><br>Discuss how hopping engages muscles and improves balance.",
+      "<b>Part 3: Balancing Activities</b>:<br><br>Explain that balance is crucial for movement control and injury prevention.<br><br>Lead students through balancing exercises:<br>1. <b>One-Leg Stand</b>: Stand on one foot for 30 seconds, increasing difficulty by closing eyes or extending arms.<br>2. <b>Balance Walk</b>: Walk in a straight line placing one foot directly in front of the other (heel-to-toe).<br>3. <b>Balancing Objects</b>: Students balance a small object (e.g., book, bean bag) on their heads while walking.<br>4. <b>Partner Balance Challenge</b>: In pairs, one student tries to gently push the other off balance while they resist.<br><br>Discuss how these activities help in sports and daily movement.",
+      "<b>Part 4: Object Manipulation Activities</b>:<br><br>Explain that object manipulation improves hand-eye coordination and motor control.<br><br>Lead students through these activities:<br>1. <b>Ball Dribbling</b>: Dribble a ball using hands or feet while maintaining control.<br>2. <b>Bean Bag Toss</b>: Toss and catch bean bags with a partner, increasing distance.<br>3. <b>Passing Challenge</b>: Pass a ball between teammates using different techniques (chest pass, bounce pass).<br>4. <b>Juggling Basics</b>: Introduce simple juggling with scarves or light objects to practice coordination.<br><br>Encourage students to focus on precision and rhythm while handling objects.",
+      "<b>Part 5: Final Exercise – Obstacle Course Challenge</b>:<br><br>Set up an obstacle course incorporating all three skills:<br>1. <b>Hopping Section</b>: Students hop through hoops or over cones.<br>2. <b>Balancing Section</b>: Walk on a balance beam or line without stepping off.<br>3. <b>Object Manipulation Section</b>: Carry a ball while weaving through cones or toss a bean bag at a target.<br><br>Time each student or group, encouraging friendly competition.<br><br>Discuss improvements and challenges faced during the activity."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' coordination and balance during the exercises.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of yourself balancing or hopping. Describe how you feel when you do these activities."
+    "<b>Observation</b>: The teacher will observe students' ability to complete the activities with control.",
+    "<b>Feedback</b>: Provide feedback on technique and improvements.",
+    "<b>Reflection</b>: Students will be encouraged to share their challenges and improvements.",
+    "<b>Optional</b>: Have students write a short reflection on what they learned."
   ],
   "conclusion": [
-    "By engaging in hopping, balancing, and manipulation activities, students will improve their physical coordination, balance, and motor skills."
+    "Ask students to share which activity was the most challenging and how they improved.",
+    "Emphasize how these skills apply to real-life sports and physical activities.",
+    "Encourage students to practice coordination exercises at home."
   ]
 },
 
 // Week 4
 // Lesson 1
-{
-  "title": "Postural Habits: Sitting and Standing",
+ {
+  "title": "Proper Sitting and Standing Posture",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Postural Habits: Sitting and Standing",
+  "topic": "Proper Sitting and Standing Posture",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students understand the importance of good sitting and standing postures and how these habits affect their health.",
+  "description": "This lesson teaches students about the correct sitting and standing postures, the importance of maintaining good posture, and the negative effects of poor posture.",
   "materials": [
-    "Posture demonstration chart",
-    "Classroom chairs and desks",
-    "Posture-related illustrations or images"
+    "Chairs",
+    "Whiteboard and markers",
+    "Projector (if available)",
+    "Printed posture diagrams"
   ],
   "objectives": [
-    "Students will learn the correct sitting and standing postures.",
-    "Students will understand the importance of good posture for health."
+    "Identify the correct sitting and standing postures.",
+    "Understand the importance of maintaining good posture for overall health.",
+    "Recognize the negative effects of poor posture.",
+    "Practice and apply correct posture techniques in daily life."
   ],
   "rationale": [
-    "Developing good postural habits from a young age helps prevent discomfort and health issues as students grow."
+    "Understanding and practicing proper posture helps prevent health issues like back and neck pain, improves concentration, and enhances overall well-being."
   ],
   "methodology": [
-    "The lesson will incorporate demonstrations, discussions, and practical exercises to engage students in learning about proper posture."
+    "The lesson will use discussions, demonstrations, and hands-on activities to help students understand and apply proper sitting and standing postures."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Sitting Posture</b>: Students will learn about the importance of sitting up straight and keeping their feet flat on the floor with their back supported. The teacher will demonstrate proper sitting posture using a chair.",
-      "<b>Standing Posture</b>: Students will learn how to stand with their weight evenly distributed on both feet, shoulders back, and head aligned with the spine.",
-      "<b>Posture Comparison</b>: The teacher will demonstrate both correct and incorrect sitting and standing postures, and students will compare them.",
-      "<b>Class Exercise</b>: Students will practice sitting and standing correctly in class. The teacher will walk around and provide feedback.",
-      "<b>Discussion</b>: Students will discuss how sitting and standing properly can prevent back pain and help them feel more comfortable throughout the day."
+      "<b>Part 1: Introduction to Posture (10 minutes)</b>:<br><br><b>Discussion Questions:</b><br>What do you think 'posture' means?<br>Have you ever experienced back pain or discomfort after sitting for a long time?<br><br><b>Explanation:</b><br>Posture refers to the way we hold our body while sitting, standing, and moving.<br>Good posture means keeping the body aligned in a way that reduces strain on muscles and joints.<br>Poor posture can lead to back pain, neck strain, fatigue, and even long-term health issues.",
+      "<b>Part 2: Correct Sitting Posture (10 minutes)</b>:<br><br><b>Explanation:</b><br><b>Feet:</b> Keep both feet flat on the floor or use a footrest if needed.<br><b>Knees:</b> Keep knees at a 90-degree angle and slightly apart.<br><b>Back:</b> Sit back in the chair with your back straight and shoulders relaxed.<br><b>Head & Neck:</b> Keep your head aligned with your spine and avoid leaning forward.<br><b>Arms:</b> Keep arms relaxed and supported by armrests or on the table.<br><br><b>Activity:</b><br>Ask students to sit as they normally would. Then, guide them to adjust their posture to match the correct sitting posture.",
+      "<b>Part 3: Correct Standing Posture (10 minutes)</b>:<br><br><b>Explanation:</b><br><b>Feet:</b> Keep feet shoulder-width apart for balance.<br><b>Knees:</b> Keep knees slightly bent, not locked.<br><b>Back:</b> Stand tall with your back straight and shoulders relaxed.<br><b>Head & Neck:</b> Keep your head level, with ears aligned with shoulders.<br><b>Arms:</b> Keep arms relaxed at your sides.<br><br><b>Activity:</b><br>Ask students to stand and assess their posture in pairs. One student checks while the other adjusts their posture.",
+      "<b>Part 4: Importance of Good Posture (5 minutes)</b>:<br><br><b>Discussion:</b><br>How can good posture improve our health?<br>What problems can bad posture cause over time?<br><br><b>Key Benefits of Good Posture:</b><br>Reduces strain on muscles and joints.<br>Prevents back, neck, and shoulder pain.<br>Improves breathing and circulation.<br>Boosts confidence and appearance.<br>Enhances concentration and energy levels.",
+      "<b>Part 5: Posture Exercise & Practice (5-10 minutes)</b>:<br><br><b>Activity: 'Posture Challenge'</b><br>Divide students into small groups.<br>Each group takes turns demonstrating good and bad posture.<br>Others identify what needs to be corrected.<br>Finish with a simple stretching routine to relax the muscles."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students' posture during class activities and provide feedback on improvements.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of yourself sitting and standing in the correct posture."
+    "<b>Observation</b>: The teacher will observe students’ sitting and standing posture during activities.",
+    "<b>Class Participation</b>: Students' engagement in discussions and practice exercises will be evaluated.",
+    "<b>Posture Challenge</b>: Students will demonstrate their understanding of correct posture through peer assessments."
   ],
   "conclusion": [
-    "By practicing good sitting and standing postures, students will develop healthy habits that will benefit them in daily activities and contribute to better overall well-being."
+    "By learning and practicing correct posture, students will be able to reduce health risks and improve their overall well-being.",
+    "Encourage students to practice proper posture at school and home."
+  ],
+  "homework": [
+    "Observe family members' posture and note any corrections needed.",
+    "Practice sitting and standing correctly for a week and share experiences."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Postural Habits: Kneeling and Bending",
+  "title": "Proper Kneeling, Bending, and Posture",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Postural Habits: Kneeling and Bending",
+  "topic": "Proper Kneeling, Bending, and Posture",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson aims to teach students about the importance of proper postural habits, focusing on kneeling and bending, and how these habits affect our bodies.",
+  "description": "This lesson teaches students the correct way to kneel and bend, the importance of maintaining proper posture, common posture mistakes, and how to practice correct kneeling, bending, and posture through guided exercises.",
   "materials": [
-    "Visual aids showing proper and improper kneeling and bending",
-    "Classroom space for demonstration",
-    "Markers or chalk for writing on the board"
+    "Whiteboard and markers",
+    "Demonstration videos (if available)",
+    "Chairs and backpacks for posture practice",
+    "Objects for bending and lifting exercises"
   ],
   "objectives": [
-    "Students will learn the correct way to kneel and bend.",
-    "Students will understand the importance of maintaining proper posture to avoid injury."
+    "Learn the correct way to kneel and bend.",
+    "Understand the importance of maintaining proper posture to avoid injury.",
+    "Identify common mistakes in posture that may lead to long-term health issues.",
+    "Practice correct kneeling, bending, and posture through guided exercises."
   ],
   "rationale": [
-    "Developing good postural habits is essential for physical health and safety, particularly for young students who are still learning how to interact with their bodies in various environments."
+    "Teaching proper kneeling, bending, and posture is essential for preventing injuries and promoting long-term health. Understanding correct techniques helps students develop good habits that benefit them in daily activities."
   ],
   "methodology": [
-    "The lesson will involve demonstrations, role-playing, and interactive discussions about the impact of poor posture and how to improve it."
+    "The lesson will use discussions, demonstrations, guided practice, and exercises to reinforce proper posture, kneeling, and bending techniques."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Posture</b>: The teacher will introduce the concept of posture, explaining why it is important for maintaining a healthy body.",
-      "<b>Kneeling Demonstration</b>: The teacher will demonstrate the proper way to kneel, emphasizing keeping the back straight and avoiding slouching.",
-      "<b>Bending Demonstration</b>: The teacher will show the proper way to bend by squatting down with the knees bent, not the back, to avoid injury.",
-      "<b>Interactive Practice</b>: Students will practice kneeling and bending in a controlled environment, with the teacher providing feedback on their posture.",
-      "<b>Class Exercise</b>:<br>1. What should you do with your back when bending down?<br>2. How should you kneel to avoid hurting your knees?"
+      "<b>Part 1: Introduction to Kneeling and Bending (10 minutes)</b>:<br><br>Start with a class discussion:<br>Ask students if they have ever experienced back pain or discomfort after lifting something or sitting for a long time.<br>Discuss why bending and kneeling properly is important in daily activities, such as picking up objects, playing sports, or doing household chores.<br>Explain that incorrect bending or kneeling can lead to injuries, especially to the back, knees, and joints.<br><br><b>Key Question:</b><br>Why do you think proper bending and kneeling are important for your health?",
+      "<b>Part 2: Understanding Proper Posture (15 minutes)</b>:<br><br>Show students examples of correct and incorrect posture when:<br>- Standing<br>- Sitting<br>- Walking<br>- Carrying a backpack<br><br>Explain how maintaining proper posture:<br>- Reduces strain on muscles and joints.<br>- Prevents back pain and injuries.<br>- Helps with balance and flexibility.<br><br>Discuss how slouching and improper posture can lead to long-term health issues.<br><br><b>Activity:</b><br>Have students observe their own posture and correct any mistakes.",
+      "<b>Part 3: The Correct Way to Kneel and Bend (15 minutes)</b>:<br><br><b>Bending Properly:</b><br>- Always bend at the hips and knees, not the waist.<br>- Keep the back straight.<br>- Hold objects close to the body when lifting.<br><br><b>Kneeling Properly:</b><br>- Keep the back upright.<br>- Use both knees if kneeling for a long time.<br>- If using one knee, keep the other foot flat on the ground for balance.<br><br>Demonstrate the correct techniques and have students repeat after you.",
+      "<b>Part 4: Common Mistakes and How to Avoid Them (10 minutes)</b>:<br><br>Show examples of common mistakes:<br>- Bending with a curved back.<br>- Kneeling with the knees too far apart or too close together.<br>- Carrying a heavy backpack incorrectly.<br><br>Discuss how students can apply proper techniques in daily activities, such as picking up books, tying shoelaces, and playing sports.",
+      "<b>Part 5: Exercise & Practice (15 minutes)</b>:<br><br><b>Activity 1: Posture Check</b><br>Students walk around the classroom maintaining proper posture.<br>Teacher observes and corrects as needed.<br><br><b>Activity 2: Kneeling and Bending Challenge</b><br>Set up a station with objects to pick up from the floor.<br>Students take turns demonstrating proper bending and kneeling while lifting objects.<br><br><b>Activity 3: Balance & Strength Exercise</b><br>- Squats: Helps strengthen leg muscles and improve bending posture.<br>- Lunges: Helps with balance when kneeling.<br>- Wall sits: Encourages proper sitting posture."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' posture during practice and provide guidance for improvement.",
-    "<br><b>Homework</b>:<br>1. Draw a picture showing a proper kneeling position and a bending position.<br>2. Write down one way improper posture can affect your body."
+    "<b>Observation</b>: The teacher will observe students' posture and bending techniques during exercises.",
+    "<b>Practical Demonstration</b>: Students will be evaluated on their ability to demonstrate correct kneeling, bending, and posture techniques."
   ],
   "conclusion": [
-    "By learning and practicing proper kneeling and bending techniques, students will develop healthier postural habits that will benefit their overall physical well-being."
+    "Recap the importance of proper posture, kneeling, and bending.",
+    "Ask students how they will use these techniques in daily life.",
+    "Encourage them to practice good posture at school and home."
   ]
 },
 
 // Week 5
 // Lesson 1
 {
-  "title": "Understanding Postural Habits: Walking and Running",
+  "title": "Proper Posture for Walking and Running",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Postural Habits: Walking and Running",
+  "topic": "Proper Posture for Walking and Running",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "5",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students understand the importance of postural habits while walking and running and how they impact their movement and health.",
+  "description": "This lesson teaches students about proper posture for walking and running, helping them improve movement efficiency, prevent injuries, and maintain good posture in daily activities.",
   "materials": [
-    "Space for movement",
-    "Class chart or whiteboard",
-    "Visual aids showing correct and incorrect postures while walking and running"
+    "Visual aids (posture images/videos)",
+    "Markers and whiteboard",
+    "Cones or markers for walking/running drills"
   ],
   "objectives": [
-    "Students will identify the correct and incorrect postures for walking and running.",
-    "Students will practice proper posture while walking and running."
+    "Students will identify correct and incorrect postures for walking and running.",
+    "Students will practice maintaining proper posture while walking and running."
   ],
   "rationale": [
-    "Understanding and practicing proper posture helps prevent injuries and promotes healthy movement in daily activities."
+    "Good posture is essential for reducing injuries, improving balance, and enhancing movement efficiency.",
+    "Students will learn how posture affects their comfort and performance in daily activities."
   ],
   "methodology": [
-    "The lesson will include demonstrations, guided practice, and group discussions to engage students in active learning."
+    "The lesson will use discussions, demonstrations, and practical activities to teach and reinforce proper posture techniques."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Posture</b>: Students will discuss what posture means and why it is important while walking and running.",
-      "<b>Walking Practice</b>: The teacher will demonstrate the correct posture for walking and guide students through walking around the classroom while maintaining good posture.",
-      "<b>Running Practice</b>: Students will practice running while focusing on their posture, with the teacher providing feedback on body alignment and movement.",
-      "<b>Correct vs. Incorrect Posture</b>: The teacher will show visual aids comparing correct and incorrect postures for walking and running and explain the potential impact on health and movement.",
-      "<b>Class Exercise</b>:<br>1. Walk around the room and show your best posture.<br>2. Run in place while keeping your body straight and balanced."
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br><b>Discussion Questions:</b><br>Have you ever noticed how some people walk or run differently?<br>What do you think makes someone’s posture good or bad while walking or running?<br><br><b>Explanation:</b><br>Posture refers to how your body is positioned when standing, walking, or running.<br>Good posture helps prevent injuries, improves balance, and makes movement more efficient.<br>Poor posture can lead to fatigue, pain, and injuries over time.",
+      "<b>Part 2: Correct and Incorrect Walking Postures (10 minutes)</b>:<br><br><b>Correct Walking Posture:</b><br>1. Head held high, eyes looking forward (not down).<br>2. Shoulders relaxed, not hunched.<br>3. Back straight, avoiding slouching.<br>4. Arms swinging naturally at the sides.<br>5. Feet landing on the heel and rolling forward to the toes.<br><br><b>Incorrect Walking Posture:</b><br>Leaning too far forward or backward.<br>Slouching shoulders.<br>Looking down at the ground while walking.<br>Taking very short or very long steps.<br><br><b>Activity:</b><br>Have students observe a demonstration of both correct and incorrect walking postures.<br>Ask volunteers to demonstrate what they think is good or bad posture.",
+      "<b>Part 3: Correct and Incorrect Running Postures (10 minutes)</b>:<br><br><b>Correct Running Posture:</b><br>1. Head up, looking straight ahead.<br>2. Shoulders relaxed and slightly back.<br>3. Arms bent at a 90-degree angle, moving naturally.<br>4. Core engaged and body slightly leaning forward.<br>5. Landing on the midfoot and pushing off with the toes.<br><br><b>Incorrect Running Posture:</b><br>Running with a stiff, upright posture.<br>Hunching over or letting arms cross the body.<br>Overstriding (taking steps that are too long).<br>Landing heavily on the heels.<br><br><b>Activity:</b><br>Show videos or images of correct and incorrect running postures.<br>Let students comment on what they observe.",
+      "<b>Part 4: Why Proper Posture Matters (5 minutes)</b>:<br><br><b>Benefits of Good Posture:</b><br>Reduces the risk of injuries.<br>Makes walking and running more comfortable and efficient.<br>Improves breathing by keeping the chest open.<br>Helps in maintaining endurance and stamina.<br><br><b>Discussion:</b><br>Ask students how they feel when they walk or run incorrectly.<br>Encourage them to share experiences of pain or discomfort caused by bad posture.",
+      "<b>Part 5: Practice and Exercise (10-15 minutes)</b>:<br><br><b>Warm-Up (5 minutes):</b><br>Light stretching (neck rolls, shoulder stretches, hamstring stretches).<br>Slow jogging in place to loosen up.<br><br><b>Main Activity (10 minutes):</b><br>1. <b>Walking Drill</b> – Students will walk across a marked line while maintaining proper posture. The teacher will correct posture if needed.<br>2. <b>Running Drill</b> – Students will run a short distance using correct posture. The teacher will observe and give feedback.<br>3. <b>Posture Challenge</b> – Students will pair up and observe each other’s walking and running, giving feedback based on what they’ve learned.<br><br><b>Cool-Down (3 minutes):</b><br>Gentle stretching and deep breathing."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to demonstrate proper posture while walking and running.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of yourself walking or running and show the correct posture."
+    "<b>Observation</b>: The teacher will observe students' posture during walking and running drills.",
+    "<b>Feedback</b>: Students will pair up and give feedback on each other's posture, reinforcing their understanding."
   ],
   "conclusion": [
-    "By practicing proper postural habits while walking and running, students will develop a greater awareness of their body mechanics and improve their movement efficiency."
+    "Review key points about good walking and running posture.",
+    "Ask students to self-assess: 'How will I improve my walking and running posture in daily life?'",
+    "Encourage students to practice good posture outside of class."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Basic Knot Tying Skills: 2 Knots Related to Basic First Aid",
+  "title": "Square Knot and Bowline Knot",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Basic Knot Tying Skills: 2 Knots Related to Basic First Aid",
+  "topic": "Learning Basic Knots: Square Knot and Bowline Knot",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "5",
   "lessonNumber": "2",
-  "description": "This lesson aims to teach students basic knot tying skills, focusing on two knots related to first aid: the square knot and the bowline knot.",
+  "description": "This lesson teaches students how to tie the square knot and bowline knot, focusing on their importance in basic first aid.",
   "materials": [
-    "Rope or string for knot tying practice",
-    "Class chart or whiteboard",
-    "First aid kit for demonstration"
+    "Rope or string",
+    "Visual aids (pictures or diagrams)",
+    "Cloth for bandages"
   ],
   "objectives": [
     "Students will learn how to tie the square knot and bowline knot.",
     "Students will understand the importance of these knots in basic first aid."
   ],
   "rationale": [
-    "Learning basic knot tying skills is essential for personal safety and can be useful in emergency situations, especially in first aid scenarios."
+    "Learning how to tie these knots equips students with practical skills that are essential in first aid and emergency situations."
   ],
   "methodology": [
-    "The lesson will involve hands-on knot tying practice, demonstrations, and group discussions to reinforce the importance of these skills."
+    "The lesson will use demonstrations, hands-on practice, and discussions to teach students the knots and their applications."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Knot Tying</b>: The teacher will introduce the importance of knots in first aid and emergency situations.",
-      "<b>Square Knot Demonstration</b>: The teacher will demonstrate how to tie a square knot and explain its use in tying bandages or securing items.",
-      "<b>Bowline Knot Demonstration</b>: The teacher will demonstrate how to tie a bowline knot and explain its use in creating a secure loop for first aid situations.",
-      "<b>Hands-On Practice</b>: Students will practice tying both knots using ropes or strings, with guidance from the teacher.",
-      "<b>Class Exercise</b>:<br>1. Why is the square knot useful in first aid?<br>2. When would you use the bowline knot in an emergency?"
+      "<b>Part 1: Introduction to Knots</b>:<br><br>Discussion: Start by explaining what knots are and why they are essential. Knots are used to tie things together, secure items, and create loops. In first aid, knots are especially useful for securing bandages, splints, or making a tourniquet in emergency situations.<br><br>Relevance: Highlight the practical applications of knots in everyday life and first aid. For example, how the square knot can be used to tie bandages together, and the bowline knot can be used to secure a person to a rescue rope in emergency situations.<br><br>Types of Knots: Introduce the two main knots to be covered in the lesson: Square Knot: Used for joining two ropes or ends of bandages together. Bowline Knot: A knot that creates a secure loop at the end of a rope, often used for tying something securely without slipping.",
+      "<b>Part 2: Demonstration of Square Knot</b>:<br><br>Step-by-Step Guide:<br><br>1. Hold one end of the rope in each hand.<br>2. Cross the right end over the left and pull it through the hole.<br>3. Take the left end over the right, then pull it through the hole created.<br>4. Tighten the knot by pulling both ends.<br><br>Visual Aid: Use a large rope or a visual aid (e.g., pictures or diagrams) to demonstrate the knot on the board or screen. Ensure each student follows along with their rope or string.<br><br>Practice Time: Allow students a few minutes to practice tying the square knot themselves, offering guidance as needed. Walk around to check for correct technique.",
+      "<b>Part 3: Demonstration of Bowline Knot</b>:<br><br>Step-by-Step Guide:<br><br>1. Make a small loop with the rope, leaving a bit of slack.<br>2. Take the working end (the free end) and pass it up through the loop.<br>3. Bring the working end around the standing part of the rope.<br>4. Pass the working end back down through the loop.<br>5. Tighten the knot by pulling the standing part while holding the loop in place.<br><br>Visual Aid: Again, use a rope or visual aid to demonstrate the bowline knot, making sure each step is clearly visible to the students.<br><br>Practice Time: Allow students to try tying the bowline knot with their ropes or string. Offer support and ensure they understand the steps.",
+      "<b>Part 4: The Importance of Knots in First Aid</b>:<br><br>Discussion on First Aid Applications: Explain why these knots are vital in first aid:<br><br>Square Knot: It is ideal for tying bandages or securing items together. In first aid, it can be used to tie a dressing in place or to connect a splint to an injured limb.<br><br>Bowline Knot: The bowline is especially useful in emergency rescue situations. It can be used to create a loop around a person or an object without it tightening or slipping, making it ideal for lifting or securing individuals during emergencies.<br><br>Real-Life Examples: Share examples of scenarios where these knots would be useful:<br><br>Square Knot: Securing a dressing to a wound or tying together a torn bandage.<br><br>Bowline Knot: Tying a rope around a person to pull them from a dangerous situation, such as in a water rescue.",
+      "<b>Part 5: Exercise & Hands-On Practice</b>:<br><br>Objective: Reinforce the skills learned by allowing students to practice the knots in a simulated first aid scenario.<br><br>Exercise Scenario:<br><br>Scenario 1: Tie a square knot to secure a makeshift bandage around a “wound.” Provide a piece of cloth (as a bandage) and rope. Students should use the square knot to secure the bandage around a simulated injury (such as a rolled-up towel or their arm).<br><br>Scenario 2: Tie a bowline knot to create a loop for securing an object (like a water bottle or chair). Ask students to form a loop that could potentially be used to lift a person or animal.<br><br>Reflection: After completing the exercise, ask students to reflect on how these knots could be used in real first aid situations. Discuss the importance of practicing these knots in preparation for emergencies."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' knot tying skills and ability to apply them in a first aid context during hands-on practice.",
-    "<br><b>Homework</b>:<br>1. Write down the steps for tying the square knot and the bowline knot. Draw illustrations if possible."
+    "<b>Q&A</b>: Engage students by asking them to explain the difference between the square knot and the bowline knot, and where they might use each knot in first aid or everyday life.",
+    "<b>Observation</b>: The teacher will observe students' engagement during the hands-on exercises and provide feedback."
   ],
   "conclusion": [
-    "By practicing knot tying and understanding their relevance in first aid, students will gain practical skills that are important for safety and emergency preparedness."
+    "Reinforce the idea that practicing these knots is an important skill for both first aid and general safety. Encourage students to keep practicing tying the knots at home."
   ]
 },
+
 
 // Week 7
 // Lesson 1
