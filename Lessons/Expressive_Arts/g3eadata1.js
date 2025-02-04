@@ -4,145 +4,169 @@ const lessonPlans42a = [
 // Week 2
 // Lesson 1
 {
-  "title": "Identifying Tools to Cut Materials",
+  "title": "Introduction to Cutting Tools",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Identifying Tools to Cut Materials",
+  "topic": "Introduction to Cutting Tools",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "2",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students identify different tools used to cut materials, focusing on saws as an example.",
+  "description": "This lesson introduces students to cutting tools, focusing on different types of saws, their uses, safety precautions, and a hands-on demonstration.",
   "materials": [
-    "Examples of saws (e.g., hand saw, hacksaw)",
-    "Various materials that can be cut (e.g., wood, plastic, cardboard)",
-    "Class chart or whiteboard"
+    "Hand saw",
+    "Hacksaw",
+    "Coping saw",
+    "Safety goggles",
+    "Wood, plastic, and metal samples",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will identify different cutting tools, particularly saws.",
-    "Students will understand the proper use and safety measures for using cutting tools."
+    "Students will learn about different types of saws and their uses.",
+    "Students will understand the importance of safety precautions when using cutting tools.",
+    "Students will observe a demonstration of how to use a hand saw and hacksaw correctly.",
+    "Students will participate in identifying and matching saws to their respective materials.",
+    "Students will answer questions to reinforce their understanding of the lesson."
   ],
   "rationale": [
-    "Learning to identify and safely use cutting tools is essential for hands-on activities in creative and technology studies."
+    "Understanding cutting tools helps students develop practical skills in handling materials safely and effectively.",
+    "Teaching safety precautions ensures that students can work with tools responsibly.",
+    "Hands-on activities enhance learning through observation and participation."
   ],
   "methodology": [
-    "The lesson will incorporate demonstrations, discussions, and hands-on activities to engage students in learning how to identify and use cutting tools."
+    "The lesson will include explanations, demonstrations, discussions, and group activities to help students understand cutting tools and their safe usage."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Cutting Tools</b>: Students will be introduced to various cutting tools, with a focus on saws. The teacher will explain the different types of saws used for cutting different materials.",
-      "<b>Safety Precautions</b>: The teacher will discuss the safety measures that should be taken when using cutting tools, including the importance of wearing safety goggles and handling tools with care.",
-      "<b>Demonstration</b>: The teacher will demonstrate how to use a hand saw and a hacksaw on materials like wood and plastic, showing proper techniques and safety measures.",
-      "<b>Group Exercise</b>: Students will work in small groups to identify different saws and match them to the materials they are most appropriate for cutting.",
-      "<b>Class Exercise</b>:<br>1. What type of cutting tool would you use to cut a piece of wood?<br>2. Why is safety important when using cutting tools?"
+      "<b>Part 1: Introduction to Cutting Tools</b>:<br><br>Begin by engaging students with a simple question:<br>'Have you ever seen someone using a saw to cut wood or plastic?'<br><br>Explain that cutting tools are used to shape and divide materials into smaller pieces. Focus on saws, which are commonly used for cutting different materials. Introduce a few types of saws:<br><br>Hand Saw – Used for cutting wood.<br>Hacksaw – Used for cutting plastic and metal.<br>Coping Saw – Used for cutting curved shapes in wood and plastic.<br><br>Show real examples or pictures of these saws to help students understand their differences.",
+      "<b>Part 2: Safety Precautions</b>:<br><br>Discuss why safety is important when using cutting tools. Emphasize these key points:<br><br>Always wear safety goggles to protect the eyes from dust and small particles.<br>Hold the saw properly and keep fingers away from the blade.<br>Use a stable surface to prevent the material from moving while cutting.<br>Ask for adult supervision when using sharp tools.<br><br>Ask students: 'Why do you think we need to follow these safety rules?' Encourage discussion and allow students to share their thoughts.",
+      "<b>Part 3: Demonstration</b>:<br><br>Show students how to use a hand saw and a hacksaw safely. Demonstrate the proper techniques:<br><br>1. Holding the saw correctly – Firm grip on the handle.<br>2. Positioning the material – Secure it on a stable surface.<br>3. Using smooth, steady strokes – Avoid forcing the saw.<br><br>If possible, allow a few students to try under supervision.",
+      "<b>Part 4: Group Exercise</b>:<br><br>Divide students into small groups and give them pictures of different saws. Ask them to:<br><br>Identify each saw.<br>Match each saw to the material it is best suited for cutting (wood, plastic, or metal).<br><br>Encourage teamwork and discussion.",
+      "<b>Part 5: Class Exercise</b>:<br><br>Ask students to answer the following questions in their notebooks:<br><br>1. What type of cutting tool would you use to cut a piece of wood?<br>2. Why is safety important when using cutting tools?<br><br>After they complete their answers, discuss the questions as a class."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, identification of tools, and demonstration of safe practices.",
-    "<br><b>Homework</b>:<br>1. Write a short paragraph about why it is important to use the correct cutting tool for each material."
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and group activities.",
+    "<b>Exercise</b>: The class exercise will assess students' understanding of cutting tools and safety precautions."
   ],
   "conclusion": [
-    "By identifying tools and understanding their safe usage, students will gain practical knowledge of cutting tools, which is essential for creative and technology-based activities."
+    "Recap the lesson by asking students:<br>What are some types of saws?<br>Why is it important to use cutting tools safely?<br>What safety measures should we always follow?",
+    "Encourage students to always ask for help from an adult when using sharp tools."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Identifying Tools for Cutting Materials",
+  "title": "Introduction to Cutting Tools",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, February 5, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Identifying and Using Cutting Tools",
+  "topic": "Introduction to Cutting Tools",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson aims to help students identify tools used for cutting materials and understand their proper use and safety precautions.",
+  "description": "This lesson introduces students to different types of cutting tools, their uses, and safety measures when handling them.",
   "materials": [
-    "Examples of cutting tools (e.g., hacksaws, scissors, knives)",
-    "Materials to cut (e.g., paper, wood, plastic)",
-    "Class chart or whiteboard"
+    "Scissors",
+    "Hacksaw",
+    "Knife",
+    "Paper",
+    "Foam or cardboard",
+    "Clay",
+    "Safety gloves"
   ],
   "objectives": [
-    "Students will identify various cutting tools, including hacksaws, scissors, and knives.",
-    "Students will demonstrate proper handling and safety precautions when using cutting tools."
+    "Students will learn about different types of cutting tools and their uses.",
+    "Students will understand the importance of using the right tool for the right material.",
+    "Students will practice handling cutting tools safely and correctly.",
+    "Students will engage in a hands-on activity to reinforce learning.",
+    "Students will discuss and understand safety rules when using cutting tools."
   ],
   "rationale": [
-    "Understanding and safely using cutting tools is essential for creative projects and everyday tasks, fostering practical skills and safety awareness."
+    "Understanding cutting tools helps students develop practical skills for everyday tasks.",
+    "Teaching proper handling and safety ensures students can use tools responsibly and avoid injuries."
   ],
   "methodology": [
-    "The lesson will involve hands-on practice, demonstrations, and discussions to engage students in active learning about cutting tools."
+    "The lesson will use discussions, demonstrations, hands-on activities, and safety instructions to ensure student engagement and understanding."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Cutting Tools</b>: The teacher will introduce common cutting tools such as hacksaws, scissors, and knives, explaining their uses.",
-      "<b>Demonstration</b>: The teacher will demonstrate the proper way to hold and use each cutting tool safely.",
-      "<b>Hands-On Activity</b>: Students will practice cutting materials like paper or wood using the appropriate tools under supervision.",
-      "<b>Safety Discussion</b>: The class will discuss safety measures to follow while using cutting tools, including wearing protective gear and handling tools responsibly.",
-      "<b>Class Exercise</b>:<br>1. Name three cutting tools and their uses.<br>2. Why is it important to handle cutting tools safely?<br>3. What material is commonly cut with a hacksaw?"
+      "<b>Part 1: Introduction to Cutting Tools</b>:<br><br>The teacher will introduce the topic by asking students if they have ever used scissors, knives, or other cutting tools. The discussion will focus on the different types of cutting tools and their uses. Some examples include:<br><br><b>Scissors</b> – Used for cutting paper, cloth, and light materials.<br><b>Hacksaw</b> – Used for cutting wood, plastic, or metal.<br><b>Knife</b> – Used for cutting food, ropes, or soft materials.<br><br>The teacher will explain that different tools are designed for different materials, and using the right tool for the job makes cutting easier and safer.",
+      "<b>Part 2: Demonstration of Cutting Tools</b>:<br><br>The teacher will show each cutting tool to the students and demonstrate:<br><br>- How to hold and handle the tool properly.<br>- The correct cutting technique for each tool.<br>- How to position fingers and hands to avoid injuries.<br>- The importance of cutting away from the body to prevent accidents.<br><br>For example, the teacher might cut a piece of paper with scissors, a piece of softwood with a hacksaw, and a small piece of string with a knife.",
+      "<b>Part 3: Hands-On Activity</b>:<br><br>Students will get a chance to use the tools under supervision. They will:<br><br>- Cut pieces of paper with scissors.<br>- Use a small saw (or a plastic substitute) to cut soft materials like foam or cardboard.<br>- Observe a safe demonstration of a knife cutting a soft material like clay (if appropriate).<br><br>The teacher will closely supervise and correct students if they handle the tools improperly.",
+      "<b>Part 4: Safety Discussion</b>:<br><br>The teacher will lead a class discussion on tool safety, emphasizing the following points:<br><br>- Always wear safety gear like gloves or goggles when needed.<br>- Never run while holding sharp tools.<br>- Pass tools handle-first to others.<br>- Keep fingers away from cutting edges.<br>- Store cutting tools in a safe place after use.<br><br>Students will be encouraged to share their own ideas about staying safe while using cutting tools.",
+      "<b>Part 5: Class Exercise</b>:<br><br>Students will answer the following questions to check their understanding:<br><br>1. Name three cutting tools and their uses.<br>2. Why is it important to handle cutting tools safely?<br>3. What material is commonly cut with a hacksaw?<br><br>After the exercise, the teacher will review the answers and reinforce key safety rules."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to identify and safely use cutting tools during the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Draw and label a cutting tool you learned about in class.<br>2. Write one safety rule for using cutting tools."
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Class Exercise</b>: Students will answer questions to assess their understanding of cutting tools and safety."
   ],
   "conclusion": [
-    "By engaging in hands-on activities and discussions, students will gain practical skills in identifying and using cutting tools safely and effectively."
+    "By learning about cutting tools and their safe handling, students will develop important skills for practical use while ensuring safety."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Using Local Materials to Make Items",
+  "title": "Introduction to Local Materials",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Identifying and Using Local Materials to Make Items",
+  "topic": "Understanding and Using Local Materials",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "2",
-  "lessonNumber": "2",
-  "description": "This lesson aims to help students identify local materials used to create items and practice making simple items using materials such as clay and grass.",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to common local materials in their community, their traditional and modern uses, and how they can be used to create simple items.",
   "materials": [
-    "Examples of local materials (e.g., clay, grass, reeds, twigs)",
-    "Tools for shaping and assembling items (e.g., small knives, string)",
-    "Pictures or samples of items made from local materials"
+    "Clay",
+    "Grass",
+    "Reeds",
+    "Wood",
+    "Stones",
+    "Pictures of objects made from local materials"
   ],
   "objectives": [
-    "Students will identify local materials used for making everyday items.",
-    "Students will create simple items using local materials like clay and grass."
+    "Identify common local materials found in their community.",
+    "Understand traditional and modern uses of these materials.",
+    "Observe a demonstration of how to use local materials to make simple items.",
+    "Create their own item using local materials."
   ],
   "rationale": [
-    "Understanding and utilizing local materials fosters creativity, resourcefulness, and an appreciation for traditional crafts."
+    "Learning about local materials helps students appreciate their environment and understand how natural resources are used in daily life.",
+    "It encourages creativity and hands-on skills by engaging students in making useful items from locally available materials."
   ],
   "methodology": [
-    "The lesson will incorporate observation, group discussions, and hands-on crafting activities to engage students in learning."
+    "The lesson will use discussion, demonstration, and hands-on practice to engage students in learning about local materials."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Local Materials</b>: Students will discuss local materials commonly found in their community, such as clay, grass, and reeds.",
-      "<b>Identifying Local Materials</b>: The teacher will display various local materials and explain their traditional and modern uses.",
-      "<b>Demonstration</b>: The teacher will demonstrate how to make a simple item, such as a clay pot or grass mat, using local materials.",
-      "<b>Hands-on Activity</b>: Students will use clay, grass, or other materials to create their own simple items, guided by the teacher.",
-      "<b>Class Exercise</b>:<br>1. Name two items that can be made from clay.<br>2. What material is commonly used to weave baskets?<br>3. Why is it important to use local materials?"
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Begin by asking students what materials they see around them in their community (e.g., clay, grass, reeds, wood, stones).<br>Discuss what these materials are used for (e.g., houses made of clay bricks, baskets woven from grass, mats made from reeds).<br>Explain that these are called local materials because they are naturally available in the environment and used by people in their daily lives.<br>Encourage students to share examples of objects made from local materials that they have seen at home or in the market.",
+      "<b>Part 2: Identifying Local Materials (10 minutes)</b>:<br><br>Show students real samples or pictures of common local materials (clay, grass, reeds, wood, stones, etc.).<br>Explain their traditional uses (e.g., clay for pottery, grass for thatching roofs, reeds for weaving mats).<br>Discuss modern uses (e.g., clay used for making tiles, grass used for decorative items).<br>Allow students to touch and examine the materials to enhance their understanding.",
+      "<b>Part 3: Demonstration (10 minutes)</b>:<br><br>Demonstrate how to use one of the materials to create a simple item.<br><br>Example: Making a small clay pot<br>Show how to shape the clay with hands.<br>Explain the process of drying or baking clay to make it hard.<br>Discuss how people in the past used clay pots for cooking and storing water.<br><br>Alternatively, demonstrate weaving a small mat using grass or reeds and explain the technique.<br>Encourage students to ask questions about the process.",
+      "<b>Part 4: Hands-on Activity (15 minutes)</b>:<br><br>Distribute materials such as clay or grass to students.<br>Guide them in making their own simple items (small clay shapes, mats, or basket designs).<br>Walk around the classroom, assisting students and giving feedback.<br>Once finished, allow students to showcase their work and explain what they created.",
+      "<b>Part 5: Class Exercise (5 minutes)</b>:<br><br>Students will answer the following questions orally or in their notebooks:<br>1. Name two items that can be made from clay.<br>2. What material is commonly used to weave baskets?<br>3. Why is it important to use local materials?<br><br>Wrap-up:<br>Recap key points: Local materials are useful, affordable, and part of our traditions.<br>Encourage students to observe more local materials at home and think about creative ways to use them.<br>Collect and store the students’ work for display or future lessons."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' participation in discussions and crafting activities.",
-    "<br><b>Homework</b>:<br>1. Identify one item in your home made from local materials and describe how it is used."
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions, demonstrations, and hands-on activities.",
+    "<b>Class Exercise</b>: Students will answer questions to assess their understanding of local materials and their uses."
   ],
   "conclusion": [
-    "Through observation, discussions, and crafting, students will develop an understanding of the value of local materials and their role in creating useful items."
+    "By learning about local materials and their uses, students will develop a greater appreciation for their environment and traditional craftsmanship.",
+    "Hands-on activities will enhance their creativity and problem-solving skills, encouraging them to explore more ways to use local materials."
   ]
 },
 
@@ -302,292 +326,312 @@ const lessonPlans42a = [
 // Week 4
 // Lesson 1
 {
-  "title": "Drawing Pictures Based on Life Experiences and Events",
+  "title": "Telling Stories Through Pictures",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Draw Pictures Based on Life Experiences and Events",
+  "topic": "Telling Stories Through Pictures",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson aims to inspire creativity in students by encouraging them to draw pictures based on their life experiences and events they have witnessed or participated in.",
+  "description": "This lesson teaches students how pictures can tell stories and represent important moments in life. Students will illustrate their own special moments using drawings.",
   "materials": [
-    "Drawing paper",
-    "Colored pencils, markers, or crayons",
-    "Examples of pictures depicting life events"
+    "Paper",
+    "Pencils",
+    "Crayons or markers",
+    "Example pictures of life events"
   ],
   "objectives": [
-    "Students will express their creativity through drawing.",
-    "Students will reflect on their life experiences and depict them visually."
+    "Students will understand that pictures can tell stories.",
+    "Students will share personal experiences and translate them into illustrations.",
+    "Students will develop creativity and artistic expression by drawing meaningful moments."
   ],
   "rationale": [
-    "Drawing is a vital way for children to express themselves and develop fine motor skills, creativity, and emotional intelligence."
+    "Visual storytelling helps students express emotions and experiences creatively. This lesson enhances their ability to communicate through art."
   ],
   "methodology": [
-    "The lesson will incorporate individual creativity, storytelling, and class sharing to engage students and foster a supportive learning environment."
+    "The lesson will use discussion, storytelling, drawing activities, and presentations to engage students in expressing stories through pictures."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain how pictures can tell stories and represent our life experiences or important events.",
-      "<b>Storytelling</b>: Students will share a short story or event from their life that they want to illustrate.",
-      "<b>Drawing Activity</b>: Students will draw a picture that represents the life experience or event they shared.",
-      "<b>Class Display</b>: Each student will present their drawing to the class and explain its significance.",
-      "<b>Class Exercise</b>:<br>1. Why do we draw pictures based on life experiences?<br>2. Share one event you would like to draw.<br>3. What materials do you use for drawing?"
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>The teacher begins by explaining how pictures can tell stories and represent important moments in our lives.<br><br>Ask students: 'Have you ever looked at a picture and remembered a special moment?'<br><br>Show examples of pictures that represent different life experiences, such as a birthday party, a family trip, or a special achievement.<br><br>Explain that artists, like storytellers, use drawings to capture memories, emotions, and experiences.<br><br>Ask students to think about a special moment in their life they would like to illustrate.",
+      "<b>Part 2: Storytelling (10 minutes)</b>:<br><br>Each student shares a short story or experience they want to illustrate.<br><br>The teacher encourages students to describe key details: Who was there? What happened? How did it make them feel?<br><br>Examples of stories could include:<br>- A fun day at the park<br>- A festival or celebration<br>- A time they learned something new<br>- A special moment with family or friends<br><br>The teacher helps students visualize their stories by asking questions like:<br>'What colors do you see in your memory?'<br>'What details are important to include in your drawing?'",
+      "<b>Part 3: Drawing Activity (15 minutes)</b>:<br><br>Students receive drawing materials (paper, pencils, crayons, or markers).<br><br>They begin drawing a picture that represents the story they shared.<br><br>The teacher walks around the room, offering guidance and encouragement.<br><br>Students are encouraged to add details that make their drawings unique and expressive.",
+      "<b>Part 4: Class Display & Presentation (10 minutes)</b>:<br><br>Each student presents their drawing to the class.<br><br>They explain what their picture represents and why it is important to them.<br><br>The teacher and classmates give positive feedback.<br><br>The class discusses how different pictures tell different stories and how art can capture emotions and experiences.",
+      "<b>Part 5: Class Exercise</b>:<br><br>Students answer the following questions:<br>1. Why do we draw pictures based on life experiences?<br>2. Share one event you would like to draw.<br>3. What materials do you use for drawing?<br><br>The teacher discusses the answers with the class, reinforcing the idea that art is a powerful way to tell stories and express emotions."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to express themselves through their drawings and storytelling.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of an event or experience you had at home or in the community.<br>2. Write one sentence to describe your drawing."
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions, storytelling, and drawing activities.",
+    "<b>Exercise</b>: The class exercise will evaluate students' understanding of visual storytelling and artistic expression."
   ],
   "conclusion": [
-    "By reflecting on their life experiences and representing them visually, students will develop their artistic skills and ability to express emotions and ideas creatively."
+    "The teacher summarizes the lesson by reminding students that pictures can capture important memories and tell stories in a creative way. They encourage students to continue drawing and using art to express their experiences."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Colour Scenes Based on Own Experiences",
+  "title": "Exploring and Coloring Scenes",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Colour Scenes Based on Own Experiences",
+  "topic": "Exploring and Coloring Scenes",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson aims to engage students in expressing their creativity by coloring scenes based on their personal experiences in different settings.",
+  "description": "This lesson helps students identify and discuss different community scenes while learning how to use colors effectively to depict real-life places.",
   "materials": [
-    "Coloring books or printed sheets with scenes (e.g., village, town, bus stop, marketplace)",
-    "Coloring tools (crayons, markers, or colored pencils)",
-    "Visual aids or pictures of various scenes"
+    "Printed or drawn outlines of different scenes",
+    "Coloring materials (crayons, colored pencils, markers)",
+    "Pictures of community scenes (village, town, bus stop, marketplace)"
   ],
   "objectives": [
-    "Students will identify and relate to different scenes based on their personal experiences.",
-    "Students will use creativity to color scenes accurately and expressively."
+    "Students will identify and discuss different community scenes.",
+    "Students will learn how to use colors effectively to depict real-life places.",
+    "Students will express personal experiences through a coloring activity.",
+    "Students will engage in a class discussion and exercise to reinforce learning."
   ],
   "rationale": [
-    "Encouraging creativity through coloring helps students develop fine motor skills, self-expression, and a connection to their environment."
+    "Understanding community scenes helps students connect their experiences to real-life places.",
+    "Learning how to use colors appropriately enhances creativity and artistic skills.",
+    "Engaging in discussions and hands-on activities promotes critical thinking and self-expression."
   ],
   "methodology": [
-    "The lesson will involve discussions about different scenes, guided demonstrations, and individual coloring activities."
+    "The lesson will use visual aids, discussions, demonstrations, and hands-on coloring activities to engage students."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will show pictures of different scenes (village, town, bus stop, marketplace) and ask students to share their experiences related to these places.",
-      "<b>Coloring Demonstration</b>: The teacher will demonstrate how to use colors effectively to depict different aspects of a scene, such as buildings, vehicles, and people.",
-      "<b>Scene Selection</b>: Students will choose a scene that resonates with their personal experiences (e.g., My Village, My Town, Bus Stop, Market Place).",
-      "<b>Coloring Activity</b>: Students will color their chosen scene, paying attention to details and using colors that represent their experiences.",
-      "<b>Class Exercise</b>:<br>1. Name one thing you often see in a marketplace.<br>2. What colors would you use to color a bus stop?<br>3. Which scene reminds you of home, and why?"
+      "<b>Part 1: Introduction – Exploring Different Scenes</b>:<br><br>The teacher will display pictures of various scenes, such as a village, town, bus stop, and marketplace.<br><br>The teacher will ask students questions like:<br>- 'Have you been to a marketplace before? What did you see?'<br>- 'What do you usually do at a bus stop?'<br>- 'How is a village different from a town?'<br><br>Students will share their experiences, describing what they have seen and done in these places.<br>The teacher will explain that each place has unique characteristics, such as busy streets in a town or open fields in a village.",
+      "<b>Part 2: Coloring Demonstration</b>:<br><br>The teacher will show a sample drawing of a scene (e.g., a marketplace) and demonstrate how to use colors to bring the scene to life.<br><br>The teacher will explain how different colors can represent different things, for example:<br>- Green for trees and grass in a village<br>- Gray or black for roads in a town<br>- Yellow and red for shops or market stalls<br><br>The teacher will encourage students to think about how colors help make a picture more realistic and meaningful.",
+      "<b>Part 3: Scene Selection & Coloring Activity</b>:<br><br>Students will choose a scene that they feel connected to: 'My Village,' 'My Town,' 'Bus Stop,' or 'Marketplace.'<br><br>Each student will receive a printed or drawn outline of their chosen scene.<br><br>Students will begin coloring their scenes, using the color techniques demonstrated by the teacher.<br><br>The teacher will walk around the class, guiding students and encouraging them to be creative.",
+      "<b>Part 4: Class Discussion & Sharing</b>:<br><br>Once students complete their coloring, they will share their artwork with the class.<br><br>The teacher will ask questions such as:<br>- 'Why did you choose this scene?'<br>- 'What colors did you use, and why?'<br><br>Students will explain their choices and discuss their personal experiences related to the scene.<br><br>The teacher will praise students for their creativity and effort.",
+      "<b>Part 5: Class Exercise</b>:<br><br>Students will answer the following questions in their notebooks:<br>1. Name one thing you often see in a marketplace.<br>2. What colors would you use to color a bus stop?<br>3. Which scene reminds you of home, and why?<br><br>After completing the exercise, students will discuss their answers in pairs before sharing with the class."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' creativity and attention to detail during the coloring activity.",
-    "<br><b>Homework</b>:<br>1. Draw and color a scene of your choice at home (e.g., a park or your school).<br>2. Write a short sentence about what you like most about the scene you colored."
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and engagement in the coloring activity.",
+    "<b>Exercise</b>: The written class exercise will assess students' understanding of community scenes and color application."
   ],
   "conclusion": [
-    "By coloring scenes based on their experiences, students will connect with their environment, enhance their creativity, and develop their artistic skills."
+    "The teacher will recap the lesson by highlighting how colors help us represent real-life places.",
+    "The class will review the different scenes and discuss how each one is unique.",
+    "Students will be encouraged to practice drawing and coloring more scenes at home."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Introduction to Computers: Basics",
+  "title": "Introduction to Computers",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding the Basics of Computers",
+  "topic": "Introduction to Computers",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "4",
   "lessonNumber": "3",
-  "description": "This lesson introduces students to the basic concepts of computers, their components, and their uses in everyday life.",
+  "description": "This lesson introduces students to the basics of computers, including their definition, main components, basic operations, and everyday uses.",
   "materials": [
-    "Computer or laptop for demonstration",
-    "Projector for presentation",
-    "Handouts with labeled diagrams of computer parts"
+    "Computer or laptop",
+    "Projector or printed images of computer components",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will understand what a computer is and its purpose.",
-    "Students will identify the main components of a computer and their functions."
+    "Define what a computer is.",
+    "Identify and describe the main components of a computer.",
+    "Understand the basic operations of a computer.",
+    "Discuss the importance and everyday uses of computers."
   ],
   "rationale": [
-    "Understanding the basics of computers is essential in today's digital world and helps build a foundation for future technology-related learning."
+    "Understanding computers is essential in today’s world as they are used in education, communication, and various other fields. This lesson provides foundational knowledge to help students interact with computers confidently."
   ],
   "methodology": [
-    "The lesson will include a presentation on computers, a demonstration of components, and interactive class discussions to engage students in learning."
+    "The lesson will include explanations, demonstrations, discussions, and hands-on activities to engage students and enhance their understanding of computers."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>What is a Computer?</b>: A computer is an electronic device that processes data and performs tasks based on instructions. The teacher will explain its importance in various fields such as education, healthcare, and communication.",
-      "<b>Main Components</b>: Students will learn about the primary components of a computer, including the monitor, keyboard, mouse, CPU, and their roles in operation.",
-      "<b>Practical Demonstration</b>: The teacher will demonstrate how to turn on a computer, log in, and navigate the desktop.",
-      "<b>Class Discussion</b>: Students will discuss everyday uses of computers, such as typing documents, browsing the internet, and playing educational games.",
-      "<b>Class Exercise</b>:<br>1. Define a computer in your own words.<br>2. Name three main components of a computer.<br>3. What is the function of the CPU?"
+      "<b>Part 1: What is a Computer?</b>:<br><br>Explanation:<br>A computer is an electronic device that processes data and performs tasks based on instructions. The teacher explains that computers help people complete various activities quickly and efficiently.<br><br>Examples of computer use in daily life:<br>Education: Students use computers to learn, do homework, and take online lessons.<br>Healthcare: Doctors use computers to keep medical records and diagnose diseases.<br>Communication: People use computers to send emails and chat with family and friends.<br><br>Activity:<br>Ask students if they have ever used a computer before and what they used it for.<br>Show pictures of different types of computers (desktop, laptop, tablet) and discuss their differences.",
+      "<b>Part 2: Main Components of a Computer</b>:<br><br>Explanation:<br>Students will learn about the primary components of a computer and their roles:<br>1. Monitor – The screen that displays what you are doing on the computer.<br>2. Keyboard – Used for typing letters, numbers, and commands.<br>3. Mouse – Helps move the cursor and select things on the screen.<br>4. CPU (Central Processing Unit) – The brain of the computer that processes all instructions.<br>5. Speakers and Headphones – Used to hear sound from the computer.<br><br>Activity:<br>Display real computer parts or use images to help students identify them.<br>Allow students to touch and name the different parts of a real or model computer.",
+      "<b>Part 3: Practical Demonstration</b>:<br><br>Teacher Demonstration:<br>Show students how to turn on a computer and explain the startup process.<br>Demonstrate how to log in, move the mouse, and navigate the desktop.<br>Open simple programs like a text editor or an educational game to show how they work.<br><br>Student Activity:<br>Call a few students to turn on the computer, use the mouse, and type something using the keyboard.<br>Allow students to explore the desktop by opening and closing simple applications under supervision.",
+      "<b>Part 4: Class Discussion – Everyday Uses of Computers</b>:<br><br>Discussion Points:<br>Where do we see computers in daily life? (e.g., schools, offices, hospitals, supermarkets)<br>What do people use computers for? (e.g., writing documents, watching videos, learning new things)<br>How can computers make learning fun? (e.g., educational games, online lessons)<br><br>Activity:<br>Ask students to share how computers have helped them or someone they know.<br>Write down their answers on the board and discuss them as a class.",
+      "<b>Part 5: Class Exercise</b>:<br><br>Students will complete the following questions:<br>1. Define a computer in your own words.<br>2. Name three main components of a computer.<br>3. What is the function of the CPU?<br><br>Conclusion:<br>Recap the key points of the lesson.<br>Encourage students to practice identifying computer parts at home or in the school lab.<br>Assign a fun homework activity: Draw and label the parts of a computer."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' participation in the discussion and their ability to identify computer components during the demonstration.",
-    "<br><b>Homework</b>:<br>1. Draw and label the main components of a computer.<br>2. Write two uses of a computer in your daily life."
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and hands-on activities.",
+    "<b>Exercise</b>: The class exercise will evaluate students' understanding of computer components and functions."
   ],
   "conclusion": [
-    "By engaging in discussions and demonstrations, students will gain a basic understanding of computers and their essential components, setting the stage for further exploration of technology."
+    "By the end of this lesson, students will have a basic understanding of what computers are, their components, and how they are used in daily life."
   ]
 },
 
 // Week 5
 // Lesson 1
 {
-  "title": "Introduction to Inputs of a Computer",
+  "title": "Understanding Input Devices",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding the Inputs of a Computer",
+  "topic": "Understanding Input Devices",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "5",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to the concept of computer inputs, including examples such as keyboard, mouse, microphone, and scanner, and their functions in a computer system.",
+  "description": "This lesson introduces students to input devices, focusing on their definitions, functions, and practical uses.",
   "materials": [
-    "Computer with connected input devices",
-    "Projector for demonstration",
-    "Pictures or illustrations of input devices"
+    "Real input devices or pictures",
+    "Computer",
+    "Projector (if available)"
   ],
   "objectives": [
-    "Students will define the term 'input' in the context of computer systems.",
-    "Students will identify common input devices and describe their uses."
+    "Define what an input device is.",
+    "Identify common input devices and their functions.",
+    "Demonstrate how to use basic input devices."
   ],
   "rationale": [
-    "Understanding input devices is essential for building foundational knowledge of how computers operate and interact with users."
+    "Understanding input devices helps students interact with computers effectively and enhances their digital literacy."
   ],
   "methodology": [
-    "The lesson will include demonstrations of input devices, hands-on practice, and group discussions to reinforce the learning."
+    "The lesson will use explanations, demonstrations, group discussions, and hands-on activities to ensure understanding."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain what input devices are and their role in feeding data into a computer system.",
-      "<b>Device Demonstration</b>: The teacher will demonstrate how input devices such as a keyboard, mouse, microphone, and scanner work.",
-      "<b>Group Discussion</b>: Students will discuss and share examples of input devices they have used or seen.",
-      "<b>Hands-On Activity</b>: Students will practice using input devices, such as typing on a keyboard or clicking with a mouse.",
-      "<b>Class Exercise</b>:<br>1. What is an input device?<br>2. Name three input devices.<br>3. Which input device is used to type text into a computer?"
+      "<b>Part 1: Introduction – What Are Input Devices?</b>:<br><br>The teacher will begin by explaining the meaning of input devices.<br><br><b>Definition:</b> An input device is a piece of computer hardware used to enter data and commands into a computer.<br><br><b>Examples:</b> Keyboard, mouse, microphone, scanner, joystick, touchpad, etc.<br><br><b>Role:</b> These devices help users communicate with the computer by providing information or instructions.<br><br><b>Teacher’s Question to the Class:</b><br>Can you name any devices you use to give instructions to a computer?",
+      "<b>Part 2: Device Demonstration</b>:<br><br>The teacher will show real input devices or pictures and explain how they work.<br><br><b>Keyboard:</b> Used to type letters, numbers, and symbols.<br><b>Mouse:</b> Used to move the cursor, click on items, and select options.<br><b>Microphone:</b> Used to record sounds and give voice commands.<br><b>Scanner:</b> Used to copy images or documents into the computer.<br><br><b>Interactive Demonstration:</b><br>The teacher will type on the keyboard to show how letters appear on the screen.<br>Moving the mouse to show how the cursor follows.<br>Using the microphone to record and playback sound.",
+      "<b>Part 3: Group Discussion</b>:<br><br>Students will be divided into small groups to discuss and share examples of input devices they have used or seen.<br><br><b>Discussion Questions:</b><br>What input devices have you seen or used?<br>Which input devices do you think are most important? Why?<br>What would happen if a computer had no input devices?<br><br>Each group will present their findings to the class.",
+      "<b>Part 4: Hands-On Activity</b>:<br><br>Students will practice using different input devices.<br><br><b>Typing Activity:</b> Each student will type their name using the keyboard.<br><b>Mouse Activity:</b> Students will practice clicking, dragging, and dropping objects on the screen.<br><b>Microphone Activity:</b> Some students will record a short sentence and play it back.<br><b>Scanner Activity (if available):</b> The teacher will scan a simple picture to show how it appears on the computer.",
+      "<b>Part 5: Class Exercise</b>:<br><br>1. What is an input device?<br>2. Name three input devices.<br>3. Which input device is used to type text into a computer?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will evaluate students' understanding through their participation in discussions and their ability to use input devices.",
-    "<br><b>Homework</b>:<br>1. Draw and label three input devices.<br>2. Write one sentence explaining the use of each device."
+    "<b>Observation:</b> The teacher will observe students’ participation in discussions and activities.",
+    "<b>Exercise:</b> The class exercise will evaluate students’ understanding of input devices."
   ],
   "conclusion": [
-    "By engaging in demonstrations and hands-on practice, students will develop an understanding of computer inputs and their importance in operating computer systems."
+    "The teacher will review the key points and allow students to ask questions. The lesson will end with a recap of the importance of input devices in using a computer."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Introduction to Output Devices of a Computer",
+  "title": "Understanding Output Devices",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, February 5, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding and Identifying Output Devices of a Computer",
+  "topic": "Understanding Output Devices",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "5",
   "lessonNumber": "2",
-  "description": "This lesson aims to introduce students to the concept of output devices, their functions, and examples of commonly used output devices.",
+  "description": "This lesson introduces students to output devices, explaining their functions and importance in displaying, printing, and playing information from a computer.",
   "materials": [
-    "Computer with connected output devices (monitor, printer, speakers)",
-    "Projector for demonstration",
-    "Pictures or diagrams of various output devices"
+    "Computer with monitor",
+    "Printer",
+    "Speakers",
+    "Projector or headphones (if available)"
   ],
   "objectives": [
-    "Students will identify common output devices of a computer.",
-    "Students will understand the functions of output devices in computer operations."
+    "Students will understand what an output device is and its role in a computer system.",
+    "Students will identify and describe common output devices such as monitors, printers, and speakers.",
+    "Students will observe and interact with output devices to understand their functions.",
+    "Students will discuss the importance of output devices in daily life.",
+    "Students will answer questions to assess their understanding of output devices."
   ],
   "rationale": [
-    "Understanding output devices is essential for comprehending how computers communicate information to users."
+    "Understanding output devices helps students recognize how computers communicate information to users through visual, printed, and audio outputs."
   ],
   "methodology": [
-    "The lesson will include a demonstration of output devices, group discussions, and interactive activities to reinforce learning."
+    "The lesson will use discussions, demonstrations, hands-on exploration, and a class exercise to enhance learning."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will introduce the concept of output devices and explain their purpose in computer systems.",
-      "<b>Tool Identification</b>: The teacher will demonstrate commonly used output devices, such as monitors, printers, and speakers, and explain their functions.",
-      "<b>Hands-On Exploration</b>: Students will examine the connected output devices on a computer and observe their functions in action.",
-      "<b>Discussion</b>: Students will discuss the importance of output devices in daily computer use and identify other examples, such as projectors and headphones.",
-      "<b>Class Exercise</b>:<br>1. Define an output device.<br>2. Name three common output devices.<br>3. Which output device is used to display visual information?<br>4. Which output device produces printed copies of documents?"
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>The teacher will begin by asking students if they have ever used a computer and what they use it for. Then, the teacher will introduce the topic by explaining that computers have different parts, and today, they will focus on output devices.<br><br><b>Key Explanation:</b><br>An output device is a part of a computer that shows, prints, or plays information after the computer processes it.<br><br>The teacher will explain that when we type something or play a song on a computer, the information needs to come out in a way we can see, hear, or read. That’s where output devices come in!",
+      "<b>Part 2: Tool Identification (15 minutes)</b>:<br><br>The teacher will introduce common output devices and demonstrate their functions:<br><br>1. <b>Monitor</b> – Displays images and videos (like a TV screen for computers).<br><br>2. <b>Printer</b> – Produces a printed version of digital documents.<br><br>3. <b>Speakers</b> – Play sounds from the computer.<br><br>The teacher may also show a projector or headphones as additional examples. Each device will be demonstrated briefly so students can see how they work.",
+      "<b>Part 3: Hands-On Exploration (15 minutes)</b>:<br><br>Students will get a chance to observe and interact with output devices:<br><br><b>Observation:</b> Students will look at the connected output devices in the classroom (if available) and discuss what they see.<br><br><b>Demonstration:</b> The teacher will type a sentence on the computer and show how it appears on the monitor. Then, they will print the document and play a sound through the speakers.<br><br><b>Pair Activity:</b> In pairs, students will point to different output devices and describe their functions.",
+      "<b>Part 4: Discussion (10 minutes)</b>:<br><br>Students will discuss why output devices are important in daily life. The teacher will ask questions like:<br><br>'Why do we need a monitor?'<br><br>'How would you listen to music without speakers or headphones?'<br><br>'Can you think of other places where we use output devices, like schools, banks, or hospitals?'<br><br>This discussion will help students connect output devices to real-world situations.",
+      "<b>Part 5: Class Exercise (10 minutes)</b>:<br><br>Students will answer the following questions:<br><br>1. What is an output device?<br>2. Name three common output devices.<br>3. Which output device is used to display visual information?<br>4. Which output device produces printed copies of documents?<br><br>The teacher will review the answers with the class and conclude the lesson by summarizing key points."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will evaluate students' participation and responses during the activities and class exercise.",
-    "<br><b>Homework</b>:<br>1. Create a list of five output devices and write one function for each.<br>2. Draw or find pictures of three output devices and label them."
+    "<b>Observation</b>: The teacher will observe students' engagement during the hands-on exploration and discussion.",
+    "<b>Exercise</b>: The class exercise will evaluate students' understanding of output devices."
   ],
   "conclusion": [
-    "By engaging with and discussing output devices, students will gain a clear understanding of their functions and importance in computer systems."
+    "By learning about output devices, students will understand how computers display, print, and play information, making them essential tools in daily life."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Introduction to Daily Usage of Computers",
+  "title": "The Growing Importance of Computers",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding the Importance of Computers in Everyday Life",
+  "topic": "Importance and Uses of Computers",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "5",
   "lessonNumber": "3",
-  "description": "This lesson introduces students to the daily uses of computers in various aspects of life, such as communication, education, and entertainment.",
+  "description": "This lesson introduces students to the importance of computers and their various uses in daily life, including communication, education, and entertainment.",
   "materials": [
-    "Computers with basic software installed",
-    "Projector for demonstrations",
-    "Examples of tasks completed using computers (e.g., documents, emails, and games)"
+    "Computer or projector",
+    "Whiteboard and markers",
+    "Printed images of computers in different environments"
   ],
   "objectives": [
-    "Students will identify key daily activities where computers are used.",
-    "Students will understand the benefits of using computers for efficiency and productivity."
+    "Students will understand how computers are used in different areas of life.",
+    "Students will discuss ways they and their families use computers.",
+    "Students will observe and participate in basic computer-related activities."
   ],
   "rationale": [
-    "Learning the practical applications of computers helps students appreciate their value and develop skills for future tasks."
+    "Teaching students the importance of computers prepares them for a technology-driven world and helps them understand how computers assist in communication, education, and entertainment."
   ],
   "methodology": [
-    "The lesson will include a demonstration of computer usage in everyday tasks, interactive discussions, and hands-on activities."
+    "The lesson will use discussions, demonstrations, and hands-on activities to help students engage with the topic."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain the growing importance of computers in modern life and list examples of their daily usage.",
-      "<b>Interactive Discussion</b>: Students will share examples of how they or their families use computers, such as for emails, video calls, and school projects.",
-      "<b>Demonstration</b>: The teacher will showcase real-life examples of tasks done on computers, like sending an email, browsing the internet, or creating a presentation.",
-      "<b>Hands-On Activity</b>: Students will practice basic tasks on the computer, such as opening a word processor, typing a sentence, or searching for information online.",
-      "<b>Class Exercise</b>:<br>1. Name two ways computers are used for communication.<br>2. List one way computers are helpful in education.<br>3. How do computers provide entertainment?"
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>The teacher will introduce the lesson by explaining how computers have become an essential part of everyday life. Key points will include:<br><br>Computers help people in different ways, such as at work, in schools, and at home.<br>Many activities that used to be done by hand are now easier and faster with computers.<br>Computers are used for communication, learning, entertainment, and problem-solving.<br><br>Examples of daily computer usage:<br>At home: Watching videos, playing games, and video calling family members.<br>At school: Learning new subjects, researching topics, and typing assignments.<br>At work: Writing emails, making presentations, and designing posters.<br><br><b>Engagement:</b><br>The teacher will ask students, “Can you think of a time when you or someone in your family used a computer? What was it for?”",
+      "<b>Part 2: Interactive Discussion (15 minutes)</b>:<br><br>Students will take turns sharing their experiences with computers. The teacher will guide the discussion with questions like:<br><br>How does your family use computers at home?<br>Have you ever seen a teacher or parent use a computer for work?<br>What fun things can you do on a computer?<br><br>The teacher will write down responses on the board, categorizing them into:<br>1. Communication – Email, video calls, social media.<br>2. Education – Research, e-books, school projects.<br>3. Entertainment – Watching videos, playing games, listening to music.<br><br><b>Group activity:</b><br>The class will be divided into small groups, and each group will think of one way computers make life easier. They will share their answers with the class.",
+      "<b>Part 3: Demonstration (15 minutes)</b>:<br><br>The teacher will demonstrate real-life tasks on a computer or a projected screen:<br>1. Communication: Composing and sending a simple email.<br>2. Education: Searching for information on a learning website.<br>3. Entertainment: Playing a safe online educational game or watching an educational video.<br><br>Students will observe and ask questions about each demonstration.<br><br><b>Think-Pair-Share Activity:</b><br>Each student pairs with a partner.<br>They discuss which of the three demonstrations they found most interesting and why.<br>Volunteers will share their thoughts with the class.",
+      "<b>Part 4: Hands-On Activity (20 minutes)</b>:<br><br>Students will be given a chance to use a computer (if available) or work in groups to explore basic tasks.<br><br>Tasks include:<br>Opening a word processor and typing a short sentence.<br>Searching for a simple topic (e.g., “Why do we need computers?”).<br>Practicing how to navigate a simple website or drawing in a paint program.<br><br>The teacher will assist students in completing their tasks and ensuring they understand the steps.<br><br><b>Reflection Question:</b><br>What was the most exciting thing you learned about computers today?",
+      "<b>Part 5: Class Exercise (10 minutes)</b>:<br><br>Students will answer the following questions:<br>1. Name two ways computers are used for communication.<br>2. List one way computers are helpful in education.<br>3. How do computers provide entertainment?<br><br>The teacher will review answers as a class, reinforcing key points from the lesson."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to complete basic computer tasks during the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Write a short paragraph about how computers are used in your home. Bring the printed paragraph to the next lesson."
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The class exercise will evaluate students' understanding of how computers are used."
   ],
   "conclusion": [
-    "By exploring the practical uses of computers, students will recognize their role in improving everyday tasks and learn basic skills for utilizing this technology effectively."
+    "The teacher will summarize the importance of computers and remind students that they are powerful tools for learning, communication, and entertainment. Students will be encouraged to explore computers safely and responsibly."
+  ],
+  "homework": [
+    "Draw and label a picture showing one way people use computers in daily life."
   ]
 },
+
 
 
 // Week 7
