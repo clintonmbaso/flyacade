@@ -149,145 +149,153 @@ const lessonPlans42a = [
 // Week 3
 // Lesson 1
 {
-  "title": "Designing and Making Items from Local Materials",
+  "title": "Local Materials and Their Uses",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Design and Make Items from Local Materials",
+  "topic": "Local Materials and Their Uses",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson aims to teach students how to design and make useful items such as shelters, mats, and pottery using locally available materials.",
+  "description": "This lesson introduces students to local materials, focusing on their uses in everyday life, including shelters, mats, and pottery.",
   "materials": [
-    "Locally available materials such as reeds, clay, and palm leaves",
-    "Examples of finished items like mats and pottery",
-    "Tools for crafting, such as knives, needles, and shaping tools"
+    "Reeds",
+    "Wood",
+    "Grass",
+    "Palm leaves",
+    "Clay",
+    "Model of a shelter",
+    "Pictures or illustrations of local materials"
   ],
   "objectives": [
-    "Students will understand the importance of using local materials to create useful items.",
-    "Students will learn basic crafting techniques for making shelters, mats, and pottery."
+    "Students will understand what local materials are and why they are important in daily life.",
+    "Students will learn how local materials like reeds, wood, and grass are used to build shelters.",
+    "Students will understand how to weave mats using local materials such as palm leaves or reeds.",
+    "Students will explore how clay is used to create pottery."
   ],
   "rationale": [
-    "Teaching students how to use local materials encourages resourcefulness and creativity while preserving cultural practices."
+    "Understanding local materials helps students appreciate sustainable, cost-effective resources and their role in daily life."
   ],
   "methodology": [
-    "The lesson will incorporate demonstrations, hands-on crafting sessions, and group discussions to engage students in practical learning."
+    "The lesson will use explanations, demonstrations, and hands-on activities to teach about local materials."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will introduce the concept of local materials and discuss their importance in creating everyday items such as shelters, mats, and pottery.",
-      "<b>Shelters</b>: Students will explore how local materials like reeds, wood, and grass are used to construct shelters. The teacher will demonstrate simple shelter designs.",
-      "<b>Mats</b>: Students will learn how to weave mats using palm leaves or reeds. The teacher will guide them through the basic weaving process.",
-      "<b>Pottery</b>: Students will observe how clay is shaped and fired to make pottery. The teacher will demonstrate shaping techniques and discuss the firing process.",
-      "<b>Class Exercise</b>:<br>1. Name two local materials used to make mats.<br>2. What material is commonly used to make pottery?<br>3. Why is it important to use local materials?"
+      "<b>Part 1: Introduction to Local Materials</b>:<br><br>The teacher will introduce the concept of local materials, which are materials found naturally in the surrounding environment, such as plants, clay, and wood. The teacher will explain that these materials have been used for centuries to create everyday items like shelters, mats, and pottery. The teacher will emphasize that using local materials helps reduce the need to transport goods, making them more accessible and cost-effective. The teacher will also explain that local materials are sustainable and environmentally friendly.",
+      "<b>Part 2: Shelters Made from Local Materials</b>:<br><br>The teacher will demonstrate how shelters can be made using local materials. For example, wood can be used for the frame, grass for the roofing, and reeds for the walls. The teacher will use a simple diagram or model to show the structure of a basic shelter and discuss the function of each material. Students will be encouraged to think about why these materials are used (e.g., wood is strong, grass is easy to find, and reeds are flexible).",
+      "<b>Part 3: Weaving Mats Using Local Materials</b>:<br><br>The teacher will demonstrate how to weave a simple mat using palm leaves or reeds. Students will learn the basic steps: first, gathering the leaves or reeds, then arranging them side by side, and finally weaving them together in an over-under pattern to form a mat. The teacher will explain the importance of mats in daily life, especially for sitting or sleeping on the ground. Students will have the chance to feel and touch the materials and will be encouraged to ask questions.",
+      "<b>Part 4: Pottery and Its Creation Using Local Materials</b>:<br><br>The teacher will explain that clay is a local material that can be shaped into various items, such as pots, bowls, and cups. The teacher will demonstrate how to shape the clay by hand, forming a basic bowl or pot. The firing process will also be discussed, explaining that the pottery is placed in a hot oven (kiln) to harden it. Students will learn that pottery is an important material used for cooking, storing water, and decoration.",
+      "<b>Part 5: Exercise (Review & Reflection)</b>:<br><br>1. Name two local materials used to make mats.<br>Expected Answer: Palm leaves and reeds.<br><br>2. What material is commonly used to make pottery?<br>Expected Answer: Clay.<br><br>3. Why is it important to use local materials?<br>Expected Answer: It helps reduce transportation costs, is environmentally friendly, and is sustainable."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' engagement and skill development during crafting sessions.",
-    "<br><b>Homework</b>:<br>1. List three items that can be made using local materials.<br>2. Draw a simple design of a mat or a pot you would like to create.<br>3. Explain one benefit of using local materials."
+    "<b>Observation</b>: The teacher will observe students' engagement and participation in the activities, noting their understanding of local materials.",
+    "<b>Exercise</b>: The review questions will assess students' comprehension of the importance and use of local materials."
   ],
   "conclusion": [
-    "By participating in hands-on crafting activities, students will develop an appreciation for using local materials to create functional and artistic items while preserving cultural practices."
+    "By learning about local materials and their uses, students will gain an appreciation for sustainable practices and how these materials contribute to daily life."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Exploring Correct Postural Habits for Good Posture",
+  "title": "Good Posture and Core Exercises",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Explore Correct Postural Habits for Good Posture",
+  "topic": "Good Posture and Core Exercises",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "3",
   "lessonNumber": "2",
-  "description": "This lesson aims to teach students the importance of maintaining good posture and engaging in activities that promote correct postural habits.",
+  "description": "This lesson focuses on teaching students the importance of good posture and introducing core exercises that help strengthen muscles for better alignment and flexibility.",
   "materials": [
-    "Yoga mats or flat surfaces for exercises",
-    "Charts illustrating correct and incorrect posture",
-    "Open space for physical activities"
+    "Yoga mats",
+    "Posture chart",
+    "Flat surfaces for sit-ups"
   ],
   "objectives": [
-    "Students will understand the importance of good posture for overall health and well-being.",
-    "Students will learn and practice basic postural activities such as sit-ups, stretches, bends, and rolls."
+    "Students will understand what posture is and why it’s important for health.",
+    "Students will practice core exercises, such as sit-ups, to strengthen their muscles and maintain proper alignment.",
+    "Students will learn basic stretches to improve flexibility and reduce muscle tension.",
+    "Students will practice bending and rolling exercises to improve spinal flexibility and overall balance."
   ],
   "rationale": [
-    "Maintaining good posture is essential for physical health, reducing the risk of injury, and ensuring proper alignment of the body."
+    "Maintaining good posture and strengthening the core muscles can help reduce discomfort and health problems, leading to better overall well-being."
   ],
   "methodology": [
-    "The lesson will incorporate demonstrations, guided exercises, and group discussions to encourage active participation and understanding."
+    "The lesson will use demonstrations, hands-on activities, and guided practice to teach students about good posture, core exercises, and flexibility."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain what posture is and why maintaining good posture is important for health and comfort.",
-      "<b>Sit-Ups and Flat Surfaces</b>: Students will practice sit-ups and exercises on flat surfaces to strengthen core muscles and maintain proper alignment.",
-      "<b>Stretches</b>: Students will perform basic stretching exercises to improve flexibility and reduce tension in muscles.",
-      "<b>Bends and Rolls</b>: The teacher will guide students through bending and rolling exercises to improve spinal flexibility and overall balance.",
-      "<b>Class Exercise</b>:<br>1. What is posture?<br>2. Name one benefit of good posture.<br>3. Which exercise helps to strengthen your core muscles?"
+      "<b>Part 1: Introduction to Posture</b>:<br><br>Posture is the way you position your body when you sit, stand, or move. Good posture helps you stay comfortable and healthy. It ensures that your muscles and joints are aligned properly, which can reduce back pain, muscle strain, and improve overall body balance. Poor posture can lead to discomfort and health problems over time, so it's important to practice good posture daily.<br><br>Activity:<br>Show students examples of good and bad posture. For example, standing tall with shoulders back versus slouching. Ask the class which one they think is better for their health and why.",
+      "<b>Part 2: Sit-Ups and Flat Surfaces</b>:<br><br>One of the key components of good posture is having a strong core (the muscles around your abdomen and lower back). When you strengthen these muscles, it helps you maintain a straight and stable posture. Sit-ups are a great exercise for building core strength.<br><br>Activity:<br>Have the students lie down on a flat surface, with their knees bent and feet flat on the floor. Instruct them to place their hands behind their heads and lift their upper bodies toward their knees, keeping their elbows wide. Perform 10-15 sit-ups together as a class. Remind them to keep their back straight during the exercise to prevent injury.",
+      "<b>Part 3: Stretches for Flexibility</b>:<br><br>Stretching helps keep your muscles flexible and reduces tension, which is important for maintaining good posture. Stretching also helps prevent injury and can relieve tightness from sitting or standing for long periods.<br><br>Activity:<br>Lead the students through some basic stretches:<br>Reach for the Sky: Stand up tall and reach your arms toward the ceiling, stretching your body.<br>Forward Bend: While standing, bend forward at the waist and try to touch your toes. Hold the stretch for 10-15 seconds.<br>Side Stretch: Raise one arm above your head and gently lean to the opposite side, stretching your side muscles. Hold for 10-15 seconds on each side.",
+      "<b>Part 4: Bends and Rolls</b>:<br><br>Bending and rolling exercises help improve flexibility in your spine and hips, which supports proper posture. A flexible spine allows for better movement and helps prevent discomfort when sitting or standing.<br><br>Activity:<br>Guide the students through these exercises:<br>Standing Bends: Stand with feet shoulder-width apart. Gently bend at the waist, reaching down to touch your toes or the floor. Hold for a few seconds and then slowly return to standing.<br>Rolling on the Floor: Students can lie down on their backs and practice gently rolling their bodies from side to side. This movement helps improve spinal flexibility and body awareness.",
+      "<b>Part 5: Class Exercise</b>:<br><br>Reinforce key concepts and assess student understanding through questions and participation.<br><br>Questions:<br>1. What is posture?<br>Answer: The way you position your body when sitting, standing, or moving.<br>2. Name one benefit of good posture.<br>Answer: It helps reduce back pain and improves body balance.<br>3. Which exercise helps to strengthen your core muscles?<br>Answer: Sit-ups."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students' participation and ability to perform postural activities correctly.",
-    "<br><b>Homework</b>:<br>1. Practice sitting and standing with a straight back at home.<br>2. Write down two activities that help maintain good posture.<br>3. Ask a family member to check your posture while sitting or standing."
+    "<b>Observation</b>: The teacher will observe students' participation during exercises and discussions.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of posture and core exercises."
   ],
   "conclusion": [
-    "Through guided exercises and discussions, students will understand the importance of good posture and develop habits to maintain it in daily life."
+    "By learning about good posture and practicing core exercises, students will improve their physical health and understand the importance of maintaining proper alignment."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Demonstrating Correct Postural Habits in Practical and Adaptive Activities",
+  "title": "Posture and Physical Health",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Demonstrate Correct Postural Habits in Practical and Adaptive Activities",
+  "topic": "Posture and Physical Health",
   "grade": "Wing Whiz",
   "term": "1",
   "week": "3",
   "lessonNumber": "3",
-  "description": "This lesson aims to teach students how to demonstrate correct postural habits during practical and adaptive activities to ensure body alignment and health.",
+  "description": "This lesson teaches students about the importance of correct posture and its impact on physical health. Students will practice maintaining proper posture through various activities and exercises.",
   "materials": [
-    "Yoga mats or exercise mats",
-    "Posture charts or diagrams",
-    "Open space for physical activities"
+    "Visual aids or diagrams",
+    "Stretching and core-strengthening exercise mats"
   ],
   "objectives": [
-    "Students will learn the importance of correct posture during daily activities.",
-    "Students will demonstrate practical postural habits through adaptive exercises."
+    "Students will learn about the importance of correct posture and its impact on physical health.",
+    "Students will practice maintaining proper posture through various activities and exercises.",
+    "Students will understand how proper posture helps prevent aches and injuries and promotes better breathing and circulation."
   ],
   "rationale": [
-    "Practicing correct posture promotes physical health, prevents injuries, and enhances overall body alignment and comfort during activities."
+    "Understanding and maintaining proper posture helps students avoid physical strain and promotes overall well-being, focus, and comfort in daily activities."
   ],
   "methodology": [
-    "The lesson will involve guided exercises, demonstrations, and group discussions to ensure students actively engage in learning and practicing good posture."
+    "The lesson will include a combination of explanations, demonstrations, practical exercises, and adaptive activities to engage students in understanding and practicing proper posture."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain what posture is and why correct postural habits are important for everyday activities and physical health.",
-      "<b>Demonstration</b>: The teacher will show examples of correct sitting, standing, and walking posture using visual aids or diagrams.",
-      "<b>Practical Exercises</b>: Students will practice activities such as stretching, bending, and sitting on flat surfaces while maintaining proper posture.",
-      "<b>Adaptive Activities</b>: Students will engage in tasks like balancing, rolling, and performing core-strengthening exercises with guidance to improve posture.",
-      "<b>Class Exercise</b>:<br>1. Why is correct posture important?<br>2. Demonstrate one posture that helps maintain proper alignment.<br>3. Which exercise helps strengthen your core muscles?"
+      "<b>Part 1: Introduction to Posture</b>:<br><br>The teacher will begin by explaining what posture is: Posture refers to how we position our bodies when we are sitting, standing, or walking. Correct posture involves keeping your body aligned and balanced, which helps prevent aches and injuries.<br><br>The teacher will also explain the importance of good posture: Proper posture reduces strain on muscles and joints. It helps in breathing better and promotes good circulation. Good posture can improve focus and prevent fatigue during daily activities like sitting at a desk, walking, or lifting objects.",
+      "<b>Part 2: Demonstration of Correct Posture</b>:<br><br>The teacher will show examples of correct sitting, standing, and walking posture using visual aids or diagrams:<br>Sitting Posture: The teacher will demonstrate how to sit with feet flat on the floor, back straight, and shoulders relaxed.<br>Standing Posture: The teacher will stand up straight, with shoulders back, chin slightly up, and weight evenly distributed on both feet.<br>Walking Posture: The teacher will demonstrate walking with a straight back, head up, and body moving smoothly without slouching.<br><br>The teacher will explain the key points for each type of posture and ask students to observe and take note.",
+      "<b>Part 3: Practical Exercises</b>:<br><br>Students will engage in activities that help them practice maintaining proper posture. The teacher will guide them through each exercise:<br>Stretching: Students will stretch their arms and legs while focusing on keeping their body aligned (e.g., stretching upward without leaning forward).<br>Bending: Students will bend at the waist to touch their toes, keeping their back straight and knees slightly bent to avoid straining.<br>Sitting on a Flat Surface: Students will practice sitting on the floor or a chair, ensuring their back is straight, shoulders are relaxed, and feet are flat on the ground.<br><br>The teacher will provide feedback and encourage students to correct their posture if needed.",
+      "<b>Part 4: Adaptive Activities</b>:<br><br>Students will perform tasks designed to improve their posture and strengthen muscles:<br>Balancing: Students will balance on one foot, focusing on holding their body upright and steady. The teacher will provide guidance on how to stand tall while balancing.<br>Rolling: Students will perform gentle rolling exercises on the floor, focusing on keeping their body aligned and using core muscles for control.<br>Core-Strengthening Exercises: The teacher will guide students through simple exercises like planks or seated twists to strengthen their core muscles, which are important for maintaining good posture.",
+      "<b>Part 5: Class Exercise</b>:<br><br>To assess the students' understanding, the teacher will ask the following questions:<br>1. Why is correct posture important?<br>2. Demonstrate one posture that helps maintain proper alignment.<br>3. Which exercise helps strengthen your core muscles?<br><br>The lesson will end with a recap and a reminder to practice good posture throughout the day."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will evaluate students' participation and ability to demonstrate correct postural habits.",
-    "<br><b>Homework</b>:<br>1. Practice sitting with a straight back at home and observe how it feels.<br>2. Write down two benefits of maintaining good posture.<br>3. Ask a family member to evaluate your posture while doing homework or playing."
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and provide feedback on their posture.",
+    "<b>Exercise</b>: The class exercise will assess the students' understanding of correct posture and its impact on health."
   ],
   "conclusion": [
-    "By participating in practical and adaptive activities, students will understand and develop correct postural habits that contribute to their overall well-being."
+    "By learning about proper posture and practicing various exercises, students will understand its importance in preventing injuries, improving focus, and maintaining physical health."
   ]
 },
 
