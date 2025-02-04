@@ -313,7 +313,7 @@ const lessonPlans3a = [
   "topic": "Introducing Numbers 16-18",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "2",
+  "week": "3",
   "lessonNumber": "3",
   "description": "This lesson introduces kindergarten learners to numbers 16-18 through counting objects and fingers.",
   "materials": [
