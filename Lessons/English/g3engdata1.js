@@ -83,9 +83,9 @@ const lessonPlans15a = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction to Statements and Questions</b>:<br><br>A statement, also called a declarative sentence, gives information or expresses an idea. It can be a fact or an opinion and always ends with a period (.). For example:<br>\"The sky is blue.\"<br>\"I like to read books.\"<br><br>A question, or interrogative sentence, asks for information or seeks an answer. It always ends with a question mark (?). For example:<br>\"What is your name?\"<br>\"Do you like ice cream?\"<br><br>Discussion:<br>Ask students: Can you think of a sentence that is a statement? Can you think of a sentence that is a question?",
-      "<b>Part 2: Differences Between a Statement and a Question</b>:<br><br>Purpose: A statement provides information, while a question seeks information.<br><br>Punctuation: A statement ends with a period (.), and a question ends with a question mark (?).</b><br><br>Example of a Statement: \"The dog is sleeping.\"<br>Example of a Question: \"Is the dog sleeping?\"<br><br>Discussion:<br>Ask students: Why is it important to know the difference between a statement and a question?",
-      "<b>Part 3: How to Recognize a Statement or a Question</b>:<br><br>A statement does not ask anything, it simply shares information.<br>A question, on the other hand, is asking for information, and you can usually identify it by looking for a question mark at the end.<br><br>Examples:<br>Statement: \"The dog is barking.\"<br>Question: \"Is the dog barking?\"<br><br>Discussion:<br>Ask students: How can you tell if a sentence is a statement or a question?",
+      "<b>Part 1: Introduction to Statements and Questions</b>:<br><br>A statement, also called a declarative sentence, gives information or expresses an idea. It can be a fact or an opinion and always ends with a period (.). For example:<br>'The sky is blue.'<br>'I like to read books.'<br><br>A question, or interrogative sentence, asks for information or seeks an answer. It always ends with a question mark (?). For example:<br>'What is your name?'<br>'Do you like ice cream?'<br><br>Discussion:<br>Ask students: Can you think of a sentence that is a statement? Can you think of a sentence that is a question?",
+      "<b>Part 2: Differences Between a Statement and a Question</b>:<br><br>Purpose: A statement provides information, while a question seeks information.<br><br>Punctuation: A statement ends with a period (.), and a question ends with a question mark (?).</b><br><br>Example of a Statement: 'The dog is sleeping.'<br>Example of a Question: 'Is the dog sleeping?'<br><br>Discussion:<br>Ask students: Why is it important to know the difference between a statement and a question?",
+      "<b>Part 3: How to Recognize a Statement or a Question</b>:<br><br>A statement does not ask anything, it simply shares information.<br>A question, on the other hand, is asking for information, and you can usually identify it by looking for a question mark at the end.<br><br>Examples:<br>Statement: 'The dog is barking.'<br>Question: 'Is the dog barking?'<br><br>Discussion:<br>Ask students: How can you tell if a sentence is a statement or a question?",
       "<b>Part 4: Class Exercise – Identifying Statements and Questions</b>:<br><br>Read the sentences below and decide if they are statements or questions. Write S for statement or Q for question.<br>1. What time is it? ______<br>2. The sun rises in the east. ______<br>3. Do you like swimming? ______<br>4. I have a pet cat. ______<br>5. Where do you live? ______<br>6. It is raining outside. ______<br>7. Can you help me? ______<br>8. My favorite color is blue. ______<br><br>Discussion:<br>Go through the answers with the students and explain the reasoning behind each answer.",
       "<b>Part 5: Recap and Class Discussion</b>:<br><br>Review the key points learned in the lesson: statements give information and end with a period, while questions ask for information and end with a question mark.<br>Discussion:<br>Ask students: What is one thing you learned about statements and questions today? Can you make a sentence that is a statement? Can you make a sentence that is a question?"
     ]
@@ -328,11 +328,11 @@ const lessonPlans15a = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: What is an Exclamation?</b>:<br><br>An exclamation is a type of sentence that shows strong feelings, excitement, or surprise. It often expresses emotions like joy, anger, excitement, or wonder. Unlike statements or questions, exclamatory sentences end with an exclamation mark (!) instead of a period.<br><br>Example:<br>\"Wow, that was amazing!\"<br>\"I can’t believe we won!\"",
-      "<b>Part 2: Difference Between a Command and an Exclamation</b>:<br><br><b>Command:</b> A command tells someone to do something. It is a directive or instruction.<br>Example: \"Clean your room.\"<br>It ends with a period.<br><br><b>Exclamation:</b> An exclamation shows strong feelings or excitement and ends with an exclamation mark.<br>Example: \"What a beautiful day!\"",
-      "<b>Part 3: How to Recognize Exclamations</b>:<br><br>Exclamations often contain words that show strong emotions, like:<br>\"Wow!\"<br>\"Hooray!\"<br>\"Oh no!\"<br>\"Yay!\"<br><br>They are used to express excitement, surprise, or intense emotion.",
-      "<b>Part 4: When to Use Exclamations</b>:<br><br>Use exclamations when you want to show excitement, surprise, happiness, or any strong feeling. They are often used in reactions to something unexpected or when you want to emphasize something important.<br><br>Example Sentences:<br>\"What a fantastic performance!\"<br>\"I can't believe it!\"",
-      "<b>Part 5: Exercise</b>:<br><br><b>Task 1:</b> Read the sentences and decide if they are commands or exclamations. Write \"Command\" or \"Exclamation\" next to each sentence.<br>1. \"Sit down and listen carefully.\"<br>2. \"That was the best movie ever!\"<br>3. \"Please pass the salt.\"<br>4. \"I can’t wait for the weekend!\"<br>5. \"Close the door behind you.\"<br><br><b>Task 2:</b> Write 3 exclamations of your own that express excitement, surprise, or strong feeling."
+      "<b>Part 1: What is an Exclamation?</b>:<br><br>An exclamation is a type of sentence that shows strong feelings, excitement, or surprise. It often expresses emotions like joy, anger, excitement, or wonder. Unlike statements or questions, exclamatory sentences end with an exclamation mark (!) instead of a period.<br><br>Example:<br>'Wow, that was amazing!'<br>'I can’t believe we won!'",
+      "<b>Part 2: Difference Between a Command and an Exclamation</b>:<br><br><b>Command:</b> A command tells someone to do something. It is a directive or instruction.<br>Example: 'Clean your room.'<br>It ends with a period.<br><br><b>Exclamation:</b> An exclamation shows strong feelings or excitement and ends with an exclamation mark.<br>Example: 'What a beautiful day!'",
+      "<b>Part 3: How to Recognize Exclamations</b>:<br><br>Exclamations often contain words that show strong emotions, like:<br>'Wow!'<br>'Hooray!'<br>'Oh no!'<br>'Yay!'<br><br>They are used to express excitement, surprise, or intense emotion.",
+      "<b>Part 4: When to Use Exclamations</b>:<br><br>Use exclamations when you want to show excitement, surprise, happiness, or any strong feeling. They are often used in reactions to something unexpected or when you want to emphasize something important.<br><br>Example Sentences:<br>'What a fantastic performance!'<br>'I can't believe it!'",
+      "<b>Part 5: Exercise</b>:<br><br><b>Task 1:</b> Read the sentences and decide if they are commands or exclamations. Write 'Command' or 'Exclamation' next to each sentence.<br>1. 'Sit down and listen carefully.'<br>2. 'That was the best movie ever!'<br>3. 'Please pass the salt.'<br>4. 'I can’t wait for the weekend!'<br>5. 'Close the door behind you.'<br><br><b>Task 2:</b> Write 3 exclamations of your own that express excitement, surprise, or strong feeling."
     ]
   ],
   "assessments": [
@@ -495,36 +495,515 @@ const lessonPlans15a = [
 	
 	// Week 4
 // Lesson 1
-
+{
+  "title": "Identifying Subjects and Predicates in Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students how to identify the subject and predicate in sentences, distinguish between simple and complete subjects, and apply their understanding through exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence flashcards",
+    "Worksheets"
+  ],
+  "objectives": [
+    "Define a sentence and its two main parts.",
+    "Identify the subject in a sentence.",
+    "Identify the predicate in a sentence.",
+    "Distinguish between simple and complete subjects.",
+    "Apply their understanding through exercises."
+  ],
+  "rationale": [
+    "Understanding sentence structure helps students improve their writing and reading comprehension by recognizing how subjects and predicates function together."
+  ],
+  "methodology": [
+    "The lesson will include explanations, discussions, class activities, and exercises to ensure students grasp the concepts effectively."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – What is a Sentence?</b>:<br><br>Discussion & Examples<br>A sentence is a group of words that expresses a complete thought.<br>Every sentence has a subject and a predicate.<br><br>Examples:<br>1. The dog barks loudly.<br>2. My mother bakes delicious cakes.<br>3. The little boy ran across the street.<br><br>Ask students: 'Can you make a sentence about something you like to do?'",
+      "<b>Part 2: Understanding the Subject of a Sentence</b>:<br><br>Explanation:<br>The subject tells what or whom the sentence is about.<br>The simple subject is the main noun or pronoun in the subject.<br>The complete subject includes all the words that describe the simple subject.<br><br>Examples:<br>Simple Subject: John plays soccer.<br>Complete Subject: My best friend John plays soccer.<br><br>Class Activity:<br>Ask students to identify the simple and complete subjects in sentences you write on the board.",
+      "<b>Part 3: Understanding the Predicate of a Sentence</b>:<br><br>Explanation:<br>The predicate tells what the subject does or is.<br>The simple predicate is the verb.<br>The complete predicate includes the verb and all the words that describe it.<br><br>Examples:<br>Simple Predicate: John plays soccer.<br>Complete Predicate: John plays soccer every afternoon.<br><br>Pair Activity:<br>Give students sentences and ask them to underline the predicate.",
+      "<b>Part 4: Putting It All Together – Subjects and Predicates in Sentences</b>:<br><br>A sentence = Subject + Predicate<br><br>Example:<br>The black cat (subject) jumped over the fence (predicate).<br><br>Class Discussion:<br>Write sentences on the board and have students identify the subject and predicate.<br>Ask: 'Can a sentence be complete without a subject or predicate?' (No)",
+      "<b>Part 5: Exercise – Identifying Subjects and Predicates</b>:<br><br>Instructions:<br>Underline the subject and circle the predicate in each sentence.<br><br>1. The bright sun shines in the sky.<br>2. My little brother loves ice cream.<br>3. The birds are singing in the trees.<br>4. Our teacher gave us homework today.<br>5. The friendly dog wagged its tail.<br><br>Bonus:<br>Write your own sentence and underline the subject and circle the predicate."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in class discussions and activities.",
+    "<b>Exercise</b>: The worksheet activity will assess students' ability to identify subjects and predicates correctly."
+  ],
+  "conclusion": [
+    "A sentence must have a subject and a predicate.",
+    "The subject tells who or what the sentence is about.",
+    "The predicate tells what the subject does or is.",
+    "Understanding these parts helps us write better sentences."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Multiword Subjects",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Multiword Subjects",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "2",
+  "description": "This lesson helps students identify subjects in sentences, recognize complete subjects, differentiate between simple and multiword subjects, and identify compound subjects.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence strips",
+    "Worksheets",
+    "Flashcards"
+  ],
+  "objectives": [
+    "Identify the subject of a sentence.",
+    "Recognize a complete subject.",
+    "Differentiate between simple and multiword (complete) subjects.",
+    "Identify compound subjects in sentences."
+  ],
+  "rationale": [
+    "Understanding sentence structure, particularly subjects, helps students build strong writing and grammar skills.",
+    "Recognizing multiword and compound subjects enhances reading comprehension and sentence construction."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, board exercises, and interactive activities to help students understand multiword and compound subjects."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding the Subject of a Sentence</b>:<br><br>Explanation:<br>Every sentence is about someone or something. The subject is the part of the sentence that tells who or what the sentence is about.<br><br>Examples:<br>1. The cat is sleeping. (Subject: The cat)<br>2. My little sister loves ice cream. (Subject: My little sister)<br>3. The big brown dog ran across the yard. (Subject: The big brown dog)<br><br>Activity:<br>Ask students to look around the classroom and describe what they see in short sentences. Write a few sentences on the board and underline the subjects.",
+      "<b>Part 2: What is a Complete Subject?</b>:<br><br>Explanation:<br>A complete subject includes all the words that tell who or what the sentence is about. Sometimes, the subject is one word (a noun or pronoun), but other times it has extra words that describe it.<br><br>Examples:<br>1. Birds fly in the sky. (Simple subject: Birds)<br>2. The blue birds fly in the sky. (Complete subject: The blue birds)<br>3. My best friend Sarah likes to read books. (Complete subject: My best friend Sarah)<br><br>Activity:<br>Write several sentences on the board. Have students identify the complete subject in each sentence.",
+      "<b>Part 3: Multiword Subjects and Compound Subjects</b>:<br><br>Explanation:<br>A multiword subject is simply a complete subject that has more than one word.<br>A compound subject is when two or more subjects are joined by and or or.<br><br>Examples of Multiword Subjects:<br>1. The tall giraffe in the zoo eats leaves.<br>2. The big, yellow school bus arrived late.<br>3. A group of students played in the park.<br><br>Examples of Compound Subjects:<br>1. Ben and Tom are best friends.<br>2. The dog and the cat ran outside.<br>3. My mother and father love gardening.<br><br>Activity:<br>Write simple sentences on the board and ask students to expand the subject by adding details.",
+      "<b>Part 4: Applying the Concept</b>:<br><br>Teacher-Led Practice:<br>1. Write a sentence on the board with a simple subject.<br>2. Ask students to rewrite it by adding descriptive words to form a multiword subject.<br>3. Then, modify the sentence again by making it a compound subject.<br><br>Example:<br>Simple Subject: The boy is reading.<br>Multiword Subject: The smart boy in the library is reading.<br>Compound Subject: The smart boy in the library and his friend are reading.",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions:<br><br>A. Identify the complete subject in each sentence.<br>1. The little girl with curly hair is playing outside.<br>2. A group of musicians performed at the concert.<br>3. The red and blue kite flew high in the sky.<br>4. The large elephant in the zoo ate a banana.<br><br>B. Rewrite the sentences by adding descriptive words to create multiword subjects.<br>1. The teacher gave us homework.<br>2. The dog barked loudly.<br>3. The children played in the park.<br><br>C. Write three sentences with compound subjects."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in identifying subjects in sentences.",
+    "<b>Exercise</b>: The written exercises will assess students’ ability to recognize and differentiate simple, multiword, and compound subjects."
+  ],
+  "conclusion": [
+    "The subject tells who or what the sentence is about.",
+    "A complete subject includes all words in the subject.",
+    "A multiword subject has more than one word.",
+    "A compound subject has two or more subjects joined by 'and' or 'or'.",
+    "Encourage students to practice identifying subjects in their reading and writing."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Complete Sentences and Fragments",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, September 24, 2023",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Complete Sentences and Fragments",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand the difference between complete sentences and fragments, emphasizing the importance of a subject and predicate in forming a complete thought.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence strips",
+    "Worksheets"
+  ],
+  "objectives": [
+    "Identify complete sentences and fragments.",
+    "Understand the importance of a subject and a predicate in forming complete sentences.",
+    "Correct sentence fragments by adding a subject."
+  ],
+  "rationale": [
+    "Understanding sentence structure helps students improve their writing and communication skills.",
+    "Learning to identify and correct fragments ensures clarity and completeness in sentence formation."
+  ],
+  "methodology": [
+    "The lesson will use explanation, guided practice, group work, and independent exercises to reinforce understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Begin by writing the sentence below on the board:<br>'The dog barked loudly.'<br>'Running through the park.'<br><br>Ask students:<br>Which of these sentences sounds complete?<br>Which one feels unfinished?<br><br>Explain that a complete sentence has a subject (who or what the sentence is about) and a predicate (what the subject is doing). It expresses a complete thought.<br><br>Explain that a fragment is an incomplete sentence. It might be missing a subject or a predicate and does not express a complete thought.",
+      "<b>Part 2: Identifying Complete Sentences and Fragments (15 minutes)</b>:<br><br>Write these on the board and read them aloud:<br>'The cat slept on the couch.'<br>'Playing in the garden.'<br>'We went to the zoo yesterday.'<br>'Because she was tired.'<br><br>Ask students to identify which ones are complete sentences and which ones are fragments.<br><br>Discuss the correct answers, emphasizing that a complete sentence has both a subject and a predicate.",
+      "<b>Part 3: Fixing Sentence Fragments (15 minutes)</b>:<br><br>Explain that we can fix fragments by adding missing parts.<br><br>Write the following fragments on the board:<br>'Jumping on the trampoline.'<br>'Because it was raining.'<br>'Sitting under the tree.'<br><br>Ask students how we can make them complete. Example:<br>'The children were jumping on the trampoline.'<br>'We stayed inside because it was raining.'<br>'She was sitting under the tree.'<br><br>Guide students through correcting more fragments together.",
+      "<b>Part 4: Group Practice (10 minutes)</b>:<br><br>Divide students into small groups and give each group 3 sentence fragments.<br><br>Have them work together to turn each fragment into a complete sentence.<br><br>Ask each group to share their corrected sentences with the class.",
+      "<b>Part 5: Independent Exercise (10 minutes)</b>:<br><br>Directions: Identify if each is a complete sentence or a fragment. If it’s a fragment, fix it by making it a complete sentence.<br><br>1. Ran across the street.<br>2. The bird sang a sweet song.<br>3. Playing with her friends at the park.<br>4. My mom baked a delicious cake.<br>5. After we ate lunch."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and responses during discussions and group work.",
+    "<b>Exercise</b>: The independent exercise will be reviewed to assess students' ability to identify and correct sentence fragments."
+  ],
+  "conclusion": [
+    "Review the key points: Every complete sentence has a subject and a predicate and expresses a complete thought.",
+    "Ask students to give their own examples of a sentence and a fragment.",
+    "End with a quick fun challenge: Call on students randomly to say a sentence, and their classmates must decide if it’s complete or a fragment!"
+  ]
+},
 
 // Lesson 4
-
+{
+  "title": "Understanding Subjects and Sentence Fragments",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding Subjects and Sentence Fragments",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the concept of complete subjects in sentences, helps them recognize sentence fragments, and teaches them how to correct fragments by adding a subject.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed sentence examples",
+    "Worksheets with sentence fragments"
+  ],
+  "objectives": [
+    "Identify the complete subject in a sentence.",
+    "Recognize sentence fragments.",
+    "Correct sentence fragments by adding a subject."
+  ],
+  "rationale": [
+    "Understanding subjects and sentence fragments helps students build strong sentence structures, improving their writing and comprehension skills."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, class discussions, and hands-on activities to reinforce the understanding of subjects and sentence fragments."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Subjects</b>:<br><br>What is a subject?<br>The subject of a sentence tells who or what the sentence is about.<br>A complete subject includes all the words that describe or relate to the subject.<br><br>Example:<br>The little boy ran across the field. (The little boy is the complete subject.)<br>My best friend and I love to read. (My best friend and I is the complete subject.)<br><br>Class Discussion:<br>Write a few sentences on the board and ask students to identify the complete subject.",
+      "<b>Part 2: Understanding Sentence Fragments</b>:<br><br>What is a fragment?<br>A fragment is an incomplete sentence that does not express a complete thought.<br>It may be missing a subject or a verb.<br><br>Example of a fragment:<br>'Runs to the park.' (Who runs? The subject is missing.)<br>'The big dog.' (What about the big dog? The action is missing.)<br><br>Class Activity:<br>Provide some sentence fragments and ask students if they can recognize why they are incomplete.",
+      "<b>Part 3: Correcting Sentence Fragments by Adding a Subject</b>:<br><br>How do we fix fragments?<br>We can fix a fragment by adding a subject so it makes sense.<br><br>Example:<br>Fragment: 'Runs to the park.'<br>Corrected: 'The girl runs to the park.'<br><br>Guided Practice:<br>Give students fragments and have them add subjects to make complete sentences.",
+      "<b>Part 4: Compound Subjects</b>:<br><br>What is a compound subject?<br>A compound subject has two or more subjects connected by and or or.<br><br>Example:<br>Lisa and her brother love to play soccer.<br>The dog and the cat are best friends.<br><br>Group Activity:<br>Ask students to create their own sentences using a compound subject.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Identify the Complete Subject:<br>1. The big elephant splashed in the water.<br>2. My sister and I went to the park.<br>3. The bright yellow sunflower bloomed in the garden.<br><br>B. Correct the Sentence Fragments:<br>1. Walked to school.<br>2. The little puppy.<br>3. Playing in the yard.<br><br>C. Create Your Own Sentences:<br>Write one sentence with a complete subject.<br>Write one sentence with a compound subject.<br>Fix this fragment: 'Running in the playground.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The written exercises will evaluate students' ability to identify subjects and correct sentence fragments."
+  ],
+  "conclusion": [
+    "Review what a complete subject is.",
+    "Remind students that a fragment does not express a complete thought.",
+    "Encourage students to practice writing complete sentences in their daily work."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Identifying the Complete Subject in a Sentence",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Identifying the Complete Subject in a Sentence",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "5",
+  "description": "This lesson helps students understand what a subject is in a sentence, differentiate between the complete subject and the simple subject, and identify the complete subject in given sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence strips",
+    "Worksheets"
+  ],
+  "objectives": [
+    "Understand what a subject is in a sentence.",
+    "Differentiate between the complete subject and the simple subject.",
+    "Identify the complete subject in given sentences.",
+    "Apply their knowledge by finding the complete subject in different sentences."
+  ],
+  "rationale": [
+    "Understanding sentence structure improves reading comprehension and writing skills.",
+    "Identifying the complete subject helps students construct clear and meaningful sentences."
+  ],
+  "methodology": [
+    "The lesson will use discussions, explanations, examples, guided practice, and independent exercises to help students identify complete subjects."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Understanding the Subject in a Sentence)</b>:<br><br>Discussion:<br>Begin by asking students:<br>What is a sentence? (A group of words that expresses a complete thought.)<br>What are the two main parts of a sentence? (Subject and predicate.)<br><br>Explain:<br>The subject of a sentence tells us who or what the sentence is about.<br>The predicate tells us what the subject is doing.<br><br>Example: The cat sleeps on the mat.<br>Subject: The cat (Who is the sentence about?)<br>Predicate: sleeps on the mat (What is the cat doing?)",
+      "<b>Part 2: Understanding the Complete Subject</b>:<br><br>Explanation:<br>The complete subject includes all the words that tell who or what the sentence is about.<br>It may contain adjectives, articles, or other words describing the subject.<br><br>Example: The big, brown dog barks loudly.<br>Complete subject: The big, brown dog<br>Predicate: barks loudly",
+      "<b>Part 3: Differentiating Between Simple and Complete Subject</b>:<br><br>Explanation:<br>The simple subject is the main noun or pronoun in the complete subject.<br>The complete subject includes the simple subject and all the words that describe it.<br><br>Example:<br>The bright and shining sun gives us light.<br>Simple subject: sun<br>Complete subject: The bright and shining sun<br><br>Practice with students:<br>Identify the complete subject and simple subject in the sentence:<br>The tall giraffe eats leaves from the tree.<br>Complete subject: The tall giraffe<br>Simple subject: giraffe",
+      "<b>Part 4: Guided Practice</b>:<br><br>Write sentences on the board and ask students to identify the complete subject:<br>1. The fluffy white rabbit hops in the garden.<br>2. My best friend loves playing soccer.<br>3. The little boy with the red cap is running fast.<br>4. The tall trees in the forest sway in the wind.<br>5. A group of happy children is playing outside.<br><br>Have students work in pairs to discuss and underline the complete subject in each sentence.",
+      "<b>Part 5: Exercise (Independent Practice)</b>:<br><br>Instructions: Write the complete subject of each sentence below.<br>1. The sun is at the center of our solar system.<br>2. Our Earth gets heat and light from the sun.<br>3. People and animals need energy from the sun’s rays.<br>4. Plants could not live without the sun.<br>5. All living things need the sun to live and grow.<br><br>Extension Activity:<br>Ask students to write two sentences of their own and underline the complete subject.<br>Share answers with the class."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and exercises.",
+    "<b>Exercise</b>: The independent practice will assess students’ ability to identify the complete subject in sentences."
+  ],
+  "conclusion": [
+    "Review what a complete subject is.",
+    "Ask students: What is the difference between a simple subject and a complete subject? Why is it important to identify the complete subject in a sentence?",
+    "Reinforce learning with one final example on the board.",
+    "Encourage students to identify the complete subject when reading or writing sentences."
+  ]
+},
 
 	
 	// Week 5
 // Lesson 1
-
+{
+  "title": "Writing Asking Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, April 02, 2023",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Predicates",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson helps students understand the structure of sentences, identify subjects and predicates, and practice forming questions.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts with sample sentences"
+  ],
+  "objectives": [
+    "Students will learn about complete subjects and predicates.",
+    "Students will identify the subject and predicate in different sentences.",
+    "Students will practice turning sentences into asking sentences (questions)."
+  ],
+  "rationale": [
+    "Understanding the structure of sentences, including subjects and predicates, is fundamental for forming clear and meaningful questions in writing."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and exercises to help students understand and apply the concepts of subjects, predicates, and asking sentences."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Sentences</b>:<br><br>A sentence is a group of words that expresses a complete thought. In English, sentences are made up of two main parts: the subject and the predicate.<br><br>Complete Subject: This part tells us what or whom the sentence is about.<br>Complete Predicate: This part tells us what the subject does or is. It can be one word or more than one word.<br><br>Example: The dog ran fast.<br>Complete Subject: The dog (tells us who the sentence is about)<br>Complete Predicate: ran fast (tells us what the dog did)",
+      "<b>Part 2: Understanding the Subject and Predicate</b>:<br><br>The Complete Subject is usually a noun or pronoun (like 'dog,' 'she,' 'the teacher').<br>The Complete Predicate includes the verb (action) and other words that tell us more about the action or state of the subject.<br><br>Example 1: Sentence: The cat jumped over the fence.<br>Complete Subject: The cat<br>Complete Predicate: jumped over the fence<br><br>Example 2: Sentence: Our teacher explains the lesson carefully.<br>Complete Subject: Our teacher<br>Complete Predicate: explains the lesson carefully",
+      "<b>Part 3: Identifying Predicates in Sentences</b>:<br><br>Predicates can sometimes be more than one word. For example, the verb and any words that describe the action (like adjectives or adverbs) are all part of the predicate.<br><br>Example 1: Sentence: The boy played in the park.<br>Complete Subject: The boy<br>Complete Predicate: played in the park<br><br>Example 2: Sentence: She is reading a book in her room.<br>Complete Subject: She<br>Complete Predicate: is reading a book in her room",
+      "<b>Part 4: Asking Sentences (Interrogative Sentences)</b>:<br><br>Asking sentences, also known as interrogative sentences, are used to ask questions. They follow the same rule of having a subject and a predicate, but they start with a question word (like who, what, where, why, or how) or with an auxiliary verb (like is, are, do, did).<br><br>Examples of Asking Sentences:<br>Who is your best friend?<br>Complete Subject: Who<br>Complete Predicate: is your best friend<br><br>Where did you go yesterday?<br>Complete Subject: You<br>Complete Predicate: did go yesterday<br><br>In asking sentences, the subject and predicate can sometimes be in a different order compared to statements.",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions: Read the sentences below and identify the subject and predicate. Then, rewrite the sentences as questions.<br>1. The dog chased the ball.<br>2. She is reading a storybook.<br>3. The teacher explained the lesson.<br>4. The children played outside.<br>5. He finished his homework quickly.<br><br>Task:<br>Identify the complete subject and predicate in each sentence.<br>Rewrite each sentence as an asking sentence (question)."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the sentence identification and transformation into questions.",
+    "<b>Exercise</b>: The 5-sentence exercise will evaluate the students' understanding of subjects, predicates, and forming asking sentences."
+  ],
+  "conclusion": [
+    "By understanding and identifying the parts of a sentence, especially subjects and predicates, students will be able to effectively form and understand asking sentences (questions)."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Compound Predicates",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, April 02, 2023",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Sentences - Compound Predicates",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about compound predicates, explaining how two actions can be combined to describe what the subject does.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets"
+  ],
+  "objectives": [
+    "Students will understand what a predicate is and be able to identify it in sentences.",
+    "Students will recognize and understand complete predicates.",
+    "Students will be able to create sentences using compound predicates."
+  ],
+  "rationale": [
+    "Understanding compound predicates helps students build more complex and descriptive sentences, enhancing their writing skills."
+  ],
+  "methodology": [
+    "The lesson will be taught using explanations, examples, and exercises to help students grasp the concept of compound predicates."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Predicates</b>:<br><br>A predicate is the part of a sentence that tells us what the subject is or does. Every sentence has a subject (who or what the sentence is about) and a predicate (what the subject does or is). For example:<br><br>The dog barked loudly.<br>The teacher explained the lesson.<br><br>Here, 'barked loudly' and 'explained the lesson' are the predicates. They tell us what the dog and the teacher are doing.",
+      "<b>Part 2: Understanding Complete Predicates</b>:<br><br>A complete predicate includes all the words that tell us what the subject is doing. It may have more than one word. For example:<br><br>The cat slept on the couch.<br>The children played and laughed.<br><br>In both sentences, the complete predicate includes more than just the main verb. It tells us exactly what happened in more detail.",
+      "<b>Part 3: Compound Predicates</b>:<br><br>A compound predicate happens when there are two actions or verbs joined by the word 'and' that tell us what the subject is doing. For example:<br><br>The boy ran and jumped.<br>Sarah read a book and wrote a letter.<br><br>In these examples, the subject (the boy and Sarah) is doing two things. These two actions are connected by 'and,' which makes the predicate compound.",
+      "<b>Part 4: Using Compound Predicates in Sentences</b>:<br><br>Now that you understand what a compound predicate is, let's look at how you can create sentences with compound predicates. Remember, you need:<br><br>1. A subject (who or what the sentence is about).<br>2. Two actions connected by 'and.'<br><br>For example:<br><br>The dog barked and ran around.<br>The teacher taught and answered questions.<br><br>You can practice making your own sentences by following this pattern!",
+      "<b>Part 5: Exercise</b>:<br><br>Directions: Write sentences using compound predicates. Each sentence should have a subject and two actions connected by 'and.' Use the subjects provided, and think of two things they could do.<br><br>1. Write a sentence using the subject 'The cat'.<br>Example: The cat ________________ and ________________.<br><br>2. Write a sentence using the subject 'The children'.<br>Example: The children ________________ and ________________.<br><br>3. Write a sentence using the subject 'I'.<br>Example: I ________________ and ________________.<br><br>4. Write a sentence using the subject 'The teacher'.<br>Example: The teacher ________________ and ________________.<br><br>5. Write a sentence using the subject 'My friends'.<br>Example: My friends ________________ and ________________."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation and engagement in the discussion and exercise.",
+    "<b>Exercise</b>: The exercise will assess students' ability to create correct sentences using compound predicates."
+  ],
+  "conclusion": [
+    "Today, we learned about compound predicates, which are when two actions are joined by 'and' to describe what the subject is doing. Practice using compound predicates in your own sentences to become more confident in writing!"
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Complete Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Complete Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to identify and create complete sentences, as well as how to correct sentence fragments and run-ons.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheets with sentence exercises",
+    "Sentence cards for practice"
+  ],
+  "objectives": [
+    "Students will learn the difference between complete sentences, sentence fragments, and run-on sentences.",
+    "Students will practice correcting sentence fragments and run-on sentences.",
+    "Students will demonstrate the ability to create complete sentences with both a subject and a predicate."
+  ],
+  "rationale": [
+    "Understanding complete sentences is essential for students to express themselves clearly and correctly in writing."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and interactive practice to help students identify and correct sentence fragments and run-ons."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Complete Sentences</b>:<br><br>A complete sentence is a group of words that expresses a complete thought. Every complete sentence has two main parts:<br><br>1. Subject: The subject tells us who or what the sentence is about.<br><br>2. Predicate: The predicate tells us what the subject does or what happens to the subject.<br><br>For example:<br><br>The dog (subject) barked loudly (predicate).<br><br>This is a complete sentence because it has both a subject and a predicate, and it expresses a full thought.",
+      "<b>Part 2: Sentence Fragments</b>:<br><br>A fragment is not a complete sentence. It is a part of a sentence but does not express a full thought. A fragment usually misses either a subject or a predicate.<br><br>For example:<br><br>Fragment: Barked loudly.<br><br>This is a fragment because we don’t know who or what barked loudly.<br><br>To correct a fragment, we need to add either a subject or a predicate. For example:<br><br>Corrected: The dog barked loudly.",
+      "<b>Part 3: Run-on Sentences</b>:<br><br>A run-on sentence happens when two sentences are joined together without proper punctuation or a connecting word. This creates a confusing or incorrect sentence.<br><br>For example:<br><br>Run-on: I went to the store I bought apples.<br><br>This is a run-on because two complete ideas are joined without punctuation.<br><br>To correct a run-on, you can either:<br><br>1. Add a period to separate the two ideas: I went to the store. I bought apples.<br>2. Use a conjunction (like 'and' or 'but') to connect the two ideas: I went to the store, and I bought apples.",
+      "<b>Part 4: Practice Identifying and Correcting Sentences</b>:<br><br>Let's review some examples. I will show you a sentence, and we will decide together if it is a complete sentence, a fragment, or a run-on.<br><br>1. The cat jumped on the chair. (Complete sentence)<br>2. Jumped on the chair. (Fragment – missing a subject)<br>3. I love ice cream I eat it every day. (Run-on – needs separation or conjunction)",
+      "<b>Part 5: Exercise</b>:<br><br>Now it’s your turn! Correct the following sentences:<br><br>1. He is running fast<br>2. Went to the park.<br>3. I love pizza I eat it every week.<br>4. She is singing beautifully.<br>5. The teacher read the book the students listened.<br><br>Instructions: If the sentence is a fragment, add a subject or a predicate. If the sentence is a run-on, separate it into two sentences or use a conjunction. If the sentence is complete, leave it as is."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' ability to identify and correct sentence fragments and run-ons during the exercise.",
+    "<b>Exercise</b>: The worksheet with sentence corrections will evaluate students' understanding of complete sentences and sentence structure."
+  ],
+  "conclusion": [
+    "By learning about complete sentences, fragments, and run-on sentences, students will improve their writing skills and become more effective communicators."
+  ]
+},
 
 // Lesson 4
-
+{
+  "title": "Predicates",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding Predicates",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the concept of predicates, sentence fragments, and run-on sentences. Students will practice identifying and correcting sentence structures.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts with sentence examples",
+    "Worksheet for exercises"
+  ],
+  "objectives": [
+    "Students will understand the concept of a predicate in a sentence.",
+    "Students will learn how to fix sentence fragments and run-on sentences.",
+    "Students will practice writing complete sentences."
+  ],
+  "rationale": [
+    "Understanding predicates and sentence structure is essential for students to write clear and grammatically correct sentences."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and exercises to help students grasp sentence structure and identify errors."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Predicates</b>:<br><br>A predicate is the part of the sentence that tells us what the subject is doing or what is happening to the subject. It always contains a verb. For example:<br><br>Subject: The dog<br>Predicate: runs fast.<br><br>The complete sentence is: 'The dog runs fast.'<br><br>Every sentence has two parts:<br><br>1. Subject: Who or what the sentence is about.<br>2. Predicate: What the subject is doing or what is happening to it.",
+      "<b>Part 2: Sentence Fragments</b>:<br><br>A sentence fragment is an incomplete sentence. It is missing either the subject or the predicate. For example:<br><br>Fragment: Running fast.<br>This is a fragment because we don't know who is running fast.<br><br>To fix a fragment, we add a subject or a predicate. For example:<br><br>Fixed sentence: The dog is running fast.<br><br>Now, we have both a subject and a predicate, making it a complete sentence.",
+      "<b>Part 3: Run-on Sentences</b>:<br><br>A run-on sentence is when two complete ideas are joined together without proper punctuation or a conjunction. For example:<br><br>Run-on sentence: The dog runs fast he jumps high.<br><br>To fix a run-on sentence, we separate the ideas into two sentences or add a conjunction:<br><br>Fixed sentence 1: The dog runs fast. He jumps high.<br>Fixed sentence 2: The dog runs fast, and he jumps high.",
+      "<b>Part 4: Sentence Structure Review</b>:<br><br>To summarize:<br><br>Every sentence needs a subject and a predicate.<br>A sentence fragment is missing one of these parts, and we can fix it by adding the missing part.<br>A run-on sentence combines two ideas without proper punctuation, and we can fix it by separating the ideas into two sentences or adding a conjunction.",
+      "<b>Part 5: Exercise</b>:<br><br>1. Identify the subject and predicate in the following sentences:<br>The cat sleeps on the bed.<br>The teacher explains the lesson clearly.<br><br>2. Fix the sentence fragments:<br>Ran quickly.<br>The boy with the red hat.<br><br>3. Correct the run-on sentences:<br>She likes pizza he likes pasta.<br>The sun is shining it's a beautiful day.<br><br>4. Write two complete sentences, one with a subject and predicate you make up, and the other with a fragment or run-on sentence that needs fixing."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the discussions and exercises.",
+    "<b>Exercise</b>: The exercise will assess students' ability to identify subjects and predicates, fix fragments, and correct run-on sentences."
+  ],
+  "conclusion": [
+    "By understanding predicates and sentence structure, students will be able to write complete and grammatically correct sentences, improving their writing skills."
+  ]
+},
 
 // Lesson 5
-
+{
+  "title": "Understanding the Predicate in a Sentence",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding the Predicate in a Sentence",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "5",
+  "description": "This lesson introduces students to the predicate in a sentence, focusing on identifying and understanding its role.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets with exercises",
+    "Flashcards with subject and predicate examples"
+  ],
+  "objectives": [
+    "Students will learn to identify the predicate in a sentence.",
+    "Students will practice matching subjects and predicates to form complete sentences."
+  ],
+  "rationale": [
+    "Understanding the predicate is crucial for constructing meaningful sentences and improving grammar skills."
+  ],
+  "methodology": [
+    "The lesson will use a mix of explanations, examples, and hands-on exercises to help students grasp the concept of the predicate in a sentence."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Predicate</b>:<br><br>The predicate is the part of the sentence that tells what the subject does or what happens to the subject. It includes the verb (action word) and everything that follows it. The subject tells us who or what the sentence is about, and the predicate tells us what the subject is doing.<br><br>Example:<br>Sentence: My mom and I saw the Golden Gate Bridge last summer.<br>Subject: My mom and I (who the sentence is about)<br>Predicate: saw the Golden Gate Bridge last summer (what the subject is doing)<br><br>In this example, the predicate is everything after the subject, starting with the verb 'saw.'",
+      "<b>Part 2: Identifying the Predicate</b>:<br><br>Let's break down each sentence to find the predicate:<br><br>1. My mom and I saw the Golden Gate Bridge last summer.<br>Subject: My mom and I<br>Predicate: saw the Golden Gate Bridge last summer<br><br>2. The bridge in San Francisco is a famous sight.<br>Subject: The bridge in San Francisco<br>Predicate: is a famous sight<br><br>3. Thousands of people drive across the bridge every day.<br>Subject: Thousands of people<br>Predicate: drive across the bridge every day<br><br>4. We took lots of pictures of the famous bridge.<br>Subject: We<br>Predicate: took lots of pictures of the famous bridge",
+      "<b>Part 3: Explanation of the Exercise</b>:<br><br>Part A: Circle the Predicate<br>For each sentence, you will identify which part is the predicate and circle the correct answer. Remember, the predicate starts with the action (verb) and includes everything that happens afterward.<br><br>Example for Practice:<br>Sentence: The dog jumped over the fence.<br>a. The dog<br>b. jumped over the fence<br>The correct answer is b. jumped over the fence because it tells us what the dog did.",
+      "<b>Part 4: Matching Subjects with Predicates</b>:<br><br>In Part B, we will match incomplete subjects with incomplete predicates to form complete sentences. Each part of the sentence will need to be finished to make sense.<br><br>Example for Practice:<br>Incomplete Subject: The boy<br>Incomplete Predicate: runs fast.<br>Full Sentence: The boy runs fast.",
+      "<b>Part 5: Exercise (Circle the Correct Predicate and Match Subjects with Predicates)</b>:<br><br>A. Circle the Correct Predicate:<br>1. My mom and I saw the Golden Gate Bridge last summer.<br>a. My mom and I<br>b. last summer<br>c. saw the Golden Gate Bridge last summer<br><br>2. The bridge in San Francisco is a famous sight.<br>a. in San Francisco<br>b. is a famous sight<br>c. The bridge<br><br>3. Thousands of people drive across the bridge every day.<br>a. drive across the bridge every day<br>b. of people<br>c. Thousands<br><br>4. We took lots of pictures of the famous bridge.<br>a. of pictures<br>b. took lots of pictures of the famous bridge<br>c. the famous bridge<br><br>B. Match the Incomplete Subject with the Incomplete Predicate:<br>5. A desert environment ___<br>a. sleep during the day and are active at night<br><br>6. Many animals of the desert ___<br>b. are able to store water<br><br>7. Spiny cactus plants ___<br>c. get little rainfall"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in the matching and circling activities, checking for correct identification of the predicate.",
+    "<b>Exercise</b>: The circle-the-predicate and matching exercises will assess students' understanding of predicates and sentence structure."
+  ],
+  "conclusion": [
+    "By learning about the predicate and practicing matching subjects and predicates, students will strengthen their ability to form complete sentences and enhance their overall grammar skills."
+  ]
+},
 
 	// Week 7
 // Lesson 1
