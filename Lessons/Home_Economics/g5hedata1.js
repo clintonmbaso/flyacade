@@ -1,5 +1,5 @@
 const lessonPlans50a = [
-
+/*
 // Week 2
 // Lesson 1
 {
@@ -451,5 +451,6 @@ const lessonPlans50a = [
 
 // Lesson 2
 
+*/
 
 ];
