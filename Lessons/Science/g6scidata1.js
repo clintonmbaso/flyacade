@@ -350,9 +350,227 @@ const lessonPlans27a = [
 },
 	
 // Lesson 4
+{
+  "title": "Identifying Health and Social Consequences of Teenage Pregnancy",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Health and Social Risks of Teenage Pregnancy",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "4",
+  "description": "Learners will understand the basic consequences of teenage pregnancy, focusing on health and social risks in a simplified and age-appropriate manner.",
+  "materials": [
+    "Pictures illustrating babies, mothers, and responsibilities",
+    "Dolls for role-playing activity",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will understand the concept of pregnancy and parental responsibility.",
+    "Students will learn about the health risks of teenage pregnancy in a simplified manner.",
+    "Students will explore the social consequences of teenage pregnancy.",
+    "Students will discuss the importance of making good choices for their future."
+  ],
+  "rationale": [
+    "Teaching young learners about the consequences of teenage pregnancy in a simplified way helps them understand the importance of responsibility and making healthy life choices."
+  ],
+  "methodology": [
+    "The lesson will use discussions, pictures, storytelling, role-playing, and interactive activities to help learners understand the topic."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Understanding Pregnancy and Responsibility)</b>:<br><br>Start by asking learners if they know what a baby is and where babies come from.<br>Explain in a simple way that when a woman grows up and is ready, she can have a baby.<br>Discuss that taking care of a baby is a big responsibility, and parents need to be ready before they have children.<br>Use pictures or simple storytelling to explain that young girls (teenagers) are not yet ready to take care of babies because they are still growing.",
+      "<b>Part 2: Health Risks of Teenage Pregnancy</b>:<br><br>Explain that when a girl has a baby too early, it can cause problems for her health.<br>Simplify the risks into:<br><br><b>Trauma:</b> Having a baby too young can be scary and painful.<br><b>Disability:</b> Sometimes, the baby or mother might not grow properly and may have health problems.<br><b>Complications:</b> There may be sickness or other issues when a girl is too young to give birth.<br><b>Premature death:</b> In very bad cases, the mother or baby may not survive if they don’t get proper care.<br><br>Show pictures of happy and healthy mothers with babies to contrast with the risks.",
+      "<b>Part 3: Social Consequences of Teenage Pregnancy</b>:<br><br>Discuss how a teenage mother may find it hard to go to school or play with friends.<br>Explain that raising a baby requires food, clothes, and money, which can be difficult for young people.<br>Use a role-playing activity where learners pretend to take care of a doll (baby), showing how much work it takes.<br>Emphasize that children should wait until they are adults before having babies, so they can take care of them properly.",
+      "<b>Part 4: Prevention and Making Good Choices</b>:<br><br>Encourage learners to make good choices about their health and future.<br>Teach that education and listening to parents and teachers help them make the right decisions in life.<br>Explain that growing up and waiting until they are older helps them have a better life.<br>Use a simple song or rhyme about making good choices and taking care of oneself.",
+      "<b>Part 5: Exercise (Review Activity)</b>:<br><br><b>Matching Game:</b> Show pictures of different responsibilities (e.g., going to school, playing with friends, taking care of a baby), and ask learners to match which ones are for children and which are for adults.<br><br><b>Discussion Questions:</b><br>1. Why is it important to wait until you are older before having a baby?<br>2. What are some difficulties a young girl might face if she has a baby too early?<br>3. How can we make good choices for our future?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement in discussions and role-playing activities.",
+    "<b>Exercise</b>: The matching game and discussion questions will help assess students' understanding."
+  ],
+  "conclusion": [
+    "Summarize by reminding learners that children should focus on growing, learning, and playing before becoming parents.",
+    "Praise learners for participating and encourage them to make healthy choices as they grow."
+  ]
+},
+
+// Lesson 5
+{
+  "title": "Health Risks Associated with Early Sexual Debut",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 5, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Health Risks Associated with Early Sexual Debut",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "3",
+  "lessonNumber": "5",
+  "description": "This lesson introduces learners to the concept of early sexual debut, helping them understand its health risks and the importance of making safe choices.",
+  "materials": [
+    "Pictures of healthy vs. unhealthy individuals",
+    "Pictures of babies",
+    "Worksheet for matching game"
+  ],
+  "objectives": [
+    "Understand what early sexual debut means.",
+    "Identify the health risks associated with early sexual activity.",
+    "Recognize the importance of making safe and healthy choices."
+  ],
+  "rationale": [
+    "Teaching children about the risks associated with early sexual debut helps them make informed decisions and adopt healthy behaviors that protect their well-being."
+  ],
+  "methodology": [
+    "The lesson will use discussions, role-play, visual aids, and interactive activities to reinforce understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – Understanding Early Sexual Debut</b>:<br><br>Begin with a simple discussion: 'What do we mean by growing up?'<br>Explain in simple terms that as people grow, their bodies change.<br>Introduce the term early sexual debut (simplify as 'starting certain grown-up activities too early').<br>Use a story or role-play to illustrate how making healthy choices helps us stay safe.<br><br><b>Discussion Question:</b><br>'Why do you think waiting to do some things is important?'",
+
+      "<b>Part 2: Health Risk – Contraction of STIs and HIV</b>:<br><br>Explain that some diseases can be spread through close contact with another person’s body.<br>Introduce STIs (Sexually Transmitted Infections) and HIV (Human Immunodeficiency Virus) in simple terms:<br>'Some infections can make people very sick if they are not careful.'<br>'HIV can make the body weak if someone gets it, and it’s important to prevent it.'<br>Reinforce the importance of keeping our bodies safe and making healthy choices.<br><br><b>Activity:</b><br>Show pictures of healthy vs. unhealthy individuals and discuss ways to stay safe.",
+
+      "<b>Part 3: Health Risk – Unwanted or Teenage Pregnancy</b>:<br><br>Ask: 'What do babies need to grow up strong?' (Food, care, love, etc.)<br>Explain that having a baby is a big responsibility, and it’s important to wait until a person is fully ready.<br>Discuss how early pregnancy can make life harder, especially when young people are still in school.<br><br><b>Activity:</b><br>Display pictures of babies and discuss how much care they need.",
+
+      "<b>Part 4: Health Risk – Cervical Cancer</b>:<br><br>Explain that certain diseases can affect women’s health, like cervical cancer.<br>Talk about how making healthy choices early in life can help prevent sickness later.<br>Encourage learners to ask questions about how to take care of their bodies.<br><br><b>Discussion Question:</b><br>'What are some good ways to stay healthy and safe?'",
+
+      "<b>Part 5: Exercise – Healthy Choices Matching Game</b>:<br><br>Provide a worksheet with different pictures:<br>Some showing healthy behaviors (eating well, playing, studying).<br>Some showing risky behaviors.<br>Learners must match the pictures to 'Healthy' or 'Not Healthy' categories.<br><br><b>Wrap-Up:</b><br>Reinforce the importance of making safe choices.<br>Encourage learners to talk to trusted adults (parents, teachers) when they have questions."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The matching game will evaluate the students' ability to distinguish between healthy and risky behaviors."
+  ],
+  "conclusion": [
+    "By learning about the risks associated with early sexual debut, students will understand the importance of making informed and safe choices to protect their health."
+  ]
+},
+	
+// Week 4
+// Lesson 1
+{
+  "title": "Sources of Vitamins and Minerals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 5, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Foods That Are Good Sources of Vitamins and Minerals",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students about different foods that provide essential vitamins and minerals, their importance in the body, and how to categorize foods based on their nutritional value.",
+  "materials": [
+    "Pictures or real food items",
+    "Flashcards with different foods",
+    "Whiteboard and markers",
+    "Paper and crayons for drawing activity"
+  ],
+  "objectives": [
+    "Identify foods that provide essential vitamins and minerals.",
+    "Understand the importance of eating a variety of healthy foods.",
+    "Recognize how different foods help the body stay strong and healthy.",
+    "Categorize foods into groups based on their nutritional value."
+  ],
+  "rationale": [
+    "Teaching students about vitamins and minerals helps them make healthier food choices and understand how different foods support their growth and well-being."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, songs or stories, and interactive activities to help students understand the importance of vitamins and minerals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – Why Do We Need Vitamins and Minerals?</b><br><br>Begin with a short discussion: What do we eat every day?<br>Explain that our bodies need special nutrients called vitamins and minerals to grow strong and stay healthy.<br>Show pictures or real food items and ask students to name them.<br>Explain that different foods give us different nutrients.<br><br><b>Key Point:</b> Vitamins and minerals help our eyes see, our bones grow strong, and our bodies fight sickness.",
+      "<b>Part 2: Common Foods That Provide Vitamins and Minerals</b><br><br>Introduce key foods and explain how they help our bodies:<br>1. Vegetables (e.g., carrots, spinach, pumpkin) – Help us see better and keep our skin healthy.<br>2. Fruits (e.g., oranges, bananas, apples) – Give us energy and help fight sickness.<br>3. Milk & Dairy Products (e.g., yogurt, cheese) – Make our bones and teeth strong.<br>4. Liver & Fish – Help with growth and strong blood.<br>5. Oils & Nuts – Give us energy and keep our skin soft.<br><br><b>Activity:</b> Show real examples or flashcards of these foods and let children name them.",
+      "<b>Part 3: How Eating Healthy Foods Helps Us</b><br><br>Ask: What happens if we eat too much junk food?<br>Explain that junk food has little to no vitamins and minerals, so it does not help us grow strong.<br>Emphasize the importance of eating a variety of foods.<br>Introduce the idea of a healthy plate, showing how meals should include vegetables, fruits, proteins, and dairy.<br><br><b>Class Discussion:</b> Ask: What is your favorite food? Is it healthy?<br>Let children share their answers.",
+      "<b>Part 4: Fun Song or Story About Healthy Eating</b><br><br>Sing a simple song or tell a short story about a child who eats different healthy foods and grows strong.<br>Example: A boy who eats carrots can see well at night, a girl who drinks milk has strong bones, etc.<br>Encourage children to act out eating healthy foods.",
+      "<b>Part 5: Exercise – Sorting Healthy Foods</b><br><br><b>Activity:</b> Provide pictures of different foods (healthy and unhealthy).<br>Ask students to sort them into two groups: Healthy (with vitamins and minerals) and Unhealthy (junk food).<br>Discuss their choices.<br><br><b>Bonus Task:</b> Draw your favorite healthy food and color it."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: Sorting activity and drawing task will evaluate the students' understanding of healthy and unhealthy foods."
+  ],
+  "conclusion": [
+    "Review key foods and their benefits.",
+    "Ask: What foods help our bones? What foods help our eyes?",
+    "Encourage students to eat healthy foods at home."
+  ]
+},
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
 
 // Lesson 5
 
-	
+
+
+// Week 7
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
+// Week 8
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
+// Week 9
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
+// Week 10
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
+// Week 4
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
 	
 ];
