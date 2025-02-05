@@ -1,5 +1,5 @@
 const lessonPlans50a = [
-/*
+
 // Week 2
 // Lesson 1
 {
@@ -105,7 +105,7 @@ const lessonPlans50a = [
     "They will write a short reflection: 'Did I eat a balanced diet? What can I improve?'"
   ]
 },
-
+/*
 // Week 3
 // Lesson 1
 {
