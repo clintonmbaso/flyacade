@@ -423,49 +423,50 @@ const lessonPlans41a = [
 // Week 7
 // Lesson 1
 {
-  "title": "Demonstrating the Use of Measuring Tools - Rulers",
+  "title": "Understanding and Using a Ruler to Measure Length and Width",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Creative and Technology Studies",
-  "topic": "Demonstrating the Use of Measuring Tools - Rulers (Length and Width)",
-  "grade": "Cloud Chicks",
+  "subject": "Mathematics",
+  "topic": "Understanding and Using a Ruler to Measure Length and Width",
+  "grade": "2",
   "term": "1",
-  "week": "7",
-  "lessonNumber": "1",
-  "description": "This lesson aims to teach students how to use rulers to measure length and width, developing their understanding of basic measurement skills.",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to measure length and width of objects using a ruler, focusing on accuracy and understanding of measurements in inches and centimeters.",
   "materials": [
     "Rulers",
-    "Objects to measure (e.g., books, pencils, erasers)",
-    "Class chart or whiteboard"
+    "Whiteboard and markers",
+    "Classroom objects (e.g., books, pencils, paper)"
   ],
   "objectives": [
-    "Students will understand how to use a ruler to measure length and width.",
-    "Students will practice measuring various objects using a ruler."
+    "Students will understand what a ruler is and how to use it to measure length and width.",
+    "Students will practice measuring objects using both length and width.",
+    "Students will complete a task to measure objects independently."
   ],
   "rationale": [
-    "Learning to use measuring tools like rulers is an essential skill for students to develop as it forms the foundation for understanding measurements in both everyday and academic contexts."
+    "Learning to measure accurately is a fundamental skill in mathematics and everyday life. This lesson provides practical experience using a ruler to understand lengths and widths."
   ],
   "methodology": [
-    "The lesson will involve hands-on practice with rulers, guided demonstrations, and individual measurement tasks to reinforce understanding."
+    "The lesson will combine direct instruction, hands-on practice, and student demonstrations to reinforce measuring skills."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Rulers</b>: Students will learn what a ruler is and the units of measurement it uses (centimeters and inches).",
-      "<b>How to Use a Ruler</b>: The teacher will demonstrate how to properly place a ruler next to an object to measure its length and width.",
-      "<b>Practice Measuring</b>: Students will be given various objects (e.g., books, pencils) to measure using a ruler. They will measure both the length and width of each object.",
-      "<b>Class Exercise</b>:<br>1. Measure the length and width of a pencil. <br>2. Measure the length and width of a book. <br>3. Compare the measurements of two objects.",
-      "<b>Measurement Check</b>: Students will share their measurements with the class, and the teacher will ensure proper usage of the ruler and units of measurement."
+      "<b>Part 1: Introduction to Measuring with a Ruler</b>:<br><br>Objective: Students will understand what a ruler is and how it is used to measure the length and width of objects.<br>Materials Needed: Rulers, whiteboard, and markers.<br><br>Explanation:<br>Begin by introducing the ruler to the class. Explain that a ruler is a tool used to measure the length or width of objects. It has markings for inches and centimeters.<br>Show the students how the ruler is divided into equal sections. Explain that each small line represents a fraction of an inch or centimeter, with the longer lines representing whole numbers (e.g., 1, 2, 3, etc.).<br>Emphasize that when we measure, we start at the '0' mark and look at where the object ends to find out how long it is.",
+      "<b>Part 2: Measuring Length and Width</b>:<br><br>Objective: Students will learn how to measure both length and width using a ruler.<br>Materials Needed: Rulers, various classroom objects to measure (e.g., books, pencils, paper).<br><br>Explanation:<br>Demonstrate how to measure the length of an object (e.g., a pencil). Place the ruler next to the pencil, starting at the '0' mark, and show how to count the number of inches or centimeters the pencil reaches.<br>Next, measure the width of an object (e.g., a book). Show students that width is measured from side to side.<br>Use the ruler on different objects around the classroom so students can see how to measure both dimensions—length (long side) and width (short side).",
+      "<b>Part 3: Practicing Measurement</b>:<br><br>Objective: Students will practice measuring different objects using a ruler.<br>Materials Needed: Rulers, a variety of objects in the classroom to measure (books, pencils, paper clips, etc.).<br><br>Explanation:<br>Give each student a ruler and ask them to measure the length and width of various objects around the room.<br>Walk around the classroom, providing guidance as needed, ensuring students start at '0' and count the markings accurately.<br>Encourage students to write down their measurements after measuring each object. Ask them to measure at least three different objects—one for length and one for width.",
+      "<b>Part 4: Review and Demonstration</b>:<br><br>Objective: Students will review what they learned and confirm their understanding of how to measure objects using a ruler.<br>Materials Needed: Whiteboard, rulers.<br><br>Explanation:<br>Call a few students to the front to demonstrate how they measured objects. Ask them to explain their process and show their results.<br>Discuss any challenges they faced and correct any misunderstandings. Reiterate that measuring begins at '0' and the importance of counting the markings carefully.<br>Ask students to share some of the lengths and widths they measured, and write these on the whiteboard for reference.",
+      "<b>Part 5: Exercise and Task</b>:<br><br>Objective: Students will complete a short task to practice measuring objects independently.<br>Materials Needed: Rulers, small objects (e.g., pencils, erasers, books), worksheet with a table for measurements.<br><br>Exercise:<br>Provide each student with a worksheet that includes a list of objects (e.g., pencil, book, eraser, ruler) and space to record their measurements for both length and width.<br>Students will measure each object and fill in the worksheet with the correct measurements.<br>As students complete the task, walk around and provide assistance as necessary."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to correctly use a ruler and accurately measure the length and width of objects.",
-    "<br><b>Homework</b>:<br>1. Measure the length and width of at least three objects at home (e.g., table, door, chair) and record the measurements."
+    "<b>Observation</b>: The teacher will observe students' engagement during the measuring practice and ensure accurate use of rulers.",
+    "<b>Exercise</b>: The worksheet with object measurements will help evaluate students' ability to measure length and width accurately."
   ],
   "conclusion": [
-    "By actively practicing with rulers, students will develop their measurement skills and gain confidence in using measuring tools for everyday tasks."
+    "By the end of the lesson, students will have a clear understanding of how to measure both length and width using a ruler. They will continue to practice this skill in everyday tasks and further math lessons."
   ]
 },
 
