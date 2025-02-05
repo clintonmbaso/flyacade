@@ -105,7 +105,7 @@ const lessonPlans50a = [
     "They will write a short reflection: 'Did I eat a balanced diet? What can I improve?'"
   ]
 },
-/*
+
 // Week 3
 // Lesson 1
 {
@@ -213,7 +213,7 @@ const lessonPlans50a = [
     "By the end of the lesson, students will understand the importance of raw vegetables and fruits, know how to handle them hygienically, and apply basic food preparation techniques."
   ]
 },
-
+/*
 // Week 4
 // Lesson 1
 {
