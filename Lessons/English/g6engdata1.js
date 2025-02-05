@@ -244,6 +244,30 @@ const lessonPlans18a = [
 
 // Week 3
 // Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
+
+// Week 4
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
+
+// Week 5
+// Lesson 1
 {
   "title": "Introduction to Clauses",
   "school": "Flying Wings Academy",
@@ -254,7 +278,7 @@ const lessonPlans18a = [
   "topic": "Understanding Clauses",
   "grade": "Nimbus Navigators",
   "term": "1",
-  "week": "3",
+  "week": "5",
   "lessonNumber": "1",
   "description": "This lesson introduces students to clauses, focusing on independent and dependent clauses, and their function in sentences.",
   "materials": [
