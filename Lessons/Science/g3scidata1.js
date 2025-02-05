@@ -413,7 +413,7 @@ const lessonPlans24a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, January 26, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Physical Education",
+  "subject": "Science",
   "topic": "Demonstrating the Movement of Arms and Legs",
   "grade": "Wing Whiz",
   "term": "1",
