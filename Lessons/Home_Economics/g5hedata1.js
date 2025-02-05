@@ -213,7 +213,7 @@ const lessonPlans50a = [
     "By the end of the lesson, students will understand the importance of raw vegetables and fruits, know how to handle them hygienically, and apply basic food preparation techniques."
   ]
 },
-/*
+
 // Week 4
 // Lesson 1
 {
@@ -423,7 +423,7 @@ const lessonPlans50a = [
     "By learning about different types of flour and the role of yeast in baking, students will gain hands-on experience in preparing flour mixtures like buns and fritters."
   ]
 },
-
+/*
 // Week 7
 // Lesson 1
 
