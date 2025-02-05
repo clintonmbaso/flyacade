@@ -1,5 +1,286 @@
 const lessonPlans9a = [
 
+// Week 2
+// Week 1
+{
+  "title": "Understanding Index Notation",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Index Notation",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to index notation, helping them understand exponents, identify base numbers and indices, and apply index notation in multiplication and problem-solving.",
+  "materials": [
+    "Whiteboard and markers",
+    "Math notebooks",
+    "Printed worksheets with exponent problems"
+  ],
+  "objectives": [
+    "Understand what index notation (exponents) is.",
+    "Identify and use base numbers and indices.",
+    "Apply index notation in multiplication.",
+    "Solve problems using index notation."
+  ],
+  "rationale": [
+    "Understanding index notation helps students simplify repeated multiplication and prepares them for more advanced mathematical concepts, such as algebra and scientific notation."
+  ],
+  "methodology": [
+    "The lesson will use explanations, board demonstrations, and student exercises to reinforce understanding of index notation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Index Notation</b>:<br><br>Discussion & Explanation:<br>Ask students if they have ever seen a small number written above a bigger number, like 2³.<br>Explain that this is called index notation (or exponentiation) and is a way to express repeated multiplication.<br><br>Write an example:<br>2³ = 2 × 2 × 2 = 8<br><br>Here, 2 is the base and 3 is the index or exponent.<br><br><b>Key Terms:</b><br>Base: The big number that is multiplied (e.g., 2 in 2³).<br>Exponent (Index): The small number above the base that shows how many times the base is multiplied by itself (e.g., 3 in 2³).",
+      "<b>Part 2: Understanding Base and Index</b>:<br><br><b>Teacher Explanation:</b><br>Explain that the base tells us what number is being multiplied, and the exponent tells us how many times to multiply it.<br><br>Show examples on the board:<br>3² = 3 × 3 = 9<br>5³ = 5 × 5 × 5 = 125<br><br><b>Activity:</b><br>Ask students to identify the base and exponent in these:<br>4², 6³, 7⁵.",
+      "<b>Part 3: Index Notation in Multiplication</b>:<br><br><b>Explanation:</b><br>Explain that index notation helps simplify multiplication of the same numbers.<br><br>Write an example:<br>2² × 2³<br>Expand: (2 × 2) × (2 × 2 × 2)<br>Count the total number of 2’s: 2⁵<br><br><b>Rule:</b> When multiplying the same base, add the indices:<br>a^m × a^n = a^(m+n)<br><br><b>Activity:</b><br>Ask students to simplify:<br>3² × 3³, 5⁴ × 5², 7³ × 7¹.",
+      "<b>Part 4: Real-Life Applications of Index Notation</b>:<br><br><b>Discussion:</b><br>Explain where exponents are used in real life:<br><br><b>Science:</b> Measuring area (e.g., cm² for square area).<br><b>Technology:</b> Computers use powers of 2 (e.g., storage: 2¹⁰ = 1024 bytes = 1 KB).<br><b>Banking:</b> Compound interest formulas use exponents.<br><br>Give an example of square numbers in real life:<br>A garden with a square area of 5² square meters.<br><br><b>Activity:</b><br>Ask students to think of and share other real-life examples where exponents might be used.",
+      "<b>Part 5: Exercise (Practice Questions)</b>:<br><br>1. Identify the base and exponent in the following:<br>a) 9⁴<br>b) 2⁵<br>c) 7³<br><br>2. Write the expanded form and solve:<br>a) 4³<br>b) 6²<br>c) 5⁴<br><br>3. Simplify using index notation:<br>a) 3² × 3³<br>b) 8⁴ × 8¹<br>c) 2³ × 2²<br><br>4. Real-Life Application:<br>A company doubles its number of employees every year. If they start with 3 employees, how many will they have after 4 years? (Use exponents)."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and problem-solving exercises.",
+    "<b>Exercise</b>: The practice questions will assess students' understanding of index notation and its applications."
+  ],
+  "conclusion": [
+    "Review the key points of index notation.",
+    "Encourage students to practice using exponents in different situations.",
+    "Assign homework for additional practice."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Changing Numbers in Index Form to Expanded Notation and Vice Versa",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Changing Numbers in Index Form to Expanded Notation and Vice Versa",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students how to convert numbers in index form to expanded notation and vice versa, as well as understand the relationship between exponents and repeated multiplication.",
+  "materials": [
+    "Whiteboard and markers",
+    "Exercise books",
+    "Number charts with powers of 10",
+    "Printed worksheets"
+  ],
+  "objectives": [
+    "Convert numbers in index form to expanded notation.",
+    "Convert numbers in expanded notation to index form.",
+    "Understand the relationship between exponents and repeated multiplication."
+  ],
+  "rationale": [
+    "Understanding exponents helps students simplify large numbers and recognize patterns in mathematics.",
+    "This skill is essential in various real-life applications such as scientific notation and computer memory sizes."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, discussions, and practice exercises to reinforce understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Begin by asking students, 'What do you think 10³ means?'<br><br>Let students share their thoughts, then explain that index notation (or exponential form) is a way of writing repeated multiplication in a shorter way.<br><br><b>Introduce key terms:</b><br><br><b>Base</b>: The number being multiplied.<br><b>Exponent (Index)</b>: The number of times the base is multiplied by itself.<br><b>Expanded Form</b>: Writing the number as repeated multiplication.<br><br><b>Example:</b><br>10³ = 10 × 10 × 10<br><br>Here, 10 is the base, 3 is the exponent, and the expanded form is 10 × 10 × 10.<br><br>Show examples of other powers of 10 and discuss patterns (e.g., 10¹ = 10, 10² = 10 × 10, 10³ = 10 × 10 × 10).",
+      "<b>Part 2: Converting Index Form to Expanded Notation (10 minutes)</b>:<br><br>Explain that to convert a number in index form to expanded notation, we write the base number multiplied by itself as many times as the exponent tells us.<br><br><b>Examples:</b><br>2⁴ = 2 × 2 × 2 × 2<br>5³ = 5 × 5 × 5<br>7² = 7 × 7<br><br>Give students a few examples to solve on their own.",
+      "<b>Part 3: Converting Expanded Notation to Index Form (10 minutes)</b>:<br><br>Explain that to convert from expanded notation to index form, count how many times the number is being multiplied by itself.<br><br><b>Examples:</b><br>3 × 3 × 3 × 3 = 3⁴<br>6 × 6 × 6 = 6³<br>8 × 8 = 8²<br><br>Ask students to identify the base and exponent in each case.<br><br>Give students a few examples to practice.",
+      "<b>Part 4: Real-Life Applications and Discussion (10 minutes)</b>:<br><br>Discuss where exponents are used in real life:<br><br><b>Area calculations</b> (e.g., square meters use exponents, like 4² = 4 × 4).<br><b>Scientific notation</b> (e.g., large numbers like the speed of light are written using exponents: 3 × 10⁸ m/s).<br><b>Computer memory sizes</b> (e.g., kilobytes, megabytes, gigabytes all use powers of 2: 2¹⁰ = 1024).<br><br>Allow students to ask questions and discuss what they have learned.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br><b>A. Convert the following from index form to expanded notation:</b><br>1. 4³ = ?<br>2. 6² = ?<br>3. 9⁴ = ?<br>4. 5³ = ?<br><br><b>B. Convert the following from expanded notation to index form:</b><br>1. 2 × 2 × 2 × 2 = ?<br>2. 3 × 3 × 3 = ?<br>3. 7 × 7 × 7 × 7 = ?<br>4. 10 × 10 = ?<br><br><b>C. Word Problem:</b><br>The area of a square is calculated using the formula s², where s is the side length. If a square has a side length of 12 cm, write the area in index form and expanded notation."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and exercises.",
+    "<b>Exercise</b>: The practice exercises will assess students' ability to convert between index form and expanded notation."
+  ],
+  "conclusion": [
+    "Review key points about index notation and expanded notation.",
+    "Ask students to explain the difference between the two in their own words.",
+    "Provide additional practice for those who need more help.",
+    "Encourage students to look for examples of exponents in their daily lives."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Evaluating Numbers in Index Notation with Positive Bases and Indices",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Evaluating Numbers in Index Notation with Positive Bases and Indices",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to index notation, teaching them how to interpret, evaluate, and apply numbers written in exponential form.",
+  "materials": [
+    "Whiteboard and markers",
+    "Mathematics textbook",
+    "Printed worksheets"
+  ],
+  "objectives": [
+    "Understand and define index notation.",
+    "Interpret numbers written in index notation.",
+    "Evaluate numbers in index notation.",
+    "Solve problems involving index notation."
+  ],
+  "rationale": [
+    "Understanding index notation helps students simplify repeated multiplication and prepares them for more advanced mathematical concepts such as scientific notation and algebra."
+  ],
+  "methodology": [
+    "The lesson will use explanations, discussions, guided practice, and exercises to help students grasp index notation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Index Notation (10 min)</b>:<br><br>What is Index Notation?<br>Index notation, also known as exponential notation, is a way of writing numbers that are repeatedly multiplied by themselves.<br><br>It is written as Baseⁿ, where:<br>- The base is the number being multiplied.<br>- The index (exponent or power) tells how many times the base is multiplied by itself.<br><br>Examples:<br>- 3² means 3 × 3.<br>- 5³ means 5 × 5 × 5.<br><br>Discussion Questions:<br>- What do you think 2⁴ means?<br>- How is 3² different from 3³?",
+      "<b>Part 2: Interpreting Numbers in Index Notation (10 min)</b>:<br><br>How to Read and Interpret Index Notation?<br>1. Identify the base and exponent.<br>2. Understand that the exponent tells us how many times the base is multiplied.<br><br>Examples:<br>- 7² → 7 is the base, 2 is the exponent → 7 × 7.<br>- 10³ → 10 is the base, 3 is the exponent → 10 × 10 × 10.<br><br><b>Think-Pair-Share Activity:</b><br>Students pair up and take turns interpreting given numbers in index notation.",
+      "<b>Part 3: Evaluating Numbers in Index Notation (10 min)</b>:<br><br>How to Evaluate Index Notation?<br>To evaluate means to calculate the value of the number in index notation.<br><br>Steps to Evaluate:<br>1. Expand the base as repeated multiplication.<br>2. Multiply step by step.<br><br>Examples:<br>- 4² → 4 × 4 = 16.<br>- 2³ → 2 × 2 × 2 = 8.<br><br><b>Guided Practice:</b><br>Solve together: 5².",
+      "<b>Part 4: Real-Life Applications of Index Notation (5 min)</b>:<br><br>Where is Index Notation Used?<br>- Mathematics: Large and small numbers in scientific notation (e.g., distance to planets, bacteria growth).<br>- Computer Science: Binary numbers and algorithms.<br>- Physics & Engineering: Formula calculations (e.g., Newton’s laws).<br><br>Discussion:<br>Can you think of other places where index notation is useful?",
+      "<b>Part 5: Exercise & Assessment (10 min)</b>:<br><br>Exercise: Solve the following<br>1. 6²<br>2. 3³<br>3. 5²<br>4. 2⁴<br>5. 4³<br><br><b>Challenge Question:</b><br>A scientist observes a bacteria population doubling every hour. If there were 2 bacteria at the start, how many bacteria will there be in 5 hours? (Hint: Use exponents)."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during explanations and practice exercises.",
+    "<b>Exercise</b>: Students will solve problems on evaluating index notation to demonstrate understanding."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to define index notation, interpret numbers in exponential form, evaluate them, and apply the concept to real-life scenarios."
+  ],
+  "homework": [
+    "Solve the following:",
+    "1. 7²",
+    "2. 2⁵",
+    "3. 9²",
+    "4. 3⁴",
+    "5. 8³"
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Understanding the Intersection and Union in a Venn Diagram",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Intersection and Union in a Venn Diagram",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "4",
+  "description": "This lesson helps students understand how to use Venn diagrams to visualize relationships between sets, focusing on the concepts of intersection and union.",
+  "materials": [
+    "Whiteboard and markers",
+    "Graph paper",
+    "Printed Venn diagram worksheets"
+  ],
+  "objectives": [
+    "Understand what a Venn diagram is and its purpose.",
+    "Explain the concept of intersection in a Venn diagram.",
+    "Explain the concept of union in a Venn diagram.",
+    "Identify and interpret union and intersection in real-life examples.",
+    "Complete exercises to demonstrate their understanding."
+  ],
+  "rationale": [
+    "Venn diagrams provide a visual way to compare and organize data, making it easier for students to analyze relationships between sets.",
+    "Understanding intersection and union helps in problem-solving and logical reasoning, which are essential skills in mathematics and real-life applications."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, discussions, and exercises to help students grasp the concepts of intersection and union in a Venn diagram."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Venn Diagrams (10 min)</b>:<br><br>What is a Venn Diagram?<br>A Venn diagram is a visual way of showing the relationships between different groups (called sets).<br>It uses circles to represent sets, where overlapping areas show common elements between sets.<br>Venn diagrams help in organizing and comparing information.<br><br>Example:<br>Imagine two groups of students:<br>Group A: Students who like football<br>Group B: Students who like basketball<br>Some students like both sports. A Venn diagram can show this clearly.<br><br>Illustration on the Board:<br>Draw two overlapping circles:<br>Label one as 'Football Lovers'<br>Label the other as 'Basketball Lovers'<br>The overlapping part represents students who like both.",
+      "<b>Part 2: Understanding Intersection (10 min)</b>:<br><br>Definition of Intersection:<br>The intersection of two sets is the part where the circles overlap.<br>It represents the elements that belong to both sets.<br><br>Symbol for Intersection:<br>The symbol for intersection is ∩.<br>If we have Set A and Set B, their intersection is written as A ∩ B.<br><br>Example:<br>Let’s say:<br>Set A = {2, 4, 6, 8, 10} (Even numbers up to 10)<br>Set B = {5, 6, 7, 8, 9} (Numbers from 5 to 9)<br>Intersection (A ∩ B) = {6, 8} (Numbers that appear in both sets)<br><br>Illustration on the Board:<br>Draw two overlapping circles and shade the intersection area.",
+      "<b>Part 3: Understanding Union (10 min)</b>:<br><br>Definition of Union:<br>The union of two sets is everything inside both circles.<br>It includes all elements from Set A and Set B, even if they are not in the intersection.<br><br>Symbol for Union:<br>The symbol for union is ∪.<br>If we have Set A and Set B, their union is written as A ∪ B.<br><br>Example:<br>Using the previous sets:<br>Set A = {2, 4, 6, 8, 10}<br>Set B = {5, 6, 7, 8, 9}<br>Union (A ∪ B) = {2, 4, 5, 6, 7, 8, 9, 10} (All numbers from both sets, without repeating)<br><br>Illustration on the Board:<br>Draw two overlapping circles and shade everything inside both circles.",
+      "<b>Part 4: Real-Life Applications (5 min)</b>:<br><br>Where Do We Use Intersection and Union?<br>1. Sports Teams: If one team plays football and another plays basketball, the intersection shows players who play both sports.<br>2. School Subjects: If one group studies Mathematics and another studies Science, the intersection shows students who study both.<br>3. Food Choices: If one set includes people who like pizza and another includes people who like burgers, the union includes all people who like at least one of these foods.",
+      "<b>Part 5: Exercise (10 min)</b>:<br><br>Instructions:<br>1. Given the sets:<br>Set X = {1, 2, 3, 4, 5}<br>Set Y = {4, 5, 6, 7, 8}<br>Find:<br>a) X ∩ Y<br>b) X ∪ Y<br><br>2. If:<br>Set A = {red, blue, green}<br>Set B = {green, yellow, blue}<br>Find:<br>a) A ∩ B<br>b) A ∪ B<br><br>3. Draw a Venn diagram for:<br>Set M = {apple, banana, orange}<br>Set N = {banana, mango, orange}<br>Label and shade the intersection and union."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and board work.",
+    "<b>Exercise</b>: Students will complete exercises on intersection and union, demonstrating their understanding through written answers and Venn diagrams."
+  ],
+  "conclusion": [
+    "Review key points: What is a Venn diagram? What do intersection and union mean?",
+    "Discuss answers as a class to ensure understanding.",
+    "Ask students where they see intersections and unions in real life."
+  ]
+},
+
+// Lesson 5
+{
+  "title": "Understanding Intersection (∩), Union (U), and Subset (⊂)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Set Theory – Intersection, Union, and Subset",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "2",
+  "lessonNumber": "5",
+  "description": "This lesson introduces students to the fundamental concepts of sets, including subsets (⊂), intersections (∩), and unions (U), through examples and exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Venn diagram illustrations",
+    "Printed problem sets"
+  ],
+  "objectives": [
+    "Recall the concept of subsets (⊂).",
+    "Understand and identify intersections (∩) of sets.",
+    "Understand and identify unions (U) of sets.",
+    "Apply the concepts of ∩, U, and ⊂ in solving set problems."
+  ],
+  "rationale": [
+    "Understanding sets and their relationships helps students develop logical reasoning and problem-solving skills applicable in mathematics and real-life situations."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual illustrations, real-life examples, and problem-solving exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Recap of Subsets (⊂)</b>:<br><br>Definition: A set is a subset of another set if every element of the first set is also in the second set. This is written as:<br>A ⊂ B<br><br>Example: If A = {2, 4, 6} and B = {2, 4, 6, 8, 10}, then A ⊂ B because all elements of A are also in B.<br><br>Discussion Question:<br>Is the set of even numbers a subset of the set of whole numbers? Why?",
+      "<b>Part 2: Understanding Intersection (∩)</b>:<br><br>Definition: The intersection of two sets A and B, written as A ∩ B, is the set of elements that both A and B share.<br><br>Example: If A = {2, 4, 6} and B = {4, 6, 8}, then:<br>A ∩ B = {4, 6}<br><br>Real-Life Example:<br>Think of students who play both soccer and basketball. If Set A represents soccer players and Set B represents basketball players, the intersection A ∩ B represents students who play both sports.<br><br>Activity:<br>Ask students to list their favorite subjects. Write two groups on the board and find the intersection (subjects that appear in both lists).",
+      "<b>Part 3: Understanding Union (U)</b>:<br><br>Definition: The union of two sets A and B, written as A U B, is the set containing all elements from both A and B without repetition.<br><br>Example: If A = {1, 3, 5} and B = {2, 3, 6}, then:<br>A U B = {1, 2, 3, 5, 6}<br><br>Visual Representation:<br>Draw a Venn diagram with two overlapping circles on the board, labeling each with different sets. Show the union by shading the entire area of both circles.<br><br>Discussion Question:<br>If Set A is students who like reading and Set B is students who like drawing, what does A U B represent?",
+      "<b>Part 4: Combining All Three Concepts (⊂, ∩, U)</b>:<br><br>Example 1:<br>Let:<br>A = {a, b, c, d}, B = {b, c, e, f}, C = {a, b, c, d, e, f, g}<br><br>Find A ∩ B, A U B, and determine if A ⊂ C.<br><br>Step-by-step Explanation:<br>A ∩ B = {b, c} (common elements in both)<br>A U B = {a, b, c, d, e, f} (all elements from both sets)<br>Since all elements of A are in C, then A ⊂ C.<br><br>Discussion:<br>Why do you think the subset symbol (⊂) is useful? Can you think of real-life examples where subsets, unions, or intersections apply?",
+      "<b>Part 5: Exercise</b>:<br><br>1. Find the intersection (∩) and union (U) of the following sets:<br>   a) A = {2, 4, 6}, B = {4, 6, 8}<br>   b) A = {1, 3, 5, 7}, B = {3, 5, 9, 11}<br><br>2. Which of the following are subsets?<br>   a) A = {1, 2, 3}, B = {1, 2, 3, 4, 5}<br>   b) A = {a, b, c}, B = {d, e, f}<br><br>3. Create your own two sets and find their intersection and union."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and exercises.",
+    "<b>Exercise</b>: The students will solve set problems to demonstrate understanding of ∩, U, and ⊂."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students should understand intersection (∩) as the set of common elements, union (U) as the combination of all elements, and subset (⊂) as a set entirely contained within another.",
+    "Encourage students to think about how these concepts apply in real life, such as sports teams, favorite foods, or class subjects."
+  ]
+},
+
+// Week 3
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Lesson 4
+
+// Lesson 5
+
 	
 {
   "title": "Prime and Composite Numbers",
@@ -108,7 +389,7 @@ const lessonPlans9a = [
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Multiplying Fractions by Whole Numbers",
-  "grade": "Grade 6",
+  "grade": "Nimbus Navigators",
   "term": "1",
   "week": "5",
   "lessonNumber": "1",
@@ -157,7 +438,7 @@ const lessonPlans9a = [
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Multiplying Fractions by Fractions",
-  "grade": "6",
+  "grade": "Nimbus Navigators",
   "term": "1",
   "week": "4",
   "lessonNumber": "1",
