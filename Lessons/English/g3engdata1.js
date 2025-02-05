@@ -204,7 +204,7 @@ const lessonPlans15a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, September 24, 2023",
   "tcz": "19/09/0904/021725",
-  "subject": "English Language",
+  "subject": "English",
   "topic": "Sentence Structure & Punctuation",
   "grade": "Wing Whiz",
   "term": "1",
