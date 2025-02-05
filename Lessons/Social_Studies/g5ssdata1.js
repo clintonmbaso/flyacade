@@ -57,7 +57,7 @@ const lessonPlans35a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, January 27, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Geography",
+  "subject": "Social Studies",
   "topic": "Identifying the Main Physical Features on a Map of the District",
   "grade": "Avian Aces",
   "term": "1",
