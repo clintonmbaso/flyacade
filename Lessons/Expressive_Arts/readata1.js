@@ -9,7 +9,7 @@ const lessonPlans39a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Tuesday, February 5, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Identifying Harmful Objects in the Environment",
   "grade": "Nestlings Navigators",
   "term": "1",
@@ -64,7 +64,7 @@ const lessonPlans39a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Tuesday, February 5, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Sharp Objects: Knives, Scissors, Broken Glass (Can Cut Our Skin)",
   "grade": "Nestlings Navigators",
   "term": "1",
@@ -115,7 +115,7 @@ const lessonPlans39a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Hot Objects – Matches, Fire, Boiling Water (Can Burn Us)",
   "grade": "Nestlings Navigators",
   "term": "1",
@@ -163,20 +163,19 @@ const lessonPlans39a = [
   ]
 },
 
-// Week 3
-// Lesson 1
+// Lesson 4
 {
   "title": "Poisonous Substances and Their Dangers",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Poisonous Substances – Cleaning Liquids, Expired Food, Certain Plants (Can Make Us Sick)",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "2",
+  "lessonNumber": "4",
   "description": "This lesson educates young students about the dangers of poisonous substances in their environment and how to stay safe from them.",
   "materials": [
     "Pictures of cleaning liquids, expired food, poisonous plants",
@@ -215,19 +214,20 @@ const lessonPlans39a = [
   ]
 },
 
-// Lesson 2
+// Week 3
+// Lesson 1
 {
   "title": "Heavy Objects and Their Dangers",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Heavy Objects – Large Rocks, Bricks (Can Fall and Cause Injury)",
   "grade": "Nestlings Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "2",
+  "lessonNumber": "1",
   "description": "This lesson helps young learners understand the dangers of heavy objects like large rocks and bricks and teaches them how to stay safe around such items.",
   "materials": [
     "Pictures of large rocks, bricks, heavy bags, and furniture",
@@ -265,19 +265,19 @@ const lessonPlans39a = [
   ]
 },
 
-// Lesson 3
+// Lesson 2
 {
   "title": "Small Objects and Their Dangers",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Small Objects – Marbles, Coins, Batteries (Can Be Swallowed and Cause Choking)",
   "grade": "Nestlings Navigators",
   "term": "1",
   "week": "3",
-  "lessonNumber": "3",
+  "lessonNumber": "2",
   "description": "This lesson helps young learners understand the dangers of small objects in a fun, engaging, and interactive way. They will learn how to stay safe and avoid putting small objects in their mouths.",
   "materials": [
     "Marbles",
@@ -320,20 +320,19 @@ const lessonPlans39a = [
   ]
 },
 
-// Week 4
-// Lesson 1
+// Lesson 3
 {
   "title": "Tidying Up Their Environment (Classroom)",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Keeping Our Classroom Tidy",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "3",
+  "lessonNumber": "3",
   "description": "This lesson helps children understand why keeping the classroom tidy is important, teaches simple ways to clean up, and encourages teamwork and responsibility through fun activities.",
   "materials": [
     "Pictures of a messy and tidy classroom",
@@ -380,19 +379,19 @@ const lessonPlans39a = [
   ]
 },
 
-// Lesson 2
+// Lesson 4
 {
   "title": "Tidying Up in the Kitchen",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Keeping the Kitchen Clean",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "4",
-  "lessonNumber": "2",
+  "week": "3",
+  "lessonNumber": "4",
   "description": "This lesson teaches children the importance of keeping the kitchen clean, simple ways to tidy up safely, and how to make cleaning a fun and engaging habit.",
   "materials": [
     "Pictures of a messy and clean kitchen",
@@ -435,19 +434,20 @@ const lessonPlans39a = [
   ]
 },
 
-// Lesson 3
+// Week 4
+// Lesson 1
 {
   "title": "Tidying Up in the Bedroom",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
-  "subject": "Expressive Arts",
+  "subject": "Creative and Technology Studies",
   "topic": "Importance of Keeping Our Bedroom Clean",
   "grade": "Nestlings Navigators",
   "term": "1",
   "week": "4",
-  "lessonNumber": "3",
+  "lessonNumber": "1",
   "description": "This lesson teaches children why it is important to keep their bedroom clean, simple ways to tidy up, and how to make cleaning up a fun and enjoyable habit.",
   "materials": [
     "Pictures of messy and clean bedrooms",
@@ -490,20 +490,19 @@ const lessonPlans39a = [
   ]
 },
 
-// Week 5
-// Lesson 1
+// Lesson 2
 {
   "title": "Wearing Personal Protective Attire During Working & Playing",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
   "date": "Tuesday, February 6, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Safety Education",
+  "subject": "Creative and Technology Studies",
   "topic": "Understanding the Importance of Protective Attire",
   "grade": "Nestlings Navigators",
   "term": "1",
-  "week": "5",
-  "lessonNumber": "3",
+  "week": "4",
+  "lessonNumber": "2",
   "description": "Children will understand the importance of wearing protective clothing during work and play. They will learn about different types of protective attire, why they are important, and when to use them.",
   "materials": [
     "Pictures of protective attire",
@@ -527,11 +526,11 @@ const lessonPlans39a = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction – What is Protective Attire?</b>:<br><br>(Discussion & Storytelling - 10 minutes)<br><br>1. Start with a simple question:<br>\"Have you ever seen someone wearing a helmet, gloves, or boots? Why do you think they wear those?\"<br>Allow children to share their ideas.<br><br>2. Explain in simple words:<br>\"Protective attire is special clothing that helps keep us safe when we work or play. Just like we wear raincoats in the rain, we wear different things to keep us safe in different activities!\"<br><br>3. Tell a short story:<br>Example Story: \"Tina and Jack love playing outside. One day, Jack fell while riding his bike, but he wasn’t hurt because he wore his helmet and knee pads. Tina, who was playing in the sandpit, wore gloves to keep her hands clean. Protective clothes help us stay safe!\"",
-      "<b>Part 2: Different Types of Protective Attire</b>:<br><br>(Show & Tell - 10 minutes)<br><br>1. Show pictures or real objects (if available):<br>- A helmet for biking.<br>- Gloves for gardening.<br>- A mask for painting or dusty places.<br>- Boots for rainy or muddy areas.<br>- An apron for painting or cooking.<br><br>2. Explain each item:<br>- \"Helmets protect our heads from bumps.\"<br>- \"Gloves protect our hands from dirt or cuts.\"<br>- \"Boots protect our feet from mud or water.\"<br>- \"Masks keep dust or germs away.\"<br><br>3. Let children guess:<br>Hold up an item and ask, \"Where would you wear this?\" or \"What does this do?\"<br>Encourage answers and praise their responses.",
-      "<b>Part 3: Why is Protective Attire Important?</b>:<br><br>(Demonstration & Role Play - 10 minutes)<br><br>1. Use examples from real life:<br>- \"Imagine riding a bike without a helmet. What could happen if you fall?\"<br>- \"What if we paint without an apron? What would happen to our clothes?\"<br><br>2. Let children act out roles:<br>Give each child a role (gardener, builder, painter, doctor).<br>Let them wear toy protective gear and pretend to do their tasks.",
-      "<b>Part 4: When Should We Wear Protective Attire?</b>:<br><br>(Discussion & Visual Matching - 10 minutes)<br><br>1. Ask questions:<br>- \"When do we wear a raincoat?\" (When it rains.)<br>- \"When do we wear gloves?\" (When playing in the dirt or gardening.)<br><br>2. Matching Activity:<br>Show pictures of activities (e.g., riding a bike, painting, cooking).<br>Let children match them with the correct protective attire.",
-      "<b>Part 5: Exercise – Dressing for Safety!</b>:<br><br>(Game - 10 minutes)<br><br>1. Set up different activity stations:<br>- Biking station → Helmet<br>- Painting station → Apron<br>- Gardening station → Gloves<br>- Rainy day station → Boots & raincoat<br><br>2. Let children dress up correctly for each activity.<br>Encourage them to say what they are wearing and why.<br><br>3. Wrap up with a short review:<br>- \"What did we learn today?\"<br>- \"Who remembers what we wear when riding a bike?\"<br><br>End the lesson with a fun song about staying safe while playing!"
+      "<b>Part 1: Introduction – What is Protective Attire?</b>:<br><br>(Discussion & Storytelling - 10 minutes)<br><br>1. Start with a simple question:<br>'Have you ever seen someone wearing a helmet, gloves, or boots? Why do you think they wear those?'<br>Allow children to share their ideas.<br><br>2. Explain in simple words:<br>'Protective attire is special clothing that helps keep us safe when we work or play. Just like we wear raincoats in the rain, we wear different things to keep us safe in different activities!'<br><br>3. Tell a short story:<br>Example Story: 'Tina and Jack love playing outside. One day, Jack fell while riding his bike, but he wasn’t hurt because he wore his helmet and knee pads. Tina, who was playing in the sandpit, wore gloves to keep her hands clean. Protective clothes help us stay safe!'",
+      "<b>Part 2: Different Types of Protective Attire</b>:<br><br>(Show & Tell - 10 minutes)<br><br>1. Show pictures or real objects (if available):<br>- A helmet for biking.<br>- Gloves for gardening.<br>- A mask for painting or dusty places.<br>- Boots for rainy or muddy areas.<br>- An apron for painting or cooking.<br><br>2. Explain each item:<br>- 'Helmets protect our heads from bumps.'<br>- 'Gloves protect our hands from dirt or cuts.'<br>- 'Boots protect our feet from mud or water.'<br>- 'Masks keep dust or germs away.'<br><br>3. Let children guess:<br>Hold up an item and ask, 'Where would you wear this?' or 'What does this do?'<br>Encourage answers and praise their responses.",
+      "<b>Part 3: Why is Protective Attire Important?</b>:<br><br>(Demonstration & Role Play - 10 minutes)<br><br>1. Use examples from real life:<br>- 'Imagine riding a bike without a helmet. What could happen if you fall?'<br>- 'What if we paint without an apron? What would happen to our clothes?'<br><br>2. Let children act out roles:<br>Give each child a role (gardener, builder, painter, doctor).<br>Let them wear toy protective gear and pretend to do their tasks.",
+      "<b>Part 4: When Should We Wear Protective Attire?</b>:<br><br>(Discussion & Visual Matching - 10 minutes)<br><br>1. Ask questions:<br>- 'When do we wear a raincoat?' (When it rains.)<br>- 'When do we wear gloves?' (When playing in the dirt or gardening.)<br><br>2. Matching Activity:<br>Show pictures of activities (e.g., riding a bike, painting, cooking).<br>Let children match them with the correct protective attire.",
+      "<b>Part 5: Exercise – Dressing for Safety!</b>:<br><br>(Game - 10 minutes)<br><br>1. Set up different activity stations:<br>- Biking station → Helmet<br>- Painting station → Apron<br>- Gardening station → Gloves<br>- Rainy day station → Boots & raincoat<br><br>2. Let children dress up correctly for each activity.<br>Encourage them to say what they are wearing and why.<br><br>3. Wrap up with a short review:<br>- 'What did we learn today?'<br>- 'Who remembers what we wear when riding a bike?'<br><br>End the lesson with a fun song about staying safe while playing!"
     ]
   ],
   "assessments": [
@@ -543,11 +542,321 @@ const lessonPlans39a = [
   ]
 },
 
+// Lesson 3
+{
+  "title": "Washing Hands Before and After Touching Food",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Washing Hands Before and After Touching Food",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students the importance of washing hands before and after touching food to prevent illness and maintain hygiene.",
+  "materials": [
+    "Soap and water",
+    "Towels",
+    "Picture cards showing handwashing steps",
+    "Illustrations of germs and food safety"
+  ],
+  "objectives": [
+    "Understand why washing hands before and after touching food is important.",
+    "Learn when to wash hands before and after eating or handling food.",
+    "Practice the correct steps for washing hands.",
+    "Develop a habit of keeping their hands clean to stay healthy."
+  ],
+  "rationale": [
+    "Teaching children proper handwashing habits helps prevent the spread of germs and promotes a healthy lifestyle.",
+    "Understanding the importance of hygiene encourages lifelong healthy practices."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, songs, and interactive activities to engage young learners in understanding handwashing hygiene."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction - 'Why Do We Wash Our Hands?'</b>:<br><br>Start by asking the children:<br>“What do we use our hands for?” (Let them respond with answers like playing, eating, touching things, etc.)<br>“What happens if our hands are dirty and we eat food?” (Encourage them to think about germs and sickness.)<br><br>Explain in simple words:<br>“Our hands can have tiny germs we cannot see. If we eat with dirty hands, the germs go into our tummy and can make us sick!”<br>“That is why we wash our hands before and after touching food.”",
+      "<b>Part 2: When Should We Wash Our Hands?</b>:<br><br>Show pictures or act out situations where we must wash hands:<br>1. Before eating food (To remove germs before putting food in our mouth).<br>2. Before touching fruits or snacks (To keep our food clean).<br>3. After eating food (To clean off food particles and germs).<br>4. After touching raw food like eggs or meat (To remove bacteria).<br><br>Use a simple chant to help them remember:<br>“Before we eat, wash hands clean!<br>After we eat, wash hands neat!”",
+      "<b>Part 3: How to Wash Our Hands Properly</b>:<br><br>Show and practice the six steps of washing hands:<br>1. Wet your hands with clean water.<br>2. Apply soap and rub palms together.<br>3. Scrub between fingers and nails (where germs hide).<br>4. Wash the back of hands and thumbs.<br>5. Rinse with clean water.<br>6. Dry with a clean towel or air dry.<br><br>Let the children practice handwashing in small groups using real soap and water.",
+      "<b>Part 4: Importance of Washing Hands</b>:<br><br>Discuss what happens when we do not wash our hands:<br>- Germs can make us sick.<br>- Food can get dirty and unsafe to eat.<br><br>Use a simple story about a child who forgot to wash hands and got a tummy ache.<br><br>Ask:<br>“What should the child have done?” (Let them answer: Washed hands!)<br>“What will you do before and after touching food?” (Encourage answers: Wash hands!)",
+      "<b>Part 5: Exercise - Fun Handwashing Activity</b>:<br><br><b>Activity 1: Handwashing Song & Practice</b><br>Teach them a simple song to sing while washing hands:<br>(Tune: “Twinkle Twinkle Little Star”)<br>“Wash, wash, wash your hands,<br>Scrub the germs away,<br>Before we eat and after too,<br>Keep the sickness far away!”<br><br>Let them act out the steps while singing.<br><br><b>Activity 2: Picture Sorting</b><br>Give them picture cards of different activities (e.g., playing, eating, washing hands, touching a pet).<br>Ask them to sort pictures into 'Wash Hands Before' and 'Wash Hands After' categories."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in discussions and handwashing activities.",
+    "<b>Practice</b>: Students will demonstrate the proper steps of washing hands.",
+    "<b>Exercise</b>: The picture sorting activity will test students’ understanding of when to wash hands."
+  ],
+  "conclusion": [
+    "Repeat: 'What should we do before and after touching food?' (Let them answer: Wash hands!)",
+    "Praise their efforts and remind them to always wash hands to stay healthy.",
+    "Encourage them to remind their family members to do the same!"
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Washing Food (Fruits, Vegetables, etc.) Before Eating",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, February 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Importance of Washing Food Before Eating",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "4",
+  "description": "This lesson teaches students the importance of washing food before eating, identifying foods that need washing, and the correct way to wash them.",
+  "materials": [
+    "Real fruits and vegetables",
+    "Pictures of different foods",
+    "Water, a bowl, and a clean towel"
+  ],
+  "objectives": [
+    "Understand why we must wash food before eating.",
+    "Identify the types of food that need washing before eating.",
+    "Learn the correct way to wash fruits and vegetables.",
+    "Develop the habit of washing food before eating to stay healthy."
+  ],
+  "rationale": [
+    "Washing fruits and vegetables before eating helps remove dirt, bacteria, and harmful chemicals. Teaching young learners this habit promotes good hygiene and a healthy lifestyle."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, demonstrations, and hands-on activities to teach the importance of washing food."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5–7 minutes) – 'Why Do We Wash Food?'</b>:<br><br>Begin by asking:<br>- 'What do we like to eat?' (Let them name fruits and vegetables.)<br>- 'Where do fruits and vegetables come from?' (Guide them to say trees, gardens, or farms.)<br><br>Explain in simple words:<br>- 'When fruits and vegetables grow, they touch soil, dust, and sometimes tiny germs.'<br>- 'Even if they look clean, they can have dirt or tiny bugs.'<br>- 'Washing them makes sure they are safe to eat!'",
+      "<b>Part 2: What Foods Should We Wash? (5–7 minutes)</b>:<br><br>Show real fruits and vegetables or pictures. Ask, 'Should we wash this?'<br><br>1. Yes! Wash these: Apples, bananas, carrots, tomatoes, grapes, lettuce, potatoes, etc.<br>2. No need to wash these: Packaged snacks like biscuits or candy.<br><br>Use a fun call-and-response game:<br>Teacher: 'Banana?'<br>Students: 'Yes, wash!'<br>Teacher: 'Candy?'<br>Students: 'No need to wash!'",
+      "<b>Part 3: How Do We Wash Fruits and Vegetables? (7–10 minutes)</b>:<br><br>Demonstrate the steps using real fruits and water:<br>1. Take the fruit or vegetable.<br>2. Rinse it under clean running water.<br>3. Rub gently with hands or a brush.<br>4. Dry with a clean towel or let it air dry.<br><br>Let the children practice washing fruits and vegetables in small groups.",
+      "<b>Part 4: Importance of Washing Food (5–7 minutes)</b>:<br><br>Explain:<br>- 'If we don’t wash our food, we might eat dirt or germs.'<br>- 'Washing makes food taste fresh and clean!'<br><br>Tell a simple story:<br>A boy ate an unwashed apple and got a tummy ache.<br>Ask: 'What should he have done first?' (Let them answer: Wash the apple!)<br><br>Reinforce the habit: 'Always wash before you eat!'",
+      "<b>Part 5: Exercise – Fun Food-Washing Activity (5–10 minutes)</b>:<br><br>Activity 1: Washing Fruits Together<br>Let each child take a fruit and wash it step by step.<br>Praise them: 'Now it’s clean and safe to eat!'<br><br>Activity 2: Sorting Game<br>Give them picture cards of different foods.<br>Ask them to sort into two groups: 'Wash Before Eating' and 'No Need to Wash.'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and hands-on activities.",
+    "<b>Sorting Activity</b>: The teacher will assess if students correctly sort foods into 'Wash Before Eating' and 'No Need to Wash' categories."
+  ],
+  "conclusion": [
+    "By learning why and how to wash food, students will develop a healthy habit that helps keep them safe from dirt and germs.",
+    "Encourage students to remind their families to wash food before eating.",
+    "End with a chant: 'Wash, wash, make it clean, Fresh and safe for us to eat!'"
+  ]
+},
+
+// Week 5
+// Lesson 1
+{
+  "title": "Warming Leftover Food Before Eating",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Warming Leftover Food Before Eating",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson teaches young learners about leftover food, why warming it is important, and how to develop safe food habits.",
+  "materials": [
+    "Pictures of food items",
+    "Toy kitchen set (optional)",
+    "Flashcards for sorting activity"
+  ],
+  "objectives": [
+    "Understand what leftover food is.",
+    "Learn why we must warm leftover food before eating.",
+    "Identify foods that need warming before eating.",
+    "Develop the habit of warming food to stay healthy."
+  ],
+  "rationale": [
+    "Teaching children about warming leftover food helps them develop safe eating habits and understand basic food hygiene principles."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, and interactive activities to engage learners and reinforce key concepts."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5–7 minutes) – 'What is Leftover Food?'</b><br><br>Begin by asking:<br>'Do we always finish all our food at once?'<br>'What happens to the food we don’t finish?'<br><br>Explain in simple words:<br>'Leftover food is food that we did not finish, but we keep it to eat later.'<br>'But before eating, we must warm it so it is fresh and safe!'",
+      "<b>Part 2: Why Should We Warm Leftover Food? (5–7 minutes)</b><br><br>Explain:<br>'When food is left for a long time, it can get cold and not taste good.'<br>'Sometimes, tiny germs can grow on cold food.'<br>'Warming food makes it fresh and kills germs so we don’t get sick!'<br><br>Use a simple example:<br>'Have you ever eaten cold rice or soup? Did it taste nice?' (Encourage responses.)<br>'But when we warm it, it smells and tastes better!'",
+      "<b>Part 3: What Foods Need Warming? (7–10 minutes)</b><br><br>Show pictures or real examples of foods and ask: 'Do we warm this before eating?'<br><br>1. Yes! Warm these: Rice, soup, meat, cooked vegetables, porridge.<br>2. No need to warm: Fruits, bread, salad, biscuits.<br><br>Use a fun call-and-response game:<br>Teacher: 'Rice?'<br>Students: 'Yes, warm!'<br>Teacher: 'Banana?'<br>Students: 'No need to warm!'",
+      "<b>Part 4: How Do We Warm Food? (5–7 minutes)</b><br><br>Explain that adults use a stove or microwave to warm food.<br><br>Show safe warming steps with a pretend stove or toy kitchen set:<br>1. Put the food in a pot or plate.<br>2. Warm it on the stove or in a microwave (adults must do this).<br>3. Check if it's hot enough.<br>4. Let it cool a little before eating.<br><br>Remind them: 'Never touch a hot stove! Ask an adult to help.'",
+      "<b>Part 5: Exercise: Fun Warming Food Activity (5–10 minutes)</b><br><br><b>Activity 1: Picture Sorting</b><br>Give children picture cards of food items.<br>Ask them to sort into two groups: 'Warm Before Eating' and 'No Need to Warm.'<br><br><b>Activity 2: Role-Playing Game</b><br>Set up a play kitchen.<br>Let children pretend to warm food using toy stoves, pots, and plates.<br>Encourage them to say: 'I will warm my food before eating!'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The sorting and role-playing activities will assess whether students understand which foods need warming and how to safely warm them."
+  ],
+  "conclusion": [
+    "Ask: 'What do we do with leftover food before eating?' (Let them answer: Warm it!)",
+    "Praise their efforts and remind them: 'Always ask an adult to help warm food!'",
+    "End with a fun chant: 'Warm it up, make it hot, Eat it fresh, germs are not!'"
+  ]
+},
+
 // Lesson 2
+{
+  "title": "Washing Utensils After Eating",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Washing Utensils After Eating",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about utensils, why we must wash them after eating, and how to clean them properly to maintain hygiene.",
+  "materials": [
+    "Plastic plates, cups, and spoons",
+    "Soap and water",
+    "Sponge or cloth",
+    "Picture cards of clean and dirty utensils",
+    "Toy kitchen set (optional)"
+  ],
+  "objectives": [
+    "Understand what utensils are and why we use them.",
+    "Learn why we must wash utensils after eating.",
+    "Identify the correct way to wash utensils.",
+    "Develop the habit of cleaning up after meals."
+  ],
+  "rationale": [
+    "Teaching children proper hygiene habits from an early age helps prevent the spread of germs and keeps their environment clean.",
+    "By learning to wash utensils, children develop responsibility and a sense of cleanliness."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, storytelling, and hands-on activities to teach proper utensil cleaning habits."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – 'What Are Utensils?'</b>:<br><br>Begin by asking:<br>‘What do we use to eat food?’ (Let them answer: spoon, plate, cup, etc.)<br>‘What happens to our plates and spoons after we eat?’<br><br>Explain in simple words:<br>‘Plates, cups, and spoons are called utensils.’<br>‘When we eat, food sticks to them, and they become dirty.’<br>‘We must wash them so they are clean for the next time we eat!’",
+      "<b>Part 2: Why Should We Wash Utensils After Eating?</b>:<br><br>Explain:<br>‘Dirty plates and spoons can have leftover food that brings germs.’<br>‘If we don’t wash them, they will smell bad and attract flies.’<br>‘Washing keeps them clean and ready for the next meal!’<br><br>Use a simple example:<br>‘If you drink milk from a cup, and you don’t wash it, what happens the next day?’<br>(Let them respond: It smells bad, looks dirty, etc.)<br>‘That’s why we must wash our utensils after eating!’",
+      "<b>Part 3: How Do We Wash Utensils?</b>:<br><br>Show and practice the steps for washing utensils:<br>1. Scrape off leftover food into the bin.<br>2. Rinse the plate or cup with water.<br>3. Apply soap and scrub with a sponge or cloth.<br>4. Rinse with clean water to remove soap.<br>5. Let it dry or wipe with a clean towel.<br><br>Demonstrate using a toy kitchen set or real utensils.",
+      "<b>Part 4: Importance of Washing Utensils</b>:<br><br>Discuss what happens if we do not wash utensils:<br>They will look dirty and smell bad.<br>Germs will grow, making us sick.<br>We won’t have clean plates and spoons for the next meal.<br><br>Tell a short story:<br>A boy forgot to wash his cup and found flies on it the next day.<br>Ask: ‘What should he have done?’ (Let them answer: Washed it after drinking!)",
+      "<b>Part 5: Exercise – Fun Washing Activity</b>:<br><br>Activity 1: Sorting Game<br>Give children picture cards of clean and dirty utensils.<br>Ask them to sort into two groups: ‘Clean’ and ‘Dirty.’<br><br>Activity 2: Washing Practice<br>Set up a small washing area with water, soap, and plastic plates.<br>Let the children practice washing plates and cups.<br>Encourage them to say: ‘Wash, wash, make it clean!’"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and hands-on washing activities.",
+    "<b>Activity Participation</b>: The sorting game and washing activity will assess students' understanding of clean vs. dirty utensils and proper washing steps."
+  ],
+  "conclusion": [
+    "Ask: ‘What should we do after eating?’ (Let them answer: Wash utensils!)",
+    "Praise their efforts and remind them to help wash their utensils at home.",
+    "End with a fun chant: ‘Scrub, scrub, wash away, Clean utensils every day!’"
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Practicing Covering of Food",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Practicing Covering of Food",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students the importance of covering food, different ways to cover food, and how to practice proper food covering habits to stay healthy.",
+  "materials": [
+    "Plates with lids",
+    "Food covers (net covers)",
+    "Plastic wrap or foil",
+    "Containers with lids",
+    "Picture cards of covered and uncovered food"
+  ],
+  "objectives": [
+    "Understand why we must cover food.",
+    "Identify different ways to cover food.",
+    "Learn how to properly cover food.",
+    "Develop the habit of keeping food covered to stay healthy."
+  ],
+  "rationale": [
+    "Teaching young children the importance of covering food helps prevent illness and promotes good hygiene habits early in life."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, interactive games, and hands-on activities to help students understand and practice covering food properly."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – 'Why Should We Cover Food?'</b>:<br><br>Begin by asking:<br>‘What happens if we leave food open on the table?’<br>‘Have you seen flies on food?’<br><br>Explain in simple words:<br>‘If we don’t cover food, dust, germs, and flies can land on it.’<br>‘Flies carry dirt, and eating uncovered food can make us sick!’<br>‘Covering food keeps it clean and safe to eat!’",
+      "<b>Part 2: What Can We Use to Cover Food?</b>:<br><br>Show real objects or pictures and ask: ‘Can we use this to cover food?’<br><br>Yes! Good for covering food:<br>- Plates or lids<br>- Food covers (net covers)<br>- Plastic wrap or foil<br>- Containers with lids<br><br>No! Not for covering food:<br>- A dirty cloth<br>- Leaving food open<br>- Hands (not safe)<br><br>Use a fun call-and-response game:<br>Teacher: ‘A plate?’<br>Students: ‘Yes, cover!’<br>Teacher: ‘Hands?’<br>Students: ‘No, not safe!’",
+      "<b>Part 3: How Do We Cover Food?</b>:<br><br>Demonstrate the steps for covering food:<br>1. If using a plate, put another plate or lid on top.<br>2. If using a container, close it with the lid.<br>3. If using plastic wrap, stretch it over the food.<br>4. If using a food cover, place it over the food.<br><br>Let children take turns covering different foods using safe items.",
+      "<b>Part 4: Importance of Covering Food</b>:<br><br>Explain:<br>‘Covering food keeps it fresh and tasty!’<br>‘It stops flies, dust, and germs from landing on it.’<br>‘It keeps food from drying out or spoiling.’<br><br>Tell a short story:<br>A girl left her rice uncovered, and flies sat on it. When she ate it, she got a tummy ache.<br>Ask: ‘What should she have done?’ (Let them answer: Covered the food!)",
+      "<b>Part 5: Exercise – Fun Covering Food Activity</b>:<br><br>Activity 1: Sorting Game<br>Give children picture cards of covered and uncovered food.<br>Ask them to sort into two groups: ‘Covered’ and ‘Uncovered.’<br><br>Activity 2: Covering Practice<br>Set up different food items and covering materials.<br>Let children practice covering food the correct way.<br>Encourage them to say: ‘Cover, cover, keep it clean!’"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in discussions and activities.",
+    "<b>Sorting Activity</b>: The teacher will assess students' ability to classify covered and uncovered food correctly.",
+    "<b>Practical Exercise</b>: The teacher will evaluate how well students cover food using appropriate items."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand why covering food is important, recognize different ways to cover food, and develop the habit of keeping food covered to stay healthy."
+  ]
+},
 
-
+// Lesson 4
+{
+  "title": "Practicing Proper Toilet Use",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Creative and Technology Studies",
+  "topic": "Practicing Proper Toilet Use",
+  "grade": "Nestlings Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "4",
+  "description": "This lesson helps students learn the correct way to use toilet facilities, including how to flush the toilet, cover the toilet seat, and open and close the drop hole.",
+  "materials": [
+    "Pictures of toilets and toilet parts",
+    "Toy or paper toilet",
+    "Handwashing supplies"
+  ],
+  "objectives": [
+    "Students will learn the correct way to use the toilet, including flushing, covering the seat, and using the drop hole.",
+    "Students will understand the importance of hygiene and cleanliness in the bathroom."
+  ],
+  "rationale": [
+    "Teaching children proper toilet use helps maintain cleanliness, hygiene, and responsibility in their daily routines."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, visual aids, and hands-on practice to teach the steps of using the toilet properly."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Toilet Etiquette</b>:<br><br>Class Discussion: Begin by talking about the importance of using the toilet properly. Explain that using the toilet correctly helps keep us and our environment clean. Show pictures of the toilet and its parts (e.g., seat, flush handle, drop hole).<br><br>Key Points to Cover:<br>Always make sure the toilet is clean before using it.<br>Sit properly on the toilet to avoid accidents.<br>Wash hands after using the toilet to stay healthy.",
+      "<b>Part 2: How to Flush the Toilet</b>:<br><br>Class Demonstration: Demonstrate how to flush the toilet. Show the flush handle or button and explain that it is used to remove waste from the toilet.<br><br>Key Points to Cover:<br>Use a gentle push on the handle or button to make the toilet flush.<br>Wait until the water goes down completely before standing up.<br><br>Visual Aid: Use a picture or toy model of a toilet and show the flushing action.",
+      "<b>Part 3: Covering the Toilet After Use</b>:<br><br>Class Demonstration: Show how to cover the toilet seat after use. Explain that this helps keep the toilet area clean and safe for others.<br><br>Key Points to Cover:<br>After finishing, make sure to cover the toilet seat to keep germs from spreading.<br>Demonstrate how to place the toilet seat cover back in its correct position.",
+      "<b>Part 4: Opening and Closing the Drop Hole</b>:<br><br>Class Demonstration: Show how to open and close the drop hole cover. Explain that the hole is where waste goes, and it is important to keep it closed when not in use to prevent smells and keep the area tidy.<br><br>Key Points to Cover:<br>Open the drop hole cover only when using the toilet.<br>Always close the drop hole after use, to ensure hygiene.",
+      "<b>Part 5: Exercise: Practice Time</b>:<br><br>Activity: Set up a pretend toilet area in the classroom. Use a toy or paper toilet with a handle to simulate flushing, and a removable lid to demonstrate covering the toilet seat and closing the drop hole.<br><br>Exercise Instructions:<br>Have the children practice each step: sitting down properly, flushing, covering the toilet seat, and closing the drop hole.<br>Encourage them to pretend they are following the correct process as if they were in a real toilet.<br><br>Group Participation: Guide the children in groups to ensure each child gets a turn to practice.<br><br>Reflection: Ask the children to share one thing they learned about using the toilet properly."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and participation during the demonstrations and practice time.",
+    "<b>Exercise</b>: The teacher will assess students' understanding by their ability to correctly demonstrate each step in the practice time."
+  ],
+  "conclusion": [
+    "By practicing proper toilet use, students will gain an understanding of hygiene, cleanliness, and responsibility, making them more confident and independent."
+  ]
+},
 
 // Week 7
 // Lesson 1
