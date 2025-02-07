@@ -394,13 +394,159 @@ const lessonPlans24a = [
 },
 
 // Lesson 3
+{
+  "title": "The Importance of Food",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Importance of Food for Energy, Body Building, and Protection",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students why food is important for the body and the three main functions of food: providing energy, building the body, and protecting against diseases.",
+  "materials": [
+    "Pictures of different types of food",
+    "Whiteboard and markers",
+    "Worksheets"
+  ],
+  "objectives": [
+    "Understand why food is important for the body.",
+    "Identify the three main functions of food: providing energy, building the body, and protecting against diseases.",
+    "Give examples of foods that serve each function.",
+    "Complete an exercise to reinforce learning."
+  ],
+  "rationale": [
+    "Teaching students about the importance of food helps them make healthy eating choices and understand how different foods support their bodies."
+  ],
+  "methodology": [
+    "The lesson will use discussions, explanations, pictures, and activities to help students understand the importance of food."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b><br><br>Engage the Learners<br>Begin with a question: 'Why do we eat food?'<br>Allow students to give different answers (e.g., 'To grow,' 'To be strong,' 'Because we are hungry').<br>Explain that food is not just for satisfying hunger; it helps our bodies in three important ways:<br><br>- Gives us energy<br>- Helps us grow and build our bodies<br>- Protects us from diseases",
+      
+      "<b>Part 2: Food for Energy (10 minutes)</b><br><br>Explanation<br>Explain that our bodies need energy to move, play, study, and do daily activities.<br>Energy comes from foods that contain carbohydrates and fats.<br><br>Examples of energy-giving foods:<br>- Carbohydrates: Rice, bread, maize, potatoes, cassava, pasta<br>- Fats and oils: Butter, margarine, avocado, cooking oil, peanuts<br><br>Activity<br>Ask students to think about a time they felt tired or weak.<br>Discuss how eating energy-giving foods helps us feel strong again.",
+      
+      "<b>Part 3: Food for Body Building (10 minutes)</b><br><br>Explanation<br>Our bodies grow and repair themselves with the help of proteins.<br>Proteins help build muscles, bones, and skin.<br><br>Examples of body-building foods:<br>- Meat, fish, eggs, beans, milk, nuts, soya, cheese<br><br>Activity<br>Show pictures (or draw on the board) of different protein-rich foods.<br>Ask students to name foods they eat at home that help their bodies grow.",
+      
+      "<b>Part 4: Food for Protection (10 minutes)</b><br><br>Explanation<br>Some foods help our bodies fight diseases and stay healthy.<br>These foods contain vitamins and minerals.<br><br>Examples of protective foods:<br>- Fruits: Oranges, mangoes, bananas, apples, guavas<br>- Vegetables: Spinach, carrots, tomatoes, cabbage<br><br>Activity<br>Show pictures of different fruits and vegetables.<br>Discuss which fruits and vegetables students like and how they help their health.",
+      
+      "<b>Part 5: Exercise (5 minutes)</b><br><br>Instructions: Fill in the blanks with the correct answer.<br>1. Food gives us ___________ to move and play.<br>2. Body-building foods help us ___________ and repair our bodies.<br>3. Fruits and vegetables protect us from ___________.<br>4. An example of an energy-giving food is ___________.<br>5. An example of a protective food is ___________.<br><br>Conclusion:<br>Review the answers together.<br>Ask students to think about their meals and identify the different types of foods they eat.<br>Remind them that eating a balanced meal is important for a strong and healthy body."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blank exercise will check students’ understanding of the three main functions of food."
+  ],
+  "conclusion": [
+    "By learning about the importance of food, students will understand the role of different food types in their health and development."
+  ]
+},
 
 // Week 5
 // Lesson 1
-
+{
+  "title": "Food Nutrients",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Food Nutrients",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to different types of food nutrients and their importance for the body.",
+  "materials": [
+    "Charts or pictures of different foods",
+    "Whiteboard and markers",
+    "Worksheets for the exercise"
+  ],
+  "objectives": [
+    "Identify different types of food nutrients.",
+    "Classify foods into energy-giving, body-building, and protective foods.",
+    "Understand why each type of food is important for the body.",
+    "Complete an exercise to test their understanding."
+  ],
+  "rationale": [
+    "Understanding food nutrients helps students make healthier eating choices and recognize the importance of a balanced diet."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and interactive activities to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction</b>:<br><br><b>Engage the Learners</b><br>Ask: “What did you eat today?”<br>Let students share their answers.<br><br><b>Explain</b>:<br>\"The food we eat contains nutrients that help our bodies in different ways. Today, we will learn about three important types of food: Energy foods, Body-building foods, and Protective foods.\"",
+      "<b>Part 2: Energy-Giving Foods</b>:<br><br><b>Explanation</b>:<br>Energy foods give us strength to play, run, and do schoolwork.<br>These foods contain carbohydrates and fats.<br><br><b>Examples</b>:<br>- Rice<br>- Nshima<br>- Potatoes<br><br><b>Activity</b>:<br>Ask students: “What happens if you don’t eat energy foods?” (Possible answers: feel weak, get tired quickly).<br>Discuss how energy foods help us stay active.",
+      "<b>Part 3: Body-Building Foods</b>:<br><br><b>Explanation</b>:<br>Body-building foods help us grow and repair our bodies.<br>These foods contain proteins.<br><br><b>Examples</b>:<br>- Meat<br>- Eggs<br>- Beans<br><br><b>Activity</b>:<br>Show or draw pictures of body-building foods.<br>Ask students: \"Which of these foods do you eat at home?\"",
+      "<b>Part 4: Protective Foods</b>:<br><br><b>Explanation</b>:<br>Protective foods help our bodies fight diseases and keep us healthy.<br>These foods contain vitamins and minerals.<br><br><b>Examples</b>:<br>- Fruits (e.g., bananas, oranges)<br>- Vegetables (e.g., spinach, carrots)<br><br><b>Activity</b>:<br>Show or draw pictures of different fruits and vegetables.<br>Ask: “Why is it important to eat fruits and vegetables?”",
+      "<b>Part 5: Exercise</b>:<br><br><b>Match the foods with their correct group</b>:<br>Students will complete a worksheet where they match food items to their correct category (energy-giving, body-building, or protective foods).<br><br><b>Conclusion</b>:<br>Review answers together.<br>Encourage students to eat a balanced diet to stay strong and healthy."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The worksheet activity will assess students' understanding of food nutrients."
+  ],
+  "conclusion": [
+    "By learning about food nutrients, students will understand the importance of a balanced diet and healthy eating habits."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Composition of a Balanced Diet",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Balanced Diet",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about the composition of a balanced diet, the different food groups, and the importance of eating a variety of foods for good health.",
+  "materials": [
+    "Pictures of different foods",
+    "Whiteboard and markers",
+    "Flashcards with food group names"
+  ],
+  "objectives": [
+    "Explain what a balanced diet is.",
+    "Identify the different food groups needed for a balanced diet.",
+    "Give examples of meals that make up a balanced diet.",
+    "Complete an exercise to check their understanding."
+  ],
+  "rationale": [
+    "Understanding a balanced diet helps students develop healthy eating habits that contribute to their growth, energy, and overall well-being."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and interactive exercises to engage students in learning about a balanced diet."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br><b>Engage the Learners</b><br>Ask: “What did you eat for lunch yesterday?”<br>Let students share their meals.<br><br><b>Explain</b>: \"A balanced diet means eating different types of foods that help our bodies in different ways. We need food for energy, body building, and protection.\"",
+      "<b>Part 2: What is a Balanced Diet? (10 minutes)</b>:<br><br><b>Explanation</b><br>A balanced diet contains the three main types of food:<br>1. <b>Energy-giving foods</b> – give strength (e.g., nshima, rice, potatoes).<br>2. <b>Body-building foods</b> – help us grow (e.g., meat, eggs, beans).<br>3. <b>Protective foods</b> – keep us healthy (e.g., vegetables, fruits).<br><br>Eating a balanced meal means including all three types of food.<br><br><b>Example of a Balanced Meal:</b><br>Nshima + Meat + Vegetables",
+      "<b>Part 3: Why is a Balanced Diet Important? (10 minutes)</b>:<br><br><b>Discussion</b><br>Eating only one type of food is not good for the body.<br><br>A balanced diet helps us:<br>✔ Grow strong and healthy.<br>✔ Have enough energy for school and play.<br>✔ Fight diseases and stay well.<br><br><b>Activity</b><br>Ask students: “What happens if we eat only nshima and no vegetables?”<br>Discuss why each food group is important.",
+      "<b>Part 4: Examples of Balanced Meals (10 minutes)</b>:<br><br><b>Give examples of meals that contain a balanced diet:</b><br>1. Rice + Chicken + Cabbage<br>2. Nshima + Fish + Spinach<br>3. Sweet potatoes + Beans + Tomatoes<br><br><b>Ask students to think of their own examples.</b><br><br><b>Activity</b><br>Show pictures of different foods.<br>Let students group them into energy, body-building, and protective foods.",
+      "<b>Part 5: Exercise (5 minutes)</b>:<br><br><b>Fill in the blanks:</b><br>1. A balanced diet has ________, ________, and ________ foods.<br>2. An example of a balanced meal is ________, ________, and ________.<br>3. Protective foods help the body by ________.<br>4. Body-building foods help the body by ________.<br><br><b>Conclusion</b>:<br>Go over the answers together.<br>Remind students to eat different foods every day to stay strong and healthy."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blanks exercise will assess students' understanding of the food groups and their importance."
+  ],
+  "conclusion": [
+    "By learning about balanced diets, students will understand the importance of eating a variety of foods to stay healthy, grow strong, and have energy for daily activities."
+  ]
+},
 
 // Lesson 3
 
