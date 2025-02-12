@@ -466,10 +466,164 @@ const lessonPlans26a = [
 
 // Week 5
 // Lesson 1
+{
+  "title": "Common Airborne and Waterborne Diseases in Zambia",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 12, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Common Airborne and Waterborne Diseases in Zambia",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to airborne and waterborne diseases, their causes, how they spread, and ways to prevent them.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or charts of diseases",
+    "Soap and water for handwashing demonstration"
+  ],
+  "objectives": [
+    "Define airborne and waterborne diseases.",
+    "Identify common airborne and waterborne diseases in Zambia.",
+    "Explain how these diseases spread.",
+    "Discuss prevention and control measures for these diseases."
+  ],
+  "rationale": [
+    "Understanding the causes, spread, and prevention of diseases helps students develop good hygiene habits and protect themselves and their communities from infections."
+  ],
+  "methodology": [
+    "The lesson will use explanations, discussions, demonstrations, and practical activities to help students understand disease transmission and prevention."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Airborne and Waterborne Diseases (10 minutes)</b>:<br><br>Definition of airborne diseases: Diseases that spread through the air when an infected person coughs, sneezes, or talks.<br><br>Definition of waterborne diseases: Diseases caused by consuming contaminated water or food.<br><br>Examples of airborne diseases: Tuberculosis, pneumonia, and measles.<br><br>Examples of waterborne diseases: Cholera, typhoid, dysentery, and bilharzia.<br><br>Class Discussion:<br>Ask students if they have heard of these diseases before.<br>Encourage them to share personal experiences or news about outbreaks in Zambia.",
+      "<b>Part 2: How These Diseases Spread (10 minutes)</b>:<br><br>1. Airborne Diseases Spread Through:<br>- Inhaling infected droplets in the air.<br>- Close contact with an infected person.<br>- Contaminated surfaces where droplets land.<br><br>2. Waterborne Diseases Spread Through:<br>- Drinking unclean or untreated water.<br>- Eating food prepared with contaminated water.<br>- Poor sanitation (e.g., using dirty hands to eat).<br><br>Activity:<br>Demonstrate how germs spread by sneezing into your hand and then touching a surface.<br>Show how washing hands properly removes germs.",
+      "<b>Part 3: Symptoms of Airborne and Waterborne Diseases (10 minutes)</b>:<br><br>Class Discussion:<br>Ask students if they have experienced or heard of any of these symptoms.<br>Discuss how untreated diseases can be life-threatening.",
+      "<b>Part 4: Prevention and Control Measures (10 minutes)</b>:<br><br>For airborne diseases:<br>- Cover mouth when coughing or sneezing.<br>- Wear masks in crowded areas.<br>- Keep rooms well-ventilated.<br>- Get vaccinated (e.g., for measles).<br><br>For waterborne diseases:<br>- Drink clean, treated, or boiled water.<br>- Wash hands with soap before eating and after using the toilet.<br>- Practice good food hygiene.<br>- Improve sanitation by using proper toilets.<br><br>Activity:<br>Demonstrate proper handwashing with soap.<br>Show how to boil water to make it safe for drinking.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>Instructions: Answer the following questions in your notebooks.<br><br>1. Define airborne and waterborne diseases.<br>2. List three examples of airborne diseases.<br>3. List three examples of waterborne diseases.<br>4. How do airborne diseases spread?<br>5. How do waterborne diseases spread?<br>6. Mention two symptoms of cholera.<br>7. Name two ways to prevent airborne diseases.<br>8. Name two ways to prevent waterborne diseases.<br>9. Why is handwashing important?<br>10. How can we make water safe for drinking?<br><br>Class Review:<br>Go through the answers with the students.<br>Praise correct answers and clarify any misunderstandings."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will evaluate students' understanding of disease transmission and prevention."
+  ],
+  "conclusion": [
+    "Summarize key points from the lesson.",
+    "Emphasize the importance of cleanliness and vaccinations in preventing diseases.",
+    "Encourage students to practice proper hygiene and educate their families."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Common Airborne and Waterborne Diseases in Zambia",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 12, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Common Airborne and Waterborne Diseases in Zambia",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about airborne and waterborne diseases, their causes, how they spread, symptoms, and ways to prevent them.",
+  "materials": [
+    "Charts showing common diseases",
+    "Soap and water for handwashing demonstration",
+    "Pictures of contaminated water sources",
+    "Mask for demonstration"
+  ],
+  "objectives": [
+    "Define airborne and waterborne diseases.",
+    "Identify common airborne and waterborne diseases in Zambia.",
+    "Explain how these diseases spread.",
+    "Discuss prevention and control measures for these diseases."
+  ],
+  "rationale": [
+    "Understanding how diseases spread helps students protect themselves and their families from infections.",
+    "Teaching proper hygiene and disease prevention can reduce outbreaks in schools and communities."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, and activities to explain airborne and waterborne diseases."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Airborne and Waterborne Diseases</b>:<br><br>Definition of airborne diseases: Diseases that spread through the air when an infected person coughs, sneezes, or talks.<br><br>Definition of waterborne diseases: Diseases caused by consuming contaminated water or food.<br><br>Examples of airborne diseases: Tuberculosis, pneumonia, and measles.<br><br>Examples of waterborne diseases: Cholera, typhoid, dysentery, and bilharzia.<br><br><b>Class Discussion:</b><br>Ask students if they have heard of these diseases before.<br>Encourage them to share personal experiences or news about outbreaks in Zambia.",
+      "<b>Part 2: How These Diseases Spread</b>:<br><br><b>1. Airborne Diseases Spread Through:</b><br>- Inhaling infected droplets in the air.<br>- Close contact with an infected person.<br>- Contaminated surfaces where droplets land.<br><br><b>2. Waterborne Diseases Spread Through:</b><br>- Drinking unclean or untreated water.<br>- Eating food prepared with contaminated water.<br>- Poor sanitation (e.g., using dirty hands to eat).<br><br><b>Activity:</b><br>Demonstrate how germs spread by sneezing into your hand and then touching a surface.<br>Show how washing hands properly removes germs.",
+      "<b>Part 3: Symptoms of Airborne and Waterborne Diseases</b>:<br><br><b>Class Discussion:</b><br>Ask students if they have experienced or heard of any of these symptoms.<br>Discuss how untreated diseases can be life-threatening.",
+      "<b>Part 4: Prevention and Control Measures</b>:<br><br><b>For airborne diseases:</b><br>- Cover mouth when coughing or sneezing.<br>- Wear masks in crowded areas.<br>- Keep rooms well-ventilated.<br>- Get vaccinated (e.g., for measles).<br><br><b>For waterborne diseases:</b><br>- Drink clean, treated, or boiled water.<br>- Wash hands with soap before eating and after using the toilet.<br>- Practice good food hygiene.<br>- Improve sanitation by using proper toilets.<br><br><b>Activity:</b><br>Demonstrate proper handwashing with soap.<br>Show how to boil water to make it safe for drinking.",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions: Answer the following questions in your notebooks.<br><br>1. Define airborne and waterborne diseases.<br>2. List three examples of airborne diseases.<br>3. List three examples of waterborne diseases.<br>4. How do airborne diseases spread?<br>5. How do waterborne diseases spread?<br>6. Mention two symptoms of cholera.<br>7. Name two ways to prevent airborne diseases.<br>8. Name two ways to prevent waterborne diseases.<br>9. Why is handwashing important?<br>10. How can we make water safe for drinking?<br><br><b>Class Review:</b><br>Go through the answers with the students.<br>Praise correct answers and clarify any misunderstandings."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in discussions and activities.",
+    "<b>Exercise</b>: The 10-question exercise will assess students’ understanding of airborne and waterborne diseases."
+  ],
+  "conclusion": [
+    "Summarize key points from the lesson.",
+    "Emphasize the importance of cleanliness and vaccinations in preventing diseases.",
+    "Encourage students to practice proper hygiene and educate their families."
+  ]
+},
 
 // Lesson  3
+{
+  "title": "Preventing Airborne and Waterborne Diseases",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "How to Prevent Airborne and Waterborne Diseases",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about airborne and waterborne diseases, their causes, and how to prevent them through proper hygiene and sanitation practices.",
+  "materials": [
+    "Charts or posters on disease prevention",
+    "Whiteboard and markers",
+    "Videos or pictures illustrating hygiene practices"
+  ],
+  "objectives": [
+    "Understand what airborne and waterborne diseases are.",
+    "Identify common airborne and waterborne diseases.",
+    "Explain ways to prevent airborne diseases.",
+    "Explain ways to prevent waterborne diseases.",
+    "Apply their knowledge through an exercise."
+  ],
+  "rationale": [
+    "Teaching students about disease prevention helps them adopt healthy habits, reducing the risk of infections in their communities.",
+    "Understanding proper hygiene and sanitation practices promotes long-term well-being."
+  ],
+  "methodology": [
+    "The lesson will include discussions, visual aids, and group activities to reinforce learning about disease prevention."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Airborne and Waterborne Diseases</b>:<br><br><b>What are Airborne Diseases?</b><br>Airborne diseases are infections that spread through the air when an infected person coughs, sneezes, or talks. Tiny germs travel in the air and enter another person’s body when they breathe in.<br><br><b>What are Waterborne Diseases?</b><br>Waterborne diseases are caused by drinking or using contaminated water. This happens when water contains bacteria, viruses, or parasites that can make people sick.<br><br><b>Examples of Airborne Diseases:</b><br>- Tuberculosis (TB)<br>- Influenza (Flu)<br>- Common Cold<br>- COVID-19<br><br><b>Examples of Waterborne Diseases:</b><br>- Cholera<br>- Typhoid Fever<br>- Dysentery<br>- Hepatitis A",
+      "<b>Part 2: How to Prevent Airborne Diseases</b>:<br><br>1. <b>Good Ventilation</b><br>Always keep windows and doors open to allow fresh air to circulate.<br>Avoid overcrowded places, as germs spread easily in closed spaces.<br><br>2. <b>Covering the Mouth and Nose</b><br>Use a tissue or elbow when sneezing or coughing to prevent germs from spreading.<br>Wear a mask in crowded areas when necessary.<br><br>3. <b>Personal Hygiene</b><br>Wash hands regularly with soap and water.<br>Avoid touching your face, especially the nose, eyes, and mouth.<br><br>4. <b>Vaccination</b><br>Get vaccinated to protect against common airborne diseases like flu and COVID-19.",
+      "<b>Part 3: How to Prevent Waterborne Diseases</b>:<br><br>1. <b>Drinking Clean and Safe Water</b><br>Boil water before drinking or use filtered and treated water.<br>Store water in clean, covered containers.<br><br>2. <b>Proper Sanitation</b><br>Always wash hands with soap after using the toilet and before eating.<br>Ensure toilets and waste disposal systems are clean and well-maintained.<br><br>3. <b>Food Hygiene</b><br>Wash fruits and vegetables thoroughly before eating.<br>Cook food properly to kill harmful bacteria.<br><br>4. <b>Preventing Water Contamination</b><br>Do not throw garbage or waste into rivers, lakes, or water sources.<br>Ensure water pipes and storage tanks are clean and properly maintained.",
+      "<b>Part 4: Discussion & Reinforcement</b>:<br><br>Ask students to share their experiences with airborne or waterborne diseases.<br>Discuss real-life scenarios where people get sick due to poor hygiene and how to prevent it.<br>Show pictures or videos illustrating good hygiene practices.",
+      "<b>Part 5: Exercise (Application of Knowledge)</b>:<br><br><b>Activity 1: Fill in the Blanks</b><br>1. A disease that spreads through air is called ___________.<br>2. One way to prevent airborne diseases is ___________.<br>3. Cholera is an example of a ___________ disease.<br>4. Boiling water before drinking helps prevent ___________ diseases.<br>5. Covering your mouth while sneezing prevents ___________ diseases.<br><br><b>Activity 2: True or False</b><br>1. Washing hands with soap is only necessary after using the toilet. (<b>False</b>)<br>2. Tuberculosis spreads through dirty water. (<b>False</b>)<br>3. Vaccination helps prevent some airborne diseases. (<b>True</b>)<br>4. Drinking untreated water can cause cholera. (<b>True</b>)<br>5. Opening windows allows fresh air to circulate, reducing airborne diseases. (<b>True</b>)<br><br><b>Activity 3: Class Discussion</b><br>Divide students into small groups and ask them to create posters showing ways to prevent airborne and waterborne diseases.<br>Let each group present their posters to the class."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blanks and true/false exercises will assess students’ understanding of disease prevention."
+  ],
+  "conclusion": [
+    "Summarize key points on how to prevent airborne and waterborne diseases.",
+    "Remind students that hygiene and cleanliness help keep them and their families healthy.",
+    "Encourage them to practice these preventive measures daily."
+  ]
+},
 
 // Week 7
 // Lesson 1
