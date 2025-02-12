@@ -310,10 +310,159 @@ const lessonPlans26a = [
 
 // Week 4
 // Lesson 1
+{
+  "title": "The Importance of Good Ventilation",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Importance of Good Ventilation",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students what ventilation is, why it is important, how to improve it, and the consequences of poor ventilation.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of well-ventilated and poorly ventilated rooms",
+    "Fans or air conditioning system (if available)"
+  ],
+  "objectives": [
+    "Understand what ventilation is.",
+    "Explain why good ventilation is important for health and comfort.",
+    "Identify ways to improve ventilation in homes, schools, and workplaces.",
+    "Recognize the consequences of poor ventilation."
+  ],
+  "rationale": [
+    "Good ventilation is essential for maintaining healthy indoor environments. It improves air quality, prevents diseases, removes bad odors, and controls temperature and humidity. Teaching students about ventilation helps them understand how to create a healthier living and learning space."
+  ],
+  "methodology": [
+    "The lesson will use discussions, observations, activities, and real-life examples to help students understand the importance of good ventilation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Ventilation?</b>:<br><br><b>Definition:</b><br>Ventilation is the process of allowing fresh air to enter and circulate in a space while removing stale air. It helps maintain good air quality and provides a comfortable environment.<br><br><b>Types of Ventilation:</b><br>1. <b>Natural Ventilation</b> – Air flows through open windows, doors, and vents.<br>2. <b>Mechanical Ventilation</b> – Uses fans, air conditioners, or ventilation systems to circulate air.<br><br><b>Discussion Questions:</b><br>Where do you see ventilation in your home or classroom?<br>What happens if there are no windows or fans in a room?",
+      "<b>Part 2: Why is Good Ventilation Important?</b>:<br><br>1. <b>Improves Air Quality</b><br>Removes dust, smoke, and other pollutants from the air.<br>Helps reduce allergies and respiratory problems.<br><br>2. <b>Prevents the Spread of Diseases</b><br>Fresh air reduces the concentration of germs and bacteria.<br>Helps prevent illnesses like colds, flu, and COVID-19.<br><br>3. <b>Reduces Unpleasant Odors</b><br>Removes bad smells from cooking, waste, or chemicals.<br>Keeps the environment fresh and comfortable.<br><br>4. <b>Controls Temperature and Humidity</b><br>Prevents rooms from becoming too hot or too cold.<br>Reduces dampness and prevents mold growth.<br><br><b>Activity:</b><br>Ask students to close the windows and observe how they feel. Then, open the windows and discuss the difference.",
+      "<b>Part 3: How Can We Improve Ventilation?</b>:<br><br>1. <b>Open Windows and Doors Regularly</b> – Allows fresh air to enter naturally.<br>2. <b>Use Fans or Air Conditioners</b> – Helps circulate air.<br>3. <b>Install Vents in Houses and Classrooms</b> – Ensures air moves freely.<br>4. <b>Keep Air Pathways Clear</b> – Avoid blocking vents with furniture or curtains.<br>5. <b>Use Plants Indoors</b> – Plants can help improve air quality.<br><br><b>Discussion:</b><br>What are some ways we can improve ventilation in our classroom?<br>How does good ventilation make you feel?",
+      "<b>Part 4: Effects of Poor Ventilation</b>:<br><br>1. <b>Health Problems</b> – Can cause headaches, allergies, coughing, and difficulty breathing.<br>2. <b>Mold Growth</b> – Damp, poorly ventilated places develop mold, which can harm health.<br>3. <b>Unpleasant Smells</b> – Without fresh air, bad odors stay in the room.<br>4. <b>High Indoor Temperatures</b> – Poor airflow can make a room too hot and uncomfortable.<br><br><b>Activity:</b><br>Ask students to think of a time they were in a stuffy room. How did they feel?",
+      "<b>Part 5: Exercise</b>:<br><br><b>A. Fill in the Blanks</b><br>1. Ventilation is the process of ______________.<br>2. One way to improve ventilation is by ______________.<br>3. Poor ventilation can cause ______________.<br><br><b>B. True or False</b><br>1. Good ventilation removes germs and odors. (____)<br>2. Keeping windows closed all the time helps with ventilation. (____)<br>3. Fans and vents are types of mechanical ventilation. (____)<br><br><b>C. Short Answer</b><br>1. Why is good ventilation important for health?<br>2. How can we improve ventilation at school?<br>3. What are some problems caused by poor ventilation?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blank, true or false, and short-answer exercises will evaluate students' understanding of ventilation and its importance."
+  ],
+  "conclusion": [
+    "Good ventilation is essential for a healthy and comfortable environment. It improves air quality, prevents illnesses, removes bad odors, and controls temperature. By ensuring fresh air circulates in our homes and schools, we can live healthier lives."
+  ],
+  "homework": [
+    "Ask students to observe the ventilation in their homes and write down three ways they can improve it."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Ways of Providing Good Ventilation in Buildings",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Ways of Providing Good Ventilation in Buildings",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students the importance of good ventilation in buildings, different ways to improve ventilation, and how it affects health and comfort.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or diagrams of buildings with good ventilation",
+    "Examples of ventilation systems (fans, vents, air conditioners)"
+  ],
+  "objectives": [
+    "Understand the importance of good ventilation in buildings.",
+    "Identify different ways to improve ventilation in homes, schools, and offices.",
+    "Explain how ventilation affects health and comfort.",
+    "Apply knowledge of ventilation to suggest improvements in their own homes and classrooms."
+  ],
+  "rationale": [
+    "Good ventilation is essential for maintaining healthy and comfortable living and working spaces. This lesson helps students understand different ways to improve air quality in buildings."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, and hands-on activities to illustrate the importance of good ventilation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – What is Ventilation?</b>:<br><br>Begin by asking students:<br>Have you ever felt uncomfortable in a stuffy room?<br>What happens when there is no fresh air in a room?<br><br>Explain that ventilation means allowing fresh air to enter and removing stale air from a building.<br><br>Good ventilation is important because it:<br>- Reduces indoor pollution.<br>- Provides fresh oxygen.<br>- Helps control temperature.<br>- Prevents the growth of mold and bad odors.<br><br><b>Activity:</b><br>Ask students to take a deep breath in a closed room and compare how they feel when standing outside in fresh air.",
+      "<b>Part 2: Natural Ventilation (Using Natural Methods)</b>:<br><br>Explain that one of the best ways to provide good ventilation is through natural ventilation. This means using openings in buildings to allow air to move freely.<br><br><b>Ways to Improve Natural Ventilation:</b><br>1. <b>Windows and Doors:</b><br>- Open windows and doors regularly to allow fresh air to enter.<br>- Place windows on opposite sides of a room to create cross-ventilation (air moves from one side to another).<br><br>2. <b>Vents and Openings:</b><br>- Roof vents allow warm air to escape.<br>- Small openings in walls can help air move through.<br><br>3. <b>Trees and Plants:</b><br>- Planting trees near buildings helps cool the air naturally and allows for fresh oxygen.<br><br><b>Activity:</b><br>Show pictures or diagrams of buildings with good natural ventilation.<br>Ask students to describe how they would improve ventilation in their own homes.",
+      "<b>Part 3: Mechanical Ventilation (Using Machines to Improve Airflow)</b>:<br><br>Sometimes natural ventilation is not enough, especially in large buildings or places with many people. In such cases, mechanical ventilation is used.<br><br><b>Types of Mechanical Ventilation:</b><br>1. <b>Ceiling Fans and Stand Fans:</b><br>- Help move air inside a room and keep it cool.<br><br>2. <b>Exhaust Fans:</b><br>- Used in kitchens and bathrooms to remove smoke, heat, and moisture.<br><br>3. <b>Air Conditioners (ACs) and Air Purifiers:</b><br>- Help cool air and remove dust, but should be used with fresh air sources.<br><br><b>Activity:</b><br>Show examples of different types of ventilation systems and ask students to identify them in their homes or school.",
+      "<b>Part 4: Importance of Good Ventilation</b>:<br><br>- Prevents illnesses caused by stale air (headaches, dizziness, breathing problems).<br>- Removes pollutants and bad smells.<br>- Helps control temperature, making rooms more comfortable.<br>- Reduces mold and dampness, protecting walls and furniture.<br><br><b>Discussion:</b><br>Ask students: What problems can happen if a building has poor ventilation?<br>Let them share experiences of places they have been to that felt too hot or stuffy.",
+      "<b>Part 5: Exercise (Application & Critical Thinking)</b>:<br><br>1. **Fill in the Blanks**<br>- Ventilation means allowing __ air to enter and removing __ air from a building.<br>- Good ventilation helps control __ and prevents the growth of __.<br><br>2. **True or False**<br>- Opening windows helps improve ventilation. (True/False)<br>- Air conditioners should be used without any fresh air source. (True/False)<br><br>3. **Short Answer**<br>- Name two natural ventilation methods.<br>- What is the purpose of an exhaust fan?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The students will complete the fill-in-the-blanks, true/false, and short-answer questions to assess their understanding."
+  ],
+  "conclusion": [
+    "By learning about different ways of providing good ventilation, students will understand its importance in maintaining a healthy and comfortable environment in homes, schools, and offices."
+  ]
+},
 
 // Lesson  3
+{
+  "title": "Demonstrating Ways to Treat a Suffocated Person",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "First Aid for Suffocation",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about suffocation, its causes, signs, and first aid techniques to help a suffocated person.",
+  "materials": [
+    "Images or videos of suffocation scenarios",
+    "Charts illustrating first aid steps",
+    "Mannequin or stuffed toy for CPR practice"
+  ],
+  "objectives": [
+    "Identify causes of suffocation.",
+    "Recognize the signs of a suffocated person.",
+    "Demonstrate basic first aid techniques for helping a suffocated person.",
+    "Understand the importance of seeking medical help."
+  ],
+  "rationale": [
+    "Teaching students about suffocation and first aid techniques equips them with life-saving skills to help in emergencies."
+  ],
+  "methodology": [
+    "The lesson will use discussions, role-playing, and practical demonstrations to engage students in learning first aid for suffocation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Suffocation</b>:<br><br>Discussion:<br>Ask students: What do you think suffocation means?<br><br>Explain that suffocation happens when someone cannot breathe properly due to a blocked airway, lack of oxygen, or pressure on the chest.<br><br>Discuss common causes of suffocation, including:<br>• Choking on food or small objects<br>• Drowning<br>• Smoke inhalation<br>• Strangulation<br>• Being trapped in a confined space<br><br>Activity:<br>Show images or short videos of different situations that may cause suffocation (without making it too scary).<br>Have students brainstorm other possible causes and share their thoughts.",
+      "<b>Part 2: Recognizing the Signs of Suffocation</b>:<br><br>Key Signs to Look For:<br>• Inability to speak, cough, or breathe<br>• Clutching the throat (a common sign of choking)<br>• Face turning blue or purple<br>• Unconsciousness (if left untreated)<br><br>Activity:<br>Play a role-playing game where one student pretends to be in distress (choking or struggling to breathe), and others describe what signs they observe.",
+      "<b>Part 3: First Aid Techniques for Treating a Suffocated Person</b>:<br><br>Steps to Help a Suffocated Person:<br><br>1. <b>For Choking (Heimlich Maneuver):</b><br>• Stand behind the person and wrap your arms around their waist.<br>• Make a fist and place it just above the belly button.<br>• Push in and up firmly, repeating until the object is expelled.<br><br>2. <b>For Drowning:</b><br>• Remove the person from the water.<br>• Lay them on their back and check for breathing.<br>• If not breathing, perform CPR (Cardiopulmonary Resuscitation).<br><br>3. <b>For Smoke Inhalation or Strangulation:</b><br>• Move the person to fresh air.<br>• Loosen any tight clothing around the neck.<br>• Seek immediate medical help.<br><br>4. <b>For an Unconscious Person:</b><br>• Check if they are breathing.<br>• If not, begin CPR:<br>  - Give 30 chest compressions (push hard and fast in the center of the chest).<br>  - Give 2 rescue breaths (tilt the head back, pinch the nose, and breathe into the mouth).<br>  - Repeat until help arrives.",
+      "<b>Part 4: The Importance of Seeking Medical Help</b>:<br><br>Even after helping a suffocated person, medical attention is important to check for complications.<br><br>Teach students how to call emergency services (e.g., 911 or local numbers).<br><br>Explain how to give clear information to responders:<br>• What happened?<br>• Where they are?<br>• Condition of the person (conscious or unconscious)?<br><br>Activity:<br>Have students practice making a pretend emergency call, describing a suffocation scenario and what they did to help.",
+      "<b>Part 5: Exercise – Role-Playing Scenarios</b>:<br><br>Instructions:<br>• Divide the class into small groups.<br>• Assign each group a scenario (e.g., choking on food, drowning, smoke inhalation).<br>• One student acts as the victim, while the others apply the correct first aid steps.<br>• Each group presents their scenario while the class observes and gives feedback.<br><br>Wrap-Up Discussion:<br>Ask students: What was easy or difficult about performing first aid?<br>Emphasize the importance of staying calm and acting quickly.<br>Review key points and encourage students to share what they learned."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and role-playing exercises.",
+    "<b>In-Class Assessment</b>: Ask students to explain in their own words what they would do in a suffocation emergency.",
+    "<b>Homework</b>: Write a short paragraph about a situation where they might need to help someone who is suffocating and how they would respond."
+  ],
+  "conclusion": [
+    "By learning about suffocation and first aid techniques, students will be equipped with essential life-saving skills.",
+    "Students will understand the importance of quick thinking and seeking medical help in emergencies."
+  ]
+},
 
 // Week 5
 // Lesson 1
