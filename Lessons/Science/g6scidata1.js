@@ -400,7 +400,8 @@ const lessonPlans27a = [
   ]
 },
 
-// Lesson 5
+// Week 4
+// Lesson 1
 {
   "title": "Health Risks Associated with Early Sexual Debut",
   "school": "Flying Wings Academy",
@@ -411,8 +412,8 @@ const lessonPlans27a = [
   "topic": "Health Risks Associated with Early Sexual Debut",
   "grade": "Nimbus Navigators",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "5",
+  "week": "4",
+  "lessonNumber": "1",
   "description": "This lesson introduces learners to the concept of early sexual debut, helping them understand its health risks and the importance of making safe choices.",
   "materials": [
     "Pictures of healthy vs. unhealthy individuals",
@@ -452,9 +453,8 @@ const lessonPlans27a = [
     "By learning about the risks associated with early sexual debut, students will understand the importance of making informed and safe choices to protect their health."
   ]
 },
-	
-// Week 4
-// Lesson 1
+
+// Lesson 2
 {
   "title": "Sources of Vitamins and Minerals",
   "school": "Flying Wings Academy",
@@ -466,7 +466,7 @@ const lessonPlans27a = [
   "grade": "Nimbus Navigators",
   "term": "1",
   "week": "4",
-  "lessonNumber": "1",
+  "lessonNumber": "2",
   "description": "This lesson teaches students about different foods that provide essential vitamins and minerals, their importance in the body, and how to categorize foods based on their nutritional value.",
   "materials": [
     "Pictures or real food items",
@@ -507,22 +507,324 @@ const lessonPlans27a = [
   ]
 },
 
-// Lesson 2
-
 // Lesson 3
+{
+  "title": "The Importance of Food Labelling and Packaging",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Understanding Food Labelling and Packaging",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand the importance of food labelling and packaging, identify key information on food labels, and recognize the role of packaging in food safety and sustainability.",
+  "materials": [
+    "Various food packages (cereal box, juice bottle, snack wrapper, etc.)",
+    "Whiteboard and markers",
+    "Printed sample food labels"
+  ],
+  "objectives": [
+    "Students will understand the importance of food labelling and packaging.",
+    "Students will learn how to identify key information on food labels.",
+    "Students will recognize the role of packaging in food safety and sustainability."
+  ],
+  "rationale": [
+    "Understanding food labels helps students make informed choices about nutrition, health, and safety.",
+    "Recognizing different types of packaging helps students appreciate food preservation, hygiene, and environmental concerns."
+  ],
+  "methodology": [
+    "The lesson will use discussions, real-life examples, hands-on activities, and exercises to ensure students grasp the concepts of food labelling and packaging."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – What is Food Labelling and Packaging?</b>:<br><br>Discussion:<br>Ask students if they have ever read the labels on food products.<br><br>Definition:<br>Explain that food labelling refers to the information provided on food packaging, such as ingredients, expiry dates, and nutritional facts. Packaging refers to the material that holds and protects food items.<br><br>Examples:<br>Show different food packages (e.g., a cereal box, a juice bottle, a snack wrapper) and read out the labels.",
+      "<b>Part 2: Why is Food Labelling Important?</b>:<br><br>Health and Safety:<br>Labels help consumers make informed choices by listing ingredients and allergens (e.g., peanuts, dairy).<br><br>Nutritional Information:<br>Labels show the energy content (calories) and nutrients like carbohydrates, proteins, and vitamins, helping people eat a balanced diet.<br><br>Expiration Dates:<br>Best Before and Expiry Dates help consumers avoid spoiled food that could cause illness.<br><br>Regulations:<br>Governments require labels to ensure companies provide correct information.",
+      "<b>Part 3: Why is Food Packaging Important?</b>:<br><br>Protection:<br>Packaging keeps food fresh and prevents contamination from germs, dust, and chemicals.<br><br>Convenience:<br>Different packaging types (cans, cartons, plastic wraps) make food easier to store and transport.<br><br>Information Display:<br>Packaging provides space for labels, brand names, and usage instructions.<br><br>Environmental Impact:<br>Some packaging is recyclable or biodegradable, while others (like plastic) contribute to pollution.",
+      "<b>Part 4: How to Read a Food Label</b>:<br><br>Key Components:<br><br>Product Name:<br>Identifies the food item.<br><br>Ingredients List:<br>Shows what the food contains (ordered from most to least).<br><br>Nutritional Facts:<br>Includes calories, protein, fat, vitamins, etc.<br><br>Allergen Warnings:<br>Highlights common allergens.<br><br>Expiry Date:<br>Tells when the food should be consumed.<br><br>Storage Instructions:<br>Helps keep the food fresh for longer.<br><br>Activity:<br>Display a sample food label and guide students in reading it.",
+      "<b>Part 5: Exercise</b>:<br><br>1. Identify Information on Food Labels<br><br>Bring in empty food packages and ask students to find:<br>a) Expiry date<br>b) Nutritional information<br>c) Ingredients list<br>d) Allergen warnings<br><br>2. True or False:<br><br>Food labels are only for decoration. (False)<br>Expiry dates tell us when food is unsafe to eat. (True)<br>All packaged foods must have an ingredients list. (True)<br>Packaging is only about advertising and has no role in safety. (False)<br><br>3. Short Answer Questions:<br><br>Why is it important to read food labels before buying a product?<br>What are three things we can learn from a food label?<br>How does packaging help keep food safe?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and hands-on activities.",
+    "<b>Exercise</b>: The true or false and short answer questions will assess students’ understanding of food labelling and packaging."
+  ],
+  "conclusion": [
+    "Recap the key points about food labelling and packaging.",
+    "Encourage students to check labels when shopping with their families.",
+    "Discuss how they can reduce waste by choosing eco-friendly packaging."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Identifying Common Deficiency Diseases in the Community",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Common Deficiency Diseases",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "4",
+  "description": "By the end of the lesson, learners should be able to identify common deficiency diseases in their community, understand their causes, recognize symptoms, and discuss prevention methods.",
+  "materials": [
+    "Charts showing different deficiency diseases",
+    "Flashcards of food sources",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will be able to identify common deficiency diseases in their community.",
+    "Students will understand the causes of deficiency diseases.",
+    "Students will recognize the symptoms of different deficiency diseases.",
+    "Students will discuss ways to prevent deficiency diseases through proper nutrition."
+  ],
+  "rationale": [
+    "Deficiency diseases are common in many communities due to poor nutrition.",
+    "Understanding their causes and prevention helps students make healthier food choices.",
+    "Learning about symptoms enables early detection and treatment."
+  ],
+  "methodology": [
+    "The lesson will use discussions, real-life connections, and activities to enhance understanding of deficiency diseases."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b><br><br><b>Engagement Activity:</b><br>Begin by asking students: 'Have you ever heard of diseases caused by not eating certain types of food?'<br>Let students mention any health problems they know about in their community.<br>Explain that some diseases are caused by a lack of certain nutrients in the body. These are called deficiency diseases.<br><br><b>Key Concept:</b><br>The human body needs different types of nutrients to stay healthy.<br>If a person does not get enough of a particular nutrient, they may develop a deficiency disease.",
+      "<b>Part 2: Common Deficiency Diseases and Their Causes (15 minutes)</b><br><br><b>Discussion on Common Deficiency Diseases:</b><br>Discuss each disease briefly, mentioning how a person may get it in their community.",
+      "<b>Part 3: Symptoms and Effects of Deficiency Diseases (10 minutes)</b><br><br><b>Recognizing the Signs:</b><br>Rickets – Weak, soft bones; legs may become curved.<br>Scurvy – Bleeding gums, wounds take a long time to heal.<br>Beriberi – Weak muscles, difficulty walking, heart problems.<br>Night Blindness – Difficulty seeing in dim light.<br>Anemia – Feeling tired, pale skin, dizziness.<br>Goiter – Swelling in the neck, difficulty swallowing.<br><br><b>Real-Life Connection:</b><br>Ask students if they know anyone who has experienced these symptoms.<br>Discuss how these diseases affect daily life, like struggling to walk or having poor vision at night.",
+      "<b>Part 4: Prevention and Healthy Eating (10 minutes)</b><br><br><b>How to Prevent Deficiency Diseases:</b><br>Eat a balanced diet: Include fruits, vegetables, proteins, and dairy products.<br>Sunlight exposure: Go outside to help the body get Vitamin D.<br>Use iodized salt: Helps prevent goiter.<br>Drink milk and eat eggs: Good sources of calcium and Vitamin A.<br>Consume iron-rich foods: Eat leafy greens, beans, and meat to prevent anemia.<br><br><b>Activity:</b><br>Show students different food items and ask them to identify which nutrient they provide.<br>Example: Milk (Calcium and Vitamin D), Oranges (Vitamin C), Spinach (Iron).",
+      "<b>Part 5: Exercise (10 minutes)</b><br><br><b>Activity 1: Fill in the Blanks</b><br>1. The deficiency of Vitamin A causes ________.<br>2. A person with bleeding gums may have ________.<br>3. Eating _______ can prevent anemia.<br>4. Lack of sunlight can cause _______.<br>5. A swollen neck may be a sign of _______.<br><br><b>Activity 2: Matching Exercise</b><br>Match the disease with the correct cause:<br>1. Scurvy → a) Lack of Vitamin D<br>2. Rickets → b) Lack of Iron<br>3. Anemia → c) Lack of Vitamin C<br>4. Goiter → d) Lack of Iodine<br><br><b>Activity 3: Discussion Questions</b><br>What are some common foods found in our community that can help prevent deficiency diseases?<br>How can we encourage people to eat healthy foods?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise:</b> The fill-in-the-blanks and matching exercises will evaluate students’ understanding of deficiency diseases.",
+    "<b>Participation:</b> Students will be assessed based on their ability to connect real-life experiences with the lesson content."
+  ],
+  "conclusion": [
+    "Recap the lesson by asking students to name three deficiency diseases and their causes.",
+    "Emphasize the importance of a balanced diet in preventing these diseases.",
+    "Encourage students to share what they learned with their family members."
+  ],
+  "task": [
+    "Ask students to list the foods they ate yesterday and identify which nutrients they contain."
+  ]
+},
 
-// Lesson 5
-
-
-
-// Week 7
+// Week 5
 // Lesson 1
+{
+  "title": "Interpreting Children's Clinic Cards in Relation to Dietary Intake",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Interpreting Children's Clinic Cards",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students how to interpret children's clinic cards, understand dietary intake records, and make health recommendations based on the data.",
+  "materials": [
+    "Sample clinic cards (real or printed examples)",
+    "Whiteboard and markers",
+    "Growth charts",
+    "Nutrition guide"
+  ],
+  "objectives": [
+    "Understand the purpose of a children's clinic card.",
+    "Identify key sections on a clinic card related to dietary intake.",
+    "Analyze how dietary intake affects health as recorded on the clinic card.",
+    "Interpret real or sample clinic card data to make dietary recommendations."
+  ],
+  "rationale": [
+    "Clinic cards are valuable tools for tracking children's health and growth.",
+    "Understanding how to read clinic cards helps students make informed dietary choices.",
+    "Interpreting growth and dietary records can help prevent malnutrition and promote healthy eating habits."
+  ],
+  "methodology": [
+    "The lesson will include discussions, hands-on analysis of clinic cards, and case study evaluations."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Children's Clinic Cards</b>:<br><br>Discussion Questions:<br>What do we use a clinic card for?<br>Have you ever seen or used a clinic card? What information does it contain?<br><br>Key Points:<br>A children’s clinic card is a record used by health workers to track a child’s growth, vaccinations, and health status.<br>It contains important details such as weight, height, vaccinations, and sometimes dietary recommendations.<br>Clinic cards help doctors and nurses assess a child's health and development over time.<br><br>Activity:<br>Show students a sample clinic card (real or printed example) and discuss its main sections.",
+      "<b>Part 2: Identifying Key Sections Related to Dietary Intake</b>:<br><br>Key Sections to Focus On:<br>1. Weight and Height Records – Shows if a child is growing well.<br>2. Growth Chart – Tracks progress to see if the child is underweight, normal, or overweight.<br>3. Doctor/Nurse Notes – Sometimes include dietary advice like 'Needs more iron-rich foods' or 'Increase protein intake.'<br>4. Vitamin and Supplement Section – Shows if the child has been given important vitamins like Vitamin A or iron supplements.<br><br>Activity:<br>Give students a sample clinic card and ask them to find these key sections.<br>Discuss what they think these sections tell us about a child’s diet.",
+      "<b>Part 3: Analyzing How Diet Affects Health as Recorded on a Clinic Card</b>:<br><br>Discussion Points:<br><br>Good Nutrition vs. Poor Nutrition:<br>A well-balanced diet leads to good growth and overall health.<br>Poor nutrition can lead to problems like stunted growth, weakness, or frequent illnesses.<br><br>Signs of Poor Nutrition on a Clinic Card:<br>Low weight or slow growth may indicate poor diet or illness.<br>Doctor’s notes may suggest a child needs more protein, iron, or vitamins.<br>Frequent illnesses recorded may suggest a weak immune system due to poor diet.<br><br>Activity:<br>Discuss different cases (e.g., a child who is underweight, a child with normal growth, a child who is overweight).<br>Ask students to suggest what each child should eat to improve their health.",
+      "<b>Part 4: Interpreting Sample Clinic Card Data and Making Dietary Recommendations</b>:<br><br>Steps to Interpret Data:<br>1. Check the weight and height – Compare them with standard growth charts.<br>2. Look at doctor’s/nurse’s notes – See if there are concerns about nutrition.<br>3. Analyze vitamin/supplement records – Identify any deficiencies.<br>4. Make dietary recommendations – Suggest foods that can improve health.<br><br>Example Case:<br>A 7-year-old child weighs below the standard range for their age. The clinic card notes, 'Increase protein and iron intake.'<br><br>Discussion:<br>What foods should this child eat more of? (Eggs, beans, fish, meat, leafy vegetables)<br>Why is iron important? (Prevents anemia, gives energy)<br>How can we make sure children eat a balanced diet?",
+      "<b>Part 5: Exercise – Clinic Card Interpretation Activity</b>:<br><br>Instructions:<br>1. Provide a sample clinic card to students.<br>2. Ask them to answer these questions:<br>What does the growth chart indicate about the child’s health?<br>Are there any dietary recommendations from the doctor/nurse?<br>What foods should the child eat to improve their health?<br><br>3. Have students discuss their findings in small groups and share with the class."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: Students will analyze a sample clinic card and answer questions to assess their understanding."
+  ],
+  "conclusion": [
+    "Clinic cards help track children's growth and health, providing valuable information about their nutrition.",
+    "By interpreting clinic card data, we can make dietary recommendations to improve children's health.",
+    "Encourage students to ask their parents or guardians about their own clinic records and discuss their growth history."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "How Substance Abuse Can Ruin Lives",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Impact of Substance Abuse",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson helps students understand substance abuse, its effects on individuals, families, and society, and ways to prevent it.",
+  "materials": [
+    "Pictures or videos of harmful substances",
+    "Whiteboard and markers",
+    "Poster-making materials"
+  ],
+  "objectives": [
+    "Understand what substance abuse is.",
+    "Identify the negative effects of substance abuse on individuals.",
+    "Explain how substance abuse affects families and society.",
+    "Suggest ways to prevent substance abuse."
+  ],
+  "rationale": [
+    "Understanding the dangers of substance abuse equips students with knowledge to make healthy choices and avoid harmful behaviors.",
+    "Students will recognize the impact of substance abuse on individuals, families, and communities, encouraging responsible decision-making."
+  ],
+  "methodology": [
+    "The lesson will use discussions, real-life examples, role-play, and poster-making to engage students in learning about substance abuse."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Substance Abuse?</b>:<br><br>Discussion:<br>Ask students if they have heard the term 'substance abuse.'<br>Explain that substance abuse means using harmful substances (such as drugs, alcohol, and tobacco) in ways that damage a person’s health and life.<br>Provide examples: Smoking cigarettes, drinking too much alcohol, or using illegal drugs like cocaine or marijuana.<br>Explain that some medicines can also be abused if not taken correctly.<br><br>Activity:<br>Show pictures or videos (if available) of common harmful substances.<br>Ask students to list any harmful substances they have heard about.",
+      "<b>Part 2: How Substance Abuse Affects a Person</b>:<br><br>Discussion:<br>Explain that substance abuse harms the body and mind.<br><br>Effects on health:<br>- Weakens the body, leading to diseases like lung cancer or liver failure.<br>- Affects brain function, making it hard to think clearly.<br>- Causes addiction, meaning a person cannot stop using the substance even when it harms them.<br><br>Real-Life Examples:<br>Share a short story or example of someone who became sick because of substance abuse.<br><br>Activity:<br>Ask students to brainstorm how using harmful substances might affect school performance, friendships, and daily activities.",
+      "<b>Part 3: How Substance Abuse Affects Families and Society</b>:<br><br>Discussion:<br>A person who abuses substances may start behaving badly, stealing, or getting into trouble with the police.<br>Families suffer because of stress, arguments, and money problems.<br>Society is affected because substance abuse increases crime, unemployment, and poor health in communities.<br><br>Activity:<br>Role-play: Divide students into groups and give each group a scenario where a family is affected by substance abuse. Each group acts out the situation and finds possible solutions.",
+      "<b>Part 4: Preventing Substance Abuse</b>:<br><br>Discussion:<br>The best way to avoid the dangers of substance abuse is prevention.<br><br>Ways to prevent substance abuse:<br>- Saying NO to drugs, alcohol, and smoking.<br>- Choosing healthy activities like sports and hobbies.<br>- Surrounding yourself with positive friends.<br>- Talking to a trusted adult when feeling pressured.<br><br>Activity:<br>Create posters with anti-drug messages and display them in class.",
+      "<b>Part 5: Exercise & Assessment</b>:<br><br>1. <b>Multiple Choice Questions:</b><br>a) What is substance abuse?<br>A) Using substances in the right way<br>B) Using harmful substances in a way that damages health and life<br>C) Eating healthy foods<br><br>b) How does substance abuse affect the brain?<br>A) Makes thinking clearer<br>B) Causes addiction and poor decisions<br>C) Improves memory<br><br>c) One way to avoid substance abuse is:<br>A) Saying no to harmful substances<br>B) Stealing money to buy drugs<br>C) Staying with friends who use drugs<br><br>2. <b>Short Answer Questions:</b><br>- Name two harmful substances that people abuse.<br>- Give one way substance abuse affects families.<br>- List two ways to prevent substance abuse.<br><br>3. <b>Class Discussion:</b><br>What should you do if a friend offers you a harmful substance?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions, role-plays, and activities.",
+    "<b>Exercise</b>: The multiple-choice and short-answer questions will assess students' understanding of substance abuse and its effects."
+  ],
+  "conclusion": [
+    "Recap the main points discussed in class.",
+    "Encourage students to make healthy choices and avoid harmful substances.",
+    "Remind them that their future is in their hands, and avoiding substance abuse is one of the best decisions they can make."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Helping Substance Addicts",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Helping Substance Addicts",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand the different ways substance addicts can be helped, including medical treatment, counseling, family and community support, and self-discipline.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed discussion questions",
+    "Pictures or charts on addiction and recovery"
+  ],
+  "objectives": [
+    "Students will understand what substance addiction is and how it affects people.",
+    "Students will learn about medical treatment and counseling for addicts.",
+    "Students will discuss the role of family and community in helping addicts recover.",
+    "Students will explore the importance of self-discipline in staying addiction-free."
+  ],
+  "rationale": [
+    "Understanding how to help substance addicts encourages students to develop compassion and awareness of the support systems available for recovery."
+  ],
+  "methodology": [
+    "The lesson will use discussions, role-playing, and written exercises to help students engage with the topic of addiction and recovery."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Substance Addiction</b>:<br><br>Discussion:<br>Ask students what they think 'substance addiction' means.<br>Explain that substance addiction is when someone becomes dependent on harmful substances like drugs or alcohol.<br>Discuss how addiction affects the body, mind, and relationships.<br><br>Key Points:<br>Addiction can harm a person’s health, leading to diseases and mental health issues.<br>It can damage relationships with family and friends.<br>It can make it difficult for people to focus on school, work, or daily responsibilities.",
+      "<b>Part 2: Medical Treatment and Counseling</b>:<br><br>Discussion:<br>Explain that addiction is a disease, and just like other diseases, it can be treated.<br>Talk about rehabilitation centers where people get medical treatment to help them stop using harmful substances.<br>Introduce the idea of counseling and therapy, where professionals help addicts understand and overcome their addiction.<br><br>Key Points:<br>Medical doctors can help treat withdrawal symptoms.<br>Counselors and psychologists can provide therapy to help addicts change their behavior.<br>Medications can sometimes be used to reduce cravings.<br><br>Activity:<br>Ask students to imagine they are doctors or counselors.<br>Have them write down one piece of advice they would give to someone struggling with addiction.",
+      "<b>Part 3: Family and Community Support</b>:<br><br>Discussion:<br>Explain that addicts need encouragement and support from their families and communities.<br>Talk about support groups where addicts meet others who are also trying to recover.<br>Discuss how friends and family should avoid judging or shaming addicts but instead help them stay strong.<br><br>Key Points:<br>Family members should encourage addicts to seek help.<br>Support groups like Alcoholics Anonymous (AA) and Narcotics Anonymous (NA) can provide help.<br>The community can offer programs and activities to keep people away from drugs and alcohol.<br><br>Activity:<br>Have students think about ways their community can help prevent addiction.<br>Let them suggest ideas, such as organizing sports, music, or educational activities.",
+      "<b>Part 4: Self-Discipline and Personal Responsibility</b>:<br><br>Discussion:<br>Explain that recovering addicts need self-discipline to stay away from harmful substances.<br>Discuss the importance of setting goals and finding positive hobbies.<br>Talk about choosing the right friends and staying in environments that encourage good behavior.<br><br>Key Points:<br>Addicts must make a personal decision to change.<br>They should focus on positive activities like sports, music, or learning new skills.<br>Avoiding bad influences and peer pressure is important.<br><br>Activity:<br>Ask students to list three healthy habits that can help someone stay away from addiction.",
+      "<b>Part 5: Exercise (Application & Reflection)</b>:<br><br>1. <b>Match the Correct Answer:</b><br> - Addiction → (A) A strong and harmful dependence on a substance.<br> - Rehabilitation → (B) A place where addicts get medical and emotional help.<br> - Support Groups → (C) Meetings where addicts encourage each other to recover.<br> - Self-Discipline → (D) The ability to control oneself and avoid bad habits.<br><br>2. <b>Short Answer Questions:</b><br> - What is substance addiction?<br> - Name two ways addicts can get medical help.<br> - Why is family support important for recovery?<br> - Give one example of a good habit that helps prevent addiction.<br><br>3. <b>Group Discussion:</b><br>In small groups, students will discuss a scenario:<br>A young person is struggling with substance addiction. What steps can their family, friends, and community take to help them recover?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The matching and short-answer questions will evaluate students' understanding of how to help substance addicts."
+  ],
+  "conclusion": [
+    "Recap the four key ways to help substance addicts: medical treatment, counseling, family/community support, and self-discipline.",
+    "Encourage students to make good life choices and support others in need."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "The Challenges of Living with HIV and AIDS",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, January 29, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Challenges of Living with HIV and AIDS",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the challenges of living with HIV and AIDS, focusing on the emotional, physical, and social impacts of the condition.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts on HIV and AIDS",
+    "Posters about HIV and AIDS prevention"
+  ],
+  "objectives": [
+    "Students will understand the definition of HIV and AIDS and how HIV is transmitted.",
+    "Students will learn about the emotional, physical, and social challenges faced by individuals living with HIV.",
+    "Students will be able to discuss ways to support those living with HIV and AIDS and reduce stigma."
+  ],
+  "rationale": [
+    "Learning about HIV and AIDS helps students develop empathy and awareness about the challenges faced by individuals with the condition, promoting a supportive and informed community."
+  ],
+  "methodology": [
+    "The lesson will involve discussions, group exercises, and reflection to help students understand the personal and societal impacts of HIV and AIDS."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to HIV and AIDS</b>:<br><br>Definition:<br>HIV (Human Immunodeficiency Virus) is a virus that attacks the body’s immune system, making it harder for the body to fight infections and diseases.<br>AIDS (Acquired Immunodeficiency Syndrome) is the final stage of HIV infection, where the immune system becomes severely weakened, and the body can no longer fight off serious infections.<br><br>How HIV is transmitted:<br>HIV can be transmitted through blood, sexual contact, sharing needles, and from mother to child during childbirth or breastfeeding.<br><br>Symptoms of HIV and AIDS:<br>Early symptoms may include fever, fatigue, and swollen lymph nodes. In the later stages of AIDS, individuals may experience severe weight loss, infections, and certain cancers.",
+      "<b>Part 2: Challenges of Living with HIV</b>:<br><br>Stigma and Discrimination:<br>People living with HIV may face discrimination from others, as some might have negative attitudes or misconceptions about the virus. This can lead to feelings of shame, isolation, and exclusion.<br><br>Exercise: Discuss examples of how stigma might affect individuals in the classroom or community.<br><br>Emotional and Mental Health Struggles:<br>HIV-positive individuals might feel anxiety, depression, or fear of their health deteriorating. They may struggle with self-esteem and have concerns about their future.<br><br>Exercise: Discuss how negative thoughts can affect one's overall well-being and share ways to cope with these feelings.",
+      "<b>Part 3: The Physical Health Challenges</b>:<br><br>Dealing with Illnesses:<br>People living with HIV are more susceptible to infections, as their immune system is weakened. This makes even simple infections more dangerous.<br><br>Treatment and Medication:<br>While there is no cure for HIV, antiretroviral therapy (ART) can help manage the virus, but it requires lifelong medication and consistent doctor visits.<br><br>Side Effects of Medication:<br>ART can have side effects such as nausea, dizziness, and fatigue. This can be challenging for individuals trying to maintain their daily lives.<br><br>Long-term Health Monitoring:<br>People with HIV need to regularly visit healthcare providers to monitor their health and adjust treatment as necessary.",
+      "<b>Part 4: Social and Financial Impacts</b>:<br><br>Economic Challenges:<br>The cost of treatment, doctor visits, and medications can be a significant financial burden for individuals and families.<br><br>Loss of Employment and Support:<br>Some individuals with AIDS might be too ill to work, leading to a loss of income. In some cases, people may lose their jobs because of their health status.<br><br>Exercise: Discuss how economic challenges might affect a family and how they can seek support from community organizations or government programs.",
+      "<b>Part 5: Exercise: Group Discussion and Reflection</b>:<br><br>Activity:<br>Break students into small groups and have them discuss how they might support a friend or family member living with HIV. Encourage them to think about emotional, physical, and social support they can offer.<br><br>After the discussion, each group should present their ideas to the class.<br><br>Reflection: Ask students to reflect on the importance of supporting those living with HIV and AIDS and how education and awareness can help reduce stigma in the community."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and group activities.",
+    "<b>Exercise</b>: The group discussions and reflections will be used to assess students' understanding of the challenges faced by individuals living with HIV and AIDS and how to support them."
+  ],
+  "conclusion": [
+    "By understanding the challenges of living with HIV and AIDS, students will develop empathy, reduce stigma, and recognize the importance of support and education in improving the lives of those affected by the virus."
+  ]
+},
 
 // Lesson 4
 
