@@ -4,46 +4,55 @@
      // Term One (1)
             { 
                name: "School Opens", 
-               date: new Date("Jan 8, 2024 08:00:00").getTime(), 
+               date: new Date("Jan 8, 2025 08:00:00").getTime(), 
                reminderDays: 2, 
                reminderHours: 12, 
                caption: "School Opens", 
-               details: "Description of KEMD Inductions", 
-               imageUrl: "images/KEMD Inductions.jpg" 
+               details: "School Opens without Baby Birds, Feather Flyers and Sky Soarers", 
+               imageUrl: "images/schoolOpens.jpg" 
             },
      
      
-             { name: "KEMD Adventurer Bible Quiz", 
-               date: new Date("Feb 25, 2024 08:00:00").getTime(), 
+             { name: "Second Opening", 
+               date: new Date("Feb 10, 2025 08:00:00").getTime(), 
                reminderDays: 2, reminderHours: 12,
-               caption: "KEMD Adventurer Bible Quiz", 
-               details: "Description of KEMD Adventurer Bible Quiz", 
-               imageUrl: "images/KEMD Adventurer Bible Quiz.jpg" 
+               caption: "Second Opening", 
+               details: "The other classes open", 
+               imageUrl: "images/2Opening.jpg" 
              },
      
-             { name: "MEZC Leadership Seminar", 
-               date: new Date("Mar 7, 2024 08:00:00").getTime(), 
+             { name: "Valentine Special", 
+               date: new Date("Mar 7, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
-               caption: "MEZC Leadership Seminar", 
-               details: "Description of MEZC Leadership Seminar", 
-               imageUrl: "images/MEZC Leadership Seminar.jpg" 
+               caption: "Valentine Special", 
+               details: "We will have a special valentine day with the children. Only K30.", 
+               imageUrl: "images/valentineSpecial.jpg" 
              },
      
-             { name: "MEZC GYD Part 1", 
-               date: new Date("Mar 12, 2024 08:00:00").getTime(), 
+             { name: "Mid Tests", 
+               date: new Date("Feb 17, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
-               caption: "MEZC GYD Part 1", 
-               details: "Description of MEZC GYD Part 1", 
-               imageUrl: "images/MEZC GYD Part 1.jpg" 
+               caption: "Mid Tests", 
+               details: "The onset of Mid term tests.", 
+               imageUrl: "images/midTests.jpg" 
              },
      
-             { name: "MEZC GYD Part 2", 
-               date: new Date("Mar 16, 2024 08:00:00").getTime(), 
+             { name: "Cultural Appreciation", 
+               date: new Date("Mar 14, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
-               caption: "MEZC GYD Part 2", 
-               details: "Description of MEZC GYD Part 2", 
-               imageUrl: "images/MEZC GYD Part 2.jpg" 
+               caption: "Cultural Appreciation", 
+               details: "We will have a day to appreciate our cultural dishes. Payments will be K50, K75 and 100 for parents with 1, 2 and 3 children respectively.", 
+               imageUrl: "images/week7.jpg"
              },
+
+             { name: "End Tests", 
+               date: new Date("Mar 17, 2025 08:00:00").getTime(), 
+               reminderDays: 3, reminderHours: 12,
+               caption: "End Tests", 
+               details: "Onset of end term assessments.", 
+               imageUrl: "images/endTests.jpg"
+             },
+
      
      // Term Two (2)
              { name: "School Opens", 
