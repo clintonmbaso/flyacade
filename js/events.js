@@ -22,7 +22,7 @@
              },
      
              { name: "Valentine Special", 
-               date: new Date("Mar 7, 2025 08:00:00").getTime(), 
+               date: new Date("Feb 14, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "Valentine Special", 
                details: "We will have a special valentine day with the children. Only K30.", 
