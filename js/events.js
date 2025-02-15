@@ -42,14 +42,14 @@
                reminderDays: 3, reminderHours: 12,
                caption: "Cultural Appreciation", 
                details: "We will have a day to appreciate our cultural dishes. Payments will be K50, K75 and 100 for parents with 1, 2 and 3 children respectively.", 
-               imageUrl: "images/week7.jpg"
+               imageUrl: "images/culturalAppreciation.jpg"
              },
 
              { name: "End Tests", 
                date: new Date("Mar 17, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "End Tests", 
-               details: "Onset of end term assessments.", 
+               details: "Onset of End Term Assessments.", 
                imageUrl: "images/endTests.jpg"
              },
 
@@ -60,7 +60,7 @@
                reminderDays: 3, reminderHours: 12,
                caption: "School Opens", 
                details: "Description of Youth Week of Prayer", 
-               imageUrl: "images/Youth Week of Prayer.jpg" 
+               imageUrl: "images/weekPrayer.jpg" 
              },
 
              { name: "Mid Assessments", 
