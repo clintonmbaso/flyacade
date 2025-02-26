@@ -1,94 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers Hub | Flying Wings Academy</title>
+    <link rel="stylesheet" href="teachers.css">
+    <link rel="stylesheet" href="../flyacade.css">
+    <link rel="stylesheet" href="../flychurch.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../indexes.css">
     
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-4SGB13276C');
-</script>
-  
-  
-  
-<meta charset="utf-8">
-<title>Flying Wings Academy | Home</title>
-<meta name="description" content="This is the website for flying wings academy">
-<meta name="keywords" content="School; Academy; Flying; Wings; ">
-<meta name="author" content="Mbaso Clint">
-<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="FWA.ico" rel="shortcut icon" type="image/x-icon">
-<link href="owl.carousel.min.css" rel="stylesheet">
-<link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-<link href="flyacade.css" rel="stylesheet">
-<link href="teaching_hub.css" rel="stylesheet">
-<script src="jquery-1.12.4.min.js"></script>
-<script src="wb.animatesvg.min.js"></script>
-<script src="popper.min.js"></script>
-<script src="bootstrap.min.js"></script>
-<script src="skrollr.min.js"></script>
-<script src="owl.carousel.min.js"></script>
-<script src="wb.parallax.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="searchindex.js"></script>
-<script src="wb.sitesearch.min.js"></script>
+    <script src="../jquery-1.12.4.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <script src="../js/first.js"></script>
+    <script src="../js/second.js"></script>
+    <script src="../js/third.js"></script>
+    
+    <style>
+           .logoset {
+            width: 70px;
+            height: auto;
+            background-color: rgba(55,55,55,0.1);
+            border-radius: 10px 0px 0px 10px;
+            padding: 2px 3px; /* Add padding around the text */
+        }
+    
+        /* NAVIGATION PANEL */
+        #PanelLayer {
+            position: fixed;
+            top: 0;
+            left: -400px; /* Initially hidden */
+            width: 50px;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.6);
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            transition: left 0.3s ease-in-out;
+            overflow-y: auto;
+            z-index: 1100;
+            padding: 20px;
+            color: white;
+        }
 
-<script src="js/devotional.js"></script>
-<script src="js/devotionals.js"></script>
-<script src="js/first.js"></script>
-<script src="wwb18.min.js"></script>
-<script src="js/second.js"></script>
-<script src="js/third.js"></script>
+        /* Show the panel when active */
+        #PanelLayer.active {
+            left: 0;
+        }
 
-<style>
-.popupMenuz {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  z-index: 1;
-}
+        #PanelLayer h2 {
+            text-align: center;
+            color: #FFA500;
+        }
 
-.popupMenuz a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+        #PanelLayer ul {
+            list-style: none;
+            padding: 0;
+        }
 
-.popupMenuz a:hover {
-  background-color: #f1f1f1;
-}
+        #PanelLayer ul li {
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
 
-#regicons {
-  width: 50px;
-  height: auto;
-}
-</style>
+        #PanelLayer ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
 
+        /* Close Button */
+        #closePanel {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 54px;
+            cursor: pointer;
+            color: white;
+            z-index: 1100;
+        }
+
+        /* Hamburger Menu */
+        #menuPanel {
+            position: fixed;
+            top: 30px;
+            left: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #fff;
+            z-index: 1100;
+        }
+
+    </style>
 </head>
 <body>
-   <div id="FlexContainer2">
-      <div id="PanelLayer">
-         <div id="wb_IconFont2">
-            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
-         </div>
-         <div id="wb_Image1">
-            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
-         </div>
-         <div id="wb_Heading20">
-            <h2 id="Heading20">Flying Wings Academy</h2>
-         </div>
-         <div id="wb_OverlayMenu2">
-            <div class="OverlayMenu2">
-               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+
+    <!-- HAMBURGER MENU BUTTON -->
+    <div id="menuPanel">&#9776;</div>
+
+    <!-- NAVIGATION PANEL -->
+    <div id="PanelLayer">
+        <div id="closePanel">&times;</div>
+        <h2>Flying Wings Academy</h2>
+        <ul>
                   <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fas fa-clipboard-list" style="font-size: 15px;margin-right:20px;margin-left:-50px;"></i>Quiz&nbsp;Pool</a></li>
                   <li><a role="menuitem" href="http://flyacade.com.preview.services/Teachers/login.php" class="OverlayMenu2-effect"><i class="fas fa-users" style="font-size: 15px;margin-right:20px;margin-left:-50px;"></i>Teachers&nbsp;Logins</a></li>
                   <li><a role="menuitem" href="http://flyacade.com.preview.services/enrollment/enrollment.html" class="OverlayMenu2-effect"><i class="fas fa-user-plus" style="font-size: 15px;margin-right:20px;margin-left:-50px;"></i>Enrollments</a></li>
@@ -102,75 +115,52 @@
                   <li><a role="menuitem" href="./Study_Centre.html" onclick="window.location.href='./Study_Centre.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon" style="font-size: 15px;margin-right:20px;margin-left:-50px;"></i>Study Centre</a></li>
                   <li><a role="menuitem" href="./Lessons/masterTimetable.html" onclick="window.location.href='./Lessons/masterTimetable.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fas fa-handshake" style="font-size: 15px;margin-right:20px;margin-left:-50px;"></i>Time&nbsp;Table</a></li>
                   <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon" style="font-size: 15px;margin-right:20px;margin-left:-50px;"></i>Contact&nbsp;Us</a></li>
-               </ul>
-            </div>
-         </div>
-         <div id="wb_Text40">
-            <span style="color:#FFA500;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-         </div>
-      </div>
-      <div id="wb_HeaderLayoutGrid">
-         <div id="HeaderLayoutGrid">
-            <div class="row">
-               <div class="col-1">
-                  <div id="wb_home_logo">
-                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
-                  </div>
-               </div>
-               <div class="col-2">
-                  <div id="wb_Header">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text3">
-                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text2">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text5">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text1">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text4">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text6">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
-                  </div>
-               </div>
-               <div class="col-3">
-                  <div id="wb_menuPanel">
-                     <a href="#PanelLayer" id="menuPanel">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+        </ul>
+    </div>
+    <!-- Navigation Bar -->
+    <header>
+    <div class="container">
+          <img class="logoz" src="../images/Flying_Wings_Academy.png" alt="topLogo">
+<h5 style="margin-right:25px;"><span style="color: green;">Flying Wings</span><span style="color: white;"> - </span><span style="color: orange;">Academy</span></h5>
+    </div>
+          
+          <hr>
+          <div class="allLogos">
+        <img src="../images/Classes_1.png" alt="Logo 1" class="logos">
+        <img src="../images/Classes_2.png" alt="Logo 2" class="logos">
+        <img src="../images/Classes_3.png" alt="Logo 3" class="logos">
+        <img src="../images/Classes_4.png" alt="Logo 4" class="logos">
+        <img src="../images/Classes_5.png" alt="Logo 5" class="logos">
+        <img src="../images/Classes_6.png" alt="Logo 6" class="logos">
+        <img src="../images/Classes_7.png" alt="Logo 7" class="logos">
+        <img src="../images/Classes_8.png" alt="Logo 8" class="logos">
+        <img src="../images/Classes_9.png" alt="Logo 9" class="logos">
+</div>
    </div>
- 
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-   <div id="wb_toplinksLayoutGrid">
-      <div id="toplinksLayoutGrid">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_mainHeading">
-                  <h3 id="mainHeading">Our Teaching Hub</h3>
-               </div>
-               <div id="introFlexContainer">
-                  <div id="wb_introText">
-                     <span style="color:#000000;font-family:'MS Serif';font-size:13px;">
+                
+                
+                
+    </div>
+    <div class="nav-container">
+          <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="../Lessons/weeklyFocust.html">Schemes</a></li>
+                <li><a href="../Lessons/Lesson Plan.html">Plans</a></li>
+                <li><a href="#" id="menuLinkz">Registers</a></li>
+                <li><a href="Tests/testing_hub.html">Tests</a></li>
+                <li><a href="http://flyacade.com.preview.services/gallery/gallery.php">Gallery</a></li>
+                <li><a href="regist">Resources</a></li>
+                <li><a href="#donate">Chat</a></li>
+                <li><a href="#contact">About Us</a></li>
+          </ul>
+    </div>
+    </header>
+      
+      
+    <!-- MAIN CONTENT -->
+               <section class="banner"><br><br><br><br><br><br><br><br><br>
+                  <h1>Our Teaching Hub</h1><br>
+                     <p style="color:#000000;font-family:'MS Serif';font-size:13px;text-align:center;margin:10px;">
                        This is a comprehensive resource 
                        offering insights, strategies, and tools 
                        for educators. It covers diverse 
@@ -185,419 +175,116 @@
                        educators seeking professional 
                        development and inspiration in their 
                        teaching journey.
-                       
-                       
-
-                       
-                      
-                       
-                       
-                           </span>
-                  </div>
-               </div>
+                           </p>
+                  </section>
+               
               
                   <marquee direction="left" scrolldelay="200" scrollamount="4" behavior="scroll" loop="0" id="shaelynMbaso1" onmouseover="this.stop()" onmouseout="this.start()"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">Register your child and experience the flying touch.</span></marquee>
 
-               <div id="wb_socialLayoutGrid">
-                  <div id="socialLayoutGrid">
-                     <div class="row">
-                        <div class="col-1">
-                           <div id="wb_Icon1">
-                              <a href="https://www.facebook.com/briclintons"><div id="Icon1"><i class="fa fa-facebook"></i></div></a>
-                           </div>
-                        </div>
-                        <div class="col-2">
-                           <div id="wb_whatsappIconFont">
-                              <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappIconFont"><i class="fa fa-whatsapp"></i></div></a>
-                           </div>
-                        </div>
-                        <div class="col-3">
-                           <div id="wb_emailIconFont">
-                              <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailIconFont"><i class="fa fa-envelope"></i></div></a>
-                           </div>
-                        </div>
-                        <div class="col-4">
-                           <div id="wb_callIconFont">
-                              <a href="tel:+260975273790"><div id="callIconFont"><i class="fa fa-volume-control-phone"></i></div></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-              
-              
-              
-               <div id="wb_alllinksFlexContainer">
-                  <div id="alllinksFlexContainer">
-                     <div id="alllinks">
-                        <div id="wb_linksTabMenu">
-                           <ul id="linksTabMenu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-                              <li><a href="Lessons/weeklyFocust.html" itemprop="url"><span itemprop="name">Schemes</span></a></li>
-                              <li><a href="Tests/testing_hub.html" itemprop="url"><span itemprop="name">Tests</span></a></li>
-                             
-                              <li><a href="#" id="menuLinkz">Lists</a></li>
-  <div id="popupMenuz" class="popupMenuz">
-  <a href="http://flyacade.com.preview.services/Register/Classes/baby.php"><img src="images/baby_class.png" id="regicons"> Baby Class</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/middle.php"><img src="images/middle_class.png" id="regicons"> Middle Class</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/reception.php"><img src="images/reception_class.jpg" id="regicons"> Reception Class</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/grade1.php"><img src="images/Grade_1.png" id="regicons"> Grade 1</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/grade2.php"><img src="images/Grade_2.jpg" id="regicons"> Grade 2</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/grade3.php"><img src="images/Grade_3.png" id="regicons"> Grade 3</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/grade4.php"><img src="images/Grade_4.png" id="regicons"> Grade 4</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/grade5.php"><img src="images/Grade_5.jpg" id="regicons"> Grade 5</a>
-  <a href="http://flyacade.com.preview.services/Register/Classes/grade6.php"><img src="images/Grade_6.png" id="regicons"> Grade 6</a>
-  <a href="http://flyacade.com.preview.services/Register/register.php"><img src="images/flyacade.png" id="regicons"> Master Register</a>
-</div>
-                             
-<script>
-document.addEventListener("click", function(event) {
-  var menu = document.getElementById("popupMenuz");
-  var menuLinkz = document.getElementById("menuLinkz");
-  
-  if (event.target !== menu && event.target !== menuLinkz && !menu.contains(event.target)) {
-    menu.style.display = "none";
-  }
-});
-
-document.getElementById("menuLinkz").addEventListener("click", function(event) {
-  event.preventDefault();
-  var menu = document.getElementById("popupMenuz");
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "block";
-  }
-});
-
-document.querySelectorAll("#popupMenuz a").forEach(function(link) {
-  link.addEventListener("click", function() {
-    var menu = document.getElementById("popupMenuz");
-    menu.style.display = "none";
-  });
-});
-
-</script>
-                              <li><a href="Lessons/Lesson Plan.html" itemprop="url"><span itemprop="name">Plans</span></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-              
- 
-  
-                 
-                  <div id="wb_classesFlexContainer">
-                     <div id="classesFlexContainer">
-                        <div id="wb_classeslayout">
-                           <div id="classeslayout">
-                              <div class="row">
-                                 <div class="col-1">
-                                    <div id="wb_prelogueclassesText">
-                             </div>
-                                   
-
-                                   
-                                   
-                                    <div id="wb_Heading1">
-                                       <h1 id="Heading1">OUR KEY LESSONS</h1>
-                                    </div>
-
-                                    <div id="wb_babyclassHeading">
-                                       <h3 id="babyclassHeading">TEACHING NUMBERS</h3>
-                                      
-
-
-                             
-                                   
-                                      
-                                      
-                                      
-                                    </div>
-                                    <div id="wb_babyclassImage">
-                                       <a href="#" onclick="showPopup('Baby Birds', 'Fostering the earliest stages of growth and discovery, just as baby birds learn to spread their wings and explore the world for the first time.', 'images/baby_class.png');return false;"><img src="images/baby_class.png" id="babyclassImage" alt="" width="613" height="384"></a>
-                                    </div>
-                                    <div id="wb_babyclassText">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">The baby class focuses on sensory exploration, motor skill development, and early social interactions. Infants learn through age-appropriate activities such as tummy time, grasping objects, and listening to simple sounds. The curriculum emphasizes fostering a secure attachment with caregivers. Parents can prepare by creating a safe environment, engaging in interactive play, and maintaining consistent routines to support their baby's overall development.</span>
-                                    </div>
-                                    <div id="wb_middleclassHeading">
-                                       <h3 id="middleclassHeading">TEACHING LETTERS</h3>
-                                    </div>
-                                    <div id="wb_middleclassImage">
-                                       <a href="#" onclick="showPopup('Sky Sprouts', 'Cultivating young minds that are beginning to sprout and reach towards the vast possibilities of knowledge and imagination.', 'images/middle_class.png');return false;"><img src="images/middle_class.png" id="middleclassImage" alt="" width="613" height="409"></a>
-                                    </div>
-                                    <div id="wb_middleclassText">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">In the middle class, children build foundational skills through structured play and basic education. Curriculum includes early literacy, numeracy, and socialization. Activities promote cognitive development, creativity, and teamwork. Parents can aid by encouraging curiosity, reinforcing positive behavior, and fostering a love for learning through interactive experiences and age-appropriate challenges.</span>
-                                    </div>
-                                    <div id="wb_receptionclassHeading">
-                                       <h3 id="receptionclassHeading">MONOGRAPHS</h3>
-                                    </div>
-                                    <div id="wb_receptionclassImage">
-                                       <a href="#" onclick="showPopup('Nestlings Navigators', 'Guiding the youngest learners as they navigate through foundational experiences, mirroring how nestlings navigate within the safety of their nests.', 'images/reception_class.jpg');return false;"><img src="images/reception_class.jpg" id="receptionclassImage" alt="" width="613" height="460"></a>
-                                    </div>
-                                    <div id="wb_receptionclassText">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Reception class marks the start of formal education. Children learn fundamental literacy and numeracy skills, including reading, writing, and basic arithmetic. The curriculum incorporates structured play, fostering social skills and independence. Topics cover a range of subjects, encouraging exploration and critical thinking. Parents can support by reinforcing learning at home, engaging in educational activities, and maintaining open communication with teachers for holistic development.</span>
-                                    </div>
-                                    <div id="wb_grade1Heading">
-                                       <h3 id="grade1Heading">DIGRAPHS</h3>
-                                    </div>
-                                    <div id="wb_grade1Image">
-                                       <a href="#" onclick="showPopup('Feather Flyers', 'Encouraging students to embrace their individuality and take flight in their learning journeys, much like birds with unique feathers soaring through the skies.', 'images/grade_1.png');return false;"><img src="images/grade_1.png" id="grade1Image" alt="" width="613" height="409"></a>
-                                    </div>
-                                    <div id="wb_grade1Text">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Grade 1 introduces more structured learning, emphasizing core subjects like language arts, mathematics, and science. Students develop reading fluency, basic math concepts, and critical thinking skills. Classroom activities promote collaboration and independent study habits. Parents play a crucial role by establishing a consistent homework routine, encouraging a love for reading, and communicating with teachers to monitor academic progress and address any challenges.</span>
-                                    </div>
-                                    <div id="wb_grade2Heading">
-                                       <h3 id="grade2Heading">TRIGRAPHS</h3>
-                                    </div>
-                                    <div id="wb_grade2Image">
-                                       <a href="#" onclick="showPopup('Cloud Chicks', 'Inspiring a sense of wonder and creativity, akin to chicks floating on clouds, fostering an environment where imagination takes flight.', 'images/grade_2.jpg');return false;"><img src="images/grade_2.jpg" id="grade2Image" alt="" width="613" height="345"></a>
-                                    </div>
-                                    <div id="wb_grade2Text">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">In Grade 2, students build on foundational skills, deepening their understanding of language, mathematics, and science. The curriculum introduces more complex concepts, such as sentence structure and basic multiplication. Emphasis is placed on developing strong study habits and problem-solving abilities. Engaging in extracurricular activities and maintaining a supportive home environment enhances overall academic growth. Regular communication with teachers helps address specific learning needs and reinforces a collaborative approach to education.</span>
-                                    </div>
-                                    <div id="wb_grade3Heading">
-                                       <h3 id="grade3Heading">QUADROGRAPHS</h3>
-                                    </div>
-                                    <div id="wb_grade3Image">
-                                       <a href="#" onclick="showPopup('Wing Whiz', 'Focusing on the development of skills and knowledge, equipping students to become knowledgeable whizzes in various subjects, just as birds master the art of flight.', 'images/grade_3.png');return false;"><img src="images/grade_3.png" id="grade3Image" alt="" width="613" height="406"></a>
-                                    </div>
-                                    <div id="wb_grade3Text">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Grade 3 expands on core subjects, emphasizing advanced reading comprehension, multiplication/division, and science exploration. Students engage in more independent research and projects, fostering critical thinking. The curriculum encourages creativity through writing and expands knowledge in various subjects. Parents can support by encouraging a curious mindset, aiding with organization skills, and participating in educational activities. Open communication with teachers remains crucial for tracking progress and addressing any academic concerns.</span>
-                                    </div>
-                                    <div id="wb_grade4Heading">
-                                       <h3 id="grade4Heading">SILENTS</h3>
-                                    </div>
-                                    <div id="wb_grade4Image">
-                                       <a href="#" onclick="showPopup('Sky Soarers', 'Encouraging students to aim high and reach for the skies in their academic pursuits, mirroring the graceful flight of birds soaring through the boundless sky.', 'images/grade_4.png');return false;"><img src="images/grade_4.png" id="grade4Image" alt="" width="613" height="387"></a>
-                                    </div>
-                                    <div id="wb_grade4Text">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">In Grade 4, students delve deeper into subjects like language arts, mathematics, and science. They refine writing skills, tackle more complex mathematical concepts, and explore diverse scientific topics. The curriculum often includes social studies and introduces basic research skills. Emphasis is placed on independent learning and collaborative projects. Parents can assist by fostering a love for learning, encouraging responsibility, and supporting the development of effective study habits. Regular communication with teachers helps ensure academic success.</span>
-                                    </div>
-                                    <div id="wb_grade5Heading">
-                                       <h3 id="grade5Heading">VALUES</h3>
-                                    </div>
-                                    <div id="wb_grade5Image">
-                                       <a href="#" onclick="showPopup('Avian Aces', 'Recognizing and celebrating the excellence of students, likening their achievements to the mastery of aces among the avian community.', 'images/grade_5.jpg');return false;"><img src="images/grade_5.jpg" id="grade5Image" alt="" width="613" height="409"></a>
-                                    </div>
-                                    <div id="wb_grade5Text">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Grade 5 introduces advanced concepts in language arts, mathematics, science, and social studies. Students deepen their critical thinking and analytical skills, tackling more sophisticated topics. The curriculum often includes project-based learning, fostering creativity and independent research. Developing effective time management becomes crucial for handling increased workload. Parents can support by promoting self-discipline, facilitating a conducive study environment, and engaging in discussions to enhance understanding. Collaboration with teachers remains essential for monitoring progress and addressing challenges.</span>
-                                    </div>
-                                    <div id="wb_Heading3">
-                                       <h3 id="Heading3">WORKSHEETS</h3>
-                                    </div>
-                                    <div id="wb_Image2">
-                                       <a href="#" onclick="showPopup('Nimbus Navigators', 'Nurturing a sense of exploration and discovery, paralleling how nimbus clouds guide students through the educational journey with a touch of enchantment.', 'images/grade_6.png');return false;"><img src="images/grade_6.png" id="Image2" alt="" width="613" height="426"></a>
-                                    </div>
-                                    <div id="wb_Text8">
-                                       <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Grade 6 marks the transition to middle school with a comprehensive curriculum. Students delve into advanced language arts, mathematics, science, and social studies. They refine research and presentation skills through complex projects. Critical thinking is honed, and independence in learning is encouraged. The curriculum may include introductory subjects like foreign languages. Parents play a vital role by fostering organizational skills, supporting time management, and maintaining open communication with teachers to ensure a smooth academic progression.</span>
-                                    </div>
-
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                                         
-                  <div id="wb_LayoutGrid1">
-                     <div id="LayoutGrid1">
-                        <div class="row">
-                           <div class="col-1">
-                              <div id="wb_Heading2">
-                                 <h3 id="Heading2">Quotes of the Day</h3>
-                              </div>
-                              <div id="wb_dailyText">
-                                 <h6 id="dailyText">Text</h6>
-                              </div>
-                              <div id="wb_currentDate">
-                                 <h6 id="currentDate">Date</h6>
-                              </div>
-                           </div>
-                                         
-                                         
-
-
-                                         
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_backtoTop">
-      <div id="backtoTop"></div>
-   </div>
-   <div id="wb_topfooterLayoutGrid">
-      <div id="topfooterLayoutGrid-divider-top">
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 25" preserveAspectRatio="none">
-            <path class="divider-fill" d="m 0,0 v 3.8265306 c 0,0 393.8,0 483.4,0 9.2,0 16.6,9.4387754 16.6,21.1734694 0,-11.607143 7.4,-21.1734694 16.6,-21.1734694 89.6,0 483.4,0 483.4,0 V 0 Z"/>
-         </svg>
-      </div>
-      <div id="topfooterLayoutGrid">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_searchlinksText">
-                  <span style="color:#696969;"><strong>Search this site</strong></span>
-               </div>
-               <form name="SiteSearch_form" id="SiteSearch_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
-                  <input type="text" id="SiteSearch" name="SiteSearch1" value="" spellcheck="false" placeholder="Search this website" role="searchbox"></form>
-               <input type="button" id="searchButton" onclick="searchPage();return false;" name="Search" value="Search">
-               <div id="footerlinksFlexContainer">
-                  <a id="testsButton" href="./Flying_Calendar.html">Calendar</a>
-                  <a id="updatesButton" href="./G2_Literacy.html">Updates</a>
-                  <a id="downloadButton" href="./Download.html">Download</a>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_upcomingactivitieslinksText">
-                  <span style="color:#696969;letter-spacing:0.07px;"><strong>Upcoming&nbsp;&nbsp; &nbsp;&nbsp; Activities</strong></span>
-               </div>
-               <div id="wb_EmbeddedPage3">
-                  <div id="FlexContainer1">
-                     <div id="CardContainer1" class="owl-carousel owl-theme">
-                        <div id="wb_Card1" class="card">
-                           <div id="Card1-card-body">
-                              <div id="Card1-card-item0">The Opening of the School</div>
-                              <div id="Card1-card-item1">Monday 4 September, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card2" class="card">
-                           <div id="Card2-card-body">
-                              <div id="Card2-card-item0">Independence Day</div>
-                              <div id="Card2-card-item1">Tuesdsay 24 October, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card6" class="card">
-                           <div id="Card6-card-body">
-                              <div id="Card6-card-item0">National Day of Prayer</div>
-                              <div id="Card6-card-item1">Wednesday 18 October, 2023 </div>
-                           </div>
-                        </div>
-                        <div id="wb_Card3" class="card">
-                           <div id="Card3-card-body">
-                              <div id="Card3-card-item0">Christmas Day</div>
-                              <div id="Card3-card-item1">Monday 25 December, 2023 </div>
-                           </div>
-                        </div>
-                        <div id="wb_Card4" class="card">
-                           <div id="Card4-card-body">
-                              <div id="Card4-card-item0">Beginning of the End of Term 3 Assessments</div>
-                              <div id="Card4-card-item1">Monday November 20, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card5" class="card">
-                           <div id="Card5-card-body">
-                              <div id="Card5-card-item0">Collection of results and Closing of the School for term 2</div>
-                              <div id="Card5-card-item1">Friday December 1, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card7" class="card">
-                           <div id="Card7-card-body">
-                              <div id="Card7-card-item0">Graduation Day</div>
-                              <div id="Card7-card-item1">Friday November 1, 2023 </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-3">
-               <div id="wb_workingdaysText">
-                  <span style="color:#696969;letter-spacing:0.07px;"><strong>Working&nbsp;&nbsp; &nbsp;&nbsp; Days</strong></span>
-               </div>
-               <div id="workingdaysFlexContainer">
-                  <table id="workingdaysContactTable">
-                     <tr>
-                        <td class="cell0"><p><span style="font-weight:bold;">Working Days</span></p></td>
-                        <td class="cell1"><p>06:00 - 18:00</p></td>
-                     </tr>
-                     <tr>
-                        <td class="cell2"><p><span style="font-weight:bold;">Weekends</span></p></td>
-                        <td class="cell3"><p>Closed</p></td>
-                     </tr>
-                  </table>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_lowerfooterLayoutGrid">
-      <div id="lowerfooterLayoutGrid">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_locationText">
-                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
-               </div>
-               <div id="wb_Text7">
-                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_contactsText">
-                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
-               </div>
-               <div id="wb_emailFontAwesomeIcon">
-                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
-               </div>
-               <div id="wb_facebookFontAwesomeIcon">
-                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
-               </div>
-               <div id="wb_callFontAwesomeIcon">
-                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
-               </div>
-               <div id="wb_whatsappFontAwesomeIcon">
-                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
-               </div>
-               <div id="wb_smsFontAwesomeIcon">
-                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
-               </div>
-            </div>
-            <div class="col-3">
-               <div id="wb_informationText">
-                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
-               </div>
-               <div id="wb_inforText">
-                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="wb_copywriteLayoutGrid">
-      <div id="copywriteLayoutGrid">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_copywriteText">
-                  <span style="color:#FFFFFF;">Copyright © 2024 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="backtotopStickyLayer">
-      <div id="wb_backtotopIcon">
-         <a href="#backtoTop"><div id="backtotopIcon"><i class="fa fa-angle-up"></i></div></a></div>
-   </div>
-   <div id="wb_About-us">
-      <div id="About-us"></div>
-   </div>
-                       
-                       
 
 
 
-      <div id="wb_facebookIconFont">
-         <a href="https://www.facebook.com/briclintons">
-           <div id="facebookIconFont"><i class="fa fa-facebook"></i></div></a></div>
-   </div>
+
+    <section class="banner">
+        <input type="text" class="search-bar" placeholder="Search resources, lesson plans, or tools...">
+        <div class="quick-links">
+            <button>Upload Content</button>
+            <button>Grade Books</button>
+            <button>Messaging Center</button>
+        </div>
+    </section>
+
+    <!-- JavaScript for Panel Functionality -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var panel = document.getElementById("PanelLayer");
+            var menuBtn = document.getElementById("menuPanel");
+            var closeBtn = document.getElementById("closePanel");
+
+            // Open the panel
+            menuBtn.addEventListener("click", function () {
+                panel.classList.add("active");
+            });
+
+            // Close the panel
+            closeBtn.addEventListener("click", function () {
+                panel.classList.remove("active");
+            });
+
+            // Close panel when clicking outside
+            document.addEventListener("click", function (event) {
+                if (!panel.contains(event.target) && event.target !== menuBtn) {
+                    panel.classList.remove("active");
+                }
+            });
+        });
+    </script>
 
 
-             
-   <div id="wb_EmbeddedPage5">
 
-   </div>
+    <div id="linkbar" class="inactive">
+        <img class="logoset" src="../images/Flying_Wings_Academy.png" alt="Logo">
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/baby.php"><img src="../images/Classes_1.png" id="regicons"> Baby Birds</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/middle.php"><img src="../images/Classes_2.png" id="regicons"> Sky Sprouts</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/reception.php"><img src="../images/Classes_3.png" id="regicons"> Nestlings Navigators</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/grade1.php"><img src="../images/Classes_4.png" id="regicons"> Feather Flyers</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/grade2.php"><img src="../images/Classes_5.png" id="regicons"> Cloud Chicks</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/grade3.php"><img src="../images/Classes_6.png" id="regicons"> Wing Whiz</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/grade4.php"><img src="../images/Classes_7.png" id="regicons"> Sky Soarers</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/grade5.php"><img src="../images/Classes_8.png" id="regicons"> Avian Aces</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/Classes/grade6.php"><img src="../images/Classes_9.png" id="regicons"> Nimbus Navigators</a>
+        <a class="logo-links" href="http://flyacade.com.preview.services/Register/register.php"><img src="../images/flyacade.png" id="regicons"> Master Register</a>
+    </div>
+
+    <script>
+        let linkbar = document.getElementById('linkbar');
+        let logoLinks = document.querySelectorAll('.logo-links');
+        let isActive = false;
+        let timer;
+
+        function activateLinkbar() {
+            linkbar.classList.remove('inactive');
+            linkbar.classList.add('active');
+            logoLinks.forEach(link => link.classList.add('active'));
+            document.body.classList.add('dimmed');
+            document.body.classList.add('active'); // Trigger the transition for dimming and blur
+            clearTimeout(timer);
+            timer = setTimeout(deactivateLinkbar, 7000);
+            isActive = true;
+        }
+
+        function deactivateLinkbar() {
+            linkbar.classList.remove('active');
+            linkbar.classList.add('inactive');
+            logoLinks.forEach(link => link.classList.remove('active'));
+            document.body.classList.remove('active'); // Trigger the transition back
+            setTimeout(() => {
+                document.body.classList.remove('dimmed'); // Remove dimming class after transition
+            }, 500); // Wait for the fade-out effect to complete before removing the class
+            isActive = false;
+        }
+
+        linkbar.addEventListener('mouseenter', () => {
+            if (!isActive) {
+                activateLinkbar();
+            }
+        });
+
+        linkbar.addEventListener('mouseleave', () => {
+            if (isActive) {
+                timer = setTimeout(deactivateLinkbar, 10000);
+            }
+        });
+
+        linkbar.addEventListener('click', () => {
+            if (isActive) {
+                deactivateLinkbar();
+            } else {
+                activateLinkbar();
+            }
+        });
+    </script>
+
+
 </body>
 </html>
