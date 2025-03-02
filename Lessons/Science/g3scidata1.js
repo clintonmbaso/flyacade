@@ -1,4 +1,4 @@
-lconst lessonPlans24a = [
+const lessonPlans24a = [
 
 // Week 2
 // Lesson 1
@@ -482,9 +482,9 @@ lconst lessonPlans24a = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction</b>:<br><br><b>Engage the Learners</b><br>Ask: “What did you eat today?”<br>Let students share their answers.<br><br><b>Explain</b>:<br>\"The food we eat contains nutrients that help our bodies in different ways. Today, we will learn about three important types of food: Energy foods, Body-building foods, and Protective foods.\"",
+      "<b>Part 1: Introduction</b>:<br><br><b>Engage the Learners</b><br>Ask: “What did you eat today?”<br>Let students share their answers.<br><br><b>Explain</b>:<br>'The food we eat contains nutrients that help our bodies in different ways. Today, we will learn about three important types of food: Energy foods, Body-building foods, and Protective foods.'",
       "<b>Part 2: Energy-Giving Foods</b>:<br><br><b>Explanation</b>:<br>Energy foods give us strength to play, run, and do schoolwork.<br>These foods contain carbohydrates and fats.<br><br><b>Examples</b>:<br>- Rice<br>- Nshima<br>- Potatoes<br><br><b>Activity</b>:<br>Ask students: “What happens if you don’t eat energy foods?” (Possible answers: feel weak, get tired quickly).<br>Discuss how energy foods help us stay active.",
-      "<b>Part 3: Body-Building Foods</b>:<br><br><b>Explanation</b>:<br>Body-building foods help us grow and repair our bodies.<br>These foods contain proteins.<br><br><b>Examples</b>:<br>- Meat<br>- Eggs<br>- Beans<br><br><b>Activity</b>:<br>Show or draw pictures of body-building foods.<br>Ask students: \"Which of these foods do you eat at home?\"",
+      "<b>Part 3: Body-Building Foods</b>:<br><br><b>Explanation</b>:<br>Body-building foods help us grow and repair our bodies.<br>These foods contain proteins.<br><br><b>Examples</b>:<br>- Meat<br>- Eggs<br>- Beans<br><br><b>Activity</b>:<br>Show or draw pictures of body-building foods.<br>Ask students: 'Which of these foods do you eat at home?'",
       "<b>Part 4: Protective Foods</b>:<br><br><b>Explanation</b>:<br>Protective foods help our bodies fight diseases and keep us healthy.<br>These foods contain vitamins and minerals.<br><br><b>Examples</b>:<br>- Fruits (e.g., bananas, oranges)<br>- Vegetables (e.g., spinach, carrots)<br><br><b>Activity</b>:<br>Show or draw pictures of different fruits and vegetables.<br>Ask: “Why is it important to eat fruits and vegetables?”",
       "<b>Part 5: Exercise</b>:<br><br><b>Match the foods with their correct group</b>:<br>Students will complete a worksheet where they match food items to their correct category (energy-giving, body-building, or protective foods).<br><br><b>Conclusion</b>:<br>Review answers together.<br>Encourage students to eat a balanced diet to stay strong and healthy."
     ]
@@ -532,7 +532,7 @@ lconst lessonPlans24a = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction (5 minutes)</b>:<br><br><b>Engage the Learners</b><br>Ask: “What did you eat for lunch yesterday?”<br>Let students share their meals.<br><br><b>Explain</b>: \"A balanced diet means eating different types of foods that help our bodies in different ways. We need food for energy, body building, and protection.\"",
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br><b>Engage the Learners</b><br>Ask: “What did you eat for lunch yesterday?”<br>Let students share their meals.<br><br><b>Explain</b>: 'A balanced diet means eating different types of foods that help our bodies in different ways. We need food for energy, body building, and protection.'",
       "<b>Part 2: What is a Balanced Diet? (10 minutes)</b>:<br><br><b>Explanation</b><br>A balanced diet contains the three main types of food:<br>1. <b>Energy-giving foods</b> – give strength (e.g., nshima, rice, potatoes).<br>2. <b>Body-building foods</b> – help us grow (e.g., meat, eggs, beans).<br>3. <b>Protective foods</b> – keep us healthy (e.g., vegetables, fruits).<br><br>Eating a balanced meal means including all three types of food.<br><br><b>Example of a Balanced Meal:</b><br>Nshima + Meat + Vegetables",
       "<b>Part 3: Why is a Balanced Diet Important? (10 minutes)</b>:<br><br><b>Discussion</b><br>Eating only one type of food is not good for the body.<br><br>A balanced diet helps us:<br>✔ Grow strong and healthy.<br>✔ Have enough energy for school and play.<br>✔ Fight diseases and stay well.<br><br><b>Activity</b><br>Ask students: “What happens if we eat only nshima and no vegetables?”<br>Discuss why each food group is important.",
       "<b>Part 4: Examples of Balanced Meals (10 minutes)</b>:<br><br><b>Give examples of meals that contain a balanced diet:</b><br>1. Rice + Chicken + Cabbage<br>2. Nshima + Fish + Spinach<br>3. Sweet potatoes + Beans + Tomatoes<br><br><b>Ask students to think of their own examples.</b><br><br><b>Activity</b><br>Show pictures of different foods.<br>Let students group them into energy, body-building, and protective foods.",
@@ -547,8 +547,6 @@ lconst lessonPlans24a = [
     "By learning about balanced diets, students will understand the importance of eating a variety of foods to stay healthy, grow strong, and have energy for daily activities."
   ]
 },
-
-// Lesson 3
 
 
 // Week 7
