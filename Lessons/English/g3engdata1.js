@@ -1005,34 +1005,610 @@ const lessonPlans15a = [
   ]
 },
 
-	// Week 7
+// Week 6
 // Lesson 1
-
+{
+  "title": "Combining Simple Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Combining Simple Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "6",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students about simple sentences and how to combine them using coordinating conjunctions (and, or, but) to create more interesting writing.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheets with simple sentences",
+    "Sentence cards for review game"
+  ],
+  "objectives": [
+    "Students will understand what simple sentences are.",
+    "Students will learn how to combine simple sentences using coordinating conjunctions (and, or, but).",
+    "Students will practice combining sentences to create more interesting writing."
+  ],
+  "rationale": [
+    "Understanding how to combine simple sentences helps students improve their writing by making it more fluid and engaging."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, guided practice, and independent practice, followed by a quick review game."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Begin with a class discussion:<br><br>Write on the board:<br>A simple sentence is a group of words that expresses a complete thought. It has a subject and a predicate.<br><br>Give examples of simple sentences:<br>I like apples. (subject: 'I', predicate: 'like apples')<br>She runs fast. (subject: 'She', predicate: 'runs fast')<br><br>Ask the class:<br>'Can a sentence be just one word?' (No, it needs a subject and an action or description — a predicate.)<br><br>Transition: 'Now let’s learn how to make our writing more interesting by combining simple sentences!'",
+      "<b>Part 2: Combining Sentences (10 minutes)</b>:<br><br>Explain:<br>'We can join two simple sentences to make our writing flow better.'<br>'We use coordinating conjunctions — special words that connect sentences.'<br><br>Write on the board:<br>and — adds more information.<br>I like apples. I like bananas. → I like apples and bananas.<br><br>or — shows a choice.<br>We can go to the park. We can go to the zoo. → We can go to the park or the zoo.<br><br>but — shows contrast.<br>He is small. He is strong. → He is small but strong.<br><br>Highlight: 'When we combine two sentences, we use a comma before the conjunction.'",
+      "<b>Part 3: Guided Practice (10 minutes)</b>:<br><br>Together as a class:<br>Combine these simple sentences using and, or, or but:<br>1. I am tired. I will finish my homework.<br>2. She likes cats. She likes dogs.<br>3. He wanted to play outside. It was raining.<br>4. You can have cake. You can have ice cream.<br><br>Call on students to come up to the board and write their combined sentences.<br>Give praise and correct gently if needed.",
+      "<b>Part 4: Independent Practice (10 minutes)</b>:<br><br>Hand out a short worksheet or write these sentences on the board for students to combine on their own:<br>1. I have a pencil. I have a pen.<br>2. We can go swimming. We can stay home.<br>3. She was hungry. She had no food.<br>4. The sun was shining. It was very cold.<br><br>Encourage students to use a different conjunction each time.<br>Walk around the class, helping those who struggle.",
+      "<b>Part 5: Exercise and Wrap-up (5 minutes)</b>:<br><br>Quick Review Game:<br>Write and, or, but on the board in separate columns.<br>Call out pairs of simple sentences, and students raise their hand to choose the correct conjunction.<br><br>Example:<br>It was raining. We went outside. (Answer: but)<br>I like pizza. I like pasta. (Answer: and)<br><br>Exit Task:<br>'Before you leave, write one combined sentence using and, or, or but in your notebook!'<br>Review a few sentences out loud before ending the lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: Informal observation during guided and independent practice.",
+    "<b>Exit Task</b>: The final combined sentence task will show who has grasped the concept of combining simple sentences."
+  ],
+  "conclusion": [
+    "By learning to combine simple sentences with coordinating conjunctions, students will be able to create smoother, more interesting writing."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Forming Compound Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding Compound Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "6",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on helping students understand what compound sentences are, how to form them using coordinating conjunctions (and, or, but), and practicing combining simple sentences into compound sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence strips",
+    "Student notebooks"
+  ],
+  "objectives": [
+    "Students will understand what a compound sentence is.",
+    "Students will learn how to form compound sentences using coordinating conjunctions (and, or, but).",
+    "Students will practice combining simple sentences into compound sentences."
+  ],
+  "rationale": [
+    "Understanding compound sentences helps students write more complex and interesting sentences, improving their communication and writing skills."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, class discussions, guided practice, and independent exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Class Discussion:<br>Write on the board:<br>A compound sentence contains two related sentences joined by the coordinating conjunctions and, or, or but.<br><br>Give examples of simple sentences:<br>I like apples.<br>I like bananas.<br><br>Explain:<br>\"We can join these two sentences to form a compound sentence.\"<br>\"A compound sentence connects two complete ideas using a special word called a coordinating conjunction.\"<br><br>Write on the board:<br>I like apples, and I like bananas.<br><br>Ask the class:<br>\"Did you notice the comma before and?\"<br>\"We always place a comma before the conjunction in a compound sentence.\"",
+      "<b>Part 2: Coordinating Conjunctions and Their Functions (10 minutes)</b>:<br><br>Explain the 3 coordinating conjunctions:<br><br>and — joins similar ideas together.<br>I went to the park. I played soccer. → I went to the park, and I played soccer.<br><br>but — shows a change in thought.<br>I was tired. I finished my homework. → I was tired, but I finished my homework.<br><br>or — shows a choice between two ideas.<br>We can go swimming. We can stay home. → We can go swimming, or we can stay home.<br><br>Highlight:<br>\"Remember, place a comma before the conjunction!\"<br><br>On the board:<br>, and — adds more information.<br>, but — shows contrast.<br>, or — gives options.",
+      "<b>Part 3: Guided Practice (10 minutes)</b>:<br><br>Combine sentences as a class:<br><br>1. She likes cats. She likes dogs.<br>2. He wanted to play outside. It was raining.<br>3. You can have cake. You can have ice cream.<br><br>Ask students:<br>\"Which conjunction fits best — and, but, or or?\"<br><br>Write the correct answers on the board together:<br>She likes cats, and she likes dogs.<br>He wanted to play outside, but it was raining.<br>You can have cake, or you can have ice cream.<br><br>Encourage students to suggest answers, and discuss why a certain conjunction works.",
+      "<b>Part 4: Independent Practice (10 minutes)</b>:<br><br>On the board:<br><br>1. I was hungry. I ate lunch.<br>2. It was sunny. We went outside.<br>3. He can read a book. He can draw a picture.<br>4. She is small. She is strong.<br><br>Task:<br>\"Combine each pair of sentences using and, but, or or. Don’t forget the comma!\"<br><br>Walk around, checking and helping students as they work.",
+      "<b>Part 5: Exercise and Wrap-up (5 minutes)</b>:<br><br>Quick Review Game:<br>Draw three columns on the board: and, but, or.<br>Read two simple sentences aloud, and students raise their hands to pick the correct conjunction.<br><br>Examples:<br>It was cold. He wore a jacket. (Answer: but)<br>I like apples. I like oranges. (Answer: and)<br>We can go to the park. We can go to the zoo. (Answer: or)<br><br>Exit Task:<br>\"Before you leave, write one compound sentence in your notebook using and, but, or or!\"<br><br>Ask a few students to share their sentences before ending the lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the class discussion and guided practice.",
+    "<b>Exercise</b>: Review students' independent work and exit task to check if they correctly used conjunctions and commas."
+  ],
+  "conclusion": [
+    "By understanding and forming compound sentences, students will improve their sentence structure, making their writing clearer and more engaging."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Punctuating Simple and Compound Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Punctuating Simple and Compound Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "6",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on helping students understand the difference between simple and compound sentences, and how to correctly punctuate them using capital letters, periods, question marks, exclamation points, and commas.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence strips",
+    "Student notebooks and pencils"
+  ],
+  "objectives": [
+    "Students will understand the difference between simple and compound sentences.",
+    "Students will learn how to correctly punctuate simple and compound sentences.",
+    "Students will practice using capital letters, periods, question marks, exclamation points, and commas in their writing."
+  ],
+  "rationale": [
+    "Understanding punctuation helps students write clearly and correctly, enabling effective communication.",
+    "Learning to identify and punctuate simple and compound sentences builds a foundation for more advanced writing skills."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, guided practice, and independent writing activities to teach punctuation rules."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Begin with a class discussion:<br><br>Write on the board:<br><br>A simple sentence expresses a complete thought with a subject and a predicate.<br>A compound sentence joins two simple sentences with a conjunction like 'and,' 'or,' or 'but.'<br><br>Examples:<br><br>Simple: I like cats.<br>Compound: I like cats, and I like dogs.<br><br>Ask the class:<br>'What’s the difference between these sentences?' (Guide them to notice the conjunction in the compound sentence.)<br><br>Transition: 'Now let’s learn how to punctuate these sentences properly!'",
+      "<b>Part 2: Punctuating Simple and Compound Sentences (10 minutes)</b>:<br><br>Explain:<br><br>1. Capital Letters:<br>'Every simple and compound sentence starts with a capital letter.'<br>the dog ran fast. → The dog ran fast.<br><br>2. Ending Punctuation:<br>'We use different punctuation marks at the end of sentences.'<br>Periods (.) for declarative sentences (statements).<br>I like ice cream.<br><br>Question marks (?) for interrogative sentences (questions).<br>Do you like ice cream?<br><br>Exclamation points (!) for exclamatory sentences (strong feelings).<br>I love ice cream!<br><br>3. Commas in Compound Sentences:<br>'When combining two simple sentences into a compound sentence, use a comma before the conjunction (and, or, but).'<br>I like apples. I like oranges. → I like apples, and I like oranges.",
+      "<b>Part 3: Guided Practice (10 minutes)</b>:<br><br>Together as a class:<br><br>Punctuate these sentences correctly:<br><br>1. do you like soccer (Answer: Do you like soccer?)<br><br>2. she was tired but she finished her homework (Answer: She was tired, but she finished her homework.)<br><br>3. we went to the park and we played on the swings (Answer: We went to the park, and we played on the swings.)<br><br>4. what a beautiful day (Answer: What a beautiful day!)<br><br>Write each correct sentence on the board and explain why the punctuation was chosen.",
+      "<b>Part 4: Independent Practice (10 minutes)</b>:<br><br>Write these sentences on the board and ask students to rewrite them with the correct punctuation:<br><br>1. i love reading books<br><br>2. are you coming to the party<br><br>3. we went to the beach and we built a sandcastle<br><br>4. the cat was sleepy but it still played with the ball<br><br>5. what a big surprise<br><br>Encourage them to double-check for capital letters, commas, and ending punctuation.<br><br>Walk around the class, assisting where needed.",
+      "<b>Part 5: Exercise and Wrap-up (5 minutes)</b>:<br><br>Quick Review Game:<br><br>Write ., ?, ! on the board.<br><br>Read a sentence aloud, and students raise their hand to show which punctuation mark it needs.<br><br>Examples:<br><br>Do you like pizza (Answer: ?)<br>I am so happy (Answer: !)<br>We went to school (Answer: .)<br><br>Exit Task:<br>'Before you leave, write a compound sentence using and, or, or but and punctuate it correctly!'<br><br>Review a few sentences out loud before ending the lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will informally observe students during guided and independent practice to check their understanding of simple and compound sentences and correct punctuation.",
+    "<b>Exit Task</b>: Students' ability to write a compound sentence correctly punctuated will serve as a final check for the day’s lesson."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will understand how to identify simple and compound sentences and use correct punctuation, strengthening their writing skills."
+  ]
+},
 
 // Lesson 4
+{
+  "title": "Writing Simple and Compound Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Simple and Compound Sentences",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "6",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the concept of simple and compound sentences, helping them understand their structure, punctuation, and use of conjunctions.",
+  "materials": [
+    "Whiteboard and markers",
+    "Writing worksheets"
+  ],
+  "objectives": [
+    "Students will understand the difference between simple and compound sentences.",
+    "Students will learn the correct punctuation for simple and compound sentences.",
+    "Students will practice forming compound sentences using coordinating conjunctions (and, or, but)."
+  ],
+  "rationale": [
+    "Understanding simple and compound sentences helps students build strong writing skills by correctly combining ideas and using appropriate punctuation."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, class discussions, and writing activities to teach simple and compound sentences."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Begin with a class discussion:<br><br>Write on the board:<br>A simple sentence is a group of words that expresses a complete thought.<br>A compound sentence is made up of two simple sentences joined by a comma and a conjunction (and, or, but).<br><br>Examples:<br>Simple sentence: I like apples.<br>Compound sentence: I like apples, and I like bananas.<br><br>Ask the class:<br>\"Can anyone tell me what happens when we join two simple sentences together?\" (Guide them toward \"compound sentences.\")",
+      "<b>Part 2: Punctuation Rules (10 minutes)</b>:<br><br>Explain:<br>\"Both simple and compound sentences start with a capital letter and end with the correct punctuation mark.\"<br><br>Write examples on the board:<br><br>Simple sentences:<br>The dog barks.<br>She sings beautifully.<br><br>Compound sentences:<br>The dog barks, and the cat runs away. (capital letter at the start, comma before and, and period at the end)<br>We can go swimming, or we can play soccer.<br><br>Highlight:<br>\"In a compound sentence, use a comma before the words and, or, or but when joining two simple sentences.\"<br><br>Example:<br>I was tired, but I finished my homework.",
+      "<b>Part 3: Guided Practice (10 minutes)</b>:<br><br>Class Activity:<br>Write these pairs of simple sentences on the board:<br><br>1. I like ice cream. I like cake.<br>2. He wanted to play outside. It was raining.<br>3. She can read a book. She can draw a picture.<br>4. Tom is small. Tom is strong.<br><br>Ask the students:<br>\"How can we turn these into compound sentences using and, or, or but?\"<br><br>Call on volunteers to combine the sentences correctly, reminding them to use a comma before the conjunction.",
+      "<b>Part 4: Independent Practice (10 minutes)</b>:<br><br>Writing Task:<br>Write these simple sentences on the board and ask students to turn them into compound sentences:<br><br>1. I was hungry. I ate a sandwich.<br>2. It was cold. He wore a jacket.<br>3. We can go to the zoo. We can go to the park.<br>4. She is young. She is clever.<br><br>Instruct students:<br>\"Use and, or, or but to combine the sentences. Don’t forget the comma!\"<br><br>Walk around and check their work, helping as needed.",
+      "<b>Part 5: Exercise and Wrap-up (5 minutes)</b>:<br><br>Quick Review Game:<br><br>Draw three columns on the board labeled and, or, and but.<br><br>Read out simple sentence pairs, and students raise their hand to suggest the correct conjunction.<br><br>Example:<br>It was raining. We played inside. (Answer: but)<br>She likes apples. She likes oranges. (Answer: and)<br><br>Exit Task:<br>\"Before you leave, write one simple sentence and one compound sentence in your notebook.\"<br><br>Quickly check their sentences before dismissing them."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation during guided practice.",
+    "<b>Writing Task</b>: The teacher will review students’ independent work and exit tasks to check their understanding of punctuation and conjunction use."
+  ],
+  "conclusion": [
+    "By learning to write simple and compound sentences, students will improve their ability to communicate ideas clearly and effectively."
+  ]
+},
 
+// Lesson 5
+
+
+	// Week 7
+// Lesson 1
+{
+  "title": "Nouns — Common and Proper Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Nouns — Common and Proper Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "By the end of the lesson, students will be able to identify and differentiate between common and proper nouns, and use them correctly in sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with common and proper nouns",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will define what a noun is.",
+    "Students will identify and give examples of common nouns.",
+    "Students will identify and give examples of proper nouns.",
+    "Students will compare and contrast common and proper nouns.",
+    "Students will correctly use common and proper nouns in sentences."
+  ],
+  "rationale": [
+    "Understanding the difference between common and proper nouns helps students use correct grammar and punctuation, improving their writing and communication skills."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and interactive activities to help students understand and apply the concepts of common and proper nouns."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Nouns</b>:<br><br>1. Begin with a simple question:<br>“What is a noun?”<br><br>2. Explain clearly:<br>A noun is a word that names a person, place, or thing.<br><br>3. Give examples:<br>Person: girl, teacher, friend<br>Place: school, park, city<br>Thing: pencil, dog, car<br><br>4. Engage the class by asking them to look around the classroom and name some nouns they see. Write their answers on the board.",
+      "<b>Part 2: Common Nouns</b>:<br><br>1. Introduce the concept:<br>A common noun names any person, place, or thing. It is general and does not start with a capital letter unless it’s at the start of a sentence.<br><br>2. Provide examples:<br>boy, city, river, book<br><br>3. Use sentences to show common nouns in action:<br>The dog ran in the park.<br>I read a book last night.<br><br>4. Ask students to share more examples of common nouns they can think of. Write them down on the board.",
+      "<b>Part 3: Proper Nouns</b>:<br><br>1. Explain:<br>A proper noun names a special person, place, or thing. It always begins with a capital letter.<br><br>2. Provide examples:<br>People: Mary, Mr. Smith<br>Places: Lusaka, Zambia, Victoria Falls<br>Days and months: Monday, December<br><br>3. Compare with common nouns:<br>city (common noun) → Lusaka (proper noun)<br>boy (common noun) → John (proper noun)<br><br>4. Write sentences on the board and have students identify the proper nouns:<br>I visited Victoria Falls last summer.<br>John is my best friend.",
+      "<b>Part 4: Common vs. Proper Nouns</b>:<br><br>1. Draw a two-column chart on the board — one side for common nouns and the other for proper nouns.<br><br>2. Together with the class, sort words into the correct columns:<br>dog / Rover<br>country / Zambia<br>girl / Sarah<br><br>3. Discuss how proper nouns always start with a capital letter, while common nouns only do if they start a sentence.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Identify Nouns:<br>Underline the nouns in these sentences:<br>1. The cat climbed the tree.<br>2. We went to Lusaka during the holidays.<br>3. Sarah loves her new book.<br>4. He walked to the park with John.<br><br>B. Common or Proper Nouns:<br>Write whether each noun is common or proper:<br>1. elephant<br>2. Monday<br>3. teacher<br>4. Lusaka<br>5. river<br><br>C. Capitalizing Proper Nouns:<br>Correct the mistakes in these sentences:<br>1. i visited victoria falls last year.<br>2. my friend john lives in zambia.<br>3. we go to school on monday."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and activities.",
+    "<b>Exercise</b>: The students' understanding will be assessed through the exercises on identifying, comparing, and using common and proper nouns."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to clearly identify and differentiate between common and proper nouns, use them correctly in sentences, and recognize the importance of capitalizing proper nouns."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Concrete and Abstract Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Concrete and Abstract Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students the difference between concrete and abstract nouns and helps them identify and use both types of nouns correctly.",
+  "materials": [
+    "Whiteboard and markers",
+    "Word cards with concrete and abstract nouns",
+    "Sentence prompts"
+  ],
+  "objectives": [
+    "Students will define and identify concrete and abstract nouns.",
+    "Students will differentiate between the two types of nouns with examples.",
+    "Students will use both types of nouns correctly in sentences."
+  ],
+  "rationale": [
+    "Understanding the difference between concrete and abstract nouns helps students use language more effectively and enriches their writing."
+  ],
+  "methodology": [
+    "The lesson will involve definitions, examples, group activities, sentence creation, and peer sharing to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction</b>:<br><br>Warm-up:<br>Begin by asking students: 'Can you name some things you can see or touch right now?' (e.g., desk, pencil, friend). 'What about things you can feel, like love or happiness? Can you touch them?'",
+      "Explain the concept:<br>Introduce the two types of nouns:<br><br><b>Concrete Nouns:</b><br>These are nouns that name people, places, or things that can be experienced through the five senses (sight, hearing, smell, taste, touch).<br>Examples: dog, flower, teacher, cake, music.<br><br><b>Abstract Nouns:</b><br>These are nouns that name ideas, feelings, qualities, or concepts — things you cannot touch, see, hear, smell, or taste.<br>Examples: love, bravery, happiness, fear, kindness."
+    ],
+    [
+      "<b>Part 2: Explanation with Examples</b>:<br><br>Compare and contrast:<br>Write two columns on the board: one for Concrete Nouns and one for Abstract Nouns. Discuss why each noun belongs in its column. Emphasize that abstract nouns often describe feelings, emotions, and ideas, while concrete nouns are things we can experience directly.<br><br>Class discussion:<br>Ask students: 'Can you think of an abstract noun that describes how you feel when you win a game?' (e.g., joy, pride). 'What is a concrete noun you use to write?' (e.g., pencil, notebook)."
+    ],
+    [
+      "<b>Part 3: Group Activity</b>:<br><br>Sorting Game:<br>Divide the class into small groups. Prepare word cards with a mix of concrete and abstract nouns (e.g., 'tree,' 'happiness,' 'teacher,' 'freedom,' 'anger,' 'dog'). Have each group sort the words into 'Concrete' or 'Abstract' piles.<br><br>Class Review:<br>Go over each group's answers and discuss any mistakes to reinforce understanding."
+    ],
+    [
+      "<b>Part 4: Application</b>:<br><br>Sentence Creation:<br>Write these sentence prompts on the board:<br><br>1. 'I saw a ____ in the garden.' (Concrete)<br>2. 'She felt ____ when she got a gift.' (Abstract)<br>3. 'The ____ barked loudly.' (Concrete)<br>4. 'He showed great ____ by telling the truth.' (Abstract)<br><br>Ask students to fill in the blanks with correct nouns.<br><br>Peer Sharing:<br>Let students read their sentences aloud. Encourage others to say whether the noun used is concrete or abstract."
+    ],
+    [
+      "<b>Part 5: Exercise</b>:<br><br>Instructions:<br>1. Underline the concrete nouns and circle the abstract nouns in these sentences:<br>a) The dog barked with excitement.<br>b) She felt a lot of joy when she won the race.<br>c) The mountain was covered in snow.<br>d) Honesty is a great quality.<br>e) I heard music from the radio.<br><br>2. Write your own sentences using:<br>One concrete noun.<br>One abstract noun."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions, sorting game, and peer sharing.",
+    "<b>Exercise</b>: The sentence creation and exercise tasks will evaluate students' understanding of concrete and abstract nouns."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will be able to identify and use both concrete and abstract nouns correctly in their writing and speech."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Capitalizing Proper Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Capitalizing Proper Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concept of proper nouns and teaches them how to correctly capitalize proper nouns in sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets with sentences to correct",
+    "Projector or visuals showing examples of proper nouns"
+  ],
+  "objectives": [
+    "Students will learn to identify proper nouns in sentences.",
+    "Students will understand the rules for capitalizing proper nouns.",
+    "Students will practice correcting sentences with proper nouns."
+  ],
+  "rationale": [
+    "Correct capitalization helps students understand the importance of proper nouns and improves their writing skills."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, guided practice, and independent exercises to teach proper noun capitalization."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Proper Nouns</b>:<br><br>A proper noun is the name of a special person, place, or thing. Proper nouns are unique and refer to a specific person, place, or thing, unlike common nouns, which are general names.<br><br>Examples of Proper Nouns:<br><br>Person: John, Mrs. Smith, Barack Obama<br><br>Place: New York, Africa, Mount Everest<br><br>Thing: Coca-Cola, iPhone, Statue of Liberty<br><br>Common Nouns vs. Proper Nouns:<br><br>Common noun: city, teacher, dog<br><br>Proper noun: New York, Mrs. Johnson, Bella",
+      "<b>Part 2: Rules for Capitalizing Proper Nouns</b>:<br><br>Proper nouns always begin with a capital letter. Here are some important rules:<br><br>1. Names of people – Capitalize the first and last names.<br>Example: Alice, Michael Jackson<br><br>2. Names of places – Capitalize the names of specific places, such as cities, countries, and landmarks.<br>Example: Paris, Canada, Grand Canyon<br><br>3. Days of the week and months – Capitalize the names of days and months.<br>Example: Monday, December<br><br>4. Holidays – Capitalize names of holidays.<br>Example: Christmas, Thanksgiving<br><br>5. Titles of books, movies, and songs – Capitalize the important words in titles. Do not capitalize short words like and, or, the, etc.<br>Example: The Lion King, Harry Potter and the Sorcerer's Stone",
+      "<b>Part 3: How to Capitalize Proper Nouns</b>:<br><br>When you see a proper noun in a sentence, you should check to make sure the first letter is capitalized. If it's not, you should fix it!<br><br>Steps for Capitalization:<br><br>1. Identify the proper noun in the sentence.<br>2. Look at the first letter of the proper noun.<br>3. If it is not capitalized, change it to uppercase.<br>4. Remember to capitalize important words in titles but not short words (like and and the).<br><br>Examples to Practice:<br><br>\"i love the book charlotte's web.\" → \"I love the book Charlotte's Web.\"<br>\"the eiffel tower is in paris.\" → \"The Eiffel Tower is in Paris.\"",
+      "<b>Part 4: Common Mistakes to Avoid</b>:<br><br>Mistake 1: Not capitalizing the proper noun at all.<br>Correct: Harry Potter, Incorrect: harry potter<br><br>Mistake 2: Forgetting to capitalize the important words in titles.<br>Correct: The Great Gatsby, Incorrect: the great gatsby<br><br>Mistake 3: Capitalizing short words that should not be.<br>Correct: The Lion King, Incorrect: The Lion King and",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions: Read the following sentences. Correct the mistakes by capitalizing the proper nouns.<br><br>1. i went to london last summer.<br>2. my favorite holiday is christmas.<br>3. the book i’m reading is called the wizard of oz.<br>4. we saw the statue of liberty when we visited new york city.<br>5. my friend sarah is coming over on monday."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the lessons and their ability to identify and capitalize proper nouns.",
+    "<b>Exercise</b>: The exercise at the end will evaluate the students' understanding of proper noun capitalization."
+  ],
+  "conclusion": [
+    "By learning the rules for capitalizing proper nouns, students will improve their writing and gain a better understanding of how to use proper nouns correctly."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Understanding Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Understanding Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to nouns, focusing on common and proper nouns and the correct use of capitalization.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed copies of the letter to be corrected"
+  ],
+  "objectives": [
+    "Students will be able to identify and differentiate between common and proper nouns.",
+    "Students will understand and apply capitalization rules for proper nouns.",
+    "Students will practice correcting capitalization errors in sentences."
+  ],
+  "rationale": [
+    "Understanding nouns and capitalization helps students improve their writing and grammar skills, which are foundational for clear communication."
+  ],
+  "methodology": [
+    "The lesson will use direct explanation, examples, and a hands-on exercise to reinforce the concept of nouns and capitalization."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Nouns</b>:<br><br>A noun is a word that names a person, place, thing, or idea. There are two main types of nouns:<br><br><b>Common Nouns:</b> These name general people, places, things, or ideas. They are not specific and are written in lowercase. For example: dog, city, school, book.<br><br><b>Proper Nouns:</b> These name specific people, places, things, or ideas. They always begin with a capital letter. For example: John, New York, Tuesday, Eiffel Tower.",
+      "<b>Part 2: Explanation of Capitalization Rules</b>:<br><br>When writing, it’s important to know when to use capital letters. Here's how we use them for nouns:<br><br><b>Common nouns:</b> These are written in lowercase unless they appear at the beginning of a sentence. Example: I saw a dog at the park.<br><br><b>Proper nouns:</b> These always begin with capital letters, even if they are in the middle of a sentence. Example: I visited New York last summer.",
+      "<b>Part 3: Example with Proper and Common Nouns</b>:<br><br>Let’s look at an example of a letter that contains both common and proper nouns. The letter has several mistakes where proper nouns should begin with capital letters. We'll now look at it together:<br><br><b>Original Letter:</b><br>Dear principal ortiz,<br>Our class would like to visit the sander’s science museum. It is only twenty miles from school. We would like to go on may 1st. The museum will have a special speaker that day. dr. cane will tell us about the oceans. We have been studying the atlantic ocean. We will get to see all kinds of seashells at the museum. It will be fun for our class to take this field trip. Please let our teacher, mr. rahim, know your decision soon.<br><br><b>Mistakes:</b><br>principal ortiz should be Principal Ortiz<br>sander’s science museum should be Sander’s Science Museum<br>may should be May<br>dr. cane should be Dr. Cane<br>atlantic ocean should be Atlantic Ocean<br>mr. rahim should be Mr. Rahim",
+      "<b>Part 4: Corrected Letter (with Proper and Common Nouns)</b>:<br><br>Rewritten Letter:<br><br>Dear Principal Ortiz,<br>Our class would like to visit the Sander’s Science Museum. It is only twenty miles from school. We would like to go on May 1st. The museum will have a special speaker that day. Dr. Cane will tell us about the oceans. We have been studying the Atlantic Ocean. We will get to see all kinds of seashells at the museum. It will be fun for our class to take this field trip. Please let our teacher, Mr. Rahim, know your decision soon.<br><br>Thank you,<br>Alana Teal",
+      "<b>Part 5: Exercise: Identifying and Correcting Nouns</b>:<br><br><b>Instructions:</b> Read the letter below. It has mistakes in the use of common and proper nouns. Your task is to rewrite the letter, making sure all proper nouns start with a capital letter and common nouns stay in lowercase unless they begin a sentence.<br><br><b>Letter to Correct:</b><br>Dear teacher john,<br>We are planning a trip to the zoo in chicago next week. We will see lions, tigers, and bears at the zoo. We will also visit the reptile house to see snakes. The zoo is located in the center of chicago. We will be going on monday, april 10th. Please let us know if we can go.<br><br>Thank you,<br>Lucas Green"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the explanation and exercise.",
+    "<b>Exercise</b>: The exercise will evaluate the students' ability to identify and correct common and proper nouns in sentences."
+  ],
+  "conclusion": [
+    "By understanding and practicing the rules of capitalization for nouns, students will improve their writing and grammar skills."
+  ]
+},
 
 // Lesson 5
 
 
 	// Week 8
 // Lesson 1
-
+{
+  "title": "Singular and Plural Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Singular and Plural Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students about singular and plural nouns, the rules for changing singular nouns to plural, and provides practice through exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with pictures of singular and plural nouns"
+  ],
+  "objectives": [
+    "Students will understand the difference between singular and plural nouns.",
+    "Students will learn the rules for changing singular nouns into plural nouns.",
+    "Students will practice identifying and forming the plural of nouns through exercises."
+  ],
+  "rationale": [
+    "Understanding singular and plural nouns helps students improve their grammar and communication skills, enhancing their ability to write and speak clearly."
+  ],
+  "methodology": [
+    "The lesson will use examples, explanations, and exercises to teach singular and plural nouns, with a focus on student participation and practice."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Singular and Plural Nouns</b>:<br><br>Singular Nouns: A singular noun names one person, place, or thing. Examples: Dog, Car, Tree<br><br>Plural Nouns: A plural noun names more than one person, place, or thing. Examples: Dogs, Cars, Trees<br><br>Rule to Remember: To form most plural nouns, add -s to the end of the singular noun. Example: Book → Books, Chair → Chairs",
+      "<b>Part 2: Rules for Forming Plural Nouns</b>:<br><br>Rule 1: Add -s to most singular nouns. Example: Ball → Balls, Pen → Pens<br><br>Rule 2: Add -es to singular nouns ending in -s, -ch, -sh, or -x. Examples: Wish → Wishes, Box → Boxes, Bench → Benches<br><br>Rule 3: Some nouns that are compound words may follow the same rules, but it's important to identify the individual parts of the word. Example: Cupcake → Cupcakes, Toothbrush → Toothbrushes",
+      "<b>Part 3: Practice with Compound Nouns</b>:<br><br>Compound Nouns: These are nouns made by combining two words. Examples: Toothbrush (tooth + brush), Cupcake (cup + cake)<br><br>When changing compound nouns from singular to plural, apply the regular plural rules to each part of the compound noun. Example: Toothbrush → Toothbrushes, Cupcake → Cupcakes",
+      "<b>Part 4: Reviewing the Rules with Examples</b>:<br><br>Example 1: The singular noun 'coat' becomes 'coats' (add -s).<br>Example 2: The singular noun 'wish' becomes 'wishes' (add -es).<br>Example 3: The singular noun 'box' becomes 'boxes' (add -es).<br>Example 4: The singular noun 'bench' becomes 'benches' (add -es).<br>Example 5: The singular noun 'horse' becomes 'horses' (add -s).",
+      "<b>Part 5: Exercise</b>:<br><br>Task: Write the correct plural form of each singular noun.<br>1. Coat → ___________<br>2. Wish → ___________<br>3. Box → ___________<br>4. Bench → ___________<br>5. Horse → ___________<br>6. Tree → ___________<br>7. Sock → ___________<br>8. Patch → ___________<br>9. Bus → ___________<br>10. Cupcake → ___________<br><br>Bonus: Create 3 compound nouns and change them to their plural form."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the lesson and their ability to follow the pluralization rules.",
+    "<b>Exercise</b>: The exercise will assess students' understanding of singular and plural nouns and their ability to apply the rules."
+  ],
+  "conclusion": [
+    "By learning the rules for singular and plural nouns, students will improve their understanding of grammar and be able to use nouns correctly in their writing and speaking."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Plural Nouns with y to -ies Endings",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Plural Nouns with y to -ies Endings",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students how to change singular nouns ending in a consonant + y into plural form by changing the 'y' to 'i' and adding '-es'.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with singular and plural nouns"
+  ],
+  "objectives": [
+    "Students will learn to change singular nouns ending in a consonant + y into plural form by changing the 'y' to 'i' and adding '-es'.",
+    "Students will practice forming plural nouns with the y to -ies rule.",
+    "Students will apply the rule to a variety of nouns in different sentences."
+  ],
+  "rationale": [
+    "Understanding plural forms and the specific rules for changing singular nouns ending in consonant + y is important for proper grammar and writing."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, examples, and interactive practice to help students master the rule for plural nouns with consonant + y."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Singular and Plural Nouns</b>:<br><br>Singular Nouns: A singular noun refers to one person, place, or thing. For example, 'cat,' 'dog,' 'house.'<br><br>Plural Nouns: A plural noun refers to more than one person, place, or thing. For example, 'cats,' 'dogs,' 'houses.'<br><br>Plural nouns often add an -s at the end, but some nouns follow special rules, like those ending in y.",
+      "<b>Part 2: Plural Nouns Ending in Consonant + y</b>:<br><br>Rule: When a singular noun ends with a consonant and the letter y, to make it plural, we change the 'y' to 'i' and add '-es.'<br><br>Example: 'baby' → 'babies'<br>Example: 'party' → 'parties'<br><br>Why the Change? The consonant before the 'y' (such as 'b,' 't,' or 'r') causes the 'y' to change into an 'i' before adding the '-es.' This rule helps to maintain the sound and make the word easier to pronounce in its plural form.",
+      "<b>Part 3: Common Nouns That Follow the Rule</b>:<br><br>Here are some common nouns that end in a consonant + y and follow the rule:<br><br>city → cities<br>family → families<br>puppy → puppies<br>story → stories<br>country → countries<br><br>Discuss with students that words like key and boy do not follow this rule because the consonant before 'y' is a vowel sound. These words simply add -s to form the plural: keys, boys.",
+      "<b>Part 4: Practice with More Examples</b>:<br><br>Let's look at more examples together:<br><br>1. lady → _______________<br>2. country → _______________<br>3. cherry → _______________<br>4. fly → _______________<br>5. baby → _______________<br><br>Ask students to identify the consonant before the 'y' and apply the rule to form the plural.",
+      "<b>Part 5: Exercise</b>:<br><br>Now, it's time for the students to practice on their own.<br><br>Instructions: Rewrite the following singular nouns as plural nouns following the consonant + y to -ies rule.<br><br>1. family → _______________<br>2. city → _______________<br>3. party → _______________<br>4. puppy → _______________<br>5. country → _______________<br><br>Bonus Challenge:<br>Create your own sentences using both the singular and plural forms of the nouns you changed in this lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during practice and check their understanding during the exercise.",
+    "<b>Exercise</b>: The students' ability to correctly apply the plural rule will be assessed through the exercise where they change singular nouns to plural nouns."
+  ],
+  "conclusion": [
+    "By learning about the rule for changing singular nouns ending in consonant + y to plural form, students will improve their grammar skills and be able to form correct plurals in their writing."
+  ]
+},
 
 
 // Lesson 3
-
+{
+  "title": "Punctuate Four Sentence Types",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Punctuate Four Sentence Types",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about the four basic sentence types: statements, questions, commands, and exclamations, focusing on punctuation.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed examples of sentences"
+  ],
+  "objectives": [
+    "Students will learn about the four basic types of sentences: statements, questions, commands, and exclamations.",
+    "Students will understand the purpose and correct punctuation for each sentence type.",
+    "Students will practice identifying and punctuating different types of sentences."
+  ],
+  "rationale": [
+    "Understanding the four sentence types and using correct punctuation is fundamental for clear communication in writing."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, practice exercises, and student-created examples to reinforce the four sentence types and punctuation rules."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Sentence Types</b>:<br><br>Students will learn about the four basic types of sentences: statements, questions, commands, and exclamations. Each sentence type has a specific purpose and ends with a distinct punctuation mark. For example, a statement ends with a period, a question ends with a question mark, a command ends with a period, and an exclamation ends with an exclamation mark.<br><br>Examples:<br>Statement: \"The sky is blue.\"<br>Question: \"What is your name?\"<br>Command: \"Please close the door.\"<br>Exclamation: \"Wow, that’s amazing!\"",
+      "<b>Part 2: Identifying Sentence Types</b>:<br><br>Students will practice identifying sentence types by looking at punctuation marks at the end of sentences. They will categorize sentences into the four types based on their endings.<br><br>Explanation: Look at the punctuation mark at the end of each sentence. If it’s a period, it could be a statement or command. If it’s a question mark, it’s a question. If it’s an exclamation mark, it’s an exclamation.",
+      "<b>Part 3: Punctuation Rules</b>:<br><br>Students will review the punctuation rules for each sentence type:<br><br>Statement: A sentence that makes a declaration or tells something. (Punctuation: Period)<br>Example: \"I love reading books.\"<br><br>Question: A sentence that asks about something or seeks information. (Punctuation: Question mark)<br>Example: \"Do you like chocolate?\"<br><br>Command: A sentence that tells someone to do something or gives instructions. (Punctuation: Period)<br>Example: \"Please put your shoes away.\"<br><br>Exclamation: A sentence that shows strong emotion, excitement, or surprise. (Punctuation: Exclamation mark)<br>Example: \"That was awesome!\"",
+      "<b>Part 4: Practicing Sentence Types</b>:<br><br>Students will practice identifying sentence types and adding punctuation to sentences.<br><br>Examples:<br>\"The dog ran fast\" – This is a statement. It ends with a period.<br>\"Where are my shoes?\" – This is a question. It ends with a question mark.<br>\"Take out your books\" – This is a command. It ends with a period.<br>\"That was so fun!\" – This is an exclamation. It ends with an exclamation mark.",
+      "<b>Part 5: Exercise</b>:<br><br>Students will punctuate sentences and identify their types. They will read each sentence, add the correct punctuation mark, and classify the sentence.<br><br>1. \"Please pass me the pencil\"<br>2. \"I can’t wait to go to the zoo\"<br>3. \"Do you like pizza\"<br>4. \"Wow, look at that big rainbow\"<br>5. \"Can you help me with this question\"<br><br>Answer Key:<br>1. \"Please pass me the pencil.\" (Command)<br>2. \"I can’t wait to go to the zoo!\" (Exclamation)<br>3. \"Do you like pizza?\" (Question)<br>4. \"Wow, look at that big rainbow!\" (Exclamation)<br>5. \"Can you help me with this question?\" (Question)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' ability to identify and classify sentence types during the practice and exercise sections.",
+    "<b>Exercise</b>: The 5-question exercise will evaluate students' understanding of punctuation rules for each sentence type."
+  ],
+  "conclusion": [
+    "By learning about the four sentence types and their punctuation, students will improve their writing and communication skills."
+  ]
+},
 
 // Lesson 4
-
+{
+  "title": "Singular and Plural Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Singular and Plural Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "4",
+  "description": "This lesson teaches students how to form plural nouns, focusing on regular plurals, and nouns ending in -s, -ch, -sh, -x, and those that change when ending in a consonant + y.",
+  "materials": [
+    "Whiteboard and markers",
+    "Handouts with examples of singular and plural nouns",
+    "Flashcards with singular and plural nouns"
+  ],
+  "objectives": [
+    "Students will understand how to form plural nouns by applying rules for regular plurals.",
+    "Students will recognize nouns ending in -s, -ch, -sh, and -x, and form their plural forms.",
+    "Students will understand how to change nouns ending in consonant + y into plural forms."
+  ],
+  "rationale": [
+    "Understanding how to form plural nouns is an essential part of language development and helps students express themselves accurately."
+  ],
+  "methodology": [
+    "The lesson will include explanations, examples, discussions, and class activities to reinforce the understanding of singular and plural forms."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Singular and Plural Nouns</b>:<br><br>Singular Nouns: These refer to one person, animal, thing, or place.<br>Example: One cat, one dog, one book.<br><br>Plural Nouns: These refer to more than one person, animal, thing, or place.<br>Example: Two cats, three dogs, five books.<br><br>We form the plural of most nouns by adding -s to the singular form.",
+      "<b>Part 2: Rules for Plural Forms</b>:<br><br>1. Adding -s:<br>For most singular nouns, add -s to make it plural.<br>Examples:<br>one apple → two apples<br>one chair → two chairs<br><br>2. Adding -es:<br>If the singular noun ends in -s, -ch, -sh, or -x, add -es to make it plural.<br>Examples:<br>one box → two boxes<br>one dish → two dishes<br>one class → two classes<br><br>3. Changing -y to -ies:<br>If the singular noun ends with a consonant + y, change the 'y' to 'i' and add -es.<br>Examples:<br>one baby → two babies<br>one city → two cities",
+      "<b>Part 3: Examples and Practice</b>:<br><br>Let’s look at some examples:<br>Singular: dog → Plural: dogs (add -s)<br>Singular: church → Plural: churches (add -es)<br>Singular: box → Plural: boxes (add -es)<br>Singular: party → Plural: parties (change y to i and add -es)",
+      "<b>Part 4: More Practice</b>:<br><br>Let’s go over some more examples and rules together:<br>1. Bus → What’s the plural form?<br>Answer: buses (ends in -s, so add -es).<br>2. Lady → What’s the plural form?<br>Answer: ladies (ends in consonant + y, change y to i and add -es).<br>3. Beach → What’s the plural form?<br>Answer: beaches (ends in -ch, so add -es).",
+      "<b>Part 5: Exercise (Class Activity)</b>:<br><br>Instructions: Read the sentences below. Write the correct plural form of the underlined nouns.<br>1. I see one cat in the garden. Now I see two _______.<br>2. She has one box of crayons. Now she has three _______.<br>3. There is one city by the river. There are two _______.<br>4. He eats one apple every day. He eats five _______.<br>5. We have one party this month. We will have two _______.<br><br>Bonus Exercise: Choose five singular nouns from your environment (classroom, home, etc.) and write their plural forms."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the discussions and class activities.",
+    "<b>Exercise</b>: The class activity will assess students' understanding of plural noun rules and their ability to apply them correctly."
+  ],
+  "conclusion": [
+    "By following the simple rules of adding -s, -es, or changing -y to -ies, students can easily form plural nouns. Keep practicing to improve your understanding!"
+  ]
+},
 
 // Lesson 5
 
@@ -1040,32 +1616,410 @@ const lessonPlans15a = [
 	
 	// Week 9
 // Lesson 1
-
+{
+  "title": "Irregular Plural Nouns and Collective Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Irregular Plural Nouns and Collective Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to irregular plural nouns, which do not follow typical pluralization rules, and collective nouns, which refer to groups of things considered as one unit.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with examples of irregular plural nouns and collective nouns",
+    "Worksheet with exercises"
+  ],
+  "objectives": [
+    "Students will recognize and use irregular plural nouns in sentences.",
+    "Students will understand and use collective nouns correctly.",
+    "Students will differentiate between irregular plural nouns and collective nouns."
+  ],
+  "rationale": [
+    "Understanding irregular plural nouns and collective nouns is essential for enhancing students' grammar skills and improving their ability to write and speak clearly."
+  ],
+  "methodology": [
+    "The lesson will include a combination of explanation, examples, and student practice to help them differentiate and use irregular plural nouns and collective nouns."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Irregular Plural Nouns</b>:<br><br>In the English language, most plural nouns are formed by simply adding an -s or -es at the end. For example, the plural of cat is cats, and the plural of box is boxes. However, some nouns have irregular plural forms, meaning they don't follow the usual rules. These nouns change in a special way when they become plural.<br><br>Examples:<br><br>The plural of man is men.<br>The plural of woman is women.<br>The plural of child is children.<br>The plural of mouse is mice.<br><br>It's important to recognize these irregular plurals, as they don't follow the typical pattern!",
+      "<b>Part 2: Introduction to Collective Nouns</b>:<br><br>A collective noun is a word that refers to a group of people, animals, or things. These nouns are singular in form but represent more than one thing as a whole. Collective nouns can refer to groups of things that are considered as one unit.<br><br>Examples:<br><br>A flock of birds<br>A team of players<br>A family of people<br>A herd of cows<br>A class of students<br><br>Even though collective nouns refer to a group, they are treated as singular when used in a sentence.",
+      "<b>Part 3: Key Differences Between Irregular Plurals and Collective Nouns</b>:<br><br>Irregular Plurals:<br>These are nouns that have unique plural forms. They don’t follow the regular rules of adding -s or -es to make the plural.<br>Examples: men, women, mice, children.<br><br>Collective Nouns:<br>These are nouns that name a group of people, animals, or things. They are singular in form but refer to a collection of things.<br>Examples: team, flock, family, class.<br><br>Quick Tip:<br>Irregular plural nouns describe changes to individual nouns (e.g., one mouse becomes many mice). Collective nouns, however, describe groups or collections of things or people.",
+      "<b>Part 4: Using Irregular Plural Nouns and Collective Nouns in Sentences</b>:<br><br>Now that we understand the difference between irregular plural nouns and collective nouns, let's practice using them in sentences.<br><br>Examples of sentences with Irregular Plurals:<br>The men are going to the store.<br>The mice ran across the field.<br>There are children playing outside.<br><br>Examples of sentences with Collective Nouns:<br>The team won the game.<br>We saw a flock of birds in the sky.<br>The family is going on vacation.",
+      "<b>Part 5: Exercise – Irregular Plural Nouns and Collective Nouns</b>:<br><br><b>Task 1:</b> Choose the correct plural form from the options:<br>1. The plural of woman is:<br>a) womans<br>b) womens<br>c) women<br>2. The plural of child is:<br>a) children<br>b) childs<br>c) childes<br>3. The plural of mouse is:<br>a) mice<br>b) mouses<br>c) mousees<br><br><b>Task 2:</b> Identify whether the following nouns are irregular plural nouns or collective nouns:<br>1. A team of players<br>2. Mice<br>3. A family of four<br>4. Children<br>5. A flock of birds<br><br><b>Task 3:</b> Write a sentence using one of the irregular plural nouns and one of the collective nouns. For example, “The children played with the dog from the family.”"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the explanations and exercises.",
+    "<b>Exercise</b>: The students' responses to the exercises will be evaluated for understanding irregular plural nouns and collective nouns."
+  ],
+  "conclusion": [
+    "Today, we learned about irregular plural nouns that don't follow the regular rules for making plural forms and collective nouns that refer to groups of things. By practicing, you'll become better at recognizing and using these types of nouns in sentences!"
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding More Irregular Plural Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "More Irregular Plural Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to irregular plural nouns, focusing on those that do not follow the usual -s or -es rule. Students will explore nouns that stay the same in both singular and plural forms, as well as those that change their spelling.",
+  "materials": [
+    "Whiteboard and markers",
+    "Flashcards with singular and plural nouns",
+    "Student notebooks"
+  ],
+  "objectives": [
+    "Introduce the concept of irregular plural nouns and how they don’t follow the usual 'add -s or -es' rule.",
+    "Learn about irregular plural nouns that have the same form in singular and plural.",
+    "Understand that some irregular plural nouns change their spelling without adding -s or -es."
+  ],
+  "rationale": [
+    "Understanding irregular plural nouns enhances vocabulary and grammar skills, helping students use correct plural forms in writing and speech."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and interactive activities to teach irregular plural nouns."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Objective:<br>Introduce the concept of irregular plural nouns and how they don’t follow the usual 'add -s or -es' rule.<br><br>Explanation:<br>Begin by asking the class: 'How do we usually make words plural?' (Expected answers: add -s or -es).<br>Explain: 'Some words don’t follow these rules. These are called irregular plural nouns.'<br>'For example, we say one sheep and many sheep — not sheeps!'<br>Use simple sentences to show how irregular plurals work:<br><br>I saw one deer in the forest.<br>Yesterday, I saw five deer in the forest.",
+      "<b>Part 2: Nouns that Stay the Same (10 minutes)</b>:<br><br>Objective:<br>Learn about irregular plural nouns that have the same form in singular and plural.<br><br>Examples:<br>| Singular | Plural | Singular | Plural |<br>|---------|-------|---------|-------|<br>| sheep   | sheep | fish    | fish  |<br>| deer    | deer  | moose   | moose |<br>| scissors| scissors | salmon | salmon |<br><br>Explanation:<br>'Some words use the same word for both singular and plural.'<br>Show example sentences:<br><br>The sheep is grazing. (singular)<br>The sheep are grazing. (plural)<br><br>Highlight how words like scissors are always plural, even if it’s one pair: 'Pass me the scissors.'<br><br>Class Activity:<br>Ask students to create their own sentences using these words.",
+      "<b>Part 3: Nouns with Spelling Changes (10 minutes)</b>:<br><br>Objective:<br>Understand that some irregular plural nouns change their spelling without adding -s or -es.<br><br>Examples:<br>| Singular | Plural | Singular | Plural |<br>|---------|-------|---------|-------|<br>| tooth   | teeth | goose   | geese |<br><br>Explanation:<br>'Some words change their spelling completely.'<br><br>Show example sentences:<br><br>I lost a tooth. (singular)<br>I have 32 teeth. (plural)<br><br>Discuss how these words 'transform' instead of just adding a letter.<br><br>Class Activity:<br>Students say the singular and plural forms aloud, repeating after the teacher.",
+      "<b>Part 4: Quick Recap and Discussion (5 minutes)</b>:<br><br>Objective:<br>Summarize what was learned about irregular plural nouns.<br><br>Review:<br>Some plural nouns stay the same (sheep, deer).<br>Some change their spelling (tooth → teeth, goose → geese).<br><br>Discussion Questions:<br>1. Can you name an animal whose plural form doesn’t change?<br>2. What happens to the word 'tooth' when it becomes plural?<br>3. Why do you think these words don’t just add -s or -es?",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>Objective:<br>Assess student understanding with a fun matching activity and sentence practice.<br><br>Activity:<br>A) Match the singular noun to its correct plural form:<br>1. sheep → a) teeth<br>2. tooth → b) deer<br>3. deer → c) sheep<br>4. goose → d) geese<br><br>B) Fill in the blanks:<br>1. I saw two ______ (moose) in the forest.<br>2. She has clean white ______ (tooth).<br>3. There are many ______ (fish) in the pond.<br>4. We cut paper with ______ (scissor).<br><br>C) Creative Writing:<br>Write two sentences using any irregular plural nouns we learned today."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in discussions and activities.",
+    "<b>Exercise</b>: The matching activity and sentence practice will assess students’ understanding of irregular plural nouns."
+  ],
+  "conclusion": [
+    "By learning about irregular plural nouns, students will be able to identify and use these nouns correctly, enhancing their grammar and writing skills."
+  ],
+  "homework": [
+    "Find 3 more irregular plural nouns at home or in books and write them in both their singular and plural forms."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Spelling Plural Nouns — Irregular Forms",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Spelling Plural Nouns — Irregular Forms",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concept of plural nouns and focuses on irregular plural forms, emphasizing that not all plurals are formed by adding -s or -es.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheet with plural noun exercises"
+  ],
+  "objectives": [
+    "Introduce the concept of plural nouns and irregular plural forms.",
+    "Explain that while most plural nouns are formed by adding -s or -es, some follow special rules.",
+    "Provide examples of irregular plural nouns that change spelling.",
+    "Discuss plural nouns that have no spelling change.",
+    "Engage students with interactive activities to reinforce learning."
+  ],
+  "rationale": [
+    "Understanding irregular plural nouns helps students improve their spelling and vocabulary skills.",
+    "Recognizing these special cases prevents common grammatical errors in writing and speaking."
+  ],
+  "methodology": [
+    "The lesson will use direct explanation, examples, class discussions, and interactive activities."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b><br><br><b>Objective:</b><br>Introduce the concept of plural nouns and irregular plural forms.<br><br>Explain that while most plural nouns are formed by adding -s or -es, some follow special rules.<br><br><b>Teacher's Talk:</b><br>“Today, we are going to learn about plural nouns. We know that most plural nouns are made by adding -s or -es, like cats or dishes. But did you know that some words change their spelling completely when they become plural, and some don’t change at all?”<br><br><b>Examples on board:</b><br>man → men<br>child → children<br>fish → fish<br>sheep → sheep",
+      "<b>Part 2: Explanation (10 minutes)</b><br><br><b>A) Irregular Plural Nouns that Change Spelling:</b><br>Explain that some plural nouns change spelling but don’t just add -s or -es.<br><br><b>Examples:</b><br>man → men<br>woman → women<br>child → children<br>tooth → teeth<br>mouse → mice<br><br><b>B) Plural Nouns with No Spelling Change:</b><br>Some plural nouns look the same as the singular form.<br><br><b>Examples:</b><br>fish → fish<br>sheep → sheep<br>deer → deer<br>moose → moose<br><br><b>Tip:</b> \"You can check a noun’s plural form in the dictionary if you’re unsure!\"",
+      "<b>Part 3: Class Discussion (10 minutes)</b><br><br>Ask the class:<br>1. “Can you think of any other words that change spelling when they are plural?”<br>2. “Do you know any words that don’t change at all when they are plural?”<br><br><b>Interactive board activity:</b><br>Write the following singular nouns on the board and ask students to guess their plural forms:<br>- goose<br>- foot<br>- leaf<br>- ox<br>- moose<br><br>Discuss their answers and correct any mistakes as a class.",
+      "<b>Part 4: Task (10 minutes)</b><br><br>Distribute a worksheet or write the following task on the board:<br><br><b>A) Change these singular nouns into plural nouns:</b><br>1. mouse → ________<br>2. tooth → ________<br>3. sheep → ________<br>4. woman → ________<br>5. deer → ________<br><br><b>B) Fill in the blanks with the correct plural form:</b><br>1. One child, two ________.<br>2. One foot, two ________.<br>3. One fish, many ________.<br>4. One man, several ________.<br>5. One goose, a group of ________.",
+      "<b>Part 5: Conclusion & Homework (5 minutes)</b><br><br><b>Review:</b><br>Remind the class that while most plural nouns add -s or -es, some have special rules.<br>Encourage students to use a dictionary when unsure about irregular plurals.<br><br><b>Homework:</b><br>Write 5 sentences using both singular and plural forms of irregular nouns.<br><br><b>Example:</b> The child played in the park. The children played in the park."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students' participation during discussions and their ability to identify plural forms.",
+    "<b>Worksheet:</b> The task activity will evaluate students' understanding of irregular plural nouns."
+  ],
+  "conclusion": [
+    "By learning about irregular plural nouns, students will enhance their vocabulary and grammar skills, helping them write and speak more accurately."
+  ]
+},
 
 // Lesson 4
-
+{
+  "title": "Special Nouns — Irregular Plurals & Unchanging Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Special Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "4",
+  "description": "This lesson helps students understand special nouns, focusing on irregular plural nouns and unchanging nouns, and how they differ from regular plural forms.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or flashcards showing irregular and unchanging nouns",
+    "Worksheet with exercises"
+  ],
+  "objectives": [
+    "Understand that some plural nouns do not follow the regular rules of adding -s or -es.",
+    "Identify plural nouns that change spelling or remain the same as their singular form."
+  ],
+  "rationale": [
+    "Learning about special nouns helps students expand their vocabulary and use correct grammar when speaking and writing."
+  ],
+  "methodology": [
+    "The lesson will use explanations, board work, discussions, and student participation to explore irregular and unchanging plural nouns."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br><b>Objective:</b><br>Understand that some plural nouns do not follow the regular rules of adding -s or -es.<br>Identify plural nouns that change spelling or remain the same as their singular form.<br><br><b>Teacher Explanation:</b><br>Begin by asking: “How do we usually make a noun plural?”<br>Students will likely say by adding -s (e.g., cats) or -es (e.g., buses).<br>Explain that while this is true for most nouns, some special nouns do not follow this rule.<br><br>Introduce the two types of special nouns:<br>1. <b>Irregular plural nouns:</b> Nouns that change spelling in the plural form (e.g., man → men, child → children).<br>2. <b>Unchanging plural nouns:</b> Nouns that stay the same whether singular or plural (e.g., deer → deer, sheep → sheep).",
+      "<b>Part 2: Irregular Plural Nouns (15 minutes)</b>:<br><br><b>Teacher Explanation:</b><br>Write the following singular and plural pairs on the board:<br>- man → men<br>- woman → women<br>- child → children<br>- tooth → teeth<br>- foot → feet<br>- mouse → mice<br>- goose → geese<br><br>Discuss how these nouns change their spelling instead of adding -s or -es.<br>Explain that these are called irregular plural nouns because they don’t follow the usual pattern.<br><br><b>Student Participation:</b><br>Ask students if they can think of any other irregular plural nouns.<br>Write their answers on the board and correct them together.",
+      "<b>Part 3: Unchanging Nouns (15 minutes)</b>:<br><br><b>Teacher Explanation:</b><br>Now, let’s talk about special nouns that don’t change at all in their plural form.<br>Write these examples on the board:<br>- sheep → sheep<br>- deer → deer<br>- fish → fish<br>- moose → moose<br><br>Explain that whether you are talking about one deer or many deer, the word stays the same. These are called unchanging nouns.<br><br><b>Student Participation:</b><br>Ask the class:<br>- “If I saw five sheep in the field, what would I say?” (Answer: I saw five sheep.)<br>- “If I caught three fish, what would I say?” (Answer: I caught three fish.)<br><br>Encourage students to form their own sentences using these unchanging nouns.",
+      "<b>Part 4: Class Discussion (10 minutes)</b>:<br><br>Review both types of special nouns.<br>Compare the two:<br>- “How are irregular and unchanging nouns different?”<br>- “Why do you think we have these special rules in English?”<br><br>Use simple language and fun examples to reinforce the concepts.<br>Encourage questions and let students share their thoughts.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br><b>Instructions:</b> Fill in the blanks with the correct plural form of the noun in parentheses.<br>1. There are two ___ (man) working in the garden.<br>2. I saw five ___ (deer) in the forest.<br>3. My little brother has lost two ___ (tooth).<br>4. The farmer owns ten ___ (sheep).<br>5. We caught three ___ (fish) in the pond.<br>6. There are three ___ (child) playing outside.<br>7. The cat chased two ___ (mouse).<br>8. I have clean ___ (foot) after playing in the mud.<br>9. She saw a group of ___ (moose) near the lake.<br>10. The old woman has four ___ (woman) helping her at home.<br><br><b>Bonus Question:</b><br>Write a sentence using an irregular plural noun.<br>Write a sentence using an unchanging plural noun."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and exercises.",
+    "<b>Exercise</b>: The 10-question exercise will assess the students' understanding of irregular and unchanging plural nouns."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand that some plural nouns change spelling instead of adding -s or -es (irregular plurals), while others remain the same (unchanging nouns).",
+    "Students will be encouraged to spot special nouns when reading books or writing their own sentences."
+  ]
+},
 
 // Lesson 5
 
 
 	// Week 10
 // Lesson 1
-
+{
+  "title": "Combining Sentences — Subject Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Combining Sentences — Subject Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students how to combine sentences by joining two nouns in the subject using the conjunction 'and'.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence strips",
+    "Worksheets"
+  ],
+  "objectives": [
+    "Students will learn how to identify subjects and predicates in sentences.",
+    "Students will understand how to combine subjects using the conjunction 'and'.",
+    "Students will practice forming sentences with combined subjects.",
+    "Students will recognize the importance of verb agreement with plural subjects.",
+    "Students will apply their knowledge by combining sentence pairs independently."
+  ],
+  "rationale": [
+    "Combining sentences helps students write more smoothly and avoid repetition. It enhances sentence variety and improves writing clarity."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, class discussions, guided practice, and independent exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5-10 minutes)</b>:<br><br><b>Objective:</b><br>Students will learn how to combine sentences by joining two nouns in the subject using the conjunction 'and'.<br><br><b>Explain:</b><br>Every sentence has a subject (who or what the sentence is about) and a predicate (what the subject does or is).<br><br>Sometimes, we have two short sentences with the same predicate. Instead of keeping them separate, we can combine the subjects to make the sentence smoother.<br><br>We use the word 'and' to join the two subjects.<br><br><b>Example:</b><br>Lisa sings.<br>John sings.<br><br>Combined: Lisa and John sing.<br><br><b>Class discussion:</b><br>Ask: 'Why do you think combining sentences makes writing better?'<br>(Guide students to understand that combining sentences avoids repetition and makes writing more interesting.)",
+      "<b>Part 2: Explanation (10 minutes)</b>:<br><br><b>How to Combine Sentences:</b><br><br>1. <b>Find the subjects:</b> Identify the nouns in each sentence.<br><br>2. <b>Check the predicate:</b> If the action (verb) is the same in both sentences, you can combine them.<br><br>3. <b>Join the subjects:</b> Use 'and' to connect the nouns.<br><br>4. <b>Make the verb agree:</b> Ensure the verb matches the new combined subject (usually plural).<br><br><b>Examples:</b><br>The cat runs. The dog runs. → The cat and the dog run.<br><br>Tom plays soccer. Sam plays soccer. → Tom and Sam play soccer.<br><br><b>Tip:</b><br>If the new subject is plural (two or more people or things), use a plural verb: run, play, jump.<br>If the subject is singular (one person or thing), use a singular verb: runs, plays, jumps.",
+      "<b>Part 3: Guided Practice (10 minutes)</b>:<br><br>Write these sentence pairs on the board and work through them as a class:<br><br>1. The bird flies. The bat flies.<br><br>2. Mary reads. John reads.<br><br>3. The lion roars. The tiger roars.<br><br>4. Ben swims. Sam swims.<br><br>5. The apple fell. The orange fell.<br><br>Go through each step: identifying the subjects, combining them with 'and', and ensuring the verb agrees.",
+      "<b>Part 4: Independent Practice (10-15 minutes)</b>:<br><br><b>Instructions:</b><br>Combine the following pairs of sentences by joining the subjects with 'and'. Make sure the verb agrees with the new subject.<br><br>1. The frog hops. The rabbit hops.<br><br>2. Jack paints. Jill paints.<br><br>3. The car moves. The bus moves.<br><br>4. Lucy sings. Sarah sings.<br><br>5. The tree shakes. The flower shakes.<br><br>Encourage students to check their work by reading the new sentences aloud.",
+      "<b>Part 5: Exercise (Homework or In-Class Task)</b>:<br><br><b>Task:</b><br>Combine these sentences into one sentence by joining the subjects:<br><br>1. The dog barks. The cat barks.<br><br>2. Tom jumps. Jerry jumps.<br><br>3. The sun shines. The moon shines.<br><br>4. The boy laughs. The girl laughs.<br><br>5. The book falls. The pencil falls.<br><br><b>Bonus question:</b><br>Write your own pair of sentences and combine them!"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the class discussion and guided practice.",
+    "<b>Exercise</b>: The independent practice and final task will be reviewed to check if students correctly combined subjects and used appropriate verbs."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand how to combine sentences by joining subjects using 'and'. They will know how to identify subjects, check predicates, and adjust verbs for agreement, helping them write smoother, more interesting sentences."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Combining Sentences — Predicate Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Combining Sentences using Predicate Nouns",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on teaching students how to recognize predicate nouns and combine sentences by joining predicate nouns using 'and'.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sentence cards for practice",
+    "Exercise sheets"
+  ],
+  "objectives": [
+    "Understand what predicate nouns are.",
+    "Recognize predicate nouns in sentences.",
+    "Learn how to combine sentences by joining predicate nouns.",
+    "Practice combining sentences using predicate nouns."
+  ],
+  "rationale": [
+    "Learning to combine sentences using predicate nouns helps students create smoother, less repetitive writing. It improves sentence structure and makes their ideas clearer."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, guided practice, class discussions, and independent exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Predicate Nouns</b>:<br><br>Begin with a quick review of what a predicate is:<br>\"The predicate of a sentence tells what the subject does or is.\"<br><br>Introduce predicate nouns:<br>\"A predicate noun comes after a linking verb (like 'is', 'are', 'was', 'were') and tells more about the subject.\"<br><br>Examples:<br>Jane is a doctor.<br>My uncle was a farmer.<br><br>Ask students to spot the predicate nouns in these sentences.",
+      "<b>Part 2: Combining Sentences Using Predicate Nouns</b>:<br><br>Explain how we can combine sentences with predicate nouns:<br>\"We can combine two sentences by joining their predicate nouns using 'and'.\"<br><br>Demonstrate:<br>The cat is a pet.<br>The dog is a pet.<br><br>Combined: The cat and the dog are pets.<br><br>Point out how 'and' joins the predicate nouns, and the repeated words are removed.",
+      "<b>Part 3: Guided Practice</b>:<br><br>Work through examples as a class:<br><br>1. Paul is a student.<br>John is a student.<br><br>Combined: Paul and John are students.<br><br>2. The lion is a hunter.<br>The tiger is a hunter.<br><br>Combined: The lion and the tiger are hunters.<br><br>Ask students to suggest their own pairs of sentences, and write the combined versions on the board.",
+      "<b>Part 4: Class Discussion</b>:<br><br>Discuss why combining sentences is useful:<br>\"It makes writing smoother and less repetitive.\"<br><br>Encourage students to share their thoughts:<br>\"Why do you think combining sentences helps us write better stories or essays?\"",
+      "<b>Part 5: Independent Practice/Exercise</b>:<br><br>Combine the sentences below by joining the predicate nouns:<br><br>1. The giraffe is an animal. The zebra is an animal.<br><br>2. Sarah is a teacher. Tom is a teacher.<br><br>3. The apple is a fruit. The banana is a fruit.<br><br>4. The rabbit is a pet. The hamster is a pet.<br><br>5. The book is a gift. The toy is a gift.<br><br>Bonus: Ask students to write two sentences of their own and combine them using predicate nouns."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and guided practice.",
+    "<b>Exercise</b>: The independent practice will be used to assess how well students can combine sentences using predicate nouns."
+  ],
+  "conclusion": [
+    "Recap what predicate nouns are.",
+    "Remind students how 'and' helps to combine sentences smoothly.",
+    "Praise their efforts and creativity."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Commas in Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Using Commas Correctly",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to correctly use commas in dates, addresses, lists, and direct speech.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets with exercises",
+    "Pencils and erasers"
+  ],
+  "objectives": [
+    "Students will learn how to use commas correctly in dates, addresses, lists, and direct speech.",
+    "Students will apply the rules of commas in their own writing.",
+    "Students will be able to identify correct and incorrect comma usage in sentences."
+  ],
+  "rationale": [
+    "Understanding the proper use of commas is essential for clear and effective communication in writing."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and interactive activities to teach the use of commas."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Using Commas in Dates</b>:<br><br>Commas are used in dates to separate the day from the year. For example:<br><br>Correct: May 12, 2023<br>Incorrect: May 12 2023<br><br>When you write a full date, always use a comma between the day of the month and the year. For example, 'I will go to the party on November 5, 2023.'<br><br>Activity: Write 3 different dates with the correct use of commas.",
+      "<b>Part 2: Using Commas in Addresses</b>:<br><br>Commas are used to separate the name of a city or town from a state or country. For example:<br><br>Correct: I live in Paris, France.<br>Incorrect: I live in Paris France.<br><br>Commas are also used to separate parts of a street address, such as the street, town, and state. For example:<br><br>Correct: 123 Main Street, Springfield, Illinois<br>Incorrect: 123 Main Street Springfield Illinois<br><br>Activity: Write 3 addresses using commas correctly.",
+      "<b>Part 3: Using Commas in a Series</b>:<br><br>When listing three or more things in a sentence, use commas to separate each item. Do not use a comma after the last word in the list. For example:<br><br>Correct: I have a pencil, a notebook, and an eraser.<br>Incorrect: I have a pencil, a notebook, and, an eraser.<br><br>Activity: Write 3 sentences with a list of three or more items using commas correctly.",
+      "<b>Part 4: Using Commas in Direct Speech and After Yes/No</b>:<br><br>When speaking directly to someone, use a comma after their name or the word you are addressing them with. For example:<br><br>'John, can you help me?'<br>'Yes, I will help you.'<br><br>Similarly, when starting a sentence with 'yes' or 'no,' use a comma after these words. For example:<br><br>'No, I don't want to go.'<br>'Yes, I would love to go!'<br><br>Activity: Write 3 sentences with 'yes' or 'no' at the beginning, and 3 sentences where you address someone directly.",
+      "<b>Part 5: Exercise</b>:<br><br>Fill in the blanks with commas where needed:<br><br>1. I have class on August 10 2025.<br>2. We are going to New York New York this weekend.<br>3. My favorite foods are pizza ice cream and burgers.<br>4. Yes I can help you with your homework.<br>5. Sarah can you give me the book?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the activities and class discussions.",
+    "<b>Exercise</b>: The exercise will evaluate students' understanding of comma usage in various sentence structures."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will have a solid understanding of how to use commas correctly in dates, addresses, lists, and direct speech. They will be able to apply these rules in their writing."
+  ]
+},
 
 // Lesson 4
-
+{
+  "title": "Combining Sentences with Commas",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Combining Sentences with Commas",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "4",
+  "description": "This lesson teaches students how to correctly use commas in sentences, specifically in dates, addresses, lists, and direct address.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed worksheets for exercise",
+    "Examples of sentences with commas"
+  ],
+  "objectives": [
+    "Students will learn how to use commas correctly in sentences, focusing on dates, addresses, lists, and direct address.",
+    "Students will practice identifying and correcting sentences with missing commas.",
+    "Students will apply the correct usage of commas in their own sentences."
+  ],
+  "rationale": [
+    "Understanding the correct use of commas helps students to write clear and readable sentences, improving their communication skills."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, examples, and practice exercises to help students master comma usage."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Comma in Dates</b>:<br><br>When writing a date, use a comma between the day and the year.<br>Example:<br>Correct: 'I was born on May 15, 2012.'<br>Incorrect: 'I was born on May 15 2012.'<br><br>Why it's important: Commas help to separate parts of the date, making it easier to read and understand.",
+      "<b>Part 2: Comma in Addresses</b>:<br><br>Use a comma between the name of a city or town and the state or country. Also, use commas to separate different parts of an address, such as street, town, and state.<br>Example:<br>Correct: 'I live in Springfield, Ohio, on Maple Street.'<br>Incorrect: 'I live in Springfield Ohio on Maple Street.'<br><br>Why it's important: Commas clarify where a person lives, and help distinguish between different parts of the address.",
+      "<b>Part 3: Comma in a Series</b>:<br><br>Use commas to separate three or more items in a list or series. Do not place a comma after the last item.<br>Example:<br>Correct: 'I like apples, bananas, oranges, and grapes.'<br>Incorrect: 'I like apples, bananas, oranges, and, grapes.'<br><br>Why it's important: Commas make the items in a list clear and easy to read.",
+      "<b>Part 4: Comma with Direct Address</b>:<br><br>Use a comma after the name of a person being spoken to. Also, use commas after words like 'yes' or 'no' when they are used at the beginning of a sentence.<br>Examples:<br>'Sarah, can you help me?'<br>'Yes, I would like to go.'<br>'No, I do not have the answer.'<br><br>Why it's important: Commas help separate the person being addressed from the rest of the sentence and show that you are speaking directly to someone.",
+      "<b>Part 5: Exercise</b>:<br><br>Read the sentences below and add the correct commas where needed:<br>1. I live in Miami Florida on Ocean Drive.<br>2. On April 10 2020, we went on a family trip.<br>3. My favorite colors are red blue and green.<br>4. John do you have the book I asked for?<br>5. Yes I will go to the store later.<br>6. The concert will be in New York New York on Main Street.<br>7. Look at that car Sarah it’s amazing!<br>8. I have a dog a cat a rabbit and a bird.<br><br>Activity: Students will then write three of their own sentences using commas correctly based on what they’ve learned."
+    ]
+  ],
+  "assessments": [
+    "<b>Exercise</b>: The students' ability to add commas correctly to sentences will be assessed.",
+    "<b>Observation</b>: The teacher will observe students' participation in class discussions and activities."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students should be able to use commas correctly in different sentence structures and understand their importance in improving sentence clarity."
+  ]
+},
 
 // Lesson 5
 
