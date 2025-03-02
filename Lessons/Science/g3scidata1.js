@@ -1,4 +1,4 @@
-const lessonPlans24a = [
+lconst lessonPlans24a = [
 
 // Week 2
 // Lesson 1
@@ -650,8 +650,7 @@ const lessonPlans24a = [
   ]
 },
 
-// Week 8
-// Lesson 1
+// Lesson 3
 {
   "title": "Major Movable Joints in the Body",
   "school": "Flying Wings Academy",
@@ -662,8 +661,8 @@ const lessonPlans24a = [
   "topic": "Movable Joints: Hip, Wrist, and Ankle",
   "grade": "Wing Whiz",
   "term": "1",
-  "week": "8",
-  "lessonNumber": "1",
+  "week": "7",
+  "lessonNumber": "3",
   "description": "This lesson introduces students to the major movable joints in the body: hip, wrist, and ankle, focusing on their locations, functions, and importance in daily activities.",
   "materials": [
     "Pictures of human joints",
@@ -703,7 +702,8 @@ const lessonPlans24a = [
   ]
 },
 
-// Lesson 2
+// Week 8
+// Lesson 1
 {
   "title": "The Role Played by Bones",
   "school": "Flying Wings Academy",
@@ -712,9 +712,9 @@ const lessonPlans24a = [
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "The Role of Bones in the Human Body",
-  "grade": "Nestlings Navigators",
-  "term": "3",
-  "week": "4",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the roles played by bones in the human body, focusing on support, protection, movement, and their importance in everyday life.",
   "materials": [
@@ -755,26 +755,401 @@ const lessonPlans24a = [
   ]
 },
 
-// Lesson 3
+// Lesson 2
+{
+  "title": "The Role of Bones, Joints, and Muscles",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Role of Bones, Joints, and Muscles",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about the role of bones, joints, and muscles in the human body, focusing on their functions and how they work together to support movement.",
+  "materials": [
+    "Whiteboard and markers",
+    "Skeleton diagram",
+    "Pictures of joints and muscles"
+  ],
+  "objectives": [
+    "Understand the role of bones, joints, and muscles.",
+    "Explain how bones and muscles work together to support the body and help in movement.",
+    "Identify basic joints in their body.",
+    "Participate in exercises that demonstrate the function of these body parts."
+  ],
+  "rationale": [
+    "Understanding the roles of bones, joints, and muscles helps students appreciate how their bodies function and the importance of maintaining strong and healthy bodies."
+  ],
+  "methodology": [
+    "The lesson will use discussions, explanations, drawings, demonstrations, and physical activities to help students grasp the concepts of bones, joints, and muscles."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (What are Bones, Joints, and Muscles?)</b>:<br><br>Discussion:<br>Begin by asking the class:<br>'What helps you stand up, walk, or jump?'<br><br>Explain that bones, joints, and muscles work together to support our body and allow us to move.<br><br>Bones are hard structures inside our body that give us shape and protect important organs.<br>Joints are where two bones meet, allowing us to bend and move.<br>Muscles are soft tissues attached to bones that pull on them to create movement.<br><br>Quick activity:<br>Ask students to touch their arm. Let them feel the hard part (bone) and the soft part that moves when they flex (muscle).",
+      "<b>Part 2: The Function of Bones</b>:<br><br>Explanation:<br>Bones give the body shape and structure — without bones, we would be like jelly!<br><br>Bones also protect important parts of the body:<br>- The skull protects the brain.<br>- The rib cage protects the heart and lungs.<br><br>Bones store minerals like calcium and help produce blood cells.<br><br>Activity:<br>Draw a simple skeleton on the board. Point out major bones like the skull, rib cage, spine, and leg bones. Let students name the bones they know.",
+      "<b>Part 3: The Function of Joints</b>:<br><br>Explanation:<br>Joints connect bones and allow movement.<br><br>There are different types of joints:<br>- Hinge joints (like in the knee and elbow) — move back and forth like a door.<br>- Ball-and-socket joints (like in the shoulder and hip) — move in all directions.<br><br>Joints are important because they let us bend, twist, and turn.<br><br>Demonstration:<br>Ask students to bend their arms (elbow) and rotate their arms (shoulder) to feel the difference between hinge and ball-and-socket joints.",
+      "<b>Part 4: The Function of Muscles</b>:<br><br>Explanation:<br>Muscles pull on bones to make them move — they work in pairs: when one muscle contracts, the other relaxes.<br><br>Without muscles, we wouldn't be able to run, jump, or even smile!<br><br>There are voluntary muscles (we control them, like in our arms and legs) and involuntary muscles (like the heart, which works without us thinking about it).<br><br>Fun fact: The strongest muscle in the body is the jaw muscle — it helps us chew!<br><br>Activity:<br>Let students clench their fists to feel their arm muscles tighten, showing how muscles contract.",
+      "<b>Part 5: Exercise — Let’s Move!</b>:<br><br>Objective: To show how bones, joints, and muscles work together.<br><br>Instructions:<br>1. Stretch: Touch toes, reach up high — feel joints moving!<br>2. Jumping jacks: Bones give you structure, joints let you bend, and muscles make you move.<br>3. Arm flex challenge: Flex your arm and feel the muscle contract.<br>4. Balancing act: Stand on one leg — what bones, joints, and muscles help you stay balanced?<br>5. Discussion: After the exercises, ask:<br>- 'Which parts of your body moved?'<br>- 'Did you feel your muscles working?'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions, activities, and physical exercises.",
+    "<b>Class Discussion</b>: The teacher will ask questions to check if students can name bones, joints, and muscles, and explain how they work together."
+  ],
+  "conclusion": [
+    "Bones support the body and protect organs.",
+    "Joints help us bend and move.",
+    "Muscles pull bones to create movement.",
+    "Together, they let us walk, run, and play.",
+    "By understanding these body parts, students learn the importance of taking care of their bones, joints, and muscles."
+  ]
+},
 
+// Lesson 3
+{
+  "title": "What Happens When a Bone Gets Broken",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Understanding Bone Fractures",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students what happens when a bone breaks, how the body reacts, and what to do if someone has a broken bone.",
+  "materials": [
+    "Skeleton diagram or picture",
+    "Ruler or stick",
+    "Paper or cloth for cast demonstration"
+  ],
+  "objectives": [
+    "Students will understand what bones are and their purpose in the body.",
+    "Students will learn what happens when a bone breaks and the different types of fractures.",
+    "Students will understand the effects of a broken bone, such as pain, swelling, and movement loss.",
+    "Students will learn how bones heal with the help of doctors using X-rays and casts.",
+    "Students will practice how to respond if someone has a broken bone."
+  ],
+  "rationale": [
+    "Understanding bone fractures helps students learn about their bodies and how to respond to injuries in a safe and informed way."
+  ],
+  "methodology": [
+    "The lesson will use questions, visual aids, explanations, and role-play exercises to help students understand bone fractures and healing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction — What Are Bones?</b>:<br><br>Start by asking the class:<br>'Can you feel the hard parts under your skin?'<br>'What do you think those hard parts are?'<br><br>Explain:<br>Bones are the hard parts inside our body that give us shape and support.<br>Without bones, we wouldn’t be able to stand, walk, or even hold a pencil.<br><br>Show a simple picture or diagram of a skeleton and point out the main bones — arm (humerus), leg (femur), and ribs.",
+      "<b>Part 2: Main Concept — What Happens When a Bone Breaks?</b>:<br><br>Ask:<br>'What do you think happens if a bone breaks?'<br><br>Explain:<br>A broken bone is called a fracture.<br>It can happen if you fall, get hit very hard, or have an accident.<br>Bones can break in different ways — they can crack, snap in two, or even shatter into small pieces.<br><br>Use simple terms like:<br>'A small crack is like a line on a broken stick.'<br>'A big break might look like a stick snapped in half.'<br><br>Show illustrations of simple bone fractures.",
+      "<b>Part 3: Effects of a Broken Bone</b>:<br><br>Explain what happens when an arm or leg bone is broken:<br>- <b>Pain</b> — The person will feel a lot of pain right away.<br>- <b>No movement</b> — They won’t be able to move the broken part.<br>- <b>Swelling and bruising</b> — The area might get puffy and turn purple or blue.<br>- <b>No playing or running</b> — They need to rest so the bone can heal.<br><br>Ask the class:<br>'If you broke your arm, what things would you not be able to do?'<br>'How do you think you would feel?'",
+      "<b>Part 4: Healing a Broken Bone</b>:<br><br>Explain:<br>- Doctors use X-rays to see the break inside the body.<br>- They put a special hard cover called a <b>cast</b> around the bone to keep it still.<br>- The bone slowly grows back together — just like fixing a broken toy.<br><br>Demonstrate using a ruler or stick — snap it slightly (or pretend) and show how a 'cast' (using a piece of paper wrapped around it) keeps it still so it can 'heal.'",
+      "<b>Part 5: Exercise — Let’s Act It Out!</b>:<br><br><b>Activity:</b><br>Pair up students.<br>One student pretends to have a broken arm or leg.<br>The other student is the 'helper.'<br><br><b>Steps:</b><br>1. The 'injured' student pretends to fall and says, 'Ouch, I think my arm is broken!'<br>2. The 'helper' checks and says, 'Don’t move it! Let’s get an adult or doctor!'<br>3. The 'doctor' (you or a selected student) pretends to wrap the arm gently with a 'cast' (using a paper or cloth).<br><br><b>Discussion:</b><br>After each group performs, ask:<br>- 'What did the helper do right?'<br>- 'Why is it important not to move a broken bone?'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and the role-play activity.",
+    "<b>Homework</b>: Students will draw a picture of a person with a broken arm in a cast and write two sentences about how they should take care of their arm."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will understand what happens when a bone breaks, how the body reacts, how doctors help bones heal, and what to do if someone has a broken bone."
+  ]
+},
 
 // Week 9
 // Lesson 1
-
+{
+  "title": "Identifying the Major Parts of the Human Skeleton — Skull and Jaw",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Identifying the Major Parts of the Human Skeleton — Skull and Jaw",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the skull and jaw, focusing on their functions and importance in the human skeleton.",
+  "materials": [
+    "Picture or model of a human skeleton",
+    "Worksheets with drawings of a human skeleton"
+  ],
+  "objectives": [
+    "Identify the skull and jaw as parts of the human skeleton.",
+    "Explain the functions of the skull and jaw.",
+    "Understand the importance of these bones in protecting vital organs and enabling movement."
+  ],
+  "rationale": [
+    "Understanding the skull and jaw helps students appreciate their role in protecting vital organs like the brain and enabling essential activities such as chewing and speaking."
+  ],
+  "methodology": [
+    "The lesson will use direct explanation, class discussion, and hands-on activities to engage students in learning about the skull and jaw."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Skull and Jaw</b>:<br><br>Greet the class warmly and ask: 'Have you ever touched the top of your head? What do you feel underneath your skin?' 'What happens when you open and close your mouth? Can you feel something moving?'<br><br>Explain: 'Today, we are going to learn about two important parts of the human skeleton — the skull and the jaw. These bones protect important parts of our body and help us do everyday activities like talking and eating.'",
+      "<b>Part 2: Explanation of the Skull</b>:<br><br>What is the Skull?<br>Show a picture or model of a human skeleton. Point to the skull and explain: 'The skull is the hard bone that forms the shape of your head. It protects your brain, which is very soft and needs to be kept safe.'<br><br>Function of the Skull:<br>'The skull protects the brain from injury.'<br>'It also holds the eyes in place and forms the structure of your face.'<br><br>Fun Fact: 'Did you know your skull is made up of 22 bones joined together? These bones fit like a puzzle to form the shape of your head.'",
+      "<b>Part 3: Explanation of the Jaw</b>:<br><br>What is the Jaw?<br>Point to your jaw and ask the learners to open and close their mouths. Explain: 'The jaw is the bone that moves when you talk, eat, and chew. It is connected to your skull and helps your mouth open and close.'<br><br>Function of the Jaw:<br>'The jaw holds your teeth in place.'<br>'It helps you chew food so that it can be swallowed and digested.'<br>'It also helps you speak by moving your mouth.'<br><br>Fun Fact: 'The lower jaw bone is called the mandible — it is the only bone in your skull that can move!'",
+      "<b>Part 4: Comparing the Skull and Jaw</b>:<br><br>1. Skull: Protects the brain, Holds the eyes, Shapes the head.<br>2. Jaw: Holds teeth, Helps chew and talk, Moves to open and close the mouth.<br><br>Discussion: Ask: 'Why do you think it's important for the skull to be strong?' 'What would happen if we didn't have a jaw?'",
+      "<b>Part 5: Exercise (Task)</b>:<br><br>Activity: Label and Describe<br>Distribute worksheets with a simple drawing of a human skeleton showing the skull and jaw.<br><br>Tasks: Label the skull and jaw on the drawing. Write one function of the skull and one function of the jaw. Draw a line connecting the skull to the brain and the jaw to the mouth.<br><br>Pair Activity: Let learners pair up and take turns gently touching their heads and jaws to feel their bones move. Encourage them to discuss what they notice.<br><br>Wrap-up Questions: 'What is the skull's job?' 'What does the jaw help us do?'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the activities and discussions.",
+    "<b>Exercise</b>: The completed worksheets will evaluate students' understanding of the skull and jaw, and their functions."
+  ],
+  "conclusion": [
+    "By learning about the skull and jaw, students will gain an understanding of how these bones protect vital organs and enable movement, and why they are essential to the human body."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Major Parts of the Human Skeleton",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Major Parts of the Human Skeleton",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson helps students identify the major parts of the human skeleton, focusing on the neck and backbone.",
+  "materials": [
+    "Diagram of the human skeleton",
+    "Skeleton puzzle printouts",
+    "Model or drawing of the neck and spine"
+  ],
+  "objectives": [
+    "Students will be able to identify the major parts of the human skeleton, focusing on the neck and backbone.",
+    "Students will understand the function of the neck and backbone in supporting the body and protecting vital organs."
+  ],
+  "rationale": [
+    "Understanding the structure and function of the human skeleton is important for students' knowledge of human biology and how our body supports movement and protection."
+  ],
+  "methodology": [
+    "The lesson will include a combination of discussions, demonstrations with visual aids, interactive activities, and group work to engage students in identifying and understanding the parts of the skeleton."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Human Skeleton</b>:<br><br>Discussion: Begin by explaining that the human skeleton is made up of bones that help support our body, protect organs, and allow movement.<br>Visual Aid: Show a picture or diagram of the human skeleton. Point out the bones and briefly describe their functions (e.g., the skull protects the brain, the ribcage protects the heart and lungs).<br>Focus on Key Parts: Introduce the neck and backbone as important parts of the skeleton.",
+      "<b>Part 2: The Neck (Cervical Vertebrae)</b>:<br><br>Description: The neck is supported by a series of bones called the cervical vertebrae, which make up the upper part of the spine.<br>Function: Explain that the neck allows the head to move and protects the spinal cord that runs from the brain.<br>Activity: Ask students to gently move their necks side to side and up and down to feel the flexibility of the cervical vertebrae.",
+      "<b>Part 3: The Backbone (Spine)</b>:<br><br>Description: The backbone, or spine, is made up of 33 bones called vertebrae. The spine is divided into different sections: cervical (neck), thoracic (upper back), lumbar (lower back), sacral, and coccygeal (tailbone).<br>Function: The spine supports the body, helps with posture, and allows for flexibility and movement. It also protects the spinal cord, which sends signals from the brain to the rest of the body.<br>Activity: Have students stand tall, placing their hands on their backs to feel their spine. Ask them to bend and stretch to experience the movement of the backbone.",
+      "<b>Part 4: Importance of the Neck and Backbone</b>:<br><br>Discussion: Explain that both the neck and backbone are crucial for supporting the body’s weight, allowing movement, and protecting important nerves.<br>Visual Aid: Use a model or drawing to show how the neck and spine connect to the rest of the body, and highlight their role in maintaining balance and posture.",
+      "<b>Part 5: Exercise: Skeleton Puzzle and Discussion</b>:<br><br>Objective: Reinforce the lesson through an interactive exercise.<br>Materials: Printouts of a simple human skeleton (or a puzzle of the human body).<br>Activity: Divide the class into small groups and give each group a skeleton puzzle. Instruct the students to identify and assemble the bones of the neck and spine.<br>Discussion: After completing the puzzle, ask each group to explain the role of the neck and backbone and why they are important. Encourage students to use the new terms they have learned.<br>Wrap-up: Recap the lesson by pointing out the major parts of the skeleton (focusing on the neck and spine) and asking students to share what they learned."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions, their ability to identify and explain the parts of the skeleton, and their engagement in the puzzle activity.",
+    "<b>Exercise</b>: The puzzle activity will assess students' understanding of the neck and backbone and their ability to apply their knowledge in an interactive setting."
+  ],
+  "conclusion": [
+    "By learning about the major parts of the human skeleton, specifically the neck and backbone, students will gain a deeper understanding of how these bones support movement, posture, and protect vital organs."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Major Parts of the Human Skeleton (Arms)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Human Skeleton",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson focuses on the human skeleton, specifically the major bones of the human arm, their structure, and function.",
+  "materials": [
+    "Model or diagram of the human skeleton",
+    "Flashcards of arm bones",
+    "Worksheet for bone matching exercise"
+  ],
+  "objectives": [
+    "Students will be able to identify the major parts of the human skeleton.",
+    "Students will understand the structure and function of the human skeleton.",
+    "Students will focus specifically on the major bones of the human arm."
+  ],
+  "rationale": [
+    "Understanding the structure and function of the human skeleton helps students appreciate how bones work together to support the body and enable movement."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, demonstrations, and interactive activities to teach students about the major bones of the human arm and their functions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Human Skeleton</b>:<br><br>Start by asking students if they know what a skeleton is and why humans have one.<br>Explain that the skeleton provides support, helps protect organs, enables movement, and produces blood cells.<br>Use a diagram of the human skeleton to point out the overall structure and bones (skull, spine, ribs, arms, and legs).",
+      "<b>Part 2: Parts of the Human Skeleton (Arms)</b>:<br><br>Demonstration: Show a model or diagram of the human arm and label the bones.<br>1. Humerus: The upper arm bone, located between the shoulder and the elbow.<br>2. Radius: The bone on the outer side of the forearm (on the same side as the thumb).<br>3. Ulna: The bone on the inner side of the forearm (on the same side as the little finger).<br>4. Carpals, Metacarpals, and Phalanges: These bones make up the wrist and hand. The carpals are the small bones in the wrist, the metacarpals are the bones in the palm, and the phalanges are the bones in the fingers.<br>Discussion: Ask students questions like 'Which bone is in the upper arm?' or 'Which bones are in the hand?' Encourage students to repeat the names of the bones.",
+      "<b>Part 3: Function of the Arm Bones</b>:<br><br>Humerus: Explain that this bone helps us lift and carry things and gives structure to the upper arm.<br>Radius and Ulna: These bones work together to help the forearm rotate and allow movement in the wrist and hand.<br>Carpals, Metacarpals, and Phalanges: These allow for intricate movements, such as gripping, grasping, and performing tasks like writing or drawing.<br>Demonstration: Show students how their arm moves, and ask them to raise their arms, rotate their wrists, and wiggle their fingers to see how the bones work together.",
+      "<b>Part 4: Review & Discussion</b>:<br><br>Go over the names of the bones in the arm again.<br>Ask students questions like:<br>'What bone is between the shoulder and the elbow?' 'Which bone in the forearm is on the same side as the thumb?' 'What do we call the bones in our fingers?'<br>Encourage students to repeat the names of the bones aloud as a group.",
+      "<b>Part 5: Exercise (Bone Matching Exercise)</b>:<br><br>Provide students with a worksheet or set of flashcards with images of the arm bones and their names.<br>Students must match the correct bone with its name.<br>Extension: You can also have students work in pairs or small groups, discussing the functions of each bone while matching the images."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and discussions.",
+    "<b>Exercise</b>: The bone matching exercise will assess students' understanding of the major bones of the arm."
+  ],
+  "conclusion": [
+    "By learning about the major bones in the arm and their functions, students will understand how the bones work together to allow movement and provide structure."
+  ]
+},
 
 // Week 10
 // Lesson 1
-
+{
+  "title": "Identifying the Major Parts of the Human Skeleton (Focus on Legs)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Parts of the Human Skeleton",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the major bones of the human skeleton, with a focus on the leg bones, explaining their structure, function, and importance.",
+  "materials": [
+    "Diagram of the human skeleton",
+    "Whiteboard and markers",
+    "Printed worksheets"
+  ],
+  "objectives": [
+    "Students will identify the major bones in the human leg skeleton, including the femur, patella, tibia, and fibula.",
+    "Students will understand how the bones of the leg work together for movement, balance, and support.",
+    "Students will learn the importance of taking care of their leg bones through exercise and proper nutrition."
+  ],
+  "rationale": [
+    "Understanding the structure and function of leg bones helps students appreciate how their body works and promotes awareness of the importance of bone health."
+  ],
+  "methodology": [
+    "The lesson will use a combination of visual aids, storytelling, and hands-on activities to teach the students about the human skeleton, with a focus on the leg bones."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Human Skeleton</b>:<br><br>Begin by explaining that the human body has a skeleton that helps support and protect vital organs, as well as allowing movement. Show a picture or diagram of the full human skeleton and explain that there are 206 bones in total. Highlight that today's lesson will focus on the bones in the legs, which are important for walking, running, and jumping.",
+      "<b>Part 2: Major Parts of the Human Leg Skeleton</b>:<br><br>Femur (Thigh Bone): The longest and strongest bone in the human body. It is located in the upper leg, and it connects to the pelvis at the hip joint.<br>Patella (Knee Cap): A small, round bone that protects the knee joint. It helps in the movement and bending of the knee.<br>Tibia (Shin Bone): The larger bone in the lower leg, it carries most of the body’s weight and connects the knee to the ankle.<br>Fibula: A thinner bone located next to the tibia. It supports the tibia and helps stabilize the ankle.<br>Explain how these bones work together to allow movement, balance, and stability.",
+      "<b>Part 3: Why the Leg Bones are Important</b>:<br><br>Support: The leg bones support the body’s weight when standing, walking, and running.<br>Movement: The bones and joints in the legs work together with muscles to allow movement.<br>Protection: The bones protect important nerves and blood vessels in the legs.<br>Discuss how these parts of the skeleton work in harmony for everyday activities and why it is essential to take care of them.",
+      "<b>Part 4: Key Facts to Remember</b>:<br><br>The human leg has four main bones: the femur, patella, tibia, and fibula.<br>The femur is the longest bone, while the tibia supports most of your weight.<br>The patella helps with knee movement, and the fibula provides stability.<br>These bones are all connected by joints, such as the knee and ankle joints, which allow for smooth movement.",
+      "<b>Part 5: Exercise</b>:<br><br>Activity: 'Label the Skeleton'<br>Provide students with a diagram of the human skeleton, with the bones of the legs labeled with blanks. Have students fill in the blanks with the correct names of the bones: Femur, Patella, Tibia, and Fibula.<br>After completing the diagram, ask them to circle the bones of the leg on their worksheet. Encourage students to share with the class what each bone does.<br>Class Discussion: Ask students questions like, 'What would happen if we didn’t have strong leg bones?' or 'Why do you think the tibia is thicker than the fibula?' This can be followed by a short review of how the bones protect and help us move."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the exercise and class discussion.",
+    "<b>Exercise</b>: The 'Label the Skeleton' exercise will evaluate students' understanding of the major bones in the leg and their functions."
+  ],
+  "conclusion": [
+    "By learning about the major bones in the human leg, students will better understand how these bones work together to support movement and balance. They will also recognize the importance of taking care of their bones through exercise and healthy habits."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding the Major Parts of the Human Skeleton",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Understanding the Major Parts of the Human Skeleton",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the major parts of the human skeleton, focusing on ribs and hips, their structure, and how they help the body function.",
+  "materials": [
+    "Diagram of the human skeleton",
+    "Whiteboard and markers",
+    "Printed handouts of the skeleton diagram"
+  ],
+  "objectives": [
+    "Students will be able to identify the major parts of the human skeleton, including ribs and hips.",
+    "Students will understand the importance of the ribs in protecting organs and the role of the hips in movement.",
+    "Students will learn how the skeleton works with muscles to facilitate movement."
+  ],
+  "rationale": [
+    "Understanding the human skeleton helps students appreciate the importance of bones in protecting internal organs and enabling movement. Learning about the ribs and hips will give students a deeper understanding of their body's structure."
+  ],
+  "methodology": [
+    "The lesson will include discussions, visual aids, and hands-on activities to engage students in learning about the human skeleton."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Human Skeleton</b>:<br><br>Begin by asking students what they know about bones and the human skeleton.<br>Explain that the human skeleton is a system of bones that gives our body structure, helps us move, and protects important organs like the brain, heart, and lungs.<br>Display a picture or diagram of the human skeleton to show the major parts, including the ribs and hips.",
+      "<b>Part 2: The Ribs</b>:<br><br>Explain that the ribs are a set of curved bones that form a protective cage around the chest. They protect vital organs like the heart and lungs.<br>There are 12 pairs of ribs, and they are attached to the spine at the back and curve around to the front of the body.<br>Show the location of the ribs on the diagram.<br>Discuss the importance of the ribs in helping us breathe and protect internal organs.",
+      "<b>Part 3: The Hips</b>:<br><br>Explain that the hips are made up of bones that form the pelvis, which is a large bony structure at the base of the spine.<br>The hips support the weight of the body when we stand, walk, or run.<br>The hip bones also help protect the reproductive organs, bladder, and part of the intestines.<br>Show the location of the hips on the diagram and explain how they are important for balance and movement.",
+      "<b>Part 4: The Role of the Skeleton in Movement</b>:<br><br>Explain how bones, including the ribs and hips, work with muscles to allow movement.<br>Use simple language to explain that when muscles contract, they pull on bones to create movement.<br>Point out that the ribs help the lungs expand and contract when breathing, and the hips allow us to walk and run by moving the legs.",
+      "<b>Part 5: Exercise (Activity)</b>:<br><br>Task: Have the students stand and do some simple movements to better understand how their skeleton helps them move.<br>Step 1: Ask the students to take a deep breath and raise their arms, showing how the ribs move with their breath.<br>Step 2: Have the students march in place, showing how their hips help them move their legs.<br>Step 3: Play a simple quiz game where you show a diagram of the skeleton with some parts missing. Ask students to point out the ribs and hips on the diagram."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students during the exercise and ask them to point to their ribs and hips.",
+    "<b>Exercise</b>: Have students draw and label the ribs and hips in their notebooks as a follow-up activity."
+  ],
+  "conclusion": [
+    "Recap the lesson by asking students to name the major parts of the skeleton that were discussed today.<br>Encourage students to always protect their bones by staying active and eating healthy foods for strong bones."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Major Parts of the Human Skeleton",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 3, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Major Parts of the Human Skeleton",
+  "grade": "Wing Whiz",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the major parts of the human skeleton, focusing on their structure and functions.",
+  "materials": [
+    "Skeleton printouts",
+    "Crayons/Markers"
+  ],
+  "objectives": [
+    "Students will identify the major parts of the human skeleton.",
+    "Students will understand the functions of bones and how they contribute to the body's structure, movement, and protection.",
+    "Students will learn how the skeleton grows and changes as a person matures."
+  ],
+  "rationale": [
+    "Understanding the human skeleton helps students appreciate the importance of bones in supporting and protecting the body, and in enabling movement."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, storytelling, and hands-on activities to teach students about the human skeleton."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to the Human Skeleton</b>:<br><br>Start by asking the students if they know what a skeleton is and what its purpose is. Briefly explain that the skeleton is made up of bones that give the body its shape and protect internal organs.<br><br>Key Concepts to Cover:<br>The skeleton has 206 bones in total.<br>The bones come together to form the skeleton, which provides structure, protection, and allows us to move.<br>The skeleton is divided into two main parts: Axial Skeleton and Appendicular Skeleton.",
+      "<b>Part 2: Major Parts of the Human Skeleton</b>:<br><br><b>Axial Skeleton:</b><br>The skull: Protects the brain, eyes, and ears.<br>The spine (vertebral column): A series of bones (vertebrae) that support the body and protect the spinal cord.<br>The ribs: Protect the heart and lungs.<br>The sternum (breastbone): Located in the center of the chest, it helps protect the heart and lungs.<br><br><b>Appendicular Skeleton:</b><br>Shoulder girdles (clavicles and scapulae): Connect the arms to the body.<br>Arms (humerus, radius, ulna): Enable arm movements.<br>Pelvis: Supports the spine and connects the lower body to the upper body.<br>Legs (femur, tibia, fibula): Allow movement and support the body’s weight.<br>Hands and feet (carpals, metacarpals, phalanges): Help with gripping, walking, and balance.",
+      "<b>Part 3: Function and Importance of the Skeleton</b>:<br><br>Support: The skeleton provides a frame that supports the body and helps it maintain shape.<br>Protection: The bones protect vital organs. For example, the skull protects the brain, the ribs protect the heart and lungs, and the spine protects the spinal cord.<br>Movement: The skeleton works with muscles and joints to help the body move. Without bones, we wouldn't be able to stand, walk, or run.<br>Storage of minerals: Bones store minerals like calcium, which are important for maintaining healthy bones and teeth.",
+      "<b>Part 4: How the Skeleton Grows and Changes</b>:<br><br>Explain that as we grow, our bones grow too. Babies are born with about 270 bones, but as they grow, some of these bones fuse together, and by the time they reach adulthood, they have 206 bones. This process is important for making the skeleton strong and functional.",
+      "<b>Part 5: Activity/Exercise: Labeling the Skeleton</b>:<br><br>Materials Needed:<br>Large printouts of a human skeleton (or pictures)<br>Crayons/Markers<br><br>Instructions:<br>Distribute the skeleton printouts to each student.<br>Ask the students to label the major parts of the skeleton using the terms: Skull, Spine, Ribs, Pelvis, Humerus, Femur, etc.<br>As students label the parts, walk around and assist where needed.<br>After labeling, encourage students to color in the bones.<br><br>Discussion:<br>Review the names of the major parts with the class.<br>Ask questions such as:<br>'Which part of the skeleton protects the brain?'<br>'What is the function of the ribs?'<br>'What part of the skeleton helps us to stand up and walk?'"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and understanding during the labeling activity and class discussion.",
+    "<b>Exercise</b>: Students' ability to correctly label the skeleton during the activity will be assessed."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to identify the major parts of the human skeleton and understand their functions in supporting, protecting, and enabling movement in the body."
+  ]
+}
 ];
