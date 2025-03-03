@@ -984,5 +984,787 @@ const lessonPlans9a = [
   ]
 },
 
+// Week 7
+// Lesson 1
+{
+  "title": "Rounding Off to the Nearest Unit",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Rounding Off to the Nearest Unit",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "By the end of the lesson, students will be able to round off numbers to the nearest unit confidently.",
+  "materials": [
+    "Whiteboard and markers",
+    "Math textbook",
+    "Worksheets with rounding exercises"
+  ],
+  "objectives": [
+    "Students will understand the concept of rounding off.",
+    "Students will learn the rules of rounding to the nearest unit.",
+    "Students will practice rounding numbers to the nearest unit.",
+    "Students will discuss real-life uses of rounding off.",
+    "Students will complete an independent exercise to reinforce their learning."
+  ],
+  "rationale": [
+    "Rounding off helps students simplify numbers for practical use in real-life situations such as estimating prices, distances, and measurements."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, guided practice, class discussion, and independent exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Rounding Off</b>:<br><br>What is rounding off?<br>Rounding off means making a number simpler while keeping its value close to what it was. We do this by adjusting the digits based on certain rules.<br><br>Why do we round numbers?<br>We round numbers to make them easier to work with, especially when we don’t need an exact value — like estimating prices, distances, or measurements.<br><br>What is a unit?<br>The unit place is the digit immediately before the decimal point in a number. For example:<br><br>In 23.7, the unit is 3.<br>In 105.4, the unit is 5.",
+      "<b>Part 2: The Rules of Rounding to the Nearest Unit</b>:<br><br>1. Identify the digit in the tenths place (the first digit after the decimal).<br><br>2. Apply the rounding rule:<br>If the digit in the tenths place is 5 or more, round up.<br>If the digit is 4 or less, round down.<br><br>3. Change all digits after the decimal point to zero or drop them entirely.<br><br>Examples:<br>23.7 → The tenths place is 7 → Round up → 24.<br>105.4 → The tenths place is 4 → Round down → 105.<br>68.9 → The tenths place is 9 → Round up → 69.<br>47.2 → The tenths place is 2 → Round down → 47.",
+      "<b>Part 3: Step-by-Step Practice Together</b>:<br><br>Let’s work through these examples together on the board:<br><br>1. 12.8 — Identify the tenths place (8) → Round up → 13.<br>2. 56.3 — Identify the tenths place (3) → Round down → 56.<br>3. 99.5 — Identify the tenths place (5) → Round up → 100.<br>4. 41.9 — Identify the tenths place (9) → Round up → 42.<br>5. 78.1 — Identify the tenths place (1) → Round down → 78.",
+      "<b>Part 4: Class Discussion</b>:<br><br>Why is rounding useful in real life?<br><br>Can you think of times when you or your family might use rounding off — like at the store, when cooking, or measuring something?<br><br>Encourage students to share examples, like rounding prices at the shop or estimating travel distances.",
+      "<b>Part 5: Independent Exercise</b>:<br><br>Instructions: Round off the following numbers to the nearest unit.<br><br>1. 42.6<br>2. 58.3<br>3. 91.7<br>4. 74.2<br>5. 103.9<br>6. 29.5<br>7. 87.4<br>8. 60.8<br>9. 15.1<br>10. 99.9<br><br>Bonus challenge:<br>Write a short sentence about when you would use rounding off in your daily life."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation during the guided practice and class discussion.",
+    "<b>Exercise</b>: The independent exercise will assess students’ ability to correctly round numbers to the nearest unit."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand the concept of rounding off, apply rounding rules confidently, and recognize the importance of rounding in daily life."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Rounding Off to the Nearest Decimal Places",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Rounding Off to the Nearest Decimal Places",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of decimal places and rounding off numbers, teaching them how to round decimals to the nearest tenths, hundredths, and thousandths places using simple rules and examples.",
+  "materials": [
+    "Whiteboard and markers",
+    "Exercise books",
+    "Decimal place value chart"
+  ],
+  "objectives": [
+    "Students will understand the concept of decimal places and the importance of rounding off numbers in real-life situations.",
+    "Students will review decimal place values to prepare for rounding off.",
+    "Students will learn the rules for rounding decimals to the nearest place value.",
+    "Students will practice rounding decimals with teacher guidance.",
+    "Students will apply their knowledge by completing an exercise independently."
+  ],
+  "rationale": [
+    "Understanding decimal places and rounding off helps students simplify numbers for practical use, such as handling money, measuring distances, and estimating values accurately."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples on the board, guided practice, and independent exercises to build students' confidence in rounding decimals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Objective:<br>Students will understand the concept of decimal places and the importance of rounding off numbers in real-life situations.<br><br>Explanation:<br>Start by asking the class: 'Have you ever seen prices like $4.99 in a shop? Why not just $5?'<br><br>Explain that decimals help us show parts of a whole — like money or measurements — and sometimes, we round numbers to make them simpler.<br><br>Define a decimal place: it’s the position of a number after the decimal point.<br><br>Example: In 3.476, the 4 is in the tenths place, 7 in the hundredths place, and 6 in the thousandths place.",
+      "<b>Part 2: Place Value Review (10 minutes)</b>:<br><br>Objective:<br>Students will review decimal place values to prepare for rounding off.<br><br>Explanation:<br>Write this table on the board:<br><br>Tenths place is the first digit after the decimal point.<br>Hundredths place is the second digit.<br>Thousandths place is the third digit.<br><br>Quick Activity:<br>Ask students to identify the tenths, hundredths, and thousandths places in these numbers:<br><br>2.58<br>4.093<br>7.826",
+      "<b>Part 3: Rounding Rules (10 minutes)</b>:<br><br>Objective:<br>Students will learn the rules for rounding decimals to the nearest place value.<br><br>Rounding Rules:<br><br>1. Identify the place you are rounding to. (tenths, hundredths, etc.)<br><br>2. Look at the digit to the right:<br>If it's 5 or higher, round up.<br>If it's 4 or lower, round down.<br><br>3. Change all digits to the right of your rounding place to zeros or remove them.<br><br>Examples:<br><br>Round 3.476 to the nearest tenths → Look at the 7 (hundredths place) → 7 is greater than 5 → Round up → 3.5<br><br>Round 3.476 to the nearest hundredths → Look at the 6 (thousandths place) → 6 is greater than 5 → Round up → 3.48",
+      "<b>Part 4: Guided Practice (10 minutes)</b>:<br><br>Objective:<br>Students will practice rounding decimals with teacher guidance.<br><br>Practice Questions:<br><br>1. Round 5.462 to the nearest tenths.<br><br>2. Round 8.379 to the nearest hundredths.<br><br>3. Round 6.845 to the nearest tenths.<br><br>4. Round 9.206 to the nearest hundredths.<br><br>Walk through each question step-by-step on the board.",
+      "<b>Part 5: Independent Exercise (5 minutes)</b>:<br><br>Objective:<br>Students will apply their knowledge by completing an exercise independently.<br><br>Exercise:<br><br>Round off the following numbers:<br><br>1. 4.538 to the nearest tenths.<br><br>2. 7.812 to the nearest hundredths.<br><br>3. 2.965 to the nearest tenths.<br><br>4. 5.498 to the nearest hundredths.<br><br>5. 9.645 to the nearest tenths."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during the class discussion and guided practice.",
+    "<b>Exercise</b>: The independent exercise will assess students’ ability to round decimals correctly to the nearest tenths and hundredths."
+  ],
+  "conclusion": [
+    "Review the answers with the class.",
+    "Reinforce the rounding rules by asking students to explain their reasoning for each answer."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Rounding Off Quantities to Required Decimal Places",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Rounding Off Quantities to Required Decimal Places",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to round off quantities to a required number of decimal places and solve simple problems involving rounding.",
+  "materials": [
+    "Whiteboard and markers",
+    "Math textbook",
+    "Practice worksheets"
+  ],
+  "objectives": [
+    "Students will be able to round off quantities to a required number of decimal places.",
+    "Students will solve simple problems involving rounding decimals."
+  ],
+  "rationale": [
+    "Rounding decimals is a crucial skill in math as it helps simplify numbers, making them easier to use in real-world situations like money, measurements, and data interpretation."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, guided practice, and real-world examples to explain and reinforce rounding off decimals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>1. Begin with a simple question:<br>“Who can tell me what decimals are?”<br><br>Recap that decimals are numbers that have a whole part and a fractional part, separated by a decimal point.<br><br>Example: In 3.142, 3 is the whole number part and 142 is the decimal part.<br><br>2. Explain why rounding decimals is important:<br>Rounding helps us simplify numbers, making them easier to use in everyday life.<br><br>Examples: Money (rounding $3.456 to $3.46), measurements (rounding 2.789 m to 2.79 m).",
+      "<b>Part 2: Explanation of Rules (10 minutes)</b>:<br><br>Teach the rules for rounding decimals:<br><br>1. Identify the place value you are rounding to (tenths, hundredths, or thousandths).<br><br>2. Look at the digit to the right of the place you are rounding to:<br>If it is 5 or higher, round up.<br>If it is 4 or lower, round down.<br><br>3. Replace all digits to the right of the rounding place with zeros (or drop them if they follow the decimal point).<br><br>Examples:<br>Round 4.567 to 2 decimal places → Look at the third digit (7): 4.57<br>Round 8.9342 to 1 decimal place → Look at the second digit (9): 8.9<br>Round 12.348 to 3 decimal places → All digits fit, so no change: 12.348",
+      "<b>Part 3: Guided Practice (10 minutes)</b>:<br><br>Work through examples together:<br><br>1. Round to 2 decimal places:<br>5.678 → 5.68<br>12.349 → 12.35<br><br>2. Round to 1 decimal place:<br>9.47 → 9.5<br>3.82 → 3.8<br><br>3. Round to the nearest whole number:<br>7.6 → 8<br>4.3 → 4<br><br>Ask students questions:<br>'Why did we round 5.678 to 5.68 and not 5.67?'<br>'What happens when a digit is exactly 5?'",
+      "<b>Part 4: Application in Word Problems (10 minutes)</b>:<br><br>Introduce real-world word problems:<br><br>1. A bag of sugar weighs 2.738 kg. Round this to:<br>1 decimal place → 2.7 kg<br>2 decimal places → 2.74 kg<br><br>2. A bottle holds 1.425 liters of water. Round this to:<br>1 decimal place → 1.4 liters<br>2 decimal places → 1.43 liters<br><br>3. The price of a chocolate bar is $4.856. What is the price rounded to:<br>1 decimal place → $4.9<br>2 decimal places → $4.86",
+      "<b>Part 5: Independent Exercise (10 minutes)</b>:<br><br>A. Round to 1 decimal place:<br>1. 3.67 = _______<br>2. 8.92 = _______<br>3. 12.38 = _______<br>4. 4.59 = _______<br><br>B. Round to 2 decimal places:<br>1. 7.345 = _______<br>2. 2.786 = _______<br>3. 10.399 = _______<br>4. 5.821 = _______<br><br>C. Solve the word problems:<br>1. A pencil is 15.684 cm long. Round its length to:<br>1 decimal place = _______<br>2 decimal places = _______<br><br>2. A watermelon weighs 3.729 kg. Round its weight to:<br>1 decimal place = _______<br>2 decimal places = _______"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during guided practice and class discussions.",
+    "<b>Exercise</b>: The independent exercise will test students’ ability to round numbers to 1 and 2 decimal places and solve word problems."
+  ],
+  "conclusion": [
+    "Review key points: Rounding depends on looking at the digit to the right of the place value you're rounding to.",
+    "Homework suggestion: Ask students to find examples of decimal numbers in their daily lives (like prices or measurements) and round them to 1 or 2 decimal places."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Understanding Ratio and Direct Proportion",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Ratio and Direct Proportion",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to the concepts of ratio and direct proportion, explaining their definitions, real-life applications, and mathematical representations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Graph paper",
+    "Mathematics textbook",
+    "Calculator"
+  ],
+  "objectives": [
+    "Introduce the concept of ratio and direct proportion.",
+    "Explain why ratios and proportions are useful in everyday life.",
+    "Help students understand the relationship between ratios and direct proportions.",
+    "Demonstrate how to solve problems involving ratios and direct proportions.",
+    "Engage students with real-life examples and worked-out exercises."
+  ],
+  "rationale": [
+    "Understanding ratios and direct proportions helps students make sense of relationships between quantities, which is essential for solving real-world problems like cooking recipes, comparing prices, and calculating distances."
+  ],
+  "methodology": [
+    "The lesson will use interactive discussions, practical examples, and problem-solving exercises to explain ratio and direct proportion."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Objective:<br>Introduce the concept of ratio and direct proportion.<br>Explain why ratios and proportions are useful in everyday life.<br><br>Engage students:<br>Start with a simple question:<br>'If I have 2 apples and you have 4 apples, how can we compare the number of apples we each have?'<br><br>Lead them to the idea that we can compare quantities using ratios.<br><br>Definition of Ratio:<br>A ratio is a way to compare two or more quantities. It shows how much of one thing there is compared to another.<br><br>Example:<br>If there are 2 apples and 4 oranges, the ratio of apples to oranges is 2:4 or 2 to 4.<br>Ratios can be simplified just like fractions: 2:4 simplifies to 1:2.<br><br>Real-life examples:<br>Comparing boys to girls in a classroom.<br>The number of teachers to students at school.",
+      "<b>Part 2: Explanation of Direct Proportion (15 minutes)</b>:<br><br>Objective:<br>Explain what direct proportion means and how it works.<br><br>Definition of Direct Proportion:<br>Two quantities are in direct proportion when they increase or decrease at the same rate. If one quantity doubles, the other also doubles.<br><br>Mathematical Representation:<br>If x and y are directly proportional, we write it as:<br><br>y = kx<br><br>where k is the constant of proportionality.<br><br>Examples:<br>1. If 1 book costs $5, how much will 3 books cost?<br>Cost is directly proportional to the number of books.<br>1 book → $5<br>3 books → 3 × 5 = $15<br><br>2. If a car travels at a constant speed of 60 km per hour, how far will it travel in 2 hours?<br>Time and distance are directly proportional.<br>1 hour → 60 km<br>2 hours → 2 × 60 = 120 km",
+      "<b>Part 3: Comparing Ratio and Direct Proportion (15 minutes)</b>:<br><br>Objective:<br>Help students understand the relationship between ratios and direct proportions.<br><br>Key points:<br>Ratios compare two quantities.<br>Direct proportions show how one quantity changes in response to another, often using a ratio.<br><br>Example:<br>If a recipe calls for 2 cups of flour and 3 cups of water (a ratio of 2:3), doubling both amounts keeps the ratio the same and shows direct proportion.<br>If you use 4 cups of flour, you must use 6 cups of water to maintain the proportion.<br><br>Formula:<br>\\\frac{a}{b} = \\frac{c}{d} \<br><br>Where:<br>a:b is the original ratio.<br>c:d is the new ratio after scaling both quantities equally.",
+      "<b>Part 4: Worked Examples (10 minutes)</b>:<br><br>Example 1:<br>A class has 10 boys and 15 girls.<br>What is the ratio of boys to girls?<br>Simplify the ratio.<br><br>Solution:<br>Ratio: 10:15<br>Simplify: 2:3<br><br>Example 2:<br>If 4 apples cost $8, how much do 10 apples cost (assuming direct proportion)?<br><br>Solution:<br>Cost per apple: 8 ÷ 4 = $2 per apple.<br>10 apples will cost 10 × 2 = $20.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>A. Ratios:<br>1. Write the ratio of:<br>8 pencils to 12 erasers.<br>25 boys to 35 girls.<br><br>2. Simplify the following ratios:<br>9:12<br>14:28<br><br>B. Direct Proportion:<br>3. If 3 notebooks cost $9, how much will 7 notebooks cost?<br>4. A car travels 80 km in 2 hours. How far will it travel in 5 hours if the speed remains constant?<br>5. A recipe uses 4 cups of flour for 6 pancakes. How many cups of flour are needed for 15 pancakes?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and exercises.",
+    "<b>Exercise</b>: The ratio and direct proportion problems will assess students’ understanding and problem-solving skills."
+  ],
+  "conclusion": [
+    "Recap key concepts: ratios compare quantities, and direct proportion shows how quantities scale together.",
+    "Ask students: 'Can you think of a real-life situation where you’ve used ratios or direct proportions?'",
+    "Prepare students for a quiz next class to review the topic."
+  ]
+},
+
+// Lesson 5
+{
+  "title": "Differentiating Between Ratio and Direct Proportion",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Differentiating Between Ratio and Direct Proportion",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "5",
+  "description": "This lesson helps students understand the concepts of ratio and direct proportion by defining both terms, identifying their differences, and practicing basic exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Chalkboard",
+    "Mathematics textbook",
+    "Flashcards with ratio and proportion examples"
+  ],
+  "objectives": [
+    "Define ratio and direct proportion.",
+    "Identify the differences between the two concepts.",
+    "Solve basic exercises involving ratio and direct proportion."
+  ],
+  "rationale": [
+    "Understanding ratios and direct proportions helps students apply mathematical concepts to real-life situations such as sharing, scaling recipes, and calculating costs."
+  ],
+  "methodology": [
+    "The lesson will use real-life examples, clear explanations, and practice problems to help students grasp the concepts of ratio and direct proportion."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b><br><br><b>Objective:</b><br>By the end of the lesson, students should be able to:<br><br>Define ratio and direct proportion.<br>Identify the differences between the two concepts.<br>Solve basic exercises involving ratio and direct proportion.<br><br><b>Introduction Questions:</b><br>Have you ever shared sweets with friends?<br>If you gave 2 sweets to each friend, would everyone get the same amount if more friends joined?<br>What if you wanted to mix juice — 1 cup of syrup for every 4 cups of water — would the amount of water change if you wanted to make more juice?<br><br><b>Explain:</b><br>These real-life examples help us understand ratios and direct proportions — let’s break them down!",
+      "<b>Part 2: Explanation of Ratio (15 minutes)</b><br><br><b>Definition:</b><br>A ratio is a comparison between two or more quantities. It shows how much of one thing there is compared to another.<br><br><b>Formula:</b><br>A ratio is written as a:b or a to b.<br><br><b>Examples:</b><br>1. If a class has 12 boys and 8 girls, the ratio of boys to girls is 12:8 or 3:2 (simplified by dividing both numbers by 4).<br>2. If you have 5 apples and 10 oranges, the ratio of apples to oranges is 5:10 or 1:2.<br><br><b>Key points:</b><br>Ratios can be simplified by dividing both sides by the same number.<br>Ratios do not always mean the quantities will change together — they simply show a comparison.<br><br><b>Quick Practice:</b><br>What is the ratio of 4 red balls to 6 blue balls?<br>If there are 10 cats and 5 dogs, what is the ratio of cats to dogs?",
+      "<b>Part 3: Explanation of Direct Proportion (15 minutes)</b><br><br><b>Definition:</b><br>Two quantities are in direct proportion when they increase or decrease at the same rate. If one quantity doubles, the other also doubles.<br><br><b>Formula:</b><br>If x increases, y increases — this is written as:<br>\\\frac{x_1}{y_1} = \\frac{x_2}{y_2} \<br><br><b>Examples:</b><br>1. If 1 pen costs $2, 2 pens will cost $4, 3 pens will cost $6 — the cost increases in direct proportion to the number of pens.<br>2. A recipe uses 2 cups of flour for every 1 cup of sugar. If you double the recipe, you’ll use 4 cups of flour and 2 cups of sugar.<br><br><b>Key points:</b><br>Direct proportion shows how quantities change together.<br>It’s different from a ratio because ratios compare quantities, while direct proportion shows how quantities are linked.<br><br><b>Quick Practice:</b><br>If 1 book costs $5, how much do 3 books cost?<br>If 2 liters of water are needed for 4 plants, how many liters are needed for 8 plants?",
+      "<b>Part 4: Comparing Ratio and Direct Proportion (10 minutes)</b><br><br><b>Differences:</b><br>1. A ratio compares two or more quantities, while direct proportion shows how quantities change together.<br>2. In a ratio, the amounts do not necessarily change, but in direct proportion, both quantities increase or decrease at the same rate.<br>3. A ratio can be simplified, but direct proportion maintains a constant relationship between the quantities.<br><br><b>Class Discussion:</b><br>Why do you think ratios are useful in daily life?<br>Can you give an example of a situation where two quantities are directly proportional?",
+      "<b>Part 5: Class Exercise (10 minutes)</b><br><br><b>Instructions:</b><br>Solve the following problems:<br><br>1. Write the ratio of 9 apples to 12 oranges. Simplify your answer.<br>2. If 1 car costs $15,000, how much will 3 cars cost?<br>3. There are 16 girls and 12 boys in a class. What is the ratio of girls to boys?<br>4. If 2 liters of juice serve 5 people, how many liters are needed for 10 people?<br>5. A recipe calls for 3 cups of flour for every 2 cups of milk. What is the ratio of flour to milk?<br>6. If a bus travels 50 km in 1 hour, how far will it travel in 3 hours (assuming constant speed)?<br><br><b>Bonus Question:</b><br>Explain whether the following situations show a ratio or direct proportion:<br>Comparing the number of dogs to cats in a park.<br>Calculating the cost of 5 pencils if 1 pencil costs $2."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and their responses to quick practice questions.",
+    "<b>Class Exercise</b>: The teacher will review students' answers to the class exercises, checking for accuracy and understanding."
+  ],
+  "conclusion": [
+    "By the end of this lesson, students will understand the definitions and differences between ratio and direct proportion, and will be able to solve related math problems with confidence."
+  ],
+  "task": [
+    "Homework: Create two word problems — one showing a ratio and another showing direct proportion. Solve both and bring them to class tomorrow."
+  ]
+},
+
+// Week 8
+// Lesson 1
+{
+  "title": "Express a Given Ratio in Its Lowest Terms",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Express a Given Ratio in Its Lowest Terms",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students how to simplify a given ratio to its lowest terms.",
+  "materials": [
+    "Whiteboard and markers",
+    "Notebook and pencil"
+  ],
+  "objectives": [
+    "Students will be able to simplify a given ratio to its lowest terms by finding and using the greatest common factor (GCF).",
+    "Students will learn how to express ratios in their simplest form."
+  ],
+  "rationale": [
+    "Simplifying ratios helps students understand comparisons more clearly and makes them easier to work with in real-life situations."
+  ],
+  "methodology": [
+    "The lesson will include an introduction to ratios, step-by-step guidance on simplifying ratios, and practical exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Ratios</b>:<br><br>Key Concept: A ratio is a way to compare two quantities. Ratios are expressed in the form a:b or a/b, where 'a' is the first quantity, and 'b' is the second quantity.<br><br>Example: In the ratio 2:4, the first quantity is 2, and the second quantity is 4.<br><br>Ratios can be simplified, just like fractions.<br><br>Explanation:<br>Ratios show how much of one thing there is compared to another. You can simplify a ratio by dividing both parts of the ratio by the same number (common factor).",
+      "<b>Part 2: How to Simplify a Ratio</b>:<br><br>Step-by-Step Process:<br>1. Identify the Common Factor: Find the largest number that can divide both parts of the ratio evenly.<br>2. Divide Both Numbers: Divide both numbers by the common factor to reduce the ratio to its simplest form.<br><br>Example:<br>Simplify the ratio 8:12.<br>First, find the greatest common factor (GCF) of 8 and 12, which is 4.<br>Divide both numbers by 4:<br>8 ÷ 4 = 2, 12 ÷ 4 = 3<br>The simplified ratio is 2:3.<br><br>Note: If no common factor other than 1 exists, the ratio is already in its lowest terms.",
+      "<b>Part 3: Practice with More Examples</b>:<br><br>Simplify the following ratios:<br>1. 10:15 (GCF = 5)<br>Divide both by 5 → 10 ÷ 5 = 2, 15 ÷ 5 = 3 → 2:3<br><br>2. 18:24 (GCF = 6)<br>Divide both by 6 → 18 ÷ 6 = 3, 24 ÷ 6 = 4 → 3:4<br><br>3. 7:35 (GCF = 7)<br>Divide both by 7 → 7 ÷ 7 = 1, 35 ÷ 7 = 5 → 1:5<br><br>4. 45:60 (GCF = 15)<br>Divide both by 15 → 45 ÷ 15 = 3, 60 ÷ 15 = 4 → 3:4",
+      "<b>Part 4: Why It Is Important to Simplify Ratios</b>:<br><br>Simplifying ratios makes them easier to understand and work with.<br>Just like simplifying fractions, reducing ratios to their lowest terms helps to avoid confusion.<br><br>Example: If you are comparing the number of boys to girls in a class and the ratio is 30:60, simplifying it to 1:2 makes it easier to understand that for every 1 boy, there are 2 girls.",
+      "<b>Part 5: Exercise (15 Minutes)</b>:<br><br>Instructions: Simplify the following ratios. Use the greatest common factor (GCF) to reduce each ratio to its lowest terms.<br><br>1. 14:35<br>2. 12:18<br>3. 50:100<br>4. 24:36<br>5. 15:45"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the practice exercises and assess their ability to simplify ratios.",
+    "<b>Exercise</b>: The 5-ratio exercise will evaluate students' understanding of simplifying ratios."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand how to simplify ratios and apply this skill in different scenarios, such as comparing quantities in real-life contexts."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Solving Problems Involving Ratio and Direct Proportion",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Solving Problems Involving Ratio and Direct Proportion",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of ratio and how it can be used to compare quantities. It also teaches them how to solve problems involving direct proportion using ratios.",
+  "materials": [
+    "Whiteboard and markers",
+    "Rulers",
+    "Graph paper"
+  ],
+  "objectives": [
+    "Students will understand the concept of ratio and how it can be used to compare quantities.",
+    "Students will solve problems involving direct proportion using the concept of ratio."
+  ],
+  "rationale": [
+    "Understanding ratios and direct proportion is essential in solving everyday problems involving comparisons and relationships between quantities."
+  ],
+  "methodology": [
+    "The lesson will use examples, discussions, and practice problems to help students understand ratios and direct proportion."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Ratio</b>:<br><br>Definition:<br>A ratio is a way to compare two or more quantities. It shows how many times one number contains another.<br><br>The ratio of a to b is written as a : b.<br><br>Examples:<br>If there are 4 apples and 2 oranges, the ratio of apples to oranges is 4 : 2, which simplifies to 2 : 1.<br><br>In a classroom of 30 students with 15 girls and 15 boys, the ratio of boys to girls is 15 : 15 or 1 : 1.<br><br>Discussion:<br>Ask students to give examples from their daily lives where they see ratios, such as mixing ingredients in a recipe or dividing candies.",
+      "<b>Part 2: Understanding Direct Proportion</b>:<br><br>Definition:<br>Two quantities are in direct proportion if an increase in one results in a corresponding increase in the other.<br><br>In direct proportion, when one quantity increases, the other increases at the same rate.<br><br>Formula:<br>If a is directly proportional to b, then a/b = k where k is a constant of proportionality.<br><br>Examples:<br>If the cost of 1 apple is $2, then the cost of 3 apples is 3 × $2 = $6. The price and number of apples are in direct proportion.<br><br>The time it takes to travel a certain distance is directly proportional to the speed. If you travel at 50 km/h, it takes 2 hours to travel 100 km. If you travel at 100 km/h, it will take only 1 hour to cover the same distance.<br><br>Discussion:<br>Encourage students to think of other examples of direct proportion, such as how the number of tickets sold in a concert relates to the total income.",
+      "<b>Part 3: Solving Problems Involving Ratio and Direct Proportion</b>:<br><br>Steps to Solve Ratio Problems:<br>1. Write the ratio in simplest form. Example: 12:8 becomes 3:2.<br><br>2. Compare the quantities directly. Use a table or a simple equation if necessary.<br><br>3. Solve for unknowns. Use cross-multiplication for problems where the ratio is unknown, for example:<br>If a : b = 3 : 4, and a = 6, what is b?<br><br>Solution: 6 / 3 = b / 4, so b = (6 × 4) / 3 = 8.<br><br>Steps to Solve Direct Proportion Problems:<br>1. Set up a proportion. For example: x / 6 = 12 / 4.<br><br>2. Cross-multiply. Solve for the unknown quantity:<br>x * 4 = 12 * 6<br>x = (12 × 6) / 4 = 18.",
+      "<b>Part 4: Practice and Explanation</b>:<br><br>Example 1 (Ratio Problem):<br>A car travels 300 kilometers using 25 liters of fuel. How far can it travel using 40 liters of fuel?<br><br>Solution: Set up the ratio: 300 : 25 = x : 40.<br><br>Solve for x: x = (300 × 40) / 25 = 480 km.<br><br>Example 2 (Direct Proportion):<br>A recipe calls for 4 cups of flour to make 8 pancakes. How many cups of flour will be needed to make 20 pancakes?<br><br>Solution: Set up the proportion: 4 / 8 = x / 20.<br><br>Cross-multiply and solve for x: 4 × 20 = 8 × x, so x = (4 × 20) / 8 = 10 cups.",
+      "<b>Part 5: Exercise</b>:<br><br>Exercise 1: Ratio Problem<br>A box of chocolates contains 12 dark chocolates and 8 milk chocolates. What is the ratio of dark chocolates to milk chocolates?<br><br>Exercise 2: Direct Proportion Problem<br>If 3 workers can complete a task in 6 hours, how long will it take 6 workers to complete the same task, assuming they work at the same rate?<br><br>Exercise 3: Mixed Problem<br>A map shows that 1 cm represents 5 km. If two cities are 8 cm apart on the map, what is the actual distance between them?<br><br>Exercise 4: Ratio and Direct Proportion<br>The ratio of boys to girls in a class is 7:5. If there are 35 boys, how many girls are there in the class?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and problem-solving activities.",
+    "<b>Exercise</b>: The exercises will be evaluated to assess the students' understanding of ratios and direct proportion."
+  ],
+  "conclusion": [
+    "By learning about ratios and direct proportion, students will be able to apply these concepts to real-life situations and solve problems involving proportional relationships."
+  ]
+},
+
+// Leddon 3
+{
+  "title": "Understanding Cost Price, Selling Price, Profit, and Loss",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Cost Price, Selling Price, Profit, and Loss",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concepts of cost price, selling price, profit, and loss, and teaches them how to identify and calculate profit and loss through simple transactions and word problems.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sample receipts or mock items with prices",
+    "Calculators",
+    "Worksheets with word problems"
+  ],
+  "objectives": [
+    "Define cost price, selling price, profit, and loss.",
+    "Identify and calculate profit and loss in simple transactions.",
+    "Solve word problems related to profit and loss."
+  ],
+  "rationale": [
+    "Understanding cost price, selling price, profit, and loss helps students develop essential math skills for real-life situations, such as handling money, making purchases, and understanding business concepts."
+  ],
+  "methodology": [
+    "The lesson will use explanations, real-life examples, class discussions, and problem-solving activities to engage students and enhance their understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Cost Price and Selling Price (10 minutes)</b><br><br>1. <b>Cost Price (C.P.):</b><br>The cost price is the amount of money spent to produce or buy an item.<br>It’s the original price or the price paid by a shopkeeper to purchase the product.<br><br><b>Examples:</b><br>If a shopkeeper buys a book for $50, the cost price is $50.<br>If a person buys a packet of chips for $10, the cost price is $10.<br><br>2. <b>Selling Price (S.P.):</b><br>The selling price is the price at which an item is sold to a customer.<br>It can be higher or lower than the cost price.<br><br><b>Examples:</b><br>If the shopkeeper sells the book for $60, the selling price is $60.<br>If the chips are sold for $8, the selling price is $8.<br><br><b>Class Discussion:</b><br>Ask students:<br>“What happens if the selling price is higher than the cost price?”<br>“What if it’s lower?”",
+      
+      "<b>Part 2: Understanding Profit and Loss (10 minutes)</b><br><br>1. <b>Profit:</b><br>If the selling price is greater than the cost price, there is a profit.<br><b>Profit = Selling Price - Cost Price</b><br><br><b>Example:</b><br>Cost price of a pen: $30<br>Selling price of a pen: $40<br>Profit = $40 - $30 = $10<br><br>2. <b>Loss:</b><br>If the selling price is less than the cost price, there is a loss.<br><b>Loss = Cost Price - Selling Price</b><br><br><b>Example:</b><br>Cost price of a bag: $80<br>Selling price of a bag: $70<br>Loss = $80 - $70 = $10<br><br><b>Class Discussion:</b><br>“Can you think of a time when you sold something for less than what you paid?”",
+      
+      "<b>Part 3: Formulas and Key Points (10 minutes)</b><br><br><b>Key formulas to remember:</b><br>Profit = Selling Price - Cost Price<br>Loss = Cost Price - Selling Price<br>Selling Price = Cost Price + Profit<br>Cost Price = Selling Price + Loss<br><br><b>Real-life examples:</b><br>A shopkeeper buys apples for $100 and sells them for $120.<br>Profit = $120 - $100 = $20<br><br>Another shopkeeper buys a toy for $50 but sells it for $45.<br>Loss = $50 - $45 = $5",
+      
+      "<b>Part 4: Application — Word Problems (15 minutes)</b><br><br>1st Problem:<br>A fruit seller buys bananas for $150 and sells them for $180.<br>Did the seller make a profit or a loss?<br>Calculate the amount of profit or loss.<br><br>2nd Problem:<br>Jane buys a dress for $200 and sells it for $150.<br>Did Jane make a profit or a loss?<br>Calculate the amount of profit or loss.<br><br><b>Class Activity:</b><br>Ask students to create their own word problems based on what they’ve learned.",
+      
+      "<b>Part 5: Exercise (15 minutes)</b><br><br>Solve the following problems:<br><br>1. A man buys a pair of shoes for $250 and sells them for $300.<br>Find the profit or loss.<br><br>2. A book costs $80, but a shopkeeper sells it for $70.<br>Calculate the profit or loss.<br><br>3. Lily buys candies for $50 and sells them for $65.<br>Did Lily make a profit or a loss? By how much?<br><br>4. Tom buys a toy car for $90 and sells it for $90.<br>Did Tom make a profit, a loss, or neither?<br><br>5. A girl buys a plant for $45 and sells it for $60.<br>Calculate her profit."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and their ability to solve word problems.",
+    "<b>Exercise</b>: The 5-question exercise will assess students’ understanding of profit, loss, and their ability to use the formulas correctly."
+  ],
+  "conclusion": [
+    "Recap:<br><br>Cost Price: The price at which an item is bought.<br>Selling Price: The price at which an item is sold.<br>Profit: When S.P. > C.P.<br>Loss: When C.P. > S.P."
+  ],
+  "homework": [
+    "Create 3 word problems — one about profit, one about loss, and one with no profit or loss — and solve them."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Calculating Cost Price, Selling Price, Profit, and Loss",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Calculating Cost Price, Selling Price, Profit, and Loss",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "4",
+  "description": "This lesson teaches learners how to calculate cost price, selling price, profit, and loss using formulas and real-life examples. Learners will also solve word problems to apply these concepts.",
+  "materials": [
+    "Whiteboard and markers",
+    "Chart showing formulas for profit and loss",
+    "List of sample items with cost and selling prices"
+  ],
+  "objectives": [
+    "Understand and define cost price, selling price, profit, and loss.",
+    "Apply formulas to calculate profit or loss.",
+    "Solve word problems related to profit and loss."
+  ],
+  "rationale": [
+    "Understanding profit and loss helps students grasp basic financial concepts that are crucial for managing money, running a business, or assisting family members in sales."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, real-life examples, and group activities to enhance understanding.",
+    "Students will engage in exercises and word problems to practice calculations."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 mins)</b>:<br><br>1.1 Class Discussion:<br>Begin by asking learners if they’ve ever bought or sold anything (like snacks at school or helping a family member at a shop).<br><br>Introduce these terms:<br><b>Cost Price (C.P.)</b>: The amount of money spent to produce or buy an item.<br><b>Selling Price (S.P.)</b>: The amount of money at which an item is sold.<br><br>Examples:<br>If a shop owner buys a bag of sweets for $10, that is the cost price.<br>If they sell the bag for $15, that is the selling price.<br><br>Why is this important?<br>Businesses need to know if they are making money (profit) or losing money (loss).",
+      "<b>Part 2: Understanding Profit and Loss (10 mins)</b>:<br><br>2.1 Definitions:<br><b>Profit</b>: If the selling price is more than the cost price.<br><br><b>Profit = Selling Price - Cost Price</b><br><b>Loss = Cost Price - Selling Price</b><br><br>2.2 Examples:<br><b>Profit Example:</b><br>A shopkeeper buys a toy for $50 (C.P.) and sells it for $70 (S.P.).<br><b>Profit = 70 - 50 = 20</b><br><br>If the same toy was sold for $40 instead,<br><b>Loss = 50 - 40 = 10</b>",
+      "<b>Part 3: Calculating Selling Price and Cost Price (10 mins)</b>:<br><br>3.1 Reverse calculations:<br>To find <b>Selling Price</b> if <b>Profit</b> is known:<br><b>Selling Price = Cost Price + Profit</b><br><b>Cost Price = Selling Price - Profit</b><br><b>Selling Price = Cost Price - Loss</b><br><b>Cost Price = Selling Price + Loss</b><br><br>Examples:<br>A vendor makes a profit of $15 selling a pen for $45. What was the cost price?<br><b>Cost Price = 45 - 15 = 30</b>",
+      "<b>Part 4: Real-life Application (15 mins)</b>:<br><br>4.1 Class Discussion:<br>Discuss why businesses need to track their profits and losses.<br>Ask: Why do shops put items 'on sale'? (To reduce loss by at least recovering part of their cost price.)<br><br>4.2 Group Activity:<br>Divide learners into small groups.<br>Give each group a list of items with cost prices and ask them to set selling prices.<br>Let them calculate whether they made a profit or a loss.",
+      "<b>Part 5: Exercise (15 mins)</b>:<br><br>Instructions: Solve the following problems. Show all your workings clearly.<br><br>1. A book was bought for $80 and sold for $100. Calculate the profit.<br><br>2. A bag was purchased for $120 and sold for $110. Calculate the loss.<br><br>3. John sells a toy car for $75 and makes a profit of $25. What was the cost price?<br><br>4. A grocer bought apples for $60 and sold them at a loss of $10. What was the selling price?<br><br>5. If a pen's cost price is $20 and the selling price is $25, how much profit did the seller make?<br><br><b>Challenge Question:</b><br>A vendor buys 5 shirts at $150 each. He sells all 5 shirts at a total of $800. Did he make a profit or a loss? How much?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation during discussions and group activities.",
+    "<b>Exercise</b>: Students’ understanding will be assessed through their ability to correctly solve profit and loss problems."
+  ],
+  "conclusion": [
+    "By the end of the lesson, learners will understand how to calculate cost price, selling price, profit, and loss. They will also recognize the importance of tracking these concepts in real-life scenarios, such as running a business."
+  ]
+},
+
+// Lesson 5
+{
+  "title": "Understanding Simple Interest, Discount, and Profit & Loss Percentages",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Simple Interest, Discount, and Profit & Loss Percentages",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "5",
+  "description": "This lesson introduces students to the concepts of simple interest, discount, and profit & loss percentages, teaching them how to calculate each and apply these concepts to real-life situations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Calculator",
+    "Worksheet with real-life math problems"
+  ],
+  "objectives": [
+    "Students will be able to calculate simple interest using the formula.",
+    "Students will understand and calculate discounts.",
+    "Students will determine profit and loss percentages.",
+    "Students will apply these concepts in solving real-life problems."
+  ],
+  "rationale": [
+    "Understanding simple interest, discounts, and profit/loss percentages helps students develop essential financial literacy skills for everyday life."
+  ],
+  "methodology": [
+    "The lesson will use explanations, worked examples, and class discussions, followed by group activities and exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Simple Interest</b>:<br><br>Explanation:<br>Interest is the extra money paid for using someone’s money.<br>Simple interest is calculated using the formula:<br><br>Simple Interest (SI) = (P × R × T) ÷ 100<br><br>Where:<br>P = Principal (the amount of money borrowed or invested)<br>R = Rate of interest per year (%)<br>T = Time (in years)<br><br>Example:<br>If you invest K 1000 at an interest rate of 5% for 2 years, the interest is:<br><br>SI = (1000 × 5 × 2) ÷ 100 = K 100<br><br>Discussion:<br>What happens if you leave your money in a bank for longer?<br>Will you earn more interest if the rate increases?",
+      "<b>Part 2: Understanding Discount</b>:<br><br>Explanation:<br>A discount is a reduction in the original price of an item, often used in sales.<br>The formula for discount is:<br><br>Discount = Original Price × (Discount Rate ÷ 100)<br><br>The Selling Price after discount is:<br><br>Selling Price = Original Price - Discount<br><br>Example:<br>A shirt costs K 500 and is on sale with a 20% discount.<br><br>Discount = 500 × (20 ÷ 100) = K 100<br>Selling Price = 500 - 100 = K 400<br><br>Discussion:<br>Why do shops offer discounts?<br>Have you ever bought something at a discount?",
+      "<b>Part 3: Profit and Loss Percentages</b>:<br><br>Explanation:<br>Profit occurs when the selling price is greater than the cost price.<br>Loss occurs when the selling price is less than the cost price.<br><br>Formulas:<br>Profit = Selling Price - Cost Price<br>Loss = Cost Price - Selling Price<br><br>Profit Percentage:<br>Profit % = (Profit ÷ Cost Price) × 100<br><br>Loss Percentage:<br>Loss % = (Loss ÷ Cost Price) × 100<br><br>Example:<br>A shopkeeper buys a toy for K 300 and sells it for K 400.<br><br>Profit = 400 - 300 = K 100<br>Profit % = (100 ÷ 300) × 100 = 33.33%<br><br>If he sells it for K 250:<br><br>Loss = 300 - 250 = K 50<br>Loss % = (50 ÷ 300) × 100 = 16.67%<br><br>Discussion:<br>Why do some businesses make a profit and others a loss?<br>Can you give examples of profit or loss from your daily life?",
+      "<b>Part 4: Real-life Applications</b>:<br><br>Scenario-based discussion:<br>You save money in a bank account. How does the bank calculate the interest?<br>You go shopping, and there’s a 10% sale. How much will you pay?<br>A fruit seller buys apples for K 100 and sells them for K 120. Did they make a profit or loss?<br><br>Class Activity:<br>Divide the class into groups. Give each group a problem to solve:<br><br>1. Calculate simple interest for a 3-year deposit.<br>2. Find the selling price after a discount.<br>3. Calculate profit or loss for a small business.",
+      "<b>Part 5: Exercises</b>:<br><br>1. Simple Interest:<br>Calculate the interest on K 2000 at 6% per year for 4 years.<br>Find the interest earned on K 1500 at 5% for 3 years.<br><br>2. Discounts:<br>A jacket costs K 800. If there is a 25% discount, what is the selling price?<br>A toy is K 350, and the shop offers a 15% discount. What will you pay?<br><br>3. Profit & Loss:<br>A trader buys a book for K 500 and sells it for K 600. What is the profit percentage?<br>A vendor purchases oranges for K 200 and sells them for K 180. What is the loss percentage?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and their accuracy in solving math problems.",
+    "<b>Exercise</b>: The exercises at the end will be used to assess students’ understanding of simple interest, discounts, and profit & loss percentages."
+  ],
+  "conclusion": [
+    "Recap the formulas for simple interest, discount, and profit/loss percentages.",
+    "Encourage students to think about how these concepts appear in real life — from saving money to shopping at sales."
+  ]
+},
+
+// Week 9
+// Lesson 1
+{
+  "title": "Time Tabling in Transportation and Fare Charts",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Time Tabling in Transportation and Fare Charts (Bus, Train)",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to reading and interpreting timetables for buses and trains, understanding fare charts, and solving real-world math problems related to transportation.",
+  "materials": [
+    "Printed bus and train timetables",
+    "Sample fare charts",
+    "Whiteboard and markers",
+    "Notebooks and pens"
+  ],
+  "objectives": [
+    "Students will understand what a timetable is and why it is important in transportation.",
+    "Students will learn how to read and interpret timetables for buses and trains.",
+    "Students will be introduced to fare charts and how fares are calculated.",
+    "Students will solve real-world math problems using timetables and fare charts.",
+    "Students will discuss the importance of planning journeys using both time and fare information."
+  ],
+  "rationale": [
+    "Understanding time tabling and fare charts helps students plan journeys, manage time, and apply math concepts in real-world situations."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, and activities involving reading timetables and fare charts, followed by problem-solving exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Time Tabling in Transportation</b>:<br><br><b>Objective:</b><br>Understand what a timetable is and why it is important in transportation (buses, trains).<br><br><b>Explanation:</b><br>A timetable is a chart or table that shows the times at which buses, trains, or other means of transport arrive and depart from various places. It helps passengers plan their journeys, ensuring they arrive at their destinations on time.<br><br><b>Examples:</b><br>- A school bus timetable shows when the bus picks up students and when it drops them off.<br>- A train timetable shows what time a train leaves each station and what time it arrives at the next.<br><br><b>Class Discussion:</b><br>- Why is a timetable important for passengers?<br>- What happens if a bus or train doesn't follow its timetable?",
+      "<b>Part 2: Reading and Interpreting Timetables</b>:<br><br><b>Objective:</b><br>Learn how to read and understand a timetable.<br><br><b>Explanation:</b><br>Timetables are usually organized in rows and columns.<br>- The first column shows the names of the stops or stations.<br>- The next columns show the times buses or trains arrive or leave each stop.<br>- Sometimes, timetables also mention if the service is daily or only on certain days (like weekdays or weekends).<br><br><b>Example:</b><br>A simple bus timetable:<br><br><b>Activity:</b><br>Let students read a timetable and answer simple questions like:<br>- 'What time does the bus leave City Center?'<br>- 'How long does it take to go from Bus Station to School Gate?'",
+      "<b>Part 3: Understanding Fare Charts (Bus, Train)</b>:<br><br><b>Objective:</b><br>Introduce fare charts and how they work.<br><br><b>Explanation:</b><br>A fare chart shows how much money passengers have to pay to travel from one place to another. Fares may depend on:<br>- The distance traveled.<br>- The type of ticket (one-way or return).<br>- The age of the passenger (children may pay less, while adults pay full price).<br><br><b>Example:</b><br>A simple bus fare chart:<br><br><b>Class Discussion:</b><br>- Why do you think traveling a longer distance costs more?<br>- How can someone save money on fares (like buying return tickets or monthly passes)?",
+      "<b>Part 4: Solving Problems Using Timetables and Fare Charts</b>:<br><br><b>Objective:</b><br>Use timetables and fare charts to solve real-world math problems.<br><br><b>Examples:</b><br>1. <b>Time Calculation:</b><br>If a bus leaves Bus Station at 8:00 AM and arrives at School Gate at 8:30 AM, how long is the journey?<br><br>2. <b>Fare Calculation:</b><br>If a passenger travels from Bus Station to City Center and then from City Center to School Gate, how much do they pay in total?<br><br><b>Class Discussion:</b><br>- How can knowing both the time and fare help you plan a journey?",
+      "<b>Part 5: Exercise</b>:<br><br><b>Instructions:</b><br>Answer the following questions using the timetable and fare chart provided:<br><br><b>Timetable:</b><br><br><b>Fare Chart:</b><br><br><b>Questions:</b><br>1. What time does the bus leave the Town Center?<br>2. How long does the bus take from Main Station to School Gate?<br>3. How much would a passenger pay if they traveled from Main Station to Town Center and then from Town Center to School Gate?<br>4. If a passenger boards the bus at 09:05 AM at Main Station and gets off at 09:40 AM at School Gate, how many minutes did they spend traveling?<br>5. If the bus arrives late at School Gate at 09:50 AM, how many minutes late is it?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during class discussions and activities.",
+    "<b>Exercise</b>: Students will complete the time and fare calculations to assess their understanding."
+  ],
+  "conclusion": [
+    "By understanding timetables and fare charts, students will be able to plan their journeys, manage their time, and calculate fares, preparing them to apply math skills in real-life transportation scenarios."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Understanding Averages (Measures of Central Tendency)",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Understanding Averages",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of central tendency and explores how to calculate and use the mean, median, and mode.",
+  "materials": [
+    "Whiteboard and markers",
+    "Calculator",
+    "Student notebooks",
+    "Printed data sets for exercises"
+  ],
+  "objectives": [
+    "Students will be introduced to the concept of central tendency and understand why it is used in real life.",
+    "Students will learn how to calculate the mean.",
+    "Students will learn how to calculate the median and mode.",
+    "Students will understand when to use each measure of central tendency.",
+    "Students will apply their understanding by solving exercises."
+  ],
+  "rationale": [
+    "Understanding averages helps students interpret data meaningfully and make informed decisions based on common patterns or trends."
+  ],
+  "methodology": [
+    "The lesson will use real-life examples, board work, and practical exercises to solidify students’ understanding of mean, median, and mode."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Objective:<br>Students will be introduced to the concept of central tendency and understand why it is used in real life.<br><br>Explanation:<br>Ask the class: “Have you ever heard someone say, ‘On average, I spend 2 hours on homework every day’?”<br><br>Explain that an average is a way to find the 'middle' or 'typical' value in a set of numbers.<br><br>Introduce the term <b>measures of central tendency</b> — methods used to find a central or middle value in a data set.<br><br>Key terms:<br><b>Mean:</b> The sum of all numbers divided by the count of numbers.<br><b>Median:</b> The middle number when the data is arranged in order.<br><b>Mode:</b> The number that appears most often.",
+      "<b>Part 2: The Mean (15 minutes)</b>:<br><br>Objective:<br>Students will learn how to calculate the mean.<br><br>Explanation:<br>Write this set of numbers on the board: <b>4, 8, 6, 10, 2</b>.<br><br>To find the mean:<br><br>1. Add all the numbers:<br>4 + 8 + 6 + 10 + 2 = 30<br><br>2. Count how many numbers there are: 5.<br><br>3. Divide the sum by the count:<br>30 ÷ 5 = 6<br><br>The mean is <b>6</b>.<br><br>Real-life example:<br>“If five friends have the following pocket money — $4, $8, $6, $10, and $2 — their average pocket money is $6.”",
+      "<b>Part 3: Median and Mode (15 minutes)</b>:<br><br>Objective:<br>Students will learn how to calculate the median and mode.<br><br>Explanation:<br><br>1. <b>Median:</b><br>Using the same set: <b>2, 4, 6, 8, 10</b> (arranged in order).<br>The middle number is <b>6</b> — so the median is <b>6</b>.<br><br>If there's an even set of numbers, the median is the average of the two middle numbers.<br><br>2. <b>Mode:</b><br>New set: <b>2, 4, 4, 6, 8, 10</b>.<br>The number <b>4</b> appears twice — so the mode is <b>4</b>.<br><br>If no number repeats, there is no mode.<br><br>Real-life example:<br>“In a class test, the marks were: 7, 8, 8, 9, 10. The most common score (mode) is <b>8</b>.”",
+      "<b>Part 4: Comparing Mean, Median, and Mode (10 minutes)</b>:<br><br>Objective:<br>Students will understand when to use each measure of central tendency.<br><br>Explanation:<br><br><b>Mean:</b> Best when numbers are evenly spread without extreme values (like test scores).<br><b>Median:</b> Useful when there are extreme values or outliers (like house prices).<br><b>Mode:</b> Helpful when identifying the most common item or result (like the most popular shoe size).<br><br>Quick comparison chart:<br>1. <b>Mean:</b> Typical average used most often.<br>2. <b>Median:</b> Useful for skewed data.<br>3. <b>Mode:</b> Highlights the most common value.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>Instructions:<br><br>1. Find the mean, median, and mode of the following data sets:<br><br>a) 3, 5, 7, 7, 9<br>b) 2, 4, 4, 6, 8, 10<br>c) 12, 15, 18, 18, 20, 22, 22, 25<br><br>2. Which measure of central tendency would you use if:<br><br>a) You want to find the average score in a test?<br>b) You want to know the most popular fruit chosen by your class?<br>c) You want to find the middle height of students in your class?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation and responses during discussions and exercises.",
+    "<b>Class Exercise</b>: Students' answers to the given data sets will be used to assess their grasp of mean, median, and mode."
+  ],
+  "conclusion": [
+    "By learning about averages and measures of central tendency, students will better understand how data is analyzed and summarized in real life."
+  ],
+  "task": [
+    "<b>Homework:</b><br><br>Collect 10 scores from your friends or siblings (like test marks or pocket money amounts).<br><br>Calculate the mean, median, and mode of those scores.<br><br>Be ready to share your answers with the class tomorrow."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Solving Problems Involving Averages",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, February 27, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Solving Problems Involving Averages",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concept of averages, teaching them how to calculate averages, solve word problems, and apply the concept to real-life situations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Chalk",
+    "Exercise books",
+    "Calculators"
+  ],
+  "objectives": [
+    "Understand the concept of averages.",
+    "Calculate the average of a set of numbers.",
+    "Solve word problems involving averages.",
+    "Apply the concept of averages to real-life situations."
+  ],
+  "rationale": [
+    "Understanding averages helps students make sense of data by finding central values. This skill is useful in real-life situations like calculating test scores, sports statistics, and daily expenses."
+  ],
+  "methodology": [
+    "The lesson will use discussion, step-by-step demonstrations, and practical word problems to explain averages."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Averages (10 minutes)</b><br><br>Discussion:<br>Begin by asking the class: “What do you think the word 'average' means?”<br><br>Explain that an average is a number that represents the 'middle' value of a group of numbers.<br><br>Introduce the formula for calculating averages:<br><br><pre>Average = Sum of all values ÷ Number of values</pre><br><br>Example:<br>If three students scored 80, 90, and 100 in a math test, the average score is:<br><br><pre>(80 + 90 + 100) ÷ 3 = 270 ÷ 3 = 90</pre>",
+      "<b>Part 2: Step-by-Step Calculation (15 minutes)</b><br><br>Steps to calculate an average:<br><br>1. Add all the values together.<br>2. Count how many values there are.<br>3. Divide the sum by the number of values.<br><br>Class Activity:<br>Write these numbers on the board: 45, 50, 55, 60, 65.<br>Guide the class through the steps to find the average:<br><br><pre>Sum = 45 + 50 + 55 + 60 + 65 = 275<br>Number of values = 5<br>Average = 275 ÷ 5 = 55</pre><br><br>Encourage students to ask questions if they're confused about any step.",
+      "<b>Part 3: Solving Word Problems (15 minutes)</b><br><br>Word Problem Examples:<br><br>1. John scored 70, 85, 90, and 95 in his tests. What is his average score?<br><br>2. A family drove 120 km on Monday, 150 km on Tuesday, and 130 km on Wednesday. What was the average distance they drove per day?<br><br>Class Activity:<br>Solve the first problem together as a class.<br><br>Let students solve the second one individually, then discuss the solution as a group.",
+      "<b>Part 4: Real-Life Applications (10 minutes)</b><br><br>Discussion:<br>Ask: 'Where do we use averages in real life?'<br><br>Discuss examples like:<br>• A sports team’s average score.<br>• The average temperature in a week.<br>• Average time spent on homework each day.<br><br>Group Activity:<br>Divide the class into small groups.<br><br>Each group creates a word problem involving averages from their daily lives (like calculating the average score in a game or the average height of their group members).<br><br>Groups swap problems and solve each other’s questions.",
+      "<b>Part 5: Exercises (10 minutes)</b><br><br>Practice Problems:<br><br>1. Find the average of these numbers: 22, 28, 30, 26, 24.<br><br>2. Peter ran 4 km on Monday, 5 km on Tuesday, and 6 km on Wednesday. What was his average distance per day?<br><br>3. A shopkeeper sold 15 items on Monday, 20 on Tuesday, and 25 on Wednesday. What was the average number of items sold per day?<br><br>4. The temperatures for five days were 30°C, 32°C, 31°C, 29°C, and 33°C. What was the average temperature?<br><br>5. Your test scores in five subjects were 75, 80, 85, 90, and 95. What is your average score?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation during discussions, class activities, and group problem-solving.",
+    "<b>Exercise</b>: Students' answers to practice problems will be reviewed to check their understanding of calculating averages."
+  ],
+  "conclusion": [
+    "Recap what averages are and how to calculate them.",
+    "Highlight their importance in daily life.",
+    "Encourage students to practice more at home by calculating averages of test scores, family expenses, or sports scores."
+  ]
+},
+
+// Lesson 4
+{
+  "title": "Linear Equations in One Variable",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Linear Equations in One Variable",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "4",
+  "description": "This lesson introduces students to linear equations in one variable, focusing on open sentences and how variables affect the truth of mathematical statements.",
+  "materials": [
+    "Whiteboard and markers",
+    "Math textbooks",
+    "Student notebooks",
+    "Worksheets"
+  ],
+  "objectives": [
+    "Understand what an open sentence is in mathematics.",
+    "Differentiate between open sentences, true sentences, and false sentences.",
+    "Identify variables and solve basic linear equations in one variable.",
+    "Explain how substituting values affects the truth of open sentences.",
+    "Solve simple linear equations and verify their solutions."
+  ],
+  "rationale": [
+    "Understanding linear equations helps students build a foundation for algebra by learning how variables work in mathematical statements."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, worked examples, and class discussions, followed by guided and independent practice."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br><b>Objective:</b><br>Understand what an open sentence is in mathematics.<br>Differentiate between open sentences, true sentences, and false sentences.<br><br><b>Explanation:</b><br>A sentence in mathematics is a statement that can be either true or false.<br>An open sentence is a mathematical statement that contains a variable and can be true or false depending on the value of the variable.<br><br><b>Examples:</b><br>True sentence: 3 + 2 = 5 (this is always true)<br>False sentence: 7 - 4 = 10 (this is always false)<br>Open sentence: x + 3 = 7 (this depends on the value of x — if x = 4, the sentence is true, but if x = 5, it is false.)<br><br><b>Why 'open'?</b><br>Because we don’t know the truth until we replace the variable with a value — the 'truth' is open until we solve it.",
+      "<b>Part 2: Explanation (15 minutes)</b>:<br><br><b>Key Concepts:</b><br>1. Variable: A symbol, often a letter like x, y, or n, that represents an unknown value.<br><br>2. Linear equation in one variable: An equation like x + 3 = 7 where there is only one variable and the variable’s highest power is 1.<br><br>3. Open sentences in equations:<br>x + 5 = 9 → true if x = 4<br>2y = 8 → true if y = 4<br>a - 3 = 2 → true if a = 5<br><br><b>Formula for a basic linear equation:</b><br>ax + b = c<br>Where:<br>x is the variable.<br>a, b, and c are constants (numbers).",
+      "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br><b>Activity:</b><br>Write these sentences on the board:<br>1. x + 2 = 6<br>2. 3y = 9<br>3. z - 4 = 10<br><br><b>Ask the class:</b><br>What are the variables?<br>Can we solve these equations to make the sentences true?<br><br><b>Solutions (step by step):</b><br>1. x + 2 = 6<br>Subtract 2 from both sides:<br>x = 6 - 2<br>x = 4 → true if x = 4.<br><br>2. 3y = 9<br>Divide both sides by 3:<br>y = 9 ÷ 3<br>y = 3 → true if y = 3.<br><br>3. z - 4 = 10<br>Add 4 to both sides:<br>z = 10 + 4<br>z = 14 → true if z = 14.",
+      "<b>Part 4: Class Discussion (10 minutes)</b>:<br><br><b>Discuss:</b><br>Why are these open sentences? (Because they depend on the variable's value.)<br>What happens when we replace the variable with a number?<br>Can an open sentence ever be false? (Yes, if the value doesn’t satisfy the equation.)<br><br><b>Highlight:</b><br>An open sentence becomes true or false once a value is substituted for the variable.<br>Solving the equation means finding the value that makes the sentence true.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br><b>Solve the following open sentences by finding the value of the variable:</b><br>1. x + 4 = 9<br>2. 2y = 12<br>3. z - 5 = 8<br>4. 3a + 2 = 11<br>5. b ÷ 2 = 7<br><br><b>Homework (optional):</b><br>Create 3 open sentences using any variable and exchange with a friend to solve."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will walk around during guided practice and exercises to check student work and understanding.",
+    "<b>Exercise</b>: Students will solve the open sentences and discuss the answers together to reinforce their understanding."
+  ],
+  "conclusion": [
+    "By learning about open sentences and linear equations, students will understand how variables work in mathematical statements and how to find values that make equations true."
+  ]
+},
+
+// Lesson 5
+{
+  "title": "Linear Equations in One Variable",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Mathematics",
+  "topic": "Linear Equations in One Variable",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "5",
+  "description": "This lesson introduces students to solving linear equations in one variable by isolating the variable using inverse operations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Mathematics textbook",
+    "Student notebooks"
+  ],
+  "objectives": [
+    "Understand what it means to solve a linear equation in one variable.",
+    "Learn the goal of solving an equation — to find the value of the variable that makes the equation true.",
+    "Practice solving simple linear equations step by step.",
+    "Check solutions by substituting the value of the variable back into the original equation."
+  ],
+  "rationale": [
+    "Learning to solve linear equations helps students build a strong foundation in algebra, which is essential for higher-level math concepts."
+  ],
+  "methodology": [
+    "The lesson will use explanation, guided practice, and class discussions to reinforce the concept of solving linear equations."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Objective:<br>Understand what it means to solve a linear equation in one variable.<br>Learn the goal of solving an equation — to find the value of the variable that makes the equation true.<br><br>Explanation:<br>A linear equation in one variable is an equation that can be written in the form:<br><br>ax + b = c<br><br>Where:<br>x is the variable.<br>a, b, and c are numbers (constants).<br>The variable's highest power is 1 (which is why it's called 'linear').<br><br>Example:<br>x + 5 = 12 is a linear equation in one variable.<br>Our goal is to find the value of x that makes this equation true.",
+      "<b>Part 2: Explanation (15 minutes)</b>:<br><br>Steps to Solve Linear Equations:<br><br>1. Isolate the variable: Get x by itself on one side of the equation.<br><br>2. Use inverse operations:<br>Addition → Subtraction<br>Subtraction → Addition<br>Multiplication → Division<br>Division → Multiplication<br><br>Examples:<br>1. x + 3 = 7<br>Subtract 3 from both sides:<br>x + 3 - 3 = 7 - 3<br><br>2. 2x = 8<br>Divide both sides by 2:<br>(2x) ÷ 2 = 8 ÷ 2<br><br>3. x - 5 = 10<br>Add 5 to both sides:<br>x - 5 + 5 = 10 + 5<br><br>4. 3x + 2 = 11<br>Subtract 2 from both sides:<br>3x + 2 - 2 = 11 - 2<br>3x = 9<br>x = 3",
+      "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br>Activity:<br>Solve the following equations step by step:<br>1. x + 4 = 10<br>2. 5x = 20<br>3. x - 7 = 3<br>4. 4x + 3 = 11<br>5. 2x - 5 = 9<br><br>Questions to ask the class:<br>What is the first step?<br>What operation will 'undo' addition or subtraction?<br>How do we check if our solution is correct?<br><br>Solution checks:<br>After finding x, substitute it back into the original equation to verify if both sides are equal.",
+      "<b>Part 4: Class Discussion (10 minutes)</b>:<br><br>Discussion Points:<br>Why do we use inverse operations?<br>Can a linear equation have more than one solution? (No, for simple equations like these, there is only one solution.)<br>What happens if both sides of the equation are already equal? (It means x can be any number — we call this an identity.)<br><br>Key takeaway:<br>Solving a linear equation means finding the exact value of x that makes the equation true.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>Solve these equations:<br>1. x + 6 = 13<br>2. 3x = 27<br>3. x - 8 = 2<br>4. 5x + 4 = 24<br>5. 2x - 3 = 11<br><br>Bonus:<br>Write your own linear equation and solve it.<br><br>Homework (optional):<br>Create 3 linear equations and solve them.<br>Swap with a classmate and check each other's work."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during explanations and practice.",
+    "<b>Exercise Review</b>: The class will review answers together, ensuring each student shows all steps clearly."
+  ],
+  "conclusion": [
+    "By learning how to solve linear equations step by step, students will strengthen their understanding of algebra and problem-solving skills."
+  ]
+},
+
+// Week 10
+// Lesson 1
+
+
+
 	
 ];
