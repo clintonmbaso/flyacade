@@ -428,12 +428,12 @@ const lessonPlans41a = [
   "teacher": "Mr. C. Mbaso",
   "date": "Monday, January 29, 2025",
   "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
+  "subject": "Creative and Technology Studies",
   "topic": "Understanding and Using a Ruler to Measure Length and Width",
-  "grade": "2",
+  "grade": "Cloud Chicks",
   "term": "1",
-  "week": "5",
-  "lessonNumber": "3",
+  "week": "7",
+  "lessonNumber": "1",
   "description": "This lesson teaches students how to measure length and width of objects using a ruler, focusing on accuracy and understanding of measurements in inches and centimeters.",
   "materials": [
     "Rulers",
@@ -475,7 +475,7 @@ const lessonPlans41a = [
   "title": "Measuring Height Using a Ruler",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, March 3, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
   "topic": "Measuring Height Using a Ruler",
@@ -483,335 +483,344 @@ const lessonPlans41a = [
   "term": "1",
   "week": "7",
   "lessonNumber": "2",
-  "description": "This lesson aims to teach students how to measure height accurately using a ruler and to understand the concept of measurement.",
+  "description": "This lesson introduces students to the concept of height, how to measure it using a ruler, and the importance of accurate measurement.",
   "materials": [
     "Rulers",
     "Measuring tape",
-    "Chart paper",
-    "Classroom objects or students for demonstration"
+    "Worksheet for recording measurements",
+    "Classroom objects (pencil, textbook, chair, etc.)"
   ],
   "objectives": [
-    "Students will learn how to measure height using a ruler.",
-    "Students will practice measuring the height of different objects and people."
+    "Students will understand the concept of height and why we measure it.",
+    "Students will learn how to use a ruler correctly to measure height.",
+    "Students will practice measuring the height of various classroom objects and their classmates.",
+    "Students will record and compare measurements.",
+    "Students will complete a home task measuring items and recording their heights."
   ],
   "rationale": [
-    "Learning how to measure accurately is an essential skill in both everyday life and academic work, particularly in subjects such as mathematics and science."
+    "Understanding height measurement helps students develop essential math skills and prepares them for real-world applications, such as tracking growth and arranging objects in space."
   ],
   "methodology": [
-    "The lesson will involve practical demonstrations, group activities, and hands-on practice with rulers to reinforce the concept of measuring height."
+    "The lesson will use direct instruction, hands-on practice, and interactive discussions to build measurement skills."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Measurement</b>: The teacher will introduce the concept of measurement and the importance of using tools like a ruler to measure height accurately.",
-      "<b>Demonstration</b>: The teacher will demonstrate how to use a ruler to measure the height of an object (e.g., a pencil or book).",
-      "<b>Measuring People</b>: Students will take turns measuring each other's height using a ruler and comparing their measurements with a measuring tape for accuracy.",
-      "<b>Class Exercise</b>: Students will measure the height of various classroom objects and record their measurements on chart paper.",
-      "<b>Class Discussion</b>:<br>1. What is the purpose of using a ruler to measure height?<br>2. How can we ensure our measurements are accurate?"
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Objective: Introduce the concept of height and why we measure it.<br>Begin with a simple question: 'What do you think 'height' means?'<br>Explain that height is how tall something or someone is, from the bottom to the top.<br>Show a ruler and a measuring tape, and explain that we use these tools to measure height.<br>Discuss why measuring height is important, for example:<br>• To know how tall we are.<br>• To check if furniture fits in a room.<br>• To track growth over time.<br><br>Class discussion:<br>Ask: 'Can you name some things we might measure the height of?' (e.g., plants, chairs, people)",
+      "<b>Part 2: Demonstration (15 minutes)</b>:<br><br>Objective: Show how to measure height using a ruler.<br>Display a large ruler on the board and explain its parts:<br>• The numbers represent centimeters (cm) or inches.<br>• The zero mark at the bottom is where you start measuring.<br><br>Demonstrate by measuring the height of a small object (e.g., a book or a pencil) against the wall.<br>Next, measure the height of a student. Ensure the ruler starts at the floor and is straight.<br>Say the measurements out loud: 'This pencil is 15 cm tall. Alex is 120 cm tall.'<br><br>Key points to emphasize:<br>• Always start at zero.<br>• Keep the ruler straight and upright.<br>• Record the number at the top of the object or person’s head.",
+      "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br>Objective: Allow students to practice measuring with support.<br>Pair students and give each pair a ruler.<br>Ask them to measure:<br>• Their pencil or eraser.<br>• Their math textbook.<br>• A classmate’s height (have them stand against the wall).<br><br>Walk around to check their technique, ensuring they start at zero and hold the ruler straight.<br><br>Questions to ask:<br>• 'What number did your ruler show?'<br>• 'Did you start from zero?'<br>• 'Is the ruler standing straight?'",
+      "<b>Part 4: Independent Practice (10 minutes)</b>:<br><br>Objective: Reinforce skills through independent practice.<br>Hand out a worksheet where students record the height of the following classroom objects:<br>1. A chair leg<br>2. A marker or chalk<br>3. Their schoolbag<br><br>They should write their measurements clearly (e.g., 'The chair leg is 50 cm tall').",
+      "<b>Part 5: Exercise (Task) (10 minutes)</b>:<br><br>Objective: Assess their understanding with a hands-on task.<br>Instructions:<br>Measure the height of 3 items at home (like a toy, a book, or a plant) using a ruler.<br>Write down:<br>1. The name of the object.<br>2. Its height in centimeters or inches.<br><br>Draw a small picture of each object next to your measurements.<br><br>Example:<br>Toy car — 12 cm<br>Plant — 40 cm<br>Cup — 8 cm"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to measure height accurately during the hands-on activities.",
-    "<br><b>Homework</b>:<br>1. Measure the height of an object at home (e.g., a chair or a book) and write down the measurement. Bring it to class the next day."
+    "<b>Observation</b>: The teacher will observe students' technique while measuring objects and their ability to start at zero and hold the ruler straight.",
+    "<b>Worksheet</b>: Students will submit their worksheets, recording the height of classroom objects, and their home exercise measuring three items."
   ],
   "conclusion": [
-    "By practicing measurement with rulers, students will become more confident in using measurement tools and understanding the concept of height."
+    "Recap what height means and why we measure it.",
+    "Ask a few students to share their home measurements during the next class.",
+    "Remind them always to start at zero and keep the ruler straight."
   ]
 },
 
 // Week 8
 // Lesson 1
 {
-  "title": "Identifying Primary Colours",
+  "title": "Introduction to Primary Colours and Colour Mixing",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, March 3, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Identifying Primary Colours",
+  "topic": "Identifying Primary Colours and Creating New Colours",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "8",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students identify the primary colours and understand how they are used in art and design.",
+  "description": "This lesson introduces students to primary colours—red, blue, and yellow—and explores how they can be mixed to create new colours: purple, orange, and green.",
   "materials": [
-    "Primary colour paints (red, blue, yellow)",
-    "Paintbrushes and paper",
+    "Red, blue, and yellow paint or crayons",
+    "Whiteboard and markers",
     "Colour wheel chart",
-    "Objects in primary colours"
+    "Worksheets with circles for colour mixing"
   ],
   "objectives": [
-    "Students will identify the three primary colours: red, blue, and yellow.",
-    "Students will understand how primary colours are used to create other colours."
+    "Introduce students to the concept of primary colours.",
+    "Help students understand how primary colours are used to make other colours.",
+    "Allow students to experiment with mixing primary colours to create new colours."
   ],
   "rationale": [
-    "Understanding primary colours is foundational for learning about colour mixing and applying colours in art and design."
+    "Understanding primary colours is fundamental to colour theory and art.",
+    "Learning how colours mix enhances creativity and observation skills."
   ],
   "methodology": [
-    "The lesson will include a hands-on painting activity, discussions about colours, and using real-life examples to reinforce the concept of primary colours."
+    "The lesson will use visual aids, hands-on colour mixing activities, and class discussions to teach primary and secondary colours."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Colours</b>: Students will be introduced to the concept of primary colours, which are the building blocks for creating all other colours.",
-      "<b>Primary Colours</b>: The teacher will explain and show examples of red, blue, and yellow, pointing out objects in the classroom and outdoors that are these colours.",
-      "<b>Colour Wheel</b>: Students will be shown a colour wheel to demonstrate how primary colours are used to create secondary colours.",
-      "<b>Hands-On Activity</b>: Students will paint using only primary colours and experiment with mixing them to see what new colours they can create.",
-      "<b>Class Exercise</b>:<br>1. Can you name the three primary colours?<br>2. What happens when you mix red and yellow?"
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Objective: Introduce students to the concept of primary colours.<br><br>Begin by asking: 'What is your favorite colour?' Let a few students share their answers.<br><br>Hold up three cards or objects showing the colours red, blue, and yellow.<br><br>Explain: 'These are called primary colours. They are special because we cannot make these colours by mixing other colours together.'<br><br>Write the three primary colours on the board and repeat their names with the class: Red, Blue, Yellow.",
+      "<b>Part 2: Explanation (15 minutes)</b>:<br><br>Objective: Help students understand how primary colours are used to make other colours.<br><br>Show a colour wheel or draw one on the board, dividing it into sections.<br><br>Explain: 'When we mix primary colours, we get new colours. Let’s see what happens!'<br><br>Demonstrate by mixing paint or using coloured paper:<br>Red + Blue = Purple<br>Red + Yellow = Orange<br>Blue + Yellow = Green<br><br>Ask the class to repeat the new colours after you.<br>Add these new colours to the colour wheel.",
+      "<b>Part 3: Application (10 minutes)</b>:<br><br>Objective: Reinforce the concept by letting students experiment with colour mixing.<br><br>Give each student small amounts of red, blue, and yellow paint (or crayons/markers if paint isn’t available).<br><br>Provide paper or worksheets with three circles labeled 'Mix and Discover!'<br><br>Instruct them to mix:<br>Red and Blue in one circle<br>Red and Yellow in the second circle<br>Blue and Yellow in the third circle<br><br>Encourage them to observe what happens and write down or say the new colours they create.",
+      "<b>Part 4: Discussion (10 minutes)</b>:<br><br>Objective: Reflect on the activity and review the new knowledge.<br><br>Ask questions to check understanding:<br>'What are the three primary colours?'<br>'Can you mix colours to make red, blue, or yellow?'<br>'What colour do you get when you mix red and blue?'<br><br>Discuss how artists use these colours to create beautiful paintings.<br>Highlight how colours are all around us — in nature, clothes, and art!",
+      "<b>Part 5: Exercise (Task) (10 minutes)</b>:<br><br>Objective: Assess student understanding through a simple task.<br><br>Instructions: Hand out a worksheet with two sections:<br><br>Part 1: Colour the three circles using red, blue, and yellow. Label each circle correctly.<br>Part 2: Draw and colour three new circles showing what happens when they mix:<br>Red + Blue<br>Red + Yellow<br>Blue + Yellow<br><br>Bonus question: 'What is your favorite colour combination, and what new colour do you get?'"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to correctly identify and use primary colours during the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Draw three objects that are in primary colours and colour them accordingly."
+    "<b>Observation</b>: The teacher will observe student participation during the mixing activity.",
+    "<b>Worksheet Review</b>: The teacher will review worksheets to check if students correctly identified and mixed primary colours."
   ],
   "conclusion": [
-    "By engaging in a painting activity and discussing colour mixing, students will gain a solid understanding of the primary colours and how they are the foundation for creating other colours."
+    "By understanding primary colours and how they mix to create new colours, students develop essential artistic skills and an appreciation for the colours in the world around them."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Identifying Secondary Colours",
+  "title": "Exploring Secondary Colours",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, March 3, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Identifying Secondary Colours",
+  "topic": "Introduction to Secondary Colours",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "8",
   "lessonNumber": "2",
-  "description": "This lesson aims to help students identify and understand secondary colours created by mixing primary colours.",
+  "description": "This lesson introduces students to secondary colours by showing how they are created by mixing primary colours, with a hands-on colour-mixing activity.",
   "materials": [
-    "Red, blue, and yellow paint",
-    "White paper",
-    "Paintbrushes and palettes",
-    "Colour wheel chart"
+    "Paints (red, blue, yellow)",
+    "Crayons",
+    "Paper divided into three sections",
+    "Colour-mixing chart or flashcards"
   ],
   "objectives": [
     "Students will identify the three secondary colours: orange, green, and purple.",
     "Students will understand how secondary colours are created by mixing primary colours."
   ],
   "rationale": [
-    "Understanding secondary colours is important for developing foundational knowledge of colour theory and creativity in art."
+    "Understanding how colours mix helps students develop their creativity and lays a foundation for more advanced art concepts."
   ],
   "methodology": [
-    "The lesson will include interactive colour mixing activities, group discussions, and hands-on practice with paints."
+    "The lesson will use visual aids, hands-on activities, and class discussions to help students explore and understand secondary colours."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Colours</b>: Students will be introduced to primary colours (red, blue, yellow) and learn that secondary colours are made by mixing two primary colours.",
-      "<b>Colour Mixing</b>: Students will mix primary colours (red + yellow = orange, blue + yellow = green, red + blue = purple) and create secondary colours using paint.",
-      "<b>Exploring the Colour Wheel</b>: The teacher will explain the colour wheel, focusing on the position of primary and secondary colours.",
-      "<b>Hands-on Activity</b>: Students will paint their own colour wheel by mixing the primary colours and painting the resulting secondary colours.",
-      "<b>Class Exercise</b>:<br>1. What are the three secondary colours?<br>2. How do you make green? What two colours do you need to mix?"
+      "<b>Part 1: Introduction to Colours (5 mins)</b>:<br><br>Teacher says:<br>“Today, we are going to learn about something magical — how new colours are made by mixing others! But first, let’s quickly remind ourselves of the three most important colours — the ones we cannot make by mixing any other colours. These are called primary colours. Who remembers what they are?”<br><br>Teacher shows:<br>A chart or flashcards with the primary colours: red, blue, and yellow.<br>Briefly discuss each colour.<br><br><b>Key points:</b><br>Red, blue, and yellow are primary colours.<br>You cannot create these colours by mixing others — they are the 'building blocks' of all colours.",
+      "<b>Part 2: Introduction to Secondary Colours (10 mins)</b>:<br><br>Teacher says:<br>“Now, let’s talk about what happens when we mix these primary colours together. Something amazing happens — we get secondary colours!”<br><br>Teacher shows a colour-mixing chart or uses paint (if available):<br>Red + Yellow = Orange<br>Blue + Yellow = Green<br>Red + Blue = Purple<br><br>Ask students:<br>“What do you notice? What new colours did we make?”<br>“Can anyone think of something that is orange, green, or purple?” (Encourage them to name objects, like carrots, grass, grapes, etc.)<br><br><b>Key points:</b><br>Mixing two primary colours creates a secondary colour.<br>The secondary colours are orange, green, and purple.",
+      "<b>Part 3: Colour-Mixing Activity (15 mins)</b>:<br><br><b>Hands-on Experiment:</b><br>Give students small amounts of red, blue, and yellow paint or crayons.<br>Provide paper divided into three sections labeled Orange, Green, and Purple.<br>Ask students to mix the paints (or overlap crayons) to create each secondary colour.<br>Let them fill in each section with the correct colour.<br><br><b>Guided Questions:</b><br>“What happens when you mix red and yellow?”<br>“What colour do you get if you mix blue and yellow?”<br>“What happens when red and blue come together?”<br><br>Encourage exploration: Let them experiment a little with different amounts of each colour.",
+      "<b>Part 4: Class Discussion (5 mins)</b>:<br><br>Gather students to reflect on their work.<br>Ask:<br>“Can someone share what colours they made?”<br>“Was there anything surprising when you mixed the colours?”<br>“Why do you think we call them secondary colours?”<br><br><b>Reinforce the lesson:</b><br>“Remember, orange, green, and purple are secondary colours. We make them by mixing primary colours.”<br>Show the colour-mixing chart again and review the combinations.",
+      "<b>Part 5: Exercise (5 mins)</b>:<br><br><b>Worksheet or Oral Quiz:</b><br>Give students a short worksheet or draw a simple chart on the board.<br><br><b>Questions:</b><br>1. What colour do you get when you mix red and yellow?<br>2. What two primary colours make green?<br>3. Name the three secondary colours.<br>4. What colours make purple?<br>5. Can you name one thing that is orange?<br><br><b>Bonus:</b> Let them draw something using only secondary colours!"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding of colour mixing and their ability to identify and create secondary colours during the activity.",
-    "<br><b>Homework</b>:<br>1. Draw a picture using at least two secondary colours and describe which primary colours you mixed to create them."
+    "<b>Observation</b>: The teacher will observe student participation during the colour-mixing activity.",
+    "<b>Worksheet</b>: The completed worksheets will be checked for understanding.",
+    "<b>Discussion</b>: Student responses during the class discussion will be noted."
   ],
   "conclusion": [
-    "Through colour mixing and creative activities, students will gain a solid understanding of secondary colours and the process of creating them from primary colours."
+    "By the end of the lesson, students will confidently identify the three secondary colours — orange, green, and purple — and understand how they are created by mixing primary colours."
   ]
 },
 
 // Week 9
 // Lesson 1
 {
-  "title": "Drawing of Animals and Human Figures",
+  "title": "Introduction to Drawing Animals and Human Figures with Basic Shapes",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, March 3, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Drawing of Animals and Human Figures",
+  "topic": "Drawing Animals and Human Figures Using Basic Shapes",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "9",
   "lessonNumber": "1",
-  "description": "This lesson aims to introduce students to the basics of drawing animals and human figures, helping them develop their creative and artistic skills.",
+  "description": "This lesson introduces students to using basic shapes such as circles, squares, rectangles, triangles, and ovals to draw simple animals and human figures.",
   "materials": [
+    "Whiteboard and markers",
     "Drawing paper",
-    "Pencils, erasers, and color pencils",
-    "Examples of simple animal and human figure drawings"
+    "Pencils and erasers",
+    "Examples of simple shape drawings"
   ],
   "objectives": [
-    "Students will learn the basic shapes and structures involved in drawing animals and human figures.",
+    "Students will learn to identify and use basic shapes to draw animals and human figures.",
     "Students will practice sketching animals and human figures using simple shapes."
   ],
   "rationale": [
-    "Drawing is an essential creative skill that helps children develop fine motor skills, spatial awareness, and creativity."
+    "Understanding how to use basic shapes helps students build foundational drawing skills, boosting their creativity and confidence in art."
   ],
   "methodology": [
-    "The lesson will involve a step-by-step drawing demonstration, followed by hands-on practice where students will draw their own animals and human figures."
+    "The lesson will use explanations, step-by-step demonstrations, and guided practice to teach students how to create drawings using basic shapes."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Drawing</b>: Students will learn how basic shapes (circles, squares, rectangles) can form the foundation for drawing more complex shapes, such as animals and human figures.",
-      "<b>Drawing Animals</b>: The teacher will demonstrate how to draw simple animals using basic shapes (e.g., a circle for the head, ovals for the body, and lines for the legs). Students will then draw their own animals.",
-      "<b>Drawing Human Figures</b>: Students will learn how to create a basic human figure by combining shapes such as circles for heads and rectangles for bodies. The teacher will guide them through the process.",
-      "<b>Practice Time</b>: Students will draw either an animal or a human figure of their choice, focusing on using simple shapes to form their drawing.",
-      "<b>Class Exercise</b>:<br>1. Draw an animal of your choice.<br>2. Draw a simple human figure.<br>3. Share your drawing with the class and explain the shapes you used."
+      "<b>Part 1: Introduction to Basic Shapes (10 minutes)</b>:<br><br>Discussion:<br>Begin by asking students what shapes they know.<br>Write the following shapes on the board: circle, square, rectangle, triangle, oval.<br>Explain that these shapes are like building blocks for drawing.<br><br>Examples:<br>Show how a circle can be a head.<br>A rectangle can be a body.<br>Ovals can be used for arms and legs.<br>Triangles can be used for ears or tails.<br><br>Class Activity:<br>Let students draw each shape in their notebooks.<br>Encourage them to combine shapes — for example, a circle on top of a rectangle can look like a simple person.",
+      "<b>Part 2: Drawing Animals with Shapes (10 minutes)</b>:<br><br>Explanation:<br>Show how animals can be broken into simple shapes.<br><br>Example:<br>Cat: Circle for the head, oval for the body, triangles for the ears, and rectangles for the legs.<br>Bird: Oval for the body, small circle for the head, and triangles for the beak and tail.<br><br>Demonstration:<br>Draw a simple animal step by step on the board, describing each shape as you add it.<br><br>Class Practice:<br>Ask students to follow along and draw the same animal step by step.<br>Encourage them to experiment with different animals like dogs, fish, or rabbits.",
+      "<b>Part 3: Drawing Human Figures with Shapes (10 minutes)</b>:<br><br>Explanation:<br>Introduce how human figures can also be drawn with simple shapes.<br><br>Example:<br>Head: circle<br>Body: rectangle<br>Arms and legs: long rectangles or ovals<br>Hands and feet: small circles or ovals<br><br>Demonstration:<br>Draw a stick figure using these shapes.<br>Gradually add details like hair, facial features, and clothes.<br><br>Class Practice:<br>Have students draw their own simple human figure.<br>Encourage them to add details like hats, shoes, or accessories.",
+      "<b>Part 4: Combining Animals and Humans (5 minutes)</b>:<br><br>Explanation:<br>Explain how artists can combine shapes to create full scenes — for example, a child holding a dog’s leash.<br>Show a simple drawing of a person next to an animal, using only shapes.<br><br>Class Practice:<br>Let students try combining a human figure and an animal in one drawing.<br>Remind them to use basic shapes first, then add small details.",
+      "<b>Part 5: Exercise (5 minutes)</b>:<br><br>Instructions:<br>Task: Draw a picture of yourself with your favorite animal using only simple shapes (circles, squares, triangles, etc.).<br><br>Bonus: Add some details, like grass or a sun, but keep the focus on using basic shapes for the figures.<br><br>Wrap-up:<br>Ask a few students to share their drawings.<br>Highlight how they used shapes creatively.<br>Encourage them to practice more at home."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to follow the drawing instructions and use basic shapes in their drawings.",
-    "<br><b>Homework</b>:<br>1. Draw your favorite animal using simple shapes.<br>2. Draw a human figure and label the different parts (head, arms, legs)."
+    "<b>Observation</b>: The teacher will observe students’ engagement during the drawing activities.",
+    "<b>Task</b>: The final drawing exercise will assess students' ability to use basic shapes creatively to form both animals and human figures."
   ],
   "conclusion": [
-    "By practicing drawing animals and human figures, students will improve their artistic skills, spatial understanding, and creativity."
+    "By learning to use basic shapes as building blocks for their drawings, students will develop confidence in their artistic abilities and strengthen their understanding of how shapes form the foundation of art."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Drawing Birds and Buildings",
+  "title": "Drawing Birds and Buildings with Basic Shapes",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, March 2, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Drawing Birds and Buildings",
+  "topic": "Drawing Birds and Buildings with Basic Shapes",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "9",
   "lessonNumber": "2",
-  "description": "This lesson aims to help students learn how to draw birds and buildings, focusing on basic shapes and creativity in art.",
+  "description": "This lesson teaches students how to draw simple birds and buildings using basic geometric shapes like circles, squares, triangles, and rectangles.",
   "materials": [
-    "Pencils and erasers",
-    "Colored markers or crayons",
-    "Drawing paper",
-    "Examples of birds and buildings"
+    "Whiteboard and markers",
+    "Drawing books",
+    "Flashcards with shapes"
   ],
   "objectives": [
-    "Students will learn how to draw birds using basic shapes.",
-    "Students will learn how to draw buildings using basic geometric shapes."
+    "Students will be able to draw birds using basic geometric shapes.",
+    "Students will be able to draw buildings using basic geometric shapes.",
+    "Students will enhance their creativity by adding unique details to their drawings."
   ],
   "rationale": [
-    "Drawing enhances creativity and fine motor skills, and understanding basic shapes forms the foundation for more complex art techniques."
+    "Using basic shapes to create complex images helps students develop spatial awareness and artistic skills."
   ],
   "methodology": [
-    "The lesson will use step-by-step guidance, demonstrations, and hands-on practice to encourage students to explore their creativity while learning drawing skills."
+    "The lesson will include a combination of demonstration, guided practice, and independent work, with opportunities for creativity and expression."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Drawing</b>: The teacher will introduce the importance of basic shapes in drawing, showing how complex objects can be broken down into simple shapes like circles, rectangles, and triangles.",
-      "<b>Drawing Birds</b>: Students will follow a step-by-step guide to draw a simple bird, starting with a circle for the head, an oval for the body, and adding wings and legs.",
-      "<b>Drawing Buildings</b>: The teacher will guide students in drawing a basic building using rectangles for the body, squares for windows, and triangles for rooftops.",
-      "<b>Creativity in Drawing</b>: Students will be encouraged to add their unique touches to their drawings, like changing the bird’s position or adding details to the building.",
-      "<b>Class Exercise</b>:<br>1. Draw a bird using the shapes we discussed.<br>2. Draw a building using rectangles and triangles."
+      "<b>Part 1: Introduction to Basic Shapes</b>:<br><br>1. Begin with a short discussion about shapes:<br>Ask the students to name shapes they know (circle, square, triangle, rectangle, oval). Show flashcards or draw each shape on the board.<br><br>2. Explain that artists often use simple shapes as a starting point when drawing complicated things like animals or buildings.<br><br>3. Ask:<br>'Can a bird's body look like an oval?'<br>'Can a house look like a square with a triangle on top?'<br><br>4. Emphasize that shapes help make drawing easier!",
+      "<b>Part 2: Drawing Birds with Basic Shapes</b>:<br><br>1. Demonstration:<br>Draw an oval on the board (for the bird's body). Add a small circle for the head. Use a triangle for the beak. Draw two thin rectangles for legs. Add fan-like triangles for wings and tail.<br><br>2. Guided practice:<br>Slowly draw step-by-step again while the students follow along in their drawing books. Encourage them to be creative — their birds can have small or large wings, long or short beaks!",
+      "<b>Part 3: Drawing Buildings with Basic Shapes</b>:<br><br>1. Demonstration:<br>Draw a large square or rectangle for the building’s main structure. Add a triangle for the roof. Use smaller rectangles for windows and doors. Show how to stack shapes for taller buildings (like adding rectangles on top of each other).<br><br>2. Guided practice:<br>Let the students draw their buildings step by step with you. Encourage variety — some buildings can have round windows (circles) or triangular roofs!",
+      "<b>Part 4: Adding Details and Finishing Touches</b>:<br><br>1. Discussion:<br>Ask: “What can we add to make our drawings more interesting?”<br>Ideas: Birds can have feathers, eyes, or patterns on their wings. Buildings can have chimneys, doors, and trees nearby.<br><br>2. Demonstration:<br>Show how to add small details using lines and shapes (like a circle for a bird’s eye or rectangles for windows).<br><br>3. Independent work:<br>Allow students time to add their own creative touches to their birds and buildings.",
+      "<b>Part 5: Exercise — Draw Your Own Scene</b>:<br><br>Instructions:<br>Each student will draw a simple picture that includes at least:<br>One bird using basic shapes.<br>One building made of geometric shapes.<br><br>Encourage creativity — they can add trees, clouds, or the sun using shapes too!<br><br>Review:<br>Walk around the class, giving positive feedback and gentle suggestions. Once done, allow a few students to share their drawings with the class and explain what shapes they used."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to follow the steps and their creativity in adding personal touches to their drawings.",
-    "<br><b>Homework</b>:<br>1. Draw your favorite animal and the house where it lives."
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities, especially in drawing birds and buildings.",
+    "<b>Exercise</b>: The students' final drawings will be evaluated based on their use of basic shapes and creativity."
   ],
   "conclusion": [
-    "By practicing drawing birds and buildings with basic shapes, students will develop their artistic skills and confidence in creating their own art."
+    "By using basic shapes to draw birds and buildings, students will understand how simple geometric forms can be the foundation for more complex drawings. They will also learn how to creatively add details to their art."
   ]
 },
 
 // Week 10
 // Lesson 1
 {
-  "title": "Making Different Patterns: Cut Paper Patterns",
+  "title": "Creating Patterns and Understanding Symmetry",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, March 2, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Making Different Patterns: Cut Paper Patterns",
+  "topic": "Creating Patterns and Understanding Symmetry",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "10",
   "lessonNumber": "1",
-  "description": "This lesson focuses on helping students create different patterns using cut paper, enhancing their creativity and understanding of shapes and symmetry.",
+  "description": "This lesson introduces students to the concepts of patterns and symmetry, focusing on identifying, creating, and understanding repeated sequences and mirror images in shapes, colors, and numbers.",
   "materials": [
     "Colored paper",
-    "Scissors",
-    "Glue",
+    "Cut-out shapes (circles, squares, triangles)",
     "Markers",
-    "Ruler"
+    "Pictures of symmetrical objects"
   ],
   "objectives": [
-    "Students will create different types of patterns using cut paper.",
-    "Students will understand basic concepts of symmetry and repetition in patterns."
+    "Students will understand what patterns are and learn how to identify and create them.",
+    "Students will understand the concept of symmetry and how it relates to patterns.",
+    "Students will learn how repetition creates patterns."
   ],
   "rationale": [
-    "Creating patterns is an important skill that enhances students' creativity, spatial awareness, and understanding of symmetry and design."
+    "Recognizing and creating patterns helps students develop logical thinking and spatial awareness. Understanding symmetry enhances their ability to identify balance and mirror images in real-world objects."
   ],
   "methodology": [
-    "The lesson will involve hands-on activities where students will cut paper and arrange it to form patterns. The teacher will guide them through the process and encourage creative expression."
+    "The lesson will use a combination of direct instruction, visual examples, and hands-on activities. Students will actively create patterns using cut-out shapes and explore symmetry by folding paper and drawing symmetrical designs."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Patterns</b>: The teacher will explain what patterns are and how they appear in everyday life, such as on clothes or nature.",
-      "<b>Demonstration</b>: The teacher will demonstrate how to cut paper into different shapes and arrange them to create a simple repeating pattern.",
-      "<b>Creating Patterns</b>: Students will use colored paper to cut shapes and arrange them into their own repeating patterns, either by using squares, circles, or triangles.",
-      "<b>Symmetry and Repetition</b>: The teacher will explain the concepts of symmetry and repetition in patterns and encourage students to incorporate them in their designs.",
-      "<b>Class Exercise</b>:<br>1. Create a pattern using three different shapes.<br>2. Try to make a symmetrical pattern with your paper shapes."
+      "<b>Part 1: Introduction to Patterns</b>:<br><br>A pattern is a repeated design or sequence. We see patterns all around us in nature, clothes, and even in music. Patterns can be made using shapes, colors, or numbers.<br><br>Examples of patterns:<br>Colors: Red, Blue, Red, Blue.<br>Shapes: Square, Circle, Square, Circle.<br>Numbers: 1, 2, 1, 2.<br><br>Ask the students: “What kind of patterns do you see in your classroom or at home?” (Encourage responses and examples).<br><br>Activity: Show some simple patterns using objects or drawings, such as alternating colored blocks or shapes, and ask the students to identify the pattern.",
+      "<b>Part 2: Introduction to Symmetry</b>:<br><br>Symmetry means that one half of an object is a mirror image of the other half. If you fold an object along its center, both sides should match or look the same.<br><br>Example: A butterfly has symmetry because if you fold it in half, both sides look the same.<br><br>Symmetry can also appear in patterns, where one part of the pattern is mirrored or repeated.<br><br>Activity: Show pictures of symmetrical objects like butterflies, flowers, and faces. Ask the students to fold a piece of paper in half and draw a shape or line on one side, then fold the paper again and see if the other side is the same.",
+      "<b>Part 3: Understanding Repetition in Patterns</b>:<br><br>Repetition is the action of repeating something, and it is what makes a pattern. In a pattern, shapes, colors, or numbers repeat in a predictable way.<br><br>Example: A pattern with repetition could be: Circle, Square, Circle, Square, Circle, Square.<br><br>Repetition can happen in all kinds of patterns. It helps us recognize and predict what will come next.<br><br>Activity: Show examples of repeated patterns with different shapes or colors. Have students help complete a sequence like: Red, Blue, Red, Blue, __ (ask them to predict the next color).",
+      "<b>Part 4: Creating Patterns with Cut Paper</b>:<br><br>Now, we will create our own patterns using paper! Students will cut out shapes or colors and arrange them to form their patterns.<br><br>They will be encouraged to use symmetry in their patterns by making sure both sides of their pattern look the same.<br><br>Students can also use repetition to make sure the same shapes or colors are repeated in their patterns.<br><br>Activity: Provide students with colored paper or templates of shapes (like circles, squares, triangles). Ask them to cut out these shapes and arrange them into a simple pattern. Encourage them to create symmetrical patterns or repeating patterns.",
+      "<b>Part 5: Exercise (Pattern Creation and Symmetry Practice)</b>:<br><br>Activity 1: Creating a Repeating Pattern<br>Give students a set of colored paper or cut-out shapes. Ask them to create a pattern using at least three different colors or shapes, making sure the pattern repeats.<br>Example: 'Make a pattern that repeats every 3 shapes (Circle, Square, Triangle).'<br><br>Activity 2: Creating a Symmetrical Pattern<br>Ask the students to fold their paper in half and draw or cut shapes on one side. They will then fold the paper again to see if the other side is symmetrical. They can also create a symmetrical pattern by making sure the left side matches the right side.<br>Example: 'Cut out a shape, fold your paper, and see if the shape is the same on both sides.'<br><br>Activity 3: Pattern Challenge<br>For a more advanced challenge, encourage students to create a pattern with four shapes or colors, and use symmetry in their design. Ask them to explain why their pattern is symmetrical or how repetition works in their design."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' ability to follow instructions and create clear, distinct patterns.",
-    "<br><b>Homework</b>:<br>1. Draw a pattern using three different shapes and explain how it repeats."
+    "<b>Observation</b>: The teacher will observe students' engagement and participation during the activities, noting their ability to identify, create, and explain patterns and symmetry.",
+    "<b>Exercise</b>: The pattern creation and symmetry exercises will assess the students' understanding of repetition, symmetry, and pattern formation."
   ],
   "conclusion": [
-    "By engaging in hands-on activities and using cut paper to create patterns, students will develop their creativity and understanding of symmetry and repetition in design."
+    "By learning about patterns and symmetry, students will enhance their logical thinking and visual recognition skills, enabling them to identify and create patterns in their everyday surroundings."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Making Different Patterns: Writing Patterns",
+  "title": "Creating and Recognizing Patterns",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, March 2, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Making Different Patterns: Writing Patterns",
+  "topic": "Creating and Recognizing Patterns",
   "grade": "Cloud Chicks",
   "term": "1",
   "week": "10",
   "lessonNumber": "2",
-  "description": "This lesson aims to help students understand and create different writing patterns using letters, numbers, and shapes.",
+  "description": "This lesson introduces students to patterns, including types of patterns like repetition, growing, and symmetrical patterns. Students will create their own patterns using letters, numbers, and shapes, and learn to recognize and describe these patterns.",
   "materials": [
-    "Chart paper with pre-drawn patterns",
-    "Markers, pencils, crayons",
-    "Stencils or pattern templates"
+    "Whiteboard and markers",
+    "Worksheets with blank spaces for patterns",
+    "Visual aids (shapes, numbers, letters)"
   ],
   "objectives": [
     "Students will create simple writing patterns using letters, numbers, and shapes.",
     "Students will recognize and describe different types of patterns."
   ],
   "rationale": [
-    "Recognizing and creating patterns is essential for developing students' cognitive skills, attention to detail, and understanding of sequencing in both writing and math."
+    "Understanding patterns is a fundamental math skill that helps students with problem-solving and understanding relationships in numbers and shapes."
   ],
   "methodology": [
-    "The lesson will involve hands-on activities, guided practice, and creative exploration to help students learn how to make and identify patterns in writing."
+    "The lesson will use examples, hands-on activities, and discussions to teach students about patterns. Visual aids and worksheets will help students create and recognize patterns."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Patterns</b>: Students will be introduced to patterns by discussing different kinds of patterns in everyday life (e.g., alternating colors, shapes, or sounds).",
-      "<b>Exploring Writing Patterns</b>: The teacher will show examples of simple writing patterns, such as repeating letters or numbers (e.g., A, B, A, B).",
-      "<b>Creating Patterns</b>: Students will create their own writing patterns using letters, numbers, and shapes, practicing repetition and sequencing.",
-      "<b>Pattern Extension</b>: Students will extend the patterns they created by adding more elements and describing the changes.",
-      "<b>Class Exercise</b>:<br>1. Draw a pattern using shapes and colors.<br>2. Write a simple pattern using numbers or letters and explain it to the class."
+      "<b>Part 1: Introduction to Patterns</b>:<br><br>Begin the lesson by explaining what patterns are. Patterns are arrangements that repeat in a predictable way. Discuss how patterns can be found in daily life, like stripes on clothes, tiles on the floor, or a repeating sequence of colors.<br><br>Examples to explain:<br>Shapes: Circle, square, circle, square...<br>Numbers: 1, 2, 1, 2, 1, 2...<br>Letters: A, B, A, B, A, B...<br><br>Ask students to provide examples from their own experiences and let them share where they see patterns in their environment.",
+      "<b>Part 2: Types of Patterns</b>:<br><br>Now, explain the different types of patterns students will encounter:<br><br>Repetition Patterns: These patterns have elements that repeat in the same order, like red, blue, red, blue.<br>Growing Patterns: These patterns increase or change in some way, like 1, 2, 3, 4 or circle, square, triangle, rectangle, circle...<br>Symmetrical Patterns: These patterns are the same on both sides, like a butterfly's wings or a heart shape.<br><br>Use visuals to demonstrate each type, showing simple examples with shapes, numbers, and letters. Discuss these patterns in context, using relatable objects or drawings on the board.",
+      "<b>Part 3: Creating Simple Writing Patterns</b>:<br><br>Now, guide the students to create their own patterns using letters, numbers, and shapes:<br><br>Start with a simple repeating pattern, such as “A, B, A, B” or “1, 2, 1, 2.”<br>Have the students try it out on their own by giving them worksheets with blank spaces to fill in with repeating patterns.<br>Challenge them to extend the patterns to at least 10 elements (e.g., A, B, A, B, A, B, A, B, A, B).<br>Afterward, encourage them to switch to different elements, like shapes (circle, triangle, circle, triangle) or numbers (2, 4, 6, 8, 2, 4, 6, 8).",
+      "<b>Part 4: Describing Patterns</b>:<br><br>Teach students how to describe patterns using specific language. For example:<br><br>'This pattern is made up of a circle and a square, and it repeats.'<br>'This pattern is a growing pattern because the numbers are increasing by one each time.'<br><br>Give students a few examples of patterns and ask them to describe the pattern aloud. Write their descriptions on the board so they can see the connection between language and the pattern itself.",
+      "<b>Part 5: Exercise/Task</b>:<br><br><b>Pattern Recognition and Creation:</b><br><br>1. <b>Pattern Recognition</b>:<br>Show students a series of patterns (using shapes, letters, or numbers). Ask them to identify the type of pattern (repetition, growing, or symmetrical).<br>Example: Display the following and ask what type of pattern it is:<br>Circle, square, circle, square... (Repetition)<br>2, 4, 6, 8, 10... (Growing)<br><br>2. <b>Create Your Own Pattern</b>:<br>Provide students with blank templates where they can create their own patterns using letters, numbers, or shapes. Encourage them to make a pattern that is at least 6 elements long, and ask them to describe their pattern to a partner afterward."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding by observing their ability to create and explain their own writing patterns.",
-    "<br><b>Homework</b>:<br>1. Create a pattern using your favorite colors or shapes and describe it in a sentence."
+    "<b>Observation</b>: The teacher will observe students' engagement during the creation and recognition of patterns.",
+    "<b>Exercise</b>: The pattern recognition and creation tasks will evaluate the students' understanding of patterns and their ability to describe and create patterns."
   ],
   "conclusion": [
-    "Through hands-on practice and creative activities, students will develop a stronger understanding of patterns and how they can be applied in writing and other areas of learning."
+    "By learning about patterns, students will gain an understanding of repetition, growth, and symmetry, and they will be able to apply these concepts to both mathematics and real-life situations."
   ]
 }
 ];
