@@ -19,6 +19,42 @@
     z-index: 999;
 }
 
+/* Hero Section */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    z-index:1;
+    margin: 28px 0 1px 0;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+    object-fit: contain; /* Options: cover, fill, contain, etc. */
+    transition: opacity 1s ease-in-out;
+}
+
+/* Example Animation for Fade-In */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
 .log img {
