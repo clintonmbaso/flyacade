@@ -597,34 +597,479 @@ const lessonPlans35a = [
 	
 // Week 7
 // Lesson 1
-
+{
+  "title": "Understanding Sex and Gender Roles",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Sex and Gender Roles",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson helps students define and distinguish between sex and gender, understand gender roles across cultures, and reflect on their own ideas about gender roles.",
+  "materials": [
+    "Whiteboard and markers",
+    "Chart paper or posters",
+    "Pictures or illustrations representing different gender roles",
+    "Worksheets for exercises"
+  ],
+  "objectives": [
+    "Define and distinguish between sex and gender.",
+    "Explain gender roles and how they can differ across cultures.",
+    "Identify examples of traditional and changing gender roles.",
+    "Reflect on their own ideas about gender roles."
+  ],
+  "rationale": [
+    "Understanding sex and gender roles helps students challenge stereotypes, promote equality, and support inclusivity in their communities."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, group activities, and visual aids to help students grasp the concepts of sex, gender, and changing gender roles."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (What is Sex and Gender?)</b>:<br><br>Class Discussion:<br>Begin by asking the class:<br>What do you think 'sex' means?<br>What about 'gender'?<br><br>Explain clearly:<br>Sex refers to the biological differences between males and females — like physical features and reproductive organs.<br>Gender refers to the roles, behaviors, and expectations that society considers appropriate for men and women.<br><br>Example:<br>Sex: A baby is born male or female based on their body.<br>Gender: People may expect girls to play with dolls and boys to play with cars — these are gender roles created by society.",
+      
+      "<b>Part 2: Understanding Gender Roles</b>:<br><br>Class Activity:<br>Show pictures of people performing different roles: a man cooking, a woman working as a doctor, a father caring for children, a mother fixing a car.<br><br>Discuss the following:<br>Traditionally, some roles were labeled as 'for men' or 'for women.'<br>Today, anyone can perform any role — a woman can be a pilot, and a man can be a nurse.<br><br>Key point: Gender roles are learned, not something people are born with. They can change over time and differ from one culture to another.",
+      
+      "<b>Part 3: Traditional vs. Changing Gender Roles</b>:<br><br>Group Discussion:<br>Ask: What jobs or activities did people in your community used to say were for men or women?<br>Write responses on the board.<br><br>Then ask: Do you think these ideas are still the same today? Why or why not?<br><br>Examples:<br>Traditional roles: Women taking care of the home, men being the main providers.<br>Changing roles: Women working in offices, men helping with household chores.",
+      
+      "<b>Part 4: Promoting Gender Equality</b>:<br><br>Class Activity:<br>Explain the importance of treating everyone fairly, regardless of gender.<br>Discuss how supporting both boys and girls to follow their interests helps build a better community.<br><br>Key message: Everyone deserves respect and opportunities, whether they are a boy or a girl.",
+      
+      "<b>Part 5: Exercise — Understanding Sex and Gender Roles</b>:<br><br>Instructions:<br>Answer the following questions:<br><br>1. Define 'sex' in your own words.<br>2. What is 'gender'?<br>3. Give one example of a traditional gender role.<br>4. Name one way gender roles are changing in today’s world.<br>5. Why is it important to treat boys and girls equally?<br><br>Class Discussion: Review answers together, allowing students to share their ideas."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The worksheet answers will assess students' understanding of sex, gender, and gender roles."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will have a clearer understanding of sex and gender, how gender roles evolve, and the importance of promoting gender equality in their communities."
+  ],
+  "task": "Write a short paragraph about a job you would like to do when you grow up and explain why. Does gender affect your choice? Why or why not?"
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding Gender Discrimination",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Gender Discrimination",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson helps students understand gender, gender roles, and gender discrimination, while exploring ways to promote gender equality.",
+  "materials": [
+    "Whiteboard and markers",
+    "Situation cards with examples of gender discrimination",
+    "Paper and crayons for poster activity"
+  ],
+  "objectives": [
+    "Understand the concept of gender and gender roles.",
+    "Define gender discrimination.",
+    "Identify examples of gender discrimination.",
+    "Suggest ways to promote gender equality."
+  ],
+  "rationale": [
+    "Understanding gender discrimination helps students recognize unfair treatment and empowers them to promote equality and respect for all genders."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, group activities, and creative poster design to explore gender roles, discrimination, and equality."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Gender (10 minutes)</b>:<br><br>Class Discussion:<br>Begin by asking:<br>- \"What do you understand by the word gender?\"<br>- \"How is gender different from sex?\"<br><br>Explanation:<br>Gender refers to the roles, behaviors, and expectations that society assigns to boys, girls, men, and women.<br>Sex refers to the biological differences between males and females.<br><br>Examples:<br>Girls are often expected to play with dolls, while boys are expected to play with toy cars — but these are just societal roles, not rules.",
+      "<b>Part 2: What is Gender Discrimination? (10 minutes)</b>:<br><br>Definition:<br>Gender discrimination means treating someone unfairly or differently because of their gender.<br>This happens when one gender is given more opportunities, rights, or respect than the other.<br><br>Examples:<br>- A girl being told she cannot play soccer because \"it’s for boys.\"<br>- A boy being teased for wanting to become a nurse because \"nursing is for girls.\"<br><br>Discussion:<br>Ask students if they have ever seen or heard of someone being treated unfairly because of their gender.",
+      "<b>Part 3: Examples of Gender Discrimination (10 minutes)</b>:<br><br>Situations:<br>1. At school:<br>When boys are chosen for leadership roles more than girls.<br><br>2. At home:<br>If girls are expected to do all the chores while boys are not.<br><br>3. At work:<br>When men are paid more than women for doing the same job.<br><br>Group Activity:<br>Split students into small groups and give each group a situation card (examples above).<br>Let them discuss how they would react if they saw someone being treated unfairly.",
+      "<b>Part 4: Promoting Gender Equality (10 minutes)</b>:<br><br>Discussion:<br>Ask: \"How can we make sure boys and girls are treated equally?\"<br><br>Suggestions:<br>- Encourage everyone to follow their dreams, no matter their gender.<br>- Speak up if you see someone being treated unfairly.<br>- Share responsibilities at home and school.<br><br>Poster Activity:<br>Have students design a simple Gender Equality poster with slogans like:<br>- \"Girls and Boys — Equal Joys!\"<br>- \"Fairness for All!\"",
+      "<b>Part 5: Exercise (5 minutes)</b>:<br><br>Instructions:<br>Answer the following questions in your notebooks:<br>1. What is gender?<br>2. What is gender discrimination?<br>3. Give one example of gender discrimination at school.<br>4. How can we promote gender equality in our class?<br>5. Draw a symbol or picture that represents fairness between boys and girls."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation in discussions and group activities.",
+    "<b>Exercise</b>: The written exercise will assess students' understanding of gender, discrimination, and equality."
+  ],
+  "conclusion": [
+    "Recap key points:",
+    "- Gender vs. Sex",
+    "- What gender discrimination means",
+    "- Real-life examples",
+    "- How to promote gender equality",
+    "Remind students that everyone deserves to be treated fairly, regardless of their gender."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Understanding the Effects of Gender Discrimination",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Effects of Gender Discrimination",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson helps students understand gender discrimination, its forms, its negative effects, and ways to promote gender equality.",
+  "materials": [
+    "Whiteboard and markers",
+    "Posters and drawing materials",
+    "Printed examples of gender discrimination scenarios"
+  ],
+  "objectives": [
+    "Define gender discrimination.",
+    "Identify different forms of gender discrimination.",
+    "Discuss the effects of gender discrimination.",
+    "Suggest ways to promote gender equality."
+  ],
+  "rationale": [
+    "Understanding gender discrimination helps students recognize unfair treatment and empowers them to promote equality in their communities."
+  ],
+  "methodology": [
+    "The lesson will use discussions, examples, and group activities to explain gender discrimination and ways to promote gender equality."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Begin with a class discussion:<br>Question: \"What do you think gender means?\"<br>Explain that gender refers to being male or female.<br>Question: \"Have you ever heard of the term 'gender discrimination'?\"<br>Define gender discrimination as the unfair treatment of someone based on their gender.<br><br>Give simple examples:<br>- A boy being told only girls can wash dishes.<br>- A girl being told she cannot play football because she is a girl.",
+      
+      "<b>Part 2: Forms of Gender Discrimination (10 minutes)</b>:<br><br>Explain the different forms of gender discrimination:<br>1. At home: When boys are given more freedom than girls, or when girls are expected to do all household chores.<br>2. At school: When girls are discouraged from studying certain subjects like science or math.<br>3. In sports: When girls are not allowed to join certain teams, or boys are teased for doing activities seen as 'for girls.'<br>4. At work: When men are given better job opportunities or paid more than women for the same work.<br><br>Activity: Ask students to share any situations they’ve seen or heard about where someone was treated unfairly because of their gender.",
+      
+      "<b>Part 3: Effects of Gender Discrimination (10 minutes)</b>:<br><br>Discuss the negative effects:<br>1. Lack of confidence: Girls or boys may feel they are not good enough for certain tasks.<br>2. Limited opportunities: People miss out on jobs, sports, or education because of unfair treatment.<br>3. Conflict: It can cause arguments at home, school, or work.<br>4. Unfair society: It creates an imbalance where one gender is seen as more important than the other.<br><br>Question: \"How would you feel if you were told you couldn't do something just because of your gender?\"<br>Encourage open answers and empathy.",
+      
+      "<b>Part 4: Promoting Gender Equality (10 minutes)</b>:<br><br>Explain how we can stop gender discrimination:<br>1. Education: Teach everyone that boys and girls are equal and can do the same tasks.<br>2. Respect: Encourage respect for everyone’s abilities and choices.<br>3. Speaking up: If you see someone being treated unfairly, speak up politely and seek help.<br>4. Fair rules: Schools and homes should have rules that treat boys and girls equally.<br><br>Group activity: Split the class into small groups. Each group creates a poster with a slogan promoting gender equality, like:<br>- “Boys and girls can do anything!”<br>- “Respect all, no matter their gender!”",
+      
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>Instructions: Answer the following questions:<br>1. What is gender discrimination?<br>2. List two examples of gender discrimination at school.<br>3. What are two negative effects of gender discrimination?<br>4. Name two ways we can stop gender discrimination.<br>5. Create your own slogan to promote gender equality.<br><br>Homework:<br>Write a short story (5-8 sentences) about a boy or girl standing up against gender discrimination."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and group activities.",
+    "<b>Exercise</b>: The written exercise will test students' understanding of gender discrimination and ways to promote equality."
+  ],
+  "conclusion": [
+    "Recap what gender discrimination is, its effects, and how we can stop it. Remind students that everyone deserves respect and fair treatment."
+  ]
+},
 
 
 // Week 8
 // Lesson 1
-
+{
+  "title": "Identifying Institutions that Promote Gender Equality",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Identifying Institutions that Promote Gender Equality",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to gender equality and highlights the institutions that promote it, including government bodies, human rights organizations, and civil society groups.",
+  "materials": [
+    "Whiteboard and markers",
+    "Posters on gender equality",
+    "Pictures of institutions promoting gender equality"
+  ],
+  "objectives": [
+    "Define gender equality.",
+    "Identify institutions that promote gender equality.",
+    "Explain the roles of these institutions.",
+    "Understand the importance of promoting gender equality in society."
+  ],
+  "rationale": [
+    "Promoting gender equality is key to ensuring that both boys and girls have equal rights, opportunities, and respect in society. This lesson helps students understand the role of institutions in creating an equal society."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, storytelling, and visual aids to engage students in learning about gender equality and the institutions that promote it."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Gender Equality</b>:<br><br>Begin by asking the class: What do you understand by the term 'gender equality'? Explain that gender equality means giving both boys and girls, men and women, the same rights, opportunities, and respect. Discuss why it is important — everyone should have a fair chance in education, jobs, and leadership.<br><br>Example:<br>A girl can become a doctor just like a boy.<br>A boy can become a teacher just like a girl.",
+      "<b>Part 2: Institutions Promoting Gender Equality</b>:<br><br>Introduce the following institutions and explain their roles:<br><br>1. Ministry of Gender: A government department that works to create laws and policies that ensure women and men have equal opportunities. They support programs that educate people about gender equality.<br>2. Human Rights Commission: An independent body that ensures everyone’s rights are protected, including gender rights. They investigate cases of gender discrimination and educate the public about equality.<br>3. Civil Society Organizations (CSOs): Non-government groups that work in communities to promote gender awareness. They provide training, support victims of gender-based violence, and encourage women and girls to take leadership roles.<br>4. Non-Governmental Organizations (NGOs): Organizations that work closely with communities to promote education, health, and gender equality. Examples include organizations like Plan International and UN Women.",
+      "<b>Part 3: Importance of These Institutions</b>:<br><br>Class Discussion: Ask: Why do you think these institutions are important? Explain that they: Help protect everyone’s rights, encourage girls to go to school and aim for their dreams, ensure that no one is treated unfairly because of their gender, and promote equal participation in leadership and decision-making.",
+      "<b>Part 4: Real-Life Examples and Impact</b>:<br><br>Storytelling: Share a short story of a girl who, with the help of a Civil Society Organization, was able to stay in school despite facing challenges.<br>Class Discussion: How did the organization help? What would have happened without the support? Encourage learners to share if they know any organizations or have seen efforts promoting gender equality in their community.",
+      "<b>Part 5: Exercise (15 minutes)</b>:<br><br>Instructions: Answer the following questions in your notebooks:<br>1. What is gender equality?<br>2. Name two institutions that promote gender equality.<br>3. What does the Ministry of Gender do?<br>4. How do Civil Society Organizations help in promoting gender equality?<br>5. Why is it important to have institutions that support gender equality?<br><br>Bonus Question: Write a short paragraph about how you would promote gender equality in your school."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The exercise will assess students' understanding of gender equality and the roles of institutions that promote it."
+  ],
+  "conclusion": [
+    "Summarize the importance of gender equality and the roles of institutions in promoting fairness and equal rights for all. Remind learners that everyone deserves respect and equal opportunities, regardless of gender."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "What Are Human Rights?",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies / Civics",
+  "topic": "Understanding Human Rights",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of human rights, their importance, and explores examples of human rights through discussions and activities.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed copies of the Universal Declaration of Human Rights",
+    "World map"
+  ],
+  "objectives": [
+    "Students will understand what human rights are.",
+    "Students will learn about the importance of human rights.",
+    "Students will explore examples of human rights.",
+    "Students will discuss the Universal Declaration of Human Rights."
+  ],
+  "rationale": [
+    "Understanding human rights helps students recognize the value of fairness, equality, and justice in society, promoting peace and respect for others."
+  ],
+  "methodology": [
+    "The lesson will use discussions, activities, and examples to explain the significance of human rights and how they are outlined in the Universal Declaration of Human Rights."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Human Rights</b>:<br><br>Definition:<br>Human rights are the basic rights and freedoms that belong to every person in the world, from birth until death. These rights are the foundation of freedom, justice, and peace.<br><br>Examples of Basic Human Rights:<br>The right to life.<br>The right to be free from torture and inhumane treatment.<br>The right to a fair trial.<br>The right to education.<br><br>Discussion:<br>Ask the class: 'What do you think rights are? Why do you think all people should have rights?' Engage in a brief discussion to ensure students understand that rights help us live safely and fairly.",
+      "<b>Part 2: Importance of Human Rights</b>:<br><br>Human rights are important because they ensure:<br><br>Equality: Everyone should have the same rights, regardless of where they live, their background, or what they believe.<br>Protection: Human rights protect us from unfair treatment, abuse, and discrimination.<br>Freedom: They allow individuals to express themselves and make choices about their lives.<br><br>Example:<br>Discuss the concept of 'freedom of speech' (e.g., people have the right to express their opinions without fear of punishment).",
+      "<b>Part 3: The Universal Declaration of Human Rights (UDHR)</b>:<br><br>In 1948, the United Nations created a document called the Universal Declaration of Human Rights (UDHR). This document outlines the rights that every person should have, regardless of their nationality, ethnicity, or religion. It includes 30 articles (rules) covering a wide range of human rights.<br><br>Important Articles:<br>Article 1: All humans are born free and equal in dignity and rights.<br>Article 3: Everyone has the right to life, liberty, and security of person.<br>Article 19: Everyone has the right to freedom of opinion and expression.<br><br>Activity:<br>Ask students to pick one of these articles and explain in their own words why they think it is important.",
+      "<b>Part 4: Human Rights Around the World</b>:<br><br>Human rights are not always respected in every country. In some places, people are denied their rights, such as the right to education or the right to be free from discrimination.<br><br>Examples of Human Rights Violations:<br>Some children in certain countries do not have the right to go to school.<br>Some people are not treated equally because of their skin color, gender, or religion.<br><br>Discussion:<br>Ask the class: 'What do you think we can do to help people who don’t have their rights protected?' Brainstorm ways people can stand up for human rights, such as through protests, petitions, or supporting organizations.",
+      "<b>Part 5: Exercise – Human Rights Quiz</b>:<br><br>Objective: Assess students' understanding of human rights through a quiz.<br><br>1. True or False: Everyone has the right to live freely without being tortured.<br>(Answer: True)<br><br>2. Multiple Choice: Which of the following is a human right?<br>a) The right to own a pet.<br>b) The right to a fair trial.<br>c) The right to eat chocolate every day.<br>(Answer: b) The right to a fair trial.<br><br>3. Short Answer: Why is the Universal Declaration of Human Rights important?<br>(Answer: It sets out the basic rights and freedoms that all people should have, ensuring fairness and justice around the world.)<br><br>4. Discussion Question: How can we make sure that everyone’s human rights are respected?<br>(Answer will vary, but students can mention ideas like education, laws, and helping others stand up for their rights.)<br><br>5. Creative Task: Draw a picture or write a short story about a person or group of people standing up for human rights."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and their ability to explain human rights concepts.",
+    "<b>Exercise</b>: The human rights quiz will assess students' understanding of key concepts from the lesson."
+  ],
+  "conclusion": [
+    "By learning about human rights, students will recognize their importance in promoting fairness and justice in the world. They will understand how the Universal Declaration of Human Rights helps ensure the dignity and freedom of all people."
+  ]
+},
 
 // Lesson 3
-	
+{
+  "title": "Understanding Children’s Rights",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Understanding Children’s Rights",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to children’s rights, focusing on identifying, understanding, and discussing how these rights protect children in their daily lives.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or illustrations of children’s rights",
+    "Worksheet for matching rights to scenarios"
+  ],
+  "objectives": [
+    "Identify and explain 10 common human rights that apply to children.",
+    "Understand why these rights are important.",
+    "Discuss how these rights protect children in daily life.",
+    "Apply their understanding through a simple exercise."
+  ],
+  "rationale": [
+    "Understanding children’s rights empowers students to recognize their own rights and the importance of fairness, safety, and respect in their lives."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, direct explanations, and interactive exercises to help students grasp the concept of children’s rights."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Human Rights</b>:<br><br>Begin by asking the class:<br>\"Have you ever heard of the term 'rights'? What do you think it means?\"<br><br>Explain that human rights are basic freedoms and protections that belong to everyone, including children.<br><br>Mention that children have special rights because they need extra care and protection.",
+      "<b>Part 2: The 10 Common Rights of Children</b>:<br><br>Discuss the following 10 rights of children clearly and simply:<br><br>1. Right to Life — Every child has the right to live and grow in a safe and healthy environment.<br>2. Right to Education — All children have the right to go to school and learn.<br>3. Right to Health Care — Children should have access to doctors, medicine, and clean water.<br>4. Right to Family — Every child has the right to live with their family or with people who care for them.<br>5. Right to Protection — Children must be protected from abuse, violence, and harmful work.<br>6. Right to Express Themselves — Children have the right to share their thoughts and opinions freely.<br>7. Right to Play and Rest — Children should have time to play and relax.<br>8. Right to Privacy — A child’s personal life should be respected and protected.<br>9. Right to Information — Children have the right to know what is happening around them and learn from it.<br>10. Right to be Treated Fairly — All children should be treated equally, regardless of their race, religion, or abilities.",
+      "<b>Part 3: Importance of Children’s Rights</b>:<br><br>Explain why these rights are important:<br><br>They ensure children grow up safe and healthy.<br>They allow children to learn and express themselves.<br>They protect children from harm and discrimination.<br><br>Give real-life examples, like how going to school supports the right to education or how laws protect children from child labor.",
+      "<b>Part 4: Class Discussion</b>:<br><br>Ask the students:<br>1. Why do you think children need special rights?<br>2. What would happen if children didn’t have these rights?<br><br>Encourage participation and allow students to share their ideas.",
+      "<b>Part 5: Exercise (Match the Rights)</b>:<br><br>Provide a simple worksheet or write on the board a list of scenarios.<br><br>Ask students to match each scenario to the correct child’s right.<br><br>Examples:<br>1. Lina goes to school every day and learns math. (Right to Education)<br>2. John’s parents take him to the doctor when he is sick. (Right to Health Care)<br>3. Sara plays with her friends after school. (Right to Play and Rest)<br><br>Bonus Question:<br>Why do you think it’s important for children to have the right to express their opinions?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and explanations.",
+    "<b>Exercise</b>: The matching activity will assess whether students can identify and connect scenarios to the correct children’s rights."
+  ],
+  "conclusion": [
+    "Summarize the lesson by reviewing the 10 rights of children.",
+    "Remind the class that these rights help children grow up safely, happily, and fairly."
+  ]
+},
 
 // Week 9
 // Lesson 1
-
+{
+  "title": "Factors that Hinder Citizens from Enjoying Their Rights",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Factors Hindering Citizens from Enjoying Their Rights",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students about the various factors that prevent citizens from fully enjoying their rights, how these factors affect individuals and society, and ways to overcome these challenges.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures illustrating corruption, poverty, and conflicts",
+    "Printed handouts with definitions and examples"
+  ],
+  "objectives": [
+    "Identify and explain factors that hinder citizens from fully enjoying their rights.",
+    "Understand how these factors affect individuals and society.",
+    "Suggest ways to overcome these challenges."
+  ],
+  "rationale": [
+    "Understanding the challenges to citizens' rights helps students become aware of social issues and encourages them to think critically about solutions, fostering responsible citizenship."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, real-life examples, and problem-solving activities to explore factors hindering rights."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br>1. Begin with a question:<br>“What are rights?” (Expected answers: the freedoms and protections people have, such as the right to education, health care, and freedom of speech.)<br><br>2. Build on their answers:<br>Explain that while everyone has rights, sometimes people cannot fully enjoy them due to certain problems.<br><br>3. State the lesson objective clearly:<br>“Today, we will learn about the factors that prevent people from enjoying their rights.”",
+      "<b>Part 2: Explanation of Factors</b>:<br><br>1. Corruption:<br>Define corruption: When people in power use their position unfairly to benefit themselves instead of helping others.<br>Examples: A leader taking money meant for building schools or clinics.<br>Effect: It stops people from getting good services like education and health care.<br><br>2. Poverty:<br>Define poverty: When people do not have enough money or resources to meet their basic needs.<br>Examples: Children dropping out of school because their parents cannot afford school fees.<br>Effect: It prevents people from accessing education, proper health care, and a good living standard.<br><br>3. Poor Governance:<br>Define poor governance: When leaders do not make fair decisions or follow the law.<br>Examples: When leaders ignore the needs of the people and only help their friends or relatives.<br>Effect: It creates unfairness, and people lose trust in their leaders.<br><br>4. Conflicts and Ignorance:<br>Conflicts: When there are fights or wars between groups of people.<br>Effect: People are forced to leave their homes, and children cannot go to school.<br><br>Ignorance: When people do not know their rights or how to ask for help.<br>Effect: People suffer in silence because they do not know they have the right to better living conditions.",
+      "<b>Part 3: Class Discussion</b>:<br><br>Ask students to give real-life examples they have heard or seen about corruption, poverty, poor governance, or conflicts.<br><br>Encourage critical thinking by asking:<br>“What happens to children when their schools are not built because of corruption?”<br>“How does poverty stop someone from enjoying their right to education?”",
+      "<b>Part 4: Solutions and Hope</b>:<br><br>Discuss ways to solve these problems:<br><br>Fighting corruption: Reporting unfair practices to the right authorities.<br>Reducing poverty: Encouraging education and job creation.<br>Good governance: Choosing honest leaders through voting.<br>Ending conflicts: Promoting peace and understanding.<br><br>Remind students that they can also help by speaking up for their rights and helping others understand theirs.",
+      "<b>Part 5: Exercise (Task)</b>:<br><br>Instructions: Answer the following questions in your notebooks:<br><br>1. Define the following terms:<br>a) Corruption<br>b) Poverty<br>c) Poor governance<br>d) Conflict<br>e) Ignorance<br><br>2. Match the factor to its effect:<br>a) Corruption → ___<br>b) Poverty → ___<br>c) Poor governance → ___<br>d) Conflict → ___<br>e) Ignorance → ___<br><br>(Options: Stops people from accessing basic services, Causes children to drop out of school, Creates unfairness, Forces people to leave their homes, Makes people unaware of their rights)<br><br>3. Write two ways we can solve the problem of corruption.<br><br>4. What would you do if you saw someone being denied their rights?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation in discussions and their ability to provide real-life examples.",
+    "<b>Exercise</b>: The written exercise will evaluate students’ understanding of key concepts and solutions."
+  ],
+  "conclusion": [
+    "Summarize the key points: Corruption, poverty, poor governance, conflicts, and ignorance are barriers to enjoying rights.",
+    "Encourage students to be aware of their rights and stand up for fairness.",
+    "Remind them that even small actions, like helping someone understand their rights, make a difference."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Understanding Human Rights and Violations",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "[Insert Date]",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Human Rights Violations",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of human rights, explores different types of human rights violations, and discusses the importance of protecting and respecting human rights.",
+  "materials": [
+    "Whiteboard and markers",
+    "Charts showing examples of human rights",
+    "Illustrations of human rights violations"
+  ],
+  "objectives": [
+    "Understand what human rights are.",
+    "Identify different types of human rights violations.",
+    "Discuss examples of human rights violations.",
+    "Reflect on the importance of respecting and protecting human rights."
+  ],
+  "rationale": [
+    "Teaching students about human rights helps them understand their own rights and responsibilities, and encourages empathy and fairness towards others."
+  ],
+  "methodology": [
+    "The lesson will use discussions, real-life examples, and interactive activities to explain human rights and violations."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Human Rights</b>:<br><br>Begin with a question: 'What do you think human rights are?'<br><br>Explain: Human rights are the basic rights and freedoms that belong to every person in the world, from birth until death.<br><br>Examples of human rights include:<br>- The right to life.<br>- The right to education.<br>- The right to freedom of speech.<br>- The right to equality.<br><br>Class Discussion:<br>- Why do you think human rights are important?<br>- What would happen if people didn’t have rights?",
+      "<b>Part 2: Understanding Human Rights Violations</b>:<br><br>Explain: A human rights violation happens when someone’s basic rights are ignored or taken away.<br><br>People can violate human rights in different ways, such as:<br>- Discrimination: Treating someone unfairly because of their race, gender, or religion.<br>- Child labor: Forcing children to work instead of allowing them to go to school.<br>- Violence: Hurting others physically or emotionally.<br>- Slavery: Forcing people to work against their will.<br><br>Class Discussion:<br>- Why do you think it’s wrong to violate someone’s rights?<br>- Can you think of situations where someone’s rights were ignored?",
+      "<b>Part 3: Examples of Human Rights Violations</b>:<br><br>1. Discrimination:<br>- A girl is not allowed to play soccer at school because she is a girl.<br>- A boy is bullied because of his skin color.<br><br>2. Child Labor:<br>- A child is forced to sell goods on the street instead of attending school.<br><br>3. Violence:<br>- A person is hurt or threatened for speaking their mind.<br><br>4. Slavery:<br>- Someone is made to work long hours without pay or the freedom to leave.<br><br>Class Activity:<br>Present each situation and ask the class:<br>- What is happening in this example?<br>- Which human right is being violated?",
+      "<b>Part 4: Protecting Human Rights</b>:<br><br>Explain: Everyone has a responsibility to protect human rights, including governments, organizations, and individuals.<br><br>How can we protect human rights?<br>- Respect others and treat them fairly.<br>- Speak up if you see someone being treated unfairly.<br>- Learn about human rights and share the knowledge.<br><br>Class Discussion:<br>- How can we, as a class, make sure everyone’s rights are respected?",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>Instructions: Answer the following questions in your notebook:<br>1. What are human rights? (2 marks)<br>2. Give two examples of human rights violations. (4 marks)<br>3. Why is it important to protect human rights? (4 marks)<br>4. How can you help protect the rights of others in your school or community? (4 marks)<br><br>Bonus Question: (2 marks)<br>Imagine you saw someone being treated unfairly at school. What would you do?<br><br>Total: 16 marks"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during class discussions and activities.",
+    "<b>Exercise</b>: The written exercise will assess students’ understanding of human rights and violations."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand what human rights are, recognize different types of human rights violations, and learn ways to protect and respect human rights."
+  ],
+  "homework": [
+    "Research one famous human rights leader (like Nelson Mandela or Malala Yousafzai) and write 5 sentences about how they fought for human rights."
+  ]
+},
 
 // Lesson 3
-
+{
+  "title": "Identifying Organizations Protecting Human Rights",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Social Studies",
+  "topic": "Identifying Organizations Protecting Human Rights",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to human rights and the key organizations that work to protect them, such as the police service, Human Rights Commission, and Civil Society Organizations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or illustrations of organizations",
+    "Student notebooks"
+  ],
+  "objectives": [
+    "Students will understand what human rights are.",
+    "Students will learn why protecting human rights is important.",
+    "Students will learn about key organizations that work to protect human rights.",
+    "Students will understand the importance of these organizations.",
+    "Students will think critically about human rights and how to respond to violations."
+  ],
+  "rationale": [
+    "Teaching students about human rights empowers them to recognize their own rights and the rights of others.",
+    "Understanding the role of organizations in protecting human rights helps students appreciate their importance in society."
+  ],
+  "methodology": [
+    "The lesson will use discussions, explanations, and reflection exercises to introduce students to human rights and the organizations protecting them."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b><br><br><b>Objective:</b><br>Students will understand what human rights are.<br>Students will learn why protecting human rights is important.<br><br><b>Discussion:</b><br>Begin by asking the class:<br>What do you think 'human rights' means?<br>Can you name some basic rights we all have? (Examples: right to education, right to safety, right to speak freely)<br><br><b>Explain:</b><br>Human rights are the basic rights and freedoms that belong to every person in the world. These rights make sure we are treated fairly and can live with dignity and respect.",
+      "<b>Part 2: Organizations Protecting Human Rights (10 minutes)</b><br><br><b>Objective:</b><br>Students will learn about key organizations that work to protect human rights.<br><br><b>Explain:</b><br>There are several organizations that help protect people’s rights. Let’s look at three important ones:<br><br><b>1. Police Service:</b><br>Their main job is to protect people and maintain law and order.<br>They arrest those who break the law and help victims of crime.<br>Example: If someone’s property is stolen, they report it to the police.<br><br><b>2. Human Rights Commission:</b><br>This is a group that listens to people whose rights have been violated.<br>They investigate cases of unfair treatment and help solve problems.<br>Example: If someone is unfairly treated at school or work, they can report it to the commission.<br><br><b>3. Civil Society Organizations (CSOs):</b><br>These are groups of people who work together to protect human rights and help those in need.<br>They focus on different areas like helping children, women, or the environment.<br>Example: Some CSOs fight against child labor or provide food to the poor.",
+      "<b>Part 3: Why These Organizations Matter (10 minutes)</b><br><br><b>Objective:</b><br>Students will understand the importance of these organizations.<br><br><b>Discussion:</b><br>Ask:<br>What would happen if there were no police to stop crimes?<br>How would people feel if no one helped when their rights were taken away?<br><br><b>Explain:</b><br>These organizations protect people from unfair treatment. They make sure laws are followed and everyone feels safe and respected. They help people solve problems when their rights are violated.",
+      "<b>Part 4: Class Discussion and Reflection (5 minutes)</b><br><br><b>Objective:</b><br>Encourage students to think critically about human rights and their protection.<br><br><b>Questions to discuss:</b><br>1. Have you ever heard of someone being treated unfairly?<br>2. What should you do if your rights or someone else’s rights are violated?<br>3. How can you help others know their rights?<br><br><b>Conclusion:</b><br>Summarize the key points — the police service, Human Rights Commission, and Civil Society Organizations all work to protect human rights.",
+      "<b>Part 5: Exercise (10 minutes)</b><br><br><b>Instructions:</b><br>Answer the following questions in your notebook:<br><br>1. Match the organization to its role:<br>a) Police Service<br>b) Human Rights Commission<br>c) Civil Society Organization<br><br>i) Investigates cases of human rights violations.<br>ii) Helps keep law and order by stopping crimes.<br>iii) Works with the community to help protect rights and support those in need.<br><br>2. True or False:<br>a) The police service protects people from crime.<br>b) The Human Rights Commission only helps rich people.<br>c) Civil society organizations can help protect children’s rights.<br>d) It is okay to ignore human rights violations if they don’t affect you.<br><br>3. Short Answer:<br>Name one example of how the police protect human rights.<br>Why is it important to have organizations that protect human rights?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students’ participation in discussions and their ability to identify human rights and the organizations protecting them.",
+    "<b>Exercise:</b> The matching, true/false, and short answer questions will assess the students’ understanding of the topic."
+  ],
+  "conclusion": [
+    "By learning about human rights and the organizations protecting them, students will understand the importance of fairness, safety, and support in their communities."
+  ]
+},
 
 
 // Week 10
