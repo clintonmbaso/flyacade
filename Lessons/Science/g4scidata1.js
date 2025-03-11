@@ -402,13 +402,216 @@ const lessonPlans25a = [
 },
 
 // Lesson 3
+{
+  "title": "The Importance of Water in the Body",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Importance of Water in the Body",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "4",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about the vital roles of water in the human body, including dissolving substances, distributing heat, moisturizing skin, and removing waste.",
+  "materials": [
+    "Glass of water",
+    "Sugar",
+    "Whiteboard and markers",
+    "Diagrams of the human body"
+  ],
+  "objectives": [
+    "Explain why water is important for the human body.",
+    "Understand how water helps dissolve substances.",
+    "Describe how water helps distribute heat in the body.",
+    "Explain how water keeps the skin moist and healthy."
+  ],
+  "rationale": [
+    "Understanding the importance of water helps students make healthier choices about hydration and recognize how their bodies function."
+  ],
+  "methodology": [
+    "The lesson will use simple demonstrations, class discussions, and Q&A sessions to explain how water supports body functions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Water Dissolves Substances</b>:<br><br>Explain that water helps dissolve the food we eat so the nutrients can spread throughout our bodies.<br><br>Use a simple example: Pour some sugar into a glass of water and stir. Ask the class what happens to the sugar.<br><br>Point out that just like the sugar dissolved in the water, important substances like vitamins and minerals dissolve in the water inside our bodies, helping us stay healthy.<br><br>Discussion Question:<br>'What do you think would happen if the body couldn’t dissolve the food we eat?'",
+      "<b>Part 2: Water Distributes Heat</b>:<br><br>Explain that water helps to spread heat evenly in the body.<br><br>Ask students: 'Have you ever noticed that you sweat when you are hot?'<br><br>Explain that sweating is the body’s way of cooling down — water comes out of our skin and evaporates, taking heat away.<br><br>Emphasize that water moves heat from warmer parts of the body to cooler parts, keeping everything balanced.<br><br>Discussion Question:<br>'Why do you think we sweat more on hot days?'",
+      "<b>Part 3: Water Moistens Skin</b>:<br><br>Explain that water keeps our skin soft and moist.<br><br>Ask: 'Have you ever noticed your skin feels dry when you don’t drink enough water?'<br><br>Tell them that drinking water helps our skin stay smooth by keeping it hydrated.<br><br>Remind them that our skin protects us, so it’s important to keep it healthy.<br><br>Discussion Question:<br>'What happens to plants when they don’t get water? Do you think the same happens to our skin?'",
+      "<b>Part 4: Water Removes Waste</b>:<br><br>Explain that water helps remove waste from our bodies through sweat, urine, and even breathing.<br><br>Ask the class if they’ve noticed that their urine is lighter when they drink lots of water — that’s because water helps remove unwanted substances.<br><br>Point out that drinking enough water helps clean the body from the inside.<br><br>Discussion Question:<br>'Why do you think doctors tell us to drink more water when we are sick?'",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>Activity: Fill in the blanks<br><br>1. Water helps to __________ substances like food and vitamins in our bodies.<br><br>2. Our body uses water to spread __________ evenly and keep us cool.<br><br>3. Drinking water keeps our __________ soft and moist.<br><br>4. Water removes __________ from our bodies through sweat and urine.<br><br>Homework:<br>1. Draw and label a simple picture showing how water helps one of the four body functions.<br>2. Write three sentences about why it is important to drink water every day."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and their understanding during the sugar and water experiment.",
+    "<b>Exercise</b>: The fill-in-the-blanks activity will assess their grasp of the key roles of water in the body."
+  ],
+  "conclusion": [
+    "Recap the four main ways water helps the body: dissolving substances, distributing heat, moisturizing skin, and removing waste.",
+    "Remind students: Drinking enough water every day keeps our bodies healthy!"
+  ]
+},
 
 // Week 5
 // Lesson 1
+{
+  "title": "Understanding the Effects of Dehydration",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Effects of Dehydration",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "1",
+  "description": "This lesson helps students understand what dehydration is, its causes, effects on the body, and ways to prevent it through interactive discussions and activities.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheets",
+    "Pictures of water-rich foods and drinks",
+    "Water bottles (optional)"
+  ],
+  "objectives": [
+    "Understand what dehydration is.",
+    "Identify the causes of dehydration.",
+    "Explain the effects of dehydration on the body.",
+    "Discuss ways to prevent dehydration.",
+    "Complete an exercise to reinforce their understanding."
+  ],
+  "rationale": [
+    "Teaching students about dehydration is important for their health and well-being. Understanding how the body loses water and how to stay hydrated will help them develop healthy habits."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, explanations, and matching exercises to build understanding of dehydration and how to prevent it."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction — What is Dehydration?</b> (10 minutes)<br><br>Class Discussion:<br>Begin by asking: 'Have you ever felt very thirsty or weak on a hot day?'<br>Explain that dehydration happens when the body loses more water than it takes in.<br>The human body needs water to stay healthy, and losing too much water can cause problems.<br><br>Key points:<br>- Water makes up about 60% of our body.<br>- We lose water through sweating, breathing, urinating, and crying.<br>- If we don’t drink enough water, our bodies can’t work properly.",
+      "<b>Part 2: Causes of Dehydration</b> (8 minutes)<br><br>Explain the main causes:<br>1. Not drinking enough water — Forgetting to drink water, especially when playing or working hard.<br>2. Sweating too much — During hot weather or exercise, we lose water through sweat.<br>3. Illness — Vomiting, diarrhea, or fever can cause water loss.<br>4. Urination — Certain foods, drinks, or medicines can make us urinate more often, losing water.<br><br>Question:<br>'Can anyone think of a time when they sweated a lot or forgot to drink water?'",
+      "<b>Part 3: Effects of Dehydration</b> (8 minutes)<br><br>Explain what happens to the body when it doesn’t have enough water:<br>1. Thirst and dry mouth — The first sign that your body needs water.<br>2. Tiredness and weakness — You may feel dizzy or lightheaded.<br>3. Dark urine — Healthy urine is light yellow; dark yellow or brown means you're dehydrated.<br>4. Headaches — Lack of water can cause headaches.<br>5. Dry skin — Your skin may lose its moisture and feel dry.<br><br>Class activity:<br>'Let’s check the color of our urine next time we go to the bathroom. If it’s dark, we need to drink more water!' (Remind students this is a private activity.)",
+      "<b>Part 4: Preventing Dehydration</b> (7 minutes)<br><br>Discuss simple ways to stay hydrated:<br>1. Drink water regularly — Even if you’re not thirsty, sip water throughout the day.<br>2. Eat water-rich foods — Fruits like watermelon, oranges, and cucumbers help keep you hydrated.<br>3. Avoid sugary drinks — Sodas and energy drinks can make dehydration worse.<br>4. Drink extra water — When playing sports, running, or during hot weather.<br><br>Quick tip:<br>Encourage students to bring a water bottle to class every day.",
+      "<b>Part 5: Exercise — “Dehydration Detective”</b> (7 minutes)<br><br>Activity:<br>Match the Effects of Dehydration<br><br>Hand out a worksheet with two columns:<br>Column A: Effects of dehydration (thirst, dark urine, tiredness, headaches)<br>Column B: Descriptions (A dry feeling in the mouth, feeling weak or dizzy, urine looks dark, a pain in the head)<br><br>Task:<br>Match the effects in Column A to the correct description in Column B.<br>Then, write one sentence about how you will stay hydrated."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe student participation during discussions and activities.",
+    "<b>Exercise</b>: The matching exercise will check if students can identify the causes and effects of dehydration."
+  ],
+  "conclusion": [
+    "By learning about dehydration, its causes, and how to prevent it, students will develop healthy habits to stay hydrated."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Preventing and Treating Dehydration",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Preventing and Treating Dehydration",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students what dehydration is, its causes, signs, prevention, and treatment, along with an engaging activity to reinforce the concepts.",
+  "materials": [
+    "Whiteboard and markers",
+    "Chart showing hydration levels",
+    "Jug of water",
+    "Small cups",
+    "Empty containers for relay game"
+  ],
+  "objectives": [
+    "Understand what dehydration is and its causes.",
+    "Identify the signs and symptoms of dehydration.",
+    "Learn how to prevent dehydration.",
+    "Understand how to treat dehydration.",
+    "Participate in an exercise to reinforce their knowledge."
+  ],
+  "rationale": [
+    "Understanding dehydration helps students recognize its signs, take preventive steps, and know how to respond in case of dehydration, promoting overall health and well-being."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, visual aids, practical examples, and an interactive relay game to enhance understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Class Discussion:<br>Begin by asking students: 'Have you ever felt extremely thirsty or weak on a hot day?'<br>Introduce the term dehydration: Explain that dehydration happens when the body loses more water than it takes in.<br>Briefly discuss why water is important for our bodies — it helps us stay cool, move nutrients around, and keep our organs working.<br>Use a simple analogy: 'Think of your body like a plant. What happens if you don’t water a plant? It starts to droop — just like we feel weak without enough water.'",
+      "<b>Part 2: Causes of Dehydration (10 minutes)</b>:<br><br>Explain the main causes of dehydration:<br>- Not drinking enough water — especially during hot weather or exercise.<br>- Sweating a lot — from playing sports or running around.<br>- Illnesses — like vomiting or diarrhea, which make the body lose fluids quickly.<br>- Hot weather — causing the body to lose water through sweating.<br><br>Class Participation:<br>Ask students to share experiences when they felt really hot or tired — what did they do to feel better?",
+      "<b>Part 3: Signs and Symptoms of Dehydration (10 minutes)</b>:<br><br>Explain the key signs of dehydration:<br>- Feeling very thirsty<br>- Dry mouth and lips<br>- Feeling dizzy or lightheaded<br>- Dark yellow urine (explain that clear or light yellow urine means you're well-hydrated)<br>- Tiredness or weakness<br><br>Activity:<br>Show a simple chart with 'hydration levels' — clear urine, light yellow urine, dark yellow urine — so students can visually understand the signs.",
+      "<b>Part 4: Prevention and Treatment of Dehydration (15 minutes)</b>:<br><br>How to prevent dehydration:<br>- Drink water regularly — even if you don’t feel thirsty.<br>- Eat fruits and vegetables — like watermelon, oranges, and cucumbers, which contain a lot of water.<br>- Wear light clothes in hot weather.<br>- Rest in the shade when playing outside.<br><br>How to treat dehydration:<br>- Drink water or oral rehydration solution (ORS).<br>- Sip slowly — not gulp — to help the body absorb water better.<br>- If severe, seek medical help immediately.<br><br>Question Time:<br>Ask: 'If your friend feels dizzy on a hot day, what should you do?'<br>Encourage students to answer and correct any misconceptions.",
+      "<b>Part 5: Exercise: Hydration Relay Game (15 minutes)</b>:<br><br>Objective: Reinforce the importance of staying hydrated.<br><br>Materials: Small cups of water, a jug, and an empty container for each team.<br><br>Instructions:<br>1. Divide the class into small teams.<br>2. Place a jug of water at one end and an empty container at the other.<br>3. Each student takes turns running to the jug, filling their cup, and running back to pour it into the container.<br>4. The team that fills their container first — without spilling too much water — wins.<br><br>Reflection:<br>After the game, ask: 'How did you feel running back and forth? Did you feel like you needed water?'<br>Remind them that just like in the game, our bodies need steady water intake to function well."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and activities.",
+    "<b>Exercise</b>: The hydration relay game will assess how well students understand the need for steady water intake."
+  ],
+  "conclusion": [
+    "Summarize the main points:<br>- Dehydration happens when the body loses more water than it takes in.<br>- Prevent it by drinking water, eating water-rich foods, and staying cool.<br>- Treat it by drinking water or ORS and resting.<br><br>Encourage students to always carry a water bottle to school."
+  ],
+  "task": [
+    "Homework: Draw a poster showing 3 ways to prevent dehydration.",
+    "Optional: Write a short story about a time they or someone they know felt dehydrated and what they did to feel better."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Identifying Traditional and Conventional Medicines for Common Ailments",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Traditional and Conventional Medicines",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concepts of traditional and conventional medicines, helping them understand their uses, benefits, and limitations.",
+  "materials": [
+    "Pictures or samples of traditional medicinal plants",
+    "Images of conventional medicines",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Define traditional and conventional medicines.",
+    "Identify examples of traditional and conventional medicines.",
+    "Understand the uses of these medicines for common ailments.",
+    "Compare the benefits and limitations of both types of medicines."
+  ],
+  "rationale": [
+    "Learning about traditional and conventional medicines equips students with knowledge about how different treatments work and the importance of using medicines safely and correctly."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, visual aids, and matching activities to engage students and reinforce their understanding of traditional and conventional medicines."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (5 minutes)</b>:<br><br>Class Discussion:<br>Begin by asking the students:<br>- Have you ever been sick?<br>- What medicine did you take?<br>- Did someone give you homemade remedies like ginger or aloe vera?<br><br>Explain:<br>Medicines help us feel better when we are sick.<br>There are two main types of medicines:<br><br>1. Traditional medicines — made from plants, herbs, and natural ingredients used for many years by our ancestors.<br>2. Conventional medicines — made by scientists in laboratories, often found in hospitals or pharmacies.",
+      "<b>Part 2: Traditional Medicines (10 minutes)</b>:<br><br>Explain:<br>Traditional medicines use plants and herbs to treat common illnesses. Some examples include:<br>- Aloe Vera (Tembusha): Soothes burns, skin problems, and cuts.<br>- Moringa: Used to boost immunity and treat inflammation.<br>- Cinnamon: Helps with colds and digestion.<br>- Ginger: Used for stomach aches, colds, and sore throats.<br>- Garlic: Fights infections and improves heart health.<br><br>Class Activity:<br>Show pictures or real samples of these plants (if available).<br>Allow students to share if they or their families have used any of these remedies.",
+      "<b>Part 3: Conventional Medicines (10 minutes)</b>:<br><br>Explain:<br>Conventional medicines are tested and prescribed by doctors. Some examples include:<br>- Paracetamol: Used to reduce fever and pain.<br>- Antibiotics: Help fight bacterial infections.<br>- Malarial drugs: Used to treat malaria.<br><br>Class Discussion:<br>Ask students if they have seen or taken any of these medicines.<br>Discuss how these medicines must be used carefully and only as directed by a doctor or pharmacist.",
+      "<b>Part 4: Comparison and Safety (10 minutes)</b>:<br><br>Explain:<br>Traditional medicines are natural but may not always work quickly.<br>Conventional medicines work fast but may have side effects.<br>Both types of medicines are important, but we must use them safely.<br><br>Key safety rules:<br>1. Always tell an adult before taking any medicine.<br>2. Follow the correct dosage (amount).<br>3. Never mix medicines without a doctor’s advice.",
+      "<b>Part 5: Exercise (5 minutes)</b>:<br><br>Activity: Match the Medicine to the Illness<br>Write the following on the board and let students match them:<br>- Aloe Vera — Soothes burns<br>- Paracetamol — Reduces fever<br>- Ginger — Eases sore throats<br>- Antibiotics — Fights infections<br><br>Bonus Question:<br>Why is it important to use medicine correctly?<br><br>Homework:<br>Ask students to find out one traditional and one conventional medicine used in their homes and write a short description of what they treat."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in class discussions and activities.",
+    "<b>Exercise</b>: The matching activity and bonus question will assess students’ understanding of traditional and conventional medicines."
+  ],
+  "conclusion": [
+    "By learning about traditional and conventional medicines, students will understand their uses, benefits, and the importance of using medicines safely and correctly."
+  ]
+},
 
 // Week 7
 // Lesson 1
