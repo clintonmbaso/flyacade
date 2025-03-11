@@ -627,13 +627,203 @@ const lessonPlans26a = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "Malaria — Causes and Prevention",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 10, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Causes of Malaria",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson teaches learners about the causes of malaria, how it spreads, its effects on the body, and methods of prevention.",
+  "materials": [
+    "Pictures or diagrams of mosquitoes",
+    "Whiteboard and markers",
+    "Charts showing malaria prevention methods"
+  ],
+  "objectives": [
+    "Learners will be able to identify the causes of malaria.",
+    "Learners will understand how malaria spreads through mosquito bites.",
+    "Learners will learn how to prevent malaria."
+  ],
+  "rationale": [
+    "Understanding the causes and prevention of malaria empowers learners to protect themselves and their communities from this disease."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, visual aids, and matching exercises to explain malaria's causes, effects, and prevention."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Class Discussion:<br>Begin by asking learners:<br>Have you ever heard of malaria?<br>Do you know anyone who has had malaria?<br><br>Explain that malaria is a disease that can make people very sick, causing fever, chills, and tiredness.<br><br>Show a picture or simple diagram of a mosquito and explain that malaria is caused by small germs (parasites) that enter the body through mosquito bites.",
+      "<b>Part 2: Causes of Malaria (15 minutes)</b>:<br><br>Explanation:<br>Malaria is caused by tiny parasites called Plasmodium that live inside certain mosquitoes.<br><br>Only female Anopheles mosquitoes can spread malaria — not all mosquitoes cause malaria.<br><br>The mosquitoes pick up the malaria parasites when they bite someone who already has malaria.<br><br>When the infected mosquito bites another person, the parasites enter the person's blood, causing malaria.<br><br>Key points to emphasize:<br>Cause: Malaria parasites (Plasmodium).<br>Carrier: Female Anopheles mosquito.<br>How it spreads: Through mosquito bites.",
+      "<b>Part 3: Effects of Malaria (10 minutes)</b>:<br><br>Class discussion and notes:<br>Explain how malaria affects the body:<br>- Fever and chills.<br>- Sweating and shaking.<br>- Feeling weak and tired.<br><br>Discuss why it’s important to treat malaria quickly to avoid serious health problems.<br><br>Question for the class:<br>Why do you think it's important to stop mosquitoes from biting us?",
+      "<b>Part 4: Prevention of Malaria (15 minutes)</b>:<br><br>Strategies for prevention:<br>- Use mosquito nets: Sleeping under a treated net keeps mosquitoes away.<br>- Remove stagnant water: Mosquitoes lay eggs in still water, so empty containers, drain puddles, and keep the surroundings clean.<br>- Wear protective clothing: Long sleeves and trousers help prevent bites.<br>- Use insect repellent: Special sprays can keep mosquitoes away.<br><br>Interactive activity:<br>Show pictures of a mosquito net, clean surroundings, and protective clothing.<br>Ask learners to suggest other ways to stop mosquitoes from breeding.",
+      "<b>Part 5: Exercise (15 minutes)</b>:<br><br>Activity: Match the terms with their definitions.<br>Match the items in Column A with the correct answers in Column B.<br><br>Short answer questions:<br>1. What causes malaria?<br>2. How do malaria parasites enter a person's body?<br>3. Name two ways to prevent malaria.<br>4. Why is it important to remove stagnant water?<br>5. What is the name of the mosquito that spreads malaria?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The matching activity and short answer questions will assess learners' understanding of malaria's causes and prevention."
+  ],
+  "conclusion": [
+    "Recap the causes, effects, and prevention of malaria.",
+    "Remind learners that malaria can be prevented by avoiding mosquito bites and keeping the environment clean."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Ways in which STIs and HIV are Transmitted",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Ways in which STIs and HIV are Transmitted",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students about the different ways in which STIs (Sexually Transmitted Infections) and HIV (Human Immunodeficiency Virus) are transmitted, including unprotected sexual activity, contaminated blood, breast milk, and sharp instruments.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed True or False quiz",
+    "Pictures or illustrations related to HIV and STIs"
+  ],
+  "objectives": [
+    "Students will understand the different ways in which STIs and HIV can be transmitted.",
+    "Students will learn about unprotected sexual activities, contaminated blood, breast milk, and sharp instruments as transmission methods.",
+    "Students will understand prevention methods for STIs and HIV."
+  ],
+  "rationale": [
+    "Educating students about how STIs and HIV are transmitted will help them make informed decisions about their health and safety in the future."
+  ],
+  "methodology": [
+    "The lesson will include explanations, discussions, and a True or False quiz to reinforce understanding of transmission methods and prevention."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to STIs and HIV</b>:<br><br>Explanation: Begin by explaining what STIs and HIV are.<br><br>STIs: These are infections that can be passed from one person to another through sexual contact.<br>HIV: This is a virus that attacks the immune system and can lead to AIDS (Acquired Immune Deficiency Syndrome) if not treated. HIV is one of the most common sexually transmitted infections.<br><br>Ask students to raise their hands if they have heard about HIV and STIs before, and briefly discuss any information they may already know.",
+      "<b>Part 2: Ways of Transmission</b>:<br><br>Explanation of Transmission Methods:<br><br>Unprotected Sexual Activity: HIV and many STIs can be spread through sexual activities such as vaginal, anal, or oral sex if a person does not use protection (such as condoms). Protection helps to reduce the risk of transmission.<br><br>Contaminated Blood: HIV and some STIs can also be transmitted through blood if an infected person's blood enters another person’s bloodstream. This can happen when people share needles, for example, during drug use or in medical procedures without proper sterilization.<br><br>Breast Milk: HIV can be passed from a mother to her child during breastfeeding. It’s important to be aware that HIV is present in breast milk, and children who drink infected milk may contract the virus.<br><br>Sharp Instruments: Sharp instruments such as needles, razors, or tattoo equipment that are not properly sterilized can transfer infected blood. If one person has HIV or another STI and uses these items, it can infect others who use the same instruments.",
+      "<b>Part 3: Prevention of Transmission</b>:<br><br>Explanation: Explain that while STIs and HIV are serious health concerns, there are ways to prevent them:<br><br>Use of Protection: Using condoms during sexual activity can greatly reduce the risk of transmission.<br><br>Avoid Sharing Needles: Never share needles, razors, or any sharp objects with others.<br><br>Medical Advice and Screening: Regular medical check-ups and testing for STIs and HIV can help catch infections early and prevent further spread.<br><br>Safe Breastfeeding: Mothers who are HIV-positive should seek medical advice on how to reduce the risk of passing HIV to their children during breastfeeding.",
+      "<b>Part 4: Understanding the Importance of Education</b>:<br><br>Explanation: Emphasize the importance of learning about STIs and HIV to prevent them. Encourage students to:<br><br>Speak up about these issues with their parents or guardians.<br><br>Educate themselves on healthy behaviors, like practicing safe sex in the future and understanding the risks associated with certain actions.<br><br>Recognize the significance of hygiene, such as not sharing personal items like razors and toothbrushes.<br><br>It’s important for students to know that understanding these topics helps to protect their health and the health of others.",
+      "<b>Part 5: Exercise: True or False Quiz</b>:<br><br>Activity: To reinforce the lesson, give students a True or False quiz based on the information they have learned. Write the following statements on the board or distribute them as a worksheet for students to answer:<br><br>1. HIV can only be spread through sexual activity. (False: HIV can also be spread through blood, breast milk, and sharing sharp instruments.)<br><br>2. Using a condom during sexual activity can help prevent the spread of HIV and STIs. (True)<br><br>3. Breastfeeding is a safe way to feed a baby if the mother is HIV-positive. (False: HIV can be passed through breast milk.)<br><br>4. Sharing a needle can cause HIV to spread. (True)<br><br>5. STIs and HIV cannot be prevented. (False: There are ways to prevent transmission, such as using protection and not sharing needles.)"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and participation in the True or False quiz.",
+    "<b>Exercise</b>: The True or False quiz will assess students' understanding of HIV and STI transmission and prevention methods."
+  ],
+  "conclusion": [
+    "By learning about how STIs and HIV are transmitted and how to prevent them, students will be better equipped to protect their health and make informed decisions in the future."
+  ]
+},
 // Lesson  3
+{
+  "title": "Care and Treatment for AIDS Patients",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Care and Treatment for AIDS Patients",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "7",
+  "description": "This lesson focuses on teaching students about the care and treatment required for AIDS patients, including good nutrition, hygiene, emotional support, and Antiretroviral Therapy (ART).",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed handouts on AIDS, ART, and good nutrition",
+    "Pictures illustrating proper hygiene practices"
+  ],
+  "objectives": [
+    "Understand the importance of good nutrition, hygiene, love, and support for AIDS patients.",
+    "Learn about ART (Antiretroviral Therapy) and its role in treating AIDS.",
+    "Develop empathy and responsibility toward people living with AIDS."
+  ],
+  "rationale": [
+    "This lesson helps students develop a better understanding of the care required for AIDS patients and fosters empathy and responsibility towards those affected by the disease."
+  ],
+  "methodology": [
+    "The lesson will be delivered through explanations, discussions, and group activities focusing on nutrition, hygiene, emotional support, and ART."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to AIDS and Its Impact</b>:<br><br>AIDS (Acquired Immunodeficiency Syndrome) is caused by the HIV (Human Immunodeficiency Virus). The virus weakens the body's immune system, making it harder to fight infections and illnesses. AIDS can affect anyone, but with proper care and treatment, people with AIDS can live healthy lives.<br><br><b>Key Points:</b><br>- HIV is a virus that attacks the immune system.<br>- AIDS is the most advanced stage of HIV infection.<br>- People living with AIDS need special care to manage their condition and live a better life.",
+      "<b>Part 2: Good Nutrition for AIDS Patients</b>:<br><br>Nutrition is very important for people living with AIDS. Good food helps keep the immune system strong, gives energy, and helps the body recover from illnesses.<br><br><b>Key Points:</b><br>- Eat balanced meals: A variety of fruits, vegetables, whole grains, and proteins.<br>- Drink plenty of water: Staying hydrated is crucial.<br>- Avoid unhealthy foods: Fast food, sugary snacks, and too much salt can weaken the body.<br>- Supplements: Sometimes, doctors recommend extra vitamins and minerals for better health.",
+      "<b>Part 3: Good Hygiene and Support</b>:<br><br>Keeping clean and having love and support from friends and family are important for people with AIDS. Good hygiene helps prevent infections, while emotional support makes people feel cared for and less stressed.<br><br><b>Key Points:</b><br>- Hygiene: Regular handwashing, bathing, and keeping clothes clean help prevent illness.<br>- Emotional Support: Love, care, and support from family and friends can help the person feel strong and hopeful.<br>- Social Support: Being accepted in the community and not being judged helps people live better lives.",
+      "<b>Part 4: ART (Antiretroviral Therapy)</b>:<br><br>ART is a treatment that helps people with HIV live longer, healthier lives. It involves taking medicines that stop the virus from multiplying in the body. ART does not cure HIV but helps keep it under control.<br><br><b>Key Points:</b><br>- ART is important: Taking ART regularly can reduce the amount of HIV in the blood and improve immune function.<br>- Daily Medication: ART involves taking pills every day, which is important to keep the virus under control.<br>- Regular doctor visits: People on ART need to visit the doctor regularly for check-ups and to monitor their health.",
+      "<b>Part 5: Exercise: Discussion & Reflection</b>:<br><br><b>Activity:</b><br>Group Discussion: Ask the students to discuss how they can help people with AIDS in their community. What can they do to support their friends or family members who may be affected by HIV/AIDS?<br><br><b>Reflection:</b><br>Write down 2-3 things you learned today about caring for someone with AIDS. How can good nutrition, hygiene, and support help people with AIDS?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation:</b> The teacher will observe students' engagement during the discussion and reflection activity.",
+    "<b>Reflection Exercise:</b> The reflection task will evaluate students' understanding of the key points related to caring for AIDS patients."
+  ],
+  "conclusion": [
+    "By learning about good nutrition, hygiene, emotional support, and ART, students will understand how people living with AIDS can lead healthier lives with the right care and treatment. It's important to show kindness, love, and respect to everyone, regardless of their health status."
+  ]
+},
 
 // Week 8
 // Lesson 1
+{
+  "title": "Harmful Substances and Their Effects",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Harmful Substances and Their Effects",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to harmful substances, their effects on the body, and how to avoid substance abuse.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of harmful substances",
+    "Worksheet for exercise"
+  ],
+  "objectives": [
+    "Students will understand what harmful substances are and why they are dangerous to the human body.",
+    "Students will learn to distinguish between licit and illicit drugs.",
+    "Students will learn about the effects of harmful substances on the body.",
+    "Students will learn how to resist peer pressure and communicate about the dangers of substance abuse.",
+    "Students will reinforce their knowledge through a practical exercise."
+  ],
+  "rationale": [
+    "Understanding the harmful effects of substances and how to avoid them is crucial in promoting healthy living and preventing substance abuse."
+  ],
+  "methodology": [
+    "The lesson will use storytelling, discussions, and a practical exercise to help students understand the dangers of harmful substances."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Harmful Substances</b>:<br><br>Objective: Students will understand what harmful substances are and why they are dangerous to the human body.<br>Activity: Start by discussing what substances are, using examples like food, medicine, and chemicals. Explain that some substances, while useful, can be harmful if not used properly.<br><br>Key points to cover:<br>Definition of harmful substances: These are substances that, when used incorrectly or excessively, can cause damage to the body.<br>Examples of harmful substances: Cocaine, mandrax, heroin, petrol, alcohol, and dagga.<br>Effect on the body: These substances can affect various organs like the heart, brain, lungs, and liver, leading to long-term health problems.<br><br>Discussion: Ask students, 'Why do you think some substances can be harmful to the body?' and let them share their thoughts.",
+      "<b>Part 2: Distinguishing Between Licit and Illicit Drugs</b>:<br><br>Objective: Students will learn to distinguish between licit (legal) and illicit (illegal) drugs.<br>Activity: Define licit and illicit drugs.<br><br>Licit drugs: These are substances that are legal to use, like alcohol and certain prescribed medications, when used responsibly and as directed.<br>Illicit drugs: These are substances that are illegal to use, like cocaine, mandrax, and heroin.<br><br>Key points to cover:<br>Legal vs. Illegal: Explain that licit drugs are controlled and can be used safely, but they can be harmful when abused. Illicit drugs, on the other hand, are dangerous and illegal.<br>Consequences of using illicit drugs: Using illicit drugs can lead to serious health issues, arrest, and even death.<br><br>Discussion: Ask students to give examples of licit and illicit drugs they have heard about.",
+      "<b>Part 3: The Effects of Harmful Substances</b>:<br><br>Objective: Students will learn about the effects of harmful substances on the body.<br>Activity: Discuss the short-term and long-term effects of using harmful substances like cocaine, mandrax, heroin, and alcohol.<br><br>Short-term effects:<br>Cocaine: Increased heart rate, nervousness, and aggression.<br>Alcohol: Slurred speech, impaired judgment, and loss of coordination.<br>Dagga (Marijuana): Slow reaction time, memory issues.<br><br>Long-term effects:<br>Cocaine and heroin can cause brain damage, addiction, and heart problems.<br>Alcohol and mandrax can lead to liver damage and other health problems.<br>All of these substances can have negative social, emotional, and physical consequences.<br><br>Discussion: Encourage students to ask questions about the effects of these substances, focusing on why they should avoid them.",
+      "<b>Part 4: Avoiding Substance Abuse and Effective Communication</b>:<br><br>Objective: Students will learn how to communicate effectively to avoid substance abuse.<br>Activity: Teach students how to resist peer pressure and communicate about the dangers of substance abuse.<br><br>Effective Communication Tips:<br>Say 'No' firmly and confidently.<br>Avoid situations where substances are being used.<br>Talk to an adult if they are offered harmful substances.<br>Educate others about the dangers of drugs and alcohol.<br><br>Classifying substances: Divide substances into two categories: harmful and non-harmful. For example, food and water are non-harmful, while drugs like cocaine and alcohol are harmful.<br><br>Peer pressure: Explain how friends can sometimes encourage harmful behaviors and how to stand strong against it.",
+      "<b>Part 5: Exercise</b>:<br><br>Objective: Reinforce the concepts of harmful substances and the importance of avoiding them.<br>Activity: Provide students with a worksheet where they must:<br><br>1. Identify harmful substances from a list of substances.<br>2. Classify substances as licit or illicit.<br>3. Write a short paragraph explaining why it is important to avoid harmful substances."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
+    "<b>Exercise</b>: The worksheet will assess students' understanding of harmful substances, licit and illicit drugs, and the importance of avoiding substance abuse."
+  ],
+  "conclusion": [
+    "By understanding the effects of harmful substances and learning how to resist peer pressure, students will be empowered to make informed decisions and avoid the dangers of substance abuse."
+  ]
+},
 
 // Lesson 2
 
