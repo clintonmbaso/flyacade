@@ -779,7 +779,7 @@ const lessonPlans26a = [
   "title": "Harmful Substances and Their Effects",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Sunday, March 2, 2025",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Harmful Substances and Their Effects",
@@ -787,60 +787,455 @@ const lessonPlans26a = [
   "term": "1",
   "week": "8",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to harmful substances, their effects on the body, and how to avoid substance abuse.",
+  "description": "This lesson teaches students about harmful substances, the distinction between licit and illicit drugs, their effects on the human body, and strategies for avoiding them.",
   "materials": [
     "Whiteboard and markers",
-    "Pictures of harmful substances",
-    "Worksheet for exercise"
+    "Charts or posters about drugs and their effects",
+    "Pictures or illustrations of licit and illicit drugs"
   ],
   "objectives": [
-    "Students will understand what harmful substances are and why they are dangerous to the human body.",
-    "Students will learn to distinguish between licit and illicit drugs.",
-    "Students will learn about the effects of harmful substances on the body.",
-    "Students will learn how to resist peer pressure and communicate about the dangers of substance abuse.",
-    "Students will reinforce their knowledge through a practical exercise."
+    "Students will be able to define harmful substances.",
+    "Students will distinguish between licit (legal) and illicit (illegal) drugs.",
+    "Students will understand the effects of these substances on the human body.",
+    "Students will identify ways to avoid harmful substances."
   ],
   "rationale": [
-    "Understanding the harmful effects of substances and how to avoid them is crucial in promoting healthy living and preventing substance abuse."
+    "Teaching students about harmful substances helps them make informed decisions about their health and safety, fostering responsible behavior."
   ],
   "methodology": [
-    "The lesson will use storytelling, discussions, and a practical exercise to help students understand the dangers of harmful substances."
+    "The lesson will use discussions, real-life examples, and interactive activities to engage students and reinforce key concepts."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction to Harmful Substances</b>:<br><br>Objective: Students will understand what harmful substances are and why they are dangerous to the human body.<br>Activity: Start by discussing what substances are, using examples like food, medicine, and chemicals. Explain that some substances, while useful, can be harmful if not used properly.<br><br>Key points to cover:<br>Definition of harmful substances: These are substances that, when used incorrectly or excessively, can cause damage to the body.<br>Examples of harmful substances: Cocaine, mandrax, heroin, petrol, alcohol, and dagga.<br>Effect on the body: These substances can affect various organs like the heart, brain, lungs, and liver, leading to long-term health problems.<br><br>Discussion: Ask students, 'Why do you think some substances can be harmful to the body?' and let them share their thoughts.",
-      "<b>Part 2: Distinguishing Between Licit and Illicit Drugs</b>:<br><br>Objective: Students will learn to distinguish between licit (legal) and illicit (illegal) drugs.<br>Activity: Define licit and illicit drugs.<br><br>Licit drugs: These are substances that are legal to use, like alcohol and certain prescribed medications, when used responsibly and as directed.<br>Illicit drugs: These are substances that are illegal to use, like cocaine, mandrax, and heroin.<br><br>Key points to cover:<br>Legal vs. Illegal: Explain that licit drugs are controlled and can be used safely, but they can be harmful when abused. Illicit drugs, on the other hand, are dangerous and illegal.<br>Consequences of using illicit drugs: Using illicit drugs can lead to serious health issues, arrest, and even death.<br><br>Discussion: Ask students to give examples of licit and illicit drugs they have heard about.",
-      "<b>Part 3: The Effects of Harmful Substances</b>:<br><br>Objective: Students will learn about the effects of harmful substances on the body.<br>Activity: Discuss the short-term and long-term effects of using harmful substances like cocaine, mandrax, heroin, and alcohol.<br><br>Short-term effects:<br>Cocaine: Increased heart rate, nervousness, and aggression.<br>Alcohol: Slurred speech, impaired judgment, and loss of coordination.<br>Dagga (Marijuana): Slow reaction time, memory issues.<br><br>Long-term effects:<br>Cocaine and heroin can cause brain damage, addiction, and heart problems.<br>Alcohol and mandrax can lead to liver damage and other health problems.<br>All of these substances can have negative social, emotional, and physical consequences.<br><br>Discussion: Encourage students to ask questions about the effects of these substances, focusing on why they should avoid them.",
-      "<b>Part 4: Avoiding Substance Abuse and Effective Communication</b>:<br><br>Objective: Students will learn how to communicate effectively to avoid substance abuse.<br>Activity: Teach students how to resist peer pressure and communicate about the dangers of substance abuse.<br><br>Effective Communication Tips:<br>Say 'No' firmly and confidently.<br>Avoid situations where substances are being used.<br>Talk to an adult if they are offered harmful substances.<br>Educate others about the dangers of drugs and alcohol.<br><br>Classifying substances: Divide substances into two categories: harmful and non-harmful. For example, food and water are non-harmful, while drugs like cocaine and alcohol are harmful.<br><br>Peer pressure: Explain how friends can sometimes encourage harmful behaviors and how to stand strong against it.",
-      "<b>Part 5: Exercise</b>:<br><br>Objective: Reinforce the concepts of harmful substances and the importance of avoiding them.<br>Activity: Provide students with a worksheet where they must:<br><br>1. Identify harmful substances from a list of substances.<br>2. Classify substances as licit or illicit.<br>3. Write a short paragraph explaining why it is important to avoid harmful substances."
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br>Begin with a question:<br>'Can anyone tell me what a harmful substance is?'<br>'Have you ever heard of drugs? What do you think they are?'<br><br>Define harmful substances:<br>Explain that harmful substances are any items that can cause damage to our bodies if used incorrectly. These include certain drugs, alcohol, tobacco, and even household chemicals if not handled properly.",
+      "<b>Part 2: Licit vs. Illicit Drugs</b>:<br><br>Licit Drugs (Legal):<br>Explain that licit drugs are legal and allowed by law, but only when used correctly and usually under a doctor’s guidance. Examples include:<br>Medicine: To treat illnesses (like painkillers, antibiotics).<br>Caffeine: Found in tea, coffee, and some sodas.<br><br>Illicit Drugs (Illegal):<br>Explain that illicit drugs are illegal because they are harmful and have no medical use. Examples include:<br>Marijuana (in some countries), cocaine, heroin.<br><br>Key point: Just because something is legal doesn’t mean it’s always safe — even medicine can be harmful if misused!",
+      "<b>Part 3: Effects of Harmful Substances</b>:<br><br>Discuss how harmful substances affect the body and mind:<br>Physical effects: Weak muscles, poor balance, heart and lung problems.<br>Mental effects: Confusion, poor memory, and trouble making decisions.<br>Emotional effects: Mood swings, sadness, or anger.<br>Social effects: Trouble at school, loss of friends, and family problems.<br><br>Use simple examples:<br>'Imagine someone drinking too much alcohol — they might lose control of their actions and get hurt.'<br>'Someone taking illegal drugs might struggle to focus in class.'",
+      "<b>Part 4: Staying Safe and Saying No</b>:<br><br>Teach strategies to avoid harmful substances:<br>1. Say no firmly: If someone offers you something dangerous, respond with confidence.<br>2. Avoid bad company: Stay away from people who pressure you.<br>3. Talk to an adult: Always speak to a teacher, parent, or guardian if you're unsure about something.<br>4. Know the facts: Understanding what's harmful helps you make smart choices.",
+      "<b>Part 5: Exercise (Licit or Illicit?)</b>:<br><br>Activity: Licit or Illicit?<br>Write the following items on the board. Ask students to identify if each is a licit or illicit drug:<br>1. Painkillers prescribed by a doctor<br>2. Alcohol for children<br>3. Cough syrup<br>4. Cocaine<br>5. Tea or coffee<br>6. Heroin<br>7. Antibiotics from a doctor<br>8. Cigarettes<br><br>Bonus question: What should you do if a friend offers you something you think might be harmful?<br><br>Class discussion: Review the answers together and emphasize the importance of making safe choices."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and activities.",
-    "<b>Exercise</b>: The worksheet will assess students' understanding of harmful substances, licit and illicit drugs, and the importance of avoiding substance abuse."
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The 'Licit or Illicit?' activity will evaluate students' understanding of harmful substances and their effects."
   ],
   "conclusion": [
-    "By understanding the effects of harmful substances and learning how to resist peer pressure, students will be empowered to make informed decisions and avoid the dangers of substance abuse."
+    "Recap the lesson by reminding students:<br>- Licit drugs can be helpful when used properly.<br>- Illicit drugs are dangerous and illegal.<br>- Harmful substances affect the body, mind, and relationships.<br>- Always ask a trusted adult if you're unsure about anything."
   ]
 },
 
 // Lesson 2
+{
+  "title": "Harmful Substances and Their Effects on the Human Body",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, March 13, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Harmful Substances",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on identifying harmful substances, understanding their effects on the human body, and discussing strategies to stay safe from substance abuse.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or illustrations of harmful substances",
+    "Worksheets for class activity"
+  ],
+  "objectives": [
+    "Identify substances that are harmful to the human body.",
+    "Understand the negative effects of substance abuse on the body.",
+    "Discuss how substance abuse affects a person’s health and behavior.",
+    "Reflect on ways to stay safe from harmful substances."
+  ],
+  "rationale": [
+    "Understanding harmful substances and their effects equips students to make informed choices about their health and well-being, helping them avoid the dangers of substance abuse."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and class activities to engage students in learning about harmful substances."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Engage learners with a question:<br>'Have you ever heard about harmful substances? Can you name some things that can harm your body if you take them?'<br><br>Discuss:<br>Explain that harmful substances are drugs or chemicals that can hurt the body and mind when used the wrong way.<br>Emphasize that some substances are illegal, while others (like certain medicines) are only safe when used as prescribed by a doctor.",
+      "<b>Part 2: Identifying Harmful Substances (10 minutes)</b>:<br><br>Present a list of harmful substances:<br>Write these on the board:<br>Cocaine<br>Mandrax<br>Heroin<br>Petrol (inhaled as a drug)<br>Alcohol (when abused)<br>Dagga (marijuana)<br><br>Explain each briefly:<br>Cocaine, heroin, and mandrax are illegal drugs.<br>Petrol can be misused by sniffing, which harms the brain.<br>Alcohol, though legal for adults, is dangerous when overused.<br>Dagga is illegal in many places and affects the brain and body.",
+      "<b>Part 3: Harmful Effects of Substance Abuse (10 minutes)</b>:<br><br>Explain the effects of these substances:<br>Aggressiveness — Drugs can make people angry and violent.<br>Brain damage — Harmful substances can destroy parts of the brain.<br>Unconsciousness — Some drugs can make people faint or pass out.<br>Restlessness — Drug abuse can cause a person to feel anxious or unable to stay still.<br>Nausea — Many drugs cause people to feel sick and vomit.<br>Addiction — A person may feel they need the drug to live, even though it harms them.<br><br>Class Discussion:<br>Ask learners: 'Why do you think some people still use harmful substances even though they know the dangers?'<br><br>Guide the discussion to highlight peer pressure, curiosity, or stress as reasons — and discuss the importance of making safe choices.",
+      "<b>Part 4: Staying Safe (5 minutes)</b>:<br><br>Tips to avoid harmful substances:<br>Say NO firmly if someone offers you a harmful substance.<br>Talk to a trusted adult if you feel pressured.<br>Choose friends who make healthy choices.<br>Keep busy with sports, hobbies, or reading.",
+      "<b>Part 5: Exercise (5 minutes)</b>:<br><br>Activity:<br>Hand out a worksheet or write the questions on the board.<br><br>Questions:<br>1. Name three substances that are harmful to the human body.<br>2. List two effects of substance abuse on the brain.<br>3. What does \"addiction\" mean?<br>4. How can you avoid harmful substances?<br>5. What would you do if a friend offered you a harmful substance?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and responses during the class activity.",
+    "<b>Exercise</b>: The worksheet will be used to assess students' understanding of harmful substances and how to stay safe."
+  ],
+  "conclusion": [
+    "By understanding harmful substances and their effects, learners are empowered to make safe and healthy choices for their bodies and minds."
+  ]
+},
 
 // Lesson  3
+{
+  "title": "The Effects of Alcohol — Harmful Substances",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, March 13, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Harmful Substances — The Effects of Drinking Alcohol",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about alcohol as a harmful substance, its negative effects on health, how it can lead to violence and accidents, and the importance of making responsible choices to avoid alcohol.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures or illustrations showing the effects of alcohol",
+    "Workbooks"
+  ],
+  "objectives": [
+    "Define what alcohol is and identify it as a harmful substance.",
+    "Understand the negative effects alcohol can have on health.",
+    "Explain how alcohol can lead to violence and accidents.",
+    "Discuss how to make responsible choices to avoid alcohol."
+  ],
+  "rationale": [
+    "Teaching students about the dangers of alcohol helps them make informed and responsible choices, promoting their health, safety, and well-being."
+  ],
+  "methodology": [
+    "The lesson will use discussions, role-play, and workbook exercises to engage students and reinforce key concepts about alcohol and its harmful effects."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction — What is Alcohol?</b>:<br><br>Begin by asking the class if they have ever heard of alcohol.<br><br>Explain: 'Alcohol is a substance found in drinks like beer, wine, and spirits. It can affect how the brain and body work.'<br><br>Discuss that while some adults may drink alcohol, it can be harmful, especially for children.<br><br><b>Key Question:</b><br>What do you think happens when someone drinks too much alcohol?",
+      "<b>Part 2: Effects of Alcohol on Health</b>:<br><br>Explain that drinking too much alcohol can damage a person’s health.<br><br><b>Effects on health:</b><br>- Damage to the liver and brain.<br>- Weakens the immune system, making it harder to fight off illness.<br>- Can cause heart problems.<br><br>Use simple examples: 'Imagine your liver is like a filter — if you keep pouring dirty water through it, the filter stops working properly.'<br><br><b>Class discussion:</b><br>- Why is it important to have a healthy body?<br>- How can drinking alcohol stop us from being healthy?",
+      "<b>Part 3: Alcohol and Violence</b>:<br><br>Explain how alcohol can change a person's behavior:<br>- It can make people angry or aggressive.<br>- They may say or do things they regret.<br><br>Give an example: 'Sometimes, when people drink too much, they argue with family or friends.'<br><br><b>Role-play activity:</b><br>Ask for volunteers to act out a scenario — one person offers a pretend drink to another, and the other firmly says 'No, thank you.'<br><br>Reinforce the importance of standing up for yourself and making healthy choices.",
+      "<b>Part 4: Alcohol and Accidents</b>:<br><br>Explain that alcohol can make people clumsy or confused.<br><br><b>Examples of accidents caused by alcohol:</b><br>- Falling down.<br>- Car accidents if someone drinks and drives.<br><br><b>Ask:</b> 'Why is it dangerous to be around someone driving after drinking alcohol?'<br><br><b>Safety tip:</b><br>'Always tell a trusted adult if you feel unsafe because someone is drinking alcohol.'",
+      "<b>Part 5: Class Exercise</b>:<br><br><b>Instructions:</b><br>Complete the following activity in your workbooks:<br><br>1. Fill in the blanks:<br>Alcohol is a _______________ substance.<br>Drinking too much alcohol can cause _______________ and _______________.<br><br>2. True or False:<br>- Alcohol is good for children’s health. (False)<br>- Alcohol can cause accidents. (True)<br><br>3. Short Answer:<br>- Name two effects of alcohol on health.<br>- What would you do if someone offered you alcohol?<br><br><b>Bonus question:</b><br>Why is it important to make safe choices about alcohol?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and role-play activities.",
+    "<b>Workbook Exercise</b>: The class exercise will assess students’ understanding of alcohol’s effects on health, violence, and accidents."
+  ],
+  "conclusion": [
+    "Summarize the key points: alcohol can harm your health, cause violence, and lead to accidents.",
+    "Encourage students to talk to a trusted adult if they ever feel unsafe.",
+    "Remind them that making good choices keeps them and others safe."
+  ]
+},
+
 
 // Week 9
 // Lesson 1
+{
+  "title": "The Environment – Soil and the Importance of Water",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Soil – Importance of Water in the Soil",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson explores the role of water in soil, focusing on seed germination and photosynthesis. It emphasizes how water is essential for plant growth and survival.",
+  "materials": [
+    "Soil",
+    "Water",
+    "Seeds (e.g., beans)",
+    "Illustrations or videos of seed germination and photosynthesis",
+    "Diagrams of plant structures"
+  ],
+  "objectives": [
+    "Students will be able to explain the importance of water in the soil for seed germination and photosynthesis.",
+    "Students will understand how water supports plant growth and helps carry out essential processes.",
+    "Students will conduct a simple seed germination experiment to observe the effects of water on plant growth."
+  ],
+  "rationale": [
+    "Understanding the vital role of water in soil will help students recognize how it affects plant growth and survival, making them more aware of environmental conservation."
+  ],
+  "methodology": [
+    "The lesson will incorporate hands-on experiments, visual aids, and class discussions to demonstrate how water in the soil supports plant life."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Soil and Water</b>:<br><br>Begin by explaining the basic concept of soil as a mixture of minerals, organic matter, air, and water, which supports plant growth. Emphasize that water is essential for plant survival. Discuss how water helps retain nutrients and is necessary for various plant processes.<br><br>Discussion Questions:<br>What do you think happens when soil doesn't have enough water?<br>How do plants use water?",
+      "<b>Part 2: Water and Seed Germination</b>:<br><br>Explain that seed germination is the process by which a seed begins to grow into a new plant. Water activates enzymes in the seed, breaking down stored food for energy. Without water, seeds cannot sprout.<br><br>Key Points:<br>Water softens the seed coat, dissolves nutrients from the soil, and helps the seed take in oxygen. Show an illustration or video of seed germination to reinforce these concepts.",
+      "<b>Part 3: Water and Photosynthesis</b>:<br><br>Explain photosynthesis as the process by which plants use sunlight, carbon dioxide, and water to produce food. Water travels through the plant to the leaves, where it combines with carbon dioxide in the presence of sunlight to create glucose.<br><br>Key Points:<br>Water is necessary for photosynthesis. Without water, plants cannot produce food and will not grow. Use a simple diagram to demonstrate the process of photosynthesis.",
+      "<b>Part 4: The Role of Water in Soil and Plant Growth</b>:<br><br>Discuss how water in the soil is crucial not only for seed germination and photosynthesis but also for overall plant health. The balance of water and air in the soil is necessary for roots to absorb nutrients. Without water, plants cannot effectively transport nutrients, which leads to plant death.<br><br>Key Points:<br>Water in soil helps keep plants hydrated and nourished. Proper soil moisture is essential for healthy plant growth.",
+      "<b>Part 5: Exercise</b>:<br><br>Activity 1: Seed Germination Observation<br>Have students plant seeds in cups with soil and water them. Ask them to observe the growth of the seeds over the next week and record their observations.<br>Questions to Answer:<br>1. What happens to the seed when it gets enough water?<br>2. What would happen if the seed didn’t get any water?<br><br>Activity 2: Photosynthesis Quiz<br>Ask students to answer the following questions:<br>1. What are the three things a plant needs for photosynthesis?<br>2. Why is water important in photosynthesis?<br>3. Where does water travel in the plant after it is absorbed from the soil?<br><br>Group Discussion:<br>How do you think different weather conditions affect the water in the soil? What could happen if the soil doesn’t hold enough water?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the activities and class discussions.",
+    "<b>Exercise</b>: The seed germination activity and photosynthesis quiz will assess students' understanding of the lesson."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will have learned how important water is for soil, seed germination, and photosynthesis, and will understand how water is essential for plant growth."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Retention of Water in Soil",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Retention of Water in Soil",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the importance of water retention in soil and various techniques that can improve water retention for plant growth.",
+  "materials": [
+    "Pictures of different soil types",
+    "Samples of mulch, straw, and plastic sheets",
+    "Shading materials (trees, cloth, etc.)",
+    "Terracing models",
+    "Weeding tools"
+  ],
+  "objectives": [
+    "Students will understand the concept of water retention in soil.",
+    "Students will learn various methods to improve water retention in soil.",
+    "Students will appreciate the importance of water retention for plant growth and agriculture."
+  ],
+  "rationale": [
+    "Water retention is crucial for plant growth, especially in areas with inconsistent rainfall, and helps conserve water resources."
+  ],
+  "methodology": [
+    "The lesson will use explanations, visual aids, and practical demonstrations to show how different techniques help retain water in soil."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Water Retention in Soil</b>:<br><br>Water retention refers to the ability of soil to hold water, making it available for plants. Different soil types, like sandy, clay, and loamy soils, have varying water retention capacities.<br><br>Discussion Questions:<br>Why do you think some plants grow better in certain types of soil?<br>What happens to a plant when it doesn’t get enough water?<br><br>Explain that there are methods to improve water retention in soil.",
+      "<b>Part 2: Ways to Retain Water in Soil</b>:<br><br><b>1. Mulching:</b><br>Mulching involves covering the soil surface with materials like leaves, straw, plastic, or fabric. Mulch reduces evaporation, keeps the soil cool, and prevents weed growth, allowing water to stay longer in the soil.<br><br><b>2. Shading:</b><br>Shading refers to using plants, structures, or materials to reduce direct sunlight on the soil. Trees, shrubs, or shade cloths are examples of shading methods that help preserve soil moisture.<br><br><b>3. Terracing:</b><br>Terracing involves creating steps on sloped land to slow water flow, reduce soil erosion, and improve water absorption into the soil.<br><br><b>4. Weeding:</b><br>Weeds compete with plants for water, sunlight, and nutrients. Removing weeds ensures that crops have better access to water.<br><br><b>5. Intercropping:</b><br>Intercropping involves planting different crops together to reduce water evaporation and improve soil fertility.",
+      "<b>Part 3: Why Water Retention is Important</b>:<br><br>Retaining water in the soil ensures that plants get the moisture they need for growth, especially in areas with limited rainfall. It also conserves water, reduces the need for frequent watering, and protects the soil from erosion and nutrient loss.",
+      "<b>Part 4: Discussion and Reflection</b>:<br><br>Discussion Questions:<br>Which method do you think would be most useful in your local environment?<br>Why is it important to protect water in the soil for future generations?<br>What would happen to plants if water was not retained in the soil?",
+      "<b>Part 5: Exercise</b>:<br><br><b>Activity 1:</b> Class Discussion and Drawings: Ask students to draw a picture of a garden or farm where different water retention methods (mulching, shading, terracing, weeding, and intercropping) are used. They should label each method.<br><br><b>Activity 2:</b> Group Project – Water Retention Methods in Action: Divide the class into small groups. Assign each group one water retention method and ask them to research or perform a short skit on how their assigned method helps conserve water in the soil. They will present their findings to the class."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and their engagement in drawing and presentations.",
+    "<b>Exercise</b>: The drawings and group presentations will evaluate students' understanding of the water retention methods."
+  ],
+  "conclusion": [
+    "By learning about water retention methods, students will understand the importance of conserving water for plants and agriculture, and how different techniques can improve soil quality."
+  ]
+},
 
 // Lesson  3
+{
+  "title": "Demonstrating the Drainage Rates of Soils",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Environment – Soil",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "3",
+  "description": "This lesson explores the different drainage rates of clay, loamy, and sandy soils, helping students understand how water drains through different soil types.",
+  "materials": [
+    "Clay soil",
+    "Loamy soil",
+    "Sandy soil",
+    "Clear containers (plastic cups or jars)",
+    "Water",
+    "Measuring cup",
+    "Stopwatch",
+    "Labels for containers"
+  ],
+  "objectives": [
+    "Students will be able to explain the differences in drainage rates between clay, loamy, and sandy soils.",
+    "Students will perform an experiment to observe and record the drainage rates of different soil types.",
+    "Students will understand the importance of drainage for plant health."
+  ],
+  "rationale": [
+    "Understanding how different soil types affect water drainage is essential for growing plants and managing water resources."
+  ],
+  "methodology": [
+    "The lesson will use hands-on experiments to demonstrate the drainage rates of different soil types, followed by class discussions and analysis of results."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Soil Types</b>:<br><br>Begin the lesson by introducing the three main types of soil:<br><br>1. Clay Soil<br>2. Loamy Soil<br>3. Sandy Soil<br><br>Explain that soil type is determined by the size of its particles. Different soil types affect how water moves through them. These differences are crucial in understanding how plants grow and how water drains through the soil.<br><br>Clay Soil: Has very small particles that are tightly packed together. It holds water well but doesn’t allow water to pass through quickly.<br>Loamy Soil: A mixture of sand, silt, and clay, with good drainage and the ability to retain moisture. It is the ideal soil for most plants.<br>Sandy Soil: Has large particles that do not hold water well, so water drains quickly through it.",
+      "<b>Part 2: Importance of Drainage in Soils</b>:<br><br>Discuss why drainage is important for plants:<br><br>Too much water can cause plants to drown, as the roots cannot access enough oxygen.<br>Too little water means the plants will dry out and cannot grow properly.<br>Good drainage ensures that water passes through the soil at the right rate, allowing roots to absorb the water they need.",
+      "<b>Part 3: Demonstrating the Drainage Rates</b>:<br><br><b>Activity: Testing Soil Drainage Rates</b><br><br>Materials needed:<br>- Three clear containers (e.g., plastic cups or jars)<br>- Clay soil, loamy soil, and sandy soil (small quantities)<br>- Water<br>- Measuring cup or container for water<br>- Stopwatch or timer<br>- Labels for each container<br><br><b>Steps for the Experiment:</b><br><br>1. Prepare the Containers:<br>Label each container with the type of soil it will contain (Clay, Loamy, and Sandy).<br>Fill each container with the same amount of soil, making sure to pack each type of soil loosely, not too compacted.<br><br>2. Water the Soil:<br>Measure the same amount of water (e.g., 100 ml) and pour it onto each type of soil at the same time. Start the stopwatch once you begin pouring the water.<br><br>3. Observe and Record:<br>Observe how the water moves through each soil type. Note the time it takes for the water to fully drain through each soil.<br><br>4. Compare Results:<br>Discuss the results with the students:<br>- Clay Soil: Water should take the longest to drain because of the small particles and poor drainage.<br>- Loamy Soil: Water should drain at a moderate speed, as loam has the ideal balance for plant growth.<br>- Sandy Soil: Water should drain the fastest because of the large particles and large gaps between them.",
+      "<b>Part 4: Explanation of Results</b>:<br><br>After the experiment, discuss why each soil type drained at different rates:<br><br>Clay Soil: Has fine particles that are closely packed, which makes it hard for water to move through.<br>Loamy Soil: A balance of sand, silt, and clay, so water drains at an ideal rate—neither too fast nor too slow.<br>Sandy Soil: Has larger particles with larger gaps between them, allowing water to drain quickly.<br><br><b>Key Points to Highlight:</b><br><br>Drainage is important for plant health. Too slow or too fast drainage can negatively affect plant roots.<br>Loamy soil is the most ideal for most plants because it retains water while allowing excess water to drain away.",
+      "<b>Part 5: Exercise</b>:<br><br><b>Exercise 1: Observing Drainage Rates</b><br><br>1. Question: Which soil took the longest to drain? Why do you think this is the case?<br>2. Question: Which soil would be best for growing plants that need a lot of water? Explain your answer.<br>3. Question: If you were planting a garden and had to choose between clay, loamy, or sandy soil, which one would you choose and why?<br><br><b>Exercise 2: Group Discussion</b><br>Discuss how different climates might influence the type of soil you'd want to plant in. Ask the students: How would the soil type affect water conservation during drought?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the experiment and class discussion.",
+    "<b>Exercise</b>: The exercise questions will assess students' understanding of the drainage rates of soils and their application in plant growth."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will have a clear understanding of how the drainage rates of different soils affect plant growth and why proper drainage is essential for healthy plants."
+  ]
+},
+
 
 // Week 10
 // Lesson 1
+{
+  "title": "The Environment – Fertilizers",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Fertilizers – Organic and Inorganic Fertilizers, and Preparing Compost Manure",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the different types of fertilizers, their importance in plant growth, and how to prepare compost manure.",
+  "materials": [
+    "Pictures of organic and inorganic fertilizers",
+    "Samples of compost materials (dry leaves, vegetable peels, etc.)",
+    "Containers for demonstration",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Explain the difference between organic and inorganic fertilizers.",
+    "Understand the importance of fertilizers in plant growth.",
+    "Demonstrate how to prepare compost manure."
+  ],
+  "rationale": [
+    "Understanding fertilizers helps students learn how plants receive nutrients, promoting sustainable farming and environmental care."
+  ],
+  "methodology": [
+    "The lesson will use discussions, comparisons, and a practical compost demonstration to explain fertilizers and their preparation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Fertilizers</b>:<br><br>Start by asking students a few questions to spark their curiosity:<br>Have you ever seen someone adding something to the soil when planting crops or flowers?<br>Why do you think they do that?<br><br>Explain that plants need nutrients to grow strong and healthy. Sometimes, the soil does not have enough nutrients, so farmers and gardeners use fertilizers to add those nutrients back into the soil.<br><br>Define fertilizers as substances added to the soil to provide nutrients for plants.",
+      "<b>Part 2: Types of Fertilizers</b>:<br><br>1. <b>Organic Fertilizers:</b><br>Explain that organic fertilizers come from natural sources — they are made from plants, animals, or minerals. These fertilizers release nutrients slowly and improve soil structure.<br><br><b>Examples:</b><br>Compost (decayed plants and food waste)<br>Manure (animal droppings)<br>Bone meal (ground animal bones)<br><br>2. <b>Inorganic Fertilizers:</b><br>Explain that inorganic fertilizers, also called synthetic or chemical fertilizers, are made by humans in factories. These fertilizers release nutrients quickly and are often used for faster plant growth.<br><br><b>Examples:</b><br>Ammonium nitrate<br>Urea<br>NPK fertilizers (contain Nitrogen, Phosphorus, and Potassium)<br><br><b>Comparison:</b><br>| Organic Fertilizers     | Inorganic Fertilizers     |<br>|------------------------|--------------------------|<br>| Natural and eco-friendly| Man-made, can harm the environment if overused |<br>| Slow nutrient release   | Fast nutrient release     |<br>| Improves soil quality   | May damage soil over time |",
+      "<b>Part 3: Importance of Fertilizers</b>:<br><br>Discuss why fertilizers are important:<br>They help plants grow faster and healthier.<br>They replace nutrients lost when plants are harvested.<br>Organic fertilizers also improve the soil structure.<br><br>Ask the class:<br>What might happen if we don’t use fertilizers in poor soil?<br>Can using too much fertilizer cause problems?<br><br>Explain that while fertilizers are helpful, using too many can pollute water and harm plants. Balance is key.",
+      "<b>Part 4: Demonstration – Preparing Compost Manure</b>:<br><br><b>What is compost manure?</b><br>Compost manure is an organic fertilizer made by allowing plant and food waste to decay naturally.<br><br><b>Steps to prepare compost manure:</b><br>1. Find a shaded spot — Compost should be made under the shade to prevent it from drying out too quickly.<br><br>2. Create layers:<br>First layer: Dry leaves, straw, or small sticks (for air circulation).<br>Second layer: Green plant material like vegetable peels or grass clippings.<br>Third layer: Animal manure or old compost to speed up decomposition.<br>Fourth layer: A thin layer of soil to add microorganisms that help break down the waste.<br><br>3. Water the pile — Sprinkle water to keep the pile moist but not soggy.<br><br>4. Turn the pile regularly — Every week, mix the pile to help it decompose evenly.<br><br>5. Wait for 6–8 weeks — The compost is ready when it looks dark and crumbly and smells like soil.<br><br><b>Class Demonstration:</b><br>Show a small model of a compost pile using a container.<br>Let students add layers (dry leaves, vegetable scraps, etc.).<br>Discuss how to maintain the compost.",
+      "<b>Part 5: Exercise</b>:<br><br><b>Activity 1: Compare Organic and Inorganic Fertilizers</b><br>1. What is the main difference between organic and inorganic fertilizers?<br>2. Name two examples of organic fertilizers.<br>3. Name two examples of inorganic fertilizers.<br>4. Why do farmers use fertilizers?<br><br><b>Activity 2: Compost Observation</b><br>Ask students to start their own compost pile at home with permission from their parents or guardians.<br>What materials did they use?<br>How often will they turn the pile?<br>How long will it take to become compost?<br><br><b>Group Discussion:</b><br>Why is composting good for the environment?<br>How can we encourage people to use more organic fertilizers?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and the compost demonstration.",
+    "<b>Exercise</b>: The activities will test students' understanding of the differences between organic and inorganic fertilizers, the importance of fertilizers, and compost preparation."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to explain the difference between organic and inorganic fertilizers, understand the importance of fertilizers in plant growth, and demonstrate how to prepare compost manure."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "The Environment – Importance of Maintaining a Supply of Composted Materials",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Wednesday, March 13, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Environment",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students the importance of maintaining a supply of composted materials, emphasizing how compost provides a continuous supply of manure to plants for healthy growth.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of compost piles and healthy plants",
+    "Examples of organic waste (leaves, vegetable peels)",
+    "Compost bin (if available)"
+  ],
+  "objectives": [
+    "Students will be able to explain what compost is and how it is formed.",
+    "Students will understand how compost helps plants by providing essential nutrients.",
+    "Students will learn why it is important to maintain a continuous supply of compost.",
+    "Students will explore the steps involved in creating compost at home or school.",
+    "Students will develop a simple compost plan for their school or home garden."
+  ],
+  "rationale": [
+    "Maintaining a supply of composted materials is crucial for soil health and plant growth. Teaching students about compost empowers them to contribute to sustainable gardening practices, reducing waste and supporting the environment."
+  ],
+  "methodology": [
+    "The lesson will use questioning, explanations, discussions, and group activities to engage students and reinforce key concepts about compost and its importance."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Compost and Composted Materials</b>:<br><br>Begin with a question:<br>Have you ever seen a pile of leaves, food scraps, or grass clippings in a garden?<br>What do you think happens to those materials over time?<br><br>Explanation:<br>Explain that compost is made from natural materials such as food scraps (like vegetable peels), leaves, grass, and plant cuttings. These materials break down over time with the help of tiny organisms, turning into dark, rich soil-like material called compost.<br><br>Key points:<br>Compost is nature’s way of recycling organic waste.<br>It creates a rich, natural fertilizer for plants.",
+      "<b>Part 2: The Importance of Compost for Plants</b>:<br><br>Ask:<br>Why do you think plants need compost or manure?<br><br>Explanation:<br>Explain that compost adds important nutrients to the soil, which helps plants grow stronger and healthier. Without these nutrients, plants may struggle to grow.<br><br>Key points:<br>Compost contains nutrients like nitrogen, phosphorus, and potassium that plants need.<br>It improves soil structure, helping the soil hold water and air better.<br>Healthy soil leads to healthy plants.",
+      "<b>Part 3: Why Maintain a Continuous Supply of Compost</b>:<br><br>Ask:<br>What happens if we stop adding compost to the soil?<br><br>Explanation:<br>Plants use up the nutrients in the soil as they grow. If we don't keep adding compost, the soil becomes 'tired' and less fertile. Maintaining a constant supply of composted materials ensures that plants always have the nutrients they need.<br><br>Key points:<br>A continuous supply of compost keeps the soil fertile.<br>It acts as a natural and cost-effective way to feed plants.<br>Compost reduces the need for chemical fertilizers, helping the environment.",
+      "<b>Part 4: How to Create and Use Compost</b>:<br><br>Explain:<br>Encourage students to think about how they can make compost at home or school.<br><br>Steps to make compost:<br>1. Collect organic waste like fruit peels, vegetable scraps, leaves, and grass.<br>2. Place the waste in a compost bin or a pile in a corner of the garden.<br>3. Keep the pile moist but not too wet.<br>4. Turn the pile regularly to help it break down faster.<br>5. After a few weeks or months, the compost will be dark and crumbly—ready to add to the soil!",
+      "<b>Part 5: Exercise</b>:<br><br><b>Activity 1: Create a Compost Plan</b><br>In groups, ask students to create a simple compost plan for their school or home garden. They should list:<br>- What materials they will collect for compost (e.g., leaves, vegetable peels)<br>- Where they will place the compost pile<br>- How they will take care of the compost pile<br><br><b>Activity 2: Quick Quiz</b><br>1. What is compost made of?<br>2. Name three nutrients found in compost.<br>3. Why is it important to maintain a continuous supply of compost?<br>4. How does compost help the soil?<br>5. What happens if you stop adding compost to the soil?<br><br><b>Class Discussion</b>:<br>Can we use compost for all plants?<br>How can using compost help reduce waste in our homes?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and group work.",
+    "<b>Quiz</b>: The quick quiz will assess students' understanding of compost and its importance."
+  ],
+  "conclusion": [
+    "By learning about compost and its role in keeping soil healthy, students will understand the importance of maintaining a supply of composted materials. They will be encouraged to create their own compost at home or school, supporting plant growth and reducing organic waste."
+  ]
+},
 
 // Lesson  3
-
+{
+  "title": "The Environment – Chemical Fertilizers in Agriculture",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Environment",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the advantages and disadvantages of using chemical fertilizers in agriculture.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of farms using fertilizers",
+    "Flashcards with key terms (nutrients, leaching, etc.)"
+  ],
+  "objectives": [
+    "Students will be able to explain what chemical fertilizers are.",
+    "Students will identify the advantages of using chemical fertilizers in agriculture.",
+    "Students will discuss the disadvantages of using chemical fertilizers.",
+    "Students will compare chemical and organic fertilizers.",
+    "Students will express their own opinions on the use of chemical fertilizers."
+  ],
+  "rationale": [
+    "Understanding the advantages and disadvantages of chemical fertilizers helps students make informed decisions about agricultural practices and environmental sustainability."
+  ],
+  "methodology": [
+    "The lesson will use discussions, real-life examples, and interactive activities to explore chemical fertilizers and their effects."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Chemical Fertilizers</b>:<br><br>Start with a question:<br><br>What do farmers use to help plants grow faster and healthier?<br><br>Explain that fertilizers are substances added to the soil to supply nutrients that plants need to grow. There are two main types of fertilizers: organic fertilizers (from natural sources like compost) and chemical fertilizers (made from artificial substances).<br><br>Chemical fertilizers contain nutrients like nitrogen, phosphorus, and potassium, which help plants grow quickly and produce better crops.<br><br><b>Key point:</b> Farmers often use chemical fertilizers to boost plant growth, especially when they want a large harvest.",
+      "<b>Part 2: Advantages of Chemical Fertilizers</b>:<br><br>Discuss the benefits of using chemical fertilizers.<br><br><b>1. Provide Required Nutrients:</b><br>Chemical fertilizers give plants the exact nutrients they need (like nitrogen for leafy growth or phosphorus for strong roots).<br>This makes crops grow faster and healthier.<br><br><b>2. Quick Absorption:</b><br>These fertilizers dissolve quickly in water and are easily absorbed by plant roots.<br>This means plants can use the nutrients almost immediately.<br><br><b>Example:</b> A farmer wanting a quick boost for his maize crop can use a nitrogen-rich fertilizer, and within days, the plants will look greener and stronger.",
+      "<b>Part 3: Disadvantages of Chemical Fertilizers</b>:<br><br>Explain the downsides of using chemical fertilizers.<br><br><b>1. Spoil Soil Quality:</b><br>Over time, using too much fertilizer can damage the natural balance of the soil.<br>This can reduce the soil’s ability to hold water and nutrients.<br><br><b>2. Leaching:</b><br>When it rains, extra fertilizer can wash away from the soil into nearby rivers and lakes.<br>This can harm plants and animals in the water.<br><br><b>3. High Cost:</b><br>Chemical fertilizers are expensive.<br>Many small farmers struggle to afford them, making it harder for them to grow healthy crops.<br><br><b>Example:</b> A farmer using too much fertilizer might notice that after a few years, the soil becomes dry and hard, making it harder for plants to grow without adding even more fertilizer.",
+      "<b>Part 4: Comparing Chemical and Organic Fertilizers</b>:<br><br>Briefly compare chemical fertilizers to organic fertilizers:<br><br><b>Class discussion:</b><br>Why do you think some farmers choose chemical fertilizers even though they have disadvantages?",
+      "<b>Part 5: Exercise</b>:<br><br><b>Activity 1: Sorting Game</b><br>Prepare cards with different phrases (like “Quick absorption,” “Spoils soil,” “Improves soil health,” etc.).<br>Have students sort the cards into two columns: Advantages and Disadvantages of chemical fertilizers.<br><br><b>Activity 2: Short Quiz</b><br>1. Name two advantages of chemical fertilizers.<br>2. What does leaching mean?<br>3. Why are chemical fertilizers sometimes bad for the soil?<br>4. Which is more expensive: organic or chemical fertilizers?<br>5. Why do farmers still use chemical fertilizers despite their disadvantages?<br><br><b>Class discussion:</b><br>If you were a farmer, would you use chemical fertilizers or organic ones? Why?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Quiz</b>: The short quiz will assess students' understanding of chemical fertilizers' advantages and disadvantages."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will understand the benefits and drawbacks of chemical fertilizers, enabling them to critically think about agricultural practices and their environmental impact."
+  ]
+}
 ];
