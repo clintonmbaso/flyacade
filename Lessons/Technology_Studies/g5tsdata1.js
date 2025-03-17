@@ -837,10 +837,159 @@ const lessonPlans67a = [
 
 // Week 8
 // Lesson 1
+{
+  "title": "Creating Lists and Text Manipulation in Microsoft Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 17, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Creating Lists and Text Manipulation in Microsoft Word",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "Teach students how to create bulleted and numbered lists in Microsoft Word, introduce text manipulation techniques such as copying, cutting, and pasting, and familiarize students with the Find and Replace function.",
+  "materials": [
+    "Computers with Microsoft Word",
+    "Projector and screen",
+    "Printed handouts with exercises"
+  ],
+  "objectives": [
+    "Teach students how to create bulleted and numbered lists in Microsoft Word.",
+    "Introduce students to text manipulation techniques such as copying, cutting, and pasting.",
+    "Familiarize students with the Find and Replace function in Word."
+  ],
+  "rationale": [
+    "Understanding how to create lists and manipulate text in Microsoft Word helps students organize information efficiently and improves their document editing skills."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, guided practice, and hands-on exercises to help students master list creation and text manipulation in Microsoft Word."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Bulleted and Numbered Lists</b>:<br><br>Discussion & Explanation:<br>Ask students why they think lists are important (e.g., organizing ideas, writing shopping lists, making outlines).<br>Explain that Microsoft Word allows users to create two types of lists:<br>1. Bulleted Lists – Used when order doesn’t matter (e.g., a list of groceries).<br>2. Numbered Lists – Used when order is important (e.g., steps in a recipe).<br><br>Demonstration:<br>1. Creating a Bulleted List:<br>- Open Microsoft Word.<br>- Type a few items (e.g., Apple, Banana, Orange).<br>- Select the text and click on the 'Bullets' button in the toolbar.<br>- Show how to change bullet styles by clicking the small arrow next to the 'Bullets' button.<br><br>2. Creating a Numbered List:<br>- Type a sequence of steps (e.g., Wake up, Brush teeth, Eat breakfast).<br>- Select the text and click on the 'Numbering' button.<br>- Demonstrate different numbering styles (1,2,3 or a,b,c).",
+      "<b>Part 2: Copying, Cutting, and Pasting Text</b>:<br><br>Discussion & Explanation:<br>Explain that copying allows users to duplicate text without removing it, while cutting removes text from its original location. Pasting places copied or cut text in a new location.<br>Mention shortcut keys:<br>- Ctrl + C (Copy)<br>- Ctrl + X (Cut)<br>- Ctrl + V (Paste)<br><br>Demonstration:<br>1. Type a sentence: 'Microsoft Word is a useful tool for writing.'<br>2. Select 'Microsoft Word' and press Ctrl + C (Copy).<br>3. Click in another part of the document and press Ctrl + V (Paste).<br>4. Now select the word 'writing' and press Ctrl + X (Cut).<br>5. Click in another part of the document and press Ctrl + V (Paste).",
+      "<b>Part 3: Using the Find and Replace Function</b>:<br><br>Discussion & Explanation:<br>Explain that the Find function helps locate specific words in a document.<br>The Replace function allows users to change one word to another throughout the document.<br><br>Demonstration:<br>1. Type a paragraph containing the word 'dog' multiple times.<br>2. Press Ctrl + F to open the 'Find' feature and search for 'dog.'<br>3. Press Ctrl + H to open 'Find and Replace.'<br>4. Type 'dog' in the 'Find' box and 'cat' in the 'Replace' box.<br>5. Click 'Replace All' and observe the changes.",
+      "<b>Part 4: Class Discussion & Summary</b>:<br><br>Ask students to summarize what they have learned.<br>Discuss real-life situations where these functions are useful (e.g., making reports, organizing information).<br>Answer any student questions.",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions:<br>1. Open Microsoft Word and create a bulleted list of your five favorite foods.<br>2. Create a numbered list of three things you do after school.<br>3. Type the sentence: 'Technology makes learning fun.'<br>- Copy the word 'Technology' and paste it at the end of the sentence.<br>- Cut the word 'fun' and paste it before 'makes.'<br>4. Type a short paragraph using the word 'happy' three times. Use the Find and Replace function to change 'happy' to 'joyful.'<br><br>Homework:<br>Practice making a shopping list in Microsoft Word using both bullets and numbers."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the lesson and practical exercises.",
+    "<b>Exercise</b>: Students will complete the in-class exercises to demonstrate their understanding of list creation, text manipulation, and the Find and Replace function."
+  ],
+  "conclusion": [
+    "By learning how to create lists, manipulate text, and use the Find and Replace function, students will develop essential skills for organizing and editing documents effectively."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Inserting and Formatting Tables in Microsoft Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Working with Tables in Microsoft Word",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to inserting and formatting tables in Microsoft Word, helping them organize and present information neatly.",
+  "materials": [
+    "Computers with Microsoft Word installed",
+    "Projector for demonstration",
+    "Worksheet with table formatting exercises"
+  ],
+  "objectives": [
+    "Students will learn how to insert tables into a Microsoft Word document.",
+    "Students will format tables by adjusting rows, columns, and cells.",
+    "Students will modify table elements such as borders, shading, and alignment.",
+    "Students will apply table styles and customize them."
+  ],
+  "rationale": [
+    "Understanding how to create and format tables in Microsoft Word is essential for organizing and presenting information clearly in documents."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, hands-on activities, and guided practice to ensure students understand table formatting in Microsoft Word."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Tables (10 minutes)</b>:<br><br>What is a table?<br>A table is a grid of rows and columns used to organize and present information neatly.<br><br>Why use tables in Microsoft Word?<br>Tables make documents look more organized.<br>They help compare data easily.<br>They are useful for creating schedules, lists, and reports.<br><br>Where are tables used?<br>In school timetables<br>Price lists<br>Menus<br>Data entry forms<br><br>Demonstration:<br>Open Microsoft Word and show a blank document.<br>Display an example of a table used in a real-world scenario.",
+      "<b>Part 2: Inserting a Table (10 minutes)</b>:<br><br>Step-by-step guide to inserting a table:<br>Open Microsoft Word.<br>Click on the Insert tab.<br>Select Table and choose the number of rows and columns needed.<br>Click to insert the table into the document.<br><br>Practice Activity:<br>Students will open Microsoft Word and insert a table with 4 rows and 3 columns.<br><br>Common mistakes to avoid:<br>Inserting too many rows/columns by mistake.<br>Not clicking inside the table before trying to edit it.",
+      "<b>Part 3: Formatting the Table (15 minutes)</b>:<br><br>Adjusting Table Size:<br>Click inside the table.<br>Drag the corner handles to resize the table.<br>Use the Table Layout tab to adjust row height and column width.<br><br>Adding and Removing Rows/Columns:<br>Click inside a row or column.<br>Use the Layout tab to insert or delete rows/columns as needed.<br><br>Merging and Splitting Cells:<br>Select multiple cells and click Merge Cells to combine them.<br>Click Split Cells to divide a single cell into multiple ones.<br><br>Changing Table Borders and Shading:<br>Go to the Table Design tab.<br>Change border styles, colors, and thickness.<br>Add shading to make the table more attractive.<br><br>Practice Activity:<br>Students will adjust the size of their tables, add a row, and change the border color.",
+      "<b>Part 4: Applying Table Styles (10 minutes)</b>:<br><br>Using Built-in Table Styles:<br>Select the table and go to Table Design.<br>Click on a Table Style to apply it instantly.<br><br>Customizing Tables:<br>Change font color and size inside the table.<br>Align text to the left, right, or center.<br>Add bold or italic formatting to important data.<br><br>Practice Activity:<br>Students will apply a style to their tables and customize it by changing font size and text alignment.",
+      "<b>Part 5: Exercise (Final 10 minutes)</b>:<br><br>Task:<br>Create a table with 5 rows and 4 columns.<br>Fill in the table with the following information:<br><br>Format the table by:<br>Making the header row bold.<br>Changing the table border color.<br>Applying a shaded background to the header row.<br>Aligning text to the center in all cells.<br><br>Wrap-Up Discussion:<br>Ask students to share their completed tables.<br>Review any challenges they faced.<br>Recap key takeaways from the lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and participation during table formatting activities.",
+    "<b>Exercise</b>: The final table formatting task will be reviewed to ensure students correctly apply the formatting techniques."
+  ],
+  "conclusion": [
+    "By learning how to insert and format tables in Microsoft Word, students will be able to present information in an organized and visually appealing manner."
+  ],
+  "task": [
+    "Create a weekly class schedule using a table in Microsoft Word.",
+    "Apply formatting techniques learned in class."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Inserting and Formatting Graphics in Microsoft Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Inserting and Formatting Graphics in Microsoft Word",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students how to insert and format graphics, including pictures, shapes, and SmartArt, in Microsoft Word.",
+  "materials": [
+    "Computers with Microsoft Word installed",
+    "Projector or screen for demonstration",
+    "Sample documents with and without graphics"
+  ],
+  "objectives": [
+    "Insert and format graphics, including pictures, shapes, and SmartArt, in Microsoft Word.",
+    "Apply different formatting options to enhance document design.",
+    "Demonstrate their understanding by practicing with hands-on activities."
+  ],
+  "rationale": [
+    "Understanding how to use graphics in Microsoft Word enhances document presentation skills and allows students to create visually appealing documents."
+  ],
+  "methodology": [
+    "The lesson will include explanations, demonstrations, hands-on practice, and discussions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Graphics in Microsoft Word</b>:<br><br>Ask students: What do you think makes a document look attractive?<br>Explain that graphics (pictures, shapes, and SmartArt) help improve the appearance of a document.<br>Show examples of documents with and without graphics to highlight the difference.<br>Discuss the different types of graphics available in Microsoft Word:<br><ul><li>Pictures: Images from the computer or online.</li><li>Shapes: Basic drawing elements like circles, squares, arrows, and more.</li><li>SmartArt: Pre-designed graphic organizers for presenting information visually.</li></ul><br>Demonstration:<br>Open Microsoft Word and show students how to navigate to the Insert tab.<br>Point out the Pictures, Shapes, and SmartArt options.",
+      "<b>Part 2: Inserting Graphics in Microsoft Word</b>:<br><br>Inserting Pictures:<br>Demonstrate how to insert a picture:<br><ul><li>Click Insert → Pictures → Choose a picture from the computer or online.</li></ul><br>Show how to resize and move the picture.<br><br>Inserting Shapes:<br>Demonstrate how to insert a shape:<br><ul><li>Click Insert → Shapes → Choose a shape and draw it on the document.</li></ul><br>Show how to change the shape's color and size.<br><br>Inserting SmartArt:<br>Demonstrate how to insert SmartArt:<br><ul><li>Click Insert → SmartArt → Choose a category (e.g., Process, Cycle, Hierarchy).</li></ul><br>Explain that SmartArt is useful for organizing ideas visually.",
+      "<b>Part 3: Formatting Graphics in Microsoft Word</b>:<br><br>Formatting Pictures:<br>Show how to adjust picture settings using the Picture Format tab.<br>Demonstrate cropping, adding borders, and applying effects.<br><br>Formatting Shapes:<br>Show how to change shape color, outline, and add text inside a shape.<br>Demonstrate Shape Styles and how to add 3D effects.<br><br>Formatting SmartArt:<br>Show how to modify SmartArt styles, colors, and text.<br>Demonstrate how to add new shapes to SmartArt.",
+      "<b>Part 4: Best Practices for Using Graphics</b>:<br><br>Discuss the importance of not overloading a document with too many graphics.<br>Explain how properly formatted graphics can help convey information more effectively.<br>Encourage students to use high-quality images for clarity.",
+      "<b>Part 5: Hands-on Exercise</b>:<br><br>Task:<br><ul><li>Open a new Microsoft Word document.</li><li>Insert:<ul><li>One picture of their choice.</li><li>One shape (e.g., a rectangle or arrow).</li><li>One SmartArt graphic (e.g., a cycle diagram).</li></ul></li><li>Format the graphics:<ul><li>Resize and move the picture.</li><li>Change the shape’s color and add text inside it.</li><li>Modify the SmartArt design and add at least three items.</li></ul></li><li>Save the document as Graphics_Practice.docx and submit it.</li></ul>"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during demonstrations and hands-on activities.",
+    "<b>Practical Task</b>: Students will be assessed based on their ability to correctly insert and format pictures, shapes, and SmartArt in their Word documents."
+  ],
+  "conclusion": [
+    "Review the key steps of inserting and formatting graphics.",
+    "Ask a few students to share their completed work.",
+    "Answer any remaining questions.",
+    "Assign a follow-up task: Practice inserting and formatting more graphics at home."
+  ]
+},
 
 // Week 9
 // Lesson 1
