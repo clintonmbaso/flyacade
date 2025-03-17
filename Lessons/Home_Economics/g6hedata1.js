@@ -513,5 +513,476 @@ const lessonPlans51a = [
   ]
 },
 
+// Week 7
+// Lesson 1
+{
+  "title": "Cooking Methods — Frying",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "[Insert Date]",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Cooking Methods — Frying",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students about frying as a cooking method, its different types, suitable foods for frying, and safety measures during the process.",
+  "materials": [
+    "Pictures of foods",
+    "Frying pan",
+    "Oil",
+    "Eggs",
+    "Potatoes",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Describe what frying is and its different types.",
+    "Identify foods that are suitable for frying.",
+    "Demonstrate how to fry different foods safely."
+  ],
+  "rationale": [
+    "Understanding frying helps students learn practical cooking skills and basic kitchen safety, preparing them for independent living."
+  ],
+  "methodology": [
+    "The lesson will use explanations, class discussions, demonstrations, and student activities to enhance understanding of frying."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>1. Greet the class and briefly review what cooking means.<br>2. Ask students: “Can anyone tell me a way we cook food at home?”<br>3. Introduce the topic: Today, we are learning about a special cooking method called frying.<br>4. Write the word 'Frying' on the board and explain: Frying is a method of cooking food in hot oil or fat.<br>5. Tell students they will learn the types of frying, foods we can fry, and how to fry safely.",
+      "<b>Part 2: Explanation of Frying and its Types (15 minutes)</b>:<br><br>1. What is Frying? Frying is cooking food using hot oil or fat. It helps food become crispy and golden brown.<br>2. Types of Frying:<br>a) Shallow Frying: Uses a small amount of oil in a frying pan. Food is cooked on one side, then flipped to cook the other side. Examples: Pancakes, eggs, sausages.<br>b) Deep Frying: Uses a large amount of hot oil. Food is fully submerged in oil until it cooks evenly. Examples: Chips (fries), chicken nuggets, fish fingers.<br><br><b>Class Discussion:</b><br>Ask: Which type of frying do you see most at home?",
+      "<b>Part 3: Suitable Foods for Frying (10 minutes)</b>:<br><br>1. Explain that not all foods can be fried.<br>2. List suitable foods for frying:<br>Shallow Frying: eggs, pancakes, vegetables.<br>Deep Frying: potatoes, chicken, fish.<br>3. Highlight safety tips:<br>- Use dry foods — wet food can cause oil to splatter.<br>- Be careful when adding food to hot oil — do it slowly and gently.<br><br><b>Activity:</b><br>Show pictures of different foods and ask students: Is this food good for frying? If yes, should it be shallow or deep fried?",
+      "<b>Part 4: Demonstration — Frying Different Foods (15 minutes)</b>:<br><br>1. Prepare simple ingredients (with school’s permission and safety measures).<br>2. Demonstrate how to shallow fry an egg:<br>- Heat the pan.<br>- Add a small amount of oil.<br>- Crack the egg into the pan.<br>- Fry for a minute and flip.<br>3. Explain each step clearly, emphasizing safety.<br>4. Let volunteers (1-2 students) try frying under supervision.<br>5. Remind the class of the differences between shallow and deep frying.",
+      "<b>Part 5: Exercise (Homework or Classwork — 10 minutes)</b>:<br><br>Instructions: Answer the following questions in your notebooks:<br>1. What is frying?<br>2. Name the two types of frying and explain the difference between them.<br>3. Give three examples of foods suitable for shallow frying.<br>4. List two safety tips to remember when frying food.<br>5. Would you use shallow or deep frying for cooking fish fingers? Why?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and their ability to identify frying methods and suitable foods.",
+    "<b>Exercise</b>: The written exercise will assess students’ understanding of frying, its types, and safety tips."
+  ],
+  "conclusion": [
+    "Recap what frying is, its types, and foods that can be fried.",
+    "Encourage students to observe how food is cooked at home and ask their parents or guardians about frying.",
+    "Remind them to always cook with adult supervision."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Cooking Methods — Stewing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, March 11, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Cooking Methods — Stewing",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of stewing, focusing on defining stewing, identifying suitable foods, explaining the process, and giving examples of stewed dishes.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of stewed dishes",
+    "Small pot and ingredients for a simple fruit stew"
+  ],
+  "objectives": [
+    "Students will be able to describe what stewing is.",
+    "Students will identify suitable foods for stewing.",
+    "Students will explain how to stew different foods.",
+    "Students will give examples of stewed dishes like vegetable stew, fruit stew, and meat stew."
+  ],
+  "rationale": [
+    "Understanding stewing helps students learn a basic cooking method that enhances flavor, softens tough foods, and retains nutrients, providing them with valuable life skills."
+  ],
+  "methodology": [
+    "The lesson will use discussions, explanations, and a simple cooking demonstration to teach stewing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Stewing</b>:<br><br>Class Discussion:<br>Begin by asking the class: 'Have you ever eaten a dish where food was slowly cooked in a pot with some liquid?'<br><br>Introduce the concept of stewing:<br>Stewing is a slow, moist cooking method where food is cut into small pieces and cooked in a small amount of liquid (like water, broth, or juice) over low heat until tender.<br><br>Key Points:<br>The liquid used can be water, broth, milk, or fruit juice.<br>The pot is usually covered to trap steam and help the food cook evenly.",
+      "<b>Part 2: Identifying Suitable Foods for Stewing</b>:<br><br>Class Discussion:<br>Ask: 'What foods do you think can be cooked using the stewing method?'<br><br>List the following foods on the board and discuss why they are suitable for stewing:<br>Vegetables: carrots, potatoes, onions<br>Fruits: mulberries, lemons, oranges (used in making jam or marmalade)<br>Meat: beef, chicken, fish<br>Legumes: beans, lentils<br><br>Key Point: Foods suitable for stewing are usually tougher foods that need time and moisture to soften.",
+      "<b>Part 3: Stewing Different Foods</b>:<br><br>Explanation:<br>Stewing can be done with a variety of ingredients.<br><br>Vegetable stew: includes carrots, potatoes, and onions cooked in broth.<br>Fruit stew: fruits like mulberries or oranges are slowly cooked with sugar and water to make jams or marmalades.<br>Meat stew: tougher cuts of meat (like beef or mutton) are cooked slowly with spices and vegetables.<br>Bean stew: dried beans are soaked, then simmered with seasonings.<br><br>Demonstration (if possible):<br>Show a simple fruit stew preparation — boiling pieces of orange with sugar and water.<br>Emphasize using small amounts of liquid and keeping the lid on the pot.",
+      "<b>Part 4: Benefits of Stewing</b>:<br><br>Class Discussion:<br>Why might someone choose to stew their food?<br><br>Benefits:<br>Softens tough foods: Great for meats and hard vegetables.<br>Retains nutrients: Since the liquid is not drained, vitamins and minerals stay in the dish.<br>Enhances flavor: The slow cooking allows flavors to blend.<br>Saves money: You can use cheaper cuts of meat and make them tender.",
+      "<b>Part 5: Exercise — Let’s Practice!</b>:<br><br>Instructions:<br>Answer the following questions in your notebooks:<br><br>1. Define stewing in your own words.<br>2. List four foods that are suitable for stewing.<br>3. Name three types of stews and their main ingredients.<br>4. Why do we use a small amount of liquid when stewing?<br>5. Explain two benefits of stewing food.<br><br>Bonus Activity:<br>Imagine you are making a stew at home. Write down the ingredients you would use and the steps you would follow."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and their understanding during the demonstration.",
+    "<b>Exercise</b>: The 5-question exercise will evaluate students’ knowledge of stewing, suitable foods, and its benefits."
+  ],
+  "conclusion": [
+    "By learning about stewing, students will understand a useful cooking method that enhances flavor, softens tough foods, and retains nutrients."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Understanding Meal Patterns and Meal Planning",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, March 11, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Meal Patterns and Meal Planning",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces learners to different meal patterns, the concept of meal planning, and how to prepare simple meals suitable for various needs.",
+  "materials": [
+    "Ingredients for breakfast (eggs, bread, tea)",
+    "Cooking utensils",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Describe different meal patterns.",
+    "Prepare a full breakfast.",
+    "Explain the importance of meal planning.",
+    "Prepare simple meals for different needs."
+  ],
+  "rationale": [
+    "Understanding meal patterns and planning ensures learners develop healthy eating habits, know how to prepare balanced meals, and cater to the dietary needs of different family members."
+  ],
+  "methodology": [
+    "The lesson will use class discussions, teacher demonstrations, and practical activities to explain meal patterns and planning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Meal Patterns (15 minutes)</b><br><br>What are Meal Patterns?<br>Meal patterns refer to the schedule and types of meals people eat in a day.<br><br>The main meal patterns include:<br>• <b>Breakfast</b> — The first meal of the day, eaten in the morning.<br>• <b>Mid-morning snack</b> — A light snack between breakfast and lunch.<br>• <b>Lunch</b> — A main meal eaten around midday.<br>• <b>Afternoon tea</b> — A small meal or snack in the afternoon.<br>• <b>Supper/Dinner</b> — The main evening meal.<br><br>Class Discussion:<br>Ask the learners:<br>• What do you usually eat for breakfast?<br>• How many meals do you have in a day?<br>• Why is it important to have a regular meal pattern?",
+      "<b>Part 2: Preparing a Full Breakfast (15 minutes)</b><br><br>What makes a full breakfast?<br>A full breakfast includes a variety of foods to give us energy for the day. It can include:<br>• <b>Proteins</b>: Eggs, beans, or groundnuts<br>• <b>Carbohydrates</b>: Bread, porridge, or cereal<br>• <b>Fruits</b>: Bananas, oranges, or apples<br>• <b>Beverages</b>: Tea, milk, or juice<br><br>Class Activity:<br>Demonstrate how to prepare a simple breakfast: scrambled eggs with bread and tea.<br>Show the learners how to safely crack an egg, whisk it, and cook it in a pan.<br>Let a few volunteers take turns stirring the eggs.",
+      "<b>Part 3: Meal Planning (15 minutes)</b><br><br>What is Meal Planning?<br>Meal planning means thinking ahead about what meals to prepare, ensuring they are balanced and suitable for everyone in the home.<br><br>Why is meal planning important?<br>• It helps save time and money.<br>• It makes sure everyone eats nutritious meals.<br>• It considers the needs of different people — babies, sick people, and adults.<br><br>Class Discussion:<br>Ask:<br>• Why would a baby need soft food like porridge?<br>• What might a sick person (invalid) eat?<br>• How can you plan a meal for the whole family?",
+      "<b>Part 4: Preparing Meals for Different Needs (10 minutes)</b><br><br>Examples of Special Meals:<br>• <b>For a baby</b>: Soft porridge with groundnuts.<br>• <b>For an invalid (sick person)</b>: Egg custard — soft and easy to swallow.<br>• <b>For an adult</b>: Scrambled eggs with vegetables.<br><br>Practical Demonstration:<br>Explain each type of meal.<br>Show the learners how to mix porridge or whisk an egg for custard.",
+      "<b>Part 5: Exercise (Homework or Classwork — 10 minutes)</b><br><br><b>Task:</b><br>1. <b>Identify Meal Patterns</b>: Write down your own meal pattern for yesterday (from breakfast to dinner).<br>2. <b>Plan a Meal</b>: Create a simple meal plan for a day for your family.<br>3. <b>Match the Meals</b>: Match the following meals to the correct people:<br>   • Egg custard — (a) Baby (b) Invalid (c) Adult<br>   • Porridge — (a) Baby (b) Invalid (c) Adult<br>   • Scrambled eggs — (a) Baby (b) Invalid (c) Adult<br>4. <b>Prepare a Meal</b>: At home, with the help of an adult, prepare a simple breakfast and write a short paragraph about what you made."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and practical activities.",
+    "<b>Exercise</b>: Learners will complete the classwork and homework exercises to demonstrate their understanding of meal patterns and planning."
+  ],
+  "conclusion": [
+    "Recap the importance of having a meal pattern.",
+    "Remind learners that meal planning helps make sure everyone eats healthy and balanced meals."
+  ]
+},
+
+// Week 8
+// Lesson 1
+{
+  "title": "Understanding Leftover Foods and Rules for Handling Them",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, March 17, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Leftover Foods and Rules for Handling Them",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson helps students understand what leftover foods are, how to handle them safely, and creative ways to use them while minimizing food waste.",
+  "materials": [
+    "Whiteboard and markers",
+    "Examples of common leftover foods",
+    "Airtight containers",
+    "Labels and markers"
+  ],
+  "objectives": [
+    "Define what leftover foods are.",
+    "Identify common examples of leftover foods.",
+    "Understand the rules for handling leftover foods.",
+    "Explore creative ways to reuse leftover foods.",
+    "Apply knowledge through a practical exercise."
+  ],
+  "rationale": [
+    "Understanding leftover food management helps students reduce food waste, save money, and practice safe food handling."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, group activities, and a practical exercise to engage students in learning about leftover food handling."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – What Are Leftover Foods?</b><br><br><b>Discussion:</b><br>Begin by asking students if they have ever had leftover food at home.<br>Define leftover foods as foods that remain after a meal has been eaten but are still good for consumption.<br>Give examples such as:<br>- Rice or pasta from lunch that can be eaten at dinner.<br>- A piece of chicken or fish from a previous meal.<br>- Vegetables that were not fully used when cooking.<br><br><b>Importance of Managing Leftovers:</b><br>- Reduces food waste.<br>- Saves money by preventing unnecessary purchases.<br>- Provides quick meal options.",
+      "<b>Part 2: Common Rules for Handling Leftover Foods</b><br><br><b>Rule 1: Convert into a Different Meal</b><br>Leftovers can be turned into new dishes. Examples:<br>- Leftover rice → Fried rice with vegetables.<br>- Cooked chicken → Sandwich filling or salad.<br>- Mashed potatoes → Potato pancakes.<br><br><b>Rule 2: Add Spices or Flavors to Refresh the Food</b><br>Sometimes, leftover food tastes bland. Adding spices or sauces can make it more enjoyable. Examples:<br>- Adding chili or herbs to a soup.<br>- Mixing leftover vegetables with eggs to make an omelet.<br><br><b>Rule 3: Use Within a Short Time</b><br>Leftovers should not be stored for too long to prevent spoilage.<br>General storage guidelines:<br>- Refrigerated food: Eat within 2-3 days.<br>- Frozen food: Use within 1-2 months for best quality.",
+      "<b>Part 3: Storing Leftovers Safely</b><br><br><b>Key Guidelines for Storing Leftovers:</b><br>1. <b>Cool Down Quickly</b> – Allow hot food to cool before placing it in the fridge (within 2 hours).<br>2. <b>Use Airtight Containers</b> – Helps keep food fresh and prevents bacteria.<br>3. <b>Label and Date Leftovers</b> – Helps track when food was stored.<br>4. <b>Reheat Properly</b> – Heat to a high temperature to kill bacteria.<br>5. <b>Do Not Store Leftovers Too Long</b> – If it smells bad or looks strange, throw it away.",
+      "<b>Part 4: Creative Ways to Use Leftovers</b><br><br><b>Activity – Group Brainstorming</b><br>Divide the class into small groups.<br>Assign each group a common leftover food (e.g., rice, bread, chicken, vegetables).<br>Ask them to discuss and write down creative ways to use the leftover.<br>Each group presents their ideas to the class.",
+      "<b>Part 5: Exercise – Applying Knowledge</b><br><br><b>Instructions:</b><br><br><b>1. Fill in the blanks:</b><br>Leftover food should be eaten within ___ to ___ days.<br>Adding ___ or ___ can make leftovers taste better.<br>We should store leftovers in ___ containers.<br><br><b>2. True or False:</b><br>(T/F) Leftover rice can be turned into fried rice.<br>(T/F) It is safe to eat leftovers after one week in the fridge.<br>(T/F) Reheating food properly helps kill bacteria.<br><br><b>3. Short Answer:</b><br>Name two ways to use leftover bread.<br>Why is it important to store leftovers correctly?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blanks, true/false, and short-answer exercises will assess students' understanding."
+  ],
+  "conclusion": [
+    "Recap the key points: what leftovers are, how to handle them safely, and creative ways to use them.",
+    "Encourage students to apply these rules at home to minimize food waste.",
+    "Assign a homework task: Ask students to write down how they or their family used a leftover meal at home and share it in the next lesson."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Preparing Dishes from Leftover Foods",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Preparing Different Dishes from Leftover Foods",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students how to creatively use leftover foods to prepare new dishes, promoting sustainability and reducing food waste.",
+  "materials": [
+    "Pictures of leftover-based dishes",
+    "Cooking ingredients for demonstration",
+    "Cooking utensils"
+  ],
+  "objectives": [
+    "Identify suitable dishes that can be made from leftovers.",
+    "Understand the importance of reducing food waste.",
+    "Learn how to prepare different leftover-based dishes such as Maheu, fritters, and mashed potatoes.",
+    "Demonstrate the ability to prepare a simple dish using leftovers."
+  ],
+  "rationale": [
+    "Reducing food waste is an essential life skill that helps students save resources and be creative in the kitchen.",
+    "Learning to reuse leftovers promotes sustainability and encourages responsible food management."
+  ],
+  "methodology": [
+    "Class discussions",
+    "Practical demonstrations",
+    "Student participation in food preparation"
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – Importance of Using Leftovers</b>:<br><br>Many times, food is left over after meals. Instead of throwing it away, we can be creative and turn it into delicious dishes. Using leftovers helps to:<br><br>• Reduce food waste and save money.<br>• Make meals more exciting and varied.<br>• Encourage creativity in the kitchen.<br><br><b>Class Discussion</b>:<br>Ask students: What do you usually do with leftover food at home?<br>Discuss the benefits of reusing food instead of throwing it away.",
+      "<b>Part 2: Identifying Suitable Leftover Dishes</b>:<br><br>Different types of leftovers can be used to prepare tasty dishes:<br><br>• Leftover maize meal (nsima, samp, rice): Can be used to make fritters.<br>• Leftover porridge or maize meal: Can be fermented to make Maheu (a traditional drink).<br>• Leftover boiled potatoes: Can be mashed and used in different recipes.<br><br><b>Class Activity</b>:<br>Show students pictures of different leftover-based dishes.<br>Ask students to suggest other local dishes they can make from leftovers.",
+      "<b>Part 3: How to Prepare Leftover-Based Dishes</b>:<br><br><b>1. Maheu (Fermented Maize Drink)</b><br><br><b>Ingredients</b>:<br>• Leftover porridge or maize meal<br>• Sugar<br>• Warm water<br><br><b>Steps</b>:<br>1. Mix leftover porridge with warm water.<br>2. Add sugar to taste.<br>3. Leave it to ferment for a few hours or overnight.<br>4. Serve chilled.<br><br><b>2. Fritters from Nsima, Rice, or Samp</b><br><br><b>Ingredients</b>:<br>• Leftover nsima, rice, or samp<br>• Flour<br>• Sugar (optional)<br>• Baking powder<br>• Cooking oil<br><br><b>Steps</b>:<br>1. Mash the leftover nsima, rice, or samp.<br>2. Add flour, baking powder, and a little sugar.<br>3. Mix well and form small balls.<br>4. Deep fry until golden brown.<br>5. Serve hot.<br><br><b>3. Mashed Potatoes</b><br><br><b>Ingredients</b>:<br>• Leftover boiled potatoes<br>• Butter or margarine<br>• Milk<br>• Salt and pepper<br><br><b>Steps</b>:<br>1. Mash the boiled potatoes.<br>2. Add butter and milk.<br>3. Mix until smooth.<br>4. Add salt and pepper to taste.<br>5. Serve warm.",
+      "<b>Part 4: Practical Demonstration</b>:<br><br>• Demonstrate how to prepare one of the dishes (e.g., fritters).<br>• Allow students to participate in mixing ingredients and shaping the fritters.<br>• Discuss the steps and safety measures when handling food.",
+      "<b>Part 5: Exercise (Student Activity)</b>:<br><br><b>1. Identify & List</b>:<br>• List 3 leftover foods at home that can be reused.<br>• Suggest a dish that can be made from each.<br><br><b>2. Cooking Challenge (Home Assignment)</b>:<br>• Choose one of the leftover dishes (Maheu, fritters, mashed potatoes).<br>• Prepare it at home and describe the process in a short paragraph.<br>• Take a picture (optional) and share with the class during the next lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and food preparation activities.",
+    "<b>Exercise</b>: Students will complete the home assignment by preparing a dish and describing the process."
+  ],
+  "conclusion": [
+    "Recap the importance of reducing food waste.",
+    "Ask students: Which dish do they think is easiest to make?",
+    "Encourage them to be creative in the kitchen and try new leftover recipes."
+  ]
+},
+
+// Week 9
+// Lesson 1
+{
+  "title": "Food Preservation",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Food Preservation",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to food preservation, explaining its importance, reasons, and methods used to keep food fresh and safe for longer periods.",
+  "materials": [
+    "Pictures of different preserved foods",
+    "Whiteboard and markers",
+    "Samples of dried, canned, and frozen foods"
+  ],
+  "objectives": [
+    "Describe food preservation.",
+    "Explain the reasons for preserving food.",
+    "Identify different methods of food preservation.",
+    "Discuss the importance of food preservation in daily life."
+  ],
+  "rationale": [
+    "Understanding food preservation helps students learn how to keep food fresh and safe, reducing food waste and ensuring food availability."
+  ],
+  "methodology": [
+    "The lesson will use discussions, examples, and visual demonstrations to help students understand food preservation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Food Preservation</b>:<br><br>Discussion Questions:<br>- What happens when we leave food out for a long time?<br>- Have you ever seen food go bad? What did it look or smell like?<br>- How do people keep food fresh for a long time?<br><br>Explanation:<br>Food preservation is the process of treating and handling food to prevent spoilage, contamination, or decay. It helps food stay safe and edible for a longer period by slowing down the growth of bacteria, molds, and other microorganisms.<br><br>Key Points:<br>- Food spoils due to bacteria, fungi, and exposure to air or moisture.<br>- Preservation methods slow down or stop spoilage.<br>- Preserved food lasts longer and remains safe to eat.",
+      "<b>Part 2: Reasons for Preserving Food</b>:<br><br>1. <b>Prevents Food Spoilage</b> – Food preservation stops food from rotting, which helps in maintaining its quality.<br>2. <b>Prevents Wastage</b> – Without preservation, large amounts of food would go to waste, leading to shortages.<br>3. <b>Ensures Food Availability</b> – Some foods are seasonal, but preservation allows us to eat them all year round.<br>4. <b>Saves Money</b> – Buying preserved food in bulk can be cheaper than buying fresh food frequently.<br>5. <b>Enhances Food Safety</b> – Proper preservation methods prevent contamination that could cause food poisoning.<br><br>Real-Life Example:<br>- People dry fish or meat so they can eat it later instead of letting it rot.<br>- Farmers store grains in silos to protect them from pests and spoilage.",
+      "<b>Part 3: Common Methods of Food Preservation</b>:<br><br>1. <b>Drying</b>: Removing moisture from food prevents bacteria and mold from growing.<br>Example: Drying fish, fruits, or meat (biltong).<br>2. <b>Refrigeration and Freezing</b>: Cold temperatures slow down bacterial growth.<br>Example: Keeping milk and vegetables in the fridge or storing meat in the freezer.<br>3. <b>Salting</b>: Salt removes moisture, which stops bacterial growth.<br>Example: Salting fish and meat.<br>4. <b>Canning and Bottling</b>: Food is heated and sealed in jars to kill bacteria and prevent contamination.<br>Example: Canned tomatoes, jam, or bottled fruit juice.<br>5. <b>Fermentation</b>: Useful bacteria are added to food to change its flavor and keep it from spoiling.<br>Example: Making yogurt or pickles.<br>6. <b>Smoking</b>: Exposing food to smoke from burning wood helps preserve it.<br>Example: Smoked fish or meat.",
+      "<b>Part 4: Importance of Food Preservation in Daily Life</b>:<br><br>- Helps communities survive during difficult times like droughts or food shortages.<br>- Reduces food wastage in homes and stores.<br>- Allows businesses to transport food over long distances.<br>- Helps in emergency situations when fresh food is not available.<br><br>Discussion Question:<br>Which preservation methods have you or your family used before?",
+      "<b>Part 5: Exercise – Answer the Following Questions</b>:<br><br>1. What is food preservation?<br>2. Give three reasons why food is preserved.<br>3. Name four common methods of food preservation and give an example of each.<br>4. Why is refrigeration a good method of preserving food?<br>5. What happens if food is not preserved properly?<br><br>Activity:<br>Find out one traditional food preservation method used in your community and explain how it works."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Exercise</b>: The five-question exercise will evaluate students' understanding of food preservation concepts."
+  ],
+  "conclusion": [
+    "Food preservation is an important part of daily life. It helps keep food safe, prevents waste, and ensures that we always have enough food available. By understanding different preservation methods, we can choose the best ways to keep food fresh and healthy."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Identifying and Preserving Different Foods",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Identifying and Preserving Different Foods",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students how to identify suitable foods for preservation, understand different food preservation methods, and explore ways to preserve vegetables, fruits, sweet potatoes, cassava, and mushrooms.",
+  "materials": [
+    "Whiteboard and markers",
+    "Charts showing food preservation methods",
+    "Samples of preserved foods (dried fruits, canned vegetables, etc.)"
+  ],
+  "objectives": [
+    "Identify suitable foods for preservation.",
+    "Understand how to preserve different types of food.",
+    "Learn about preservation methods for vegetables, fruits, sweet potatoes, cassava, and mushrooms."
+  ],
+  "rationale": [
+    "Understanding food preservation helps students reduce food waste, improve food security, and maintain nutritional value.",
+    "Students will learn practical methods to store food for longer periods, ensuring sustainability and resource management."
+  ],
+  "methodology": [
+    "The lesson will use discussions, demonstrations, and group activities to help students understand food preservation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Identifying Suitable Foods for Preservation</b>:<br><br><b>Discussion Questions:</b><br>What types of food go bad quickly?<br>Which foods do people in your home store for later use?<br>How do people prevent food from spoiling?<br><br><b>Explanation:</b><br>Some foods spoil quickly and need preservation to last longer. Foods that contain a lot of water, like fruits and vegetables, are more likely to spoil fast. Foods like grains, tubers (e.g., cassava), and dried products last longer when stored properly.<br><br><b>Examples of Foods Suitable for Preservation:</b><br>1. Vegetables – e.g., tomatoes, spinach, cabbage, carrots.<br>2. Fruits – e.g., mangoes, bananas, pineapples, apples.<br>3. Tubers and Root Crops – e.g., sweet potatoes, cassava.<br>4. Mushrooms – fresh mushrooms spoil quickly if not preserved.<br>5. Dairy and Meat Products – milk, cheese, fish, and meat need preservation.",
+      
+      "<b>Part 2: Preserving Different Foods</b>:<br><br><b>1. Preserving Vegetables</b><br>Vegetables spoil quickly, so they need to be stored properly. Common methods include:<br>• <b>Drying</b>: Spinach and other leafy vegetables can be dried under the sun to remove moisture.<br>• <b>Refrigeration</b>: Vegetables like carrots, cabbage, and green beans can be stored in the fridge.<br>• <b>Canning/Bottling</b>: Tomatoes can be turned into paste and stored in bottles.<br><br><b>2. Preserving Fruits</b><br>Fruits spoil due to high moisture content. Preservation methods include:<br>• <b>Drying</b>: Mangoes, bananas, and pineapples can be sliced and dried in the sun or with special drying machines.<br>• <b>Making Jam or Juice</b>: Fruits like strawberries and oranges can be made into jam or bottled juice.<br>• <b>Freezing</b>: Some fruits like berries can be frozen for later use.",
+
+      "<b>Part 3: Preserving Sweet Potatoes and Cassava</b>:<br><br><b>1. Preserving Sweet Potatoes</b><br>Sweet potatoes can be stored in different ways to last longer:<br>• <b>Drying</b>: Slices of sweet potatoes can be sun-dried and later used to make flour.<br>• <b>Storage in a Cool, Dry Place</b>: Fresh sweet potatoes last longer when kept in a dry, well-ventilated area.<br><br><b>2. Preserving Cassava</b><br>Cassava spoils quickly if not preserved properly. Methods include:<br>• <b>Drying</b>: Cassava can be peeled, sliced, and dried to make flour.<br>• <b>Fermentation</b>: Some communities ferment cassava before drying it.<br>• <b>Storing Underground</b>: Fresh cassava can be stored underground in dry soil to keep it fresh longer.",
+
+      "<b>Part 4: Preserving Mushrooms</b>:<br><br>Mushrooms decay quickly, so they need proper preservation:<br>• <b>Drying</b>: Mushrooms can be sun-dried and stored in airtight containers.<br>• <b>Freezing</b>: Fresh mushrooms can be stored in the freezer to prevent spoilage.<br><br><b>Importance of Preserving Different Foods</b>:<br>• <b>Prevents wastage</b>: Helps in storing extra food for later use.<br>• <b>Ensures food security</b>: Allows people to have food during times of scarcity.<br>• <b>Saves money</b>: Buying food in bulk and preserving it is cheaper than buying fresh food every day.<br>• <b>Maintains food nutrients</b>: Proper preservation keeps food nutritious and safe to eat.<br><br><b>Discussion Questions:</b><br>Have you seen or used any of these preservation methods before?<br>What foods does your family store for future use?",
+
+      "<b>Part 5: Exercise – Answer the Following Questions</b>:<br><br>1. Why do we preserve food?<br>2. List five foods that need preservation.<br>3. Name and explain two methods of preserving vegetables.<br>4. How can sweet potatoes be preserved?<br>5. Describe a traditional food preservation method used in your community.<br><br><b>Activity:</b><br><b>Group Work:</b> In small groups, discuss and present how your family or community preserves food.<br><b>Home Assignment:</b> Find a food item at home, preserve it using a method learned in class, and report the results in the next lesson."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement in discussions and group activities.",
+    "<b>Exercise</b>: The exercise will evaluate students' understanding of food preservation methods."
+  ],
+  "conclusion": [
+    "Food preservation is essential for reducing waste, ensuring food availability, and keeping food safe to eat. Different foods require different preservation methods to keep them fresh for longer periods. Understanding how to preserve food properly helps us save resources and prevent hunger."
+  ]
+},
+
+// Week 10
+// Lesson 1
+{
+  "title": "Facilities in the Hospitality Business",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Hospitality Facilities and Their Importance",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to different hospitality facilities, their characteristics, and their role in tourism and daily life.",
+  "materials": [
+    "Textbook or handouts on hospitality facilities",
+    "Whiteboard and markers",
+    "Pictures or illustrations of lodges, guest houses, motels, and hotels"
+  ],
+  "objectives": [
+    "Identify different hospitality facilities.",
+    "Describe the purpose of lodges, guest houses, motels, and hotels.",
+    "Compare the different hospitality facilities.",
+    "Explain the role of hospitality businesses in tourism and daily life."
+  ],
+  "rationale": [
+    "Understanding hospitality facilities helps students recognize their importance in tourism and economic development.",
+    "Learning about different types of accommodations enables students to appreciate their functions and services."
+  ],
+  "methodology": [
+    "The lesson will use explanations, discussions, and comparison activities to help students understand different hospitality facilities."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Hospitality Facilities</b>:<br><br>What is the Hospitality Industry?<br>The hospitality industry includes businesses that provide accommodation, food, and other services to travelers and guests. These businesses ensure comfort and convenience for people who are traveling, on vacation, or staying temporarily in a different place.<br><br>Types of Hospitality Facilities<br>There are different types of places where people can stay, such as lodges, guest houses, motels, and hotels. Each of these facilities serves a specific purpose and caters to different needs.",
+      "<b>Part 2: Description of Hospitality Facilities</b>:<br><br>1. Lodges<br>Lodges are usually found in natural settings like forests, game reserves, or near lakes.<br>They are designed for travelers who want to experience nature while still having comfortable accommodations.<br>Many lodges offer activities such as wildlife viewing, hiking, or fishing.<br><br>2. Guest Houses<br>Guest houses are smaller accommodations, often run by families or individuals.<br>They provide a homely environment with basic services like meals and rooms.<br>They are usually more affordable than hotels and offer a personal touch in customer service.<br><br>3. Motels<br>Motels are mainly for travelers who need a short stay, especially those traveling by road.<br>They are often located near highways and offer parking spaces close to the rooms.<br>They provide basic services like sleeping accommodations and sometimes food.<br><br>4. Hotels<br>Hotels are larger and provide many services, including luxury rooms, restaurants, gyms, and entertainment areas.<br>They cater to tourists, business travelers, and special events.<br>They are classified into different levels, from budget hotels to five-star luxury hotels.",
+      "<b>Part 3: Comparison of Hospitality Facilities</b>:<br><br>Discussion:<br>Students will compare lodges, guest houses, motels, and hotels based on location, purpose, services offered, and target customers.<br><br>Activity:<br>Students will create a table comparing the facilities based on different factors such as size, affordability, services, and customer experience.",
+      "<b>Part 4: Importance of Hospitality Businesses</b>:<br><br>1. Supports Tourism – Hospitality businesses help tourists by providing accommodation and services.<br><br>2. Creates Jobs – Many people work in hotels, lodges, and guest houses as chefs, cleaners, receptionists, and managers.<br><br>3. Boosts the Economy – Visitors spending money in hotels and lodges helps the local economy grow.<br><br>4. Provides Comfort & Convenience – These facilities ensure that travelers have a place to stay, eat, and rest.",
+      "<b>Part 5: Exercise</b>:<br><br><b>Activity 1: Matching</b><br>Match the hospitality facility with its correct description.<br><br>1. ____ A place located near highways for travelers who need short stays.<br>2. ____ A luxury facility offering entertainment, restaurants, and many services.<br>3. ____ A homely place with a few rooms, usually run by individuals or families.<br>4. ____ Found in forests or game reserves, offering nature experiences.<br><br>(A) Guest House<br>(B) Lodge<br>(C) Motel<br>(D) Hotel<br><br><b>Activity 2: Short Answer</b><br><br>1. Name three services that hotels provide that motels usually do not.<br>2. Why are lodges often located in natural environments?<br>3. How do hospitality businesses help the economy?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and activities.",
+    "<b>Exercise</b>: The matching and short-answer exercises will assess students’ understanding of hospitality facilities and their importance."
+  ],
+  "conclusion": [
+    "Today, we learned about different hospitality facilities, their characteristics, and their role in tourism and daily life. Hospitality businesses are important because they provide accommodation, jobs, and economic benefits to many communities."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Identify Services in the Hospitality Business",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Hospitality Services",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "10",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the various services offered in the hospitality industry, such as accommodation, conference rooms, laundry services, catering, and transport.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures illustrating various hospitality services",
+    "Examples of brochures from hotels and resorts"
+  ],
+  "objectives": [
+    "Students will be able to identify and describe various services offered in the hospitality industry, such as accommodation, conference rooms, laundry services, catering, and transport.",
+    "Students will understand the importance of hospitality services in providing comfort and customer satisfaction.",
+    "Students will be able to match different hospitality services with their appropriate descriptions."
+  ],
+  "rationale": [
+    "Understanding hospitality services helps students recognize how businesses cater to customer needs, ensuring a positive experience that promotes customer satisfaction and loyalty."
+  ],
+  "methodology": [
+    "The lesson will use explanations, discussions, and matching exercises to help students identify and understand the importance of different hospitality services."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Hospitality Services</b>:<br><br>Hospitality refers to the services provided to people when they are away from home, making them feel comfortable, welcome, and well cared for. The hospitality industry includes businesses like hotels, resorts, restaurants, airlines, and travel agencies. Services are offered to guests to meet their basic needs and provide a pleasant experience.<br><br><b>Importance of Hospitality Services</b>:<br>These services ensure that customers have a positive experience during their stay, event, or travel. The goal is customer satisfaction, which leads to repeat business and positive recommendations.",
+      "<b>Part 2: Accommodation Services</b>:<br><br><b>Definition</b>: Accommodation services are the provision of a place for guests to sleep and stay during their visit or travel. This could include hotels, motels, resorts, or bed-and-breakfast establishments.<br><br><b>Types of Accommodation</b>:<br>Hotels: Offer a range of rooms from basic to luxury.<br>Resorts: Often located in scenic areas, they offer both accommodation and recreational activities.<br>Guest Houses/B&Bs: Smaller, more personal accommodations.<br><br><b>Key Elements</b>:<br>Comfort (clean rooms, beds, privacy)<br>Facilities (Wi-Fi, air conditioning, etc.)<br>Security",
+      "<b>Part 3: Conference Rooms and Event Spaces</b>:<br><br><b>Definition</b>: Many hospitality businesses offer conference rooms or event spaces for business meetings, conferences, weddings, and other events.<br><br><b>Services Provided</b>:<br>Facilities: Projectors, sound systems, comfortable seating<br>Catering: Providing food and drinks for meetings or events<br>Support Staff: Event planners, technicians, security<br><br><b>Importance</b>: These services cater to businesses and individuals who need a professional space for meetings, events, or gatherings.",
+      "<b>Part 4: Other Key Services in Hospitality</b>:<br><br><b>Laundry Services</b>: Many hospitality businesses offer laundry services, ensuring guests can have their clothes cleaned during their stay. This service is particularly important for long-term stays or travelers.<br><b>Catering Services</b>: Catering involves preparing and serving food and drinks for events, conferences, or even in-room dining. This can include everything from small snacks to elaborate banquet meals.<br><b>Transport Services</b>: Transportation services help guests get to and from the hotel or event. This can include airport shuttles, taxis, car rentals, or private chauffeurs.",
+      "<b>Part 5: Exercise</b><br><b>Exercise</b>:<br>Now, let's test your understanding of the services in the hospitality industry.<br><br><b>Instructions:</b><br>1. Match each of the following services to the correct description:<br><br>a. Accommodation<br>b. Conference Rooms<br>c. Laundry Services<br>d. Catering Services<br>e. Transport Services<br><br><b>Descriptions:</b><br>1. A service that cleans your clothes during your stay.<br>2. A service that offers a place for guests to sleep and stay.<br>3. A service that provides food and drinks for events or conferences.<br>4. A service that transports guests to and from different locations.<br>5. A service that provides space and equipment for meetings or events.<br><br><b>Short Answer:</b><br>Which of the services mentioned do you think is the most important in making a guest’s stay comfortable? Why?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the discussions and matching exercise.",
+    "<b>Exercise</b>: The matching exercise will assess students' ability to correctly identify and match hospitality services to their descriptions."
+  ],
+  "conclusion": [
+    "Understanding the services provided in the hospitality industry helps students see how businesses work to meet the needs of their guests and provide a memorable experience. All of these services, whether related to accommodation, catering, or transportation, are essential for creating customer satisfaction and loyalty."
+  ]
+}
 
 ];
