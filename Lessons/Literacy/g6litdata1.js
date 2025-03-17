@@ -580,6 +580,110 @@ const lessonPlans60a = [
 },
 
 // Lesson 3
+{
+  "title": "Possessive Nouns",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Literacy",
+  "topic": "Possessive Nouns",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "5",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about possessive nouns, including singular and plural possessive forms, their correct usage in sentences, and how to differentiate them from plural nouns.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheets",
+    "Sentence strips",
+    "Charts with possessive noun examples"
+  ],
+  "objectives": [
+    "Understand what possessive nouns are.",
+    "Identify singular and plural possessive nouns.",
+    "Use possessive nouns correctly in sentences.",
+    "Differentiate between possessive nouns and plural nouns."
+  ],
+  "rationale": [
+    "Understanding possessive nouns helps students improve their writing clarity and sentence structure. This lesson enhances their grammar skills and ability to express ownership correctly."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, comparisons, and exercises to ensure students understand possessive nouns."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Possessive Nouns</b>:<br><br>What are Possessive Nouns?<br>Possessive nouns show ownership or belonging. They indicate that something belongs to a person, place, thing, or animal.<br><br>Examples:<br>The boy’s book (The book belongs to the boy).<br>The dog’s leash (The leash belongs to the dog).<br>The teacher’s pen (The pen belongs to the teacher).<br><br>Key Rule:<br>Possessive nouns are formed by adding an apostrophe (') and sometimes an s.",
+      "<b>Part 2: Singular vs. Plural Possessive Nouns</b>:<br><br>Singular Possessive Nouns<br>When a noun is singular, we add 's to show possession.<br><br>Examples:<br>The cat’s tail is fluffy. (One cat)<br>The girl’s hat is pink. (One girl)<br>The doctor’s office is clean. (One doctor)<br><br>Plural Possessive Nouns<br>If a noun is plural and ends in s, we just add an apostrophe (') after the s.<br>If a noun is plural but does not end in s, we add 's.<br><br>Examples:<br>The dogs’ toys are in the basket. (More than one dog)<br>The teachers’ meeting starts at 3 PM. (More than one teacher)<br>The children’s playground is big. (Children is already plural, so we add 's).",
+      "<b>Part 3: Possessive Nouns vs. Plural Nouns</b>:<br><br>Many students confuse plural nouns with possessive nouns.<br><br>Plural nouns just mean more than one (cats, dogs, teachers).<br>Possessive nouns show ownership (cat’s, dog’s, teacher’s).<br><br>Compare:<br>The girls are playing outside. (Plural noun, just means more than one girl).<br>The girl’s bag is on the chair. (Possessive noun, means the bag belongs to one girl).<br>The girls’ bags are on the chair. (Possessive and plural, means the bags belong to more than one girl).",
+      "<b>Part 4: Using Possessive Nouns in Sentences</b>:<br><br>Common Mistakes and How to Fix Them:<br><br>❌ Incorrect: The cats toy is missing.<br>✅ Correct: The cat’s toy is missing. (The toy belongs to one cat).<br><br>❌ Incorrect: The boys hat is on the table.<br>✅ Correct: The boy’s hat is on the table. (One boy owns the hat).<br><br>❌ Incorrect: The childs book is interesting.<br>✅ Correct: The child’s book is interesting.",
+      "<b>Part 5: Exercise on Possessive Nouns</b>:<br><br>A. Rewrite the sentences using possessive nouns.<br><br>1. The tail of the monkey is long. → The monkey’s tail is long.<br>2. The books of the students are on the table. → The students’ books are on the table.<br>3. The nest of the birds is in the tree. → The birds’ nest is in the tree.<br>4. The toys of the baby are colorful. → The baby’s toys are colorful.<br>5. The bag of my teacher is on the desk. → My teacher’s bag is on the desk.<br><br>B. Identify whether the underlined noun is possessive or plural.<br><br>1. The cats are playing outside. → Plural<br>2. The cat’s bowl is empty. → Possessive<br>3. The girls’ dresses are beautiful. → Possessive<br>4. The boys are running in the park. → Plural<br>5. The boy’s bicycle is red. → Possessive"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and exercises.",
+    "<b>Exercise</b>: The possessive noun exercises will assess students' understanding of singular and plural possessive forms."
+  ],
+  "conclusion": [
+    "Possessive nouns show ownership and use an apostrophe (‘).",
+    "Singular possessive nouns add 's (The dog’s leash).",
+    "Plural possessive nouns add ' if they already end in s (The teachers’ meeting).",
+    "If a plural noun does not end in s, add 's (The children’s books).",
+    "Be careful not to confuse plural nouns with possessive nouns!"
+  ]
+},
+
+
+// Lesson 7
+// Lesson 1
+{
+  "title": "Who vs. Whom",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Literacy",
+  "topic": "Who vs. Whom",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson helps students understand the difference between who and whom, identify when to use each, and apply their understanding through exercises.",
+  "materials": [
+    "Whiteboard and markers",
+    "Worksheet with practice questions",
+    "Example sentences for discussion"
+  ],
+  "objectives": [
+    "Understand the difference between who and whom.",
+    "Identify when to use who and whom in sentences.",
+    "Apply their understanding through exercises."
+  ],
+  "rationale": [
+    "Understanding the correct use of who and whom helps students improve their grammar and formal writing skills."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, examples, class discussion, and exercises to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Who vs. Whom</b>:<br><br>Start by asking students:<br>Who can tell me what 'who' means?<br>Have you ever heard the word 'whom' before?<br><br>Explain that both who and whom are question words or relative pronouns, but they are used in different situations.<br><br>Who is used when referring to the subject of a sentence.<br>Whom is used when referring to the object of a sentence.<br><br>Give simple examples:<br>Who is calling me? (The person doing the action)<br>Whom did you call? (The person receiving the action)",
+      "<b>Part 2: Subject vs. Object Explanation</b>:<br><br>Break it down using subject and object roles:<br>A subject does the action.<br>An object receives the action.<br><br>Example sentences:<br>1. Who loves ice cream? (Who is the subject.)<br>2. To whom should I give the book? (Whom is the object.)<br><br>Introduce a trick:<br>If you can replace the word with he/she/they, use who.<br>If you can replace the word with him/her/them, use whom.<br><br>Example:<br>Who/Whom is knocking? → He is knocking. → Use Who.<br>You gave the book to who/whom? → You gave it to him. → Use Whom.",
+      "<b>Part 3: Real-Life Application</b>:<br><br>Explain that whom is more formal and often replaced by who in everyday speech. However, in formal writing and grammar, using whom correctly is important.<br><br>Examples in different contexts:<br>Formal: To whom it may concern,<br>Informal: Who are you talking to? (Instead of To whom are you talking?)<br><br>Ask students to come up with sentences using who and whom.",
+      "<b>Part 4: Exercise</b>:<br><br>Choose the correct word (Who or Whom) in each sentence.<br><br>1. _______ wrote this book?<br>2. To _______ should I address the letter?<br>3. _______ is coming to the party?<br>4. With _______ did you go to the mall?<br>5. _______ wants to volunteer for the project?<br><br><b>Bonus Challenge</b>: Ask students to create two sentences of their own—one using who and one using whom.",
+      "<b>Part 5: Conclusion</b>:<br><br>Recap the key points and remind students of the subject-object trick. Encourage them to listen for who and whom in books and conversations."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and exercises.",
+    "<b>Exercise</b>: The practice questions will assess students' understanding of who vs. whom."
+  ],
+  "conclusion": [
+    "By understanding the difference between who and whom, students will improve their grammar skills and be able to use both correctly in writing and speech."
+  ]
+},
 
 
 ];
