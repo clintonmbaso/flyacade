@@ -675,6 +675,56 @@ const lessonPlans67a = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "Introduction to Microsoft Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Getting Started with Microsoft Word",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to Microsoft Word, its interface, and basic functions, including creating, editing, formatting, and saving a document.",
+  "materials": [
+    "Computers with Microsoft Word installed",
+    "Projector or whiteboard",
+    "Printed handouts with Microsoft Word interface labels"
+  ],
+  "objectives": [
+    "Identify the Microsoft Word interface and its components.",
+    "Create a new document and perform basic functions.",
+    "Edit and format text using basic tools.",
+    "Apply their knowledge through a hands-on exercise."
+  ],
+  "rationale": [
+    "Microsoft Word is a fundamental tool for digital literacy. Understanding how to use it enhances students’ ability to create, edit, and format documents efficiently, a skill essential for academic and professional success."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, guided practice, and hands-on activities to help students learn how to navigate and use Microsoft Word."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Microsoft Word and Its Interface</b>:<br><br><b>Discussion & Demonstration</b><br><br>1. What is Microsoft Word?<br>Microsoft Word is a word-processing software used to create, edit, and format documents. It helps users write letters, reports, stories, and other documents efficiently.<br><br>2. Opening Microsoft Word<br>Guide students on how to open Microsoft Word from the Start Menu or Desktop.<br><br>3. Main Components of the Word Interface:<br>• Title Bar: Displays the name of the document.<br>• Ribbon: Contains tabs such as Home, Insert, Layout, and View.<br>• Quick Access Toolbar: Includes Save, Undo, and Redo buttons.<br>• Document Area: The white page where text is typed.<br>• Status Bar: Shows page number, word count, and zoom settings.<br><br><b>Activity</b>: Have students open Microsoft Word on their computers and identify the interface components.",
+      "<b>Part 2: Creating and Saving a Document</b>:<br><br><b>Demonstration & Guided Practice</b><br><br>1. Creating a New Document:<br>• Click on “File” → “New” → “Blank Document.”<br><br>2. Typing in Word:<br>• Explain how to place the cursor in the document and start typing.<br>• Demonstrate basic keyboard shortcuts (e.g., Enter, Backspace, Delete).<br><br>3. Saving a Document:<br>• Click “File” → “Save As” → Choose a location (e.g., Desktop, Documents).<br>• Name the file and select the file type (e.g., Word Document).<br>• Click “Save.”<br><br><b>Activity</b>: Ask students to create a new document, type their name, and save the file as 'My First Document.'",
+      "<b>Part 3: Basic Text Editing in Word</b>:<br><br><b>Demonstration & Student Practice</b><br><br>1. Selecting Text:<br>• Click and drag the mouse or use Shift + Arrow keys.<br><br>2. Cut, Copy, and Paste:<br>• Cut (Ctrl + X): Removes selected text.<br>• Copy (Ctrl + C): Duplicates selected text.<br>• Paste (Ctrl + V): Inserts copied or cut text.<br><br>3. Undo and Redo:<br>• Undo (Ctrl + Z) reverses the last action.<br>• Redo (Ctrl + Y) repeats the last action.<br><br>4. Deleting Text:<br>• Backspace key (removes text before the cursor).<br>• Delete key (removes text after the cursor).<br><br><b>Activity</b>: Have students type a short sentence, then practice selecting, cutting, copying, and pasting words.",
+      "<b>Part 4: Basic Text Formatting</b>:<br><br><b>Demonstration & Hands-on Practice</b><br><br>1. Changing Font Style and Size:<br>• Select text → Go to the Home tab → Choose a font and size.<br><br>2. Bold, Italics, and Underline:<br>• Bold (Ctrl + B): Makes text darker.<br>• Italics (Ctrl + I): Slants text.<br>• Underline (Ctrl + U): Adds a line under the text.<br><br>3. Changing Text Color:<br>• Select text → Click on the 'Font Color' button in the Home tab.<br><br>4. Text Alignment:<br>• Left Align (Ctrl + L), Center (Ctrl + E), Right Align (Ctrl + R), Justify (Ctrl + J).<br><br><b>Activity</b>: Ask students to type a short paragraph, then apply different formatting styles to it.",
+      "<b>Part 5: Exercise (Hands-On Activity)</b>:<br><br><b>Task</b>:<br>1. Open a new Microsoft Word document.<br>2. Type a short paragraph about 'My Favorite Hobby.'<br>3. Apply the following:<br>• Change the font to Arial, size 14.<br>• Make the title bold and underlined.<br>• Italicize at least one word in the paragraph.<br>• Change the paragraph color to blue.<br>• Save the document as 'My Hobby.docx.'<br><br><b>Assessment</b>: The teacher checks if students have correctly applied formatting and saved the file. Discuss common mistakes and answer any student questions."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement and participation in identifying the Microsoft Word interface and completing hands-on activities.",
+    "<b>Practical Task</b>: The final hands-on exercise will assess whether students can create, format, and save a document correctly."
+  ],
+  "conclusion": [
+    "Recap key points about using Microsoft Word.",
+    "Encourage students to practice by writing and formatting simple documents at home.",
+    "Allow students to ask questions for further clarification."
+  ]
+},
 
 // Lesson 2
 
