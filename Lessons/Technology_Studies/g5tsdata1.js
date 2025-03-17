@@ -727,8 +727,113 @@ const lessonPlans67a = [
 },
 
 // Lesson 2
+{
+  "title": "Enhancing Word Processing Skills",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Advanced Word Processing Skills",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson focuses on enhancing students' word processing skills, covering navigation, text editing, and formatting to create well-structured documents.",
+  "materials": [
+    "Computers with Microsoft Word installed",
+    "Projector and screen",
+    "Sample documents for editing and formatting practice"
+  ],
+  "objectives": [
+    "Navigate the Microsoft Word interface confidently.",
+    "Use basic and advanced text editing and formatting tools.",
+    "Create well-structured documents with proper formatting.",
+    "Apply their knowledge by completing a structured document-creation exercise."
+  ],
+  "rationale": [
+    "Proficiency in word processing is an essential skill for students in academic and professional settings.",
+    "Enhancing text editing and formatting skills will help students create well-organized and visually appealing documents."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, hands-on activities, and structured exercises to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Revisiting the Word Interface and Basic Functions</b>:<br><br><b>Discussion & Demonstration</b>:<br>Open Microsoft Word and review key interface elements:<br>- Ribbon & Tabs (Home, Insert, Layout, etc.)<br>- Toolbar and Quick Access Functions (Save, Undo, Redo)<br>- Document Area (where text is entered and edited)<br>- Status Bar (word count, page number, language settings)<br><br>Ask students to open Word on their computers and explore these elements.<br>Quick recap of basic functions like typing, selecting text, and saving a document.<br><br><b>Activity</b>:<br>Have students type a short paragraph introducing themselves and save the document.<br>Encourage them to explore different tabs and menus while typing.",
+      
+      "<b>Part 2: Advanced Text Editing Skills</b>:<br><br><b>Discussion & Demonstration</b>:<br>Explain and demonstrate how to:<br>- Cut, copy, and paste text.<br>- Use Find & Replace to quickly modify text.<br>- Insert and delete text efficiently.<br>- Undo and redo actions.<br><br><b>Activity</b>:<br>Provide students with a sample paragraph containing repeated words.<br>Ask them to replace all occurrences of a specific word using Find & Replace.",
+      
+      "<b>Part 3: Formatting Text for a Professional Look</b>:<br><br><b>Discussion & Demonstration</b>:<br>Explain the importance of text formatting in making documents look professional.<br>Demonstrate how to:<br>- Change font type, size, and color.<br>- Use Bold, Italics, Underline, and Strikethrough.<br>- Adjust text alignment (Left, Center, Right, Justify).<br>- Use Bullets and Numbering for lists.<br>- Apply text Highlighting and Borders.<br><br><b>Activity</b>:<br>Ask students to format their self-introduction paragraph using different fonts, colors, and text styles.<br>Ensure they use at least one type of list, such as bullet points.",
+      
+      "<b>Part 4: Creating a Well-Structured Document</b>:<br><br><b>Discussion & Demonstration</b>:<br>Teach students how to:<br>- Insert and format Headings & Subheadings.<br>- Add page borders and shading.<br>- Insert images and position them properly.<br>- Adjust Line Spacing and Indentation.<br><br><b>Activity</b>:<br>Have students create a one-page 'My Favorite Hobby' document.<br>It should include:<br>- A title with a different font style.<br>- A short paragraph with proper formatting.<br>- A bulleted or numbered list.<br>- An inserted image related to their hobby.",
+      
+      "<b>Part 5: Exercise – Formatting a Given Document</b>:<br><br><b>Instructions</b>:<br>Provide students with an unformatted text file containing a short article.<br>Ask them to:<br>1. Format the title in Bold and Size 20.<br>2. Apply a different font style to the body text.<br>3. Use Justify alignment for the paragraphs.<br>4. Highlight important keywords in yellow.<br>5. Add a border around the document."
+    ]
+  ],
+  "assessments": [
+    "<b>Review</b>: The teacher will review student documents and provide feedback on formatting, clarity, and structure.",
+    "<b>Presentation</b>: A few students will present their work and explain their formatting choices."
+  ],
+  "conclusion": [
+    "Reinforce key points about Word’s interface, editing, and formatting tools.",
+    "Allow students to ask questions and clarify any difficulties.",
+    "Assign a follow-up practice task for homework (e.g., writing and formatting a short story)."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Advanced Paragraph Formatting in Microsoft Word",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Technology Studies",
+  "topic": "Advanced Paragraph Formatting",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to advanced paragraph formatting in Microsoft Word, focusing on alignment, indentation, and spacing.",
+  "materials": [
+    "Computers with Microsoft Word installed",
+    "Projector for demonstration",
+    "Handouts with sample formatted and unformatted text"
+  ],
+  "objectives": [
+    "Students will understand the importance of paragraph formatting in documents.",
+    "Students will learn how to apply alignment, indentation, and spacing options in Microsoft Word.",
+    "Students will practice formatting text using different styles."
+  ],
+  "rationale": [
+    "Proper paragraph formatting enhances the readability and professionalism of documents.",
+    "Understanding formatting tools helps students create well-structured documents for academic and professional use."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, guided practice, and hands-on exercises to teach paragraph formatting."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Paragraph Formatting</b>:<br><br><b>Discussion & Demonstration</b><br><br>1. What is Paragraph Formatting?<br>Explain that paragraph formatting refers to how text is arranged and spaced in a document.<br>Show a simple document with different formatting styles to compare plain and well-formatted text.<br><br>2. Why is it Important?<br>Makes documents easier to read.<br>Helps organize information clearly.<br>Creates professional-looking documents.<br><br>3. Where to Find Formatting Tools in Microsoft Word?<br>Open Microsoft Word and point out the Paragraph group in the Home tab.<br>Briefly introduce alignment, indentation, and spacing options.",
+      "<b>Part 2: Alignment Options</b>:<br><br><b>Explanation & Demonstration</b><br><br>1. What is Text Alignment?<br>It refers to the positioning of text within a document.<br><br>2. Types of Alignments:<br>Left Align (Ctrl + L): Default setting, text lines up on the left.<br>Center Align (Ctrl + E): Text is centered, useful for titles.<br>Right Align (Ctrl + R): Text lines up on the right, used for dates and signatures.<br>Justify (Ctrl + J): Text is evenly spread from left to right, used in books and newspapers.<br><br>3. Guided Practice:<br>Students type a short paragraph and apply different alignments.",
+      "<b>Part 3: Indentation Options</b>:<br><br><b>Explanation & Demonstration</b><br><br>1. What is Indentation?<br>Indentation is the space between the margin and the start of a paragraph.<br>Used to make text more readable and organized.<br><br>2. Types of Indentation:<br>First Line Indent: Moves only the first line of the paragraph.<br>Hanging Indent: All lines except the first line are indented (used in lists and references).<br>Left/Right Indent: Moves the entire paragraph to the left or right.<br><br>3. How to Apply Indentation:<br>Use the Increase/Decrease Indent buttons in the Home tab.<br>Open the Paragraph Dialog Box (Right-click → Paragraph).<br>Adjust indentation manually.<br><br>4. Guided Practice:<br>Students format a paragraph using different types of indentation.",
+      "<b>Part 4: Line and Paragraph Spacing</b>:<br><br><b>Explanation & Demonstration</b><br><br>1. What is Line and Paragraph Spacing?<br>The space between lines or paragraphs in a document.<br><br>2. How to Change Line Spacing:<br>Go to the Home tab → Click on the Line and Paragraph Spacing button.<br>Choose from Single (1.0), 1.5, or Double (2.0) spacing.<br><br>3. How to Adjust Paragraph Spacing:<br>Open the Paragraph Dialog Box and adjust Before and After Spacing.<br><br>4. Guided Practice:<br>Students type a paragraph and change the line and paragraph spacing.",
+      "<b>Part 5: Exercise – Applying Formatting</b>:<br><br><b>Activity</b>:<br>1. Students type the following passage in Microsoft Word:<br><br>'Microsoft Word is a powerful tool for creating documents. It allows users to format text, adjust alignment, and organize paragraphs effectively. Proper formatting makes writing clear and professional.'<br><br>2. Tasks:<br>Set the title 'Microsoft Word Formatting' to Center Alignment, Bold, and Size 16.<br>Format the paragraph using Justify Alignment.<br>Apply a First Line Indent of 1 inch.<br>Set Line Spacing to 1.5.<br>Add 10 pt spacing after the paragraph.<br><br><b>Review & Feedback</b>:<br>The teacher checks students’ work and provides feedback.<br>Students correct any mistakes and save their documents."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and guided practice.",
+    "<b>Practical Exercise</b>: The formatting exercise will assess students' ability to apply alignment, indentation, and spacing correctly."
+  ],
+  "conclusion": [
+    "Students will review key concepts: alignment, indentation, and spacing.",
+    "The teacher will ask students why formatting is important in professional documents.",
+    "Encourage students to practice formatting in their assignments."
+  ]
+},
 
 // Week 8
 // Lesson 1
