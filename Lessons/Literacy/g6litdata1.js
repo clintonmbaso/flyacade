@@ -685,5 +685,29 @@ const lessonPlans60a = [
   ]
 },
 
+// Lesson 2
+
+// Lesson 3
+
+// Week 8
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Week 9
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
+
+// Week 10
+// Lesson 1
+
+// Lesson 2
+
+// Lesson 3
 
 ];
