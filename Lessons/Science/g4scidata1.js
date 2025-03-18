@@ -615,10 +615,163 @@ const lessonPlans25a = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "The Importance of Forests",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, March 18, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Importance of Forests",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students about forests, their benefits, and how they support life by providing resources, maintaining the environment, and serving as homes for animals.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of forests and forest animals",
+    "Two trays of soil (one with plants, one without)",
+    "Water for demonstration"
+  ],
+  "objectives": [
+    "Understand what forests are and why they are important.",
+    "Explain how forests provide wood, shelter, food, and medicine.",
+    "Describe how forests help with rainfall and reduce soil erosion.",
+    "Discuss how people and animals depend on forests for survival."
+  ],
+  "rationale": [
+    "Forests play a crucial role in maintaining life on Earth. Understanding their importance helps students appreciate and protect the environment."
+  ],
+  "methodology": [
+    "Discussion-based learning",
+    "Hands-on demonstration",
+    "Use of visual aids and real-life examples"
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What Are Forests and Why Are They Important?</b>:<br><br>Discussion:<br>Ask students what they think a forest is.<br>Explain that a forest is a large area covered with many trees, plants, and animals.<br>Tell them forests are home to many living things, including birds, insects, and big animals like elephants and tigers.<br>Ask: 'Why do you think forests are important to people and animals?'<br>Write their ideas on the board before moving to the next part.",
+      "<b>Part 2: How Forests Provide Wood, Shelter, Food, and Medicine</b>:<br><br>Explanation & Examples:<br><b>Wood:</b> Trees from forests are cut to make furniture, houses, and even paper. Many people use firewood from forests for cooking.<br><b>Shelter:</b> Forests provide homes for people who live near them and for animals like birds, monkeys, and snakes.<br><b>Food:</b> Many fruits, nuts, and vegetables come from forests, such as mangoes, berries, and mushrooms.<br><b>Medicine:</b> Some trees and plants are used to make medicine, such as neem, which helps with skin problems, and quinine, which treats malaria.<br><br>Activity:<br>Ask students to name items in the classroom that come from trees. (Examples: books, pencils, wooden desks)<br>Discuss how people use forests in their daily lives.",
+      "<b>Part 3: How Forests Help with Rainfall and Reduce Soil Erosion</b>:<br><br>Discussion & Demonstration:<br><b>Rainfall:</b> Forests help bring rain because trees release moisture into the air, which forms clouds and leads to rain. More trees mean more rain!<br><b>Soil Erosion:</b> Trees hold the soil with their roots, preventing it from being washed away by rain or blown away by the wind. When trees are cut down, the soil becomes loose and can be carried away, making the land dry and less fertile.<br><br>Simple Experiment:<br>Take two trays of soil: one with plants and one without.<br>Pour water on both trays and observe what happens.<br>The tray with plants will hold the soil better, showing how trees help prevent erosion.",
+      "<b>Part 4: How People and Animals Depend on Forests</b>:<br><br>Discussion & Examples:<br><b>People:</b> Many communities live in or near forests and depend on them for their homes, food, and jobs. Some people collect honey, grow crops, or use the wood to make furniture.<br><b>Animals:</b> Forests are home to many animals, such as lions, elephants, monkeys, and birds. If forests are destroyed, these animals lose their homes and may become endangered.<br><b>The Air We Breathe:</b> Trees take in carbon dioxide and release oxygen, which we need to breathe. Without forests, the air would be more polluted.<br><br>Activity:<br>Show pictures of animals that live in the forest.<br>Ask students to name their favorite forest animals and describe how they depend on trees.",
+      "<b>Part 5: Exercise – Checking Understanding</b>:<br><br><b>1. Fill in the Blanks:</b><br>Forests provide us with ____, ____, ____, and ____. <br>Trees help bring ____, which is important for farmers.<br>Forests help stop ____ ____ by holding the soil in place.<br><br><b>2. True or False:</b><br>Forests help animals by giving them shelter. (True/False)<br>Trees release carbon dioxide into the air. (True/False)<br>Cutting down too many trees can lead to less rain. (True/False)<br><br><b>3. Short Answer:</b><br>Name three things people get from forests.<br>How do forests help in reducing soil erosion?<br>What would happen if all forests disappeared?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blanks, true/false, and short answer questions will assess students' understanding of the lesson."
+  ],
+  "conclusion": [
+    "Forests are important for people, animals, and the environment.",
+    "We must take care of forests by planting more trees and stopping deforestation.",
+    "Everyone should help protect forests so that future generations can enjoy their benefits."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "The Effects of Human Activities on Forests",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "The Effects of Human Activities on Forests",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students how human activities impact forests, the causes of deforestation, soil erosion, and drought, the importance of forests in our environment, and ways to reduce negative effects on forests.",
+  "materials": [
+    "Pictures of forests before and after deforestation",
+    "Charts showing causes and effects of deforestation",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Understand how human activities impact forests.",
+    "Identify the causes of deforestation, soil erosion, and drought.",
+    "Recognize the importance of forests in our environment.",
+    "Suggest ways to reduce the negative effects of human activities on forests."
+  ],
+  "rationale": [
+    "Forests play a crucial role in maintaining a balanced environment. Understanding the impact of human activities on forests helps students learn the importance of conservation and sustainable practices."
+  ],
+  "methodology": [
+    "The lesson will use discussions, visual aids, and interactive exercises to engage students in learning about deforestation, soil erosion, and drought."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Forests and Their Importance</b>:<br><br>Discussion Questions:<br>What is a forest?<br>Why are forests important?<br>Can you name some animals and plants that live in the forest?<br><br>Explanation:<br>Forests are large areas covered with trees and other plants. They provide homes for many animals, give us oxygen to breathe, and help keep the air clean. Forests also help bring rain and prevent soil from being washed away.",
+      "<b>Part 2: Human Activities Leading to Deforestation</b>:<br><br>Discussion Questions:<br>What do people do in forests?<br>Why do people cut down trees?<br>What do you think happens when too many trees are cut down?<br><br>Explanation:<br>Deforestation is when people cut down many trees in a forest. This happens for different reasons, such as:<br>1. Farming – People clear forests to plant crops.<br>2. Building – Trees are cut to make space for roads, houses, and cities.<br>3. Logging – Trees are cut down for wood to make furniture and paper.<br>4. Fires – Some forests are burned down to clear land quickly.<br><br>When too many trees are cut down, the forest cannot grow back fast enough, which harms the environment.",
+      "<b>Part 3: Soil Erosion and Its Effects</b>:<br><br>Discussion Questions:<br>Have you ever seen soil being washed away by rain?<br>Why do you think trees help stop this from happening?<br><br>Explanation:<br>Soil erosion happens when wind or water washes away the top layer of soil. Trees help keep the soil in place with their roots. When trees are cut down, there is nothing to hold the soil together, and it gets washed away easily. This makes it harder for plants to grow and can even lead to landslides.",
+      "<b>Part 4: Droughts and Climate Change</b>:<br><br>Discussion Questions:<br>What happens when there is no rain for a long time?<br>How do trees help bring rain?<br><br>Explanation:<br>Trees help make rain by releasing moisture into the air. When forests are destroyed, there are fewer trees to help bring rain. This can cause droughts, which means there is not enough water for plants, animals, and people.<br><br>Deforestation also leads to climate change, making some places hotter and drier than before. This affects the weather, making it harder for farmers to grow food.",
+      "<b>Part 5: Exercise – What Can We Do to Protect Forests?</b>:<br><br>Activity:<br>1. Why are forests important? (List three reasons)<br>2. What are three causes of deforestation?<br>3. How does cutting down trees lead to soil erosion?<br>4. What is a drought, and how does it happen?<br>5. Name two ways we can help protect forests.<br><br>Discussion:<br>After students complete the exercise, discuss answers as a class and talk about what they can do to protect trees, such as:<br>- Planting more trees<br>- Using less paper<br>- Not cutting trees unnecessarily."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and their engagement in exercises.",
+    "<b>Exercise</b>: The five-question exercise will evaluate students' understanding of the impact of human activities on forests."
+  ],
+  "conclusion": [
+    "Forests are very important for our planet, and human activities like deforestation, farming, and construction can harm them. When forests are destroyed, it leads to soil erosion, droughts, and climate change. We must work together to take care of our forests and keep the environment healthy."
+  ]
+},
 
 // Lesson 3
+{
+  "title": "Ways of Conserving Forests",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Ways of Conserving Forests",
+  "grade": "Sky Soarers",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about the importance of forests and different ways to conserve them, including tree planting, avoiding bushfires, using alternative heating systems, and controlling logging.",
+  "materials": [
+    "Pictures of forests and deforested areas",
+    "Whiteboard and markers",
+    "Paper and crayons for poster-making"
+  ],
+  "objectives": [
+    "Understand the importance of forests.",
+    "Identify different ways to conserve forests.",
+    "Explain how each conservation method helps protect forests.",
+    "Participate in activities that promote forest conservation."
+  ],
+  "rationale": [
+    "Forests play a crucial role in maintaining the environment, providing oxygen, preventing soil erosion, and supporting biodiversity. Teaching students ways to conserve forests will encourage responsible environmental practices."
+  ],
+  "methodology": [
+    "Discussion, group activities, presentations, and written exercises."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – Importance of Forests (10 minutes)</b>:<br><br>Begin by asking students:<br>Why are forests important?<br>What do we get from forests?<br><br>Discussion Points:<br>Forests provide oxygen, absorb carbon dioxide, and help control climate.<br>They are home to many animals and plants.<br>People use forests for timber, medicine, and food.<br>Forests help prevent soil erosion and maintain rainfall patterns.<br><br>Encourage students to share their experiences with forests or trees in their community.",
+      "<b>Part 2: Ways to Conserve Forests (15 minutes)</b>:<br><br>Introduce the main conservation methods:<br><br>1. Tree Planting<br>Planting trees to replace those that have been cut down.<br>Schools, communities, and governments can organize tree-planting programs.<br>Trees take years to grow, so early planting is essential.<br><br>2. Avoiding Bush Fires<br>Fires destroy forests and kill animals.<br>Careless activities like burning grass or throwing burning materials can cause wildfires.<br>People should be educated on fire safety, and firebreaks should be created in forests.<br><br>3. Using Alternative Heating Systems<br>Many people cut down trees for firewood and charcoal.<br>Using alternative energy sources like solar power, biogas, and electricity can reduce tree cutting.<br><br>4. Controlling Logging (Cutting Down Trees)<br>Logging companies should only cut mature trees and plant new ones.<br>Illegal logging should be stopped to prevent forest destruction.",
+      "<b>Part 3: Group Activity – Discuss and Present Solutions (15 minutes)</b>:<br><br>Divide students into small groups.<br>Each group discusses one method of conserving forests and presents their ideas to the class.<br>Encourage creativity – they can act out a skit, draw a poster, or make a short speech.",
+      "<b>Part 4: Conclusion – Summarizing Key Points (10 minutes)</b>:<br><br>Ask students:<br>What are some ways to conserve forests?<br>How can you help conserve forests in your community?<br><br>Summarize the key points:<br>Plant more trees.<br>Avoid activities that cause bushfires.<br>Use alternative heating systems instead of firewood.<br>Stop illegal logging and support responsible tree-cutting.<br><br>Encourage students to share what they will do to help protect forests.",
+      "<b>Part 5: Exercise (Written Activity)</b>:<br><br>1. Fill in the blanks:<br>a) Trees help provide ______ and absorb ______.<br>b) A major cause of forest destruction is ______.<br>c) One way to conserve forests is ______.<br><br>2. True or False:<br>a) Cutting down trees without planting new ones helps forests grow. (False)<br>b) Solar energy can help reduce tree cutting. (True)<br>c) Bush fires help forests grow better. (False)<br><br>3. Short Answer:<br>Mention three ways to conserve forests.<br>Why is tree planting important?<br>How can bushfires harm forests?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during discussions and group activities.",
+    "<b>Exercise</b>: The written activity will assess students' understanding of forest conservation methods."
+  ],
+  "conclusion": [
+    "By learning about forest conservation, students will understand the importance of protecting natural resources and apply conservation methods in their communities."
+  ],
+  "homework": [
+    "Draw a poster encouraging people to conserve forests.",
+    "Write a short paragraph about how you can help save trees in your community."
+  ]
+},
 
 // Week 8
 // Lesson 1
