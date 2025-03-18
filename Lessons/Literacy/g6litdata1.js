@@ -686,6 +686,56 @@ const lessonPlans60a = [
 },
 
 // Lesson 2
+{
+  "title": "Words Without Vowels",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Literacy",
+  "topic": "Understanding Vowelless Words",
+  "grade": "Nimbus Navigators",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to vowelless words, their significance, and how they function in the English language.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed word lists",
+    "Worksheets with exercises"
+  ],
+  "objectives": [
+    "Students will understand what vowelless words are.",
+    "Students will identify words that have no traditional vowels but contain 'Y' as a vowel.",
+    "Students will recognize rare words that have no vowels, including 'Y'.",
+    "Students will apply their understanding through an exercise."
+  ],
+  "rationale": [
+    "Learning about vowelless words enhances vocabulary, spelling skills, and word recognition.",
+    "Understanding the role of 'Y' as a vowel improves phonetic awareness.",
+    "Knowing rare vowelless words helps students in word games like Scrabble and crossword puzzles."
+  ],
+  "methodology": [
+    "The lesson will use discussions, examples, and interactive exercises to engage students in understanding vowelless words."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Vowelless Words</b>:<br><br>Start by asking students: 'Can you think of a word that has no vowels?'<br><br>Explain that vowels in English are A, E, I, O, and U.<br><br>Mention that while most English words contain at least one vowel, some words seem to have none.<br><br>Introduce the term 'vowelless words'—words that lack A, E, I, O, or U.<br><br>Example: 'Rhythm' has no A, E, I, O, or U, yet it is a word.",
+      "<b>Part 2: The Role of 'Y' as a Vowel</b>:<br><br>Explain that the letter 'Y' can act as a consonant (as in yes, yellow) and as a vowel (as in rhythm, myth).<br><br>In many vowelless words, 'Y' takes on the role of a vowel.<br><br>Examples of such words:<br>Rhythm – a pattern of beats in music.<br>Myth – a traditional story.<br>Crypt – an underground room.<br>Lynx – a type of wild cat.",
+      "<b>Part 3: Words Without Any Vowels (Even 'Y')</b>:<br><br>These words are rare but do exist.<br><br>Examples:<br>Nth – used in mathematics (e.g., 'to the nth degree').<br>Tsk – a sound made to show disapproval (e.g., 'Tsk-tsk').<br><br>Discuss how these words are used in English.<br><br>Ask students if they can think of any other vowelless words.",
+      "<b>Part 4: Why Are These Words Important?</b>:<br><br>Explain that knowing vowelless words helps in word games like Scrabble and crossword puzzles.<br><br>These words also help in understanding how English works and how sounds are formed.<br><br>Discuss how English adapts and evolves with unique word structures.",
+      "<b>Part 5: Exercise (Application)</b>:<br><br><b>A. Identify the Vowelless Words</b><br>Mark the words that have no vowels (A, E, I, O, U). Circle those that only use 'Y' as a vowel.<br>1. Rhythm<br>2. Myth<br>3. Apple<br>4. Crypt<br>5. Lynx<br>6. Tsk<br>7. Nth<br>8. Table<br><br><b>B. Fill in the Blanks</b><br>Fill in the missing letters with 'Y' where appropriate.<br>1. R_ _ thm<br>2. M_ _ h<br>3. L_ _ nx<br>4. Cr_ _ pt<br><br><b>C. Challenge Question</b><br>Can you come up with a new word that contains no A, E, I, O, or U?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and their ability to identify vowelless words.",
+    "<b>Exercise</b>: The worksheet will be used to assess students’ understanding of vowelless words."
+  ],
+  "conclusion": [
+    "By learning about vowelless words, students will expand their vocabulary and develop a better understanding of English word structures."
+  ]
+},
 
 // Lesson 3
 
