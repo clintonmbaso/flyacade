@@ -227,18 +227,21 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: transparent;
     color: #fff;
     padding: 3px;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     align-content: center;
     align-items: center;
+    font-size: 40px;
 }
-
+.search-iconing:hover {
+    background: none;
+}
 #label {
 	background-color: cadetblue;
 	border-radius: 10px 10px 0 0;
@@ -254,7 +257,7 @@ button {
 	height: auto;
 }
 .search-iconing i {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 #toptitle {
