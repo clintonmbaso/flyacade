@@ -423,20 +423,185 @@ const lessonPlans50a = [
     "By learning about different types of flour and the role of yeast in baking, students will gain hands-on experience in preparing flour mixtures like buns and fritters."
   ]
 },
-/*
+
 // Week 7
 // Lesson 1
-
+{
+  "title": "Introduction to Hospitality",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, March 2, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Introduction to Hospitality",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the meaning, importance, areas, and basic skills of hospitality.",
+  "materials": [
+    "Whiteboard and markers",
+    "Role-play props (optional)",
+    "Printed worksheets for exercises"
+  ],
+  "objectives": [
+    "Students will understand the meaning of hospitality.",
+    "Students will learn about the importance of hospitality in various settings.",
+    "Students will explore different areas of the hospitality industry.",
+    "Students will practice basic hospitality skills."
+  ],
+  "rationale": [
+    "Understanding hospitality is essential for students as it helps build empathy, promotes respectful behavior, and introduces them to career opportunities in hospitality-related fields."
+  ],
+  "methodology": [
+    "The lesson will use explanations, class discussions, role-play activities, and exercises to engage students in understanding hospitality."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Hospitality?</b>:<br><br>Hospitality is the friendly and generous treatment of guests or strangers. It involves welcoming people warmly, making them feel comfortable, and ensuring they have a good experience. Hospitality is important at home, in hotels, restaurants, and in many other places.<br><br>Discussion Questions:<br>Have you ever visited someone who made you feel very welcome? What did they do?<br>How do you show hospitality at home when guests visit?",
+      "<b>Part 2: Importance of Hospitality</b>:<br><br>Hospitality is important because:<br>1. It makes people feel valued and comfortable.<br>2. It helps build strong relationships.<br>3. It creates good experiences in hotels, restaurants, and other businesses.<br>4. It provides jobs for many people in the hospitality industry.<br><br>Class Activity:<br>Role-play: Ask students to act out a situation where they welcome a guest to their home or school.",
+      "<b>Part 3: Areas of Hospitality</b>:<br><br>Hospitality is a big industry with different areas, including:<br>1. Hotels & Lodging – Places where people stay overnight, like hotels and guest houses.<br>2. Food & Beverage – Restaurants, cafes, and catering services that serve food and drinks.<br>3. Tourism & Travel – Helping travelers feel comfortable in new places.<br>4. Entertainment & Events – Organizing parties, concerts, and celebrations.<br><br>Class Discussion:<br>Ask students to name places they have visited that provide hospitality services.<br>Discuss what makes a good experience in hotels or restaurants.",
+      "<b>Part 4: Basic Hospitality Skills</b>:<br><br>People working in hospitality need important skills, such as:<br>1. Politeness – Speaking kindly and using words like 'please' and 'thank you.'<br>2. Good Communication – Listening carefully and answering questions clearly.<br>3. Cleanliness & Organization – Keeping places tidy and well-arranged.<br>4. Friendliness & Patience – Smiling and helping guests feel comfortable.<br><br>Activity:<br>Ask students to practice introducing themselves and welcoming a visitor in a polite way.",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>1. Fill in the Blanks:<br>1. Hospitality means __________ and __________ treatment of guests.<br>2. A place where people stay overnight is called a __________.<br>3. __________ is the area of hospitality that serves food and drinks.<br>4. One important skill in hospitality is __________, which means being kind and respectful.<br>5. __________ helps travelers feel comfortable when they visit new places.<br><br>2. True or False:<br>1. Hospitality only happens in hotels. (False)<br>2. Good hospitality helps build strong relationships. (True)<br>3. People in hospitality should be rude and unfriendly. (False)<br>4. Cleanliness is not important in hospitality. (False)<br>5. The hospitality industry provides jobs for many people. (True)<br><br>3. Discussion Question:<br>Imagine you are welcoming a visitor to your school. What would you do to make them feel comfortable?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the role-play and class discussions.",
+    "<b>Exercise</b>: The fill-in-the-blanks and true/false exercise will assess the students' understanding of hospitality."
+  ],
+  "conclusion": [
+    "Hospitality is about being kind, welcoming, and making guests feel comfortable. It is important in various settings such as homes, hotels, restaurants, and events. By practicing good hospitality skills like politeness, communication, and cleanliness, we can create great experiences for others."
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Non-Verbal Communication in Hospitality",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Non-Verbal Communication in Hospitality",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "By the end of the lesson, students will understand the importance of non-verbal communication in hospitality, recognize different types of non-verbal cues, and practice using them in real-life situations.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of different facial expressions",
+    "Role-play scenario cards"
+  ],
+  "objectives": [
+    "Students will understand the importance of non-verbal communication in hospitality.",
+    "Students will recognize different types of non-verbal cues.",
+    "Students will practice using non-verbal communication in real-life hospitality situations."
+  ],
+  "rationale": [
+    "Non-verbal communication plays a crucial role in hospitality by helping create a welcoming and friendly environment for guests.",
+    "Understanding non-verbal cues enhances customer service and avoids misunderstandings."
+  ],
+  "methodology": [
+    "The lesson will use discussions, role-playing, and visual demonstrations to teach non-verbal communication in hospitality."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Non-Verbal Communication?</b>:<br><br>Non-verbal communication is the way we express ourselves without using words. In hospitality, non-verbal cues help create a welcoming and friendly environment for guests.<br><br>Examples of Non-Verbal Communication:<br>1. Facial Expressions – Smiling shows friendliness, while frowning can make someone feel unwelcome.<br>2. Gestures – Waving, nodding, or giving a thumbs-up can communicate a message without words.<br>3. Body Language – Standing straight with open arms looks welcoming, while crossed arms may seem unfriendly.<br>4. Eye Contact – Looking at people when talking shows respect and attentiveness.<br>5. Tone of Voice – Even though it involves speaking, the way we say something (softly or harshly) can change the meaning.<br><br>Discussion Questions:<br>Have you ever communicated with someone without using words? How did you do it?<br>How can a simple smile make a guest feel welcome?",
+      "<b>Part 2: Importance of Non-Verbal Communication in Hospitality</b>:<br><br>In hospitality, guests often form impressions based on body language and facial expressions. Good non-verbal communication helps:<br>1. Make guests feel welcome – A smile and a friendly nod create a warm atmosphere.<br>2. Show attentiveness – Nodding and eye contact let guests know you are listening.<br>3. Avoid misunderstandings – Clear gestures help guests understand directions or instructions.<br>4. Improve customer satisfaction – A positive attitude makes guests feel valued and respected.<br><br>Class Activity:<br>Show different facial expressions (happy, sad, confused, angry) and ask students to guess what each one means.<br>Practice giving directions using only gestures.",
+      "<b>Part 3: Common Non-Verbal Mistakes in Hospitality</b>:<br><br>Some non-verbal actions can make guests feel uncomfortable, including:<br>1. Avoiding eye contact – Makes guests feel ignored or unimportant.<br>2. Crossing arms – Can look unfriendly or uninterested.<br>3. Speaking in a harsh tone – Even if the words are polite, the tone can change the meaning.<br>4. Ignoring personal space – Standing too close can make guests uncomfortable.<br><br>Class Discussion:<br>How can we improve our body language when welcoming guests?<br>What should we avoid doing when interacting with guests?",
+      "<b>Part 4: Practicing Non-Verbal Communication</b>:<br><br>Activity:<br>1. Hospitality Role-Play:<br>Students take turns acting as hotel receptionists, restaurant servers, or tour guides, using only non-verbal communication to welcome guests.<br>The rest of the class observes and gives feedback on their gestures and expressions.<br><br>2. Silent Greeting Game:<br>Pair students and have them greet each other using only non-verbal cues like a wave, handshake, or bow.",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>1. Match the Non-Verbal Cues with Their Meaning.<br><br>2. True or False:<br>1. Smiling can make a guest feel welcome. (True)<br>2. Avoiding eye contact shows confidence. (False)<br>3. A friendly wave is a type of non-verbal communication. (True)<br>4. Speaking in a loud and harsh tone makes guests feel comfortable. (False)<br>5. Good non-verbal communication helps guests feel valued. (True)<br><br>3. Discussion Question:<br>Why is non-verbal communication important in hospitality, and how can we use it to make guests feel welcome?"
+    ]
+  ]
+},
 
 // Week 8
 // Lesson 1
-
+{
+  "title": "Written Communication in Hospitality",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Written Communication in Hospitality",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "By the end of the lesson, students will understand the importance of written communication in hospitality, learn different types of written communication, and practice writing simple hospitality-related messages.",
+  "materials": [
+    "Whiteboard and markers",
+    "Printed examples of hospitality messages",
+    "Paper and pens"
+  ],
+  "objectives": [
+    "Students will understand the importance of written communication in hospitality.",
+    "Students will learn different types of written communication used in hospitality.",
+    "Students will practice writing simple hospitality-related messages."
+  ],
+  "rationale": [
+    "Effective written communication is essential in hospitality to provide clear instructions, confirm details, and assist guests efficiently."
+  ],
+  "methodology": [
+    "The lesson will use explanations, discussions, and hands-on writing activities to reinforce the importance of written communication in hospitality."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Written Communication?</b>:<br><br>Explanation:<br>Written communication involves using words on paper, signs, or digital messages to share information. In hospitality, written communication is important because it helps provide clear instructions, confirm details, and assist guests.<br><br>Examples of Written Communication in Hospitality:<br>1. Welcome Notes – A short note to greet guests in a hotel or restaurant.<br>2. Menus – A list of food and drinks in a restaurant.<br>3. Reservation Confirmations – Messages confirming hotel bookings or restaurant reservations.<br>4. Signage & Directions – Signs that help guests find their way (e.g., 'Reception,' 'Restrooms').<br>5. Feedback Forms – Guests use these to give their opinions about a service.<br><br>Discussion Questions:<br>Have you ever seen a welcome note in a hotel or restaurant? What did it say?<br>Why is it important to write messages clearly in hospitality?",
+      "<b>Part 2: Importance of Written Communication in Hospitality</b>:<br><br>Explanation:<br>Good written communication helps in hospitality by:<br>1. Providing Clear Information – Helps guests understand hotel or restaurant services.<br>2. Avoiding Confusion – Ensures guests receive the correct details about bookings or services.<br>3. Making Guests Feel Welcome – Personalized messages make guests feel valued.<br>4. Improving Customer Experience – Well-written menus, signs, and instructions create a smooth experience for visitors.<br><br>Class Activity:<br>Show students a sample hotel welcome note and discuss what makes it polite and professional.<br>Ask students to brainstorm what they would write in a thank-you note for a guest.",
+      "<b>Part 3: Common Mistakes in Written Communication</b>:<br><br>Explanation:<br>Some mistakes can cause misunderstandings in hospitality, such as:<br>1. Spelling and Grammar Errors – Can make the message unclear.<br>2. Using Unfriendly Language – Messages should always sound polite and welcoming.<br>3. Not Providing Enough Details – Guests should get all the necessary information (e.g., check-in and check-out times).<br><br>Class Discussion:<br>What should we include in a good hotel welcome note?<br>How can we make a menu easy to understand?",
+      "<b>Part 4: Practicing Written Communication</b>:<br><br>Activity:<br>1. Writing a Welcome Note:<br>Students write a short welcome note for a hotel guest. Example:<br>Dear Guest, Welcome to Sunshine Hotel! We hope you have a comfortable stay. Please let us know if you need any assistance. Enjoy your visit!<br><br>2. Creating a Simple Menu:<br>Students design a menu for a small restaurant, including food categories and prices.<br><br>3. Writing a Reservation Confirmation:<br>Students write a short message confirming a guest’s hotel booking. Example:<br>Dear Mr. Smith, Your reservation at Ocean View Hotel is confirmed from July 10-12. Check-in time is 2:00 PM. We look forward to your stay!",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>1. Fill in the Blanks:<br>1. A menu is used in a __________ to show food and drink options.<br>2. A hotel welcome note should be __________ and polite.<br>3. A __________ confirmation informs guests about their booking details.<br>4. Signs in hotels help guests find places like the __________ and __________.<br>5. A __________ form allows guests to give feedback about their experience.<br><br>2. True or False:<br>1. Written communication is not important in hospitality. (False)<br>2. Spelling and grammar mistakes can confuse guests. (True)<br>3. A welcome note should always be polite and friendly. (True)<br>4. A menu does not need clear descriptions. (False)<br>5. Writing clear instructions helps guests have a better experience. (True)<br><br>3. Discussion Question:<br>Why is written communication important in hotels and restaurants, and how can we improve it?"
+    ]
+  ]
+},
 
 // Lesson 2
-
+{
+  "title": "Written Communication in Hospitality",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Home Economics",
+  "topic": "Written Communication in Hospitality",
+  "grade": "Avian Aces",
+  "term": "1",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "By the end of the lesson, students will understand the importance of written communication in hospitality, learn different types of written communication, and practice writing simple hospitality-related messages.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sample menus and reservation notes",
+    "Printed examples of welcome notes and signage"
+  ],
+  "objectives": [
+    "Students will understand the importance of written communication in hospitality.",
+    "Students will learn different types of written communication used in hospitality.",
+    "Students will practice writing simple hospitality-related messages."
+  ],
+  "rationale": [
+    "Clear and effective written communication ensures guests receive accurate information and enhances their experience in hospitality settings."
+  ],
+  "methodology": [
+    "The lesson will use discussions, examples, and writing exercises to help students develop written communication skills relevant to hospitality."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Written Communication?</b>:<br><br>Explanation:<br>Written communication involves using words on paper, signs, or digital messages to share information. In hospitality, written communication is important because it helps provide clear instructions, confirm details, and assist guests.<br><br>Examples of Written Communication in Hospitality:<br>1. Welcome Notes – A short note to greet guests in a hotel or restaurant.<br>2. Menus – A list of food and drinks in a restaurant.<br>3. Reservation Confirmations – Messages confirming hotel bookings or restaurant reservations.<br>4. Signage & Directions – Signs that help guests find their way (e.g., 'Reception,' 'Restrooms').<br>5. Feedback Forms – Guests use these to give their opinions about a service.<br><br>Discussion Questions:<br>Have you ever seen a welcome note in a hotel or restaurant? What did it say?<br>Why is it important to write messages clearly in hospitality?",
+      "<b>Part 2: Importance of Written Communication in Hospitality</b>:<br><br>Explanation:<br>Good written communication helps in hospitality by:<br>1. Providing Clear Information – Helps guests understand hotel or restaurant services.<br>2. Avoiding Confusion – Ensures guests receive the correct details about bookings or services.<br>3. Making Guests Feel Welcome – Personalized messages make guests feel valued.<br>4. Improving Customer Experience – Well-written menus, signs, and instructions create a smooth experience for visitors.<br><br>Class Activity:<br>Show students a sample hotel welcome note and discuss what makes it polite and professional.<br>Ask students to brainstorm what they would write in a thank-you note for a guest.",
+      "<b>Part 3: Common Mistakes in Written Communication</b>:<br><br>Explanation:<br>Some mistakes can cause misunderstandings in hospitality, such as:<br>1. Spelling and Grammar Errors – Can make the message unclear.<br>2. Using Unfriendly Language – Messages should always sound polite and welcoming.<br>3. Not Providing Enough Details – Guests should get all the necessary information (e.g., check-in and check-out times).<br><br>Class Discussion:<br>What should we include in a good hotel welcome note?<br>How can we make a menu easy to understand?",
+      "<b>Part 4: Practicing Written Communication</b>:<br><br>Activity:<br>1. Writing a Welcome Note:<br>Students write a short welcome note for a hotel guest. Example:<br>Dear Guest, Welcome to Sunshine Hotel! We hope you have a comfortable stay. Please let us know if you need any assistance. Enjoy your visit!<br><br>2. Creating a Simple Menu:<br>Students design a menu for a small restaurant, including food categories and prices.<br><br>3. Writing a Reservation Confirmation:<br>Students write a short message confirming a guest’s hotel booking. Example:<br>Dear Mr. Smith, Your reservation at Ocean View Hotel is confirmed from July 10-12. Check-in time is 2:00 PM. We look forward to your stay!",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>1. Fill in the Blanks:<br>1. A menu is used in a __________ to show food and drink options.<br>2. A hotel welcome note should be __________ and polite.<br>3. A __________ confirmation informs guests about their booking details.<br>4. Signs in hotels help guests find places like the __________ and __________.<br>5. A __________ form allows guests to give feedback about their experience.<br><br>2. True or False:<br>1. Written communication is not important in hospitality. (False)<br>2. Spelling and grammar mistakes can confuse guests. (True)<br>3. A welcome note should always be polite and friendly. (True)<br>4. A menu does not need clear descriptions. (False)<br>5. Writing clear instructions helps guests have a better experience. (True)<br><br>3. Discussion Question:<br>Why is written communication important in hotels and restaurants, and how can we improve it?"
+    ]
+  ]
+},
 
 // Week 9
 // Lesson 1
@@ -451,6 +616,6 @@ const lessonPlans50a = [
 
 // Lesson 2
 
-*/
+
 
 ];
