@@ -172,58 +172,7 @@ const lessonPlans32b = [
 
 // Week 4
 // Lesson 1
-{
-  "title": "Exploring the States of Matter",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Identifying and Differentiating Between the Three States of Matter",
-  "grade": "Cloud Chicks",
-  "term": "2",
-  "week": "4",
-  "lessonNumber": "1",
-  "description": "This lesson aims to help students identify and differentiate between the three states of matter: solid, liquid, and gas.",
-  "materials": [
-    "Various materials representing solids, liquids, and gases",
-    "Class chart or whiteboard",
-    "Examples of each state of matter"
-  ],
-  "objectives": [
-    "Students will identify the three states of matter: solid, liquid, and gas.",
-    "Students will differentiate between the characteristics of each state of matter."
-  ],
-  "rationale": [
-    "Understanding the states of matter is fundamental for comprehending many scientific concepts and phenomena."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive exploration, group discussions, and real-life examples to engage students in active learning."
-  ],
-  "activities": [
-    [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    [
-      "<b>Matter</b>: this refers to anything that occupies space and has mass. <br><br><strong>States of Matter</strong>: this refer to the distinct forms in which matter can exist: solid, liquid, and gas. Each state has unique physical properties that distinguish it from the others.",
-      "<b>Solids</b> are characterized by particles that are tightly packed together in a regular pattern. This arrangement gives solids a definite shape and volume. <br><em>Examples of solids include ice, wood, and metal.</em>",
-      "<b>Liquids</b> have particles that are more loosely packed compared to solids, allowing them to flow and take the shape of their container. However, liquids still have a definite volume. <br><em>Examples of liquids include water, milk, and oil.</em>",
-      "<b>Gases</b> have particles that are spaced far apart and move freely. Gases do not have a definite shape or volume and will expand to fill the container they are in. <br><em>Examples of gases include air, oxygen, and carbon dioxide.</em>",
-      "<b>Class Exercise</b>:<br>1. What is matter?<br>2. Name the three states of matter.<br>3. Which of the states of matter has particles freely moving around?"
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and hands-on activities.",
-    "<br><b>Homework</b>: <br>1. What do we call the process by which;<br>a. solids change to liquid.<br>b. liquid changes to gas.<br>c. gas changes to liquid.<br>d. liquid changes to solid."
-  ],
-  "conclusion": [
-    "By actively engaging in hands-on exploration and group discussions, students will develop a deeper understanding of the three states of matter and their distinguishing characteristics."
-  ]
-},
+
 
 // Week 5
 // Lesson 1
