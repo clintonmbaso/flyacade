@@ -3,6 +3,7 @@ const lessonPlans25b = [
 // Term 2
 // Week 2
 // Lesson 1
+/*
 {
   "title": "Introducing Forces and Motion",
   "school": "Flying Wings Academy",
@@ -335,7 +336,310 @@ const lessonPlans25b = [
   ],
   "pic": []
 },
+*/
 
+
+// Week 2
+// Lesson 1
+{
+  "title": "Introduction to Forces and Motion",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, May 26, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Forces and Motion",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "2",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concepts of forces and motion, distinguishing between push and pull and identifying how forces work in everyday life.",
+  "materials": [
+    "Flashcards",
+    "Ball",
+    "Classroom objects (e.g., pencil cases, chairs)",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Define the terms forces and motion.",
+    "Distinguish between a push and a pull."
+  ],
+  "rationale": [
+    "Understanding the concept of forces and motion helps students recognize physical interactions in their daily lives and builds a foundation for physics-related topics."
+  ],
+  "methodology": [
+    "The lesson will use explanation, demonstrations, interactive discussions, and physical activities to help students grasp the ideas of forces and motion."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – What is a Force?</b>:<br><br>Teacher Explanation:<br>Begin by asking: “Have you ever pushed a door or pulled a toy?”<br><br>Explain: A force is a push or a pull on something.<br><br>Use real-life examples: Pushing a swing, pulling a drawer, or kicking a ball.<br><br>Emphasize: We use forces every day.<br><br>Key Point:<br>A force can start, stop, or change the movement of something.<br><br>Activity:<br>Let students act out pushing and pulling objects in the classroom (e.g., chairs, pencil cases).",
+      "<b>Part 2: What is Motion?</b>:<br><br>Teacher Explanation:<br>Ask: “What happens when you push a ball?”<br><br>Explain: Motion means something is moving.<br><br>A force causes motion.<br><br>Example:<br>When you kick (apply force to) a football, it rolls (motion).<br><br>Key Point:<br>Motion is the change in position of an object.<br><br>An object moves because of force.<br><br>Mini-Demo:<br>Roll a ball and ask students what made it move.",
+      "<b>Part 3: Push vs Pull</b>:<br><br>Teacher Explanation:<br>A push moves something away from you.<br><br>A pull brings something closer to you.<br><br>Examples:<br>Push: Pushing a door open.<br><br>Pull: Pulling a rope in tug-of-war.<br><br>Visual Aid:<br>Show flashcards or draw arrows on the board showing push and pull directions.<br><br>Class Activity:<br>Play a sorting game: Students list actions as either “push” or “pull.”",
+      "<b>Part 4: Forces in Everyday Life</b>:<br><br>Teacher Discussion:<br>Ask students to name times during their day when they push or pull things.<br><br>Talk about riding a bike (pushing pedals), opening curtains (pulling), closing books (pushing).<br><br>Key Point:<br>Forces are all around us – on the playground, at home, and in class.<br><br>Group Task:<br>In groups, students act out a force and the class guesses if it's a push or a pull.",
+      "<b>Part 5: Exercise – Check Your Understanding</b>:<br><br>A. Fill in the blanks:<br>1. A ________ is a push or pull.<br>2. ________ is when something is moving.<br>3. We use ________ to open and close doors.<br><br>B. Circle the correct answer:<br>4. When I kick a ball, I am using (push / pull).<br>5. When I open a drawer towards me, it is a (push / pull).<br><br>C. Sort these actions into push or pull:<br>Pulling a rope<br>Shutting a door<br>Drawing curtains open<br>Pushing a trolley<br><br>D. Match the column:<br><br>Action | Push or Pull<br>Kick a ball | ________<br>Open a fridge | ________<br>Drag a chair | ________<br>Close a book | ________"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students’ participation in activities and their responses during discussions.",
+    "<b>Exercise</b>: The written exercise will assess students’ understanding of the differences between push and pull, and their grasp of the concepts of force and motion."
+  ],
+  "conclusion": [
+    "Students will understand that a force is a push or pull and that motion happens when an object moves. They will also be able to identify examples of push and pull in everyday life."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Types of Forces – Gravity, Friction, and Magnetism",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Types of Forces – Gravity, Friction, and Magnetism",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "2",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to three main types of forces—gravity, friction, and magnetism—through explanation, real-life examples, demonstrations, and student activities.",
+  "materials": [
+    "Objects to drop (e.g. pencils, apples)",
+    "Magnets",
+    "Metal and non-metal items",
+    "Erasers",
+    "Various surface materials (cloth, paper, wood)"
+  ],
+  "objectives": [
+    "Define the terms gravity, friction, and magnetism.",
+    "Identify examples of each type of force and describe their effects."
+  ],
+  "rationale": [
+    "Understanding forces helps students make sense of the physical world around them and recognize the effects of unseen interactions in everyday life."
+  ],
+  "methodology": [
+    "The lesson will involve explanations, demonstrations, questions, and observation-based activities to help students engage and interact with physical forces."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Understanding Gravity</b>:<br><br>Teacher Explanation:<br>Ask: “What happens when you drop your pencil?”<br><br>Introduce: Gravity is a force that pulls objects down toward the Earth.<br><br>Say: “Gravity keeps us on the ground and makes things fall.”<br><br>Examples:<br>Dropping an apple<br>Jumping up and coming back down<br>A leaf falling from a tree<br><br>Key Point:<br>Gravity is a pulling force acting toward the center of the Earth.<br><br>Mini-Demo:<br>Let students drop different objects and observe how they fall.",
+      "<b>Part 2: Exploring Friction</b>:<br><br>Teacher Explanation:<br>Ask: “What happens when you slide on a smooth floor vs. a carpet?”<br><br>Introduce: Friction is a force that slows things down or stops them when they rub against each other.<br><br>Examples:<br>Rubbing hands together (heat from friction)<br>Trying to push a box on the floor<br>Brakes stopping a bicycle<br><br>Key Point:<br>Friction is a slowing force that acts between two surfaces.<br><br>Activity:<br>Let students slide an eraser on different surfaces (table, paper, cloth) and observe.",
+      "<b>Part 3: Discovering Magnetism</b>:<br><br>Teacher Explanation:<br>Ask: “Have you ever played with magnets?”<br><br>Introduce: Magnetism is a force that can pull or push certain objects, like metal.<br><br>Only objects made of materials like iron are affected by magnets.<br><br>Examples:<br>Magnets on the fridge<br>Picking up nails with a magnet<br>Repelling or attracting another magnet<br><br>Key Point:<br>Magnetism can be a push or pull force and works without touching the object.<br><br>Mini-Demo:<br>Let students try magnets with metal and non-metal objects.",
+      "<b>Part 4: Real-Life Effects of These Forces</b>:<br><br>Teacher Discussion:<br>Ask: “Where do you see these forces in real life?”<br><br>Gravity: Keeps us on Earth, helps things fall<br>Friction: Stops cars, helps us walk without slipping<br>Magnetism: Used in fridge doors, speakers, toys<br><br>Class Brainstorm:<br>Let students give more real-life examples of each force. Write them on the board under three columns: Gravity, Friction, Magnetism.",
+      "<b>Part 5: Exercise – Let’s Check What You Learned</b>:<br><br>A. Match the term to the correct definition:<br>1. Gravity<br>2. Friction<br>3. Magnetism<br><br>a) A force that slows or stops moving objects<br>b) A force that pulls objects toward the Earth<br>c) A force that pulls or pushes certain metals<br><br>B. Fill in the blanks:<br>4. ______ helps you stay on the ground.<br>5. ______ can stop a toy car when it rolls on the carpet.<br>6. ______ can attract nails without touching them.<br><br>C. Circle the correct example:<br>7. Which one shows friction?<br>(a) A magnet picking up a coin<br>(b) Sliding a box across the floor<br>(c) Dropping a book<br><br>8. Which one shows magnetism?<br>(a) A leaf falling<br>(b) A fridge magnet holding a note<br>(c) A boy running<br><br>9. Which one shows gravity?<br>(a) Throwing a ball and it comes down<br>(b) Two magnets sticking<br>(c) A car stopping with brakes<br><br>D. Write one example each of:<br>Gravity: ____________<br>Friction: ____________<br>Magnetism: ____________"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students during the demonstrations and group activities to assess their understanding.",
+    "<b>Exercise</b>: The final written activity will test students’ ability to identify and describe types of forces."
+  ],
+  "conclusion": [
+    "Through demonstrations and examples, students gain foundational understanding of gravity, friction, and magnetism, and how these forces operate in everyday life."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "Acceleration and Deceleration",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, June 10, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Acceleration and Deceleration",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "2",
+  "lessonNumber": "3",
+  "description": "This lesson introduces students to the concepts of acceleration and deceleration, helping them understand how speed changes and the forces involved.",
+  "materials": [
+    "Toy car",
+    "Ball",
+    "Chart paper and markers",
+    "Whiteboard",
+    "Visual aids of vehicles moving and stopping"
+  ],
+  "objectives": [
+    "Define the terms acceleration and deceleration.",
+    "Differentiate between acceleration and deceleration using examples."
+  ],
+  "rationale": [
+    "Understanding acceleration and deceleration helps students grasp basic physics concepts and recognize these changes in speed in everyday life."
+  ],
+  "methodology": [
+    "The lesson will use teacher explanations, demonstrations, class discussions, and physical activities to make the concepts of acceleration and deceleration relatable and clear."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What is Acceleration?</b>:<br><br>Teacher Explanation:<br>Ask: “What happens when a car starts to go faster?”<br><br>Define: Acceleration is when something speeds up.<br>It means an object is moving faster and faster over time.<br><br>Examples:<br>A car starting to move and gaining speed<br>A bicycle going faster downhill<br>A sprinter running faster after starting the race<br><br>Key Point:<br>Acceleration = Increase in speed<br><br>Mini-Demo:<br>Use a toy car. Push it gently first, then push harder so it moves faster. Ask: “What changed?”",
+      "<b>Part 2: What is Deceleration?</b>:<br><br>Teacher Explanation:<br>Ask: “What happens when you press the brakes on a bike?”<br><br>Define: Deceleration is when something slows down.<br>It means the object is reducing its speed or coming to a stop.<br><br>Examples:<br>A car stopping at a traffic light<br>A bicycle slowing down before a turn<br>A rolling ball that comes to a stop<br><br>Key Point:<br>Deceleration = Decrease in speed<br><br>Mini-Demo:<br>Roll a ball and let it slow down on its own. Ask: “Why did it stop?”",
+      "<b>Part 3: Comparing Acceleration and Deceleration</b>:<br><br>Teacher Discussion:<br>Use a chart or drawing to show the difference:<br><br><table border='1'><tr><th>Word</th><th>Meaning</th><th>Example</th></tr><tr><td>Acceleration</td><td>Speeding up</td><td>Car going faster</td></tr><tr><td>Deceleration</td><td>Slowing down</td><td>Bike stopping at a corner</td></tr></table><br><br>Visual Aid:<br>Draw a car going fast (acceleration) and the same car stopping (deceleration).<br><br>Class Activity:<br>Students act out acceleration (walk fast) and deceleration (slow down and stop).",
+      "<b>Part 4: Forces Causing Acceleration and Deceleration</b>:<br><br>Teacher Explanation:<br>A push or gravity can cause acceleration.<br>Friction or a pull in the opposite direction can cause deceleration.<br><br>Real-Life Examples:<br>A swing speeding up = acceleration (force pushes it)<br>A swing slowing down = deceleration (air and friction slow it down)<br><br>Discussion:<br>Ask students to give examples from riding bikes, running, or being in a car.",
+      "<b>Part 5: Exercise – Test Your Knowledge</b>:<br><br>A. Fill in the blanks:<br>1. When something speeds up, it is called __________.<br>2. When something slows down, it is called __________.<br>3. Friction causes __________.<br><br>B. Circle the correct answer:<br>4. A car speeding up is (acceleration / deceleration)<br>5. A ball rolling to a stop is (acceleration / deceleration)<br>6. A runner going faster after hearing the whistle is (acceleration / deceleration)<br><br>C. Match the action to the force type:<br><table border='1'><tr><th>Action</th><th>Acceleration or Deceleration</th></tr><tr><td>Slowing down a bike</td><td> </td></tr><tr><td>A plane taking off</td><td> </td></tr><tr><td>A falling apple speeding up</td><td> </td></tr><tr><td>A person stopping after a run</td><td> </td></tr></table><br><br>D. Write two examples of each:<br><br>Acceleration:<br>1. ---<br>2. ---<br><br>Deceleration:<br>1. ---<br>2. ---"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students during class activities and discussions to assess understanding.",
+    "<b>Exercise</b>: The written exercise at the end of the lesson will test the students' grasp of acceleration and deceleration."
+  ],
+  "conclusion": [
+    "Students will understand how objects change speed through acceleration and deceleration, and recognize real-life examples and the forces that cause them."
+  ]
+},
+
+// Week 3
+// Lesson 1
+{
+  "title": "Understanding Balanced and Unbalanced Forces",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, May 21, 2025",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Balanced and Unbalanced Forces",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "3",
+  "lessonNumber": "1",
+  "description": "This lesson introduces learners to the concept of balanced and unbalanced forces, helping them define, differentiate, and identify real-life examples of each type.",
+  "materials": [
+    "Rope for tug-of-war",
+    "Objects for force demonstration",
+    "Board and markers",
+    "Videos or animations on pushing objects"
+  ],
+  "objectives": [
+    "Define the terms balanced forces and unbalanced forces.",
+    "Differentiate between balanced and unbalanced forces.",
+    "Identify real-life examples of each type of force."
+  ],
+  "rationale": [
+    "Understanding forces helps learners make sense of the physical world and how motion is influenced in everyday life."
+  ],
+  "methodology": [
+    "The lesson uses discussions, demonstrations, visual aids, and hands-on activities to help learners grasp the difference between balanced and unbalanced forces."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engagement and Connection)</b>:<br><br>Begin with a class discussion: Ask learners, “What happens when two people push a box from opposite sides?”<br><br>Show a short video or animation of two children pushing a box—either it moves, stays still, or one wins.<br><br>Introduce the words “Balanced Force” and “Unbalanced Force.”<br><br>Real-life hook: Tug-of-war game – what happens if both teams pull with the same strength vs. one team pulling harder?<br><br><b>Key Question:</b> What makes objects move or stay still?",
+      "<b>Part 2: Explanation of Concepts (Explicit Teaching)</b>:<br><br><b>Definition Time:</b><br><br><b>Balanced Forces:</b> Forces that are equal in size but opposite in direction. They cancel each other out.<br><br><b>Example:</b> A book resting on a table (gravity pulls down, table pushes up).<br><br><b>Unbalanced Forces:</b> Forces that are not equal. They cause a change in motion (start, stop, speed up, slow down).<br><br><b>Example:</b> A football being kicked, a car accelerating.<br><br>Use diagrams to show arrows of equal and unequal force acting on an object.",
+      "<b>Part 3: Comparison and Differentiation</b>:<br><br>Use a Venn Diagram or chart on the board to compare:<br><br>| Feature                 | Balanced Forces                | Unbalanced Forces              |<br>|-------------------------|--------------------------------|--------------------------------|<br>| Effect on motion        | No change                      | Causes movement/change         |<br>| Force strength          | Equal                          | Not equal                      |<br>| Direction               | Opposite and equal             | One stronger than the other    |<br>| Example                 | A hanging picture frame        | A ball rolling down a hill     |<br><br>Encourage learners to give more examples from playground, home, or sports.",
+      "<b>Part 4: Application through Class Activities</b>:<br><br><b>Activity 1: Demonstration</b><br><br>Bring a rope and do a tug-of-war in class:<br>When both sides pull equally → Balanced.<br>When one side wins → Unbalanced.<br><br><b>Activity 2: Object Movement Test</b><br><br>Push or pull objects on a table using different forces (same strength vs. stronger one side). Discuss what happens.<br><br><b>Class Discussion:</b><br>“What did we observe?”<br>“Which part was balanced? Which part was unbalanced?”",
+      "<b>Part 5: Exercise (Assessment and Reinforcement)</b>:<br><br><b>Instructions:</b> Answer the following questions in your book.<br><br>1. Define the following terms:<br>a. Balanced Force<br>b. Unbalanced Force<br><br>2. Circle the correct answer:<br>a. A ball lying still on the floor is an example of:<br>[ ] Unbalanced Force<br>[x] Balanced Force<br><br>b. A person pushing a box until it moves is an example of:<br>[x] Unbalanced Force<br>[ ] Balanced Force<br><br>3. Match the action to the correct force type:<br>A car parked — Balanced<br>A car speeding up — Unbalanced<br>A child sliding down a slide — Unbalanced<br>A book on a shelf — Balanced<br><br>4. Write one example from your life of:<br>a. A balanced force situation<br>b. An unbalanced force situation<br><br>5. Challenge (optional): Draw a picture showing both balanced and unbalanced forces and label them."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe learner participation and responses during the activities and discussions.",
+    "<b>Exercise</b>: Written answers to the exercise questions will help assess understanding of balanced and unbalanced forces."
+  ],
+  "conclusion": [
+    "Learners will understand how forces affect motion and will be able to identify balanced and unbalanced forces in real-life situations."
+  ]
+},
+
+// Lesson 2
+{
+  "title": "Friction – A Force That Opposes Motion",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Understanding Friction",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "3",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the concept of friction, helping them define it, recognize different types, and explore how to reduce it in real-life situations.",
+  "materials": [
+    "Toy cars",
+    "Books",
+    "Sandpaper, cloth, and plastic sheets",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Define friction as a force that opposes motion.",
+    "Differentiate between types of friction: sliding, rolling, and static.",
+    "Explore and discuss ways to reduce friction in everyday life."
+  ],
+  "rationale": [
+    "Understanding friction is important for recognizing how motion is affected in daily activities and how to manage it effectively."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, discussions, hands-on activities, and exercises to explore the concept of friction."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engagement and Curiosity)</b>:<br><br>Class Starter Question:<br>“Have you ever tried to push something heavy on the floor and it wouldn’t move easily?”<br><br>Engage with a quick demo:<br>Push a box on the floor vs. push it on a smooth cloth or mat. Ask: “Which one was easier?”<br><br>Introduce the term friction.<br><br>Definition Prompt:<br>Friction is the force that tries to stop things from moving or makes them hard to move.<br><br>Ask learners:<br>“Where do you think we see friction in real life?” (e.g., rubbing hands, sliding shoes, car tyres)",
+      "<b>Part 2: Explanation of Concepts</b>:<br><br>Teach the definition:<br>Friction is a force that works against motion when two surfaces rub against each other.<br><br>Types of Friction:<br>1. Static Friction – Keeps things from starting to move.<br>Example: A book sitting on a desk doesn’t move unless you push it hard.<br><br>2. Sliding Friction – Happens when two solid objects slide over each other.<br>Example: Pushing a chair across the floor.<br><br>3. Rolling Friction – Happens when an object rolls over a surface.<br>Example: Wheels on a skateboard or bicycle.<br><br>Use illustrations or real objects to show the difference between sliding and rolling.",
+      "<b>Part 3: Comparing and Reducing Friction</b>:<br><br>Comparison Discussion:<br>Which type of friction is easier to overcome? (Rolling is usually less than sliding.)<br><br>Why is friction helpful?<br>It helps us walk, drive, write.<br><br>Why can friction be a problem?<br>It slows things down, causes heat, wears things out.<br><br>Ways to reduce friction:<br>Lubricants (like oil or grease)<br>Smooth surfaces<br>Using wheels or rollers<br>Using ball bearings<br><br>Real-life examples:<br>Cars use oil in engines.<br>Trains use lubricants on tracks.<br>Athletes wear smooth clothes to reduce air resistance.",
+      "<b>Part 4: Class Activities</b>:<br><br>Activity 1: Comparing Friction on Different Surfaces<br>Give learners different materials (e.g., sandpaper, cloth, plastic sheet).<br>Let them slide a small toy car over each and observe which slows it down the most.<br><br>Activity 2: Rolling vs Sliding<br>Try pushing a book and a toy car. Which moves easier?<br>Let learners record observations in their books.<br><br>Class Discussion:<br>“Where in the world do we need more friction?” (shoes, tyres)<br>“Where do we want less friction?” (machinery, slides)",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>Instructions: Answer the questions below in your books.<br><br>1. Define friction in your own words.<br><br>2. Name and describe the three main types of friction:<br>a. Static Friction<br>b. Sliding Friction<br>c. Rolling Friction<br><br>3. Tick the correct answer:<br>a. Which type of friction occurs when a ball rolls on the ground?<br>[ ] Sliding<br>[x] Rolling<br>[ ] Static<br><br>b. Which friction keeps a book from moving on a table?<br>[x] Static<br>[ ] Rolling<br>[ ] Sliding<br><br>4. Match the examples to the correct friction type:<br>Car wheels moving — Rolling<br>Rubbing hands together — Sliding<br>A box not moving when pushed gently — Static<br><br>5. List two ways to reduce friction and explain why..."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students during the hands-on experiments and class discussions.",
+    "<b>Exercise</b>: Students will complete written questions on friction types and reduction methods to assess understanding."
+  ],
+  "conclusion": [
+    "Students will understand what friction is, recognize its types, and identify both the benefits and challenges of friction in everyday life."
+  ]
+},
+
+// Lesson 3
+{
+  "title": "The Pull of Gravity",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Understanding Gravity",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "3",
+  "lessonNumber": "3",
+  "description": "This lesson helps learners understand gravity as a force of attraction and its effects on mass, weight, and everyday life.",
+  "materials": [
+    "Pencil or ball for demonstration",
+    "Pictures or videos showing weight on Earth and Moon",
+    "Kitchen scale",
+    "Chart showing examples of gravity in real life"
+  ],
+  "objectives": [
+    "Define gravity as a force of attraction between objects.",
+    "Understand how gravity affects mass and weight.",
+    "Explore the role of gravity in everyday life."
+  ],
+  "rationale": [
+    "Understanding gravity helps learners connect science concepts to real-world experiences and observe natural forces at work."
+  ],
+  "methodology": [
+    "The lesson will use demonstrations, discussions, illustrations, and practical activities to help learners grasp the concept of gravity and its impact."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engagement and Curiosity)</b>:<br><br>Ask the class:<br>“What happens when you throw a ball into the air?”<br>“Why doesn’t it keep going forever?”<br><br>Demonstration:<br>Drop a pencil or ball from your hand. Ask:<br>“Why did it fall down instead of floating?”<br><br>Introduce the term:<br>Gravity is the force that pulls objects toward each other—especially towards the Earth.<br><br>Tell learners:<br>Gravity keeps our feet on the ground and causes objects to fall.",
+      "<b>Part 2: Explanation of Concepts</b>:<br><br>Definition:<br>Gravity is a force of attraction between two objects.<br>The larger the object, the stronger the pull. That’s why Earth’s gravity pulls everything toward it.<br><br>Key Concepts:<br>Mass: The amount of matter in something. It does not change.<br>Weight: How strongly gravity pulls on an object. It can change depending on gravity.<br><br>Example: You weigh less on the Moon because gravity there is weaker.<br><br>Illustration:<br>Use pictures or videos to compare weight on Earth vs. weight on the Moon.<br>Show a scale and how gravity makes it measure weight.",
+      "<b>Part 3: Application and Real-Life Understanding</b>:<br><br>Class Discussion:<br>How does gravity affect us every day?<br><br>Examples:<br>Helps us walk without floating.<br>Keeps our things from flying off the ground.<br>Causes objects to fall when dropped.<br>Keeps planets in orbit around the sun.<br><br>Ask learners:<br>“Can you think of a time gravity helped you?”<br>“Have you ever tripped or dropped something?”<br><br>Use Simple Chart:<br>| Action                          | Role of Gravity                  |<br>|-------------------------------|----------------------------------|<br>| Dropping your pen             | Pulls the pen down               |<br>| Pouring water into a cup      | Helps water flow downward        |<br>| Jumping                       | You come back down               |<br>| Planets in space              | Stay in orbit because of gravity |",
+      "<b>Part 4: Fun Activities and Demonstrations</b>:<br><br>Activity 1: Gravity Drop Test<br>Drop different objects (paper, pencil, ball, eraser).<br>Ask learners to observe: “Do they all fall?”<br>Discuss why heavier things don’t always fall faster.<br><br>Activity 2: Jump and Land Game<br>Let learners jump and describe what they feel when they land.<br>Ask: “What pulls you back down after the jump?”<br><br>Activity 3: Mass vs. Weight (if scales are available)<br>Use a kitchen scale to weigh different classroom objects.<br>Explain that what the scale shows is weight, affected by gravity.",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>Instructions: Write your answers clearly in your books.<br><br>1. Define gravity in your own words.<br><br>2. Choose the correct answer:<br>a. Gravity is:<br>[ ] A pushing force<br>[x] A pulling force<br>[ ] A turning force<br><br>3. Fill in the blanks:<br>a. Gravity pulls objects toward the _______________.<br>b. _______________ is the amount of matter in an object.<br>c. _______________ is how strongly gravity pulls on an object.<br><br>4. Match the examples to gravity’s role:<br>A dropped spoon — Gravity pulls it down<br>The Moon orbiting Earth — Gravity holds it in orbit<br>Standing on the ground — Gravity keeps you down<br><br>5. Short Answer:<br>a. What is the difference between mass and weight?<br>b. Give an example of how gravity helps us every day."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will assess student understanding through participation in discussions and activities.",
+    "<b>Exercise</b>: Written answers from the exercise will show how well students understand gravity and its effects."
+  ],
+  "conclusion": [
+    "By learning about gravity, students will understand how this invisible force affects their lives and the world around them, developing curiosity about natural forces."
+  ]
+},
+	
 // Week 4
 // Lesson 1
 {
