@@ -3,1608 +3,1171 @@ const lessonPlans26b = [
 // Term 2
 // Week 2
 // Lesson 1
-	{
-  title: "Exploring the States of Matter",
-  school: "Flying Wings Academy",
-  teacher: "Ms. K. Davidson",
-  date: "Monday, April 15, 2024",
-  tcz: "19/09/0904/021725",
-  subject: "Science",
-  topic: "Identifying and Differentiating Between the Three States of Matter",
-  grade: "Avian Aces",
-  term: "2",
-  week: "2",
-  lessonNumber: "1",
-  description: "This lesson aims to help students identify and differentiate between the three states of matter: solid, liquid, and gas.",
-  materials: [
-    "Various materials representing solids, liquids, and gases",
-    "Class chart or whiteboard",
-    "Examples of each state of matter"
-  ],
-  objectives: [
-    "Students will identify the three states of matter: solid, liquid, and gas.",
-    "Students will differentiate between the characteristics of each state of matter."
-  ],
-  rationale: [
-    "Understanding the states of matter is fundamental for comprehending many scientific concepts and phenomena."
-  ],
-	methodology: [
-    "The lesson will incorporate interactive exploration, group discussions, and real-life examples to engage students in active learning."
-  ],
-  activities: [
-	    ["1", "2", "3", "4", "5"],
-      [
-      "<b>Matter</b>: this refers to anything that occupies space and has mass. <br><br><strong>States of Matter</strong>: this refer to the distinct forms in which matter can exist: solid, liquid, and gas. Each state has unique physical properties that distinguish it from the others.",
-      "<b>Solids</b> are characterized by particles that are tightly packed together in a regular pattern. This arrangement gives solids a definite shape and volume. <br><em>Examples of solids include ice, wood, and metal.</em>",
-      "<b>Liquids</b> have particles that are more loosely packed compared to solids, allowing them to flow and take the shape of their container. However, liquids still have a definite volume. <br><em>Examples of liquids include water, milk, and oil.</em>",
-      "<b>Gases</b> have particles that are spaced far apart and move freely. Gases do not have a definite shape or volume and will expand to fill the container they are in. <br><em>Examples of gases include air, oxygen, and carbon dioxide.</em>",
-	    "<b>Class Exercise</b>:<br>1. What is matter?<br>2. Name the three states of matter.<br>3. Which of the sates of matter has particles freely moving around?"]
-	    ],
-  assessments: [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and hands-on activities.",
-    "<br><b>Homework</b>: <br>1. What do we call the process by which;<br>a. solids change to liquid.<br>b. liquid changes to gas.<br>c. gas changes to liquid.<br>d. liquid changes to solid."
-  ],
-  conclusion: [
-    "By actively engaging in hands-on exploration and group discussions, students will develop a deeper understanding of the three states of matter and their distinguishing characteristics."
-  ]
-},
-	
-// Lesson 2
 {
-  title: "Exploring Matter: Measuring Mass and Volume",
+  "title": "Understanding the Importance of Water in the Soil",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Measuring Matter: Mass and Volume",
+  "topic": "Importance of Water in the Soil",
   "grade": "Avian Aces",
   "term": "2",
   "week": "2",
-  "lessonNumber": "2",
-  "description": "This lesson aims to introduce students to the concepts of mass and volume and how to measure them accurately.",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the concept of water in the soil, its essential role in plant growth, seed germination, photosynthesis, and supporting soil life.",
   "materials": [
-    "Various objects of different shapes and sizes",
-    "Balance scales",
-    "Graduated cylinders or measuring cups",
-    "Water",
-    "Class chart or whiteboard"
+    "Samples of wet and dry soil",
+    "Watering cans",
+    "Seed samples",
+    "Charts showing photosynthesis",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will understand the concepts of mass and volume.",
-    "Students will learn how to measure mass and volume accurately using appropriate tools."
+    "Students will understand the presence and source of water in the soil.",
+    "Students will explore how water supports seed germination.",
+    "Students will learn the role of water in photosynthesis.",
+    "Students will identify other key roles of water in supporting soil and plant life."
   ],
   "rationale": [
-    "Understanding how to measure mass and volume is essential for various scientific applications and experiments."
+    "Understanding the importance of water in the soil helps students appreciate plant health, growth, and the balance of natural systems vital to life on Earth."
   ],
   "methodology": [
-    "The lesson will involve a combination of demonstrations, hands-on activities, and group discussions to facilitate active learning."
-  ],
-  "activities": [
-	    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Matter Measurement Basics</b>:<br>- Introduce the concepts of mass and volume, explaining their importance in science.<br>- Discuss the units used to measure mass (grams) and volume (liters or cubic centimeters).",
-      "<b>Measuring Mass</b>:<br>- Demonstrate how to use a balance scale to measure the mass of objects.<br>- Have students practice measuring the mass of various objects individually and in groups.",
-      "<b>Measuring Volume</b>:<br>- Explain how to measure volume using graduated cylinders or measuring cups.<br>- Conduct a demonstration on measuring the volume of liquids and irregularly shaped objects.<br>- Provide opportunities for students to measure the volume of objects using different methods.",
-      "<b>Comparing Mass and Volume</b>:<br>- Lead a discussion on the relationship between mass and volume, emphasizing density as the ratio of mass to volume.<br>- Engage students in activities to compare the densities of different objects."
-    ],
-    "<b>Class Exercise</b>:<br>- Ask students to identify the mass and volume of everyday objects around the classroom and discuss their findings."
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in activities and discussions, as well as their ability to accurately measure mass and volume.",
-    "<br><b>Worksheet</b>:<br>- Provide a worksheet with questions related to mass, volume, and density for students to complete independently or in pairs."
-  ],
-  "conclusion": [
-    "Through hands-on exploration and guided activities, students will develop a solid understanding of how to measure mass and volume accurately, laying the foundation for future scientific inquiry."
-  ]
-},
-
-// Lesson 3
-{
-  "title": "Exploring Matter: Changes of State",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Changes of State of Matter",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "2",
-  "lessonNumber": "3",
-  "description": "This lesson aims to introduce students to the changes of state of matter and the processes involved.",
-  "materials": [
-    "Various materials representing solids, liquids, and gases",
-    "Class chart or whiteboard",
-    "Examples of changes of state (e.g., melting, freezing, evaporation, condensation)"
-  ],
-  "objectives": [
-    "Students will understand the concept of changes of state and the processes involved (e.g., melting, freezing, evaporation, condensation).",
-    "Students will differentiate between the changes of state and identify examples of each."
-  ],
-  "rationale": [
-    "Understanding changes of state is essential for comprehending many natural phenomena and industrial processes."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive exploration, demonstrations, and group discussions to engage students in active learning."
-  ],
-  "activities": [
-	    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Changes of State</b>:<br>- Define changes of state as the physical processes in which matter changes from one state to another (e.g., solid to liquid, liquid to gas).<br>- Discuss the role of energy in causing these changes.",
-      "<b>Processes of Changes of State</b>:<br>- Explain the processes involved in changes of state, including melting, freezing, evaporation, and condensation.<br>- Provide examples of each process and discuss real-life applications.",
-      "<b>Demonstrations</b>:<br>- Conduct demonstrations to illustrate changes of state, such as melting ice, boiling water, and condensation on a cold surface.<br>- Encourage students to observe and describe each process.",
-      "<b>Group Discussion</b>:<br>- Lead a discussion on the factors that affect changes of state, including temperature and pressure.<br>- Encourage students to brainstorm examples of changes of state they encounter in their daily lives."
-    ],
-    "<b>Class Exercise</b>:<br>- Present scenarios or images depicting changes of state and ask students to identify the processes involved and explain the underlying reasons."
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of demonstrations, and responses to class exercises.",
-    "<br><b>Quiz</b>:<br>- Administer a quiz with questions related to changes of state, asking students to define terms and provide examples of each process."
-  ],
-  "conclusion": [
-    "By actively engaging in hands-on exploration and group discussions, students will develop a deeper understanding of changes of state and their significance in the world around them."
-  ]
-},
-
-// Lesson 4
-{
-  "title": "Summative Lesson: States of Matter, Properties, Measurement, and Changes",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "States of Matter, Properties, Measurement, and Changes",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "2",
-  "lessonNumber": "4",
-  "description": "This summative lesson aims to review and assess students' understanding of the states of matter, their properties, methods of measuring matter, and changes of state.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Samples of solids, liquids, and gases",
-    "Balances scales",
-    "Graduated cylinders or measuring cups",
-    "Examples of changes of state (e.g., melting, freezing, evaporation, condensation)"
-  ],
-  "objectives": [
-    "Students will demonstrate understanding of the three states of matter: solid, liquid, and gas, and their properties.",
-    "Students will be able to explain methods of measuring matter, including mass and volume.",
-    "Students will differentiate between physical and chemical changes of matter, including changes of state, and provide examples of each."
-  ],
-  "rationale": [
-    "This summative lesson consolidates students' learning on the fundamental concepts of matter, ensuring they can apply their knowledge to real-world scenarios and scientific inquiry."
-  ],
-  "methodology": [
-    "The lesson will incorporate a variety of activities, including review discussions, hands-on experiments, problem-solving tasks, and assessment quizzes to assess students' comprehension and application of concepts."
+    "The lesson will use demonstrations, discussion, and observation to help students learn the roles of water in the soil and plant life processes."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Review of States of Matter and Properties</b>:<br>- Engage students in a review discussion of the three states of matter and their properties, including particle arrangement and behavior.<br>- Encourage students to provide examples of each state and describe their characteristics.",
-      "<b>Measurement of Matter</b>:<br>- Demonstrate how to measure mass and volume using balances scales and graduated cylinders or measuring cups.<br>- Provide opportunities for students to practice measuring the mass and volume of various objects.",
-      "<b>Changes of State</b>:<br>- Present examples of changes of state, such as melting, freezing, evaporation, and condensation.<br>- Discuss the processes involved in each change and how they relate to energy transfer and particle behavior.",
-      "<b>Group Task: Identifying Changes</b>:<br>- Divide students into groups and provide them with scenarios depicting changes in matter.<br>- Ask each group to identify whether the change is physical or chemical, providing explanations for their choices.",
-      "<b>Assessment Quiz</b>:<br>- Administer a quiz containing questions about the states of matter, measurement methods, and changes of state.<br>- Evaluate students' understanding based on their responses to the quiz."
-    ],
-    "<b>Class Exercise</b>:<br>- Present students with a series of images or descriptions of scenarios involving changes in matter and ask them to classify each as physical or chemical, providing justifications."
+      "<b>Part 1: Introduction – What is Water in the Soil?</b><br><br>Water in the soil is the moisture that comes from rain, irrigation, or underground water. Plants absorb this water through their roots. This water is essential for plant growth, health, and survival.<br><br>Why is it important?<br><br>Plants, like all living things, need water to survive.<br><br>Water helps carry nutrients from the soil to the plant.<br><br>Without water in the soil, plants cannot grow properly.",
+      "<b>Part 2: Water and Seed Germination</b><br><br>Seed germination is the process where a seed begins to grow into a plant.<br><br>How water helps:<br><br>When a seed is planted, it needs water to soften its coat.<br><br>Water activates enzymes that start the growth process.<br><br>Without enough water, seeds will not sprout.<br><br>Example: If you plant two seeds and only water one, the one with water will sprout, while the dry one may not.",
+      "<b>Part 3: Water and Photosynthesis</b><br><br>Photosynthesis is how plants make their own food using sunlight, carbon dioxide, and water.<br><br>How water helps:<br><br>Water is one of the main ingredients in photosynthesis.<br><br>Without water, the plant cannot make food.<br><br>If a plant cannot make food, it becomes weak and may die.<br><br>Simple Equation of Photosynthesis: Carbon Dioxide + Water + Sunlight → Food (Glucose) + Oxygen",
+      "<b>Part 4: Other Roles of Water in the Soil</b><br><br>Helps in nutrient absorption: Water helps dissolve nutrients in the soil, making it easier for plant roots to absorb them.<br><br>Keeps plants cool: Water evaporates from the leaves to cool the plant, a process called transpiration.<br><br>Supports life: Soil organisms like worms and insects need moist soil to live.",
+      "<b>Part 5: Exercise – Let’s Check What You’ve Learned</b><br><br><u>A. Fill in the blanks:</u><br>1. Water in the soil helps seeds to __________.<br>2. Plants use water, carbon dioxide, and sunlight to make __________.<br>3. Water in the soil helps to carry __________ to the plants.<br>4. The process by which a seed starts to grow is called __________.<br>5. The process of making food in plants is called __________.<br><br><u>B. True or False:</u><br>1. Water is not needed for photosynthesis.<br>2. Plants get water from their leaves.<br>3. Water helps cool the plant through transpiration.<br>4. Seeds can germinate without water.<br>5. Moist soil helps small animals and insects live.<br><br><u>C. Short Answer:</u><br>1. Why is water important during seed germination?<br>2. How does water help plants during photosynthesis?"
+    ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Quiz</b>:<br>- Administer a quiz containing questions about the states of matter, measurement methods, and changes of state.<br>- Evaluate students' understanding based on their responses to the quiz."
+    "<b>Observation</b>: The teacher will observe student participation and understanding during activities and discussion.",
+    "<b>Exercise</b>: The activity in Part 5 will assess students’ grasp of water's roles in plant processes and soil ecology."
   ],
   "conclusion": [
-    "Through a combination of review activities and assessment tasks, students will demonstrate their proficiency in understanding the states of matter, their properties, methods of measuring matter, and changes of state, consolidating their learning for future scientific endeavors."
+    "Students will understand the vital role water plays in seed germination, photosynthesis, and supporting life in the soil, which is key to healthy plant growth and environmental balance."
+  ]
+},
+
+// Lesson 2
+{
+"title": "Ways of Retaining Water in the Soil",
+"school": "Flying Wings Academy",
+"teacher": "Mr. C. Mbaso",
+"date": "Monday, May 20, 2024",
+"tcz": "19/09/0904/021725",
+"subject": "Science",
+"topic": "Retaining Water in the Soil",
+"grade": "Avian Aces",
+"term": "2",
+"week": "2",
+"lessonNumber": "2",
+"description": "This lesson teaches students how water can be retained in the soil through different farming practices such as mulching, shading, terracing, weeding, and intercropping.",
+"materials": [
+"Soil samples",
+"Leaves, straw, or dry grass",
+"Pictures or diagrams of terracing and intercropping",
+"Whiteboard and markers"
+],
+"objectives": [
+"Students will understand what it means to retain water in the soil.",
+"Students will identify and explain different methods of retaining water in the soil.",
+"Students will be able to match soil retention methods with their effects.",
+"Students will appreciate the importance of conserving water in agriculture."
+],
+"rationale": [
+"Learning how to retain water in the soil helps students understand the importance of sustainable farming practices, especially in dry seasons, and promotes better crop yields and food security."
+],
+"methodology": [
+"The lesson will include explanations, visual aids, matching activities, and short answer questions to reinforce students’ understanding of each method."
+],
+"activities": [
+["1", "2", "3", "4", "5"],
+[
+"<b>Part 1: Introduction – What Does It Mean to Retain Water in the Soil?</b><br><br>To retain water means to keep or hold water in the soil for a longer time. This is important because:<br><br>Plants need water to grow.<br><br>If water quickly runs off or dries up, plants may not get enough.<br><br>Keeping water in the soil helps during dry times.",
+"<b>Part 2: Method 1 – Mulching and Shading</b><br><br>1. Mulching<br><br>Mulching is when we cover the soil with dry grass, leaves, straw, or plastic.<br><br>It prevents sunlight from drying the soil too quickly.<br><br>It also protects the soil from being washed away by rain.<br><br>2. Shading<br><br>Growing taller plants or using shade nets helps block direct sunlight.<br><br>This keeps the soil cooler and reduces water loss through evaporation.",
+"<b>Part 3: Method 2 – Terracing and Weeding</b><br><br>3. Terracing<br><br>This involves cutting flat steps into hills or slopes.<br><br>It slows down water that runs down and allows it to soak into the soil.<br><br>It prevents soil erosion and helps the soil hold water longer.<br><br>4. Weeding<br><br>Weeds compete with crops for water.<br><br>Removing weeds ensures more water stays in the soil for the main plants.<br><br>Clean soil also reduces water loss.",
+"<b>Part 4: Method 3 – Intercropping</b><br><br>5. Intercropping<br><br>Intercropping means planting two or more different crops together.<br><br>Different plants can cover more ground and protect the soil.<br><br>This reduces evaporation and keeps the soil moist.<br><br>Example: Growing maize with beans — maize provides shade, and beans help cover the ground.",
+"<b>Part 5: Exercise – Test Your Understanding</b><br><br><u>A. Match the methods with their descriptions:</u><br><br>1. Mulching – _____<br>2. Terracing – _____<br>3. Weeding – _____<br>4. Shading – _____<br>5. Intercropping – _____<br><br>a. Growing two or more crops together<br>b. Covering soil with dry materials<br>c. Removing unwanted plants<br>d. Cutting flat steps into hills<br>e. Protecting soil from direct sun<br><br><u>B. Fill in the blanks:</u><br><br>1. __________ helps to stop water from flowing away quickly on slopes.<br>2. Covering soil with dry leaves or grass is called __________.<br>3. Removing __________ helps reduce water loss from the soil.<br>4. __________ helps block sunlight and keep soil moist.<br>5. Growing different plants together is known as __________.<br><br><u>C. Short Answer Questions:</u><br><br>1. Why is it important to retain water in the soil?<br>2. How does intercropping help keep water in the soil?"
+]
+],
+"assessments": [
+"<b>Observation</b>: The teacher will observe students’ participation and responses during the lesson discussion.",
+"<b>Exercise</b>: Students will complete matching, fill-in-the-blank, and short answer questions to demonstrate understanding of water retention methods."
+],
+"conclusion": [
+"Students will now understand the importance of retaining water in the soil and different ways farmers can do this, helping crops grow even during dry periods."
+]
+},
+
+// Lesson 3
+{
+  "title": "Demonstrating the Drainage Rates of Different Soils",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Drainage Rates of Soils",
+  "grade": "Avian Aces",
+  "term": "2",
+  "week": "2",
+  "lessonNumber": "3",
+  "description": "This lesson teaches students about the drainage rates of different soil types through explanation and experiment, helping them understand how soil type affects water movement and crop suitability.",
+  "materials": [
+    "Three plastic bottles (cut in half)",
+    "Sandy soil, clay soil, loamy soil",
+    "Water",
+    "Measuring cup",
+    "Stopwatch or timer"
+  ],
+  "objectives": [
+    "Students will understand the meaning of soil drainage.",
+    "Students will identify the three main soil types and their drainage characteristics.",
+    "Students will perform a simple experiment to compare how fast different soils drain water.",
+    "Students will explain the importance of knowing how soil drains.",
+    "Students will connect soil drainage to suitable crops."
+  ],
+  "rationale": [
+    "Understanding drainage rates helps students apply scientific knowledge to real-life farming and gardening practices, supporting environmental awareness and food production."
+  ],
+  "methodology": [
+    "The lesson uses direct instruction, demonstration, guided discussion, and practical experimentation to engage students and promote understanding."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction – What is Drainage?</b><br><br>Drainage is how fast or slow water passes through soil.<br><br>Some soils let water pass quickly.<br><br>Some soils hold water for a longer time.<br><br>Knowing how soil drains helps farmers choose the best soil for different crops.",
+      "<b>Part 2: Types of Soil and Their Drainage</b><br><br>There are three main types of soil with different drainage abilities:<br><br>1. Sandy Soil<br>Made of large particles.<br>Water drains very fast.<br>Feels dry and rough.<br><br>2. Clay Soil<br>Made of very small, sticky particles.<br>Water drains very slowly.<br>Feels smooth and sticky when wet.<br><br>3. Loamy Soil<br>A mix of sand, clay, and organic matter.<br>Water drains moderately – not too fast, not too slow.<br>Best soil for most plants.",
+      "<b>Part 3: How to Demonstrate Drainage Rates</b><br><br>Materials Needed:<br>Three plastic bottles (cut in half)<br>Sandy soil, clay soil, loamy soil<br>Water<br>Measuring cup<br>Stopwatch or timer<br><br>Steps:<br>1. Fill each bottle with a different soil type.<br>2. Pour the same amount of water (e.g., 200 ml) into each soil.<br>3. Measure the time it takes for water to drain out of each.<br>4. Compare which soil drains water the fastest and which is the slowest.<br><br>Expected Results:<br>Sandy soil drains first (fastest).<br>Loamy soil drains second.<br>Clay soil drains last (slowest).",
+      "<b>Part 4: Importance of Understanding Drainage</b><br><br>Helps farmers choose the best soil for crops.<br>Prevents overwatering or underwatering.<br>Crops like rice grow better in slow-draining soil (clay).<br>Crops like carrots grow better in fast-draining soil (sandy).",
+      "<b>Part 5: Exercise – Check Your Understanding</b><br><br><u>A. Fill in the blanks:</u><br>1. __________ soil drains water the fastest.<br>2. __________ soil holds water the longest.<br>3. __________ soil is best for most crops.<br>4. The process of water moving through soil is called __________.<br>5. A mixture of sand, clay, and organic matter is called __________ soil.<br><br><u>B. True or False:</u><br>1. Sandy soil drains water slowly.<br>2. Clay soil has very small particles.<br>3. Loamy soil is a mixture of clay, sand, and organic matter.<br>4. Fast-draining soil is best for rice.<br>5. Loamy soil is good for farming.<br><br><u>C. Short Answer Questions:</u><br>1. What does soil drainage mean?<br>2. Why is it important to know how fast soil drains water?<br>3. Which soil would you use to grow maize and why?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students during the experiment and class discussion to assess understanding.",
+    "<b>Exercise</b>: The worksheet questions (fill in the blanks, true or false, and short answer) will evaluate comprehension of soil drainage."
+  ],
+  "conclusion": [
+    "Students will understand how different soils drain water at different rates, and how this knowledge helps farmers choose soil types for various crops."
   ]
 },
 
 // Week 3
 // Lesson 1
 {
-  "title": "Exploring Matter: Physical Changes",
+  "title": "Introduction to Organic and Inorganic Fertilizers",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Physical Changes in Matter",
+  "topic": "Organic and Inorganic Fertilizers",
   "grade": "Avian Aces",
   "term": "2",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson aims to define physical changes in matter and provide examples. It will discuss how physical changes involve alterations in appearance but not the composition of matter.",
+  "description": "This lesson introduces students to the concept of fertilizers, focusing on the differences between organic and inorganic fertilizers, their characteristics, examples, and environmental impact.",
   "materials": [
-    "Various materials representing examples of physical changes (e.g., cutting, tearing, melting)",
-    "Class chart or whiteboard",
-    "Images or videos demonstrating physical changes"
+    "Chalkboard/whiteboard",
+    "Markers/chalk",
+    "Samples or pictures of compost, manure, NPK bags, urea packets",
+    "Comparison chart printouts or drawing materials"
   ],
   "objectives": [
-    "Students will understand the concept of physical changes in matter.",
-    "Students will differentiate between physical changes and chemical changes.",
-    "Students will identify examples of physical changes and explain how they involve alterations in appearance but not composition."
+    "Learners will explain what fertilizers are and why they are used.",
+    "Learners will identify and differentiate between organic and inorganic fertilizers.",
+    "Learners will list examples and characteristics of each type of fertilizer.",
+    "Learners will understand the impact of fertilizers on soil and the environment.",
+    "Learners will compare the two types using a chart and classify examples correctly."
   ],
   "rationale": [
-    "Understanding physical changes is crucial for recognizing the different ways matter can behave and interact in the world."
+    "Understanding the types of fertilizers helps learners make informed decisions in agriculture and promotes environmentally responsible farming practices."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, demonstrations, and group discussions to engage students in active learning."
+    "The lesson will use class discussions, teacher explanations, visual aids, comparison activities, and student exercises to reinforce the topic."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Physical Changes</b>:<br>- Define physical changes as alterations in the appearance or form of matter that do not involve changes in the chemical composition.<br>- Discuss the difference between physical changes and chemical changes, emphasizing that physical changes are reversible.",
-      "<b>Examples of Physical Changes</b>:<br>- Present various examples of physical changes, such as cutting paper, melting ice, tearing fabric, and dissolving salt in water.<br>- Encourage students to identify the changes in appearance and discuss whether the composition of the matter has changed.",
-      "<b>Demonstrations</b>:<br>- Conduct demonstrations to illustrate physical changes, such as mixing colored liquids to create new colors, or changing the shape of objects through cutting or molding.<br>- Prompt students to observe and describe the changes they observe.",
-      "<b>Group Discussion</b>:<br>- Lead a discussion on the importance of recognizing physical changes in everyday life, such as in cooking, construction, and art.<br>- Encourage students to share examples of physical changes they have observed or experienced.",
-    "<b>Class Exercise</b>:<br>- Present scenarios or images depicting various changes in matter and ask students to determine whether each represents a physical or chemical change, providing explanations for their choices."
-    ],
-    ],
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br>Begin the lesson by asking the class:<br>'What helps plants grow well and stay healthy?'<br>'Have you heard of the word fertilizer? What do you think it means?'<br><br>Explain:<br>Fertilizers are substances added to soil to help plants grow better.<br>Farmers and gardeners use fertilizers to make sure plants get the nutrients they need.<br><br>Introduce the two main types of fertilizers:<br>Organic fertilizers<br>Inorganic fertilizers<br><br>Write the two words on the board and explain that today’s lesson will help them understand the differences between them.",
+      "<b>Part 2: Explanation of Organic Fertilizers</b>:<br><br>Definition:<br>Organic fertilizers are made from natural materials like plants, animals, or compost.<br><br>Examples:<br>Compost (rotted leaves, food scraps)<br>Animal manure (cow dung, chicken droppings)<br>Bone meal or fish meal<br><br>Characteristics:<br>Come from living things<br>Improve the soil over time<br>Release nutrients slowly<br>Eco-friendly and safe for the environment<br><br>Why use organic fertilizers?<br>They improve soil health and structure.<br>They add nutrients naturally to the soil.<br>They are less likely to harm plants or the environment.",
+      "<b>Part 3: Explanation of Inorganic Fertilizers</b>:<br><br>Definition:<br>Inorganic fertilizers are man-made substances made using chemicals.<br><br>Examples:<br>NPK fertilizers (contain Nitrogen, Phosphorus, and Potassium)<br>Urea<br>Ammonium nitrate<br><br>Characteristics:<br>Made in factories<br>Act quickly and make plants grow faster<br>Easy to use and measure<br>Can harm the soil or environment if overused<br><br>Why use inorganic fertilizers?<br>They provide nutrients quickly.<br>They help crops grow fast for better harvests.<br>They are often cheaper in large amounts.",
+      "<b>Part 4: Comparison Table</b>:<br><br>Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organic Fertilizers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inorganic Fertilizers<br><br>Source&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Natural (plants/animals)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Man-made (chemicals)<br>Nutrient Release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fast<br>Effect on Soil&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improves soil structure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May damage soil long-term<br>Examples&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manure, compost, bone meal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NPK, urea, ammonium nitrate<br>Environmental Impact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Safe for the environment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can pollute if overused<br><br>Ask students to copy the table into their notebooks.",
+      "<b>Part 5: Exercise</b>:<br><br>Activity: Identify and Classify<br><br>1. Match each item to the correct type of fertilizer (Organic or Inorganic):<br>a. Urea<br>b. Cow manure<br>c. Compost<br>d. Ammonium nitrate<br>e. Bone meal<br><br>2. Fill in the blanks:<br>a. __________ fertilizers are made from chemicals.<br>b. Organic fertilizers come from __________.<br>c. Inorganic fertilizers act __________ but may harm the soil.<br>d. Compost is an example of a(n) __________ fertilizer.<br><br>3. Short Answer<br>Why should we be careful when using inorganic fertilizers?<br><br>4. Bonus<br>Draw and label one organic and one inorganic fertilizer. Describe what each one does to help plants."
+    ]
+  ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of demonstrations, and responses to class exercises.",
-    "<br><b>Exit Ticket</b>:<br>- Provide students with an exit ticket containing questions about physical changes, asking them to identify examples and explain their understanding of the concept."
+    "<b>Observation</b>: The teacher will assess students' understanding during the discussion and their ability to compare and describe fertilizer types.",
+    "<b>Exercise</b>: The classification and short answer activity will evaluate the students’ grasp of organic vs. inorganic fertilizers."
   ],
   "conclusion": [
-    "Through hands-on exploration and group discussions, students will develop a clear understanding of physical changes in matter and how they differ from chemical changes, preparing them to analyze and interpret changes in the world around them."
+    "By learning the characteristics, uses, and environmental impact of fertilizers, students will be able to make informed choices in farming and gardening, and understand how to care for the soil responsibly."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Exploring Matter: Physical and Chemical Changes",
+  "title": "Preparing Compost Manure",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Understanding Physical and Chemical Changes",
+  "topic": "Preparing Compost Manure",
   "grade": "Avian Aces",
   "term": "2",
   "week": "3",
   "lessonNumber": "2",
-  "description": "This lesson aims to briefly revisit the concept of physical changes and introduce the idea that chemical changes involve the rearrangement of atoms.",
+  "description": "This lesson teaches learners how to prepare compost manure by exploring its importance, required materials, conditions, preparation steps, and practical application.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating physical and chemical changes",
-    "Models of atoms and molecules (optional)"
+    "Pictures or real compost materials (dry leaves, food scraps, animal waste)",
+    "Whiteboard and markers",
+    "Diagram or video of composting process",
+    "Worksheets for exercises"
   ],
   "objectives": [
-    "Students will differentiate between physical and chemical changes in matter.",
-    "Students will understand that chemical changes involve the rearrangement of atoms.",
-    "Students will identify examples of physical and chemical changes and explain their characteristics."
+    "Learners will understand what compost manure is.",
+    "Learners will identify the materials and conditions needed to prepare compost manure.",
+    "Learners will demonstrate the steps involved in preparing compost manure.",
+    "Learners will observe or simulate composting using real or visual aids.",
+    "Learners will complete an exercise to reinforce their understanding of compost preparation."
   ],
   "rationale": [
-    "Understanding the differences between physical and chemical changes is essential for interpreting and predicting reactions in various scientific contexts."
+    "Preparing compost manure helps learners apply scientific knowledge to real-life agriculture and environmental sustainability."
   ],
   "methodology": [
-    "The lesson will utilize visual aids, interactive discussions, and hands-on activities to engage students and reinforce key concepts."
+    "The lesson uses class discussion, explanation, demonstration, and group or individual participation."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Review of Physical Changes</b>:<br>- Briefly revisit the concept of physical changes, emphasizing that they involve alterations in the appearance or form of matter without changing its chemical composition.<br>- Encourage students to recall examples of physical changes discussed in previous lessons.",
-      "<b>Introduction to Chemical Changes</b>:<br>- Define chemical changes as processes in which the chemical composition of a substance is altered, resulting in the formation of new substances.<br>- Introduce the idea that chemical changes involve the rearrangement of atoms to form different molecules.",
-      "<b>Comparison of Physical and Chemical Changes</b>:<br>- Discuss the key differences between physical and chemical changes, focusing on reversibility, composition, and energy changes.<br>- Provide examples of chemical changes, such as rusting, burning, and fermentation, and contrast them with examples of physical changes.",
-      "<b>Group Activity: Sorting Changes</b>:<br>- Divide students into small groups and provide them with a set of scenarios or images depicting changes in matter.<br>- Ask students to classify each scenario as either a physical or chemical change and justify their choices based on the characteristics discussed. <br><b>Discussion: Atom Rearrangement</b>:<br>- Engage students in a discussion on the concept of atoms and molecules, highlighting how chemical changes involve the rearrangement of atoms to form new substances.<br>- Use visual aids or models to illustrate the concept if available.",
-    "<b>Class Exercise</b>:<br>- Present students with a series of statements about changes in matter and ask them to determine whether each represents a physical or chemical change, providing explanations for their answers."
-    ],
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br>Begin by reviewing the previous lesson:<br><br>“What are organic and inorganic fertilizers?”<br>“Can anyone remember what compost is?”<br><br>Explain:<br>Today, we will learn how to prepare compost manure.<br><br>Compost manure is a natural fertilizer made by rotting plant and animal materials.<br><br>Ask:<br>“Why do you think compost is important for plants?”<br>“Have you ever seen a compost pit or compost pile before?”",
+      "<b>Part 2: What is Compost Manure?</b>:<br><br>Definition:<br>Compost manure is made from rotted plant and animal waste. It is rich in nutrients and improves the soil.<br><br>Materials used:<br>Dry leaves, grass clippings<br>Food scraps (vegetable peels, fruit leftovers)<br>Animal waste (e.g., cow dung)<br>Small twigs or crop residues<br>Water<br><br>Conditions needed:<br>Shade (to protect the pile from too much sun or rain)<br>Moisture (keep the pile slightly wet)<br>Air (for rotting to happen properly)",
+      "<b>Part 3: Steps to Prepare Compost Manure</b>:<br><br>Explain each step clearly and write them on the board:<br><br>Step-by-step Process:<br>1. Choose a Shady Place<br>Find a spot under a tree or build a simple shade with grass or a roof.<br><br>2. Start with a Base Layer<br>Place dry leaves or small twigs on the ground.<br><br>3. Add Waste in Layers<br>Add layers of:<br>Green materials (fresh grass, food scraps)<br>Brown materials (dry leaves, straw)<br>Animal waste (like cow dung)<br><br>4. Sprinkle Water<br>Keep the pile moist, not soaking wet.<br><br>5. Cover the Pile<br>Use banana leaves or a sack to cover the compost.<br><br>6. Turn the Pile Weekly<br>Mix it with a stick or hoe to let air in and speed up rotting.<br><br>7. Wait for 4 to 6 Weeks<br>After this time, the compost should be dark, crumbly, and have an earthy smell.",
+      "<b>Part 4: Practical Demonstration / Class Participation</b>:<br><br>Demonstration (Teacher-led or Group Activity):<br>Show real compost or composting materials if available.<br>If possible, take students outside to start a compost pile.<br>Assign small groups to gather dry leaves, vegetable scraps, and manure.<br><br>Alternative (if outside not possible):<br>Use a diagram or video to show how a compost pile is made.<br>Let learners role-play the steps using pictures or cutouts.",
+      "<b>Part 5: Exercise</b>:<br><br>Activity: Fill in the Steps<br><br>1. Fill in the missing words:<br>a. Compost manure is made from __________ and __________ waste.<br>b. The compost pile should be kept under a __________.<br>c. Turning the compost allows __________ to enter.<br>d. Compost is ready in about __________ weeks.<br><br>2. Arrange the steps in the correct order:<br>a. Turn the pile every week<br>b. Add layers of green and brown waste<br>c. Choose a shady spot<br>d. Sprinkle water<br>e. Cover the pile<br>f. Start with a base of twigs<br><br>3. True or False<br>a. Compost should be made in direct sunlight.<br>b. You must add water to keep the compost moist.<br>c. Dry leaves are an example of brown waste.<br>d. Compost should smell like rotten eggs when ready.<br><br>4. Bonus Question<br>Draw a compost pile and label three materials used to make it."
+    ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Exit Ticket</b>:<br>- Provide students with an exit ticket containing questions about physical and chemical changes, asking them to provide examples of each and explain the differences between them."
+    "<b>Observation</b>: The teacher will observe students’ participation during discussion and practical activities.",
+    "<b>Exercise</b>: Learners will complete written and drawing tasks to demonstrate understanding of compost preparation."
   ],
   "conclusion": [
-    "By actively engaging in discussions and activities, students will develop a clear understanding of physical and chemical changes in matter, including the concept of atom rearrangement in chemical reactions."
+    "Learners will be able to identify and explain the steps in compost preparation, recognize its benefits, and relate the knowledge to environmental care."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Exploring Matter: Conservation of Mass",
+  "title": "Importance of Maintaining a Supply of Composted Materials",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Understanding Conservation of Mass",
+  "topic": "Importance of Maintaining a Supply of Composted Materials",
   "grade": "Avian Aces",
   "term": "2",
   "week": "3",
-  "lessonNumber": "5",
-  "description": "This lesson aims to define conservation of mass and explain its importance in understanding changes in matter during physical and chemical processes.",
+  "lessonNumber": "3",
+  "description": "This lesson teaches learners the importance of always maintaining a supply of composted materials and how it benefits plant growth and the environment.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating conservation of mass",
-    "Models or diagrams showing mass conservation in various processes (optional)"
+    "Whiteboard and markers",
+    "Chart paper",
+    "Sample compost (if available)"
   ],
   "objectives": [
-    "Students will understand the concept of conservation of mass.",
-    "Students will recognize the importance of conservation of mass in explaining changes in matter during physical and chemical processes.",
-    "Students will apply the principle of conservation of mass to analyze real-life scenarios."
+    "Learners will recall what compost is and how it is prepared.",
+    "Learners will understand the meaning of maintaining a supply.",
+    "Learners will explain why plants need a steady supply of compost.",
+    "Learners will identify benefits of having compost always ready.",
+    "Learners will participate in an activity showing the importance of continuous composting."
   ],
   "rationale": [
-    "Understanding conservation of mass is crucial for interpreting and predicting the outcomes of physical and chemical processes, as it reflects the fundamental law of matter conservation in nature."
+    "Compost is essential for healthy plant growth, and students must understand why keeping a steady supply is important for agriculture and the environment."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and problem-solving activities to engage students and reinforce key concepts."
+    "The lesson will use questioning, discussion, real-life examples, and group activities to engage learners in understanding compost supply importance."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Conservation of Mass</b>:<br>- Define conservation of mass as the principle stating that the total mass of a closed system remains constant over time, regardless of any physical or chemical changes that occur within the system.<br>- Discuss the historical development of the concept and its significance in scientific understanding.",
-      "<b>Importance of Conservation of Mass</b>:<br>- Explain why conservation of mass is important in understanding changes in matter during physical and chemical processes.<br>- Emphasize that the principle reflects the fundamental law of matter conservation and helps scientists predict the outcomes of reactions and processes.",
-      "<b>Examples and Illustrations</b>:<br>- Provide examples and illustrations demonstrating conservation of mass in various scenarios, such as chemical reactions, phase changes, and mixing substances.<br>- Use visual aids or models to depict how mass is conserved before and after a process.",
-      "<b>Group Activity: Analyzing Scenarios</b>:<br>- Divide students into small groups and present them with a series of scenarios involving changes in matter.<br>- Ask students to analyze each scenario and determine whether mass is conserved, providing explanations for their conclusions.",
-      "<b>Discussion: Real-Life Applications</b>:<br>- Engage students in a discussion on the relevance of conservation of mass in everyday life, such as in cooking, manufacturing, and environmental processes.<br>- Encourage students to identify examples where mass conservation is crucial for understanding and solving problems."
-    ],
-    "<b>Class Exercise</b>:<br>- Present students with a set of equations representing chemical reactions and ask them to balance the equations while ensuring conservation of mass."
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br>Begin by asking the class:<br><br>“What did we learn about compost manure in the last lesson?”<br>“How do we prepare compost manure?”<br>“Why do you think we need to keep making compost again and again?”<br><br>Explain:<br>Today, we will learn why it is important to always have a supply of composted materials.<br>Composted materials help plants grow, but what happens when we run out?",
+      
+      "<b>Part 2: What Does “Maintaining a Supply” Mean?</b>:<br><br>Definition:<br>Maintaining a supply means always having enough compost manure ready for use.<br><br>Use a simple example:<br>'Imagine if your mother stopped cooking food — would you still have energy to work or go to school?'<br>'Plants also need a continuous supply of food (nutrients) from compost to stay healthy.'",
+      
+      "<b>Part 3: Importance of Keeping a Continuous Supply</b>:<br><br>1. Plants Always Need Nutrients<br>Nutrients in the soil get used up as plants grow.<br>Compost replaces lost nutrients, so plants don’t starve.<br><br>2. Healthy Plants Grow Better<br>Compost helps plants grow stronger and produce more fruits or vegetables.<br><br>3. Soil Stays Rich and Fertile<br>Compost keeps the soil soft, moist, and full of helpful living things.<br><br>4. Saves Money<br>If compost is always available, farmers don’t need to buy expensive fertilizers.<br><br>5. Ready Anytime It’s Needed<br>Sometimes new crops are planted suddenly — having compost ready means you don’t have to wait.<br><br>6. Protects the Environment<br>Regular composting reduces waste and keeps the farm or garden clean.",
+      
+      "<b>Part 4: Class Activity or Role-Play</b>:<br><br>Activity Idea:<br>Draw a timeline or calendar with the class showing how often compost should be made (e.g., every month or every 6 weeks).<br><br>Role-Play Option:<br>Divide the class into groups:<br>One group acts as gardeners with a compost supply.<br>Another group acts as gardeners with no compost. Let them act out how their plants grow differently.",
+      
+      "<b>Part 5: Exercise</b>:<br><br>1. Fill in the blanks:<br>a. Plants need a __________ supply of compost to stay healthy.<br>b. Compost helps the __________ stay rich and full of nutrients.<br>c. A ready supply of compost saves __________.<br>d. Regular composting keeps the __________ clean.<br><br>2. Match the reason to the benefit:<br><br>Reason — Benefit<br>Keeps soil rich — a. Plants grow well<br>Always having compost — b. No delays when planting<br>Compost adds nutrients — c. Soil remains fertile<br>Saves money — d. No need to buy chemical fertilizers<br><br>3. True or False:<br>a. Compost should only be made once a year.<br>b. A steady compost supply helps in emergencies.<br>c. Compost makes plants weak.<br>d. Making compost helps the environment.<br><br>4. Short Answer:<br>Why is it important to always have compost ready?"
+    ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Written Assessment</b>:<br>- Administer a written assessment containing questions about conservation of mass, asking students to explain the concept and apply it to analyze scenarios."
+    "<b>Observation</b>: The teacher will monitor students’ responses during the discussion and activity.",
+    "<b>Exercise</b>: The written exercise will assess understanding of why maintaining compost supply is important."
   ],
   "conclusion": [
-    "Through discussions and activities, students will develop a clear understanding of conservation of mass and its importance in explaining changes in matter during physical and chemical processes, preparing them to apply the principle in scientific inquiry and problem-solving."
+    "By learning the value of maintaining a compost supply, students will understand how it supports healthy plant growth, reduces costs, and helps care for the environment."
   ]
 },
 
 // Lesson 4
 {
-  "title": "Exploring Matter: Chemical Equations and Balancing",
+  "title": "Advantages and Disadvantages of Chemical Fertilizers in Agriculture",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Understanding Chemical Equations and Balancing",
+  "topic": "Advantages and Disadvantages of Chemical Fertilizers in Agriculture",
   "grade": "Avian Aces",
   "term": "2",
   "week": "3",
   "lessonNumber": "4",
-  "description": "This lesson aims to introduce the concept of chemical equations and explain the importance of balancing them for accuracy.",
+  "description": "Learners will explain the advantages and disadvantages of chemical fertilizers in agriculture.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating chemical equations and balancing",
-    "Sample chemical equations and balancing worksheets"
+    "Whiteboard and markers",
+    "Charts showing types of fertilizers",
+    "Textbook or printed handouts on chemical fertilizers"
   ],
   "objectives": [
-    "Students will understand the concept of chemical equations and their importance in representing chemical reactions.",
-    "Students will recognize the significance of balancing chemical equations for accuracy and conservation of mass.",
-    "Students will practice balancing chemical equations and analyze the results."
+    "Learners will define what chemical fertilizers are.",
+    "Learners will list examples of chemical fertilizers.",
+    "Learners will explain the advantages of using chemical fertilizers.",
+    "Learners will explain the disadvantages of using chemical fertilizers.",
+    "Learners will participate in a group discussion to compare advantages and disadvantages."
   ],
   "rationale": [
-    "Understanding chemical equations and balancing is essential for accurately representing chemical reactions and predicting their outcomes in various scientific contexts."
+    "Understanding the impact of chemical fertilizers helps learners make informed decisions about agriculture and environmental care."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and problem-solving activities to engage students and reinforce key concepts."
+    "The lesson will include class discussion, explanation, group debate, and individual exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Chemical Equations</b>:<br>- Define chemical equations as symbolic representations of chemical reactions, showing the reactants and products involved.<br>- Explain the importance of chemical equations in summarizing reactions and predicting outcomes.",
-      "<b>Importance of Balancing Chemical Equations</b>:<br>- Discuss why balancing chemical equations is crucial for accuracy and reflects the principle of conservation of mass.<br>- Emphasize that balanced equations ensure that the same number of atoms of each element is present on both sides of the equation.",
-      "<b>Examples and Demonstrations</b>:<br>- Provide examples of chemical equations and demonstrate the process of balancing them step by step.<br>- Use visual aids or interactive simulations to illustrate how balancing ensures conservation of mass.",
-      "<b>Group Activity: Balancing Equations</b>:<br>- Divide students into small groups and provide them with a set of unbalanced chemical equations.<br>- Ask students to work together to balance the equations, ensuring that the number of atoms of each element is the same on both sides.",
-      "<b>Task: Analyzing Results</b>:<br>- After balancing the equations, ask students to analyze the balanced equations and identify any patterns or insights gained.<br>- Encourage students to discuss the implications of balanced equations for understanding chemical reactions."
-    ],
-    "<b>Class Exercise</b>:<br>- Present students with a series of unbalanced chemical equations and ask them to balance each equation individually, providing explanations for their choices."
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br>Begin by asking:<br><br>“What is the difference between organic and inorganic fertilizers?”<br>“What do you remember about compost manure?”<br>“What do you think happens when farmers use chemical fertilizers too often?”<br><br>Introduce today’s topic:<br>Today we will learn about chemical fertilizers, also called inorganic fertilizers.<br>We will explore their advantages and their disadvantages.",
+      
+      "<b>Part 2: What Are Chemical Fertilizers?</b>:<br><br>Definition:<br>Chemical fertilizers are man-made substances added to soil to provide nutrients for plants.<br><br>Examples:<br>Urea<br>Ammonium nitrate<br>Superphosphate<br><br>Explain that chemical fertilizers are used in farming to help crops grow faster and bigger.",
+      
+      "<b>Part 3: Advantages and Disadvantages</b>:<br><br>Advantages of Chemical Fertilizers<br>1. Provide Required Nutrients Quickly<br>Plants get nutrients like nitrogen, phosphorus, and potassium fast.<br><br>2. Easy to Use<br>Can be sprinkled, mixed with water, or sprayed.<br><br>3. Increases Crop Yield<br>Helps farmers grow more food in less time.<br><br>4. Works in Poor Soil<br>Can help plants grow even in areas with poor natural soil.<br><br>Disadvantages of Chemical Fertilizers<br>1. Spoils Soil Over Time<br>Too much use kills helpful organisms in the soil.<br><br>2. Leaching<br>Fertilizers can be washed away by rain into rivers and lakes, polluting water.<br><br>3. High Cost<br>Expensive to buy regularly, especially for small farmers.<br><br>4. Doesn’t Improve Soil Long-Term<br>Unlike compost, it doesn’t make the soil rich or improve its structure.",
+      
+      "<b>Part 4: Group Work / Debate</b>:<br><br>Group Activity:<br>Divide learners into two groups:<br>Group A defends chemical fertilizers (advantages).<br>Group B argues against them (disadvantages).<br><br>Let each group present their points. Discuss as a class and guide them to understand both sides.<br><br>Alternative Activity:<br>Create a simple comparison chart on the board:<br><br>Advantages | Disadvantages<br>--- | ---<br>Quick nutrient supply | Spoils soil over time<br>Easy to use | Can pollute water (leaching)<br>Increases yield | Expensive<br>Works in poor soils | Doesn’t improve soil long-term",
+      
+      "<b>Part 5: Exercise</b>:<br><br>1. Fill in the blanks:<br>a. Chemical fertilizers are __________ by humans.<br>b. One advantage is that they supply __________ quickly.<br>c. Overuse of chemical fertilizers can __________ the soil.<br>d. When fertilizers are washed away by rain, it is called __________.<br><br>2. Match the term to its meaning:<br>Term | Meaning<br>Leaching | a. Makes plants grow faster<br>Quick absorption | b. Nutrients are washed into rivers<br>Soil damage | c. Kills helpful soil organisms<br>High cost | d. Expensive for small farmers<br><br>3. True or False:<br>a. Chemical fertilizers improve soil structure.<br>b. They are man-made and fast acting.<br>c. Leaching helps the soil stay healthy.<br>d. They can be more expensive than compost.<br><br>4. Short Answer:<br>Give two advantages and two disadvantages of chemical fertilizers."
+    ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Worksheet</b>:<br>- Provide students with a worksheet containing unbalanced chemical equations and ask them to balance each equation, providing explanations for their balancing choices."
+    "<b>Observation</b>: The teacher will observe students' participation during the class discussion and group activity.",
+    "<b>Exercise</b>: The written exercise will assess the learners’ understanding of the topic."
   ],
   "conclusion": [
-    "Through hands-on activities and discussions, students will develop a clear understanding of chemical equations and the importance of balancing them for accuracy and conservation of mass in representing chemical reactions."
+    "By exploring the advantages and disadvantages of chemical fertilizers, learners will be able to make informed decisions about their use in agriculture and their environmental impact."
   ]
 },
 
 // Week 4
 // Lesson 1
 {
-  "title": "Exploring Forces and Newton's Laws of Motion",
+  "title": "Non-Flowering Plants",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Forces and Newton's Laws of Motion",
+  "topic": "Non-Flowering Plants",
   "grade": "Avian Aces",
   "term": "2",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson aims to introduce the concept of forces and present Newton's Laws of Motion. It will discuss the three laws and their relevance in understanding motion.",
+  "description": "This lesson introduces learners to non-flowering plants, highlighting their characteristics, examples, habitats, and importance to the environment.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating forces and motion",
-    "Models or diagrams demonstrating Newton's Laws of Motion"
+    "Pictures of mosses, ferns, algae",
+    "Real plant samples (if available)",
+    "Whiteboard and markers",
+    "Comparison chart"
   ],
   "objectives": [
-    "Students will understand the concept of forces and their role in causing motion.",
-    "Students will be able to explain Newton's Laws of Motion and their relevance in understanding motion.",
-    "Students will analyze real-life examples to illustrate the application of Newton's Laws of Motion."
+    "Identify what non-flowering plants are.",
+    "Describe characteristics of non-flowering plants.",
+    "Give examples such as mosses, ferns, algae.",
+    "Understand the importance and habitat of non-flowering plants.",
+    "Classify flowering and non-flowering plants from a given list."
   ],
   "rationale": [
-    "Introducing forces and Newton's Laws of Motion provides students with a fundamental understanding of motion and its underlying principles, laying the foundation for further exploration in physics."
+    "Learning about non-flowering plants helps students understand plant diversity and the ecological roles these plants play in nature."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and problem-solving activities to engage students and reinforce key concepts."
+    "The lesson will use teacher explanation, observation, group work, discussion, and classification tasks to engage learners."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Forces</b>:<br>- Define forces as pushes or pulls that cause objects to move, stop, or change direction.<br>- Discuss different types of forces, such as gravity, friction, and tension, and their effects on motion.",
-      "<b>Newton's First Law: Law of Inertia</b>:<br>- Present Newton's First Law, explaining that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force.<br>- Provide examples to illustrate the concept of inertia and how it relates to everyday experiences.",
-      "<b>Newton's Second Law: F = ma</b>:<br>- Introduce Newton's Second Law, stating that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.<br>- Discuss the relationship between force, mass, and acceleration, and how it is expressed mathematically.",
-      "<b>Newton's Third Law: Action-Reaction</b>:<br>- Present Newton's Third Law, which states that for every action, there is an equal and opposite reaction.<br>- Use examples to demonstrate how pairs of forces interact in opposite directions.",
-      "<b>Group Activity: Applying Newton's Laws</b>:<br>- Divide students into groups and provide them with scenarios depicting various situations involving forces and motion.<br>- Ask each group to analyze the scenarios and identify which of Newton's Laws apply, providing explanations for their choices."
-    ],
-    "<b>Class Discussion</b>:<br>- Facilitate a class discussion on the relevance of Newton's Laws of Motion in understanding motion in everyday life and scientific contexts, encouraging students to share examples and insights."
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Objective: To introduce students to the idea that not all plants produce flowers.<br><br>Teacher’s Talk:<br>“Today, we are going to learn about non-flowering plants. You already know that some plants have flowers like roses or sunflowers. But did you know that some plants don’t have flowers at all? These plants are called non-flowering plants. They still grow and reproduce, but they do it in different ways!”<br><br>Ask Students:<br>“Can you think of any plants that don’t have flowers?”<br>“Do you think these plants can still make seeds?”<br><br>Show pictures of ferns, mosses, and algae. Let learners observe and describe them.",
+      "<b>Part 2: Explanation (Explore)</b>:<br><br>Objective: To describe characteristics and examples of non-flowering plants.<br><br>Key Teaching Points:<br>Non-flowering plants do not produce flowers.<br>Many reproduce using spores instead of seeds.<br>Some common examples include:<br>Mosses – soft green carpets in damp places.<br>Ferns – leafy plants with curled fronds.<br>Algae – slimy plants found in water or on rocks.<br>Liverworts – flat, green, leafy plants near water.<br><br>Show real or digital examples of each.<br><br>Comparison Chart:<br>| Flowering Plants | Non-Flowering Plants |<br>|------------------|----------------------|<br>| Have flowers     | No flowers           |<br>| Make seeds       | Make spores          |<br>| Examples: rose, apple tree | Examples: fern, moss, algae |",
+      "<b>Part 3: Discussion (Explain)</b>:<br><br>Objective: To understand the importance and habitat of non-flowering plants.<br><br>Ask Students:<br>Where do we usually find mosses and ferns?<br>Why do you think they like moist places?<br>How do they help the environment?<br><br>Discuss:<br>Mosses help hold the soil and prevent erosion.<br>Algae provide oxygen and are food for aquatic animals.<br>Ferns add beauty and help maintain forest ecosystems.<br><br>Fun Fact:<br>Ferns have been around since the time of dinosaurs!",
+      "<b>Part 4: Application (Elaborate)</b>:<br><br>Objective: Learners apply knowledge by classifying plants.<br><br>Activity:<br>Give students a list of plant names. Ask them to sort into flowering and non-flowering.<br><br>List:<br>1. Sunflower<br>2. Fern<br>3. Algae<br>4. Mango tree<br>5. Moss<br>6. Tomato plant<br><br>Answer:<br>Flowering: Sunflower, Mango tree, Tomato plant<br>Non-flowering: Fern, Algae, Moss<br><br>Group Work:<br>Let groups draw one non-flowering plant and label its parts.",
+      "<b>Part 5: Exercise (Evaluate)</b>:<br><br>Instructions: Choose the correct answer or write your response.<br><br>A. Multiple Choice (Circle the correct answer)<br>1. Which of these is a non-flowering plant?<br>a) Rose<br>b) Fern<br>c) Apple tree<br>d) Lily<br><br>2. What do non-flowering plants use to reproduce?<br>a) Flowers<br>b) Fruits<br>c) Spores<br>d) Leaves<br><br>3. Where do mosses usually grow?<br>a) Dry places<br>b) Deserts<br>c) Wet and shady areas<br>d) Beaches<br><br>B. True or False<br>4. All plants have flowers. _______<br>5. Algae can live in water. _______<br><br>C. Short Answer<br>6. Name two types of non-flowering plants: ___________, ___________"
+    ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Written Assessment</b>:<br>- Administer a written assessment containing questions about forces, Newton's Laws of Motion, and their applications in real-life scenarios.<br>- Evaluate students' understanding based on their responses to the assessment."
+    "<b>Observation</b>: The teacher will observe student responses during discussions and participation in classification activities.",
+    "<b>Exercise</b>: The multiple choice, true/false, and short answer questions will assess learners’ understanding of non-flowering plants."
   ],
   "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of forces and Newton's Laws of Motion, enabling them to analyze and interpret motion in various contexts."
+    "By exploring non-flowering plants, students will appreciate the diversity of plant life and understand how these plants grow, reproduce, and contribute to the environment."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Exploring Forces: Types and Applications",
+  "title": "Uses of Ferns and Fungi",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Types of Forces and Their Applications",
+  "topic": "Non-flowering Plants",
   "grade": "Avian Aces",
   "term": "2",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson aims to review the concept of forces and introduce different types such as gravitational force, electromagnetic force, and friction.",
+  "description": "This lesson introduces learners to the usefulness of non-flowering plants such as ferns and fungi, exploring their roles in everyday life including food, decoration, and medicine.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating different types of forces",
-    "Examples of everyday objects demonstrating forces (e.g., magnets, rubber bands)"
+    "Samples or images of ferns and fungi",
+    "Chart paper",
+    "Markers",
+    "Worksheets"
   ],
   "objectives": [
-    "Students will review the concept of forces and their role in causing motion.",
-    "Students will be able to identify different types of forces, including gravitational force, electromagnetic force, and friction.",
-    "Students will analyze real-life examples to illustrate the applications of different types of forces."
+    "Learners will identify ferns and fungi as examples of non-flowering plants.",
+    "Learners will describe the uses of ferns and fungi in daily life.",
+    "Learners will match examples of ferns and fungi with their correct uses.",
+    "Learners will participate in discussions and group activities to reinforce understanding."
   ],
   "rationale": [
-    "Reviewing forces and introducing different types of forces provides students with a deeper understanding of the various factors influencing motion and interactions in the natural world."
+    "Understanding the importance of non-flowering plants like ferns and fungi helps learners appreciate biodiversity and the role of different organisms in human life."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and hands-on demonstrations to engage students and reinforce key concepts."
+    "The lesson will include storytelling, observation, group discussion, matching games, and exercises to engage learners and reinforce the uses of ferns and fungi."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Review of Forces</b>:<br>- Engage students in a review discussion of the concept of forces and their effects on motion.<br>- Recap different types of forces previously discussed and their significance.",
-      "<b>Introduction to Types of Forces</b>:<br>- Present different types of forces, including gravitational force, electromagnetic force, and friction.<br>- Explain the characteristics and effects of each type of force, using visual aids and real-life examples to illustrate.",
-      "<b>Demonstrations</b>:<br>- Conduct demonstrations to illustrate the effects of different types of forces, such as dropping objects to demonstrate gravitational force, using magnets to demonstrate electromagnetic force, and rubbing surfaces to demonstrate friction.<br>- Encourage students to observe and describe the interactions.",
-      "<b>Group Activity: Analyzing Examples</b>:<br>- Divide students into groups and provide them with examples of everyday objects or situations involving different types of forces.<br>- Ask each group to analyze the examples and identify the types of forces at play, providing explanations for their choices.",
-      "<b>Class Discussion</b>:<br>- Facilitate a class discussion on the applications of different types of forces in everyday life and scientific contexts, encouraging students to share examples and insights."
-    ],
-    "<b>Class Exercise</b>:<br>- Present students with scenarios depicting various situations involving forces and ask them to identify which type of force is most relevant in each scenario, providing explanations for their choices."
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Objective: To introduce learners to the idea that non-flowering plants like ferns and fungi are useful to humans.<br><br>Teacher’s Talk:<br>'Last time, we learned about non-flowering plants such as ferns, mosses, and fungi. Today, we will focus on how ferns and fungi are useful to us. You might be surprised at just how much we depend on them!'<br><br>Ask Students:<br>“Have you seen mushrooms before? What do people use them for?”<br>“Do you have ferns planted at home or school?”<br><br>Show real samples or images of ferns and mushrooms (fungi).",
+      "<b>Part 2: Explanation (Explore)</b>:<br><br>Objective: To describe the different uses of ferns and fungi.<br><br>Key Teaching Points:<br><br><u>FERNS</u><br>- Used as ornamental plants in gardens and homes.<br>- They are decorative and help make our environment more beautiful.<br>- Ferns help purify the air and can provide shade in gardens.<br><br><u>FUNGI</u> (e.g. Mushrooms, yeast, mold)<br>- Fungi are more than just mushrooms. They can be useful in many ways:<br><br>1. <b>Baking:</b><br>Yeast (a type of fungus) helps dough rise to make bread and buns.<br><br>2. <b>Beer Brewing:</b><br>Yeast is used in making beer and other fermented drinks.<br><br>3. <b>Food:</b><br>Edible mushrooms are fungi that can be cooked and eaten.<br><br>4. <b>Medicine:</b><br>Some fungi are used to make medicine, such as penicillin (an antibiotic).",
+      "<b>Part 3: Discussion (Explain)</b>:<br><br>Objective: Learners discuss and relate how fungi and ferns are used in everyday life.<br><br>Discussion Questions:<br>“Why do you think people plant ferns around their homes?”<br>“Can you name a food that uses mushrooms?”<br>“What would happen if we didn’t have fungi like yeast?”<br><br>Group Activity:<br>Divide the class into two groups:<br><br>Group 1: Discuss and draw how ferns are used.<br>Group 2: Discuss and draw how fungi (like yeast or mushrooms) are used.<br><br>Present findings to the class.",
+      "<b>Part 4: Application (Elaborate)</b>:<br><br>Objective: Learners match the plant with its use and recognize real-life examples.<br><br>Matching Activity:<br><br><table border='1'><tr><th>Plant/Fungus</th><th>Use</th></tr><tr><td>Fern</td><td>a) Baking bread</td></tr><tr><td>Yeast</td><td>b) Decoration</td></tr><tr><td>Mushroom</td><td>c) Food</td></tr><tr><td>Penicillin (from fungus)</td><td>d) Medicine</td></tr></table><br><br>Answer:<br>Fern – b) Decoration<br>Yeast – a) Baking bread<br>Mushroom – c) Food<br>Penicillin – d) Medicine",
+      "<b>Part 5: Exercise (Evaluate)</b>:<br><br><u>Instructions: Answer the following questions.</u><br><br><b>A. Multiple Choice (Circle the correct answer)</b><br>1. Which of the following is used for making bread rise?<br>a) Mushroom<br>b) Fern<br>c) Yeast<br>d) Mold<br><br>2. What are ferns mainly used for?<br>a) Cooking<br>b) Brewing<br>c) Decoration<br>d) Cleaning<br><br>3. What medicine is made from fungi?<br>a) Painkillers<br>b) Penicillin<br>c) Vitamins<br>d) Antibiotics<br><br><b>B. True or False</b><br>4. All fungi are harmful. _______<br>5. Ferns are non-flowering plants. _______<br><br><b>C. Short Answer</b><br>6. Name one food product made using fungi. ______________<br>7. Give one reason why people plant ferns around their homes. _____________"
+    ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Written Assessment</b>:<br>- Administer a written assessment containing questions about different types of forces and their applications in real-life scenarios.<br>- Evaluate students' understanding based on their responses to the assessment."
+    "<b>Observation</b>: The teacher will assess student participation in group work and discussions.",
+    "<b>Exercise</b>: The written exercise will evaluate the students' knowledge of the uses of ferns and fungi."
   ],
   "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of different types of forces and their applications, enabling them to recognize and analyze force interactions in various contexts."
+    "Through this lesson, learners will understand how non-flowering plants like ferns and fungi contribute to human life by providing food, decoration, and medicine."
   ]
 },
 
 // Lesson 3
-{
-  "title": "Exploring Motion: Types and Speed",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Motion: Types and Speed",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "4",
-  "lessonNumber": "3",
-  "description": "This lesson aims to define motion, discuss different types such as linear and circular motion, and introduce the concept of speed and its measurement.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating different types of motion",
-    "Measuring tape or ruler",
-    "Stopwatch or timer"
-  ],
-  "objectives": [
-    "Students will understand the concept of motion and its various types, including linear and circular motion.",
-    "Students will be able to differentiate between different types of motion and provide examples of each.",
-    "Students will learn about the concept of speed and how to measure it."
-  ],
-  "rationale": [
-    "Defining motion and discussing its types provides students with a foundational understanding of how objects move in different ways. Introducing speed and its measurement further enhances their comprehension of motion concepts."
-  ],
-  "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and hands-on activities to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Definition of Motion</b>:<br>- Define motion as the change in position of an object with respect to time.<br>- Discuss different types of motion, such as linear (straight-line) motion and circular motion, and provide examples of each.",
-      "<b>Types of Motion</b>:<br>- Present examples of linear motion, such as a car moving along a road, and circular motion, such as a spinning top or a planet orbiting the sun.<br>- Discuss the characteristics and distinguishing features of each type of motion.",
-      "<b>Introduction to Speed</b>:<br>- Introduce the concept of speed as the rate at which an object moves, calculated as the distance traveled divided by the time taken.<br>- Explain how speed is measured using appropriate units, such as meters per second (m/s) or kilometers per hour (km/h).",
-      "<b>Measuring Speed</b>:<br>- Conduct a hands-on activity where students measure the speed of objects in motion.<br>- Provide students with measuring tape or rulers to measure distances and stopwatches or timers to measure time.<br>- Guide students through the calculation of speed for different objects.",
-      "<b>Group Discussion: Applications of Speed</b>:<br>- Facilitate a discussion on the relevance and applications of speed in everyday life and various fields, such as sports, transportation, and scientific research.",
-      "<b>Class Exercise</b>:<br>- Present students with scenarios depicting different types of motion and ask them to identify the type of motion and calculate the speed of the objects involved."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Speed Calculation Task</b>:<br>- Administer a task where students are required to calculate the speed of objects in motion based on given distances and times.<br>- Evaluate students' ability to apply the concept of speed and perform calculations accurately."
-  ],
-  "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of motion, its different types, and the concept of speed, enabling them to analyze and interpret motion phenomena in various contexts."
-  ]
-},
-
-// Lesson 4
-{
-  "title": "Understanding Friction: Types and Effects",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Friction: Types and Effects",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "4",
-  "lessonNumber": "4",
-  "description": "This lesson aims to define friction, discuss its role in opposing motion, and introduce the types of friction - static and kinetic.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating friction",
-    "Objects with different surfaces (e.g., wood, metal, plastic)",
-    "Spring scale or force meter"
-  ],
-  "objectives": [
-    "Students will understand the concept of friction and its role in opposing motion.",
-    "Students will be able to differentiate between static and kinetic friction.",
-    "Students will analyze real-life examples to illustrate the effects of friction."
-  ],
-  "rationale": [
-    "Defining friction and discussing its types provides students with a foundational understanding of the forces acting between surfaces in contact. Exploring friction's role in opposing motion enhances their comprehension of its significance in various scenarios."
-  ],
-  "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and hands-on activities to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Definition of Friction</b>:<br>- Define friction as the force that opposes motion between surfaces in contact.<br>- Discuss examples of friction in everyday life, such as walking on the ground, rubbing hands together, or stopping a moving object.",
-      "<b>Role of Friction</b>:<br>- Explain how friction affects motion by slowing down or stopping objects in motion and providing traction to prevent slipping.<br>- Discuss the importance of friction in various applications, such as vehicle brakes, shoe soles, and grip on surfaces.",
-      "<b>Types of Friction</b>:<br>- Introduce the two main types of friction: static friction and kinetic friction.<br>- Explain that static friction acts between stationary surfaces, preventing them from moving, while kinetic friction acts between moving surfaces, opposing their relative motion.",
-      "<b>Hands-on Demonstration</b>:<br>- Conduct a demonstration where students observe and compare the effects of static and kinetic friction.<br>- Use objects with different surfaces and a spring scale or force meter to measure the force required to overcome friction.",
-      "<b>Group Discussion: Effects of Friction</b>:<br>- Facilitate a discussion on the effects of friction in different situations and industries, such as transportation, sports, and manufacturing.<br>- Encourage students to share examples and insights into how friction influences everyday activities.",
-      "<b>Class Exercise</b>:<br>- Present students with scenarios depicting various situations involving friction and ask them to identify whether static or kinetic friction is involved, providing explanations for their choices."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Friction Analysis Task</b>:<br>- Administer a task where students are required to analyze real-life examples of friction and identify whether static or kinetic friction is involved, providing explanations for their choices.<br>- Evaluate students' ability to apply the concept of friction and differentiate between its types."
-  ],
-  "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of friction, its role in opposing motion, and the differences between static and kinetic friction, enabling them to analyze and interpret friction phenomena in various contexts."
-  ]
-},
-
 
 // Week 5
 // Lesson 1
 {
-  "title": "Exploring Energy: Forms and Applications",
+  "title": "Classification of Invertebrate Animals",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Energy: Forms and Applications",
+  "topic": "Invertebrate Animals",
   "grade": "Avian Aces",
   "term": "2",
   "week": "5",
   "lessonNumber": "1",
-  "description": "This lesson aims to introduce the concept of energy, discuss its importance in daily life, and present different forms such as kinetic, potential, thermal, and others.",
+  "description": "This lesson introduces students to the classification of invertebrate animals, their groups, importance, and key features.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating different forms of energy",
-    "Objects demonstrating energy transformations (e.g., pendulum, battery-powered device)",
-    "Thermometer"
+    "Whiteboard and markers",
+    "Pictures or flashcards of invertebrates",
+    "Chart paper for summary table"
   ],
   "objectives": [
-    "Students will understand the concept of energy and its importance in daily life.",
-    "Students will be able to identify and differentiate between different forms of energy, including kinetic, potential, thermal, and others.",
-    "Students will analyze real-life examples to illustrate energy transformations and applications."
+    "Learners will be able to identify different types of invertebrate animals.",
+    "Learners will describe key features of invertebrate groups.",
+    "Learners will understand the environmental roles of invertebrates."
   ],
   "rationale": [
-    "Introducing the concept of energy and its various forms provides students with a foundational understanding of the fundamental principles governing energy in the universe. Exploring energy's importance in daily life enhances their comprehension of its relevance and applications in various contexts."
+    "Understanding invertebrate animals helps learners appreciate biodiversity and the importance of all living creatures in ecosystems."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and hands-on activities to engage students and reinforce key concepts."
+    "The lesson will use class discussions, visual aids, and interactive matching and identification activities to help learners classify and understand invertebrate animals."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Energy</b>:<br>- Define energy as the ability to do work or cause change.<br>- Discuss the importance of energy in daily life, such as powering devices, providing heat, and enabling movement.",
-      "<b>Forms of Energy</b>:<br>- Present different forms of energy, including kinetic energy (energy of motion), potential energy (stored energy), thermal energy (heat energy), and others (e.g., chemical, electrical, nuclear).<br>- Use images or videos to illustrate each form of energy and its characteristics.",
-      "<b>Energy Transformations</b>:<br>- Demonstrate examples of energy transformations, such as a pendulum swinging back and forth (between kinetic and potential energy) or a battery-powered device converting chemical energy into electrical energy.<br>- Discuss how energy changes from one form to another.",
-      "<b>Measurement of Thermal Energy</b>:<br>- Conduct a hands-on activity where students measure thermal energy using a thermometer.<br>- Provide objects at different temperatures and ask students to measure and compare their thermal energy levels.",
-      "<b>Group Discussion: Applications of Energy</b>:<br>- Facilitate a discussion on the diverse applications of energy in everyday life, technology, industry, and the environment.<br>- Encourage students to share examples and insights into how different forms of energy are used and transformed.",
-      "<b>Class Exercise</b>:<br>- Present students with scenarios depicting various energy transformations and ask them to identify the forms of energy involved, providing explanations for their choices."
+      "<b>Part 1: Introduction (What Are Invertebrates?)</b>:<br><br>Start the lesson with a class discussion.<br><br>Ask learners:<br>Have you ever seen a butterfly, worm, or spider?<br>What do these animals have in common?<br><br>Explain:<br>Invertebrates are animals that do not have a backbone. Unlike humans and other animals with bones inside their bodies, invertebrates have soft bodies or outer shells for protection.<br><br>Key Fact:<br>Invertebrates make up over 95% of all animal species in the world!",
+      
+      "<b>Part 2: Groups of Invertebrates</b>:<br><br>Introduce the learners to the main types of invertebrates they will learn about.<br><br>1. Insects<br>Body divided into three parts (head, thorax, abdomen)<br>Have six legs and most have wings<br>Examples: Bees, Dragonflies, Wasps, Grasshoppers, Beetles, Butterflies<br><br>2. Worms<br>Long, soft bodies with no legs<br>Live in soil or water<br>Example: Earthworms<br><br>3. Spiders<br>Have eight legs<br>Part of the arachnid group<br>Make webs to catch prey<br>Example: House spider<br><br>4. Crustaceans<br>Hard outer shells (exoskeletons)<br>Live in water (mostly)<br>Examples: Crabs, Lobsters<br><br>5. Mollusks<br>Soft bodies, many have a shell<br>Move slowly and often live in moist environments<br>Example: Snails",
+      
+      "<b>Part 3: Importance of Invertebrates</b>:<br><br>Discuss why these animals are important to our environment.<br><br>Insects help with pollination (e.g., bees help plants grow)<br>Worms make soil rich and healthy for farming<br>Spiders help control insect populations<br>Crustaceans clean the ocean floor<br>Snails help decompose dead plants<br><br>Encourage learners to respect all creatures, even the tiny ones!",
+      
+      "<b>Part 4: Summary Chart</b>:<br><br>Use a simple chart on the board or in learners’ notebooks:<br><br>Group - Examples - Key Features<br>Insects - Bees, Butterflies, Beetles - 6 legs, 3 body parts, wings<br>Worms - Earthworm - No legs, soft long body<br>Spiders - House spider - 8 legs, web makers<br>Crustaceans - Crabs, Lobsters - Hard shell, live in water<br>Mollusks - Snails - Soft body, often with shell",
+      
+      "<b>Part 5: Exercise (Assessment Activity)</b>:<br><br><u>A. Match the animals to their group</u><br>1. Butterfly -<br>2. Earthworm -<br>3. Crab -<br>4. Snail -<br>5. Spider -<br><br>Groups:<br>a) Worms<br>b) Crustaceans<br>c) Insects<br>d) Mollusks<br>e) Spiders<br><br><u>B. True or False</u><br>1. All insects have 8 legs.<br>2. Worms are good for soil.<br>3. Crabs live on trees.<br>4. Spiders can spin webs.<br>5. Snails have a hard shell.<br><br><u>C. Short Answer</u><br>Choose two invertebrates and describe where they live and what they do in the environment."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Energy Transformation Task</b>:<br>- Administer a task where students are required to analyze real-life examples of energy transformations and identify the forms of energy involved, providing explanations for their choices.<br>- Evaluate students' ability to apply the concept of energy and differentiate between its forms."
+    "<b>Observation</b>: The teacher will observe student participation and engagement during class discussions and group work.",
+    "<b>Exercise</b>: The matching, true/false, and short-answer activities will be used to assess understanding of the lesson content."
   ],
   "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of energy, its various forms, and applications, enabling them to analyze and interpret energy phenomena in various contexts."
+    "By identifying different types of invertebrate animals and understanding their characteristics and importance, learners will develop greater appreciation for biodiversity and the environment."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Exploring Energy Transformations",
+  "title": "Introduction to Invertebrate Animals",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Energy Transformations",
+  "topic": "Classification of Invertebrate Animals",
   "grade": "Avian Aces",
   "term": "2",
   "week": "5",
-  "lessonNumber": "2",
-  "description": "This lesson aims to briefly revisit the forms of energy covered in the previous lesson and introduce the concept of energy transformations.",
+  "lessonNumber": "1",
+  "description": "This lesson helps learners understand what invertebrates are, identify their main groups, and recognize their importance in the environment.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating energy transformations",
-    "Objects demonstrating energy transformations (e.g., solar panels, wind turbines)"
+    "Pictures of invertebrates",
+    "Chart paper and markers",
+    "Science textbook",
+    "Worksheets"
   ],
   "objectives": [
-    "Students will review the forms of energy covered in the previous lesson.",
-    "Students will understand the concept of energy transformations.",
-    "Students will be able to identify examples of energy transformations in various contexts."
+    "Learners will be able to identify the different types of invertebrate animals.",
+    "Learners will learn to classify invertebrates into groups like insects, worms, spiders, crustaceans, and mollusks.",
+    "Learners will understand the role of invertebrates in the environment."
   ],
   "rationale": [
-    "Revisiting the forms of energy provides students with a quick review and reinforces their understanding before introducing the concept of energy transformations. Exploring energy transformations allows students to recognize how energy changes from one form to another in different processes and systems."
+    "Understanding the characteristics and importance of invertebrates helps learners appreciate biodiversity and the ecological role of various animals."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use class discussions, visual aids, and matching exercises to engage learners and help them classify and appreciate invertebrate animals."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Review of Forms of Energy</b>:<br>- Briefly revisit the forms of energy covered in the previous lesson, including kinetic, potential, thermal, and others.<br>- Encourage students to recall and discuss the characteristics and examples of each form of energy.",
-      "<b>Introduction to Energy Transformations</b>:<br>- Define energy transformations as the process of changing energy from one form to another.<br>- Present examples of energy transformations in various contexts, such as solar energy being converted into electrical energy by solar panels or wind energy being converted into mechanical energy by wind turbines.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate different energy transformations, such as photosynthesis converting light energy into chemical energy in plants or a car engine converting chemical energy into kinetic energy.",
-      "<b>Group Activity: Identifying Energy Transformations</b>:<br>- Divide students into groups and provide them with scenarios depicting different processes or systems involving energy transformations.<br>- Ask each group to identify and discuss the forms of energy involved and the transformations taking place.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the importance of energy transformations in everyday life, technology, and the environment.<br>- Encourage students to share examples and insights into how energy transformations impact various aspects of society and the natural world."
+      "<b>Part 1: Introduction (What Are Invertebrates?)</b>:<br><br>Start the lesson with a class discussion.<br><br>Ask learners:<br><br>Have you ever seen a butterfly, worm, or spider?<br>What do these animals have in common?<br><br>Explain:<br>Invertebrates are animals that do not have a backbone. Unlike humans and other animals with bones inside their bodies, invertebrates have soft bodies or outer shells for protection.<br><br>Key Fact:<br>Invertebrates make up over 95% of all animal species in the world!",
+      
+      "<b>Part 2: Groups of Invertebrates</b>:<br><br>Introduce the learners to the main types of invertebrates they will learn about.<br><br>1. Insects<br>Body divided into three parts (head, thorax, abdomen)<br>Have six legs and most have wings<br>Examples: Bees, Dragonflies, Wasps, Grasshoppers, Beetles, Butterflies<br><br>2. Worms<br>Long, soft bodies with no legs<br>Live in soil or water<br>Example: Earthworms<br><br>3. Spiders<br>Have eight legs<br>Part of the arachnid group<br>Make webs to catch prey<br>Example: House spider<br><br>4. Crustaceans<br>Hard outer shells (exoskeletons)<br>Live in water (mostly)<br>Examples: Crabs, Lobsters<br><br>5. Mollusks<br>Soft bodies, many have a shell<br>Move slowly and often live in moist environments<br>Example: Snails",
+
+      "<b>Part 3: Importance of Invertebrates</b>:<br><br>Discuss why these animals are important to our environment.<br><br>Insects help with pollination (e.g., bees help plants grow)<br>Worms make soil rich and healthy for farming<br>Spiders help control insect populations<br>Crustaceans clean the ocean floor<br>Snails help decompose dead plants<br><br>Encourage learners to respect all creatures, even the tiny ones!",
+
+      "<b>Part 4: Summary Chart</b>:<br><br>Use a simple chart on the board or in learners’ notebooks:<br><br>Group — Examples — Key Features<br>Insects — Bees, Butterflies, Beetles — 6 legs, 3 body parts, wings<br>Worms — Earthworm — No legs, soft long body<br>Spiders — House spider — 8 legs, web makers<br>Crustaceans — Crabs, Lobsters — Hard shell, live in water<br>Mollusks — Snails — Soft body, often with shell",
+
+      "<b>Part 5: Exercise (Assessment Activity)</b>:<br><br><u>A. Match the animals to their group</u><br><br>1. Butterfly -<br>2. Earthworm -<br>3. Crab -<br>4. Snail -<br>5. Spider -<br><br>Groups:<br>a) Worms<br>b) Crustaceans<br>c) Insects<br>d) Mollusks<br>e) Spiders<br><br><u>B. True or False</u><br><br>1. All insects have 8 legs.<br>2. Worms are good for soil.<br>3. Crabs live on trees.<br>4. Spiders can spin webs.<br>5. Snails have a hard shell.<br><br><u>C. Short Answer</u><br><br>Choose two invertebrates and describe where they live and what they do in..."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Scenarios Analysis Task</b>:<br>- Administer a task where students are required to analyze scenarios depicting different processes or systems involving energy transformations and identify the forms of energy involved, providing explanations for their choices.<br>- Evaluate students' ability to apply the concept of energy transformations and recognize examples in various contexts."
+    "<b>Observation</b>: The teacher will observe student participation and responses during the discussion and activities.",
+    "<b>Exercise</b>: The matching, true/false, and short answer questions will assess learners’ understanding of invertebrate animals."
   ],
   "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of energy transformations and their significance in various processes and systems, enabling them to recognize and analyze energy transformations in everyday life."
+    "Learners will now be able to identify and classify invertebrate animals, understand their roles in nature, and appreciate the diversity of animal life."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Understanding Work, Power, and Energy",
+  "title": "Exploring Insects and Arachnids",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Work, Power, and Energy",
+  "topic": "Difference Between Insects and Arachnids",
   "grade": "Avian Aces",
   "term": "2",
   "week": "5",
   "lessonNumber": "3",
-  "description": "This lesson aims to define work and power, discuss their relationship with energy, and introduce the units used to measure work and power.",
+  "description": "This lesson introduces students to the classification of insects and arachnids, helping them understand their body parts, functions, and roles in nature.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating work, power, and energy",
-    "Objects demonstrating mechanical work or power (e.g., pulleys, bicycles)"
+    "Whiteboard and markers",
+    "Pictures or toy models of insects and arachnids",
+    "Comparison chart or worksheet"
   ],
   "objectives": [
-    "Students will understand the concepts of work, power, and energy.",
-    "Students will be able to explain the relationship between work, power, and energy.",
-    "Students will learn about the units used to measure work and power."
+    "Students will review the key features of insects.",
+    "Students will identify the key features of arachnids.",
+    "Students will compare and contrast insects and arachnids using a chart.",
+    "Students will discuss the importance of these invertebrates in nature.",
+    "Students will complete exercises to reinforce their understanding."
   ],
   "rationale": [
-    "Defining work and power and discussing their relationship with energy provides students with a foundational understanding of the fundamental concepts related to mechanical processes and energy transformations. Introducing the units used to measure work and power enhances their comprehension of these concepts."
+    "Understanding how to classify invertebrate animals helps students develop observation skills and appreciate biodiversity in the animal kingdom."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and hands-on activities to engage students and reinforce key concepts."
+    "This lesson uses review, direct teaching, visual aids, comparison activities, and exercises to guide learners in distinguishing insects from arachnids."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Definition of Work</b>:<br>- Define work as the transfer of energy that occurs when a force is applied to an object and causes it to move in the direction of the force.<br>- Discuss examples of work being done, such as lifting objects, pushing or pulling, or moving against resistance.",
-      "<b>Definition of Power</b>:<br>- Define power as the rate at which work is done or the amount of energy transferred or converted per unit time.<br>- Discuss examples of power, such as a fast-moving car or a light bulb converting electrical energy into light and heat.",
-      "<b>Relationship with Energy</b>:<br>- Explain the relationship between work, power, and energy, emphasizing that work and power are measures of energy transfer or conversion.<br>- Discuss how work and power are essential concepts in understanding mechanical processes and energy transformations.",
-      "<b>Units of Measurement</b>:<br>- Introduce the units used to measure work, such as the joule (J), which is equivalent to one newton-meter (N·m).<br>- Introduce the units used to measure power, such as the watt (W), which is equivalent to one joule per second (J/s).",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of work and power in different contexts, such as lifting weights, riding a bicycle, or using machines.<br>- Demonstrate how different mechanical systems convert energy and perform work.",
-      "<b>Class Exercise</b>:<br>- Present students with scenarios depicting various tasks or activities involving work and power and ask them to calculate the amount of work done or the power required, using appropriate formulas and units."
+      "<b>Part 1: Introduction – Review of Insects</b>:<br><br>Start with a quick review:<br><br>Ask learners:<br>How many legs do insects have?<br>What are the three body parts of an insect?<br><br>Explain again briefly:<br>Insects have:<br>3 body parts: head, thorax, abdomen<br>6 legs<br>Antennae<br>Wings (in many cases)",
+      "<b>Part 2: What Are Arachnids?</b>:<br><br>Introduce arachnids as another group of invertebrates.<br><br>Examples:<br>Spiders, scorpions, ticks, and mites<br><br>Main Features of Arachnids:<br>2 body parts: cephalothorax and abdomen<br>8 legs<br>No antennae<br>Most have no wings<br>Most live on land and are carnivorous (eat other small animals)<br><br>Use images or toy models of a spider or scorpion to show these features.",
+      "<b>Part 3: Comparing Insects and Arachnids</b>:<br><br>Use a comparison chart on the board or paper:<br><br><b>Feature</b> | <b>Insects</b> | <b>Arachnids</b><br>Body Parts | 3 (head, thorax, abdomen) | 2 (cephalothorax, abdomen)<br>Legs | 6 | 8<br>Antennae | Yes | No<br>Wings | Usually present | Absent<br>Examples | Bees, Ants, Butterflies | Spiders, Scorpions<br><br>Explain clearly:<br>The number of legs and body parts is the main difference.<br>Insects often help with pollination.<br>Arachnids help control insect populations (like spiders eating flies).",
+      "<b>Part 4: Class Discussion and Observation</b>:<br><br>Discussion Questions:<br>Why do you think spiders don’t need wings like many insects do?<br>How do you feel about spiders and insects? Are they both important?<br><br>Activity (if possible):<br>Bring pictures of an ant and a spider. Let learners label each and point out differences.",
+      "<b>Part 5: Exercise</b>:<br><br><b>A. Multiple Choice</b><br>1. How many legs does an arachnid have?<br>a) 4<br>b) 6<br>c) 8<br>d) 10<br><br>2. Which of these is not an arachnid?<br>a) Spider<br>b) Scorpion<br>c) Butterfly<br>d) Tick<br><br>3. How many body parts does an insect have?<br>a) 1<br>b) 2<br>c) 3<br>d) 4<br><br><b>B. Fill in the Blanks</b><br>1. Arachnids have ______ body parts and ______ legs.<br>2. Insects have ______ antennae, but arachnids do not.<br>3. One example of an arachnid is a ______.<br>4. Insects usually have ______, but arachnids do not.<br>5. The body of an insect is made up of the head, thorax, and ______.<br><br><b>C. Compare and Contrast (Short Answer)</b><br>Write two differences and one similarity between insects and arachnids."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Calculation Task</b>:<br>- Administer a task where students are required to calculate the amount of work done or the power required for given scenarios involving mechanical processes.<br>- Evaluate students' ability to apply the concepts of work and power and perform calculations accurately."
+    "<b>Observation</b>: The teacher will observe student participation and their ability to identify and describe key features of insects and arachnids.",
+    "<b>Exercise</b>: Students will complete the written activity including multiple choice, fill-in-the-blanks, and short answer questions to assess understanding."
   ],
   "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of work, power, and energy, as well as their relationships and significance in mechanical processes and energy transformations."
+    "By comparing insects and arachnids, students will better understand the diversity within invertebrate animals and appreciate their roles in nature."
   ]
 },
 
 // Lesson 4
 {
-  "title": "Exploring Simple Machines",
+  "title": "Uses of Insects",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, May 19, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Simple Machines",
+  "topic": "State Ways in Which Insects Are Useful",
   "grade": "Avian Aces",
   "term": "2",
   "week": "5",
   "lessonNumber": "4",
-  "description": "This lesson aims to define simple machines and introduce common types such as levers, pulleys, inclined planes, and more, discussing their functions.",
+  "description": "This lesson helps learners explore how insects are beneficial to humans, animals, and the environment, in alignment with syllabus outcome 5.4.2.4.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating simple machines",
-    "Models or demonstrations of common types of simple machines (e.g., lever, pulley, inclined plane)"
+    "Pictures of bees, butterflies, silkworms, termites",
+    "Samples of silk cloth or honey jars",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will understand the concept of simple machines and their functions.",
-    "Students will be able to identify and differentiate between common types of simple machines.",
-    "Students will learn about the applications and significance of simple machines in everyday life and engineering."
+    "Learners will understand that not all insects are harmful.",
+    "Learners will be able to list and explain ways in which insects are useful.",
+    "Learners will observe and discuss real-life examples of insect usefulness.",
+    "Learners will appreciate the environmental importance of insects.",
+    "Learners will complete an exercise to assess understanding."
   ],
   "rationale": [
-    "Defining simple machines and introducing common types provides students with a foundational understanding of the basic mechanical devices used to make work easier. Exploring their functions and applications enhances their comprehension of the role of simple machines in various contexts."
+    "By understanding the positive roles insects play, learners develop a sense of appreciation for biodiversity and the balance of ecosystems."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, interactive discussions, and hands-on activities to engage students and reinforce key concepts."
+    "The lesson will include question and answer sessions, explanations, group discussions, visual observation of examples, and written exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Definition of Simple Machines</b>:<br>- Define simple machines as basic mechanical devices that make work easier by changing the direction or magnitude of a force.<br>- Discuss the concept of mechanical advantage and how simple machines increase force or distance to accomplish tasks.",
-      "<b>Introduction to Common Types</b>:<br>- Introduce common types of simple machines, including levers, pulleys, inclined planes, wedges, screws, and wheels and axles.<br>- Use images or videos to illustrate each type of simple machine and discuss their functions and applications.",
-      "<b>Functions of Simple Machines</b>:<br>- Discuss the functions of each type of simple machine, such as how levers can lift heavy objects with less effort, how pulleys can change the direction of a force, or how inclined planes can reduce the force needed to move objects uphill.",
-      "<b>Hands-on Demonstrations</b>:<br>- Conduct demonstrations or use models to showcase the operation of common types of simple machines, allowing students to observe and understand how they work in practice.<br>- Encourage students to interact with the demonstrations and ask questions.",
-      "<b>Group Activity: Identifying Simple Machines</b>:<br>- Divide students into groups and provide them with scenarios or examples of tasks involving simple machines.<br>- Ask each group to identify the type of simple machine at work in each scenario and explain its function.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the applications and significance of simple machines in everyday life, industry, and engineering.<br>- Encourage students to share examples of simple machines they encounter in their daily lives and discuss their importance."
+      "<b>Part 1: Introduction – How Do We See Insects?</b>:<br><br>Ask learners:<br>Are all insects bad or dangerous?<br>Do some insects help us?<br><br>Explain: Not all insects are harmful. In fact, many insects are very helpful to humans, animals, and plants. Today, we will learn about the usefulness of insects.",
+      "<b>Part 2: Ways Insects Are Useful</b>:<br><br>1. Source of Food<br>In some parts of the world, insects like grasshoppers, termites, and caterpillars are eaten as food.<br>They are rich in protein and nutrients.<br>Birds, frogs, and some animals also eat insects to survive.<br><br>2. Pollination<br>Insects like bees, butterflies, and wasps help in pollination.<br>Pollination is when insects carry pollen from one flower to another, helping plants make fruits and seeds.<br>This is how we get many fruits like apples, oranges, and tomatoes.<br><br>3. Decomposers<br>Some insects like beetles and ants help to break down dead plants and animals.<br>This keeps the environment clean and helps in making fertile soil.<br><br>4. Making Useful Products<br>Bees make honey and wax.<br>Silkworms produce silk, which is used to make clothes.",
+      "<b>Part 3: Real-Life Examples</b>:<br><br>Show pictures or real samples of:<br>Bees on flowers<br>A plate of edible insects<br>Silk cloth from silkworms<br>Termites or ants breaking down dead wood<br><br>Let learners discuss in groups which insects they’ve seen helping plants or being eaten.",
+      "<b>Part 4: Importance of Insects to the Environment</b>:<br><br>Ask learners:<br>What would happen if all insects disappeared?<br><br>Discuss:<br>No pollination → no fruits<br>No insects → some animals lose food<br>Dirty environment → no decomposers<br><br>Conclusion: Insects are small, but they play a big role in keeping the environment balanced and healthy.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Fill in the Blanks<br>1. Bees help in ______ by moving pollen between flowers.<br>2. Insects like ______ and ______ are eaten by humans and animals.<br>3. ______ is made by silkworms.<br>4. Some insects break down dead plants and animals; they are called ______.<br>5. Without insects, many plants would not be able to produce ______.<br><br>B. Match the Insect to Its Use<br><br>Insect Use<br>Bee ______<br>Butterfly ______<br>Silkworm ______<br>Termite ______<br>Grasshopper ______<br><br>Options: a) Makes silk<br>b) Source of food<br>c) Helps in pollination<br>d) Decomposes dead materials<br>e) Produces honey<br><br>C. Short Answer<br>1. Name two insects that help with pollination.<br>2. How do ants help keep the environment clean?<br>3. Why are insects important to farmers?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions, observations of group activities, and responses to class exercises.",
-    "<br><b>Scenario Analysis Task</b>:<br>- Administer a task where students are required to analyze scenarios or examples of tasks involving simple machines and identify the type of simple machine at work, providing explanations for their choices.<br>- Evaluate students' ability to apply the concepts of simple machines and recognize examples in various contexts."
+    "<b>Observation</b>: Teacher observes participation during discussions and group work.",
+    "<b>Exercise</b>: Learners complete fill-in-the-blanks, matching, and short answer questions to assess understanding of the usefulness of insects."
   ],
   "conclusion": [
-    "Through interactive activities and discussions, students will develop a clear understanding of simple machines, their functions, and applications, enabling them to recognize and analyze their significance in everyday life and engineering."
+    "Through this lesson, learners understand that insects are not just pests—they play crucial roles in our ecosystems by providing food, helping plants grow, cleaning up nature, and creating useful products."
   ]
 },
 
 // Week 7
 // Lesson 1
 {
-  "title": "Understanding Energy: The Ability to Do Work",
+  "title": "Identifying Common Pests and Parasites",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Energy: The Ability to Do Work",
+  "topic": "Identifying Common Pests and Parasites",
   "grade": "Avian Aces",
   "term": "2",
   "week": "7",
   "lessonNumber": "1",
-  "description": "This lesson aims to begin with a discussion on what energy is and why it is essential, introducing the idea that energy is the ability to do work.",
+  "description": "This lesson introduces students to pests and parasites in their local environment and explores their characteristics, effects, and prevention methods.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating energy and work",
-    "Examples of tasks requiring energy"
+    "Pictures or illustrations of pests and parasites",
+    "Whiteboard and markers",
+    "Notebook and pencils"
   ],
   "objectives": [
-    "Students will understand the concept of energy and its importance.",
-    "Students will be able to explain that energy is the ability to do work.",
-    "Students will learn about the relationship between energy and work."
+    "Pupils will understand what pests and parasites are and how they differ.",
+    "Pupils will name and describe common pests found around them.",
+    "Pupils will identify and explain common parasites and how they affect hosts.",
+    "Pupils will understand the effects of pests and parasites and how to reduce them."
   ],
   "rationale": [
-    "Starting with a discussion on energy and its significance provides students with context and motivation to learn about the fundamental concept. Introducing the idea that energy is the ability to do work establishes a connection between energy and practical applications, enhancing students' understanding."
+    "Understanding pests and parasites helps learners recognize and manage environmental health risks in their communities and homes."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use storytelling, illustrations, class discussions, and group work to explore pests and parasites."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Discussion on Energy</b>:<br>- Begin with a discussion on what energy is and why it is essential in our daily lives and various fields, such as technology, industry, and the environment.<br>- Encourage students to share their thoughts and experiences related to energy.",
-      "<b>Introduction to Work</b>:<br>- Introduce the concept of work as the application of force to move an object over a distance.<br>- Discuss examples of tasks that require energy to perform work, such as lifting objects, moving vehicles, or powering electronic devices.",
-      "<b>Energy as the Ability to Do Work</b>:<br>- Explain that energy is the ability to do work, emphasizing that work cannot be done without energy.<br>- Use visual aids or real-life examples to illustrate how energy enables various types of work to be accomplished.",
-      "<b>Class Activity: Identifying Energy and Work</b>:<br>- Present students with examples of tasks or activities and ask them to identify instances of energy being used to do work.<br>- Discuss the relationship between energy and work in each example.",
-      "<b>Group Discussion</b>:<br>- Facilitate a discussion on the different forms of energy and their roles in performing work in everyday life and various fields.<br>- Encourage students to reflect on how energy is utilized in different situations and environments."
+      "<b>Part 1: Introduction (What are Pests and Parasites?)</b>:<br><br><u>Objective:</u><br>Pupils will understand what pests and parasites are and how they differ.<br><br><u>Content:</u><br>Pests are animals or insects that destroy crops or food.<br>Example: Locusts eat large amounts of crops.<br><br>Parasites are organisms that live on or inside another living thing (host) and cause harm.<br>Example: Ticks suck blood from animals.<br><br><u>Discussion Prompt:</u><br>Ask learners: 'Have you ever seen insects damaging plants or animals scratching because of ticks or lice?'<br><br><u>Key Words:</u><br>Pest<br>Parasite<br>Host",
+      "<b>Part 2: Types of Pests in the Local Environment</b>:<br><br><u>Objective:</u><br>Pupils will name and describe common pests found around them.<br><br><u>Content:</u><br>Locusts – destroy crops in large numbers.<br>Caterpillars – feed on leaves.<br>Beetles – some types feed on crops.<br>Weevils – damage stored grains.<br>Termites – eat wood and crops.<br><br><u>Activity:</u><br>Show pictures of each pest.<br>Let pupils describe the damage caused by each.<br><br><u>Think and Share:</u><br>'Which pest have you seen before? What did it do?'",
+      "<b>Part 3: Types of Parasites in the Local Environment</b>:<br><br><u>Objective:</u><br>Pupils will identify and explain common parasites and how they affect hosts.<br><br><u>Content:</u><br>Ticks – attach to animals, suck blood.<br>Fleas – small, jumpy, found on dogs and cats.<br>Lice – live on human hair and cause itching.<br>Tsetse flies – bite and spread disease.<br>Worms – live inside the body and cause stomach problems.<br><br><u>Key Point:</u><br>Parasites need a host to live and survive.<br><br><u>Group Work:</u><br>In small groups, pupils list any parasites they or their pets have encountered.",
+      "<b>Part 4: Effects and Prevention</b>:<br><br><u>Objective:</u><br>Pupils will understand the effects of pests and parasites and how to reduce them.<br><br><u>Content:</u><br><u>Effects:</u><br>Loss of crops = less food<br>Animals get sick or weak<br>People may catch diseases<br><br><u>Prevention and Control:</u><br>Keeping surroundings clean<br>Using natural or safe pest control<br>Checking pets for ticks or fleas<br>Wearing protective clothes<br><br><u>Discussion Question:</u><br>“What can you do at home to reduce pests and parasites?”",
+      "<b>Part 5: Exercise</b>:<br><br><u>Instructions:</u> Answer the questions below in your notebook.<br><br>1. Define the following:<br>a) Pest<br>b) Parasite<br><br>2. Name two examples of each:<br>a) Pests: __________ and __________<br>b) Parasites: __________ and __________<br><br>3. Tick the correct group:<br>| Organism      | Pest | Parasite |<br>|---------------|------|----------|<br>| Locust        |      |          |<br>| Tick          |      |          |<br>| Lice          |      |          |<br>| Caterpillar   |      |          |<br><br>4. State one effect of pests on crops.<br><br>5. List two ways we can prevent parasites at home."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Scenario Analysis Task</b>:<br>- Administer a task where students are required to analyze scenarios or examples of tasks requiring energy to perform work and explain the relationship between energy and work in each case.<br>- Evaluate students' ability to apply the concepts of energy and work and articulate their understanding."
+    "<b>Observation</b>: The teacher will observe student participation in class discussions and group activities.",
+    "<b>Exercise</b>: The written exercise will be used to assess understanding of pests, parasites, and prevention methods."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a clear understanding of energy as the ability to do work and its significance in various contexts, laying the foundation for further exploration of energy-related concepts."
+    "Through exploring pests and parasites, students will be better equipped to identify environmental health risks and take preventive actions at home and in their communities."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Exploring Potential and Kinetic Energy",
+  "title": "Harm Caused by Pests and Parasites",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Potential and Kinetic Energy",
+  "topic": "Harm Caused by Pests and Parasites",
   "grade": "Avian Aces",
   "term": "2",
   "week": "7",
   "lessonNumber": "2",
-  "description": "This lesson aims to begin with a brief review of the concept of energy and introduce potential and kinetic energy and their definitions.",
+  "description": "This lesson helps students understand the harmful effects of pests and parasites on plants and animals, and encourages them to think of ways to reduce these effects.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating potential and kinetic energy",
-    "Examples of objects demonstrating potential and kinetic energy"
+    "Whiteboard and markers",
+    "Pictures of damaged plants and affected animals",
+    "Notebook and pencil"
   ],
   "objectives": [
-    "Students will review the concept of energy.",
-    "Students will understand the definitions of potential and kinetic energy.",
-    "Students will be able to differentiate between potential and kinetic energy and provide examples of each."
+    "Pupils will recall the meaning of pests and parasites and be introduced to how they harm living things.",
+    "Pupils will explain how pests affect plants.",
+    "Pupils will describe how parasites affect animals and humans.",
+    "Pupils will summarize the harm caused and think of how to reduce or avoid the effects."
   ],
   "rationale": [
-    "Beginning with a brief review of energy reinforces previous learning and sets the stage for introducing potential and kinetic energy. Defining potential and kinetic energy provides students with a deeper understanding of the different forms of energy and their characteristics."
+    "Understanding the effects of pests and parasites helps students recognize the importance of protecting plants and animals and maintaining a healthy environment."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use discussions, visual aids, examples, and group activities to help pupils understand the harm caused by pests and parasites and think of prevention ideas."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Brief Review of Energy</b>:<br>- Begin with a brief review of the concept of energy, emphasizing its importance and various forms discussed in previous lessons.<br>- Encourage students to recall examples of energy and its role in different processes.",
-      "<b>Introduction to Potential Energy</b>:<br>- Define potential energy as the energy stored in an object due to its position or condition.<br>- Discuss examples of potential energy, such as a stretched spring, a raised object, or a compressed spring.",
-      "<b>Introduction to Kinetic Energy</b>:<br>- Define kinetic energy as the energy of motion possessed by an object.<br>- Discuss examples of kinetic energy, such as a moving car, a falling object, or a spinning top.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of objects demonstrating potential and kinetic energy, allowing students to observe and identify the energy forms in action.<br>- Discuss how potential energy is converted into kinetic energy and vice versa in various situations.",
-      "<b>Group Activity: Identifying Examples</b>:<br>- Divide students into groups and provide them with scenarios or examples of objects or situations involving potential and kinetic energy.<br>- Ask each group to identify and discuss the types of energy present in each scenario, providing explanations for their choices.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the differences between potential and kinetic energy and how they relate to each other in different processes and systems.<br>- Encourage students to share real-life examples and insights into the conversion of energy between potential and kinetic forms."
+      "<b>Part 1: Review and Introduction</b>:<br><br><u>Objective:</u><br>Pupils will recall the meaning of pests and parasites and be introduced to how they harm living things.<br><br><u>Discussion Starter:</u><br>Ask: “What do pests and parasites do when they feed on plants and animals?”<br>Let learners briefly review the pests and parasites discussed in Lesson 1.<br><br><u>Key Concepts to Remember:</u><br>Pests damage plants and stored food.<br>Parasites live on or inside animals or humans and cause harm.",
+      "<b>Part 2: Harm Caused to Plants</b>:<br><br><u>Objective:</u><br>Pupils will explain how pests affect plants.<br><br><u>Content:</u><br>Suck nutrients from leaves, stems, or roots (e.g., aphids).<br>Damage plant parts like fruits, leaves, and stems (e.g., caterpillars).<br>Reduce crop yields by destroying large amounts (e.g., locusts, weevils).<br>Cause diseases that spread from plant to plant.<br><br><u>Visual Aid:</u><br>Show pictures of damaged crops and ask learners to guess the cause.<br><br><u>Think and Share:</u><br>“What happens when pests eat most of a farmer’s crops?”",
+      "<b>Part 3: Harm Caused to Animals (Including Humans)</b>:<br><br><u>Objective:</u><br>Pupils will describe how parasites affect animals and humans.<br><br><u>Content:</u><br>Suck blood – Ticks, lice, and fleas weaken the animal.<br>Cause itching and discomfort – Animals may lose fur or scratch often.<br>Spread diseases – Tsetse flies spread sleeping sickness.<br>Affect growth – Parasites like worms live inside the body and take nutrients, making children or animals weak.<br><br><u>Examples:</u><br>A cow covered with ticks may become sick and stop producing milk.<br>A child with worms may feel tired and lose appetite.",
+      "<b>Part 4: Summary and Prevention Ideas</b>:<br><br><u>Objective:</u><br>Pupils will summarize the harm caused and think of how to reduce or avoid the effects.<br><br><u>Summary Points:</u><br>Pests and parasites weaken plants and animals.<br>They reduce food supply, affect health, and spread sickness.<br>It is important to keep the environment clean and protect animals and plants.<br><br><u>Class Discussion:</u><br>“What can we do to protect our crops and animals from pests and parasites?”<br>(e.g., proper cleaning, using safe treatments, checking for ticks or worms)",
+      "<b>Part 5: Exercise</b>:<br><br><u>Instructions:</u> Answer all questions in your notebook.<br><br>1. List two ways pests harm plants.<br>2. Name two parasites and describe how they harm animals.<br>3. Match the following pests/parasites with the harm they cause:<br><br>Pest/Parasite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Harm<br>Aphid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Suck blood from animals<br>Tick&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Spread disease to humans and cows<br>Tsetse Fly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Suck nutrients from plants<br><br>4. True or False:<br>a) Parasites help animals grow stronger.<br>b) Ticks can cause discomfort and weakness in animals.<br>c) Weevils protect stored grains.<br><br>5. Write one sentence to describe how pests affect crops."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Scenario Analysis Task</b>:<br>- Administer a task where students are required to analyze scenarios or examples of objects or situations involving potential and kinetic energy and identify the types of energy present in each case.<br>- Evaluate students' ability to differentiate between potential and kinetic energy and apply their understanding to real-life examples."
+    "<b>Observation</b>: The teacher will observe students' participation in the discussion and their responses to questions.",
+    "<b>Exercise</b>: The 5-question written exercise will assess students' understanding of how pests and parasites harm living things."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a clear understanding of potential and kinetic energy, their definitions, and examples, enabling them to recognize and analyze these energy forms in various contexts."
+    "By understanding the harm caused by pests and parasites, students will be able to describe their effects and think of ways to protect plants, animals, and themselves."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Understanding Thermal Energy",
+  "title": "Controlling Pests and Parasites",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Thermal Energy",
+  "topic": "Controlling Pests and Parasites",
   "grade": "Avian Aces",
   "term": "2",
   "week": "7",
   "lessonNumber": "3",
-  "description": "This lesson aims to define thermal energy and discuss its connection to temperature, explaining that thermal energy is the energy associated with the movement of particles.",
+  "description": "This lesson teaches students about pests and parasites and how to control them using local plant materials and commercial chemicals.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating thermal energy and temperature",
-    "Examples of objects demonstrating thermal energy"
+    "Samples of garlic and red pepper",
+    "Ash",
+    "Pictures or labels of Doom, Boam, and Rogo",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will understand the concept of thermal energy.",
-    "Students will recognize the connection between thermal energy and temperature.",
-    "Students will be able to explain that thermal energy is associated with the movement of particles."
+    "Pupils will understand the importance of controlling pests and parasites.",
+    "Pupils will identify and describe how local plant materials are used to control pests and parasites.",
+    "Pupils will describe how commercial chemicals are used and understand their risks.",
+    "Pupils will compare local and commercial methods and understand why control is important."
   ],
   "rationale": [
-    "Defining thermal energy and discussing its connection to temperature provides students with a foundational understanding of heat and energy transfer. Explaining that thermal energy is associated with the movement of particles helps students visualize and comprehend the microscopic nature of thermal phenomena."
+    "Learning how to control pests and parasites helps pupils protect crops and animals using safe and effective methods available to their communities."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will include class discussions, practical examples, comparison activities, and an exercise to reinforce understanding of pest and parasite control methods."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Definition of Thermal Energy</b>:<br>- Define thermal energy as the internal energy present in a system due to the movement of its particles.<br>- Discuss examples of thermal energy in everyday life, such as the warmth of sunlight, the heat from a fire, or the steam from boiling water.",
-      "<b>Connection to Temperature</b>:<br>- Discuss the connection between thermal energy and temperature, emphasizing that temperature is a measure of the average kinetic energy of particles in a substance.<br>- Use visual aids or real-life examples to illustrate how changes in thermal energy affect temperature and vice versa.",
-      "<b>Explanation of Particle Movement</b>:<br>- Explain that thermal energy is associated with the movement of particles within a substance.<br>- Discuss how particles in a substance gain kinetic energy as they heat up and lose kinetic energy as they cool down, affecting the overall thermal energy of the system.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of objects demonstrating thermal energy, such as a hot stove, a cup of hot coffee, or a melting ice cube.<br>- Discuss how thermal energy transfers from hotter objects to cooler objects.",
-      "<b>Group Activity: Real-life Examples</b>:<br>- Divide students into groups and provide them with scenarios or examples of situations involving thermal energy.<br>- Ask each group to identify and discuss the sources and effects of thermal energy in each scenario.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the importance of thermal energy in everyday life, industry, and the environment.<br>- Encourage students to share examples of thermal energy transfer and its impact on various processes and systems."
+      "<b>Part 1: Introduction to Pest and Parasite Control</b>:<br><br>Objective:<br>Pupils will understand the importance of controlling pests and parasites.<br><br>Discussion Prompt:<br>Ask: “What do you think we can do when pests or parasites are destroying our crops or making animals sick?”<br><br>Key Point:<br>We can control or reduce pests and parasites using natural (local) or chemical (commercial) methods.",
+      "<b>Part 2: Local (Traditional) Methods of Control</b>:<br><br>Objective:<br>Pupils will identify and describe how local plant materials are used to control pests and parasites.<br><br>Content:<br><br>Garlic spray – crush garlic, mix with water and spray on plants to drive pests away.<br>Red pepper spray – spicy liquid keeps pests away from crops.<br>Ash – sprinkling ash around plants or on animals helps kill or keep away some insects and parasites.<br><br>Class Activity:<br>Let pupils smell garlic or red pepper (if available).<br>Ask: “Why do you think pests dislike these?”<br><br>Advantages of Local Methods:<br>Cheap<br>Easy to make<br>Safe for people and animals",
+      "<b>Part 3: Commercial (Chemical) Methods of Control</b>:<br><br>Objective:<br>Pupils will describe how commercial chemicals are used and understand their risks.<br><br>Content:<br>Doom – sprayed to kill flying pests (e.g., flies, mosquitoes).<br>Boam – insecticide used in homes or around animals.<br>Rogo – chemical powder or spray used to kill insects.<br><br>Safety Tips:<br>Always follow instructions.<br>Keep away from food and children.<br>Wear gloves or cover your nose if needed.<br><br>Discussion:<br>Ask: “Have you seen any of these products at home? How are they used?”",
+      "<b>Part 4: Comparing Methods and Importance of Control</b>:<br><br>Objective:<br>Pupils will compare local and commercial methods and understand why control is important.<br><br>Comparison Table:<br><br>Method\tExample\tSafe?\tCheap?\tEffective?<br>Local\tGarlic spray\tYes\tYes\tMedium<br>Local\tAsh\tYes\tYes\tLow-Med<br>Commercial\tDoom, Boam, Rogo\tNo*\tNo\tHigh<br><br>Note: Commercial chemicals can be harmful if not used properly.<br><br>Key Point:<br>Using both methods wisely helps protect crops, animals, and people from harm caused by pests and parasites.",
+      "<b>Part 5: Exercise</b>:<br><br>Instructions: Write the answers in your notebook.<br><br>1. Name two local materials used to control pests.<br>2. Give two examples of commercial chemicals used to control pests.<br>3. Match the control method with its use:<br><br>Control Method\tUse<br>Garlic spray\ta) Kills flying pests like flies<br>Ash\tb) Scares pests from plants<br>Doom\tc) Drives insects away from animals<br><br>4. Fill in the blank:<br>a) We use ___________ to kill pests that fly inside the house.<br>b) Sprinkling ___________ around crops is a safe local method.<br><br>5. State one reason why it is important to use pest control safely."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Scenario Analysis Task</b>:<br>- Administer a task where students are required to analyze scenarios or examples of situations involving thermal energy and identify the sources and effects of thermal energy in each case.<br>- Evaluate students' ability to apply the concepts of thermal energy and temperature and explain their understanding."
+    "<b>Observation</b>: The teacher will observe pupils’ participation and understanding during the discussions and comparisons.",
+    "<b>Exercise</b>: Pupils will complete the written exercise to demonstrate knowledge of pest and parasite control methods."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a clear understanding of thermal energy, its connection to temperature, and its role in various processes and systems, enabling them to recognize and analyze thermal phenomena in everyday life."
+    "By learning about local and commercial methods of pest and parasite control, pupils will be able to protect crops and animals in safe and informed ways."
   ]
 },
 
 // Lesson 4
 {
-  "title": "Understanding Electrical and Mechanical Energy",
+  "title": "Harmful Effects of Chemical Pesticides",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Electrical and Mechanical Energy",
+  "topic": "Harmful Effects of Chemical Pesticides",
   "grade": "Avian Aces",
   "term": "2",
   "week": "7",
   "lessonNumber": "4",
-  "description": "This lesson aims to define electrical and mechanical energy, explaining that electrical energy is the movement of electrons, while mechanical energy involves the motion or position of objects.",
+  "description": "This lesson helps learners understand how chemical pesticides, though useful in pest control, can cause serious harm to the environment and helpful living things.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating electrical and mechanical energy",
-    "Examples of objects demonstrating electrical and mechanical energy"
+    "Whiteboard and markers",
+    "Pictures or diagrams of helpful animals",
+    "Printed copies of the exercise"
   ],
   "objectives": [
-    "Students will understand the concept of electrical energy.",
-    "Students will understand the concept of mechanical energy.",
-    "Students will be able to differentiate between electrical and mechanical energy and provide examples of each."
+    "Learners will understand that although chemical pesticides help in controlling pests, they can also harm the environment.",
+    "Learners will identify and explain the types of harm chemical pesticides cause to the environment.",
+    "Pupils will understand that chemical pesticides do not only harm pests, but also other helpful creatures.",
+    "Pupils will suggest ways to reduce the harm caused by chemical pesticides."
   ],
   "rationale": [
-    "Defining electrical and mechanical energy provides students with an understanding of two fundamental forms of energy and their characteristics. Explaining that electrical energy is the movement of electrons and that mechanical energy involves the motion or position of objects helps students differentiate between these energy forms and recognize their applications."
+    "Learning about the harmful effects of chemical pesticides helps pupils become aware of the importance of protecting the environment and using safer alternatives."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will include discussions, questions, visual aids, and group work to engage students in exploring the topic of chemical pesticides and their environmental impact."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Definition of Electrical Energy</b>:<br>- Define electrical energy as the energy associated with the movement of electrons through a conductor, such as a wire.<br>- Discuss examples of electrical energy in everyday life, such as lighting a bulb, operating electronic devices, or charging a phone.",
-      "<b>Definition of Mechanical Energy</b>:<br>- Define mechanical energy as the energy associated with the motion or position of objects.<br>- Discuss examples of mechanical energy, such as a moving car, a swinging pendulum, or a compressed spring.",
-      "<b>Explanation of Electron Movement</b>:<br>- Explain that electrical energy involves the movement of electrons from one point to another, typically through a closed circuit.<br>- Discuss how electrical energy can be converted into other forms, such as light, heat, or mechanical motion.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of objects demonstrating electrical and mechanical energy, such as a light bulb illuminating or a car moving.<br>- Discuss how electrical and mechanical energy transfers occur in various systems and devices.",
-      "<b>Group Activity: Identifying Examples</b>:<br>- Divide students into groups and provide them with scenarios or examples of situations involving electrical and mechanical energy.<br>- Ask each group to identify and discuss the types of energy present in each scenario, providing explanations for their choices.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the similarities and differences between electrical and mechanical energy, their roles in different processes and systems, and their importance in technology and everyday life.<br>- Encourage students to share examples of electrical and mechanical energy transfer and conversion."
+      "<b>Part 1: Introduction to the Topic</b>:<br><br><b>Objective:</b><br>Learners will understand that although chemical pesticides help in controlling pests, they can also harm the environment.<br><br><b>Discussion Starter:</b><br>Ask: “What do you think happens when we use too much pesticide on plants or around animals?”<br><br><b>Key Point:</b><br>Pesticides are strong chemicals that can harm more than just pests.",
+      
+      "<b>Part 2: Types of Environmental Harm</b>:<br><br><b>Objective:</b><br>Learners will identify and explain the types of harm chemical pesticides cause to the environment.<br><br><b>Content:</b><br>Contamination of soil and water: When pesticides are sprayed, they can seep into the soil or wash into rivers and streams.<br><br>Air pollution: Spraying chemicals can mix with the air and harm humans, animals, and plants nearby.<br><br>Poisoning of food: Residue from pesticides can stay on fruits and vegetables if not washed properly.<br><br><b>Class Prompt:</b><br>Ask: “Would you like to eat vegetables sprayed with too much chemical?” Why or why not?",
+      
+      "<b>Part 3: Harm to Other Living Things</b>:<br><br><b>Objective:</b><br>Pupils will understand that chemical pesticides do not only harm pests, but also other helpful creatures.<br><br><b>Content:</b><br>Killing of beneficial animals:<br>Snails help recycle nutrients.<br>Worms improve soil for growing plants.<br>Rats (in natural habitats) play a role in food chains.<br><br>Loss of pollinators: Sometimes bees and butterflies are also killed, reducing pollination of plants.<br><br><b>Visual Aid:</b><br>Show a simple diagram of helpful animals that may die from pesticide use.<br><br><b>Question for Reflection:</b><br>“What happens to the environment if we lose worms and bees?”",
+      
+      "<b>Part 4: Safe Use and Better Alternatives</b>:<br><br><b>Objective:</b><br>Pupils will suggest ways to reduce the harm caused by chemical pesticides.<br><br><b>Solutions/Ideas:</b><br>Use natural or local methods when possible.<br>Follow instructions when using chemicals.<br>Avoid spraying near water bodies.<br>Wash food properly before eating.<br><br><b>Group Discussion:</b><br>“How can we protect our environment while still controlling pests?”",
+      
+      "<b>Part 5: Exercise</b>:<br><br><b>Instructions:</b> Write your answers in your notebook.<br><br>1. List two harmful effects of using chemical pesticides.<br><br>2. Name two useful living things that can be harmed by chemical pesticides.<br><br>3. Tick the correct sentence:<br>a) (  ) Chemical pesticides only kill bad insects.<br>b) (  ) Chemical pesticides can pollute soil and water.<br>c) (  ) Chemical pesticides help all animals grow faster.<br><br>4. Fill in the blanks:<br>a) Pesticides can harm the __________ and the air we breathe.<br>b) Helpful animals like __________ and __________ can die from pesticides.<br><br>5. Suggest one way to use pesticides safely."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Scenario Analysis Task</b>:<br>- Administer a task where students are required to analyze scenarios or examples of situations involving electrical and mechanical energy and identify the types of energy present in each case.<br>- Evaluate students' ability to differentiate between electrical and mechanical energy and apply their understanding to real-life examples."
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and ability to explain the effects of pesticides.",
+    "<b>Exercise</b>: The 5-question written activity will check understanding of the harms and safe practices concerning chemical pesticides."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a clear understanding of electrical and mechanical energy, their definitions, characteristics, and applications, enabling them to recognize and analyze these energy forms in various contexts."
+    "By the end of the lesson, learners will understand that while pesticides are useful, they can also harm the environment and helpful living things. They will also be able to suggest safer ways of controlling pests."
   ]
 },
-
 
 // Week 8
 // Lesson 1
 {
-  "title": "Exploring Renewable and Non-renewable Energy",
+  "title": "What Electricity Can Do",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, June 30, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Renewable and Non-renewable Energy",
+  "topic": "What Electricity Can Do",
   "grade": "Avian Aces",
   "term": "2",
   "week": "8",
   "lessonNumber": "1",
-  "description": "This lesson aims to define renewable and non-renewable energy sources, discussing the importance of considering sustainability in energy choices.",
+  "description": "This lesson introduces students to the concept of electricity, what it can do, its importance in daily life, and how to stay safe around it.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating renewable and non-renewable energy sources",
-    "Examples of energy generation systems"
+    "Pictures of electrical appliances",
+    "Whiteboard and markers",
+    "Short video or slides showing use of electricity"
   ],
   "objectives": [
-    "Students will understand the concept of renewable energy sources.",
-    "Students will understand the concept of non-renewable energy sources.",
-    "Students will recognize the importance of considering sustainability in energy choices."
+    "Students will understand what electricity is and how it flows to power devices.",
+    "Students will identify the different functions of electricity such as lighting, movement, sound, heat, and communication.",
+    "Students will recognize the importance of electricity in daily life at home, school, and other places.",
+    "Students will learn key safety practices when using or around electricity."
   ],
   "rationale": [
-    "Defining renewable and non-renewable energy sources provides students with an understanding of the different types of energy resources available. Discussing the importance of sustainability encourages students to consider the long-term environmental and social impacts of their energy choices."
+    "Understanding electricity and its uses helps learners appreciate modern conveniences and teaches them safety around electrical devices."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use discussions, real-life examples, and guided questions to help students explore the uses and importance of electricity."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Definition of Renewable Energy Sources</b>:<br>- Define renewable energy sources as energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, water, and biomass.<br>- Discuss examples of renewable energy sources and their applications in electricity generation and other sectors.",
-      "<b>Definition of Non-renewable Energy Sources</b>:<br>- Define non-renewable energy sources as finite resources that cannot be replenished within a human timescale, such as fossil fuels (coal, oil, natural gas) and nuclear energy.<br>- Discuss examples of non-renewable energy sources and their implications for energy security and environmental sustainability.",
-      "<b>Importance of Sustainability</b>:<br>- Discuss the concept of sustainability and its importance in energy choices, emphasizing the need to balance environmental, social, and economic considerations.<br>- Use real-life examples to illustrate the environmental impacts of using non-renewable energy sources and the benefits of transitioning to renewable alternatives.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of renewable and non-renewable energy sources, as well as energy generation systems such as solar panels, wind turbines, and fossil fuel power plants.<br>- Discuss the efficiency, reliability, and environmental impact of each energy source and generation technology.",
-      "<b>Group Discussion: Pros and Cons</b>:<br>- Divide students into groups and provide them with scenarios or case studies comparing renewable and non-renewable energy sources.<br>- Ask each group to identify the advantages and disadvantages of each energy source and propose solutions for transitioning to more sustainable energy options.",
-      "<b>Class Debate: Sustainability in Energy Choices</b>:<br>- Organize a class debate on the topic of sustainability in energy choices, with students taking on roles representing different stakeholders (government, industry, environmental organizations, etc.).<br>- Encourage students to present arguments and counterarguments based on scientific evidence, economic factors, and ethical considerations."
+      "<b>Part 1: Introduction – What is Electricity?</b><br><br>Begin the lesson with a brief discussion:<br><br>Ask: “Have you ever wondered what makes the lights turn on or how your television works?”<br><br>Explain that electricity is a form of energy. It moves through wires and powers many things around us.<br><br>Show a short video or image of common electrical appliances (light bulb, fan, TV, fridge).<br><br><b>Key Point:</b><br>Electricity is the flow of energy that can power machines and devices.",
+      "<b>Part 2: What Electricity Can Do</b><br><br>Explain what electricity can do in simple terms:<br><br>Electricity can light up rooms (e.g., bulbs, tube lights).<br>Electricity can make things move (e.g., fans, washing machines, blenders).<br>Electricity can make sounds (e.g., radios, speakers).<br>Electricity can produce heat (e.g., electric stove, iron).<br>Electricity can power communication (e.g., phones, computers).<br><br><b>Class Activity Idea:</b><br>Show real-life items or pictures and ask learners: “What does electricity do for this object?”",
+      "<b>Part 3: Importance of Electricity in Daily Life</b><br><br>Guide a discussion on how we use electricity every day:<br><br>At home: for cooking, lighting, entertainment, charging phones.<br>At school: lights, computers, projectors.<br>In hospitals: machines that help doctors treat people.<br>In factories: machines that make goods.<br>On farms: machines that help with watering crops.<br><br><b>Key Point:</b><br>Electricity makes our lives easier, faster, and more comfortable.",
+      "<b>Part 4: Safety Around Electricity</b><br><br>Explain that while electricity is useful, it can also be dangerous if not used properly:<br><br>Never touch sockets or wires with wet hands.<br>Don’t play with plugs or electrical cords.<br>Always turn off appliances when not in use.<br>Ask adults for help when something is broken or not working.<br><br><b>Short Scenario Activity:</b><br>Ask: “What should you do if you see a broken wire at home?”",
+      "<b>Part 5: Exercise</b><br><br><b>Instructions:</b> Answer the following questions in your book.<br><br>1. What is electricity?<br>2. Name two things that electricity can do.<br>3. Give three examples of electrical appliances at home.<br>4. Why is electricity important in schools?<br>5. List two safety rules when using electricity.<br><br><b>Bonus:</b><br>Draw and label two appliances that use electricity and describe what they do."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Debate Performance Evaluation</b>:<br>- Evaluate students' performance in the class debate based on their ability to articulate arguments, support their claims with evidence, and engage constructively with opposing viewpoints.<br>- Assess students' understanding of the importance of considering sustainability in energy choices and their ability to critically analyze the pros and cons of renewable and non-renewable energy sources."
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The written answers and drawings will be reviewed to check understanding of the uses and safety rules of electricity."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a clear understanding of renewable and non-renewable energy sources, as well as the importance of considering sustainability in energy choices, enabling them to make informed decisions and advocate for sustainable energy solutions."
+    "By the end of the lesson, students will be able to describe what electricity is, what it can do, and how to use it safely in daily life."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Understanding Fossil Fuels",
+  "title": "Sources of Electricity",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Fossil Fuels",
+  "topic": "Sources of Electricity",
   "grade": "Avian Aces",
   "term": "2",
   "week": "8",
   "lessonNumber": "2",
-  "description": "This lesson aims to define fossil fuels and explain how they are formed from the remains of ancient plants and animals, discussing their importance in today's energy consumption.",
+  "description": "This lesson introduces students to the concept of sources of electricity, including different types, the difference between renewable and non-renewable sources, and the importance of understanding where electricity comes from.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating fossil fuels and their formation",
-    "Examples of fossil fuel products and usage"
+    "Pictures or diagrams of sources of electricity",
+    "Whiteboard and markers",
+    "Textbook or printed materials"
   ],
   "objectives": [
-    "Students will understand the concept of fossil fuels.",
-    "Students will understand how fossil fuels are formed from the remains of ancient plants and animals.",
-    "Students will recognize the importance of fossil fuels in today's energy consumption."
+    "Students will understand what a source of electricity is.",
+    "Students will identify and describe different sources of electricity.",
+    "Students will distinguish between renewable and non-renewable sources of electricity.",
+    "Students will understand the importance of electricity and its sources.",
+    "Students will answer questions based on the topic to reinforce learning."
   ],
   "rationale": [
-    "Defining fossil fuels and explaining their formation provides students with an understanding of one of the primary sources of energy used in modern society. Discussing the importance of fossil fuels encourages students to consider the role of these resources in meeting current energy needs and the challenges associated with their use."
+    "Understanding electricity sources helps students appreciate energy use, environmental protection, and practical applications in everyday life."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use discussion, explanations, visual aids, and class activities to support understanding of electricity sources."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Definition of Fossil Fuels</b>:<br>- Define fossil fuels as hydrocarbon-based fuels formed from the remains of ancient plants and animals that were buried and subjected to heat and pressure over millions of years.<br>- Discuss examples of fossil fuels, including coal, oil, and natural gas, and their importance in energy production.",
-      "<b>Explanation of Formation</b>:<br>- Explain how fossil fuels are formed through the decomposition and transformation of organic matter over geological time scales.<br>- Use visual aids or diagrams to illustrate the process of fossil fuel formation and the geological conditions required for their development.",
-      "<b>Discussion on Importance</b>:<br>- Discuss the importance of fossil fuels in today's energy consumption, highlighting their widespread use in electricity generation, transportation, heating, and industrial processes.<br>- Address the economic, social, and environmental implications of fossil fuel dependence, including issues related to energy security, air pollution, and climate change.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of fossil fuel extraction, processing, and usage, as well as their impact on the environment and human health.<br>- Discuss the challenges and opportunities associated with transitioning to alternative energy sources and reducing fossil fuel dependency.",
-      "<b>Group Activity: Brainstorming Solutions</b>:<br>- Divide students into groups and provide them with scenarios or case studies highlighting the environmental and societal impacts of fossil fuel consumption.<br>- Ask each group to brainstorm and discuss potential solutions for reducing fossil fuel use and promoting sustainable energy alternatives.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the complexities of fossil fuel usage and the transition to renewable energy sources, encouraging students to consider the multiple perspectives involved, including economic, political, and technological factors."
+      "<b>Part 1: Introduction – What is a Source of Electricity?</b><br><br>Begin the lesson with a discussion:<br><br>Ask: “Where do you think electricity comes from?”<br><br>Explain that a source of electricity is something that produces or supplies electricity.<br><br>Without a source, we wouldn’t be able to use electricity for lighting, cooking, or running machines.<br><br><b>Key Point:</b><br>Electricity must come from a source in order to power things.",
+      "<b>Part 2: Types of Sources of Electricity</b><br><br>Teach the different sources of electricity with explanations and examples:<br><br>1. <b>Battery</b><br>Small and portable source.<br>Used in remote controls, flashlights, clocks, toys.<br><br>2. <b>Hydroelectric Power Station</b><br>Uses moving water (usually from a dam) to turn turbines and produce electricity.<br>Found near rivers or large dams.<br><br>3. <b>Thermal Power Station</b><br>Burns fuel like coal, oil, or gas to produce heat which turns water into steam to spin turbines.<br><br>4. <b>Electric Generator</b><br>Converts movement or mechanical energy into electricity.<br>Found in some cars and used during power cuts.<br><br>5. <b>Solar Cells</b><br>Use sunlight to create electricity.<br>Found on rooftops and calculators.<br><br><b>Visual Aid Suggestion:</b><br>Show pictures or diagrams of each source and where it is used.",
+      "<b>Part 3: Comparing Renewable and Non-renewable Sources</b><br><br>Introduce a simple comparison:<br><br>Renewable sources (like solar and hydroelectric) can be used again and again.<br><br>Non-renewable sources (like coal or oil used in thermal stations) will run out over time.<br><br><b>Discussion Prompt:</b><br>“Why should we use more renewable sources of electricity?”",
+      "<b>Part 4: Importance of Understanding Electricity Sources</b><br><br>Explain why knowing about sources is important:<br><br>Helps us make good choices to protect the environment.<br><br>Helps us understand how electricity is made and used.<br><br>Encourages us to save electricity and avoid waste.<br><br><b>Class Discussion:</b><br>Ask: “What source of electricity do you think is best for our environment? Why?”",
+      "<b>Part 5: Exercise</b><br><br><b>Instructions:</b> Answer the following questions in your book.<br><br>1. What is a source of electricity?<br>2. Name two sources of electricity you use at home.<br>3. What source of electricity uses the sun?<br>4. Which source of electricity uses flowing water?<br>5. What is the difference between renewable and non-renewable sources?<br><br><b>Bonus:</b><br>Draw and label one renewable and one non-renewable source of electricity."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Group Solution Proposals</b>:<br>- Evaluate the solutions proposed by each group for reducing fossil fuel use and promoting sustainable energy alternatives.<br>- Assess students' ability to apply their understanding of fossil fuels and consider the broader implications of energy consumption on society and the environment."
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and explanations.",
+    "<b>Exercise</b>: Students will complete a written activity to demonstrate understanding of sources of electricity."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a clear understanding of fossil fuels, their formation, importance, and associated challenges, enabling them to critically evaluate energy consumption practices and advocate for sustainable energy solutions."
+    "By learning about the sources of electricity, students will be able to recognize different ways electricity is generated and understand how their choices can impact the environment."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Exploring Alternative Energy Sources",
+  "title": "Identifying Electrical Appliances Used at Home, School, and in the Community",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Alternative Energy Sources",
+  "topic": "Identifying Electrical Appliances Used at Home, School, and in the Community",
   "grade": "Avian Aces",
   "term": "2",
   "week": "8",
   "lessonNumber": "3",
-  "description": "This lesson aims to introduce alternative energy sources such as solar, wind, hydro, and geothermal energy, discussing their environmental benefits and limitations.",
+  "description": "This lesson introduces students to different electrical appliances used at home, school, and in the community, helping them understand their functions and importance.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating alternative energy sources",
-    "Examples of alternative energy systems"
+    "Pictures of appliances",
+    "Flashcards with appliance names",
+    "Whiteboard and markers",
+    "Charts showing home, school, and community settings"
   ],
   "objectives": [
-    "Students will understand the concept of alternative energy sources.",
-    "Students will learn about different types of alternative energy sources, including solar, wind, hydro, and geothermal energy.",
-    "Students will recognize the environmental benefits and limitations of alternative energy sources."
+    "Students will identify common electrical appliances.",
+    "Students will categorize appliances based on location: home, school, or community.",
+    "Students will understand the purpose and importance of electrical appliances."
   ],
   "rationale": [
-    "Introducing alternative energy sources provides students with an understanding of sustainable energy options beyond fossil fuels. Discussing their environmental benefits and limitations encourages students to consider the potential of these resources in mitigating climate change and promoting environmental sustainability."
+    "Learning about electrical appliances helps students become aware of the tools that make everyday life easier and safer, and the need for using them responsibly."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use questioning, discussion, real-life examples, and drawing activities to help students identify and understand different electrical appliances."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Alternative Energy Sources</b>:<br>- Define alternative energy sources as renewable or sustainable energy options that have less impact on the environment compared to fossil fuels.<br>- Discuss examples of alternative energy sources, including solar, wind, hydro, and geothermal energy, and their potential applications in electricity generation and other sectors.",
-      "<b>Environmental Benefits</b>:<br>- Discuss the environmental benefits of alternative energy sources, such as reduced greenhouse gas emissions, improved air quality, and minimized environmental degradation.<br>- Use real-life examples or case studies to illustrate the positive environmental impacts of adopting alternative energy systems.",
-      "<b>Limitations and Challenges</b>:<br>- Discuss the limitations and challenges associated with alternative energy sources, such as intermittency, land use requirements, and technological limitations.<br>- Address common misconceptions or concerns about the reliability and cost-effectiveness of alternative energy systems.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of alternative energy systems, such as solar panels, wind turbines, hydroelectric dams, and geothermal power plants.<br>- Discuss the technological advancements and innovations driving the growth of alternative energy industries.",
-      "<b>Group Activity: Pros and Cons Analysis</b>:<br>- Divide students into groups and provide them with scenarios or case studies comparing different alternative energy sources.<br>- Ask each group to identify and discuss the environmental benefits and limitations of each energy source, as well as potential solutions for overcoming challenges.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the role of alternative energy sources in transitioning to a sustainable energy future, considering factors such as energy security, economic viability, and social acceptance.<br>- Encourage students to critically evaluate the advantages and disadvantages of alternative energy options and propose strategies for maximizing their benefits."
+      "<b>Part 1: Introduction – What Are Electrical Appliances?</b><br><br>Start the lesson by asking:<br>“What machines or tools at home or school need electricity to work?”<br><br>Explain that electrical appliances are devices that run on electricity to perform tasks.<br><br>Examples: Lights help us see, fans keep us cool, and irons help us press clothes.<br><br>Key Point:<br>An electrical appliance is any device that needs electricity to work.",
+      
+      "<b>Part 2: Appliances Used at Home</b><br><br>Discuss appliances commonly used in the home:<br><br>Electric heater – for warmth.<br>Stove – for cooking food.<br>Iron – for pressing clothes.<br>Fridge – for keeping food cold and fresh.<br>Fan – for cooling the room.<br>Television – for watching shows and news.<br><br>Activity: Ask learners to describe which of these they have used or seen at home.",
+      
+      "<b>Part 3: Appliances Used at School and in the Community</b><br><br>At School:<br>Projector – used by teachers to show lessons.<br>Computer – used for learning and research.<br>Photocopier/printer – used for printing worksheets and exams.<br>Electric bell – rings at break and end of school.<br><br>In the Community:<br>Street lights – light up the roads at night.<br>Water pumps – supply water to homes and farms.<br>ATM machines – used in banks.<br>Traffic lights – control road traffic safely.<br><br>Discussion Prompt:<br>“What appliances have you seen in your community that use electricity?”",
+      
+      "<b>Part 4: Importance of Electrical Appliances</b><br><br>Talk about why electrical appliances are important:<br><br>Make work easier and faster.<br>Help us cook, clean, learn, and communicate.<br>Improve safety (e.g., electric street lights).<br>Keep food fresh and homes comfortable.<br><br>Reminder:<br>Appliances must be used safely and should be switched off when not in use.",
+      
+      "<b>Part 5: Exercise</b><br><br>Instructions: Answer the following questions in your book.<br><br>1. What is an electrical appliance?<br>2. Name three electrical appliances found at home.<br>3. Name two electrical appliances used in school.<br>4. List two electrical appliances found in your community.<br>5. Why are electrical appliances important in our lives?<br><br>Bonus Task:<br>Draw and label any two electrical appliances you use or see every day."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Group Analysis Presentation</b>:<br>- Evaluate the analysis and presentations conducted by each group on the environmental benefits and limitations of alternative energy sources.<br>- Assess students' ability to identify and analyze key factors influencing the adoption and implementation of alternative energy systems."
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and their ability to identify appliances.",
+    "<b>Exercise</b>: Students’ written responses and drawings will assess their understanding of the topic."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of alternative energy sources, their environmental impacts, and their potential role in addressing global energy challenges, empowering them to advocate for sustainable energy solutions."
-  ]
-},
-
-// Lesson 4
-{
-  "title": "Understanding Nuclear Energy",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Nuclear Energy",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "8",
-  "lessonNumber": "4",
-  "description": "This lesson aims to define nuclear energy and explain the basic principles of nuclear reactions, discussing its role as a non-fossil fuel energy source.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating nuclear energy and reactions",
-    "Examples of nuclear power plants"
-  ],
-  "objectives": [
-    "Students will understand the concept of nuclear energy.",
-    "Students will learn about the basic principles of nuclear reactions.",
-    "Students will recognize the role of nuclear energy as a non-fossil fuel energy source."
-  ],
-  "rationale": [
-    "Defining nuclear energy and explaining nuclear reactions provides students with an understanding of the principles underlying nuclear power generation. Discussing its role as a non-fossil fuel energy source encourages students to consider the potential of nuclear energy in addressing energy security and climate change concerns."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Definition of Nuclear Energy</b>:<br>- Define nuclear energy as the energy released during nuclear reactions, particularly nuclear fission and fusion processes.<br>- Discuss examples of nuclear energy applications, such as electricity generation in nuclear power plants and medical imaging in nuclear medicine.",
-      "<b>Basic Principles of Nuclear Reactions</b>:<br>- Explain the basic principles of nuclear reactions, including nuclear fission (the splitting of atomic nuclei) and nuclear fusion (the merging of atomic nuclei).<br>- Use diagrams or animations to illustrate the processes involved in nuclear fission and fusion reactions.",
-      "<b>Discussion on Non-fossil Fuel Energy Source</b>:<br>- Discuss the role of nuclear energy as a non-fossil fuel energy source, highlighting its potential to reduce greenhouse gas emissions and mitigate climate change.<br>- Address safety and environmental concerns associated with nuclear energy, such as radioactive waste management and nuclear accidents.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of nuclear power plants, reactor designs, and fuel cycles.<br>- Discuss the operational principles and safety features of nuclear reactors, as well as ongoing research and development in nuclear technology.",
-      "<b>Group Activity: Debating Nuclear Energy</b>:<br>- Divide students into groups and assign them different roles representing stakeholders with varying perspectives on nuclear energy (e.g., environmentalists, policymakers, energy industry representatives).<br>- Organize a debate on the benefits and risks of nuclear energy, with each group presenting arguments and counterarguments based on scientific evidence and ethical considerations.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the future of nuclear energy and its potential role in transitioning to a low-carbon energy system.<br>- Encourage students to critically evaluate the opportunities and challenges associated with nuclear energy deployment and propose strategies for enhancing its safety, sustainability, and public acceptance."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Debate Performance Evaluation</b>:<br>- Evaluate the performance of each group in the debate on nuclear energy, assessing their ability to articulate arguments, support their claims with evidence, and engage constructively with opposing viewpoints.<br>- Assess students' understanding of the basic principles of nuclear reactions and their ability to critically analyze the role of nuclear energy as a non-fossil fuel energy source."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of nuclear energy, its basic principles, and its potential role as a non-fossil fuel energy source, empowering them to engage in informed discussions and decision-making regarding energy policy and sustainability."
+    "By identifying electrical appliances and learning their uses, students will appreciate how these tools support daily life at home, in school, and in the community, and the importance of using them safely."
   ]
 },
 
 // Week 9
 // Lesson 1
 {
-  "title": "Exploring Heat Transfer",
+  "title": "Identifying Good and Bad Conductors of Electricity",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Monday, June 10, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Heat Transfer",
+  "topic": "Identifying Good and Bad Conductors of Electricity",
   "grade": "Avian Aces",
   "term": "2",
   "week": "9",
   "lessonNumber": "1",
-  "description": "This lesson aims to discuss the concept of heat transfer and its importance in various processes, introducing the idea that heat can move from one object to another.",
+  "description": "This lesson helps students understand what conductors and insulators are, with examples and a hands-on demonstration to identify materials that allow or block electricity.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or videos illustrating heat transfer processes",
-    "Examples of heat transfer in everyday life"
+    "Small battery",
+    "Bulb",
+    "Wires with clips",
+    "Copper wire",
+    "Iron nail",
+    "Plastic spoon",
+    "Wooden stick",
+    "Rubber band",
+    "Carbon pencil lead"
   ],
   "objectives": [
-    "Students will understand the concept of heat transfer.",
-    "Students will learn about different methods of heat transfer, including conduction, convection, and radiation.",
-    "Students will recognize the importance of heat transfer in various processes."
+    "Students will understand what conductors are and why some materials allow electricity to pass through them while others do not.",
+    "Students will be able to identify good and bad conductors using a hands-on circuit activity.",
+    "Students will be able to list examples of good and bad conductors of electricity.",
+    "Students will learn the importance of using both conductors and insulators for safety.",
+    "Students will demonstrate their understanding through a written exercise."
   ],
   "rationale": [
-    "Discussing heat transfer provides students with an understanding of how heat moves within and between different objects and environments. Introducing the concept of heat transfer and its importance encourages students to recognize its role in everyday life and various scientific phenomena."
+    "Understanding conductors and insulators is essential in learning how electricity works and how to handle electrical devices safely."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will involve class discussion, teacher-led instruction, a practical hands-on activity, and written exercises to reinforce the learning."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Heat Transfer</b>:<br>- Define heat transfer as the movement of thermal energy from one object or substance to another due to temperature differences.<br>- Discuss examples of heat transfer processes, such as cooking food on a stove, feeling warmth from sunlight, or cooling drinks in a refrigerator.",
-      "<b>Methods of Heat Transfer</b>:<br>- Introduce different methods of heat transfer, including conduction (transfer through direct contact), convection (transfer through fluid motion), and radiation (transfer through electromagnetic waves).<br>- Use diagrams or animations to illustrate each method of heat transfer and provide real-life examples.",
-      "<b>Importance of Heat Transfer</b>:<br>- Discuss the importance of heat transfer in various processes, such as cooking, heating, cooling, and climate regulation.<br>- Address the role of heat transfer in scientific phenomena, such as weather patterns, ocean currents, and thermal equilibrium.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or videos to illustrate examples of heat transfer processes in everyday life, industrial applications, and natural phenomena.<br>- Discuss the factors influencing heat transfer rates, such as temperature gradients, material properties, and surface area.",
-      "<b>Group Activity: Heat Transfer Scenarios</b>:<br>- Divide students into groups and provide them with scenarios or case studies involving heat transfer.<br>- Ask each group to identify the method(s) of heat transfer occurring in each scenario and explain their reasoning.<br>- Encourage students to discuss the implications of heat transfer on energy efficiency, thermal comfort, and environmental sustainability.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the significance of heat transfer in various scientific disciplines and practical applications.<br>- Encourage students to reflect on their observations and experiences related to heat transfer, considering both everyday situations and larger-scale phenomena like climate change." 
-    ] 
-    ], 
-    "assessments": [
-    "Observation: The teacher will assess students' understanding through their participation in discussions and observations of group activities.", 
-    "Group Analysis Presentation:- Evaluate the analysis and presentations conducted by each group on the heat transfer scenarios, assessing their ability to identify the methods of heat transfer and explain their reasoning.- Assess students' understanding of the importance of heat transfer in various processes and their ability to apply heat transfer principles to real-life situations." 
-    ], 
-    "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of heat transfer, its methods, and its importance in various processes, enabling them to apply heat transfer principles to analyze real-world phenomena and make informed decisions."
-    ] 
+      "<b>Part 1: Introduction (Class Discussion)</b><br><br>Objective:<br>Students will understand what conductors are and why some materials allow electricity to pass through them while others do not.<br><br>Discussion Points:<br>Begin by asking: What is electricity used for at home or in school?<br>Introduce the term “conductor” as a material that allows electricity to pass through.<br>Introduce the term “insulator” or “bad conductor” as a material that does not allow electricity to pass through.<br><br>Examples to mention:<br>When we plug in a fan, the electricity moves through a wire (a good conductor) but the plastic covering on the wire protects our hands (a bad conductor).<br>Touching a live wire is dangerous unless it’s covered with an insulator.",
+      "<b>Part 2: Explanation (Teacher-Led Instruction)</b><br><br>Good Conductors of Electricity:<br>These allow electricity to pass through them easily.<br><br>Copper wire – used in electric wires.<br>Iron sheets – used in some tools and appliances.<br>Carbon – used inside batteries.<br><br>Bad Conductors (Insulators):<br>These do not allow electricity to pass.<br><br>Wood – used in tool handles for safety.<br>Plastic – used for covering wires.<br>Rubber – used in gloves or soles for electricians.<br><br>Why do we need both?<br>We need conductors to carry electricity and insulators to protect us from getting shocked.",
+      "<b>Part 3: Activity (Hands-On Demonstration)</b><br><br>Materials Needed:<br>Small battery<br>Bulb<br>Wires with clips<br>Different materials: copper wire, iron nail, plastic spoon, wooden stick, rubber band, carbon pencil lead.<br><br>Steps:<br>1. Create a simple circuit with battery, bulb, and wires.<br>2. Test each item by placing it in the circuit gap and observing if the bulb lights up.<br>3. Record which materials allowed the bulb to light (good conductors) and which did not (bad conductors).<br><br>Expected Results:<br>Copper wire, iron nail, and pencil lead (carbon) will light the bulb.<br>Plastic, wood, and rubber will not.",
+      "<b>Part 4: Conclusion (Review and Clarify)</b><br><br>Review Questions to Ask Learners:<br>What is a conductor of electricity?<br>Name three good conductors.<br>Why is plastic used on wires?<br>What would happen if we didn’t use insulators?<br><br>Class Summary:<br>Good conductors like copper, iron, and carbon help electricity flow.<br>Bad conductors like plastic, wood, and rubber stop electricity and keep us safe.",
+      "<b>Part 5: Exercise (Task)</b><br><br>Instructions: Write the answers in your books.<br><br>1. What is a conductor of electricity?<br>2. List 3 good conductors and 3 bad conductors of electricity.<br>3. Why is rubber used on the handles of tools used by electricians?<br>4. Match the materials to the correct group:<br><br>Material - Good or Bad Conductor?<br>Copper wire<br>Plastic spoon<br>Iron sheet<br>Rubber glove<br>Carbon stick<br>Wooden ruler<br><br>5. Draw a simple electric circuit and label the battery, bulb, wire, and a conductor."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussion and their engagement in the hands-on activity.",
+    "<b>Exercise</b>: The written task will assess students' understanding of conductors and insulators and their ability to apply knowledge practically."
+  ],
+  "conclusion": [
+    "Students will have learned the difference between good and bad conductors, why both are important, and how to test materials safely using a simple circuit."
+  ]
 },
 
 // Lesson 2
 {
-  "title": "Understanding Methods of Heat Transfer",
+  "title": "Uses of Good and Bad Conductors of Electricity",
   "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Tuesday, May 21, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Methods of Heat Transfer",
+  "topic": "Uses of Good and Bad Conductors of Electricity",
   "grade": "Avian Aces",
   "term": "2",
   "week": "9",
   "lessonNumber": "2",
-  "description": "This lesson aims to briefly review the concept of heat transfer and introduce the three methods: conduction, convection, and radiation.",
+  "description": "This lesson explores how good and bad conductors are used in real life and their importance in electrical safety and design.",
   "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating heat transfer methods",
-    "Examples of heat transfer scenarios"
+    "Extension cable",
+    "Plug",
+    "Screwdriver",
+    "Wire (cut piece)",
+    "Insulated gloves",
+    "Household appliances or pictures",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will review the concept of heat transfer.",
-    "Students will learn about the three methods of heat transfer: conduction, convection, and radiation.",
-    "Students will understand the principles and applications of each heat transfer method."
+    "Learners will understand how good and bad conductors are used in real life.",
+    "Learners will understand why conductors and insulators are important in electrical safety and design."
   ],
   "rationale": [
-    "Briefly reviewing the concept of heat transfer ensures that students have a clear understanding of the topic before delving into specific methods. Introducing the three methods of heat transfer provides students with a comprehensive overview of how heat moves within and between different objects and environments."
+    "Knowing the uses of good and bad conductors helps learners understand how electricity is safely and effectively used in everyday life."
   ],
   "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
+    "The lesson will use class discussions, teacher-led instruction, hands-on observation, and matching activities to explore the topic."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Review of Heat Transfer</b>:<br>- Briefly review the concept of heat transfer, emphasizing its importance in various processes and phenomena.<br>- Recap examples of heat transfer scenarios discussed in previous lessons to reinforce understanding.",
-      "<b>Introduction to Methods of Heat Transfer</b>:<br>- Introduce the three methods of heat transfer: conduction, convection, and radiation.<br>- Define each method and discuss its basic principles and characteristics.<br>- Use diagrams or animations to illustrate how heat is transferred through each method.",
-      "<b>Principles and Applications</b>:<br>- Discuss the principles behind each method of heat transfer and their applications in everyday life and scientific phenomena.<br>- Provide examples of conduction, convection, and radiation occurring in different contexts, such as cooking, weather patterns, and thermal insulation.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate examples of conduction, convection, and radiation in everyday scenarios, such as boiling water, wind currents, and sunlight heating objects.<br>- Discuss the factors influencing the rate and efficiency of heat transfer for each method.",
-      "<b>Group Activity: Heat Transfer Examples</b>:<br>- Divide students into groups and provide them with scenarios or case studies involving heat transfer.<br>- Ask each group to identify the method(s) of heat transfer occurring in each scenario and explain their reasoning.<br>- Encourage students to discuss the implications of heat transfer methods on energy efficiency, thermal comfort, and technological design.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the differences and similarities between conduction, convection, and radiation, as well as their relative importance in different contexts.<br>- Encourage students to ask questions and share their observations or experiences related to heat transfer methods."
+      "<b>Part 1: Introduction (Class Discussion)</b>:<br><br><b>Objective:</b><br>Learners will understand how good and bad conductors are used in real life and why they are important in electrical safety and design.<br><br><b>Discussion Starter:</b><br><br>Begin by asking: Have you ever wondered why some parts of a plug or wire feel different?<br><br>Review what conductors and insulators are.<br><br>Ask: Why do you think wires are made of copper but covered in plastic?<br><br><b>Key Terms to Review:</b><br><br>Conductor: Allows electricity to pass through.<br>Insulator (bad conductor): Does not allow electricity to pass.",
+      "<b>Part 2: Explanation (Teacher-Led Instruction)</b>:<br><br><b>Uses of Good Conductors:</b><br>These materials help electricity flow from one point to another.<br><br><b>Examples:</b><br><ul><li><b>Copper wires:</b> Used in homes, schools, and devices to carry electricity.</li><li><b>Iron and aluminum:</b> Used in electric stoves, toasters, and cables.</li><li><b>Carbon rods:</b> Found in batteries to help electricity move.</li></ul><br><b>Uses of Bad Conductors (Insulators):</b><br>These materials keep us safe from electric shocks.<br><br><b>Examples:</b><br><ul><li><b>Plastic:</b> Covers wires and plugs to prevent touching the conductor inside.</li><li><b>Rubber:</b> Used in gloves and tool handles for electricians.</li><li><b>Wood:</b> Used in tool handles and switchboards to avoid conducting electricity.</li></ul>",
+      "<b>Part 3: Activity (Observation and Matching)</b>:<br><br><b>Materials Needed:</b><br>Extension cable<br>Plug<br>Screwdriver<br>Wire (cut piece)<br>Insulated gloves<br>Household appliances or pictures<br><br><b>Steps:</b><br>1. Show real items or pictures of electric wires and plugs.<br>2. Let learners point out the good conductor (e.g., metal pin or wire) and the bad conductor (e.g., plastic covering).<br>3. Match each material to its use using a chart on the board.<br><br><b>Sample Chart:</b><br><br><table border='1'><tr><th>Material</th><th>Conductor Type</th><th>Use</th></tr><tr><td>Copper</td><td>Good</td><td>Carries electricity in wires</td></tr><tr><td>Plastic</td><td>Bad</td><td>Covers wires for safety</td></tr><tr><td>Rubber</td><td>Bad</td><td>Used in gloves and tools</td></tr><tr><td>Iron</td><td>Good</td><td>Used in cooking appliances</td></tr></table>",
+      "<b>Part 4: Conclusion (Review and Clarify)</b>:<br><br><b>Ask Learners:</b><br>What might happen if wires weren’t covered in plastic?<br>Why do electricians wear rubber gloves?<br>Can we use metal for tool handles? Why or why not?<br><br><b>Key Takeaway:</b><br>Good conductors help electricity flow and power our homes and devices.<br>Bad conductors protect us by stopping electricity from passing where it’s not wanted.",
+      "<b>Part 5: Exercise (Task)</b>:<br><br><b>Instructions:</b> Write the answers in your books.<br><br>1. What is the main use of a good conductor?<br><br>2. What is the main use of a bad conductor?<br><br>3. Fill in the blanks:<br>a) Wires are made of __________ because it is a good conductor.<br>b) Wires are covered with __________ because it is a bad conductor.<br><br>4. Match each item to its use:<br><br><table border='1'><tr><th>Item</th><th>Use</th></tr><tr><td>Rubber gloves</td><td>A. Carry electricity</td></tr><tr><td>Copper wire</td><td>B. Cover wires for safety</td></tr><tr><td>Plastic covering</td><td>C. Protect from electric shock</td></tr></table><br><br>5. Draw a plug and label the conductor and insulator parts."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Group Analysis Presentation</b>:<br>- Evaluate the analysis and presentations conducted by each group on the heat transfer scenarios, assessing their ability to identify the methods of heat transfer and explain their reasoning.<br>- Assess students' understanding of the principles and applications of each heat transfer method and their ability to apply this knowledge to real-life situations."
+    "<b>Observation</b>: The teacher will observe students' participation during the discussion and matching activity.",
+    "<b>Exercise</b>: The written task will assess the learners’ understanding of the topic and ability to identify uses of conductors and insulators."
   ],
   "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of the three methods of heat transfer: conduction, convection, and radiation, enabling them to analyze and interpret heat transfer phenomena in various contexts."
+    "By the end of the lesson, learners will be able to distinguish between good and bad conductors and explain how each is used in everyday electrical applications for safety and function."
   ]
 },
 
 // Lesson 3
-{
-  "title": "Exploring Energy Conservation",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Energy Conservation",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "9",
-  "lessonNumber": "3",
-  "description": "This lesson aims to define energy conservation and discuss its importance in minimizing waste and promoting sustainability, emphasizing the finite nature of certain energy resources.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating energy conservation practices",
-    "Examples of sustainable energy solutions"
-  ],
-  "objectives": [
-    "Students will understand the concept of energy conservation.",
-    "Students will learn about the importance of energy conservation in minimizing waste and promoting sustainability.",
-    "Students will recognize the finite nature of certain energy resources and the need for conservation."
-  ],
-  "rationale": [
-    "Defining energy conservation and discussing its importance provides students with a foundation for understanding sustainable energy practices. Emphasizing the finite nature of certain energy resources encourages students to consider the long-term implications of energy consumption and the importance of conservation efforts."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Definition of Energy Conservation</b>:<br>- Define energy conservation as the practice of reducing energy consumption and minimizing waste.<br>- Discuss examples of energy conservation practices, such as using energy-efficient appliances, insulating buildings, and optimizing transportation systems.",
-      "<b>Importance of Energy Conservation</b>:<br>- Discuss the importance of energy conservation in minimizing environmental impact, reducing greenhouse gas emissions, and promoting sustainability.<br>- Emphasize the role of energy conservation in addressing climate change, energy security, and resource depletion.",
-      "<b>Emphasizing Finite Nature of Energy Resources</b>:<br>- Explain that certain energy resources, such as fossil fuels and uranium, are finite and non-renewable, meaning they will eventually be depleted.<br>- Discuss the implications of resource depletion and the need for conservation to ensure energy availability for future generations.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate examples of energy conservation practices and their benefits, such as reduced energy bills, improved air quality, and enhanced energy security.<br>- Discuss the technological innovations and policy measures driving the adoption of energy-efficient solutions.",
-      "<b>Group Activity: Energy Conservation Action Plan</b>:<br>- Divide students into groups and assign them different settings or scenarios, such as a school, home, or community.<br>- Ask each group to develop an energy conservation action plan tailored to their assigned setting, identifying specific measures to reduce energy consumption and promote sustainability.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the challenges and opportunities associated with energy conservation, including economic incentives, technological advancements, and behavioral changes.<br>- Encourage students to share their ideas and experiences related to energy conservation and identify ways to integrate conservation practices into their daily lives."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Group Action Plan Presentation</b>:<br>- Evaluate the energy conservation action plans developed by each group, assessing their creativity, feasibility, and alignment with sustainability goals.<br>- Assess students' understanding of energy conservation principles and their ability to apply these principles to real-life situations."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of energy conservation, its importance in promoting sustainability, and the finite nature of certain energy resources, empowering them to adopt and advocate for energy-efficient practices."
-  ]
-},
-
-// Lesson 4
-{
-  "title": "Understanding Energy Efficiency",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Energy Efficiency",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "9",
-  "lessonNumber": "4",
-  "description": "This lesson aims to define energy efficiency and explain its importance in maximizing the output of energy while minimizing waste.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating energy efficiency concepts",
-    "Examples of energy-efficient technologies"
-  ],
-  "objectives": [
-    "Students will understand the concept of energy efficiency.",
-    "Students will learn about the importance of energy efficiency in maximizing energy output while minimizing waste.",
-    "Students will recognize the benefits of energy-efficient technologies and practices."
-  ],
-  "rationale": [
-    "Defining energy efficiency and discussing its importance provides students with insight into sustainable energy practices. Understanding the benefits of energy-efficient technologies encourages students to consider their role in promoting environmental sustainability and resource conservation."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Definition of Energy Efficiency</b>:<br>- Define energy efficiency as the ratio of useful energy output to energy input, indicating the effectiveness of energy utilization.<br>- Discuss examples of energy-efficient technologies and practices, such as LED lighting, energy-efficient appliances, and smart thermostats.",
-      "<b>Importance of Energy Efficiency</b>:<br>- Explain the importance of energy efficiency in maximizing the output of energy while minimizing waste and environmental impact.<br>- Discuss the benefits of energy efficiency, including reduced energy bills, lower greenhouse gas emissions, and enhanced energy security.",
-      "<b>Role of Energy-Efficient Technologies</b>:<br>- Explore the role of energy-efficient technologies in various sectors, such as transportation, buildings, and industry.<br>- Highlight examples of energy-efficient design principles and innovations driving sustainability and resource conservation.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate concepts of energy efficiency and showcase examples of energy-efficient technologies in action.<br>- Discuss the economic and environmental benefits associated with energy efficiency measures.",
-      "<b>Group Activity: Energy Efficiency Case Studies</b>:<br>- Divide students into groups and provide them with case studies or scenarios involving energy efficiency challenges and solutions.<br>- Ask each group to analyze the case study, identify opportunities for improving energy efficiency, and propose practical solutions.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the potential barriers to energy efficiency adoption, such as upfront costs, technological barriers, and behavioral factors.<br>- Encourage students to brainstorm strategies for overcoming these barriers and promoting widespread adoption of energy-efficient practices."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Group Case Study Analysis</b>:<br>- Evaluate the analysis and solutions proposed by each group for the energy efficiency case studies.<br>- Assess students' ability to apply energy efficiency concepts to real-life scenarios and propose effective solutions to energy challenges."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of energy efficiency, its importance in maximizing energy output while minimizing waste, and the benefits of energy-efficient technologies and practices."
-  ]
-},
 
 // Week 10
 // Lesson 1
-{
-  "title": "Exploring Sustainability in Energy",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Sustainability in Energy",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "10",
-  "lessonNumber": "1",
-  "description": "This lesson aims to discuss the concept of sustainability and its relevance to the future of energy, emphasizing the need for sources that can be maintained over the long term.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating sustainability concepts",
-    "Examples of sustainable energy sources"
-  ],
-  "objectives": [
-    "Students will understand the concept of sustainability.",
-    "Students will learn about the relevance of sustainability to the future of energy.",
-    "Students will recognize the importance of sources that can be maintained over the long term for energy production."
-  ],
-  "rationale": [
-    "Discussing sustainability in energy provides students with insight into the importance of considering long-term environmental, social, and economic impacts. Emphasizing the need for sustainable energy sources encourages students to explore alternative energy solutions and advocate for responsible energy practices."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Definition of Sustainability</b>:<br>- Define sustainability as the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs.<br>- Discuss the principles of sustainability, including environmental stewardship, social equity, and economic viability.",
-      "<b>Relevance to the Future of Energy</b>:<br>- Explain the relevance of sustainability to the future of energy production and consumption.<br>- Discuss the environmental, social, and economic benefits of transitioning to sustainable energy sources, such as renewable energy and energy efficiency.",
-      "<b>Need for Long-Term Sources</b>:<br>- Emphasize the importance of sources that can be maintained over the long term for energy production.<br>- Discuss the limitations of finite and non-renewable energy resources, such as fossil fuels, and the environmental consequences of their extraction and combustion.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate concepts of sustainability and showcase examples of sustainable energy sources, such as solar, wind, and hydroelectric power.<br>- Highlight the environmental benefits and technological advancements associated with sustainable energy solutions.",
-      "<b>Group Activity: Sustainable Energy Debate</b>:<br>- Divide students into groups and assign them different roles representing stakeholders with varying perspectives on sustainable energy.<br>- Organize a debate on the benefits and challenges of transitioning to sustainable energy sources, with each group presenting arguments and counterarguments based on scientific evidence and ethical considerations.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the role of sustainability in shaping energy policies, technological innovation, and consumer behavior.<br>- Encourage students to consider the challenges and opportunities associated with transitioning to a more sustainable energy system and propose strategies for promoting sustainability in their communities."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Debate Performance Evaluation</b>:<br>- Evaluate the performance of each group in the sustainable energy debate, assessing their ability to articulate arguments, support their claims with evidence, and engage constructively with opposing viewpoints.<br>- Assess students' understanding of sustainability principles and their ability to apply these principles to energy-related issues."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of sustainability in energy, its relevance to the future of energy production and consumption, and the importance of sources that can be maintained over the long term for sustainable development."
-  ]
-},
 
 // Lesson 2
-{
-  "title": "Exploring Technological Advancements in Energy",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Technological Advancements in Energy",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "10",
-  "lessonNumber": "2",
-  "description": "This lesson aims to discuss the role of technological advancements in addressing energy challenges, introducing terms like smart grids, energy storage, and advanced materials.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating technological advancements in energy",
-    "Examples of energy technologies"
-  ],
-  "objectives": [
-    "Students will understand the role of technological advancements in addressing energy challenges.",
-    "Students will learn about terms like smart grids, energy storage, and advanced materials.",
-    "Students will recognize the potential of technology to transform the energy sector and promote sustainability."
-  ],
-  "rationale": [
-    "Exploring technological advancements in energy provides students with insight into the innovative solutions shaping the future of energy production and consumption. Introducing terms like smart grids, energy storage, and advanced materials enables students to understand the key components of modern energy systems and their role in addressing energy challenges."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Role of Technological Advancements</b>:<br>- Discuss the role of technological advancements in addressing energy challenges, such as increasing energy demand, climate change, and resource depletion.<br>- Highlight the potential of technology to improve energy efficiency, optimize energy distribution, and enable the integration of renewable energy sources.",
-      "<b>Introduction to Smart Grids</b>:<br>- Define smart grids as modern electrical grids equipped with advanced sensors, meters, and communication technologies for efficient energy management.<br>- Discuss the benefits of smart grids, such as real-time monitoring, demand response, and integration of renewable energy.",
-      "<b>Exploring Energy Storage</b>:<br>- Introduce the concept of energy storage as a key component of modern energy systems, enabling the capture and utilization of energy from renewable sources.<br>- Discuss different energy storage technologies, such as batteries, pumped hydro storage, and thermal storage.",
-      "<b>Advanced Materials in Energy</b>:<br>- Discuss the role of advanced materials, such as graphene, nanomaterials, and superconductors, in improving energy efficiency and enabling breakthroughs in energy generation and storage.<br>- Highlight examples of advanced materials used in solar panels, fuel cells, and energy storage devices.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate technological advancements in energy and showcase examples of smart grids, energy storage systems, and advanced materials.<br>- Discuss the impact of technology on energy accessibility, affordability, and environmental sustainability.",
-      "<b>Group Activity: Technology Showcase</b>:<br>- Divide students into groups and assign them different energy technologies to research and present, focusing on their features, benefits, and applications.<br>- Encourage students to explore the potential of technology to address specific energy challenges and promote sustainability.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the potential of technological advancements to transform the energy sector and shape the future of energy production and consumption.<br>- Encourage students to share their insights and reflections on the role of technology in addressing global energy challenges."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Technology Showcase Presentation</b>:<br>- Evaluate the research and presentations conducted by each group on energy technologies, assessing their accuracy, clarity, and depth of analysis.<br>- Assess students' understanding of technological advancements in energy and their ability to communicate complex concepts effectively."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of the role of technological advancements in addressing energy challenges, introducing terms like smart grids, energy storage, and advanced materials, and their potential to promote sustainability in the energy sector."
-  ]
-},
 
 // Lesson 3
-{
-  "title": "Understanding Global Energy Challenges",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Global Energy Challenges",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "10",
-  "lessonNumber": "3",
-  "description": "This lesson aims to discuss the interconnectedness of global energy challenges, including access to energy, environmental impact, and geopolitical considerations.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating global energy challenges",
-    "Examples of energy access disparities"
-  ],
-  "objectives": [
-    "Students will understand the interconnectedness of global energy challenges.",
-    "Students will learn about the factors contributing to energy access disparities, environmental impact, and geopolitical considerations.",
-    "Students will recognize the importance of addressing global energy challenges through collaborative efforts and sustainable solutions."
-  ],
-  "rationale": [
-    "Discussing the interconnectedness of global energy challenges provides students with insight into the complex issues shaping the global energy landscape. Understanding the factors contributing to energy access disparities, environmental impact, and geopolitical considerations encourages students to explore the multifaceted nature of energy issues and consider the implications of their actions on a global scale."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Global Energy Challenges</b>:<br>- Discuss the interconnected nature of global energy challenges, emphasizing the links between energy access, environmental sustainability, and geopolitical stability.<br>- Highlight the disparities in energy access between developed and developing regions, as well as the environmental and social consequences of energy production and consumption.",
-      "<b>Factors Contributing to Energy Challenges</b>:<br>- Explore the factors contributing to energy access disparities, such as infrastructure limitations, economic inequalities, and political instability.<br>- Discuss the environmental impact of energy production, including air and water pollution, deforestation, and habitat destruction.<br>- Introduce geopolitical considerations, such as energy dependence, resource competition, and conflicts over energy resources.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate global energy challenges and showcase examples of energy access disparities, environmental degradation, and geopolitical tensions related to energy resources.<br>- Discuss the interconnectedness of these challenges and the need for integrated approaches to address them.",
-      "<b>Group Activity: Case Studies in Global Energy</b>:<br>- Divide students into groups and assign them different case studies or scenarios involving global energy challenges.<br>- Ask each group to analyze the case study, identify the underlying factors contributing to the energy challenge, and propose solutions or mitigation strategies.<br>- Encourage students to consider the social, economic, and environmental dimensions of their chosen case study.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the findings of the group activities and the interconnected nature of global energy challenges.<br>- Encourage students to reflect on the ethical and moral implications of energy production and consumption patterns and consider the role of individuals, communities, and governments in addressing these challenges.",
-      "<b>Reflection and Action Plan</b>:<br>- Ask students to reflect on their learning from the lesson and identify personal or collective actions they can take to address global energy challenges.<br>- Encourage students to brainstorm sustainable solutions and advocacy efforts aimed at promoting energy access, environmental conservation, and geopolitical stability."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Case Study Analysis</b>:<br>- Evaluate the analysis and solutions proposed by each group for the global energy case studies, assessing their depth of understanding, critical thinking skills, and ability to propose effective strategies for addressing complex energy challenges."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of the interconnectedness of global energy challenges, including access to energy, environmental impact, and geopolitical considerations, and recognize the importance of collaborative efforts and sustainable solutions in addressing these challenges."
-  ]
-},
 
-// Lesson 4
-{
-  "title": "Exploring Individual and Community Actions for Energy Conservation",
-  "school": "Flying Wings Academy",
-  "teacher": "Ms. K. Davidson",
-  "date": "Monday, May 20, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Science",
-  "topic": "Individual and Community Actions for Energy Conservation",
-  "grade": "Avian Aces",
-  "term": "2",
-  "week": "10",
-  "lessonNumber": "4",
-  "description": "This lesson aims to discuss the impact of individual and community actions on energy conservation, emphasizing the importance of small changes contributing to larger collective efforts.",
-  "materials": [
-    "Class chart or whiteboard",
-    "Images or diagrams illustrating energy conservation actions",
-    "Examples of energy-saving technologies"
-  ],
-  "objectives": [
-    "Students will understand the impact of individual and community actions on energy conservation.",
-    "Students will learn about the importance of small changes contributing to larger collective efforts in energy conservation.",
-    "Students will recognize the role of technology and behavior change in promoting energy-saving practices."
-  ],
-  "rationale": [
-    "Exploring individual and community actions for energy conservation empowers students to make informed choices and take responsibility for their energy consumption habits. Emphasizing the importance of small changes contributing to larger collective efforts encourages students to recognize the cumulative impact of their actions and the potential for positive change through collective action."
-  ],
-  "methodology": [
-    "The lesson will incorporate interactive discussions, visual aids, and real-life examples to engage students and reinforce key concepts."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Energy Conservation Actions</b>:<br>- Discuss the impact of individual and community actions on energy conservation, highlighting the importance of reducing energy consumption, optimizing energy use, and adopting energy-saving technologies.<br>- Emphasize the role of behavior change and technology in promoting energy-saving practices.",
-      "<b>Examples of Energy Conservation Actions</b>:<br>- Present examples of energy conservation actions that individuals and communities can take, such as turning off lights when not in use, using energy-efficient appliances, carpooling, and insulating homes.<br>- Discuss the benefits of these actions, including cost savings, environmental benefits, and enhanced energy security.",
-      "<b>Visual Demonstrations</b>:<br>- Use images or diagrams to illustrate energy conservation actions and showcase examples of energy-saving technologies, such as smart thermostats, LED lighting, and solar panels.<br>- Highlight the effectiveness of these technologies in reducing energy consumption and promoting sustainability.",
-      "<b>Group Activity: Energy Conservation Action Plan</b>:<br>- Divide students into groups and ask them to develop an energy conservation action plan for their school or community.<br>- Encourage each group to identify specific actions they can take to reduce energy consumption and promote sustainability, considering both behavioral changes and technological solutions.",
-      "<b>Class Discussion</b>:<br>- Facilitate a discussion on the potential barriers to energy conservation, such as lack of awareness, financial constraints, and social norms.<br>- Encourage students to brainstorm strategies for overcoming these barriers and promoting energy-saving practices in their communities.",
-      "<b>Reflection and Commitment</b>:<br>- Ask students to reflect on their personal energy consumption habits and identify one energy conservation action they commit to implementing.<br>- Encourage students to share their commitments with the class and discuss how they can support each other in achieving their energy conservation goals."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and observations of group activities.",
-    "<br><b>Energy Conservation Action Plan</b>:<br>- Evaluate the energy conservation action plans developed by each group, assessing the comprehensiveness of their strategies, feasibility of implementation, and potential impact on energy consumption."
-  ],
-  "conclusion": [
-    "Through interactive discussions and activities, students will develop a comprehensive understanding of the impact of individual and community actions on energy conservation, recognizing the importance of small changes contributing to larger collective efforts in promoting sustainability."
-  ]
-}
 ];
