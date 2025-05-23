@@ -4,194 +4,218 @@ const lessonPlans41b = [
 // Week 2
 // Lesson 1
 {
-  "title": "Exploring Different Means of Producing Sound",
+  "title": "Exploring and Imitating Sounds",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Exploring Different Means of Producing Sound",
+  "topic": "Exploring and Imitating Sounds",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "2",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students explore different ways of producing sound, including imitating sounds and understanding sound sources in the environment.",
+  "description": "This lesson introduces learners to the concept of sound, allowing them to explore, imitate, and identify sounds from various sources.",
   "materials": [
-    "Various objects that produce sounds (e.g., bells, drums, whistles, pots)",
-    "Audio recordings of different sounds",
-    "Class chart or whiteboard"
+    "Classroom objects (desk, pencil, bottle)",
+    "Recycled materials",
+    "Musical toys",
+    "Natural objects",
+    "Hidden sound box",
+    "Teacher-made sound effects",
+    "Pictures",
+    "Sound recordings",
+    "Story cards",
+    "Worksheets or drawing paper",
+    "Crayons/pencils"
   ],
   "objectives": [
-    "Students will explore various ways to produce sound using different objects.",
-    "Students will imitate sounds they hear and identify the sources of those sounds."
+    "Explore different ways of producing sound using various objects.",
+    "Imitate different sounds they hear.",
+    "Identify the sources of those sounds."
   ],
   "rationale": [
-    "Exploring sound production helps students develop creativity, auditory skills, and a deeper understanding of the world around them."
+    "Learning about sound helps learners understand their environment and develop listening and communication skills."
   ],
   "methodology": [
-    "The lesson will involve hands-on exploration, sound imitation, and group discussions to engage students in active learning."
+    "The lesson will use demonstration, exploration, games, and drawing activities to teach learners about sound."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Sound</b>: Students will discuss what sound is and how we make and hear sounds.",
-      "<b>Sound Sources</b>: The teacher will demonstrate different objects that produce sound, such as bells, drums, and whistles. Students will listen and identify the sounds.",
-      "<b>Imitating Sounds</b>: Students will imitate sounds they hear by making the same sounds using their voices or objects in the classroom.",
-      "<b>Exploring Different Methods</b>: Students will explore how different objects produce different types of sounds, such as high-pitched, low-pitched, loud, or soft.",
-      "<b>Class Exercise</b>:<br>1. Imitate the sound of an animal, a car, and a musical instrument.<br>2. What objects in the classroom can you use to make sound? Describe the sound they make."
+      "<b>Part 1: Introduction – What is Sound?</b><br><br>Time: 10 minutes<br><br>Begin with a simple explanation: “Sound is something we hear. It is made when things vibrate.”<br><br>Demonstrate with a familiar example, like tapping a table or clapping hands.<br><br>Ask learners: “What sounds do you hear at home? At school?” Let a few children respond.<br><br>Emphasize that sounds can be loud or soft, high or low, and come from many sources.<br><br>Resources: Teacher’s voice, classroom objects (desk, pencil, bottle)",
+      "<b>Part 2: Exploring Sound with Objects</b><br><br>Time: 15 minutes<br><br>Provide each child (or group) with objects: spoons, plastic bottles, sticks, boxes, stones, etc.<br><br>Let them tap, shake, or scrape each object to produce a sound.<br><br>Encourage them to describe what they hear: “Is it loud? Soft? Does it rattle? Knock?”<br><br>Ask: “Which object makes a louder sound?” “Which is softer?”<br><br>Emphasize that we can create different sounds by hitting, shaking, or blowing into things.<br><br>Resources: Recycled materials, musical toys, natural objects",
+      "<b>Part 3: Imitating and Matching Sounds</b><br><br>Time: 10 minutes<br><br>Make a sound (clap, whistle, knock) and let students copy it.<br><br>Play a short game of “Guess That Sound” using a blindfold or hidden object. Example: Shake a container with stones and ask, “What do you think made this sound?”<br><br>Let students take turns creating a sound while others guess the object.<br><br>Reinforce vocabulary: loud, soft, high, low, shaking, tapping, blowing.<br><br>Resources: Hidden sound box, teacher-made sound effects",
+      "<b>Part 4: Sound and Its Source</b><br><br>Time: 10 minutes<br><br>Show or play a sound (e.g., dog barking, bell ringing) and ask, “What is that sound? Where does it come from?”<br><br>Use pictures or drawings of common sound sources: animals, vehicles, instruments.<br><br>Discuss how sounds help us know what is happening around us.<br><br>Encourage children to make the sounds of the sources: pretend to be a barking dog or a hooting car.<br><br>Resources: Pictures, sound recordings, story cards",
+      "<b>Part 5: Activity / Exercise</b><br><br>Time: 15 minutes<br><br>Task: Sound Hunt and Drawing<br><br>Learners go on a short sound hunt around the classroom or school yard (supervised).<br><br>They listen quietly and write down (or draw) three sounds they hear.<br><br>Back in class, each learner shares one sound and what made it.<br><br>They draw the object or animal that made the sound in their books.<br><br>Extension: Match pictures to sound sources on a worksheet.<br><br>Materials: Worksheets or drawing paper, crayons/pencils"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' creativity and participation by observing how they imitate sounds and interact with different sound-producing objects.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of an object that makes a sound you like and describe the sound it produces."
+    "<b>Observation</b>: The teacher will observe learners' participation and engagement during activities and discussions.",
+    "<b>Exercise</b>: Learners will complete the sound hunt and drawing task to demonstrate understanding of sound sources and types."
   ],
   "conclusion": [
-    "Through hands-on exploration and imitation, students will develop a better understanding of how sounds are produced and the different sources of sound around them."
+    "Through exploration, imitation, and creative expression, learners gain a basic understanding of sound, its sources, and how it affects their daily experiences."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Dance to Traditional and Contemporary Music",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Creative and Technology Studies",
-  "topic": "Movement and Dance: Singing, Movement, and Dancing to Music",
-  "grade": "Cloud Chicks",
-  "term": "2",
-  "week": "2",
-  "lessonNumber": "1",
-  "description": "This lesson aims to help students explore movement and dance through traditional and contemporary music, incorporating singing, dancing, and rhythm.",
-  "materials": [
-    "Traditional and contemporary music tracks",
-    "Open space for dancing",
-    "Props for dance (optional, such as scarves or hats)"
-  ],
-  "objectives": [
-    "Students will explore different types of music and their rhythms.",
-    "Students will practice dancing to both traditional and contemporary music."
-  ],
-  "rationale": [
-    "Engaging in movement and dance to various styles of music promotes physical coordination, creativity, and cultural awareness."
-  ],
-  "methodology": [
-    "The lesson will involve listening to different music styles, exploring movement, and performing dance routines to both traditional and contemporary songs."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Music and Movement</b>: Students will listen to a traditional song and discuss its rhythm and beats.",
-      "<b>Traditional Dance</b>: Students will learn a simple traditional dance, focusing on basic steps and hand movements.",
-      "<b>Contemporary Dance</b>: Students will listen to a contemporary song and explore more modern dance moves, incorporating freestyle movement.",
-      "<b>Combined Dance</b>: Students will practice transitioning between traditional and contemporary music, performing both styles in one routine.",
-      "<b>Class Exercise</b>:<br>1. What is your favorite music style?<br>2. Show a dance move you like from traditional or contemporary music."
-    ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will assess students' engagement, rhythm, and participation in the dance movements.",
-    "<br><b>Homework</b>:<br>1. Describe your favorite dance move from today’s lesson and how it makes you feel."
-  ],
-  "conclusion": [
-    "Through exploring and dancing to both traditional and contemporary music, students will develop their movement skills, musical rhythm, and an appreciation for cultural diversity."
-  ]
+"title": "Exploring Music and Rhythm",
+"school": "Flying Wings Academy",
+"teacher": "Mr. C. Mbaso",
+"date": "Sunday, October 13, 2024",
+"tcz": "19/09/0904/021725",
+"subject": "Creative and Technology Studies",
+"topic": "Exploring Music and Rhythm",
+"grade": "Cloud Chicks",
+"term": "2",
+"week": "2",
+"lessonNumber": "2",
+"description": "This lesson helps learners explore music and rhythm through listening, movement, dancing, and creative expression.",
+"materials": [
+"Teacher’s voice",
+"Hand clapping",
+"Music player",
+"Clips of traditional and modern music",
+"Open space",
+"Drums (if available)",
+"Discussion prompts",
+"Flashcards of instruments",
+"Drawing paper",
+"Crayons"
+],
+"objectives": [
+"Recognize different types of music and their rhythms.",
+"Move and dance in response to traditional and contemporary music.",
+"Enjoy expressing themselves through music and movement."
+],
+"rationale": [
+"Engaging with music and rhythm helps children develop coordination, creativity, cultural awareness, and self-expression."
+],
+"methodology": [
+"The lesson uses auditory, kinesthetic, and visual methods including clapping, dancing, discussion, and drawing to explore musical rhythm and movement."
+],
+"activities": [
+["1", "2", "3", "4", "5"],
+[
+"<b>Part 1: Introduction – What is Music and Rhythm?</b>:<br><br>Time: 10 minutes<br><br>Begin by asking: “What is music? Where do we hear music?”<br><br>Explain simply: “Music is a sound we enjoy. It can be slow or fast, happy or sad. Rhythm is the beat that makes us want to move or dance.”<br><br>Clap a steady beat and let learners follow. Try slow claps and fast claps.<br><br>Ask: “How does this music make you feel? Does it make you want to move?”<br><br>Resources: Teacher’s voice, hand clapping",
+"<b>Part 2: Exploring Different Types of Music</b>:<br><br>Time: 10 minutes<br><br>Play short clips of different music types:<br><br>Traditional music (e.g., drums, local songs)<br>Contemporary music (e.g., simple pop or children's songs)<br><br>Ask learners:<br>“Is this music fast or slow?”<br>“What instruments can you hear?”<br>“Does this music make you feel happy, calm, or excited?”<br><br>Let them gently sway or move their fingers to the rhythm while seated.<br><br>Resources: Music player, clips of traditional and modern music",
+"<b>Part 3: Dancing to the Music</b>:<br><br>Time: 15 minutes<br><br>Clear a safe space for movement.<br><br>Play a traditional song and guide learners through simple traditional dance moves (e.g., clapping, stomping, swaying).<br><br>Next, play a lively contemporary song and let children freestyle dance or follow your moves.<br><br>Emphasize rhythm: “Can we all jump to the beat? Step to the beat?”<br><br>Let learners take turns leading a dance move for the class to follow.<br><br>Resources: Music, open space, drums (if available)",
+"<b>Part 4: Talking About Music and Movement</b>:<br><br>Time: 10 minutes<br><br>After dancing, sit in a circle and talk about the experience.<br><br>“Which song did you like best?”<br>“Was it easy or hard to move to the music?”<br>“How did you feel when you were dancing?”<br><br>Reinforce that different music makes us move in different ways.<br><br>Resources: Discussion prompts, flashcards of instruments",
+"<b>Part 5: Activity / Exercise</b>:<br><br>Time: 15 minutes<br><br>Task: Draw and Dance<br><br>Give each learner a paper and crayons. Ask them to draw themselves dancing to either traditional or modern music.<br><br>Under the picture, help them write (or copy):<br>“I like dancing to [traditional/modern] music.”<br><br>Optional: Allow small groups to perform a short dance to the music of their choice.<br><br>Materials: Drawing paper, crayons, music player"
+]
+],
+"assessments": [
+"<b>Observation</b>: The teacher will observe learners’ participation in clapping, dancing, and discussion to assess engagement with rhythm and music.",
+"<b>Creative Exercise</b>: Learners’ drawings and movement choices will reflect understanding of music types and expression through rhythm."
+],
+"conclusion": [
+"Through listening, moving, and expressing themselves with music, learners discover the joy of rhythm and begin to appreciate traditional and contemporary sounds in their environment."
+]
 },
 
 // Week 3
 // Lesson 1
 {
-  "title": "Singing a Variety of Songs on HIV/AIDS",
+  "title": "HIV/AIDS Awareness Through Songs",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Songs on HIV/AIDS Awareness",
+  "topic": "HIV/AIDS Awareness Through Songs",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson aims to educate students on HIV/AIDS through song, promoting awareness and understanding of its impact and prevention.",
+  "description": "This lesson introduces HIV/AIDS in a child-friendly way using stories, songs, discussions, and drawing activities to promote awareness, kindness, and healthy habits.",
   "materials": [
-    "Audio recordings of HIV/AIDS awareness songs",
-    "Class chart or whiteboard",
-    "Lyrics sheets for each song"
+    "Pictures for story explanation",
+    "Drawing paper and crayons",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will learn about HIV/AIDS awareness through songs.",
-    "Students will understand the importance of prevention and education on HIV/AIDS."
+    "To introduce students to the meaning of HIV and AIDS in a simple and age-appropriate way.",
+    "To help children understand simple ways to prevent HIV and show care for those affected.",
+    "To use music as a tool for learning and spreading positive messages about HIV/AIDS.",
+    "To reinforce values of compassion, knowledge, and healthy habits."
   ],
   "rationale": [
-    "Music is a powerful tool for promoting important social messages, and using songs helps students remember key concepts about HIV/AIDS."
+    "Using songs and creative activities makes sensitive topics more accessible for young learners.",
+    "It encourages empathy, healthy habits, and openness while reducing stigma toward people living with HIV/AIDS."
   ],
   "methodology": [
-    "The lesson will use singing, group participation, and discussions to enhance students' understanding of HIV/AIDS prevention and awareness."
+    "Storytelling with pictures, guided questioning, role play, singing with actions, drawing and matching activities."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to HIV/AIDS</b>: Briefly discuss what HIV/AIDS is, its causes, and how it can be prevented.",
-      "<b>Song 1: 'HIV is Real'</b>: Sing a song that educates about the reality of HIV and how it affects individuals and communities.",
-      "<b>Song 2: 'Prevention is Key'</b>: Sing a song that emphasizes the importance of safe practices and prevention strategies.",
-      "<b>Group Activity</b>: Students will work in groups to create their own short song or chant about HIV/AIDS prevention.",
-      "<b>Class Discussion</b>: After singing, engage the class in a discussion on the importance of HIV awareness and how they can spread the message of prevention."
+      "<b>Part 1: Introduction – What is HIV/AIDS?</b><br><br><b>Objective:</b> To introduce students to the meaning of HIV and AIDS in a simple and age-appropriate way.<br><br><b>Content:</b><br>HIV stands for Human Immunodeficiency Virus.<br>AIDS stands for Acquired Immune Deficiency Syndrome.<br>HIV is a virus that makes a person’s body weak in fighting illnesses.<br>AIDS is a condition that happens after the body has been weakened for a long time.<br>It is important to show kindness to people living with HIV/AIDS.<br><br><b>Teaching Method:</b><br>Use pictures and story-based explanation to introduce the topic gently.<br>Ask guiding questions like:<br>“Have you heard the word HIV before?”<br>“What do you think it means?”",
+      "<b>Part 2: Prevention and Care</b><br><br><b>Objective:</b> To help children understand simple ways to prevent HIV and show care for those affected.<br><br><b>Content:</b><br>HIV is not spread by hugging, shaking hands, playing, or sharing food.<br>It is spread through contact with infected blood.<br>We can protect ourselves by being careful around injuries, and by keeping clean.<br>Encourage children to tell a teacher or parent if someone is hurt and bleeding.<br><br><b>Teaching Method:</b><br>Role play scenarios (e.g., what to do when someone falls and gets hurt).<br>Emphasize kindness, not fear.",
+      "<b>Part 3: Songs for Awareness</b><br><br><b>Objective:</b> To use music as a tool for learning and spreading positive messages about HIV/AIDS.<br><br><b>Content:</b><br>Teach a simple song with lyrics that talk about love, care, and safety.<br><br><b>Example Song</b> (to the tune of 'If You’re Happy and You Know It'):<br>“If you care and want to help, wash your hands!<br>If you care and want to help, wash your hands!<br>If a friend gets a cut, tell a teacher right away,<br>If you care and want to help, wash your hands!”<br><br><b>Teaching Method:</b><br>Sing together with actions.<br>Let students clap, sing, and create their own verses.",
+      "<b>Part 4: Discussion and Values</b><br><br><b>Objective:</b> To reinforce values of compassion, knowledge, and healthy habits.<br><br><b>Discussion Questions:</b><br>Why is it important to help someone who is hurt?<br>Can you get HIV by playing with a friend?<br>What should you do if someone is bleeding?<br><br><b>Values Emphasized:</b><br>Caring for others<br>Not being afraid or mean to people with HIV<br>Staying healthy and clean",
+      "<b>Part 5: Exercise / Task</b><br><br><b>Activity:</b> Draw and Match<br><br><b>Instructions:</b><br>1. On one side of the paper, draw pictures of actions (e.g., washing hands, hugging a friend, using a bandage).<br>2. On the other side, draw faces: happy face (safe action) or sad face (unsafe action).<br>3. Match the action to the correct face.<br>4. Teacher walks around and discusses the pictures with each child.<br><br><b>Optional Homework:</b><br>Sing the HIV/AIDS awareness song at home and tell your family what you learned today."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' participation in singing, their ability to recall key facts, and their understanding of HIV/AIDS prevention.",
-    "<br><b>Homework</b>: <br>1. Write a short paragraph on how HIV/AIDS can be prevented and why it is important to talk about it."
+    "<b>Observation</b>: The teacher will observe students’ participation in songs, discussions, and role plays.",
+    "<b>Exercise</b>: Students’ drawings and matching tasks will show understanding of safe and caring behavior."
   ],
   "conclusion": [
-    "By singing and participating in discussions, students will gain a deeper understanding of HIV/AIDS and learn how to spread awareness in their communities."
+    "By learning about HIV/AIDS through songs and discussion, students gain awareness, develop empathy, and learn safe, kind practices to apply in real life."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Singing Songs on the Evils of Corruption",
+  "title": "Singing Against Corruption",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Singing Songs on the Evils of Corruption",
+  "topic": "Singing Against Corruption",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "3",
   "lessonNumber": "2",
-  "description": "This lesson focuses on teaching students the importance of singing songs that address social issues, specifically corruption, and how music can be a tool for raising awareness and promoting positive change.",
+  "description": "The focus is on raising awareness about corruption through songs.",
   "materials": [
-    "Audio recordings of songs about corruption",
-    "Lyrics of the songs",
-    "Instruments for accompaniment (optional)"
+    "Audio player or device for playing music",
+    "Whiteboard and markers",
+    "Printed lyrics of the song",
+    "Paper and crayons"
   ],
   "objectives": [
-    "Students will sing songs that highlight the evils of corruption.",
-    "Students will understand how music can be used to raise awareness about social issues."
+    "To introduce children to the concept of corruption in a simple and relatable way.",
+    "To explain how songs can carry important messages about fairness and honesty.",
+    "To teach learners a simple anti-corruption song with a clear message.",
+    "To reflect on what corruption is and why we should stand against it.",
+    "To allow children to express values through art and speech."
   ],
   "rationale": [
-    "Singing songs on important topics such as corruption helps students develop a sense of social responsibility and allows them to express their opinions through music."
+    "Teaching about corruption at an early age helps children develop values of honesty, fairness, and integrity. Songs and art help reinforce these values in a fun and meaningful way."
   ],
   "methodology": [
-    "The lesson will incorporate singing, group discussions on the message of the songs, and discussions on the importance of tackling corruption."
+    "Storytelling, music, class discussions, song practice, art activity, and presentations."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to the Topic</b>: Students will discuss what corruption is and its impact on society.",
-      "<b>Listening Activity</b>: The teacher will play songs related to the evils of corruption, and students will listen carefully to the lyrics and identify key messages.",
-      "<b>Song Practice</b>: Students will practice singing a song or two that focus on corruption, focusing on both the melody and the message.",
-      "<b>Group Discussion</b>: After singing, students will discuss how the song addresses the issue of corruption and what action they think should be taken to fight it.",
-      "<b>Class Exercise</b>:<br>1. What are some of the negative effects of corruption?<br>2. How can music help in raising awareness about important issues like corruption?"
+      "<b>Part 1: Introduction – What is Corruption?</b><br><br><b>Objective:</b> To introduce children to the concept of corruption in a simple and relatable way.<br><br><b>Content:</b><br>Corruption is when someone does something wrong to get an unfair advantage, like cheating or stealing.<br><br>Examples: Taking what is not theirs, not being fair in a game, or lying to get ahead.<br>Corruption hurts everyone – it is unfair and stops good things from happening.<br><br><b>Teaching Method:</b><br>Tell a short story: “Two children are playing a game. One child hides the rules so they can always win. Is that fair?”<br><br>Allow children to respond and share how they would feel.",
+      "<b>Part 2: Music and Messages</b><br><br><b>Objective:</b> To explain how songs can carry important messages about fairness and honesty.<br><br><b>Content:</b><br>Songs are not just for fun – they can teach us lessons.<br>Many people use music to talk about problems in the world and to ask for change.<br>Today, we will learn a song that tells us corruption is bad and honesty is good.<br><br><b>Teaching Method:</b><br>Play a short audio (if available) of a simple song about honesty and fairness.<br>Ask students how the song made them feel.",
+      "<b>Part 3: Learning the Song</b><br><br><b>Objective:</b> To teach learners a simple anti-corruption song with a clear message.<br><br><b>Sample Song</b> (Tune: “Twinkle Twinkle Little Star”)<br>“Don’t be greedy, don’t be sly,<br>Always tell the truth, don’t lie.<br>Share and care, be fair and kind,<br>Leave all selfish ways behind.<br>Let’s be honest every day,<br>Help corruption go away.”<br><br><b>Teaching Method:</b><br>Teach the song line by line, adding claps and actions.<br>Sing it together as a class.<br>Let volunteers lead the song in small groups.",
+      "<b>Part 4: Reflection and Values</b><br><br><b>Objective:</b> To reflect on what corruption is and why we should stand against it.<br><br><b>Discussion Questions:</b><br>What did the song teach us?<br>What should we do if we see someone cheating or being unfair?<br>How can we use our voices (songs, words) to make the world better?<br><br><b>Values Emphasized:</b><br>Honesty<br>Fairness<br>Speaking up for what is right<br>Teamwork and integrity",
+      "<b>Part 5: Exercise / Task</b><br><br><b>Activity:</b> Draw & Say<br><br><b>Instructions:</b><br>1. Ask students to draw a picture of someone doing the right thing (e.g., sharing, telling the truth, helping others).<br><br>2. Below the drawing, help them write a simple sentence: “I will always be honest” or “I say no to corruption.”<br><br>3. One by one, students can come forward and say what their picture shows.<br><br><b>Optional Homework:</b><br>Sing the anti-corruption song at home.<br>Talk to your family about one thing you learned about being fair and honest."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' participation in singing, their understanding of the lyrics, and their ability to engage in meaningful discussion about corruption.",
-    "<br><b>Homework</b>:<br>1. Write a short paragraph about why corruption is bad and how people can work together to prevent it."
+    "<b>Observation</b>: The teacher will assess students’ participation in the song, discussion, and drawing activity.",
+    "<b>Performance</b>: Students will present their drawings and explain their understanding of honesty and corruption."
   ],
   "conclusion": [
-    "By engaging in song and discussion, students will gain a deeper understanding of the impact of corruption and the power of music in promoting positive change."
+    "By learning about corruption and expressing their understanding through music and art, students will build values of fairness, honesty, and teamwork."
   ]
 },
 
