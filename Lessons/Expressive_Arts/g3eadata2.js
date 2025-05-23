@@ -53,146 +53,153 @@ const lessonPlans42b = [
 
 // Lesson 2
 {
-  "title": "Exploring Dragging Items in Microsoft Word and Desktop Icons",
+  "title": "Clicking and Dragging Items",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Learning to Drag Items in Microsoft Word and Desktop Icons",
+  "topic": "Clicking and Dragging Items",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson introduces students to the skill of dragging items within Microsoft Word and desktop icons, enhancing their computer navigation skills.",
+  "description": "This lesson teaches students how to use the computer mouse to click and drag items, using practical demonstrations in Microsoft Word and on the desktop.",
   "materials": [
-    "Computers with Microsoft Word installed",
-    "Mouse or trackpad for dragging practice",
-    "Sample documents and desktop icons for demonstration"
+    "Computer with mouse",
+    "Microsoft Word document with shapes or pictures",
+    "Desktop with icons"
   ],
   "objectives": [
-    "Students will learn how to click and drag items in Microsoft Word.",
-    "Students will practice dragging and organizing icons on the desktop."
+    "Students will define and understand the actions of clicking and dragging.",
+    "Students will observe and identify how dragging works in Word and on the desktop.",
+    "Students will practice moving shapes in Word and icons on the desktop.",
+    "Students will reinforce their understanding through questions and review.",
+    "Students will complete a practical task involving dragging items and writing steps."
   ],
   "rationale": [
-    "Mastering the drag-and-drop feature is essential for effective computer use and navigation."
+    "Understanding how to click and drag items using a mouse is essential for navigating and organizing items in computer applications."
   ],
   "methodology": [
-    "The lesson will involve demonstrations, guided practice, and hands-on activities to ensure students understand and apply the concepts."
+    "The lesson will involve demonstration, guided practice, discussion, and independent activity using real computer tools."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain the concept of dragging items using a mouse or trackpad.",
-      "<b>Dragging in Microsoft Word</b>: Students will practice selecting and moving text, images, or shapes within a Word document.",
-      "<b>Desktop Icons</b>: Students will practice clicking and dragging icons to rearrange or organize their desktop.",
-      "<b>Grouping Practice</b>: Students will group desktop icons into folders by dragging them.",
-      "<b>Class Exercise</b>:<br>1. Drag a text box in Microsoft Word to a new location.<br>2. Rearrange icons on your desktop.<br>3. Create and drag items into a folder on the desktop."
+      "<b>Part 1: Introduction (Engage – 10 minutes)</b><br><br>Teacher Activity:<br><br>Begin with a brief review: “Last time, we learned the parts of a computer mouse. Today, we’ll learn how to use the mouse to click and drag items.”<br><br>Explain the terms:<br><br>Click: Pressing the mouse button once.<br><br>Drag: Holding the button down while moving the mouse.<br><br>Demonstrate using a real mouse:<br>Click on an icon → Hold the mouse button → Move the icon → Let go to drop it.<br><br>Ask learners:<br><br>“Have you seen someone moving things around on a computer screen?”<br><br>“What do you think happens when we move icons?”",
+      "<b>Part 2: Main Teaching (Explore & Explain – 15 minutes)</b><br><br>Part A: Dragging in Microsoft Word<br><br>Open a sample Word document with pictures or shapes.<br><br>Demonstrate:<br><br>Click on a picture or shape.<br><br>Hold down the mouse button.<br><br>Move the picture to another spot.<br><br>Release the button to drop it.<br><br>Let students observe how the object moves.<br><br>Part B: Dragging Desktop Icons<br><br>Show the desktop screen.<br><br>Click and drag one icon to a new location.<br><br>Emphasize:<br><br>Use the left mouse button to drag.<br><br>Keep holding while moving.<br><br>Let go to place the item.",
+      "<b>Part 3: Guided Practice (Elaborate – 10 minutes)</b><br><br>Activity A: In Microsoft Word<br><br>Let each student come up and practice clicking and dragging:<br><br>Move a shape or picture in the Word document.<br><br>Activity B: On Desktop<br><br>Allow students to practice dragging desktop icons around in a safe area (or on a demo computer).<br><br>Make sure they do not delete anything.",
+      "<b>Part 4: Summary & Review (Evaluate – 5 minutes)</b><br><br>Review Questions:<br><br>“What does it mean to drag an item?”<br><br>“What do you press to start dragging?”<br><br>“What happens when you release the mouse button?”<br><br>Reinforce:<br><br>Dragging helps us move things to where we want them on the screen.<br><br>It works in Word and on the desktop.",
+      "<b>Part 5: Exercise (Independent Practice)</b><br><br>Instructions:<br>On your own (or in pairs if needed):<br><br>1. Open the sample Word document.<br><br>2. Click and drag the shapes to form a simple design (e.g., a house or face).<br><br>3. Close Word when done.<br><br>4. On the desktop, organize three icons into a row by dragging them.<br><br>Bonus Task:<br><br>Write these steps in your book:<br><br>1. Click the left mouse button on the item.<br><br>2. Hold the button down.<br><br>3. Move the mouse to where you want the item.<br><br>4. Let go of the button."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students during practice to evaluate their ability to drag and drop items accurately.",
-    "<br><b>Homework</b>:<br>1. Create a Word document and drag an image to three different positions.<br>2. Organize your desktop by creating two folders and dragging relevant icons into them."
+    "<b>Observation</b>: The teacher will monitor students’ ability to perform click and drag actions during the guided and independent practice.",
+    "<b>Exercise</b>: Completion of the dragging tasks in Word and on the desktop, as well as writing the steps, will be used to assess understanding."
   ],
   "conclusion": [
-    "By the end of this lesson, students will confidently use the drag-and-drop feature to organize desktop icons and edit items within Microsoft Word."
+    "By learning and practicing how to click and drag items using the mouse, students gain important skills in handling computer applications for both learning and personal use."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Introduction to Microsoft Office Word Basics",
+  "title": "Introduction to Microsoft Word Interface and Document Management",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding the Basics of Microsoft Office Word",
+  "topic": "Introduction to Microsoft Word Interface and Document Management",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "2",
   "lessonNumber": "3",
-  "description": "This lesson introduces students to the basic functions and features of Microsoft Office Word, enabling them to create and format simple documents.",
+  "description": "This lesson introduces students to the Microsoft Word interface and document management, including how to create, save, and edit a document.",
   "materials": [
-    "Computers with Microsoft Office Word installed",
-    "Projector or whiteboard for demonstration",
-    "Handouts with Word basics"
+    "Computers with Microsoft Word installed",
+    "Projector or large display screen",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will identify the key components of the Microsoft Word interface.",
-    "Students will understand how to create, save, and edit a Word document."
+    "Students will identify key parts of the Microsoft Word interface.",
+    "Students will understand how to create, save, and edit a document.",
+    "Students will practice using Microsoft Word to complete basic tasks."
   ],
   "rationale": [
-    "Learning Microsoft Word basics equips students with essential skills for document creation, which are crucial in academics and beyond."
+    "Familiarity with Microsoft Word is a foundational digital skill that enables students to create, manage, and revise documents for academic and personal use."
   ],
   "methodology": [
-    "The lesson will include hands-on practice, guided demonstrations, and collaborative activities to engage students in learning the basics of Microsoft Word."
+    "Demonstration using projector, guided practice, hands-on computer use, and independent exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Word</b>: The teacher will explain what Microsoft Word is and its common uses in creating documents.",
-      "<b>Interface Overview</b>: Students will explore the key components of the Word interface, including the Ribbon, toolbar, and workspace.",
-      "<b>Creating and Saving Documents</b>: A demonstration of how to create a new document, type text, and save the file with an appropriate name.",
-      "<b>Basic Formatting</b>: Students will practice basic formatting features such as changing font size, style, and color.",
-      "<b>Class Exercise</b>:<br>1. Open a new Word document.<br>2. Type your name and format it with bold and a larger font.<br>3. Save the document with the name 'My First Word Document.'"
+      "<b>Part 1: Introduction (Engage – 10 minutes)</b><br><br>Teacher Activity:<br><br>Begin by asking:<br>“Who remembers what we used in the last lesson to move pictures in Microsoft Word?”<br><br>Tell students:<br>“Today we are going to learn more about Microsoft Word. We’ll look at the screen and find out what the parts are called, and we’ll learn how to create, save, and change a document.”<br><br>Show a live view of the Microsoft Word interface on a projector or large screen.",
+      "<b>Part 2: Main Teaching (Explore & Explain – 15 minutes)</b><br><br>A. Key Components of the Microsoft Word Interface<br>Display and explain these parts:<br><br>1. Title Bar – Shows the name of the document.<br>2. Ribbon – The top part with buttons and tabs (like Home, Insert, etc.).<br>3. Tabs – Like Home, Insert, Layout; clicking them changes the ribbon.<br>4. Quick Access Toolbar – Small icons for Save, Undo, etc.<br>5. Document Area – Where you type your work.<br>6. Scroll Bars – To move up and down the page.<br><br>B. Creating, Saving, and Editing a Document<br><br>Create: Click File > New > Blank Document.<br>Save: Click File > Save As, choose a name and location, then click Save.<br>Edit: Click in the document area and type or change words.<br><br>Demonstration:<br>Create a document.<br>Type: “My name is ___. I love using a computer.”<br>Save it on the desktop.<br>Change a word and save again.",
+      "<b>Part 3: Guided Practice (Elaborate – 10 minutes)</b><br><br>Activity: Students follow along on their computers:<br><br>1. Open Microsoft Word.<br>2. Look at the screen and point to the Title Bar, Ribbon, and Tabs as teacher calls them out.<br>3. Type a short sentence: “Today I am learning Microsoft Word.”<br>4. Save the document as “My First Word File”.<br>5. Change a word (e.g., “Today” to “Now”) and save again.<br><br>Teacher walks around to assist and guide.",
+      "<b>Part 4: Summary & Review (Evaluate – 5 minutes)</b><br><br>Review Questions:<br><br>“What is the Ribbon used for?”<br>“What is the Title Bar?”<br>“How do you save a document?”<br><br>Quick Recap:<br>Microsoft Word helps us create written work.<br>We must always save our work.<br>We can open it again and make changes (edit).",
+      "<b>Part 5: Exercise (Independent Practice)</b><br><br>Instructions:<br>Complete the following tasks on the computer:<br><br>1. Open Microsoft Word.<br>2. Type the following sentence:<br>“Microsoft Word helps me write stories and homework.”<br>3. Save the document with your name (e.g., Peter_Week2.docx).<br>4. Edit the sentence by adding your favorite subject at the end.<br>5. Save the document again.<br><br>Bonus Task (Written in notebook): Label these parts of the Microsoft Word window:<br>Title Bar<br>Ribbon<br>Tabs<br>Quick Access Toolbar<br>Document Area"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will monitor students' progress during hands-on activities and provide feedback as needed.",
-    "<br><b>Homework</b>:<br>1. Open Microsoft Word at home or the school computer lab.<br>2. Create a new document, type a short paragraph about your favorite hobby, and save it as 'My Hobby.'"
+    "<b>Observation</b>: The teacher will observe students during hands-on activities to ensure they can identify and use the Word interface.",
+    "<b>Exercise</b>: Completion of the independent practice task and correct labeling of Word interface parts."
   ],
   "conclusion": [
-    "By learning the basics of Microsoft Word, students will gain confidence in using the software to create and format documents effectively."
+    "Students will now be able to identify and use key parts of Microsoft Word, create and save documents, and make basic edits, helping them grow in digital literacy."
   ]
 },
 
 // Week 3
 // Lesson
 {
-  "title": "Introduction to Text Formatting in MS Word",
+  "title": "Text Formatting Tools in MS Word",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding Bold, Italics, Underline, and Strikethrough in MS Word",
+  "topic": "Text Formatting in MS Word",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to basic text formatting tools in MS Word, focusing on bold, italics, underline, and strikethrough functions.",
+  "description": "This lesson introduces students to basic text formatting features in Microsoft Word, including Bold, Italic, Underline, and Strikethrough.",
   "materials": [
-    "Computers with MS Word installed",
-    "Projector for demonstration",
-    "Handouts with formatting exercises"
+    "Computers with MS Word installed or printed worksheet mockups",
+    "Projector or printed visual aids showing toolbar icons",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will identify and locate the bold, italics, underline, and strikethrough tools in MS Word.",
-    "Students will apply the bold, italics, underline, and strikethrough formatting to selected text."
+    "Students will understand what text formatting is.",
+    "Students will identify Bold, Italic, Underline, and Strikethrough tools in MS Word.",
+    "Students will practice applying each formatting style to specific words.",
+    "Students will discuss real-life uses of formatting in writing.",
+    "Students will complete a task using all four formatting tools."
   ],
   "rationale": [
-    "Understanding text formatting enhances document presentation and readability, which is essential for effective communication."
+    "Understanding text formatting helps students enhance the clarity and impact of their digital writing."
   ],
   "methodology": [
-    "The lesson will include a demonstration of text formatting tools, guided practice, and individual exercises to ensure hands-on learning."
+    "The lesson will use visual demonstration, guided practice, discussion, and hands-on application using computers or worksheets."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will introduce the concept of text formatting and explain its importance in document editing.",
-      "<b>Tool Identification</b>: Students will open MS Word, and the teacher will demonstrate how to locate the bold, italics, underline, and strikethrough tools on the toolbar.",
-      "<b>Demonstration</b>: The teacher will show how to use each formatting tool by selecting text and applying the respective styles.",
-      "<b>Hands-On Practice</b>: Students will complete a guided exercise, formatting a given paragraph using bold, italics, underline, and strikethrough.",
-      "<b>Class Exercise</b>:<br>1. Apply bold to the heading of your document.<br>2. Italicize the first sentence in the paragraph.<br>3. Underline the important keywords.<br>4. Use strikethrough to mark text that is no longer needed."
+      "<b>Part 1: Introduction – What is Text Formatting?</b><br><br>Begin by engaging students with a class discussion.<br><br>Say:<br>“Have you ever seen a word in a book or on a computer screen that looks thicker, slanted, or underlined? That’s called text formatting. It helps important words stand out and look different. Today, we will learn how to make text bold, italic, underlined, and even draw a line through it using a program called Microsoft Word.”<br><br>Show: A printed or projected sample with different formatted text and ask students to identify what looks different.",
+      "<b>Part 2: Identifying the Formatting Tools in MS Word</b><br><br>Demonstrate using a projector or printed images:<br><br>Open MS Word.<br><br>Show where the Bold (B), Italic (I), Underline (U), and Strikethrough (abc) tools are located on the toolbar (usually under the Home tab).<br><br>Explain:<br><br>Bold makes text thick and strong.<br><br>Italic makes text slanted.<br><br>Underline draws a line under the text.<br><br>Strikethrough puts a line through the middle of the text.",
+      "<b>Part 3: Applying the Tools</b><br><br>Demonstrate:<br><br>1. Type the sentence: 'My school is the best!'<br><br>2. Select the word “school” and click Bold.<br><br>3. Select “the” and click Italic.<br><br>4. Select “best” and click Underline.<br><br>5. Type another sentence: 'I will not forget my homework.' Then apply Strikethrough to the word “not”.<br><br>Let students watch first, then repeat the steps themselves on computers or using printed worksheets that simulate Word’s interface.",
+      "<b>Part 4: Discussion and Real-Life Use</b><br><br>Ask:<br><br>Why do you think bold is useful?<br><br>When might someone use italics or underline?<br><br>What message does strikethrough send?<br><br>Discuss how authors, teachers, and students use these tools in school work, stories, and letters.",
+      "<b>Part 5: Exercise (Practice Task)</b><br><br>Instructions:<br>On the computer (or a worksheet, if computers aren’t available), type the following sentence:<br><br>'Creative Studies is fun and exciting!'<br><br>Tasks:<br><br>1. Make “Creative” bold.<br><br>2. Make “fun” italic.<br><br>3. Make “and” underlined.<br><br>4. Make “exciting” strikethrough.<br><br>Then type your own sentence and use each formatting tool at least once."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will evaluate students' ability to correctly apply the formatting tools during the class exercise.",
-    "<br><b>Homework</b>:<br>1. Create a short paragraph in MS Word and apply bold, italics, underline, and strikethrough formatting to appropriate sections. Submit a printed copy in the next lesson."
+    "<b>Observation</b>: The teacher will observe student participation and use of tools during the lesson.",
+    "<b>Practical Exercise</b>: Students' application of formatting styles in the final task will demonstrate understanding."
   ],
   "conclusion": [
-    "By practicing text formatting in MS Word, students will gain essential skills for creating professional and visually appealing documents."
+    "By learning how to use text formatting tools in MS Word, students will be able to make their digital writing more effective and visually clear."
   ]
 },
 
