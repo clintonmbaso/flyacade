@@ -4,49 +4,50 @@ const lessonPlans42b = [
 // Week 2
 // Lesson 1
 {
-  "title": "Exploring the Mouse: Its Hardware Parts and Functions",
+  "title": "Parts of a Computer Mouse",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Understanding the Mouse: Hardware Parts and Functions",
+  "topic": "Parts of a Computer Mouse",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "2",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to the computer mouse, its hardware components, and their respective functions.",
+  "description": "This lesson introduces students to the computer mouse, helping them identify and understand its key hardware parts and how each part is used.",
   "materials": [
-    "Computer mouse (variety of types, if possible)",
-    "Computer system to demonstrate mouse functions",
-    "Visual aids or diagrams of a mouse"
+    "Real computer mouse or clear pictures",
+    "Computer with projector (if available)",
+    "Notebook and pencils"
   ],
   "objectives": [
-    "Students will identify the key hardware parts of a computer mouse.",
-    "Students will understand the functions of each part of the mouse and how it is used to interact with a computer."
+    "Students will be able to identify the main parts of a computer mouse.",
+    "Students will understand the function of each mouse part.",
+    "Students will demonstrate basic mouse operations such as clicking and scrolling."
   ],
   "rationale": [
-    "Understanding the mouse as an essential input device helps students develop fundamental computer skills."
+    "Knowing how to use a computer mouse is a foundational skill in computer literacy. This lesson helps learners become comfortable with hardware tools used in digital environments."
   ],
   "methodology": [
-    "The lesson will use hands-on activities, demonstrations, and discussions to ensure an engaging learning experience."
+    "The lesson will use demonstrations, hands-on practice, and guided discussions to engage learners and build understanding of the parts of a computer mouse."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain the role of the mouse as a vital input device for navigating and interacting with a computer.",
-      "<b>Parts of the Mouse</b>: Students will examine the hardware parts of a mouse, including the left and right buttons, scroll wheel, and sensor or ball.",
-      "<b>Functions</b>: The teacher will demonstrate how each part of the mouse is used, such as clicking to select, scrolling through pages, and moving the cursor.",
-      "<b>Types of Mice</b>: Students will explore different types of mice, such as wired, wireless, and trackball, and discuss their advantages and disadvantages.",
-      "<b>Class Exercise</b>:<br>1. Name two main buttons on a mouse.<br>2. What is the function of the scroll wheel?<br>3. What type of mouse does not require a wire to connect to the computer?"
+      "<b>Part 1: Introduction (Engage - 10 minutes)</b><br><br><u>Teacher Activity:</u><br>Begin by showing a real computer mouse or a clear picture of one.<br><br>Ask learners:<br>“Who has seen or used this before?”<br>“What do you think it is used for?”<br><br><u>Explain:</u><br>“This is a computer mouse. It is a small hardware part we use with a computer to control things on the screen.”<br><br><u>Key Vocabulary:</u><br>Mouse<br>Click<br>Scroll<br>Pointer<br>Button",
+      "<b>Part 2: Main Teaching (Explore & Explain - 15 minutes)</b><br><br><u>Explain the main parts of a mouse:</u><br>1. Left Button: Used to click, select, and open things.<br>2. Right Button: Used to open extra options (like a menu).<br>3. Scroll Wheel: Used to move up and down on a page.<br>4. Mouse Body: The main part you hold in your hand.<br>5. Mouse Cable or USB Connector (for wired mice): Connects the mouse to the computer.<br><br><u>Show each part clearly, pointing as you explain.</u><br><br><u>Demonstration:</u><br>Use a projector or real mouse to show how clicking, right-clicking, and scrolling works.<br>Move the mouse and show how the pointer moves on the screen.",
+      "<b>Part 3: Guided Practice (Elaborate - 10 minutes)</b><br><br><u>Activity:</u><br>Let students come up one by one (or in small groups) to use a real mouse connected to a computer.<br><br><u>Ask them to:</u><br>Point the mouse<br>Click with the left button<br>Use the scroll wheel<br>Try a right-click<br><br><u>Discuss:</u><br>“What did you notice?”<br>“Was it easy to use?”<br>“What happens when you click or scroll?”",
+      "<b>Part 4: Summary & Review (Evaluate - 5 minutes)</b><br><br><u>Recap:</u><br>Ask the class:<br>“What are the main parts of a mouse?”<br>“What is the left button used for?”<br>“What does the scroll wheel do?”<br><br><u>Highlight:</u><br>All parts work together to help us control the computer.",
+      "<b>Part 5: Exercise (Independent Practice)</b><br><br><u>Instructions:</u><br>Draw a computer mouse in your notebook and label the following parts:<br>Left Button<br>Right Button<br>Scroll Wheel<br>Mouse Body<br>Cable or USB Plug<br><br><u>Bonus Questions:</u><br>1. What do we use the left mouse button for?<br>2. What happens when we scroll the wheel?<br>3. What is the difference between the left and right mouse buttons?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students as they interact with the mouse to assess their understanding of its parts and functions.",
-    "<br><b>Homework</b>:<br>1. Draw and label the parts of a mouse.<br>2. List two differences between a wired mouse and a wireless mouse.<br>3. Write one advantage of using a trackball mouse."
+    "<b>Observation</b>: The teacher will observe students during demonstration and practice to see if they can correctly use each mouse part.",
+    "<b>Exercise</b>: The drawing and labeling activity, along with the bonus questions, will be used to assess understanding."
   ],
   "conclusion": [
-    "By the end of the lesson, students will have a clear understanding of the computer mouse, its parts, and its functions, enabling them to use it effectively."
+    "By the end of the lesson, students will be familiar with the different parts of a computer mouse and how each part functions in helping them control a computer."
   ]
 },
 
