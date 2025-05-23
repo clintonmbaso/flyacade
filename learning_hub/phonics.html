@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phonics Practice</title>
+  <link href="phonics.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 id="sound-title">Phonics Sound</h1>
+
+  <div class="section">
+    <strong>Write:</strong>
+    <p id="write-section"></p>
+  </div>
+
+  <div class="section">
+    <strong>Identify:</strong>
+    <p id="identify-section"></p>
+  </div>
+
+  <div class="section">
+    <strong>Story:</strong>
+    <p id="story-section"></p>
+  </div>
+
+  <div class="section">
+    <strong>Song:</strong>
+    <p id="song-section"></p>
+  </div>
+
+  <img id="write-demo" src="" alt="Write Demonstration">
+
+  <div class="section">
+    <button onclick="playSound()">Play Sound</button>
+    <button onclick="nextSound()">Next Sound</button>
+    <button id="clearBtn">Clear Canvas</button>
+  </div>
+
+  <canvas id="drawCanvas" width="400" height="200"></canvas>
+
+<script src="phonics.js"></script>
+
+</body>
+</html>

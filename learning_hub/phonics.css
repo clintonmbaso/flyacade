@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #f9f9f9;
+  --text-color: #333;
+  --border-radius: 12px;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.section {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section p {
+  margin: 0.5em 0 0;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 12px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px 8px 10px 0;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: var(--border-radius);
+  background-color: #fff;
+  margin: 10px auto;
+  touch-action: none;
+}
+
+img#write-demo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  margin: 10px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
