@@ -3,49 +3,54 @@ const lessonPlans23b = [
 // Week 2
 // Lesson 1
 {
-  "title": "Introduction to Animals",
+  "title": "Animals and Their Characteristics",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Introduction to Animals",
+  "topic": "Animals and Their Characteristics",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "2",
   "lessonNumber": "1",
-  "description": "This lesson aims to introduce students to the concept of animals, discussing their diversity and basic characteristics.",
+  "description": "This lesson introduces students to the concept of animals, focusing on what animals are, the diversity of animals, their characteristics, and a recap with exercises to reinforce learning.",
   "materials": [
-    "Pictures or illustrations of different animals",
-    "Class chart or whiteboard",
-    "Examples of animal movements (videos or live demonstrations)"
+    "Animal pictures",
+    "Flashcards",
+    "Whiteboard and markers",
+    "Real-life animal toys or models",
+    "Drawing paper and crayons"
   ],
   "objectives": [
-    "Students will define what animals are and discuss their diversity.",
-    "Students will identify basic characteristics of animals, including movement and the need for food and water."
+    "Students will understand what animals are and how they differ from plants.",
+    "Students will learn about the diversity of animals and where they live.",
+    "Students will explore different ways animals move and what they eat.",
+    "Students will be able to describe their favorite animals and their characteristics.",
+    "Students will match animals to their movements and demonstrate understanding through drawings."
   ],
   "rationale": [
-    "Understanding animals is essential for appreciating biodiversity and the interconnectedness of living organisms."
+    "Understanding animals and their characteristics builds foundational knowledge of biology and helps students relate to the living world around them."
   ],
   "methodology": [
-    "The lesson will incorporate visual aids, group discussions, and interactive demonstrations to engage students in active learning about animals."
+    "Discussion, visual aids, role-play, matching activities, and drawing exercises will be used to engage learners and reinforce the concepts."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Animals</b>: Animals are living organisms that typically move, consume food, and require water for survival. They exhibit a wide range of characteristics and behaviors, contributing to the diversity of life on Earth.",
-      "<b>Diversity of Animals</b>: Animals come in various shapes, sizes, and habitats. They can be found in almost every environment, from the depths of the ocean to the highest mountains.",
-      "<b>Characteristics of Animals</b>: Animals exhibit different modes of movement, including walking, flying, swimming, and crawling. They also have specific dietary needs and must obtain food and water to survive.",
-      "<b>Class Discussion</b>:<br>1. What are animals?<br>2. Can you name some different types of animals?<br>3. How do animals move?<br>4. Why do animals need food and water?",
-      "<b>Group Activity</b>:<br>Students will be divided into groups and given pictures of animals. They will discuss the characteristics of their assigned animals and present their findings to the class."
+      "<b>Part 1: Introduction – What Are Animals?</b><br><br>Begin by asking learners what they know about animals. Use real-life examples like dogs, cats, birds, or fish.<br><br>Explain:<br>Animals are living things. They breathe, grow, move, and need food and water to stay alive. Unlike plants, animals cannot make their own food, so they must eat.<br><br>Use visuals or real-life objects: Show pictures of familiar animals.<br><br>Key points to cover:<br>Animals are living organisms.<br>They move, eat food, and drink water.<br>They grow and can have babies.",
+      "<b>Part 2: Diversity of Animals</b><br><br>Tell the children that animals live in many different places and come in different sizes and shapes.<br><br>Explain:<br>Animals are found all around the world. Some are small, like ants, and others are large, like elephants. Some live in water (fish), some on land (lions), and some in the sky (birds).<br><br>Use visuals or flashcards: Show pictures of:<br>A fish (ocean)<br>A lion (land)<br>An eagle (air)<br>A polar bear (cold environment)<br><br>Key points to cover:<br>Animals are everywhere — forests, rivers, oceans, deserts, and mountains.<br>They look different and live in different environments.",
+      "<b>Part 3: Characteristics of Animals</b><br><br>Ask: 'How do animals move?'<br><br>Explain:<br>Animals move in many ways:<br>Birds fly<br>Fish swim<br>Humans and lions walk<br>Snakes crawl<br><br>Also explain about food and water:<br>Some animals eat plants (goats).<br>Some eat other animals (lions).<br>Some eat both (bears).<br>All animals need water to live.<br><br>Use gestures or role-play: Let learners act like animals – flap like birds, slither like snakes, hop like frogs.",
+      "<b>Part 4: Discussion and Summary</b><br><br>Recap the lesson:<br>Animals are living beings that need food and water.<br>They live in many places.<br>They move in different ways.<br>They come in many shapes and sizes.<br><br>Ask a few recap questions:<br>Can animals live in water?<br>How do birds move?<br>What do all animals need to stay alive?<br><br>Encourage learners to name their favorite animals and describe them.",
+      "<b>Part 5: Exercise – Match and Describe</b><br><br>Activity 1: Matching<br>Draw a line to match the animal to how it moves:<br>1. Fish ———         a) Crawls<br>2. Bird ———         b) Swims<br>3. Snake ———       c) Walks<br>4. Lion ———         d) Flies<br><br>Activity 2: Short Answer<br>1. Name one animal that lives in water.<br>2. How does a bird move?<br>3. What do animals need to stay alive?<br>4. What is your favorite animal? Why do you like it?<br><br>Activity 3: Draw Your Favorite Animal<br>Let learners draw and label their favorite animal, including where it lives and how it moves."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and group activities.",
-    "<br><b>Homework</b>:<br>1. Draw and label three different animals, showing their modes of movement.<br>2. Write a short paragraph describing why animals need food and water to survive."
+    "<b>Observation</b>: The teacher will observe student participation in discussions and role-play activities.",
+    "<b>Exercise</b>: Learners will complete matching and short-answer activities and draw an animal to demonstrate understanding."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a foundational understanding of animals and their characteristics, setting the stage for further exploration of the natural world."
+    "Students will understand what animals are, how they differ in characteristics, where they live, and how they move, eat, and survive."
   ]
 },
 
@@ -54,7 +59,7 @@ const lessonPlans23b = [
   "title": "Classification of Animals",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Classification of Animals",
@@ -62,38 +67,42 @@ const lessonPlans23b = [
   "term": "2",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson aims to explain how animals are classified into different groups and discuss the key characteristics of each group.",
+  "description": "This lesson introduces students to how animals are grouped based on their features, such as appearance, habitat, and how they reproduce.",
   "materials": [
-    "Pictures or illustrations of different animal groups (mammals, birds, reptiles, amphibians, and fish)",
-    "Class chart or whiteboard",
-    "Examples of animals representing each group"
+    "Pictures or models of animals",
+    "Whiteboard and markers",
+    "Flashcards for matching activity",
+    "Drawing materials"
   ],
   "objectives": [
-    "Students will understand how animals are classified into different groups.",
-    "Students will identify and discuss the key characteristics of mammals, birds, reptiles, amphibians, and fish."
+    "Students will understand the concept of grouping animals based on characteristics.",
+    "Students will identify the five main groups of animals: mammals, birds, reptiles, amphibians, and fish.",
+    "Students will describe features of each animal group.",
+    "Students will participate in group discussions and classification activities.",
+    "Students will demonstrate understanding through matching, fill-in-the-blank, and drawing exercises."
   ],
   "rationale": [
-    "Understanding the classification of animals helps students appreciate the diversity of life and the evolutionary relationships between different species."
+    "Learning how animals are classified helps children recognize patterns in nature and understand biological diversity. It also builds observation and reasoning skills."
   ],
   "methodology": [
-    "The lesson will involve visual aids, group discussions, and interactive activities to engage students in learning about the classification of animals."
+    "The lesson uses direct teaching, visual aids, class discussion, and interactive activities like acting and drawing to engage learners in the classification of animals."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Classification of Animals</b>: Animals are classified into different groups based on similarities in their characteristics. The main groups include mammals, birds, reptiles, amphibians, and fish.",
-      "<b>Mammals</b>: Mammals are warm-blooded animals that typically have fur or hair, give birth to live young, and nurse their offspring with milk. Examples include dogs, cats, and humans.<br><br><b>Birds</b>: Birds are feathered, warm-blooded animals with wings and beaks. They lay hard-shelled eggs and are adapted for flight. Examples include eagles, sparrows, and penguins.",
-      "<b>Reptiles</b>: Reptiles are cold-blooded animals with scales or bony plates covering their bodies. They lay eggs on land and breathe air. Examples include snakes, turtles, and crocodiles.<br><br><b>Amphibians</b>: Amphibians are cold-blooded animals that typically undergo metamorphosis from aquatic larvae to terrestrial adults. They have moist skin and lay eggs in water. Examples include frogs, toads, and salamanders.",
-      "<b>Fish</b>: Fish are cold-blooded animals with scales and fins. They live exclusively in water and breathe through gills. Examples include goldfish, trout, and sharks.",
-      "<b>Group Discussion</b>:<br>1. How are animals classified?<br>2. Can you name some characteristics of mammals?<br>3. What makes birds different from other animal groups?<br>4. Why do reptiles need scales?<br>5. How are amphibians adapted to live both on land and in water?"
+      "<b>Part 1: Introduction – How Do We Group Animals?</b><br><br>Begin with a question:<br>“Did you know that animals can be grouped based on what they look like and how they live?”<br><br>Explain:<br>Scientists group animals into different types called classes. These groups help us understand animals better.<br><br>Use simple language:<br>Animals are put in groups if they share similar features like:<br><br>What they look like<br>How they have babies<br>Where they live<br><br>Introduce the five main animal groups:<br>1. Mammals<br>2. Birds<br>3. Reptiles<br>4. Amphibians<br>5. Fish",
+      "<b>Part 2: Mammals and Birds</b><br><br>Mammals:<br>Warm-blooded<br>Have hair or fur<br>Give birth to live babies<br>Feed babies with milk<br><br>Examples: Dogs, Cats, Humans, Elephants<br><br>Birds:<br>Warm-blooded<br>Have feathers and wings<br>Lay hard-shelled eggs<br>Have beaks, no teeth<br>Most can fly (but not all!)<br><br>Examples: Eagles, Sparrows, Penguins, Chickens<br><br>Activity idea: Show or display pictures of a mammal and a bird and discuss differences.",
+      "<b>Part 3: Reptiles, Amphibians, and Fish</b><br><br>Reptiles:<br>Cold-blooded<br>Have dry, scaly skin<br>Lay eggs on land<br>Breathe air<br><br>Examples: Snakes, Turtles, Crocodiles<br><br>Amphibians:<br>Cold-blooded<br>Have moist skin<br>Begin life in water (as tadpoles), grow into adults that live on land<br>Lay eggs in water<br><br>Examples: Frogs, Toads, Salamanders<br><br>Fish:<br>Cold-blooded<br>Live only in water<br>Have gills to breathe<br>Covered in scales<br>Have fins to swim<br><br>Examples: Goldfish, Sharks, Trout<br><br>Activity idea: Let children act out animals: flap like a bird, swim like a fish, hop like a frog.",
+      "<b>Part 4: Summary and Group Discussion</b><br><br>Recap the five animal groups:<br>Mammals<br>Birds<br>Reptiles<br>Amphibians<br>Fish<br><br>Ask discussion questions:<br>Which group do humans belong to?<br>What do all birds have?<br>Which animals live only in water?<br>Which animals can live both in water and on land?<br><br>Encourage learners to name animals and try to say which group they belong to.",
+      "<b>Part 5: Exercises</b><br><br>Activity 1: Match the animal to its group<br><br>Animal Group<br>Penguin _________<br>Snake _________<br>Goldfish _________<br>Cat _________<br>Frog _________<br><br>Activity 2: Fill in the blanks<br>1. A dog is a __________.<br>2. A crocodile is a __________.<br>3. __________ have feathers and wings.<br>4. Fish breathe using __________.<br>5. Frogs start life in __________.<br><br>Activity 3: Draw and label<br>Ask the learners to:<br>Draw one animal from each group.<br>Write the name of the animal and its group below each drawing."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and group activities.",
-    "<br><b>Homework</b>:<br>1. Create a poster showing the main characteristics of mammals, birds, reptiles, amphibians, and fish.<br>2. Write a short paragraph explaining why animals are classified into different groups."
+    "<b>Observation</b>: The teacher will assess student participation during discussions and activities.",
+    "<b>Exercises</b>: The matching, fill-in-the-blank, and drawing tasks will help evaluate students' understanding of animal classification."
   ],
   "conclusion": [
-    "Through this lesson, students will gain an understanding of how animals are classified and the key characteristics of major animal groups, laying the foundation for further studies in biology."
+    "By learning to classify animals, students develop an understanding of how scientists group living things and appreciate the diversity of life on Earth."
   ]
 },
 
@@ -102,7 +111,7 @@ const lessonPlans23b = [
   "title": "Mammals",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Mammals",
@@ -110,48 +119,51 @@ const lessonPlans23b = [
   "term": "2",
   "week": "2",
   "lessonNumber": "3",
-  "description": "This lesson focuses on mammals, their characteristics, such as fur, live birth, and milk production, and provides examples.",
+  "description": "This lesson introduces students to mammals, their characteristics, and examples, using questions, discussions, and drawing exercises.",
   "materials": [
-    "Pictures or illustrations of different mammals",
-    "Class chart or whiteboard",
-    "Examples of mammal fur, live birth, and milk production (pictures or diagrams)"
+    "Pictures of animals (e.g., cat, whale, elephant, bird)",
+    "Whiteboard and markers",
+    "Chart with mammal features"
   ],
   "objectives": [
-    "Students will understand the characteristics that define mammals.",
-    "Students will be able to identify examples of mammals."
+    "Students will identify mammals and their characteristics.",
+    "Students will distinguish mammals from non-mammals.",
+    "Students will recognize different types of mammals.",
+    "Students will explain why humans are mammals.",
+    "Students will demonstrate understanding through drawing and written tasks."
   ],
   "rationale": [
-    "Studying mammals helps students understand the diversity of life on Earth and appreciate the unique adaptations of these animals."
+    "Learning about mammals helps students understand animal classification and recognize the traits that humans share with other animals."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and hands-on activities to engage students in learning about mammals."
+    "The lesson will use direct teaching, visual aids, questions and answers, discussions, and drawing tasks to help learners understand and engage with the topic of mammals."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Mammals</b>: Mammals are a diverse group of animals characterized by several key features, including fur or hair, live birth, and milk production to nourish their young.",
-      "<b>Characteristics of Mammals</b>: Mammals have fur or hair covering their bodies, which helps to regulate body temperature and protect against the environment. They give birth to live young, as opposed to laying eggs like reptiles or amphibians. Mammals also produce milk from specialized glands to feed their offspring.",
-      "<b>Examples of Mammals</b>: Common examples of mammals include cats, dogs, humans, elephants, and whales.",
-      "<b>Class Discussion</b>:<br>1. What are some characteristics that define mammals?<br>2. How do mammals differ from other animal groups?<br>3. Can you name some mammals that you are familiar with?<br>4. Why is fur important for mammals?<br>5. How do mammals care for their young?",
-      "<b>Hands-on Activity</b>:<br>Students will examine pictures or diagrams illustrating the characteristics of mammals, such as fur, live birth, and milk production. They will discuss these features in small groups and present their findings to the class."
+      "<b>Part 1: Introduction – What Are Mammals?</b><br><br>Start with a simple question:<br>“Do you know what kind of animal you are?”<br>Tell learners: We are mammals! Let’s find out what makes mammals special.<br><br>Explain:<br>Mammals are a special group of animals with certain features. They are found all over the world and can live on land or in water.<br><br>Key idea:<br>Mammals are animals that have fur or hair, give birth to live young, and feed their babies with milk.",
+      "<b>Part 2: Characteristics of Mammals</b><br><br>Explain each characteristic clearly:<br><br>1. Fur or Hair – All mammals have hair or fur at some point in their life. This keeps them warm.<br><br>2. Live Birth – Most mammals give birth to live babies (they don’t lay eggs like birds or reptiles).<br><br>3. Milk for Babies – Mother mammals produce milk to feed their babies. This is something only mammals do!<br><br>Use real-life examples and pictures (if possible):<br>Show a cat with kittens or a human mother with a baby.<br><br>Ask learners:<br>“Do birds feed their babies with milk?” (No)<br>“Do snakes have fur?” (No)",
+      "<b>Part 3: Examples of Mammals</b><br><br>Explain:<br>Mammals come in all sizes, from tiny mice to giant whales. They live on land and in water.<br><br>Common Examples:<br><br>Cats and Dogs – Pets we keep at home<br><br>Humans – That’s us!<br><br>Elephants – Big mammals with trunks<br><br>Whales – Mammals that live in water<br><br>Key point: Even though whales live in water, they are mammals because they breathe air, give birth to live young, and produce milk.",
+      "<b>Part 4: Summary and Class Discussion</b><br><br>Recap the key features of mammals:<br><br>Have hair or fur<br><br>Give birth to live young<br><br>Feed babies with milk<br><br>Discuss:<br>“What makes a mammal different from a bird?”<br>“Can you name a mammal that lives in the water?”<br>“Do all mammals have fur?”<br><br>Let learners name mammals they know and describe them.",
+      "<b>Part 5: Exercises</b><br><br><u>Activity 1: Circle the Mammals</u><br>Circle the animals that are mammals:<br>1. Cat<br>2. Snake<br>3. Dog<br>4. Frog<br>5. Whale<br>6. Eagle<br><br><u>Activity 2: Fill in the blanks</u><br>1. Mammals have ______ or ______ on their bodies.<br>2. Mammals give birth to ______ young.<br>3. A human is a type of ______.<br>4. Mother mammals feed their babies with ______.<br>5. A whale is a mammal that lives in ______.<br><br><u>Activity 3: Drawing Task</u><br>Ask learners to:<br>Draw one mammal they like.<br>Write the name of the mammal and list two features of mammals under their drawing."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Research and write a short paragraph about a mammal of your choice, describing its characteristics and adaptations.<br>2. Create a collage of different mammals, labeling their key characteristics."
+    "<b>Observation</b>: The teacher will observe student participation during explanations and discussions.",
+    "<b>Exercise</b>: Activities 1, 2, and 3 will help evaluate students’ understanding of mammal characteristics and examples."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a deeper understanding of mammals and their unique features, laying the groundwork for further exploration of animal diversity."
+    "By the end of the lesson, students will be able to describe mammals, list their features, and give examples, including recognizing themselves as mammals."
   ]
 },
 
 // Week 3
 // Lesson 1
 {
-  "title": "Birds",
+  "title": "Introduction to Birds",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, June 3, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Birds",
@@ -159,47 +171,51 @@ const lessonPlans23b = [
   "term": "2",
   "week": "3",
   "lessonNumber": "1",
-  "description": "This lesson explores birds, focusing on their characteristics such as feathers, beaks, and egg-laying, and provides examples.",
+  "description": "This lesson introduces students to birds, their characteristics, different types, and how to identify their features using visuals, discussion, and exercises.",
   "materials": [
-    "Pictures or illustrations of different bird species",
-    "Class chart or whiteboard",
-    "Examples of bird feathers, beaks, and eggs (pictures or diagrams)"
+    "Pictures or models of birds",
+    "Whiteboard and markers",
+    "Chart or slideshow of birds",
+    "Worksheets for exercises"
   ],
   "objectives": [
-    "Students will understand the characteristics that define birds.",
-    "Students will be able to identify examples of birds."
+    "Students will understand what birds are and how they differ from other animals.",
+    "Students will identify the main characteristics of birds such as feathers, beaks, and egg-laying.",
+    "Students will recognize and describe different types of birds and their unique features.",
+    "Students will participate in a discussion and recall facts about birds.",
+    "Students will complete exercises to reinforce learning about birds."
   ],
   "rationale": [
-    "Studying birds helps students appreciate the diversity of life and understand the unique adaptations of these animals for flight and survival."
+    "Understanding birds and their features helps students appreciate animal diversity and builds foundational knowledge for life sciences."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and hands-on activities to engage students in learning about birds."
+    "The lesson will use explanations, real-life examples, visuals, discussion, and practical exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Birds</b>: Birds are a diverse group of animals characterized by several key features, including feathers, beaks, and egg-laying.",
-      "<b>Characteristics of Birds</b>: Birds have feathers that provide insulation, aid in flight, and serve as a display during courtship rituals. They have beaks adapted for various functions such as eating, preening, and building nests. Most birds lay eggs, which they incubate until they hatch into chicks.",
-      "<b>Examples of Birds</b>: Common examples of birds include sparrows, eagles, penguins, ostriches, and hummingbirds.",
-      "<b>Class Discussion</b>:<br>1. What are some characteristics that define birds?<br>2. How do birds use their feathers?<br>3. What are some different types of bird beaks, and what are they used for?<br>4. How do birds care for their eggs?<br>5. Can you name some birds that you are familiar with?",
-      "<b>Hands-on Activity</b>:<br>Students will examine pictures or diagrams illustrating the characteristics of birds, such as feathers, beaks, and eggs. They will discuss these features in small groups and create a simple bird feeder using recycled materials."
+      "<b>Part 1: Introduction – What Are Birds?</b><br><br>Begin with a question:<br>“Have you ever seen a bird? What makes it different from other animals?”<br><br>Explain:<br>Birds are a special group of animals. They can be big or small, fly or walk, but they all share some special features.<br><br>Key facts:<br>- Birds have feathers.<br>- Birds have beaks, not teeth.<br>- Birds lay eggs.<br>- Most birds can fly, but some like penguins and ostriches cannot.<br><br>Use real-life examples or pictures: Show photos or drawings of birds with different features.",
+      "<b>Part 2: Characteristics of Birds</b><br><br>Explain key characteristics:<br><br>1. Feathers<br>- Keep birds warm<br>- Help with flying<br>- Some are used for showing off (like peacocks)<br><br>2. Beaks<br>- Help them eat food (sharp for meat, flat for seeds, long for nectar)<br>- Used for preening (cleaning feathers)<br>- Used for building nests<br><br>3. Laying Eggs<br>- Most birds build nests for their eggs<br>- They sit on the eggs to keep them warm until chicks hatch<br><br>Demonstrate or use props: Show how different beaks are used (you can use pictures or classroom models).",
+      "<b>Part 3: Examples of Birds</b><br><br>Discuss various types of birds and what makes them interesting:<br><br>- Sparrow – small, quick, lives near people<br>- Eagle – large, strong wings, sharp beak for hunting<br>- Penguin – cannot fly, lives in cold places, swims very well<br>- Ostrich – largest bird, cannot fly, runs very fast<br>- Hummingbird – very small, can hover in the air, drinks nectar<br><br>Use visuals: Show a chart or slideshow with pictures of each bird and talk about their unique features.",
+      "<b>Part 4: Class Discussion and Recap</b><br><br>Ask learners questions to guide the discussion:<br><br>- What helps birds to fly?<br>- Do all birds fly?<br>- What do birds use their beaks for?<br>- What do birds lay?<br><br>Recap the main ideas:<br>- Birds have feathers and beaks.<br>- Birds lay eggs.<br>- Birds come in many types and sizes.<br>- Some birds fly, some do not.",
+      "<b>Part 5: Exercises</b><br><br><u>Activity 1: True or False</u><br>1. All birds can fly. _______<br>2. Birds have feathers. _______<br>3. Birds lay eggs. _______<br>4. Birds have sharp teeth. _______<br>5. An ostrich can fly. _______<br><br><u>Activity 2: Match the bird to its feature</u><br><br>Bird&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feature<br>Eagle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Drinks nectar<br>Penguin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Cannot fly, swims well<br>Hummingbird&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Sharp beak, hunts animals<br>Ostrich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Largest bird, runs fast<br>Sparrow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e) Small and quick<br><br><u>Activity 3: Draw and Describe</u><br>Draw your favorite bird.<br>Write its name.<br>Write one thing that makes it special."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Observe birds in your neighborhood and write down their characteristics and behaviors.<br>2. Draw and label the parts of a bird (feathers, beak, wings, legs, etc.)"
+    "<b>Observation</b>: The teacher will observe student participation during discussion and examples.",
+    "<b>Exercise</b>: Students will complete true/false, matching, and drawing activities to demonstrate understanding."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a deeper understanding of birds and their unique features, fostering an appreciation for avian diversity and adaptation."
+    "By exploring the features and types of birds, students gain a better understanding of animals and the natural world around them."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Reptiles",
+  "title": "Introduction to Reptiles",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Tuesday, June 18, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Reptiles",
@@ -207,48 +223,51 @@ const lessonPlans23b = [
   "term": "2",
   "week": "3",
   "lessonNumber": "2",
-  "description": "This lesson discusses reptiles, focusing on their characteristics such as scales, egg-laying, and provides examples.",
+  "description": "This lesson introduces students to reptiles, their key characteristics, different types, and how they adapt to their environments.",
   "materials": [
-    "Pictures or illustrations of different reptile species",
-    "Class chart or whiteboard",
-    "Examples of reptile scales and eggs (pictures or diagrams)"
+    "Pictures or toy models of reptiles",
+    "Thermometer chart",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will understand the characteristics that define reptiles.",
-    "Students will be able to identify examples of reptiles."
+    "Students will understand what reptiles are and where they live.",
+    "Students will identify key features of reptiles such as scales, egg-laying, and cold-blooded nature.",
+    "Students will name and describe examples of reptiles.",
+    "Students will learn how reptiles adapt to their environments.",
+    "Students will complete activities to reinforce learning about reptiles."
   ],
   "rationale": [
-    "Studying reptiles helps students understand the diversity of life and the unique adaptations of these animals to various environments."
+    "Studying reptiles helps learners understand animal classification and adaptation, encouraging observation and comparison skills."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and hands-on activities to engage students in learning about reptiles."
+    "Questioning, explanation, use of visuals, demonstration, guided discussion, and learner-centered activities."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Reptiles</b>: Reptiles are a diverse group of animals characterized by several key features, including scales, egg-laying, and cold-bloodedness.",
-      "<b>Characteristics of Reptiles</b>: Reptiles have scales covering their bodies, which help to prevent water loss and protect against predators. Most reptiles lay eggs, although some give birth to live young. They are cold-blooded, meaning their body temperature fluctuates with the surrounding environment.",
-      "<b>Examples of Reptiles</b>: Common examples of reptiles include snakes, turtles, lizards, crocodiles, and alligators.",
-      "<b>Class Discussion</b>:<br>1. What are some characteristics that define reptiles?<br>2. Why are scales important for reptiles?<br>3. How do reptiles reproduce?<br>4. What does it mean for a reptile to be cold-blooded?<br>5. Can you name some reptiles that you are familiar with?",
-      "<b>Hands-on Activity</b>:<br>Students will examine pictures or diagrams illustrating the characteristics of reptiles, such as scales and eggs. They will discuss these features in small groups and create a simple reptile habitat using art supplies and natural materials."
+      "<b>Part 1: Introduction – What Are Reptiles?</b><br><br>Begin with a question:<br>“Have you ever seen a lizard or a snake? Do you know what kind of animal they are?”<br><br>Explain:<br>Reptiles are a group of animals that live in many different places like deserts, forests, and swamps.<br><br>Key facts:<br>Reptiles have scales on their bodies.<br>They are cold-blooded, meaning they need the sun to warm up.<br>Most reptiles lay eggs on land.<br>Some reptiles, like certain snakes, give birth to live babies.<br><br>Use visuals: Show pictures or toy models of reptiles to grab attention.",
+      "<b>Part 2: Characteristics of Reptiles</b><br><br>Explain the main features:<br><br>1. Scales<br>Keep the skin from drying out<br>Protect the reptile from enemies<br><br>2. Egg-laying<br>Most lay eggs in warm, hidden places<br>Some reptiles give birth to live young<br><br>3. Cold-blooded<br>They get warm by lying in the sun<br>They slow down when it’s cold<br><br>Class example or demonstration: Use a thermometer chart to explain how reptiles change with the temperature.",
+      "<b>Part 3: Examples of Reptiles</b><br><br>Introduce different reptiles and describe them:<br><br>Snake – has no legs, moves by slithering<br>Turtle – has a hard shell, slow-moving<br>Lizard – small body, quick movement<br>Crocodile – large body, strong jaws, found near water<br>Alligator – similar to crocodile but has a broader snout<br><br>Ask learners what reptiles they have seen before. Show pictures or videos if possible.",
+      "<b>Part 4: Discussion and Recap</b><br><br>Ask guiding questions:<br>What covers a reptile’s body?<br>Why do reptiles need the sun?<br>Do all reptiles lay eggs?<br>Which reptile has no legs?<br><br>Recap main points:<br>Reptiles have scales.<br>Most reptiles lay eggs.<br>They are cold-blooded.<br>Reptiles can live in water or on land.",
+      "<b>Part 5: Exercises</b><br><br><u>Activity 1: Fill in the blanks</u><br>1. Reptiles have ______ on their bodies.<br>2. Reptiles are ______-blooded animals.<br>3. A ______ is a reptile that has no legs.<br>4. Most reptiles lay ______.<br>5. A turtle has a hard ______.<br><br><u>Activity 2: Match the reptile to its description</u><br><br>Reptile | Description<br>Snake | a) Has a shell and walks slowly<br>Crocodile | b) Large, strong jaws, lives in water<br>Turtle | c) No legs, slithers<br>Lizard | d) Small, fast, has four legs<br><br><u>Activity 3: Draw and Describe</u><br>Draw your favorite reptile.<br>Write its name.<br>Write one special thing about it."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Research and write a short paragraph about a reptile of your choice, describing its habitat and adaptations.<br>2. Draw and label the life cycle of a reptile, including egg-laying and hatching."
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and examples.",
+    "<b>Exercise</b>: Students will complete fill-in-the-blanks, matching, and drawing tasks to assess understanding of reptiles."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a deeper understanding of reptiles and their unique features, fostering an appreciation for their diversity and ecological importance."
+    "By the end of the lesson, learners will be able to describe reptiles, identify their characteristics, and name different examples of reptiles."
   ]
 },
 
 // Week 4
 // Lesson 1
 {
-  "title": "Amphibians",
+  "title": "Understanding Amphibians",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Amphibians",
@@ -256,47 +275,50 @@ const lessonPlans23b = [
   "term": "2",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson introduces amphibians, focusing on their characteristics such as moist skin, life stages, and provides examples.",
+  "description": "This lesson introduces students to amphibians, their characteristics, life cycle, and examples, using visual aids and interactive discussions to reinforce understanding.",
   "materials": [
-    "Pictures or illustrations of different amphibian species",
-    "Class chart or whiteboard",
-    "Examples of amphibian life stages (pictures or diagrams)"
+    "Frog life cycle chart or video",
+    "Whiteboard and markers",
+    "Illustrations of amphibians"
   ],
   "objectives": [
-    "Students will understand the characteristics that define amphibians.",
-    "Students will be able to identify examples of amphibians."
+    "Students will understand what amphibians are and where they live.",
+    "Students will identify characteristics of amphibians including their skin, metamorphosis, and egg-laying.",
+    "Students will recognize common examples of amphibians.",
+    "Students will understand the life cycle of amphibians.",
+    "Students will demonstrate knowledge through exercises and creative drawing."
   ],
   "rationale": [
-    "Studying amphibians helps students understand the diversity of life and the unique adaptations of these animals to both aquatic and terrestrial environments."
+    "Learning about amphibians helps students understand animal classification and life cycles, and supports their awareness of biodiversity and habitats."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and hands-on activities to engage students in learning about amphibians."
+    "The lesson will use questioning, explanations, visuals, discussions, and written activities to support understanding."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Amphibians</b>: Amphibians are a diverse group of animals characterized by several key features, including moist skin, metamorphosis, and the ability to live both in water and on land.",
-      "<b>Characteristics of Amphibians</b>: Amphibians have moist skin that helps them breathe through their skin and stay hydrated. They undergo metamorphosis, starting as aquatic larvae and transforming into terrestrial adults. Many amphibians lay eggs in water, where the larvae develop before emerging onto land.",
-      "<b>Examples of Amphibians</b>: Common examples of amphibians include frogs, toads, salamanders, newts, and caecilians.",
-      "<b>Class Discussion</b>:<br>1. What are some characteristics that define amphibians?<br>2. How do amphibians breathe?<br>3. What is metamorphosis, and why is it important for amphibians?<br>4. Why do amphibians need to live near water?<br>5. Can you name some amphibians that you are familiar with?",
-      "<b>Hands-on Activity</b>:<br>Students will examine pictures or diagrams illustrating the characteristics of amphibians, such as moist skin and life stages. They will discuss these features in small groups and create a simple amphibian habitat using art supplies and natural materials."
+      "<b>Part 1: Introduction – What Are Amphibians?</b><br><br>Start with a question:<br>“Have you seen a frog near a pond or river? Did you know frogs are called amphibians?”<br><br>Explain:<br>Amphibians are animals that live part of their life in water and part on land. They are special because they can breathe through their skin and lungs.<br><br>Key facts:<br>Amphibians are cold-blooded.<br>They start life in water and grow up to live on land.<br>They have moist skin that helps them breathe.<br><br>Visuals: Show a frog life cycle chart or short video clip.",
+      "<b>Part 2: Characteristics of Amphibians</b><br><br>Discuss important features:<br>1. Moist skin<br>Helps them breathe<br>Needs to stay wet<br><br>2. Metamorphosis<br>Baby amphibians (like tadpoles) live in water and breathe with gills<br>Adults live on land and breathe with lungs and skin<br><br>3. Egg-laying in water<br>Most lay jelly-like eggs in ponds or rivers<br><br>Real-life connection: Compare a tadpole’s swimming to a fish and a frog’s jumping to other land animals.",
+      "<b>Part 3: Examples of Amphibians</b><br><br>Introduce and describe these amphibians:<br>Frogs – jump high, croak, long legs<br>Toads – drier skin, walk more than jump<br>Salamanders – long tails, smooth skin<br>Newts – look like small lizards, often live in water<br>Caecilians – long, worm-like amphibians that live underground<br><br>Ask learners to describe what they’ve seen or heard about frogs or toads.",
+      "<b>Part 4: Review and Discussion</b><br><br>Ask questions to reinforce learning:<br>What kind of skin do amphibians have?<br>Where do they lay eggs?<br>What is metamorphosis?<br>Can you name a few amphibians?<br><br>Recap points:<br>Amphibians have moist skin.<br>They start in water and move to land.<br>They lay eggs in water.<br>Examples include frogs, toads, and salamanders.",
+      "<b>Part 5: Exercises</b><br><br><b>Activity 1: True or False</b><br>1. Amphibians have dry, scaly skin. (False)<br>2. Frogs lay their eggs in water. (True)<br>3. A tadpole is a baby frog. (True)<br>4. Amphibians live only in water. (False)<br>5. Salamanders are amphibians. (True)<br><br><b>Activity 2: Fill in the blanks</b><br>1. Amphibians breathe through their ______ and ______.<br>2. They lay their eggs in ______.<br>3. ______ is the name for the big change amphibians go through.<br>4. A ______ is a baby frog.<br>5. Amphibians need to keep their skin ______.<br><br><b>Activity 3: Draw and Label</b><br>Draw the life cycle of a frog (egg → tadpole → froglet → adult frog)<br>Label each stage"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Research and write a short paragraph about an amphibian of your choice, describing its habitat and life cycle.<br>2. Draw and label the life cycle of an amphibian, including the egg, larva, and adult stages."
+    "<b>Observation</b>: The teacher will observe students’ participation during discussions and demonstrations.",
+    "<b>Written Work</b>: The activities will assess students’ understanding of amphibians, their characteristics, and life cycle."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a deeper understanding of amphibians and their unique features, fostering an appreciation for their dual life in water and on land."
+    "Students will be able to explain what amphibians are, name key features and examples, and describe the life cycle of a frog using drawings and written activities."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Fish",
+  "title": "Understanding Fish",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Fish",
@@ -304,38 +326,42 @@ const lessonPlans23b = [
   "term": "2",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson covers fish, focusing on their characteristics such as gills, fins, scales, and provides examples.",
+  "description": "This lesson introduces students to fish, their features, examples, and how they survive in water.",
   "materials": [
-    "Pictures or illustrations of different fish species",
-    "Class chart or whiteboard",
-    "Examples of fish anatomy (pictures or diagrams)"
+    "Pictures of fish",
+    "Short underwater video clip",
+    "Whiteboard and markers",
+    "Worksheets for exercises"
   ],
   "objectives": [
-    "Students will understand the characteristics that define fish.",
-    "Students will be able to identify examples of fish."
+    "Students will understand what fish are and where they live.",
+    "Students will identify key features of fish like gills, fins, and scales.",
+    "Students will recognize different types of fish through visual aids.",
+    "Students will discuss how fish breathe and move.",
+    "Students will complete matching, true/false, and drawing exercises on fish."
   ],
   "rationale": [
-    "Studying fish helps students understand the diversity of life and the unique adaptations of these animals to aquatic environments."
+    "Learning about fish helps children appreciate aquatic animals and their characteristics, laying a foundation for understanding animal classification and habitats."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and hands-on activities to engage students in learning about fish."
+    "The lesson uses questioning, explanations, visuals, and discussions to engage students, followed by review and exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Fish</b>: Fish are a diverse group of aquatic animals characterized by several key features, including gills, fins, and scales.",
-      "<b>Characteristics of Fish</b>: Fish have gills, which allow them to extract oxygen from water, and fins, which they use for propulsion and stability in the water. They also have scales covering their bodies, which provide protection and streamline their movement.",
-      "<b>Examples of Fish</b>: Common examples of fish include goldfish, salmon, tuna, clownfish, and sharks.",
-      "<b>Class Discussion</b>:<br>1. What are some characteristics that define fish?<br>2. How do fish breathe?<br>3. What are fins used for?<br>4. Why do fish have scales?<br>5. Can you name some fish that you are familiar with?",
-      "<b>Hands-on Activity</b>:<br>Students will examine pictures or diagrams illustrating the characteristics of fish, such as gills, fins, and scales. They will discuss these features in small groups and create a simple fish tank model using art supplies and recycled materials."
+      "<b>Part 1: Introduction – What Are Fish?</b><br><br>Begin with a question:<br>“Have you ever seen a fish swimming in a river, pond, or the sea?”<br><br>Explain:<br>Fish are animals that live in water. They are cold-blooded, which means their body temperature changes with the water around them.<br><br>Key facts:<br>Fish live in freshwater (like rivers) and saltwater (like oceans).<br>They have gills to breathe underwater.<br>Fish come in many shapes, colors, and sizes.<br><br>Visuals: Show pictures of different fish or a short underwater video clip.",
+      "<b>Part 2: Characteristics of Fish</b><br><br>Discuss key features of fish:<br><br>1. Gills<br>Fish breathe using gills, not lungs<br>Gills take in oxygen from the water<br><br>2. Fins<br>Fins help fish swim, turn, and stay balanced<br>Most fish have several fins on their body<br><br>3. Scales<br>Scales are small, hard plates that cover the fish’s skin<br>They protect the fish and help it move easily through water<br><br>Fun fact: Some fish have bright colors or patterns to hide from predators or to attract mates.",
+      "<b>Part 3: Examples of Fish</b><br><br>Introduce and describe common fish:<br><br>Goldfish – small, colorful, kept in aquariums<br>Salmon – swim in rivers and oceans, known for jumping upstream<br>Tuna – large fish that swim very fast<br>Clownfish – bright orange with white stripes, live among sea anemones<br>Sharks – big fish with sharp teeth, some are gentle, like whale sharks<br><br>Ask learners: “Which of these fish have you seen before?”",
+      "<b>Part 4: Review and Discussion</b><br><br>Ask questions to check understanding:<br>How do fish breathe?<br>What do fins help fish do?<br>Why do fish have scales?<br>Can you name three kinds of fish?<br><br>Recap key points:<br>Fish live in water and breathe with gills<br>They use fins to swim<br>Their bodies are covered in scales<br>Examples include goldfish, tuna, clownfish, and sharks",
+      "<b>Part 5: Exercises</b><br><br><u>Activity 1: Match the column</u><br>Match the fish to their description:<br><br><b>Fish</b> - <b>Description</b><br>Goldfish – Small and lives in aquariums<br>Shark – Large fish with sharp teeth<br>Clownfish – Orange and white, lives in sea plants<br>Tuna – Big, fast-swimming ocean fish<br>Salmon – Swims in both rivers and oceans<br><br><u>Activity 2: True or False</u><br>1. Fish breathe through their lungs. (False)<br>2. Fins help fish swim. (True)<br>3. All fish are the same size and color. (False)<br>4. Fish have scales to protect their bodies. (True)<br>5. Sharks are not fish. (False)<br><br><u>Activity 3: Draw and Label</u><br>Draw a fish<br>Label the gills, fins, scales, and tail"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and the hands-on activity.",
-    "<br><b>Homework</b>:<br>1. Research and write a short paragraph about a fish of your choice, describing its habitat and adaptations.<br>2. Draw and label the anatomy of a fish, including gills, fins, and scales."
+    "<b>Observation</b>: The teacher will observe students' participation during discussion and visual engagement.",
+    "<b>Exercise</b>: Completion and accuracy of matching, true/false, and drawing tasks."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a deeper understanding of fish and their unique features, fostering an appreciation for their diversity and ecological importance in aquatic ecosystems."
+    "Through this lesson, students will understand what fish are, how they live in water, and their unique features such as gills, fins, and scales. They will also be able to identify common types of fish and describe them."
   ]
 },
 
@@ -345,7 +371,7 @@ const lessonPlans23b = [
   "title": "Animal Life Cycles",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, May 19, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Animal Life Cycles",
@@ -353,47 +379,50 @@ const lessonPlans23b = [
   "term": "2",
   "week": "5",
   "lessonNumber": "1",
-  "description": "This lesson explains the life cycles of animals, including birth, growth, reproduction, and aging, and compares the life cycles of different animal groups.",
+  "description": "This lesson introduces Grade 2 learners to the concept of animal life cycles, focusing on the different stages animals go through as they grow and develop.",
   "materials": [
-    "Pictures or illustrations of animal life cycles",
-    "Class chart or whiteboard",
-    "Examples of different animal groups and their life stages (pictures or diagrams)"
+    "Charts or pictures of animal life cycles (e.g., butterfly, frog)",
+    "Whiteboard and markers",
+    "Drawing paper and crayons"
   ],
   "objectives": [
-    "Students will understand the life cycles of animals, including birth, growth, reproduction, and aging.",
-    "Students will be able to compare the life cycles of different animal groups."
+    "Students will define what a life cycle is and identify its stages.",
+    "Students will understand how different animal groups go through life cycles.",
+    "Students will compare the life cycles of mammals, birds, reptiles, amphibians, and fish.",
+    "Students will explain the importance of life cycles for survival and reproduction.",
+    "Students will draw and label the life cycle of a frog."
   ],
   "rationale": [
-    "Understanding animal life cycles helps students comprehend the stages of development and the interconnectedness of living organisms within ecosystems."
+    "Understanding animal life cycles helps learners appreciate biological development and the continuity of life in nature."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and comparative analysis to engage students in learning about animal life cycles."
+    "The lesson will use questioning, storytelling, visuals, discussions, and hands-on drawing to engage learners and reinforce understanding."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Animal Life Cycles</b>: Animal life cycles consist of several stages, including birth, growth, reproduction, and aging. These stages vary among different animal groups.",
-      "<b>Life Cycle Stages</b>: Animals are born, undergo growth and development, reach maturity, reproduce to produce offspring, and eventually age and die. Each stage serves a vital role in the continuation of the species.",
-      "<b>Comparative Analysis</b>: Students will compare the life cycles of different animal groups, such as mammals, birds, reptiles, amphibians, and fish. They will identify similarities and differences in the stages of development and discuss the adaptations that enable each group to survive in its environment.",
-      "<b>Class Discussion</b>:<br>1. What are the stages of an animal's life cycle?<br>2. How do animals grow and develop?<br>3. What are the differences between reproduction in mammals, birds, reptiles, amphibians, and fish?<br>4. How do animals adapt to different environments throughout their life cycles?<br>5. Can you identify any similarities or differences in the life cycles of different animal groups?",
-      "<b>Group Activity</b>:<br>Students will work in groups to create visual representations of the life cycles of different animal groups. They will present their findings to the class and discuss the unique characteristics of each life cycle."
+      "<b>Part 1: Introduction – What Is a Life Cycle?</b><br><br>Begin with a question:<br>“Have you ever watched a baby animal grow into an adult?”<br><br>Explain:<br>All animals go through a life cycle. A life cycle is the series of changes an animal goes through from birth to becoming an adult, reproducing, and eventually growing old and dying.<br><br>Key stages of a life cycle:<br>1. Birth – the animal is born or hatches<br>2. Growth – it grows and changes<br>3. Adulthood – it becomes an adult<br>4. Reproduction – it produces young ones<br>5. Aging and Death – the end of the life cycle<br><br>Visual aid: Show a chart or pictures of a simple animal life cycle (e.g., a butterfly or frog).",
+      "<b>Part 2: Life Cycle Stages in Detail</b><br><br>Discuss each stage:<br><br>1. Birth or Hatching<br>Mammals like dogs and humans are born live.<br>Birds, reptiles, amphibians, and fish hatch from eggs.<br><br>2. Growth and Development<br>Young animals grow and may look different from adults (e.g., tadpole vs frog).<br>They learn to eat, move, and survive.<br><br>3. Reproduction<br>Adult animals can have babies or lay eggs.<br>This helps continue their species.<br><br>4. Aging and Death<br>Animals grow old and eventually die.<br>New animals replace the old.<br><br>Key point: Every animal must go through these stages to complete its life cycle.",
+      "<b>Part 3: Comparing Life Cycles of Animal Groups</b><br><br>Explain differences and similarities:<br><br>Mammals:<br>Born alive<br>Fed with mother’s milk<br>Look like small adults<br><br>Birds:<br>Hatch from eggs<br>Grow feathers<br>Learn to fly<br><br>Reptiles:<br>Hatch from eggs<br>Grow slowly<br>Look like small versions of adults<br><br>Amphibians:<br>Start in water (e.g., tadpoles)<br>Change shape (metamorphosis)<br>Move to land as adults<br><br>Fish:<br>Hatch from eggs<br>Breathe through gills<br>Grow in water<br><br>Class discussion:<br>Ask students to name animals they know and identify which group they belong to and how they grow.",
+      "<b>Part 4: Recap and Class Engagement</b><br><br>Summarize Key Points:<br>All animals have a life cycle<br>The stages include birth, growth, reproduction, and aging<br>Different animals have different ways of growing and changing<br>Life cycles help animals survive and keep their kind alive<br><br>Ask the class:<br>“How does a frog change from a tadpole to a frog?”<br>“Do all animals look like their parents when they are born?”",
+      "<b>Part 5: Exercises</b><br><br><u>Activity 1: Fill in the blanks</u><br>1. All animals go through a __________.<br>2. A baby bird comes from an __________.<br>3. Frogs begin life as __________.<br>4. Adult animals can __________ to have babies.<br>5. Fish breathe using __________.<br><br>Answers: life cycle, egg, tadpoles, reproduce, gills<br><br><u>Activity 2: Match the animal to its life cycle group</u><br><br>Animal - Group<br>Dog - Mammal<br>Eagle - Bird<br>Lizard - Reptile<br>Frog - Amphibian<br>Salmon - Fish<br><br><u>Activity 3: Draw and label</u><br>Draw the life cycle of a frog (egg → tadpole → young frog → adult frog)<br>Label each stage clearly"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and group activities.",
-    "<br><b>Homework</b>:<br>1. Research and write a short paragraph comparing the life cycles of two different animal groups.<br>2. Draw and label the life cycle of an animal of your choice, highlighting its key stages."
+    "<b>Observation</b>: The teacher will observe student participation and responses during discussions and drawing activities.",
+    "<b>Exercise</b>: Fill-in-the-blanks, matching, and drawing tasks will be used to assess comprehension of animal life cycles."
   ],
   "conclusion": [
-    "Through this lesson, students will gain a comprehensive understanding of animal life cycles and the diversity of developmental patterns across different animal groups."
+    "Through learning about the life cycles of animals, students will understand that all animals undergo changes as they grow, reproduce, and age, and these cycles are vital for the survival of each species."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Animal Habitats",
+  "title": "Exploring Animal Habitats",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, May 20, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
   "topic": "Animal Habitats",
@@ -401,85 +430,93 @@ const lessonPlans23b = [
   "term": "2",
   "week": "5",
   "lessonNumber": "2",
-  "description": "This lesson explores various animal habitats such as forests, oceans, and deserts, and how animals adapt to their environments. It also discusses the importance of conserving these habitats.",
+  "description": "This lesson teaches students about animal habitats, how animals adapt to different environments, the importance of habitat conservation, and engages learners in review and activities.",
   "materials": [
-    "Pictures or illustrations of different animal habitats",
-    "Class chart or whiteboard",
-    "Examples of animal adaptations (pictures or diagrams)"
+    "Pictures or short videos of different habitats",
+    "Whiteboard and markers",
+    "Worksheets for matching and fill-in-the-blanks",
+    "Drawing paper and crayons"
   ],
   "objectives": [
-    "Students will understand various animal habitats and how animals adapt to their environments.",
-    "Students will recognize the importance of conserving animal habitats."
+    "Students will define what a habitat is and name the main types of habitats.",
+    "Students will identify physical and behavioral adaptations animals use to survive.",
+    "Students will understand the importance of protecting animal habitats.",
+    "Students will participate in class discussions and exercises to reinforce understanding."
   ],
   "rationale": [
-    "Understanding animal habitats and adaptations helps students appreciate the interconnectedness of living organisms and the importance of preserving biodiversity."
+    "Learning about animal habitats helps students understand how animals live and survive, and why protecting nature is important."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and critical thinking activities to engage students in learning about animal habitats and conservation."
+    "The lesson will use explanations, visual aids, class discussion, and interactive activities to teach about animal habitats and adaptations."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Animal Habitats</b>: Animals inhabit a variety of environments, including forests, oceans, deserts, grasslands, and polar regions. Each habitat offers unique challenges and opportunities for survival.",
-      "<b>Adaptations to Environments</b>: Animals adapt to their habitats through physical, behavioral, and physiological adaptations. Examples include camouflage, hibernation, migration, and specialized body structures.",
-      "<b>Importance of Habitat Conservation</b>: Conserving animal habitats is essential for maintaining biodiversity, ecosystem balance, and the survival of species. Human activities such as deforestation, pollution, and climate change threaten many habitats and species.",
-      "<b>Class Discussion</b>:<br>1. What are some examples of animal habitats?<br>2. How do animals adapt to different environments?<br>3. Why is it important to conserve animal habitats?<br>4. What are some human activities that threaten animal habitats?<br>5. How can individuals and communities contribute to habitat conservation?",
-      "<b>Group Activity</b>:<br>Students will work in groups to research and present information about a specific animal habitat and the adaptations of animals living in that habitat. They will also discuss strategies for conserving the habitat and preventing further degradation."
+      "<b>Part 1: Introduction – What Is a Habitat?</b><br><br>Begin with a question:<br>“Where do animals live? Have you seen animals in forests, water, or even your backyard?”<br><br>Explain:<br>A habitat is the natural home or environment of an animal where it can find food, water, shelter, and space to live and grow. Just like we live in houses, animals live in different habitats.<br><br>Main types of habitats include:<br>Forest – trees, bushes, and lots of animals<br>Ocean – saltwater home for fish, whales, and crabs<br>Desert – dry, hot areas with little rain<br>Grassland – wide open spaces with tall grass<br>Polar regions – cold, icy places with snow and ice<br><br>Use pictures or a short video to show each habitat.",
+      "<b>Part 2: Animal Adaptations to Environments</b><br><br>What is an adaptation?<br>Adaptations are special features or behaviors that help animals survive in their habitats.<br><br>Types of adaptations:<br>Physical adaptations: body parts that help survival<br>Camouflage: helps animals blend in (e.g., chameleons)<br>Thick fur or blubber for cold (e.g., polar bears)<br><br>Behavioral adaptations: things animals do<br>Migration: moving to warmer places (e.g., birds)<br>Hibernation: sleeping through the cold (e.g., bears)<br><br>Examples:<br>Fish have gills to breathe underwater<br>Camels store fat in humps to survive the desert<br>Penguins have thick feathers for warmth in the polar region<br><br>Class discussion:<br>“Can you think of an animal and how it survives in its home?”",
+      "<b>Part 3: Why Habitat Conservation Matters</b><br><br>Explain simply:<br>Animal homes (habitats) are getting damaged by humans. This can make it hard for animals to find food, shelter, and survive.<br><br>Examples of threats:<br>Cutting down trees (deforestation)<br>Throwing trash in rivers and oceans (pollution)<br>Global warming and climate change<br><br>Why we must care:<br>Protecting habitats keeps animals safe<br>Helps keep nature in balance<br>Makes sure animals don’t go extinct (gone forever)<br><br>Encourage responsibility:<br>Don’t litter<br>Plant trees<br>Learn about animals and care for nature",
+      "<b>Part 4: Recap and Class Engagement</b><br><br>Review key points with the class:<br>A habitat is an animal’s home<br>Animals adapt to their habitats to survive<br>We must protect animal habitats to keep nature balanced<br><br>Ask questions:<br>“Why can’t a polar bear live in the desert?”<br>“What happens if we cut down too many trees?”",
+      "<b>Part 5: Exercises and Activities</b><br><br>Activity 1: Fill in the blanks<br>1. A __________ is where an animal lives.<br>2. Animals use __________ to blend into their surroundings.<br>3. Bears sleep during winter. This is called __________.<br>4. We must take care of animal __________ to keep them safe.<br>5. Camels live in the __________.<br><br>Answers: habitat, camouflage, hibernation, habitats, desert<br><br>Activity 2: Match the animal to its habitat<br>Animal | Habitat<br>Polar bear | Polar region<br>Camel | Desert<br>Dolphin | Ocean<br>Lion | Grassland<br>Monkey | Forest<br><br>Activity 3: Draw and Talk<br>Draw an animal in its habitat (e.g., a fish in the ocean or a monkey in the forest).<br>Talk about how that animal survives there."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding through their participation in discussions and group activities.",
-    "<br><b>Homework</b>:<br>1. Write a short essay on the importance of conserving animal habitats, citing examples of threatened habitats and species.<br>2. Draw and label a poster highlighting ways individuals can help conserve animal habitats."
+    "<b>Observation</b>: The teacher will observe students' participation during discussion and drawing activity.",
+    "<b>Exercise</b>: The fill-in-the-blank and matching tasks will be used to assess understanding of habitats and adaptations."
   ],
   "conclusion": [
-    "Through this lesson, students will develop a deeper understanding of animal habitats, adaptations, and the importance of conservation, empowering them to become stewards of the environment."
+    "By the end of this lesson, students will understand different animal habitats, how animals survive in them, and why protecting these homes is important for nature’s balance."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Review and Assessment",
+  "title": "Animal Groups, Characteristics, and Habitats Review & Assessment",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, May 19, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Science",
-  "topic": "Review and Assessment",
+  "topic": "Animal Groups, Characteristics, and Habitats Review & Assessment",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "5",
   "lessonNumber": "3",
-  "description": "This lesson reviews key concepts learned in the previous lessons and conducts an assessment to test students' understanding of different animal groups, their characteristics, and habitats.",
+  "description": "This lesson is a review and assessment of animal groups, their characteristics, and the habitats in which they live.",
   "materials": [
-    "Class chart or whiteboard",
-    "Review worksheets or quizzes on animal groups, characteristics, and habitats"
+    "Whiteboard and markers",
+    "Pictures or flashcards of animals",
+    "Chart paper or board for summary table",
+    "Assessment sheets"
   ],
   "objectives": [
-    "Students will review key concepts learned in previous lessons on animal groups, characteristics, and habitats.",
-    "Students will demonstrate their understanding through an assessment."
+    "Students will recall the five major animal groups and their characteristics.",
+    "Students will identify animals based on their group, covering, and birth type.",
+    "Students will match animals to their correct habitat.",
+    "Students will engage in group discussions to classify and explain animal features.",
+    "Students will complete assessment activities demonstrating their understanding."
   ],
   "rationale": [
-    "Reviewing and assessing students' understanding reinforces learning and helps identify areas for further reinforcement or clarification."
+    "Reviewing and assessing students’ knowledge on animal groups and habitats helps reinforce scientific classification, observation, and reasoning skills."
   ],
   "methodology": [
-    "The lesson will involve a review session where key concepts are revisited through discussion and interactive activities. This will be followed by an assessment to evaluate students' comprehension."
+    "The lesson will use discussion, group work, games, and assessments to reinforce and evaluate students’ understanding."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Review Session</b>:<br>Students will participate in a review session where key concepts from previous lessons, including animal groups, characteristics, and habitats, will be revisited. This may include a class discussion, interactive quizzes, or group activities.",
-      "<b>Assessment</b>:<br>Students will complete worksheets or quizzes that assess their understanding of different animal groups, their characteristics, and habitats. The assessment may include multiple-choice questions, short answer questions, or labeling diagrams.",
-      "<b>Class Discussion</b>:<br>After completing the assessment, there will be a class discussion to review the answers and address any misconceptions or questions that arise.",
-      "<b>Individual Reflection</b>:<br>Students will reflect on their performance in the assessment and identify areas where they feel confident and areas where they may need further review or clarification.",
-      "<b>Feedback</b>:<br>The teacher will provide feedback to students on their performance in the assessment, highlighting areas of strength and areas for improvement. This feedback will help guide future learning and reinforcement of key concepts."
+      "<b>Part 1: Introduction – Recap of Key Topics</b>:<br><br>Begin with a class discussion:<br>Ask: “Can you name some animal groups we have learned?”<br>Guide students to remember: mammals, birds, reptiles, amphibians, and fish.<br><br>Recap Main Points:<br>Animal Groups: Classified by characteristics such as fur, feathers, eggs, scales, etc.<br>Animal Characteristics: Movement, how they breathe, body covering, reproduction methods.<br>Habitats: Places where animals live like forests, oceans, deserts, grasslands, and polar regions.<br>Adaptations: Features or behaviors that help animals survive.",
+      "<b>Part 2: Group Discussion – Classifying Animals</b>:<br><br>Use visual aids (pictures or flashcards) and ask:<br>“Is this a mammal or a bird?”<br>“Where do you think this animal lives?”<br>“Why do you think a fish has gills?”<br><br>Let students discuss in small groups and share answers.",
+      "<b>Part 3: Summary Table on the Board</b>:<br><br>Animal Group Body Covering Birth Type Example<br>Mammals Fur or hair Live young Dog, Cat<br>Birds Feathers Eggs Sparrow, Eagle<br>Reptiles Scales Mostly eggs Snake, Lizard<br>Amphibians Moist skin Eggs in water Frog, Toad<br>Fish Scales Eggs in water Goldfish, Shark<br><br>Let students copy or help fill in the blanks.",
+      "<b>Part 4: Class Game – “Guess the Animal”</b>:<br><br>How to play:<br>Give clues like:<br>“I have feathers and lay eggs. I can fly.”<br>“I live in the ocean and have gills.”<br><br>Let students guess: bird, fish, etc.<br><br>Option: Use charades or act out movements for fun.",
+      "<b>Part 5: Assessment Activities</b>:<br><br><u>Activity 1: Multiple Choice (Circle the correct answer)</u><br>1. Which animal group has fur and feeds babies with milk?<br>a) Birds  b) Mammals  c) Fish<br><br>2. Which animal lives in water and breathes with gills?<br>a) Snake  b) Frog  c) Fish<br><br>3. Where does a camel live?<br>a) Forest  b) Desert  c) Ocean<br><br><u>Activity 2: Fill in the blanks</u><br>1. Reptiles have __________ covering their bodies.<br>2. Birds lay __________ with hard shells.<br>3. A frog starts life in water and goes through __________.<br><br><u>Activity 3: Match the Animal to Its Group</u><br>Animal Group<br>Penguin Bird<br>Crocodile Reptile<br>Lion Mammal<br>Salmon Fish<br>Toad Amphibian<br><br><u>Bonus Task:</u><br>Draw your favorite animal and write:<br>What group it belongs to<br>One characteristic<br>Where it lives"
     ]
   ],
   "assessments": [
-    "<b>Worksheet or Quiz</b>: Students will complete a worksheet or quiz that assesses their understanding of different animal groups, their characteristics, and habitats.",
-    "<br><b>Class Participation</b>: The teacher will assess students' participation in the review session and class discussion."
+    "<b>Observation</b>: The teacher will monitor participation during discussions and activities.",
+    "<b>Written Assessment</b>: Students will complete the multiple-choice, fill-in-the-blank, and matching activities."
   ],
   "conclusion": [
-    "Through this lesson, students will reinforce their understanding of key concepts related to animal groups, characteristics, and habitats, and receive feedback to support their continued learning and growth."
+    "Students will consolidate their understanding of animal groups, characteristics, and habitats through interactive review and a written assessment."
   ]
 },
 
@@ -520,10 +557,10 @@ const lessonPlans23b = [
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Begin with a class discussion by asking:<br>\"What can you see when you look at yourself in the mirror?\"<br>\"What do you use your hands, legs, or eyes for?\"<br><br>Show a large picture or a model of the human body highlighting external parts such as the head, arms, legs, hands, feet, etc.<br>Explain that these are called \"external parts\" because they are on the outside of our body and are visible.",
-      "<b>Part 2: Explanation of External Parts and Their Functions (15 minutes)</b>:<br><br>Go through the external parts one by one, describing their functions:<br>Head: The part that holds your brain and face. It helps you think, see, and speak.<br>Arms and Hands: Used for holding, writing, eating, and waving.<br>Legs and Feet: Help you stand, walk, run, and jump.<br>Eyes: Allow you to see the world around you.<br>Ears: Help you hear sounds.<br>Nose: Used for smelling and breathing.<br>Mouth: Used for speaking, eating, and smiling.<br>Skin: Covers the body, protects it, and helps you feel things.<br><br>Use simple examples to make the explanation relatable. For example, \"Your hands help you pick up your lunchbox.\"",
-      "<b>Part 3: Relating to Everyday Activities (10 minutes)</b>:<br><br>Ask students to relate external parts to what they do every day:<br>\"What do you use to write your homework?\"<br>\"How do you see your favorite cartoon?\"<br>\"Which part of your body helps you run during playtime?\"<br><br>Show pictures or videos of people doing activities (e.g., running, eating, listening to music) and ask students to identify the body parts used.",
-      "<b>Part 4: Importance of Taking Care of External Parts (10 minutes)</b>:<br><br>Explain why we should take care of our body parts:<br>\"Wash your hands to keep them clean.\"<br>\"Brush your teeth to keep your mouth healthy.\"<br>\"Wear shoes to protect your feet.\"<br><br>Encourage healthy habits, such as wearing sunglasses to protect the eyes and using lotion for skin.",
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br>Begin with a class discussion by asking:<br>'What can you see when you look at yourself in the mirror?'<br>'What do you use your hands, legs, or eyes for?'<br><br>Show a large picture or a model of the human body highlighting external parts such as the head, arms, legs, hands, feet, etc.<br>Explain that these are called 'external parts' because they are on the outside of our body and are visible.",
+      "<b>Part 2: Explanation of External Parts and Their Functions (15 minutes)</b>:<br><br>Go through the external parts one by one, describing their functions:<br>Head: The part that holds your brain and face. It helps you think, see, and speak.<br>Arms and Hands: Used for holding, writing, eating, and waving.<br>Legs and Feet: Help you stand, walk, run, and jump.<br>Eyes: Allow you to see the world around you.<br>Ears: Help you hear sounds.<br>Nose: Used for smelling and breathing.<br>Mouth: Used for speaking, eating, and smiling.<br>Skin: Covers the body, protects it, and helps you feel things.<br><br>Use simple examples to make the explanation relatable. For example, 'Your hands help you pick up your lunchbox.'",
+      "<b>Part 3: Relating to Everyday Activities (10 minutes)</b>:<br><br>Ask students to relate external parts to what they do every day:<br>'What do you use to write your homework?'<br>'How do you see your favorite cartoon?'<br>'Which part of your body helps you run during playtime?'<br><br>Show pictures or videos of people doing activities (e.g., running, eating, listening to music) and ask students to identify the body parts used.",
+      "<b>Part 4: Importance of Taking Care of External Parts (10 minutes)</b>:<br><br>Explain why we should take care of our body parts:<br>'Wash your hands to keep them clean.'<br>'Brush your teeth to keep your mouth healthy.'<br>'Wear shoes to protect your feet.'<br><br>Encourage healthy habits, such as wearing sunglasses to protect the eyes and using lotion for skin.",
       "<b>Part 5: Exercise: Matching and Drawing Activity (15 minutes)</b>:<br><br>Part 1: Hand out worksheets with pictures of body parts on one side and their functions on the other. Students will draw lines to match each part to its function.<br>Part 2: Ask students to draw a simple human figure and label at least 5 external parts.<br>Part 3: As a class, review the answers and discuss why each part is important."
     ]
   ],
@@ -1074,7 +1111,7 @@ const lessonPlans23b = [
       "<b>Part 2: The Functions of the Heart</b>:<br><br>Explain how the heart has specific jobs, such as:<br>Pumping oxygen-rich blood: Blood that carries oxygen travels from the lungs to the heart and is pumped out to the body.<br>Pumping nutrients: Blood carries nutrients like food and water to different parts of the body.<br>Removing waste: The heart helps remove waste like carbon dioxide from the body by pumping it to the lungs.<br><br>Show a simple animation or video that shows the blood flow through the heart, highlighting how oxygen and nutrients travel.",
       "<b>Part 3: The Importance of the Heart in Everyday Life</b>:<br><br>Ask the students to notice their heartbeat after running or jumping. Explain that the heart works faster when we are active because our body needs more oxygen and nutrients.<br><br>Discuss how the heart keeps us alive by continuously pumping blood to the brain, muscles, and other organs.<br><br>Key Points to Cover:<br>The heart helps us stay alive by circulating blood.<br>It also helps regulate body temperature and provides energy for different body functions.",
       "<b>Part 4: How to Keep the Heart Healthy</b>:<br><br>Discuss ways to keep the heart healthy. Ask students about activities they think are good for the heart.<br><br>Key Points to Cover:<br>Eating healthy foods like fruits and vegetables.<br>Getting enough exercise, like running, playing, and swimming.<br>Avoiding things that are bad for the heart, like too much junk food.<br>Getting enough sleep.<br><br>Have the students pretend to be the heart by moving their arms in a rhythm that mimics the heartbeat.",
-      "<b>Part 5: Exercise/Activity: Heart Function Matching Game</b>:<br><br>Materials Needed:<br>Pictures or drawings of different body parts (brain, lungs, muscles, stomach, etc.)<br>A picture of the heart.<br><br>Instructions:<br>Place the heart picture in the center of the room.<br>Give each student a picture of a body part (brain, lungs, muscles, stomach, etc.).<br>Have students walk up and place their body part next to the heart, explaining how the heart helps that organ (e.g., \"The heart sends oxygen to the lungs,\" or \"The heart sends nutrients to the muscles\")."
+      "<b>Part 5: Exercise/Activity: Heart Function Matching Game</b>:<br><br>Materials Needed:<br>Pictures or drawings of different body parts (brain, lungs, muscles, stomach, etc.)<br>A picture of the heart.<br><br>Instructions:<br>Place the heart picture in the center of the room.<br>Give each student a picture of a body part (brain, lungs, muscles, stomach, etc.).<br>Have students walk up and place their body part next to the heart, explaining how the heart helps that organ (e.g., 'The heart sends oxygen to the lungs,' or 'The heart sends nutrients to the muscles')."
     ]
   ],
   "assessments": [
