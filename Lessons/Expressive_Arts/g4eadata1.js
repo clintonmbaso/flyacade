@@ -174,7 +174,7 @@ const lessonPlans43a = [
   "topic": "Identifying the Components of an Artistic Program",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "1",
+  "week": "3",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the components of an artistic program, helping them understand the function of each part and how they contribute to creating digital art.",
   "materials": [
@@ -224,7 +224,7 @@ const lessonPlans43a = [
   "grade": "Sky Soarers",
   "term": "1",
   "week": "3",
-  "lessonNumber": "1",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to the main components of an artistic program, including the color box, tool box, and buttons, and explains how each contributes to creating artwork.",
   "materials": [
     "Computer or Tablet with an Artistic Program (e.g., MS Paint)",
@@ -272,8 +272,8 @@ const lessonPlans43a = [
   "topic": "Demonstrating the Ability to Use an Artistic Program",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "5",
-  "lessonNumber": "1",
+  "week": "3",
+  "lessonNumber": "3",
   "description": "This lesson helps students demonstrate the ability to open an artistic program, select tools and colors, and create or modify a picture by interacting with the program’s components.",
   "materials": [
     "Computers or tablets",
@@ -374,8 +374,8 @@ const lessonPlans43a = [
   "topic": "Using a Tenon or Crosscut Saw",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "5",
-  "lessonNumber": "1",
+  "week": "4",
+  "lessonNumber": "2",
   "description": "This lesson teaches students the correct technique for cutting timber using a tenon or crosscut saw, focusing on safety, grip, and accuracy.",
   "materials": [
     "Tenon saw",
@@ -428,7 +428,7 @@ const lessonPlans43a = [
   "topic": "Crosscutting Timber",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "5",
+  "week": "4",
   "lessonNumber": "3",
   "description": "This lesson focuses on teaching students how to safely and accurately crosscut small pieces of timber, while emphasizing safety and the basic techniques involved.",
   "materials": [
@@ -480,7 +480,7 @@ const lessonPlans43a = [
   "topic": "Understanding Structured Movements",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "3",
+  "week": "5",
   "lessonNumber": "1",
   "description": "This lesson introduces students to structured movements, explaining their importance in physical activities, types, and how they can improve coordination, strength, flexibility, and skill.",
   "materials": [
@@ -529,8 +529,8 @@ const lessonPlans43a = [
   "topic": "Performing Structured Movements Using Dumbbells",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "5",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to the use of dumbbells for strength training, focusing on proper techniques, exercises, and safety.",
   "materials": [
     "Dumbbells (1kg - 10kg)",
@@ -578,8 +578,8 @@ const lessonPlans43a = [
   "topic": "Climbing Rope Techniques",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "3",
-  "lessonNumber": "1",
+  "week": "5",
+  "lessonNumber": "3",
   "description": "This lesson focuses on teaching students structured movements using climbing ropes, emphasizing coordination, strength, and safety.",
   "materials": [
     "Climbing ropes",
@@ -628,7 +628,7 @@ const lessonPlans43a = [
   "topic": "Mixing Primary Colors to Create Secondary Colors",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "3",
+  "week": "7",
   "lessonNumber": "1",
   "description": "This lesson introduces students to the concept of primary and secondary colors, demonstrating how primary colors can be mixed to create secondary colors. Students will practice drawing and coloring objects using secondary colors.",
   "materials": [
@@ -677,8 +677,8 @@ const lessonPlans43a = [
   "topic": "Understanding and Exploring Different Drawing Media",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "7",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to various drawing media, encouraging exploration of materials like pencils, charcoal, colored pencils, pastels, markers, and ink.",
   "materials": [
     "Pencils",
@@ -730,7 +730,7 @@ const lessonPlans43a = [
   "topic": "Drawing Objects Using Different Media",
   "grade": "Sky Soarers",
   "term": "1",
-  "week": "1",
+  "week": "7",
   "lessonNumber": "3",
   "description": "This lesson teaches students how to draw objects like a cup, fruit, a bottle, flowers, and a pot using various media, including pencil, crayons, colored pencils, and markers.",
   "materials": [
