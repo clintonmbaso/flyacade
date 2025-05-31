@@ -6,7 +6,14 @@
   <link href="phonics.css" rel="stylesheet">
 </head>
 <body>
-
+  
+  <div id="why" style="display: flex; justify-content: space-between;">
+    <button onclick="previousSound()" class="prev">Previous</button>
+    <button onclick="nextSound()" class="nxt">Next</button>
+  </div>
+  
+  <hr>
+  
   <h1 id="sound-title">Phonics Sound</h1>
 
   <div class="section">
@@ -33,11 +40,10 @@
 
   <div class="section">
     <button onclick="playSound()">Play Sound</button>
-    <button onclick="nextSound()">Next Sound</button>
-    <button id="clearBtn">Clear Canvas</button>
   </div>
 
   <canvas id="drawCanvas" width="400" height="200"></canvas>
+    <button id="clearBtn">Clear Canvas</button>
 
 <script src="phonics.js"></script>
 

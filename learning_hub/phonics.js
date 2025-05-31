@@ -4,7 +4,7 @@ const phonicsOrder = ["a", "t", "p", "i", "n", "s", "m", "d", "o", "g", "c", "k"
 // Phonics details
 const phonicsData = {
   a: {
-    title: "A",
+    title: "Aa",
     audio: "../audio/letters/A.aac",
     image: "../Tests/images/letters/new/Aa.png",
     write: "Start at the top, curve around and close the circle, then add a tail.",
@@ -14,7 +14,7 @@ const phonicsData = {
     writeDemo: "../images/write-demos/A.gif"
   },
   b: {
-    title: "B",
+    title: "Bb",
     audio: "../audio/letters/B.aac",
     image: "../Tests/images/letters/new/Bb.png",
     write: "Start at the top, go down, then make two bumps.",
@@ -24,7 +24,7 @@ const phonicsData = {
     writeDemo: "../images/write-demos/B.gif"
   },
   c: {
-    title: "C",
+    title: "Cc",
     audio: "../audio/letters/C.aac",
     image: "../Tests/images/letters/new/Cc.png",
     write: "Start at the top, curve around like a crescent moon.",
@@ -34,7 +34,7 @@ const phonicsData = {
     writeDemo: "../images/write-demos/C.gif"
   },
   d: {
-    title: "D",
+    title: "Dd",
     audio: "../audio/letters/D.aac",
     image: "../Tests/images/letters/new/Dd.png",
     write: "Start with a circle, then a straight line down.",
@@ -441,6 +441,11 @@ function playSound() {
   const key = phonicsOrder[currentIndex];
   const audio = new Audio(phonicsData[key].audio);
   audio.play();
+}
+
+function previousSound() {
+  currentIndex = (currentIndex - 1 + phonicsOrder.length) % phonicsOrder.length;
+  showSound();
 }
 
 function nextSound() {
