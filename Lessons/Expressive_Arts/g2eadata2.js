@@ -221,248 +221,273 @@ const lessonPlans41b = [
 
 // Lesson 3
 {
-  "title": "Songs on Child Abuse",
+  "title": "Introduction to Contemporary Songs",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Sing a Variety of Songs on Child Abuse",
+  "topic": "Contemporary Songs",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "3",
   "lessonNumber": "3",
-  "description": "This lesson aims to help students understand the importance of recognizing and addressing child abuse through songs and creative expression.",
+  "description": "This lesson introduces students to contemporary songs, focusing on their features, differences from traditional songs, and allowing learners to engage with modern music through analysis and participation.",
   "materials": [
-    "Audio recordings of songs related to child abuse",
-    "Class chart or whiteboard",
-    "Instruments for musical activities"
+    "Radio or speaker (if available)",
+    "List of contemporary artists",
+    "Lyrics of an age-appropriate song",
+    "Whiteboard and markers"
   ],
   "objectives": [
-    "Students will recognize the importance of speaking out against child abuse.",
-    "Students will engage in singing and discussing songs about child abuse to raise awareness."
+    "Define what contemporary songs are.",
+    "Identify features of contemporary songs.",
+    "Explain the difference between traditional and contemporary songs.",
+    "Participate in singing or analyzing a contemporary song."
   ],
   "rationale": [
-    "Using songs is an effective way to help young students understand important social issues like child abuse in an age-appropriate manner."
+    "Understanding contemporary songs helps learners connect with their cultural context and enhances creativity, expression, and appreciation for modern music."
   ],
   "methodology": [
-    "The lesson will involve listening to songs, group discussions, and singing along to help students express their thoughts and feelings about the topic."
+    "The lesson will use discussions, group comparisons, music examples, and student participation to help learners explore contemporary music and its role in modern society."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Child Abuse</b>: Briefly introduce the concept of child abuse and the importance of raising awareness about it.",
-      "<b>Song Listening</b>: Play songs that address child abuse, discussing the lyrics and their meanings with the students.",
-      "<b>Group Discussion</b>: After listening to the songs, hold a discussion on the messages conveyed and how children can protect themselves and others.",
-      "<b>Sing Along</b>: Have the students sing along to the songs to help them internalize the message and feel more connected to the topic.",
-      "<b>Class Exercise</b>:<br>1. What can we do if we know someone is being hurt?<br>2. How do we feel after singing the song about child abuse?"
+      "<b>Part 1: Introduction to Contemporary Songs</b>:<br><br>Starter Discussion:<br>Ask learners:<br><br>“What kind of music do you listen to at home, on the radio, or on TV?”<br>“Do you know the names of any famous singers or bands today?”<br><br>Definition:<br>Contemporary songs are modern songs that are written and performed in today’s times. They are often played on the radio, television, or the internet and usually reflect current themes, ideas, and lifestyles.<br><br>These songs may be about love, friendship, peace, environment, or fun. They are different from traditional songs, which are older and based on cultural practices.",
+      "<b>Part 2: Features of Contemporary Songs</b>:<br><br>Discussion Points:<br>Contemporary songs often have the following features:<br><br>Use of modern instruments like guitars, drums, and keyboards.<br>Sung in local or international languages, like English, Bemba, or Nyanja.<br>Performed by modern artists, both solo and in groups.<br>They are recorded, shared online, and played in public places.<br><br>Examples of contemporary Zambian or international artists (adapt to local context):<br><br>Yo Maps<br>Pompi<br>Esther Chungu<br>Beyoncé<br>Burna Boy",
+      "<b>Part 3: Traditional vs. Contemporary Songs</b>:<br><br>Group Discussion:<br>Let learners compare traditional and contemporary songs.<br><br>Feature&nbsp;&nbsp;&nbsp;&nbsp;Traditional Songs&nbsp;&nbsp;&nbsp;&nbsp;Contemporary Songs<br>Instruments&nbsp;&nbsp;&nbsp;&nbsp;Drums, clapping, rattles&nbsp;&nbsp;&nbsp;&nbsp;Guitars, keyboards, drums<br>Language&nbsp;&nbsp;&nbsp;&nbsp;Local languages&nbsp;&nbsp;&nbsp;&nbsp;Local and international<br>Purpose&nbsp;&nbsp;&nbsp;&nbsp;Culture, teaching, rituals&nbsp;&nbsp;&nbsp;&nbsp;Entertainment, awareness<br>Performed by&nbsp;&nbsp;&nbsp;&nbsp;Community/Elders&nbsp;&nbsp;&nbsp;&nbsp;Singers/artists<br>Mode of sharing&nbsp;&nbsp;&nbsp;&nbsp;Oral (passed down)&nbsp;&nbsp;&nbsp;&nbsp;Recordings, media<br><br>Ask:<br>Can you see how both song types are important in different ways?",
+      "<b>Part 4: Participation and Practice</b>:<br><br>Class Activity:<br><br>Play a clean and age-appropriate contemporary song (if resources allow).<br><br>Ask learners to clap along or sing parts of the chorus.<br><br>Discuss what the song is about.<br><br>Let learners write or perform a short verse about a topic they care about (e.g., school, friendship, environment).",
+      "<b>Part 5: Exercise</b>:<br><br>Answer the following questions:<br><br>1. What are contemporary songs?<br>2. Mention two features of contemporary songs.<br>3. Name one difference between traditional and contemporary songs.<br>4. List the name of one contemporary artist you know.<br>5. Why are contemporary songs important in today’s society?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' engagement and understanding during the group discussion and singing activities.",
-    "<br><b>Homework</b>:<br>1. Draw a picture showing how we can help protect children from abuse. Write a sentence about what you would do if you saw something wrong."
+    "<b>Observation</b>: The teacher will observe learners’ participation during discussions and class activities.",
+    "<b>Exercise</b>: Learners will answer five questions to demonstrate understanding of contemporary songs and their differences from traditional music."
   ],
   "conclusion": [
-    "Through listening, singing, and discussion, students will develop a greater understanding of the importance of child abuse awareness and how to take action to help protect children."
+    "By learning about contemporary songs, their features, and how they differ from traditional music, learners will appreciate the role of music in today’s world and be encouraged to express themselves creatively."
   ]
 },
 
 // Week 4
 // Lesson 1
 {
-  "title": "Performing Games with Health Messages",
+  "title": "Staying Active and Healthy",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Friday, May 30, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Games and Health Messages",
+  "topic": "Staying Active and Healthy",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson will help students learn important health messages through interactive games that promote physical activity and health awareness.",
+  "description": "This lesson introduces students to the importance of physical activity and healthy food choices, helping them understand how these habits support a strong, energetic body and an active lifestyle.",
   "materials": [
-    "Space for physical activity",
-    "Health-related message cards",
-    "Game equipment (e.g., balls, hula hoops, jump ropes)"
+    "Whiteboard and markers",
+    "Paper and crayons",
+    "Story prompts or printed story",
+    "Pictures of healthy foods and activities"
   ],
   "objectives": [
-    "Students will understand and demonstrate the importance of physical activity for health.",
-    "Students will engage in games that reinforce positive health messages, such as staying active and eating healthy."
+    "Understand why physical activity is important for their health.",
+    "Identify activities that help keep the body strong and healthy.",
+    "Participate in fun games that promote being active.",
+    "Recognize how healthy food choices support an active lifestyle."
   ],
   "rationale": [
-    "Incorporating health messages into play encourages students to make healthy lifestyle choices and improves their physical well-being."
+    "Understanding the benefits of physical activity and nutritious food at an early age helps children build lifelong healthy habits and encourages a balanced lifestyle."
   ],
   "methodology": [
-    "The lesson will use fun, physical games to deliver key health messages, fostering active participation and discussion."
+    "Storytelling, group brainstorming, guided discussion, hands-on activity, and drawing/writing exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Health Messages</b>: Students will discuss the importance of health and fitness and how games can help keep them healthy.",
-      "<b>Game 1: 'Healthy Relay Race'</b>: Students will participate in a relay race where each team must perform activities (e.g., jumping jacks, running) that promote fitness. Each activity will be tied to a health message like 'Exercise keeps your body strong.'",
-      "<b>Game 2: 'Eat the Right Foods'</b>: In this game, students will race to collect cards with healthy food items (e.g., fruits, vegetables) and place them in their team's basket while avoiding unhealthy items (e.g., sweets).",
-      "<b>Game 3: 'Drink Water Challenge'</b>: Students will practice a series of physical challenges (e.g., hopping, skipping) and stop periodically to 'hydrate' by drinking water, reinforcing the importance of staying hydrated.",
-      "<b>Class Exercise</b>:<br>1. What message did you learn from today's games?<br>2. Name one thing you can do every day to stay healthy."
+      "<b>Part 1: Introduction (Class Discussion – 10 minutes)</b><br><br>Teacher says: 'Today, we are learning about how moving our bodies helps us stay healthy! Did you know that running, jumping, dancing, and even playing can help our hearts, muscles, and bones grow strong?'<br><br>Ask the class:<br>'Who likes to run or play outside?'<br>'How do you feel after dancing or playing a game?'<br><br>Explain briefly:<br>Physical activity means using your body to move and play.<br>It keeps your heart beating strong and your muscles active.<br>When we move every day, we feel happy and full of energy.",
+      
+      "<b>Part 2: Story Time (Understanding Through a Story – 10 minutes)</b><br><br>Tell a short story:<br>'Tina and James loved playing soccer after school. Every day, they ran around, kicked the ball, and laughed with friends. But one day, James stayed inside watching TV all day and eating only sweets. The next morning, he felt tired and slow. Tina reminded him, 'Let’s play and eat healthy food so we can stay strong!' So James started playing outside again and eating fruits and vegetables.'<br><br>Ask questions:<br>'Why did James feel tired?'<br>'What helped him feel better again?'<br>'What are some healthy foods you know?'",
+      
+      "<b>Part 3: Brainstorm and Chart (Group Work – 10 minutes)</b><br><br>Activity:<br>Draw two big circles on the board:<br>One titled: Healthy Activities<br>One titled: Healthy Foods<br><br>Have learners give ideas for each and write or draw them:<br>Healthy Activities: Running, jumping, dancing, swimming, cycling<br>Healthy Foods: Apples, carrots, bananas, eggs, rice, water<br><br>Teacher explains:<br>We need both healthy food and activity to be strong.<br>They work together like a team in our body.",
+      
+      "<b>Part 4: Game Time (Practical Activity – 15 minutes)</b><br><br>Set up a fun movement game outdoors or in the classroom. Example: 'Health Hop'<br><br>Mark different stations with pictures:<br>Station 1: Apple – do 5 jumping jacks<br>Station 2: Carrot – hop 5 times<br>Station 3: Water – spin around once<br>Station 4: Running shoes – run in place for 10 seconds<br><br>Learners move from one station to another doing each action.<br><br>Remind them:<br>“This is how we can stay strong, just by playing and having fun!”",
+      
+      "<b>Part 5: Exercise (Written or Drawing Activity – 10 minutes)</b><br><br>Option A: Drawing Task (For younger or less confident writers):<br>Instruction: 'Draw one healthy activity you love and one healthy food you like to eat.'<br><br>Option B: Short Written Task (For more advanced learners):<br>Instruction:<br>1. Name two things you can do to stay healthy.<br>2. Name two healthy foods you can eat.<br>3. Why is it important to move your body every day?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding of health messages through their participation in the games and discussion.",
-    "<br><b>Homework</b>:<br>1. Draw a picture of a healthy meal and write one health message about staying healthy."
+    "<b>Observation</b>: The teacher will observe participation in discussions and physical activities to assess engagement and understanding.",
+    "<b>Exercise</b>: Students' drawings or written answers will be reviewed to evaluate their grasp of the concepts taught."
   ],
   "conclusion": [
-    "By engaging in fun games, students will gain a better understanding of how physical activity and healthy habits contribute to overall well-being."
+    "Wrap up by reviewing the main points:<br>Physical activity makes us healthy and strong.<br>Eating healthy foods helps us grow and gives us energy.<br>Moving every day is fun and good for our bodies.<br><br>Encourage students to choose one healthy activity to do after school today and share it next lesson."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Creating Different Weaving Patterns",
+  "title": "Staying Active and Healthy",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Friday, May 30, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Weaving Mats",
+  "topic": "Staying Active and Healthy",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson will introduce students to the art of weaving, focusing on creating different weaving patterns and crafting mats.",
+  "description": "This lesson introduces students to the importance of physical activity and healthy food choices, helping them understand how these habits support a strong, energetic body and an active lifestyle.",
   "materials": [
-    "Colored paper or fabric strips",
-    "Scissors",
-    "Glue",
-    "Weaving templates",
-    "Example mats"
+    "Whiteboard and markers",
+    "Paper and crayons",
+    "Story prompts or printed story",
+    "Pictures of healthy foods and activities"
   ],
   "objectives": [
-    "Students will understand the concept of weaving and its applications.",
-    "Students will create different weaving patterns using strips of material."
+    "Understand why physical activity is important for their health.",
+    "Identify activities that help keep the body strong and healthy.",
+    "Participate in fun games that promote being active.",
+    "Recognize how healthy food choices support an active lifestyle."
   ],
   "rationale": [
-    "Weaving is a fundamental skill in various cultures and helps develop fine motor skills, creativity, and patience."
+    "Understanding the benefits of physical activity and nutritious food at an early age helps children build lifelong healthy habits and encourages a balanced lifestyle."
   ],
   "methodology": [
-    "The lesson will involve hands-on practice with weaving, guided by the teacher, and group discussions to share ideas and techniques."
+    "Storytelling, group brainstorming, guided discussion, hands-on activity, and drawing/writing exercises."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Weaving</b>: The teacher will introduce the concept of weaving, showing examples of mats and explaining different weaving patterns.",
-      "<b>Weaving Demonstration</b>: The teacher will demonstrate how to weave strips of material to create patterns, explaining over-and-under techniques.",
-      "<b>Hands-on Practice</b>: Students will cut their strips of paper or fabric and begin weaving their mats, following the teacher's demonstration.",
-      "<b>Exploring Patterns</b>: Students will experiment with different weaving patterns, such as diagonal, checkered, and random weaving, to create unique designs.",
-      "<b>Class Exercise</b>:<br>1. What materials can be used for weaving?<br>2. How can you change the pattern of your weave? What happens if you use different colors?"
+      "<b>Part 1: Introduction (Class Discussion – 10 minutes)</b><br><br>Teacher says: 'Today, we are learning about how moving our bodies helps us stay healthy! Did you know that running, jumping, dancing, and even playing can help our hearts, muscles, and bones grow strong?'<br><br>Ask the class:<br>'Who likes to run or play outside?'<br>'How do you feel after dancing or playing a game?'<br><br>Explain briefly:<br>Physical activity means using your body to move and play.<br>It keeps your heart beating strong and your muscles active.<br>When we move every day, we feel happy and full of energy.",
+      
+      "<b>Part 2: Story Time (Understanding Through a Story – 10 minutes)</b><br><br>Tell a short story:<br>'Tina and James loved playing soccer after school. Every day, they ran around, kicked the ball, and laughed with friends. But one day, James stayed inside watching TV all day and eating only sweets. The next morning, he felt tired and slow. Tina reminded him, 'Let’s play and eat healthy food so we can stay strong!' So James started playing outside again and eating fruits and vegetables.'<br><br>Ask questions:<br>'Why did James feel tired?'<br>'What helped him feel better again?'<br>'What are some healthy foods you know?'",
+      
+      "<b>Part 3: Brainstorm and Chart (Group Work – 10 minutes)</b><br><br>Activity:<br>Draw two big circles on the board:<br>One titled: Healthy Activities<br>One titled: Healthy Foods<br><br>Have learners give ideas for each and write or draw them:<br>Healthy Activities: Running, jumping, dancing, swimming, cycling<br>Healthy Foods: Apples, carrots, bananas, eggs, rice, water<br><br>Teacher explains:<br>We need both healthy food and activity to be strong.<br>They work together like a team in our body.",
+      
+      "<b>Part 4: Game Time (Practical Activity – 15 minutes)</b><br><br>Set up a fun movement game outdoors or in the classroom. Example: 'Health Hop'<br><br>Mark different stations with pictures:<br>Station 1: Apple – do 5 jumping jacks<br>Station 2: Carrot – hop 5 times<br>Station 3: Water – spin around once<br>Station 4: Running shoes – run in place for 10 seconds<br><br>Learners move from one station to another doing each action.<br><br>Remind them:<br>“This is how we can stay strong, just by playing and having fun!”",
+      
+      "<b>Part 5: Exercise (Written or Drawing Activity – 10 minutes)</b><br><br>Option A: Drawing Task (For younger or less confident writers):<br>Instruction: 'Draw one healthy activity you love and one healthy food you like to eat.'<br><br>Option B: Short Written Task (For more advanced learners):<br>Instruction:<br>1. Name two things you can do to stay healthy.<br>2. Name two healthy foods you can eat.<br>3. Why is it important to move your body every day?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' participation in the weaving activity and their ability to create different patterns.",
-    "<br><b>Homework</b>:<br>1. Draw your favorite weaving pattern and explain how you would make it with materials at home."
+    "<b>Observation</b>: The teacher will observe participation in discussions and physical activities to assess engagement and understanding.",
+    "<b>Exercise</b>: Students' drawings or written answers will be reviewed to evaluate their grasp of the concepts taught."
   ],
   "conclusion": [
-    "By engaging in weaving activities, students will enhance their creativity and fine motor skills while learning about different patterns and the art of weaving."
+    "Wrap up by reviewing the main points:<br>Physical activity makes us healthy and strong.<br>Eating healthy foods helps us grow and gives us energy.<br>Moving every day is fun and good for our bodies.<br><br>Encourage students to choose one healthy activity to do after school today and share it next lesson."
   ]
 },
 
 // Week 5
 // Lesson 1
 {
-  "title": "Creating Different Weaving Patterns and Weaving Hats",
+  "title": "Exploring More Weaving Patterns",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, June 9, 2025",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Creating Different Weaving Patterns and Weaving Hats",
+  "topic": "Applying Weaving Skills – Creating a Simple Woven Hat",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "5",
   "lessonNumber": "1",
-  "description": "This lesson aims to help students understand and practice the art of weaving, by exploring different weaving patterns and learning how to weave hats.",
+  "description": "This lesson helps learners explore more complex weaving patterns and guides them in making a simple woven hat using paper strips, fostering both creativity and practical skills.",
   "materials": [
-    "Colorful yarn or fabric strips",
+    "Pre-cut loom bases (rectangles with slits)",
+    "Colored paper strips",
     "Scissors",
-    "Weaving looms or cardboard pieces",
-    "Examples of woven patterns and hats"
+    "Glue or tape",
+    "Sample woven hats or pictures"
   ],
   "objectives": [
-    "Students will learn and create different weaving patterns.",
-    "Students will apply weaving techniques to create a simple woven hat."
+    "Review and identify different weaving patterns (basic, diagonal, checkered).",
+    "Apply weaving skills to create a more complex design.",
+    "Construct a simple woven paper hat using learned techniques.",
+    "Appreciate weaving as a useful and creative life skill."
   ],
   "rationale": [
-    "Weaving is a fundamental skill that encourages creativity, fine motor skills, and an understanding of patterns and structures."
+    "This lesson reinforces weaving as both a creative art and a functional skill. It allows learners to express themselves through design while also learning how woven items are made and used in everyday life."
   ],
   "methodology": [
-    "The lesson will include hands-on activities, step-by-step instructions, and group collaboration to ensure active participation."
+    "Demonstration, observation, discussion, hands-on practice, peer sharing."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Weaving</b>: Students will learn about different types of weaving patterns and how they are used in various cultures and crafts.",
-      "<b>Demonstration of Weaving Techniques</b>: The teacher will demonstrate how to create basic weaving patterns using yarn or fabric strips, focusing on over-under techniques.",
-      "<b>Creating Weaving Patterns</b>: Students will create their own weaving patterns using looms or cardboard, exploring simple designs such as stripes and checkerboards.",
-      "<b>Weaving Hats</b>: The teacher will guide students in using their weaving patterns to create a small woven hat, applying the techniques they have learned.",
-      "<b>Class Exercise</b>:<br>1. Create a weaving pattern with your materials.<br>2. Use the pattern to make a simple hat.<br>3. Share your creation and explain how you made it."
+      "<b>Part 1: Introduction (Review & Discussion – 10 minutes)</b>:<br><br>Teacher says: 'Last week, we learned how to weave using paper strips. This week, we’ll explore more patterns and even make a hat using weaving!'<br><br>Ask:<br>'What do you remember about weaving?'<br>'How do the strips move in weaving?'<br>'What did you enjoy about our last weaving activity?'<br><br>Show sample weaving patterns:<br>Straight (basic over-under)<br>Diagonal (angled lines)<br>Checkered (alternating colors)<br><br>Display images of woven hats or bring a real one if possible.",
+      "<b>Part 2: Pattern Practice (Teacher Demonstration – 10 minutes)</b>:<br><br>Materials for demo:<br>Pre-cut loom base (rectangle with slits)<br>Colored strips (narrower than before)<br><br>Demonstrate new patterns:<br>1. Basic (over-under) – like before<br>2. Diagonal pattern – angle the strips slightly while weaving<br>3. Color pattern – alternating color sequence for a checkered effect<br><br>Encourage learners to observe carefully and notice how patterns form.",
+      "<b>Part 3: Class Discussion (Uses and Importance – 5 minutes)</b>:<br><br>Ask:<br>'Why do you think people make woven hats?'<br>'Where might you wear a woven hat?'<br><br>Explain:<br>Hats protect us from the sun and can be stylish.<br>Weaving helps make the hat strong and flexible.<br>In some cultures, woven hats are used for special events or ceremonies.",
+      "<b>Part 4: Practical Activity – Make a Woven Paper Hat (20 minutes)</b>:<br><br>Materials for each student:<br>One large paper strip for the hat band<br>Pre-cut colored strips for weaving<br>Glue or tape<br>Scissors (if safe and supervised)<br><br>Steps:<br>1. Fit the large strip around the learner’s head to form a hat band.<br>2. Tape or glue the band to hold its shape.<br>3. Attach paper strips vertically hanging down from the band.<br>4. Weave horizontal strips through the vertical ones to create a dome-like woven top.<br>5. Once weaving is complete, trim and tape to shape into a round hat top.<br><br>Assist as needed and encourage creativity with colors and patterning.",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br>Option A: Drawing & Labeling Task:<br>Instruction: 'Draw your woven hat and label the band, strips, and weaving pattern you used.'<br><br>Option B: Short Written Task:<br>1. What pattern did you use in your hat?<br>2. Why is weaving helpful in making a hat?<br>3. What did you enjoy about weaving your hat?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' understanding and progress through their participation in the weaving activities.",
-    "<br><b>Homework</b>:<br>1. Design a new weaving pattern on paper.<br>2. Explain how you could use this pattern to create something in the real world."
+    "<b>Observation</b>: Teacher observes participation during demonstration and hat-making.",
+    "<b>Drawing or written task</b>: Used to evaluate understanding of patterns and hat construction."
   ],
   "conclusion": [
-    "Through hands-on practice with weaving, students will enhance their creativity, improve their fine motor skills, and develop an understanding of pattern-making and design."
+    "Display the finished hats proudly around the class or have a short “Woven Hat Parade.”",
+    "Ask learners: 'What pattern did you try?' and 'Would you like to make a real hat one day with other materials like straw or cloth?'",
+    "Encourage learners to share their hats and explain their designs to classmates. Reinforce that weaving is both an art and a useful life skill."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Creating Different Weaving Patterns",
+  "title": "Weaving Patterns and Belt-Making",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Monday, July 29, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Creating Different Weaving Patterns and Weaving Belts",
+  "topic": "Weaving Patterns and Belt-Making",
   "grade": "Cloud Chicks",
   "term": "2",
   "week": "5",
   "lessonNumber": "2",
-  "description": "This lesson aims to introduce students to the art of weaving, focusing on creating different patterns and weaving belts.",
+  "description": "This lesson introduces learners to weaving patterns through the practical task of making a simple woven belt using paper strips, emphasizing both creativity and usefulness.",
   "materials": [
-    "Colored yarn or thread",
-    "Cardboard or weaving frames",
+    "Colored paper strips or yarn/ribbon/string",
+    "Tape or glue",
     "Scissors",
-    "Rulers",
-    "Examples of woven belts and patterns"
+    "Examples or pictures of belts"
   ],
   "objectives": [
-    "Students will learn how to create different weaving patterns.",
-    "Students will understand how to weave belts using basic weaving techniques."
+    "Recognize and describe different weaving patterns.",
+    "Apply basic weaving skills to create a simple belt.",
+    "Understand how weaving can be used to make practical items like belts.",
+    "Appreciate the creativity and usefulness of weaving."
   ],
   "rationale": [
-    "Weaving helps develop fine motor skills, creativity, and an understanding of patterns and symmetry, which are useful in various craft and design activities."
+    "Learning to weave introduces students to foundational crafting skills and fosters both creativity and practical thinking."
   ],
   "methodology": [
-    "The lesson will include a demonstration of weaving techniques, hands-on practice with yarn, and the creation of different patterns by the students."
+    "The lesson will use demonstration, guided discussions, and hands-on practice to teach basic weaving techniques."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Weaving</b>: Students will be introduced to the concept of weaving and its historical significance in creating fabrics and belts.",
-      "<b>Creating Weaving Patterns</b>: The teacher will demonstrate how to create basic weaving patterns such as over-and-under and basketweave using colored yarn.",
-      "<b>Weaving Belts</b>: Students will be guided through the steps of creating a simple woven belt using a weaving frame or cardboard.",
-      "<b>Hands-On Practice</b>: Students will practice creating their own weaving patterns and belts, experimenting with different color combinations and techniques.",
-      "<b>Class Exercise</b>:<br>1. What are the basic steps to create a weaving pattern?<br>2. How do you create a belt using weaving techniques?"
+      "<b>Part 1: Introduction (Discussion – 10 minutes)</b><br><br>Begin with a short review: 'Last time, we made woven hats. Today, we will learn how to weave something useful to wear around our waist — a belt!'<br><br>Show examples or pictures of:<br>- Cloth belts<br>- Woven yarn belts<br>- Traditional or handmade belts<br><br>Ask learners:<br>'What is a belt used for?'<br>'What do you think a belt made from weaving might look like?'<br><br>Explain:<br>A belt can be woven using the same over-under method.<br>People have woven belts for many years for decoration and use.",
+      
+      "<b>Part 2: Demonstration (Teacher-Led – 10 minutes)</b><br><br>Materials:<br>- 3 or more long paper strips (or yarn, ribbon, or string) of different colors<br>- Tape to secure ends<br><br>Demonstrate simple weaving technique:<br>1. Tape the top ends of 3 strips to the desk or board.<br>2. Braid or weave the strips using a basic over-under pattern.<br>3. Show how the colors alternate to form a pattern.<br><br>Tip: You may use flat braiding for paper or simple weaving with yarn.",
+      
+      "<b>Part 3: Class Discussion (5 minutes)</b><br><br>Discuss with learners:<br>'What patterns can we create with different colors?'<br>'Why is it helpful to use weaving for making belts?'<br><br>Explain:<br>Weaving makes belts strong and flexible.<br>Color patterns can be used to decorate the belt.<br>Woven belts are used in school uniforms, costumes, and traditional clothing.",
+      
+      "<b>Part 4: Practical Activity – Weaving a Simple Paper Belt (20 minutes)</b><br><br>Materials for each learner:<br>- 3–5 long paper strips (different colors)<br>- Tape or glue<br>- Scissors (with supervision)<br><br>Instructions:<br>1. Choose 3 or more colored paper strips.<br>2. Tape the top ends together to a desk or paper base.<br>3. Weave or braid the strips tightly.<br>4. Once done, tape the other end to hold the belt in place.<br>5. (Optional) Decorate with shapes, name tags, or drawings.<br><br>Encourage learners to try alternating patterns or use a repeating color sequence.",
+      
+      "<b>Part 5: Exercise (10 minutes)</b><br><br>Option A: Drawing Task<br>Instruction: 'Draw your woven belt. Use colors to show the pattern. Label the strips and pattern type (e.g., straight, braided, checkered).'<br><br>Option B: Short Answer Task<br>1. What materials did you use to make your belt?<br>2. What pattern did you use?<br>3. Why do people wear belts?<br>4. What did you enjoy most about weaving a belt?"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will assess students' progress by observing their ability to follow instructions and create their own weaving patterns and belts.",
-    "<br><b>Homework</b>:<br>1. Create a design for a woven belt using at least three colors and describe the pattern you would use."
+    "<b>Observation</b>: The teacher will observe students' participation during the demonstration and practical activity.",
+    "<b>Exercise</b>: Learners will either draw and label their belts or answer short questions to assess understanding of weaving concepts."
   ],
   "conclusion": [
-    "By engaging in hands-on weaving activities, students will not only learn a new skill but also develop an appreciation for the craft of weaving and the different patterns that can be created."
+    "Class Reflection:<br>Let a few learners present their belts.<br>Ask them to describe the pattern they used.<br><br>Teacher says: 'Today, we learned how weaving can help us make useful things like belts. We can be both creative and practical through weaving!'<br><br>Encourage them to try weaving with cloth or string at home (with help)."
   ]
 },
 
