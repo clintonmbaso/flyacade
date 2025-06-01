@@ -15,11 +15,15 @@
   <hr>
   
   <h1 id="sound-title">Phonics Sound</h1>
+      <button onclick="playSound()" class="playSound">Play Sound</button>
 
-  <div class="section">
+  <div class="section write">
     <strong>Write:</strong>
     <p id="write-section"></p>
+      <img id="write-demo" src="" alt="Write Demonstration">
+
   </div>
+  
 
   <div class="section">
     <strong>Identify:</strong>
@@ -34,12 +38,6 @@
   <div class="section">
     <strong>Song:</strong>
     <p id="song-section"></p>
-  </div>
-
-  <img id="write-demo" src="" alt="Write Demonstration">
-
-  <div class="section">
-    <button onclick="playSound()">Play Sound</button>
   </div>
 
   <canvas id="drawCanvas" width="400" height="200"></canvas>

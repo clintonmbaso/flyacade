@@ -64,6 +64,17 @@ button:hover {
   text-align: right;
 }
 
+.playSound {
+  border-radius: 25px 25px 0 0;
+  margin-left: -0.1px;
+}
+
+.write {
+  border-radius: 0 0 15px 15px;
+  border: 1px solid var(--primary-color);
+  margin-top: -2px;
+}
+
 canvas {
   display: block;
   width: 100%;
