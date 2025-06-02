@@ -1,74 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Master Timetable</title>
-<link rel="stylesheet" href="styles.css">
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Master Timetable</title>
+
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+  <!-- Font and Styling -->
   <style>
-body {
-font-family: Arial, sans-serif;
-}
+    :root {
+      --bg-color: #f9f9f9;
+      --text-color: #333;
+      --header-bg: #007bff;
+      --header-color: #fff;
+      --border-color: #ccc;
+    }
 
-.container {
-max-width: 800px;
-margin: 40px auto;
-padding: 20px;
-background-color: #f9f9f9;
-border: 1px solid #ddd;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    body.dark-mode {
+      --bg-color: #1c1c1c;
+      --text-color: #f9f9f9;
+      --header-bg: #333;
+      --header-color: #f9f9f9;
+      --border-color: #555;
+    }
 
-h1 {
-text-align: center;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
 
-.filters {
-margin-bottom: 20px;
-}
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: var(--bg-color);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-#timetable-table {
-border-collapse: collapse;
-width: 100%;
-}
+    h1 {
+      text-align: center;
+    }
 
-#timetable-table th, #timetable-table td {
-border: 1px solid #ddd;
-padding: 10px;
-text-align: left;
-}
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
 
-#timetable-table th {
-background-color: #f0f0f0;
-}
+    .filters label {
+      margin-right: 5px;
+    }
 
-#timetableStatus {
-text-align: center;
-color: #666;
-}
-</style>
+    select {
+      padding: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+      border: 1px solid var(--border-color);
+      padding: 10px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: var(--header-bg);
+      color: var(--header-color);
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      align-items: center;
+    }
+
+    .dark-mode-toggle {
+      cursor: pointer;
+      padding: 5px 10px;
+      border: none;
+      background-color: #444;
+      color: white;
+      border-radius: 5px;
+    }
+
+    .export-button {
+      padding: 5px 10px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .filters {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
   
   
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 1cm;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  #timetable-container, #timetable-container * {
+    visibility: visible;
+  }
+
+  #timetable-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  #printButton {
+    display: none !important;
+  }
+
+  /* Optional cleanup for print */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 6px;
+    text-align: center;
+  }
+
+  h2, h3 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+  </style>
 </head>
 <body>
-<div class="container">
-<h1>Master Timetable</h1>
-<div class="filters">
+  <div class="container">
+    <div class="toolbar">
+      <h1>Master Timetable</h1>
+      <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+
+    <div class="filters">
+
+      <!-- Add your filters and table in HTML -->
 <select id="dayFilter">
-<option value="all">All Days</option>
+  <option value="all">All Days</option>
 </select>
 <select id="subjectFilter">
-<option value="all">All Subjects</option>
+  <option value="all">All Subjects</option>
 </select>
 <select id="teacherFilter">
-<option value="all">All Teachers</option>
+  <option value="all">All Teachers</option>
 </select>
+      <button class="export-button" id="printButton">Print PDF</button>
+    </div>
+<script>
+document.getElementById("printButton").addEventListener("click", function () {
+  const originalTitle = document.title;
+  document.title = "Class Timetable - Print View";
+  window.print();
+  document.title = originalTitle;
+});
+</script>
+
+<div id="timetable-container">
+<table id="timetable-table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Day</th>
+      <th>Subject</th>
+      <th>Teacher</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 </div>
-<table id="timetable-table"></table>
-<p id="timetableStatus"></p>
-</div>
-  <a href="phoneTracker.html">now</a>
-<script src="masterTimetable.js"></script>
+  </div>
+
+  <!-- jQuery + DataTables + SheetJS -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+  <script src="masterTimetable.js"></script>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+
+    function exportToExcel() {
+      const table = document.getElementById('timetable-table');
+      const wb = XLSX.utils.table_to_book(table, { sheet: "Timetable" });
+      XLSX.writeFile(wb, 'MasterTimetable.xlsx');
+    }
+  </script>
 </body>
 </html>
