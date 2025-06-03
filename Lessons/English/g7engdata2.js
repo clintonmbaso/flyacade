@@ -9,7 +9,7 @@ const lessonPlans89b = [
   "tcz": "19/09/0904/021725",
   "subject": "English",
   "topic": "Parts of Speech Review",
-  "grade": "Nimbus Navigators",
+  "grade": "Fledgling Falcons",
   "term": "2",
   "week": "2",
   "lessonNumber": "1",
@@ -64,7 +64,7 @@ const lessonPlans89b = [
   "tcz": "19/09/0904/021725",
   "subject": "English",
   "topic": "Paragraph Structure",
-  "grade": "Nimbus Navigators",
+  "grade": "Fledgling Falcons",
   "term": "2",
   "week": "4",
   "lessonNumber": "1",
@@ -106,11 +106,110 @@ const lessonPlans89b = [
   ]
 },
 
-// Lesson 2
-
 // Lesson 3
+{
+  "title": "Comprehension – Identifying Main Idea & Details",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Identifying Main Idea & Details",
+  "grade": "Fledgling Falcons",
+  "term": "2",
+  "week": "2",
+  "lessonNumber": "3",
+  "description": "This Grade 7 English comprehension lesson helps students learn how to identify the main idea and supporting details in paragraphs and passages.",
+  "materials": [
+    "Printed example paragraphs",
+    "Highlighters",
+    "Worksheets",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "To introduce the concept of the main idea and supporting details in a paragraph or passage.",
+    "To demonstrate how to find the main idea and supporting details in a paragraph.",
+    "To guide learners as they practice identifying main ideas and details in pairs or groups.",
+    "To allow learners to practice the skill independently.",
+    "To assess learners' understanding through a short exercise."
+  ],
+  "rationale": [
+    "Identifying the main idea and supporting details helps learners improve their reading comprehension and critical thinking skills."
+  ],
+  "methodology": [
+    "The lesson will use teacher modeling, group practice, independent application, and exercises for reinforcement."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b><br><br><b>Objective:</b><br><br>To introduce the concept of the main idea and supporting details in a paragraph or passage.<br><br><b>Teaching Points:</b><br><br>Main Idea is what the text is mostly about.<br>Supporting Details are facts, examples, or explanations that support the main idea.<br>The main idea is usually found in the first sentence, last sentence, or sometimes implied (not directly stated).<br><br><b>Class Discussion Questions:</b><br><br>Why do you think it's important to find the main idea?<br>Have you ever read something and didn’t understand what it was mainly about? What helped you figure it out?",
+      "<b>Part 2: Teacher Modeling (15 minutes)</b><br><br><b>Objective:</b><br><br>To demonstrate how to find the main idea and supporting details in a paragraph.<br><br><b>Example Paragraph:</b><br><br>'Many animals have unique ways to protect themselves. For instance, porcupines have sharp quills to defend against predators. Skunks spray a bad-smelling liquid, while octopuses can squirt ink and escape. These defense strategies help animals survive in the wild.'<br><br><b>Modeling Steps:</b><br><br>1. Read the paragraph aloud.<br>2. Ask: What is this paragraph mostly about?<br><br><b>Main Idea:</b> 'Many animals have unique ways to protect themselves.'<br><br>3. Identify details that support the main idea:<br>Porcupines have sharp quills.<br>Skunks spray bad-smelling liquid.<br>Octopuses squirt ink and escape.",
+      "<b>Part 3: Guided Practice (15 minutes)</b><br><br><b>Objective:</b><br><br>To guide learners as they practice identifying main ideas and details in pairs or groups.<br><br><b>Activity:</b><br><br>Divide learners into pairs. Give each pair a short paragraph.<br><br>Ask them to:<br>1. Read the paragraph.<br>2. Highlight or underline the main idea.<br>3. Circle or list supporting details.<br><br><b>Example Paragraph for Practice:</b><br><br>'Reading every day helps students improve in many ways. It builds vocabulary, improves concentration, and enhances imagination. Readers also develop better writing skills and comprehension.'<br><br><b>Expected Answer:</b><br><br>Main Idea: 'Reading every day helps students improve in many ways.'<br>Details: Builds vocabulary, improves concentration, enhances imagination, better writing skills, better comprehension.",
+      "<b>Part 4: Independent Learning & Application (10 minutes)</b><br><br><b>Objective:</b><br><br>To allow learners to practice the skill independently.<br><br><b>Task:</b><br><br>Distribute a short reading passage to each student.<br><br>Ask them to write down:<br>1. The main idea of the passage.<br>2. Three supporting details.<br><br>Afterward, choose a few learners to share their answers aloud.",
+      "<b>Part 5: Exercise (10–15 minutes)</b><br><br><b>Instructions:</b><br><br>Read the passage below and answer the questions.<br><br><b>Passage:</b><br>'Plastic pollution is a growing problem in our environment. Every year, millions of tons of plastic waste end up in the oceans, harming marine life. Sea turtles often mistake plastic bags for jellyfish and eat them. Birds also get tangled in plastic waste and can't fly. Many organizations are working to reduce plastic use and clean up our oceans.'<br><br><b>Questions:</b><br>1. What is the main idea of the passage?<br>2. List three supporting details from the passage.<br>3. What happens when sea turtles eat plastic bags?<br>4. How are birds affected by plastic waste?<br>5. What is one solution mentioned in the passage?<br><br><b>Answers (for teacher reference):</b><br>1. Plastic pollution is a growing problem in our environment.<br>2. Plastic harms marine life, turtles eat plastic, birds get tangled in waste.<br>3. They mistake them for jellyfish and eat them.<br>4. They get tangled and can't fly.<br>5. Organizations are working to reduce plastic use and clean up oceans."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during modeling, practice, and discussions.",
+    "<b>Exercise</b>: The passage-based activity will evaluate the students' ability to identify main ideas and supporting details."
+  ],
+  "conclusion": [
+    "By the end of the lesson, students will be able to recognize the main idea and supporting details in passages, improving their reading comprehension skills."
+  ]
+},
 
 // Lesaon 4
+{
+  "title": "Introducing Yourself / Sharing Summer Stories",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Introducing Yourself / Sharing Summer Stories",
+  "grade": "Fledgling Falcons",
+  "term": "2",
+  "week": "2",
+  "lessonNumber": "4",
+  "description": "This lesson builds communication and writing skills through personal expression and storytelling.",
+  "materials": [
+    "Whiteboard and markers",
+    "Paper and pencils",
+    "Optional drawing materials"
+  ],
+  "objectives": [
+    "To help learners understand the importance of introducing themselves clearly and confidently.",
+    "To prepare learners to organize and share personal stories from their holiday.",
+    "To model how to introduce oneself and share a short summer story.",
+    "To guide learners in preparing their own introductions and summer stories.",
+    "To allow learners to confidently speak in front of others and listen actively."
+  ],
+  "rationale": [
+    "Effective communication builds confidence and social connection.",
+    "Storytelling allows learners to practice speaking and writing in meaningful ways.",
+    "Introducing oneself is a life skill used in school and beyond."
+  ],
+  "methodology": [
+    "The lesson will use teacher modeling, guided practice, paired discussions, and personal writing."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (10 minutes)</b>:<br><br><b>Objective:</b><br><br>To help learners understand the importance of introducing themselves clearly and confidently.<br><br>To prepare learners to organize and share personal stories from their holiday.<br><br><b>Discussion Prompts:</b><br><br>Why is it important to know how to introduce yourself?<br>How do you feel when someone shares a story with you?<br>What do you think makes a story interesting?<br><br><b>Key Teaching Points:</b><br><br>A good introduction includes: name, age, school/grade, hobbies, and one interesting fact.<br>A good story includes: setting (when and where), characters, what happened, and how you felt.",
+      "<b>Part 2: Teacher Modeling (15 minutes)</b>:<br><br><b>Objective:</b><br><br>To model how to introduce yourself and share a short summer story.<br><br><b>Teacher Model Example:</b><br><br>'Hello everyone! My name is Mr. Mbaso. I’m your English teacher this year. One of my hobbies is reading detective novels. During the holiday, I visited my grandmother in the countryside. We picked fresh mangoes from her trees and went fishing in the river. It reminded me of my childhood, and I felt very happy and relaxed.'<br><br><b>Breakdown of Model:</b><br><br>Introduction: Name, role, hobby<br>Story: Where, when, what happened<br>Feelings: Emotions experienced<br><br><b>Ask learners:</b><br><br>What did you learn about Mr. Mbaso?<br>What made the story interesting?",
+      "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br><b>Objective:</b><br><br>To guide learners in preparing their own introductions and summer stories.<br><br><b>Activity:</b><br><br>1. On the board, write this template:<br><br>My name is __________.<br>I am ___ years old and I am in Grade 7.<br>One of my hobbies is __________.<br>During the holiday, I __________.<br>I felt __________ because __________.<br><br>2. Learners fill in the template on paper first.<br><br>3. Pair learners up to practice telling their stories aloud to a partner.<br><br><b>Teacher Support:</b><br><br>Walk around, offer help with vocabulary, sentence structure, and confidence.",
+      "<b>Part 4: Class Sharing (10 minutes)</b>:<br><br><b>Objective:</b><br><br>To allow learners to confidently speak in front of others and listen actively.<br><br><b>Activity:</b><br><br>Select a few volunteers (or randomly pick names) to present their introduction and summer story to the class.<br><br>Encourage classmates to listen and give one kind comment or question (e.g., “That sounds fun!” or “How long did you stay there?”)",
+      "<b>Part 5: Exercise (10 minutes)</b>:<br><br><b>Task:</b><br><br>Write a short paragraph about your summer using the following guide:<br><br><b>Title:</b> My Holiday Experience<br><br><b>Instructions:</b><br><br>Write 1 paragraph (5–6 sentences) including:<br><br>Who you are<br>Where you went or what you did during the holiday<br>Who was with you<br>Something fun or exciting that happened<br>How you felt about the experience<br><br><b>Optional Extension:</b><br><br>Draw a small picture to go with your story."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussion, practice, and sharing.",
+    "<b>Exercise</b>: Learners’ written paragraphs will be checked for clarity, completeness, and personal expression."
+  ],
+  "conclusion": [
+    "By practicing introductions and sharing personal stories, learners will improve their communication, build confidence, and connect with their classmates through shared experiences."
+  ]
+},
 
 // Lesson 5
 
