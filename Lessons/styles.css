@@ -305,7 +305,16 @@ ul ol {
 	margin-top: 1px;
 }
 
-
+.stage {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px;
+  margin: 3px 0;
+  min-width: 10px;
+  font-weight: bold;
+}
 
 /* Media queries for responsiveness */
 
