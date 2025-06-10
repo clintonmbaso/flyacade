@@ -302,145 +302,147 @@ const lessonPlans42b = [
 // Week 4
 // Lesson 1
 {
-  "title": "Exploring the Computer Keyboard: Common Keys",
+  "title": "Exploring the Keyboard",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Identifying and Understanding Common Keys on the Keyboard",
+  "topic": "Identifying and Understanding Common Keyboard Keys",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson introduces students to the computer keyboard and helps them identify and understand the functions of common keys.",
+  "description": "This lesson introduces students to the computer keyboard, helping them recognize, understand, and practice using common keys like letters, numbers, and special keys.",
   "materials": [
-    "Computer keyboard (real or visual aids)",
-    "Class chart or whiteboard",
-    "Labeled diagram of a keyboard"
+    "Real or printed computer keyboard",
+    "Projector or chart of keyboard layout",
+    "Printed keyboard worksheets",
+    "Color pencils or crayons"
   ],
   "objectives": [
-    "Students will identify common keys on the keyboard, including letters, numbers, and special keys.",
-    "Students will understand the function of each key and how to use it effectively."
+    "Identify common keys on the keyboard (letters, numbers, and special keys).",
+    "Explain the function of each key.",
+    "Demonstrate how to use the keys correctly."
   ],
   "rationale": [
-    "Familiarity with the keyboard is essential for developing basic computer skills and enhancing digital literacy."
+    "Understanding the layout and function of the keyboard helps learners build basic computer literacy, which is essential for technology use in school and beyond."
   ],
   "methodology": [
-    "The lesson will use hands-on practice, group discussions, and demonstrations to ensure students can engage with the keyboard effectively."
+    "The lesson will use demonstration, discussion, guided practice, and group activities to help students learn and interact with keyboard components."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain the importance of the keyboard as an input device for typing and navigating a computer.",
-      "<b>Common Keys</b>: Students will identify the main sections of the keyboard, including alphanumeric keys, function keys, and special keys like Enter, Spacebar, and Shift.",
-      "<b>Demonstration</b>: The teacher will demonstrate the use of each key, showing examples such as typing words, capitalizing letters, and using the spacebar to separate words.",
-      "<b>Hands-On Practice</b>: Students will practice typing simple words and sentences using the common keys they learned about.",
-      "<b>Class Exercise</b>:<br>1. Name two special keys on the keyboard.<br>2. Which key do you press to make a capital letter?<br>3. What is the function of the Spacebar?"
+      "<b>Part 1: Introduction – What is a Keyboard?</b><br><br><b>Time:</b> 10 minutes<br><b>Teaching Method:</b> Class discussion and teacher explanation<br><br><b>Activities:</b><br><br>Show the class a computer keyboard (real or picture).<br>Ask: “What is this?” → Guide them to say 'keyboard.'<br>Explain: A keyboard is a part of the computer that we use to type letters, numbers, and symbols.<br>Ask: “Have you used a keyboard before? What did you type?” (Take 2–3 responses)<br><br><b>Key Points:</b><br>A keyboard is an input device.<br>It helps us give commands and type information into the computer.",
+      "<b>Part 2: Types of Keys on the Keyboard</b><br><br><b>Time:</b> 15 minutes<br><b>Teaching Method:</b> Demonstration and questioning<br><br><b>Activities:</b><br><br>Use a projector or picture to highlight the different groups of keys:<br><br>1. Letter Keys (A–Z) – used to type words.<br>2. Number Keys (0–9) – used for numbers.<br>3. Special Keys – such as:<br>&nbsp;&nbsp;- Space bar – makes a space between words<br>&nbsp;&nbsp;- Enter – moves the cursor to the next line<br>&nbsp;&nbsp;- Backspace – deletes one character<br>&nbsp;&nbsp;- Shift – used to type capital letters or special symbols<br>&nbsp;&nbsp;- Caps Lock – types all capital letters when on<br>&nbsp;&nbsp;- Arrow keys – move the cursor up, down, left, or right<br><br><b>Questioning:</b><br>Point to a key and ask: “Who can tell me what this key does?”<br>Let learners come to the front and show the key on the keyboard.",
+      "<b>Part 3: How to Use Keys Effectively</b><br><br><b>Time:</b> 10 minutes<br><b>Teaching Method:</b> Guided practice<br><br><b>Activities:</b><br><br>Demonstrate typing a simple sentence: “My name is [Name].”<br>Emphasize pressing the Shift key for capital letters.<br>Show using the space bar, backspace, and enter.<br>Ask learners to copy the sentence on their imaginary keyboards using finger movement on their desks.<br><br>Discuss proper keyboard posture:<br>&nbsp;&nbsp;- Sit straight<br>&nbsp;&nbsp;- Use both hands<br>&nbsp;&nbsp;- Don’t bang the keys",
+      "<b>Part 4: Group Activity – Key Hunt</b><br><br><b>Time:</b> 10 minutes<br><b>Teaching Method:</b> Interactive and exploratory<br><br><b>Activities:</b><br><br>Hand out a printed keyboard diagram to each group (or display on board).<br>Call out a function, and let them point to the key (e.g., “Which key gives you a space between words?”)<br>Call out letters, numbers, and special keys randomly.<br>Give praise for correct answers.",
+      "<b>Part 5: Exercise – My Keyboard Worksheet</b><br><br><b>Time:</b> 15 minutes<br><br><b>Instructions:</b><br>Give learners the following worksheet to complete individually.<br><br><b>Worksheet:</b><br><br>1. Circle all the letter keys in the keyboard picture below.<br>2. Color the space bar blue.<br>3. Tick (✔) the following special keys on the keyboard:<br>&nbsp;&nbsp;- Enter<br>&nbsp;&nbsp;- Backspace<br>&nbsp;&nbsp;- Caps Lock<br>4. Fill in the blanks:<br>&nbsp;&nbsp;- The key that makes a space is the __________.<br>&nbsp;&nbsp;- The key that moves to the next line is the __________.<br>&nbsp;&nbsp;- The key that deletes a letter is the __________.<br>&nbsp;&nbsp;- We press the __________ key to type capital letters.<br>5. Practice: On the lines below, write your name using capital letters and spaces."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will observe students' participation during hands-on practice and their ability to use the common keys.",
-    "<br><b>Homework</b>:<br>1. Draw and label the main parts of a keyboard.<br>2. Write three sentences using the Spacebar and Enter key correctly.<br>3. What is the function of the Backspace key?"
+    "<b>Observation:</b> Observe participation during discussions and group activity.",
+    "<b>Worksheet:</b> Mark the worksheet to check if learners can identify and explain key functions."
   ],
   "conclusion": [
-    "By the end of the lesson, students will be able to identify and use common keys on the keyboard, building a strong foundation for computer literacy."
+    "By learning the different types of keyboard keys and how to use them properly, learners gain important typing skills and basic computer knowledge necessary for future learning."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Demonstrating Basic Typing Skills: Numbers",
+  "title": "Typing with Numbers – Understanding Numeric Keys",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Learning to Type Numbers Using a Keyboard",
+  "topic": "Locating and Using Numeric Keys on the Keyboard",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson focuses on teaching students basic typing skills, specifically typing numbers using a keyboard.",
+  "description": "This lesson helps students recognize and type numeric keys on the keyboard, improving their keyboard familiarity and numeric typing accuracy.",
   "materials": [
-    "Computers with keyboards for each student",
-    "Visual aids showing the numeric keypad and top row of the keyboard",
-    "Number typing practice sheets or software"
+    "Real or projected keyboard",
+    "Worksheets",
+    "Markers or pencils"
   ],
   "objectives": [
-    "Students will locate the numeric keys on the keyboard.",
-    "Students will type numbers accurately using the keyboard."
+    "Locate the numeric keys on the keyboard",
+    "Type numbers accurately using the keyboard"
   ],
   "rationale": [
-    "Developing basic typing skills is essential for effective use of computers in academic and everyday tasks."
+    "Learning to identify and use numeric keys is essential for computer literacy and typing skills, which are foundational in today’s digital world."
   ],
   "methodology": [
-    "The lesson will use demonstrations, guided practice, and independent exercises to build students' confidence in typing numbers."
+    "Class discussion, demonstration, guided discovery, hands-on practice, and games"
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will explain the importance of typing skills and demonstrate the location of numeric keys on the keyboard.",
-      "<b>Number Keys</b>: Students will practice locating the numeric keys on the top row and numeric keypad (if available) of the keyboard.",
-      "<b>Typing Practice</b>: Students will type simple number sequences displayed on the board, such as 12345, 67890, and 13579.",
-      "<b>Speed and Accuracy</b>: Students will use typing software or practice exercises to improve their speed and accuracy in typing numbers.",
-      "<b>Class Exercise</b>:<br>1. Where are the numeric keys located on a keyboard?<br>2. Type the sequence 24680 three times.<br>3. What is the primary use of the numeric keypad?"
+      "<b>Part 1: Introduction – What Are Numeric Keys?</b><br><br>Time: 10 minutes<br>Teaching Method: Class discussion and teacher-led explanation<br><br>Activities:<br><br>Begin by asking: “Who can count from 0 to 9?” (Let students count together)<br><br>Show a keyboard or a picture of one. Ask: “Can you find where we type numbers on this keyboard?”<br><br>Explain:<br><br>The numeric keys are the number keys from 0 to 9.<br><br>They are found in two places:<br><br>1. Top row of the keyboard (above the letter keys)<br><br>2. Numeric keypad on the right side (on some keyboards)",
+      "<b>Part 2: Locating the Number Keys</b><br><br>Time: 10 minutes<br>Teaching Method: Demonstration and guided discovery<br><br>Activities:<br><br>Use a real or projected keyboard to point out the top row number keys (0–9).<br><br>If available, show the numeric keypad on the right-hand side.<br><br>Ask learners to:<br><br>Point to each number key as you say it<br><br>Say the numbers out loud as they point: “0, 1, 2, 3, … 9”<br><br>Discuss: Some keyboards (like laptops) may not have a numeric keypad, but the top row is always there.",
+      "<b>Part 3: Typing Practice – Using Number Keys</b><br><br>Time: 15 minutes<br>Teaching Method: Hands-on typing practice<br><br>Activities:<br><br>Demonstrate typing simple numbers:<br><br>“123”<br>“456”<br>“2025”<br>“100”<br><br>Emphasize pressing one key at a time, using the correct fingers (if doing keyboarding practice).<br><br>Let learners come up to the keyboard and type a number you say aloud.<br><br>Have students use imaginary keyboards on their desks to type along.",
+      "<b>Part 4: Number Typing Challenge (Game)</b><br><br>Time: 10 minutes<br>Teaching Method: Group activity / Game<br><br>Activity – “Fast Fingers” Game:<br><br>Divide learners into groups.<br><br>Say a number (e.g., “234”)<br><br>One learner from each group comes to the front and types it on the keyboard.<br><br>The fastest and most accurate group gets a point.<br><br>Continue with 3–4 rounds.",
+      "<b>Part 5: Exercise – My Number Keys Practice</b><br><br>Time: 15 minutes<br><br>Instructions: Provide learners with a worksheet or have them write answers in their books.<br><br>Worksheet:<br><br>1. Circle all the number keys on this keyboard picture (0 to 9).<br><br>2. Write the numbers from 0 to 9 neatly.<br><br>3. Type (or copy by writing if no computers are available) the following numbers:<br><br>45<br>120<br>900<br>2025<br><br>4. Fill in the blanks:<br><br>I can find number keys on the __________ row of the keyboard.<br><br>The key that comes after 3 is __________.<br><br>The number before 8 is __________.<br><br>A group of number keys on the right side is called the __________ keypad."
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will monitor students' accuracy and speed while typing numbers during practice exercises.",
-    "<br><b>Homework</b>:<br>1. Practice typing the numbers from 1 to 20 five times.<br>2. Write down which finger is used for each numeric key on the keyboard."
+    "<b>Observation</b>: Observe typing accuracy and speed during the activity.",
+    "<b>Worksheet</b>: Mark worksheets to check for understanding."
   ],
   "conclusion": [
-    "By practicing typing numbers on the keyboard, students will gain confidence and accuracy in their typing skills, which is a critical foundation for future computer use."
+    "Learners will have practiced identifying and using number keys on the keyboard, helping them develop important keyboarding and numeric skills."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Developing Basic Typing Skills",
+  "title": "Main Keys and Typing Practice",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Demonstrating Basic Typing Skills: Words and Simple Sentences",
+  "topic": "Identifying Main Keys and Practicing Typing",
   "grade": "Wing Whiz",
   "term": "2",
   "week": "4",
   "lessonNumber": "3",
-  "description": "This lesson focuses on developing students' ability to type words and simple sentences accurately using a keyboard.",
+  "description": "This lesson helps learners identify the main keys on a keyboard and practice typing simple words and sentences accurately.",
   "materials": [
-    "Laptops or desktop computers",
-    "Keyboard typing practice software or online tools",
-    "Printed list of sample words and simple sentences"
+    "Real or printed keyboard diagrams",
+    "Computers or paper keyboards",
+    "Worksheets"
   ],
   "objectives": [
-    "Students will learn to identify the main keys on a keyboard.",
-    "Students will practice typing words and simple sentences with accuracy and proper technique."
+    "Identify the main keys on the keyboard",
+    "Type simple words and sentences with accuracy and proper technique"
   ],
   "rationale": [
-    "Learning basic typing skills is essential for students to effectively use computers and digital tools in academic and personal tasks."
+    "Learning the main keys on the keyboard and practicing typing prepares students for using digital tools effectively and confidently."
   ],
   "methodology": [
-    "The lesson will combine guided demonstrations, individual practice, and interactive activities to engage students and build their typing skills."
+    "The lesson uses discussion, visual demonstration, guided practice, and peer interaction to reinforce typing skills."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction</b>: The teacher will demonstrate the proper hand placement on the keyboard and explain the importance of typing with correct posture.",
-      "<b>Identifying Keys</b>: Students will explore the keyboard layout, focusing on the alphabetic keys, spacebar, and punctuation marks.",
-      "<b>Typing Words</b>: Students will practice typing simple words such as 'cat', 'dog', and 'sun' using both hands.",
-      "<b>Typing Sentences</b>: Students will progress to typing simple sentences such as 'I like to play.' or 'The sun is bright.'",
-      "<b>Class Exercise</b>:<br>1. Type the word 'keyboard'.<br>2. Type the sentence 'I love to learn typing.'<br>3. What is the function of the spacebar?"
+      "<b>Part 1: Introduction – What Are the Main Keys?</b><br><br>Time: 10 minutes<br>Teaching Method: Class discussion and visual demonstration<br><br>Activities:<br><br>Begin by showing a large image or real keyboard. Ask: “Which keys do we use the most when typing?”<br><br>Introduce the main keys:<br><ul><li>Letter keys (A–Z)</li><li>Number keys (0–9)</li><li>Space bar</li><li>Enter key</li><li>Backspace</li><li>Shift</li><li>Caps Lock</li><li>Full stop (.) and comma (,)</li></ul><br><br>Discussion Prompt:<br>Ask learners why these keys are important when writing words and sentences.",
+      "<b>Part 2: Identifying Main Keys</b><br><br>Time: 10 minutes<br>Teaching Method: Guided exploration<br><br>Activities:<br><br>Distribute printed keyboard diagrams or show one on the board.<br><br>Call out key names and have students point to or color them.<br><br>Ask:<br><ul><li>“Which key makes a space?”</li><li>“Which one starts a new line?”</li><li>“Which key deletes a letter?”</li><li>“Which key makes CAPITAL letters?”</li></ul><br><br>Bonus Tip:<br>Demonstrate how holding Shift + Letter creates a capital letter.",
+      "<b>Part 3: Typing Words and Sentences</b><br><br>Time: 15 minutes<br>Teaching Method: Demonstration and student practice<br><br>Activities:<br><br>Demonstrate typing a few simple words:<br><ul><li>“cat”, “dog”, “book”, “sun”</li></ul><br>Then type short sentences:<br><ul><li>“I like school.”</li><li>“The sun is hot.”</li><li>“My name is John.”</li></ul><br><br>Emphasize correct typing technique:<br><ul><li>Use both hands</li><li>Sit upright</li><li>Keep fingers relaxed</li></ul><br><br>Learners practice typing the same words/sentences on real keyboards if available, or using finger-movement on “desk keyboards.”",
+      "<b>Part 4: Partner Activity – Type and Read</b><br><br>Time: 10 minutes<br>Teaching Method: Peer interaction and practice<br><br>Activities:<br><br>Pair up learners. One says a word or sentence; the other types it.<br><br>Take turns.<br><br>If using paper keyboards or drawing, one spells and the other writes.<br><br>Check each other’s work. Encourage polite correction.",
+      "<b>Part 5: Exercise – My Typing Practice</b><br><br>Time: 15 minutes<br><br>Instructions: Provide learners with a worksheet or let them type if computers are available.<br><br>Worksheet or Typing Task:<br><br>1. Label these main keys on the keyboard diagram:<br>- Space bar<br>- Enter<br>- Backspace<br>- Shift<br>- Letter A<br>- Number 5<br><br>2. Type or write the following words:<br>- sun<br>- fish<br>- happy<br>- apple<br><br>3. Type or copy the following sentences:<br>- I am in grade three.<br>- We use a keyboard to type.<br>- My best friend is kind.<br><br>4. Answer the questions:<br>- Which key do you use to start a new line? __________<br>- Which key do you press to erase a mistake? __________<br>- What do you press to type capital letters? __________"
     ]
   ],
   "assessments": [
-    "<b>Observation</b>: The teacher will monitor students' typing speed and accuracy during practice activities.",
-    "<br><b>Homework</b>:<br>1. Practice typing five words of your choice.<br>2. Type two simple sentences and share them with your teacher in the next class."
+    "<b>Observation</b>: Observe typing accuracy and technique.",
+    "<b>Exercise</b>: Mark exercises to check understanding and correct use of main keys."
   ],
   "conclusion": [
-    "Through guided practice and exercises, students will develop confidence and accuracy in typing words and sentences, laying the foundation for future computer use."
+    "By identifying main keys and practicing proper typing skills, learners will gain confidence and accuracy in using the keyboard for writing simple words and sentences."
   ]
 },
 
