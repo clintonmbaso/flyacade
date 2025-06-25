@@ -11,8 +11,7 @@ body {
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
-
+            background-size: cover;
             margin: 0;
             padding: 0;
             height: 100vh;
@@ -76,7 +75,7 @@ body {
         { username: "3", password: "lm" },
         { username: "14", password: "ks" },
         { username: "11", password: "fn" },
-        { username: "13", password: "mm" }
+        { username: "12", password: "ks" }
     ];
 
     function login() {
@@ -92,7 +91,7 @@ body {
             
             // Redirect to a specific page after successful login
             setTimeout(function() {
-                window.location.href = "../teaching_hub.html"; // Replace with your desired page
+                window.location.href = "../teachers/teaching_hub.html"; // Replace with your desired page
             }, 1000); // Delay before redirecting (optional)
         } else {
             document.getElementById("message").style.color = "red";
