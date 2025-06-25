@@ -66,8 +66,8 @@ const lessonPlans89b = [
   "topic": "Paragraph Structure",
   "grade": "Fledgling Falcons",
   "term": "2",
-  "week": "4",
-  "lessonNumber": "1",
+  "week": "2",
+  "lessonNumber": "2",
   "description": "This lesson introduces students to paragraph structure, focusing on the topic sentence, supporting details, and concluding sentence, and enables them to construct complete paragraphs.",
   "materials": [
     "Whiteboard and markers",
@@ -215,9 +215,102 @@ const lessonPlans89b = [
 
 // Week 3
 // Lesson 1
-
+{
+  "title": "Types of Sentences",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Types of Sentences",
+  "grade": "Fledgling Falcons",
+  "term": "2",
+  "week": "3",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students to identify and use the four types of sentences (declarative, interrogative, imperative, and exclamatory) in communication.",
+  "materials": [
+    "Whiteboard and markers",
+    "Examples of sentences from textbooks",
+    "Newspaper clippings"
+  ],
+  "objectives": [
+    "Students will learn the four types of sentences and their purposes.",
+    "Students will practice identifying sentence types in written and spoken examples.",
+    "Students will create their own examples of each sentence type."
+  ],
+  "rationale": [
+    "Understanding sentence types improves communication skills, helping students express facts, questions, commands, and emotions effectively."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, group activities, and real-life examples to teach sentence types."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Sentences</b>:<br><br>**What is a Sentence?**<br>A sentence is a group of words that expresses a complete thought. Every sentence has:<br>- A **subject** (who or what the sentence is about).<br>- A **predicate** (what the subject is doing or what is happening).<br><br>**Example:**<br>*\"The Fledgling Falcons (subject) learn about sentences (predicate).\"*<br><br>**Why Learn Sentence Types?**<br>Different types of sentences help us communicate clearly—whether we’re stating facts, asking questions, giving commands, or showing excitement.",
+      "<b>Part 2: The Four Types of Sentences</b>:<br><br>1. **Declarative Sentence**<br>- **Purpose:** States a fact or opinion.<br>- **Ends with:** A period (.)<br>- **Example:**<br>*\"Ghana gained independence in 1957.\"*<br><br>2. **Interrogative Sentence**<br>- **Purpose:** Asks a question.<br>- **Ends with:** A question mark (?)<br>- **Example:**<br>*\"What is the capital of Ghana?\"*<br><br>3. **Imperative Sentence**<br>- **Purpose:** Gives a command or request.<br>- **Ends with:** A period (.) or exclamation mark (!)<br>- **Example:**<br>*\"Please open your Social Studies textbooks.\"*<br><br>4. **Exclamatory Sentence**<br>- **Purpose:** Shows strong emotion or excitement.<br>- **Ends with:** An exclamation mark (!)<br>- **Example:**<br>*\"Wow, Independence Day is amazing!\"*",
+      "<b>Part 3: Identifying Sentence Types</b>:<br><br>**Class Activity:**<br>Read each sentence aloud and identify its type:<br>1. \"The Ashanti Kingdom is rich in culture.\" (Declarative)<br>2. \"Do you know the founder of the Kingdom?\" (Interrogative)<br>3. \"Name three festivals in Ghana.\" (Imperative)<br>4. \"What a beautiful Kente cloth!\" (Exclamatory)<br><br>**Tip:** Look at the **end punctuation** and **purpose** to decide!",
+      "<b>Part 4: Real-Life Connection</b>:<br><br>**Why It Matters:**<br>- **Declarative:** Used in textbooks (facts).<br>- **Interrogative:** Used in interviews or quizzes.<br>- **Imperative:** Used in instructions (recipes, rules).<br>- **Exclamatory:** Used in stories or speeches to show emotion.<br><br>**Pair Discussion:**<br>With a partner, create one sentence of each type about Ghana’s history or culture.",
+      "<b>Part 5: Exercise (Assessment)</b>:<br><br>**A. Identify the sentence type:**<br>1. \"The Fledgling Falcons are the best class!\"<br>2. \"When is the next holiday?\"<br>3. \"Draw a map of Ghana.\"<br>4. \"The Volta Lake is the largest man-made lake.\"<br><br>**B. Write your own examples:**<br>1. Declarative: ________________________________<br>2. Interrogative: ______________________________<br>3. Imperative: ________________________________<br>4. Exclamatory: _______________________________<br><br>**Bonus:** Use a sentence type to describe your favorite Ghanaian hero!"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will monitor participation during the class activity and pair discussions.",
+    "<b>Exercise</b>: The written exercise will assess students' ability to identify and create different sentence types."
+  ],
+  "conclusion": [
+    "By mastering the four types of sentences, students will enhance their ability to communicate clearly in both academic and everyday contexts."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Descriptive Writing",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Descriptive Writing",
+  "grade": "Fledgling Falcons",
+  "term": "2",
+  "week": "3",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to descriptive writing, focusing on sensory details, figurative language, and vivid vocabulary to create engaging descriptions.",
+  "materials": [
+    "Whiteboard and markers",
+    "Sample descriptive paragraphs",
+    "Writing paper or notebooks"
+  ],
+  "objectives": [
+    "Students will understand the purpose and features of descriptive writing.",
+    "Students will identify sensory details and figurative language in descriptive passages.",
+    "Students will practice writing their own descriptive paragraphs using vivid language."
+  ],
+  "rationale": [
+    "Descriptive writing enhances students' ability to express ideas vividly, improving their overall writing skills and creativity."
+  ],
+  "methodology": [
+    "The lesson will use explanations, examples, discussions, and guided practice to teach descriptive writing techniques."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Descriptive Writing</b>:<br><br>Objective:<br>Understand what descriptive writing is and why it is important.<br><br>Explanation: Descriptive writing is a style of writing that helps readers imagine what is being described. It paints a picture with words by using sensory details (sight, sound, smell, taste, touch) and figurative language (similes, metaphors, personification).<br><br>Discussion Questions:<br>Have you ever read a story that made you feel like you were really there?<br>What kinds of words or details made it feel that way?<br><br>Key Point:<br>Descriptive writing helps the reader see, feel, smell, hear, or taste what the writer is describing.",
+      "<b>Part 2: Features of Descriptive Writing</b>:<br><br>Objective:<br>Identify and understand key features of descriptive writing.<br><br>Explanation: The following are features of good descriptive writing:<br><br>1. Sensory Language – Describing what things look like, sound like, smell like, feel like, or taste like.<br><br>2. Figurative Language – Using similes (“as fast as a cheetah”), metaphors (“the sky was a blanket of stars”), and personification (“the wind whispered”).<br><br>3. Vivid Vocabulary – Using specific, interesting words (not just 'nice,' 'big,' or 'bad').<br><br>4. Clear Structure – A beginning, middle, and end with good paragraphing.<br><br>5. Show, Don’t Tell – Instead of saying “she was scared,” show it: “her hands trembled and her heart raced.”<br><br>Class Activity:<br>Read a short descriptive paragraph and identify the sensory details and figurative language.",
+      "<b>Part 3: Describing Settings and Characters</b>:<br><br>Objective:<br>Practice describing places and people using vivid details.<br><br>Explanation: When writing descriptively, writers focus on the setting (place or environment) and the character (how a person looks, moves, feels, and behaves).<br><br>Example Setting:<br>> The sun dipped below the horizon, casting golden shadows over the silent, dusty road. A soft breeze stirred the tall grass, carrying the scent of wildflowers.<br><br>Example Character:<br>> Mrs. Dube had eyes like warm tea and a voice that wrapped around you like a cozy blanket. Her wrinkled hands moved slowly but with care, each motion filled with kindness.<br><br>Class Discussion:<br>What do you imagine when you hear these descriptions?<br>What makes them feel real?",
+      "<b>Part 4: Planning and Writing Descriptions</b>:<br><br>Objective:<br>Learn how to plan and write a short descriptive paragraph.<br><br>Steps to Write a Descriptive Paragraph:<br><br>1. Choose a topic: (e.g., A rainy day, A market, A mysterious stranger)<br><br>2. Brainstorm sensory details: What do you see, hear, smell, taste, or feel?<br><br>3. Use figurative language: Add similes, metaphors, or personification.<br><br>4. Organize your ideas: Start with a strong opening and build details.<br><br>5. Write and revise: Write your paragraph, then check for vivid words and smooth sentences.<br><br>Model Planning Example (Describing a Beach):<br>Sight: Blue waves, golden sand, children playing<br>Sound: Crashing waves, seagulls calling<br>Smell: Salt in the air<br>Feel: Warm sun on skin, sand between toes<br>Taste: Sweet coconut water",
+      "<b>Part 5: Exercise – Descriptive Writing Task</b>:<br><br>Instructions:<br>Choose one of the following topics and write a descriptive paragraph (6–10 sentences) using the techniques learned:<br><br>1. A rainy afternoon in the village<br><br>2. A busy local market<br><br>3. A strange creature in the forest<br><br>4. Your dream place to visit<br><br>Checklist for Students: ✅ Used at least 3 sensory details<br>✅ Included 1 or more figurative language devices<br>✅ Used vivid vocabulary<br>✅ Wrote in complete sentences<br>✅ Checked spelling and punctuation"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and activities.",
+    "<b>Writing Task</b>: The descriptive paragraph exercise will evaluate students' use of sensory details, figurative language, and vivid vocabulary."
+  ],
+  "conclusion": [
+    "By practicing descriptive writing, students will enhance their ability to create vivid and engaging descriptions, improving their overall writing skills."
+  ]
+},
 
 // Lesson 3
 
@@ -227,7 +320,54 @@ const lessonPlans89b = [
 
 // Week 4
 // Lesson 1
-
+{
+  "title": "Subject-Verb Agreement",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "English",
+  "topic": "Subject-Verb Agreement",
+  "grade": "Fledgling Falcons",
+  "term": "2",
+  "week": "4",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students the rules of subject-verb agreement, ensuring grammatical accuracy in sentences.",
+  "materials": [
+    "Whiteboard and markers",
+    "Grammar worksheets",
+    "Social Studies textbook for examples"
+  ],
+  "objectives": [
+    "Define subject-verb agreement.",
+    "Identify the subject and verb in a sentence.",
+    "Apply the rules of subject-verb agreement correctly in sentences.",
+    "Construct sentences with proper subject-verb agreement."
+  ],
+  "rationale": [
+    "Mastering subject-verb agreement improves writing clarity and grammatical precision, essential for effective communication in Social Studies and beyond."
+  ],
+  "methodology": [
+    "The lesson will use direct instruction, examples, guided practice, and exercises to reinforce subject-verb agreement rules."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Subject-Verb Agreement</b>:<br><br><b>What is Subject-Verb Agreement?</b><br>- Every sentence has a <b>subject</b> (who or what the sentence is about) and a <b>verb</b> (the action or state of being).<br>- <b>Subject-verb agreement</b> means that the verb must match the subject in <b>number</b> (singular or plural).<br><br><b>Examples:</b><br>1. <b>Singular Subject:</b> *The bird <b>flies</b> high.* (One bird → \"flies\")<br>2. <b>Plural Subject:</b> *The birds <b>fly</b> high.* (Many birds → \"fly\")<br><br><b>Rule:</b><br>- <b>Singular subject</b> → verb + <b>s/es</b> (e.g., runs, eats).<br>- <b>Plural subject</b> → base verb (e.g., run, eat).",
+      "<b>Part 2: Rules of Subject-Verb Agreement</b>:<br><br><b>Rule 1: Singular Subjects Take Singular Verbs</b><br>- *The teacher <b>teaches</b> the class.* (Correct: \"teaches\")<br>- *A student <b>answers</b> the question.*<br><br><b>Rule 2: Plural Subjects Take Plural Verbs</b><br>- *The teachers <b>teach</b> the class.*<br>- *Students <b>answer</b> the questions.*<br><br><b>Rule 3: Compound Subjects (Joined by \"and\") Take Plural Verbs</b><br>- *Tom and Jerry <b>are</b> friends.*<br>- *Books and notebooks <b>are</b> on the table.*<br><br><b>Rule 4: When Subjects Are Joined by \"or\" or \"nor,\" the Verb Agrees with the Closest Subject</b><br>- *Either the teacher or the students <b>are</b> responsible.*<br>- *Neither the students nor the teacher <b>knows</b> the answer.*",
+      "<b>Part 3: Special Cases & Exceptions</b>:<br><br><b>1. Collective Nouns (Team, Class, Family)</b><br>- If acting as <b>one unit</b>, use a <b>singular verb</b>:<br>  - *The team <b>wins</b> the game.*<br>- If members act <b>individually</b>, use a <b>plural verb</b>:<br>  - *The team <b>are</b> arguing.*<br><br><b>2. Indefinite Pronouns (Everyone, Nobody, Each)</b><br>- Words like <b>everyone, somebody, each</b> take <b>singular verbs</b>:<br>  - *Everybody <b>has</b> a role.*<br>  - *Nobody <b>knows</b> the secret.*<br><br><b>3. Words Ending in \"s\" (News, Mathematics)</b><br>- Some words look plural but are <b>singular</b>:<br>  - *The news <b>is</b> important.*<br>  - *Mathematics <b>is</b> challenging.*",
+      "<b>Part 4: Practice Exercises</b>:<br><br><b>Exercise 1: Choose the Correct Verb</b><br>1. The dog (barks / bark) loudly.<br>2. My friends (likes / like) soccer.<br>3. Each student (has / have) a book.<br>4. The committee (decides / decide) tomorrow.<br>5. Neither the teacher nor the students (was / were) late.<br><br><b>Exercise 2: Correct the Errors</b><br>1. The children plays in the park.<br>2. Everybody know the answer.<br>3. The group are going on a trip.<br>4. A cat and a dog fights often.<br>5. Mathematics are my favorite subject.<br><br><b>Exercise 3: Create 5 Sentences</b><br>Write <b>5 sentences</b> with correct subject-verb agreement about <b>community helpers</b> (doctors, teachers, police, etc.).",
+      "<b>Part 5: Conclusion & Homework</b>:<br><br><b>Summary:</b><br>- <b>Subject-verb agreement</b> ensures sentences are grammatically correct.<br>- Always check if the subject is <b>singular or plural</b> before choosing the verb.<br>- Practice regularly to master the rules!<br><br><b>Homework:</b> Find <b>5 sentences</b> in a Social Studies textbook and identify the subject & verb."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: Teacher will monitor participation during rule explanations and exercises.",
+    "<b>Exercises</b>: Accuracy in Exercise 1, 2, and 3 will assess understanding."
+  ],
+  "conclusion": [
+    "Students will leave with a clear understanding of subject-verb agreement, enabling them to construct grammatically correct sentences in Social Studies and other subjects."
+  ]
+},
 
 // Lesson 2
 
