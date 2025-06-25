@@ -162,8 +162,8 @@ const teacherNames = {
     "Feather Flyers": "Mrs. Loveness Muwila",
     "Cloud Chicks": "Ms. Faith Nakaonga",
     "Wing Whiz": "Ms. Faith Nakaonga",
-    "Sky Soarers": "Mr. Muteba Masheka",
-    "Avian Aces": "Mr. Muteba Masheka",
+    "Sky Soarers": "Mr. Clinton Mbaso",
+    "Avian Aces": "Mr. Clinton Mbaso",
     "Nimbus Navigators": "Mr. Clinton Mbaso",
     "Fledgling Falcons": "Mr. Clinton Mbaso",
     "All Classes": "All Teachers"
