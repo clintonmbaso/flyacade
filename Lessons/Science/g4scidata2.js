@@ -605,27 +605,361 @@ const lessonPlans25b = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "Functions of Flowering Plant Parts",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Flowering Plants",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students the functions of different parts of a flowering plant, including roots, stem, leaves, and flowers.",
+  "materials": [
+    "Real flowering plant or diagram",
+    "Whiteboard and markers",
+    "Labeled plant diagrams"
+  ],
+  "objectives": [
+    "Students will identify the parts of a flowering plant.",
+    "Students will describe the functions of roots, stem, leaves, and flowers.",
+    "Students will understand how each part contributes to the plant's survival."
+  ],
+  "rationale": [
+    "Understanding plant structures helps students appreciate how plants grow and their role in ecosystems."
+  ],
+  "methodology": [
+    "The lesson will use discussion, demonstration, and hands-on activities to explain plant parts and their functions."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Begin with a short class discussion.<br>Ask learners: “Have you ever seen a flower growing in the garden? What parts did you notice?”<br>Show a real plant or a diagram of a flowering plant.<br>Let learners name visible parts: roots, stem, leaves, flower.<br>Explain: “Today we will learn what each part of a flowering plant does.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Introduce the parts of a flowering plant and their functions:<br><br>1. Roots<br>Grow under the soil.<br>Function: Hold the plant firmly in the ground (anchorage) and take in water and nutrients from the soil.<br><br>2. Stem<br>Grows above the ground, connecting the roots to other parts.<br>Function: Carries water and food to all parts of the plant. Also supports the plant to stand upright.<br><br>3. Leaves<br>Usually green and flat.<br>Function: Use sunlight to make food for the plant (photosynthesis).<br><br>4. Flower<br>The most colorful part of the plant.<br>Function: Helps the plant to reproduce by making seeds.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>Use a real plant or a labeled diagram to point out each part.<br>Show learners how roots are under the soil.<br>Trace how water might travel from roots → stem → leaves.<br>Ask: “Why is the flower important for new plants?” (Answer: It produces seeds.)<br>Let learners touch or draw each part if a plant is available.",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Ask learners simple review questions:<br>What part of the plant makes food?<br>What part helps the plant stay in the ground?<br>Which part carries water?<br>What is the job of the flower?<br><br>Praise correct answers and correct gently where needed.",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Match the plant part to its correct function.<br><br>Plant Part | Function<br>A. Roots | 1. Makes food for the plant<br>B. Stem | 2. Helps in reproduction<br>C. Leaves | 3. Holds the plant upright and transports water<br>D. Flower | 4. Anchors the plant and absorbs water<br><br>Write the correct letter and number:<br>1. Roots - ____<br>2. Stem - ____<br>3. Leaves - ____<br>4. Flower - ____"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: Teacher will assess participation during discussions and demonstrations.",
+    "<b>Exercise</b>: The matching activity will evaluate students' understanding of plant parts and functions."
+  ],
+  "conclusion": [
+    "Students will now understand how each part of a flowering plant works together to help it grow and reproduce."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Seed Germination",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Seed Germination",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to the conditions necessary for seed germination, focusing on moisture, favourable temperature, and air.",
+  "materials": [
+    "Dry seed and germinated seed (real or pictures)",
+    "Containers for experiment (e.g., plastic cups, fridge, plastic wrap)",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will identify the three main conditions necessary for seed germination: moisture, favourable temperature, and air.",
+    "Students will understand the role of each condition in the germination process.",
+    "Students will predict and observe the outcomes of an experiment demonstrating the absence of one condition."
+  ],
+  "rationale": [
+    "Understanding seed germination helps students grasp basic plant biology and the importance of environmental factors in plant growth."
+  ],
+  "methodology": [
+    "The lesson will use questioning, demonstrations, discussions, and hands-on experiments to teach the conditions necessary for seed germination."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Begin with a question:<br>“Have you ever planted a seed? What happened after a few days?”<br>Show learners a dry seed and a germinated seed (real or pictures).<br>Explain that germination means the process of a seed starting to grow into a new plant.<br><br>Tell the class: “Today we will learn what a seed needs in order to grow.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Introduce and explain the three main conditions needed for seed germination:<br><br>1. Moisture (Water)<br>Seeds need water to soften and activate the growth process.<br>Without moisture, the seed remains dry and cannot sprout.<br><br>2. Favourable Temperature<br>Seeds need warmth, not too cold or too hot, for the inside cells to start growing.<br>Warmth helps the seed use its stored food to begin growth.<br><br>3. Air (Oxygen)<br>The growing seed needs air to breathe.<br>Oxygen helps the seed get energy through respiration.<br><br>Explain: Without any one of these, the seed will not germinate properly.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>Set up a simple experiment or explain one clearly:<br><br>Prepare three containers with seeds:<br>1. Seed with no water<br>2. Seed with no warmth (put in the fridge)<br>3. Seed with no air (wrapped tightly in plastic)<br>4. Seed with all three conditions (control)<br><br>Ask learners to predict: Which seed will grow? Why?",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Review each condition with questions:<br>What happens if the seed gets no water?<br>Can a seed grow in cold weather?<br>Why does a seed need air?<br><br>Ask learners:<br>“If I plant a seed in dry soil, will it grow?”<br>Use real-life examples (e.g., farming or home gardens).",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Fill in the blanks with the correct words:<br>(Word Bank: moisture, air, temperature, germination)<br><br>1. The process where a seed begins to grow is called _______________.<br>2. Seeds need _______________ to soften and start growing.<br>3. A seed must have _______________ to breathe.<br>4. A _______________ temperature is needed for seeds to germinate.<br><br>Extension Activity (Optional)<br>Let learners draw a seed in soil and label it with the three conditions it needs.<br>Or, encourage them to grow a seed at home and observe changes."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' engagement during the experiment and discussion.",
+    "<b>Exercise</b>: The fill-in-the-blank exercise will evaluate the students' understanding of the conditions necessary for seed germination."
+  ],
+  "conclusion": [
+    "By learning about seed germination, students will understand the importance of moisture, favourable temperature, and air in the growth of plants."
+  ]
+},
 
 // Lesson 3
 
 // Week 8
 // Lesson 1
+{
+  "title": "Factors Necessary for Plant Growth",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Plant Growth",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson investigates the factors necessary for plant growth, including water, nutrients, sunlight, air, and favorable temperature, through discussion, demonstration, and activities.",
+  "materials": [
+    "Healthy green plant",
+    "Withered plant (real or pictures)",
+    "Soil samples",
+    "Plastic bags for experiment",
+    "Sand for nutrient-free growth"
+  ],
+  "objectives": [
+    "Students will identify and explain the five main factors necessary for plant growth.",
+    "Students will observe the effects of missing growth factors through a demonstration.",
+    "Students will apply their knowledge by matching factors to their functions in an exercise."
+  ],
+  "rationale": [
+    "Understanding plant growth factors helps students appreciate the needs of living organisms and the importance of environmental conditions in sustaining life."
+  ],
+  "methodology": [
+    "The lesson will use discussion, demonstration, and hands-on activities to explore plant growth requirements."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Begin with a simple class discussion:<br>Ask: “What happens if a plant doesn’t get water or sunlight?”<br>Show a healthy green plant and a withered plant (real or pictures).<br>Tell learners: “Today we will find out what things a plant needs to grow well.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Introduce and explain the five main factors necessary for plant growth:<br><br>1. Water<br>Helps transport nutrients in the plant and keeps it strong.<br>Without water, plants wilt and dry up.<br><br>2. Nutrients<br>Found in soil (like nitrogen, potassium, phosphorus).<br>Help the plant build strong roots, stems, and leaves.<br><br>3. Sunlight<br>Plants use sunlight to make food through photosynthesis.<br>Without sunlight, plants become weak and yellow.<br><br>4. Air (Carbon dioxide)<br>Plants use carbon dioxide from the air to make food.<br>Fresh air also keeps the plant healthy.<br><br>5. Favourable Temperature<br>Plants grow best in the right temperature (not too cold or too hot).<br>Warmth helps seeds and plants grow faster.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>Describe or do a simple experiment:<br>Prepare 5 similar plants and grow them under different conditions:<br>1. No water<br>2. No sunlight (put in a dark box)<br>3. No nutrients (grow in sand)<br>4. No air (sealed in plastic)<br>5. All conditions correct (healthy plant)<br><br>Ask: “Which plant do you think will grow best?”<br>Let learners observe or imagine the results.",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Ask review questions:<br>Why does a plant need sunlight?<br>What happens to a plant without water?<br>Can a plant grow in sand with no nutrients?<br>Why is temperature important for plants?<br><br>Let learners share what they think the most important factor is and why.",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Match each plant growth factor to its correct function.<br><br>Factor\tFunction<br>A. Water\t1. Needed to make food from sunlight<br>B. Nutrients\t2. Helps plant grow strong and stay hydrated<br>C. Sunlight\t3. Keeps plant warm to help it grow<br>D. Air\t4. Needed to breathe and make food<br>E. Temperature\t5. Provides minerals for growth<br><br>Write the correct letter and number:<br>1. Water – ____<br>2. Nutrients – ____<br>3. Sunlight – ____<br>4. Air – ____<br>5. Temperature – ____"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and their understanding during the demonstration.",
+    "<b>Exercise</b>: The matching exercise will assess students' ability to connect plant growth factors with their functions."
+  ],
+  "conclusion": [
+    "By exploring the factors necessary for plant growth, students have gained insight into the environmental needs of plants and the importance of each factor in sustaining healthy growth."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Growing Maize Seeds to Maturity",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Growing Maize",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson teaches students the steps to grow maize seeds to maturity, including soil preparation, planting, watering, removing weeds, and applying fertilizer or manure.",
+  "materials": [
+    "Maize seeds",
+    "Planting tray or garden space",
+    "Watering can",
+    "Pictures of maize growth stages",
+    "Manure/fertilizer"
+  ],
+  "objectives": [
+    "Students will learn the steps involved in growing maize seeds to maturity.",
+    "Students will understand the importance of soil preparation, watering, and weed removal.",
+    "Students will participate in a hands-on demonstration of planting maize seeds."
+  ],
+  "rationale": [
+    "Understanding the process of growing maize helps students appreciate agriculture and the importance of proper plant care for food production."
+  ],
+  "methodology": [
+    "The lesson will use questioning, demonstrations, discussions, and hands-on activities to teach the steps of maize cultivation."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Start with a class question:<br>Ask: “Have you ever seen a maize (corn) field? Do you know how maize grows?”<br><br>Show pictures of maize at different stages of growth.<br><br>Say: “Today, we are going to learn the steps to grow maize seeds until they are ready to be harvested.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Explain the steps in growing maize seeds to maturity:<br><br>1. Soil Preparation<br>The ground must be cleared of weeds and dug or ploughed to make it soft.<br>This allows seeds to grow easily and get nutrients.<br><br>2. Planting<br>Make small holes in rows and put in the maize seeds.<br>Cover them lightly with soil.<br><br>3. Watering<br>Water the planted seeds regularly to help them sprout and grow.<br>Especially important in dry weather.<br><br>4. Removing Weeds<br>Weeds take food and water away from maize plants.<br>Uproot or cut them to keep the area clean.<br><br>5. Applying Fertilizer or Manure<br>Add organic manure or fertilizer to enrich the soil.<br>Helps the maize grow strong and healthy.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>If possible, take learners to the school garden or use a planting tray.<br><br>Demonstrate:<br>Clearing a small patch of soil.<br>Planting maize seeds.<br>Watering them gently.<br><br>Let each learner take part in at least one step.<br><br>If a real activity is not possible, use drawings or videos to show the process from seed to maturity.",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Ask learners the following:<br>What should we do first before planting maize?<br>Why do we need to water the maize?<br>What happens if we don’t remove weeds?<br>What helps the soil to stay rich for maize to grow?<br><br>Let learners share experiences of growing anything at home or school.",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Arrange the steps of maize growing in the correct order. Write numbers 1–5 next to each step.<br><br>A. Remove weeds<br>B. Water the planted seeds<br>C. Plant maize seeds in holes<br>D. Apply manure or fertilizer<br>E. Prepare the soil"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during the demonstration and discussion.",
+    "<b>Exercise</b>: The ordering exercise will evaluate students' understanding of the maize-growing process."
+  ],
+  "conclusion": [
+    "By learning the steps to grow maize seeds to maturity, students will gain practical knowledge of agriculture and the importance of proper plant care."
+  ]
+},
 
 // Lesson 3
 
 // Week 9
 // Lesson 1
+{
+  "title": "Domestic Animals",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Domestic Animals",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to the main domestic animals kept by farmers in the community, their uses, and their importance.",
+  "materials": [
+    "Pictures or drawings of domestic animals",
+    "Plastic animal toys or printed charts",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will list the main animals kept by farmers in the community.",
+    "Students will understand the uses of each domestic animal (e.g., milk, meat, wool, eggs).",
+    "Students will engage in discussions and activities to reinforce their learning."
+  ],
+  "rationale": [
+    "Understanding domestic animals helps students appreciate their role in providing food, labor, and income for communities."
+  ],
+  "methodology": [
+    "The lesson will use questioning, demonstrations, group work, and discussions to teach about domestic animals."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Start with a friendly question:<br>“What animals have you seen at a farm or in your village?”<br><br>Allow learners to mention animals they know.<br><br>Explain: “Today we will learn about animals that people in our community keep for food, work, or income.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Teach about the main domestic animals kept by farmers in the community:<br><br>1. Cattle<br>Kept for milk, meat, and ploughing fields.<br><br>2. Pigs<br>Kept for meat (pork).<br><br>3. Goats<br>Kept for meat and milk.<br><br>4. Sheep<br>Kept for wool and meat.<br><br>5. Chickens<br>Kept for eggs and meat.<br><br>6. Ducks<br>Kept for eggs and meat.<br><br>7. Guinea fowl<br>Kept for eggs and meat, often found in villages.<br><br>Explain that these animals are called domestic animals because they are kept and cared for by humans.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>Use pictures or drawings of the animals listed.<br><br>Show one animal at a time and ask learners to say its name and what it gives us.<br><br>You may bring simple plastic animal toys or printed charts.<br><br>Encourage group work:<br>Let each group list animals they have seen in their area and what they are used for.",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Ask learners questions like:<br>Name three animals farmers keep.<br>What is a chicken kept for?<br>Which animals give us milk?<br>Do pigs give us eggs?<br><br>Let learners share which animals their families keep at home or in their community.",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Draw lines to match each animal to what it gives us.<br><br>Animal	Gives Us<br>A. Cow	1. Pork<br>B. Chicken	2. Wool and meat<br>C. Pig	3. Milk and meat<br>D. Sheep	4. Eggs and meat<br><br>Match as follows:<br>1. Cow – ____<br>2. Chicken – ____<br>3. Pig – ____<br>4. Sheep – ____"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and group work.",
+    "<b>Exercise</b>: The matching exercise will evaluate students' understanding of domestic animals and their uses."
+  ],
+  "conclusion": [
+    "By learning about domestic animals, students will understand their importance in providing food, labor, and income for communities."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Animal Distribution in Communities",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Animal Distribution in Communities",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "2",
+  "description": "This lesson explains why some animals are kept in certain areas only, focusing on favourable pasture, conditions, and traditional practices.",
+  "materials": [
+    "Map of Zambia or local region",
+    "Pictures of animals (cattle, goats, pigs, chickens)",
+    "Whiteboard and markers"
+  ],
+  "objectives": [
+    "Students will understand why certain animals are kept in specific areas.",
+    "Students will learn how favourable pasture and conditions influence animal distribution.",
+    "Students will explore how traditional practices affect animal keeping."
+  ],
+  "rationale": [
+    "Understanding animal distribution helps students appreciate the relationship between environment, culture, and livestock management."
+  ],
+  "methodology": [
+    "The lesson will use questioning, explanations, map demonstrations, group discussions, and an exercise to reinforce learning."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Begin the lesson with a question:<br>“Have you ever noticed that certain animals are more common in some places than others?”<br><br>Give an example: “For example, some areas have many cattle, while others keep more goats or chickens.”<br><br>Tell learners: “Today, we will learn why some animals are kept in certain areas only.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Explain the reasons why animals are kept in specific areas:<br><br>1. Favourable Pasture and Conditions<br>Some animals need plenty of grass and water to survive (e.g., cattle).<br>Areas with green land and rivers are good for animals like cattle and sheep.<br>Dry areas may not support such animals, so people keep goats and chickens which can survive with little food and water.<br><br>2. Traditional Practices<br>Some communities keep certain animals because of their culture or traditions.<br>For example:<br>In some places, pigs are not kept because of cultural beliefs.<br>Other communities may value cattle highly and use them for dowry or ceremonies.<br><br>Emphasize that environment and tradition influence what animals are kept in different places.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>Use a map of Zambia or a local region to point out:<br>Where cattle are mostly found (e.g., Southern Province).<br>Where goats or chickens are common (e.g., drier or village areas).<br><br>Use pictures of the animals and ask learners where they’ve seen each animal.<br><br>Group work:<br>Let learners discuss which animals are common in their own area and why.",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Ask these questions to check understanding:<br>Why are cattle not found in all areas?<br>What animals are good for dry places?<br>How do traditions affect the animals people keep?<br><br>Let learners share animals kept in their families and any beliefs about them.",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Tick the correct reason for keeping each animal in a certain area.<br><br>Animal\tFavourable Conditions\tTraditional Practice<br>Cattle\t☐\t☐<br>Goats\t☐\t☐<br>Pigs\t☐\t☐<br>Chickens\t☐\t☐<br><br>Tick the correct box or both if both apply."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and group work.",
+    "<b>Exercise</b>: The tick-box exercise will assess students' understanding of favourable conditions and traditional practices in animal distribution."
+  ],
+  "conclusion": [
+    "By learning about animal distribution, students will understand how environmental factors and cultural traditions shape livestock keeping in different communities."
+  ]
+},
 
 // Lesson 3
 
 // Week 10
 // Lesson 1
+{
+  "title": "Importance of Animals in the Community",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Importance of Animals in the Community",
+  "grade": "Sky Soarers",
+  "term": "2",
+  "week": "10",
+  "lessonNumber": "1",
+  "description": "This lesson teaches students the importance of animals in the community, covering their roles in food production, labor, and other essential uses.",
+  "materials": [
+    "Pictures of animals and their uses",
+    "Real items (e.g., milk bottle, leather product)",
+    "Whiteboard and markers",
+    "Chart showing animal uses"
+  ],
+  "objectives": [
+    "Students will identify different ways animals contribute to human communities.",
+    "Students will understand the roles of animals in food production, labor, and materials.",
+    "Students will apply their knowledge by matching animals to their uses in an exercise."
+  ],
+  "rationale": [
+    "Understanding the importance of animals helps students appreciate their roles in daily life and fosters respect for living creatures."
+  ],
+  "methodology": [
+    "The lesson will use questioning, explanations, demonstrations, group activities, and discussions to engage learners."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction (Engage)</b>:<br><br>Begin with a question to involve learners:<br>“What do we get from animals in our homes or villages?”<br><br>Allow learners to mention answers like meat, milk, eggs, etc.<br><br>Explain: “Today we will learn about how animals help people in the community.”",
+      "<b>Part 2: Explanation (Explore & Explain)</b>:<br><br>Explain the importance of animals in the community one by one:<br><br>1. Source of Food<br>Animals like cows, goats, pigs, chickens give us milk, eggs, and meat.<br><br>2. Hides and Skins<br>Cattle, goats, and sheep provide hides used to make leather for shoes, bags, and belts.<br><br>3. Manure<br>Animal droppings are used as natural fertilizer to help crops grow.<br><br>4. Ploughing Fields<br>Animals like oxen and donkeys are used to pull ploughs for farming.<br><br>5. Transportation<br>Donkeys and ox-carts are used to carry goods or people, especially in rural areas.<br><br>Explain that animals are very useful and help people in many ways.",
+      "<b>Part 3: Demonstration (Elaborate)</b>:<br><br>Use pictures or real items to show the uses of animals:<br><br>Show a milk bottle and say, “We get this from cows.”<br><br>Show a plough or draw one and explain how oxen pull it.<br><br>Use a chart showing animal → use (e.g., chicken → eggs).<br><br>Group activity:<br>Each group chooses one animal and lists at least 2 uses of that animal.",
+      "<b>Part 4: Discussion (Evaluate)</b>:<br><br>Ask learners the following questions:<br><br>Which animals give us milk?<br><br>What can we use animal manure for?<br><br>How do oxen help in farming?<br><br>Why are hides useful?<br><br>Let learners take turns answering and give examples from their own communities.",
+      "<b>Part 5: Exercise (Activity & Assessment)</b>:<br><br>Instructions: Match the animal to its importance.<br><br>Animal	Importance<br><br>A. Cow	1. Used to carry loads<br>B. Goat	2. Gives milk and meat<br>C. Chicken	3. Lays eggs<br>D. Ox	4. Helps in ploughing<br>E. Donkey	5. Provides manure and hides<br><br>Write the correct letter and number:<br><br>1. Cow – ____<br><br>2. Goat – ____<br><br>3. Chicken – ____<br><br>4. Ox – ____<br><br>5. Donkey – ____"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation in discussions and group activities.",
+    "<b>Exercise</b>: The matching exercise will evaluate students' understanding of animal uses."
+  ],
+  "conclusion": [
+    "By learning about the importance of animals, students will appreciate their contributions to food, labor, and materials in the community."
+  ]
+},
 
 // Lesson 2
 

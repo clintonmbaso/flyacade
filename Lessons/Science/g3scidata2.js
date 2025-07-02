@@ -471,20 +471,255 @@ const lessonPlans24b = [
 
 // Week 7
 // Lesson 1
+{
+  "title": "Understanding Flowering Plants",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Flowering Plants",
+  "grade": "Wing Whiz",
+  "term": "2",
+  "week": "7",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to flowering plants, their parts, life cycle, and importance.",
+  "materials": [
+    "Pictures of flowering plants",
+    "Whiteboard and markers",
+    "Real plant samples (if available)"
+  ],
+  "objectives": [
+    "Students will learn what flowering plants are and identify their parts.",
+    "Students will understand the life cycle of flowering plants.",
+    "Students will recognize the importance of flowering plants to humans and the environment."
+  ],
+  "rationale": [
+    "Understanding flowering plants helps students appreciate their role in nature and their importance in providing food, medicine, and clean air."
+  ],
+  "methodology": [
+    "The lesson will use explanations, visual aids, and interactive exercises to teach about flowering plants."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Flowering Plants</b>:<br><br>Flowering plants are plants that produce flowers. These flowers are not just beautiful to look at—they help the plant to make seeds, which grow into new plants.<br>Examples of flowering plants include roses, sunflowers, mango trees, hibiscus, and maize.<br>They are all around us in gardens, parks, farms, and forests.<br><br>🌼 Key Point: A flowering plant is a plant that grows flowers to help it reproduce.",
+      "<b>Part 2: Parts of a Flowering Plant and Their Functions</b>:<br><br>Flowering plants have different parts, and each part has a job to do.<br><br>1. Roots – They hold the plant in the ground and absorb water and nutrients from the soil.<br><br>2. Stem – It supports the plant and carries water and food to other parts.<br><br>3. Leaves – They make food for the plant using sunlight (photosynthesis).<br><br>4. Flowers – They help the plant to reproduce (make seeds).<br><br>5. Fruits – They protect the seeds and help in spreading them.<br><br>🌿 Key Point: Each part of a plant has an important role in helping the plant live and grow.",
+      "<b>Part 3: How Flowering Plants Grow</b>:<br><br>Flowering plants grow through a life cycle. It begins with a seed and goes through these stages:<br><br>1. Seed – The beginning of a new plant.<br><br>2. Germination – The seed sprouts and starts to grow roots and a small shoot.<br><br>3. Seedling – A young plant grows leaves and becomes stronger.<br><br>4. Adult Plant – The plant is now mature and produces flowers.<br><br>5. Reproduction – The flowers make seeds, and the cycle begins again.<br><br>🌱 Key Point: Flowering plants go through a life cycle from seed to adult plant, and then make seeds again.",
+      "<b>Part 4: Importance of Flowering Plants</b>:<br><br>Flowering plants are very important to people, animals, and the environment:<br><br>They give us food (fruits, vegetables, grains).<br><br>They provide medicine and spices.<br><br>They make the air clean by giving off oxygen.<br><br>They give beauty to our surroundings.<br><br>They are homes for many animals and insects.<br><br>🌸 Key Point: Flowering plants are useful for food, medicine, clean air, and beauty.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Fill in the blanks (Choose the correct word):<br>(roots, flowers, fruits, stem, leaves)<br><br>1. The ___________ carry water and food to other parts of the plant.<br><br>2. ___________ make food using sunlight.<br><br>3. ___________ help the plant to reproduce.<br><br>4. ___________ hold the plant in the ground.<br><br>5. ___________ protect the seeds and help spread them.<br><br><br>B. Match the part to its function:<br><br>Plant Part\tFunction<br><br>Leaves\ta. Helps in reproduction<br>Roots\tb. Makes food for the plant<br>Stem\tc. Holds plant in the soil<br>Flowers\td. Carries water and food<br><br><br>C. Answer the questions:<br><br>1. What is a flowering plant?<br><br>2. Name three examples of flowering plants.<br><br>3. Why are flowers important to the plant?<br><br>4. What happens during germination?<br><br>5. Mention two ways flowering plants help humans."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and explanations.",
+    "<b>Exercise</b>: The fill-in-the-blank, matching, and short answer questions will assess students' understanding of flowering plants."
+  ],
+  "conclusion": [
+    "By learning about flowering plants, students will understand their structure, life cycle, and importance to humans and the environment."
+  ]
+},
 
 // Lesson 2
+{
+"title": "Understanding Nonflowering Plants",
+"school": "Flying Wings Academy",
+"teacher": "Mr. C. Mbaso",
+"date": "Sunday, October 13, 2024",
+"tcz": "19/09/0904/021725",
+"subject": "Science",
+"topic": "Nonflowering Plants",
+"grade": "Wing Whiz",
+"term": "2",
+"week": "7",
+"lessonNumber": "2",
+"description": "This lesson teaches students about nonflowering plants, their types, reproduction methods, and importance in nature.",
+"materials": [
+"Pictures of ferns, mosses, and pine trees",
+"Whiteboard and markers",
+"Sample spores (if available)"
+],
+"objectives": [
+"Students will learn what nonflowering plants are and how they differ from flowering plants.",
+"Students will identify different types of nonflowering plants and their reproduction methods.",
+"Students will understand the importance of nonflowering plants in nature and human life."
+],
+"rationale": [
+"Understanding nonflowering plants helps students appreciate plant diversity and recognize their ecological and practical importance."
+],
+"methodology": [
+"The lesson will use explanations, visual examples, and interactive exercises to teach about nonflowering plants."
+],
+"activities": [
+["1", "2", "3", "4", "5"],
+[
+"<b>Part 1: What Are Nonflowering Plants?</b>:<br><br>Nonflowering plants are plants that do not produce flowers.<br>Even though they don't grow flowers, they can still make new plants. They use spores or cones to reproduce instead of seeds from flowers.<br><br>Examples of nonflowering plants include:<br>Ferns<br>Mosses<br>Pine trees<br><br>🌲 Key Point: Nonflowering plants do not make flowers. They reproduce using spores or cones.",
+"<b>Part 2: Types of Nonflowering Plants</b>:<br><br>1. Ferns<br>Have large green leaves called fronds.<br>Reproduce using spores, usually found on the back of their leaves.<br><br>2. Mosses<br>Small, soft plants that grow in damp places.<br>Also reproduce using spores.<br>They don't have real roots, stems, or leaves.<br><br>3. Pine Trees (Conifers)<br>These are evergreen trees with needle-like leaves.<br>They produce cones instead of flowers.<br>Seeds grow inside the cones.<br><br>🍃 Key Point: Nonflowering plants include ferns (spores), mosses (spores), and pine trees (cones).",
+"<b>Part 3: How Nonflowering Plants Grow</b>:<br><br>Nonflowering plants grow in different ways:<br>Ferns and mosses start from spores, which grow into new plants when they land in a damp, shady place.<br>Pine trees grow from seeds inside cones.<br><br>🪴 Life cycle steps of a fern or moss:<br>1. Spore falls on moist soil.<br>2. It grows into a tiny new plant.<br>3. The plant grows bigger and makes more spores.<br><br>🌿 Key Point: Nonflowering plants grow from spores or seeds in cones, not from flowers.",
+"<b>Part 4: Importance of Nonflowering Plants</b>:<br><br>Nonflowering plants are important in nature and to people:<br>Moss helps keep the soil moist and prevents erosion.<br>Ferns add beauty to gardens and clean the air.<br>Pine trees give us wood, paper, and resin.<br>These plants provide shelter and food for some animals.<br><br>🌳 Key Point: Nonflowering plants are useful in many ways — from cleaning air to providing materials like wood and paper.",
+"<b>Part 5: Exercise</b>:<br><br>A. Fill in the blanks (Choose from: moss, spores, cones, fern, pine):<br>1. A __________ is a small plant that grows in wet places.<br>2. A __________ tree uses cones to reproduce.<br>3. A __________ is a plant with fronds that grows from spores.<br>4. Nonflowering plants do not have flowers but use __________ to reproduce.<br>5. __________ are used by pine trees to make seeds.<br><br>B. Match the plant to how it reproduces:<br>Plant | How it Reproduces<br>Fern | a. Cones<br>Moss | b. Spores<br>Pine Tree | c. Spores<br><br>C. Answer the questions:<br>1. What is a nonflowering plant?<br>2. Give three examples of nonflowering plants.<br>3. How do ferns and mosses reproduce?<br>4. What is found inside pine cones?<br>5. Mention two uses of nonflowering plants."
+]
+],
+"assessments": [
+"<b>Observation</b>: The teacher will observe students' participation during discussions about plant types and reproduction.",
+"<b>Exercise</b>: The fill-in-the-blank, matching, and short answer questions will assess students' understanding of nonflowering plants."
+],
+"conclusion": [
+"By learning about nonflowering plants, students now understand their unique characteristics, reproduction methods, and ecological importance in our world."
+]
+},
 
 // Lesson 3
 
 // Week 8
 // Lesson 1
+{
+  "title": "Introduction to Vertebrates",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Vertebrates",
+  "grade": "Wing Whiz",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to vertebrates, their classification, characteristics, and importance.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of different vertebrates (mammals, birds, reptiles, fish, amphibians)",
+    "Chart showing the five groups of vertebrates"
+  ],
+  "objectives": [
+    "Students will learn what vertebrates are and identify their key features.",
+    "Students will understand the five major groups of vertebrates and their characteristics.",
+    "Students will recognize the importance of vertebrates in nature and human life."
+  ],
+  "rationale": [
+    "Understanding vertebrates helps students appreciate biodiversity and the role animals play in ecosystems and human survival."
+  ],
+  "methodology": [
+    "The lesson will use explanations, visual aids, and interactive exercises to teach about vertebrates."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What Are Vertebrates?</b>:<br><br>Vertebrates are animals that have a backbone or spine.<br>This backbone helps the body stay upright and supports movement.<br><br>We, humans, are vertebrates!<br>Other examples include chickens, snakes, fish, and frogs.<br><br>🐸 Key Point: A vertebrate is an animal that has a backbone.",
+      "<b>Part 2: Groups of Vertebrates</b>:<br><br>There are five major groups of vertebrates:<br><br>1. Mammals – Have hair or fur, give birth to live young, and feed them with milk.<br>🧍 Example: Man (human)<br><br>2. Birds – Have feathers, lay eggs, and most can fly.<br>🐔 Example: Chicken<br><br>3. Reptiles – Have dry, scaly skin and lay eggs.<br>🐍 Example: Snake<br><br>4. Fish – Live in water, have gills to breathe, and scales on their bodies.<br>🐟 Example: Fish<br><br>5. Amphibians – Live both in water and on land, have moist skin.<br>🐸 Example: Frog<br><br>🧠 Key Point: Vertebrates can be sorted into five groups based on their body features.",
+      "<b>Part 3: Characteristics of Vertebrates</b>:<br><br>All vertebrates:<br><br>Have a backbone<br><br>Have a head, body, and limbs (or fins/wings)<br><br>Have brains protected by a skull<br><br>Can move from place to place<br><br>But they are different in:<br><br>How they breathe (lungs or gills)<br><br>Where they live (land, water, or both)<br><br>How they give birth (lay eggs or live young)<br><br>Body covering (hair, scales, feathers, skin)<br><br>🐾 Key Point: Vertebrates share a backbone but have different body coverings, habitats, and ways of reproduction.",
+      "<b>Part 4: Importance of Vertebrates</b>:<br><br>Vertebrates are important to us and the environment:<br><br>Humans use animals for food, work, and companionship.<br><br>Chickens give us eggs and meat.<br><br>Fish are a common source of food.<br><br>Frogs help by eating harmful insects.<br><br>Snakes control pests like rats.<br><br>🌍 Key Point: Vertebrates help balance nature and provide many useful things to humans.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Fill in the blanks (Choose from: backbone, mammals, feathers, eggs, fish):<br><br>1. Vertebrates have a __________ in their body.<br><br>2. Animals that have fur and give birth to live young are called __________.<br><br>3. Birds like chickens have __________ on their bodies.<br><br>4. Reptiles and birds lay __________.<br><br>5. __________ have gills and live in water.<br><br>B. Match the animal to its group:<br><br>Animal	Group<br><br>Man	a. Reptile<br>Chicken	b. Mammal<br>Snake	c. Amphibian<br>Frog	d. Bird<br>Fish	e. Fish<br><br>C. Answer the questions:<br><br>1. What is a vertebrate?<br><br>2. Name the five groups of vertebrates.<br><br>3. Which group does a snake belong to?<br><br>4. Why is a frog called an amphibian?<br><br>5. Mention two ways vertebrates are useful to humans."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and activities.",
+    "<b>Exercise</b>: The fill-in-the-blank, matching, and short-answer questions will evaluate students' understanding of vertebrates."
+  ],
+  "conclusion": [
+    "By learning about vertebrates, students will understand the diversity of animals with backbones and their significance in nature and human life."
+  ]
+},
 
 // Lesson 2
+{
+  "title": "Understanding Invertebrates",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Invertebrates",
+  "grade": "Wing Whiz",
+  "term": "2",
+  "week": "8",
+  "lessonNumber": "2",
+  "description": "This lesson introduces students to invertebrates, their types, characteristics, and importance in nature.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of invertebrates (worms, spiders, insects)",
+    "Chart showing invertebrate classification"
+  ],
+  "objectives": [
+    "Students will learn what invertebrates are and how they differ from vertebrates.",
+    "Students will identify common types of invertebrates (worms, spiders, insects).",
+    "Students will understand the characteristics and importance of invertebrates in ecosystems."
+  ],
+  "rationale": [
+    "Understanding invertebrates helps students appreciate biodiversity and the crucial role these animals play in maintaining healthy ecosystems."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, discussions, and interactive exercises to teach about invertebrates."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: What Are Invertebrates?</b>:<br><br>Invertebrates are animals that do not have a backbone or spine.<br>Most animals on Earth are invertebrates.<br><br>Examples include:<br>Worms<br>Spiders<br>Insects (like ants, flies, and butterflies)<br><br>🐛 Key Point: Invertebrates are animals without a backbone.",
+      "<b>Part 2: Types of Invertebrates</b>:<br><br>1. Worms<br>Long, soft bodies without legs.<br>Live in soil or water.<br>Help break down dead plants and animals to make soil healthy.<br><br>2. Spiders<br>Have eight legs.<br>Make webs to catch insects for food.<br>Are helpful because they eat pests.<br><br>3. Insects<br>Have six legs and usually two antennae.<br>Many have wings.<br>Examples: ants, bees, butterflies, flies.<br><br>🐜 Key Point: Worms, spiders, and insects are common types of invertebrates with different features.",
+      "<b>Part 3: Characteristics of Invertebrates</b>:<br><br>They do not have a backbone.<br>Their bodies are often soft or covered with a hard outer shell (exoskeleton).<br>Most have many legs or none (like worms).<br>They live in many places: soil, water, plants, and inside other animals.<br>They reproduce by laying eggs.<br><br>🕷️ Key Point: Invertebrates have different body structures but share the fact that they have no backbone.",
+      "<b>Part 4: Importance of Invertebrates</b>:<br><br>Invertebrates are very important because:<br>They help break down dead plants and animals, cleaning the environment.<br>Many insects help pollinate flowers so plants can make fruits.<br>Spiders control insect pests by eating them.<br>Worms help make soil healthy for plants to grow.<br>Some insects like bees make honey which people use as food.<br><br>🌿 Key Point: Invertebrates help keep nature balanced and are useful to people.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Fill in the blanks (Choose from: backbone, spiders, six, worms, eggs):<br>1. Invertebrates do not have a __________.<br>2. __________ have eight legs and spin webs.<br>3. Insects have __________ legs.<br>4. __________ live in soil and help plants grow.<br>5. Most invertebrates lay __________ to make babies.<br><br>B. Match the animal to its description:<br>Animal\tDescription<br>Worm\ta. Spins webs<br>Spider\tb. Has no legs, soft body<br>Insect\tc. Has six legs and antennae<br><br>C. Answer the questions:<br>1. What is an invertebrate?<br>2. Name three examples of invertebrates.<br>3. How do spiders catch their food?<br>4. Why are worms important for the soil?<br>5. Mention one way insects help plants."
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions.",
+    "<b>Exercise</b>: The fill-in-the-blank, matching, and short answer questions will assess students' understanding of invertebrates."
+  ],
+  "conclusion": [
+    "By learning about invertebrates, students will understand the diversity of animal life and the important roles these creatures play in our ecosystems."
+  ]
+},
 
 // Lesson 3
 
 // Week 9
 // Lesson 1
+{
+  "title": "Identifying Places Where Animals and Plants Live",
+  "school": "Flying Wings Academy",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
+  "tcz": "19/09/0904/021725",
+  "subject": "Science",
+  "topic": "Places Where Animals and Plants Live",
+  "grade": "Wing Whiz",
+  "term": "2",
+  "week": "9",
+  "lessonNumber": "1",
+  "description": "This lesson introduces students to different habitats where animals and plants live, including land and water environments.",
+  "materials": [
+    "Whiteboard and markers",
+    "Pictures of different habitats (forests, ponds, rivers, etc.)",
+    "Chart showing animals and plants in their habitats"
+  ],
+  "objectives": [
+    "Students will learn what a habitat is and why it is important.",
+    "Students will identify different land and water habitats.",
+    "Students will match animals and plants to their correct habitats."
+  ],
+  "rationale": [
+    "Understanding habitats helps students appreciate biodiversity and the importance of protecting natural environments for animals and plants."
+  ],
+  "methodology": [
+    "The lesson will use visual aids, discussions, and interactive exercises to teach students about different habitats."
+  ],
+  "activities": [
+    ["1", "2", "3", "4", "5"],
+    [
+      "<b>Part 1: Introduction to Living Places (Habitats)</b>:<br><br>All animals and plants live in places that meet their needs for food, water, air, and shelter. These places are called habitats.<br><br>Examples of habitats:<br>Land (like forests, soil, plains, and moulds)<br>Water (like ponds, rivers, and seas)<br><br>🌍 Key Point: A habitat is a place where a plant or animal lives and grows.",
+      "<b>Part 2: Land Habitats</b>:<br><br>1. Forests<br>Have many trees and plants.<br>Animals like monkeys, birds, and snakes live here.<br><br>2. Soil (Underground)<br>Some animals live under the ground, like worms, ants, and moles.<br>Plants grow roots deep in the soil.<br><br>3. Plains<br>Flat, grassy land where animals like zebras, cows, and lions live.<br>Plants like grass and shrubs grow here.<br><br>4. Moulds (Rotting plant material)<br>Found on the ground in damp places.<br>Tiny animals like insects and fungi live and feed here.<br><br>🌳 Key Point: Land habitats can be forests, soil, plains, or moulds, each with special plants and animals.",
+      "<b>Part 3: Water Habitats</b>:<br><br>1. Ponds<br>Small bodies of still water.<br>Animals: frogs, insects, and small fish.<br>Plants: lily pads, reeds.<br><br>2. Rivers<br>Flowing water.<br>Animals: fish, otters, crocodiles.<br>Plants: water grass, reeds.<br><br>3. Seas<br>Large bodies of salty water.<br>Animals: whales, sharks, jellyfish.<br>Plants: seaweed, algae.<br><br>🐠 Key Point: Water habitats include ponds, rivers, and seas where plants and animals live and grow.",
+      "<b>Part 4: Importance of Habitats</b>:<br><br>Habitats are important because:<br>They give animals and plants what they need to survive.<br>They protect living things from danger.<br>Different animals and plants are suited to different places.<br><br>🌱 Key Point: Every plant and animal has a special home (habitat) where it can grow well and stay safe.",
+      "<b>Part 5: Exercise</b>:<br><br>A. Fill in the blanks (Choose from: pond, forest, soil, sea, plains):<br>1. A __________ is a home for big trees, birds, and monkeys.<br>2. Fish and seaweed live in the __________.<br>3. Frogs and insects can be found in a __________.<br>4. Worms and roots are found in the __________.<br>5. Lions and zebras live on the __________.<br><br>B. Match the habitat to what lives there:<br>Habitat | Plant or Animal<br>Soil | a. Worm<br>Forest | b. Monkey<br>Pond | c. Frog<br>River | d. Crocodile<br>Sea | e. Seaweed<br><br>C. Answer the questions:<br>1. What is a habitat?<br>2. Name two land habitats.<br>3. Name two water habitats.<br>4. Give one animal that lives in the forest.<br>5. Why are habitats important?"
+    ]
+  ],
+  "assessments": [
+    "<b>Observation</b>: The teacher will observe students' participation during discussions and habitat identification.",
+    "<b>Exercise</b>: The fill-in-the-blank, matching, and short-answer questions will evaluate students' understanding of habitats."
+  ],
+  "conclusion": [
+    "By learning about different habitats, students will understand where animals and plants live and why these environments are essential for their survival."
+  ]
+},
 
 // Lesson 2
 
