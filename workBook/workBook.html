@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children's Learning Workbooks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1><i class="fas fa-book-open"></i> Children's Learning Workbooks</h1>
+            <div class="user-controls">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="print-btn" aria-label="Print workbook">
+                    <i class="fas fa-print"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="filter-section">
+                    <h2>Filters</h2>
+                    <div class="filter-group">
+                        <label for="grade-select">Grade:</label>
+                        <select id="grade-select">
+                            <option value="all">All Grades</option>
+                            <!-- Options will be populated dynamically -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="term-select">Term:</label>
+                        <select id="term-select">
+                            <option value="all">All Terms</option>
+                            <!-- Options will be populated dynamically -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="subject-select">Subject:</label>
+                        <select id="subject-select">
+                            <option value="all">All Subjects</option>
+                            <!-- Options will be populated dynamically -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="workbook-list-container">
+                    <h2>Available Workbooks</h2>
+                    <div id="workbook-list" class="workbook-list">
+                        <!-- Workbooks will be loaded here -->
+                    </div>
+                </div>
+            </aside>
+
+            <main class="workbook-viewer">
+                <div class="workbook-header">
+                    <h2 id="workbook-title">Select a workbook to begin</h2>
+                    <div class="progress-container">
+                        <span>Progress: </span>
+                        <progress id="workbook-progress" value="0" max="100"></progress>
+                        <span id="progress-percentage">0%</span>
+                    </div>
+                </div>
+
+                <div id="workbook-content" class="workbook-content">
+                    <div class="empty-state">
+                        <i class="fas fa-book fa-4x"></i>
+                        <p>Select a workbook from the sidebar to get started</p>
+                    </div>
+                </div>
+
+                <div class="workbook-controls">
+                    <button id="prev-page" class="btn-secondary" disabled>
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <span id="page-indicator">Page 0 of 0</span>
+                    <button id="next-page" class="btn-secondary" disabled>
+                         <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button id="complete-workbook" class="btn-secondary" disabled>
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+
+    <!-- Existing buttons... -->
+
+    <button id="show-results">
+        <span class="icon correct-icon">💡</span>
+        
+    </button>
+    
+    <button id="print-answers">
+        <span class="icon print-icon"><i class="fas fa-file-pdf"></i></span>
+    </button>
+    
+
+                </div>
+            </main>
+        </div>
+
+        <footer class="app-footer">
+            <p>© <span id="current-year"></span> Children's Learning Workbooks | Created with <i class="fas fa-heart"></i> for your children</p>
+        </footer>
+    </div>
+
+    <!-- Initialize workbooks array and registration function -->
+    <script>
+        // Initialize the workbooks array before any data files load
+        window.workbooks = [];
+        
+        // This function will be called by data files to register their workbooks
+        window.registerWorkbook = function(workbookData) {
+            workbookData.registeredTime = Date.now();
+            window.workbooks.push(workbookData);
+        };
+
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Load data files -->
+    <!-- Baby Birds -->
+    
+    <!-- Load data files -->
+    
+    <!-- Load data files -->
+    
+    <!-- Feature Flyers -->    
+<script src="js/data/math-grade1-term1.js"></script>
+<script src="js/data/english-grade1-term1.js"></script>
+    
+    <!-- Cloud Chicks -->
+<script src="js/data/science-grade2-term1.js"></script>
+
+    <!-- Wing Whiz -->    
+<script src="js/data/science-grade3-term1.js"></script>
+<script src="js/data/math-grade3-term2.js"></script>
+<script src="js/data/english-grade3-term3.js"></script>
+
+    <!-- Sky Soarers -->
+<script src="js/data/g4t1aMath.js"></script>
+<script src="js/data/g4t1bMath.js"></script>
+<script src="js/data/g4t2aMath.js"></script>
+<script src="js/data/g4t2bMath.js"></script>
+<script src="js/data/g4t3aMath.js"></script>
+<script src="js/data/g4t3bMath.js"></script>
+    
+    <!-- Avian Aces -->
+<script src="js/data/he-grade5-term2-needlework.js"></script>
+<script src="js/data/he-grade5-term3-hygiene.js"></script>
+<script src="js/data/he-grade5-term3-water.js"></script>
+<script src="js/data/he-grade5-term3-safety.js"></script>
+
+    <!-- Nimbus Navigators -->
+        
+    <!-- Fledgling Falcons -->
+<script src="js/data/social-studies-grade7-term1.js"></script>
+<script src="js/data/social-studies-grade7-term1-pastPapers.js"></script>
+<script src="js/data/social-studies-grade7-term2.js"></script>
+    
+<script src="js/data/social-studies-grade7-term1-try.js"></script>
+    
+<script src="js/data/math-grade7-term1.js"></script>
+<script src="js/data/science-grade7-term2-Flower.js"></script>
+<script src="js/data/science-grade7-term2-Pollination.js"></script>
+<script src="js/data/science-grade7-term2-seedsFruits.js"></script>
+<script src="js/data/science-grade7-term2-seedDispersal.js"></script>
+<script src="js/data/science-grade7-term2-propagation.js"></script>
+
+<script src="js/data/sp1-grade7-term1-alwaysHave.js"></script>
+    
+<script src="js/data/english-grade7-term1-speech.js"></script>
+<script src="js/data/english-grade7-term1-speeches.js"></script>
+<script src="js/data/english-grade7-term1-speech1.js"></script>
+        
+<!-- Load main.js after all data files -->
+<script src="js/main.js"></script>
+</body>
+</html>
