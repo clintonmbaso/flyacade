@@ -3,14 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Children's Learning Workbooks</title>
+    <title>Flyacade Workbooks</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="./Teachers/teachers.css">
+    <link rel="stylesheet" href="./flyacade.css">
+    <link rel="stylesheet" href="./flychurch.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./indexes.css">
+    
+    
+    <style>
+           .logoset {
+            width: 70px;
+            height: auto;
+            background-color: rgba(55,55,55,0.1);
+            border-radius: 10px 0px 0px 10px;
+            padding: 2px 3px; /* Add padding around the text */
+        }
+    
+        /* NAVIGATION PANEL */
+        #PanelLayer {
+            position: fixed;
+            top: 0;
+            left: -400px; /* Initially hidden */
+            width: 50px;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.8);
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            transition: left 0.3s ease-in-out;
+            overflow-y: auto;
+            z-index: 1100;
+            padding: 20px;
+            color: white;
+        }
+
+        /* Show the panel when active */
+        #PanelLayer.active {
+            left: 0;
+        }
+
+        #PanelLayer h2 {
+            text-align: left;
+            color: #FFA500;
+        }
+
+        #PanelLayer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #PanelLayer ul li {
+            border-bottom: 1px solid #444;
+            margin-left: 40px;
+        }
+
+        #PanelLayer ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+         padding: 10px;
+        }
+
+        /* Close Button */
+        #closePanel {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 54px;
+            cursor: pointer;
+            color: white;
+            z-index: 1100;
+        }
+
+        /* Hamburger Menu */
+        #menuPanel {
+            position: fixed;
+            top: 30px;
+            left: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #fff;
+            z-index: 1100;
+        }
+    
+header {
+    background-color: #003366;
+    opacity: 0.9;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+    
+header .logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFD700;
+    text-transform: uppercase;
+}
+
+.logoz {
+  width: auto;
+  height: 50px;
+  top: 3px;
+  right: 3px;
+  position: absolute;
+  border: 2px solid rgba(23,45,53,0.4);
+  border-radius: 20%;
+  padding: 1px;
+  margin: 3px;
+  background-color: rgba(255,255,255,1);
+  z-index: 199;
+}
+
+.allLogos {
+    text-align: right;
+    margin-right: 20%;
+}
+.logos {
+            width: 20px;
+    height: auto;
+}
+    </style>    
 </head>
+
 <body>
-    <div class="app-container">
-        <header class="app-header">
-            <h1><i class="fas fa-book-open"></i> Children's Learning Workbooks</h1>
+        <div class="app-container">
+    
+
+
+    <!-- NAVIGATION PANEL -->
+
+ 
+    <!-- Navigation Bar -->
+    <header>
+    <div class="container">
+        <a href="./index.html"><img class="logoz" src="../images/Flying_Wings_Academy.png" alt="topLogo"></a>
+        <h5 style="margin-right:25px;"><span style="color: green;">Flying Wings</span><span style="color: white;"> - </span><span style="color: orange;">Academy</span></h5>
+    </div>
+          
+          <hr>
+          <div class="allLogos">
+              <img src="../images/Classes_1.png" alt="Logo 1" class="logos">
+              <img src="../images/Classes_2.png" alt="Logo 2" class="logos">
+              <img src="../images/Classes_3.png" alt="Logo 3" class="logos">
+              <img src="../images/Classes_4.png" alt="Logo 4" class="logos">
+              <img src="../images/Classes_5.png" alt="Logo 5" class="logos">
+              <img src="../images/Classes_6.png" alt="Logo 6" class="logos">
+              <img src="../images/Classes_7.png" alt="Logo 7" class="logos">
+              <img src="../images/Classes_8.png" alt="Logo 8" class="logos">
+              <img src="../images/Classes_9.png" alt="Logo 9" class="logos">
+              <img src="../images/Classes_10.png" alt="Logo 10" class="logos">
+          </div>
+
+                
+                
+                
+    
+
+
             <div class="user-controls">
                 <button id="theme-toggle" aria-label="Toggle dark mode">
                     <i class="fas fa-moon"></i>
@@ -60,7 +217,6 @@
                 <div class="workbook-header">
                     <h2 id="workbook-title">Select a workbook to begin</h2>
                     <div class="progress-container">
-                        <span>Progress: </span>
                         <progress id="workbook-progress" value="0" max="100"></progress>
                         <span id="progress-percentage">0%</span>
                     </div>
@@ -81,22 +237,23 @@
                     <button id="next-page" class="btn-secondary" disabled>
                          <i class="fas fa-arrow-right"></i>
                     </button>
-                    <button id="complete-workbook" class="btn-secondary" disabled>
-                        <i class="fas fa-check-circle"></i>
-                    </button>
+
 
     <!-- Existing buttons... -->
-
-    <button id="show-results">
-        <span class="icon correct-icon">💡</span>
-        
-    </button>
-    
+<div class="iconzi">
     <button id="print-answers">
         <span class="icon print-icon"><i class="fas fa-file-pdf"></i></span>
     </button>
-    
+                    
+    <button id="show-results">
+        <span class="icon correct-icon">💡</span>
+    </button>
 
+   <button id="complete-workbook" class="btn-secondary" disabled>
+       <i class="fas fa-check-circle"></i>
+   </button>
+</div>
+                    
                 </div>
             </main>
         </div>
@@ -129,52 +286,84 @@
     <!-- Load data files -->
     
     <!-- Feature Flyers -->    
-<script src="js/data/math-grade1-term1.js"></script>
-<script src="js/data/english-grade1-term1.js"></script>
+    <!-- Science -->
+<script src="js/data/science/g1t1aScience.js"></script>
+<script src="js/data/science/g1t1bScience.js"></script>
+<script src="js/data/science/g1t2aScience.js"></script>
+<script src="js/data/science/g1t2bScience.js"></script>
+<script src="js/data/science/g1t3aScience.js"></script>
+<script src="js/data/science/g1t3bScience.js"></script>
+
     
-    <!-- Cloud Chicks -->
-<script src="js/data/science-grade2-term1.js"></script>
+<!-- Cloud Chicks -->
+    <!-- Science -->
+<script src="js/data/science/g2t1aScience.js"></script>
+<script src="js/data/science/g2t1bScience.js"></script>
+<script src="js/data/science/g2t2aScience.js"></script>
+<script src="js/data/science/g2t2bScience.js"></script>
+<script src="js/data/science/g2t3aScience.js"></script>
+<script src="js/data/science/g2t3bScience.js"></script>
 
-    <!-- Wing Whiz -->    
-<script src="js/data/science-grade3-term1.js"></script>
-<script src="js/data/math-grade3-term2.js"></script>
-<script src="js/data/english-grade3-term3.js"></script>
-
-    <!-- Sky Soarers -->
-<script src="js/data/g4t1aMath.js"></script>
-<script src="js/data/g4t1bMath.js"></script>
-<script src="js/data/g4t2aMath.js"></script>
-<script src="js/data/g4t2bMath.js"></script>
-<script src="js/data/g4t3aMath.js"></script>
-<script src="js/data/g4t3bMath.js"></script>
     
-    <!-- Avian Aces -->
-<script src="js/data/he-grade5-term2-needlework.js"></script>
-<script src="js/data/he-grade5-term3-hygiene.js"></script>
-<script src="js/data/he-grade5-term3-water.js"></script>
-<script src="js/data/he-grade5-term3-safety.js"></script>
+<!-- Wing Whiz -->    
+    <!-- Science -->
+<script src="js/data/science/g3t1aScience.js"></script>
+<script src="js/data/science/g3t1bScience.js"></script>
+<script src="js/data/science/g3t2aScience.js"></script>
+<script src="js/data/science/g3t2bScience.js"></script>
+<script src="js/data/science/g3t3aScience.js"></script>
+<script src="js/data/science/g3t3bScience.js"></script>
 
-    <!-- Nimbus Navigators -->
+
+<!-- Sky Soarers -->
+    <!-- Science -->
+<script src="js/data/science/g4t1aScience.js"></script>
+<script src="js/data/science/g4t1bScience.js"></script>
+<script src="js/data/science/g4t2aScience.js"></script>
+<script src="js/data/science/g4t2bScience.js"></script>
+<script src="js/data/science/g4t3aScience.js"></script>
+<script src="js/data/science/g4t3bScience.js"></script>
+    
+    <!-- Mathematics -->
+<script src="js/data/mathematics/g4t1aMath.js"></script>
+<script src="js/data/mathematics/g4t1bMath.js"></script>
+<script src="js/data/mathematics/g4t2aMath.js"></script>
+<script src="js/data/mathematics/g4t2bMath.js"></script>
+<script src="js/data/mathematics/g4t3aMath.js"></script>
+<script src="js/data/mathematics/g4t3bMath.js"></script>
+    
+<!-- Avian Aces -->
+    <!-- Science -->
+<script src="js/data/science/g5t1aScience.js"></script>
+<script src="js/data/science/g5t1bScience.js"></script>
+<script src="js/data/science/g5t2aScience.js"></script>
+<script src="js/data/science/g5t2bScience.js"></script>
+<script src="js/data/science/g5t3aScience.js"></script>
+<script src="js/data/science/g5t3bScience.js"></script>
+    
+    <!-- Home Economics -->
+<script src="js/data/homeEconomics/g5t1aHE.js"></script>
+<script src="js/data/homeEconomics/g5t1bHE.js"></script>
+<script src="js/data/homeEconomics/g5t2aHE.js"></script>
+<script src="js/data/homeEconomics/g5t2bHE.js"></script>
+<script src="js/data/homeEconomics/g5t3aHE.js"></script>
+<script src="js/data/homeEconomics/g5t3bHE.js"></script>
+    
+<!-- Nimbus Navigators -->
+    <!-- Science -->
+<script src="js/data/science/g6t1aScience.js"></script>
+<script src="js/data/science/g6t1bScience.js"></script>
+<script src="js/data/science/g6t2aScience.js"></script>
+<script src="js/data/science/g6t2bScience.js"></script>
+<script src="js/data/science/g6t3aScience.js"></script>
+<script src="js/data/science/g6t3bScience.js"></script>
         
+    
     <!-- Fledgling Falcons -->
-<script src="js/data/social-studies-grade7-term1.js"></script>
-<script src="js/data/social-studies-grade7-term1-pastPapers.js"></script>
-<script src="js/data/social-studies-grade7-term2.js"></script>
+<script src="js/data/socialStudies/social-studies-grade7-term1-pastPapers.js"></script>
     
-<script src="js/data/social-studies-grade7-term1-try.js"></script>
     
-<script src="js/data/math-grade7-term1.js"></script>
-<script src="js/data/science-grade7-term2-Flower.js"></script>
-<script src="js/data/science-grade7-term2-Pollination.js"></script>
-<script src="js/data/science-grade7-term2-seedsFruits.js"></script>
-<script src="js/data/science-grade7-term2-seedDispersal.js"></script>
-<script src="js/data/science-grade7-term2-propagation.js"></script>
-
-<script src="js/data/sp1-grade7-term1-alwaysHave.js"></script>
     
-<script src="js/data/english-grade7-term1-speech.js"></script>
-<script src="js/data/english-grade7-term1-speeches.js"></script>
-<script src="js/data/english-grade7-term1-speech1.js"></script>
         
 <!-- Load main.js after all data files -->
 <script src="js/main.js"></script>
