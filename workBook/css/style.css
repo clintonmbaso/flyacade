@@ -40,27 +40,11 @@ body {
     min-height: 100vh;
 }
 
-.app-header {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: var(--box-shadow);
-    z-index: 100;
-}
 
-.app-header h1 {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
 
 .user-controls {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .user-controls button {
@@ -260,12 +244,16 @@ body {
 .progress-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.3rem;
+    position: fixed;
+    top: 90px;
+    z-index: 1200;
+    width: 100%;
 }
 
 progress {
     flex: 1;
-    height: 10px;
+    height: 5px;
     border-radius: 5px;
 }
 
@@ -612,26 +600,31 @@ progress::-webkit-progress-value {
 .print-icon {
     color: var(--primary-color);
 }
+
+.iconzi {
+    background-color: white;
+    z-index: 1200;
+}
+
 #complete-workbook, #show-results, #print-answers {
     border: none;
     background: transparent;
     font-size: 20px;
     position: fixed;
+    top: 70px;
 }
 #complete-workbook {
     right: 5px;
-    top: 140px;
     padding: 0;
     margin: 2px 3px 0 0;
 }
 #show-results {
-    right: 30px;    
-    top: 140px;    
+    right: 30px;
 }
 #print-answers {
     right: 65px;
-    top: 140px;    
 }
+
 .completed-icon {
     color: var(--success-color);
 }
@@ -642,20 +635,10 @@ progress::-webkit-progress-value {
         margin-right: 0.3rem;
     }
     
-    .correct-icon::before {
-        content: "✓";
-    }
-    
-    .incorrect-icon::before {
-        content: "✗";
-    }
+
     
     .print-icon::before {
         content: "🖨";
-    }
-    
-    .completed-icon::before {
-        content: "✓";
     }
 }
 
