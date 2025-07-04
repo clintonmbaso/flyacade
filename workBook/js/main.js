@@ -21,6 +21,64 @@ document.addEventListener('DOMContentLoaded', function() {
     const showResultsBtn = document.getElementById('show-results');
     const printAnswersBtn = document.getElementById('print-answers');
 
+    
+    // Add this near the top of your main.js file
+const classNames = {
+    'baby': 'Baby Birds',
+    'middle': 'Sky Sprouts', 
+    'reception': 'Nestlings Navigators',
+    '1': 'Feather Flyers',
+    '2': 'Cloud Chicks',
+    '3': 'Wing Whiz',
+    '4': 'Sky Soarers',
+    '5': 'Avian Aces', 
+    '6': 'Nimbus Navigators',
+    '7': 'Fledgling Falcons'
+};
+
+// Helper function to get the display name
+function getClassName(grade) {
+    return classNames[grade] || `Grade ${grade}`;
+}
+    
+// Add this near the top of your main.js
+const classData = {
+    'baby': {
+        name: 'Baby Birds',
+        logo: '../../images/Classes_1.png',
+        teacher: {
+            name: 'Teacher Siazyana',
+            picture: 'images/teachers/ms-chirpy.jpg'
+        }
+    },
+    'middle': {
+        name: 'Sky Sprouts',
+        logo: '../../images/Classes_1.png',
+        teacher: {
+            name: 'Teacher Siazyana',
+            picture: 'images/teachers/ms-chirpy.jpg'
+        }
+    },
+    '1': {
+        name: 'Feather Flyers',
+        logo: '../../images/Classes_4.png',
+        teacher: {
+            name: 'Teacher Loveness',
+            picture: 'images/teachers/mrs-wingster.jpg'
+        }
+    },
+    // Add all other classes following the same pattern
+    '7': {
+        name: 'Fledgling Falcons',
+        logo: 'images/class-logos/fledgling-falcons.png',
+        teacher: {
+            name: 'Coach Skyhigh',
+            picture: 'images/teachers/coach-skyhigh.jpg'
+        }
+    }
+};    
+    
+    
     // Initialize the app
     function init() {
         if (!window.workbooks) window.workbooks = [];
@@ -47,19 +105,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function populateSelect(selectElement, options) {
-        selectElement.innerHTML = '';
-        const allOption = document.createElement('option');
-        allOption.value = 'all';
-        allOption.textContent = 'All ' + selectElement.id.replace('-select', '') + 's';
-        selectElement.appendChild(allOption);
+    selectElement.innerHTML = '';
+    const allOption = document.createElement('option');
+    allOption.value = 'all';
+    allOption.textContent = 'All ' + selectElement.id.replace('-select', '') + 's';
+    selectElement.appendChild(allOption);
 
-        options.forEach(option => {
-            const opt = document.createElement('option');
-            opt.value = option;
-            opt.textContent = option;
-            selectElement.appendChild(opt);
-        });
-    }
+    options.forEach(option => {
+        const opt = document.createElement('option');
+        opt.value = option;
+        opt.textContent = selectElement.id === 'grade-select' ? 
+                         getClassName(option) : 
+                         option;
+        selectElement.appendChild(opt);
+    });
+}
 
     function getRandomQuestions(questions, limit) {
         if (!limit || questions.length <= limit) return questions.slice();
@@ -114,13 +174,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const workbookCard = document.createElement('div');
         workbookCard.className = 'workbook-card';
         workbookCard.dataset.id = workbook.id;
-        workbookCard.innerHTML = `
-            <h3>${workbook.title}</h3>
-            <p>${workbook.description}</p>
-            <div class="meta">
-                <span>Grade ${workbook.grade} • Term ${workbook.term}</span>
-                <span>${workbook.pages.length} pages</span>
-            </div>
+        
+    workbookCard.innerHTML = `
+        <h3>${workbook.title}</h3>
+        <p>${workbook.description}</p>
+        <div class="meta">
+            <span>${getClassName(workbook.grade)} • Term ${workbook.term}</span>
+            <span>${workbook.pages.length} pages</span>
+        </div>
+        
             <div class="progress-bar" style="width: ${progress}%"></div>
             ${isCompleted ? '<div class="completion-badge"><i class="fas fa-check"></i> Completed</div>' : ''}
         `;
@@ -159,45 +221,51 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function loadWorkbook(workbookId) {
-        currentWorkbook = window.workbooks.find(wb => wb.id === workbookId);
-        currentPageIndex = 0;
-        
-        if (!currentWorkbook) {
-            console.error('Workbook not found:', workbookId);
-            return;
-        }
-        
-        // Process questions with limits and shuffling
-        currentWorkbook.pages.forEach(page => {
-            page.processedExercises = page.exercises.map(exercise => {
-                const questions = getRandomQuestions(exercise.questions, page.questionLimit);
-                return {
-                    ...exercise,
-                    questions: questions.map(q => {
-                        if (q.shuffleOptions && q.options) {
-                            const originalCorrect = q.options[q.correctAnswer];
-                            const shuffledOptions = shuffleOptions(q.options);
-                            return {
-                                ...q,
-                                options: shuffledOptions,
-                                correctAnswer: shuffledOptions.indexOf(originalCorrect)
-                            };
-                        }
-                        return q;
-                    })
-                };
-            });
-        });
-        
-        workbookTitle.textContent = currentWorkbook.title;
-        prevPageBtn.disabled = true;
-        nextPageBtn.disabled = currentWorkbook.pages.length <= 1;
-        checkCompletionStatus();
-        
-        renderPage(currentPageIndex);
-        updatePageIndicator();
-        updateProgress();
+    // Clear any previous answers for this workbook when loading
+    localStorage.removeItem(`workbook_${workbookId}_answers`);
+    
+    currentWorkbook = window.workbooks.find(wb => wb.id === workbookId);
+    currentPageIndex = 0;
+    
+    if (!currentWorkbook) {
+        console.error('Workbook not found:', workbookId);
+        return;
     }
+    
+    // Process questions with limits and shuffling
+    currentWorkbook.pages.forEach(page => {
+        page.processedExercises = page.exercises.map(exercise => {
+            const questions = getRandomQuestions(exercise.questions, page.questionLimit);
+            return {
+                ...exercise,
+                questions: questions.map(q => {
+                    if (q.shuffleOptions && q.options) {
+                        const originalCorrect = q.options[q.correctAnswer];
+                        const shuffledOptions = shuffleOptions(q.options);
+                        return {
+                            ...q,
+                            options: shuffledOptions,
+                            correctAnswer: shuffledOptions.indexOf(originalCorrect)
+                        };
+                    }
+                    return q;
+                })
+            };
+        });
+    });
+    
+        
+        
+    // Reset UI
+    workbookTitle.textContent = currentWorkbook.title;
+    prevPageBtn.disabled = true;
+    nextPageBtn.disabled = currentWorkbook.pages.length <= 1;
+    completeWorkbookBtn.disabled = true; // Start disabled until questions are answered
+    
+    renderPage(currentPageIndex);
+    updatePageIndicator();
+    updateProgress();
+}
 
     function renderPage(pageIndex) {
         if (!currentWorkbook || pageIndex < 0 || pageIndex >= currentWorkbook.pages.length) return;
@@ -387,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!currentWorkbook) return;
         
         localStorage.setItem(`workbook_${currentWorkbook.id}_completed`, 'true');
-        completeWorkbookBtn.innerHTML = '<i class="fas fa-check-circle"></i> Completed!';
+        completeWorkbookBtn.innerHTML = '<i class="fas fa-check-circle"></i>';
         completeWorkbookBtn.disabled = true;
         renderWorkbookList();
     }
