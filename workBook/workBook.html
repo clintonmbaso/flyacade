@@ -7,27 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <link rel="stylesheet" href="./Teachers/teachers.css">
-    <link rel="stylesheet" href="./flyacade.css">
-    <link rel="stylesheet" href="./flychurch.css">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./indexes.css">
-    
-    
     <style>
-           .logoset {
+        .logoset {
             width: 70px;
             height: auto;
             background-color: rgba(55,55,55,0.1);
             border-radius: 10px 0px 0px 10px;
-            padding: 2px 3px; /* Add padding around the text */
+            padding: 2px 3px;
         }
     
         /* NAVIGATION PANEL */
         #PanelLayer {
             position: fixed;
             top: 0;
-            left: -400px; /* Initially hidden */
+            left: -400px;
             width: 50px;
             height: 100vh;
             background-color: rgba(0,0,0,0.8);
@@ -39,7 +32,6 @@
             color: white;
         }
 
-        /* Show the panel when active */
         #PanelLayer.active {
             left: 0;
         }
@@ -64,10 +56,9 @@
             text-decoration: none;
             display: block;
             text-align: left;
-         padding: 10px;
+            padding: 10px;
         }
 
-        /* Close Button */
         #closePanel {
             position: absolute;
             top: 10px;
@@ -78,7 +69,6 @@
             z-index: 1100;
         }
 
-        /* Hamburger Menu */
         #menuPanel {
             position: fixed;
             top: 30px;
@@ -89,84 +79,135 @@
             z-index: 1100;
         }
     
-header {
-    background-color: #003366;
-    opacity: 0.9;
-    color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-    
-header .logo {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    color: #FFD700;
-    text-transform: uppercase;
-}
+        header {
+            background-color: #003366;
+            opacity: 0.9;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        header .logo {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #FFD700;
+            text-transform: uppercase;
+        }
 
-.logoz {
-  width: auto;
-  height: 50px;
-  top: 3px;
-  right: 3px;
-  position: absolute;
-  border: 2px solid rgba(23,45,53,0.4);
-  border-radius: 20%;
-  padding: 1px;
-  margin: 3px;
-  background-color: rgba(255,255,255,1);
-  z-index: 199;
-}
+        .logoz {
+            width: auto;
+            height: 50px;
+            top: 3px;
+            right: 3px;
+            position: absolute;
+            border: 2px solid rgba(23,45,53,0.4);
+            border-radius: 20%;
+            padding: 1px;
+            margin: 3px;
+            background-color: rgba(255,255,255,1);
+            z-index: 199;
+        }
 
-.allLogos {
-    text-align: right;
-    margin-right: 20%;
-}
-.logos {
+        .allLogos {
+            text-align: right;
+            margin-right: 20%;
+        }
+        
+        .logos {
             width: 20px;
-    height: auto;
-}
+            height: auto;
+        }
+        
+        /* Class info styling */
+        .class-info-container {
+            background-color: transparent;
+            border-radius: 8px;
+            padding: 0;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .class-logo {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            position: absolute;
+            margin: 40px 0 0 35px;
+        }
+
+        .teacher-info {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            padding: 0.5rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .teacher-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 20%;
+            object-fit: cover;
+            border: 2px solid #4a6fa5;
+        }
+        .workbook-class-logo {
+            width: 30px;
+            height: 30px;
+        }
+        /* Workbook controls */
+        .workbook-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .iconzi {
+            display: flex;
+            gap: 10px;
+        }
+    
+    .coloring-image {
+        width: 100px;
+        height: auto;
+    }
+    .color-btn {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+    }
     </style>    
 </head>
 
 <body>
-        <div class="app-container">
-    
-
-
-    <!-- NAVIGATION PANEL -->
-
- 
-    <!-- Navigation Bar -->
-    <header>
-    <div class="container">
-        <a href="./index.html"><img class="logoz" src="../images/Flying_Wings_Academy.png" alt="topLogo"></a>
-        <h5 style="margin-right:25px;"><span style="color: green;">Flying Wings</span><span style="color: white;"> - </span><span style="color: orange;">Academy</span></h5>
-    </div>
-          
-          <hr>
-          <div class="allLogos">
-              <img src="../images/Classes_1.png" alt="Logo 1" class="logos">
-              <img src="../images/Classes_2.png" alt="Logo 2" class="logos">
-              <img src="../images/Classes_3.png" alt="Logo 3" class="logos">
-              <img src="../images/Classes_4.png" alt="Logo 4" class="logos">
-              <img src="../images/Classes_5.png" alt="Logo 5" class="logos">
-              <img src="../images/Classes_6.png" alt="Logo 6" class="logos">
-              <img src="../images/Classes_7.png" alt="Logo 7" class="logos">
-              <img src="../images/Classes_8.png" alt="Logo 8" class="logos">
-              <img src="../images/Classes_9.png" alt="Logo 9" class="logos">
-              <img src="../images/Classes_10.png" alt="Logo 10" class="logos">
-          </div>
-
-                
-                
-                
-    
-
+    <div class="app-container">
+        <!-- Navigation Bar -->
+        <header>
+            <div class="container">
+                <a href="./index.html"><img class="logoz" src="../images/Flying_Wings_Academy.png" alt="topLogo"></a>
+                <h5 style="margin-right:25px;"><span style="color: green;">Flying Wings</span><span style="color: white;"> - </span><span style="color: orange;">Academy</span></h5>
+            </div>
+            
+            <hr>
+            <div class="allLogos">
+                <img src="../images/Classes_1.png" alt="Logo 1" class="logos">
+                <img src="../images/Classes_2.png" alt="Logo 2" class="logos">
+                <img src="../images/Classes_3.png" alt="Logo 3" class="logos">
+                <img src="../images/Classes_4.png" alt="Logo 4" class="logos">
+                <img src="../images/Classes_5.png" alt="Logo 5" class="logos">
+                <img src="../images/Classes_6.png" alt="Logo 6" class="logos">
+                <img src="../images/Classes_7.png" alt="Logo 7" class="logos">
+                <img src="../images/Classes_8.png" alt="Logo 8" class="logos">
+                <img src="../images/Classes_9.png" alt="Logo 9" class="logos">
+                <img src="../images/Classes_10.png" alt="Logo 10" class="logos">
+            </div>
 
             <div class="user-controls">
                 <button id="theme-toggle" aria-label="Toggle dark mode">
@@ -177,22 +218,7 @@ header .logo {
                 </button>
             </div>
         </header>
-         <!--
-<div id="class-info" class="class-info-container">
-    <div class="class-header">
-        <img id="class-logo" class="class-logo" src="" alt="Class Logo">
-        <h2 id="class-name"></h2>
-    </div>
-    <div class="teacher-info">
-        <img id="teacher-picture" class="teacher-picture" src="" alt="Teacher">
-        <div>
-            <h3>Class Teacher</h3>
-            <p id="teacher-name"></p>
-        </div>
-    </div>
-</div>
-         -->
-         
+        
         <div class="main-content">
             <aside class="sidebar">
                 <div class="filter-section">
@@ -200,19 +226,16 @@ header .logo {
                     <div class="filter-group">
                         <select id="grade-select">
                             <option value="all">All Grades</option>
-                            <!-- Options will be populated dynamically -->
                         </select>
                     </div>
                     <div class="filter-group">
                         <select id="term-select">
                             <option value="all">All Terms</option>
-                            <!-- Options will be populated dynamically -->
                         </select>
                     </div>
                     <div class="filter-group">
                         <select id="subject-select">
                             <option value="all">All Subjects</option>
-                            <!-- Options will be populated dynamically -->
                         </select>
                     </div>
                 </div>
@@ -226,6 +249,10 @@ header .logo {
             </aside>
 
             <main class="workbook-viewer">
+                <div id="class-info" class="class-info-container">
+                    <!-- Class info will be loaded here -->
+                </div>
+                
                 <div class="workbook-header">
                     <h2 id="workbook-title">Select a workbook to begin</h2>
                     <div class="progress-container">
@@ -247,9 +274,8 @@ header .logo {
                     </button>
                     <span id="page-indicator">Page 0 of 0</span>
                     <button id="next-page" class="btn-secondary" disabled>
-                         <i class="fas fa-arrow-right"></i>
+                        <i class="fas fa-arrow-right"></i>
                     </button>
-
 
     <!-- Existing buttons... -->
 <div class="iconzi">
@@ -265,7 +291,6 @@ header .logo {
        <i class="fas fa-check-circle"></i>
    </button>
 </div>
-                    
                 </div>
             </main>
         </div>
@@ -292,100 +317,141 @@ header .logo {
 
     <!-- Load data files -->
     <!-- Baby Birds -->
+    <!-- Science -->
+    <script src="js/data/science/bbt1aScience.js"></script>
+    <script src="js/data/science/bbt1bScience.js"></script>
+    <script src="js/data/science/bbt2aScience.js"></script>
+    <script src="js/data/science/bbt2bScience.js"></script>
+    <script src="js/data/science/bbt3aScience.js"></script>
+    <script src="js/data/science/bbt3bScience.js"></script>
     
-    <!-- Load data files -->
+    <!-- Sky Sprouts -->
+    <!-- Science -->
+    <script src="js/data/science/sst1aScience.js"></script>
+    <script src="js/data/science/sst1bScience.js"></script>
+    <script src="js/data/science/sst2aScience.js"></script>
+    <script src="js/data/science/sst2bScience.js"></script>
+    <script src="js/data/science/sst3aScience.js"></script>
+    <script src="js/data/science/sst3bScience.js"></script>
     
-    <!-- Load data files -->
-    
+    <!-- Nestlings Navigators -->
+    <!-- Science -->
+    <script src="js/data/science/nnt1aScience.js"></script>
+    <script src="js/data/science/nnt1bScience.js"></script>
+    <script src="js/data/science/nnt2aScience.js"></script>
+    <script src="js/data/science/nnt2bScience.js"></script>
+    <script src="js/data/science/nnt3aScience.js"></script>
+    <script src="js/data/science/nnt3bScience.js"></script>
+        
     <!-- Feature Flyers -->    
     <!-- Science -->
-<script src="js/data/science/g1t1aScience.js"></script>
-<script src="js/data/science/g1t1bScience.js"></script>
-<script src="js/data/science/g1t2aScience.js"></script>
-<script src="js/data/science/g1t2bScience.js"></script>
-<script src="js/data/science/g1t3aScience.js"></script>
-<script src="js/data/science/g1t3bScience.js"></script>
-
+    <script src="js/data/science/g1t1aScience.js"></script>
+    <script src="js/data/science/g1t1bScience.js"></script>
+    <script src="js/data/science/g1t2aScience.js"></script>
+    <script src="js/data/science/g1t2bScience.js"></script>
+    <script src="js/data/science/g1t3aScience.js"></script>
+    <script src="js/data/science/g1t3bScience.js"></script>
     
-<!-- Cloud Chicks -->
+    <!-- Cloud Chicks -->
     <!-- Science -->
-<script src="js/data/science/g2t1aScience.js"></script>
-<script src="js/data/science/g2t1bScience.js"></script>
-<script src="js/data/science/g2t2aScience.js"></script>
-<script src="js/data/science/g2t2bScience.js"></script>
-<script src="js/data/science/g2t3aScience.js"></script>
-<script src="js/data/science/g2t3bScience.js"></script>
-
+    <script src="js/data/science/g2t1aScience.js"></script>
+    <script src="js/data/science/g2t1bScience.js"></script>
+    <script src="js/data/science/g2t2aScience.js"></script>
+    <script src="js/data/science/g2t2bScience.js"></script>
+    <script src="js/data/science/g2t3aScience.js"></script>
+    <script src="js/data/science/g2t3bScience.js"></script>
     
-<!-- Wing Whiz -->    
+    <!-- Wing Whiz -->    
     <!-- Science -->
-<script src="js/data/science/g3t1aScience.js"></script>
-<script src="js/data/science/g3t1bScience.js"></script>
-<script src="js/data/science/g3t2aScience.js"></script>
-<script src="js/data/science/g3t2bScience.js"></script>
-<script src="js/data/science/g3t3aScience.js"></script>
-<script src="js/data/science/g3t3bScience.js"></script>
+    <script src="js/data/science/g3t1aScience.js"></script>
+    <script src="js/data/science/g3t1bScience.js"></script>
+    <script src="js/data/science/g3t2aScience.js"></script>
+    <script src="js/data/science/g3t2bScience.js"></script>
+    <script src="js/data/science/g3t3aScience.js"></script>
+    <script src="js/data/science/g3t3bScience.js"></script>
 
-
-<!-- Sky Soarers -->
+    <!-- Sky Soarers -->
     <!-- Science -->
-<script src="js/data/science/g4t1aScience.js"></script>
-<script src="js/data/science/g4t1bScience.js"></script>
-<script src="js/data/science/g4t2aScience.js"></script>
-<script src="js/data/science/g4t2bScience.js"></script>
-<script src="js/data/science/g4t3aScience.js"></script>
-<script src="js/data/science/g4t3bScience.js"></script>
+    <script src="js/data/science/g4t1aScience.js"></script>
+    <script src="js/data/science/g4t1bScience.js"></script>
+    <script src="js/data/science/g4t2aScience.js"></script>
+    <script src="js/data/science/g4t2bScience.js"></script>
+    <script src="js/data/science/g4t3aScience.js"></script>
+    <script src="js/data/science/g4t3bScience.js"></script>
     
     <!-- Mathematics -->
-<script src="js/data/mathematics/g4t1aMath.js"></script>
-<script src="js/data/mathematics/g4t1bMath.js"></script>
-<script src="js/data/mathematics/g4t2aMath.js"></script>
-<script src="js/data/mathematics/g4t2bMath.js"></script>
-<script src="js/data/mathematics/g4t3aMath.js"></script>
-<script src="js/data/mathematics/g4t3bMath.js"></script>
+    <script src="js/data/mathematics/g4t1aMath.js"></script>
+    <script src="js/data/mathematics/g4t1bMath.js"></script>
+    <script src="js/data/mathematics/g4t2aMath.js"></script>
+    <script src="js/data/mathematics/g4t2bMath.js"></script>
+    <script src="js/data/mathematics/g4t3aMath.js"></script>
+    <script src="js/data/mathematics/g4t3bMath.js"></script>
     
-<!-- Avian Aces -->
+    <!-- Avian Aces -->
     <!-- Science -->
-<script src="js/data/science/g5t1aScience.js"></script>
-<script src="js/data/science/g5t1bScience.js"></script>
-<script src="js/data/science/g5t2aScience.js"></script>
-<script src="js/data/science/g5t2bScience.js"></script>
-<script src="js/data/science/g5t3aScience.js"></script>
-<script src="js/data/science/g5t3bScience.js"></script>
+    <script src="js/data/science/g5t1aScience.js"></script>
+    <script src="js/data/science/g5t1bScience.js"></script>
+    <script src="js/data/science/g5t2aScience.js"></script>
+    <script src="js/data/science/g5t2bScience.js"></script>
+    <script src="js/data/science/g5t3aScience.js"></script>
+    <script src="js/data/science/g5t3bScience.js"></script>
     
     <!-- Home Economics -->
-<script src="js/data/homeEconomics/g5t1aHE.js"></script>
-<script src="js/data/homeEconomics/g5t1bHE.js"></script>
-<script src="js/data/homeEconomics/g5t2aHE.js"></script>
-<script src="js/data/homeEconomics/g5t2bHE.js"></script>
-<script src="js/data/homeEconomics/g5t3aHE.js"></script>
-<script src="js/data/homeEconomics/g5t3bHE.js"></script>
+    <script src="js/data/homeEconomics/g5t1aHE.js"></script>
+    <script src="js/data/homeEconomics/g5t1bHE.js"></script>
+    <script src="js/data/homeEconomics/g5t2aHE.js"></script>
+    <script src="js/data/homeEconomics/g5t2bHE.js"></script>
+    <script src="js/data/homeEconomics/g5t3aHE.js"></script>
+    <script src="js/data/homeEconomics/g5t3bHE.js"></script>
     
-<!-- Nimbus Navigators -->
+    <!-- Nimbus Navigators -->
     <!-- Science -->
-<script src="js/data/science/g6t1aScience.js"></script>
-<script src="js/data/science/g6t1bScience.js"></script>
-<script src="js/data/science/g6t2aScience.js"></script>
-<script src="js/data/science/g6t2bScience.js"></script>
-<script src="js/data/science/g6t3aScience.js"></script>
-<script src="js/data/science/g6t3bScience.js"></script>
-        
+    <script src="js/data/science/g6t1aScience.js"></script>
+    <script src="js/data/science/g6t1bScience.js"></script>
+    <script src="js/data/science/g6t2aScience.js"></script>
+    <script src="js/data/science/g6t2bScience.js"></script>
+    <script src="js/data/science/g6t3aScience.js"></script>
+    <script src="js/data/science/g6t3bScience.js"></script>
     
     <!-- Fledgling Falcons -->
-<script src="js/data/science/g7t1aScience.js"></script>
-<script src="js/data/science/g7t1bScience.js"></script>
-<script src="js/data/science/g7t2aScience.js"></script>
-<script src="js/data/science/g7t2bScience.js"></script>
-<script src="js/data/science/g7t3aScience.js"></script>
-<script src="js/data/science/g7t3bScience.js"></script>
- 
- 
-<script src="js/data/socialStudies/social-studies-grade7-term1-pastPapers.js"></script>
+    <!-- Science -->
+    <script src="js/data/science/g7t1aScience.js"></script>
+    <script src="js/data/science/g7t1bScience.js"></script>
+    <script src="js/data/science/g7t2aScience.js"></script>
+    <script src="js/data/science/g7t2bScience.js"></script>
+    <script src="js/data/science/g7t3aScience.js"></script>
+    <script src="js/data/science/g7t3bScience.js"></script>
     
+    <!-- Home Economics -->
+    <script src="js/data/homeEconomics/g7t1aHE.js"></script>
+    <script src="js/data/homeEconomics/g7t1bHE.js"></script>
+    <script src="js/data/homeEconomics/g7t2aHE.js"></script>
+    <script src="js/data/homeEconomics/g7t2bHE.js"></script>
+    <script src="js/data/homeEconomics/g7t3aHE.js"></script>
+    <script src="js/data/homeEconomics/g7t3bHE.js"></script>
     
+    <!-- Mathematics -->
+    <script src="js/data/mathematics/g7t1aMath.js"></script>
+    <script src="js/data/mathematics/g7t1bMath.js"></script>
+    <script src="js/data/mathematics/g7t2aMath.js"></script>
+    <script src="js/data/mathematics/g7t2bMath.js"></script>
+    <script src="js/data/mathematics/g7t3aMath.js"></script>
+    <script src="js/data/mathematics/g7t3bMath.js"></script>
     
-        
-<!-- Load main.js after all data files -->
-<script src="js/main.js"></script>
+    <!-- English -->
+    <script src="js/data/english/g7t1aMath.js"></script>
+    <script src="js/data/english/g7t1bMath.js"></script>
+    <script src="js/data/english/g7t2aMath.js"></script>
+    <script src="js/data/english/g7t2bMath.js"></script>
+    <script src="js/data/english/g7t3aMath.js"></script>
+    <script src="js/data/english/g7t3bMath.js"></script>
+                
+    <!-- Past Papers -->
+    <script src="js/data/english/g7pastEnglish.js"></script>
+    <script src="js/data/homeEconomics/g7pastHE.js"></script>
+    <script src="js/data/socialStudies/g7pastSDS.js"></script>
+    
+    <!-- Load main.js after all data files -->
+    <script src="js/main.js"></script>
 </body>
 </html>
