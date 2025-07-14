@@ -20,65 +20,162 @@ document.addEventListener('DOMContentLoaded', function() {
     const subjectSelect = document.getElementById('subject-select');
     const showResultsBtn = document.getElementById('show-results');
     const printAnswersBtn = document.getElementById('print-answers');
+    const classInfoContainer = document.getElementById('class-info');
 
-    
-    // Add this near the top of your main.js file
-const classNames = {
-    'baby': 'Baby Birds',
-    'middle': 'Sky Sprouts', 
-    'reception': 'Nestlings Navigators',
-    '1': 'Feather Flyers',
-    '2': 'Cloud Chicks',
-    '3': 'Wing Whiz',
-    '4': 'Sky Soarers',
-    '5': 'Avian Aces', 
-    '6': 'Nimbus Navigators',
-    '7': 'Fledgling Falcons'
-};
+    // Class data with logos and teachers
+    const classData = {
+        'baby': {
+            name: 'Baby Birds',
+            logo: '../images/Classes_1.png',
+            teacher: {
+                name: 'Teacher Siazyana',
+                picture: '../images/teachers/FS20BC0012.jpg'
+            }
+        },
+        'middle': {
+            name: 'Sky Sprouts',
+            logo: '../images/Classes_2.png',
+            teacher: {
+                name: 'Teacher Siazyana',
+                picture: '../images/teachers/FS20BC0012.jpg'
+            }
+        },
+        'reception': {
+            name: 'Nestlings Navigators',
+            logo: '../images/Classes_3.png',
+            teacher: {
+                name: 'Teacher Loveness',
+                picture: '../images/teachers/FS20BC0003.jpg'
+            }
+        },
+        '1': {
+            name: 'Feather Flyers',
+            logo: '../images/Classes_4.png',
+            teacher: {
+                name: 'Teacher Loveness',
+                picture: '../images/teachers/FS20BC0003.jpg'
+            }
+        },
+        '2': {
+            name: 'Cloud Chicks',
+            logo: '../images/Classes_5.png',
+            teacher: {
+                name: 'Teacher Faith',
+                picture: '../images/teachers/FS20BC0011.jpg'
+            }
+        },
+        '3': {
+            name: 'Wing Whiz',
+            logo: '../images/Classes_6.png',
+            teacher: {
+                name: 'Teacher Faith',
+                picture: '../images/teachers/FS20BC0011.jpg'
+            }
+        },
+        '4': {
+            name: 'Sky Soarers',
+            logo: '../images/Classes_7.png',
+            teacher: {
+                name: 'Mr. Mbaso',
+                picture: '../images/teachers/FS20BC0001.jpg'
+            }
+        },
+        '5': {
+            name: 'Avian Aces',
+            logo: '../images/Classes_8.png',
+            teacher: {
+                name: 'Mr. Mbaso',
+                picture: '../images/teachers/FS20BC0001.jpg'
+            }
+        },
+        '6': {
+            name: 'Nimbus Navigators',
+            logo: '../images/Classes_9.png',
+            teacher: {
+                name: 'Mr. Mbaso',
+                picture: '../images/teachers/FS20BC0001.jpg'
+            }
+        },
+        '7': {
+            name: 'Fledgling Falcons',
+            logo: '../images/Classes_10.png',
+            teacher: {
+                name: 'Mr. Mbaso',
+                picture: '../images/teachers/FS20BC0001.jpg'
+            }
+        }
+    };
 
-// Helper function to get the display name
-function getClassName(grade) {
-    return classNames[grade] || `Grade ${grade}`;
-}
-    
-// Add this near the top of your main.js
-const classData = {
-    'baby': {
-        name: 'Baby Birds',
-        logo: '../../images/Classes_1.png',
-        teacher: {
-            name: 'Teacher Siazyana',
-            picture: 'images/teachers/ms-chirpy.jpg'
+    // Question templates for interactive activities
+    const questionTemplates = {
+        coloring: {
+            title: "Coloring Activity",
+            template: (data, questionId) => `
+                <div class="interactive-question coloring-question">
+                    <h4>Color the ${data.item}</h4>
+                    <img src="${data.image}" class="coloring-image" alt="${data.item}">
+                    <div class="color-palette">
+                        ${data.colors.map(color => `
+                            <button class="color-btn" style="background-color: ${color}" 
+                                    data-color="${color}" data-question-id="${questionId}"></button>
+                        `).join('')}
+                    </div>
+                </div>
+            `
+        },
+        tracing: {
+            title: "Tracing Practice",
+            template: (data, questionId) => `
+                <div class="interactive-question tracing-question">
+                    <h4>Trace the ${data.item}</h4>
+                    <div class="tracing-container">
+                        <img src="${data.image}" class="tracing-image" alt="${data.item}">
+                        <canvas class="tracing-canvas" data-question-id="${questionId}"></canvas>
+                        <button class="clear-tracing" data-question-id="${questionId}">Clear</button>
+                    </div>
+                </div>
+            `
+        },
+        listening: {
+            title: "Listening Activity",
+            template: (data, questionId) => `
+                <div class="interactive-question listening-question">
+                    <h4>${data.question}</h4>
+                    <audio controls src="${data.audio}"></audio>
+                    <div class="options">
+                        ${data.options.map((option, index) => `
+                            <div class="option">
+                                <input type="radio" 
+                                       id="${questionId}_${index}" 
+                                       name="${questionId}" 
+                                       class="answer-input" 
+                                       value="${index}"
+                                       ${option.correct ? 'data-correct="true"' : ''}>
+                                <label for="${questionId}_${index}">${option.text}</label>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `
+        },
+        counting: {
+            title: "Counting Activity",
+            template: (data, questionId) => `
+                <div class="interactive-question counting-question">
+                    <h4>${data.question}</h4>
+                    <img src="${data.image}" class="counting-image" alt="Counting items">
+                    <div class="number-options">
+                        ${Array.from({length: 10}, (_, i) => i + 1).map(num => `
+                            <button class="number-btn" data-number="${num}" data-question-id="${questionId}">
+                                ${num}
+                            </button>
+                        `).join('')}
+                    </div>
+                </div>
+            `
         }
-    },
-    'middle': {
-        name: 'Sky Sprouts',
-        logo: '../../images/Classes_1.png',
-        teacher: {
-            name: 'Teacher Siazyana',
-            picture: 'images/teachers/ms-chirpy.jpg'
-        }
-    },
-    '1': {
-        name: 'Feather Flyers',
-        logo: '../../images/Classes_4.png',
-        teacher: {
-            name: 'Teacher Loveness',
-            picture: 'images/teachers/mrs-wingster.jpg'
-        }
-    },
-    // Add all other classes following the same pattern
-    '7': {
-        name: 'Fledgling Falcons',
-        logo: 'images/class-logos/fledgling-falcons.png',
-        teacher: {
-            name: 'Coach Skyhigh',
-            picture: 'images/teachers/coach-skyhigh.jpg'
-        }
-    }
-};    
-    
-    
+    };
+
     // Initialize the app
     function init() {
         if (!window.workbooks) window.workbooks = [];
@@ -105,21 +202,21 @@ const classData = {
     }
 
     function populateSelect(selectElement, options) {
-    selectElement.innerHTML = '';
-    const allOption = document.createElement('option');
-    allOption.value = 'all';
-    allOption.textContent = 'All ' + selectElement.id.replace('-select', '') + 's';
-    selectElement.appendChild(allOption);
+        selectElement.innerHTML = '';
+        const allOption = document.createElement('option');
+        allOption.value = 'all';
+        allOption.textContent = 'All ' + selectElement.id.replace('-select', '') + 's';
+        selectElement.appendChild(allOption);
 
-    options.forEach(option => {
-        const opt = document.createElement('option');
-        opt.value = option;
-        opt.textContent = selectElement.id === 'grade-select' ? 
-                         getClassName(option) : 
-                         option;
-        selectElement.appendChild(opt);
-    });
-}
+        options.forEach(option => {
+            const opt = document.createElement('option');
+            opt.value = option;
+            opt.textContent = selectElement.id === 'grade-select' ? 
+                             classData[option]?.name || `Grade ${option}` : 
+                             option;
+            selectElement.appendChild(opt);
+        });
+    }
 
     function getRandomQuestions(questions, limit) {
         if (!limit || questions.length <= limit) return questions.slice();
@@ -170,19 +267,23 @@ const classData = {
     function createWorkbookCard(workbook) {
         const progress = getWorkbookProgress(workbook.id);
         const isCompleted = localStorage.getItem(`workbook_${workbook.id}_completed`) === 'true';
+        const classInfo = classData[workbook.grade] || {};
         
         const workbookCard = document.createElement('div');
         workbookCard.className = 'workbook-card';
         workbookCard.dataset.id = workbook.id;
-        
-    workbookCard.innerHTML = `
-        <h3>${workbook.title}</h3>
-        <p>${workbook.description}</p>
-        <div class="meta">
-            <span>${getClassName(workbook.grade)} • Term ${workbook.term}</span>
-            <span>${workbook.pages.length} pages</span>
-        </div>
-        
+        workbookCard.innerHTML = `
+            <div class="workbook-card-header">
+                <div id="why" style="display: flex; justify-content: space-between;">
+                <img src="${classInfo.logo || ''}" class="workbook-class-logo" alt="${classInfo.name || ''}">
+                    <h3>${workbook.title}</h3>
+                </div>
+                    <p>${workbook.description}</p>        
+            </div>
+            <div class="meta">
+                <span>${classInfo.name || `Grade ${workbook.grade}`} • Term ${workbook.term}</span>
+                <span>${workbook.pages.length} pages</span>
+            </div>
             <div class="progress-bar" style="width: ${progress}%"></div>
             ${isCompleted ? '<div class="completion-badge"><i class="fas fa-check"></i> Completed</div>' : ''}
         `;
@@ -221,51 +322,136 @@ const classData = {
     }
 
     function loadWorkbook(workbookId) {
-    // Clear any previous answers for this workbook when loading
-    localStorage.removeItem(`workbook_${workbookId}_answers`);
-    
-    currentWorkbook = window.workbooks.find(wb => wb.id === workbookId);
-    currentPageIndex = 0;
-    
-    if (!currentWorkbook) {
-        console.error('Workbook not found:', workbookId);
-        return;
-    }
-    
-    // Process questions with limits and shuffling
-    currentWorkbook.pages.forEach(page => {
-        page.processedExercises = page.exercises.map(exercise => {
-            const questions = getRandomQuestions(exercise.questions, page.questionLimit);
-            return {
-                ...exercise,
-                questions: questions.map(q => {
-                    if (q.shuffleOptions && q.options) {
-                        const originalCorrect = q.options[q.correctAnswer];
-                        const shuffledOptions = shuffleOptions(q.options);
-                        return {
-                            ...q,
-                            options: shuffledOptions,
-                            correctAnswer: shuffledOptions.indexOf(originalCorrect)
-                        };
-                    }
-                    return q;
-                })
-            };
+        // Clear any previous answers for this workbook when loading
+        localStorage.removeItem(`workbook_${workbookId}_answers`);
+        
+        currentWorkbook = window.workbooks.find(wb => wb.id === workbookId);
+        currentPageIndex = 0;
+        
+        if (!currentWorkbook) {
+            console.error('Workbook not found:', workbookId);
+            return;
+        }
+        
+        // Process questions with limits and shuffling
+        currentWorkbook.pages.forEach(page => {
+            page.processedExercises = page.exercises.map(exercise => {
+                const questions = getRandomQuestions(exercise.questions, page.questionLimit);
+                return {
+                    ...exercise,
+                    questions: questions.map(q => {
+                        if (q.shuffleOptions && q.options) {
+                            const originalCorrect = q.options[q.correctAnswer];
+                            const shuffledOptions = shuffleOptions(q.options);
+                            return {
+                                ...q,
+                                options: shuffledOptions,
+                                correctAnswer: shuffledOptions.indexOf(originalCorrect)
+                            };
+                        }
+                        return q;
+                    })
+                };
+            });
         });
-    });
-    
         
+        // Update class info display
+        const classInfo = classData[currentWorkbook.grade] || {};
+        classInfoContainer.innerHTML = `
+        <!--<div id="why" style="display: flex; justify-content: space-between;">-->
+            <div class="teacher-info">
+                <img src="${classInfo.teacher?.picture || ''}" class="teacher-picture" alt="${classInfo.teacher?.name || ''}">
+                <img src="${classInfo.logo || ''}" class="class-logo" alt="${classInfo.name || ''}">
+                <div>
+                <h3>${classInfo.name || `Grade ${currentWorkbook.grade}`}</h3>
+                    <p>${classInfo.teacher?.name || 'No teacher assigned'}</p>
+                </div>
+            </div>
+        <!--</div>-->
+        `;
         
-    // Reset UI
-    workbookTitle.textContent = currentWorkbook.title;
-    prevPageBtn.disabled = true;
-    nextPageBtn.disabled = currentWorkbook.pages.length <= 1;
-    completeWorkbookBtn.disabled = true; // Start disabled until questions are answered
-    
-    renderPage(currentPageIndex);
-    updatePageIndicator();
-    updateProgress();
-}
+        // Reset UI
+        workbookTitle.textContent = currentWorkbook.title;
+        prevPageBtn.disabled = true;
+        nextPageBtn.disabled = currentWorkbook.pages.length <= 1;
+        completeWorkbookBtn.disabled = true;
+        
+        renderPage(currentPageIndex);
+        updatePageIndicator();
+        updateProgress();
+    }
+
+    function renderQuestion(question, questionId, savedAnswer) {
+        let questionHTML = '';
+        
+        switch(question.type) {
+            case 'coloring':
+            case 'tracing':
+            case 'listening':
+            case 'counting':
+                questionHTML = questionTemplates[question.type].template(question, questionId);
+                break;
+                
+            case 'multiple-choice':
+                questionHTML = `
+                    <div class="options">
+                        ${question.options.map((option, optIndex) => `
+                            <div class="option">
+                                <input type="radio" 
+                                       id="${questionId}_${optIndex}" 
+                                       name="${questionId}" 
+                                       class="answer-input" 
+                                       value="${optIndex}"
+                                       ${savedAnswer === optIndex.toString() ? 'checked' : ''}>
+                                <label for="${questionId}_${optIndex}">${option}</label>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                break;
+                
+            case 'true-false':
+                questionHTML = `
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" 
+                                   id="${questionId}_true" 
+                                   name="${questionId}" 
+                                   class="answer-input" 
+                                   value="true"
+                                   ${savedAnswer === 'true' ? 'checked' : ''}>
+                            <label for="${questionId}_true">True</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" 
+                                   id="${questionId}_false" 
+                                   name="${questionId}" 
+                                   class="answer-input" 
+                                   value="false"
+                                   ${savedAnswer === 'false' ? 'checked' : ''}>
+                            <label for="${questionId}_false">False</label>
+                        </div>
+                    </div>
+                `;
+                break;
+                
+            case 'free-response':
+                questionHTML = `
+                    <textarea class="free-response" 
+                              data-question-id="${questionId}"
+                              placeholder="Write your answer here...">${savedAnswer || ''}</textarea>
+                `;
+                break;
+                
+            default:
+                questionHTML = `
+                    <div class="question-text">${question.text}</div>
+                    <p>Unsupported question type</p>
+                `;
+        }
+        
+        return questionHTML;
+    }
 
     function renderPage(pageIndex) {
         if (!currentWorkbook || pageIndex < 0 || pageIndex >= currentWorkbook.pages.length) return;
@@ -291,57 +477,10 @@ const classData = {
                 
                 pageHTML += `
                     <div class="question">
-                        <div class="question-text">${qIndex + 1}. ${question.text}</div>
+                        <div class="question-text">${qIndex + 1}. ${question.text || question.question || questionTemplates[question.type]?.title || 'Activity'}</div>
+                        ${renderQuestion(question, questionId, savedAnswer)}
+                    </div>
                 `;
-                
-                if (question.type === 'multiple-choice') {
-                    pageHTML += `<div class="options">`;
-                    question.options.forEach((option, optIndex) => {
-                        pageHTML += `
-                            <div class="option">
-                                <input type="radio" 
-                                       id="${questionId}_${optIndex}" 
-                                       name="${questionId}" 
-                                       class="answer-input" 
-                                       value="${optIndex}"
-                                       ${savedAnswer === optIndex.toString() ? 'checked' : ''}>
-                                <label for="${questionId}_${optIndex}">${option}</label>
-                            </div>
-                        `;
-                    });
-                    pageHTML += `</div>`;
-                } else if (question.type === 'true-false') {
-                    pageHTML += `
-                        <div class="options">
-                            <div class="option">
-                                <input type="radio" 
-                                       id="${questionId}_true" 
-                                       name="${questionId}" 
-                                       class="answer-input" 
-                                       value="true"
-                                       ${savedAnswer === 'true' ? 'checked' : ''}>
-                                <label for="${questionId}_true">True</label>
-                            </div>
-                            <div class="option">
-                                <input type="radio" 
-                                       id="${questionId}_false" 
-                                       name="${questionId}" 
-                                       class="answer-input" 
-                                       value="false"
-                                       ${savedAnswer === 'false' ? 'checked' : ''}>
-                                <label for="${questionId}_false">False</label>
-                            </div>
-                        </div>
-                    `;
-                } else if (question.type === 'free-response') {
-                    pageHTML += `
-                        <textarea class="free-response" 
-                                  data-question-id="${questionId}"
-                                  placeholder="Write your answer here...">${savedAnswer || ''}</textarea>
-                    `;
-                }
-                
-                pageHTML += `</div>`;
             });
             
             pageHTML += `</div>`;
@@ -349,6 +488,164 @@ const classData = {
         
         pageHTML += `</div>`;
         workbookContent.innerHTML = pageHTML;
+        
+        // Set up interactive elements after rendering
+        setupInteractiveQuestions();
+    }
+
+    function setupInteractiveQuestions() {
+        // Coloring questions
+        document.querySelectorAll('.color-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const color = this.dataset.color;
+                const questionId = this.dataset.questionId;
+                const coloringImage = this.closest('.coloring-question').querySelector('.coloring-image');
+                
+                // Apply color effect
+                coloringImage.style.filter = `grayscale(100%) brightness(1.1) sepia(100%) hue-rotate(${getHueRotation(color)}) saturate(1000%)`;
+                
+                // Save the selected color
+                const currentPage = currentWorkbook.pages[currentPageIndex];
+                const savedAnswers = getSavedAnswers();
+                const pageAnswers = savedAnswers[currentPage.id] || {};
+                pageAnswers[questionId] = color;
+                savedAnswers[currentPage.id] = pageAnswers;
+                localStorage.setItem(`workbook_${currentWorkbook.id}_answers`, JSON.stringify(savedAnswers));
+                
+                updateProgress();
+                checkCompletionStatus();
+            });
+        });
+        
+        // Tracing questions
+        document.querySelectorAll('.tracing-canvas').forEach(canvas => {
+            setupTracingCanvas(canvas);
+        });
+        
+        // Clear tracing buttons
+        document.querySelectorAll('.clear-tracing').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const questionId = this.dataset.questionId;
+                const canvas = this.previousElementSibling;
+                const ctx = canvas.getContext('2d');
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                // Clear saved drawing
+                const currentPage = currentWorkbook.pages[currentPageIndex];
+                const savedAnswers = getSavedAnswers();
+                const pageAnswers = savedAnswers[currentPage.id] || {};
+                delete pageAnswers[questionId];
+                savedAnswers[currentPage.id] = pageAnswers;
+                localStorage.setItem(`workbook_${currentWorkbook.id}_answers`, JSON.stringify(savedAnswers));
+                
+                updateProgress();
+                checkCompletionStatus();
+            });
+        });
+        
+        // Counting buttons
+        document.querySelectorAll('.number-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const number = this.dataset.number;
+                const questionId = this.dataset.questionId;
+                
+                // Save the selected number
+                const currentPage = currentWorkbook.pages[currentPageIndex];
+                const savedAnswers = getSavedAnswers();
+                const pageAnswers = savedAnswers[currentPage.id] || {};
+                pageAnswers[questionId] = number;
+                savedAnswers[currentPage.id] = pageAnswers;
+                localStorage.setItem(`workbook_${currentWorkbook.id}_answers`, JSON.stringify(savedAnswers));
+                
+                // Visual feedback
+                this.classList.add('selected');
+                
+                updateProgress();
+                checkCompletionStatus();
+            });
+        });
+    }
+
+    function setupTracingCanvas(canvas) {
+        const ctx = canvas.getContext('2d');
+        let isDrawing = false;
+        
+        // Set canvas dimensions
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+        
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mousemove', draw);
+        canvas.addEventListener('mouseup', stopDrawing);
+        canvas.addEventListener('mouseout', stopDrawing);
+        
+        function startDrawing(e) {
+            isDrawing = true;
+            draw(e);
+        }
+        
+        function draw(e) {
+            if (!isDrawing) return;
+            
+            ctx.lineWidth = 3;
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = '#0000ff';
+            
+            ctx.lineTo(
+                e.clientX - canvas.getBoundingClientRect().left,
+                e.clientY - canvas.getBoundingClientRect().top
+            );
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(
+                e.clientX - canvas.getBoundingClientRect().left,
+                e.clientY - canvas.getBoundingClientRect().top
+            );
+        }
+        
+        function stopDrawing() {
+            isDrawing = false;
+            ctx.beginPath();
+            
+            // Save the drawing
+            const questionId = canvas.dataset.questionId;
+            const currentPage = currentWorkbook.pages[currentPageIndex];
+            const savedAnswers = getSavedAnswers();
+            const pageAnswers = savedAnswers[currentPage.id] || {};
+            pageAnswers[questionId] = true; // Mark as answered
+            savedAnswers[currentPage.id] = pageAnswers;
+            localStorage.setItem(`workbook_${currentWorkbook.id}_answers`, JSON.stringify(savedAnswers));
+            
+            updateProgress();
+            checkCompletionStatus();
+        }
+    }
+
+    function getHueRotation(color) {
+        // Convert hex color to hue rotation value
+        const hex = color.replace('#', '');
+        const r = parseInt(hex.substring(0, 2), 16) / 255;
+        const g = parseInt(hex.substring(2, 4), 16) / 255;
+        const b = parseInt(hex.substring(4, 6), 16) / 255;
+        
+        const max = Math.max(r, g, b);
+        const min = Math.min(r, g, b);
+        let h;
+        
+        if (max === min) {
+            h = 0;
+        } else if (max === r) {
+            h = ((g - b) / (max - min)) % 6;
+        } else if (max === g) {
+            h = (b - r) / (max - min) + 2;
+        } else {
+            h = (r - g) / (max - min) + 4;
+        }
+        
+        h = Math.round(h * 60);
+        if (h < 0) h += 360;
+        
+        return `${h - 60}deg`; // Adjust for sepia starting point
     }
 
     function goToPreviousPage() {
@@ -455,7 +752,7 @@ const classData = {
         if (!currentWorkbook) return;
         
         localStorage.setItem(`workbook_${currentWorkbook.id}_completed`, 'true');
-        completeWorkbookBtn.innerHTML = '<i class="fas fa-check-circle"></i>';
+        completeWorkbookBtn.innerHTML = '<i class="fas fa-check-circle"></i> Completed!';
         completeWorkbookBtn.disabled = true;
         renderWorkbookList();
     }
@@ -488,7 +785,7 @@ const classData = {
                                 ${isCorrect ? '<span class="icon correct-icon"><i class="fas fa-check"></i></span>' : '<span class="icon incorrect-icon"><i class="fas fa-times"></i></span>'}
                             </div>
                             <div class="question-content">
-                                <div class="question-text">${qIndex + 1}. ${question.text}</div>
+                                <div class="question-text">${qIndex + 1}. ${question.text || question.question || questionTemplates[question.type]?.title || 'Activity'}</div>
                                 ${renderUserAnswer(question, userAnswer)}
                                 <div class="correct-answer">
                                     <span class="icon correct-icon"><i class="fas fa-lightbulb"></i></span>
@@ -527,20 +824,42 @@ const classData = {
 
     function checkAnswer(question, userAnswer) {
         if (!userAnswer) return false;
-        if (question.type === 'multiple-choice') return parseInt(userAnswer) === question.correctAnswer;
-        if (question.type === 'true-false') return userAnswer === String(question.correctAnswer);
-        return true; // Free-response questions are always marked correct
+        
+        if (question.type === 'multiple-choice') {
+            return parseInt(userAnswer) === question.correctAnswer;
+        } else if (question.type === 'true-false') {
+            return userAnswer === String(question.correctAnswer);
+        } else if (question.type === 'listening' || question.type === 'counting') {
+            // For interactive questions, consider them correct if answered
+            return true;
+        }
+        return true; // Free-response and other interactive questions are always marked correct
     }
 
     function getCorrectAnswerText(question) {
-        if (question.type === 'multiple-choice') return question.options[question.correctAnswer];
-        if (question.type === 'true-false') return question.correctAnswer ? 'True' : 'False';
-        return 'N/A (free response)';
+        if (question.type === 'multiple-choice') {
+            return question.options[question.correctAnswer];
+        } else if (question.type === 'true-false') {
+            return question.correctAnswer ? 'True' : 'False';
+        } else if (question.type === 'listening') {
+            const correctOption = question.options.find(opt => opt.correct);
+            return correctOption ? correctOption.text : 'N/A';
+        } else if (question.type === 'counting') {
+            return question.correctAnswer || 'N/A';
+        }
+        return 'N/A (interactive activity)';
     }
 
     function renderUserAnswer(question, userAnswer) {
         if (!userAnswer) return '<div class="user-answer">You did not answer this question.</div>';
-        if (question.type === 'multiple-choice') return `<div class="user-answer">Your answer: ${question.options[userAnswer] || 'Invalid'}</div>`;
+        
+        if (question.type === 'multiple-choice') {
+            return `<div class="user-answer">Your answer: ${question.options[userAnswer] || 'Invalid'}</div>`;
+        } else if (question.type === 'coloring') {
+            return `<div class="user-answer">You colored this with: <span class="color-swatch" style="background-color: ${userAnswer}"></span></div>`;
+        } else if (question.type === 'counting') {
+            return `<div class="user-answer">You counted: ${userAnswer}</div>`;
+        }
         return `<div class="user-answer">Your answer: ${userAnswer}</div>`;
     }
 
