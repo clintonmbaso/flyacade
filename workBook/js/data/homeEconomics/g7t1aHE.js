@@ -495,6 +495,166 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "Baking soda is a chemical raising agent, unlike yeast (biological) or eggs (mechanical).",
         "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is a common raising agent used in flour mixtures?",
+        "options": ["Baking powder", "Salt", "Vinegar", "Oil"],
+        "correctAnswer": 0,
+        "explanation": "Baking powder is a common raising agent used in flour mixtures.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a common flour mixture made using yeast?",
+        "options": ["Doughnuts", "Pancakes", "Cookies", "Crackers"],
+        "correctAnswer": 0,
+        "explanation": "Doughnuts are a common flour mixture made using yeast.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is NOT a type of flour mentioned?",
+        "options": ["Rice flour", "Wheat flour", "Maize flour", "Cassava flour"],
+        "correctAnswer": 0,
+        "explanation": "Rice flour was not mentioned in the list of flours (wheat, maize, cassava, sorghum, millet, soya).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What can be used as a raising agent besides baking powder?",
+        "options": ["Yeast", "Sugar", "Butter", "Eggs"],
+        "correctAnswer": 0,
+        "explanation": "Yeast is another raising agent used in flour mixtures.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which dish is typically decorated with jam?",
+        "options": ["Jam tarts", "Bread", "Pizza", "Biscuits"],
+        "correctAnswer": 0,
+        "explanation": "Jam tarts are often decorated with jam.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a common ingredient in scones besides flour?",
+        "options": ["Baking powder", "Yeast", "Vinegar", "Soy sauce"],
+        "correctAnswer": 0,
+        "explanation": "Scones are typically made with baking powder as a raising agent.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these grains is used to make flour?",
+        "options": ["Sorghum", "Barley", "Oats", "Quinoa"],
+        "correctAnswer": 0,
+        "explanation": "Sorghum is mentioned as one of the grains used to make flour.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the purpose of a raising agent in flour mixtures?",
+        "options": ["To make the mixture rise", "To add flavor", "To change color", "To preserve freshness"],
+        "correctAnswer": 0,
+        "explanation": "Raising agents like baking powder and yeast help the mixture rise.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is a flour mixture made with baking powder?",
+        "options": ["Scones", "Bread", "Pasta", "Crackers"],
+        "correctAnswer": 0,
+        "explanation": "Scones are made using baking powder as a raising agent.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What type of flour comes from cassava?",
+        "options": ["Cassava flour", "Wheat flour", "Corn flour", "Soya flour"],
+        "correctAnswer": 0,
+        "explanation": "Cassava flour is derived from the cassava plant.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which raising agent uses air to help mixtures rise?",
+        "options": ["Baking powder", "Salt", "Sugar", "Oil"],
+        "correctAnswer": 0,
+        "explanation": "Baking powder releases air and gas to help mixtures rise.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a common decoration for doughnuts?",
+        "options": ["Sugar glaze", "Cheese", "Ketchup", "Mayonnaise"],
+        "correctAnswer": 0,
+        "explanation": "Doughnuts are often decorated with sugar glaze or icing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is NOT a flour mixture mentioned?",
+        "options": ["Pizza", "Doughnuts", "Scones", "Jam tarts"],
+        "correctAnswer": 0,
+        "explanation": "Pizza was not mentioned as one of the flour mixtures in the list.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the main ingredient in flour mixtures?",
+        "options": ["Flour", "Sugar", "Eggs", "Milk"],
+        "correctAnswer": 0,
+        "explanation": "Flour is the primary ingredient in flour mixtures.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which flour is made from soya beans?",
+        "options": ["Soya flour", "Wheat flour", "Maize flour", "Cassava flour"],
+        "correctAnswer": 0,
+        "explanation": "Soya flour is derived from soya beans.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is used to decorate jam tarts?",
+        "options": ["Jam", "Cheese", "Butter", "Salt"],
+        "correctAnswer": 0,
+        "explanation": "Jam tarts are decorated with jam.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which grain is NOT mentioned in the flour list?",
+        "options": ["Barley", "Maize", "Sorghum", "Millet"],
+        "correctAnswer": 0,
+        "explanation": "Barley was not listed among the flours (wheat, maize, cassava, sorghum, millet, soya).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the role of yeast in flour mixtures?",
+        "options": ["Helps the dough rise", "Adds sweetness", "Changes color", "Makes it crispy"],
+        "correctAnswer": 0,
+        "explanation": "Yeast ferments and produces gas, helping the dough rise.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is a flour made from millet?",
+        "options": ["Millet flour", "Rice flour", "Oat flour", "Buckwheat flour"],
+        "correctAnswer": 0,
+        "explanation": "Millet flour is made from millet grains.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is an example of a simple dish that can be decorated?",
+        "options": ["Jam tarts", "Rice", "Stew", "Soup"],
+        "correctAnswer": 0,
+        "explanation": "Jam tarts are mentioned as a simple dish that can be decorated.",
+        "shuffleOptions": true
     }
                             
                     ]
