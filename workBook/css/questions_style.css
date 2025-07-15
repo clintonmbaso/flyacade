@@ -1,0 +1,126 @@
+/* Listening Questions */
+.listening-question {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5rem;
+}
+
+.question-image {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: var(--border-radius);
+}
+
+.audio-player-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.play-audio-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sound-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sound-option {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.sound-option:hover {
+    background-color: #e9ecef;
+}
+
+.sound-option input[type="radio"] {
+    margin-right: 0.8rem;
+}
+
+.sound-option-play {
+    margin-right: 0.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* Hide default audio controls for our custom player */
+.question-audio {
+    display: none;
+}
+
+.coloring-question {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.coloring-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    background-color: white;
+    filter: grayscale(100%) brightness(1.1);
+    margin: 1rem auto;
+    display: block;
+}
+
+.color-palette {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.color-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 3px black;
+}
+
+.correct-color-indicator {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #e9f7ef;
+    border-radius: var(--border-radius);
+    font-weight: bold;
+}
+
+.color-swatch {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+    margin: 0 5px;
+}
