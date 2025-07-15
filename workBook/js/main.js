@@ -136,28 +136,42 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `
         },
-        listening: {
-            title: "Listening Activity",
-            template: (data, questionId) => `
-                <div class="interactive-question listening-question">
-                    <h4>${data.question}</h4>
-                    <audio controls src="${data.audio}"></audio>
-                    <div class="options">
-                        ${data.options.map((option, index) => `
-                            <div class="option">
-                                <input type="radio" 
-                                       id="${questionId}_${index}" 
-                                       name="${questionId}" 
-                                       class="answer-input" 
-                                       value="${index}"
-                                       ${option.correct ? 'data-correct="true"' : ''}>
-                                <label for="${questionId}_${index}">${option.text}</label>
-                            </div>
-                        `).join('')}
+        // Add to your questionTemplates object
+listening: {
+    title: "Listening Activity",
+    template: (data, questionId) => `
+        <div class="interactive-question listening-question">
+            <h4>${data.question}</h4>
+            ${data.image ? `<img src="${data.image}" class="question-image" alt="Question image">` : ''}
+            <div class="audio-player-container">
+                <audio controls src="${data.audio}" class="question-audio"></audio>
+                <button class="play-audio-btn">
+                    <i class="fas fa-play"></i> Play Sound
+                </button>
+            </div>
+            <div class="options sound-options">
+                ${data.options.map((option, index) => `
+                    <div class="sound-option" data-audio="${option.audio || ''}">
+                        <input type="radio" 
+                               id="${questionId}_${index}" 
+                               name="${questionId}" 
+                               class="answer-input" 
+                               value="${index}"
+                               ${option.correct ? 'data-correct="true"' : ''}>
+                        <label for="${questionId}_${index}">
+                            ${option.audio ? `
+                                <span class="sound-option-play">
+                                    <i class="fas fa-volume-up"></i>
+                                </span>
+                            ` : ''}
+                            ${option.text}
+                        </label>
                     </div>
-                </div>
-            `
-        },
+                `).join('')}
+            </div>
+        </div>
+    `
+},
         counting: {
             title: "Counting Activity",
             template: (data, questionId) => `
@@ -517,6 +531,22 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
         
+        function getColorName(hexColor) {
+    const colors = {
+        '#ff0000': 'Red',
+        '#00ff00': 'Green',
+        '#0000ff': 'Blue',
+        '#ffff00': 'Yellow',
+        '#ffa500': 'Orange',
+        '#800080': 'Purple',
+        '#ffc0cb': 'Pink',
+        '#a52a2a': 'Brown',
+        '#000000': 'Black',
+        '#ffffff': 'White'
+    };
+    return colors[hexColor.toLowerCase()] || hexColor;
+}
+        
         // Tracing questions
         document.querySelectorAll('.tracing-canvas').forEach(canvas => {
             setupTracingCanvas(canvas);
@@ -542,6 +572,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 checkCompletionStatus();
             });
         });
+        
+
+    // Play buttons for listening questions
+    document.querySelectorAll('.play-audio-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const audio = this.previousElementSibling;
+            audio.play();
+        });
+    });
+    
+    // Play sound when clicking sound option icons
+    document.querySelectorAll('.sound-option-play').forEach(icon => {
+        icon.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const audioSrc = this.closest('.sound-option').dataset.audio;
+            if (audioSrc) {
+                const audio = new Audio(audioSrc);
+                audio.play();
+            }
+        });
+    });
+            
+        
+        
         
         // Counting buttons
         document.querySelectorAll('.number-btn').forEach(btn => {
@@ -825,7 +879,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function checkAnswer(question, userAnswer) {
         if (!userAnswer) return false;
         
-        if (question.type === 'multiple-choice') {
+            if (question.type === 'coloring') {
+                return userAnswer.toLowerCase() === (question.correctColor || '').toLowerCase();
+            } else if (question.type === 'multiple-choice') {
             return parseInt(userAnswer) === question.correctAnswer;
         } else if (question.type === 'true-false') {
             return userAnswer === String(question.correctAnswer);
@@ -837,7 +893,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getCorrectAnswerText(question) {
-        if (question.type === 'multiple-choice') {
+        if (question.type === 'coloring') {
+            return question.correctColorName || question.correctColor || 'No specific color required';
+        } else if (question.type === 'multiple-choice') {
             return question.options[question.correctAnswer];
         } else if (question.type === 'true-false') {
             return question.correctAnswer ? 'True' : 'False';
