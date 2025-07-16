@@ -9,7 +9,7 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 10,
+            questionLimit: 20,
             exercises: [
                 {
                     id: 'section1',
