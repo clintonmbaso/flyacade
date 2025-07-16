@@ -4,12 +4,12 @@ registerWorkbook({
     description: 'Mid Term',
     subject: 'Mathematics',
     grade: 7,
-    term: 3,
+    term: 1,
     pages: [
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 25,
+            questionLimit: 30,
             exercises: [
                 {
                     id: 'section1',
@@ -855,7 +855,679 @@ registerWorkbook({
         "correctAnswer": 1,
         "explanation": "25 divided by 7 is 3 with a remainder of 4, making 3 4/7.",
         "shuffleOptions": true
-    }
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the sum of 3.25 and 2.75?",
+        "options": ["5.00", "6.00", "5.50", "6.50"],
+        "correctAnswer": 1,
+        "explanation": "3.25 + 2.75 = 6.00",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 5.6 - 2.3?",
+        "options": ["3.3", "2.3", "3.0", "2.6"],
+        "correctAnswer": 0,
+        "explanation": "5.6 - 2.3 = 3.3",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 1.5 × 4?",
+        "options": ["6.0", "5.0", "4.5", "6.5"],
+        "correctAnswer": 0,
+        "explanation": "1.5 × 4 = 6.0",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 9.6 ÷ 3?",
+        "options": ["3.2", "2.8", "3.0", "2.6"],
+        "correctAnswer": 0,
+        "explanation": "9.6 ÷ 3 = 3.2",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.75 to a fraction.",
+        "options": ["3/4", "1/2", "2/3", "4/5"],
+        "correctAnswer": 0,
+        "explanation": "0.75 = 3/4",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 1/5 to a decimal.",
+        "options": ["0.2", "0.5", "0.25", "0.1"],
+        "correctAnswer": 0,
+        "explanation": "1/5 = 0.2",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which is greater: 0.6 or 3/5?",
+        "options": ["0.6", "3/5", "They are equal", "Cannot be determined"],
+        "correctAnswer": 2,
+        "explanation": "3/5 = 0.6, so they are equal.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Arrange in ascending order: 0.3, 1/4, 0.5, 2/5.",
+        "options": ["1/4, 0.3, 2/5, 0.5", "0.3, 1/4, 0.5, 2/5", "1/4, 2/5, 0.3, 0.5", "0.5, 2/5, 0.3, 1/4"],
+        "correctAnswer": 0,
+        "explanation": "1/4 = 0.25, 2/5 = 0.4. So, 0.25 < 0.3 < 0.4 < 0.5.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 4.125 + 2.875?",
+        "options": ["7.0", "7.5", "6.5", "6.0"],
+        "correctAnswer": 0,
+        "explanation": "4.125 + 2.875 = 7.0",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 7.8 - 3.9?",
+        "options": ["3.9", "4.1", "4.0", "3.8"],
+        "correctAnswer": 0,
+        "explanation": "7.8 - 3.9 = 3.9",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.6 × 0.5?",
+        "options": ["0.3", "0.03", "0.11", "0.25"],
+        "correctAnswer": 0,
+        "explanation": "0.6 × 0.5 = 0.3",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 8.4 ÷ 2?",
+        "options": ["4.2", "3.2", "4.0", "3.8"],
+        "correctAnswer": 0,
+        "explanation": "8.4 ÷ 2 = 4.2",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.125 to a fraction.",
+        "options": ["1/8", "1/4", "1/5", "1/6"],
+        "correctAnswer": 0,
+        "explanation": "0.125 = 1/8",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 3/8 to a decimal.",
+        "options": ["0.375", "0.5", "0.625", "0.25"],
+        "correctAnswer": 0,
+        "explanation": "3/8 = 0.375",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which is smaller: 0.4 or 3/8?",
+        "options": ["0.4", "3/8", "They are equal", "Cannot be determined"],
+        "correctAnswer": 1,
+        "explanation": "3/8 = 0.375, which is less than 0.4.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Arrange in descending order: 0.7, 3/4, 0.6, 2/3.",
+        "options": ["3/4, 0.7, 2/3, 0.6", "0.7, 3/4, 0.6, 2/3", "3/4, 2/3, 0.7, 0.6", "0.6, 2/3, 0.7, 3/4"],
+        "correctAnswer": 0,
+        "explanation": "3/4 = 0.75, 2/3 ≈ 0.666. So, 0.75 > 0.7 > 0.666 > 0.6.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 5.678 + 3.422?",
+        "options": ["9.100", "9.000", "8.900", "9.200"],
+        "correctAnswer": 0,
+        "explanation": "5.678 + 3.422 = 9.100",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 12.345 - 6.789?",
+        "options": ["5.556", "6.556", "5.456", "6.456"],
+        "correctAnswer": 0,
+        "explanation": "12.345 - 6.789 = 5.556",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 2.5 × 3.2?",
+        "options": ["8.0", "7.5", "7.0", "8.5"],
+        "correctAnswer": 0,
+        "explanation": "2.5 × 3.2 = 8.0",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 10.5 ÷ 1.5?",
+        "options": ["7.0", "6.5", "7.5", "6.0"],
+        "correctAnswer": 0,
+        "explanation": "10.5 ÷ 1.5 = 7.0",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.6 to a fraction.",
+        "options": ["3/5", "2/3", "1/2", "4/5"],
+        "correctAnswer": 0,
+        "explanation": "0.6 = 3/5",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 5/16 to a decimal.",
+        "options": ["0.3125", "0.375", "0.25", "0.5"],
+        "correctAnswer": 0,
+        "explanation": "5/16 = 0.3125",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which is greater: 0.55 or 11/20?",
+        "options": ["0.55", "11/20", "They are equal", "Cannot be determined"],
+        "correctAnswer": 2,
+        "explanation": "11/20 = 0.55, so they are equal.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Arrange in ascending order: 0.9, 4/5, 0.85, 7/8.",
+        "options": ["4/5, 0.85, 7/8, 0.9", "0.85, 4/5, 0.9, 7/8", "7/8, 0.9, 0.85, 4/5", "0.9, 7/8, 0.85, 4/5"],
+        "correctAnswer": 0,
+        "explanation": "4/5 = 0.8, 7/8 = 0.875. So, 0.8 < 0.85 < 0.875 < 0.9.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 6.789 + 4.321?",
+        "options": ["11.110", "10.110", "11.000", "10.890"],
+        "correctAnswer": 0,
+        "explanation": "6.789 + 4.321 = 11.110",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 15.678 - 9.876?",
+        "options": ["5.802", "6.802", "5.702", "6.702"],
+        "correctAnswer": 0,
+        "explanation": "15.678 - 9.876 = 5.802",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 1.25 × 4.8?",
+        "options": ["6.0", "5.5", "6.5", "5.0"],
+        "correctAnswer": 0,
+        "explanation": "1.25 × 4.8 = 6.0",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 18.9 ÷ 2.7?",
+        "options": ["7.0", "6.0", "6.5", "7.5"],
+        "correctAnswer": 0,
+        "explanation": "18.9 ÷ 2.7 = 7.0",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.875 to a fraction.",
+        "options": ["7/8", "3/4", "5/6", "4/5"],
+        "correctAnswer": 0,
+        "explanation": "0.875 = 7/8",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 9/20 to a decimal.",
+        "options": ["0.45", "0.5", "0.4", "0.55"],
+        "correctAnswer": 0,
+        "explanation": "9/20 = 0.45",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a percentage?",
+        "options": ["A fraction of 100", "A type of decimal", "A whole number", "A type of ratio"],
+        "correctAnswer": 0,
+        "explanation": "A percentage represents a fraction of 100.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "How do you write 0.75 as a percentage?",
+        "options": ["7.5%", "75%", "0.75%", "750%"],
+        "correctAnswer": 1,
+        "explanation": "To convert a decimal to a percentage, multiply by 100. So, 0.75 × 100 = 75%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 50% to a decimal.",
+        "options": ["0.05", "0.5", "5.0", "50.0"],
+        "correctAnswer": 1,
+        "explanation": "To convert a percentage to a decimal, divide by 100. So, 50 ÷ 100 = 0.5.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 1/4 as a percentage?",
+        "options": ["14%", "25%", "40%", "75%"],
+        "correctAnswer": 1,
+        "explanation": "To convert a fraction to a percentage, divide numerator by denominator and multiply by 100. So, 1 ÷ 4 × 100 = 25%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 20% to a fraction in simplest form.",
+        "options": ["1/5", "2/10", "20/100", "1/20"],
+        "correctAnswer": 0,
+        "explanation": "20% is equivalent to 20/100, which simplifies to 1/5.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If 30% of a number is 60, what is the number?",
+        "options": ["180", "200", "150", "120"],
+        "correctAnswer": 1,
+        "explanation": "Let the number be x. Then, 0.30x = 60 → x = 60 ÷ 0.30 = 200.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 10% of 250?",
+        "options": ["10", "25", "50", "100"],
+        "correctAnswer": 1,
+        "explanation": "10% of 250 = 0.10 × 250 = 25.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A shirt costs $40 and is discounted by 15%. What is the sale price?",
+        "options": ["$34", "$36", "$30", "$32"],
+        "correctAnswer": 0,
+        "explanation": "15% of $40 = $6. Sale price = $40 - $6 = $34.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If 5 out of 20 students are absent, what percentage is absent?",
+        "options": ["10%", "20%", "25%", "30%"],
+        "correctAnswer": 2,
+        "explanation": "5/20 = 0.25 → 25%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.3 as a percentage?",
+        "options": ["3%", "30%", "0.3%", "300%"],
+        "correctAnswer": 1,
+        "explanation": "0.3 × 100 = 30%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 3/5 as a percentage.",
+        "options": ["35%", "50%", "60%", "65%"],
+        "correctAnswer": 2,
+        "explanation": "3 ÷ 5 × 100 = 60%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 150% as a decimal?",
+        "options": ["1.5", "15.0", "0.15", "150.0"],
+        "correctAnswer": 0,
+        "explanation": "150 ÷ 100 = 1.5.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If a test has 80 questions and you answer 60 correctly, what percentage did you get right?",
+        "options": ["60%", "70%", "75%", "80%"],
+        "correctAnswer": 2,
+        "explanation": "60 ÷ 80 × 100 = 75%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 25% of 200?",
+        "options": ["25", "50", "75", "100"],
+        "correctAnswer": 1,
+        "explanation": "0.25 × 200 = 50.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 12.5% to a decimal.",
+        "options": ["0.125", "1.25", "12.5", "125"],
+        "correctAnswer": 0,
+        "explanation": "12.5 ÷ 100 = 0.125.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 1/8 as a percentage?",
+        "options": ["8%", "12.5%", "18%", "25%"],
+        "correctAnswer": 1,
+        "explanation": "1 ÷ 8 × 100 = 12.5%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If a price increases from $50 to $60, what is the percentage increase?",
+        "options": ["10%", "15%", "20%", "25%"],
+        "correctAnswer": 2,
+        "explanation": "Increase = $10 → (10 ÷ 50) × 100 = 20%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.05 as a percentage?",
+        "options": ["0.5%", "5%", "50%", "500%"],
+        "correctAnswer": 1,
+        "explanation": "0.05 × 100 = 5%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 7/10 as a percentage.",
+        "options": ["7%", "17%", "70%", "77%"],
+        "correctAnswer": 2,
+        "explanation": "7 ÷ 10 × 100 = 70%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 200% of 30?",
+        "options": ["30", "60", "90", "120"],
+        "correctAnswer": 1,
+        "explanation": "2.00 × 30 = 60.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.8 to a percentage.",
+        "options": ["8%", "80%", "800%", "0.8%"],
+        "correctAnswer": 1,
+        "explanation": "0.8 × 100 = 80%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 3/4 as a percentage?",
+        "options": ["25%", "50%", "75%", "100%"],
+        "correctAnswer": 2,
+        "explanation": "3 ÷ 4 × 100 = 75%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A store offers a 30% discount on a $90 item. What is the discounted price?",
+        "options": ["$27", "$60", "$63", "$70"],
+        "correctAnswer": 2,
+        "explanation": "30% of $90 = $27 → $90 - $27 = $63.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 5% as a decimal?",
+        "options": ["0.005", "0.05", "0.5", "5.0"],
+        "correctAnswer": 1,
+        "explanation": "5 ÷ 100 = 0.05.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If 45% of a number is 180, what is the number?",
+        "options": ["300", "350", "400", "450"],
+        "correctAnswer": 2,
+        "explanation": "0.45x = 180 → x = 180 ÷ 0.45 = 400.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 1/5 as a percentage?",
+        "options": ["10%", "15%", "20%", "25%"],
+        "correctAnswer": 2,
+        "explanation": "1 ÷ 5 × 100 = 20%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.125 to a percentage.",
+        "options": ["1.25%", "12.5%", "125%", "1250%"],
+        "correctAnswer": 1,
+        "explanation": "0.125 × 100 = 12.5%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 75% of 80?",
+        "options": ["50", "60", "70", "80"],
+        "correctAnswer": 1,
+        "explanation": "0.75 × 80 = 60.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If 8 out of 40 students wear glasses, what percentage wear glasses?",
+        "options": ["8%", "16%", "20%", "25%"],
+        "correctAnswer": 2,
+        "explanation": "8 ÷ 40 × 100 = 20%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.6 as a percentage?",
+        "options": ["6%", "60%", "600%", "0.6%"],
+        "correctAnswer": 1,
+        "explanation": "0.6 × 100 = 60%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 9/20 as a percentage.",
+        "options": ["9%", "20%", "45%", "90%"],
+        "correctAnswer": 2,
+        "explanation": "9 ÷ 20 × 100 = 45%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 120% as a decimal?",
+        "options": ["0.12", "1.2", "12.0", "120.0"],
+        "correctAnswer": 1,
+        "explanation": "120 ÷ 100 = 1.2.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If a book costs $25 and the price increases by 10%, what is the new price?",
+        "options": ["$25.50", "$26.50", "$27.50", "$30.00"],
+        "correctAnswer": 2,
+        "explanation": "10% of $25 = $2.50 → $25 + $2.50 = $27.50.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.02 as a percentage?",
+        "options": ["0.2%", "2%", "20%", "200%"],
+        "correctAnswer": 1,
+        "explanation": "0.02 × 100 = 2%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 2/5 as a percentage.",
+        "options": ["20%", "25%", "40%", "50%"],
+        "correctAnswer": 2,
+        "explanation": "2 ÷ 5 × 100 = 40%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 15% of 300?",
+        "options": ["30", "45", "60", "75"],
+        "correctAnswer": 1,
+        "explanation": "0.15 × 300 = 45.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.75 to a percentage.",
+        "options": ["7.5%", "75%", "750%", "0.75%"],
+        "correctAnswer": 1,
+        "explanation": "0.75 × 100 = 75%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 1/10 as a percentage?",
+        "options": ["1%", "5%", "10%", "20%"],
+        "correctAnswer": 2,
+        "explanation": "1 ÷ 10 × 100 = 10%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A class has 30 students, and 18 are girls. What percentage are girls?",
+        "options": ["40%", "50%", "60%", "70%"],
+        "correctAnswer": 2,
+        "explanation": "18 ÷ 30 × 100 = 60%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.4 as a percentage?",
+        "options": ["4%", "40%", "400%", "0.4%"],
+        "correctAnswer": 1,
+        "explanation": "0.4 × 100 = 40%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 11/20 as a percentage.",
+        "options": ["11%", "20%", "55%", "110%"],
+        "correctAnswer": 2,
+        "explanation": "11 ÷ 20 × 100 = 55%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 80% of 150?",
+        "options": ["100", "120", "140", "160"],
+        "correctAnswer": 1,
+        "explanation": "0.80 × 150 = 120.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 0.09 to a percentage.",
+        "options": ["0.9%", "9%", "90%", "900%"],
+        "correctAnswer": 1,
+        "explanation": "0.09 × 100 = 9%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 3/8 as a percentage?",
+        "options": ["12.5%", "25%", "37.5%", "50%"],
+        "correctAnswer": 2,
+        "explanation": "3 ÷ 8 × 100 = 37.5%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If a car's value decreases by 25% from $8,000, what is its new value?",
+        "options": ["$6,000", "$6,500", "$7,000", "$7,500"],
+        "correctAnswer": 0,
+        "explanation": "25% of $8,000 = $2,000 → $8,000 - $2,000 = $6,000.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.001 as a percentage?",
+        "options": ["0.01%", "0.1%", "1%", "10%"],
+        "correctAnswer": 1,
+        "explanation": "0.001 × 100 = 0.1%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 4/25 as a percentage.",
+        "options": ["4%", "16%", "25%", "40%"],
+        "correctAnswer": 1,
+        "explanation": "4 ÷ 25 × 100 = 16%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 10% of 500?",
+        "options": ["5", "50", "100", "500"],
+        "correctAnswer": 1,
+        "explanation": "0.10 × 500 = 50.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Convert 1.5 to a percentage.",
+        "options": ["1.5%", "15%", "150%", "1500%"],
+        "correctAnswer": 2,
+        "explanation": "1.5 × 100 = 150%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 2/3 as a percentage (rounded to the nearest whole number)?",
+        "options": ["33%", "50%", "66%", "75%"],
+        "correctAnswer": 2,
+        "explanation": "2 ÷ 3 × 100 ≈ 66.67%, which rounds to 66%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If 70% of a test is worth 140 points, what is the total points possible?",
+        "options": ["160", "180", "200", "220"],
+        "correctAnswer": 2,
+        "explanation": "0.70x = 140 → x = 140 ÷ 0.70 = 200.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 0.25 as a percentage?",
+        "options": ["2.5%", "25%", "250%", "0.25%"],
+        "correctAnswer": 1,
+        "explanation": "0.25 × 100 = 25%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 17/50 as a percentage.",
+        "options": ["17%", "34%", "50%", "68%"],
+        "correctAnswer": 1,
+        "explanation": "17 ÷ 50 × 100 = 34%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 90% of 70?",
+        "options": ["63", "70", "77", "90"],
+        "correctAnswer": 0,
+        "explanation": "0.90 × 70 = 63.",
+        "shuffleOptions": true
+    },
                     
                     
                     ]
