@@ -108,6 +108,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Question templates for interactive activities
     const questionTemplates = {
+            'multiple-choice': {
+        title: "Multiple Choice",
+        template: (data, questionId, savedAnswer) => `
+            <div class="interactive-question multiple-choice-question">
+                <div class="question-content">
+                  
+                    ${data.image ? `<img src="${data.image}" class="question-image" alt="Question image">` : ''}
+                </div>
+                <div class="options ${data.imageOptions ? 'image-options' : ''}">
+                    ${data.options.map((option, index) => `
+                        <div class="option ${data.imageOptions ? 'image-option' : ''}">
+                            <input type="radio" 
+                                   id="${questionId}_${index}" 
+                                   name="${questionId}" 
+                                   class="answer-input" 
+                                   value="${index}"
+                                   ${savedAnswer === index.toString() ? 'checked' : ''}>
+                            <label for="${questionId}_${index}">
+                                ${data.imageOptions ? 
+                                    `<img src="${option.image}" alt="Option ${index + 1}" class="option-image">` : 
+                                    option.text || option
+                                }
+                                ${option.text && data.imageOptions ? `<span class="option-text">${option.text}</span>` : ''}
+                            </label>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `
+    },
         coloring: {
             title: "Coloring Activity",
             template: (data, questionId) => `
@@ -395,37 +425,26 @@ listening: {
         updateProgress();
     }
 
-    function renderQuestion(question, questionId, savedAnswer) {
-        let questionHTML = '';
-        
-        switch(question.type) {
-            case 'coloring':
-            case 'tracing':
-            case 'listening':
-            case 'counting':
-                questionHTML = questionTemplates[question.type].template(question, questionId);
-                break;
-                
-            case 'multiple-choice':
-                questionHTML = `
-                    <div class="options">
-                        ${question.options.map((option, optIndex) => `
-                            <div class="option">
-                                <input type="radio" 
-                                       id="${questionId}_${optIndex}" 
-                                       name="${questionId}" 
-                                       class="answer-input" 
-                                       value="${optIndex}"
-                                       ${savedAnswer === optIndex.toString() ? 'checked' : ''}>
-                                <label for="${questionId}_${optIndex}">${option}</label>
-                            </div>
-                        `).join('')}
+// Update the renderQuestion function to use the template
+function renderQuestion(question, questionId, savedAnswer) {
+    let questionHTML = '';
+    
+    switch(question.type) {
+        case 'coloring':
+        case 'tracing':
+        case 'listening':
+        case 'counting':
+        case 'multiple-choice':  // Now using the template
+            questionHTML = questionTemplates[question.type].template(question, questionId, savedAnswer);
+            break;
+            
+        case 'true-false':
+            questionHTML = `
+                <div class="interactive-question true-false-question">
+                    <div class="question-content">
+                        <h4>${question.text || question.question}</h4>
+                        ${question.image ? `<img src="${question.image}" class="question-image" alt="Question image">` : ''}
                     </div>
-                `;
-                break;
-                
-            case 'true-false':
-                questionHTML = `
                     <div class="options">
                         <div class="option">
                             <input type="radio" 
@@ -446,26 +465,33 @@ listening: {
                             <label for="${questionId}_false">False</label>
                         </div>
                     </div>
-                `;
-                break;
-                
-            case 'free-response':
-                questionHTML = `
+                </div>
+            `;
+            break;
+            
+        case 'free-response':
+            questionHTML = `
+                <div class="interactive-question free-response-question">
+                    <div class="question-content">
+                        <h4>${question.text || question.question}</h4>
+                        ${question.image ? `<img src="${question.image}" class="question-image" alt="Question image">` : ''}
+                    </div>
                     <textarea class="free-response" 
                               data-question-id="${questionId}"
                               placeholder="Write your answer here...">${savedAnswer || ''}</textarea>
-                `;
-                break;
-                
-            default:
-                questionHTML = `
-                    <div class="question-text">${question.text}</div>
-                    <p>Unsupported question type</p>
-                `;
-        }
-        
-        return questionHTML;
+                </div>
+            `;
+            break;
+            
+        default:
+            questionHTML = `
+                <div class="question-text">${question.text}</div>
+                <p>Unsupported question type</p>
+            `;
     }
+    
+    return questionHTML;
+}
 
     function renderPage(pageIndex) {
         if (!currentWorkbook || pageIndex < 0 || pageIndex >= currentWorkbook.pages.length) return;
