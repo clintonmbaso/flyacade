@@ -184,6 +184,45 @@
         height: 30px;
         border-radius: 20px;
     }
+    
+    .dynamic-page-footer {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10pt;
+}
+
+@media print {
+    .dynamic-page-footer {
+        display: block !important;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    /* Create page breaks and position footers */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    
+    /* Prevent page breaks inside important elements */
+    .content-section {
+        page-break-inside: avoid;
+    }
+    
+    /* Ensure each footer appears only on its page */
+    .dynamic-page-footer {
+        page-break-after: always;
+    }
+    
+    /* Position each footer on its page */
+    .dynamic-page-footer:nth-of-type(1) { bottom: 10px; }
+    .dynamic-page-footer:nth-of-type(2) { bottom: calc(10px + 297mm); } /* A4 height */
+    .dynamic-page-footer:nth-of-type(3) { bottom: calc(10px + 594mm); }
+    /* Add more nth-of-type rules if you expect more pages */
+}    
     </style>    
 </head>
 
@@ -295,12 +334,85 @@
                 </div>
             </main>
         </div>
+    
+             <div style="display: flex; justify-content: space-between; margin: 0 5px;">
+                 <p class="pupil">Your Full Names: ___________________________ _________________ ___________________________</p>
+             </div>
+        
+    <div class="watermark">
+        <h3>Contacts</h3>
+        <p class="contacts">Airtel: 0975273790 - MTN: 0968084570</p>
+    </div>
+    
+    <svg id="barcode"></svg>
+    <script>
+    // Get the current page URL dynamically
+    let pageURL = window.location.href;
 
+    // Generate the barcode
+    JsBarcode("#barcode", pageURL, {
+        format: "CODE128",
+        displayValue: true
+    });
+</script>        
+        
+        
+        
         <footer class="app-footer">
             <p>© <span id="current-year"></span> Children's Learning Workbooks | Created with <i class="fas fa-heart"></i> for your children</p>
         </footer>
     </div>
+<script>
+// Improved dynamic page numbering
+function updatePageNumbers() {
+    // Calculate total pages
+    const pageHeight = 1122; // Approximate pixels for A4 at 96dpi
+    const totalPages = Math.ceil(document.body.scrollHeight / pageHeight);
+    
+    // Remove any existing page number footers
+    const existingFooters = document.querySelectorAll('.dynamic-page-footer');
+    existingFooters.forEach(footer => footer.remove());
+    
+    // Create a footer for each page
+    for (let i = 0; i < totalPages; i++) {
+        const footer = document.createElement('div');
+        footer.className = 'dynamic-page-footer';
+        footer.style.position = 'absolute';
+        footer.style.bottom = `-${(i * pageHeight)}px`;
+        footer.style.width = '100%';
+        footer.style.textAlign = 'right';
+        footer.style.fontSize = '10pt';
+        footer.textContent = `Page ${i + 1} of ${totalPages}`;
+        document.body.appendChild(footer);
+    }
+}
 
+// Update page numbers when printing
+window.onbeforeprint = function() {
+    updatePageNumbers();
+    
+    // Make footers visible for print
+    const footers = document.querySelectorAll('.dynamic-page-footer');
+    footers.forEach(footer => {
+        footer.style.display = 'block';
+    });
+};
+
+// Clear page numbers after printing
+window.onafterprint = function() {
+    const footers = document.querySelectorAll('.dynamic-page-footer');
+    footers.forEach(footer => {
+        footer.style.display = 'none';
+    });
+};
+
+// Also update when the window resizes
+window.addEventListener('resize', updatePageNumbers);
+
+// Initial setup (hidden by default)
+updatePageNumbers();
+</script>
+    
     <!-- Initialize workbooks array and registration function -->
     <script>
         // Initialize the workbooks array before any data files load
@@ -401,7 +513,14 @@
     <script src="js/data/mathematics/g4t2bMath.js"></script>
     <script src="js/data/mathematics/g4t3aMath.js"></script>
     <script src="js/data/mathematics/g4t3bMath.js"></script>
-    
+    <!-- English -->
+    <script src="js/data/english/g4t1aEnglish.js"></script>
+    <script src="js/data/english/g4t1bEnglish.js"></script>
+    <script src="js/data/english/g4t2aEnglish.js"></script>
+    <script src="js/data/english/g4t2bEnglish.js"></script>
+    <script src="js/data/english/g4t3aEnglish.js"></script>
+    <script src="js/data/english/g4t3bEnglish.js"></script>
+        
     <!-- Avian Aces -->
     <!-- Science -->
     <script src="js/data/science/g5t1aScience.js"></script>
@@ -475,12 +594,12 @@
     <script src="js/data/mathematics/g7t3bMath.js"></script>
     
     <!-- English -->
-    <script src="js/data/english/g7t1aMath.js"></script>
-    <script src="js/data/english/g7t1bMath.js"></script>
-    <script src="js/data/english/g7t2aMath.js"></script>
-    <script src="js/data/english/g7t2bMath.js"></script>
-    <script src="js/data/english/g7t3aMath.js"></script>
-    <script src="js/data/english/g7t3bMath.js"></script>
+    <script src="js/data/english/g7t1aEnglish.js"></script>
+    <script src="js/data/english/g7t1bEnglish.js"></script>
+    <script src="js/data/english/g7t2aEnglish.js"></script>
+    <script src="js/data/english/g7t2bEnglish.js"></script>
+    <script src="js/data/english/g7t3aEnglish.js"></script>
+    <script src="js/data/english/g7t3bEnglish.js"></script>
                 
     <!-- SP1 -->
     <script src="js/data/sp1/g7t1aSP1.js"></script>
