@@ -434,7 +434,6 @@ registerWorkbook({
         correctAnswer: 0,
         shuffleOptions: true
     },
-            /*
     {
         type: 'multiple-choice',
         text: 'Which one comes next?',
@@ -446,7 +445,7 @@ registerWorkbook({
             {image: '../Tests/images/sp2/grade6/next/t3b/31c.png'},
             {image: '../Tests/images/sp2/grade6/next/t3b/31d.png'}
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         shuffleOptions: true
     },
     {
@@ -488,7 +487,7 @@ registerWorkbook({
             {image: '../Tests/images/sp2/grade6/next/t3b/34c.png'},
             {image: '../Tests/images/sp2/grade6/next/t3b/34d.png'}
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         shuffleOptions: true
     },
     {
@@ -544,7 +543,7 @@ registerWorkbook({
             {image: '../Tests/images/sp2/grade6/next/t3b/38c.png'},
             {image: '../Tests/images/sp2/grade6/next/t3b/38d.png'}
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         shuffleOptions: true
     },
     {
@@ -558,7 +557,7 @@ registerWorkbook({
             {image: '../Tests/images/sp2/grade6/next/t3b/39c.png'},
             {image: '../Tests/images/sp2/grade6/next/t3b/39d.png'}
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         shuffleOptions: true
     },
     {
@@ -572,9 +571,10 @@ registerWorkbook({
             {image: '../Tests/images/sp2/grade6/next/t3b/40c.png'},
             {image: '../Tests/images/sp2/grade6/next/t3b/40d.png'}
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         shuffleOptions: true
     },
+            /*
     {
         type: 'multiple-choice',
         text: 'Which one comes next?',
