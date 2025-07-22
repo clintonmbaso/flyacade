@@ -442,7 +442,10 @@ progress::-webkit-progress-value {
 .app-footer i {
     color: var(--accent-color);
 }
-
+    .workbook-list-container{
+        
+    }
+        
 /* Responsive styles */
 @media (max-width: 768px) {
     .main-content {
@@ -473,9 +476,78 @@ progress::-webkit-progress-value {
 .workbook-page.active {
     animation: fadeIn 0.3s ease-out;
 }
-
+        .watermark {
+            position: fixed;
+            bottom: 1px;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            font-size: 7px;
+            color: rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            text-transform: uppercase;
+            pointer-events: none;
+            z-index: -5;
+            white-space: nowrap;
+        }
+.watermark h3 {
+  margin: 0;
+}
+#barcode {
+    display: block;  /* Ensures it behaves like a block element */
+    position: fixed;
+    bottom: 0mm;
+    right: 30%;
+    z-index: -5;
+    margin: 5px auto; /* Centers the barcode */
+    max-width: 30%;  /* Ensures it is responsive */
+    height: auto;  /* Maintains aspect ratio */
+    background: transparent;
+    padding: 5px;  /* Adds some spacing around the barcode */
+}
+#class-name {
+  border-left: 2px solid green;
+  padding-left: 3px;
+  border-radius: 4px;
+}
+#part {
+  border-right: 2px solid green;
+  padding-right: 3px;
+  border-radius: 4px;
+}
+.pupil {
+  padding: 2px 0;
+  margin: 1px 0;
+    display: none;
+}
 /* Print styles */
 @media print {
+    .progress-container{
+        display: none;
+    }
+    
+    .pupil {
+        display: block;
+    }
+    
+        body::before {
+            content: "";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 600px; /* Adjust size as needed */
+            height: 600px; /* Adjust size as needed */
+            background: url('images/Flying_Wings_Academy.png') no-repeat center center;
+            background-size: contain;
+            opacity: 0.09; /* Adjust opacity (0 = fully transparent, 1 = fully visible) */
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: -5;
+        }
+    
+        @page {
+            margin: 1cm; /* Adjust page margins */
+    }
+    
     .sidebar, .app-header, .app-footer, .workbook-controls {
         display: none !important;
     }
@@ -489,8 +561,34 @@ progress::-webkit-progress-value {
         box-shadow: none;
         padding: 0;
     }
-}
+    .watermark {
+            position: fixed;
+            bottom: 0mm;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            font-size: 7px;
+            color: rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            text-transform: uppercase;
+            pointer-events: none;
+            z-index: -5;
+            white-space: nowrap;
+        }
 
+    
+    
+}
+/* Print-specific styles */
+@media print {
+    .question-result {
+        page-break-inside: avoid;
+    }
+    
+    .user-answer, .correct-answer, .explanation {
+        color: black !important;
+        background-color: transparent !important;
+    }
+}
 /* Add to your style.css */
 .error-message {
     padding: 2rem;
@@ -569,17 +667,7 @@ progress::-webkit-progress-value {
     border-radius: var(--border-radius);
 }
 
-/* Print-specific styles */
-@media print {
-    .question-result {
-        page-break-inside: avoid;
-    }
-    
-    .user-answer, .correct-answer, .explanation {
-        color: black !important;
-        background-color: transparent !important;
-    }
-}
+
 
 /* Icon Definitions */
 .icon {
