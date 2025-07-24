@@ -265,98 +265,104 @@ const lessonPlans50b = [
 // Week 4
 // Lesson 1
 {
-  "title": "Laundry Essentials",
+  "title": "Using Laundry Equipment and Materials",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Home Economics",
-  "topic": "Laundry Essentials",
+  "topic": "Proper Techniques for Washing and Ironing Clothes",
   "grade": "Avian Aces",
   "term": "2",
   "week": "4",
   "lessonNumber": "1",
-  "description": "This lesson focuses on the use of laundry equipment and materials for effective clothing care.",
+  "description": "This lesson teaches students how to use laundry equipment and materials properly, including hand-washing and ironing techniques.",
   "materials": [
-    "Assorted laundry equipment (washing machine, dryer, iron)",
-    "Various laundry materials (detergent, fabric softener)",
-    "Illustrations or diagrams showing laundry equipment",
-    "Class chart or whiteboard"
+    "Washing basin/tub",
+    "Detergent",
+    "Clothesline and pegs",
+    "Iron and ironing board",
+    "Pictures/real laundry items"
   ],
   "objectives": [
-    "Students will use laundry equipment and materials.",
-    "Students will demonstrate the proper techniques for washing and ironing clothes."
+    "Identify basic laundry equipment and materials.",
+    "Demonstrate proper hand-washing techniques.",
+    "Apply safe ironing practices.",
+    "Understand the importance of sorting clothes."
   ],
   "rationale": [
-    "Understanding how to use laundry equipment and materials is essential for maintaining clean and well-presented clothing, promoting personal hygiene and appearance."
+    "Learning proper laundry skills promotes independence, hygiene, and clothing care in daily life."
   ],
   "methodology": [
-    "The lesson will involve demonstrations, hands-on practice, and discussions to engage students in using laundry equipment and materials effectively for clothing care."
+    "Demonstration, hands-on practice (with clean rags if available), and guided discussion."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Laundry Equipment and Materials:</b><br>Begin by presenting a variety of laundry equipment and materials to the class, such as washing machines, dryers, detergents, and fabric softeners. Explain the purpose and use of each item, emphasizing the importance of proper clothing care.",
-      "<b>Demonstration and Practice:</b><br>Demonstrate how to use the washing machine and dryer, including loading clothes, adding detergent and fabric softener, and selecting appropriate settings. Also, demonstrate proper ironing techniques. Allow students to practice washing and ironing clothes under supervision, providing guidance as needed.",
-      "<b>Discussion on Clothing Care:</b><br>Discuss the importance of clothing care in maintaining personal hygiene and appearance. Explain the significance of using suitable laundry materials and following proper washing and ironing techniques.",
-      "<b>Hands-on Activity:</b><br>Divide students into small groups and assign each group a laundry task, such as washing a load of clothes or ironing a set of garments. Provide them with the necessary laundry equipment and materials to complete the task.",
-      "<b>Reflection:</b><br>Conclude the lesson by discussing the importance of clothing care and the role of laundry equipment and materials in maintaining clean and well-presented clothing. Ask students to reflect on their learning experience and share any insights gained."
+      "<b>Part 1: Introduction to Laundry Equipment and Materials</b>:<br><br>Objective:<br>Students will identify and describe basic laundry equipment and materials.<br><br>Content:<br>Laundry equipment and materials help us clean and care for clothes. Some items are manual, while others are electric.<br><br>Common Laundry Equipment & Materials:<br>- Washing basin or tub – for hand-washing clothes<br>- Washing machine – for automatic washing<br>- Water – needed for rinsing and washing<br>- Detergent or soap – used to remove dirt and stains<br>- Brush – used to scrub dirty spots<br>- Clothesline and pegs – for drying clothes<br>- Iron and ironing board – for removing wrinkles<br>- Bleach (for white clothes) – to remove strong stains<br>- Starch (optional) – to keep clothes crisp and neat<br><br>Teacher Activity:<br>Display pictures or real items. Ask students to name any laundry item they’ve seen at home.<br><br>Student Activity:<br>Observe and identify laundry tools.",
+      "<b>Part 2: Washing Clothes Properly</b>:<br><br>Objective:<br>Students will understand the correct steps for washing clothes by hand.<br><br>Steps for Washing Clothes (by hand):<br>1. Sort clothes – Separate white from colored clothes.<br>2. Soak – Place clothes in water with detergent.<br>3. Wash – Scrub gently using your hands or a brush.<br>4. Rinse – Rinse the clothes 2–3 times with clean water.<br>5. Wring – Squeeze out water gently.<br>6. Hang to dry – Use a clothesline and pegs.<br><br>Important Tips:<br>- Don’t use hot water for colored clothes; it may cause fading.<br>- Don’t mix white and colored clothes; colors may stain.<br><br>Teacher Activity:<br>Demonstrate steps using a basin and clean cloth.<br><br>Student Activity:<br>Practice each step with clean rags or old clothes (if available).",
+      "<b>Part 3: Ironing Clothes Safely</b>:<br><br>Objective:<br>Students will learn how to iron clothes correctly and safely.<br><br>Steps for Ironing Clothes:<br>1. Plug in and heat the iron – Make sure it's on a stable surface.<br>2. Check the fabric – Use the correct heat setting for the cloth type.<br>3. Lay the cloth flat on the board – Avoid folds.<br>4. Iron gently – Move the iron back and forth without pressing too hard.<br>5. Fold or hang – Keep clothes neat after ironing.<br><br>Safety Tips:<br>- Never leave a hot iron unattended.<br>- Keep the iron away from water.<br>- Allow the iron to cool before storing.<br><br>Teacher Activity:<br>Demonstrate ironing on one piece of fabric. Emphasize safety.<br><br>Student Activity:<br>Identify what to do and what not to do when ironing.",
+      "<b>Part 4: Discussion and Classroom Interaction</b>:<br><br>Objective:<br>Students will discuss their own experiences and reflect on proper laundry habits.<br><br>Discussion Questions:<br>- Have you ever helped wash or iron clothes at home?<br>- What equipment did you use?<br>- What happens when you don’t wash clothes properly?<br>- How does ironing improve the appearance of clothes?<br><br>Teacher Activity:<br>Lead a class discussion based on the questions.<br><br>Student Activity:<br>Share personal experiences or opinions.",
+      "<b>Part 5: Exercise (Assessment Activity)</b>:<br><br>A. Fill in the Blanks<br>1. We use ______ to remove wrinkles from clothes.<br>2. White and colored clothes should be ______ before washing.<br>3. A ______ is used to dry clothes after washing.<br>4. You should never leave a hot ______ unattended.<br>5. Use ______ water to rinse clothes.<br><br>B. Match the Following<br>A\tB<br>1. Ironing board\ta. For removing strong stains<br>2. Detergent\tb. Keeps clothes straight while ironing<br>3. Bleach\tc. Used for washing clothes<br>4. Pegs\td. Used to hold clothes on a line<br><br>C. True or False<br>1. Clothes should be rinsed only once. (___)<br>2. Mixing white and colored clothes is a good idea. (___)<br>3. The iron should be left on after use. (___)<br>4. Washing keeps clothes clean and smelling fresh. (___)<br>5. You can iron clothes while they are wet. (___)"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' practical skills and understanding of laundry equipment and materials during demonstrations and hands-on activities.",
-    "<br><b>Homework:</b><br>Ask students to assist with laundry tasks at home, paying attention to the proper use of laundry equipment and materials as demonstrated in class."
+    "<b>Observation</b>: Teacher evaluates participation during demonstrations and discussions.",
+    "<b>Exercise</b>: Part 5 exercises assess understanding of laundry techniques and safety."
   ],
   "conclusion": [
-    "Through hands-on practice with laundry equipment and materials, students will develop essential skills for effective clothing care, contributing to their overall understanding of home economics and personal well-being."
+    "Students now understand how to properly wash and iron clothes using appropriate equipment, emphasizing safety and efficiency in laundry care."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Interpreting Laundry Symbols",
+  "title": "Interpreting and Applying Laundry Symbols",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Home Economics",
-  "topic": "Interpreting Laundry Symbols",
+  "topic": "Interpreting and Applying Laundry Symbols",
   "grade": "Avian Aces",
   "term": "2",
   "week": "4",
   "lessonNumber": "2",
-  "description": "This lesson focuses on understanding and interpreting laundry symbols commonly found on clothing labels.",
+  "description": "This lesson teaches students how to interpret and apply laundry symbols found on clothing labels to properly care for different fabrics.",
   "materials": [
-    "Assorted clothing items with laundry symbols",
-    "Illustrations or diagrams showing laundry symbols",
-    "Class chart or whiteboard"
+    "Clothing tags with laundry symbols",
+    "Whiteboard and markers",
+    "Printed laundry symbol cards",
+    "Worksheets for exercises"
   ],
   "objectives": [
-    "Students will learn to interpret laundry symbols.",
-    "Students will demonstrate the ability to apply laundry symbols when washing clothes."
+    "Students will understand what laundry symbols are and their importance.",
+    "Students will learn to identify and interpret common laundry care symbols.",
+    "Students will apply laundry symbols when washing clothes.",
+    "Students will reflect on the importance of following laundry symbols."
   ],
   "rationale": [
-    "Understanding laundry symbols is essential for properly caring for clothing and avoiding damage during washing and drying."
+    "Understanding laundry symbols helps students properly care for different fabrics, prevent damage to clothes, and develop practical life skills."
   ],
   "methodology": [
-    "The lesson will involve visual aids, discussions, and hands-on practice to engage students in learning and applying laundry symbols."
+    "The lesson will use visual demonstrations, group activities, discussions, and practical exercises to teach laundry symbol interpretation."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Laundry Symbols:</b><br>Begin by presenting various clothing items with laundry symbols to the class. Explain the purpose of laundry symbols and why they are important for clothing care.",
-      "<b>Exploration of Laundry Symbols:</b><br>Show illustrations or diagrams of common laundry symbols and explain their meanings. Discuss the different categories of symbols, including washing, drying, bleaching, and ironing symbols.",
-      "<b>Hands-on Practice:</b><br>Provide students with a set of clothing items with laundry symbols and ask them to interpret the symbols. Demonstrate how to correctly wash, dry, bleach, and iron the clothing items based on the symbols.",
-      "<b>Group Activity:</b><br>Divide students into small groups and assign each group a set of clothing items with laundry symbols. Have them work together to interpret the symbols and create a laundry care plan for each item.",
-      "<b>Application:</b><br>Conclude the lesson by discussing real-life scenarios where knowledge of laundry symbols is important, such as when washing clothes at home or using a laundromat. Ask students to apply their understanding of laundry symbols in these scenarios."
+      "<b>Part 1: Introduction to Laundry Symbols</b>:<br><br>Objective:<br>Students will understand what laundry symbols are and why they are important.<br><br>Content:<br>Laundry symbols are small pictures found on clothing labels. They give instructions on how to properly wash, dry, iron, and care for the fabric.<br><br>Why Laundry Symbols Are Important:<br>- They help us avoid damaging clothes.<br>- They tell us the safest way to clean and care for different fabrics.<br>- They prevent shrinking, fading, or tearing of clothes.<br><br>Teacher Activity:<br>- Show clothing tags with laundry symbols.<br>- Explain their purpose in simple language.<br><br>Student Activity:<br>- Observe different clothing labels brought by the teacher or classmates.",
+      "<b>Part 2: Common Laundry Symbols and Their Meanings</b>:<br><br>Objective:<br>Students will learn to identify and interpret the most common laundry care symbols.<br><br>Common Categories of Symbols:<br>- 🧺 (Tub with water): Washing instructions<br>- 🔼 (Triangle): Bleaching<br>- 🧺➖ (Tub with hand): Hand wash only<br>- 🌬️ (Square with circle inside): Tumble dry<br>- 🔥 (Iron): Ironing instructions<br>- ❌: Do not do this action (e.g., ❌🧺 = Do not wash)<br><br>Examples:<br>- 🧺 30° – Wash at 30 degrees Celsius<br>- 🧺 with a hand – Hand wash only<br>- ❌🧺 – Do not wash<br>- 🔥 with 1 dot – Iron on low heat<br>- 🔥❌ – Do not iron<br>- 🔼 with a cross – Do not bleach<br><br>Teacher Activity:<br>- Draw symbols on the board or show printed cards.<br>- Explain what each symbol means.<br><br>Student Activity:<br>- Say or write what each symbol means as the teacher shows it.",
+      "<b>Part 3: Applying Laundry Symbols When Washing</b>:<br><br>Objective:<br>Students will learn how to follow laundry instructions based on symbols.<br><br>Content:<br>1. Check the label – Find the laundry symbols on the clothing tag.<br>2. Understand each symbol – Know the temperature, washing method, ironing, or drying advice.<br>3. Sort clothes accordingly – Separate items that need hand wash or low heat, etc.<br>4. Follow instructions carefully – This helps keep clothes clean and undamaged.<br><br>Example Scenario:<br>- If a shirt has 🔥 with 2 dots, you iron it on medium heat.<br>- If pants have ❌🧺, you do not wash them in water (maybe dry-clean only).<br><br>Teacher Activity:<br>- Show a few clothes and ask students to 'read' the care instructions.<br>- Model the correct actions for a few symbols.<br><br>Student Activity:<br>- Practice interpreting tags in small groups using worksheets or actual clothes.",
+      "<b>Part 4: Discussion and Reflection</b>:<br><br>Objective:<br>Students will reflect on the importance of following laundry symbols.<br><br>Discussion Questions:<br>- Why is it important to check laundry symbols before washing clothes?<br>- Have you or your family ever damaged clothes by not checking the label?<br>- How do laundry symbols help us care for different types of fabric?<br><br>Teacher Activity:<br>- Lead a class discussion using the questions.<br><br>Student Activity:<br>- Share their thoughts or experiences in pairs or whole group.",
+      "<b>Part 5: Exercise (Assessment Activity)</b>:<br><br><b>A. Match the Symbol with Its Meaning</b>:<br>1. 🧺30° – a. Wash at 30 degrees<br>2. 🔼❌ – b. Do not bleach<br>3. 🧺 with a hand – c. Hand wash only<br>4. 🔥❌ – d. Do not iron<br><br><b>B. Fill in the Blanks</b>:<br>1. Laundry symbols help us take care of our ______.<br>2. A triangle symbol (🔼) stands for ______.<br>3. An iron with 3 dots means ______ heat.<br>4. A square with a circle inside is the symbol for ______.<br>5. You should always check the ______ before washing your clothes.<br><br><b>C. True or False</b>:<br>1. Laundry symbols are found on clothing buttons. (___)<br>2. A crossed-out tub means you can wash the clothes. (___)<br>3. Laundry symbols prevent damage to clothes. (___)<br>4. All clothes can be washed the same way. (___)<br>5. One dot on an iron means high heat. (___)"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to interpret and apply laundry symbols during hands-on practice and group activities.",
-    "<br><b>Homework:</b><br>Ask students to examine the clothing labels of their own clothes at home and identify the laundry symbols. They should also describe how they would care for each item based on the symbols."
+    "<b>Observation</b>: The teacher will observe students' ability to correctly identify and interpret laundry symbols during activities.",
+    "<b>Exercise</b>: The matching, fill-in-the-blank, and true/false exercises will evaluate students' understanding of laundry symbols."
   ],
   "conclusion": [
-    "By learning to interpret laundry symbols, students will develop essential skills for properly caring for their clothing, ensuring longevity and maintaining their appearance. This knowledge contributes to their overall understanding of home economics and personal well-being."
+    "By learning to interpret and apply laundry symbols, students have gained practical knowledge that will help them properly care for different types of clothing and fabrics in their daily lives."
   ]
 },
 
