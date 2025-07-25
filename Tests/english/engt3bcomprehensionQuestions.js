@@ -39,7 +39,7 @@ const engt3bcomprehensionQuestions = [
 },
 {
   "type": "comprehension",
-  "class": "Feather Flyers",
+  "class": "Nestlings Navigators",
   "subject": "English",
   "term": "Term 3",
   "part": "End Term",
