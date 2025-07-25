@@ -1,5 +1,4 @@
 const g1scit2aoneWordQuestions = [
-
   {
     "type": "one_word",
     "class": "Feather Flyers",

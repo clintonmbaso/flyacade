@@ -1,1403 +1,1406 @@
 const g1engt2bmultipleChoiceQuestions = [
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is a contraction?",
+  "choices": [
+    "A long sentence",
+    "A shortened form of two words",
+    "A type of animal"
+  ],
+  "answer": "A shortened form of two words"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which contraction is made with 'not'?",
+  "choices": [
+    "I'll",
+    "Isn't",
+    "We're"
+  ],
+  "answer": "Isn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the contraction for 'can not'?",
+  "choices": [
+    "Cann't",
+    "Can't",
+    "Cannot"
+  ],
+  "answer": "Can't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which two words make 'don't'?",
+  "choices": [
+    "Do not",
+    "Did not",
+    "Does not"
+  ],
+  "answer": "Do not"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the contraction for 'will not'?",
+  "choices": [
+    "Won't",
+    "Willn't",
+    "Willnot"
+  ],
+  "answer": "Won't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which contraction means 'does not'?",
+  "choices": [
+    "Don't",
+    "Doesn't",
+    "Didn't"
+  ],
+  "answer": "Doesn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the full form of 'haven't'?",
+  "choices": [
+    "Have not",
+    "Has not",
+    "Had not"
+  ],
+  "answer": "Have not"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is NOT a contraction with 'not'?",
+  "choices": [
+    "Isn't",
+    "She's",
+    "Wasn't"
+  ],
+  "answer": "She's"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the contraction for 'should not'?",
+  "choices": [
+    "Shouldn't",
+    "Shan't",
+    "Shouldnot"
+  ],
+  "answer": "Shouldn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which contraction means 'was not'?",
+  "choices": [
+    "Weren't",
+    "Wasn't",
+    "Isn't"
+  ],
+  "answer": "Wasn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the full form of 'aren't'?",
+  "choices": [
+    "Are not",
+    "Am not",
+    "Is not"
+  ],
+  "answer": "Are not"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which contraction is correct?",
+  "choices": [
+    "Did'nt",
+    "Didn't",
+    "Didnt"
+  ],
+  "answer": "Didn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the contraction for 'could not'?",
+  "choices": [
+    "Couldn't",
+    "Could'nt",
+    "Couldnot"
+  ],
+  "answer": "Couldn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which two words make 'hasn't'?",
+  "choices": [
+    "Have not",
+    "Has not",
+    "Had not"
+  ],
+  "answer": "Has not"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the contraction for 'would not'?",
+  "choices": [
+    "Wouldn't",
+    "Won't",
+    "Would'nt"
+  ],
+  "answer": "Wouldn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which contraction means 'must not'?",
+  "choices": [
+    "Mustn't",
+    "Mightn't",
+    "Mayn't"
+  ],
+  "answer": "Mustn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the full form of 'weren't'?",
+  "choices": [
+    "Were not",
+    "Was not",
+    "Will not"
+  ],
+  "answer": "Were not"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which contraction is spelled correctly?",
+  "choices": [
+    "Cant",
+    "Cann't",
+    "Can't"
+  ],
+  "answer": "Can't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the contraction for 'is not'?",
+  "choices": [
+    "Isn't",
+    "Aren't",
+    "Wasn't"
+  ],
+  "answer": "Isn't"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses a contraction with 'not' correctly?",
+  "choices": [
+    "She don't like apples.",
+    "He isn't coming today.",
+    "They wasnt happy."
+  ],
+  "answer": "He isn't coming today."
+},
 
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cat is small.",
-    "choices": ["cat", "is", "small", "The"],
-    "answer": "small"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has three green apples.",
-    "choices": ["She", "has", "three", "green"],
-    "answer": "three"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The sky is blue.",
-    "choices": ["sky", "is", "blue", "The"],
-    "answer": "blue"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "There are seven tall buildings.",
-    "choices": ["There", "are", "seven", "tall"],
-    "answer": "tall"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The book is thick.",
-    "choices": ["The", "book", "is", "thick"],
-    "answer": "thick"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "I see five red cars.",
-    "choices": ["I", "see", "five", "red"],
-    "answer": "five"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The dog is large.",
-    "choices": ["The", "dog", "is", "large"],
-    "answer": "large"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She wore a beautiful dress.",
-    "choices": ["She", "wore", "beautiful", "dress"],
-    "answer": "beautiful"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The house has four windows.",
-    "choices": ["The", "house", "has", "four"],
-    "answer": "four"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The flowers are yellow.",
-    "choices": ["The", "flowers", "are", "yellow"],
-    "answer": "yellow"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "He found eight shiny coins.",
-    "choices": ["He", "found", "eight", "shiny"],
-    "answer": "eight"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The puppy is playful.",
-    "choices": ["The", "puppy", "is", "playful"],
-    "answer": "playful"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The ball is round.",
-    "choices": ["The", "ball", "is", "round"],
-    "answer": "round"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has two furry kittens.",
-    "choices": ["She", "has", "two", "furry"],
-    "answer": "two"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The tree is tall.",
-    "choices": ["The", "tree", "is", "tall"],
-    "answer": "tall"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The blanket is soft.",
-    "choices": ["The", "blanket", "is", "soft"],
-    "answer": "soft"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "We saw ten colorful birds.",
-    "choices": ["We", "saw", "ten", "colorful"],
-    "answer": "ten"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The chair is wooden.",
-    "choices": ["The", "chair", "is", "wooden"],
-    "answer": "wooden"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has a large garden.",
-    "choices": ["She", "has", "a", "large"],
-    "answer": "large"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cookie is sweet.",
-    "choices": ["The", "cookie", "is", "sweet"],
-    "answer": "sweet"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The blanket is very soft.",
-    "choices": ["blanket", "very", "soft", "is"],
-    "answer": "soft"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The flower smells sweet.",
-    "choices": ["flower", "smells", "sweet", "The"],
-    "answer": "smells"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cake tastes delicious.",
-    "choices": ["cake", "tastes", "delicious", "The"],
-    "answer": "tastes"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The music is loud.",
-    "choices": ["The", "music", "is", "loud"],
-    "answer": "loud"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Her dress is beautiful.",
-    "choices": ["Her", "dress", "is", "beautiful"],
-    "answer": "beautiful"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The sand feels warm.",
-    "choices": ["The", "sand", "feels", "warm"],
-    "answer": "warm"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The coffee smells strong.",
-    "choices": ["The", "coffee", "smells", "strong"],
-    "answer": "strong"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The soup tastes salty.",
-    "choices": ["The", "soup", "tastes", "salty"],
-    "answer": "salty"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The wind sounds gentle.",
-    "choices": ["The", "wind", "sounds", "gentle"],
-    "answer": "sounds"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The ice cream is cold.",
-    "choices": ["The", "ice cream", "is", "cold"],
-    "answer": "cold"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The room smells fresh.",
-    "choices": ["The", "room", "smells", "fresh"],
-    "answer": "fresh"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The book looks interesting.",
-    "choices": ["The", "book", "looks", "interesting"],
-    "answer": "interesting"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The bread tastes sweet.",
-    "choices": ["The", "bread", "tastes", "sweet"],
-    "answer": "sweet"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The bell sounds clear.",
-    "choices": ["The", "bell", "sounds", "clear"],
-    "answer": "sounds"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The sweater feels cozy.",
-    "choices": ["The", "sweater", "feels", "cozy"],
-    "answer": "cozy"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The roses smell lovely.",
-    "choices": ["The", "roses", "smell", "lovely"],
-    "answer": "smell"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The orange tastes tangy.",
-    "choices": ["The", "orange", "tastes", "tangy"],
-    "answer": "tastes"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The rain sounds soothing.",
-    "choices": ["The", "rain", "sounds", "soothing"],
-    "answer": "sounds"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cotton feels soft.",
-    "choices": ["The", "cotton", "feels", "soft"],
-    "answer": "feels"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The pizza smells cheesy.",
-    "choices": ["The", "pizza", "smells", "cheesy"],
-    "answer": "smells"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The farm has ten cows.",
-    "choices": ["The", "farm", "ten", "cows"],
-    "answer": "ten"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She bought three apples.",
-    "choices": ["She", "bought", "three", "apples"],
-    "answer": "three"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "There are several birds in the tree.",
-    "choices": ["There", "are", "several", "birds"],
-    "answer": "several"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "He has five pencils in his bag.",
-    "choices": ["He", "has", "five", "pencils"],
-    "answer": "five"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The class has twenty students.",
-    "choices": ["The", "class", "twenty", "students"],
-    "answer": "twenty"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "They see many stars in the sky.",
-    "choices": ["They", "see", "many", "stars"],
-    "answer": "many"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The book has four chapters.",
-    "choices": ["The", "book", "four", "chapters"],
-    "answer": "four"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "There are eight cookies on the plate.",
-    "choices": ["There", "are", "eight", "cookies"],
-    "answer": "eight"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has a few friends at school.",
-    "choices": ["She", "has", "a few", "friends"],
-    "answer": "a few"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The zoo has two lions.",
-    "choices": ["The", "zoo", "two", "lions"],
-    "answer": "two"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The farmer planted seven trees.",
-    "choices": ["The", "farmer", "seven", "trees"],
-    "answer": "seven"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "I have a lot of stickers in my book.",
-    "choices": ["I", "have", "a lot of", "stickers"],
-    "answer": "a lot of"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The garden has twelve flowers.",
-    "choices": ["The", "garden", "twelve", "flowers"],
-    "answer": "twelve"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "There are few seats available.",
-    "choices": ["There", "are", "few", "seats"],
-    "answer": "few"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has nine crayons.",
-    "choices": ["She", "has", "nine", "crayons"],
-    "answer": "nine"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The movie has many exciting scenes.",
-    "choices": ["The", "movie", "many", "scenes"],
-    "answer": "many"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "He found four coins in the sand.",
-    "choices": ["He", "found", "four", "coins"],
-    "answer": "four"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The team has several players.",
-    "choices": ["The", "team", "several", "players"],
-    "answer": "several"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "There are six chairs in the room.",
-    "choices": ["There", "are", "six", "chairs"],
-    "answer": "six"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has a few books on her shelf.",
-    "choices": ["She", "has", "a few", "books"],
-    "answer": "a few"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Tom is excited about his birthday.",
-    "choices": ["Tom", "is", "excited", "birthday"],
-    "answer": "excited"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Sara feels sad because her toy is broken.",
-    "choices": ["Sara", "feels", "sad", "broken"],
-    "answer": "sad"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Mike is nervous before the big test.",
-    "choices": ["Mike", "is", "nervous", "test"],
-    "answer": "nervous"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Jane looks happy at the party.",
-    "choices": ["Jane", "looks", "happy", "party"],
-    "answer": "happy"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cat seems scared of the loud noise.",
-    "choices": ["The", "cat", "seems", "scared"],
-    "answer": "scared"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Ella is thrilled with her new toy.",
-    "choices": ["Ella", "is", "thrilled", "toy"],
-    "answer": "thrilled"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The boy felt angry when he lost the game.",
-    "choices": ["The", "boy", "felt", "angry"],
-    "answer": "angry"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Lily feels proud of her drawing.",
-    "choices": ["Lily", "feels", "proud", "drawing"],
-    "answer": "proud"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "John is worried about his upcoming trip.",
-    "choices": ["John", "is", "worried", "trip"],
-    "answer": "worried"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Sophie is delighted with her new book.",
-    "choices": ["Sophie", "is", "delighted", "book"],
-    "answer": "delighted"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The teacher seemed frustrated with the noisy class.",
-    "choices": ["The", "teacher", "seemed", "frustrated"],
-    "answer": "frustrated"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Max is calm during the meditation.",
-    "choices": ["Max", "is", "calm", "meditation"],
-    "answer": "calm"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Anna feels lonely when her friends are not around.",
-    "choices": ["Anna", "feels", "lonely", "friends"],
-    "answer": "lonely"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Chris is embarrassed after making a mistake.",
-    "choices": ["Chris", "is", "embarrassed", "mistake"],
-    "answer": "embarrassed"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The girl was excited to see the fireworks.",
-    "choices": ["The", "girl", "was", "excited"],
-    "answer": "excited"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Dan feels relaxed after his vacation.",
-    "choices": ["Dan", "feels", "relaxed", "vacation"],
-    "answer": "relaxed"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The dog looked worried when its owner was late.",
-    "choices": ["The", "dog", "looked", "worried"],
-    "answer": "worried"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Mia is content with her new bike.",
-    "choices": ["Mia", "is", "content", "bike"],
-    "answer": "content"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The students felt nervous before the school play.",
-    "choices": ["The", "students", "felt", "nervous"],
-    "answer": "nervous"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Jake is cheerful during the holiday season.",
-    "choices": ["Jake", "is", "cheerful", "season"],
-    "answer": "cheerful"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The box is large.",
-    "choices": ["The", "box", "is", "large"],
-    "answer": "large"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The pencil is long.",
-    "choices": ["The", "pencil", "is", "long"],
-    "answer": "long"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The book is thick.",
-    "choices": ["The", "book", "is", "thick"],
-    "answer": "thick"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The chair is square.",
-    "choices": ["The", "chair", "is", "square"],
-    "answer": "square"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The table is round.",
-    "choices": ["The", "table", "is", "round"],
-    "answer": "round"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The dog is small.",
-    "choices": ["The", "dog", "is", "small"],
-    "answer": "small"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The shirt is loose.",
-    "choices": ["The", "shirt", "is", "loose"],
-    "answer": "loose"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The ball is big.",
-    "choices": ["The", "ball", "is", "big"],
-    "answer": "big"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The rug is rectangular.",
-    "choices": ["The", "rug", "is", "rectangular"],
-    "answer": "rectangular"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cup is tiny.",
-    "choices": ["The", "cup", "is", "tiny"],
-    "answer": "tiny"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The door is wide.",
-    "choices": ["The", "door", "is", "wide"],
-    "answer": "wide"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cake is round.",
-    "choices": ["The", "cake", "is", "round"],
-    "answer": "round"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The window is narrow.",
-    "choices": ["The", "window", "is", "narrow"],
-    "answer": "narrow"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The hat is tall.",
-    "choices": ["The", "hat", "is", "tall"],
-    "answer": "tall"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The box is small.",
-    "choices": ["The", "box", "is", "small"],
-    "answer": "small"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The car is wide.",
-    "choices": ["The", "car", "is", "wide"],
-    "answer": "wide"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The house is large.",
-    "choices": ["The", "house", "is", "large"],
-    "answer": "large"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The bottle is tall.",
-    "choices": ["The", "bottle", "is", "tall"],
-    "answer": "tall"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The ball is oval.",
-    "choices": ["The", "ball", "is", "oval"],
-    "answer": "oval"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cube is small.",
-    "choices": ["The", "cube", "is", "small"],
-    "answer": "small"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Tom has a blue ball.",
-    "choices": ["Tom", "has", "blue", "ball"],
-    "answer": "blue"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The cat is gray.",
-    "choices": ["The", "cat", "is", "gray"],
-    "answer": "gray"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She likes green apples.",
-    "choices": ["She", "likes", "green", "apples"],
-    "answer": "green"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The sky is bright blue.",
-    "choices": ["sky", "is", "bright", "blue"],
-    "answer": "blue"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "We saw a red car.",
-    "choices": ["We", "saw", "a", "red"],
-    "answer": "red"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "His shirt is orange.",
-    "choices": ["His", "shirt", "is", "orange"],
-    "answer": "orange"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The flower is purple.",
-    "choices": ["The", "flower", "is", "purple"],
-    "answer": "purple"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has yellow shoes.",
-    "choices": ["She", "has", "yellow", "shoes"],
-    "answer": "yellow"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The sun is bright yellow.",
-    "choices": ["The", "sun", "is", "bright"],
-    "answer": "yellow"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "My bag is black.",
-    "choices": ["My", "bag", "is", "black"],
-    "answer": "black"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The house is white.",
-    "choices": ["The", "house", "is", "white"],
-    "answer": "white"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "He wears a brown hat.",
-    "choices": ["He", "wears", "a", "brown"],
-    "answer": "brown"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The car is silver.",
-    "choices": ["The", "car", "is", "silver"],
-    "answer": "silver"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She has a pink dress.",
-    "choices": ["She", "has", "a", "pink"],
-    "answer": "pink"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The bird is green.",
-    "choices": ["The", "bird", "is", "green"],
-    "answer": "green"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "I see a purple balloon.",
-    "choices": ["I", "see", "a", "purple"],
-    "answer": "purple"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "His bike is red.",
-    "choices": ["His", "bike", "is", "red"],
-    "answer": "red"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The chair is brown.",
-    "choices": ["The", "chair", "is", "brown"],
-    "answer": "brown"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "She likes white flowers.",
-    "choices": ["She", "likes", "white", "flowers"],
-    "answer": "white"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "The blanket is orange.",
-    "choices": ["The", "blanket", "is", "orange"],
-    "answer": "orange"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does the word soft describe?",
-    "choices": ["Color", "Size", "Texture", "Shape"],
-    "answer": "Texture"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes something that is very tall?",
-    "choices": ["Short", "Wide", "Tall", "Small"],
-    "answer": "Tall"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "If a dog is brown, what kind of word is brown?",
-    "choices": ["Size", "Shape", "Color", "Texture"],
-    "answer": "Color"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does happy describe?",
-    "choices": ["A feeling", "A shape", "A size", "A color"],
-    "answer": "A feeling"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes something that is not heavy?",
-    "choices": ["Heavy", "Light", "Big", "Soft"],
-    "answer": "Light"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "If a ball is round, what is being described?",
-    "choices": ["Color", "Shape", "Size", "Texture"],
-    "answer": "Shape"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does the word fast tell us about?",
-    "choices": ["How something feels", "How something looks", "How quickly something moves", "The color of something"],
-    "answer": "How quickly something moves"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes a smooth surface?",
-    "choices": ["Rough", "Bumpy", "Soft", "Smooth"],
-    "answer": "Smooth"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "If a dress is red, what kind of word is red?",
-    "choices": ["Texture", "Size", "Color", "Shape"],
-    "answer": "Color"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes something that is very small?",
-    "choices": ["Huge", "Tiny", "Tall", "Wide"],
-    "answer": "Tiny"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does the word shiny describe?",
-    "choices": ["How something feels", "How something looks", "How something smells", "How something tastes"],
-    "answer": "How something looks"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "If a cat is fluffy, what is being described?",
-    "choices": ["Color", "Shape", "Texture", "Size"],
-    "answer": "Texture"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes a loud noise?",
-    "choices": ["Quiet", "Soft", "Loud", "Slow"],
-    "answer": "Loud"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does smooth describe?",
-    "choices": ["Color", "Shape", "Texture", "Size"],
-    "answer": "Texture"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "If a room is bright, what kind of word is bright?",
-    "choices": ["Color", "Shape", "Size", "Light"],
-    "answer": "Color"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes something that is not cold?",
-    "choices": ["Warm", "Hot", "Cool", "Cold"],
-    "answer": "Warm"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does the word big describe?",
-    "choices": ["Color", "Shape", "Size", "Texture"],
-    "answer": "Size"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "If a puppy is playful, what is being described?",
-    "choices": ["Size", "Shape", "Color", "Behavior"],
-    "answer": "Behavior"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "Which word describes something that is not dry?",
-    "choices": ["Wet", "Smooth", "Light", "Soft"],
-    "answer": "Wet"
-  },
-  {
-    "type": "multiple_choice",
-    "class": "Feather Flyers",
-    "subject": "English",
-    "term": "Term 2",
-    "part": "End Term",
-    "question": "What does slow describe?",
-    "choices": ["Size", "Speed", "Texture", "Color"],
-    "answer": "Speed"
-  }
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'She ___ happy yesterday.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'They ___ playing outside.'?",
+  "choices": [
+    "was",
+    "were",
+    "are"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The cat ___ sleeping on the couch.'?",
+  "choices": [
+    "was",
+    "were",
+    "am"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'We ___ at the park last Sunday.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'He ___ late for school.'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The birds ___ chirping in the morning.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'My mom ___ cooking dinner.'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The children ___ excited about the trip.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'It ___ a sunny day yesterday.'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'You ___ my best friend last year.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The dog ___ barking loudly.'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The flowers ___ very beautiful.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'I ___ at home yesterday.'?",
+  "choices": [
+    "were",
+    "was",
+    "am"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The books ___ on the shelf.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'Grandpa ___ telling a story.'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The boys ___ playing soccer.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The cake ___ delicious!'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'My friends ___ laughing at the joke.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The baby ___ crying.'?",
+  "choices": [
+    "were",
+    "was",
+    "are"
+  ],
+  "answer": "was"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word correctly completes the sentence: 'The stars ___ shining brightly.'?",
+  "choices": [
+    "was",
+    "were",
+    "is"
+  ],
+  "answer": "were"
+},
+
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun?",
+  "choices": [
+    "dog",
+    "paris",
+    "Paris"
+  ],
+  "answer": "Paris"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is NOT a proper noun?",
+  "choices": [
+    "London",
+    "school",
+    "Mr. Johnson"
+  ],
+  "answer": "school"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence has a proper noun?",
+  "choices": [
+    "The cat is sleeping.",
+    "I went to Disneyland.",
+    "She has a red ball."
+  ],
+  "answer": "I went to Disneyland."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which name should start with a capital letter?",
+  "choices": [
+    "apple",
+    "teacher",
+    "Sarah"
+  ],
+  "answer": "Sarah"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which is a proper noun for a place?",
+  "choices": [
+    "river",
+    "Amazon",
+    "mountain"
+  ],
+  "answer": "Amazon"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun for a person?",
+  "choices": [
+    "doctor",
+    "Emma",
+    "city"
+  ],
+  "answer": "Emma"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses a proper noun correctly?",
+  "choices": [
+    "My friend is named lisa.",
+    "We visited the eiffel tower.",
+    "She lives in New York."
+  ],
+  "answer": "She lives in New York."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun for a holiday?",
+  "choices": [
+    "Christmas",
+    "summer",
+    "weekend"
+  ],
+  "answer": "Christmas"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word should NOT be capitalized?",
+  "choices": [
+    "Tuesday",
+    "pizza",
+    "Canada"
+  ],
+  "answer": "pizza"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which is a proper noun for a book?",
+  "choices": [
+    "story",
+    "The Lion King",
+    "page"
+  ],
+  "answer": "The Lion King"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence has a proper noun?",
+  "choices": [
+    "The sun is bright.",
+    "My teacher is Mrs. Brown.",
+    "I like ice cream."
+  ],
+  "answer": "My teacher is Mrs. Brown."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun for a day?",
+  "choices": [
+    "Monday",
+    "morning",
+    "today"
+  ],
+  "answer": "Monday"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun for a country?",
+  "choices": [
+    "Japan",
+    "desert",
+    "ocean"
+  ],
+  "answer": "Japan"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses a proper noun?",
+  "choices": [
+    "The dog barked loudly.",
+    "We went to McDonald's.",
+    "She has a new toy."
+  ],
+  "answer": "We went to McDonald's."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun for a month?",
+  "choices": [
+    "January",
+    "week",
+    "tomorrow"
+  ],
+  "answer": "January"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is NOT a proper noun?",
+  "choices": [
+    "Mount Everest",
+    "pencil",
+    "Harry"
+  ],
+  "answer": "pencil"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence has a proper noun?",
+  "choices": [
+    "The bird is flying.",
+    "I read a book about dinosaurs.",
+    "My birthday is in October."
+  ],
+  "answer": "My birthday is in October."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a proper noun for a store?",
+  "choices": [
+    "Walmart",
+    "market",
+    "shop"
+  ],
+  "answer": "Walmart"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word should be capitalized?",
+  "choices": [
+    "apple",
+    "miss smith",
+    "Miss Smith"
+  ],
+  "answer": "Miss Smith"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence has a proper noun?",
+  "choices": [
+    "The flowers are pretty.",
+    "We visited Grandma Lucy.",
+    "He has a blue car."
+  ],
+  "answer": "We visited Grandma Lucy."
+},
+
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'has' correctly?",
+  "choices": [
+    "The dogs has a bone.",
+    "She has a red balloon.",
+    "They has many toys."
+  ],
+  "answer": "She has a red balloon."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'have' correctly?",
+  "choices": [
+    "He have a big hat.",
+    "We have three apples.",
+    "The cat have a tail."
+  ],
+  "answer": "We have three apples."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'My brother ___ a new bike.'",
+  "choices": [
+    "have",
+    "has",
+    "had"
+  ],
+  "answer": "has"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'The children ___ colorful kites.'",
+  "choices": [
+    "has",
+    "have",
+    "had"
+  ],
+  "answer": "have"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence is correct?",
+  "choices": [
+    "The bird have wings.",
+    "The birds has wings.",
+    "The bird has wings."
+  ],
+  "answer": "The bird has wings."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence is correct?",
+  "choices": [
+    "They has a big house.",
+    "They have a big house.",
+    "They has big houses."
+  ],
+  "answer": "They have a big house."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'My teacher ___ a kind smile.'",
+  "choices": [
+    "have",
+    "has",
+    "had"
+  ],
+  "answer": "has"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'The cats ___ soft fur.'",
+  "choices": [
+    "has",
+    "have",
+    "had"
+  ],
+  "answer": "have"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'has' correctly?",
+  "choices": [
+    "The flowers has bright colors.",
+    "The sun have light.",
+    "The baby has a small toy."
+  ],
+  "answer": "The baby has a small toy."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'have' correctly?",
+  "choices": [
+    "She have a blue dress.",
+    "The dogs have loud barks.",
+    "The tree have leaves."
+  ],
+  "answer": "The dogs have loud barks."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'Grandma ___ a warm hug.'",
+  "choices": [
+    "have",
+    "has",
+    "had"
+  ],
+  "answer": "has"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'The boys ___ a soccer ball.'",
+  "choices": [
+    "has",
+    "have",
+    "had"
+  ],
+  "answer": "have"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence is correct?",
+  "choices": [
+    "The dog have a bone.",
+    "The dogs has bones.",
+    "The dog has a bone."
+  ],
+  "answer": "The dog has a bone."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence is correct?",
+  "choices": [
+    "She have a pretty doll.",
+    "She has a pretty doll.",
+    "She has pretty dolls."
+  ],
+  "answer": "She has a pretty doll."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'My friend ___ a new backpack.'",
+  "choices": [
+    "have",
+    "has",
+    "had"
+  ],
+  "answer": "has"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'The girls ___ long hair.'",
+  "choices": [
+    "has",
+    "have",
+    "had"
+  ],
+  "answer": "have"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'has' correctly?",
+  "choices": [
+    "The trees has green leaves.",
+    "The bird have a nest.",
+    "The boy has a red ball."
+  ],
+  "answer": "The boy has a red ball."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'have' correctly?",
+  "choices": [
+    "The cat have whiskers.",
+    "The cats have whiskers.",
+    "The cats has whiskers."
+  ],
+  "answer": "The cats have whiskers."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'Mom ___ a delicious cake.'",
+  "choices": [
+    "have",
+    "has",
+    "had"
+  ],
+  "answer": "has"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word completes the sentence? 'The students ___ many books.'",
+  "choices": [
+    "has",
+    "have",
+    "had"
+  ],
+  "answer": "have"
+},
+
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a verb?",
+  "choices": [
+    "Jump",
+    "Blue",
+    "Apple"
+  ],
+  "answer": "Jump"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the past tense of 'go'?",
+  "choices": [
+    "Goed",
+    "Went",
+    "Going"
+  ],
+  "answer": "Went"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'do' correctly in the present tense?",
+  "choices": [
+    "She do her homework.",
+    "They do their chores.",
+    "He do his best."
+  ],
+  "answer": "They do their chores."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the past tense of 'do'?",
+  "choices": [
+    "Doed",
+    "Did",
+    "Done"
+  ],
+  "answer": "Did"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'go' correctly in the past tense?",
+  "choices": [
+    "She go to school yesterday.",
+    "They went to the park.",
+    "He goed home early."
+  ],
+  "answer": "They went to the park."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is NOT a verb?",
+  "choices": [
+    "Run",
+    "Sing",
+    "Table"
+  ],
+  "answer": "Table"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'do' correctly in the past tense?",
+  "choices": [
+    "She did her homework.",
+    "They do their work.",
+    "He does his chores."
+  ],
+  "answer": "She did her homework."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'go' correctly in the present tense?",
+  "choices": [
+    "They went to the store.",
+    "She goes to school.",
+    "He goed to the park."
+  ],
+  "answer": "She goes to school."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the present tense of 'went'?",
+  "choices": [
+    "Go",
+    "Going",
+    "Goes"
+  ],
+  "answer": "Go"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'do' incorrectly?",
+  "choices": [
+    "I do my homework every day.",
+    "She do her best in class.",
+    "They do their chores."
+  ],
+  "answer": "She do her best in class."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the correct past tense of 'do' in this sentence: 'She ___ her homework yesterday.'?",
+  "choices": [
+    "Do",
+    "Did",
+    "Done"
+  ],
+  "answer": "Did"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'go' incorrectly?",
+  "choices": [
+    "They go to the zoo.",
+    "He went to the store.",
+    "She goed to school."
+  ],
+  "answer": "She goed to school."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is a verb?",
+  "choices": [
+    "Happy",
+    "Dance",
+    "Chair"
+  ],
+  "answer": "Dance"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'do' in the past tense?",
+  "choices": [
+    "I do my work.",
+    "She did her project.",
+    "They do their best."
+  ],
+  "answer": "She did her project."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the correct present tense of 'did'?",
+  "choices": [
+    "Do",
+    "Done",
+    "Doing"
+  ],
+  "answer": "Do"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'go' in the present tense?",
+  "choices": [
+    "They went to the park.",
+    "She goes to school.",
+    "He went home."
+  ],
+  "answer": "She goes to school."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "What is the past tense of 'go' in this sentence: 'She ___ to the market yesterday.'?",
+  "choices": [
+    "Go",
+    "Goes",
+    "Went"
+  ],
+  "answer": "Went"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'do' correctly?",
+  "choices": [
+    "He do his homework.",
+    "They does their work.",
+    "We do our best."
+  ],
+  "answer": "We do our best."
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which word is NOT a verb?",
+  "choices": [
+    "Swim",
+    "Write",
+    "Desk"
+  ],
+  "answer": "Desk"
+},
+{
+  "type": "multiple_choice",
+  "class": "Feather Flyers",
+  "subject": "English",
+  "term": "Term 2",
+  "part": "End Term",
+  "question": "Which sentence uses 'go' correctly?",
+  "choices": [
+    "She go to the store.",
+    "They went to the park.",
+    "He goed home."
+  ],
+  "answer": "They went to the park."
+}
 ];
