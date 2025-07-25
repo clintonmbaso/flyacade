@@ -7,15 +7,161 @@
      <link rel="stylesheet" href="test.css">
      <link rel="stylesheet" href="testing_hub.css">
     
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Advantage&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="css/englishCase.css">  
+  <link rel="stylesheet" href="css/soundsCase.css">  
+  <link rel="stylesheet" href="css/oralCase.css">  
+  <link rel="stylesheet" href="css/comparisonCase.css">  
+  <link rel="stylesheet" href="css/coloringCase.css">  
+  <link rel="stylesheet" href="css/sortingCase.css">  
+  <link rel="stylesheet" href="css/imagingCase.css">  
+  <link rel="stylesheet" href="css/numberTableCase.css">  
+  <link rel="stylesheet" href="css/handwritingCase.css">  
+  <link rel="stylesheet" href="css/oneWord.css">  
+  <link rel="stylesheet" href="css/image_basedCase.css">  
+  <link rel="stylesheet" href="css/time.css">  
+
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Advantage&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share&display=swap">
+    
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docx/7.1.0/docx.umd.min.js"></script>
+    <style>
+
+/*
+  .section-identifier {
+    background-color: #f5f5f5;
+    padding: 3px 15px;
+    margin: 15px 0;
+    border-left: 4px solid #4CAF50;
+    font-size: 1.1em;
+  }
+*/
+/* Results Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.results-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.results-close:hover {
+    color: black;
+}
+
+/* Results Content Styles */
+.results-summary {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin: 10px 0;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+}
+
+.question-result {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.question-result.correct {
+    background-color: #e8f5e9;
+    border-left: 4px solid #4CAF50;
+}
+
+.question-result.incorrect {
+    background-color: #ffebee;
+    border-left: 4px solid #f44336;
+}
+    
+    .dynamic-page-footer {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10pt;
+}
+
+@media print {
+    .dynamic-page-footer {
+        display: block !important;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    /* Create page breaks and position footers */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    
+    /* Prevent page breaks inside important elements */
+    .content-section {
+        page-break-inside: avoid;
+    }
+    
+    /* Ensure each footer appears only on its page */
+    .dynamic-page-footer {
+        page-break-after: always;
+    }
+    
+    /* Position each footer on its page */
+    .dynamic-page-footer:nth-of-type(1) { bottom: 10px; }
+    .dynamic-page-footer:nth-of-type(2) { bottom: calc(10px + 297mm); } /* A4 height */
+    .dynamic-page-footer:nth-of-type(3) { bottom: calc(10px + 594mm); }
+    /* Add more nth-of-type rules if you expect more pages */
+}
+    </style>
 </head>
 <body>
     
@@ -25,15 +171,60 @@
          </div>
     <p id="motto">The Way to Success</p>
     
+    
+        <!-- Table at the top -->
+    <div class="table-container">
+        <table>
+            <tr>
+                <th colspan="5">Performance Report</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align:right;font-family: 'Dancing Script', cursive;">%</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th colspan="5" style="height:15px;background-color:transparent;border-radius:0 0 10px 10px;border-top:1px solid rgba(0,0,0,0.4);"></th>
+            </tr>
+        </table>
+    </div>
+    
+    
              <div style="display: flex; justify-content: space-between; margin: 0 5px;">
 <p id="class-name">Class</p>
 <p id="subject">Subject</p>
 <p id="term">Term</p>
 <p id="part">Part</p>
              </div>
+    
+             <div style="display: flex; justify-content: space-between; margin: 0 5px;">
+                 <p class="pupil">Your Full Names: ___________________________ _________________ ___________________________</p>
+             </div>
+    
 <img id="classImage" src="" alt="Class Image" />
     
+    
+    
+    
+    <div class="watermark">
+        <h3>Contacts</h3>
+        <p class="contacts">Airtel: 0975273790 - MTN: 0968084570</p>
+    </div>
+    
+    <svg id="barcode"></svg>
+    <script>
+    // Get the current page URL dynamically
+    let pageURL = window.location.href;
 
+    // Generate the barcode
+    JsBarcode("#barcode", pageURL, {
+        format: "CODE128",
+        displayValue: true
+    });
+</script>
+    
     <div id="test-container">
         <div class="content-section">
         </div>
@@ -45,25 +236,93 @@
            <!-- Button to save as PDF -->
     <button id="savePDF" class="btn"><img src="../images/pdf.png" alt="pdf" id="imgPdf"></button>
     <button id="refreshBtn"></button>
-    <button id="printContent">Print</button>
+    <button id="printContent" title="Print the Test">📠</button>
+    <button class="openStandalone" id="submit-btn" title="Open as standalone test">📄</button>
     
-<!-- Modal Structure -->
+<!-- Answer Key Modal --
 <div id="answer-key-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Answer Key</h2>
+    <div id="answer-key-container"></div>
+  </div>
+</div>
+    
+    
+    <div id="results-modal" class="modal">
     <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Answer Key</h2>
-        <div id="answer-key-container"></div>
+        <span class="results-close">&times;</span>
+        <div id="results-content"></div>
     </div>
 </div>
     
+    -->
+    
 <div id="result-container"></div>
 <div id="quiz-container"></div>
-    <!--<button onclick="submitAnswers()">Submit Answers</button>-->
+
     
-    <script src="test1.js"></script>
+    
+    
+    
+    
+    <footer class="page-number"></footer>
+
+    
+    <script type="module" src="test1.js"></script>
     <script src="test2.js"></script>
     <script src="test3.js"></script>
     <script src="test4.js"></script>
+    
+<script>
+// Improved dynamic page numbering
+function updatePageNumbers() {
+    // Calculate total pages
+    const pageHeight = 1122; // Approximate pixels for A4 at 96dpi
+    const totalPages = Math.ceil(document.body.scrollHeight / pageHeight);
+    
+    // Remove any existing page number footers
+    const existingFooters = document.querySelectorAll('.dynamic-page-footer');
+    existingFooters.forEach(footer => footer.remove());
+    
+    // Create a footer for each page
+    for (let i = 0; i < totalPages; i++) {
+        const footer = document.createElement('div');
+        footer.className = 'dynamic-page-footer';
+        footer.style.position = 'absolute';
+        footer.style.bottom = `-${(i * pageHeight)}px`;
+        footer.style.width = '100%';
+        footer.style.textAlign = 'right';
+        footer.style.fontSize = '10pt';
+        footer.textContent = `Page ${i + 1} of ${totalPages}`;
+        document.body.appendChild(footer);
+    }
+}
 
+// Update page numbers when printing
+window.onbeforeprint = function() {
+    updatePageNumbers();
+    
+    // Make footers visible for print
+    const footers = document.querySelectorAll('.dynamic-page-footer');
+    footers.forEach(footer => {
+        footer.style.display = 'block';
+    });
+};
+
+// Clear page numbers after printing
+window.onafterprint = function() {
+    const footers = document.querySelectorAll('.dynamic-page-footer');
+    footers.forEach(footer => {
+        footer.style.display = 'none';
+    });
+};
+
+// Also update when the window resizes
+window.addEventListener('resize', updatePageNumbers);
+
+// Initial setup (hidden by default)
+updatePageNumbers();
+</script>
 </body>
 </html>

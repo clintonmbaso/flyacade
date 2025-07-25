@@ -197,38 +197,11 @@ function displayAnswerKey() {
 
     // Track added sections for answers
     const addedSectionsForAnswers = {
-    "multiple_choice": false,
-    "special": false,    
-    "true_false": false,
-    "oral": false,
-    "sounds": false,
-    "fill_in_the_blank": false,
-    "matching": false,
-    "one_word": false,
-    "math": false,
-    "number_comparison": false,
-    "spellings_unique": false,
-    "punctuations_unique": false, 
-    "wordMeaning_unique": false,    
-    "sentenceOrdering_unique": false,
-    "comprehension": false,
-    "image_based": false,
-    "imaging": false,
-    "maze": false,
-    "crossword": false,
-    "coloring": false,    
-    "identification": false,        
-    "tracing": false,
-    "handwriting": false,
-    "reading": false,
-    "sudoku": false,
-    "identity": false,
-    "time": false,
-    "wordSearchPuzzle": false,
-    
-    "objectMath": false,
-    "numberLine": false,
-    "numberTable": false
+        "multiple_choice": false,
+        "true_false": false,
+        "one_word": false,
+        "fill_in_the_blank": false,
+        "matching": false
     };
 
     let answerSectionIdentifierText = "";
@@ -240,132 +213,29 @@ function displayAnswerKey() {
             addedSectionsForAnswers[q.type] = true;
 
             switch (q.type) {
-          case "multiple_choice":
-          sectionIdentifierText = "Multiple Choice<br><em>Shade the correct option from the given choices.</em>";
-          break;
-                      
-                      
-          case "special":
-          sectionIdentifierText = "Special Paper 2 <br><em>Identify the pattern carefully and tell the difference or sequence.</em>";
-          break;
-                        
-          case "oral":
-          sectionIdentifierText = "Oral<br><em>Respond to these questions orally.</em>";
-          break;
-                      
-          case "true_false":
-          sectionIdentifierText = "True or False<br><em>Select whether the statement is true or false by shading.</em>";
-          break;
+        case "multiple_choice":
+    sectionIdentifierText = "Multiple Choice";
+    break;
 
-          case "sounds":
-          sectionIdentifierText = "Sounds Questions<br><em>Fill in the missing sounds in the blank space with the correct sound from the bank.</em>";
-          break;
-                      
-          case "fill_in_the_blank":
-          sectionIdentifierText = "Fill in the Blanks<br><em>Fill in the missing word(s) in the blank space with the correct word from the bank.</em>";
-          break;
+        case "true_false":
+    sectionIdentifierText = "True or False";
+    break;
 
-          case "matching":
-          sectionIdentifierText = "Matching Questions <br><em>Match the items from the two statements by writing the letter associated with the matching box.</em>";
-          break;
-                        
-          case "one_word":
-          sectionIdentifierText = "Solving<br><em>Solve the following questions</em>";
-          break;
-                        
-          case "number_comparison":
-          sectionIdentifierText = "Comparisons<br><em>Compare the given numbers.</em>";
-          break;
-                      
-          case "math":
-          sectionIdentifierText = "Arithmetics<br><em>Solve the following Math Expressions.</em>";
-          break;
-                        
-        case "spellings_unique":
-          sectionIdentifierText = "Spellings<br><em>Choose the correctly spelled word of the four given options.</em>";
-          break;
-                      
-        case "punctuations_unique":
-          sectionIdentifierText = "Punctuations<br><em>Choose the correctly punctuated sentence of the given four options.</em>";
-          break;
-                      
-        case "wordMeaning_unique":
-          sectionIdentifierText = "Word Meaning<br><em>Read the sentence given, choose the correct meaning of the word or phrase in quotes.</em>";
-          break;
-                      
-        case "sentenceOrdering_unique":
-          sectionIdentifierText = "Sentence Ordering<br><em>Write the sentence correctly by determining the correct order of words or clauses.</em>";
-          break;
-                      
-          case "comprehension":
-          sectionIdentifierText = "Comprehension <br><em>Read the story and answer the questions that follow</em>";
-          break;
-                        
-          case "image_based":
-          sectionIdentifierText = "Image Based <br><em>Carefully analyse the given image and answer the question that follow</em>";
-          break;
-                      
-          case "imaging":
-          sectionIdentifierText = "Imaging <br><em>Carefully analyse the given image and answer the questions that follow</em>";
-          break;
-                      
-          case "maze":
-          sectionIdentifierText = "Maze <br><em>Carefully find the path through the maze from start to finish.</em>";
-          break;
-                      
-                        
-          case "crossword":
-          sectionIdentifierText = "Crossword <br><em>Read the clues given and fill in the puzzle with correct spellings in capital letters.</em>";
-          break;
-                      
-          case "coloring":
-          sectionIdentifierText = "Coloring <br><em>Carefully color the given work inside. Do not color outside the outlines.</em>";
-          break;
-                      
-        case "identification":
-          sectionIdentifierText = "Identification <br><em>Look at the given work and identify it.</em>";
-          break;
-                      
-          case "tracing":
-          sectionIdentifierText = "Tracing <br><em>Carefully trace the given work within the dotted outlines.</em>";
-          break;
-                        
-          case "handwriting":
-          sectionIdentifierText = "Handwriting <br><em>Carefully copy the text above in the space given following handwriting rules.</em>";
-          break;
-                        
-          case "reading":
-          sectionIdentifierText = "Reading <br><em>Carefully read the following words using sounding rules.</em>.";
-          break;
-        
-          case "sudoku":
-          sectionIdentifierText = "Sudoku <br><em>Solve the sudoku given below accurately.</em>";
-          break;
-        
-          case "identity":
-          sectionIdentifierText = "Identity <br><em>Solve the sudoku given below accurately.</em>";
-          break;
-        
-          case "time":
-          sectionIdentifierText = "Time <br><em>Write the time or show the time given.</em>";
-          break;
-        
-          case "wordSearchPuzzle":
-          sectionIdentifierText = "Word Search Puzzle <br><em>Solve the puzzle given below by circling all the hidden words.</em>";
-          break;
+        case "fill_in_the_blank":
+    sectionIdentifierText = "Fill in the Blanks";
+    break;
 
-          case "objectMath":
-          sectionIdentifierText = "Object Math <br><em>Solve the puzzle given below by circling all the hidden words.</em>";
+        case "matching":
+    sectionIdentifierText = "Matching Questions";
+    break;
+        
+                case "one_word":
+          sectionIdentifierText = "Solving Questions";
           break;
-                       
-          case "numberLine":
-          sectionIdentifierText = "Number Line <br><em>Solve the arithmetic below using a number line.</em>";
+                        
+        case "comprehension":
+          sectionIdentifierText = "Comprehension";
           break;
-                      
-          case "numberTable":
-          sectionIdentifierText = "Number Table <br><em>Number Table Section</em>";
-          break;
-                      
         default:
           sectionIdentifierText = "Section";
           break;
@@ -511,109 +381,3 @@ function submitAnswers() {
     })
     .catch(error => console.error('Error:', error));
 }
-
-
-
-
-
-// Function to handle form submission and display results
-function handleSubmit() {
-    // Collect all answers from the form
-    const answers = {};
-    let totalQuestions = 0;
-    let correctAnswers = 0;
-    
-    // Loop through all questions to collect answers
-    questionsData.forEach((question, index) => {
-        totalQuestions++;
-        const questionId = `answer-${question.id}`;
-        let userAnswer = '';
-        
-        // Handle different question types
-        if (question.type === 'multiple_choice' || question.type === 'true_false') {
-            const selectedOption = document.querySelector(`input[name="${questionId}"]:checked`);
-            userAnswer = selectedOption ? selectedOption.value : '';
-        } 
-        else if (question.type === 'fill_in_the_blank') {
-            const inputField = document.getElementById(questionId);
-            userAnswer = inputField ? inputField.value : '';
-        }
-        // Add more question type handlers as needed
-        
-        // Check if answer is correct
-        const isCorrect = userAnswer === question.answer;
-        if (isCorrect) correctAnswers++;
-        
-        // Store answer data
-        answers[index] = {
-            question: question.question,
-            userAnswer: userAnswer,
-            correctAnswer: question.answer,
-            isCorrect: isCorrect
-        };
-    });
-    
-    // Calculate score
-    const score = Math.round((correctAnswers / totalQuestions) * 100);
-    
-    // Display results in modal
-    displayResultsModal(answers, score, totalQuestions);
-}
-
-// Function to display results in a modal
-function displayResultsModal(answers, score, totalQuestions) {
-    const modal = document.getElementById('results-modal');
-    const modalContent = document.getElementById('results-content');
-    
-    // Clear previous content
-    modalContent.innerHTML = '';
-    
-    // Add score summary
-    const summary = document.createElement('div');
-    summary.className = 'results-summary';
-    summary.innerHTML = `
-        <h2>Quiz Results</h2>
-        <p>Your Score: ${score}% (${correctAnswers} out of ${totalQuestions})</p>
-        <div class="progress-bar">
-            <div class="progress" style="width: ${score}%"></div>
-        </div>
-    `;
-    modalContent.appendChild(summary);
-    
-    // Add detailed results
-    const details = document.createElement('div');
-    details.className = 'results-details';
-    details.innerHTML = '<h3>Question Details:</h3>';
-    
-    for (const [index, answer] of Object.entries(answers)) {
-        const questionDiv = document.createElement('div');
-        questionDiv.className = `question-result ${answer.isCorrect ? 'correct' : 'incorrect'}`;
-        questionDiv.innerHTML = `
-            <p><strong>Question ${parseInt(index) + 1}:</strong> ${answer.question}</p>
-            <p>Your answer: ${answer.userAnswer || 'No answer provided'}</p>
-            <p>Correct answer: ${answer.correctAnswer}</p>
-        `;
-        details.appendChild(questionDiv);
-    }
-    
-    modalContent.appendChild(details);
-    
-    // Show the modal
-    modal.style.display = 'block';
-}
-
-// Close modal when clicking the X button
-document.querySelector('.results-close').addEventListener('click', function() {
-    document.getElementById('results-modal').style.display = 'none';
-});
-
-// Close modal when clicking outside of it
-window.addEventListener('click', function(event) {
-    const modal = document.getElementById('results-modal');
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
-});
-
-// Add event listener to submit button
-document.getElementById('submit-btn').addEventListener('click', handleSubmit);

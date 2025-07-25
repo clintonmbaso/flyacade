@@ -282,51 +282,6 @@
 
 
 
-/* Style for the handwriting question container */
-.handwriting-container {
-    margin: 20px 0;
-    text-align: center; /* Center the content */
-}
-
-/* Style for the handwriting prompt image */
-.handwriting-container img.handwriting-prompt-image {
-    max-width: 300px; /* Adjust image size as needed */
-    height: auto;
-    display: block;
-    margin: 10px auto; /* Center the image */
-}
-.handwritingPrompt {
-    font-size: 18px;
-    margin-left: 15px;
-    text-align: left;
-    border-left: 3px solid grey;
-    padding-left: 10px;
-    font-family: 'Patrick Hand', Advantage;
-}
-/* Style for the handwriting textarea */
-.handwriting-container .handwriting-input {
-    width: 95%; /* Adjust width */
-    
-    font-size: 20px; /* Increase font size for better readability */
-    padding: 10px;
-    border: 2px solid #ccc; /* Basic border styling */
-    border-radius: 5px;
-    resize: none; /* Disable manual resizing */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Easy font for children */
-    line-height: 1.2; /* Line height to create space for tall letters */
-    
-    /* Create lines in the background */
-    background-image: repeating-linear-gradient(
-        white,            /* Color of the background */
-        white 10px,      /* End of white area */
-        lightgray 10px,  /* Start of the line */
-        lightgray 11px   /* End of the line (thickness) */
-    ); 
-    background-size: 100% 20px; /* Total height for each repeat */
-    
-    color: #333; /* Text color */
-    overflow-y: hidden; /* Prevents vertical scrollbar */
-}
 
 
 
@@ -540,85 +495,6 @@
 
 
 
-/* General styles for the coloring container */
-.coloring-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-/* Styling the coloring prompt */
-.coloring-prompt {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 2px;
-    color: #333;
-    text-align: center;
-}
-
-/* Canvas styling */
-.coloring-canvas {
-    border: 1px solid #333;
-    border-radius: 5px;
-    cursor: crosshair; /* Change cursor to indicate drawing */
-    margin-bottom: 2px;
-}
-
-/* Color palette styles */
-.color-palette {
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-}
-
-/* Individual color button styles */
-.color-button {
-    width: 20px;
-    height: 20px;
-    border: none;
-    border-radius: 50%; /* Circular buttons */
-    margin: 0 5px;
-    cursor: pointer; /* Change cursor to pointer for buttons */
-    transition: transform 0.2s; /* Animation effect */
-}
-
-/* Hover effect for color buttons */
-.color-button:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
-}
-
-/* Dotted outline style for the drawing area */
-.dotted-outline {
-    stroke-dasharray: 5, 5; /* Dotted effect */
-}
-
-/* Style for the highlighted drawing outline */
-.highlighted-outline {
-    stroke: red; /* Change color for the highlighted outline */
-}
-
-/* Media query for responsiveness
-@media (max-width: 100%) {
-    .coloring-container {
-        width: 100%; 
-        padding: 2px;
-    }
-    .coloring-prompt {
-        font-size: 20px;
-    }
-    .color-button {
-        width: 20px;
-        height: 20px;
-    }
-}
-*/
 
 
 
@@ -1163,5 +1039,15 @@
 .reading-word {
     margin-right: 20px;
     font-weight: bold;
+    font-family: Advantage;
+}
+
+.reading-short-sentence {
+    font-style: italic;
+    font-family: Advantage;
+}
+
+.reading-long-sentence {
+    font-style: italic;
     font-family: Advantage;
 }

@@ -1,0 +1,145 @@
+/* Global styles for sorting questions */
+.sorting-container {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Question title */
+.sorting-container h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style for each sorted container (the groups) */
+.sorted-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+/* Title for each group (e.g., Living, Non-Living, etc.) */
+.sorted-container h4 {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Styles for the items that are draggable */
+.sortable-item {
+  margin: 10px;
+  padding: 15px;
+  background-color: #e2e2e2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: grab;
+  transition: transform 0.2s, box-shadow 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  text-align: center;
+}
+
+/* Hover effect for sortable items */
+.sortable-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Active drag effect for sortable items */
+.sortable-item:active {
+  cursor: grabbing;
+}
+
+/* Styling for images within the sortable items */
+.sortable-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* Styling for text-based sortable items */
+.sortable-item span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Add styles to the sortable items when they are dragged */
+.sortable-item.dragging {
+  opacity: 0.5;
+  background-color: #ddd;
+}
+
+/* Styles for the containers when an item is dragged over */
+.sorted-container.drag-over {
+  background-color: #e6f7ff;
+  border-color: #66b3ff;
+}
+
+/* Add a transition effect for the sorted containers */
+.sorted-container {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Allow smooth transitions for images when dragging */
+.sortable-item img {
+  transition: transform 0.2s ease;
+}
+
+/* Styling for the question prompt text */
+.sorting-container h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+
+/* Style for the answer indicator (when checking answers) */
+.correct-answer {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: red;
+  font-weight: bold;
+}
+
+/* Add media queries to make it mobile-friendly */
+@media screen and (max-width: 768px) {
+  .sortable-item {
+    width: 100px;
+    padding: 10px;
+  }
+  
+  .sorting-container {
+    padding: 15px;
+  }
+  
+  .sorted-container {
+    min-height: 120px;
+  }
+  
+  .sortable-item span {
+    font-size: 14px;
+  }
+}

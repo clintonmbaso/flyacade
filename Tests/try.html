@@ -1,63 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Page</title>
-</head>
-<body>
-    <h2>Multiple Choice Questions</h2>
-    <div id="multiple-choice-section">
-        <!-- Multiple choice questions will be displayed here -->
-    </div>
-    <button id="refresh-multiple-choice">Refresh Multiple Choice</button>
+function displayQuestions() {
+    const testContainer = document.getElementById('test-container');
+    testContainer.innerHTML = ''; // Clear previous questions
 
-    <h2>True or False Questions</h2>
-    <div id="true-false-section">
-        <!-- True or false questions will be displayed here -->
-    </div>
-    <button id="refresh-true-false">Refresh True or False</button>
+    const addedSections = {
+        "multiple_choice": false,
+    };
 
-    <h2>Fill in the Blanks Questions</h2>
-    <div id="fill-in-the-blanks-section">
-        <!-- Fill in the blanks questions will be displayed here -->
-    </div>
-    <button id="refresh-fill-in-the-blanks">Refresh Fill in the Blanks</button>
+    let sectionIdentifierText = "";
+    let totalMarks = 0; // Initialize marks counter
 
-    <script>
-        // Function to display multiple choice questions
-        function displayMultipleChoiceQuestions() {
-            const multipleChoiceContainer = document.getElementById('multiple-choice-section');
-            multipleChoiceContainer.innerHTML = '';  // Clear existing questions
-            // Logic to load and display multiple choice questions
-            multipleChoiceContainer.innerHTML = "<p>New multiple choice questions go here...</p>";
+    questionsData.forEach((q, index) => {
+        const questionWrapper = document.createElement('div');
+        questionWrapper.classList.add('question-wrapper');
+
+        // Determine section identifier based on question type
+        if (!addedSections[q.type]) {
+            addedSections[q.type] = true;
+
+            switch (q.type) {
+                case "multiple_choice":
+                    sectionIdentifierText = "Multiple Choice<br><em>Tick the correct option from the given choices.</em>";
+                    break;
+            }
+
+            // Add section identifier
+            const sectionIdentifier = document.createElement('div');
+            sectionIdentifier.classList.add('section-identifier');
+            sectionIdentifier.innerHTML = sectionIdentifierText;
+            questionWrapper.appendChild(sectionIdentifier);
         }
 
-        // Function to display true/false questions
-        function displayTrueFalseQuestions() {
-            const trueFalseContainer = document.getElementById('true-false-section');
-            trueFalseContainer.innerHTML = '';  // Clear existing questions
-            // Logic to load and display true/false questions
-            trueFalseContainer.innerHTML = "<p>New true/false questions go here...</p>";
-        }
+        // Add question content (for demonstration purposes, using q.question)
+        const questionText = document.createElement('p');
+        questionText.textContent = `${index + 1}. ${q.question} (1 Mark)`;
+        questionWrapper.appendChild(questionText);
 
-        // Function to display fill-in-the-blanks questions
-        function displayFillInTheBlanksQuestions() {
-            const fillInTheBlanksContainer = document.getElementById('fill-in-the-blanks-section');
-            fillInTheBlanksContainer.innerHTML = '';  // Clear existing questions
-            // Logic to load and display fill-in-the-blanks questions
-            fillInTheBlanksContainer.innerHTML = "<p>New fill-in-the-blanks questions go here...</p>";
-        }
+        testContainer.appendChild(questionWrapper);
 
-        // Event listeners for refresh buttons
-        document.getElementById('refresh-multiple-choice').addEventListener('click', displayMultipleChoiceQuestions);
-        document.getElementById('refresh-true-false').addEventListener('click', displayTrueFalseQuestions);
-        document.getElementById('refresh-fill-in-the-blanks').addEventListener('click', displayFillInTheBlanksQuestions);
+        // Increment marks count
+        totalMarks++;
+    });
 
-        // Call the functions initially to load the questions when the page loads
-        displayMultipleChoiceQuestions();
-        displayTrueFalseQuestions();
-        displayFillInTheBlanksQuestions();
-    </script>
-</body>
-</html>
+    // Display total marks at the bottom
+    const marksDisplay = document.createElement('div');
+    marksDisplay.classList.add('marks-display');
+    marksDisplay.innerHTML = `<strong>Total Marks: ${totalMarks}</strong>`;
+    testContainer.appendChild(marksDisplay);
+}

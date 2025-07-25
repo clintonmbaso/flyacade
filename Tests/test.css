@@ -60,9 +60,9 @@ input[type="number"] {
 }
 #motto {
   display: flex; 
-  right: 1%;
+  right: 10%;
   align-self: flex-end;
-  top: 15px;
+  top: 30px;
   font-style: italic;
   color: brown;
   position: absolute;
@@ -91,8 +91,20 @@ input[type="number"] {
   align-items: center;
   z-index: 1;
 }
-
-
+#class-name {
+  border-left: 2px solid green;
+  padding-left: 3px;
+  border-radius: 4px;
+}
+#part {
+  border-right: 2px solid green;
+  padding-right: 3px;
+  border-radius: 4px;
+}
+.pupil {
+  padding: 2px 0;
+  margin: 1px 0;
+}
 
 
 
@@ -105,7 +117,7 @@ input[type="number"] {
 
 
 
-#show-answer-key-btn, .btn {
+#show-answer-key-btn, .btn, .openStandalone {
     border: none;
     padding: 10px; 
     text-align: center; 
@@ -119,6 +131,7 @@ input[type="number"] {
     justify-content: center; 
     align-items: center; 
     position: fixed;
+  background-color: transparent;
 }
 #show-answer-key-btn {
   top: 60px; 
@@ -138,7 +151,9 @@ input[type="number"] {
 #show-answer-key-btn i {
     font-size: 24px;
 }
-
+.openStandalone {
+    top: 200px; 
+}
 .show-answer-key-btn:hover {
     background-color: transparent;
   border-radius: 50%; 
@@ -217,24 +232,145 @@ input[type="number"] {
     cursor: pointer;
 }
 
-@media print {
-    body {
-        margin: 0; /* Remove default margins */
-        padding: 10mm; /* Add padding if needed */
-        width: 210mm; /* A4 width */
-        height: 297mm; /* A4 height */
-        overflow: visible; /* Allow content to flow freely */
-    }
-
-    .content-section {
-        margin-bottom: 20mm; /* Space between sections */
-    }
-
-    .page-break {
-        page-break-after: always; /* Force page break after this element */
-        break-after: always; /* For other browsers */
-    }
+.mc-inputs {
+    float: right; /* Moves inputs to the far right */
+    display: flex;
+    position: relative;
+    margin-top: -15px;
+    flex-direction: column; /* Aligns inputs one above the other */
+    gap: -1px; /* Adds spacing between inputs */
 }
+
+.mc-inputs input {
+    width: 30px;  /* Small square size */
+    height: 13px; /* Ensures square shape */
+    text-align: center; /* Centers text inside */
+    font-size: 12px;
+    padding: 0;
+}
+.mc-1st {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: none;
+  border-radius: 7px 7px 0 0;
+}
+.mc-2nd {
+  border: 1px solid black;
+  border-radius: 0 0 7px 7px;
+}
+.mc-2nd:disabled {
+  background: rgba(255,255,255,0.7);
+  color: black;
+}
+        .watermark {
+            position: fixed;
+            bottom: 1px;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            font-size: 7px;
+            color: rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            text-transform: uppercase;
+            pointer-events: none;
+            z-index: -5;
+            white-space: nowrap;
+        }
+.contacts {
+  margin: 0;
+}
+.watermark h3 {
+  margin: 0;
+}
+
+        /* Table styling */
+        .table-container {
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+          top: 15px;
+          left: 15%;
+          position: absolute;
+        }
+
+        .table-container table {
+            width: 50%;
+            border-collapse: separate;
+            border-spacing: 0;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-container th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 2px;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+        }
+
+th {
+  background-color: #4CAF50;
+            color: white;
+            padding: 2px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+}
+
+       .table-container td {
+            border-right: 1px solid rgba(0,0,0,0.4);
+            padding: 0;
+          width: 80px;
+          height: 10px;
+          text-align: right;
+        }
+
+       .table-container td:last-child {
+            border-right: none;
+        }
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 5px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 5px;
+        }
+
+        /* Example content */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+
+#barcode {
+    display: block;  /* Ensures it behaves like a block element */
+    position: fixed;
+    bottom: 0mm;
+    right: 30%;
+    z-index: -5;
+    margin: 5px auto; /* Centers the barcode */
+    max-width: 30%;  /* Ensures it is responsive */
+    height: auto;  /* Maintains aspect ratio */
+    background: transparent;
+    padding: 5px;  /* Adds some spacing around the barcode */
+}
+
+
+
+
+
+
+
+
 
 .bottom-head {
   text-align: center;
@@ -256,13 +392,58 @@ input[type="number"] {
   width: 47%;
 }
 
+#printContent {
+  background-color: transparent;
+  font-size: 30px;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  border: none;
+}
 
 
-
+.table-container, .pupil {
+  display: none;
+}
     
 
 
+@media print {
+    body {
+        margin: 0; /* Remove default margins */
+        padding: 10mm; /* Add padding if needed */
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        overflow: visible; /* Allow content to flow freely */
+    }
 
+    .content-section {
+        margin-bottom: 20mm; /* Space between sections */
+    }
+
+    .page-break {
+        page-break-after: always; /* Force page break after this element */
+        break-after: always; /* For other browsers */
+    }
+}
+
+
+@media print {  
+  
+.table-container, .pupil {
+  display: block;
+}
+
+    /* Ensure page numbers appear at the correct position */
+    .page-number {  
+        position: fixed;  
+        bottom: 0mm;  
+        left: 0;  
+        right: 0;  
+        text-align: right;  
+        font-size: 12px;  
+    }
+}
 
 
     /* Explicitly match screen styles for print */
@@ -299,13 +480,81 @@ input[type="number"] {
         #savePDF,
         #refreshBtn,
         #printContent,
-        #classImage,
+      #submit-btn,
+   /*     #classImage, */
         .print-only-hidden {
             display: none !important;
         }
+      
 
+      
         /* Customize headers, margins, and footers for better fit */
         @page {
             margin: 1cm; /* Adjust page margins */
-        }
     }
+      
+      .watermark {
+            position: fixed;
+            bottom: 0mm;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            font-size: 7px;
+            color: rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            text-transform: uppercase;
+            pointer-events: none;
+            z-index: -5;
+            white-space: nowrap;
+        }
+.contacts {
+  margin: 0;
+  bottom: 0mm;
+}
+.watermark h3 {
+  margin: 0;
+}
+      
+              #classImage {
+                position: absolute;
+                display: block;
+          top: 110px;
+                right: 3px;
+                width: 60px;
+                height: auto;
+        }
+      #logo {
+        width: 80px;
+        height: auto;
+        margin-bottom: 2px;
+      }
+        /* Watermark using pseudo-element */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 600px; /* Adjust size as needed */
+            height: 600px; /* Adjust size as needed */
+            background: url('images/Flying_Wings_Academy.png') no-repeat center center;
+            background-size: contain;
+            opacity: 0.09; /* Adjust opacity (0 = fully transparent, 1 = fully visible) */
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: -5;
+        }
+      
+      #motto {
+  display: flex; 
+  right: 1%;
+  align-self: flex-end;
+  top: 15px;
+  font-style: italic;
+  color: brown;
+  position: absolute;
+}
+      
+      
+      
+      
+    }
+

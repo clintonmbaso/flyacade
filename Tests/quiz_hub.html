@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="quiz_hub.css"> <!-- Link to the modern CSS file -->
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Quiz Form</h1>
+        <form id="quizForm" action="submit_quiz.php" method="POST">
+            <div id="questions"></div>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Load JS files dynamically -->
+    <script>
+        const questionFiles = ["ss/grade6/g6sst1amultipleChoiceQuestions.js","technologyStudies/grade6/g6tst1bmultipleChoiceQuestions.js"]; // Add your JS files here
+        let allQuestions = [];
+
+        function loadScripts(scripts, callback) {
+            let loadedScripts = 0;
+            scripts.forEach(script => {
+                const scriptTag = document.createElement("script");
+                scriptTag.src = script;
+                scriptTag.onload = () => {
+                    loadedScripts++;
+                    if (loadedScripts === scripts.length) {
+                        callback();
+                    }
+                };
+                document.head.appendChild(scriptTag);
+            });
+        }
+
+        function collectQuestions() {
+            allQuestions = [];
+            questionFiles.forEach(file => {
+                for (let key in window) {
+                    if (window[key] instanceof Array) {
+                        allQuestions = allQuestions.concat(window[key]);
+                    }
+                }
+            });
+
+            generateQuizForm();
+        }
+
+        function generateQuizForm() {
+            const numQuestions = 5; // Choose 3 random questions
+            const randomQuestions = getRandomQuestions(numQuestions);
+            const formContainer = document.getElementById('questions');
+
+            randomQuestions.forEach((q, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.classList.add('question-container');
+
+                const questionTitle = document.createElement('h3');
+                questionTitle.textContent = `${index + 1}. ${q.question}`;
+                questionDiv.appendChild(questionTitle);
+
+                if (q.type === 'multiple_choice') {
+                    const choicesList = document.createElement('ul');
+                    choicesList.classList.add('choices');
+                    q.choices.forEach(choice => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<input type="radio" name="q${index}" value="${choice}" required> ${choice}`;
+                        choicesList.appendChild(li);
+                    });
+                    questionDiv.appendChild(choicesList);
+                } else if (q.type === 'fill_in_the_blank') {
+                    q.answer.forEach((blank, idx) => {
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.name = `q${index}_blank${idx}`;
+                        input.required = true;
+                        questionDiv.appendChild(input);
+                        questionDiv.appendChild(document.createTextNode(" "));
+                    });
+                } else if (q.type === 'true_false') {
+                    questionDiv.innerHTML += `
+                        <input type="radio" name="q${index}" value="true" required> True
+                        <input type="radio" name="q${index}" value="false"> False
+                    `;
+                }
+
+                formContainer.appendChild(questionDiv);
+            });
+        }
+
+        function getRandomQuestions(number) {
+            const randomQuestions = [];
+            while (randomQuestions.length < number) {
+                const randIndex = Math.floor(Math.random() * allQuestions.length);
+                const question = allQuestions[randIndex];
+                if (!randomQuestions.includes(question)) {
+                    randomQuestions.push(question);
+                }
+            }
+            return randomQuestions;
+        }
+
+        // Load all JS files and then collect questions
+        loadScripts(questionFiles, collectQuestions);
+    </script>
+</body>
+</html>

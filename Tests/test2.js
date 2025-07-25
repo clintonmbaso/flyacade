@@ -14,16 +14,17 @@ function checkUniformity(values) {
 
 // Mapping of classes to teacher names
 const classTeachers = {
-    "Baby Birds": "Mrs. Loveness Muwila",
-    "Sky Sprouts": "Mrs. Loveness Muwila",
-    "Nestlings Navigators": "Ms. Maureen Kapya",
-    "Feather Flyers": "Ms. Maureen Kapya",
+    "Baby Birds": "Mrs. Kuligwa Siazyana",
+    "Sky Sprouts": "Mrs. Kuligwa Siazyana",
+    "Nestlings Navigators": "Mrs. Loveness Muwila",
+    "Feather Flyers": "Mrs. Loveness Muwila",
     "Cloud Chicks": "Ms. Faith Nakaonga",
     "Wing Whiz": "Ms. Faith Nakaonga",
-    "Sky Soarers": "Mr. Muteba Masheka",
-    "Avian Aces": "Mr. Muteba Masheka",
-    "Nimbus Navigators": "Mr. Muteba Masheka",
-    "All Classes": "Mr. Clinton Mbaso"
+    "Sky Soarers": "Mr. Clinton Mbaso",
+    "Avian Aces": "Mr. Clinton Mbaso",
+    "Nimbus Navigators": "Mr. Clinton Mbaso",
+    "Fledgling Falcons": "Mr. Clinton Mbaso",    
+    "All Classes": "Flying Wings Academy"
     // Add more mappings as needed
 };
 
@@ -86,6 +87,9 @@ function displayTestDetails() {
                 break;
             case "Nimbus Navigators":
                 classImage.src = "../images/Classes_9.png"; // Path to Wing Whiz image
+                break;
+            case "Fledgling Falcons":
+                classImage.src = "../images/Classes_10.png"; // Path to Wing Whiz image
                 break;
             // Add more cases for other classes if needed
             default:

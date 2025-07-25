@@ -1,36 +1,3 @@
-import { handleMultipleChoice } from "./jsCases/multiple_choice.js";
-import { handleSpecial } from "./jsCases/special.js";
-import { handleTrueFalse } from "./jsCases/true_false.js";
-import { handleOral } from "./jsCases/oral.js";
-import { handleSounds } from "./jsCases/sounds.js";
-import { handleFillInTheBlank } from "./jsCases/fill_in_the_blank.js";
-import { handleOneWord } from "./jsCases/one_word.js";
-import { handleMath } from "./jsCases/math.js";
-import { handleNumberComparison } from "./jsCases/number_comparison.js";
-import { handleMatching } from "./jsCases/matching.js";
-import { handleSpellingsUnique } from "./jsCases/spellings_unique.js";
-import { handlePunctuationsUnique } from "./jsCases/punctuations_unique.js";
-import { handleWordMeaningUnique } from "./jsCases/wordMeaning_unique.js";
-import { handleSentenceOrderingUnique } from "./jsCases/sentenceOrdering_unique.js";
-import { handleComprehension } from "./jsCases/comprehension.js";
-import { handleImageBased } from "./jsCases/image_based.js";
-import { handleImaging } from "./jsCases/imaging.js";
-import { handleMaze } from "./jsCases/maze.js";
-import { handleCrossword } from "./jsCases/crossword.js";
-import { handleColoring } from "./jsCases/coloring.js";
-import { handleIdentification } from "./jsCases/identification.js";
-import { handleTracing } from "./jsCases/tracing.js";
-import { handleHandwriting } from "./jsCases/handwriting.js";
-import { handleReading } from "./jsCases/reading.js";
-import { handleSudoku } from "./jsCases/sudoku.js";
-import { handleIdentity } from "./jsCases/identity.js";
-import { handleTime } from "./jsCases/time.js";
-import { handleWordSearchPuzzle } from "./jsCases/wordSearchPuzzle.js";
-import { handleObjectMath } from "./jsCases/objectMath.js";
-import { handleNumberLine } from "./jsCases/numberLine.js";
-import { handleNumberTable } from "./jsCases/numberTable.js";
-
-
 // Function to display random questions on the HTML page
 function displayQuestions() {
   const questionsContainer = document.getElementById("questions-container");
@@ -238,161 +205,6 @@ function displayQuestions() {
     questionWrapper.appendChild(questionText);
 
     switch (q.type) {
-      
-case "multiple_choice":
-        handleMultipleChoice(q, index, questionWrapper);
-break;
-                  
-case "special":
-        handleSpecial(q, index, questionWrapper);
-break;
-  
-case "true_false":
-        handleTrueFalse(q, index, questionWrapper);
-break;
-                 
-case "oral":
-        handleOral(q, index, questionWrapper);
-break;
-                  
-case "sounds":
-        handleSounds(q, index, questionWrapper, questionsData);
-break;
-                  
-case "fill_in_the_blank":
-        handleFillInTheBlank(q, index, questionWrapper, questionsData);
-break;
-  
-case "one_word":
-        handleOneWord(q, index, questionWrapper);
-break;  
-                  
-case "math":
-        handleMath(q, index, questionWrapper);
-break;
-
-case "number_comparison":
-        handleNumberComparison(q, index, questionWrapper);
-break;
-
-case "matching":
-        handleMatching(q, index, questionWrapper);
-break;
-                  
-case "spellings_unique":
-        handleSpellingsUnique(q, index, questionWrapper);
-break;
-
-case "punctuations_unique":
-        handlePunctuationsUnique(q, index, questionWrapper);
-break;
-
-case "wordMeaning_unique":
-        handleWordMeaningUnique(q, index, questionWrapper);
-break;
-
-case "sentenceOrdering_unique":
-        handleSentenceOrderingUnique(q, index, questionWrapper);
-break;
-
-case "comprehension":
-        handleComprehension(q, index, questionWrapper);
-break;
-
-case "image_based":
-        handleImageBased(q, index, questionWrapper);
-break;
-
-case "imaging":
-        handleImaging(q, index, questionWrapper);
-break;
-
-case "maze":
-        handleMaze(q, index, questionWrapper);
-break;
-
-case "crossword":
-        handleCrossword(q, index, questionWrapper);
-break;
-
-case "coloring":
-        handleColoring(q, index, questionWrapper);
-break;
-
-case "identification":
-        handleIdentification(q, index, questionWrapper);
-break;
-
-case "tracing":
-        handleTracing(q, index, questionWrapper);
-break;
-
-case "handwriting":
-        handleHandwriting(q, index, questionWrapper);
-break;
-
-case "reading":
-        handleReading(q, index, questionWrapper);
-break;
-
-case "sudoku":
-        handleSudoku(q, index, questionWrapper);
-break;
-
-case "identity":
-        handleIdentity(q, index, questionWrapper);
-break;
-
-case "time":
-        handleTime(q, index, questionWrapper);
-break;
-                  
-case "wordSearchPuzzle":
-        handleWordSearchPuzzle(q, index, questionWrapper);
-break;
-
-case "objectMath":
-        handleObjectMath(q, index, questionWrapper);
-break;
-
-case "numberLine":
-        handleNumberLine(q, index, questionWrapper);
-break;
-
-case "numberTable":
-        handleNumberTable(q, index, questionWrapper);
-break;
-
-
-      /*
-case "multiple_choice":
-  const choicesContainer = document.createElement("div");
-  
-  // Function to generate letter labels (A, B, C, ...)
-  const getLetter = (i) => String.fromCharCode(65 + i); // 65 is the char code for 'A'
-  
-  // Shuffle the choices array
-  const shuffledChoices = [...q.choices].sort(() => Math.random() - 0.5);
-  
-  shuffledChoices.forEach((choice, i) => {
-    const choiceInput = document.createElement("input");
-    choiceInput.setAttribute("type", "radio");
-    choiceInput.setAttribute("id", `question-${index}-choice-${i}`);
-    choiceInput.setAttribute("name", `question-${index}`);
-    choiceInput.setAttribute("value", choice);
-    
-    const choiceLabel = document.createElement("label");
-    choiceLabel.setAttribute("for", `question-${index}-choice-${i}`);
-    choiceLabel.innerHTML = `${getLetter(i)}. ${choice}`;
-    
-    choicesContainer.appendChild(choiceInput);
-    choicesContainer.appendChild(choiceLabel);
-    choicesContainer.appendChild(document.createElement("br"));
-  });
-  
-  questionWrapper.appendChild(choicesContainer);
-  break;
-      
       
 case "special":
     const specialContainer = document.createElement("div");
@@ -1227,7 +1039,6 @@ case "image_based":
     // Finally, append the image-based question container to the questionWrapper
     questionWrapper.appendChild(imageQuestionContainer);
       */
-      /*
     break;
       
       
@@ -1654,7 +1465,6 @@ case "identification":
         letterImage.classList.add("shape-image");
 
         letterContainer.appendChild(letterImage);*/
-      /*
         identificationContainer.appendChild(letterContainer);
     }
 
@@ -2597,8 +2407,56 @@ case "wordSearchPuzzle":
       
       
       
+      /*
+case "numberTable":
+          const numberTableContainer = document.createElement("div");
+    numberTableContainer.classList.add("number-table-container");
+      
 
+    // Create a table element for displaying numbers
+    const numberTable = document.createElement("table");
+    numberTable.classList.add("number-table");
 
+    // Generate numbers based on the specified range and shuffle them
+    let start = q.rangeStart; // Starting number (e.g., 1)
+    let end = q.rangeEnd; // Ending number (e.g., 100)
+    let columns = q.columns || 10; // Number of columns, defaults to 10
+let rows = q.rows || 2; // Number of rows, defaults to 2
+    let maxNumbers = rows * columns; // Limit total numbers displayed
+
+    // Create an array of numbers within the specified range
+    let numbers = [];
+    for (let i = start; i <= end; i++) {
+        numbers.push(i);
+    }
+
+    // Shuffle the numbers array
+    for (let i = numbers.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+    }
+
+    // Display shuffled numbers in the table
+    let row;
+    for (let i = 0; i < numbers.length; i++) {
+        if (i % columns === 0) {
+            row = document.createElement("tr");
+            numberTable.appendChild(row);
+        }
+
+        const cell = document.createElement("td");
+        cell.classList.add("number-cell");
+        cell.innerHTML = numbers[i];
+        cell.onclick = () => {
+            cell.classList.toggle("highlighted"); // Toggle highlight when clicked
+        };
+        row.appendChild(cell);
+    }
+
+    numberTableContainer.appendChild(numberTable);
+    questionWrapper.appendChild(numberTableContainer);
+    break;
+      */
       case "numberTable":
     const numberTableContainer = document.createElement("div");
     numberTableContainer.classList.add("number-table-container");
@@ -2788,7 +2646,7 @@ case "numberLine":
         }
     });
     break;
-      */
+      
       
       
       
