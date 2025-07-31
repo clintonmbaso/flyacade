@@ -161,3 +161,26 @@
     display: block;
     margin-top: 5px;
 }
+
+.fraction {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 0.1em;
+}
+
+.numerator, .denominator {
+    padding: 0 0.2em;
+}
+
+.denominator {
+    border-top: 1px solid currentColor;
+}
+
+.number-base sub {
+    font-size: 0.7em;
+    vertical-align: baseline;
+    position: relative;
+    bottom: -0.2em;
+}
