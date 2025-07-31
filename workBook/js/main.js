@@ -220,6 +220,50 @@ listening: {
         }
     };
 
+    
+    // Add these helper functions at the top of your file, before the init function
+
+function formatMathExpressions(text) {
+    if (!text) return text;
+    
+    // Handle fractions (like 2/4)
+    text = text.replace(/(\d+)\/(\d+)/g, '<span class="fraction"><span class="numerator">$1</span><span class="denominator">$2</span></span>');
+    
+    // Handle number bases (like 102five)
+    text = text.replace(/(\d+)([a-z]+)/g, function(match, number, base) {
+        return `<span class="number-base">${number}<sub>${base}</sub></span>`;
+    });
+    
+    return text;
+}
+
+function processQuestionText(question) {
+    if (question.text) {
+        question.text = formatMathExpressions(question.text);
+    }
+    if (question.question) {
+        question.question = formatMathExpressions(question.question);
+    }
+    if (question.options) {
+        question.options = question.options.map(option => {
+            if (typeof option === 'string') {
+                return formatMathExpressions(option);
+            } else if (option.text) {
+                return {
+                    ...option,
+                    text: formatMathExpressions(option.text)
+                };
+            }
+            return option;
+        });
+    }
+    return question;
+}
+    
+    
+    
+    
+    
     // Initialize the app
     function init() {
         if (!window.workbooks) window.workbooks = [];
@@ -425,8 +469,11 @@ listening: {
         updateProgress();
     }
 
-// Update the renderQuestion function to use the template
-function renderQuestion(question, questionId, savedAnswer) {
+    
+    function renderQuestion(question, questionId, savedAnswer) {
+    // Process the question text first
+    question = processQuestionText(question);
+    
     let questionHTML = '';
     
     switch(question.type) {
