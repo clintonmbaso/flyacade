@@ -281,7 +281,7 @@ card.innerHTML = `
     </tr>
     <!-- Second Row -->
     <tr>
-      <td class="stage">Development<!--${plan.activities[0][1]}--></td>
+      <td class="stage">Details<!--${plan.activities[0][1]}--></td>
       <td>${plan.activities[1][1]}</td>
     </tr>
     <!-- Third Row -->
@@ -291,12 +291,12 @@ card.innerHTML = `
     </tr>
     <!-- Forth Row -->
     <tr>
-      <td class="stage">Synthesis<!--${plan.activities[0][3]}--></td>
+      <td class="stage">Discussion<!--${plan.activities[0][3]}--></td>
       <td>${plan.activities[1][3]}</td>
     </tr>
     <!-- Fifth Row -->
     <tr>
-      <td class="stage">Conclusion and Evaluation<!--${plan.activities[0][4]}--></td>
+      <td class="stage">Exercise<!--${plan.activities[0][4]}--></td>
       <td>${plan.activities[1][4]}</td>
     </tr>
     <!-- Add more rows as needed -->
