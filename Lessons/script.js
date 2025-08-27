@@ -63,8 +63,9 @@ function searchLessonPlans(event) {
     ...lessonPlans34a, ...lessonPlans34b, ...lessonPlans34c,
     ...lessonPlans35a, ...lessonPlans35b, ...lessonPlans35c,
     
-    ...lessonPlans36a,  /*...lessonPlans36b, ...lessonPlan36c,
-    */
+    ...lessonPlans36a,  
+    // ...lessonPlans36b, ...lessonPlan36c,
+    
      
      
      ...lessonPlans37a, ...lessonPlans37b, ...lessonPlans37c,
@@ -78,27 +79,27 @@ function searchLessonPlans(event) {
     ...lessonPlans44a, ...lessonPlans44b, ...lessonPlans44c,
     
     ...lessonPlans45a, 
-/*      ...lessonPlans46a, 
-     ...lessonPlans47a, 
-    ...lessonPlans48a,
-    ...lessonPlans49a,
-    */
-    ...lessonPlans50a, ...lessonPlans50b, /*...lessonPlans50c,
-    */
+//     ...lessonPlans46a, 
+//     ...lessonPlans47a, 
+//    ...lessonPlans48a,
+//    ...lessonPlans49a,
+    
+    ...lessonPlans50a, ...lessonPlans50b, // ...lessonPlans50c,
+    
     ...lessonPlans51a,
-    /*
-    ...lessonPlans52, ...lessonPlans53, 
-     ...lessonPlans54,
-    */
+    
+//    ...lessonPlans52, ...lessonPlans53, 
+//     ...lessonPlans54,
+    
     ...lessonPlans55a, ...lessonPlans55b, ...lessonPlans55c,
     
     ...lessonPlans56a, ...lessonPlans56b, ...lessonPlans56c,
     ...lessonPlans57a, ...lessonPlans57b, ...lessonPlans57c,
-    /*
-    ...lessonPlans58a, 
-    ...lessonPlans59a,
     
-    */
+//    ...lessonPlans58a, 
+//    ...lessonPlans59a,
+    
+    
     ...lessonPlans60a,
     
     ...lessonPlans61a, ...lessonPlans61b, ...lessonPlans61c,
@@ -108,11 +109,11 @@ function searchLessonPlans(event) {
     ...lessonPlans65a, ...lessonPlans65b, ...lessonPlans65c,
     ...lessonPlans66a, ...lessonPlans66b, ...lessonPlans66c,
     ...lessonPlans67a, ...lessonPlans67b, ...lessonPlans67c,
-    /*
-    ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, 
-    ...lessonPlans68b, 
-    ...lessonPlans69b,
-    */
+    
+//    ...lessonPlans671a, ...lessonPlans671b, ...lessonPlans671c, 
+//    ...lessonPlans68b, 
+//    ...lessonPlans69b,
+    
     ...lessonPlans70a, ...lessonPlans70b, ...lessonPlans70c,
     ...lessonPlans71a, ...lessonPlans71b, ...lessonPlans71c,
     
@@ -130,15 +131,16 @@ function searchLessonPlans(event) {
     
     ...lessonPlans81a, ...lessonPlans81b, ...lessonPlans81c,
     ...lessonPlans82a, ...lessonPlans82b, ...lessonPlans82c,
-/*    ...lessonPlans83a, ...lessonPlans83b, ...lessonPlans83c,
-    ...lessonPlans84a, ...lessonPlans84b, ...lessonPlans84c,
-    ...lessonPlans85a, ...lessonPlans85b, ...lessonPlans85c,
-    ...lessonPlans86a, ...lessonPlans86b, ...lessonPlans86c,
-    ...lessonPlans87a, ...lessonPlans87b, ...lessonPlans87c,
+//    ...lessonPlans83a, ...lessonPlans83b, ...lessonPlans83c,
+//    ...lessonPlans84a, ...lessonPlans84b, ...lessonPlans84c,
+//    ...lessonPlans85a, ...lessonPlans85b, ...lessonPlans85c,
+//    ...lessonPlans86a, ...lessonPlans86b, ...lessonPlans86c,
+//    ...lessonPlans87a, ...lessonPlans87b, ...lessonPlans87c,
                     
-    */
+    
         ...lessonPlans88a, ...lessonPlans88b, ...lessonPlans88c,
         ...lessonPlans89a, ...lessonPlans89b, ...lessonPlans89c,
+    
     ];
      
      
@@ -164,8 +166,10 @@ const teacherNames = {
     "Wing Whiz": "Ms. Faith Nakaonga",
     "Sky Soarers": "Mr. Clinton Mbaso",
     "Avian Aces": "Mr. Clinton Mbaso",
-    "Nimbus Navigators": "Mr. Clinton Mbaso",
-    "Fledgling Falcons": "Mr. Clinton Mbaso",
+    "Nimbus Navigators": "Mr. Clinton Mbaso"
+
+    "Fledgling Falcons": "Mr. Clinton Mbaso"
+
     "All Classes": "All Teachers"
 };
 
@@ -174,7 +178,8 @@ const tczNumbers = {
     "Mrs. Loveness Muwila": "FS20BC0003",
     "Mrs. Kuligwa Siazyana": "FS20BC0012",
     "Ms. Faith Nakaonga": "FS20BC0011",
-    "Mr. Clinton Mbaso": "19/09/0904/021725",    
+    "Mr. Clinton Mbaso": "19/09/0904/021725",
+   
     "All Teachers": "FS20BC1111",
     "Mr. Muteba Masheka": "FS20BC0013"
 };
@@ -202,8 +207,8 @@ filteredLessonPlans.forEach(plan => {
 // Define a starting point for each term
 const termStartDates = {
     1: new Date("2025-01-06"), // Example starting date for Term 1
-    2: new Date("2025-05-08"), // Example starting date for Term 2
-    3: new Date("2025-09-07")  // Example starting date for Term 3
+    2: new Date("2025-05-12"), // Example starting date for Term 2
+    3: new Date("2025-09-08")  // Example starting date for Term 3
 };
 
 // Function to calculate the lesson date
@@ -273,27 +278,27 @@ card.innerHTML = `
   <tbody>
 <!-- First Row -->
     <tr>
-      <td class="stage">Introduction<!--${plan.activities[0][0]}--></td>
+      <td class="stage">1<!--${plan.activities[0][0]}--></td>
       <td>${plan.activities[1][0]}</td>
     </tr>
     <!-- Second Row -->
     <tr>
-      <td class="stage">Development<!--${plan.activities[0][1]}--></td>
+      <td class="stage">2<!--${plan.activities[0][1]}--></td>
       <td>${plan.activities[1][1]}</td>
     </tr>
     <!-- Third Row -->
     <tr>
-      <td class="stage">Explanation<!--${plan.activities[0][2]}--></td>
+      <td class="stage">3<!--${plan.activities[0][2]}--></td>
       <td>${plan.activities[1][2]}</td>
     </tr>
     <!-- Forth Row -->
     <tr>
-      <td class="stage">Synthesis<!--${plan.activities[0][3]}--></td>
+      <td class="stage">4<!--${plan.activities[0][3]}--></td>
       <td>${plan.activities[1][3]}</td>
     </tr>
     <!-- Fifth Row -->
     <tr>
-      <td class="stage">Conclusion and Evaluation<!--${plan.activities[0][4]}--></td>
+      <td class="stage">5<!--${plan.activities[0][4]}--></td>
       <td>${plan.activities[1][4]}</td>
     </tr>
     <!-- Add more rows as needed -->
