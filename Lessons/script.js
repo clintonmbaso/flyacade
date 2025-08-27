@@ -166,10 +166,8 @@ const teacherNames = {
     "Wing Whiz": "Ms. Faith Nakaonga",
     "Sky Soarers": "Mr. Clinton Mbaso",
     "Avian Aces": "Mr. Clinton Mbaso",
-    "Nimbus Navigators": "Mr. Clinton Mbaso"
-
-    "Fledgling Falcons": "Mr. Clinton Mbaso"
-
+    "Nimbus Navigators": "Mr. Clinton Mbaso",
+    "Fledgling Falcons": "Mr. Clinton Mbaso",
     "All Classes": "All Teachers"
 };
 
@@ -278,27 +276,27 @@ card.innerHTML = `
   <tbody>
 <!-- First Row -->
     <tr>
-      <td class="stage">1<!--${plan.activities[0][0]}--></td>
+      <td class="stage">Introduction<!--${plan.activities[0][0]}--></td>
       <td>${plan.activities[1][0]}</td>
     </tr>
     <!-- Second Row -->
     <tr>
-      <td class="stage">2<!--${plan.activities[0][1]}--></td>
+      <td class="stage">Development<!--${plan.activities[0][1]}--></td>
       <td>${plan.activities[1][1]}</td>
     </tr>
     <!-- Third Row -->
     <tr>
-      <td class="stage">3<!--${plan.activities[0][2]}--></td>
+      <td class="stage">Explanation<!--${plan.activities[0][2]}--></td>
       <td>${plan.activities[1][2]}</td>
     </tr>
     <!-- Forth Row -->
     <tr>
-      <td class="stage">4<!--${plan.activities[0][3]}--></td>
+      <td class="stage">Synthesis<!--${plan.activities[0][3]}--></td>
       <td>${plan.activities[1][3]}</td>
     </tr>
     <!-- Fifth Row -->
     <tr>
-      <td class="stage">5<!--${plan.activities[0][4]}--></td>
+      <td class="stage">Conclusion and Evaluation<!--${plan.activities[0][4]}--></td>
       <td>${plan.activities[1][4]}</td>
     </tr>
     <!-- Add more rows as needed -->
@@ -322,139 +320,6 @@ card.innerHTML = `
         `;
         lessonPlansContainer.appendChild(card);
     
-    /*
-    const card = document.createElement('div');
-card.classList.add('lesson-plan');
-card.innerHTML = `
-  <h3 class="lessonsplan">LESSON PLAN</h3>
-  <p><em>${titlePrefix} - ${plan.topic}</em></p>
-  <p><strong>School:</strong> ${plan.school}</p>
-  <p><strong>Teacher:</strong> ${plan.teacher}</p>
-  <p><strong>Date:</strong> ${plan.date}</p>
-  <p><strong>Teacher ID:</strong> ${plan.tcz}</p>
-  <p><strong>Subject:</strong> ${plan.subject}</p>
-  <p><strong>Grade:</strong> ${plan.grade}</p>
-  <p><strong>Term:</strong> ${plan.term}</p>
-  <p><strong>Week:</strong> ${plan.week}</p>
-  <p><strong>Lesson Number:</strong> ${plan.lessonNumber}</p>
-  <p><strong>Time:</strong> ${plan.time}</p>
-  <p><strong>Concept:</strong> ${plan.concept}</p>
-  <p><strong>Sub-Concept:</strong> ${plan.sub_concept}</p>
-  <p><strong>Topic:</strong> ${plan.topic}</p>
-  <p><strong>Sub-Topic:</strong> ${plan.sub_topic}</p>
-
-  <h4 class="titlez">Lesson Goal:</h4>
-  <p>${plan.lesson_goal}</p>
-
-  <h4 class="titlez">Competences:</h4>
-  <ul>
-    <li><strong>Knowledge:</strong> ${plan.lesson_competences.knowledge}</li>
-    <li><strong>Cognitive:</strong> ${plan.lesson_competences.cognitive}</li>
-    <li><strong>Skill:</strong> ${plan.lesson_competences.skill}</li>
-  </ul>
-
-  <h4 class="titlez">Methodology:</h4>
-  <p>${plan.methodology}</p>
-
-  <h4 class="titlez">Assessment Strategies:</h4>
-  <ul>
-    <li><strong>Formative:</strong> ${plan.assessment_strategies.formative}</li>
-    <li><strong>Summative:</strong> ${plan.assessment_strategies.summative}</li>
-  </ul>
-
-  <h4 class="titlez">Resources:</h4>
-  <p>${plan.resources}</p>
-
-  <h4 class="titlez">Learning Environment Setup:</h4>
-  <ul>
-    <li><strong>Natural:</strong> ${plan.learning_environment_setup.natural}</li>
-    <li><strong>Artificial:</strong> ${plan.learning_environment_setup.artificial}</li>
-    <li><strong>Technological:</strong> ${plan.learning_environment_setup.technological}</li>
-  </ul>
-
-  <h4 class="titlez">Prior Knowledge:</h4>
-  <p>${plan.prior_knowledge}</p>
-
-  <h4 class="titlez">Interdisciplinary Connections:</h4>
-  <ul>
-    <li><strong>Science:</strong> ${plan.interdisciplinary_connections.competence_1}</li>
-    <li><strong>Life Skills:</strong> ${plan.interdisciplinary_connections.competence_2}</li>
-    <li><strong>Language:</strong> ${plan.interdisciplinary_connections.competence_3}</li>
-  </ul>
-
-  <h4 class="titlez now">Lesson Progression:</h4>
-  <table>
-    <thead>
-      <tr><th>Stage</th><th>Teacher Activity</th><th>Pupil Activity</th><th>Competences</th><th>Assessment</th></tr>
-    </thead>
-
-<tbody>
-  <tr>
-    <td class="stage">Introduction</td>
-    <td>
-      <strong>Teacher Activity:</strong> ${progression.introduction.teacher_activity}<br>
-      <strong>Pupil Activity:</strong> ${progression.introduction.pupil_activity}<br>
-      <strong>Targeted Competences:</strong> ${progression.introduction.targeted_competences}<br>
-      <strong>Assessment Criteria:</strong> ${progression.introduction.assessment_criteria}
-    </td>
-  </tr>
-  <tr>
-    <td class="stage">Development</td>
-    <td>
-      <strong>Teacher Activity:</strong> ${progression.development.teacher_activity}<br>
-      <strong>Pupil Activity:</strong> ${progression.development.pupil_activity}<br>
-      <strong>Targeted Competences:</strong> ${progression.development.targeted_competences}<br>
-      <strong>Assessment Criteria:</strong> ${progression.development.assessment_criteria}
-    </td>
-  </tr>
-  <tr>
-    <td class="stage">Explanation</td>
-    <td>
-      <strong>Teacher Activity:</strong> ${progression.explanation.teacher_activity}<br>
-      <strong>Pupil Activity:</strong> ${progression.explanation.pupil_activity}<br>
-      <strong>Targeted Competences:</strong> ${progression.explanation.targeted_competences}<br>
-      <strong>Assessment Criteria:</strong> ${progression.explanation.assessment_criteria}
-    </td>
-  </tr>
-  <tr>
-    <td class="stage">Synthesis</td>
-    <td>
-      <strong>Teacher Activity:</strong> ${progression.synthesis.teacher_activity}<br>
-      <strong>Pupil Activity:</strong> ${progression.synthesis.pupil_activity}<br>
-      <strong>Targeted Competences:</strong> ${progression.synthesis.targeted_competences}<br>
-      <strong>Assessment Criteria:</strong> ${progression.synthesis.assessment_criteria}
-    </td>
-  </tr>
-  <tr>
-    <td class="stage">Conclusion and Evaluation</td>
-    <td>
-      <strong>Teacher Activity:</strong> ${progression.conclusion_and_evaluation.teacher_activity}<br>
-      <strong>Pupil Activity:</strong> ${progression.conclusion_and_evaluation.pupil_activity}<br>
-      <strong>Targeted Competences:</strong> ${progression.conclusion_and_evaluation.targeted_competences}<br>
-      <strong>Assessment Criteria:</strong> ${progression.conclusion_and_evaluation.assessment_criteria}
-    </td>
-  </tr>
-</tbody>
-  </table>
-
-  <h4 class="titlez">Competence Continuity Strategy:</h4>
-  <p>${plan.competence_continuity_and_strategy}</p>
-
-  <h4 class="titlez">Evaluation:</h4>
-  <p>${plan.evaluation}</p>
-
-  <div class="buttons">
-    <button onclick="downloadPlan('${plan.title}')">Download</button>
-
-    <div class="blogcomments">
-      <a href="mailto:flyingwingsacademy7@gmail.com?subject=${titlePrefix} - ${plan.topic}&body=Greetings Madam Bridget,%0D%0A%0D%0AI hope this email finds you well. %0D%0A%0D%0AI would like to submit the evaluation of ${titlePrefix} - ${plan.topic} lesson:%0D%0A%0D%0AWas the Lesson taught? [Yes/No]%0D%0A%0D%0AIf No, state the reason:%0D%0A%0D%0AIf Yes, then answer the following:%0D%0A1. Were the objectives met? [Yes/No]%0D%0A2. Learners' performance? [Good/Average/Not Good]%0D%0A3. Recommendation? [Proceed/Repeat]%0D%0A%0D%0AAdditional comments:%0D%0A%0D%0AEvaluation Completed.%0D%0ABest regards,%0D%0A${plan.teacher}">Evaluation</a>
-    </div>
-  </div>
-`;
-
-lessonPlansContainer.appendChild(card);
-    
-    */
     });
     
     // Call updateLessonPlanCount function after filtering
