@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Learning Hub</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <i class="fas fa-book-open"></i>
+                    <span>Family Learning Hub</span>
+                </h1>
+                <div class="user-menu">
+                    <button id="settings-btn" class="icon-btn" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="progress-indicator">
+                        <div class="progress-circle" data-progress="0">
+                            <svg viewBox="0 0 36 36">
+                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <path class="circle-fill" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            </svg>
+                            <div class="progress-text">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grade Navigation -->
+            <nav class="grade-navigation">
+                <div class="grade-selector">
+                    <button class="grade-btn" data-grade="prek">
+                        <i class="fas fa-baby"></i>
+                        <span>Pre-K</span>
+                    </button>
+                    <button class="grade-btn" data-grade="k">
+                        <i class="fas fa-apple-alt"></i>
+                        <span>Kindergarten</span>
+                    </button>
+                    <button class="grade-btn active" data-grade="1">
+                        <i class="fas fa-1"></i>
+                        <span>Grade 1</span>
+                    </button>
+                    <button class="grade-btn" data-grade="2">
+                        <i class="fas fa-2"></i>
+                        <span>Grade 2</span>
+                    </button>
+                    <button class="grade-btn" data-grade="3">
+                        <i class="fas fa-3"></i>
+                        <span>Grade 3</span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Subject Sidebar -->
+            <aside class="subject-sidebar">
+                <div class="sidebar-header">
+                    <h3>Subjects</h3>
+                    <button id="collapse-sidebar" class="icon-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                </div>
+                <ul class="subject-list">
+                    <!-- Dynamically populated -->
+                </ul>
+                <div class="sidebar-footer">
+                    <button id="help-btn" class="help-button">
+                        <i class="fas fa-question-circle"></i> Help
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Lesson Content Area -->
+            <section class="lesson-area">
+                <div class="lesson-header">
+                    <nav class="breadcrumb-nav">
+                        <ol class="breadcrumb-list">
+                            <!-- Dynamically populated -->
+                        </ol>
+                    </nav>
+                    <div class="lesson-actions">
+                        <button id="bookmark-btn" class="icon-btn" title="Bookmark this lesson">
+                            <i class="far fa-bookmark"></i>
+                        </button>
+                        <button id="print-btn" class="icon-btn" title="Print this lesson">
+                            <i class="fas fa-print"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="lesson-content-container">
+                    <div class="lesson-main-content">
+                        <!-- Lesson content loads here -->
+                    </div>
+                    
+                    <div class="lesson-media-container">
+                        <!-- Media displays here -->
+                        <div class="media-display">
+                            <div class="media-content">
+                                <!-- Images, videos, etc. -->
+                            </div>
+                            <div class="media-controls">
+                                <button class="media-prev"><i class="fas fa-chevron-left"></i></button>
+                                <span class="media-counter">1/3</span>
+                                <button class="media-next"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lesson-footer">
+                    <button class="nav-button prev-lesson">
+                        <i class="fas fa-arrow-left"></i> Previous
+                    </button>
+                    <div class="lesson-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <span class="progress-text">0% Complete</span>
+                    </div>
+                    <button class="nav-button next-lesson">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Activities Sidebar -->
+            <aside class="activities-sidebar">
+                <div class="activities-header">
+                    <h3>Activities</h3>
+                    <div class="activity-badges">
+                        <span class="badge" title="Completed activities">
+                            <i class="fas fa-check-circle"></i> <span class="badge-count">0</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="activities-content">
+                    <div class="activity-tabs">
+                        <button class="activity-tab active" data-tab="practice">Practice</button>
+                        <button class="activity-tab" data-tab="quiz">Quiz</button>
+                        <button class="activity-tab" data-tab="games">Games</button>
+                    </div>
+                    <div class="activity-panels">
+                        <div class="activity-panel active" data-tab="practice">
+                            <!-- Practice activities -->
+                        </div>
+                        <div class="activity-panel" data-tab="quiz">
+                            <!-- Quiz activities -->
+                        </div>
+                        <div class="activity-panel" data-tab="games">
+                            <!-- Learning games -->
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- Settings Modal -->
+        <div class="modal" id="settings-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Settings</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="setting-group">
+                        <h3>Accessibility</h3>
+                        <div class="setting-option">
+                            <label>
+                                <input type="checkbox" id="dyslexia-font"> 
+                                Dyslexia-friendly font
+                            </label>
+                        </div>
+                        <div class="setting-option">
+                            <label>
+                                <input type="checkbox" id="high-contrast"> 
+                                High contrast mode
+                            </label>
+                        </div>
+                        <div class="setting-option">
+                            <label>
+                                <input type="checkbox" id="text-to-speech"> 
+                                Enable text-to-speech
+                            </label>
+                        </div>
+                    </div>
+                    <div class="setting-group">
+                        <h3>Appearance</h3>
+                        <div class="theme-selector">
+                            <div class="theme-option" data-theme="default">
+                                <div class="theme-preview default"></div>
+                                <span>Default</span>
+                            </div>
+                            <div class="theme-option" data-theme="dark">
+                                <div class="theme-preview dark"></div>
+                                <span>Dark</span>
+                            </div>
+                            <div class="theme-option" data-theme="nature">
+                                <div class="theme-preview nature"></div>
+                                <span>Nature</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" id="save-settings">Save Settings</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div class="modal" id="help-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Help Center</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="help-section">
+                        <h3>Getting Started</h3>
+                        <p>Welcome to the Family Learning Hub! Here's how to use this platform:</p>
+                        <ol>
+                            <li>Select your grade level at the top</li>
+                            <li>Choose a subject from the left sidebar</li>
+                            <li>Navigate through topics and lessons</li>
+                            <li>Complete activities to track your progress</li>
+                        </ol>
+                    </div>
+                    <div class="help-section">
+                        <h3>Features</h3>
+                        <div class="feature-item">
+                            <i class="fas fa-bookmark"></i>
+                            <div>
+                                <h4>Bookmarks</h4>
+                                <p>Save your favorite lessons to return to later</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Progress Tracking</h4>
+                                <p>See how much of each subject you've completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- Mobile Sidebar Overlay -->
+<div class="sidebar-overlay"></div>
+
+<!-- Mobile Menu Toggle Button -->
+<button class="mobile-menu-toggle" id="mobile-menu-btn">
+    <i class="fas fa-bars"></i>
+</button>    
+    
+    
+    
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <!-- Data Files -->
+    <script src="js/data/grade1.js"></script>
+    <script src="js/data/grade2.js"></script>
+    <script src="js/data/grade3.js"></script>
+    
+    <!-- App Scripts -->
+    <script src="js/utilities.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
