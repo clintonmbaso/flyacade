@@ -1,7 +1,7 @@
 registerWorkbook({
     id: 'g7past2016cts',
-    title: '2016',
-    description: 'Expressive Arts - Past Paper',
+    title: 'Expressive Arts - Past Paper',
+    description: '2016',
     subject: 'Expressive Arts',
     grade: 7,
     term: 3,
