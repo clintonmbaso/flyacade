@@ -4,100 +4,104 @@ const lessonPlans31c = [
 // Week 2
 // Lesson 1
 {
-  "title": "Introduction to Friendship and Love",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Sunday, October 13, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding Friendship and Love",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "1",
-  "description": "This lesson introduces students to the concepts of friendship and love, with a focus on understanding the qualities of a good friend and how to apply them in daily life.",
-  "materials": [
-    "Whiteboard and markers",
-    "Worksheets with questions about friendship",
-    "Pictures or drawings representing friendship"
-  ],
-  "objectives": [
-    "Students will learn the definitions of friendship and love.",
-    "Students will identify and understand the qualities of a good friend.",
-    "Students will discuss how to apply friendship qualities in real life."
-  ],
-  "rationale": [
-    "Learning about friendship and love is important for young students as it helps them understand social relationships, build trust, and foster kindness among peers."
-  ],
-  "methodology": [
-    "The lesson will incorporate discussion, real-life examples, and class exercises to help students understand and practice the qualities of friendship."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Part 1: Introduction to Friendship and Love</b>:<br><br>Definition of Friendship: Friendship is a special relationship between two or more people who like being together. Friends are people who care for each other, help each other, and share good and bad times.<br><br>Definition of Love: Love is a deep feeling of affection or care for someone. It can be for friends, family, or even things you enjoy doing. Love makes us want to help and support the people we care about.<br><br>Discussion: Ask students: Who are your friends? How do they make you feel? Explain that love and friendship are important because they bring happiness, support, and trust into our lives.",
-      "<b>Part 2: Qualities of a Good Friend</b>:<br><br>A good friend is someone who has certain qualities that make them trustworthy and kind. These qualities help friendships grow stronger and last longer.<br><br>1. <b>Honesty</b><br>Definition: Telling the truth, even when it's hard.<br>Explanation: A good friend is always honest. They do not lie to you or keep secrets that can hurt you. Honesty helps build trust between friends.<br><br>2. <b>Trust</b><br>Definition: Believing that someone will do what they say.<br>Explanation: Trust means knowing that your friend will be there when you need them. They will keep your secrets safe and never let you down.<br><br>3. <b>Respect</b><br>Definition: Treating others with kindness and valuing their feelings.<br>Explanation: A good friend respects your opinions and feelings. They listen when you speak and do not make fun of you or hurt your feelings.",
-      "<b>Part 3: More Qualities of a Good Friend</b>:<br><br>4. <b>Care</b><br>Definition: Showing concern for someone’s well-being.<br>Explanation: A good friend cares about you and helps you when you are sad, hurt, or in need of support. They want to make sure you are happy and safe.<br><br>5. <b>Faithfulness</b><br>Definition: Being loyal and always standing by someone.<br>Explanation: Faithfulness means your friend is always on your side, even when things get tough. They will never leave you when you need them the most.",
-      "<b>Part 4: Applying the Qualities of Friendship</b>:<br><br>Now that we know the qualities of a good friend, it is important to understand how to apply them in our daily lives.<br><br>In school: We should be honest with our friends about how we feel, share toys, and help them with their work when they need it.<br>At home: We can show care by helping our siblings and respecting our parents.<br>In tough times: A good friend is someone you can trust to be there when you are going through a difficult moment. They will listen to you and support you.<br><br>Class Discussion: How can you show care to your friends? What would you do if your friend was upset or needed help?",
-      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is friendship?<br>2. Name one quality of a good friend.<br>3. Why is honesty important in friendship?<br>4. What does it mean to be a trustworthy friend?<br>5. How can you show respect to your friends?<br>6. Why is it important to care for your friends?<br>7. What does faithfulness mean in a friendship?<br>8. How can you be faithful to your friend?<br>9. Give an example of how to show honesty in school.<br>10. How can trust make a friendship stronger?"
+    "title": "Introduction to Jesus’ Friendship",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Social Studies",
+    "topic": "Understanding Jesus’ Friendship",
+    "grade": "Feather Flyers",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "1",
+    "description": "This lesson introduces students to the concepts of friendship and love, focusing on the qualities of a good friend and how to apply them, using a story and interactive activities.",
+    "materials": [
+        "Chart paper or a whiteboard",
+        "Markers",
+        "The book 'How Do Dinosaurs Stay Friends?' by Jane Yolen & Mark Teague (or a similar book about friendship)",
+        "A large cut-out paper heart",
+        "A small bandage sticker",
+        "Drawing paper and crayons for each student"
+    ],
+    "objectives": [
+        "Students will learn the definitions of friendship and love.",
+        "Students will identify and understand the qualities of a good friend.",
+        "Students will discuss how to apply friendship qualities in real life."
+    ],
+    "rationale": [
+        "Understanding friendship and love helps young students develop social skills, empathy, and the ability to build positive relationships with their peers."
+    ],
+    "methodology": [
+        "The lesson will use storytelling, group discussion, visual aids, and creative drawing to explore the themes of friendship and love."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: What is a Friend? (Introduction & Story Time)</b>:<br><br>(Teacher sits with students in a cozy circle.)<br><br>Hello, wonderful Feather Flyers! Today we are going to talk about something very special. It’s something that makes us feel happy and warm inside. We’re going to talk about friendship and love.<br><br>First, let's think about our friends. Who can tell me what a friend is? (Wait for a few answers. Students might say: 'Someone I play with,' 'My cousin,' etc.)<br><br>Those are all great answers! A friend is someone we like to spend time with. They are someone who makes us smile and who we enjoy sharing our toys and stories with.<br><br>Now, let’s read a story about some friends who need to figure things out. (Read the book 'How Do Dinosaurs Stay Friends?' or your chosen story. Pause to ask questions like, 'Was that a kind thing to do?' or 'How do you think he feels?')",
+            "<b>Part 2: The Qualities of a Super Friend (Building Our List)</b>:<br><br>(After the story, gather in front of the chart paper or whiteboard.)<br><br>That story showed us that sometimes friends make mistakes, but what's important is how we fix them! Let’s make a list of all the things that make someone a Super Friend.<br><br>I’ll draw a big sunshine, and we’ll write the qualities on the rays! (Draw a sun. As students suggest ideas, guide them and write each one on a sunray.)<br><br>· Kindness: How are we kind? (We use nice words, we share).<br>· Sharing: We share our toys, our snacks, and our time.<br>· Helping: A good friend helps you if you fall down or can’t reach something.<br>· Listening: We listen with our ears and our eyes when our friend is talking.<br>· Taking Turns: Friends let others go first sometimes.<br>· Saying Sorry: If we hurt our friend's feelings, we say 'I'm sorry.'<br>· Forgiving: When a friend says sorry, we say 'That's okay.'<br><br>Wow! Look at all these amazing superpowers a good friend has!",
+            "<b>Part 3: Friendship and Love in Action (The Heart Activity)</b>:<br><br>(Hold up the large paper heart.)<br><br>This heart represents our feelings. When we are with our friends, our hearts feel full and happy. But sometimes, our feelings can get hurt. If someone says something unkind or doesn't share, it can put a little wrinkle in our heart. (Crumple a small section of the heart.)<br><br>See? It doesn't feel so smooth anymore. How can we smooth it out and make it better? (Students will likely say 'Say sorry!' or 'Be nice!')<br><br>That’s right! When we say sorry and try to be kind, we help fix the hurt feelings. (Smooth out the heart and place the bandage sticker on the crumpled spot.)<br><br>We can't always make the wrinkle completely disappear, just like we might remember that our feelings were hurt. But with kindness and love, we can help it feel much better. Love is the super-strong feeling of caring for someone and wanting them to be happy. We can show love to our friends by using all those Super Friend qualities on our list!",
+            "<b>Part 4: Let's Practice! How Would You Help? (Discussion)</b>:<br><br>Now let’s practice being Super Friends. I’ll tell you about a problem, and you tell me what a good friend would do.<br><br>1. Scenario 1: You see your friend sitting alone on the bench at recess. They look sad. What can you do? (Possible Answer: Go ask them to play with me.)<br>2. Scenario 2: Your friend is building a tall tower with blocks. You really want a block they are using. What do you do? (Possible Answer: Wait for my turn or ask nicely if I can use it next.)<br>3. Scenario 3: You accidentally bump into your friend and they drop their crayons. What do you do? (Possible Answer: Say 'I'm sorry!' and help them pick up the crayons.)<br><br>You all have such great ideas! You are becoming friendship experts!",
+            "<b>Part 5: Exercise - Draw Your Super Friend!</b>:<br><br>(Time for students to work at their desks or tables.)<br><br>Now it’s your turn to create! I want you to think about what you’ve learned today.<br><br>Your task is to:<br><br>1. Draw a picture of you and a friend being Super Friends.<br>2. Show one of the Super Friend qualities from our list in your drawing. Are you sharing a toy? Helping them up? Playing together nicely?<br>3. When you are done, we will share our drawings with the class and guess which Super Friend quality they are showing!<br><br>(Hand out drawing paper and crayons. Give students time to draw. As they finish, have a few volunteers show their picture and explain it, or let the class guess the friendship quality.)<br><br>Wrap-up: 'Fantastic job, Feather Flyers! Look at all these wonderful pictures of friendship and kindness. Let's try to use our Super Friend powers every day to make our classroom and our world a happier place. Thank you for being such great friends!'"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' participation and responses during the discussion and story time.",
+        "<b>Exercise</b>: The drawing activity will serve as an evaluation of the students' understanding of a key friendship quality."
+    ],
+    "conclusion": [
+        "By learning about the qualities of a good friend and practicing them through discussion and creative expression, students will have a stronger foundation for building kind and loving relationships."
     ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will observe students' participation in discussions and their ability to recall the qualities of friendship.",
-    "<b>Exercise</b>: The 10-question exercise will serve as a written assessment to evaluate their understanding."
-  ],
-  "conclusion": [
-    "By learning about the definitions of friendship and love, as well as the qualities of a good friend, students will be able to apply these lessons to their interactions with others, both at school and at home."
-  ]
 },
 
 // Lesson 2
 {
-  "title": "Introduction to Jesus’ Friendship",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Sunday, October 13, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Social Studies",
-  "topic": "Understanding Jesus’ Friendship",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "2",
-  "description": "This lesson introduces students to the friendship of Jesus, focusing on His love and care for children, as demonstrated in stories from the Bible.",
-  "materials": [
-    "Bible",
-    "Whiteboard and markers",
-    "Pictures illustrating stories of Jesus with children"
-  ],
-  "objectives": [
-    "Students will learn who Jesus is and His special friendship with children.",
-    "Students will hear Bible stories about Jesus welcoming, healing, and teaching children.",
-    "Students will understand the importance of having a childlike heart in faith."
-  ],
-  "rationale": [
-    "Understanding Jesus’ love and care for children helps students relate to His friendship and teaches them the values of kindness, faith, and humility."
-  ],
-  "methodology": [
-    "The lesson will use storytelling, discussions, and examples to convey Jesus' love for children and His teachings."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Part 1: Introduction to Jesus’ Friendship</b>:<br><br>Who is Jesus?<br>Jesus is known as a special person in the Bible who taught people how to live with love, kindness, and forgiveness. He is loved by Christians and is seen as a friend to everyone, especially children.<br><br>Jesus’ Love for Everyone:<br>Jesus loved and cared for all people, no matter their age, background, or what they looked like. He was especially kind to children, and He often taught people that children were very important and special.<br><br>Discussion:<br>Ask students: Have you heard stories about Jesus? How do you think Jesus treated children?<br><br>Explain that in today’s lesson, we will hear stories about how Jesus was a friend to children.",
-      "<b>Part 2: Jesus Welcomes Children</b>:<br><br>Story 1: Jesus Blesses the Little Children<br>One day, many children were brought to Jesus by their parents. They wanted Jesus to bless their children. But some of Jesus’ followers thought He was too busy and told the parents not to bother Him. However, Jesus was not upset. Instead, He welcomed the children and told His followers:<br>“Let the little children come to me, and do not stop them, for the kingdom of heaven belongs to such as these.” (Matthew 19:14)<br><br>Explanation:<br>Jesus showed friendship by welcoming children with open arms.<br>He loved spending time with children and wanted them to feel valued.<br>Jesus also taught that children have a special place in God’s kingdom.",
-      "<b>Part 3: Jesus Heals a Sick Child</b>:<br><br>Story 2: Jesus Heals Jairus’ Daughter<br>There was once a man named Jairus whose daughter was very sick. He came to Jesus, asking for His help. Jesus agreed to go with him. While they were on their way, the girl died. However, Jesus told Jairus not to be afraid but to have faith. When they arrived at Jairus’ house, Jesus went to the child’s room, took her hand, and said, “Little girl, I say to you, get up!” The girl immediately stood up, and everyone was amazed (Mark 5:21-43).<br><br>Explanation:<br>Jesus showed that He cared deeply for children, even when others thought it was too late.<br>His love and friendship brought healing and comfort to the little girl and her family.<br>This story teaches us that Jesus was always there to help and be a friend to those in need, especially children.",
-      "<b>Part 4: Jesus Teaches About Becoming Like a Child</b>:<br><br>Story 3: Jesus and the Importance of Childlike Faith<br>One day, Jesus’ disciples were arguing about who was the greatest among them. Jesus called a little child to Him and said:<br>“Unless you change and become like little children, you will never enter the kingdom of heaven. Whoever takes the lowly position of this child is the greatest in the kingdom of heaven” (Matthew 18:1-4).<br><br>Explanation:<br>Jesus taught that we should all be like children in our hearts: humble, trusting, and innocent.<br>He loved children for their pure hearts and used them as examples for others to follow.<br>Jesus’ friendship with children was not just about caring for them, but also about teaching important lessons through their example.<br><br>Class Discussion:<br>How did Jesus show love and friendship to children in the stories we just heard?<br>Why do you think Jesus said children are special?",
-      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What did Jesus do when children were brought to Him for blessings?<br>2. Why did Jesus tell His followers to let the children come to Him?<br>3. In the story of Jairus' daughter, what did Jesus say to the little girl?<br>4. How did Jesus show His friendship and care for the little girl who was sick?<br>5. What did Jesus teach His disciples about becoming like children?<br>6. Why are children special in the kingdom of heaven, according to Jesus?<br>7. What do you think it means to have a heart like a child?<br>8. How can we be like Jesus and show friendship to children?<br>9. How did Jesus show His love and care for families with children?<br>10. Why do you think Jesus loved spending time with children?"
+    "title": "A Special Friend Named Jesus",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Social Studies",
+    "topic": "Understanding Jesus’ Friendship",
+    "grade": "Feather Flyers",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "2",
+    "description": "This lesson introduces students to Jesus as a kind and loving friend, focusing on how he welcomed, healed, and blessed children through stories from the Bible.",
+    "materials": [
+        "A children's storybook Bible or printed pictures showing: Jesus smiling and talking with children, Jesus healing a little girl, Parents bringing their children to see Jesus",
+        "Whiteboard or chart paper and markers",
+        "Crayons and drawing paper",
+        "A simple song about Jesus loving children (optional)"
+    ],
+    "objectives": [
+        "Students will be introduced to Jesus as a kind and loving friend.",
+        "Students will learn through Bible stories how Jesus welcomed, healed, and blessed children.",
+        "Students will understand that having a kind, trusting, and loving heart is important."
+    ],
+    "rationale": [
+        "Understanding Jesus’ love and care for children helps students relate to His friendship and teaches them the values of kindness, faith, and humility."
+    ],
+    "methodology": [
+        "The lesson will use storytelling, discussions, drawing activities, and singing to convey Jesus' love for children and His teachings."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: Welcome and Introduction (10 minutes)</b>:<br><br>Teacher Says: 'Good morning, Feather Flyers! Today we are going to talk about a very special friend. He is a friend to everyone, but he especially loves children. His name is Jesus. Has anyone heard the name Jesus before?'<br><br>(Let a few students share if they wish.)<br><br>Teacher Says: 'That's great! Jesus lived a long, long time ago, and people wrote stories about his kindness in a very special book called the Bible. Today, we're going to learn how Jesus was the best kind of friend to children, just like you!'<br><br>Activity: Let's sing a quick hello song to get ready to learn! (You can use any simple song, or sing: 'Hello, hello, it's time to learn, about our friend Jesus, and the love he showed!')",
+            "<b>Part 2: Bible Story Time – Jesus Welcomes Children (10 minutes)</b>:<br><br>Teacher Says: 'One day, Jesus was talking to some grown-ups. Some moms and dads started to bring their children to see Jesus because they knew he was kind and good. But Jesus's friends thought he was too busy and important for little children. They said, 'No, no, Jesus is too busy. Go away, children.''<br><br>(Show a picture of the disciples turning the children away. Look a little sad.)<br><br>Teacher Says: 'But when Jesus saw what was happening, he said, 'STOP! Let the children come to me! Do not send them away.''<br><br>(Show a picture of Jesus smiling with children on his lap and all around him. Smile brightly!)<br><br>Teacher Says: 'Jesus was not too busy. He hugged the children, he blessed them, and he said that everyone should have a heart that is loving and trusting like a child's heart. He wanted them to come to him! This shows us that Jesus always has time for children. He loves you very, very much.'<br><br>Discussion Question: 'How would you feel if a special friend like Jesus gave you a big hug?' (Happy, loved, safe, special).",
+            "<b>Part 3: Jesus Cares for Children – A Story of Healing (10 minutes)</b>:<br><br>Teacher Says: 'Jesus didn't just give hugs; he also helped children when they were sick. There was a little girl who was very, very sick. Her family was so sad. They found Jesus and asked him for help.'<br><br>'Jesus went to their house. He saw the little girl. He held her hand and said, 'Little girl, get up!' And guess what? She opened her eyes, got up, and was all better! Her family was so happy and thankful for Jesus.'<br><br>(Show a picture of this story.)<br><br>Teacher Says: 'This story shows us that Jesus cares about us. He wants us to be healthy and happy. He is a friend who helps us and makes things better.'<br><br>Discussion Question: 'Who helps you when you feel sick or sad?' (Mom, dad, grandma, doctor, teacher). 'Jesus is like that too—a helper and a healer.'",
+            "<b>Part 4: What is a Childlike Heart? (5 minutes)</b>:<br><br>Teacher Says: 'Remember when Jesus said we should have hearts like children? He didn't mean we should act like babies. He meant we should have hearts that are:'<br><br>· Kind: We share our toys and use nice words.<br>· Trusting: We believe our parents and teachers will take care of us.<br>· Loving: We give hugs and are good friends.<br>· Ready to say sorry: When we make a mistake, we try to fix it.<br><br>Teacher Says: 'Having a heart like this makes Jesus happy and makes us good friends to everyone around us.'",
+            "<b>Part 5: Exercise & Activity Time! (15 minutes)</b>:<br><br>Let's choose one or two activities to do!<br><br>Activity 1: Draw Your Favorite Story<br><br>· Give each student a piece of paper and crayons.<br>· Instructions: 'Draw a picture of Jesus being a kind friend. Maybe he is hugging the children, or helping the little girl get better, or just sitting and listening to them. Show how happy and loved the children feel.'<br>· As they draw, walk around and ask them to tell you about their picture.<br><br>Activity 2: Complete the Sentence<br><br>· On the whiteboard, write: 'Jesus is a good friend because he is _______________.'<br>· Have students help you think of words to finish the sentence (e.g., kind, loving, strong, a helper, a listener).<br>· Write their ideas on the board. They can then copy one word onto their drawing.<br><br>Activity 3: Sing a Song<br><br>· Learn and sing a simple song together.<br>  · (To the tune of 'Frère Jacques')<br>  · Jesus loves us, Jesus loves us,<br>  · Yes, he does! Yes, he does!<br>  · He is our special friend,<br>  · His love will never end,<br>  · Yes, it's true! Yes, it's true!<br><br>Wrap-Up (5 minutes)<br><br>'Wonderful job today, Feather Flyers! We learned that Jesus is a special friend who always has time for children, who helps us, and who loves us very much. Let's all try to have kind and loving hearts this week, just like Jesus loves.'<br><br>'Give yourself a big hug and say, 'I am loved.' Now give a friend a high-five and say, 'You are loved too!''"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' engagement during the stories, discussions, and activities.",
+        "<b>Activity Review</b>: Reviewing the students' drawings and their participation in the 'Complete the Sentence' activity will evaluate their understanding of Jesus as a friend."
+    ],
+    "conclusion": [
+        "By learning about Jesus' friendship with children through stories and activities, students will understand the importance of love, kindness, and having a childlike heart."
     ]
-  ],
-  "assessments": [
-    "<b>Observation</b>: The teacher will observe students' engagement during the stories and discussions.",
-    "<b>Exercise</b>: The 10-question exercise will evaluate the students' understanding of Jesus' friendship with children."
-  ],
-  "conclusion": [
-    "By learning about Jesus' friendship with children and His teachings, students will understand the importance of love, kindness, and having a childlike heart in faith."
-  ]
 },
 
 // Week 3
@@ -637,7 +641,7 @@ const lessonPlans31c = [
       "<b>Part 2: Types of Road Signs</b>:<br><br>Warning Signs:<br>Warning signs alert drivers about potential dangers on the road.<br><br>Examples:<br>- Bump Ahead: Tells drivers to slow down because of an upcoming bump.<br>- Pedestrian Crossing: Warns drivers to look out for people crossing the road.<br><br>Regulatory Signs:<br>These signs tell drivers what they must or must not do.<br><br>Examples:<br>- Stop Sign: Tells drivers to stop completely before moving.<br>- No U-Turn: Prohibits drivers from making a U-turn.",
       "<b>Part 3: Informational Signs</b>:<br><br>What Are Informational Signs?<br>Informational signs give drivers and pedestrians helpful information.<br><br>Examples:<br>- Hospital: Shows the location of a nearby hospital.<br>- Parking: Tells drivers where they can park their vehicles.<br><br>Class Activity:<br>Show signs and ask students to guess their meanings.<br>Discuss why following these signs is important.",
       "<b>Part 4: Importance of Road Signs</b>:<br><br>Why Should We Follow Road Signs?<br>- To stay safe while walking or driving.<br>- To help avoid accidents.<br>- To ensure everyone knows where to go and how to act on the road.<br><br>Class Activity:<br>Role-play different road situations where students follow road signs.<br>Discuss what might happen if someone ignores a road sign.",
-      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is a road sign?<br>2. Why are road signs important?<br>3. What does a \"Stop\" sign mean?<br>4. What does a \"Pedestrian Crossing\" sign tell drivers?<br>5. Can you name a warning sign?<br>6. What does a \"No U-Turn\" sign mean?<br>7. What is an example of an informational sign?<br>8. Where might you see a \"Parking\" sign?<br>9. Why should drivers follow road signs?<br>10. What happens if road signs are not followed?"
+      "<b>Part 5: Exercise (10 Questions)</b>:<br><br>1. What is a road sign?<br>2. Why are road signs important?<br>3. What does a 'Stop' sign mean?<br>4. What does a 'Pedestrian Crossing' sign tell drivers?<br>5. Can you name a warning sign?<br>6. What does a 'No U-Turn' sign mean?<br>7. What is an example of an informational sign?<br>8. Where might you see a 'Parking' sign?<br>9. Why should drivers follow road signs?<br>10. What happens if road signs are not followed?"
     ]
   ],
   "assessments": [
