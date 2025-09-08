@@ -4,105 +4,105 @@ const lessonPlans40c = [
 // Week 2
 // Lesson 1
 {
-  "title": "Creating Paper Crafts",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Creative and Technology Studies",
-  "topic": "Paper Crafts",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "1",
-  "description": "This lesson introduces students to paper crafts, including making paper chains, belts, house models, and masks. Students will learn to use various materials and techniques to create these crafts, fostering creativity and fine motor skills.",
-  "materials": [
-    "Colored paper",
-    "Scissors",
-    "Glue",
-    "Markers",
-    "Decorative elements (stickers, glitter)",
-    "Tape"
-  ],
-  "objectives": [
-    "Students will understand what paper crafts are and the materials used.",
-    "Students will create paper chains, belts, and house models using step-by-step instructions.",
-    "Students will practice decorating their paper crafts to enhance creativity."
-  ],
-  "rationale": [
-    "Paper crafts are a great way to develop fine motor skills, creativity, and the ability to follow instructions. Using simple materials allows students to create functional and decorative items, enhancing their problem-solving skills and artistic expression."
-  ],
-  "methodology": [
-    "The lesson involves introducing the concept of paper crafts, demonstrating each craft, providing guided practice, and allowing time for individual creativity. Visual aids and hands-on activities will help reinforce learning."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction to Paper Crafts:</b><br>Explain what paper crafts are and list common materials used. Discuss how paper can be used to create a variety of objects and designs. Emphasize the importance of using safe, child-friendly tools.",
-      "<b>Making Paper Chains:</b><br>Demonstrate how to cut strips of paper and link them together to form a chain. Explain how to use glue or tape to secure each link. Show creative variations, such as using different colors or patterns to make garlands or banners.",
-      "<b>Crafting Paper Belts:</b><br>Show how to cut and measure a strip of paper to fit around the waist. Demonstrate how to decorate the belt and secure it with tape or glue. Discuss how paper belts can be used for costumes and dress-up activities.",
-      "<b>Building a Paper House Model:</b><br>Demonstrate folding and cutting paper to create a house model. Show how to glue or tape the pieces together and add details like windows, doors, and a chimney. Explain how to decorate the house using markers and stickers.",
-      "<b>Exercise Questions:</b><br>1. What are paper crafts?<br>2. Name two materials needed for paper crafts.<br>3. How do you make a paper chain?<br>4. What is the first step in creating a paper belt?<br>5. True or False: Paper chains can only be made with one color of paper.<br>6. What should you do to make sure a paper belt fits correctly?<br>7. Describe the steps to build a paper house model.<br>8. How can you decorate a paper belt?<br>9. Why is it important to use safe tools when making paper crafts?<br>10. Write a sentence about how you can use paper chains in a party decoration."
+    "title": "The Wonderful World of Paper Crafts!",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Creative and Technology Studies",
+    "topic": "The Wonderful World of Paper Crafts!",
+    "grade": "Feather Flyers",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "1",
+    "description": "This lesson introduces students to paper crafts, teaching them to identify materials and create simple projects like paper chains, a paper belt, and a basic paper house model.",
+    "materials": [
+        "For the Teacher: Large examples of a paper chain, a paper belt, and a paper house. A chart showing the materials.",
+        "For Each Student: Strips of colored construction paper (2-3 colors), one long strip of paper for a belt, a pre-cut paper house template (simple square with a triangle roof), glue stick, safety scissors, crayons or markers, and any extra decorations like stickers or sequins."
+    ],
+    "objectives": [
+        "Students will understand that paper crafts are objects and decorations made from paper.",
+        "Students will be able to identify common materials used for paper crafts (paper, glue, scissors, colors).",
+        "Students will create simple paper chains, a paper belt, and a basic paper house model by following step-by-step instructions.",
+        "Students will practice decorating their creations to express their own creativity."
+    ],
+    "rationale": [
+        "Learning paper crafts helps develop fine motor skills, creativity, and the ability to follow instructions, providing a foundation for more complex artistic and technical skills."
+    ],
+    "methodology": [
+        "The lesson will use direct instruction, demonstration, and hands-on crafting activities to engage students and help them understand the process of creating with paper."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: What is a Paper Craft? (10 minutes)</b>:<br><br>(Teacher stands at the front with the large examples hidden behind their back)<br><br>Teacher: 'Good morning, Feather Flyers! Today, we are going to become paper magicians! We are going to learn about paper crafts. Can everyone say that with me? Paper Crafts!'<br><br>'Paper crafts are wonderful things we can make using just paper and a few simple tools. We can fold it, cut it, color it, and glue it to turn a flat, boring piece of paper into something amazing!'<br><br>(Teacher holds up the large paper chain) 'Look at this!This is a paper chain. Was it once just flat paper? Yes! I cut it into strips and glued it together to make a beautiful chain. We can hang it for a party!'<br><br>(Teacher holds up the paper belt and puts it on) 'Look at this belt!Is it made of leather? No! It’s made of paper! I decorated it to be my very own special superhero belt!'<br><br>(Teacher holds up the paper house) 'And what is this?A house! Can we live in it? No, it's too small! But we can use it to tell stories or as a decoration. It was also made from paper!'<br><br>'So, paper crafts are fun, creative things we make from paper. They can be toys, decorations, or gifts!'",
+            "<b>Part 2: What Do We Use? (10 minutes)</b>:<br><br>Teacher: 'To be good paper magicians, we need the right tools. Let's learn about our materials!'<br><br>(Teacher points to each item on the chart or holds it up as they speak)<br><br>1. Paper: 'This is our main ingredient! We have different colors to make our crafts bright and happy.'<br>2. Scissors: 'We use these to cut our paper into the shapes we need. We always remember: scissors are for paper, not for hair or clothes, and we are very careful with them.'<br>3. Glue: 'This is our magic sticky liquid! We use a glue stick to stick our paper pieces together. A little bit is enough!'<br>4. Crayons/Markers: 'We use these to add details and decorations. We can draw windows on our house or patterns on our belt.'<br><br>'Everyone, point to your paper. Point to your scissors. Point to your glue. Point to your crayons! Wonderful! Now we are ready to create!'",
+            "<b>Part 3: Let's Create! (20 minutes)</b>:<br><br>Teacher: 'Now for the fun part! We are going to make three things today: a chain, a belt, and a house. Let's go step-by-step. Watch me first, then you can do it.'<br><br>Activity 1: The Paper Chain<br><br>1. 'Take one paper strip. Put a small dot of glue on one end.' (Demonstrate)<br>2. 'Now, bend the strip into a circle and press the other end onto the glue. Hold it for a count of 5: 1...2...3...4...5!' (Demonstrate)<br>3. 'Take your next strip. Thread it through the first circle you made. Now, glue the ends of this new strip together to make a second circle linked to the first!'<br>4. 'Keep going! See how long you can make your chain!'<br><br>(Let students work on their chains for a few minutes. Assist those who need help.)<br><br>Activity 2: The Paper Belt<br><br>1. 'Take your long strip of paper. This will be your belt!'<br>2. 'Wrap it around your waist. Too long? We can cut it to the right size with our scissors.'<br>3. 'Now, the most fun part: decoration! Use your crayons to draw on your belt. You can draw stars, dinosaurs, flowers, or patterns. Make it unique to you!'<br>4. 'When you're done, you can tape the ends together to wear it!'<br><br>Activity 3: The Paper House<br><br>1. 'Everyone has a paper house shape. It's flat right now.'<br>2. 'First, let's decorate it. Draw a door, some windows, and maybe some flowers outside.'<br>3. 'Once you've colored it, we will fold it on the dotted lines and glue the tabs to make it stand up!' (Demonstrate folding and gluing clearly).<br><br>(Students will work on all three activities. The teacher will walk around the classroom, helping students, praising their work, and encouraging creativity.)",
+            "<b>Part 4: Time to Show and Share! (5 minutes)</b>:<br><br>Teacher: 'Wow, look at what amazing paper magicians you are! Your crafts are beautiful!'<br><br>'Please stand up and hold up your paper chain for everyone to see! Great job!' 'Now,show us your fantastic paper belt! You all look like superheroes!' 'Finally,hold up your wonderful little house! We have a whole paper neighborhood!'<br><br>'This is what we call paper crafting. You took simple paper and turned it into something special using your own two hands and your wonderful imagination. I am so proud of all of you!'",
+            "<b>Part 5: Exercise (To be done with the teacher)</b>:<br><br>(The teacher will read the questions aloud, and the students will answer together or raise their hands.)<br><br>Circle the correct answer.<br><br>1. Paper crafts are made from... (a) Wood<br>       (b) Paper<br>       (c) Water<br>2. We use this to stick paper together. (a) A hammer<br>       (b) Glue<br>       (c) Paint<br>3. What did we make that you can wear? (a) The paper house<br>       (b) The paper chain<br>       (c) The paper belt<br>4. We should always be very careful when using... (a) Our crayons<br>       (b) Scissors<br>       (c) Our eraser<br><br>Match the material to what we use it for. Draw a line!<br><br>Material What it's for<br>Paper To color and draw<br>Glue To cut paper<br>Scissors To stick things<br>Crayons The main ingredient<br><br>(Answer Key for Teacher:<br><br>1. (b) Paper<br>2. (b) Glue<br>3. (c) The paper belt<br>4. (b) Scissors Matching:Paper -> The main ingredient; Glue -> To stick things; Scissors -> To cut paper; Crayons -> To color and draw )"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' ability to follow instructions and their handling of materials during the crafting activities.",
+        "<b>Exercise</b>: The worksheet will evaluate the students' understanding of the materials and their uses in paper crafting."
+    ],
+    "conclusion": [
+        "By creating their own paper crafts, students have gained hands-on experience with materials and processes, building a foundation for creativity and technical skills in future projects."
     ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to follow instructions and complete their paper crafts. Participation in the exercises and creativity in decorating will also be observed.",
-    "<b>Feedback:</b> Provide feedback on the students' techniques, creativity, and use of materials. Offer suggestions for improvement and encourage further practice."
-  ],
-  "conclusion": [
-    "By learning to make and decorate paper crafts, students will enhance their fine motor skills, creativity, and understanding of how to use simple materials to create functional and decorative items."
-  ]
 },
 
 // Lesson 2 
 {
-  "title": "Making Paper Collages",
+  "title": "Let's Make Pictures with Paper! (Paper Collage)",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, August 30, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Creative and Technology Studies",
-  "topic": "Creating Paper Collages",
+  "topic": "Paper Collage",
   "grade": "Feather Flyers",
   "term": "3",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson introduces students to the art of making paper collages. Students will learn techniques for combining different paper elements into cohesive artwork through various collage projects.",
+  "description": "This lesson introduces Grade 1 students to the art of paper collage, teaching them to create pictures using paper pieces, glue, and scissors through guided projects like a paper chain, a belt, and a house.",
   "materials": [
-    "Various types of paper (colored, textured, patterned)",
-    "Scissors",
-    "Glue",
-    "Base surfaces (cardboard or construction paper)"
+    "Construction paper",
+    "Old magazines",
+    "Shiny paper",
+    "Tissue paper",
+    "Scissors (Safe ones for kids!)",
+    "Glue (glue stick or white glue)",
+    "A big, strong piece of paper or cardstock (Base)",
+    "Examples of simple collages"
   ],
   "objectives": [
-    "Students will understand what a paper collage is and the materials needed.",
-    "Students will create a chain collage by arranging paper pieces into a chain pattern.",
-    "Students will design and assemble a belt collage using different paper scraps.",
-    "Students will construct a house model collage using paper shapes to represent different parts of a house.",
-    "Students will practice and apply techniques to enhance their collages with textures, colors, and details."
+    "Students will learn what a paper collage is and identify the materials needed to create one.",
+    "Students will develop fine motor skills by cutting, tearing, and gluing paper to create a paper chain.",
+    "Students will apply knowledge of shapes and patterns to create two collage projects: a fancy belt and a dream house.",
+    "Students will understand and use the concepts of texture and color to enhance their artwork."
   ],
   "rationale": [
-    "Creating paper collages helps students develop fine motor skills, creativity, and an understanding of visual composition. Working with different materials and techniques encourages experimentation and artistic expression."
+    "Learning to create collages helps young students develop fine motor skills, creativity, and an understanding of shapes, patterns, and textures, which are foundational concepts in art and design."
   ],
   "methodology": [
-    "The lesson includes an introduction to paper collages, guided projects for creating different types of collages, and a set of exercises to reinforce learning. Demonstrations and hands-on activities will support students' engagement and skill development."
+    "The lesson will use direct instruction, demonstration, hands-on creation, and guided questioning to teach the art of paper collage."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction to Paper Collages:</b><br>Explain what a paper collage is and the materials needed. A paper collage is an artwork made by assembling different pieces of paper onto a surface, creating a unified design or image with varying colors, textures, and patterns.",
-      "<b>Creating a Paper Collage (Chain):</b><br>Cut paper into different shapes and sizes to represent links of a chain. Arrange and glue these pieces on your base surface to form a chain pattern. Experiment with colors and shapes for variety. Tips include overlapping pieces for a layered effect and using contrasting colors.",
-      "<b>Crafting a Paper Collage (Belt):</b><br>Design a belt collage by arranging paper scraps into a pattern or image on your base surface. Glue the pieces to create a belt shape or design. Enhance the collage with textures and layers using different types of paper, like foil or textured paper.",
-      "<b>Making a Paper Collage (House Model):</b><br>Cut paper into shapes to represent different parts of a house. Arrange and glue these shapes onto a base to create a house model collage. Include details such as windows, doors, and a roof, and use patterns and textures to decorate the model.",
-      "<b>Exercise Questions:</b><br>1. What is a paper collage?<br>2. Name two materials you need to create a paper collage.<br>3. How do you start making a paper collage of a chain?<br>4. What should you consider when arranging paper pieces for a collage?<br>5. True or False: A paper collage should only use one type of paper.<br>6. How can you make a paper belt collage look more interesting?<br>7. Describe the process of making a paper collage of a house model.<br>8. What is one tip for creating a great paper collage?<br>9. Why is it important to use different types of paper in a collage?<br>10. Write a sentence about how you can use a paper collage for decoration."
+      "<b>Part 1: What is a Paper Collage? (10 minutes)</b>:<br><br>Teacher Says: 'Good morning, Feather Flyers! Today, we are going to become art magicians. We are going to learn how to make something called a collage (say: kuh-lahj).'<br><br>Explanation: 'A collage is a special kind of art.Instead of drawing a picture with a crayon, we make a picture by gluing different things onto paper. Today, we will use lots of colorful paper pieces!'<br><br>What Do We Need? (Materials) Let's look at the things we will use:<br><br>· Paper: All kinds! Construction paper, old magazines, shiny paper, tissue paper.<br>· Scissors: (Safe ones for kids!) To cut our paper into fun shapes.<br>· Glue: To stick everything down. We can use a glue stick or white glue.<br>· Our Hands: To tear, press, and create!<br>· A Base: A big, strong piece of paper or cardstock to stick everything on.<br><br>Visual Aid: The teacher shows examples of simple collages (a picture of a sun made from a yellow circle and yellow triangle strips for rays, a house made from a square and a triangle).",
+      "<b>Part 2: Let's Make a Paper Chain! (10 minutes)</b>:<br><br>Teacher Says: 'First, let's practice! We will make a beautiful paper chain. A chain is made of many loops that are connected.'<br><br>Instructions:<br><br>1. I will give you a few long, thin strips of colored paper.<br>2. Take one strip and make a circle. Glue the two ends together. This is your first loop!<br>3. Take your next strip and slide it through your first loop. Then, glue its ends together to make a second loop that is connected to the first.<br>4. Keep going! Add more and more loops to make your chain longer.<br><br>Why we are doing this: 'This helps us learn how to glue paper pieces together to make a new pattern. Our chain is a type of collage!'",
+      "<b>Part 3: Our Big Projects: A Belt and A House! (15 minutes)</b>:<br><br>Teacher Says: 'Now that we are collage experts, let's make two amazing pictures!'<br><br>Project 1: Design a Fancy Belt<br><br>'Think about a superhero's belt or a beautiful princess's sash. We will design our own!'<br><br>· Look at your long base paper. This is your belt.<br>· Use your paper scraps. Cut or tear out shapes like squares, circles, and diamonds for buckles and gems.<br>· Glue them onto your 'belt' in a pattern. Maybe a red circle, then a blue square, then a red circle again!<br>· You can add texture by crumpling up a small piece of tissue paper to look like a jewel.<br><br>Project 2: Build a Dream House<br><br>'Everyone needs a house! Let's build one with paper shapes.'<br><br>· Look at your second base paper. This is the ground for your house.<br>· What shapes make a house? A big square for the walls. A triangle for the roof.<br>· Cut out a square and a triangle from your paper and glue them down to make your house.<br>· Now, add details! A small rectangle for a door. Little squares for windows. Maybe a small circle for a doorknob.<br>· Don't forget the sky! Tear some blue paper to make clouds and a yellow circle for the sun.",
+      "<b>Part 4: Making It Fancy! (Texture and Color) (5 minutes)</b>:<br><br>Teacher Says: 'How can we make our collages even more wonderful? Let's use our magic tools: texture and color!'<br><br>· Texture is how something feels. Is it smooth? Is it bumpy?<br>  · To make texture: Crumple a piece of paper, then flatten it out slightly before you glue it. It will look like a rocky path or a fluffy cloud!<br>· Color: We use many colors to make our art happy and exciting.<br>  · Use red, yellow, and orange for a fiery belt buckle!<br>  · Use green paper to tear out grass for the bottom of your house picture.<br>· Details: You can use a crayon to draw tiny lines on your house's door or dots on your belt's gems.",
+      "<b>Part 5: Exercise & Activity Time! (10 minutes)</b>:<br><br>It's time to show what you know! Let's play a quick game.<br><br>Activity: 'What Do You Need?' I will describe a collage project.You must tell me what material you would need from our list.<br><br>1. 'I want to make a collage of a fish. I need to stick shiny scales on it. What do I use to stick them on?' (Answer: Glue)<br>2. 'I found a perfect red square in a magazine for my house's door, but it's too big. What tool do I use to make it smaller?' (Answer: Scissors)<br>3. 'I want to make the sun in my picture look soft and fluffy. Should I use a smooth piece of paper or should I crumple the paper first?' (Answer: Crumple the paper)<br>4. 'I am all done with my beautiful collage. What is the name of the big paper that I glued everything onto?' (Answer: The Base)<br><br>Great job, artists! Now you know all about collages. You have practiced making a chain, a belt, and a house. Now it's your turn to create! Let's get our materials and make some wonderful paper art!"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to follow instructions and their creativity in creating different paper collages. Evaluation will include their use of materials, techniques, and final outcomes.",
-    "<b>Feedback:</b> Provide individual feedback on students' collage projects, focusing on their application of techniques, use of materials, and overall creativity."
+    "<b>Observation</b>: The teacher will observe students' ability to follow instructions and manipulate materials during the paper chain and collage projects.",
+    "<b>Exercise</b>: The 4-question activity will evaluate the students' understanding of the materials and concepts used in creating a collage."
   ],
   "conclusion": [
-    "By creating various types of paper collages, students will gain skills in visual composition, fine motor development, and artistic expression. The lesson reinforces creativity and problem-solving through hands-on art projects."
+    "By learning about and creating paper collages, students develop essential creative and motor skills, gaining confidence in their ability to transform simple materials into art."
   ]
 },
 
