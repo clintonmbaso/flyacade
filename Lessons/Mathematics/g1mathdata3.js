@@ -4,103 +4,106 @@ const lessonPlans4c = [
 // Week 2
 // Lesson 1
 {
-  "title": "Introduction to Patterns",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Wednesday, September 11, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Understanding and Identifying Patterns",
-  "grade": "Feather Flyers",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "1",
-  "description": "This lesson introduces the concept of patterns, helping students recognize and identify repeating patterns in various forms.",
-  "materials": [
-    "Pattern cards or visual examples",
-    "Objects for creating patterns (e.g., colored blocks, shapes)",
-    "Pattern worksheets"
-  ],
-  "objectives": [
-    "Students will understand the concept of patterns and their significance in everyday life.",
-    "Students will learn to recognize and identify repeating patterns using visual examples.",
-    "Students will begin to create their own simple patterns."
-  ],
-  "rationale": [
-    "Understanding patterns helps students develop logical thinking, prediction skills, and problem-solving abilities. Recognizing patterns is a foundational skill in mathematics and other disciplines."
-  ],
-  "methodology": [
-    "The lesson will combine direct instruction with hands-on activities to help students grasp the concept of patterns and apply it to various scenarios."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Warm-up:</b><br>Begin by discussing what a pattern is, asking students if they have seen any patterns in their daily lives (e.g., stripes on a zebra, patterns in clothing).",
-      "<b>Pattern Recognition:</b><br>Show visual examples of patterns (e.g., ABAB, AABB) using cards or objects. Have students identify the repeating elements in each pattern and explain what comes next.",
-      "<b>Interactive Practice:</b><br>Provide students with objects like colored blocks or shapes, and ask them to create their own simple repeating patterns. Encourage them to share their patterns with the class.",
-      "<b>Class Discussion:</b><br>Discuss why patterns are important and where they might be found in the world around us. Reinforce the idea that patterns can help us predict what comes next.",
-      "<b>Task:</b><br>Distribute pattern worksheets for students to complete, identifying and continuing various patterns. This can be assigned as homework or completed in class."
+    "title": "Introduction to Patterns",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Mathematics",
+    "topic": "Understanding Patterns",
+    "grade": "Feather Flyers",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "1",
+    "description": "This lesson introduces Grade 1 students to the concept of patterns, teaching them to recognize, identify, and create simple repeating patterns using visual and physical examples.",
+    "materials": [
+        "Whiteboard or chart paper",
+        "Markers",
+        "A collection of objects for patterns (e.g., colored blocks, counting bears, buttons, leaves)",
+        "Printed worksheets with pattern-starting exercises",
+        "Scissors and glue (for the exercise)",
+        "A fun, patterned item to show (e.g., a striped scarf, a rug with a repeating design)"
+    ],
+    "objectives": [
+        "Students will understand the concept of patterns and their significance in everyday life.",
+        "Students will learn to recognize and identify repeating patterns using visual examples.",
+        "Students will begin to create their own simple patterns."
+    ],
+    "rationale": [
+        "Understanding patterns is a fundamental mathematical skill that helps in recognizing order, making predictions, and developing logical thinking, which are essential for future math concepts."
+    ],
+    "methodology": [
+        "The lesson will use hands-on activities, visual demonstrations, group participation, and guided practice to engage students in learning about patterns."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: What is a Pattern? (The Hook!)</b>:<br><br>(Teacher says: 'Good morning, Feather Flyers! Today, we are going to become Pattern Detectives! Our mission is to find patterns everywhere!' )<br><br>1. Introduction: 'Look around the room.Can you see anything that repeats? Look at your friend's shirt. Look at the rug. Look at the windows!' (Allow students to point things out.)<br><br>2. Show and Tell: Hold up your patterned item(e.g., the striped scarf). 'Look at my scarf!It has colors that repeat. See? Blue, red, blue, red, blue, red. The colors do the same thing over and over again. That is called a pattern!'<br><br>3. Simple Definition: 'A pattern is when something repeats itself,like a song chorus or a dance move we do again and again. Patterns are all around us and they help make things beautiful and fun!'<br><br>4. Everyday Examples:<br><br>· 'Day and Night: Day, night, day, night...'<br>· 'The seasons: Summer, fall, winter, spring, summer...'<br>· Clap a rhythm: Clap, stomp, clap, stomp... (Have the students join in).<br><br>(Teacher says: 'You are already great detectives! Let's learn how to talk about patterns.' )",
+            "<b>Part 2: Recognizing and Naming Patterns</b>:<br><br>(Teacher says: 'Patterns have a special name called the core. The core is the part that repeats, like the heart of the pattern!' )<br><br>1. Visual Pattern on the Board: Draw this pattern on the board using colors or shapes: 🔺 ▲ 🔺 ▲ 🔺 ▲<br><br>2. Identify the Core: 'Let's look at this pattern together.What do you see first? A triangle! Then another triangle! But are they the same? No! One is red and one is blue. They are a team that repeats! The team 'red triangle, blue triangle' is the core.'<br><br>Circle the first 🔺 ▲ to show the core. 'This little part repeats over and over to make the whole pattern.'<br><br>3. Say It Aloud: 'Let's say the pattern together:Red triangle, blue triangle, red triangle, blue triangle...' (Point to each shape as you say it).<br><br>4. Another Example: Draw this pattern:⭐ 🌙 ⭐ 🌙 ⭐ 🌙 'What is the core of this pattern?'(Guide them to see it's 'star, moon'). 'Let's say it:Star, moon, star, moon...'<br><br>(Teacher says: 'Wow! You found the core! Now, what if a pattern is missing a piece? Can you help fix it?' )",
+            "<b>Part 3: What Comes Next? (Extending Patterns)</b>:<br><br>(Teacher says: 'Sometimes a pattern needs our help to keep going. We have to figure out what comes next!' )<br><br>1. Continue a Pattern: Draw an incomplete pattern on the board: 🐶 🐱 🐶 🐱 🐶 _____<br><br>'Oh no! Our pattern of dog, cat, dog, cat, dog... is missing the last piece! What comes next? What was the core?' (The core is dog, cat). 'So after dog,we need... a cat! Great job!'<br><br>2. Hands-On Practice: Use your collection of objects.Start a pattern on your desk where everyone can see it (e.g., red block, blue block, red block, blue block). 'Who can come up and add the next item to my pattern?'(Call on a student to place the next block).<br><br>Do this with 2-3 different simple patterns (e.g., bear, bear, fish / bear, bear, fish...).<br><br>(Teacher says: 'You are all pattern experts! Now for the most fun part... you get to make your own!' )",
+            "<b>Part 4: Let's Create Patterns!</b>:<br><br>(Teacher says: 'It's time for us to be artists and use our creativity!' )<br><br>1. Group Activity: 'Human Patterns' 'Let's make a pattern with ourselves!I need a pattern of: Sit, Stand, Sit, Stand...' (Guide the first row of students to sit, the second to stand, and so on). 'Now let's make a pattern with sounds:Clap, Snap, Clap, Snap...' (Do this all together).<br><br>2. Individual Creation: Give each student a handful of different colored blocks or counters. 'Your mission,Pattern Detectives, is to create your own pattern on your desk. You can use colors, shapes, or types of object. When you're done, you will show your partner and see if they can guess your core!'<br><br>Walk around the room to help students who are struggling and praise those who have created a pattern.",
+            "<b>Part 5: Exercise (Let's Practice!)</b>:<br><br>Activity: 'Complete the Pattern' Worksheet Hand out a simple worksheet.The worksheet should have two activities:<br><br>Section A: What comes next? (Pictures of patterns with the last one or two items missing). Example:<br><br>1. 🍎 🍌 🍎 🍌 🍎 ______<br>2. ◯ ▢ △ ◯ ▢ △ ◯ ______ ______<br><br>Section B: Create Your Own Pattern! (Provide a row of empty boxes and a sheet of images to cut out:e.g., stars, hearts, circles, squares in different colors). Instructions:'Cut out the pictures and glue them in the boxes to make your very own repeating pattern.'<br><br>Wrap-Up: 'Feather Flyers,you were amazing Pattern Detectives today! You found patterns, you named them, and you even created your own. Tonight, see how many patterns you can find at home! Maybe on a blanket, on a plate, or even in your dinner—peas, carrot, peas, carrot!'<br><br>Key Words for the Day: Pattern, Repeats, Core"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' ability to identify the core of a pattern and correctly extend it during group activities.",
+        "<b>Exercise</b>: The worksheet will assess the students' ability to identify the missing part of a pattern and to create a new pattern independently."
+    ],
+    "conclusion": [
+        "By learning to identify, extend, and create patterns, students build a foundational mathematical skill that enhances their ability to recognize order, sequence, and logic in the world around them."
     ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> Monitor students as they create and identify patterns, noting their ability to recognize repeating elements.",
-    "<br><b>Worksheet Review:</b> Review the completed worksheets to assess understanding of patterns and their ability to continue them correctly."
-  ],
-  "conclusion": [
-    "By understanding and identifying patterns, students will develop important logical and predictive skills that will support their mathematical thinking and everyday problem-solving."
-  ]
 },
 
 // Lesson 2
 {
-  "title": "Types of Patterns",
+  "title": "Introduction to Patterns",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Thursday, September 12, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Exploring Different Types of Patterns",
+  "topic": "Understanding Patterns",
   "grade": "Feather Flyers",
   "term": "3",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson explores various types of patterns, focusing on both visual and numeric patterns. Students will identify, extend, and create different patterns.",
+  "description": "This lesson introduces students to different types of patterns, including visual (colors, shapes) and numeric (counting). Students will practice identifying, extending, and creating patterns.",
   "materials": [
-    "Pattern cards (visual and numeric)",
-    "Objects for pattern creation (e.g., colored blocks, number cards)",
-    "Pattern worksheets",
-    "Interactive whiteboard or chart paper"
+    "Whiteboard or chart paper",
+    "Markers in different colors",
+    "A bag of multicolored building blocks, beads, or fruit loops cereal",
+    "Printed worksheets for the exercise (or materials to draw on)",
+    "A fun, patterned hat or scarf (optional)"
   ],
   "objectives": [
-    "Students will learn about different types of patterns, including visual and numeric patterns.",
+    "Students will learn about different types of patterns, including visual (colors, shapes) and numeric (counting).",
     "Students will practice identifying, extending, and creating patterns.",
-    "Students will understand the rules governing patterns and apply them to solve pattern-related problems."
+    "Students will understand the simple 'rule' that governs a pattern (e.g., 'What comes next?')."
   ],
   "rationale": [
-    "Understanding different types of patterns enhances students' mathematical reasoning and problem-solving skills. Patterns are fundamental in recognizing order, making predictions, and understanding relationships in numbers and shapes."
+    "Understanding patterns helps students recognize order and predictability in mathematics and the world around them, building a foundation for more complex mathematical concepts."
   ],
   "methodology": [
-    "The lesson will combine direct instruction, hands-on activities, and interactive discussions to help students explore and understand different types of patterns."
+    "The lesson will use visual demonstrations, guided practice, interactive creation, and individual exercises to teach pattern recognition and creation."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Warm-up:</b><br>Begin with a quick review of basic patterns, asking students to recall what they learned in the previous lesson. Introduce the concept that patterns can be both visual (e.g., shapes, colors) and numeric (e.g., sequences of numbers).",
-      "<b>Exploring Visual Patterns:</b><br>Show examples of visual patterns (e.g., ABAB, ABCABC) using pattern cards or objects. Have students identify and extend these patterns, discussing the rule that governs each pattern.",
-      "<b>Exploring Numeric Patterns:</b><br>Introduce simple numeric patterns (e.g., 2, 4, 6, 8; 5, 10, 15, 20). Use number cards or write them on the board. Discuss the pattern rule (e.g., adding 2 each time) and have students extend the patterns.",
-      "<b>Interactive Practice:</b><br>Provide students with objects or number cards to create their own patterns. Encourage them to share their patterns with the class, explaining the rule they used to create them.",
-      "<b>Task:</b><br>Distribute pattern worksheets for students to complete, which include both visual and numeric patterns. Students will identify, extend, and create patterns based on the instructions."
+      "<b>Part 1: What is a Pattern? (Introduction)</b>:<br><br>(Teacher stands at the front, wearing a fun striped scarf or holding up a picture of a zebra.)<br><br>'Good morning, Feather Flyers! Look at my scarf. What do you see?' (Wait for answers like 'stripes!' or 'red and blue!')<br><br>'That's right! It has stripes of red, blue, red, blue, red, blue. It repeats! When something repeats over and over in the same order, we call that a pattern!'<br><br>'Patterns are everywhere! Can you think of some?'<br><br>· Day and Night (day, night, day, night...)<br>· The seasons (summer, fall, winter, spring, summer...)<br>· On your clothes!<br><br>'Today, we are going to become Pattern Detectives! We will learn to spot patterns, figure out their secret rule, and even make our own!'",
+      "<b>Part 2: Finding the Pattern Rule (Visual Patterns)</b>:<br><br>(Teacher draws on the whiteboard.)<br><br>'Let's look at this pattern. What do you see?' 🍎 🍌 🍎 🍌 🍎 🍌<br><br>'That's right! An apple, a banana, an apple, a banana! The pattern repeats. The rule for this pattern is apple, banana. What do you think comes next?' (Point to the next empty space. Students will say 'apple!')<br><br>'Excellent! You figured out the rule! Let's try a trickier one.'<br><br>(Teacher draws a new pattern:) 🔴 🔴 🔵 🔴 🔴 🔵 ___ ___<br><br>'Oh my! Look at this pattern. Red, Red, Blue... Red, Red, Blue... What is the rule? It's a group that repeats: Red, Red, Blue. So what comes next?' (Guide them to see that after Blue, the pattern starts over. The next two shapes should be Red and Red.)<br><br>'The rule tells us what comes next. Being a Pattern Detective is all about finding the rule!'",
+      "<b>Part 3: Number Patterns are Fun Too! (Numeric Patterns)</b>:<br><br>'Patterns aren't just with colors and shapes. Numbers love to make patterns too! The easiest pattern is counting! Let's count together: 1, 2, 3, 4, 5... The rule is add one each time!'<br><br>'Let's look at this pattern on the board:' 2, 4, 6, 8, __, __<br><br>'Hmm. We're counting, but we're skipping numbers! 2...4...6...8. What's the rule? We are counting by twos! So, if 8 is two more than 6, what is two more than 8?' (Students will say 10) 'And two more than 10?' (Students will say 12)<br><br>'Wonderful! You just extended a number pattern! The rule was add two.'",
+      "<b>Part 4: Let's Create Patterns! (Guided Practice)</b>:<br><br>'Now it's your turn to be Pattern Creators! I need your help.'<br><br>(Pull out the bag of colored blocks or beads.)<br><br>'I'm going to start a pattern, and you will help me finish it. My pattern is: Red block, Blue block, Red block, Blue block... What comes next?' (Let a student come place a blue block. Then ask what comes after that, and have another student place a red block.)<br><br>'Perfect! Now, let's make a trickier one. Who can help me make a pattern with the rule: Circle, Square, Triangle?' (Call on three different students to each draw one shape on the board in the correct order to start the pattern. Then ask the class what the next three shapes should be.)<br><br>'You are all amazing Pattern Detectives and Creators!'",
+      "<b>Part 5: Exercise Time! (Your Turn to Fly Solo!)</b>:<br><br>'Alright, Feather Flyers, it's time for your mission! On your worksheet, you have three important jobs.'<br><br>Instructions for the worksheet (to be read aloud):<br><br>1. What Comes Next? Look at the pattern and draw the next two items in the box.     *   Example:△ ○ □ △ ○ □ __ __     *   Example:🌟 🌟 🌙 🌟 🌟 🌙 __ __<br><br>2. Find the Pattern Rule. Circle the set of shapes that repeats over and over.     *   Example:In the pattern (🔺🟥🔺🟥), the repeating core is (🔺🟥).<br><br>3. Create Your Own Pattern! Use your crayons to create two patterns in the empty boxes.     *   Draw one color pattern(e.g., red, blue, green, red, blue, green...).     *   Draw one shape pattern(e.g., circle, star, circle, star...).<br><br>(As students work, walk around the room to provide help and encouragement. Praise their creative patterns!)<br><br>Wrap-up: 'Wow! Look at all the wonderful patterns you found and made! You can be a Pattern Detective everywhere you go—look for patterns at home, on the playground, and in your books. Great job today, Feather Flyers!'"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> Monitor students as they identify, extend, and create patterns, noting their ability to understand and apply pattern rules.",
-    "<br><b>Worksheet Review:</b> Review the completed worksheets to assess students' understanding of different types of patterns and their ability to work with them correctly."
+    "<b>Observation</b>: The teacher will observe students' ability to identify and extend patterns during guided practice.",
+    "<b>Exercise</b>: The worksheet will evaluate the students' ability to identify pattern rules, extend patterns, and create their own."
   ],
   "conclusion": [
-    "Understanding various types of patterns, both visual and numeric, is crucial in developing students' mathematical thinking. Through this lesson, students will be able to recognize, extend, and create patterns, strengthening their problem-solving and logical reasoning skills."
+    "By learning to identify, extend, and create patterns, students build a foundational mathematical skill that helps them recognize order and predict outcomes in various contexts."
   ]
 },
-
 
 // Week 3
 // Lesson 1
