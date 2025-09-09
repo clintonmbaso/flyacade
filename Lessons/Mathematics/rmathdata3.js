@@ -4,208 +4,212 @@ const lessonPlans3c = [
 // Week 2
 // Lesson 1
 {
-  "title": "Reinforcing Counting from 1 to 10",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Reinforcing Counting from 1 to 10",
-  "grade": "Nestlings Navigators",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "1",
-  "description": "This lesson aims to reinforce students' ability to count from 1 to 10 using objects.",
-  "materials": [
-    "Small objects like toys or building blocks",
-    "Number cards (1-10)",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Students will reinforce their ability to count from 1 to 10.",
-    "Students will practice one-to-one correspondence by matching objects to numbers.",
-    "Students will engage in interactive activities to strengthen their counting skills."
-  ],
-  "rationale": [
-    "Reinforcing counting from 1 to 10 is essential for developing number sense and lays the foundation for more advanced mathematical concepts."
-  ],
-  "methodology": [
-    "The lesson will involve engaging songs, hands-on activities, and interactive practice to ensure understanding and participation."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Warm-up:</b><br>Start with a counting song or rhyme from 1 to 10. Encourage students to sing along and use their fingers to count.",
-      "<b>Counting with Objects:</b><br>Distribute small objects like toys or building blocks. Have children count them aloud, emphasizing one-to-one correspondence (each number corresponds to one object).",
-      "<b>Interactive Practice:</b><br>Display numbers 1-10 on cards. Ask students to match the correct number of objects to each card, ensuring they understand the relationship between numbers and quantities.",
-      "<b>Group Activity:</b><br>Divide students into small groups and provide them with a set of objects and number cards. Have them work together to match the objects to the correct numbers.",
-      "<b>Class Discussion:</b><br>Review the group activity and discuss different strategies for counting and matching. Reinforce the importance of one-to-one correspondence.",
-      "<b>Task:</b><br>Assign a simple task for students to practice counting objects at home, such as counting toys, snacks, or other household items.",
-      "<b>Conclusion:</b><br>Summarize the key points of the lesson and encourage students to practice counting in their daily activities."
+    "title": "Counting Fun with Numbers 1-10",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Mathematics",
+    "topic": "Counting Fun with Numbers 1-10",
+    "grade": "Nestlings Navigators",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "1",
+    "description": "This lesson reinforces counting from 1 to 10 and practices one-to-one correspondence by matching objects to numbers through interactive activities.",
+    "materials": [
+        "Large number cards (1-10)",
+        "Interactive Whiteboard",
+        "Storybook: 'Ten Friendly Fish' by Debbie Tarbett (or similar counting book)",
+        "A large blanket or play mat to define the activity space",
+        "Lots of small, safe objects (e.g., building blocks, large buttons, plastic animals, pom-poms)",
+        "Pre-made worksheets with pictures of jars/baskets, each labelled with a number from 1 to 5"
+    ],
+    "objectives": [
+        "To reinforce the ability to count from 1 to 10.",
+        "To practice one-to-one correspondence by matching objects to numbers.",
+        "To engage in interactive activities to strengthen counting skills."
+    ],
+    "rationale": [
+        "Mastering early counting and one-to-one correspondence is a fundamental building block for all future mathematical concepts, providing a crucial foundation for numerical literacy."
+    ],
+    "methodology": [
+        "The lesson will use a multi-sensory approach combining song, interactive storytelling, hands-on manipulatives, and individual practice to cater to different learning styles."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: Introduction & Warm-Up (10 minutes)</b>:<br><br>Activity: Number Song and Greeting Goal:To engage students and get them thinking about numbers in a fun, familiar way.<br><br>1. Gather the Class: Have the children sit in a circle on the carpet.<br>2. The Number Song: Start with a lively counting song. A perfect choice is 'Let's Count to 10' (to the tune of 'One, Two, Buckle My Shoe').<br>   · 'One, two, buckle my shoe.' (Children can act out buckling a shoe)<br>   · 'Three, four, knock at the door.' (Knock on the floor)<br>   · 'Five, six, pick up sticks.' (Pretend to pick up sticks)<br>   · 'Seven, eight, lay them straight.' (Use arms to make a straight line)<br>   · 'Nine, ten, a big fat hen!' (Flap arms like a hen)<br>3. Sing and Repeat: Sing the song twice. The first time, sing it slowly so everyone can join in. The second time, encourage the children to shout out the numbers.<br>4. Focus Question: Hold up your hands with all ten fingers spread out. Ask: 'Wow! How many fingers am I holding up? Can we count them together?' Lead a slow, deliberate count from 1 to 10, wiggling each finger as you say the number.",
+            "<b>Part 2: Main Teaching (15 minutes)</b>:<br><br>Activity: Story Time - 'Ten Friendly Fish' Goal:To model counting and one-to-one correspondence in a contextual, engaging story.<br><br>1. Introduce the Book: Show the cover of 'Ten Friendly Fish'. Ask: 'What do you see on the cover? How many fish do you think are in this story?'<br>2. Interactive Reading: As you read each page, point to each fish individually.<br>   · 'Look! One friendly fish swimming by himself. Can you point to the one fish with me?'<br>   · On the next page: 'Now two friendly fish are waving their fins. Let's count them: One... Two!'<br>3. Student Participation: On pages with higher numbers (e.g., 5, 6, 7), ask for volunteers to come up and point to the fish as the class counts them together. This physically demonstrates one-to-one correspondence.<br>4. The Big Finish: When you get to the page with ten fish, do a big, celebratory count all together: 'We did it! One, two, three, four, five, six, seven, eight, nine, TEN FRIENDLY FISH!'",
+            "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br>Activity: Number Mat Match Goal:To allow students to practice one-to-one correspondence with physical objects with teacher support.<br><br>1. Set Up: Place the large number cards (1-5 to start) on the floor in the middle of the circle. Place the basket of small objects (e.g., pom-poms) in the middle.<br>2. Explain the Game: 'We are going to be maths magicians! Our job is to put the right number of treasures on each number card.'<br>3. Demonstrate: Pick up the number '3' card. Say: 'This number is three. My job is to count out three treasures.' Slowly and deliberately place one pom-pom on the card, saying 'one'. Place a second, saying 'two'. Place a third, saying 'three'. 'I have three treasures for number three!'<br>4. Student Turn: Ask a student to pick a number card. Help them identify the number. 'Wow, you picked number four! Can you find four blocks to put on this card?' Guide them to count out each object as they place it.<br>5. Continue: Repeat with several students, using numbers 1-5. If the group is confident, introduce cards 6-10.",
+            "<b>Part 4: Independent Practice & The Main Exercise (10 minutes)</b>:<br><br>Activity: Worksheet - Fill the Jars! Goal:To assess individual understanding of counting and matching quantities to numerals.<br><br>1. Transition: Children move to tables where a worksheet and a small cup of crayons/stickers are waiting.<br>2. Explain the Task: Show the worksheet on the board. It has jars labelled with numbers 1 to 5.<br>   · 'Look at these empty jars! They have numbers on them. This jar says '3'. That means it needs three things inside it.'<br>3. Demonstrate: On the board, draw three apples in the jar labelled '3'. 'One... two... three! Perfect!'<br>4. Student Task: 'Your job is to be the artist! Look at the number on the jar, and draw that many things inside it. They can be apples, balls, smiley faces, or anything you like! Just make sure you draw the correct number.'<br>5. Support: Circulate around the room. Ask guiding questions: 'What number is on that jar? How many have you drawn so far? Let's count them together.'<br>6. Extension: For fast finishers, encourage them to colour the jars or turn over their sheet and try drawing jars for numbers 6, 7, and 8.",
+            "<b>Part 5: Plenary & Review (5 minutes)</b>:<br><br>Activity: Show and Tell Count Goal:To review the learning objectives and celebrate success.<br><br>1. Gather Attention: Bring the class back to the carpet.<br>2. Share Work: Hold up 2-3 completed worksheets. Ask the class to count the objects in the jar together. 'Let's check if this jar is full! Everyone, count with me: One, two, three, four! Yes, four for number four! Well done!'<br>3. Final Song: End with one final, energetic verse of the 'Let's Count to 10' song, celebrating all the brilliant counting they did today.<br>4. Positive Reinforcement: 'You were all amazing mathematicians today! You counted so well and filled those jars perfectly. Give yourselves a big pat on the back!'"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' accuracy during the Number Mat Match guided practice, noting their ability to match quantities to numerals.",
+        "<b>Exercise</b>: The completed 'Fill the Jars!' worksheet will serve as a concrete assessment of each student's individual understanding of one-to-one correspondence for numbers 1-5."
+    ],
+    "conclusion": [
+        "Through song, story, and hands-on activities, students have reinforced their counting skills and understanding of the critical concept of one-to-one correspondence, building a strong foundation for future math learning."
     ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in activities, their ability to count objects accurately, and their performance in the interactive practice.",
-    "<br><b>Homework:</b><br>Review students' homework submissions to assess their ability to apply counting skills to real-life situations."
-  ],
-  "conclusion": [
-    "By reinforcing counting from 1 to 10, students will develop a strong foundational understanding of numbers and prepare for more complex mathematical concepts."
-  ]
 },
 
 // Lesson 2
 {
-  "title": "Extending Counting from 11 to 20",
+  "title": "Counting from 11 to 20",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Extending Counting from 11 to 20",
+  "topic": "Counting from 11 to 20",
   "grade": "Nestlings Navigators",
   "term": "3",
   "week": "2",
   "lessonNumber": "2",
-  "description": "This lesson aims to extend students' counting skills from 11 to 20 using objects.",
+  "description": "This lesson extends counting ability from 11 to 20, focusing on grouping objects into sets of 10 plus extras to understand the structure of 'teen' numbers and matching groups to numerals.",
   "materials": [
-    "Additional small objects like toys or building blocks",
-    "Number cards (11-20)",
-    "Whiteboard and markers"
+    "Large number cards (11-20)",
+    "'Ten-Frame' mats (a grid with 10 large squares) or pre-made groups of 10 (e.g., 10 cubes stuck together)",
+    "Loose counting objects (e.g., buttons, pom-poms, building cubes, small toys)",
+    "A large jar filled with exactly 20 small items (e.g., shells, stones)",
+    "Interactive whiteboard or a large poster with numbers 11-20",
+    "Song: 'Count to 20' by Super Simple Songs on YouTube",
+    "Worksheets for independent activity"
   ],
   "objectives": [
-    "Students will extend their counting ability from 11 to 20.",
-    "Students will practice grouping objects into sets of 10 plus extras to aid in counting larger numbers.",
-    "Students will match objects to the correct number card for numbers 11-20."
+    "To extend counting ability from 11 to 20.",
+    "To practice grouping objects into sets of 10 plus extras to understand the structure of 'teen' numbers.",
+    "To match groups of objects to the correct numeral card (11-20)."
   ],
   "rationale": [
-    "Extending counting from 11 to 20 helps students build on their number sense and prepares them for understanding place value and larger numbers."
+    "Understanding the structure of numbers 11-20 as 'ten and some more' provides a foundational concept for future place value and arithmetic skills."
   ],
   "methodology": [
-    "The lesson will incorporate review, hands-on activities, and guided practice to ensure students understand and feel confident counting beyond 10."
+    "The lesson will use hands-on activities, guided practice, songs, and individual tasks to build counting skills and conceptual understanding."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Warm-up:</b><br>Review counting from 1 to 10 using a song or visual aid to refresh students' memory and build confidence.",
-      "<b>Counting with Objects:</b><br>Provide students with additional objects and guide them in counting from 11 to 20. Encourage students to group objects into sets of 10 plus extras to help manage larger numbers.",
-      "<b>Number Matching:</b><br>Similar to the previous lesson, but with numbers 11-20. Display number cards and have students match the correct number of objects to each card, reinforcing their understanding of these larger numbers.",
-      "<b>Group Activity:</b><br>Divide students into small groups and provide them with sets of objects and number cards. Have them work together to count and match objects to the corresponding number cards from 11 to 20.",
-      "<b>Class Discussion:</b><br>Review the group activity and discuss strategies for counting and grouping objects. Reinforce the concept of grouping as a way to count larger numbers efficiently.",
-      "<b>Task:</b><br>Assign a task for students to practice counting objects from 11 to 20 at home, such as counting items around the house.",
-      "<b>Conclusion:</b><br>Summarize the key points of the lesson and encourage students to practice counting beyond 10 in their daily activities."
+      "<b>Part 1: Introduction and Warm-Up (10 minutes)</b>:<br><br>Goal: To engage students and recap counting from 1-10 before introducing the 'teen' numbers.<br><br>Activity: The Mystery Jar<br><br>1. Gather the children on the carpet in a circle. Show them the jar filled with 20 items.<br>2. Ask: 'Good morning, Navigators! Look at this wonderful jar. I wonder, can we guess how many treasures are inside? Let's try counting them together!'<br>3. Start counting slowly as you pour the items out into a tray. Encourage the children to count with you.<br>4. As you approach 10, make it dramatic: '...eight, nine, ten! We've made it to ten! But look, there are more! What comes after ten?'<br>5. Gently guide them: 'That's right! Eleven! Let's keep going... eleven, twelve, thirteen...'<br>6. Continue all the way to twenty, pointing to each item as you count. Praise them enthusiastically for being such great counters!<br>7. Play the Song: 'You counted so well! Let's sing a song to practice.' Play 'Count to 20' by Super Simple Songs. Encourage them to use their fingers and do the actions.",
+      "<b>Part 2: Main Teaching Input (10 minutes)</b>:<br><br>Goal: To introduce the concept that numbers 11-20 are '10 and some more'.<br><br>Activity: Making Groups of Ten<br><br>1. Hold up a 'Ten-Frame' mat or a pre-made stick of 10 cubes. 'This is a full ten-frame. It has 10 squares. Let's count them: 1, 2, 3...10!'<br>2. Place 4 loose buttons next to the ten-frame. 'And here I have 4 more buttons.'<br>3. Model the language: 'So, I have one whole group of ten... and four more. Ten and four more makes... fourteen!' Point to the number 14 on your poster.<br>4. Repeat this with another number, e.g., 17. 'Can you help me make seventeen? First, I need one group of...? (ten!). Good! Now, how many more do I need to make seventeen? Let's count on from ten: eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen! I need seven more!'<br>5. Involve the children: Ask a volunteer to come and place the seven extra items next to the ten-frame. 'Perfect! Ten and seven more makes seventeen!'",
+      "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br>Goal: For students to practice making numbers 11-20 using the 'ten and some more' method with teacher support.<br><br>Activity: Number Table Tasks<br><br>1. Divide the children into small groups at tables.<br>2. On each table, place a ten-frame mat, a pot of loose objects, and a number card (e.g., 16).<br>3. Instructions: 'Look at your number card. Your job is to show that number on your ten-frame. First, fill up your ten-frame completely. That's your group of ten. Now, look at your number. How many more do you need? Count your extra ones and put them next to the frame.'<br>4. The teacher and any supporting adults move between tables, asking questions: 'What number are you making?' 'How many have you got in your group of ten?' 'How many extras do you have?' 'So, ten and six more makes...?'<br>5. After a few minutes, groups can swap their number card with another table and try again with a new number.",
+      "<b>Part 4: Independent Activity & Consolidation (10 minutes)</b>:<br><br>Goal: To assess individual understanding of matching groups to numerals.<br><br>Activity: Cut and Stick Match-Up<br><br>1. Children sit at their tables. Give each child a worksheet.<br>2. Worksheet Description:<br>   · On the left side are pictures of groups of cute animals (e.g., bees, ladybirds) shown in a clear 'ten and some more' arrangement (e.g., 10 bees in a hive + 3 bees flying next to it).<br>   · On the right side are jumbled number cards from 11-20.<br>   · In the middle is a column of empty boxes.<br>3. Task: 'Look at the picture of the animals. Count them carefully. Remember to look for the group of ten first! When you know how many there are, find the right number on the right, cut it out, and stick it in the box next to the picture.'<br>4. The teacher circulates to provide support and observe who is confident with the counting and matching.",
+      "<b>Part 5: Plenary and Review (5 minutes)</b>:<br><br>Goal: To review the learning and celebrate success.<br><br>Activity: Show and Tell<br><br>1. Gather the children back on the carpet. Hold up a few of the children's completed worksheets.<br>2. Ask: '[Child's name], you matched this picture to the number 15. Can you tell us how you knew it was fifteen?'<br>3. Encourage the child to use the key language: 'I saw ten ladybirds on the leaf, and five more on the stem. Ten and five is fifteen.'<br>4. Quick Fire Questions: Hold up a number card (e.g., 19). 'If I have ten building blocks, how many more do I need to make nineteen?'<br>5. Finish with praise: 'You have all been fantastic Number Navigators today! You can now count all the way to twenty and you know the secret of the teen numbers: they are all a group of ten and some more! Well done!'"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in activities, their ability to count and group objects correctly, and their performance in the number matching activity.",
-    "<br><b>Homework:</b><br>Review students' homework submissions to assess their ability to apply counting skills to numbers 11-20."
+    "<b>Observation</b>: The teacher will observe students' counting strategies and understanding during the Mystery Jar, Main Input, and Guided Practice activities.",
+    "<b>Worksheet</b>: The Cut and Stick Match-Up worksheet will evaluate individual students' ability to count groups and match them to the correct numeral."
   ],
   "conclusion": [
-    "By extending their counting skills from 11 to 20, students will develop a deeper understanding of numbers and prepare for more advanced mathematical concepts involving place value and larger quantities."
+    "By learning to structure numbers 11-20 as 'ten and some more', students build a crucial foundation for understanding place value and develop confidence in counting larger numbers."
   ]
 },
 
 // Lesson 3
 {
-  "title": "Introduction to Simple Addition",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Introduction to Simple Addition",
-  "grade": "Nestlings Navigators",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "3",
-  "description": "This lesson introduces students to the concept of simple addition using objects.",
-  "materials": [
-    "Small objects like toys or building blocks",
-    "Number cards (1-10)",
-    "Whiteboard and markers"
-  ],
-  "objectives": [
-    "Students will be introduced to the concept of addition.",
-    "Students will practice adding two small groups of objects to find the total.",
-    "Students will gain confidence in performing simple addition within the range of 1-10."
-  ],
-  "rationale": [
-    "Introducing simple addition using tangible objects helps students visualize the concept and builds a strong foundation for future mathematical operations."
-  ],
-  "methodology": [
-    "The lesson will combine review, demonstration, and interactive practice to ensure students grasp the basics of addition."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Warm-up:</b><br>Briefly review counting from 1 to 10 to ensure students are ready for addition.",
-      "<b>Addition with Objects:</b><br>Demonstrate adding two small groups of objects (e.g., 2 toys + 3 toys) by physically moving them together. Emphasize counting all the objects together to find the total, illustrating the concept of addition.",
-      "<b>Interactive Practice:</b><br>Let students practice adding two groups of objects and counting the total. Provide simple sums within 1-10 and guide students as they work through the addition process.",
-      "<b>Group Activity:</b><br>Divide students into small groups and give them sets of objects. Have each group create and solve their own simple addition problems, then share their results with the class.",
-      "<b>Class Discussion:</b><br>Discuss the addition problems solved by the groups. Reinforce the idea that addition involves combining two groups to find a total.",
-      "<b>Task:</b><br>Assign a task for students to practice simple addition at home using objects like toys or snacks.",
-      "<b>Conclusion:</b><br>Summarize the key points of the lesson and encourage students to continue practicing addition in their daily activities."
+    "title": "Introduction to Addition for Young Learners",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Mathematics",
+    "topic": "Understanding Addition",
+    "grade": "Nestlings Navigators",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "3",
+    "description": "This lesson introduces Reception students to the concept of addition as combining two groups. They will practice adding two small groups of objects to find the total, building confidence with numbers 1-10.",
+    "materials": [
+        "Storybook: The Very Hungry Caterpillar by Eric Carle",
+        "Large felt board or whiteboard",
+        "Felt/magnetic pieces (e.g., caterpillars, butterflies, fruits)",
+        "Small counting objects for each child (e.g., buttons, counting bears, building blocks)",
+        "A large '+' and '=' sign",
+        "Worksheet with simple picture addition problems (e.g., 2 apples + 3 apples)"
+    ],
+    "objectives": [
+        "Students will be introduced to the concept of addition as combining two groups.",
+        "Students will practice adding two small groups of objects to find the total.",
+        "Students will build confidence with numbers 1-10."
+    ],
+    "rationale": [
+        "Understanding addition as combining groups is a foundational mathematical skill that helps students develop number sense and prepares them for more complex arithmetic operations."
+    ],
+    "methodology": [
+        "The lesson will use storytelling, hands-on activities, guided practice, and visual aids to introduce and reinforce the concept of addition."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: The Hook (10 minutes) – 'The Caterpillar's Feast'</b>:<br><br>Teacher's Script: 'Good morning, Navigators! Today, we have a very special story to help us become maths explorers. We're going to read The Very Hungry Caterpillar! But we're not just reading; we're going to be his helpers. I need you to watch carefully and help me count all the delicious food he eats.'<br><br>Activity:<br>1. Read the story aloud, showing the pictures.<br>2. Pause on the pages where the caterpillar eats multiple items (e.g., 'On Monday, he ate through one apple.').<br>3. Use the felt board. Place one red felt apple on the board. Ask, 'How many apples did he eat on Monday?' (Children chorus: 'One!').<br>4. Continue to Tuesday. 'But on Tuesday, he was still hungry! He ate through two pears.' Place two green felt pears on the board. 'How many pears altogether?' (Children count: 'One, two!').<br>5. As the week progresses, focus on combining the groups. 'Wow! On Saturday he ate so much! He ate one piece of chocolate cake, one ice-cream cone, one pickle... Let's put them all on our board and see how many things he ate altogether!'<br>6. Use the language: 'We are adding all this food together to find the total.'<br><br>Goal: To engage students and introduce the idea of combining groups in a fun, familiar context.",
+            "<b>Part 2: Introduction to the Symbol (5 minutes) – 'Meet Plus and Equals'</b>:<br><br>Teacher's Script: 'You all did such a great job helping the caterpillar count his food! When we put groups together like that, mathematicians have a special word for it. It's called addition. And we have special symbols to show it!'<br><br>Activity:<br>1. Hold up the large '+' sign. 'This is the plus sign. It means 'put together' or 'add'.'<br>2. Hold up the large '=' sign. 'This is the equals sign. It means 'is the same as' or 'the total is'.'<br>3. Go back to a simple example from the story. 'Let's look at Thursday. The caterpillar ate through four strawberries.' (Place 4 strawberries on the left of the board).<br>4. 'And he also ate through... four oranges!' (Place 4 oranges next to the strawberries, separated by a space).<br>5. Place the + sign between the two groups. 'We are adding the strawberries plus the oranges.'<br>6. Push the two groups together into one big group and place the = sign. 'Let's count them all altogether. One, two, three, four, five, six, seven, eight! Four strawberries plus four oranges equals eight pieces of fruit!'<br><br>Goal: To visually and verbally introduce the mathematical symbols + and = in a concrete way.",
+            "<b>Part 3: Guided Practice (10 minutes) – 'Let's Add Together!'</b>:<br><br>Teacher's Script: 'Now it's your turn to be maths magicians! You're going to use your own special objects to add.'<br><br>Activity:<br>1. Give each child a small pot of counting objects (e.g., 10 buttons).<br>2. Instruct clearly: 'First, please take two buttons and put them in a row in front of you.' (Wait for all children to do this).<br>3. 'Great! Now, let's add some more. Please take three more buttons and put them right next to your first group.'<br>4. 'We have two buttons...' (point to the first group) '...plus...' (point to the second group) '...three buttons.'<br>5. 'Now, let's find the total! Let's push them all together and count them. One, two, three, four, five! Two plus three equals five! Well done!'<br>6. Repeat this process with 2-3 other simple combinations, using different objects if possible (e.g., 'Add 1 block plus 4 blocks', 'Add 3 bears plus 2 bears').<br><br>Goal: To provide hands-on, teacher-led practice where every child physically combines groups to find the total.",
+            "<b>Part 4: Independent Practice & Consolidation (5-7 minutes) – 'Butterfly Addition' Worksheet</b>:<br><br>Teacher's Script: 'You are all becoming fantastic adders! To finish our lesson, our butterflies need your help. They have been collecting spots for their wings. Let's see how many spots they have altogether.'<br><br>Activity:<br>1. Hand out a simple worksheet.<br>   · It should have clear, large pictures. For example:<br>     · One wing with 2 spots + another wing with 1 spot = [ ]<br>     · One wing with 3 spots + another wing with 2 spots = [ ]<br>     · One wing with 1 spot + another wing with 4 spots = [ ]<br>2. Explain the worksheet: 'Look at this first butterfly. How many spots are on this wing? (2) And how many on this wing? (1). Your job is to count them all altogether and write the total number in the circle.'<br>3. For students who finish quickly, encourage them to draw their own butterfly with two groups of spots on the back of the sheet.<br><br>Goal: To assess individual understanding and provide a record of their learning.",
+            "<b>Part 5: Plenary & Cool Down (3 minutes) – 'The Addition Chant'</b>:<br><br>Teacher's Script: 'What a wonderful maths adventure today! Let's finish with our new favourite chant. I'll say the first part, and you say the answer!'<br><br>Activity: Clap a rhythm. Teacher:'One plus one!' (Hold up one finger on each hand) Children:'Equals two!' (Hold up two fingers) Teacher:'Two plus two!' Children:'Equals four!' Teacher:'One plus three!' Children:'Equals four!'<br><br>Goal: To end the lesson on a high, energetic note that reinforces the core concept and key vocabulary."
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' engagement and understanding during the guided practice and story activities.",
+        "<b>Worksheet</b>: The 'Butterfly Addition' worksheet will evaluate the students' individual ability to combine groups and find the total."
+    ],
+    "conclusion": [
+        "By learning about addition through storytelling, hands-on activities, and practice, students will understand the concept of combining groups to find a total, building a strong foundation for future mathematical learning."
     ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in activities, their ability to perform simple addition, and their accuracy in counting the total number of objects.",
-    "<br><b>Homework:</b><br>Review students' homework submissions to assess their ability to apply simple addition skills to real-life scenarios."
-  ],
-  "conclusion": [
-    "By introducing simple addition using objects, students will develop an understanding of combining groups to find a total, which is essential for future mathematical learning."
-  ]
 },
 
 // Lesson 4
 {
-  "title": "Practicing Addition with Sums Up to 20",
+  "title": "Introduction to Addition up to 20",
   "school": "Flying Wings Academy",
   "teacher": "Mr. C. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
-  "topic": "Practicing Addition with Sums Up to 20",
+  "topic": "Understanding Addition up to 20",
   "grade": "Nestlings Navigators",
   "term": "3",
   "week": "2",
   "lessonNumber": "4",
-  "description": "This lesson aims to reinforce students' ability to add numbers with sums up to 20 using objects.",
+  "description": "This lesson introduces students to solving simple addition problems with sums up to 20 using physical objects for counting.",
   "materials": [
-    "Small objects like toys or building blocks",
-    "Number cards (1-20)",
-    "Whiteboard and markers"
+    "Interactive Whiteboard",
+    "Storybook: 'The Very Hungry Caterpillar' by Eric Carle",
+    "Large, printed number cards (0-20)",
+    "Lots of small manipulatives (e.g., counting bears, buttons, bottle caps, colourful pompoms)",
+    "Small paper plates or shallow trays (one per pair of students)",
+    "A4 worksheets with simple addition number sentences (e.g., 10 + 4 = __ ) with a large space for drawing"
   ],
   "objectives": [
-    "Students will practice adding numbers with sums up to 20.",
-    "Students will use objects to visually represent and solve addition problems.",
-    "Students will build confidence in solving addition problems within the range of 10-20."
+    "Students will be able to solve simple addition problems with sums up to 20 using physical objects for counting."
   ],
   "rationale": [
-    "Practicing addition with sums up to 20 helps students strengthen their understanding of addition and prepares them for more complex mathematical operations."
+    "Learning addition using physical objects helps young students grasp the concrete concept of combining groups, which is a foundational skill for all future mathematics."
   ],
   "methodology": [
-    "The lesson will involve review, guided practice, and collaborative activities to ensure students master addition with sums up to 20."
+    "The lesson will use storytelling, hands-on manipulatives, guided practice, and independent drawing to teach the concept of addition."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Warm-up:</b><br>Review counting from 11 to 20 and addition concepts from the previous lesson. This reinforces prior learning and prepares students for the current lesson.",
-      "<b>Addition with Objects:</b><br>Introduce addition problems where the sum is between 10 and 20. For example, 9 toys + 6 toys. Guide students through the process of counting all the objects to find the total, emphasizing accurate counting and addition strategies.",
-      "<b>Group Activity:</b><br>Have students work in pairs or small groups to solve addition problems using objects, with sums up to 20. Provide plenty of support and encouragement, ensuring students feel confident and successful in their practice.",
-      "<b>Class Discussion:</b><br>Discuss the addition problems solved by the groups. Encourage students to share their strategies and discuss different approaches to solving the problems.",
-      "<b>Task:</b><br>Assign a task for students to practice addition at home with sums up to 20 using objects like toys, coins, or household items.",
-      "<b>Conclusion:</b><br>Summarize the key points of the lesson, reinforcing the importance of practicing addition and encouraging students to continue practicing at home."
+      "<b>Part 1: Warm-Up and Introduction (10 minutes)</b>:<br><br>Activity: Counting Caterpillar<br><br>Goal: To activate prior knowledge of counting to 20.<br><br>1. Gather the Class: Have students sit in a circle on the carpet.<br>2. Introduce the Theme: 'Good morning, Navigators! Today we're going on a mathematical adventure with a very hungry friend. Have you heard of the Very Hungry Caterpillar?'<br>3. Read the Story: Read aloud 'The Very Hungry Caterpillar.' As you read, pause to count the fruits together. 'On Monday, he ate through one apple. Let's count: One! On Tuesday, he ate through two pears. Let's count: One, two!'<br>4. Connect to the Lesson: After finishing, say, 'The caterpillar was very good at adding up all the food he ate! He put it all together to become big and strong. Today, we are going to learn how to add numbers together, just like he did!'",
+      "<b>Part 2: Direct Instruction (10 minutes)</b>:<br><br>Activity: Adding with our Caterpillar Snacks<br><br>Goal: To visually demonstrate the concept of addition using a familiar context.<br><br>1. Model the Concept: Use the interactive whiteboard. Draw two circles on one side of the screen. 'Let's pretend these are two yummy plums the caterpillar ate.' Drag the number 2 next to them.<br>2. Introduce the 'Plus' Sign: Draw a + sign. 'This is a plus sign. It means we are going to add something, or put more together.'<br>3. Add More Items: Draw three more plums on the other side of the plus sign. 'And here are three more plums he found! Let's count them: one, two, three.' Drag the number 3 next to them.<br>4. Introduce the 'Equals' Sign: Draw an = sign. 'This is the equals sign. It means 'is the same as' or 'the total is'.'<br>5. Find the Total: 'Now, let's put all the plums together to see how many he ate altogether!' Move all the plums into one group. 'Let's count them all: 1, 2, 3, 4, 5!' Drag the number 5 to the end.<br>6. Read the Number Sentence: Point to the complete number sentence (2 + 3 = 5). 'This says, 'two plus three equals five'. We added them all together!'",
+      "<b>Part 3: Guided Practice (15 minutes)</b>:<br><br>Activity: Plate Addition<br><br>Goal: To allow students to physically manipulate objects to solve addition problems.<br><br>1. Divide into Pairs: Have students find a partner and sit at a table.<br>2. Distribute Resources: Give each pair a paper plate (or tray) and a large pile of manipulatives (e.g., buttons).<br>3. Give an Instruction: 'Let's solve a problem together! My problem is 10 + 4.'<br>4. Step-by-Step Guide:<br>   · 'First, Navigators, please count out 10 buttons and put them on your plate.' (Walk around to check).<br>   · 'Great! Now, the plus sign tells us we need to add more. Please count out 4 more buttons and add them to the plate.'<br>   · 'Now, the equals sign means we need to find the total. Let's count ALL the buttons on the plate together. Ready? 1, 2, 3, ... 14!'<br>   · 'So, 10 + 4 = 14! You did it!'<br>5. Repeat: Do 2-3 more examples with the whole group (e.g., 8 + 5, 7 + 6, 11 + 3). Encourage students to say the full number sentence out loud with you: 'Eight plus five equals thirteen!'",
+      "<b>Part 4: Independent Practice & Exercise (10 minutes)</b>:<br><br>Activity: Draw and Add Worksheet<br><br>Goal: To assess individual understanding by translating the physical activity into a drawn representation.<br><br>1. Hand out Worksheets: Give each student a worksheet.<br>2. Explain the Task: 'Now it's your turn to be a math navigator all by yourself! Look at your paper. You will see a problem like 12 + 3.'<br>3. Instructions:<br>   · 'In the first big box, I want you to draw 12 circles. You can draw 12 yummy strawberries for the caterpillar!'<br>   · 'Next to the plus sign, in the second big box, draw 3 more circles - 3 more strawberries!'<br>   · 'Now, count ALL the circles you drew. How many are there altogether?'<br>   · 'Write that number in the blank space after the equals sign.'<br>4. Support: Circulate around the room to provide support. For students who finish quickly, encourage them to turn their paper over and write their own addition problem to solve.<br><br>Worksheet Example:<br><br>Name: ___________<br><br>Caterpillar's Lunch!<br><br>Draw the fruit to solve the problem.<br><br>12 + 3 = ____<br><br>[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]       +       [ ] [ ] [ ]       =       ______<br><br>(The boxes are large and empty for students to draw in.)<br><br>Extension for faster learners: Provide a second problem with higher numbers, like 10 + 8.",
+      "<b>Part 5: Wrap-Up (5 minutes)</b>:<br><br>Activity: Share and Celebrate<br><br>1. Gather Back on the Carpet: Have a few students share their worksheet answers.<br>2. Quick Game: Hold up a number card (e.g., 15). Ask, 'Who can give me a number sentence that equals 15?' (e.g., '10+5!' '7+8!').<br>3. Reinforce Learning: 'Wow, Navigators! Look at what great adders you are! You can put groups together and find the total all the way up to 20. The Very Hungry Caterpillar would be so proud of your counting!'<br>4. Positive Reinforcement: Give lots of praise and maybe a class cheer like 'Hip hip hooray, we added today'"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding through their participation in activities, their ability to solve addition problems accurately, and their use of objects to represent sums.",
-    "<br><b>Homework:</b><br>Review students' homework submissions to assess their ability to apply addition skills to sums up to 20 in real-life scenarios."
+    "<b>Observation</b>: The teacher will observe students' ability to count and combine objects correctly during the guided practice.",
+    "<b>Worksheet</b>: The independent worksheet will evaluate the students' ability to represent and solve an addition problem visually."
   ],
   "conclusion": [
-    "By practicing addition with sums up to 20, students will strengthen their foundational math skills and prepare for more advanced arithmetic in the future."
+    "By using a familiar story and hands-on activities, students have built a concrete understanding of addition as the process of combining groups to find a total, up to 20."
   ]
 },
 
-// Week 2
+// Week 3
 // Lesson 1
 {
   "title": "Introduction to Counting from 21 to 30",
