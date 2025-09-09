@@ -158,8 +158,8 @@ function searchLessonPlans(event) {
 
 // Define a mapping of grade to teacher's name
 const teacherNames = {
-    "Baby Birds": "Mrs. Kuligwa Siazyana",
-    "Sky Sprouts": "Mrs. Kuligwa Siazyana",
+    "Baby Birds": "Mrs. Hellen Lyashi",
+    "Sky Sprouts": "Mrs. Hellen Lyashi",
     "Nestlings Navigators": "Mrs. Loveness Muwila",
     "Feather Flyers": "Mrs. Loveness Muwila",
     "Cloud Chicks": "Ms. Faith Nakaonga",
@@ -179,7 +179,9 @@ const tczNumbers = {
     "Mr. Clinton Mbaso": "19/09/0904/021725",
    
     "All Teachers": "FS20BC1111",
-    "Mr. Muteba Masheka": "FS20BC0013"
+    "Mr. Muteba Masheka": "FS20BC0013",
+    "Mrs. Hellen Lyashi": "FS20BC0014",
+    
 };
     
 // Example usage in your main file
