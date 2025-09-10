@@ -160,8 +160,8 @@ function searchLessonPlans(event) {
 const teacherNames = {
     "Baby Birds": "Mrs. Hellen Lyashi",
     "Sky Sprouts": "Mrs. Hellen Lyashi",
-    "Nestlings Navigators": "Mrs. Loveness Muwila",
-    "Feather Flyers": "Mrs. Loveness Muwila",
+    "Nestlings Navigators": "Ms. Ethel Simachila",
+    "Feather Flyers": "Ms. Ethel Simachila",
     "Cloud Chicks": "Ms. Faith Nakaonga",
     "Wing Whiz": "Ms. Faith Nakaonga",
     "Sky Soarers": "Mr. Clinton Mbaso",
@@ -181,6 +181,7 @@ const tczNumbers = {
     "All Teachers": "FS20BC1111",
     "Mr. Muteba Masheka": "FS20BC0013",
     "Mrs. Hellen Lyashi": "FS20BC0014",
+    "Ms. Ethel Simachila": "FS20BC0015",
     
 };
     
