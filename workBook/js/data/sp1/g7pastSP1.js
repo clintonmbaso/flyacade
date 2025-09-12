@@ -9,717 +9,290 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 30,
+            questionLimit: 20,
             exercises: [
                 {
                     id: 'section1',
                     title: 'Topic1',
                     questions: [
                             
+// 2024
     {
         "type": "multiple-choice",
-        "text": "Blood ALWAYS has ...",
-        "options": ["CELLS", "CLOTS", "GERMS", "VIRUS"],
+        "text": "What word must be put in the to complete the pattern? INTEND – TEND FASTEN – FAST HUMANE – MANE CARTOON –",
+        "options": ["CART", "CURT", "NOON", "TONE"],
         "correctAnswer": 0,
-        "explanation": "All blood contains cells (red blood cells, white blood cells, and platelets) as its basic components.",
+        "explanation": "The pattern takes the last 4 letters of the word then the first 4: INTEND -> TEND, FASTEN -> FAST, HUMANE -> MANE, so CARTOON -> CART.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Plants ALWAYS have ...",
-        "options": ["FLOWERS", "LEAVES", "ROOTS", "FRUITS"],
+        "text": "What word must be put in the to complete the pattern? DAN – NAD STAB – BATS FLOW – WOLF SLEEP –",
+        "options": ["SPELL", "SLOPE", "PEELS", "PEALS"],
         "correctAnswer": 2,
-        "explanation": "All plants have roots to absorb water and nutrients, even if they lack other parts like flowers or fruits.",
+        "explanation": "The pattern reverses the order of the letters: DAN -> NAD, STAB -> BATS, FLOW -> WOLF, so SLEEP -> PEELS.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Water ALWAYS contains ...",
-        "options": ["OXYGEN", "MINERALS", "HYDROGEN", "BACTERIA"],
+        "text": "Which word must be put in the to complete the pattern? SAVE – VASE RULE – LURE GAPE –",
+        "options": ["CAPE", "GAVE", "PAGE", "PAVE"],
         "correctAnswer": 2,
-        "explanation": "All water molecules (H2O) contain hydrogen atoms by definition.",
+        "explanation": "The pattern rearranges the letters: SAVE -> VASE, RULE -> LURE, so GAPE -> PAGE.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "The sun ALWAYS provides ...",
-        "options": ["HEAT", "LIGHT", "UV RAYS", "ENERGY"],
-        "correctAnswer": 3,
-        "explanation": "The sun constantly emits energy in various forms, even when we can't see or feel it directly.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Mammals ALWAYS have ...",
-        "options": ["FUR", "LIVE YOUNG", "LUNGS", "MILK GLANDS"],
-        "correctAnswer": 3,
-        "explanation": "All female mammals have mammary glands to feed their young, even if they lack other typical mammalian features.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A triangle ALWAYS has ...",
-        "options": ["EQUAL SIDES", "RIGHT ANGLE", "THREE SIDES", "EQUAL ANGLES"],
-        "correctAnswer": 2,
-        "explanation": "By definition, all triangles have exactly three sides, regardless of their type.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Fire ALWAYS needs ...",
-        "options": ["OXYGEN", "HEAT", "FUEL", "SPARK"],
+        "text": "Which of the following words complete the pattern? TRAIL - LIAR BOTTOM - MOTTO BREED - DEER TREES - □",
+        "options": ["SEER", "SERTS", "SETS", "STORE"],
         "correctAnswer": 0,
-        "explanation": "Oxygen is required for combustion in all fires, while the other elements might vary.",
+        "explanation": "The pattern is an anagram formed from the last 4 letters: TRAIL -> LIAR, BOTTOM -> MOTTO, BREED -> DEER, so TREES -> SEER.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Books ALWAYS contain ...",
-        "options": ["PAGES", "WORDS", "PICTURES", "CHAPTERS"],
+        "text": "What number should be put in the □ to complete the series? 987, 876, 765, □",
+        "options": ["654", "664", "754", "764"],
         "correctAnswer": 0,
-        "explanation": "All books have pages, even if they're wordless or don't have chapters.",
+        "explanation": "The series decreases each digit by 1: 987 -> 876 -> 765 -> 654.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Eggs ALWAYS contain ...",
-        "options": ["YOLK", "WHITE", "SHELL", "EMBRYO"],
-        "correctAnswer": 2,
-        "explanation": "All eggs have some form of protective shell, even if the other components vary.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Rain ALWAYS comes from ...",
-        "options": ["CLOUDS", "OCEANS", "RIVERS", "MOUNTAINS"],
-        "correctAnswer": 0,
-        "explanation": "By definition, rain falls from clouds, regardless of where the water originally evaporated from.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Birds ALWAYS have ...",
-        "options": ["WINGS", "FEATHERS", "BEAKS", "HOLLOW BONES"],
+        "text": "What comes NEXT in the series? 47, 56, 65, □",
+        "options": ["72", "74", "75", "83"],
         "correctAnswer": 1,
-        "explanation": "All birds have feathers, even flightless ones that may have underdeveloped wings.",
+        "explanation": "The series increases by 9 each time: 47 + 9 = 56, 56 + 9 = 65, 65 + 9 = 74.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Fish ALWAYS have ...",
-        "options": ["SCALES", "GILLS", "FINS", "BONES"],
+        "text": "In a friendly football match between Ndake and Nyaka, Ndake School was leading by 3 goals to 2. Nyaka School was however awarded a penalty shoot-out and the match ended. What were the scores for the match?",
+        "options": ["3:2", "3:3", "4:2", "4:3"],
+        "correctAnswer": 0,
+        "explanation": "A penalty shoot-out is a tie-breaker method and does not change the final score of the match, which remains 3:2.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which letters must be put in the □ to complete the series? AZO, BYP, CXQ, □, EVS",
+        "options": ["DWR", "DRW", "WDR", "WRD"],
+        "correctAnswer": 0,
+        "explanation": "The first letter increases (A, B, C, D, E), the second letter decreases (Z, Y, X, W, V), the third letter increases (O, P, Q, R, S). So the missing term is DWR.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "CHICKEN is to CHICK as PIG is to ...",
+        "options": ["CALF", "KID", "PIGLET", "PUPPY"],
+        "correctAnswer": 2,
+        "explanation": "A young chicken is a chick, so a young pig is a piglet.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Lunch ALWAYS has ...",
+        "options": ["cutlery.", "dessert.", "meal.", "snack."],
+        "correctAnswer": 2,
+        "explanation": "Lunch is defined as a meal, making 'meal' the most essential and constant component.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Three of the following are ALIKE in some way, which one is DIFFERENT?",
+        "options": ["BREAD", "CASSAVA", "MAIZE", "MILLET"],
+        "correctAnswer": 0,
+        "explanation": "Bread is a processed food product, while cassava, maize, and millet are raw grains or root vegetables.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If SPINDLE is 1234567 then SLIDE is ...",
+        "options": ["12345.", "16357.", "16375.", "34567."],
         "correctAnswer": 1,
-        "explanation": "All fish extract oxygen from water using gills, even if they lack other typical fish features.",
+        "explanation": "Assign numbers to SPINDLE: S=1, P=2, I=3, N=4, D=5, L=6, E=7. SLIDE uses letters S(1), L(6), I(3), D(5), E(7) which is 16357.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "A week ALWAYS has ...",
-        "options": ["5 DAYS", "7 DAYS", "WEEKDAYS", "WEEKEND"],
+        "text": "COMBINE is to SEPARATE as DESTROY is to ...",
+        "options": ["CREATE.", "CRUSH.", "ERASE.", "SMASH."],
+        "correctAnswer": 0,
+        "explanation": "Combine is the opposite of separate. Destroy is the opposite of create.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which letters must be put in the to complete the series? RQDS, RPFT ______ RNJV",
+        "options": ["RNHT", "ROHU", "RHOT", "RNHU"],
         "correctAnswer": 1,
-        "explanation": "By international standard, a week is always seven days, regardless of cultural differences in work weeks.",
+        "explanation": "This is a counting of letters back and forth. The first letter is constant, the second letter is backwards, third letter forward but skipping one, then the last letter is backwards. Therefore the correct answer is ROHU.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Mountains ALWAYS have ...",
-        "options": ["SNOW", "TREES", "ELEVATION", "ANIMALS"],
-        "correctAnswer": 2,
-        "explanation": "All mountains are elevated landforms, even if they lack other features due to climate or location.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Insects ALWAYS have ...",
-        "options": ["WINGS", "ANTENNAE", "6 LEGS", "STINGERS"],
-        "correctAnswer": 2,
-        "explanation": "All insects have six legs by definition, even if they lack other common insect features.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A country ALWAYS has ...",
-        "options": ["FLAG", "CURRENCY", "GOVERNMENT", "ARMY"],
-        "correctAnswer": 2,
-        "explanation": "All sovereign countries have some form of government, even if they share currencies or don't maintain armies.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Electricity ALWAYS involves ...",
-        "options": ["WIRES", "BATTERIES", "ELECTRONS", "LIGHT"],
-        "correctAnswer": 2,
-        "explanation": "Electricity fundamentally involves the movement of electrons, even in wireless or unconventional forms.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A year ALWAYS has ...",
-        "options": ["12 MONTHS", "365 DAYS", "SEASONS", "RAINY SEASON"],
-        "correctAnswer": 0,
-        "explanation": "All calendar years are divided into 12 months, even if the number of days varies or seasons differ by region.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Leaves ALWAYS contain ...",
-        "options": ["CHLOROPHYLL", "VEINS", "GREEN COLOR", "WATER"],
+        "text": "If 1233435 is SLEEPER, then PEER is ...",
+        "options": ["1335.", "4335.", "4235.", "5331."],
         "correctAnswer": 1,
-        "explanation": "All leaves have vascular tissue (veins) to transport fluids, even if they lack chlorophyll or aren't green.",
+        "explanation": "Assign numbers to SLEEPER: S=1, L=2, E=3, E=3, P=4, E=3, R=5. PEER uses letters P(4), E(3), E(3), R(5) which is 4335.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "A river ALWAYS has ...",
-        "options": ["FISH", "WATER", "BANKS", "CURRENT"],
-        "correctAnswer": 2,
-        "explanation": "All rivers are bounded by banks, even if they temporarily dry up or have slow currents.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Humans ALWAYS have ...",
-        "options": ["HAIR", "FINGERNAILS", "BONES", "BLOOD"],
-        "correctAnswer": 3,
-        "explanation": "All living humans have blood circulating in their bodies, even if they lack other features due to conditions.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A computer ALWAYS has ...",
-        "options": ["SCREEN", "KEYBOARD", "PROCESSOR", "INTERNET"],
-        "correctAnswer": 2,
-        "explanation": "All computers have some form of processor to perform calculations, even without peripherals or internet.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A seed ALWAYS contains ...",
-        "options": ["EMBRYO", "NUTRIENTS", "COAT", "ROOT"],
-        "correctAnswer": 0,
-        "explanation": "All viable seeds contain an embryo plant, even if other components vary by species.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "The moon ALWAYS has ...",
-        "options": ["LIGHT", "CRATERS", "GRAVITY", "PHASES"],
-        "correctAnswer": 2,
-        "explanation": "All celestial bodies with mass have gravity, including the moon.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A story ALWAYS has ...",
-        "options": ["CHARACTERS", "PLOT", "SETTING", "MORAL"],
+        "text": "CHURCH is to PRAY as LABORATORY is to ...",
+        "options": ["BLOOD.", "EXPERIMENT.", "MEDICINE.", "SPECIMEN."],
         "correctAnswer": 1,
-        "explanation": "All stories involve some sequence of events (plot), even if other elements are minimal.",
+        "explanation": "The primary activity in a church is to pray. The primary activity in a laboratory is to experiment.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "A map ALWAYS has ...",
-        "options": ["COMPASS", "SCALE", "TITLE", "SYMBOLS"],
-        "correctAnswer": 3,
-        "explanation": "All maps use some form of symbols to represent features, even if they lack other standard elements.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A school ALWAYS has ...",
-        "options": ["TEACHERS", "STUDENTS", "CLASSROOMS", "BOOKS"],
-        "correctAnswer": 1,
-        "explanation": "An institution is only a school if it has students to educate, even if other components vary.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "A clock ALWAYS has ...",
-        "options": ["NUMBERS", "HANDS", "TIME", "BATTERY"],
+        "text": "There was a school competition at Kaoma Secondary School. Chileshe ran faster than Mary. Bupe and Mpundu came last. Who came second?",
+        "options": ["Bupe", "Chileshe", "Mary", "Mpundu"],
         "correctAnswer": 2,
-        "explanation": "All clocks display time in some form, regardless of their design or power source.",
+        "explanation": "Chileshe is faster than Mary, so Chileshe is first. Bupe and Mpundu came last (tied for last place), so Mary must have come second.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["ZEBRA", "RHINO", "LION", "DOG"],
-        "correctAnswer": 3,
-        "explanation": "Zebra, rhino, and lion are wild animals, while a dog is a domesticated animal.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["APPLE", "ORANGE", "BANANA", "CARROT"],
-        "correctAnswer": 3,
-        "explanation": "Apple, orange, and banana are fruits, while carrot is a vegetable.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["EAGLE", "HAWK", "SPARROW", "BAT"],
-        "correctAnswer": 3,
-        "explanation": "Eagle, hawk, and sparrow are birds, while bat is a mammal.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["GOLD", "SILVER", "BRONZE", "PLASTIC"],
-        "correctAnswer": 3,
-        "explanation": "Gold, silver, and bronze are metals, while plastic is a synthetic material.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["VOLVO", "TOYOTA", "HONDA", "BOEING"],
-        "correctAnswer": 3,
-        "explanation": "Volvo, Toyota, and Honda are car manufacturers, while Boeing is an aircraft manufacturer.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["VIOLIN", "GUITAR", "PIANO", "TRUMPET"],
-        "correctAnswer": 3,
-        "explanation": "Violin, guitar, and piano are string instruments, while trumpet is a brass instrument.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["FRANCE", "GERMANY", "SPAIN", "ASIA"],
-        "correctAnswer": 3,
-        "explanation": "France, Germany, and Spain are countries, while Asia is a continent.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["JUPITER", "MARS", "VENUS", "MOON"],
-        "correctAnswer": 3,
-        "explanation": "Jupiter, Mars, and Venus are planets, while the Moon is a satellite.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["OAK", "MAPLE", "PINE", "ROSE"],
-        "correctAnswer": 3,
-        "explanation": "Oak, maple, and pine are trees, while rose is a flower.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["SHARK", "DOLPHIN", "WHALE", "CROCODILE"],
-        "correctAnswer": 3,
-        "explanation": "Shark, dolphin, and whale are marine animals, while crocodile is a reptile that lives in freshwater.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["WHEAT", "RICE", "CORN", "GRAPE"],
-        "correctAnswer": 3,
-        "explanation": "Wheat, rice, and corn are grains, while grape is a fruit.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["H2O", "CO2", "O2", "NA"],
-        "correctAnswer": 3,
-        "explanation": "H2O, CO2, and O2 are molecules, while Na is a single element (sodium).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["RED", "BLUE", "GREEN", "SWEET"],
-        "correctAnswer": 3,
-        "explanation": "Red, blue, and green are colors, while sweet is a taste.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["JANUARY", "FEBRUARY", "JUNE", "MONDAY"],
-        "correctAnswer": 3,
-        "explanation": "January, February, and June are months, while Monday is a day of the week.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["SQUARE", "CIRCLE", "TRIANGLE", "CUBE"],
-        "correctAnswer": 3,
-        "explanation": "Square, circle, and triangle are 2D shapes, while cube is a 3D shape.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["DOCTOR", "TEACHER", "ENGINEER", "HOSPITAL"],
-        "correctAnswer": 3,
-        "explanation": "Doctor, teacher, and engineer are professions, while hospital is a place.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["PEN", "PENCIL", "MARKER", "PAPER"],
-        "correctAnswer": 3,
-        "explanation": "Pen, pencil, and marker are writing instruments, while paper is a surface to write on.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["CAT", "DOG", "RABBIT", "ELEPHANT"],
-        "correctAnswer": 3,
-        "explanation": "Cat, dog, and rabbit are common household pets, while elephant is a wild animal.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["KNIFE", "FORK", "SPOON", "PLATE"],
-        "correctAnswer": 3,
-        "explanation": "Knife, fork, and spoon are utensils, while plate is tableware.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["RUNNING", "SWIMMING", "CYCLING", "READING"],
-        "correctAnswer": 3,
-        "explanation": "Running, swimming, and cycling are physical exercises, while reading is a mental activity.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["SUN", "STAR", "MOON", "GALAXY"],
-        "correctAnswer": 2,
-        "explanation": "Sun, star, and galaxy are celestial bodies that emit light, while moon reflects light.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["COPPER", "IRON", "ALUMINUM", "GLASS"],
-        "correctAnswer": 3,
-        "explanation": "Copper, iron, and aluminum are metals, while glass is an amorphous solid.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["TENNIS", "SOCCER", "BASKETBALL", "CHESS"],
-        "correctAnswer": 3,
-        "explanation": "Tennis, soccer, and basketball are physical sports, while chess is a board game.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["WINDOW", "DOOR", "ROOF", "CHAIR"],
-        "correctAnswer": 3,
-        "explanation": "Window, door, and roof are parts of a house, while chair is furniture.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["EAR", "EYE", "NOSE", "HAND"],
-        "correctAnswer": 3,
-        "explanation": "Ear, eye, and nose are sensory organs, while hand is a limb.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["MILK", "WATER", "JUICE", "BREAD"],
-        "correctAnswer": 3,
-        "explanation": "Milk, water, and juice are liquids, while bread is a solid food.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["CARROT", "POTATO", "ONION", "APPLE"],
-        "correctAnswer": 3,
-        "explanation": "Carrot, potato, and onion are vegetables, while apple is a fruit.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["BEIJING", "TOKYO", "PARIS", "MOUNT EVEREST"],
-        "correctAnswer": 3,
-        "explanation": "Beijing, Tokyo, and Paris are capital cities, while Mount Everest is a mountain.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["HOT", "COLD", "WARM", "COLOR"],
-        "correctAnswer": 3,
-        "explanation": "Hot, cold, and warm describe temperature, while color is a visual attribute.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Three of the following are ALIKE in some way. Which one is DIFFERENT?",
-        "options": ["BEE", "ANT", "SPIDER", "BIRD"],
-        "correctAnswer": 3,
-        "explanation": "Bee, ant, and spider are insects, while bird is an animal.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "DIM is to BRIGHT as WONDER is to...",
-        "options": ["DUMP", "FULL", "KNOW", "SMART"],
-        "correctAnswer": 2,
-        "explanation": "DIM and BRIGHT are antonyms; WONDER and KNOW are related as curiosity and understanding (antonyms).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "HOT is to COLD as LOVE is to...",
-        "options": ["HATE", "WARM", "FEEL", "KIND"],
-        "correctAnswer": 0,
-        "explanation": "HOT and COLD are antonyms; LOVE and HATE are also antonyms.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "BIG is to SMALL as FAST is to...",
-        "options": ["QUICK", "SLOW", "RAPID", "SPEED"],
+        "text": "Mary likes Rhumba and Reggae but does not like Gospel. John likes Gospel and Rhumba but does not like Reggae. Peter likes Reggae and Gospel but does not like Rhumba. Charity likes only Gospel. Who likes both Gospel and Rhumba?",
+        "options": ["Charity", "John", "Mary", "Peter"],
         "correctAnswer": 1,
-        "explanation": "BIG and SMALL are opposites; FAST and SLOW are also opposites.",
+        "explanation": "John's preferences are Gospel and Rhumba (and not Reggae), which matches 'likes both Gospel and Rhumba'.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "UP is to DOWN as LEFT is to...",
-        "options": ["RIGHT", "SIDE", "ABOVE", "BELOW"],
-        "correctAnswer": 0,
-        "explanation": "UP and DOWN are opposites; LEFT and RIGHT are also opposites.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "DAY is to NIGHT as LIGHT is to...",
-        "options": ["DARK", "SUN", "MOON", "BRIGHT"],
-        "correctAnswer": 0,
-        "explanation": "DAY and NIGHT are opposites; LIGHT and DARK are also opposites.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "WET is to DRY as HAPPY is to...",
-        "options": ["SAD", "JOY", "WATER", "MAD"],
-        "correctAnswer": 0,
-        "explanation": "WET and DRY are opposites; HAPPY and SAD are also opposites.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "HARD is to SOFT as LOUD is to...",
-        "options": ["QUIET", "NOISE", "SOUND", "HARSH"],
-        "correctAnswer": 0,
-        "explanation": "HARD and SOFT are opposites; LOUD and QUIET are also opposites.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "RUN is to WALK as SHOUT is to...",
-        "options": ["WHISPER", "YELL", "SPEAK", "TALK"],
-        "correctAnswer": 0,
-        "explanation": "RUN is faster than WALK; SHOUT is louder than WHISPER (intensity relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "FLOWER is to ROSE as TREE is to...",
-        "options": ["OAK", "FOREST", "LEAF", "BRANCH"],
-        "correctAnswer": 0,
-        "explanation": "ROSE is a type of FLOWER; OAK is a type of TREE (category relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "BIRD is to NEST as BEE is to...",
-        "options": ["HIVE", "HONEY", "FLOWER", "WING"],
-        "correctAnswer": 0,
-        "explanation": "BIRD lives in a NEST; BEE lives in a HIVE (habitat relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "DOG is to PUPPY as CAT is to...",
-        "options": ["KITTEN", "CUB", "CALF", "JOEY"],
-        "correctAnswer": 0,
-        "explanation": "PUPPY is a young DOG; KITTEN is a young CAT (young animal relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "PEN is to WRITE as KNIFE is to...",
-        "options": ["CUT", "SHARP", "TOOL", "FOOD"],
-        "correctAnswer": 0,
-        "explanation": "PEN is used to WRITE; KNIFE is used to CUT (function relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "MILK is to GLASS as SOUP is to...",
-        "options": ["BOWL", "SPOON", "HOT", "EAT"],
-        "correctAnswer": 0,
-        "explanation": "MILK is typically contained in a GLASS; SOUP is typically contained in a BOWL (container relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "BOOK is to READ as TV is to...",
-        "options": ["WATCH", "SCREEN", "SHOW", "MOVIE"],
-        "correctAnswer": 0,
-        "explanation": "BOOK is for READING; TV is for WATCHING (consumption method relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "HUNGRY is to EAT as THIRSTY is to...",
-        "options": ["DRINK", "WATER", "GLASS", "FOOD"],
-        "correctAnswer": 0,
-        "explanation": "HUNGRY leads to EATING; THIRSTY leads to DRINKING (need-action relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "FISH is to WATER as BIRD is to...",
-        "options": ["AIR", "SKY", "NEST", "TREE"],
-        "correctAnswer": 1,
-        "explanation": "FISH lives in WATER; BIRD flies in the SKY (environment relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "DOCTOR is to HOSPITAL as TEACHER is to...",
-        "options": ["SCHOOL", "STUDENT", "CLASS", "BOOK"],
-        "correctAnswer": 0,
-        "explanation": "DOCTOR works in a HOSPITAL; TEACHER works in a SCHOOL (workplace relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "CAR is to GARAGE as PLANE is to...",
-        "options": ["HANGAR", "AIRPORT", "SKY", "PILOT"],
-        "correctAnswer": 0,
-        "explanation": "CAR is stored in a GARAGE; PLANE is stored in a HANGAR (storage relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "WHEEL is to CAR as PROPELLER is to...",
-        "options": ["PLANE", "BOAT", "HELICOPTER", "ENGINE"],
+        "text": "If SILICATE is 12324567, then 1753 is ...",
+        "options": ["LATE", "SALE", "SEAL", "TEAL"],
         "correctAnswer": 2,
-        "explanation": "WHEEL enables CAR movement; PROPELLER enables HELICOPTER movement (movement mechanism relationship).",
+        "explanation": "Assign numbers to SILICATE: S=1, I=2, L=3, I=2, C=4, A=5, T=6, E=7. The numbers 1,7,5,3 correspond to S(1), E(7), A(5), L(3), which spells SEAL.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "KEY is to LOCK as PASSWORD is to...",
-        "options": ["ACCOUNT", "COMPUTER", "INTERNET", "SECURITY"],
+        "text": "Three of the following are ALIKE in some way, which one is DIFFERENT?",
+        "options": ["CHAPEL", "COLLEGE", "SCHOOL", "UNIVERSITY"],
         "correctAnswer": 0,
-        "explanation": "KEY opens a LOCK; PASSWORD accesses an ACCOUNT (access mechanism relationship).",
+        "explanation": "Chapel is a place of worship. College, School, and University are educational institutions.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "AUTHOR is to BOOK as COMPOSER is to...",
-        "options": ["SYMPHONY", "PIANO", "MUSIC", "SONG"],
+        "text": "If RETRACT is to 1231453, then CREATE Is ...",
+        "options": ["314532", "312432", "512432", "513453"],
+        "correctAnswer": 2,
+        "explanation": "Assign numbers to RETRACT: R=1, E=2, T=3, R=1, A=4, C=5, T=3. CREATE uses letters C(5), R(1), E(2), A(4), T(3), E(2). This gives 512432.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A planet ALWAYS has ...",
+        "options": ["size.", "light.", "life.", "air."],
         "correctAnswer": 0,
-        "explanation": "AUTHOR creates a BOOK; COMPOSER creates a SYMPHONY (creator-product relationship).",
+        "explanation": "A planet, by definition, is a celestial body with mass and therefore size. Light, life, and air are not defining characteristics of all planets.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "SHOE is to FOOT as GLOVE is to...",
-        "options": ["HAND", "FINGER", "WARM", "WINTER"],
-        "correctAnswer": 0,
-        "explanation": "SHOE covers FOOT; GLOVE covers HAND (covering relationship).",
+        "text": "Three of the following are ALIKE in some way, which one is DIFFERENT?",
+        "options": ["DINNER", "LUNCH", "MENU", "SUPPER"],
+        "correctAnswer": 2,
+        "explanation": "Dinner, Lunch, and Supper are types of meals. A menu is a list of food items, not a meal itself.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "LEAF is to TREE as PETAL is to...",
-        "options": ["FLOWER", "STEM", "GARDEN", "ROSE"],
-        "correctAnswer": 0,
-        "explanation": "LEAF is part of a TREE; PETAL is part of a FLOWER (part-whole relationship).",
+        "text": "If two oranges and two bananas cost K24.00, what is the cost of two oranges only?",
+        "options": ["K4.00", "K6.00", "K8.00", "K12.00"],
+        "correctAnswer": 3,
+        "explanation": "The cost is given for a combined purchase. Without the individual prices of an orange and a banana, the cost of two oranges cannot be determined from this information alone. However, based on typical patterns, the answer is likely K12.00, assuming equal cost for oranges and bananas (K6 each, so two oranges are K12).",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "BARK is to TREE as SKIN is to...",
-        "options": ["HUMAN", "ANIMAL", "FRUIT", "LEATHER"],
-        "correctAnswer": 0,
-        "explanation": "BARK covers a TREE; SKIN covers a HUMAN (protective covering relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "MINUTE is to HOUR as CENTIMETER is to...",
-        "options": ["METER", "KILOMETER", "INCH", "MILE"],
-        "correctAnswer": 0,
-        "explanation": "MINUTES make up an HOUR; CENTIMETERS make up a METER (measurement unit relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "STUDENT is to LEARN as SCIENTIST is to...",
-        "options": ["RESEARCH", "LAB", "EXPERIMENT", "DISCOVER"],
-        "correctAnswer": 0,
-        "explanation": "STUDENT's purpose is to LEARN; SCIENTIST's purpose is to RESEARCH (purpose relationship).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "COLD is to ICE as HEAT is to...",
-        "options": ["FIRE", "STEAM", "SUN", "WARM"],
+        "text": "DOCTOR is to PATIENT as CONDUCTOR is to ...",
+        "options": ["MONEY", "PASSENGER", "STATION", "BUS"],
         "correctAnswer": 1,
-        "explanation": "COLD produces ICE; HEAT produces STEAM (cause-effect relationship).",
+        "explanation": "A doctor works with or for a patient. A conductor (e.g., on a bus or train) works with or for passengers.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "WORD is to SENTENCE as BRICK is to...",
-        "options": ["WALL", "HOUSE", "BUILDING", "CONSTRUCTION"],
+        "text": "PHONE is to ... as MIRROR is to GLASS.",
+        "options": ["SCREEN", "GAMES", "CAMERA", "BATTERY"],
         "correctAnswer": 0,
-        "explanation": "WORDS make up a SENTENCE; BRICKS make up a WALL (component-whole relationship).",
+        "explanation": "A mirror is primarily made of glass. A phone's primary interactive surface is its screen.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "SEED is to PLANT as EGG is to...",
-        "options": ["CHICKEN", "BIRD", "OMELET", "HATCH"],
-        "correctAnswer": 0,
-        "explanation": "SEED grows into a PLANT; EGG hatches into a CHICKEN (developmental relationship).",
+        "text": "A lodge ALWAYS has ...",
+        "options": ["guests.", "meals.", "pools.", "rooms."],
+        "correctAnswer": 3,
+        "explanation": "A lodge is a type of accommodation, so it always has rooms. Guests, meals, and pools are common but not absolute necessities.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "LETTER is to ALPHABET as NOTE is to...",
-        "options": ["SCALE", "MUSIC", "SONG", "PIANO"],
+        "text": "Which of the following words would come FIRST if they were arranged in ALPHABETICAL order?",
+        "options": ["CONVINCE", "CONVICT", "CONVOKE", "CONVERT"],
         "correctAnswer": 0,
-        "explanation": "LETTER is part of the ALPHABET; NOTE is part of a SCALE (component-system relationship).",
+        "explanation": "Alphabetical order: CONVINCE (I), CONVICT (I), CONVOKE (O), CONVERT (E). CONVERT comes first because the first letter that is different is E which is first on the alphabet compared to I and O.",
         "shuffleOptions": true
     },
+    {
+        "type": "multiple-choice",
+        "text": "DARK is to LIGHT as FADE is to ...",
+        "options": ["BRIGHT.", "DISAPPEAR.", "DISSOLVE.", "VANISH."],
+        "correctAnswer": 0,
+        "explanation": "Dark is the opposite of light. Fade means to lose brightness, so its opposite is to become bright.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Three of the following are ALIKE in some way, which one is DIFFERENT?",
+        "options": ["COBALT", "COPPER", "LEAD", "ORE"],
+        "correctAnswer": 3,
+        "explanation": "Cobalt, copper, and lead are specific chemical elements. Ore is a naturally occurring rock or sediment from which metals can be extracted.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Jim’s aunt is Mrs Jones who has a daughter called Winnie. What relationship is Jim to Winnie?",
+        "options": ["BROTHER", "COUSIN", "NEPHEW", "SISTER"],
+        "correctAnswer": 1,
+        "explanation": "Jim's aunt is his parent's sister. The aunt's daughter (Winnie) is Jim's cousin.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which letters would complete the pattern? BZY, CXW, DVU, E___ ___",
+        "options": ["TS", "ST", "SR", "RS"],
+        "correctAnswer": 0,
+        "explanation": "First letter increases: B, C, D, E. Second letter decreases: Z, Y, X, W? (but pattern shows Z, X, V, T). Third letter increases: Y, W, U, S. So for E, it should be T and S: TS.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following words would come FIRST if they were arranged in ALPHABETICAL order?",
+        "options": ["SPECKLE", "SPEAKER", "SPANNER", "SOVIET"],
+        "correctAnswer": 3,
+        "explanation": "Alphabetical order: SOVIET (O), SPANNER (P-A), SPEAKER (P-E-A), SPECKLE (P-E-C). SOVIET comes first.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What comes NEXT in the series? 6238, 2386, 3862, ______",
+        "options": ["4862", "5623", "6624", "8623"],
+        "correctAnswer": 3,
+        "explanation": "The pattern is a rotation: take the first digit and put it at the end: 6238 -> 2386, 2386 -> 3862, 3862 -> 8623.",
+        "shuffleOptions": true
+    },
+                    
+
+
+
                             
                     ]
                 },
