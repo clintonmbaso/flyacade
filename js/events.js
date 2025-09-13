@@ -56,7 +56,7 @@
      
      // Term Two (2)
              { name: "School Opens", 
-               date: new Date("Mar 12, 2025 08:00:00").getTime(), 
+               date: new Date("Mar 17, 2024 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "School Opens", 
                details: "Description of Youth Week of Prayer", 
@@ -64,7 +64,7 @@
              },
 
              { name: "Mid Assessments", 
-               date: new Date("Jun 10, 2025 08:00:00").getTime(), 
+               date: new Date("Jun 10, 2024 08:00:00").getTime(), 
                reminderDays: 5, reminderHours: 12,
                caption: "Mid Assessments", 
                details: "All classes will begin the tests on this date. Therefore, all the learners should habe their report books paid for and handed over to the teachers. All those that have not brought the reams of paper this year should do so before this day.", 
@@ -72,7 +72,7 @@
              },
      
          	   { name: "Father's Day", 
-         	     date: new Date("Jun 16, 2025 08:00:00").getTime(), 
+         	     date: new Date("Jun 16, 2024 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
                caption: "Father's Day", 
                details: "Description of KEMD Pathfinder Fair", 
@@ -80,7 +80,7 @@
          	   },
 
          	   { name: "Hero's Day", 
-         	     date: new Date("Jul 1, 2025 08:00:00").getTime(), 
+         	     date: new Date("Jul 1, 2024 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
                caption: "Hero's Day", 
                details: "Description of MEZC CMT Camp", 
@@ -88,7 +88,7 @@
          	   },
      
          	   { name: "Unity Day", 
-         	     date: new Date("Jul 2, 2025 08:00:00").getTime(), 
+         	     date: new Date("Jul 2, 2024 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
                caption: "Unity Day", 
                details: "Description of MEZC CMT Camp", 
@@ -96,7 +96,7 @@
          	   },
      
          	   { name: "School Tour", 
-         	     date: new Date("Jul 19, 2025 08:00:00").getTime(), 
+         	     date: new Date("Jul 19, 2024 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
                caption: "School Tour", 
                details: "For only K100 for all logistics, attend the tour with us to 'Little Paradise Park' and one of the 'important places in our community' within town", 
@@ -104,28 +104,20 @@
          	   },
 
          	   { name: "End Assessments", 
-         	     date: new Date("Jul 28, 2025 08:00:00").getTime(), 
+         	     date: new Date("May 5, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
                caption: "End Assessments", 
                details: "Description of KEMD Adventurer Quiz Day", 
                imageUrl: "images/End_Assessments.jpg" 	     
          	   },
 
-         	   { name: "Exam Guidelines", 
-         	     date: new Date("Aug 1, 2025 08:00:00").getTime(), 
+         	   { name: "Assessment Ended", 
+         	     date: new Date("Jul 31, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "Exam Guidelines", 
+               caption: "Assessment Ended", 
                details: "Description of KEMD Adventurer Quiz Day", 
                imageUrl: "images/Assessment_Ended.jpg" 	     
          	   },
-
-         	   { name: "Mocks Begin", 
-         	     date: new Date("Aug 5, 2025 08:00:00").getTime(), 
-         	     reminderDays: 3, reminderHours: 12,
-               caption: "Mocks Begin", 
-               details: "Description of KEMD Adventurer Quiz Day", 
-               imageUrl: "images/Assessment_Ended.jpg" 	     
-         	   },                  
 
          	   { name: "Compilling Results", 
          	     date: new Date("Aug 1, 2024 06:00:00").getTime(), 
@@ -145,9 +137,9 @@
 
      // Term Three (3)
          	   { name: "School Opens", 
-         	     date: new Date("Sep 10, 2024 06:00:00").getTime(), 
+         	     date: new Date("Sep 8, 2025 06:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "School Opensp@", 
+               caption: "School Opens", 
                details: "Description of Rockside Survival Camp", 
                imageUrl: "images/Rockside Survival Camp.jpg" 	     
          	   },
@@ -161,7 +153,7 @@
       	      },
      
        	     { name: "Teachers Party", 
-       	       date: new Date("Oct 4, 2024 08:00:00").getTime(), 
+       	       date: new Date("Oct 5, 2024 08:00:00").getTime(), 
        	       reminderDays: 2, reminderHours: 12,
                caption: "Pre-World Teachers' Day Celebration: Honoring Educators with Joy and Appreciation", 
                details: "A lively celebration for teachers, filled with laughter, music, and appreciation, honoring their dedication on the eve of World Teachers' Day.", 
@@ -172,16 +164,16 @@
          	   { name: "Teachers Day", 
          	     date: new Date("Oct 5, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "KEMD Church Heritage Exams", 
-               details: "World Teachers' Day 2024 centers on the theme 'Valuing teacher voices: Towards a new social contract for education,' highlighting the importance of empowering educators and fostering collaboration for better education systems worldwide.", 
+               caption: "Pre-World Teachers' Day Celebration: Honoring Educators with Joy and Appreciation", 
+               details: "A lively celebration for teachers, filled with laughter, music, and appreciation, honoring their dedication on the eve of World Teachers' Day.", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
      
-         	   { name: "KEMD Investiture", 
-         	     date: new Date("Jul 27, 2024 06:00:00").getTime(), 
+         	   { name: "Independence Day", 
+         	     date: new Date("Oct 24, 2025 06:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "KEMD Investiture", 
-               details: "Description of KEMD Investiture", 
+               caption: "National Independence Day", 
+               details: "Zambia Turns 65 years", 
                imageUrl: "images/KEMD Investiture.jpg" 	     
          	   }
 
