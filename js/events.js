@@ -162,7 +162,7 @@
      
      
          	   { name: "Teachers Day", 
-         	     date: new Date("Oct 5, 2024 08:00:00").getTime(), 
+         	     date: new Date("Oct 5, 2025 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
                caption: "Pre-World Teachers' Day Celebration: Honoring Educators with Joy and Appreciation", 
                details: "A lively celebration for teachers, filled with laughter, music, and appreciation, honoring their dedication on the eve of World Teachers' Day.", 
