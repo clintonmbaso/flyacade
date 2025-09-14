@@ -68,16 +68,16 @@ body {
 </div>
 
 <script>
-    // Array of user objects with usernames and passwords
+    // Array of user objects with usernames, passwords, names, and profile pictures
     const users = [
-        { username: "1", password: "cm" },
-        { username: "2", password: "bm" },
-        { username: "3", password: "lm" },
-        { username: "14", password: "ks" },
-        { username: "11", password: "fn" },
-        { username: "12", password: "ks" },
-        { username: "14", password: "hl" },
-        { username: "15", password: "es" }
+        { username: "1", password: "cm", name: "Clinton Mbaso", profilePic: "./images/teachers/FS20BC0001.jpg", classPic1: "./images/Classes_9.png", classPic2: "./images/Classes_10.png" },
+        { username: "2", password: "bm", name: "Bridget Muuka", profilePic: "./images/teachers/FS20BC0002.jpg", classPic1: "./images/Classes_7.png", classPic2: "./images/Classes_8.png" },
+//        { username: "3", password: "lm", name: "Loveness Muwila", profilePic: "./images/teachers/FS20BC0003.jpg" },
+        { username: "11", password: "fn", name: "Faith Nakaonga", profilePic: "./images/teachers/FS20BC0011.jpg", classPic1: "./images/Classes_5.png", classPic2: "./images/Classes_6.png" },
+//        { username: "12", password: "ks", name: "Kuligwa Siazyana", profilePic: "./images/teachers/FS20BC0012.jpg" },
+//        { username: "13", password: "mm", name: "Muteba Masheka", profilePic: "./images/teachers/FS20BC0013.jpg" },
+        { username: "14", password: "hl", name: "Hellen Lyashi", profilePic: "./images/teachers/FS20BC0014.jpg", classPic1: "./images/Classes_1.png", classPic2: "./images/Classes_2.png" },
+        { username: "15", password: "es", name: "Ethel Simachila", profilePic: "./images/teachers/FS20BC0015.jpg", classPic1: "./images/Classes_3.png", classPic2: "./images/Classes_4.png" }
     ];
 
     function login() {
@@ -90,6 +90,9 @@ body {
         if (userFound) {
             document.getElementById("message").style.color = "green";
             document.getElementById("message").innerHTML = "Login successful!";
+            
+            // Store user data in localStorage for use on the next page
+            localStorage.setItem('currentUser', JSON.stringify(userFound));
             
             // Redirect to a specific page after successful login
             setTimeout(function() {
