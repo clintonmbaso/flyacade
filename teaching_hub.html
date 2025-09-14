@@ -459,6 +459,58 @@
             opacity: 0.8;
         }
         
+        /* Teacher Profile in Header */
+.teacher-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  text-align: center;
+    position: fixed;
+    right: 2px;
+}
+
+#teacherProfilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  object-fit: cover;
+  border: 3px solid green;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+    
+#teacherClassPic1, #teacherClassPic2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+}
+#teacherClassPic2 {
+    top: 22px;
+}
+    
+.teacher-profile span {
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-top: 5px;
+  letter-spacing: -0.015em;
+    background: lightgrey;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 3px;
+    word-wrap: break-word;
+  word-break: normal;
+  line-height: 1.0;
+    max-width: 80px;
+}
+    
+    @media (max-width: 992px) {
+        .teacher-profile {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+    
         /* Responsive Styles */
         @media (max-width: 992px) {
             .main-nav {
@@ -530,6 +582,13 @@
                     <p>Resources & Tools for Educators</p>
                 </div>
             </div>
+                    <!-- Add this inside the header section, after the logo-container -->
+<div class="teacher-profile" id="teacherProfile" style="display: none;">
+    <img id="teacherProfilePic" src="" alt="Teacher Profile">
+    <span id="teacherName"></span>
+    <img id="teacherClassPic1" src="" alt="Class Profile">
+    <img id="teacherClassPic2" src="" alt="Class Profile">
+</div>
             
             <nav class="main-nav">
                 <a href="./Lessons/weeklyFocust.html"><i class="fas fa-calendar-alt"></i> Schemes</a>
@@ -543,6 +602,9 @@
                 <i class="fas fa-bars"></i>
             </button>
         </div>
+        
+
+        
     </header>
 
     <!-- Side Panel -->
@@ -800,5 +862,28 @@
             });
         });
     </script>
+    <script>
+        // Display teacher profile if logged in
+        const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+        if (currentUser) {
+            const teacherProfile = document.getElementById('teacherProfile');
+            const teacherProfilePic = document.getElementById('teacherProfilePic');
+            const teacherName = document.getElementById('teacherName');
+            const teacherClassPic1 = document.getElementById('teacherClassPic1');
+            const teacherClassPic2 = document.getElementById('teacherClassPic2');
+            
+            teacherProfile.style.display = 'flex';
+            teacherProfilePic.src = currentUser.profilePic;
+            teacherName.textContent = currentUser.name;
+            teacherClassPic1.src = currentUser.classPic1;
+            teacherClassPic2.src = currentUser.classPic2;
+            
+            // Add profile to mobile menu too if needed
+            // You can implement this based on your design preferences
+        }
+        
+        // ... existing code ...
+    
+</script>
 </body>
 </html>
