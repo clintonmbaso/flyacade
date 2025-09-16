@@ -1,10 +1,11 @@
 const lessonPlans5c = [
 
+// Lesson 1
 {
   "title": "Introduction to Data and Graphs",
   "school": "Flying Wings Academy",
-  "teacher": "Mr. Mbaso",
-  "date": "Monday, April 15, 2024",
+  "teacher": "Mr. C. Mbaso",
+  "date": "Sunday, October 13, 2024",
   "tcz": "19/09/0904/021725",
   "subject": "Mathematics",
   "topic": "Introduction to Data and Graphs",
@@ -12,138 +13,141 @@ const lessonPlans5c = [
   "term": "3",
   "week": "2",
   "lessonNumber": "1",
-  "description": "This lesson aims to introduce students to the concept of data and graphs and explain why we use graphs to represent information.",
+  "description": "This lesson introduces Grade 2 students to the concepts of data and graphs, focusing on understanding that data is information and graphs are pictures that represent data for easy understanding.",
   "materials": [
-    "Chart paper or whiteboard",
-    "Markers or colored pencils",
-    "Examples of simple graphs (optional)"
+    "Whiteboard or chart paper",
+    "Markers",
+    "A large cut-out of a bar graph with blank bars",
+    "Stickers (clouds, chicks, stars, or other fun shapes)",
+    "A basket of small toys or pictures of animals (e.g., 5 dogs, 3 cats, 4 fish, 2 rabbits)",
+    "Student worksheet for the exercise"
   ],
   "objectives": [
-    "Students will understand the concept of data and graphs.",
-    "Students will explain why we use graphs to represent information."
+    "Students will understand that data is a collection of information.",
+    "Students will be able to explain that a graph is a picture that shows data.",
+    "Students will understand that graphs help us see information quickly and easily."
   ],
   "rationale": [
-    "Understanding data and graphs is essential for interpreting and presenting information visually, which is a crucial skill in mathematics and everyday life."
+    "Understanding data and graphs is a fundamental mathematical skill that helps students organize, represent, and interpret information, which is essential for problem-solving and critical thinking in daily life."
   ],
   "methodology": [
-    "The lesson will include interactive discussions, visual aids, and examples of simple graphs to engage students and facilitate understanding."
+    "The lesson will use hands-on activities, storytelling, and visual aids to introduce the concepts of data collection and graphical representation in an engaging and age-appropriate manner."
   ],
   "activities": [
     ["1", "2", "3", "4", "5"],
     [
-      "<b>Introduction:</b> Introduce the concept of data and graphs, and discuss why graphs are useful in representing information visually.",
-      "<b>Examples and Discussions:</b> Show examples of simple graphs (e.g., bar graphs, pictographs) and discuss how they represent data.",
-      "<b>Real-Life Application:</b> Discuss real-life situations where graphs are used (e.g., weather graphs, sports statistics).",
-      "<b>Class Exercise:</b><br>1. Create a simple bar graph or pictograph on the whiteboard or chart paper based on given data.<br>2. Discuss the steps involved in creating and interpreting the graph.<br>3. Compare different types of graphs and their uses.",
-      "<b>Homework:</b><br>1. Draw a picture or diagram of a real-life situation where a graph could be used to represent data.<br>2. Describe why graphs are important for understanding information visually.<br>3. Complete exercises on creating and interpreting graphs provided in the worksheet.<br>4. Collect data from your family members and create a simple graph to represent the collected information.<br>5. Explore examples of graphs in a textbook or online and write a short summary."
+      "<b>Part 1: What is Data? (The 'What We Know' Story)</b>:<br><br>Teacher Says: 'Good morning, Cloud Chicks! Today, we're going to become Data Detectives! But first, what is data? That's a fancy word for information—it's just a collection of facts about something.<br><br>Let's imagine we want to know what our favorite snack is. We might ask everyone:<br><br>· How many friends like apples?<br>· How many like crackers?<br>· How many like cheese?<br><br>The answers we get—'5 apples,' '3 crackers,' '7 cheese'—that's our data! It's the information we collected. But looking at just those numbers can be a little boring. What if we could turn it into a picture? That's where a graph comes in!'",
+      "<b>Part 2: What is a Graph? (The 'Picture of Information')</b>:<br><br>Teacher Says: 'A graph is a special picture that shows our data. It helps us see the information instead of just reading numbers. It makes it super easy to understand!<br><br>Let's look at a type of graph called a Bar Graph. It uses tall and short bars, like building blocks, to show us which thing has the most and which has the least.<br><br>Let's make one together!'<br><br>(Teacher puts a large, blank bar graph on the board. The bottom has pictures: a dog, a cat, a fish, a rabbit. The side has numbers 1 through 5.)<br><br>Teacher Says: 'We have a basket of toys. Let's sort them! How many dogs do we have? Let's count together: 1, 2, 3, 4, 5! So, for 'Dog,' we will color in the bar all the way up to the number 5. Now,how many cats? 1, 2, 3! Let's color the 'Cat' bar up to 3. How many fish?1, 2, 3, 4! Color up to 4. How many rabbits?1, 2! Color up to 2.'<br><br>(As you count, color in the bars or add stickers to represent the height.)",
+      "<b>Part 3: Why Do We Use Graphs? (The 'Superpower of Seeing')</b>:<br><br>Teacher Says: 'Now, let's use our detective eyes! Look at our beautiful graph.<br><br>· Which bar is the tallest? (Wait for students to say 'Dog!')<br>· Which bar is the shortest? (Wait for students to say 'Rabbit!')<br><br>'See how easy that was? You didn't even have to count the numbers! You could just see it. That's why we use graphs!<br><br>Graphs give our brains a superpower:<br><br>1. They help us compare things quickly. We can instantly see that we have more dogs than cats.<br>2. They help us understand information easily. A picture is often easier to understand than a list of numbers.<br>3. They help us answer questions. If I asked, 'Do we have more fish or rabbits?' you can point to the graph and tell me right away!'",
+      "<b>Part 4: Let's Practice Together (Class Activity)</b>:<br><br>Teacher Says: 'Okay, Cloud Chicks, let's make a graph about US! We're going to find out our favorite kind of weather.<br><br>I have four pictures on the board: Sunny, Cloudy, Rainy, and Snowy. I will call on each of you to come up and put one sticker under your favorite kind of weather.Let's collect our data!'<br><br>(Guide each student to place their sticker in a column above the correct weather type, creating a 'pictograph' or a simple bar graph made of stickers.)<br><br>After all students have placed their stickers: 'Wow!Look at our graph! Now, let's be Data Detectives and answer some questions:<br><br>1. Which weather did we like the most? How can you tell? (The tallest column!)<br>2. Which weather did we like the least? How can you tell? (The shortest column!)<br>3. How many more people like Sunny than like Rainy? Let's count the stickers together!'",
+      "<b>Part 5: Exercise (Your Turn to Be a Detective!)</b>:<br><br>Teacher Says: 'You all did such a great job! Now it's time for you to be a Data Detective on your own. Here is a worksheet with a graph for you to look at and answer questions.'<br><br>(Hand out the worksheet. The teacher can walk around to help students who need it.)<br><br>Worksheet: Data Detective<br><br>Look at the bar graph below. It shows the favorite colors of some students.<br><br>(A simple bar graph is drawn with the following data:)<br><br>· Red: 4 students<br>· Blue: 6 students<br>· Green: 3 students<br>· Yellow: 5 students<br><br>Answer the questions:<br><br>1. What is the most popular color? _______________<br>2. What is the least popular color? _______________<br>3. How many students like blue? _______________<br>4. How many students like green? _______________<br>5. Do more students like red or yellow? _______________<br><br>(For an extra challenge:)<br><br>1. How many students were asked about their favorite color in all? _______________ (Hint: Add them up!)<br><br>Answer Key for Teacher:<br><br>1. Blue<br>2. Green<br>3. 6<br>4. 3<br>5. Yellow<br>6. 18 (4+6+3+5)"
     ]
   ],
   "assessments": [
-    "<b>Observation:</b> The teacher will assess students' understanding of data and graphs during class discussions and activities.",
-    "<br><b>Homework:</b><br>1. Show the picture or diagram you drew of a real-life situation where a graph could be used.<br>2. Explain why graphs are important for understanding information visually.<br>3. Share the graph you created based on data collected from family members and describe how you represented the information.<br>4. Summarize what you learned from exploring examples of graphs in a textbook or online."
+    "<b>Observation</b>: The teacher will observe students' participation and understanding during the class graphing activity and discussions.",
+    "<b>Exercise</b>: The worksheet exercise will evaluate the students' ability to read and interpret a simple bar graph."
   ],
   "conclusion": [
-    "Through exploration and discussion, students will develop an understanding of data and graphs, learn why graphs are used to represent information, and begin to apply these concepts in various contexts."
+    "By learning about data collection and graphical representation, students will gain foundational skills in organizing and interpreting information, which are essential for mathematical literacy and everyday problem-solving."
   ]
 },
 
 // Lesson 2
 {
-  "title": "Collecting and Organizing Data",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. Mbaso",
-  "date": "Monday, April 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Collecting and Organizing Data",
-  "grade": "Cloud Chicks",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "2",
-  "description": "This lesson aims to teach students how to collect, organize, and analyze data using surveys, tables, charts, and tally charts.",
-  "materials": [
-    "Paper and pencils",
-    "Chart paper or whiteboard",
-    "Markers or colored pencils"
-  ],
-  "objectives": [
-    "Students will learn how to collect data through surveys.",
-    "Students will organize data using tables, charts, and tally charts.",
-    "Students will analyze collected data to draw conclusions."
-  ],
-  "rationale": [
-    "Understanding how to collect and organize data is crucial for interpreting information and making informed decisions, both in academics and everyday life."
-  ],
-  "methodology": [
-    "The lesson will include hands-on activities, group discussions, and practical exercises to engage students in collecting, organizing, and analyzing data."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Explain the importance of collecting and organizing data.",
-      "<b>Survey Activity:</b> Conduct a class survey on a chosen topic (e.g., favorite colors, pets owned) and record responses.",
-      "<b>Organizing Data:</b> Create a table, chart, or tally chart on the whiteboard or chart paper to organize survey results.",
-      "<b>Analysis:</b> Discuss the data collected, interpret the results, and draw conclusions based on the survey.",
-      "<b>Class Exercise:</b><br>1. Work in small groups to create a survey question and conduct a mini-survey in class.<br>2. Use the collected data to create a table, chart, or tally chart to represent the survey results.<br>3. Analyze the data and discuss findings with the class.",
-      "<b>Homework:</b><br>1. Design and conduct a survey at home on a topic of your choice. Record the responses.<br>2. Organize the collected data using a table, chart, or tally chart.<br>3. Write a short summary of what you learned from analyzing the data.<br>4. Explore examples of data collection and organization in a textbook or online and write down key points.<br>5. Draw a picture or diagram illustrating a situation where data collection and organization are important."
+    "title": "Introduction to Data Collection and Organization",
+    "school": "Flying Wings Academy",
+    "teacher": "Ms. Sunbeam",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Mathematics",
+    "topic": "Data Collection and Organization",
+    "grade": "Cloud Chicks",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "2",
+    "description": "This lesson introduces Grade 2 students to basic data handling concepts, teaching them how to collect data through surveys and organize it using tally marks and tables.",
+    "materials": [
+        "Whiteboard and markers",
+        "Picture cards for survey choices (Reading, Movie, Blocks, Drawing)",
+        "Worksheets for the snack survey exercise"
+    ],
+    "objectives": [
+        "Students will learn how to collect data by asking friends questions (surveys!).",
+        "Students will learn how to organize their data using a table and tally marks.",
+        "Students will learn how to look at their data to find out which choice is the most popular."
+    ],
+    "rationale": [
+        "Learning to collect and organize data is a fundamental mathematical skill that helps students understand the world around them, make sense of information, and solve simple problems."
+    ],
+    "methodology": [
+        "The lesson will use a detective theme, interactive demonstrations, think-pair-share, and a hands-on survey activity to engage students in learning data collection and organization."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: What is Data? Let's Become Data Detectives!</b>:<br><br>(Teacher says: 'Good morning, Cloud Chicks! Today we are going to become Data Detectives. A detective looks for clues to solve a mystery. Our mystery today is: 'What do our friends like the most?'')<br><br>· Data is just a fancy word for information. It's a collection of facts!<br>· When we ask our friends a question and write down their answers, we are collecting data.<br>· Imagine we want to know everyone's favorite ice cream flavor. If we ask everyone and remember all the answers, that list of answers is our data!<br><br>Think-Pair-Share: Turn to your shoulder partner and tell them one fact about yourself (e.g., 'My favorite color is blue' or 'I have a pet dog'). That fact is a piece of data!",
+            "<b>Part 2: How to Collect Data: Let's Take a Survey!</b>:<br><br>The best way to collect data from our friends is by doing a survey.<br><br>A survey is when you ask the same question to many different people.<br><br>Our Survey Question for today is: 'What is your favorite rainy day activity?'<br><br>Our choices will be:<br><br>· Reading a book 📚<br>· Watching a movie 🎬<br>· Building with blocks 🧱<br>· Drawing pictures 🖍️<br><br>(Teacher says: 'I need four volunteers to hold up these picture cards so everyone can see the choices!')",
+            "<b>Part 3: How to Organize Data: Tally Marks and Tables!</b>:<br><br>We can't just remember everyone's answer! We need to organize our data so it's easy to understand. We will use two special tools:<br><br>1. Tally Marks: Tally marks are a quick way to count.<br><br>· We make a little line | for each person's answer.<br>· When we get to the fifth person, we draw a diagonal line \\ across the first four! It makes a group of 5: 𝄇<br><br>𝄇 = 5<br><br>It's much easier to count groups of five!<br><br>2. A Table: A table helps us keep our tally marks neat and organized.<br><br>Let's make a table together on the board!<br><br>Favorite Rainy Day Activity Tally Total<br>Reading a book 📚  <br>Watching a movie 🎬  <br>Building with blocks 🧱  <br>Drawing pictures 🖍️  <br><br>Now, let's act out our survey! I will ask each Cloud Chick, 'What is your favorite rainy day activity?' You will answer, and we will add one tally mark to the table for your answer.<br><br>(Teacher conducts the survey with the class, adding tally marks to the table on the board with each student's answer).",
+            "<b>Part 4: How to Analyze Data: What Did We Learn?</b>:<br><br>Analyze is a big word that means 'to study something to learn about it.' Now let's analyze our data!<br><br>Look at our completed table on the board.<br><br>(Teacher asks the class these questions):<br><br>1. Which activity has the MOST tally marks? Let's count the groups of five! This activity is the most popular.<br>2. Which activity has the FEWEST tally marks? This activity is the least popular.<br>3. How many more people like [most popular activity] than [least popular activity]?<br>4. How many Cloud Chicks did we survey altogether? Let's add up the Totals column!<br><br>By looking at our organized data, we solved the mystery! We now know what the favorite rainy day activity is for our class. Great work, Data Detectives!",
+            "<b>Part 5: Exercise - Your Turn!</b>:<br><br>Worksheet: The Cloud Chicks' Snack Survey!<br><br>Instructions: It's snack time! Let's find out what the Cloud Chicks' favorite fruit is. Ask 10 of your classmates the question below and use tally marks to record their answers.<br><br>Your Survey Question: 'What is your favorite fruit?'<br><br>(Choices are pictured on the worksheet)<br><br>· Apple 🍎<br>· Banana 🍌<br>· Strawberry 🍓<br>· Grapes 🍇<br><br>Data Collection Table:<br><br>Favorite Fruit Tally Total<br>Apple 🍎  <br>Banana 🍌  <br>Strawberry 🍓  <br>Grapes 🍇  <br><br>Analysis Questions:<br><br>1. Which fruit is the most popular? _________________<br>2. Which fruit is the least popular? _________________<br>3. How many people like bananas? _________________<br>4. How many people did you ask in total? _________________<br><br>(Teacher says: 'Walk around the room quietly and ask your friends. Remember to make your tally marks carefully!')"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' participation during the think-pair-share, class survey, and analysis discussion.",
+        "<b>Exercise</b>: The completed snack survey worksheet will be collected to evaluate each student's ability to collect, organize, and interpret simple data."
+    ],
+    "conclusion": [
+        "By becoming Data Detectives, students have learned the foundational skills of asking a survey question, collecting answers, organizing data with tally marks and a table, and analyzing the results to find the most popular choice."
     ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to collect, organize, and analyze data during group activities and discussions.",
-    "<br><b>Homework:</b><br>1. Present the survey you conducted at home and show how you organized the data.<br>2. Share the summary of what you learned from analyzing the data.<br>3. Discuss examples of data collection and organization you explored in a textbook or online."
-  ],
-  "conclusion": [
-    "Through hands-on activities and discussions, students will develop skills in collecting, organizing, and analyzing data, enabling them to apply these skills in various contexts."
-  ]
 },
 
 // Lesson 3
 {
-  "title": "Bar Graphs",
-  "school": "Flying Wings Academy",
-  "teacher": "Mr. Mbaso",
-  "date": "Monday, April 15, 2024",
-  "tcz": "19/09/0904/021725",
-  "subject": "Mathematics",
-  "topic": "Bar Graphs",
-  "grade": "Cloud Chicks",
-  "term": "3",
-  "week": "2",
-  "lessonNumber": "3",
-  "description": "This lesson aims to teach second-grade students what bar graphs are, how to create a simple bar graph using collected data, and how to interpret information from bar graphs.",
-  "materials": [
-    "Chart paper or whiteboard",
-    "Markers or colored pencils",
-    "Collected data (e.g., survey results)"
-  ],
-  "objectives": [
-    "Students will understand what bar graphs are and why they are used.",
-    "Students will create a simple bar graph using collected data.",
-    "Students will interpret information presented in bar graphs."
-  ],
-  "rationale": [
-    "Learning to interpret and create bar graphs helps students develop visual literacy skills and understand how to represent data effectively."
-  ],
-  "methodology": [
-    "The lesson will include interactive discussions, hands-on activities, and practical exercises to engage students in understanding and creating bar graphs."
-  ],
-  "activities": [
-    ["1", "2", "3", "4", "5"],
-    [
-      "<b>Introduction:</b> Explain the purpose of bar graphs and show examples of different bar graphs.",
-      "<b>Creating a Bar Graph:</b> Guide students through creating a simple bar graph using collected data (e.g., favorite colors, number of pets).",
-      "<b>Interpreting Bar Graphs:</b> Discuss how to read and interpret information presented in bar graphs, including comparing data sets.",
-      "<b>Class Exercise:</b><br>1. Work in pairs to create a bar graph based on given data and present it to the class.<br>2. Analyze different bar graphs and discuss the information they convey.<br>3. Discuss the advantages of using bar graphs to represent data compared to other types of graphs.",
-      "<b>Homework:</b><br>1. Design a survey question to collect data on a topic of your choice. Record the responses.<br>2. Create a bar graph to represent the collected data.<br>3. Write a short explanation of what the bar graph shows and any conclusions drawn from it.<br>4. Find examples of bar graphs in newspapers, magazines, or online. Describe one example and explain its purpose.<br>5. Draw a picture or diagram illustrating a situation where using a bar graph would be helpful."
+    "title": "Introduction to Bar Graphs",
+    "school": "Flying Wings Academy",
+    "teacher": "Mr. C. Mbaso",
+    "date": "Sunday, October 13, 2024",
+    "tcz": "19/09/0904/021725",
+    "subject": "Mathematics",
+    "topic": "Understanding Bar Graphs",
+    "grade": "Cloud Chicks",
+    "term": "3",
+    "week": "2",
+    "lessonNumber": "3",
+    "description": "This lesson introduces Grade 2 students to bar graphs, teaching them how to create, read, and interpret data presented in this visual format.",
+    "materials": [
+        "Whiteboard and markers",
+        "Colored paper (Red, Blue, Green, Yellow)",
+        "Example bar graph drawings"
+    ],
+    "objectives": [
+        "Students will understand what bar graphs are and why they are used.",
+        "Students will create a simple bar graph using data they collect.",
+        "Students will read and understand information from a bar graph."
+    ],
+    "rationale": [
+        "Understanding bar graphs helps students visualize and compare data easily, building foundational skills in data interpretation and analysis that are essential for mathematics and everyday life."
+    ],
+    "methodology": [
+        "The lesson will use interactive data collection, guided graph creation, and practical exercises to teach students how to build and interpret bar graphs."
+    ],
+    "activities": [
+        ["1", "2", "3", "4", "5"],
+        [
+            "<b>Part 1: What is a Bar Graph? (The Introduction)</b>:<br><br>Hello, Cloud Chicks! Today we are going to learn about a super fun way to show information called a bar graph!<br><br>Imagine you want to know what your friend's favorite ice cream flavor is. You could ask everyone and write a list, but a list is boring and hard to count! A bar graph is a special picture that makes counting and comparing things easy and fun.<br><br>A bar graph uses bars (which look like rectangles or tall blocks) to show how many of something you have. The taller the bar, the more you have!<br><br>Look at this simple bar graph:<br><br>```<br>Our Favorite Pet<br>|<br>|       _______<br>|       |       |<br>|   ___ |       |<br>|   | | |       |<br>|   | | |       |   ___<br>|   | | |       |   | |<br>|   | | |       |   | |   ___<br>|   | | |       |   | |   | |<br>| Dog Cat Fish Bird  Rabbit<br>```<br><br>· Title: The words at the top ('Our Favorite Pet') tell us what the graph is about.<br>· Bars: The tall blocks (made of | and _). Each bar stands for a different pet.<br>· Labels: The words at the bottom (Dog, Cat, etc.) tell us what each bar means.<br><br>Why do we use bar graphs? Because they help us see the answers to questions quickly! We can easily see which pet is the most popular (the tallest bar) and which is the least popular (the shortest bar).",
+            "<b>Part 2: Let's Make a Bar Graph Together! (Collecting Data)</b>:<br><br>Let's pretend we are scientists! We want to find out the Favorite Color of the Cloud Chicks. We need to collect data. Data is just a fancy word for information.<br><br>Step 1: Ask the Question 'Cloud Chicks,what is your favorite color: Red, Blue, Green, or Yellow?' (You can hold up colored paper or point to colors in the room).<br><br>Step 2: Tally the Votes Let's make atally chart to organize our answers. Let's say we ask 20 students and get these results:<br><br>Favorite Color Tally Marks Total<br>Red ` ` ` ` 4<br>Blue ` ` ` ` ` ` ` ` ` 9<br>Green ` ` ` ` 4<br>Yellow ` ` ` 3<br><br>Step 3: Draw the Graph Now,let's turn our tally chart into a bar graph! We'll draw it on the board together.<br><br>1. Draw the axes: First, draw an L-shape. The up-and-down line is for numbers. The side-to-side line is for the colors.<br>   ```<br>   |<br>   |<br>   |<br>   |<br>   |_________________________<br>   ```<br>2. Add the title and labels: Write 'Our Favorite Colors' at the top. Write the numbers 0 through 10 on the left side. Write the color names along the bottom: Red, Blue, Green, Yellow.<br>3. Create the bars: Now, let's add the bars!<br>   · Red got 4 votes. Let's color in a bar up to the number 4 above 'Red'.<br>   · Blue got 9 votes. Let's color in a bar up to the number 9 above 'Blue'.<br>   · Green got 4 votes. Let's color in a bar up to the number 4 above 'Green'.<br>   · Yellow got 3 votes. Let's color in a bar up to the number 3 above 'Yellow'.<br><br>Wow! We made our very own bar graph!",
+            "<b>Part 3: How to Read a Bar Graph (Interpreting Data)</b>:<br><br>Now, let's be detectives and see what clues our graph can tell us!<br><br>Look at our finished bar graph and answer these questions:<br><br>1. Which color is the most popular? How do you know?<br>   · Answer: Blue is the most popular. I know because the blue bar is the tallest.<br>2. Which color is the least popular? How do you know?<br>   · Answer: Yellow is the least popular. I know because the yellow bar is the shortest.<br>3. How many Cloud Chicks chose green?<br>   · Answer: 4 Cloud Chicks chose green. I looked at the top of the green bar and saw it lines up with the number 4.<br>4. How many more people liked blue than yellow?<br>   · Let's figure it out together: Blue has 9. Yellow has 3. 9 - 3 = 6. So, 6 more people liked blue than yellow!<br><br>See? The graph makes it easy to find the answers!",
+            "<b>Part 4: Your Turn! (Exercise Time)</b>:<br><br>Here is a bar graph for you to study. It shows the favorite fruit of some animals. Use the graph to answer the questions below.<br><br>Title: Favorite Fruit of the Forest Animals<br><br>```<br>Number of Animals<br>   |<br> 5 |           _______<br>   |           |       |<br> 4 |       ___ |       |<br>   |       | | |       |<br> 3 |       | | |       |   ___<br>   |       | | |       |   | |<br> 2 |   ___ | | |       |   | |<br>   |   | | | | |       |   | |<br> 1 |   | | | | |       |   | |<br>   |___|_|_|_|_|_______|___|_|_________<br>      Apple Banana  Berry  Peach  Pear<br>             Favorite Fruit<br>```<br><br>Questions:<br><br>1. What is this graph about? (What is the title?)<br>2. Which fruit is the most popular?<br>3. Which fruit did the fewest animals choose?<br>4. How many animals chose bananas?<br>5. How many animals chose peaches?<br>6. How many more animals chose apples than pears? (Hint: Subtract!)",
+            "<b>Part 5: Exercise Answers (Teacher's Key)</b>:<br><br>1. Favorite Fruit of the Forest Animals.<br>2. Berry.<br>3. Pear.<br>4. 4 animals.<br>5. 2 animals.<br>6. Apples: 3, Pears: 1. 3 - 1 = 2 more animals chose apples.<br><br>---<br><br>Great job today, Cloud Chicks! You learned how to read, make, and understand bar graphs. You are all fantastic data detectives!"
+        ]
+    ],
+    "assessments": [
+        "<b>Observation</b>: The teacher will observe students' participation during the data collection and graph creation process.",
+        "<b>Exercise</b>: The 6-question exercise based on the 'Favorite Fruit' bar graph will evaluate the students' ability to read and interpret data."
+    ],
+    "conclusion": [
+        "By learning to create and interpret bar graphs, students have gained a fundamental skill for organizing and understanding information, making them confident data detectives."
     ]
-  ],
-  "assessments": [
-    "<b>Observation:</b> The teacher will assess students' ability to create and interpret bar graphs during class activities and discussions.",
-    "<br><b>Homework:</b><br>1. Present the survey question you designed and show the bar graph you created based on the collected data.<br>2. Explain the information presented in the bar graph and any conclusions you drew from it.<br>3. Discuss the example of a bar graph you found in newspapers, magazines, or online."
-  ],
-  "conclusion": [
-    "Through hands-on activities and discussions, students will develop skills in understanding, creating, and interpreting bar graphs, enabling them to effectively communicate and analyze data."
-  ]
 },
 
 // Week 3
