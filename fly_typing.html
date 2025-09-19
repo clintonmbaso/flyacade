@@ -1,239 +1,876 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Untitled Page</title>
-<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="font-awesome.min.css" rel="stylesheet">
-<link href="flyacade.css" rel="stylesheet">
-<link href="fly_typing.css" rel="stylesheet">
-<script src="jquery-3.6.0.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
-<script src="wwb18.min.js"></script>
-<script>   
-   $(document).ready(function()
-   {
-      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
-      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
-      {
-         event.preventDefault();
-         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
-      });
-   });
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Typing Trainer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .game-area {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .game-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            overflow: auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        .stat-box {
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-value {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            opacity: 0.8;
+        }
+
+        .word-display {
+            font-size: 2.2rem;
+            text-align: center;
+            margin: 5px 0;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 12px;
+            letter-spacing: 2px;
+        }
+
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        #inputField {
+            width: 100%;
+            padding: 12px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            outline: none;
+        }
+
+        .result-feedback {
+            text-align: center;
+            min-height: 28px;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .correct {
+            color: #4CAF50;
+        }
+
+        .incorrect {
+            color: #F44336;
+        }
+
+        .mode-toggle {
+            display: flex;
+            justify-content: center;
+            margin: 2px 0;
+        }
+
+        .mode-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .mode-btn.active {
+            background: #4CAF50;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            margin: 5px 0;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background: #4CAF50;
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 3px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-primary {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #2196F3;
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* On-screen keyboard styling */
+        .keyboard-container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2px;
+            border-radius: 10px 10px 0 0;
+            width: 100%;
+        }
+
+        .keyboard-title {
+            text-align: center;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .keyboard {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 4px;
+            width: 100%;
+        }
+
+        .numpad {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4px;
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto;
+            display: none;
+        }
+
+        .key {
+            background: rgba(255, 255, 255, 0.15);
+            border: none;
+            border-radius: 4px;
+            padding: 4px 5px;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+            aspect-ratio: 1/1;
+            touch-action: manipulation;
+        }
+
+        .key:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .key:active {
+            transform: scale(0.95);
+            background: rgba(255, 255, 255, 0.35);
+        }
+
+        .enter-key {
+            background: #4CAF50;
+        }
+
+        .space-key {
+            grid-column: span 10;
+            aspect-ratio: unset;
+        }
+
+        .backspace-key {
+            background: #F44336;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Results Popup */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        .results-popup {
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            border-radius: 15px;
+            padding: 30px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .results-title {
+            font-size: 2rem;
+            margin-bottom: 5px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .results-grade {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin: 20px 0;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .grade-a { color: #FFD700; } /* Gold */
+        .grade-b { color: #C0C0C0; } /* Silver */
+        .grade-c { color: #CD7F32; } /* Bronze */
+        .grade-d { color: #4CAF50; } /* Green */
+        .grade-f { color: #F44336; } /* Red */
+
+        .results-stats {
+            margin: 20px 0;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .stat-name {
+            font-weight: bold;
+        }
+
+        .popup-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .stat-value {
+                font-size: 1.4rem;
+            }
+            
+            .word-display {
+                font-size: 1.8rem;
+                min-height: 50px;
+            }
+            
+            .key {
+                min-height: 35px;
+                font-size: 0.9rem;
+                padding: 6px 3px;
+            }
+
+            .results-popup {
+                padding: 20px;
+            }
+
+            .results-title {
+                font-size: 1.7rem;
+            }
+
+            .results-grade {
+                font-size: 3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.6rem;
+            }
+            
+            .stats {
+                padding: 8px;
+            }
+            
+            .stat-value {
+                font-size: 1.2rem;
+            }
+            
+            .stat-label {
+                font-size: 0.8rem;
+            }
+            
+            .word-display {
+                font-size: 1.5rem;
+                min-height: 40px;
+                padding: 8px;
+            }
+            
+            .key {
+                min-height: 30px;
+                font-size: 0.8rem;
+                padding: 4px 2px;
+            }
+            
+            .btn {
+                padding: 8px 15px;
+                font-size: 0.8rem;
+            }
+
+            .results-popup {
+                padding: 15px;
+            }
+
+            .results-title {
+                font-size: 1.5rem;
+            }
+
+            .results-grade {
+                font-size: 2.5rem;
+            }
+
+            .popup-buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Professional Typing Trainer</h1>
+            <p class="subtitle">Improve your typing speed and accuracy</p>
+        </header>
 
-   <div id="FlexContainer2">
-      <div id="PanelLayer">
-         <div id="wb_IconFont2">
-            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
-         </div>
-         <div id="wb_Image1">
-            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
-         </div>
-         <div id="wb_Heading20">
-            <h2 id="Heading20">Flying Wings Academy</h2>
-         </div>
-         <div id="wb_OverlayMenu2">
-            <div class="OverlayMenu2">
-               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
-                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
-                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
-                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
-                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                  <li><a role="menuitem" href="#" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
-                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
-               </ul>
+        <div class="game-area">
+            <div class="game-content">
+                <div class="mode-toggle">
+                    <button id="wordsMode" class="mode-btn active">Words Practice</button>
+                    <button id="numbersMode" class="mode-btn">Numbers Practice</button>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-value" id="timer">30</div>
+                        <div class="stat-label">Seconds</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="wpm">0</div>
+                        <div class="stat-label">WPM</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="accuracy">100%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress" id="progressBar"></div>
+                </div>
+
+                <div class="word-display" id="wordDisplay">Ready to type!</div>
+
+                <div class="input-container">
+                    <input type="text" id="inputField" placeholder="Type here..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" readonly>
+                </div>
+
+                <div class="result-feedback" id="result"></div>
+
+                <div class="controls">
+                    <button class="btn btn-primary" onclick="sendEmail()">
+                        <i class="fas fa-envelope"></i> Email Results
+                    </button>
+                    <button class="btn btn-secondary" onclick="restartGame()">
+                        <i class="fas fa-redo"></i> Restart Game
+                    </button>
+                </div>
             </div>
-         </div>
-         <div id="wb_Text40">
-            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-         </div>
-      </div>
-      <div id="wb_HeaderLayoutGrid">
-         <div id="HeaderLayoutGrid">
-            <div class="row">
-               <div class="col-1">
-                  <div id="wb_home_logo">
-                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
-                  </div>
-               </div>
-               <div class="col-2">
-                  <div id="wb_Header">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text3">
-                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text2">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text5">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text1">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text4">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text6">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
-                  </div>
-               </div>
-               <div class="col-3">
-                  <div id="wb_menuPanel">
-                     <a href="#PanelLayer" id="menuPanel">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </a>
-                  </div>
-               </div>
+        </div>
+    </div>
+
+    <div class="keyboard-container">
+        <div class="keyboard-title">On-Screen Keyboard - Click keys to type</div>
+        <div class="keyboard" id="keyboard">
+            <!-- Row 1: q to p -->
+            <div class="key">q</div>
+            <div class="key">w</div>
+            <div class="key">e</div>
+            <div class="key">r</div>
+            <div class="key">t</div>
+            <div class="key">y</div>
+            <div class="key">u</div>
+            <div class="key">i</div>
+            <div class="key">o</div>
+            <div class="key">p</div>
+            
+            <!-- Row 2: a to l -->
+            <div class="key">a</div>
+            <div class="key">s</div>
+            <div class="key">d</div>
+            <div class="key">f</div>
+            <div class="key">g</div>
+            <div class="key">h</div>
+            <div class="key">j</div>
+            <div class="key">k</div>
+            <div class="key">l</div>
+            <div class="key backspace-key"><i class="fas fa-backspace"></i></div>
+            
+            <!-- Row 3: z to m -->
+            <div class="key">z</div>
+            <div class="key">x</div>
+            <div class="key">c</div>
+            <div class="key">v</div>
+            <div class="key">b</div>
+            <div class="key">n</div>
+            <div class="key">m</div>
+            <div class="key">.</div>
+            <div class="key">,</div>
+            <div class="key enter-key">Enter</div>
+            
+            <!-- Row 4: Space bar -->
+            <div class="key space-key">Space</div>
+        </div>
+        <div class="numpad" id="numpad">
+            <!-- Row 1: 7 to 9 -->
+            <div class="key">7</div>
+            <div class="key">8</div>
+            <div class="key">9</div>
+            
+            <!-- Row 2: 4 to 6 -->
+            <div class="key">4</div>
+            <div class="key">5</div>
+            <div class="key">6</div>
+            
+            <!-- Row 3: 1 to 3 -->
+            <div class="key">1</div>
+            <div class="key">2</div>
+            <div class="key">3</div>
+            
+            <!-- Row 4: ., 0, Enter -->
+            <div class="key">.</div>
+            <div class="key">0</div>
+            <div class="key enter-key">Enter</div>
+        </div>
+    </div>
+
+    <!-- Results Popup -->
+    <div class="popup-overlay" id="resultsPopup">
+        <div class="results-popup">
+            <h2 class="results-title">Typing Challenge Results</h2>
+            <div class="results-grade" id="finalGrade">A</div>
+            <div class="results-stats">
+                <div class="stat-row">
+                    <span class="stat-name">Time Taken:</span>
+                    <span id="statTime">30 seconds</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-name">Words Typed:</span>
+                    <span id="statWords">0</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-name">Errors:</span>
+                    <span id="statErrors">0</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-name">WPM:</span>
+                    <span id="statWpm">0</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-name">Accuracy:</span>
+                    <span id="statAccuracy">100%</span>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
-   <div id="FlexContainer3">
-      <div id="wb_Text9">
-         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
-      </div>
-   </div>
+            <div class="popup-buttons">
+                <button class="btn btn-primary" onclick="restartGame()">
+                    <i class="fas fa-redo"></i> Play Again
+                </button>
+                <button class="btn btn-secondary" onclick="sendEmail()">
+                    <i class="fas fa-envelope"></i> Email Results
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <form id="emailForm" method="post" action="mailto:flyingwingsacademy7@gmail.com" enctype="text/plain" style="display:none;">
+        <input type="hidden" name="subject" value="Typing Challenge Result">
+        <textarea id="emailBody" name="body" style="display:none;"></textarea>
+    </form>
+
+    <script>
+        // Game variables
+        const words = ["cat", "dog", "fish", "bird", "tree", "house", "apple", "banana", "computer", "garden",
+                      "happy", "music", "friend", "ocean", "school", "book", "flower", "sun", "moon", "star",
+                      "color", "family", "game", "smile", "rainbow", "mountain", "robot", "candy", "magic", "dream",
+                      "flying", "singing", "dancing", "coding", "learning", "keyboard", "challenge", "practice", "typing", "speed"];
+        
+        const numbers = ["123", "456", "789", "101", "202", "303", "404", "505", "606", "707", "808", "909", 
+                        "1001", "2002", "3003", "1234", "5678", "9876", "5432", "1357", "2468", "1122", "3344", "5566"];
+        
+        let currentWord, timer, correctWordsCount, totalWordsCount, startTime, currentMode;
+        let errorsCount = 0;
+        let gameDuration = 0;
+
+        // Initialize the game
+        function initGame() {
+            // Set up event listeners
+            document.getElementById('inputField').addEventListener('input', checkInput);
+            document.getElementById('wordsMode').addEventListener('click', () => switchMode('words'));
+            document.getElementById('numbersMode').addEventListener('click', () => switchMode('numbers'));
+            
+            // Setup keyboard event listeners
+            setupKeyboardEvents();
+            
+            // Start the game
+            switchMode('words');
+            
+            // Prevent physical keyboard input
+            document.addEventListener('keydown', function(e) {
+                e.preventDefault();
+            });
+            
+            // Focus on input field
+            document.getElementById("inputField").focus();
+        }
+
+        // Set up keyboard event listeners
+        function setupKeyboardEvents() {
+            // Add event listeners to all letter keys
+            document.querySelectorAll('.key:not(.space-key):not(.backspace-key):not(.enter-key)').forEach(key => {
+                key.addEventListener('click', () => {
+                    const input = document.getElementById("inputField");
+                    input.value += key.textContent;
+                    input.focus();
+                    checkInput();
+                });
+            });
+            
+            // Space key
+            document.querySelector('.space-key').addEventListener('click', () => {
+                const input = document.getElementById("inputField");
+                input.value += " ";
+                input.focus();
+                checkInput();
+            });
+            
+            // Backspace key
+            document.querySelector('.backspace-key').addEventListener('click', () => {
+                const input = document.getElementById("inputField");
+                input.value = input.value.slice(0, -1);
+                input.focus();
+                checkInput();
+            });
+            
+            // Enter key
+            document.querySelectorAll('.enter-key').forEach(enterKey => {
+                enterKey.addEventListener('click', () => {
+                    checkInput();
+                });
+            });
+        }
+
+        // Switch between words and numbers mode
+        function switchMode(mode) {
+            currentMode = mode;
+            
+            // Update UI
+            document.getElementById('wordsMode').classList.toggle('active', mode === 'words');
+            document.getElementById('numbersMode').classList.toggle('active', mode === 'numbers');
+            document.getElementById('keyboard').style.display = mode === 'words' ? 'grid' : 'none';
+            document.getElementById('numpad').style.display = mode === 'numbers' ? 'grid' : 'none';
+            
+            // Restart game with new mode
+            restartGame();
+        }
+
+        // Start the game
+        function startGame() {
+            // Initialize variables
+            correctWordsCount = 0;
+            totalWordsCount = 0;
+            errorsCount = 0;
+            gameDuration = 0;
+            startTime = Date.now();
+            
+            // Get a new word
+            getNewWord();
+            
+            // Start the timer
+            let seconds = 30;
+            updateTimer(seconds);
+            
+            clearInterval(timer);
+            timer = setInterval(function() {
+                seconds--;
+                gameDuration++;
+                updateTimer(seconds);
+                
+                if (seconds <= 0) {
+                    endGame();
+                }
+            }, 1000);
+            
+            // Focus on input field
+            document.getElementById("inputField").focus();
+        }
+
+        // Update timer display
+        function updateTimer(seconds) {
+            document.getElementById("timer").innerText = seconds;
+            document.getElementById("progressBar").style.width = ((30 - seconds) / 30 * 100) + '%';
+        }
+
+        // Get a new word
+        function getNewWord() {
+            const wordList = currentMode === 'words' ? words : numbers;
+            currentWord = wordList[Math.floor(Math.random() * wordList.length)];
+            document.getElementById("wordDisplay").innerText = currentWord;
+            document.getElementById("inputField").value = "";
+            document.getElementById("result").innerText = "";
+            document.getElementById("result").className = "result-feedback";
+        }
+
+        // Check user input - automatically submits when word is complete
+        function checkInput() {
+            const userInput = document.getElementById("inputField").value;
+            
+            // Check if input matches current word
+            if (userInput === currentWord) {
+                // Correct word
+                document.getElementById("result").innerText = "Correct!";
+                document.getElementById("result").className = "result-feedback correct";
+                
+                // Update stats
+                correctWordsCount++;
+                totalWordsCount++;
+                updateStats();
+                
+                // Get new word immediately (no delay)
+                getNewWord();
+            } else if (currentWord.startsWith(userInput)) {
+                // Partially correct
+                document.getElementById("result").innerText = "Keep typing...";
+                document.getElementById("result").className = "result-feedback";
+            } else {
+                // Incorrect
+                document.getElementById("result").innerText = "Incorrect!";
+                document.getElementById("result").className = "result-feedback incorrect";
+                errorsCount++;
+                totalWordsCount++;
+                updateStats();
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            // Calculate WPM (words per minute)
+            const elapsedTime = (Date.now() - startTime) / 1000 / 60; // in minutes
+            const wpm = Math.round(correctWordsCount / elapsedTime);
+            document.getElementById("wpm").innerText = isFinite(wpm) ? wpm : 0;
+            
+            // Calculate accuracy
+            const accuracy = totalWordsCount > 0 ? Math.round((correctWordsCount / totalWordsCount) * 100) : 100;
+            document.getElementById("accuracy").innerText = accuracy + "%";
+        }
+
+        // End the game and show results
+        function endGame() {
+            clearInterval(timer);
+            document.getElementById("wordDisplay").innerText = "Game Over!";
+            document.getElementById("inputField").disabled = true;
+            
+            // Calculate final stats
+            updateStats();
+            
+            // Show results popup
+            showResults();
+        }
+
+        // Show results popup with grading
+        function showResults() {
+            const elapsedTime = (Date.now() - startTime) / 1000;
+            const wpm = Math.round(correctWordsCount / (elapsedTime / 60));
+            const accuracy = totalWordsCount > 0 ? Math.round((correctWordsCount / totalWordsCount) * 100) : 100;
+            
+            // Determine grade based on WPM and accuracy
+            let grade, gradeClass;
+            if (wpm >= 40 && accuracy >= 95) {
+                grade = "A+";
+                gradeClass = "grade-a";
+            } else if (wpm >= 30 && accuracy >= 90) {
+                grade = "A";
+                gradeClass = "grade-a";
+            } else if (wpm >= 25 && accuracy >= 85) {
+                grade = "B";
+                gradeClass = "grade-b";
+            } else if (wpm >= 20 && accuracy >= 80) {
+                grade = "C";
+                gradeClass = "grade-c";
+            } else if (wpm >= 15 && accuracy >= 70) {
+                grade = "D";
+                gradeClass = "grade-d";
+            } else {
+                grade = "F";
+                gradeClass = "grade-f";
+            }
+            
+            // Update popup content
+            document.getElementById("finalGrade").textContent = grade;
+            document.getElementById("finalGrade").className = "results-grade " + gradeClass;
+            document.getElementById("statTime").textContent = Math.round(elapsedTime) + " seconds";
+            document.getElementById("statWords").textContent = correctWordsCount;
+            document.getElementById("statErrors").textContent = errorsCount;
+            document.getElementById("statWpm").textContent = wpm;
+            document.getElementById("statAccuracy").textContent = accuracy + "%";
+            
+            // Show popup
+            document.getElementById("resultsPopup").style.display = "flex";
+        }
+
+        // Restart the game
+        function restartGame() {
+            // Hide results popup if visible
+            document.getElementById("resultsPopup").style.display = "none";
+            
+            clearInterval(timer);
+            document.getElementById("inputField").disabled = false;
+            document.getElementById("result").innerText = "";
+            document.getElementById("result").className = "result-feedback";
+            document.getElementById("wpm").innerText = "0";
+            document.getElementById("accuracy").innerText = "100%";
+            document.getElementById("progressBar").style.width = "0%";
+            startGame();
+        }
+
+        // Send email with results
+        function sendEmail() {
+            const wpm = document.getElementById("wpm").innerText;
+            const accuracy = document.getElementById("accuracy").innerText;
+            const emailBody = `Typing Challenge Results\n\nWords Per Minute: ${wpm}\nAccuracy: ${accuracy}\nMode: ${currentMode}`;
+            
+            document.getElementById("emailBody").innerText = emailBody;
+            document.getElementById("emailForm").submit();
+        }
+
+        // Initialize the game when page loads
+        window.onload = initGame;
+    </script>
 </body>
-</html>    <h1>Typing Challenge</h1>
-    
-   <div id="wordDisplay"></div>
-   <input type="text" id="inputField" placeholder="Enter a word" onkeydown="if (event.key === 'Enter') checkWord()">
-   <button onclick="checkWord()">Check</button>
-   <div id="result"></div>
-   <div id="timer">Time remaining: <span id="time">30</span> seconds</div>
-   <div id="grading"></div>
-  
-  
-    <!-- Email form -->
-   <form id="emailForm" method="post" action="mailto:flyingwingsacademy7@gmail.com" enctype="text/plain" style="display:none;">
-      <input type="hidden" name="subject" value="Typing Challenge Result">
-      <textarea id="emailBody" name="body" style="display:none;"></textarea>
-   </form>
-    
-   <button onclick="sendEmail()">Send Result to Email</button>
-   <button onclick="location.reload()">Restart Game</button>
-  
-  
-  
-  
-   <script>   
-           // List of words for the challenge
-           const words = ["cat", "dog", "fish", "bird", "tree", "house", "apple", "banana", "computer", "garden",
-                          "happy", "music", "friend", "ocean", "school", "book", "flower", "sun", "moon", "star",
-                          "color", "family", "game", "smile", "rainbow", "mountain", "robot", "candy", "magic", "dream" , "flying" , "singing"];
-   
-           let currentWord, timer, correctWordsCount;
-   
-           function startGame() {
-               // Shuffle the list of words
-               words.sort(() => Math.random() - 0.5);
-   
-               // Initialize variables
-               correctWordsCount = 0;
-   
-               // Start the game with the first word
-               currentWord = words.pop();
-               document.getElementById("wordDisplay").innerText = currentWord;
-   
-               // Start the timer
-               let seconds = 30;
-               timer = setInterval(function() {
-                   document.getElementById("time").innerText = seconds;
-                   if (seconds <= 0) {
-                       endGame();
-                   } else {
-                       seconds--;
-                   }
-               }, 1000);
-           }
-   
-           function checkWord() {
-               // Get user input
-               const userInput = document.getElementById("inputField").value.toLowerCase();
-   
-               // Check if the input matches the current word
-               if (userInput === currentWord) {
-                   document.getElementById("result").innerText = "Correct! Well done!";
-                   correctWordsCount++;
-               } else {
-                   document.getElementById("result").innerText = "Oops! Try again.";
-               }
-   
-               // Get a new word for the next challenge
-               if (words.length > 0) {
-                   currentWord = words.pop();
-                   document.getElementById("wordDisplay").innerText = currentWord;
-               } else {
-                   endGame();
-               }
-   
-               // Clear the input field
-               document.getElementById("inputField").value = "";
-           }
-   
-           function endGame() {
-               clearInterval(timer);
-               document.getElementById("wordDisplay").innerText = "Game Over!";
-               document.getElementById("result").innerText = "Challenge completed. Well done!";
-               displayGrading();
-           }
-   
-           function displayGrading() {
-               let grade = "F"; // Default grade
-   
-               // Determine the grade based on the correct words count
-               if (correctWordsCount >= 10) {
-                   grade = "A";
-               } else if (correctWordsCount >= 7) {
-                   grade = "B";
-               } else if (correctWordsCount >= 5) {
-                   grade = "C";
-               } else if (correctWordsCount >= 3) {
-                   grade = "D";
-               } else if (correctWordsCount <= 3) {
-                 grade = "Failed";
-               }
-   
-               document.getElementById("grading").innerText = `Your Grade: ${grade}`;
-           }
-   
-           function restartGame() {
-               clearInterval(timer);
-               document.getElementById("wordDisplay").innerText = "";
-               document.getElementById("inputField").value = "";
-               document.getElementById("result").innerText = "";
-               document.getElementById("timer").innerText = "";
-               document.getElementById("grading").innerText = "";
-               startGame(); // Call startGame to begin a new game
-           }
-   
-           // Start the game when the page loads
-           window.onload = startGame;
-     
-     
-     
-     function sendEmail() {
-               const grade = document.getElementById("grading").innerText;
-               const emailBody = `Typing Challenge Result\n\nGrade: ${grade}`;
-               
-               // Update the email body
-               document.getElementById("emailBody").innerText = emailBody;
-   
-               // Trigger the form submission
-               document.getElementById("emailForm").submit();
-           }
-     
-       
-   </script>
+</html>
