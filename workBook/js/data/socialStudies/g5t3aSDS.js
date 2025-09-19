@@ -1,6 +1,6 @@
 registerWorkbook({
     id: 'g5t3aSDS',
-    title: 'Revision Questions',
+    title: 'Mid Term Test',
     description: 'Social Studies - Revision Questions',
     subject: 'Social Studies',
     grade: 5,
