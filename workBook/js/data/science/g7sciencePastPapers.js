@@ -5725,7 +5725,7 @@ registerWorkbook({
         "explanation": "Anaemia is often caused by iron deficiency. Iron is necessary for the production of hemoglobin in red blood cells.",
         "shuffleOptions": true
     },
-                    
+                    */
 // 2024
     {
         "type": "multiple-choice",
@@ -5735,6 +5735,7 @@ registerWorkbook({
         "explanation": "A normal human pregnancy typically lasts about 9 months.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The diagram shows the basic structure of an insect. Name the parts labelled 1, 2 and 3.",
@@ -5743,6 +5744,7 @@ registerWorkbook({
         "explanation": "The standard body parts of an insect are: 1. Antenna, 2. Thorax, 3. Wing.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "People should be discouraged from drinking alcohol while driving because drinking can result in ...",
@@ -5751,6 +5753,7 @@ registerWorkbook({
         "explanation": "Alcohol impairs judgment and coordination, leading to an increased risk of accidents.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following diagram of a simple electric circuit. What are components X and Y in the circuit?",
@@ -5759,6 +5762,7 @@ registerWorkbook({
         "explanation": "In a standard circuit diagram, X is typically the switch and Y is the battery.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "The measurement of temperature is done using ...",
@@ -5767,6 +5771,7 @@ registerWorkbook({
         "explanation": "A thermometer is the instrument specifically designed to measure temperature.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following list: (i) Air conditioner (ii) Air vent (iii) Wall (iv) Table (v) Fan (vi) Window (vii) Roof. Which ones are ventilators?",
@@ -5775,6 +5780,7 @@ registerWorkbook({
         "explanation": "Ventilators are devices or openings that allow air to circulate. Air conditioners, air vents, and windows serve this purpose.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "What is the main source of thermal energy?",
@@ -5783,6 +5789,7 @@ registerWorkbook({
         "explanation": "The Sun is the primary source of thermal energy for the Earth.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "A learner performed an experiment as shown in the diagram. The learner wanted to find out if air ...",
@@ -5791,6 +5798,7 @@ registerWorkbook({
         "explanation": "The experiment described (likely inverting a glass in water) demonstrates that air occupies space.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "A teenage girl went to the clinic complaining of having missed her menstrual period and was told that she ...",
@@ -6015,6 +6023,7 @@ registerWorkbook({
         "explanation": "Heroin is an illegal, illicit drug with high potential for abuse and addiction.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The following are sources of vitamins and mineral salts. (i) Vegetable (ii) Fish (iii) Egg (iv) Pumpkin. Which two are sources of calcium?",
@@ -6023,6 +6032,7 @@ registerWorkbook({
         "explanation": "Fish (especially small, bony fish) and eggs are good dietary sources of calcium.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following are the correct stages of copper extraction?",
@@ -6047,6 +6057,7 @@ registerWorkbook({
         "explanation": "The rotation of the Earth on its axis causes the alternation of day and night.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Equal amount of water was poured in the filter funnels with equal amounts of different types of soil as shown in diagrams P, Q, R and S. Which soil type P, Q, R and S is sand soil?",
@@ -6055,6 +6066,7 @@ registerWorkbook({
         "explanation": "Sand soil has the largest particles and the fastest drainage. The diagram showing the most water collected underneath (R) indicates sand.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "People who are addicted to drugs can be assisted by...",
@@ -6087,6 +6099,7 @@ registerWorkbook({
         "explanation": "Liver, carrots (contain beta-carotene), and mangoes are excellent sources of Vitamin A.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following diagram of the water cycle. What process takes place at 4?",
@@ -6095,8 +6108,8 @@ registerWorkbook({
         "explanation": "In a standard water cycle diagram, stage 4 typically represents precipitation (rain, snow, sleet, hail).",
         "shuffleOptions": true
     },
-                    
                     */
+                    
                     
                     
                     ]
