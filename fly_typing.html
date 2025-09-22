@@ -5,453 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Typing Trainer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    <link rel="stylesheet" href="fly_typing.css">
 
-        body {
-            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
-            color: #fff;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            padding: 0;
-            overflow: hidden;
-        }
 
-        .container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            max-width: 1000px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 20px;
-            overflow: auto;
-        }
 
-        header {
-            text-align: center;
-            margin-bottom: 5px;
-            padding: 10px;
-        }
-
-        h1 {
-            font-size: 2.2rem;
-            margin-bottom: 5px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        .subtitle {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        .game-area {
-            display: flex;
-            flex-direction: column;
-            flex: 1;
-            overflow: hidden;
-        }
-
-        .game-content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 10px;
-            margin-bottom: 10px;
-            overflow: auto;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .stats {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 15px;
-            background: rgba(0, 0, 0, 0.3);
-            padding: 12px;
-            border-radius: 10px;
-        }
-
-        .stat-box {
-            text-align: center;
-            flex: 1;
-        }
-
-        .stat-value {
-            font-size: 1.6rem;
-            font-weight: bold;
-        }
-
-        .stat-label {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-
-        .word-display {
-            font-size: 2.2rem;
-            text-align: center;
-            margin: 5px 0;
-            min-height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-            padding: 12px;
-            letter-spacing: 2px;
-        }
-
-        .input-container {
-            position: relative;
-            margin-bottom: 15px;
-        }
-
-        #inputField {
-            width: 100%;
-            padding: 12px;
-            font-size: 1.1rem;
-            border: none;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.9);
-            text-align: center;
-            outline: none;
-        }
-
-        .result-feedback {
-            text-align: center;
-            min-height: 28px;
-            font-weight: bold;
-            margin-bottom: 3px;
-        }
-
-        .correct {
-            color: #4CAF50;
-        }
-
-        .incorrect {
-            color: #F44336;
-        }
-
-        .mode-toggle {
-            display: flex;
-            justify-content: center;
-            margin: 2px 0;
-        }
-
-        .mode-btn {
-            background: rgba(255, 255, 255, 0.2);
-            border: none;
-            color: white;
-            padding: 8px 16px;
-            margin: 0 5px;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s;
-            font-size: 0.9rem;
-        }
-
-        .mode-btn.active {
-            background: #4CAF50;
-        }
-
-        .progress-bar {
-            height: 8px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 4px;
-            margin: 5px 0;
-            overflow: hidden;
-        }
-
-        .progress {
-            height: 100%;
-            background: #4CAF50;
-            width: 0%;
-            transition: width 0.3s;
-        }
-
-        .controls {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin-top: 3px;
-        }
-
-        .btn {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .btn-primary {
-            background: #4CAF50;
-            color: white;
-        }
-
-        .btn-secondary {
-            background: #2196F3;
-            color: white;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        /* On-screen keyboard styling */
-        .keyboard-container {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 2px;
-            border-radius: 10px 10px 0 0;
-            width: 100%;
-        }
-
-        .keyboard-title {
-            text-align: center;
-            margin-bottom: 8px;
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
-        .keyboard {
-            display: grid;
-            grid-template-columns: repeat(10, 1fr);
-            gap: 4px;
-            width: 100%;
-        }
-
-        .numpad {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 4px;
-            width: 100%;
-            max-width: 200px;
-            margin: 0 auto;
-            display: none;
-        }
-
-        .key {
-            background: rgba(255, 255, 255, 0.15);
-            border: none;
-            border-radius: 4px;
-            padding: 4px 5px;
-            color: white;
-            font-size: 2rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 40px;
-            aspect-ratio: 1/1;
-            touch-action: manipulation;
-        }
-
-        .key:hover {
-            background: rgba(255, 255, 255, 0.25);
-        }
-
-        .key:active {
-            transform: scale(0.95);
-            background: rgba(255, 255, 255, 0.35);
-        }
-
-        .enter-key {
-            background: #4CAF50;
-        }
-
-        .space-key {
-            grid-column: span 10;
-            aspect-ratio: unset;
-        }
-
-        .backspace-key {
-            background: #F44336;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        /* Results Popup */
-        .popup-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.8);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            display: none;
-        }
-
-        .results-popup {
-            background: linear-gradient(135deg, #2c3e50, #4ca1af);
-            border-radius: 15px;
-            padding: 30px;
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-
-        .results-title {
-            font-size: 2rem;
-            margin-bottom: 5px;
-            color: #fff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        .results-grade {
-            font-size: 3.5rem;
-            font-weight: bold;
-            margin: 20px 0;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
-        }
-
-        .grade-a { color: #FFD700; } /* Gold */
-        .grade-b { color: #C0C0C0; } /* Silver */
-        .grade-c { color: #CD7F32; } /* Bronze */
-        .grade-d { color: #4CAF50; } /* Green */
-        .grade-f { color: #F44336; } /* Red */
-
-        .results-stats {
-            margin: 20px 0;
-        }
-
-        .stat-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .stat-name {
-            font-weight: bold;
-        }
-
-        .popup-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 25px;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-            
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .subtitle {
-                font-size: 1rem;
-            }
-            
-            .stat-value {
-                font-size: 1.4rem;
-            }
-            
-            .word-display {
-                font-size: 1.8rem;
-                min-height: 50px;
-            }
-            
-            .key {
-                min-height: 35px;
-                font-size: 0.9rem;
-                padding: 6px 3px;
-            }
-
-            .results-popup {
-                padding: 20px;
-            }
-
-            .results-title {
-                font-size: 1.7rem;
-            }
-
-            .results-grade {
-                font-size: 3rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                padding: 10px;
-            }
-            
-            h1 {
-                font-size: 1.6rem;
-            }
-            
-            .stats {
-                padding: 8px;
-            }
-            
-            .stat-value {
-                font-size: 1.2rem;
-            }
-            
-            .stat-label {
-                font-size: 0.8rem;
-            }
-            
-            .word-display {
-                font-size: 1.5rem;
-                min-height: 40px;
-                padding: 8px;
-            }
-            
-            .key {
-                min-height: 30px;
-                font-size: 0.8rem;
-                padding: 4px 2px;
-            }
-            
-            .btn {
-                padding: 8px 15px;
-                font-size: 0.8rem;
-            }
-
-            .results-popup {
-                padding: 15px;
-            }
-
-            .results-title {
-                font-size: 1.5rem;
-            }
-
-            .results-grade {
-                font-size: 2.5rem;
-            }
-
-            .popup-buttons {
-                flex-direction: column;
-                gap: 10px;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -507,9 +64,9 @@
     </div>
 
     <div class="keyboard-container">
-        <div class="keyboard-title">On-Screen Keyboard - Click keys to type</div>
         <div class="keyboard" id="keyboard">
             <!-- Row 1: q to p -->
+            <div class="keybo">
             <div class="key">q</div>
             <div class="key">w</div>
             <div class="key">e</div>
@@ -520,8 +77,10 @@
             <div class="key">i</div>
             <div class="key">o</div>
             <div class="key">p</div>
+            </div>
             
             <!-- Row 2: a to l -->
+            <div class="keybo snd">              
             <div class="key">a</div>
             <div class="key">s</div>
             <div class="key">d</div>
@@ -531,9 +90,11 @@
             <div class="key">j</div>
             <div class="key">k</div>
             <div class="key">l</div>
-            <div class="key backspace-key"><i class="fas fa-backspace"></i></div>
+            </div>
             
             <!-- Row 3: z to m -->
+            <div class="keybo snd">            
+            <div class="keyz"></div>
             <div class="key">z</div>
             <div class="key">x</div>
             <div class="key">c</div>
@@ -541,13 +102,20 @@
             <div class="key">b</div>
             <div class="key">n</div>
             <div class="key">m</div>
-            <div class="key">.</div>
-            <div class="key">,</div>
-            <div class="key enter-key">Enter</div>
+            <div class="key backspace-key"><i class="fas fa-backspace"></i></div>
+            </div>
             
             <!-- Row 4: Space bar -->
+             <div class="keybo">           
+            <div class="key keys"></div>
+            <div class="key">,</div>
             <div class="key space-key">Space</div>
+            <div class="key">.</div>
+            <div class="key enter-key keys"><i class="fas fa-enter"></i></div>
+             </div>
         </div>
+        
+        
         <div class="numpad" id="numpad">
             <!-- Row 1: 7 to 9 -->
             <div class="key">7</div>
@@ -619,10 +187,14 @@
         const words = ["cat", "dog", "fish", "bird", "tree", "house", "apple", "banana", "computer", "garden",
                       "happy", "music", "friend", "ocean", "school", "book", "flower", "sun", "moon", "star",
                       "color", "family", "game", "smile", "rainbow", "mountain", "robot", "candy", "magic", "dream",
-                      "flying", "singing", "dancing", "coding", "learning", "keyboard", "challenge", "practice", "typing", "speed"];
+                      "hope", "treat", "create", "estimate", "found", "mold", "hammer", "sweets", "phone", "mouse",
+                      "flying", "singing", "dancing", "coding", "learning", "keyboard", "challenge", "practice", "typing", "speed"
+    ];
         
         const numbers = ["123", "456", "789", "101", "202", "303", "404", "505", "606", "707", "808", "909", 
-                        "1001", "2002", "3003", "1234", "5678", "9876", "5432", "1357", "2468", "1122", "3344", "5566"];
+                        "1001", "2002", "3003", "1234", "5678", "9876", "5432", "1357", "2468", "1122", "3344", "5566",
+                        "4267", "541700", "7583", "51178", "90075", "267430", "609473", "5381", "7060", "50302", "2610", "731932",
+    ];
         
         let currentWord, timer, correctWordsCount, totalWordsCount, startTime, currentMode;
         let errorsCount = 0;
@@ -693,7 +265,7 @@
             // Update UI
             document.getElementById('wordsMode').classList.toggle('active', mode === 'words');
             document.getElementById('numbersMode').classList.toggle('active', mode === 'numbers');
-            document.getElementById('keyboard').style.display = mode === 'words' ? 'grid' : 'none';
+            document.getElementById('keyboard').style.display = mode === 'words' ? 'flex' : 'none';
             document.getElementById('numpad').style.display = mode === 'numbers' ? 'grid' : 'none';
             
             // Restart game with new mode
@@ -713,7 +285,7 @@
             getNewWord();
             
             // Start the timer
-            let seconds = 30;
+            let seconds = 60;
             updateTimer(seconds);
             
             clearInterval(timer);
@@ -734,7 +306,7 @@
         // Update timer display
         function updateTimer(seconds) {
             document.getElementById("timer").innerText = seconds;
-            document.getElementById("progressBar").style.width = ((30 - seconds) / 30 * 100) + '%';
+            document.getElementById("progressBar").style.width = ((60 - seconds) / 60 * 100) + '%';
         }
 
         // Get a new word
