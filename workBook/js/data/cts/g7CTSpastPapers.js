@@ -518,8 +518,341 @@ registerWorkbook({
         "explanation": "Knitting is typically used for fabrics and garments, not traditional basket making which uses weaving, plaiting or braiding techniques.",
         "shuffleOptions": true
     },
+/*
+    {
+        "type": "multiple-choice",
+        "text": "21 Which of these symbols mean, “do not wash”?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 1,
+        "explanation": "Symbol B typically represents a 'do not wash' instruction in laundry care symbols.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "During puberty ... changes in boys.",
+        "options": ["height", "complexion", "habit", "voice"],
+        "correctAnswer": 3,
+        "explanation": "Voice deepening is a characteristic physical change during male puberty.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The best and cheap method of making water safe to drink is ...",
+        "options": ["boiling.", "chlorination.", "decanting.", "filtration."],
+        "correctAnswer": 0,
+        "explanation": "Boiling is an effective, low-cost method to kill harmful microorganisms in water.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which crop is not suitable to grow in the kitchen garden?",
+        "options": ["Cabbage", "Maize", "Onion", "Tomato"],
+        "correctAnswer": 1,
+        "explanation": "Maize requires significant space and is not ideal for small kitchen gardens.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In the weekly cleaning of the bedroom. What step should come first?",
+        "options": ["Empty the wardrobes", "Open the windows", "Sweep the ceiling", "Tidy up the room"],
+        "correctAnswer": 1,
+        "explanation": "Opening windows provides ventilation before starting cleaning activities.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "26 The instrument below is used to protect the middle finger when sewing? Name the instrument.",
+        "options": ["Bodkin", "Card", "Tape", "Thimble"],
+        "correctAnswer": 3,
+        "explanation": "A thimble is worn on the finger to push needles through fabric safely.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which household pest contaminates food?",
+        "options": ["Bed bug", "Flies", "Lice", "Mosquitoes"],
+        "correctAnswer": 1,
+        "explanation": "Flies land on food and can transmit bacteria and diseases.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "An entrepreneur is a person who starts a business hoping to ...",
+        "options": ["overcharge customers.", "maintain capital.", "make profit.", "abuse customers."],
+        "correctAnswer": 2,
+        "explanation": "Entrepreneurs aim to generate profit through business ventures.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "How can you preserve beans and pumpkins leaves?",
+        "options": ["Canning", "Drying", "Salting", "Smoking"],
+        "correctAnswer": 1,
+        "explanation": "Drying is a common preservation method for leafy vegetables.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A colander is a kitchen utensil used for ...",
+        "options": ["draining.", "frying.", "mixing.", "scooping."],
+        "correctAnswer": 0,
+        "explanation": "Colanders are designed to drain water from cooked foods like pasta.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "31 The stitch shown on the piece of cloth is a ... stitch.",
+        "options": ["embroidery", "decorative", "permanent", "temporary"],
+        "correctAnswer": 1,
+        "explanation": "The pattern appears to be a decorative stitch used for embellishment.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "A business person can challenge competitors by ...",
+        "options": ["changing the place of selling.", "improving the products being sold.", "fighting with the competitors.", "reducing the prices of the products."],
+        "correctAnswer": 1,
+        "explanation": "Product improvement is a positive competitive strategy.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which foods are not suitable for people living with HIV and AIDS?",
+        "options": ["More fatty foods", "Low fat sources of protein", "food with less sugar", "Diet high in vegetables."],
+        "correctAnswer": 0,
+        "explanation": "High-fat foods may compromise immune function and nutrient absorption.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The best way of cleaning a wound is to use ... water.",
+        "options": ["boiled", "cold", "frozen", "hot"],
+        "correctAnswer": 0,
+        "explanation": "Boiled (and cooled) water is sterile and safe for wound cleaning.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which is the common raising agent used for making fritters?",
+        "options": ["Air", "Baking powder", "Bicarbonate of soda", "Yeast"],
+        "correctAnswer": 1,
+        "explanation": "Baking powder is a common leavening agent for fried batters like fritters.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The ... provides artificial ventilation.",
+        "options": ["door", "fan", "vents", "window"],
+        "correctAnswer": 1,
+        "explanation": "Fans create air movement for artificial ventilation.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is the correct order of the menstruation process?",
+        "options": ["Ovulation → menstruation", "Gestation → menstruation", "Gestation → fertilization", "Fertilization → ovulation"],
+        "correctAnswer": 0,
+        "explanation": "Ovulation occurs before menstruation in the menstrual cycle.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is one of the fastest methods of preparing meat.",
+        "options": ["Boiling", "Frying", "Roasting", "Steaming"],
+        "correctAnswer": 1,
+        "explanation": "Frying cooks meat quickly due to direct high heat contact.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "From the list below, which one is a decorative stitch? ... stitch.",
+        "options": ["Back", "Chain", "Running", "Tacking"],
+        "correctAnswer": 1,
+        "explanation": "Chain stitch is commonly used for decorative embroidery.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A low body weight and a dry skin in children is a deficiency of ...",
+        "options": ["carbohydrates.", "minerals.", "proteins.", "vitamins."],
+        "correctAnswer": 2,
+        "explanation": "Protein-energy malnutrition causes wasting and skin changes.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "41 The character shown on the computer below is aligned on the ...",
+        "options": ["centre.", "left.", "right.", "top."],
+        "correctAnswer": 0,
+        "explanation": "The text appears centered relative to the page margins.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "42 The key marked y on the common calculator below is used for ...",
+        "options": ["adding numbers.", "calculating percentages.", "finding results.", "memory recall."],
+        "correctAnswer": 1,
+        "explanation": "The 'y' key likely represents the percentage function.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "The acronyms www on the internet stands for ...",
+        "options": ["world wide web.", "world wide web.", "world with web.", "world work web."],
+        "correctAnswer": 0,
+        "explanation": "WWW stands for World Wide Web.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "44 Study the diagram below. Which of the following shows how the Front View of the object would appear?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 1,
+        "explanation": "Option B correctly represents the frontal projection of the 3D object.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "How many types of butt joints do we have?",
+        "options": ["1", "2", "4", "5"],
+        "correctAnswer": 1,
+        "explanation": "Butt joints are generally categorized into two main types: simple and reinforced.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The school tuckshop had goods for sale. In which book where the finances recorded?",
+        "options": ["Evaluation book", "Inventory book", "Sales book", "Stock book"],
+        "correctAnswer": 2,
+        "explanation": "Sales books record financial transactions from goods sold.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mary bought a cow at K2 000, she later sold at K2 800. How much profit did she make?",
+        "options": ["K800", "K2 000", "K2 800", "K4 800"],
+        "correctAnswer": 0,
+        "explanation": "Profit = Selling Price - Cost Price = K2,800 - K2,000 = K800",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A learner wanted to make a simple circuit. What materials was he likely to use?",
+        "options": ["Bulb, copper wire and wood", "Copper wire, bulb and paper clip", "Copper wire, rubber and paper clip", "Rubber, paper clip and wood"],
+        "correctAnswer": 1,
+        "explanation": "A basic circuit requires a conductor (wire), load (bulb), and switch (paper clip).",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "49 Mulenga constructed the polygon below. What is its name?",
+        "options": ["Hexagon", "Octagon", "Pentagon", "Quadrilateral"],
+        "correctAnswer": 1,
+        "explanation": "The shape has eight sides, making it an octagon.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "50 The letters \( A - D \) show the keys on a standard calculator. What is the function of key B?",
+        "options": ["Memory addition", "Memory clear", "Memory recall", "Memory call"],
+        "correctAnswer": 2,
+        "explanation": "Key B typically represents Memory Recall (MR) function.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which risk would put the computer system and data in danger?",
+        "options": ["Electrical", "Financial", "Personal", "Technological"],
+        "correctAnswer": 3,
+        "explanation": "Technological risks include malware, hacking, and system failures.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "52 Which of the following shapes could be joined to form a triangle?",
+        "options": ["1 and 4", "2 and 4", "1 and 2", "1 and 3"],
+        "correctAnswer": 2,
+        "explanation": "Shapes 1 and 2 are right triangles that can combine to form a larger triangle.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Orthographic projection usually shows three views namely Front, End and ...",
+        "options": ["middle.", "high.", "low.", "plan."],
+        "correctAnswer": 3,
+        "explanation": "The standard orthographic views are Front, Side (End), and Plan (Top).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is formatting? It means changing ...",
+        "options": ["alignment, line space, style, click.", "font colour, font size, alignment, save.", "font size, font colour, style, alignment.", "style, alignment, font size, tab."],
+        "correctAnswer": 2,
+        "explanation": "Formatting involves modifying text appearance and layout.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The correct order of stages for land preparation to construct a structure is ...",
+        "options": ["clearing, setting, digging, construction.", "digging, setting, digging, construction.", "planning, clearing, setting, construction.", "setting, clearing, digging, construction."],
+        "correctAnswer": 2,
+        "explanation": "Proper sequence: planning → clearing → setting out → construction.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The type of advertising where satisfied customers tell others about your product is called ...",
+        "options": ["displaying goods.", "magazine.", "word of mouth.", "newspaper."],
+        "correctAnswer": 2,
+        "explanation": "Word-of-mouth relies on customer recommendations.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which one of the following is not a service?",
+        "options": ["Cutting hair", "Painting houses", "Repairing cell phones", "Selling cars"],
+        "correctAnswer": 3,
+        "explanation": "Selling cars involves goods, while others are service activities.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "How is wood prepared before use?",
+        "options": ["Cutting, measuring, marking and planning.", "Marking, measuring, cutting and planning.", "Measuring, marking, cutting and planning.", "Measuring, cutting, marking and planning."],
+        "correctAnswer": 2,
+        "explanation": "Correct sequence: measure → mark → cut → plane/smooth.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Someone can get hold of your online banking details and steal money from your bank account. This financial internet risk is called ...",
+        "options": ["cracking.", "cybercrime.", "hacking.", "phishing."],
+        "correctAnswer": 3,
+        "explanation": "Phishing involves tricking individuals into revealing sensitive financial information.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which one is the most recently invented source of light in rural areas?",
+        "options": ["Candle", "Diesel", "Paraffin", "Solar"],
+        "correctAnswer": 3,
+        "explanation": "Solar lighting technology is a modern innovation for rural areas.",
+        "shuffleOptions": true
+    },
                         
-                    
 // 2020
     {
         "type": "multiple-choice",
@@ -685,8 +1018,341 @@ registerWorkbook({
         "explanation": "Hop, step and jump is the fundamental technique used in triple jump events.",
         "shuffleOptions": true
     },
+    {
+        "type": "multiple-choice",
+        "text": "The money used to start a business is called ...",
+        "options": ["capital.", "goods.", "loss.", "profit."],
+        "correctAnswer": 0,
+        "explanation": "Capital refers to the initial investment used to start a business.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Chuma was cooking food by covering it with water. What method of cooking was she using?",
+        "options": ["Boiling", "Poaching", "Steaming", "Stewing"],
+        "correctAnswer": 0,
+        "explanation": "Boiling involves cooking food in water at its boiling point.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "23 Which of the following shows a weighing equipment?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 3,
+        "explanation": "Option D appears to be a kitchen scale used for weighing ingredients.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "A chef always weighs and measures ingredients in order to ...",
+        "options": ["find out the size or amount of something.", "increase amount of something.", "have plenty to share.", "reduce the quantity."],
+        "correctAnswer": 0,
+        "explanation": "Weighing and measuring ensures accurate amounts for consistent results.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "25 The laundry symbol below means ...",
+        "options": ["bleach with chlorine.", "do not bleach.", "dry cleaning is not allowed.", "do not wet clean."],
+        "correctAnswer": 1,
+        "explanation": "A triangle with an X through it indicates 'do not bleach'.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is not a weighing and measuring equipment?",
+        "options": ["Cup", "Hand", "Scale", "Spoon"],
+        "correctAnswer": 1,
+        "explanation": "Hands are not standardized measuring tools.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "To look neat, tidy and have good posture, a learner must have ...",
+        "options": ["beautiful body.", "good grooming.", "handsome body.", "nice shape."],
+        "correctAnswer": 1,
+        "explanation": "Good grooming involves maintaining neatness and proper appearance.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The following is true about the importance of first aid except to ...",
+        "options": ["make the dead person alive again.", "reduce the pain.", "stop the injury from becoming worse.", "save life."],
+        "correctAnswer": 0,
+        "explanation": "First aid cannot revive deceased individuals.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mrs Kasongo bought a set of knitting cotton at K25 and made two sweaters which she sold at K50 each. How much profit did she make?",
+        "options": ["K25", "K50", "K75", "K100"],
+        "correctAnswer": 2,
+        "explanation": "Total revenue: K50 × 2 = K100. Profit: K100 - K25 = K75.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Fasteners are for ...",
+        "options": ["closing openings on garments.", "decorating garments.", "neatening garments.", "reducing the fullness on garments."],
+        "correctAnswer": 0,
+        "explanation": "Fasteners like buttons and zippers secure garment openings.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following modern kitchen equipment is correctly paired with its use?",
+        "options": ["Blender - It is used to mix or crush food and other substances.", "Electric kettle - It is used for boiling water and cooking food more quickly.", "Pressure cooker - It is used to heat slices of bread on both sides", "Toaster - It is used to cook food more quickly."],
+        "correctAnswer": 0,
+        "explanation": "Blenders are designed for mixing and crushing ingredients.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A thimble is used for ...",
+        "options": ["cutting material.", "making seams.", "protecting the finger.", "scrubbing the needle."],
+        "correctAnswer": 2,
+        "explanation": "Thimbles protect fingers when pushing needles through fabric.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is the reason for preserving food?",
+        "options": ["increasing food wastage", "making food expensive", "making food unavailable", "preventing food decay"],
+        "correctAnswer": 3,
+        "explanation": "Food preservation extends shelf life by preventing spoilage.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Jane cleaned the spills in the kitchen after cooking to ...",
+        "options": ["attract visitors.", "avoid sliding.", "have fresh air.", "make it look shine."],
+        "correctAnswer": 1,
+        "explanation": "Cleaning spills prevents slippery surfaces and accidents.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... and ... are factors which influence physical appearance.",
+        "options": ["Heredity and nutrition", "Friends and environment", "Friends and marriage", "Race and marriage"],
+        "correctAnswer": 0,
+        "explanation": "Genetics and diet significantly impact physical development.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "James wanted to hold two pieces of cloths together. Which needlework tool would he use?",
+        "options": ["Measuring card", "Pins", "Tape measure", "Thimble"],
+        "correctAnswer": 1,
+        "explanation": "Pins temporarily hold fabric pieces together for sewing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The following are plaited articles, except ...",
+        "options": ["basket.", "door mat.", "hat.", "pin cushion."],
+        "correctAnswer": 3,
+        "explanation": "Pin cushions are typically stuffed, not plaited.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Using materials like grass, banana stem, maize straw and sisal, a learner can easily make a ... item.",
+        "options": ["knitted", "plaited", "sawn", "wooven"],
+        "correctAnswer": 1,
+        "explanation": "These materials are commonly used in plaiting crafts.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following diseases is as a result of lack of carbohydrates?",
+        "options": ["Goitre", "Kwashiorkor", "Marasmus", "Rickets"],
+        "correctAnswer": 2,
+        "explanation": "Marasmus results from severe deficiency of both calories and protein.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Lukonde lost a lot of blood due to an injury. She should eat a lot of food rich in ...",
+        "options": ["carbohydrates.", "fats.", "iron.", "protein."],
+        "correctAnswer": 2,
+        "explanation": "Iron is essential for hemoglobin production and blood regeneration.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "41 Mulenga is preparing to make a Mortice and Tenon joint below. Which parts could be joined?",
+        "options": ["B and D", "B and C", "A and D", "A and C"],
+        "correctAnswer": 3,
+        "explanation": "In mortise and tenon joints, the tenon (A) fits into the mortise (C).",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is the best use of internet? For ...",
+        "options": ["searching information.", "spreading viruses.", "phishing.", "cybercrime."],
+        "correctAnswer": 0,
+        "explanation": "Research and information gathering are positive internet uses.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "43 A learner made the simple circuit below. The part marked \( A \) is ...",
+        "options": ["batteries.", "bulb.", "switch.", "wire."],
+        "correctAnswer": 2,
+        "explanation": "Component A controls current flow, indicating a switch.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "44 The isometric drawing below shows ... as the plan view.",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 1,
+        "explanation": "The plan view is the top-down perspective of the object.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Transferring of typed work from the computer to paper is ...",
+        "options": ["cutting.", "editing.", "pasting.", "printing."],
+        "correctAnswer": 3,
+        "explanation": "Printing produces physical copies of digital documents.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A switch is used to ...",
+        "options": ["brighten the bulb.", "create a short circuit.", "make the light dim.", "turn the current on and off."],
+        "correctAnswer": 3,
+        "explanation": "Switches control electrical flow in a circuit.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "To join two pieces of metal, a learner used ... glue.",
+        "options": ["contact", "common", "manufactured", "P.V.A"],
+        "correctAnswer": 0,
+        "explanation": "Contact cement is effective for bonding metal surfaces.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Someone who discloses the ATM number or pin may ...",
+        "options": ["have the money stolen from his/her account.", "have the ATM card destroyed or stolen by the bank.", "lose the code and the ATM card.", "safeguard the account."],
+        "correctAnswer": 0,
+        "explanation": "PIN disclosure can lead to unauthorized account access and theft.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following activity comes first in working with metal?",
+        "options": ["Cutting the metal into pieces.", "Filing the metal to the required size.", "Marking out the measurements needed.", "Polishing up the metal pieces."],
+        "correctAnswer": 2,
+        "explanation": "Marking measurements is the initial step in metalworking.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "To make a price on the item, one needs to ...",
+        "options": ["always aim at making more profit.", "consider the profit, labour and time spent.", "increase the price compared to others at the market.", "sale an item less than the cost price."],
+        "correctAnswer": 1,
+        "explanation": "Pricing should account for production costs and fair profit.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "51 Which of the following symbols is correctly paired with its explanation?",
+        "options": ["Symbol 1 - Right alignment", "Symbol 2 - Justify alignment", "Symbol 3 - Centre alignment", "Symbol 4 - Left alignment"],
+        "correctAnswer": 2,
+        "explanation": "Symbol 3 typically represents center alignment in text formatting.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "... is used to plug in two or more electrical appliances.",
+        "options": ["Meter box", "Bulb holder", "Adaptor", "Amp"],
+        "correctAnswer": 2,
+        "explanation": "Adaptors provide multiple outlets from a single socket.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "53 Which icon should be clicked to print a document?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 3,
+        "explanation": "Icon D typically represents the print function (printer symbol).",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "The following are different ways of formatting a text except ...",
+        "options": ["Normal.", "Italic.", "Bold.", "Arial."],
+        "correctAnswer": 3,
+        "explanation": "Arial is a font type, not a formatting style like bold/italic.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Open option is a step in the ... on a computer.",
+        "options": ["creating images", "graphic packages", "improving images", "printing images"],
+        "correctAnswer": 1,
+        "explanation": "'Open' is a file operation common in graphic software.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "56 When bisecting angle 90° shown below, a pupil should place and mark points ... and draw a line from O to E.",
+        "options": ["A and B", "C and D", "A and C", "B and D"],
+        "correctAnswer": 1,
+        "explanation": "Points C and D are used to construct the angle bisector.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "The ... is the commonest source of lighting in rural areas of Zambia.",
+        "options": ["electricity", "generator", "paraffin", "solar"],
+        "correctAnswer": 2,
+        "explanation": "Paraffin lamps are widely used in areas without grid electricity.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "We can know the cursor status by its ...",
+        "options": ["events position.", "position on the monitor.", "shape and task.", "shape position."],
+        "correctAnswer": 2,
+        "explanation": "Cursor shapes change to indicate different functions (e.g., text selection, loading).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "We can mould good and strong clay bricks using clay from ...",
+        "options": ["a dambo.", "an anti-hill.", "deep layer of soil.", "topsoil."],
+        "correctAnswer": 1,
+        "explanation": "Termite hills provide high-quality clay for brickmaking.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Tri squares and spirit levels are used in building for ...",
+        "options": ["cutting.", "driving.", "marking.", "testing."],
+        "correctAnswer": 3,
+        "explanation": "These tools check angles and levelness during construction.",
+        "shuffleOptions": true
+    },
                         
-                    
 // 2021
     {
         "type": "multiple-choice",
@@ -851,7 +1517,334 @@ registerWorkbook({
         "explanation": "These activities describe stunts, which involve coordinated physical feats often performed in groups.",
         "shuffleOptions": true
     },
-                        
+    {
+        "type": "multiple-choice",
+        "text": "Knives and other sharp objects in a house should be properly stored in order to ...",
+        "options": ["make them remain new.", "make them remain sharp.", "prevent accidents.", "prevent people from borrowing."],
+        "correctAnswer": 2,
+        "explanation": "Proper storage of sharp objects prevents accidental cuts and injuries.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "22 The best needlework tool used for cutting fabric is ...",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 3,
+        "explanation": "Option D appears to be fabric scissors, which are designed for cutting fabric cleanly.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Laundry starch can be obtained from all the following except ...",
+        "options": ["wheat.", "rice.", "maize.", "fish."],
+        "correctAnswer": 3,
+        "explanation": "Starch is derived from plants, not from animal sources like fish.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is the best way of promoting privacy and bodily integrity for both boys and girls?",
+        "options": ["Building them separate bathrooms", "Building them communal toilets", "Allowing them to use same bathroom", "Allowing them to use the same bedroom"],
+        "correctAnswer": 0,
+        "explanation": "Separate bathrooms provide privacy and respect bodily integrity for different genders.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A ... is used to store pins in needlework and crafts.",
+        "options": ["tools box", "pin foam", "pin box", "pin cushion"],
+        "correctAnswer": 3,
+        "explanation": "A pin cushion is specifically designed to safely store and organize pins.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "To have energy, one should eat foods such as ...",
+        "options": ["butter, beef, chicken.", "chibwabwa, rape, cabbage.", "fish, eggs, beans.", "nshima, rice, cassava."],
+        "correctAnswer": 3,
+        "explanation": "Nshima, rice, and cassava are carbohydrate-rich foods that provide energy.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is used to measure short lengths on fabrics.",
+        "options": ["Tailor's chalk", "Measuring tape", "Measuring hem", "Measuring card"],
+        "correctAnswer": 3,
+        "explanation": "A measuring card or ruler is used for short, precise measurements on fabric.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... need a diet with large quantities of vitamins, calcium and proteins.",
+        "options": ["Expectant mothers", "Lactating mothers", "Old people", "Young children"],
+        "correctAnswer": 1,
+        "explanation": "Lactating mothers require extra nutrients to support milk production and recovery.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The following is true about food preservation except ...",
+        "options": ["adding variety to the diet.", "keeping food for the growing children only.", "making seasonal foods available throughout the year.", "preventing food decay."],
+        "correctAnswer": 1,
+        "explanation": "Food preservation benefits everyone, not just growing children.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The following types of food are prepared by stewing except ...",
+        "options": ["beans.", "beef.", "fish.", "groundnuts."],
+        "correctAnswer": 3,
+        "explanation": "Groundnuts are typically roasted or boiled, not stewed.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Bathing, dressing and applying makeup are ... practices.",
+        "options": ["beautiful", "immoral", "personal grooming", "self pride"],
+        "correctAnswer": 2,
+        "explanation": "These activities are part of personal grooming and hygiene.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The first set of teeth in human beings is called ... teeth.",
+        "options": ["milk", "permanent", "strong", "weak"],
+        "correctAnswer": 0,
+        "explanation": "Deciduous teeth are commonly known as milk teeth.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following foods are used for garnishing?",
+        "options": ["Beans, rape", "Cabbage, potato", "Cucumber, tomatoes", "Kapenta, onion"],
+        "correctAnswer": 2,
+        "explanation": "Cucumber and tomatoes are commonly used as decorative garnishes.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following would best be used for cleaning the backyard? ... broom.",
+        "options": ["Hard", "Mopping", "Scrubbing", "Soft"],
+        "correctAnswer": 0,
+        "explanation": "A hard broom is effective for sweeping outdoor areas like backyards.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A Home Economics learner bought a table cloths at K150.00 and later sold it at K250.00. How much profit did she make?",
+        "options": ["K50.00", "K100.00", "K300.00", "K400.00"],
+        "correctAnswer": 1,
+        "explanation": "Profit = Selling Price - Cost Price = K250 - K150 = K100",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A person's feelings of beauty and attractiveness to others is called ...",
+        "options": ["body image.", "body structure.", "mental image.", "mental makeup."],
+        "correctAnswer": 0,
+        "explanation": "Body image refers to one's perception of their physical appearance.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Communication, pricing the products or services and distribution are factors in ...",
+        "options": ["banking.", "manufacturing.", "marketing.", "saving."],
+        "correctAnswer": 2,
+        "explanation": "These are key elements of the marketing mix.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is not an example of decorative stitch?",
+        "options": ["Blanket stitch", "Chain stitch", "Running stitch", "Stem stitch"],
+        "correctAnswer": 2,
+        "explanation": "Running stitch is primarily functional, while the others are decorative.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Tailors display sewn items in order to ...",
+        "options": ["attract buyers.", "copy the patterns.", "dry the clothes.", "measure different sizes."],
+        "correctAnswer": 0,
+        "explanation": "Displaying finished items helps showcase work and attract customers.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is the type of stitch used to prevent edges from fraying.",
+        "options": ["Blanket", "Chain", "Back", "Running"],
+        "correctAnswer": 0,
+        "explanation": "Blanket stitch is commonly used to finish edges and prevent fraying.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "41 A learner drew the picture below and stuck it on the bag. The sign means ...",
+        "options": ["do not tear.", "do not touch.", "feel free to touch.", "you can get."],
+        "correctAnswer": 1,
+        "explanation": "The symbol likely represents a 'do not touch' warning.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Why is a money clip used as a switch in an electric circuit? It is a ...",
+        "options": ["bad conductor of electricity.", "good conductor of electricity.", "nicely shaped object.", "very shiny and attractive object."],
+        "correctAnswer": 1,
+        "explanation": "Metal money clips conduct electricity well, making them suitable as switches.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is one of the safety rules in a workroom.",
+        "options": ["Playing with sharp tools", "Running about", "Touching electrical installations", "Wearing appropriate clothes"],
+        "correctAnswer": 3,
+        "explanation": "Proper attire protects against workplace hazards.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "44 Which group has the correct names for the following tools?",
+        "options": ["Tri square, Hand saw, Mallet, Marking knife", "Mallet, Marking knife, Hand saw, Tri square", "Marking knife, Hand saw, Mallet, Tri square", "Hand saw, Tri square, Marking knife, Mallet"],
+        "correctAnswer": 3,
+        "explanation": "The tools are correctly identified as hand saw, tri square, marking knife, and mallet.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following are the basic parts of a circle?",
+        "options": ["Breadth and length", "Diameter and radius", "Width and length", "Width and radius"],
+        "correctAnswer": 1,
+        "explanation": "Diameter and radius are fundamental components of a circle.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Hairdressers, bricklayers, bankers, tailors and plumbers offer ...",
+        "options": ["credits.", "debts.", "loans.", "services."],
+        "correctAnswer": 3,
+        "explanation": "These professions provide services rather than goods.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "John drew a triangle with sides of the same measurement. It is called ... triangle.",
+        "options": ["equilateral", "right angled", "isosceles", "scalene"],
+        "correctAnswer": 0,
+        "explanation": "Equilateral triangles have all three sides equal in length.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Someone who discloses the ATM number or PIN may ...",
+        "options": ["have the money stolen from his/her account.", "have the ATM card destroyed by the bank.", "lose the code and the ATM card.", "safeguard the account."],
+        "correctAnswer": 0,
+        "explanation": "Sharing PIN numbers can lead to unauthorized access and theft.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Hydroelectricity is that which ...",
+        "options": ["cannot be used at home.", "does not finish.", "is generated from water.", "is generated from wind."],
+        "correctAnswer": 2,
+        "explanation": "Hydroelectric power is generated from flowing water.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The following are reasons for giving first aid except ...",
+        "options": ["preserving life.", "preventing further harm.", "stopping bleeding.", "worsening the situation."],
+        "correctAnswer": 3,
+        "explanation": "First aid aims to help, not worsen, the condition.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In ... projection, the object is usually drawn as three separate views.",
+        "options": ["a first angle", "a third angle", "an isometric", "an orthographic"],
+        "correctAnswer": 3,
+        "explanation": "Orthographic projection shows multiple 2D views of a 3D object.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "52 Which of the following shapes can be joined to form a Hexagon?",
+        "options": ["A and C", "A and D", "B and C", "B and D"],
+        "correctAnswer": 1,
+        "explanation": "Shapes A and D appear to be trapezoids that can form a hexagon when combined.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is a part of a work bench?",
+        "options": ["Handle", "Saddle", "Vice", "Wheel"],
+        "correctAnswer": 2,
+        "explanation": "A vice is a standard component of a workbench for holding materials.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is a risk associated with the internet?",
+        "options": ["Browsing", "Downloading", "Hacking", "Searching"],
+        "correctAnswer": 2,
+        "explanation": "Hacking represents a significant cybersecurity risk.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following internet risks is correctly paired with its function?",
+        "options": ["CRIME - Predators using social media to get people they want", "CYBER CRIME - Someone getting your banking details and steal money.", "HACKING - Someone getting information on social media when you will be away so they can rob your home.", "SEXUAL ABUSE - Someone getting security measures on website and computer networks."],
+        "correctAnswer": 1,
+        "explanation": "Cyber crime involves illegal activities like stealing banking information online.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "After a document was typed, it was checked for possible mis-spelling and missing words. The document was being ...",
+        "options": ["discarded.", "edited.", "formatted.", "misplaced."],
+        "correctAnswer": 1,
+        "explanation": "Checking for spelling and grammar errors is part of the editing process.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "To join two pieces of wood quickly to form a joint, Mwiya used ...",
+        "options": ["bridle joint.", "butt joint.", "lap joint.", "nailing."],
+        "correctAnswer": 3,
+        "explanation": "Nailing is a fast method for joining wood pieces.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Cash, stock and sales books are .. records.",
+        "options": ["calculation", "costing", "financial", "selling"],
+        "correctAnswer": 2,
+        "explanation": "These are financial records tracking business transactions.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Unwanted mail appeared in one of the learners email inbox in form of advertising. This is called ...",
+        "options": ["cracking.", "cybercrime.", "phishing.", "spam."],
+        "correctAnswer": 3,
+        "explanation": "Unsolicited advertising emails are classified as spam.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The mouse cursor changes its shape for different ...",
+        "options": ["microsoft applications.", "programme icons.", "tasks.", "windows."],
+        "correctAnswer": 2,
+        "explanation": "The cursor changes shape to indicate different available actions or modes.",
+        "shuffleOptions": true
+    },                        
                     
 // 2022
     {
@@ -1025,7 +2018,338 @@ registerWorkbook({
         "shuffleOptions": true
     },
 */
-                    
+    {
+        "type": "multiple-choice",
+        "text": "Which one of the following is the use of a kitchen sink?",
+        "options": ["Washing dishes", "Washing hands", "Washing clothes", "Pouring dirty water"],
+        "correctAnswer": 0,
+        "explanation": "The primary function of a kitchen sink is for washing dishes and utensils.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The following are uses of water in a home except ...",
+        "options": ["bathing.", "cooking.", "purifying.", "washing."],
+        "correctAnswer": 2,
+        "explanation": "Water itself is purified; it is not used as an agent to purify other things in typical home contexts. Purification is done to water.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... are physical changes at puberty in both girls and boys.",
+        "options": ["Menstrual flow begins and production of sperms", "Pubic hair grows and pimples appear", "Voice breaks and hips broaden", "Waist becomes distinct and shoulders broaden"],
+        "correctAnswer": 1,
+        "explanation": "Growth of pubic hair and the appearance of pimples (due to hormonal changes) are common to both sexes during puberty.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following are qualities of a good entrepreneur?",
+        "options": ["Aggressive and violent", "confident and persistent", "Proud and boastful", "shy and quite"],
+        "correctAnswer": 1,
+        "explanation": "Confidence and persistence are key traits for overcoming challenges in business.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "What type of cooking method is shown in the figure below?",
+        "options": ["Frying", "Grilling", "Roasting", "Steaming"],
+        "correctAnswer": 3,
+        "explanation": "The diagram shows a pot with boiling water and a colander above it, indicating steaming where food is cooked by steam.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "A diet which contains all the food groups in their right amount is called a ... diet.",
+        "options": ["correct", "full", "mixed", "special"],
+        "correctAnswer": 0,
+        "explanation": "A correct or balanced diet provides all essential nutrients in appropriate proportions.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which disease is caused due to lack of protein in the body?",
+        "options": ["Beriberi", "Kwashiorkor", "Marasmus", "Rickets"],
+        "correctAnswer": 1,
+        "explanation": "Kwashiorkor is a severe form of malnutrition caused by inadequate protein intake.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which entrepreneurial opportunity is related to crafts?",
+        "options": ["Basket making", "Cake making", "Growing vegetables", "Sewing aprons"],
+        "correctAnswer": 0,
+        "explanation": "Basket making is a traditional craft that can be turned into a business opportunity.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "How can the waste bin be kept clean?",
+        "options": ["Always keeping the bin closed", "Always keeping the bin open", "Washing the bin everyday", "Washing the bin once a week"],
+        "correctAnswer": 0,
+        "explanation": "Keeping the bin closed prevents pests, odors, and spillage, helping to maintain cleanliness.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A boy was paid for cleaning the neighbour's compound. He provided ... to the neighbour.",
+        "options": ["an advert", "an awareness", "a product", "a service"],
+        "correctAnswer": 3,
+        "explanation": "Cleaning is an activity performed for someone else, which is a service.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Method of cooking over direct heat from an open fire is called ...",
+        "options": ["grilling.", "roasting.", "steaming.", "stewing."],
+        "correctAnswer": 0,
+        "explanation": "Grilling involves cooking food on a grill over direct heat, often from an open flame.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which ingredient can be used for making homemade starch?",
+        "options": ["Cassava", "Groundnuts", "Salt", "Yeast"],
+        "correctAnswer": 0,
+        "explanation": "Cassava flour is a common base for making homemade laundry starch.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the difference between measuring and weighing?",
+        "options": ["Uses dry ingredients, Uses liquids", "Uses scales, Uses dry ingredients", "Uses cups, Uses scales", "Uses scales, Uses solids"],
+        "correctAnswer": 2,
+        "explanation": "Measuring typically uses volume tools like cups for liquids/dry goods, while weighing uses scales to determine mass.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Personal hygiene includes all of the following except ...",
+        "options": ["dental care.", "hair shaving.", "painting fingernails.", "skin bleaching."],
+        "correctAnswer": 3,
+        "explanation": "Skin bleaching is a cosmetic practice, often harmful, and not part of basic personal hygiene which focuses on cleanliness.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Puberty in girls begins at the age of ... years.",
+        "options": ["8 to 9", "11 to 12", "13 to 15", "16 to 18"],
+        "correctAnswer": 1,
+        "explanation": "Puberty in girls typically starts between ages 10-11, with 11-12 being a common range for noticeable changes.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The needlework tool used for marking on fabrics is ...",
+        "options": ["measuring card", "pin cushion", "tailors chalk", "tape measure"],
+        "correctAnswer": 2,
+        "explanation": "Tailor's chalk is specifically designed for making temporary marks on fabric.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The inner layer of the skin is known as ...",
+        "options": ["dermis.", "epidermis.", "hypodermis.", "melanin."],
+        "correctAnswer": 0,
+        "explanation": "The skin has three layers: epidermis (outer), dermis (middle), and hypodermis (subcutaneous, deepest). The dermis is often referred to as the inner layer of the true skin.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Which stitch is shown in the diagram below?",
+        "options": ["Tailor’s tuck", "Over sewing", "Overcasting", "Herring-bone"],
+        "correctAnswer": 1,
+        "explanation": "The diagram likely depicts over sewing, a stitch used for edging or seaming.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which scissors is used to make the decoration labelled A?",
+        "options": ["Embroidery", "Pinking shear", "Sewing shear", "Trimming"],
+        "correctAnswer": 1,
+        "explanation": "Pinking shears have zigzag blades used to create decorative edges or prevent fraying.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which locally available material can be used to clean pots in place of scouring pad?",
+        "options": ["Ashes", "Egg shells", "Mango leaves", "Sand"],
+        "correctAnswer": 1,
+        "explanation": "Crushed eggshells are abrasive and can be used to scrub pots clean.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following drawing shows a right angle?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 2,
+        "explanation": "A right angle measures exactly 90 degrees. Based on the diagram, option C represents a right angle.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "... is a global system of computer networks that are linked together.",
+        "options": ["Computer", "Internet", "Ipad", "Laptop"],
+        "correctAnswer": 1,
+        "explanation": "The Internet is the worldwide network connecting millions of computers.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The best finisher for wood artefacts is ...",
+        "options": ["paint.", "plane.", "polish.", "varnish."],
+        "correctAnswer": 3,
+        "explanation": "Varnish provides a protective and decorative coating that enhances the wood's natural grain.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... joint is an example of a temporary joint.",
+        "options": ["Butt", "Dovetail", "Edge", "Miter"],
+        "correctAnswer": 0,
+        "explanation": "A butt joint is simple and often temporary, as it lacks the strength of interlocking joints like dovetail.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Electric circuit can be drawn using symbols. The figure below shows a ...",
+        "options": ["battery.", "light bulb.", "single cell.", "switch."],
+        "correctAnswer": 2,
+        "explanation": "The symbol depicted is for a single cell (battery component).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which cursor shape shows that a computer is ready to click on an item?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 0,
+        "explanation": "The standard pointer cursor (arrow) indicates the computer is ready for selection or clicking.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "The following are computer external storage devices except ...",
+        "options": ["compact disk.", "flash disk.", "key board.", "memory card."],
+        "correctAnswer": 2,
+        "explanation": "A keyboard is an input device, not a storage device.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is NOT a text format?",
+        "options": ["Reversal", "Normal", "Italic", "Bold"],
+        "correctAnswer": 0,
+        "explanation": "Reversal is not a standard text formatting option in word processing. Normal, Italic, and Bold are common formats.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The match box shows different views. What part is labelled D?",
+        "options": ["end", "front", "plan", "side"],
+        "correctAnswer": 0,
+        "explanation": "In technical drawing, the 'end' view shows the shorter side of an object.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Isometric drawing is a way of representing a solid in ... dimensions.",
+        "options": ["5", "4", "3", "2"],
+        "correctAnswer": 2,
+        "explanation": "Isometric drawings represent three-dimensional objects on a two-dimensional plane, showing length, width, and height.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The figure below is a ... circuit.",
+        "options": ["connect", "parallel", "series", "switch"],
+        "correctAnswer": 1,
+        "explanation": "The diagram shows components connected across common points, characteristic of a parallel circuit.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is a disadvantage of self-employment?",
+        "options": ["Dependence on the profit made", "It encourages creativity", "There is high degree of independence", "Unlimited earning is guaranteed"],
+        "correctAnswer": 0,
+        "explanation": "Self-employment income is irregular and depends entirely on the business's success, which can be a significant disadvantage.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A learner typed a text in bold and later changed it to italic. This is called ... text.",
+        "options": ["aligning", "editing", "formatting", "printing"],
+        "correctAnswer": 2,
+        "explanation": "Changing the appearance of text (bold, italic, etc.) is known as formatting.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "When you change the size of an object on the screen it is called ...",
+        "options": ["deleting pictures.", "designing graphics.", "graphic manipulation.", "saving objects."],
+        "correctAnswer": 2,
+        "explanation": "Resizing is a common form of graphic manipulation.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The correct procedure for preparing wood before use is ...",
+        "options": ["cutting, measuring, marking, planing.", "marking, measuring, cutting, planing.", "measuring, marking, cutting, planing.", "marking, cutting, measuring, planing."],
+        "correctAnswer": 2,
+        "explanation": "The logical sequence is: 1. Measure, 2. Mark, 3. Cut, 4. Plane (smooth).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which is the 3rd stage in preparing a site for construction?",
+        "options": ["Clearing", "Construction", "Digging", "Setting"],
+        "correctAnswer": 2,
+        "explanation": "Typical stages: 1. Clearing, 2. Setting out, 3. Digging (foundations).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the function of the electronic gadget in the figure below?",
+        "options": ["Editing numbers", "Editing text", "Performing communication operations", "Performing elementary operations"],
+        "correctAnswer": 3,
+        "explanation": "The gadget appears to be a basic calculator, designed for performing elementary mathematical operations.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which view is also known as the bird eye view?",
+        "options": ["Back", "Front", "Plan", "Side"],
+        "correctAnswer": 2,
+        "explanation": "A plan view shows an object as seen from directly above, similar to a bird's-eye view.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Why is nickel used in appliances such as toasters, heaters and kettles? It ...",
+        "options": ["does not waste energy.", "is harder for electrons.", "heats up easily.", "is an alloy."],
+        "correctAnswer": 2,
+        "explanation": "Nickel has good electrical resistance properties, causing it to heat up efficiently when current passes through, making it suitable for heating elements.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "An Isometric drawing is a kind of drawing which has an object at ... angle",
+        "options": ["15°", "30°", "45°", "90°"],
+        "correctAnswer": 1,
+        "explanation": "In isometric projection, the object is oriented so that the three axes are equally foreshortened, typically drawn at 30-degree angles from the horizontal.",
+        "shuffleOptions": true
+    },  
                     
 // 2023
 /*
