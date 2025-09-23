@@ -1,450 +1,956 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Page</title>
-<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="font-awesome.min.css" rel="stylesheet">
-<link href="flyacade.css" rel="stylesheet">
-<link href="Spelling_Bee.css" rel="stylesheet">
-<script src="jquery-3.6.0.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
-<script src="wwb18.min.js"></script>
-<script>   
-   $(document).ready(function()
-   {
-      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
-      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
-      {
-         event.preventDefault();
-         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
-      });
-   });
-</script>
-</head>
-<body>
-   <div id="wb_EmbeddedPage2">
-      <div id="Html4">
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Bee Challenge | Flying Wings Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #FF6B6B;
+            --secondary: #4ECDC4;
+            --accent: #FFD166;
+            --dark: #1A535C;
+            --light: #F7FFF7;
+            --success: #06D6A0;
+            --warning: #FFD166;
+            --error: #EF476F;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: var(--dark);
+        }
+        
+        .game-container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        .game-header {
+            background: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .game-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+        }
+        
+        .game-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .game-stats {
+            display: flex;
+            justify-content: space-around;
+            background: var(--dark);
+            color: white;
+            padding: 15px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .game-content {
+            padding: 30px;
+        }
+        
+        .countdown-screen {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .countdown-number {
+            font-size: 8rem;
+            color: var(--primary);
+            font-weight: bold;
+            text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+            animation: pulse 1s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .game-screen {
+            display: none;
+        }
+        
+        .current-word {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .word-display {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--dark);
+            margin: 20px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .honeycomb-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .honeycomb-cell {
+            background: var(--accent);
+            border-radius: 10px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .honeycomb-cell:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .honeycomb-cell.selected {
+            background: var(--secondary);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .honeycomb-cell.correct {
+            background: var(--success);
+            color: white;
+        }
+        
+        .honeycomb-cell.incorrect {
+            background: var(--error);
+            color: white;
+        }
+        
+        .input-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .spelling-input {
+            width: 100%;
+            max-width: 400px;
+            padding: 15px 20px;
+            font-size: 1.5rem;
+            border: 3px solid var(--dark);
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        .spelling-input:focus {
+            border-color: var(--primary);
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .result-screen {
+            display: none;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .result-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+        
+        .score-display {
+            font-size: 5rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 20px 0;
+        }
+        
+        .grade-display {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+        
+        .encouragement {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.7);
+        }
+        
+        .answers-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .answers-table th {
+            background: var(--dark);
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .answers-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .answers-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .correct-answer {
+            color: var(--success);
+            font-weight: bold;
+        }
+        
+        .incorrect-answer {
+            color: var(--error);
+        }
+        
+        .correct-mark {
+            color: var(--success);
+        }
+        
+        .incorrect-mark {
+            color: var(--error);
+        }
+        
+        .progress-bar {
+            height: 10px;
+            background: #eee;
+            border-radius: 5px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        
+        .difficulty-selector {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .difficulty-btn {
+            padding: 8px 15px;
+            border: 2px solid var(--dark);
+            border-radius: 20px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .difficulty-btn.active {
+            background: var(--dark);
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .game-title {
+                font-size: 2rem;
+            }
+            
+            .honeycomb-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .word-display {
+                font-size: 2.5rem;
+            }
+            
+            .countdown-number {
+                font-size: 6rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .honeycomb-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .game-stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 250px;
+                justify-content: center;
+            }
+        }
+        
+        .bee-animation {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2rem;
+            animation: fly 3s infinite;
+        }
+        
+        @keyframes fly {
+            0% { transform: translateY(0) rotate(0); }
+            25% { transform: translateY(-10px) rotate(5deg); }
+            50% { transform: translateY(0) rotate(0); }
+            75% { transform: translateY(-10px) rotate(-5deg); }
+            100% { transform: translateY(0) rotate(0); }
+        }
+        
+        .sound-toggle {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: white;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
 <body>
-         <div id="briClintons" class="bridget" onClick="closebottomSheet"></div>
-         <button id="openButton"><img class="openicon" src="icons/flyacade.png"></button>
-         <div id="bottomSheet">
-            <p>Special Links</p>
-            <a href="./FWA.html"><button class="icon"><i id="icons" class="fa fa-sitemap"></i><br>OrgCharts</button></a>
-            <a href="./Flying_Calendar.html"><button class="icon"><i id="icons" class="fa fa-calendar"></i><br>Calendar</button></a>
-            <a href="./Report.html"><button class="icon"><i id="icons" class="fa fa-address-card-o"></i><br>Report</button></a>
-            <a href="https://youtube.com/@flyingwingsacademy21"><button class="icon"><i id="icons" class="fa fa-diamond"></i><br>Videos</button></a>
-            <a href="./Student_Search.html"><button class="icon"><i id="icons" class="fa fa-child"></i><br>Portal</button></a>
-            <hr>
-            <p>Game Links</p>
-            <a href="./FlyMath.html"><button class="icon"><i id="icons" class="fa fa-plus-square"></i><br>Math</button></a>
-            <a href="./Spelling_Bee.html"><button class="icon"><i id="icons" class="fa fa-sort-alpha-asc"></i><br>Spellings</button></a>
-            <a href="./fly_typing.html"><button class="icon"><i id="icons" class="fa fa-keyboard-o"></i><br>Typing</button></a>
-            <a href="./flying_memory.html"><button class="icon"><i id="icons" class="fa fa-magic"></i><br>Memory</button></a>
-            <a href="./place_values.html"><button class="icon"><i id="icons" class="fa fa-sort-numeric-asc"></i><br>Places</button></a>
-            <hr>
-            <p>Other Links</p>
-            <a href="./binary.html"><button class="icon"><i id="icons" class="fa fa-binoculars"></i><br>Binary</button></a>
-            <a href="./Mathler.html"><button class="icon"><i id="icons" class="fa fa-superscript"></i><br>Mathler</button></a>
-            <a href="https://www.afrocharts.com/album?id=8425093255"><button class="icon"><i id="icons" class="fa fa-book"></i><br>Music</button></a>
-            <a href="./Assessment.html"><button class="icon"><i id="icons" class="fa fa-thermometer-three-quarters"></i><br>Quiz</button></a>
-            <a href="./Flying_Sudoku.html"><button class="icon"><i id="icons" class="fa fa-suitcase"></i><br>Sudoku</button></a>
-            <hr>
-    <!-- Add more buttons/icons as needed -->
-         </div>
-         <script>         
-             document.getElementById('openButton').addEventListener('click', function() {
-               var bottomSheet = document.getElementById('bottomSheet');
-         	  bottomSheet.style.display = (bottomSheet.style.display === 'none' || bottomSheet.style.display === '') ? 'block' : 'none';
-         		
-         	  var briClintons = document.getElementById('briClintons');
-         	  briClintons.style.display = (briClintons.style.display === 'none' || briClintons.style.display === '') ? 'block' : 'none';
-             });
-         	  
-         	document.getElementById('briClintons').addEventListener('click', function() {
-               var bottomSheet = document.getElementById('bottomSheet');
-         	  bottomSheet.style.display = (bottomSheet.style.display === 'none' || bottomSheet.style.display === '') ? 'block' : 'none';
-             });
-         	  
-         	document.getElementById('briClintons').addEventListener('click', function() {
-               var briClintons = document.getElementById('briClintons');
-         	  briClintons.style.display = (briClintons.style.display === 'none' || briClintons.style.display === '') ? 'block' : 'none';
-             });
-         	
-           
-         </script>
-</body>
-</html></div>
-      <div id="wb_facebookIconFont">
-         <a href="https://www.facebook.com/briclintons"><div id="facebookIconFont"><i class="fa fa-facebook"></i></div></a></div>
-   </div>
-   <div id="FlexContainer2">
-      <div id="PanelLayer">
-         <div id="wb_IconFont2">
-            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
-         </div>
-         <div id="wb_Image1">
-            <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
-         </div>
-         <div id="wb_Heading20">
-            <h2 id="Heading20">Flying Wings Academy</h2>
-         </div>
-         <div id="wb_OverlayMenu2">
-            <div class="OverlayMenu2">
-               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
-                  <li><a role="menuitem" href="./Study_Centre.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
-                  <li><a role="menuitem" href="./Reader.html" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
-                  <li><a role="menuitem" href="./Flying_Business.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
-                  <li><a role="menuitem" href="./Game_Zone.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
-                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                  <li><a role="menuitem" href="#" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
-                  <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
-               </ul>
+    <div class="game-container">
+        <div class="game-header">
+            <button class="sound-toggle" id="soundToggle">
+                <i class="fas fa-volume-up"></i>
+            </button>
+            <div class="bee-animation">
+                <i class="fas fa-bee"></i>
             </div>
-         </div>
-         <div id="wb_Text40">
-            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
-         </div>
-      </div>
-      <div id="wb_HeaderLayoutGrid">
-         <div id="HeaderLayoutGrid">
-            <div class="row">
-               <div class="col-1">
-                  <div id="wb_home_logo">
-                     <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
-                  </div>
-               </div>
-               <div class="col-2">
-                  <div id="wb_Header">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:29px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:29px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text3">
-                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text2">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:20px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:20px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text5">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text1">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:19px;"><em>The way to Success</em></span>
-                  </div>
-                  <div id="wb_Text4">
-                     <span style="color:#FF0000;font-family:'Bookman Old Style';font-size:13px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span>
-                  </div>
-                  <div id="wb_Text6">
-                     <span style="color:#FFFF00;font-family:Arial;font-size:13px;"><em>The way to Success</em></span>
-                  </div>
-               </div>
-               <div class="col-3">
-                  <div id="wb_menuPanel">
-                     <a href="#PanelLayer" id="menuPanel">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </a>
-                  </div>
-               </div>
+            <h1 class="game-title">Spelling Bee Challenge</h1>
+            <p class="game-subtitle">Test your spelling skills with fun words!</p>
+        </div>
+        
+        <div class="game-stats">
+            <div class="stat-item">
+                <div class="stat-value" id="timeLeft">60</div>
+                <div class="stat-label">Seconds Left</div>
             </div>
-         </div>
-      </div>
-   </div>
-   <div id="FlexContainer3">
-      <div id="wb_Text9">
-         <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br>b</strong></span>
-      </div>
-   </div>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spelling Bee Game</title>
-  </head>
-<body>
-   <div id="countdown"></div>
-   <div id="game-container" style="display:none;">
-      <div id="timer">Time Left: <span id="time">60</span> seconds</div>
-      <table id="honeycomb-table" onclick="cellClicked(event)">
-      </table>
-      <div id="input-container" style="display:none;">
-         <label for="user-input">Your Spelling:</label>
-         <input type="text" id="user-input">
-         <button onclick="checkSpelling()">Check</button>
-      </div>
-      <div id="result" style="display:none;">
-         <p>You answered <span id="correct-count">0</span> out of <span id="total-count">0</span> words correctly.</p>
-         <p>Your Percentage: <span id="percentage">0%</span></p>
-         <p>Your Grade: <span id="grade">F</span></p>
-         <p id="encouragement">
-      </div>
-      <table id="answer-table" style="margin:0 auto; text-align:center; display:none">
-         <tr>
-            <th>Correct Answers</th>
-            <th>Your Answers</th>
-            <th>Correct?</th>
-         </tr>
-      </table>
-   </div>
-   <script>   
-     const words = ["apple", "banana", "cherry", "grape", "orange", "elephant", "giraffe", "lion", "tiger", "zebra", "computer", "keyboard", "mouse", "internet", "programming", "sunflower", "rainbow", "mountain", "ocean", "astronomy", "butterfly", "hippopotamus", "crocodile", "telephone", "television", "guitar", "piano", "vacation", "umbrella"]; // Add more words as needed
-     const honeycombWords = generateHoneycombWords();
-     let currentWord = '';
-     let timer = 60;
-     let correctAnswers = 0;
-     let writtenAnswers = [];
-   
-     function shuffleArray(array) {
-       for (let i = array.length - 1; i > 0; i--) {
-         const j = Math.floor(Math.random() * (i + 1));
-         [array[i], array[j]] = [array[j], array[i]];
-       }
-     }
-   
-     function generateHoneycombWords() {
-       const honeycombWords = {};
-       const maxWords = 12; // Increased to 30 words
-   
-       shuffleArray(words);
-   
-       for (let i = 1; i <= maxWords; i++) {
-         honeycombWords[i] = words[i - 1];
-       }
-   
-       return honeycombWords;
-     }
-   
-     function generateHoneycombTable() {
-       const honeycombTable = document.getElementById("honeycomb-table");
-       const numRows = 3;
-       const numCols = 4;
-   
-       let wordIndex = 1;
-   
-       for (let i = 0; i < numRows; i++) {
-         const row = honeycombTable.insertRow();
-         for (let j = 0; j < numCols; j++) {
-           const cell = row.insertCell();
-           if (i % 2 === 1) {
-             cell.style.marginLeft = "15px"; // Offset for honeycomb shape
-           }
-           cell.textContent = wordIndex;
-           wordIndex++;
-         }
-       }
-     }
-   
-   	// count down timer
-     function startGame() {
-       document.getElementById("countdown").style.display = "block";
-       countdown(5);
-     }
-   
-     function countdown(seconds) {
-       if (seconds >= 1) {
-         document.getElementById("countdown").textContent = seconds;
-         playBeep();
-         setTimeout(function () {
-           countdown(seconds - 1);
-         }, 1000);
-       } else {
-         document.getElementById("countdown").style.display = "none";
-         document.getElementById("game-container").style.display = "block";
-         generateHoneycombTable();
-         startTimer();
-       }
-     }
-   
-     function playBeep() {
-       const beep = new Audio('player/Beep.wav');
-       beep.play();
-     }
-   
-     function speakWord() {
-       const synthesis = window.speechSynthesis;
-       const utterance = new SpeechSynthesisUtterance(currentWord);
-       synthesis.speak(utterance);
-     }
-   
-   	// Game timer
-     function startTimer() {
-       const interval = setInterval(function () {
-         timer--;
-         document.getElementById("time").textContent = timer;
-         if (timer <= 0) {
-           clearInterval(interval);
-           endGame();
-         }
-       }, 1000);
-     }
-   
-    function checkSpelling() {
-     const userInput = document.getElementById("user-input").value.toLowerCase();
-   
-     if (userInput === currentWord.toLowerCase()) {
-       markCellCorrect();
-       currentWord = ''; // Clear current word after correct answer
-       correctAnswers++;
-     } else {
-       markCellIncorrect();
-     }
-   
-     writtenAnswers.push({ correct: currentWord, written: userInput, isCorrect: userInput.toLowerCase() === currentWord.toLowerCase() });
-     updateAnswerTable();
-   
-     // Proceed to the next word or end the game
-     if (correctAnswers < honeycombWords.length) {
-       generateNewWord();
-     } else {
-       endGame();
-     }
-   }
-   
-   	function generateNewWord() {
-     const honeycombTable = document.querySelector("#honeycomb-table");
-     const selectedCell = honeycombTable.querySelector(".selected-cell");
-     if (selectedCell) {
-       selectedCell.classList.remove("selected-cell");
-     }
-   
-     const remainingCells = honeycombTable.querySelectorAll('td:not(.correct):not(.incorrect)');
-     if (remainingCells.length > 0) {
-       const randomCell = remainingCells[Math.floor(Math.random() * remainingCells.length)];
-       const wordNumber = parseInt(randomCell.textContent);
-       currentWord = honeycombWords[wordNumber];
-       speakWord();
-     } else {
-       endGame();
-     }
-   
-     document.getElementById("user-input").value = "";
-     document.getElementById("input-container").style.display = "block";
-   }
-   
-   	
-   	//Cell condition
-     function markCellCorrect() {
-       const clickedCell = document.querySelector(".selected-cell");
-       if (clickedCell) {
-         clickedCell.classList.add("correct");
-         clickedCell.disabled = true;
-         clickedCell.classList.remove("selected-cell");
-       }
-     }
-   
-     function markCellIncorrect() {
-       const clickedCell = document.querySelector(".selected-cell");
-       if (clickedCell) {
-         clickedCell.classList.add("incorrect");
-         clickedCell.disabled = true;
-         clickedCell.classList.remove("selected-cell");
-       }
-     }
-   
-     function cellClicked(event) {
-       const clickedCell = event.target;
-       if (clickedCell.tagName === 'TD' && !clickedCell.disabled) {
-         const wordNumber = parseInt(clickedCell.textContent);
-         currentWord = honeycombWords[wordNumber];
-         speakWord();
-         document.getElementById("user-input").value = "";
-         document.getElementById("input-container").style.display = "block";
-         clickedCell.classList.add("selected-cell");
-       }
-     }
-   
-      function endGame() {
-     document.getElementById("input-container").style.display = "none";
-     document.getElementById("result").style.display = "block";
-     document.getElementById("answer-table").style.display = "block";
-     const maxWords = 12; // Adjust this to your desired total number of words
-     const percentage = (correctAnswers / maxWords) * 100;
-     const grade = calculateGrade(percentage);
-   
-     document.getElementById("correct-count").textContent = correctAnswers;
-     document.getElementById("total-count").textContent = maxWords; // Use maxWords for the total count
-     document.getElementById("percentage").textContent = `${percentage.toFixed(2)}%`;
-     document.getElementById("grade").textContent = grade;
-   
-     /*document.getElementById("result").innerHTML += `
-       <p>${getEncouragementComment(percentage)}</p>
-     `;*/
-   
-     updateAnswerTable();
-   }
-   
-   
-     function calculateGrade(percentage) {
-       if (percentage >= 90) {return 'A+';} 
-   	  else if (percentage >= 80) {return 'A';} 
-   	  else if (percentage >= 70) {return 'B+';} 
-   	  else if (percentage >= 60) {return 'B';} 
-   	  else if (percentage >= 50) {return 'C+';} 
-   	  else if (percentage >= 40) {return 'C';}
-   	  else {return 'D';}
-     }
-   
-     function getEncouragementComment(percentage) {
-       if (percentage >= 90) {
-         return "Fantastic! You're doing an amazing job. Keep it up!";
-       } else if (percentage >= 80) {
-         return "Excellent! This is encouraging. Keep it up!.";
-       } else if (percentage >= 70) {
-         return "Great effort! Keep practicing to improve even more.";
-       } else if (percentage >= 60) {
-         return "Very Good work! Consistency is key, keep practicing.";
-       } else if (percentage >= 50) {
-         return "Good work! Consistency is key, keep practicing.";
-       } else if (percentage >= 40) {
-         return "Not bad! Identify your mistakes and keep practicing.";
-       } else {
-         return "Don't give up! Every mistake is a learning opportunity. Keep trying.";
-       }
-     }
-   
-   let answerTable = null; // Initialize the table variable
-   
-   function updateAnswerTable() {
-     if (!answerTable) {
-       answerTable = document.getElementById("answer-table");
-     }
-   
-     // Check if there's already a row for the current word
-     const existingRow = answerTable.querySelector(`tr[data-word="${currentWord}"]`);
-     
-     // If a row exists, update its content; otherwise, create a new row
-     const newRow = existingRow || answerTable.insertRow();
-     newRow.setAttribute("data-word", currentWord);
-   
-     if (!existingRow) {
-       const correctCell = newRow.insertCell(0);
-       const writtenCell = newRow.insertCell(1);
-       const correctnessCell = newRow.insertCell(2);
-   
-       correctCell.textContent = writtenAnswers[writtenAnswers.length - 1].correct;
-       writtenCell.textContent = writtenAnswers[writtenAnswers.length - 1].written;
-   
-       const correctnessSymbol = document.createElement("img");
-       correctnessSymbol.src = writtenAnswers[writtenAnswers.length - 1].isCorrect ? "check.png" : "cross.png";
-       correctnessSymbol.alt = writtenAnswers[writtenAnswers.length - 1].isCorrect ? "Correct" : "Incorrect";
-       correctnessCell.appendChild(correctnessSymbol);
-     }
-   }
-   
-   
-     window.onload = startGame;
-   </script>
+            <div class="stat-item">
+                <div class="stat-value" id="score">0</div>
+                <div class="stat-label">Score</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="correctCount">0</div>
+                <div class="stat-label">Correct</div>
+            </div>
+        </div>
+        
+        <div class="game-content">
+            <!-- Countdown Screen -->
+            <div class="countdown-screen" id="countdownScreen">
+                <h2>Get Ready!</h2>
+                <div class="countdown-number" id="countdownNumber">3</div>
+                <p>The game will start in...</p>
+            </div>
+            
+            <!-- Game Screen -->
+            <div class="game-screen" id="gameScreen">
+                <div class="current-word">
+                    <h2>Spell this word:</h2>
+                    <div class="word-display" id="wordDisplay">
+                        <i class="fas fa-volume-up" id="speakButton" style="cursor: pointer; margin-right: 10px;"></i>
+                        <span id="currentWord"></span>
+                    </div>
+                    <button class="btn btn-secondary" id="repeatWord">
+                        <i class="fas fa-redo"></i> Repeat Word
+                    </button>
+                </div>
+                
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                
+                <div class="honeycomb-grid" id="honeycombGrid">
+                    <!-- Honeycomb cells will be generated by JavaScript -->
+                </div>
+                
+                <div class="input-section">
+                    <input type="text" class="spelling-input" id="spellingInput" placeholder="Type the word here..." autocomplete="off">
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" id="checkSpelling">
+                            <i class="fas fa-check"></i> Check Spelling
+                        </button>
+                        <button class="btn btn-secondary" id="skipWord">
+                            <i class="fas fa-forward"></i> Skip Word
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Result Screen -->
+            <div class="result-screen" id="resultScreen">
+                <h2 class="result-title">Game Over!</h2>
+                <div class="score-display" id="finalScore">0</div>
+                <div class="grade-display" id="finalGrade">F</div>
+                <div class="encouragement" id="encouragementMessage">
+                    Keep practicing to improve your spelling!
+                </div>
+                
+                <table class="answers-table" id="answersTable">
+                    <thead>
+                        <tr>
+                            <th>Word</th>
+                            <th>Your Answer</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Results will be populated by JavaScript -->
+                    </tbody>
+                </table>
+                
+                <div class="action-buttons">
+                    <button class="btn btn-primary" id="playAgain">
+                        <i class="fas fa-redo"></i> Play Again
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Game configuration
+        const gameConfig = {
+            timeLimit: 60,
+            wordSets: {
+                easy: ["apple", "banana", "cherry", "grape", "orange", "house", "water", "flower", "school", "friend"],
+                medium: ["elephant", "giraffe", "computer", "keyboard", "internet", "mountain", "butterfly", "telephone", "guitar", "vacation"],
+                hard: ["hippopotamus", "crocodile", "astronomy", "programming", "chocolate", "adventure", "beautiful", "dangerous", "mysterious", "wonderful"]
+            },
+            difficulty: 'easy',
+            soundEnabled: true
+        };
+
+        // Game state
+        let gameState = {
+            currentWord: '',
+            selectedCell: null,
+            timer: gameConfig.timeLimit,
+            score: 0,
+            correctAnswers: 0,
+            totalWords: 0,
+            answeredWords: [],
+            wordSet: [],
+            gameActive: false,
+            timerInterval: null
+        };
+
+        // DOM elements
+        const elements = {
+            countdownScreen: document.getElementById('countdownScreen'),
+            countdownNumber: document.getElementById('countdownNumber'),
+            gameScreen: document.getElementById('gameScreen'),
+            resultScreen: document.getElementById('resultScreen'),
+            timeLeft: document.getElementById('timeLeft'),
+            score: document.getElementById('score'),
+            correctCount: document.getElementById('correctCount'),
+            wordDisplay: document.getElementById('currentWord'),
+            spellingInput: document.getElementById('spellingInput'),
+            honeycombGrid: document.getElementById('honeycombGrid'),
+            progressFill: document.getElementById('progressFill'),
+            finalScore: document.getElementById('finalScore'),
+            finalGrade: document.getElementById('finalGrade'),
+            encouragementMessage: document.getElementById('encouragementMessage'),
+            answersTable: document.querySelector('#answersTable tbody'),
+            soundToggle: document.getElementById('soundToggle'),
+            speakButton: document.getElementById('speakButton'),
+            repeatWord: document.getElementById('repeatWord'),
+            checkSpelling: document.getElementById('checkSpelling'),
+            skipWord: document.getElementById('skipWord'),
+            playAgain: document.getElementById('playAgain')
+        };
+
+        // Initialize the game
+        function initGame() {
+            // Set up event listeners
+            elements.soundToggle.addEventListener('click', toggleSound);
+            elements.speakButton.addEventListener('click', speakCurrentWord);
+            elements.repeatWord.addEventListener('click', speakCurrentWord);
+            elements.checkSpelling.addEventListener('click', checkSpelling);
+            elements.skipWord.addEventListener('click', skipWord);
+            elements.playAgain.addEventListener('click', restartGame);
+            elements.spellingInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    checkSpelling();
+                }
+            });
+            
+            // Start the countdown
+            startCountdown();
+        }
+
+        // Start the countdown before the game begins
+        function startCountdown() {
+            let count = 3;
+            elements.countdownNumber.textContent = count;
+            
+            const countdownInterval = setInterval(() => {
+                count--;
+                elements.countdownNumber.textContent = count;
+                
+                if (gameConfig.soundEnabled) {
+                    playBeep();
+                }
+                
+                if (count <= 0) {
+                    clearInterval(countdownInterval);
+                    startGame();
+                }
+            }, 1000);
+        }
+
+        // Start the main game
+        function startGame() {
+            // Hide countdown, show game screen
+            elements.countdownScreen.style.display = 'none';
+            elements.gameScreen.style.display = 'block';
+            
+            // Initialize game state
+            gameState.wordSet = [...gameConfig.wordSets[gameConfig.difficulty]];
+            gameState.totalWords = gameState.wordSet.length;
+            gameState.gameActive = true;
+            
+            // Create honeycomb grid
+            createHoneycombGrid();
+            
+            // Start the timer
+            startTimer();
+            
+            // Select the first word
+            selectNewWord();
+        }
+
+        // Create the honeycomb grid
+        function createHoneycombGrid() {
+            elements.honeycombGrid.innerHTML = '';
+            
+            for (let i = 0; i < gameState.totalWords; i++) {
+                const cell = document.createElement('div');
+                cell.className = 'honeycomb-cell';
+                cell.textContent = i + 1;
+                cell.addEventListener('click', () => selectWord(i));
+                
+                elements.honeycombGrid.appendChild(cell);
+            }
+        }
+
+        // Select a new word from the word set
+        function selectNewWord() {
+            if (gameState.wordSet.length === 0) {
+                endGame();
+                return;
+            }
+            
+            // Reset selection
+            if (gameState.selectedCell) {
+                gameState.selectedCell.classList.remove('selected');
+            }
+            
+            // Select a random word
+            const randomIndex = Math.floor(Math.random() * gameState.wordSet.length);
+            gameState.currentWord = gameState.wordSet[randomIndex];
+            
+            // Remove the word from the set so it doesn't repeat
+            gameState.wordSet.splice(randomIndex, 1);
+            
+            // Update display
+            elements.wordDisplay.textContent = '?';
+            
+            // Speak the word
+            speakCurrentWord();
+            
+            // Clear input
+            elements.spellingInput.value = '';
+            elements.spellingInput.focus();
+            
+            // Update progress bar
+            const progress = ((gameState.totalWords - gameState.wordSet.length) / gameState.totalWords) * 100;
+            elements.progressFill.style.width = `${progress}%`;
+        }
+
+        // Select a word by clicking on the honeycomb
+        function selectWord(index) {
+            if (!gameState.gameActive) return;
+            
+            // Reset previous selection
+            if (gameState.selectedCell) {
+                gameState.selectedCell.classList.remove('selected');
+            }
+            
+            // Set new selection
+            const cells = document.querySelectorAll('.honeycomb-cell');
+            gameState.selectedCell = cells[index];
+            gameState.selectedCell.classList.add('selected');
+            
+            // Set the current word
+            gameState.currentWord = gameConfig.wordSets[gameConfig.difficulty][index];
+            
+            // Update display
+            elements.wordDisplay.textContent = '?';
+            
+            // Speak the word
+            speakCurrentWord();
+            
+            // Clear input and focus
+            elements.spellingInput.value = '';
+            elements.spellingInput.focus();
+        }
+
+        // Speak the current word using the Web Speech API
+        function speakCurrentWord() {
+            if (!gameState.currentWord || !gameConfig.soundEnabled) return;
+            
+            const utterance = new SpeechSynthesisUtterance(gameState.currentWord);
+            utterance.rate = 0.8; // Slightly slower for clarity
+            utterance.pitch = 1.2; // Slightly higher pitch for child-friendly voice
+            
+            speechSynthesis.speak(utterance);
+        }
+
+        // Check the spelling input
+        function checkSpelling() {
+            if (!gameState.gameActive || !gameState.currentWord) return;
+            
+            const userAnswer = elements.spellingInput.value.trim().toLowerCase();
+            const isCorrect = userAnswer === gameState.currentWord.toLowerCase();
+            
+            // Record the answer
+            gameState.answeredWords.push({
+                word: gameState.currentWord,
+                userAnswer: userAnswer,
+                correct: isCorrect
+            });
+            
+            // Update score and UI
+            if (isCorrect) {
+                gameState.score += 10;
+                gameState.correctAnswers++;
+                
+                if (gameState.selectedCell) {
+                    gameState.selectedCell.classList.add('correct');
+                }
+                
+                // Play success sound if enabled
+                if (gameConfig.soundEnabled) {
+                    playSuccessSound();
+                }
+            } else {
+                if (gameState.selectedCell) {
+                    gameState.selectedCell.classList.add('incorrect');
+                }
+                
+                // Play error sound if enabled
+                if (gameConfig.soundEnabled) {
+                    playErrorSound();
+                }
+            }
+            
+            // Update stats
+            updateStats();
+            
+            // Move to next word after a brief delay
+            setTimeout(() => {
+                selectNewWord();
+            }, 1000);
+        }
+
+        // Skip the current word
+        function skipWord() {
+            if (!gameState.gameActive || !gameState.currentWord) return;
+            
+            // Record as incorrect
+            gameState.answeredWords.push({
+                word: gameState.currentWord,
+                userAnswer: '(skipped)',
+                correct: false
+            });
+            
+            if (gameState.selectedCell) {
+                gameState.selectedCell.classList.add('incorrect');
+            }
+            
+            // Move to next word
+            selectNewWord();
+        }
+
+        // Start the game timer
+        function startTimer() {
+            updateTimerDisplay();
+            
+            gameState.timerInterval = setInterval(() => {
+                gameState.timer--;
+                updateTimerDisplay();
+                
+                if (gameState.timer <= 0) {
+                    endGame();
+                }
+            }, 1000);
+        }
+
+        // Update the timer display
+        function updateTimerDisplay() {
+            elements.timeLeft.textContent = gameState.timer;
+            
+            // Change color when time is running low
+            if (gameState.timer <= 10) {
+                elements.timeLeft.style.color = 'var(--error)';
+            } else {
+                elements.timeLeft.style.color = 'white';
+            }
+        }
+
+        // Update game stats display
+        function updateStats() {
+            elements.score.textContent = gameState.score;
+            elements.correctCount.textContent = gameState.correctAnswers;
+        }
+
+        // End the game
+        function endGame() {
+            gameState.gameActive = false;
+            clearInterval(gameState.timerInterval);
+            
+            // Hide game screen, show results
+            elements.gameScreen.style.display = 'none';
+            elements.resultScreen.style.display = 'block';
+            
+            // Calculate final score and grade
+            const percentage = (gameState.correctAnswers / gameState.totalWords) * 100;
+            const grade = calculateGrade(percentage);
+            
+            // Update result display
+            elements.finalScore.textContent = gameState.score;
+            elements.finalGrade.textContent = grade;
+            elements.encouragementMessage.textContent = getEncouragementMessage(percentage);
+            
+            // Populate answers table
+            populateAnswersTable();
+        }
+
+        // Calculate grade based on percentage
+        function calculateGrade(percentage) {
+            if (percentage >= 90) return 'A+';
+            if (percentage >= 80) return 'A';
+            if (percentage >= 70) return 'B';
+            if (percentage >= 60) return 'C';
+            if (percentage >= 50) return 'D';
+            return 'F';
+        }
+
+        // Get an encouraging message based on performance
+        function getEncouragementMessage(percentage) {
+            if (percentage >= 90) {
+                return "Outstanding! You're a spelling superstar! 🌟";
+            } else if (percentage >= 80) {
+                return "Excellent work! You're really good at this! 👍";
+            } else if (percentage >= 70) {
+                return "Great job! Keep practicing to get even better! 💪";
+            } else if (percentage >= 60) {
+                return "Good effort! With a little more practice, you'll master it! 📚";
+            } else if (percentage >= 50) {
+                return "Not bad! Everyone learns at their own pace. Keep trying! 🌈";
+            } else {
+                return "Don't give up! Every mistake is a chance to learn. You'll get better! 🌱";
+            }
+        }
+
+        // Populate the answers table with results
+        function populateAnswersTable() {
+            elements.answersTable.innerHTML = '';
+            
+            gameState.answeredWords.forEach((answer, index) => {
+                const row = document.createElement('tr');
+                
+                const wordCell = document.createElement('td');
+                wordCell.textContent = answer.word;
+                
+                const answerCell = document.createElement('td');
+                answerCell.textContent = answer.userAnswer;
+                answerCell.className = answer.correct ? 'correct-answer' : 'incorrect-answer';
+                
+                const resultCell = document.createElement('td');
+                const resultIcon = document.createElement('i');
+                resultIcon.className = answer.correct ? 'fas fa-check correct-mark' : 'fas fa-times incorrect-mark';
+                resultCell.appendChild(resultIcon);
+                
+                row.appendChild(wordCell);
+                row.appendChild(answerCell);
+                row.appendChild(resultCell);
+                
+                elements.answersTable.appendChild(row);
+            });
+        }
+
+        // Restart the game
+        function restartGame() {
+            // Reset game state
+            gameState = {
+                currentWord: '',
+                selectedCell: null,
+                timer: gameConfig.timeLimit,
+                score: 0,
+                correctAnswers: 0,
+                totalWords: 0,
+                answeredWords: [],
+                wordSet: [],
+                gameActive: false,
+                timerInterval: null
+            };
+            
+            // Reset UI
+            elements.resultScreen.style.display = 'none';
+            elements.countdownScreen.style.display = 'block';
+            elements.countdownNumber.textContent = '3';
+            
+            // Start over
+            startCountdown();
+        }
+
+        // Toggle sound on/off
+        function toggleSound() {
+            gameConfig.soundEnabled = !gameConfig.soundEnabled;
+            
+            const icon = elements.soundToggle.querySelector('i');
+            if (gameConfig.soundEnabled) {
+                icon.className = 'fas fa-volume-up';
+            } else {
+                icon.className = 'fas fa-volume-mute';
+            }
+        }
+
+        // Play a beep sound
+        function playBeep() {
+            // In a real implementation, you would play an actual sound file
+            console.log('Beep!');
+        }
+
+        // Play a success sound
+        function playSuccessSound() {
+            // In a real implementation, you would play an actual sound file
+            console.log('Success sound!');
+        }
+
+        // Play an error sound
+        function playErrorSound() {
+            // In a real implementation, you would play an actual sound file
+            console.log('Error sound!');
+        }
+
+        // Initialize the game when the page loads
+        window.addEventListener('DOMContentLoaded', initGame);
+    </script>
 </body>
 </html>
