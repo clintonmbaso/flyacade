@@ -1,177 +1,755 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Page</title>
-<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="flyacade.css" rel="stylesheet">
-<link href="place_values.css" rel="stylesheet">
-</head>
-<body>
-</body>
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Number Flip Game</title>
-  </head>
+  <title>Place Value Master | Interactive Learning Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #4361ee;
+      --primary-dark: #3a56d4;
+      --secondary: #7209b7;
+      --success: #4cc9f0;
+      --danger: #f72585;
+      --warning: #f8961e;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --gray: #6c757d;
+      --border-radius: 12px;
+      --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: var(--dark);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .game-container {
+      width: 100%;
+      max-width: 800px;
+      background-color: white;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      overflow: hidden;
+    }
+
+    .game-header {
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: white;
+      padding: 25px 30px;
+      text-align: center;
+    }
+
+    .game-header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .game-header p {
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+
+    .game-body {
+      padding: 30px;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      background-color: var(--light);
+      padding: 15px;
+      border-radius: var(--border-radius);
+    }
+
+    .stat-box {
+      text-align: center;
+      flex: 1;
+      padding: 10px;
+    }
+
+    .stat-box:not(:last-child) {
+      border-right: 1px solid #dee2e6;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin-top: 5px;
+    }
+
+    .number-display {
+      background-color: #f8f9fa;
+      border: 2px dashed #dee2e6;
+      border-radius: var(--border-radius);
+      padding: 25px;
+      text-align: center;
+      margin-bottom: 25px;
+      position: relative;
+      min-height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .number-display h3 {
+      font-size: 3.5rem;
+      letter-spacing: 5px;
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    .highlight {
+      color: var(--danger);
+      text-shadow: 0 0 10px rgba(247, 37, 133, 0.3);
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .prompt {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      color: var(--dark);
+      font-weight: 500;
+    }
+
+    .options-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+
+    .option-btn {
+      background-color: white;
+      border: 2px solid #e9ecef;
+      border-radius: var(--border-radius);
+      padding: 15px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 70px;
+    }
+
+    .option-btn:hover {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .option-btn.correct {
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+      color: #155724;
+    }
+
+    .option-btn.incorrect {
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+      color: #721c24;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      border: none;
+      border-radius: var(--border-radius);
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: white;
+      flex: 1;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: var(--light);
+      color: var(--dark);
+    }
+
+    .btn-secondary:hover {
+      background-color: #e9ecef;
+    }
+
+    .feedback {
+      text-align: center;
+      margin-top: 20px;
+      min-height: 30px;
+      font-weight: 600;
+    }
+
+    .feedback.correct {
+      color: var(--success);
+    }
+
+    .feedback.incorrect {
+      color: var(--danger);
+    }
+
+    .game-over {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition);
+    }
+
+    .game-over.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .game-over-content {
+      background-color: white;
+      border-radius: var(--border-radius);
+      padding: 30px;
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+      transform: scale(0.8);
+      transition: var(--transition);
+    }
+
+    .game-over.active .game-over-content {
+      transform: scale(1);
+    }
+
+    .game-over h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    .game-over p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background-color: #e9ecef;
+      border-radius: 4px;
+      margin: 20px 0;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      width: 0%;
+      transition: width 0.5s ease;
+    }
+
+    @media (max-width: 768px) {
+      .options-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .stats-container {
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .stat-box:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 15px;
+      }
+      
+      .number-display h3 {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .game-body {
+        padding: 20px;
+      }
+      
+      .number-display h3 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+      }
+      
+      .btn {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+      }
+    }
+
+    .difficulty-selector {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+
+    .difficulty-btn {
+      padding: 8px 15px;
+      border: 2px solid #e9ecef;
+      border-radius: 30px;
+      background: white;
+      cursor: pointer;
+      transition: var(--transition);
+      font-weight: 500;
+    }
+
+    .difficulty-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .tutorial {
+      background-color: #e7f3ff;
+      border-left: 4px solid var(--primary);
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+
+    .tutorial h4 {
+      margin-bottom: 8px;
+      color: var(--primary);
+    }
+  </style>
+</head>
 <body>
-   <div id="number-container">
-      <h2>Number Flip Game</h2>
-      <p id="scoreDisplay">Score: <span id="score">0</span></p>
-      <p id="targetScoreDisplay">Target Score: <span id="targetScore">10</span></p>
-      <p id="timeDisplay">Time Left: <span id="time">60</span> seconds</p>
-      <button onclick="generateNumber()">Flip Number</button>
-      <div id="flipping-number"></div>
-      <p id="prompt">
-      <div id="optionsContainer"></div>
-      <p id="answerDisplay">
-   </div>
-   <script>   
-     let randomNumber, randomDigitIndex, score = 0, timeLeft = 60, targetScore = 10; // Adjust targetScore as needed
-     let timer;
-   
-     function startTimer() {
-       timer = setInterval(function() {
-         timeLeft -= 1;
-         document.getElementById('time').textContent = timeLeft;
-   
-         if (timeLeft === 0 || score >= targetScore) {
-           clearInterval(timer);
-           endGame();
-         }
-       }, 1000);
-     }
-   
-     function endGame() {
-       if (score >= targetScore) {
-         alert(`Congratulations! You reached the target score of ${targetScore} in time.`);
-       } else {
-         alert(`Game over. You didn't reach the target score in time.`);
-       }
-   
-       // Reset variables and start a new game
-       score = 0;
-       timeLeft = 60;
-       document.getElementById('score').textContent = score;
-       document.getElementById('time').textContent = timeLeft;
-       generateNumber();
-       startTimer();
-     }
-   
-     function generateRandomNumber() {
-       const wholeNumberPart = Math.floor(Math.random() * 10000000); // Maximum of 7 whole numbers
-       const decimalPart = Math.random().toFixed(3).substring(2); // Maximum of 3 decimal places
-       return wholeNumberPart + '.' + decimalPart;
-     }
-   
-     function generateNumber() {
-       const numberContainer = document.getElementById('flipping-number');
-       numberContainer.innerHTML = '';
-   
-       // Hide correct answer display
-       document.getElementById('answerDisplay').style.display = 'none';
-   
-       randomNumber = generateRandomNumber();
-       randomDigitIndex = Math.floor(Math.random() * randomNumber.length);
-       const numberWithHighlight = highlightDigit(randomNumber, randomDigitIndex);
-   
-       const numberElement = document.createElement('div');
-       numberElement.innerHTML = numberWithHighlight;
-       numberContainer.appendChild(numberElement);
-   
-       const optionsContainer = document.getElementById('optionsContainer');
-       optionsContainer.innerHTML = generateOptionsButtons(randomNumber, randomDigitIndex);
-   
-       const correctPlaceValue = getCorrectPlaceValue(randomNumber, randomDigitIndex);
-       document.getElementById('prompt').innerHTML = 'Select the correct place value for the red-highlighted digit in the whole number.';
-     }
-   
-     function highlightDigit(number, index) {
-       return number.substring(0, index) + '<span class="highlight">' + number.charAt(index) + '</span>' + number.substring(index + 1);
-     }
-   
-     function generateOptionsButtons(number, index) {
-       const options = ['decimal point', 'tenth', 'hundredth', 'thousandth', 'ones', 'tens', 'hundreds', 'thousands', 'ten-thousands', 'hundred-thousands', 'millions'];
-       const correctPlaceValue = getCorrectPlaceValue(number, index);
-       const optionsAroundCorrect = getOptionsAroundCorrect(options, correctPlaceValue);
-       const shuffledOptions = shuffleArray(optionsAroundCorrect);
-       const optionButtons = shuffledOptions.map(option => `<button class="option" onclick="checkPlaceValue('${option}')">${option}</button>`);
-   
-       return optionButtons.join('');
-     }
-   
-     function getOptionsAroundCorrect(allOptions, correctPlaceValue) {
-       const index = allOptions.indexOf(correctPlaceValue);
-       const optionsAroundCorrect = [];
-   
-       // Include 2 options before and 2 options after the correct place value
-       for (let i = index - 2; i <= index + 2; i++) {
-         if (i >= 0 && i < allOptions.length && !optionsAroundCorrect.includes(allOptions[i])) {
-           optionsAroundCorrect.push(allOptions[i]);
-         }
-       }
-   
-       return optionsAroundCorrect;
-     }
-   
-     function shuffleArray(array) {
-       for (let i = array.length - 1; i > 0; i--) {
-         const j = Math.floor(Math.random() * (i + 1));
-         [array[i], array[j]] = [array[j], array[i]];
-       }
-       return array;
-     }
-   
-     function getCorrectPlaceValue(number, index) {
-       const positionFromLeft = number.length - index - 1; // Position from the left
-       const decimalIndex = number.indexOf('.');
-   
-       if (decimalIndex !== -1) {
-         const positionFromDecimal = decimalIndex - index;
-   
-         if (positionFromDecimal === 1) return 'ones';
-         if (positionFromDecimal === 2) return 'tens';
-         if (positionFromDecimal === 3) return 'hundreds';
-         if (positionFromDecimal === 4) return 'thousands';
-         if (positionFromDecimal === 5) return 'ten-thousands';
-         if (positionFromDecimal === 6) return 'hundred-thousands';
-         if (positionFromDecimal === 7) return 'millions';
-         if (positionFromDecimal === 0) return 'decimal point';
-   
-         if (positionFromDecimal === -1) return 'tenth';
-         if (positionFromDecimal === -2) return 'hundredth';
-         if (positionFromDecimal === -3) return 'thousandth';
-         // Handling case when index is in the whole number part
-       }
-   
-       return 'undefined'; // Default to units if position is not determined
-     }
-   
-     function checkPlaceValue(selectedOption) {
-       const correctPlaceValue = getCorrectPlaceValue(randomNumber, randomDigitIndex);
-       const answerDisplay = document.getElementById('answerDisplay');
-       const scoreDisplay = document.getElementById('score');
-   
-       if (selectedOption === correctPlaceValue) {
-         score += 1; // Increase score for correct answer
-         scoreDisplay.textContent = score; // Update score display
-         generateNumber(); // Automatically generate the next number
-       } else {
-         answerDisplay.textContent = `Correct Answer: ${correctPlaceValue}`;
-         answerDisplay.style.display = 'block'; // Show correct answer display
-         setTimeout(() => {
-           answerDisplay.style.display = 'none'; // Hide correct answer display after a delay
-           generateNumber(); // Automatically generate the next number
-         }, 2000); // Adjust the delay (in milliseconds) as needed
-       }
-     }
-   
-     // Initialize the game
-     generateNumber();
-     startTimer();
-   </script>
+  <div class="game-container">
+    <div class="game-header">
+      <h1><i class="fas fa-abacus"></i> Place Value Master</h1>
+      <p>Identify the place value of the highlighted digit</p>
+    </div>
+    
+    <div class="game-body">
+      <div class="difficulty-selector">
+        <button class="difficulty-btn active" data-level="easy">Easy</button>
+        <button class="difficulty-btn" data-level="medium">Medium</button>
+        <button class="difficulty-btn" data-level="hard">Hard</button>
+      </div>
+      
+      <div class="tutorial">
+        <h4>How to Play</h4>
+        <p>Identify the place value of the red-highlighted digit. Select the correct answer from the options below. Score points for correct answers!</p>
+      </div>
+      
+      <div class="stats-container">
+        <div class="stat-box">
+          <div class="stat-value" id="score">0</div>
+          <div class="stat-label">Score</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="time">60</div>
+          <div class="stat-label">Seconds Left</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="streak">0</div>
+          <div class="stat-label">Current Streak</div>
+        </div>
+      </div>
+      
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+      
+      <div class="number-display">
+        <h3 id="flipping-number">0.000</h3>
+      </div>
+      
+      <div class="prompt" id="prompt">
+        Select the correct place value for the highlighted digit
+      </div>
+      
+      <div class="options-container" id="optionsContainer">
+        <!-- Options will be generated here -->
+      </div>
+      
+      <div class="feedback" id="feedback"></div>
+      
+      <div class="controls">
+        <button class="btn btn-secondary" id="hintBtn">
+          <i class="fas fa-lightbulb"></i> Hint
+        </button>
+        <button class="btn btn-primary" id="flipBtn">
+          <i class="fas fa-sync-alt"></i> Flip Number
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="game-over" id="gameOver">
+    <div class="game-over-content">
+      <h2 id="gameOverTitle">Game Over!</h2>
+      <p id="gameOverMessage">You scored <span id="finalScore">0</span> points!</p>
+      <button class="btn btn-primary" id="restartBtn">
+        <i class="fas fa-redo"></i> Play Again
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Game variables
+    let randomNumber, randomDigitIndex, score = 0, timeLeft = 60, streak = 0;
+    let timer;
+    let difficulty = 'easy';
+    let gameActive = true;
+    
+    // DOM elements
+    const scoreElement = document.getElementById('score');
+    const timeElement = document.getElementById('time');
+    const streakElement = document.getElementById('streak');
+    const progressElement = document.getElementById('progress');
+    const numberDisplay = document.getElementById('flipping-number');
+    const promptElement = document.getElementById('prompt');
+    const optionsContainer = document.getElementById('optionsContainer');
+    const feedbackElement = document.getElementById('feedback');
+    const flipBtn = document.getElementById('flipBtn');
+    const hintBtn = document.getElementById('hintBtn');
+    const gameOverElement = document.getElementById('gameOver');
+    const gameOverTitle = document.getElementById('gameOverTitle');
+    const gameOverMessage = document.getElementById('gameOverMessage');
+    const finalScoreElement = document.getElementById('finalScore');
+    const restartBtn = document.getElementById('restartBtn');
+    const difficultyBtns = document.querySelectorAll('.difficulty-btn');
+    
+    // Place value options
+    const placeValues = [
+      'decimal point', 'tenth', 'hundredth', 'thousandth', 
+      'ones', 'tens', 'hundreds', 'thousands', 'ten-thousands', 
+      'hundred-thousands', 'millions', 'ten-millions'
+    ];
+    
+    // Initialize the game
+    function initGame() {
+      score = 0;
+      timeLeft = 60;
+      streak = 0;
+      gameActive = true;
+      scoreElement.textContent = score;
+      timeElement.textContent = timeLeft;
+      streakElement.textContent = streak;
+      progressElement.style.width = '0%';
+      feedbackElement.textContent = '';
+      gameOverElement.classList.remove('active');
+      
+      clearInterval(timer);
+      startTimer();
+      generateNumber();
+    }
+    
+    // Start the timer
+    function startTimer() {
+      timer = setInterval(() => {
+        if (!gameActive) return;
+        
+        timeLeft--;
+        timeElement.textContent = timeLeft;
+        progressElement.style.width = `${(60 - timeLeft) / 60 * 100}%`;
+        
+        if (timeLeft <= 0) {
+          endGame(false);
+        }
+      }, 1000);
+    }
+    
+    // Generate a random number based on difficulty
+    function generateRandomNumber() {
+      let wholeDigits, decimalDigits;
+      
+      switch(difficulty) {
+        case 'easy':
+          wholeDigits = Math.floor(Math.random() * 1000); // Up to thousands
+          decimalDigits = Math.floor(Math.random() * 100); // Up to hundredths
+          break;
+        case 'medium':
+          wholeDigits = Math.floor(Math.random() * 100000); // Up to hundred-thousands
+          decimalDigits = Math.floor(Math.random() * 1000); // Up to thousandths
+          break;
+        case 'hard':
+          wholeDigits = Math.floor(Math.random() * 10000000); // Up to ten-millions
+          decimalDigits = Math.floor(Math.random() * 1000); // Up to thousandths
+          break;
+        default:
+          wholeDigits = Math.floor(Math.random() * 1000);
+          decimalDigits = Math.floor(Math.random() * 100);
+      }
+      
+      return `${wholeDigits}.${decimalDigits.toString().padStart(3, '0')}`;
+    }
+    
+    // Generate and display a new number
+    function generateNumber() {
+      randomNumber = generateRandomNumber();
+      
+      // Ensure we don't select the decimal point
+      do {
+        randomDigitIndex = Math.floor(Math.random() * randomNumber.length);
+      } while (randomNumber[randomDigitIndex] === '.');
+      
+      const numberWithHighlight = highlightDigit(randomNumber, randomDigitIndex);
+      numberDisplay.innerHTML = numberWithHighlight;
+      
+      generateOptions();
+      feedbackElement.textContent = '';
+      feedbackElement.className = 'feedback';
+    }
+    
+    // Highlight the selected digit
+    function highlightDigit(number, index) {
+      return number.substring(0, index) + 
+             '<span class="highlight">' + number.charAt(index) + '</span>' + 
+             number.substring(index + 1);
+    }
+    
+    // Generate answer options
+    function generateOptions() {
+      optionsContainer.innerHTML = '';
+      const correctPlaceValue = getCorrectPlaceValue(randomNumber, randomDigitIndex);
+      
+      // Create an array of options including the correct one
+      const correctIndex = placeValues.indexOf(correctPlaceValue);
+      let optionIndices = [correctIndex];
+      
+      // Add nearby options based on difficulty
+      let range;
+      switch(difficulty) {
+        case 'easy': range = 2; break;
+        case 'medium': range = 3; break;
+        case 'hard': range = 4; break;
+        default: range = 2;
+      }
+      
+      // Add options before and after the correct answer
+      for (let i = 1; i <= range; i++) {
+        if (correctIndex - i >= 0) optionIndices.push(correctIndex - i);
+        if (correctIndex + i < placeValues.length) optionIndices.push(correctIndex + i);
+      }
+      
+      // Shuffle the options
+      optionIndices = shuffleArray(optionIndices);
+      
+      // Create buttons for each option
+      optionIndices.forEach(index => {
+        const option = placeValues[index];
+        const button = document.createElement('button');
+        button.className = 'option-btn';
+        button.textContent = option;
+        button.onclick = () => checkAnswer(option, correctPlaceValue, button);
+        optionsContainer.appendChild(button);
+      });
+    }
+    
+    // Shuffle an array
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+    
+    // Determine the correct place value
+    function getCorrectPlaceValue(number, index) {
+      const decimalIndex = number.indexOf('.');
+      
+      if (index === decimalIndex) return 'decimal point';
+      
+      if (index < decimalIndex) {
+        // Whole number part
+        const positionFromRight = decimalIndex - index - 1;
+        
+        switch(positionFromRight) {
+          case 0: return 'ones';
+          case 1: return 'tens';
+          case 2: return 'hundreds';
+          case 3: return 'thousands';
+          case 4: return 'ten-thousands';
+          case 5: return 'hundred-thousands';
+          case 6: return 'millions';
+          case 7: return 'ten-millions';
+          default: return 'ones';
+        }
+      } else {
+        // Decimal part
+        const positionFromDecimal = index - decimalIndex - 1;
+        
+        switch(positionFromDecimal) {
+          case 0: return 'tenth';
+          case 1: return 'hundredth';
+          case 2: return 'thousandth';
+          default: return 'tenth';
+        }
+      }
+    }
+    
+    // Check the selected answer
+    function checkAnswer(selected, correct, button) {
+      if (!gameActive) return;
+      
+      // Disable all buttons
+      const allButtons = optionsContainer.querySelectorAll('.option-btn');
+      allButtons.forEach(btn => {
+        btn.style.pointerEvents = 'none';
+      });
+      
+      if (selected === correct) {
+        // Correct answer
+        score += 10;
+        streak++;
+        scoreElement.textContent = score;
+        streakElement.textContent = streak;
+        
+        button.classList.add('correct');
+        feedbackElement.textContent = 'Correct! +10 points';
+        feedbackElement.className = 'feedback correct';
+        
+        // Bonus for streaks
+        if (streak % 5 === 0) {
+          score += 5;
+          scoreElement.textContent = score;
+          feedbackElement.textContent = `Correct! +10 points +5 streak bonus!`;
+        }
+        
+        setTimeout(generateNumber, 1500);
+      } else {
+        // Incorrect answer
+        streak = 0;
+        streakElement.textContent = streak;
+        
+        button.classList.add('incorrect');
+        feedbackElement.textContent = `Incorrect! The correct answer is ${correct}`;
+        feedbackElement.className = 'feedback incorrect';
+        
+        // Highlight the correct answer
+        allButtons.forEach(btn => {
+          if (btn.textContent === correct) {
+            btn.classList.add('correct');
+          }
+        });
+        
+        setTimeout(generateNumber, 2000);
+      }
+    }
+    
+    // End the game
+    function endGame(isWin) {
+      gameActive = false;
+      clearInterval(timer);
+      
+      gameOverTitle.textContent = isWin ? 'Congratulations!' : 'Time\'s Up!';
+      gameOverMessage.textContent = isWin 
+        ? `You reached the target score with ${timeLeft} seconds left!` 
+        : `You scored ${score} points!`;
+      finalScoreElement.textContent = score;
+      
+      gameOverElement.classList.add('active');
+    }
+    
+    // Provide a hint
+    function provideHint() {
+      if (!gameActive) return;
+      
+      const correctPlaceValue = getCorrectPlaceValue(randomNumber, randomDigitIndex);
+      const correctIndex = placeValues.indexOf(correctPlaceValue);
+      
+      // Highlight options close to the correct answer
+      const allButtons = optionsContainer.querySelectorAll('.option-btn');
+      allButtons.forEach((button, index) => {
+        const buttonValue = button.textContent;
+        const buttonIndex = placeValues.indexOf(buttonValue);
+        
+        if (Math.abs(buttonIndex - correctIndex) <= 1) {
+          button.style.borderColor = 'var(--warning)';
+          button.style.backgroundColor = '#fff3cd';
+        }
+      });
+      
+      // Disable hint button for 10 seconds
+      hintBtn.disabled = true;
+      hintBtn.innerHTML = '<i class="fas fa-clock"></i> Hint Used';
+      setTimeout(() => {
+        hintBtn.disabled = false;
+        hintBtn.innerHTML = '<i class="fas fa-lightbulb"></i> Hint';
+      }, 10000);
+    }
+    
+    // Event listeners
+    flipBtn.addEventListener('click', generateNumber);
+    hintBtn.addEventListener('click', provideHint);
+    restartBtn.addEventListener('click', initGame);
+    
+    // Difficulty selector
+    difficultyBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        difficultyBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        difficulty = btn.dataset.level;
+        initGame();
+      });
+    });
+    
+    // Initialize the game when page loads
+    window.addEventListener('load', initGame);
+  </script>
 </body>
 </html>
