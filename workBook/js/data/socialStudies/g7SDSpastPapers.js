@@ -3405,10 +3405,11 @@ registerWorkbook({
         "explanation": "Plastic is a synthetic material that does not break down naturally in the environment for a very long time.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
-        "text": "56 Farmers in the town marked Z should be taught modern farming techniques to __________________",
+        "text": "Farmers in the town marked Z should be taught modern farming techniques to __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2017.png',
         "options": ["encourage them to use of machinery.", "increase food production.", "increase food security.", "prevent diseases."],
         "correctAnswer": 1,
         "explanation": "Modern farming techniques aim to increase yield and efficiency, leading to higher food production.",
@@ -3416,7 +3417,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "57 Tourism in the National Park labeled X can be promoted by __________________",
+        "text": "Tourism in the National Park labeled X can be promoted by __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2017.png',
         "options": ["building roads.", "protecting wildlife.", "protecting vegetation.", "welcoming tourists."],
         "correctAnswer": 1,
         "explanation": "The primary attraction of a national park is its wildlife. Protecting it ensures a sustainable tourism industry.",
@@ -3424,7 +3426,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "58 Name the province marked C.",
+        "text": "Name the province marked C.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2017.png',
         "options": ["Eastern", "Luapula", "Muchinga", "Northern"],
         "correctAnswer": 0,
         "explanation": "Based on the map, area C is in the eastern part of Zambia, corresponding to the Eastern Province.",
@@ -3432,7 +3435,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "59 Pollution in the province marked S can be prevented by __________________ materials.",
+        "text": "Pollution in the province marked S can be prevented by __________________ materials.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2017.png',
         "options": ["burning", "burying", "collecting", "recycling"],
         "correctAnswer": 3,
         "explanation": "Recycling reduces waste and the need for new raw materials, thereby preventing pollution.",
@@ -3440,13 +3444,15 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "60 Which one of the following is the best for transporting heavy goods from point A to B?",
+        "text": "Which one of the following is the best for transporting heavy goods from point A to B?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2017.png',
         "options": ["Aeroplane", "Bus", "Train", "Truck"],
         "correctAnswer": 2,
         "explanation": "Trains are highly efficient for transporting large volumes of heavy goods over land for long distances.",
         "shuffleOptions": true
     },
-                    */
+                    
+                    
 // 2018
     {
         "type": "multiple-choice",
@@ -3888,10 +3894,11 @@ registerWorkbook({
         "explanation": "Generating profit creates wealth for the business owners and the economy.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
         "text": "River F is __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2018.png',
         "options": ["Cunene.", "Limpopo.", "Lualaba.", "Orange."],
         "correctAnswer": 1,
         "explanation": "Based on the described map position (likely southern Africa), River F is the Limpopo.",
@@ -3900,6 +3907,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "Desert Q is known as __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2018.png',
         "options": ["Gobi.", "Kalahari.", "Namib.", "Sahara."],
         "correctAnswer": 1,
         "explanation": "Based on the described map position (southern Africa), Desert Q is the Kalahari.",
@@ -3908,6 +3916,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The chief cash crop of country K is __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2018.png',
         "options": ["coffee.", "cocoa.", "sisal.", "tobacco."],
         "correctAnswer": 0,
         "explanation": "Based on the described map position (likely East Africa/Horn of Africa), country K's chief cash crop is coffee.",
@@ -3916,6 +3925,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "Country P was formerly colonised by __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2018.png',
         "options": ["Britain.", "France.", "Portugal.", "Spain."],
         "correctAnswer": 2,
         "explanation": "Based on the described map position (Southern Africa), country P (Angola) was colonized by Portugal.",
@@ -3924,12 +3934,13 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The economy of country G depends on __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2018.png',
         "options": ["agriculture.", "fishing.", "mining.", "tourism."],
         "correctAnswer": 2,
         "explanation": "Based on the described map position (likely Southern Africa with mineral wealth), country G's (Zambia) economy historically depends heavily on mining.",
         "shuffleOptions": true
     },
-                    */
+                    
                     
 // 2019
     {
@@ -4372,10 +4383,11 @@ registerWorkbook({
         "explanation": "Efficient transport systems are crucial for facilitating trade.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
         "text": "The town marked K is __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2019.png',
         "options": ["Kasama", "Mbala.", "Mpulungu.", "Nakonde."],
         "correctAnswer": 0,
         "explanation": "Based on the described map (likely Northern Province), town K is Kasama.",
@@ -4384,6 +4396,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The river marked N is __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2019.png',
         "options": ["Kabompo.", "Kafue.", "Luena.", "Lunga."],
         "correctAnswer": 1,
         "explanation": "Based on the described map (central/southern Zambia), river N is the Kafue.",
@@ -4392,6 +4405,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "What main mineral is mined at L?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2019.png',
         "options": ["Calcium", "Coal", "Cobalt", "Copper"],
         "correctAnswer": 3,
         "explanation": "Based on the described map (Copperbelt Province), the main mineral mined is copper.",
@@ -4400,6 +4414,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "People found around area marked L are mostly __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2019.png',
         "options": ["farmers.", "fishermen.", "hunters.", "miners."],
         "correctAnswer": 3,
         "explanation": "Area L (Copperbelt) has a population largely employed in mining activities.",
@@ -4408,12 +4423,13 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The railway line marked M is used by Zambia and __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2019.png',
         "options": ["Congo DR.", "Namibia.", "Tanzania.", "Zimbabwe."],
         "correctAnswer": 2,
         "explanation": "The railway line M is likely TAZARA, linking Zambia and Tanzania.",
         "shuffleOptions": true
     },
-                    */
+                    
                     
 // 2020
     {
@@ -4856,10 +4872,11 @@ registerWorkbook({
         "explanation": "Western Province is a significant producer of hardwood timber, particularly teak.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
         "text": "Name the plateau marked S.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2020.png',
         "options": ["Luano", "Mita", "Tonga", "Nyika"],
         "correctAnswer": 3,
         "explanation": "Based on the described map (likely Northern Malawi/Eastern Zambia), plateau S is the Nyika Plateau.",
@@ -4868,6 +4885,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The area around the town marked V is well known for the growing of ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2020.png',
         "options": ["bananas.", "pineapples.", "maize.", "rice."],
         "correctAnswer": 1,
         "explanation": "Based on the described map (likely Central or Southern Province), area V is known for pineapple cultivation.",
@@ -4876,6 +4894,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The town T was formerly called ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2020.png',
         "options": ["Fort Jameson.", "Fort Balovale.", "Fort Bancroft.", "Fort Rosebury."],
         "correctAnswer": 0,
         "explanation": "Based on the described map (likely Eastern Province), town T (Chipata) was formerly Fort Jameson.",
@@ -4884,6 +4903,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "How many countries do share the lake marked R?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2020.png',
         "options": ["2", "3", "4", "5"],
         "correctAnswer": 2,
         "explanation": "Based on the described map, lake R (Lake Malawi/Nyasa) is shared by Malawi, Mozambique, and Tanzania.",
@@ -4892,12 +4912,13 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The rail line marked W to U was built by the ... company.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2020.png',
         "options": ["BCA", "BSA", "SAB", "ABS"],
         "correctAnswer": 1,
         "explanation": "The rail line (likely connecting to Zimbabwe) was built by the British South Africa Company (BSA).",
         "shuffleOptions": true
     },
-                    */
+                    
                     
 // 2021
     {
@@ -5342,10 +5363,11 @@ registerWorkbook({
         "explanation": "The Moto Moto Museum is located in Mbala.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
         "text": "The main economic activity done by the people who live in the area marked L is ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2021.png',
         "options": ["farming.", "fishing.", "hunting.", "mining."],
         "correctAnswer": 3,
         "explanation": "Based on the described map (likely the Copperbelt), area L's main activity is mining.",
@@ -5354,6 +5376,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "... is the main traditional ceremony of the Lunda People of Luapula Province",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2021.png',
         "options": ["Icunamanongo", "Kuomboka", "Ukesefya pangw’ena", "Umutomboko"],
         "correctAnswer": 3,
         "explanation": "The Umutomboko ceremony is celebrated by the Lunda people.",
@@ -5362,6 +5385,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The plantation found in the area marked P is for ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2021.png',
         "options": ["coffee.", "cocoa.", "tea.", "sugar cane."],
         "correctAnswer": 3,
         "explanation": "Based on the described map (likely Southern Province near Mazabuka), area P is known for sugar cane plantations.",
@@ -5370,6 +5394,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The lake marked K is ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2021.png',
         "options": ["Bangweulu.", "Chifunauli.", "Itezhi-tezhi.", "Mweru."],
         "correctAnswer": 0,
         "explanation": "Based on the described map (Northern Zambia), lake K is Lake Bangweulu.",
@@ -5378,12 +5403,13 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "Name the river marked M.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2021.png',
         "options": ["Luapula", "Luango", "Lufubu", "Lusenga"],
         "correctAnswer": 0,
         "explanation": "Based on the described map (border between Zambia and DRC), river M is the Luapula River.",
         "shuffleOptions": true
     },
-                    */
+                    
                     
 // 2022
     {
@@ -5808,6 +5834,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The function of the local government is to ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2022.png',
         "options": ["build churches.", "provide free education.", "provide medical services.", "provide water supply."],
         "correctAnswer": 3,
         "explanation": "Local governments often manage basic services like water supply.",
@@ -5816,6 +5843,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "Which of the following is both a continent and a country?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2022.png',
         "options": ["Africa", "Asia", "Australia", "Europe"],
         "correctAnswer": 2,
         "explanation": "Australia is a country and also a continent.",
@@ -5824,6 +5852,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The supreme law of the land is called ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2022.png',
         "options": ["Constitution.", "Legislature.", "National Assembly.", "Parliament."],
         "correctAnswer": 0,
         "explanation": "The Constitution is the highest legal authority in a country.",
@@ -5832,6 +5861,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The cash crop grown in the area marked M is ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2022.png',
         "options": ["bananas.", "cotton.", "rice.", "tea."],
         "correctAnswer": 1,
         "explanation": "Cotton is a common cash crop in certain Zambian regions.",
@@ -5840,6 +5870,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The economic activity carried out at the feature marked O is ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2022.png',
         "options": ["farming.", "fishing.", "manufacturing.", "mining."],
         "correctAnswer": 3,
         "explanation": "Mining is a key economic activity in mineral-rich areas.",
@@ -6276,10 +6307,11 @@ registerWorkbook({
         "explanation": "Councillors represent and manage wards in local government.",
         "shuffleOptions": true
     },
-    /*
+    
     {
         "type": "multiple-choice",
         "text": "Kizito was killed by ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2024.png',
         "options": ["Bernard Mizeki.", "Charles Lwanga.", "Kabaka Mwanga.", "Joseph Mkasa."],
         "correctAnswer": 2,
         "explanation": "Saint Kizito was a Ugandan martyr killed on orders of Kabaka Mwanga.",
@@ -6288,6 +6320,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The burning of waste materials is known as ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2024.png',
         "options": ["deforestation.", "disposing.", "incineration.", "recycling."],
         "correctAnswer": 2,
         "explanation": "Incineration is the controlled burning of waste.",
@@ -6296,6 +6329,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The main activity done around Itezhi-tezhi dam is ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2024.png',
         "options": ["irrigation.", "mining.", "power generation.", "tourism."],
         "correctAnswer": 2,
         "explanation": "Itezhi-Tezhi Dam supports hydroelectric power generation.",
@@ -6304,6 +6338,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The lake marked P is ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2024.png',
         "options": ["Bangweulu.", "Mweru.", "Mweru-wantipa.", "Tanganyika."],
         "correctAnswer": 3,
         "explanation": "Lake Tanganyika is a major lake in the region.",
@@ -6312,12 +6347,12 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The waterfalls at M are the ...",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2024.png',
         "options": ["Chishimba.", "Kalambo.", "Mambilima.", "Victoria."],
         "correctAnswer": 1,
         "explanation": "Kalambo Falls is a significant waterfall in Zambia.",
         "shuffleOptions": true
-    },
-*/                                                            
+    },                                                           
                                                                                                                                                                                     
                             
                     ]
