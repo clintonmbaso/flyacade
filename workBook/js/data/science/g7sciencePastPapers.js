@@ -4159,6 +4159,7 @@ registerWorkbook({
         "explanation": "Ventilators are openings that allow air to circulate. Windows, doors, and air vents all serve this purpose.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Sleeping under insecticide treated nets protects people from...",
@@ -4199,6 +4200,7 @@ registerWorkbook({
         "explanation": "Chronic excessive alcohol consumption is a leading cause of liver damage, including conditions like fatty liver, hepatitis, and cirrhosis.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which of the following is used to measure the volume of a liquid?",
@@ -4207,6 +4209,7 @@ registerWorkbook({
         "explanation": "Instrument 4 is a measuring cylinder, which is specifically designed to measure the volume of liquids.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following is the best method of treating water at home?",
@@ -4271,6 +4274,7 @@ registerWorkbook({
         "explanation": "Iodine solution reacts with starch to produce a characteristic blue-black color.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which of the parts marked 1 to 5 make the female parts of the flower?",
@@ -4279,6 +4283,7 @@ registerWorkbook({
         "explanation": "The female part of a flower is the pistil, which consists of the stigma (3), style (4), and ovary (5).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following explains the importance of cleanliness in the care of livestock?",
@@ -4303,6 +4308,7 @@ registerWorkbook({
         "explanation": "An electric light bulb converts electrical energy into light energy (and some heat).",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which number shows a wrong example?",
@@ -4311,6 +4317,7 @@ registerWorkbook({
         "explanation": "'Conductor' is a material property, not a type of energy. Electric, sound, and heat are all forms of energy.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following pests feeds by chewing the leaves of plants?",
@@ -4327,6 +4334,7 @@ registerWorkbook({
         "explanation": "Fish are vertebrates; they have a backbone. Bees, cockroaches, and grasshoppers are all invertebrates.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which numbers describe the basic structure of a spider?",
@@ -4343,6 +4351,7 @@ registerWorkbook({
         "explanation": "The fruit shown has a wing-like structure, which is an adaptation for wind dispersal.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following drugs can cause damage to a person’s body if taken for years?",
@@ -4351,6 +4360,7 @@ registerWorkbook({
         "explanation": "Cocaine and mandrax are both highly addictive illicit drugs whose long-term use can cause severe physical and psychological damage.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The numbers showing features of pregnancy are...",
@@ -4359,6 +4369,7 @@ registerWorkbook({
         "explanation": "Morning sickness (2) and enlargement of breasts (4) are common early signs of pregnancy. The other features are associated with puberty.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "What movements of the earth cause seasons, days and nights?",
@@ -4399,6 +4410,7 @@ registerWorkbook({
         "explanation": "Copper is commonly used in coins (often as an alloy) and in jewelry due to its malleability and attractive color.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "What is the volume of the box?",
@@ -4415,6 +4427,7 @@ registerWorkbook({
         "explanation": "The wax will melt on rods that are good conductors of heat, allowing heat to travel from the flame. Iron (2) and glass (4) are both conductors, though iron is better.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "A person who cannot stop abusing drugs is...",
@@ -4423,6 +4436,7 @@ registerWorkbook({
         "explanation": "An addict is someone who is physically and/or psychologically dependent on a substance and finds it difficult to stop using it.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which of the fertilizers is not organic?",
@@ -4439,6 +4453,7 @@ registerWorkbook({
         "explanation": "Nitrogen makes up the largest portion of the Earth's atmosphere, approximately 78%.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "What do we call animals which destroy certain crops by feeding on them?",
@@ -4479,6 +4494,7 @@ registerWorkbook({
         "explanation": "Nutrients are primarily absorbed in the small intestine. Water is primarily absorbed in the large intestine.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "What process did the learner use to achieve this?",
@@ -4487,6 +4503,7 @@ registerWorkbook({
         "explanation": "First, add water to dissolve the salt (sand is insoluble). Filter to separate the sand (residue) from the salt solution (filtrate). Then, evaporate the water from the filtrate to obtain solid salt.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following methods can produce a high pitch of sound?",
@@ -4519,6 +4536,7 @@ registerWorkbook({
         "explanation": "Carbon, hydrogen, and oxygen are elements that are non-metals. Carbon dioxide is a compound of non-metals. The other lists include metals (Aluminium, Zinc).",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "In which of the labelled parts does absorption of food take place?",
@@ -4527,6 +4545,7 @@ registerWorkbook({
         "explanation": "Part 3 is the small intestine, which is the primary site for the absorption of digested nutrients into the bloodstream.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "What is the advantage of keeping livestock together?",
@@ -4561,6 +4580,7 @@ registerWorkbook({
         "explanation": "The Sun is the primary source of light and energy in our solar system.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which list consists of metals only?",
@@ -4569,6 +4589,7 @@ registerWorkbook({
         "explanation": "List 1 (Iron, Zinc, Copper, Aluminium) contains only metallic elements.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following are skin diseases?",
@@ -4601,6 +4622,7 @@ registerWorkbook({
         "explanation": "Food and water are fundamental physiological needs for the survival of all animals, including livestock.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "What is the volume of the following object?",
@@ -4609,6 +4631,7 @@ registerWorkbook({
         "explanation": "Volume of a rectangular prism = length × width × height. 4 cm × 2 cm × 2 cm = 16 cm³.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "One of the methods of conserving animal species from becoming extinct is by ...",
@@ -4641,6 +4664,7 @@ registerWorkbook({
         "explanation": "A roof is a structural covering, not an opening designed for air circulation. Vents, doors, and windows allow air flow.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "On which day was the lowest rainfall recorded?",
@@ -4649,6 +4673,7 @@ registerWorkbook({
         "explanation": "The bar for Friday is the shortest on the graph, indicating the least amount of rainfall.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "In the water cycle, what is the change from liquid to gas state called?",
@@ -4681,6 +4706,7 @@ registerWorkbook({
         "explanation": "Dysentery is an infectious disease caused by bacteria or parasites, not a deficiency of a specific nutrient.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "What does the above apparatus measure?",
@@ -4689,6 +4715,7 @@ registerWorkbook({
         "explanation": "A beam balance is used to compare the mass of an object against known standard masses.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Farmers are advised not to crowd their animals because ...",
@@ -4713,6 +4740,7 @@ registerWorkbook({
         "explanation": "Compost is organic matter that has been decomposed and recycled as a fertilizer and soil amendment.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The list contains food rich in...",
@@ -4721,6 +4749,7 @@ registerWorkbook({
         "explanation": "Pumpkin, mango, pawpaw, and carrot are all excellent sources of various vitamins (e.g., Vitamin A, Vitamin C).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "A farmer keeping cattle cleaned the kraal twice a week in order to prevent ...",
@@ -4745,6 +4774,7 @@ registerWorkbook({
         "explanation": "The fundamental purpose of communication is the exchange of information, ideas, and messages between individuals or groups.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which numbered part represents the pivot?",
@@ -4753,6 +4783,7 @@ registerWorkbook({
         "explanation": "In a lever, the pivot (fulcrum) is the point on which the lever rests and turns. This is typically represented by the triangle (part 2).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following animals is classified as a mammal?",
@@ -4761,6 +4792,7 @@ registerWorkbook({
         "explanation": "Cows are mammals; they are warm-blooded, have hair, and produce milk to feed their young.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The experiment shows that air ...",
@@ -4769,6 +4801,7 @@ registerWorkbook({
         "explanation": "The balloon inflates because the air being blown into it takes up space inside the bottle, demonstrating that air occupies space.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Some children who were left with a brazier inside a poorly ventilated room suffocated but were saved by quickly ...",
@@ -4793,6 +4826,7 @@ registerWorkbook({
         "explanation": "The loudness (amplitude) of a sound is directly related to the energy of the vibrations. Stronger vibrations produce louder sounds.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "What happens in the part labelled X?",
@@ -4817,6 +4851,7 @@ registerWorkbook({
         "explanation": "Plastic, rubber, and paper are all insulators, meaning they are bad conductors of electricity.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following plants is propagated using suckers?",
@@ -4833,6 +4868,7 @@ registerWorkbook({
         "explanation": "Solar power can be generated on-site (e.g., with solar panels) and is not dependent on the main grid, making it a good alternative during power outages (load shedding).",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The animal above is a ...",
@@ -4841,6 +4877,7 @@ registerWorkbook({
         "explanation": "The diagram shows an insect with a distinct narrow waist and wings, characteristic of a wasp.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following is not an elicit drug?",
@@ -4852,11 +4889,12 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "Which of the following correctly gives the age at which boys and girls reach puberty?",
-        "options": ["Boys Girls 8 10", "Boys Girls 11 10", "Boys Girls 15 15", "Boys Girls 16 15"],
+        "options": ["Boys 8 Girls 10", "Boys 11 Girls 10", "Boys 15 Girls 15", "Boys 16 Girls 15"],
         "correctAnswer": 1,
         "explanation": "Girls typically enter puberty slightly earlier than boys, around ages 10-11, while boys start around ages 11-12.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which type of animal did the learner describe?",
@@ -4865,6 +4903,7 @@ registerWorkbook({
         "explanation": "Amphibians (e.g., frogs) have moist skin, are cold-blooded, and live both in water (as larvae) and on land (as adults).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which diseases are caused by tsetse flies in man and in cattle?",
@@ -4881,6 +4920,7 @@ registerWorkbook({
         "explanation": "Light travels at approximately 300,000 km/s, while sound travels at about 0.343 km/s. Therefore, we see the lightning almost instantly, but the sound (thunder) takes longer to reach us.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The use of the above in a circuit is to ...",
@@ -4889,6 +4929,7 @@ registerWorkbook({
         "explanation": "The symbol represents an electric switch, which is used to open (break) or close (complete) an electrical circuit.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Musical instruments and decorative objects are made from a combination of copper and zinc which is called ...",
@@ -4897,6 +4938,7 @@ registerWorkbook({
         "explanation": "Brass is an alloy made primarily of copper and zinc. It is known for its malleability and gold-like appearance.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which of the following substances are placed in a wrong column?",
@@ -4905,6 +4947,7 @@ registerWorkbook({
         "explanation": "Carbon is a non-metal and should be in the Non-Metals column. Zinc is a metal and should be in the Metals column. They are swapped.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following is not a health risk associated with early sexual debut?",
@@ -4971,6 +5014,7 @@ registerWorkbook({
         "explanation": "Vegetables and fruits are rich in vitamins and minerals.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following life cycle of an animal. Which stage is at 2?",
@@ -4979,6 +5023,7 @@ registerWorkbook({
         "explanation": "Based on the diagram, stage 2 represents the laying of eggs.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "An introduction of fresh fruits in a person’s diet helps to stop gum bleeding because fresh fruits are rich in...",
@@ -5003,6 +5048,7 @@ registerWorkbook({
         "explanation": "A fuse breaks the circuit if the current is too high, protecting the appliance.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the diagrams shown. Which of the plants is a non-flowering plant?",
@@ -5011,6 +5057,7 @@ registerWorkbook({
         "explanation": "Based on the diagram, plant 3 is a non-flowering plant (e.g., a fern).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "When people wake up in the morning, they open the windows to allow ...",
@@ -5019,6 +5066,7 @@ registerWorkbook({
         "explanation": "Opening windows allows for air circulation and ventilation.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following diagram of an electrical screwdriver tester. What are the best materials for making parts X and Y?",
@@ -5027,6 +5075,7 @@ registerWorkbook({
         "explanation": "Part X (handle) should be non-metal for insulation, Part Y (tip) should be metal to conduct electricity.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "In winter, many suffocation accidents are reported because some people sit near a brazier in a...",
@@ -5131,6 +5180,7 @@ registerWorkbook({
         "explanation": "Volume for a regular rectangular object is calculated as length × breadth × height.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following diagram. Which method would learners use to remove iron filings from the mixture shown?",
@@ -5139,6 +5189,7 @@ registerWorkbook({
         "explanation": "Iron filings can be separated using a magnet due to their magnetic properties.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "In Zambia, drug users mostly abuse...",
@@ -5147,6 +5198,7 @@ registerWorkbook({
         "explanation": "Dagga (marijuana) is a commonly abused drug in Zambia.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following diagram of an insect. How many body parts does the insect have?",
@@ -5155,6 +5207,7 @@ registerWorkbook({
         "explanation": "Insects have three main body parts: head, thorax, and abdomen.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following describes the composition of blood?",
@@ -5163,6 +5216,7 @@ registerWorkbook({
         "explanation": "Blood is composed of blood cells (red, white, platelets) suspended in plasma.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following diagram of a flower. The part P of the flower ...",
@@ -5171,6 +5225,7 @@ registerWorkbook({
         "explanation": "Part P is the stigma, which receives pollen during pollination.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following organs is associated with the digestion of food?",
@@ -5195,6 +5250,7 @@ registerWorkbook({
         "explanation": "Potential energy is stored energy an object has due to its position or state.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "The following is a diagram of the blood circulatory system. The correct direction of blood flow is ...",
@@ -5203,6 +5259,7 @@ registerWorkbook({
         "explanation": "This sequence represents the path of systemic circulation to pulmonary circulation.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following is a disadvantage of chemical fertilisers? They ...",
@@ -5211,6 +5268,7 @@ registerWorkbook({
         "explanation": "Overuse of chemical fertilizers can lead to soil acidification.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Study the following list of animals. 1 Cow 2 Duck 3 Tortoise 4 Toad. To which group do the animals belong?",
@@ -5227,6 +5285,7 @@ registerWorkbook({
         "explanation": "Condensation, where water vapor turns to liquid, typically occurs in the atmosphere (cloud formation).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "The breaking down of food to small soluble particles is important because it enables the...",
@@ -5413,6 +5472,7 @@ registerWorkbook({
         "explanation": "The heart is a muscular pump that circulates blood throughout the body via the circulatory system.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which labelled part of the fish is used for swimming?",
@@ -5421,6 +5481,7 @@ registerWorkbook({
         "explanation": "Part Y represents the tail fin (caudal fin), which is the primary appendage fish use for propulsion through water.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "Which of the following lists consists of food rich in protein?",
@@ -5693,6 +5754,7 @@ registerWorkbook({
         "explanation": "Cooking sticks are often made of wood, which is a poor conductor of heat. This prevents heat from traveling quickly to your hand.",
         "shuffleOptions": true
     },
+    /*
     {
         "type": "multiple-choice",
         "text": "Which of the processes is used to remove suspended substances from water?",
@@ -5701,6 +5763,7 @@ registerWorkbook({
         "explanation": "Filtration is a physical process that removes suspended solids from water by passing it through a medium (e.g., filter paper, sand).",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "The importance of copper in Zambia is that it is a ...",
@@ -5708,7 +5771,7 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "Copper mining and exports are a major contributor to Zambia's economy and a significant source of foreign currency earnings.",
         "shuffleOptions": true
-    },
+    },/*
     {
         "type": "multiple-choice",
         "text": "What is the volume of the box?",
@@ -5717,6 +5780,7 @@ registerWorkbook({
         "explanation": "Volume of a cuboid = length × width × height. 12 cm × 10 cm × 6 cm = 720 cm³.",
         "shuffleOptions": true
     },
+    */
     {
         "type": "multiple-choice",
         "text": "A patient was asked to include food rich in iron in the diet because the patient had ...",
@@ -5725,7 +5789,7 @@ registerWorkbook({
         "explanation": "Anaemia is often caused by iron deficiency. Iron is necessary for the production of hemoglobin in red blood cells.",
         "shuffleOptions": true
     },
-                    */
+                    
 // 2024
     {
         "type": "multiple-choice",
