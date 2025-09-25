@@ -461,10 +461,11 @@ registerWorkbook({
         "explanation": "Disregarding traffic rules (e.g., speeding, drunk driving) is a primary cause of accidents.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
-        "text": "56 What could be the best type of transport that one can use to transport cotton from town marked C to Lusaka?",
+        "text": "What could be the best type of transport that one can use to transport cotton from town marked C to Lusaka?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2011.png',
         "options": ["Air transport", "Railway transport", "Road transport", "Water transport"],
         "correctAnswer": 1,
         "explanation": "Rail transport is efficient for moving bulk goods like cotton over long distances.",
@@ -472,7 +473,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "57 The railway line marked D links Zambia to which country?",
+        "text": "The railway line marked D links Zambia to which country?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2011.png',
         "options": ["Angola", "Kenya", "Mozambique", "Tanzania"],
         "correctAnswer": 3,
         "explanation": "The TAZARA railway links Zambia (Kapiri Mposhi) to Tanzania (Dar es Salaam).",
@@ -480,7 +482,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "58 During the rainy season, most of the area marked B is . . .",
+        "text": "During the rainy season, most of the area marked B is . . .",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2011.png',
         "options": ["cold.", "dry.", "flooded.", "windy."],
         "correctAnswer": 2,
         "explanation": "Area B (likely the Barotse Floodplain) experiences seasonal flooding during the rains.",
@@ -488,7 +491,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "59 Identify the town marked A.",
+        "text": "Identify the town marked A.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2011.png',
         "options": ["Solwezi", "Mongu", "Mansa", "Livingstone"],
         "correctAnswer": 3,
         "explanation": "Town A is Livingstone, located in the Southern Province near Victoria Falls.",
@@ -496,14 +500,509 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "60 The physical feature marked E is . . .",
+        "text": "The physical feature marked E is . . .",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2011.png',
         "options": ["Mafinga mountains.", "Mbala highlands.", "Muchinga escarpment.", "Zambezi escarpment."],
         "correctAnswer": 2,
         "explanation": "The Muchinga Escarpment is a major physical feature in northeastern Zambia.",
         "shuffleOptions": true
-    }
-                    */
+    },
                     
+                    
+// 2012
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is the staple food for most Zambians?",
+        "options": ["Bread", "Nshima", "Potatoes", "Rice"],
+        "correctAnswer": 1,
+        "explanation": "Nshima, made from maize meal, is the staple food for the majority of Zambians.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The story of the good Samaritan teaches us to ...",
+        "options": ["advise other people.", "avoid talking to people.", "love and help other people.", "talk to other people."],
+        "correctAnswer": 2,
+        "explanation": "The parable of the Good Samaritan emphasizes compassion and helping those in need, regardless of their background.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The name of Zambia came from the · · ·",
+        "options": ["Zambezi Ruins.", "Zambezi River.", "Zambezi Escarpment.", "Zambezi District."],
+        "correctAnswer": 1,
+        "explanation": "Zambia is named after the Zambezi River, which forms its southern border.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "When parents wait for two or three years before having another baby, we call it · · ·",
+        "options": ["breast feeding.", "child health.", "family planning.", "modern method."],
+        "correctAnswer": 2,
+        "explanation": "Spacing births is a key aspect of family planning, allowing for better health outcomes for both mother and child.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Smoking is a health hazard and a person who smokes is likely to suffer from · · ·",
+        "options": ["cholera.", "lung cancer.", "malaria.", "sleeping sickness."],
+        "correctAnswer": 1,
+        "explanation": "Smoking is a leading cause of lung cancer and other respiratory diseases.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The Bible text “If a person will not work, let him starve,” teaches us to be · · ·",
+        "options": ["hard working.", "lazy.", "very greedy.", "wise."],
+        "correctAnswer": 0,
+        "explanation": "This teaching encourages diligence and the value of earning one's livelihood through work.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Muslims face the City of Mecca when praying because . . .",
+        "options": ["it is a tourist city.", "it is the birth place of Mohammed.", "they go on a pilgrim there.", "they originated from there."],
+        "correctAnswer": 1,
+        "explanation": "Mecca is the holiest city in Islam, being the birthplace of the Prophet Muhammad and the location of the Kaaba.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Diarrhoea can be prevented by . . .",
+        "options": ["eating cold food left uncovered.", "eating food with unwashed hands.", "washing hands after using the toilet.", "washing hands before using the toilet."],
+        "correctAnswer": 2,
+        "explanation": "Washing hands with soap after using the toilet is a critical practice to prevent the spread of germs that cause diarrhea.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Malaria is transmitted by . . . mosquitoes.",
+        "options": ["adult", "female", "male", "young"],
+        "correctAnswer": 1,
+        "explanation": "Only female Anopheles mosquitoes transmit malaria, as they require a blood meal for egg development.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": ". . . is an example of an air borne disease.",
+        "options": ["Tuberculosis", "Scabies", "HIV and AIDS", "Cholera"],
+        "correctAnswer": 0,
+        "explanation": "Tuberculosis (TB) bacteria are spread through the air when an infected person coughs or sneezes.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Lack of . . . is a likely cause of malnutrition.",
+        "options": ["air", "food", "medicine", "water"],
+        "correctAnswer": 1,
+        "explanation": "Malnutrition is primarily caused by a lack of essential nutrients, which comes from not having enough food or the right kinds of food.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The main means of transport in Sahara Desert is the . . .",
+        "options": ["train.", "canoe.", "camel.", "bus."],
+        "correctAnswer": 2,
+        "explanation": "Camels are well-adapted to desert conditions and have been the traditional mode of transport in the Sahara for centuries.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Study the weather instruments below and answer the question that follows. Which of the above instruments is used to measure wind direction?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": 1,
+        "explanation": "A wind vane (weather vane) is the instrument used to show the direction from which the wind is blowing.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Three people are involved in a conflict. What advice do they need?",
+        "options": ["One of them should talk less.", "One of them should talk more.", "They should all be told to shut up.", "They should discuss and listen to each other."],
+        "correctAnswer": 3,
+        "explanation": "Effective conflict resolution involves open communication, discussion, and active listening from all parties.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "At the last supper, Jesus gave •••• to his disciples.",
+        "options": ["bread and water", "bread and wine", "life and bread", "life and wine"],
+        "correctAnswer": 1,
+        "explanation": "During the Last Supper, Jesus gave bread and wine to his disciples, instituting the Eucharist.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Forests are very important because they give off ••••",
+        "options": ["carbon dioxide.", "hydrogen.", "oxygen.", "plants."],
+        "correctAnswer": 2,
+        "explanation": "Through the process of photosynthesis, forests absorb carbon dioxide and release oxygen, which is vital for life.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A democratic type of government in a country is important because citizens can . . .",
+        "options": ["be made to suffer.", "not enjoy their rights.", "not vote for their own leaders.", "vote for their own leaders."],
+        "correctAnswer": 3,
+        "explanation": "A key feature of democracy is that citizens have the right to choose their leaders through elections.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A Muslim is allowed to marry more than one wife as long as he . . .",
+        "options": ["gives them equal love.", "loves the first wife only.", "mistreats them.", "treats them differently."],
+        "correctAnswer": 0,
+        "explanation": "In Islam, polygyny is permitted under the condition that the husband treats all wives with absolute justice and equality.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": ". . . means the movement of people and goods from one place to another.",
+        "options": ["Advertisement", "Banking", "Communication", "Transport"],
+        "correctAnswer": 3,
+        "explanation": "Transport is defined as the movement of people, animals, and goods from one location to another.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "One of the most important duties of parents is to . . .",
+        "options": ["bring up children.", "get rich.", "pay taxes.", "solve problems in the community."],
+        "correctAnswer": 0,
+        "explanation": "A primary responsibility of parents is to raise, nurture, and provide for their children.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following organisations has the function of encouraging free trade between the member states?",
+        "options": ["AU", "COMESA", "FAO", "WHO"],
+        "correctAnswer": 1,
+        "explanation": "COMESA (Common Market for Eastern and Southern Africa) aims to promote regional economic integration through trade liberalization.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In which year was the last census of population and housing held in Zambia?",
+        "options": ["2001", "2005", "2010", "2011"],
+        "correctAnswer": 2,
+        "explanation": "The last national census conducted in Zambia before 2012 was in 2010.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Dehydration means . . .",
+        "options": ["replacing lost fluids.", "lack of water in the body.", "enough fluids in the body.", "drinking more water."],
+        "correctAnswer": 1,
+        "explanation": "Dehydration is a condition that results when the body loses more fluids than it takes in.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "When the air is dirty and unhealthy, it is said to be ...",
+        "options": ["carbon dioxide.", "oxygen.", "polluted.", "smoke."],
+        "correctAnswer": 2,
+        "explanation": "Air pollution refers to the presence of substances in the atmosphere that are harmful to human health and the environment.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Storing food in sand, sun-drying and salting are some of the ... methods of preserving food.",
+        "options": ["modern", "primitive", "traditional", "wasteful"],
+        "correctAnswer": 2,
+        "explanation": "These are traditional, low-tech methods of food preservation that have been used for centuries.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Name the businessman who owned the British South African Company.",
+        "options": ["David Livingstone", "John Cecil Rhodes", "John Kennedy", "David Homes"],
+        "correctAnswer": 1,
+        "explanation": "Cecil John Rhodes founded the British South Africa Company (BSAC), which administered what became Northern and Southern Rhodesia.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What do we call the railway line from Kapiri-Mposhi in Zambia to Dar es Salaam in Tanzania?",
+        "options": ["Great North rail line", "Mulobezi rail line", "TAZARA rail line", "Zambia rail line"],
+        "correctAnswer": 2,
+        "explanation": "The TAZARA (Tanzania-Zambia Railway Authority) railway links Kapiri Mposhi in Zambia to Dar es Salaam in Tanzania.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "'Love your neighbour and do good to them.' Who are your neighbours?",
+        "options": ["All the people", "Good friends", "Relatives", "School mates"],
+        "correctAnswer": 0,
+        "explanation": "In the moral and religious sense, 'neighbour' refers to all fellow human beings, not just those who live nearby or are known to us.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The Islamic month of fasting is ...",
+        "options": ["Chanuka.", "Diwali.", "June.", "Ramadan."],
+        "correctAnswer": 3,
+        "explanation": "Ramadan is the ninth month of the Islamic calendar, during which Muslims fast from dawn until sunset.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In olden days before the coming of Europeans, people used to send messages through ...",
+        "options": ["drumming.", "e-mail.", "letters.", "phones."],
+        "correctAnswer": 0,
+        "explanation": "Many African communities used talking drums to send complex messages over long distances.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Apart from maintaining world peace, the United Nations was formed to . . .",
+        "options": ["discourage development.", "encourage racial discrimination.", "give money to families.", "protect human rights."],
+        "correctAnswer": 3,
+        "explanation": "A key purpose of the UN, as stated in its Charter, is to promote and encourage respect for human rights and fundamental freedoms.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": ". . . are examples of physical features.",
+        "options": ["Deserts and water", "Mountains and rivers", "Rainfall and rivers", "Water and climate"],
+        "correctAnswer": 1,
+        "explanation": "Physical features are natural characteristics of the Earth's surface, such as mountains, rivers, valleys, and deserts.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The transport system in Zambia can be improved by . . .",
+        "options": ["building more roads.", "good radio transmission.", "reducing road tax.", "vandalising roads."],
+        "correctAnswer": 0,
+        "explanation": "Expanding and maintaining road infrastructure is a fundamental way to improve a country's transport system.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "If charcoal burning is not controlled it will result in . . .",
+        "options": ["land shortage.", "food shortage.", "employment.", "deforestation."],
+        "correctAnswer": 3,
+        "explanation": "Charcoal production is a major driver of deforestation, as it requires cutting down trees.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In Tonga tradition, when a young man wanted a marriage partner he would announce that by . . .",
+        "options": ["playing a drum in the night.", "playing a kankobela in the night.", "singing throughout the night.", "whistling throughout the night."],
+        "correctAnswer": 1,
+        "explanation": "The kankobela (thumb piano or kalimba) was traditionally used by Tonga young men for courtship communication.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The word “Bible” means . . .",
+        "options": ["books", "letters.", "proverbs.", "songs."],
+        "correctAnswer": 0,
+        "explanation": "The word 'Bible' comes from the Greek 'ta biblia', meaning 'the books'.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the tourist capital of Zambia?",
+        "options": ["Kitwe", "Livingstone", "Lusaka", "Ndola"],
+        "correctAnswer": 1,
+        "explanation": "Livingstone, located near the Victoria Falls, is known as Zambia's tourist capital.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Food for domesticated animals is called · · ·",
+        "options": ["grass.", "leaves.", "pasture.", "stock feed."],
+        "correctAnswer": 3,
+        "explanation": "Stock feed, or fodder, refers to food given to domesticated livestock.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The purpose of the nation wide fish ban exercised in Zambia from December to March every year is for · · ·",
+        "options": ["water levels to go up.", "fishermen to renew their licences.", "fishermen to mend their nets.", "fish to reproduce and grow."],
+        "correctAnswer": 3,
+        "explanation": "The closed season (fish ban) protects fish during their main breeding period, allowing stocks to replenish.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The disadvantage of being a landlocked country is that · · ·",
+        "options": ["distance to sea ports is shortened.", "exports are expensive to transport.", "goods become cheaper.", "imports are cheaper to transport."],
+        "correctAnswer": 1,
+        "explanation": "Landlocked countries face higher transport costs for imports and exports because they rely on ports in neighboring countries.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A place where ships park is a · · ·",
+        "options": ["car park.", "garage.", "hanger.", "harbour."],
+        "correctAnswer": 3,
+        "explanation": "A harbour (or port) is a sheltered body of water where ships, boats, and barges can dock.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Study the table below. Find the difference in population between Ndola and Kabwe.",
+        "options": ["175 541", "185 446", "185 546", "185 556"],
+        "correctAnswer": 3,
+        "explanation": "Difference = Ndola population - Kabwe population = 198,001 - 12,445 = 185,556.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "When older men have sex with girls under the age of 16 it is called . . .",
+        "options": ["child labour.", "defilement.", "marriage.", "mistreatment."],
+        "correctAnswer": 1,
+        "explanation": "Defilement is the legal term for sexual intercourse with a minor (a person below the age of consent, which is 16 in Zambia).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In rural areas, vegetables are commonly preserved by . . .",
+        "options": ["canning.", "drying.", "salting.", "smoking."],
+        "correctAnswer": 1,
+        "explanation": "Sun-drying is a common, low-cost method used in rural areas to preserve vegetables for later use.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The most recent development in communication is . . .",
+        "options": ["internet.", "letter.", "radio.", "tele-fax."],
+        "correctAnswer": 0,
+        "explanation": "The internet represents the most modern and transformative development in communication technology.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Zambia’s natural resources include . . .",
+        "options": ["banks, forests, wildlife and mines.", "copper mines, railways and skilled workers.", "factories, mines, banks and hospitals.", "minerals, forests, waterfalls and wildlife."],
+        "correctAnswer": 3,
+        "explanation": "Natural resources are materials or substances occurring in nature which can be exploited for economic gain. These include minerals, forests, water bodies (waterfalls represent hydro-power potential), and wildlife.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The cheapest way of transporting crude oil in SADC and COMESA countries is by . . .",
+        "options": ["air.", "land.", "pipeline.", "sea."],
+        "correctAnswer": 2,
+        "explanation": "Pipelines are generally the most cost-effective method for transporting large volumes of liquids like crude oil over long distances.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The main crop grown in Luapula Province is . . .",
+        "options": ["cassava.", "groundnuts.", "maize.", "sugar."],
+        "correctAnswer": 0,
+        "explanation": "Cassava is a staple crop well-suited to the climate and soils of Luapula Province.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Traditional ceremonies help us to ...",
+        "options": ["enjoy our staple food.", "go back to our villages.", "keep our bodies healthy.", "preserve our culture."],
+        "correctAnswer": 3,
+        "explanation": "Traditional ceremonies play a vital role in preserving and transmitting cultural heritage, values, and history from one generation to the next.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The Chitemene system of agriculture can be wasteful because ...",
+        "options": ["a lot of trees are burnt to fertilise the soil.", "a lot of chemical fertiliser is used to fertilize the soil.", "it is a traditional method.", "it is very expensive."],
+        "correctAnswer": 0,
+        "explanation": "Chitemene involves cutting down and burning trees to create ash for fertilizing soil. This leads to deforestation and is not sustainable in the long term.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In which province is coffee grown on a large scale?",
+        "options": ["Central Province", "Luapula Province", "Northern Province", "Southern Province"],
+        "correctAnswer": 2,
+        "explanation": "Northern Province, particularly the areas around Muchinga Escarpment, is a major coffee-growing region in Zambia.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Who was elected President of Zambia in 2001?",
+        "options": ["Dr Frederick Chiluba", "Dr Kenneth Kaunda", "Levy Mwanawasa", "Rupiah Banda"],
+        "correctAnswer": 2,
+        "explanation": "Levy Mwanawasa was elected President of Zambia in 2001, succeeding Frederick Chiluba.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is a letter in the Bible written by the Apostle Paul?",
+        "options": ["Genesis", "Luke", "Matthew", "Romans"],
+        "correctAnswer": 3,
+        "explanation": "The Epistle to the Romans is a book of the New Testament attributed to the Apostle Paul.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Name the political party which was in power for 27 years in Zambia.",
+        "options": ["F.D.D.", "M.M.D.", "U.N.I.P.", "U.P.N.D."],
+        "correctAnswer": 2,
+        "explanation": "UNIP (United National Independence Party), led by Kenneth Kaunda, ruled Zambia from independence in 1964 until 1991.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "...is an example of chemical fertilizers.",
+        "options": ["Ash", "Compost heap", "Cow dung", "Urea"],
+        "correctAnswer": 3,
+        "explanation": "Urea is a synthetic nitrogen fertilizer commonly used in agriculture.",
+        "shuffleOptions": true
+    },
+    
+
+    {
+        "type": "multiple-choice",
+        "text": "People living around Lake Victoria are likely to work in the . . . industry.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2012.png',
+        "options": ["fishing", "mine", "textile", "timber"],
+        "correctAnswer": 0,
+        "explanation": "Lake Victoria is a major freshwater lake supporting fishing industries.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "It is not possible to grow crops in the Namib desert because of . . .",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2012.png',
+        "options": ["cold weather.", "heavy rainfall.", "little rainfall.", "strong winds."],
+        "correctAnswer": 2,
+        "explanation": "The Namib desert is extremely arid with very low rainfall, making agriculture difficult.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The River Niger pours its water into the . . .",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2012.png',
+        "options": ["Atlantic Ocean.", "Indian Ocean.", "Mediterranean Sea.", "Red Sea."],
+        "correctAnswer": 0,
+        "explanation": "The Niger River flows through West Africa and empties into the Atlantic Ocean via the Gulf of Guinea.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The plains of the Zambezi River in Western Province of Zambia are fertile because . . .",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2012.png',
+        "options": ["a lot of people like to live there.", "plains are densely populated.", "there is high rainfall in the plains.", "washed nutrients in the soil are dumped there."],
+        "correctAnswer": 3,
+        "explanation": "River plains are fertile due to nutrient-rich alluvial deposits carried by floodwaters.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Name the feature marked P.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2012.png',
+        "options": ["Atlas Mountains", "Drakensberg Mountains", "Ethiopian Mountains", "Kilimanjaro Mountains"],
+        "correctAnswer": 3,
+        "explanation": "Based on the context and location, P likely refers to Mount Kilimanjaro, Africa's highest peak.",
+        "shuffleOptions": true
+    },
+                    
+                                                            
 // 2013
     {
         "type": "multiple-choice",
@@ -951,10 +1450,11 @@ registerWorkbook({
         "explanation": "Mfuwe is the main gateway to South Luangwa National Park, located in the Eastern Province.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
-        "text": "56 In which province marked V are pineapples mainly grown?",
+        "text": "In which province marked V are pineapples mainly grown?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2013.png',
         "options": ["Central", "Northern", "North Western", "Southern"],
         "correctAnswer": 1,
         "explanation": "Pineapples are mainly grown in the Northern Province of Zambia.",
@@ -962,7 +1462,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "57 It is difficult to grow many crops in the area marked W because it is a __________________",
+        "text": "It is difficult to grow many crops in the area marked W because it is a __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2013.png',
         "options": ["desert.", "highland.", "plateau.", "valley."],
         "correctAnswer": 0,
         "explanation": "Area W (likely the Kalahari Desert region) is arid and unsuitable for most crops.",
@@ -970,7 +1471,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "58 Feature X is the __________________ channel.",
+        "text": "Feature X is the __________________ channel.",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2013.png',
         "options": ["Veld", "Suez", "Panama", "Mozambique"],
         "correctAnswer": 3,
         "explanation": "The Mozambique Channel is the body of water between Madagascar and mainland Southeast Africa.",
@@ -978,7 +1480,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "59 What is the capital city of country Y?",
+        "text": "What is the capital city of country Y?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2013.png',
         "options": ["Addis Ababa", "Antananarivo", "Cairo", "Dakar"],
         "correctAnswer": 1,
         "explanation": "Country Y is Madagascar, and its capital is Antananarivo.",
@@ -986,13 +1489,14 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "60 What name is given to the imaginary line marked Z?",
+        "text": "What name is given to the imaginary line marked Z?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2013.png',
         "options": ["Equator", "Greenwich", "Tropic of Cancer", "Tropic of Capricorn"],
         "correctAnswer": 3,
         "explanation": "Line Z runs through the southern part of the map, indicating the Tropic of Capricorn.",
         "shuffleOptions": true
     },
-                    */
+                    
 // 2014
     {
         "type": "multiple-choice",
@@ -1438,10 +1942,11 @@ registerWorkbook({
         "explanation": "Weeds are plants considered undesirable in a particular situation, such as a garden.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
         "text": "The rail line marked Z goes into which country?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2014.png',
         "options": ["Angola", "Democratic Republic of Congo", "Mozambique", "Tanzania"],
         "correctAnswer": 1,
         "explanation": "The rail line Z connects Zambia to the Democratic Republic of Congo.",
@@ -1450,6 +1955,7 @@ registerWorkbook({
     {
         "type": "multiple-choice",
         "text": "The lake labelled X is shared between ••••",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2014.png',
         "options": ["Luapula Province and Democratic Republic of Congo.", "Luapula Province and Tanzania.", "Northern Province and Democratic Republic of Congo.", "Northern Province and Tanzania."],
         "correctAnswer": 0,
         "explanation": "Lake Mweru (X) is shared between Zambia's Luapula Province and the Democratic Republic of Congo.",
@@ -1457,7 +1963,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "58 Which traditional ceremony is celebrated in the area marked Y?",
+        "text": "Which traditional ceremony is celebrated in the area marked Y?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2014.png',
         "options": ["Kuomboka", "Mutomboko", "Nc'wala", "Shimunenga"],
         "correctAnswer": 1,
         "explanation": "The Mutomboko ceremony is celebrated by the Lunda people in Luapula Province (area Y).",
@@ -1465,7 +1972,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "59 The country labelled W that borders with Zambia is ••••",
+        "text": "The country labelled W that borders with Zambia is ••••",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2014.png',
         "options": ["Angola.", "Democratic Republic of Congo.", "Namibia.", "Zimbabwe."],
         "correctAnswer": 2,
         "explanation": "Country W is Namibia, which shares a small border with Zambia at the Caprivi Strip.",
@@ -1473,13 +1981,14 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "60 Which province marked V is Zambia’s highest timber producer?",
+        "text": "Which province marked V is Zambia’s highest timber producer?",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2014.png',
         "options": ["Luapula", "Northern", "Southern", "Western"],
         "correctAnswer": 1,
         "explanation": "The Northern Province (V) has extensive forests and is a major producer of timber.",
         "shuffleOptions": true
     },
-                    */
+                    
 // 2015
     {
         "type": "multiple-choice",
@@ -1923,10 +2432,11 @@ registerWorkbook({
         "explanation": "The Zambian Kwacha was rebased on January 1, 2013.",
         "shuffleOptions": true
     },
-                    /*
+                    
     {
         "type": "multiple-choice",
-        "text": "56 Lake marked X was built mainly for __________________",
+        "text": "Lake marked X was built mainly for __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2015.png',
         "options": ["domestic water supply.", "fishing.", "hydro electric power.", "irrigation."],
         "correctAnswer": 2,
         "explanation": "Lake Kariba (X) was created primarily for hydroelectric power generation.",
@@ -1934,7 +2444,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "57 The river marked P is __________________",
+        "text": "The river marked P is __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2015.png',
         "options": ["Kafue.", "Luangwa.", "Luapula.", "Zambezi."],
         "correctAnswer": 3,
         "explanation": "River P is the Zambezi River, a major river in southern Africa.",
@@ -1942,7 +2453,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "58 Area S is famous for growing __________________",
+        "text": "Area S is famous for growing __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2015.png',
         "options": ["cassava.", "pineapples.", "sugar.", "tea."],
         "correctAnswer": 2,
         "explanation": "Area S (Southern Province, around Mazabuka) is known for sugar cane plantations.",
@@ -1950,7 +2462,8 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "59 Highlands marked T are __________________",
+        "text": "Highlands marked T are __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2015.png',
         "options": ["Mafinga.", "Makutu.", "Mbala.", "Mulonga."],
         "correctAnswer": 0,
         "explanation": "The Mafinga Hills are highlands located on the border between Zambia and Malawi.",
@@ -1958,13 +2471,14 @@ registerWorkbook({
     },
     {
         "type": "multiple-choice",
-        "text": "60 Town Z has seen a growth in its population because of __________________",
+        "text": "Town Z has seen a growth in its population because of __________________",
+        "image": '../Tests/images/social_studies/ppMaps/ppMap2015.png',
         "options": ["farming.", "fishing.", "mining.", "quarrying."],
         "correctAnswer": 2,
         "explanation": "Town Z (likely a mining town like Kitwe or Ndola) has grown due to mining activities.",
         "shuffleOptions": true
     },
-                    */
+                    
 // 2016
     {
         "type": "multiple-choice",
@@ -4872,9 +5386,939 @@ registerWorkbook({
                     */
                     
 // 2022
+    {
+        "type": "multiple-choice",
+        "text": "The safest method of keeping money is in the ...",
+        "options": ["bank.", "box.", "pocket.", "purse."],
+        "correctAnswer": 0,
+        "explanation": "Banks provide security and protection for money.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Forgiveness is important because it brings ...",
+        "options": ["division.", "favouritism.", "happiness.", "jealousy."],
+        "correctAnswer": 2,
+        "explanation": "Forgiveness helps to resolve conflicts and brings emotional relief.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The story of David and Goliath teaches us about having ... in God.",
+        "options": ["courage", "doubt", "faith", "fear"],
+        "correctAnswer": 2,
+        "explanation": "David's victory over Goliath is often used as an example of faith in God.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "People from rural areas move to urban areas looking for...",
+        "options": ["employment.", "housing.", "relatives.", "vehicles."],
+        "correctAnswer": 0,
+        "explanation": "Urban areas often have more job opportunities.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is the sending of messages from one place to another.",
+        "options": ["Communication", "Information", "Internet", "Telephone"],
+        "correctAnswer": 0,
+        "explanation": "Communication involves transmitting messages.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Forests and animals can be protected by...",
+        "options": ["burning.", "cutting more trees.", "planting more trees.", "poaching."],
+        "correctAnswer": 2,
+        "explanation": "Reforestation helps restore habitats and protect wildlife.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Needs and wants can be met by...",
+        "options": ["being lazy.", "hard working.", "harassing others.", "stealing from others."],
+        "correctAnswer": 1,
+        "explanation": "Hard work is a positive way to achieve goals.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In a democratic nation, leaders ...",
+        "options": ["are elected by the people.", "are free to appoint themselves.", "can rule forever.", "inherit power."],
+        "correctAnswer": 0,
+        "explanation": "Democracy involves choosing leaders through elections.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following countries is a member of both COMESA and SADC?",
+        "options": ["Angola", "Libya", "Namibia", "Zambia"],
+        "correctAnswer": 3,
+        "explanation": "Zambia is a member of both regional economic communities.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Pollution is making the environment ...",
+        "options": ["beautiful.", "clean.", "dirty.", "safe."],
+        "correctAnswer": 2,
+        "explanation": "Pollution introduces harmful substances into the environment.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... transport is the most expensive,",
+        "options": ["Air", "Railway", "Road", "Water"],
+        "correctAnswer": 0,
+        "explanation": "Air transport generally has higher operational costs.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is an example of basic human rights.",
+        "options": ["Care for public property", "Clean the environment", "Freedom of movement", "Help the aged"],
+        "correctAnswer": 2,
+        "explanation": "Freedom of movement is a fundamental human right.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The amount of sunshine is measured by an instrument known as ...",
+        "options": ["a wind vane.", "an anemometer.", "a sunshine recorder.", "a thermometer."],
+        "correctAnswer": 2,
+        "explanation": "A sunshine recorder measures sunlight duration.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A cyclist rides ...",
+        "options": ["a bicycle.", "a car.", "a ship.", "an ox-cart."],
+        "correctAnswer": 0,
+        "explanation": "A cyclist rides a bicycle.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is not a basic need?",
+        "options": ["Education", "Health services", "Shelter", "Television"],
+        "correctAnswer": 3,
+        "explanation": "Basic needs include food, shelter, and healthcare; television is a want.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Study the following instrument. What is the name of the instrument?",
+        "options": ["Anemometer", "Barometer", "Hygrometer", "Thermometer"],
+        "correctAnswer": 1,
+        "explanation": "A barometer measures atmospheric pressure.",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "The best way to transport cotton from Chipata to Lusaka is by...",
+        "options": ["air.", "railway.", "road.", "water."],
+        "correctAnswer": 2,
+        "explanation": "Road transport is efficient for inland goods like cotton.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Allah is a god of the ...",
+        "options": ["Christians.", "Hindus.", "Muslims.", "Shintos."],
+        "correctAnswer": 2,
+        "explanation": "Allah is the Arabic word for God in Islam.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The price of buying a currency using another is called ... rate.",
+        "options": ["exchange", "export", "import", "trade"],
+        "correctAnswer": 0,
+        "explanation": "Exchange rate is the value of one currency for another.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is when adults teach children how to respect and obey rules.",
+        "options": ["Counselling", "Discipline", "Punishment", "Scolding"],
+        "correctAnswer": 1,
+        "explanation": "Discipline involves teaching proper behavior.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Avoiding corruption on the road can help ...",
+        "options": ["by pass check points.", "prevent road accidents.", "unlicensed drivers.", "vandalise road signs."],
+        "correctAnswer": 1,
+        "explanation": "Reducing corruption improves road safety.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The ... is an imaginary line that divides the earth into two.",
+        "options": ["Equator", "Prime Meridian", "Tropic of Cancer", "Tropic of Capricorn"],
+        "correctAnswer": 0,
+        "explanation": "The Equator divides the Earth into Northern and Southern Hemispheres.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... are people killed for their belief.",
+        "options": ["Disciples", "Heroes", "Martyrs", "Volunteers"],
+        "correctAnswer": 2,
+        "explanation": "Martyrs are those who die for their faith or cause.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Corporations are ... scale businesses.",
+        "options": ["large", "medium", "multiple", "small"],
+        "correctAnswer": 0,
+        "explanation": "Corporations are typically large-scale enterprises.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... teaches children how to cooperate with other people.",
+        "options": ["Discipline", "Dishonest", "Praise", "Violence"],
+        "correctAnswer": 0,
+        "explanation": "Discipline includes teaching social skills like cooperation.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is the buying and selling of goods and services.",
+        "options": ["Cultivating", "Manufacturing", "Trade", "Transportation"],
+        "correctAnswer": 2,
+        "explanation": "Trade involves commercial exchange.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is a solution to rural-urban migration?",
+        "options": ["Developing industries in rural areas.", "Encouraging people to leave villages.", "Preventing people from engaging in farming.", "Preventing developmental projects in villages."],
+        "correctAnswer": 0,
+        "explanation": "Creating opportunities in rural areas reduces migration pressure.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The money kept in a bank for further use is known as ...",
+        "options": ["interest.", "investment.", "profit.", "saving."],
+        "correctAnswer": 3,
+        "explanation": "Saving refers to money set aside for future use.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is about guiding and giving direction to others towards a desired goal.",
+        "options": ["Corruption", "Leadership", "Nepotism", "Security"],
+        "correctAnswer": 1,
+        "explanation": "Leadership involves guiding others.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is the best way of managing waste.",
+        "options": ["Burning", "Creating more dirt", "Recycling", "Using dust bins"],
+        "correctAnswer": 2,
+        "explanation": "Recycling reduces waste and conserves resources.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Movement of people or animals from one area to another is called ...",
+        "options": ["cross breeding.", "emigration.", "immigration.", "migration."],
+        "correctAnswer": 3,
+        "explanation": "Migration refers to movement from one region to another.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is how hot or cold something is.",
+        "options": ["Atmosphere", "Climate", "Temperature", "Weather"],
+        "correctAnswer": 2,
+        "explanation": "Temperature measures thermal energy.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is not a quality of a good leader?",
+        "options": ["Fairness", "Greedy", "Honesty", "Integrity"],
+        "correctAnswer": 1,
+        "explanation": "Greed is a negative trait.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "When income is lower than expenditure, an entrepreneur makes ...",
+        "options": ["a loss.", "a profit.", "capital.", "savings."],
+        "correctAnswer": 0,
+        "explanation": "Loss occurs when expenses exceed income.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... punishment involves beating or slapping of a child.",
+        "options": ["Economical", "Emotional", "Physical", "Social"],
+        "correctAnswer": 2,
+        "explanation": "Physical punishment uses bodily force.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The estimate of income and expenditure of a country is called ...",
+        "options": ["budget.", "excise duty.", "tariff.", "value added tax."],
+        "correctAnswer": 0,
+        "explanation": "A budget is a financial plan for revenue and spending.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "When spending money... must be a priority.",
+        "options": ["gambling", "needs", "presents", "wants"],
+        "correctAnswer": 1,
+        "explanation": "Needs are essential for survival and should come first.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The work of the Legislature is to ...",
+        "options": ["carry out laws.", "collect taxes.", "enforce laws.", "make laws."],
+        "correctAnswer": 3,
+        "explanation": "The legislature is responsible for lawmaking.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which one of the following is a cash crop?",
+        "options": ["Millet", "Groundnuts", "Coffee", "Cassava"],
+        "correctAnswer": 2,
+        "explanation": "Coffee is grown for sale rather than subsistence.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What was the role of men during the Stone Age?",
+        "options": ["Farming", "Hunting", "Mining", "Trading"],
+        "correctAnswer": 1,
+        "explanation": "Men often hunted while women gathered in Stone Age societies.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Tanzania Zambia Mafuta (TAZAMA) pipeline is important for the transportation of ...",
+        "options": ["copper.", "crops.", "oil.", "passengers."],
+        "correctAnswer": 2,
+        "explanation": "TAZAMA pipeline transports petroleum products.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A bicycle is cheaper to use than a motor vehicle because it ...",
+        "options": ["covers long distances.", "is difficult to maintain.", "uses less fuel.", "uses no fuel."],
+        "correctAnswer": 3,
+        "explanation": "Bicycles are human-powered and require no fuel.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Clouds that bring rains are called ...",
+        "options": ["cirrus.", "cumulus.", "nimbus.", "stratus."],
+        "correctAnswer": 2,
+        "explanation": "Nimbus clouds are rain-bearing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The story of the martyr is told to the young people as an example of ...",
+        "options": ["bravery.", "discouragement.", "ignorance.", "justice."],
+        "correctAnswer": 0,
+        "explanation": "Martyrs are often celebrated for their courage.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Population increase in town is caused by ...",
+        "options": ["family planning.", "poor road networks.", "rural-urban migration.", "urban-rural migration."],
+        "correctAnswer": 2,
+        "explanation": "Movement from rural to urban areas increases urban population.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Name the largest ocean in the world.",
+        "options": ["Arctic", "Atlantic", "Indian", "Pacific"],
+        "correctAnswer": 3,
+        "explanation": "The Pacific Ocean is the largest by area.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which one of the following is an element of weather?",
+        "options": ["Humidity", "Hygrometer", "Rain gauge", "Thermometer"],
+        "correctAnswer": 0,
+        "explanation": "Humidity is a weather element; the others are instruments.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is when people disagree and fight because they have different opinions.",
+        "options": ["Conflict", "Killing", "Victory", "Violence"],
+        "correctAnswer": 0,
+        "explanation": "Conflict arises from disagreements.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Lines drawn on a map joining places with the same cloud cover are known as...",
+        "options": ["Isobars.", "Isonephs.", "Latitudes.", "Longitudes."],
+        "correctAnswer": 1,
+        "explanation": "Isonephs connect points of equal cloud cover.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Ukusefya pan’gwena is a traditional ceremony performed by the people of ... Province.",
+        "options": ["Central", "Luapula", "Muchinga", "Northern"],
+        "correctAnswer": 3,
+        "explanation": "Ukusefya Pa Ng’wena is celebrated by the Bemba people in Northern Province.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following organisations helps refugees?",
+        "options": ["World Health Organisation (WHO)", "United Nations Children’s Emergency Fund (UNICEF)", "United Nations High Commissioner for Refugees (UNHCR)", "United Nations Development Programme (UNDP)"],
+        "correctAnswer": 2,
+        "explanation": "UNHCR is dedicated to protecting and supporting refugees.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Waste that breaks down in the environment in a natural way is called ...",
+        "options": ["bio-degradable.", "degradable.", "non-biodegradable.", "toxic."],
+        "correctAnswer": 0,
+        "explanation": "Biodegradable waste decomposes naturally.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The function of the local government is to ...",
+        "options": ["build churches.", "provide free education.", "provide medical services.", "provide water supply."],
+        "correctAnswer": 3,
+        "explanation": "Local governments often manage basic services like water supply.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is both a continent and a country?",
+        "options": ["Africa", "Asia", "Australia", "Europe"],
+        "correctAnswer": 2,
+        "explanation": "Australia is a country and also a continent.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The supreme law of the land is called ...",
+        "options": ["Constitution.", "Legislature.", "National Assembly.", "Parliament."],
+        "correctAnswer": 0,
+        "explanation": "The Constitution is the highest legal authority in a country.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The cash crop grown in the area marked M is ...",
+        "options": ["bananas.", "cotton.", "rice.", "tea."],
+        "correctAnswer": 1,
+        "explanation": "Cotton is a common cash crop in certain Zambian regions.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The economic activity carried out at the feature marked O is ...",
+        "options": ["farming.", "fishing.", "manufacturing.", "mining."],
+        "correctAnswer": 3,
+        "explanation": "Mining is a key economic activity in mineral-rich areas.",
+        "shuffleOptions": true
+    },
+    */                    
                     
-                    
-                    
+// 2023
+
+       
+                                 
+// 2024
+    {
+        "type": "multiple-choice",
+        "text": "Money can best be kept safe in a ...",
+        "options": ["bag.", "bank.", "box.", "drawer."],
+        "correctAnswer": 1,
+        "explanation": "Banks provide security and protection for money.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The highest coin used in Zambia is ...",
+        "options": ["two kwacha.", "five kwacha.", "fifty ngwee.", "one kwacha."],
+        "correctAnswer": 1,
+        "explanation": "The five kwacha coin is the highest denomination coin in Zambia.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "One of the ways to slow the rate of population growth is ...",
+        "options": ["family planning.", "early marriages.", "encouraging prostitution.", "improving fertility in men."],
+        "correctAnswer": 0,
+        "explanation": "Family planning helps control birth rates.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Buying of ... is a priority for spending money in the family.",
+        "options": ["food", "presents", "toys", "sweets"],
+        "correctAnswer": 0,
+        "explanation": "Food is a basic need and should be a spending priority.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is an international currency?",
+        "options": ["Dollar", "Naira", "Pula", "Rand"],
+        "correctAnswer": 0,
+        "explanation": "The US Dollar is widely accepted internationally.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A ... is a group of people related to each other either by blood or adoption.",
+        "options": ["community", "family", "friendship", "relationship"],
+        "correctAnswer": 1,
+        "explanation": "A family is defined by blood or adoptive ties.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Forcing a child to carry heavy things which leads to stunted growth is known as ...",
+        "options": ["child labour.", "defilement.", "rape.", "sexual harassment."],
+        "correctAnswer": 0,
+        "explanation": "Child labour involves work that harms a child's development.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Why was the Bible written in different languages?",
+        "options": ["Because chiefs were not happy.", "For easy understanding.", "It was only for adults.", "To hide the truth."],
+        "correctAnswer": 1,
+        "explanation": "Translations make the Bible accessible to different language speakers.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Rivers are ... features.",
+        "options": ["artificial", "cultural", "historical", "physical"],
+        "correctAnswer": 3,
+        "explanation": "Rivers are natural physical features.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Good roads promote ...",
+        "options": ["accidents.", "development.", "insecurity.", "poverty."],
+        "correctAnswer": 1,
+        "explanation": "Good infrastructure supports economic and social development.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Being female or male is called ...",
+        "options": ["equality.", "gender.", "inequality.", "violence."],
+        "correctAnswer": 1,
+        "explanation": "Gender refers to social and cultural roles associated with sex.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The importance of forgiveness is ...",
+        "options": ["anger.", "division.", "hatred", "peace."],
+        "correctAnswer": 3,
+        "explanation": "Forgiveness helps restore peace and resolve conflicts.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... helps one to be financially stable.",
+        "options": ["Impulse buying", "Unbudgeting", "Setting goals", "Saving money"],
+        "correctAnswer": 3,
+        "explanation": "Saving money builds financial security.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "How did people move from one place to another in the past?",
+        "options": ["By aeroplane", "By bicycle", "By train", "On foot"],
+        "correctAnswer": 3,
+        "explanation": "Walking was a primary mode of transport in the past.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "During industrial activities, the nearby river was contaminated with some chemicals. What type of pollution was this?",
+        "options": ["Air", "Land", "Noise", "Water"],
+        "correctAnswer": 3,
+        "explanation": "Chemical discharge into a river is water pollution.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is a small scale business venture?",
+        "options": ["Agri-chemical industry", "Hair salon", "Timber industry", "Shoe factory"],
+        "correctAnswer": 1,
+        "explanation": "A hair salon is typically a small-scale enterprise.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A nation does not develop if there is …",
+        "options": ["co-operation.", "corruption.", "freedom.", "happiness."],
+        "correctAnswer": 1,
+        "explanation": "Corruption hinders economic and social development.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Adding harmful substances to the environment will …",
+        "options": ["beautify it.", "contaminate it.", "enrich the soil.", "make it clean."],
+        "correctAnswer": 1,
+        "explanation": "Harmful substances cause contamination.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "… in farming is one of the causes of food shortage.",
+        "options": ["Engagement", "Ignorance", "Planning", "Stability"],
+        "correctAnswer": 1,
+        "explanation": "Ignorance of modern farming methods can reduce yields.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "… is when a child is being taught how to respect and obey rules.",
+        "options": ["Character", "Discipline", "Discrimination", "Punishment"],
+        "correctAnswer": 1,
+        "explanation": "Discipline involves teaching rules and respect.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The buying of the currency of another country using the local currency is called …",
+        "options": ["bureau de change.", "foreign exchange.", "fluctuation.", "value."],
+        "correctAnswer": 1,
+        "explanation": "Foreign exchange involves converting one currency to another.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... protects a cyclist from mud and dirt.",
+        "options": ["Chain guard", "Handle bars", "Mud guard", "Tyres"],
+        "correctAnswer": 2,
+        "explanation": "A mudguard blocks mud and water from splashing the rider.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... children are brought up by parents who are not biologically theirs.",
+        "options": ["Adopted", "Beautiful", "Obedient", "Tolerant"],
+        "correctAnswer": 0,
+        "explanation": "Adopted children are raised by non-biological parents.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The Legislature ...",
+        "options": ["is in-charge of the Judiciary.", "is headed by the Chief Justice.", "enforces rules and regulations.", "makes and repeals laws."],
+        "correctAnswer": 3,
+        "explanation": "The legislature is responsible for creating and abolishing laws.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mining is the ...",
+        "options": ["disposing of waste.", "digging up wells.", "extraction of minerals.", "transporting minerals."],
+        "correctAnswer": 2,
+        "explanation": "Mining involves extracting minerals from the earth.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Always avoid crossing the road at ...",
+        "options": ["a corner.", "a foot bridge.", "a foot path.", "traffic lights."],
+        "correctAnswer": 0,
+        "explanation": "Corners are dangerous due to limited visibility for drivers.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Human waste from toilets is called ...",
+        "options": ["compost.", "garbage.", "litter.", "sewerage"],
+        "correctAnswer": 3,
+        "explanation": "Sewerage is waste matter carried away in sewers.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... are lines drawn on the map joining places of same atmospheric pressure.",
+        "options": ["Isobars", "Isohels", "Isohyets", "Isonephs"],
+        "correctAnswer": 0,
+        "explanation": "Isobars connect points of equal atmospheric pressure.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The process of changing waste materials into useful ones is called ...",
+        "options": ["bio-degrading.", "manufacturing.", "pollution.", "recycling."],
+        "correctAnswer": 3,
+        "explanation": "Recycling converts waste into new products.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the major cause of poverty in Zambia?",
+        "options": ["Immigration", "Industrialisation", "Under population", "Unemployment"],
+        "correctAnswer": 3,
+        "explanation": "Lack of employment opportunities is a key cause of poverty.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "It is important for passengers to wear ... when travelling in vehicles.",
+        "options": ["gum boots", "helmets", "protective gloves", "seat belts"],
+        "correctAnswer": 3,
+        "explanation": "Seat belts reduce injury risk during accidents.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is the smallest continent in the world.",
+        "options": ["Asia", "Africa", "Australia", "Europe"],
+        "correctAnswer": 2,
+        "explanation": "Australia is the smallest continent by land area.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What type of family does the diagram below represent? Father Mother Children",
+        "options": ["Extended", "Nuclear", "Orphanage", "Single"],
+        "correctAnswer": 1,
+        "explanation": "A nuclear family consists of parents and their children.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "An oasis is found ...",
+        "options": ["in the dam.", "in the desert.", "on the mountain.", "on the plateau."],
+        "correctAnswer": 1,
+        "explanation": "An oasis is a fertile spot in a desert where water is found.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which one of the following factors does not ensure road safety?",
+        "options": ["Availability of bus stations", "Corruption", "Good state of roads", "Visibility of road signs"],
+        "correctAnswer": 1,
+        "explanation": "Corruption undermines law enforcement and safety measures.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Deafness can be caused by ...",
+        "options": ["excessive noise in the environment.", "excessive smoke in the air.", "waste from industries.", "rubbish dumped on land."],
+        "correctAnswer": 0,
+        "explanation": "Prolonged exposure to loud noise can damage hearing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Traditional ceremonies are important because they ...",
+        "options": ["create tribal friendships.", "help people fight evil spirits.", "promote tribalism.", "remind people of the past."],
+        "correctAnswer": 3,
+        "explanation": "Ceremonies preserve cultural heritage and history.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the following is not a cause of food shortage?",
+        "options": ["Deforestation", "Industrialisation", "Overgrazing", "Overpopulation"],
+        "correctAnswer": 1,
+        "explanation": "Industrialisation itself does not directly cause food shortages; it can increase production.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is the major cause of division among people.",
+        "options": ["Greedy", "Love", "Peace", "Unity"],
+        "correctAnswer": 0,
+        "explanation": "Greed can lead to conflict and division.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The exchange rate of the Zambian kwacha to the United States dollar is K18 = $1. How much is K60 in US dollars?",
+        "options": ["$2.7", "$3.3", "$4", "$5"],
+        "correctAnswer": 1,
+        "explanation": "K60 ÷ K18/$ = $3.33 (approximately $3.3).",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A place where a river starts from is called ...",
+        "options": ["delta.", "mouth.", "source.", "tributary."],
+        "correctAnswer": 2,
+        "explanation": "The source is the starting point of a river.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Elections held to replace a councilor are called ...",
+        "options": ["by-elections.", "general elections.", "local authority elections.", "local government elections."],
+        "correctAnswer": 0,
+        "explanation": "By-elections fill vacancies that occur between general elections.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Corporal punishment is also known as ... punishment.",
+        "options": ["economic", "emotional", "physical", "social"],
+        "correctAnswer": 2,
+        "explanation": "Corporal punishment involves physical force.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The crop which grows well in the areas of the Zambezi flood plain is ...",
+        "options": ["cotton.", "millet.", "rice.", "wheat."],
+        "correctAnswer": 2,
+        "explanation": "Rice thrives in flooded or waterlogged conditions.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Corruption can be eliminated when citizens are ...",
+        "options": ["patriotic.", "tribalistic.", "selfish.", "violent."],
+        "correctAnswer": 0,
+        "explanation": "Patriotism encourages honesty and integrity for the nation's good.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Apart from manure, cow dung can be used to produce ...",
+        "options": ["bio gas.", "feed.", "leather.", "Pesticides."],
+        "correctAnswer": 0,
+        "explanation": "Cow dung can be used in biogas production for energy.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Entrepreneurship is ... business venture.",
+        "options": ["government", "multinational", "national", "small"],
+        "correctAnswer": 3,
+        "explanation": "Entrepreneurship often starts as a small-scale venture.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Who is the head of the Executive?",
+        "options": ["Attorney General", "Chief Justice", "The President", "The Speaker"],
+        "correctAnswer": 2,
+        "explanation": "The President leads the executive branch of government.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "One of the aims of the Common Market for Eastern and Southern Africa (COMESA) is to ...",
+        "options": ["give information to investors.", "improve infrastructure.", "move goods and people efficiently.", "use people and resources efficiently."],
+        "correctAnswer": 3,
+        "explanation": "COMESA aims to promote regional integration and efficient resource use.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "... is responsible for building and maintaining roads.",
+        "options": ["Road Development Agency", "Road Traffic and Safety Agency", "Ministry of Local Government", "National Road Development Fund"],
+        "correctAnswer": 0,
+        "explanation": "The Road Development Agency handles road infrastructure.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Name one environmental factor that influences agricultural systems.",
+        "options": ["Climate", "Relief", "Road", "Soil"],
+        "correctAnswer": 0,
+        "explanation": "Climate affects crop types and growing seasons.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The Chikwela Makumbi Ceremony is celebrated by the ... tribe.",
+        "options": ["Kaonde", "Lozi", "Luchazi", "Soil"],
+        "correctAnswer": 2,
+        "explanation": "The Chikwela Makumbi ceremony is associated with the Luchazi people.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Wards are managed by ...",
+        "options": ["Councillors.", "Council Secretaries.", "Members of Parliament.", "Town Clerks"],
+        "correctAnswer": 0,
+        "explanation": "Councillors represent and manage wards in local government.",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Kizito was killed by ...",
+        "options": ["Bernard Mizeki.", "Charles Lwanga.", "Kabaka Mwanga.", "Joseph Mkasa."],
+        "correctAnswer": 2,
+        "explanation": "Saint Kizito was a Ugandan martyr killed on orders of Kabaka Mwanga.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The burning of waste materials is known as ...",
+        "options": ["deforestation.", "disposing.", "incineration.", "recycling."],
+        "correctAnswer": 2,
+        "explanation": "Incineration is the controlled burning of waste.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The main activity done around Itezhi-tezhi dam is ...",
+        "options": ["irrigation.", "mining.", "power generation.", "tourism."],
+        "correctAnswer": 2,
+        "explanation": "Itezhi-Tezhi Dam supports hydroelectric power generation.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The lake marked P is ...",
+        "options": ["Bangweulu.", "Mweru.", "Mweru-wantipa.", "Tanganyika."],
+        "correctAnswer": 3,
+        "explanation": "Lake Tanganyika is a major lake in the region.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The waterfalls at M are the ...",
+        "options": ["Chishimba.", "Kalambo.", "Mambilima.", "Victoria."],
+        "correctAnswer": 1,
+        "explanation": "Kalambo Falls is a significant waterfall in Zambia.",
+        "shuffleOptions": true
+    },
+*/                                                            
+                                                                                                                                                                                    
                             
                     ]
                 },
