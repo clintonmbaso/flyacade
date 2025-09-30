@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Quest - Parts of Speech Game</title>
+    <link href="parts_of_speech.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1 class="game-title">Grammar Quest</h1>
+            <p class="game-subtitle">Master Parts of Speech!</p>
+            <div class="timer-container">
+                <span>⏱️</span>
+                <span id="timer" class="timer">01:40</span>
+            </div>
+        </div>
+        
+        <div class="game-body">
+            <!-- Loading Screen -->
+            <div id="loading-screen" class="loading">
+                <div class="loading-spinner"></div>
+                <p>Loading questions...</p>
+            </div>
+            
+            <!-- Welcome Screen -->
+            <div id="welcome-screen" class="screen active">
+                <div class="welcome-screen">
+                    <div class="welcome-icon">📚</div>
+                    <h2>Welcome to Grammar Quest!</h2>
+                    <p class="welcome-text">
+                        Embark on an exciting journey to master the parts of speech! 
+                        Identify nouns, verbs, adjectives and more in fun sentences. 
+                    </p>
+                    
+                    <div class="game-settings">
+                        <h3>Game Settings</h3>
+                        <div class="setting-group">
+                            <label for="question-count-select" class="setting-label">Number of Questions:</label>
+                            <select id="question-count-select" class="setting-control">
+                                <option value="5">5 Questions (0:50 minutes)</option>
+                                <option value="10" selected>10 Questions (1:40 minutes)</option>
+                                <option value="15">15 Questions (2:30 minutes)</option>
+                                <option value="20">20 Questions (3:20 minutes)</option>
+                                <option value="25">25 Questions (4:10 minutes)</option>
+                                <option value="30">30 Questions (5:00 minutes)</option>
+                                <option value="35">35 Questions (5:50 minutes)</option>
+                                <option value="40">40 Questions (6:40 minutes)</option>
+                                <option value="45">45 Questions (7:30 minutes)</option>
+                                <option value="50">50 Questions (8:20 minutes)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="instructions">
+                        <h3>How to Play:</h3>
+                        <ul>
+                            <li>Read the sentence carefully</li>
+                            <li>Identify the highlighted word's part of speech</li>
+                            <li>Click on the correct part of speech from the options</li>
+                            <li>You have 15 seconds per question</li>
+                            <li>Earn points for correct answers</li>
+                            <li>Complete all questions to see your final score!</li>
+                        </ul>
+                    </div>
+                    
+                    <button id="start-btn" class="btn btn-accent">Start Game</button>
+                </div>
+            </div>
+            
+            <!-- Game Screen -->
+            <div id="game-screen" class="screen">
+                <div class="game-screen">
+                    <h2>Identify the Part of Speech</h2>
+                    
+                    <div class="progress-container">
+                        <span id="question-count">Question 1/10</span>
+                        <div class="progress-bar">
+                            <div id="progress" class="progress"></div>
+                        </div>
+                        <span id="score">Score: 0</span>
+                    </div>
+                    
+                    <div id="sentence-container" class="sentence-container">
+                        
+                    </div>
+                    
+                    <div class="word-options">
+                        <div class="word-option noun" data-type="noun">Noun</div>
+                        <div class="word-option verb" data-type="verb">Verb</div>
+                        <div class="word-option adjective" data-type="adjective">Adjective</div>
+                        <div class="word-option adverb" data-type="adverb">Adverb</div>
+                        <div class="word-option pronoun" data-type="pronoun">Pronoun</div>
+                        <div class="word-option preposition" data-type="preposition">Preposition</div>
+                        <div class="word-option conjunction" data-type="conjunction">Conjunction</div>
+                        <div class="word-option interjection" data-type="interjection">Interjection</div>
+                        <div class="word-option article" data-type="article">Article</div>
+                    </div>
+                    
+                    <div id="feedback" class="feedback">
+                        Feedback will appear here
+                    </div>
+                    
+                    <button id="next-btn" class="btn">Next Question</button>
+                </div>
+            </div>
+            
+            <!-- Results Screen -->
+            <div id="results-screen" class="screen">
+                <div class="results-screen">
+                    <div class="results-icon">🏆</div>
+                    <h2>Game Complete!</h2>
+                    <div class="score">Your Score: <span id="final-score">0</span>/<span id="total-questions">10</span></div>
+                    
+                    <div class="print-only">
+                        <h3>Grammar Quest - Results Report</h3>
+                        <p>Student: ___________________</p>
+                        <p>Date: ___________________</p>
+                    </div>
+                    
+                    <div class="results-details">
+                        <h3>Your Results</h3>
+                        <div id="results-list">
+                            <!-- Results will be populated here -->
+                        </div>
+                    </div>
+                    
+                    <button id="play-again-btn" class="btn btn-accent">Play Again</button>
+                    <button id="print-btn" class="btn btn-print">Print Results</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <script src="nouns.js"></script>
+    <script src="verbs.js"></script>
+    <script src="articles.js"></script>
+    <script src="adjectives.js"></script>
+    <script src="pronouns.js"></script>
+    <script src="conjunctions.js"></script>
+    <script src="interjections.js"></script>
+    <script src="adverbs.js"></script>
+    <script src="prepositions.js"></script>
+    -->
+    <script src="questions.js"></script>
+    <script src="parts_of_speech.js"></script>
+</body>
+</html>
