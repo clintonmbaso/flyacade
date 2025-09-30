@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Learning Aid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #000428, #004e92);
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .solar-system-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+            height: 500px;
+            background: rgba(0, 10, 30, 0.7);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(0, 100, 255, 0.3);
+        }
+
+        .info-panel {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(10, 20, 40, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 100, 255, 0.2);
+            overflow-y: auto;
+            max-height: 500px;
+        }
+
+        .planet-info {
+            display: none;
+        }
+
+        .planet-info.active {
+            display: block;
+        }
+
+        .planet-name {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #4fc3f7;
+        }
+
+        .planet-facts {
+            margin-bottom: 20px;
+        }
+
+        .planet-fact {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .fact-icon {
+            margin-right: 10px;
+            color: #4fc3f7;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .tab.active {
+            opacity: 1;
+            border-bottom: 2px solid #4fc3f7;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .moon-phases {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .moon-phase {
+            text-align: center;
+            width: 80px;
+            margin-bottom: 15px;
+        }
+
+        .moon-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            background: linear-gradient(45deg, #e0e0e0, #a0a0a0);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .moon-shadow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #333;
+        }
+
+        .eclipse-section {
+            margin-top: 20px;
+        }
+
+        .eclipse-demo {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            position: relative;
+            height: 200px;
+        }
+
+        .solar-eclipse, .lunar-eclipse {
+            position: relative;
+            height: 200px;
+            margin-bottom: 40px;
+        }
+
+        .eclipse-title {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            color: #4fc3f7;
+        }
+
+        .sun, .moon-eclipse, .earth-eclipse {
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .sun {
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle, #ffeb3b, #ff9800);
+            top: 60px;
+            left: 50px;
+            box-shadow: 0 0 40px #ff9800;
+            z-index: 1;
+        }
+
+        .moon-eclipse {
+            width: 30px;
+            height: 30px;
+            background: #888;
+            top: 75px;
+            left: 120px;
+            z-index: 2;
+            animation: solar-eclipse 15s infinite linear;
+        }
+
+        .earth-eclipse {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #6b93d6, #2e5aa7);
+            top: 70px;
+            left: 250px;
+            z-index: 1;
+        }
+
+        .shadow-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .umbra, .penumbra {
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .umbra {
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.7);
+            top: 75px;
+            left: 250px;
+            z-index: 0;
+        }
+
+        .penumbra {
+            width: 100px;
+            height: 100px;
+            background: rgba(0, 0, 0, 0.3);
+            top: 55px;
+            left: 230px;
+            z-index: 0;
+        }
+
+        .lunar-eclipse .moon-eclipse {
+            width: 40px;
+            height: 40px;
+            background: #888;
+            top: 80px;
+            left: 200px;
+            z-index: 2;
+            animation: lunar-eclipse 20s infinite linear;
+        }
+
+        .lunar-eclipse .earth-eclipse {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #6b93d6, #2e5aa7);
+            top: 75px;
+            left: 120px;
+            z-index: 1;
+        }
+
+        .lunar-eclipse .umbra {
+            width: 50px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.7);
+            top: 75px;
+            left: 200px;
+            z-index: 0;
+        }
+
+        .lunar-eclipse .penumbra {
+            width: 120px;
+            height: 120px;
+            background: rgba(0, 0, 0, 0.3);
+            top: 55px;
+            left: 180px;
+            z-index: 0;
+        }
+
+        @keyframes solar-eclipse {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(100px); }
+            50% { transform: translateX(200px); }
+            75% { transform: translateX(100px); }
+            100% { transform: translateX(0); }
+        }
+
+        @keyframes lunar-eclipse {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-50px); }
+            50% { transform: translateX(-100px); }
+            75% { transform: translateX(-50px); }
+            100% { transform: translateX(0); }
+        }
+
+        .shadow-explanation {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .shadow-type {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .shadow-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .umbra-color {
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .penumbra-color {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .instructions {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            opacity: 0.7;
+        }
+
+        /* Solar System Animation */
+        .solar-system {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .sun-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #ffeb3b, #ff9800);
+            box-shadow: 0 0 50px #ff9800;
+            z-index: 1;
+        }
+
+        .orbit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+        }
+
+        .planet {
+            position: absolute;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.3s;
+            z-index: 2;
+        }
+
+        .planet:hover {
+            transform: scale(1.2);
+        }
+
+        .moon-orbit {
+            position: absolute;
+            border: 1px dashed rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+
+        .moon {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #e0e0e0, #a0a0a0);
+        }
+
+        .mercury { background: linear-gradient(45deg, #a9a9a9, #696969); }
+        .venus { background: linear-gradient(45deg, #e6b87e, #b5651d); }
+        .earth { background: linear-gradient(45deg, #6b93d6, #2e5aa7); }
+        .mars { background: linear-gradient(45deg, #ff7b54, #c1440e); }
+        .jupiter { background: linear-gradient(45deg, #e0b589, #b07f4a); }
+        .saturn { background: linear-gradient(45deg, #e3d9b1, #b8a46d); }
+        .uranus { background: linear-gradient(45deg, #b5e3e3, #7fbdbd); }
+        .neptune { background: linear-gradient(45deg, #5b6ee1, #3a4bb5); }
+
+        .saturn-rings {
+            position: absolute;
+            width: 120%;
+            height: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            background: linear-gradient(to right, transparent, rgba(227, 217, 177, 0.7), transparent);
+            z-index: 1;
+        }
+
+        .selected {
+            box-shadow: 0 0 20px white;
+        }
+
+        .intro-message {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            
+            .solar-system-container, .info-panel {
+                width: 100%;
+            }
+            
+            .solar-system-container {
+                height: 400px;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            button {
+                width: 80%;
+                margin-bottom: 10px;
+            }
+            
+            .tabs {
+                justify-content: center;
+            }
+            
+            .moon-phases {
+                justify-content: center;
+            }
+            
+            .moon-phase {
+                margin: 0 10px 15px;
+            }
+            
+            .eclipse-demo {
+                height: 150px;
+            }
+            
+            .solar-eclipse, .lunar-eclipse {
+                height: 150px;
+            }
+            
+            .sun {
+                width: 60px;
+                height: 60px;
+                top: 45px;
+                left: 30px;
+            }
+            
+            .moon-eclipse {
+                width: 25px;
+                height: 25px;
+                top: 52px;
+                left: 90px;
+            }
+            
+            .earth-eclipse {
+                width: 40px;
+                height: 40px;
+                top: 50px;
+                left: 180px;
+            }
+            
+            .umbra {
+                width: 30px;
+                height: 30px;
+                top: 52px;
+                left: 180px;
+            }
+            
+            .penumbra {
+                width: 80px;
+                height: 80px;
+                top: 40px;
+                left: 165px;
+            }
+            
+            .lunar-eclipse .moon-eclipse {
+                width: 30px;
+                height: 30px;
+                top: 60px;
+                left: 150px;
+            }
+            
+            .lunar-eclipse .earth-eclipse {
+                width: 40px;
+                height: 40px;
+                top: 55px;
+                left: 90px;
+            }
+            
+            .lunar-eclipse .umbra {
+                width: 40px;
+                height: 40px;
+                top: 55px;
+                left: 150px;
+            }
+            
+            .lunar-eclipse .penumbra {
+                width: 90px;
+                height: 90px;
+                top: 40px;
+                left: 140px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .solar-system-container {
+                height: 350px;
+            }
+            
+            .planet-name {
+                font-size: 1.5rem;
+            }
+            
+            .eclipse-demo {
+                height: 120px;
+            }
+            
+            .solar-eclipse, .lunar-eclipse {
+                height: 120px;
+            }
+            
+            .sun {
+                width: 50px;
+                height: 50px;
+                top: 35px;
+                left: 20px;
+            }
+            
+            .moon-eclipse {
+                width: 20px;
+                height: 20px;
+                top: 40px;
+                left: 70px;
+            }
+            
+            .earth-eclipse {
+                width: 30px;
+                height: 30px;
+                top: 37px;
+                left: 140px;
+            }
+            
+            .umbra {
+                width: 25px;
+                height: 25px;
+                top: 40px;
+                left: 140px;
+            }
+            
+            .penumbra {
+                width: 60px;
+                height: 60px;
+                top: 30px;
+                left: 130px;
+            }
+            
+            .lunar-eclipse .moon-eclipse {
+                width: 25px;
+                height: 25px;
+                top: 47px;
+                left: 110px;
+            }
+            
+            .lunar-eclipse .earth-eclipse {
+                width: 30px;
+                height: 30px;
+                top: 42px;
+                left: 70px;
+            }
+            
+            .lunar-eclipse .umbra {
+                width: 30px;
+                height: 30px;
+                top: 42px;
+                left: 110px;
+            }
+            
+            .lunar-eclipse .penumbra {
+                width: 70px;
+                height: 70px;
+                top: 30px;
+                left: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Solar System Explorer</h1>
+            <p class="subtitle">Discover our cosmic neighborhood! Click on planets to learn more.</p>
+        </header>
+        
+        <div class="content">
+            <div class="solar-system-container">
+                <div class="solar-system" id="solarSystem">
+                    <!-- Solar system will be generated with JavaScript -->
+                </div>
+            </div>
+            
+            <div class="info-panel">
+                <div class="tabs">
+                    <div class="tab active" data-tab="planet">Planet Info</div>
+                    <div class="tab" data-tab="moon">Moon Phases</div>
+                    <div class="tab" data-tab="eclipse">Eclipses</div>
+                </div>
+                
+                <div class="tab-content active" id="planet-tab">
+                    <div id="default-info" class="planet-info active">
+                        <h2 class="planet-name">Welcome to the Solar System!</h2>
+                        <div class="planet-facts">
+                            <p>Our solar system consists of the Sun and everything bound to it by gravity - planets, moons, asteroids, comets, and meteoroids.</p>
+                            <p>Click on any planet to learn more about it!</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Planet information will be populated by JavaScript -->
+                </div>
+                
+                <div class="tab-content" id="moon-tab">
+                    <h2>Moon Phases</h2>
+                    <p>The Moon doesn't produce its own light. We see the Moon because it reflects light from the Sun. As the Moon orbits Earth, we see different portions of its illuminated half, creating the phases of the Moon.</p>
+                    
+                    <div class="moon-phases">
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);"></div>
+                            </div>
+                            <p>New Moon</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(0 0, 25% 0, 25% 100%, 0 100%);"></div>
+                            </div>
+                            <p>Waxing Crescent</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);"></div>
+                            </div>
+                            <p>First Quarter</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(100% 0, 75% 0, 75% 100%, 100% 100%);"></div>
+                            </div>
+                            <p>Waxing Gibbous</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);"></div>
+                            </div>
+                            <p>Full Moon</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(100% 0, 75% 0, 75% 100%, 100% 100%);"></div>
+                            </div>
+                            <p>Waning Gibbous</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(100% 0, 50% 0, 50% 100%, 100% 100%);"></div>
+                            </div>
+                            <p>Last Quarter</p>
+                        </div>
+                        <div class="moon-phase">
+                            <div class="moon-icon">
+                                <div class="moon-shadow" style="clip-path: polygon(100% 0, 87.5% 0, 87.5% 100%, 100% 100%);"></div>
+                            </div>
+                            <p>Waning Crescent</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="eclipse-tab">
+                    <h2>Eclipses</h2>
+                    <p>Eclipses occur when one celestial body moves into the shadow of another. There are two main types: solar eclipses and lunar eclipses.</p>
+                    
+                    <div class="eclipse-section">
+                        <div class="solar-eclipse">
+                            <h3 class="eclipse-title">Solar Eclipse</h3>
+                            <div class="eclipse-demo">
+                                <div class="sun"></div>
+                                <div class="moon-eclipse"></div>
+                                <div class="earth-eclipse"></div>
+                                <div class="shadow-container">
+                                    <div class="umbra"></div>
+                                    <div class="penumbra"></div>
+                                </div>
+                            </div>
+                            <p>A solar eclipse occurs when the Moon passes between the Sun and Earth, blocking all or part of the Sun's light.</p>
+                        </div>
+                        
+                        <div class="lunar-eclipse">
+                            <h3 class="eclipse-title">Lunar Eclipse</h3>
+                            <div class="eclipse-demo">
+                                <div class="sun"></div>
+                                <div class="moon-eclipse"></div>
+                                <div class="earth-eclipse"></div>
+                                <div class="shadow-container">
+                                    <div class="umbra"></div>
+                                    <div class="penumbra"></div>
+                                </div>
+                            </div>
+                            <p>A lunar eclipse occurs when Earth comes between the Sun and the Moon, causing Earth's shadow to fall on the Moon.</p>
+                        </div>
+                        
+                        <div class="shadow-explanation">
+                            <h3>Shadow Types</h3>
+                            <div class="shadow-type">
+                                <div class="shadow-color umbra-color"></div>
+                                <div><strong>Umbra:</strong> The darkest part of the shadow where light is completely blocked.</div>
+                            </div>
+                            <div class="shadow-type">
+                                <div class="shadow-color penumbra-color"></div>
+                                <div><strong>Penumbra:</strong> The lighter part of the shadow where light is only partially blocked.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="speedUp">Speed Up Orbits</button>
+            <button id="slowDown">Slow Down Orbits</button>
+            <button id="reset">Reset View</button>
+        </div>
+        
+        <div class="instructions">
+            <p>Tip: Click on any planet to select it and view detailed information</p>
+        </div>
+    </div>
+
+    <script>
+        // Planet data
+        const planets = [
+            {
+                name: "Mercury",
+                radius: 8,
+                orbitRadius: 70,
+                color: "#a9a9a9",
+                speed: 0.02,
+                facts: [
+                    "Closest planet to the Sun",
+                    "No atmosphere to speak of",
+                    "Extreme temperature variations",
+                    "One day on Mercury lasts 59 Earth days"
+                ],
+                hasMoon: false
+            },
+            {
+                name: "Venus",
+                radius: 12,
+                orbitRadius: 100,
+                color: "#e6b87e",
+                speed: 0.015,
+                facts: [
+                    "Hottest planet in our solar system",
+                    "Thick, toxic atmosphere",
+                    "Spins in the opposite direction to most planets",
+                    "A day on Venus is longer than its year"
+                ],
+                hasMoon: false
+            },
+            {
+                name: "Earth",
+                radius: 13,
+                orbitRadius: 140,
+                color: "#6b93d6",
+                speed: 0.01,
+                facts: [
+                    "Only planet known to support life",
+                    "About 71% of surface is water",
+                    "Has one natural satellite - the Moon",
+                    "Takes 365.25 days to orbit the Sun"
+                ],
+                hasMoon: true,
+                moonRadius: 4,
+                moonOrbitRadius: 25,
+                moonSpeed: 0.05
+            },
+            {
+                name: "Mars",
+                radius: 10,
+                orbitRadius: 180,
+                color: "#ff7b54",
+                speed: 0.008,
+                facts: [
+                    "Known as the Red Planet",
+                    "Home to the largest volcano in the solar system",
+                    "Has two small moons: Phobos and Deimos",
+                    "Evidence suggests it once had flowing water"
+                ],
+                hasMoon: true,
+                moonRadius: 2,
+                moonOrbitRadius: 18,
+                moonSpeed: 0.08
+            },
+            {
+                name: "Jupiter",
+                radius: 30,
+                orbitRadius: 240,
+                color: "#e0b589",
+                speed: 0.005,
+                facts: [
+                    "Largest planet in our solar system",
+                    "Has a famous Great Red Spot - a giant storm",
+                    "Has at least 79 moons",
+                    "Its magnetic field is 14 times stronger than Earth's"
+                ],
+                hasMoon: true,
+                moonRadius: 5,
+                moonOrbitRadius: 40,
+                moonSpeed: 0.03
+            },
+            {
+                name: "Saturn",
+                radius: 25,
+                orbitRadius: 300,
+                color: "#e3d9b1",
+                speed: 0.004,
+                facts: [
+                    "Known for its spectacular ring system",
+                    "Least dense planet - it would float in water!",
+                    "Has at least 82 moons",
+                    "A day on Saturn is only 10.7 hours long"
+                ],
+                hasMoon: true,
+                moonRadius: 4,
+                moonOrbitRadius: 35,
+                moonSpeed: 0.04,
+                hasRings: true
+            },
+            {
+                name: "Uranus",
+                radius: 18,
+                orbitRadius: 350,
+                color: "#b5e3e3",
+                speed: 0.003,
+                facts: [
+                    "Rotates on its side - almost 90 degrees",
+                    "Has a system of faint rings",
+                    "Is an ice giant, like Neptune",
+                    "Takes 84 Earth years to orbit the Sun"
+                ],
+                hasMoon: true,
+                moonRadius: 3,
+                moonOrbitRadius: 28,
+                moonSpeed: 0.05
+            },
+            {
+                name: "Neptune",
+                radius: 17,
+                orbitRadius: 400,
+                color: "#5b6ee1",
+                speed: 0.002,
+                facts: [
+                    "Windiest planet with speeds up to 1,200 mph",
+                    "Discovered through mathematical calculations",
+                    "Has a system of rings",
+                    "Takes 165 Earth years to orbit the Sun"
+                ],
+                hasMoon: true,
+                moonRadius: 3,
+                moonOrbitRadius: 26,
+                moonSpeed: 0.06
+            }
+        ];
+
+        // Animation variables
+        let animationSpeed = 1;
+        let selectedPlanet = null;
+
+        // Initialize the solar system
+        function initSolarSystem() {
+            const solarSystem = document.getElementById('solarSystem');
+            
+            // Add sun
+            const sun = document.createElement('div');
+            sun.className = 'sun-center';
+            solarSystem.appendChild(sun);
+            
+            // Create planets and their orbits
+            planets.forEach((planet, index) => {
+                // Create orbit
+                const orbit = document.createElement('div');
+                orbit.className = 'orbit';
+                orbit.style.width = `${planet.orbitRadius * 2}px`;
+                orbit.style.height = `${planet.orbitRadius * 2}px`;
+                solarSystem.appendChild(orbit);
+                
+                // Create planet
+                const planetElement = document.createElement('div');
+                planetElement.className = `planet ${planet.name.toLowerCase()}`;
+                planetElement.style.width = `${planet.radius * 2}px`;
+                planetElement.style.height = `${planet.radius * 2}px`;
+                planetElement.dataset.index = index;
+                
+                // Position planet on its orbit
+                updatePlanetPosition(planetElement, planet, 0);
+                
+                planetElement.addEventListener('click', () => selectPlanet(index));
+                solarSystem.appendChild(planetElement);
+                
+                // Create planet info panel
+                createPlanetInfo(planet, index);
+                
+                // Add moons if the planet has them
+                if (planet.hasMoon) {
+                    // Moon orbit
+                    const moonOrbit = document.createElement('div');
+                    moonOrbit.className = 'moon-orbit';
+                    moonOrbit.style.width = `${planet.moonOrbitRadius * 2}px`;
+                    moonOrbit.style.height = `${planet.moonOrbitRadius * 2}px`;
+                    planetElement.appendChild(moonOrbit);
+                    
+                    // Moon
+                    const moon = document.createElement('div');
+                    moon.className = 'moon';
+                    moon.style.width = `${planet.moonRadius * 2}px`;
+                    moon.style.height = `${planet.moonRadius * 2}px`;
+                    updateMoonPosition(moon, planet, 0);
+                    planetElement.appendChild(moon);
+                    
+                    // Saturn's rings
+                    if (planet.hasRings) {
+                        const rings = document.createElement('div');
+                        rings.className = 'saturn-rings';
+                        planetElement.appendChild(rings);
+                    }
+                }
+            });
+            
+            // Start animation
+            animateSolarSystem();
+            
+            // Set up controls
+            document.getElementById('speedUp').addEventListener('click', () => {
+                animationSpeed *= 1.5;
+            });
+            
+            document.getElementById('slowDown').addEventListener('click', () => {
+                animationSpeed /= 1.5;
+            });
+            
+            document.getElementById('reset').addEventListener('click', () => {
+                animationSpeed = 1;
+                if (selectedPlanet !== null) {
+                    document.querySelectorAll('.planet')[selectedPlanet].classList.remove('selected');
+                }
+                document.getElementById('default-info').classList.add('active');
+                selectedPlanet = null;
+            });
+            
+            // Set up tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                    
+                    tab.classList.add('active');
+                    document.getElementById(`${tab.dataset.tab}-tab`).classList.add('active');
+                });
+            });
+        }
+
+        // Create planet information panel
+        function createPlanetInfo(planet, index) {
+            const planetInfo = document.createElement('div');
+            planetInfo.className = 'planet-info';
+            planetInfo.id = `planet-${index}`;
+            
+            let html = `
+                <h2 class="planet-name">${planet.name}</h2>
+                <div class="planet-facts">
+            `;
+            
+            planet.facts.forEach(fact => {
+                html += `
+                    <div class="planet-fact">
+                        <span class="fact-icon">•</span>
+                        <span>${fact}</span>
+                    </div>
+                `;
+            });
+            
+            html += `</div>`;
+            
+            planetInfo.innerHTML = html;
+            document.getElementById('planet-tab').appendChild(planetInfo);
+        }
+
+        // Update planet position based on angle
+        function updatePlanetPosition(planetElement, planet, angle) {
+            const x = Math.cos(angle) * planet.orbitRadius;
+            const y = Math.sin(angle) * planet.orbitRadius;
+            
+            planetElement.style.left = `calc(50% + ${x}px - ${planet.radius}px)`;
+            planetElement.style.top = `calc(50% + ${y}px - ${planet.radius}px)`;
+        }
+
+        // Update moon position
+        function updateMoonPosition(moonElement, planet, angle) {
+            const x = Math.cos(angle) * planet.moonOrbitRadius;
+            const y = Math.sin(angle) * planet.moonOrbitRadius;
+            
+            moonElement.style.left = `calc(50% + ${x}px - ${planet.moonRadius}px)`;
+            moonElement.style.top = `calc(50% + ${y}px - ${planet.moonRadius}px)`;
+        }
+
+        // Animate the solar system
+        function animateSolarSystem() {
+            let time = 0;
+            
+            function animate() {
+                time += 0.01 * animationSpeed;
+                
+                document.querySelectorAll('.planet').forEach((planetElement, index) => {
+                    const planet = planets[index];
+                    const angle = time * planet.speed;
+                    
+                    updatePlanetPosition(planetElement, planet, angle);
+                    
+                    if (planet.hasMoon) {
+                        const moon = planetElement.querySelector('.moon');
+                        const moonAngle = time * planet.moonSpeed;
+                        updateMoonPosition(moon, planet, moonAngle);
+                    }
+                });
+                
+                requestAnimationFrame(animate);
+            }
+            
+            animate();
+        }
+
+        // Select a planet to show information
+        function selectPlanet(index) {
+            if (selectedPlanet !== null) {
+                document.querySelectorAll('.planet')[selectedPlanet].classList.remove('selected');
+                document.getElementById(`planet-${selectedPlanet}`).classList.remove('active');
+            }
+            
+            selectedPlanet = index;
+            document.querySelectorAll('.planet')[index].classList.add('selected');
+            document.getElementById('default-info').classList.remove('active');
+            document.getElementById(`planet-${index}`).classList.add('active');
+            
+            // Switch to planet info tab
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            
+            document.querySelector('.tab[data-tab="planet"]').classList.add('active');
+            document.getElementById('planet-tab').classList.add('active');
+        }
+
+        // Initialize when page loads
+        window.addEventListener('DOMContentLoaded', initSolarSystem);
+    </script>
+</body>
+</html>

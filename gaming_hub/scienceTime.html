@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Explorers - Interactive Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --baby: #FFB6C1;
+            --kg: #87CEEB;
+            --grade1: #98FB98;
+            --grade2: #FFD700;
+            --grade3: #FFA07A;
+            --grade4: #DDA0DD;
+            --grade5: #20B2AA;
+            --grade6: #FF6347;
+            --grade7: #9370DB;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: white;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            margin-top: 20px;
+            color: var(--dark);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        .subtitle {
+            color: var(--light);
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+        
+        .level-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .level-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 4px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 180px;
+        }
+        
+        .level-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .level-card.baby-class { border-color: var(--baby); }
+        .level-card.kg { border-color: var(--kg); }
+        .level-card.grade1 { border-color: var(--grade1); }
+        .level-card.grade2 { border-color: var(--grade2); }
+        .level-card.grade3 { border-color: var(--grade3); }
+        .level-card.grade4 { border-color: var(--grade4); }
+        .level-card.grade5 { border-color: var(--grade5); }
+        .level-card.grade6 { border-color: var(--grade6); }
+        .level-card.grade7 { border-color: var(--grade7); }
+        
+        .level-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+        
+        .level-card p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .level-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .game-area {
+            min-height: 500px;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px dashed #ddd;
+        }
+        
+        .game-title {
+            font-size: 1.8rem;
+            color: var(--dark);
+        }
+        
+        .back-button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .back-button:hover {
+            background-color: #c0392b;
+            transform: scale(1.05);
+        }
+        
+        .activity-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        
+        .instructions {
+            text-align: center;
+            font-size: 1.3rem;
+            color: var(--dark);
+            margin-bottom: 20px;
+        }
+        
+        .interactive-element {
+            width: 100%;
+            min-height: 350px;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .control-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 0 #2980b9;
+        }
+        
+        .control-button:hover {
+            background-color: #2980b9;
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 #2980b9;
+        }
+        
+        .control-button:active {
+            transform: translateY(4px);
+            box-shadow: 0 0 0 #2980b9;
+        }
+        
+        .science-object {
+            transition: all 0.5s ease;
+        }
+        
+        /* Baby Class - Color Mixing */
+        .color-mixer {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .color-container {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        
+        .color-container:hover {
+            transform: scale(1.1);
+        }
+        
+        .mix-result {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 5px dashed #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: #666;
+        }
+        
+        /* Grade 3 - Solar System */
+        .solar-system {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .sun {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle, #ffcc00, #ff9900);
+            border-radius: 50%;
+            box-shadow: 0 0 30px #ff9900;
+            z-index: 10;
+        }
+        
+        .planet {
+            position: absolute;
+            border-radius: 50%;
+            transform-origin: center;
+        }
+        
+        .orbit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px dashed rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+        }
+        
+        /* Grade 5 - Plant Parts */
+        .plant-builder {
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+        }
+        
+        .plant-part {
+            width: 80px;
+            cursor: grab;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .plant-part:hover {
+            transform: scale(1.1);
+        }
+        
+        .plant-part img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .plant-canvas {
+            width: 200px;
+            height: 300px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        /* Grade 7 - Circuit Builder */
+        .circuit-builder {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+        
+        .circuit-components {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .circuit-component {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: grab;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            background: white;
+        }
+        
+        .circuit-component:hover {
+            transform: scale(1.05);
+        }
+        
+        .circuit-board {
+            width: 100%;
+            height: 200px;
+            background: #f5f5f5;
+            border-radius: 10px;
+            border: 2px dashed #ccc;
+            position: relative;
+        }
+        
+        .progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin: 20px 0;
+            overflow: hidden;
+            height: 15px;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            border-radius: 10px;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        
+        .feedback {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            min-height: 30px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .success {
+            background-color: rgba(46, 204, 113, 0.2);
+            color: #27ae60;
+        }
+        
+        .info {
+            background-color: rgba(52, 152, 219, 0.2);
+            color: #2980b9;
+        }
+        
+        @media (max-width: 768px) {
+            .level-selector {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            
+            .level-card {
+                min-height: 150px;
+                padding: 15px 10px;
+            }
+            
+            .color-mixer, .plant-builder {
+                flex-direction: column;
+            }
+            
+            .solar-system {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-atom"></i> Science Explorers</h1>
+        <p class="subtitle">Interactive Learning Adventures for All Grade Levels</p>
+    </header>
+    
+    <div class="container">
+        <div id="level-select-screen">
+            <h2 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">Select Your Grade Level</h2>
+            <div class="level-selector">
+                <div class="level-card baby-class" data-level="baby">
+                    <div class="level-icon">👶</div>
+                    <h3>Baby Class</h3>
+                    <p>Colors & Senses</p>
+                </div>
+                <div class="level-card kg" data-level="kg">
+                    <div class="level-icon">🌟</div>
+                    <h3>Kindergarten</h3>
+                    <p>Living & Non-living</p>
+                </div>
+                <div class="level-card grade1" data-level="grade1">
+                    <div class="level-icon">🌿</div>
+                    <h3>Grade 1</h3>
+                    <p>Plants & Animals</p>
+                </div>
+                <div class="level-card grade2" data-level="grade2">
+                    <div class="level-icon">🌧️</div>
+                    <h3>Grade 2</h3>
+                    <p>Weather & Seasons</p>
+                </div>
+                <div class="level-card grade3" data-level="grade3">
+                    <div class="level-icon">🪐</div>
+                    <h3>Grade 3</h3>
+                    <p>Solar System</p>
+                </div>
+                <div class="level-card grade4" data-level="grade4">
+                    <div class="level-icon">💧</div>
+                    <h3>Grade 4</h3>
+                    <p>States of Matter</p>
+                </div>
+                <div class="level-card grade5" data-level="grade5">
+                    <div class="level-icon">🔬</div>
+                    <h3>Grade 5</h3>
+                    <p>Plant Biology</p>
+                </div>
+                <div class="level-card grade6" data-level="grade6">
+                    <div class="level-icon">⚡</div>
+                    <h3>Grade 6</h3>
+                    <p>Energy & Forces</p>
+                </div>
+                <div class="level-card grade7" data-level="grade7">
+                    <div class="level-icon">🔌</div>
+                    <h3>Grade 7</h3>
+                    <p>Electric Circuits</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-area" id="game-screen">
+            <div class="game-header">
+                <h2 class="game-title" id="game-title">Science Activity</h2>
+                <button class="back-button" id="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Levels
+                </button>
+            </div>
+            
+            <div class="activity-area">
+                <div class="instructions" id="instructions">
+                    Drag and interact with the elements to explore science concepts!
+                </div>
+                
+                <div class="interactive-element" id="interactive-element">
+                    <!-- Interactive content will be loaded here based on level -->
+                    <div style="text-align: center; color: #7f8c8d;">
+                        <i class="fas fa-microscope" style="font-size: 4rem; margin-bottom: 20px;"></i>
+                        <p>Select a grade level to start the science adventure!</p>
+                    </div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" style="width: 0%; background-color: #3498db;"></div>
+                </div>
+                
+                <div class="feedback" id="feedback"></div>
+                
+                <div class="controls">
+                    <button class="control-button" id="hint-button">
+                        <i class="fas fa-lightbulb"></i> Get Hint
+                    </button>
+                    <button class="control-button" id="reset-button">
+                        <i class="fas fa-redo"></i> Reset Activity
+                    </button>
+                    <button class="control-button" id="next-button">
+                        <i class="fas fa-arrow-right"></i> Next Concept
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Science activities for each grade level
+        const scienceActivities = {
+            baby: {
+                title: "Color Mixing Adventure",
+                instructions: "Click on the color circles to mix them and see what new color you create!",
+                activity: "colorMixing",
+                concepts: ["Primary Colors", "Color Mixing", "Visual Perception"]
+            },
+            kg: {
+                title: "Living vs Non-Living",
+                instructions: "Drag the items to the correct category: Living or Non-Living",
+                activity: "livingNonLiving",
+                concepts: ["Living Things", "Non-Living Things", "Basic Classification"]
+            },
+            grade1: {
+                title: "Animal Habitat Match",
+                instructions: "Match each animal to its correct habitat by dragging them together",
+                activity: "animalHabitats",
+                concepts: ["Habitats", "Animal Needs", "Ecosystems"]
+            },
+            grade2: {
+                title: "Weather Patterns",
+                instructions: "Create different weather conditions and see how they affect the environment",
+                activity: "weatherPatterns",
+                concepts: ["Weather Types", "Seasons", "Climate"]
+            },
+            grade3: {
+                title: "Solar System Explorer",
+                instructions: "Click on planets to learn about them and arrange them in order from the sun",
+                activity: "solarSystem",
+                concepts: ["Planets", "Orbits", "Solar System"]
+            },
+            grade4: {
+                title: "States of Matter Lab",
+                instructions: "Change the temperature to see how matter transforms between solid, liquid, and gas",
+                activity: "statesOfMatter",
+                concepts: ["Solids", "Liquids", "Gases", "Phase Changes"]
+            },
+            grade5: {
+                title: "Plant Part Builder",
+                instructions: "Build a complete plant by dragging the correct parts to the plant canvas",
+                activity: "plantBuilder",
+                concepts: ["Plant Anatomy", "Photosynthesis", "Plant Functions"]
+            },
+            grade6: {
+                title: "Forces and Motion",
+                instructions: "Apply different forces to objects and observe how they move",
+                activity: "forcesMotion",
+                concepts: ["Gravity", "Friction", "Motion", "Forces"]
+            },
+            grade7: {
+                title: "Circuit Constructor",
+                instructions: "Build a complete circuit by connecting components correctly",
+                activity: "circuitBuilder",
+                concepts: ["Electricity", "Circuits", "Conductors", "Insulators"]
+            }
+        };
+
+        // DOM elements
+        const levelSelectScreen = document.getElementById('level-select-screen');
+        const gameScreen = document.getElementById('game-screen');
+        const gameTitle = document.getElementById('game-title');
+        const instructionsElement = document.getElementById('instructions');
+        const interactiveElement = document.getElementById('interactive-element');
+        const backButton = document.getElementById('back-button');
+        const hintButton = document.getElementById('hint-button');
+        const resetButton = document.getElementById('reset-button');
+        const nextButton = document.getElementById('next-button');
+        const progressBar = document.getElementById('progress-bar');
+        const feedbackElement = document.getElementById('feedback');
+        
+        let currentLevel = null;
+        let currentConceptIndex = 0;
+
+        // Initialize the game
+        function initGame() {
+            // Add event listeners to level cards
+            document.querySelectorAll('.level-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const level = card.getAttribute('data-level');
+                    loadLevel(level);
+                });
+            });
+            
+            // Add event listeners to control buttons
+            backButton.addEventListener('click', showLevelSelect);
+            hintButton.addEventListener('click', showHint);
+            resetButton.addEventListener('click', resetActivity);
+            nextButton.addEventListener('click', nextConcept);
+        }
+
+        // Load a specific level
+        function loadLevel(level) {
+            currentLevel = level;
+            const activity = scienceActivities[level];
+            
+            // Update UI
+            gameTitle.textContent = activity.title;
+            instructionsElement.textContent = activity.instructions;
+            currentConceptIndex = 0;
+            
+            // Load the appropriate activity
+            loadActivity(activity.activity);
+            
+            // Show game screen
+            showGameScreen();
+            
+            // Update progress
+            updateProgress();
+            
+            // Show initial feedback
+            showFeedback(`Let's explore: ${activity.concepts[0]}`, 'info');
+        }
+
+        // Show game screen
+        function showGameScreen() {
+            levelSelectScreen.style.display = 'none';
+            gameScreen.style.display = 'block';
+        }
+
+        // Show level select screen
+        function showLevelSelect() {
+            levelSelectScreen.style.display = 'block';
+            gameScreen.style.display = 'none';
+        }
+
+        // Load specific activity based on level
+        function loadActivity(activityType) {
+            // Clear previous activity
+            interactiveElement.innerHTML = '';
+            
+            switch(activityType) {
+                case 'colorMixing':
+                    loadColorMixingActivity();
+                    break;
+                case 'solarSystem':
+                    loadSolarSystemActivity();
+                    break;
+                case 'plantBuilder':
+                    loadPlantBuilderActivity();
+                    break;
+                case 'circuitBuilder':
+                    loadCircuitBuilderActivity();
+                    break;
+                default:
+                    // Default activity for other levels
+                    interactiveElement.innerHTML = `
+                        <div style="text-align: center; padding: 20px;">
+                            <i class="fas fa-flask" style="font-size: 4rem; color: #3498db; margin-bottom: 20px;"></i>
+                            <h3>Science Exploration</h3>
+                            <p>Drag, click, and explore to learn about ${scienceActivities[currentLevel].concepts.join(', ')}</p>
+                            <div style="margin-top: 30px; font-size: 3rem;">
+                                ${getActivityEmojis(currentLevel)}
+                            </div>
+                        </div>
+                    `;
+            }
+        }
+
+        // Color Mixing Activity for Baby Class
+        function loadColorMixingActivity() {
+            interactiveElement.innerHTML = `
+                <h3 style="margin-bottom: 20px; color: #2c3e50;">Color Mixing Lab</h3>
+                <div class="color-mixer">
+                    <div class="color-container" style="background-color: #FF0000;" data-color="red"></div>
+                    <div style="font-size: 2rem;">+</div>
+                    <div class="color-container" style="background-color: #0000FF;" data-color="blue"></div>
+                    <div style="font-size: 2rem;">=</div>
+                    <div class="mix-result" id="mix-result">Mix Colors</div>
+                </div>
+                <div class="color-mixer" style="margin-top: 30px;">
+                    <div class="color-container" style="background-color: #FF0000;" data-color="red"></div>
+                    <div style="font-size: 2rem;">+</div>
+                    <div class="color-container" style="background-color: #FFFF00;" data-color="yellow"></div>
+                    <div style="font-size: 2rem;">=</div>
+                    <div class="mix-result" id="mix-result2">Mix Colors</div>
+                </div>
+                <div class="color-mixer" style="margin-top: 30px;">
+                    <div class="color-container" style="background-color: #0000FF;" data-color="blue"></div>
+                    <div style="font-size: 2rem;">+</div>
+                    <div class="color-container" style="background-color: #FFFF00;" data-color="yellow"></div>
+                    <div style="font-size: 2rem;">=</div>
+                    <div class="mix-result" id="mix-result3">Mix Colors</div>
+                </div>
+            `;
+            
+            // Add event listeners to color containers
+            document.querySelectorAll('.color-container').forEach(container => {
+                container.addEventListener('click', function() {
+                    const color = this.getAttribute('data-color');
+                    mixColors(this);
+                });
+            });
+        }
+
+        // Simple color mixing function
+        function mixColors(colorElement) {
+            const mixer = colorElement.parentElement;
+            const result = mixer.querySelector('.mix-result');
+            const colors = [];
+            
+            mixer.querySelectorAll('.color-container').forEach(container => {
+                if (container.style.backgroundColor) {
+                    colors.push(container.getAttribute('data-color'));
+                }
+            });
+            
+            if (colors.length === 2) {
+                let mixedColor;
+                if (colors.includes('red') && colors.includes('blue')) {
+                    mixedColor = 'purple';
+                    result.style.backgroundColor = '#800080';
+                } else if (colors.includes('red') && colors.includes('yellow')) {
+                    mixedColor = 'orange';
+                    result.style.backgroundColor = '#FFA500';
+                } else if (colors.includes('blue') && colors.includes('yellow')) {
+                    mixedColor = 'green';
+                    result.style.backgroundColor = '#008000';
+                }
+                
+                result.textContent = mixedColor.charAt(0).toUpperCase() + mixedColor.slice(1);
+                result.style.color = 'white';
+                result.style.border = 'none';
+                
+                showFeedback(`You made ${mixedColor}! Great job!`, 'success');
+            }
+        }
+
+        // Solar System Activity for Grade 3
+        function loadSolarSystemActivity() {
+            interactiveElement.innerHTML = `
+                <h3 style="margin-bottom: 20px; color: #2c3e50;">Solar System Explorer</h3>
+                <div class="solar-system">
+                    <div class="sun"></div>
+                    <div class="orbit" style="width: 120px; height: 120px;"></div>
+                    <div class="planet" style="width: 15px; height: 15px; background-color: #8c8c8c; animation: orbit 2s linear infinite;" title="Mercury"></div>
+                    
+                    <div class="orbit" style="width: 160px; height: 160px;"></div>
+                    <div class="planet" style="width: 20px; height: 20px; background-color: #e6b457; animation: orbit 3.6s linear infinite;" title="Venus"></div>
+                    
+                    <div class="orbit" style="width: 200px; height: 200px;"></div>
+                    <div class="planet" style="width: 22px; height: 22px; background-color: #4a6ea9; animation: orbit 6s linear infinite;" title="Earth"></div>
+                    
+                    <div class="orbit" style="width: 240px; height: 240px;"></div>
+                    <div class="planet" style="width: 18px; height: 18px; background-color: #c1440e; animation: orbit 11.4s linear infinite;" title="Mars"></div>
+                    
+                    <div class="orbit" style="width: 300px; height: 300px;"></div>
+                    <div class="planet" style="width: 40px; height: 40px; background-color: #c19d6f; animation: orbit 28.8s linear infinite;" title="Jupiter"></div>
+                </div>
+                <p style="margin-top: 20px; text-align: center;">Click on planets to learn more about them!</p>
+            `;
+            
+            // Add animation keyframes
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes orbit {
+                    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+                    to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+                }
+                
+                .planet:nth-child(3) { transform: rotate(0deg) translateX(60px) rotate(0deg); }
+                .planet:nth-child(5) { transform: rotate(60deg) translateX(80px) rotate(-60deg); }
+                .planet:nth-child(7) { transform: rotate(120deg) translateX(100px) rotate(-120deg); }
+                .planet:nth-child(9) { transform: rotate(180deg) translateX(120px) rotate(-180deg); }
+                .planet:nth-child(11) { transform: rotate(240deg) translateX(150px) rotate(-240deg); }
+            `;
+            document.head.appendChild(style);
+            
+            // Add event listeners to planets
+            document.querySelectorAll('.planet').forEach(planet => {
+                planet.addEventListener('click', function() {
+                    const planetName = this.getAttribute('title');
+                    showFeedback(`You clicked on ${planetName}! ${getPlanetFact(planetName)}`, 'info');
+                });
+            });
+        }
+
+        // Plant Builder Activity for Grade 5
+        function loadPlantBuilderActivity() {
+            interactiveElement.innerHTML = `
+                <h3 style="margin-bottom: 20px; color: #2c3e50;">Plant Part Builder</h3>
+                <div class="plant-builder">
+                    <div class="plant-parts">
+                        <div class="plant-part" data-part="roots">
+                            <div style="font-size: 3rem;">🌱</div>
+                            <p>Roots</p>
+                        </div>
+                        <div class="plant-part" data-part="stem">
+                            <div style="font-size: 3rem;">🎋</div>
+                            <p>Stem</p>
+                        </div>
+                        <div class="plant-part" data-part="leaves">
+                            <div style="font-size: 3rem;">🍃</div>
+                            <p>Leaves</p>
+                        </div>
+                        <div class="plant-part" data-part="flower">
+                            <div style="font-size: 3rem;">🌼</div>
+                            <p>Flower</p>
+                        </div>
+                    </div>
+                    <div class="plant-canvas" id="plant-canvas">
+                        <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #ccc;">
+                            Drag plant parts here
+                        </p>
+                    </div>
+                </div>
+            `;
+            
+            // Make plant parts draggable
+            document.querySelectorAll('.plant-part').forEach(part => {
+                part.setAttribute('draggable', 'true');
+                part.addEventListener('dragstart', handleDragStart);
+            });
+            
+            // Make plant canvas a drop zone
+            const plantCanvas = document.getElementById('plant-canvas');
+            plantCanvas.addEventListener('dragover', handleDragOver);
+            plantCanvas.addEventListener('drop', handleDrop);
+        }
+
+        // Circuit Builder Activity for Grade 7
+        function loadCircuitBuilderActivity() {
+            interactiveElement.innerHTML = `
+                <h3 style="margin-bottom: 20px; color: #2c3e50;">Circuit Constructor</h3>
+                <div class="circuit-builder">
+                    <div class="circuit-components">
+                        <div class="circuit-component" data-component="battery">
+                            <div style="font-size: 2rem;">🔋</div>
+                            <p>Battery</p>
+                        </div>
+                        <div class="circuit-component" data-component="bulb">
+                            <div style="font-size: 2rem;">💡</div>
+                            <p>Light Bulb</p>
+                        </div>
+                        <div class="circuit-component" data-component="switch">
+                            <div style="font-size: 2rem;">🔘</div>
+                            <p>Switch</p>
+                        </div>
+                        <div class="circuit-component" data-component="wire">
+                            <div style="font-size: 2rem;">➰</div>
+                            <p>Wire</p>
+                        </div>
+                    </div>
+                    <div class="circuit-board" id="circuit-board">
+                        <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #ccc;">
+                            Build your circuit here
+                        </p>
+                    </div>
+                </div>
+            `;
+            
+            // Make circuit components draggable
+            document.querySelectorAll('.circuit-component').forEach(component => {
+                component.setAttribute('draggable', 'true');
+                component.addEventListener('dragstart', handleDragStart);
+            });
+            
+            // Make circuit board a drop zone
+            const circuitBoard = document.getElementById('circuit-board');
+            circuitBoard.addEventListener('dragover', handleDragOver);
+            circuitBoard.addEventListener('drop', handleDrop);
+        }
+
+        // Drag and drop functions
+        function handleDragStart(e) {
+            e.dataTransfer.setData('text/plain', e.target.getAttribute('data-part') || e.target.getAttribute('data-component'));
+        }
+
+        function handleDragOver(e) {
+            e.preventDefault();
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            const data = e.dataTransfer.getData('text/plain');
+            
+            if (data) {
+                const newElement = document.createElement('div');
+                newElement.textContent = data;
+                newElement.style.margin = '5px';
+                newElement.style.padding = '5px';
+                newElement.style.background = 'white';
+                newElement.style.borderRadius = '5px';
+                newElement.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+                
+                e.target.appendChild(newElement);
+                showFeedback(`You added ${data} to your ${currentLevel === 'grade5' ? 'plant' : 'circuit'}!`, 'success');
+            }
+        }
+
+        // Show hint for current activity
+        function showHint() {
+            const activity = scienceActivities[currentLevel];
+            const hints = {
+                baby: "Try mixing red and blue to make purple!",
+                kg: "Living things grow and need food. Non-living things don't.",
+                grade1: "Fish live in water, birds live in trees, and camels live in deserts.",
+                grade2: "What happens when the sun heats up water?",
+                grade3: "Mercury is the closest planet to the sun.",
+                grade4: "Ice is solid water. When it melts, it becomes liquid.",
+                grade5: "Roots absorb water, stems provide support, leaves make food, and flowers make seeds.",
+                grade6: "A push or pull can make objects move faster, slower, or change direction.",
+                grade7: "A circuit needs a power source (battery), a path (wires), and something to use the energy (bulb)."
+            };
+            
+            showFeedback(`Hint: ${hints[currentLevel]}`, 'info');
+        }
+
+        // Reset current activity
+        function resetActivity() {
+            loadActivity(scienceActivities[currentLevel].activity);
+            showFeedback("Activity reset! Try again.", 'info');
+        }
+
+        // Move to next concept
+        function nextConcept() {
+            const activity = scienceActivities[currentLevel];
+            currentConceptIndex = (currentConceptIndex + 1) % activity.concepts.length;
+            updateProgress();
+            showFeedback(`Now exploring: ${activity.concepts[currentConceptIndex]}`, 'info');
+        }
+
+        // Update progress bar
+        function updateProgress() {
+            const activity = scienceActivities[currentLevel];
+            const progress = ((currentConceptIndex + 1) / activity.concepts.length) * 100;
+            progressBar.style.width = `${progress}%`;
+            
+            // Change color based on progress
+            if (progress < 30) {
+                progressBar.style.backgroundColor = '#e74c3c';
+            } else if (progress < 70) {
+                progressBar.style.backgroundColor = '#f39c12';
+            } else {
+                progressBar.style.backgroundColor = '#2ecc71';
+            }
+        }
+
+        // Show feedback message
+        function showFeedback(message, type) {
+            feedbackElement.textContent = message;
+            feedbackElement.className = `feedback ${type}`;
+        }
+
+        // Helper function to get planet facts
+        function getPlanetFact(planetName) {
+            const facts = {
+                Mercury: "It's the smallest planet and closest to the Sun!",
+                Venus: "It's the hottest planet with a thick atmosphere.",
+                Earth: "Our home planet with liquid water and life!",
+                Mars: "Known as the Red Planet, it has the largest volcano in the solar system.",
+                Jupiter: "The largest planet with a famous Great Red Spot storm."
+            };
+            return facts[planetName] || "It's a fascinating planet in our solar system!";
+        }
+
+        // Helper function to get activity emojis
+        function getActivityEmojis(level) {
+            const emojis = {
+                baby: "🎨🌈👶",
+                kg: "🐶🌼🪨",
+                grade1: "🐘🌳🐠",
+                grade2: "☀️🌧️❄️",
+                grade3: "🪐⭐🚀",
+                grade4: "🧊💧💨",
+                grade5: "🌱🌻🌷",
+                grade6: "⚽🎢📏",
+                grade7: "🔋💡🔌"
+            };
+            return emojis[level] || "🔬🌍✨";
+        }
+
+        // Initialize the game when the page loads
+        window.addEventListener('DOMContentLoaded', initGame);
+    </script>
+</body>
+</html>
