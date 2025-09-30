@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Assembler - Learning Game</title>
+    <style>
+        :root {
+            --primary: #4361ee;
+            --secondary: #3a0ca3;
+            --accent: #4cc9f0;
+            --light: #f8f9fa;
+            --success: #4bb543;
+            --warning: #ffcc00;
+            --danger: #dc3545;
+            --dark: #212529;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subtitle {
+            color: var(--secondary);
+            font-size: 1.2rem;
+        }
+        
+        .game-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background-color: var(--light);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .level-info, .score-info, .word-count {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        
+        .level-info span, .score-info span, .word-count span {
+            color: var(--primary);
+        }
+        
+        .game-area {
+            min-height: 300px;
+            border: 2px dashed var(--accent);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: rgba(76, 201, 240, 0.05);
+        }
+        
+        .instructions {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--dark);
+            font-size: 1.1rem;
+        }
+        
+        .word-container, .sentence-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+            min-height: 80px;
+        }
+        
+        .letter {
+            background-color: white;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            padding: 10px 15px;
+            font-size: 1.5rem;
+            cursor: grab;
+            user-select: none;
+            transition: all 0.2s;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .letter:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .letter.dragging {
+            opacity: 0.7;
+            transform: scale(1.05);
+        }
+        
+        .target-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 30px;
+            min-height: 80px;
+        }
+        
+        .target-slot {
+            background-color: rgba(67, 97, 238, 0.1);
+            border: 2px dashed var(--primary);
+            border-radius: 8px;
+            padding: 10px 15px;
+            min-width: 50px;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .target-slot.filled {
+            border: 2px solid var(--success);
+            background-color: rgba(75, 181, 67, 0.1);
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        button:hover {
+            background-color: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .feedback {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            min-height: 30px;
+        }
+        
+        .success {
+            color: var(--success);
+        }
+        
+        .error {
+            color: var(--danger);
+        }
+        
+        .progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 10px;
+            background-color: var(--primary);
+            border-radius: 10px;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        
+        .level-complete {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(75, 181, 67, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .level-complete h2 {
+            color: var(--success);
+            margin-bottom: 15px;
+        }
+        
+        .level-complete p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .level-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .level-card {
+            background-color: white;
+            border: 2px solid var(--primary);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .level-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            background-color: var(--light);
+        }
+        
+        .level-card h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .level-card p {
+            color: var(--dark);
+            font-size: 0.9rem;
+        }
+        
+        .level-card.locked {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background-color: #f0f0f0;
+        }
+        
+        .level-card.locked:hover {
+            transform: none;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .word-preview {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--secondary);
+            min-height: 40px;
+        }
+        
+        .hint {
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--dark);
+            opacity: 0.7;
+        }
+        
+        .celebration {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100;
+            display: none;
+        }
+        
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: var(--primary);
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .letter {
+                font-size: 1.2rem;
+                padding: 8px 12px;
+                width: 40px;
+                height: 40px;
+            }
+            
+            button {
+                padding: 10px 20px;
+            }
+            
+            .level-selector {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Word Assembler</h1>
+        <p class="subtitle">Drag letters to build words and sentences!</p>
+    </header>
+    
+    <div class="container" id="level-select-screen">
+        <h2>Select a Level</h2>
+        <p>Start with Level 1 and unlock more levels as you progress!</p>
+        
+        <div class="level-selector" id="level-selector">
+            <!-- Level cards will be dynamically added here -->
+        </div>
+    </div>
+    
+    <div class="container" id="game-screen" style="display: none;">
+        <div class="game-info">
+            <div class="level-info">Level: <span id="level">1</span></div>
+            <div class="score-info">Score: <span id="score">0</span></div>
+            <div class="word-count">Word: <span id="word-count">1</span>/10</div>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        
+        <div class="game-area">
+            <div class="instructions" id="instructions">
+                Drag the letters to the slots to form the correct word
+            </div>
+            
+            <div class="word-preview" id="word-preview">
+                <!-- Word preview will be shown here -->
+            </div>
+            
+            <div class="word-container" id="word-container">
+                <!-- Letters will be dynamically added here -->
+            </div>
+            
+            <div class="target-container" id="target-container">
+                <!-- Target slots will be dynamically added here -->
+            </div>
+            
+            <div class="hint" id="hint">
+                <!-- Hint will be shown here -->
+            </div>
+            
+            <div class="feedback" id="feedback"></div>
+            
+            <div class="controls">
+                <button id="hint-btn">Get Hint</button>
+                <button id="back-btn">Back to Levels</button>
+                <button id="reset-btn">Reset Word</button>
+            </div>
+        </div>
+        
+        <div class="level-complete" id="level-complete">
+            <h2>Level Complete!</h2>
+            <p>Great job! You've successfully completed all 10 words in this level.</p>
+            <button id="continue-btn">Continue</button>
+        </div>
+    </div>
+
+    <div class="celebration" id="celebration"></div>
+
+    <script>
+        // Game data - word lists for different levels
+        const gameData = {
+            levels: [
+                // Level 1: Simple 3-4 letter words
+                {
+                    type: "word",
+                    words: [
+                        { word: "cat", hint: "A small furry animal that says 'meow'" },
+                        { word: "dog", hint: "A loyal pet that barks" },
+                        { word: "sun", hint: "The bright star that gives us light" },
+                        { word: "fish", hint: "An animal that lives in water and swims" },
+                        { word: "book", hint: "You read this to learn stories" },
+                        { word: "ball", hint: "You play games with this round object" },
+                        { word: "tree", hint: "A tall plant with leaves and branches" },
+                        { word: "house", hint: "A building where people live" },
+                        { word: "car", hint: "A vehicle with wheels that takes you places" },
+                        { word: "star", hint: "A tiny light in the night sky" }
+                    ]
+                },
+                // Level 2: 4-5 letter words
+                {
+                    type: "word",
+                    words: [
+                        { word: "apple", hint: "A red or green fruit that grows on trees" },
+                        { word: "water", hint: "A clear liquid we drink to stay alive" },
+                        { word: "happy", hint: "The feeling when you're having fun" },
+                        { word: "music", hint: "Sounds made by instruments or singing" },
+                        { word: "green", hint: "The color of grass and leaves" },
+                        { word: "smile", hint: "What you do with your mouth when you're happy" },
+                        { word: "flower", hint: "A colorful plant that smells nice" },
+                        { word: "pencil", hint: "You use this to write or draw" },
+                        { word: "friend", hint: "Someone you like to spend time with" },
+                        { word: "school", hint: "A place where children go to learn" }
+                    ]
+                },
+                // Level 3: 5-6 letter words
+                {
+                    type: "word",
+                    words: [
+                        { word: "garden", hint: "A place where flowers and vegetables grow" },
+                        { word: "yellow", hint: "The color of the sun and bananas" },
+                        { word: "animal", hint: "A living creature like a dog or cat" },
+                        { word: "family", hint: "Your parents, siblings, and relatives" },
+                        { word: "summer", hint: "The warmest season of the year" },
+                        { word: "circle", hint: "A round shape with no corners" },
+                        { word: "purple", hint: "A color made by mixing red and blue" },
+                        { word: "planet", hint: "Earth is one of these in space" },
+                        { word: "window", hint: "Glass opening in a wall to see outside" },
+                        { word: "basket", hint: "A container for carrying things" }
+                    ]
+                },
+                // Level 4: 6-7 letter words
+                {
+                    type: "word",
+                    words: [
+                        { word: "teacher", hint: "A person who helps students learn" },
+                        { word: "library", hint: "A place with many books to read" },
+                        { word: "weather", hint: "How sunny, rainy, or windy it is outside" },
+                        { word: "morning", hint: "The time of day when the sun rises" },
+                        { word: "picture", hint: "A drawing, painting, or photograph" },
+                        { word: "holiday", hint: "A special day when you don't go to school" },
+                        { word: "bicycle", hint: "A vehicle with two wheels you pedal" },
+                        { word: "kitchen", hint: "The room where food is cooked" },
+                        { word: "journey", hint: "A trip from one place to another" },
+                        { word: "country", hint: "A land with its own government and people" }
+                    ]
+                },
+                // Level 5: 7+ letter words
+                {
+                    type: "word",
+                    words: [
+                        { word: "elephant", hint: "A very large animal with a long trunk" },
+                        { word: "birthday", hint: "The day each year you celebrate being born" },
+                        { word: "mountain", hint: "A very tall natural landform" },
+                        { word: "butterfly", hint: "An insect with colorful wings" },
+                        { word: "adventure", hint: "An exciting and unusual experience" },
+                        { word: "chocolate", hint: "A sweet brown treat made from cocoa" },
+                        { word: "dinosaur", hint: "A prehistoric animal that lived long ago" },
+                        { word: "rainbow", hint: "Colorful arch in the sky after rain" },
+                        { word: "sandwich", hint: "Food with fillings between two slices of bread" },
+                        { word: "treasure", hint: "Valuable items like gold and jewels" }
+                    ]
+                },
+                // Level 6: Sentences
+                {
+                    type: "sentence",
+                    words: [
+                        { word: "The cat sat on the mat.", hint: "A simple sentence about a cat" },
+                        { word: "I like to play with my friends.", hint: "What you enjoy doing with your pals" },
+                        { word: "We go to school to learn.", hint: "Where children go for education" },
+                        { word: "The sun is bright and warm.", hint: "Describing our closest star" },
+                        { word: "I eat an apple every day.", hint: "A healthy fruit habit" },
+                        { word: "My favorite color is blue.", hint: "Expressing color preference" },
+                        { word: "Dogs are loyal animals.", hint: "A quality of man's best friend" },
+                        { word: "We read books in the library.", hint: "An activity in a quiet place" },
+                        { word: "Flowers grow in the garden.", hint: "Where plants bloom" },
+                        { word: "I love my family very much.", hint: "Expressing affection for relatives" }
+                    ]
+                }
+            ]
+        };
+
+        // Game state
+        let currentLevel = 0;
+        let currentWordIndex = 0;
+        let score = 0;
+        let draggedElement = null;
+        let progress = 0;
+        let unlockedLevels = 1; // Start with level 1 unlocked
+
+        // DOM elements
+        const levelSelectScreen = document.getElementById('level-select-screen');
+        const gameScreen = document.getElementById('game-screen');
+        const levelSelector = document.getElementById('level-selector');
+        const levelElement = document.getElementById('level');
+        const scoreElement = document.getElementById('score');
+        const wordCountElement = document.getElementById('word-count');
+        const instructionsElement = document.getElementById('instructions');
+        const wordPreviewElement = document.getElementById('word-preview');
+        const wordContainer = document.getElementById('word-container');
+        const targetContainer = document.getElementById('target-container');
+        const hintElement = document.getElementById('hint');
+        const feedbackElement = document.getElementById('feedback');
+        const hintButton = document.getElementById('hint-btn');
+        const backButton = document.getElementById('back-btn');
+        const resetButton = document.getElementById('reset-btn');
+        const continueButton = document.getElementById('continue-btn');
+        const levelCompleteElement = document.getElementById('level-complete');
+        const progressBar = document.getElementById('progress-bar');
+        const celebrationElement = document.getElementById('celebration');
+
+        // Initialize the game
+        function initGame() {
+            createLevelSelector();
+            updateProgress();
+            
+            // Event listeners
+            hintButton.addEventListener('click', showHint);
+            backButton.addEventListener('click', showLevelSelect);
+            resetButton.addEventListener('click', resetWord);
+            continueButton.addEventListener('click', continueGame);
+        }
+
+        // Create level selection screen
+        function createLevelSelector() {
+            levelSelector.innerHTML = '';
+            
+            gameData.levels.forEach((level, index) => {
+                const levelCard = document.createElement('div');
+                levelCard.className = `level-card ${index + 1 > unlockedLevels ? 'locked' : ''}`;
+                levelCard.innerHTML = `
+                    <h3>Level ${index + 1}</h3>
+                    <p>${level.type === "word" ? "Word Building" : "Sentence Building"}</p>
+                    <p>${level.words.length} words</p>
+                `;
+                
+                if (index + 1 <= unlockedLevels) {
+                    levelCard.addEventListener('click', () => {
+                        currentLevel = index;
+                        currentWordIndex = 0;
+                        loadWord(currentLevel, currentWordIndex);
+                        showGameScreen();
+                    });
+                }
+                
+                levelSelector.appendChild(levelCard);
+            });
+        }
+
+        // Show game screen
+        function showGameScreen() {
+            levelSelectScreen.style.display = 'none';
+            gameScreen.style.display = 'block';
+        }
+
+        // Show level select screen
+        function showLevelSelect() {
+            levelSelectScreen.style.display = 'block';
+            gameScreen.style.display = 'none';
+            createLevelSelector();
+        }
+
+        // Load a specific word in a level
+        function loadWord(levelIndex, wordIndex) {
+            const level = gameData.levels[levelIndex];
+            const wordData = level.words[wordIndex];
+            
+            // Update UI
+            levelElement.textContent = levelIndex + 1;
+            scoreElement.textContent = score;
+            wordCountElement.textContent = wordIndex + 1;
+            
+            // Clear containers
+            wordContainer.innerHTML = '';
+            targetContainer.innerHTML = '';
+            feedbackElement.textContent = '';
+            feedbackElement.className = 'feedback';
+            hintElement.textContent = '';
+            
+            // Update instructions based on level type
+            if (level.type === "word") {
+                instructionsElement.textContent = "Drag the letters to the slots to form the correct word";
+                wordPreviewElement.textContent = "_ ".repeat(wordData.word.length).trim();
+            } else if (level.type === "sentence") {
+                instructionsElement.textContent = "Drag the words to arrange them in the correct order to form a sentence";
+                wordPreviewElement.textContent = "";
+            }
+            
+            // Create scrambled letters/words
+            let scrambled;
+            if (level.type === "word") {
+                scrambled = scrambleWord(wordData.word);
+            } else {
+                scrambled = scrambleSentence(wordData.word);
+            }
+            
+            scrambled.forEach((item, index) => {
+                const element = document.createElement('div');
+                element.className = level.type === "word" ? 'letter' : 'word';
+                element.textContent = item;
+                element.draggable = true;
+                element.dataset.index = index;
+                
+                // Add drag events
+                element.addEventListener('dragstart', handleDragStart);
+                element.addEventListener('dragend', handleDragEnd);
+                
+                wordContainer.appendChild(element);
+            });
+            
+            // Create target slots
+            const targetCount = level.type === "word" ? wordData.word.length : scrambled.length;
+            
+            for (let i = 0; i < targetCount; i++) {
+                const slotElement = document.createElement('div');
+                slotElement.className = 'target-slot';
+                slotElement.dataset.index = i;
+                
+                // Add drop events
+                slotElement.addEventListener('dragover', handleDragOver);
+                slotElement.addEventListener('drop', handleDrop);
+                
+                targetContainer.appendChild(slotElement);
+            }
+            
+            // Reset buttons
+            levelCompleteElement.style.display = 'none';
+        }
+
+        // Scramble a word ensuring it's not in the correct order
+        function scrambleWord(word) {
+            const letters = word.split('');
+            
+            // Keep shuffling until the order is different
+            let scrambled;
+            do {
+                scrambled = [...letters];
+                for (let i = scrambled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [scrambled[i], scrambled[j]] = [scrambled[j], scrambled[i]];
+                }
+            } while (scrambled.join('') === word && word.length > 1);
+            
+            return scrambled;
+        }
+
+        // Scramble a sentence ensuring it's not in the correct order
+        function scrambleSentence(sentence) {
+            // Remove punctuation for scrambling
+            const cleanSentence = sentence.replace(/[.,!?;:]$/, '');
+            const words = cleanSentence.split(' ');
+            
+            // Keep shuffling until the order is different
+            let scrambled;
+            do {
+                scrambled = [...words];
+                for (let i = scrambled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [scrambled[i], scrambled[j]] = [scrambled[j], scrambled[i]];
+                }
+            } while (scrambled.join(' ') === cleanSentence && words.length > 1);
+            
+            // Add punctuation back to the last word
+            if (sentence !== cleanSentence) {
+                const lastWord = scrambled[scrambled.length - 1];
+                scrambled[scrambled.length - 1] = lastWord + sentence.slice(cleanSentence.length);
+            }
+            
+            return scrambled;
+        }
+
+        // Drag and drop handlers
+        function handleDragStart(e) {
+            draggedElement = this;
+            this.classList.add('dragging');
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/html', this.innerHTML);
+        }
+
+        function handleDragEnd() {
+            this.classList.remove('dragging');
+            draggedElement = null;
+        }
+
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'move';
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            
+            if (draggedElement) {
+                // If the target slot already has content, swap them
+                if (this.hasChildNodes()) {
+                    const existingContent = this.firstChild;
+                    wordContainer.appendChild(existingContent);
+                }
+                
+                // Move the dragged element to the target slot
+                this.appendChild(draggedElement);
+                this.classList.add('filled');
+                
+                // Update word preview
+                updateWordPreview();
+                
+                // Check if all slots are filled and validate answer
+                if (checkAllFilled()) {
+                    validateAnswer();
+                }
+            }
+        }
+
+        // Update the word preview with current letters
+        function updateWordPreview() {
+            const level = gameData.levels[currentLevel];
+            const wordData = level.words[currentWordIndex];
+            
+            if (level.type === "word") {
+                const slots = document.querySelectorAll('.target-slot');
+                let preview = "";
+                
+                slots.forEach(slot => {
+                    if (slot.hasChildNodes()) {
+                        preview += slot.firstChild.textContent + " ";
+                    } else {
+                        preview += "_ ";
+                    }
+                });
+                
+                wordPreviewElement.textContent = preview.trim();
+            } else if (level.type === "sentence") {
+                const slots = document.querySelectorAll('.target-slot');
+                let preview = "";
+                
+                slots.forEach(slot => {
+                    if (slot.hasChildNodes()) {
+                        preview += slot.firstChild.textContent + " ";
+                    }
+                });
+                
+                wordPreviewElement.textContent = preview.trim();
+            }
+        }
+
+        // Check if all target slots are filled
+        function checkAllFilled() {
+            const slots = document.querySelectorAll('.target-slot');
+            return Array.from(slots).every(slot => slot.hasChildNodes());
+        }
+
+        // Show hint for the current word
+        function showHint() {
+            const level = gameData.levels[currentLevel];
+            const wordData = level.words[currentWordIndex];
+            hintElement.textContent = `Hint: ${wordData.hint}`;
+            
+            // Disable hint button for a short time
+            hintButton.disabled = true;
+            setTimeout(() => {
+                hintButton.disabled = false;
+            }, 3000);
+        }
+
+        // Validate the player's answer
+        function validateAnswer() {
+            const level = gameData.levels[currentLevel];
+            const wordData = level.words[currentWordIndex];
+            let userAnswer = "";
+            
+            // Get user's answer from slots
+            const slots = document.querySelectorAll('.target-slot');
+            
+            if (level.type === "word") {
+                slots.forEach(slot => {
+                    const letterElement = slot.firstChild;
+                    userAnswer += letterElement.textContent;
+                });
+            } else if (level.type === "sentence") {
+                userAnswer = Array.from(slots).map(slot => slot.firstChild.textContent).join(" ");
+            }
+            
+            // Check if answer is correct
+            const isCorrect = userAnswer === wordData.word;
+            
+            // Provide immediate feedback
+            if (isCorrect) {
+                feedbackElement.textContent = "Correct! Well done! 🎉";
+                feedbackElement.className = "feedback success";
+                score += 10;
+                scoreElement.textContent = score;
+                
+                // Show celebration
+                showCelebration();
+                
+                // Move to next word after a delay
+                setTimeout(() => {
+                    nextWord();
+                }, 1500);
+            } else {
+                feedbackElement.textContent = "Not quite right. Try again!";
+                feedbackElement.className = "feedback error";
+                
+                // Highlight incorrect letters/words
+                if (level.type === "word") {
+                    slots.forEach((slot, index) => {
+                        const letterElement = slot.firstChild;
+                        const correctLetter = wordData.word[index];
+                        
+                        if (letterElement.textContent !== correctLetter) {
+                            letterElement.style.backgroundColor = 'rgba(220, 53, 69, 0.2)';
+                        }
+                    });
+                }
+            }
+        }
+
+        // Show celebration animation
+        function showCelebration() {
+            celebrationElement.style.display = 'block';
+            celebrationElement.innerHTML = '';
+            
+            // Create confetti
+            for (let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.backgroundColor = getRandomColor();
+                confetti.style.animation = `fall ${Math.random() * 3 + 2}s linear forwards`;
+                celebrationElement.appendChild(confetti);
+            }
+            
+            // Hide celebration after animation
+            setTimeout(() => {
+                celebrationElement.style.display = 'none';
+            }, 3000);
+            
+            // Add CSS animation for falling
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes fall {
+                    to {
+                        transform: translateY(100vh) rotate(${Math.random() * 360}deg);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        // Get random color for confetti
+        function getRandomColor() {
+            const colors = ['#4361ee', '#3a0ca3', '#4cc9f0', '#4bb543', '#ffcc00', '#dc3545'];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        // Move to the next word
+        function nextWord() {
+            currentWordIndex++;
+            
+            // Check if level is complete
+            if (currentWordIndex >= gameData.levels[currentLevel].words.length) {
+                // Unlock next level if applicable
+                if (currentLevel + 1 === unlockedLevels) {
+                    unlockedLevels++;
+                }
+                
+                // Show level complete
+                levelCompleteElement.style.display = 'block';
+            } else {
+                // Load next word
+                loadWord(currentLevel, currentWordIndex);
+            }
+            
+            // Update progress
+            progress = ((currentWordIndex) / gameData.levels[currentLevel].words.length) * 100;
+            updateProgress();
+        }
+
+        // Reset the current word
+        function resetWord() {
+            loadWord(currentLevel, currentWordIndex);
+        }
+
+        // Continue after level complete
+        function continueGame() {
+            levelCompleteElement.style.display = 'none';
+            showLevelSelect();
+        }
+
+        // Update progress bar
+        function updateProgress() {
+            progressBar.style.width = `${progress}%`;
+        }
+
+        // Initialize the game when the page loads
+        window.addEventListener('DOMContentLoaded', initGame);
+    </script>
+</body>
+</html>

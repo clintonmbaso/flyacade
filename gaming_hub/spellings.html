@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpellMaster - Listening Challenge</title>
+    <style>
+        :root {
+            --primary: #4361ee;
+            --secondary: #3a0ca3;
+            --accent: #f72585;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --success: #4cc9f0;
+            --warning: #ffba08;
+            --danger: #f94144;
+            --gray: #6c757d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            width: 90%;
+            max-width: 600px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .game-content {
+            padding: 25px;
+        }
+
+        .grade-selector {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .grade-btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 50px;
+            background-color: #e9ecef;
+            color: var(--dark);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .grade-btn:hover {
+            background-color: #dee2e6;
+        }
+
+        .grade-btn.active {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .game-card {
+            background: var(--light);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .word-display {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin: 20px 0;
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            text-align: center;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary);
+        }
+
+        .btn-secondary {
+            background-color: var(--light);
+            color: var(--dark);
+        }
+
+        .btn-secondary:hover {
+            background-color: #e9ecef;
+        }
+
+        .btn-speak {
+            background-color: var(--success);
+            color: white;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .btn-speak:hover {
+            background-color: #3aa5d0;
+        }
+
+        .feedback {
+            min-height: 60px;
+            margin: 15px 0;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .correct {
+            color: var(--success);
+        }
+
+        .incorrect {
+            color: var(--danger);
+        }
+
+        .score-display {
+            display: flex;
+            justify-content: space-between;
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .progress-container {
+            margin-top: 20px;
+            background-color: #e9ecef;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: var(--success);
+            width: 0%;
+            transition: width 0.5s;
+        }
+
+        .hint-text {
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .instructions {
+            background-color: #e9f7ff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .instructions ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .grade-btn {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
+            
+            .word-display {
+                font-size: 2rem;
+            }
+        }
+
+        /* Animation for correct/incorrect feedback */
+        @keyframes pop {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .pop-animation {
+            animation: pop 0.5s ease;
+        }
+        
+        /* Sound wave animation */
+        .sound-waves {
+            display: flex;
+            justify-content: center;
+            gap: 3px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        
+        .wave {
+            width: 4px;
+            height: 100%;
+            background-color: var(--primary);
+            border-radius: 2px;
+            animation: wave 1.2s infinite ease-in-out;
+        }
+        
+        .wave:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+        
+        .wave:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+        
+        .wave:nth-child(4) {
+            animation-delay: 0.3s;
+        }
+        
+        .wave:nth-child(5) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes wave {
+            0%, 100% { transform: scaleY(0.3); }
+            50% { transform: scaleY(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SpellMaster</h1>
+            <p class="subtitle">The Ultimate Listening & Spelling Challenge</p>
+        </div>
+        
+        <div class="game-content">
+            <div class="instructions">
+                <h3>How to Play:</h3>
+                <ul>
+                    <li>Select your grade level</li>
+                    <li>Click "Hear Word" to listen to the word</li>
+                    <li>Type the word you heard in the text box</li>
+                    <li>Click "Submit" to check your spelling</li>
+                    <li>Use "Hint" if you need help</li>
+                </ul>
+            </div>
+            
+            <div class="grade-selector">
+                <button class="grade-btn active" data-grade="1">G1</button>
+                <button class="grade-btn" data-grade="2">G2</button>
+                <button class="grade-btn" data-grade="3">G3</button>
+                <button class="grade-btn" data-grade="4">G4</button>
+                <button class="grade-btn" data-grade="5">G5</button>
+                <button class="grade-btn" data-grade="6">G6</button>
+                <button class="grade-btn" data-grade="7">G7</button>
+                <button class="grade-btn" data-grade="8">G8</button>
+                <button class="grade-btn" data-grade="9">G9</button>
+                <button class="grade-btn" data-grade="10">G10</button>
+                <button class="grade-btn" data-grade="11">G11</button>
+                <button class="grade-btn" data-grade="12">G12</button>
+            </div>
+            
+            <div class="game-card">
+                <div class="word-display" id="wordDisplay">
+                    <button class="btn-speak" id="speakButton">
+                        <span>🔊</span> Hear Word
+                    </button>
+                    <div class="sound-waves" id="soundWaves" style="display: none;">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" id="spellingInput" placeholder="Type the word you hear" disabled>
+                </div>
+                
+                <div class="feedback" id="feedback"></div>
+                
+                <div class="buttons">
+                    <button class="btn-primary" id="submitButton" disabled>Submit</button>
+                    <button class="btn-secondary" id="hintButton" disabled>Hint</button>
+                </div>
+                
+                <div class="score-display">
+                    <span>Score: <span id="score">0</span></span>
+                    <span>Level: <span id="level">1</span></span>
+                    <span>Streak: <span id="streak">0</span></span>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                
+                <p class="hint-text" id="hintText"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // DOM Elements
+            const wordDisplay = document.getElementById('wordDisplay');
+            const spellingInput = document.getElementById('spellingInput');
+            const feedback = document.getElementById('feedback');
+            const submitButton = document.getElementById('submitButton');
+            const hintButton = document.getElementById('hintButton');
+            const speakButton = document.getElementById('speakButton');
+            const soundWaves = document.getElementById('soundWaves');
+            const scoreDisplay = document.getElementById('score');
+            const levelDisplay = document.getElementById('level');
+            const streakDisplay = document.getElementById('streak');
+            const progressBar = document.getElementById('progressBar');
+            const hintText = document.getElementById('hintText');
+            const gradeButtons = document.querySelectorAll('.grade-btn');
+            
+            // Game variables
+            let currentWord = '';
+            let score = 0;
+            let level = 1;
+            let streak = 0;
+            let gameActive = false;
+            let currentGrade = 1;
+            let wordsList = [];
+            let usedWords = [];
+            let speechSynthesis = window.speechSynthesis;
+            
+            // Word lists by grade level
+            const gradeWords = {
+                1: ['cat', 'dog', 'sun', 'run', 'hat', 'ball', 'red', 'blue', 'green', 'jump'],
+                2: ['fish', 'book', 'tree', 'rain', 'ship', 'friend', 'house', 'school', 'water', 'happy'],
+                3: ['animal', 'family', 'garden', 'window', 'bottle', 'morning', 'number', 'people', 'yellow', 'orange'],
+                4: ['country', 'weather', 'library', 'question', 'mountain', 'favorite', 'beautiful', 'important', 'different', 'sometimes'],
+                5: ['government', 'environment', 'education', 'community', 'knowledge', 'language', 'mountain', 'ocean', 'planet', 'science'],
+                6: ['appreciate', 'conscious', 'determine', 'excellent', 'fascinating', 'guarantee', 'hindrance', 'illustrate', 'jurisdiction', 'knowledgeable'],
+                7: ['acquiesce', 'benevolent', 'conscientious', 'deleterious', 'ephemeral', 'facilitate', 'gregarious', 'hypocrisy', 'idiosyncrasy', 'juxtaposition'],
+                8: ['ambiguous', 'cacophony', 'diligence', 'equivocate', 'flabbergasted', 'gregarious', 'hierarchy', 'iconoclast', 'magnanimous', 'nefarious'],
+                9: ['aberrant', 'bellicose', 'cognizant', 'didactic', 'efficacious', 'garrulous', 'harangue', 'idempotent', 'laconic', 'magnanimous'],
+                10: ['antithesis', 'bourgeois', 'circumlocution', 'demagogue', 'epistemology', 'heterogeneous', 'iconoclastic', 'lexicography', 'metamorphosis', 'onomatopoeia'],
+                11: ['acquiescence', 'bombastic', 'circumspect', 'demure', 'ebullient', 'fastidious', 'grandiloquent', 'hegemony', 'idiosyncratic', 'juggernaut'],
+                12: ['antidisestablishmentarianism', 'circumnavigation', 'deoxyribonucleic', 'extraterrestrial', 'incomprehensibility', 'internationalization', 'otorhinolaryngological', 'pneumonoultramicroscopicsilicovolcanoconiosis', 'supercalifragilisticexpialidocious', 'uncharacteristically']
+            };
+            
+            // Set up grade selection
+            gradeButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    gradeButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    currentGrade = parseInt(this.dataset.grade);
+                    resetGame();
+                });
+            });
+            
+            // Speak button
+            speakButton.addEventListener('click', function() {
+                if (gameActive) {
+                    speakWord();
+                }
+            });
+            
+            // Submit button
+            submitButton.addEventListener('click', checkSpelling);
+            
+            // Hint button
+            hintButton.addEventListener('click', showHint);
+            
+            // Allow pressing Enter to submit
+            spellingInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && gameActive) {
+                    checkSpelling();
+                }
+            });
+            
+            // Start the game when the speak button is first clicked
+            speakButton.addEventListener('click', function() {
+                if (!gameActive) {
+                    startGame();
+                }
+            });
+            
+            // Start the game
+            function startGame() {
+                gameActive = true;
+                score = 0;
+                level = 1;
+                streak = 0;
+                usedWords = [];
+                scoreDisplay.textContent = score;
+                levelDisplay.textContent = level;
+                streakDisplay.textContent = streak;
+                progressBar.style.width = '0%';
+                submitButton.disabled = false;
+                hintButton.disabled = false;
+                spellingInput.disabled = false;
+                spellingInput.focus();
+                feedback.textContent = '';
+                hintText.textContent = '';
+                
+                // Load words for selected grade
+                wordsList = [...gradeWords[currentGrade]];
+                nextWord();
+            }
+            
+            // Get next word
+            function nextWord() {
+                // Filter out used words
+                const availableWords = wordsList.filter(word => !usedWords.includes(word));
+                
+                if (availableWords.length === 0) {
+                    // All words used, reset for this level
+                    usedWords = [];
+                    level++;
+                    levelDisplay.textContent = level;
+                    progressBar.style.width = '0%';
+                    nextWord();
+                    return;
+                }
+                
+                // Select random word
+                const randomIndex = Math.floor(Math.random() * availableWords.length);
+                currentWord = availableWords[randomIndex];
+                usedWords.push(currentWord);
+                
+                // Clear input and feedback
+                spellingInput.value = '';
+                feedback.textContent = '';
+                hintText.textContent = '';
+                
+                // Update progress
+                const progress = (usedWords.length / wordsList.length) * 100;
+                progressBar.style.width = `${progress}%`;
+                
+                // Speak the word
+                speakWord();
+            }
+            
+            // Check spelling
+            function checkSpelling() {
+                const userInput = spellingInput.value.trim().toLowerCase();
+                
+                if (userInput === '') {
+                    feedback.textContent = 'Please type the word first!';
+                    feedback.className = 'feedback incorrect';
+                    return;
+                }
+                
+                if (userInput === currentWord.toLowerCase()) {
+                    // Correct spelling
+                    score += (currentGrade * level);
+                    streak++;
+                    scoreDisplay.textContent = score;
+                    streakDisplay.textContent = streak;
+                    feedback.innerHTML = '<span class="correct">Correct! Well done!</span>';
+                    
+                    if (streak % 5 === 0) {
+                        feedback.innerHTML += '<br>Amazing streak! Keep it up!';
+                    }
+                    
+                    feedback.className = 'feedback correct';
+                    
+                    // Animation
+                    feedback.classList.add('pop-animation');
+                    setTimeout(() => feedback.classList.remove('pop-animation'), 500);
+                    
+                    // Next word after a short delay
+                    setTimeout(nextWord, 2000);
+                } else {
+                    // Incorrect spelling
+                    streak = 0;
+                    streakDisplay.textContent = streak;
+                    feedback.innerHTML = `<span class="incorrect">Incorrect!</span><br>The word was: <strong>${currentWord}</strong>`;
+                    feedback.className = 'feedback incorrect';
+                    
+                    // Next word after a longer delay to allow learning
+                    setTimeout(nextWord, 3000);
+                }
+            }
+            
+            // Show hint
+            function showHint() {
+                if (!gameActive) return;
+                
+                const hint = currentWord.replace(/[a-z]/gi, '_ ');
+                hintText.textContent = `Hint: ${hint}`;
+                
+                // Deduct points for using hint
+                score = Math.max(0, score - currentGrade);
+                scoreDisplay.textContent = score;
+            }
+            
+            // Speak the word using browser's speech synthesis
+            function speakWord() {
+                if (!gameActive) return;
+                
+                // Show sound animation
+                soundWaves.style.display = 'flex';
+                
+                const speech = new SpeechSynthesisUtterance(currentWord);
+                speech.rate = 0.8;
+                speech.pitch = 1.2;
+                
+                if (currentGrade <= 3) {
+                    // Speak slowly for younger grades
+                    speech.rate = 0.7;
+                }
+                
+                speech.onend = function() {
+                    // Hide sound animation when done
+                    soundWaves.style.display = 'none';
+                    spellingInput.focus();
+                };
+                
+                window.speechSynthesis.speak(speech);
+            }
+            
+            // Reset game
+            function resetGame() {
+                gameActive = false;
+                submitButton.disabled = true;
+                hintButton.disabled = true;
+                spellingInput.disabled = true;
+                spellingInput.value = '';
+                feedback.textContent = 'Select your grade and click "Hear Word" to start!';
+                feedback.className = 'feedback';
+                scoreDisplay.textContent = '0';
+                levelDisplay.textContent = '1';
+                streakDisplay.textContent = '0';
+                progressBar.style.width = '0%';
+                hintText.textContent = '';
+                soundWaves.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
