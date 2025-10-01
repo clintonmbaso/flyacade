@@ -158,10 +158,10 @@ function searchLessonPlans(event) {
 
 // Define a mapping of grade to teacher's name
 const teacherNames = {
-    "Baby Birds": "Mrs. Hellen Lyashi",
-    "Sky Sprouts": "Mrs. Hellen Lyashi",
-    "Nestlings Navigators": "Ms. Ethel Simachila",
-    "Feather Flyers": "Ms. Ethel Simachila",
+    "Baby Birds": "Mrs. Kuligwa Siazyana",
+    "Sky Sprouts": "Mrs. Kuligwa Siazyana",
+    "Nestlings Navigators": "Mr. Clinton Mbaso",
+    "Feather Flyers": "Mr. Clinton Mbaso",
     "Cloud Chicks": "Ms. Faith Nakaonga",
     "Wing Whiz": "Ms. Faith Nakaonga",
     "Sky Soarers": "Mr. Clinton Mbaso",
