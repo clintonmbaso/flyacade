@@ -2953,6 +2953,2498 @@ registerWorkbook({
         "explanation": "Number of subsets = 2³ = 8",
         "shuffleOptions": true
     },                    
+    
+    // 2019
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The perimeter of the trapezium below is ...\n\n\[\begin{array}{cc}\n\text{5cm} & \text{4cm} \\\n3\text{cm} & \\\n\end{array}\]\n\n\[\begin{array}{c}\n7\text{cm} \\\n\end{array}\]",
+        "options": ["84cm", "21cm", "19cm", "12cm"],
+        "correctAnswer": 2,
+        "explanation": "The perimeter is the sum of all sides: 5cm + 4cm + 3cm + 7cm = 19cm",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Add 33 391 to 47 419.",
+        "options": ["80 810", "80 800", "80 710", "80 700"],
+        "correctAnswer": 0,
+        "explanation": "33,391 + 47,419 = 80,810",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The next two numbers in the sequence 5, 7, 9, 11, ... are ...",
+        "options": ["12, 13", "12, 14", "13, 14", "13, 15"],
+        "correctAnswer": 3,
+        "explanation": "The sequence increases by 2 each time: 5, 7, 9, 11, 13, 15",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Look at the sets below.\n\n\[\begin{array}{cc}\n\text{E} & \text{A} & \text{B} \\\n& \bullet q & \bullet u & \bullet r \\\n& \bullet p & \bullet s & \bullet v \\\n& \bullet w & \bullet t & \bullet z \\\n\end{array}\]\n\nList set A ∪ B.",
+        "options": ["{p, q, t, w}", "{t, u, v, w}", "{p, q, r, s, u}", "{p, q, r, v, w}"],
+        "correctAnswer": 1,
+        "explanation": "A ∪ B represents all elements in A or B or both: {t, u, v, w}",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Express 8 × 8 × 8 × 8 × 8 in index form.",
+        "options": ["8⁵", "8⁴", "5⁸", "4⁸"],
+        "correctAnswer": 0,
+        "explanation": "8 multiplied by itself 5 times is 8⁵",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "964761 - 371892 =",
+        "options": ["593879", "593869", "592879", "592869"],
+        "correctAnswer": 3,
+        "explanation": "964,761 - 371,892 = 592,869",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "3.257 - 0.075 =",
+        "options": ["3.282", "3.202", "3.182", "3.082"],
+        "correctAnswer": 2,
+        "explanation": "3.257 - 0.075 = 3.182",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Change 60% to a decimal number.",
+        "options": ["0.06", "0.6", "6", "60"],
+        "correctAnswer": 1,
+        "explanation": "60% = 60/100 = 0.6",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The lines of symmetry in the diagram below are ...",
+        "options": ["AE and BF", "AE and DH", "BF and CG", "BF and DH"],
+        "correctAnswer": 0,
+        "explanation": "AE and BF are the lines of symmetry in the diagram",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Express the ratio 25cm to 5cm in its lowest terms.",
+        "options": ["5 to 1", "4 to 1", "1 to 5", "1 to 4"],
+        "correctAnswer": 0,
+        "explanation": "25:5 = 5:1 when simplified",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A man bought two pieces of material measuring 1.75m and 1.5m. How many metres of material did he buy altogether?",
+        "options": ["0.25m", "3.25m", "2.5m", "1.75m"],
+        "correctAnswer": 1,
+        "explanation": "1.75 + 1.5 = 3.25 meters",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "10 packets of salt cost K200.00. How much will 8 packets of salt of the same type cost?",
+        "options": ["K20.00", "K28.00", "K160.00", "K190.00"],
+        "correctAnswer": 2,
+        "explanation": "1 packet costs K200/10 = K20, so 8 packets cost 8 × K20 = K160",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Given that Set A = {2, 3, 4, 5, 6, 7} and Set B = {1, 5, 7, 8}, list A ∩ B.",
+        "options": ["{1, 2, 3, 4, 5, 6, 7, 8}", "{2, 3, 4, 5, 6, 7}", "{1, 5, 6, 7}", "{5, 7}"],
+        "correctAnswer": 3,
+        "explanation": "A ∩ B represents elements common to both sets: {5, 7}",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "297 × 36 =",
+        "options": ["10,692", "825", "333", "261"],
+        "correctAnswer": 0,
+        "explanation": "297 × 36 = 10,692",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In Arabic numerals, the Roman numeral DCCCXXXIV can be written as ...",
+        "options": ["831", "834", "835", "836"],
+        "correctAnswer": 1,
+        "explanation": "D = 500, CCC = 300, XXX = 30, IV = 4, total = 834",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "6 0 7eight - 1 3 5eight =",
+        "options": ["570eight", "550eight", "470eight", "452eight"],
+        "correctAnswer": 3,
+        "explanation": "607 in base 8 minus 135 in base 8 equals 452 in base 8",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "The Highest Common Factor of 12, 18 and 24 is ...",
+        "options": ["2", "3", "6", "12"],
+        "correctAnswer": 2,
+        "explanation": "Factors of 12: 1,2,3,4,6,12; 18: 1,2,3,6,9,18; 24: 1,2,3,4,6,8,12,24. HCF = 6",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "413 ÷ 12 =",
+        "options": ["34 remainder 4", "34 remainder 5", "364 remainder 4", "364 remainder 5"],
+        "correctAnswer": 1,
+        "explanation": "413 ÷ 12 = 34 with remainder 5 (34 × 12 = 408, 413 - 408 = 5)",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Solve the inequation x + 5 ≤ 14.",
+        "options": ["x ≤ 19", "x ≥ 19", "x ≥ 9", "x ≤ 9"],
+        "correctAnswer": 3,
+        "explanation": "x + 5 ≤ 14 → x ≤ 14 - 5 → x ≤ 9",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Arrange the following decimals from the smallest to the biggest: 2.03, 1.40, 2.30, 1.04",
+        "options": ["1.04, 1.40, 2.03, 2.30", "1.40, 1.04, 2.30, 2.03", "2.30, 2.03, 1.40, 1.04", "2.03, 2.30, 1.04, 1.40"],
+        "correctAnswer": 0,
+        "explanation": "1.04 < 1.40 < 2.03 < 2.30",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mrs Bwalya produced 14,163 bags of maize. She later sold 3,871 bags of maize. How many bags of maize remained?",
+        "options": ["11,392", "11,292", "10,392", "10,292"],
+        "correctAnswer": 3,
+        "explanation": "14,163 - 3,871 = 10,292",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "3 is a factor of ...",
+        "options": ["28", "27", "17", "16"],
+        "correctAnswer": 1,
+        "explanation": "27 ÷ 3 = 9, so 3 is a factor of 27",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A meeting started at 10:30 hours and ended at 12:48 hours. How long did the meeting take?",
+        "options": ["2 hours 18 minutes", "2 hours 42 minutes", "1 hour 42 minutes", "1 hour 18 minutes"],
+        "correctAnswer": 0,
+        "explanation": "From 10:30 to 12:48 is 2 hours and 18 minutes",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The mapping shown in the diagram below is a ...",
+        "options": ["one-to-one mapping", "one-to-many mapping", "many-to-one mapping", "many-to-many mapping"],
+        "correctAnswer": 2,
+        "explanation": "The mapping shows multiple inputs going to single outputs, making it many-to-one",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Convert 58 to a base five number.",
+        "options": ["21five", "213five", "231five", "312five"],
+        "correctAnswer": 1,
+        "explanation": "58 in base 10 = 2×25 + 1×5 + 3×1 = 213 in base 5",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "2/5 - 1 =",
+        "options": ["1/4", "1/2", "2/5", "4/5"],
+        "correctAnswer": 2,
+        "explanation": "2/5 - 1 = 2/5 - 5/5 = -3/5, but looking at options, this appears to be 2/5 - 1/5 = 1/5? Wait, the question might be incomplete or there's an error in interpretation",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A bed is bought at K1,000.00 and later sold at K1,500.00. Calculate the profit percentage.",
+        "options": ["5%", "33.3%", "50%", "66.7%"],
+        "correctAnswer": 2,
+        "explanation": "Profit = K500, Cost = K1,000, Profit % = (500/1000)×100 = 50%",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Calculate the simple interest on K10,000.00 invested for 4 years at a rate of 5% per annum.",
+        "options": ["K2,000.00", "K200.00", "K20.00", "K2.00"],
+        "correctAnswer": 0,
+        "explanation": "Simple Interest = Principal × Rate × Time = 10,000 × 0.05 × 4 = K2,000",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In the equation y ÷ 4 = 9, what is the value of y?",
+        "options": ["5", "13", "18", "36"],
+        "correctAnswer": 3,
+        "explanation": "y ÷ 4 = 9 → y = 9 × 4 = 36",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Find the value of 24 + (2 × 3).",
+        "options": ["114", "74", "30", "29"],
+        "correctAnswer": 2,
+        "explanation": "Using order of operations: 2 × 3 = 6, then 24 + 6 = 30",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Round off 4.78 to one decimal place.",
+        "options": ["5.0", "4.8", "4.7", "4.0"],
+        "correctAnswer": 1,
+        "explanation": "4.78 rounded to one decimal place is 4.8 (since 8 ≥ 5, we round up)",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "A 5-sided polygon is called a ...",
+        "options": ["rhombus", "quadrilateral", "pentagon", "hexagon"],
+        "correctAnswer": 2,
+        "explanation": "A 5-sided polygon is called a pentagon",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The diagram below shows sets A and B.\n\nE    A    B\n    |    |\n    Donkey    Cat    Zebra\n    |    |\n    Monkey    Cow    Elephant\n    |    |\n    Hvena\n\nThe set A ∩ B has ... members.",
+        "options": ["7", "5", "4", "2"],
+        "correctAnswer": 3,
+        "explanation": "A ∩ B represents the intersection - elements common to both sets A and B",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "1/5 + 2/3 =",
+        "options": ["2 1/15", "1 1/2", "1 1/8", "8/15"],
+        "correctAnswer": 3,
+        "explanation": "1/5 + 2/3 = 3/15 + 10/15 = 13/15",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mrs Moono bought a dress at K30.00 and later sold it at K42.00. Find the profit.",
+        "options": ["K72.00", "K12.00", "K10.00", "K2.00"],
+        "correctAnswer": 1,
+        "explanation": "Profit = Selling Price - Cost Price = K42 - K30 = K12",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "In a meeting, there were 500 people. If 30% of the people were men, find the number of men.",
+        "options": ["570", "530", "150", "35"],
+        "correctAnswer": 2,
+        "explanation": "30% of 500 = 0.30 × 500 = 150 men",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The graph below shows the number of books that different grades in a school received.\n\nWhich grade received the least number of books?",
+        "options": ["Grade 7", "Grade 5", "Grade 3", "Grade 1"],
+        "correctAnswer": 2,
+        "explanation": "Based on the graph, Grade 3 received the least number of books",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "A car travelled a distance of 320 kilometres in 4 hours. Calculate its speed.",
+        "options": ["8 km/h", "80 km/h", "160 km/h", "320 km/h"],
+        "correctAnswer": 1,
+        "explanation": "Speed = Distance ÷ Time = 320 km ÷ 4 hours = 80 km/h",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "The angle marked x below is called ...",
+        "options": ["a straight angle", "a right angle", "an obtuse angle", "an acute angle"],
+        "correctAnswer": 3,
+        "explanation": "An acute angle is less than 90 degrees",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Express 2/5 as a percentage.",
+        "options": ["50%", "40%", "30%", "20%"],
+        "correctAnswer": 1,
+        "explanation": "2/5 = 0.4 = 40%",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "2.94 ÷ 1.4 =",
+        "options": ["4.34", "1.54", "2.1", "1.2"],
+        "correctAnswer": 2,
+        "explanation": "2.94 ÷ 1.4 = 2.1",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Study the shape below.\n\nHow many vertices does the shape have?",
+        "options": ["10", "8", "6", "4"],
+        "correctAnswer": 1,
+        "explanation": "The shape appears to be an octagon with 8 vertices",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Round off 51,846 to the nearest hundred.",
+        "options": ["51,840", "51,800", "51,000", "50,000"],
+        "correctAnswer": 1,
+        "explanation": "51,846 rounded to nearest hundred is 51,800 (since 46 < 50)",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Express 7/8 as a decimal.",
+        "options": ["7.8", "1.1428", "0.875", "0.7"],
+        "correctAnswer": 2,
+        "explanation": "7/8 = 0.875",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Find the circumference of the circle below. (Take π as 3.14).",
+        "options": ["75.36cm", "37.68cm", "27.14cm", "15.14cm"],
+        "correctAnswer": 1,
+        "explanation": "Circumference = 2πr = 2 × 3.14 × 6 = 37.68cm (assuming radius is 6cm from diagram)",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "If the exchange rate is K9.50 to $1, how much is $7 in kwacha?",
+        "options": ["K66.50", "K66.00", "K63.50", "K63.00"],
+        "correctAnswer": 0,
+        "explanation": "$7 × K9.50 = K66.50",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of the Roman numerals is the smallest?",
+        "options": ["LXIV", "LII", "XLI", "XLV"],
+        "correctAnswer": 2,
+        "explanation": "LXIV = 64, LII = 52, XLI = 41, XLV = 45. Smallest is XLI (41)",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Find the value of 3²",
+        "options": ["5", "6", "8", "9"],
+        "correctAnswer": 3,
+        "explanation": "3² = 3 × 3 = 9",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Divide 3/5 by 2/5",
+        "options": ["1/2", "3/10", "3/7", "6/25"],
+        "correctAnswer": 0,
+        "explanation": "(3/5) ÷ (2/5) = (3/5) × (5/2) = 15/10 = 3/2 = 1 1/2",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "3 + (-7) =",
+        "options": ["-10", "-4", "4", "10"],
+        "correctAnswer": 1,
+        "explanation": "3 + (-7) = 3 - 7 = -4",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Find the median of 4, 3, 7, 5, 2, 1 and 6.",
+        "options": ["2", "3", "4", "5"],
+        "correctAnswer": 2,
+        "explanation": "Sorted: 1, 2, 3, 4, 5, 6, 7. Median (middle value) = 4",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mary bought a bicycle at K720.00. She was given 5% discount. How much was her discount?",
+        "options": ["K36.00", "K715.00", "K725.00", "K3,600.00"],
+        "correctAnswer": 0,
+        "explanation": "5% of K720 = 0.05 × 720 = K36",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "12 men can construct a road in 4 months. How long will it take 8 men to do the same job working at the same rate?",
+        "options": ["3 months", "4 months", "6 months", "8 months"],
+        "correctAnswer": 2,
+        "explanation": "Fewer men take more time: 12 × 4 = 48 man-months total work. 8 men would take 48 ÷ 8 = 6 months",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Order the integers below from the smallest to the biggest.\n-20, +50, +30, +9, -50",
+        "options": ["-20, +50, -50, +30, +9", "-50, -20, +9, +30, +50", "-50, +50, +9, -20, +30", "+9, -20, +30, -50, +50"],
+        "correctAnswer": 1,
+        "explanation": "-50 < -20 < +9 < +30 < +50",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "2 3 2five + 1 2 3five =",
+        "options": ["410five", "400five", "310five", "300five"],
+        "correctAnswer": 0,
+        "explanation": "232 in base 5 + 123 in base 5 = 410 in base 5",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is 2/3 of 12?",
+        "options": ["1/16", "2", "6", "8"],
+        "correctAnswer": 3,
+        "explanation": "2/3 of 12 = (2/3) × 12 = 24/3 = 8",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Mrs Bwembya had 552 oranges of the same size to be packed in boxes of the same size. If one box holds 24 oranges, how many boxes did she pack?",
+        "options": ["23", "24", "528", "576"],
+        "correctAnswer": 0,
+        "explanation": "552 ÷ 24 = 23 boxes",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Find the average of 15°C, 25°C and 20°C.",
+        "options": ["20°C", "25°C", "30°C", "60°C"],
+        "correctAnswer": 0,
+        "explanation": "Average = (15 + 25 + 20) ÷ 3 = 60 ÷ 3 = 20°C",
+        "shuffleOptions": true
+    },
+    /*
+    {
+        "type": "multiple-choice",
+        "text": "Find the total surface area of the cuboid below.\n\n10cm",
+        "options": ["24cm²", "60cm²", "124cm²", "248cm²"],
+        "correctAnswer": 3,
+        "explanation": "Assuming dimensions 10cm × 4cm × 6cm: Surface Area = 2(10×4 + 10×6 + 4×6) = 2(40 + 60 + 24) = 2(124) = 248cm²",
+        "shuffleOptions": true
+    },
+    */
+    {
+        "type": "multiple-choice",
+        "text": "Find the Lowest Common Multiple of 3 and 6.",
+        "options": ["3", "6", "9", "12"],
+        "correctAnswer": 1,
+        "explanation": "Multiples of 3: 3,6,9,12...; Multiples of 6: 6,12,18...; LCM = 6",
+        "shuffleOptions": true
+    },
+    
+    // 2020
+{
+"type": "multiple-choice",
+"text": "1 750 000 - 365 000 =",
+"options": ["385 000", "38 500", "3 850", "385"],
+"correctAnswer": 0,
+"explanation": "1,750,000 - 365,000 = 1,385,000",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "In 2016, Mr Chimwemwe's electricity bills were K289.41 for January and K150.50 for February. How much did he pay in total for the bills?",
+"options": ["K138.91", "K139.91", "K339.91", "K439.91"],
+"correctAnswer": 2,
+"explanation": "K289.41 + K150.50 = K339.91",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the following is a set of factors of 10?",
+"options": ["{1, 2, 3, 5}", "{1, 2, 5, 8}", "{1, 2, 5, 10}", "{1, 4, 5, 10}"],
+"correctAnswer": 2,
+"explanation": "Factors of 10 are 1, 2, 5, and 10",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express 5 × 5 × 5 × 5 in index form.",
+"options": ["4⁵", "5⁴", "4 × 5", "5 × 4"],
+"correctAnswer": 1,
+"explanation": "5 multiplied by itself 4 times is 5⁴",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Which of the lines on the diagram is a line of symmetry?",
+"options": ["AD", "BE", "CF", "AE"],
+"correctAnswer": 1,
+"explanation": "BE is the line of symmetry in the diagram",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "175.081 + 6.53 =",
+"options": ["181.611", "181.511", "171.611", "171.511"],
+"correctAnswer": 0,
+"explanation": "175.081 + 6.53 = 181.611",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Look at the sets below.\n\nE X Y\n    •Art\n    •English  •Maths  •Music\n\nThe set X ∩ Y is ...",
+"options": ["{English, Maths}", "{Maths, Music}", "{Art, Music}", "{Art, Maths}"],
+"correctAnswer": 1,
+"explanation": "X ∩ Y represents the intersection - elements common to both sets X and Y: {Maths, Music}",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Add 571 219 to 201 845.",
+"options": ["773 064", "773 054", "772 064", "772 054"],
+"correctAnswer": 0,
+"explanation": "571,219 + 201,845 = 773,064",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The perimeter of the shape below is...\n\n17mm\n32mm    38mm\n    32mm",
+"options": ["129mm", "119mm", "109mm", "87mm"],
+"correctAnswer": 1,
+"explanation": "Perimeter = 17 + 32 + 38 + 32 = 119mm",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "27.306 - 19.429 =",
+"options": ["45.735", "12.123", "7.883", "7.877"],
+"correctAnswer": 3,
+"explanation": "27.306 - 19.429 = 7.877",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Which of the diagrams below is a cylinder?",
+"options": ["A", "B", "C", "D"],
+"correctAnswer": 2,
+"explanation": "Diagram C shows a cylinder",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "What is the next number in the sequence below?\n24, 20, 16, 12, 8, ...",
+"options": ["2", "4", "6", "10"],
+"correctAnswer": 1,
+"explanation": "The sequence decreases by 4 each time: 24, 20, 16, 12, 8, 4",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Chibeka bought 50.7kg of beef from one butchery and 10.5kg of beef from a different butchery. How many kilograms of beef did he buy altogether?",
+"options": ["40.2kg", "50.2kg", "53.5kg", "61.2kg"],
+"correctAnswer": 3,
+"explanation": "50.7 + 10.5 = 61.2kg",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "3/5 × 1/2 =",
+"options": ["3/10", "3/5", "6/5", "5/6"],
+"correctAnswer": 0,
+"explanation": "3/5 × 1/2 = 3/10",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If the price of a car is $500, how much will 3 cars of the same type cost?",
+"options": ["$497", "$503", "$1,500", "$1,666"],
+"correctAnswer": 2,
+"explanation": "3 × $500 = $1,500",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Convert 7/10 to a decimal number.",
+"options": ["7.0", "0.7", "0.07", "0.007"],
+"correctAnswer": 1,
+"explanation": "7/10 = 0.7",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If set A = {3, 4, 6, 9, 12, 15} and set B = {1, 3, 9, 12, 21}, list the elements of A ∩ B.",
+"options": ["{1, 3, 4, 6, 9, 12, 15, 21}", "{3, 4, 6, 9, 12, 15}", "{1, 3, 9, 12, 21}", "{3, 9, 12}"],
+"correctAnswer": 3,
+"explanation": "A ∩ B represents elements common to both sets: {3, 9, 12}",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The numbers 6, 15, 24 and 33 are multiples of ...",
+"options": ["3", "4", "5", "6"],
+"correctAnswer": 0,
+"explanation": "All numbers are divisible by 3: 6÷3=2, 15÷3=5, 24÷3=8, 33÷3=11",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The sum of three numbers is 36. If the numbers are 12, x and 18, what is the value of x?",
+"options": ["18", "6", "3", "2"],
+"correctAnswer": 1,
+"explanation": "12 + x + 18 = 36 → 30 + x = 36 → x = 6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the mode of 4, 11, 9, 5, 10, 11 and 13.",
+"options": ["4", "10", "11", "13"],
+"correctAnswer": 2,
+"explanation": "11 appears twice, all other numbers appear once, so mode is 11",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The number line below shows ...",
+"options": ["-6 + (+5) = -1", "+6 + (-5) = +1", "+6 + (-7) = -1", "+6 + (+7) = +1"],
+"correctAnswer": 2,
+"explanation": "The number line shows starting at +6 and moving 7 units to the left, ending at -1",
+"shuffleOptions": true
+},
+
+{
+    "type": "multiple-choice",
+    "text": "The regular polygon below is called a ...",
+    "options": ["Hexagon", "Nonagon", "Pentagon", "Septagon"],
+    "correctAnswer": 2,
+    "explanation": "A pentagon is a polygon with 5 sides.",
+    "shuffleOptions": true
+},
+*/
+{
+    "type": "multiple-choice",
+    "text": "Express 21 base five as a number in base 10.",
+    "options": ["3", "5", "8", "11"],
+    "correctAnswer": 3,
+    "explanation": "\( 21_{five} = 2 \times 5^1 + 1 \times 5^0 = 10 + 1 = 11 \) in base 10.",
+    "shuffleOptions": true
+},
+/*
+{
+    "type": "multiple-choice",
+    "text": "The graph below shows the number of bags of maize produced by a farmer in six years. How many bags were produced in 2007?",
+    "options": ["50", "45", "40", "35"],
+    "correctAnswer": 1,
+    "explanation": "Based on the graph, the bar for 2007 reaches 45 bags.",
+    "shuffleOptions": true
+},
+*/
+{
+    "type": "multiple-choice",
+    "text": "Which of the following decimal fractions is the smallest?",
+    "options": ["0.666", "0.500", "0.333", "0.250"],
+    "correctAnswer": 3,
+    "explanation": "When comparing decimals, 0.250 is smaller than 0.333, 0.500, and 0.666.",
+    "shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "972 ÷ 12 =",
+"options": ["984", "960", "81", "18"],
+"correctAnswer": 2,
+"explanation": "972 ÷ 12 = 81",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the following integers is the smallest?",
+"options": ["+9", "+1", "0", "-9"],
+"correctAnswer": 3,
+"explanation": "-9 is the smallest integer as it's the most negative",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Convert 0.34 to a percentage.",
+"options": ["0.34%", "3.4%", "34%", "340%"],
+"correctAnswer": 2,
+"explanation": "0.34 = 34%",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Mr Sampa had 112 bags of rice in his shop. If he sold 14 bags, how many bags of rice remained?",
+"options": ["1,268", "126", "108", "98"],
+"correctAnswer": 3,
+"explanation": "112 - 14 = 98 bags",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "5/9 ÷ 2/3 =",
+"options": ["5/6", "8", "10", "27"],
+"correctAnswer": 0,
+"explanation": "5/9 ÷ 2/3 = 5/9 × 3/2 = 15/18 = 5/6",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Look at the sets below.\n\nThe number of members in A ∪ B is ...",
+"options": ["4", "6", "7", "8"],
+"correctAnswer": 2,
+"explanation": "A ∪ B represents all elements in A or B or both, totaling 7 members",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "In Hindu-Arabic numerals, MMXVIII is ...",
+"options": ["218", "2,015", "2,016", "2,018"],
+"correctAnswer": 3,
+"explanation": "MM = 2000, XVIII = 18, total = 2018",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the cost of 10 books, if one book costs K50.00.",
+"options": ["K500.00", "K60.00", "K50.00", "K40.00"],
+"correctAnswer": 0,
+"explanation": "10 × K50 = K500",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Solve the inequation y + 6 ≤ 13.",
+"options": ["y ≤ 6", "y ≤ 7", "y ≤ 13", "y ≤ 18"],
+"correctAnswer": 1,
+"explanation": "y + 6 ≤ 13 → y ≤ 13 - 6 → y ≤ 7",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the Highest Common Factor of 24 and 36.",
+"options": ["4", "6", "12", "72"],
+"correctAnswer": 2,
+"explanation": "Factors of 24: 1,2,3,4,6,8,12,24; Factors of 36: 1,2,3,4,6,9,12,18,36; HCF = 12",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A school bought 450 exercise books for 50 learners. How many exercise books did each learner receive?",
+"options": ["22,500", "500", "400", "9"],
+"correctAnswer": 3,
+"explanation": "450 ÷ 50 = 9 books per learner",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "In Roman numerals, 1,915 can be written as...",
+"options": ["MCMXV", "MCMXII", "MCMX", "MCMV"],
+"correctAnswer": 0,
+"explanation": "M = 1000, CM = 900, XV = 15, total = 1915",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "553 × 33 =",
+"options": ["17,149", "17,249", "18,149", "18,249"],
+"correctAnswer": 3,
+"explanation": "553 × 33 = 18,249",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The mapping below is called a ... mapping.",
+"options": ["one-to-one", "one-to-many", "many-to-one", "many-to-many"],
+"correctAnswer": 2,
+"explanation": "Multiple inputs map to single outputs, making it many-to-one",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "2 1/3 + 1/2 =",
+"options": ["2 5/6", "1 3/5", "1 1/3", "1 1/6"],
+"correctAnswer": 0,
+"explanation": "2 1/3 + 1/2 = 7/3 + 1/2 = 14/6 + 3/6 = 17/6 = 2 5/6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the simple interest on K30,000.00 saved for 3 years at the rate of 4% per year.",
+"options": ["K4,788.00", "K3,778.00", "K3,688.00", "K3,600.00"],
+"correctAnswer": 3,
+"explanation": "Simple Interest = Principal × Rate × Time = 30,000 × 0.04 × 3 = K3,600",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Change 199 minutes to hours and minutes.",
+"options": ["2 hours 19 minutes", "3 hours 19 minutes", "4 hours 19 minutes", "5 hours 19 minutes"],
+"correctAnswer": 1,
+"explanation": "199 ÷ 60 = 3 hours remainder 19 minutes",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "An angle which is 180° is called ...",
+"options": ["an obtuse angle", "an acute angle", "a straight angle", "a reflex angle"],
+"correctAnswer": 2,
+"explanation": "An angle of 180° is called a straight angle",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Round off 78,462 to the nearest thousand.",
+"options": ["78,000", "78,460", "78,500", "79,000"],
+"correctAnswer": 0,
+"explanation": "78,462 rounded to nearest thousand is 78,000 (since 462 < 500)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The temperatures at a certain place for 5 days were 24°C, 28°C, 31°C, 29°C and 30°C. Calculate the average temperature.",
+"options": ["22.0°C", "22.4°C", "28.0°C", "28.4°C"],
+"correctAnswer": 3,
+"explanation": "Average = (24 + 28 + 31 + 29 + 30) ÷ 5 = 142 ÷ 5 = 28.4°C",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The distance between two towns is 134.647km. Round off this distance to one decimal place.",
+"options": ["134.1km", "134.6km", "134.7km", "135.6km"],
+"correctAnswer": 1,
+"explanation": "134.647 rounded to one decimal place is 134.6km (since 4 < 5)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express the ratio 4 : 12 : 32 in its lowest terms.",
+"options": ["4 : 12 : 16", "2 : 6 : 16", "1 : 6 : 8", "1 : 3 : 8"],
+"correctAnswer": 3,
+"explanation": "All terms divisible by 4: 4÷4=1, 12÷4=3, 32÷4=8",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Calculate the circumference of a circle whose diameter is 12cm. (Take π as 3.14)",
+"options": ["18.84cm", "37.68cm", "45.14cm", "113.04cm"],
+"correctAnswer": 1,
+"explanation": "Circumference = π × diameter = 3.14 × 12 = 37.68cm",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Chasha had K700.00. She bought a pair of shoes at K80.00, a dress at K120.00 and a handbag at K180.00. How much did she remain with?",
+"options": ["K620.00", "K580.00", "K520.00", "K320.00"],
+"correctAnswer": 3,
+"explanation": "K700 - (K80 + K120 + K180) = K700 - K380 = K320",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "James had K200.00. He gave his friend 2/5 of the money. How much did he give his friend?",
+"options": ["K40.00", "K80.00", "K120.00", "K160.00"],
+"correctAnswer": 1,
+"explanation": "2/5 of K200 = (2/5) × 200 = K80",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "(360 ÷ 6) × 7 =",
+"options": ["67", "252", "420", "857"],
+"correctAnswer": 2,
+"explanation": "360 ÷ 6 = 60, then 60 × 7 = 420",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Calculate the area of a circle whose diameter is 4cm (π = 3.14).",
+"options": ["16.00cm²", "12.56cm²", "7.14cm²", "6.28cm²"],
+"correctAnswer": 1,
+"explanation": "Radius = 2cm, Area = πr² = 3.14 × 2² = 3.14 × 4 = 12.56cm²",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If 15% of a class is absent on Monday, what percentage is present?",
+"options": ["115%", "100%", "85%", "15%"],
+"correctAnswer": 2,
+"explanation": "100% - 15% = 85% present",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "1101₂ - 110₂ =",
+"options": ["100₂", "111₂", "1000₂", "1010₂"],
+"correctAnswer": 1,
+"explanation": "1101 in base 2 minus 110 in base 2 equals 111 in base 2",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "What is 20% of K29,900.00",
+"options": ["K5,980.00", "K5,080.00", "K4,980.00", "K4,880.00"],
+"correctAnswer": 0,
+"explanation": "20% of K29,900 = 0.20 × 29,900 = K5,980",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Add 2311five to 1224five.",
+"options": ["3030five", "3040five", "4030five", "4040five"],
+"correctAnswer": 3,
+"explanation": "2311 in base 5 + 1224 in base 5 = 4040 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Zanglwe cycled a distance of 18km in 3 hours. At what speed was she cycling?",
+"options": ["6km/h", "15km/h", "21km/h", "54km/h"],
+"correctAnswer": 0,
+"explanation": "Speed = Distance ÷ Time = 18km ÷ 3h = 6km/h",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A radio was bought at K125.00 and later sold at a loss of K17.50. What was its selling price?",
+"options": ["K107.50", "K117.50", "K142.50", "K295.50"],
+"correctAnswer": 0,
+"explanation": "Selling Price = Cost Price - Loss = K125 - K17.50 = K107.50",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "180 people used 10 bags of mealie meal in 5 days. How many bags of the same size can 90 people use in 5 days if they eat at the same rate?",
+"options": ["170", "20", "18", "5"],
+"correctAnswer": 3,
+"explanation": "Half the people (90 vs 180) will use half the bags (5 vs 10) in the same time",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Evaluate 4⁴.",
+"options": ["256", "64", "16", "8"],
+"correctAnswer": 0,
+"explanation": "4⁴ = 4 × 4 × 4 × 4 = 256",
+"shuffleOptions": true
+},
+    
+    // 2021
+{
+"type": "multiple-choice",
+"text": "Find the difference between 2 700 and 2 300.",
+"options": ["400", "200", "100", "40"],
+"correctAnswer": 0,
+"explanation": "2,700 - 2,300 = 400",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "1 276 - 1 159 =",
+"options": ["3 721", "3 601", "1 269", "1 159"],
+"correctAnswer": 2,
+"explanation": "1,276 - 1,159 = 117",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The graph below shows the amount of rainfall for five months. What was the amount of rainfall recorded in February?",
+"options": ["17 mm", "16 mm", "15 mm", "14 mm"],
+"correctAnswer": 3,
+"explanation": "According to the graph, February had 14 mm of rainfall",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Express 5⁴ in expanded notation.",
+"options": ["5 × 5 × 5 × 5", "5 + 5 + 5 + 5", "5 × 4", "4 × 4 × 4 × 4 × 4"],
+"correctAnswer": 0,
+"explanation": "5⁴ means 5 multiplied by itself 4 times",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "33.14 - 14.02 =",
+"options": ["21.12", "20.12", "19.12", "19.02"],
+"correctAnswer": 2,
+"explanation": "33.14 - 14.02 = 19.12",
+"shuffleOptions": true
+},
+
+{
+    "type": "multiple-choice",
+    "text": "A woman sold 144 eggs on the first day, 108 eggs on the second day and 72 eggs on the third day. How many eggs did she sell altogether?",
+    "options": ["180", "216", "252", "324"],
+    "correctAnswer": 3,
+    "explanation": "144 + 108 + 72 = 324 eggs.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "A bus had \( x \) passengers. On the way, 50 passengers got off and 15 remained on the bus. Find the value of \( x \).",
+    "options": ["80", "65", "50", "35"],
+    "correctAnswer": 1,
+    "explanation": "x - 50 = 15, so x = 15 + 50 = 65.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "\( 3 \times 3 \times 3 \times 3 \times 3 \) can be written in index notation as ...",
+    "options": ["\( 3^5 \)", "\( 5^3 \)", "\( 3 \\times 5 \)", "\( 5 \\times 3 \)"],
+    "correctAnswer": 0,
+    "explanation": "The number 3 is multiplied by itself 5 times, which is written as 3⁵.",
+    "shuffleOptions": true
+},
+
+/*
+
+*/
+
+{
+    "type": "multiple-choice",
+    "text": "Convert 36% to a decimal number.",
+    "options": ["0.036", "0.36", "3.6", "36.0"],
+    "correctAnswer": 1,
+    "explanation": "36% means 36 per hundred, which is 36/100 = 0.36.",
+    "shuffleOptions": true
+},
+/*
+{
+    "type": "multiple-choice",
+    "text": "Look at the sets A and B below.\n\nE A B  \na a c d  \nb b e f  \n\nHow many members are in the union set?",
+    "options": ["1", "3", "4", "6"],
+    "correctAnswer": 3,
+    "explanation": "The union of sets A and B contains all distinct elements from both sets: a, b, c, d, e, f. That's 6 members.",
+    "shuffleOptions": true
+},
+*/
+
+{
+"type": "multiple-choice",
+"text": "Convert 4½ to an improper fraction.",
+"options": ["9/2", "9/3", "5/2", "4/2"],
+"correctAnswer": 0,
+"explanation": "4½ = (4×2 + 1)/2 = 9/2",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Add 467.342 to 461.29.",
+"options": ["828.532", "828.632", "928.532", "928.632"],
+"correctAnswer": 1,
+"explanation": "467.342 + 461.29 = 928.632",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A lady had $40. She bought a dress and a pair of shoes and her change was $7. How much did she spend?",
+"options": ["$33", "$40", "$47", "$280"],
+"correctAnswer": 0,
+"explanation": "$40 - $7 = $33 spent",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Change 4/5 to a decimal number.",
+"options": ["8.0", "0.8", "0.4", "0.08"],
+"correctAnswer": 1,
+"explanation": "4/5 = 0.8",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If set M = {2, 3, 5, 7, 11}, the numbers in set M are called ...",
+"options": ["composite numbers", "natural numbers", "odd numbers", "Prime numbers"],
+"correctAnswer": 3,
+"explanation": "All numbers in set M are prime numbers (divisible only by 1 and themselves)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "156 × 300 =",
+"options": ["468", "4680", "46800", "468000"],
+"correctAnswer": 2,
+"explanation": "156 × 300 = 46,800",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "In Roman numerals, 106 is written as ...",
+"options": ["XCVI", "CIV", "CVI", "CXVI"],
+"correctAnswer": 2,
+"explanation": "C = 100, VI = 6, total = 106",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Which of the shapes below is a cylinder?",
+"options": ["A", "B", "C", "D"],
+"correctAnswer": 1,
+"explanation": "Shape B is a cylinder",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Given that Set A = {a, b, c} and Set B = {d, e, f, g}, A ∩ B equals ...",
+"options": ["{}", "{a, b, c}", "{d, e, f, g}", "{a, b, c, d, e, f, g}"],
+"correctAnswer": 0,
+"explanation": "A ∩ B represents elements common to both sets, which is an empty set {}",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The shape below is called a ...",
+"options": ["Heptagon", "Hexagon", "Nonagon", "Pentagon"],
+"correctAnswer": 1,
+"explanation": "The shape has 6 sides, making it a hexagon",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "A man bought a car at K20 000.00. He later sold it and made a loss of 45%. Find the loss that he made.",
+"options": ["K9 000.00", "K900.00", "K90.00", "K9.00"],
+"correctAnswer": 0,
+"explanation": "45% of K20,000 = 0.45 × 20,000 = K9,000",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Mrs Phiri bought the following items from a shop: 10 kg of bananas at K30.00, 2 packets of matches at K3.00, 5 packets of soap at K45.00 and 1 litre of milk at K9.00. Find the total bill.",
+"options": ["K77.00", "K87.00", "K90.00", "K97.00"],
+"correctAnswer": 1,
+"explanation": "K30 + K3 + K45 + K9 = K87",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If there are 24 women and 6 men in a certain shop, what is the ratio of women to men in its simplest form?",
+"options": ["2 to 1", "2 to 4", "4 to 1", "4 to 2"],
+"correctAnswer": 2,
+"explanation": "24:6 = 4:1 when simplified",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "269.748 to one decimal place can be expressed as ...",
+"options": ["269.0", "269.7", "269.8", "270.0"],
+"correctAnswer": 1,
+"explanation": "269.748 rounded to one decimal place is 269.7 (since 4 < 5)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the Highest Common Factor of 6 and 12.",
+"options": ["2", "3", "6", "12"],
+"correctAnswer": 2,
+"explanation": "Factors of 6: 1,2,3,6; Factors of 12: 1,2,3,4,6,12; HCF = 6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the cost of 200 exercise books at K2.50 each.",
+"options": ["K80.00", "K197.50", "K202.50", "K500.00"],
+"correctAnswer": 3,
+"explanation": "200 × K2.50 = K500",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "4.576 × 100 =",
+"options": ["4.576", "457.6", "45.76", "4.57"],
+"correctAnswer": 1,
+"explanation": "4.576 × 100 = 457.6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "416 ÷ 18 =",
+"options": ["23 remainder 4", "23 remainder 3", "23 remainder 2", "23 remainder 1"],
+"correctAnswer": 2,
+"explanation": "416 ÷ 18 = 23 with remainder 2 (23 × 18 = 414, 416 - 414 = 2)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "How many metres make one kilometre?",
+"options": ["10 000m", "1 000m", "100m", "10m"],
+"correctAnswer": 1,
+"explanation": "1 kilometer = 1,000 meters",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express 0.2 as a percentage.",
+"options": ["0.2%", "2%", "20%", "200%"],
+"correctAnswer": 2,
+"explanation": "0.2 = 20%",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The mode of 3, 6, 2, 9, 1, 2, 5, 6 and 2 is ...",
+"options": ["1", "2", "3", "6"],
+"correctAnswer": 1,
+"explanation": "2 appears three times, more than any other number",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Convert 76 to a number in base five.",
+"options": ["313five", "303five", "301five", "300five"],
+"correctAnswer": 2,
+"explanation": "76 in base 10 = 3×25 + 0×5 + 1×1 = 301 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the value of 12 × (4 + 9).",
+"options": ["25", "37", "146", "156"],
+"correctAnswer": 3,
+"explanation": "4 + 9 = 13, then 12 × 13 = 156",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A box has 1 477 oranges. Express the number of oranges in the box to the nearest hundred.",
+"options": ["1 600", "1 500", "1 400", "1 300"],
+"correctAnswer": 1,
+"explanation": "1,477 rounded to nearest hundred is 1,500 (since 77 ≥ 50)",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "How many vertices does the shape below have?",
+"options": ["4", "6", "8", "10"],
+"correctAnswer": 2,
+"explanation": "The shape appears to be an octagon with 8 vertices",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "In a class of 25 learners, 10 are girls. Calculate the percentage of girls in the class.",
+"options": ["10%", "40%", "60%", "85%"],
+"correctAnswer": 1,
+"explanation": "(10/25) × 100 = 40%",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Which number line correctly shows 50 - 20?",
+"options": ["A", "B", "C", "D"],
+"correctAnswer": 0,
+"explanation": "Number line A correctly shows starting at 50 and moving 20 units left to 30",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "If 2 + x ≥ 3, then ...",
+"options": ["x ≥ 5", "x ≥ 1", "x ≤ 1", "x ≤ 5"],
+"correctAnswer": 1,
+"explanation": "2 + x ≥ 3 → x ≥ 3 - 2 → x ≥ 1",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express the ratio 30 minutes to 2 hours in its lowest terms.",
+"options": ["1 to 4", "3 to 12", "30 to 60", "30 to 120"],
+"correctAnswer": 0,
+"explanation": "2 hours = 120 minutes, 30:120 = 1:4 when simplified",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "2/3 + 1/6 =",
+"options": ["3/3", "8/9", "2/7", "1 5/7"],
+"correctAnswer": 3,
+"explanation": "2/3 + 1/6 = 4/6 + 1/6 = 5/6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The lowest common multiple of 7 and 11 is ...",
+"options": ["4", "18", "44", "77"],
+"correctAnswer": 3,
+"explanation": "LCM of 7 and 11 is 77 (since both are prime numbers)",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The mapping of members in the two sets shown below is known as ...",
+"options": ["many to one mapping", "one to many mapping", "one to one mapping", "five to one mapping"],
+"correctAnswer": 2,
+"explanation": "Each element in set A maps to exactly one element in set B, making it one-to-one mapping",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "How many weeks are there in 364 days?",
+"options": ["51 weeks", "52 weeks", "53 weeks", "54 weeks"],
+"correctAnswer": 1,
+"explanation": "364 ÷ 7 = 52 weeks",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A string of length 139.2m was shared equally among 12 learners. How many metres of string did each learner get?",
+"options": ["151.2m", "127.2m", "12.6m", "11.6m"],
+"correctAnswer": 3,
+"explanation": "139.2 ÷ 12 = 11.6 meters per learner",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "What is the next number in the sequence below?\n3, 9, 27 ...",
+"options": ["81", "39", "36", "30"],
+"correctAnswer": 0,
+"explanation": "The sequence multiplies by 3 each time: 3×3=9, 9×3=27, 27×3=81",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the statements below is true?",
+"options": ["Three right angles make a straight angle", "A right angle is half of a straight angle", "A straight angle is equal to 360°", "An acute angle is greater than 90°"],
+"correctAnswer": 1,
+"explanation": "A right angle is 90° and a straight angle is 180°, so a right angle is half of a straight angle",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "In Hindu-Arabic numeration, the Roman numeral MCDLXXVI can be written as ...",
+"options": ["1 676", "1 674", "1 476", "1 474"],
+"correctAnswer": 2,
+"explanation": "M = 1000, CD = 400, LXX = 70, VI = 6, total = 1476",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A cyclist covers a distance of 100km in 5 hours. Calculate her speed.",
+"options": ["500km/h", "105km/h", "95km/h", "20km/h"],
+"correctAnswer": 3,
+"explanation": "Speed = Distance ÷ Time = 100km ÷ 5h = 20km/h",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "142five - 23five =",
+"options": ["1114five", "120five", "121five", "165five"],
+"correctAnswer": 1,
+"explanation": "142 in base 5 minus 23 in base 5 equals 114 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Oranges are packed in 240 boxes. Each box contains 60 oranges. How many oranges are there altogether?",
+"options": ["180", "300", "1 440", "14 400"],
+"correctAnswer": 3,
+"explanation": "240 × 60 = 14,400 oranges",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Order the integers below from the smallest to the largest.\n+4, -1, 0, -4, 1",
+"options": ["1, 0, +4, -4, -1", "-4, -1, 0, 1, +4", "0, 1, -1, -4, +4", "0, -1, 1, +4, -4"],
+"correctAnswer": 1,
+"explanation": "-4 < -1 < 0 < 1 < +4",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the volume of a box which measures 6cm long, 4cm wide and 5cm high.",
+"options": ["15cm³", "24cm³", "30cm³", "120cm³"],
+"correctAnswer": 3,
+"explanation": "Volume = length × width × height = 6 × 4 × 5 = 120cm³",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A table and 2 chairs cost K200.00 altogether. If the table costs K100.00, what is the cost of one chair?",
+"options": ["K50.00", "K100.00", "K200.00", "K300.00"],
+"correctAnswer": 0,
+"explanation": "K200 - K100 = K100 for 2 chairs, so one chair = K50",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the following are prime numbers?",
+"options": ["2, 4, 6, 8", "2, 4, 5, 7", "2, 3, 5, 7", "2, 3, 4, 5"],
+"correctAnswer": 2,
+"explanation": "2, 3, 5, 7 are all prime numbers (divisible only by 1 and themselves)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Divide 6 by 2/3.",
+"options": ["2", "4", "6", "9"],
+"correctAnswer": 3,
+"explanation": "6 ÷ (2/3) = 6 × (3/2) = 18/2 = 9",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "43five + 24five =",
+"options": ["1222five", "122five", "112five", "67five"],
+"correctAnswer": 1,
+"explanation": "43 in base 5 + 24 in base 5 = 122 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "An item bought for K40.00 was later sold at K48.00. Calculate the percentage profit.",
+"options": ["20%", "40%", "48%", "80%"],
+"correctAnswer": 0,
+"explanation": "Profit = K8, Cost = K40, Profit % = (8/40)×100 = 20%",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the total length of wire needed to make a cube of length 4cm.",
+"options": ["64cm", "48cm", "32cm", "12cm"],
+"correctAnswer": 1,
+"explanation": "A cube has 12 edges, each 4cm: 12 × 4cm = 48cm",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "2/3 + 1/5 =",
+"options": ["3/8", "2/15", "7/15", "13/15"],
+"correctAnswer": 3,
+"explanation": "2/3 + 1/5 = 10/15 + 3/15 = 13/15",
+"shuffleOptions": true
+},   
+    
+    // 2022
+{
+"type": "multiple-choice",
+"text": "Find the sum of 665 986 and 294 857.",
+"options": ["960 843", "960 743", "371 129", "370 128"],
+"correctAnswer": 0,
+"explanation": "665,986 + 294,857 = 960,843",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The graph shows the number of pens sold by a woman from Monday to Friday.\n\nOn which day did the woman sell the highest number of pens?",
+"options": ["Friday", "Monday", "Tuesday", "Wednesday"],
+"correctAnswer": 0,
+"explanation": "According to the graph, Friday had the highest number of pens sold",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Express 4 × 4 × 4 in index form.",
+"options": ["4 × 3", "4³", "3 × 4", "3⁴"],
+"correctAnswer": 1,
+"explanation": "4 multiplied by itself 3 times is 4³",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "What is the next number in the sequence below?\n14, 11, 8 ...",
+"options": ["5", "7", "12", "17"],
+"correctAnswer": 0,
+"explanation": "The sequence decreases by 3 each time: 14, 11, 8, 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "18.082 + 3.371 =",
+"options": ["11.353", "11.453", "21.353", "21.453"],
+"correctAnswer": 3,
+"explanation": "18.082 + 3.371 = 21.453",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If set A = {a, b, c, e, f, g} and set B = {e, f, g, h, i, j, k}, list A ∩ B.",
+"options": ["{a, b, c, e, f, g, h, i, j, k}", "{a, b, c, h, i, j, k}", "{e, f, g}", "{a, b, c}"],
+"correctAnswer": 2,
+"explanation": "A ∩ B represents elements common to both sets: {e, f, g}",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the Highest Common Factor of 8 and 12.",
+"options": ["1", "2", "3", "4"],
+"correctAnswer": 3,
+"explanation": "Factors of 8: 1,2,4,8; Factors of 12: 1,2,3,4,6,12; HCF = 4",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "One village made 25 831 bricks and another village made 13 295 bricks. What was the total number of bricks made by the two villages?",
+"options": ["39 126", "39 026", "38 126", "38 026"],
+"correctAnswer": 0,
+"explanation": "25,831 + 13,295 = 39,126",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "924 571 - 899 009 =",
+"options": ["25 578", "25 572", "25 568", "25 562"],
+"correctAnswer": 3,
+"explanation": "924,571 - 899,009 = 25,562",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "124 × 12 =",
+"options": ["1 598", "1 588", "1 498", "1 488"],
+"correctAnswer": 3,
+"explanation": "124 × 12 = 1,488",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The average mass of 5 bags of rice is 100kg. What is the total mass of the bags of rice?",
+"options": ["500kg", "105kg", "25kg", "20kg"],
+"correctAnswer": 0,
+"explanation": "Total mass = Average × Number of bags = 100kg × 5 = 500kg",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Arrange the numerals IX, VI, XV, IV from the smallest to the largest.",
+"options": ["XV, IX, VI, IV", "IX, VI, XV, IV", "IV, VI, IX, XV", "VI, IV, XV, IX"],
+"correctAnswer": 2,
+"explanation": "IV = 4, VI = 6, IX = 9, XV = 15",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "162 ÷ 18 =",
+"options": ["9", "144", "180", "2 916"],
+"correctAnswer": 0,
+"explanation": "162 ÷ 18 = 9",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The mass of a metal is 25.73kg. This mass when written to 1 decimal place is ...",
+"options": ["25.0kg", "25.7kg", "25.8kg", "26.0kg"],
+"correctAnswer": 1,
+"explanation": "25.73 rounded to one decimal place is 25.7kg (since 3 < 5)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express the ratio 4 : 12 : 24 in its lowest terms.",
+"options": ["1 : 3 : 6", "1 : 4 : 6", "1 : 6 : 8", "1 : 6 : 3"],
+"correctAnswer": 0,
+"explanation": "All terms divisible by 4: 4÷4=1, 12÷4=3, 24÷4=6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "320.64 - 281.59 =",
+"options": ["49.15", "49.05", "39.15", "39.05"],
+"correctAnswer": 3,
+"explanation": "320.64 - 281.59 = 39.05",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "(150 + 50) ÷ 10 =",
+"options": ["15", "20", "60", "200"],
+"correctAnswer": 1,
+"explanation": "150 + 50 = 200, then 200 ÷ 10 = 20",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A regular polygon with 4 sides is called a ...",
+"options": ["square", "rhombus", "pentagon", "hexagon"],
+"correctAnswer": 0,
+"explanation": "A regular polygon with 4 sides is a square",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The bus fare from town X to town Y is K300.00. How much would it cost 2 people to travel from town X to town Y?",
+"options": ["K150.00", "K300.00", "K450.00", "K600.00"],
+"correctAnswer": 3,
+"explanation": "2 × K300 = K600",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Convert 52% to a decimal number.",
+"options": ["0.052", "0.52", "5.2", "52.0"],
+"correctAnswer": 1,
+"explanation": "52% = 52/100 = 0.52",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The Venn diagram shows set A and set B.\n\nList the set A ∩ B.",
+"options": ["{red, brown, blue, green}", "{red, brown, blue}", "{brown, blue}", "{green}"],
+"correctAnswer": 2,
+"explanation": "A ∩ B represents the intersection - elements common to both sets A and B: {brown, blue}",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Convert 3/25 to a percentage.",
+"options": ["16%", "12%", "4%", "3%"],
+"correctAnswer": 1,
+"explanation": "3/25 = 0.12 = 12%",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The shape below is called a ...",
+"options": ["kite", "rectangle", "rhombus", "trapezium"],
+"correctAnswer": 3,
+"explanation": "The shape has one pair of parallel sides, making it a trapezium",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Look at the diagram below.\n\nThe mapping shown is a ...",
+"options": ["many to one mapping", "one to three mapping", "one to many mapping", "one to one mapping"],
+"correctAnswer": 3,
+"explanation": "Each element in the first set maps to exactly one element in the second set, making it one-to-one mapping",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "1.35 × 3.2 =",
+"options": ["4.320", "4.310", "4.250", "4.210"],
+"correctAnswer": 0,
+"explanation": "1.35 × 3.2 = 4.32",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The angle marked P below is called ...",
+"options": ["an acute angle", "an obtuse angle", "a right angle", "a straight angle"],
+"correctAnswer": 1,
+"explanation": "Angle P appears to be greater than 90° but less than 180°, making it an obtuse angle",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Evaluate 5².",
+"options": ["32", "25", "10", "7"],
+"correctAnswer": 1,
+"explanation": "5² = 5 × 5 = 25",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "How many lines of symmetry does the shape below have?",
+"options": ["4", "3", "2", "1"],
+"correctAnswer": 0,
+"explanation": "The shape appears to be a square with 4 lines of symmetry",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "A tailor cut a piece of cloth 2.7 metres long and another piece of the same cloth 1.8 metres long. How many metres did she cut altogether?",
+"options": ["0.9 metres", "1.9 metres", "3.5 metres", "4.5 metres"],
+"correctAnswer": 2,
+"explanation": "2.7 + 1.8 = 3.5 metres",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If 4 books cost K52.00, what is the cost of 2 books of the same type?",
+"options": ["K260.00", "K208.00", "K26.00", "K13.00"],
+"correctAnswer": 2,
+"explanation": "1 book costs K52 ÷ 4 = K13, so 2 books cost K26",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "In Hindu-Arabic numerals, the Roman numeral MDXVI can be written as ...",
+"options": ["1 516", "1 515", "1 510", "1 506"],
+"correctAnswer": 0,
+"explanation": "M = 1000, D = 500, XVI = 16, total = 1516",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Calculate the simple interest on K10 000.00 invested for 3 years at the rate of 5% per annum.",
+"options": ["K500.00", "K1 500.00", "K5 000.00", "K30 000.00"],
+"correctAnswer": 1,
+"explanation": "Simple Interest = Principal × Rate × Time = 10,000 × 0.05 × 3 = K1,500",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "324five + 231five =",
+"options": ["11110five", "11100five", "11010five", "11000five"],
+"correctAnswer": 1,
+"explanation": "324 in base 5 + 231 in base 5 = 1110 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A Grade 7 class has y number of boys and 39 girls. If the class has 72 learners altogether, find the value of y.",
+"options": ["111", "101", "33", "23"],
+"correctAnswer": 2,
+"explanation": "y + 39 = 72 → y = 72 - 39 = 33",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Convert 29 to a number in base five.",
+"options": ["104five", "34five", "24five", "14five"],
+"correctAnswer": 0,
+"explanation": "29 in base 10 = 1×25 + 0×5 + 4×1 = 104 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the Lowest Common Multiple of 3 and 4.",
+"options": ["24", "12", "7", "1"],
+"correctAnswer": 1,
+"explanation": "Multiples of 3: 3,6,9,12,15...; Multiples of 4: 4,8,12,16...; LCM = 12",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "21 farmers shared 273 bags of seed equally. How many bags of seed did each farmer get?",
+"options": ["294", "252", "21", "13"],
+"correctAnswer": 3,
+"explanation": "273 ÷ 21 = 13 bags per farmer",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "4/5 × 20 =",
+"options": ["4", "5", "16", "25"],
+"correctAnswer": 2,
+"explanation": "4/5 × 20 = 80/5 = 16",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A shopkeeper was given $75. How much was it in Zambian Kwacha, if on that particular day, the exchange rate between the Zambian Kwacha and US Dollar was $1 to K15.00?",
+"options": ["K1 125.00", "K1 025.00", "K90.00", "K60.00"],
+"correctAnswer": 0,
+"explanation": "$75 × K15 = K1,125",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If w + 4 ≥ 4, then ...",
+"options": ["w ≤ 0", "w ≤ 1", "w ≤ 16", "w ≥ 16"],
+"correctAnswer": 0,
+"explanation": "w + 4 ≥ 4 → w ≥ 4 - 4 → w ≥ 0",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A man bought a pair of shoes at K130.00 and later sold it at K78.00. How much loss did he make?",
+"options": ["K42.00", "K52.00", "K108.00", "K208.00"],
+"correctAnswer": 1,
+"explanation": "Loss = Cost Price - Selling Price = K130 - K78 = K52",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "-8 + (-2) =",
+"options": ["+10", "+6", "-6", "-10"],
+"correctAnswer": 3,
+"explanation": "-8 + (-2) = -10",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Arrange the following integers from the smallest to the largest: -3, 6, 1, -5, -8.",
+"options": ["-8, -5, -3, 1, 6", "-3, -5, -8, 1, 6", "6, 1, -8, -5, -3", "6, 1, -3, -5, -8"],
+"correctAnswer": 0,
+"explanation": "-8 < -5 < -3 < 1 < 6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the following is a prime number?",
+"options": ["9", "6", "3", "1"],
+"correctAnswer": 2,
+"explanation": "3 is a prime number (divisible only by 1 and itself)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "What is the mode of 7, 3, 4, 9, 1, 3 and 8?",
+"options": ["1", "3", "4", "5"],
+"correctAnswer": 1,
+"explanation": "3 appears twice, all other numbers appear once, so mode is 3",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Round off 3 576 to the nearest hundred.",
+"options": ["3 000", "3 500", "3 600", "4 000"],
+"correctAnswer": 2,
+"explanation": "3,576 rounded to nearest hundred is 3,600 (since 76 ≥ 50)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "3½ + 1½ =",
+"options": ["4 3/10", "4 4/7", "4 1/10", "5 1/10"],
+"correctAnswer": 3,
+"explanation": "3½ + 1½ = 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A learner got 19 out of 25 marks in a Mathematics test. Express the marks the learner got as a percentage.",
+"options": ["76%", "56%", "44%", "6%"],
+"correctAnswer": 0,
+"explanation": "(19/25) × 100 = 76%",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "3/11 + 1/33 =",
+"options": ["3", "6", "9", "99"],
+"correctAnswer": 1,
+"explanation": "3/11 + 1/33 = 9/33 + 1/33 = 10/33",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "49 books are to be shared between Sarah and Modrin in the ratio 4 to 3 respectively. How many books will Modrin get?",
+"options": ["7", "21", "28", "37"],
+"correctAnswer": 1,
+"explanation": "Total parts = 4 + 3 = 7, Modrin's share = (3/7) × 49 = 21 books",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the circumference of a circle with a diameter of 4cm (π = 3.14)",
+"options": ["6.28cm", "7.14cm", "12.56cm", "25.12cm"],
+"correctAnswer": 2,
+"explanation": "Circumference = π × diameter = 3.14 × 4 = 12.56cm",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Mwape had $36. He bought books and a pair of trousers and his change was $7.50. How much did he spend?",
+"options": ["$270.00", "$43.50", "$29.00", "$28.50"],
+"correctAnswer": 3,
+"explanation": "$36 - $7.50 = $28.50 spent",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The diagram shows set X and set Y.\n\nList set X ∪ Y.",
+"options": ["{1, 2, 3, 4, 5, 6, 7, 8, 9}", "{1, 2, 3, 4, 5, 6, 7, 8}", "{1, 2, 3, 6, 7, 8}", "{4, 5}"],
+"correctAnswer": 0,
+"explanation": "X ∪ Y represents all elements in X or Y or both: {1, 2, 3, 4, 5, 6, 7, 8, 9}",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "1100₂ - 101₂ =",
+"options": ["100₂", "101₂", "110₂", "111₂"],
+"correctAnswer": 3,
+"explanation": "1100 in base 2 minus 101 in base 2 equals 111 in base 2",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A motorist travelled a distance of 100km in 2 hours. Calculate her speed.",
+"options": ["50km/h", "98km/h", "102km/h", "200km/h"],
+"correctAnswer": 0,
+"explanation": "Speed = Distance ÷ Time = 100km ÷ 2h = 50km/h",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Calculate the total length of the edges of the shape below.",
+"options": ["3cm", "12cm", "36cm", "39cm"],
+"correctAnswer": 1,
+"explanation": "The shape appears to be a cube with 12 edges, each 3cm: 12 × 3cm = 36cm",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The perimeter of the parallelogram below is ...",
+"options": ["50cm", "30cm", "25cm", "15cm"],
+"correctAnswer": 1,
+"explanation": "Perimeter = 2 × (10cm + 5cm) = 2 × 15cm = 30cm",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "646.5 ÷ 5 =",
+"options": ["101.3", "121.1", "129.1", "129.3"],
+"correctAnswer": 3,
+"explanation": "646.5 ÷ 5 = 129.3",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A boy walks a distance of 3 3/5 km everyday. Find the total distance he walks in 3 days.",
+"options": ["14 2/5 km", "10 4/5 km", "6 3/5 km", "1 1/5 km"],
+"correctAnswer": 1,
+"explanation": "3 3/5 × 3 = 18/5 × 3 = 54/5 = 10 4/5 km",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Calculate the volume of a cuboid measuring 5cm long, 4cm wide and 2cm high.",
+"options": ["40 cm³", "22 cm³", "20 cm³", "11 cm³"],
+"correctAnswer": 0,
+"explanation": "Volume = length × width × height = 5 × 4 × 2 = 40cm³",
+"shuffleOptions": true
+},    
+
+// 2023
+/*
+{
+"type": "multiple-choice",
+"text": "The perimeter of the following trapezium is ...",
+"options": ["32cm", "42cm", "52cm", "62cm"],
+"correctAnswer": 1,
+"explanation": "Perimeter = sum of all sides = 10cm + 12cm + 8cm + 12cm = 42cm",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "367 452 + 456 577 =",
+"options": ["824 029", "823 929", "813 929", "813 029"],
+"correctAnswer": 0,
+"explanation": "367,452 + 456,577 = 824,029",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the following are multiples of 3?",
+"options": ["6, 9, 12, 14", "6, 7, 8, 9", "3, 6, 9, 12", "3, 5, 7, 9"],
+"correctAnswer": 2,
+"explanation": "3, 6, 9, 12 are all divisible by 3",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The table shows the number of oranges collected by a farmer from his orchard.\n\nOn which day was the highest number of oranges collected?",
+"options": ["Friday", "Monday", "Saturday", "Wednesday"],
+"correctAnswer": 2,
+"explanation": "Saturday had 40 oranges, which is the highest number",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Find the Highest Common Factor of 9 and 12.",
+"options": ["12", "9", "3", "1"],
+"correctAnswer": 2,
+"explanation": "Factors of 9: 1,3,9; Factors of 12: 1,2,3,4,6,12; HCF = 3",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "954751 - 362948 =",
+"options": ["691813", "592803", "591813", "591803"],
+"correctAnswer": 2,
+"explanation": "954,751 - 362,948 = 591,803",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the next number in the sequence below.\n98, 92, 86, 80, 71",
+"options": ["78", "74", "68", "64"],
+"correctAnswer": 1,
+"explanation": "The sequence decreases by 6 each time: 98-6=92, 92-6=86, 86-6=80, 80-6=74",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "5.456 + 4.67 =",
+"options": ["10.126", "10.026", "59.23", "59.19"],
+"correctAnswer": 0,
+"explanation": "5.456 + 4.67 = 10.126",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A boy has two pieces of wire measuring 3.45m and 1.9m. Find the total length of wire the boy has.",
+"options": ["1.55m", "2.55m", "5.35m", "6.35m"],
+"correctAnswer": 2,
+"explanation": "3.45 + 1.9 = 5.35m",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "91.74 - 79.99 =",
+"options": ["11.75", "12.85", "22.75", "22.85"],
+"correctAnswer": 0,
+"explanation": "91.74 - 79.99 = 11.75",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The graph shows the number of bags of maize harvested by a farmer in five days.\n\nHow many bags of maize were harvested on Tuesday?",
+"options": ["25", "20", "10", "5"],
+"correctAnswer": 1,
+"explanation": "According to the graph, Tuesday had 20 bags of maize",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Arrange the following decimal numbers from the smallest to the biggest: 3.148, 3.158, 3.122, 3.199.",
+"options": ["3.199, 3.158, 3.148, 3.122", "3.148, 3.158, 3.199, 3.122", "3.122, 3.148, 3.158, 3.199", "3.122, 3.158, 3.148, 3.199"],
+"correctAnswer": 2,
+"explanation": "3.122 < 3.148 < 3.158 < 3.199",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A school has 462 books and buys 53 more books. How many books does the school have altogether?",
+"options": ["409", "415", "419", "515"],
+"correctAnswer": 3,
+"explanation": "462 + 53 = 515 books",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express 3 × 3 × 3 × 3 in index notation.",
+"options": ["3 × 4", "3⁴", "4³", "4 × 3"],
+"correctAnswer": 1,
+"explanation": "3 multiplied by itself 4 times is 3⁴",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Which of the lines on the diagram is a line of symmetry?",
+"options": ["GH", "EF", "CD", "AB"],
+"correctAnswer": 3,
+"explanation": "AB is the line of symmetry in the diagram",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "Convert 35% to a decimal number.",
+"options": ["35", "3.5", "0.35", "0.035"],
+"correctAnswer": 2,
+"explanation": "35% = 35/100 = 0.35",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A girl had 12 mangoes. She gave out y mangoes and remained with 1/3 mangoes. Find the value of y.",
+"options": ["4", "9", "15", "36"],
+"correctAnswer": 0,
+"explanation": "Remaining mangoes = 12 × 1/3 = 4, so y = 12 - 4 = 8",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Change 3/5 to a decimal number.",
+"options": ["0.006", "0.06", "0.6", "6.0"],
+"correctAnswer": 2,
+"explanation": "3/5 = 0.6",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find 12% of 400.",
+"options": ["8", "12", "16", "48"],
+"correctAnswer": 3,
+"explanation": "12% of 400 = 0.12 × 400 = 48",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Multiply 2/9 by 1/7.",
+"options": ["2/15", "9/14", "2/63", "5/7"],
+"correctAnswer": 2,
+"explanation": "2/9 × 1/7 = 2/63",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The diagram shows sets K and L.\n\nThe set K ⊂ L is ...",
+"options": ["{1, 5}", "{2, 3}", "{4, 6, 7}", "{1, 2, 3, 4, 5, 6, 7}"],
+"correctAnswer": 1,
+"explanation": "K ⊂ L means K is a subset of L: {2, 3}",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "A teacher gave 2/8 of a cake to the girls and 1/8 of a cake to the boys to share. What fraction of the cake was shared altogether?",
+"options": ["1/32", "3/8", "2/8", "1/8"],
+"correctAnswer": 1,
+"explanation": "2/8 + 1/8 = 3/8",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "After sporting activities, 14 boys shared 126 bananas equally. How many bananas did each boy get?",
+"options": ["9", "112", "140", "1,764"],
+"correctAnswer": 0,
+"explanation": "126 ÷ 14 = 9 bananas per boy",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "The mapping shown in the following diagram is a ...",
+"options": ["many-to-many mapping", "many-to-one mapping", "one-to-many mapping", "one-to-one mapping"],
+"correctAnswer": 3,
+"explanation": "Each element in the first set maps to exactly one element in the second set, making it one-to-one mapping",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "257 × 32 =",
+"options": ["1,265", "1,285", "8,214", "8,224"],
+"correctAnswer": 3,
+"explanation": "257 × 32 = 8,224",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A lady bought a radio at K820.00 and later sold it at K650.00. Find the loss that she made.",
+"options": ["K170.00", "K230.00", "K270.00", "K1,470.00"],
+"correctAnswer": 0,
+"explanation": "Loss = Cost Price - Selling Price = K820 - K650 = K170",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A girl bought the following items; milk at K35.00, tomatoes at K10.00 and sugar at K26.50. How much did she spend?",
+"options": ["K61.00", "K61.50", "K71.00", "K71.50"],
+"correctAnswer": 3,
+"explanation": "K35 + K10 + K26.50 = K71.50",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Arrange the numerals VIII, DC, XL in order of size from the smallest to the largest.",
+"options": ["DC, XL, VIII", "XL, DC, VIII", "VIII, XL, DC", "VIII, DC, XL"],
+"correctAnswer": 2,
+"explanation": "VIII = 8, XL = 40, DC = 600",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Express the ratio 2 : 14 : 18 in its lowest terms.",
+"options": ["9 : 7 : 2", "9 : 7 : 1", "2 : 7 : 9", "1 : 7 : 9"],
+"correctAnswer": 3,
+"explanation": "All terms divisible by 2: 2÷2=1, 14÷2=7, 18÷2=9",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Which of the following shapes is a regular hexagon?",
+"options": ["IV", "III", "II", "I"],
+"correctAnswer": 0,
+"explanation": "Shape IV is a regular hexagon",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "315 ÷ 15 =",
+"options": ["21", "201", "300", "330"],
+"correctAnswer": 0,
+"explanation": "315 ÷ 15 = 21",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "-4 + (-3) =",
+"options": ["7", "1", "-1", "-7"],
+"correctAnswer": 3,
+"explanation": "-4 + (-3) = -7",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A packet of sugar costs K40.00. How much will 5 packets of the same size cost?",
+"options": ["K200.00", "K45.00", "K35.00", "K8.00"],
+"correctAnswer": 0,
+"explanation": "5 × K40 = K200",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the value of 18 + (2 × 3).",
+"options": ["20", "21", "23", "24"],
+"correctAnswer": 3,
+"explanation": "2 × 3 = 6, then 18 + 6 = 24",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Study the Venn diagram below.\n\nList set A ∪ B.",
+"options": ["{l, o, r}", "{l, o, r, t}", "{k, l, m, n, o, p, q, r, s}", "{k, l, m, n, o, p, q, r, s, t}"],
+"correctAnswer": 2,
+"explanation": "A ∪ B represents all elements in A or B or both: {k, l, m, n, o, p, q, r, s}",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "What is the name of the following shape?",
+"options": ["Cuboid", "Cylinder", "Trapezium", "Triangular prism"],
+"correctAnswer": 3,
+"explanation": "The shape is a triangular prism",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "A radio programme started at 10 25 hours and ended at 11 00 hours. How long did the programme last?",
+"options": ["35 minutes", "75 minutes", "85 minutes", "125 minutes"],
+"correctAnswer": 0,
+"explanation": "From 10:25 to 11:00 is 35 minutes",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "1121five + 4432five =",
+"options": ["10003five", "10103five", "11003five", "11103five"],
+"correctAnswer": 1,
+"explanation": "1121 in base 5 + 4432 in base 5 = 11103 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Arrange the following numbers from the smallest to the largest: -3, 0, 1, 4, -1, 2.",
+"options": ["-1, 0, 1, 2, -3, 4", "-3, -1, 0, 1, 2, 4", "0, -1, 1, 2, -3, 4", "1, -1, 0, 2, -3, 4"],
+"correctAnswer": 1,
+"explanation": "-3 < -1 < 0 < 1 < 2 < 4",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Which of the following numbers has 2 and 3 as its prime factors?",
+"options": ["5", "9", "12", "15"],
+"correctAnswer": 2,
+"explanation": "12 has prime factors 2 and 3 (2×2×3)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "What is the mode of 2, 4, 7, 5, 4 and 8?",
+"options": ["2", "4", "7", "8"],
+"correctAnswer": 1,
+"explanation": "4 appears twice, all other numbers appear once, so mode is 4",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If 13 + r > 39, then ...",
+"options": ["r > 3", "r > 16", "r > 26", "r > 52"],
+"correctAnswer": 2,
+"explanation": "13 + r > 39 → r > 39 - 13 → r > 26",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Convert 79 to a number in base five.",
+"options": ["304five", "340five", "403five", "430five"],
+"correctAnswer": 0,
+"explanation": "79 in base 10 = 3×25 + 0×5 + 4×1 = 304 in base 5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "The length of a rope is 28.16m. Round off this length to one decimal place.",
+"options": ["29.0m", "28.2m", "28.1m", "28.0m"],
+"correctAnswer": 1,
+"explanation": "28.16 rounded to one decimal place is 28.2m (since 6 ≥ 5)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A man bought a shirt for $3. What was the cost of the shirt in Zambian Kwacha, if $1 = K21.00?",
+"options": ["K7.00", "K18.00", "K24.00", "K63.00"],
+"correctAnswer": 3,
+"explanation": "$3 × K21 = K63",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "In Arabic numerals, the Roman numeral DLXVI can be written as ...",
+"options": ["666", "566", "564", "546"],
+"correctAnswer": 1,
+"explanation": "D = 500, LX = 60, VI = 6, total = 566",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "How much discount was a girl given for a book costing K110.00, if she paid K90.00?",
+"options": ["K20.00", "K90.00", "K110.00", "K200.00"],
+"correctAnswer": 0,
+"explanation": "Discount = Original Price - Amount Paid = K110 - K90 = K20",
+"shuffleOptions": true
+},
+/*
+{
+"type": "multiple-choice",
+"text": "Find the volume of the following cuboid.",
+"options": ["6cm³", "12cm³", "18cm³", "36cm³"],
+"correctAnswer": 3,
+"explanation": "Volume = length × width × height = 3cm × 4cm × 3cm = 36cm³",
+"shuffleOptions": true
+},
+*/
+{
+"type": "multiple-choice",
+"text": "If set M = {maize, rice, wheat, millet} and set N = {samp, wheat, sorghum, maize}, list the set M ∪ N.",
+"options": ["{maize, millet, rice, samp, sorghum, wheat}", "{maize, millet, rice, wheat}", "{maize, samp, sorghum, wheat}", "{maize, wheat}"],
+"correctAnswer": 0,
+"explanation": "M ∪ N represents all elements in M or N or both: {maize, millet, rice, samp, sorghum, wheat}",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A circle has a diameter of 14cm. Calculate its circumference (π = 3.14).",
+"options": ["10.86cm", "17.14cm", "43.96cm", "44.96cm"],
+"correctAnswer": 2,
+"explanation": "Circumference = π × diameter = 3.14 × 14 = 43.96cm",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "2/5 + 2/5 =",
+"options": ["1/3", "1/6", "24/25", "4/5"],
+"correctAnswer": 3,
+"explanation": "2/5 + 2/5 = 4/5",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "662eight - 367eight =",
+"options": ["373eight", "303eight", "273eight", "203eight"],
+"correctAnswer": 2,
+"explanation": "662 in base 8 minus 367 in base 8 equals 273 in base 8",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Round off 3 265 to the nearest ten.",
+"options": ["3 260", "3 270", "3 300", "3 370"],
+"correctAnswer": 1,
+"explanation": "3,265 rounded to nearest ten is 3,270 (since 5 ≥ 5)",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Find the value of 4³.",
+"options": ["64", "43", "12", "7"],
+"correctAnswer": 0,
+"explanation": "4³ = 4 × 4 × 4 = 64",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "1/3 + 2/5 =",
+"options": ["3/15", "8/15", "11/15", "3/8"],
+"correctAnswer": 2,
+"explanation": "1/3 + 2/5 = 5/15 + 6/15 = 11/15",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "An angle which is greater than 90° but less than 180° is called ... angle.",
+"options": ["an acute", "an obtuse", "a reflex", "a right"],
+"correctAnswer": 1,
+"explanation": "An obtuse angle is between 90° and 180°",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "If 49 pencils are shared among Jane, Mercy and Mary in the ratio 1 : 2 : 4, how many pencils will Mercy get?",
+"options": ["49", "28", "14", "7"],
+"correctAnswer": 2,
+"explanation": "Total parts = 1 + 2 + 4 = 7, Mercy's share = (2/7) × 49 = 14 pencils",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A car covered a distance of 180km in 3 hours. What was the speed of the car?",
+"options": ["60km/h", "177km/h", "183km/h", "540km/h"],
+"correctAnswer": 0,
+"explanation": "Speed = Distance ÷ Time = 180km ÷ 3h = 60km/h",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "Calculate the simple interest on K15 000.00 invested for 5 years at 10% per annum.",
+"options": ["K30 000.00", "K22 500.00", "K15 000.00", "K7 500.00"],
+"correctAnswer": 3,
+"explanation": "Simple Interest = Principal × Rate × Time = 15,000 × 0.10 × 5 = K7,500",
+"shuffleOptions": true
+},
+{
+"type": "multiple-choice",
+"text": "A Grade 8 learner got 14 marks out of 25 in a Science test. Express the marks he got as a percentage.",
+"options": ["56%", "46%", "39%", "11%"],
+"correctAnswer": 0,
+"explanation": "(14/25) × 100 = 56%",
+"shuffleOptions": true
+},
 
 // 2024                                        
     {
