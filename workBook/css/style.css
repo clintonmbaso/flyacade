@@ -852,3 +852,25 @@ progress::-webkit-progress-value {
         print-color-adjust: exact;
     }
 }
+
+/* iOS specific fixes */
+@supports (-webkit-touch-callout: none) {
+    .workbook-content {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .question {
+        -webkit-transform: translateZ(0); /* Force hardware acceleration */
+    }
+    
+    /* Prevent text size adjustment on orientation change */
+    body {
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+/* Ensure proper rendering on iOS */
+.workbook-page {
+    position: relative;
+    z-index: 1;
+}
