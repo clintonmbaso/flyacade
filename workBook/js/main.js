@@ -28,32 +28,32 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Baby Birds',
             logo: '../images/Classes_1.png',
             teacher: {
-                name: 'Teacher Siazyana',
-                picture: '../images/teachers/FS20BC0012.jpg'
+                name: 'Teacher Lyashi',
+                picture: '../images/teachers/FS20BC0014.jpg'
             }
         },
         'middle': {
             name: 'Sky Sprouts',
             logo: '../images/Classes_2.png',
             teacher: {
-                name: 'Teacher Siazyana',
-                picture: '../images/teachers/FS20BC0012.jpg'
+                name: 'Teacher Lyashi',
+                picture: '../images/teachers/FS20BC0014.jpg'
             }
         },
         'reception': {
             name: 'Nestlings Navigators',
             logo: '../images/Classes_3.png',
             teacher: {
-                name: 'Teacher Loveness',
-                picture: '../images/teachers/FS20BC0003.jpg'
+                name: 'Teacher Ethel',
+                picture: '../images/teachers/FS20BC0015.jpg'
             }
         },
         '1': {
             name: 'Feather Flyers',
             logo: '../images/Classes_4.png',
             teacher: {
-                name: 'Teacher Loveness',
-                picture: '../images/teachers/FS20BC0003.jpg'
+                name: 'Teacher Ethel',
+                picture: '../images/teachers/FS20BC0015.jpg'
             }
         },
         '2': {
@@ -171,7 +171,6 @@ listening: {
     title: "Listening Activity",
     template: (data, questionId) => `
         <div class="interactive-question listening-question">
-            <h4>${data.question}</h4>
             ${data.image ? `<img src="${data.image}" class="question-image" alt="Question image">` : ''}
             <div class="audio-player-container">
                 <audio controls src="${data.audio}" class="question-audio"></audio>
@@ -409,6 +408,30 @@ function processQuestionText(question) {
         workbookList.appendChild(backBtn);
     }
 
+function isLocalStorageAvailable() {
+    try {
+        const test = 'test';
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+
+// Modify your save/load functions
+function getSavedAnswers() {
+    if (!currentWorkbook || !isLocalStorageAvailable()) return {};
+    try {
+        const saved = localStorage.getItem(`workbook_${currentWorkbook.id}_answers`);
+        return saved ? JSON.parse(saved) : {};
+    } catch (e) {
+        console.error('LocalStorage access failed:', e);
+        return {};
+    }
+}    
+    
+    
     function loadWorkbook(workbookId) {
         // Clear any previous answers for this workbook when loading
         localStorage.removeItem(`workbook_${workbookId}_answers`);
