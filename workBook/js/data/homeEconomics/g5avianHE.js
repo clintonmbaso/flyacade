@@ -748,7 +748,7 @@ registerWorkbook({
 "explanation": "Human rights organizations work to educate the public and support those whose rights have been violated."
 },
                     
-[
+
 {
 "type": "multiple-choice",
 "text": "Why is it important to discipline a child?",
