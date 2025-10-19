@@ -9,7 +9,7 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 5,
+            questionLimit: 30,
             exercises: [
                 {
                     id: 'section1',
@@ -175,15 +175,15 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "You use your mouth to eat.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'Senses',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Which body part do we use to see?",

@@ -9,8 +9,9 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 10,
+            questionLimit: 30,
             exercises: [
+            /*
                 {
                     id: 'section1',
                     title: 'The Solar System',
@@ -708,449 +709,443 @@ registerWorkbook({
                             
                     ]
                 },            
+                */
                 {
                     id: 'section3',
                     title: 'Mining',
                     questions: [
                     
+
     {
         "type": "multiple-choice",
-        "text": "Which of the following is a mineral mined in Zambia?",
-        "options": ["Copper", "Diamond", "Platinum", "Uranium"],
+        "text": "Which mineral is Zambia's primary export?",
+        "options": ["Copper", "Gold", "Iron", "Coal"],
         "correctAnswer": 0,
-        "explanation": "Copper is one of the main minerals mined in Zambia.",
+        "explanation": "Copper is Zambia's primary export, mined in regions like the Copperbelt.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which metal is Zambia most known for mining?",
-        "options": ["Gold", "Copper", "Iron", "Aluminium"],
-        "correctAnswer": 1,
-        "explanation": "Zambia is famous for its copper mining industry.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is one property of copper?",
-        "options": ["Poor conductor of electricity", "Resistant to rust", "Very brittle", "Non-malleable"],
-        "correctAnswer": 1,
-        "explanation": "Copper is resistant to rust and a good conductor of electricity.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT mined in Zambia?",
-        "options": ["Cobalt", "Tin", "Silver", "Platinum"],
-        "correctAnswer": 3,
-        "explanation": "Platinum is not listed among the minerals mined in Zambia.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How is copper extracted after blasting?",
-        "options": ["Direct smelting", "Crushing and floatation", "Chemical leaching", "Magnetic separation"],
-        "correctAnswer": 1,
-        "explanation": "After blasting, copper ore is crushed and undergoes floatation before electrolysis.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a product made from copper in Zambia?",
-        "options": ["Plastic bottles", "Copper cables", "Glass windows", "Wooden furniture"],
-        "correctAnswer": 1,
-        "explanation": "Copper cables are one of the products made from copper in Zambia.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the final stage in copper refining?",
-        "options": ["Blasting", "Electrolysis", "Floatation", "Crushing"],
-        "correctAnswer": 1,
-        "explanation": "Electrolysis is used to refine copper to high purity.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is copper important for Zambia's economy?",
-        "options": ["It is used for food production", "It provides foreign exchange", "It is used for making clothes", "It is a source of drinking water"],
-        "correctAnswer": 1,
-        "explanation": "Copper exports generate foreign exchange for Zambia.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a negative impact of mining?",
-        "options": ["Increased rainfall", "Air pollution", "More fertile soil", "Expansion of forests"],
-        "correctAnswer": 1,
-        "explanation": "Mining can cause air, land, and water pollution.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a use of copper?",
-        "options": ["Making jewelry", "Producing paper", "Manufacturing plastic", "Baking bread"],
+        "text": "Where is copper primarily mined in Zambia?",
+        "options": ["Ndola", "Maamba", "Lusaka", "Livingstone"],
         "correctAnswer": 0,
-        "explanation": "Copper is used in making jewelry and ornaments.",
+        "explanation": "Copper is mined in Ndola, Luanshya, Mufulira, Chingola, and Solwezi.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "What is the first step in copper extraction?",
-        "options": ["Electrolysis", "Drilling and blasting", "Floatation", "Smelting"],
+        "text": "What is a key property of copper?",
+        "options": ["Poor conductor of electricity", "Highly conductive", "Brittle", "Non-malleable"],
         "correctAnswer": 1,
-        "explanation": "Copper extraction begins with drilling and blasting to remove ore from the ground.",
+        "explanation": "Copper is highly conductive, making it ideal for electrical wiring.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which mineral is often found alongside copper in Zambia?",
-        "options": ["Cobalt", "Diamond", "Salt", "Limestone"],
-        "correctAnswer": 0,
-        "explanation": "Cobalt is commonly mined alongside copper in Zambia.",
+        "text": "Which mining method is used for deep ore deposits?",
+        "options": ["Open-cast mining", "Shaft mining", "Placer mining", "Strip mining"],
+        "correctAnswer": 1,
+        "explanation": "Shaft mining is used for deep ore deposits, such as copper in the Copperbelt.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "What is an advantage of making copper products within Zambia?",
-        "options": ["Reduces employment", "Increases foreign dependency", "Creates jobs", "Decreases trade"],
+        "text": "What is a by-product of copper mining?",
+        "options": ["Gold", "Cobalt", "Coal", "Tin"],
+        "correctAnswer": 1,
+        "explanation": "Cobalt is a silvery-white metal obtained as a by-product of copper mining.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Where is coal mined in Zambia?",
+        "options": ["Kabwe", "Maamba", "Solwezi", "Mumbwa"],
+        "correctAnswer": 1,
+        "explanation": "Coal is mined in Maamba and used as fuel for power plants.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mineral is found in Kabwe and Luanshya?",
+        "options": ["Copper", "Lead & Zinc", "Gold", "Emeralds"],
+        "correctAnswer": 1,
+        "explanation": "Lead and zinc are mined in Kabwe and Luanshya.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the color of pure copper?",
+        "options": ["Silver", "Black", "Brownish-red", "White"],
         "correctAnswer": 2,
-        "explanation": "Local copper manufacturing creates employment opportunities.",
+        "explanation": "Copper has a distinctive brownish-red color.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which of these is NOT a property of copper?",
-        "options": ["Good electrical conductivity", "Resistance to rust", "High melting point", "Poor heat conductor"],
+        "text": "Which of these is NOT a use of copper?",
+        "options": ["Electrical wires", "Water pipes", "Jewelry", "Glass production"],
         "correctAnswer": 3,
-        "explanation": "Copper is a good heat and electricity conductor.",
+        "explanation": "Copper is not used in glass production but is widely used in electrical, plumbing, and jewelry applications.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "What is a common use of copper in households?",
-        "options": ["Electrical wiring", "Glass windows", "Wooden chairs", "Cotton clothes"],
-        "correctAnswer": 0,
-        "explanation": "Copper is widely used in electrical wiring due to its conductivity.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How does mining affect water sources?",
-        "options": ["Makes water cleaner", "Has no effect", "Can cause pollution", "Increases water supply"],
+        "text": "What is the final stage of copper refining?",
+        "options": ["Crushing", "Smelting", "Electrolysis", "Floatation"],
         "correctAnswer": 2,
-        "explanation": "Mining can lead to water pollution through chemical runoff.",
+        "explanation": "Electrolysis refines copper to 100% purity, producing copper cathodes.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which of these metals is mined in Zambia?",
-        "options": ["Platinum", "Gold", "Titanium", "Mercury"],
+        "text": "Which alloy is made by mixing copper with zinc?",
+        "options": ["Bronze", "Brass", "Steel", "Pewter"],
         "correctAnswer": 1,
-        "explanation": "Gold is one of the minerals mined in Zambia.",
+        "explanation": "Brass is an alloy of copper and zinc, used in machinery and decorations.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is a copper product in Zambia?",
+        "options": ["Plastic bottles", "Copper cables", "Wooden furniture", "Ceramic tiles"],
+        "correctAnswer": 1,
+        "explanation": "Copper is used to make electrical cables, among other products.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What environmental issue is caused by mining?",
+        "options": ["Reforestation", "Land degradation", "Cleaner air", "Increased rainfall"],
+        "correctAnswer": 1,
+        "explanation": "Mining causes land degradation through craters and waste heaps.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining method is used for ores near the surface?",
+        "options": ["Shaft mining", "Open-cast mining", "Underground mining", "Drift mining"],
+        "correctAnswer": 1,
+        "explanation": "Open-cast mining is used for ores near the surface, such as coal in Maamba.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
         "text": "What is the purpose of floatation in copper extraction?",
-        "options": ["To separate copper from waste rock", "To melt the copper", "To cool the ore", "To transport the ore"],
-        "correctAnswer": 0,
-        "explanation": "Floatation helps separate copper minerals from unwanted rock.",
+        "options": ["To melt the ore", "To separate copper from impurities", "To crush the ore", "To transport the ore"],
+        "correctAnswer": 1,
+        "explanation": "Floatation separates copper from impurities by making it bubble to the surface.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which industry benefits most from Zambia's copper?",
-        "options": ["Textile", "Construction", "Electronics", "Agriculture"],
+        "text": "Which of these is NOT mined in Zambia?",
+        "options": ["Copper", "Cobalt", "Diamonds", "Emeralds"],
         "correctAnswer": 2,
-        "explanation": "Copper is essential for electronics due to its conductivity.",
+        "explanation": "Zambia mines emeralds, not diamonds, among its gemstones.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "What is a benefit of copper exports for Zambia?",
-        "options": ["Decreased taxes", "Increased foreign exchange", "Less employment", "More imports"],
+        "text": "What is the economic benefit of copper mining?",
+        "options": ["Increased imports", "Job creation", "Higher pollution", "Reduced exports"],
         "correctAnswer": 1,
-        "explanation": "Copper exports bring foreign currency into Zambia.",
+        "explanation": "Copper mining creates jobs and boosts Zambia's economy.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which of these is NOT a step in copper refining?",
-        "options": ["Blasting", "Electrolysis", "Floatation", "Crushing"],
-        "correctAnswer": 0,
-        "explanation": "Blasting is part of extraction, not refining.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is copper used in electrical cables?",
-        "options": ["It is cheap", "It conducts electricity well", "It is heavy", "It is fragile"],
-        "correctAnswer": 1,
-        "explanation": "Copper is preferred for cables due to its high conductivity.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which environmental issue is caused by mining?",
-        "options": ["More trees grow", "Air becomes cleaner", "Land degradation", "Increased rainfall"],
+        "text": "Which gas contributes to acid rain from mining?",
+        "options": ["Oxygen", "Nitrogen", "Sulfur dioxide", "Carbon monoxide"],
         "correctAnswer": 2,
-        "explanation": "Mining can lead to land degradation and deforestation.",
+        "explanation": "Sulfur dioxide from smelting reacts with rain to form acid rain.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "What is a traditional use of copper in Zambia?",
-        "options": ["Making utensils", "Building houses", "Weaving baskets", "Producing cement"],
-        "correctAnswer": 0,
-        "explanation": "Copper has been used to make utensils and jewelry traditionally.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What happens after copper ore is crushed?",
-        "options": ["It is melted directly", "It undergoes floatation", "It is buried", "It is painted"],
+        "text": "What is the main use of coal mined in Zambia?",
+        "options": ["Jewelry", "Fuel for power plants", "Construction", "Electronics"],
         "correctAnswer": 1,
-        "explanation": "After crushing, the ore goes through floatation to separate copper.",
+        "explanation": "Coal from Maamba is primarily used as fuel for power generation.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
-        "text": "Which metal is often exported alongside copper from Zambia?",
-        "options": ["Cobalt", "Titanium", "Mercury", "Silicon"],
-        "correctAnswer": 0,
-        "explanation": "Cobalt is a byproduct of copper mining in Zambia.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is an economic importance of copper mining?",
-        "options": ["Reduces population", "Increases unemployment", "Generates taxes", "Decreases exports"],
+        "text": "Which Zambian coins are made from copper?",
+        "options": ["K1 coin", "K5 coin", "10 ngwee coin", "K10 note"],
         "correctAnswer": 2,
-        "explanation": "Copper mining contributes to government revenue through taxes.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT made from copper?",
-        "options": ["Jewelry", "Coins", "Cables", "Plastic bottles"],
-        "correctAnswer": 3,
-        "explanation": "Plastic bottles are not made from copper.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main reason Zambia refines copper?",
-        "options": ["To export raw ore", "To increase its value", "To make it heavier", "To reduce its uses"],
-        "correctAnswer": 1,
-        "explanation": "Refining copper increases its purity and market value.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How does copper contribute to Zambia's development?",
-        "options": ["By reducing education", "By providing employment", "By decreasing trade", "By limiting industry"],
-        "correctAnswer": 1,
-        "explanation": "The copper industry creates jobs and boosts the economy.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which process removes impurities from copper?",
-        "options": ["Blasting", "Electrolysis", "Digging", "Painting"],
-        "correctAnswer": 1,
-        "explanation": "Electrolysis purifies copper by removing impurities.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a social benefit of copper mining?",
-        "options": ["More pollution", "Job creation", "Less infrastructure", "Fewer schools"],
-        "correctAnswer": 1,
-        "explanation": "Mining provides employment opportunities for locals.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a step in copper processing?",
-        "options": ["Weaving", "Floatation", "Sewing", "Painting"],
-        "correctAnswer": 1,
-        "explanation": "Floatation is a key step in copper processing.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is copper resistant to rust?",
-        "options": ["It reacts with water", "It forms a protective layer", "It absorbs oxygen", "It melts easily"],
-        "correctAnswer": 1,
-        "explanation": "Copper forms a patina that prevents deep corrosion.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a challenge of mining in Zambia?",
-        "options": ["Too much rain", "Environmental pollution", "Lack of minerals", "No demand for copper"],
-        "correctAnswer": 1,
-        "explanation": "Mining can cause environmental damage if not managed properly.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a byproduct of copper mining?",
-        "options": ["Cobalt", "Wood", "Wheat", "Cotton"],
-        "correctAnswer": 0,
-        "explanation": "Cobalt is often extracted alongside copper.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the primary use of refined copper?",
-        "options": ["Food seasoning", "Electrical applications", "Making clothes", "Building mud houses"],
-        "correctAnswer": 1,
-        "explanation": "Refined copper is mainly used in electrical wiring and electronics.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How does copper benefit international trade?",
-        "options": ["By reducing exports", "By increasing imports", "By earning foreign exchange", "By limiting industries"],
-        "correctAnswer": 2,
-        "explanation": "Copper exports bring foreign currency into Zambia.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a reason to process copper locally?",
-        "options": ["To increase dependency on imports", "To create more jobs", "To reduce its value", "To export raw materials"],
-        "correctAnswer": 1,
-        "explanation": "Local processing creates employment and adds value.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the impact of mining on land?",
-        "options": ["Improves soil fertility", "Causes deforestation", "Increases water supply", "Reduces pollution"],
-        "correctAnswer": 1,
-        "explanation": "Mining often leads to deforestation and land degradation.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a major copper-producing region in Zambia?",
-        "options": ["Luapula", "Copperbelt", "Eastern Province", "Southern Province"],
-        "correctAnswer": 1,
-        "explanation": "The Copperbelt Province is a major mining region.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the role of electrolysis in copper refining?",
-        "options": ["To mine the ore", "To purify the metal", "To crush the rock", "To transport copper"],
-        "correctAnswer": 1,
-        "explanation": "Electrolysis removes impurities to produce pure copper.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a disadvantage of mining?",
-        "options": ["Job creation", "Economic growth", "Environmental harm", "Increased exports"],
-        "correctAnswer": 2,
-        "explanation": "Mining can harm the environment if not managed sustainably.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a common household item made from copper?",
-        "options": ["Plastic chair", "Copper pot", "Glass cup", "Wooden table"],
-        "correctAnswer": 1,
-        "explanation": "Copper pots and utensils are common in households.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is copper mining important for Zambia's economy?",
-        "options": ["It reduces trade", "It provides raw materials for local industries", "It decreases employment", "It increases imports"],
-        "correctAnswer": 1,
-        "explanation": "Copper mining supplies materials for industries and exports.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a mineral mined in Zambia?",
-        "options": ["Zinc", "Coal", "Aluminium", "Uranium"],
-        "correctAnswer": 3,
-        "explanation": "Uranium is not listed among Zambia's mined minerals.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What happens during the crushing stage of copper extraction?",
-        "options": ["Ore is broken into smaller pieces", "Copper is melted", "Impurities are removed", "Copper is shaped into products"],
-        "correctAnswer": 0,
-        "explanation": "Crushing breaks the ore into smaller pieces for processing.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a benefit of local copper manufacturing?",
-        "options": ["Higher import dependency", "More unemployment", "Increased value addition", "Reduced exports"],
-        "correctAnswer": 2,
-        "explanation": "Local manufacturing adds value to raw copper.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main environmental concern with copper mining?",
-        "options": ["Increased wildlife", "Water and land pollution", "More forests", "Cleaner air"],
-        "correctAnswer": 1,
-        "explanation": "Mining can pollute water sources and degrade land.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a step before copper refining?",
-        "options": ["Electrolysis", "Floatation", "Painting", "Weaving"],
-        "correctAnswer": 1,
-        "explanation": "Floatation separates copper from ore before refining.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a major use of cobalt mined in Zambia?",
-        "options": ["Making batteries", "Producing paper", "Weaving clothes", "Baking bread"],
-        "correctAnswer": 0,
-        "explanation": "Cobalt is used in rechargeable batteries.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How does copper contribute to Zambia's global trade?",
-        "options": ["By reducing exports", "By being a major export commodity", "By limiting industries", "By decreasing foreign exchange"],
-        "correctAnswer": 1,
-        "explanation": "Copper is one of Zambia's top exports.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the purpose of drilling in copper mining?",
-        "options": ["To plant trees", "To extract ore from the ground", "To purify copper", "To make jewelry"],
-        "correctAnswer": 1,
-        "explanation": "Drilling helps access copper ore underground.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a property of copper?",
-        "options": ["Malleable", "Good conductor", "Non-corrosive", "Insulator"],
-        "correctAnswer": 3,
-        "explanation": "Copper is a conductor, not an insulator.",
+        "explanation": "The 10 and 50 ngwee coins are made from copper.",
         "shuffleOptions": true
     },
     {
         "type": "multiple-choice",
         "text": "What is the final product of copper refining?",
-        "options": ["Raw ore", "Pure copper metal", "Crushed rock", "Mixed minerals"],
+        "options": ["Copper ore", "Copper cathodes", "Copper slag", "Copper dust"],
         "correctAnswer": 1,
-        "explanation": "Refining produces pure copper for industrial use.",
+        "explanation": "Electrolysis produces pure copper cathodes for export and manufacturing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining activity causes deforestation?",
+        "options": ["Refining", "Drilling", "Land clearing", "Smelting"],
+        "correctAnswer": 2,
+        "explanation": "Land clearing for mines leads to deforestation and habitat loss.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which metal is mixed with copper to make bronze?",
+        "options": ["Zinc", "Iron", "Tin", "Aluminum"],
+        "correctAnswer": 2,
+        "explanation": "Bronze is an alloy of copper and tin, used in bearings and sculptures.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a major environmental concern in mining areas?",
+        "options": ["Increased wildlife", "Water pollution", "More fertile soil", "Less noise"],
+        "correctAnswer": 1,
+        "explanation": "Toxic mining waste contaminates rivers, harming aquatic life.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which town is known for emerald mining?",
+        "options": ["Kabwe", "Ndola", "Luanshya", "Lufwanyama"],
+        "correctAnswer": 3,
+        "explanation": "Lufwanyama is a key area for emerald mining in Zambia.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What happens during copper smelting?",
+        "options": ["Ore is crushed", "Copper is melted to remove impurities", "Copper is stretched into wires", "Water is filtered"],
+        "correctAnswer": 1,
+        "explanation": "Smelting melts copper to remove impurities, increasing purity to 98%.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which industry benefits most from copper’s conductivity?",
+        "options": ["Textile", "Electrical", "Agriculture", "Fishing"],
+        "correctAnswer": 1,
+        "explanation": "Copper's high conductivity makes it essential for electrical wiring and components.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a negative effect of mining blasts?",
+        "options": ["Improved air quality", "Building damage from vibrations", "More trees growing", "Cleaner water"],
+        "correctAnswer": 1,
+        "explanation": "Blasting causes vibrations that can damage nearby buildings.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mineral is mined in Mumbwa?",
+        "options": ["Copper", "Gold", "Coal", "Tin"],
+        "correctAnswer": 1,
+        "explanation": "Gold is found in small deposits in Mumbwa, Ndola, and Rufunsa.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Why is local copper manufacturing important?",
+        "options": ["Increases imports", "Reduces foreign exchange earnings", "Creates jobs", "Lowers copper demand"],
+        "correctAnswer": 2,
+        "explanation": "Local manufacturing creates jobs and reduces reliance on imported goods.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is NOT a step in copper extraction?",
+        "options": ["Drilling", "Reforestation", "Floatation", "Smelting"],
+        "correctAnswer": 1,
+        "explanation": "Reforestation is an environmental activity, not part of copper extraction.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the primary use of manganese?",
+        "options": ["Jewelry", "Steel production", "Plastic making", "Fuel"],
+        "correctAnswer": 1,
+        "explanation": "Manganese is used in steel production to improve strength.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining by-product can cause water pollution?",
+        "options": ["Copper cathodes", "Acid mine drainage", "Refined gold", "Crushed coal"],
+        "correctAnswer": 1,
+        "explanation": "Acid mine drainage contaminates water with toxic metals.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the main impurity removed during copper refining?",
+        "options": ["Gold", "Silver", "Iron", "Oxygen"],
+        "correctAnswer": 2,
+        "explanation": "Iron and other impurities are removed during refining.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which Zambian town has uranium deposits?",
+        "options": ["Kabwe", "Solwezi", "Mufulira", "Chingola"],
+        "correctAnswer": 0,
+        "explanation": "Kabwe has uranium deposits, though not extensively mined.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a major challenge in Zambia’s mining sector?",
+        "options": ["Low copper demand", "High production costs", "Too many workers", "Excess water supply"],
+        "correctAnswer": 1,
+        "explanation": "Fluctuating copper prices and high production costs affect profitability.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which property makes copper ideal for water pipes?",
+        "options": ["Malleability", "Corrosion resistance", "Brittleness", "Low conductivity"],
+        "correctAnswer": 1,
+        "explanation": "Copper resists rust, making it durable for plumbing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the waste material from mining called?",
+        "options": ["Cathodes", "Slag", "Alloys", "Gems"],
+        "correctAnswer": 1,
+        "explanation": "Slag is the leftover waste after metal extraction.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining activity produces the most dust?",
+        "options": ["Electrolysis", "Crushing", "Smelting", "Drilling"],
+        "correctAnswer": 1,
+        "explanation": "Crushing ore into powder generates significant dust.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which energy source is heavily used in mining?",
+        "options": ["Solar power", "Wind power", "Electricity", "Biogas"],
+        "correctAnswer": 2,
+        "explanation": "Mining operations require large amounts of electricity.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the main reason Zambia exports copper cathodes?",
+        "options": ["They are unrefined", "They are 100% pure", "They contain cobalt", "They are cheaper"],
+        "correctAnswer": 1,
+        "explanation": "Copper cathodes are 100% pure and in high demand globally.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which environmental law regulates mining in Zambia?",
+        "options": ["The Wildlife Act", "The Mines and Minerals Act", "The Water Act", "The Forest Act"],
+        "correctAnswer": 1,
+        "explanation": "The Mines and Minerals Act governs mining activities and environmental protection.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the main hazard of open-cast mining?",
+        "options": ["Flooding", "Landslides", "Earthquakes", "Volcanic eruptions"],
+        "correctAnswer": 1,
+        "explanation": "Open pits can collapse, leading to landslides.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which of these is a renewable resource?",
+        "options": ["Copper", "Coal", "Solar energy", "Iron"],
+        "correctAnswer": 2,
+        "explanation": "Solar energy is renewable, unlike mined minerals.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the purpose of a ball mill in mining?",
+        "options": ["To melt ore", "To grind ore into powder", "To transport ore", "To purify water"],
+        "correctAnswer": 1,
+        "explanation": "A ball mill crushes ore into fine powder for further processing.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining activity causes air pollution?",
+        "options": ["Reforestation", "Smelting", "Water recycling", "Wildlife conservation"],
+        "correctAnswer": 1,
+        "explanation": "Smelting releases fumes and sulfur dioxide into the air.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the main use of zinc mined in Zambia?",
+        "options": ["Jewelry", "Galvanizing iron", "Fuel", "Glassmaking"],
+        "correctAnswer": 1,
+        "explanation": "Zinc is used to galvanize iron, preventing rust.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining method has the least surface disruption?",
+        "options": ["Open-cast mining", "Shaft mining", "Strip mining", "Mountaintop removal"],
+        "correctAnswer": 1,
+        "explanation": "Shaft mining goes deep underground, causing less surface damage.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which industry uses copper for radiators?",
+        "options": ["Automotive", "Textile", "Food processing", "Pharmaceutical"],
+        "correctAnswer": 0,
+        "explanation": "Copper's heat conduction makes it ideal for car radiators.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is a major health risk for miners?",
+        "options": ["Sunburn", "Dust inhalation", "Dehydration", "Noise-induced hearing loss"],
+        "correctAnswer": 1,
+        "explanation": "Dust from mining can cause lung diseases like silicosis.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mineral is used in making batteries?",
+        "options": ["Copper", "Cobalt", "Coal", "Iron"],
+        "correctAnswer": 1,
+        "explanation": "Cobalt is used in rechargeable batteries for electronics.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the primary reason for refining copper?",
+        "options": ["To make it heavier", "To remove impurities", "To change its color", "To reduce its conductivity"],
+        "correctAnswer": 1,
+        "explanation": "Refining removes impurities to produce pure copper for industrial use.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "Which mining waste product can be recycled?",
+        "options": ["Slag", "Mercury", "Sulfur dioxide", "Acid mine drainage"],
+        "correctAnswer": 0,
+        "explanation": "Slag can sometimes be reused in construction or road-building.",
+        "shuffleOptions": true
+    },
+    {
+        "type": "multiple-choice",
+        "text": "What is the biggest environmental risk of copper mining?",
+        "options": ["Noise pollution", "Water contamination", "Increased rainfall", "Soil fertilization"],
+        "correctAnswer": 1,
+        "explanation": "Toxic chemicals from mining can leak into water sources.",
         "shuffleOptions": true
     }
                     

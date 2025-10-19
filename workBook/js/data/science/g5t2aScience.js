@@ -384,6 +384,326 @@ registerWorkbook({
     "explanation": "Leg presence is a key distinguishing feature.",
     "shuffleOptions": true
 },
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of fungi?",
+    "options": ["They decompose dead matter", "They destroy all plants", "They make soil infertile", "They only grow in deserts"],
+    "correctAnswer": 0,
+    "explanation": "Fungi are nature's recyclers.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of terracing?",
+    "options": ["To make farms look nice", "To prevent soil erosion on slopes", "To dry the soil faster", "To attract pests"],
+    "correctAnswer": 1,
+    "explanation": "Terraces slow water runoff on hillsides.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a characteristic of clay soil?",
+    "options": ["Drains water very fast", "Holds water for a long time", "Is very loose", "Is best for desert plants"],
+    "correctAnswer": 1,
+    "explanation": "Clay's fine particles retain moisture.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is NOT a step in preparing compost?",
+    "options": ["Piling up dry leaves and food scraps", "Adding chemicals to kill all microbes", "Turning the pile occasionally", "Keeping it moist"],
+    "correctAnswer": 1,
+    "explanation": "Microbes are essential for decomposition.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main advantage of organic fertilizers over chemical ones?",
+    "options": ["They work faster", "They improve soil health long-term", "They are always cheaper", "They never smell"],
+    "correctAnswer": 1,
+    "explanation": "Organic matter builds soil structure.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a flowering plant?",
+    "options": ["Fern", "Moss", "Pine tree", "Sunflower"],
+    "correctAnswer": 3,
+    "explanation": "Sunflowers produce showy flowers.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is NOT an invertebrate?",
+    "options": ["Jellyfish", "Starfish", "Snail", "Fish"],
+    "correctAnswer": 3,
+    "explanation": "Fish have backbones (vertebrates).",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of insects in the ecosystem?",
+    "options": ["They only harm plants", "They pollinate plants and decompose matter", "They make the soil dry", "They scare away all animals"],
+    "correctAnswer": 1,
+    "explanation": "Insects perform vital ecological functions.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a disadvantage of sandy soil?",
+    "options": ["It drains water too quickly", "It holds too much water", "It is too fertile", "It is always black"],
+    "correctAnswer": 0,
+    "explanation": "Fast drainage can lead to drought stress.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main benefit of using mulch?",
+    "options": ["It makes the soil dry faster", "It retains moisture and prevents weeds", "It attracts pests", "It changes soil color"],
+    "correctAnswer": 1,
+    "explanation": "Mulch creates a protective soil covering.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a characteristic of loamy soil?",
+    "options": ["Too sticky when wet", "Too loose when dry", "A mix of sand, silt, and clay", "Only found in deserts"],
+    "correctAnswer": 2,
+    "explanation": "Loam combines different soil particle sizes.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a watering can in farming?",
+    "options": ["To scare away birds", "To apply water gently to plants", "To dig soil", "To harvest crops"],
+    "correctAnswer": 1,
+    "explanation": "Watering cans allow controlled irrigation.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is NOT a part of soil composition?",
+    "options": ["Minerals", "Organic matter", "Plastic waste", "Water and air"],
+    "correctAnswer": 2,
+    "explanation": "Plastic is not a natural soil component.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of earthworms in soil?",
+    "options": ["They make tunnels that improve aeration", "They eat all plant roots", "They dry the soil", "They make soil infertile"],
+    "correctAnswer": 0,
+    "explanation": "Earthworm burrows enhance soil structure.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of intercropping?",
+    "options": ["It reduces soil fertility", "It maximizes land use and reduces pests", "It makes harvesting harder", "It requires more chemicals"],
+    "correctAnswer": 1,
+    "explanation": "Intercropping creates biodiversity benefits.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of photosynthesis in plants?",
+    "options": ["To attract insects", "To make food (glucose) for the plant", "To change leaf color", "To absorb water only"],
+    "correctAnswer": 1,
+    "explanation": "Photosynthesis converts light energy to chemical energy.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a characteristic of fungi?",
+    "options": ["They produce flowers", "They reproduce by spores", "They have roots", "They need sunlight to grow"],
+    "correctAnswer": 1,
+    "explanation": "Fungi release spores for reproduction.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of pollinators like bees?",
+    "options": ["They harm flowers", "They help plants reproduce by transferring pollen", "They eat all the leaves", "They make fruits taste bad"],
+    "correctAnswer": 1,
+    "explanation": "Pollination enables plant reproduction.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a disadvantage of overusing chemical fertilizers?",
+    "options": ["They make soil too fertile", "They can pollute water sources", "They attract helpful insects", "They make plants grow slower"],
+    "correctAnswer": 1,
+    "explanation": "Excess nutrients can contaminate waterways.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main benefit of crop rotation?",
+    "options": ["It keeps soil fertile by changing crops", "It makes the soil dry", "It attracts pests", "It reduces plant growth"],
+    "correctAnswer": 0,
+    "explanation": "Rotation prevents nutrient depletion.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a characteristic of sandy soil?",
+    "options": ["It holds water well", "It feels gritty and drains quickly", "It is very sticky", "It is always black"],
+    "correctAnswer": 1,
+    "explanation": "Sand particles are large and don't compact.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of nitrogen in soil?",
+    "options": ["It helps plants grow leaves and stems", "It makes soil dry", "It attracts pests", "It changes soil color"],
+    "correctAnswer": 0,
+    "explanation": "Nitrogen promotes leafy green growth.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of using organic manure?",
+    "options": ["It works instantly", "It improves soil structure over time", "It never smells", "It kills all pests"],
+    "correctAnswer": 1,
+    "explanation": "Organic matter enhances soil properties.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a whiteboard in class?",
+    "options": ["To water plants", "To write notes and draw diagrams", "To scare insects", "To harvest crops"],
+    "correctAnswer": 1,
+    "explanation": "Whiteboards are visual teaching tools.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a method of water conservation in farming?",
+    "options": ["Overwatering crops", "Using drip irrigation", "Compacting soil tightly", "Removing all plants"],
+    "correctAnswer": 1,
+    "explanation": "Drip systems deliver water efficiently.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of phosphorus in plant growth?",
+    "options": ["It helps in root and flower development", "It makes leaves green", "It attracts pollinators", "It dries the soil"],
+    "correctAnswer": 0,
+    "explanation": "Phosphorus supports root and bloom growth.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of earthworms in soil?",
+    "options": ["They make soil loose and fertile", "They eat all plant roots", "They dry the soil", "They attract pests"],
+    "correctAnswer": 0,
+    "explanation": "Earthworms enhance soil quality.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of marking and labeling plants?",
+    "options": ["To identify different plants easily", "To scare away animals", "To dry the soil", "To make plants grow faster"],
+    "correctAnswer": 0,
+    "explanation": "Labels help with plant identification.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a characteristic of healthy soil?",
+    "options": ["It has no living organisms", "It is rich in nutrients and has good structure", "It is always dry", "It is very hard"],
+    "correctAnswer": 1,
+    "explanation": "Healthy soil has balanced properties.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of potassium in plant growth?",
+    "options": ["It helps in disease resistance and fruit quality", "It makes leaves colorful", "It attracts pests", "It dries the soil"],
+    "correctAnswer": 0,
+    "explanation": "Potassium strengthens plants and improves yields.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of using natural pest control?",
+    "options": ["It harms the environment", "It reduces chemical use and protects beneficial insects", "It kills all plants", "It makes soil infertile"],
+    "correctAnswer": 1,
+    "explanation": "Natural methods maintain ecological balance.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a comparison chart in class?",
+    "options": ["To show differences and similarities between things", "To water plants", "To scare insects", "To dig soil"],
+    "correctAnswer": 0,
+    "explanation": "Charts organize information visually.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a method of improving clay soil?",
+    "options": ["Adding more clay", "Adding organic matter like compost", "Compacting it tightly", "Drying it completely"],
+    "correctAnswer": 1,
+    "explanation": "Organic matter improves clay's workability.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of decomposers in the ecosystem?",
+    "options": ["They break down dead matter and recycle nutrients", "They harm plants", "They make soil dry", "They attract pests"],
+    "correctAnswer": 0,
+    "explanation": "Decomposers complete nutrient cycles.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of using green manure?",
+    "options": ["It adds nutrients and improves soil when plowed under", "It dries the soil", "It kills all plants", "It attracts pests"],
+    "correctAnswer": 0,
+    "explanation": "Green manure crops enrich the soil.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a stopwatch in soil experiments?",
+    "options": ["To measure time for drainage tests", "To water plants", "To scare insects", "To dig soil"],
+    "correctAnswer": 0,
+    "explanation": "Timing helps compare drainage rates.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a characteristic of healthy compost?",
+    "options": ["It smells bad", "It is dark, crumbly, and earthy-smelling", "It is very dry", "It has plastic waste"],
+    "correctAnswer": 1,
+    "explanation": "Properly decomposed compost has these traits.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main role of carbon in soil?",
+    "options": ["It helps in organic matter decomposition", "It makes soil dry", "It attracts pests", "It changes soil color"],
+    "correctAnswer": 0,
+    "explanation": "Carbon is a key component of organic matter.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a benefit of using cover crops?",
+    "options": ["They prevent soil erosion and add nutrients", "They dry the soil", "They kill all plants", "They attract pests"],
+    "correctAnswer": 0,
+    "explanation": "Cover crops protect and enrich soil.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a measuring cup in soil experiments?",
+    "options": ["To measure water amounts accurately", "To scare insects", "To dig soil", "To plant seeds"],
+    "correctAnswer": 0,
+    "explanation": "Precise measurements ensure consistent tests.",
+    "shuffleOptions": true
+}
 
                             
                     ]

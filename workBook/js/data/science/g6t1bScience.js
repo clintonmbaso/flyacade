@@ -9,7 +9,7 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 5,
+            questionLimit: 30,
             exercises: [
                 {
                     id: 'section1',
@@ -255,15 +255,15 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "Apple slices provide vitamins and fiber without added sugars.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'Food Labelling',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Why is food labeling important?",
@@ -423,8 +423,8 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "The main purpose of packaging is to protect and preserve food until consumption.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },            
             
@@ -433,7 +433,7 @@ registerWorkbook({
                     id: 'section1',
                     title: 'Clinic Cards',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "What is the main purpose of interpreting children’s clinic cards?",
@@ -593,15 +593,15 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "Breakfast fuels the body and brain for daily activities.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'Deficiency Disease',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Which deficiency disease is caused by a lack of vitamin C?",
@@ -761,8 +761,8 @@ registerWorkbook({
         "correctAnswer": 2,
         "explanation": "Diabetes is a metabolic disorder, not a deficiency disease.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },            
             
@@ -770,7 +770,7 @@ registerWorkbook({
                     id: 'section1',
                     title: 'Substance Abuse',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "What is one major effect of substance abuse?",
@@ -930,15 +930,15 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "Public education helps people understand the dangers of substance abuse.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'HIV and AIDS',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Which of these is a challenge faced by people living with HIV/AIDS?",

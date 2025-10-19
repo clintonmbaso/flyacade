@@ -255,16 +255,16 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "The throat helps us make sounds when singing.",
         "shuffleOptions": true
-    }
+    },
 
-                            
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'Food Hygiene',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Why is it important to wash food before eating it?",

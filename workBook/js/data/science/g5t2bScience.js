@@ -376,6 +376,358 @@ registerWorkbook({
     "explanation": "Damaged appliances expose users to electrical hazards.",
     "shuffleOptions": true
 },
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a way to save electricity?",
+    "options": ["Leaving lights on when not in use", "Unplugging devices when not needed", "Using appliances all day", "Overloading sockets"],
+    "correctAnswer": 1,
+    "explanation": "Unplugging unused devices reduces energy waste.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the purpose of a circuit breaker?",
+    "options": ["To increase electricity usage", "To stop excess current and prevent fires", "To make appliances work faster", "To store extra electricity"],
+    "correctAnswer": 1,
+    "explanation": "Circuit breakers automatically shut off during dangerous surges.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a renewable energy source?",
+    "options": ["Coal", "Petroleum", "Wind", "Natural gas"],
+    "correctAnswer": 2,
+    "explanation": "Wind energy is naturally replenished.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the function of an electric motor?",
+    "options": ["To produce light", "To convert electrical energy into motion", "To store electricity", "To insulate wires"],
+    "correctAnswer": 1,
+    "explanation": "Motors change electrical energy to mechanical motion.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a safety feature in electrical plugs?",
+    "options": ["Metal prongs without covers", "Plastic casing to prevent shocks", "Exposed wires", "No insulation"],
+    "correctAnswer": 1,
+    "explanation": "Plastic casings insulate the metal parts you touch.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What should you do in case of an electrical fire?",
+    "options": ["Pour water on it", "Use a fire extinguisher or sand, not water", "Touch the flames to put them out", "Blow on the fire"],
+    "correctAnswer": 1,
+    "explanation": "Water conducts electricity and would make the fire worse.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is NOT a conductor of electricity?",
+    "options": ["Gold", "Silver", "Copper", "Wood"],
+    "correctAnswer": 3,
+    "explanation": "Dry wood doesn't conduct electricity well.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Why is it important to turn off switches before repairing electrical devices?",
+    "options": ["To save electricity", "To prevent electric shocks", "To make the device heavier", "To attract pests"],
+    "correctAnswer": 1,
+    "explanation": "Turning off power eliminates shock risk during repairs.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a household electrical appliance?",
+    "options": ["Television", "Bicycle", "Stone", "Tree"],
+    "correctAnswer": 0,
+    "explanation": "TVs are common electrical appliances in homes.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main use of electricity in schools?",
+    "options": ["To power lights, computers, and projectors", "To water plants", "To cook meals", "To build furniture"],
+    "correctAnswer": 0,
+    "explanation": "Schools rely on electricity for lighting and technology.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these materials is used to make electrical wires?",
+    "options": ["Plastic", "Rubber", "Copper", "Wood"],
+    "correctAnswer": 2,
+    "explanation": "Copper's conductivity makes it ideal for wiring.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main danger of using a hair dryer near water?",
+    "options": ["It makes the hair dryer work better", "It can cause an electric shock", "It cleans the hair dryer", "It makes water evaporate faster"],
+    "correctAnswer": 1,
+    "explanation": "Water can conduct electricity to the user.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is an example of an electrical insulator?",
+    "options": ["Iron rod", "Aluminum can", "Rubber gloves", "Copper wire"],
+    "correctAnswer": 2,
+    "explanation": "Rubber gloves protect against electric shocks.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Why is electricity important in hospitals?",
+    "options": ["To power medical equipment and lights", "To water the garden", "To cook for patients", "To build walls"],
+    "correctAnswer": 0,
+    "explanation": "Hospitals need reliable electricity for life-saving equipment.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a non-renewable source of electricity?",
+    "options": ["Wind", "Sun", "Coal", "Water"],
+    "correctAnswer": 2,
+    "explanation": "Coal is a fossil fuel that takes millions of years to form.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main advantage of renewable energy sources?",
+    "options": ["They never run out", "They are more harmful to the environment", "They are more expensive", "They produce more pollution"],
+    "correctAnswer": 0,
+    "explanation": "Renewable sources are naturally replenished.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a use of bad conductors (insulators)?",
+    "options": ["To make electric wires", "To cover handles of tools for safety", "To generate electricity", "To increase current flow"],
+    "correctAnswer": 1,
+    "explanation": "Insulators protect users from electric shocks.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main risk of using too many appliances on one socket?",
+    "options": ["It makes electricity cheaper", "It can cause overheating and fire", "It improves appliance performance", "It attracts insects"],
+    "correctAnswer": 1,
+    "explanation": "Overloaded sockets generate dangerous heat.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a conductor used in batteries?",
+    "options": ["Plastic", "Rubber", "Graphite", "Wood"],
+    "correctAnswer": 2,
+    "explanation": "Graphite conducts electricity in some battery types.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Why is it unsafe to climb electric poles?",
+    "options": ["It can cause electric shocks or falls", "It makes the poles stronger", "It helps in generating electricity", "It is a fun activity"],
+    "correctAnswer": 0,
+    "explanation": "Electric poles carry high-voltage wires.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a good conductor of electricity?",
+    "options": ["Plastic straw", "Iron nail", "Rubber band", "Wooden stick"],
+    "correctAnswer": 1,
+    "explanation": "Iron nails conduct electricity well.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of grounding in electrical systems?",
+    "options": ["To increase voltage", "To prevent electric shocks by directing excess electricity to the ground", "To make wires colorful", "To attract lightning"],
+    "correctAnswer": 1,
+    "explanation": "Grounding provides a safe path for excess electricity.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a way to reduce electricity usage?",
+    "options": ["Leaving lights on all night", "Using energy-saving bulbs", "Overloading power strips", "Running appliances unnecessarily"],
+    "correctAnswer": 1,
+    "explanation": "Energy-saving bulbs use less electricity.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main function of a transformer?",
+    "options": ["To increase or decrease voltage", "To generate electricity", "To store energy", "To insulate wires"],
+    "correctAnswer": 0,
+    "explanation": "Transformers adjust voltage levels for different uses.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a renewable energy source?",
+    "options": ["Natural gas", "Solar energy", "Petroleum", "Coal"],
+    "correctAnswer": 1,
+    "explanation": "Solar energy comes from the sun, a renewable source.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main risk of using a damaged power cord?",
+    "options": ["It makes the appliance work better", "It can cause electric shocks or fires", "It reduces electricity bills", "It attracts helpful insects"],
+    "correctAnswer": 1,
+    "explanation": "Damaged cords expose live wires that can spark or shock.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a use of electricity in transportation?",
+    "options": ["Powering electric trains and cars", "Growing crops", "Building roads", "Making paper"],
+    "correctAnswer": 0,
+    "explanation": "Electric vehicles are becoming common transportation.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main advantage of using solar panels?",
+    "options": ["They produce pollution", "They rely on sunlight, a renewable source", "They are expensive to maintain", "They only work at night"],
+    "correctAnswer": 1,
+    "explanation": "Solar panels provide clean energy from sunlight.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a bad conductor of electricity?",
+    "options": ["Silver", "Gold", "Aluminum", "Dry wood"],
+    "correctAnswer": 3,
+    "explanation": "Dry wood doesn't conduct electricity well.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Why is it important to unplug chargers when not in use?",
+    "options": ["To save electricity and prevent overheating", "To make them charge faster next time", "To attract pests", "To increase voltage"],
+    "correctAnswer": 0,
+    "explanation": "Unplugging saves energy and reduces fire risk.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a conductor used in making electrical circuits?",
+    "options": ["Plastic ruler", "Rubber eraser", "Copper wire", "Wooden block"],
+    "correctAnswer": 2,
+    "explanation": "Copper wire is commonly used in circuits.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a circuit diagram?",
+    "options": ["To show how electrical components are connected", "To store electricity", "To insulate wires", "To increase resistance"],
+    "correctAnswer": 0,
+    "explanation": "Diagrams visually represent circuit layouts.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a renewable energy source?",
+    "options": ["Oil", "Coal", "Biomass", "Natural gas"],
+    "correctAnswer": 2,
+    "explanation": "Biomass comes from organic materials that regrow.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main risk of using extension cords improperly?",
+    "options": ["They make electricity cheaper", "They can overheat and cause fires", "They improve appliance lifespan", "They attract helpful insects"],
+    "correctAnswer": 1,
+    "explanation": "Overloaded extension cords are fire hazards.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a use of electricity in entertainment?",
+    "options": ["Powering TVs and radios", "Watering plants", "Building houses", "Making furniture"],
+    "correctAnswer": 0,
+    "explanation": "Entertainment devices require electricity to function.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main function of an insulator in electrical systems?",
+    "options": ["To conduct electricity efficiently", "To prevent electric shocks", "To generate more power", "To increase voltage"],
+    "correctAnswer": 1,
+    "explanation": "Insulators block dangerous current flow.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a safety rule when using electrical appliances?",
+    "options": ["Using them with wet hands", "Keeping them away from water", "Inserting metal objects into sockets", "Overloading power outlets"],
+    "correctAnswer": 1,
+    "explanation": "Water and electricity create dangerous combinations.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a lightning rod?",
+    "options": ["To attract lightning and direct it safely to the ground", "To generate electricity", "To store lightning", "To increase voltage"],
+    "correctAnswer": 0,
+    "explanation": "Lightning rods protect buildings by safely channeling strikes.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a bad conductor of electricity?",
+    "options": ["Iron", "Copper", "Silver", "Glass"],
+    "correctAnswer": 3,
+    "explanation": "Glass is an effective insulator.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Why is it important to turn off lights when leaving a room?",
+    "options": ["To save electricity and reduce bills", "To make the room darker", "To attract pests", "To increase voltage"],
+    "correctAnswer": 0,
+    "explanation": "Conserving energy saves money and resources.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is an example of an electrical conductor?",
+    "options": ["Plastic bag", "Rubber gloves", "Gold jewelry", "Wooden table"],
+    "correctAnswer": 2,
+    "explanation": "Gold is an excellent conductor.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main purpose of a power station?",
+    "options": ["To store electricity", "To generate and distribute electricity", "To insulate wires", "To increase resistance"],
+    "correctAnswer": 1,
+    "explanation": "Power stations produce electricity for communities.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "Which of these is a renewable energy source?",
+    "options": ["Natural gas", "Geothermal energy", "Coal", "Petroleum"],
+    "correctAnswer": 1,
+    "explanation": "Geothermal energy comes from Earth's internal heat.",
+    "shuffleOptions": true
+},
+{
+    "type": "multiple-choice",
+    "text": "What is the main risk of using damaged electrical outlets?",
+    "options": ["They make electricity cheaper", "They can cause electric shocks or fires", "They improve appliance performance", "They attract helpful insects"],
+    "correctAnswer": 1,
+    "explanation": "Damaged outlets expose live wires that can spark.",
+    "shuffleOptions": true
+}
 
                             
                     ]

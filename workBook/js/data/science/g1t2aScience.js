@@ -9,7 +9,7 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 5,
+            questionLimit: 10,
             exercises: [
                 {
                     id: 'section1',
@@ -255,15 +255,15 @@ registerWorkbook({
         "correctAnswer": 0,
         "explanation": "Clean hair prevents lice and keeps your scalp healthy.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'Common Diseases',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Which of these is a common communicable disease?",

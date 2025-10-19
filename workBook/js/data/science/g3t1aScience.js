@@ -9,7 +9,7 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 5,
+            questionLimit: 15,
             exercises: [
                 {
                     id: 'section1',
@@ -415,15 +415,15 @@ registerWorkbook({
         "correctAnswer": 2,
         "explanation": "The tongue tastes sweet, sour, salty, and bitter—not colors.",
         "shuffleOptions": true
-    }
-                            
+    },
+                            /*
                     ]
                 },
                 {
                     id: 'section2',
                     title: 'The Nose and Eye',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "What is one main function of the nose?",
@@ -743,15 +743,15 @@ registerWorkbook({
         "correctAnswer": 1,
         "explanation": "Both eyelashes and eyebrows help protect the eye.",
         "shuffleOptions": true
-    }
-                    
+    },
+                    /*
                     ]
                 },            
                 {
                     id: 'section3',
                     title: 'Food Nutrients',
                     questions: [
-                    
+                    */
     {
         "type": "multiple-choice",
         "text": "Why is food important for our bodies?",
