@@ -44,16 +44,16 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Nestlings Navigators',
             logo: '../images/Classes_3.png',
             teacher: {
-                name: 'Teacher Ethel',
-                picture: '../images/teachers/FS20BC0015.jpg'
+                name: 'Mr. Mbaso',
+                picture: '../images/teachers/FS20BC0001.jpg'
             }
         },
         '1': {
             name: 'Feather Flyers',
             logo: '../images/Classes_4.png',
             teacher: {
-                name: 'Teacher Ethel',
-                picture: '../images/teachers/FS20BC0015.jpg'
+                name: 'Mr. Mbaso',
+                picture: '../images/teachers/FS20BC0001.jpg'
             }
         },
         '2': {
