@@ -1,6 +1,6 @@
 registerWorkbook({
     id: 'g4t3aCTS',
-    title: 'Sky Soarers CTS',
+    title: 'Sky Soarers',
     description: 'Mid Term',
     subject: 'Creative and Technology Studies',
     grade: 4,
