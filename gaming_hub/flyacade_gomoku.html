@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gomoku Master | Strategy Board Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #3498db;
+            --primary-dark: #2980b9;
+            --secondary: #2ecc71;
+            --secondary-dark: #27ae60;
+            --danger: #e74c3c;
+            --warning: #f39c12;
+            --dark: #2c3e50;
+            --darker: #1a252f;
+            --light: #ecf0f1;
+            --gray: #95a5a6;
+            --board-bg: #e6c78d;
+            --board-border: #8b6b3d;
+            --black-stone: #2c3e50;
+            --white-stone: #ecf0f1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--darker), var(--dark));
+            color: var(--light);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+
+        .panel {
+            background: rgba(44, 62, 80, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .game-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .player-card {
+            background: rgba(52, 152, 219, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .player-card.active {
+            border-color: var(--primary);
+            box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+        }
+
+        .player-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .player-black .player-icon {
+            background: var(--black-stone);
+            color: white;
+        }
+
+        .player-white .player-icon {
+            background: var(--white-stone);
+            color: var(--dark);
+        }
+
+        .player-details {
+            flex: 1;
+        }
+
+        .player-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .player-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        .game-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        select, button {
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        select {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--light);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        button.secondary {
+            background: var(--secondary);
+        }
+
+        button.secondary:hover {
+            background: var(--secondary-dark);
+        }
+
+        button.danger {
+            background: var(--danger);
+        }
+
+        .game-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .stat-title {
+            font-size: 0.9rem;
+            color: var(--gray);
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .board-container {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(15, 1fr);
+            grid-template-rows: repeat(15, 1fr);
+            gap: 0;
+            background-color: var(--board-bg);
+            border: 3px solid var(--board-border);
+            position: relative;
+        }
+
+        .cell {
+            width: 35px;
+            height: 35px;
+            border: 1px solid rgba(139, 107, 61, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            transition: background-color 0.2s;
+        }
+
+        .cell:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .cell.highlight::before {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(231, 76, 60, 0.7);
+            z-index: 1;
+        }
+
+        .stone {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            animation: stonePlace 0.3s ease-out;
+        }
+
+        @keyframes stonePlace {
+            0% { transform: scale(0); }
+            70% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .stone.black {
+            background: radial-gradient(circle at 30% 30%, #5d6d7e, #2c3e50 70%);
+            border: 1px solid #1a252f;
+        }
+
+        .stone.white {
+            background: radial-gradient(circle at 30% 30%, #ffffff, #bdc3c7 70%);
+            border: 1px solid #95a5a6;
+        }
+
+        .stone.last-move::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(231, 76, 60, 0.8);
+        }
+
+        .status-display {
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            font-size: 1.2rem;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .status-display.winner {
+            background: rgba(46, 204, 113, 0.2);
+            color: var(--secondary);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(46, 204, 113, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
+        }
+
+        .hint-button {
+            margin-top: 10px;
+        }
+
+        .move-history {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .history-item {
+            padding: 8px 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .history-item:last-child {
+            border-bottom: none;
+        }
+
+        .winning-line {
+            position: absolute;
+            background: rgba(231, 76, 60, 0.8);
+            z-index: 1;
+            transform-origin: 0 0;
+        }
+
+        .tutorial-panel {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            border-bottom-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .strategy-tips ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .strategy-tips li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .difficulty-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .difficulty-level {
+            padding: 15px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .difficulty-level h4 {
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+
+        .ai-thinking {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(52, 152, 219, 0.2);
+            margin-top: 10px;
+        }
+
+        .ai-thinking.active {
+            display: flex;
+        }
+
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: var(--primary);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .victory-firework {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .cell {
+                width: 28px;
+                height: 28px;
+            }
+            
+            .stone {
+                width: 22px;
+                height: 22px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .cell {
+                width: 20px;
+                height: 20px;
+            }
+            
+            .stone {
+                width: 16px;
+                height: 16px;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-chess-board"></i> Gomoku Master</h1>
+        <p class="tagline">The Ultimate Five-in-a-Row Strategy Challenge</p>
+    </header>
+
+    <div class="container">
+        <div class="panel game-info">
+            <div class="player-card player-black active">
+                <div class="player-icon">
+                    <i class="fas fa-circle"></i>
+                </div>
+                <div class="player-details">
+                    <div class="player-name">Player (Black)</div>
+                    <div class="player-stats">
+                        <span>Moves: <span id="black-moves">0</span></span>
+                        <span>Score: <span id="black-score">0</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="player-card player-white">
+                <div class="player-icon">
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="player-details">
+                    <div class="player-name" id="white-player-name">AI (White)</div>
+                    <div class="player-stats">
+                        <span>Moves: <span id="white-moves">0</span></span>
+                        <span>Score: <span id="white-score">0</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-controls">
+                <div class="control-group">
+                    <label for="level">AI Difficulty:</label>
+                    <select id="level">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard" selected>Hard</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="opponent">Game Mode:</label>
+                    <select id="opponent">
+                        <option value="ai" selected>Player vs AI</option>
+                        <option value="player">Player vs Player</option>
+                    </select>
+                </div>
+                
+                <button id="reset" class="secondary">
+                    <i class="fas fa-redo"></i> New Game
+                </button>
+                
+                <button id="hint" class="hint-button">
+                    <i class="fas fa-lightbulb"></i> Get Hint
+                </button>
+                
+                <div class="ai-thinking" id="ai-thinking">
+                    <div class="spinner"></div>
+                    <span>AI is calculating the perfect move...</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-container">
+            <div class="board-container">
+                <div class="board" id="board"></div>
+            </div>
+            
+            <div class="status-display" id="status">
+                You play as Black - make your move!
+            </div>
+        </div>
+        
+        <div class="panel game-stats">
+            <div class="stat-card">
+                <div class="stat-title">Current Turn</div>
+                <div class="stat-value" id="current-turn">Black</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-title">Total Moves</div>
+                <div class="stat-value" id="total-moves">0</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-title">Game Time</div>
+                <div class="stat-value" id="game-time">00:00</div>
+            </div>
+            
+            <div class="stat-card move-history">
+                <div class="stat-title">Move History</div>
+                <div id="move-history-list"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="panel tutorial-panel">
+        <div class="tabs">
+            <div class="tab active" data-tab="rules">Game Rules</div>
+            <div class="tab" data-tab="strategies">Winning Strategies</div>
+            <div class="tab" data-tab="difficulty">AI Difficulty</div>
+        </div>
+        
+        <div class="tab-content active" id="rules-content">
+            <h3>How to Play Gomoku</h3>
+            <p>Gomoku, also known as Five in a Row, is a classic strategy board game. The objective is simple but requires deep strategic thinking.</p>
+            <ul>
+                <li>The game is played on a 15×15 grid board.</li>
+                <li>Black plays first, followed by White, alternating turns.</li>
+                <li>Players place their stones on empty intersections.</li>
+                <li>The first player to form an unbroken line of five stones horizontally, vertically, or diagonally wins.</li>
+                <li>There are no captures - once placed, stones remain until the game ends.</li>
+            </ul>
+            <p><strong>Pro Tip:</strong> Try to create multiple threats simultaneously while blocking your opponent's attempts!</p>
+        </div>
+        
+        <div class="tab-content" id="strategies-content">
+            <h3>Advanced Strategies</h3>
+            <div class="strategy-tips">
+                <ul>
+                    <li><strong>Control the Center:</strong> The center of the board offers the most opportunities for creating winning lines.</li>
+                    <li><strong>Create Multiple Threats:</strong> Try to set up positions where you have two potential winning lines that your opponent can't block simultaneously.</li>
+                    <li><strong>Block and Attack:</strong> Always respond to your opponent's threats while advancing your own position.</li>
+                    <li><strong>Think Ahead:</strong> Consider not just your next move, but how the board will look 2-3 moves ahead.</li>
+                    <li><strong>Use the "Four in a Row" Trap:</strong> Setting up an unblocked four in a row forces your opponent to respond, often creating opportunities elsewhere.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="difficulty-content">
+            <h3>AI Difficulty Levels</h3>
+            <div class="difficulty-info">
+                <div class="difficulty-level">
+                    <h4>Easy</h4>
+                    <p>The AI makes mostly random moves with basic pattern recognition. Good for beginners learning the game.</p>
+                </div>
+                <div class="difficulty-level">
+                    <h4>Medium</h4>
+                    <p>The AI recognizes threats and makes strategic moves. It will block your obvious winning attempts.</p>
+                </div>
+                <div class="difficulty-level">
+                    <h4>Hard</h4>
+                    <p>Advanced AI that uses search algorithms and positional evaluation. It plans several moves ahead.</p>
+                </div>
+                <div class="difficulty-level">
+                    <h4>Expert</h4>
+                    <p>Our most challenging AI. It uses deep search algorithms and advanced heuristics. Few players can defeat it!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Game constants and variables
+            const boardSize = 15;
+            const board = document.getElementById('board');
+            const statusDisplay = document.getElementById('status');
+            const resetButton = document.getElementById('reset');
+            const levelSelect = document.getElementById('level');
+            const opponentSelect = document.getElementById('opponent');
+            const hintButton = document.getElementById('hint');
+            const aiThinking = document.getElementById('ai-thinking');
+            const currentTurnDisplay = document.getElementById('current-turn');
+            const totalMovesDisplay = document.getElementById('total-moves');
+            const gameTimeDisplay = document.getElementById('game-time');
+            const moveHistoryList = document.getElementById('move-history-list');
+            const blackMovesDisplay = document.getElementById('black-moves');
+            const whiteMovesDisplay = document.getElementById('white-moves');
+            const blackScoreDisplay = document.getElementById('black-score');
+            const whiteScoreDisplay = document.getElementById('white-score');
+            const whitePlayerNameDisplay = document.getElementById('white-player-name');
+            
+            let gameBoard = Array(boardSize).fill().map(() => Array(boardSize).fill(null));
+            let currentPlayer = 'black';
+            let gameOver = false;
+            let aiThinkingFlag = false;
+            let moveCount = 0;
+            let blackMoves = 0;
+            let whiteMoves = 0;
+            let blackScore = 0;
+            let whiteScore = 0;
+            let gameStartTime = null;
+            let gameTimer = null;
+            let moveHistory = [];
+            let lastMove = null;
+            let winningLine = null;
+
+            // Initialize the game
+            function initGame() {
+                createBoard();
+                resetGame();
+                setupEventListeners();
+                setupTabs();
+            }
+
+            // Create the game board
+            function createBoard() {
+                board.innerHTML = '';
+                for (let row = 0; row < boardSize; row++) {
+                    for (let col = 0; col < boardSize; col++) {
+                        const cell = document.createElement('div');
+                        cell.className = 'cell';
+                        cell.dataset.row = row;
+                        cell.dataset.col = col;
+                        
+                        cell.addEventListener('click', () => makeMove(row, col));
+                        
+                        board.appendChild(cell);
+                    }
+                }
+            }
+
+            // Setup event listeners
+            function setupEventListeners() {
+                resetButton.addEventListener('click', resetGame);
+                opponentSelect.addEventListener('change', handleOpponentChange);
+                levelSelect.addEventListener('change', updateDifficultyInfo);
+                hintButton.addEventListener('click', provideHint);
+            }
+
+            // Setup tutorial tabs
+            function setupTabs() {
+                const tabs = document.querySelectorAll('.tab');
+                tabs.forEach(tab => {
+                    tab.addEventListener('click', () => {
+                        // Remove active class from all tabs and contents
+                        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                        
+                        // Add active class to clicked tab and corresponding content
+                        tab.classList.add('active');
+                        const tabId = tab.getAttribute('data-tab');
+                        document.getElementById(`${tabId}-content`).classList.add('active');
+                    });
+                });
+            }
+
+            // Reset the game
+            function resetGame() {
+                gameBoard = Array(boardSize).fill().map(() => Array(boardSize).fill(null));
+                currentPlayer = 'black';
+                gameOver = false;
+                aiThinkingFlag = false;
+                moveCount = 0;
+                blackMoves = 0;
+                whiteMoves = 0;
+                blackScore = 0;
+                whiteScore = 0;
+                moveHistory = [];
+                lastMove = null;
+                winningLine = null;
+                
+                // Clear the board
+                document.querySelectorAll('.stone').forEach(stone => stone.remove());
+                document.querySelectorAll('.winning-line').forEach(line => line.remove());
+                document.querySelectorAll('.cell').forEach(cell => cell.classList.remove('highlight'));
+                
+                // Reset UI elements
+                statusDisplay.textContent = "You play as Black - make your move!";
+                statusDisplay.className = "status-display";
+                currentTurnDisplay.textContent = "Black";
+                totalMovesDisplay.textContent = "0";
+                blackMovesDisplay.textContent = "0";
+                whiteMovesDisplay.textContent = "0";
+                blackScoreDisplay.textContent = "0";
+                whiteScoreDisplay.textContent = "0";
+                moveHistoryList.innerHTML = "";
+                aiThinking.classList.remove('active');
+                
+                // Update player cards
+                document.querySelector('.player-black').classList.add('active');
+                document.querySelector('.player-white').classList.remove('active');
+                
+                // Reset game timer
+                if (gameTimer) {
+                    clearInterval(gameTimer);
+                    gameTimer = null;
+                }
+                gameStartTime = new Date();
+                gameTimeDisplay.textContent = "00:00";
+                
+                // Start game timer
+                gameTimer = setInterval(updateGameTime, 1000);
+                
+                // Update opponent name based on selection
+                updateOpponentName();
+            }
+
+            // Update game time display
+            function updateGameTime() {
+                if (!gameStartTime) return;
+                
+                const now = new Date();
+                const diff = Math.floor((now - gameStartTime) / 1000);
+                const minutes = Math.floor(diff / 60);
+                const seconds = diff % 60;
+                
+                gameTimeDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
+
+            // Update opponent name display
+            function updateOpponentName() {
+                if (opponentSelect.value === 'ai') {
+                    whitePlayerNameDisplay.textContent = `AI (${levelSelect.value.charAt(0).toUpperCase() + levelSelect.value.slice(1)})`;
+                } else {
+                    whitePlayerNameDisplay.textContent = "Player 2";
+                }
+            }
+
+            // Handle opponent change
+            function handleOpponentChange() {
+                updateOpponentName();
+                resetGame();
+            }
+
+            // Update difficulty info
+            function updateDifficultyInfo() {
+                updateOpponentName();
+                
+                if (opponentSelect.value === 'ai' && moveCount === 0) {
+                    const difficulty = levelSelect.value;
+                    let message = "";
+                    
+                    switch(difficulty) {
+                        case 'easy':
+                            message = "Easy AI selected. A good starting point for learning.";
+                            break;
+                        case 'medium':
+                            message = "Medium AI selected. A worthy opponent awaits!";
+                            break;
+                        case 'hard':
+                            message = "Hard AI selected. Prepare for a challenging game!";
+                            break;
+                        case 'expert':
+                            message = "Expert AI selected. Only the most skilled players can win!";
+                            break;
+                    }
+                    
+                    statusDisplay.textContent = message;
+                }
+            }
+
+            // Make a move
+            function makeMove(row, col) {
+                if (gameOver || gameBoard[row][col] !== null || aiThinkingFlag) return;
+                
+                // In AI mode, only allow human moves when it's their turn
+                if (opponentSelect.value === 'ai' && currentPlayer !== 'black') return;
+                
+                placeStone(row, col, currentPlayer);
+                moveCount++;
+                
+                // Update move counts
+                if (currentPlayer === 'black') {
+                    blackMoves++;
+                    blackMovesDisplay.textContent = blackMoves;
+                } else {
+                    whiteMoves++;
+                    whiteMovesDisplay.textContent = whiteMoves;
+                }
+                
+                // Add to move history
+                addToMoveHistory(row, col, currentPlayer);
+                
+                // Check for win
+                if (checkWin(row, col, currentPlayer)) {
+                    handleWin(currentPlayer);
+                    return;
+                }
+                
+                // Check for draw
+                if (isBoardFull()) {
+                    handleDraw();
+                    return;
+                }
+                
+                // Switch player
+                togglePlayer();
+                
+                // If playing against AI and it's AI's turn
+                if (opponentSelect.value === 'ai' && currentPlayer === 'white' && !gameOver) {
+                    executeAIMove();
+                }
+            }
+
+            // Place a stone on the board
+            function placeStone(row, col, player) {
+                gameBoard[row][col] = player;
+                const cell = getCell(row, col);
+                const stone = document.createElement('div');
+                stone.className = `stone ${player}`;
+                
+                // Remove last move indicator
+                if (lastMove) {
+                    const lastCell = getCell(lastMove.row, lastMove.col);
+                    const lastStone = lastCell.querySelector('.stone');
+                    if (lastStone) lastStone.classList.remove('last-move');
+                }
+                
+                // Add last move indicator
+                stone.classList.add('last-move');
+                lastMove = {row, col};
+                
+                cell.appendChild(stone);
+            }
+
+            // Get cell element
+            function getCell(row, col) {
+                return document.querySelector(`.cell[data-row="${row}"][data-col="${col}"]`);
+            }
+
+            // Toggle current player
+            function togglePlayer() {
+                currentPlayer = currentPlayer === 'black' ? 'white' : 'black';
+                
+                // Update UI
+                currentTurnDisplay.textContent = currentPlayer === 'black' ? 'Black' : 'White';
+                document.querySelector('.player-black').classList.toggle('active', currentPlayer === 'black');
+                document.querySelector('.player-white').classList.toggle('active', currentPlayer === 'white');
+                
+                if (opponentSelect.value === 'ai') {
+                    if (currentPlayer === 'black') {
+                        statusDisplay.textContent = "Your turn! Make your move.";
+                    } else {
+                        statusDisplay.textContent = "AI is thinking...";
+                    }
+                } else {
+                    statusDisplay.textContent = `Current Player: ${currentPlayer === 'black' ? 'Black' : 'White'}`;
+                }
+            }
+
+            // Add move to history
+            function addToMoveHistory(row, col, player) {
+                const moveNumber = moveHistory.length + 1;
+                const move = {
+                    number: moveNumber,
+                    player: player,
+                    position: {row, col},
+                    notation: `${String.fromCharCode(65 + col)}${15 - row}`
+                };
+                
+                moveHistory.push(move);
+                
+                // Update UI
+                const historyItem = document.createElement('div');
+                historyItem.className = 'history-item';
+                historyItem.innerHTML = `
+                    <span>${moveNumber}. ${player === 'black' ? '●' : '○'} ${move.notation}</span>
+                    <span>${player === 'black' ? 'Black' : 'White'}</span>
+                `;
+                
+                moveHistoryList.appendChild(historyItem);
+                moveHistoryList.scrollTop = moveHistoryList.scrollHeight;
+                totalMovesDisplay.textContent = moveCount;
+            }
+
+            // Check for a win
+            function checkWin(row, col, player) {
+                const directions = [
+                    [0, 1],   // horizontal
+                    [1, 0],   // vertical
+                    [1, 1],   // diagonal down-right
+                    [-1, 1]   // diagonal up-right
+                ];
+                
+                for (const [dx, dy] of directions) {
+                    let count = 1;
+                    let lineCells = [{row, col}];
+                    
+                    // Check positive direction
+                    for (let i = 1; i < 5; i++) {
+                        const newRow = row + dx * i;
+                        const newCol = col + dy * i;
+                        if (isValidPosition(newRow, newCol) && gameBoard[newRow][newCol] === player) {
+                            count++;
+                            lineCells.push({row: newRow, col: newCol});
+                        } else {
+                            break;
+                        }
+                    }
+                    
+                    // Check negative direction
+                    for (let i = 1; i < 5; i++) {
+                        const newRow = row - dx * i;
+                        const newCol = col - dy * i;
+                        if (isValidPosition(newRow, newCol) && gameBoard[newRow][newCol] === player) {
+                            count++;
+                            lineCells.unshift({row: newRow, col: newCol});
+                        } else {
+                            break;
+                        }
+                    }
+                    
+                    if (count >= 5) {
+                        winningLine = {
+                            start: lineCells[0],
+                            end: lineCells[lineCells.length - 1],
+                            direction: [dx, dy]
+                        };
+                        return true;
+                    }
+                }
+                
+                return false;
+            }
+
+            // Validate position is within bounds
+            function isValidPosition(row, col) {
+                return row >= 0 && row < boardSize && col >= 0 && col < boardSize;
+            }
+
+            // Check if the board is full (draw)
+            function isBoardFull() {
+                for (let row = 0; row < boardSize; row++) {
+                    for (let col = 0; col < boardSize; col++) {
+                        if (gameBoard[row][col] === null) {
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            }
+
+            // Handle win condition
+            function handleWin(winner) {
+                gameOver = true;
+                aiThinkingFlag = false;
+                aiThinking.classList.remove('active');
+                
+                // Stop game timer
+                if (gameTimer) {
+                    clearInterval(gameTimer);
+                    gameTimer = null;
+                }
+                
+                // Update scores
+                if (winner === 'black') {
+                    blackScore++;
+                    blackScoreDisplay.textContent = blackScore;
+                } else {
+                    whiteScore++;
+                    whiteScoreDisplay.textContent = whiteScore;
+                }
+                
+                let message = "";
+                let celebration = "";
+                
+                if (winner === 'black' && opponentSelect.value === 'ai') {
+                    message = "🎉 VICTORY! You've defeated the AI! 🏆";
+                    celebration = "Incredible strategy! You've outsmarted our advanced AI system!";
+                    createFireworks();
+                } 
+                else if (winner === 'white' && opponentSelect.value === 'ai') {
+                    message = "💥 DEFEAT! The AI has triumphed! 💻";
+                    celebration = "The AI's calculations were too precise. Try again with a different strategy!";
+                }
+                else if (winner === 'black') {
+                    message = "⭐ Black Claims Victory! ⭐";
+                    celebration = "Perfect execution! Five in a row seals the win for Black!";
+                }
+                else {
+                    message = "✨ White Takes the Crown! ✨";
+                    celebration = "Brilliant play! White has formed an unbreakable line of five!";
+                }
+                
+                statusDisplay.textContent = message;
+                statusDisplay.className = "status-display winner";
+                
+                // Highlight winning line
+                if (winningLine) {
+                    drawWinningLine(winningLine.start, winningLine.end, winningLine.direction);
+                }
+            }
+
+            // Draw winning line
+            function drawWinningLine(start, end, direction) {
+                const startCell = getCell(start.row, start.col);
+                const endCell = getCell(end.row, end.col);
+                
+                if (!startCell || !endCell) return;
+                
+                const boardRect = board.getBoundingClientRect();
+                const startRect = startCell.getBoundingClientRect();
+                const endRect = endCell.getBoundingClientRect();
+                
+                const line = document.createElement('div');
+                line.className = 'winning-line';
+                
+                // Calculate line position and dimensions
+                const cellSize = startRect.width;
+                const lineWidth = 4;
+                
+                // Center points of start and end cells relative to board
+                const startX = startRect.left - boardRect.left + cellSize / 2;
+                const startY = startRect.top - boardRect.top + cellSize / 2;
+                const endX = endRect.left - boardRect.left + cellSize / 2;
+                const endY = endRect.top - boardRect.top + cellSize / 2;
+                
+                // Calculate line length and angle
+                const length = Math.sqrt(Math.pow(endX - startX, 2) + Math.pow(endY - startY, 2));
+                const angle = Math.atan2(endY - startY, endX - startX) * 180 / Math.PI;
+                
+                // Set line styles
+                line.style.width = `${length}px`;
+                line.style.height = `${lineWidth}px`;
+                line.style.left = `${startX}px`;
+                line.style.top = `${startY - lineWidth / 2}px`;
+                line.style.transform = `rotate(${angle}deg)`;
+                line.style.transformOrigin = '0 0';
+                
+                board.appendChild(line);
+            }
+
+            // Handle draw condition
+            function handleDraw() {
+                gameOver = true;
+                aiThinkingFlag = false;
+                aiThinking.classList.remove('active');
+                
+                // Stop game timer
+                if (gameTimer) {
+                    clearInterval(gameTimer);
+                    gameTimer = null;
+                }
+                
+                statusDisplay.textContent = "🤝 It's a Draw! The board is full! 🤝";
+                statusDisplay.className = "status-display";
+            }
+
+            // Execute AI move
+            function executeAIMove() {
+                aiThinkingFlag = true;
+                aiThinking.classList.add('active');
+                
+                const difficulty = levelSelect.value;
+                let thinkingTime;
+                
+                // Set thinking time based on difficulty
+                switch(difficulty) {
+                    case 'easy':
+                        thinkingTime = 500 + Math.random() * 1000;
+                        break;
+                    case 'medium':
+                        thinkingTime = 800 + Math.random() * 1200;
+                        break;
+                    case 'hard':
+                        thinkingTime = 1200 + Math.random() * 1500;
+                        break;
+                    case 'expert':
+                        thinkingTime = 1500 + Math.random() * 2000;
+                        break;
+                    default:
+                        thinkingTime = 1000;
+                }
+                
+                setTimeout(() => {
+                    let bestMove = null;
+                    
+                    // Different AI strategies based on difficulty
+                    switch(difficulty) {
+                        case 'easy':
+                            bestMove = findBestMoveEasy();
+                            break;
+                        case 'medium':
+                            bestMove = findBestMoveMedium();
+                            break;
+                        case 'hard':
+                            bestMove = findBestMoveHard();
+                            break;
+                        case 'expert':
+                            bestMove = findBestMoveExpert();
+                            break;
+                    }
+                    
+                    if (bestMove) {
+                        placeStone(bestMove.row, bestMove.col, currentPlayer);
+                        moveCount++;
+                        whiteMoves++;
+                        whiteMovesDisplay.textContent = whiteMoves;
+                        addToMoveHistory(bestMove.row, bestMove.col, currentPlayer);
+                        
+                        if (checkWin(bestMove.row, bestMove.col, currentPlayer)) {
+                            handleWin(currentPlayer);
+                            return;
+                        }
+                        
+                        if (isBoardFull()) {
+                            handleDraw();
+                            return;
+                        }
+                    }
+                    
+                    aiThinkingFlag = false;
+                    aiThinking.classList.remove('active');
+                    togglePlayer();
+                }, thinkingTime);
+            }
+
+            // Easy AI - basic strategy
+            function findBestMoveEasy() {
+                // Look for winning moves
+                for (let row = 0; row < boardSize; row++) {
+                    for (let col = 0; col < boardSize; col++) {
+                        if (gameBoard[row][col] === null) {
+                            gameBoard[row][col] = 'white';
+                            if (checkWin(row, col, 'white')) {
+                                gameBoard[row][col] = null;
+                                return {row, col};
+                            }
+                            gameBoard[row][col] = null;
+                        }
+                    }
+                }
+                
+                // Block human from winning
+                for (let row = 0; row < boardSize; row++) {
+                    for (let col = 0; col < boardSize; col++) {
+                        if (gameBoard[row][col] === null) {
+                            gameBoard[row][col] = 'black';
+                            if (checkWin(row, col, 'black')) {
+                                gameBoard[row][col] = null;
+                                return {row, col};
+                            }
+                            gameBoard[row][col] = null;
+                        }
+                    }
+                }
+                
+                // Otherwise make a random move near existing stones
+                return findRandomMoveNearExisting();
+            }
+
+            // Medium AI - evaluates positions
+            function findBestMoveMedium() {
+                // First check for immediate wins or blocks
+                const immediate = findBestMoveEasy();
+                if (immediate) return immediate;
+                
+                // Evaluate all possible moves
+                let bestScore = -Infinity;
+                let bestMove = null;
+                
+                // Only consider moves near existing stones
+                const relevantPositions = getRelevantPositions();
+                
+                for (const pos of relevantPositions) {
+                    const score = evaluatePosition(pos.row, pos.col, 'white');
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestMove = {row: pos.row, col: pos.col};
+                    }
+                }
+                
+                return bestMove;
+            }
+
+            // Hard AI - more advanced evaluation
+            function findBestMoveHard() {
+                // Use medium strategy but with deeper lookahead for certain patterns
+                const mediumMove = findBestMoveMedium();
+                if (mediumMove && Math.random() > 0.3) return mediumMove;
+                
+                // Sometimes use a more strategic approach
+                return findStrategicMove();
+            }
+
+            // Expert AI - most challenging
+            function findBestMoveExpert() {
+                // Combine multiple strategies
+                if (moveCount < 6) {
+                    // Opening strategy - control center
+                    return findCenterControlMove();
+                }
+                
+                // Use hard AI strategy with occasional advanced tactics
+                const hardMove = findBestMoveHard();
+                if (hardMove && Math.random() > 0.2) return hardMove;
+                
+                // Sometimes use advanced pattern recognition
+                return findAdvancedPatternMove();
+            }
+
+            // Find a random move near existing stones
+            function findRandomMoveNearExisting() {
+                const candidates = getRelevantPositions();
+                if (candidates.length > 0) {
+                    return candidates[Math.floor(Math.random() * candidates.length)];
+                }
+                
+                // Fallback to center if no stones on board
+                return {row: 7, col: 7};
+            }
+
+            // Find a strategic move
+            function findStrategicMove() {
+                const candidates = getRelevantPositions();
+                let bestMove = null;
+                let bestScore = -Infinity;
+                
+                for (const pos of candidates) {
+                    let score = evaluatePosition(pos.row, pos.col, 'white');
+                    
+                    // Bonus for center control
+                    const centerDist = Math.abs(pos.row - 7) + Math.abs(pos.col - 7);
+                    score += (14 - centerDist) * 2;
+                    
+                    // Bonus for creating multiple threats
+                    score += countThreats(pos.row, pos.col, 'white') * 10;
+                    
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestMove = pos;
+                    }
+                }
+                
+                return bestMove;
+            }
+
+            // Find a move that controls the center
+            function findCenterControlMove() {
+                const centerMoves = [];
+                for (let r = 5; r <= 9; r++) {
+                    for (let c = 5; c <= 9; c++) {
+                        if (gameBoard[r][c] === null) {
+                            centerMoves.push({row: r, col: c});
+                        }
+                    }
+                }
+                
+                if (centerMoves.length > 0) {
+                    return centerMoves[Math.floor(Math.random() * centerMoves.length)];
+                }
+                
+                return findRandomMoveNearExisting();
+            }
+
+            // Find a move based on advanced patterns
+            function findAdvancedPatternMove() {
+                // Look for specific winning patterns
+                const patterns = [
+                    // Four in a row with open ends
+                    {pattern: [null, 'white', 'white', 'white', 'white', null], score: 1000},
+                    // Three in a row with open ends
+                    {pattern: [null, 'white', 'white', 'white', null], score: 100},
+                    // Broken three
+                    {pattern: ['white', null, 'white', 'white'], score: 50},
+                    {pattern: ['white', 'white', null, 'white'], score: 50},
+                ];
+                
+                // This is a simplified version - a full implementation would check all directions
+                const candidates = getRelevantPositions();
+                let bestMove = null;
+                let bestScore = -Infinity;
+                
+                for (const pos of candidates) {
+                    let score = evaluatePosition(pos.row, pos.col, 'white');
+                    
+                    // Add pattern-based scoring
+                    for (const {pattern, patternScore} of patterns) {
+                        if (checkPattern(pos.row, pos.col, pattern, 'white')) {
+                            score += patternScore;
+                        }
+                    }
+                    
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestMove = pos;
+                    }
+                }
+                
+                return bestMove || findStrategicMove();
+            }
+
+            // Check if a pattern exists at a position
+            function checkPattern(row, col, pattern, player) {
+                // This is a simplified pattern check - a full implementation would check all directions
+                const directions = [
+                    [0, 1], [1, 0], [1, 1], [-1, 1]
+                ];
+                
+                for (const [dx, dy] of directions) {
+                    let matches = true;
+                    for (let i = 0; i < pattern.length; i++) {
+                        const r = row + dx * (i - Math.floor(pattern.length / 2));
+                        const c = col + dy * (i - Math.floor(pattern.length / 2));
+                        
+                        if (!isValidPosition(r, c)) {
+                            matches = false;
+                            break;
+                        }
+                        
+                        if (pattern[i] === null) {
+                            if (gameBoard[r][c] !== null) {
+                                matches = false;
+                                break;
+                            }
+                        } else if (gameBoard[r][c] !== player) {
+                            matches = false;
+                            break;
+                        }
+                    }
+                    
+                    if (matches) return true;
+                }
+                
+                return false;
+            }
+
+            // Evaluate a position for a player
+            function evaluatePosition(row, col, player) {
+                if (gameBoard[row][col] !== null) return -Infinity;
+                
+                const opponent = player === 'black' ? 'white' : 'black';
+                let score = 0;
+                
+                // Temporarily place the stone
+                gameBoard[row][col] = player;
+                
+                // Check all directions
+                const directions = [
+                    [0, 1], [1, 0], [1, 1], [-1, 1]
+                ];
+                
+                for (const [dx, dy] of directions) {
+                    // Check consecutive stones
+                    let playerCount = 1; // Count the current stone
+                    let openEnds = 0;
+                    
+                    // Positive direction
+                    for (let i = 1; i <= 4; i++) {
+                        const r = row + dx * i;
+                        const c = col + dy * i;
+                        
+                        if (!isValidPosition(r, c)) break;
+                        
+                        if (gameBoard[r][c] === player) {
+                            playerCount++;
+                        } else if (gameBoard[r][c] === null) {
+                            openEnds++;
+                            break;
+                        } else {
+                            break;
+                        }
+                    }
+                    
+                    // Negative direction
+                    for (let i = 1; i <= 4; i++) {
+                        const r = row - dx * i;
+                        const c = col - dy * i;
+                        
+                        if (!isValidPosition(r, c)) break;
+                        
+                        if (gameBoard[r][c] === player) {
+                            playerCount++;
+                        } else if (gameBoard[r][c] === null) {
+                            openEnds++;
+                            break;
+                        } else {
+                            break;
+                        }
+                    }
+                    
+                    // Score based on consecutive stones and open ends
+                    if (playerCount >= 5) {
+                        score += 10000;
+                    } else if (playerCount === 4) {
+                        score += openEnds === 2 ? 1000 : 500;
+                    } else if (playerCount === 3) {
+                        score += openEnds === 2 ? 200 : 100;
+                    } else if (playerCount === 2) {
+                        score += openEnds === 2 ? 50 : 20;
+                    } else if (playerCount === 1) {
+                        score += openEnds === 2 ? 10 : 5;
+                    }
+                    
+                    // Also consider blocking opponent
+                    let opponentCount = 0;
+                    let opponentOpenEnds = 0;
+                    
+                    // Positive direction for opponent
+                    for (let i = 1; i <= 4; i++) {
+                        const r = row + dx * i;
+                        const c = col + dy * i;
+                        
+                        if (!isValidPosition(r, c)) break;
+                        
+                        if (gameBoard[r][c] === opponent) {
+                            opponentCount++;
+                        } else if (gameBoard[r][c] === null) {
+                            opponentOpenEnds++;
+                            break;
+                        } else {
+                            break;
+                        }
+                    }
+                    
+                    // Negative direction for opponent
+                    for (let i = 1; i <= 4; i++) {
+                        const r = row - dx * i;
+                        const c = col - dy * i;
+                        
+                        if (!isValidPosition(r, c)) break;
+                        
+                        if (gameBoard[r][c] === opponent) {
+                            opponentCount++;
+                        } else if (gameBoard[r][c] === null) {
+                            opponentOpenEnds++;
+                            break;
+                        } else {
+                            break;
+                        }
+                    }
+                    
+                    // Score based on blocking opponent
+                    if (opponentCount >= 4) {
+                        score += 800;
+                    } else if (opponentCount === 3) {
+                        score += opponentOpenEnds === 2 ? 300 : 150;
+                    } else if (opponentCount === 2) {
+                        score += opponentOpenEnds === 2 ? 40 : 15;
+                    }
+                }
+                
+                // Remove temporary stone
+                gameBoard[row][col] = null;
+                
+                return score;
+            }
+
+            // Count threats created by a move
+            function countThreats(row, col, player) {
+                if (gameBoard[row][col] !== null) return 0;
+                
+                let threatCount = 0;
+                
+                // Temporarily place the stone
+                gameBoard[row][col] = player;
+                
+                // Check all directions for potential winning lines
+                const directions = [
+                    [0, 1], [1, 0], [1, 1], [-1, 1]
+                ];
+                
+                for (const [dx, dy] of directions) {
+                    for (let offset = -4; offset <= 0; offset++) {
+                        let consecutive = 0;
+                        let hasNull = false;
+                        
+                        for (let i = 0; i < 5; i++) {
+                            const r = row + dx * (offset + i);
+                            const c = col + dy * (offset + i);
+                            
+                            if (!isValidPosition(r, c)) {
+                                consecutive = 0;
+                                break;
+                            }
+                            
+                            if (gameBoard[r][c] === player) {
+                                consecutive++;
+                            } else if (gameBoard[r][c] === null) {
+                                if (hasNull) {
+                                    consecutive = 0;
+                                    break;
+                                }
+                                hasNull = true;
+                            } else {
+                                consecutive = 0;
+                                break;
+                            }
+                        }
+                        
+                        if (consecutive === 4 && hasNull) {
+                            threatCount++;
+                        }
+                    }
+                }
+                
+                // Remove temporary stone
+                gameBoard[row][col] = null;
+                
+                return threatCount;
+            }
+
+            // Get relevant positions near existing stones
+            function getRelevantPositions() {
+                const positions = [];
+                const checked = Array(boardSize).fill().map(() => Array(boardSize).fill(false));
+                
+                // Mark positions around existing stones
+                for (let row = 0; row < boardSize; row++) {
+                    for (let col = 0; col < boardSize; col++) {
+                        if (gameBoard[row][col] !== null) {
+                            // Check neighbors
+                            for (let dr = -2; dr <= 2; dr++) {
+                                for (let dc = -2; dc <= 2; dc++) {
+                                    const r = row + dr;
+                                    const c = col + dc;
+                                    if (isValidPosition(r, c) && !checked[r][c] && gameBoard[r][c] === null) {
+                                        positions.push({row: r, col: c});
+                                        checked[r][c] = true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                // If no relevant positions (beginning of game), return center area
+                if (positions.length === 0) {
+                    for (let r = 6; r <= 8; r++) {
+                        for (let c = 6; c <= 8; c++) {
+                            if (gameBoard[r][c] === null) {
+                                positions.push({row: r, col: c});
+                            }
+                        }
+                    }
+                }
+                
+                return positions;
+            }
+
+            // Provide a hint to the player
+            function provideHint() {
+                if (gameOver || aiThinkingFlag || currentPlayer !== 'black') return;
+                
+                // Find the best move for the current player
+                let bestMove = null;
+                let bestScore = -Infinity;
+                
+                const relevantPositions = getRelevantPositions();
+                
+                for (const pos of relevantPositions) {
+                    const score = evaluatePosition(pos.row, pos.col, 'black');
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestMove = pos;
+                    }
+                }
+                
+                if (bestMove) {
+                    // Highlight the suggested move
+                    const cell = getCell(bestMove.row, bestMove.col);
+                    cell.classList.add('highlight');
+                    
+                    // Remove highlight after a delay
+                    setTimeout(() => {
+                        cell.classList.remove('highlight');
+                    }, 2000);
+                    
+                    statusDisplay.textContent = `Hint: Consider moving to ${String.fromCharCode(65 + bestMove.col)}${15 - bestMove.row}`;
+                }
+            }
+
+            // Create fireworks effect for victory
+            function createFireworks() {
+                for (let i = 0; i < 30; i++) {
+                    setTimeout(() => {
+                        const firework = document.createElement('div');
+                        firework.className = 'victory-firework';
+                        
+                        // Random color
+                        const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+                        firework.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                        
+                        // Random position on screen
+                        const x = Math.random() * window.innerWidth;
+                        const y = Math.random() * window.innerHeight;
+                        
+                        firework.style.left = `${x}px`;
+                        firework.style.top = `${y}px`;
+                        
+                        document.body.appendChild(firework);
+                        
+                        // Animate and remove
+                        setTimeout(() => {
+                            firework.style.transition = 'all 1s';
+                            firework.style.opacity = '0';
+                            firework.style.transform = 'scale(2)';
+                            
+                            setTimeout(() => {
+                                if (firework.parentNode) {
+                                    firework.parentNode.removeChild(firework);
+                                }
+                            }, 1000);
+                        }, 100);
+                    }, i * 100);
+                }
+            }
+
+            // Initialize the game
+            initGame();
+        });
+    </script>
+</body>
+</html>
