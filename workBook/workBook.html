@@ -13,10 +13,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flyacade Workbooks</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style (1).css">
     <link rel="stylesheet" href="css/questions_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="../images/Flying_Wings_Academy.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Advantage&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share&display=swap">
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docx/7.1.0/docx.umd.min.js"></script>
 
     <style>
         .logoset {
@@ -263,6 +280,7 @@
                 </button>
             </div>
         </header>
+
         
         <div class="main-content">
             <aside class="sidebar">
@@ -340,27 +358,15 @@
             </main>
         </div>
     
-             <div style="display: flex; justify-content: space-between; margin: 0 5px;">
-                 <p class="pupil">Your Full Names: ___________________________ _________________ ___________________________</p>
-             </div>
-        
-    <div class="watermark">
-        <h3>Contacts</h3>
-        <p class="contacts">Airtel: 0975273790 - MTN: 0968084570</p>
-    </div>
-    
-    <svg id="barcode"></svg>
-    <script>
-    // Get the current page URL dynamically
-    let pageURL = window.location.href;
 
-    // Generate the barcode
-    JsBarcode("#barcode", pageURL, {
-        format: "CODE128",
-        displayValue: true
-    });
-</script>        
         
+
+    
+
+        
+<script>
+
+</script>
         
         
         <footer class="app-footer">
@@ -588,7 +594,14 @@ document.addEventListener('DOMContentLoaded', loadAllScripts);
     <script src="js/data/cts/g3t2bCTS.js"></script>
     <script src="js/data/cts/g3t3aCTS.js"></script>
     <script src="js/data/cts/g3t3bCTS.js"></script>
-                        
+    <!-- English -->
+    <script src="js/data/english/g3t1aEnglish.js"></script>
+    <script src="js/data/english/g3t1bEnglish.js"></script>
+    <script src="js/data/english/g3t2aEnglish.js"></script>
+    <script src="js/data/english/g3t2bEnglish.js"></script>
+    <script src="js/data/english/g3t3aEnglish.js"></script>
+    <script src="js/data/english/g3t3bEnglish.js"></script>
+                                           
     <!-- Sky Soarers -->
     <!-- Science -->
     <script src="js/data/science/g4t1aScience.js"></script>
@@ -797,7 +810,7 @@ document.addEventListener('DOMContentLoaded', loadAllScripts);
     
     
     
-    // In your HTML, add this before loading main.js
+
 <script>
 window.addEventListener('error', function(e) {
     console.error('Global error:', e.error);
@@ -812,5 +825,10 @@ window.addEventListener('workbooksReady', function() {
 </script>
     <!-- Load main.js after all data files -->
     <script src="js/main.js"></script>
+    
+    <script>       
+
+
+        </script> 
 </body>
 </html>
