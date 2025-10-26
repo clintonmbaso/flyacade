@@ -28,16 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Baby Birds',
             logo: '../images/Classes_1.png',
             teacher: {
-                name: 'Teacher Lyashi',
-                picture: '../images/teachers/FS20BC0014.jpg'
+                name: 'Teacher Siazyana',
+                picture: '../images/teachers/FS20BC0012.jpg'
             }
         },
         'middle': {
             name: 'Sky Sprouts',
             logo: '../images/Classes_2.png',
             teacher: {
-                name: 'Teacher Lyashi',
-                picture: '../images/teachers/FS20BC0014.jpg'
+                name: 'Teacher Siazyana',
+                picture: '../images/teachers/FS20BC0012.jpg'
             }
         },
         'reception': {
@@ -477,9 +477,107 @@ function getSavedAnswers() {
                 <h3>${classInfo.name || `Grade ${currentWorkbook.grade}`}</h3>
                     <p>${classInfo.teacher?.name || 'No teacher assigned'}</p>
                 </div>
+                                
             </div>
+            
+              <div class="background-text" id="backgroundText"></div>
+              
+                  <img src="${classInfo.logo || ''}" class="logov" alt="${classInfo.name || ''}">
+                  <img src="../images/Flying_Wings_Academy.png" class="logoiv" alt="School Logo">
+
+        <h1 class="mainTitle">Flying Wings Academy</h1>
+        <p class="subtitlez"><em>The Way to Success</em></p>
+        
+
+
+
+
+    <div class="contentz">
+        
+        
+    </div>
+    
+    
+            <!-- Table at the top -->
+    <div class="table-container">
+        <table>
+            <tr>
+                <th colspan="5">Performance Report</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align:right;font-family: 'Dancing Script', cursive;">%</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th colspan="5" style="height:15px;background-color:transparent;border-radius:0 0 10px 10px;border-top:1px solid rgba(0,0,0,0.4);"></th>
+            </tr>
+        </table>
+    </div>
+                        
+
+            
+                 <div>
+                 <p class="pupil">Your Full Names: ___________________________ _________________ ___________________________</p>
+             </div>                
+        
+   
+                  <img src="./images/Artboard.png" class="artboard" alt="Art Board">
+    
+    
+    
+    <div class="watermark">
+        <p class="contacts"><b>Contact Details: </b> 
+        <em>Cell Numbers:</em> Airtel: +260975273790 - MTN: +260968084570 
+        <em>email address:</em> flyingwingsacademy7@gmail.com
+        </p>
+        <hr>
+    </div>
+    <div class="info">
+         <p>Do not turn this page until you are told to do so!</p>
+         <hr>
+    </div>          
+
+
+    <svg id="barcode"></svg>
+<script>
+    // Get the current page URL dynamically        
+     let pageURL = window.location.href;
+
+    // Generate the barcode
+    JsBarcode("#barcode", pageURL, {
+        format: "CODE128",
+        displayValue: true
+    });           
+    </script>
+        
         <!--</div>-->
         `;
+        
+             
+        
+        // Function to generate repeated text without spaces
+        function generateRepeatedText(text, count) {
+            let result = '';
+            for (let i = 0; i < count; i++) {
+                result += text;
+            }
+            return result;
+        }
+
+        // Get the background text element
+        const backgroundText = document.getElementById('backgroundText');
+        
+        // Generate the repeated text (adjust the number as needed)
+        const repeatedText = generateRepeatedText('flyacade', 1104);
+        
+        // Set the text content
+        backgroundText.textContent = repeatedText;
+        
+    
+
         
         // Reset UI
         workbookTitle.textContent = currentWorkbook.title;
@@ -958,7 +1056,9 @@ function getSavedAnswers() {
 
         resultsHTML = `
             <div class="score-summary">
+            
                 <h3>Your Score: ${score}/${totalQuestions} (${Math.round((score/totalQuestions)*100)}%)</h3>
+                 
             </div>
         ` + resultsHTML;
 
