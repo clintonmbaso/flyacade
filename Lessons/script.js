@@ -160,10 +160,10 @@ function searchLessonPlans(event) {
 const teacherNames = {
     "Baby Birds": "Mrs. Kuligwa Siazyana",
     "Sky Sprouts": "Mrs. Kuligwa Siazyana",
-    "Nestlings Navigators": "Mr. Geofrey Daka",
+    "Nestlings Navigators": "Mr. Clinton Mbaso",
     "Feather Flyers": "Mr. Clinton Mbaso",
-    "Cloud Chicks": "Ms. Clinton Mbaso",
-    "Wing Whiz": "Ms. Faith Nakaonga",
+    "Cloud Chicks": "Ms. Elly Mboozi",
+    "Wing Whiz": "Ms. Elly Mboozi",
     "Sky Soarers": "Mr. Clinton Mbaso",
     "Avian Aces": "Mr. Clinton Mbaso",
     "Nimbus Navigators": "Mr. Clinton Mbaso",
@@ -181,6 +181,7 @@ const tczNumbers = {
     "Mr. Muteba Masheka": "FS20BC0013",
     "Mrs. Hellen Lyashi": "FS20BC0014",
     "Ms. Ethel Simachila": "FS20BC0015",
+    "Ms. Elly Mboozi": "FS20BC0017",
 };
     
 // Example usage in your main file
