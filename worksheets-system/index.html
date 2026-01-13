@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyacade Worksheets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="week-badge" id="weekBadge">Week 1</div>
+            <h1>Flyacade Worksheets</h1>
+            <h2 id="pageSubtitle">Interactive worksheets for easy learning</h2>
+        </div>
+
+        <!-- Search and Filters -->
+        <div class="filters-container">
+            <div class="filter-group">
+                <div class="filter-label">
+                    <i class="fas fa-filter"></i> Search & Filter
+                </div>
+                
+                <div class="filter-controls">
+                    <!-- Grade Filter -->
+                    <div class="filter-select">
+                        <label for="gradeFilter"><i class="fas fa-graduation-cap"></i> Grade</label>
+                        <select id="gradeFilter" class="filter-dropdown">
+                            <option value="all">All Grades</option>
+                            <!-- Dynamic options will be added here -->
+                        </select>
+                    </div>
+                    
+                    <!-- Subject Filter -->
+                    <div class="filter-select">
+                        <label for="subjectFilter"><i class="fas fa-book"></i> Subject</label>
+                        <select id="subjectFilter" class="filter-dropdown">
+                            <option value="all">All Subjects</option>
+                            <!-- Dynamic options will be added here -->
+                        </select>
+                    </div>
+                    
+                    <!-- Week Filter -->
+                    <div class="filter-select">
+                        <label for="weekFilter"><i class="fas fa-calendar-week"></i> Week</label>
+                        <select id="weekFilter" class="filter-dropdown">
+                            <option value="all">All Weeks</option>
+                            <!-- Dynamic options will be added here -->
+                        </select>
+                    </div>
+                    
+                    <!-- Day Filter -->
+                    <div class="filter-select">
+                        <label for="dayFilter"><i class="fas fa-calendar-day"></i> Day</label>
+                        <select id="dayFilter" class="filter-dropdown">
+                            <option value="all">All Days</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Search Input -->
+                    <div class="filter-search">
+                        <label for="searchInput"><i class="fas fa-search"></i> Search</label>
+                        <div class="search-box">
+                            <input type="text" id="searchInput" placeholder="Search by topic, keyword...">
+                            <button id="clearSearch" class="clear-btn" title="Clear search">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="filter-actions">
+                        <button id="applyFilters" class="btn btn-primary">
+                            <i class="fas fa-check"></i> Apply Filters
+                        </button>
+                        <button id="resetFilters" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                        <button id="toggleFilters" class="btn btn-secondary">
+                            <i class="fas fa-sliders-h"></i> Toggle Filters
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Active Filters Display -->
+                <div class="active-filters" id="activeFilters">
+                    <!-- Active filters will be displayed here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Week Selector (now dynamically loaded) -->
+        <div class="week-selector" id="weekSelector">
+            <!-- Dynamic week buttons will be added here -->
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="day-selector" id="daySelector">
+                <!-- Dynamic day buttons will be added here -->
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-secondary no-print" id="printAllBtn">
+                    <i class="fas fa-print"></i> Print All Worksheets
+                </button>
+                <button class="btn btn-primary no-print" id="printCurrentBtn">
+                    <i class="fas fa-print"></i> Print Current
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Count -->
+        <div class="results-info" id="resultsInfo">
+            <span id="resultsCount">0 worksheets found</span>
+            <div class="view-toggle">
+                <button class="view-btn active" data-view="grid">
+                    <i class="fas fa-th-large"></i>
+                </button>
+                <button class="view-btn" data-view="list">
+                    <i class="fas fa-list"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Worksheets Container -->
+        <div id="worksheets-container" class="grid-view">
+            <!-- Worksheets will be dynamically inserted here -->
+        </div>
+        
+        <!-- No Results Message -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <i class="fas fa-search fa-3x"></i>
+            <h3>No worksheets found</h3>
+            <p>Try adjusting your filters or search terms</p>
+            <button id="resetAllFilters" class="btn btn-primary">
+                <i class="fas fa-redo"></i> Reset All Filters
+            </button>
+        </div>
+    </div>
+
+<!-- Update the script loading order in index.html -->
+<!-- Core scripts first -->
+<script src="js/data-loader.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/main.js"></script>
+<script src="js/utils/print.js"></script>
+
+<!-- Data Manifest - Replace all individual data file loads -->
+<script src="data/manifest.js"></script>
+
+
+</body>
+</html>
