@@ -63,7 +63,7 @@ const WorksheetManifest = {
         'data/grade3/g3math-week08.js',
         'data/grade3/g3math-week09.js',
         'data/grade3/g3math-week10.js',
-            
+            /*
         // Grade 4
         'data/grade4/g4math-week02.js',
         'data/grade4/g4math-week03.js',
@@ -73,7 +73,7 @@ const WorksheetManifest = {
         'data/grade4/g4math-week08.js',
         'data/grade4/g4math-week09.js',
         'data/grade4/g4math-week10.js',
-                
+                */
          // Grade 5
         'data/grade5/g5math-week02.js',
         'data/grade5/g5math-week03.js',
@@ -86,6 +86,7 @@ const WorksheetManifest = {
                    
     // Science
         // Baby
+    /*
         'data/baby/baby-science-week02.js',
         'data/baby/baby-science-week03.js',
         'data/baby/baby-science-week04.js',
@@ -94,7 +95,7 @@ const WorksheetManifest = {
         'data/baby/baby-science-week08.js',
         'data/baby/baby-science-week09.js',
         'data/baby/baby-science-week10.js',
-            
+            *
         // Middle
         'data/middle/middle-science-week02.js',
         'data/middle/middle-science-week03.js',
@@ -114,40 +115,41 @@ const WorksheetManifest = {
         'data/grade6/g6science-week08.js',
         'data/grade6/g6science-week09.js',
         'data/grade6/g6science-week10.js',
-                       
+                       */
         // ... Add all other files here
     ],
     
     // Extract grade, subject, and week from file path
-    parseFileInfo: function(filePath) {
-        const info = {
-            grade: null,
-            subject: null,
-            week: null
-        };
-        
-        // Extract grade
-        if (filePath.includes('grade1')) info.grade = '1';
-        else if (filePath.includes('grade2')) info.grade = '2';
-        else if (filePath.includes('grade3')) info.grade = '3';
-        else if (filePath.includes('grade4')) info.grade = '4';
-        else if (filePath.includes('grade5')) info.grade = '5';
-        else if (filePath.includes('grade6')) info.grade = '6';
-        else if (filePath.includes('baby')) info.grade = 'baby';
-        else if (filePath.includes('middle')) info.grade = 'middle';
-        else if (filePath.includes('reception')) info.grade = 'reception';
-        
-        // Extract subject
-        if (filePath.includes('-math-')) info.subject = 'Math';
-        else if (filePath.includes('-science-')) info.subject = 'Science';
-        else if (filePath.includes('-english-')) info.subject = 'English';
-        
-        // Extract week
-        const weekMatch = filePath.match(/week(\d+)/);
-        if (weekMatch) info.week = weekMatch[1];
-        
-        return info;
-    },
+// data/manifest.js - Update the parseFileInfo function
+parseFileInfo: function(filePath) {
+    const info = {
+        grade: null,
+        subject: null,
+        week: null
+    };
+    
+    // Extract grade
+    if (filePath.includes('grade1')) info.grade = '1';
+    else if (filePath.includes('grade2')) info.grade = '2';
+    else if (filePath.includes('grade3')) info.grade = '3';
+    else if (filePath.includes('grade4')) info.grade = '4';
+    else if (filePath.includes('grade5')) info.grade = '5';
+    else if (filePath.includes('grade6')) info.grade = '6';
+    else if (filePath.includes('baby')) info.grade = 'baby';
+    else if (filePath.includes('middle')) info.grade = 'middle';
+    else if (filePath.includes('reception')) info.grade = 'reception';
+    
+    // Extract subject - FIXED to handle multiple patterns
+    if (filePath.includes('math')) info.subject = 'Math';
+    else if (filePath.includes('science')) info.subject = 'Science';
+    else if (filePath.includes('english')) info.subject = 'English';
+    
+    // Extract week
+    const weekMatch = filePath.match(/week(\d+)/);
+    if (weekMatch) info.week = weekMatch[1];
+    
+    return info;
+},
     
     // Group files for easier loading
     getFilesByFilter: function(filters) {
