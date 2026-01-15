@@ -106,7 +106,7 @@ const WorksheetManifest = {
         'data/middle/middle-science-week09.js',
         'data/middle/middle-science-week10.js',
                 
-         // Grade 6
+         // Grade 1
         'data/grade6/g6science-week02.js',
         'data/grade6/g6science-week03.js',
         'data/grade6/g6science-week04.js',
@@ -115,7 +115,100 @@ const WorksheetManifest = {
         'data/grade6/g6science-week08.js',
         'data/grade6/g6science-week09.js',
         'data/grade6/g6science-week10.js',
-                       */
+    
+         // Grade 2
+        'data/grade6/g6science-week02.js',
+        'data/grade6/g6science-week03.js',
+        'data/grade6/g6science-week04.js',
+        'data/grade6/g6science-week05.js',
+        'data/grade6/g6science-week07.js',
+        'data/grade6/g6science-week08.js',
+        'data/grade6/g6science-week09.js',
+        'data/grade6/g6science-week10.js',
+    */
+         // Grade 3
+        'data/grade3/g3science-t1week02.js',
+        'data/grade3/g3science-t1week03.js',
+        'data/grade3/g3science-t1week04.js',
+        'data/grade3/g3science-t1week05.js',
+        'data/grade3/g3science-t1week07.js',
+        'data/grade3/g3science-t1week08.js',
+        'data/grade3/g3science-t1week09.js',
+        'data/grade3/g3science-t1week10.js',
+    
+         // Grade 4
+        'data/grade4/g4science-t1week02.js',
+        'data/grade4/g4science-t1week03.js',
+        'data/grade4/g4science-t1week04.js',
+        'data/grade4/g4science-t1week05.js',
+        'data/grade4/g4science-t1week07.js',
+        'data/grade4/g4science-t1week08.js',
+        'data/grade4/g4science-t1week09.js',
+        'data/grade4/g4science-t1week10.js',
+    
+         // Grade 5
+        'data/grade5/g5science-t1week02.js',
+        'data/grade5/g5science-t1week03.js',
+        'data/grade5/g5science-t1week04.js',
+        'data/grade5/g5science-t1week05.js',
+        'data/grade5/g5science-t1week07.js',
+        'data/grade5/g5science-t1week08.js',
+        'data/grade5/g5science-t1week09.js',
+        'data/grade5/g5science-t1week10.js',
+    
+         // Grade 6
+        'data/grade6/g6science-t1week02.js',
+        'data/grade6/g6science-t1week03.js',
+        'data/grade6/g6science-t1week04.js',
+        'data/grade6/g6science-t1week05.js',
+        'data/grade6/g6science-t1week07.js',
+        'data/grade6/g6science-t1week08.js',
+        'data/grade6/g6science-t1week09.js',
+        'data/grade6/g6science-t1week10.js',
+                       
+    // Social Studies
+         // Grade 5
+        'data/grade5/g5socialstudies-t1week02.js',
+        'data/grade5/g5socialstudies-t1week03.js',
+        'data/grade5/g5socialstudies-t1week04.js',
+        'data/grade5/g5socialstudies-t1week05.js',
+        'data/grade5/g5socialstudies-t1week07.js',
+        'data/grade5/g5socialstudies-t1week08.js',
+        'data/grade5/g5socialstudies-t1week09.js',
+//        'data/grade5/g5socialstudies-t1week10.js',
+    
+         // Grade 6
+        'data/grade6/g6socialstudies-t1week02.js',
+        'data/grade6/g6socialstudies-t1week03.js',
+        'data/grade6/g6socialstudies-t1week04.js',
+        'data/grade6/g6socialstudies-t1week05.js',
+        'data/grade6/g6socialstudies-t1week07.js',
+        'data/grade6/g6socialstudies-t1week08.js',
+        'data/grade6/g6socialstudies-t1week09.js',
+        'data/grade6/g6socialstudies-t1week10.js',
+                               
+    // Literacy
+         // Grade 4
+        'data/grade4/g4literacy-t1week02.js',
+        'data/grade4/g4literacy-t1week03.js',
+        'data/grade4/g4literacy-t1week04.js',
+        'data/grade4/g4literacy-t1week05.js',
+        'data/grade4/g4literacy-t1week07.js',
+        'data/grade4/g4literacy-t1week08.js',
+        'data/grade4/g4literacy-t1week09.js',
+        'data/grade4/g4literacy-t1week10.js',
+    
+    // English
+         // Grade 4
+        'data/grade4/g4english-t1week02.js',
+        'data/grade4/g4english-t1week03.js',
+        'data/grade4/g4english-t1week04.js',
+        'data/grade4/g4english-t1week05.js',
+        'data/grade4/g4english-t1week07.js',
+        'data/grade4/g4english-t1week08.js',
+        'data/grade4/g4english-t1week09.js',
+//        'data/grade4/g4english-t1week10.js',
+    
         // ... Add all other files here
     ],
     
@@ -143,6 +236,10 @@ parseFileInfo: function(filePath) {
     if (filePath.includes('math')) info.subject = 'Math';
     else if (filePath.includes('science')) info.subject = 'Science';
     else if (filePath.includes('english')) info.subject = 'English';
+    else if (filePath.includes('literacy')) info.subject = 'Literacy';
+    else if (filePath.includes('socialstudies')) info.subject = 'Social Studies';
+//    else if (filePath.includes('cts')) info.subject = 'Creative and Technology Studies';
+//    else if (filePath.includes('bemba')) info.subject = 'Literacy in Bemba';
     
     // Extract week
     const weekMatch = filePath.match(/week(\d+)/);
