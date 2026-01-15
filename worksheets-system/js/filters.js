@@ -79,7 +79,7 @@ const Filters = {
                 gradeFilter.appendChild(option);
             });
         
-        // Add subject options
+        // Add subject options (all initially)
         Array.from(options.subjects)
             .sort()
             .forEach(subject => {
@@ -98,6 +98,149 @@ const Filters = {
                 option.textContent = `Week ${week}`;
                 weekFilter.appendChild(option);
             });
+    },
+    
+    // Update subject dropdown based on selected grade
+    updateSubjectDropdown() {
+        if (!window.WorksheetManifest) return;
+        
+        const selectedGrade = this.currentFilters.grade;
+        const subjectFilter = document.getElementById('subjectFilter');
+        const currentSubject = subjectFilter.value;
+        
+        // Clear existing options except "all"
+        while (subjectFilter.options.length > 1) subjectFilter.remove(1);
+        
+        if (selectedGrade === 'all') {
+            // Show all subjects from manifest
+            const allOptions = window.WorksheetManifest.getAllOptions();
+            Array.from(allOptions.subjects)
+                .sort()
+                .forEach(subject => {
+                    const option = document.createElement('option');
+                    option.value = subject;
+                    option.textContent = subject;
+                    subjectFilter.appendChild(option);
+                });
+        } else {
+            // Get subjects for selected grade from manifest
+            const availableSubjects = this.getSubjectsForGrade(selectedGrade);
+            
+            if (availableSubjects.size === 0) {
+                // No subjects available for this grade
+                const option = document.createElement('option');
+                option.value = 'none';
+                option.textContent = 'No subjects available';
+                option.disabled = true;
+                subjectFilter.appendChild(option);
+                subjectFilter.value = 'none';
+            } else {
+                // Add available subjects
+                Array.from(availableSubjects)
+                    .sort()
+                    .forEach(subject => {
+                        const option = document.createElement('option');
+                        option.value = subject;
+                        option.textContent = subject;
+                        subjectFilter.appendChild(option);
+                    });
+            }
+        }
+        
+        // Restore previous selection if it's still valid
+        if (subjectFilter.querySelector(`option[value="${currentSubject}"]`)) {
+            subjectFilter.value = currentSubject;
+        } else {
+            subjectFilter.value = 'all';
+        }
+    },
+    
+    // Update week dropdown based on selected grade and subject
+    updateWeekDropdown() {
+        if (!window.WorksheetManifest) return;
+        
+        const selectedGrade = this.currentFilters.grade;
+        const selectedSubject = this.currentFilters.subject;
+        const weekFilter = document.getElementById('weekFilter');
+        const currentWeek = weekFilter.value;
+        
+        // Clear existing options except "all"
+        while (weekFilter.options.length > 1) weekFilter.remove(1);
+        
+        if (selectedGrade === 'all' || selectedSubject === 'all') {
+            // Show all weeks from manifest
+            const allOptions = window.WorksheetManifest.getAllOptions();
+            Array.from(allOptions.weeks)
+                .sort((a, b) => a - b)
+                .forEach(week => {
+                    const option = document.createElement('option');
+                    option.value = week;
+                    option.textContent = `Week ${week}`;
+                    weekFilter.appendChild(option);
+                });
+        } else {
+            // Get weeks for selected grade and subject
+            const availableWeeks = this.getWeeksForGradeAndSubject(selectedGrade, selectedSubject);
+            
+            if (availableWeeks.size === 0) {
+                // No weeks available
+                const option = document.createElement('option');
+                option.value = 'none';
+                option.textContent = 'No weeks available';
+                option.disabled = true;
+                weekFilter.appendChild(option);
+                weekFilter.value = 'none';
+            } else {
+                // Add available weeks
+                Array.from(availableWeeks)
+                    .sort((a, b) => a - b)
+                    .forEach(week => {
+                        const option = document.createElement('option');
+                        option.value = week;
+                        option.textContent = `Week ${week}`;
+                        weekFilter.appendChild(option);
+                    });
+            }
+        }
+        
+        // Restore previous selection if it's still valid
+        if (weekFilter.querySelector(`option[value="${currentWeek}"]`)) {
+            weekFilter.value = currentWeek;
+        } else {
+            weekFilter.value = 'all';
+        }
+    },
+    
+    // Get subjects for a specific grade from manifest
+    getSubjectsForGrade(grade) {
+        const subjects = new Set();
+        
+        if (!window.WorksheetManifest) return subjects;
+        
+        window.WorksheetManifest.files.forEach(filePath => {
+            const fileInfo = window.WorksheetManifest.parseFileInfo(filePath);
+            if (fileInfo.grade === grade && fileInfo.subject) {
+                subjects.add(fileInfo.subject);
+            }
+        });
+        
+        return subjects;
+    },
+    
+    // Get weeks for a specific grade and subject from manifest
+    getWeeksForGradeAndSubject(grade, subject) {
+        const weeks = new Set();
+        
+        if (!window.WorksheetManifest) return weeks;
+        
+        window.WorksheetManifest.files.forEach(filePath => {
+            const fileInfo = window.WorksheetManifest.parseFileInfo(filePath);
+            if (fileInfo.grade === grade && fileInfo.subject === subject && fileInfo.week) {
+                weeks.add(fileInfo.week);
+            }
+        });
+        
+        return weeks;
     },
     
     // Format grade name for display
@@ -405,22 +548,28 @@ const Filters = {
             }
         });
         
-        // Filter change events (auto-apply)
+        // Grade filter change - update subject dropdown
         document.getElementById('gradeFilter').addEventListener('change', () => {
             this.updateCurrentFiltersFromUI();
+            this.updateSubjectDropdown();
+            this.updateWeekDropdown();
             this.applyFilters();
         });
         
+        // Subject filter change - update week dropdown
         document.getElementById('subjectFilter').addEventListener('change', () => {
             this.updateCurrentFiltersFromUI();
+            this.updateWeekDropdown();
             this.applyFilters();
         });
         
+        // Week filter change
         document.getElementById('weekFilter').addEventListener('change', () => {
             this.updateCurrentFiltersFromUI();
             this.applyFilters();
         });
         
+        // Day filter change
         document.getElementById('dayFilter').addEventListener('change', () => {
             this.updateCurrentFiltersFromUI();
             this.applyFilters();
@@ -444,6 +593,14 @@ const Filters = {
                 const button = e.target.closest('.remove-filter');
                 const filterType = button.getAttribute('data-filter-type');
                 this.removeFilter(filterType);
+                
+                // Update dependent dropdowns when removing grade or subject
+                if (filterType === 'grade') {
+                    this.updateSubjectDropdown();
+                    this.updateWeekDropdown();
+                } else if (filterType === 'subject') {
+                    this.updateWeekDropdown();
+                }
             }
         });
     },
@@ -480,6 +637,15 @@ const Filters = {
         }
         
         this.updateCurrentFiltersFromUI();
+        
+        // Update dependent dropdowns
+        if (filterType === 'grade') {
+            this.updateSubjectDropdown();
+            this.updateWeekDropdown();
+        } else if (filterType === 'subject') {
+            this.updateWeekDropdown();
+        }
+        
         this.applyFilters();
     },
     
@@ -498,6 +664,10 @@ const Filters = {
             day: 'all',
             search: ''
         };
+        
+        // Reset dropdowns to show all options
+        this.updateSubjectDropdown();
+        this.updateWeekDropdown();
         
         // Clear worksheets and show empty state
         this.allWorksheets = [];
