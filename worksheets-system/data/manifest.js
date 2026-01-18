@@ -63,22 +63,22 @@ const WorksheetManifest = {
         'data/grade3/g3math-week08.js',
         'data/grade3/g3math-week09.js',
         'data/grade3/g3math-week10.js',
-            /*
+            
         // Grade 4
-        'data/grade4/g4math-week02.js',
-        'data/grade4/g4math-week03.js',
-        'data/grade4/g4math-week04.js',
-        'data/grade4/g4math-week05.js',
-        'data/grade4/g4math-week07.js',
-        'data/grade4/g4math-week08.js',
-        'data/grade4/g4math-week09.js',
-        'data/grade4/g4math-week10.js',
-                */
+        'data/grade4/g4math-t1week02.js',
+        'data/grade4/g4math-t1week03.js',
+        'data/grade4/g4math-t1week04.js',
+        'data/grade4/g4math-t1week05.js',
+        'data/grade4/g4math-t1week07.js',
+        'data/grade4/g4math-t1week08.js',
+        'data/grade4/g4math-t1week09.js',
+        'data/grade4/g4math-t1week10.js',
+                
          // Grade 5
-        'data/grade5/g5math-week02.js',
-        'data/grade5/g5math-week03.js',
-        'data/grade5/g5math-week04.js',
-        'data/grade5/g5math-week05.js',
+        'data/grade5/g5math-t1week02.js',
+        'data/grade5/g5math-t1week03.js',
+        'data/grade5/g5math-t1week04.js',
+        'data/grade5/g5math-t1week05.js',
         'data/grade5/g5math-week07.js',
         'data/grade5/g5math-week08.js',
         'data/grade5/g5math-week09.js',
