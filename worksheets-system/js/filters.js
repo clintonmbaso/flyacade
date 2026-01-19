@@ -30,13 +30,13 @@ const Filters = {
     
     // Show empty/initial state
     showEmptyState() {
-        document.getElementById('resultsCount').textContent = 'Select filters to load worksheets';
+        document.getElementById('resultsCount').textContent = 'Select filters and click "Apply Filters"';
         document.getElementById('worksheets-container').innerHTML = `
             <div class="empty-state">
-                <i class="fas fa-search fa-3x"></i>
+                <i class="fas fa-filter fa-3x"></i>
                 <h3>No worksheets loaded yet</h3>
-                <p>Use the filters above to select worksheets to load</p>
-                <p class="hint">Tip: Start by selecting a Grade and Subject</p>
+                <p>Use the filters above to select worksheets</p>
+                <p class="hint">Tip: Select filters and click <strong>"Apply Filters"</strong></p>
             </div>
         `;
     },
@@ -104,7 +104,7 @@ const Filters = {
     updateSubjectDropdown() {
         if (!window.WorksheetManifest) return;
         
-        const selectedGrade = this.currentFilters.grade;
+        const selectedGrade = document.getElementById('gradeFilter').value;
         const subjectFilter = document.getElementById('subjectFilter');
         const currentSubject = subjectFilter.value;
         
@@ -159,8 +159,8 @@ const Filters = {
     updateWeekDropdown() {
         if (!window.WorksheetManifest) return;
         
-        const selectedGrade = this.currentFilters.grade;
-        const selectedSubject = this.currentFilters.subject;
+        const selectedGrade = document.getElementById('gradeFilter').value;
+        const selectedSubject = document.getElementById('subjectFilter').value;
         const weekFilter = document.getElementById('weekFilter');
         const currentWeek = weekFilter.value;
         
@@ -417,7 +417,7 @@ const Filters = {
         const count = this.filteredWorksheets.length;
         
         if (count === 0 && this.allWorksheets.length === 0) {
-            resultsCount.textContent = 'Select filters to load worksheets';
+            resultsCount.textContent = 'Select filters and click "Apply Filters"';
         } else if (count === 0) {
             resultsCount.textContent = 'No matching worksheets found';
         } else {
@@ -511,7 +511,7 @@ const Filters = {
     
     // Setup event listeners for filters
     setupEventListeners() {
-        // Apply filters button
+        // Apply filters button - MAIN TRIGGER
         document.getElementById('applyFilters').addEventListener('click', () => {
             this.updateCurrentFiltersFromUI();
             this.applyFilters();
@@ -536,43 +536,40 @@ const Filters = {
         // Clear search button
         document.getElementById('clearSearch').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
-            this.currentFilters.search = '';
-            this.applyFilters();
+            // Just clear the UI, don't apply filters automatically
         });
         
-        // Search input (apply on Enter)
+        // Search input (ONLY show search suggestions, don't apply)
         document.getElementById('searchInput').addEventListener('keyup', (e) => {
+            // Just track changes, don't apply automatically
             if (e.key === 'Enter') {
-                this.updateCurrentFiltersFromUI();
-                this.applyFilters();
+                // Allow Enter to trigger apply if user prefers
+                document.getElementById('applyFilters').click();
             }
         });
         
-        // Grade filter change - update subject dropdown
+        // Grade filter change - ONLY update dropdowns, don't apply filters
         document.getElementById('gradeFilter').addEventListener('change', () => {
-            this.updateCurrentFiltersFromUI();
+            // Update dependent dropdowns
             this.updateSubjectDropdown();
             this.updateWeekDropdown();
-            this.applyFilters();
+            // DON'T call applyFilters() here
         });
         
-        // Subject filter change - update week dropdown
+        // Subject filter change - ONLY update dropdowns, don't apply filters
         document.getElementById('subjectFilter').addEventListener('change', () => {
-            this.updateCurrentFiltersFromUI();
             this.updateWeekDropdown();
-            this.applyFilters();
+            // DON'T call applyFilters() here
         });
         
-        // Week filter change
+        // Week filter change - Just track, don't apply
         document.getElementById('weekFilter').addEventListener('change', () => {
-            this.updateCurrentFiltersFromUI();
-            this.applyFilters();
+            // Just track the change, don't apply filters
         });
         
-        // Day filter change
+        // Day filter change - Just track, don't apply
         document.getElementById('dayFilter').addEventListener('change', () => {
-            this.updateCurrentFiltersFromUI();
-            this.applyFilters();
+            // Just track the change, don't apply filters
         });
         
         // View toggle buttons
@@ -601,19 +598,25 @@ const Filters = {
                 } else if (filterType === 'subject') {
                     this.updateWeekDropdown();
                 }
+                // DON'T call applyFilters() here - user must click Apply button
             }
         });
     },
     
-    // Update current filters from UI
-    updateCurrentFiltersFromUI() {
-        this.currentFilters = {
+    // Get current filters from UI without updating object
+    getCurrentFiltersFromUI() {
+        return {
             grade: document.getElementById('gradeFilter').value,
             subject: document.getElementById('subjectFilter').value,
             week: document.getElementById('weekFilter').value,
             day: document.getElementById('dayFilter').value,
             search: document.getElementById('searchInput').value.trim()
         };
+    },
+    
+    // Update current filters from UI
+    updateCurrentFiltersFromUI() {
+        this.currentFilters = this.getCurrentFiltersFromUI();
     },
     
     // Remove a specific filter
@@ -636,9 +639,7 @@ const Filters = {
                 break;
         }
         
-        this.updateCurrentFiltersFromUI();
-        
-        // Update dependent dropdowns
+        // Update dependent dropdowns but don't apply
         if (filterType === 'grade') {
             this.updateSubjectDropdown();
             this.updateWeekDropdown();
@@ -646,7 +647,12 @@ const Filters = {
             this.updateWeekDropdown();
         }
         
-        this.applyFilters();
+        // Update UI filters state but don't load worksheets
+        this.updateCurrentFiltersFromUI();
+        this.updateActiveFiltersDisplay();
+        
+        // Update results count to show filters are ready
+        document.getElementById('resultsCount').textContent = 'Click "Apply Filters" to load worksheets';
     },
     
     // Reset all filters
@@ -676,7 +682,7 @@ const Filters = {
         this.updateActiveFiltersDisplay();
         
         // Update results count
-        document.getElementById('resultsCount').textContent = 'Select filters to load worksheets';
+        document.getElementById('resultsCount').textContent = 'Select filters and click "Apply Filters"';
         
         // Hide controls
         document.getElementById('weekSelector').style.display = 'none';
