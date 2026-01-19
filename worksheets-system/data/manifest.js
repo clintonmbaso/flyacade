@@ -251,7 +251,17 @@ const WorksheetManifest = {
 //        'data/grade6/g6expressiveArts-t1week10.js',
         
     // Home Economics
-         // Grade 5
+         // Grade 4
+        'data/grade4/g4homeEconomics-t1week02.js',
+        'data/grade4/g4homeEconomics-t1week03.js',
+        'data/grade4/g4homeEconomics-t1week04.js',
+        'data/grade4/g4homeEconomics-t1week05.js',
+        'data/grade4/g4homeEconomics-t1week07.js',
+        'data/grade4/g4homeEconomics-t1week08.js',
+        'data/grade4/g4homeEconomics-t1week09.js',
+        'data/grade4/g4homeEconomics-t1week10.js',
+    
+        // Grade 5
         'data/grade5/g5homeEconomics-t1week02.js',
         'data/grade5/g5homeEconomics-t1week03.js',
         'data/grade5/g5homeEconomics-t1week04.js',
