@@ -4,353 +4,387 @@ const grade1EnglishWeek9 = {
         grade: 1,
         subject: "English",
         week: 9,
-        title: "Pronouns",
-        description: "Introduction to pronouns, how they replace nouns in sentences, and using common pronouns correctly"
+        title: "Food and Meals — Learning About What We Eat",
+        description: "Identifying food types, understanding daily meals, learning table manners, and describing food"
     },
     
     monday: {
         subject: "English",
-        topic: "Pronouns",
-        subtopic: "What are pronouns and how they replace nouns",
+        topic: "My Favorite Foods",
+        subtopic: "Identifying and categorizing common foods",
         lessonContent: `
-            <p>Welcome to our lesson on pronouns! Today we will learn about special words that can take the place of other words in sentences.</p>
-            <p><strong>Key Concept:</strong> Pronouns are words that replace nouns in sentences. They help us avoid repeating the same words over and over.</p>
-            <p><strong>Common Pronouns:</strong></p>
+            <p>Welcome to our English lesson about food! Today we will learn about different types of foods and how to group them.</p>
+            <p><strong>Key Question:</strong> Who is hungry? Let's talk about what we love to eat!</p>
+            <p><strong>Food Families:</strong> Foods come in different families just like people do!</p>
             <ul>
-                <li>I, me</li>
-                <li>you</li>
-                <li>he, him</li>
-                <li>she, her</li>
-                <li>it</li>
-                <li>we, us</li>
+                <li><strong>Fruits:</strong> Apples, bananas, oranges, mangoes</li>
+                <li><strong>Vegetables:</strong> Carrots, potatoes, spinach, tomatoes</li>
+                <li><strong>Grains:</strong> Bread, rice, maize, oats</li>
             </ul>
-            <p><strong>Why do we use pronouns?</strong> Pronouns make our sentences shorter and easier to say and write. Instead of repeating someone's name, we can use a pronoun!</p>
+            <p><strong>Why is it important to know food types?</strong> Different foods help our bodies in different ways. Fruits and vegetables keep us healthy, grains give us energy!</p>
+            <p><strong>Let's play a game:</strong> "Fruit, Veggie, or Grain?" I'll show you pictures, and you tell me which family the food belongs to!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exchange-alt"></i> Replacement Examples</div>
-                <p><strong>Without pronouns:</strong> Sarah likes to read. Sarah reads every day.<br>
-                <strong>With pronouns:</strong> Sarah likes to read. <strong>She</strong> reads every day.</p>
+                <div class="example-title"><i class="fas fa-apple-alt" style="color: #E91E63;"></i> Fruit Examples</div>
+                <p>"This is an apple. Apples are fruits. They grow on trees and are sweet and crunchy!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Did You Know?</div>
-                <p>The word "pronoun" comes from Latin words meaning "for a noun" - it's a word that stands in for a noun!</p>
+                <div class="example-title"><i class="fas fa-carrot" style="color: #FF9800;"></i> Vegetable Examples</div>
+                <p>"This is a carrot. Carrots are vegetables. They grow in the ground and help our eyes see well!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book"></i> Everyday Use</div>
-                <p>We use pronouns all the time when we talk. When you say "I" or "you," you're using pronouns!</p>
+                <div class="example-title"><i class="fas fa-bread-slice" style="color: #795548;"></i> Grain Examples</div>
+                <p>"This is bread. Bread is a grain. It gives us energy to play and learn all day!"</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying and using pronouns.",
+        taskInstructions: "Complete the following activities to practice identifying food types.",
         taskContent: `
             <div class="task-item">
-                <span class="task-number">1</span> Circle the pronouns in these sentences:
+                <span class="task-number">1</span> Circle the foods that are fruits:
                 <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>a) She plays with the ball.</div>
-                    <div>b) He gave it to me.</div>
-                    <div>c) We like to read books.</div>
-                    <div>d) You are my friend.</div>
+                    <div>☐ Apple</div>
+                    <div>☐ Bread</div>
+                    <div>☐ Banana</div>
+                    <div>☐ Carrot</div>
+                    <div>☐ Orange</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">2</span> Draw a line to match each noun with its pronoun:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Sarah → <span class="answer-space" style="width: 80px;"></span> (she/her)</div>
-                    <div>Tom → <span class="answer-space" style="width: 80px;"></span> (he/him)</div>
-                    <div>The book → <span class="answer-space" style="width: 80px;"></span> (it)</div>
-                    <div>My friends and I → <span class="answer-space" style="width: 80px;"></span> (we/us)</div>
+                <span class="task-number">2</span> Draw and label one fruit and one vegetable:
+                <div style="display: flex; margin-top: 10px;">
+                    <div style="flex: 1; padding-right: 10px;">
+                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;">My fruit: ________________</div>
+                    </div>
+                    <div style="flex: 1; padding-left: 10px;">
+                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;">My vegetable: ________________</div>
+                    </div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">3</span> Replace the underlined nouns with pronouns:
+                <span class="task-number">3</span> Match the food to its family:
                 <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>a) Maria likes ice cream. Maria eats ice cream every day. → <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>b) The dog is brown. The dog barks loudly. → <span class="answer-space" style="width: 150px;"></span></div>
+                    <div>Rice → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Fruit/Vegetable/Grain)</div>
+                    <div>Potato → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Fruit/Vegetable/Grain)</div>
+                    <div>Mango → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Fruit/Vegetable/Grain)</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">4</span> Write two sentences using pronouns about yourself:
-                <div class="answer-space" style="height: 80px;"></div>
-            </div>
-        `,
-        homework: "Look through a story book and find five pronouns. Write them down and draw a picture of one sentence with a pronoun.",
-        homeworkDue: "Tuesday"
-    },
-    
-    tuesday: {
-        subject: "English",
-        topic: "More Pronouns",
-        subtopic: "Using 'they' and 'them' in sentences",
-        lessonContent: `
-            <p>Today we will learn about two more important pronouns: <strong>they</strong> and <strong>them</strong>!</p>
-            <p><strong>Key Concept:</strong> We use "they" and "them" when we talk about more than one person, animal, or thing.</p>
-            <p><strong>When to use THEY and THEM:</strong></p>
-            <ul>
-                <li><strong>They</strong> - used as the subject (the doer of the action)</li>
-                <li><strong>Them</strong> - used as the object (receives the action)</li>
-            </ul>
-            <p><strong>Examples:</strong></p>
-            <ul>
-                <li><strong>They</strong> are playing. (they = doers)</li>
-                <li>I gave the book to <strong>them</strong>. (them = receivers)</li>
-            </ul>
-            <p><strong>Avoiding repetition:</strong> Instead of saying "The children are happy. The children are laughing," we say "The children are happy. <strong>They</strong> are laughing."</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-users"></i> Group Pronouns</div>
-                <p>When we talk about groups, we use "they" and "them": The students are reading. <strong>They</strong> are reading books. I gave pencils to <strong>them</strong>.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-dog"></i> Animals Too!</div>
-                <p>We can use "they" and "them" for animals too: The dogs are running. <strong>They</strong> are fast. I gave treats to <strong>them</strong>.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> In Games</div>
-                <p>When playing with friends: "I see my friends. <strong>They</strong> are waiting for me. I will go to <strong>them</strong>."</p>
-            </div>
-        `,
-        taskInstructions: "Practice using 'they' and 'them' in sentences. Replace nouns with these pronouns.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Identifying THEY and THEM</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Circle "they" or "them" in each sentence:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) They are my friends.</div>
-                        <div>b) I see them in the park.</div>
-                        <div>c) They like to sing songs.</div>
-                        <div>d) Mom gave cookies to them.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Using THEY</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Complete these sentences with "they":
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) The birds are flying. ______ are high in the sky.</div>
-                        <div>b) My brothers are tall. ______ can reach the shelf.</div>
-                        <div class="answer-space" style="height: 60px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Using THEM</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Complete these sentences with "them":
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) I see the cats. I will feed ______.</div>
-                        <div>b) The toys are fun. I like to play with ______.</div>
-                        <div class="answer-space" style="height: 60px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Replacement Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Replace the underlined words with "they" or "them":
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) The flowers are pretty. The flowers are red. → <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>b) I have pencils. I will share the pencils. → <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>c) The children are reading. The children are quiet. → <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
+                <span class="task-number">4</span> Name one food from each group:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>Fruit: <span class="answer-space" style="width: 100px;"></span></div>
+                    <div>Vegetable: <span class="answer-space" style="width: 100px;"></span></div>
+                    <div>Grain: <span class="answer-space" style="width: 100px;"></span></div>
                 </div>
             </div>
         `,
-        homework: "Write three sentences about your family or friends using 'they' or 'them'. Draw a picture to go with one sentence.",
+        homework: "Look in your kitchen at home. Find one fruit, one vegetable, and one grain. Draw them or write their names.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Pronoun Practice",
-        subtopic: "Replacing nouns with pronouns to avoid repetition",
+        topic: "Meals of the Day",
+        subtopic: "Understanding breakfast, lunch, and dinner/supper",
         lessonContent: `
-            <p>Today we will practice using all the pronouns we've learned! We'll make sentences shorter and smoother by replacing nouns with pronouns.</p>
-            <p><strong>Review of Pronouns:</strong></p>
-            <ul>
-                <li>I, me, you, he, him, she, her, it, we, us, they, them</li>
-            </ul>
-            <p><strong>How to replace nouns:</strong></p>
+            <p>Today we will learn about the different meals we eat throughout the day and when we eat them.</p>
+            <p><strong>Key Question:</strong> What did you eat before coming to school today?</p>
+            <p><strong>Three Main Meals:</strong></p>
             <ol>
-                <li>Read the sentence with the noun</li>
-                <li>Find the right pronoun to replace it</li>
-                <li>Make sure the sentence still makes sense</li>
+                <li><strong>Breakfast:</strong> The first meal of the day. We eat it in the morning to start our day with energy!</li>
+                <li><strong>Lunch:</strong> The meal we eat in the middle of the day. Sometimes we eat it at school, sometimes at home!</li>
+                <li><strong>Supper/Dinner:</strong> The meal we eat in the evening with our family before going to sleep.</li>
             </ol>
-            <p><strong>Example:</strong><br>
-            "Tom has a ball. Tom throws the ball. Tom catches the ball."<br>
-            → "Tom has a ball. <strong>He</strong> throws <strong>it</strong>. <strong>He</strong> catches <strong>it</strong>."</p>
-            <p><strong>Why this is important:</strong> Using pronouns makes our writing and speaking more natural and less repetitive!</p>
+            <p><strong>Time of Day Greetings:</strong></p>
+            <ul>
+                <li>Morning: "Good morning! Time for breakfast!"</li>
+                <li>Afternoon: "Good afternoon! Time for lunch!"</li>
+                <li>Evening: "Good evening! Time for supper!"</li>
+            </ul>
+            <p><strong>Let's practice together:</strong> We'll match foods with the right meal time!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-magic"></i> Sentence Magic</div>
-                <p><strong>Before:</strong> The cat sleeps. The cat purrs. The cat dreams.<br>
-                <strong>After:</strong> The cat sleeps. <strong>It</strong> purrs. <strong>It</strong> dreams.</p>
+                <div class="example-title"><i class="fas fa-sun" style="color: #FFC107;"></i> Breakfast Foods</div>
+                <p>"Eggs, cereal, toast, and fruit are good breakfast foods. They give us energy for school!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comments"></i> Conversation Practice</div>
-                <p>In conversations: "Where is Maria?" "Maria is here. Maria brought cookies." → "Where is Maria?" "<strong>She</strong> is here. <strong>She</strong> brought cookies."</p>
+                <div class="example-title"><i class="fas fa-cloud-sun"></i> Lunch Foods</div>
+                <p>"Sandwiches, soup, rice, and vegetables are common lunch foods. They keep us full through the afternoon!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt"></i> Writing Tip</div>
-                <p>Good writers use pronouns to make their stories flow better and be more interesting to read!</p>
+                <div class="example-title"><i class="fas fa-moon" style="color: #673AB7;"></i> Supper/Dinner Foods</div>
+                <p>"Meat, potatoes, vegetables, and family time! Supper is when we eat our biggest meal with loved ones."</p>
             </div>
         `,
-        taskInstructions: "Rewrite sentences using pronouns. Create your own sentences with pronouns.",
+        taskInstructions: "Complete the activities about meals and when we eat them.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Rewrite with Pronouns</strong></p>
+                <p><strong>Part A: Meal Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Rewrite these sentences using pronouns:
+                    <span class="task-number">1</span> Draw a line to match the meal with its time:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) Sara has a book. Sara reads the book every day.<br>
-                        <span class="answer-space" style="height: 40px; width: 100%;"></span></div>
-                        <div>b) The boys are playing. The boys are having fun.<br>
-                        <span class="answer-space" style="height: 40px; width: 100%;"></span></div>
-                        <div>c) I see the moon. The moon is bright tonight.<br>
-                        <span class="answer-space" style="height: 40px; width: 100%;"></span></div>
+                        <div>Breakfast → <span class="answer-space" style="width: 100px; display: inline-block;"></span> (Morning/Afternoon/Evening)</div>
+                        <div>Lunch → <span class="answer-space" style="width: 100px; display: inline-block;"></span> (Morning/Afternoon/Evening)</div>
+                        <div>Supper → <span class="answer-space" style="width: 100px; display: inline-block;"></span> (Morning/Afternoon/Evening)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Choose the Right Pronoun</strong></p>
+                <p><strong>Part B: Food Sorting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Choose the correct pronoun for each sentence:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) ___ am happy today. (I/They)</div>
-                        <div>b) Dad helped ___ with my homework. (I/me)</div>
-                        <div>c) The girls are running. ___ are fast. (She/They)</div>
-                        <div>d) Give the ball to ___. (he/him)</div>
-                        <div class="answer-space" style="height: 60px;"></div>
+                    <span class="task-number">2</span> Draw or write foods in the correct circle:
+                    <div style="display: flex; margin-top: 10px; text-align: center;">
+                        <div style="flex: 1;">
+                            <div style="border: 2px solid #FFC107; border-radius: 50%; width: 100px; height: 100px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">Morning<br>Breakfast</div>
+                            <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="border: 2px solid #4CAF50; border-radius: 50%; width: 100px; height: 100px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">Afternoon<br>Lunch</div>
+                            <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="border: 2px solid #673AB7; border-radius: 50%; width: 100px; height: 100px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">Evening<br>Supper</div>
+                            <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Sentences</strong></p>
+                <p><strong>Part C: Meal Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create two sentences using pronouns about things you see in the classroom:
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">3</span> Complete these sentences:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>In the morning, I eat ________________.</div>
+                        <div>In the afternoon, I eat ________________.</div>
+                        <div>In the evening, I eat ________________.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: My Favorite Meal</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw your favorite meal of the day:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This is my favorite: ________________ meal</div>
+                </div>
+            </div>
+        `,
+        homework: "Ask your family what they like to eat for supper. Draw a picture of your family eating supper together.",
+        homeworkDue: "Thursday"
+    },
+    
+    thursday: {
+        subject: "English",
+        topic: "Table Manners and Giving Thanks",
+        subtopic: "Learning polite words and mealtime gratitude",
+        lessonContent: `
+            <p>Today we will learn how to be polite at the table and how to show gratitude for our food.</p>
+            <p><strong>Key Question:</strong> What do we do right before we take our first bite of food?</p>
+            <p><strong>Being Thankful:</strong> It's important to be thankful for our food. Many people say a prayer or "grace" before eating.</p>
+            <p><strong>Our Mealtime Prayer:</strong></p>
+            <div style="background-color: #F3E5F5; padding: 15px; border-radius: 5px; margin: 10px 0; text-align: center;">
+                "Thank you for the food we eat,<br>
+                Thank you for the world so sweet,<br>
+                Thank you for the birds that sing,<br>
+                Thank you, God, for everything."
+            </div>
+            <p><strong>Polite Words at Mealtime:</strong></p>
+            <ul>
+                <li>"Please" - when asking for something</li>
+                <li>"Thank you" - when receiving something</li>
+                <li>"You're welcome" - when someone thanks you</li>
+                <li>"May I have..." - polite way to ask for food</li>
+            </ul>
+            <p><strong>Let's practice:</strong> We'll play "The Polite Cafe" where we use our polite words!</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-pray" style="color: #9C27B0;"></i> Saying Grace</div>
+                <p>"Before we eat, we fold our hands, close our eyes, and say our mealtime prayer together."</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-utensils" style="color: #3F51B5;"></i> Polite Requests</div>
+                <p>"May I have some bread, please?" is much nicer than "Give me bread!"</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-hands-helping" style="color: #4CAF50;"></i> Thanking Others</div>
+                <p>"Thank you for the delicious meal!" makes the cook feel happy and appreciated.</p>
+            </div>
+        `,
+        taskInstructions: "Practice polite words and learn our mealtime prayer.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Polite Word Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Fill in the missing polite words:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>"________ I have some water, please?"</div>
+                        <div>"________ you for the food."</div>
+                        <div>"You're ________."</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Mealtime Prayer</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Practice writing our prayer. Fill in the missing words:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Thank you for the ________ we eat,</div>
+                        <div>Thank you for the world so ________,</div>
+                        <div>Thank you for the ________ that sing,</div>
+                        <div>Thank you, ________, for everything.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: The Polite Cafe</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Role play with a partner. Write what you would say:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Asking for food: ___________________________________</div>
+                        <div>Thanking someone: ___________________________________</div>
+                        <div>Responding to thanks: ___________________________________</div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
                 <p><strong>Part D: Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture showing people or animals, then write a sentence about them using pronouns:
+                    <span class="task-number">4</span> Draw a picture of your family saying a prayer before eating:
                     <div class="drawing-area" style="height: 150px;"></div>
-                    <div style="margin-top: 10px;">My sentence: <span class="answer-space" style="width: 300px;"></span></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">In my family, we ________________ before eating.</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Remembering Manners</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Check (✓) the polite behaviors:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>☐ Saying "please" and "thank you"</div>
+                        <div>☐ Chewing with mouth open</div>
+                        <div>☐ Saying a prayer before eating</div>
+                        <div>☐ Reaching across the table</div>
+                        <div>☐ Waiting for everyone to be served</div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "Find a short paragraph in a book. Copy it and circle all the pronouns you can find.",
-        homeworkDue: "Thursday"
+        homework: "Teach your family our mealtime prayer. Practice saying it together before supper tonight.",
+        homeworkDue: "Friday"
     },
     
-    thursday: {
+    friday: {
         subject: "English",
-        topic: "Pronoun Review",
-        subtopic: "Putting it all together - identifying and using pronouns correctly",
+        topic: "Talking About Food",
+        subtopic: "Using descriptive words for food",
         lessonContent: `
-            <p>Today is our pronoun review day! We'll practice everything we've learned about pronouns this week.</p>
-            <p><strong>What We've Learned:</strong></p>
+            <p>Today we will learn how to describe food using special "describing words" called adjectives.</p>
+            <p><strong>Key Activity:</strong> Guess the food in my bag! I'll describe it, and you guess what it is!</p>
+            <p><strong>Food Describing Words:</strong></p>
             <ul>
-                <li>Pronouns replace nouns in sentences</li>
-                <li>Common pronouns: I, me, you, he, him, she, her, it, we, us, they, them</li>
-                <li>Using pronouns makes sentences shorter and less repetitive</li>
-                <li>We use different pronouns for different situations</li>
+                <li><strong>Sweet:</strong> Honey, mango, cake, banana</li>
+                <li><strong>Crunchy:</strong> Carrots, toast, apples, crackers</li>
+                <li><strong>Hot:</strong> Soup, porridge, tea, cooked rice</li>
+                <li><strong>Cold:</strong> Juice, ice cream, water, yogurt</li>
+                <li><strong>Soft:</strong> Bread, mashed potatoes, pudding</li>
+                <li><strong>Salty:</strong> Pretzels, chips, crackers</li>
             </ul>
-            <p><strong>Pronoun Rules to Remember:</strong></p>
-            <ol>
-                <li>Use "I" when you are talking about yourself</li>
-                <li>Use "he" for a boy, "she" for a girl, "it" for a thing or animal</li>
-                <li>Use "they" and "them" for groups</li>
-                <li>Make sure the pronoun matches the noun it replaces</li>
-            </ol>
-            <p><strong>Practice Makes Perfect:</strong> The more we use pronouns correctly, the more natural it becomes!</p>
+            <p><strong>Sentence Frame:</strong> "The [food] is [description]."</p>
+            <p><strong>Examples:</strong></p>
+            <ul>
+                <li>"The porridge is hot."</li>
+                <li>"The carrot is crunchy."</li>
+                <li>"The banana is sweet."</li>
+            </ul>
+            <p><strong>Let's practice:</strong> We'll look at pictures of food and describe them using our new words!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-star"></i> Success Story</div>
-                <p><strong>Before learning pronouns:</strong> "Mark has a bike. Mark rides the bike. Mark likes the bike."<br>
-                <strong>After learning pronouns:</strong> "Mark has a bike. <strong>He</strong> rides <strong>it</strong>. <strong>He</strong> likes <strong>it</strong>."</p>
+                <div class="example-title"><i class="fas fa-ice-cream" style="color: #00BCD4;"></i> Cold Food</div>
+                <p>"Ice cream is cold and sweet. It melts in your mouth on a hot day!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-graduation-cap"></i> Ready for Writing</div>
-                <p>Now you're ready to write sentences and stories using pronouns correctly! Your writing will sound more grown-up.</p>
+                <div class="example-title"><i class="fas fa-carrot" style="color: #FF9800;"></i> Crunchy Food</div>
+                <p>"Carrots are crunchy and orange. They make a loud sound when you bite them!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-smile"></i> Real Life Use</div>
-                <p>You use pronouns every day when you talk to friends, family, and teachers. Now you know what they're called!</p>
+                <div class="example-title"><i class="fas fa-mug-hot" style="color: #795548;"></i> Hot Food</div>
+                <p>"Soup is hot and delicious. We blow on it to cool it down before eating!"</p>
             </div>
         `,
-        taskInstructions: "Complete this final review to show what you've learned about pronouns.",
+        taskInstructions: "Describe foods using adjectives and create sentences about food.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Pronoun Hunt</strong></p>
+                <p><strong>Part A: Food Description Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Find and circle all 8 pronouns in this paragraph:
-                    <div style="margin-left: 20px; margin-top: 10px; border: 1px solid #ddd; padding: 10px;">
-                        I have a dog. She is brown. We play together. You can play with us. They are my friends. He has a ball. We throw it to them.
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Fix the Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Fix these sentences by replacing repeated nouns with pronouns:
+                    <span class="task-number">1</span> Draw a line to match the food with its description:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) My mom is nice. My mom makes good cookies.<br>
-                        <span class="answer-space" style="height: 40px; width: 100%;"></span></div>
-                        <div>b) The sun is hot. The sun gives us light.<br>
-                        <span class="answer-space" style="height: 40px; width: 100%;"></span></div>
+                        <div>Ice cream → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Hot/Cold)</div>
+                        <div>Soup → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Sweet/Salty)</div>
+                        <div>Carrot → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Crunchy/Soft)</div>
+                        <div>Honey → <span class="answer-space" style="width: 80px; display: inline-block;"></span> (Sweet/Salty)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Your Own</strong></p>
+                <p><strong>Part B: Complete the Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write three sentences about your favorite things using pronouns:
-                    <div class="answer-space" style="height: 120px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Matching Game</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw lines to match nouns with their pronouns:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                        <div>Maria</div><div>she</div>
-                        <div>The cats</div><div>they</div>
-                        <div>My brother and I</div><div>we</div>
-                        <div>A pencil</div><div>it</div>
-                        <div>You and your friend</div><div>you</div>
-                        <div class="answer-space" style="grid-column: span 2; height: 20px;"></div>
+                    <span class="task-number">2</span> Use describing words to complete these sentences:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>The soup is ________.</div>
+                        <div>The apple is ________.</div>
+                        <div>The bread is ________.</div>
+                        <div>The juice is ________.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Certificate of Achievement</strong></p>
+                <p><strong>Part C: Describe Your Food</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself a certificate for learning about pronouns:
-                    <div class="drawing-area" style="height: 180px; border: 2px dashed gold; background-color: #fff8e1;">
-                        <p style="text-align: center; margin-top: 20px;">Certificate of Achievement</p>
-                        <p style="text-align: center;">Awarded to: <span class="answer-space" style="width: 150px;"></span></p>
-                        <p style="text-align: center;">For learning all about pronouns!</p>
+                    <span class="task-number">3</span> Draw your favorite meal and describe it:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div style="margin-top: 10px;">
+                        <div>My favorite meal is: <span class="answer-space" style="width: 150px;"></span></div>
+                        <div>It is: <span class="answer-space" style="width: 100px;"></span> and <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>My sentence: "The ________ is ________."</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Food Guessing Game</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Read the clues and guess the food:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. It is yellow. It is sweet. It is soft. Monkeys love it! → <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>2. It is orange. It is crunchy. Rabbits love it! → <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>3. It is white. It is hot. We eat it for breakfast. → <span class="answer-space" style="width: 100px;"></span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Food Expert Certificate</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw yourself as a food expert. Write one sentence about what you learned about food:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I learned that food can be ________________</div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home what pronouns are. Show them examples from your work this week.",
+        homework: "Help prepare a meal at home. Describe one food item using two describing words. Tell your family about it.",
         homeworkDue: "Monday"
     }
 };

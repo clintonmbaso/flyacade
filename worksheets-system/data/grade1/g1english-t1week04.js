@@ -4,360 +4,357 @@ const grade1EnglishWeek4 = {
         grade: 1,
         subject: "English",
         week: 4,
-        title: "Question and Telling Sentences",
-        description: "Introduction to question sentences and telling sentences, including recognition, formation, and practice"
+        title: "Listen and Do — Following Directions",
+        description: "Learning to understand and follow verbal commands through movement, games, and role-play"
     },
     
     monday: {
         subject: "English",
-        topic: "Question Sentences",
-        subtopic: "What are question sentences and how to recognize them",
+        topic: "Movement & Action",
+        subtopic: "Accurately responding to basic physical movement commands",
         lessonContent: `
-            <p>Welcome to our lesson on question sentences! Today we will learn about sentences that ask something.</p>
-            <p><strong>Key Concept:</strong> A question sentence is a sentence that asks something. It usually begins with a question word like "who," "what," "where," "when," "why," or "how."</p>
-            <p><strong>What Question Sentences Do:</strong></p>
-            <ul>
-                <li>Ask for information</li>
-                <li>Usually begin with a capital letter</li>
-                <li>End with a question mark (?)</li>
-                <li>Often start with question words</li>
-            </ul>
-            <p><strong>Why are question sentences important?</strong> We use question sentences every day to learn new things, to get information, and to understand the world around us!</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-question-circle" style="color: blue;"></i> Question Examples</div>
-                <p>"What is your name?"<br>"Where do you live?"<br>"How are you today?"</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Did You Know?</div>
-                <p>Every time you ask "why?" you're using a question sentence! Children ask about 300 questions every day!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-comments"></i> Daily Life Connection</div>
-                <p>We use question sentences when we want to know what's for lunch, when we need help with homework, or when we're curious about something new!</p>
-            </div>
-        `,
-        taskInstructions: "Complete the following activities to practice recognizing and forming question sentences.",
-        taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the question sentences (look for the question mark!):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>I like cats. ( )</div>
-                    <div>What is that? ( )</div>
-                    <div>The dog runs. ( )</div>
-                    <div>Where is my book? ( )</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Match the picture with the correct question:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Pictures: dog, cat, cake, school bus with matching questions)</p>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write two question sentences of your own:
-                <div class="answer-space" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Add the correct punctuation to these sentences (?.):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>What is your name _____</div>
-                    <div>I have a red ball _____</div>
-                    <div>Where do you live _____</div>
-                </div>
-            </div>
-        `,
-        homework: "Ask three different question sentences to family members today. Write down their answers!",
-        homeworkDue: "Tuesday"
-    },
-    
-    tuesday: {
-        subject: "English",
-        topic: "Forming Question Sentences",
-        subtopic: "Creating simple question sentences using question words",
-        lessonContent: `
-            <p>Today we will learn how to form our own question sentences! We'll use special words to start our questions.</p>
-            <p><strong>Question Words:</strong> These words help us ask different kinds of questions:</p>
+            <p>Welcome to Week 4! Today we are going to learn how to listen and move. Our bodies can follow what words tell us to do!</p>
+            <p><strong>Warm-up Game:</strong> Let's play "Follow the Leader." Watch what I do, and copy my actions exactly!</p>
+            <p><strong>Today's Action Commands:</strong> We will learn four important commands:</p>
             <ol>
-                <li><strong>Who:</strong> asks about a person (Who is that?)</li>
-                <li><strong>What:</strong> asks about a thing (What is this?)</li>
-                <li><strong>Where:</strong> asks about a place (Where is school?)</li>
-                <li><strong>When:</strong> asks about time (When is lunch?)</li>
-                <li><strong>Why:</strong> asks for a reason (Why is the sky blue?)</li>
-                <li><strong>How:</strong> asks about manner (How do you feel?)</li>
+                <li><strong>Clap your hands.</strong> - Bring your hands together to make sound.</li>
+                <li><strong>Sit down.</strong> - Bend your knees and rest on the floor or chair.</li>
+                <li><strong>Jump up and down.</strong> - Push off the ground with both feet.</li>
+                <li><strong>Stand up.</strong> - Get on your feet from sitting.</li>
             </ol>
-            <p><strong>How to Form Question Sentences:</strong></p>
-            <ul>
-                <li>Start with a capital letter</li>
-                <li>Begin with a question word</li>
-                <li>Ask a complete question</li>
-                <li>End with a question mark (?)</li>
-            </ul>
-            <p><strong>Practice Makes Perfect:</strong> The more we practice forming questions, the better we get at asking for what we want to know!</p>
+            <p><strong>Why is this important?</strong> Listening to commands helps us in class, at home, and when playing games with friends!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-question" style="color: green;"></i> Question Word Examples</div>
-                <p>"Who is your teacher?"<br>"What color is your shirt?"<br>"Where is the library?"<br>"When is your birthday?"</p>
+                <div class="example-title"><i class="fas fa-running" style="color: #4CAF50;"></i> Action Example</div>
+                <p>When I say <strong>"Clap your hands,"</strong> you bring your palms together like this! Let's try it three times.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Question Game</div>
-                <p>Try turning telling sentences into questions:<br>"You have a dog." → "Do you have a dog?"<br>"She is happy." → "Is she happy?"</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> Game Time!</div>
+                <p>We'll play a fast-action game. When you hear a command, do it as quickly as you can. Ready?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-conversation"></i> Conversation Practice</div>
-                <p>Good conversations have both questions and answers. When you ask questions, you show you're listening and interested!</p>
+                <div class="example-title"><i class="fas fa-users"></i> Group Practice</div>
+                <p>Let's practice all four commands together. First slowly, then faster!</p>
             </div>
         `,
-        taskInstructions: "Practice forming question sentences using different question words.",
+        taskInstructions: "Show that you can listen and move by completing these activities.",
         taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Choose the Right Question Word</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Complete these questions with the correct question word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>______ is your name? (What/Where)</div>
-                        <div>______ are you going? (Who/Where)</div>
-                        <div>______ is your birthday? (When/What)</div>
-                        <div>______ is that girl? (Who/How)</div>
-                    </div>
+            <div class="task-item">
+                <span class="task-number">1</span> Draw a line from the command to the correct picture:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>Clap your hands <span style="margin-left: 20px;">☐ [Picture of person sitting]</span></div>
+                    <div>Sit down <span style="margin-left: 20px;">☐ [Picture of hands clapping]</span></div>
+                    <div>Jump up and down <span style="margin-left: 20px;">☐ [Picture of person standing]</span></div>
+                    <div>Stand up <span style="margin-left: 20px;">☐ [Picture of person jumping]</span></div>
                 </div>
             </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Create Question Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Write a question using "what":
-                    <div class="answer-space" style="height: 40px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Write a question using "where":
-                    <div class="answer-space" style="height: 40px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write a question using "who":
-                    <div class="answer-space" style="height: 40px;"></div>
+            <div class="task-item">
+                <span class="task-number">2</span> Listen to your teacher. When you hear a command, do the action. Check off each one you do correctly:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>☐ Clap your hands</div>
+                    <div>☐ Sit down</div>
+                    <div>☐ Jump up and down</div>
+                    <div>☐ Stand up</div>
                 </div>
             </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Picture Questions</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Look at the picture of a dog. Write two questions about the picture:
-                    <div class="drawing-area" style="height: 80px; border: 1px solid #ddd; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
-                </div>
+            <div class="task-item">
+                <span class="task-number">3</span> Draw yourself doing your favorite action command:
+                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+                <div class="answer-space" style="height: 40px; margin-top: 10px;">This is me: ______________________________</div>
             </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Question and Answer</strong></p>
-                <div class="task-item">
-                    <span class="task-number">6</span> Write a question and then answer it yourself:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Question: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Answer: <span class="answer-space" style="width: 200px;"></span></div>
-                    </div>
+            <div class="task-item">
+                <span class="task-number">4</span> Put these actions in order from 1 to 4:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>____ Stand up</div>
+                    <div>____ Clap your hands</div>
+                    <div>____ Sit down</div>
+                    <div>____ Jump up and down</div>
                 </div>
             </div>
         `,
-        homework: "Write three question sentences about things in your bedroom. Remember to use question words and end with ?",
+        homework: "Teach a family member two action commands. Write down which ones you taught them.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Understanding Telling Sentences",
-        subtopic: "Recognizing and constructing telling sentences",
+        topic: "\"Simon Says\" (Listening Skills)",
+        subtopic: "Distinguishing when to follow a command based on a verbal cue",
         lessonContent: `
-            <p>Today we will learn about telling sentences! These are sentences that tell us something or give us information.</p>
-            <p><strong>What is a telling sentence?</strong> A telling sentence makes a statement. It tells us something about a person, place, thing, or idea.</p>
-            <p><strong>Rules for Telling Sentences:</strong></p>
-            <ul>
-                <li>Begins with a capital letter</li>
-                <li>Ends with a period (.)</li>
-                <li>Tells a complete thought</li>
-                <li>Gives information</li>
-            </ul>
-            <p><strong>Examples of Telling Sentences:</strong></p>
+            <p>Today we'll play a famous listening game called "Simon Says." This game teaches us to listen very carefully!</p>
+            <p><strong>The Rule:</strong> You only do the action if I say <strong>"Simon says"</strong> first. If I don't say "Simon says," you stay still!</p>
+            <p><strong>How to play:</strong></p>
             <ol>
-                <li>The sun is bright.</li>
-                <li>I have a blue backpack.</li>
-                <li>My cat is sleeping.</li>
-                <li>We read books in school.</li>
+                <li>Listen for the words "Simon says"</li>
+                <li>If you hear "Simon says," do the action</li>
+                <li>If you don't hear "Simon says," freeze like a statue!</li>
             </ol>
-            <p><strong>Why are telling sentences important?</strong> We use telling sentences to share information, tell stories, and explain things to others!</p>
+            <p><strong>Commands we'll use:</strong></p>
+            <ul>
+                <li>"Simon says... touch your ears."</li>
+                <li>"Simon says... touch your nose."</li>
+                <li>"Touch your chin!" (No Simon says—freeze!)</li>
+                <li>"Simon says... jump once."</li>
+            </ul>
+            <p><strong>Why is this game helpful?</strong> It makes us better listeners, which helps us follow directions in school and at home.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-period" style="color: purple;"></i> Telling Sentence Examples</div>
-                <p>"The sky is blue."<br>"Birds can fly."<br>"I love my family."<br>"We learn at school."</p>
+                <div class="example-title"><i class="fas fa-check-circle" style="color: #4CAF50;"></i> Do It Example</div>
+                <p>"<strong>Simon says touch your ears.</strong>" → You touch your ears because Simon said so!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader"></i> Story Connection</div>
-                <p>Most sentences in storybooks are telling sentences. They tell us what characters are doing and what's happening in the story!</p>
+                <div class="example-title"><i class="fas fa-times-circle" style="color: #f44336;"></i> Don't Do It Example</div>
+                <p>"<strong>Touch your nose!</strong>" → You freeze! Simon didn't say it first.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exchange-alt"></i> Question vs. Telling</div>
-                <p>Question: "Do you like ice cream?" (asks)<br>Telling: "I like ice cream." (tells)</p>
+                <div class="example-title"><i class="fas fa-crown"></i> Be Simon!</div>
+                <p>After we practice, one friend will get to be Simon and give commands to the class!</p>
             </div>
         `,
-        taskInstructions: "Practice identifying, correcting, and creating telling sentences.",
+        taskInstructions: "Play Simon Says and show you know when to move and when to freeze.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Identify Telling Sentences</strong></p>
+                <p><strong>Part A: Simon Says Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the telling sentences (look for the period!):
+                    <span class="task-number">1</span> Listen to your teacher. If it's a "Simon says" command, circle DO IT. If not, circle FREEZE:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Where is the park? ( )</div>
-                        <div>The park is big. ( )</div>
-                        <div>I see a slide. ( )</div>
-                        <div>Can we play? ( )</div>
+                        <div>"Simon says clap." - DO IT / FREEZE</div>
+                        <div>"Touch your head." - DO IT / FREEZE</div>
+                        <div>"Simon says sit down." - DO IT / FREEZE</div>
+                        <div>"Jump up." - DO IT / FREEZE</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Fix the Sentences</strong></p>
+                <p><strong>Part B: Draw the Rule</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Fix these sentences by adding the correct punctuation (.?):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My name is Sam _____</div>
-                        <div>What is your favorite color _____</div>
-                        <div>We play at recess _____</div>
-                        <div>When do we eat lunch _____</div>
-                    </div>
+                    <span class="task-number">2</span> Draw a picture of yourself playing Simon Says. Are you moving or freezing?
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">In this picture, I am ______________________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Telling Sentences</strong></p>
+                <p><strong>Part C: Create Your Own Command</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Look at the picture of a cat. Write two telling sentences about it:
-                    <div class="drawing-area" style="height: 80px; border: 1px solid #ddd; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write a telling sentence about your favorite food:
-                    <div class="answer-space" style="height: 40px;"></div>
+                    <span class="task-number">3</span> Invent one "Simon says" command. Write it below:
+                    <div class="answer-space" style="height: 40px;">Simon says ________________________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Question or Telling?</strong></p>
+                <p><strong>Part D: Be the Teacher</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Label each sentence as Question (Q) or Telling (T):
+                    <span class="task-number">4</span> With a partner, take turns being Simon. Check each action your partner does correctly:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ The dog runs fast.</div>
-                        <div>____ What is that sound?</div>
-                        <div>____ I can count to ten.</div>
-                        <div>____ Where is my pencil?</div>
+                        <div>☐ Partner followed "Simon says" command</div>
+                        <div>☐ Partner froze when no "Simon says"</div>
+                        <div>☐ Partner gave one command clearly</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Write three telling sentences about what you did today. Remember to start with capitals and end with periods.",
+        homework: "Play Simon Says at home with someone. Write down one command you gave and whether they did it right.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Comparing Questions and Telling Sentences",
-        subtopic: "Spotting the differences and using both in writing",
+        topic: "Objects & Directions",
+        subtopic: "Following commands related to classroom objects and spatial awareness",
         lessonContent: `
-            <p>Today we will review both question sentences and telling sentences, and learn when to use each one!</p>
-            <p><strong>Comparing Both Types:</strong></p>
+            <p>Today we'll use our listening skills to find and point to things in our classroom!</p>
+            <p><strong>First, let's name some classroom objects:</strong></p>
             <ul>
-                <li><strong>Question Sentences:</strong> Ask something, end with ?, often start with question words</li>
-                <li><strong>Telling Sentences:</strong> Tell something, end with ., give information</li>
+                <li>Door</li>
+                <li>Pencil</li>
+                <li>Window</li>
+                <li>Desk</li>
+                <li>Chair</li>
+                <li>Book</li>
             </ul>
-            <p><strong>When to Use Questions:</strong></p>
+            <p><strong>Today's Commands:</strong> We will practice "Point and Get" directions.</p>
             <ol>
-                <li>When you want to learn something new</li>
-                <li>When you need information</li>
-                <li>When you're curious about something</li>
-                <li>When you want to start a conversation</li>
+                <li><strong>Point to the door.</strong> - Use your finger to show where it is.</li>
+                <li><strong>Get your pencil.</strong> - Pick up your pencil from your desk.</li>
+                <li><strong>Point to the window.</strong> - Show which way the window is.</li>
+                <li><strong>Put your pencil on the desk.</strong> - Place it down gently.</li>
             </ol>
-            <p><strong>When to Use Telling Sentences:</strong></p>
-            <ol>
-                <li>When you want to share information</li>
-                <li>When you're telling a story</li>
-                <li>When you're answering a question</li>
-                <li>When you're explaining something</li>
-            </ol>
-            <p><strong>Good Writing Uses Both:</strong> Interesting stories and conversations use both questions and telling sentences!</p>
+            <p><strong>Pair Work:</strong> You'll work with a friend. One gives a command, the other follows it. Then switch!</p>
+            <p><strong>Why this matters:</strong> Knowing how to find and handle objects helps us stay organized and follow instructions.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale"></i> Comparison Examples</div>
-                <p>Question: "What is your pet's name?"<br>Telling: "My pet's name is Spot."<br>Question: "Do you like apples?"<br>Telling: "I like apples."</p>
+                <div class="example-title"><i class="fas fa-hand-point-right" style="color: #2196F3;"></i> Pointing Example</div>
+                <p>When I say "<strong>Point to the door,</strong>" you extend your arm and finger toward the door. Let's try!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comment-alt"></i> Conversation Example</div>
-                <p>Q: "How was school today?"<br>T: "School was fun today."<br>Q: "What did you learn?"<br>T: "I learned about animals."</p>
+                <div class="example-title"><i class="fas fa-pencil-alt"></i> Getting Example</div>
+                <p>"<strong>Get your pencil</strong>" means pick it up carefully. We always treat our supplies gently.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book"></i> Storybook Connection</div>
-                <p>Most storybooks use telling sentences for the story, but questions when characters are talking to each other!</p>
+                <div class="example-title"><i class="fas fa-user-friends"></i> Partner Practice</div>
+                <p>With a friend, take turns telling each other what to point to. Remember to use kind words!</p>
             </div>
         `,
-        taskInstructions: "Practice identifying, creating, and using both question and telling sentences.",
+        taskInstructions: "Show you can follow directions about objects by completing these tasks.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sort the Sentences</strong></p>
+                <p><strong>Part A: Point to It</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these sentences into Questions (Q) and Telling (T):
+                    <span class="task-number">1</span> Your teacher will say an object. Point to it, then check it off:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ I see a rainbow.</div>
-                        <div>____ Where is my coat?</div>
-                        <div>____ The bus is yellow.</div>
-                        <div>____ What time is it?</div>
-                        <div>____ We sing in music class.</div>
-                        <div>____ Can you help me?</div>
+                        <div>☐ Door</div>
+                        <div>☐ Window</div>
+                        <div>☐ Desk</div>
+                        <div>☐ Pencil</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Create Both Types</strong></p>
+                <p><strong>Part B: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Look at the picture of a cake. Write one question and one telling sentence about it:
-                    <div class="drawing-area" style="height: 80px; border: 1px solid #ddd; margin-top: 10px;"></div>
+                    <span class="task-number">2</span> Draw your desk and two objects on it. Label them:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Partner Directions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> With a partner, give and follow these commands. Check each when done:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Question: <span class="answer-space" style="width: 250px;"></span></div>
-                        <div>Telling: <span class="answer-space" style="width: 250px;"></span></div>
+                        <div>☐ "Point to the chair."</div>
+                        <div>☐ "Get your book."</div>
+                        <div>☐ "Put your book under the desk."</div>
+                        <div>☐ "Point to something blue."</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Fix and Complete</strong></p>
+                <p><strong>Part D: Command Sequence</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Add the correct punctuation (.?) to complete these sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Do you like to read _____</div>
-                        <div>I like to read books _____</div>
-                        <div>What is your favorite story _____</div>
-                        <div>My favorite story is about a bear _____</div>
+                    <span class="task-number">4</span> Follow these three commands in order:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
+                        1. Point to the window.<br>
+                        2. Get your pencil.<br>
+                        3. Put your pencil on your desk.
                     </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Change this telling sentence into a question:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Telling: "You have a red ball."</div>
-                        <div>Question: <span class="answer-space" style="width: 250px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Write Your Own</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Write a short conversation (2-3 lines) using both questions and telling sentences:
-                    <div class="answer-space" style="height: 120px;"></div>
+                    <div style="margin-left: 20px; margin-top: 10px;">I followed all three: ☐ Yes ☐ Almost</div>
                 </div>
             </div>
         `,
-        homework: "Write two questions and two telling sentences about your favorite game or toy. Be ready to share tomorrow!",
+        homework: "At home, give a family member a 'point to' command (like 'Point to the refrigerator'). Write down what you asked them to point to.",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "English",
+        topic: "Roleplay & Body Parts",
+        subtopic: "Giving and responding to commands involving body parts",
+        lessonContent: `
+            <p>It's Friday—time for roleplay and body parts! Today you'll get to be the teacher or captain.</p>
+            <p><strong>Warm-up Song:</strong> Let's sing "Head, Shoulders, Knees, and Toes" to remember our body parts!</p>
+            <p><strong>Body Parts We'll Use:</strong></p>
+            <ul>
+                <li>Head</li>
+                <li>Shoulders</li>
+                <li>Knees</li>
+                <li>Toes</li>
+                <li>Eyes</li>
+                <li>Nose</li>
+                <li>Ears</li>
+                <li>Mouth</li>
+            </ul>
+            <p><strong>Roleplay Activity:</strong> We'll break into small groups. One person is the <strong>Captain</strong>. The Captain gives commands like:</p>
+            <ol>
+                <li>"Touch your shoulders."</li>
+                <li>"Touch your knees."</li>
+                <li>"Cover your eyes."</li>
+                <li>"Wiggle your toes."</li>
+            </ol>
+            <p><strong>Reflection:</strong> We'll talk about how it feels to give commands vs. follow them. Both are important!</p>
+            <p><strong>Final Challenge:</strong> Command Parade! Listen to three commands in a row and do them all in order.</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-user-tie" style="color: #9C27B0;"></i> Captain Example</div>
+                <p>If you are Captain, speak clearly and kindly: "<strong>Touch your nose.</strong>" Watch your friends follow!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-users"></i> Group Example</div>
+                <p>In groups of 3 or 4, take turns being Captain. Everyone else follows the commands.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-parade"></i> Command Parade</div>
+                <p>For our final challenge: "Clap, touch your nose, sit down." Can you do all three in the right order?</p>
+            </div>
+        `,
+        taskInstructions: "Take turns being Captain and following commands in your group.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Body Part Match</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw a line from the body part to its picture:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Shoulders <span style="margin-left: 20px;">☐ [Picture of knees]</span></div>
+                        <div>Knees <span style="margin-left: 20px;">☐ [Picture of shoulders]</span></div>
+                        <div>Eyes <span style="margin-left: 20px;">☐ [Picture of eyes]</span></div>
+                        <div>Toes <span style="margin-left: 20px;">☐ [Picture of toes]</span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Group Roleplay</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> In your group, take turns being Captain. Check each role you try:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>☐ I was Captain once.</div>
+                        <div>☐ I followed commands from my Captain.</div>
+                        <div>☐ I gave a command with "touch" in it.</div>
+                        <div>☐ I listened carefully to my group.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: How Did It Feel?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a face showing how you felt when you were Captain:
+                    <div class="drawing-area" style="height: 120px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">Being Captain made me feel ________________</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Command Parade</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Listen to your teacher’s three commands. Do them in order, then check:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
+                        Command 1: ________________<br>
+                        Command 2: ________________<br>
+                        Command 3: ________________
+                    </div>
+                    <div style="margin-left: 20px; margin-top: 10px;">I did all three in order: ☐ Yes ☐ I tried my best</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Listening Star Certificate</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw a star for yourself. Write one thing you're good at listening for:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I am good at listening for ____________________</div>
+                </div>
+            </div>
+        `,
+        homework: "Teach someone at home the Command Parade with three actions. Write down the three commands you used.",
         homeworkDue: "Monday"
     }
 };

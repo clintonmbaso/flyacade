@@ -4,339 +4,364 @@ const grade1EnglishWeek3 = {
         grade: 1,
         subject: "English",
         week: 3,
-        title: "What Happens in a Sentence?",
-        description: "Introduction to sentences, identifying actions in sentences, and building simple sentences"
+        title: "My Nuclear Family — Meeting Family Members",
+        description: "Learning about family members, relationships, and describing the nuclear family"
     },
     
     monday: {
         subject: "English",
-        topic: "What Happens in a Sentence?",
-        subtopic: "Identifying the part of a sentence that tells what happens",
+        topic: "Meeting the Nuclear Family",
+        subtopic: "Identifying and naming core family members",
         lessonContent: `
-            <p>Welcome to our English lesson! Today we will learn about what happens in a sentence.</p>
-            <p><strong>Key Concept:</strong> Every sentence tells us something. Some sentences tell us about an action - something that is happening!</p>
-            <p><strong>What is an action in a sentence?</strong> An action is something that someone or something does. It's the part of the sentence that tells us what is happening.</p>
-            <p><strong>Examples of actions in sentences:</strong></p>
+            <p>Welcome to our family lesson! Today we will learn about the special people who live together in a family.</p>
+            <p><strong>What is a nuclear family?</strong> A nuclear family is a small family group that usually lives together in one house.</p>
+            <p><strong>Core Family Members:</strong></p>
             <ul>
-                <li>The cat <strong>runs</strong> fast.</li>
-                <li>Mom <strong>cooks</strong> dinner.</li>
-                <li>We <strong>play</strong> at the park.</li>
-                <li>The sun <strong>shines</strong> brightly.</li>
+                <li><strong>Father</strong> - a dad or papa</li>
+                <li><strong>Mother</strong> - a mom or mama</li>
+                <li><strong>Child/Children</strong> - boys and girls in the family</li>
             </ul>
-            <p><strong>Why is this important?</strong> Finding the action helps us understand what the sentence is telling us. It helps us picture what is happening!</p>
+            <p><strong>Parents:</strong> When we talk about Mother and Father together, we call them <strong>Parents</strong>.</p>
+            <p><strong>Let's think:</strong> Who lives in your house with you? Let's share about our families!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-running" style="color: blue;"></i> Action Words</div>
-                <p>Action words are also called "verbs." They are doing words that show movement or activity.</p>
+                <div class="example-title"><i class="fas fa-users" style="color: #4CAF50;"></i> Family Picture</div>
+                <p>Look at this picture: There is a father, a mother, and two children. This is a nuclear family!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Did You Know?</div>
-                <p>Almost every sentence has an action word! Even when we say "I am happy," the word "am" is an action word telling about a state of being.</p>
+                <div class="example-title"><i class="fas fa-user-friends"></i> Family Members</div>
+                <p>Father = Dad<br>Mother = Mom<br>Children = Kids, boys and girls</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-magic"></i> Sentence Magic</div>
-                <p>Without action words, our sentences would be like pictures that don't move. Action words make our sentences come alive!</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> Family Chant</div>
+                <p>"Father, Mother, Sister, Brother—we are a family!" Let's say it together!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice finding the action in sentences.",
+        taskInstructions: "Complete the following activities to practice identifying family members.",
         taskContent: `
             <div class="task-item">
-                <span class="task-number">1</span> Circle the action word in each sentence:
+                <span class="task-number">1</span> Look at the family picture. Circle the correct words:
                 <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>a) The dog <span class="answer-space" style="width: 100px;"></span> barks loudly.</div>
-                    <div>b) Birds <span class="answer-space" style="width: 100px;"></span> fly in the sky.</div>
-                    <div>c) I <span class="answer-space" style="width: 100px;"></span> read a book.</div>
-                    <div>d) Dad <span class="answer-space" style="width: 100px;"></span> drives the car.</div>
+                    <div>☐ The man is: Father / Sister</div>
+                    <div>☐ The woman is: Brother / Mother</div>
+                    <div>☐ The boy and girl are: Parents / Children</div>
+                    <div>☐ Mother and Father together are: Children / Parents</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">2</span> Underline the action part in these sentences:
-                <div class="answer-space" style="height: 120px; font-family: monospace; padding: 10px;">
-                    The baby cries.<br>
-                    We sing songs.<br>
-                    The flower grows.<br>
-                    My friend laughs.
+                <span class="task-number">2</span> Draw a picture of your family or a family you know:
+                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+            </div>
+            <div class="task-item">
+                <span class="task-number">3</span> Match the words with the pictures:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>Father <span class="answer-space" style="width: 80px; display: inline-block;"></span> (drawing of mother)</div>
+                    <div>Mother <span class="answer-space" style="width: 80px; display: inline-block;"></span> (drawing of father)</div>
+                    <div>Child <span class="answer-space" style="width: 80px; display: inline-block;"></span> (drawing of child)</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">3</span> Draw a picture showing one of these actions:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                <div style="margin-top: 5px;">
-                    Choose one: running, jumping, eating, or sleeping
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Write your own sentence with an action word:
-                <div class="answer-space" style="height: 60px;"></div>
-            </div>
-        `,
-        homework: "Find three sentences in a story book. Write them down and circle the action word in each sentence.",
-        homeworkDue: "Tuesday"
-    },
-    
-    tuesday: {
-        subject: "English",
-        topic: "Understanding Actions in Sentences",
-        subtopic: "The concept of actions and practicing with group work",
-        lessonContent: `
-            <p>Today we will continue learning about actions in sentences. Let's practice together!</p>
-            <p><strong>Review:</strong> Remember, the action is what happens in a sentence. It tells us what someone or something is doing.</p>
-            <p><strong>Different kinds of actions:</strong></p>
-            <ol>
-                <li><strong>Movement actions:</strong> run, jump, walk, dance</li>
-                <li><strong>Sound actions:</strong> talk, sing, shout, whisper</li>
-                <li><strong>Thinking actions:</strong> think, dream, remember, learn</li>
-                <li><strong>Feeling actions:</strong> love, like, enjoy, hate</li>
-            </ol>
-            <p><strong>Finding the action:</strong> To find the action in a sentence, ask yourself: "What is happening in this sentence?"</p>
-            <p><strong>Sentence examples:</strong></p>
-            <ul>
-                <li>"The teacher writes on the board." (Action: writes)</li>
-                <li>"Children play games." (Action: play)</li>
-                <li>"Rain falls from the sky." (Action: falls)</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: green;"></i> Group Activity</div>
-                <p>In groups, you will act out different actions while your classmates guess what action you are showing!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Action Game</div>
-                <p>We'll play a game where I say a sentence, and you jump up if you hear an action word!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Sentence Puzzle</div>
-                <p>Sometimes the action word comes at the beginning, middle, or end of a sentence. We need to look carefully!</p>
-            </div>
-        `,
-        taskInstructions: "Work with your group to complete these activities about actions in sentences.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Group Work - Action Charades</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> With your group, act out these actions. Other groups will guess:
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>swimming</li>
-                        <li>eating</li>
-                        <li>sleeping</li>
-                        <li>reading</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Finding Actions</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Underline the action in each sentence:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) The baby sleeps in the crib. <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>b) We eat lunch together. <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>c) Birds build nests. <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>d) The clock ticks loudly. <span class="answer-space" style="width: 80px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Create Your Own</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Work with your partner to write two sentences with action words:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Drawing Actions</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture showing someone doing an action. Write a sentence below:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                <span class="task-number">4</span> "Point and Name" Activity: Your teacher will show a family poster. Write the names of who you see:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>1. <span class="answer-space" style="width: 100px;"></span></div>
+                    <div>2. <span class="answer-space" style="width: 100px;"></span></div>
+                    <div>3. <span class="answer-space" style="width: 100px;"></span></div>
                 </div>
             </div>
         `,
-        homework: "Look around your home. Write down three actions you see people doing. Example: My sister watches TV.",
+        homework: "Draw a picture of the people who live in your house. Bring it to class on Wednesday.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "A Sentence Can Tell Something",
-        subtopic: "Understanding what a sentence is and its basic characteristics",
+        topic: "Roles and Names",
+        subtopic: "Using language to describe family members",
         lessonContent: `
-            <p>Today we will learn about what makes a sentence! A sentence is a group of words that tells us something complete.</p>
-            <p><strong>What is a sentence?</strong> A sentence is a complete thought. It makes sense by itself.</p>
-            <p><strong>Basic characteristics of a sentence:</strong></p>
+            <p>Today we will learn how to talk about our family members using special sentences!</p>
+            <p><strong>Remember:</strong> A Nuclear Family is a small family group living together.</p>
+            <p><strong>Sentence Frame:</strong> We use this special sentence to introduce family members:</p>
+            <p><strong>"This is a [Family Member]."</strong></p>
+            <p><strong>Let's practice together:</strong></p>
             <ul>
-                <li>It begins with a capital letter</li>
-                <li>It ends with a punctuation mark (. ! ?)</li>
-                <li>It tells a complete idea</li>
-                <li>It usually has a subject (who or what) and an action (what happens)</li>
+                <li>Teacher: "This is a father."</li>
+                <li>Students: "This is a father."</li>
+                <li>Teacher: "This is a mother."</li>
+                <li>Students: "This is a mother."</li>
             </ul>
-            <p><strong>Sentence vs. Not a Sentence:</strong></p>
-            <ol>
-                <li><strong>Sentence:</strong> "The dog barks." (Complete thought)</li>
-                <li><strong>Not a sentence:</strong> "The big brown dog" (Not complete - what about the dog?)</li>
-                <li><strong>Sentence:</strong> "We play games." (Complete thought)</li>
-                <li><strong>Not a sentence:</strong> "At the park" (Not complete - what happens at the park?)</li>
-            </ol>
+            <p><strong>We can also say:</strong> "This is my..." when talking about our own family!</p>
+            <p><strong>Why is this important?</strong> These sentences help us tell others about the special people in our lives.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-check-circle" style="color: green;"></i> Complete Sentences</div>
-                <p>A complete sentence is like a complete snack - it has everything you need! A subject (who) and an action (what they do).</p>
+                <div class="example-title"><i class="fas fa-comment" style="color: #2196F3;"></i> Sentence Examples</div>
+                <p>"This is a father."<br>"This is a mother."<br>"This is a child."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-times-circle" style="color: red;"></i> Incomplete Thoughts</div>
-                <p>If a sentence doesn't have both a subject and an action, it's like a sandwich with only bread - incomplete!</p>
+                <div class="example-title"><i class="fas fa-user-check"></i> My Family</div>
+                <p>When it's YOUR family:<br>"This is my father."<br>"This is my mother."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cookie-bite"></i> Sentence Recipe</div>
-                <p>To make a sentence, you need: 1. A capital letter + 2. A complete thought + 3. Ending punctuation = A perfect sentence!</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Labeling Practice</div>
+                <p>We can label pictures with letters:<br>F = Father<br>M = Mother<br>C = Child</p>
             </div>
         `,
-        taskInstructions: "Practice identifying sentences and non-sentences. Then build your own sentences!",
+        taskInstructions: "Practice using family words in sentences and label your family drawing.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sentence Detective</strong></p>
+                <p><strong>Part A: Sentence Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle SENTENCE or NOT for each:
+                    <span class="task-number">1</span> Complete these sentences:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) Cats climb trees. <span class="answer-space" style="width: 120px;"></span> (SENTENCE / NOT)</div>
-                        <div>b) The yellow ball <span class="answer-space" style="width: 120px;"></span> (SENTENCE / NOT)</div>
-                        <div>c) We sing. <span class="answer-space" style="width: 120px;"></span> (SENTENCE / NOT)</div>
-                        <div>d) Run fast <span class="answer-space" style="width: 120px;"></span> (SENTENCE / NOT)</div>
+                        <div>This is a __________. (father/mother/child)</div>
+                        <div>This is a __________. (father/mother/child)</div>
+                        <div>This is my __________. (father/mother/child)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Fix the Sentences</strong></p>
+                <p><strong>Part B: Drawing and Labeling</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Make these into complete sentences by adding words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) The cat <div class="answer-space" style="display: inline-block; width: 100px;"></div></div>
-                        <div>b) <div class="answer-space" style="display: inline-block; width: 100px;"></div> eats lunch.</div>
-                        <div>c) My friend <div class="answer-space" style="display: inline-block; width: 100px;"></div></div>
+                    <span class="task-number">2</span> Draw a picture of your nuclear family. Label one person with the first letter of their role:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div style="margin-top: 10px;">
+                        <div>Example: 'M' for Mother, 'F' for Father, 'C' for Child</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sentence Building</strong></p>
+                <p><strong>Part C: Partner Sharing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Use these words to make a sentence: (dog / runs / fast)
-                    <div class="answer-space" style="height: 40px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Use these words to make a sentence: (I / read / book)
-                    <div class="answer-space" style="height: 40px;"></div>
+                    <span class="task-number">3</span> Share your drawing with a partner. Write what you said:
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I said: "This is my ________________"</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Drawing Activity</strong></p>
+                <p><strong>Part D: Flashcards Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture and write a complete sentence about it:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                    <span class="task-number">4</span> Match the flashcard words to the pictures. Write the correct word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Picture of father: <span class="answer-space" style="width: 80px;"></span></div>
+                        <div>Picture of mother: <span class="answer-space" style="width: 80px;"></span></div>
+                        <div>Picture of child: <span class="answer-space" style="width: 80px;"></span></div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "Find two sentences in a newspaper or magazine. Cut them out and paste them in your notebook. Circle the capital letter and ending punctuation.",
+        homework: "Practice saying "This is my..." with three different family members. Draw a star next to each one you talk about.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Building and Rearranging Sentences",
-        subtopic: "Building simple sentences and rearranging words to form correct sentences",
+        topic: "Family Relationships",
+        subtopic: "Understanding brothers, sisters, and family relationships",
         lessonContent: `
-            <p>Today we will practice building our own sentences! We'll learn how to put words together to make complete sentences.</p>
-            <p><strong>Building sentences:</strong> To build a sentence, we need to put words in the right order.</p>
-            <p><strong>Basic sentence pattern:</strong> Usually, sentences start with WHO or WHAT, then tell WHAT HAPPENS.</p>
-            <p><strong>Example:</strong></p>
+            <p>Today we will learn about brothers and sisters in a family!</p>
+            <p><strong>Children in a family:</strong></p>
             <ul>
-                <li>WHO: The boy + WHAT HAPPENS: plays ball = "The boy plays ball."</li>
-                <li>WHAT: The sun + WHAT HAPPENS: shines brightly = "The sun shines brightly."</li>
+                <li><strong>Brother</strong> - a male child (a boy)</li>
+                <li><strong>Sister</strong> - a female child (a girl)</li>
+                <li><strong>Children</strong> - brothers and sisters together</li>
             </ul>
-            <p><strong>Rearranging words:</strong> Sometimes words are mixed up, and we need to put them in the right order to make a sentence.</p>
-            <p><strong>Mixed up:</strong> "ball throws girl the"</p>
-            <p><strong>Correct order:</strong> "The girl throws the ball."</p>
-            <p><strong>Remember:</strong> Always start with a capital letter and end with punctuation!</p>
+            <p><strong>Family Relationships:</strong></p>
+            <ol>
+                <li>If you are a boy and you have a sister, she is your sister</li>
+                <li>If you are a girl and you have a brother, he is your brother</li>
+                <li>Brothers and sisters are called siblings</li>
+                <li>Parents are the mother and father of the children</li>
+            </ol>
+            <p><strong>Important words:</strong></p>
+            <ul>
+                <li><strong>Daughter</strong> - a girl child to her parents</li>
+                <li><strong>Son</strong> - a boy child to his parents</li>
+            </ul>
+            <p><strong>Let's practice:</strong> "I am the brother. She is my sister. They are our parents."</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-building" style="color: orange;"></i> Sentence Building Blocks</div>
-                <p>Building a sentence is like building with blocks. You need to put the right blocks in the right order!</p>
+                <div class="example-title"><i class="fas fa-male" style="color: #2196F3;"></i> Brother</div>
+                <p>A brother is a male child. If you are a boy in the family, you might be a brother to your sister.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sort-alpha-down"></i> Word Order Matters</div>
-                <p>"Dog bites man" is very different from "Man bites dog"! The order of words changes the meaning.</p>
+                <div class="example-title"><i class="fas fa-female" style="color: #E91E63;"></i> Sister</div>
+                <p>A sister is a female child. If you are a girl in the family, you might be a sister to your brother.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette"></i> Word Card Activity</div>
-                <p>We'll use word cards like puzzle pieces. You'll arrange them to build complete sentences!</p>
+                <div class="example-title"><i class="fas fa-theater-masks"></i> Family Roleplay</div>
+                <p>Let's pretend to be a family! I'll be the father. Who wants to be the mother? Brother? Sister?</p>
             </div>
         `,
-        taskInstructions: "Use word cards to build sentences. Then practice rearranging mixed-up words into correct sentences.",
+        taskInstructions: "Learn about brothers, sisters, and family relationships through these activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Word Card Building</strong></p>
+                <p><strong>Part A: Family Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Use these word cards to build two different sentences:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #f0f0f0; border-radius: 5px;">
-                        Word Cards: The, cat, sleeps, dog, runs, fast, slowly, on, bed, the
+                    <span class="task-number">1</span> Circle the correct word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A boy child is a: brother / sister</div>
+                        <div>A girl child is a: brother / sister</div>
+                        <div>Mother and father are: children / parents</div>
+                        <div>Brothers and sisters are: parents / children</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Family Roleplay</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> After roleplaying, write what you learned:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>If I am the brother, she is my __________.</div>
+                        <div>If I am the sister, he is my __________.</div>
+                        <div>The mother and father are our __________.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Quick Quiz</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Fill in the blanks:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>If I am a girl child, I am a __________ or daughter.</div>
+                        <div>If I am a boy child, I am a __________ or son.</div>
+                        <div>My mother's son is my __________.</div>
+                        <div>My father's daughter is my __________.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Family Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a family with a brother and a sister. Label each person:
+                    <div class="drawing-area" style="height: 150px;"></div>
                     <div style="margin-top: 10px;">
-                        Sentence 1: <div class="answer-space" style="height: 40px;"></div>
-                        Sentence 2: <div class="answer-space" style="height: 40px;"></div>
+                        <div>Write: Father, Mother, Brother, Sister</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Rearrange the Words</strong></p>
+                <p><strong>Part E: Sentence Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Put these words in correct order to make sentences:
+                    <span class="task-number">5</span> Write sentences about the family you drew:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) bike rides boy the <div class="answer-space" style="height: 30px; width: 200px;"></div></div>
-                        <div>b) eat we dinner <div class="answer-space" style="height: 30px; width: 200px;"></div></div>
-                        <div>c) sings bird the <div class="answer-space" style="height: 30px; width: 200px;"></div></div>
+                        <div>This is the __________.</div>
+                        <div>This is the __________.</div>
+                        <div>This is the __________.</div>
+                        <div>This is the __________.</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Create Your Own</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Create three sentences using these word pairs:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) (birds / fly) <div class="answer-space" style="height: 30px;"></div></div>
-                        <div>b) (I / draw) <div class="answer-space" style="height: 30px;"></div></div>
-                        <div>c) (rain / falls) <div class="answer-space" style="height: 30px;"></div></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Picture Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Look at the picture. Write a complete sentence about it:
-                    <div class="drawing-area" style="height: 120px; text-align: center; line-height: 120px; color: #666; background-color: #f9f9f9;">
-                        [Picture of children playing in a park]
-                    </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw your own picture and write a sentence:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create three word cards for each: 1 subject word (who/what), 1 action word, 1 describing word. Arrange them to make sentences.",
+        homework: "Ask your family if you have any brothers or sisters. Draw a picture of your family including brothers and sisters.",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "English",
+        topic: "Putting It All Together",
+        subtopic: "Describing a full nuclear family unit",
+        lessonContent: `
+            <p>Today is our family celebration day! We'll use everything we learned to talk about our nuclear families.</p>
+            <p><strong>Let's review our family words:</strong></p>
+            <ul>
+                <li>Father, Mother</li>
+                <li>Brother, Sister</li>
+                <li>Parents (Mother + Father)</li>
+                <li>Children (Brothers + Sisters)</li>
+            </ul>
+            <p><strong>Singular vs. Plural:</strong></p>
+            <ul>
+                <li>One child, Two children</li>
+                <li>One parent, Two parents</li>
+                <li>One brother, Two brothers</li>
+                <li>One sister, Two sisters</li>
+            </ul>
+            <p><strong>Presentation Sentence:</strong> "In my nuclear family, there is a father, a mother, and two children."</p>
+            <p><strong>Today's activity:</strong> We will create our own Family Trees and present them to the class!</p>
+            <p><strong>Remember:</strong> Every family is special. Your nuclear family might be big or small, and that's okay!</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Family Tree</div>
+                <p>A family tree shows how family members are connected. Top: Parents. Bottom: Children.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-microphone"></i> Presentation Example</div>
+                <p>"In my nuclear family, there is a father, a mother, and one child. The child is me!"</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-users"></i> Different Families</div>
+                <p>Some families have: 1 child, 2 children, 3 children... All are wonderful families!</p>
+            </div>
+        `,
+        taskInstructions: "Create your family tree and prepare to present about your nuclear family.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Family Tree Creation</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Create your Family Tree:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #f5f5f5; border-radius: 5px;">
+                        <strong>Top Level (Parents):</strong> Draw or write Father and Mother<br>
+                        <strong>Bottom Level (Children):</strong> Draw or write yourself, brothers, sisters
+                    </div>
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Presentation Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Practice your presentation. Complete this sentence:
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">"In my nuclear family, there is ______________________________"</div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write your full presentation here:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Singular vs. Plural</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Circle the correct word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>One child / children</div>
+                        <div>Two child / children</div>
+                        <div>One parent / parents</div>
+                        <div>Two parent / parents</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Class Presentations</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Listen to your classmates. Write about one family you heard about:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Classmate's Name:</strong> <span class="answer-space" style="width: 120px;"></span></div>
+                        <div><strong>Their family has:</strong> <span class="answer-space" style="width: 150px;"></span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Family Celebration</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Draw a celebration picture for families. Write why families are special:
+                    <div class="drawing-area" style="height: 120px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">Families are special because ____________________</div>
+                </div>
+            </div>
+        `,
+        homework: "Share your family tree with someone at home. Tell them about what you learned about nuclear families.",
         homeworkDue: "Monday"
     }
 };

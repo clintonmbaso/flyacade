@@ -4,337 +4,430 @@ const grade1EnglishWeek8 = {
         grade: 1,
         subject: "English",
         week: 8,
-        title: "Understanding Plurals and Nouns",
-        description: "Introduction to singular and plural nouns, and identifying nouns in sentences"
+        title: "Understanding Time — Days, Months, and Sequencing",
+        description: "Learning about parts of the day, days of the week, months of the year, and using time sequencing language"
     },
     
     monday: {
         subject: "English",
-        topic: "Understanding Plurals",
-        subtopic: "Identifying singular and plural nouns",
+        topic: "Parts of the Day",
+        subtopic: "Identifying morning, afternoon, and night",
         lessonContent: `
-            <p>Welcome to our lesson on plurals! Today we will learn about words that mean one thing and words that mean more than one.</p>
-            <p><strong>Key Concept:</strong> A singular noun names one person, place, thing, or idea. A plural noun names more than one person, place, thing, or idea.</p>
-            <p><strong>Examples of Singular and Plural:</strong></p>
+            <p>Welcome to our time adventure! Today we will learn about the different parts of the day and when we do things.</p>
+            <p><strong>Key Concept:</strong> Our day is divided into three main parts: Morning, Afternoon, and Night. Each part has special things we do!</p>
+            <p><strong>What happens in each part?</strong></p>
             <ul>
-                <li>One cat → Two cats</li>
-                <li>One book → Three books</li>
-                <li>One tree → Many trees</li>
-                <li>One friend → Five friends</li>
+                <li><strong>Morning:</strong> When we wake up, eat breakfast, go to school</li>
+                <li><strong>Afternoon:</strong> When we eat lunch, play outside, do homework</li>
+                <li><strong>Night:</strong> When we eat dinner, take a bath, go to sleep</li>
             </ul>
-            <p><strong>How to Make Plurals:</strong> Most of the time, we add the letter <strong>'s'</strong> to the end of a word to make it plural.</p>
-            <p><strong>Why is this important?</strong> Using the right words helps us communicate clearly. When we talk about more than one thing, we use plural words!</p>
+            <p><strong>Look for clues:</strong></p>
+            <ul>
+                <li>Morning has sunshine and birds singing</li>
+                <li>Afternoon has the sun high in the sky</li>
+                <li>Night has the moon and stars</li>
+            </ul>
+            <p>Let's think about our own daily routines and when we do different activities!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt" style="color: green;"></i> Real-Life Example</div>
-                <p>If you have one apple, you say "I have an apple." If you have three apples, you say "I have three apples." See how we added 's' to apple?</p>
+                <div class="example-title"><i class="fas fa-sun" style="color: #FF9800;"></i> Morning Activities</div>
+                <p>"I brush my teeth in the morning." This is something we do when we first wake up!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Did You Know?</div>
-                <p>The word "plural" comes from a Latin word that means "more than one." We use plural words every day without even thinking about it!</p>
+                <div class="example-title"><i class="fas fa-sun" style="color: #FFC107;"></i> Afternoon Activities</div>
+                <p>"We eat lunch in the afternoon." This is when the sun is high in the sky!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-school"></i> Classroom Connection</div>
-                <p>Look around our classroom. We have one teacher, but many students. We have one door, but many windows. Can you find other examples?</p>
+                <div class="example-title"><i class="fas fa-moon" style="color: #2196F3;"></i> Night Activities</div>
+                <p>"I read a story at night." This is when we see the moon and stars!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying and using singular and plural nouns.",
+        taskInstructions: "Complete the following activities about parts of the day.",
         taskContent: `
             <div class="task-item">
-                <span class="task-number">1</span> Circle the plural words:
-                <div style="margin-left: 20px; margin-top: 5px;">
-                    <div>cat / cats</div>
-                    <div>book / books</div>
-                    <div>dog / dogs</div>
-                    <div>ball / balls</div>
+                <span class="task-number">1</span> Circle the correct part of the day for each activity:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>☐ Eat breakfast - MORNING / AFTERNOON / NIGHT</div>
+                    <div>☐ Watch the stars - MORNING / AFTERNOON / NIGHT</div>
+                    <div>☐ Play outside after school - MORNING / AFTERNOON / NIGHT</div>
+                    <div>☐ Wake up - MORNING / AFTERNOON / NIGHT</div>
+                    <div>☐ Eat dinner - MORNING / AFTERNOON / NIGHT</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">2</span> Draw one apple, then draw three apples:
-                <div class="drawing-area" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Make these words plural by adding 's':
-                <div style="margin-left: 20px; margin-top: 5px;">
-                    <div>dog → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>ball → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>cup → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>hat → <span class="answer-space" style="width: 80px;"></span></div>
+                <span class="task-number">2</span> Draw the sun's path. Draw where the sun would be for each part of the day:
+                <div class="drawing-area" style="height: 100px; margin-top: 10px; position: relative;">
+                    <div style="position: absolute; left: 10px; top: 40px;">Morning</div>
+                    <div style="position: absolute; left: 50%; top: 10px; transform: translateX(-50%);">Afternoon</div>
+                    <div style="position: absolute; right: 10px; top: 40px;">Night</div>
+                    <div style="position: absolute; left: 10px; top: 60px; width: 80%; height: 2px; background-color: #ccc;"></div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">4</span> Write one sentence using a plural word:
-                <div class="answer-space" style="height: 40px;"></div>
-            </div>
-        `,
-        homework: "Look around your home and find three things that come in more than one (like chairs, windows, or spoons). Write down their names with 's' at the end.",
-        homeworkDue: "Tuesday"
-    },
-    
-    tuesday: {
-        subject: "English",
-        topic: "Understanding Plurals",
-        subtopic: "Forming plural nouns by adding 's' or 'es'",
-        lessonContent: `
-            <p>Today we will learn more about making words plural. Most words just need 's', but some special words need 'es'!</p>
-            <p><strong>Adding 's':</strong> Most words just add 's' to become plural.</p>
-            <p><strong>Examples:</strong> cat → cats, book → books, pencil → pencils</p>
-            <p><strong>Adding 'es':</strong> Some words need 'es' when they end with: s, sh, ch, x, or z</p>
-            <p><strong>Examples:</strong></p>
-            <ol>
-                <li><strong>bus → buses</strong> (ends with s)</li>
-                <li><strong>dish → dishes</strong> (ends with sh)</li>
-                <li><strong>bench → benches</strong> (ends with ch)</li>
-                <li><strong>box → boxes</strong> (ends with x)</li>
-                <li><strong>buzz → buzzes</strong> (ends with z)</li>
-            </ol>
-            <p><strong>Why 'es'?:</strong> Adding 'es' makes these words easier to say. Try saying "boxs" - it's hard! "Boxes" sounds much better.</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-bus" style="color: blue;"></i> 'es' Examples</div>
-                <p>One bus carries students to school. Many buses carry all the students in our town!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-dice" style="color: red;"></i> Special Words</div>
-                <p>Some words change completely! One mouse, but many mice. One foot, but many feet. We'll learn more about these special words later.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-list-check"></i> Rule Reminder</div>
-                <p>Remember: Most words add 's'. Words ending in s, sh, ch, x, or z add 'es'. Practice saying both versions to hear the difference!</p>
-            </div>
-        `,
-        taskInstructions: "Practice forming plural nouns by adding 's' or 'es' to the words below.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Adding 's'</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Add 's' to make these words plural:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>toy → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>girl → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>bird → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>flower → <span class="answer-space" style="width: 80px;"></span></div>
+                <span class="task-number">3</span> Draw one thing you do in the morning and one thing you do at night:
+                <div style="display: flex; margin-top: 10px;">
+                    <div style="flex: 1; text-align: center;">
+                        <div>Morning</div>
+                        <div class="drawing-area" style="height: 80px; margin: 5px;"></div>
+                    </div>
+                    <div style="flex: 1; text-align: center;">
+                        <div>Night</div>
+                        <div class="drawing-area" style="height: 80px; margin: 5px;"></div>
                     </div>
                 </div>
             </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Adding 'es'</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Add 'es' to make these words plural:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>class → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>brush → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>lunch → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>fox → <span class="answer-space" style="width: 80px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Choose 's' or 'es'</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Write the plural form. Add 's' or 'es':
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>watch → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>ball → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>glass → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>pencil → <span class="answer-space" style="width: 80px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw one box, then draw three boxes:
-                    <div class="drawing-area" style="height: 100px;"></div>
-                </div>
+            <div class="task-item">
+                <span class="task-number">4</span> Write a sentence about your favorite part of the day:
+                <div class="answer-space" style="height: 40px; margin-top: 10px;">My favorite part of the day is ________________ because ________________</div>
             </div>
         `,
-        homework: "Find five things in your kitchen that end with s, sh, ch, x, or z. Write their names with 'es' at the end (example: dish → dishes).",
+        homework: "Talk to your family about what they do in the morning and at night. Draw a picture of one family member's morning routine.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Understanding Plurals in Sentences",
-        subtopic: "Identifying and forming plural nouns in sentences",
+        topic: "The Seven Days of the Week",
+        subtopic: "Naming and sequencing days from Sunday to Saturday",
         lessonContent: `
-            <p>Today we will practice using plural nouns in sentences. This helps us write and speak correctly about more than one thing!</p>
-            <p><strong>Singular Sentences:</strong> Use singular nouns when talking about one thing.</p>
-            <p><strong>Examples:</strong></p>
+            <p>Today we will learn about the seven days that make a week! They always come in the same order, just like the letters in your name.</p>
+            <p><strong>Key Concept:</strong> There are 7 days in a week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday</p>
+            <p><strong>Important facts:</strong></p>
             <ul>
-                <li>The cat sleeps.</li>
-                <li>A bird flies.</li>
-                <li>My friend plays.</li>
+                <li>The days always come in the same order</li>
+                <li>Sunday is usually the first day of the week</li>
+                <li>Saturday and Sunday are often called "the weekend"</li>
+                <li>Monday through Friday are often called "school days" or "weekdays"</li>
             </ul>
-            <p><strong>Plural Sentences:</strong> Use plural nouns when talking about more than one thing.</p>
-            <p><strong>Examples:</strong></p>
+            <p><strong>Special days:</strong></p>
             <ul>
-                <li>The cats sleep.</li>
-                <li>Birds fly.</li>
-                <li>My friends play.</li>
+                <li>Today is ________________ (we'll fill this in together!)</li>
+                <li>Yesterday was ________________</li>
+                <li>Tomorrow will be ________________</li>
             </ul>
-            <p><strong>Matching Verbs:</strong> When we use plural nouns, we sometimes need to change the verb too. One cat <strong>runs</strong>. Two cats <strong>run</strong>.</p>
-            <p><strong>Practice Tip:</strong> Read your sentences out loud. If it sounds right, you're probably using the correct plural form!</p>
+            <p>Let's sing our days of the week song to help us remember!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader"></i> Reading Practice</div>
-                <p>When you read books, look for plural words. Circle them with your finger. How many can you find on one page?</p>
+                <div class="example-title"><i class="fas fa-calendar-alt" style="color: #4CAF50;"></i> Days in Order</div>
+                <p>"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" - They always come in this order!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comment-dots"></i> Speaking Practice</div>
-                <p>Practice saying: "I see one dog" and "I see two dogs." Listen carefully to the 's' sound at the end of 'dogs.'</p>
+                <div class="example-title"><i class="fas fa-school"></i> School Days</div>
+                <p>"Monday, Tuesday, Wednesday, Thursday, Friday" - These are usually our school days!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt"></i> Writing Practice</div>
-                <p>When you write, count how many things you're writing about. One thing = no 's'. More than one = add 's' or 'es'.</p>
+                <div class="example-title"><i class="fas fa-star" style="color: #FFC107;"></i> Weekend Days</div>
+                <p>"Saturday and Sunday" - These are weekend days when we might play or spend time with family!</p>
             </div>
         `,
-        taskInstructions: "Read each sentence and complete the tasks below. Practice identifying and using plural nouns correctly.",
+        taskInstructions: "Complete the activities about days of the week.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Identifying Plurals</strong></p>
+                <p><strong>Part A: Days in Order</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the plural words in these sentences:
+                    <span class="task-number">1</span> Write the days of the week in order:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The dogs run in the park.</div>
-                        <div>Three birds sit on the tree.</div>
-                        <div>My friends like to play games.</div>
-                        <div>She has two red balls.</div>
+                        <div>1. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>2. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>3. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>4. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>5. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>6. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>7. <span class="answer-space" style="width: 100px;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Completing Sentences</strong></p>
+                <p><strong>Part B: Today, Yesterday, Tomorrow</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Fill in the blanks with the correct plural form:
+                    <span class="task-number">2</span> Fill in the blanks:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I have one cat. My friend has two _______. (cat/cats)</div>
-                        <div>The _______ are on the table. (book/books)</div>
-                        <div>We need three _______ for the game. (ball/balls)</div>
-                        <div>All the _______ are on the bus. (child/children)</div>
+                        <div>Today is <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>Yesterday was <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>Tomorrow will be <span class="answer-space" style="width: 100px;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Writing Sentences</strong></p>
+                <p><strong>Part C: Favorite Day</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write two sentences using plural words:
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">3</span> Draw a picture of your favorite day of the week. Then complete the sentence:
+                    <div class="drawing-area" style="height: 100px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My favorite day is ________ because ________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Picture Match</strong></p>
+                <p><strong>Part D: Day Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture of three trees and write a sentence about them:
-                    <div class="drawing-area" style="height: 100px; margin-bottom: 10px;"></div>
-                    <div class="answer-space" style="height: 40px;"></div>
+                    <span class="task-number">4</span> Draw lines to match:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: flex;">
+                            <div style="width: 120px;">First day of week</div>
+                            <div style="width: 120px;">Saturday</div>
+                        </div>
+                        <div style="display: flex;">
+                            <div style="width: 120px;">Last day of week</div>
+                            <div style="width: 120px;">Sunday</div>
+                        </div>
+                        <div style="display: flex;">
+                            <div style="width: 120px;">A school day</div>
+                            <div style="width: 120px;">Wednesday</div>
+                        </div>
+                        <div style="display: flex;">
+                            <div style="width: 120px;">A weekend day</div>
+                            <div style="width: 120px;">Friday</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "Write four sentences about your family using plural words. Example: 'My brothers like soccer.' or 'We have two cats.'",
+        homework: "Ask your family members what their favorite day of the week is and why. Draw a small picture showing something you do on that day.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Understanding Nouns in Sentences",
-        subtopic: "Recognizing and identifying nouns: person, place, thing, and idea",
+        topic: "The Twelve Months of the Year",
+        subtopic: "Learning months from January to December",
         lessonContent: `
-            <p>Today we will learn about nouns. Nouns are naming words! They name people, places, things, and ideas.</p>
-            <p><strong>What is a noun?</strong> A noun is a word that names a person, place, thing, or idea.</p>
-            <p><strong>Types of Nouns:</strong></p>
-            <ol>
-                <li><strong>Person:</strong> boy, girl, teacher, doctor, mom, dad</li>
-                <li><strong>Place:</strong> school, park, home, store, library</li>
-                <li><strong>Thing:</strong> book, ball, desk, chair, pencil</li>
-                <li><strong>Idea:</strong> love, happiness, friendship, bravery</li>
-            </ol>
-            <p><strong>Finding Nouns:</strong> To find nouns in a sentence, ask yourself: "What is this sentence about? Who is it about? Where is it happening?"</p>
-            <p><strong>Example:</strong> "The cat sleeps on the chair." Nouns: cat (thing), chair (thing)</p>
-            <p><strong>Why Nouns Matter:</strong> Every sentence needs at least one noun. Nouns tell us who or what the sentence is about!</p>
+            <p>Today we will learn about the twelve months that make a whole year! Just like days make a week, months make a year.</p>
+            <p><strong>Key Concept:</strong> There are 12 months in a year: January, February, March, April, May, June, July, August, September, October, November, December</p>
+            <p><strong>Important facts:</strong></p>
+            <ul>
+                <li>The months always come in the same order</li>
+                <li>January is the first month</li>
+                <li>December is the last month</li>
+                <li>Some months have special holidays or seasons</li>
+                <li>Everyone has a birthday month!</li>
+            </ul>
+            <p><strong>Special months:</strong></p>
+            <ul>
+                <li>This month is ________________ (we'll say it together!)</li>
+                <li>My birthday month is ________________</li>
+                <li>December has Christmas</li>
+                <li>July has Independence Day</li>
+                <li>October has Halloween</li>
+            </ul>
+            <p>Let's do our month chant to help us remember all twelve!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-graduate"></i> People Nouns</div>
-                <p>People nouns can be specific names (Sarah, Mom) or general names (girl, teacher).</p>
+                <div class="example-title"><i class="fas fa-birthday-cake" style="color: #E91E63;"></i> Birthday Months</div>
+                <p>"My birthday is in August." - Everyone has a special month when they celebrate their birthday!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-map-marker-alt"></i> Place Nouns</div>
-                <p>Place nouns tell us where something happens. Your bedroom, our classroom, and the playground are all place nouns.</p>
+                <div class="example-title"><i class="fas fa-snowflake" style="color: #03A9F4;"></i> Winter Months</div>
+                <p>"December, January, February" - These are often cold months with snow in some places!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Idea Nouns</div>
-                <p>Idea nouns are tricky because you can't see or touch them! Love, happiness, and bravery are feelings and ideas.</p>
+                <div class="example-title"><i class="fas fa-sun" style="color: #FF9800;"></i> Summer Months</div>
+                <p>"June, July, August" - These are often warm months when school is out!</p>
             </div>
         `,
-        taskInstructions: "Find and identify nouns in sentences. Practice recognizing people, places, things, and ideas.",
+        taskInstructions: "Complete the activities about months of the year.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Identifying Nouns</strong></p>
+                <p><strong>Part A: Month Order</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle all the nouns in these sentences:
+                    <span class="task-number">1</span> Circle the months in the correct order:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The boy plays with his dog.</div>
-                        <div>We go to school every day.</div>
-                        <div>Mom reads a book in the kitchen.</div>
-                        <div>Friendship is important.</div>
+                        <div>January / March / February</div>
+                        <div>April / June / May</div>
+                        <div>July / September / August</div>
+                        <div>October / December / November</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Noun Categories</strong></p>
+                <p><strong>Part B: Birthday Line-Up</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write each word in the correct category:
-                    <table style="width: 100%; margin-top: 10px; border-collapse: collapse;">
-                        <tr>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><strong>Person</strong></td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><strong>Place</strong></td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><strong>Thing</strong></td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><strong>Idea</strong></td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><span class="answer-space" style="height: 80px; display: block;"></span></td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><span class="answer-space" style="height: 80px; display: block;"></span></td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><span class="answer-space" style="height: 80px; display: block;"></span></td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><span class="answer-space" style="height: 80px; display: block;"></span></td>
-                        </tr>
-                    </table>
-                    <p style="margin-top: 5px; font-size: 0.9em;">Words: teacher, park, ball, love, student, home, toy, happiness</p>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Sentence Building</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Write a sentence with:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>One person noun: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>One place noun: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>One thing noun: <span class="answer-space" style="width: 200px;"></span></div>
+                    <span class="task-number">2</span> Write the months in order. Circle YOUR birthday month:
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-left: 20px; margin-top: 10px;">
+                        <div>1. January</div>
+                        <div>2. February</div>
+                        <div>3. March</div>
+                        <div>4. April</div>
+                        <div>5. May</div>
+                        <div>6. June</div>
+                        <div>7. July</div>
+                        <div>8. August</div>
+                        <div>9. September</div>
+                        <div>10. October</div>
+                        <div>11. November</div>
+                        <div>12. December</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Drawing Nouns</strong></p>
+                <p><strong>Part C: Special Months</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a person in a place with a thing:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div style="margin-top: 10px;">Label your drawing with the nouns: ___________ (person) in the ___________ (place) with a ___________ (thing)</div>
+                    <span class="task-number">3</span> Draw a picture of something special in each of these months:
+                    <div style="display: flex; flex-wrap: wrap; margin-top: 10px;">
+                        <div style="flex: 1; min-width: 100px; text-align: center; margin: 5px;">
+                            <div>December</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                        </div>
+                        <div style="flex: 1; min-width: 100px; text-align: center; margin: 5px;">
+                            <div>October</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                        </div>
+                        <div style="flex: 1; min-width: 100px; text-align: center; margin: 5px;">
+                            <div>July</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                        </div>
+                        <div style="flex: 1; min-width: 100px; text-align: center; margin: 5px;">
+                            <div>Your Birthday Month</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Month Chant</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Fill in the missing months in our chant:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace;">
+                        <div>January, February, ________________</div>
+                        <div>April, May, ________________</div>
+                        <div>July, ________________, September</div>
+                        <div>________________, November, December</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Current Month</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> This month is: <span class="answer-space" style="width: 100px;"></span>
+                    <div style="margin-top: 10px;">Draw something special about this month:</div>
+                    <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
                 </div>
             </div>
         `,
-        homework: "Go on a noun hunt at home. Find and write down 5 person nouns, 5 place nouns, and 5 thing nouns you see around you.",
+        homework: "Make a list of family members' birthdays and their months. Draw a small cake next to each month on a calendar.",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "English",
+        topic: "Time Language and Sequencing",
+        subtopic: "Using before, after, next, then to talk about time",
+        lessonContent: `
+            <p>Today we will learn special words that help us talk about when things happen! These words connect our days and months like a story.</p>
+            <p><strong>Key Concept:</strong> We use special words to show the order of time: before, after, next, then</p>
+            <p><strong>What do these words mean?</strong></p>
+            <ul>
+                <li><strong>Before:</strong> Something that happens earlier</li>
+                <li><strong>After:</strong> Something that happens later</li>
+                <li><strong>Next:</strong> The one that comes right after</li>
+                <li><strong>Then:</strong> What happens following something else</li>
+            </ul>
+            <p><strong>Time is like a story:</strong></p>
+            <ol>
+                <li>First, we wake up in the morning</li>
+                <li><strong>Then</strong> we eat breakfast</li>
+                <li><strong>After</strong> breakfast, we brush our teeth</li>
+                <li><strong>Next</strong>, we go to school</li>
+            </ol>
+            <p>Let's practice using these special time words together!</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-arrow-left" style="color: #2196F3;"></i> Before</div>
+                <p>"<strong>Before</strong> Tuesday comes Monday." Monday happens earlier than Tuesday!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-arrow-right" style="color: #4CAF50;"></i> After</div>
+                <p>"<strong>After</strong> February comes March." March happens later than February!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-forward" style="color: #FF9800;"></i> Next and Then</div>
+                <p>"First I wake up, <strong>then</strong> I get dressed. <strong>Next</strong>, I eat breakfast." These words show the order of my morning!</p>
+            </div>
+        `,
+        taskInstructions: "Complete the activities using time sequencing words.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: What Comes Next?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Fill in the blanks:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>What comes after Monday? <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>What comes before December? <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>What comes after afternoon? <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>What comes before January? <span class="answer-space" style="width: 100px;"></span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Builders</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete these sentences using: before, after, next, or then
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>________ Tuesday comes Monday.</div>
+                        <div>________ February is March.</div>
+                        <div>I eat dinner, ________ I take a bath.</div>
+                        <div>First I do homework, ________ I play outside.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: My Daily Sequence</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw and write about your morning routine in order:
+                    <div style="display: flex; margin-top: 10px;">
+                        <div style="flex: 1; text-align: center;">
+                            <div>First:</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px; font-size: 12px;"></div>
+                        </div>
+                        <div style="flex: 1; text-align: center;">
+                            <div>Then:</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px; font-size: 12px;"></div>
+                        </div>
+                        <div style="flex: 1; text-align: center;">
+                            <div>Next:</div>
+                            <div class="drawing-area" style="height: 60px;"></div>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px; font-size: 12px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Time Simon Says</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Follow the directions (circle the correct action):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>If Saturday comes after Friday, circle the smiley: ☺ ☹</div>
+                        <div>If morning comes before afternoon, circle the sun: ☼ ☆</div>
+                        <div>If January comes before February, circle YES: YES NO</div>
+                        <div>If night comes after afternoon, draw a moon here: <span style="width: 30px; height: 20px; border: 1px dashed #ccc; display: inline-block;"></span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Time Expert Certificate</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw yourself as a time expert. Write one sentence using a time word:
+                    <div class="drawing-area" style="height: 100px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I know that ________________ comes before ________________</div>
+                </div>
+            </div>
+        `,
+        homework: "Teach someone at home about time words (before, after, next, then). Make up a Simon Says game using days and months.",
         homeworkDue: "Monday"
     }
 };

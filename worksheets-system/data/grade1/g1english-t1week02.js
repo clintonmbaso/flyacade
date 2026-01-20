@@ -1,375 +1,369 @@
-// Grade 1 English - Week 2 Data
+// Grade 1 English - Week 2 Data (Greetings)
 const grade1EnglishWeek2 = {
     metadata: {
         grade: 1,
         subject: "English",
         week: 2,
-        title: "Words Tell Ideas — Understanding Sentences",
-        description: "Introduction to sentences, identifying complete ideas, and creating simple sentences"
+        title: "Hello and How Are You? — Learning Friendly Greetings",
+        description: "Learning morning, afternoon, evening greetings, and asking/answering how someone is"
     },
     
     monday: {
         subject: "English",
-        topic: "Words Tell Ideas",
-        subtopic: "Understanding that words form sentences",
+        topic: "Good Morning!",
+        subtopic: "Using and responding to 'Good Morning' appropriately",
         lessonContent: `
-            <p>Welcome to our English lesson! Today we will learn how words work together to tell us something.</p>
-            <p><strong>Key Concept:</strong> Words are like building blocks. When we put them together in a special way, they make sentences that tell us a complete idea.</p>
-            <p><strong>What is a sentence?</strong></p>
+            <p>Welcome to our English lesson! Today we will learn about friendly greetings we use in the morning.</p>
+            <p><strong>Key Concept:</strong> From the time we wake up until lunchtime, we say "Good morning."</p>
+            <p><strong>When do we say "Good morning"?</strong></p>
             <ul>
-                <li>A sentence is a group of words</li>
-                <li>It tells a complete idea</li>
-                <li>It makes sense by itself</li>
-                <li>It usually starts with a capital letter</li>
-                <li>It usually ends with a period (.)</li>
+                <li>When we first wake up</li>
+                <li>When we see family at breakfast</li>
+                <li>When we arrive at school</li>
+                <li>When we meet friends before lunch</li>
             </ul>
-            <p><strong>Why are sentences important?</strong> Sentences help us share our ideas, tell stories, ask questions, and talk to each other!</p>
+            <p><strong>How to respond:</strong> When someone says "Good morning" to you, you should say "Good morning" back!</p>
+            <p><strong>Why are greetings important?</strong> Greetings help us start our day in a friendly way and show respect to others!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comment" style="color: #4CAF50;"></i> Sentence Example</div>
-                <p>"The cat sits." - This is a sentence! It tells us a complete idea about what the cat is doing.</p>
+                <div class="example-title"><i class="fas fa-sun" style="color: #FFC107;"></i> Morning Greeting</div>
+                <p>"Good morning, Teacher!" - This is what we say when we see our teacher in the morning.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Not a Sentence</div>
-                <p>"Big red ball" - This is NOT a sentence. It doesn't tell us a complete idea. What about the big red ball?</p>
+                <div class="example-title"><i class="fas fa-user-friends"></i> Family Greeting</div>
+                <p>"Good morning, Mom!" - This is what we say when we see our parents in the morning.</p>
             </div>
             <div class="example-box">
                 <div class="example-title"><i class="fas fa-gamepad"></i> Game Time!</div>
-                <p>Let's play "Sentence or Not?" I'll say some words, and you tell me if they make a sentence!</p>
+                <p>Let's play "The Sun Rise Game!" We'll crouch down like the sun is sleeping and rise up while greeting each other!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying sentences.",
+        taskInstructions: "Complete the following activities to practice morning greetings.",
         taskContent: `
             <div class="task-item">
-                <span class="task-number">1</span> Circle the groups of words that are sentences:
+                <span class="task-number">1</span> Circle the pictures that show morning time:
                 <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ The sun is hot.</div>
-                    <div>☐ Big yellow dog</div>
-                    <div>☐ I can jump.</div>
-                    <div>☐ Run fast</div>
-                    <div>☐ Mom cooks food.</div>
+                    <div>☐ Picture of sunrise</div>
+                    <div>☐ Picture of moon and stars</div>
+                    <div>☐ Picture of breakfast</div>
+                    <div>☐ Picture of sunset</div>
+                    <div>☐ Picture of children arriving at school</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">2</span> Draw a picture of something you like. Then write one sentence about it:
+                <span class="task-number">2</span> Draw a picture of yourself saying "Good morning" to someone:
                 <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">My sentence: ________________________________</div>
+                <div class="answer-space" style="height: 40px; margin-top: 10px;">I am saying "Good morning" to: ________________</div>
             </div>
             <div class="task-item">
-                <span class="task-number">3</span> Put these words in order to make a sentence:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>runs / dog / The / fast</div>
-                    <div class="answer-space" style="height: 30px; width: 200px; display: inline-block; margin-left: 10px;"></div>
+                <span class="task-number">3</span> Practice the conversation:
+                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
+                    <div><strong>Teacher:</strong> "Good morning, class!"</div>
+                    <div class="answer-space" style="height: 30px; width: 200px; display: inline-block; margin-left: 10px;">Class says: ________________</div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">4</span> Is this a sentence? Circle YES or NO:
+                <span class="task-number">4</span> Match the morning greeting with the person:
                 <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>"Happy birthday to" - YES / NO</div>
-                    <div>"The bird sings." - YES / NO</div>
-                    <div>"Blue sky today" - YES / NO</div>
+                    <div>"Good morning, Dad!" → ☐ Teacher</div>
+                    <div>"Good morning, Teacher!" → ☐ Father</div>
+                    <div>"Good morning, friends!" → ☐ Classmates</div>
                 </div>
             </div>
         `,
-        homework: "Find three sentences in a storybook at home. Write them down or ask a family member to help you write them.",
-        homeworkDue: "Tuesday"
+        homework: "Say 'Good morning' to three different people tomorrow. Draw a picture of one person you greeted.",
+        homeworkDue: "Wednesday"
     },
     
-    tuesday: {
+    wednesday: {
         subject: "English",
-        topic: "Understanding Parts of a Sentence",
-        subtopic: "Identifying who or what does something in a sentence",
+        topic: "Good Afternoon & Good Evening",
+        subtopic: "Distinguishing between afternoon and evening greetings",
         lessonContent: `
-            <p>Today we will learn about the special parts that make up a sentence. Every sentence has someone or something that does an action!</p>
-            <p><strong>What is a subject?</strong> The subject is the part of the sentence that tells us WHO or WHAT does something.</p>
-            <p><strong>Finding the subject:</strong></p>
-            <ol>
-                <li>Look at the sentence</li>
-                <li>Ask "Who or what is doing something?"</li>
-                <li>The answer is the subject!</li>
-            </ol>
-            <p><strong>Examples of subjects:</strong></p>
+            <p>Today we will learn about two more friendly greetings we use later in the day.</p>
+            <p><strong>Key Concept:</strong> We use different greetings at different times of the day!</p>
+            <p><strong>What is "Good afternoon"?</strong></p>
             <ul>
-                <li>"<strong>The dog</strong> runs." (Who runs? The dog)</li>
-                <li>"<strong>Mom</strong> cooks." (Who cooks? Mom)</li>
-                <li>"<strong>The sun</strong> shines." (What shines? The sun)</li>
+                <li>We say "Good afternoon" after lunch</li>
+                <li>During school pick-up time</li>
+                <li>When the sun is high in the sky</li>
+                <li>From lunchtime until evening</li>
             </ul>
-            <p><strong>Why is the subject important?</strong> Without a subject, we don't know who or what the sentence is about!</p>
+            <p><strong>What is "Good evening"?</strong></p>
+            <ul>
+                <li>We say "Good evening" when getting ready for dinner</li>
+                <li>When the stars come out</li>
+                <li>When we see the moon</li>
+                <li>When it starts to get dark</li>
+            </ul>
+            <p><strong>How to remember:</strong> Afternoon = after lunch, Evening = when the sun is leaving!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user" style="color: #2196F3;"></i> People Subjects</div>
-                <p>"<strong>Sarah</strong> reads a book." The subject is Sarah because she is the one reading!</p>
+                <div class="example-title"><i class="fas fa-sun" style="color: #FF9800;"></i> Afternoon Example</div>
+                <p>"Good afternoon, friends!" - This is what we say when we see friends after lunch.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paw"></i> Animal Subjects</div>
-                <p>"<strong>The cat</strong> sleeps." The subject is the cat because it is the one sleeping!</p>
+                <div class="example-title"><i class="fas fa-moon" style="color: #673AB7;"></i> Evening Example</div>
+                <p>"Good evening, family!" - This is what we say when we sit down for dinner with family.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree"></i> Thing Subjects</div>
-                <p>"<strong>The tree</strong> grows tall." The subject is the tree because it is the one growing!</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> Flashcard Game!</div>
+                <p>Let's play with picture flashcards! When I show a lunchbox picture, shout "Good afternoon!" When I show pajamas, shout "Good evening!"</p>
             </div>
         `,
-        taskInstructions: "Circle the subject in each sentence and create your own sentences.",
+        taskInstructions: "Complete the activities to practice afternoon and evening greetings.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Find the Subject</strong></p>
+                <p><strong>Part A: Time of Day Sort</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the subject in each sentence:
+                    <span class="task-number">1</span> Write "Good afternoon" or "Good evening" under each picture:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The boy plays ball.</div>
-                        <div>My dad drives a car.</div>
-                        <div>Flowers smell nice.</div>
-                        <div>Our teacher smiles.</div>
+                        <div>Picture of lunchbox: <span class="answer-space" style="width: 150px;"></span></div>
+                        <div>Picture of moon: <span class="answer-space" style="width: 150px;"></span></div>
+                        <div>Picture of sunset: <span class="answer-space" style="width: 150px;"></span></div>
+                        <div>Picture of school dismissal: <span class="answer-space" style="width: 150px;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Make Your Own Sentences</strong></p>
+                <p><strong>Part B: Role Play Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write a sentence about a person. Circle the subject:
-                    <div class="answer-space" style="height: 40px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Write a sentence about an animal. Circle the subject:
-                    <div class="answer-space" style="height: 40px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write a sentence about a thing. Circle the subject:
-                    <div class="answer-space" style="height: 40px;"></div>
+                    <span class="task-number">2</span> Practice with a partner. One is walking home from school (afternoon), one is sitting for dinner (evening):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Afternoon role play: "________________________"</div>
+                        <div>Evening role play: "________________________"</div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
                 <p><strong>Part C: Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture of a person or animal doing something. Then write a sentence about it:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My sentence: ________________________________</div>
+                    <span class="task-number">3</span> Draw two pictures: one showing afternoon time, one showing evening time:
+                    <div style="display: flex; margin-top: 10px;">
+                        <div style="flex: 1; padding: 10px;">
+                            <div style="text-align: center; font-weight: bold;">Afternoon</div>
+                            <div class="drawing-area" style="height: 120px;"></div>
+                        </div>
+                        <div style="flex: 1; padding: 10px;">
+                            <div style="text-align: center; font-weight: bold;">Evening</div>
+                            <div class="drawing-area" style="height: 120px;"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Subject Hunt</strong></p>
+                <p><strong>Part D: Sun and Moon Game</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> Look at the flashcards. Write down three subjects you see:
+                    <span class="task-number">4</span> Point to the correct picture when teacher says:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>2. <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>3. <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>Teacher says "Good afternoon!" → Point to: ☐ Sun ☐ Moon</div>
+                        <div>Teacher says "Good evening!" → Point to: ☐ Sun ☐ Moon</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Draw two pictures: one of a family member doing something, and one of a pet or animal doing something. Write a sentence under each picture.",
-        homeworkDue: "Wednesday"
-    },
-    
-    wednesday: {
-        subject: "English",
-        topic: "Creating Complete Sentences",
-        subtopic: "Making sure sentences tell a complete idea",
-        lessonContent: `
-            <p>Today we will practice making our own sentences! We'll learn how to make sure every sentence tells a complete idea.</p>
-            <p><strong>What makes a sentence complete?</strong></p>
-            <ul>
-                <li>It has a subject (who or what)</li>
-                <li>It tells us something about the subject</li>
-                <li>It makes sense by itself</li>
-                <li>It starts with a capital letter</li>
-                <li>It ends with punctuation (. ! ?)</li>
-            </ul>
-            <p><strong>Sentence building blocks:</strong></p>
-            <ol>
-                <li>Start with WHO or WHAT (subject)</li>
-                <li>Add WHAT THEY DO (action)</li>
-                <li>Add details if needed</li>
-                <li>Use a capital letter at the beginning</li>
-                <li>Use punctuation at the end</li>
-            </ol>
-            <p><strong>Let's practice together!</strong> I'll give you a subject, and we'll make a sentence about it as a class.</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-check-circle" style="color: #4CAF50;"></i> Complete Sentence</div>
-                <p>"The baby sleeps." - This is complete! We know WHO (the baby) and WHAT THEY DO (sleeps).</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-times-circle" style="color: #f44336;"></i> Incomplete</div>
-                <p>"The happy girl" - This is NOT complete! What about the happy girl? What does she do?</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Sentence Puzzle</div>
-                <p>Let's play with word flashcards! We'll put them together to make different sentences.</p>
-            </div>
-        `,
-        taskInstructions: "Complete the sentences and create your own complete sentences.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Complete the Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Finish these sentences to make them complete:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The dog ________________.</div>
-                        <div>My friend ________________.</div>
-                        <div>Rain ________________.</div>
-                        <div>We ________________.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Fix the Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Make these complete by adding words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Big brown ________________.</div>
-                        <div>Runs fast ________________.</div>
-                        <div>The little ________________.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Create Your Own</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Use these subjects to write complete sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The bird ______________________________________</div>
-                        <div>My mom ______________________________________</div>
-                        <div>I ______________________________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Sentence Sort</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Read each group of words. Circle COMPLETE if it's a sentence, INCOMPLETE if it's not:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The fish swims. - COMPLETE / INCOMPLETE</div>
-                        <div>Big red balloon - COMPLETE / INCOMPLETE</div>
-                        <div>We eat lunch. - COMPLETE / INCOMPLETE</div>
-                        <div>Jump high - COMPLETE / INCOMPLETE</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Picture Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Look at the picture. Write a complete sentence about what you see:
-                    <div class="drawing-area" style="height: 120px; border: 2px dashed #ccc; margin-top: 10px;">
-                        <p style="text-align: center; color: #666; padding-top: 50px;">[Picture of children playing]</p>
-                    </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My sentence: ________________________________</div>
-                </div>
-            </div>
-        `,
-        homework: "Make three sentence flashcards: write a subject on one side and draw a picture on the other. Bring them to class tomorrow.",
+        homework: "Watch for afternoon and evening time at home. Say 'Good afternoon' to someone after lunch and 'Good evening' to someone before bed.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Sentence Review and Practice",
-        subtopic: "Putting all sentence skills together",
+        topic: "How Are You?",
+        subtopic: "Asking and answering basic welfare questions",
         lessonContent: `
-            <p>Today is our sentence celebration day! We'll use everything we learned this week to play games and show what we know about sentences.</p>
-            <p><strong>Let's review what we learned:</strong></p>
+            <p>Today we will learn how to ask someone how they are feeling and how to answer when someone asks us!</p>
+            <p><strong>Key Concept:</strong> "How are you?" is a friendly question we ask to show we care about someone.</p>
+            <p><strong>How to ask:</strong> Look at the person and say "How are you?" with a smile!</p>
+            <p><strong>How to answer:</strong></p>
             <ul>
-                <li>Sentences are groups of words that tell a complete idea</li>
-                <li>Every sentence needs a subject (who or what)</li>
-                <li>Sentences start with capital letters</li>
-                <li>Sentences end with punctuation (. ! ?)</li>
-                <li>We can create our own sentences!</li>
+                <li><strong>"I am fine."</strong> - When we feel happy, good, or okay</li>
+                <li><strong>"I am not fine."</strong> - When we feel sick, sad, or tired</li>
             </ul>
-            <p><strong>Today's activities:</strong></p>
-            <ol>
-                <li>Sentence Detective Game - Find the hidden sentences</li>
-                <li>Build-a-Sentence Station - Use word cards to make sentences</li>
-                <li>Sentence Story Time - We'll create a class story together</li>
-                <li>Show and Tell Sentences - Share your sentence flashcards</li>
-            </ol>
-            <p><strong>Remember:</strong> You are all sentence experts now! You can use sentences to share your ideas with the world.</p>
+            <p><strong>Important:</strong> It is okay to say "I am not fine" if we don't feel good. We should always tell a grown-up if we don't feel fine.</p>
+            <p><strong>When to ask:</strong> We can ask "How are you?" when we greet someone, when we meet a friend, or when we want to check on someone.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-detective" style="color: #FF9800;"></i> Sentence Detective</div>
-                <p>Look at this: "cat The sleeps." Our detective job is to fix it! "The cat sleeps." Good work, detective!</p>
+                <div class="example-title"><i class="fas fa-smile" style="color: #4CAF50;"></i> Happy Answer</div>
+                <p>"How are you?" "I am fine!" - This is what we say when we feel happy and good.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-building"></i> Build-a-Sentence</div>
-                <p>Word cards: [The] [dog] [runs] [fast]. Let's put them together: "The dog runs fast." We built a sentence!</p>
+                <div class="example-title"><i class="fas fa-frown" style="color: #f44336;"></i> Not Fine Answer</div>
+                <p>"How are you?" "I am not fine." - This is what we say when we feel sick or sad.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book"></i> Story Time</div>
-                <p>Our class story starts: "Sam has a dog." What happens next? Each of us will add one sentence!</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> Emotion Ball Game!</div>
+                <p>We'll toss a soft ball to each other. When you catch it, answer "How are you?" Then toss it to a friend and ask them!</p>
             </div>
         `,
-        taskInstructions: "Show what you know about sentences through these fun activities.",
+        taskInstructions: "Practice asking and answering 'How are you?'",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sentence Detective</strong></p>
+                <p><strong>Part A: Match the Feeling</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Fix these mixed-up words to make sentences:
+                    <span class="task-number">1</span> Match the face with the correct answer:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ball / The / red / rolls</div>
-                        <div class="answer-space" style="height: 30px; width: 200px; display: inline-block; margin-left: 10px;"></div>
-                        <div>sings / bird / The / sweetly</div>
-                        <div class="answer-space" style="height: 30px; width: 200px; display: inline-block; margin-left: 10px;"></div>
+                        <div>☺️ Happy face → ☐ "I am not fine."</div>
+                        <div>☹️ Sad face → ☐ "I am fine."</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sentence Building</strong></p>
+                <p><strong>Part B: Drawing Your Feeling</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Use these words to build two different sentences:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #f5f5f5; border-radius: 5px;">
-                        <strong>Word Bank:</strong> I, we, see, play, the, ball, cat, run, dog, eat
+                    <span class="task-number">2</span> Draw a face showing how you feel today:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
+                    <div style="margin-top: 10px;">
+                        <div>Write your answer: "I am <span class="answer-space" style="width: 100px;"></span>"</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Practice Conversations</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Complete the conversations:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Sentence 1: ______________________________________</div>
-                        <div>Sentence 2: ______________________________________</div>
+                        <div>Friend: "How are you?"</div>
+                        <div>You: "<span class="answer-space" style="width: 150px;"></span>"</div>
+                        <div style="margin-top: 10px;"></div>
+                        <div>You: "How are you?"</div>
+                        <div>Teacher: "<span class="answer-space" style="width: 150px;"></span>"</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Class Story</strong></p>
+                <p><strong>Part D: Trace the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Add one sentence to our class story:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <strong>Our Story So Far:</strong> "Once there was a friendly dragon. He lived in a big mountain."
+                    <span class="task-number">4</span> Trace the words to practice writing them:
+                    <div style="margin-left: 20px; margin-top: 10px; font-size: 24px;">
+                        <div style="border-bottom: 1px solid #ccc; padding-bottom: 5px;">I am fine.</div>
+                        <div style="border-bottom: 1px solid #ccc; padding: 10px 0;">I am not fine.</div>
                     </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My sentence: ________________________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Show and Tell</strong></p>
+                <p><strong>Part E: When to Tell a Grown-up</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Share your sentence flashcards. Write your favorite sentence here:
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
-                        <p style="text-align: center; color: #666; padding-top: 30px;">[Space to draw or paste flashcard]</p>
+                    <span class="task-number">5</span> Circle when you should tell a grown-up you're not fine:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>☐ When you have a tummy ache</div>
+                        <div>☐ When you feel very tired</div>
+                        <div>☐ When you fell down and got hurt</div>
+                        <div>☐ When you feel a little sleepy</div>
                     </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My favorite sentence: ________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Sentence Expert Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture of yourself as a sentence expert. Write one sentence about what you learned:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I learned that ______________________________</div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home about sentences. Show them how to make a complete sentence. Draw a picture of you teaching them.",
+        homework: "Ask 'How are you?' to three family members tonight. Draw a picture of one family member and write how they said they were.",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "English",
+        topic: "How is Home?",
+        subtopic: "Using common social greetings regarding family/home",
+        lessonContent: `
+            <p>Today is our greeting celebration day! We'll put all our greetings together and learn one more special question.</p>
+            <p><strong>Key Concept:</strong> In many cultures, asking "How is home?" shows we care about someone's family.</p>
+            <p><strong>What is "How is home?"</strong></p>
+            <ul>
+                <li>It's a way to ask about someone's family</li>
+                <li>It shows we care about the people they live with</li>
+                <li>It's a friendly question we can ask after saying hello</li>
+            </ul>
+            <p><strong>How to answer:</strong> The standard response is "Home is fine."</p>
+            <p><strong>The full greeting sequence:</strong></p>
+            <ol>
+                <li>Say "Good [morning/afternoon/evening]"</li>
+                <li>Ask "How are you?"</li>
+                <li>Ask "How is home?"</li>
+                <li>Listen to the answers and smile!</li>
+            </ol>
+            <p><strong>Today's activities:</strong> We'll practice all our greetings in fun games and role plays!</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-home" style="color: #795548;"></i> Home Greeting</div>
+                <p>"How is home?" "Home is fine." - This shows we care about each other's families.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-users"></i> Full Conversation</div>
+                <p>"Good morning! How are you? How is home?" "I am fine. Home is fine." - A complete friendly greeting!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-gamepad"></i> Greeting Circle Game!</div>
+                <p>We'll form a big circle and practice the full greeting with the person next to us!</p>
+            </div>
+        `,
+        taskInstructions: "Practice the complete greeting sequence with classmates.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: The Greeting Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Practice with a partner. Complete the full greeting sequence:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
+                        <div>Person 1: "Good __________!"</div>
+                        <div>Person 1: "How are you?"</div>
+                        <div>Person 1: "How is home?"</div>
+                        <div>Person 2: "I am __________."</div>
+                        <div>Person 2: "Home is __________."</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Puppet Role Play</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Use puppets or toys to act out this conversation:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Draw your puppet conversation here:</div>
+                        <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Family Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw your family at home. Then write about them:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+                    <div style="margin-top: 10px;">
+                        <div>My home is <span class="answer-space" style="width: 100px;"></span>. (fine/happy/loving)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Greeting Parade</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> When the music stops, greet your nearest classmate with:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. Time of day greeting: ________________</div>
+                        <div>2. "How are you?" and answer: ________________</div>
+                        <div>3. "How is home?" and answer: ________________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Greeting Expert Certificate</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw a picture of yourself using greetings. Write one sentence about why greetings are important:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">Greetings are important because ________________</div>
+                </div>
+            </div>
+        `,
+        homework: "Teach someone at home all the greetings you learned. Practice the full sequence: Good [time], How are you?, How is home?",
         homeworkDue: "Monday"
     }
 };
@@ -377,10 +371,10 @@ const grade1EnglishWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1EnglishWeek2);
-    console.log("english-week2.js registered using registerWorksheet()");
+    console.log("english-week2-greetings.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1EnglishWeek2);
-    console.log("english-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("english-week2-greetings.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -391,9 +385,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1EnglishWeek2.metadata,
         days: grade1EnglishWeek2
     });
-    console.log("english-week2.js stored in window.registeredWorksheets");
+    console.log("english-week2-greetings.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1EnglishWeek2 = grade1EnglishWeek2;
-console.log("english-week2.js loaded and registered successfully");
+console.log("english-week2-greetings.js loaded and registered successfully");
