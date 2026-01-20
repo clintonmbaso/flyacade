@@ -25,15 +25,15 @@ const WorksheetManifest = {
         'data/middle/middle-math-week10.js',
         
         // Reception
-        'data/reception/reception-math-week02.js',
-        'data/reception/reception-math-week03.js',
-        'data/reception/reception-math-week04.js',
-        'data/reception/reception-math-week05.js',
-        'data/reception/reception-math-week07.js',
-        'data/reception/reception-math-week08.js',
-        'data/reception/reception-math-week09.js',
-        'data/reception/reception-math-week10.js',
-        
+/*       'data/reception/reception-math-t1week02.js',/*
+        'data/reception/receptionmath-t1week03.js',
+        'data/reception/receptionmath-t1week04.js',
+        'data/reception/receptionmath-t1week05.js',
+        'data/reception/receptionmath-t1week07.js',
+        'data/reception/receptionmath-t1week08.js',
+        'data/reception/receptionmath-t1week09.js',
+        'data/reception/receptionmath-t1week10.js',
+        */
         // Grade 1
         'data/grade1/g1math-week02.js',
         'data/grade1/g1math-week03.js',
@@ -198,6 +198,16 @@ const WorksheetManifest = {
         'data/grade6/g6socialstudies-t1week10.js',
                                
     // Literacy
+         // Grade 1
+        'data/grade1/g1literacy-t1week02.js',
+        'data/grade1/g1literacy-t1week03.js',
+        'data/grade1/g1literacy-t1week04.js',
+        'data/grade1/g1literacy-t1week05.js',/*
+        'data/grade1/g1literacy-t1week07.js',
+        'data/grade1/g1literacy-t1week08.js',
+        'data/grade1/g1literacy-t1week09.js',
+        'data/grade1/g1literacy-t1week10.js',
+    */
          // Grade 4
         'data/grade4/g4literacy-t1week02.js',
         'data/grade4/g4literacy-t1week03.js',
@@ -209,7 +219,17 @@ const WorksheetManifest = {
         'data/grade4/g4literacy-t1week10.js',
     
     // English
-         // Grade 4
+        // Reception
+        'data/reception/reception-english-t1week02.js',
+        'data/reception/reception-english-t1week03.js',
+        'data/reception/reception-english-t1week04.js',
+        'data/reception/reception-english-t1week05.js',
+        'data/reception/reception-english-t1week07.js',
+        'data/reception/reception-english-t1week08.js',
+        'data/reception/reception-english-t1week09.js',
+        'data/reception/reception-english-t1week10.js',
+    
+         // Grade 1
         'data/grade1/g1english-t1week02.js',
         'data/grade1/g1english-t1week03.js',
         'data/grade1/g1english-t1week04.js',
