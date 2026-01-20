@@ -239,6 +239,16 @@ const WorksheetManifest = {
         'data/grade1/g1english-t1week09.js',
         'data/grade1/g1english-t1week10.js',
     
+         // Grade 2
+        'data/grade2/g2english-t1week02.js',
+        'data/grade2/g2english-t1week03.js',
+        'data/grade2/g2english-t1week04.js',
+        'data/grade2/g2english-t1week05.js',
+        'data/grade2/g2english-t1week07.js',
+        'data/grade2/g2english-t1week08.js',
+        'data/grade2/g2english-t1week09.js',
+        'data/grade2/g2english-t1week10.js',
+        
              // Grade 4
         'data/grade4/g4english-t1week02.js',
         'data/grade4/g4english-t1week03.js',
