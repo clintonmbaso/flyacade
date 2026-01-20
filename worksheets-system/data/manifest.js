@@ -281,6 +281,37 @@ const WorksheetManifest = {
         'data/grade6/g6homeEconomics-t1week09.js',
         'data/grade6/g6homeEconomics-t1week10.js',
                 
+    // Home Economics
+         // Grade 4
+        'data/grade4/g4technologyStudies-t1week02.js',
+        'data/grade4/g4technologyStudies-t1week03.js',
+        'data/grade4/g4technologyStudies-t1week04.js',
+        'data/grade4/g4technologyStudies-t1week05.js',
+        'data/grade4/g4technologyStudies-t1week07.js',
+        'data/grade4/g4technologyStudies-t1week08.js',
+        'data/grade4/g4technologyStudies-t1week09.js',
+        'data/grade4/g4technologyStudies-t1week10.js',
+    
+        // Grade 5
+        'data/grade5/g5technologyStudies-t1week02.js',
+        'data/grade5/g5technologyStudies-t1week03.js',
+        'data/grade5/g5technologyStudies-t1week04.js',
+        'data/grade5/g5technologyStudies-t1week05.js',
+        'data/grade5/g5technologyStudies-t1week07.js',
+        'data/grade5/g5technologyStudies-t1week08.js',
+        'data/grade5/g5technologyStudies-t1week09.js',
+        'data/grade5/g5technologyStudies-t1week10.js',
+            /*
+         // Grade 6
+        'data/grade6/g6technologyStudies-t1week02.js',
+        'data/grade6/g6technologyStudies-t1week03.js',
+        'data/grade6/g6technologyStudies-t1week04.js',
+        'data/grade6/g6technologyStudies-t1week05.js',
+        'data/grade6/g6technologyStudies-t1week07.js',
+        'data/grade6/g6technologyStudies-t1week08.js',
+        'data/grade6/g6technologyStudies-t1week09.js',
+        'data/grade6/g6technologyStudies-t1week10.js',
+                    */
         // ... Add all other files here
     ],
     
@@ -310,6 +341,7 @@ parseFileInfo: function(filePath) {
     else if (filePath.includes('english')) info.subject = 'English';
     else if (filePath.includes('literacy')) info.subject = 'Literacy';
     else if (filePath.includes('socialstudies')) info.subject = 'Social Studies';
+    else if (filePath.includes('technologyStudies')) info.subject = 'Technology Studies';
     else if (filePath.includes('expressiveArts')) info.subject = 'Expressive Arts';
     else if (filePath.includes('homeEconomics')) info.subject = 'Home Economics';
 //    else if (filePath.includes('cts')) info.subject = 'Creative and Technology Studies';
