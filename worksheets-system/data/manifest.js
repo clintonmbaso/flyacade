@@ -210,6 +210,16 @@ const WorksheetManifest = {
     
     // English
          // Grade 4
+        'data/grade1/g1english-t1week02.js',
+        'data/grade1/g1english-t1week03.js',
+        'data/grade1/g1english-t1week04.js',
+        'data/grade1/g1english-t1week05.js',
+        'data/grade1/g1english-t1week07.js',
+        'data/grade1/g1english-t1week08.js',
+        'data/grade1/g1english-t1week09.js',
+        'data/grade1/g1english-t1week10.js',
+    
+             // Grade 4
         'data/grade4/g4english-t1week02.js',
         'data/grade4/g4english-t1week03.js',
         'data/grade4/g4english-t1week04.js',
@@ -301,7 +311,7 @@ const WorksheetManifest = {
         'data/grade5/g5technologyStudies-t1week08.js',
         'data/grade5/g5technologyStudies-t1week09.js',
         'data/grade5/g5technologyStudies-t1week10.js',
-            /*
+            
          // Grade 6
         'data/grade6/g6technologyStudies-t1week02.js',
         'data/grade6/g6technologyStudies-t1week03.js',
@@ -311,7 +321,8 @@ const WorksheetManifest = {
         'data/grade6/g6technologyStudies-t1week08.js',
         'data/grade6/g6technologyStudies-t1week09.js',
         'data/grade6/g6technologyStudies-t1week10.js',
-                    */
+                    
+    
         // ... Add all other files here
     ],
     
