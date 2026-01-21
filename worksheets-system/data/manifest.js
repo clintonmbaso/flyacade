@@ -295,10 +295,10 @@ const WorksheetManifest = {
         'data/grade5/g5english-t1week03.js',
         'data/grade5/g5english-t1week04.js',
         'data/grade5/g5english-t1week05.js',
-//        'data/grade5/g5english-t1week07.js',
-//        'data/grade5/g5english-t1week08.js',
-//        'data/grade5/g5english-t1week09.js',
-//        'data/grade5/g5english-t1week10.js',
+        'data/grade5/g5english-t1week07.js',
+        'data/grade5/g5english-t1week08.js',
+        'data/grade5/g5english-t1week09.js',
+        'data/grade5/g5english-t1week10.js',
     
          // Grade 6
         'data/grade6/g6english-t1week02.js',
