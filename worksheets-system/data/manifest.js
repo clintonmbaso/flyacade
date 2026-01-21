@@ -79,10 +79,10 @@ const WorksheetManifest = {
         'data/grade5/g5math-t1week03.js',
         'data/grade5/g5math-t1week04.js',
         'data/grade5/g5math-t1week05.js',
-        'data/grade5/g5math-week07.js',
-        'data/grade5/g5math-week08.js',
-        'data/grade5/g5math-week09.js',
-        'data/grade5/g5math-week10.js',
+        'data/grade5/g5math-t1week07.js',
+        'data/grade5/g5math-t1week08.js',
+        'data/grade5/g5math-t1week09.js',
+        'data/grade5/g5math-t1week10.js',
                    
          // Grade 6
         'data/grade6/g6math-t1week02.js',
@@ -292,13 +292,13 @@ const WorksheetManifest = {
     
          // Grade 5
         'data/grade5/g5english-t1week02.js',
-//        'data/grade4/g4english-t1week03.js',
-//        'data/grade4/g4english-t1week04.js',
-//        'data/grade4/g4english-t1week05.js',
-//        'data/grade4/g4english-t1week07.js',
-//        'data/grade4/g4english-t1week08.js',
-//        'data/grade4/g4english-t1week09.js',
-//        'data/grade4/g4english-t1week10.js',
+        'data/grade5/g5english-t1week03.js',
+        'data/grade5/g5english-t1week04.js',
+        'data/grade5/g5english-t1week05.js',
+//        'data/grade5/g5english-t1week07.js',
+//        'data/grade5/g5english-t1week08.js',
+//        'data/grade5/g5english-t1week09.js',
+//        'data/grade5/g5english-t1week10.js',
     
          // Grade 6
         'data/grade6/g6english-t1week02.js',
