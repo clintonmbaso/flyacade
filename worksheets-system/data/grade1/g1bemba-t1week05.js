@@ -2,7 +2,7 @@
 const grade1BembaWeek5 = {
     metadata: {
         grade: 1,
-        subject: "Zambian Language (Bemba)",
+        subject: "Zambian Language (Icibemba)",
         week: 5,
         title: "Word Clues and Connections — Building Bemba Sentences",
         description: "Learning to construct oral sentences from word clues and build descriptive sentences"

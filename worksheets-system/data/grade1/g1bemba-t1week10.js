@@ -2,7 +2,7 @@
 const grade1ZambianBembaWeek10 = {
     metadata: {
         grade: 1,
-        subject: "Zambian Language (Bemba)",
+        subject: "Zambian Language (Icibemba)",
         week: 10,
         title: "Ukuposha - Bemba Greetings",
         description: "Learning greetings for different times of day and respectful greetings for adults and peers"

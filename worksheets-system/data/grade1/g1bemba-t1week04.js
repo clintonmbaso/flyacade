@@ -2,7 +2,7 @@
 const grade1BembaWeek4 = {
     metadata: {
         grade: 1,
-        subject: "Zambian Language Bemba",
+        subject: "Zambian Language (Icibemba)",
         week: 4,
         title: "Building Sentences from Actions — Constructing and Completing Oral Sentences",
         description: "Learning to construct simple oral sentences in Bemba based on action pictures and completing sentence stems"

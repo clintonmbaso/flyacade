@@ -2,7 +2,7 @@
 const grade1BembaWeek7 = {
     metadata: {
         grade: 1,
-        subject: "Zambian Language (Bemba)",
+        subject: "Zambian Language (Icibemba)",
         week: 7,
         title: "Ukumanya Ilyo Twalanda—Learning About Ourselves",
         description: "Learning to ask and answer names, and express likes and dislikes in Bemba"
