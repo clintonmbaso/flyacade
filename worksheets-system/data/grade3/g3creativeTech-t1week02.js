@@ -4,186 +4,204 @@ const grade3CreativeTechWeek2 = {
         grade: 3,
         subject: "Creative and Technology Studies",
         week: 2,
-        title: "Tool Safety and First Aid",
-        description: "Learning about safe handling of hand tools and basic first aid procedures"
+        title: "Workspace Safety — Tools and Organization",
+        description: "Learning how to handle, use, and store hand tools safely in the classroom"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Safe Handling of Hand Tools",
-        subtopic: "Safety in handling hand tools",
+        topic: "The Golden Rules of Tool Safety",
+        subtopic: "Identifying common hand tools and practicing safety rules",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn how to use hand tools safely.</p>
-            <p><strong>Key Concept:</strong> Tools help us create and build, but we must use them carefully to prevent accidents.</p>
-            <p><strong>Common Hand Tools:</strong> scissors, hammers, rulers, screwdrivers, pliers</p>
-            <p><strong>Why Safety Matters:</strong></p>
+            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn how to work safely with the tools we use in class.</p>
+            <p><strong>Key Concept:</strong> Tools help us create amazing things, but we must use them carefully to keep everyone safe.</p>
+            <p><strong>Common classroom tools:</strong></p>
             <ul>
-                <li>Tools can cause cuts or bruises if mishandled</li>
-                <li>Proper storage prevents accidents</li>
-                <li>Safe practices protect ourselves and others</li>
-                <li>Following rules makes us responsible tool users</li>
+                <li>Scissors</li>
+                <li>Rulers</li>
+                <li>Glue sticks</li>
+                <li>Pencils and crayons</li>
+                <li>Paint brushes</li>
             </ul>
-            <p><strong>Important Safety Rules:</strong></p>
+            <p><strong>Why do we need safety rules?</strong> Tools can be dangerous if we are playful or careless. Rules keep our hands safe and our classroom happy!</p>
+            <p><strong>Our Golden Rules of Tool Safety:</strong></p>
             <ol>
-                <li>Always carry tools with the <strong>sharp end down</strong></li>
-                <li>Pass tools to others <strong>handle first</strong></li>
-                <li>Keep tools clean and in good condition</li>
-                <li>Never run with tools in your hands</li>
+                <li>Always walk, never run, while carrying a tool</li>
+                <li>Keep your eyes on your work at all times</li>
+                <li>Only use the tool for its intended purpose</li>
+                <li>Pass tools handle-first to another person</li>
             </ol>
-            <p><strong>Proper Storage:</strong> Tools must be cleaned and "packed in safe places" like toolboxes or designated cupboards to prevent accidents.</p>
+            <p><strong>Remember:</strong> Safety first! Then creativity!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tools" style="color: #FF5722;"></i> Safe Tool Carrying</div>
-                <p>"When carrying scissors, point them downward toward the floor." This follows the "sharp end down" rule.</p>
+                <div class="example-title"><i class="fas fa-tools" style="color: #FF9800;"></i> Tool Safety Demo</div>
+                <p>"Pass scissors handle-first to your friend." This keeps fingers safe from sharp points.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-handshake"></i> Safe Handing Over</div>
-                <p>"Pass the hammer to your friend by offering the handle first, not the heavy metal head."</p>
+                <div class="example-title"><i class="fas fa-walking"></i> Walk, Don't Run</div>
+                <p>"Always walk with tools in hand." Running with scissors or pencils can cause accidents.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box"></i> Proper Storage</div>
-                <p>After using tools, clean them and return them to the toolbox or designated cupboard shelf.</p>
+                <div class="example-title"><i class="fas fa-eye"></i> Eyes on Your Work</div>
+                <p>"Look at what you're cutting or drawing." This helps you work carefully and avoid mistakes.</p>
             </div>
         `,
         taskInstructions: "Complete the following activities to practice tool safety rules.",
         taskContent: `
             <div class="task-item">
-                <span class="task-number">1</span> Match the tool to its safe handling rule:
+                <span class="task-number">1</span> Match the tool to its correct use:
                 <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Scissors → _____</div>
-                    <div>☐ Hammer → _____</div>
-                    <div>☐ Ruler → _____</div>
+                    <div>☐ Scissors → For cutting __________</div>
+                    <div>☐ Ruler → For measuring __________</div>
+                    <div>☐ Glue stick → For sticking __________</div>
+                    <div>☐ Pencil → For drawing __________</div>
                 </div>
-                <div style="margin-left: 20px; margin-top: 5px; color: #666;">
-                    A. Store flat in a drawer<br>
-                    B. Carry sharp end down<br>
-                    C. Pass handle first
+                <div class="answer-space" style="height: 30px; margin-top: 10px;">Words: paper, lines, together, pictures</div>
+            </div>
+            <div class="task-item">
+                <span class="task-number">2</span> Circle the safe way to pass scissors:
+                <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 30px;">
+                    <div>
+                        <div>A) Point-first</div>
+                        <div style="font-size: 2em;">✂️➡️</div>
+                    </div>
+                    <div>
+                        <div>B) Handle-first</div>
+                        <div style="font-size: 2em;">🔄✂️</div>
+                    </div>
                 </div>
             </div>
             <div class="task-item">
-                <span class="task-number">2</span> Draw yourself passing a tool safely to a friend:
+                <span class="task-number">3</span> Safety True or False Game:
+                <div style="margin-left: 20px; margin-top: 10px;">
+                    <div>Running with a pencil is safe. → TRUE / FALSE</div>
+                    <div>Using scissors to cut hair is okay. → TRUE / FALSE</div>
+                    <div>Keeping eyes on your work is important. → TRUE / FALSE</div>
+                    <div>Walking with tools is a safety rule. → TRUE / FALSE</div>
+                </div>
+            </div>
+            <div class="task-item">
+                <span class="task-number">4</span> Draw yourself using a tool safely:
                 <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">I am passing the tool __________________________</div>
+                <div class="answer-space" style="height: 40px; margin-top: 10px;">I am safely using a __________ by __________</div>
             </div>
             <div class="task-item">
-                <span class="task-number">3</span> Circle the correct safety action:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Carry scissors with points (up / down)</div>
-                    <div>Pass a hammer (handle first / head first)</div>
-                    <div>After use, tools go (on the floor / in the toolbox)</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Design a "Tool Safety" label for a toolbox:
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
-                    <p style="text-align: center; color: #999; font-size: 0.9em;">Draw a warning sign or write a safety rule here</p>
+                <span class="task-number">5</span> Write two Golden Rules of Tool Safety:
+                <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                    1. ________________________________________<br>
+                    2. ________________________________________
                 </div>
             </div>
         `,
-        homework: "Find one hand tool at home (with permission) and show a family member how to carry it safely.",
+        homework: "Look for one tool at home (like scissors or a ruler) and show a family member how to pass it safely.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Introduction to First Aid",
-        subtopic: "First Aid",
+        topic: "A Place for Everything",
+        subtopic: "Learning to clean, organize, and store tools safely",
         lessonContent: `
-            <p>Today we will learn about First Aid – the first help we give to someone who is injured.</p>
-            <p><strong>Key Concept:</strong> First Aid is the immediate care given to an injured person before professional help arrives.</p>
-            <p><strong>What is First Aid?</strong> The first help given to an injured person.</p>
-            <p><strong>Common Minor Injuries:</strong></p>
+            <p>Today we will learn why packing tools away safely is just as important as using them correctly.</p>
+            <p><strong>Key Concept:</strong> A safe workspace isn't just about how we use tools—it's also about where we put them when we're done.</p>
+            <p><strong>Why is organizing tools important?</strong></p>
             <ul>
-                <li>Cuts and scratches</li>
-                <li>Bruises</li>
-                <li>Nosebleeds</li>
-                <li>Small bumps</li>
+                <li>Prevents tools from getting damaged or lost</li>
+                <li>Stops people from tripping or getting hurt</li>
+                <li>Keeps our classroom neat and ready for creativity</li>
+                <li>Helps us find tools quickly next time</li>
             </ul>
-            <p><strong>Important First Aid Steps:</strong></p>
+            <p><strong>The Danger of Clutter:</strong> Tools left out can cause accidents, get broken, or make our workspace messy.</p>
+            <p><strong>What makes a "Safe Place" for tools?</strong></p>
             <ol>
-                <li><strong>Stay calm</strong> and check the situation</li>
-                <li><strong>Tell an adult</strong> immediately</li>
-                <li><strong>Clean cuts</strong> with water (if minor)</li>
-                <li><strong>For nosebleeds:</strong> Sit upright, lean forward slightly, pinch soft part of nose</li>
-                <li><strong>For bruises:</strong> Apply a cold compress</li>
+                <li><strong>Dry:</strong> No water to prevent rust</li>
+                <li><strong>Organized:</strong> No sharp points or blades sticking out</li>
+                <li><strong>Out of the way:</strong> Not in walking paths</li>
+                <li><strong>Labeled:</strong> So everyone knows where things belong</li>
             </ol>
-            <p><strong>Safety Rule:</strong> Always tell an adult immediately if someone is hurt. Do not try to handle serious injuries yourself!</p>
+            <p><strong>Cleaning Routine:</strong> Always wipe tools and check for damage before storing them.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-first-aid" style="color: #F44336;"></i> First Aid for a Cut</div>
-                <p>"If you get a small cut, wash it gently with clean water and tell an adult."</p>
+                <div class="example-title"><i class="fas fa-box-open" style="color: #4CAF50;"></i> Organized Storage</div>
+                <p>"Scissors go in the scissor bin, handles up." This keeps them safe and easy to find.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-head-side-mask"></i> Nosebleed Help</div>
-                <p>"For a nosebleed: sit up, lean forward, and pinch the soft part of your nose for 5–10 minutes."</p>
+                <div class="example-title"><i class="fas fa-broom"></i> Clean-Up Time</div>
+                <p>"Wipe glue off the table before putting the glue stick away." A clean station is a safe station.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-snowflake"></i> Bruise Care</div>
-                <p>"Apply something cold (like a wrapped ice pack) to a bruise to reduce swelling."</p>
+                <div class="example-title"><i class="fas fa-home"></i> A Home for Every Tool</div>
+                <p>"Every tool has a special place to live when we're not using it." This prevents loss and damage.</p>
             </div>
         `,
-        taskInstructions: "Practice identifying first aid steps and roleplay helping scenarios.",
+        taskInstructions: "Practice organizing, cleaning, and storing tools safely.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: First Aid Match</strong></p>
+                <p><strong>Part A: Safe Storage Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match the injury to the correct first aid:
+                    <span class="task-number">1</span> List three things that make storage safe:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Small cut → _____</div>
-                        <div>☐ Nosebleed → _____</div>
-                        <div>☐ Bruise → _____</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 5px; color: #666;">
-                        A. Apply cold compress<br>
-                        B. Clean with water<br>
-                        C. Sit up, pinch nose
+                        <div>1. ____________________________</div>
+                        <div>2. ____________________________</div>
+                        <div>3. ____________________________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Roleplay Practice</strong></p>
+                <p><strong>Part B: Clean-Up Routine</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write what you would do in each situation:
+                    <span class="task-number">2</span> Number the clean-up steps in order:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Your friend falls and gets a scrape on their knee.</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 5px;">First, I would ______________________________</div>
-                        <div>Your sibling gets a nosebleed while playing.</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 5px;">I would tell them to ___________________________</div>
+                        <div>____ Wipe the tool clean</div>
+                        <div>____ Check for damage</div>
+                        <div>____ Place it in its labeled bin</div>
+                        <div>____ Finish using the tool</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw First Aid Steps</strong></p>
+                <p><strong>Part C: Design a Tool Station</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw someone helping a person with a small cut:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">The helper is ______________________________</div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw the correct position for a nosebleed:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">Sitting upright and leaning forward helps because ________</div>
+                    <span class="task-number">3</span> Draw a safe, organized tool station:
+                    <div class="drawing-area" style="height: 150px;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My station is safe because ___________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Safety Promise</strong></p>
+                <p><strong>Part D: Final Inspection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Complete the safety promise:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #FFEBEE; border-radius: 10px; text-align: center;">
+                    <span class="task-number">4</span> Walk around your classroom. Check one station and answer:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Station: ______________________________</div>
+                        <div>Is it clean? YES / NO</div>
+                        <div>Are tools put away? YES / NO</div>
+                        <div>Is the walking path clear? YES / NO</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Safety Pledge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Sign your safety pledge:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 10px; text-align: center;">
                         <strong>I promise to:<br>
-                        • Tell an adult if someone is hurt<br>
-                        • Stay calm and help safely<br>
-                        • Remember: First Aid is ___________________</strong>
+                        Use tools safely,<br>
+                        Clean up when I'm done,<br>
+        And keep my workspace organized for everyone!</strong>
+                        <div class="answer-space" style="height: 30px; margin-top: 15px; border-top: 1px dashed #ccc; text-align: center;">
+                            Signed: __________________________
+                        </div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Talk to a family member about what to do for a minor cut or nosebleed. Draw a simple first aid step.",
+        homework: "Organize one small area at home (like your desk or art supplies) using the 'safe place' rules you learned.",
         homeworkDue: "Monday"
     }
 };
@@ -191,10 +209,10 @@ const grade3CreativeTechWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3CreativeTechWeek2);
-    console.log("creative-tech-week2.js registered using registerWorksheet()");
+    console.log("creativetech-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3CreativeTechWeek2);
-    console.log("creative-tech-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("creativetech-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -205,9 +223,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3CreativeTechWeek2.metadata,
         days: grade3CreativeTechWeek2
     });
-    console.log("creative-tech-week2.js stored in window.registeredWorksheets");
+    console.log("creativetech-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3CreativeTechWeek2 = grade3CreativeTechWeek2;
-console.log("creative-tech-week2.js loaded and registered successfully");
+console.log("creativetech-week2.js loaded and registered successfully");
