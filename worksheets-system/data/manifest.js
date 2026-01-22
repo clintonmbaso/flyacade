@@ -35,15 +35,25 @@ const WorksheetManifest = {
         'data/reception/receptionmath-t1week10.js',
         */
         // Grade 1
-        'data/grade1/g1math-week02.js',
-        'data/grade1/g1math-week03.js',
-        'data/grade1/g1math-week04.js',
-        'data/grade1/g1math-week05.js',
-        'data/grade1/g1math-week07.js',
-        'data/grade1/g1math-week08.js',
-        'data/grade1/g1math-week09.js',
-        'data/grade1/g1math-week10.js',
-        
+        'data/grade1/g1mathematicsScience-t1week02.js',
+        'data/grade1/g1mathematicsScience-t1week03.js',
+        'data/grade1/g1mathematicsScience-t1week04.js',
+        'data/grade1/g1mathematicsScience-t1week05.js',
+//        'data/grade1/g1mathematicsScience-t1week07.js',
+//        'data/grade1/g1mathematicsScience-t1week08.js',
+//        'data/grade1/g1mathematicsScience-t1week09.js',
+//        'data/grade1/g1mathematicsScience-t1week10.js',
+    
+// Bemba
+        'data/grade1/g1bemba-t1week02.js',
+        'data/grade1/g1bemba-t1week03.js',
+        'data/grade1/g1bemba-t1week04.js',
+        'data/grade1/g1bemba-t1week05.js',
+        'data/grade1/g1bemba-t1week07.js',
+        'data/grade1/g1bemba-t1week08.js',
+        'data/grade1/g1bemba-t1week09.js',
+        'data/grade1/g1bemba-t1week10.js',
+
         // Grade 2
         'data/grade2/g2math-week02.js',
         'data/grade2/g2math-week03.js',
@@ -53,7 +63,17 @@ const WorksheetManifest = {
         'data/grade2/g2math-week08.js',
         'data/grade2/g2math-week09.js',
         'data/grade2/g2math-week10.js',
-        
+                /*
+// Bemba
+        'data/grade2/g2bemba-t1week02.js',
+        'data/grade2/g2bemba-t1week03.js',
+        'data/grade2/g2bemba-t1week04.js',
+        'data/grade2/g2bemba-t1week05.js',
+        'data/grade2/g2bemba-t1week07.js',
+        'data/grade2/g2bemba-t1week08.js',
+        'data/grade2/g2bemba-t1week09.js',
+        'data/grade2/g2bemba-t1week10.js',
+            */        
         // Grade 3
         'data/grade3/g3math-t1week02.js',
         'data/grade3/g3math-t1week03.js',
@@ -115,16 +135,6 @@ const WorksheetManifest = {
         'data/middle/middle-science-week08.js',
         'data/middle/middle-science-week09.js',
         'data/middle/middle-science-week10.js',
-                
-         // Grade 1
-        'data/grade6/g6science-week02.js',
-        'data/grade6/g6science-week03.js',
-        'data/grade6/g6science-week04.js',
-        'data/grade6/g6science-week05.js',
-        'data/grade6/g6science-week07.js',
-        'data/grade6/g6science-week08.js',
-        'data/grade6/g6science-week09.js',
-        'data/grade6/g6science-week10.js',
     
          // Grade 2
         'data/grade6/g6science-week02.js',
@@ -409,6 +419,7 @@ parseFileInfo: function(filePath) {
     
     // Extract subject - FIXED to handle multiple patterns
     if (filePath.includes('math')) info.subject = 'Math';
+    if (filePath.includes('mathematicsScience')) info.subject = 'Mathematics & Science';
     else if (filePath.includes('science')) info.subject = 'Science';
     else if (filePath.includes('english')) info.subject = 'English';
     else if (filePath.includes('literacy')) info.subject = 'Literacy';
@@ -417,7 +428,7 @@ parseFileInfo: function(filePath) {
     else if (filePath.includes('expressiveArts')) info.subject = 'Expressive Arts';
     else if (filePath.includes('homeEconomics')) info.subject = 'Home Economics';
 //    else if (filePath.includes('cts')) info.subject = 'Creative and Technology Studies';
-//    else if (filePath.includes('bemba')) info.subject = 'Literacy in Bemba';
+    else if (filePath.includes('bemba')) info.subject = 'Zambian Language (Icibemba)';
     
     // Extract week
     const weekMatch = filePath.match(/week(\d+)/);
