@@ -55,14 +55,15 @@ const WorksheetManifest = {
         'data/grade1/g1bemba-t1week10.js',
 
         // Grade 2
-        'data/grade2/g2math-week02.js',
-        'data/grade2/g2math-week03.js',
-        'data/grade2/g2math-week04.js',
-        'data/grade2/g2math-week05.js',
-        'data/grade2/g2math-week07.js',
-        'data/grade2/g2math-week08.js',
-        'data/grade2/g2math-week09.js',
-        'data/grade2/g2math-week10.js',
+        'data/grade2/g2mathematicsScience-t1week02.js',
+        'data/grade2/g2mathematicsScience-t1week03.js',
+        'data/grade2/g2mathematicsScience-t1week04.js',
+        'data/grade2/g2mathematicsScience-t1week05.js',
+//        'data/grade2/g2mathematicsScience-t1week07.js',
+//        'data/grade2/g2mathematicsScience-t1week08.js',
+//        'data/grade2/g2mathematicsScience-t1week09.js',
+//        'data/grade2/g2mathematicsScience-t1week10.js',
+
                 /*
 // Bemba
         'data/grade2/g2bemba-t1week02.js',
