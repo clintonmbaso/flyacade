@@ -93,7 +93,17 @@ const WorksheetManifest = {
         'data/grade3/g3mathematicsScience-t1week08.js',
         'data/grade3/g3mathematicsScience-t1week09.js',
         'data/grade3/g3mathematicsScience-t1week10.js',
-            
+    
+    //CTS
+        'data/grade3/g3creativeTech-t1week02.js',
+        'data/grade3/g3creativeTech-t1week03.js',
+        'data/grade3/g3creativeTech-t1week04.js',
+        'data/grade3/g3creativeTech-t1week05.js',
+        'data/grade3/g3creativeTech-t1week07.js',
+        'data/grade3/g3creativeTech-t1week08.js',
+        'data/grade3/g3creativeTech-t1week09.js',
+        'data/grade3/g3creativeTech-t1week10.js',            
+    
         // Grade 4
         'data/grade4/g4math-t1week02.js',
         'data/grade4/g4math-t1week03.js',
@@ -430,7 +440,7 @@ parseFileInfo: function(filePath) {
     else if (filePath.includes('technologyStudies')) info.subject = 'Technology Studies';
     else if (filePath.includes('expressiveArts')) info.subject = 'Expressive Arts';
     else if (filePath.includes('homeEconomics')) info.subject = 'Home Economics';
-//    else if (filePath.includes('cts')) info.subject = 'Creative and Technology Studies';
+    else if (filePath.includes('creativeTech')) info.subject = 'Creative and Technology Studies';
     else if (filePath.includes('bemba')) info.subject = 'Zambian Language (Icibemba)';
     
     // Extract week
