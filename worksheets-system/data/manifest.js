@@ -55,6 +55,7 @@ const WorksheetManifest = {
         'data/grade1/g1bemba-t1week10.js',
 
         // Grade 2
+        // mathematicsScience
         'data/grade2/g2mathematicsScience-t1week02.js',
         'data/grade2/g2mathematicsScience-t1week03.js',
         'data/grade2/g2mathematicsScience-t1week04.js',
@@ -63,8 +64,7 @@ const WorksheetManifest = {
         'data/grade2/g2mathematicsScience-t1week08.js',
         'data/grade2/g2mathematicsScience-t1week09.js',
         'data/grade2/g2mathematicsScience-t1week10.js',
-    
-    //CTS
+        //CTS
         'data/grade2/g2creativeTech-t1week02.js',
         'data/grade2/g2creativeTech-t1week03.js',
         'data/grade2/g2creativeTech-t1week04.js',
@@ -85,6 +85,7 @@ const WorksheetManifest = {
         'data/grade2/g2bemba-t1week10.js',
             */        
         // Grade 3
+    //MathematicsScience
         'data/grade3/g3mathematicsScience-t1week02.js',
         'data/grade3/g3mathematicsScience-t1week03.js',
         'data/grade3/g3mathematicsScience-t1week04.js',
@@ -93,7 +94,6 @@ const WorksheetManifest = {
         'data/grade3/g3mathematicsScience-t1week08.js',
         'data/grade3/g3mathematicsScience-t1week09.js',
         'data/grade3/g3mathematicsScience-t1week10.js',
-    
     //CTS
         'data/grade3/g3creativeTech-t1week02.js',
         'data/grade3/g3creativeTech-t1week03.js',
@@ -104,6 +104,7 @@ const WorksheetManifest = {
         'data/grade3/g3creativeTech-t1week09.js',
         'data/grade3/g3creativeTech-t1week10.js',            
     
+    
         // Grade 4
         'data/grade4/g4math-t1week02.js',
         'data/grade4/g4math-t1week03.js',
@@ -113,7 +114,8 @@ const WorksheetManifest = {
         'data/grade4/g4math-t1week08.js',
         'data/grade4/g4math-t1week09.js',
         'data/grade4/g4math-t1week10.js',
-                
+
+    
          // Grade 5
         'data/grade5/g5math-t1week02.js',
         'data/grade5/g5math-t1week03.js',
@@ -124,6 +126,7 @@ const WorksheetManifest = {
         'data/grade5/g5math-t1week09.js',
         'data/grade5/g5math-t1week10.js',
                    
+    
          // Grade 6
         'data/grade6/g6math-t1week02.js',
         'data/grade6/g6math-t1week03.js',
@@ -157,16 +160,7 @@ const WorksheetManifest = {
         'data/middle/middle-science-week10.js',
     
     */
-         // Grade 3
-        'data/grade3/g3science-t1week02.js',
-        'data/grade3/g3science-t1week03.js',
-        'data/grade3/g3science-t1week04.js',
-        'data/grade3/g3science-t1week05.js',
-        'data/grade3/g3science-t1week07.js',
-        'data/grade3/g3science-t1week08.js',
-        'data/grade3/g3science-t1week09.js',
-        'data/grade3/g3science-t1week10.js',
-    
+
          // Grade 4
         'data/grade4/g4science-t1week02.js',
         'data/grade4/g4science-t1week03.js',
