@@ -2,7 +2,7 @@
 const grade4MathWeek3 = {
     metadata: {
         grade: 4,
-        subject: "Math",
+        subject: "Mathematics",
         term: 1,
         week: 3,
         title: "Understanding Sets: Union and Real-World Applications",
