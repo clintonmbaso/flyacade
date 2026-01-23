@@ -24,7 +24,8 @@ const WorksheetManifest = {
         'data/middle/middle-math-week09.js',
         'data/middle/middle-math-week10.js',
     
-        // Reception
+    // ************* Reception *************
+        // Mathematics
 /*       'data/reception/reception-math-t1week02.js',/*
         'data/reception/receptionmath-t1week03.js',
         'data/reception/receptionmath-t1week04.js',
@@ -73,7 +74,15 @@ const WorksheetManifest = {
         'data/grade1/g1creativeTech-t1week08.js',
         'data/grade1/g1creativeTech-t1week09.js',
         'data/grade1/g1creativeTech-t1week10.js',
-    
+        // Literacy
+        'data/grade1/g1literacy-t1week02.js',
+        'data/grade1/g1literacy-t1week03.js',
+        'data/grade1/g1literacy-t1week04.js',
+        'data/grade1/g1literacy-t1week05.js',
+        'data/grade1/g1literacy-t1week07.js',
+        'data/grade1/g1literacy-t1week08.js',
+        'data/grade1/g1literacy-t1week09.js',
+        'data/grade1/g1literacy-t1week10.js',
     
     // ************* Grade 2 *************
         // mathematicsScience
@@ -169,9 +178,10 @@ const WorksheetManifest = {
         'data/grade3/g3english-t1week08.js',
         'data/grade3/g3english-t1week09.js',
         'data/grade3/g3english-t1week10.js',
-                        
     
-        // Grade 4
+    
+    // ************* Grade 4 *************
+        // Mathematics
         'data/grade4/g4math-t1week02.js',
         'data/grade4/g4math-t1week03.js',
         'data/grade4/g4math-t1week04.js',
@@ -180,9 +190,66 @@ const WorksheetManifest = {
         'data/grade4/g4math-t1week08.js',
         'data/grade4/g4math-t1week09.js',
         'data/grade4/g4math-t1week10.js',
+         // Science
+        'data/grade4/g4science-t1week02.js',
+        'data/grade4/g4science-t1week03.js',
+        'data/grade4/g4science-t1week04.js',
+        'data/grade4/g4science-t1week05.js',
+        'data/grade4/g4science-t1week07.js',
+        'data/grade4/g4science-t1week08.js',
+        'data/grade4/g4science-t1week09.js',
+        'data/grade4/g4science-t1week10.js',
+         // Social Studies
+        'data/grade4/g4socialstudies-t1week02.js',
+        'data/grade4/g4socialstudies-t1week03.js',
+        'data/grade4/g4socialstudies-t1week04.js',
+        'data/grade4/g4socialstudies-t1week05.js',
+        'data/grade4/g4socialstudies-t1week07.js',
+        'data/grade4/g4socialstudies-t1week08.js',
+        'data/grade4/g4socialstudies-t1week09.js',
+        'data/grade4/g4socialstudies-t1week10.js',
+         // Literacy
+        'data/grade4/g4literacy-t1week02.js',
+        'data/grade4/g4literacy-t1week03.js',
+        'data/grade4/g4literacy-t1week04.js',
+        'data/grade4/g4literacy-t1week05.js',
+        'data/grade4/g4literacy-t1week07.js',
+        'data/grade4/g4literacy-t1week08.js',
+        'data/grade4/g4literacy-t1week09.js',
+        'data/grade4/g4literacy-t1week10.js',
+        // English
+        'data/grade4/g4english-t1week02.js',
+        'data/grade4/g4english-t1week03.js',
+        'data/grade4/g4english-t1week04.js',
+        'data/grade4/g4english-t1week05.js',
+        'data/grade4/g4english-t1week07.js',
+        'data/grade4/g4english-t1week08.js',
+        'data/grade4/g4english-t1week09.js',
+        'data/grade4/g4english-t1week10.js',
+         // Home Economics
+        'data/grade4/g4homeEconomics-t1week02.js',
+        'data/grade4/g4homeEconomics-t1week03.js',
+        'data/grade4/g4homeEconomics-t1week04.js',
+        'data/grade4/g4homeEconomics-t1week05.js',
+        'data/grade4/g4homeEconomics-t1week07.js',
+        'data/grade4/g4homeEconomics-t1week08.js',
+        'data/grade4/g4homeEconomics-t1week09.js',
+        'data/grade4/g4homeEconomics-t1week10.js',
+         // Technology Studies
+        'data/grade4/g4technologyStudies-t1week02.js',
+        'data/grade4/g4technologyStudies-t1week03.js',
+        'data/grade4/g4technologyStudies-t1week04.js',
+        'data/grade4/g4technologyStudies-t1week05.js',
+        'data/grade4/g4technologyStudies-t1week07.js',
+        'data/grade4/g4technologyStudies-t1week08.js',
+        'data/grade4/g4technologyStudies-t1week09.js',
+        'data/grade4/g4technologyStudies-t1week10.js',
+    
+
 
     
-         // Grade 5
+    // ************* Grade 5 *************
+        // Mathematics
         'data/grade5/g5math-t1week02.js',
         'data/grade5/g5math-t1week03.js',
         'data/grade5/g5math-t1week04.js',
@@ -191,20 +258,121 @@ const WorksheetManifest = {
         'data/grade5/g5math-t1week08.js',
         'data/grade5/g5math-t1week09.js',
         'data/grade5/g5math-t1week10.js',
-                   
+         // Science
+        'data/grade5/g5science-t1week02.js',
+        'data/grade5/g5science-t1week03.js',
+        'data/grade5/g5science-t1week04.js',
+        'data/grade5/g5science-t1week05.js',
+        'data/grade5/g5science-t1week07.js',
+        'data/grade5/g5science-t1week08.js',
+        'data/grade5/g5science-t1week09.js',
+        'data/grade5/g5science-t1week10.js',
+         // Social Studies
+        'data/grade5/g5socialstudies-t1week02.js',
+        'data/grade5/g5socialstudies-t1week03.js',
+        'data/grade5/g5socialstudies-t1week04.js',
+        'data/grade5/g5socialstudies-t1week05.js',
+        'data/grade5/g5socialstudies-t1week07.js',
+        'data/grade5/g5socialstudies-t1week08.js',
+        'data/grade5/g5socialstudies-t1week09.js',
+        'data/grade5/g5socialstudies-t1week10.js',
+         // English
+        'data/grade5/g5english-t1week02.js',
+        'data/grade5/g5english-t1week03.js',
+        'data/grade5/g5english-t1week04.js',
+        'data/grade5/g5english-t1week05.js',
+        'data/grade5/g5english-t1week07.js',
+        'data/grade5/g5english-t1week08.js',
+        'data/grade5/g5english-t1week09.js',
+        'data/grade5/g5english-t1week10.js',
+        // Technology Studies
+        'data/grade5/g5technologyStudies-t1week02.js',
+        'data/grade5/g5technologyStudies-t1week03.js',
+        'data/grade5/g5technologyStudies-t1week04.js',
+        'data/grade5/g5technologyStudies-t1week05.js',
+        'data/grade5/g5technologyStudies-t1week07.js',
+        'data/grade5/g5technologyStudies-t1week08.js',
+        'data/grade5/g5technologyStudies-t1week09.js',
+        'data/grade5/g5technologyStudies-t1week10.js',
+        // Home Economics
+        'data/grade5/g5homeEconomics-t1week02.js',
+        'data/grade5/g5homeEconomics-t1week03.js',
+        'data/grade5/g5homeEconomics-t1week04.js',
+        'data/grade5/g5homeEconomics-t1week05.js',
+        'data/grade5/g5homeEconomics-t1week07.js',
+        'data/grade5/g5homeEconomics-t1week08.js',
+        'data/grade5/g5homeEconomics-t1week09.js',
+        'data/grade5/g5homeEconomics-t1week10.js',
+                                           
     
-         // Grade 6
+    // ************* Grade 6 *************
+        // Mathematics
         'data/grade6/g6math-t1week02.js',
         'data/grade6/g6math-t1week03.js',
         'data/grade6/g6math-t1week04.js',
         'data/grade6/g6math-t1week05.js',
-        'data/grade5/g5math-t1week07.js',
-        'data/grade5/g5math-t1week08.js',
-        'data/grade5/g5math-t1week09.js',
-        'data/grade5/g5math-t1week10.js',
-                       
-    // Science
-        // Baby
+        'data/grade6/g6math-t1week07.js',
+        'data/grade6/g6math-t1week08.js',
+        'data/grade6/g6math-t1week09.js',
+        'data/grade6/g6math-t1week10.js',
+         // Science
+        'data/grade6/g6science-t1week02.js',
+        'data/grade6/g6science-t1week03.js',
+        'data/grade6/g6science-t1week04.js',
+        'data/grade6/g6science-t1week05.js',
+        'data/grade6/g6science-t1week07.js',
+        'data/grade6/g6science-t1week08.js',
+        'data/grade6/g6science-t1week09.js',
+        'data/grade6/g6science-t1week10.js',
+         // Social Studies
+        'data/grade6/g6socialstudies-t1week02.js',
+        'data/grade6/g6socialstudies-t1week03.js',
+        'data/grade6/g6socialstudies-t1week04.js',
+        'data/grade6/g6socialstudies-t1week05.js',
+        'data/grade6/g6socialstudies-t1week07.js',
+        'data/grade6/g6socialstudies-t1week08.js',
+        'data/grade6/g6socialstudies-t1week09.js',
+        'data/grade6/g6socialstudies-t1week10.js',
+         // English
+//        'data/grade6/g6english-t1week02.js',
+//        'data/grade6/g6english-t1week03.js',
+//        'data/grade6/g6english-t1week04.js',
+//        'data/grade6/g6english-t1week05.js',
+//        'data/grade6/g6english-t1week07.js',
+//        'data/grade6/g6english-t1week08.js',
+//        'data/grade6/g6english-t1week09.js',
+//        'data/grade6/g6english-t1week10.js',
+         // Expressive Arts
+        'data/grade6/g6expressiveArts-t1week02.js',
+        'data/grade6/g6expressiveArts-t1week03.js',
+        'data/grade6/g6expressiveArts-t1week04.js',
+        'data/grade6/g6expressiveArts-t1week05.js',
+        'data/grade6/g6expressiveArts-t1week07.js',
+        'data/grade6/g6expressiveArts-t1week08.js',
+        'data/grade6/g6expressiveArts-t1week09.js',
+        'data/grade6/g6expressiveArts-t1week10.js',
+         // Technology Studies
+        'data/grade6/g6technologyStudies-t1week02.js',
+        'data/grade6/g6technologyStudies-t1week03.js',
+        'data/grade6/g6technologyStudies-t1week04.js',
+        'data/grade6/g6technologyStudies-t1week05.js',
+        'data/grade6/g6technologyStudies-t1week07.js',
+        'data/grade6/g6technologyStudies-t1week08.js',
+        'data/grade6/g6technologyStudies-t1week09.js',
+        'data/grade6/g6technologyStudies-t1week10.js',
+         // Home Economics
+        'data/grade6/g6homeEconomics-t1week02.js',
+        'data/grade6/g6homeEconomics-t1week03.js',
+        'data/grade6/g6homeEconomics-t1week04.js',
+        'data/grade6/g6homeEconomics-t1week05.js',
+        'data/grade6/g6homeEconomics-t1week07.js',
+        'data/grade6/g6homeEconomics-t1week08.js',
+        'data/grade6/g6homeEconomics-t1week09.js',
+        'data/grade6/g6homeEconomics-t1week10.js',
+                                                                        
+                                              
+    // ************* Baby *************
+        // Science
     /*
         'data/baby/baby-science-week02.js',
         'data/baby/baby-science-week03.js',
@@ -215,7 +383,8 @@ const WorksheetManifest = {
         'data/baby/baby-science-week09.js',
         'data/baby/baby-science-week10.js',
             
-        // Middle
+    // ************* Middle *************
+        // Science
         'data/middle/middle-science-week02.js',
         'data/middle/middle-science-week03.js',
         'data/middle/middle-science-week04.js',
@@ -227,79 +396,14 @@ const WorksheetManifest = {
     
     */
 
-         // Grade 4
-        'data/grade4/g4science-t1week02.js',
-        'data/grade4/g4science-t1week03.js',
-        'data/grade4/g4science-t1week04.js',
-        'data/grade4/g4science-t1week05.js',
-        'data/grade4/g4science-t1week07.js',
-        'data/grade4/g4science-t1week08.js',
-        'data/grade4/g4science-t1week09.js',
-        'data/grade4/g4science-t1week10.js',
+
+
+
     
-         // Grade 5
-        'data/grade5/g5science-t1week02.js',
-        'data/grade5/g5science-t1week03.js',
-        'data/grade5/g5science-t1week04.js',
-        'data/grade5/g5science-t1week05.js',
-        'data/grade5/g5science-t1week07.js',
-        'data/grade5/g5science-t1week08.js',
-        'data/grade5/g5science-t1week09.js',
-        'data/grade5/g5science-t1week10.js',
-    
-         // Grade 6
-        'data/grade6/g6science-t1week02.js',
-        'data/grade6/g6science-t1week03.js',
-        'data/grade6/g6science-t1week04.js',
-        'data/grade6/g6science-t1week05.js',
-        'data/grade6/g6science-t1week07.js',
-        'data/grade6/g6science-t1week08.js',
-        'data/grade6/g6science-t1week09.js',
-        'data/grade6/g6science-t1week10.js',
-                       
-    // Social Studies
-         // Grade 5
-        'data/grade5/g5socialstudies-t1week02.js',
-        'data/grade5/g5socialstudies-t1week03.js',
-        'data/grade5/g5socialstudies-t1week04.js',
-        'data/grade5/g5socialstudies-t1week05.js',
-        'data/grade5/g5socialstudies-t1week07.js',
-        'data/grade5/g5socialstudies-t1week08.js',
-        'data/grade5/g5socialstudies-t1week09.js',
-//        'data/grade5/g5socialstudies-t1week10.js',
-    
-         // Grade 6
-        'data/grade6/g6socialstudies-t1week02.js',
-        'data/grade6/g6socialstudies-t1week03.js',
-        'data/grade6/g6socialstudies-t1week04.js',
-        'data/grade6/g6socialstudies-t1week05.js',
-        'data/grade6/g6socialstudies-t1week07.js',
-        'data/grade6/g6socialstudies-t1week08.js',
-        'data/grade6/g6socialstudies-t1week09.js',
-        'data/grade6/g6socialstudies-t1week10.js',
                                
-    // Literacy
-         // Grade 1
-        'data/grade1/g1literacy-t1week02.js',
-        'data/grade1/g1literacy-t1week03.js',
-        'data/grade1/g1literacy-t1week04.js',
-        'data/grade1/g1literacy-t1week05.js',/*
-        'data/grade1/g1literacy-t1week07.js',
-        'data/grade1/g1literacy-t1week08.js',
-        'data/grade1/g1literacy-t1week09.js',
-        'data/grade1/g1literacy-t1week10.js',
-    */
+
     
 
-         // Grade 4
-        'data/grade4/g4literacy-t1week02.js',
-        'data/grade4/g4literacy-t1week03.js',
-        'data/grade4/g4literacy-t1week04.js',
-        'data/grade4/g4literacy-t1week05.js',
-        'data/grade4/g4literacy-t1week07.js',
-        'data/grade4/g4literacy-t1week08.js',
-        'data/grade4/g4literacy-t1week09.js',
-        'data/grade4/g4literacy-t1week10.js',
     
     // English
         // Reception
@@ -313,109 +417,9 @@ const WorksheetManifest = {
         'data/reception/reception-english-t1week10.js',
     
 
-             // Grade 4
-        'data/grade4/g4english-t1week02.js',
-        'data/grade4/g4english-t1week03.js',
-        'data/grade4/g4english-t1week04.js',
-        'data/grade4/g4english-t1week05.js',
-        'data/grade4/g4english-t1week07.js',
-        'data/grade4/g4english-t1week08.js',
-        'data/grade4/g4english-t1week09.js',
-//        'data/grade4/g4english-t1week10.js',
-    
-         // Grade 5
-        'data/grade5/g5english-t1week02.js',
-        'data/grade5/g5english-t1week03.js',
-        'data/grade5/g5english-t1week04.js',
-        'data/grade5/g5english-t1week05.js',
-        'data/grade5/g5english-t1week07.js',
-        'data/grade5/g5english-t1week08.js',
-        'data/grade5/g5english-t1week09.js',
-        'data/grade5/g5english-t1week10.js',
-    
-         // Grade 6
-        'data/grade6/g6english-t1week02.js',
-//        'data/grade4/g4english-t1week03.js',
-//        'data/grade4/g4english-t1week04.js',
-//        'data/grade4/g4english-t1week05.js',
-//        'data/grade4/g4english-t1week07.js',
-//        'data/grade4/g4english-t1week08.js',
-//        'data/grade4/g4english-t1week09.js',
-//        'data/grade4/g4english-t1week10.js',
-            
-    // Expressive Arts
-         // Grade 6
-        'data/grade6/g6expressiveArts-t1week02.js',
-        'data/grade6/g6expressiveArts-t1week03.js',
-//        'data/grade6/g6expressiveArts-t1week04.js',
-//        'data/grade6/g6expressiveArts-t1week05.js',
-//        'data/grade6/g6expressiveArts-t1week07.js',
-//        'data/grade6/g6expressiveArts-t1week08.js',
-//        'data/grade6/g6expressiveArts-t1week09.js',
-//        'data/grade6/g6expressiveArts-t1week10.js',
-        
-    // Home Economics
-         // Grade 4
-        'data/grade4/g4homeEconomics-t1week02.js',
-        'data/grade4/g4homeEconomics-t1week03.js',
-        'data/grade4/g4homeEconomics-t1week04.js',
-        'data/grade4/g4homeEconomics-t1week05.js',
-        'data/grade4/g4homeEconomics-t1week07.js',
-        'data/grade4/g4homeEconomics-t1week08.js',
-        'data/grade4/g4homeEconomics-t1week09.js',
-        'data/grade4/g4homeEconomics-t1week10.js',
-    
-        // Grade 5
-        'data/grade5/g5homeEconomics-t1week02.js',
-        'data/grade5/g5homeEconomics-t1week03.js',
-        'data/grade5/g5homeEconomics-t1week04.js',
-        'data/grade5/g5homeEconomics-t1week05.js',
-        'data/grade5/g5homeEconomics-t1week07.js',
-        'data/grade5/g5homeEconomics-t1week08.js',
-        'data/grade5/g5homeEconomics-t1week09.js',
-        'data/grade5/g5homeEconomics-t1week10.js',
-            
-         // Grade 6
-        'data/grade6/g6homeEconomics-t1week02.js',
-        'data/grade6/g6homeEconomics-t1week03.js',
-        'data/grade6/g6homeEconomics-t1week04.js',
-        'data/grade6/g6homeEconomics-t1week05.js',
-        'data/grade6/g6homeEconomics-t1week07.js',
-        'data/grade6/g6homeEconomics-t1week08.js',
-        'data/grade6/g6homeEconomics-t1week09.js',
-        'data/grade6/g6homeEconomics-t1week10.js',
-                
-    // Home Economics
-         // Grade 4
-        'data/grade4/g4technologyStudies-t1week02.js',
-        'data/grade4/g4technologyStudies-t1week03.js',
-        'data/grade4/g4technologyStudies-t1week04.js',
-        'data/grade4/g4technologyStudies-t1week05.js',
-        'data/grade4/g4technologyStudies-t1week07.js',
-        'data/grade4/g4technologyStudies-t1week08.js',
-        'data/grade4/g4technologyStudies-t1week09.js',
-        'data/grade4/g4technologyStudies-t1week10.js',
-    
-        // Grade 5
-        'data/grade5/g5technologyStudies-t1week02.js',
-        'data/grade5/g5technologyStudies-t1week03.js',
-        'data/grade5/g5technologyStudies-t1week04.js',
-        'data/grade5/g5technologyStudies-t1week05.js',
-        'data/grade5/g5technologyStudies-t1week07.js',
-        'data/grade5/g5technologyStudies-t1week08.js',
-        'data/grade5/g5technologyStudies-t1week09.js',
-        'data/grade5/g5technologyStudies-t1week10.js',
-            
-         // Grade 6
-        'data/grade6/g6technologyStudies-t1week02.js',
-        'data/grade6/g6technologyStudies-t1week03.js',
-        'data/grade6/g6technologyStudies-t1week04.js',
-        'data/grade6/g6technologyStudies-t1week05.js',
-        'data/grade6/g6technologyStudies-t1week07.js',
-        'data/grade6/g6technologyStudies-t1week08.js',
-        'data/grade6/g6technologyStudies-t1week09.js',
-        'data/grade6/g6technologyStudies-t1week10.js',
-                    
+
+
+
     
         // ... Add all other files here
     ],
