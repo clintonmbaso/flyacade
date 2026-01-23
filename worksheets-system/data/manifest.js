@@ -64,6 +64,15 @@ const WorksheetManifest = {
         'data/grade1/g1english-t1week08.js',
         'data/grade1/g1english-t1week09.js',
         'data/grade1/g1english-t1week10.js',
+        //CTS
+        'data/grade1/g1creativeTech-t1week02.js',
+        'data/grade1/g1creativeTech-t1week03.js',
+        'data/grade1/g1creativeTech-t1week04.js',
+        'data/grade1/g1creativeTech-t1week05.js',
+        'data/grade1/g1creativeTech-t1week07.js',
+        'data/grade1/g1creativeTech-t1week08.js',
+        'data/grade1/g1creativeTech-t1week09.js',
+        'data/grade1/g1creativeTech-t1week10.js',
     
     
     // ************* Grade 2 *************
