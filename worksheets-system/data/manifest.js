@@ -2,9 +2,18 @@
 // This file lists all available worksheet files without loading them
 const WorksheetManifest = {
     files: [
-        // Mathematics
-        // Baby
     /*
+    // ************* Baby *************
+        // Science
+        'data/baby/baby-science-week02.js',
+        'data/baby/baby-science-week03.js',
+        'data/baby/baby-science-week04.js',
+        'data/baby/baby-science-week05.js',
+        'data/baby/baby-science-week07.js',
+        'data/baby/baby-science-week08.js',
+        'data/baby/baby-science-week09.js',
+        'data/baby/baby-science-week10.js',
+        // Mathematics
         'data/baby/baby-math-week02.js',
         'data/baby/baby-math-week03.js',
         'data/baby/baby-math-week04.js',
@@ -14,7 +23,18 @@ const WorksheetManifest = {
         'data/baby/baby-math-week09.js',
         'data/baby/baby-math-week10.js',
         */
-        // Middle
+    
+    // ************* Middle *************
+        // Science
+        'data/middle/middle-science-week02.js',
+        'data/middle/middle-science-week03.js',
+        'data/middle/middle-science-week04.js',
+        'data/middle/middle-science-week05.js',
+        'data/middle/middle-science-week07.js',
+        'data/middle/middle-science-week08.js',
+        'data/middle/middle-science-week09.js',
+        'data/middle/middle-science-week10.js',
+        // Mathematics
         'data/middle/middle-math-week02.js',
         'data/middle/middle-math-week03.js',
         'data/middle/middle-math-week04.js',
@@ -23,10 +43,10 @@ const WorksheetManifest = {
         'data/middle/middle-math-week08.js',
         'data/middle/middle-math-week09.js',
         'data/middle/middle-math-week10.js',
-    
+    /*
     // ************* Reception *************
         // Mathematics
-/*       'data/reception/reception-math-t1week02.js',/*
+        'data/reception/reception-math-t1week02.js',
         'data/reception/receptionmath-t1week03.js',
         'data/reception/receptionmath-t1week04.js',
         'data/reception/receptionmath-t1week05.js',
@@ -34,6 +54,15 @@ const WorksheetManifest = {
         'data/reception/receptionmath-t1week08.js',
         'data/reception/receptionmath-t1week09.js',
         'data/reception/receptionmath-t1week10.js',
+        // English
+        'data/reception/reception-english-t1week02.js',
+        'data/reception/reception-english-t1week03.js',
+        'data/reception/reception-english-t1week04.js',
+        'data/reception/reception-english-t1week05.js',
+        'data/reception/reception-english-t1week07.js',
+        'data/reception/reception-english-t1week08.js',
+        'data/reception/reception-english-t1week09.js',
+        'data/reception/reception-english-t1week10.js',
         */
     
     
@@ -245,8 +274,6 @@ const WorksheetManifest = {
         'data/grade4/g4technologyStudies-t1week09.js',
         'data/grade4/g4technologyStudies-t1week10.js',
     
-
-
     
     // ************* Grade 5 *************
         // Mathematics
@@ -371,30 +398,7 @@ const WorksheetManifest = {
         'data/grade6/g6homeEconomics-t1week10.js',
                                                                         
                                               
-    // ************* Baby *************
-        // Science
-    /*
-        'data/baby/baby-science-week02.js',
-        'data/baby/baby-science-week03.js',
-        'data/baby/baby-science-week04.js',
-        'data/baby/baby-science-week05.js',
-        'data/baby/baby-science-week07.js',
-        'data/baby/baby-science-week08.js',
-        'data/baby/baby-science-week09.js',
-        'data/baby/baby-science-week10.js',
-            
-    // ************* Middle *************
-        // Science
-        'data/middle/middle-science-week02.js',
-        'data/middle/middle-science-week03.js',
-        'data/middle/middle-science-week04.js',
-        'data/middle/middle-science-week05.js',
-        'data/middle/middle-science-week07.js',
-        'data/middle/middle-science-week08.js',
-        'data/middle/middle-science-week09.js',
-        'data/middle/middle-science-week10.js',
-    
-    */
+
 
 
 
@@ -405,17 +409,7 @@ const WorksheetManifest = {
     
 
     
-    // English
-        // Reception
-        'data/reception/reception-english-t1week02.js',
-        'data/reception/reception-english-t1week03.js',
-        'data/reception/reception-english-t1week04.js',
-        'data/reception/reception-english-t1week05.js',
-        'data/reception/reception-english-t1week07.js',
-        'data/reception/reception-english-t1week08.js',
-        'data/reception/reception-english-t1week09.js',
-        'data/reception/reception-english-t1week10.js',
-    
+
 
 
 
@@ -445,8 +439,8 @@ parseFileInfo: function(filePath) {
     else if (filePath.includes('reception')) info.grade = 'reception';
     
     // Extract subject - FIXED to handle multiple patterns
-    if (filePath.includes('math')) info.subject = 'Math';
-    if (filePath.includes('mathematicsScience')) info.subject = 'Mathematics & Science';
+    if (filePath.includes('math')) info.subject = 'Mathematics';
+    else if (filePath.includes('mathematicsScience')) info.subject = 'Mathematics & Science';
     else if (filePath.includes('science')) info.subject = 'Science';
     else if (filePath.includes('english')) info.subject = 'English';
     else if (filePath.includes('literacy')) info.subject = 'Literacy';
