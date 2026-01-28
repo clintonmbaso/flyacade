@@ -44,48 +44,48 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Nestlings Navigators',
             logo: '../images/Classes_3.png',
             teacher: {
-                name: 'Mr. Mbaso',
-                picture: '../images/teachers/FS20BC0001.jpg'
+                name: 'Teacher Elizerbeth',
+                picture: '../images/teachers/FS20BC0019.jpg'
             }
         },
         '1': {
             name: 'Feather Flyers',
             logo: '../images/Classes_4.png',
             teacher: {
-                name: 'Mr. Mbaso',
-                picture: '../images/teachers/FS20BC0001.jpg'
+                name: 'Teacher Elizerbeth',
+                picture: '../images/teachers/FS20BC0019.jpg'
             }
         },
         '2': {
             name: 'Cloud Chicks',
             logo: '../images/Classes_5.png',
             teacher: {
-                name: 'Teacher Faith',
-                picture: '../images/teachers/FS20BC0011.jpg'
+                name: 'Teacher Elly',
+                picture: '../images/teachers/FS20BC0017.jpg'
             }
         },
         '3': {
             name: 'Wing Whiz',
             logo: '../images/Classes_6.png',
             teacher: {
-                name: 'Teacher Faith',
-                picture: '../images/teachers/FS20BC0011.jpg'
+                name: 'Teacher Elly',
+                picture: '../images/teachers/FS20BC0017.jpg'
             }
         },
         '4': {
             name: 'Sky Soarers',
             logo: '../images/Classes_7.png',
             teacher: {
-                name: 'Mr. Mbaso',
-                picture: '../images/teachers/FS20BC0001.jpg'
+                name: 'Teacher Gladys',
+                picture: '../images/teachers/FS20BC0018.jpg'
             }
         },
         '5': {
             name: 'Avian Aces',
             logo: '../images/Classes_8.png',
             teacher: {
-                name: 'Mr. Mbaso',
-                picture: '../images/teachers/FS20BC0001.jpg'
+                name: 'Teacher Gladys',
+                picture: '../images/teachers/FS20BC0018.jpg'
             }
         },
         '6': {
@@ -335,7 +335,7 @@ function processQuestionText(question) {
         nextPageBtn.addEventListener('click', goToNextPage);
         completeWorkbookBtn.addEventListener('click', markWorkbookAsComplete);
         themeToggle.addEventListener('click', toggleTheme);
-        printBtn.addEventListener('click', () => window.print());
+        printBtn.addEventListener('click', printAllPages);
         gradeSelect.addEventListener('change', applyFilters);
         termSelect.addEventListener('change', applyFilters);
         subjectSelect.addEventListener('change', applyFilters);
@@ -1141,6 +1141,214 @@ function getSavedAnswers() {
         return totalQuestions > 0 ? Math.round((answeredQuestions / totalQuestions) * 100) : 0;
     }
 
+
+ 
+function printAllPages() {
+    if (!currentWorkbook) {
+        window.print();
+        return;
+    }
+    
+    // Store original state
+    const originalContent = workbookContent.innerHTML;
+    const originalPageIndex = currentPageIndex;
+    
+    // Create a container for all pages
+    let allPagesHTML = '<div class="print-all-pages-container">';
+    
+    // Add workbook header
+    allPagesHTML += `
+        <div class="print-workbook-header" style="text-align: center; margin-bottom: 30px; page-break-after: avoid;">
+            <h1>${currentWorkbook.title}</h1>
+            <p>${currentWorkbook.description || ''}</p>
+            <hr style="margin: 20px 0;">
+        </div>
+    `;
+    
+    // Generate HTML for ALL pages
+    currentWorkbook.pages.forEach((page, pageIndex) => {
+        const savedAnswers = getSavedAnswers();
+        const pageAnswers = savedAnswers[page.id] || {};
+        
+        let pageHTML = `
+            <div class="print-page" style="page-break-before: always; margin-bottom: 40px;">
+                <div class="print-page-header" style="border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px;">
+                    <h2 style="margin: 0; color: #003366;">Page ${pageIndex + 1}: ${page.title}</h2>
+                </div>
+        `;
+        
+        page.processedExercises.forEach((exercise, exIndex) => {
+            pageHTML += `
+                <div class="print-exercise" style="margin-bottom: 25px;">
+                    <h3 style="color: #0056b3; border-left: 4px solid #0056b3; padding-left: 10px;">${exercise.title}</h3>
+            `;
+            
+            exercise.questions.forEach((question, qIndex) => {
+                const questionId = `${page.id}_${exercise.id}_${qIndex}`;
+                const savedAnswer = pageAnswers[questionId];
+                
+                pageHTML += `
+                    <div class="print-question" style="margin: 15px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px;">
+                        <div class="question-text" style="font-weight: bold; margin-bottom: 10px;">
+                            ${qIndex + 1}. ${question.text || question.question || questionTemplates[question.type]?.title || 'Activity'}
+                        </div>
+                        ${renderPrintableQuestion(question, questionId, savedAnswer)}
+                    </div>
+                `;
+            });
+            
+            pageHTML += `</div>`;
+        });
+        
+        pageHTML += `</div>`;
+        allPagesHTML += pageHTML;
+    });
+    
+    allPagesHTML += '</div>';
+    
+    // Create a temporary print window
+    const printWindow = window.open('', '_blank');
+    printWindow.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>${currentWorkbook.title} - All Pages</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    line-height: 1.4;
+                }
+                @media print {
+                    body { margin: 0; }
+                    .print-page {
+                        page-break-after: always;
+                        padding: 15mm;
+                    }
+                    .print-page:last-child {
+                        page-break-after: auto;
+                    }
+                    .print-page-header {
+                        border-bottom: 2px solid #000 !important;
+                    }
+                }
+                .print-question {
+                    background: #f9f9f9;
+                }
+                .option {
+                    margin: 5px 0;
+                    padding: 5px;
+                }
+                .selected-answer {
+                    background: #e8f4fd;
+                    border-left: 4px solid #007bff;
+                    padding: 8px;
+                    margin: 5px 0;
+                    font-weight: bold;
+                }
+                .answer-input:checked + label {
+                    background: #e8f4fd !important;
+                    font-weight: bold;
+                }
+                textarea.free-response {
+                    width: 100%;
+                    min-height: 60px;
+                    background: white;
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                }
+            </style>
+        </head>
+        <body>
+            ${allPagesHTML}
+            <script>
+                window.onload = function() {
+                    window.print();
+                    setTimeout(function() {
+                        window.close();
+                    }, 1000);
+                };
+            </script>
+        </body>
+        </html>
+    `);
+    printWindow.document.close();
+}
+
+function renderPrintableQuestion(question, questionId, savedAnswer) {
+    question = processQuestionText(question);
+    
+    let questionHTML = '';
+    
+    switch(question.type) {
+        case 'multiple-choice':
+            questionHTML = `
+                <div class="print-options">
+                    ${question.options.map((option, index) => {
+                        const isSelected = savedAnswer === index.toString();
+                        return `
+                            <div class="option ${isSelected ? 'selected-answer' : ''}">
+                                <input type="radio" 
+                                       id="print_${questionId}_${index}" 
+                                       name="print_${questionId}" 
+                                       ${isSelected ? 'checked' : ''}
+                                       disabled>
+                                <label for="print_${questionId}_${index}">
+                                    ${option.text || option}
+                                </label>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+            break;
+            
+        case 'true-false':
+            questionHTML = `
+                <div class="print-options">
+                    <div class="option ${savedAnswer === 'true' ? 'selected-answer' : ''}">
+                        <input type="radio" name="print_${questionId}" 
+                               ${savedAnswer === 'true' ? 'checked' : ''} disabled>
+                        <label>True</label>
+                    </div>
+                    <div class="option ${savedAnswer === 'false' ? 'selected-answer' : ''}">
+                        <input type="radio" name="print_${questionId}" 
+                               ${savedAnswer === 'false' ? 'checked' : ''} disabled>
+                        <label>False</label>
+                    </div>
+                </div>
+            `;
+            break;
+            
+        case 'free-response':
+            questionHTML = `
+                <div class="free-response-answer">
+                    <textarea class="free-response" disabled>${savedAnswer || ''}</textarea>
+                </div>
+            `;
+            break;
+            
+        default:
+            questionHTML = `
+                <div class="activity-notice">
+                    <em>Interactive activity - See digital version for full experience</em>
+                    ${savedAnswer ? `<div class="user-answer">Your response: ${savedAnswer}</div>` : ''}
+                </div>
+            `;
+    }
+    
+    // Add image if present
+    if (question.image) {
+        questionHTML = `
+            <div class="question-image" style="text-align: center; margin: 10px 0;">
+                <img src="${question.image}" style="max-width: 300px; max-height: 200px;" alt="Question image">
+            </div>
+        ` + questionHTML;
+    }
+    
+    return questionHTML;
+}
+    
     function toggleTheme() {
         const currentTheme = document.documentElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
