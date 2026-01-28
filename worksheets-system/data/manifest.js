@@ -113,6 +113,7 @@ const WorksheetManifest = {
         'data/grade1/g1literacy-t1week09.js',
         'data/grade1/g1literacy-t1week10.js',
     
+    
     // ************* Grade 2 *************
         // mathematicsScience
         'data/grade2/g2mathematicsScience-t1week02.js',
@@ -439,8 +440,8 @@ parseFileInfo: function(filePath) {
     else if (filePath.includes('reception')) info.grade = 'reception';
     
     // Extract subject - FIXED to handle multiple patterns
-    if (filePath.includes('math')) info.subject = 'Mathematics';
-    else if (filePath.includes('mathematicsScience')) info.subject = 'Mathematics & Science';
+    if (filePath.includes('mathematicsScience')) info.subject = 'Mathematics & Science';
+    else if (filePath.includes('math')) info.subject = 'Mathematics';
     else if (filePath.includes('science')) info.subject = 'Science';
     else if (filePath.includes('english')) info.subject = 'English';
     else if (filePath.includes('literacy')) info.subject = 'Literacy';
