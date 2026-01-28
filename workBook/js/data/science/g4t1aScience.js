@@ -11,23 +11,7 @@ registerWorkbook({
             title: 'Multiple Choice',
             questionLimit: 10,
             exercises: [
-                {
-                    id: 'section1',
-                    title: 'Pressure',
-                    questions: [
-                    
-                    
-                            
-                    ]
-                },
-                {
-                    id: 'section2',
-                    title: 'Communication',
-                    questions: [
-                    
-                            
-                    ]
-                },            
+
             
             
             ]
