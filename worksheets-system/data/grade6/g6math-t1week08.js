@@ -2,7 +2,7 @@
 const grade6MathWeek8 = {
     metadata: {
         grade: 6,
-        subject: "Math",
+        subject: "Mathematics",
         term: 1,
         week: 8,
         title: "Estimation and Rounding in the Real World",

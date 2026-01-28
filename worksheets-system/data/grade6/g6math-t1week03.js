@@ -2,7 +2,7 @@
 const grade6MathWeek3 = {
     metadata: {
         grade: 6,
-        subject: "Math",
+        subject: "Mathematics",
         term: 1,
         week: 3,
         title: "Understanding Index Notation",

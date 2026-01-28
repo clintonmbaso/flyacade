@@ -2,7 +2,7 @@
 const grade6MathWeek4 = {
     metadata: {
         grade: 6,
-        subject: "Math",
+        subject: "Mathematics",
         term: 1,
         week: 4,
         title: "Squares, Cubes, and Sequences",
