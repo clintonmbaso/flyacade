@@ -264,29 +264,115 @@ function processQuestionText(question) {
     
     
     // Initialize the app
-    function init() {
-        if (!window.workbooks) window.workbooks = [];
-        updateFilterOptions();
-        setupEventListeners();
-        loadThemePreference();
-        renderWorkbookList();
+function init() {
+    if (!window.workbooks) window.workbooks = [];
+    
+    // Wait a moment for workbooks to be registered if still loading
+    if (window.workbooks.length === 0) {
+        setTimeout(init, 100);
+        return;
+    }
+    
+    updateFilterOptions();
+    setupEventListeners();
+    loadThemePreference();
+    renderWorkbookList();
+}
+
+// Replace the existing updateFilterOptions function with this:
+function updateFilterOptions() {
+    // Clear existing options first
+    gradeSelect.innerHTML = '';
+    termSelect.innerHTML = '';
+    subjectSelect.innerHTML = '';
+
+    // Add default options
+    const allGradeOption = document.createElement('option');
+    allGradeOption.value = 'all';
+    allGradeOption.textContent = 'All Grades';
+    gradeSelect.appendChild(allGradeOption);
+
+    const allTermOption = document.createElement('option');
+    allTermOption.value = 'all';
+    allTermOption.textContent = 'All Terms';
+    termSelect.appendChild(allTermOption);
+
+    const allSubjectOption = document.createElement('option');
+    allSubjectOption.value = 'all';
+    allSubjectOption.textContent = 'All Subjects';
+    subjectSelect.appendChild(allSubjectOption);
+
+    // Populate grade filter with all available grades
+    const grades = new Set();
+    window.workbooks.forEach(workbook => {
+        grades.add(workbook.grade);
+    });
+    
+    [...grades].sort().forEach(grade => {
+        const option = document.createElement('option');
+        option.value = grade;
+        option.textContent = classData[grade]?.name || `Grade ${grade}`;
+        gradeSelect.appendChild(option);
+    });
+
+    // Initial population based on selected grade
+    updateTermOptions();
+    updateSubjectOptions();
+}
+
+// Add these new helper functions:
+function updateTermOptions() {
+    const selectedGrade = gradeSelect.value;
+    
+    // Clear term options except the "All" option
+    while (termSelect.children.length > 1) {
+        termSelect.removeChild(termSelect.lastChild);
     }
 
-    function updateFilterOptions() {
-        const grades = new Set();
-        const terms = new Set();
-        const subjects = new Set();
-
-        window.workbooks.forEach(workbook => {
-            grades.add(workbook.grade);
+    const terms = new Set();
+    window.workbooks.forEach(workbook => {
+        if (selectedGrade === 'all' || workbook.grade.toString() === selectedGrade) {
             terms.add(workbook.term);
-            subjects.add(workbook.subject);
-        });
+        }
+    });
 
-        populateSelect(gradeSelect, [...grades].sort());
-        populateSelect(termSelect, [...terms].sort());
-        populateSelect(subjectSelect, [...subjects].sort());
+    [...terms].sort().forEach(term => {
+        const option = document.createElement('option');
+        option.value = term;
+        option.textContent = `Term ${term}`;
+        termSelect.appendChild(option);
+    });
+
+    // Update subject options when term changes
+    updateSubjectOptions();
+}
+
+function updateSubjectOptions() {
+    const selectedGrade = gradeSelect.value;
+    const selectedTerm = termSelect.value;
+    
+    // Clear subject options except the "All" option
+    while (subjectSelect.children.length > 1) {
+        subjectSelect.removeChild(subjectSelect.lastChild);
     }
+
+    const subjects = new Set();
+    window.workbooks.forEach(workbook => {
+        const gradeMatch = selectedGrade === 'all' || workbook.grade.toString() === selectedGrade;
+        const termMatch = selectedTerm === 'all' || workbook.term.toString() === selectedTerm;
+        
+        if (gradeMatch && termMatch) {
+            subjects.add(workbook.subject);
+        }
+    });
+
+    [...subjects].sort().forEach(subject => {
+        const option = document.createElement('option');
+        option.value = subject;
+        option.textContent = subject;
+        subjectSelect.appendChild(option);
+    });
+}
 
     function populateSelect(selectElement, options) {
         selectElement.innerHTML = '';
@@ -316,40 +402,54 @@ function processQuestionText(question) {
         return shuffled;
     }
 
-    function applyFilters() {
-        const grade = gradeSelect.value;
-        const term = termSelect.value;
-        const subject = subjectSelect.value;
+function applyFilters() {
+    const grade = gradeSelect.value;
+    const term = termSelect.value;
+    const subject = subjectSelect.value;
+    
+    const filtered = window.workbooks.filter(workbook => {
+        const gradeMatch = grade === 'all' || workbook.grade.toString() === grade;
+        const termMatch = term === 'all' || workbook.term.toString() === term;
+        const subjectMatch = subject === 'all' || workbook.subject === subject;
         
-        const filtered = window.workbooks.filter(workbook => {
-            return (grade === 'all' || workbook.grade.toString() === grade) &&
-                   (term === 'all' || workbook.term.toString() === term) &&
-                   (subject === 'all' || workbook.subject === subject);
-        });
-        
-        renderWorkbookList(filtered);
-    }
+        return gradeMatch && termMatch && subjectMatch;
+    });
+    
+    renderWorkbookList(filtered);
+}
 
     function setupEventListeners() {
-        prevPageBtn.addEventListener('click', goToPreviousPage);
-        nextPageBtn.addEventListener('click', goToNextPage);
-        completeWorkbookBtn.addEventListener('click', markWorkbookAsComplete);
-        themeToggle.addEventListener('click', toggleTheme);
-        printBtn.addEventListener('click', printAllPages);
-        gradeSelect.addEventListener('change', applyFilters);
-        termSelect.addEventListener('change', applyFilters);
-        subjectSelect.addEventListener('change', applyFilters);
-        showResultsBtn.addEventListener('click', showResults);
-        printAnswersBtn.addEventListener('click', printAnswerKey);
-        
-        workbookContent.addEventListener('change', function(e) {
-            if (e.target.classList.contains('answer-input') || e.target.classList.contains('free-response')) {
-                saveAnswers();
-                updateProgress();
-                checkCompletionStatus();
-            }
-        });
-    }
+    prevPageBtn.addEventListener('click', goToPreviousPage);
+    nextPageBtn.addEventListener('click', goToNextPage);
+    completeWorkbookBtn.addEventListener('click', markWorkbookAsComplete);
+    themeToggle.addEventListener('click', toggleTheme);
+    printBtn.addEventListener('click', printAllPages);
+    
+    // Update event listeners for filters
+    gradeSelect.addEventListener('change', function() {
+        updateTermOptions();
+        updateSubjectOptions();
+        applyFilters();
+    });
+    
+    termSelect.addEventListener('change', function() {
+        updateSubjectOptions();
+        applyFilters();
+    });
+    
+    subjectSelect.addEventListener('change', applyFilters);
+    
+    showResultsBtn.addEventListener('click', showResults);
+    printAnswersBtn.addEventListener('click', printAnswerKey);
+    
+    workbookContent.addEventListener('change', function(e) {
+        if (e.target.classList.contains('answer-input') || e.target.classList.contains('free-response')) {
+            saveAnswers();
+            updateProgress();
+            checkCompletionStatus();
+        }
+    });
+}
 
     function createWorkbookCard(workbook) {
         const progress = getWorkbookProgress(workbook.id);
