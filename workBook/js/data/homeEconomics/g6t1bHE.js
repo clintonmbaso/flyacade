@@ -1,7 +1,7 @@
 registerWorkbook({
     id: 'g6t1bHE',
-    title: 'FOOD AND NUTRITION',
-    description: 'End of Term',
+    title: 'Home Economics',
+    description: 'End Term',
     subject: 'Home Economics',
     grade: 6,
     term: 1,
@@ -9,982 +9,669 @@ registerWorkbook({
         {
             id: 'page1',
             title: 'Multiple Choice',
-            questionLimit: 20,
+            questionLimit: 10,
             exercises: [
-                {
-                    id: 'section1',
-                    title: 'Food',
-                    questions: [
-                    
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a typical meal pattern?",
-        "options": ["Breakfast", "Mid-morning snack", "Lunch", "Midnight feast"],
-        "correctAnswer": 3,
-        "explanation": "The typical meal patterns are breakfast, mid-morning snack, lunch, afternoon tea, and supper/dinner.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What meal would typically come after lunch in a daily meal pattern?",
-        "options": ["Breakfast", "Afternoon tea", "Mid-morning snack", "Supper"],
-        "correctAnswer": 1,
-        "explanation": "Afternoon tea typically comes after lunch in the daily meal pattern.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which meal is usually the first of the day?",
-        "options": ["Lunch", "Dinner", "Breakfast", "Afternoon tea"],
-        "correctAnswer": 2,
-        "explanation": "Breakfast is typically the first meal of the day.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What would be an appropriate meal for a baby?",
-        "options": ["Steak", "Porridge", "Scrambled eggs", "Coffee"],
-        "correctAnswer": 1,
-        "explanation": "Porridge is mentioned as an appropriate meal for a baby.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these would be suitable for an invalid person?",
-        "options": ["Egg custard", "Spicy curry", "Popcorn", "Raw vegetables"],
-        "correctAnswer": 0,
-        "explanation": "Egg custard is mentioned as suitable for an invalid person.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the purpose of meal planning?",
-        "options": ["To waste food", "To organize meals for different needs", "To eat the same thing every day", "To avoid cooking"],
-        "correctAnswer": 1,
-        "explanation": "Meal planning helps organize meals for different people and needs.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a light meal typically served between lunch and dinner?",
-        "options": ["Breakfast", "Mid-morning snack", "Afternoon tea", "Midnight snack"],
-        "correctAnswer": 2,
-        "explanation": "Afternoon tea is a light meal served between lunch and dinner.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What might be included in a full breakfast?",
-        "options": ["Only coffee", "Eggs, toast, and fruit", "Just cereal", "Only juice"],
-        "correctAnswer": 1,
-        "explanation": "A full breakfast typically includes multiple items like eggs, toast, and fruit.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which meal pattern comes before lunch?",
-        "options": ["Dinner", "Mid-morning snack", "Afternoon tea", "Breakfast"],
-        "correctAnswer": 1,
-        "explanation": "Mid-morning snack typically comes before lunch.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is another name for the evening meal?",
-        "options": ["Breakfast", "Lunch", "Supper or dinner", "Afternoon tea"],
-        "correctAnswer": 2,
-        "explanation": "The evening meal is often called supper or dinner.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is important to consider when meal planning for a family?",
-        "options": ["Everyone's dietary needs", "Only the cook's preferences", "What's cheapest regardless of nutrition", "Only dinner meals"],
-        "correctAnswer": 0,
-        "explanation": "Meal planning should consider everyone's dietary needs in the home.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What might be a good protein option for breakfast?",
-        "options": ["Scrambled eggs", "Candy", "Soda", "Chips"],
-        "correctAnswer": 0,
-        "explanation": "Scrambled eggs are mentioned as a meal option and provide good protein for breakfast.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which meal is typically the largest of the day?",
-        "options": ["Breakfast", "Mid-morning snack", "Lunch", "It varies by culture and family"],
-        "correctAnswer": 3,
-        "explanation": "Which meal is largest varies by culture and family traditions.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the purpose of a mid-morning snack?",
-        "options": ["To replace breakfast", "To provide energy between breakfast and lunch", "To spoil your lunch", "To stay up late"],
-        "correctAnswer": 1,
-        "explanation": "Mid-morning snacks provide energy between breakfast and lunch.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these would NOT be part of meal planning?",
-        "options": ["Considering nutritional needs", "Planning for special diets", "Buying random foods without a plan", "Creating a shopping list"],
-        "correctAnswer": 2,
-        "explanation": "Meal planning involves organization, not buying random foods without a plan.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How many main meal patterns are typically in a day?",
-        "options": ["1", "3", "6", "10"],
-        "correctAnswer": 1,
-        "explanation": "Typically there are 3 main meals: breakfast, lunch, and dinner.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What might be served at afternoon tea?",
-        "options": ["Heavy meat dishes", "Light sandwiches and tea", "Breakfast cereal", "A full course dinner"],
-        "correctAnswer": 1,
-        "explanation": "Afternoon tea typically includes light items like sandwiches and tea.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is meal planning important?",
-        "options": ["It saves time and money", "It ensures balanced nutrition", "It reduces stress about meals", "All of the above"],
-        "correctAnswer": 3,
-        "explanation": "Meal planning is important for all these reasons.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a simple meal that could be prepared quickly?",
-        "options": ["Scrambled eggs", "Five-course gourmet dinner", "12-hour roasted meat", "Complex pastry"],
-        "correctAnswer": 0,
-        "explanation": "Scrambled eggs are mentioned as a meal that can be prepared relatively quickly.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What should you consider when planning meals for an invalid person?",
-        "options": ["Their medical condition", "Their food preferences", "Ease of digestion", "All of the above"],
-        "correctAnswer": 3,
-        "explanation": "All these factors are important when planning meals for an invalid person.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which meal pattern comes earliest in the day?",
-        "options": ["Lunch", "Afternoon tea", "Breakfast", "Dinner"],
-        "correctAnswer": 2,
-        "explanation": "Breakfast comes earliest in the day.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What type of meal is groundnuts likely to be?",
-        "options": ["Baby food", "Invalid food", "Snack", "Main course"],
-        "correctAnswer": 2,
-        "explanation": "Groundnuts would typically be considered a snack.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT typically a meal planning consideration?",
-        "options": ["Nutritional balance", "Food allergies", "Favorite colors", "Budget constraints"],
-        "correctAnswer": 2,
-        "explanation": "Favorite colors are not typically a meal planning consideration.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main difference between supper and dinner?",
-        "options": ["They are the same", "Supper is lighter than dinner", "Dinner is only for weekends", "Supper must include soup"],
-        "correctAnswer": 1,
-        "explanation": "Supper is often a lighter meal than dinner, though the terms are sometimes used interchangeably.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these would be easiest for a sick person to digest?",
-        "options": ["Egg custard", "Spicy chili", "Fried chicken", "Raw carrots"],
-        "correctAnswer": 0,
-        "explanation": "Egg custard is mentioned as suitable for an invalid and would be easy to digest.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How many snacks are typically included in daily meal patterns?",
-        "options": ["None", "One", "Two", "Five"],
-        "correctAnswer": 2,
-        "explanation": "Typically two snacks are included: mid-morning and afternoon.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the benefit of preparing a full breakfast?",
-        "options": ["Provides energy for the day", "Makes lunch unnecessary", "Is required by law", "Takes less time than a light breakfast"],
-        "correctAnswer": 0,
-        "explanation": "A full breakfast provides good energy to start the day.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these would be part of a balanced meal plan?",
-        "options": ["Only carbohydrates", "Only proteins", "A variety of food groups", "Only snacks"],
-        "correctAnswer": 2,
-        "explanation": "A balanced meal plan includes a variety of food groups.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the last typical meal of the day?",
-        "options": ["Breakfast", "Lunch", "Afternoon tea", "Supper/Dinner"],
-        "correctAnswer": 3,
-        "explanation": "Supper or dinner is typically the last meal of the day.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "When planning meals, what should you consider about family members?",
-        "options": ["Their ages", "Their health needs", "Their activity levels", "All of the above"],
-        "correctAnswer": 3,
-        "explanation": "All these factors are important when planning meals for family members.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What are leftover foods?",
-        "options": ["Freshly cooked meals", "Unused portions of previously cooked food", "Raw ingredients", "Spoiled food"],
-        "correctAnswer": 1,
-        "explanation": "Leftover foods are unused portions of previously cooked meals.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a rule for handling leftovers?",
-        "options": ["Keep them for months", "Convert them into a different meal", "Leave them uncovered", "Refreeze multiple times"],
-        "correctAnswer": 1,
-        "explanation": "Leftovers should be converted into a different meal to maintain freshness and appeal.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What should you do with leftover food to make it more appealing?",
-        "options": ["Add more spices", "Leave it plain", "Mix with raw meat", "Store it for weeks"],
-        "correctAnswer": 0,
-        "explanation": "Spicing leftover food can enhance its flavor and make it more enjoyable.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How soon should leftover food be used?",
-        "options": ["Within a short time", "After several months", "Only when it smells bad", "Never reuse leftovers"],
-        "correctAnswer": 0,
-        "explanation": "Leftover food should be used within a short time to ensure safety and quality.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which dish can be made from leftover nsima?",
-        "options": ["Maheu", "Fritters", "Fresh salad", "Grilled fish"],
-        "correctAnswer": 1,
-        "explanation": "Leftover nsima can be turned into fritters.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What can leftover rice be used to make?",
-        "options": ["Fritters", "Fresh pasta", "Raw vegetable mix", "Uncooked dough"],
-        "correctAnswer": 0,
-        "explanation": "Leftover rice can be repurposed into fritters.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a suitable dish made from leftovers?",
-        "options": ["Maheu", "Raw eggs", "Uncooked beans", "Fresh milk"],
-        "correctAnswer": 0,
-        "explanation": "Maheu is a drink that can be made from leftover grains.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What can leftover mashed potatoes be turned into?",
-        "options": ["Potato fritters", "Fresh juice", "Raw vegetables", "Uncooked rice"],
-        "correctAnswer": 0,
-        "explanation": "Leftover mashed potatoes can be made into potato fritters.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is it important to use leftovers quickly?",
-        "options": ["To prevent spoilage", "To make them raw again", "To increase waste", "To avoid cooking"],
-        "correctAnswer": 0,
-        "explanation": "Using leftovers quickly helps prevent spoilage and foodborne illnesses.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is NOT a good way to handle leftovers?",
-        "options": ["Converting them into a new meal", "Leaving them uncovered for days", "Spicing them for better taste", "Using them within a short time"],
-        "correctAnswer": 1,
-        "explanation": "Leaving leftovers uncovered for days can lead to contamination and spoilage.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a safe storage practice for leftovers?",
-        "options": ["Keeping them in an airtight container", "Leaving them on the counter overnight", "Storing them without cooling", "Never refrigerating them"],
-        "correctAnswer": 0,
-        "explanation": "Leftovers should be stored in an airtight container to maintain freshness.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What can leftover samp be used to make?",
-        "options": ["Fritters", "Fresh fruit salad", "Raw meat dish", "Uncooked cereal"],
-        "correctAnswer": 0,
-        "explanation": "Leftover samp can be turned into fritters.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a dish made from leftovers?",
-        "options": ["Maheu", "Fritters", "Freshly baked bread", "Mashed potato cakes"],
-        "correctAnswer": 2,
-        "explanation": "Freshly baked bread is not typically made from leftovers.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the best way to reuse leftover food?",
-        "options": ["Throw it away", "Turn it into a new meal", "Feed it to animals only", "Let it rot"],
-        "correctAnswer": 1,
-        "explanation": "The best way to reuse leftovers is to turn them into a new meal.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which rule helps keep leftover food safe?",
-        "options": ["Use within a short time", "Keep at room temperature for days", "Never cover it", "Mix with raw ingredients"],
-        "correctAnswer": 0,
-        "explanation": "Using leftovers within a short time helps keep them safe to eat.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What should you do before reheating leftovers?",
-        "options": ["Check for spoilage", "Leave them uncovered", "Add raw meat", "Freeze multiple times"],
-        "correctAnswer": 0,
-        "explanation": "Always check leftovers for spoilage before reheating.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a benefit of using leftovers?",
-        "options": ["Reduces food waste", "Increases garbage", "Makes cooking harder", "Requires more storage space"],
-        "correctAnswer": 0,
-        "explanation": "Using leftovers helps reduce food waste.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a common way to prepare leftover nsima?",
-        "options": ["Make fritters", "Eat it raw", "Mix with uncooked rice", "Throw it away"],
-        "correctAnswer": 0,
-        "explanation": "Leftover nsima is often turned into fritters.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why should leftovers be spiced before reuse?",
-        "options": ["To improve flavor", "To make them spoil faster", "To hide contamination", "To reduce nutrition"],
-        "correctAnswer": 0,
-        "explanation": "Spicing leftovers enhances their flavor when reused.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a safe way to store leftovers?",
-        "options": ["In the refrigerator", "On the kitchen counter", "In direct sunlight", "In an open container"],
-        "correctAnswer": 0,
-        "explanation": "Leftovers should be stored in the refrigerator to keep them fresh.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a creative way to use leftover mashed potatoes?",
-        "options": ["Make potato pancakes", "Eat them cold", "Mix with raw eggs", "Let them dry out"],
-        "correctAnswer": 0,
-        "explanation": "Leftover mashed potatoes can be made into potato pancakes.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these foods can be turned into maheu?",
-        "options": ["Leftover grains", "Raw meat", "Fresh vegetables", "Uncooked beans"],
-        "correctAnswer": 0,
-        "explanation": "Maheu is a drink made from leftover grains.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main reason for converting leftovers into a new meal?",
-        "options": ["To avoid waste", "To make them spoil faster", "To reduce flavor", "To increase cost"],
-        "correctAnswer": 0,
-        "explanation": "Converting leftovers helps avoid food waste.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a suitable leftover dish?",
-        "options": ["Rice fritters", "Mashed potato cakes", "Freshly fried chicken", "Maheu"],
-        "correctAnswer": 2,
-        "explanation": "Freshly fried chicken is not made from leftovers.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How can leftover food be made more interesting?",
-        "options": ["By adding new spices", "By leaving it plain", "By mixing with dirt", "By never reheating it"],
-        "correctAnswer": 0,
-        "explanation": "Adding spices can make leftover food more appealing.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What should you avoid when handling leftovers?",
-        "options": ["Storing them properly", "Reheating them thoroughly", "Leaving them at room temperature for hours", "Using airtight containers"],
-        "correctAnswer": 2,
-        "explanation": "Leaving leftovers at room temperature for too long can cause spoilage.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a proper leftover storage method?",
-        "options": ["Using airtight containers", "Leaving food uncovered", "Storing in warm places", "Never refrigerating"],
-        "correctAnswer": 0,
-        "explanation": "Airtight containers help keep leftovers fresh.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a key rule for leftover safety?",
-        "options": ["Use quickly", "Keep at room temperature", "Never reheat", "Mix with raw food"],
-        "correctAnswer": 0,
-        "explanation": "Leftovers should be used quickly to ensure safety.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which dish is NOT typically made from leftovers?",
-        "options": ["Fresh fruit salad", "Rice fritters", "Potato pancakes", "Maheu"],
-        "correctAnswer": 0,
-        "explanation": "Fresh fruit salad is not made from leftovers.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the best temperature to store leftovers?",
-        "options": ["In the refrigerator", "In a hot oven", "On a sunny windowsill", "In a warm cupboard"],
-        "correctAnswer": 0,
-        "explanation": "Leftovers should be stored in the refrigerator to stay fresh.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main purpose of food preservation?",
-        "options": ["To make food taste better", "To prevent decay and extend shelf life", "To change the color of food", "To increase food prices"],
-        "correctAnswer": 1,
-        "explanation": "Food preservation helps prevent decay and extends the shelf life of food.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of the following is NOT a reason for food preservation?",
-        "options": ["To have variety when food is out of season", "To prevent decay", "To make food spoil faster", "To reduce food waste"],
-        "correctAnswer": 2,
-        "explanation": "Food preservation aims to slow spoilage, not speed it up.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which food is suitable for preservation?",
-        "options": ["Fresh milk left out for days", "Vegetables", "Raw meat left at room temperature", "None of the above"],
-        "correctAnswer": 1,
-        "explanation": "Vegetables are commonly preserved through methods like drying or pickling.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a method of food preservation?",
-        "options": ["Leaving food uncovered", "Drying", "Storing in warm places", "Adding extra water"],
-        "correctAnswer": 1,
-        "explanation": "Drying removes moisture, preventing bacterial growth.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is preserving fruits beneficial?",
-        "options": ["To eat them when they are out of season", "To make them rot faster", "To change their natural taste", "To reduce their nutritional value"],
-        "correctAnswer": 0,
-        "explanation": "Preserving fruits allows people to enjoy them even when they are not in season.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these foods can be preserved?",
-        "options": ["Cassava", "Ice cream left outside", "Fresh fish in the sun", "All of the above"],
-        "correctAnswer": 0,
-        "explanation": "Cassava can be dried or processed into flour for preservation.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What happens if food is not preserved properly?",
-        "options": ["It lasts longer", "It decays and becomes unsafe", "It becomes more nutritious", "It changes color immediately"],
-        "correctAnswer": 1,
-        "explanation": "Improper preservation leads to decay and potential foodborne illnesses.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a reason to preserve sweet potatoes?",
-        "options": ["To let them rot", "To have them available beyond harvest season", "To make them inedible", "To reduce their shelf life"],
-        "correctAnswer": 1,
-        "explanation": "Preserving sweet potatoes ensures they can be eaten long after harvest.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a common way to preserve mushrooms?",
-        "options": ["Drying", "Leaving them in sunlight", "Soaking in water for days", "Keeping them in open air"],
-        "correctAnswer": 0,
-        "explanation": "Drying mushrooms removes moisture, preventing spoilage.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a suitable food for preservation?",
-        "options": ["Fruits", "Vegetables", "Fresh milk left unrefrigerated", "Cassava"],
-        "correctAnswer": 2,
-        "explanation": "Fresh milk spoils quickly if not refrigerated or processed.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How does food preservation help with seasonal foods?",
-        "options": ["It makes them unavailable", "It allows them to be eaten year-round", "It reduces their flavor", "It makes them more expensive"],
-        "correctAnswer": 1,
-        "explanation": "Preservation helps maintain food supply even when not in season.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a preserved food product?",
-        "options": ["Fresh apples", "Dried mangoes", "Raw meat", "Uncooked vegetables"],
-        "correctAnswer": 1,
-        "explanation": "Dried mangoes are an example of preserved fruit.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the effect of preserving vegetables?",
-        "options": ["They become inedible", "They last longer without spoiling", "They lose all nutrients", "They turn into fruits"],
-        "correctAnswer": 1,
-        "explanation": "Proper preservation extends the shelf life of vegetables.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which method is NOT used for food preservation?",
-        "options": ["Canning", "Drying", "Leaving food in the sun for weeks", "Freezing"],
-        "correctAnswer": 2,
-        "explanation": "Leaving food exposed for weeks leads to spoilage, not preservation.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is freezing a good preservation method?",
-        "options": ["It speeds up bacterial growth", "It stops microbial activity", "It makes food rot faster", "It removes all nutrients"],
-        "correctAnswer": 1,
-        "explanation": "Freezing slows down or stops microbial growth, preserving food.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a disadvantage of improper food preservation?",
-        "options": ["Food becomes safer to eat", "Food may cause illness", "Food lasts longer", "Food becomes more colorful"],
-        "correctAnswer": 1,
-        "explanation": "Improper preservation can lead to foodborne diseases.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which food can be turned into flour for preservation?",
-        "options": ["Cassava", "Fresh berries", "Raw fish", "Milk"],
-        "correctAnswer": 0,
-        "explanation": "Cassava is often dried and ground into flour for long-term storage.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What happens when fruits are dried?",
-        "options": ["They lose all flavor", "They become inedible", "Their shelf life increases", "They turn into vegetables"],
-        "correctAnswer": 2,
-        "explanation": "Drying removes moisture, preventing spoilage and extending shelf life.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a benefit of preserving mushrooms?",
-        "options": ["They spoil faster", "They can be stored for later use", "They lose all nutritional value", "They become poisonous"],
-        "correctAnswer": 1,
-        "explanation": "Preserved mushrooms can be used long after harvesting.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the role of salt in food preservation?",
-        "options": ["It speeds up decay", "It draws out moisture and inhibits bacteria", "It makes food sweeter", "It changes food color"],
-        "correctAnswer": 1,
-        "explanation": "Salt helps preserve food by reducing moisture and preventing bacterial growth.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these foods is commonly pickled as a preservation method?",
-        "options": ["Fresh bananas", "Cucumbers", "Raw meat", "Milk"],
-        "correctAnswer": 1,
-        "explanation": "Cucumbers are often pickled in vinegar or brine.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Why is sugar used in preserving some fruits?",
-        "options": ["To make them rot faster", "To draw out moisture and prevent microbial growth", "To remove all sweetness", "To turn them into vegetables"],
-        "correctAnswer": 1,
-        "explanation": "Sugar acts as a preservative by reducing water activity in fruits.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a traditional method of preserving fish?",
-        "options": ["Leaving it in the sun", "Salting and drying", "Keeping it in warm water", "Covering it with soil"],
-        "correctAnswer": 1,
-        "explanation": "Salting and drying fish prevents spoilage by removing moisture.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a result of proper food preservation?",
-        "options": ["Longer shelf life", "Reduced food waste", "Increased spoilage", "Availability out of season"],
-        "correctAnswer": 2,
-        "explanation": "Proper preservation reduces spoilage, not increases it.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "How does canning help preserve food?",
-        "options": ["By exposing food to air", "By sealing food in airtight containers", "By letting bacteria grow", "By adding extra water"],
-        "correctAnswer": 1,
-        "explanation": "Canning seals food away from air, preventing microbial contamination.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a dried preserved food?",
-        "options": ["Fresh grapes", "Raisins", "Raw chicken", "Unpasteurized milk"],
-        "correctAnswer": 1,
-        "explanation": "Raisins are dried grapes, a form of preservation.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main enemy of food preservation?",
-        "options": ["Moisture and bacteria", "Darkness", "Cold temperatures", "Sealed containers"],
-        "correctAnswer": 0,
-        "explanation": "Moisture and bacteria cause food to spoil, so preservation methods combat them.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a way to preserve vegetables?",
-        "options": ["Fermenting", "Leaving them in direct sunlight", "Soaking in plain water", "Keeping them at room temperature for weeks"],
-        "correctAnswer": 0,
-        "explanation": "Fermentation is a traditional vegetable preservation method (e.g., sauerkraut).",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the purpose of vacuum sealing in food preservation?",
-        "options": ["To allow air in", "To remove air and slow oxidation", "To add bacteria", "To make food spoil faster"],
-        "correctAnswer": 1,
-        "explanation": "Vacuum sealing removes air, slowing down spoilage and oxidation.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these foods is often preserved by freezing?",
-        "options": ["Fresh herbs", "Berries", "Whole pumpkins", "Dry rice"],
-        "correctAnswer": 1,
-        "explanation": "Berries are commonly frozen to extend their usability.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of the following is a facility in the hospitality business?",
-        "options": ["Lodges", "Supermarket", "Library", "Gas station"],
-        "correctAnswer": 0,
-        "explanation": "Lodges are a type of accommodation facility in the hospitality business.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is NOT a hospitality business facility?",
-        "options": ["Hotel", "Motel", "School", "Guest house"],
-        "correctAnswer": 2,
-        "explanation": "A school is not a hospitality facility; hotels, motels, and guest houses are.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which service is commonly offered in hospitality businesses?",
-        "options": ["Accommodation", "Car repair", "Dentistry", "Tailoring"],
-        "correctAnswer": 0,
-        "explanation": "Accommodation is a primary service in the hospitality industry.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a type of lodging in hospitality?",
-        "options": ["Motel", "Bank", "Pharmacy", "Gym"],
-        "correctAnswer": 0,
-        "explanation": "A motel provides lodging, which is part of hospitality services.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What service might a hotel provide besides accommodation?",
-        "options": ["Laundry services", "Car manufacturing", "Medical surgery", "Legal advice"],
-        "correctAnswer": 0,
-        "explanation": "Hotels often provide laundry services as part of their hospitality offerings.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which facility is designed for short-term stays?",
-        "options": ["Guest house", "University", "Mall", "Factory"],
-        "correctAnswer": 0,
-        "explanation": "A guest house is designed for short-term lodging in the hospitality industry.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a hospitality service?",
-        "options": ["Catering", "Car wash", "Plumbing", "Construction"],
-        "correctAnswer": 0,
-        "explanation": "Catering is a service provided by many hospitality businesses.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Where might a business hold a conference in a hospitality setting?",
-        "options": ["Conference room", "Swimming pool", "Parking lot", "Kitchen"],
-        "correctAnswer": 0,
-        "explanation": "Conference rooms are used for meetings and events in hospitality businesses.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a hospitality service?",
-        "options": ["Transport", "Haircut", "Accommodation", "Conference hosting"],
-        "correctAnswer": 1,
-        "explanation": "A haircut is not a typical hospitality service, but transport and accommodation are.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What type of business provides lodging for travelers?",
-        "options": ["Hotel", "Grocery store", "Hardware shop", "Bookstore"],
-        "correctAnswer": 0,
-        "explanation": "Hotels are designed to provide lodging for travelers.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which facility is similar to a hotel but usually smaller?",
-        "options": ["Guest house", "Airport", "Stadium", "Hospital"],
-        "correctAnswer": 0,
-        "explanation": "A guest house is a smaller lodging facility similar to a hotel.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a common feature of motels?",
-        "options": ["Parking near rooms", "Swimming pools only", "No check-in process", "Free car repairs"],
-        "correctAnswer": 0,
-        "explanation": "Motels often have parking near rooms for easy access.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which service would a luxury hotel most likely offer?",
-        "options": ["Spa treatments", "Car rentals only", "Dentistry", "Pet grooming"],
-        "correctAnswer": 0,
-        "explanation": "Luxury hotels often provide spa treatments as an added service.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the main purpose of a lodge?",
-        "options": ["Provide accommodation", "Sell groceries", "Fix cars", "Offer medical care"],
-        "correctAnswer": 0,
-        "explanation": "A lodge primarily provides accommodation, often in natural settings.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a hospitality business?",
-        "options": ["Resort", "Bank", "School", "Factory"],
-        "correctAnswer": 0,
-        "explanation": "A resort is a type of hospitality business offering leisure and accommodation.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What might a guest house provide?",
-        "options": ["Breakfast", "Car repairs", "Medical checkups", "Legal services"],
-        "correctAnswer": 0,
-        "explanation": "Many guest houses offer breakfast as part of their services.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is NOT a hospitality facility?",
-        "options": ["Hospital", "Motel", "Hotel", "Lodge"],
-        "correctAnswer": 0,
-        "explanation": "A hospital is a healthcare facility, not a hospitality business.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What service helps guests with their clothes in a hotel?",
-        "options": ["Laundry service", "Car rental", "Doctor on call", "Library access"],
-        "correctAnswer": 0,
-        "explanation": "Laundry service helps guests clean their clothes during their stay.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which facility is often found near highways for travelers?",
-        "options": ["Motel", "University", "Shopping mall", "Post office"],
-        "correctAnswer": 0,
-        "explanation": "Motels are commonly located near highways for easy access by travelers.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a key feature of a hotel?",
-        "options": ["Multiple room options", "Car sales", "Medical labs", "Farming equipment"],
-        "correctAnswer": 0,
-        "explanation": "Hotels typically offer various room options for guests.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which service is related to food in hospitality?",
-        "options": ["Catering", "Car wash", "Plumbing", "Construction"],
-        "correctAnswer": 0,
-        "explanation": "Catering involves providing food services, common in hospitality.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a common facility for business travelers?",
-        "options": ["Conference room", "Swimming pool", "Playground", "Farm"],
-        "correctAnswer": 0,
-        "explanation": "Conference rooms are essential for business meetings in hotels.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a budget-friendly hospitality option?",
-        "options": ["Motel", "Five-star hotel", "Private villa", "Luxury resort"],
-        "correctAnswer": 0,
-        "explanation": "Motels are generally more budget-friendly than luxury hotels.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is NOT typically found in a lodge?",
-        "options": ["Operating room", "Guest rooms", "Restaurant", "Reception area"],
-        "correctAnswer": 0,
-        "explanation": "An operating room is part of a hospital, not a lodge.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which service helps guests move around a city?",
-        "options": ["Transport service", "Laundry service", "Room service", "Concierge"],
-        "correctAnswer": 0,
-        "explanation": "Transport services assist guests in traveling within a city.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What type of hospitality facility is often in rural areas?",
-        "options": ["Lodge", "Skyscraper", "Shopping center", "Office building"],
-        "correctAnswer": 0,
-        "explanation": "Lodges are commonly located in rural or natural settings.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which of these is a long-term hospitality facility?",
-        "options": ["Serviced apartment", "Motel", "Guest house", "Camping tent"],
-        "correctAnswer": 0,
-        "explanation": "Serviced apartments are designed for longer stays.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is a common feature of a guest house?",
-        "options": ["Homely atmosphere", "Large conference halls", "Car dealership", "Supermarket"],
-        "correctAnswer": 0,
-        "explanation": "Guest houses often provide a cozy, homely environment.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "Which service is NOT usually part of hospitality?",
-        "options": ["Car manufacturing", "Room cleaning", "Food service", "Tour booking"],
-        "correctAnswer": 0,
-        "explanation": "Car manufacturing is unrelated to hospitality services.",
-        "shuffleOptions": true
-    },
-    {
-        "type": "multiple-choice",
-        "text": "What is the primary purpose of hospitality businesses?",
-        "options": ["Provide comfort to guests", "Sell electronics", "Manufacture goods", "Offer legal advice"],
-        "correctAnswer": 0,
-        "explanation": "Hospitality businesses focus on guest comfort and services.",
-        "shuffleOptions": true
-    }
-                            
-                    ]
-                },
+{
+    id: 'section3',
+    title: 'End Term Revision Questions',
+    questions: [
+    
+// Week 7
+// Week 7: Nutrition for Different Needs - Test Questions
+        {
+            "type": "multiple-choice",
+            "text": "What type of worker needs high-energy foods for sustained physical labor?",
+            "options": ["Sedentary worker", "Manual worker", "Office worker", "Teacher"],
+            "correctAnswer": 1,
+            "explanation": "Manual workers like construction workers and farmers need high-energy (kilojoule) foods for sustained physical labor.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should manual workers focus on eating for long-lasting energy?",
+            "options": ["Simple sugars", "Complex carbohydrates", "Only protein", "Just water"],
+            "correctAnswer": 1,
+            "explanation": "Manual workers need complex carbohydrates like whole grains, potatoes, and pasta for long-lasting energy during physical work.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is a sedentary worker?",
+            "options": ["Someone who exercises all day", "Someone who works sitting down most of the day", "A construction worker", "A professional athlete"],
+            "correctAnswer": 1,
+            "explanation": "A sedentary worker is someone who works sitting down most of the day, like in an office job.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What type of foods should sedentary workers focus on?",
+            "options": ["High-calorie foods only", "Nutrient-dense foods", "Only sugary snacks", "As much food as possible"],
+            "correctAnswer": 1,
+            "explanation": "Sedentary workers need nutrient-dense foods (foods rich in nutrients relative to their calories) rather than high-calorie foods.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why do growing adolescents need more calcium?",
+            "options": ["For better eyesight", "For bone growth during puberty", "To sleep better", "To run faster"],
+            "correctAnswer": 1,
+            "explanation": "Adolescents need increased calcium for bone growth during puberty when bones are developing rapidly.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What nutrient do adolescents need more of for muscle development?",
+            "options": ["Sugar", "Protein", "Salt", "Fat"],
+            "correctAnswer": 1,
+            "explanation": "Growing adolescents have higher protein requirements for muscle development during growth spurts.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What are recovery meals designed for?",
+            "options": ["People who are very active", "People recovering from illness or surgery", "Only babies", "Athletes before a game"],
+            "correctAnswer": 1,
+            "explanation": "Recovery meals (for invalids/convalescents) are for people recovering from illness or surgery who need special nutrition.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What characteristic should recovery meals have?",
+            "options": ["Spicy and greasy", "Easy to digest but nutrient-rich", "Very large portions", "Only liquid"],
+            "correctAnswer": 1,
+            "explanation": "Recovery meals should be easy to digest but nutrient-rich to support healing without upsetting the digestive system.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is an example of a good recovery food?",
+            "options": ["Fried chicken", "Clear soups", "Spicy chips", "Hard candy"],
+            "correctAnswer": 1,
+            "explanation": "Clear soups are good recovery foods because they're easy to digest, hydrating, and can provide nutrients.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should diabetic patients focus on in their diet?",
+            "options": ["High-sugar foods", "Low-sugar, high-fiber foods", "Only meat", "As much fruit juice as possible"],
+            "correctAnswer": 1,
+            "explanation": "Diabetic patients should focus on low-sugar, high-fiber foods to help maintain stable blood sugar levels.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why is consistent meal timing important for diabetic patients?",
+            "options": ["To save time", "To maintain blood sugar levels", "To eat more food", "To try different restaurants"],
+            "correctAnswer": 1,
+            "explanation": "Consistent meal timing helps diabetic patients maintain stable blood sugar levels throughout the day.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What do HIV/AIDS patients need more of in their diet?",
+            "options": ["High-protein foods", "Only sweets", "Fried foods", "Carbonated drinks"],
+            "correctAnswer": 0,
+            "explanation": "HIV/AIDS patients need high-protein intake to help maintain muscle mass and support their immune system.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why might HIV/AIDS patients need small, frequent meals?",
+            "options": ["To save money", "Because their appetite might be poor", "To eat more overall", "Because it's fashionable"],
+            "correctAnswer": 1,
+            "explanation": "HIV/AIDS patients might need small, frequent meals if their appetite is poor, ensuring they get enough nutrition.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What nutrient do pregnant mothers need extra amounts of?",
+            "options": ["Iron and folic acid", "Only sugar", "Caffeine", "Artificial colors"],
+            "correctAnswer": 0,
+            "explanation": "Pregnant mothers need extra iron and folic acid to support the baby's development and prevent anemia.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What are good sources of iron for pregnant women?",
+            "options": ["Candy and soda", "Leafy greens and lean red meat", "White bread only", "Potato chips"],
+            "correctAnswer": 1,
+            "explanation": "Good iron sources for pregnant women include leafy greens, lentils, and lean red meat.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should baby meals have?",
+            "options": ["Hard textures", "Soft textures and appropriate nutrients", "Spicy flavors", "Only sweet flavors"],
+            "correctAnswer": 1,
+            "explanation": "Baby meals require soft textures (easy to chew and swallow) and appropriate nutrients for growth.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What does 'nutrient-dense' mean?",
+            "options": ["Foods with lots of calories but few nutrients", "Foods rich in nutrients relative to their calories", "Only foods that are expensive", "Foods that are colorful"],
+            "correctAnswer": 1,
+            "explanation": "Nutrient-dense foods provide lots of nutrients (vitamins, minerals, etc.) relative to their calorie content.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should breastfeeding mothers have more of?",
+            "options": ["Additional calories and fluids", "Less food overall", "Only coffee", "Fried foods"],
+            "correctAnswer": 0,
+            "explanation": "Breastfeeding mothers need additional calories and fluids to produce milk and maintain their own health.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What type of carbohydrates should diabetic patients choose?",
+            "options": ["Simple sugars", "Complex carbohydrates", "Only white bread", "As much sugar as possible"],
+            "correctAnswer": 1,
+            "explanation": "Diabetic patients should choose complex carbohydrates (like whole grains) instead of simple sugars for better blood sugar control.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why are special diets important?",
+            "options": ["They make food more expensive", "They help people recover faster and manage health conditions", "They limit food choices unnecessarily", "They are only for wealthy people"],
+            "correctAnswer": 1,
+            "explanation": "Special diets help people recover faster from illness, manage chronic health conditions, and maintain quality of life.",
+            "shuffleOptions": true
+        },
+    
+// Week 8
+// Week 8: Table Setting and Dining Presentation - Test Questions
+        {
+            "type": "multiple-choice",
+            "text": "What are table appointments?",
+            "options": ["Only food items", "All the items used when setting a table for dining", "People who work in restaurants", "Only plates and glasses"],
+            "correctAnswer": 1,
+            "explanation": "Table appointments are all the items used when setting a table for dining, including linen, cutlery, dinnerware, and glassware.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Which side of the plate should forks be placed?",
+            "options": ["Right side", "Left side", "Above the plate", "Under the plate"],
+            "correctAnswer": 1,
+            "explanation": "Forks are always placed on the LEFT side of the plate in proper table setting.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Where should knives and spoons be placed?",
+            "options": ["Left side of the plate", "Right side of the plate", "Above the plate", "Under the napkin"],
+            "correctAnswer": 1,
+            "explanation": "Knives and spoons are placed on the RIGHT side of the plate.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How should knife blades face when setting a table?",
+            "options": ["Outward, away from the plate", "Inward, toward the plate", "Upward, toward the ceiling", "Downward, toward the table"],
+            "correctAnswer": 1,
+            "explanation": "Knife blades should always face INWARD toward the plate for safety and proper etiquette.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How is cutlery arranged in order of use?",
+            "options": ["From the inside out", "From the outside in", "Randomly", "By color"],
+            "correctAnswer": 1,
+            "explanation": "Cutlery is arranged in order of use from the OUTSIDE IN - you use the utensils farthest from the plate first.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Where can a napkin be placed in a basic table setting?",
+            "options": ["Only under the plate", "Only on the chair", "To the left of the forks or on the plate", "On the floor"],
+            "correctAnswer": 2,
+            "explanation": "The napkin can be placed to the left of the forks or on the plate in a basic table setting.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How far from the table edge should cutlery be placed?",
+            "options": ["3 inches", "1 inch", "6 inches", "Right at the edge"],
+            "correctAnswer": 1,
+            "explanation": "Each piece of cutlery should be placed about 1 inch from the table edge.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is table linen?",
+            "options": ["Only napkins", "Tablecloths, placemats, and napkins", "Only tablecloths", "Only placemats"],
+            "correctAnswer": 1,
+            "explanation": "Table linen includes tablecloths, placemats, and napkins used in table setting.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why should centerpieces be low?",
+            "options": ["To save money", "So diners can see each other across the table", "To make them easier to clean", "Because tall flowers are ugly"],
+            "correctAnswer": 1,
+            "explanation": "Centerpieces should be low so diners can see each other across the table and have conversation without obstruction.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you consider when choosing flowers for a table centerpiece?",
+            "options": ["Only expensive flowers", "Simple flowers that are in season", "Flowers that drop lots of pollen on food", "Only red flowers"],
+            "correctAnswer": 1,
+            "explanation": "Use simple flowers that are in season and ensure no pollen or petals will drop onto food.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Where should a centerpiece be placed on the table?",
+            "options": ["Only at one end", "In the middle of the table", "Under each plate", "On each chair"],
+            "correctAnswer": 1,
+            "explanation": "Place the centerpiece in the middle of the table, not too close to place settings.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is the 'Rule of Straight Lines' in table setting?",
+            "options": ["All items should be crooked", "All items should align in straight lines", "Only glasses should be straight", "Only plates should be aligned"],
+            "correctAnswer": 1,
+            "explanation": "The 'Rule of Straight Lines' means all items should align - bottoms of cutlery aligned, tops of glasses aligned, plate centered perfectly.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is a napkin fold that stands upright?",
+            "options": ["The Flat Fold", "The Pyramid Fold", "The Messy Fold", "The Under-Plate Fold"],
+            "correctAnswer": 1,
+            "explanation": "The Pyramid Fold is simple, elegant, and stands upright on the table.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you always use for napkin folding?",
+            "options": ["Dirty napkins", "Clean, ironed napkins", "Wet napkins", "Paper towels only"],
+            "correctAnswer": 1,
+            "explanation": "Always use clean, ironed napkins for best results in napkin folding.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is the first step in setting a complete table?",
+            "options": ["Add flowers", "Start with a clean, properly placed tablecloth or placemats", "Put out the food", "Fold napkins"],
+            "correctAnswer": 1,
+            "explanation": "Start with a clean, properly placed tablecloth or placemats as the foundation of your table setting.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "When should you add decorative elements to a table setting?",
+            "options": ["First, before anything else", "After setting all functional items", "Only at the very end", "Never add decorations"],
+            "correctAnswer": 1,
+            "explanation": "Set all functional items first (plates, cutlery, glasses), then add decorative elements like centerpieces.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is an alternative to flower centerpieces?",
+            "options": ["Only more plates", "Candles, fruit bowls, or small decorative items", "Nothing - only flowers work", "Empty spaces"],
+            "correctAnswer": 1,
+            "explanation": "Alternatives to flower centerpieces include candles, fruit bowls, or small decorative items.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why is proper table setting important?",
+            "options": ["It's not important", "It shows respect for guests and makes dining more enjoyable", "Only for fancy restaurants", "To waste time"],
+            "correctAnswer": 1,
+            "explanation": "A well-set table shows respect for guests, makes dining more enjoyable, and helps meals run smoothly.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is 'occasion-based table setting'?",
+            "options": ["Always setting the table the same way", "Considering the occasion and using different decorative elements", "Only for birthdays", "Using disposable plates only"],
+            "correctAnswer": 1,
+            "explanation": "Occasion-based table setting means considering the event (family dinner, birthday, holiday) and using appropriate decorative elements.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you do after completing a table setting?",
+            "options": ["Leave immediately", "Step back and check that everything is aligned and harmonious", "Start eating right away", "Take everything apart"],
+            "correctAnswer": 1,
+            "explanation": "After setting a table, step back and check that everything is aligned and harmonious before the meal begins.",
+            "shuffleOptions": true
+        },
+    
+// Week 9
+// Week 9: Leftover Foods & Food Safety - Test Questions
+        {
+            "type": "multiple-choice",
+            "text": "What are leftover foods?",
+            "options": ["Only raw vegetables", "Cooked foods that remain uneaten after a meal", "Only spoiled foods", "Foods that are still cooking"],
+            "correctAnswer": 1,
+            "explanation": "Leftovers are cooked foods that remain uneaten after a meal and can be stored and eaten later.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Which of these is a common example of leftover food?",
+            "options": ["Raw eggs", "Cooked rice or pasta", "Unopened canned food", "Frozen vegetables"],
+            "correctAnswer": 1,
+            "explanation": "Cooked rice or pasta are common examples of leftover foods that can be stored and reused.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why is using leftovers cost-saving?",
+            "options": ["It makes food more expensive", "It reduces food expenses by making the most of what you buy", "It requires buying more food", "It only saves time, not money"],
+            "correctAnswer": 1,
+            "explanation": "Using leftovers reduces food expenses by making the most of what you buy instead of throwing it away.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How does using leftovers help the environment?",
+            "options": ["It creates more trash", "It helps protect the environment by throwing away less food", "It uses more electricity", "It makes more packaging waste"],
+            "correctAnswer": 1,
+            "explanation": "Using leftovers helps protect the environment by reducing food waste that would otherwise go to landfills.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Within how many hours should leftovers be refrigerated?",
+            "options": ["6 hours", "2 hours", "12 hours", "24 hours"],
+            "correctAnswer": 1,
+            "explanation": "Store leftovers in the refrigerator within 2 hours of cooking to prevent bacterial growth.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How long should most leftovers be eaten for best quality and safety?",
+            "options": ["Within 2-3 days", "Within 1 week", "Within 1 month", "Whenever you want"],
+            "correctAnswer": 0,
+            "explanation": "Most leftovers should be eaten within 2-3 days for best quality and safety.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is the 'Danger Zone' for food?",
+            "options": ["Freezing temperatures", "The temperature range where bacteria grow fastest (5°C to 60°C)", "Boiling temperatures", "Room temperature only"],
+            "correctAnswer": 1,
+            "explanation": "The Danger Zone is 5°C to 60°C (41°F to 140°F) where bacteria grow fastest.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How long can food safely stay at room temperature?",
+            "options": ["1 hour", "2 hours", "6 hours", "All day"],
+            "correctAnswer": 1,
+            "explanation": "Don't leave food at room temperature for more than 2 hours to minimize time in the Danger Zone.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What temperature should hot foods be kept at?",
+            "options": ["Below 5°C", "Above 60°C", "Exactly 37°C", "Room temperature"],
+            "correctAnswer": 1,
+            "explanation": "Keep hot foods hot - above 60°C (140°F) to prevent bacterial growth.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What temperature should cold foods be kept at?",
+            "options": ["Above 60°C", "Below 5°C", "Room temperature", "Exactly 20°C"],
+            "correctAnswer": 1,
+            "explanation": "Keep cold foods cold - below 5°C (41°F) to prevent bacterial growth.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is the minimum safe temperature for reheating leftovers?",
+            "options": ["37°C", "75°C", "100°C", "Just warm"],
+            "correctAnswer": 1,
+            "explanation": "Leftovers must reach at least 75°C (167°F) all the way through when reheating.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why should you stir food while reheating it?",
+            "options": ["To make it look nice", "To ensure even heating throughout", "To cool it down", "To add air to it"],
+            "correctAnswer": 1,
+            "explanation": "Stir food while reheating to ensure even heating throughout and eliminate cold spots.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why should you never reheat food more than once?",
+            "options": ["It makes it too hot", "Each reheating increases the risk of bacterial growth and food poisoning", "It changes the color", "It uses too much electricity"],
+            "correctAnswer": 1,
+            "explanation": "Each reheating increases the risk of bacterial growth and food poisoning, so only reheat the amount you plan to eat immediately.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What sense can help detect spoiled food?",
+            "options": ["Only sight", "Smell, sight, and touch", "Only hearing", "Only taste"],
+            "correctAnswer": 1,
+            "explanation": "Use smell (sour/rotten odors), sight (mold/discoloration), and touch (slimy texture) to detect spoiled food.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you do with food that has a strange odor?",
+            "options": ["Eat it anyway", "Add spices to cover the smell", "Throw it out", "Cook it longer"],
+            "correctAnswer": 2,
+            "explanation": "When in doubt, throw it out! It's better to waste a small amount of food than risk getting sick.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why store leftovers in shallow containers?",
+            "options": ["To save space", "To cool faster", "Because they're prettier", "Because they're cheaper"],
+            "correctAnswer": 1,
+            "explanation": "Store leftovers in shallow containers so they cool faster, reducing time in the Danger Zone.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What temperature should a refrigerator be kept at?",
+            "options": ["Below 4°C", "Room temperature", "Above 10°C", "Exactly 0°C"],
+            "correctAnswer": 0,
+            "explanation": "Keep refrigerator temperature at or below 4°C (40°F) to safely store leftovers.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What does 'First In, First Out' mean for leftovers?",
+            "options": ["Eat the newest leftovers first", "Eat the oldest leftovers first", "Throw everything out weekly", "Mix all leftovers together"],
+            "correctAnswer": 1,
+            "explanation": "Place newer leftovers behind older ones and eat the oldest leftovers first (First In, First Out).",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is one benefit of labeling leftovers with dates?",
+            "options": ["Makes the container look nice", "Helps track freshness and know when to use them", "Wastes time and labels", "Makes food taste better"],
+            "correctAnswer": 1,
+            "explanation": "Labeling and dating leftovers helps track freshness so you know when they should be eaten.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you do with hot food before storing it?",
+            "options": ["Put it directly into airtight containers", "Allow it to cool to room temperature within 2 hours", "Freeze it immediately", "Leave it out overnight"],
+            "correctAnswer": 1,
+            "explanation": "Allow hot food to cool to room temperature within 2 hours before storing to prevent condensation and bacterial growth.",
+            "shuffleOptions": true
+        },
+    
+// Week 10
+// Week 10: Creative Cooking with Leftovers - Test Questions
+        {
+            "type": "multiple-choice",
+            "text": "What is the difference between reheating and repurposing leftovers?",
+            "options": ["They mean the same thing", "Reheating warms up same food, repurposing creates new dishes", "Repurposing means throwing food away", "Reheating creates new dishes"],
+            "correctAnswer": 1,
+            "explanation": "Reheating means simply warming up the same food again, while repurposing uses leftovers as ingredients to create completely new dishes.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What can you make using leftover bread or tortillas?",
+            "options": ["Only throw them away", "Mini pizzas by using them as crust", "Nothing special", "Only feed them to animals"],
+            "correctAnswer": 1,
+            "explanation": "Leftover bread, tortillas, or pita can be used as crust bases for personalized mini pizzas.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What traditional dish transforms leftover cooked meat and mashed potatoes?",
+            "options": ["Shepherd's Pie", "Ice cream", "Salad", "Smoothie"],
+            "correctAnswer": 0,
+            "explanation": "Shepherd's Pie transforms leftover cooked meat and mashed potatoes into a comforting baked dish with vegetables and gravy.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What can you make by blending leftover fruits?",
+            "options": ["Fried rice", "Smoothies", "Shepherd's pie", "Pizza"],
+            "correctAnswer": 1,
+            "explanation": "Leftover fruits can be blended into smoothies or used to make traditional beverages.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "How can you transform plain leftover rice?",
+            "options": ["Throw it away", "Make fried rice with vegetables and protein", "Only eat it cold", "Use it as glue"],
+            "correctAnswer": 1,
+            "explanation": "Plain leftover rice can be transformed into flavorful fried rice by stir-frying with vegetables and protein.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What can various leftovers be combined with to create hearty meals?",
+            "options": ["Only water", "Broth to make soups", "Only sugar", "Only oil"],
+            "correctAnswer": 1,
+            "explanation": "Various leftovers can be combined with broth to create hearty soups.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you always do before handling food in the kitchen?",
+            "options": ["Wash hands thoroughly", "Put on makeup", "Check your phone", "Sing a song"],
+            "correctAnswer": 0,
+            "explanation": "Always wash hands thoroughly with soap for 20 seconds before handling food to prevent contamination.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What temperature should leftovers reach when reheating for safety?",
+            "options": ["Just warm", "37°C", "75°C", "100°C"],
+            "correctAnswer": 2,
+            "explanation": "Always reheat leftovers to at least 75°C (165°F) to kill bacteria and ensure food safety.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why should you stir food while reheating it?",
+            "options": ["To make it look nice", "To ensure even temperature distribution", "To cool it down", "To waste time"],
+            "correctAnswer": 1,
+            "explanation": "Stir food while reheating to ensure even temperature distribution and eliminate cold spots where bacteria can survive.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What kitchen practice helps maintain a clean workspace?",
+            "options": ["Clean as you go", "Leave everything until the end", "Only clean once a week", "Never clean"],
+            "correctAnswer": 0,
+            "explanation": "'Clean as you go' means maintaining a clean workspace throughout cooking, not just at the end.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is one benefit of creatively repurposing leftovers?",
+            "options": ["Creates more waste", "Reduces food waste and saves money", "Makes cooking more difficult", "Uses more electricity"],
+            "correctAnswer": 1,
+            "explanation": "Creative repurposing reduces food waste, saves money, and helps develop culinary creativity.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you do with long hair when cooking?",
+            "options": ["Leave it loose", "Tie it back", "Cut it off", "Wet it"],
+            "correctAnswer": 1,
+            "explanation": "Tie back long hair before cooking to prevent hair from falling into food and for safety around heat sources.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What can make a dish more visually appealing?",
+            "options": ["Serving it messy", "Garnishing with fresh herbs", "Using only one color", "Putting it in a dirty bowl"],
+            "correctAnswer": 1,
+            "explanation": "Garnishing with fresh herbs, arranging food neatly, and adding colorful elements makes dishes more visually appealing.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you use for raw and cooked foods to prevent cross-contamination?",
+            "options": ["The same cutting board", "Separate cutting boards", "Your hands only", "The countertop"],
+            "correctAnswer": 1,
+            "explanation": "Use separate cutting boards for raw and cooked foods to prevent cross-contamination and foodborne illness.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What is part of skillful preparation in the kitchen?",
+            "options": ["Using kitchen tools correctly and efficiently", "Throwing tools around", "Using the wrong tools", "Ignoring instructions"],
+            "correctAnswer": 0,
+            "explanation": "Skillful preparation includes using kitchen tools correctly and efficiently to achieve the best results.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you do before starting to cook?",
+            "options": ["Start cooking immediately", "Plan your recipe and gather ingredients", "Just guess what to do", "Ask someone else to do it"],
+            "correctAnswer": 1,
+            "explanation": "Always plan your recipe and gather all ingredients and equipment before starting to cook for efficiency and safety.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What does 'presentation' refer to in cooking?",
+            "options": ["Only the taste", "Making food look as good as it tastes", "The cost of ingredients", "How long it takes to cook"],
+            "correctAnswer": 1,
+            "explanation": "Presentation means making food look as good as it tastes through attractive plating and garnishing.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What can overripe bananas be used for?",
+            "options": ["Only throwing away", "Making delicious banana smoothies", "Nothing useful", "Compost only"],
+            "correctAnswer": 1,
+            "explanation": "Overripe bananas can be blended with milk and honey to make delicious and nutritious banana smoothies.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "What should you do after handling raw meat?",
+            "options": ["Touch everything in the kitchen", "Wash hands and surfaces thoroughly", "Use the same towel for everything", "Continue cooking without washing"],
+            "correctAnswer": 1,
+            "explanation": "After handling raw meat, wash hands and all surfaces thoroughly to prevent the spread of bacteria.",
+            "shuffleOptions": true
+        },
+        {
+            "type": "multiple-choice",
+            "text": "Why is it important to taste food while cooking?",
+            "options": ["To eat before others", "To adjust seasoning and ensure good flavor", "To waste food", "To show off"],
+            "correctAnswer": 1,
+            "explanation": "Tasting food while cooking allows you to adjust seasoning and ensure the final dish has good flavor.",
+            "shuffleOptions": true
+        }
             
             ]
         },
-    
-    
-    
+            ]
+        },
     
     ]
 });
