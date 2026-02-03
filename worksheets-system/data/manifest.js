@@ -23,26 +23,44 @@ const WorksheetManifest = {
         'data/baby/baby-math-week09.js',
         'data/baby/baby-math-week10.js',
         */
+        // english
+        'data/baby/baby-english-week02.js',
+        'data/baby/baby-english-week03.js',
+        'data/baby/baby-english-week04.js',
+        'data/baby/baby-english-week05.js',
+        'data/baby/baby-english-week07.js',
+        'data/baby/baby-english-week08.js',
+        'data/baby/baby-english-week09.js',
+        'data/baby/baby-english-week10.js',
     
     // ************* Middle *************
-        // Science
-        'data/middle/middle-science-week02.js',
-        'data/middle/middle-science-week03.js',
-        'data/middle/middle-science-week04.js',
-        'data/middle/middle-science-week05.js',
-        'data/middle/middle-science-week07.js',
-        'data/middle/middle-science-week08.js',
-        'data/middle/middle-science-week09.js',
-        'data/middle/middle-science-week10.js',
+        // cts
+/*        'data/middle/middle-creativeTech-week02.js',
+        'data/middle/middle-cts-week03.js',
+        'data/middle/middle-cts-week04.js',
+        'data/middle/middle-cts-week05.js',
+        'data/middle/middle-cts-week07.js',
+        'data/middle/middle-cts-week08.js',
+        'data/middle/middle-cts-week09.js',
+        'data/middle/middle-cts-week10.js',*/
+        // english
+        'data/middle/middle-english-week02.js',
+        'data/middle/middle-english-week03.js',
+        'data/middle/middle-english-week04.js',
+        'data/middle/middle-english-week05.js',
+        'data/middle/middle-english-week07.js',
+        'data/middle/middle-english-week08.js',
+        'data/middle/middle-english-week09.js',
+        'data/middle/middle-english-week10.js',
         // Mathematics
-        'data/middle/middle-math-week02.js',
-        'data/middle/middle-math-week03.js',
-        'data/middle/middle-math-week04.js',
-        'data/middle/middle-math-week05.js',
-        'data/middle/middle-math-week07.js',
-        'data/middle/middle-math-week08.js',
-        'data/middle/middle-math-week09.js',
-        'data/middle/middle-math-week10.js',
+/*        'data/middle/middle-mathscience-week02.js',
+        'data/middle/middle-mathscience-week03.js',
+        'data/middle/middle-mathscience-week04.js',
+        'data/middle/middle-mathscience-week05.js',
+        'data/middle/middle-mathscience-week07.js',
+        'data/middle/middle-mathscience-week08.js',
+        'data/middle/middle-mathscience-week09.js',
+        'data/middle/middle-mathscience-week10.js',
     /*
     // ************* Reception *************
         // Mathematics
