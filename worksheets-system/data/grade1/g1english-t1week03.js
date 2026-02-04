@@ -152,7 +152,7 @@ const grade1EnglishWeek3 = {
                 </div>
             </div>
         `,
-        homework: "Practice saying "This is my..." with three different family members. Draw a star next to each one you talk about.",
+        homework: "Practice saying 'This is my...' with three different family members. Draw a star next to each one you talk about.",
         homeworkDue: "Thursday"
     },
     
