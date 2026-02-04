@@ -79,7 +79,7 @@ const WorksheetManifest = {
         'data/middle/middle-mathematicsScience-t1week08.js',
         'data/middle/middle-mathematicsScience-t1week09.js',
         'data/middle/middle-mathematicsScience-t1week10.js',
-    /*
+    
     // ************* Reception *************
         // mathematicsScience
         'data/reception/reception-mathematicsScience-t1week02.js',
@@ -89,7 +89,7 @@ const WorksheetManifest = {
         'data/reception/reception-mathematicsScience-t1week07.js',
         'data/reception/reception-mathematicsScience-t1week08.js',
         'data/reception/reception-mathematicsScience-t1week09.js',
-        'data/reception/reception-mathematicsScience-t1week10.js',*/
+        'data/reception/reception-mathematicsScience-t1week10.js',
         // English
         'data/reception/reception-english-t1week02.js',
         'data/reception/reception-english-t1week03.js',
@@ -107,7 +107,7 @@ const WorksheetManifest = {
         'data/reception/reception-bemba-t1week07.js',
         'data/reception/reception-bemba-t1week08.js',
         'data/reception/reception-bemba-t1week09.js',
-        'data/reception/reception-bemba-t1week10.js',/*
+        'data/reception/reception-bemba-t1week10.js',
         // creativeTech
         'data/reception/reception-creativeTech-t1week02.js',
         'data/reception/reception-creativeTech-t1week03.js',
@@ -117,7 +117,7 @@ const WorksheetManifest = {
         'data/reception/reception-creativeTech-t1week08.js',
         'data/reception/reception-creativeTech-t1week09.js',
         'data/reception/reception-creativeTech-t1week10.js',
-        */
+        
     
     
     // ************* Grade 1 *************
