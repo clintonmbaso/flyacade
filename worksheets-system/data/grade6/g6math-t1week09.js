@@ -2,7 +2,7 @@
 const grade6MathWeek9 = {
     metadata: {
         grade: 6,
-        subject: "Math",
+        subject: "Mathematics",
         term: 1,
         week: 9,
         title: "Introduction to Ratios and Proportions",
@@ -524,4 +524,119 @@ const grade6MathWeek9 = {
                             <div>Cost: $0.50 _____ _____ _____ _____</div>
                         </div>
                         <div style="margin-left: 20px; height: 40px;"></div>
-                        <div>b.
+                        <div>b. A car travels 60 km per hour:</div>
+                        <div style="margin-left: 20px;">
+                            <div>Time (hours): 1 2 3 4 5</div>
+                            <div>Distance (km): 60 _____ _____ _____ _____</div>
+                        </div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                        <div>c. A recipe uses 3 cups of flour for 2 cups of sugar:</div>
+                        <div style="margin-left: 20px;">
+                            <div>Flour (cups): 3 6 9 12 15</div>
+                            <div>Sugar (cups): 2 _____ _____ _____ _____</div>
+                        </div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Problem Solving</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Solve these direct proportion problems:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. If 5 notebooks cost $7.50, how much do 8 notebooks cost?</div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                        <div>b. A machine makes 12 toys in 3 hours. How many toys can it make in 10 hours?</div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                        <div>c. A map has a scale of 1:25,000. If two towns are 8 cm apart on the map, what is their actual distance?</div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                        <div>d. A typist can type 240 words in 4 minutes. How many words can they type in 15 minutes?</div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Real-World Application</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Find or create a real-world example of direct proportion from your life:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Describe the situation:</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                        <div>Show the ratio:</div>
+                        <div style="margin-left: 20px; height: 30px;"></div>
+                        <div>Create a table with at least 4 values:</div>
+                        <div class="answer-space" style="height: 80px;"></div>
+                        <div>Explain why it's a direct proportion:</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Weekly Review</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Show what you've learned this week:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. Write the ratio 16:20 in simplest form:</div>
+                        <div style="margin-left: 20px; height: 30px;"></div>
+                        <div>b. Draw a visual representation of the ratio 3:5:</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>c. If the ratio of red to blue marbles is 4:7 and there are 28 red marbles, how many blue marbles are there?</div>
+                        <div style="margin-left: 20px; height: 40px;"></div>
+                        <div>d. Give an example of something that is NOT in direct proportion:</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+        homework: "Look for three examples of direct proportion in advertisements, recipes, or instructions. Write them down and explain why they are direct proportions.",
+        homeworkDue: "Monday",
+        weeklySummary: {
+            objectives: [
+                "Understand and define what a ratio is",
+                "Represent ratios visually using various methods",
+                "Simplify ratios to their lowest terms",
+                "Calculate missing values using equivalent ratios",
+                "Identify and work with direct proportion relationships"
+            ],
+            keyVocabulary: [
+                "Ratio - A comparison of two quantities",
+                "Equivalent Ratios - Different ratios that represent the same relationship",
+                "Simplify - To express a ratio using the smallest whole numbers",
+                "Direct Proportion - When two quantities increase or decrease at the same rate",
+                "Constant of Proportionality - The constant value of the ratio between two proportional quantities"
+            ],
+            reflectionQuestions: [
+                "Which method of representing ratios do you find most helpful and why?",
+                "How might you use ratios in your daily life outside of school?",
+                "What was the most challenging concept this week and how did you overcome it?"
+            ]
+        }
+    }
+};
+
+// Register the worksheet
+if (typeof window.registerWorksheet !== 'undefined') {
+    window.registerWorksheet(grade6MathWeek9);
+    console.log("grade6-math-week9.js registered using registerWorksheet()");
+} else if (typeof window.DataLoader !== 'undefined') {
+    window.DataLoader.registerWorksheet(grade6MathWeek9);
+    console.log("grade6-math-week9.js registered using DataLoader.registerWorksheet()");
+} else {
+    // Fallback: store in global array
+    if (!window.registeredWorksheets) {
+        window.registeredWorksheets = [];
+    }
+    window.registeredWorksheets.push({
+        variableName: 'grade6MathWeek9',
+        metadata: grade6MathWeek9.metadata,
+        days: grade6MathWeek9
+    });
+    console.log("grade6-math-week9.js stored in window.registeredWorksheets");
+}
+
+// Also expose it globally for backward compatibility
+window.grade6MathWeek9 = grade6MathWeek9;
+console.log("grade6-math-week9.js loaded and registered successfully"); 
