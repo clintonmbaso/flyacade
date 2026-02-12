@@ -452,6 +452,15 @@ const WorksheetManifest = {
         'data/grade6/g6homeEconomics-t1week08.js',
         'data/grade6/g6homeEconomics-t1week09.js',
         'data/grade6/g6homeEconomics-t1week10.js',
+        // Bemba    
+        'data/grade6/g6bemba-t1week02.js',
+        'data/grade6/g6bemba-t1week03.js',
+        'data/grade6/g6bemba-t1week04.js',
+        'data/grade6/g6bemba-t1week05.js',
+        'data/grade6/g6bemba-t1week07.js',
+        'data/grade6/g6bemba-t1week08.js',
+        'data/grade6/g6bemba-t1week09.js',
+        'data/grade6/g6bemba-t1week10.js',
                                                                         
                                               
 
