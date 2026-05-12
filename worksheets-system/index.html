@@ -11,7 +11,6 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <!--<div class="week-badge" id="weekBadge">Week 1</div>-->
             <h1>Flyacade Worksheets</h1>
             <h2 id="pageSubtitle">Interactive worksheets for easy learning</h2>
         </div>
@@ -29,7 +28,6 @@
                         <label for="gradeFilter"><i class="fas fa-graduation-cap"></i> Grade</label>
                         <select id="gradeFilter" class="filter-dropdown">
                             <option value="all">All Grades</option>
-                            <!-- Dynamic options will be added here -->
                         </select>
                     </div>
                     
@@ -38,7 +36,17 @@
                         <label for="subjectFilter"><i class="fas fa-book"></i> Subject</label>
                         <select id="subjectFilter" class="filter-dropdown">
                             <option value="all">All Subjects</option>
-                            <!-- Dynamic options will be added here -->
+                        </select>
+                    </div>
+                    
+                    <!-- Term Filter - NEW -->
+                    <div class="filter-select">
+                        <label for="termFilter"><i class="fas fa-chalkboard"></i> Term</label>
+                        <select id="termFilter" class="filter-dropdown">
+                            <option value="all">All Terms</option>
+                            <option value="1">Term 1</option>
+                            <option value="2">Term 2</option>
+                            <option value="3">Term 3</option>
                         </select>
                     </div>
                     
@@ -47,7 +55,6 @@
                         <label for="weekFilter"><i class="fas fa-calendar-week"></i> Week</label>
                         <select id="weekFilter" class="filter-dropdown">
                             <option value="all">All Weeks</option>
-                            <!-- Dynamic options will be added here -->
                         </select>
                     </div>
                     
@@ -91,20 +98,17 @@
                 
                 <!-- Active Filters Display -->
                 <div class="active-filters" id="activeFilters">
-                    <!-- Active filters will be displayed here -->
                 </div>
             </div>
         </div>
 
         <!-- Week Selector (now dynamically loaded) -->
         <div class="week-selector" id="weekSelector">
-            <!-- Dynamic week buttons will be added here -->
         </div>
 
         <!-- Controls -->
         <div class="controls">
             <div class="day-selector" id="daySelector">
-                <!-- Dynamic day buttons will be added here -->
             </div>
             
             <div class="action-buttons">
@@ -132,7 +136,6 @@
 
         <!-- Worksheets Container -->
         <div id="worksheets-container" class="grid-view">
-            <!-- Worksheets will be dynamically inserted here -->
         </div>
         
         <!-- No Results Message -->
@@ -146,16 +149,14 @@
         </div>
     </div>
 
-<!-- Update the script loading order in index.html -->
 <!-- Core scripts first -->
 <script src="js/data-loader.js"></script>
 <script src="js/filters.js"></script>
 <script src="js/main.js"></script>
 <script src="js/utils/print.js"></script>
 
-<!-- Data Manifest - Replace all individual data file loads -->
+<!-- Data Manifest -->
 <script src="data/manifest.js"></script>
-
 
 </body>
 </html>
