@@ -196,6 +196,25 @@ const WorksheetManifest = {
         'data/grade1/g1bemba-t1week08.js',
         'data/grade1/g1bemba-t1week09.js',
         'data/grade1/g1bemba-t1week10.js',
+    
+        'data/grade1/g1bemba-t2week02.js',
+        'data/grade1/g1bemba-t2week03.js',
+        'data/grade1/g1bemba-t2week04.js',
+        'data/grade1/g1bemba-t2week05.js',
+        'data/grade1/g1bemba-t2week07.js',
+        'data/grade1/g1bemba-t2week08.js',
+        'data/grade1/g1bemba-t2week09.js',
+        'data/grade1/g1bemba-t2week10.js',
+
+        'data/grade1/g1bemba-t3week02.js',
+        'data/grade1/g1bemba-t3week03.js',
+        'data/grade1/g1bemba-t3week04.js',
+        'data/grade1/g1bemba-t3week05.js',
+        'data/grade1/g1bemba-t3week07.js',
+        'data/grade1/g1bemba-t3week08.js',
+        'data/grade1/g1bemba-t3week09.js',
+        'data/grade1/g1bemba-t3week10.js',
+
          // English
         'data/grade1/g1english-t1week02.js',
         'data/grade1/g1english-t1week03.js',
@@ -272,6 +291,25 @@ const WorksheetManifest = {
         'data/grade2/g2bemba-t1week08.js',
         'data/grade2/g2bemba-t1week09.js',
         'data/grade2/g2bemba-t1week10.js',
+    
+        'data/grade2/g2bemba-t2week02.js',
+        'data/grade2/g2bemba-t2week03.js',
+        'data/grade2/g2bemba-t2week04.js',
+        'data/grade2/g2bemba-t2week05.js',
+        'data/grade2/g2bemba-t2week07.js',
+        'data/grade2/g2bemba-t2week08.js',
+        'data/grade2/g2bemba-t2week09.js',
+        'data/grade2/g2bemba-t2week10.js',
+
+        'data/grade2/g2bemba-t3week02.js',
+        'data/grade2/g2bemba-t3week03.js',
+        'data/grade2/g2bemba-t3week04.js',
+        'data/grade2/g2bemba-t3week05.js',
+        'data/grade2/g2bemba-t3week07.js',
+        'data/grade2/g2bemba-t3week08.js',
+        'data/grade2/g2bemba-t3week09.js',
+        'data/grade2/g2bemba-t3week10.js',
+
         // Literacy
         'data/grade2/g2literacy-t1week02.js',
         'data/grade2/g2literacy-t1week03.js',
@@ -338,6 +376,25 @@ const WorksheetManifest = {
         'data/grade3/g3bemba-t1week08.js',
         'data/grade3/g3bemba-t1week09.js',
         'data/grade3/g3bemba-t1week10.js',
+    
+        'data/grade3/g3bemba-t2week02.js',
+        'data/grade3/g3bemba-t2week03.js',
+        'data/grade3/g3bemba-t2week04.js',
+        'data/grade3/g3bemba-t2week05.js',
+        'data/grade3/g3bemba-t2week07.js',
+        'data/grade3/g3bemba-t2week08.js',
+        'data/grade3/g3bemba-t2week09.js',
+        'data/grade3/g3bemba-t2week10.js',
+
+        'data/grade3/g3bemba-t3week02.js',
+        'data/grade3/g3bemba-t3week03.js',
+        'data/grade3/g3bemba-t3week04.js',
+        'data/grade3/g3bemba-t3week05.js',
+        'data/grade3/g3bemba-t3week07.js',
+        'data/grade3/g3bemba-t3week08.js',
+        'data/grade3/g3bemba-t3week09.js',
+        'data/grade3/g3bemba-t3week10.js',
+
          // Literacy
         'data/grade3/g3literacy-t1week02.js',
         'data/grade3/g3literacy-t1week03.js',
