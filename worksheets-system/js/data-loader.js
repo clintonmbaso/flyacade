@@ -1,4 +1,4 @@
-// Data Loader Module - Updated for Lazy Loading
+// Data Loader Module - Updated for Term Support
 const DataLoader = {
     allWorksheets: [],
     loadedFiles: new Set(),
@@ -6,13 +6,17 @@ const DataLoader = {
     // Register workbook/worksheet data
     registerWorksheet: function(worksheetData) {
         if (worksheetData && worksheetData.metadata) {
+            // Add term to metadata if not present (for backward compatibility)
+            if (!worksheetData.metadata.term) {
+                worksheetData.metadata.term = '1';
+            }
             worksheetData.registeredTime = Date.now();
             this.allWorksheets.push({
-                variableName: `grade${worksheetData.metadata.grade}_${worksheetData.metadata.subject}_week${worksheetData.metadata.week}`,
+                variableName: `grade${worksheetData.metadata.grade}_${worksheetData.metadata.subject}_t${worksheetData.metadata.term}_week${worksheetData.metadata.week}`,
                 metadata: worksheetData.metadata,
                 days: worksheetData
             });
-            console.log(`Registered: ${worksheetData.metadata.subject} Grade ${worksheetData.metadata.grade} Week ${worksheetData.metadata.week}`);
+            console.log(`Registered: ${worksheetData.metadata.subject} Grade ${worksheetData.metadata.grade} Term ${worksheetData.metadata.term} Week ${worksheetData.metadata.week}`);
         }
     },
     
@@ -33,6 +37,11 @@ const DataLoader = {
         // Load each file dynamically
         let loadedCount = 0;
         const totalFiles = filesToLoad.length;
+        
+        if (totalFiles === 0) {
+            if (callback) callback();
+            return;
+        }
         
         filesToLoad.forEach(filePath => {
             // Skip if already loaded
@@ -73,16 +82,11 @@ const DataLoader = {
             
             document.head.appendChild(script);
         });
-        
-        // If no files to load, just callback
-        if (filesToLoad.length === 0 && callback) {
-            callback();
-        }
     },
     
     // Clear worksheets that don't match current filters
     clearFilteredWorksheets: function(filters) {
-        if (filters.grade === 'all' && filters.subject === 'all' && filters.week === 'all') {
+        if (filters.grade === 'all' && filters.subject === 'all' && filters.term === 'all' && filters.week === 'all') {
             // Keep all worksheets if no filters
             return;
         }
@@ -96,6 +100,10 @@ const DataLoader = {
             }
             
             if (filters.subject !== 'all' && metadata.subject !== filters.subject) {
+                return false;
+            }
+            
+            if (filters.term !== 'all' && metadata.term != filters.term) {
                 return false;
             }
             
@@ -155,12 +163,16 @@ const DataLoader = {
         const options = {
             grades: new Set(),
             subjects: new Set(),
+            terms: new Set(),
             weeks: new Set()
         };
         
         this.allWorksheets.forEach(worksheet => {
             options.grades.add(worksheet.metadata.grade);
             options.subjects.add(worksheet.metadata.subject);
+            if (worksheet.metadata.term) {
+                options.terms.add(worksheet.metadata.term);
+            }
             options.weeks.add(worksheet.metadata.week);
         });
         

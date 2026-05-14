@@ -1,8 +1,9 @@
-// Filters Module - Updated for Lazy Loading
+// Filters Module - Updated for Term Support
 const Filters = {
     currentFilters: {
         grade: 'all',
         subject: 'all',
+        term: 'all',
         week: 'all',
         day: 'all',
         search: ''
@@ -11,6 +12,7 @@ const Filters = {
     availableOptions: {
         grades: new Set(),
         subjects: new Set(),
+        terms: new Set(),
         weeks: new Set()
     },
     
@@ -54,11 +56,13 @@ const Filters = {
         const gradeFilter = document.getElementById('gradeFilter');
         const subjectFilter = document.getElementById('subjectFilter');
         const weekFilter = document.getElementById('weekFilter');
+        const termFilter = document.getElementById('termFilter');
         
         // Clear all options except "all"
         while (gradeFilter.options.length > 1) gradeFilter.remove(1);
         while (subjectFilter.options.length > 1) subjectFilter.remove(1);
         while (weekFilter.options.length > 1) weekFilter.remove(1);
+        while (termFilter.options.length > 1) termFilter.remove(1);
         
         // Add grade options
         Array.from(options.grades)
@@ -88,6 +92,15 @@ const Filters = {
                 option.textContent = subject;
                 subjectFilter.appendChild(option);
             });
+        
+        // Add term options (always show 1,2,3)
+        const terms = ['1', '2', '3'];
+        terms.forEach(term => {
+            const option = document.createElement('option');
+            option.value = term;
+            option.textContent = `Term ${term}`;
+            termFilter.appendChild(option);
+        });
         
         // Add week options
         Array.from(options.weeks)
@@ -155,19 +168,20 @@ const Filters = {
         }
     },
     
-    // Update week dropdown based on selected grade and subject
+    // Update week dropdown based on selected grade, subject, and term
     updateWeekDropdown() {
         if (!window.WorksheetManifest) return;
         
         const selectedGrade = document.getElementById('gradeFilter').value;
         const selectedSubject = document.getElementById('subjectFilter').value;
+        const selectedTerm = document.getElementById('termFilter').value;
         const weekFilter = document.getElementById('weekFilter');
         const currentWeek = weekFilter.value;
         
         // Clear existing options except "all"
         while (weekFilter.options.length > 1) weekFilter.remove(1);
         
-        if (selectedGrade === 'all' || selectedSubject === 'all') {
+        if (selectedGrade === 'all' || selectedSubject === 'all' || selectedTerm === 'all') {
             // Show all weeks from manifest
             const allOptions = window.WorksheetManifest.getAllOptions();
             Array.from(allOptions.weeks)
@@ -179,8 +193,8 @@ const Filters = {
                     weekFilter.appendChild(option);
                 });
         } else {
-            // Get weeks for selected grade and subject
-            const availableWeeks = this.getWeeksForGradeAndSubject(selectedGrade, selectedSubject);
+            // Get weeks for selected grade, subject, and term
+            const availableWeeks = this.getWeeksForGradeSubjectTerm(selectedGrade, selectedSubject, selectedTerm);
             
             if (availableWeeks.size === 0) {
                 // No weeks available
@@ -227,15 +241,18 @@ const Filters = {
         return subjects;
     },
     
-    // Get weeks for a specific grade and subject from manifest
-    getWeeksForGradeAndSubject(grade, subject) {
+    // Get weeks for a specific grade, subject, and term from manifest
+    getWeeksForGradeSubjectTerm(grade, subject, term) {
         const weeks = new Set();
         
         if (!window.WorksheetManifest) return weeks;
         
         window.WorksheetManifest.files.forEach(filePath => {
             const fileInfo = window.WorksheetManifest.parseFileInfo(filePath);
-            if (fileInfo.grade === grade && fileInfo.subject === subject && fileInfo.week) {
+            if (fileInfo.grade === grade && 
+                fileInfo.subject === subject && 
+                fileInfo.term === term && 
+                fileInfo.week) {
                 weeks.add(fileInfo.week);
             }
         });
@@ -283,6 +300,7 @@ const Filters = {
     updateUIFilters() {
         document.getElementById('gradeFilter').value = this.currentFilters.grade;
         document.getElementById('subjectFilter').value = this.currentFilters.subject;
+        document.getElementById('termFilter').value = this.currentFilters.term;
         document.getElementById('weekFilter').value = this.currentFilters.week;
         document.getElementById('dayFilter').value = this.currentFilters.day;
         document.getElementById('searchInput').value = this.currentFilters.search;
@@ -296,6 +314,7 @@ const Filters = {
             
             this.availableOptions.grades = options.grades;
             this.availableOptions.subjects = options.subjects;
+            this.availableOptions.terms = options.terms;
             this.availableOptions.weeks = options.weeks;
         }
     },
@@ -325,6 +344,11 @@ const Filters = {
                 return false;
             }
             
+            // Apply term filter
+            if (this.currentFilters.term !== 'all' && metadata.term != this.currentFilters.term) {
+                return false;
+            }
+            
             // Apply week filter
             if (this.currentFilters.week !== 'all' && metadata.week != this.currentFilters.week) {
                 return false;
@@ -338,6 +362,7 @@ const Filters = {
                     metadata.description,
                     metadata.subject,
                     `grade ${metadata.grade}`,
+                    `term ${metadata.term}`,
                     `week ${metadata.week}`
                 ].join(' ').toLowerCase();
                 
@@ -385,6 +410,7 @@ const Filters = {
         // If no filters selected (all), don't load anything
         if (this.currentFilters.grade === 'all' && 
             this.currentFilters.subject === 'all' && 
+            this.currentFilters.term === 'all' &&
             this.currentFilters.week === 'all') {
             return false;
         }
@@ -398,6 +424,10 @@ const Filters = {
             }
             
             if (this.currentFilters.subject !== 'all' && metadata.subject !== this.currentFilters.subject) {
+                return false;
+            }
+            
+            if (this.currentFilters.term !== 'all' && metadata.term != this.currentFilters.term) {
                 return false;
             }
             
@@ -437,6 +467,10 @@ const Filters = {
         
         if (this.currentFilters.subject !== 'all') {
             this.addFilterChip('subject', this.currentFilters.subject);
+        }
+        
+        if (this.currentFilters.term !== 'all') {
+            this.addFilterChip('term', `Term ${this.currentFilters.term}`);
         }
         
         if (this.currentFilters.week !== 'all') {
@@ -536,30 +570,29 @@ const Filters = {
         // Clear search button
         document.getElementById('clearSearch').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
-            // Just clear the UI, don't apply filters automatically
         });
         
-        // Search input (ONLY show search suggestions, don't apply)
+        // Search input
         document.getElementById('searchInput').addEventListener('keyup', (e) => {
-            // Just track changes, don't apply automatically
             if (e.key === 'Enter') {
-                // Allow Enter to trigger apply if user prefers
                 document.getElementById('applyFilters').click();
             }
         });
         
         // Grade filter change - ONLY update dropdowns, don't apply filters
         document.getElementById('gradeFilter').addEventListener('change', () => {
-            // Update dependent dropdowns
             this.updateSubjectDropdown();
             this.updateWeekDropdown();
-            // DON'T call applyFilters() here
         });
         
         // Subject filter change - ONLY update dropdowns, don't apply filters
         document.getElementById('subjectFilter').addEventListener('change', () => {
             this.updateWeekDropdown();
-            // DON'T call applyFilters() here
+        });
+        
+        // Term filter change - Update week dropdown
+        document.getElementById('termFilter').addEventListener('change', () => {
+            this.updateWeekDropdown();
         });
         
         // Week filter change - Just track, don't apply
@@ -591,14 +624,15 @@ const Filters = {
                 const filterType = button.getAttribute('data-filter-type');
                 this.removeFilter(filterType);
                 
-                // Update dependent dropdowns when removing grade or subject
+                // Update dependent dropdowns when removing filters
                 if (filterType === 'grade') {
                     this.updateSubjectDropdown();
                     this.updateWeekDropdown();
                 } else if (filterType === 'subject') {
                     this.updateWeekDropdown();
+                } else if (filterType === 'term') {
+                    this.updateWeekDropdown();
                 }
-                // DON'T call applyFilters() here - user must click Apply button
             }
         });
     },
@@ -608,6 +642,7 @@ const Filters = {
         return {
             grade: document.getElementById('gradeFilter').value,
             subject: document.getElementById('subjectFilter').value,
+            term: document.getElementById('termFilter').value,
             week: document.getElementById('weekFilter').value,
             day: document.getElementById('dayFilter').value,
             search: document.getElementById('searchInput').value.trim()
@@ -628,6 +663,9 @@ const Filters = {
             case 'subject':
                 document.getElementById('subjectFilter').value = 'all';
                 break;
+            case 'term':
+                document.getElementById('termFilter').value = 'all';
+                break;
             case 'week':
                 document.getElementById('weekFilter').value = 'all';
                 break;
@@ -645,6 +683,8 @@ const Filters = {
             this.updateWeekDropdown();
         } else if (filterType === 'subject') {
             this.updateWeekDropdown();
+        } else if (filterType === 'term') {
+            this.updateWeekDropdown();
         }
         
         // Update UI filters state but don't load worksheets
@@ -659,6 +699,7 @@ const Filters = {
     resetFilters() {
         document.getElementById('gradeFilter').value = 'all';
         document.getElementById('subjectFilter').value = 'all';
+        document.getElementById('termFilter').value = 'all';
         document.getElementById('weekFilter').value = 'all';
         document.getElementById('dayFilter').value = 'all';
         document.getElementById('searchInput').value = '';
@@ -666,6 +707,7 @@ const Filters = {
         this.currentFilters = {
             grade: 'all',
             subject: 'all',
+            term: 'all',
             week: 'all',
             day: 'all',
             search: ''
