@@ -187,6 +187,25 @@ const WorksheetManifest = {
         'data/grade1/g1mathematicsScience-t1week08.js',
         'data/grade1/g1mathematicsScience-t1week09.js',
         'data/grade1/g1mathematicsScience-t1week10.js',
+    
+        'data/grade1/g1mathematicsScience-t2week02.js',
+        'data/grade1/g1mathematicsScience-t2week03.js',
+        'data/grade1/g1mathematicsScience-t2week04.js',
+        'data/grade1/g1mathematicsScience-t2week05.js',
+        'data/grade1/g1mathematicsScience-t2week07.js',
+        'data/grade1/g1mathematicsScience-t2week08.js',
+        'data/grade1/g1mathematicsScience-t2week09.js',
+        'data/grade1/g1mathematicsScience-t2week10.js',
+
+        'data/grade1/g1mathematicsScience-t3week02.js',
+        'data/grade1/g1mathematicsScience-t3week03.js',
+        'data/grade1/g1mathematicsScience-t3week04.js',
+        'data/grade1/g1mathematicsScience-t3week05.js',
+        'data/grade1/g1mathematicsScience-t3week07.js',
+        'data/grade1/g1mathematicsScience-t3week08.js',
+        'data/grade1/g1mathematicsScience-t3week09.js',
+        'data/grade1/g1mathematicsScience-t3week10.js',
+
         // Bemba
         'data/grade1/g1bemba-t1week02.js',
         'data/grade1/g1bemba-t1week03.js',
@@ -508,6 +527,25 @@ const WorksheetManifest = {
         'data/grade4/g4literacy-t1week08.js',
         'data/grade4/g4literacy-t1week09.js',
         'data/grade4/g4literacy-t1week10.js',
+    
+        'data/grade4/g4literacy-t2week02.js',
+        'data/grade4/g4literacy-t2week03.js',
+        'data/grade4/g4literacy-t2week04.js',
+        'data/grade4/g4literacy-t2week05.js',
+        'data/grade4/g4literacy-t2week07.js',
+        'data/grade4/g4literacy-t2week08.js',
+        'data/grade4/g4literacy-t2week09.js',
+        'data/grade4/g4literacy-t2week10.js',
+
+        'data/grade4/g4literacy-t3week02.js',
+        'data/grade4/g4literacy-t3week03.js',
+        'data/grade4/g4literacy-t3week04.js',
+        'data/grade4/g4literacy-t3week05.js',
+        'data/grade4/g4literacy-t3week07.js',
+        'data/grade4/g4literacy-t3week08.js',
+        'data/grade4/g4literacy-t3week09.js',
+        'data/grade4/g4literacy-t3week10.js',
+
         // English
         'data/grade4/g4english-t1week02.js',
         'data/grade4/g4english-t1week03.js',
