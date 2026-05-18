@@ -292,6 +292,7 @@ const WorksheetManifest = {
         'data/grade2/g2mathematicsScience-t1week08.js',
         'data/grade2/g2mathematicsScience-t1week09.js',
         'data/grade2/g2mathematicsScience-t1week10.js',
+    
         //CTS
         'data/grade2/g2creativeTech-t1week02.js',
         'data/grade2/g2creativeTech-t1week03.js',
@@ -301,6 +302,25 @@ const WorksheetManifest = {
         'data/grade2/g2creativeTech-t1week08.js',
         'data/grade2/g2creativeTech-t1week09.js',
         'data/grade2/g2creativeTech-t1week10.js',
+    
+        'data/grade2/g2creativeTech-t2week02.js',
+        'data/grade2/g2creativeTech-t2week03.js',
+        'data/grade2/g2creativeTech-t2week04.js',
+        'data/grade2/g2creativeTech-t2week05.js',
+        'data/grade2/g2creativeTech-t2week07.js',
+        'data/grade2/g2creativeTech-t2week08.js',
+        'data/grade2/g2creativeTech-t2week09.js',
+        'data/grade2/g2creativeTech-t2week10.js',
+
+        'data/grade2/g2creativeTech-t3week02.js',
+        'data/grade2/g2creativeTech-t3week03.js',
+        'data/grade2/g2creativeTech-t3week04.js',
+        'data/grade2/g2creativeTech-t3week05.js',
+        'data/grade2/g2creativeTech-t3week07.js',
+        'data/grade2/g2creativeTech-t3week08.js',
+        'data/grade2/g2creativeTech-t3week09.js',
+        'data/grade2/g2creativeTech-t3week10.js',
+
         // Bemba
         'data/grade2/g2bemba-t1week02.js',
         'data/grade2/g2bemba-t1week03.js',
@@ -377,6 +397,8 @@ const WorksheetManifest = {
         'data/grade3/g3mathematicsScience-t1week08.js',
         'data/grade3/g3mathematicsScience-t1week09.js',
         'data/grade3/g3mathematicsScience-t1week10.js',
+    
+    
         //CTS
         'data/grade3/g3creativeTech-t1week02.js',
         'data/grade3/g3creativeTech-t1week03.js',
@@ -386,6 +408,25 @@ const WorksheetManifest = {
         'data/grade3/g3creativeTech-t1week08.js',
         'data/grade3/g3creativeTech-t1week09.js',
         'data/grade3/g3creativeTech-t1week10.js',
+    
+        'data/grade3/g3creativeTech-t2week02.js',
+        'data/grade3/g3creativeTech-t2week03.js',
+        'data/grade3/g3creativeTech-t2week04.js',
+        'data/grade3/g3creativeTech-t2week05.js',
+        'data/grade3/g3creativeTech-t2week07.js',
+        'data/grade3/g3creativeTech-t2week08.js',
+        'data/grade3/g3creativeTech-t2week09.js',
+        'data/grade3/g3creativeTech-t2week10.js',
+
+        'data/grade3/g3creativeTech-t3week02.js',
+        'data/grade3/g3creativeTech-t3week03.js',
+        'data/grade3/g3creativeTech-t3week04.js',
+        'data/grade3/g3creativeTech-t3week05.js',
+        'data/grade3/g3creativeTech-t3week07.js',
+        'data/grade3/g3creativeTech-t3week08.js',
+        'data/grade3/g3creativeTech-t3week09.js',
+        'data/grade3/g3creativeTech-t3week10.js',
+
         // Bemba    
         'data/grade3/g3bemba-t1week02.js',
         'data/grade3/g3bemba-t1week03.js',
@@ -423,6 +464,8 @@ const WorksheetManifest = {
         'data/grade3/g3literacy-t1week08.js',
         'data/grade3/g3literacy-t1week09.js',
         'data/grade3/g3literacy-t1week10.js',
+    
+    
          // English
         'data/grade3/g3english-t1week02.js',
         'data/grade3/g3english-t1week03.js',
