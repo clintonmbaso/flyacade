@@ -1,196 +1,223 @@
-// Grade 3 Creative and Technology Studies - Week 10 Data
-const grade3CreativeTechWeek10 = {
+// Grade 3 Creative and Technology Studies - Term 1 Week 10
+const grade3CTSWeek10 = {
     metadata: {
         grade: 3,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 10,
-        title: "Patterns — Discovering and Printing",
-        description: "Learning to collect objects for printing and create repeated decorative patterns"
+        title: "Computer Hardware and Case Components",
+        description: "Identifying core computer hardware components and demonstrating proper handling, connection, and safe usage"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Discovering Objects for Printing",
-        subtopic: "Patterns (4.5.1) - Collecting and preparing objects for printed patterns",
+        topic: "Computer Hardware",
+        subtopic: "Identifying Computer Parts: Case, Mouse, and Storage",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will explore how to find and prepare objects that can create beautiful printed patterns.</p>
-            <p><strong>Key Concept:</strong> A pattern is a repeated design that creates rhythm and interest.</p>
-            <p><strong>What is a pattern?</strong></p>
+            <p>Welcome to our computer hardware exploration! Today we'll learn about the important parts that make up a computer.</p>
+            <p><strong>Key Question:</strong> What are the main parts of a computer and what do they do?</p>
+            <p><strong>Introduction:</strong> A computer is made up of different parts that work together. Just like your body has different parts (arms, legs, head), a computer has different parts that each do a special job.</p>
+            <p><strong>Main Computer Parts We Will Learn Today:</strong></p>
+            <ol>
+                <li><strong>Computer Case (System Unit):</strong> The box that holds all the important inside parts of the computer. It's like the computer's body!</li>
+                <li><strong>Mouse:</strong> A pointing device that lets you click, select, and move things on the screen.</li>
+                <li><strong>Storage Devices:</strong> Parts that save your work so you can use it again later (like a USB flash drive or hard drive).</li>
+            </ol>
+            <p><strong>More Computer Parts:</strong></p>
             <ul>
-                <li>A pattern is a repeated design or sequence</li>
-                <li>It can be made with shapes, colors, or textures</li>
-                <li>Different objects leave different marks when used for printing</li>
-                <li>Nature and everyday items can become printing tools!</li>
+                <li><strong>Monitor:</strong> The screen that shows you pictures and words</li>
+                <li><strong>Keyboard:</strong> Used for typing letters and numbers</li>
+                <li><strong>Speakers:</strong> Let you hear sounds from the computer</li>
             </ul>
-            <p><strong>Why do we need to prepare objects?</strong> Proper preparation helps create clear, beautiful prints and keeps our materials safe for use.</p>
-            <p><strong>Vocabulary:</strong> patterns, printing, textures, stamps, natural objects, preparation</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Nature's Stamps</div>
-                <p>"Leaves with thick veins make excellent prints." - Nature provides perfect tools for creating patterns!</p>
+                <div class="example-title"><i class="fas fa-desktop"></i> The Computer Case</div>
+                <p>The computer case is like a house for the computer's brain! Inside are the parts that make the computer work, like the processor and memory.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cookie-bite"></i> Household Objects</div>
-                <p>Bottle caps, sponge pieces, and even potato halves can become printing stamps with some preparation.</p>
+                <div class="example-title"><i class="fas fa-mouse"></i> Meet the Mouse</div>
+                <p>The mouse is called a "mouse" because it has a cord that looks like a tail! You move it around your desk to control what happens on the screen.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper"></i> Dry Stamping Practice</div>
-                <p>Before using paint, try "dry stamping" on your hand or paper to see what shape your object will make!</p>
+                <div class="example-title"><i class="fas fa-save"></i> Storage Devices</div>
+                <p>A USB flash drive is a tiny storage device that fits in your pocket! You can save your drawings and stories on it and open them on any computer.</p>
             </div>
         `,
-        taskInstructions: "Collect and prepare objects that could be used for pattern printing.",
+        taskInstructions: "Identify, draw, and label computer hardware components.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Collect or list 3 natural objects that could be used for printing:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. __________________________</div>
-                    <div>2. __________________________</div>
-                    <div>3. __________________________</div>
-                </div>
-                <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
-                    <p style="text-align: center; color: #666; padding-top: 30px;">[Draw one of your collected objects here]</p>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> List 3 household objects that could become printing stamps:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. __________________________</div>
-                    <div>2. __________________________</div>
-                    <div>3. __________________________</div>
+            <div class="content-box">
+                <p><strong>Part A: Name the Parts</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look at the pictures or real computer parts in the classroom. Write the name of each part:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>The box that holds the computer's brain: _________</div>
+                        <div>The part you use to click and point: _________</div>
+                        <div>The device that saves your work: _________</div>
+                        <div>The screen that shows pictures: _________</div>
+                        <div>The part you use for typing: _________</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Practice "dry stamping" with one object:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">This object would make a good stamp because __________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw and label the computer case, mouse, and a storage device (USB flash drive):
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> How would you prepare these objects for printing?
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Leaves: ________________________________</div>
-                    <div>Potato: ________________________________</div>
-                    <div>Bottle cap: ____________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Matching Game</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a line to match each part to what it does:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Computer Case &nbsp;&nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp;&nbsp; Shows pictures</div>
+                        <div>Mouse &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp;&nbsp; Holds inside parts</div>
+                        <div>Monitor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp;&nbsp; Clicks and points</div>
+                        <div>Keyboard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp;&nbsp; Saves your work</div>
+                        <div>Storage Device &nbsp;&nbsp; → &nbsp;&nbsp;&nbsp;&nbsp; Types letters</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Quick Check</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> What is your favorite computer part and why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Collect 5 different objects from nature or home that could be used for printing. Store them safely in a bag.",
-        homeworkDue: "Tomorrow (Friday)"
+        homework: "Look at the computer at home (or draw one from memory). Draw three computer parts and label their names.",
+        homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Printing Creative Patterns",
-        subtopic: "Patterns (4.5.1) - Creating patterns using printing techniques",
+        topic: "Computer Hardware",
+        subtopic: "Handling, Connecting, and Safe Usage of Hardware",
         lessonContent: `
-            <p>Today we will use our collected objects to create beautiful, repeated patterns through printing!</p>
-            <p><strong>Key Concept:</strong> To create a pattern, a shape must be repeated in a specific, organized order.</p>
-            <p><strong>What makes a good printed pattern?</strong></p>
+            <p>Today we'll learn how to take care of computer parts and use them safely!</p>
+            <p><strong>Key Question:</strong> How do we handle computer parts properly and keep them safe?</p>
+            <p><strong>Introduction:</strong> Computer parts are expensive and can break easily if we don't take care of them. Learning how to handle, connect, and use them safely helps computers last longer.</p>
+            <p><strong>Proper Handling Rules:</strong></p>
             <ol>
-                <li>Clear, visible shapes</li>
-                <li>Consistent repetition</li>
-                <li>Thoughtful arrangement</li>
-                <li>Good use of space</li>
+                <li>Always wash and dry your hands before using a computer</li>
+                <li>Never eat or drink near a computer</li>
+                <li>Be gentle - don't bang on the keyboard or mouse</li>
+                <li>Hold storage devices (USB drives) carefully by the edges</li>
+                <li>Keep cords tidy so nobody trips</li>
             </ol>
-            <p><strong>Printing techniques we will learn:</strong></p>
+            <p><strong>How to Connect Basic Parts:</strong></p>
             <ul>
-                <li><strong>Leaf prints:</strong> Applying paint to a leaf and pressing it onto paper</li>
-                <li><strong>Potato prints:</strong> Cutting shapes into potatoes and using them as stamps</li>
-                <li><strong>String-pull patterns:</strong> Dipping string in paint and pulling it between folded paper</li>
+                <li><strong>Mouse:</strong> Plug into the USB port (the rectangle-shaped hole)</li>
+                <li><strong>Keyboard:</strong> Also plugs into a USB port</li>
+                <li><strong>USB Storage:</strong> Gently push into the USB port until it clicks</li>
             </ul>
-            <p><strong>Remember:</strong> Press firmly and evenly for the clearest prints. Too much paint can blur your pattern!</p>
+            <p><strong>Safe Usage Tips:</strong></p>
+            <ul>
+                <li>Sit up straight with your feet on the floor</li>
+                <li>Keep the screen at arm's length away</li>
+                <li>Take breaks every 20-30 minutes</li>
+                <li>Tell a teacher or adult if something isn't working</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-stamp" style="color: #2196F3;"></i> Leaf Printing</div>
-                <p>"Apply a thin layer of paint to the veined side of the leaf, then press firmly onto paper." - Creates beautiful natural patterns!</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Gentle Handling</div>
+                <p>Computers are like pets - they need gentle care! Never push hard on buttons or throw the mouse. Treat computer parts with kindness.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pull-left"></i> String-Pull Technique</div>
-                <p>Fold paper, dip string in paint, place it inside, close paper, and pull the string out for surprise patterns!</p>
+                <div class="example-title"><i class="fas fa-plug"></i> Plugging It In</div>
+                <p>A USB plug only goes in one way! Look at the shape carefully before pushing gently. If it doesn't fit, turn it over and try again.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-redo-alt"></i> Pattern Rhythm</div>
-                <p>A pattern like "leaf, potato, leaf, potato" creates visual rhythm and order in your design.</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> No Food Zone</div>
+                <p>Crumbs can get inside your keyboard and make the keys stick! Always finish snacks before using the computer.</p>
             </div>
         `,
-        taskInstructions: "Create printed patterns using at least two different techniques.",
+        taskInstructions: "Demonstrate proper handling, practice connecting parts, and list safety rules.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Leaf Print Pattern</strong></p>
+                <p><strong>Part A: Safety Rules Poster</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Create a leaf print pattern on this paper:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; background-color: #F5F5F5;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My leaf pattern rhythm is: ____________________</div>
+                    <span class="task-number">1</span> List 5 rules for taking care of a computer:
+                    <div class="answer-space" style="height: 120px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Potato Print Pattern</strong></p>
+                <p><strong>Part B: Connection Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Design and create a potato stamp pattern:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; background-color: #F5F5F5;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My potato shape is: _________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: String-Pull Experiment</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Try the string-pull technique (describe or draw result):
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 1px dashed #8BC34A;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">The string-pull created: _________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Combined Pattern</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Create a pattern using TWO different printing methods:
-                    <div class="drawing-area" style="height: 180px; margin-top: 10px; background-color: #FFF8E1;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My combined pattern follows this rhythm: ____________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Pattern Evaluation</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Check your best pattern:
+                    <span class="task-number">2</span> With your teacher's help, practice connecting:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ My prints are clear and visible</div>
-                        <div>☐ My pattern repeats in order</div>
-                        <div>☐ I used at least two printing methods</div>
-                        <div>☐ My design fills the space nicely</div>
+                        <div>• Mouse to the computer (USB port)</div>
+                        <div>• Keyboard to the computer (USB port)</div>
                     </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">The most successful part of my pattern is: ___________</div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Describe what you did and how it felt:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Good or Bad Choice?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Circle GOOD or BAD for each situation:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Eating cookies while typing &nbsp;&nbsp;&nbsp; GOOD / BAD</div>
+                        <div>B. Washing hands before using computer &nbsp;&nbsp;&nbsp; GOOD / BAD</div>
+                        <div>C. Yanking the USB cord out hard &nbsp;&nbsp;&nbsp; GOOD / BAD</div>
+                        <div>D. Sitting up straight at the computer &nbsp;&nbsp;&nbsp; GOOD / BAD</div>
+                        <div>E. Telling an adult if something is broken &nbsp;&nbsp;&nbsp; GOOD / BAD</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw a computer setup (monitor, computer case, mouse, keyboard). Show where the mouse and keyboard connect:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Why is it important to be gentle with computer parts?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a pattern at home using objects you find. Bring it to class next week to share.",
-        homeworkDue: "Next Monday"
+        homework: "Teach a family member one rule about taking care of a computer. Write down which rule you taught and draw a picture of it.",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade3CreativeTechWeek10);
-    console.log("creative-tech-week10.js registered using registerWorksheet()");
+    window.registerWorksheet(grade3CTSWeek10);
+    console.log("grade3-cts-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade3CreativeTechWeek10);
-    console.log("creative-tech-week10.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade3CTSWeek10);
+    console.log("grade3-cts-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade3CreativeTechWeek10',
-        metadata: grade3CreativeTechWeek10.metadata,
-        days: grade3CreativeTechWeek10
+        variableName: 'grade3CTSWeek10',
+        metadata: grade3CTSWeek10.metadata,
+        days: grade3CTSWeek10
     });
-    console.log("creative-tech-week10.js stored in window.registeredWorksheets");
+    console.log("grade3-cts-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade3CreativeTechWeek10 = grade3CreativeTechWeek10;
-console.log("creative-tech-week10.js loaded and registered successfully");
+window.grade3CTSWeek10 = grade3CTSWeek10;
+console.log("grade3-cts-week10.js loaded and registered successfully");

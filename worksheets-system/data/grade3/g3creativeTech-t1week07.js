@@ -1,231 +1,238 @@
-// Grade 3 Creative and Technology Studies - Week 7 Data
-const grade3CreativeTechWeek7 = {
+// Grade 3 Creative and Technology Studies - Term 1 Week 7 Data
+const grade3CTSTerm1Week7 = {
     metadata: {
         grade: 3,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 7,
-        title: "Drawing Life Experiences and Celebrations",
-        description: "Learning to draw personal experiences and cultural/spiritual celebrations through art"
+        title: "Secondary Colors and Life Art",
+        description: "Identifying and mixing secondary colors (orange, green, violet) and creating community life artwork"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Drawing Life Experiences",
-        subtopic: "Drawing (3.3.1) - Creating pictures based on personal events",
+        topic: "Visual Arts",
+        subtopic: "Identifying and Mixing Secondary Colors",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn how to turn our memories into beautiful drawings.</p>
-            <p><strong>Key Concept:</strong> Drawings can tell stories about our lives and special moments we have experienced.</p>
-            <p><strong>What are life experiences?</strong></p>
-            <ul>
-                <li>Special events you have attended</li>
-                <li>Happy memories with family and friends</li>
-                <li>Important celebrations or gatherings</li>
-                <li>Fun activities you have participated in</li>
-            </ul>
-            <p><strong>Examples of life experiences:</strong></p>
+            <p>Welcome to our colorful art lesson! Today we'll learn about secondary colors and how to create them by mixing primary colors.</p>
+            <p><strong>Key Question:</strong> What happens when you mix two primary colors together?</p>
+            <p><strong>Introduction:</strong> Secondary colors are made by mixing two primary colors. The three primary colors are red, blue, and yellow. When we mix them together, we get brand new colors!</p>
+            <p><strong>The Three Secondary Colors:</strong></p>
             <ol>
-                <li>Weddings or family gatherings</li>
-                <li>Sports days or competitions</li>
-                <li>Birthday parties</li>
-                <li>School events or ceremonies</li>
-                <li>Visits to special places</li>
+                <li><strong>Orange:</strong> Made by mixing red + yellow</li>
+                <li><strong>Green:</strong> Made by mixing blue + yellow</li>
+                <li><strong>Violet (Purple):</strong> Made by mixing red + blue</li>
             </ol>
-            <p><strong>Drawing Tip:</strong> Start with basic shapes! Circles for heads, rectangles for bodies, and triangles for dresses or hats.</p>
-            <p><strong>Today's Challenge:</strong> Choose one special event from your life and draw it like a story!</p>
+            <p><strong>Color Mixing Rules:</strong></p>
+            <ul>
+                <li>Red + Yellow = Orange</li>
+                <li>Blue + Yellow = Green</li>
+                <li>Red + Blue = Violet</li>
+            </ul>
+            <p><strong>Fun Fact:</strong> If you mix all three primary colors together, you get brown!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette" style="color: #4CAF50;"></i> Drawing Example</div>
-                <p>"I drew my cousin's wedding. I showed people dancing, the bride in a white dress, and colorful decorations."</p>
+                <div class="example-title"><i class="fas fa-palette"></i> Paint Mixing Magic</div>
+                <p>Take a blob of red paint and a blob of yellow paint. Mix them together with a brush. Watch as they magically turn into orange!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shapes"></i> Shape Technique</div>
-                <p>Use circles for heads, ovals for bodies, triangles for skirts, and rectangles for buildings or tables.</p>
+                <div class="example-title"><i class="fas fa-carrot"></i> Orange Around Us</div>
+                <p>Oranges, carrots, pumpkins, and marigold flowers are all orange. Can you think of more orange things?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Remembering Details</div>
-                <p>Think about: What were people doing? What were they wearing? What was in the background?</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Green in Nature</div>
+                <p>Grass, leaves, frogs, and limes are green. Green is everywhere in nature because plants use a green chemical called chlorophyll!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-grape"></i> Violet Treats</div>
+                <p>Grapes, eggplants, plums, and violets are violet (purple). What purple foods do you like to eat?</p>
             </div>
         `,
-        taskInstructions: "Draw a picture based on a personal life experience or event.",
+        taskInstructions: "Practice mixing primary colors to create secondary colors and complete the color chart.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Think and Choose:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <p>Think about a happy memory or recent event. Circle your choice:</p>
-                    <div>☐ A wedding or family gathering</div>
-                    <div>☐ A sports day or competition</div>
-                    <div>☐ A birthday party</div>
-                    <div>☐ A school event</div>
-                    <div>☐ Other: ____________________</div>
+            <div class="content-box">
+                <p><strong>Part A: Color Mixing Experiment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Using paint or colored pencils, mix the following colors:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Red + Yellow = <span style="border: 1px solid #ccc; padding: 5px 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> (Orange)</div>
+                        <div>• Blue + Yellow = <span style="border: 1px solid #ccc; padding: 5px 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> (Green)</div>
+                        <div>• Red + Blue = <span style="border: 1px solid #ccc; padding: 5px 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> (Violet)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
-            <div class="task-item">
-                <span class="task-number">2</span> Plan Your Drawing:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div class="answer-space" style="height: 30px; margin-bottom: 10px;">My event: ________________________________</div>
-                    <div class="answer-space" style="height: 30px; margin-bottom: 10px;">People in my drawing: _____________________</div>
-                    <div class="answer-space" style="height: 30px;">What they are doing: ________________________</div>
+            <div class="content-box">
+                <p><strong>Part B: Complete the Color Wheel</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Color the color wheel below with the correct colors:
+                    <div style="text-align: center; margin: 10px 0;">
+                        <div style="width: 200px; height: 200px; border-radius: 50%; background: #f0f0f0; margin: 0 auto; position: relative;">
+                            <div style="position: absolute; top: 10px; left: 90px;">▲</div>
+                            <div style="position: absolute; bottom: 10px; left: 90px;">▼</div>
+                            <div style="position: absolute; left: 10px; top: 90px;">◀</div>
+                            <div style="position: absolute; right: 10px; top: 90px;">▶</div>
+                        </div>
+                        <p style="font-size: 12px; margin-top: 10px;">(Color the sections: Red, Yellow, Blue, Orange, Green, Violet)</p>
+                    </div>
                 </div>
             </div>
             
-            <div class="task-item">
-                <span class="task-number">3</span> Draw Your Life Experience:
-                <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4CAF50;">
-                    <p style="text-align: center; color: #666; padding-top: 80px;">Draw your special memory here</p>
-                </div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">Title of my drawing: _________________________</div>
-            </div>
-            
-            <div class="task-item">
-                <span class="task-number">4</span> Label Your Drawing:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <p>Add labels to 3 things in your drawing:</p>
-                    <div class="answer-space" style="height: 30px; width: 150px; display: inline-block; margin-right: 10px;">1. ________________</div>
-                    <div class="answer-space" style="height: 30px; width: 150px; display: inline-block; margin-right: 10px;">2. ________________</div>
-                    <div class="answer-space" style="height: 30px; width: 150px; display: inline-block;">3. ________________</div>
+            <div class="content-box">
+                <p><strong>Part C: Color Hunt</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw or list three things you can find in your classroom or home for each secondary color:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Orange:</strong> 1. _________ 2. _________ 3. _________</div>
+                        <div><strong>Green:</strong> 1. _________ 2. _________ 3. _________</div>
+                        <div><strong>Violet:</strong> 1. _________ 2. _________ 3. _________</div>
+                    </div>
                 </div>
             </div>
             
-            <div class="task-item">
-                <span class="task-number">5</span> Share Your Story:
-                <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                    <p>Write one sentence about your drawing:</p>
-                    <p>This shows ____________________________________________</p>
+            <div class="content-box">
+                <p><strong>Part D: Mixing Challenge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> What happens if you add more of one color than the other? Try making a light green (more yellow) and a dark green (more blue). Draw your results:
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member about their favorite memory. Draw a small picture of it together.",
+        homework: "Find three objects at home for each secondary color (orange, green, violet). Draw them in your notebook and color them correctly.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Spiritual and Cultural Celebrations",
-        subtopic: "Drawing (3.3.1) - Depicting worship or traditional dancing",
+        topic: "Visual Arts",
+        subtopic: "Life Art - Coloring Community Scenes",
         lessonContent: `
-            <p>Welcome back! Today we will explore how to draw people expressing themselves through worship and traditional dancing.</p>
-            <p><strong>Key Concept:</strong> Drawings can capture movement, emotion, and cultural traditions.</p>
-            <p><strong>What are spiritual and cultural celebrations?</strong></p>
+            <p>Today we will use our knowledge of secondary colors to bring community life scenes to life!</p>
+            <p><strong>Key Question:</strong> How can we use secondary colors to make our artwork look more realistic and beautiful?</p>
+            <p><strong>Introduction:</strong> Artists use colors to show what life looks like around them. Today we will color pictures that show community life - places where people live, work, and play together.</p>
+            <p><strong>What is Community Life Art?</strong></p>
             <ul>
-                <li>Worship: Praying, singing, bowing, clapping</li>
-                <li>Traditional dancing: Cultural dances, special costumes, musical instruments</li>
-                <li>Ceremonies: Special events with rituals and traditions</li>
+                <li>Art that shows people doing everyday activities</li>
+                <li>Scenes from local villages, towns, or cities</li>
+                <li>Pictures of markets, schools, homes, and roads</li>
+                <li>Drawings of people working, playing, and helping each other</li>
             </ul>
-            <p><strong>Showing Action in Drawing:</strong></p>
-            <ol>
-                <li>Bending lines show movement</li>
-                <li>Arms raised show excitement or praise</li>
-                <li>Bodies leaning show dancing motion</li>
-                <li>Faces showing emotion (happy, serious)</li>
-            </ol>
-            <p><strong>Expected Standard:</strong> Your drawings should show clearly identifiable figures doing specific activities.</p>
-            <p><strong>Today's Choice:</strong> You can draw either a worship scene OR a traditional dancing scene!</p>
-            <p><strong>Remember:</strong> Include details like clothing, instruments, and background elements!</p>
+            <p><strong>Using Secondary Colors in Community Art:</strong></p>
+            <ul>
+                <li><strong>Orange:</strong> Use for roofs, clay pots, oranges, marigolds, sunsets</li>
+                <li><strong>Green:</strong> Use for trees, grass, plants, vegetables, uniforms</li>
+                <li><strong>Violet:</strong> Use for shadows, some flowers, cloth, vegetables like eggplants</li>
+            </ul>
+            <p><strong>Art Tips:</strong></p>
+            <ul>
+                <li>Color carefully - stay inside the lines</li>
+                <li>Use different colors for different objects</li>
+                <li>Think about what colors look best together</li>
+                <li>Be creative - there is no wrong way to make art!</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-praying" style="color: #2196F3;"></i> Worship Example</div>
-                <p>"I drew people in church with raised hands, singing, and a leader at the front."</p>
+                <div class="example-title"><i class="fas fa-store"></i> The Marketplace</div>
+                <p>A busy market has many colors! Green vegetables, orange fruits, violet fabrics, and colorful stalls. People are buying and selling goods.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-person-dancing"></i> Dancing Example</div>
-                <p>"I drew traditional dancers with colorful skirts, drums, and people moving in rhythm."</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Village Life</div>
+                <p>A village scene might include green trees and grass, orange clay houses or thatched roofs, violet flowers in gardens, and people working or children playing.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-arrows-up-down-left-right"></i> Action Lines</div>
-                <p>Use curved lines behind moving parts to show motion. Add musical notes for singing!</p>
+                <div class="example-title"><i class="fas fa-school"></i> School Community</div>
+                <p>School scenes can include green playfields, orange school buildings, violet uniforms or bags, and students learning or playing together.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-road"></i> Town or City</div>
+                <p>City scenes have buildings, cars, roads, streetlights, and people walking. Use orange for sunset, green for parks, violet for shadows or store signs.</p>
             </div>
         `,
-        taskInstructions: "Draw pictures depicting worship or traditional dancing with clear action.",
+        taskInstructions: "Color community life pictures using primary and secondary colors appropriately.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Choose Your Scene</strong></p>
+                <p><strong>Part A: Coloring a Village Scene</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle your choice:
-                    <div style="margin-left: 20px; margin-top: 10px; font-size: 1.1em;">
-                        <div>☐ <strong>WORSHIP SCENE</strong> (praying, singing, clapping)</div>
-                        <div>☐ <strong>TRADITIONAL DANCING SCENE</strong> (cultural dance, costumes, music)</div>
+                    <span class="task-number">1</span> Color the village scene below. Remember to use orange, green, and violet where appropriate:
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4A90E2; background: #fafafa; display: flex; align-items: center; justify-content: center;">
+                        <p style="color: #999;">[Village Scene Drawing - Houses, trees, people, animals]</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Plan Your Drawing</strong></p>
+                <p><strong>Part B: Coloring a Busy Marketplace</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List the elements in your drawing:
+                    <span class="task-number">2</span> Color the marketplace picture showing people buying and selling:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4A90E2; background: #fafafa; display: flex; align-items: center; justify-content: center;">
+                        <p style="color: #999;">[Marketplace Scene - Stalls, fruits, vegetables, people]</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Color Choices Explanation</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Look at your colored pictures. Answer these questions:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div class="answer-space" style="height: 30px; margin-bottom: 5px;">People: _________________________________</div>
-                        <div class="answer-space" style="height: 30px; margin-bottom: 5px;">Actions: _________________________________</div>
-                        <div class="answer-space" style="height: 30px; margin-bottom: 5px;">Clothing/Costumes: _______________________</div>
-                        <div class="answer-space" style="height: 30px;">Instruments/Objects: _____________________</div>
+                        <div>• Where did you use the color ORANGE? _________________________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>• Where did you use the color GREEN? __________________________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>• Where did you use the color VIOLET? _________________________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw Your Celebration Scene</strong></p>
+                <p><strong>Part D: Your Own Community Scene</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create your drawing:
-                    <div class="drawing-area" style="height: 220px; margin-top: 10px; border: 2px solid #2196F3;">
-                        <p style="text-align: center; color: #666; padding-top: 90px;">Draw your worship or dancing scene here</p>
-                    </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My scene shows: ___________________________</div>
+                    <span class="task-number">4</span> Draw and color a picture showing something from YOUR community. It could be your home, your school, a road, a shop, or people you know:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write one sentence describing what is happening in your drawing:
+                    <div class="answer-space" style="height: 50px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Show the Action</strong></p>
+                <p><strong>Part E: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Add action details:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <p>Draw arrows or lines to show movement in 2 places:</p>
-                        <div class="drawing-area" style="height: 80px; border: 1px dashed #FF9800; margin-top: 5px;"></div>
-                        <p style="margin-top: 10px;">Describe the action:</p>
-                        <div class="answer-space" style="height: 40px;">The people are _____________________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Classroom Gallery</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Prepare for display:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Create a title for your artwork:</div>
-                        <div class="answer-space" style="height: 30px; margin-top: 5px; text-align: center; font-weight: bold;">"____________________________________"</div>
-                        <div style="margin-top: 15px;">Write one thing you want viewers to notice:</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 5px;">Look at the ________________________________</div>
-                    </div>
+                    <span class="task-number">6</span> Which secondary color was your favorite to use today? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find out about a traditional dance or worship practice from a different culture. Draw one element of it.",
+        homework: "Find or draw a picture showing life in your community. Color it using at least one primary color and one secondary color. Bring it to class on Monday to share.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade3CreativeTechWeek7);
-    console.log("creative-tech-week7.js registered using registerWorksheet()");
+    window.registerWorksheet(grade3CTSTerm1Week7);
+    console.log("grade3-cts-term1-week7.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade3CreativeTechWeek7);
-    console.log("creative-tech-week7.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade3CTSTerm1Week7);
+    console.log("grade3-cts-term1-week7.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade3CreativeTechWeek7',
-        metadata: grade3CreativeTechWeek7.metadata,
-        days: grade3CreativeTechWeek7
+        variableName: 'grade3CTSTerm1Week7',
+        metadata: grade3CTSTerm1Week7.metadata,
+        days: grade3CTSTerm1Week7
     });
-    console.log("creative-tech-week7.js stored in window.registeredWorksheets");
+    console.log("grade3-cts-term1-week7.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade3CreativeTechWeek7 = grade3CreativeTechWeek7;
-console.log("creative-tech-week7.js loaded and registered successfully");
+window.grade3CTSTerm1Week7 = grade3CTSTerm1Week7;
+console.log("grade3-cts-term1-week7.js loaded and registered successfully");

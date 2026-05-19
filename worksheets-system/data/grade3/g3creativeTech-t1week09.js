@@ -1,221 +1,306 @@
-// Grade 3 Creative and Technology Studies - Week 9 Data
-const grade3CreativeTechWeek9 = {
+// Grade 3 Creative and Technology Studies - Term 1 Week 9 Data
+const grade3CTSTerm1Week9 = {
     metadata: {
         grade: 3,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 9,
-        title: "Making Items from Local Materials",
-        description: "Identifying, collecting, and using locally available materials to create useful items"
+        title: "Stamping and Printing Techniques",
+        description: "Exploring basic and advanced stamping techniques using local materials, including leaf prints, potato prints, string-pull patterns, and duplication patterns"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Identifying and Collecting Local Materials",
-        subtopic: "Making Items (3.4.1) - Finding wood, plastic, and metal for craft making",
+        topic: "Visual Arts",
+        subtopic: "Basic Pattern Printing with Local Materials",
         lessonContent: `
-            <p>Welcome to Creative and Technology Studies! Today we will learn how to find materials around us that can be used to make new things.</p>
-            <p><strong>Key Concept:</strong> Many useful materials are already around us—we just need to look carefully and think creatively!</p>
-            <p><strong>What are local materials?</strong></p>
+            <p>Welcome to our stamping and printing adventure! Today we'll learn how to create beautiful patterns using everyday materials found in our homes and communities.</p>
+            <p><strong>Key Question:</strong> How can we make prints using things we find around us?</p>
+            <p><strong>Introduction:</strong> Stamping and printing are ways of making art by pressing objects coated with paint or ink onto paper. People have used printing for thousands of years to decorate fabric, paper, and even walls!</p>
+            <p><strong>What is a Stamp?</strong></p>
+            <p>A stamp is any object that can hold paint or ink on its surface and transfer that pattern onto another surface when pressed. The pattern can be repeated to create interesting designs.</p>
+            <p><strong>Materials We Can Use for Stamping:</strong></p>
             <ul>
-                <li>Materials we can find near our homes or school</li>
-                <li>They can be natural (like wood) or human-made (like plastic)</li>
-                <li>Even "waste" materials can become useful with creativity</li>
-                <li>Using local materials helps our environment and saves money</li>
+                <li><strong>Leaves:</strong> Different shapes and vein patterns create unique prints</li>
+                <li><strong>Potatoes:</strong> Can be carved into shapes like stars, circles, or hearts</li>
+                <li><strong>Cork or Sponge:</strong> Absorbs paint and creates textured prints</li>
+                <li><strong>Bottle caps:</strong> Make perfect circle prints</li>
+                <li><strong>Cardboard tubes:</strong> Roll them to make patterns</li>
+                <li><strong>Natural objects:</strong> Pine cones, okra slices, corn cobs, shells</li>
             </ul>
-            <p><strong>Three main material categories:</strong></p>
+            <p><strong>Steps for Leaf Printing:</strong></p>
             <ol>
-                <li><strong>Wood:</strong> sticks, bark, small branches</li>
-                <li><strong>Plastic:</strong> bottles, containers, caps</li>
-                <li><strong>Metal:</strong> cans, wire, small metal pieces</li>
+                <li>Collect fresh leaves with interesting shapes and visible veins</li>
+                <li>Paint the underside of the leaf (where veins are most visible)</li>
+                <li>Place the leaf paint-side down on your paper</li>
+                <li>Press gently and evenly</li>
+                <li>Lift the leaf carefully to reveal your print!</li>
             </ol>
-            <p><strong>Safety First:</strong> We only collect clean, safe materials. No sharp edges or dirty items!</p>
-            <p><strong>Why use local materials?</strong> It teaches us to be resourceful, creative, and environmentally friendly!</p>
+            <p><strong>Steps for Potato Printing:</strong></p>
+            <ol>
+                <li>Ask an adult to cut a potato in half</li>
+                <li>Draw a simple shape on the flat surface (star, circle, triangle, heart)</li>
+                <li>Carefully carve away the area around your shape (adult help needed!)</li>
+                <li>Dip the raised shape into paint</li>
+                <li>Press onto paper to create your stamp pattern</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #8BC34A;"></i> Wood Examples</div>
-                <p>Sticks from the ground, smooth bark pieces, small wooden blocks—these can become toy parts or building pieces.</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Leaf Print Example</div>
+                <p>A mango leaf creates an elongated oval shape with a beautiful central vein line. When you paint different colors on different leaves, you can make a colorful garden on paper!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle" style="color: #4CAF50;"></i> Plastic Examples</div>
-                <p>Empty water bottles, yogurt containers, bottle caps—these can be cut, joined, and decorated to make new items.</p>
+                <div class="example-title"><i class="fas fa-cut"></i> Potato Shape Ideas</div>
+                <p>You can carve a potato into a heart shape for Valentine's cards, a star for decorations, or a moon for nighttime scenes. One potato stamp can be used hundreds of times!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cogs" style="color: #607D8B;"></i> Metal Examples</div>
-                <p>Clean tin cans, aluminum foil, safe wire—these can be shaped and combined to create structures.</p>
+                <div class="example-title"><i class="fas fa-repeat"></i> Pattern Power</div>
+                <p>Stamps are great for making patterns. Try stamping in a line, in a circle, or alternating two different stamps. Artists call this "repetition" - it creates rhythm in art!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying and sorting local materials.",
-        taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Look around your classroom. List 3 items made of each material:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div><strong>Wood:</strong> 1. ________________ 2. ________________ 3. ________________</div>
-                    <div><strong>Plastic:</strong> 1. ________________ 2. ________________ 3. ________________</div>
-                    <div><strong>Metal:</strong> 1. ________________ 2. ________________ 3. ________________</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Imagine you are going on a "resource walk." Draw 3 things you might find:
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;">
-                    <p style="text-align: center; color: #666; padding-top: 40px;">Draw a wood item, a plastic item, and a metal item</p>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Sorting practice: Circle the correct material type:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Plastic bottle - WOOD / PLASTIC / METAL</div>
-                    <div>Tree branch - WOOD / PLASTIC / METAL</div>
-                    <div>Tin can - WOOD / PLASTIC / METAL</div>
-                    <div>Bottle cap - WOOD / PLASTIC / METAL</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Safety check: Put a ✓ next to safe items, ✗ next to unsafe:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>____ Clean plastic bottle</div>
-                    <div>____ Sharp broken glass</div>
-                    <div>____ Smooth wooden stick</div>
-                    <div>____ Rusty metal can with sharp edges</div>
-                </div>
-            </div>
-        `,
-        homework: "With a family member, safely collect 3 clean local materials from around your home (one wood, one plastic, one metal). Bring them to class tomorrow.",
-        homeworkDue: "Friday"
-    },
-    
-    friday: {
-        subject: "Creative and Technology Studies",
-        topic: "Creating Models from Local Materials",
-        subtopic: "Making Items (3.4.1) - Building simple items using collected materials",
-        lessonContent: `
-            <p>Today we will use our collected materials to create something new and useful!</p>
-            <p><strong>Key Concept:</strong> With creativity and basic joining techniques, we can turn simple materials into working models.</p>
-            <p><strong>What will we make?</strong> Choose one: Toy car, Cup, or Bicycle model</p>
-            <p><strong>Basic joining techniques:</strong></p>
-            <ol>
-                <li><strong>Tying:</strong> Using string or rubber bands to connect pieces</li>
-                <li><strong>Nesting:</strong> Fitting pieces inside each other (like bottles inside containers)</li>
-                <li><strong>Gluing/Taping:</strong> Using safe glue or tape to hold materials together</li>
-            </ol>
-            <p><strong>Design thinking steps:</strong></p>
-            <ul>
-                <li>1. Imagine what you want to make</li>
-                <li>2. Choose your materials</li>
-                <li>3. Plan how to join them</li>
-                <li>4. Build your item</li>
-                <li>5. Test if it works and make it sturdy</li>
-            </ul>
-            <p><strong>Making it "accordingly":</strong> This means building it properly so it looks like the real thing and can stand or move correctly.</p>
-            <p><strong>Remember:</strong> Creativity is about trying, even if it's not perfect at first!</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-car" style="color: #2196F3;"></i> Toy Car Example</div>
-                <p>Plastic bottle body, bottle cap wheels, wooden stick axle—joined with glue and string.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-mug-hot" style="color: #FF9800;"></i> Cup Example</div>
-                <p>Cut plastic bottle for cup shape, smoothed edges, decorated with colored paper or markers.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-bicycle" style="color: #9C27B0;"></i> Bicycle Model</div>
-                <p>Wire frame, bottle cap wheels, wooden stick handlebars—carefully tied together.</p>
-            </div>
-        `,
-        taskInstructions: "Design and create your own item using the materials you collected.",
+        taskInstructions: "Practice basic stamping techniques using leaves and potato stamps to create repeating patterns.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Planning Your Creation</strong></p>
+                <p><strong>Part A: Leaf Print Collection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Choose what to make and list your materials:
+                    <span class="task-number">1</span> Collect 3 different leaves from your environment. For each leaf:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I will make: ☐ Toy Car  ☐ Cup  ☐ Bicycle Model</div>
-                        <div>My materials: _____________________________________</div>
-                        <div>How I will join them: ______________________________</div>
+                        <div>• Identify the plant or tree name (if you know it)</div>
+                        <div>• Describe the leaf shape (round, long, jagged, smooth)</div>
+                        <div>• Create a leaf print using paint</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Design Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Draw your design before building:
-                    <div class="drawing-area" style="height: 150px;">
-                        <p style="text-align: center; color: #666; padding-top: 60px;">Draw your planned item here. Label the materials you'll use.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Building Time (Physical Activity)</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Use your collected materials to build your item:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 10px;">
-                        <strong>Building Checklist:</strong>
-                        <div>✓ I have all my materials ready</div>
-                        <div>✓ I remember safety rules</div>
-                        <div>✓ I follow my design plan</div>
-                        <div>✓ I make sure my item is sturdy</div>
-                    </div>
-                    <div class="drawing-area" style="height: 100px; margin-top: 15px; background-color: #F9F9F9; display: flex; justify-content: center; align-items: center;">
-                        <div style="color: #4CAF50; font-weight: bold;">
-                            [Space for your actual creation during class]
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px dashed #ccc; padding: 5px; text-align: center;">
+                            <strong>Leaf 1:</strong><br>
+                            <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+                            <span style="font-size: 12px;">Plant name: _____________</span>
+                        </div>
+                        <div style="border: 1px dashed #ccc; padding: 5px; text-align: center;">
+                            <strong>Leaf 2:</strong><br>
+                            <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+                            <span style="font-size: 12px;">Plant name: _____________</span>
+                        </div>
+                        <div style="border: 1px dashed #ccc; padding: 5px; text-align: center;">
+                            <strong>Leaf 3:</strong><br>
+                            <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+                            <span style="font-size: 12px;">Plant name: _____________</span>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Testing and Improving</strong></p>
+                <p><strong>Part B: Potato Stamp Carving and Printing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Test your creation and answer:
+                    <span class="task-number">2</span> With adult supervision, carve a simple shape into a potato half:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Does it stand/move properly? ☐ Yes ☐ No</div>
-                        <div>What would you improve? _________________________</div>
-                        <div>What joining method worked best? _________________</div>
+                        <div>• What shape did you carve? _____________</div>
+                        <div>• Dip your stamp in paint and press it onto paper below:</div>
                     </div>
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Gallery Walk Reflection</strong></p>
+                <p><strong>Part C: Pattern Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> After seeing classmates' work:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>One creative idea I saw: _________________________</div>
-                        <div>A material used in a new way: ____________________</div>
-                        <div>Draw a quick sketch of a classmate's creation:</div>
-                        <div class="drawing-area" style="height: 80px; margin-top: 10px;"></div>
-                    </div>
+                    <span class="task-number">3</span> Using your leaf prints and potato stamp, create a repeating pattern in the space below:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Describe the pattern you created (e.g., "leaf, star, leaf, star" or "red leaf then yellow leaf"):
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which material (leaves or potato) was easier to use? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> What other local materials could you use for stamping?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach a family member how to make a simple item from local materials. Create something together at home.",
+        homework: "Find 2 more objects at home (bottle cap, sponge, fork, okra slice) and test them as stamps. Bring your best print to class to share.",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "Creative and Technology Studies",
+        topic: "Visual Arts",
+        subtopic: "Advanced Print Techniques: String-Pull and Duplication Patterns",
+        lessonContent: `
+            <p>Today we'll explore two exciting advanced printing techniques that create amazing patterns: string-pull printing and duplication patterns!</p>
+            <p><strong>Key Question:</strong> How can string and folded paper create surprising art?</p>
+            <p><strong>Introduction:</strong> Not all printing requires a stamp! Today we'll learn two techniques that create unique, one-of-a-kind patterns every time you try them.</p>
+            <p><strong>Technique 1: String-Pull Printing</strong></p>
+            <p>String-pull printing (also called string painting) creates flowing, organic patterns that look like branches, lightning, flowers, or abstract designs.</p>
+            <p><strong>Materials Needed:</strong></p>
+            <ul>
+                <li>Thick string, yarn, or shoelace (about 20-30 cm long)</li>
+                <li>Paint (tempera or poster paint works best)</li>
+                <li>Paper (folded in half like a book)</li>
+                <li>Small container for paint</li>
+            </ul>
+            <p><strong>Steps for String-Pull Printing:</strong></p>
+            <ol>
+                <li>Fold your paper in half, then open it back up</li>
+                <li>Dip your string/yarn into the paint until it's fully coated</li>
+                <li>Lay the painted string on ONE HALF of your paper in any shape (zigzag, spiral, wavy, looped)</li>
+                <li>Leave one end of the string hanging out of the paper</li>
+                <li>Fold the paper over the string (close the book)</li>
+                <li>Place your hand flat on top and press gently</li>
+                <li>Slowly pull the string out by the hanging end</li>
+                <li>Open your paper to reveal a beautiful symmetrical pattern!</li>
+            </ol>
+            <p><strong>Technique 2: Duplication Patterns (Symmetry Prints)</strong></p>
+            <p>Duplication patterns use the principle of symmetry - what you paint on one side prints on the other side!</p>
+            <p><strong>Steps for Duplication Patterns:</strong></p>
+            <ol>
+                <li>Fold a piece of paper in half</li>
+                <li>Open the paper and paint or stamp a design on ONLY ONE side</li>
+                <li>Fold the paper again, pressing firmly with your hand</li>
+                <li>Open to see your duplicated (mirror image) design</li>
+                <li>Try creating half a butterfly, half a face, or half a flower - the fold creates the other half!</li>
+            </ol>
+            <p><strong>Advanced Pattern Ideas:</strong></p>
+            <ul>
+                <li><strong>Monoprinting:</strong> Paint directly on a smooth surface (like a plastic lid), then press paper onto it</li>
+                <li><strong>Found object printing:</strong> Use forks, combs, or corrugated cardboard for texture patterns</li>
+                <li><strong>Stencil printing:</strong> Cut shapes from cardboard, place on paper, and dab paint around the edges</li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-magic"></i> String-Pull Surprise</div>
+                <p>No two string-pull prints look the same! The way you arrange the string and the speed you pull it changes the pattern. It's like magic - you never know exactly what you'll get!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-butterfly"></i> Butterfly Symmetry</div>
+                <p>Nature loves symmetry! A butterfly's wings are perfect mirrors of each other. Using duplication printing, you can create butterfly wings, faces, vases, and many other symmetrical objects easily.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-palette"></i> Color Mixing Magic</div>
+                <p>Try dipping different parts of your string in different colors. When you pull the string through the folded paper, the colors can mix and create new colors!</p>
+            </div>
+        `,
+        taskInstructions: "Create string-pull prints and duplication pattern artworks, then compare the two techniques.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: String-Pull Printing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Create your first string-pull print in the space below:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> What shape did you arrange your string in (zigzag, spiral, loops)?
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> What does your print remind you of? (e.g., fireworks, tree branches, feathers)
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Try Different String Arrangements</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Create a second string-pull print using a DIFFERENT string arrangement:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Compare your two prints. How are they different?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Duplication Patterns (Symmetry Prints)</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Create a duplication pattern by painting on one half of folded paper:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• What design did you paint on one side? _____________</div>
+                    </div>
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> Draw what your paper looked like BEFORE you folded it (paint only on one half):
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 1px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Compare and Reflect</strong></p>
+                <div class="task-item">
+                    <span class="task-number">8</span> Complete this comparison table:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Technique</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">What I Liked</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">What Was Challenging</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">String-Pull</td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 50px;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 50px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Duplication Pattern</td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 50px;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 50px;"></td>
+                             </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">9</span> Which advanced technique was your favorite? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Gallery Walk Preparation</strong></p>
+                <div class="task-item">
+                    <span class="task-number">10</span> Choose your BEST print from today. Give it a title:
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">11</span> Write 2-3 sentences explaining how you made it:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Create one duplication pattern at home using any materials you have. Bring it to class to share. Optional: Try string-pull printing with a family member and teach them the technique!",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade3CreativeTechWeek9);
-    console.log("creative-tech-week9.js registered using registerWorksheet()");
+    window.registerWorksheet(grade3CTSTerm1Week9);
+    console.log("grade3-cts-term1-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade3CreativeTechWeek9);
-    console.log("creative-tech-week9.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade3CTSTerm1Week9);
+    console.log("grade3-cts-term1-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade3CreativeTechWeek9',
-        metadata: grade3CreativeTechWeek9.metadata,
-        days: grade3CreativeTechWeek9
+        variableName: 'grade3CTSTerm1Week9',
+        metadata: grade3CTSTerm1Week9.metadata,
+        days: grade3CTSTerm1Week9
     });
-    console.log("creative-tech-week9.js stored in window.registeredWorksheets");
+    console.log("grade3-cts-term1-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade3CreativeTechWeek9 = grade3CreativeTechWeek9;
-console.log("creative-tech-week9.js loaded and registered successfully");
+window.grade3CTSTerm1Week9 = grade3CTSTerm1Week9;
+console.log("grade3-cts-term1-week9.js loaded and registered successfully");

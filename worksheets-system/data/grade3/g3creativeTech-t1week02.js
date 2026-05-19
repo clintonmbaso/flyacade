@@ -1,207 +1,217 @@
-// Grade 3 Creative and Technology Studies - Week 2 Data
+// Grade 3 Creative and Technology Studies - Term 1 Week 2 Data
 const grade3CreativeTechWeek2 = {
     metadata: {
         grade: 3,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 2,
-        title: "Workspace Safety — Tools and Organization",
-        description: "Learning how to handle, use, and store hand tools safely in the classroom"
+        title: "Hand Tools and Storage",
+        description: "Learning safety rules for handling basic hand tools and practicing proper cleaning and storage techniques"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "The Golden Rules of Tool Safety",
-        subtopic: "Identifying common hand tools and practicing safety rules",
+        topic: "Hand Tools",
+        subtopic: "Safety Rules and Precautions",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn how to work safely with the tools we use in class.</p>
-            <p><strong>Key Concept:</strong> Tools help us create amazing things, but we must use them carefully to keep everyone safe.</p>
-            <p><strong>Common classroom tools:</strong></p>
+            <p>Welcome to our lesson on hand tool safety! Today we'll learn how to use basic hand tools without hurting ourselves or others.</p>
+            <p><strong>Key Question:</strong> How can we use tools safely to prevent cuts and bruises?</p>
+            <p><strong>Introduction:</strong> Hand tools help us build, fix, and create things. But if we use them carelessly, they can hurt us. Learning safety rules keeps everyone safe!</p>
+            <p><strong>Basic Hand Tools We Will Use:</strong></p>
             <ul>
-                <li>Scissors</li>
-                <li>Rulers</li>
-                <li>Glue sticks</li>
-                <li>Pencils and crayons</li>
-                <li>Paint brushes</li>
+                <li>Scissors (for cutting paper and cardboard)</li>
+                <li>Ruler (for measuring and drawing straight lines)</li>
+                <li>Pencil sharpener (for sharpening pencils)</li>
+                <li>Hammer (for driving nails - with supervision)</li>
+                <li>Screwdriver (for turning screws)</li>
             </ul>
-            <p><strong>Why do we need safety rules?</strong> Tools can be dangerous if we are playful or careless. Rules keep our hands safe and our classroom happy!</p>
-            <p><strong>Our Golden Rules of Tool Safety:</strong></p>
+            <p><strong>Important Safety Rules:</strong></p>
             <ol>
-                <li>Always walk, never run, while carrying a tool</li>
-                <li>Keep your eyes on your work at all times</li>
-                <li>Only use the tool for its intended purpose</li>
-                <li>Pass tools handle-first to another person</li>
+                <li><strong>Ask permission:</strong> Always ask a teacher or adult before using any tool</li>
+                <li><strong>Wear safety gear:</strong> Use safety goggles when needed</li>
+                <li><strong>Keep tools sharp:</strong> Dull tools can be more dangerous than sharp ones</li>
+                <li><strong>Cut away from your body:</strong> Always cut in a direction away from your hands and body</li>
+                <li><strong>One person at a time:</strong> Don't crowd around someone using a tool</li>
+                <li><strong>Pay attention:</strong> Never talk or play when holding a tool</li>
+                <li><strong>Keep fingers away:</strong> From cutting edges and hammering spots</li>
+                <li><strong>Use the right tool:</strong> Don't use scissors as a screwdriver or a ruler as a hammer</li>
             </ol>
-            <p><strong>Remember:</strong> Safety first! Then creativity!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tools" style="color: #FF9800;"></i> Tool Safety Demo</div>
-                <p>"Pass scissors handle-first to your friend." This keeps fingers safe from sharp points.</p>
+                <div class="example-title"><i class="fas fa-cut"></i> Scissors Safety</div>
+                <p>When walking with scissors, hold the blades closed in your palm with the handles pointing up. Never run with scissors!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-walking"></i> Walk, Don't Run</div>
-                <p>"Always walk with tools in hand." Running with scissors or pencils can cause accidents.</p>
+                <div class="example-title"><i class="fas fa-gavel"></i> Hammer Safety</div>
+                <p>Before hammering, make sure no one's fingers are near the nail. Hold the hammer near the end of the handle - not near the head!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye"></i> Eyes on Your Work</div>
-                <p>"Look at what you're cutting or drawing." This helps you work carefully and avoid mistakes.</p>
+                <div class="example-title"><i class="fas fa-eye"></i> Eye Protection</div>
+                <p>When hammering or cutting, tiny pieces can fly into your eyes. Wear safety goggles to protect your vision!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice tool safety rules.",
+        taskInstructions: "Learn safety rules through demonstration and practice safe tool handling.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Match the tool to its correct use:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Scissors → For cutting __________</div>
-                    <div>☐ Ruler → For measuring __________</div>
-                    <div>☐ Glue stick → For sticking __________</div>
-                    <div>☐ Pencil → For drawing __________</div>
-                </div>
-                <div class="answer-space" style="height: 30px; margin-top: 10px;">Words: paper, lines, together, pictures</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Circle the safe way to pass scissors:
-                <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 30px;">
-                    <div>
-                        <div>A) Point-first</div>
-                        <div style="font-size: 2em;">✂️➡️</div>
+            <div class="content-box">
+                <p><strong>Part A: Safety Rules Matching</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Match each picture or situation to the correct safety rule:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Someone running with scissors → _________</div>
+                        <div>• A dull blade → _________</div>
+                        <div>• Using a ruler as a hammer → _________</div>
+                        <div>• Talking while cutting → _________</div>
+                        <div>• Not wearing goggles while hammering → _________</div>
                     </div>
-                    <div>
-                        <div>B) Handle-first</div>
-                        <div style="font-size: 2em;">🔄✂️</div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Safe or Unsafe?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Circle SAFE or UNSAFE for each situation:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Walking carefully with scissors pointing down → SAFE / UNSAFE</div>
+                        <div>B. Using a screwdriver to poke a hole in cardboard → SAFE / UNSAFE</div>
+                        <div>C. Asking teacher before using the hammer → SAFE / UNSAFE</div>
+                        <div>D. Cutting a piece of paper toward your tummy → SAFE / UNSAFE</div>
+                        <div>E. Wearing safety goggles during hammering → SAFE / UNSAFE</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Safety True or False Game:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Running with a pencil is safe. → TRUE / FALSE</div>
-                    <div>Using scissors to cut hair is okay. → TRUE / FALSE</div>
-                    <div>Keeping eyes on your work is important. → TRUE / FALSE</div>
-                    <div>Walking with tools is a safety rule. → TRUE / FALSE</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw one hand tool you know. Then write two safety rules for using it:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw yourself using a tool safely:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">I am safely using a __________ by __________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">5</span> Write two Golden Rules of Tool Safety:
-                <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                    1. ________________________________________<br>
-                    2. ________________________________________
+            
+            <div class="content-box">
+                <p><strong>Part D: Teacher Demonstration</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Watch as your teacher demonstrates proper tool handling. Write down one new thing you learned:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look for one tool at home (like scissors or a ruler) and show a family member how to pass it safely.",
+        homework: "At home, find one tool (like scissors or a can opener). With a parent's help, practice holding it safely and name two safety rules for that tool.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "A Place for Everything",
-        subtopic: "Learning to clean, organize, and store tools safely",
+        topic: "Hand Tools",
+        subtopic: "Cleaning and Packing Away Tools",
         lessonContent: `
-            <p>Today we will learn why packing tools away safely is just as important as using them correctly.</p>
-            <p><strong>Key Concept:</strong> A safe workspace isn't just about how we use tools—it's also about where we put them when we're done.</p>
-            <p><strong>Why is organizing tools important?</strong></p>
+            <p>Today we'll learn how to take care of our tools by cleaning them and putting them away properly!</p>
+            <p><strong>Key Question:</strong> Why is it important to clean and store tools safely?</p>
+            <p><strong>Introduction:</strong> Tools last longer and work better when we take care of them. Just like we put away our toys and books, tools need special storage spaces too!</p>
+            <p><strong>Why Clean Tools?</strong></p>
             <ul>
-                <li>Prevents tools from getting damaged or lost</li>
-                <li>Stops people from tripping or getting hurt</li>
-                <li>Keeps our classroom neat and ready for creativity</li>
-                <li>Helps us find tools quickly next time</li>
+                <li>Dirty tools can rust and break</li>
+                <li>Clean tools are safer to use</li>
+                <li>Dirt on tools can get into projects</li>
+                <li>Cleaning helps us check if tools are damaged</li>
             </ul>
-            <p><strong>The Danger of Clutter:</strong> Tools left out can cause accidents, get broken, or make our workspace messy.</p>
-            <p><strong>What makes a "Safe Place" for tools?</strong></p>
+            <p><strong>How to Clean Different Tools:</strong></p>
             <ol>
-                <li><strong>Dry:</strong> No water to prevent rust</li>
-                <li><strong>Organized:</strong> No sharp points or blades sticking out</li>
-                <li><strong>Out of the way:</strong> Not in walking paths</li>
-                <li><strong>Labeled:</strong> So everyone knows where things belong</li>
+                <li><strong>Scissors:</strong> Wipe blades with a dry cloth (never wet!)</li>
+                <li><strong>Ruler:</strong> Wipe with a damp cloth, then dry completely</li>
+                <li><strong>Hammer:</strong> Wipe off dust and dirt from the handle and head</li>
+                <li><strong>Screwdriver:</strong> Wipe the metal tip and plastic handle</li>
+                <li><strong>Pencil sharpener:</strong> Empty shavings into the bin</li>
             </ol>
-            <p><strong>Cleaning Routine:</strong> Always wipe tools and check for damage before storing them.</p>
+            <p><strong>Tool Storage Rules:</strong></p>
+            <ul>
+                <li>Each tool has its own home (drawer, toolbox, pegboard, or shelf)</li>
+                <li>Store sharp tools with blades covered or pointing down</li>
+                <li>Put tools back immediately after using them</li>
+                <li>Keep storage areas organized and labeled</li>
+                <li>Tell the teacher if a tool is broken or missing</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box-open" style="color: #4CAF50;"></i> Organized Storage</div>
-                <p>"Scissors go in the scissor bin, handles up." This keeps them safe and easy to find.</p>
+                <div class="example-title"><i class="fas fa-toolbox"></i> Toolbox Organization</div>
+                <p>A good toolbox has separate sections for different tools. Hammers in one spot, screwdrivers in another, and scissors in a safe pocket!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-broom"></i> Clean-Up Time</div>
-                <p>"Wipe glue off the table before putting the glue stick away." A clean station is a safe station.</p>
+                <div class="example-title"><i class="fas fa-brush"></i> Cleaning Routine</div>
+                <p>"Clean as you go" means wiping your tool right after using it - before you even put it away. This makes storage faster and easier!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home"></i> A Home for Every Tool</div>
-                <p>"Every tool has a special place to live when we're not using it." This prevents loss and damage.</p>
+                <div class="example-title"><i class="fas fa-home"></i> Every Tool Has a Home</div>
+                <p>When tools don't have a home, they get lost or left on the floor where someone might step on them. A labeled pegboard helps everyone find and return tools.</p>
             </div>
         `,
-        taskInstructions: "Practice organizing, cleaning, and storing tools safely.",
+        taskInstructions: "Practice cleaning tools and placing them in their correct storage spaces.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Safe Storage Check</strong></p>
+                <p><strong>Part A: Tool Cleaning Steps</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List three things that make storage safe:
+                    <span class="task-number">1</span> Number the steps in the correct order for cleaning scissors:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. ____________________________</div>
-                        <div>2. ____________________________</div>
-                        <div>3. ____________________________</div>
+                        <div>___ Put the scissors back in their storage spot</div>
+                        <div>___ Wipe the blades with a dry cloth</div>
+                        <div>___ Check if the scissors are dirty</div>
+                        <div>___ Make sure the blades are completely dry</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Clean-Up Routine</strong></p>
+                <p><strong>Part B: Draw the Storage Space</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Number the clean-up steps in order:
+                    <span class="task-number">2</span> Draw a toolbox or pegboard showing where different tools belong. Label each tool's "home":
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Hands-On Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> With your teacher's guidance, practice cleaning and storing these tools:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Wipe the tool clean</div>
-                        <div>____ Check for damage</div>
-                        <div>____ Place it in its labeled bin</div>
-                        <div>____ Finish using the tool</div>
+                        <div>• Scissors → wiped and placed in ________</div>
+                        <div>• Ruler → wiped and placed in ________</div>
+                        <div>• Pencil sharpener → emptied and placed in ________</div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Design a Tool Station</strong></p>
+                <p><strong>Part D: Why It Matters</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a safe, organized tool station:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My station is safe because ___________________</div>
+                    <span class="task-number">4</span> Write two reasons why we should put tools away right after using them:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> What should you do if you find a broken tool?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Final Inspection</strong></p>
+                <p><strong>Part E: Storage Rules Checklist</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Walk around your classroom. Check one station and answer:
+                    <span class="task-number">6</span> Check off each rule after you practice it today:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Station: ______________________________</div>
-                        <div>Is it clean? YES / NO</div>
-                        <div>Are tools put away? YES / NO</div>
-                        <div>Is the walking path clear? YES / NO</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Safety Pledge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Sign your safety pledge:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 10px; text-align: center;">
-                        <strong>I promise to:<br>
-                        Use tools safely,<br>
-                        Clean up when I'm done,<br>
-        And keep my workspace organized for everyone!</strong>
-                        <div class="answer-space" style="height: 30px; margin-top: 15px; border-top: 1px dashed #ccc; text-align: center;">
-                            Signed: __________________________
-                        </div>
+                        <div>☐ Clean each tool before storing</div>
+                        <div>☐ Place tools in their correct spot</div>
+                        <div>☐ Arrange tools neatly, not piled up</div>
+                        <div>☐ Tell teacher if something is missing</div>
+                        <div>☐ Wash your hands after working with tools</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Organize one small area at home (like your desk or art supplies) using the 'safe place' rules you learned.",
+        homework: "At home, find where your family stores tools (toolbox, drawer, garage). Draw the storage space and name three tools you see there. Ask a parent to show you how one tool is cleaned.",
         homeworkDue: "Monday"
     }
 };
@@ -209,10 +219,10 @@ const grade3CreativeTechWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3CreativeTechWeek2);
-    console.log("creativetech-week2.js registered using registerWorksheet()");
+    console.log("grade3-creativetech-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3CreativeTechWeek2);
-    console.log("creativetech-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-creativetech-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -223,9 +233,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3CreativeTechWeek2.metadata,
         days: grade3CreativeTechWeek2
     });
-    console.log("creativetech-week2.js stored in window.registeredWorksheets");
+    console.log("grade3-creativetech-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3CreativeTechWeek2 = grade3CreativeTechWeek2;
-console.log("creativetech-week2.js loaded and registered successfully");
+console.log("grade3-creativetech-week2.js loaded and registered successfully");
