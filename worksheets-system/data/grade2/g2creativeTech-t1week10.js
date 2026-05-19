@@ -1,251 +1,264 @@
-// Grade 2 Creative and Technology Studies - Week 10 Data
-const grade2CreativeTechWeek10 = {
+// Grade 2 Creative and Technology Studies - Term 2 Week 10 Data
+const grade2CTWeek10 = {
     metadata: {
         grade: 2,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 10,
-        title: "Designing Patterns",
-        description: "Exploring patterns through writing movements and paper cutting"
+        title: "Writing Patterns and Hospitality",
+        description: "Creating decorative patterns using drawing tools and exploring local hospitality places"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
         topic: "Writing Patterns",
-        subtopic: "Designing patterns through repetitive writing and drawing movements",
+        subtopic: "Creating Decorative Patterns Using Drawing Tools",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn how to create beautiful patterns by repeating shapes and lines.</p>
-            <p><strong>Key Concept:</strong> A pattern is a design that repeats. Patterns are everywhere around us!</p>
-            <p><strong>What is a pattern?</strong></p>
+            <p>Welcome to our creative pattern-making lesson! Today we'll learn how to create beautiful decorative patterns using drawing tools.</p>
+            <p><strong>Key Question:</strong> How can we use lines and shapes to create interesting patterns?</p>
+            <p><strong>Introduction:</strong> Patterns are everywhere around us! On our clothes, on walls, in nature, and even in our writing. A pattern is a design that repeats over and over.</p>
+            <p><strong>What Are Patterns?</strong></p>
             <ul>
-                <li>A pattern is something that happens again and again</li>
-                <li>Patterns can be made with shapes, colors, or lines</li>
-                <li>Patterns make things look interesting and organized</li>
-                <li>We can find patterns in clothing, walls, and nature</li>
+                <li>A pattern is something that repeats in a certain order</li>
+                <li>Patterns can be made with lines, shapes, colors, or letters</li>
+                <li>Examples: stripes, zigzags, dots, waves, checkerboards</li>
             </ul>
-            <p><strong>Let's look for patterns in our classroom:</strong></p>
+            <p><strong>Types of Decorative Patterns:</strong></p>
             <ol>
-                <li>Look at your clothes - do you see any patterns?</li>
-                <li>Look at the walls or floor - can you spot repeating designs?</li>
-                <li>Look at classroom objects - do any have repeating shapes?</li>
+                <li><strong>Straight Line Patterns:</strong> Vertical lines, horizontal lines, diagonal lines</li>
+                <li><strong>Zigzag Patterns:</strong> Lines that go up and down like mountains</li>
+                <li><strong>Wavy Patterns:</strong> Lines that curve like ocean waves</li>
+                <li><strong>Dot Patterns:</strong> Dots in rows, circles, or fun arrangements</li>
+                <li><strong>Shape Patterns:</strong> Repeating circles, squares, triangles, or hearts</li>
             </ol>
-            <p><strong>Why do we create patterns?</strong> Patterns make our world beautiful and help us understand how things are organized!</p>
-            <p><strong>Vocabulary:</strong> pattern, repeat, zig-zag, loop, wave, design</p>
+            <p><strong>Drawing Tools We Can Use:</strong></p>
+            <ul>
+                <li>Pencils and colored pencils</li>
+                <li>Crayons and markers</li>
+                <li>Rulers for straight lines</li>
+                <li>Templates or stencils for shapes</li>
+                <li>Computer drawing programs (like Paint)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pen-fancy" style="color: #4CAF50;"></i> Pattern Examples</div>
-                <p>Zig-zag: /\/\/\/\  Loops: ~~~~  Waves: ~~~~~</p>
+                <div class="example-title"><i class="fas fa-border-all"></i> Pattern Example 1: Stripes</div>
+                <p>Red line, blue line, red line, blue line, red line, blue line — this is a repeating pattern!</p>
+                <div style="background: #f0f0f0; height: 30px; margin-top: 10px; display: flex;">
+                    <div style="background: red; width: 20%; height: 30px;"></div>
+                    <div style="background: blue; width: 20%; height: 30px;"></div>
+                    <div style="background: red; width: 20%; height: 30px;"></div>
+                    <div style="background: blue; width: 20%; height: 30px;"></div>
+                    <div style="background: red; width: 20%; height: 30px;"></div>
+                </div>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-redo-alt"></i> The Power of Repeating</div>
-                <p>One shape alone is just a shape. But when we repeat it, it becomes a pattern!</p>
+                <div class="example-title"><i class="fas fa-chart-line"></i> Pattern Example 2: Zigzags</div>
+                <p>Up, down, up, down, up, down — like a mountain range!</p>
+                <div style="background: #f0f0f0; height: 40px; margin-top: 10px; font-size: 30px; text-align: center;">/\\/\\/\\/\\/\\</div>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette"></i> Color Your Patterns</div>
-                <p>Try using different colors for each row to make your patterns stand out!</p>
+                <div class="example-title"><i class="fas fa-circle"></i> Pattern Example 3: Dots and Shapes</div>
+                <p>Circle, square, circle, square, circle, square — can you see the pattern?</p>
+                <div style="background: #f0f0f0; height: 40px; margin-top: 10px; font-size: 25px; text-align: center;">● ■ ● ■ ● ■</div>
             </div>
         `,
-        taskInstructions: "Create three different rows of writing patterns using the shapes you've learned.",
+        taskInstructions: "Create your own decorative patterns using drawing tools, then design a patterned border.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Let's Practice First</strong></p>
+                <p><strong>Part A: Copy the Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Trace these pattern starters:
-                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace; font-size: 1.5em;">
-                        <div>Zig-zag: /\/\/\ ___________________________</div>
-                        <div>Loops: ~~~~~ ___________________________</div>
-                        <div>Waves: ~~~~~ ___________________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Create Your Pattern Rows</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Row 1: Create a zig-zag pattern:
-                    <div class="drawing-area" style="height: 50px; margin-top: 10px; background-color: #f8f9fa;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Row 2: Create a loop pattern:
-                    <div class="drawing-area" style="height: 50px; margin-top: 10px; background-color: #f8f9fa;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Row 3: Create a wave pattern:
-                    <div class="drawing-area" style="height: 50px; margin-top: 10px; background-color: #f8f9fa;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Color your patterns:
+                    <span class="task-number">1</span> Copy each pattern in the space provided:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Use different colors for each row</div>
-                        <div>• Make your patterns bright and beautiful!</div>
+                        <div>Pattern A: | | | | | (straight lines)</div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Pattern B: /\\/\\/\\/\\ (zigzags)</div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Pattern C: ~ ~ ~ ~ (waves)</div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Pattern D: ● ● ● ● (dots)</div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Pattern Detective</strong></p>
+                <p><strong>Part B: Complete the Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> Find and draw one pattern you see in the classroom:
-                    <div class="drawing-area" style="height: 80px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">This pattern is on: ______________________</div>
+                    <span class="task-number">2</span> Draw what comes next in each pattern:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Pattern 1: 🔴 🔵 🔴 🔵 🔴 ___ </div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Pattern 2: △ □ △ □ △ ___ </div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Pattern 3: ⭐ 🌟 ⭐ 🌟 ⭐ ___ </div>
+                        <div class="drawing-area" style="height: 30px; margin-top: 5px; border: 1px dashed #ccc;"></div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Pattern Swap</strong></p>
+                <p><strong>Part C: Create Your Own Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">7</span> After swapping papers, trace your friend's pattern:
-                    <div class="drawing-area" style="height: 50px; margin-top: 10px; border: 2px dashed #2196F3;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My friend's pattern uses: _________________</div>
+                    <span class="task-number">3</span> Create your own repeating pattern using colors, shapes, or lines:
+                    <div class="drawing-area" style="height: 60px; margin-top: 10px; border: 2px dashed #4A90E2;"></div>
+                    <div style="margin-top: 10px;">Describe your pattern: _________________________________</div>
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Decorative Border Design</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Design a decorative border for a card or picture using patterns:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> What pattern did you use in your border?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three different patterns at home. Draw one of them in your notebook.",
+        homework: "Find 3 patterns at home (on clothes, curtains, rugs, or packaging). Draw or trace them in your notebook.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Cut Paper Patterns",
-        subtopic: "Designing patterns by cutting paper to create symmetrical or repeating designs",
+        topic: "Hospitality",
+        subtopic: "Exploring Local Hospitality Places",
         lessonContent: `
-            <p>Today we will discover the magic of creating patterns with paper and scissors! Get ready to be surprised by what unfolds!</p>
-            <p><strong>Key Concept:</strong> When we fold and cut paper, we can create beautiful, repeating patterns that are symmetrical.</p>
-            <p><strong>What is symmetry?</strong></p>
+            <p>Today we'll learn about different places in our community where people are welcomed and served!</p>
+            <p><strong>Key Question:</strong> What places in our community welcome people and provide services?</p>
+            <p><strong>Introduction:</strong> Hospitality means making people feel welcome and comfortable. Many places in our community show hospitality every day!</p>
+            <p><strong>What is Hospitality?</strong></p>
             <ul>
-                <li>Symmetry means both sides match</li>
-                <li>If you fold something in half and both sides are the same, it's symmetrical</li>
-                <li>Our faces are mostly symmetrical - both sides are similar!</li>
+                <li>Hospitality is friendly and welcoming treatment of guests or visitors</li>
+                <li>It means taking care of people and making them feel comfortable</li>
+                <li>People who work in hospitality help others have a good experience</li>
             </ul>
-            <p><strong>The magic of folding and cutting:</strong></p>
+            <p><strong>Local Hospitality Places:</strong></p>
             <ol>
-                <li>When we fold paper, we create layers</li>
-                <li>When we cut through these layers, we cut multiple pieces at once</li>
-                <li>When we unfold, the same shape appears in multiple places!</li>
+                <li><strong>Hotels:</strong> Places where people can sleep when they are away from home. Hotels have rooms, beds, bathrooms, and sometimes restaurants or pools.</li>
+                <li><strong>Restaurants:</strong> Places where people buy and eat meals. Someone cooks the food and someone serves it to you.</li>
+                <li><strong>Cafes:</strong> Smaller than restaurants, cafes serve drinks (like coffee, tea, juice) and light meals like sandwiches or cakes.</li>
+                <li><strong>Lodges:</strong> Similar to hotels but often smaller and in nature areas like near game parks or mountains.</li>
+                <li><strong>Guest Houses:</strong> Like a home that welcomes guests. They are smaller and more personal than hotels.</li>
             </ol>
-            <p><strong>Safety first with scissors:</strong></p>
+            <p><strong>People Who Work in Hospitality:</strong></p>
             <ul>
-                <li>Always hold scissors with the point facing down</li>
-                <li>Only cut paper - not hair, clothes, or fingers!</li>
-                <li>Pass scissors handle-first to a friend</li>
-                <li>Walk carefully when carrying scissors</li>
+                <li>Chefs and cooks (prepare food)</li>
+                <li>Waiters and waitresses (serve food and drinks)</li>
+                <li>Receptionists (welcome guests)</li>
+                <li>Housekeepers (clean rooms)</li>
+                <li>Managers (run the business)</li>
             </ul>
-            <p><strong>Remember:</strong> Every cut you make will be repeated when you unfold the paper. That's how we create patterns!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cut" style="color: #2196F3;"></i> Folding Trick</div>
-                <p>Fold paper once = 2 layers. Fold twice = 4 layers. Each cut repeats 2 or 4 times!</p>
+                <div class="example-title"><i class="fas fa-hotel"></i> Hotels</div>
+                <p>When a family goes on vacation, they might stay at a hotel. The receptionist welcomes them, gives them a key, and shows them to their room!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-snowflake"></i> Symmetry Example</div>
-                <p>Snowflakes are symmetrical - each arm matches the others. Our paper patterns can be like snowflakes!</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Restaurants</div>
+                <p>On a birthday, your family might go to a restaurant. A waiter takes your order, the chef cooks your food, and you eat at a table with a plate and fork.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-magic"></i> The Big Reveal</div>
-                <p>The best part is unfolding the paper to see the magical pattern you created!</p>
+                <div class="example-title"><i class="fas fa-mug-hot"></i> Cafes</div>
+                <p>After school, a parent might take you to a cafe for a juice and a cookie. The cafe has small tables and a cozy feeling.</p>
             </div>
         `,
-        taskInstructions: "Create cut paper patterns by folding and cutting different shapes.",
+        taskInstructions: "Identify local hospitality places and draw pictures of them.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Safety First</strong></p>
+                <p><strong>Part A: Name That Place!</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Trace the safety rules:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div>✓ Hold scissors point down</div>
-                        <div>✓ Only cut paper</div>
-                        <div>✓ Pass scissors handle-first</div>
-                        <div>✓ Walk carefully with scissors</div>
+                    <span class="task-number">1</span> Read the clue and write the name of the hospitality place:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. You sleep here when you are away from home: _________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div style="margin-top: 10px;">B. You go here to eat food that someone else cooks: _________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div style="margin-top: 10px;">C. A small place that serves drinks and light meals: _________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Simple Fold Pattern</strong></p>
+                <p><strong>Part B: Match the Worker to the Job</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Create a pattern with one fold:
+                    <span class="task-number">2</span> Draw a line to match each worker to what they do:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Fold your paper in half</div>
-                        <div>2. Cut small shapes from the folded edge</div>
-                        <div>3. Unfold to see your pattern!</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>• Chef</div>
+                                <div>• Waiter/Waitress</div>
+                                <div>• Receptionist</div>
+                                <div>• Housekeeper</div>
+                            </div>
+                            <div>
+                                <div>→ Cleans the rooms</div>
+                                <div>→ Welcomes guests</div>
+                                <div>→ Cooks the food</div>
+                                <div>→ Serves food and drinks</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
-                        <p style="text-align: center; color: #666; padding-top: 30px;">[Draw your unfolded pattern here]</p>
-                    </div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My pattern has __________ repeating shapes</div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Double Fold Pattern</strong></p>
+                <p><strong>Part C: Draw a Hospitality Place</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create a pattern with two folds:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Fold your paper in half, then in half again</div>
-                        <div>2. Cut shapes from the edges</div>
-                        <div>3. Unfold to see a more complex pattern!</div>
-                    </div>
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">This pattern is more __________ than the first one</div>
+                    <span class="task-number">3</span> Draw a picture of a hotel, restaurant, or cafe in your community:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div style="margin-top: 10px;">Label your drawing: What place is this? _________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Pattern Experiment</strong></p>
+                <p><strong>Part D: My Community</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Try a different fold shape:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Fold your paper diagonally (corner to corner)</div>
-                        <div>• Or fold it into a triangle</div>
-                        <div>• What happens when you cut from different edges?</div>
-                    </div>
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My experiment showed that ___________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Classroom Display</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Design your best pattern for the classroom window display:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px; background-color: #E3F2FD;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">Name your pattern: _________________________</div>
+                    <span class="task-number">4</span> Name one hospitality place near your home or school:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">6</span> Look at a friend's pattern. What shapes do you see?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Circles: ☐  Squares: ☐  Triangles: ☐  Hearts: ☐</div>
-                        <div>Stars: ☐  Other: ________________________</div>
-                    </div>
+                    <span class="task-number">5</span> What do people do at that place?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Why is it important to be polite and respectful at hospitality places?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach a family member how to make a cut paper pattern. Display it at home.",
+        homework: "With a family member, visit or look at a local hotel, restaurant, or cafe. Draw what you see and write one sentence about it.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade2CreativeTechWeek10);
-    console.log("creativetech-week10.js registered using registerWorksheet()");
+    window.registerWorksheet(grade2CTWeek10);
+    console.log("grade2-ct-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade2CreativeTechWeek10);
-    console.log("creativetech-week10.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade2CTWeek10);
+    console.log("grade2-ct-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade2CreativeTechWeek10',
-        metadata: grade2CreativeTechWeek10.metadata,
-        days: grade2CreativeTechWeek10
+        variableName: 'grade2CTWeek10',
+        metadata: grade2CTWeek10.metadata,
+        days: grade2CTWeek10
     });
-    console.log("creativetech-week10.js stored in window.registeredWorksheets");
+    console.log("grade2-ct-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade2CreativeTechWeek10 = grade2CreativeTechWeek10;
-console.log("creativetech-week10.js loaded and registered successfully");
+window.grade2CTWeek10 = grade2CTWeek10;
+console.log("grade2-ct-week10.js loaded and registered successfully");

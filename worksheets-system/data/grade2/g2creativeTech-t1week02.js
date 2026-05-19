@@ -1,238 +1,202 @@
-// Grade 2 Creative and Technology Studies - Week 2 Data
+// Grade 2 Creative and Technology Studies - Term 2 Week 2 Data
 const grade2CreativeTechWeek2 = {
     metadata: {
         grade: 2,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 2,
-        title: "Staying Safe in School and on the Road",
-        description: "Learning to identify hazards, prevent accidents, and practice safe pedestrian behavior"
+        title: "Accident Prevention",
+        description: "Identifying causes of accidents in the classroom environment and practicing pedestrian crossing road safety"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Identifying and Preventing Hazards",
-        subtopic: "Spotting dangers in the classroom and keeping our environment safe",
+        topic: "Accident Prevention",
+        subtopic: "Classroom Safety Hazards",
         lessonContent: `
-            <p>Welcome to our safety lesson! Today we will learn how to spot things that could cause accidents in our classroom.</p>
-            <p><strong>Key Concept:</strong> An accident is something unexpected that can hurt us. We can prevent accidents by being observant and responsible.</p>
-            <p><strong>What is a hazard?</strong></p>
-            <ul>
-                <li>A hazard is something that could cause harm or danger</li>
-                <li>Hazards can be found in many places, even in our classroom</li>
-                <li>When we identify hazards, we can fix them and stay safe</li>
-            </ul>
-            <p><strong>Common classroom hazards:</strong></p>
+            <p>Welcome! Today we will learn about staying safe in our classroom by identifying things that could cause accidents.</p>
+            <p><strong>Key Question:</strong> What things in our classroom could cause someone to fall, slip, or get hurt?</p>
+            <p><strong>Introduction:</strong> Our classroom should be a safe place for learning. Sometimes, small problems like a wet floor or a broken tile can cause accidents. Learning to spot these dangers helps keep everyone safe!</p>
+            <p><strong>Common Causes of Accidents in the Classroom:</strong></p>
             <ol>
-                <li>Slippery or wet floors</li>
-                <li>Broken tiles or uneven surfaces</li>
-                <li>Furniture left in walkways</li>
-                <li>Sharp edges on broken equipment</li>
-                <li>Spills that haven't been cleaned up</li>
+                <li><strong>Slippery Floors:</strong> Water spills, wet floors after cleaning, or rainy day footprints</li>
+                <li><strong>Broken Tiles or Uneven Floors:</strong> Cracked tiles or raised edges that can cause tripping</li>
+                <li><strong>Clutter in Walkways:</strong> Bags, books, or toys left on the floor where people walk</li>
+                <li><strong>Sharp Corners on Furniture:</strong> Desks and tables with sharp edges</li>
+                <li><strong>Broken Furniture:</strong> Wobbly chairs or desks that might collapse</li>
+                <li><strong>Things Hanging or Sticking Out:</strong> Open cupboard doors, drawer handles, or loose wires</li>
             </ol>
-            <p><strong>Why does neglected upkeep lead to accidents?</strong> When we don't take care of our classroom, small problems can become big dangers!</p>
+            <p><strong>How We Can Help:</strong></p>
+            <ul>
+                <li>Tell your teacher immediately if you see a spill or broken tile</li>
+                <li>Keep your bag under your desk, not in the walkway</li>
+                <li>Walk, don't run, in the classroom</li>
+                <li>Tuck your chair under your desk when you stand up</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exclamation-triangle" style="color: #FF9800;"></i> Hazard Example</div>
-                <p>"A chair left in the middle of the aisle is a hazard because someone could trip over it."</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Slippery Floor Story</div>
+                <p>Maria spilled her water bottle. Instead of walking away, she told her teacher right away. The teacher put up a "Wet Floor" sign and cleaned it. No one slipped!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-check-circle" style="color: #4CAF50;"></i> Safety Solution</div>
-                <p>"When we see a spill, we should tell the teacher immediately so it can be cleaned up."</p>
+                <div class="example-title"><i class="fas fa-chalkboard"></i> Look and Find</div>
+                <p>Can you spot these dangers in your classroom? A loose wire near the computer? A chair with a wobbly leg? A crayon on the floor that someone could slip on?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-search"></i> Detective Game</div>
-                <p>Let's be Safety Detectives! We'll look around our classroom for hidden dangers.</p>
+                <div class="example-title"><i class="fas fa-shoe-prints"></i> Walking Feet</div>
+                <p>Running in the classroom is dangerous because you might slip, bump into someone, or trip over something. Always use your "walking feet" inside!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying and preventing hazards.",
+        taskInstructions: "Identify hazards in a classroom picture, then walk around your own classroom to find safety problems.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Hazard Identification</strong></p>
+                <p><strong>Part A: Hazard Detective</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the pictures that show classroom hazards:
+                    <span class="task-number">1</span> Look at the classroom picture below. Circle 5 things that could cause an accident:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc; background: #f9f9f9; position: relative;">
+                        <p style="text-align: center; color: #999; padding-top: 80px;">[Classroom Scene: wet floor near sink, open drawer, bag in walkway, broken tile, wobbly chair]</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Classroom Safety Walk</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Walk carefully around your classroom with your teacher. Look for things that could cause accidents. Draw or write what you find:
+                    <div class="observation-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>I see these safety problems in my classroom:</em></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Safety Rules</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write two classroom safety rules to help prevent accidents:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ A wet floor sign</div>
-                        <div>☐ A broken chair leg</div>
-                        <div>☐ A tidy bookshelf</div>
-                        <div>☐ Toys scattered in a walkway</div>
-                        <div>☐ A clean, dry floor</div>
-                        <div>☐ Sharp edges on a broken table</div>
-                    </div>
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
-                        <p style="text-align: center; color: #666; padding-top: 30px;">[Six picture boxes for circling hazards]</p>
+                        <div>Rule 1: <span class="answer-space" style="display: inline-block; width: 200px; border-bottom: 1px solid #ccc;"></span></div>
+                        <div style="margin-top: 10px;">Rule 2: <span class="answer-space" style="display: inline-block; width: 200px; border-bottom: 1px solid #ccc;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Safety Sweep Activity</strong></p>
+                <p><strong>Part D: Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw one hazard you might find in a classroom:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This is a hazard because: __________________________</div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw how to fix that hazard:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">We can stay safe by: ______________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Safety Checklist</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Complete our classroom Safety Checklist:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #F3F4F6; border-radius: 10px;">
-                        <div><strong>Our Classroom Safety Checklist</strong></div>
-                        <div style="margin-top: 10px;">
-                            <div>□ Floors are clean and dry</div>
-                            <div>□ Furniture is in its proper place</div>
-                            <div>□ Walkways are clear</div>
-                            <div>□ Equipment is not broken</div>
-                            <div>□ Spills are cleaned up immediately</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: True or False</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Mark T for True, F for False:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ A tidy classroom helps prevent accidents.</div>
-                        <div>____ We should ignore spills on the floor.</div>
-                        <div>____ Broken chairs are safe to sit on.</div>
-                        <div>____ We should always tell a teacher about hazards.</div>
-                    </div>
+                    <span class="task-number">4</span> Draw a picture of a safe classroom. Show children walking carefully, bags under desks, and no spills on the floor:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
                 </div>
             </div>
         `,
-        homework: "Do a 'Safety Sweep' at home with a family member. Find one potential hazard and discuss how to fix it.",
+        homework: "With help from a parent, walk through your home. Find and draw one thing that could cause an accident (like a wet bathroom floor or toys on stairs).",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Safety on the Move",
-        subtopic: "Using pedestrian crossings properly and reporting accidents",
+        topic: "Accident Prevention",
+        subtopic: "Pedestrian Crossing & Road Safety",
         lessonContent: `
-            <p>Today we will learn how to stay safe when moving around, especially near roads, and what to do if an accident happens.</p>
-            <p><strong>Key Concept:</strong> Being careful near traffic and knowing how to report accidents keeps us and others safe.</p>
-            <p><strong>Dangers near roads:</strong></p>
+            <p>Today we will learn how to cross the road safely using a pedestrian crossing!</p>
+            <p><strong>Key Question:</strong> How can we cross the road safely without getting hurt?</p>
+            <p><strong>Introduction:</strong> Roads can be dangerous places. Cars move fast and drivers might not see you. A pedestrian crossing (also called a crosswalk or zebra crossing) is a special place to cross the road safely. Learning to use it correctly can save your life!</p>
+            <p><strong>What is a Pedestrian Crossing?</strong></p>
             <ul>
-                <li>Fast-moving vehicles</li>
-                <li>Drivers who might not see us</li>
-                <li>Crossing at unsafe places</li>
-                <li>Not paying attention to our surroundings</li>
+                <li>It is a marked area on the road where people can cross</li>
+                <li>It has white stripes like a zebra (that's why it's called a zebra crossing!)</li>
+                <li>Some crossings have traffic lights or a special signal for walkers</li>
+                <li>Drivers must stop for people waiting to cross</li>
             </ul>
-            <p><strong>The "Stop, Look, and Listen" Rule:</strong></p>
+            <p><strong>The Safe Crossing Steps (Stop, Look, Listen, Think):</strong></p>
             <ol>
-                <li><strong>STOP</strong> at the curb or edge of the road</li>
-                <li><strong>LOOK</strong> both ways for traffic</li>
-                <li><strong>LISTEN</strong> for vehicles you might not see</li>
-                <li>Wait for vehicles to come to a complete stop</li>
-                <li>Cross only when it is safe</li>
+                <li><strong>STOP</strong> at the edge of the curb or sidewalk</li>
+                <li><strong>LOOK</strong> left, right, and left again for any cars</li>
+                <li><strong>LISTEN</strong> for the sound of engines or horns</li>
+                <li><strong>THINK</strong> "Is it safe to cross?"</li>
+                <li><strong>CROSS</strong> only when no cars are coming. Keep looking both ways as you walk.</li>
             </ol>
-            <p><strong>Why is reporting accidents important?</strong></p>
+            <p><strong>Important Rules:</strong></p>
             <ul>
-                <li>Even small injuries can become worse</li>
-                <li>Adults can help us get proper care</li>
-                <li>Reporting helps prevent the same accident from happening again</li>
-                <li>It's important to tell the truth about what happened</li>
+                <li>Never cross between parked cars - drivers can't see you!</li>
+                <li>Always hold an adult's hand when crossing</li>
+                <li>Walk, don't run, when crossing the road</li>
+                <li>Make eye contact with drivers to make sure they see you</li>
+                <li>At a crossing with lights, wait for the green walking signal</li>
             </ul>
-            <p><strong>Who to report to at school:</strong> Teacher, nurse, or principal</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-traffic-light" style="color: #4CAF50;"></i> Crossing Safely</div>
-                <p>"At the pedestrian crossing: Stop at the curb, look left and right, listen for cars, and cross when it's safe."</p>
+                <div class="example-title"><i class="fas fa-child"></i> Sam's Safe Crossing</div>
+                <p>Sam wanted to cross the road to get to the park. He walked to the zebra crossing, stopped, looked left and right, listened for cars, and saw a car stopping for him. He held his mom's hand and walked across safely.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-md" style="color: #2196F3;"></i> Reporting Example</div>
-                <p>"If you fall and scrape your knee, tell your teacher right away, even if it doesn't hurt much at first."</p>
+                <div class="example-title"><i class="fas fa-car"></i> Why Drivers Need to See You</div>
+                <p>If you cross between two parked cars, the drivers on the road cannot see you until you step out. That is too late! Always cross where drivers can see you clearly.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-road"></i> Practice Road</div>
-                <p>We'll create a pretend road in our classroom to practice crossing safely!</p>
+                <div class="example-title"><i class="fas fa-hand-paper"></i> Hold Hands!</div>
+                <p>Young children are small and hard for drivers to see. Holding an adult's hand keeps you safe and helps you cross at the right time.</p>
             </div>
         `,
-        taskInstructions: "Practice road safety rules and learn how to report accidents properly.",
+        taskInstructions: "Practice the Stop, Look, Listen, Think steps. Role-play crossing the road safely.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Stop, Look, and Listen</strong></p>
+                <p><strong>Part A: The Safe Crossing Steps</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Number the steps in order (1-4):
+                    <span class="task-number">1</span> Put the steps in the correct order (1-4):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Look both ways for traffic</div>
-                        <div>____ Cross when it is safe</div>
-                        <div>____ Stop at the curb</div>
-                        <div>____ Listen for vehicles</div>
-                    </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> Draw yourself following the "Stop, Look, and Listen" rule:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I am safe because I ___________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Mock Road Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Design your own pedestrian crossing:
-                    <div class="drawing-area" style="height: 100px; border: 1px solid #333; background-color: #F5F5F5; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px; text-align: center;">Draw white stripes for the crossing!</div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write what you should say when crossing with a friend:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>You: "Remember to _______________ before we cross."</div>
-                        <div>Friend: "Okay, I will _______________ and _______________."</div>
+                        <div>___ LOOK left, right, and left again</div>
+                        <div>___ STOP at the edge of the road</div>
+                        <div>___ CROSS when no cars are coming</div>
+                        <div>___ LISTEN for cars and THINK if it's safe</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Reporting Accidents</strong></p>
+                <p><strong>Part B: Role Play - Practice Crossing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Role-play: What would you say? Complete the conversation:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 10px;">
-                        <div><strong>Scenario:</strong> You see a classmate trip over a backpack in the hallway.</div>
-                        <div style="margin-top: 10px;">
-                            <div>You: "Are you okay?"</div>
-                            <div>Classmate: "I hurt my elbow."</div>
-                            <div>You: "Let's go tell ________________________."</div>
-                            <div>When you see the teacher, you say:</div>
-                            <div class="answer-space" style="height: 30px; margin-top: 5px;">"Teacher, ______________________________"</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">6</span> Circle the people you should report an accident to:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Teacher / Stranger / Nurse / Principal / Another student / Janitor</div>
+                    <span class="task-number">2</span> With your classmates, practice the safe crossing steps in your classroom. Your teacher will pretend to be cars. Practice with a partner:
+                    <div class="observation-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Write or draw what you learned from practicing:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Safety Pledge</strong></p>
+                <p><strong>Part C: Crossing Rules Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">7</span> Trace and sign your safety pledge:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #FFF3E0; border-radius: 10px; text-align: center; font-size: 1.1em;">
-                        <strong>I promise to:<br>
-                        • Stop, Look, and Listen before crossing<br>
-                        • Keep my classroom tidy and hazard-free<br>
-                        • Report accidents to an adult immediately<br>
-                        _________________________<br>
-                        (Your signature)</strong>
+                    <span class="task-number">3</span> Draw a picture of someone using a pedestrian crossing (zebra crossing) safely. Show the person stopping, looking, and holding an adult's hand:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Safe or Not Safe?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Circle "Safe" or "Not Safe" for each situation:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Crossing between two parked cars → Safe / Not Safe</div>
+                        <div>B. Holding your parent's hand at the crossing → Safe / Not Safe</div>
+                        <div>C. Running across the road without looking → Safe / Not Safe</div>
+                        <div>D. Stopping and looking left and right before crossing → Safe / Not Safe</div>
+                        <div>E. Crossing when the green walking signal is on → Safe / Not Safe</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Safety Pledge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Complete this safety promise:
+                    <div style="margin-left: 20px; margin-top: 10px; font-style: italic;">
+                        "I promise to always _____________ before crossing the road. I will use the _____________ crossing. I will hold an _____________ hand."
                     </div>
                 </div>
             </div>
         `,
-        homework: "Practice the 'Stop, Look, and Listen' rule when crossing a street with an adult this weekend. Draw a picture of you doing it safely.",
+        homework: "With a parent, practice crossing a real pedestrian crossing near your home. Have your parent sign here: __________. Draw a picture of your safe crossing.",
         homeworkDue: "Monday"
     }
 };
@@ -240,10 +204,10 @@ const grade2CreativeTechWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2CreativeTechWeek2);
-    console.log("creative-tech-week2.js registered using registerWorksheet()");
+    console.log("grade2-creativetech-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2CreativeTechWeek2);
-    console.log("creative-tech-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-creativetech-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -254,9 +218,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2CreativeTechWeek2.metadata,
         days: grade2CreativeTechWeek2
     });
-    console.log("creative-tech-week2.js stored in window.registeredWorksheets");
+    console.log("grade2-creativetech-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2CreativeTechWeek2 = grade2CreativeTechWeek2;
-console.log("creative-tech-week2.js loaded and registered successfully");
+console.log("grade2-creativetech-week2.js loaded and registered successfully");

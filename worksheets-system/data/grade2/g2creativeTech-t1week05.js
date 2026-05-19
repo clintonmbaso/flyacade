@@ -1,225 +1,205 @@
-// Grade 2 Creative and Technology Studies - Week 5 Data
+// Grade 2 Creative and Technology Studies - Term 2 Week 5 Data
 const grade2CreativeTechWeek5 = {
     metadata: {
         grade: 2,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 5,
-        title: "Kitchen Equipment and Care",
-        description: "Learning about kitchen tools, their uses, and proper cleaning and storage"
+        title: "Kitchen Care and Free Drawing",
+        description: "Practicing safe usage, cleaning, and storage of kitchen equipment; free drawing of natural objects from the environment"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Tools and Equipment",
-        subtopic: "Kitchen Equipment",
-        objective: "By the end of the lesson, learners should be able to identify kitchen equipment and describe their uses for cooking or freezing.",
+        topic: "Home Technology",
+        subtopic: "Kitchen Equipment Care",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn about the special tools we use in the kitchen.</p>
-            <p><strong>Key Concept:</strong> Every kitchen has tools that help us prepare food safely and easily.</p>
-            <p><strong>What are kitchen equipment?</strong></p>
-            <ul>
-                <li>Tools that help us cook and store food</li>
-                <li>Some make food hot, others keep food cold</li>
-                <li>Each tool has a special job</li>
-                <li>We must use them safely</li>
-            </ul>
-            <p><strong>Common Kitchen Equipment:</strong></p>
+            <p>Welcome to our kitchen care lesson! Today we'll learn how to use kitchen equipment safely, keep it clean, and store it properly.</p>
+            <p><strong>Key Question:</strong> How can we take good care of the things in our kitchen?</p>
+            <p><strong>Introduction:</strong> The kitchen has many helpful tools that we use every day. When we use them safely, clean them well, and put them in the right place, they last longer and keep us safe!</p>
+            <p><strong>Safe Usage of Kitchen Equipment:</strong></p>
             <ol>
-                <li>Stove/Brazier – makes food hot</li>
-                <li>Pots – hold food while cooking</li>
-                <li>Refrigerator/Freezer – keeps food cold</li>
-                <li>Bowls – hold ingredients</li>
+                <li><strong>Always ask an adult for help</strong> when using knives, the stove, or electrical appliances</li>
+                <li><strong>Use tools for their right job</strong> - don't use a knife to open a can!</li>
+                <li><strong>Keep sharp objects pointing down</strong> and away from your body</li>
+                <li><strong>Turn handles inward</strong> on the stove so nobody bumps into them</li>
+                <li><strong>Wash your hands</strong> before handling any food or equipment</li>
             </ol>
-            <p><strong>Safety First!</strong> Kitchen tools can be hot, sharp, or heavy. Always ask an adult for help.</p>
+            <p><strong>Cleaning Kitchen Equipment:</strong></p>
+            <ol>
+                <li><strong>Wash with warm, soapy water</strong> after each use</li>
+                <li><strong>Rinse well</strong> to remove all soap</li>
+                <li><strong>Dry completely</strong> before putting away (wet tools can grow germs!)</li>
+                <li><strong>Clean cutting boards</strong> especially well - they touch many foods</li>
+                <li><strong>Wipe counters and tables</strong> after cooking or eating</li>
+            </ol>
+            <p><strong>Storing Kitchen Equipment:</strong></p>
+            <ol>
+                <li><strong>Put things back in their proper place</strong> after cleaning</li>
+                <li><strong>Store sharp knives in a knife block or drawer</strong> - never loose in a drawer</li>
+                <li><strong>Keep heavy pots on lower shelves</strong> so they are easy to reach</li>
+                <li><strong>Store glasses and cups upside down</strong> to keep dust out</li>
+                <li><strong>Keep utensils in a container</strong> with handles up for easy grabbing</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fire" style="color: #FF5722;"></i> Hot Equipment</div>
-                <p>Stoves and braziers make heat to cook food. They can be dangerous if touched.</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Helping at Home</div>
+                <p>After making a sandwich, you can help by putting away the peanut butter, rinsing the knife (with an adult's permission), and wiping the counter!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-snowflake" style="color: #2196F3;"></i> Cold Equipment</div>
-                <p>Refrigerators and freezers keep food fresh and cold so it doesn't spoil.</p>
+                <div class="example-title"><i class="fas fa-tachometer-alt"></i> Safety First!</div>
+                <p>Remember: pot handles should always point toward the back of the stove. This way, nobody accidentally bumps them and spills hot food!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exclamation-triangle"></i> Safety Reminder</div>
-                <p>Never touch a hot stove. Never open a refrigerator and leave it open.</p>
+                <div class="example-title"><i class="fas fa-seedling"></i> Clean = Healthy</div>
+                <p>Germs love wet, dirty places. When we clean and dry our kitchen tools, we send germs away! A clean kitchen keeps our family healthy.</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to identify kitchen equipment and their uses.",
+        taskInstructions: "Match safety rules, list cleaning steps, and draw a storage scene.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Match the kitchen equipment to its use:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Stove/Brazier</div>
-                    <div>☐ Refrigerator</div>
-                    <div>☐ Pot</div>
-                    <div>☐ Bowl</div>
-                </div>
-                <div style="margin-left: 20px; margin-top: 5px;">
-                    <div>A. Keeps food cold</div>
-                    <div>B. Holds food while cooking</div>
-                    <div>C. Makes heat for cooking</div>
-                    <div>D. Holds ingredients</div>
-                </div>
-                <div class="answer-space" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
-                    <p style="color: #666;">Write the letter next to each equipment above.</p>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Sort the equipment: Hot or Cold?
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Stove: <span class="answer-space" style="display: inline-block; width: 80px; height: 20px; border-bottom: 1px solid #000; margin-left: 10px;"></span></div>
-                    <div>Refrigerator: <span class="answer-space" style="display: inline-block; width: 80px; height: 20px; border-bottom: 1px solid #000; margin-left: 10px;"></span></div>
-                    <div>Brazier: <span class="answer-space" style="display: inline-block; width: 80px; height: 20px; border-bottom: 1px solid #000; margin-left: 10px;"></span></div>
-                    <div>Freezer: <span class="answer-space" style="display: inline-block; width: 80px; height: 20px; border-bottom: 1px solid #000; margin-left: 10px;"></span></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Draw two kitchen equipment and label them:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px; display: flex;">
-                    <div style="flex: 1; border-right: 1px dashed #ccc; padding: 5px;">
-                        <p style="text-align: center; font-size: 0.9em;">Equipment 1</p>
+            <div class="content-box">
+                <p><strong>Part A: Safety Rules Match</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw a line to match the safety rule to its picture or meaning:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>"Turn handles inward" → __________</div>
+                        <div>"Wash your hands" → __________</div>
+                        <div>"Ask an adult for help" → __________</div>
+                        <div>"Use tools for their right job" → __________</div>
                     </div>
-                    <div style="flex: 1; padding: 5px;">
-                        <p style="text-align: center; font-size: 0.9em;">Equipment 2</p>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Cleaning Steps</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Put the cleaning steps in order (1, 2, 3, 4):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>___ Dry completely</div>
+                        <div>___ Wash with warm, soapy water</div>
+                        <div>___ Put away in the right place</div>
+                        <div>___ Rinse well</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Safety rules: Circle TRUE or FALSE:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>I can touch a hot stove. - TRUE / FALSE</div>
-                    <div>I should ask an adult for help. - TRUE / FALSE</div>
-                    <div>I can play near the refrigerator. - TRUE / FALSE</div>
-                    <div>I should wash my hands before touching food. - TRUE / FALSE</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Storage Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a kitchen shelf or drawer that shows how to store equipment safely:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name one thing you will do differently at home to help care for kitchen equipment:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look in your kitchen with an adult. Name two equipment you see and tell what they do.",
+        homework: "With an adult's help, wash and put away one kitchen item at home. Draw a picture of the item you cleaned and tell where it belongs.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Tools and Equipment",
-        subtopic: "Kitchen Equipment",
-        objective: "By the end of the lesson, learners should be able to describe how to clean and store kitchen equipment appropriately.",
+        topic: "Visual Arts",
+        subtopic: "Free Drawing of Natural Objects",
         lessonContent: `
-            <p>Today we will learn how to take care of kitchen equipment so they last long and stay safe to use.</p>
-            <p><strong>Key Concept:</strong> Clean equipment means healthy food and a safe kitchen.</p>
-            <p><strong>Why do we clean kitchen equipment?</strong></p>
+            <p>Welcome to our art lesson! Today we will explore the beautiful natural world around us and draw what we see!</p>
+            <p><strong>Key Question:</strong> What can we learn by looking closely at trees, mountains, and rivers?</p>
+            <p><strong>Introduction:</strong> Nature gives us many wonderful things to draw! Trees, mountains, and rivers are all around us. When we look closely at their shapes, colors, and textures, we can draw them beautifully.</p>
+            <p><strong>Drawing Trees:</strong></p>
             <ul>
-                <li>To remove germs and dirt</li>
-                <li>To keep food safe to eat</li>
-                <li>To make equipment last longer</li>
-                <li>To keep our kitchen smelling fresh</li>
+                <li><strong>Trunk:</strong> Draw a thick brown line going up. Some trunks are straight, some are curved!</li>
+                <li><strong>Branches:</strong> Draw lines that get smaller as they go out from the trunk</li>
+                <li><strong>Leaves:</strong> Use small circles, clouds, or zigzags at the ends of branches</li>
+                <li><strong>Roots:</strong> Some trees have roots showing at the bottom - draw wavy lines</li>
             </ul>
-            <p><strong>Steps to clean equipment:</strong></p>
-            <ol>
-                <li>Use soap and water</li>
-                <li>Scrub gently with a sponge</li>
-                <li>Rinse with clean water</li>
-                <li>Dry with a clean cloth</li>
-            </ol>
-            <p><strong>Why do we store equipment properly?</strong></p>
+            <p><strong>Drawing Mountains:</strong></p>
             <ul>
-                <li>Safety – so no one trips or gets hurt</li>
-                <li>Hygiene – to keep things clean</li>
-                <li>Organization – so we can find things easily</li>
+                <li><strong>Shape:</strong> Draw big triangles with bumpy, uneven tops (not perfect triangles!)</li>
+                <li><strong>Layers:</strong> Draw smaller mountains in front of bigger mountains</li>
+                <li><strong>Snow caps:</strong> If the mountain is tall, add white zigzags at the top</li>
+                <li><strong>Shadows:</strong> Color one side of the mountain darker to show the sun</li>
             </ul>
-            <p><strong>Remember:</strong> A clean kitchen is a happy, healthy kitchen!</p>
+            <p><strong>Drawing Rivers:</strong></p>
+            <ul>
+                <li><strong>Path:</strong> Draw two wavy, curvy lines that wiggle across your paper</li>
+                <li><strong>Width:</strong> Rivers get wider as they go (like a long triangle shape)</li>
+                <li><strong>Water lines:</strong> Add small curved lines inside the river to show moving water</li>
+                <li><strong>Banks:</strong> Draw the land on both sides of the river (use green or brown)</li>
+            </ul>
+            <p><strong>Putting It All Together - A Nature Scene:</strong></p>
+            <ul>
+                <li>Decide what goes in the back (far away) - usually mountains</li>
+                <li>Add things in the middle - trees, hills, or a river</li>
+                <li>Draw things up close (front) - bigger trees, rocks, or flowers</li>
+                <li>Color your drawing using what you see in real nature - greens, browns, blues!</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-broom" style="color: #795548;"></i> Cleaning Example</div>
-                <p>After eating, we wash bowls with soap and water to remove food and germs.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Tree Watching</div>
+                <p>Look at a tree near your home. Is the trunk straight or twisty? Are the leaves clumped together or spread out? Draw what you see, not what you imagine!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box" style="color: #607D8B;"></i> Storing Example</div>
-                <p>Pots go in the cupboard. Knives go in a safe drawer. Everything has its place!</p>
+                <div class="example-title"><i class="fas fa-mountain"></i> Mountain Shapes</div>
+                <p>Real mountains aren't perfect triangles! They have bumps, dips, and different sizes. Some mountains even look like sleeping giants!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-handshake"></i> Teamwork</div>
-                <p>Cleaning and storing is a family job. Everyone helps to keep the kitchen tidy.</p>
+                <div class="example-title"><i class="fas fa-water"></i> River Colors</div>
+                <p>Rivers aren't just blue! They can look green, gray, or brown depending on the sky and the rocks. Add white lines to show where the water moves fast.</p>
             </div>
         `,
-        taskInstructions: "Practice the steps of cleaning and storing kitchen equipment.",
+        taskInstructions: "Draw and color a nature scene with a tree, mountain, and river, then reflect on your drawing.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Cleaning Steps</strong></p>
+                <p><strong>Part A: My Nature Scene</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Number the steps in order (1–4):
+                    <span class="task-number">1</span> Draw a beautiful nature scene that includes:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Rinse with clean water</div>
-                        <div>____ Dry with a clean cloth</div>
-                        <div>____ Use soap and water</div>
-                        <div>____ Scrub gently with a sponge</div>
+                        <div>✓ At least one tree (with trunk, branches, and leaves)</div>
+                        <div>✓ At least one mountain (with bumpy top and shading)</div>
+                        <div>✓ At least one river (with wavy path and water lines)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 300px; margin-top: 10px; border: 2px solid #4A90E2; background: #FAFAFA;">
+                        <p style="text-align: center; color: #999; padding-top: 130px;">[Draw your nature scene here]</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Why Store Properly?</strong></p>
+                <p><strong>Part B: Color Your Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Match the reason to the picture:
+                    <span class="task-number">2</span> Use crayons, colored pencils, or markers to color your scene:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Safety</div>
-                        <div>☐ Hygiene</div>
-                        <div>☐ Organization</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 5px;">
-                        <div>A. So we can find things easily</div>
-                        <div>B. So no one trips</div>
-                        <div>C. To keep things clean</div>
+                        <div>• Tree trunk: brown</div>
+                        <div>• Leaves: green (try different shades!)</div>
+                        <div>• Mountains: gray, purple, or blue-green</div>
+                        <div>• River: blue or blue-green with white lines</div>
+                        <div>• Sky: light blue (leave some white for clouds!)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Roleplay Time</strong></p>
+                <p><strong>Part C: Artist Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw yourself doing each step:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; text-align: center;">
-                            <div class="drawing-area" style="height: 80px; margin: 5px;"></div>
-                            <div style="font-size: 0.8em;">Washing a bowl</div>
-                        </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div class="drawing-area" style="height: 80px; margin: 5px;"></div>
-                            <div style="font-size: 0.8em;">Drying a spoon</div>
-                        </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div class="drawing-area" style="height: 80px; margin: 5px;"></div>
-                            <div style="font-size: 0.8em;">Putting a pot away</div>
-                        </div>
-                    </div>
+                    <span class="task-number">3</span> What was your favorite part of your drawing? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Kitchen Pledge</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Trace and repeat our kitchen pledge:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 10px; text-align: center; font-size: 1.1em;">
-                        <strong>I will clean, I will store,<br>
-                        I will help a little more.<br>
-                        Kitchen tools, safe and neat,<br>
-                        Make our family life sweet!</strong>
-                    </div>
+                    <span class="task-number">4</span> Look at your drawing. What would you add if you had more time?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Healthy Kitchen Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a clean and organized kitchen:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">A clean kitchen is important because _______________</div>
+                    <span class="task-number">5</span> Name one natural object you would like to draw next time:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Help wash or dry one kitchen item at home. Tell how you stored it after.",
+        homework: "Find a natural object outside (a leaf, a rock, a stick, or look at a tree). Draw it carefully on paper and bring your drawing to share with the class.",
         homeworkDue: "Monday"
     }
 };
@@ -227,10 +207,10 @@ const grade2CreativeTechWeek5 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2CreativeTechWeek5);
-    console.log("creative-tech-week5.js registered using registerWorksheet()");
+    console.log("grade2-creativetech-week5.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2CreativeTechWeek5);
-    console.log("creative-tech-week5.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-creativetech-week5.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -241,9 +221,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2CreativeTechWeek5.metadata,
         days: grade2CreativeTechWeek5
     });
-    console.log("creative-tech-week5.js stored in window.registeredWorksheets");
+    console.log("grade2-creativetech-week5.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2CreativeTechWeek5 = grade2CreativeTechWeek5;
-console.log("creative-tech-week5.js loaded and registered successfully");
+console.log("grade2-creativetech-week5.js loaded and registered successfully");

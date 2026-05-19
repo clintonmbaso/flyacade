@@ -1,194 +1,214 @@
-// Grade 2 Creative and Technology Studies - Week 8 Data
+// Grade 2 Creative and Technology Studies - Term 2 Week 8 Data
 const grade2CreativeTechWeek8 = {
     metadata: {
         grade: 2,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 8,
-        title: "Primary Colours and Still Life Painting",
-        description: "Exploring primary colours and creating still life paintings of everyday tools"
+        title: "Painting and Clay Work",
+        description: "Exploring primary colors through still life painting and creating simple items with local clay"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Introduction to Primary Colours",
-        subtopic: "Identifying and using the three primary colours: Red, Yellow, and Blue",
+        topic: "Visual Arts",
+        subtopic: "Painting Simple Objects from Still Life",
         lessonContent: `
-            <p>Welcome to Creative and Technology Studies! Today we will learn about special colours called <strong>Primary Colours</strong>.</p>
-            <p><strong>Key Concept:</strong> Primary colours are the "parent" colours that can be used to make all other colours.</p>
-            <p><strong>What are Primary Colours?</strong></p>
+            <p>Welcome to our painting lesson! Today we'll learn about primary colors and how to paint simple objects from still life.</p>
+            <p><strong>Key Question:</strong> What are primary colors and how can we use them to paint objects we see around us?</p>
+            <p><strong>Introduction:</strong> Still life is a type of art where we paint objects that don't move, like tools, fruits, or household items. Today we'll paint simple objects using primary colors.</p>
+            <p><strong>Primary Colors:</strong></p>
             <ul>
-                <li>Red, Yellow, and Blue are the three primary colours</li>
-                <li>They are bright and strong</li>
-                <li>We can mix them to create other colours</li>
-                <li>Many objects around us are primary colours!</li>
+                <li><strong>Red</strong> - Like an apple or a shovel handle</li>
+                <li><strong>Blue</strong> - Like the sky or a bucket</li>
+                <li><strong>Yellow</strong> - Like the sun or a yellow flower</li>
             </ul>
-            <p><strong>Why are they called "Primary"?</strong> Just like parents in a family, these colours are the starting point for making more colours!</p>
-            <p><strong>Vocabulary:</strong> Primary, Red, Yellow, Blue, Colour, Mix</p>
+            <p><strong>Did You Know?</strong> All other colors can be made by mixing primary colors! Red + Yellow = Orange, Blue + Yellow = Green, Red + Blue = Purple.</p>
+            <p><strong>Objects We Will Paint Today:</strong></p>
+            <ul>
+                <li>Shovel</li>
+                <li>Bucket</li>
+                <li>Axe</li>
+            </ul>
+            <p><strong>Steps for Painting:</strong></p>
+            <ol>
+                <li>Look carefully at the object (observe its shape, size, and color)</li>
+                <li>Draw the outline lightly with a pencil</li>
+                <li>Choose the right primary color for your object</li>
+                <li>Paint carefully inside the lines</li>
+                <li>Let your painting dry</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette" style="color: #FF5722;"></i> Red Examples</div>
-                <p>Fire engine, apple, stop sign - these are all red objects!</p>
+                <div class="example-title"><i class="fas fa-palette"></i> Primary Colors Song</div>
+                <p>Red, yellow, blue - the primary three!<br>
+                Mix them together and what do you see?<br>
+                Orange, green, purple - colors so new!<br>
+                Red, yellow, blue - we love all three!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sun" style="color: #FFEB3B;"></i> Yellow Examples</div>
-                <p>Sun, banana, school bus - these are all yellow objects!</p>
+                <div class="example-title"><i class="fas fa-fill-drip"></i> Painting Tips</div>
+                <p>Always wash your brush when changing colors! Start with light colors first (yellow), then move to darker colors (red and blue).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #2196F3;"></i> Blue Examples</div>
-                <p>Sky, ocean, bluebird - these are all blue objects!</p>
+                <div class="example-title"><i class="fas fa-tools"></i> Object Shapes</div>
+                <p>A shovel has a long handle (rectangle) and a scooping end (curved shape). A bucket is like a cylinder with a handle. An axe has a long handle and a sharp metal head.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying and using primary colours.",
+        taskInstructions: "Observe, draw, and paint still life objects using primary colors.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Divide your page into three sections and colour each one:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Colour the first section <strong>RED</strong></div>
-                    <div>☐ Colour the second section <strong>YELLOW</strong></div>
-                    <div>☐ Colour the third section <strong>BLUE</strong></div>
-                </div>
-                <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #ccc; display: flex;">
-                    <div style="flex: 1; border-right: 1px dashed #999; padding: 5px; text-align: center;">RED</div>
-                    <div style="flex: 1; border-right: 1px dashed #999; padding: 5px; text-align: center;">YELLOW</div>
-                    <div style="flex: 1; padding: 5px; text-align: center;">BLUE</div>
+            <div class="content-box">
+                <p><strong>Part A: Observation and Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look at the shovel, bucket, or axe provided by your teacher. Draw the outline of ONE object below:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Label each colour with its name:
-                <div style="margin-left: 20px; margin-top: 10px; display: flex; justify-content: space-around;">
-                    <div style="text-align: center;">
-                        <div style="width: 50px; height: 50px; background-color: #FF0000; margin: 0 auto; border: 1px solid #000;"></div>
-                        <div class="answer-space" style="height: 25px; width: 60px; margin-top: 5px;"></div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="width: 50px; height: 50px; background-color: #FFFF00; margin: 0 auto; border: 1px solid #000;"></div>
-                        <div class="answer-space" style="height: 25px; width: 60px; margin-top: 5px;"></div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="width: 50px; height: 50px; background-color: #0000FF; margin: 0 auto; border: 1px solid #000;"></div>
-                        <div class="answer-space" style="height: 25px; width: 60px; margin-top: 5px;"></div>
-                    </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Painting with Primary Colors</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Paint your drawing using only primary colors (red, blue, and yellow):
+                    <div class="painting-area" style="height: 180px; margin-top: 10px; border: 2px solid #4A90E2; background: #fafafa;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Which primary color did you use for your object? Why did you choose that color?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Find and draw three objects that are primary colours:
-                <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">My red object: __________, My yellow object: __________, My blue object: __________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Color Mixing Experiment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Using your paints, try mixing two primary colors. What new colors can you make?
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Red + Yellow = ___________</div>
+                        <div>Blue + Yellow = ___________</div>
+                        <div>Red + Blue = ___________</div>
+                    </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Colour hunt: Look around the room and list primary colour objects:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Red: __________________________</div>
-                    <div>Yellow: ________________________</div>
-                    <div>Blue: _________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> What was your favorite part of painting today?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three objects at home that are primary colours. Draw them in your notebook.",
+        homework: "Find three objects at home that are red, blue, or yellow. Draw them in your notebook and color them using the correct primary color.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Still Life Painting",
-        subtopic: "Painting pictures of everyday tools using primary colours",
+        topic: "Crafts and Design",
+        subtopic: "Making Simple Items Using Available Local Clay",
         lessonContent: `
-            <p>Today we will create <strong>Still Life</strong> paintings of everyday tools!</p>
-            <p><strong>Key Concept:</strong> Still Life means drawing or painting objects that do not move.</p>
-            <p><strong>What is Still Life?</strong></p>
+            <p>Welcome to our clay work lesson! Today we'll learn how to make simple items using local clay that we can find in our environment.</p>
+            <p><strong>Key Question:</strong> What can we create using clay from our local area?</p>
+            <p><strong>Introduction:</strong> Clay is a special type of soil that becomes soft and moldable when wet, and hard when dried or baked. People have been using clay to make pots, bowls, and toys for thousands of years!</p>
+            <p><strong>What is Clay?</strong></p>
             <ul>
-                <li>It shows objects that stay in one place</li>
-                <li>Common still life objects: fruits, tools, flowers</li>
-                <li>Artists observe shapes and colours carefully</li>
+                <li>Clay is found in the ground, often near rivers or in low areas</li>
+                <li>It feels smooth and sticky when wet</li>
+                <li>It can be shaped into many different forms</li>
+                <li>When clay dries in the sun or is heated in a kiln, it becomes hard and strong</li>
             </ul>
-            <p><strong>Today's Tools:</strong> We will paint a bucket and a shovel (or similar tools).</p>
-            <p><strong>Painting Rules:</strong></p>
+            <p><strong>Simple Items We Can Make with Clay:</strong></p>
+            <ul>
+                <li>Small bowl or cup</li>
+                <li>Ball or marble</li>
+                <li>Snake or worm</li>
+                <li>Simple animal (turtle, fish, bird)</li>
+                <li>Beads for necklaces</li>
+            </ul>
+            <p><strong>Steps for Working with Clay:</strong></p>
             <ol>
-                <li>Observe the shapes carefully</li>
-                <li>Draw the outline of each tool</li>
-                <li>Use only primary colours (Red, Yellow, Blue)</li>
-                <li>Paint accordingly - stay inside the lines!</li>
+                <li>Knead the clay to make it soft (like kneading dough)</li>
+                <li>Roll it into a ball or flatten it</li>
+                <li>Shape it using your hands and simple tools</li>
+                <li>Smooth the surface with wet fingers</li>
+                <li>Let it dry in a sunny place</li>
             </ol>
-            <p><strong>Real-Life Connection:</strong> These tools help us with work at home, in the garden, and on the farm!</p>
+            <p><strong>Safely Tips:</strong></p>
+            <ul>
+                <li>Wash your hands before and after working with clay</li>
+                <li>Don't put clay in your mouth</li>
+                <li>Cover clay with a damp cloth so it doesn't dry out while you're working</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bucket" style="color: #2196F3;"></i> Bucket Shapes</div>
-                <p>A bucket has a circular opening, curved sides, and sometimes a handle. Look for circles and ovals!</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Handbuilding Techniques</div>
+                <p>You can make a pinch pot by rolling clay into a ball, then pushing your thumb into the center and pinching the sides to create a bowl shape!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shovel" style="color: #FF5722;"></i> Shovel Shapes</div>
-                <p>A shovel has a flat blade, a long handle, and sometimes a D-grip. Look for rectangles and triangles!</p>
+                <div class="example-title"><i class="fas fa-history"></i> Clay Through History</div>
+                <p>Ancient people made clay pots to store water and cook food. Some clay pots from thousands of years ago have been found by archaeologists!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paint-brush" style="color: #FFEB3B;"></i> Painting Tips</div>
-                <p>Start with light pencil lines, then add colour. Use different primary colours for different parts!</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Local Materials</div>
+                <p>If you don't have clay at home, you can make "play clay" using flour, salt, water, and a little oil. Ask an adult to help you make it!</p>
             </div>
         `,
-        taskInstructions: "Create a still life painting of tools using primary colours.",
+        taskInstructions: "Use local clay to create simple items by shaping and molding.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Observing Shapes</strong></p>
+                <p><strong>Part A: Preparing the Clay</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at the tools. What shapes do you see?
+                    <span class="task-number">1</span> Take your piece of local clay. Knead it for 2-3 minutes until it becomes soft and smooth:
+                    <div class="observation-area" style="height: 60px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>How does the clay feel? Is it soft? Sticky? Smooth?</em></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Creating Your Item</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Choose ONE simple item to make with your clay:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The bucket has __________ shape at the top and __________ shape for the body.</div>
-                        <div>The shovel has __________ shape for the blade and __________ shape for the handle.</div>
+                        <label><input type="checkbox"> Small bowl or cup</label><br>
+                        <label><input type="checkbox"> Ball or marble</label><br>
+                        <label><input type="checkbox"> Snake or worm</label><br>
+                        <label><input type="checkbox"> Simple animal (turtle, fish, or bird)</label><br>
+                        <label><input type="checkbox"> Beads for necklace</label><br>
+                        <label><input type="checkbox"> Other: ___________</label>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Shape your clay into your chosen item. Draw what you made below:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Decorating Your Clay Item</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Use a stick, pencil, or your fingers to add decorations (lines, dots, or patterns) to your clay item:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                        <p><em>Describe the decorations you added:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Still Life Drawing</strong></p>
+                <p><strong>Part D: Drying and Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a bucket and shovel on your paper:
-                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;">
-                        <p style="text-align: center; color: #666; padding-top: 80px;">[Draw your still life here]</p>
-                    </div>
+                    <span class="task-number">5</span> Where will you place your clay item to dry? (Sunny windowsill? Outside?)
+                    <div class="answer-space" style="height: 50px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Primary Colour Painting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Paint your drawing using only RED, YELLOW, and BLUE:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F5F5F5; border-radius: 5px;">
-                        <p><strong>Colour Guide:</strong></p>
-                        <div>☐ Bucket: __________ (choose a primary colour)</div>
-                        <div>☐ Shovel blade: __________ (choose a primary colour)</div>
-                        <div>☐ Shovel handle: __________ (choose a primary colour)</div>
-                        <div>☐ Background: __________ (choose a primary colour)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Real-Life Connections</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> How are these tools used in real life?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A bucket is used for: ______________________________</div>
-                        <div>A shovel is used for: ______________________________</div>
-                        <div>An axe (another tool) is used for: __________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Artist Statement</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Complete these sentences about your artwork:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My painting shows ________________________________</div>
-                        <div>I used __________ and __________ as my main colours.</div>
-                        <div>The hardest part to draw was ______________________</div>
-                        <div>I am proud of my painting because __________________</div>
-                    </div>
+                    <span class="task-number">6</span> What was easy about working with clay? What was challenging?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look for tools at home. Draw one more tool and colour it with primary colours.",
+        homework: "Look for clay or mud in your backyard or near your home. If you find some, bring a small sample to show the class. If not, draw a picture of something you would like to make with clay.",
         homeworkDue: "Monday"
     }
 };
@@ -196,10 +216,10 @@ const grade2CreativeTechWeek8 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2CreativeTechWeek8);
-    console.log("creativetech-week8.js registered using registerWorksheet()");
+    console.log("grade2-creativetech-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2CreativeTechWeek8);
-    console.log("creativetech-week8.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-creativetech-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -210,9 +230,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2CreativeTechWeek8.metadata,
         days: grade2CreativeTechWeek8
     });
-    console.log("creativetech-week8.js stored in window.registeredWorksheets");
+    console.log("grade2-creativetech-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2CreativeTechWeek8 = grade2CreativeTechWeek8;
-console.log("creativetech-week8.js loaded and registered successfully");
+console.log("grade2-creativetech-week8.js loaded and registered successfully");

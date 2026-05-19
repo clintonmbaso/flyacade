@@ -1,191 +1,208 @@
-// Grade 2 Creative and Technology Studies - Week 3 Data
+// Grade 2 Creative and Technology Studies - Term 2 Week 3 Data
 const grade2CreativeTechWeek3 = {
     metadata: {
         grade: 2,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 3,
-        title: "Introduction to First Aid",
-        description: "Learning basic First Aid concepts, kit contents, and simple treatment procedures"
+        title: "First Aid and Measurement",
+        description: "Learning basic first aid procedures and identifying measuring tools like rulers and measuring tapes"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Introduction to First Aid",
-        subtopic: "Defining First Aid and identifying basic First Aid kit items",
+        topic: "Health and Safety",
+        subtopic: "Basic First Aid",
         lessonContent: `
-            <p>Welcome to our Creative and Technology Studies lesson! Today we will learn about how to help someone who gets hurt.</p>
-            <p><strong>Key Concept:</strong> First Aid is the immediate help we give to an injured person before they see a doctor.</p>
-            <p><strong>Think about it:</strong> What do we do right after someone gets hurt, before they see a doctor?</p>
+            <p>Welcome! Today we will learn about first aid - the help we give to someone who is hurt before an adult or doctor arrives.</p>
+            <p><strong>Key Question:</strong> What should you do if someone gets a small injury?</p>
             <p><strong>What is First Aid?</strong></p>
-            <ul>
-                <li>Immediate help given to an injured person</li>
-                <li>Given before seeing a doctor</li>
-                <li>Anyone can learn to give First Aid</li>
-                <li>It's about being a helper!</li>
-            </ul>
-            <p><strong>Goals of First Aid:</strong></p>
+            <p>First aid is the first help given to someone who is injured or suddenly feels sick. It is NOT a replacement for a doctor, but it can make someone feel better and prevent injuries from getting worse.</p>
+            <p><strong>Important First Aid Rules for Kids:</strong></p>
             <ol>
-                <li>To stop the person from hurting more</li>
-                <li>To keep them calm</li>
-                <li>To prevent infection</li>
-                <li>To help them feel better</li>
+                <li><strong>Stay Calm:</strong> Take a deep breath before helping</li>
+                <li><strong>Get an Adult:</strong> Always tell a grown-up right away</li>
+                <li><strong>Don't Touch Blood:</strong> Only adults should touch blood to keep everyone safe</li>
+                <li><strong>Wash Scrapes:</strong> Small cuts should be cleaned with water</li>
             </ol>
-            <p><strong>What's inside a First Aid box?</strong> A First Aid kit has special items to help injured people.</p>
+            <p><strong>What's in a First Aid Kit?</strong></p>
+            <ul>
+                <li>Bandages (plasters/sticky bandages)</li>
+                <li>Gauze pads</li>
+                <li>Medical tape</li>
+                <li>Antiseptic wipes (to clean skin)</li>
+                <li>Gloves (to protect hands)</li>
+                <li>Scissors</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-first-aid" style="color: #FF5252;"></i> First Aid Kit</div>
-                <p>This is a special box with supplies to help when someone is hurt.</p>
+                <div class="example-title"><i class="fas fa-band-aid"></i> Small Cut or Scrape</div>
+                <p>If a friend falls and scrapes their knee: First, stay calm. Second, help them walk to an adult. Third, an adult will clean the scrape and put on a bandage.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Being a Helper</div>
-                <p>When we give First Aid, we become helpers who care for others.</p>
+                <div class="example-title"><i class="fas fa-thermometer-half"></i> Feeling Sick</div>
+                <p>If a classmate feels dizzy or hot, help them sit down and tell the teacher immediately. Never try to give medicine yourself.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Safety First</div>
-                <p>Always tell a teacher or grown-up when someone is hurt, even after giving First Aid.</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Helping Someone</div>
+                <p>The most important thing you can do is stay calm and call for help. Your calm voice can make the hurt person feel less scared!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to learn about First Aid and First Aid kits.",
+        taskInstructions: "Share first aid information with your group and practice simple first aid role-play scenarios.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Match the First Aid item to its picture:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Bandages</div>
-                    <div>☐ Plasters</div>
-                    <div>☐ Antiseptic wipes</div>
-                    <div>☐ Cotton wool</div>
-                    <div>☐ Gloves</div>
+            <div class="content-box">
+                <p><strong>Part A: First Aid Discussion</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Share with your partner: What is first aid? Why is it important?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;">
-                    <p style="text-align: center; color: #666; padding-top: 40px;">[Five picture boxes for matching]</p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Name two things you should do if someone gets hurt:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw a First Aid kit box:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">Label it: "First Aid Kit"</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> What is First Aid?
-                <div class="answer-space" style="height: 60px; margin-top: 10px;">First Aid is _________________________________________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> List 3 things you might find in a First Aid kit:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. ___________________________</div>
-                    <div>2. ___________________________</div>
-                    <div>3. ___________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: First Aid Kit Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a first aid kit and show at least three things that belong inside:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">5</span> Why do we wear gloves when helping someone who is hurt?
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">We wear gloves to ____________________________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Role-Play Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> With your group, act out these scenarios. Show what you would do:</div>
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Scenario 1:</strong> Your friend trips and gets a small scrape on their elbow.</div>
+                        <div><em>What do you say? What do you do?</em></div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 2:</strong> Your classmate says their head hurts and they feel hot.</div>
+                        <div><em>What do you say? What do you do?</em></div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it important to always tell an adult when someone is hurt?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
             </div>
         `,
-        homework: "Look at home for a First Aid kit or ask your family where it is kept. Draw one item from it.",
-        homeworkDue: "Friday"
+        homework: "Ask a parent or guardian to show you where the first aid kit is in your home. Draw it in your notebook.",
+        homeworkDue: "Monday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "First Aid Skills and Role Play",
-        subtopic: "Demonstrating basic First Aid procedures for minor cuts and bruises",
+        topic: "Measurement",
+        subtopic: "Identifying Measuring Tools",
         lessonContent: `
-            <p>Today we will practice being "First Aid Heroes"! We will learn how to help someone with a minor cut or scrape.</p>
-            <p><strong>Key Concept:</strong> Everyone can learn to give First Aid for small injuries using simple, safe steps.</p>
-            <p><strong>Review:</strong> What items did we learn about in the First Aid kit yesterday?</p>
-            <p><strong>Simple steps for treating a minor scrape:</strong></p>
+            <p>Welcome! Today we will learn about different tools we use to measure things around us.</p>
+            <p><strong>Key Question:</strong> How do we measure how long, tall, or wide something is?</p>
+            <p><strong>What is Measurement?</strong></p>
+            <p>Measurement tells us the size, length, or amount of something. We use special tools to measure so we can get the right answer.</p>
+            <p><strong>Measuring Tools We Use:</strong></p>
             <ol>
-                <li><strong>Wash your hands</strong> or put on gloves to keep clean</li>
-                <li><strong>Clean the wound</strong> gently with water or an antiseptic wipe</li>
-                <li><strong>Apply a plaster</strong> to keep dirt out</li>
-                <li><strong>Reassure the person</strong> by talking calmly to them</li>
+                <li><strong>Ruler:</strong> A flat tool with lines (marks) that show centimeters and inches. Good for measuring short things like a pencil or book.</li>
+                <li><strong>Measuring Tape:</strong> A flexible, roll-up tape with marks. Good for measuring curved things or longer things like your height or a table.</li>
+                <li><strong>Yardstick/Meter Stick:</strong> A long, straight ruler. Good for measuring things longer than a desk.</li>
             </ol>
-            <p><strong>Important things to remember:</strong></p>
+            <p><strong>When to Use Each Tool:</strong></p>
             <ul>
-                <li>Always be gentle with the injured person</li>
-                <li>Use comforting words like "It's okay, I am here to help"</li>
-                <li>Even after giving First Aid, you must still tell a teacher or grown-up</li>
-                <li>Only help with small cuts and scrapes - big injuries need a doctor</li>
+                <li><strong>Ruler:</strong> Small objects (pencil, crayon, phone)</li>
+                <li><strong>Measuring Tape:</strong> Curved or bendy objects (your wrist, a ball, around a box)</li>
+                <li><strong>Yardstick/Meter Stick:</strong> Long objects (table, door, your height)</li>
             </ul>
-            <p><strong>Being a First Aid Hero means:</strong> Helping calmly, safely, and kindly!</p>
+            <p><strong>Units of Measurement:</strong></p>
+            <ul>
+                <li><strong>Centimeters (cm):</strong> Small units on a ruler</li>
+                <li><strong>Inches (in):</strong> Another way to measure (used on some rulers)</li>
+                <li><strong>Meters (m):</strong> 100 centimeters = 1 meter</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-md" style="color: #4CAF50;"></i> First Aid Hero</div>
-                <p>"I can clean a small cut and put on a plaster." - This is being a First Aid Hero!</p>
+                <div class="example-title"><i class="fas fa-pencil-ruler"></i> Using a Ruler</div>
+                <p>To measure a crayon: Place the ruler next to the crayon. Line up one end of the crayon with the "0" mark. Look at the number at the other end. That's how long it is!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comment-medical"></i> Comforting Words</div>
-                <p>"It's okay, I am here to help." - These words make the hurt person feel better.</p>
+                <div class="example-title"><i class="fas fa-tape"></i> Using a Measuring Tape</div>
+                <p>To measure around your head for a hat: Wrap the measuring tape gently around your head. Read the number where the tape meets the other end.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper"></i> Safety Rule</div>
-                <p>Always tell a teacher after giving First Aid, even for small injuries.</p>
+                <div class="example-title"><i class="fas fa-child"></i> Measuring Height</div>
+                <p>Doctors use a measuring tape or a special scale to measure how tall you've grown. They write down your height in centimeters or feet/inches.</p>
             </div>
         `,
-        taskInstructions: "Practice First Aid steps through drawing and roleplay scenarios.",
+        taskInstructions: "Identify and practice using rulers and measuring tapes to measure classroom objects.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: First Aid Steps</strong></p>
+                <p><strong>Part A: Tool Identification</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Number the steps in the correct order (1-4):
+                    <span class="task-number">1</span> Look at each picture or real tool. Write its name and what it measures:</div>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Apply a plaster</div>
-                        <div>____ Wash your hands or put on gloves</div>
-                        <div>____ Reassure the person</div>
-                        <div>____ Clean the wound gently</div>
+                        <div><strong>Tool 1:</strong> Flat, 30 cm long, with small marks _________</div>
+                        <div><em>Used for: _________</em></div>
+                        <div style="margin-top: 10px;"><strong>Tool 2:</strong> Flexible, rolls up, has marks on both sides _________</div>
+                        <div><em>Used for: _________</em></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Roleplay Practice</strong></p>
+                <p><strong>Part B: Measuring Practice with a Ruler</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw yourself helping a friend with a scraped knee:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I would say: "_______________________________________"</div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> What would you do after helping your friend?
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">After helping, I would _______________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: First Aid Kit Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw and label 4 items you would use to treat a cut:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">1. ________ 2. ________ 3. ________ 4. ________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: First Aid Hero Badge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Design your own First Aid Hero badge:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px solid #FF5252; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
-                        <div style="width: 100px; height: 100px; border: 2px dashed #FF5252; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: #FF5252;">
-                            My Badge
-                        </div>
+                    <span class="task-number">2</span> Use a ruler to measure these objects in centimeters (cm):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Your pencil: _________ cm</div>
+                        <div>• Your eraser: _________ cm</div>
+                        <div>• Your notebook (width): _________ cm</div>
+                        <div>• Your finger: _________ cm</div>
                     </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px; text-align: center;">I am a First Aid Hero because I ________________________</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Safety Rules</strong></p>
+                <p><strong>Part C: Measuring Practice with a Measuring Tape</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> Complete the safety rule:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #FFEBEE; border-radius: 10px;">
-                        <strong>Always tell a _______________________ after giving First Aid, even for small injuries.</strong>
+                    <span class="task-number">3</span> Use a measuring tape to measure these:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Around your wrist: _________ cm</div>
+                        <div>• Your height (with a partner's help): _________ cm</div>
+                        <div>• Around a water bottle: _________ cm</div>
+                        <div>• Length of your desk: _________ cm</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Drawing and Labeling</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a ruler and a measuring tape. Label each one:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which measuring tool is your favorite and why?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> What would you use to measure the length of your classroom? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach one family member the First Aid steps for a small cut. Draw a picture of you showing them.",
+        homework: "Find three objects at home. Measure them using a ruler (if small) or measuring tape (if large). Write down the object name and its length in centimeters.",
         homeworkDue: "Monday"
     }
 };
@@ -193,10 +210,10 @@ const grade2CreativeTechWeek3 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2CreativeTechWeek3);
-    console.log("creative-tech-week3.js registered using registerWorksheet()");
+    console.log("grade2-creativetech-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2CreativeTechWeek3);
-    console.log("creative-tech-week3.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-creativetech-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -207,9 +224,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2CreativeTechWeek3.metadata,
         days: grade2CreativeTechWeek3
     });
-    console.log("creative-tech-week3.js stored in window.registeredWorksheets");
+    console.log("grade2-creativetech-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2CreativeTechWeek3 = grade2CreativeTechWeek3;
-console.log("creative-tech-week3.js loaded and registered successfully");
+console.log("grade2-creativetech-week3.js loaded and registered successfully");

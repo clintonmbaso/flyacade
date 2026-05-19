@@ -1,244 +1,242 @@
-// Grade 2 Creative and Technology Studies - Week 7 Data
-const grade2CreativeTechWeek7 = {
+// Grade 2 Creative and Technology Studies - Term 2 Week 7 Data
+const grade2CTSWeek7 = {
     metadata: {
         grade: 2,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 7,
-        title: "Free Drawing and Creative Expression",
-        description: "Exploring nature, landscapes, and social concepts through drawing"
+        title: "Drawing and Color Basics",
+        description: "Exploring community structures through drawing and learning the three primary colors"
     },
     
     thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Nature and Landscapes",
-        subtopic: "Drawing simple natural features from imagination",
+        topic: "Drawing",
+        subtopic: "Community Structures",
         lessonContent: `
-            <p>Welcome to Creative and Technology Studies! Today we will explore the beauty of nature through drawing.</p>
-            <p><strong>Objective:</strong> By the end of the lesson, you will be able to draw simple natural features from your imagination.</p>
-            <p><strong>Introduction:</strong> Let's talk about the beauty of nature. What do you see when you go outdoors?</p>
+            <p>Welcome to our drawing lesson! Today we'll explore the important buildings and places in our community through art.</p>
+            <p><strong>Key Question:</strong> What buildings and places make up our community?</p>
+            <p><strong>Introduction:</strong> Every community has special places where people live, learn, pray, and save money. Today we will draw some of these important structures!</p>
+            <p><strong>Community Structures We Can Draw:</strong></p>
+            <ol>
+                <li><strong>School:</strong> Where we go to learn and play with friends</li>
+                <li><strong>Church/Mosque/Temple:</strong> Where people go to worship and pray</li>
+                <li><strong>Saving Box (Bank or Piggy Bank):</strong> Where people keep their money safe</li>
+                <li><strong>Home:</strong> Where families live together</li>
+                <li><strong>Hospital/Clinic:</strong> Where people go when they are sick</li>
+            </ol>
+            <p><strong>Drawing Tips:</strong></p>
             <ul>
-                <li>Trees with different shapes and sizes</li>
-                <li>Mountains reaching up to the sky</li>
-                <li>Rivers flowing through the land</li>
-                <li>Birds flying in the air</li>
-                <li>Flowers and grass growing</li>
+                <li>Start with simple shapes (squares, rectangles, triangles)</li>
+                <li>Draw lightly at first, then go over your lines</li>
+                <li>Add details like doors, windows, and roofs</li>
+                <li>Use your imagination to make your drawing special!</li>
             </ul>
-            <p><strong>Think about:</strong> What is your favorite thing in nature? Why do you like it?</p>
-            <p><strong>Key Concept:</strong> We can use simple shapes to create beautiful natural scenes!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Drawing Trees</div>
-                <p>Use rectangles for tree trunks and circles or cloud shapes for leaves. Trees come in many sizes!</p>
+                <div class="example-title"><i class="fas fa-school"></i> Drawing a School</div>
+                <p>Start with a large rectangle for the main building. Add a triangle on top for the roof. Draw squares for windows and a rectangle for the door. Don't forget a flagpole!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mountain"></i> Drawing Mountains</div>
-                <p>Mountains can be drawn as triangles or jagged lines. Some are tall, some are small!</p>
+                <div class="example-title"><i class="fas fa-church"></i> Drawing a Church</div>
+                <p>A church often has a tall steeple (pointy tower) at the front. Draw a large rectangle, add a triangle roof, and draw a tall rectangle with a triangle on top for the steeple.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-water"></i> Drawing Rivers</div>
-                <p>Rivers are wavy lines that flow through the land. They can be blue or even green!</p>
+                <div class="example-title"><i class="fas fa-piggy-bank"></i> Drawing a Saving Box</div>
+                <p>A piggy bank is shaped like a pig! Draw a round body, four short legs, a curled tail, and a small slot on top for putting money in. Or draw a simple box with a coin slot.</p>
             </div>
         `,
-        taskInstructions: "Create your own nature scene using the simple shapes we learned.",
+        taskInstructions: "Choose a community structure and draw it. Add details and color.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Your Nature Scene</strong></p>
+                <p><strong>Part A: Choose Your Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw a nature scene that includes:
+                    <span class="task-number">1</span> Pick ONE of these to draw:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• At least one mountain</div>
-                        <div>• At least one tree</div>
-                        <div>• A river flowing through</div>
+                        <div>• A school</div>
+                        <div>• A church or place of worship</div>
+                        <div>• Someone saving money in a saving box (piggy bank or money box)</div>
                     </div>
-                    <div class="drawing-area" style="height: 180px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Adding Details</strong></p>
+                <p><strong>Part B: Draw Your Picture</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Add these special details to your drawing:
+                    <span class="task-number">2</span> Draw your chosen community structure in the space below:
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4A90E2; background-color: #fafafa;">
+                        <p style="text-align: center; color: #999; padding-top: 100px;">[Draw your picture here]</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Add Details</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Add these details to your drawing:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Birds flying in the sky</div>
-                        <div>• Something growing near the river</div>
-                        <div>• The sun or clouds in the sky</div>
+                        <div>• <input type="checkbox"> Windows and doors</div>
+                        <div>• <input type="checkbox"> A roof</div>
+                        <div>• <input type="checkbox"> People or trees around it</div>
+                        <div>• <input type="checkbox"> A sun or clouds in the sky</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: About My Drawing</strong></p>
+                <p><strong>Part D: Describe Your Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Describe what you have created:
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                        <p>My nature scene shows _________________________________________</p>
-                    </div>
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                        <p>The most beautiful part is _______________________________________</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Shape Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Practice the shapes we use for nature:
-                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px;">
-                        <div>
-                            <div style="height: 40px; width: 20px; border: 2px solid #8B4513; margin-bottom: 5px;"></div>
-                            <div style="text-align: center;">Tree trunk (rectangle)</div>
-                        </div>
-                        <div>
-                            <div style="height: 30px; width: 30px; border: 2px solid #228B22; border-radius: 50%; margin-bottom: 5px;"></div>
-                            <div style="text-align: center;">Tree leaves (circle)</div>
-                        </div>
-                        <div>
-                            <div style="height: 40px; width: 50px; border: 2px solid #654321; clip-path: polygon(50% 0%, 0% 100%, 100% 100%); margin-bottom: 5px;"></div>
-                            <div style="text-align: center;">Mountain (triangle)</div>
-                        </div>
-                    </div>
+                    <span class="task-number">4</span> Write one sentence about your drawing:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look outside your window or go outside. Draw one natural thing you see that wasn't in your classroom drawing.",
+        homework: "Draw another building or place in your neighborhood. Show it to your family and tell them what you drew.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Drawing People and Social Concepts",
-        subtopic: "Drawing a person performing the action of saving",
+        topic: "Color Basics",
+        subtopic: "The Three Primary Colors",
         lessonContent: `
-            <p>Today we will combine drawing with an important social concept: saving!</p>
-            <p><strong>Objective:</strong> You will be able to draw a person performing a specific action, focusing on the theme of "Saving."</p>
-            <p><strong>Introduction:</strong> What does it mean to save money? Why is it important?</p>
+            <p>Today we will learn about colors! Colors make our world beautiful. Let's discover the three special colors called PRIMARY COLORS.</p>
+            <p><strong>Key Question:</strong> What are the three primary colors?</p>
+            <p><strong>Introduction:</strong> Did you know that you can make almost any color using just three special colors? These are called PRIMARY COLORS. They are RED, YELLOW, and BLUE!</p>
+            <p><strong>The Three Primary Colors:</strong></p>
+            <ol>
+                <li><strong>RED ❤️</strong> - The color of apples, fire trucks, and roses</li>
+                <li><strong>YELLOW 💛</strong> - The color of the sun, bananas, and school buses</li>
+                <li><strong>BLUE 💙</strong> - The color of the sky, the ocean, and bluebirds</li>
+            </ol>
+            <p><strong>Why Are They Called Primary Colors?</strong></p>
             <ul>
-                <li>Saving means keeping some money for later</li>
-                <li>We save for important things we want in the future</li>
-                <li>Saving helps us learn patience and planning</li>
-                <li>Even small amounts saved regularly can grow!</li>
+                <li>"Primary" means first or most important</li>
+                <li>You CANNOT make red, yellow, or blue by mixing other colors</li>
+                <li>You CAN use red, yellow, and blue to make ALL other colors!</li>
+                <li>They are the parents of all colors</li>
             </ul>
-            <p><strong>Discussion:</strong> Do you have a saving box or piggy bank at home? What do you want to save for?</p>
-            <p><strong>Key Concept:</strong> We can use drawings to tell stories about good habits like saving!</p>
-            <p><strong>Drawing people:</strong> We can use stick figures or simple shapes to draw people doing actions.</p>
+            <p><strong>Fun Fact:</strong> When you mix two primary colors, you get a SECONDARY color!</p>
+            <ul>
+                <li>Red + Yellow = Orange 🧡</li>
+                <li>Yellow + Blue = Green 💚</li>
+                <li>Blue + Red = Purple 💜</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-person" style="color: #2196F3;"></i> Drawing People</div>
-                <p>Use circles for heads, rectangles for bodies, and lines for arms and legs. Add details like smiles!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Red Things</div>
+                <p>Can you think of red things? Strawberries, watermelons, stop signs, roses, and fire trucks are all RED!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-piggy-bank" style="color: #FF9800;"></i> Drawing Saving Boxes</div>
-                <p>Saving boxes can be rectangles with a slit on top. Some look like pigs, some are simple boxes!</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Yellow Things</div>
+                <p>The sun is yellow! Also lemons, cheese, corn, sunflowers, and rubber ducks are YELLOW!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-holding-usd"></i> The Action of Saving</div>
-                <p>Show a hand putting money into the box. Money can be circles for coins or rectangles for notes!</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Blue Things</div>
+                <p>The sky and ocean are blue. So are blueberries, blue jeans, and the bird called a blue jay!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-palette"></i> Color Magic</div>
+                <p>If you have red paint and yellow paint, you can mix them to make ORANGE paint! That's color magic!</p>
             </div>
         `,
-        taskInstructions: "Create a drawing that shows someone saving money.",
+        taskInstructions: "Identify and color with the three primary colors: Red, Yellow, and Blue.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: The Saving Scene</strong></p>
+                <p><strong>Part A: Circle the Primary Colors</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw a person interacting with a saving box:
+                    <span class="task-number">1</span> Circle the THREE primary colors in this list:
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px; flex-wrap: wrap;">
+                        <div>🔴 RED</div>
+                        <div>🟠 ORANGE</div>
+                        <div>🟡 YELLOW</div>
+                        <div>🟢 GREEN</div>
+                        <div>🔵 BLUE</div>
+                        <div>🟣 PURPLE</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Color the Objects</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Color each object using the correct primary color:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Draw a person (use stick figures or simple shapes)</div>
-                        <div>• Draw a saving box or container next to the person</div>
-                        <div>• Show the person putting a coin or note into the box</div>
+                        <div>🍎 Apple → <span style="display: inline-block; width: 50px; height: 20px; border: 1px solid #000;"></span> (Red)</div>
+                        <div>☀️ Sun → <span style="display: inline-block; width: 50px; height: 20px; border: 1px solid #000;"></span> (Yellow)</div>
+                        <div>🌊 Ocean → <span style="display: inline-block; width: 50px; height: 20px; border: 1px solid #000;"></span> (Blue)</div>
+                        <div>🚒 Fire Truck → <span style="display: inline-block; width: 50px; height: 20px; border: 1px solid #000;"></span> (Red)</div>
+                        <div>🍌 Banana → <span style="display: inline-block; width: 50px; height: 20px; border: 1px solid #000;"></span> (Yellow)</div>
+                        <div>🦋 Butterfly → <span style="display: inline-block; width: 50px; height: 20px; border: 1px solid #000;"></span> (Blue)</div>
                     </div>
-                    <div class="drawing-area" style="height: 180px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Adding Background</strong></p>
+                <p><strong>Part C: Find Primary Colors in Your Classroom</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Add a background to show where this is happening:
+                    <span class="task-number">3</span> Look around your classroom. Write or draw one thing you see for each primary color:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• It could be at home, school, church, or a bank</div>
-                        <div>• Add details like walls, windows, or furniture</div>
-                        <div>• Include at least 2 background objects</div>
+                        <div>🔴 Something RED: <span style="display: inline-block; width: 200px; border-bottom: 1px solid #000;"></span></div>
+                        <div>🟡 Something YELLOW: <span style="display: inline-block; width: 200px; border-bottom: 1px solid #000;"></span></div>
+                        <div>🔵 Something BLUE: <span style="display: inline-block; width: 200px; border-bottom: 1px solid #000;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Story of Saving</strong></p>
+                <p><strong>Part D: Primary Colors Coloring Page</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Tell the story of your drawing:
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">
-                        <p>This person is named _______________________________</p>
-                    </div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">
-                        <p>They are saving money for ___________________________</p>
-                    </div>
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                        <p>Saving is important because _________________________</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Money Shapes</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Practice drawing coins and notes:
-                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px;">
-                        <div>
-                            <div style="height: 30px; width: 30px; border: 2px solid #FFD700; border-radius: 50%; margin-bottom: 5px;"></div>
-                            <div style="text-align: center;">Coin (circle)</div>
-                        </div>
-                        <div>
-                            <div style="height: 25px; width: 50px; border: 2px solid #228B22; margin-bottom: 5px;"></div>
-                            <div style="text-align: center;">Note (rectangle)</div>
-                        </div>
-                        <div>
-                            <div style="height: 40px; width: 30px; border: 2px solid #A52A2A; margin-bottom: 5px;"></div>
-                            <div style="text-align: center;">Saving box</div>
+                    <span class="task-number">4</span> Color the picture below using only RED, YELLOW, and BLUE:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <div style="display: flex; justify-content: space-around; align-items: center; height: 100%;">
+                            <div style="text-align: center;">⬜<br>Color me RED!</div>
+                            <div style="text-align: center;">⬜<br>Color me YELLOW!</div>
+                            <div style="text-align: center;">⬜<br>Color me BLUE!</div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Our Saving Promise</strong></p>
+                <p><strong>Part E: Color Mixing Preview</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Trace or copy our saving promise:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 10px; text-align: center;">
-                        <strong>"I will save a little every day,<br>
-                        For future needs in a careful way.<br>
-                        My saving box will help me see,<br>
-                        How responsible I can be!"</strong>
+                    <span class="task-number">5</span> What new colors can you make? Draw a line to match:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Red + Yellow → <span style="display: inline-block; width: 80px;"></span> <span style="margin-left: 20px;">Green / Orange / Purple</span></div>
+                        <div>Yellow + Blue → <span style="display: inline-block; width: 80px;"></span> <span style="margin-left: 20px;">Green / Orange / Purple</span></div>
+                        <div>Blue + Red → <span style="display: inline-block; width: 80px;"></span> <span style="margin-left: 20px;">Green / Orange / Purple</span></div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Talk to a family member about saving. Draw a picture of something your family saves for together.",
+        homework: "At home, find three objects - one red, one yellow, and one blue. Draw them in your notebook and color them correctly.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade2CreativeTechWeek7);
-    console.log("creative-tech-week7.js registered using registerWorksheet()");
+    window.registerWorksheet(grade2CTSWeek7);
+    console.log("grade2-cts-week7.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade2CreativeTechWeek7);
-    console.log("creative-tech-week7.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade2CTSWeek7);
+    console.log("grade2-cts-week7.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade2CreativeTechWeek7',
-        metadata: grade2CreativeTechWeek7.metadata,
-        days: grade2CreativeTechWeek7
+        variableName: 'grade2CTSWeek7',
+        metadata: grade2CTSWeek7.metadata,
+        days: grade2CTSWeek7
     });
-    console.log("creative-tech-week7.js stored in window.registeredWorksheets");
+    console.log("grade2-cts-week7.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade2CreativeTechWeek7 = grade2CreativeTechWeek7;
-console.log("creative-tech-week7.js loaded and registered successfully");
+window.grade2CTSWeek7 = grade2CTSWeek7;
+console.log("grade2-cts-week7.js loaded and registered successfully");
