@@ -1,191 +1,241 @@
-// Grade 1 Creative and Technology Studies - Week 3 Data
-const grade1CreativeTechWeek3 = {
+// Grade 1 Creative and Technology Studies - Term 1 Week 3 Data
+const grade1CTSTerm1Week3 = {
     metadata: {
         grade: 1,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 3,
-        title: "Staying Safe in Our Environment",
-        description: "Learning and applying safety rules in playgrounds and on roads through observation, practice, and role-play"
+        title: "Safety and Body Posture",
+        description: "Learning road safety rules for pedestrians and correct body postures for sitting and standing"
     },
     
-    tuesday: {
+    thursday: {
         subject: "Creative and Technology Studies",
         topic: "Safety",
-        subtopic: "Safety in the immediate environment",
-        specificCompetence: "Apply safety in the immediate environment",
-        learningActivity: "Practising safety rules on the playground/play space",
+        subtopic: "Safety in the Immediate Environment - Road Safety & Pedestrian Rules",
         lessonContent: `
-            <p>Welcome to Week 3 of Creative and Technology Studies! Today we are going outside to learn how to play safely together.</p>
-            <p><strong>Introduction:</strong> Let's go to the playground or play area. Why do we need rules when we play games? Rules help everyone have fun and stay safe!</p>
-            <p><strong>Observation Time:</strong> Let's look at the play equipment—swings, slides, or open space. We will look for things that might not be safe, like loose stones or broken equipment.</p>
-            <p><strong>Playground Laws:</strong> Today we will make our own "Playground Laws":</p>
+            <p>Welcome to our safety lesson! Today we will learn how to stay safe when walking near roads.</p>
+            <p><strong>Key Question:</strong> How do we cross the road safely?</p>
+            <p><strong>Introduction:</strong> Roads can be dangerous if we are not careful. Learning the rules of road safety helps us stay safe when walking to school, to a friend's house, or anywhere we need to go.</p>
+            <p><strong>Pedestrian Road Safety Rules:</strong></p>
             <ol>
-                <li><strong>No pushing.</strong> - Keep your hands to yourself.</li>
-                <li><strong>Wait your turn.</strong> - Be patient and fair.</li>
-                <li><strong>Stay within the boundary lines.</strong> - Play where it's safe.</li>
+                <li><strong>Stop at the edge:</strong> Always stop at the side of the road before crossing</li>
+                <li><strong>Look left and right:</strong> Look left, then right, then left again for any vehicles</li>
+                <li><strong>Listen carefully:</strong> Listen for the sound of cars, trucks, or other vehicles</li>
+                <li><strong>Walk, don't run:</strong> Cross the road walking at a steady pace</li>
+                <li><strong>Use the crosswalk:</strong> Always cross at zebra crossings or traffic lights when available</li>
+                <li><strong>Hold an adult's hand:</strong> Young children should always cross with a grown-up</li>
             </ol>
-            <p><strong>Practice Time:</strong> We will play a game where everyone must take turns and keep a safe distance from others who are running.</p>
-            <p><strong>Why is this important?</strong> Following rules helps us enjoy playtime without getting hurt and makes sure everyone feels happy and included.</p>
-            <p><strong>Conclusion:</strong> Before we go back inside, let's check the area to make sure no toys or equipment were left out for someone to trip over.</p>
+            <p><strong>Remember the Safe Cross Code:</strong></p>
+            <ul>
+                <li>Think first - find a safe place to cross</li>
+                <li>Stop at the kerb</li>
+                <li>Look all around for traffic</li>
+                <li>Listen for traffic</li>
+                <li>Wait until it's safe</li>
+                <li>Walk straight across the road</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #4CAF50;"></i> Look and Learn</div>
-                <p>Look at the slide. Is the ladder broken? Is the ground underneath soft? We only play on safe equipment!</p>
+                <div class="example-title"><i class="fas fa-child"></i> Crossing with an Adult</div>
+                <p>Maria holds her mother's hand every time they cross the street. This keeps Maria safe because her mother can see cars coming from both directions.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users"></i> Taking Turns</div>
-                <p>When we line up for the swing, we wait until it's our turn. We count together: "One, two, three... next!"</p>
+                <div class="example-title"><i class="fas fa-eye"></i> Look Left, Right, Left</div>
+                <p>Before crossing, James looks left to see cars coming from that side, then right, then left again. This helps him see cars coming from any direction!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ban" style="color: #f44336;"></i> No Pushing Zone</div>
-                <p>Pushing can make someone fall. Instead, we use kind words: "Excuse me" or "May I go next?"</p>
+                <div class="example-title"><i class="fas fa-road"></i> The Zebra Crossing</div>
+                <p>A zebra crossing has black and white stripes like a zebra! Cars must stop when people are waiting to cross at a zebra crossing.</p>
             </div>
         `,
-        taskInstructions: "Show you understand playground safety by completing these activities.",
+        taskInstructions: "Demonstrate road safety rules through role-play and drawing.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Draw a safe playground. Include one swing, one slide, and children playing safely:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">In my playground, everyone follows this rule: ______________________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Circle the safe behaviors. Put an X on the unsafe ones:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Waiting for your turn on the slide</div>
-                    <div>☐ Pushing someone off the swing</div>
-                    <div>☐ Playing inside the boundary lines</div>
-                    <div>☐ Running with a stick in your hand</div>
+            <div class="content-box">
+                <p><strong>Part A: Role-Play Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> With your teacher or classmates, practice the safe way to cross a road:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Stop at the edge (pretend there is a road)</div>
+                        <div>• Look left, right, and left again</div>
+                        <div>• Listen for traffic</div>
+                        <div>• Walk across when it is safe</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Teacher observation notes:</em></p>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> With a partner, act out one "Playground Law." Show the class:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>We showed: ☐ No pushing  ☐ Waiting your turn  ☐ Staying in boundaries</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a picture showing how to cross the road safely:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Color the zebra crossing and add a traffic light if you know what it looks like:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Write or draw one thing you should check before playing on equipment:
-                <div class="drawing-area" style="height: 80px; margin-top: 10px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Song or Rhyme</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Learn and practice this safety rhyme:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f0f8ff; border-radius: 10px;">
+                        <p><em>"Stop, look, and listen,<br>
+                        Before you cross the street.<br>
+                        Use your eyes and use your ears,<br>
+                        Before you use your feet!"</em></p>
+                    </div>
+                </div>
             </div>
         `,
-        homework: "Teach one playground safety rule to someone at home. Draw a picture of you teaching them.",
-        homeworkDue: "Friday",
-        expectedStandard: "Learners play safely by following turn-taking rules and staying within safe boundaries."
+        homework: "Practice crossing a road safely with an adult at home. Ask them to watch you demonstrate the safe steps: stop, look left-right-left, listen, and walk.",
+        homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
         topic: "Safety",
-        subtopic: "Safety in the immediate environment",
-        specificCompetence: "Apply safety in the immediate environment",
-        learningActivity: "Demonstrating safety rules on the road (Correct way of crossing)",
+        subtopic: "Body Posture - Correct Postures for Sitting and Standing",
         lessonContent: `
-            <p>Today we are learning how to stay safe near roads. Roads help us travel, but we must be careful!</p>
-            <p><strong>Introduction:</strong> How did you get to school today? Did you walk near a road? We must always be visible and alert when near traffic.</p>
-            <p><strong>The Golden Rule:</strong> We will learn the "Look Listen Live" sequence:</p>
+            <p>Welcome to our body posture lesson! Today we will learn how to sit and stand correctly to keep our bodies healthy and strong.</p>
+            <p><strong>Key Question:</strong> How should we sit and stand to keep our backs healthy?</p>
+            <p><strong>Introduction:</strong> Good posture means holding your body the right way when you sit, stand, or move. Good posture helps you feel better, breathe better, and prevents back pain.</p>
+            <p><strong>Correct Standing Posture:</strong></p>
             <ol>
-                <li><strong>Stop</strong> at the edge of the road.</li>
-                <li><strong>Look right</strong> for cars.</li>
-                <li><strong>Look left</strong> for cars.</li>
-                <li><strong>Look right again</strong> because cars come fast!</li>
-                <li><strong>Listen</strong> for engines or horns.</li>
-                <li>If it's clear, walk straight across—don't run!</li>
+                <li>Head up - look straight ahead</li>
+                <li>Shoulders back - not slouching forward</li>
+                <li>Back straight - like a wall behind you</li>
+                <li>Knees slightly loose - not locked straight</li>
+                <li>Feet flat on the floor - shoulder width apart</li>
+                <li>Arms hanging naturally at your sides</li>
             </ol>
-            <p><strong>Simulation:</strong> We will use masking tape to make a "road" on the classroom floor. You will practice stopping at the edge and looking both ways before crossing.</p>
-            <p><strong>Discussion:</strong> Why is it important to walk on the pavement/sidewalk? Why should we hold an adult’s hand near roads?</p>
-            <p><strong>Conclusion:</strong> Let's have a quick quiz: What is the first thing you do before stepping onto a road?</p>
-            <p><strong>Why this matters:</strong> Knowing how to cross safely protects us and helps us become responsible pedestrians.</p>
+            <p><strong>Correct Sitting Posture:</strong></p>
+            <ol>
+                <li>Back against the chair - straight and supported</li>
+                <li>Feet flat on the floor - not dangling or tucked under</li>
+                <li>Knees bent at a right angle (like the letter L)</li>
+                <li>Shoulders relaxed and back - not hunched forward</li>
+                <li>Head up - looking forward, not down at the floor</li>
+                <li>Arms resting comfortably on the desk (when writing)</li>
+            </ol>
+            <p><strong>Why Good Posture Matters:</strong></p>
+            <ul>
+                <li>It helps your bones grow straight and strong</li>
+                <li>It prevents back and neck pain</li>
+                <li>It helps you breathe better</li>
+                <li>It helps you concentrate in class</li>
+                <li>It makes you look confident!</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-traffic-light" style="color: #FF9800;"></i> Stop Example</div>
-                <p>When you reach the curb, plant your feet like a tree. Don't step off until you've looked and listened!</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Sitting Like a King or Queen</div>
+                <p>Imagine you are wearing a crown while sitting. If you slouch, the crown will fall off! Sitting up straight keeps your crown (and your back) happy.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-car" style="color: #2196F3;"></i> Look Both Ways</div>
-                <p>Turn your head all the way to the right, then left, then right again. Pretend you are an owl looking around!</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Stand Like a Tree</div>
+                <p>A tree stands tall and straight with its roots on the ground. Stand with your feet flat (roots) and your body tall (trunk). That's good standing posture!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-holding-hand"></i> Hold Hands</div>
-                <p>Always hold an adult's hand when crossing. They help you see taller cars and keep you safe.</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> The Wall Test</div>
+                <p>Stand with your back against a wall. Can you feel the wall touching your head, shoulders, and bottom? That means you have good standing posture!</p>
             </div>
         `,
-        taskInstructions: "Show you know how to cross a road safely by completing these tasks.",
+        taskInstructions: "Demonstrate correct sitting and standing postures.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Look, Listen, Live Sequence</strong></p>
+                <p><strong>Part A: Standing Posture Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Number the steps in the correct order (1–6):
+                    <span class="task-number">1</span> Stand up and show correct standing posture:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Listen for cars</div>
-                        <div>____ Look left</div>
-                        <div>____ Stop at the edge</div>
-                        <div>____ Look right again</div>
-                        <div>____ Walk across</div>
-                        <div>____ Look right first</div>
+                        <div>• Feet flat on the floor</div>
+                        <div>• Back straight</div>
+                        <div>• Shoulders back</div>
+                        <div>• Head up looking forward</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Teacher observation notes:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Road Safety Drawing</strong></p>
+                <p><strong>Part B: Sitting Posture Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw yourself crossing a road safely. Include a pavement, a road, and you holding an adult's hand:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I am safe because I ______________________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Classroom Road Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> With a partner, use the tape road. One person is the pedestrian, the other watches. Check each safe step:
+                    <span class="task-number">2</span> Sit on your chair and show correct sitting posture:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Stopped at the edge</div>
-                        <div>☐ Looked right, left, right</div>
-                        <div>☐ Listened for cars</div>
-                        <div>☐ Walked (not ran) across</div>
+                        <div>• Back against the chair</div>
+                        <div>• Feet flat on the floor</div>
+                        <div>• Shoulders back and relaxed</div>
+                        <div>• Head up looking at the board</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Teacher observation notes:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Safety Pledge</strong></p>
+                <p><strong>Part C: Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Write or draw your safety promise:
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px; background-color: #F3E5F5; padding: 10px; border-radius: 5px;">
-                        "I promise to always ________________ before crossing the road."
+                    <span class="task-number">3</span> Draw a person sitting correctly at a desk:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a person standing with good posture:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Check Your Posture</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Look at the pictures below. Circle the correct posture:
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px;">
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 80px; width: 80px; border: 1px solid #ccc; display: inline-block;"></div>
+                            <div>Image A</div>
+                            <div>⬤ Good / ○ Bad</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 80px; width: 80px; border: 1px solid #ccc; display: inline-block;"></div>
+                            <div>Image B</div>
+                            <div>○ Good / ⬤ Bad</div>
+                        </div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Practice the 'Look, Listen, Live' steps at home with a family member. Write down one thing you did well.",
-        homeworkDue: "Monday",
-        expectedStandard: "Learners accurately demonstrate the 'Stop, Look, and Listen' technique for crossing a road safely."
+        homework: "Practice good sitting posture when eating dinner with your family. Practice good standing posture when waiting in line. Ask a family member to remind you to sit and stand tall!",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1CreativeTechWeek3);
-    console.log("creative-tech-week3.js registered using registerWorksheet()");
+    window.registerWorksheet(grade1CTSTerm1Week3);
+    console.log("grade1-cts-term1-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1CreativeTechWeek3);
-    console.log("creative-tech-week3.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade1CTSTerm1Week3);
+    console.log("grade1-cts-term1-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1CreativeTechWeek3',
-        metadata: grade1CreativeTechWeek3.metadata,
-        days: grade1CreativeTechWeek3
+        variableName: 'grade1CTSTerm1Week3',
+        metadata: grade1CTSTerm1Week3.metadata,
+        days: grade1CTSTerm1Week3
     });
-    console.log("creative-tech-week3.js stored in window.registeredWorksheets");
+    console.log("grade1-cts-term1-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1CreativeTechWeek3 = grade1CreativeTechWeek3;
-console.log("creative-tech-week3.js loaded and registered successfully");
+window.grade1CTSTerm1Week3 = grade1CTSTerm1Week3;
+console.log("grade1-cts-term1-week3.js loaded and registered successfully");

@@ -1,197 +1,175 @@
-// Grade 1 Creative and Technology Studies - Week 5 Data
+// Grade 1 Creative and Technology Studies - Term 1 Week 5 Data
 const grade1CreativeTechWeek5 = {
     metadata: {
         grade: 1,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 5,
-        title: "Introduction to Sketching",
-        description: "Learning to sketch simple objects through shapes and observation"
+        title: "Free Drawing",
+        description: "Drawing and colouring common household and school objects"
     },
     
-    tuesday: {
+    thursday: {
         subject: "Creative and Technology Studies",
         topic: "Drawing and Colouring",
-        subtopic: "Free Hand Sketching",
+        subtopic: "Free Drawing - Household Objects",
         lessonContent: `
-            <p>Welcome to Week 5! Today we are going to learn about <strong>sketching</strong>. Sketching is drawing lightly and quickly with a pencil.</p>
-            <p><strong>What is sketching?</strong> It's a way to draw ideas quickly without worrying about being perfect. We use light pencil strokes that we can erase easily.</p>
-            <p><strong>Today's Object:</strong> We will sketch a <strong>kite</strong> using simple shapes!</p>
-            <p><strong>Step-by-Step:</strong></p>
+            <p>Welcome to our drawing lesson! Today we will practice drawing objects we see every day in our homes.</p>
+            <p><strong>Key Question:</strong> What objects can you find in your home that you can draw?</p>
+            <p><strong>Introduction:</strong> Drawing helps us observe and remember the things around us. Today we will draw common household objects like chairs, pots, and cups.</p>
+            <p><strong>Steps for Drawing Household Objects:</strong></p>
             <ol>
-                <li>Start with a diamond shape in the middle of your paper</li>
-                <li>Add a small triangle at the bottom of the diamond for the tail</li>
-                <li>Draw a curved line coming from the kite for the string</li>
-                <li>Add some bows or shapes on the tail if you like</li>
+                <li>Look carefully at the object</li>
+                <li>Think about its shape (round, square, long, short)</li>
+                <li>Draw the outline first</li>
+                <li>Add details</li>
+                <li>Colour your drawing</li>
             </ol>
-            <p><strong>Creative Practice:</strong> After we sketch the kite together, you will sketch a simple hat of your choice. It could be a sun hat, a wooly hat, or any hat you like!</p>
-            <p><strong>Remember:</strong> Use light pencil strokes. You can always go over them darker later if you want.</p>
-            <p><strong>Why is sketching important?</strong> It helps us practice drawing and gets our ideas onto paper quickly!</p>
+            <p><strong>Let's Think:</strong> What shape is a cup? What shape is a pot? What shape is a chair?</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shapes" style="color: #4CAF50;"></i> Shape Example</div>
-                <p>A kite is made from a <strong>diamond shape</strong>. Look at how simple it is!</p>
+                <div class="example-title"><i class="fas fa-mug-hot"></i> Drawing a Cup</div>
+                <p>A cup has a round opening at the top, a curved body, and a small handle on the side. Start with a circle at the top, then draw the body down, and add a small curve for the handle.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt"></i> Light Strokes</div>
-                <p>When sketching, hold your pencil lightly and make soft lines. Don't press too hard!</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Drawing a Chair</div>
+                <p>A chair has a seat, four legs, and a back. Draw the seat as a square or rectangle, add lines for legs going down, and draw the back going up.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hat-cowboy"></i> Hat Ideas</div>
-                <p>Think about different hats: sun hats are wide, wooly hats are tall, baseball caps have brims!</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Drawing a Pot</div>
+                <p>A pot has a round body, a flat bottom, and sometimes a lid. Draw a big circle or oval for the body, a flat line at the bottom, and a curved line for the top.</p>
             </div>
         `,
-        taskInstructions: "Sketch a kite and a hat using light pencil strokes.",
+        taskInstructions: "Draw and colour common household objects recognisably.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sketch the Kite</strong></p>
+                <p><strong>Part A: Draw a Cup</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Follow your teacher's steps to sketch a kite in the box below:
-                    <div class="drawing-area" style="height: 180px; border: 2px dashed #ccc; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My kite has: ☐ Diamond shape ☐ String ☐ Tail</div>
+                    <span class="task-number">1</span> Draw a cup. Remember to add the handle!
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Choose and Sketch a Hat</strong></p>
+                <p><strong>Part B: Draw a Pot</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Circle the type of hat you will sketch:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Sun hat</div>
-                        <div>☐ Wooly hat</div>
-                        <div>☐ Baseball cap</div>
-                        <div>☐ Other: ________________</div>
-                    </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Sketch your hat in the box below using light pencil strokes:
-                    <div class="drawing-area" style="height: 180px; border: 2px dashed #ccc; margin-top: 10px;"></div>
+                    <span class="task-number">2</span> Draw a pot. You can add a lid if you like!
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Colour Your Favourite</strong></p>
+                <p><strong>Part C: Draw a Chair</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Choose either your kite or hat to colour lightly:
-                    <div class="drawing-area" style="height: 150px; border: 2px dashed #ccc; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I coloured my: ________________ because I like it!</div>
+                    <span class="task-number">3</span> Draw a chair. Make sure it has a seat, legs, and a back.
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Self-Check</strong></p>
+                <p><strong>Part D: Draw One More Household Object</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Check the boxes that are true for your sketches:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ I used light pencil strokes</div>
-                        <div>☐ My kite has a diamond shape</div>
-                        <div>☐ My hat looks like the type I chose</div>
-                        <div>☐ I can see the basic shapes in my drawings</div>
-                    </div>
+                    <span class="task-number">4</span> Choose another object from your home (like a table, spoon, or bed). Draw and colour it.
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Colour Your Drawings</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Use crayons or coloured pencils to add colour to all your drawings.
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find one object at home that is made of simple shapes (like a book, plate, or box). Lightly sketch it in your homework book.",
+        homework: "Find three household objects at home. Draw each one in your notebook and show your family.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
         topic: "Drawing and Colouring",
-        subtopic: "Free Hand Sketching",
+        subtopic: "Free Drawing - School Objects",
         lessonContent: `
-            <p>Today we will sketch <strong>things that move</strong>! We'll look at a car and a house, which are made from simple shapes we already know.</p>
-            <p><strong>Discussion:</strong> Let's look at the shapes that make up a car:</p>
-            <ul>
-                <li>Rectangle for the body</li>
-                <li>Circles for the wheels</li>
-                <li>Squares or rectangles for windows</li>
-            </ul>
-            <p><strong>What about a house?</strong></p>
-            <ul>
-                <li>Square or rectangle for the main part</li>
-                <li>Triangle for the roof</li>
-                <li>Rectangles for doors and windows</li>
-            </ul>
-            <p><strong>Demonstration:</strong> Watch as I sketch a simple car and a simple house on the board. Notice how I break them down into basic shapes!</p>
-            <p><strong>Individual Task:</strong> You will choose <strong>one</strong> object to sketch in your book: either a car OR a house. Focus on getting the basic shapes right first.</p>
-            <p><strong>Remember:</strong> Start with light lines. You can add details after you have the main shapes.</p>
-            <p><strong>Why sketch things that move or things we see every day?</strong> It helps us understand how objects are put together, and it's fun to draw things from our world!</p>
+            <p>Welcome back to our drawing lesson! Today we will draw objects we see every day at school.</p>
+            <p><strong>Key Question:</strong> What objects can you find at school that you can draw?</p>
+            <p><strong>Introduction:</strong> Your school has many interesting objects to draw. Today we will practice drawing school objects like desks, books, and money boxes.</p>
+            <p><strong>Steps for Drawing School Objects:</strong></p>
+            <ol>
+                <li>Think about the object you want to draw</li>
+                <li>Look at its shape (rectangle, square, circle)</li>
+                <li>Draw the biggest part first</li>
+                <li>Add smaller details</li>
+                <li>Use bright colours</li>
+            </ol>
+            <p><strong>Let's Think:</strong> What shape is a desk? What shape is a book? What shape is a money box?</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-car" style="color: #2196F3;"></i> Car Shapes</div>
-                <p>A simple car = rectangle + circles. Try it! Draw the rectangle first, then add wheels.</p>
+                <div class="example-title"><i class="fas fa-book"></i> Drawing a Book</div>
+                <p>A book looks like a rectangle. Draw a rectangle, then add a line down the middle for the pages, and add a cover. You can draw a stack of books too!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #FF9800;"></i> House Shapes</div>
-                <p>A simple house = square + triangle. The square is the house, the triangle is the roof.</p>
+                <div class="example-title"><i class="fas fa-chalkboard"></i> Drawing a Desk</div>
+                <p>A desk has a flat top and four legs. Draw a long rectangle for the top, then draw four lines going down for legs. Some desks also have a drawer!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Pro Tip</div>
-                <p>If your lines aren't straight, that's okay! Sketching is about practice, not perfection.</p>
+                <div class="example-title"><i class="fas fa-piggy-bank"></i> Drawing a Money Box</div>
+                <p>A money box (piggy bank) is often round like a pig. Draw a circle for the body, add ears, eyes, a nose, and a small slot on top for coins.</p>
             </div>
         `,
-        taskInstructions: "Sketch either a car or a house by breaking it into simple shapes.",
+        taskInstructions: "Draw and colour common school objects accurately.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Choose Your Object</strong></p>
+                <p><strong>Part A: Draw a Book</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> I will sketch: 
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ A car</div>
-                        <div>☐ A house</div>
-                    </div>
+                    <span class="task-number">1</span> Draw a book. You can draw it open or closed!
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Identify the Shapes</strong></p>
+                <p><strong>Part B: Draw a Desk</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List the shapes you will use for your object:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Shape 1: ________________ (e.g., circle, square, rectangle, triangle)</div>
-                        <div>Shape 2: ________________</div>
-                        <div>Shape 3: ________________</div>
-                    </div>
+                    <span class="task-number">2</span> Draw a desk. Remember to add the legs!
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sketch It Lightly</strong></p>
+                <p><strong>Part C: Draw a Money Box (Piggy Bank)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Sketch your car or house lightly in the box below:
-                    <div class="drawing-area" style="height: 200px; border: 2px dashed #ccc; margin-top: 10px;"></div>
+                    <span class="task-number">3</span> Draw a money box. Don't forget the coin slot!
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Add Details</strong></p>
+                <p><strong>Part D: Draw One More School Object</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Add one detail to your sketch (like a door, window, or wheel):
-                    <div class="drawing-area" style="height: 120px; border: 2px dashed #ccc; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">The detail I added is: ________________</div>
+                    <span class="task-number">4</span> Choose another object from your school (like a ruler, pencil, school bag, or blackboard). Draw and colour it.
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Share and Compare</strong></p>
+                <p><strong>Part E: Colour Your Drawings</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Look at a friend's sketch. What shapes do you see in their drawing?
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">My friend drew a ___________. I see these shapes: ________________</div>
+                    <span class="task-number">5</span> Use bright colours to make your school objects look wonderful!
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part F: Sketching Star</strong></p>
+                <p><strong>Part F: Show and Tell</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> Draw a star next to your best shape. Write what you liked about sketching today:
-                    <div class="drawing-area" style="height: 100px; border: 2px dashed #ccc; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I liked sketching because ________________________</div>
+                    <span class="task-number">6</span> Show your drawings to a friend. Can they guess what each object is?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look for something outside that moves (like a bicycle, bird, or ball). Lightly sketch it and write one shape you see in it.",
+        homework: "Draw a picture of your classroom showing three things you learned about this week. Colour your picture.",
         homeworkDue: "Monday"
     }
 };
@@ -199,10 +177,10 @@ const grade1CreativeTechWeek5 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1CreativeTechWeek5);
-    console.log("creative-tech-week5.js registered using registerWorksheet()");
+    console.log("grade1-creative-tech-week5.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1CreativeTechWeek5);
-    console.log("creative-tech-week5.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-creative-tech-week5.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -213,9 +191,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1CreativeTechWeek5.metadata,
         days: grade1CreativeTechWeek5
     });
-    console.log("creative-tech-week5.js stored in window.registeredWorksheets");
+    console.log("grade1-creative-tech-week5.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1CreativeTechWeek5 = grade1CreativeTechWeek5;
-console.log("creative-tech-week5.js loaded and registered successfully");
+console.log("grade1-creative-tech-week5.js loaded and registered successfully");

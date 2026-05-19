@@ -1,225 +1,242 @@
-// Grade 1 Creative and Technology Studies - Week 8 Data
-const grade1CreativeTechWeek8 = {
+// Grade 1 Creative and Technology Studies - Term 1 Week 8
+const grade1CTWeek8 = {
     metadata: {
         grade: 1,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 8,
-        title: "Drawing Activities and Themes",
-        description: "Learning to draw and paint pictures showing activities and national symbols"
+        title: "Hand Tools",
+        description: "Identifying, matching, and safely using basic hand tools to make simple products"
     },
     
-    tuesday: {
+    thursday: {
         subject: "Creative and Technology Studies",
-        topic: "Drawing and Colouring",
-        subtopic: "People in Action",
-        specificCompetence: "Draw pictures showing activities",
-        learningActivity: "Drawing pictures showing various activities (cooking, eating)",
+        topic: "Tools and Equipment",
+        subtopic: "Identifying Hand Tools",
         lessonContent: `
-            <p>Welcome to Week 8 of Creative and Technology Studies! Today we will learn how to draw people doing different activities.</p>
-            <p><strong>Discussion:</strong> Let's talk about things we do every day. What are some activities you do at home or at school?</p>
-            <p><strong>Activity Time:</strong> Let's act out some activities together!</p>
+            <p>Welcome to our lesson on hand tools! Today we'll learn about the different tools people use to make things.</p>
+            <p><strong>Key Question:</strong> What tools do we use to make things like toys, furniture, and crafts?</p>
+            <p><strong>Introduction:</strong> Hand tools are tools that we hold and use with our hands. People have been using hand tools for thousands of years to build and create things!</p>
+            <p><strong>Common Hand Tools:</strong></p>
+            <ol>
+                <li><strong>Knife:</strong> A tool with a sharp blade used for cutting</li>
+                <li><strong>Adze:</strong> A tool like an axe but with a curved blade used for shaping wood</li>
+                <li><strong>Saw:</strong> A tool with sharp teeth used for cutting wood</li>
+                <li><strong>Hammer:</strong> A tool used for driving nails into wood</li>
+                <li><strong>Screwdriver:</strong> A tool used for turning screws</li>
+                <li><strong>Pliers:</strong> A tool used for gripping and bending wires</li>
+            </ol>
+            <p><strong>Safety First!</strong></p>
             <ul>
-                <li>Pretend you are <strong>cooking</strong> - stir an imaginary pot</li>
-                <li>Pretend you are <strong>eating</strong> - use imaginary spoon and plate</li>
+                <li>Always ask an adult for help when using sharp tools</li>
+                <li>Keep your fingers away from sharp edges</li>
+                <li>Wear safety goggles when needed</li>
+                <li>Clean up tools after using them</li>
             </ul>
-            <p><strong>Why is this important?</strong> Drawing helps us show our ideas and tell stories without words!</p>
-            <p><strong>Today's Drawing Task:</strong> You will draw a picture of a person doing one of these activities.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user" style="color: #4CAF50;"></i> Person Drawing Example</div>
-                <p>When drawing a person, start with a circle for the head, then add a body, arms, and legs. Don't forget to show what they are doing!</p>
+                <div class="example-title"><i class="fas fa-cut"></i> Knife Uses</div>
+                <p>A knife can cut paper, rope, fruit, and wood. In a workshop, carpenters use special knives called carving knives to shape wood.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils"></i> Activity Details</div>
-                <p>If drawing someone eating: add a plate, spoon, and maybe food. If drawing someone cooking: add a pot, spoon, and stove.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Adze Uses</div>
+                <p>An adze looks like a garden hoe but is used for carving and smoothing wood. Traditional boat makers use adzes to hollow out logs!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette"></i> Colouring Tip</div>
-                <p>Use different colours for clothes, objects, and background to make your picture interesting!</p>
+                <div class="example-title"><i class="fas fa-gripfire"></i> Saw Safety</div>
+                <p>A saw has many sharp teeth. Always cut away from your body and keep your other hand far from the blade.</p>
             </div>
         `,
-        taskInstructions: "Draw a picture of a person doing an activity. Add details to show the environment.",
+        taskInstructions: "Identify hand tools and match them to their uses through drawing and matching activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Choose Your Activity</strong></p>
+                <p><strong>Part A: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the activity you will draw:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Cooking</div>
-                        <div>☐ Eating</div>
+                    <span class="task-number">1</span> Draw a knife, a saw, and a hammer in the boxes below:
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <div style="flex: 1; border: 2px dashed #ccc; height: 100px; text-align: center; line-height: 100px; color: #999;">Knife</div>
+                        <div style="flex: 1; border: 2px dashed #ccc; height: 100px; text-align: center; line-height: 100px; color: #999;">Saw</div>
+                        <div style="flex: 1; border: 2px dashed #ccc; height: 100px; text-align: center; line-height: 100px; color: #999;">Hammer</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Draw Your Picture</strong></p>
+                <p><strong>Part B: Matching Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a person doing your chosen activity:
-                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <span class="task-number">2</span> Draw a line to match each tool to what it does:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>• Knife</div>
+                                <div>• Saw</div>
+                                <div>• Adze</div>
+                                <div>• Hammer</div>
+                            </div>
+                            <div>
+                                <div>→ Shapes and smooths wood</div>
+                                <div>→ Cuts wood into pieces</div>
+                                <div>→ Drives nails</div>
+                                <div>→ Cuts things</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Add Details</strong></p>
+                <p><strong>Part C: Safety Rules</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Add these details to your drawing:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Something the person is using (spoon, pot, plate)</div>
-                        <div>☐ Where they are (kitchen, dining table)</div>
-                        <div>☐ Something else in the environment</div>
+                    <span class="task-number">3</span> Write or draw two safety rules when using hand tools:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Tool Identification</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Circle the tool you would use to cut a piece of wood:
+                    <div style="margin-top: 10px;">
+                        <span style="display: inline-block; margin-right: 20px;">Hammer</span>
+                        <span style="display: inline-block; margin-right: 20px;">Saw ✓</span>
+                        <span style="display: inline-block;">Screwdriver</span>
                     </div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Colour Your Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Use colours to make your picture bright and clear:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Colour the person's clothes: ________________</div>
-                        <div>Colour the main object: ________________</div>
+                <div class="task-item" style="margin-top: 15px;">
+                    <span class="task-number">5</span> Circle the tool you would use to drive a nail into wood:
+                    <div style="margin-top: 10px;">
+                        <span style="display: inline-block; margin-right: 20px;">Hammer ✓</span>
+                        <span style="display: inline-block; margin-right: 20px;">Knife</span>
+                        <span style="display: inline-block;">Adze</span>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Describe Your Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Write about what is happening in your picture:
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">This person is ________________________________________________</div>
                 </div>
             </div>
         `,
-        homework: "Show your drawing to someone at home. Ask them to guess what activity the person is doing. Write down their guess.",
-        homeworkDue: "Friday",
-        expectedStandard: "Pictures showing activities drawn appropriately."
+        homework: "Look around your home. Draw one hand tool you find and tell what it is used for.",
+        homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
-        topic: "Drawing and Colouring",
-        subtopic: "Painting Our National Symbols",
-        specificCompetence: "Paint pictures based on given themes",
-        learningActivity: "Painting different pictures based on themes like the Zambian flag",
+        topic: "Tools and Equipment",
+        subtopic: "Making Simple Products Using Hand Tools",
         lessonContent: `
-            <p>Happy Friday! Today we will learn about and paint one of Zambia's important symbols.</p>
-            <p><strong>Theme Introduction:</strong> Let's look at the Zambian flag. What do you notice about it?</p>
-            <p><strong>Flag Colors and Meaning:</strong></p>
+            <p>Today we'll use what we learned about hand tools to make our own simple toy or product!</p>
+            <p><strong>Key Question:</strong> How can we safely use hand tools to make something useful or fun?</p>
+            <p><strong>Review of Safe Tool Use:</strong></p>
             <ul>
-                <li><strong style="color: green;">Green</strong> - represents the natural resources and agriculture</li>
-                <li><strong style="color: red;">Red</strong> - represents the struggle for freedom</li>
-                <li><strong style="color: black;">Black</strong> - represents the people of Zambia</li>
-                <li><strong style="color: orange;">Orange</strong> - represents the country's mineral wealth</li>
+                <li>Always have an adult watching and helping</li>
+                <li>Use the right tool for the right job</li>
+                <li>Keep work area clean and organized</li>
+                <li>Pay attention to what you are doing</li>
             </ul>
-            <p><strong>Painting Activity:</strong> We will carefully paint the Zambian flag today.</p>
-            <p><strong>Cleanup Time:</strong> After painting, we will practice good body posture while cleaning up, just like we learned in Week 1!</p>
-            <p><strong>Why this matters:</strong> National symbols help us feel proud of our country and belong to our community.</p>
+            <p><strong>Simple Product Ideas:</strong></p>
+            <ol>
+                <li><strong>Wooden Toy Car:</strong> Use a saw (with help) to cut a small block of wood, then sand it smooth</li>
+                <li><strong>Birdhouse:</strong> Cut and assemble wooden pieces to create a small house for birds</li>
+                <li><strong>Pencil Holder:</strong> Use a saw to cut a small log section, then hollow it out</li>
+                <li><strong>Simple Boat:</strong> Carve a small boat shape from a piece of soft wood</li>
+            </ol>
+            <p><strong>Steps to Make a Simple Toy Car:</strong></p>
+            <ol>
+                <li>Get a small block of soft wood (about 10cm long)</li>
+                <li>With adult help, use a saw to cut the block to desired length</li>
+                <li>Use sandpaper to smooth all edges and surfaces</li>
+                <li>Draw or paint wheels on the sides</li>
+                <li>Add any decorations you like!</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-flag" style="color: #2196F3;"></i> Flag Example</div>
-                <p>The Zambian flag has a green background with an orange eagle and vertical stripes of red, black, and orange on the right side.</p>
+                <div class="example-title"><i class="fas fa-car"></i> My First Toy Car</div>
+                <p>Using a small piece of scrap wood, you can create a simple car. Ask an adult to help cut the shape, then sand it until it's smooth and safe to hold.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paint-brush"></i> Painting Tip</div>
-                <p>Use gentle brush strokes. Start with the big green area first, then add the stripes and eagle.</p>
+                <div class="example-title"><i class="fas fa-home"></i> Birdhouse Project</div>
+                <p>A birdhouse uses basic shapes - a square box with a hole in front. With adult supervision, you can measure, cut, and assemble the pieces safely.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-check"></i> Body Posture Review</div>
-                <p>Remember Week 1: Kneel properly when cleaning up, lift materials carefully with both hands, keep your back straight!</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Tool Grip</div>
+                <p>When using a saw, hold the handle firmly with one hand. Keep your other hand on the wood far away from the blade. Let the saw do the work!</p>
             </div>
         `,
-        taskInstructions: "Paint the Zambian flag carefully, paying attention to colors and shapes.",
+        taskInstructions: "Safely use hand tools to create a simple toy or product with adult supervision.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Colour Identification</strong></p>
+                <p><strong>Part A: Plan Your Product</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Colour the circles with the correct Zambian flag colours:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>● <span style="margin-left: 10px;">Colour this circle GREEN</span></div>
-                        <div>● <span style="margin-left: 10px;">Colour this circle RED</span></div>
-                        <div>● <span style="margin-left: 10px;">Colour this circle BLACK</span></div>
-                        <div>● <span style="margin-left: 10px;">Colour this circle ORANGE</span></div>
-                    </div>
+                    <span class="task-number">1</span> What simple product or toy will you make today?
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a picture of what your finished product will look like:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Flag Outline</strong></p>
+                <p><strong>Part B: Tools and Materials</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Below is an outline of the Zambian flag. Paint it carefully:
-                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc; background-image: url('flag-outline.png'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ I painted the green background</div>
-                        <div>☐ I painted the red stripe</div>
-                        <div>☐ I painted the black stripe</div>
-                        <div>☐ I painted the orange stripe and eagle</div>
-                    </div>
+                    <span class="task-number">3</span> List the tools and materials you will need:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Colour Matching</strong></p>
+                <p><strong>Part C: Making Process</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a line from each colour to what it represents:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Green <span style="margin-left: 40px;">☐ The people of Zambia</span></div>
-                        <div>Red <span style="margin-left: 40px;">☐ Natural resources</span></div>
-                        <div>Black <span style="margin-left: 40px;">☐ Mineral wealth</span></div>
-                        <div>Orange <span style="margin-left: 40px;">☐ Struggle for freedom</span></div>
-                    </div>
+                    <span class="task-number">4</span> With adult supervision, make your product. Then write or draw the steps you followed:
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Cleanup with Good Posture</strong></p>
+                <p><strong>Part D: Safety Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Practice the cleanup steps with good body posture:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Kneel properly by your workspace</div>
-                        <div>☐ Lift paint containers with both hands</div>
-                        <div>☐ Walk carefully to washing area</div>
-                        <div>☐ Wash brushes gently</div>
-                    </div>
+                    <span class="task-number">5</span> Name one safety rule you followed while making your product:
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: What I Learned</strong></p>
+                <p><strong>Part E: Show Your Work</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a small Zambian flag in the box and write one thing you learned:
-                    <div class="drawing-area" style="height: 100px; width: 150px; margin-top: 10px; border: 1px solid #ccc; display: inline-block; vertical-align: top;"></div>
-                    <div class="answer-space" style="height: 40px; width: 200px; margin-top: 10px; display: inline-block; margin-left: 20px;">I learned that ______________________________</div>
+                    <span class="task-number">6</span> Draw your finished product in the box below:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+                <div class="task-item" style="margin-top: 15px;">
+                    <span class="task-number">7</span> What do you like most about what you made?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Show your painted flag to a family member. Tell them what one colour represents. Write down which colour you explained.",
-        homeworkDue: "Monday",
-        expectedStandard: "Pictures based on given themes painted creatively."
+        homework: "Show your handmade product to someone at home. Teach them one safety rule about using a saw or knife. Ask them to sign your worksheet.",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1CreativeTechWeek8);
-    console.log("creative-tech-week8.js registered using registerWorksheet()");
+    window.registerWorksheet(grade1CTWeek8);
+    console.log("grade1-ct-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1CreativeTechWeek8);
-    console.log("creative-tech-week8.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade1CTWeek8);
+    console.log("grade1-ct-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1CreativeTechWeek8',
-        metadata: grade1CreativeTechWeek8.metadata,
-        days: grade1CreativeTechWeek8
+        variableName: 'grade1CTWeek8',
+        metadata: grade1CTWeek8.metadata,
+        days: grade1CTWeek8
     });
-    console.log("creative-tech-week8.js stored in window.registeredWorksheets");
+    console.log("grade1-ct-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1CreativeTechWeek8 = grade1CreativeTechWeek8;
-console.log("creative-tech-week8.js loaded and registered successfully");
+window.grade1CTWeek8 = grade1CTWeek8;
+console.log("grade1-ct-week8.js loaded and registered successfully");

@@ -1,166 +1,217 @@
-// Grade 1 Creative and Technology Studies - Week 2 Data
+// Grade 1 Creative and Technology Studies - Term 1 Week 2 Data
 const grade1CreativeTechWeek2 = {
     metadata: {
         grade: 1,
         subject: "Creative and Technology Studies",
+        term: 1,
         week: 2,
-        title: "Safety in the Immediate Environment",
-        description: "Learning and applying safety practices in the classroom and specialised rooms"
+        title: "Safety in Our Environment",
+        description: "Learning about safety practices in the classroom, equipment storage, specialised rooms, and playgrounds"
     },
     
-    tuesday: {
+    thursday: {
         subject: "Creative and Technology Studies",
         topic: "Safety",
-        subtopic: "Safety in the immediate environment",
+        subtopic: "Safety in the Classroom & Equipment Storage",
         lessonContent: `
-            <p>Welcome to Week 2 of Creative and Technology Studies! Today we will learn how to keep ourselves and our classmates safe in the classroom.</p>
-            <p><strong>Introduction:</strong> Let's look around our classroom. What things could be dangerous if we are not careful? Think about sharp corners, scissors, or water on the floor.</p>
-            <p><strong>Key Idea:</strong> A clean room is a safe room! We need to make sure our classroom is tidy and organized to prevent accidents.</p>
-            <p><strong>Important Safety Rules:</strong></p>
+            <p>Welcome to our safety lesson! Today we'll learn how to stay safe in our classroom and how to take care of our equipment.</p>
+            <p><strong>Key Question:</strong> How can we keep ourselves and our classroom safe?</p>
+            <p><strong>Introduction:</strong> Our classroom is a special place where we learn and play. We all need to work together to keep it clean and safe!</p>
+            <p><strong>Classroom Safety Rules:</strong></p>
             <ol>
-                <li><strong>Keep walkways clear</strong> - Don't leave bags or books where people walk.</li>
-                <li><strong>Store materials safely</strong> - Put scissors and pencils away properly.</li>
-                <li><strong>Clean up spills</strong> - Tell a teacher if you see water or other liquids on the floor.</li>
-                <li><strong>Carry materials carefully</strong> - Always hold scissors with points down.</li>
+                <li>Walk slowly in the classroom (no running!)</li>
+                <li>Keep your hands to yourself</li>
+                <li>Sit properly on your chair</li>
+                <li>Listen to your teacher's instructions</li>
+                <li>Tell your teacher if something is broken or dangerous</li>
             </ol>
-            <p><strong>Why is this important?</strong> When our classroom is clean and organized, we can learn better and avoid getting hurt!</p>
+            <p><strong>Cleaning Up Our Classroom:</strong></p>
+            <ul>
+                <li>Put toys and materials back where they belong</li>
+                <li>Throw trash in the bin</li>
+                <li>Wipe your table after eating or drawing</li>
+                <li>Push your chair under the desk when you stand up</li>
+            </ul>
+            <p><strong>Storing Equipment Safely:</strong></p>
+            <ul>
+                <li>Scissors go back to the cupboard with blades closed</li>
+                <li>Glue and paint bottles must be closed tightly</li>
+                <li>Pencils and crayons go in their boxes</li>
+                <li>Sharp objects are kept away from little hands</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #2196F3;"></i> Look and Find</div>
-                <p>Look around our classroom. Can you spot three things that should be put away to make our room safer?</p>
+                <div class="example-title"><i class="fas fa-broom"></i> Clean Up Time!</div>
+                <p>When the teacher says "clean up time," everyone helps! One person collects crayons, another picks up paper scraps, and someone wipes the tables.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cut" style="color: #FF9800;"></i> Scissors Safety</div>
-                <p>When carrying scissors, always hold them with the points facing down and the handles forward.</p>
+                <div class="example-title"><i class="fas fa-cut"></i> Scissor Safety</div>
+                <p>Always carry scissors with the blades closed and pointed toward the floor. Walk slowly to put them back in their special holder.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users"></i> Group Practice</div>
-                <p>We'll work in small groups to practice "The 1-Minute Tidy" to make our classroom safer!</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Chair Rules</div>
+                <p>Never rock back on your chair - you could fall and get hurt! Always sit with all four chair legs on the floor.</p>
             </div>
         `,
-        taskInstructions: "Show you understand classroom safety by completing these activities.",
+        taskInstructions: "Demonstrate safety practices by cleaning up and storing equipment properly.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Draw a line from the safety rule to the correct picture:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Carry scissors safely <span style="margin-left: 20px;">☐ [Picture of clear walkway]</span></div>
-                    <div>Keep walkways clear <span style="margin-left: 20px;">☐ [Picture of scissors with points down]</span></div>
-                    <div>Clean up spills <span style="margin-left: 20px;">☐ [Picture of tidy desk]</span></div>
-                    <div>Store materials neatly <span style="margin-left: 20px;">☐ [Picture of person wiping spill]</span></div>
+            <div class="content-box">
+                <p><strong>Part A: Let's Clean Up!</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Help your teacher clean up the classroom:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>□ Put away all toys in their correct places</div>
+                        <div>□ Throw trash in the bin</div>
+                        <div>□ Wipe your table with a cloth</div>
+                        <div>□ Push in your chair</div>
+                    </div>
+                    <div class="checklist-area" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw your desk with all materials stored safely:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">On my desk, I store my pencil ______________________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Practice "The 1-Minute Tidy" with your group. Check each safety action you complete:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ All pencils put away</div>
-                    <div>☐ Books stacked neatly</div>
-                    <div>☐ Walkway clear of bags</div>
-                    <div>☐ Chairs pushed in</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Equipment Storage Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Practice storing these items safely:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Close the scissors and place them in the holder → <span class="check-box" style="display: inline-block; width: 20px; height: 20px; border: 1px solid black; margin-left: 10px;"></span></div>
+                        <div>• Close the glue bottle tightly → <span class="check-box" style="display: inline-block; width: 20px; height: 20px; border: 1px solid black; margin-left: 10px;"></span></div>
+                        <div>• Put pencils back in the pencil box → <span class="check-box" style="display: inline-block; width: 20px; height: 20px; border: 1px solid black; margin-left: 10px;"></span></div>
+                        <div>• Place crayons in their box → <span class="check-box" style="display: inline-block; width: 20px; height: 20px; border: 1px solid black; margin-left: 10px;"></span></div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Sing the "Clean-up Song" while tidying. Write one line from the song:
-                <div class="answer-space" style="height: 40px;">"_________________________________________________"</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a picture of your classroom with everyone following safety rules:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Safety Pledge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Complete the safety pledge by tracing the words:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: 'Comic Sans MS', cursive;">
+                        <div>I will _______ in the classroom.</div>
+                        <div>I will put my _______ away.</div>
+                        <div>I will keep my classroom _______.</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
             </div>
         `,
-        homework: "Look around your bedroom at home. Draw one thing you can do to make it safer.",
+        homework: "At home, help put away your toys and art supplies. Ask a grown-up to sign here: __________",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Creative and Technology Studies",
         topic: "Safety",
-        subtopic: "Safety in the immediate environment",
+        subtopic: "Safety Rules in Specialised Rooms & Playgrounds",
         lessonContent: `
-            <p>Today we will learn about safety in special rooms around our school, like the computer lab, kitchen, or workshop.</p>
-            <p><strong>Introduction:</strong> Some rooms in our school have special equipment that needs special safety rules. We must be extra careful in these rooms!</p>
-            <p><strong>Special Room Safety Rules:</strong></p>
+            <p>Today we'll learn about staying safe in different places around our school!</p>
+            <p><strong>Key Question:</strong> How do we stay safe in the computer room, art room, and on the playground?</p>
+            <p><strong>Introduction:</strong> Different places have different safety rules. Let's learn how to be safe everywhere at school!</p>
+            <p><strong>Computer Room Safety:</strong></p>
             <ul>
-                <li><strong>No running</strong> - Always walk slowly and carefully.</li>
-                <li><strong>Keep hands to yourself</strong> - Don't touch equipment without permission.</li>
-                <li><strong>No water near machines</strong> - Liquids and electricity don't mix!</li>
-                <li><strong>Never touch plugs or wires</strong> - This is very important for electrical safety.</li>
-                <li><strong>Adult supervision always</strong> - Never enter a specialised room without a teacher.</li>
+                <li>Wash your hands before touching computers</li>
+                <li>No food or drinks near the computers</li>
+                <li>Touch the keyboard and mouse gently</li>
+                <li>Tell your teacher if something is not working</li>
+                <li>Walk slowly between the desks</li>
             </ul>
-            <p><strong>Why are these rules important?</strong> Special rooms have equipment that can be dangerous if not used properly. Following rules keeps everyone safe!</p>
+            <p><strong>Art Room Safety:</strong></p>
+            <ul>
+                <li>Wear an apron or old shirt to protect your clothes</li>
+                <li>Keep paint and glue away from your mouth and eyes</li>
+                <li>Use scissors carefully - cut away from your body</li>
+                <li>Clean up spills right away so no one slips</li>
+                <li>Wash your hands after using art materials</li>
+            </ul>
+            <p><strong>Playground Safety:</strong></p>
+            <ul>
+                <li>Take turns on the swings and slides</li>
+                <li>Go down the slide sitting up, not head first</li>
+                <li>No pushing or shoving on the equipment</li>
+                <li>Stay away from moving swings</li>
+                <li>Wear closed-toe shoes (no flip-flops!)</li>
+                <li>Tell a teacher if someone gets hurt</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-computer" style="color: #9C27B0;"></i> Computer Lab Safety</div>
-                <p>In the computer lab: no food or drinks, gentle typing, and always listen to the teacher's instructions.</p>
+                <div class="example-title"><i class="fas fa-computer"></i> Computer Care</div>
+                <p>Computers are like our friends - we need to be gentle! Use only one finger to press keys, and never bang on the keyboard.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils"></i> Kitchen Safety</div>
-                <p>In the kitchen: use oven mitts for hot things, cut away from your body, and clean up spills immediately.</p>
+                <div class="example-title"><i class="fas fa-fill-drip"></i> Paint Safety</div>
+                <p>Paint is for paper, not for faces! If paint gets in your eyes, tell your teacher right away and rinse with water.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hard-hat"></i> Workshop Safety</div>
-                <p>In the workshop: wear safety goggles, tie back long hair, and never use tools without permission.</p>
+                <div class="example-title"><i class="fas fa-sliders-h"></i> Slide Rules</div>
+                <p>Before you go down the slide, make sure no one is at the bottom. One person at a time - no chains of people holding on!</p>
             </div>
         `,
-        taskInstructions: "Show you understand safety rules for specialised rooms by completing these activities.",
+        taskInstructions: "Practice safety rules for different school zones through roleplay and drawing.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Brainstorming Safety Rules</strong></p>
+                <p><strong>Part A: Safety Zones - Circle the Safe Actions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> With your group, write two safety rules for a room with computers:
-                    <div class="answer-space" style="height: 80px;">
-                        1. _________________________________________________<br>
-                        2. _________________________________________________
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Role Play Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Practice walking safely in our "mock" specialised area. Check each safe action:
+                    <span class="task-number">1</span> Look at each picture and circle the safe action:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ I walked slowly</div>
-                        <div>☐ I kept my hands to myself</div>
-                        <div>☐ I listened to instructions</div>
-                        <div>☐ I stayed with my group</div>
+                        <div><strong>Computer Room:</strong> (A) Eating a snack near the computer  (B) Washing hands before using the computer</div>
+                        <div><strong>Playground:</strong> (A) Pushing on the swings  (B) Taking turns on the slide</div>
+                        <div><strong>Art Room:</strong> (A) Wearing an apron  (B) Running with scissors</div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Drawing Safety</strong></p>
+                <p><strong>Part B: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw yourself following one safety rule in a special room:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">In this picture, I am ______________________________ safely.</div>
+                    <span class="task-number">2</span> Draw one safety rule for the playground:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw one safety rule for the computer room or art room:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: The Most Important Rule</strong></p>
+                <p><strong>Part C: Good Choices / Bad Choices</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> What is the most important rule for all special rooms? Circle it:
+                    <span class="task-number">4</span> Put a ✓ for good choices and an ✗ for bad choices:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>○ Always run to get there first</div>
-                        <div>● Never enter without a teacher</div>
-                        <div>○ Bring your snacks with you</div>
-                        <div>○ Touch everything to learn</div>
+                        <div>___ Running on the playground</div>
+                        <div>___ Waiting for your turn on the swing</div>
+                        <div>___ Touching the computer screen with dirty hands</div>
+                        <div>___ Wearing an apron during art</div>
+                        <div>___ Pushing your friend on the slide</div>
+                        <div>___ Telling the teacher when someone falls</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Safety Promise</strong></p>
+                <p><strong>Part D: Safety Pledge - Day 2</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Write one "Special Room Rule" you promise to always follow:
-                    <div class="answer-space" style="height: 40px;">I promise to ________________________________________</div>
+                    <span class="task-number">5</span> Complete this playground promise:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: 'Comic Sans MS', cursive;">
+                        <div>I will be _______ on the playground.</div>
+                        <div>I will take _______ on the equipment.</div>
+                        <div>I will tell my _______ if someone gets hurt.</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member about a special room at their work or home. Write down one safety rule they follow there.",
+        homework: "Ask a family member about safety rules at their workplace or at home. Draw one safety rule you learned from them.",
         homeworkDue: "Monday"
     }
 };
@@ -168,10 +219,10 @@ const grade1CreativeTechWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1CreativeTechWeek2);
-    console.log("creative-tech-week2.js registered using registerWorksheet()");
+    console.log("grade1-creative-tech-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1CreativeTechWeek2);
-    console.log("creative-tech-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-creative-tech-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -182,9 +233,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1CreativeTechWeek2.metadata,
         days: grade1CreativeTechWeek2
     });
-    console.log("creative-tech-week2.js stored in window.registeredWorksheets");
+    console.log("grade1-creative-tech-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1CreativeTechWeek2 = grade1CreativeTechWeek2;
-console.log("creative-tech-week2.js loaded and registered successfully");
+console.log("grade1-creative-tech-week2.js loaded and registered successfully");
