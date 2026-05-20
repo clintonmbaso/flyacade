@@ -1,526 +1,525 @@
-// Grade 2 Mathematics and Science - Week 9 Data (Prevention and Matching Symptoms)
-const grade2MathScienceWeek9 = {
+// Grade 2 Mathematics & Science - Term 1 Week 9 Data
+const grade2MathsScienceWeek9 = {
     metadata: {
         grade: 2,
         subject: "Mathematics & Science",
+        term: 1,
         week: 9,
-        title: "Prevention and Matching Symptoms — Keeping Our Community Healthy",
-        description: "Learning disease prevention methods, hygiene practices, and matching diseases with symptoms"
+        title: "The Human Body (Internal Parts)",
+        description: "Identifying internal body parts, drawing shapes and patterns, measuring with non-standard units, relating internal to external parts"
     },
     
     monday: {
-        subject: "Science",
-        topic: "Preventing Malaria and Bilharzia",
-        subtopic: "Understanding insect and water-based disease prevention",
+        subject: "Mathematics & Science",
+        topic: "Human Biology",
+        subtopic: "Identifying Internal Parts",
         lessonContent: `
-            <p>Welcome to Science class! This week we will learn how to keep ourselves and our families healthy by preventing diseases.</p>
-            <p><strong>Key Concept:</strong> Some diseases come from insects like mosquitoes, and some come from dirty water.</p>
-            <p><strong>What is Malaria?</strong></p>
-            <ul>
-                <li>Malaria is a sickness that comes from mosquito bites</li>
-                <li>Mosquitoes that carry malaria often bite at night</li>
-                <li>Symptoms include fever, chills, and feeling very tired</li>
-            </ul>
-            <p><strong>How to prevent Malaria:</strong></p>
-            <ul>
-                <li>Sleep under a treated mosquito net every night</li>
-                <li>Wear long sleeves and pants in the evening</li>
-                <li>Keep doors and windows closed or screened</li>
-            </ul>
-            <p><strong>What is Bilharzia?</strong></p>
-            <ul>
-                <li>Bilharzia comes from tiny worms in stagnant water</li>
-                <li>People get it when they swim or play in infected water</li>
-                <li>Symptoms include stomach ache and blood in urine</li>
-            </ul>
-            <p><strong>How to prevent Bilharzia:</strong> Stay away from dirty pond water and only swim in clean, flowing water.</p>
+            <p>Welcome to our exploration of the amazing human body! Today we'll learn about the important parts inside our bodies.</p>
+            <p><strong>Key Question:</strong> What important parts are hidden inside our bodies?</p>
+            <p><strong>Introduction:</strong> Our bodies have many special parts inside that help us live, grow, and play. These are called internal organs. You can't see them because they are inside, but they work hard every day!</p>
+            <p><strong>Internal Parts We Will Learn:</strong></p>
+            <ol>
+                <li><strong>Brain:</strong> The boss of your body. It helps you think, remember, and feel.</li>
+                <li><strong>Heart:</strong> A strong pump that pushes blood all around your body.</li>
+                <li><strong>Lungs:</strong> Two balloon-like parts that help you breathe in air.</li>
+                <li><strong>Stomach:</strong> A bag that breaks down the food you eat.</li>
+                <li><strong>Liver:</strong> A helper organ that cleans your blood.</li>
+                <li><strong>Intestines:</strong> Long tubes that take nutrients from food (small intestine) and remove waste (large intestine).</li>
+                <li><strong>Kidneys:</strong> Two bean-shaped organs that clean your blood and make pee.</li>
+                <li><strong>Bladder:</strong> A bag that holds pee until you go to the toilet.</li>
+            </ol>
+            <p><strong>Fun Fact:</strong> Your heart beats about 100,000 times every day! That's like bouncing a ball non-stop from morning to night.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mosquito" style="color: #8B4513;"></i> Mosquito Net Example</div>
-                <p>"I sleep under a mosquito net every night" - This protects me from malaria-carrying mosquitoes.</p>
+                <div class="example-title"><i class="fas fa-brain"></i> Brain Power</div>
+                <p>Your brain controls everything you do - from winking your eye to wiggling your toes! It's like a supercomputer inside your head.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-water" style="color: #1E90FF;"></i> Clean Water Example</div>
-                <p>"I only swim in clean water at the swimming pool" - This protects me from Bilharzia.</p>
+                <div class="example-title"><i class="fas fa-heartbeat"></i> Heart Beat</div>
+                <p>Put your hand on your chest. Can you feel your heart beating? Thump-thump, thump-thump - that's your heart working right now!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Net Protection Game!</div>
-                <p>Let's pretend to be mosquitoes trying to "bite" through a pretend net. The net keeps us safe!</p>
+                <div class="example-title"><i class="fas fa-lungs"></i> Breathe In, Breathe Out</div>
+                <p>Your lungs fill up with air like balloons when you breathe in, and get smaller when you breathe out. Try it!</p>
             </div>
         `,
-        taskInstructions: "Complete activities to practice malaria and bilharzia prevention.",
+        taskInstructions: "Identify and name the main internal parts of the human body.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the pictures that show good prevention methods:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Picture of a mosquito net</div>
-                    <div>☐ Picture of swimming in a dirty pond</div>
-                    <div>☐ Picture of wearing short sleeves at night</div>
-                    <div>☐ Picture of clean swimming pool</div>
-                    <div>☐ Picture of long sleeve pajamas</div>
+            <div class="content-box">
+                <p><strong>Part A: Name That Organ!</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Match each internal part to its job:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>• Brain</div>
+                                <div>• Heart</div>
+                                <div>• Lungs</div>
+                                <div>• Stomach</div>
+                                <div>• Kidneys</div>
+                                <div>• Bladder</div>
+                            </div>
+                            <div>
+                                <div>→ Helps you breathe</div>
+                                <div>→ Pumps blood</div>
+                                <div>→ Holds pee</div>
+                                <div>→ Thinks and controls</div>
+                                <div>→ Breaks down food</div>
+                                <div>→ Clean blood (bean-shaped)</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw yourself using a mosquito net or wearing protective clothing:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">This protects me from: ________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Create your "Protection Rule":
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <div><strong>My Protection Rule:</strong></div>
-                    <div class="answer-space" style="height: 60px; width: 100%; margin-top: 10px;">"Always ________________ and never ________________"</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Fill in the Blanks</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete each sentence:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. The _________ is the boss of your body.</div>
+                        <div>B. Your _________ help you breathe in air.</div>
+                        <div>C. Food goes into your _________ to be broken down.</div>
+                        <div>D. The _________ holds pee until you go to the toilet.</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Match the prevention method with the disease:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Sleep under mosquito net → ☐ Bilharzia</div>
-                    <div>Avoid dirty pond water → ☐ Malaria</div>
-                    <div>Wear long sleeves → ☐ Both</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a simple body outline. Draw and label these parts: brain, heart, lungs, stomach.
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Which internal part do you think is the most important? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Tell your family about mosquito nets and clean water. Draw a picture of your family following one prevention rule.",
+        homework: "Ask a family member to help you feel your heartbeat. Count how many beats you feel in 30 seconds.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Science",
-        topic: "Handwashing and Hygiene",
-        subtopic: "Proper handwashing to prevent Diarrhea and Cholera",
+        subject: "Mathematics & Science",
+        topic: "Human Biology & Mathematics",
+        subtopic: "Drawing Shapes and Patterns Related to Internal Parts",
         lessonContent: `
-            <p>Today we will learn how proper handwashing can keep us from getting sick!</p>
-            <p><strong>Key Concept:</strong> Germs on our hands can make us sick with diarrhea and cholera if they get into our mouth.</p>
-            <p><strong>What are Diarrhea and Cholera?</strong></p>
+            <p>Today we'll combine art and science! We'll draw shapes and patterns that remind us of our internal body parts.</p>
+            <p><strong>Key Question:</strong> What shapes can we see in our internal organs?</p>
+            <p><strong>Introduction:</strong> Our internal organs come in many different shapes! The heart is like a special oval, the lungs look like upside-down trees, and the kidneys are bean-shaped.</p>
+            <p><strong>Shapes of Internal Parts:</strong></p>
             <ul>
-                <li>Both are illnesses that cause stomach problems</li>
-                <li>They come from germs in dirty water or food</li>
-                <li>Handwashing helps stop these germs from spreading</li>
+                <li><strong>Brain:</strong> Wrinkly and round like a walnut</li>
+                <li><strong>Heart:</strong> Like an upside-down pear or a valentine shape</li>
+                <li><strong>Lungs:</strong> Two spongy shapes like balloons</li>
+                <li><strong>Stomach:</strong> Like the letter "J" or a bag</li>
+                <li><strong>Kidneys:</strong> Bean-shaped!</li>
+                <li><strong>Intestines:</strong> Long, winding tubes like a maze</li>
+                <li><strong>Bladder:</strong> Round like a small balloon when full</li>
             </ul>
-            <p><strong>The Six Steps of Handwashing:</strong></p>
-            <ol>
-                <li><strong>Wet</strong> your hands with clean water</li>
-                <li><strong>Soap</strong> your hands all over</li>
-                <li><strong>Scrub</strong> your hands for 20 seconds (front, back, between fingers)</li>
-                <li><strong>Rinse</strong> with clean water</li>
-                <li><strong>Dry</strong> with a clean towel</li>
-                <li><strong>Turn off</strong> the tap with the towel</li>
-            </ol>
-            <p><strong>When to wash hands:</strong></p>
+            <p><strong>Patterns to Try:</strong></p>
             <ul>
-                <li>After using the toilet</li>
-                <li>Before eating or touching food</li>
-                <li>After playing outside</li>
-                <li>After touching animals</li>
-                <li>When hands look dirty</li>
+                <li>Wavy lines for intestines</li>
+                <li>Spiral patterns for the brain's wrinkles</li>
+                <li>Dotted patterns for blood cells</li>
+                <li>Branching patterns like trees for lungs</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-wash" style="color: #4CAF50;"></i> Handwashing Example</div>
-                <p>"I wash my hands before lunch every day" - This removes germs that could make me sick.</p>
+                <div class="example-title"><i class="fas fa-shapes"></i> Shape Hunt</div>
+                <p>Can you find things in your classroom that are shaped like a kidney? (A bean, a pillow, a curved phone?)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-soap" style="color: #00BCD4;"></i> Soap and Water</div>
-                <p>"Soap helps lift germs off our hands so water can wash them away" - Soap is our germ-fighting friend!</p>
+                <div class="example-title"><i class="fas fa-paintbrush"></i> Pattern Play</div>
+                <p>Draw a winding road to represent the intestines. Add zigzag lines to show how food moves through!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Handwashing Song Game!</div>
-                <p>Let's sing the "Happy Birthday" song twice while scrubbing our hands. This makes sure we wash long enough!</p>
+                <div class="example-title"><i class="fas fa-heart"></i> Heart Patterns</div>
+                <p>Trace a heart shape, then fill it with small dots to show blood cells moving through the heart.</p>
             </div>
         `,
-        taskInstructions: "Practice the six steps of handwashing and identify when to wash hands.",
+        taskInstructions: "Draw shapes and patterns that represent internal body parts.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Handwashing Steps</strong></p>
+                <p><strong>Part A: Shape Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Number the handwashing steps in order:
+                    <span class="task-number">1</span> Draw each shape next to the organ name:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Scrub between fingers</div>
-                        <div>____ Wet hands with water</div>
-                        <div>____ Dry with clean towel</div>
-                        <div>____ Apply soap</div>
-                        <div>____ Rinse with water</div>
+                        <div>• Brain (round and wrinkly): ___________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>• Kidney (bean shape): ___________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>• Heart (valentine shape): ___________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>• Stomach (J-shape): ___________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: When to Wash</strong></p>
+                <p><strong>Part B: Pattern Creation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Circle when you should wash your hands:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Before eating an apple</div>
-                        <div>☐ After playing with toys</div>
-                        <div>☐ After using the toilet</div>
-                        <div>☐ Before going to sleep</div>
-                        <div>☐ After touching a pet</div>
+                    <span class="task-number">2</span> Create a pattern for the intestines (winding lines):
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Create a pattern for the lungs (branching lines like tree branches):
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Complete the Picture</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Finish this drawing by adding patterns and shapes to show the internal organs:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px solid #4A90E2;">
+                        <p style="text-align: center; color: #999; padding-top: 80px;">[Body outline - add shapes and patterns]</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Drawing Activity</strong></p>
+                <p><strong>Part D: Color Code</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw yourself washing hands at one important time:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>I am washing hands: <span class="answer-space" style="width: 200px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Germ Detective</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Match the activity with the germs it might spread:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Not washing after toilet → ☐ Diarrhea germs</div>
-                        <div>Eating with dirty hands → ☐ Cholera germs</div>
-                        <div>Drinking dirty water → ☐ Both</div>
-                    </div>
+                    <span class="task-number">5</span> Color your drawing using different colors for each organ:
+                    <div>Brain: ______   Heart: ______   Lungs: ______   Stomach: ______</div>
                 </div>
             </div>
         `,
-        homework: "Practice the six handwashing steps at home. Teach them to one family member.",
+        homework: "Find 3 things at home that are shaped like kidney beans (the shape of kidneys). Draw them in your notebook.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
-        subject: "Science",
-        topic: "Respiratory Etiquette",
-        subtopic: "Preventing spread of Colds, Coughs, and COVID",
+        subject: "Mathematics & Science",
+        topic: "Measurement & Human Body",
+        subtopic: "Measuring Lengths and Width of Body Parts Using Non-Standard Units",
         lessonContent: `
-            <p>Today we learn how to stop germs from spreading when we cough or sneeze!</p>
-            <p><strong>Key Concept:</strong> Germs can travel through the air when we cough or sneeze without covering.</p>
-            <p><strong>Why is this important?</strong> Colds, coughs, and COVID can spread to others through these germs.</p>
-            <p><strong>The Dracula Sneeze (Cough into elbow):</strong></p>
+            <p>Today we'll become scientists who measure! We'll use non-standard units to measure parts of our bodies.</p>
+            <p><strong>Key Question:</strong> How can we measure body parts without using a ruler?</p>
+            <p><strong>Introduction:</strong> Before rulers were invented, people used things around them to measure - like their hands, feet, or even paper clips! We call these "non-standard units."</p>
+            <p><strong>Non-Standard Units We Can Use:</strong></p>
             <ul>
-                <li>When you feel a cough or sneeze coming, turn your head</li>
-                <li>Cough or sneeze into your elbow, not your hands</li>
-                <li>This traps germs in your clothing instead of spreading them</li>
+                <li><strong>Handspan:</strong> The width of your open hand from thumb to pinky</li>
+                <li><strong>Finger width:</strong> How wide one finger is</li>
+                <li><strong>Paper clips:</strong> Line them up to measure length</li>
+                <li><strong>Pencils:</strong> How many pencils long is something?</li>
+                <li><strong>Cubes or blocks:</strong> Stack or line them up</li>
+                <li><strong>Foot length:</strong> Your actual foot from heel to toe</li>
+                <li><strong>Pace/step:</strong> One step forward</li>
             </ul>
-            <p><strong>Using tissues:</strong></p>
+            <p><strong>Body Parts We Can Measure:</strong></p>
             <ul>
-                <li>Use a tissue when you have a runny nose</li>
-                <li>Throw the tissue away immediately after use</li>
-                <li>Wash your hands after using a tissue</li>
+                <li>Length of your arm (from shoulder to wrist)</li>
+                <li>Width of your chest (where your lungs and heart are)</li>
+                <li>Length of your leg</li>
+                <li>Circumference of your head (where your brain is)</li>
+                <li>Length of your foot</li>
+                <li>Width of your hand</li>
             </ul>
-            <p><strong>Masks in crowded places:</strong></p>
-            <ul>
-                <li>Masks help stop germs from spreading to others</li>
-                <li>Wear masks when you're in crowded places or when sick</li>
-                <li>Masks protect you and protect others</li>
-            </ul>
-            <p><strong>Protecting our community:</strong> When we use respiratory etiquette, we help keep everyone healthy!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-head-side-cough" style="color: #795548;"></i> Dracula Sneeze</div>
-                <p>"I cough into my elbow like Dracula hiding in his cape" - This keeps germs from spreading to friends.</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Handspan Measuring</div>
+                <p>My desk is 8 handspans wide! That means I can put my hand down 8 times from one end to the other.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mask" style="color: #3F51B5;"></i> Mask Example</div>
-                <p>"I wear a mask on the bus to protect myself and others" - Masks are like shields against germs.</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> Paper Clip Math</div>
+                <p>Your math book might be 15 paper clips long. Try it and see! Different paper clips might give different answers - that's why standard rulers are helpful.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Tissue Toss Game!</div>
-                <p>Let's practice proper tissue use by tossing used tissues into a trash can target!</p>
+                <div class="example-title"><i class="fas fa-shoe-prints"></i> Foot Facts</div>
+                <p>Your foot is about the same length as the distance from your wrist to your elbow. Test it out!</p>
             </div>
         `,
-        taskInstructions: "Practice respiratory etiquette and understand when to use masks.",
+        taskInstructions: "Measure body parts using non-standard units like handspans, paper clips, and pencils.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: The Dracula Pose</strong></p>
+                <p><strong>Part A: Handspan Measuring</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw yourself doing the "Dracula Sneeze":
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>When I cough into my elbow, I protect: <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Tissue Rules</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Number the tissue steps in order:
+                    <span class="task-number">1</span> Use your handspan to measure these things. Write your answers:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>____ Wash your hands</div>
-                        <div>____ Blow your nose</div>
-                        <div>____ Throw tissue in trash</div>
-                        <div>____ Take a clean tissue</div>
+                        <div>• Width of your chest: ______ handspans</div>
+                        <div>• Length of your arm (shoulder to wrist): ______ handspans</div>
+                        <div>• Circumference of your head: ______ handspans</div>
+                        <div>• Length of your leg (hip to ankle): ______ handspans</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: When to Wear a Mask</strong></p>
+                <p><strong>Part B: Paper Clip Measuring</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Circle when you should wear a mask:
+                    <span class="task-number">2</span> Use paper clips (lined up end to end) to measure:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ At home with family</div>
-                        <div>☐ On a crowded bus</div>
-                        <div>☐ When you have a cold</div>
-                        <div>☐ Playing alone outside</div>
-                        <div>☐ At the doctor's office</div>
+                        <div>• Length of your hand (wrist to fingertip): ______ paper clips</div>
+                        <div>• Width of your palm: ______ paper clips</div>
+                        <div>• Length of your foot: ______ paper clips</div>
+                        <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Community Protection</strong></p>
+                <p><strong>Part C: Partner Measuring</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Complete the sentence:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0;">
-                        <div>When I use respiratory etiquette, I help keep my <span class="answer-space" style="width: 100px;"></span> healthy.</div>
+                    <span class="task-number">3</span> Work with a partner. Measure each other's:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Partner's height: ______ handspans</div>
+                        <div>• Partner's arm length: ______ handspans</div>
+                        <div>• Partner's foot length: ______ paper clips</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Compare and Reflect</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Did you and your partner get the same measurements? Why or why not?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which non-standard unit was easiest to use? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Practice the Dracula Sneeze at home. Teach it to one family member.",
+        homework: "Measure the length of your bed using your footsteps (paces). Count how many steps from head to foot of the bed.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
-        subject: "Mathematics",
-        topic: "Matching Diseases with Symptoms",
-        subtopic: "Linking diseases to their common signs",
+        subject: "Mathematics & Science",
+        topic: "Human Biology",
+        subtopic: "Relating Internal Organs to External Parts",
         lessonContent: `
-            <p>Today we will use matching skills to connect diseases with their symptoms!</p>
-            <p><strong>Key Concept:</strong> Different diseases have different symptoms. Knowing them helps us understand when we might be sick.</p>
-            <p><strong>What are symptoms?</strong> Symptoms are signs that show our body is fighting an illness.</p>
-            <p><strong>Common Diseases and Symptoms:</strong></p>
-            <ul>
-                <li><strong>Cold:</strong> Runny nose, sneezing, mild cough</li>
-                <li><strong>Malaria:</strong> Fever, chills, headache, tiredness</li>
-                <li><strong>Diarrhea:</strong> Stomach ache, frequent watery stools</li>
-                <li><strong>Cough/COVID:</strong> Dry cough, difficulty breathing, fever</li>
-                <li><strong>Bilharzia:</strong> Stomach pain, blood in urine</li>
-            </ul>
-            <p><strong>Why matching is important:</strong> When we know which symptoms match which disease, we can:</p>
-            <ul>
-                <li>Tell adults how we feel</li>
-                <li>Get the right treatment</li>
-                <li>Know when to rest and recover</li>
-            </ul>
-            <p><strong>Mathematics connection:</strong> Today we're practicing matching – an important math skill!</p>
+            <p>Today we'll discover how our internal organs connect to what we can see on the outside of our bodies!</p>
+            <p><strong>Key Question:</strong> How can we tell where internal organs are just by looking at our outside?</p>
+            <p><strong>Introduction:</strong> Even though we can't see our internal organs, we can figure out where they are by looking at our external body parts. The outside gives us clues about what's inside!</p>
+            <p><strong>Internal Organ and External Location Guide:</strong></p>
+            <ol>
+                <li><strong>Brain</strong> → Inside your <strong>head/skull</strong>
+                    <ul><li>Your hard skull protects your soft brain</li></ul>
+                </li>
+                <li><strong>Lungs and Heart</strong> → Inside your <strong>chest</strong>
+                    <ul><li>Your ribs form a cage that protects them</li></ul>
+                </li>
+                <li><strong>Stomach, Liver, Intestines</strong> → Inside your <strong>belly/torso</strong>
+                    <ul><li>Your belly button is a clue - your intestines are nearby!</li></ul>
+                </li>
+                <li><strong>Kidneys</strong> → On either side of your <strong>lower back</strong>
+                    <ul><li>Put your hands on your lower back - your kidneys are under there!</li></ul>
+                </li>
+                <li><strong>Bladder</strong> → Inside your <strong>lower belly</strong> (above your private area)
+                    <ul><li>You can feel when it's full - that's when you need to pee!</li></ul>
+                </li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-thermometer-half" style="color: #f44336;"></i> Fever Match</div>
-                <p>"Fever and chills" matches with "Malaria" - These are common malaria symptoms.</p>
+                <div class="example-title"><i class="fas fa-helmet-battle"></i> Your Natural Helmet</div>
+                <p>Your skull is like a helmet for your brain! That's why it's important to wear a real helmet when biking or skating.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #9C27B0;"></i> Runny Nose Match</div>
-                <p>"Runny nose and sneezing" matches with "Cold" - These tell us we might have a cold.</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Feel Your Ribs</div>
+                <p>Gently feel your ribs. They form a cage around your heart and lungs. Can you count how many ribs you feel on one side?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Matching Memory Game!</div>
-                <p>Let's play a memory game with disease cards and symptom cards. Find the matches!</p>
+                <div class="example-title"><i class="fas fa-belly"></i> Belly Button Clue</div>
+                <p>Your belly button marks where your intestines are. When your tummy growls, that's your stomach and intestines working!</p>
             </div>
         `,
-        taskInstructions: "Match diseases with their correct symptoms using lines.",
+        taskInstructions: "Match internal organs to their external locations on the body.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Draw the Lines</strong></p>
+                <p><strong>Part A: Match It!</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw a line from each disease to its symptom:
-                    <div style="margin-left: 20px; margin-top: 10px; display: flex; justify-content: space-between;">
-                        <div style="width: 45%;">
-                            <div><strong>Diseases</strong></div>
-                            <div>Cold</div>
-                            <div>Malaria</div>
-                            <div>Diarrhea</div>
-                            <div>Cough/COVID</div>
-                            <div>Bilharzia</div>
+                    <span class="task-number">1</span> Draw a line connecting each internal organ to its external body part:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>• Brain</div>
+                                <div>• Lungs</div>
+                                <div>• Stomach</div>
+                                <div>• Kidneys</div>
+                                <div>• Heart</div>
+                                <div>• Bladder</div>
+                            </div>
+                            <div>
+                                <div>→ Lower back</div>
+                                <div>→ Head</div>
+                                <div>→ Lower belly</div>
+                                <div>→ Chest</div>
+                                <div>→ Chest</div>
+                                <div>→ Belly</div>
+                            </div>
                         </div>
-                        <div style="width: 45%;">
-                            <div><strong>Symptoms</strong></div>
-                            <div>Fever and chills</div>
-                            <div>Runny nose</div>
-                            <div>Stomach ache</div>
-                            <div>Dry cough</div>
-                            <div>Blood in urine</div>
-                        </div>
-                    </div>
-                    <div style="height: 150px; margin-top: 10px; border: 1px dashed #ccc;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Symptom Sort</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Write which disease has these symptoms:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Frequent watery stools: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>Runny nose and sneezing: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>Fever, headache, tiredness: <span class="answer-space" style="width: 150px;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Picture Match</strong></p>
+                <p><strong>Part B: Draw and Connect</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Match the picture with the disease:
+                    <span class="task-number">2</span> Draw a person. Draw arrows from the external body parts to where the internal organs belong:
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Protection Detectives</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Which external parts protect internal organs? Fill in the table:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Picture of thermometer → ☐ Diarrhea</div>
-                        <div>Picture of tissue → ☐ Malaria</div>
-                        <div>Picture of stomach → ☐ Cold</div>
+                        <div>Internal Organ → External Protector</div>
+                        <div>Brain → ______</div>
+                        <div>Heart and Lungs → ______</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: When to Tell an Adult</strong></p>
+                <p><strong>Part D: Touch and Tell</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Circle symptoms that mean you should tell an adult:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Mild runny nose</div>
-                        <div>☐ High fever</div>
-                        <div>☐ Blood in urine</div>
-                        <div>☐ Difficulty breathing</div>
-                        <div>☐ Little stomach ache</div>
-                    </div>
+                    <span class="task-number">4</span> Touch your head, chest, and belly. Name one organ under each place:
+                    <div>Under my head: ______</div>
+                    <div>Under my chest: ______</div>
+                    <div>Under my belly: ______</div>
                 </div>
             </div>
         `,
-        homework: "Create your own matching game with 3 diseases and 3 symptoms. Draw pictures for each.",
+        homework: "Ask your family to help you feel your ribs. Count how many you can feel on the left side and right side.",
         homeworkDue: "Friday"
     },
     
     friday: {
-        subject: "Science",
-        topic: "Community Health Heroes",
-        subtopic: "Summarizing all prevention methods learned",
+        subject: "Mathematics & Science",
+        topic: "Human Biology",
+        subtopic: "Drawing Internal Parts on Charts/Pictures/Models",
         lessonContent: `
-            <p>Today we celebrate becoming Health Heroes! We'll review everything we learned this week.</p>
-            <p><strong>Key Concept:</strong> Each of us can be a Health Hero by practicing good habits that keep our community safe.</p>
-            <p><strong>What we learned this week:</strong></p>
-            <ol>
-                <li><strong>Monday:</strong> Prevent malaria with nets and bilharzia by avoiding dirty water</li>
-                <li><strong>Tuesday:</strong> Wash hands properly to prevent diarrhea and cholera</li>
-                <li><strong>Wednesday:</strong> Use respiratory etiquette to prevent colds, coughs, and COVID</li>
-                <li><strong>Thursday:</strong> Match diseases with their symptoms</li>
-            </ol>
-            <p><strong>Why we are Health Heroes:</strong></p>
+            <p>Today we'll put everything together! We'll draw internal organs on body outlines, charts, and models.</p>
+            <p><strong>Key Question:</strong> Can you place the internal organs in the correct spots on a body?</p>
+            <p><strong>Introduction:</strong> Scientists use drawings and models to learn about the body. Today you'll be a scientist-artist, creating your own body diagram with all the internal parts we've learned!</p>
+            <p><strong>Remember the Locations:</strong></p>
             <ul>
-                <li>We protect ourselves from getting sick</li>
-                <li>We protect our families by sharing what we learned</li>
-                <li>We protect our community by stopping germs from spreading</li>
+                <li><strong>Brain</strong> - Inside the head (top part)</li>
+                <li><strong>Lungs</strong> - Upper chest, left and right sides</li>
+                <li><strong>Heart</strong> - Middle of chest, slightly to the left</li>
+                <li><strong>Stomach</strong> - Upper left side of belly</li>
+                <li><strong>Liver</strong> - Upper right side of belly (under ribs)</li>
+                <li><strong>Intestines</strong> - Lower belly (all around)</li>
+                <li><strong>Kidneys</strong> - Lower back, one on each side</li>
+                <li><strong>Bladder</strong> - Very low belly, in the middle</li>
             </ul>
-            <p><strong>Our Health Hero Pledge:</strong> "I promise to practice healthy habits and teach others to do the same!"</p>
-            <p><strong>Today's celebration:</strong> We'll create Health Hero badges and share our favorite healthy habit!</p>
+            <p><strong>Drawing Tips:</strong></p>
+            <ul>
+                <li>Draw the brain as a wrinkly oval inside the head</li>
+                <li>Draw lungs as two balloon shapes in the chest</li>
+                <li>Draw the heart as a valentine shape between the lungs</li>
+                <li>Draw the stomach as a J-shaped bag on the left</li>
+                <li>Draw the intestines as coiled tubes filling the lower belly</li>
+                <li>Draw kidneys as two beans in the lower back</li>
+                <li>Draw the bladder as a small round bag at the bottom</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt" style="color: #FF9800;"></i> Health Hero Example</div>
-                <p>"I am a Health Hero because I wash my hands before eating" - This simple habit fights germs!</p>
+                <div class="example-title"><i class="fas fa-chalkboard-teacher"></i> Model Time</div>
+                <p>If you have a model or diagram to work with, place the organ stickers or labels in the correct spots.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #4CAF50;"></i> Community Protection</div>
-                <p>"When I cover my cough, I protect my classmates" - Health Heroes protect others too!</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Label It!</div>
+                <p>Don't forget to add labels to your drawing. Use arrows to point from the label to the organ.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Health Hero Parade!</div>
-                <p>Let's march around the classroom showing our Health Hero drawings and saying our pledge!</p>
+                <div class="example-title"><i class="fas fa-palette"></i> Color Code Again</div>
+                <p>Use red for the heart, pink for lungs, purple for the brain, yellow for the stomach, brown for the liver, green for intestines, orange for kidneys, and blue for the bladder!</p>
             </div>
         `,
-        taskInstructions: "Create your Health Hero identity and celebrate what you've learned.",
+        taskInstructions: "Draw and label internal organs on a body outline, chart, or model.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: My Health Hero Badge</strong></p>
+                <p><strong>Part A: Body Outline Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Design a Health Hero badge for yourself:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My Health Hero name: <span class="answer-space" style="width: 200px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: My Healthy Habit</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Draw yourself doing your favorite healthy habit:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>This habit prevents: <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Teaching Others</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Who will you teach about health? What will you teach them?
+                    <span class="task-number">1</span> Draw a large person outline. Then draw and label these internal organs in the correct places:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I will teach: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>I will teach them to: <span class="answer-space" style="width: 200px;"></span></div>
+                        <div>• Brain</div>
+                        <div>• Heart</div>
+                        <div>• Lungs (both)</div>
+                        <div>• Stomach</div>
+                        <div>• Liver</div>
+                        <div>• Intestines</div>
+                        <div>• Kidneys (both)</div>
+                        <div>• Bladder</div>
                     </div>
+                    <div class="drawing-area" style="height: 300px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Health Hero Pledge</strong></p>
+                <p><strong>Part B: Label Your Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Trace and sign the Health Hero Pledge:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border: 2px solid #4CAF50; border-radius: 10px; font-size: 18px;">
-                        <div style="text-align: center; font-weight: bold;">Health Hero Pledge</div>
-                        <div style="margin-top: 10px; text-align: center;">
-                            "I promise to practice healthy habits<br>
-                            and teach others to do the same.<br>
-                            I am a Community Health Hero!"
-                        </div>
-                        <div style="margin-top: 15px; border-top: 1px solid #ccc; padding-top: 10px;">
-                            Signed: <span class="answer-space" style="width: 200px; border-bottom: 1px solid #000;"></span>
-                        </div>
-                    </div>
+                    <span class="task-number">2</span> Use arrows to label each organ you drew. Write the name clearly.
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Week Review</strong></p>
+                <p><strong>Part C: Color Your Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Circle all the healthy habits you practiced this week:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Washed hands properly</div>
-                        <div>☐ Coughed into elbow</div>
-                        <div>☐ Avoided dirty water</div>
-                        <div>☐ Used mosquito net (or talked about it)</div>
-                        <div>☐ Matched symptoms with diseases</div>
-                    </div>
+                    <span class="task-number">3</span> Color each organ. Use the color code from the examples:
+                    <div>Brain: ______   Heart: ______   Lungs: ______   Stomach: ______</div>
+                    <div>Liver: ______   Intestines: ______   Kidneys: ______   Bladder: ______</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Week Review</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name one new thing you learned this week about the human body:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which internal organ do you think is the most interesting? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach one health lesson to your family. Have them sign your Health Hero Pledge.",
+        homework: "Show your labeled body drawing to your family. Teach them the names of 5 internal organs and where they belong.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade2MathScienceWeek9);
-    console.log("mathscience-week9-prevention.js registered using registerWorksheet()");
+    window.registerWorksheet(grade2MathsScienceWeek9);
+    console.log("grade2-maths-science-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade2MathScienceWeek9);
-    console.log("mathscience-week9-prevention.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade2MathsScienceWeek9);
+    console.log("grade2-maths-science-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade2MathScienceWeek9',
-        metadata: grade2MathScienceWeek9.metadata,
-        days: grade2MathScienceWeek9
+        variableName: 'grade2MathsScienceWeek9',
+        metadata: grade2MathsScienceWeek9.metadata,
+        days: grade2MathsScienceWeek9
     });
-    console.log("mathscience-week9-prevention.js stored in window.registeredWorksheets");
+    console.log("grade2-maths-science-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade2MathScienceWeek9 = grade2MathScienceWeek9;
-console.log("mathscience-week9-prevention.js loaded and registered successfully");
+window.grade2MathsScienceWeek9 = grade2MathsScienceWeek9;
+console.log("grade2-maths-science-week9.js loaded and registered successfully");

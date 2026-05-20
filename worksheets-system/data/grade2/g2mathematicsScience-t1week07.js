@@ -1,371 +1,263 @@
-// Grade 2 Mathematics - Week 7 Data (Data Analysis and Pictographs)
+// Grade 2 Mathematics & Science - Term 1 Week 7 Data
 const grade2MathScienceWeek7 = {
     metadata: {
         grade: 2,
         subject: "Mathematics & Science",
+        term: 1,
         week: 7,
-        title: "Data Analysis and Pictographs",
-        description: "Learning to collect, record, and represent data using tally marks and pictographs"
+        title: "Data Analysis (Pictographs) & Common Diseases",
+        description: "Collecting, presenting, and interpreting data using pictographs; exploring common diseases in the community and their causes"
     },
     
     monday: {
-        subject: "Mathematics",
-        topic: "Introduction to Collecting Data",
-        subtopic: "Learning how to collect and record simple data using tally marks",
+        subject: "Mathematics & Science",
+        topic: "Data Analysis",
+        subtopic: "Collecting and Recording Data",
         lessonContent: `
-            <p>Welcome to our Math lesson! Today we will learn how to collect and record information from our classmates.</p>
-            <p><strong>Key Concept:</strong> Data is information we collect to answer questions.</p>
-            <p><strong>What is data collection?</strong></p>
-            <ul>
-                <li>Asking questions to gather information</li>
-                <li>Recording answers in an organized way</li>
-                <li>Using that information to learn something new</li>
-            </ul>
-            <p><strong>Tally Marks:</strong> Tally marks help us count large groups quickly. Each mark represents one item.</p>
-            <p><strong>How to make tally marks:</strong> First four marks are vertical lines, the fifth mark goes across to make a group of five: 卌</p>
-            <p><strong>Today's question:</strong> What is your favorite fruit: Apple, Banana, or Orange?</p>
+            <p>Welcome to our week on data analysis! Today we'll learn how to collect and record information.</p>
+            <p><strong>Key Question:</strong> How can we find out what our classmates like?</p>
+            <p><strong>Introduction:</strong> Data is information we collect to answer questions. We can collect data by asking people, counting things, or observing!</p>
+            <p><strong>Ways to Collect Data:</strong></p>
+            <ol>
+                <li><strong>Asking questions:</strong> "What is your favorite fruit?"</li>
+                <li><strong>Counting:</strong> How many red cars pass by?</li>
+                <li><strong>Observing:</strong> What color shirts are people wearing?</li>
+            </ol>
+            <p><strong>Recording Data:</strong> When we collect data, we need to write it down so we don't forget. We can use tally marks, lists, or checkboxes.</p>
+            <p><strong>Tally Marks:</strong> A quick way to count! Each mark means 1. After 4 marks, the 5th mark goes across: |||| = 5</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt" style="color: #e74c3c;"></i> Apple Votes</div>
-                <p>If 3 students choose apple: 卌 (5) would be wrong, but ||| (3) is correct!</p>
+                <div class="example-title"><i class="fas fa-chart-simple"></i> Class Survey Example</div>
+                <p>Ms. Johnson asked her class: "What is your favorite animal?"<br>
+                Dog: 7 students<br>
+                Cat: 4 students<br>
+                Rabbit: 3 students<br>
+                Fish: 2 students</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-bar"></i> Tally Chart Example</div>
-                <p>Favorite Colors:</p>
-                <p>Red: ||| (3)</p>
-                <p>Blue: 卌 || (7)</p>
-                <p>Green: | (1)</p>
+                <div class="example-title"><i class="fas fa-check-square"></i> Tally Mark Practice</div>
+                <p>If 5 students like apples, we write: ||||<br>
+                If 3 students like bananas, we write: |||<br>
+                If 8 students like oranges, we write: |||| |||</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Quick Count Game!</div>
-                <p>I'll show groups of tally marks for 3 seconds. How many do you see? First to shout the correct number wins!</p>
+                <div class="example-title"><i class="fas fa-clipboard-list"></i> Counting at Home</div>
+                <p>You can collect data anywhere! Count how many windows in your house, or how many family members wear glasses.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice collecting and recording data.",
+        taskInstructions: "Conduct a class survey and record data using tally marks.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Create a tally chart for your table group's favorite fruit:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Apple: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>Banana: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>Orange: <span class="answer-space" style="width: 100px;"></span></div>
+            <div class="content-box">
+                <p><strong>Part A: Class Survey Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Ask your classmates: "What is your favorite fruit?" Record answers using tally marks:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Apple: _____________ (tally marks)</div>
+                        <div>Banana: _____________ (tally marks)</div>
+                        <div>Orange: _____________ (tally marks)</div>
+                        <div>Grapes: _____________ (tally marks)</div>
+                        <div>Watermelon: _____________ (tally marks)</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw tally marks for these numbers:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>7: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>5: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>12: <span class="answer-space" style="width: 100px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Counting Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Count the number of each shape and write the tally marks:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>△ △ △ △ △ (5 triangles) = _____</div>
+                        <div>□ □ □ (3 squares) = _____</div>
+                        <div>○ ○ ○ ○ ○ ○ ○ (7 circles) = _____</div>
+                        <div>☆ ☆ ☆ ☆ (4 stars) = _____</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Count these tally marks and write the number:
-                <div style="margin-left: 20px; margin-top: 10px; font-size: 20px;">
-                    <div>卌 卌 || : <span class="answer-space" style="width: 50px;"></span></div>
-                    <div>卌 ||| : <span class="answer-space" style="width: 50px;"></span></div>
-                    <div>卌 卌 卌 | : <span class="answer-space" style="width: 50px;"></span></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Survey 5 classmates about their favorite fruit. Record below:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. ________________: <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>2. ________________: <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>3. ________________: <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>4. ________________: <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>5. ________________: <span class="answer-space" style="width: 80px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Data Collection at Home</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Ask 5 family members: "What is your favorite color?" Record their answers:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask 3 family members: 'What is your favorite vegetable?' Record their answers using tally marks.",
+        homework: "Ask 10 people (family or neighbors) what their favorite pet is. Record answers using tally marks.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Mathematics",
-        topic: "What is a Pictograph?",
-        subtopic: "Understanding that symbols or pictures can represent numbers",
+        subject: "Mathematics & Science",
+        topic: "Data Analysis",
+        subtopic: "Presenting Data Sets on a Pictograph",
         lessonContent: `
-            <p>Today we will learn about a special kind of chart called a pictograph!</p>
-            <p><strong>Key Concept:</strong> A pictograph uses pictures or symbols to show data instead of just numbers.</p>
-            <p><strong>What is a pictograph?</strong></p>
-            <ul>
-                <li>A chart that uses pictures to represent numbers</li>
-                <li>Makes information easier to understand at a glance</li>
-                <li>Each picture stands for a certain number of items</li>
-            </ul>
-            <p><strong>Parts of a pictograph:</strong></p>
-            <ul>
-                <li><strong>Title:</strong> Tells what the graph is about</li>
-                <li><strong>Categories:</strong> The different groups being compared</li>
-                <li><strong>Pictures/Symbols:</strong> Each represents a number</li>
-                <li><strong>Key:</strong> Shows what each picture stands for</li>
-            </ul>
-            <p><strong>Example:</strong> If one smiley face = 1 student, then 5 smiley faces = 5 students!</p>
+            <p>Today we'll learn how to show our data using pictures! This is called a pictograph.</p>
+            <p><strong>Key Question:</strong> How can we show numbers using pictures?</p>
+            <p><strong>What is a Pictograph?</strong> A pictograph uses pictures or symbols to show data. Each picture stands for a certain number of items.</p>
+            <p><strong>Parts of a Pictograph:</strong></p>
+            <ol>
+                <li><strong>Title:</strong> Tells what the pictograph is about</li>
+                <li><strong>Labels:</strong> Tell what each row or column means</li>
+                <li><strong>Pictures/Symbols:</strong> Show the data</li>
+                <li><strong>Key:</strong> Tells what each picture represents (example: 🍎 = 2 apples)</li>
+            </ol>
+            <p><strong>How to Make a Pictograph:</strong></p>
+            <ol>
+                <li>Choose a title for your pictograph</li>
+                <li>Decide what symbol you will use</li>
+                <li>Draw the correct number of symbols for each category</li>
+                <li>Add a key so people understand your symbols</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-smile" style="color: #f1c40f;"></i> Smiley Face Graph</div>
-                <p>Favorite Colors:</p>
-                <p>Red: 😊😊😊 (3 students)</p>
-                <p>Blue: 😊😊😊😊😊 (5 students)</p>
-                <p>Green: 😊 (1 student)</p>
+                <div class="example-title"><i class="fas fa-chart-pie"></i> Favorite Fruit Pictograph</div>
+                <p><strong>Title: Our Favorite Fruits</strong><br>
+                <strong>Key:</strong> 🍎 = 1 student<br>
+                Apple: 🍎 🍎 🍎 🍎 (4 students)<br>
+                Banana: 🍌 🍌 🍌 (3 students)<br>
+                Orange: 🍊 🍊 🍊 🍊 🍊 (5 students)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-key"></i> Understanding the Key</div>
-                <p>Key: 🍎 = 1 student who likes apples</p>
-                <p>So: 🍎🍎🍎 means 3 students like apples!</p>
+                <div class="example-title"><i class="fas fa-cloud-sun"></i> Weather Pictograph</div>
+                <p><strong>Title: Weather This Week</strong><br>
+                <strong>Key:</strong> ☀️ = 1 sunny day<br>
+                Sunny: ☀️ ☀️ ☀️ ☀️ (4 days)<br>
+                Rainy: ☔ ☔ (2 days)<br>
+                Cloudy: ☁️ (1 day)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Picture Match Game!</div>
-                <p>I'll show a pictograph for 5 seconds. Can you remember how many pictures were in each row?</p>
+                <div class="example-title"><i class="fas fa-car"></i> Car Color Pictograph</div>
+                <p><strong>Key:</strong> 🚗 = 2 cars<br>
+                Red: 🚗 🚗 (4 cars)<br>
+                Blue: 🚗 🚗 🚗 (6 cars)<br>
+                White: 🚗 (2 cars)</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice understanding pictographs.",
+        taskInstructions: "Create a pictograph using data from your class survey.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Reading Pictographs</strong></p>
+                <p><strong>Part A: Create Your Own Pictograph</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at this pictograph (Key: ★ = 1 book read):
+                    <span class="task-number">1</span> Use your favorite fruit data from Monday. Create a pictograph below:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Sam: ★★★★</div>
-                        <div>Lia: ★★★★★★</div>
-                        <div>Max: ★★</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Who read the most books? <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>Who read the fewest books? <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>How many books did Sam read? <span class="answer-space" style="width: 50px;"></span></div>
+                        <p><strong>Title:</strong> _____________________________</p>
+                        <p><strong>Key:</strong> 🍎 = _______ student(s)</p>
+                        <div style="border: 1px solid #ccc; padding: 15px; margin-top: 10px;">
+                            <p><strong>Apple:</strong> ____________________</p>
+                            <p><strong>Banana:</strong> ____________________</p>
+                            <p><strong>Orange:</strong> ____________________</p>
+                            <p><strong>Grapes:</strong> ____________________</p>
+                            <p><strong>Watermelon:</strong> ____________________</p>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Creating Symbols</strong></p>
+                <p><strong>Part B: Complete the Pictograph</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw symbols for this data (Key: 🐱 = 1 pet cat):
+                    <span class="task-number">2</span> The pictograph shows favorite pets. Each 🐶 = 2 pets. Complete the chart:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>3 cats: <span class="answer-space" style="width: 120px; height: 30px;"></span></div>
-                        <div>5 cats: <span class="answer-space" style="width: 120px; height: 30px;"></span></div>
-                        <div>1 cat: <span class="answer-space" style="width: 120px; height: 30px;"></span></div>
+                        <p>Dogs: 🐶 🐶 🐶 = _____ pets</p>
+                        <p>Cats: 🐱 🐱 = _____ pets</p>
+                        <p>Fish: 🐟 🐟 🐟 🐟 = _____ pets</p>
+                        <p>Birds: 🐦 = _____ pets</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Building a Class Pictograph</strong></p>
+                <p><strong>Part C: Draw Your Own Symbols</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Using yesterday's fruit data, add pictures to the chart (Key: 🍎 = 1 student):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Apple: <span class="answer-space" style="width: 150px; height: 30px;"></span></div>
-                        <div>Banana: <span class="answer-space" style="width: 150px; height: 30px;"></span></div>
-                        <div>Orange: <span class="answer-space" style="width: 150px; height: 30px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Different Symbols</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> If 🔴 = 2 students, how many students do these represent?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>🔴🔴🔴 = <span class="answer-space" style="width: 50px;"></span> students</div>
-                        <div>🔴🔴 = <span class="answer-space" style="width: 50px;"></span> students</div>
-                        <div>🔴🔴🔴🔴 = <span class="answer-space" style="width: 50px;"></span> students</div>
-                    </div>
+                    <span class="task-number">3</span> Draw a pictograph showing how many books you read this week (use any symbol you like, with a key):
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a simple pictograph showing how many windows are in each room of your home. Use □ as your symbol.",
+        homework: "Create a pictograph showing the eye colors of 10 family members or friends. Use an eye symbol 👁️ in your key.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
-        subject: "Mathematics",
-        topic: "Creating Our Own Pictograph",
-        subtopic: "Representing a data set on a pictograph using symbols",
+        subject: "Mathematics & Science",
+        topic: "Data Analysis",
+        subtopic: "Interpreting Data from a Pictograph",
         lessonContent: `
-            <p>Today we will create our very own pictographs from start to finish!</p>
-            <p><strong>Key Concept:</strong> A pictograph must have clear symbols and an accurate key.</p>
-            <p><strong>Steps to create a pictograph:</strong></p>
+            <p>Today we'll learn how to read pictographs and answer questions about the data!</p>
+            <p><strong>Key Question:</strong> What can a pictograph tell us?</p>
+            <p><strong>Interpreting Data:</strong> When we look at a pictograph, we can learn many things. We can find which item has the most, which has the least, and compare different items.</p>
+            <p><strong>Questions We Can Answer:</strong></p>
             <ol>
-                <li>Collect your data (using tally marks)</li>
-                <li>Choose a simple symbol or picture</li>
-                <li>Decide what each symbol will represent (usually 1 item)</li>
-                <li>Draw the correct number of symbols for each category</li>
-                <li>Add a title and labels</li>
+                <li>How many people chose each option?</li>
+                <li>Which option was the most popular?</li>
+                <li>Which option was the least popular?</li>
+                <li>How many more people chose one thing over another?</li>
+                <li>How many people answered in total?</li>
             </ol>
-            <p><strong>Today's data set:</strong> We'll graph colored pencils: Red, Blue, and Green.</p>
-            <p><strong>Symbol choice:</strong> Simple shapes work best! Circles (○), squares (□), or stars (★) are good choices.</p>
-            <p><strong>Important:</strong> Each symbol should be the same size and evenly spaced. Count carefully!</p>
+            <p><strong>Remember:</strong> Always check the KEY first! It tells you what each picture means.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt" style="color: #3498db;"></i> Pencil Graph</div>
-                <p>Colored Pencils in Our Class:</p>
-                <p>Red: ○○○○○ (5)</p>
-                <p>Blue: ○○○○○○○○ (8)</p>
-                <p>Green: ○○○ (3)</p>
-                <p>Key: ○ = 1 pencil</p>
+                <div class="example-title"><i class="fas fa-ice-cream"></i> Favorite Ice Cream Pictograph</div>
+                <p><strong>Key:</strong> 🍦 = 2 students<br>
+                Chocolate: 🍦 🍦 🍦 (6 students)<br>
+                Vanilla: 🍦 🍦 (4 students)<br>
+                Strawberry: 🍦 (2 students)<br>
+                <strong>Questions:</strong> Most popular? Chocolate! Total students? 12!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler-combined"></i> Neat and Tidy</div>
-                <p>A good pictograph has:</p>
-                <p>• Symbols in straight rows</p>
-                <p>• Clear labels for each category</p>
-                <p>• A title at the top</p>
-                <p>• A key to explain the symbols</p>
+                <div class="example-title"><i class="fas fa-futbol"></i> Sports Pictograph</div>
+                <p><strong>Key:</strong> ⚽ = 1 student<br>
+                Soccer: ⚽ ⚽ ⚽ ⚽ ⚽ (5)<br>
+                Basketball: 🏀 🏀 🏀 (3)<br>
+                Tennis: 🎾 🎾 (2)<br>
+                <strong>Compare:</strong> 2 more students like soccer than tennis!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Graph Builder Race!</div>
-                <p>I'll give you data. First team to draw a correct pictograph wins!</p>
+                <div class="example-title"><i class="fas fa-pencil-alt"></i> Find the Total</div>
+                <p>To find the total number of students surveyed, add all the picture values together. Don't forget to multiply if each picture counts for more than 1!</p>
             </div>
         `,
-        taskInstructions: "Create pictographs using the given data sets.",
+        taskInstructions: "Answer questions about given pictographs and interpret the data.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Classroom Pencils</strong></p>
+                <p><strong>Part A: Read the Pictograph</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Create a pictograph for these colored pencils (use ○ as your symbol):
+                    <span class="task-number">1</span> Look at this pictograph about favorite subjects. <strong>Key:</strong> ⭐ = 2 students
+                    <div style="margin-left: 20px; margin-top: 10px; background-color: #f5f5f5; padding: 15px;">
+                        <p>Math: ⭐ ⭐ ⭐</p>
+                        <p>Reading: ⭐ ⭐ ⭐ ⭐</p>
+                        <p>Science: ⭐ ⭐</p>
+                        <p>Art: ⭐</p>
+                    </div>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Red pencils: 4</div>
-                        <div>Blue pencils: 7</div>
-                        <div>Green pencils: 2</div>
-                    </div>
-                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 1px dashed #ccc;">
-                        <div style="text-align: center; padding-top: 80px;">Draw your pictograph here</div>
-                    </div>
-                    <div style="margin-top: 10px;">
-                        Title: <span class="answer-space" style="width: 200px;"></span>
+                        <div>a. How many students like Math? _____</div>
+                        <div>b. How many students like Reading? _____</div>
+                        <div>c. Which subject is the most popular? _____</div>
+                        <div>d. Which subject is the least popular? _____</div>
+                        <div>e. How many more students like Reading than Science? _____</div>
+                        <div>f. How many students were surveyed in total? _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Animal Survey</strong></p>
+                <p><strong>Part B: Transportation Pictograph</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Survey your table: Favorite animal (Dog, Cat, Bird). Create a pictograph:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Dog: <span class="answer-space" style="width: 60px;"></span></div>
-                        <div>Cat: <span class="answer-space" style="width: 60px;"></span></div>
-                        <div>Bird: <span class="answer-space" style="width: 60px;"></span></div>
-                    </div>
-                    <div style="margin-top: 10px;">
-                        Choose your symbol: <span class="answer-space" style="width: 100px;"></span>
-                    </div>
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 1px dashed #ccc;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Shape Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw these pictographs using different symbols:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Using △ for 3 balls: <span class="answer-space" style="width: 120px; height: 30px;"></span></div>
-                        <div>Using □ for 6 books: <span class="answer-space" style="width: 120px; height: 30px;"></span></div>
-                        <div>Using ☆ for 4 stars: <span class="answer-space" style="width: 120px; height: 30px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Check Your Work</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Circle YES or NO for each statement:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My pictograph has a title ☐ YES ☐ NO</div>
-                        <div>My symbols are the same size ☐ YES ☐ NO</div>
-                        <div>My key explains the symbols ☐ YES ☐ NO</div>
-                        <div>The number of symbols matches the data ☐ YES ☐ NO</div>
-                    </div>
-                </div>
-            </div>
-        `,
-        homework: "Create a pictograph showing how many chairs are in 3 different rooms of your home. Include title and key.",
-        homeworkDue: "Thursday"
-    },
-    
-    thursday: {
-        subject: "Mathematics",
-        topic: "Interpreting Data (Reading the Chart)",
-        subtopic: "Answering questions based on an existing pictograph",
-        lessonContent: `
-            <p>Today we will become data detectives! We'll learn how to read pictographs and find information.</p>
-            <p><strong>Key Concept:</strong> Pictographs help us see patterns and compare information quickly.</p>
-            <p><strong>Questions we can answer from a pictograph:</strong></p>
-            <ul>
-                <li>Which category has the most?</li>
-                <li>Which category has the fewest?</li>
-                <li>How many more does one category have than another?</li>
-                <li>What is the total number of items?</li>
-            </ul>
-            <p><strong>Today's pictograph:</strong> "Weather This Week" showing Sunny, Rainy, and Cloudy days.</p>
-            <p><strong>Reading tips:</strong></p>
-            <ol>
-                <li>Look at the title to know what the graph shows</li>
-                <li>Check the key to understand what each symbol means</li>
-                <li>Count symbols carefully in each row</li>
-                <li>Compare the rows to answer questions</li>
-            </ol>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-sun" style="color: #f39c12;"></i> Weather Graph</div>
-                <p>Weather This Week:</p>
-                <p>Sunny: ☀️☀️☀️☀️ (4 days)</p>
-                <p>Rainy: 🌧️🌧️ (2 days)</p>
-                <p>Cloudy: ☁️☁️☁️ (3 days)</p>
-                <p>Key: ☀️ = 1 sunny day</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-question-circle"></i> Sample Questions</div>
-                <p>From the weather graph:</p>
-                <p>Q: Which weather happened most? A: Sunny (4 days)</p>
-                <p>Q: How many rainy days? A: 2 days</p>
-                <p>Q: Total days recorded? A: 4+2+3 = 9 days</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Graph Detective Game!</div>
-                <p>I'll show a pictograph for 10 seconds. Then I'll ask questions. Can you remember the answers?</p>
-            </div>
-        `,
-        taskInstructions: "Answer questions based on the pictographs shown.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Weather Graph Analysis</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Use this pictograph (Key: ☀️ = 1 sunny day):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Week 1: ☀️☀️☀️</div>
-                        <div>Week 2: ☀️☀️☀️☀️☀️</div>
-                        <div>Week 3: ☀️☀️</div>
+                    <span class="task-number">2</span> The pictograph shows how students get to school. <strong>Key:</strong> 🚌 = 3 students
+                    <div style="margin-left: 20px; margin-top: 10px; background-color: #f5f5f5; padding: 15px;">
+                        <p>Bus: 🚌 🚌 🚌</p>
+                        <p>Car: 🚗 🚗</p>
+                        <p>Walk: 🚶 🚶 🚶 🚶</p>
+                        <p>Bike: 🚲</p>
                     </div>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Which week had the most sunny days? <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>Which week had the fewest sunny days? <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>How many sunny days in Week 1? <span class="answer-space" style="width: 50px;"></span></div>
-                        <div>Total sunny days in all weeks? <span class="answer-space" style="width: 50px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Book Reading Chart</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Analyze this book reading chart (Key: 📚 = 2 books read):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Maya: 📚📚📚</div>
-                        <div>Leo: 📚📚</div>
-                        <div>Zara: 📚📚📚📚</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>How many books did Maya read? <span class="answer-space" style="width: 50px;"></span></div>
-                        <div>How many books did Leo read? <span class="answer-space" style="width: 50px;"></span></div>
-                        <div>Who read the most books? <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>How many more books did Zara read than Leo? <span class="answer-space" style="width: 50px;"></span></div>
+                        <div>a. How many students take the bus? _____</div>
+                        <div>b. How many students walk to school? _____</div>
+                        <div>c. How many more students walk than ride a bike? _____</div>
+                        <div>d. Which way do most students get to school? _____</div>
                     </div>
                 </div>
             </div>
@@ -373,149 +265,194 @@ const grade2MathScienceWeek7 = {
             <div class="content-box">
                 <p><strong>Part C: Create Questions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Look at this pictograph and write 2 questions about it:
+                    <span class="task-number">3</span> Look at the pictograph you made on Tuesday. Write two questions for a friend to answer:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Find a pictograph in a book, magazine, or online (with help from an adult). Write three things you learned from it.",
+        homeworkDue: "Thursday"
+    },
+    
+    thursday: {
+        subject: "Mathematics & Science",
+        topic: "Health Science",
+        subtopic: "Exploring Common Diseases in the Community",
+        lessonContent: `
+            <p>Today we'll learn about common diseases that people in our community sometimes get, and how we can stay healthy!</p>
+            <p><strong>Key Question:</strong> What are some common diseases, and how do we know if someone has them?</p>
+            <p><strong>Introduction:</strong> A disease is when our body doesn't work the way it should. Some diseases spread from person to person. These are called infectious diseases.</p>
+            <p><strong>Common Diseases:</strong></p>
+            <ol>
+                <li><strong>Malaria:</strong> A disease spread by mosquito bites. Causes fever, chills, and feeling very tired.</li>
+                <li><strong>TB (Tuberculosis):</strong> A lung disease that spreads through coughing and sneezing. Causes coughing, fever, and weight loss.</li>
+                <li><strong>Common Cold:</strong> A virus that causes sneezing, runny nose, and sore throat. It spreads through the air and by touching things.</li>
+                <li><strong>Flu (Influenza):</strong> Similar to a cold but worse. Causes high fever, body aches, and feeling very weak.</li>
+                <li><strong>Stomach Flu (Gastroenteritis):</strong> Causes vomiting and diarrhea. Spreads through contaminated food or water.</li>
+            </ol>
+            <p><strong>How to Stay Healthy:</strong> Wash hands, get vaccines, eat healthy food, and sleep well!</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-mosquito"></i> Malaria Facts</div>
+                <p>Malaria is spread by female Anopheles mosquitoes. Sleeping under a mosquito net helps prevent malaria!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-tissue"></i> Colds Are Common</div>
+                <p>Most children get 6-8 colds every year! Washing your hands well can help prevent spreading colds to others.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Community Care</div>
+                <p>When someone is sick, we can help by giving them space to rest, bringing them water, and reminding them to see a doctor if needed.</p>
+            </div>
+        `,
+        taskInstructions: "Identify common diseases by their symptoms and learn how to stay healthy.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Match the Disease to the Symptom</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw lines to match each disease with its symptoms:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Favorite Snack:</div>
-                        <div>Apple: 🍎🍎🍎🍎</div>
-                        <div>Cookie: 🍪🍪🍪🍪🍪🍪</div>
-                        <div>Carrot: 🥕🥕🥕</div>
-                        <div>Key: Each symbol = 1 vote</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>• Malaria</div>
+                                <div>• Common Cold</div>
+                                <div>• TB (Tuberculosis)</div>
+                                <div>• Flu (Influenza)</div>
+                            </div>
+                            <div>
+                                <div>→ Cough that lasts long, fever, weight loss</div>
+                                <div>→ Fever, chills, headache (from mosquito bite)</div>
+                                <div>→ High fever, body aches, very tired</div>
+                                <div>→ Sneezing, runny nose, sore throat</div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: How Do We Get These Diseases?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete the sentences:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Question 1: <span class="answer-space" style="width: 250px;"></span></div>
-                        <div>Question 2: <span class="answer-space" style="width: 250px;"></span></div>
+                        <div>a. Malaria is spread by _______________.</div>
+                        <div>b. Colds and flu spread through _______________ and _______________.</div>
+                        <div>c. TB spreads when someone _______________ or _______________.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: True or False</strong></p>
+                <p><strong>Part C: Disease Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Based on the snack pictograph above, mark True or False:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Cookies got the most votes ☐ True ☐ False</div>
-                        <div>Apples got 3 votes ☐ True ☐ False</div>
-                        <div>Carrots got fewer votes than apples ☐ True ☐ False</div>
-                        <div>Total votes were 13 ☐ True ☐ False</div>
-                    </div>
+                    <span class="task-number">3</span> Draw a picture showing one way to prevent a disease (example: using a mosquito net, washing hands, covering your mouth when coughing):
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write one sentence explaining your drawing:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find a chart or graph in a newspaper or magazine. Write down 3 things you learn from looking at it.",
+        homework: "Ask an adult at home: Have you or someone in our family ever had malaria or TB? What happened and how was it treated?",
         homeworkDue: "Friday"
     },
     
     friday: {
-        subject: "Mathematics",
-        topic: "Data Review and Practice",
-        subtopic: "Independent practice collecting data and creating pictographs",
+        subject: "Mathematics & Science",
+        topic: "Health Science",
+        subtopic: "Identifying Causes of Common Diseases",
         lessonContent: `
-            <p>Today is our data celebration day! We'll use all our skills to complete a full data project.</p>
-            <p><strong>Key Concept:</strong> Data collection helps us understand our world better.</p>
-            <p><strong>The full data process:</strong></p>
-            <ol>
-                <li>Ask a question</li>
-                <li>Collect data (use tally marks)</li>
-                <li>Organize the data</li>
-                <li>Create a pictograph</li>
-                <li>Interpret and share what you learned</li>
-            </ol>
-            <p><strong>Today's question:</strong> How many shoes in our room have laces vs. no laces?</p>
-            <p><strong>Working in pairs:</strong> You and your partner will:</p>
+            <p>Today we'll learn what causes common diseases and how we can prevent them!</p>
+            <p><strong>Key Question:</strong> What makes people get sick, and how can we stop it?</p>
+            <p><strong>What Causes Diseases?</strong> Most common diseases are caused by tiny germs called <strong>germs</strong>. There are different types of germs:</p>
             <ul>
-                <li>Count shoes in your area</li>
-                <li>Record data using tally marks</li>
-                <li>Create a pictograph on paper</li>
-                <li>Present your findings to the class</li>
+                <li><strong>Viruses:</strong> Cause colds, flu, and COVID-19. They need a living host to survive.</li>
+                <li><strong>Bacteria:</strong> Some bacteria cause diseases like TB and strep throat.</li>
+                <li><strong>Parasites:</strong> Tiny organisms that live on or inside other creatures. The malaria parasite is spread by mosquitoes.</li>
             </ul>
-            <p><strong>Remember:</strong> Check your counting! Make sure your symbols match your numbers.</p>
+            <p><strong>How Do Germs Spread?</strong></p>
+            <ol>
+                <li><strong>Through the air:</strong> When someone coughs or sneezes</li>
+                <li><strong>Through touch:</strong> Touching things that have germs on them</li>
+                <li><strong>Through animals/insects:</strong> Mosquitoes spread malaria</li>
+                <li><strong>Through food and water:</strong> Eating contaminated food or drinking dirty water</li>
+            </ol>
+            <p><strong>How to Prevent Diseases:</strong> Wash hands, cover coughs, get vaccines, use mosquito nets, drink clean water, eat healthy food.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shoe-prints"></i> Shoe Data Example</div>
-                <p>Shoes with laces: 卌 卌 || (12)</p>
-                <p>Shoes without laces: 卌 ||| (8)</p>
-                <p>Key: 👟 = 2 shoes</p>
-                <p>Graph would show: Laces: 👟👟👟👟👟👟 (6 symbols = 12 shoes)</p>
+                <div class="example-title"><i class="fas fa-hand-holding-water"></i> Hand Washing Works!</div>
+                <p>Washing your hands with soap for 20 seconds (sing "Happy Birthday" twice) kills almost all germs on your hands!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-pie"></i> Presentation Tips</div>
-                <p>When sharing with class:</p>
-                <p>1. Show your pictograph clearly</p>
-                <p>2. Share your most interesting finding</p>
-                <p>3. Explain your counting method</p>
-                <p>4. Tell if anything surprised you</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Clean Water Matters</div>
+                <p>Drinking clean, boiled, or treated water prevents stomach diseases like diarrhea and cholera.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Data Scavenger Hunt!</div>
-                <p>Find items in the room that match different categories. First pair to complete all categories wins!</p>
+                <div class="example-title"><i class="fas fa-bed"></i> Mosquito Nets Save Lives</div>
+                <p>Sleeping under a mosquito net can reduce the chance of getting malaria by more than 50%!</p>
             </div>
         `,
-        taskInstructions: "Complete the full data project with your partner.",
+        taskInstructions: "Identify causes of diseases and create a prevention poster.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Data Collection</strong></p>
+                <p><strong>Part A: What Causes the Disease?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> With your partner, count shoes in your assigned area:
+                    <span class="task-number">1</span> Write the cause of each disease:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Shoes WITH laces: <span class="answer-space" style="width: 100px;"></span> (tally: <span class="answer-space" style="width: 80px;"></span>)</div>
-                        <div>Shoes WITHOUT laces: <span class="answer-space" style="width: 100px;"></span> (tally: <span class="answer-space" style="width: 80px;"></span>)</div>
-                        <div>Total shoes counted: <span class="answer-space" style="width: 80px;"></span></div>
+                        <div>a. Malaria is caused by: _______________ (spread by _______________)</div>
+                        <div>b. Common cold is caused by: _______________</div>
+                        <div>c. TB (Tuberculosis) is caused by: _______________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Create Your Pictograph</strong></p>
+                <p><strong>Part B: How Does It Spread?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> On a separate paper, create a pictograph of your shoe data:
+                    <span class="task-number">2</span> Match each disease with how it spreads:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Title: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Symbol choice: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Key: <span class="answer-space" style="width: 150px;"></span> = <span class="answer-space" style="width: 50px;"></span> shoe(s)</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>• Malaria</div>
+                                <div>• Cold/Flu</div>
+                                <div>• Stomach diseases</div>
+                            </div>
+                            <div>
+                                <div>→ Contaminated food/water</div>
+                                <div>→ Mosquito bites</div>
+                                <div>→ Coughing, sneezing, touching</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 1px dashed #ccc;">
-                        <div style="text-align: center; padding-top: 90px;">Create your pictograph here or on separate paper</div>
-                    </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Analysis Questions</strong></p>
+                <p><strong>Part C: Disease Prevention Poster</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Answer these questions about your data:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Which type of shoe was more common? <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>How many more of that type were there? <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>What percentage of shoes had laces? <span class="answer-space" style="width: 80px;"></span>%</div>
-                        <div>Was your counting method accurate? How do you know? <span class="answer-space" style="width: 250px; height: 40px;"></span></div>
-                    </div>
+                    <span class="task-number">3</span> Create a "How to Stay Healthy" poster showing 3 ways to prevent diseases:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Compare with Another Pair</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Share data with another pair. Record their results:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Their shoes with laces: <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>Their shoes without laces: <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>Were your results similar? ☐ Yes ☐ No</div>
-                        <div>Possible reasons for differences: <span class="answer-space" style="width: 250px; height: 40px;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> What is one new thing you learned this week about staying healthy?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Data Detective Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a data detective. Write one thing you learned this week:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This week I learned that data collection is important because ________________</div>
+                    <span class="task-number">5</span> What will you do differently to prevent getting sick?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a survey question for your family. Collect data and make a pictograph to share on Monday.",
+        homework: "Teach your family one thing you learned about preventing diseases. Draw a picture of you teaching them, or write about what you taught.",
         homeworkDue: "Monday"
     }
 };
@@ -523,23 +460,23 @@ const grade2MathScienceWeek7 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2MathScienceWeek7);
-    console.log("mathscience-week7.js registered using registerWorksheet()");
+    console.log("grade2-math-science-week7.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2MathScienceWeek7);
-    console.log("mathscience-week7.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-math-science-week7.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade2MathScienceWeek2',
+        variableName: 'grade2MathScienceWeek7',
         metadata: grade2MathScienceWeek7.metadata,
         days: grade2MathScienceWeek7
     });
-    console.log("mathscience-week7.js stored in window.registeredWorksheets");
+    console.log("grade2-math-science-week7.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade2MathScienceWeek2 = grade2MathScienceWeek2;
-console.log("mathscience-week7.js loaded and registered successfully");
+window.grade2MathScienceWeek7 = grade2MathScienceWeek7;
+console.log("grade2-math-science-week7.js loaded and registered successfully");

@@ -1,466 +1,473 @@
-// Grade 2 Mathematics & Science - Week 10 Data (Caring for Our Environment)
-const grade2MathScienceWeek10 = {
+// Grade 2 Mathematics & Science - Term 1 Week 10 Data
+const grade2MathsScienceWeek10 = {
     metadata: {
         grade: 2,
         subject: "Mathematics & Science",
+        term: 1,
         week: 10,
-        title: "Caring for Our Environment — Science and Math Together",
-        description: "Learning about environmental care through science concepts and math activities"
+        title: "Body Functions & Relations",
+        description: "Exploring internal organs, sense of smell, one-to-one/one-to-many relations, and measurement comparisons"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "Why We Care for Our World",
-        subtopic: "Understanding importance of environment and counting natural resources",
+        topic: "Human Biology",
+        subtopic: "Internal Organs - Molding Activity",
         lessonContent: `
-            <p>Welcome to our special week about caring for our environment! Today we will learn why plants, clean air, and clean water are important for our health.</p>
-            <p><strong>Key Concept:</strong> Our world needs our help to stay clean and healthy for everyone.</p>
-            <p><strong>Why do we care about the environment?</strong></p>
-            <ul>
-                <li>Clean air helps us breathe easily</li>
-                <li>Clean water keeps us healthy</li>
-                <li>Plants give us oxygen and food</li>
-                <li>A clean environment makes us happy</li>
-            </ul>
-            <p><strong>Math Connection:</strong> We can use counting to understand how many natural resources we have!</p>
-            <p><strong>Today's outdoor activity:</strong> We'll take a nature walk to count different natural items around our school.</p>
+            <p>Welcome to our exciting exploration of what's inside our bodies! Today we'll learn about our amazing internal organs through hands-on modeling.</p>
+            <p><strong>Key Question:</strong> What important organs are hidden inside our bodies?</p>
+            <p><strong>Introduction:</strong> Our bodies have special parts inside called <strong>organs</strong>. Each organ has an important job to help us live, grow, and play!</p>
+            <p><strong>Main Organs We'll Learn Today:</strong></p>
+            <ol>
+                <li><strong>Brain:</strong> The boss of your body - controls everything you do!</li>
+                <li><strong>Heart:</strong> Your body's pump - pushes blood all around</li>
+                <li><strong>Lungs:</strong> Help you breathe in air</li>
+                <li><strong>Stomach:</strong> Where your food goes after you eat</li>
+            </ol>
+            <p><strong>Fun Fact:</strong> Your heart is about the size of your fist. Make a fist - that's how big your heart is!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Nature Counting</div>
-                <p>"I count 5 trees and 10 flowers!" - This helps us appreciate how much nature is around us.</p>
+                <div class="example-title"><i class="fas fa-brain"></i> Brain Power</div>
+                <p>Your brain works even when you're sleeping! It controls your breathing, dreaming, and even helps you grow.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-wind" style="color: #03A9F4;"></i> Clean Air Importance</div>
-                <p>We breathe about 20 times every minute! Clean air helps our lungs stay healthy.</p>
+                <div class="example-title"><i class="fas fa-heartbeat"></i> Heart Beat</div>
+                <p>Put your hand on your chest. Can you feel your heart beating? It beats about 100,000 times every day!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Nature Hunt Game!</div>
-                <p>We'll go on a nature counting hunt! Find and count different natural items around our school.</p>
+                <div class="example-title"><i class="fas fa-lungs"></i> Lungs at Work</div>
+                <p>When you run and play, your lungs work harder to give your body more air. That's why you breathe faster!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities about caring for our world and counting nature.",
+        taskInstructions: "Mold internal organs using clay, playdough, or balloons.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the things that help our environment stay healthy:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Clean air</div>
-                    <div>☐ Litter on the ground</div>
-                    <div>☐ Clean water</div>
-                    <div>☐ Healthy trees</div>
-                    <div>☐ Plastic bags in trees</div>
+            <div class="content-box">
+                <p><strong>Part A: Organ Modeling</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Use clay, playdough, or balloons to mold these organs:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• <strong>Brain</strong> - Shape it like a wrinkled walnut</div>
+                        <div>• <strong>Heart</strong> - Shape it like a fist or upside-down pear</div>
+                        <div>• <strong>Lungs</strong> - Make two sponge-like shapes</div>
+                        <div>• <strong>Stomach</strong> - Shape it like a curved bag or letter 'J'</div>
+                    </div>
+                    <div class="modeling-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc; background: #f9f9f9; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #999;">[Place your clay/playdough models here]</span>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Nature Counting Hunt (Outdoor Activity):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Count how many you find:</div>
-                    <div>Trees: _______ Flowers: _______ Birds: _______</div>
-                    <div>Butterflies: _______ Clouds: _______</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Organ Placement</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> On the body outline below, place your molded organs in the correct positions:
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <p style="text-align: center; color: #999; padding-top: 100px;">[Body outline - place your organs here]</p>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Draw one way you can help the environment:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">I can help by: ________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Complete the sentence:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <div>The environment needs our help to stay <span class="answer-space" style="width: 100px;"></span>.</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Share and Describe</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Show your model to a friend and name each organ you made:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Count 5 natural things you see on your way home. Tell someone at home why clean air is important.",
+        homework: "Show your clay organs to your family. Tell them the name of each organ and where it goes in the body.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Picking Up Litter and Sorting Waste",
-        subtopic: "Cleanup walk and categorizing waste using math",
+        topic: "Human Biology",
+        subtopic: "Matching Internal Parts to Functions",
         lessonContent: `
-            <p>Today we will learn about keeping our environment clean by picking up litter and sorting waste properly.</p>
-            <p><strong>Key Concept:</strong> Different types of waste go in different bins to help recycling.</p>
-            <p><strong>What is litter?</strong> Litter is trash that people leave on the ground instead of putting in bins.</p>
-            <p><strong>Why is litter bad?</strong></p>
+            <p>Today we'll discover what each organ does! Every organ has a special job called its <strong>function</strong>.</p>
+            <p><strong>Key Question:</strong> What job does each organ do to help our bodies?</p>
+            <p><strong>Organs and Their Functions:</strong></p>
             <ul>
-                <li>It can harm animals</li>
-                <li>It makes our environment look messy</li>
-                <li>It can pollute our soil and water</li>
-                <li>It takes a long time to break down</li>
+                <li><strong>Brain → Thinking</strong> - The brain helps you think, remember, solve problems, and feel emotions</li>
+                <li><strong>Heart → Pumping Blood</strong> - The heart pumps blood to every part of your body</li>
+                <li><strong>Lungs → Breathing</strong> - The lungs take in oxygen and release carbon dioxide</li>
+                <li><strong>Stomach → Digesting Food</strong> - The stomach breaks down food into energy</li>
             </ul>
-            <p><strong>Math Connection:</strong> We'll use counting and comparing to sort the litter we collect!</p>
-            <p><strong>Today's activity:</strong> We'll go on a "Cleanup Walk" around our school yard and sort what we find.</p>
+            <p><strong>Why This Matters:</strong> Understanding what each organ does helps us take care of our bodies. Eating healthy food, exercising, and getting enough sleep keep our organs working well!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash" style="color: #795548;"></i> Waste Sorting</div>
-                <p>Plastic bottles → Recycling Bin | Paper → Paper Bin | Food waste → Compost Bin</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Match Game</div>
+                <p>If your brain is the "computer," your heart is the "battery," your lungs are the "air filter," and your stomach is the "fuel tank"!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping" style="color: #FF9800;"></i> Team Cleanup</div>
-                <p>Working together makes cleanup faster and more fun! Many hands make light work.</p>
+                <div class="example-title"><i class="fas fa-tasks"></i> Team Work</div>
+                <p>All your organs work together like a team. When you run, your brain tells your legs to move, your heart beats faster, your lungs breathe more, and your stomach digests food for energy!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Cleanup Race Game!</div>
-                <p>We'll work in teams to clean different areas. Which team can collect the most litter safely?</p>
+                <div class="example-title"><i class="fas fa-lightbulb"></i> Brain Jobs</div>
+                <p>Your brain helps you read these words, remember your friend's name, feel happy, and even wiggle your toes - all at the same time!</p>
             </div>
         `,
-        taskInstructions: "Participate in the cleanup walk and sort the waste we collect.",
+        taskInstructions: "Match each internal organ to its correct function.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Cleanup Walk Data Collection</strong></p>
+                <p><strong>Part A: Match the Organ to Its Job</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> During our cleanup walk, count what you find:
+                    <span class="task-number">1</span> Draw a line connecting each organ to what it does:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Plastic pieces: _______</div>
-                        <div>Paper pieces: _______</div>
-                        <div>Other items: _______</div>
-                        <div>Total items: _______</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Brain</div>
+                                <div>• Heart</div>
+                                <div>• Lungs</div>
+                                <div>• Stomach</div>
+                            </div>
+                            <div>
+                                <div>→ Pumps blood</div>
+                                <div>→ Helps you think</div>
+                                <div>→ Digests food</div>
+                                <div>→ Helps you breathe</div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Waste Sorting Math</strong></p>
+                <p><strong>Part B: Fill in the Blank</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Compare what we found (use >, <, or =):
+                    <span class="task-number">2</span> Complete each sentence with the correct organ:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Plastic pieces _______ Paper pieces</div>
-                        <div>Circle which was more: ☐ Plastic ☐ Paper</div>
+                        <div>A. My _________ helps me solve math problems.</div>
+                        <div>B. My _________ pushes blood through my body.</div>
+                        <div>C. My _________ helps me breathe when I run.</div>
+                        <div>D. My _________ breaks down the food I eat.</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Proper Disposal</strong></p>
+                <p><strong>Part C: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw lines to match waste with the correct bin:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Plastic bottle → ☐ Paper Recycling</div>
-                        <div>Newspaper → ☐ Plastic Recycling</div>
-                        <div>Banana peel → ☐ General Waste</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Clean Environment Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture of our school yard AFTER cleanup:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>A clean environment makes me feel: <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
+                    <span class="task-number">3</span> Draw a picture of your favorite organ and write what it does:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Help sort recycling at home tonight. Count how many plastic items vs. paper items you find.",
+        homework: "Tell your family one new thing you learned about what each organ does. Ask them which organ they think is most important!",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Planting for the Future",
-        subtopic: "Planting trees/seeds and measuring placement",
+        topic: "Senses",
+        subtopic: "Identifying Suitable Objects Using Sense of Smell",
         lessonContent: `
-            <p>Today is planting day! We will learn how planting trees helps our environment and use measurement to plant properly.</p>
-            <p><strong>Key Concept:</strong> Trees are Earth's lungs - they help us breathe by making oxygen.</p>
-            <p><strong>Why do we plant trees?</strong></p>
+            <p>Today we'll use our sense of smell to explore the world around us! Our noses can tell us important things about safety and enjoyment.</p>
+            <p><strong>Key Question:</strong> How can our sense of smell help us identify pleasant and unpleasant things?</p>
+            <p><strong>Introduction:</strong> Your nose is an amazing organ! It can detect thousands of different smells. Some smells are <strong>pleasant</strong> (good) and some are <strong>unpleasant</strong> (bad).</p>
+            <p><strong>Why Smell Matters:</strong></p>
             <ul>
-                <li>Trees clean the air we breathe</li>
-                <li>They provide shade and keep areas cool</li>
-                <li>They give homes to birds and animals</li>
-                <li>They help prevent soil erosion</li>
+                <li>Helps us enjoy food (think of cookies baking!)</li>
+                <li>Warns us of danger (like smoke or spoiled food)</li>
+                <li>Helps us remember things (a smell can bring back a memory)</li>
+                <li>Makes experiences better (flowers, fresh rain, clean laundry)</li>
             </ul>
-            <p><strong>Math Connection:</strong> We'll use measurement to space our plants properly so they have room to grow!</p>
-            <p><strong>Measurement Tools:</strong> We can use hand-spans, feet, or simple rulers to measure distance.</p>
-            <p><strong>Today's activity:</strong> We'll plant seeds or a small tree together as a class!</p>
+            <p><strong>Safety First:</strong> Never smell something unless a grown-up says it's safe!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-seedling" style="color: #8BC34A;"></i> Proper Spacing</div>
-                <p>"Each seed needs 2 hand-spans of space" - This gives roots room to grow without competition.</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Pleasant Smells</div>
+                <p>What smells make you happy? Fresh baked bread, chocolate, flowers, oranges, cinnamon, or clean soap? These are pleasant smells!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler" style="color: #9C27B0;"></i> Measuring with Body Parts</div>
-                <p>We can use our hands, feet, or steps to measure when we don't have a ruler!</p>
+                <div class="example-title"><i class="fas fa-face-frown"></i> Unpleasant Smells</div>
+                <p>Some smells warn us something is wrong: rotten eggs, spoiled milk, smoke, or trash. These unpleasant smells help keep us safe!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Planting Relay!</div>
-                <p>We'll work in teams to plant seeds with proper spacing. Each team must measure carefully!</p>
+                <div class="example-title"><i class="fas fa-microphone"></i> Smell Words</div>
+                <p>Use describing words for smells: sweet, sour, fruity, flowery, smoky, stinky, fresh, spicy, minty, or earthy.</p>
             </div>
         `,
-        taskInstructions: "Participate in planting and practice measurement skills.",
+        taskInstructions: "Identify and sort objects by pleasant and unpleasant smells.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Planting Preparation</strong></p>
+                <p><strong>Part A: Smell Exploration</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> What do plants need to grow? Circle all correct answers:
+                    <span class="task-number">1</span> With teacher guidance, smell each container (never put your nose directly in - wave the smell toward you):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Sunlight</div>
-                        <div>☐ Water</div>
-                        <div>☐ Soil/Nutrients</div>
-                        <div>☐ Space to grow</div>
-                        <div>☐ Plastic covering</div>
+                        <div>• Flower petals or perfume → Pleasant / Unpleasant</div>
+                        <div>• Orange or lemon peel → Pleasant / Unpleasant</div>
+                        <div>• Vinegar → Pleasant / Unpleasant</div>
+                        <div>• Chocolate or vanilla → Pleasant / Unpleasant</div>
+                        <div>• Coffee grounds → Pleasant / Unpleasant</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sorting Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw or write 3 things with pleasant smells and 3 things with unpleasant smells:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px;">
+                        <div style="border: 1px solid #4CAF50; padding: 10px;">
+                            <strong style="color: #4CAF50;">✓ Pleasant Smells (Good)</strong>
+                            <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
+                        </div>
+                        <div style="border: 1px solid #f44336; padding: 10px;">
+                            <strong style="color: #f44336;">✗ Unpleasant Smells (Bad)</strong>
+                            <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Measurement Practice</strong></p>
+                <p><strong>Part C: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure these items using hand-spans:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Your desk: _______ hand-spans</div>
-                        <div>Our planting area: _______ hand-spans</div>
-                        <div>Space between seeds (should be): _______ hand-spans</div>
-                    </div>
+                    <span class="task-number">3</span> Why is it helpful that our nose can tell us if a smell is pleasant or unpleasant?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Planting Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw where we planted our seeds/tree. Mark the measurements:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>We planted _______ seeds/tree today.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Tree Benefits</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Complete the sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Trees help the environment by making <span class="answer-space" style="width: 100px;"></span> (what we breathe).</div>
-                        <div>Trees help keep areas <span class="answer-space" style="width: 100px;"></span> by providing shade.</div>
-                        <div>In 5 years, our tree will be about <span class="answer-space" style="width: 100px;"></span> times taller!</div>
-                    </div>
+                    <span class="task-number">4</span> What is your favorite pleasant smell? Why do you like it?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Measure 3 things at home using hand-spans. Draw or tell about one tree near your home.",
+        homework: "At home, find 3 pleasant smells and 3 unpleasant smells. Draw or write about them to share with the class.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Cleaning Our Surroundings",
-        subtopic: "Zone cleaning and understanding area",
+        topic: "Relations",
+        subtopic: "One-to-One and One-to-Many Relations",
         lessonContent: `
-            <p>Today we will learn about cleaning our surroundings and understanding the concept of area through teamwork.</p>
-            <p><strong>Key Concept:</strong> Every space has an area that needs care and cleaning.</p>
-            <p><strong>What is area?</strong> Area is how much space a surface covers. We can measure it in squares.</p>
-            <p><strong>Cleaning as a team:</strong></p>
+            <p>Today we'll learn about how things can be related to each other in special ways!</p>
+            <p><strong>Key Question:</strong> How can we match things as "one-to-one" or "one-to-many"?</p>
+            <p><strong>Introduction:</strong> We can show relationships between things using matching. Sometimes one thing matches with one other thing. Sometimes one thing matches with many things!</p>
+            <p><strong>One-to-One Relation:</strong></p>
             <ul>
-                <li>Working together makes big jobs smaller</li>
-                <li>Each person can be responsible for a zone</li>
-                <li>Clean spaces help us think better and stay healthy</li>
-                <li>We can prevent germs from spreading</li>
+                <li>Each item matches with exactly ONE other item</li>
+                <li>Examples: One nose → one face, one heart → one body, one student → one desk</li>
             </ul>
-            <p><strong>Math Connection:</strong> We'll divide our classroom into zones (rectangles) and each group will care for one area.</p>
-            <p><strong>Today's activity:</strong> Zone cleaning challenge - each group cleans their assigned area!</p>
+            <p><strong>One-to-Many Relation:</strong></p>
+            <ul>
+                <li>One item matches with MANY other items</li>
+                <li>Examples: One teacher → many students, one mother → many children, one pizza → many slices</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-broom" style="color: #607D8B;"></i> Zone Cleaning</div>
-                <p>"Our group cleaned Zone 3, which is 4 desks by 2 desks" - That's 8 desk areas total!</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> One-to-One in Your Body</div>
+                <p>Your body has many one-to-one relations: 1 nose → 1 face, 1 mouth → 1 face, 1 belly button → 1 person!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #2196F3;"></i> Teamwork Math</div>
-                <p>If 4 students clean 8 desks, each student cleans 2 desks. That's division in action!</p>
+                <div class="example-title"><i class="fas fa-chalkboard-teacher"></i> One-to-Many at School</div>
+                <p>One principal is in charge of many students. One bus takes many children to school. One lunch lady serves many hungry students!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Clean Zone Challenge!</div>
-                <p>Which team can make their zone the cleanest? We'll vote on the most improved area!</p>
+                <div class="example-title"><i class="fas fa-spider"></i> Nature's Relations</div>
+                <p>One spider spins many webs. One bee visits many flowers. One tree provides homes for many birds.</p>
             </div>
         `,
-        taskInstructions: "Work with your group to clean your assigned zone and complete the area activities.",
+        taskInstructions: "Identify and demonstrate one-to-one and one-to-many relations.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Zone Assignment</strong></p>
+                <p><strong>Part A: One-to-One Relations</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Your group's cleaning zone:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Zone Number: _______</div>
-                        <div>Area size: _______ desks wide by _______ desks long</div>
-                        <div>Total desks in your zone: _______</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Cleaning Checklist</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Check what your group cleaned:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Desks wiped</div>
-                        <div>☐ Floor swept</div>
-                        <div>☐ Books organized</div>
-                        <div>☐ Recycling sorted</div>
-                        <div>☐ Supplies neat</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Area Calculation</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Calculate the area of different zones:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Zone 1: 3 desks × 2 desks = _______ desk areas</div>
-                        <div>Zone 2: 4 desks × 2 desks = _______ desk areas</div>
-                        <div>Zone 3: 2 desks × 3 desks = _______ desk areas</div>
-                        <div>Circle which zone has the largest area: ☐ Zone 1 ☐ Zone 2 ☐ Zone 3</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Before and After Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw your zone BEFORE and AFTER cleaning:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">BEFORE</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
+                    <span class="task-number">1</span> Draw lines to match each item to its one matching partner:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px;">
+                        <div>
+                            <div>• Shoe</div>
+                            <div>• Key</div>
+                            <div>• Sock</div>
+                            <div>• Toothbrush</div>
                         </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">AFTER</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
+                        <div>
+                            <div>→ Lock</div>
+                            <div>→ Foot</div>
+                            <div>→ Toothpaste</div>
+                            <div>→ Other sock</div>
                         </div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: One-to-Many Relations</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw lines from one thing to many things it connects with:
                     <div style="margin-top: 10px;">
-                        <div>A clean classroom helps us learn better because: <span class="answer-space" style="width: 200px;"></span></div>
+                        <div>• One flower → many _________</div>
+                        <div>• One library → many _________</div>
+                        <div>• One cookie jar → many _________</div>
+                        <div>• One crayon box → many _________</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Draw Your Own Examples</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw an example of ONE-TO-ONE relation:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw an example of ONE-TO-MANY relation:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Clean one small area at home (like your desk or a shelf). Measure it using hand-spans.",
+        homework: "Find 2 examples of one-to-one and 2 examples of one-to-many relations in your home. Draw or write about them.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "Designing Awareness Flyers",
-        subtopic: "Creating environmental posters with shapes and math facts",
+        topic: "Relations",
+        subtopic: "Comparing Measure Relations and Matching Sets Using Arrows",
         lessonContent: `
-            <p>Today is our environmental awareness day! We'll create flyers to teach others how to care for our world.</p>
-            <p><strong>Key Concept:</strong> We can use art and math together to spread important messages.</p>
-            <p><strong>What makes a good awareness flyer?</strong></p>
+            <p>Today we'll compare things by size and length, and learn how to match sets using arrows!</p>
+            <p><strong>Key Question:</strong> How can we compare things that are big/small or long/short? How do we show matches?</p>
+            <p><strong>Comparing Measurements:</strong></p>
             <ul>
-                <li>Clear, simple message</li>
-                <li>Bright colors to attract attention</li>
-                <li>Pictures that explain the message</li>
-                <li>Important facts or numbers</li>
+                <li><strong>Big / Small:</strong> We compare how large something is</li>
+                <li><strong>Long / Short:</strong> We compare how much length something has</li>
+                <li><strong>Tall / Short:</strong> We compare height</li>
+                <li><strong>Wide / Narrow:</strong> We compare width</li>
             </ul>
-            <p><strong>Math Connection:</strong> Our flyers must include geometric shapes and at least one math fact!</p>
-            <p><strong>Geometric Shapes:</strong> Circles, squares, triangles, rectangles - we see these everywhere!</p>
-            <p><strong>Today's activity:</strong> Design your own environmental awareness flyer!</p>
+            <p><strong>Matching Sets Using Arrows:</strong></p>
+            <ul>
+                <li>Arrows (→) show how items are connected</li>
+                <li>Each arrow points from one item to the item it matches with</li>
+                <li>We can show both one-to-one and one-to-many relations using arrows</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shapes" style="color: #E91E63;"></i> Shapes in Design</div>
-                <p>"The sun is a circle, the tree trunk is a rectangle, the leaves are triangles!" - Nature is full of shapes!</p>
+                <div class="example-title"><i class="fas fa-elephant"></i> Big vs. Small</div>
+                <p>An elephant is BIG. A mouse is SMALL. Your dad's shoes are BIG. Your baby sibling's shoes are SMALL.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-bar" style="color: #FFC107;"></i> Math Facts</div>
-                <p>"Use 0 Litter" or "Recycle 3 Bottles Daily" - Numbers make messages powerful!</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> Long vs. Short</div>
+                <p>A snake is LONG. A worm is SHORT. A school bus is LONG. A bicycle is SHORT (compared to the bus!).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Shape Hunt Game!</div>
-                <p>Find circles, squares, and triangles in our classroom. How many of each can you find?</p>
+                <div class="example-title"><i class="fas fa-arrow-right"></i> Arrow Matching</div>
+                <p>We can show: Child → Mother (one child has one mother). Or Teacher → Students (one teacher has many students).</p>
             </div>
         `,
-        taskInstructions: "Create an environmental awareness flyer using shapes and math facts.",
+        taskInstructions: "Compare measure relations and match sets using arrows.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Flyer Planning</strong></p>
+                <p><strong>Part A: Big/Small Comparison</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Plan your environmental message:
+                    <span class="task-number">1</span> Circle the BIGGER item in each pair:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My flyer topic: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>My math fact: <span class="answer-space" style="width: 250px;"></span></div>
-                        <div>Example: "Plant 2 Trees This Year" or "Use 0 Plastic Bags"</div>
+                        <div>• (Cat / Elephant) is bigger</div>
+                        <div>• (Ant / Grasshopper) is bigger</div>
+                        <div>• (Apple / Watermelon) is bigger</div>
+                        <div>• (Pencil / Tree) is bigger</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Shape Requirements</strong></p>
+                <p><strong>Part B: Long/Short Comparison</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Check off the shapes you will include:
+                    <span class="task-number">2</span> Write "LONG" or "SHORT" under each picture (or draw your own examples):
+                    <div style="display: flex; gap: 20px; margin-top: 10px; justify-content: space-around;">
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 80px; width: 80px; margin: 0 auto;"></div>
+                            <div>Snake</div>
+                            <div>_____</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 80px; width: 80px; margin: 0 auto;"></div>
+                            <div>Pencil</div>
+                            <div>_____</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 80px; width: 80px; margin: 0 auto;"></div>
+                            <div>Ruler</div>
+                            <div>_____</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 80px; width: 80px; margin: 0 auto;"></div>
+                            <div>Giraffe neck</div>
+                            <div>_____</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Matching Sets Using Arrows</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw arrows (→) to show the matching relation:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Circle (at least 1)</div>
-                        <div>☐ Square or Rectangle (at least 1)</div>
-                        <div>☐ Triangle (at least 1)</div>
-                        <div>☐ Other shape: <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>One person has two eyes:  Person  →  Eye   Eye</div>
+                        <div class="drawing-area" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;">One bicycle has two wheels:  Bicycle  →  Wheel   Wheel</div>
+                        <div class="drawing-area" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;">One family has four members:  Family  →  ____   ____   ____   ____</div>
+                        <div class="drawing-area" style="height: 60px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Flyer Creation</strong></p>
+                <p><strong>Part D: Create Your Own Arrow Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Design your flyer in the space below:
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>Title: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Math Fact: <span class="answer-space" style="width: 250px;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> Draw an arrow to show one-to-many relation (one thing connected to many things):
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Shape Counting</strong></p>
+                <p><strong>Part E: Week Review</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Count the shapes in your finished flyer:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Circles: _______</div>
-                        <div>Squares/Rectangles: _______</div>
-                        <div>Triangles: _______</div>
-                        <div>Total shapes: _______</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Presentation Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Write one sentence about how your flyer helps the environment:
-                    <div class="answer-space" style="height: 60px; margin-top: 10px; width: 100%;">My flyer helps the environment by ________________________________________________________</div>
+                    <span class="task-number">5</span> What was your favorite activity this week? Why?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Share your flyer with someone at home. Find and count shapes in 3 household items.",
+        homework: "Find 3 things at home that are BIG and 3 things that are SMALL. Find 3 things that are LONG and 3 things that are SHORT. Draw them or write their names.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade2MathScienceWeek10);
-    console.log("mathscience-week10-environment.js registered using registerWorksheet()");
+    window.registerWorksheet(grade2MathsScienceWeek10);
+    console.log("grade2-maths-science-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade2MathScienceWeek10);
-    console.log("mathscience-week10-environment.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade2MathsScienceWeek10);
+    console.log("grade2-maths-science-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade2MathScienceWeek10',
-        metadata: grade2MathScienceWeek10.metadata,
-        days: grade2MathScienceWeek10
+        variableName: 'grade2MathsScienceWeek10',
+        metadata: grade2MathsScienceWeek10.metadata,
+        days: grade2MathsScienceWeek10
     });
-    console.log("mathscience-week10-environment.js stored in window.registeredWorksheets");
+    console.log("grade2-maths-science-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade2MathScienceWeek10 = grade2MathScienceWeek10;
-console.log("mathscience-week10-environment.js loaded and registered successfully");
+window.grade2MathsScienceWeek10 = grade2MathsScienceWeek10;
+console.log("grade2-maths-science-week10.js loaded and registered successfully");
