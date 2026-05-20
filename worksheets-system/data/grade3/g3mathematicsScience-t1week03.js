@@ -1,529 +1,483 @@
-// Grade 3 Mathematics & Science - Week 3 Data (Natural Resources in Our Community)
+// Grade 3 Mathematics & Science - Term 1 Week 3 Data
 const grade3MathScienceWeek3 = {
     metadata: {
         grade: 3,
         subject: "Mathematics & Science",
+        term: 1,
         week: 3,
-        title: "Natural Resources in Our Community",
-        description: "Exploring natural resources, their importance, uses, and conservation in our daily lives"
+        title: "Natural Resources & The Water Cycle",
+        description: "Exploring benefits of natural resources and understanding the water cycle stages"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "What are Natural Resources?",
-        subtopic: "Identifying natural resources in our immediate surroundings",
+        topic: "Natural Resources",
+        subtopic: "Benefits of Natural Resources (Forests, Water, Minerals)",
         lessonContent: `
-            <p>Welcome explorers! Today we're going on a journey to discover the natural gifts all around us.</p>
-            <p><strong>Key Concept:</strong> Natural resources are materials from nature that people use. They weren't made by people!</p>
-            <p><strong>What makes something a natural resource?</strong></p>
-            <ul>
-                <li>Comes directly from nature (earth, water, air, plants)</li>
-                <li>Wasn't created in a factory or by people</li>
-                <li>Can be used by people for different purposes</li>
-            </ul>
-            <p><strong>Nature Walk Mission:</strong> We'll go outside and look for things that weren't made by people.</p>
-            <p><strong>Basic Examples:</strong> Soil, water, rocks, air, sunlight, plants, and trees.</p>
-            <p><strong>Think About It:</strong> How is a rock different from a plastic toy? How is water from a stream different from soda in a can?</p>
+            <p>Welcome! Today we'll learn about the wonderful gifts nature gives us called <strong>Natural Resources</strong>.</p>
+            <p><strong>Key Question:</strong> What are natural resources and why are they important to us?</p>
+            <p><strong>What are Natural Resources?</strong><br>
+            Natural resources are things that come from nature that people can use. They are found on Earth naturally - not made by humans!</p>
+            <p><strong>Three Important Natural Resources:</strong></p>
+            <ol>
+                <li><strong>Forests (Trees and Plants):</strong>
+                    <ul>
+                        <li>Give us wood to build houses and furniture</li>
+                        <li>Provide paper for drawing and writing</li>
+                        <li>Give us fruits, nuts, and medicines</li>
+                        <li>Homes for animals and birds</li>
+                        <li>Clean the air we breathe</li>
+                    </ul>
+                </li>
+                <li><strong>Water:</strong>
+                    <ul>
+                        <li>We drink water to stay alive and healthy</li>
+                        <li>We use water to wash our hands and bodies</li>
+                        <li>Farmers use water to grow our food</li>
+                        <li>Animals and plants need water to live</li>
+                    </ul>
+                </li>
+                <li><strong>Minerals:</strong>
+                    <ul>
+                        <li>Rocks and minerals are used to make roads and buildings</li>
+                        <li>Salt (from the ground or sea) makes our food taste good</li>
+                        <li>Metals like iron and copper come from minerals</li>
+                        <li>We use minerals to make jewelry, coins, and tools</li>
+                    </ul>
+                </li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Tree Example</div>
-                <p>"This tree is a natural resource. It grew from a seed, not from a factory. We use wood from trees to build houses and make paper."</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Forest Benefits</div>
+                <p>Did you know? A single tree can provide enough oxygen for 4 people every day! Forests are like the Earth's lungs.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-water" style="color: #2196F3;"></i> Water Example</div>
-                <p>"This stream water is a natural resource. It comes from rain and flows through the earth. We clean it to drink and use for cooking."</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Water Wonders</div>
+                <p>Your body is about 60% water! That's why drinking water every day helps you run, jump, think, and grow.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Nature Detective Game!</div>
-                <p>We're going outside as nature detectives! Can you spot 5 things that weren't made by people? Let's investigate!</p>
+                <div class="example-title"><i class="fas fa-gem"></i> Mineral Magic</div>
+                <p>The pencil you write with contains a mineral called graphite. Your spoon and fork are made from metal that came from minerals in the ground!</p>
             </div>
         `,
-        taskInstructions: "Complete these activities during and after our nature walk.",
+        taskInstructions: "Identify and list the benefits of natural resources.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> On your nature walk, list five things you see that are natural resources:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. _______________________ (Example: Oak tree)</div>
-                    <div>2. _______________________</div>
-                    <div>3. _______________________</div>
-                    <div>4. _______________________</div>
-                    <div>5. _______________________</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw two natural resources you found:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; padding: 10px;">
-                        <div>Natural Resource #1</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
-                    <div style="flex: 1; padding: 10px;">
-                        <div>Natural Resource #2</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Resource Match-Up</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw a line to match each resource to what it gives us:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>🌲 Forests → <span style="border-bottom: 1px dotted;">_________</span> (wood, paper, fruits)</div>
+                        <div>💧 Water → <span style="border-bottom: 1px dotted;">_________</span> (drinking, washing, growing food)</div>
+                        <div>⛏️ Minerals → <span style="border-bottom: 1px dotted;">_________</span> (metals, salt, building materials)</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Compare natural vs. man-made:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Circle the natural resources:</div>
-                    <div style="display: flex; margin-top: 5px;">
-                        <div style="margin-right: 20px;">
-                            <div>☐ River water</div>
-                            <div>☐ Plastic bottle</div>
-                            <div>☐ Pine cone</div>
-                        </div>
-                        <div>
-                            <div>☐ School desk</div>
-                            <div>☐ Clay soil</div>
-                            <div>☐ Metal spoon</div>
-                        </div>
-                    </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: List the Benefits</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Write 3 ways we use forests:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write 3 ways we use water:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write 2 things made from minerals:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Write one difference between natural and man-made items:
-                <div class="answer-space" style="height: 50px; margin-top: 10px;">Natural resources _______________________________________</div>
-                <div class="answer-space" style="height: 50px; margin-top: 5px;">Man-made items _________________________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw one of the natural resources and show how people use it:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
             </div>
         `,
-        homework: "Look around your home. Find three natural resources in or around your house. Draw one of them.",
+        homework: "Look around your home. Find 3 items made from trees, 3 items that need water to be made or used, and 1 item made from minerals. Write or draw them.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "The Importance of Forests and Soil",
-        subtopic: "Exploring the benefits of forests and soil to the community",
+        topic: "Natural Resources",
+        subtopic: "Applying Resource Benefits to Daily Community Life",
         lessonContent: `
-            <p>Today we'll discover how forests and soil support our community in amazing ways!</p>
-            <p><strong>Key Concept:</strong> Forests and soil are essential natural resources that provide multiple benefits.</p>
-            <p><strong>Forest Benefits:</strong></p>
+            <p>Today we'll see how natural resources help our families and communities every single day!</p>
+            <p><strong>Key Question:</strong> How do natural resources help people in our community?</p>
+            <p><strong>Natural Resources in Our Daily Life:</strong></p>
             <ul>
-                <li>Provide wood for building houses and furniture</li>
-                <li>Give us fruits, nuts, and other foods</li>
-                <li>Clean the air by taking in carbon dioxide and giving out oxygen</li>
-                <li>Provide shade and homes for animals</li>
+                <li>The wooden desk you sit at came from a forest</li>
+                <li>The water you drink comes from a river, lake, or well</li>
+                <li>The metal in your pencil sharpener came from minerals</li>
             </ul>
-            <p><strong>Soil Benefits:</strong></p>
-            <ul>
-                <li>Grows the food we eat (vegetables, grains, fruits)</li>
-                <li>Filters water as it seeps through the ground</li>
-                <li>Provides minerals and nutrients for plants</li>
-                <li>Supports the foundations of buildings and roads</li>
-            </ul>
-            <p><strong>Think About It:</strong> Where did your breakfast come from? The bread from wheat grown in soil, the fruit from trees in forests or orchards!</p>
+            <p><strong>How Communities Use Natural Resources:</strong></p>
+            <ol>
+                <li><strong>Forests help communities by:</strong>
+                    <ul>
+                        <li>Providing wood to build schools, homes, and shops</li>
+                        <li>Giving people jobs like farming and building</li>
+                        <li>Providing places for families to picnic and play</li>
+                    </ul>
+                </li>
+                <li><strong>Water helps communities by:</strong>
+                    <ul>
+                        <li>Allowing farmers to grow vegetables for the market</li>
+                        <li>Keeping people clean and healthy</li>
+                        <li>Transporting goods on boats and barges</li>
+                    </ul>
+                </li>
+                <li><strong>Minerals help communities by:</strong>
+                    <ul>
+                        <li>Providing materials to build roads so people can travel</li>
+                        <li>Giving people jobs in mines and factories</li>
+                        <li>Providing salt to preserve food for longer</li>
+                    </ul>
+                </li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt" style="color: #f44336;"></i> From Tree to Table</div>
-                <p>"This apple came from an apple tree in an orchard. The tree grew in soil, using sunlight and water. Now it gives us healthy food!"</p>
+                <div class="example-title"><i class="fas fa-school"></i> Your School Uses Resources</div>
+                <p>Your classroom has wooden desks (forests), a water fountain (water), and metal hinges on doors (minerals). Natural resources make your school possible!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #795548;"></i> From Forest to Home</div>
-                <p>"The wood in our pencil came from a tree. The tree was harvested, processed, and shaped into this useful tool for learning!"</p>
+                <div class="example-title"><i class="fas fa-truck"></i> Getting Food to Market</div>
+                <p>Farmers use water to grow tomatoes. Trucks made from metal (minerals) drive on roads made from rocks (minerals) to bring tomatoes to your local market.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Resource Tree Challenge!</div>
-                <p>Let's create a giant "Resource Tree" on the board showing everything we get from forests and soil!</p>
+                <div class="example-title"><i class="fas fa-home"></i> Building a Home</div>
+                <p>A house needs wood from forests for the frame, water for mixing cement and painting, and minerals for pipes, wires, and roof tiles!</p>
             </div>
         `,
-        taskInstructions: "Complete the Resource Tree activity and explore forest and soil benefits.",
+        taskInstructions: "Connect natural resources to everyday community activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Resource Tree Diagram</strong></p>
+                <p><strong>Part A: Daily Life Connections</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw a "Resource Tree." In the roots, write "Forest" and "Soil." In the branches, draw or write things we get from them:
-                    <div style="text-align: center; margin-top: 10px;">
-                        <div>Draw your tree here:</div>
-                        <div class="drawing-area" style="height: 180px;"></div>
-                        <div style="margin-top: 10px;">
-                            <div>Roots (sources): FOREST and SOIL</div>
-                            <div>Branches (what we get): __________________________</div>
-                        </div>
+                    <span class="task-number">1</span> Complete each sentence:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A farmer needs <span style="border-bottom: 1px dotted;">_________</span> to grow vegetables.</div>
+                        <div>A builder uses wood from <span style="border-bottom: 1px dotted;">_________</span> to make a house.</div>
+                        <div>A road is made with rocks and <span style="border-bottom: 1px dotted;">_________</span>.</div>
+                        <div>A person needs to drink <span style="border-bottom: 1px dotted;">_________</span> every day.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Forest Benefits List</strong></p>
+                <p><strong>Part B: My Community Resource Hunt</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List three things forests provide for our community:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. _______________________ (Example: Clean air to breathe)</div>
-                        <div>2. _______________________</div>
-                        <div>3. _______________________</div>
-                    </div>
+                    <span class="task-number">2</span> Think about your neighborhood. List 3 things you see that come from forests:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> List 3 things in your community that need water:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> List 2 things made from minerals that you see on your street:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Soil Benefits Match</strong></p>
+                <p><strong>Part C: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Match the soil benefit to what it gives us:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Soil grows food → We get: ☐ Clean water ☐ Vegetables ☐ Shade</div>
-                        <div>Soil filters water → We get: ☐ Clean water ☐ Wood ☐ Fruits</div>
-                        <div>Soil supports buildings → We get: ☐ Stable homes ☐ Paper ☐ Nuts</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Life Without Exercise</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Imagine life without healthy soil and trees. Circle what would be harder:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Breathing clean air</div>
-                        <div>☐ Eating fruits and vegetables</div>
-                        <div>☐ Having wooden furniture</div>
-                        <div>☐ All of the above</div>
-                    </div>
+                    <span class="task-number">5</span> Draw a picture of your community. Label 3 natural resources being used:
+                    <div class="drawing-area" style="height: 160px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Find one item in your home made from wood (forest resource) and one item that came from soil (like food). Tell a family member about them.",
+        homework: "With a family member, walk around your neighborhood. Count how many things you see that come from forests. Draw or write what you find.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "The Gift of Water and Minerals",
-        subtopic: "Describing how the community benefits from water and minerals",
+        topic: "The Water Cycle",
+        subtopic: "Exploring Water Cycle Stages (Evaporation, Condensation, Precipitation)",
         lessonContent: `
-            <p>Today we explore two more precious gifts from nature: water and minerals!</p>
-            <p><strong>Key Concept:</strong> Water and minerals are essential natural resources with countless daily uses.</p>
-            <p><strong>Water - The Resource of Life:</strong></p>
-            <ul>
-                <li><strong>Drinking:</strong> All living things need water to survive</li>
-                <li><strong>Cleaning:</strong> For washing ourselves, clothes, and dishes</li>
-                <li><strong>Farming:</strong> Watering crops so they can grow</li>
-                <li><strong>Transportation:</strong> Rivers and oceans for boats</li>
-                <li><strong>Recreation:</strong> Swimming, fishing, and playing</li>
-            </ul>
-            <p><strong>Minerals - Hidden Treasures:</strong></p>
-            <ul>
-                <li>Found in rocks and soil underground</li>
-                <li>Used to make metals like iron, copper, and aluminum</li>
-                <li>Create jewelry from gold, silver, and gems</li>
-                <li>Make building materials like cement and bricks</li>
-            </ul>
-            <p><strong>Limited Resources:</strong> Both water and minerals are limited. We must use them wisely!</p>
+            <p>Today we'll discover the amazing journey water takes as it moves around our planet!</p>
+            <p><strong>Key Question:</strong> Where does rain come from and where does water go after it rains?</p>
+            <p><strong>The Water Cycle - Water's Never-Ending Journey!</strong></p>
+            <p>Water is always moving. The same water that dinosaurs drank is still on Earth today! Let's learn the 3 main stages:</p>
+            <ol>
+                <li><strong>Evaporation:</strong>
+                    <ul>
+                        <li>The sun heats up water in oceans, lakes, rivers, and puddles</li>
+                        <li>Water turns into invisible vapor (gas) and rises into the air</li>
+                        <li>Think: Water "disappears" from a wet sidewalk on a sunny day!</li>
+                    </ul>
+                </li>
+                <li><strong>Condensation:</strong>
+                    <ul>
+                        <li>Water vapor in the air cools down</li>
+                        <li>The vapor turns back into tiny water droplets</li>
+                        <li>These droplets gather together to form CLOUDS!</li>
+                        <li>Think: Fog on a mirror after a hot shower!</li>
+                    </ul>
+                </li>
+                <li><strong>Precipitation:</strong>
+                    <ul>
+                        <li>When clouds get too heavy with water droplets</li>
+                        <li>Water falls back to Earth</li>
+                        <li>This can be rain, snow, sleet, or hail</li>
+                        <li>Think: Rain falling from dark clouds!</li>
+                    </ul>
+                </li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #2196F3;"></i> Morning Water Use</div>
-                <p>"This morning I used water to brush my teeth, wash my face, and drink with breakfast. Water is part of almost everything we do!"</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Evaporation Example</div>
+                <p>After it rains, puddles on the playground disappear on a sunny day. The water didn't vanish - it evaporated into the air!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gem" style="color: #FF9800;"></i> Mineral Magic</div>
-                <p>"This metal pot started as minerals in the ground. People mined iron ore, processed it, and shaped it into this useful cooking tool!"</p>
+                <div class="example-title"><i class="fas fa-cloud"></i> Condensation Example</div>
+                <p>Have you seen water droplets on the outside of a cold drink? That's condensation - water vapor from the air turning into liquid!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Benefit Chart Challenge!</div>
-                <p>Let's create a chart matching water and minerals to their daily uses. How many connections can we make?</p>
+                <div class="example-title"><i class="fas fa-cloud-rain"></i> Precipitation Example</div>
+                <p>When clouds get dark and heavy, raindrops fall. In cold places, snowflakes fall instead. Both are types of precipitation!</p>
             </div>
         `,
-        taskInstructions: "Complete the Benefit Chart and explore water and mineral uses.",
+        taskInstructions: "Identify and describe the three stages of the water cycle.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Water Use Reflection</strong></p>
+                <p><strong>Part A: Name That Stage!</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List three ways you used water today:
+                    <span class="task-number">1</span> Write the correct water cycle stage for each description:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. _______________________</div>
-                        <div>2. _______________________</div>
-                        <div>3. _______________________</div>
+                        <div>• Water turns into vapor and rises: <span style="border-bottom: 1px dotted;">_________</span></div>
+                        <div>• Water droplets form clouds: <span style="border-bottom: 1px dotted;">_________</span></div>
+                        <div>• Rain falls from clouds: <span style="border-bottom: 1px dotted;">_________</span></div>
+                        <div>• The sun heats up a puddle: <span style="border-bottom: 1px dotted;">_________</span></div>
+                        <div>• You see fog on a mirror: <span style="border-bottom: 1px dotted;">_________</span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Benefit Chart Creation</strong></p>
+                <p><strong>Part B: Draw Each Stage</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Create a "Benefit Chart" matching resources to daily uses:
-                    <table style="width: 100%; margin-top: 10px; border-collapse: collapse;">
-                        <tr style="background-color: #f5f5f5;">
-                            <th style="border: 1px solid #ccc; padding: 8px;">Resource</th>
-                            <th style="border: 1px solid #ccc; padding: 8px;">Daily Use</th>
-                            <th style="border: 1px solid #ccc; padding: 8px;">Match (✓)</th>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Water</td>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Drinking when thirsty</td>
-                            <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">☐</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Minerals</td>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Making jewelry</td>
-                            <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">☐</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Water</td>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Washing fruits and vegetables</td>
-                            <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">☐</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Minerals</td>
-                            <td style="border: 1px solid #ccc; padding: 8px;">Building roads and bridges</td>
-                            <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">☐</td>
-                        </tr>
-                    </table>
-                    <div style="margin-top: 10px;">Add your own match: Water → _______________________</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Mineral Detective</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Look around the classroom. Find one item made from minerals:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Item: _______________________</div>
-                        <div>What mineral might be in it? _______________________</div>
-                        <div>Draw it:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                    <span class="task-number">2</span> Draw a picture for each water cycle stage:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Evaporation</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Condensation</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Precipitation</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Wise Use Reflection</strong></p>
+                <p><strong>Part C: Water Cycle Sentence</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why must we use water and minerals wisely?
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">They are limited because ________________________________</div>
+                    <span class="task-number">3</span> Complete this sentence about the water cycle:
+                    <div class="answer-space" style="height: 80px;"></div>
+                    <p><em>"First, the sun causes _______. Then water vapor cools and forms clouds through _______. Finally, water falls back to Earth as _______."</em></p>
                 </div>
             </div>
         `,
-        homework: "Track your water use at home for one hour. Write down three times you or your family used water.",
+        homework: "Tonight, look at your bathroom mirror after someone takes a hot shower. Draw what you see and explain which water cycle stage this shows.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Rocks and Their Uses",
-        subtopic: "Identifying practical applications of rocks in daily life",
+        topic: "The Water Cycle",
+        subtopic: "Recognizing the Water Cycle as an Ongoing Process",
         lessonContent: `
-            <p>Today we become rock explorers! We'll discover how rocks, those hard natural materials, are used in many ways.</p>
-            <p><strong>Key Concept:</strong> Rocks are valuable natural resources with many practical applications.</p>
-            <p><strong>Types of Rock Uses:</strong></p>
+            <p>Today we'll learn that the water cycle never stops - it happens again and again, every day!</p>
+            <p><strong>Key Question:</strong> Does the water cycle ever stop?</p>
+            <p><strong>The Water Cycle is a Continuous Loop:</strong></p>
+            <p>The water cycle has no beginning and no end. It just keeps going round and round!</p>
             <ul>
-                <li><strong>Construction:</strong> Buildings, walls, bridges, and monuments</li>
-                <li><strong>Roads and Pathways:</strong> Gravel for roads, stepping stones</li>
-                <li><strong>Tools and Implements:</strong> Ancient tools, grindstones, cutting implements</li>
-                <li><strong>Decoration:</strong> Garden rocks, fireplace stones, decorative walls</li>
-                <li><strong>Resource Source:</strong> Rocks contain minerals we extract and use</li>
+                <li>Water evaporates → forms clouds → falls as rain → flows to oceans → evaporates again</li>
+                <li>This has been happening for billions of years</li>
+                <li>The same water is recycled over and over again</li>
             </ul>
-            <p><strong>Why Rocks are Good for Building:</strong></p>
+            <p><strong>What Happens After Precipitation?</strong></p>
+            <ol>
+                <li><strong>Collection:</strong> Rainwater collects in oceans, lakes, rivers, and underground</li>
+                <li><strong>Runoff:</strong> Water flows downhill back toward the oceans</li>
+                <li><strong>Then evaporation starts again!</strong></li>
+            </ol>
+            <p><strong>Why the Water Cycle Matters:</strong></p>
             <ul>
-                <li><strong>Strength:</strong> They can support heavy weights</li>
-                <li><strong>Durability:</strong> They last a long time without wearing out</li>
-                <li><strong>Availability:</strong> Found almost everywhere</li>
-                <li><strong>Weather Resistance:</strong> Can withstand rain, wind, and temperature changes</li>
+                <li>It gives us fresh water to drink</li>
+                <li>It waters the plants that grow our food</li>
+                <li>It fills our rivers and lakes for swimming and fishing</li>
+                <li>It helps clean the air and cool the Earth</li>
             </ul>
-            <p><strong>Rock Exploration:</strong> We'll examine different rocks and find rock uses around our school!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mountain" style="color: #795548;"></i> Building Strength</div>
-                <p>"The school's foundation uses rocks and concrete because rocks are strong and durable. They keep our building standing for years!"</p>
+                <div class="example-title"><i class="fas fa-redo-alt"></i> Never-Ending Cycle</div>
+                <p>The water you drink today might have been part of a rainstorm last week, a river a year ago, and an ocean a million years ago!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-road" style="color: #9E9E9E;"></i> Road Construction</div>
-                <p>"The gravel on our playground path comes from crushed rocks. Rocks make stable surfaces for walking and driving."</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Your Water Bottle</div>
+                <p>The water in your bottle has been recycled millions of times through the water cycle. It's the same water that has always been on Earth!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Rock Hunt Adventure!</div>
-                <p>Let's explore the school grounds to find three different ways rocks have been used in our environment!</p>
+                <div class="example-title"><i class="fas fa-chart-line"></i> The Cycle Continues</div>
+                <p>Even when you're sleeping, the water cycle is working. Oceans are evaporating, clouds are forming, and somewhere in the world, rain is falling.</p>
             </div>
         `,
-        taskInstructions: "Complete the rock hunt and explore practical uses of rocks.",
+        taskInstructions: "Explain why the water cycle is a continuous, never-ending process.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Rock Examination Station</strong></p>
+                <p><strong>Part A: What Comes Next?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Examine different rocks at the station. Describe one:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My rock feels: ☐ Smooth ☐ Rough ☐ Sharp ☐ Bumpy</div>
-                        <div>Color: _______________________</div>
-                        <div>Size compared to my hand: ☐ Smaller ☐ Same ☐ Larger</div>
-                        <div>Draw your rock:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                    <span class="task-number">1</span> Complete the water cycle chain:
+                    <div style="margin-left: 20px; margin-top: 10px; text-align: center;">
+                        <div>Evaporation → Condensation → Precipitation → <span style="border-bottom: 1px dotted; width: 100px; display: inline-block;"></span> → Evaporation again!</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: School Grounds Rock Hunt</strong></p>
+                <p><strong>Part B: True or False</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Explore school grounds. Find three ways rocks are used:
+                    <span class="task-number">2</span> Circle True or False for each statement:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Location: _______________________</div>
-                        <div style="margin-left: 20px;">Rock use: _______________________</div>
-                        
-                        <div style="margin-top: 10px;">2. Location: _______________________</div>
-                        <div style="margin-left: 20px;">Rock use: _______________________</div>
-                        
-                        <div style="margin-top: 10px;">3. Location: _______________________</div>
-                        <div style="margin-left: 20px;">Rock use: _______________________</div>
+                        <div>• The water cycle has an end. (True / False)</div>
+                        <div>• Water evaporates from oceans and lakes. (True / False)</div>
+                        <div>• Rain is a type of precipitation. (True / False)</div>
+                        <div>• The sun does not affect the water cycle. (True / False)</div>
+                        <div>• Water cycles again and again forever. (True / False)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Why Rocks for Building?</strong></p>
+                <p><strong>Part C: Why It Never Stops</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Circle the reasons rocks are good for construction:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ They are soft and easy to shape</div>
-                        <div>☐ They are strong and durable</div>
-                        <div>☐ They can withstand weather</div>
-                        <div>☐ They are found in many places</div>
-                        <div>☐ They melt easily in heat</div>
-                    </div>
+                    <span class="task-number">3</span> In your own words, explain why the water cycle never ends:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Ancient vs. Modern Uses</strong></p>
+                <p><strong>Part D: Water Cycle Story</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Compare how people used rocks long ago vs. today:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Long ago: People used rocks for ☐ Tools ☐ Weapons ☐ Shelters</div>
-                        <div>Today: We use rocks for ☐ Buildings ☐ Roads ☐ Jewelry</div>
-                        <div>One similar use: _______________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Creative Rock Use</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Design something useful made from rocks:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I would use rocks to make: _______________________</div>
-                        <div>Draw your design:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
+                    <span class="task-number">4</span> Pretend you are a drop of water. Write 2-3 sentences about your journey through the water cycle:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find one rock near your home. Describe it using three words. Bring a drawing of it to class tomorrow.",
+        homework: "Tell a family member about the water cycle. Then, draw a picture showing that the cycle never stops (a circle with arrows).",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "Protecting Our Surroundings",
-        subtopic: "Applying knowledge of resource benefits to understand conservation",
+        topic: "The Water Cycle",
+        subtopic: "Activity: Draw and Label the Water Cycle Diagram",
         lessonContent: `
-            <p>Today we become protectors of our planet! We'll learn how to care for the natural resources we've studied.</p>
-            <p><strong>Key Concept:</strong> Conservation means using natural resources wisely so they last for future generations.</p>
-            <p><strong>Week in Review:</strong> We've explored five key natural resources:</p>
-            <ol>
-                <li>Forests (trees, plants, wildlife habitats)</li>
-                <li>Soil (growing medium, water filter, foundation)</li>
-                <li>Water (life source, cleaning, farming)</li>
-                <li>Minerals (metals, gems, building materials)</li>
-                <li>Rocks (construction, roads, tools)</li>
-            </ol>
-            <p><strong>What Happens If We Don't Protect Resources?</strong></p>
+            <p>Today we will put everything together and create a complete water cycle diagram!</p>
+            <p><strong>Key Question:</strong> Can you show all the parts of the water cycle in one picture?</p>
+            <p><strong>Review of the Water Cycle:</strong></p>
             <ul>
-                <li>Dirty water can make people and animals sick</li>
-                <li>Cleared forests mean less clean air and animal homes</li>
-                <li>Wasted minerals mean less materials for future needs</li>
-                <li>Eroded soil cannot grow food well</li>
+                <li><strong>Evaporation:</strong> Sun heats water → water turns into vapor → rises to the sky</li>
+                <li><strong>Condensation:</strong> Water vapor cools → turns into tiny droplets → forms clouds</li>
+                <li><strong>Precipitation:</strong> Clouds get heavy → water falls as rain, snow, or hail</li>
+                <li><strong>Collection/Runoff:</strong> Water flows back to oceans, lakes, and rivers</li>
             </ul>
-            <p><strong>Applying Benefits in Daily Life:</strong> Taking care of resources means making smart choices every day!</p>
-            <p><strong>Celebration:</strong> We've learned to identify, appreciate, and now protect our natural world!</p>
+            <p><strong>What Your Diagram Should Include:</strong></p>
+            <ol>
+                <li>A sun (source of heat for evaporation)</li>
+                <li>A body of water (ocean, lake, or river)</li>
+                <li>Arrows showing evaporation going UP</li>
+                <li>Clouds in the sky</li>
+                <li>Arrows showing condensation forming clouds</li>
+                <li>Rain or snow falling down (precipitation)</li>
+                <li>Arrows showing water flowing back to the ocean (collection/runoff)</li>
+                <li>Labels for: Evaporation, Condensation, Precipitation, Collection</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle" style="color: #4CAF50;"></i> Water Conservation</div>
-                <p>"When I turn off the tap while brushing my teeth, I save water. This means more clean water for others and for nature!"</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Diagram Checklist</div>
+                <p>Before you finish, check: Do you have the sun? Do you have clouds? Do you have arrows showing the direction water moves? Do you have all 4 labels?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash-restore" style="color: #FF9800;"></i> Forest Protection</div>
-                <p>"When we recycle paper, we need fewer trees to be cut down. This helps forests stay healthy and keep cleaning our air!"</p>
+                <div class="example-title"><i class="fas fa-arrow-up"></i> Arrow Direction Matters</div>
+                <p>Evaporation arrows point UP (water rising). Precipitation arrows point DOWN (rain falling). Collection arrows point ACROSS (water flowing to oceans).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Conservation Pledge!</div>
-                <p>Let's create a class pledge to protect our local resources and keep our school surroundings clean!</p>
+                <div class="example-title"><i class="fas fa-tag"></i> Label Your Work</div>
+                <p>Use your best handwriting to label: Evaporation, Condensation, Precipitation, and Collection. Then add your name and date!</p>
             </div>
         `,
-        taskInstructions: "Complete the conservation activities and create a protection pledge.",
+        taskInstructions: "Draw, label, and color a complete water cycle diagram.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Resource Review Matching</strong></p>
+                <p><strong>Part A: Water Cycle Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match each resource to its main benefit:
+                    <span class="task-number">1</span> Draw and label the complete water cycle in the space below. Include:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Forests → ☐ Grows our food ☐ Cleans our air ☐ Provides metals</div>
-                        <div>Soil → ☐ For drinking ☐ Grows our food ☐ Makes jewelry</div>
-                        <div>Water → ☐ For drinking ☐ Builds houses ☐ Cleans our air</div>
-                        <div>Minerals → ☐ Makes metals ☐ Grows food ☐ Cleans water</div>
-                        <div>Rocks → ☐ For construction ☐ For drinking ☐ For breathing</div>
+                        <ul>
+                            <li>Sun</li>
+                            <li>Ocean/Lake/River</li>
+                            <li>Evaporation (arrow and label)</li>
+                            <li>Clouds</li>
+                            <li>Condensation (label)</li>
+                            <li>Precipitation (arrow and label)</li>
+                            <li>Collection/Runoff (arrow and label)</li>
+                        </ul>
                     </div>
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4A90E2; background: #f9f9f9;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: "Thank You" to Nature</strong></p>
+                <p><strong>Part B: Color Your Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write one "Thank You" sentence to a specific natural resource:
+                    <span class="task-number">2</span> Use these colors to make your diagram clear:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Choose: ☐ Forests ☐ Soil ☐ Water ☐ Minerals ☐ Rocks</div>
-                        <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                            "Thank you, ________________, for ________________________________"
-                        </div>
+                        <div>• Sun: 🟡 Yellow or 🟠 Orange</div>
+                        <div>• Water: 🔵 Blue</div>
+                        <div>• Clouds: ⚪ White or ☁️ Light gray</div>
+                        <div>• Rain: 🔵 Light blue</div>
+                        <div>• Land: 🟢 Green or 🟤 Brown</div>
+                        <div>• Arrows: ⚫ Black or 🔴 Red</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Conservation Action Plan</strong></p>
+                <p><strong>Part C: Explain Your Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> List two ways you can protect resources at school:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. _______________________ (Example: Turn off lights when leaving)</div>
-                        <div>2. _______________________</div>
-                    </div>
+                    <span class="task-number">3</span> Write 2-3 sentences explaining what happens in the water cycle:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Class Protection Pledge</strong></p>
+                <p><strong>Part D: Week Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Create our class pledge to protect local resources:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #f0f8ff; border-radius: 5px;">
-                        <div style="font-weight: bold; text-align: center; margin-bottom: 10px;">Our Class Pledge</div>
-                        <div>We, the students of Room ____, promise to:</div>
-                        <div style="margin-left: 20px; margin-top: 5px;">
-                            <div>☐ Keep our school surroundings clean</div>
-                            <div>☐ Use water wisely</div>
-                            <div>☐ Recycle paper to protect forests</div>
-                            <div>☐ Learn more about natural resources</div>
-                        </div>
-                        <div style="text-align: center; margin-top: 15px;">
-                            <div>Sign your name: _______________________</div>
-                            <div>Date: _______________________</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Natural Resource Champion Badge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Design a badge for being a Natural Resource Champion:
-                    <div style="text-align: center; margin-top: 10px;">
-                        <div class="drawing-area" style="height: 120px; width: 120px; margin: 0 auto; border-radius: 50%; border: 3px solid #4CAF50;"></div>
-                        <div style="margin-top: 10px;">My badge says: "I protect ________________"</div>
-                    </div>
+                    <span class="task-number">4</span> What was your favorite thing you learned about natural resources or the water cycle this week?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach a family member about one natural resource and one way to protect it. Practice one conservation action at home this weekend.",
+        homework: "Share your water cycle diagram with your family. Explain each part. Then, hang it up somewhere at home to remind everyone how amazing the water cycle is!",
         homeworkDue: "Monday"
     }
 };
@@ -531,10 +485,10 @@ const grade3MathScienceWeek3 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3MathScienceWeek3);
-    console.log("grade3-math-science-week3-natural-resources.js registered using registerWorksheet()");
+    console.log("grade3-mathscience-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3MathScienceWeek3);
-    console.log("grade3-math-science-week3-natural-resources.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-mathscience-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -545,9 +499,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3MathScienceWeek3.metadata,
         days: grade3MathScienceWeek3
     });
-    console.log("grade3-math-science-week3-natural-resources.js stored in window.registeredWorksheets");
+    console.log("grade3-mathscience-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3MathScienceWeek3 = grade3MathScienceWeek3;
-console.log("grade3-math-science-week3-natural-resources.js loaded and registered successfully");
+console.log("grade3-mathscience-week3.js loaded and registered successfully");

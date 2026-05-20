@@ -1,518 +1,553 @@
-// Grade 3 Mathematics & Science - Week 8 Data (Household Chemicals and Safety)
+// Grade 3 Mathematics & Science - Term 1 Week 8 Data
 const grade3MathScienceWeek8 = {
     metadata: {
         grade: 3,
         subject: "Mathematics & Science",
+        term: 1,
         week: 8,
-        title: "Household Chemicals and Safety",
-        description: "Learning about household chemicals, warning signs, label reading, safe disposal, and creating safety posters"
+        title: "Plants and Animals",
+        description: "Exploring plants in the local environment, classifying plants, relating structures to functions, and identifying animal classes"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "Identifying Household Chemicals",
-        subtopic: "Recognizing common household chemicals and their purposes",
+        topic: "Plants",
+        subtopic: "Exploring Different Plants in the Local Environment",
         lessonContent: `
-            <p>Welcome to our safety exploration week! Today we'll learn about chemicals we use every day at home.</p>
-            <p><strong>Key Concept:</strong> Many everyday products are chemicals designed for specific purposes.</p>
-            <p><strong>What are household chemicals?</strong></p>
+            <p>Welcome to our exploration of plants! Today we'll discover the amazing variety of plants growing around us.</p>
+            <p><strong>Key Question:</strong> What different plants can we find in our local environment?</p>
+            <p><strong>Introduction:</strong> Plants are everywhere! They grow in gardens, parks, forests, and even in cracks in the sidewalk. Each plant is unique and special.</p>
+            <p><strong>Types of Plants We Might See:</strong></p>
             <ul>
-                <li>Products we use for cleaning, hygiene, and maintenance</li>
-                <li>Items with specific chemical compositions</li>
-                <li>Products that require proper storage and use</li>
+                <li><strong>Trees:</strong> Tall plants with woody stems (mango tree, avocado tree, pine tree)</li>
+                <li><strong>Shrubs:</strong> Medium-sized plants with multiple stems (rose bush, hibiscus)</li>
+                <li><strong>Herbs:</strong> Small, soft-stemmed plants (grass, basil, mint)</li>
+                <li><strong>Climbers:</strong> Plants that grow up other structures (beans, grapevine, morning glory)</li>
+                <li><strong>Creepers:</strong> Plants that spread along the ground (pumpkin, watermelon, sweet potato)</li>
             </ul>
-            <p><strong>Common Household Chemicals:</strong></p>
-            <ul>
-                <li>Soap and shampoo (for cleaning our bodies)</li>
-                <li>Toothpaste (for dental hygiene)</li>
-                <li>Detergents (for cleaning clothes and dishes)</li>
-                <li>Bleach and disinfectants (for deep cleaning)</li>
-            </ul>
-            <p><strong>Science Focus:</strong> Understanding that chemicals are part of everyday life but require specific uses and safety awareness.</p>
+            <p><strong>Why Plants Matter:</strong> Plants give us food, medicine, shade, and oxygen. They are living things that need water, sunlight, air, and soil to grow.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-soap" style="color: #4CAF50;"></i> Soap Example</div>
-                <p>"Soap is a chemical that helps remove dirt and germs from our skin. It's usually stored in the bathroom."</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Tree Giants</div>
+                <p>A mango tree can grow taller than a house! Its thick trunk and branches provide shade and a home for birds and squirrels.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pump-soap" style="color: #2196F3;"></i> Detergent Example</div>
-                <p>"Laundry detergent is a chemical that helps clean our clothes. It's stored away from food and children."</p>
+                <div class="example-title"><i class="fas fa-seedling"></i> Small but Mighty</div>
+                <p>Grass is a small plant, but it can cover an entire field. It grows back quickly even after being stepped on or cut!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Chemical Hunt Game!</div>
-                <p>We'll have pictures of different rooms. Find and identify the household chemicals in each room!</p>
+                <div class="example-title"><i class="fas fa-carrot"></i> Food from Plants</div>
+                <p>Many of our favorite foods come from plants: carrots (root), lettuce (leaf), corn (seed), and broccoli (flower)!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities about household chemicals.",
+        taskInstructions: "Observe and draw plants in your local environment.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Identify these common household chemicals:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Soap - Used for: ________________</div>
-                    <div>☐ Shampoo - Used for: ________________</div>
-                    <div>☐ Toothpaste - Used for: ________________</div>
-                    <div>☐ Dish detergent - Used for: ________________</div>
-                    <div>☐ Window cleaner - Used for: ________________</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw where each chemical should be stored:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; padding: 10px; text-align: center;">
-                        <div>Bathroom Chemicals</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
-                    <div style="flex: 1; padding: 10px; text-align: center;">
-                        <div>Kitchen Chemicals</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
-                    <div style="flex: 1; padding: 10px; text-align: center;">
-                        <div>Laundry Room Chemicals</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Plant Detective Walk</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look around your school or home environment. Find and name three different plants:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Plant 1: _________________________ (where did you find it?)</div>
+                        <div>Plant 2: _________________________ (where did you find it?)</div>
+                        <div>Plant 3: _________________________ (where did you find it?)</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Sort these products into categories:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Personal Care: ☐ Soap ☐ Shampoo ☐ Toothpaste ☐ Lotion</div>
-                    <div>Cleaning: ☐ Dish soap ☐ Bleach ☐ Glass cleaner ☐ Floor cleaner</div>
-                    <div>Count how many in each category: Personal Care: ____ Cleaning: ____</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Draw and Describe</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw one plant you observed and write two sentences about it:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Create a "Chemical Storage Map" of a home:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">My map shows where to safely store chemicals in different rooms.</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Plant Uses</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> What do plants need to grow? Circle all that apply:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>☐ Water &nbsp;&nbsp; ☐ Sunlight &nbsp;&nbsp; ☐ Television &nbsp;&nbsp; ☐ Air &nbsp;&nbsp; ☐ Soil &nbsp;&nbsp; ☐ Music</div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name one way people use plants every day:
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
             </div>
         `,
-        homework: "Find three household chemicals in your home. Write down their names and what they are used for.",
+        homework: "Draw one plant you see on your way home. Write where it was growing (garden, roadside, pot, etc.).",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Recognizing Warning Signs",
-        subtopic: "Identifying and understanding hazard symbols on chemical labels",
+        topic: "Plants",
+        subtopic: "Classifying Plants: Flowering vs. Non-Flowering",
         lessonContent: `
-            <p>Today we will learn about safety symbols that warn us about potential dangers.</p>
-            <p><strong>Key Concept:</strong> Hazard symbols communicate important safety information quickly and clearly.</p>
-            <p><strong>Why are warning signs important?</strong></p>
+            <p>Today we'll learn how scientists group plants into two main categories: flowering plants and non-flowering plants!</p>
+            <p><strong>Key Question:</strong> How can we sort plants into groups?</p>
+            <p><strong>Flowering Plants:</strong></p>
             <ul>
-                <li>They alert us to potential dangers</li>
-                <li>They tell us how to handle products safely</li>
-                <li>They help prevent accidents</li>
+                <li>Plants that grow flowers</li>
+                <li>Flowers turn into fruits and seeds</li>
+                <li><strong>Examples:</strong> Maize (corn), beans, sunflowers, roses, mango trees, tomatoes</li>
+                <li><strong>Fun Fact:</strong> Most of the food we eat comes from flowering plants!</li>
             </ul>
-            <p><strong>Common Hazard Symbols:</strong></p>
+            <p><strong>Non-Flowering Plants:</strong></p>
             <ul>
-                <li><strong>Flammable:</strong> Can catch fire easily (like some air fresheners)</li>
-                <li><strong>Poison:</strong> Can make you very sick if swallowed (like some cleaning products)</li>
-                <li><strong>Corrosive:</strong> Can burn skin or damage surfaces (like drain cleaner)</li>
-                <li><strong>Irritant:</strong> Can cause skin or eye irritation</li>
+                <li>Plants that do NOT grow flowers</li>
+                <li>They reproduce using spores or cones instead of flowers</li>
+                <li><strong>Examples:</strong> Ferns, mosses, pine trees (gymnosperms), mushrooms (fungi - not true plants but often studied together)</li>
+                <li><strong>Fun Fact:</strong> Ferns existed before dinosaurs and have been on Earth for over 300 million years!</li>
             </ul>
-            <p><strong>Science Focus:</strong> Safety awareness and interpreting visual warnings to prevent harm.</p>
+            <p><strong>How to Tell Them Apart:</strong></p>
+            <ul>
+                <li>Look for flowers, fruits, or seeds → FLOWERING PLANT</li>
+                <li>Look for tiny brown spots (spores) on the underside of leaves (ferns) or no flowers at all → NON-FLOWERING PLANT</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fire" style="color: #f44336;"></i> Flammable Symbol</div>
-                <p>"This symbol means the product can catch fire easily. You might see it on spray cans or some cleaners."</p>
+                <div class="example-title"><i class="fas fa-corn"></i> Maize - A Flowering Plant</div>
+                <p>Maize (corn) has flowers! The tassel at the top is the male flower, and the silk on the cob is part of the female flower. Each kernel is a seed!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-skull-crossbones" style="color: #9C27B0;"></i> Poison Symbol</div>
-                <p>"This skull and crossbones means the product is poisonous. Never taste or swallow products with this symbol!"</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Beans - A Flowering Plant</div>
+                <p>Bean plants grow beautiful flowers that turn into bean pods. The beans inside are the seeds!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Symbol Matching Game!</div>
-                <p>We'll match hazard symbols to products around the classroom. Which symbol goes with which product?</p>
+                <div class="example-title"><i class="fas fa-feather-alt"></i> Ferns - Non-Flowering Plants</div>
+                <p>Ferns don't grow flowers. Instead, they have tiny dots (spores) on the backs of their leaves. Each spore can grow into a new fern!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-mountain"></i> Moss - Non-Flowering Plant</div>
+                <p>Moss grows in soft, green carpets on damp ground, rocks, or tree trunks. It never grows flowers and reproduces using spores.</p>
             </div>
         `,
-        taskInstructions: "Practice identifying and understanding hazard symbols.",
+        taskInstructions: "Sort plants into flowering and non-flowering groups.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Symbol Recognition</strong></p>
+                <p><strong>Part A: Sorting Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match the symbol to its meaning:
+                    <span class="task-number">1</span> Draw a line from each plant to the correct group:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>🔥 Flammable - ________________________________</div>
-                        <div>☠️ Poison - ________________________________</div>
-                        <div>⚠️ Warning/Corrosive - ________________________________</div>
-                        <div>💥 Explosive - ________________________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Product Matching</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Which products might have these symbols?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Flammable symbol: ☐ Air freshener ☐ Glass cleaner ☐ Oven cleaner</div>
-                        <div>Poison symbol: ☐ Dish soap ☐ Drain cleaner ☐ Hand soap</div>
-                        <div>Corrosive symbol: ☐ Toilet cleaner ☐ Shampoo ☐ Laundry detergent</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Symbol Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw and label the four main hazard symbols:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div>Flammable</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div>Poison</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div>Corrosive</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div>Irritant</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Maize (corn)</div>
+                                <div>• Fern</div>
+                                <div>• Bean plant</div>
+                                <div>• Moss</div>
+                                <div>• Mango tree</div>
+                                <div>• Pine tree</div>
+                                <div>• Sunflower</div>
+                                <div>• Grass</div>
+                            </div>
+                            <div>
+                                <div>→ Flowering Plant</div>
+                                <div>→ Flowering Plant</div>
+                                <div>→ Flowering Plant</div>
+                                <div>→ Non-Flowering</div>
+                                <div>→ Flowering Plant</div>
+                                <div>→ Non-Flowering</div>
+                                <div>→ Flowering Plant</div>
+                                <div>→ Flowering Plant</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Safety Rules</strong></p>
+                <p><strong>Part B: Create Your Own Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Write one safety rule for each symbol:
+                    <span class="task-number">2</span> Make a T-chart below. Write 3 flowering plants and 3 non-flowering plants:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Flammable: Keep away from ________________</div>
-                        <div>Poison: Never ________________ or ________________</div>
-                        <div>Corrosive: Wear ________________ when using</div>
-                        <div>Irritant: Wash ________________ after touching</div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4CAF50; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Flowering Plants</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Non-Flowering Plants</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 100px; vertical-align: top;">1.<br>2.<br>3.</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 100px; vertical-align: top;">1.<br>2.<br>3.</td>
+                            </tr>
+                        </table>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Observation</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Look at the picture of a fern below. Do you see any flowers? ________
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why do you think maize and beans are called flowering plants?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look for hazard symbols on three products in your home. Draw the symbols and write what they mean.",
+        homework: "Find one flowering plant and one non-flowering plant near your home. Draw each one and label which group it belongs to.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Reading Product Labels",
-        subtopic: "Locating and interpreting safety instructions on packaging",
+        topic: "Plants",
+        subtopic: "Relating Structures of Plants to Their Functions",
         lessonContent: `
-            <p>Today we will become label detectives! We'll learn how to find important safety information on product labels.</p>
-            <p><strong>Key Concept:</strong> Product labels contain vital safety information that we must read and understand.</p>
-            <p><strong>What to look for on labels:</strong></p>
-            <ul>
-                <li><strong>Warning statements:</strong> "Keep out of reach of children"</li>
-                <li><strong>First aid instructions:</strong> What to do if the product gets in eyes or is swallowed</li>
-                <li><strong>Usage instructions:</strong> How to use the product safely</li>
-                <li><strong>Storage instructions:</strong> Where and how to store the product</li>
-            </ul>
-            <p><strong>Why read labels?</strong></p>
-            <ul>
-                <li>To use products correctly</li>
-                <li>To know what to do in an emergency</li>
-                <li>To store products safely</li>
-            </ul>
-            <p><strong>Science Focus:</strong> Information literacy and household safety - learning to find and understand important information.</p>
+            <p>Today we'll learn about the different parts of a plant and what each part does!</p>
+            <p><strong>Key Question:</strong> What do the different parts of a plant do?</p>
+            <p><strong>The Main Parts of a Plant and Their Jobs:</strong></p>
+            <ol>
+                <li><strong>Roots:</strong> 
+                    <ul>
+                        <li>Anchor the plant in the soil</li>
+                        <li>Absorb water and minerals from the soil</li>
+                        <li>Sometimes store food (like carrots and sweet potatoes)</li>
+                    </ul>
+                </li>
+                <li><strong>Stem:</strong>
+                    <ul>
+                        <li>Holds the plant upright</li>
+                        <li>Carries water and food between roots and leaves</li>
+                        <li>Supports leaves, flowers, and fruits</li>
+                    </ul>
+                </li>
+                <li><strong>Leaves:</strong>
+                    <ul>
+                        <li>Make food for the plant using sunlight (photosynthesis)</li>
+                        <li>Take in carbon dioxide and release oxygen</li>
+                        <li>Have tiny holes called stomata to breathe</li>
+                    </ul>
+                </li>
+                <li><strong>Flowers:</strong>
+                    <ul>
+                        <li>Help the plant reproduce</li>
+                        <li>Attract pollinators like bees and butterflies</li>
+                        <li>Turn into fruits with seeds inside</li>
+                    </ul>
+                </li>
+                <li><strong>Fruits:</strong>
+                    <ul>
+                        <li>Protect seeds</li>
+                        <li>Help spread seeds to new places (animals eat fruit and drop seeds)</li>
+                    </ul>
+                </li>
+                <li><strong>Seeds:</strong>
+                    <ul>
+                        <li>Grow into new plants</li>
+                        <li>Store food for the baby plant until it can make its own food</li>
+                    </ul>
+                </li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exclamation-triangle" style="color: #FF9800;"></i> Warning Statement</div>
-                <p>"Keep out of reach of children" is found on many cleaning products. This means store them where young children can't reach them.</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Root Racers</div>
+                <p>Carrots are special roots that store extra food for the plant. That's why carrots are sweet and crunchy!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #2196F3;"></i> First Aid Example</div>
-                <p>"If in eyes, rinse with water for 15 minutes" - This tells us exactly what to do if the product gets in someone's eyes.</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Water Transport</div>
+                <p>If you put a celery stalk in colored water, you can see the tiny tubes in the stem carrying the water up to the leaves!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Label Detective Game!</div>
-                <p>Using empty containers, work in pairs to find specific information on labels. Who can find the information fastest?</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Leaf Factories</div>
+                <p>Leaves are like tiny food factories. They use sunlight, water, and air to make sugar (food) for the plant.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-bee"></i> Flower Power</div>
+                <p>Bees visit flowers to collect nectar. While they're there, pollen sticks to them and gets carried to the next flower!</p>
             </div>
         `,
-        taskInstructions: "Practice reading and interpreting product labels.",
+        taskInstructions: "Match plant parts to their functions and label a diagram.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Label Information Hunt</strong></p>
+                <p><strong>Part A: Match the Part to Its Job</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Using a sample label, find this information:
+                    <span class="task-number">1</span> Draw a line from each plant part to what it does:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Product name: ________________________</div>
-                        <div>Warning statement: ________________________</div>
-                        <div>First aid instructions: ________________________</div>
-                        <div>Storage instructions: ________________________</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>Roots →</div>
+                                <div>Stem →</div>
+                                <div>Leaves →</div>
+                                <div>Flower →</div>
+                                <div>Seed →</div>
+                            </div>
+                            <div>
+                                <div>Make food using sunlight</div>
+                                <div>Absorb water from soil</div>
+                                <div>Grow into a new plant</div>
+                                <div>Carry water and hold plant up</div>
+                                <div>Attract pollinators and make seeds</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Important Phrases</strong></p>
+                <p><strong>Part B: Label the Plant Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Circle the important safety phrases you might find on labels:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Keep out of reach of children</div>
-                        <div>☐ Use in well-ventilated area</div>
-                        <div>☐ Do not mix with other products</div>
-                        <div>☐ Rinse thoroughly after use</div>
-                        <div>☐ Store in a cool, dry place</div>
+                    <span class="task-number">2</span> Label the parts of this plant using the words: roots, stem, leaves, flower
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px solid #4CAF50; position: relative;">
+                        <div style="position: absolute; bottom: 5px; left: 5px;">______</div>
+                        <div style="position: absolute; bottom: 60px; left: 45%;">______</div>
+                        <div style="position: absolute; top: 30px; left: 45%;">______</div>
+                        <div style="position: absolute; top: 5px; left: 45%;">______</div>
+                        <p style="text-align: center; padding-top: 70px;">[Plant Drawing - Label the parts]</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Your Own Label</strong></p>
+                <p><strong>Part C: Fill in the Blank</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Design a safe label for a pretend cleaning product:
-                    <div style="margin-top: 10px;">
-                        <div>Product name: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div class="drawing-area" style="height: 150px; border: 1px solid #ccc; margin-top: 10px;"></div>
-                        <div>Include: ☐ Warning symbol ☐ Safety phrase ☐ First aid instructions</div>
+                    <span class="task-number">3</span> Complete each sentence:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) A plant's ___________ take in water from the soil.</div>
+                        <div>b) The ___________ holds the plant up and carries water.</div>
+                        <div>c) ___________ make food for the plant using sunlight.</div>
+                        <div>d) A ___________ can grow into a new plant.</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Emergency Response</strong></p>
+                <p><strong>Part D: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> What would you do in these situations?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>If product gets in eyes: ________________________</div>
-                        <div>If product is swallowed: ________________________</div>
-                        <div>If product spills on skin: ________________________</div>
-                        <div>Who to call for help: ________________________ (Hint: Poison Control)</div>
-                    </div>
+                    <span class="task-number">4</span> Draw a plant of your choice. Label at least 4 parts and write what each part does:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find a product label at home. Copy one safety instruction and one first aid instruction from it.",
+        homework: "Look at a plant in your home. Name three parts you can see and tell what each part does.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Disposing of Chemical Waste",
-        subtopic: "Exploring safe disposal methods to protect the environment",
+        topic: "Animals",
+        subtopic: "Identifying Classes of Animals: Vertebrates vs. Invertebrates",
         lessonContent: `
-            <p>Today we'll learn how to properly dispose of household chemicals to keep our environment clean and safe.</p>
-            <p><strong>Key Concept:</strong> Chemicals need special disposal methods to prevent pollution and protect living things.</p>
-            <p><strong>Why proper disposal matters:</strong></p>
+            <p>Today we'll learn how scientists group animals into two big categories: vertebrates and invertebrates!</p>
+            <p><strong>Key Question:</strong> What makes some animals different from others?</p>
+            <p><strong>Vertebrates (Animals with a Backbone):</strong></p>
             <ul>
-                <li>Chemicals can harm plants and animals if they enter soil or water</li>
-                <li>Some chemicals don't break down easily in the environment</li>
-                <li>Improper disposal can contaminate our drinking water</li>
+                <li>Have a backbone (spine) inside their body</li>
+                <li>The backbone is made of many small bones called vertebrae</li>
+                <li>Vertebrates can be divided into 5 groups: mammals, birds, reptiles, amphibians, and fish</li>
+                <li><strong>Examples:</strong> Humans, dogs, cats, chickens, snakes, frogs, fish, cows, elephants</li>
             </ul>
-            <p><strong>Safe Disposal Methods:</strong></p>
+            <p><strong>Invertebrates (Animals WITHOUT a Backbone):</strong></p>
             <ul>
-                <li>Use up the product completely if possible</li>
-                <li>Take to a hazardous waste collection center</li>
-                <li>Follow specific disposal instructions on the label</li>
-                <li>Never pour chemicals down drains or into gardens</li>
+                <li>Do NOT have a backbone</li>
+                <li>Some have hard outer shells (exoskeletons) for protection</li>
+                <li>There are more invertebrates on Earth than any other animal group!</li>
+                <li><strong>Examples:</strong> Worms, spiders, insects (ants, beetles, butterflies), snails, jellyfish, crabs, octopus</li>
             </ul>
-            <p><strong>Science Focus:</strong> Environmental stewardship and pollution prevention - our responsibility to protect the planet.</p>
+            <p><strong>How to Tell Them Apart:</strong></p>
+            <ul>
+                <li>Does it have bones inside its body? → VERTEBRATE</li>
+                <li>Does it have a hard shell or no bones at all? → INVERTEBRATE</li>
+                <li>Can you feel its spine if you touch its back? → VERTEBRATE</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle" style="color: #4CAF50;"></i> Safe Disposal</div>
-                <p>"Old paint should be taken to a hazardous waste center, not poured down the drain where it could harm water life."</p>
+                <div class="example-title"><i class="fas fa-user"></i> Humans - Vertebrates</div>
+                <p>You are a vertebrate! Feel your back. Those bumps you feel are your vertebrae (the bones in your backbone).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #f44336;"></i> Dangerous Disposal</div>
-                <p>"Pouring motor oil into a storm drain can poison fish and contaminate rivers. Always take it to a collection center."</p>
+                <div class="example-title"><i class="fas fa-dove"></i> Chicken - Vertebrate</div>
+                <p>A chicken has a backbone just like you! Birds are vertebrates too. Their backbone helps them balance while flying.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Disposal Decision Game!</div>
-                <p>We'll have scenarios about different chemicals. Decide: Safe disposal or Dangerous disposal?</p>
+                <div class="example-title"><i class="fas fa-bug"></i> Earthworm - Invertebrate</div>
+                <p>Worms don't have any bones at all! Their bodies are soft and squishy. They move by squeezing their muscles.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-spider"></i> Spider - Invertebrate</div>
+                <p>Spiders are invertebrates. They have a hard outer covering called an exoskeleton instead of bones inside their body.</p>
             </div>
         `,
-        taskInstructions: "Learn about safe chemical disposal methods.",
+        taskInstructions: "Identify and classify animals as vertebrates or invertebrates.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Disposal Sorting</strong></p>
+                <p><strong>Part A: Sorting Animals</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these disposal methods into Safe or Dangerous:
+                    <span class="task-number">1</span> Write each animal in the correct group: <strong>Man, chicken, worm, spider, dog, butterfly, fish, snail</strong>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Safe Methods:</strong></div>
-                        <div>☐ Take to hazardous waste center</div>
-                        <div>☐ Use up completely</div>
-                        <div>☐ ________________________________</div>
-                        
-                        <div><strong>Dangerous Methods:</strong></div>
-                        <div>☐ Pour down the drain</div>
-                        <div>☐ Throw in regular trash</div>
-                        <div>☐ ________________________________</div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #2196F3; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Vertebrates (Have a backbone)</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Invertebrates (No backbone)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 120px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 120px; vertical-align: top;"></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Environmental Impact</strong></p>
+                <p><strong>Part B: Circle the Answer</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> What could happen with improper disposal?
+                    <span class="task-number">2</span> Circle whether each animal is a vertebrate or invertebrate:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>If chemicals enter rivers: ________________________</div>
-                        <div>If chemicals enter soil: ________________________</div>
-                        <div>If chemicals enter groundwater: ________________________</div>
+                        <div>a) Frog → Vertebrate / Invertebrate</div>
+                        <div>b) Ant → Vertebrate / Invertebrate</div>
+                        <div>c) Cow → Vertebrate / Invertebrate</div>
+                        <div>d) Jellyfish → Vertebrate / Invertebrate</div>
+                        <div>e) Lizard → Vertebrate / Invertebrate</div>
+                        <div>f) Beetle → Vertebrate / Invertebrate</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Disposal Plan</strong></p>
+                <p><strong>Part C: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create a disposal plan for three household items:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Old batteries: Dispose by ________________________</div>
-                        <div>2. Empty paint cans: Dispose by ________________________</div>
-                        <div>3. Used cooking oil: Dispose by ________________________</div>
+                    <span class="task-number">3</span> Draw one vertebrate and one invertebrate. Label which is which:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Vertebrate</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Invertebrate</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Pollution Prevention Poster</strong></p>
+                <p><strong>Part D: Quick Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Design a poster about protecting water from chemical pollution:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div>Slogan: <span class="answer-space" style="width: 300px;"></span></div>
+                    <span class="task-number">4</span> Do you have a backbone? ________
+                    <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Community Helpers</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Who helps with chemical disposal in our community?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Hazardous waste collection centers</div>
-                        <div>☐ Recycling facilities</div>
-                        <div>☐ ________________________________</div>
-                        <div>Find out: Where is the nearest hazardous waste center? ________________________</div>
-                    </div>
+                    <span class="task-number">5</span> Name one animal you saw today. Is it a vertebrate or invertebrate?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member about how they dispose of household chemicals. Discuss one safe disposal method you learned.",
+        homework: "Find three animals in your neighborhood. For each one, write whether it is a vertebrate or invertebrate and explain how you know.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "Week Review and Safety Poster",
-        subtopic: "Consolidating safety knowledge through poster creation",
+        subtopic: "Activity: Sorting Animals (Vertebrates vs. Invertebrates)",
         lessonContent: `
-            <p>Today we'll review everything we've learned and create a safety poster to share our knowledge!</p>
-            <p><strong>Key Concept Review:</strong></p>
+            <p>Today is activity day! We'll practice sorting animals into vertebrates and invertebrates using pictures and games!</p>
+            <p><strong>Review: What We Learned This Week</strong></p>
             <ul>
-                <li><strong>Monday:</strong> Household chemicals have specific purposes and storage needs</li>
-                <li><strong>Tuesday:</strong> Hazard symbols warn us about potential dangers</li>
-                <li><strong>Wednesday:</strong> Product labels contain vital safety information</li>
-                <li><strong>Thursday:</strong> Proper disposal protects our environment</li>
+                <li><strong>Monday:</strong> Explored different plants in our environment</li>
+                <li><strong>Tuesday:</strong> Classified plants as flowering or non-flowering</li>
+                <li><strong>Wednesday:</strong> Learned plant parts and their functions</li>
+                <li><strong>Thursday:</strong> Identified vertebrates vs. invertebrates</li>
+                <li><strong>Friday:</strong> Sorting activity!</li>
             </ul>
-            <p><strong>Poster Creation:</strong> We'll create a "Safety First" poster featuring:</p>
-            <ul>
-                <li>A household chemical</li>
-                <li>Its correct warning sign</li>
-                <li>One safety rule for use</li>
-                <li>One rule for safe disposal</li>
-            </ul>
-            <p><strong>Science Focus:</strong> Consolidation of safety competencies - applying everything we've learned to create useful safety information.</p>
-            <p><strong>Celebration:</strong> We've become chemical safety experts who can help keep our homes and environment safe!</p>
+            <p><strong>Vertebrates Quick Review:</strong> Animals WITH a backbone (Man, chicken, dog, cat, fish, frog, cow, horse)</p>
+            <p><strong>Invertebrates Quick Review:</strong> Animals WITHOUT a backbone (Worm, spider, ant, butterfly, snail, jellyfish, beetle)</p>
+            <p><strong>Activity Instructions:</strong> You will receive picture cards of different animals. Sort them into two groups: Vertebrates and Invertebrates.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paint-brush" style="color: #9C27B0;"></i> Poster Example</div>
-                <p>"A poster about bleach might show the corrosive symbol, say 'Wear gloves when using,' and 'Never mix with other cleaners.'"</p>
+                <div class="example-title"><i class="fas fa-image"></i> Picture Cards</div>
+                <p>Your teacher will give you cards with pictures of: Man, chicken, worm, spider, dog, butterfly, fish, snail, cow, ant, frog, beetle.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fire-extinguisher" style="color: #f44336;"></i> Safety Rule Example</div>
-                <p>"For flammable products: 'Store away from heat sources' is an important safety rule to include on posters."</p>
+                <div class="example-title"><i class="fas fa-question-circle"></i> How to Sort</div>
+                <p>Ask yourself: "Does this animal have bones inside its body?" If yes → Vertebrate. If no → Invertebrate.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Safety Quiz Game!</div>
-                <p>We'll have a quiz show about everything we learned this week. Team up and test your safety knowledge!</p>
+                <div class="example-title"><i class="fas fa-users"></i> Partner Work</div>
+                <p>Work with a partner! Compare your answers and discuss why you put each animal in its group.</p>
             </div>
         `,
-        taskInstructions: "Create a safety poster and complete the week review activities.",
+        taskInstructions: "Sort animal pictures into Vertebrates and Invertebrates groups.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Week Review Quiz</strong></p>
+                <p><strong>Activity: Sorting Animal Pictures</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Answer these review questions:
+                    <span class="task-number">1</span> Sort your animal picture cards into the correct groups:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Name two household chemicals and their uses: ________________________</div>
-                        <div>2. Draw the poison symbol: <span class="drawing-area" style="width: 50px; height: 50px; display: inline-block;"></span></div>
-                        <div>3. Where should you look for first aid instructions? ________________________</div>
-                        <div>4. Why shouldn't chemicals be poured down drains? ________________________</div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #FF9800; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Vertebrates (Backbone)</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Invertebrates (No Backbone)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;">
+                                    <div class="drawing-area" style="height: 180px; border: 1px dashed #ccc;"></div>
+                                </td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;">
+                                    <div class="drawing-area" style="height: 180px; border: 1px dashed #ccc;"></div>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: "Safety First" Poster Creation</strong></p>
+                <p><strong>Part B: Record Your Answers</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Create your safety poster:
-                    <div style="margin-top: 10px;">
-                        <div>Choose a household chemical: ________________________</div>
-                        <div class="drawing-area" style="height: 200px; border: 2px solid #333; margin-top: 10px;"></div>
-                        <div>Your poster must include:</div>
-                        <div style="margin-left: 20px;">
-                            <div>☐ The product name</div>
-                            <div>☐ Correct hazard symbol</div>
-                            <div>☐ One safety rule for use</div>
-                            <div>☐ One safe disposal method</div>
-                            <div>☐ A catchy safety slogan</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Poster Presentation</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Prepare to present your poster:
+                    <span class="task-number">2</span> Write the animals you sorted in each group:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My chemical is: ________________________</div>
-                        <div>Most important safety rule: ________________________</div>
-                        <div>Why this product needs careful handling: ________________________</div>
-                        <div>How to dispose of it safely: ________________________</div>
+                        <div><strong>Vertebrates:</strong> _________________________________</div>
+                        <div><strong>Invertebrates:</strong> _______________________________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Safety Pledge</strong></p>
+                <p><strong>Part C: Challenge Question</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Sign the Chemical Safety Pledge:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; border: 2px dashed #4CAF50; border-radius: 10px;">
-                        <div style="text-align: center; font-weight: bold; font-size: 18px;">Chemical Safety Pledge</div>
-                        <div style="margin-top: 10px;">
-                            I, <span class="answer-space" style="width: 150px;"></span>, pledge to:
+                    <span class="task-number">3</span> Which group has more animals in your picture set? Why do you think that is?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw Your Favorite</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw your favorite vertebrate and your favorite invertebrate:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>My Favorite Vertebrate</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
                         </div>
-                        <div style="margin-left: 20px; margin-top: 10px;">
-                            <div>☐ Always read product labels</div>
-                            <div>☐ Look for and understand hazard symbols</div>
-                            <div>☐ Store chemicals safely away from children</div>
-                            <div>☐ Dispose of chemicals properly to protect our environment</div>
-                            <div>☐ Teach others about chemical safety</div>
-                        </div>
-                        <div style="text-align: center; margin-top: 15px;">
-                            Signature: <span class="answer-space" style="width: 200px; border-bottom: 1px solid #000;"></span>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>My Favorite Invertebrate</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Safety Expert Certificate</strong></p>
+                <p><strong>Part E: Week Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Design a certificate for completing Chemical Safety Week:
-                    <div class="drawing-area" style="height: 150px; border: 3px double #333; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I am now a Chemical Safety Expert because I know how to ________________</div>
+                    <span class="task-number">5</span> What was the most interesting thing you learned about plants or animals this week?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Share your safety poster with your family. Teach them one new thing you learned about chemical safety this week.",
+        homework: "Draw and label one vertebrate and one invertebrate from your home. Show your drawing to your family and explain the difference between them.",
         homeworkDue: "Monday"
     }
 };
@@ -520,10 +555,10 @@ const grade3MathScienceWeek8 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3MathScienceWeek8);
-    console.log("math-science-week8-chemicalsafety.js registered using registerWorksheet()");
+    console.log("grade3-mathscience-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3MathScienceWeek8);
-    console.log("math-science-week8-chemicalsafety.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-mathscience-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -534,9 +569,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3MathScienceWeek8.metadata,
         days: grade3MathScienceWeek8
     });
-    console.log("math-science-week8-chemicalsafety.js stored in window.registeredWorksheets");
+    console.log("grade3-mathscience-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3MathScienceWeek8 = grade3MathScienceWeek8;
-console.log("math-science-week8-chemicalsafety.js loaded and registered successfully");
+console.log("grade3-mathscience-week8.js loaded and registered successfully");

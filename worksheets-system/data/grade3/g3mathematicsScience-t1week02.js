@@ -1,451 +1,472 @@
-// Grade 3 Mathematics & Science - Week 2 Data (Exploring Sets)
+// Grade 3 Mathematics & Science - Term 1 Week 2
 const grade3MathScienceWeek2 = {
     metadata: {
         grade: 3,
         subject: "Mathematics & Science",
+        term: 1,
         week: 2,
-        title: "Exploring Our World — Understanding Sets and Groups",
-        description: "Learning to define, describe, compare, and analyze sets using numbers and real-world objects"
+        title: "Grouping Things (Sets)",
+        description: "Exploring groups of whole numbers, equal vs. not equal groups, equivalent groups, and subsets"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "Describing Our Groups",
-        subtopic: "Introduction to Sets: Natural, Even, and Odd Numbers",
+        topic: "Sets",
+        subtopic: "Describing Groups of Whole Numbers",
         lessonContent: `
-            <p>Welcome to our exploration of groups and sets! Today we'll learn how mathematicians organize things that belong together.</p>
-            <p><strong>Key Concept:</strong> A set is a collection of objects or numbers that share a common characteristic.</p>
-            <p><strong>What makes a set?</strong></p>
+            <p>Welcome to our exploration of grouping things! Today we'll learn how to describe different groups of whole numbers.</p>
+            <p><strong>Key Question:</strong> How can we put numbers into groups that share something in common?</p>
+            <p><strong>Introduction:</strong> A <strong>group</strong> (or <strong>set</strong>) is a collection of things that belong together. Just like you have a group of friends or a group of toys, numbers can belong to groups too!</p>
+            <p><strong>Types of Number Groups:</strong></p>
+            <ol>
+                <li><strong>Natural Numbers:</strong> The numbers we use for counting (1, 2, 3, 4, 5, ...)</li>
+                <li><strong>Even Numbers:</strong> Numbers that can be divided by 2 (2, 4, 6, 8, 10, ...)</li>
+                <li><strong>Odd Numbers:</strong> Numbers that cannot be divided by 2 (1, 3, 5, 7, 9, ...)</li>
+            </ol>
+            <p><strong>Quick Check:</strong></p>
             <ul>
-                <li>Items that follow a specific rule</li>
-                <li>Objects that belong together for a reason</li>
-                <li>Numbers that share a pattern</li>
+                <li>Is 6 even or odd? (Even - it can be divided by 2!)</li>
+                <li>Is 9 even or odd? (Odd - it leaves 1 left over!)</li>
+                <li>What about 0? (Even - it can be divided by 2!)</li>
             </ul>
-            <p><strong>Natural Numbers:</strong> These are our "counting numbers" - 1, 2, 3, 4, 5, and so on. We use them to count objects in real life!</p>
-            <p><strong>Even vs. Odd Numbers:</strong></p>
-            <ul>
-                <li><strong>Even numbers</strong> can be paired perfectly (2, 4, 6, 8, 10...)</li>
-                <li><strong>Odd numbers</strong> always have one "left out" when pairing (1, 3, 5, 7, 9...)</li>
-            </ul>
-            <p><strong>Think About It:</strong> Look around our classroom. What sets can you see right now? (Students wearing red, students with glasses, books on the shelf)</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #2196F3;"></i> Classroom Sets</div>
-                <p>"Students wearing blue shirts" - This is a set because all members share the same characteristic!</p>
+                <div class="example-title"><i class="fas fa-fingerprint"></i> Natural Numbers</div>
+                <p>If you count your fingers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 — those are natural numbers!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-stone" style="color: #795548;"></i> Even vs. Odd with Objects</div>
-                <p>Place 6 stones in pairs: ●● ●● ●● (Even - all paired). Place 7 stones: ●● ●● ●● ● (Odd - one left out)</p>
+                <div class="example-title"><i class="fas fa-shoe-prints"></i> Even Numbers</div>
+                <p>Even numbers are like pairs of shoes. 2 shoes (1 pair), 4 shoes (2 pairs), 6 shoes (3 pairs). No shoe left alone!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Set Identification Game!</div>
-                <p>I'll show number groups on the board. Shout "Even Set!" or "Odd Set!" when you recognize the pattern!</p>
+                <div class="example-title"><i class="fas fa-user-friends"></i> Odd Numbers</div>
+                <p>Odd numbers are like a group of friends where one person is left out of a pair. 3 friends = 1 pair + 1 alone!</p>
             </div>
         `,
-        taskInstructions: "Identify and describe different types of sets.",
+        taskInstructions: "Identify and describe groups of natural, even, and odd numbers.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Natural Numbers Practice</strong></p>
+                <p><strong>Part A: Natural Numbers</strong></p>
                 <div class="task-item">
                     <span class="task-number">1</span> List the first 10 natural numbers:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div class="answer-space" style="height: 30px; width: 300px;">Natural numbers: ________________________________</div>
-                        <div><em>Hint: Start from 1!</em></div>
-                    </div>
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> What is the smallest natural number?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Even or Odd?</strong></p>
+                <p><strong>Part B: Even Numbers</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Test these numbers with stones or buttons. Mark even (E) or odd (O):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>8: ____ (Draw 8 stones in pairs)</div>
-                        <div>5: ____ (Draw 5 stones showing the leftover)</div>
-                        <div>12: ____ (Draw 12 stones in pairs)</div>
-                        <div>7: ____ (Draw 7 stones showing the leftover)</div>
-                    </div>
+                    <span class="task-number">3</span> Circle all the even numbers: 5, 8, 11, 14, 17, 20, 23, 26
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> List five even numbers:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Set Identification</strong></p>
+                <p><strong>Part C: Odd Numbers</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Look at this set: {1, 3, 5, 7, 9}
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>This is a set of ________ numbers.</div>
-                        <div>Circle why: ☐ They're all less than 10 ☐ They're all odd ☐ They're all even</div>
-                        <div>Create your own set of even numbers: {______, ______, ______, ______}</div>
-                    </div>
+                    <span class="task-number">5</span> Circle all the odd numbers: 3, 6, 9, 12, 15, 18, 21, 24
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Real-World Sets</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Identify sets in our classroom:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a set of blue items you see: <div class="drawing-area" style="height: 80px;"></div></div>
-                        <div>Name a set of round objects: ________________________</div>
-                        <div>Name a set of things used for writing: ________________</div>
-                    </div>
+                    <span class="task-number">6</span> Is 17 even or odd? How do you know?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three sets at home. Write one example of an even number set and one example of an odd number set in your notebook.",
+        homework: "Find 5 things at home that come in even numbers (like 2 shoes, 4 chair legs) and 5 things that come in odd numbers (like 3 lamps, 1 front door).",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Who is in the Group?",
-        subtopic: "Listing Members Using Set Notation",
+        topic: "Sets",
+        subtopic: "Listing Members & Comparing Groups",
         lessonContent: `
-            <p>Today we learn the special language of sets! Mathematicians use specific symbols to write sets clearly.</p>
-            <p><strong>Key Concept:</strong> Set notation helps us list members accurately so everyone understands exactly what's in the group.</p>
-            <p><strong>Set Notation Rules:</strong></p>
+            <p>Today we'll learn how to list the members of a group and compare groups to see if they are equal or not equal!</p>
+            <p><strong>Key Question:</strong> How can we tell if two groups are the same size?</p>
+            <p><strong>Listing Members of a Group:</strong></p>
+            <p>We can list group members using curly brackets { } like this:</p>
             <ul>
-                <li>Use curly brackets { } to show it's a set</li>
-                <li>List members inside the brackets</li>
-                <li>Separate items with commas</li>
-                <li>Order doesn't matter: {1, 2, 3} is the same as {3, 1, 2}</li>
+                <li>Even numbers less than 10: {2, 4, 6, 8}</li>
+                <li>Odd numbers less than 10: {1, 3, 5, 7, 9}</li>
+                <li>Days of the week: {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday}</li>
             </ul>
-            <p><strong>Example:</strong> The set of even numbers between 1 and 11 is written as {2, 4, 6, 8, 10}</p>
-            <p><strong>Science Integration:</strong> We can also describe sets in nature! The set of "Parts of a Plant" includes {roots, stem, leaves, flower, fruit}.</p>
-            <p><strong>Important:</strong> Every member must fit the description perfectly! If we say "even numbers between 10 and 20," we can't include 9 or 21.</p>
+            <p><strong>Equal Groups:</strong></p>
+            <p>Two groups are <strong>equal</strong> if they have the exact same number of members (the same amount).</p>
+            <ul>
+                <li>Group A: {1, 2, 3} has 3 members</li>
+                <li>Group B: {4, 5, 6} has 3 members</li>
+                <li>Group A and Group B are EQUAL because they both have 3 members!</li>
+            </ul>
+            <p><strong>Not Equal Groups:</strong></p>
+            <p>Two groups are <strong>not equal</strong> if they have a different number of members.</p>
+            <ul>
+                <li>Group C: {1, 2} has 2 members</li>
+                <li>Group D: {1, 2, 3} has 3 members</li>
+                <li>Group C and Group D are NOT EQUAL!</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-brackets-curly" style="color: #f44336;"></i> Set Notation Example</div>
-                <p>Natural numbers less than 6: {1, 2, 3, 4, 5} - Notice the curly brackets and commas!</p>
+                <div class="example-title"><i class="fas fa-star"></i> Listing Members</div>
+                <p>The group of colors in a rainbow: {red, orange, yellow, green, blue, indigo, violet} — that's 7 members!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Science Set Example</div>
-                <p>Domestic Animals: {dog, cat, cow, chicken, goat} - All animals commonly kept by people.</p>
+                <div class="example-title"><i class="fas fa-balance-scale"></i> Equal Groups</div>
+                <p>Group 1: {apple, banana, orange} has 3 fruits.<br>Group 2: {carrot, broccoli, peas} has 3 vegetables.<br>Both groups have 3 members, so they are EQUAL!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Rainbow Set Game!</div>
-                <p>I'll describe a set. You write it correctly using curly brackets. First team with perfect notation wins!</p>
+                <div class="example-title"><i class="fas fa-not-equal"></i> Not Equal Groups</div>
+                <p>Group A: {dog, cat} has 2 pets.<br>Group B: {dog, cat, bird} has 3 pets.<br>2 is not the same as 3, so they are NOT EQUAL!</p>
             </div>
         `,
-        taskInstructions: "Practice writing sets correctly using proper notation.",
+        taskInstructions: "List group members and compare whether groups are equal or not equal.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Number Set Practice</strong></p>
+                <p><strong>Part A: Listing Members</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write these sets using proper notation:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Natural numbers less than 6: ____________________</div>
-                        <div>Even numbers between 10 and 20: ____________________</div>
-                        <div>Odd numbers between 0 and 8: ____________________</div>
-                    </div>
+                    <span class="task-number">1</span> List all the vowels in the alphabet: { , , , , }
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> List all the months that start with "J":
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> List the even numbers between 10 and 20:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Science Sets</strong></p>
+                <p><strong>Part B: Equal or Not Equal?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List members of these science sets:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Colors in a rainbow: {______, ______, ______, ______, ______, ______, ______}</div>
-                        <div>Basic parts of a plant: {______, ______, ______, ______}</div>
-                        <div>Domestic animals you know: {______, ______, ______, ______}</div>
-                    </div>
+                    <span class="task-number">4</span> Group A: {1, 2, 3} &nbsp;&nbsp; Group B: {4, 5, 6}<br>
+                    Are they equal? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Group C: {cat, dog} &nbsp;&nbsp; Group D: {cat, dog, fish}<br>
+                    Are they equal? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Group E: {2, 4, 6, 8} &nbsp;&nbsp; Group F: {1, 3, 5, 7}<br>
+                    Are they equal? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Classroom Set Collection</strong></p>
+                <p><strong>Part C: Create Your Own</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create and list three classroom sets:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Set 1 (Square objects): {___________________________}</div>
-                        <div>Set 2 (Red objects): {_____________________________}</div>
-                        <div>Set 3 (Things that can roll): {_____________________}</div>
-                    </div>
+                    <span class="task-number">7</span> Create two groups that are EQUAL. List them:
+                    <div class="answer-space" style="height: 50px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Accuracy Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Find the mistake in each set:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Even numbers 2-10: {2, 3, 4, 6, 8, 10} Mistake: ______</div>
-                        <div>Natural numbers < 5: (1, 2, 3, 4) Mistake: ______</div>
-                        <div>Rainbow colors: {red, orange, purple, green} Mistake: ______</div>
-                    </div>
+                    <span class="task-number">8</span> Create two groups that are NOT EQUAL. List them:
+                    <div class="answer-space" style="height: 50px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create three different sets using items in your home. Write them using proper set notation { }.",
+        homework: "Find 3 pairs of groups at home (like left shoes vs. right shoes, forks vs. spoons). Write whether each pair is equal or not equal and explain why.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Are They Identical?",
-        subtopic: "Comparing Sets: Equal vs. Not Equal",
+        topic: "Sets",
+        subtopic: "Equivalent Groups",
         lessonContent: `
-            <p>Today we become set detectives! We'll learn how to compare sets and decide if they're identical or different.</p>
-            <p><strong>Key Concept 1:</strong> Sets are EQUAL if they have exactly the same members.</p>
-            <p><strong>Equal Sets Rule:</strong> Order doesn't matter! {apple, banana} equals {banana, apple}</p>
-            <p><strong>Symbol for Equal:</strong> We use the equals sign = between sets: {1, 2, 3} = {3, 1, 2}</p>
-            <p><strong>Key Concept 2:</strong> Sets are NOT EQUAL if they have different members.</p>
-            <p><strong>Symbol for Not Equal:</strong> We use ≠ between sets: {1, 2, 3} ≠ {1, 2, 4}</p>
-            <p><strong>Think Like a Detective:</strong> To compare sets, check each member carefully. Ask: "Is every item in Set A also in Set B?"</p>
-            <p><strong>Important:</strong> Equal sets are identical twins. They may look different at first (different order), but they're the same!</p>
+            <p>Today we'll learn about <strong>equivalent groups</strong> — groups that have the same number of things, even if the things are different!</p>
+            <p><strong>Key Question:</strong> How can groups with different objects still be the same?</p>
+            <p><strong>What Does "Equivalent" Mean?</strong></p>
+            <p>"Equivalent" means having the same value or the same amount. Two groups are equivalent if they have the same number of members, even if the members are completely different!</p>
+            <p><strong>Examples of Equivalent Groups:</strong></p>
+            <ul>
+                <li>3 apples = 3 oranges (both have 3 pieces of fruit)</li>
+                <li>4 red blocks = 4 blue blocks (both have 4 blocks)</li>
+                <li>2 cookies = 2 crackers (both have 2 snacks)</li>
+            </ul>
+            <p><strong>Using Concrete Objects:</strong></p>
+            <p>We can use real objects to check if groups are equivalent. Just count the objects in each group and compare the numbers!</p>
+            <ul>
+                <li>Gather 5 pencils. Gather 5 crayons. Are they equivalent? YES — both have 5!</li>
+                <li>Gather 7 buttons. Gather 4 coins. Are they equivalent? NO — 7 is not equal to 4!</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-equals" style="color: #4CAF50;"></i> Equal Sets Example</div>
-                <p>Bag A: {red pencil, blue pencil}, Bag B: {blue pencil, red pencil} = These are EQUAL!</p>
+                <div class="example-title"><i class="fas fa-cubes"></i> Block Tower</div>
+                <p>If you build a tower with 6 red blocks and your friend builds a tower with 6 blue blocks, your towers are equivalent because they both have 6 blocks!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-not-equal" style="color: #f44336;"></i> Not Equal Example</div>
-                <p>Set C: {1, 3, 5}, Set D: {1, 3, 7} ≠ These are NOT EQUAL because 5 ≠ 7</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Snack Time</div>
+                <p>You have 4 grapes. Your friend has 4 crackers. You don't have the same snack, but you have the SAME NUMBER of snack pieces. Your groups are equivalent!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Set Detective Game!</div>
-                <p>I'll show two sets. Hold up "=" card if equal, "≠" card if not equal. Be careful - order tricks ahead!</p>
+                <div class="example-title"><i class="fas fa-tasks"></i> Counting Challenge</div>
+                <p>Can you make a group of toys that is equivalent to a group of 5 books? Yes! Just find 5 toys. 5 toys = 5 books → equivalent groups!</p>
             </div>
         `,
-        taskInstructions: "Compare pairs of sets and determine if they are equal or not equal.",
+        taskInstructions: "Use concrete objects to identify and create equivalent groups.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Equal or Not Equal?</strong></p>
+                <p><strong>Part A: Are These Groups Equivalent?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Compare these sets. Write = or ≠ between them:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>{2, 4, 6} ______ {4, 2, 6}</div>
-                        <div>{1, 3, 5} ______ {1, 3, 7}</div>
-                        <div>{apple, orange} ______ {orange, apple}</div>
-                        <div>{8, 9, 10} ______ {9, 10, 11}</div>
-                    </div>
+                    <span class="task-number">1</span> Group 1: 3 pencils &nbsp;&nbsp; Group 2: 3 erasers<br>
+                    Equivalent? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Group 1: 5 red marbles &nbsp;&nbsp; Group 2: 6 blue marbles<br>
+                    Equivalent? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Group 1: 4 crayons &nbsp;&nbsp; Group 2: 4 markers<br>
+                    Equivalent? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Find the Difference</strong></p>
+                <p><strong>Part B: Hands-On Activity with Classroom Objects</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> For unequal sets, circle the member that makes them different:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>{cat, dog, fish} ≠ {cat, dog, bird} Different: ☐ cat ☐ dog ☐ fish/bird</div>
-                        <div>{5, 10, 15} ≠ {5, 10, 20} Different: ☐ 5 ☐ 15/20 ☐ 10</div>
-                    </div>
+                    <span class="task-number">4</span> Find 7 paper clips. Find 7 buttons. Are these groups equivalent? Draw them:
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Find 4 crayons. Can you find another group of 4 different objects to make equivalent groups? What did you find?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Your Own Comparisons</strong></p>
+                <p><strong>Part C: Create Equivalent Groups</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create your own examples:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Create two equal sets: {______, ______} = {______, ______}</div>
-                        <div>Create two not equal sets: {______, ______} ≠ {______, ______}</div>
-                        <div>Explain why your not equal sets are different: _________________________</div>
-                    </div>
+                    <span class="task-number">6</span> Draw a group of 6 stars. Then draw another group of 6 different shapes that is equivalent to the stars:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Science Set Comparison</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Compare these nature sets:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Trees: {oak, pine, maple} ______ {maple, pine, oak}</div>
-                        <div>Flowers: {rose, tulip, daisy} ______ {rose, lily, daisy}</div>
-                        <div>If different, which flower doesn't match? ________</div>
-                    </div>
+                    <span class="task-number">7</span> Explain what makes two groups equivalent:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find two equal sets and two not equal sets in your home. Write them using = and ≠ symbols.",
+        homework: "Find two different groups of objects at home that are equivalent (same number). Draw or list them. Then find two groups that are NOT equivalent.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Matching Power",
-        subtopic: "Understanding Equivalent Groups",
+        topic: "Sets",
+        subtopic: "Subgroups (Subsets)",
         lessonContent: `
-            <p>Today we discover a special relationship between sets: EQUIVALENCE! This is different from equality.</p>
-            <p><strong>Key Concept 1:</strong> Sets are EQUIVALENT if they have the same number of members.</p>
-            <p><strong>Key Concept 2:</strong> EQUAL means "same members." EQUIVALENT means "same count."</p>
-            <p><strong>One-to-One Correspondence:</strong> This is our detective tool! We match each item in Set A to exactly one item in Set B.</p>
-            <p><strong>Visual Example:</strong> Draw a line from each apple to each orange. If every item gets a partner, the sets are equivalent!</p>
-            <p><strong>Important Difference:</strong></p>
+            <p>Today we'll learn about <strong>subgroups</strong> — smaller groups that are part of a bigger group!</p>
+            <p><strong>Key Question:</strong> What happens when one group is completely inside another group?</p>
+            <p><strong>What is a Subgroup (Subset)?</strong></p>
+            <p>A <strong>subset</strong> is a group where every member is also a member of a larger group. Think of it as a small group that fits completely inside a big group!</p>
+            <p><strong>The Subset Symbol "⊂"</strong></p>
+            <p>We use the symbol <strong>⊂</strong> to mean "is a subset of" or "is inside of".</p>
             <ul>
-                <li>Equal: {apple, apple, apple} = {apple, apple, apple} (same items)</li>
-                <li>Equivalent: {apple, apple, apple} ↔ {orange, orange, orange} (different items, same count)</li>
+                <li>If Group B is inside Group A, we write: B ⊂ A</li>
+                <li>We read this as: "B is a subset of A"</li>
             </ul>
-            <p><strong>Real World:</strong> Do we have enough chairs for students? Use one-to-one matching to find out!</p>
+            <p><strong>Examples:</strong></p>
+            <ul>
+                <li>Group of even numbers ⊂ Group of natural numbers (All evens are natural numbers!)</li>
+                <li>{Monday, Tuesday} ⊂ {Days of the week} (Monday and Tuesday are days of the week!)</li>
+                <li>{2, 4, 6} ⊂ {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} (All these evens are in the bigger group!)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale" style="color: #FF9800;"></i> Equivalent Sets Example</div>
-                <p>3 oranges in one bowl ↔ 3 books on a desk. Different items, but same count = Equivalent!</p>
+                <div class="example-title"><i class="fas fa-users"></i> Classroom Subsets</div>
+                <p>The group of students in your class is a big group. The group of students who wear glasses is a SUBSET of the class (⊂). Every student with glasses is still a student in the class!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-object-group" style="color: #2196F3;"></i> One-to-One Matching</div>
-                <p>Draw 4 circles ●●●● and 4 triangles ▲▲▲▲. Draw lines connecting each ● to each ▲. All matched = Equivalent!</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Toy Box Example</div>
+                <p>Big group: All toys in your toy box = {doll, car, ball, blocks, puzzle}<br>
+                Subgroup: {doll, car} ⊂ toys in toy box (Both doll and car are inside the toy box!)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Partner Match Game!</div>
-                <p>Student A makes a set of 7 items. Student B must make an equivalent set with DIFFERENT items. Check with one-to-one matching!</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Nature Subsets</div>
+                <p>Big group: All animals = {dog, cat, bird, fish, frog}<br>
+                Subgroup: {dog, cat} ⊂ animals (Dogs and cats ARE animals!)</p>
             </div>
         `,
-        taskInstructions: "Identify and create equivalent sets using one-to-one correspondence.",
+        taskInstructions: "Identify subgroups (subsets) using the symbol ⊂.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: One-to-One Matching Practice</strong></p>
+                <p><strong>Part A: Is This a Subset?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw lines to match these sets. Are they equivalent?
+                    <span class="task-number">1</span> Big Group: {1, 2, 3, 4, 5} &nbsp;&nbsp; Small Group: {1, 2, 3}<br>
+                    Is Small Group a subset of Big Group? ___<br>
+                    Write it using ⊂: ___ ⊂ ___
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Big Group: {cat, dog, bird} &nbsp;&nbsp; Small Group: {cat, fish}<br>
+                    Is Small Group a subset of Big Group? ___ Why? ___
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Big Group: {red, blue, green, yellow} &nbsp;&nbsp; Small Group: {red, yellow}<br>
+                    Write using ⊂: ___ ⊂ ___
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Identify Subsets</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Big Group: {2, 4, 6, 8, 10} (even numbers up to 10)<br>
+                    Which of these are subsets? Circle YES or NO:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Set A: ● ● ● ● ● (5 circles)</div>
-                        <div>Set B: ▲ ▲ ▲ ▲ ▲ (5 triangles)</div>
-                        <div>Draw connecting lines: <div class="drawing-area" style="height: 60px;"></div></div>
-                        <div>Equivalent? ☐ Yes ☐ No</div>
+                        <div>• {2, 4} → YES / NO</div>
+                        <div>• {2, 3, 4} → YES / NO</div>
+                        <div>• {8, 10} → YES / NO</div>
+                        <div>• {1, 2, 3} → YES / NO</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Equivalent or Not?</strong></p>
+                <p><strong>Part C: Create Your Own Subsets</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Determine if these sets are equivalent:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>{★, ★, ★} and {□, □, □} Equivalent? ______</div>
-                        <div>{1, 2, 3, 4} and {a, b, c} Equivalent? ______</div>
-                        <div>{red, blue, green} and {circle, square, triangle} Equivalent? ______</div>
-                    </div>
+                    <span class="task-number">5</span> Create a big group of 8 animals. Then create 2 different subgroups (subsets) of that big group:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Write your subgroups using the ⊂ symbol:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Partner Activity</strong></p>
+                <p><strong>Part D: Quick Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> With a partner: Create equivalent sets:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>You: Create a set of 6 stones: <div class="drawing-area" style="height: 50px;"></div></div>
-                        <div>Partner: Create equivalent set with leaves: <div class="drawing-area" style="height: 50px;"></div></div>
-                        <div>Check: Draw lines showing one-to-one match: <div class="drawing-area" style="height: 60px;"></div></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Real-World Equivalence</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Solve these real problems:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>We have 8 students and 8 chairs. Equivalent? ______</div>
-                        <div>Draw students and chairs with matching lines: <div class="drawing-area" style="height: 80px;"></div></div>
-                        <div>If we had 8 students and 7 chairs, would they be equivalent? ______ Why? ________________</div>
-                    </div>
+                    <span class="task-number">7</span> If all members of Group B are also in Group A, what do we call Group B?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find two equivalent sets in your kitchen (example: 4 spoons and 4 forks). Draw them with matching lines.",
+        homework: "Draw a big circle (big group). Inside it, draw 3 smaller circles (subgroups). Label each group with items (like fruits, animals, or toys). Write the subset statement using ⊂.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "Groups within Groups",
-        subtopic: "Understanding Subsets",
+        topic: "Sets",
+        subtopic: "Assessment: Practical Grouping Activity",
         lessonContent: `
-            <p>Today we explore the most fascinating set relationship: SUBSETS! These are sets inside other sets.</p>
-            <p><strong>Key Concept:</strong> A subset is a set where every member also belongs to a larger set.</p>
-            <p><strong>Visual Example:</strong> Think of our class. All boys are a subset of the whole class because every boy is also a student.</p>
-            <p><strong>Symbol for Subset:</strong> We use ⊂ to show "is a subset of." Example: {Boys} ⊂ {Whole Class}</p>
-            <p><strong>Math Example:</strong> If Set A = {1, 2, 3, 4, 5} and Set B = {2, 4}, then B ⊂ A because 2 and 4 are both in A.</p>
-            <p><strong>Every Set Rules:</strong></p>
+            <p>Today we'll show everything we've learned about groups, subsets, and equivalent groups!</p>
+            <p><strong>Key Question:</strong> Can you apply what you've learned about grouping to real objects?</p>
+            <p><strong>What We've Learned This Week:</strong></p>
             <ul>
-                <li>Every set is a subset of itself (strange but true!)</li>
-                <li>The empty set { } is a subset of every set</li>
+                <li>Natural numbers, even numbers, and odd numbers</li>
+                <li>How to list members of a group using { }</li>
+                <li>Equal groups (same number of members)</li>
+                <li>Equivalent groups (different objects, same number)</li>
+                <li>Subgroups (subsets) using the ⊂ symbol</li>
             </ul>
-            <p><strong>Venn Diagram:</strong> We can draw circles inside circles to visualize subsets. A small circle (birds) inside a large circle (animals).</p>
-            <p><strong>Celebration:</strong> You've now mastered the language of sets - a fundamental mathematical tool!</p>
+            <p><strong>Today's Assessment:</strong> You will work with real classroom objects to demonstrate your understanding of grouping. You'll sort, compare, and create groups based on what you've learned!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-circle" style="color: #2196F3;"></i> Subset Symbol Example</div>
-                <p>{2, 4} ⊂ {1, 2, 3, 4, 5} because 2 and 4 are both in the larger set.</p>
+                <div class="example-title"><i class="fas fa-check-circle"></i> What to Remember</div>
+                <p>• Equal groups have the SAME COUNT of items.<br>
+                • Equivalent groups have the SAME NUMBER, even if items are different.<br>
+                • Subsets use ⊂ and mean "all members of the small group are in the big group."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-venus" style="color: #E91E63;"></i> Classroom Subset</div>
-                <p>{Girls in our class} ⊂ {All students in our class} because every girl is a student.</p>
+                <div class="example-title"><i class="fas fa-box-open"></i> Using Real Objects</div>
+                <p>You might use blocks, crayons, erasers, paper clips, buttons, or counters. Count carefully and think about how groups are related!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Subset Hunt Game!</div>
-                <p>I'll give you a large set. Find as many subsets as you can in 2 minutes. Most subsets wins!</p>
+                <div class="example-title"><i class="fas fa-clipboard-list"></i> Show Your Work</div>
+                <p>Always write groups using { } and use the ⊂ symbol when showing subsets. Draw pictures to help explain your thinking!</p>
             </div>
         `,
-        taskInstructions: "Identify subsets and use the subset symbol correctly.",
+        taskInstructions: "Complete the practical grouping assessment using classroom objects.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Subset Identification</strong></p>
+                <p><strong>Part A: Sorting Natural, Even, and Odd Numbers</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Given Set A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+                    <span class="task-number">1</span> Sort these numbers into the correct groups: 3, 8, 15, 22, 7, 10, 5, 14
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Circle which are subsets of A:</div>
-                        <div>☐ {2, 4, 6} ☐ {11, 12} ☐ {3, 7, 9} ☐ {0, 1, 2}</div>
-                        <div>Write one subset you found: {______, ______, ______} ⊂ A</div>
+                        <div>Even numbers: { }</div>
+                        <div>Odd numbers: { }</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Using the Subset Symbol</strong></p>
+                <p><strong>Part B: Hands-On Grouping with Classroom Objects</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write these relationships using ⊂:
+                    <span class="task-number">2</span> Using objects provided by your teacher:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Set B = {a, b, c}, Set C = {a, c} ____________________</div>
-                        <div>Even numbers ⊂ Natural numbers ____________________</div>
-                        <div>{red, blue} ⊂ {red, blue, green, yellow} ____________________</div>
+                        <div>a) Create a group of 5 red objects. List them using { }:</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>b) Create a group that is EQUAL to your group of 5 red objects:</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>c) Create a group that is NOT EQUAL to your group of 5 red objects:</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Find Three Subsets</strong></p>
+                <p><strong>Part C: Finding Subsets</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> From Natural Numbers 1-10, find three different subsets:
+                    <span class="task-number">3</span> Using the objects around you:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Subset 1 (Even numbers): {______, ______, ______, ______, ______}</div>
-                        <div>Subset 2 (Numbers > 7): {______, ______, ______}</div>
-                        <div>Subset 3 (Your choice): {______, ______, ______}</div>
+                        <div>a) Big Group (all the objects on your desk): Write 8 items from this group:</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>b) Small Group (subset): Choose 3 items that are all in your big group:</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>c) Write the subset statement using ⊂:</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Venn Diagram Drawing</strong></p>
+                <p><strong>Part D: Create and Explain</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a subset relationship:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Large circle: Animals {dog, cat, bird, fish, rabbit}</div>
-                        <div>Small circle inside: Birds {bird} (subset of animals)</div>
-                        <div>Draw your diagram: <div class="drawing-area" style="height: 150px;"></div></div>
-                    </div>
+                    <span class="task-number">4</span> Create your own example of a big group and two different subsets. Draw them:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write the subset statements using ⊂:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Set Master Certificate</strong></p>
+                <p><strong>Part E: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Show what you learned this week:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a set with two subsets: <div class="drawing-area" style="height: 120px;"></div></div>
-                        <div>Complete: This week I learned that {2, 4} ⊂ {1, 2, 3, 4, 5} because _________________________</div>
-                        <div>Signature: ________________ Date: ___________</div>
-                    </div>
+                    <span class="task-number">6</span> What was the easiest part of grouping this week?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> What was the most challenging?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three subset relationships in your home (example: {forks} ⊂ {eating utensils}). Draw a Venn diagram showing one relationship.",
+        homework: "No new homework — review your work from this week. Share with a family member what you learned about groups, subsets, and equivalent groups!",
         homeworkDue: "Monday"
     }
 };
@@ -453,10 +474,10 @@ const grade3MathScienceWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3MathScienceWeek2);
-    console.log("math-science-week2-sets.js registered using registerWorksheet()");
+    console.log("grade3-mathscience-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3MathScienceWeek2);
-    console.log("math-science-week2-sets.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-mathscience-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -467,9 +488,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3MathScienceWeek2.metadata,
         days: grade3MathScienceWeek2
     });
-    console.log("math-science-week2-sets.js stored in window.registeredWorksheets");
+    console.log("grade3-mathscience-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3MathScienceWeek2 = grade3MathScienceWeek2;
-console.log("math-science-week2-sets.js loaded and registered successfully");
+console.log("grade3-mathscience-week2.js loaded and registered successfully");
