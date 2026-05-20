@@ -1,395 +1,378 @@
-// Grade 1 Mathematics & Science - Week 9 Data (Personal Hygiene and Health)
+// Grade 1 Mathematics & Science - Term 1 Week 9 Data
 const grade1MathScienceWeek9 = {
     metadata: {
         grade: 1,
         subject: "Mathematics & Science",
+        term: 1,
         week: 9,
-        title: "Personal Hygiene and Health — Keeping Clean and Healthy",
-        description: "Learning about personal hygiene habits and measuring hygiene tools"
+        title: "The Human Body",
+        description: "Identifying external body parts, their functions, exploring the five senses, and practicing personal hygiene"
     },
     
     monday: {
-        subject: "Science",
-        topic: "Sparkling Hands and Feet",
-        subtopic: "Personal hygiene for hands, feet, and nails",
+        subject: "Mathematics & Science",
+        topic: "Human Biology",
+        subtopic: "Identifying External Parts of the Human Body",
         lessonContent: `
-            <p>Welcome to our hygiene week! Today we will learn how to keep our hands, feet, and nails clean and healthy.</p>
-            <p><strong>Key Concept:</strong> Clean hands and feet help us stay healthy and prevent germs from spreading.</p>
-            <p><strong>Why is handwashing important?</strong></p>
+            <p>Welcome to our exploration of the amazing human body! Today we'll learn to name the different parts of our body.</p>
+            <p><strong>Key Question:</strong> What are the main parts of our body?</p>
+            <p><strong>Introduction:</strong> Your body is made up of many different parts that work together. Let's learn their names!</p>
+            <p><strong>Main External Body Parts:</strong></p>
+            <ol>
+                <li><strong>Head:</strong> The top part of your body that holds your brain, eyes, ears, nose, and mouth</li>
+                <li><strong>Neck:</strong> The part that connects your head to your chest</li>
+                <li><strong>Chest:</strong> The front part of your body between your neck and tummy</li>
+                <li><strong>Arms:</strong> The two long parts attached to your shoulders (with hands at the end)</li>
+                <li><strong>Legs:</strong> The two long parts attached to your hips (with feet at the end)</li>
+            </ol>
+            <p><strong>Other Important Parts:</strong></p>
             <ul>
-                <li>Removes germs that can make us sick</li>
-                <li>Keeps our food clean when we eat</li>
-                <li>Prevents spreading colds and flu</li>
+                <li>Shoulders - connect arms to chest</li>
+                <li>Hands - at the end of arms with fingers</li>
+                <li>Feet - at the end of legs with toes</li>
+                <li>Tummy - the front part between chest and legs</li>
+                <li>Back - the back part of your body</li>
             </ul>
-            <p><strong>Why keep nails short and clean?</strong></p>
-            <ul>
-                <li>Germs can hide under long nails</li>
-                <li>Short nails are easier to keep clean</li>
-                <li>Prevents dirt from getting trapped</li>
-            </ul>
-            <p><strong>Our Mission:</strong> Learn the 7-step handwashing technique and practice it together!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-wash" style="color: #2196F3;"></i> The 7-Step Handwash</div>
-                <p>1. Wet hands with water<br>2. Apply soap<br>3. Rub palms together<br>4. Rub between fingers<br>5. Rub back of hands<br>6. Clean thumbs and nails<br>7. Rinse and dry</p>
+                <div class="example-title"><i class="fas fa-child"></i> Point and Say</div>
+                <p>Touch your head and say "head"! Now touch your neck and say "neck"! Can you point to your arms and legs?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cut" style="color: #FF9800;"></i> Nail Care</div>
-                <p>Short, clean nails are healthier. Germs love to hide under long nails! We should trim them regularly.</p>
+                <div class="example-title"><i class="fas fa-music"></i> Body Part Song</div>
+                <p>Sing along: "Head, shoulders, knees, and toes, knees and toes!" This song helps us remember our body parts.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Handwashing Song Game!</div>
-                <p>We'll sing a 20-second song while washing our hands! This ensures we wash long enough to remove germs.</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Our Amazing Body</div>
+                <p>Your arms help you hug your family. Your legs help you run and play. Every part of your body is special!</p>
             </div>
         `,
-        taskInstructions: "Practice the 7-step handwashing technique and complete these activities.",
+        taskInstructions: "Point to, name, and label the external parts of the human body.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Number the handwashing steps in order (1-7):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>____ Rub between fingers</div>
-                    <div>____ Wet hands with water</div>
-                    <div>____ Rub back of hands</div>
-                    <div>____ Apply soap</div>
-                    <div>____ Rub palms together</div>
-                    <div>____ Clean thumbs and nails</div>
-                    <div>____ Rinse and dry</div>
+            <div class="content-box">
+                <p><strong>Part A: Point and Name</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Point to each body part as your teacher says the name:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Head</div>
+                        <div>• Neck</div>
+                        <div>• Chest</div>
+                        <div>• Arms</div>
+                        <div>• Legs</div>
+                    </div>
+                    <div class="checklist-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Check off each part as you point to it:</em></p>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw the tools we use to keep hands and feet clean:
-                <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">We use: ________ and ________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Circle the times we should wash our hands:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Before eating</div>
-                    <div>☐ After playing outside</div>
-                    <div>☐ After using the bathroom</div>
-                    <div>☐ Before bed</div>
-                    <div>☐ When they look dirty</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Label the Body</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Label the body parts on this drawing:
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc; text-align: center; padding-top: 100px;">
+                        [Body Outline Drawing]
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Practice the 7 steps with a partner. Check each step:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Step 1: Wet hands</div>
-                    <div>☐ Step 2: Apply soap</div>
-                    <div>☐ Step 3: Rub palms</div>
-                    <div>☐ Step 4: Between fingers</div>
-                    <div>☐ Step 5: Back of hands</div>
-                    <div>☐ Step 6: Clean nails</div>
-                    <div>☐ Step 7: Rinse and dry</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Body Part Match</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a line to match the word to the correct body part:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Head _______ (picture of head)</div>
+                        <div>Arms _______ (picture of arms)</div>
+                        <div>Legs _______ (picture of legs)</div>
+                        <div>Chest _______ (picture of chest)</div>
+                        <div>Neck _______ (picture of neck)</div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "Practice the 7-step handwashing technique at home before dinner tonight. Teach it to one family member.",
+        homework: "Look in a mirror at home. Point to your head, neck, chest, arms, and legs. Tell a family member the name of each part.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Science",
-        topic: "Bright Smiles and Neat Hair",
-        subtopic: "Hygiene for teeth and hair",
+        subject: "Mathematics & Science",
+        topic: "Human Biology",
+        subtopic: "Functions of External Body Parts",
         lessonContent: `
-            <p>Today we will learn how to keep our smiles bright and our hair neat and clean!</p>
-            <p><strong>Key Concept:</strong> Daily grooming keeps us healthy and looking our best.</p>
-            <p><strong>Why brush our teeth?</strong></p>
+            <p>Today we'll learn what each part of our body does! Every part has an important job.</p>
+            <p><strong>Key Question:</strong> What do our body parts do?</p>
+            <p><strong>Body Parts and Their Functions:</strong></p>
+            <ol>
+                <li><strong>Head:</strong> Holds your brain (which thinks and controls everything), and contains your eyes, ears, nose, and mouth</li>
+                <li><strong>Neck:</strong> Supports your head and allows you to look around by turning</li>
+                <li><strong>Chest:</strong> Protects your heart and lungs (your breathing and pumping organs)</li>
+                <li><strong>Arms:</strong> Help you lift, carry, throw, hug, and wave</li>
+                <li><strong>Legs:</strong> Help you walk, run, jump, kick, and stand</li>
+            </ol>
+            <p><strong>More Functions:</strong></p>
             <ul>
-                <li>Removes food particles that can cause cavities</li>
-                <li>Keeps breath fresh</li>
-                <li>Strengthens teeth and gums</li>
+                <li>Shoulders - help you rotate and lift your arms</li>
+                <li>Hands - grab, hold, write, draw, and clap</li>
+                <li>Feet - help you balance and move from place to place</li>
+                <li>Knees - bend your legs for sitting and squatting</li>
+                <li>Elbows - bend your arms for reaching and eating</li>
             </ul>
-            <p><strong>Why comb our hair?</strong></p>
-            <ul>
-                <li>Removes tangles and keeps hair neat</li>
-                <li>Distributes natural oils for healthy hair</li>
-                <li>Prevents knots and makes hair easier to manage</li>
-            </ul>
-            <p><strong>Tooth Brushing Motion:</strong> Small circles on each tooth, front and back, for 2 minutes!</p>
-            <p><strong>Hair Care:</strong> Gentle brushing from ends to roots to avoid pulling.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tooth" style="color: #FFFFFF; background: #4CAF50; padding: 2px 5px; border-radius: 3px;"></i> Tooth Brushing</div>
-                <p>"Small circles for 2 minutes" - Use a timer or sing a song to brush long enough!</p>
+                <div class="example-title"><i class="fas fa-futbol"></i> Moving and Playing</div>
+                <p>Your legs help you kick a ball. Your arms help you throw a ball. Your head helps you think about where to throw!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comb" style="color: #795548;"></i> Hair Combing</div>
-                <p>"Start at the ends, work up to roots" - This prevents pulling and makes brushing easier!</p>
+                <div class="example-title"><i class="fas fa-hug"></i> Showing Love</div>
+                <p>Your arms are for hugging the people you love. Your hands can hold theirs. Your legs can walk to visit them!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Brush & Comb Practice!</div>
-                <p>We'll practice brushing motions on tooth models and combing doll hair or wigs!</p>
+                <div class="example-title"><i class="fas fa-question-circle"></i> Think About It</div>
+                <p>Could you eat without your arms and hands? Could you run without your legs? Every part helps us do important things!</p>
             </div>
         `,
-        taskInstructions: "Practice tooth brushing motions and identify hygiene tools.",
+        taskInstructions: "Match body parts to what they do and act out different functions.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Dental Hygiene Tools</strong></p>
+                <p><strong>Part A: Match the Function</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List and draw tools needed for dental hygiene:
+                    <span class="task-number">1</span> Draw a line connecting each body part to what it does:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a toothbrush:</div>
-                        <div class="drawing-area" style="height: 80px; width: 150px;"></div>
-                        <div>Draw toothpaste:</div>
-                        <div class="drawing-area" style="height: 80px; width: 150px; margin-top: 5px;"></div>
-                        <div>Other tools: ________, ________</div>
+                        <div>Head __________ Thinks and sees</div>
+                        <div>Neck __________ Walks and runs</div>
+                        <div>Chest __________ Hugs and carries</div>
+                        <div>Arms __________ Turns and looks around</div>
+                        <div>Legs __________ Protects heart and lungs</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Hair Care Tools</strong></p>
+                <p><strong>Part B: Act It Out!</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List and draw tools needed for hair hygiene:
+                    <span class="task-number">2</span> Act out each action. Which body part do you use?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a comb:</div>
-                        <div class="drawing-area" style="height: 80px; width: 150px;"></div>
-                        <div>Draw a hairbrush:</div>
-                        <div class="drawing-area" style="height: 80px; width: 150px; margin-top: 5px;"></div>
-                        <div>Other tools: ________, ________</div>
+                        <div>• Clapping your hands → Uses: _________</div>
+                        <div>• Walking to the door → Uses: _________</div>
+                        <div>• Shaking your head "no" → Uses: _________</div>
+                        <div>• Picking up a pencil → Uses: _________</div>
+                        <div>• Giving a high five → Uses: _________</div>
                     </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Practice Brushing Motion</strong></p>
+                <p><strong>Part C: Draw and Describe</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Use your finger as a pretend toothbrush. Draw the motion:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Small circles on teeth:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Brush for ____ minutes each time.</div>
-                    </div>
+                    <span class="task-number">3</span> Draw yourself doing something fun. Label the body parts you are using:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Daily Grooming Checklist</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Check what you do every day:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Brush teeth in the morning</div>
-                        <div>☐ Brush teeth at night</div>
-                        <div>☐ Comb or brush hair</div>
-                        <div>☐ Wash face</div>
-                        <div>Draw a happy face for each one you do: <span class="drawing-area" style="width: 100px; height: 30px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> What are you doing in your picture? Which body parts help you?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "List all the tools in your bathroom that help with dental and hair hygiene. Count how many tools you find.",
+        homework: "Help a family member with a task (like carrying groceries or sweeping). Which body parts did you use? Tell someone about it.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
-        subject: "Mathematics",
-        topic: "Measuring Hygiene Tools",
-        subtopic: "Using non-standard units to measure",
+        subject: "Mathematics & Science",
+        topic: "Human Biology",
+        subtopic: "Exploring the Environment Using the Five Senses",
         lessonContent: `
-            <p>Today we will use math to measure our hygiene tools! We'll measure with paperclips and bottle caps.</p>
-            <p><strong>Key Concept:</strong> We can measure objects using everyday items as our "rulers."</p>
-            <p><strong>What are non-standard units?</strong></p>
+            <p>Today we'll learn about our five amazing senses! Our senses help us explore and understand the world around us.</p>
+            <p><strong>Key Question:</strong> How do we use our senses to learn about the world?</p>
+            <p><strong>The Five Senses:</strong></p>
+            <ol>
+                <li><strong>Sight (Eyes):</strong> Helps us see colors, shapes, sizes, and movement</li>
+                <li><strong>Hearing (Ears):</strong> Helps us hear sounds like talking, music, and birds singing</li>
+                <li><strong>Touch (Skin):</strong> Helps us feel things - hot, cold, soft, hard, smooth, rough</li>
+                <li><strong>Taste (Tongue):</strong> Helps us taste flavors - sweet, sour, salty, bitter</li>
+                <li><strong>Smell (Nose):</strong> Helps us smell odors - good smells like flowers, bad smells like garbage</li>
+            </ol>
+            <p><strong>Using Our Senses Every Day:</strong></p>
             <ul>
-                <li>Using paperclips to measure length</li>
-                <li>Using bottle caps to measure width</li>
-                <li>Using blocks to measure height</li>
+                <li>We use sight to read books and watch shows</li>
+                <li>We use hearing to listen to our teacher and friends</li>
+                <li>We use touch to feel our clothes and pet animals</li>
+                <li>We use taste to enjoy our food</li>
+                <li>We use smell to enjoy flowers and know when food is cooking</li>
             </ul>
-            <p><strong>Why use non-standard units?</strong></p>
-            <ul>
-                <li>Helps us understand measurement concepts</li>
-                <li>Uses items we already have</li>
-                <li>Makes math fun and practical</li>
-            </ul>
-            <p><strong>Measuring Rules:</strong></p>
-            <ul>
-                <li>Line up your measuring units end-to-end</li>
-                <li>Don't leave gaps between units</li>
-                <li>Count carefully as you go</li>
-            </ul>
-            <p><strong>Today's Tools:</strong> We'll measure toothbrushes, combs, soap bars, and more!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler-combined" style="color: #FF9800;"></i> Paperclip Ruler</div>
-                <p>"This toothbrush is 8 paperclips long" - We can measure without a real ruler!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Eating an Apple</div>
+                <p>When you eat an apple: Your eyes see it's red. Your nose smells it's sweet. Your hands feel it's smooth. Your ears hear it crunch. Your tongue tastes it's yummy!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-wine-bottle" style="color: #4CAF50;"></i> Bottle Cap Measure</div>
-                <p>"This comb is 6 bottle caps long" - Different units give us different numbers!</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Petting a Dog</div>
+                <p>Your eyes see the dog. Your ears hear it bark. Your hands feel its soft fur. Your nose might smell the dog. (But don't taste the dog!)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Measurement Station!</div>
-                <p>We'll have stations with different hygiene tools to measure with paperclips and bottle caps!</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> Senses Keep Us Safe</div>
+                <p>Your senses protect you! Your eyes see danger. Your ears hear a loud car. Your skin feels fire is hot. Your nose smells smoke.</p>
             </div>
         `,
-        taskInstructions: "Measure hygiene tools using non-standard units.",
+        taskInstructions: "Identify which sense is used for different activities and explore with a sensory walk.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Measuring with Paperclips</strong></p>
+                <p><strong>Part A: Which Sense?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Measure a toothbrush with paperclips:
+                    <span class="task-number">1</span> Write which sense you use for each activity:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a toothbrush and paperclips:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>The toothbrush is ____ paperclips long.</div>
+                        <div>• Looking at a rainbow → _________</div>
+                        <div>• Listening to music → _________</div>
+                        <div>• Eating an ice cream → _________</div>
+                        <div>• Smelling a flower → _________</div>
+                        <div>• Hugging a teddy bear → _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Measuring with Bottle Caps</strong></p>
+                <p><strong>Part B: Sensory Walk Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure a comb with bottle caps:
+                    <span class="task-number">2</span> Go on a sensory walk around your classroom or playground. Record what you experience:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a comb and bottle caps:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>The comb is ____ bottle caps long.</div>
+                        <div><strong>I see:</strong> _________________________________</div>
+                        <div><strong>I hear:</strong> ________________________________</div>
+                        <div><strong>I feel:</strong> _________________________________</div>
+                        <div><strong>I smell:</strong> ________________________________</div>
+                        <div><strong>I taste (only if safe!):</strong> _______________________</div>
                     </div>
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Comparing Measurements</strong></p>
+                <p><strong>Part C: Sense Sorting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Which is longer? Compare your measurements:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Toothbrush: ____ paperclips</div>
-                        <div>Comb: ____ bottle caps</div>
-                        <div>Draw which one you think is actually longer:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Measurement Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Measure three more hygiene items:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Soap bar: ____ paperclips</div>
-                        <div>Hairbrush handle: ____ bottle caps</div>
-                        <div>Nail clipper: ____ paperclips</div>
-                        <div>Which was the longest? ________________</div>
+                    <span class="task-number">3</span> Draw one thing you can see, one thing you can hear, and one thing you can touch:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>See</strong>
+                            <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Hear</strong>
+                            <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Touch</strong>
+                            <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find three items at home (spoon, pencil, remote) and measure them with paperclips. Report the lengths to the class tomorrow.",
+        homework: "At dinner time, name one thing you see, one thing you hear, one thing you smell, one thing you taste, and one thing you feel on your skin.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Sorting Hygiene Habits",
-        subtopic: "Grouping activities into Daily and Weekly habits",
+        topic: "Health & Hygiene",
+        subtopic: "Personal Hygiene: Washing Hands, Face, and Feet",
         lessonContent: `
-            <p>Today we will sort hygiene habits into groups: things we do every day and things we do once a week!</p>
-            <p><strong>Key Concept:</strong> Some hygiene activities need to be done daily, while others are done weekly.</p>
-            <p><strong>Daily Hygiene Habits:</strong></p>
+            <p>Today we'll learn how to keep our bodies clean and healthy! Personal hygiene means taking care of our bodies.</p>
+            <p><strong>Key Question:</strong> Why is it important to wash our hands, face, and feet?</p>
+            <p><strong>Why We Wash:</strong></p>
             <ul>
-                <li>Brushing teeth (morning and night)</li>
-                <li>Washing hands (many times a day)</li>
-                <li>Combing hair</li>
-                <li>Bathing or showering</li>
+                <li>To remove dirt, germs, and bacteria</li>
+                <li>To prevent getting sick</li>
+                <li>To look and smell nice</li>
+                <li>To feel fresh and clean</li>
             </ul>
-            <p><strong>Weekly Hygiene Habits:</strong></p>
+            <p><strong>Washing Hands:</strong> (Most important!)</p>
             <ul>
-                <li>Cutting nails</li>
-                <li>Washing hair (for some people)</li>
-                <li>Cleaning ears carefully</li>
+                <li>Wash before eating</li>
+                <li>Wash after using the toilet</li>
+                <li>Wash after playing outside</li>
+                <li>Wash after coughing or sneezing</li>
+                <li>Wash after touching animals</li>
             </ul>
-            <p><strong>Why sort habits?</strong> Helps us remember what to do and when to do it!</p>
-            <p><strong>Classification Skills:</strong> Sorting is an important math and science skill we use to organize information.</p>
-            <p><strong>Today's Activity:</strong> We'll sort picture cards into "Daily" and "Weekly" groups!</p>
+            <p><strong>How to Wash Your Hands:</strong></p>
+            <ol>
+                <li>Wet hands with clean water</li>
+                <li>Apply soap</li>
+                <li>Rub hands together for 20 seconds (sing "Happy Birthday" twice!)</li>
+                <li>Rinse with clean water</li>
+                <li>Dry with a clean towel</li>
+            </ol>
+            <p><strong>Washing Your Face:</strong> Wash every morning and night with clean water</p>
+            <p><strong>Washing Your Feet:</strong> Wash every day, especially between toes, and dry well</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-calendar-day" style="color: #2196F3;"></i> Daily Habits</div>
-                <p>"Brushing teeth" goes in DAILY - we do this twice every day!</p>
+                <div class="example-title"><i class="fas fa-soap"></i> Handwashing Song</div>
+                <p>Sing "Happy Birthday" two times while scrubbing your hands. That's how long you need to wash to get rid of germs!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-calendar-week" style="color: #FF9800;"></i> Weekly Habits</div>
-                <p>"Cutting nails" goes in WEEKLY - we do this about once a week!</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Clean Face, Happy Face</div>
+                <p>Washing your face every morning wakes you up and helps prevent pimples. It also helps your eyes see clearly!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Habit Sort Game!</div>
-                <p>We'll have a sorting race! Who can correctly place all hygiene cards in the right groups fastest?</p>
+                <div class="example-title"><i class="fas fa-shoe-prints"></i> Happy Feet</div>
+                <p>Washing your feet every day keeps them from smelling bad and prevents itchy infections between your toes.</p>
             </div>
         `,
-        taskInstructions: "Sort hygiene habits into Daily and Weekly groups.",
+        taskInstructions: "Learn and practice the handwashing steps, then create a hygiene poster.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Card Sorting Activity</strong></p>
+                <p><strong>Part A: Handwashing Steps</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these hygiene cards into two groups:
+                    <span class="task-number">1</span> Put the handwashing steps in the correct order (1-5):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Daily Habits</strong> (things we do every day):</div>
-                        <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin: 5px 0;"></div>
-                        <div><strong>Weekly Habits</strong> (things we do about once a week):</div>
-                        <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin: 5px 0;"></div>
+                        <div>___ Dry with a clean towel</div>
+                        <div>___ Apply soap</div>
+                        <div>___ Rinse with clean water</div>
+                        <div>___ Wet hands with clean water</div>
+                        <div>___ Rub hands together for 20 seconds</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Habit Placement</strong></p>
+                <p><strong>Part B: When to Wash</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Where does "washing hands" belong? Circle one:
+                    <span class="task-number">2</span> Circle the times you should wash your hands:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ DAILY (many times a day)</div>
-                        <div>☐ WEEKLY (once a week)</div>
-                        <div>Why? ________________________________</div>
+                        <div>• Before eating lunch</div>
+                        <div>• After playing with toys</div>
+                        <div>• After using the toilet</div>
+                        <div>• Before going to sleep</div>
+                        <div>• After petting a dog</div>
+                        <div>• After sneezing into your hand</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Your Own Chart</strong></p>
+                <p><strong>Part C: Hygiene Poster</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw your own daily and weekly hygiene chart:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; border-right: 1px solid #ccc;">
-                            <div style="text-align: center; font-weight: bold; color: #2196F3;">Daily</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div style="text-align: center;">Examples: brush teeth, wash hands</div>
-                        </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold; color: #FF9800;">Weekly</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div style="text-align: center;">Examples: cut nails, wash hair</div>
-                        </div>
-                    </div>
+                    <span class="task-number">3</span> Create a poster showing 3 rules for keeping your body clean:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Healthy Habit Pledge</strong></p>
+                <p><strong>Part D: Practice and Reflect</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Sign your healthy habit pledge:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I promise to:</div>
-                        <div>☐ Brush my teeth twice daily</div>
-                        <div>☐ Wash my hands before eating</div>
-                        <div>☐ Keep my nails clean and trimmed</div>
-                        <div>Signature: <span class="drawing-area" style="width: 150px; height: 30px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> Practice washing your hands the correct way. What did you notice?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Week 9 Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself practicing good hygiene:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This week I learned to keep clean by ________________</div>
+                    <span class="task-number">5</span> Why is it important to wash your face every day?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a hygiene chart for your family. Sort activities into daily and weekly columns. Share it with your parents.",
+        homework: "Practice washing your hands the correct way before dinner tonight. Teach a family member the 5 steps of handwashing.",
         homeworkDue: "Monday"
     }
 };
@@ -397,10 +380,10 @@ const grade1MathScienceWeek9 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1MathScienceWeek9);
-    console.log("math-science-week9-hygiene.js registered using registerWorksheet()");
+    console.log("grade1-mathscience-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1MathScienceWeek9);
-    console.log("math-science-week9-hygiene.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-mathscience-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -411,9 +394,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1MathScienceWeek9.metadata,
         days: grade1MathScienceWeek9
     });
-    console.log("math-science-week9-hygiene.js stored in window.registeredWorksheets");
+    console.log("grade1-mathscience-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1MathScienceWeek9 = grade1MathScienceWeek9;
-console.log("math-science-week9-hygiene.js loaded and registered successfully");
+console.log("grade1-mathscience-week9.js loaded and registered successfully");

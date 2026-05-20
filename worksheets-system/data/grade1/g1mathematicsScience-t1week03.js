@@ -1,450 +1,355 @@
-// Grade 1 Math & Science - Week 3 Data (Natural Resources and Counting)
+// Grade 1 Mathematics & Science - Term 1 Week 3 Data
 const grade1MathScienceWeek3 = {
     metadata: {
         grade: 1,
         subject: "Mathematics & Science",
+        term: 1,
         week: 3,
-        title: "Nature Counters — Exploring Natural Resources and Numbers",
-        description: "Learning to care for natural resources while practicing counting, number writing, and place value concepts"
+        title: "Numbers and Order",
+        description: "Exploring ordinal numbers, cardinal numbers, and ordering numerals 0-10 in terms of magnitude"
     },
     
     monday: {
-        subject: "Science",
-        topic: "Caring for Our Natural Resources",
-        subtopic: "Identifying and protecting natural resources in our environment",
+        subject: "Mathematics & Science",
+        topic: "Numbers",
+        subtopic: "Introduction to Ordinal Numbers",
         lessonContent: `
-            <p>Welcome to our Science lesson! Today we will learn how to care for the natural resources around us.</p>
-            <p><strong>Key Concept:</strong> Natural resources are things from nature that we use, like water, plants, animals, and rocks.</p>
-            <p><strong>What are natural resources?</strong></p>
-            <ul>
-                <li>Rivers and lakes (water)</li>
-                <li>Trees and plants</li>
-                <li>Animals and insects</li>
-                <li>Rocks and soil</li>
-            </ul>
-            <p><strong>How to protect natural resources:</strong> We can use the 3 R's!</p>
-            <ul>
-                <li><strong>Recover:</strong> Pick up litter to keep nature clean</li>
-                <li><strong>Reduce:</strong> Use less water and paper</li>
-                <li><strong>Reuse:</strong> Use things again instead of throwing them away</li>
-            </ul>
-            <p><strong>Why is this important?</strong> Taking care of nature helps plants, animals, and people stay healthy!</p>
+            <p>Welcome to our numbers adventure! Today we'll learn about ordinal numbers - words that tell us about position or order!</p>
+            <p><strong>Key Question:</strong> How do we tell which person is first in line?</p>
+            <p><strong>Introduction:</strong> Ordinal numbers tell us the position of something in a list. When we line up, someone is first, someone is second, and someone is third!</p>
+            <p><strong>Ordinal Numbers We Learn Today:</strong></p>
+            <ol>
+                <li><strong>1st - First:</strong> The one that comes before all others</li>
+                <li><strong>2nd - Second:</strong> The one that comes after first</li>
+                <li><strong>3rd - Third:</strong> The one that comes after second</li>
+            </ol>
+            <p><strong>Let's Practice:</strong> Look around our classroom. Which chair is first in the row? Which student is second in line?</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Plant Care</div>
-                <p>"I will water the plant in our classroom" - This is how we care for living natural resources.</p>
+                <div class="example-title"><i class="fas fa-trophy"></i> Race Positions</div>
+                <p>In a race, the person who finishes FIRST gets the gold medal. The person who finishes SECOND gets silver. The person who finishes THIRD gets bronze!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #2196F3;"></i> Water Conservation</div>
-                <p>"Turn off the tap while soaping hands" - This is how we reduce water use.</p>
+                <div class="example-title"><i class="fas fa-book"></i> Story Time Order</div>
+                <p>When the teacher reads a story, we start with the FIRST page, then turn to the SECOND page, then the THIRD page.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Nature Walk Game!</div>
-                <p>Let's take a walk around the school! When I point to a natural resource, shout "I will protect it!"</p>
+                <div class="example-title"><i class="fas fa-child"></i> Lining Up</div>
+                <p>When we line up to go to lunch, the FIRST person is at the front. The SECOND person is behind them. The THIRD person is behind the second person!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice caring for natural resources.",
+        taskInstructions: "Practice using ordinal numbers with classroom objects and positions.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the natural resources you might find at school:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Tree</div>
-                    <div>☐ Car</div>
-                    <div>☐ Bird</div>
-                    <div>☐ Computer</div>
-                    <div>☐ Flower</div>
-                    <div>☐ Plastic bottle (litter)</div>
+            <div class="content-box">
+                <p><strong>Part A: Classroom Line Up</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> With your class, line up at the door. Answer these questions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Who is FIRST in line? ___________</div>
+                        <div>• Who is SECOND in line? ___________</div>
+                        <div>• Who is THIRD in line? ___________</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw one way you can care for a natural resource:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">I am caring for: ________________ by ________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Match the action with the "R" word:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Picking up litter → ☐ Reduce</div>
-                    <div>Using both sides of paper → ☐ Recover</div>
-                    <div>Turning off lights → ☐ Reuse</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw three toy cars in a row. Label the FIRST, SECOND, and THIRD car:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Nature walk observation:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>I saw this natural resource: ________________</div>
-                    <div>One way to protect it is: ________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Classroom Objects</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Look at the bookshelf. Point to the FIRST book, SECOND book, and THIRD book:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find one natural resource at home or near your house. Draw it and write one way to care for it.",
-        homeworkDue: "Wednesday"
+        homework: "At home, line up three stuffed animals or toys. Tell a family member which is FIRST, which is SECOND, and which is THIRD.",
+        homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Mathematics",
-        topic: "Counting Nature in Groups",
-        subtopic: "Skip counting natural objects in groups of 2 and 5",
+        subject: "Mathematics & Science",
+        topic: "Numbers",
+        subtopic: "Cardinal Numbers 0 to 10",
         lessonContent: `
-            <p>Today we will practice counting natural objects by grouping them together!</p>
-            <p><strong>Key Concept:</strong> We can count faster by grouping items instead of counting one by one.</p>
-            <p><strong>Counting by ones:</strong> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</p>
-            <p><strong>Counting by twos (skip counting):</strong> 2, 4, 6, 8, 10</p>
-            <p><strong>Counting by fives:</strong> 5, 10, 15, 20, 25, 30</p>
-            <p><strong>Why count in groups?</strong></p>
-            <ul>
-                <li>It's faster than counting one by one</li>
-                <li>It helps us organize things</li>
-                <li>It makes big numbers easier to count</li>
-            </ul>
-            <p><strong>Natural objects we can count:</strong> Leaves, stones, seeds, sticks, flowers</p>
+            <p>Today we'll learn about cardinal numbers - numbers that tell us HOW MANY items are in a group!</p>
+            <p><strong>Key Question:</strong> How many apples are in the basket?</p>
+            <p><strong>Introduction:</strong> Cardinal numbers help us count. When you count your fingers, you say "one, two, three, four, five" - those are cardinal numbers! Today we'll learn numbers 0 through 10.</p>
+            <p><strong>Numbers 0 to 10:</strong></p>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; text-align: center;">
+                <div><strong>0</strong><br>zero</div>
+                <div><strong>1</strong><br>one</div>
+                <div><strong>2</strong><br>two</div>
+                <div><strong>3</strong><br>three</div>
+                <div><strong>4</strong><br>four</div>
+                <div><strong>5</strong><br>five</div>
+                <div><strong>6</strong><br>six</div>
+                <div><strong>7</strong><br>seven</div>
+                <div><strong>8</strong><br>eight</div>
+                <div><strong>9</strong><br>nine</div>
+                <div><strong>10</strong><br>ten</div>
+            </div>
+            <p><strong>Remember:</strong> Zero means "none" or "nothing" - if a basket has zero apples, it's empty!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Leaf Counting</div>
-                <p>"2 leaves, 4 leaves, 6 leaves" - Counting leaves in pairs is faster than counting each leaf separately.</p>
+                <div class="example-title"><i class="fas fa-fingers"></i> Count Your Fingers</div>
+                <p>You have 10 fingers! Count them: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. That's a cardinal number!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-seedling" style="color: #8BC34A;"></i> Seed Groups</div>
-                <p>"5 seeds, 10 seeds, 15 seeds" - When seeds are in groups of five, we can count quickly!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Fruit Counting</div>
+                <p>If a bowl has 3 apples, we write the cardinal number 3. If the bowl is empty, we write 0 (zero).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Nature Count Hop!</div>
-                <p>Let's hop while counting! Hop once for each number when counting by ones, but hop only on 2, 4, 6 when counting by twos!</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Pet Count</div>
+                <p>Emma has 2 dogs, 1 cat, and 0 fish. The cardinal numbers tell us exactly how many pets she has!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice skip counting with natural objects.",
+        taskInstructions: "Match numerals to sets of objects and practice counting.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Counting Seeds</strong></p>
+                <p><strong>Part A: Count and Write</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Count these seeds by twos. Write the numbers:
+                    <span class="task-number">1</span> Count the objects in each box. Write the cardinal number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>🌱🌱 = <span class="answer-space" style="width: 30px;"></span> seeds</div>
-                        <div>🌱🌱🌱🌱 = <span class="answer-space" style="width: 30px;"></span> seeds</div>
-                        <div>🌱🌱🌱🌱🌱🌱 = <span class="answer-space" style="width: 30px;"></span> seeds</div>
+                        <div>🐧 🐧 🐧 = _____</div>
+                        <div>🍎 🍎 = _____</div>
+                        <div>⭐ ⭐ ⭐ ⭐ ⭐ = _____</div>
+                        <div>(empty box) = _____</div>
+                        <div>🐶 🐶 🐶 🐶 🐶 🐶 = _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Stone Groups</strong></p>
+                <p><strong>Part B: Draw the Set</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Count these stones by fives:
+                    <span class="task-number">2</span> Draw the correct number of objects for each numeral:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>🪨🪨🪨🪨🪨 = <span class="answer-space" style="width: 30px;"></span></div>
-                        <div>🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨 = <span class="answer-space" style="width: 30px;"></span></div>
-                        <div>🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨🪨 = <span class="answer-space" style="width: 30px;"></span></div>
+                        <div>4 → Draw 4 circles: _________</div>
+                        <div>7 → Draw 7 stars: _________</div>
+                        <div>0 → Draw nothing here: _________</div>
+                        <div>10 → Draw 10 dots: _________</div>
                     </div>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw and Count</strong></p>
+                <p><strong>Part C: Match Numerals to Sets</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw 8 leaves in pairs, then count them by twos:
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My leaves count by twos: <span class="answer-space" style="width: 100px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Which is Faster?</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Circle the faster way to count 20 sticks:
+                    <span class="task-number">3</span> Draw a line from each numeral to the set that matches:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Counting one by one: 1, 2, 3, 4...</div>
-                        <div>☐ Counting by fives: 5, 10, 15, 20</div>
+                        <div>5   →   🎈 🎈 🎈</div>
+                        <div>3   →   🎈 🎈 🎈 🎈 🎈</div>
+                        <div>8   →   🎈 🎈</div>
+                        <div>2   →   🎈 🎈 🎈 🎈 🎈 🎈 🎈 🎈</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find 10 small objects at home (pebbles, beans, buttons). Group them in twos and count by twos. Then group in fives and count by fives.",
-        homeworkDue: "Thursday"
+        homework: "Walk around your home. Find 5 things that come in groups (like 4 chairs at the table, 2 pillows on the bed). Write down what you found and how many.",
+        homeworkDue: "Wednesday"
     },
     
     wednesday: {
-        subject: "Mathematics",
-        topic: "Matching Nature to Numbers",
-        subtopic: "Counting natural objects and matching them to numerals 1-9",
+        subject: "Mathematics & Science",
+        topic: "Numbers",
+        subtopic: "Cardinal and Ordinal Numbers in Daily Life",
         lessonContent: `
-            <p>Today we will practice counting objects accurately and matching them to the correct number!</p>
-            <p><strong>Key Concept:</strong> Numbers tell us "how many" of something there are.</p>
-            <p><strong>What is matching?</strong> Connecting the right number word with the right numeral and the right amount of objects.</p>
-            <p><strong>Three parts of a number:</strong></p>
+            <p>Today we'll practice using BOTH cardinal numbers (how many) AND ordinal numbers (which position)!</p>
+            <p><strong>Key Question:</strong> How are cardinal and ordinal numbers different?</p>
+            <p><strong>Review:</strong></p>
             <ul>
-                <li><strong>Number word:</strong> "four"</li>
-                <li><strong>Numeral:</strong> "4"</li>
-                <li><strong>Quantity:</strong> "••••" (4 objects)</li>
+                <li><strong>Cardinal Numbers:</strong> Tell us HOW MANY (1, 2, 3, 4, 5...)</li>
+                <li><strong>Ordinal Numbers:</strong> Tell us WHICH POSITION (1st, 2nd, 3rd, 4th, 5th...)</li>
             </ul>
-            <p><strong>How to match correctly:</strong></p>
-            <ol>
-                <li>Count the objects carefully</li>
-                <li>Say the number word out loud</li>
-                <li>Find the numeral that matches</li>
-                <li>Check your counting twice!</li>
-            </ol>
-            <p><strong>Natural objects for counting:</strong> Pebbles, sticks, leaves, seeds, shells</p>
+            <p><strong>Let's Compare:</strong></p>
+            <ul>
+                <li>"I have 3 cookies" - cardinal (how many)</li>
+                <li>"My birthday is the 3rd of June" - ordinal (which day)</li>
+                <li>"There are 10 students" - cardinal</li>
+                <li>"She is 2nd in line" - ordinal</li>
+            </ul>
+            <p><strong>Everyday Examples:</strong> Birthdays, race results, floor numbers in a building, months of the year!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pebble" style="color: #795548;"></i> Pebble Match</div>
-                <p>"3 pebbles" matches with the numeral "3" - Count: 1, 2, 3 pebbles = number 3.</p>
+                <div class="example-title"><i class="fas fa-birthday-cake"></i> Birthday Calendar</div>
+                <p>Your birthday is on a specific date - like May 5th. The "5th" is an ordinal number telling you which day of the month!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-stick" style="color: #8D6E63;"></i> Stick Sets</div>
-                <p>"6 sticks" matches with the numeral "6" - A set of 6 sticks shows the quantity for number 6.</p>
+                <div class="example-title"><i class="fas fa-elevator"></i> Building Floors</div>
+                <p>When you go to the 3rd floor of a building, you're using an ordinal number. If there are 3 floors total, "3" is a cardinal number!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Nature Number Hunt!</div>
-                <p>Let's hunt for number cards hidden with natural objects! Match the objects to the correct number card!</p>
+                <div class="example-title"><i class="fas fa-calendar-alt"></i> Months of the Year</div>
+                <p>January is the 1st month, February is the 2nd month, March is the 3rd month. These are ordinal numbers!</p>
             </div>
         `,
-        taskInstructions: "Practice matching quantities of natural objects to their numerals.",
+        taskInstructions: "Identify whether each situation uses cardinal or ordinal numbers.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Count and Match</strong></p>
+                <p><strong>Part A: Is It Cardinal or Ordinal?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Count the objects and draw a line to the matching number:
+                    <span class="task-number">1</span> Write "C" for cardinal or "O" for ordinal next to each sentence:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>🍂🍂🍂 → ☐ 5</div>
-                        <div>🪨🪨🪨🪨🪨 → ☐ 3</div>
-                        <div>🌿🌿 → ☐ 2</div>
-                        <div>🌸🌸🌸🌸 → ☐ 4</div>
+                        <div>• I have 2 brothers. _____</div>
+                        <div>• Today is my 1st day of school. _____</div>
+                        <div>• There are 7 days in a week. _____</div>
+                        <div>• She finished 2nd in the race. _____</div>
+                        <div>• We need 5 more pencils. _____</div>
+                        <div>• This is the 3rd time we played this game. _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Draw the Right Amount</strong></p>
+                <p><strong>Part B: Complete the Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw the correct number of objects for each number:
+                    <span class="task-number">2</span> Fill in the missing cardinal or ordinal number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Number 7: <div class="drawing-area" style="height: 40px; width: 200px; display: inline-block; margin-left: 10px;"></div></div>
-                        <div>Number 9: <div class="drawing-area" style="height: 40px; width: 200px; display: inline-block; margin-left: 10px;"></div></div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Cardinal (How Many)</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Ordinal (Which Position)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">1st (first)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">______</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">______</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">3rd (third)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">______</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">______</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">5th (fifth)</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Nature Collection</strong></p>
+                <p><strong>Part C: Draw a Scene</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Collect small natural objects (teacher provides). Count them and write the number:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I collected <span class="answer-space" style="width: 30px;"></span> objects</div>
-                        <div>The numeral is: <span class="answer-space" style="width: 30px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Partner Check</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> With a partner, show your set of objects and the matching number. Check each other's work:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My partner has <span class="answer-space" style="width: 30px;"></span> objects</div>
-                        <div>Their matching number is: <span class="answer-space" style="width: 30px;"></span></div>
-                        <div>☐ We matched correctly!</div>
-                    </div>
+                    <span class="task-number">3</span> Draw a race with 5 runners. Label the 1st, 2nd, and 3rd place winners. Write how many runners there are total:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div>Total runners (cardinal): _____</div>
                 </div>
             </div>
         `,
-        homework: "Find 5 different types of natural objects outside (leaves, stones, etc.). Count each type and write the number next to a drawing of each.",
-        homeworkDue: "Friday"
+        homework: "With a family member, find 3 examples of cardinal numbers and 3 examples of ordinal numbers in your home (calendar, clock, mail, etc.). Share them in class tomorrow.",
+        homeworkDue: "Thursday"
     },
     
     thursday: {
-        subject: "Mathematics",
-        topic: "The Mystery of Zero and Writing Numbers",
-        subtopic: "Understanding zero and practicing writing numbers up to 100",
+        subject: "Mathematics & Science",
+        topic: "Numbers",
+        subtopic: "Ordering Numbers 1 to 10 by Magnitude",
         lessonContent: `
-            <p>Today we will meet a special number and practice writing all our numbers neatly!</p>
-            <p><strong>Key Concept:</strong> Zero (0) is the number that means "nothing" or "none."</p>
-            <p><strong>What is zero?</strong></p>
+            <p>Today we'll learn how to put numbers in order from smallest to largest!</p>
+            <p><strong>Key Question:</strong> Which number is bigger - 5 or 8?</p>
+            <p><strong>Introduction:</strong> Numbers have size! Just like some toys are bigger than others, some numbers are bigger than others. Today we'll learn to order numbers from 1 to 10.</p>
+            <p><strong>Number Order (Smallest to Largest):</strong></p>
+            <p>1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10</p>
+            <p><strong>Tips for Remembering:</strong></p>
             <ul>
-                <li>When there are NO objects</li>
-                <li>When a container is EMPTY</li>
-                <li>When we have NOTHING of something</li>
+                <li>1 is the smallest (it's just ONE)</li>
+                <li>10 is the largest (it takes TEN fingers to count to it!)</li>
+                <li>The further you go on the number line, the bigger the number gets</li>
             </ul>
-            <p><strong>Writing numbers:</strong> Numbers are symbols that tell us amounts. We write them carefully so others can read them.</p>
-            <p><strong>Number intervals we'll practice:</strong></p>
+            <p><strong>Vocabulary:</strong></p>
             <ul>
-                <li>Numbers 1-6 (small amounts)</li>
-                <li>Numbers 1-10 (our first decade)</li>
-                <li>Numbers up to 100 (big numbers!)</li>
+                <li><strong>Greater than:</strong> When one number is larger than another (8 > 5)</li>
+                <li><strong>Less than:</strong> When one number is smaller than another (3 < 7)</li>
+                <li><strong>Equal to:</strong> When two numbers are the same (4 = 4)</li>
             </ul>
-            <p><strong>Why practice writing?</strong> Clear number writing helps us do math correctly and share our work with others!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-0" style="color: #9C27B0;"></i> Zero Example</div>
-                <p>"How many elephants are in our classroom? Zero!" - Zero means none or nothing.</p>
+                <div class="example-title"><i class="fas fa-chart-line"></i> Number Line</div>
+                <p>A number line is like a path. Numbers get bigger as you walk to the right! 2 comes before 5, so 2 is smaller than 5.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pen" style="color: #2196F3;"></i> Number Writing</div>
-                <p>"7" should look like this: starting at the top, curve down and across. Not like this: "L7"</p>
+                <div class="example-title"><i class="fas fa-candy-cane"></i> Candy Comparison</div>
+                <p>If you have 6 candies and your friend has 3 candies, you have MORE candies. 6 is greater than 3!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Zero Hunt Game!</div>
-                <p>Let's look for "zero" situations in our classroom! Empty pencil case? Zero pencils! Empty chair? Zero people sitting!</p>
+                <div class="example-title"><i class="fas fa-stairs"></i> Stair Steps</div>
+                <p>Think of numbers like stairs. You start at 1 (bottom step) and go up to 10 (top step). Each step is bigger than the one below it!</p>
             </div>
         `,
-        taskInstructions: "Practice understanding zero and writing numbers correctly.",
+        taskInstructions: "Order numbers from smallest to largest and compare number sizes.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Zero Situations</strong></p>
+                <p><strong>Part A: Order from Smallest to Largest</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the pictures that show zero:
+                    <span class="task-number">1</span> Put these numbers in order from smallest to largest:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Empty basket</div>
-                        <div>☐ Basket with 3 apples</div>
-                        <div>☐ Blank paper</div>
-                        <div>☐ Paper with drawings</div>
+                        <div>Set 1: 3, 7, 1, 5 → ____, ____, ____, ____</div>
+                        <div>Set 2: 9, 2, 10, 4 → ____, ____, ____, ____</div>
+                        <div>Set 3: 6, 8, 3, 1 → ____, ____, ____, ____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Writing Practice</strong></p>
+                <p><strong>Part B: Compare Using Greater Than > or Less Than <</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Trace and write numbers 0-9:
-                    <div style="margin-left: 20px; margin-top: 10px; font-size: 24px;">
-                        <div style="border-bottom: 1px solid #ccc; padding-bottom: 5px;">0 1 2 3 4</div>
-                        <div style="border-bottom: 1px solid #ccc; padding: 10px 0;">5 6 7 8 9</div>
-                        <div>Now write them yourself: <span class="answer-space" style="width: 200px; height: 40px;"></span></div>
+                    <span class="task-number">2</span> Fill in the blank with > or <:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>5 ___ 8     (5 is less than 8, so 5 < 8)</div>
+                        <div>9 ___ 3     (9 is greater than 3, so 9 > 3)</div>
+                        <div>2 ___ 6</div>
+                        <div>10 ___ 4</div>
+                        <div>7 ___ 7</div>
+                        <div>1 ___ 10</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Number and Zero Pairs</strong></p>
+                <p><strong>Part C: Number Line Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write the number, then draw a set with zero items:
+                    <span class="task-number">3</span> Draw a number line from 1 to 10. Then circle the number that is:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Number 7: <span class="answer-space" style="width: 30px;"></span></div>
-                        <div>Draw zero items next to it: <div class="drawing-area" style="height: 40px; width: 100px; display: inline-block; margin-left: 10px;"></div></div>
+                        <div>• The smallest number: _____</div>
+                        <div>• The largest number: _____</div>
+                        <div>• The number between 4 and 6: _____</div>
                     </div>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Big Number Writing</strong></p>
+                <p><strong>Part D: Which Number Is Missing?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Practice writing numbers to 100. Start with 10, 20, 30... up to 100:
+                    <span class="task-number">4</span> Fill in the missing numbers in each sequence:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div class="answer-space" style="height: 80px; width: 300px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Zero in Nature</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Can you find zero in nature? Circle yes or no:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Yes - An empty bird's nest means zero birds</div>
-                        <div>☐ No - Nature always has something</div>
-                        <div>Explain: <span class="answer-space" style="width: 200px;"></span></div>
+                        <div>1, 2, __, 4, 5, __, 7, 8, __, 10</div>
+                        <div>10, 9, 8, __, 6, 5, __, 3, 2, __</div>
+                        <div>__, 2, 3, 4, __, 6, 7, __, 9, 10</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find three examples of 'zero' at home (empty things). Draw one and write '0' next to it. Also practice writing your favorite number between 1-100 five times.",
-        homeworkDue: "Monday"
-    },
-    
-    friday: {
-        subject: "Mathematics",
-        topic: "Building Bundles of Ten and Ten Frames",
-        subtopic: "Understanding place value using bundles of ten and ten frames",
-        lessonContent: `
-            <p>Today is our number celebration! We'll learn how to organize big numbers using groups of ten.</p>
-            <p><strong>Key Concept:</strong> Ten is a special number that helps us organize and understand bigger numbers.</p>
-            <p><strong>What is a bundle of ten?</strong> When we group 10 single items together, we make one bundle of ten.</p>
-            <p><strong>Counting by tens:</strong> 10, 20, 30, 40, 50, 60, 70, 80, 90, 100</p>
-            <p><strong>What is a ten frame?</strong> A special grid with 10 boxes that helps us "see" the number ten.</p>
-            <p><strong>How ten frames help:</strong></p>
-            <ul>
-                <li>They show when we have a full ten</li>
-                <li>They help us count numbers between 10-20 easily</li>
-                <li>They make adding and subtracting easier to see</li>
-            </ul>
-            <p><strong>Today's activities:</strong> We'll bundle sticks, fill ten frames, and become place value experts!</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-bundle" style="color: #FF9800;"></i> Bundle of Ten</div>
-                <p>"10 sticks tied together = 1 bundle" - This bundle represents the number 10 as one group.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-grid" style="color: #3F51B5;"></i> Ten Frame Example</div>
-                <p>"15 = one full ten frame (10) + 5 more in another frame" - We can see 10 inside 15!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Bundle Relay Race!</div>
-                <p>Let's race to make bundles of ten! Each team gets 50 sticks. First team to make 5 bundles wins!</p>
-            </div>
-        `,
-        taskInstructions: "Practice making bundles of ten and using ten frames to understand numbers.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Make Your Bundle</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Count 10 sticks and tie them together (with rubber band or string):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I made <span class="answer-space" style="width: 30px;"></span> bundle(s) of ten</div>
-                        <div>Each bundle has <span class="answer-space" style="width: 30px;"></span> sticks</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Counting Bundles</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> If you have 3 bundles of ten, how many sticks total?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Count by tens: 10, <span class="answer-space" style="width: 30px;"></span>, <span class="answer-space" style="width: 30px;"></span></div>
-                        <div>Total sticks: <span class="answer-space" style="width: 30px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Ten Frame Fill</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Use counters to show these numbers on ten frames:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Number 12: <div class="drawing-area" style="height: 60px; width: 150px; display: inline-block; margin-left: 10px; background: repeating-linear-gradient(90deg, #E0E0E0, #E0E0E0 14px, transparent 14px, transparent 28px);"></div></div>
-                        <div>Number 17: <div class="drawing-area" style="height: 60px; width: 150px; display: inline-block; margin-left: 10px; background: repeating-linear-gradient(90deg, #E0E0E0, #E0E0E0 14px, transparent 14px, transparent 28px);"></div></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Bundle Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> How many bundles of ten make these numbers?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>30 sticks = <span class="answer-space" style="width: 30px;"></span> bundles</div>
-                        <div>50 sticks = <span class="answer-space" style="width: 30px;"></span> bundles</div>
-                        <div>100 sticks = <span class="answer-space" style="width: 30px;"></span> bundles</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Math Expert Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a math expert counting bundles of ten. Write one thing you learned about groups of ten:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I learned that ten is important because ________________</div>
-                </div>
-            </div>
-        `,
-        homework: "Find objects at home that come in groups of ten (fingers, toes, eggs in a carton). Draw one example. Also practice counting by tens to 100 with your family.",
+        homework: "Write the numbers 1 to 10 on index cards or small pieces of paper. Mix them up, then put them in order from smallest to largest. Have a family member time you!",
         homeworkDue: "Monday"
     }
 };
@@ -452,10 +357,10 @@ const grade1MathScienceWeek3 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1MathScienceWeek3);
-    console.log("mathscience-week3-naturenumbers.js registered using registerWorksheet()");
+    console.log("grade1-mathscience-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1MathScienceWeek3);
-    console.log("mathscience-week3-naturenumbers.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-mathscience-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -466,9 +371,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1MathScienceWeek3.metadata,
         days: grade1MathScienceWeek3
     });
-    console.log("mathscience-week3-naturenumbers.js stored in window.registeredWorksheets");
+    console.log("grade1-mathscience-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1MathScienceWeek3 = grade1MathScienceWeek3;
-console.log("mathscience-week3-naturenumbers.js loaded and registered successfully");
+console.log("grade1-mathscience-week3.js loaded and registered successfully");

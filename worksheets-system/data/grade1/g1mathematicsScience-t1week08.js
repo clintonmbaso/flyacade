@@ -1,467 +1,426 @@
-// Grade 1 Mathematics & Science - Week 8 Data (The Five Senses)
-const grade1MathScienceWeek8 = {
+// Grade 1 Mathematics & Science - Term 1 Week 8 Data
+const grade1MathsScienceWeek8 = {
     metadata: {
         grade: 1,
         subject: "Mathematics & Science",
+        term: 1,
         week: 8,
-        title: "The Five Senses — Observing and Counting Our World",
-        description: "Learning about sight, hearing, touch, taste, smell, and using senses to count and describe"
+        title: "Domestic and Wild Animals",
+        description: "Identifying domestic animals, common wild animals in Zambia, classifying animals by characteristics, and counting animals in the local environment"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "The Gift of Sight and Sound",
-        subtopic: "Identifying eyes and ears as organs for seeing and hearing",
+        topic: "Animals",
+        subtopic: "Identifying Domestic Animals",
         lessonContent: `
-            <p>Welcome to our Five Senses Week! Today we explore two amazing gifts: sight and sound!</p>
-            <p><strong>Key Concept:</strong> Our eyes are for seeing, and our ears are for hearing. They help us understand the world.</p>
-            <p><strong>Our Eyes:</strong></p>
-            <ul>
-                <li>Help us see colors, shapes, and movement</li>
-                <li>Let us read, watch, and recognize people</li>
-                <li>Are protected by eyelids and eyelashes</li>
-            </ul>
-            <p><strong>Our Ears:</strong></p>
-            <ul>
-                <li>Help us hear sounds like music, voices, and nature</li>
-                <li>Let us know if something is loud or soft, near or far</li>
-                <li>Help us balance and know where sounds come from</li>
-            </ul>
-            <p><strong>Think About It:</strong> What would happen if you couldn't see? What if you couldn't hear?</p>
-            <p><strong>Our Mission:</strong> To use our eyes and ears like super-scientists!</p>
+            <p>Welcome to our animal exploration! Today we'll learn about domestic animals - animals that live with people or on farms.</p>
+            <p><strong>Key Question:</strong> What animals live near people's homes?</p>
+            <p><strong>Introduction:</strong> Domestic animals are animals that people take care of. They live on farms or in our homes. People feed them and give them shelter.</p>
+            <p><strong>Domestic Animals to Learn:</strong></p>
+            <ol>
+                <li><strong>Dog:</strong> A loyal pet that barks. Dogs guard homes and are good friends to people.</li>
+                <li><strong>Cat:</strong> A soft pet that meows. Cats catch rats and mice.</li>
+                <li><strong>Goat:</strong> A farm animal that says "maa". Goats give us milk and meat.</li>
+                <li><strong>Pig:</strong> A pink farm animal with a curly tail. Pigs give us pork.</li>
+                <li><strong>Sheep:</strong> A fluffy farm animal that says "baa". Sheep give us wool and meat.</li>
+            </ol>
+            <p><strong>Fun Fact:</strong> Dogs can understand up to 250 words and gestures!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #2196F3;"></i> Eye Power</div>
-                <p>"I see a red ball" – My eyes tell me the color (red) and the shape (round).</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Dogs at Home</div>
+                <p>Many families in Zambia have dogs. Dogs help protect the home and are wonderful friends to children.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ear" style="color: #FF9800;"></i> Ear Power</div>
-                <p>"I hear a bird singing" – My ears tell me it's a bird and it's making a happy sound.</p>
+                <div class="example-title"><i class="fas fa-tractor"></i> Farm Animals</div>
+                <p>Goats, pigs, and sheep often live on farms. Farmers take care of them every day by giving them food and water.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sound Walk Game!</div>
-                <p>We'll take a "Sound Walk" – close your eyes and listen. How many different sounds can you hear?</p>
+                <div class="example-title"><i class="fas fa-cat"></i> Cats Help Too</div>
+                <p>Cats are helpful because they catch mice and rats that might eat food in the house.</p>
             </div>
         `,
-        taskInstructions: "Complete the sight and sound activities.",
+        taskInstructions: "Identify and match domestic animals to their names and sounds.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Sound Walk: Close your eyes for one minute. List 3 sounds you hear:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. _______________________________</div>
-                    <div>2. _______________________________</div>
-                    <div>3. _______________________________</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Look Closely: Look around the room. Find and name 5 different colors:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Color 1: ________ (Example: blue from the board)</div>
-                    <div>Color 2: ________ (Example: green from a plant)</div>
-                    <div>Color 3: ________</div>
-                    <div>Color 4: ________</div>
-                    <div>Color 5: ________</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Match the organ to the sense:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Eyes – For hearing a bell? (No/Yes)</div>
-                    <div>☐ Ears – For seeing a bird? (No/Yes)</div>
-                    <div>Circle the correct organ:</div>
-                    <div>To hear a bell, we use our: ☐ Eyes ☐ Ears</div>
-                    <div>To see a bird, we use our: ☐ Eyes ☐ Ears</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw something you can see AND something you can hear:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; text-align: center;">
-                        <div>I see:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Name the Animal</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look at each picture. Write the name of the animal:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Dog]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Cat]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Goat]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Pig]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Sheep]</div>
+                                <div>This is a _________</div>
+                            </div>
+                        </div>
                     </div>
-                    <div style="flex: 1; text-align: center;">
-                        <div>I hear:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Match the Sound</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a line from each animal to its sound:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Dog     →     "Maa"</div>
+                        <div>Cat     →     "Woof woof"</div>
+                        <div>Goat     →     "Meow"</div>
+                        <div>Pig     →     "Baa"</div>
+                        <div>Sheep     →     "Oink oink"</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw your favorite domestic animal. Write its name below your drawing:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
                 </div>
             </div>
         `,
-        homework: "At home, close your eyes and listen. Tell your family three sounds you hear. Then open your eyes and name three colors you see.",
+        homework: "Ask a family member: Do we have any domestic animals at home or in our village? Draw one of them in your notebook.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Touch and Texture",
-        subtopic: "Using skin/hands to explore through touch",
+        topic: "Animals",
+        subtopic: "Identifying Wild Animals in Zambia",
         lessonContent: `
-            <p>Today we explore the amazing sense of TOUCH! Our skin is our largest organ and helps us feel the world.</p>
-            <p><strong>Key Concept:</strong> Our hands and skin help us feel textures like rough, smooth, hard, and soft.</p>
-            <p><strong>Touch Vocabulary:</strong></p>
-            <ul>
-                <li><strong>Rough:</strong> Bumpy, scratchy, like sandpaper or tree bark</li>
-                <li><strong>Smooth:</strong> Flat, even, like glass or a polished stone</li>
-                <li><strong>Hard:</strong> Firm, solid, like a rock or a table</li>
-                <li><strong>Soft:</strong> Gentle, fluffy, like a pillow or a kitten</li>
-            </ul>
-            <p><strong>Why Touch Matters:</strong></p>
-            <ul>
-                <li>Helps us know if something is safe or dangerous</li>
-                <li>Lets us enjoy hugs, petting animals, and feeling textures</li>
-                <li>Warns us if something is too hot or too cold</li>
-            </ul>
-            <p><strong>Think About It:</strong> How would you describe your favorite stuffed animal using touch words?</p>
-            <p><strong>Our Mission:</strong> Become texture detectives with the Mystery Bag!</p>
+            <p>Today we'll discover wild animals that live in Zambia! Wild animals do not live with people - they live in the bush, forests, and national parks.</p>
+            <p><strong>Key Question:</strong> What wild animals can we find in Zambia?</p>
+            <p><strong>Introduction:</strong> Zambia has many amazing wild animals. Some are big, some are small. They live freely in nature, not on farms or in homes.</p>
+            <p><strong>Wild Animals in Zambia:</strong></p>
+            <ol>
+                <li><strong>Lion:</strong> The king of the jungle! Lions are big cats with golden fur. Male lions have a big mane.</li>
+                <li><strong>Elephant:</strong> The largest land animal. Elephants have long trunks and big ears.</li>
+                <li><strong>Giraffe:</strong> The tallest animal. Giraffes have very long necks to reach leaves on trees.</li>
+                <li><strong>Zebra:</strong> A horse-like animal with black and white stripes.</li>
+                <li><strong>Monkey:</strong> A playful animal that climbs trees and eats fruits.</li>
+                <li><strong>Crocodile:</strong> A reptile that lives in rivers and lakes. Crocodiles have sharp teeth!</li>
+            </ol>
+            <p><strong>Fun Fact:</strong> Zambia has 20 national parks where wild animals are protected!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper" style="color: #FF9800;"></i> Rough Example</div>
-                <p>"This pinecone is rough and bumpy" – My fingers tell me it's not smooth.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Where They Live</div>
+                <p>Wild animals like lions, elephants, and giraffes live in South Luangwa National Park and Kafue National Park in Zambia.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-rock" style="color: #795548;"></i> Soft Example</div>
-                <p>"This cotton ball is soft and fluffy" – My skin tells me it's gentle to touch.</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> So Tall!</div>
+                <p>A giraffe can be as tall as 5 meters - that's taller than two adults standing on each other's shoulders!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Mystery Bag Game!</div>
-                <p>Reach into the Mystery Bag, feel an object without looking, and describe it using touch words!</p>
+                <div class="example-title"><i class="fas fa-water"></i> River Animals</div>
+                <p>Crocodiles live in the Zambezi River and other rivers in Zambia. They are very good swimmers.</p>
             </div>
         `,
-        taskInstructions: "Explore textures using your sense of touch.",
+        taskInstructions: "Identify and name wild animals found in Zambia.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Mystery Bag Challenge</strong></p>
+                <p><strong>Part A: Name These Wild Animals</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Reach into the Mystery Bag. Describe what you feel:
+                    <span class="task-number">1</span> Write the name of each wild animal:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Object feels: ☐ Rough ☐ Smooth ☐ Hard ☐ Soft</div>
-                        <div>Draw what you THINK it is:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Now look! Was it what you guessed? ☐ Yes ☐ No</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Texture Hunt</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Find objects in the room for each texture:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Something Rough: ___________________</div>
-                        <div>Something Smooth: _________________</div>
-                        <div>Something Hard: ____________________</div>
-                        <div>Something Soft: _____________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Touch Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw and label four different textures:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; text-align: center;">
-                            <div>Rough</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                        </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div>Smooth</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                        </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div>Hard</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                        </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div>Soft</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Lion]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Elephant]</div>
+                                <div>This is an _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Giraffe]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Zebra]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Monkey]</div>
+                                <div>This is a _________</div>
+                            </div>
+                            <div>
+                                <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc; text-align: center; padding-top: 20px;">[Picture of Crocodile]</div>
+                                <div>This is a _________</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Touch Words</strong></p>
+                <p><strong>Part B: Wild Animal Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Circle the correct touch word for each picture:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A rock is: ☐ Rough ☐ Soft</div>
-                        <div>A pillow is: ☐ Hard ☐ Soft</div>
-                        <div>Sandpaper is: ☐ Smooth ☐ Rough</div>
-                        <div>A mirror is: ☐ Rough ☐ Smooth</div>
-                    </div>
+                    <span class="task-number">2</span> Draw one wild animal that lives in Zambia. Write its name:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Question</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Which wild animal do you think is the biggest? Which is the tallest?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three objects at home with different textures. Describe each one using the words rough, smooth, hard, or soft.",
+        homework: "Ask your parents or guardians: Have you ever seen a wild animal? Which one and where? Draw a picture of it.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Taste and Smell",
-        subtopic: "Identifying nose and tongue as organs for smelling and tasting",
+        topic: "Animals",
+        subtopic: "Classifying Domestic and Wild Animals",
         lessonContent: `
-            <p>Today we explore two delicious senses: TASTE and SMELL! They work together to help us enjoy food and stay safe.</p>
-            <p><strong>Key Concept:</strong> Our nose is for smelling, and our tongue is for tasting.</p>
-            <p><strong>Our Nose:</strong></p>
+            <p>Today we'll learn how to sort animals into two groups: domestic animals and wild animals!</p>
+            <p><strong>Key Question:</strong> How can we tell if an animal is domestic or wild?</p>
+            <p><strong>What makes an animal DOMESTIC?</strong></p>
             <ul>
-                <li>Helps us smell flowers, food, rain, and smoke</li>
-                <li>Warns us of dangerous smells like gas or spoiled food</li>
-                <li>Helps us taste better (try pinching your nose while eating!)</li>
+                <li>Lives with people or on a farm</li>
+                <li>People feed and care for them</li>
+                <li>Safe to be around people</li>
+                <li>Examples: dog, cat, goat, pig, sheep, chicken, cow</li>
             </ul>
-            <p><strong>Our Tongue:</strong></p>
+            <p><strong>What makes an animal WILD?</strong></p>
             <ul>
-                <li>Helps us taste sweet, salty, sour, and bitter</li>
-                <li>Has taste buds that send messages to our brain</li>
-                <li>Helps us talk and swallow safely</li>
+                <li>Lives in nature (bush, forest, river, national park)</li>
+                <li>Finds its own food and water</li>
+                <li>Can be dangerous to people</li>
+                <li>Examples: lion, elephant, giraffe, zebra, monkey, crocodile</li>
             </ul>
-            <p><strong>Taste Examples:</strong></p>
+            <p><strong>Let's Compare:</strong></p>
             <ul>
-                <li><strong>Sweet:</strong> Honey, strawberries, cake</li>
-                <li><strong>Salty:</strong> Pretzels, chips, crackers</li>
-                <li><strong>Sour:</strong> Lemon, lime, vinegar</li>
-                <li><strong>Bitter:</strong> Dark chocolate, broccoli (for some!)</li>
+                <li>A <strong>dog</strong> lives at home (domestic). A <strong>lion</strong> lives in the bush (wild).</li>
+                <li>A <strong>goat</strong> eats grass given by a farmer (domestic). A <strong>zebra</strong> finds its own grass to eat (wild).</li>
+                <li>A <strong>cat</strong> is friendly (domestic). A <strong>crocodile</strong> can be dangerous (wild).</li>
             </ul>
-            <p><strong>Our Mission:</strong> Use our noses and tongues like food scientists!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-nose" style="color: #E91E63;"></i> Smell Power</div>
-                <p>"I smell an orange peel" – My nose tells me it's citrusy and fresh.</p>
+                <div class="example-title"><i class="fas fa-home"></i> Home vs. Wild</div>
+                <p>Sheep live on farms and are domestic. Their wild cousins, like bighorn sheep, live in mountains far away from people.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ice-cream" style="color: #FF9800;"></i> Taste Power</div>
-                <p>"This cookie tastes sweet" – My tongue tells me it has sugar.</p>
+                <div class="example-title"><i class="fas fa-chalkboard-teacher"></i> Sorting Game</div>
+                <p>Can you sort these? Pig (domestic), Elephant (wild), Cat (domestic), Monkey (wild). Great job!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Smell Guessing Game!</div>
-                <p>We'll smell mystery containers (orange peel, cinnamon, flower) and guess what's inside!</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> Safety First</div>
+                <p>Never try to touch a wild animal. They are not like pets and can be very dangerous, even if they look cute!</p>
             </div>
         `,
-        taskInstructions: "Explore smells and tastes safely (with teacher guidance).",
+        taskInstructions: "Sort animals into domestic and wild groups using a T-chart.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Smell Station</strong></p>
+                <p><strong>Part A: Sort the Animals</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Smell each container. Guess what it is:
+                    <span class="task-number">1</span> Cut and paste or write each animal in the correct group:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Container 1: Smells like ________________ (flower, orange, cinnamon?)</div>
-                        <div>Container 2: Smells like ________________</div>
-                        <div>Container 3: Smells like ________________</div>
-                        <div>Which organ did you use? ☐ Nose ☐ Tongue ☐ Eyes</div>
+                        <p>Animals to sort: <strong>Dog, Lion, Cat, Elephant, Goat, Zebra, Pig, Monkey, Sheep, Crocodile</strong></p>
+                        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Domestic Animals (Live with people)</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Wild Animals (Live in nature)</th>
+                             </tr>
+                             <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;"></td>
+                             </tr>
+                         </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Taste Talk</strong></p>
+                <p><strong>Part B: Circle the Correct Group</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> With teacher guidance, taste safe foods:
+                    <span class="task-number">2</span> Read each animal. Circle if it is DOMESTIC or WILD:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Cracker: Tastes ☐ Sweet ☐ Salty</div>
-                        <div>Apple slice: Tastes ☐ Sweet ☐ Sour</div>
-                        <div>Which organ did you use? ☐ Nose ☐ Tongue ☐ Ears</div>
-                        <div>Draw your favorite tasty food:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div>A. Chicken → DOMESTIC / WILD</div>
+                        <div>B. Elephant → DOMESTIC / WILD</div>
+                        <div>C. Cow → DOMESTIC / WILD</div>
+                        <div>D. Giraffe → DOMESTIC / WILD</div>
+                        <div>E. Goat → DOMESTIC / WILD</div>
+                        <div>F. Lion → DOMESTIC / WILD</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sense Match</strong></p>
+                <p><strong>Part C: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Match the organ to the sense:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>To smell a flower, use your: ☐ Nose ☐ Tongue</div>
-                        <div>To taste an apple, use your: ☐ Nose ☐ Tongue</div>
-                        <div>To smell cookies baking, use your: ☐ Eyes ☐ Nose</div>
-                        <div>Draw a nose and a tongue:</div>
-                        <div style="display: flex;">
-                            <div style="flex: 1; text-align: center;">
-                                <div>Nose</div>
-                                <div class="drawing-area" style="height: 60px;"></div>
-                            </div>
-                            <div style="flex: 1; text-align: center;">
-                                <div>Tongue</div>
-                                <div class="drawing-area" style="height: 60px;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Safety Sense</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Why are smell and taste important for safety?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Smell can warn us of: ☐ Fire ☐ Music</div>
-                        <div>Taste can warn us of: ☐ Spoiled milk ☐ A soft pillow</div>
-                        <div>Draw something that smells good and something that tastes good:</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; text-align: center;">
-                                <div>Smells Good</div>
-                                <div class="drawing-area" style="height: 80px;"></div>
-                            </div>
-                            <div style="flex: 1; text-align: center;">
-                                <div>Tastes Good</div>
-                                <div class="drawing-area" style="height: 80px;"></div>
-                            </div>
-                        </div>
+                    <span class="task-number">3</span> Draw one domestic animal and one wild animal. Write "DOMESTIC" under the first and "WILD" under the second:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div class="drawing-area" style="height: 120px; border: 2px dashed #ccc;"></div>
+                        <div class="drawing-area" style="height: 120px; border: 2px dashed #ccc;"></div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "With a family member, smell three different things in your kitchen (like bread, fruit, herbs). Describe each smell.",
+        homework: "Find pictures of 2 domestic animals and 2 wild animals from old magazines or newspapers. Glue them in your notebook and label each group.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Counting with Our Senses",
-        subtopic: "Using senses to identify and count objects in the environment",
+        topic: "Counting",
+        subtopic: "Counting Domestic Animals in the Local Environment",
         lessonContent: `
-            <p>Today we combine our senses with MATH! We'll use sight and hearing to count objects in our world.</p>
-            <p><strong>Key Concept:</strong> Our senses help us observe, and math helps us count what we observe.</p>
-            <p><strong>Counting with Sight:</strong></p>
+            <p>Today we'll practice our counting skills while learning about domestic animals in our community!</p>
+            <p><strong>Key Question:</strong> How many domestic animals can you find in your village or neighborhood?</p>
+            <p><strong>Introduction:</strong> Mathematics helps us count and compare things. Today we will count domestic animals. Let's practice counting from 1 to 20!</p>
+            <p><strong>Numbers to Review:</strong> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20</p>
+            <p><strong>How to Count Animals:</strong></p>
             <ul>
-                <li>Looking for all the red things in the garden</li>
-                <li>Counting how many windows are in the classroom</li>
-                <li>Finding round objects and counting them</li>
+                <li>Point to each animal as you count</li>
+                <li>Say the number out loud</li>
+                <li>Write the number down</li>
             </ul>
-            <p><strong>Counting with Hearing:</strong></p>
+            <p><strong>Let's Practice Counting:</strong></p>
             <ul>
-                <li>Listening to bird songs and counting how many different birds</li>
-                <li>Counting how many cars pass by their sound</li>
-                <li>Hearing classmates clap and counting the claps</li>
+                <li>Count the dogs: 🐕 🐕 🐕 = 3 dogs</li>
+                <li>Count the goats: 🐐 🐐 🐐 🐐 = 4 goats</li>
+                <li>Count the chickens: 🐔 🐔 🐔 🐔 🐔 = 5 chickens</li>
             </ul>
-            <p><strong>Math + Senses = Super Observation!</strong></p>
-            <p><strong>Think About It:</strong> How many green things can you see right now? How many different sounds can you hear?</p>
-            <p><strong>Our Mission:</strong> Become sense-counters!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #2196F3;"></i> Sight Counting</div>
-                <p>"I see 5 red flowers" – My eyes help me find red, and my brain helps me count to 5.</p>
+                <div class="example-title"><i class="fas fa-calculator"></i> Counting Together</div>
+                <p>If you see 2 dogs, 3 cats, and 1 goat, how many animals did you see in total? 2 + 3 + 1 = 6 animals!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ear" style="color: #FF9800;"></i> Sound Counting</div>
-                <p>"I hear 3 different bird sounds" – My ears help me hear, and my brain helps me count the different sounds.</p>
+                <div class="example-title"><i class="fas fa-chart-simple"></i> More or Less</div>
+                <p>Count 5 sheep and 3 pigs. Are there more sheep or more pigs? (More sheep because 5 is greater than 3)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sense Counting Game!</div>
-                <p>We'll sit quietly and count how many different sounds we hear, then count how many blue things we see!</p>
+                <div class="example-title"><i class="fas fa-clipboard-list"></i> Neighborhood Survey</div>
+                <p>When you walk home, count how many goats you see. Tomorrow you can compare with a friend's count!</p>
             </div>
         `,
-        taskInstructions: "Use your senses to count objects and sounds.",
+        taskInstructions: "Count domestic animals, write numbers, and compare quantities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Counting</strong></p>
+                <p><strong>Part A: Count the Animals</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sit quietly for 2 minutes. Count different sounds:
+                    <span class="task-number">1</span> Count each group of animals. Write the number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>How many different bird sounds? ____</div>
-                        <div>How many vehicle sounds? ____</div>
-                        <div>How many people sounds? ____</div>
-                        <div>Total different sounds: ____</div>
-                        <div>Draw something that makes sound:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div>🐕 🐕 🐕 🐕 = ______ dogs</div>
+                        <div>🐈 🐈 = ______ cats</div>
+                        <div>🐐 🐐 🐐 = ______ goats</div>
+                        <div>🐖 🐖 🐖 🐖 🐖 = ______ pigs</div>
+                        <div>🐑 🐑 = ______ sheep</div>
+                        <div>🐔 🐔 🐔 🐔 = ______ chickens</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sight Counting</strong></p>
+                <p><strong>Part B: Draw and Count</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Look around the classroom or garden. Count:
+                    <span class="task-number">2</span> Draw the number of animals shown in each box:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>How many red things? ____</div>
-                        <div>How many round things? ____</div>
-                        <div>How many green things? ____</div>
-                        <div>How many blue things? ____</div>
-                        <div>Draw the red things you counted:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div>Draw 3 dogs:</div>
+                        <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Draw 5 goats:</div>
+                        <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Draw 2 pigs:</div>
+                        <div class="drawing-area" style="height: 60px; border: 1px dashed #ccc;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sense Graphing</strong></p>
+                <p><strong>Part C: Which is More?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create a sense count chart:
+                    <span class="task-number">3</span> Circle the group that has MORE animals:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <table style="width: 100%; border-collapse: collapse;">
-                            <tr>
-                                <th style="border: 1px solid #ccc; padding: 5px;">Sense</th>
-                                <th style="border: 1px solid #ccc; padding: 5px;">What I Found</th>
-                                <th style="border: 1px solid #ccc; padding: 5px;">Count</th>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #ccc; padding: 5px;">Sight (Red)</td>
-                                <td style="border: 1px solid #ccc; padding: 5px;">Red objects</td>
-                                <td style="border: 1px solid #ccc; padding: 5px;">____</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #ccc; padding: 5px;">Hearing (Birds)</td>
-                                <td style="border: 1px solid #ccc; padding: 5px;">Bird sounds</td>
-                                <td style="border: 1px solid #ccc; padding: 5px;">____</td>
-                            </tr>
-                        </table>
+                        <div>A. 4 dogs    or    2 dogs</div>
+                        <div>B. 6 goats    or    8 goats</div>
+                        <div>C. 1 pig    or    3 pigs</div>
+                        <div>D. 5 sheep    or    5 sheep</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Five Senses Review</strong></p>
+                <p><strong>Part D: Neighborhood Survey</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Match each sense to its organ:
+                    <span class="task-number">4</span> Think about domestic animals near your home. Count them:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Sight: ☐ Eyes ☐ Ears ☐ Nose</div>
-                        <div>Hearing: ☐ Eyes ☐ Ears ☐ Tongue</div>
-                        <div>Smell: ☐ Nose ☐ Tongue ☐ Skin</div>
-                        <div>Touch: ☐ Tongue ☐ Skin ☐ Eyes</div>
-                        <div>Taste: ☐ Nose ☐ Tongue ☐ Ears</div>
+                        <div>How many dogs? ______</div>
+                        <div>How many cats? ______</div>
+                        <div>How many goats? ______</div>
+                        <div>How many chickens? ______</div>
                     </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which domestic animal did you see the most?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Sense Explorer Certificate</strong></p>
+                <p><strong>Part E: Counting Challenge</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself using all five senses. Write your favorite sense:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My favorite sense is ________ because ________</div>
+                    <span class="task-number">6</span> Write the missing numbers:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1, 2, 3, ___, 5, ___, 7, 8, ___, 10</div>
+                        <div>11, 12, ___, 14, 15, ___, 17, 18, ___, 20</div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "At home, count how many different sounds you hear in 5 minutes. Then count how many yellow things you can see in one room.",
-        homeworkDue: "Monday"
+        homework: "Walk around your home or village. Count all the domestic animals you see. Ask a parent or older sibling to help you write the numbers. Bring your count to share with the class tomorrow!",
+        homeworkDue: "Friday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1MathScienceWeek8);
-    console.log("math-science-week8-senses.js registered using registerWorksheet()");
+    window.registerWorksheet(grade1MathsScienceWeek8);
+    console.log("grade1-maths-science-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1MathScienceWeek8);
-    console.log("math-science-week8-senses.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade1MathsScienceWeek8);
+    console.log("grade1-maths-science-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1MathScienceWeek8',
-        metadata: grade1MathScienceWeek8.metadata,
-        days: grade1MathScienceWeek8
+        variableName: 'grade1MathsScienceWeek8',
+        metadata: grade1MathsScienceWeek8.metadata,
+        days: grade1MathsScienceWeek8
     });
-    console.log("math-science-week8-senses.js stored in window.registeredWorksheets");
+    console.log("grade1-maths-science-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1MathScienceWeek8 = grade1MathScienceWeek8;
-console.log("math-science-week8-senses.js loaded and registered successfully");
+window.grade1MathsScienceWeek8 = grade1MathsScienceWeek8;
+console.log("grade1-maths-science-week8.js loaded and registered successfully");

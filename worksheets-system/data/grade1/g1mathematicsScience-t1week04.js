@@ -1,492 +1,461 @@
-// Grade 1 Mathematics & Science - Week 4 Data (Exploring Our Environments)
-const grade1MathSciWeek4 = {
+// Grade 1 Mathematics & Science - Term 1 Week 4 Data
+const grade1MathScienceWeek4 = {
     metadata: {
         grade: 1,
         subject: "Mathematics & Science",
+        term: 1,
         week: 4,
-        title: "Exploring Our Environments — Natural vs. Man-Made",
-        description: "Distinguishing between natural and man-made environments, counting and ordering natural objects"
+        title: "Counting in Daily Life",
+        description: "Counting in groups, reading and writing numbers, matching quantities, and counting intervals"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "Natural vs. Man-Made",
-        subtopic: "Distinguishing between things made by nature and things made by people",
+        topic: "Counting",
+        subtopic: "Counting in Groups of 2s and 5s",
         lessonContent: `
-            <p>Welcome to our Math & Science adventure! Today we will explore the world around us by discovering what nature makes and what people make.</p>
-            <p><strong>Key Concept:</strong> Some things in our world are made by nature, and some are made by people.</p>
-            <p><strong>What is "Natural"?</strong></p>
+            <p>Welcome to our counting adventure! Today we'll learn how to count in groups - it makes counting faster and more fun!</p>
+            <p><strong>Key Question:</strong> How can we count many things without counting one by one?</p>
+            <p><strong>Introduction:</strong> When we have lots of things to count, we can put them in groups. Counting in groups of 2s and 5s helps us count faster!</p>
+            <p><strong>Counting in Groups of 2s:</strong></p>
             <ul>
-                <li>Made by nature without people helping</li>
-                <li>Examples: trees, rocks, rivers, clouds, animals</li>
-                <li>Found growing or living outside</li>
+                <li>2, 4, 6, 8, 10, 12, 14, 16, 18, 20</li>
+                <li>Think of pairs: shoes come in pairs (2 shoes), ears (2 ears), hands (2 hands)</li>
+                <li>Skip counting by 2s means we skip one number each time</li>
             </ul>
-            <p><strong>What is "Man-Made"?</strong></p>
+            <p><strong>Counting in Groups of 5s:</strong></p>
             <ul>
-                <li>Made by people using tools and materials</li>
-                <li>Examples: houses, cars, toys, books, roads</li>
-                <li>Built or created by humans</li>
+                <li>5, 10, 15, 20</li>
+                <li>Think of fingers on one hand (5 fingers) or two hands (10 fingers)</li>
+                <li>Counting by 5s is like counting nickels or fingers</li>
             </ul>
-            <p><strong>Today's Activity:</strong> We will take a "Discovery Walk" around our school to find examples of both!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Natural Example</div>
-                <p>A tree is natural because it grows from a seed in the soil. People didn't build it!</p>
+                <div class="example-title"><i class="fas fa-hand-paper"></i> My Hands</div>
+                <p>I have 2 hands. Counting by 2s: 2 hands! My friend also has 2 hands. Together we have 4 hands (2, 4).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-school" style="color: #3F51B5;"></i> Man-Made Example</div>
-                <p>Our school building is man-made because people used bricks, wood, and glass to build it.</p>
+                <div class="example-title"><i class="fas fa-shoe-prints"></i> Shoe Pairs</div>
+                <p>If you have 3 pairs of shoes, count by 2s: 2, 4, 6. You have 6 shoes!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-walking"></i> Discovery Walk Game!</div>
-                <p>We'll walk around the schoolyard. When I point to something natural, say "Nature made it!" When I point to something man-made, say "People made it!"</p>
+                <div class="example-title"><i class="fas fa-fingerprint"></i> Fingers and Toes</div>
+                <p>One hand has 5 fingers. Two hands have 10 fingers. Count by 5s: 5, 10!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities after our Discovery Walk.",
+        taskInstructions: "Use concrete objects like stones or bottle tops to count in groups of 2s and 5s.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the natural things you saw on our walk:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Grass</div>
-                    <div>☐ Swing set</div>
-                    <div>☐ Clouds</div>
-                    <div>☐ Fence</div>
-                    <div>☐ Birds</div>
-                    <div>☐ Pavement</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw one natural thing and one man-made thing you saw:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">Natural Thing</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Counting Groups of 2s</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Use bottle tops or stones. Make groups of 2 and count:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Group 1: ⬤ ⬤  → 2</div>
+                        <div>• Group 2: ⬤ ⬤  → 4</div>
+                        <div>• Group 3: ⬤ ⬤  → ___</div>
+                        <div>• Group 4: ⬤ ⬤  → ___</div>
+                        <div>• Group 5: ⬤ ⬤  → ___</div>
                     </div>
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">Man-Made Thing</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Counting Groups of 5s</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Use stones or bottle tops. Make groups of 5 and count:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Group 1: ⬤ ⬤ ⬤ ⬤ ⬤  → 5</div>
+                        <div>• Group 2: ⬤ ⬤ ⬤ ⬤ ⬤  → 10</div>
+                        <div>• Group 3: ⬤ ⬤ ⬤ ⬤ ⬤  → ___</div>
+                        <div>• Group 4: ⬤ ⬤ ⬤ ⬤ ⬤  → ___</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Practice Counting</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Fill in the missing numbers:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Counting by 2s: 2, 4, ___, 8, ___, 12, ___, 16, ___, 20</div>
+                        <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
+                        <div style="margin-top: 10px;">Counting by 5s: 5, 10, ___, 20</div>
+                        <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write "Natural" or "Man-made" next to each:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Sun: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>Bicycle: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>River: <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>Book: <span class="answer-space" style="width: 100px;"></span></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Think and answer:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Is your shirt natural or man-made? <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>Is a flower natural or man-made? <span class="answer-space" style="width: 100px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw and Count</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw 10 dots in groups of 2. Then draw 15 dots in groups of 5:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Look around your home. Find 2 natural things and 2 man-made things. Draw one of each.",
+        homework: "Find things at home you can count in groups of 2 (socks, shoes, ears). Find things you can count in groups of 5 (fingers on a drawing, flowers in a small bunch).",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Features of the Natural World",
-        subtopic: "Identifying specific physical features of the natural environment",
+        topic: "Numbers",
+        subtopic: "Reading and Writing Numbers from 1 to 20",
         lessonContent: `
-            <p>Today we will explore the wonderful things nature creates! Let's look closely at different parts of our natural world.</p>
-            <p><strong>Key Concept:</strong> Nature gives us many special things that we can see, touch, and explore.</p>
-            <p><strong>Nature Tray Exploration:</strong> We will examine real natural objects!</p>
-            <p><strong>Rocks:</strong> Found in mountains, rivers, and soil. They are hard and come in many shapes.</p>
-            <p><strong>Soil:</strong> The ground we walk on! Plants grow in soil.</p>
-            <p><strong>Leaves:</strong> Grow on trees and plants. They help trees breathe.</p>
-            <p><strong>Water:</strong> Found in rivers, lakes, and oceans. All living things need water.</p>
-            <p><strong>Where do we find these?</strong></p>
+            <p>Today we will learn to read and write numbers from 1 all the way to 20!</p>
+            <p><strong>Key Question:</strong> How do we write numbers and say their names?</p>
+            <p><strong>Introduction:</strong> Numbers help us count, measure, and describe our world. Every number has a name and a symbol!</p>
+            <p><strong>Numbers 1 to 10:</strong></p>
             <ul>
-                <li>Mountains: rocks, soil, sometimes snow</li>
-                <li>Rivers: water, rocks, sometimes fish</li>
-                <li>Forests: trees, leaves, soil, animals</li>
+                <li>1 = one</li>
+                <li>2 = two</li>
+                <li>3 = three</li>
+                <li>4 = four</li>
+                <li>5 = five</li>
+                <li>6 = six</li>
+                <li>7 = seven</li>
+                <li>8 = eight</li>
+                <li>9 = nine</li>
+                <li>10 = ten</li>
+            </ul>
+            <p><strong>Numbers 11 to 20:</strong></p>
+            <ul>
+                <li>11 = eleven</li>
+                <li>12 = twelve</li>
+                <li>13 = thirteen</li>
+                <li>14 = fourteen</li>
+                <li>15 = fifteen</li>
+                <li>16 = sixteen</li>
+                <li>17 = seventeen</li>
+                <li>18 = eighteen</li>
+                <li>19 = nineteen</li>
+                <li>20 = twenty</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mountain" style="color: #795548;"></i> Mountain Environment</div>
-                <p>Mountains have lots of rocks, tall trees, and sometimes animals like goats or birds.</p>
+                <div class="example-title"><i class="fas fa-birthday-cake"></i> Birthday Age</div>
+                <p>If you are 6 years old, you write the number 6 and say "six"!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-water" style="color: #2196F3;"></i> River Environment</div>
-                <p>Rivers have flowing water, smooth rocks, fish, and plants growing along the banks.</p>
+                <div class="example-title"><i class="fas fa-clock"></i> Clock Numbers</div>
+                <p>A clock has numbers from 1 to 12. After 12 comes 13, 14, all the way to 20!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-seedling"></i> Nature Touch & Tell</div>
-                <p>We'll pass around the Nature Tray. When you hold an object, say one thing about it and where you might find it.</p>
+                <div class="example-title"><i class="fas fa-book"></i> Page Numbers</div>
+                <p>The pages in your book have numbers. Can you find page 15?</p>
             </div>
         `,
-        taskInstructions: "Explore the Nature Tray and complete these activities.",
+        taskInstructions: "Practice reading and writing numbers from 1 to 20.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Nature Object Observations</strong></p>
+                <p><strong>Part A: Trace and Write Numbers 1-10</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at each item in the Nature Tray. Circle how it feels:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Rock: ☐ Smooth ☐ Rough ☐ Hard</div>
-                        <div>Soil: ☐ Dry ☐ Soft ☐ Crumbly</div>
-                        <div>Leaf: ☐ Smooth ☐ Bumpy ☐ Thin</div>
-                        <div>Water: ☐ Wet ☐ Cold ☐ Flowing</div>
+                    <span class="task-number">1</span> Trace each number, then write it:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace; font-size: 20px;">
+                        <div>1 1 1 ___ ___ ___</div>
+                        <div>2 2 2 ___ ___ ___</div>
+                        <div>3 3 3 ___ ___ ___</div>
+                        <div>4 4 4 ___ ___ ___</div>
+                        <div>5 5 5 ___ ___ ___</div>
+                        <div>6 6 6 ___ ___ ___</div>
+                        <div>7 7 7 ___ ___ ___</div>
+                        <div>8 8 8 ___ ___ ___</div>
+                        <div>9 9 9 ___ ___ ___</div>
+                        <div>10 10 10 ___ ___ ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Where Do They Belong?</strong></p>
+                <p><strong>Part B: Trace and Write Numbers 11-20</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw lines to match each object to where you might find it:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Rock → ☐ In a river</div>
-                        <div>Soil → ☐ On a mountain</div>
-                        <div>Leaf → ☐ In a forest</div>
-                        <div>Water → ☐ In a lake</div>
+                    <span class="task-number">2</span> Trace each number, then write it:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace; font-size: 20px;">
+                        <div>11 11 11 ___ ___ ___</div>
+                        <div>12 12 12 ___ ___ ___</div>
+                        <div>13 13 13 ___ ___ ___</div>
+                        <div>14 14 14 ___ ___ ___</div>
+                        <div>15 15 15 ___ ___ ___</div>
+                        <div>16 16 16 ___ ___ ___</div>
+                        <div>17 17 17 ___ ___ ___</div>
+                        <div>18 18 18 ___ ___ ___</div>
+                        <div>19 19 19 ___ ___ ___</div>
+                        <div>20 20 20 ___ ___ ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Mountain and River Environments</strong></p>
+                <p><strong>Part C: Match Number to Word</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Name three things you would see in each environment:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Mountain:</strong></div>
-                        <div>1. <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>2. <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>3. <span class="answer-space" style="width: 120px;"></span></div>
-                        <div style="margin-top: 10px;"><strong>River:</strong></div>
-                        <div>1. <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>2. <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>3. <span class="answer-space" style="width: 120px;"></span></div>
+                    <span class="task-number">3</span> Draw a line to match each number to its word:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div>
+                            <div>7 →</div>
+                            <div>12 →</div>
+                            <div>3 →</div>
+                            <div>15 →</div>
+                            <div>20 →</div>
+                        </div>
+                        <div>
+                            <div>three</div>
+                            <div>seven</div>
+                            <div>fifteen</div>
+                            <div>twelve</div>
+                            <div>twenty</div>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: My Favorite Natural Thing</strong></p>
+                <p><strong>Part D: Write the Missing Numbers</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw your favorite natural thing from today's lesson:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">I like this because: <span class="answer-space" style="width: 200px;"></span></div>
+                    <span class="task-number">4</span> Fill in the blanks:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1, 2, 3, ___, 5, ___, 7, 8, ___, 10</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>11, 12, ___, 14, ___, 16, 17, ___, 19, ___</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "Look outside your window or in your yard. Find one rock, one leaf, and describe something that needs water to live.",
+        homework: "Write numbers 1 to 20 on a piece of paper. Say each number out loud as you write it. Show your family!",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Building Our World (Man-Made)",
-        subtopic: "Identifying physical features of the man-made environment",
+        topic: "Numbers",
+        subtopic: "Matching Quantities to Written Numerals up to 20",
         lessonContent: `
-            <p>Today we will explore the amazing things people build! People are very creative and build many structures we use every day.</p>
-            <p><strong>Key Concept:</strong> People use different materials to build structures that help us live, travel, and play.</p>
-            <p><strong>Houses:</strong> Where people live. Made from materials like bricks, wood, glass, and metal.</p>
-            <p><strong>Roads:</strong> Where cars and people travel. Made from materials like tar, concrete, and gravel.</p>
-            <p><strong>Bridges:</strong> Help us cross over water or roads. Made from materials like steel, concrete, and wood.</p>
-            <p><strong>Why do people build things?</strong></p>
-            <ul>
-                <li>To have shelter and safety (houses)</li>
-                <li>To travel from place to place (roads, bridges)</li>
-                <li>To learn and play (schools, playgrounds)</li>
-            </ul>
-            <p><strong>Materials people use:</strong> Wood from trees, bricks from clay, metal from rocks, glass from sand.</p>
+            <p>Today we will learn to match how many things we see (quantity) with the correct number (numeral)!</p>
+            <p><strong>Key Question:</strong> How many objects are there? Can you find the right number?</p>
+            <p><strong>Introduction:</strong> When you see a group of objects, you can count them and then find the number that matches. This is called matching quantity to numeral!</p>
+            <p><strong>How to Match Quantities to Numbers:</strong></p>
+            <ol>
+                <li>Count the objects one by one</li>
+                <li>Remember the last number you said</li>
+                <li>Find the numeral that looks like that number</li>
+                <li>Write the numeral or point to it</li>
+            </ol>
+            <p><strong>Remember:</strong> The number "5" means five things - whether they are apples, stars, or blocks!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #FF9800;"></i> Houses</div>
-                <p>Houses keep us safe from weather. They have walls, roofs, doors, and windows made by people.</p>
+                <div class="example-title"><i class="fas fa-star"></i> Star Counting</div>
+                <p>If you see ★ ★ ★ ★ (4 stars), you match it to the numeral 4!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-road" style="color: #9E9E9E;"></i> Roads and Bridges</div>
-                <p>Roads help cars drive safely. Bridges help us cross rivers without getting wet!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Apple Basket</div>
+                <p>If a basket has 12 apples, you write the number 12 next to it.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hard-hat"></i> Builders' Imagination Game</div>
-                <p>We'll look at pictures of structures. When I say "What material?" you guess what it's made of!</p>
+                <div class="example-title"><i class="fas fa-children"></i> Counting Friends</div>
+                <p>If 8 friends are playing, the numeral 8 tells you how many friends there are.</p>
             </div>
         `,
-        taskInstructions: "Look at pictures of man-made structures and complete the activities.",
+        taskInstructions: "Count objects and match them to the correct written numeral.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Structure Match</strong></p>
+                <p><strong>Part A: Count and Match (1-10)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match each structure with what it's used for:
+                    <span class="task-number">1</span> Count the objects. Circle the correct number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>House → ☐ Crossing water</div>
-                        <div>Road → ☐ People living inside</div>
-                        <div>Bridge → ☐ Cars driving on it</div>
+                        <div>⬤ ⬤ ⬤ ⬤ ⬤    3  5  7</div>
+                        <div>★ ★ ★ ★ ★ ★    4  6  8</div>
+                        <div>● ● ● ● ● ● ●    5  7  9</div>
+                        <div>♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦    6  8  10</div>
+                        <div>♠ ♠ ♠ ♠ ♠ ♠ ♠ ♠ ♠    7  9  11</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Material Detective</strong></p>
+                <p><strong>Part B: Count and Match (11-20)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Look at the pictures. Circle what materials you think were used:
+                    <span class="task-number">2</span> Count the objects. Write the correct number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Brick house: ☐ Wood ☐ Bricks ☐ Glass ☐ Metal</div>
-                        <div>Wooden bridge: ☐ Plastic ☐ Wood ☐ Steel ☐ Rope</div>
-                        <div>Concrete road: ☐ Tar ☐ Grass ☐ Concrete ☐ Water</div>
+                        <div>❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ (11 hearts) → ___</div>
+                        <div>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ (12 stars) → ___</div>
+                        <div>● ● ● ● ● ● ● ● ● ● ● ● ● (13 dots) → ___</div>
+                        <div>◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ ◆ (14 diamonds) → ___</div>
+                        <div>▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ (15 triangles) → ___</div>
+                        <div>■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ (16 squares) → ___</div>
+                        <div>⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ (17 circles) → ___</div>
+                        <div>★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ (18 stars) → ___</div>
+                        <div>♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ (19 hearts) → ___</div>
+                        <div>● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● (20 dots) → ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: On My Way to School</strong></p>
+                <p><strong>Part C: Draw the Quantity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> List three man-made structures you see on your way to school:
+                    <span class="task-number">3</span> Draw the correct number of objects next to each numeral:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>2. <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>3. <span class="answer-space" style="width: 150px;"></span></div>
+                        <div>5 → (draw 5 stars) <span class="drawing-area" style="display: inline-block; width: 100px; height: 30px; border: 1px dashed #ccc;"></span></div>
+                        <div>9 → (draw 9 circles) <span class="drawing-area" style="display: inline-block; width: 100px; height: 30px; border: 1px dashed #ccc;"></span></div>
+                        <div>12 → (draw 12 dots) <span class="drawing-area" style="display: inline-block; width: 100px; height: 30px; border: 1px dashed #ccc;"></span></div>
+                        <div>16 → (draw 16 squares) <span class="drawing-area" style="display: inline-block; width: 100px; height: 30px; border: 1px dashed #ccc;"></span></div>
+                        <div>20 → (draw 20 triangles) <span class="drawing-area" style="display: inline-block; width: 100px; height: 30px; border: 1px dashed #ccc;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Design Your Own Structure</strong></p>
+                <p><strong>Part D: Color by Number</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw something you wish people would build:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My structure is called: <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>It is made of: <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>People would use it to: <span class="answer-space" style="width: 150px;"></span></div>
+                    <span class="task-number">4</span> Color the spaces that have the correct number of objects:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc; text-align: center; padding-top: 60px;">
+                        [Draw 3 fish - color if it matches 3]<br>
+                        [Draw 10 flowers - color if it matches 10]<br>
+                        [Draw 14 balloons - color if it matches 14]
                     </div>
                 </div>
             </div>
         `,
-        homework: "With a grown-up, name 5 man-made things in your kitchen. What materials are they made from?",
+        homework: "Find 5 groups of things at home (toys, spoons, books). Count each group and write the number next to it.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "The Great Comparison",
-        subtopic: "Comparing natural and man-made environments",
+        topic: "Counting",
+        subtopic: "Counting in Intervals of 1 to 9 and 1 to 20",
         lessonContent: `
-            <p>Today we will put everything together! We'll compare natural places and man-made places to see how they are different and similar.</p>
-            <p><strong>Key Concept:</strong> Natural environments and man-made environments have different features, but both are part of our world.</p>
-            <p><strong>Forest (Natural Environment):</strong></p>
+            <p>Today we will practice counting in different intervals - from 1 to 9 and from 1 to 20!</p>
+            <p><strong>Key Question:</strong> Can you count forward starting from any number?</p>
+            <p><strong>Introduction:</strong> Counting in intervals means we start at one number and count up to another number. It's like climbing a ladder - you can start on any step!</p>
+            <p><strong>Counting from 1 to 9:</strong></p>
             <ul>
-                <li>Has many trees and plants</li>
-                <li>Animals live there freely</li>
-                <li>Rivers and streams flow naturally</li>
-                <li>Air smells fresh and earthy</li>
+                <li>Start at 1: 1, 2, 3, 4, 5, 6, 7, 8, 9</li>
+                <li>Start at 3: 3, 4, 5, 6, 7, 8, 9</li>
+                <li>Start at 5: 5, 6, 7, 8, 9</li>
+                <li>Start at 7: 7, 8, 9</li>
             </ul>
-            <p><strong>City (Man-Made Environment):</strong></p>
+            <p><strong>Counting from 1 to 20:</strong></p>
             <ul>
-                <li>Has many buildings and roads</li>
-                <li>People live and work there</li>
-                <li>Cars and buses travel on streets</li>
-                <li>Lights and signs help people</li>
-            </ul>
-            <p><strong>Comparison Questions:</strong></p>
-            <ul>
-                <li>Which has more plants? (Forest)</li>
-                <li>Which has more buildings? (City)</li>
-                <li>Where would you see more animals? (Forest)</li>
-                <li>Where would you see more people? (City)</li>
+                <li>Start at 1: 1, 2, 3... all the way to 20</li>
+                <li>Start at 10: 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20</li>
+                <li>Start at 15: 15, 16, 17, 18, 19, 20</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #2E7D32;"></i> Forest Picture</div>
-                <p>A forest is full of green trees, bushes, maybe deer or birds. The ground has soil, leaves, and rocks.</p>
+                <div class="example-title"><i class="fas fa-stairs"></i> Number Stairs</div>
+                <p>Imagine climbing stairs numbered 1 to 20. You can start at stair 4 and climb up to stair 12. Count: 4, 5, 6, 7, 8, 9, 10, 11, 12!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-city" style="color: #607D8B;"></i> City Picture</div>
-                <p>A city has tall buildings, traffic lights, sidewalks, shops, and lots of people moving around.</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> Board Game Moves</div>
+                <p>In a board game, if you're on space 7 and roll a dice to move forward, you count: 8, 9, 10... until you finish moving.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale"></i> Compare & Contrast Game</div>
-                <p>We'll look at two pictures side by side. I'll ask questions and you point to the correct picture!</p>
+                <div class="example-title"><i class="fas fa-calendar-alt"></i> Calendar Days</div>
+                <p>If today is the 6th, you can count forward to the 15th: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15!</p>
             </div>
         `,
-        taskInstructions: "Compare the forest and city pictures and complete the activities.",
+        taskInstructions: "Practice counting in intervals from 1 to 9 and 1 to 20.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Picture Comparison</strong></p>
+                <p><strong>Part A: Count from Start to 9</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at the forest and city pictures. Answer the questions:
+                    <span class="task-number">1</span> Start at each number and count all the way to 9:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Which picture has more plants? <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Which picture has more buildings? <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Where would you find more cars? <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Where would you find more birds? <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>Start at 2: 2, ___, ___, ___, ___, ___, ___, ___ (to 9)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 4: 4, ___, ___, ___, ___, ___, ___ (to 9)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 6: 6, ___, ___, ___, ___ (to 9)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 8: 8, ___ (to 9)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Natural or Man-Made?</strong></p>
+                <p><strong>Part B: Count from Start to 20</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> For each item, circle "Natural" or "Man-made":
+                    <span class="task-number">2</span> Start at each number and count all the way to 20:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Tree: ☐ Natural ☐ Man-made</div>
-                        <div>Car: ☐ Natural ☐ Man-made</div>
-                        <div>Bird: ☐ Natural ☐ Man-made</div>
-                        <div>House: ☐ Natural ☐ Man-made</div>
-                        <div>River: ☐ Natural ☐ Man-made</div>
-                        <div>Bicycle: ☐ Natural ☐ Man-made</div>
+                        <div>Start at 5: 5, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___ (to 20)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 9: 9, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___, ___ (to 20)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 12: 12, ___, ___, ___, ___, ___, ___, ___, ___ (to 20)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 16: 16, ___, ___, ___, ___ (to 20)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>Start at 18: 18, ___, ___ (to 20)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: My Favorite Place</strong></p>
+                <p><strong>Part C: What Number Comes Next?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw your favorite kind of place: a natural place or a man-made place:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>This is a <span class="answer-space" style="width: 100px;"></span> place. (natural/man-made)</div>
-                        <div>I like it because: <span class="answer-space" style="width: 200px;"></span></div>
+                    <span class="task-number">3</span> Fill in the next three numbers:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>3, 4, 5, ___, ___, ___</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>8, 9, 10, ___, ___, ___</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>11, 12, 13, ___, ___, ___</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>15, 16, 17, ___, ___, ___</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>18, 19, 20, ___, ___, ___ (be careful - we stop at 20 for now!)</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Which One Doesn't Belong?</strong></p>
+                <p><strong>Part D: Number Line Jump</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Circle the item that doesn't belong in each group:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Tree, Flower, Car, Rock (which is man-made?)</div>
-                        <div>House, Road, Cloud, Bridge (which is natural?)</div>
-                    </div>
+                    <span class="task-number">4</span> Draw a number line from 1 to 20. Then show a jump from 7 to 15:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> If you start at 10 and count to 18, how many numbers do you say? (Hint: 10,11,12,13,14,15,16,17,18)
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find something natural and something man-made in your bedroom. Tell a family member how they are different.",
+        homework: "Practice counting with a family member. Start at different numbers (like 3, 7, 10, 14) and count to 20. Write down three starting numbers you practiced.",
         homeworkDue: "Friday"
-    },
-    
-    friday: {
-        subject: "Mathematics & Science",
-        topic: "Math in Nature (Counting & Ordering)",
-        subtopic: "Counting features of the environment and arranging numbers in descending order",
-        lessonContent: `
-            <p>Today is our Math & Nature day! We'll use natural objects to practice counting and ordering numbers.</p>
-            <p><strong>Key Concept:</strong> We can find math everywhere in nature! We can count, compare, and order natural objects.</p>
-            <p><strong>Counting Groups:</strong> We will count groups of natural objects like pebbles, leaves, and sticks.</p>
-            <p><strong>Most vs. Least:</strong> The group with the largest number has the "most." The group with the smallest number has the "least."</p>
-            <p><strong>Ordering Numbers:</strong> We can arrange groups from largest to smallest (descending order).</p>
-            <p><strong>Today's Activity:</strong> Each student gets a collection of natural objects. We'll count them together, then arrange our collections from largest to smallest!</p>
-            <p><strong>Math Words:</strong></p>
-            <ul>
-                <li>Count: Say numbers in order (1, 2, 3...)</li>
-                <li>Most: The biggest amount</li>
-                <li>Least: The smallest amount</li>
-                <li>Order: Arrange from largest to smallest or smallest to largest</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-pebble" style="color: #795548;"></i> Pebble Counting</div>
-                <p>If you have 8 pebbles, that's more than 5 leaves. The pebbles group has the "most."</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Leaf Ordering</div>
-                <p>Groups: 8 pebbles, 5 leaves, 3 sticks. From largest to smallest: pebbles (8), leaves (5), sticks (3).</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-sort-amount-down"></i> Nature Math Game!</div>
-                <p>We'll work in small groups. Each group counts their objects, then lines up from the group with most to the group with least!</p>
-            </div>
-        `,
-        taskInstructions: "Count your natural objects and complete the math activities.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Count Your Collection</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Count each type of object in your collection. Write the number:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Pebbles: <span class="answer-space" style="width: 60px;"></span></div>
-                        <div>Leaves: <span class="answer-space" style="width: 60px;"></span></div>
-                        <div>Sticks: <span class="answer-space" style="width: 60px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Most and Least</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Look at your numbers above. Answer:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Which group has the MOST? <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Which group has the LEAST? <span class="answer-space" style="width: 100px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Ordering Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Arrange these groups from largest to smallest (write 1, 2, 3):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Group A: 7 pinecones → Order: <span class="answer-space" style="width: 40px;"></span></div>
-                        <div>Group B: 3 acorns → Order: <span class="answer-space" style="width: 40px;"></span></div>
-                        <div>Group C: 5 shells → Order: <span class="answer-space" style="width: 40px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Nature Number Line</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw your objects in order from least to most:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Least: <div class="drawing-area" style="height: 60px; width: 100px; display: inline-block;"></div></div>
-                        <div>Middle: <div class="drawing-area" style="height: 60px; width: 100px; display: inline-block;"></div></div>
-                        <div>Most: <div class="drawing-area" style="height: 60px; width: 100px; display: inline-block;"></div></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Real-World Math</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Look around the classroom. Find and count:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Number of windows: <span class="answer-space" style="width: 60px;"></span></div>
-                        <div>Number of doors: <span class="answer-space" style="width: 60px;"></span></div>
-                        <div>Which has more? <span class="answer-space" style="width: 100px;"></span></div>
-                    </div>
-                </div>
-            </div>
-        `,
-        homework: "Collect 10 small natural objects (pebbles, leaves, etc.). Count them. Arrange them from smallest to largest size.",
-        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1MathSciWeek4);
-    console.log("mathsci-week4-environments.js registered using registerWorksheet()");
+    window.registerWorksheet(grade1MathScienceWeek4);
+    console.log("grade1-math-science-week4.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1MathSciWeek4);
-    console.log("mathsci-week4-environments.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade1MathScienceWeek4);
+    console.log("grade1-math-science-week4.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1MathSciWeek4',
-        metadata: grade1MathSciWeek4.metadata,
-        days: grade1MathSciWeek4
+        variableName: 'grade1MathScienceWeek4',
+        metadata: grade1MathScienceWeek4.metadata,
+        days: grade1MathScienceWeek4
     });
-    console.log("mathsci-week4-environments.js stored in window.registeredWorksheets");
+    console.log("grade1-math-science-week4.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1MathSciWeek4 = grade1MathSciWeek4;
-console.log("mathsci-week4-environments.js loaded and registered successfully");
+window.grade1MathScienceWeek4 = grade1MathScienceWeek4;
+console.log("grade1-math-science-week4.js loaded and registered successfully");

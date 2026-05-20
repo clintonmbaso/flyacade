@@ -1,493 +1,446 @@
-// Grade 1 Mathematics & Science - Week 2 Data (Exploring Our World)
-const grade1MathScienceWeek2 = {
+// Grade 1 Mathematics & Science - Term 1 Week 2 Data
+const grade1MathsScienceWeek2 = {
     metadata: {
         grade: 1,
         subject: "Mathematics & Science",
+        term: 1,
         week: 2,
-        title: "Exploring Our World — Sorting, Counting, and Grouping",
-        description: "Learning to observe, sort, count, and group objects based on their physical characteristics"
+        title: "Grouping and Characteristics",
+        description: "Exploring objects, identifying characteristics, sorting by size/color/shape, describing groups, and one-to-one correspondence"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "The Great Environment Hunt",
-        subtopic: "Identifying objects based on physical attributes",
+        topic: "Exploring Objects",
+        subtopic: "Characteristics of Objects in the Local Environment",
         lessonContent: `
-            <p>Welcome to our exploration lesson! Today we will go on a treasure hunt to discover objects around us.</p>
-            <p><strong>Key Concept:</strong> Everything around us has special "traits" or characteristics that make it unique.</p>
-            <p><strong>What are physical attributes?</strong></p>
-            <ul>
-                <li>How something feels (rough, smooth, hard, soft)</li>
-                <li>What color it is</li>
-                <li>What shape it is</li>
-                <li>How heavy or light it feels</li>
-            </ul>
-            <p><strong>Our Mission:</strong> We will collect five different objects from our environment and describe them using our senses!</p>
-            <p><strong>Why is this important?</strong> Scientists and mathematicians observe the world carefully to understand how things work and belong together.</p>
+            <p>Welcome to our exciting week of discovery! Today we'll explore different objects around us and learn to describe them.</p>
+            <p><strong>Key Question:</strong> How can we describe the things we see around us?</p>
+            <p><strong>What are Characteristics?</strong></p>
+            <p>Characteristics are special ways to describe an object. When we look at an object, we can notice many things about it!</p>
+            <p><strong>Ways to Describe Objects:</strong></p>
+            <ol>
+                <li><strong>Color:</strong> What color is it? (red, blue, yellow, green, etc.)</li>
+                <li><strong>Size:</strong> Is it big or small?</li>
+                <li><strong>Shape:</strong> Is it round, square, or triangle-shaped?</li>
+                <li><strong>Texture:</strong> Is it smooth, rough, soft, or hard?</li>
+                <li><strong>Material:</strong> Is it made of wood, plastic, metal, or fabric?</li>
+            </ol>
+            <p><strong>Let's Practice Observing!</strong></p>
+            <p>Look around your classroom or home. Pick one object. What do you notice about it?</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Leaf Example</div>
-                <p>"This leaf is green, smooth on top, and has veins" - We can describe many traits about one object!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Example: An Apple</div>
+                <p>An apple is <strong>red or green</strong> (color), <strong>round</strong> (shape), <strong>smooth</strong> (texture), and <strong>small enough to hold</strong> (size).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-stone" style="color: #795548;"></i> Stone Example</div>
-                <p>"This stone is gray, hard, rough, and heavy for its size" - Objects have multiple characteristics!</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Example: A Desk</div>
+                <p>A desk is <strong>brown</strong> (color), <strong>rectangular</strong> (shape), <strong>hard and smooth</strong> (texture), and <strong>big</strong> (size). It is made of <strong>wood</strong> (material).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Treasure Hunt Game!</div>
-                <p>We're going on a classroom treasure hunt! Look for objects that match the clues: something rough, something green, something round!</p>
+                <div class="example-title"><i class="fas fa-tshirt"></i> Example: A T-shirt</div>
+                <p>A T-shirt is <strong>blue</strong> (color), <strong>soft</strong> (texture), and made of <strong>fabric</strong> (material).</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities during our environment hunt.",
+        taskInstructions: "Explore your environment, identify objects, and describe their characteristics.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Find and collect five different objects:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ One leaf (different from others)</div>
-                    <div>☐ One stone or pebble</div>
-                    <div>☐ One twig or small branch</div>
-                    <div>☐ One man-made object (like a bottle cap)</div>
-                    <div>☐ One mystery object of your choice!</div>
+            <div class="content-box">
+                <p><strong>Part A: Object Hunt</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Find 3 objects in your classroom or home. Draw each object and describe it:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Object 1:</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px; font-size: 12px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Object 2:</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px; font-size: 12px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Object 3:</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px; font-size: 12px;"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Describe one object to your partner using three words:
-                <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">My object is: ________, ________, and ________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Describe This Object</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Look at the picture below. Write 3 words to describe it:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f0f8ff; text-align: center;">
+                        <span style="font-size: 48px;">⚽</span>
+                        <p><em>(A soccer ball)</em></p>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Draw your favorite collected item:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Circle the words that describe your objects:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Hard ☐ Soft ☐ Rough ☐ Smooth</div>
-                    <div>☐ Green ☐ Brown ☐ Round ☐ Pointy</div>
-                    <div>☐ Heavy ☐ Light ☐ Big ☐ Small</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: My Favorite Object</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw your favorite toy or object. Write 2 things that describe it:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three objects at home and describe them to your family using words like hard, soft, rough, or smooth.",
+        homework: "Find 3 objects at home. Tell a family member one characteristic (color, size, or shape) for each object.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Sorting by Color and Shape",
-        subtopic: "Organizing objects based on visual characteristics",
+        topic: "Sorting and Grouping",
+        subtopic: "Collecting and Sorting Objects by Size, Color, and Shape",
         lessonContent: `
-            <p>Today we will learn how to organize our collected treasures by their color and shape!</p>
-            <p><strong>Key Concept:</strong> Sorting helps us find things easily and understand how objects are similar.</p>
-            <p><strong>What is sorting?</strong></p>
-            <ul>
-                <li>Putting things that are alike together</li>
-                <li>Creating groups based on rules</li>
-                <li>Making messy piles organized</li>
-            </ul>
-            <p><strong>Sorting by Color:</strong> All red things together, all green things together, all brown things together.</p>
-            <p><strong>Sorting by Shape:</strong> All round things together, all straight things together, all pointy things together.</p>
-            <p><strong>Let's Count:</strong> After sorting, we can count how many are in each group (from 1 to 6).</p>
+            <p>Today we'll learn how to sort and group objects! Sorting means putting things together that are the same in some way.</p>
+            <p><strong>Key Question:</strong> How can we put objects into groups?</p>
+            <p><strong>Ways to Sort Objects:</strong></p>
+            <ol>
+                <li><strong>Sort by Color:</strong> Put all red objects together, all blue objects together, etc.</li>
+                <li><strong>Sort by Size:</strong> Put all big objects together and all small objects together</li>
+                <li><strong>Sort by Shape:</strong> Put all round objects together, all square objects together, etc.</li>
+            </ol>
+            <p><strong>What is a Group (Set)?</strong></p>
+            <p>A group is a collection of things that share something in common. For example: "all the red blocks" is a group.</p>
+            <p><strong>Let's Practice Sorting!</strong></p>
+            <p>If you have buttons of different colors, you can put all the red buttons in one pile and all the blue buttons in another pile. That's sorting!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-redo" style="color: #f44336;"></i> Red Station</div>
-                <p>"All red objects go here" - This station collects leaves, crayons, blocks, or any red items!</p>
+                <div class="example-title"><i class="fas fa-crayon"></i> Sorting by Color</div>
+                <p>Crayons: Put all red crayons together, all blue crayons together, all yellow crayons together. Now you have groups by color!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-circle" style="color: #2196F3;"></i> Circular Station</div>
-                <p>"All round objects go here" - This station collects bottle caps, round stones, buttons, or coins!</p>
+                <div class="example-title"><i class="fas fa-ball"></i> Sorting by Size</div>
+                <p>Balls: Put all the big balls in one basket and all the small balls in another basket. You sorted by size!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sorting Race Game!</div>
-                <p>We'll have color and shape stations around the room. When I say "Sort!" take your objects to the right station as fast as you can!</p>
+                <div class="example-title"><i class="fas fa-shapes"></i> Sorting by Shape</div>
+                <p>Shape blocks: Put all circles together, all squares together, and all triangles together. Now you have groups by shape!</p>
             </div>
         `,
-        taskInstructions: "Sort your collected objects and complete these activities.",
+        taskInstructions: "Sort objects by color, size, and shape using drawings and real objects.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Color Sorting</strong></p>
+                <p><strong>Part A: Sort by Color</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort your objects by color. Draw what you put in each group:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; border-right: 1px solid #ccc;">
-                            <div style="text-align: center; font-weight: bold; color: #f44336;">Red/Brown Group</div>
-                            <div class="drawing-area" style="height: 100px;"></div>
-                            <div style="text-align: center; margin-top: 5px;">Count: ____ items</div>
+                    <span class="task-number">1</span> Color the objects that are the same color in each group:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Red Group:</strong> 🍎 ❤️ 🚗 (color these red)</div>
+                        <div><strong>Blue Group:</strong> 💙 🌊 🚙 (color these blue)</div>
+                        <div><strong>Yellow Group:</strong> 🌞 🍌 ⭐ (color these yellow)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sort by Size</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw 2 big things and 2 small things in the boxes below:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Big Objects</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
                         </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold; color: #4CAF50;">Green Group</div>
-                            <div class="drawing-area" style="height: 100px;"></div>
-                            <div style="text-align: center; margin-top: 5px;">Count: ____ items</div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Small Objects</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Shape Sorting</strong></p>
+                <p><strong>Part C: Sort by Shape</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Now sort by shape. Circle which group has more:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Round objects: ____ items</div>
-                        <div>Straight objects: ____ items</div>
-                        <div>Which has more? ☐ Round ☐ Straight</div>
+                    <span class="task-number">3</span> Draw a circle, a square, and a triangle. Then draw 2 more things that have each shape:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Circle</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Square</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Triangle</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Counting Practice</strong></p>
+                <p><strong>Part D: Sort Your Own Objects</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Count your largest group. Write the number and draw that many circles:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My largest group has ____ items:</div>
-                        <div class="drawing-area" style="height: 80px; margin-top: 10px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Clean-up Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Help clean up by sorting classroom items:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Put all blue crayons in the blue box</div>
-                        <div>Put all square blocks in the square basket</div>
-                        <div>Draw a happy face when finished: <span class="drawing-area" style="width: 50px; height: 50px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> Find 6 small objects at home (buttons, coins, toys). Sort them in two different ways. Draw or write what you did:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Sort your toys at home by color. Count how many are in each color group.",
+        homework: "Collect 5 small objects from home. Sort them by color. Then sort them again by size. Tell your family which way you sorted.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Size and Scale Sets",
-        subtopic: "Grouping objects by size and counting larger sets",
+        topic: "Describing Groups",
+        subtopic: "Describing Groups (Sets) Using Simple Attributes",
         lessonContent: `
-            <p>Today we will learn about size: Small, Medium, and Large! We'll also practice counting bigger groups.</p>
-            <p><strong>Key Concept:</strong> Objects can be sorted by their size, not just their color or shape.</p>
-            <p><strong>Size Vocabulary:</strong></p>
-            <ul>
-                <li><strong>Small:</strong> Tiny, little, fits in one hand</li>
-                <li><strong>Medium:</strong> Middle-sized, not too big or small</li>
-                <li><strong>Large:</strong> Big, giant, needs two hands to hold</li>
-            </ul>
-            <p><strong>Counting Practice:</strong> Today we'll count groups up to 12! That's more than our fingers!</p>
-            <p><strong>Think About It:</strong> Why would a giant leaf and a tiny pebble be in different groups even if they're both from the garden?</p>
-            <p><strong>Answer:</strong> Because size matters when we're organizing things for different purposes!</p>
+            <p>Today we'll learn how to describe groups of objects. When we put things together that are the same, we call that a group or a set.</p>
+            <p><strong>Key Question:</strong> How can we describe a group of objects?</p>
+            <p><strong>What is a Group (Set)?</strong></p>
+            <p>A group is a collection of objects that share something in common. We can describe a group by telling what makes all the objects the same.</p>
+            <p><strong>Ways to Describe a Group:</strong></p>
+            <ol>
+                <li><strong>By color:</strong> "This group has all red objects"</li>
+                <li><strong>By size:</strong> "This group has all big objects"</li>
+                <li><strong>By shape:</strong> "This group has all round objects"</li>
+                <li><strong>By what they do:</strong> "This group has all things we wear"</li>
+                <li><strong>By what they are made of:</strong> "This group has all wooden things"</li>
+            </ol>
+            <p><strong>Describing Groups in Sentences:</strong></p>
+            <p>When we describe a group, we can say: "All of these are ______." or "This group has ______."</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-expand-alt" style="color: #FF9800;"></i> Small, Medium, Large</div>
-                <p>Three balls: a marble (small), a tennis ball (medium), a basketball (large) - all balls, different sizes!</p>
+                <div class="example-title"><i class="fas fa-palette"></i> Describing by Color</div>
+                <p>Group: 🍎 ❤️ 🚗 (apple, heart, car)<br>
+                <strong>Description:</strong> "All of these are red." OR "This group has red things."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale" style="color: #795548;"></i> Garden Objects</div>
-                <p>A giant leaf (large) and a tiny pebble (small) would go in different size groups even from the same place.</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Describing by Type</div>
+                <p>Group: 🐶 🐱 🐭 (dog, cat, mouse)<br>
+                <strong>Description:</strong> "All of these are animals."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Size Sort Relay!</div>
-                <p>We'll have three hoops: Small, Medium, Large. Run to get an object and put it in the right hoop!</p>
+                <div class="example-title"><i class="fas fa-fruit"></i> Describing by Category</div>
+                <p>Group: 🍎 🍌 🍊 (apple, banana, orange)<br>
+                <strong>Description:</strong> "All of these are fruits."</p>
             </div>
         `,
-        taskInstructions: "Sort objects by size and practice counting larger sets.",
+        taskInstructions: "Look at groups of objects and describe what makes them the same.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Size Sorting Station</strong></p>
+                <p><strong>Part A: What Makes These the Same?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Take classroom objects and sort them into three piles:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div style="font-weight: bold;">Small</div>
-                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
-                            <div>Count: ____</div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div style="font-weight: bold;">Medium</div>
-                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
-                            <div>Count: ____</div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div style="font-weight: bold;">Large</div>
-                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
-                            <div>Count: ____</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Counting Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Count your "Small" pile. Write the number and count out loud with the class:
+                    <span class="task-number">1</span> Look at each group. Write what is the same about all objects in the group:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My Small pile has ____ items.</div>
-                        <div>Let's count together: 1, 2, 3, ...</div>
-                        <div class="answer-space" style="height: 30px; width: 200px; margin-top: 10px;">Write the numbers up to your total:</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Size Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw three leaves: one small, one medium, one large:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; text-align: center;">
-                            <div>Small</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 1:</strong> 🚗 🚙 🚲 (car, van, bicycle)<br>
+                            <span style="font-size: 14px;">What is the same? <u>They are all vehicles.</u> (example)</span>
                         </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div>Medium</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 2:</strong> 👕 👖 🧦 (shirt, pants, socks)<br>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
                         </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div>Large</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 3:</strong> ⚽ 🏀 🎾 (soccer ball, basketball, tennis ball)<br>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 4:</strong> 📘 📙 📕 (books of different colors)<br>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Which Has More?</strong></p>
+                <p><strong>Part B: Draw a Group</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Compare your piles. Circle which has the most:
+                    <span class="task-number">2</span> Draw a group of 3 things that are the same in some way. Write what makes them a group:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Which One Doesn't Belong?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> In each group, circle the object that does NOT belong. Explain why:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Small pile (____ items)</div>
-                        <div>☐ Medium pile (____ items)</div>
-                        <div>☐ Large pile (____ items)</div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group A:</strong> 🍎 🍊 🥕 🍌 (apple, orange, carrot, banana)<br>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group B:</strong> 🐱 🐶 🐟 ✏️ (cat, dog, fish, pencil)<br>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group C:</strong> 🔴 🔵 🟢 🟨 (red circle, blue circle, green circle, yellow square)<br>
+                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Name the Group</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Give each group a name:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Group: 👨‍👩‍👧‍👦 (mom, dad, brother, sister) → Name: <u>Family</u> (example)</div>
+                        <div style="margin-top: 10px;">Group: 🎨 ✏️ 📏 ✂️ (crayon, pencil, ruler, scissors) → Name: _________</div>
+                        <div style="margin-top: 10px;">Group: 🍽️ 🥄 🔪 🍴 (plate, spoon, knife, fork) → Name: _________</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find three objects at home of different sizes (small, medium, large). Line them up from smallest to largest.",
+        homework: "Draw 3 things that are all toys. Write one sentence describing your group.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Describing and Naming Sets",
-        subtopic: "Understanding groups and collections",
+        topic: "Matching and Counting",
+        subtopic: "Matching Groups into One-to-One Correspondence (Intervals 1 to 6)",
         lessonContent: `
-            <p>Today we will learn about "sets" - groups of things that belong together for a reason!</p>
-            <p><strong>Key Concept:</strong> A set is a collection of things that belong together.</p>
-            <p><strong>What makes a set?</strong></p>
-            <ul>
-                <li>Objects that are alike in some way</li>
-                <li>Things that go together for a purpose</li>
-                <li>Items that follow a rule</li>
-            </ul>
-            <p><strong>Examples of Sets:</strong></p>
-            <ul>
-                <li>A set of crayons (all for coloring)</li>
-                <li>A set of spoons (all for eating)</li>
-                <li>A set of cars (all vehicles)</li>
-            </ul>
-            <p><strong>Naming Sets:</strong> We can name a set by what the items have in common: "This is a set of things we use for art."</p>
-            <p><strong>Counting Sets:</strong> Today we'll practice counting sets up to 20 items!</p>
+            <p>Today we'll learn how to match objects from one group to another! This is called one-to-one correspondence.</p>
+            <p><strong>Key Question:</strong> How can we tell if two groups have the same number of things?</p>
+            <p><strong>What is One-to-One Correspondence?</strong></p>
+            <p>One-to-one correspondence means matching each object in one group with exactly one object in another group.</p>
+            <p><strong>Let's Understand with an Example:</strong></p>
+            <p>If you have 3 plates and 3 cups, you can put one cup on each plate. That's a perfect match! Both groups have 3 things.</p>
+            <p><strong>What if they don't match?</strong></p>
+            <p>If you have 4 spoons but only 3 bowls, one spoon will be left over. That means the groups are not the same size.</p>
+            <p><strong>Numbers 1 to 6:</strong></p>
+            <p>Today we will work with numbers 1, 2, 3, 4, 5, and 6.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-car" style="color: #2196F3;"></i> Set of Cars</div>
-                <p>"This is a set of cars" - All these toys are vehicles that drive on roads.</p>
+                <div class="example-title"><i class="fas fa-egg"></i> Eggs in an Egg Carton</div>
+                <p>An egg carton has 6 spaces. If you have 6 eggs, you can put one egg in each space. That's one-to-one correspondence!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #FF9800;"></i> Set of Eating Tools</div>
-                <p>"This is a set of tools for eating" - Spoons, forks, and knives all help us eat food.</p>
+                <div class="example-title"><i class="fas fa-child"></i> Children and Chairs</div>
+                <p>If there are 5 children and 5 chairs, each child gets one chair. If there are 5 children but only 3 chairs, 2 children will be standing.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Mystery Bag Game!</div>
-                <p>Reach into mystery bags and guess what set is inside! Is it a set of writing tools? A set of building blocks?</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Fingers and Gloves</div>
+                <p>Your hand has 5 fingers. A glove has 5 finger holes. Each finger matches one hole. That's one-to-one correspondence!</p>
             </div>
         `,
-        taskInstructions: "Explore different sets and practice describing them.",
+        taskInstructions: "Match objects from two groups using lines and drawings. Count and compare numbers 1 to 6.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Mystery Bag Exploration</strong></p>
+                <p><strong>Part A: Draw Lines to Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Reach into a mystery bag. What set is inside?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw what you find:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>This is a set of: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Count how many: <span class="answer-space" style="width: 50px;"></span> items</div>
+                    <span class="task-number">1</span> Draw a line from each plate to one cup. How many plates? How many cups?
+                    <div style="margin-left: 20px; margin-top: 10px; text-align: center;">
+                        <div style="display: flex; justify-content: center; gap: 40px;">
+                            <div>
+                                <strong>Plates</strong><br>
+                                🍽️ 🍽️ 🍽️
+                            </div>
+                            <div>
+                                <strong>Cups</strong><br>
+                                🥤 🥤 🥤
+                            </div>
+                        </div>
+                        <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Create Your Own Set</strong></p>
+                <p><strong>Part B: Match and Compare</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Create a "Set of 15 Blue Items" using classroom materials:
+                    <span class="task-number">2</span> Draw lines to match. Circle "yes" or "no" for each pair:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Gather 15 blue things. Draw them:</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div>I found ____ blue blocks, ____ blue crayons, and ____ other blue things.</div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 1:</strong> 🐶 🐶 🐶 &nbsp;&nbsp;&nbsp; <strong>Group 2:</strong> 🦴 🦴 🦴<br>
+                            Do they match? YES / NO
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 1:</strong> 🐱 🐱 🐱 🐱 &nbsp;&nbsp;&nbsp; <strong>Group 2:</strong> 🥛 🥛 🥛<br>
+                            Do they match? YES / NO
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Group 1:</strong> 🎈 🎈 🎈 🎈 🎈 &nbsp;&nbsp;&nbsp; <strong>Group 2:</strong> 🎈 🎈 🎈 🎈 🎈<br>
+                            Do they match? YES / NO
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Set Sorting Challenge</strong></p>
+                <p><strong>Part C: Draw to Make Them Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Sort these mixed items into two different sets:
+                    <span class="task-number">3</span> Draw more objects so both groups have the same number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Pictures: apple, banana, carrot, truck, bus, airplane</div>
-                        <div>Set 1 (Food): ________________________________</div>
-                        <div>Set 2 (Vehicles): _____________________________</div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Birds:</strong> 🐦 🐦 &nbsp;&nbsp;&nbsp; <strong>Nests:</strong> 🪹 🪹 🪹<br>
+                            Draw ___ more bird(s) to match.
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong>Cookies:</strong> 🍪 🍪 🍪 🍪 &nbsp;&nbsp;&nbsp; <strong>Children:</strong> 👧 👧<br>
+                            Draw ___ more child(ren) to match.
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Counting to 20</strong></p>
+                <p><strong>Part D: One-to-One Correspondence Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Practice counting up to 20 with beads or counters:
+                    <span class="task-number">4</span> Draw 4 fish. Draw 4 fishbowls. Draw lines to match each fish to one bowl:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Count the objects. Write the number:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Make a set of 20 beads. Count them out loud.</div>
-                        <div>Write the numbers from 1 to 20:</div>
-                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>How many fingers on one hand? ___</div>
+                        <div>How many wheels on a tricycle? ___</div>
+                        <div>How many legs on a dog? ___</div>
+                        <div>How many eyes on a face? ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Home Set Discovery</strong></p>
+                <p><strong>Part E: Create Your Own Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Think about home. What sets do you have there?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a set from your home:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>At home, we have a set of <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
+                    <span class="task-number">6</span> Draw 5 keys and 5 locks. Draw lines to match them. Then write how many keys and how many locks:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three different sets in your home (like a set of plates, a set of books, a set of shoes). Tell a family member about them.",
-        homeworkDue: "Friday"
-    },
-    
-    friday: {
-        subject: "Mathematics & Science",
-        topic: "Matching and Numbers",
-        subtopic: "One-to-one correspondence and number concepts 0-10",
-        lessonContent: `
-            <p>Today is our math celebration! We'll learn about matching sets and the numbers from 0 to 10.</p>
-            <p><strong>Key Concept 1:</strong> One-to-one matching helps us see if two groups have the same amount.</p>
-            <p><strong>What is one-to-one correspondence?</strong></p>
-            <ul>
-                <li>Matching one object to one other object</li>
-                <li>Making sure everyone has a chair</li>
-                <li>Putting one bear on each plate</li>
-            </ul>
-            <p><strong>Key Concept 2:</strong> Numbers help us describe sets - even the number ZERO for empty sets!</p>
-            <p><strong>Special Number:</strong> ZERO means "nothing" or "empty." An empty box has zero items inside.</p>
-            <p><strong>Number Range:</strong> Today we'll focus on numbers 0 through 10 - our first important number group!</p>
-            <p><strong>Celebration:</strong> We've learned to observe, sort, describe, and now count our world!</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-chair" style="color: #795548;"></i> Chair Matching</div>
-                <p>"Does every student have a chair?" We match one student to one chair to find out!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-box-open" style="color: #9E9E9E;"></i> The Empty Box</div>
-                <p>"How many things are in this empty box? Zero!" Zero is our number for nothing.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Number Container Game!</div>
-                <p>We'll have containers labeled 0-10. You must put the right number of beans in each container!</p>
-            </div>
-        `,
-        taskInstructions: "Practice matching sets and working with numbers 0-10.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Bear and Plate Matching</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Match 10 bears to 10 plates. Draw your matching:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw 10 plates with bears:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Every plate has ____ bear. Every bear has ____ plate.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Unequal Sets</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Now try 6 plates and 4 bears. What's missing?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Plates: ____ Bears: ____</div>
-                        <div>Which set needs more? ☐ Plates ☐ Bears</div>
-                        <div>How many more bears do we need? ____</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Number Containers 0-10</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Put the correct number of beans in each container:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Container 0: ____ beans (draw an empty container)</div>
-                        <div>Container 5: ____ beans (draw 5 beans)</div>
-                        <div>Container 10: ____ beans (draw 10 beans)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Number Writing Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Trace and write numbers 0 through 10:
-                    <div style="margin-left: 20px; margin-top: 10px; font-size: 24px;">
-                        <div style="border-bottom: 1px solid #ccc; padding-bottom: 5px;">0 1 2 3 4</div>
-                        <div style="border-bottom: 1px solid #ccc; padding: 10px 0;">5 6 7 8 9 10</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Math Explorer Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a math explorer. Write what you learned:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This week I learned to ________________</div>
-                </div>
-            </div>
-        `,
-        homework: "Teach someone at home about zero. Find an empty container and say 'This has zero things inside!' Also practice counting objects up to 10.",
+        homework: "Find 6 cups and 6 spoons at home. Match one spoon to each cup. Count them. Then find 4 plates and 5 forks. What happens when you try to match them?",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1MathScienceWeek2);
-    console.log("math-science-week2-exploring.js registered using registerWorksheet()");
+    window.registerWorksheet(grade1MathsScienceWeek2);
+    console.log("grade1-maths-science-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1MathScienceWeek2);
-    console.log("math-science-week2-exploring.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade1MathsScienceWeek2);
+    console.log("grade1-maths-science-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1MathScienceWeek2',
-        metadata: grade1MathScienceWeek2.metadata,
-        days: grade1MathScienceWeek2
+        variableName: 'grade1MathsScienceWeek2',
+        metadata: grade1MathsScienceWeek2.metadata,
+        days: grade1MathsScienceWeek2
     });
-    console.log("math-science-week2-exploring.js stored in window.registeredWorksheets");
+    console.log("grade1-maths-science-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1MathScienceWeek2 = grade1MathScienceWeek2;
-console.log("math-science-week2-exploring.js loaded and registered successfully");
+window.grade1MathsScienceWeek2 = grade1MathsScienceWeek2;
+console.log("grade1-maths-science-week2.js loaded and registered successfully");

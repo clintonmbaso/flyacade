@@ -1,406 +1,456 @@
-// Grade 1 Mathematics & Science - Week 7 Data (Exploring Our Body)
+// Grade 1 Mathematics & Science - Term 1 Week 7 Data
 const grade1MathScienceWeek7 = {
     metadata: {
         grade: 1,
         subject: "Mathematics & Science",
+        term: 1,
         week: 7,
-        title: "Exploring Our External Body — Parts, Functions, and Measurement",
-        description: "Learning to identify body parts, understand their functions, and measure using non-standard units"
+        title: "Plants and Animals",
+        description: "Identifying common plants, classifying flowering/non-flowering plants, exploring animal habitats, and grouping vertebrates vs invertebrates"
     },
     
     monday: {
-        subject: "Science",
-        topic: "Meeting My Body",
-        subtopic: "Identifying and naming external body parts",
+        subject: "Mathematics & Science",
+        topic: "Plants",
+        subtopic: "Identifying Common Plants in Our Environment",
         lessonContent: `
-            <p>Welcome to our body exploration week! Today we will meet and learn about our amazing body parts.</p>
-            <p><strong>Key Concept:</strong> Our body has many different parts on the outside that we can see and touch.</p>
-            <p><strong>What are external body parts?</strong></p>
+            <p>Welcome to our exploration of plants! Today we'll learn about the different plants that grow all around us.</p>
+            <p><strong>Key Question:</strong> What plants do you see every day?</p>
+            <p><strong>Introduction:</strong> Plants are living things that grow in the ground. They need water, sunlight, and air to live. There are many different kinds of plants in our environment!</p>
+            <p><strong>Three Types of Plants We See Every Day:</strong></p>
+            <ol>
+                <li><strong>Weeds:</strong> Plants that grow wild where we don't want them (like dandelions, grass in cracks)</li>
+                <li><strong>Crops:</strong> Plants that farmers grow for food (like corn, wheat, rice, vegetables)</li>
+                <li><strong>Flowers:</strong> Plants grown for their beautiful colors and smells (like roses, sunflowers, daisies)</li>
+            </ol>
+            <p><strong>What do plants need to grow?</strong></p>
             <ul>
-                <li>Parts we can see without looking inside</li>
-                <li>Parts we can touch and feel</li>
-                <li>Parts that help us do different things</li>
+                <li>Water - to drink</li>
+                <li>Sunlight - for energy</li>
+                <li>Soil - for nutrients and support</li>
+                <li>Air - to breathe</li>
             </ul>
-            <p><strong>Our Mission:</strong> We will learn the names of 11 important body parts and play a fun game to remember them!</p>
-            <p><strong>Why is this important?</strong> Knowing our body parts helps us take care of ourselves and communicate when something hurts or feels good.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user" style="color: #4CAF50;"></i> Head and Shoulders</div>
-                <p>"This is my head" - The top part of my body where my brain, eyes, nose, mouth, and ears are!</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Plants Around Us</div>
+                <p>Look outside your window! You might see grass (a weed if you don't want it there!), a tomato plant (a crop that gives food), or a marigold (a flower that looks pretty).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-point-up" style="color: #795548;"></i> Arms and Hands</div>
-                <p>"These are my arms" - The long parts that connect to my hands for hugging, holding, and waving!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Food from Plants</div>
+                <p>Many crops give us food. Carrots grow under the ground, apples grow on trees, and lettuce grows close to the soil.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Simon Says Game!</div>
-                <p>We're going to play "Simon Says" with body parts! Simon says touch your head! Simon says point to your knees!</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Plant Needs</div>
+                <p>If a plant doesn't get water, it wilts and turns brown. If it doesn't get sunlight, it grows weak and yellow. Plants need our help to grow strong!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to learn about your body parts.",
+        taskInstructions: "Draw plants from your environment and answer questions about what plants need.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Label the body parts on the drawing:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Draw a simple body and label these parts:</div>
-                    <div class="drawing-area" style="height: 200px; border: 1px dashed #ccc;"></div>
-                    <div style="margin-top: 10px;">
-                        ☐ Head ☐ Neck ☐ Chest ☐ Abdomen<br>
-                        ☐ Arms ☐ Hands ☐ Legs ☐ Knees<br>
-                        ☐ Eyes ☐ Nose ☐ Mouth ☐ Ears
+            <div class="content-box">
+                <p><strong>Part A: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw a weed, a crop, and a flower that you see in your environment:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Weed</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Crop</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Flower</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Play "Simon Says" with a partner:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Take turns being Simon. Use these body parts:</div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I touched my ________ when Simon said to!</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Point to body parts when named:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>When your teacher says "eyes", point to your eyes!</div>
-                    <div>Check off each one you point to correctly:</div>
-                    <div style="margin-top: 10px;">
-                        ☐ Head ☐ Neck ☐ Chest ☐ Arms<br>
-                        ☐ Knees ☐ Abdomen ☐ Legs ☐ Eyes<br>
-                        ☐ Nose ☐ Mouth ☐ Ears
+            
+            <div class="content-box">
+                <p><strong>Part B: What Do Plants Need?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Circle the things that plants need to grow:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>🌊 Water &nbsp;&nbsp;&nbsp; ☀️ Sunlight &nbsp;&nbsp;&nbsp; 📚 Books &nbsp;&nbsp;&nbsp; 🍕 Pizza</div>
+                        <div>🌱 Soil &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🎵 Music &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💨 Air &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🧸 Toys</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw your favorite body part and color it:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 30px; margin-top: 10px;">My favorite body part is: ________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Circle the Plant</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Circle the pictures that show plants:
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px; flex-wrap: wrap;">
+                        <div>🌳 Tree</div>
+                        <div>🐕 Dog</div>
+                        <div>🌻 Sunflower</div>
+                        <div>🚗 Car</div>
+                        <div>🍎 Apple</div>
+                        <div>🪨 Rock</div>
+                    </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw a Plant's Needs</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a plant and show what it needs to grow (sun, water, soil):
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
             </div>
         `,
-        homework: "Teach a family member three body parts they might not know (like abdomen or chest). Point to them on your body.",
+        homework: "Look for three different plants in your yard or on your way to school. Draw them and tell if each is a weed, crop, or flower.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Science",
-        topic: "What Do They Do?",
-        subtopic: "Relating body parts to their specific functions",
+        subject: "Mathematics & Science",
+        topic: "Plants",
+        subtopic: "Flowering and Non-Flowering Plants",
         lessonContent: `
-            <p>Today we will learn what our amazing body parts can do! Every part has a special job.</p>
-            <p><strong>Key Concept:</strong> Different body parts help us do different things in our daily lives.</p>
-            <p><strong>What are functions?</strong></p>
+            <p>Today we'll learn how to sort plants into two groups: those that make flowers and those that don't!</p>
+            <p><strong>Key Question:</strong> Do all plants have flowers?</p>
+            <p><strong>Introduction:</strong> Some plants grow beautiful flowers. Other plants never grow flowers at all! Let's learn the difference.</p>
+            <p><strong>Flowering Plants:</strong></p>
             <ul>
-                <li>The special job a body part does</li>
-                <li>How it helps us live and play</li>
-                <li>The action it makes possible</li>
+                <li>Plants that grow flowers</li>
+                <li>Flowers turn into fruits and seeds</li>
+                <li>Examples: roses, sunflowers, apple trees, tomato plants, grasses</li>
             </ul>
-            <p><strong>Legs:</strong> Help us walk, run, jump, and stand!</p>
-            <p><strong>Eyes:</strong> Help us see colors, shapes, people, and read books!</p>
-            <p><strong>Hands:</strong> Help us hold, write, draw, eat, and give high-fives!</p>
-            <p><strong>Let's Act It Out:</strong> We'll use our whole bodies to show what different parts can do!</p>
+            <p><strong>Non-Flowering Plants:</strong></p>
+            <ul>
+                <li>Plants that never grow flowers</li>
+                <li>They make seeds in other ways or use spores</li>
+                <li>Examples: ferns, mosses, pine trees (make cones instead of flowers), mushrooms (fungi)</li>
+            </ul>
+            <p><strong>How can you tell?</strong></p>
+            <ul>
+                <li>Look for colorful petals = flowering plant</li>
+                <li>No flowers = non-flowering plant</li>
+                <li>Pine trees have cones, not flowers</li>
+                <li>Ferns have curly leaves but no flowers</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-walking" style="color: #2196F3;"></i> Legs in Action</div>
-                <p>"My legs help me walk to school" - Stand up and take 5 steps to show how legs work!</p>
+                <div class="example-title"><i class="fas fa-rose"></i> Flowers Everywhere!</div>
+                <p>An apple tree is a flowering plant. In spring, it has pretty white or pink flowers. Later, those flowers turn into apples!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #FF9800;"></i> Eyes Seeing</div>
-                <p>"My eyes help me see the board" - Look around and name 5 things you can see right now!</p>
+                <div class="example-title"><i class="fas fa-tree"></i> No Flowers Here</div>
+                <p>A pine tree never grows flowers. Instead, it grows cones. The cones hold the tree's seeds. That's why we call them conifers!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Mime Game!</div>
-                <p>We'll play a guessing game! One student acts out what a body part does, others guess which part!</p>
+                <div class="example-title"><i class="fas fa-water"></i> Ferns Are Special</div>
+                <p>Ferns are very old plants. They lived when dinosaurs were alive! Ferns don't grow flowers. They make tiny dust-like particles called spores.</p>
             </div>
         `,
-        taskInstructions: "Explore what different body parts can do through discussion and acting.",
+        taskInstructions: "Sort plants into flowering and non-flowering groups using a T-chart.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Body Part Actions</strong></p>
+                <p><strong>Part A: Flowering or Non-Flowering?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match the body part to its action:
+                    <span class="task-number">1</span> Cut and paste (or draw) plants in the correct column:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw a line from the body part to what it does:</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1;">
-                                <div>Legs</div>
-                                <div>Eyes</div>
-                                <div>Hands</div>
-                                <div>Mouth</div>
-                                <div>Ears</div>
-                            </div>
-                            <div style="flex: 1;">
-                                <div>Seeing</div>
-                                <div>Holding</div>
-                                <div>Walking</div>
-                                <div>Hearing</div>
-                                <div>Talking/Eating</div>
-                            </div>
-                        </div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Flowering Plants</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Non-Flowering Plants</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;">
+                                    🌻 Rose<br>
+                                    🌸 Tulip<br>
+                                    🍎 Apple tree<br>
+                                    🌽 Corn plant
+                                </td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;">
+                                    🌲 Pine tree<br>
+                                    🍄 Mushroom<br>
+                                    🌿 Fern<br>
+                                    Moss
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Acting Out Functions</strong></p>
+                <p><strong>Part B: Circle the Answer</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Act out what these body parts do:
+                    <span class="task-number">2</span> Circle "Yes" if the plant has flowers or "No" if it does not:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>With a partner, take turns acting out:</div>
-                        <div>☐ Walking with legs</div>
-                        <div>☐ Seeing with eyes (point to things you "see")</div>
-                        <div>☐ Holding a book with hands</div>
-                        <div>Draw yourself doing one action:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div>🌻 Sunflower &nbsp;&nbsp;&nbsp; Yes / No</div>
+                        <div>🌲 Pine tree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes / No</div>
+                        <div>🌿 Fern &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes / No</div>
+                        <div>🍎 Apple tree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes / No</div>
+                        <div>🌽 Corn plant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes / No</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Verbal Matching Game</strong></p>
+                <p><strong>Part C: Draw a Flowering Plant</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> When your teacher says an action, name the body part:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Action: "Walking" → Body part: ________</div>
-                        <div>Action: "Seeing" → Body part: ________</div>
-                        <div>Action: "Holding" → Body part: ________</div>
-                        <div>Action: "Listening" → Body part: ________</div>
-                        <div>Action: "Eating" → Body part: ________</div>
-                    </div>
+                    <span class="task-number">3</span> Draw a flowering plant and color its flowers:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Body Part Superpowers</strong></p>
+                <p><strong>Part D: Draw a Non-Flowering Plant</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> If you could give a body part a superpower, what would it be?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My ________ could ________</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Example: "My eyes could see through walls!"</div>
-                    </div>
+                    <span class="task-number">4</span> Draw a non-flowering plant (like a fern or pine tree):
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Show your family what different body parts do. Say 'Watch my legs walk!' or 'See my hands clap!'",
+        homework: "Find one flowering plant and one non-flowering plant in your neighborhood. Draw each one and show your family the difference.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
-        subject: "Mathematics",
-        topic: "Measuring with Me",
-        subtopic: "Introducing non-standard units using body parts",
+        subject: "Mathematics & Science",
+        topic: "Animals",
+        subtopic: "Identifying Animals and Their Habitats",
         lessonContent: `
-            <p>Today we become human rulers! We'll learn to measure using our own body parts.</p>
-            <p><strong>Key Concept:</strong> We can use our body parts as measuring tools before we learn about rulers.</p>
-            <p><strong>What are non-standard units?</strong></p>
+            <p>Today we'll explore the wonderful world of animals and discover where they live!</p>
+            <p><strong>Key Question:</strong> Where do different animals live and why?</p>
+            <p><strong>Introduction:</strong> Animals are living things that move, eat, and breathe. They live in different places called habitats. A habitat gives an animal food, water, shelter, and space to live.</p>
+            <p><strong>Common Animals and Their Habitats:</strong></p>
             <ul>
-                <li>Measuring with things that aren't rulers or tape measures</li>
-                <li>Using everyday objects like hands, feet, or arms</li>
-                <li>A fun way to understand length and size</li>
+                <li><strong>Bird:</strong> Lives in nests in trees or on buildings</li>
+                <li><strong>Fish:</strong> Lives in water (rivers, lakes, oceans)</li>
+                <li><strong>Dog:</strong> Lives with people (domestic/homes)</li>
+                <li><strong>Cat:</strong> Lives with people or in barns</li>
+                <li><strong>Cow:</strong> Lives on farms (grasslands)</li>
+                <li><strong>Rabbit:</strong> Lives in burrows underground</li>
+                <li><strong>Frog:</strong> Lives near water (ponds, streams)</li>
+                <li><strong>Insect:</strong> Lives in soil, trees, or grass</li>
             </ul>
-            <p><strong>Hand-span:</strong> The distance from the tip of your thumb to the tip of your pinky when your hand is spread wide.</p>
-            <p><strong>Foot-step:</strong> The length of your foot, or the distance from one step to the next.</p>
-            <p><strong>Let's Measure:</strong> We'll measure our desks, our books, and even parts of our classroom!</p>
-            <p><strong>Think About It:</strong> Why might my hand-span be different from my friend's hand-span?</p>
-            <p><strong>Answer:</strong> Because we're all unique sizes - and that's okay when we're measuring with our own bodies!</p>
+            <p><strong>What do all animals need?</strong></p>
+            <ul>
+                <li>Food to eat</li>
+                <li>Water to drink</li>
+                <li>Shelter to be safe</li>
+                <li>Space to move and grow</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-sparkles" style="color: #FF9800;"></i> Hand-Span Measuring</div>
-                <p>"This book is 3 hand-spans long" - Lay your hand along the book, moving it each time!</p>
+                <div class="example-title"><i class="fas fa-home"></i> Animal Homes</div>
+                <p>A bird builds a nest in a tree to keep its eggs safe. A fish lives in water because it breathes using gills. A rabbit digs a burrow to hide from predators!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shoe-prints" style="color: #795548;"></i> Foot-Step Measuring</div>
-                <p>"The rug is 8 foot-steps long" - Walk heel-to-toe along the rug and count your steps!</p>
+                <div class="example-title"><i class="fas fa-tractor"></i> Farm Animals</div>
+                <p>Cows, pigs, and chickens live on farms. People give them food, water, and shelter. These animals give us milk, meat, and eggs.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Measurement Hunt!</div>
-                <p>We'll hunt for objects that are exactly 2 hand-spans wide or 5 foot-steps long!</p>
+                <div class="example-title"><i class="fas fa-paw"></i> Pets at Home</div>
+                <p>Dogs and cats live with people in their homes. They are called pets or domestic animals. They depend on people for food and care.</p>
             </div>
         `,
-        taskInstructions: "Use your body parts to measure different objects around the classroom.",
+        taskInstructions: "Match animals to their habitats and draw an animal in its home.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Hand-Span Practice</strong></p>
+                <p><strong>Part A: Match the Animal to Its Habitat</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Measure your desk width using hand-spans:
+                    <span class="task-number">1</span> Draw a line connecting each animal to where it lives:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My desk is ____ hand-spans wide.</div>
-                        <div>Draw your hand measuring the desk:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Now measure a book: ____ hand-spans</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>🐟 Fish &nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp; ___________</div>
+                                <div>🐦 Bird &nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp; ___________</div>
+                                <div>🐄 Cow &nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp; ___________</div>
+                                <div>🐇 Rabbit &nbsp; → &nbsp;&nbsp;&nbsp; ___________</div>
+                                <div>🐸 Frog &nbsp;&nbsp;&nbsp; → &nbsp;&nbsp;&nbsp; ___________</div>
+                            </div>
+                            <div>
+                                <div>🏠 House</div>
+                                <div>🌾 Farm</div>
+                                <div>🌳 Nest in tree</div>
+                                <div>💧 Water/Pond</div>
+                                <div>🕳️ Underground burrow</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Draw an Animal in Its Habitat</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Choose an animal. Draw it living in its home (habitat):
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div style="margin-top: 10px;">My animal is a: _________</div>
+                    <div>It lives in a: _________</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: What Do Animals Need?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Circle the things all animals need:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>🍎 Food &nbsp;&nbsp;&nbsp; 💧 Water &nbsp;&nbsp;&nbsp; 🏠 Shelter &nbsp;&nbsp;&nbsp; 📺 TV</div>
+                        <div>🌱 Space &nbsp;&nbsp;&nbsp; 🎮 Video games &nbsp;&nbsp;&nbsp; 🚲 Bicycle</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Foot-Step Adventure</strong></p>
+                <p><strong>Part D: Name That Animal</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure the classroom rug using foot-steps:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The rug is ____ foot-steps long.</div>
-                        <div>Draw your feet walking along the rug:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Measure a short table: ____ foot-steps</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Counting Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Count and compare with a partner:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My desk: ____ hand-spans</div>
-                        <div>Partner's desk: ____ hand-spans</div>
-                        <div>Are they the same? ☐ Yes ☐ No</div>
-                        <div>Why might they be different? ____________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Create Your Own Measurement</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Invent a new body measurement:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My new measurement is called: ________</div>
-                        <div>(Example: "arm-hugs" or "finger-taps")</div>
-                        <div>Use it to measure something: The door is ____ ________.</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                    <span class="task-number">4</span> Write the name of each animal:
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px;">
+                        <div>🐮 ______</div>
+                        <div>🐟 ______</div>
+                        <div>🐦 ______</div>
+                        <div>🐸 ______</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Measure three things at home using your hand-spans. Tell a family member how many hand-spans long each item is.",
+        homework: "Draw an animal you saw today. Write or draw where it lives. Does it live in a tree, in water, in the ground, or with people?",
         homeworkDue: "Thursday"
     },
     
     thursday: {
-        subject: "Mathematics",
-        topic: "Long and Short",
-        subtopic: "Grouping objects by length using non-standard measures",
+        subject: "Mathematics & Science",
+        topic: "Animals",
+        subtopic: "Vertebrates and Invertebrates",
         lessonContent: `
-            <p>Today we'll compare objects to see which are longer or shorter than our arms!</p>
-            <p><strong>Key Concept:</strong> We can compare lengths by seeing if objects are longer or shorter than a body part.</p>
-            <p><strong>What is length?</strong></p>
+            <p>Today we'll learn how to sort animals into two big groups: those with backbones and those without!</p>
+            <p><strong>Key Question:</strong> Do all animals have a backbone?</p>
+            <p><strong>Introduction:</strong> Animals can be grouped by whether they have a backbone (spine) inside their body. Let's learn the difference!</p>
+            <p><strong>Vertebrates - Animals WITH a Backbone:</strong></p>
             <ul>
-                <li>How long something is from end to end</li>
-                <li>Distance along the longest side</li>
-                <li>A way to describe size</li>
+                <li>Have a spine (backbone) inside their body</li>
+                <li>Most vertebrates have a skeleton inside</li>
+                <li>Examples: fish, frogs, birds, dogs, cats, cows, humans</li>
+                <li>The word "vertebrate" comes from "vertebra" (the bones in your spine)</li>
             </ul>
-            <p><strong>Comparison Vocabulary:</strong></p>
+            <p><strong>Invertebrates - Animals WITHOUT a Backbone:</strong></p>
             <ul>
-                <li><strong>Longer:</strong> Extends farther than something else</li>
-                <li><strong>Shorter:</strong> Doesn't reach as far as something else</li>
-                <li><strong>Same length:</strong> Both end at the same point</li>
+                <li>Do NOT have a backbone or internal skeleton</li>
+                <li>Many have shells or hard outer coverings</li>
+                <li>Examples: insects (ants, butterflies, beetles), spiders, worms, snails, jellyfish</li>
+                <li>Most animals on Earth are invertebrates!</li>
             </ul>
-            <p><strong>Our Measuring Tool:</strong> Today we'll use our arm length as our personal ruler!</p>
-            <p><strong>Gathering Objects:</strong> We'll collect pencils, sticks, strings, and other classroom items to compare.</p>
-            <p><strong>Think About It:</strong> Why might we need to know if something is longer or shorter than our arm?</p>
-            <p><strong>Answer:</strong> To know if we can reach it, carry it, or if it will fit in a certain space!</p>
+            <p><strong>How can you tell?</strong></p>
+            <ul>
+                <li>Feel your own back - you can feel your backbone!</li>
+                <li>Pet a dog or cat - you can feel the bones in its back</li>
+                <li>Look at a worm - it's soft and wiggly with no bones</li>
+                <li>Look at a snail - it has a shell but no backbone inside</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt" style="color: #2196F3;"></i> Pencil vs. Arm</div>
-                <p>"This pencil is shorter than my arm" - Hold the pencil next to your arm to compare!</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Vertebrate Examples</div>
+                <p>You are a vertebrate! So are dogs, cats, birds, fish, frogs, and cows. Feel your back - those bumps are your backbone!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler" style="color: #4CAF50;"></i> Stick vs. Arm</div>
-                <p>"This stick is longer than my arm" - It sticks out past your hand when you hold one end at your shoulder!</p>
+                <div class="example-title"><i class="fas fa-bug"></i> Invertebrate Examples</div>
+                <p>Ants, butterflies, worms, snails, and spiders are all invertebrates. They don't have backbones. Their bodies are supported in other ways.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Length Sorting Race!</div>
-                <p>We'll have two bins: "Shorter than my arm" and "Longer than my arm." Sort objects as fast as you can!</p>
+                <div class="example-title"><i class="fas fa-chart-bar"></i> Which Group Has More?</div>
+                <p>Did you know? 97% of all animals on Earth are invertebrates! That means only 3% of animals have backbones. Insects are the largest group of invertebrates.</p>
             </div>
         `,
-        taskInstructions: "Gather objects and sort them by comparing their length to your arm.",
+        taskInstructions: "Sort animals into vertebrates and invertebrates using a T-chart.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Gather and Compare</strong></p>
+                <p><strong>Part A: Vertebrate or Invertebrate?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Collect 5 different objects from the classroom:
+                    <span class="task-number">1</span> Sort these animals into the correct column:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. A pencil</div>
-                        <div>2. A stick or ruler</div>
-                        <div>3. A piece of string</div>
-                        <div>4. A book</div>
-                        <div>5. Your choice!</div>
-                        <div>Draw your collected items:</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Arm Measurement</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Hold each object next to your arm:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Put each object in the right pile:</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; padding: 10px; border: 2px dashed #4CAF50;">
-                                <div style="text-align: center; font-weight: bold;">Shorter than my arm</div>
-                                <div class="drawing-area" style="height: 100px;"></div>
-                                <div style="text-align: center;">Count: ____ items</div>
-                            </div>
-                            <div style="flex: 1; padding: 10px; border: 2px dashed #2196F3;">
-                                <div style="text-align: center; font-weight: bold;">Longer than my arm</div>
-                                <div class="drawing-area" style="height: 100px;"></div>
-                                <div style="text-align: center;">Count: ____ items</div>
-                            </div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Vertebrates (Have Backbone)</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Invertebrates (No Backbone)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;"></td>
+                            </tr>
+                        </table>
+                        <div style="margin-top: 10px; display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+                            <span>🐕 Dog</span> <span>🐜 Ant</span> <span>🐦 Bird</span> <span>🐟 Fish</span>
+                            <span>🐌 Snail</span> <span>🐸 Frog</span> <span>🐝 Bee</span> <span>🐄 Cow</span>
+                            <span>🪱 Worm</span> <span>🐱 Cat</span> <span>🕷️ Spider</span> <span>🐒 Monkey</span>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Success Check</strong></p>
+                <p><strong>Part B: Circle the Vertebrates</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Assessment: Did you sort three objects correctly?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>List your sorted objects:</div>
-                        <div>Shorter: 1. ________ 2. ________ 3. ________</div>
-                        <div>Longer: 1. ________ 2. ________ 3. ________</div>
-                        <div>Draw a star for each correct sort: <span class="drawing-area" style="width: 100px; height: 30px; display: inline-block;"></span></div>
+                    <span class="task-number">2</span> Circle all the animals that have a backbone (vertebrates):
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 15px; flex-wrap: wrap;">
+                        <div>🐕 Dog</div>
+                        <div>🐜 Ant</div>
+                        <div>🐦 Bird</div>
+                        <div>🪱 Worm</div>
+                        <div>🐟 Fish</div>
+                        <div>🐌 Snail</div>
+                        <div>🐱 Cat</div>
+                        <div>🕷️ Spider</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Length Drawing Challenge</strong></p>
+                <p><strong>Part C: Circle the Invertebrates</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw three lines: one shorter, one longer, and one same as your arm:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex;">
-                            <div style="flex: 1; text-align: center;">
-                                <div>Shorter than my arm</div>
-                                <div class="drawing-area" style="height: 80px;"></div>
-                            </div>
-                            <div style="flex: 1; text-align: center;">
-                                <div>Longer than my arm</div>
-                                <div class="drawing-area" style="height: 80px;"></div>
-                            </div>
-                            <div style="flex: 1; text-align: center;">
-                                <div>Same as my arm</div>
-                                <div class="drawing-area" style="height: 80px;"></div>
-                            </div>
+                    <span class="task-number">3</span> Circle all the animals that do NOT have a backbone (invertebrates):
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 15px; flex-wrap: wrap;">
+                        <div>🐸 Frog</div>
+                        <div>🐝 Bee</div>
+                        <div>🐄 Cow</div>
+                        <div>🪱 Worm</div>
+                        <div>🐒 Monkey</div>
+                        <div>🐜 Ant</div>
+                        <div>🐟 Fish</div>
+                        <div>🐌 Snail</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw one vertebrate animal and one invertebrate animal:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Vertebrate (has backbone)</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 5px; text-align: center;">
+                            <strong>Invertebrate (no backbone)</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc; margin-top: 5px;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Body Explorer Certificate</strong></p>
+                <p><strong>Part E: About You!</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a body explorer. Write what you learned:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This week I learned my body can ________________</div>
+                    <span class="task-number">5</span> Are you a vertebrate or an invertebrate? How do you know?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find objects at home and sort them into 'shorter than my arm' and 'longer than my arm' piles. Show your family.",
+        homework: "Find two small animals in your yard or garden (like an ant, worm, or beetle). Are they vertebrates or invertebrates? Draw one and tell your family why.",
         homeworkDue: "Monday"
     }
 };
@@ -408,10 +458,10 @@ const grade1MathScienceWeek7 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1MathScienceWeek7);
-    console.log("math-science-week7-body.js registered using registerWorksheet()");
+    console.log("grade1-mathscience-week7.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1MathScienceWeek7);
-    console.log("math-science-week7-body.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-mathscience-week7.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -422,9 +472,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1MathScienceWeek7.metadata,
         days: grade1MathScienceWeek7
     });
-    console.log("math-science-week7-body.js stored in window.registeredWorksheets");
+    console.log("grade1-mathscience-week7.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1MathScienceWeek7 = grade1MathScienceWeek7;
-console.log("math-science-week7-body.js loaded and registered successfully");
+console.log("grade1-mathscience-week7.js loaded and registered successfully");
