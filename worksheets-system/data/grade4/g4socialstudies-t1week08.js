@@ -1,170 +1,222 @@
-// Grade 4 Social Studies - Week 8 Data
+// Grade 4 Social Studies - Term 1 Week 8 Data
 const grade4SocialStudiesWeek8 = {
     metadata: {
         grade: 4,
         subject: "Social Studies",
+        term: 1,
         week: 8,
-        title: "Mastering Inter-Cardinal Directions",
-        description: "Learning to identify and use inter-cardinal points (NE, NW, SE, SW) for more precise location and navigation within a community."
+        title: "Map Reading: Cardinal and Inter-cardinal Points",
+        description: "Learning to identify and use cardinal points and intermediate directions on a map and compass rose"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Exploring Inter-Cardinal Points",
-        subtopic: "Identifying and labeling inter-cardinal points (NE, NW, SE, SW) to provide more specific locations",
+        topic: "Map Reading",
+        subtopic: "Cardinal Points on a Map",
         lessonContent: `
-            <p>Welcome to Week 8 of Social Studies! This week, we’re going beyond the four main directions to learn how to describe locations even more accurately.</p>
-            <p><strong>Warm-up Review:</strong> Let’s review the four cardinal points. Can everyone point toward North, South, East, and West?</p>
-            <p><strong>Today's Question:</strong> "What do we call the direction that is exactly halfway between North and East?"</p>
-            <p><strong>Introducing Inter-Cardinal Points:</strong> When we combine two cardinal directions, we get four new points:</p>
+            <p>Welcome to our map reading adventure! Today we'll learn about the four main directions that help us read maps and find our way.</p>
+            <p><strong>Key Question:</strong> How do we know which way is north on a map?</p>
+            <p><strong>Introduction:</strong> Cardinal points are the four main directions on a compass and map. They help us describe where places are located and how to get from one place to another.</p>
+            <p><strong>The Four Cardinal Points:</strong></p>
             <ol>
-                <li><strong>Northeast (NE)</strong> – halfway between North and East</li>
-                <li><strong>Northwest (NW)</strong> – halfway between North and West</li>
-                <li><strong>Southeast (SE)</strong> – halfway between South and East</li>
-                <li><strong>Southwest (SW)</strong> – halfway between South and West</li>
+                <li><strong>North (N):</strong> The direction pointing toward the North Pole. On most maps, north is at the top.</li>
+                <li><strong>South (S):</strong> The opposite of north. On most maps, south is at the bottom.</li>
+                <li><strong>East (E):</strong> The direction where the sun rises. On most maps, east is on the right side.</li>
+                <li><strong>West (W):</strong> The direction where the sun sets. On most maps, west is on the left side.</li>
             </ol>
-            <p><strong>Why is this important?</strong> Inter-cardinal points help us give clearer, more precise directions. Instead of saying “It’s kind of north and east,” we can say “It’s northeast!”</p>
-            <p><strong>Visual Aid:</strong> We’ll expand our compass rose on the board to include all eight directions.</p>
+            <p><strong>Easy Way to Remember:</strong> "Never Eat Soggy Waffles" - the first letters spell North, East, South, West in clockwise order!</p>
+            <p><strong>Finding North in Real Life:</strong></p>
+            <ul>
+                <li>The sun rises in the east and sets in the west</li>
+                <li>At noon, the sun is roughly south in the northern hemisphere</li>
+                <li>Moss often grows on the north side of trees (in the northern hemisphere)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-compass" style="color: #4CAF50;"></i> Compass Rose Example</div>
-                <p>Look at the full compass rose. Notice how NE is between N and E, just like NW is between N and W.</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Sun Rise and Set</div>
+                <p>If you face the sunrise, you are facing east. Your left hand points north, your right hand points south, and behind you is west!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-map-marker-alt"></i> Real-World Example</div>
-                <p>If the school is north of your house and a little to the east, we can say the school is <strong>northeast</strong> of your house.</p>
+                <div class="example-title"><i class="fas fa-map"></i> Map Rule</div>
+                <p>Most maps follow the rule: North at the top, South at the bottom, East on the right, West on the left. Look for the compass rose to be sure!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-landmark"></i> Landmark Example</div>
-                <p>"The playground is <strong>southeast</strong> of the library." This tells us exactly where to look!</p>
+                <div class="example-title"><i class="fas fa-school"></i> Classroom Directions</div>
+                <p>If your classroom windows face the sun in the morning, they face east. The opposite wall faces west.</p>
             </div>
         `,
-        taskInstructions: "Update your community map with inter-cardinal points and describe locations using them.",
+        taskInstructions: "Learn and locate North, South, East, and West on a map and in the classroom.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Label the inter-cardinal points on the compass rose below:
-                <div style="margin-left: 20px; margin-top: 10px; text-align: center;">
-                    [Image of compass rose with only N, S, E, W labeled. Student adds NE, NW, SE, SW.]
+            <div class="content-box">
+                <p><strong>Part A: Label the Cardinal Points</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Label the four cardinal points on this compass rose:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc; display: flex; justify-content: center; align-items: center;">
+                        <div style="text-align: center;">
+                            <div>▲</div>
+                            <div>│</div>
+                            <div>◄───┼───►</div>
+                            <div>│</div>
+                            <div>▼</div>
+                            <p style="margin-top: 10px;"><em>Draw and label N, S, E, W on this compass rose</em></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> On your community map from last week, add the four inter-cardinal directions to your compass rose.
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write two sentences describing the location of landmarks on your map using inter-cardinal points:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Example: "The market is <strong>northeast</strong> of my house."</div>
-                    <div>1. ______________________________________________________</div>
-                    <div>2. ______________________________________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Classroom Direction Hunt</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Using a compass or the sun's position, identify and write what is in each direction from your desk:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>North: _________________________________</div>
+                        <div style="margin-top: 8px;">South: _________________________________</div>
+                        <div style="margin-top: 8px;">East: __________________________________</div>
+                        <div style="margin-top: 8px;">West: __________________________________</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Circle the correct inter-cardinal direction for each description:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Halfway between South and West:   SE / SW / NE</div>
-                    <div>Halfway between North and East:   NW / SE / NE</div>
-                    <div>Halfway between South and East:   SW / SE / NW</div>
-                    <div>Halfway between North and West:   NE / NW / SE</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Map Reading Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Look at the simple map below. Answer the questions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div class="drawing-area" style="height: 150px; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+                            <p style="text-align: center;">[Simple Map - School in center, Park to North, Library to East,</p>
+                            <p style="text-align: center;">Police Station to South, Market to West]</p>
+                        </div>
+                        <div>a) The Park is ________ of the School.</div>
+                        <div style="margin-top: 5px;">b) The Library is ________ of the School.</div>
+                        <div style="margin-top: 5px;">c) The Police Station is ________ of the School.</div>
+                        <div style="margin-top: 5px;">d) The Market is ________ of the School.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why are cardinal points important when reading a map?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look at a map of your town (or ask a family member to show you one online). Find one place that is southwest of your home. Write its name below.",
+        homework: "Draw a map of your bedroom. Label the four cardinal directions (N, S, E, W) based on where the sun rises in the morning.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Using Points to Navigate the Community",
-        subtopic: "Applying knowledge of cardinal and inter-cardinal points to locate specific places within a community context",
+        topic: "Map Reading",
+        subtopic: "Inter-cardinal Points",
         lessonContent: `
-            <p>Today, we’re putting our direction skills to the test! We’ll use both cardinal and inter-cardinal points to navigate a community map.</p>
-            <p><strong>Introduction Scenario:</strong> Imagine a delivery driver is lost in our community. How can we use our map skills to give them perfect directions?</p>
-            <p><strong>Teacher Activity:</strong> We’ll look at a shared "Classroom Community Map" on the board with various landmarks: school, post office, library, park, fire station, market, and more.</p>
-            <p><strong>Pair Activity – "Locate the Treasure":</strong></p>
+            <p>Great job learning the four cardinal directions! Today we'll add four more directions to make our map reading even more precise.</p>
+            <p><strong>Key Question:</strong> How do we describe directions that are between north and east?</p>
+            <p><strong>Introduction:</strong> Inter-cardinal points (also called intermediate directions) are the directions halfway between the cardinal points. They help us give more specific directions.</p>
+            <p><strong>The Four Inter-cardinal Points:</strong></p>
             <ol>
-                <li>Work with a partner.</li>
-                <li>Student A chooses a building on the map.</li>
-                <li>Student B must describe its location using the correct cardinal or inter-cardinal points <strong>from a starting point</strong> (e.g., "The library is southwest of the post office").</li>
-                <li>Switch roles after three turns each.</li>
+                <li><strong>North-East (NE):</strong> Halfway between North and East</li>
+                <li><strong>North-West (NW):</strong> Halfway between North and West</li>
+                <li><strong>South-East (SE):</strong> Halfway between South and East</li>
+                <li><strong>South-West (SW):</strong> Halfway between South and West</li>
             </ol>
-            <p><strong>Real-World Connection:</strong> Knowing how to use directions helps pilots, hikers, sailors, and even people using GPS on their phones. It’s a life skill!</p>
-            <p><strong>Why This Matters:</strong> Clear directions keep people safe, save time, and help communities run smoothly.</p>
+            <p><strong>The Full Compass Rose:</strong></p>
+            <p>A compass rose shows all eight directions: N, NE, E, SE, S, SW, W, NW. Reading clockwise: N → NE → E → SE → S → SW → W → NW → back to N.</p>
+            <p><strong>Easy Way to Remember:</strong> The inter-cardinal points are just the two cardinal directions combined! North + East = North-East</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-map" style="color: #2196F3;"></i> Map Reading Example</div>
-                <p>On our classroom map, if the park is north of the school and a little to the west, we say the park is <strong>northwest</strong> of the school.</p>
+                <div class="example-title"><i class="fas fa-arrow-right"></i> Finding NE</div>
+                <p>If you face North, then turn halfway toward East, you are facing North-East (NE)!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Game Example</div>
-                <p>In "Locate the Treasure," if your partner says "Find what’s southeast of the fire station," you would look in that direction on the map.</p>
+                <div class="example-title"><i class="fas fa-compass"></i> Compass Rose</div>
+                <p>A compass rose looks like a star with 8 points. Sailors and hikers use it to navigate with great accuracy.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hiking"></i> Real-Life Example</div>
-                <p>Hikers use a compass with all eight directions to follow trails. GPS apps also use directions like NE and SW to guide drivers.</p>
+                <div class="example-title"><i class="fas fa-location-dot"></i> Giving Better Directions</div>
+                <p>Instead of saying "The store is north of the school," you could say "The store is north-east of the school" for a more exact location!</p>
             </div>
         `,
-        taskInstructions: "Use the community map to practice giving and following directions using cardinal and inter-cardinal points.",
+        taskInstructions: "Identify intermediate directions on a compass rose and use them to describe locations.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: "Locate the Treasure" Game</strong></p>
+                <p><strong>Part A: Label the Full Compass Rose</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> With your partner, play three rounds each. Record one direction you gave and one you followed:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I gave this direction: "The __________ is __________ of the __________."</div>
-                        <div>I followed this direction: "The __________ is __________ of the __________."</div>
+                    <span class="task-number">1</span> Label all eight directions on this compass rose (N, NE, E, SE, S, SW, W, NW):
+                    <div class="drawing-area" style="height: 220px; margin-top: 10px; border: 2px dashed #ccc; display: flex; justify-content: center; align-items: center;">
+                        <div style="text-align: center;">
+                            <div>▲</div>
+                            <div>│</div>
+                            <div>◄───┼───►</div>
+                            <div>│</div>
+                            <div>▼</div>
+                            <p style="margin-top: 10px;"><em>Add the four inter-cardinal points (NE, NW, SE, SW)</em></p>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Community Map Analysis</strong></p>
+                <p><strong>Part B: Direction Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Look at the Classroom Community Map. Answer the questions below:
+                    <span class="task-number">2</span> Fill in the missing inter-cardinal directions:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>What is located <strong>northeast</strong> of the school? ________________</div>
-                        <div>What is located <strong>southwest</strong> of the post office? ________________</div>
-                        <div>What direction is the park from the market? ________________</div>
-                        <div>What direction is the fire station from the library? ________________</div>
+                        <div>a) Halfway between North and West: _________</div>
+                        <div style="margin-top: 8px;">b) Halfway between South and East: _________</div>
+                        <div style="margin-top: 8px;">c) Halfway between North and East: _________</div>
+                        <div style="margin-top: 8px;">d) Halfway between South and West: _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Your Own Direction</strong></p>
+                <p><strong>Part C: Map Reading with Inter-cardinal Points</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Choose two landmarks from the map. Write a direction sentence using an inter-cardinal point:
-                    <div class="answer-space" style="height: 40px;">The ________________ is ________________ of the ________________.</div>
+                    <span class="task-number">3</span> Look at the map below. Answer using inter-cardinal directions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div class="drawing-area" style="height: 150px; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+                            <p style="text-align: center;">[Map - School in center, Playground to NE, Hospital to NW,</p>
+                            <p style="text-align: center;">Lake to SE, Bakery to SW]</p>
+                        </div>
+                        <div>a) The Playground is _________ of the School.</div>
+                        <div style="margin-top: 5px;">b) The Hospital is _________ of the School.</div>
+                        <div style="margin-top: 5px;">c) The Lake is _________ of the School.</div>
+                        <div style="margin-top: 5px;">d) The Bakery is _________ of the School.</div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Real-World Reflection</strong></p>
+                <p><strong>Part D: Create Your Own Map</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Think about how people use directions in real life. Check all that apply:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Pilots flying planes</div>
-                        <div>☐ Hikers using a trail map</div>
-                        <div>☐ Drivers using GPS</div>
-                        <div>☐ Captains sailing ships</div>
-                        <div>☐ You finding a friend’s house</div>
-                    </div>
+                    <span class="task-number">4</span> Draw a simple map of your neighborhood or a imaginary town. Place at least 6 locations and label their directions using cardinal AND inter-cardinal points:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> How do inter-cardinal directions help us give better directions than using only cardinal points?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member to name a place in your community. Describe its location from your home using an inter-cardinal direction (e.g., 'The library is northwest of our house'). Write it down.",
-        homeworkDue: "Monday (next week)"
+        homework: "Draw a compass rose showing all 8 directions (N, NE, E, SE, S, SW, W, NW). Then write three sentences describing where different rooms or objects are in your home using inter-cardinal directions.",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4SocialStudiesWeek8);
-    console.log("socialstudies-week8.js registered using registerWorksheet()");
+    console.log("grade4-socialstudies-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4SocialStudiesWeek8);
-    console.log("socialstudies-week8.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-socialstudies-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -175,9 +227,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4SocialStudiesWeek8.metadata,
         days: grade4SocialStudiesWeek8
     });
-    console.log("socialstudies-week8.js stored in window.registeredWorksheets");
+    console.log("grade4-socialstudies-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4SocialStudiesWeek8 = grade4SocialStudiesWeek8;
-console.log("socialstudies-week8.js loaded and registered successfully");
+console.log("grade4-socialstudies-week8.js loaded and registered successfully");

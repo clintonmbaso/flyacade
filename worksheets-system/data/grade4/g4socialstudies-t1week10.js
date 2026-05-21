@@ -1,186 +1,228 @@
-// Grade 4 Social Studies - Week 10 Data
+// Grade 4 Social Studies - Term 1 Week 10 Data
 const grade4SocialStudiesWeek10 = {
     metadata: {
         grade: 4,
         subject: "Social Studies",
+        term: 1,
         week: 10,
-        title: "Citizenship and Patriotism",
-        description: "Exploring what it means to be a patriot and identifying the duties and obligations of citizens"
+        title: "Rights & Responsibilities + Mid-Year Review",
+        description: "Understanding that rights come with responsibilities, and consolidating learning from Units 4.1 to 4.3"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "What it Means to be a Patriot",
-        subtopic: "Defining patriotism and identifying ways to demonstrate love for one's country",
+        topic: "Citizenship Education",
+        subtopic: "Practicing Rights Responsibly",
         lessonContent: `
-            <p>Welcome to Week 10! This week we are learning about citizenship and patriotism. Today we will explore what it means to be a patriot.</p>
-            <p><strong>Introduction:</strong> Look at this picture of our national flag. How does it make you feel? What about when you hear our national anthem? These are symbols of our country.</p>
-            <p><strong>Key Word:</strong> <strong>Patriotism</strong> means showing love and devotion to one’s country.</p>
-            <p><strong>Teacher Explanation:</strong> Being a patriot isn’t just about symbols like flags or songs. It’s about participating in activities that make our country better. For example:</p>
+            <p>Welcome! Today we'll learn about an important part of being a good citizen: practicing our rights responsibly.</p>
+            <p><strong>Key Question:</strong> Can we do whatever we want with our rights?</p>
+            <p><strong>Introduction:</strong> Every child has rights - the right to education, the right to play, the right to express their opinions. But did you know that rights come with responsibilities? That means when we exercise our rights, we must also respect the rights of others.</p>
+            <p><strong>What Are Rights?</strong></p>
             <ul>
-                <li>Protecting the environment by not littering</li>
-                <li>Helping in community clean‑up events</li>
-                <li>Being kind and respectful to others</li>
-                <li>Learning about our country’s history and values</li>
+                <li><strong>Right to education:</strong> Every child can go to school and learn</li>
+                <li><strong>Right to play:</strong> Every child has time for fun and activities</li>
+                <li><strong>Right to express opinions:</strong> Every child can speak their mind respectfully</li>
+                <li><strong>Right to safety:</strong> Every child deserves to be safe</li>
             </ul>
-            <p><strong>Think About It:</strong> Patriots care about their country’s future. They act in ways that keep it safe, clean, and fair for everyone.</p>
+            <p><strong>What Are Responsibilities?</strong></p>
+            <ul>
+                <li>Listening when others are speaking</li>
+                <li>Sharing and taking turns</li>
+                <li>Following rules that keep everyone safe</li>
+                <li>Respecting other people's belongings and feelings</li>
+            </ul>
+            <p><strong>Remember:</strong> Your rights end where someone else's rights begin!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-flag" style="color: #d32f2f;"></i> Symbol of Patriotism</div>
-                <p>Our flag represents our country. Showing respect for the flag is one way to show patriotism.</p>
+                <div class="example-title"><i class="fas fa-chalkboard"></i> Right to Education</div>
+                <p>You have the right to learn in a quiet classroom. Your responsibility? To not disturb others so they can learn too!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-seedling" style="color: #4CAF50;"></i> Action Example</div>
-                <p>Picking up trash in the park is a patriotic act—it keeps our country beautiful and healthy.</p>
+                <div class="example-title"><i class="fas fa-futbol"></i> Right to Play</div>
+                <p>You have the right to play during recess. Your responsibility? To include others and follow game rules so everyone has fun.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping"></i> Community Example</div>
-                <p>Helping at a local food drive shows love for your community, which is part of loving your country.</p>
+                <div class="example-title"><i class="fas fa-comments"></i> Right to Express Opinions</div>
+                <p>You can share your ideas. Your responsibility? To speak kindly and listen when others share their ideas too.</p>
             </div>
         `,
-        taskInstructions: "Show your understanding of patriotism by completing the activities below.",
+        taskInstructions: "Discuss responsible citizenship and complete group activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: What is Patriotism?</strong></p>
+                <p><strong>Part A: Rights and Responsibilities Match</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> In your own words, write what "patriotism" means:
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> List three symbols that remind you of your country:
+                    <span class="task-number">1</span> Draw a line matching each right with its responsibility:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. ___________________________</div>
-                        <div>2. ___________________________</div>
-                        <div>3. ___________________________</div>
+                        <div>Right to education → <span style="margin-left: 20px;">_________</span></div>
+                        <div>Right to play → <span style="margin-left: 20px;">_________</span></div>
+                        <div>Right to express opinions → <span style="margin-left: 20px;">_________</span></div>
+                    </div>
+                    <div style="margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <strong>Choose from:</strong> Take turns and include others • Listen and speak kindly • Complete homework and don't disrupt class
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Love Letter to My Country</strong></p>
+                <p><strong>Part B: Group Discussion</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write a short letter or poem to your country. Include:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        • Three things you love about your country<br>
-                        • One thing you will do to help your country stay beautiful or strong
+                    <span class="task-number">2</span> In your group, discuss this situation:
+                    <div style="margin: 10px 0; padding: 10px; background: #e8f4f8; border-radius: 8px;">
+                        <em>"A student wants to ask the teacher a question, but another student keeps talking loudly."</em>
                     </div>
-                    <div class="answer-space" style="height: 180px; margin-top: 10px;"></div>
+                    <div>What rights are involved? What responsibilities are being ignored?</div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Patriot in Action</strong></p>
+                <p><strong>Part C: Responsible Citizenship</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture of yourself doing one patriotic act:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This shows patriotism because ________________________</div>
+                    <span class="task-number">3</span> Write two ways you can be a responsible citizen at school:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write two ways you can be a responsible citizen at home:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it important to respect other people's rights while exercising your own?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Share your 'Love Letter to My Country' with someone at home. Ask them what patriotism means to them and write down one thing they say.",
+        homework: "With a family member, discuss one right you have at home and the responsibility that goes with it. Write down what you discussed.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Duties and Obligations of a Citizen",
-        subtopic: "Identifying citizen duties such as voting, protecting the environment, and reporting crime",
+        topic: "Term 1 Review",
+        subtopic: "Mid-Year Review / Term 1 Assessment",
         lessonContent: `
-            <p>Today we continue our study of citizenship by learning about duties and obligations.</p>
-            <p><strong>Introduction:</strong> Just as we have rights—like the right to education and safety—we also have <strong>obligations</strong> or duties. These are things we must do to keep our community safe, clean, and fair.</p>
-            <p><strong>Teacher Explanation:</strong> Let’s look at some important duties of citizens:</p>
+            <p>Today we'll review everything we've learned this term in Social Studies!</p>
+            <p><strong>Key Question:</strong> What have we learned in Units 4.1 to 4.3?</p>
+            <p><strong>Unit 4.1: Family Types</strong></p>
             <ul>
-                <li><strong>Voting:</strong> When you are old enough, voting helps choose leaders and make decisions for the community.</li>
-                <li><strong>Protecting the Environment:</strong> This includes not littering, recycling, and conserving water and energy.</li>
-                <li><strong>Reporting Crime or Dangerous Activities:</strong> Telling a trusted adult or authority if you see something wrong helps keep everyone safe.</li>
-                <li><strong>Following Laws and Rules:</strong> Laws exist to protect people and ensure fairness.</li>
-                <li><strong>Participating in Community Life:</strong> Joining clean‑ups, helping neighbors, or learning about local issues.</li>
+                <li><strong>Nuclear family:</strong> Parents and children living together</li>
+                <li><strong>Extended family:</strong> Grandparents, aunts, uncles, and cousins living together or nearby</li>
+                <li><strong>Single-parent family:</strong> One parent raising children</li>
+                <li>Each family type is special and valuable!</li>
             </ul>
-            <p><strong>Important:</strong> Even though you are not yet old enough to vote, you can still practice many of these duties today!</p>
-            <p><strong>Reflection:</strong> Good citizens don’t just enjoy their rights—they also take responsibility for making their community better.</p>
+            <p><strong>Unit 4.2: Map Directions</strong></p>
+            <ul>
+                <li><strong>Cardinal directions:</strong> North, East, South, West</li>
+                <li><strong>Intermediate directions:</strong> Northeast, Southeast, Southwest, Northwest</li>
+                <li>Maps help us find places using directions</li>
+            </ul>
+            <p><strong>Unit 4.3: Basic Rights</strong></p>
+            <ul>
+                <li>Every child has rights (education, play, safety, expression)</li>
+                <li>Rights come with responsibilities</li>
+                <li>Respecting others makes our community better</li>
+            </ul>
+            <p><strong>Assessment Today:</strong> Show what you've learned through an interactive quiz!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-vote-yea" style="color: #2196F3;"></i> Voting Duty</div>
-                <p>When you turn 18, voting becomes a duty. It’s how citizens help decide who leads and what rules are made.</p>
+                <div class="example-title"><i class="fas fa-users"></i> Family Review</div>
+                <p>Living with grandparents? That's an extended family! Living with just mom or dad? That's a single-parent family!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle" style="color: #4CAF50;"></i> Environmental Duty</div>
-                <p>Putting trash in the bin, using less plastic, and turning off lights are duties that protect our planet.</p>
+                <div class="example-title"><i class="fas fa-compass"></i> Direction Reminder</div>
+                <p>Never Eat Soggy Waffles = North, East, South, West! (West comes last - Never Eat Soggy Waffles is just a fun memory trick!)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-phone-alt" style="color: #ff9800;"></i> Safety Duty</div>
-                <p>If you see something dangerous or a crime, telling a teacher, parent, or police officer is a citizen’s duty.</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Rights Review</div>
+                <p>You have the right to learn, but your teacher has the right to teach without interruptions. That's responsibility in action!</p>
             </div>
         `,
-        taskInstructions: "Show you understand the duties of a citizen by completing these tasks.",
+        taskInstructions: "Complete the interactive quiz and review activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Duties Now and Later</strong></p>
+                <p><strong>Part A: Family Types Quiz</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List two duties you can do right now as a young citizen:
+                    <span class="task-number">1</span> Match the family description to the correct type:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. ___________________________</div>
-                        <div>2. ___________________________</div>
+                        <div>A child lives with mom, dad, and one sibling → _________</div>
+                        <div>A child lives with mom and grandparents → _________</div>
+                        <div>A child lives with dad only → _________</div>
                     </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> List two duties you will have when you are an adult:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. ___________________________</div>
-                        <div>2. ___________________________</div>
+                    <div style="margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <strong>Options:</strong> Nuclear family • Extended family • Single-parent family
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Good Citizen Checklist</strong></p>
+                <p><strong>Part B: Map Directions Quiz</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create your own "Good Citizen Checklist." Include four duties you can perform now or in the future:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <strong>My Good Citizen Checklist</strong><br>
-                        ☐ ________________________________<br>
-                        ☐ ________________________________<br>
-                        ☐ ________________________________<br>
-                        ☐ ________________________________
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Scenario Response</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> What would you do in each situation? Write your response:
+                    <span class="task-number">2</span> Fill in the missing directions:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) You see someone littering in the park.</div>
-                        <div class="answer-space" style="height: 40px; margin-left: 10px;"></div>
-                        <div>b) You hear a classmate talking about seeing something dangerous in the neighborhood.</div>
-                        <div class="answer-space" style="height: 40px; margin-left: 10px;"></div>
+                        <div>North → East → _________ → West</div>
+                        <div>The direction between North and East is _________</div>
+                        <div>The opposite of South is _________</div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> If you are facing North and turn right, which direction are you facing?
+                    <div class="answer-space" style="height: 40px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Rights and Responsibilities Quiz</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> True or False? Write T or F:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>___ Children have the right to play whenever they want, even during class</div>
+                        <div>___ Responsibilities come along with rights</div>
+                        <div>___ Speaking kindly is a responsibility when expressing opinions</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: My Commitment</strong></p>
+                <p><strong>Part D: Short Answer</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Choose one item from your checklist that you will focus on this weekend. Explain why you chose it:
+                    <span class="task-number">5</span> Name two types of families you learned about:
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> What are the four cardinal directions?
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> Give one example of a responsibility that comes with the right to education:
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">8</span> What was your favorite thing you learned in Social Studies this term? Why?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "With a family member, discuss one duty from your Good Citizen Checklist. Write down how you will practice it together.",
-        homeworkDue: "Monday"
+        homework: "Review your notes from Units 4.1-4.3. Prepare one question to ask when we return next term!",
+        homeworkDue: "First day of Term 2"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4SocialStudiesWeek10);
-    console.log("socialstudies-week10.js registered using registerWorksheet()");
+    console.log("grade4-socialstudies-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4SocialStudiesWeek10);
-    console.log("socialstudies-week10.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-socialstudies-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -191,9 +233,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4SocialStudiesWeek10.metadata,
         days: grade4SocialStudiesWeek10
     });
-    console.log("socialstudies-week10.js stored in window.registeredWorksheets");
+    console.log("grade4-socialstudies-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4SocialStudiesWeek10 = grade4SocialStudiesWeek10;
-console.log("socialstudies-week10.js loaded and registered successfully");
+console.log("grade4-socialstudies-week10.js loaded and registered successfully");

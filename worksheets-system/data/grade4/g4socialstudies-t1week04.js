@@ -1,214 +1,286 @@
-// Grade 4 Social Studies - Week 4 Data
+// Grade 4 Social Studies - Term 1 Week 4 Data
 const grade4SocialStudiesWeek4 = {
     metadata: {
         grade: 4,
         subject: "Social Studies",
+        term: 1,
         week: 4,
-        title: "Family Roles and Responsibilities",
-        description: "Understanding and performing roles within the family unit"
+        title: "Family Values and Roles",
+        description: "Understanding core family values and identifying responsibilities of each family member"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Family",
-        subtopic: "Roles of Family Members",
+        topic: "The Family",
+        subtopic: "Family Values",
         lessonContent: `
-            <p>Welcome to Week 4 of Social Studies! This week we will learn about the important roles each family member plays at home.</p>
-            <p><strong>Introduction:</strong> Every home has work that needs to be done to keep the family happy, healthy, and organized. Today we will explore who does what in a family.</p>
-            <p><strong>Why are family roles important?</strong> When everyone helps, the home runs smoothly and family members feel supported and valued.</p>
-            <p><strong>Key Questions to Think About:</strong></p>
-            <ul>
-                <li>Who cooks in your home?</li>
-                <li>Who makes sure there is food and other needs?</li>
-                <li>Who helps keep the home clean and tidy?</li>
-            </ul>
-            <p><strong>Common Household Roles:</strong></p>
-            <ul>
-                <li>Fending for the family (providing food, shelter, clothing)</li>
-                <li>Cooking meals</li>
-                <li>Washing clothes and dishes</li>
-                <li>Sweeping and cleaning</li>
-                <li>Watering plants and gardening</li>
-                <li>Taking care of younger siblings</li>
-                <li>Raking compound and picking litter</li>
-            </ul>
-            <p><strong>Family Teamwork:</strong> In most families, parents often handle providing and major tasks, while children help with lighter chores. Everyone's contribution matters!</p>
+            <p>Welcome to our lesson on family values! Today we'll explore the important principles that help families live together happily and peacefully.</p>
+            <p><strong>Key Question:</strong> What makes a family strong and loving?</p>
+            <p><strong>Introduction:</strong> Family values are the beliefs and ideas that guide how family members treat each other. They help create a happy, respectful, and supportive home.</p>
+            <p><strong>Core Family Values:</strong></p>
+            <ol>
+                <li><strong>Respect:</strong> Treating others kindly and listening to their ideas and feelings</li>
+                <li><strong>Honesty:</strong> Telling the truth and being trustworthy</li>
+                <li><strong>Responsibility:</strong> Doing your duties and being accountable for your actions</li>
+                <li><strong>Loyalty:</strong> Standing by your family members and supporting them</li>
+                <li><strong>Hard Work:</strong> Trying your best and not giving up</li>
+                <li><strong>Fairness:</strong> Treating everyone equally and taking turns</li>
+                <li><strong>Selflessness:</strong> Thinking about others' needs before your own</li>
+            </ol>
+            <p><strong>Why Family Values Matter:</strong> When families practice these values, everyone feels safe, loved, and appreciated. It makes home a happy place to be!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #4CAF50;"></i> Family Example</div>
-                <p>In the Mutua family, mother cooks dinner, father repairs things, brother sweeps, and sister waters the plants. Each person has a role!</p>
+                <div class="example-title"><i class="fas fa-hand-heart"></i> Respect in Action</div>
+                <p>When your parent is talking, you listen without interrupting. When you disagree, you speak calmly and kindly.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users"></i> Role Sharing</div>
-                <p>Sometimes roles change. On weekends, children might help with washing dishes or tidying up the living room.</p>
+                <div class="example-title"><i class="fas fa-tasks"></i> Responsibility Example</div>
+                <p>Making your bed every morning, doing your homework without being reminded, and helping set the table for dinner.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping"></i> Why It Matters</div>
-                <p>When everyone does their part, there is more time for family fun and less stress for parents.</p>
+                <div class="example-title"><i class="fas fa-users"></i> Selflessness at Home</div>
+                <p>Letting your younger sibling choose the TV show first or sharing the last piece of cake without complaining.</p>
             </div>
         `,
-        taskInstructions: "Think about your own family and complete the activities below.",
+        taskInstructions: "Brainstorm family values and practice identifying them in everyday situations.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Brainstorming Household Roles</strong></p>
+                <p><strong>Part A: Value Brainstorm</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List four household chores that are done in your home:
-                    <div class="answer-space" style="height: 100px; margin-top: 10px;">
-                        1. ________________________<br>
-                        2. ________________________<br>
-                        3. ________________________<br>
-                        4. ________________________
-                    </div>
+                    <span class="task-number">1</span> List all 7 core family values we learned:
+                    <div class="answer-space" style="height: 140px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Role Classification</strong></p>
+                <p><strong>Part B: Matching Values to Actions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write which family member usually does each chore you listed above:
+                    <span class="task-number">2</span> Draw a line to match each action with the correct family value:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Chore 1: ________________ is done by ________________</div>
-                        <div>Chore 2: ________________ is done by ________________</div>
-                        <div>Chore 3: ________________ is done by ________________</div>
-                        <div>Chore 4: ________________ is done by ________________</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Sharing toys with your sister</div>
+                                <div>• Telling Mom you broke the vase</div>
+                                <div>• Doing chores without being asked</div>
+                                <div>• Saying "please" and "thank you"</div>
+                                <div>• Studying hard for a test</div>
+                                <div>• Taking turns on the swing</div>
+                                <div>• Defending your brother when teased</div>
+                            </div>
+                            <div>
+                                <div>→ Honesty</div>
+                                <div>→ Respect</div>
+                                <div>→ Responsibility</div>
+                                <div>→ Loyalty</div>
+                                <div>→ Hard Work</div>
+                                <div>→ Fairness</div>
+                                <div>→ Selflessness</div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Matching Roles to Members</strong></p>
+                <p><strong>Part C: Practice Scenarios</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> List three family members and assign one specific role to each based on your home:
+                    <span class="task-number">3</span> Read each scenario. What value is being shown?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Family Member 1: ________________</div>
-                        <div style="margin-left: 20px;">Their role: ___________________________________</div>
-                        <div>Family Member 2: ________________</div>
-                        <div style="margin-left: 20px;">Their role: ___________________________________</div>
-                        <div>Family Member 3: ________________</div>
-                        <div style="margin-left: 20px;">Their role: ___________________________________</div>
+                        <div><strong>Scenario 1:</strong> Maria helps her little brother with his homework even though she wants to play.</div>
+                        <div>Value shown: _________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>Scenario 2:</strong> James admits he accidentally broke his father's tool.</div>
+                        <div>Value shown: _________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>Scenario 3:</strong> The family waits to eat dinner until everyone is seated at the table.</div>
+                        <div>Value shown: _________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Reflection</strong></p>
+                <p><strong>Part D: Personal Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why do you think it is important for every family member to have a role?
-                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                    <span class="task-number">4</span> Which family value is most important to your family? Why?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write one way you can show a family value at home today:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Talk to your family about the roles each person plays. Write down one new thing you learned about a family member's responsibility.",
+        homework: "Draw a picture showing one family value in action at your home. Write one sentence explaining your drawing.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Family",
+        topic: "The Family",
         subtopic: "Roles of Family Members",
         lessonContent: `
-            <p>Welcome back! Today we will focus on <strong>your role</strong> in the family and how you can help at home.</p>
-            <p><strong>Recap:</strong> In our last lesson, we identified different roles family members play. Today, we put that into action!</p>
-            <p><strong>Why perform your role?</strong> Doing your part shows love, responsibility, and teamwork. It helps your family and teaches you important life skills.</p>
-            <p><strong>Common Chores for Children:</strong></p>
-            <ul>
-                <li>Raking the compound</li>
-                <li>Picking litter</li>
-                <li>Sweeping the house or yard</li>
-                <li>Washing dishes</li>
-                <li>Watering plants</li>
-                <li>Helping with cooking (e.g., washing vegetables)</li>
-                <li>Tidying your room</li>
-            </ul>
-            <p><strong>Safety First:</strong> Always ask an adult for help if you are unsure how to do a task safely.</p>
-            <p><strong>Step-by-Step Example – Raking:</strong></p>
+            <p>Today we'll learn about the different roles and responsibilities that family members have in a home!</p>
+            <p><strong>Key Question:</strong> Who does what in your family, and why is everyone's role important?</p>
+            <p><strong>Introduction:</strong> Every family member has important jobs to do. These roles help the family run smoothly and make sure everyone's needs are met.</p>
+            <p><strong>Common Family Roles and Responsibilities:</strong></p>
             <ol>
-                <li>Get a rake that is the right size for you.</li>
-                <li>Start from one side of the compound and pull leaves gently into a pile.</li>
-                <li>Put the leaves in a compost bin or bag.</li>
-                <li>Return the rake to its proper place.</li>
+                <li><strong>Parents/Guardians:</strong>
+                    <ul>
+                        <li>Fending for the family (providing food, shelter, and clothing)</li>
+                        <li>Cooking meals for the family</li>
+                        <li>Working to earn money</li>
+                        <li>Making important decisions</li>
+                        <li>Keeping children safe and healthy</li>
+                    </ul>
+                </li>
+                <li><strong>Children (You!):</strong>
+                    <ul>
+                        <li>Doing homework and studying</li>
+                        <li>Helping with household chores</li>
+                        <li>Watering plants and garden</li>
+                        <li>Sweeping floors</li>
+                        <li>Raking leaves in the yard</li>
+                        <li>Picking up litter around the home</li>
+                        <li>Slashing grass/weeds (with adult supervision)</li>
+                        <li>Respecting parents and siblings</li>
+                    </ul>
+                </li>
+                <li><strong>Grandparents/Elders:</strong>
+                    <ul>
+                        <li>Sharing wisdom and stories</li>
+                        <li>Helping care for younger children</li>
+                        <li>Teaching family traditions and values</li>
+                    </ul>
+                </li>
             </ol>
-            <p><strong>Team Spirit:</strong> When everyone helps, chores get done faster and the home becomes a happier place!</p>
+            <p><strong>Remember:</strong> Every role is important! When everyone does their part, the family works like a team.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Raking Example</div>
-                <p>Raking keeps the yard clean and prevents litter from blowing around. It also makes the home look neat!</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Cooking Responsibilities</div>
+                <p>In many families, parents cook main meals. But children can help by washing vegetables, setting the table, or cleaning dishes after eating.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-seedling"></i> Watering Plants</div>
-                <p>Water plants in the morning or evening. Give each plant enough water but don't flood it. Plants help keep air clean!</p>
+                <div class="example-title"><i class="fas fa-broom"></i> Chores for Everyone</div>
+                <p>Younger children can sweep floors or pick up toys. Older children can help with raking leaves, watering plants, or slashing grass.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-theater-masks"></i> Role-Play Idea</div>
-                <p>Act out washing dishes: show how to use soap, rinse well, and dry safely. Always be careful with breakable items!</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Fending for the Family</div>
+                <p>Parents work hard to provide food, pay for school supplies, and keep a roof over everyone's head. This is called "fending for the family."</p>
             </div>
         `,
-        taskInstructions: "Show you understand your role by completing these practical tasks.",
+        taskInstructions: "Identify roles and responsibilities of each family member in your household.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Practical Steps</strong></p>
+                <p><strong>Part A: Family Role Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Choose one chore you do at home. Write the steps to do it safely and well:
-                    <div class="answer-space" style="height: 120px; margin-top: 10px;">
-                        Chore: ________________________<br>
-                        Step 1: _______________________<br>
-                        Step 2: _______________________<br>
-                        Step 3: _______________________<br>
-                        Step 4: _______________________
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Role-Play Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> With a partner, act out performing a chore. Show the correct and safe way. After, check what you demonstrated:
+                    <span class="task-number">1</span> Complete the chart below for your family:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Used safe movements</div>
-                        <div>☐ Followed steps in order</div>
-                        <div>☐ Used polite words if working with others</div>
-                        <div>☐ Cleaned up after the task</div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Family Member</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Roles/Responsibilities</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Mother/Guardian</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Father/Guardian</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Grandparents/Elders</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Me (Child)</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Siblings</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Personal Responsibility Pledge</strong></p>
+                <p><strong>Part B: Household Chores Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write down one chore you will be responsible for at home for the rest of the week:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <strong>My Family Role Pledge</strong><br>
-                        I, ______________________, promise to help my family by:<br>
-                        ________________________________________________<br>
-                        I will do this every day until: ________________<br>
-                        Signed: ________________
+                    <span class="task-number">2</span> Match each chore to who might do it:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Cooking dinner</div>
+                                <div>• Fending for the family</div>
+                                <div>• Sweeping the floor</div>
+                                <div>• Watering plants</div>
+                                <div>• Raking leaves</div>
+                                <div>• Picking up litter</div>
+                                <div>• Slashing grass</div>
+                            </div>
+                            <div>
+                                <div>→ Parents</div>
+                                <div>→ Parents</div>
+                                <div>→ Children/Everyone</div>
+                                <div>→ Children</div>
+                                <div>→ Children/Older Siblings</div>
+                                <div>→ Everyone</div>
+                                <div>→ Older Children/Adults</div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Reflection Drawing</strong></p>
+                <p><strong>Part C: Discussion Questions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw yourself doing your chosen chore. Show how you are helping your family:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This chore helps my family because ____________________</div>
+                    <span class="task-number">3</span> What does it mean to "fend for the family"?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name three chores that children can do to help at home:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it important for every family member to have responsibilities?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: My Promise</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Write one new responsibility you will take on at home this week:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> Draw a picture of yourself helping with a chore at home:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Perform your pledged chore every day until the next class. Ask a family member to sign your pledge sheet when you complete it.",
-        homeworkDue: "Next Monday"
+        homework: "Help with one chore at home this week without being asked. Ask a parent to sign this page confirming you helped.",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4SocialStudiesWeek4);
-    console.log("social-studies-week4.js registered using registerWorksheet()");
+    console.log("grade4-socialstudies-week4.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4SocialStudiesWeek4);
-    console.log("social-studies-week4.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-socialstudies-week4.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -219,9 +291,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4SocialStudiesWeek4.metadata,
         days: grade4SocialStudiesWeek4
     });
-    console.log("social-studies-week4.js stored in window.registeredWorksheets");
+    console.log("grade4-socialstudies-week4.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4SocialStudiesWeek4 = grade4SocialStudiesWeek4;
-console.log("social-studies-week4.js loaded and registered successfully");
+console.log("grade4-socialstudies-week4.js loaded and registered successfully");

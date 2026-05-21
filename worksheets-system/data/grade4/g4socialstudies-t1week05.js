@@ -1,176 +1,198 @@
-// Grade 4 Social Studies - Week 5 Data
+// Grade 4 Social Studies - Term 1 Week 5 Data
 const grade4SocialStudiesWeek5 = {
     metadata: {
         grade: 4,
         subject: "Social Studies",
+        term: 1,
         week: 5,
-        title: "Family Teachings in Different Religions and Traditions",
-        description: "Exploring what Christianity, Islam, Hinduism, and Zambian traditions teach about family roles, respect, and responsibilities."
+        title: "Family Roles & Religious Teachings",
+        description: "Understanding personal responsibilities within the family and exploring religious perspectives on family life"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Family Teachings in Christianity and Islam",
-        subtopic: "Family in Different Religions",
+        topic: "Family Studies",
+        subtopic: "Performing One's Roles in the Family",
         lessonContent: `
-            <p>Welcome to Week 5 of Social Studies! Today we will explore what two major world religions—Christianity and Islam—teach about family life.</p>
-            <p><strong>Introduction:</strong> Different religions provide guidance on how family members should treat each other. These teachings help families live together with respect and care.</p>
-            <p><strong>Christian Teachings:</strong> Christianity has many lessons about family in the Bible. Here are some key teachings:</p>
-            <ol>
-                <li><strong>Honoring Parents:</strong> The Bible teaches children to honor and obey their parents.</li>
-                <li><strong>Parental Love:</strong> Parents are told to love and care for their children, not to provoke them.</li>
-                <li><strong>Marital Respect:</strong> Husbands and wives are called to love and respect each other.</li>
-            </ol>
-            <p><strong>Islamic Teachings:</strong> Islam also gives clear guidance on family life from the Quran and Hadith:</p>
+            <p>Welcome! Today we'll learn about the important roles we play in our families and how to be responsible family members.</p>
+            <p><strong>Key Question:</strong> What are my duties at home, and how can I perform them well?</p>
+            <p><strong>Introduction:</strong> Every family member has important roles and responsibilities. When everyone does their part, the family runs smoothly and happily.</p>
+            <p><strong>What Are Family Roles?</strong></p>
             <ul>
-                <li><strong>Respect for Mothers:</strong> Islam teaches that paradise lies under the feet of mothers, showing high respect.</li>
-                <li><strong>Providing for the Family:</strong> It is the duty of the father to provide for the household.</li>
-                <li><strong>Kindness to Parents:</strong> Children must be kind and respectful to both parents throughout their lives.</li>
+                <li>Family roles are the jobs and responsibilities each person has at home</li>
+                <li>Roles can be daily (making your bed) or weekly (helping with laundry)</li>
+                <li>Different family members may have different roles based on age and ability</li>
             </ul>
-            <p><strong>Comparison:</strong> Both religions share common values like respect, kindness, and care within the family.</p>
-            <p><strong>Why this matters:</strong> Understanding these teachings helps us appreciate how religion shapes family values in our community and around the world.</p>
+            <p><strong>Examples of Children's Roles in the Family:</strong></p>
+            <ol>
+                <li><strong>Personal Responsibility:</strong> Making your bed, brushing your teeth, putting away toys</li>
+                <li><strong>Helping with Chores:</strong> Setting the table, washing dishes, feeding pets</li>
+                <li><strong>Being Respectful:</strong> Using kind words, listening to parents, sharing with siblings</li>
+                <li><strong>Being Helpful:</strong> Assisting younger siblings, helping with groceries, tidying common areas</li>
+            </ol>
+            <p><strong>Why Are Family Roles Important?</strong></p>
+            <ul>
+                <li>Teaches responsibility and independence</li>
+                <li>Helps the family work as a team</li>
+                <li>Shows respect and care for family members</li>
+                <li>Prepares you for future responsibilities</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bible" style="color: #4CAF50;"></i> Christianity Example</div>
-                <p><strong>Bible Verse:</strong> "Honor your father and your mother" (Exodus 20:12). This teaches children to show respect and gratitude.</p>
+                <div class="example-title"><i class="fas fa-check-circle"></i> Being Responsible</div>
+                <p>When you put your dirty clothes in the hamper without being asked, you are showing responsibility. Your parents don't have to remind you!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-star-and-crescent" style="color: #009688;"></i> Islam Example</div>
-                <p><strong>Hadith Teaching:</strong> A man asked the Prophet Muhammad, "Who deserves my good treatment most?" The Prophet replied, "Your mother, then your mother, then your mother, then your father."</p>
+                <div class="example-title"><i class="fas fa-users"></i> Teamwork at Home</div>
+                <p>Imagine a soccer team where only one player does all the work. That wouldn't work! Families are like teams - everyone needs to help.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-handshake"></i> Common Teaching</div>
-                <p>Both Christianity and Islam teach that parents should be treated with kindness and respect—a shared value across religions.</p>
+                <div class="example-title"><i class="fas fa-calendar-alt"></i> Daily vs. Weekly</div>
+                <p>Daily chores: Making your bed, clearing your plate after meals. Weekly chores: Taking out trash, helping with laundry, watering plants.</p>
             </div>
         `,
-        taskInstructions: "Show your understanding of Christian and Islamic family teachings by completing the tasks below.",
+        taskInstructions: "Create a personal responsibility checklist and practice role-playing responsible behaviors.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Identify Teachings</strong></p>
+                <p><strong>Part A: My Responsibility Checklist</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write one teaching from Christianity and one from Islam about family:
+                    <span class="task-number">1</span> Create your own weekly responsibility checklist. List at least 5 things you will do at home:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Christianity: ________________________________________</div>
-                        <div>Islam: _____________________________________________</div>
+                        <div class="answer-space" style="height: 150px; margin-top: 5px; border: 2px dashed #ccc;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Matching Values</strong></p>
+                <p><strong>Part B: Role-Playing Scenarios</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a line to connect the religion with its teaching:
+                    <span class="task-number">2</span> Read each scenario. Write how you would respond responsibly:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Christianity <span style="margin-left: 20px;">☐ Provides high respect to mothers</span></div>
-                        <div>Islam <span style="margin-left: 20px;">☐ Teaches children to honor parents</span></div>
-                        <div>Both <span style="margin-left: 20px;">☐ Values kindness in the family</span></div>
+                        <div><strong>Scenario 1:</strong> Your parent asks you to set the table, but you want to keep playing.</div>
+                        <div>Responsible response: _________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 2:</strong> You made a mess in the living room while your sibling cleaned it yesterday.</div>
+                        <div>Responsible response: _________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 3:</strong> Your younger sibling needs help tying their shoes before school.</div>
+                        <div>Responsible response: _________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Reflective Writing</strong></p>
+                <p><strong>Part C: Personal Commitment</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Why do you think both religions emphasize respecting parents? Write two sentences:
+                    <span class="task-number">3</span> Write one new responsibility you will start doing this week:
                     <div class="answer-space" style="height: 60px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Create a Family Rule</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Based on today's lesson, write one family rule that both a Christian and Muslim family might follow:
-                    <div class="answer-space" style="height: 40px;">Family Rule: ________________________________</div>
+                    <span class="task-number">4</span> How will performing your roles help your family?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Interview a family member about one way your family shows respect or kindness. Write down what they say.",
+        homework: "Complete your responsibility checklist at home this week. Ask a parent to sign it when you finish your tasks.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Family Teachings in Hinduism and Zambian Tradition",
-        subtopic: "Family in Different Religions",
+        topic: "Family Studies",
+        subtopic: "Religious Teachings on Family (Part 1)",
         lessonContent: `
-            <p>Today we continue exploring family teachings—this time in Hinduism and Zambian Traditional beliefs.</p>
-            <p><strong>Introduction:</strong> Religious and cultural beliefs shape how families live together. Let's see how Hinduism and Zambian traditions view the family.</p>
-            <p><strong>Hindu Teachings:</strong> Hinduism has strong family values rooted in ancient texts and practices:</p>
-            <ol>
-                <li><strong>Joint Family System:</strong> It is common for extended family (grandparents, uncles, aunts) to live together and support one another.</li>
-                <li><strong>Respect for Elders:</strong> Younger members show respect to elders through gestures like touching feet.</li>
-                <li><strong>Hospitality (Atithi Devo Bhava):</strong> Guests are treated as gods, teaching families to be welcoming and generous.</li>
-            </ol>
-            <p><strong>Zambian Traditional Teachings:</strong> Zambian culture emphasizes community and ancestry:</p>
+            <p>Today we'll explore what different religions teach about family life and how these teachings guide people to be good family members.</p>
+            <p><strong>Key Question:</strong> What do different religions say about how families should treat each other?</p>
+            <p><strong>Introduction:</strong> Many religions around the world teach important lessons about family. They encourage love, respect, kindness, and helping one another.</p>
+            <p><strong>Christianity and Family:</strong></p>
             <ul>
-                <li><strong>Extended Family:</strong> Family includes not just parents and children, but also cousins, aunts, uncles, and grandparents.</li>
-                <li><strong>Ancestral Respect:</strong> Honoring ancestors is important, often through rituals and storytelling.</li>
-                <li><strong>Communal Living (Ubuntu):</strong> "I am because we are"—the idea that a person's identity comes from the community.</li>
+                <li>Teaches that family is a gift from God</li>
+                <li>Children should honor and respect their parents</li>
+                <li>Parents should love and care for their children</li>
+                <li>Family members should forgive each other and show kindness</li>
+                <li><strong>Key teaching:</strong> "Honor your father and mother" - showing respect and obedience</li>
             </ul>
-            <p><strong>Reflection:</strong> Both traditions show that family is more than just parents and children—it includes the wider community and ancestors.</p>
-            <p><strong>Conclusion:</strong> Understanding different religious and traditional teachings helps us respect the diverse ways families live in our community.</p>
+            <p><strong>Islam and Family:</strong></p>
+            <ul>
+                <li>Family is very important in Islamic teachings</li>
+                <li>Children must show kindness and respect to parents, especially as parents get older</li>
+                <li>Family members should help and support each other</li>
+                <li>Maintaining strong family ties is a religious duty</li>
+                <li><strong>Key teaching:</strong> Being kind and gentle with parents and showing gratitude to them</li>
+            </ul>
+            <p><strong>Common Values Across Religions:</strong></p>
+            <ul>
+                <li>Respect for parents and elders</li>
+                <li>Kindness to all family members</li>
+                <li>Helping and supporting each other</li>
+                <li>Forgiveness and patience</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-om" style="color: #FF9800;"></i> Hinduism Example</div>
-                <p>In a Hindu <strong>Joint Family</strong>, grandparents often help raise grandchildren, and everyone shares responsibilities.</p>
+                <div class="example-title"><i class="fas fa-church"></i> Christian Teaching Example</div>
+                <p>In Christianity, the story of Jesus as a child shows him being respectful and obedient to his parents, Mary and Joseph, setting an example for children.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-people-arrows" style="color: #795548;"></i> Zambian Tradition Example</div>
-                <p>In Zambian culture, an elder is often greeted with a clap and a bowed head as a sign of respect.</p>
+                <div class="example-title"><i class="fas fa-mosque"></i> Islamic Teaching Example</div>
+                <p>In Islam, there is a saying that "Paradise lies at the feet of mothers," which shows how important it is to respect and care for one's mother.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-heart"></i> Shared Value</div>
-                <p>Both Hinduism and Zambian tradition teach that caring for elders is a duty and a blessing for the whole family.</p>
+                <div class="example-title"><i class="fas fa-heart"></i> Same Values</div>
+                <p>Both Christianity and Islam teach that being kind to parents, helping siblings, and maintaining strong family bonds are very important actions.</p>
             </div>
         `,
-        taskInstructions: "Show your understanding of Hindu and Zambian traditional family teachings.",
+        taskInstructions: "Analyze religious teachings about family and discuss how they apply to daily life.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Compare and Contrast</strong></p>
+                <p><strong>Part A: Teaching Analysis</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write one similarity and one difference between Hindu and Zambian family teachings:
+                    <span class="task-number">1</span> Read each teaching. Write what it means for family life:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Similarity: _________________________________________</div>
-                        <div>Difference: ________________________________________</div>
+                        <div><strong>Christian Teaching:</strong> "Honor your father and mother."</div>
+                        <div>What does this mean? _________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Islamic Teaching:</strong> Be kind and gentle with your parents.</div>
+                        <div>What does this mean? _________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Draw Your Family Tree</strong></p>
+                <p><strong>Part B: Compare and Contrast</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a simple family tree showing your immediate and extended family (or people you consider family):
-                    <div class="drawing-area" style="height: 180px;"></div>
+                    <span class="task-number">2</span> How are Christian and Islamic teachings about family similar?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Share a Tradition</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write about one tradition or practice from your culture or family that helps keep you united:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Reflection Question</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Why is it important to learn about family teachings from different religions and cultures?
+                    <span class="task-number">3</span> Why do you think many religions teach similar values about family?
                     <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Create a Poster Slogan</strong></p>
+                <p><strong>Part C: Application to Daily Life</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Design a short slogan or motto that celebrates family unity in Zambia’s diverse society:
-                    <div class="answer-space" style="height: 40px; font-weight: bold;">Slogan: ___________________________________</div>
+                    <span class="task-number">4</span> Choose one teaching from today. How can you practice it in your own family this week?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Respect for Diversity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Different families may follow different religions or no religion. Why is it important to respect everyone's beliefs about family?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask an elder in your family or community about one traditional teaching regarding family. Write it down and share next week.",
+        homework: "Ask a family member about one value that is important to your family. Write it down and explain why it matters to your family.",
         homeworkDue: "Monday"
     }
 };
@@ -178,10 +200,10 @@ const grade4SocialStudiesWeek5 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4SocialStudiesWeek5);
-    console.log("socialstudies-week5.js registered using registerWorksheet()");
+    console.log("grade4-socialstudies-week5.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4SocialStudiesWeek5);
-    console.log("socialstudies-week5.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-socialstudies-week5.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -192,9 +214,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4SocialStudiesWeek5.metadata,
         days: grade4SocialStudiesWeek5
     });
-    console.log("socialstudies-week5.js stored in window.registeredWorksheets");
+    console.log("grade4-socialstudies-week5.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4SocialStudiesWeek5 = grade4SocialStudiesWeek5;
-console.log("socialstudies-week5.js loaded and registered successfully");
+console.log("grade4-socialstudies-week5.js loaded and registered successfully");

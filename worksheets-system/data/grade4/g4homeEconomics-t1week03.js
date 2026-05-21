@@ -1,218 +1,190 @@
-// Grade 4 Home Economics - Week 3 Data
+// Grade 4 Home Economics - Term 1 Week 3 Data
 const grade4HomeEconomicsWeek3 = {
     metadata: {
         grade: 4,
         subject: "Home Economics",
+        term: 1,
         week: 3,
-        title: "Kitchen Safety and First Aid",
-        description: "Understanding kitchen hazards and basic first aid procedures"
+        title: "Food Safety & Water Treatment",
+        description: "Exploring water treatment methods at home and practicing safe food handling and storage"
     },
     
     tuesday: {
         subject: "Home Economics",
-        topic: "Safety in the Kitchen Environment",
-        subtopic: "Identifying hazards and practicing 'Good Housekeeping'",
+        topic: "Food Safety",
+        subtopic: "Water Treatment Methods",
         lessonContent: `
-            <p>Welcome to our lesson on kitchen safety! Today we will learn how to identify dangers in the kitchen and how to prevent accidents from happening.</p>
-            <p><strong>Learning Objective:</strong> Students will identify common kitchen accidents and how to prevent them.</p>
-            <p><strong>Key Concepts:</strong></p>
-            <ul>
-                <li><strong>Common Hazards:</strong> Slippery floors, sharp knives, and hot stoves</li>
-                <li><strong>Prevention:</strong> Wearing appropriate footwear, cleaning spills immediately, and using pans correctly</li>
-                <li><strong>Fire Safety:</strong> Understanding basic fire drill procedures in a kitchen setting</li>
-            </ul>
-            <p><strong>Good Housekeeping Rules:</strong></p>
+            <p>Welcome! Today we'll learn how to make water safe to drink at home and in places like hotels and restaurants.</p>
+            <p><strong>Key Question:</strong> How can we make dirty water safe for drinking?</p>
+            <p><strong>Introduction:</strong> Clean water is essential for good health. Sometimes the water we get from taps, rivers, or wells contains germs that can make us sick. We need to treat the water to remove these harmful germs.</p>
+            <p><strong>Methods of Treating Water at Home/Hospitality Establishments:</strong></p>
             <ol>
-                <li>Always clean up spills right away to prevent slips and falls</li>
-                <li>Store sharp tools like knives in safe places with blades covered</li>
-                <li>Turn pot handles inward on the stove so they don't get bumped</li>
-                <li>Keep floors clear of toys, bags, and other tripping hazards</li>
-                <li>Wear shoes with good grip when working in the kitchen</li>
+                <li><strong>Boiling:</strong> Heat water until it bubbles vigorously (rolling boil) for at least 1 minute. This kills all germs. Let it cool before drinking.</li>
+                <li><strong>Chlorination:</strong> Adding a small amount of chlorine (like water purification tablets or liquid bleach) to kill germs. This is often used in hotels and by aid organizations.</li>
+                <li><strong>Ash Filtration:</strong> Using wood ash, sand, and gravel to filter out dirt and some germs. This is a traditional method used in some communities.</li>
             </ol>
-            <p><strong>Fire Safety Tips:</strong></p>
-            <ul>
-                <li>Know where the fire extinguisher is kept</li>
-                <li>Learn the "Stop, Drop, and Roll" technique if clothes catch fire</li>
-                <li>Never throw water on a grease fire - use a fire extinguisher or cover it with a lid</li>
-                <li>Have an escape plan and meeting place outside</li>
-            </ul>
+            <p><strong>Other Methods (for information):</strong> Using a water filter, letting water sit in the sun (solar disinfection), or using a cloth to strain out particles.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-skull-crossbones" style="color: #FF6B6B;"></i> Slippery Floor Example</div>
-                <p>A spilled glass of water on the kitchen floor can cause someone to slip and fall, possibly hitting their head or breaking a bone.</p>
+                <div class="example-title"><i class="fas fa-kitchen-set"></i> Boiling at Home</div>
+                <p>When mom boils water for tea or soup, she's not just cooking - she's making the water safe! Boiling is the most reliable method for home use.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fire"></i> Fire Hazard Example</div>
-                <p>A kitchen towel left too close to the stove burner can catch fire and quickly spread to other items in the kitchen.</p>
+                <div class="example-title"><i class="fas fa-hotel"></i> Chlorination in Hotels</div>
+                <p>Hotels and restaurants often use chlorine tablets or UV filters to ensure their drinking water and ice are safe for all guests.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cut"></i> Sharp Object Example</div>
-                <p>A knife left in a sink full of soapy water can't be seen and might cut someone when they reach into the water.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Traditional Ash Method</div>
+                <p>In some villages, people use ash from cooking fires mixed with sand and gravel to create a simple filter that removes dirt and some germs.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying and preventing kitchen hazards.",
+        taskInstructions: "Complete the water treatment matching activity and draw a step-by-step guide for one method.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Hazard Hunt</strong></p>
+                <p><strong>Part A: Matching Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at the kitchen picture below. Circle or list 5 hazards you can find:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #ccc; background-color: #f9f9f9;">
-                        <p style="text-align: center; color: #666; padding-top: 60px;">[Picture of a messy kitchen with spills, knife on counter, pot handle sticking out, towel near stove, toys on floor]</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Safety Rules</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> List three specific rules for keeping a kitchen safe:
-                    <div class="answer-space" style="height: 100px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> What should you do immediately if you spill something on the kitchen floor?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Fire Safety</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw a simple map of your kitchen at home and mark:
+                    <span class="task-number">1</span> Match each water treatment method to its description:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Where the fire extinguisher is (or should be)</div>
-                        <div>• Two escape routes</div>
-                        <div>• A safe meeting place outside</div>
+                        <div>___ Boiling</div>
+                        <div>___ Chlorination</div>
+                        <div>___ Ash filtration</div>
                     </div>
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+                    <div style="margin-left: 40px; margin-top: 5px;">
+                        <div>A. Adding tablets or liquid to kill germs</div>
+                        <div>B. Using sand, gravel, and ash to remove dirt</div>
+                        <div>C. Heating water until it bubbles to kill all germs</div>
+                    </div>
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Prevention Plan</strong></p>
+                <p><strong>Part B: Step-by-Step Guide</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Create a "Kitchen Safety Checklist" with 5 items to check before cooking:
-                    <div class="answer-space" style="height: 120px;"></div>
+                    <span class="task-number">2</span> Choose ONE method (boiling, chlorination, or ash filtration). Draw and write the steps in order:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Critical Thinking</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Why is it important to treat water before drinking it?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Which method would be easiest for your family to use at home? Why?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Practice the 'Stop, Drop, and Roll' technique with your family. Write down how it felt to practice this safety skill.",
+        homework: "Ask a family member: How does our family make sure our drinking water is safe? Write down their answer.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Home Economics",
-        topic: "First Aid for Kitchen Accidents",
-        subtopic: "Knowing what to do when something goes wrong",
+        topic: "Food Safety",
+        subtopic: "Safe Food Handling and Storage",
         lessonContent: `
-            <p>Today we will learn basic first aid for common kitchen accidents. Knowing what to do can help prevent small injuries from becoming big problems.</p>
-            <p><strong>Learning Objective:</strong> Students will identify the contents of a first aid box and describe basic responses to minor injuries.</p>
-            <p><strong>Key Concepts:</strong></p>
-            <ul>
-                <li><strong>The First Aid Box:</strong> Identifying items like bandages, antiseptic, and pain relief</li>
-                <li><strong>Emergency Response:</strong> Simple steps for treating minor cuts, small burns, or falls</li>
-                <li><strong>Recognizing Emergencies:</strong> Knowing when to call for an adult or professional help (suffocation or poisoning)</li>
-            </ul>
-            <p><strong>Basic First Aid Procedures:</strong></p>
+            <p>Today we'll learn how to handle and store food safely to prevent illness!</p>
+            <p><strong>Key Question:</strong> How can we keep our food safe from germs?</p>
+            <p><strong>Introduction:</strong> Germs are tiny living things that can get into food and make us sick. We can't see them, but we can protect ourselves by practicing good hygiene when handling and storing food.</p>
+            <p><strong>Safe Food Handling Rules:</strong></p>
             <ol>
-                <li><strong>Minor Cuts:</strong> Wash with clean water, apply antiseptic, cover with bandage</li>
-                <li><strong>Small Burns:</strong> Run under cool water for 10-15 minutes, don't pop blisters</li>
-                <li><strong>Falls:</strong> Check for serious injury, help person sit comfortably, apply ice to bumps</li>
-                <li><strong>Splinters:</strong> Clean area, use sterilized tweezers to remove, apply antiseptic</li>
+                <li><strong>Wash hands before handling food:</strong> Use soap and clean water, scrub for at least 20 seconds (sing "Happy Birthday" twice!)</li>
+                <li><strong>Clean all surfaces:</strong> Wipe countertops, cutting boards, and utensils before and after use</li>
+                <li><strong>Keep raw and cooked food separate:</strong> Use different cutting boards for raw meat and vegetables</li>
+                <li><strong>Wash fruits and vegetables:</strong> Rinse them under clean running water before eating or cooking</li>
+                <li><strong>Cover your mouth when coughing/sneezing:</strong> Turn away from food and use your elbow or a tissue</li>
             </ol>
-            <p><strong>When to Get Adult Help:</strong></p>
-            <ul>
-                <li>Bleeding that won't stop after 10 minutes of pressure</li>
-                <li>Large burns or burns on face, hands, or genitals</li>
-                <li>Someone has trouble breathing or is choking</li>
-                <li>Possible poisoning from chemicals or cleaning products</li>
-                <li>Head injury with confusion, dizziness, or vomiting</li>
-            </ul>
-            <p><strong>Remember:</strong> It's always okay to ask for help from an adult if you're not sure what to do!</p>
+            <p><strong>Safe Food Storage Rules:</strong></p>
+            <ol>
+                <li><strong>Keep cold food cold:</strong> Store perishable food in the refrigerator below 5°C</li>
+                <li><strong>Cover all food:</strong> Use lids, plastic wrap, or foil to keep insects and germs away</li>
+                <li><strong>Store food off the floor:</strong> Keep food on shelves, not on the ground</li>
+                <li><strong>Check expiration dates:</strong> Don't eat food that has expired</li>
+                <li><strong>Use leftovers within 2-3 days:</strong> Reheat thoroughly before eating</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-first-aid" style="color: #FF6B6B;"></i> Minor Cut Example</div>
-                <p>If you get a small cut while chopping vegetables, wash it with clean running water, apply antiseptic cream, and cover with a clean bandage.</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Hand Washing Heroes</div>
+                <p>Your hands touch many surfaces (door handles, phones, pets). Washing before cooking removes germs so they don't transfer to your food!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-thermometer-three-quarters"></i> Small Burn Example</div>
-                <p>If you touch a hot pan, immediately run your hand under cool (not cold) water for 10-15 minutes. Don't use ice or butter on burns.</p>
+                <div class="example-title"><i class="fas fa-snowflake"></i> Refrigerator Rules</div>
+                <p>Milk, eggs, meat, and leftovers must stay cold. If left out for more than 2 hours, harmful germs can grow quickly!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-phone-alt"></i> Emergency Example</div>
-                <p>If someone swallows cleaning liquid or another chemical, don't make them vomit. Call for an adult immediately and have the container ready to show what was swallowed.</p>
+                <div class="example-title"><i class="fas fa-fruit-apple"></i> Wash Before Eating</div>
+                <p>Even if you peel a banana or orange, wash it first! Your knife can carry germs from the peel to the inside fruit.</p>
             </div>
         `,
-        taskInstructions: "Practice identifying first aid items and learn proper responses to common kitchen injuries.",
+        taskInstructions: "Create a 'Safe Food Handling' poster and answer storage questions.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: First Aid Box Contents</strong></p>
+                <p><strong>Part A: Poster Design</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> "Unpacking the Box": Match each first aid item with its use:
+                    <span class="task-number">1</span> Create a "Safe Food Handling" poster showing 3 important rules:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Storage Scenarios</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Answer each question about food storage:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A. Adhesive bandage ___</div>
-                        <div>B. Antiseptic wipes ___</div>
-                        <div>C. Burn cream ___</div>
-                        <div>D. Tweezers ___</div>
-                        <div>E. Gauze pad ___</div>
-                        <div style="margin-top: 10px;">
-                            <em>Uses: 1. Clean small wounds 2. Cover larger cuts 3. Remove splinters 4. Cover small cuts 5. Treat minor burns</em>
-                        </div>
+                        <div><strong>A.</strong> Where should you store leftover soup?</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>B.</strong> How long can leftovers stay in the refrigerator?</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>C.</strong> Why should raw meat be stored on the bottom shelf of the refrigerator?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Injury Response</strong></p>
+                <p><strong>Part C: True or False</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Role-play activity: With a partner, practice what to do if someone gets a small cut. Write the steps you followed:
-                    <div class="answer-space" style="height: 100px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Identify three items in a first aid kit and explain what each is used for:
-                    <div class="answer-space" style="height: 100px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Emergency Recognition</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Sort these situations into "Treat Yourself" or "Get Adult Help":
+                    <span class="task-number">3</span> Write T (True) or F (False) for each statement:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A. Paper cut on finger ___</div>
-                        <div>B. Touched hot pan, small red mark ___</div>
-                        <div>C. Cut that won't stop bleeding ___</div>
-                        <div>D. Fell off chair and hit head ___</div>
-                        <div>E. Small splinter in finger ___</div>
+                        <div>___ You only need to wash your hands if they look dirty</div>
+                        <div>___ Fruits should be washed before eating</div>
+                        <div>___ It's okay to use the same cutting board for meat and vegetables</div>
+                        <div>___ Food should be covered to keep insects away</div>
+                        <div>___ Leftovers can stay out on the counter overnight</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: First Aid Kit Creation</strong></p>
+                <p><strong>Part D: Personal Commitment</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Design your own mini first aid kit for the kitchen. List 8 essential items it should contain:
-                    <div class="answer-space" style="height: 120px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">6</span> Draw and label your first aid kit design:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+                    <span class="task-number">4</span> Write one new habit you will start to keep food safe at home:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Check your home first aid kit with an adult. Make a list of what's in it and note any items that need to be replaced.",
-        homeworkDue: "Next Tuesday"
+        homework: "Help prepare a meal at home. Practice hand washing and safe food handling. Ask a parent to sign that you showed good hygiene.",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4HomeEconomicsWeek3);
-    console.log("homeeconomics-week3.js registered using registerWorksheet()");
+    console.log("grade4-homeeconomics-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4HomeEconomicsWeek3);
-    console.log("homeeconomics-week3.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-homeeconomics-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -223,9 +195,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4HomeEconomicsWeek3.metadata,
         days: grade4HomeEconomicsWeek3
     });
-    console.log("homeeconomics-week3.js stored in window.registeredWorksheets");
+    console.log("grade4-homeeconomics-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4HomeEconomicsWeek3 = grade4HomeEconomicsWeek3;
-console.log("homeeconomics-week3.js loaded and registered successfully");
+console.log("grade4-homeeconomics-week3.js loaded and registered successfully");

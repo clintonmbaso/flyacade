@@ -1,159 +1,217 @@
-// Grade 4 Home Economics - Week 2 Data
+// Grade 4 Home Economics - Term 1 Week 2 Data
 const grade4HomeEconomicsWeek2 = {
     metadata: {
         grade: 4,
         subject: "Home Economics",
+        term: 1,
         week: 2,
-        title: "Food Hygiene and Safe Water Practices",
-        description: "Understanding food handling, spoilage prevention, handwashing, and water treatment methods"
+        title: "Introduction to Food Hygiene",
+        description: "Learning about food safety, proper handling, preparation, and storage to prevent food spoilage"
     },
     
     tuesday: {
         subject: "Home Economics",
-        topic: "The Basics of Food Hygiene",
-        subtopic: "Understanding why we handle food carefully and how to prevent spoilage",
+        topic: "Food Safety",
+        subtopic: "Food Hygiene",
         lessonContent: `
-            <p>Welcome to our lesson on food hygiene! Today we will learn how to keep food safe and prevent it from spoiling, which helps keep our families healthy.</p>
-            <p><strong>Key Concept 1: Food Hygiene</strong><br>
-            Food hygiene means keeping food clean and safe to eat. When we handle food properly, we prevent germs from making us sick.</p>
-            <p><strong>Key Concept 2: Food Spoilage</strong><br>
-            Food spoilage happens when bacteria (tiny germs) grow on food. Bacteria love warm, moist places! That's why we use refrigerators to keep food cold or sealed containers to keep germs out.</p>
-            <p><strong>Signs of Spoiled Food:</strong></p>
+            <p>Welcome to our exploration of food hygiene! Today we'll learn why keeping food clean and safe is so important for our health.</p>
+            <p><strong>Key Question:</strong> Why is it important to handle, prepare, and store food safely?</p>
+            <p><strong>Introduction:</strong> Food hygiene means keeping food clean and safe to eat. When we don't practice good food hygiene, harmful germs can grow on our food and make us sick.</p>
+            <p><strong>Why Food Hygiene Matters:</strong></p>
             <ul>
-                <li>Strange smell</li>
-                <li>Change in color</li>
-                <li>Mold growing (fuzzy spots)</li>
-                <li>Unusual texture (slimy or mushy)</li>
+                <li>Prevents food poisoning and stomach illnesses</li>
+                <li>Keeps harmful bacteria away from our food</li>
+                <li>Helps food stay fresh longer</li>
+                <li>Protects our family's health</li>
             </ul>
-            <p><strong>Why Food Safety Matters:</strong> Eating spoiled food can cause stomach aches, vomiting, or serious illness. By handling food properly, we protect our health.</p>
+            <p><strong>The 3 Key Areas of Food Hygiene:</strong></p>
+            <ol>
+                <li><strong>Handling:</strong> How we touch and work with food</li>
+                <li><strong>Preparing:</strong> How we clean, cut, and cook food</li>
+                <li><strong>Storing:</strong> Where and how we keep food before and after cooking</li>
+            </ol>
+            <p><strong>Golden Rules of Food Hygiene:</strong></p>
+            <ul>
+                <li>Always wash your hands before touching food</li>
+                <li>Keep raw meat away from other foods</li>
+                <li>Wash fruits and vegetables before eating</li>
+                <li>Use clean utensils and cutting boards</li>
+                <li>Cover food to protect it from flies and dust</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-thermometer-half" style="color: #FF6B6B;"></i> Temperature Example</div>
-                <p>Bacteria grow fastest between 40°F and 140°F. That's why we keep hot food hot and cold food cold!</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Helping at Home</div>
+                <p>When you help prepare dinner, washing your hands first removes germs that could transfer to the food. This keeps everyone healthy!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box" style="color: #4A90E2;"></i> Storage Example</div>
-                <p>Leftover food should go in the refrigerator within 2 hours. Cover it to keep germs from other foods out.</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Wash Your Fruit</div>
+                <p>An apple from the store might have dirt, germs, or pesticides on its skin. Washing it under clean water removes these before you take a bite.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bread-slice"></i> Real-life Example</div>
-                <p>Bread left in a plastic bag in a warm kitchen might grow mold in just a few days. Storing it in a cool, dry place keeps it fresh longer.</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Separate Cutting Boards</div>
+                <p>Using one cutting board for raw chicken and another for vegetables prevents germs from the chicken getting onto the vegetables.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to understand food hygiene and spoilage prevention.",
+        taskInstructions: "Discuss and demonstrate proper food handling and preparation techniques.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> What is food hygiene? Why is it important?
-                <div class="answer-space" style="height: 60px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Class Discussion</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> After our discussion, write down three reasons why food hygiene is important:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> List three signs that food has spoiled:
-                <div class="answer-space" style="height: 60px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Hand Washing Steps</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> List the correct steps for washing your hands before handling food:
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Class Discussion: What happens to food if left out in the heat? Describe what you might see, smell, or notice.
-                <div class="answer-space" style="height: 80px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Safe or Unsafe?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read each scenario. Write whether it is SAFE or UNSAFE:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Cutting raw chicken, then chopping tomatoes on the same board without washing: _________</div>
+                        <div>B. Washing an orange before peeling it: _________</div>
+                        <div>C. Sneezing over a pot of soup: _________</div>
+                        <div>D. Using a clean spoon to taste food while cooking: _________</div>
+                    </div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> List three ways your family stores food at home to keep it fresh:
-                <div class="answer-space" style="height: 60px;"></div>
-                <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Examples: chilling in refrigerator, drying, covering, freezing, using sealed containers</p>
-            </div>
-            <div class="task-item">
-                <span class="task-number">5</span> <strong>Success Check:</strong> Identify two reasons why eating spoiled food is dangerous:
-                <div class="answer-space" style="height: 60px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Home Connection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw one thing you will do at home to practice good food hygiene:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
             </div>
         `,
-        homework: "Look in your kitchen at home. Find and draw one food item that is stored properly (like milk in the fridge) and one that might spoil if not stored well (like bread).",
+        homework: "Observe someone preparing food at home. Write down three things they do to keep food safe and one thing they could improve.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Home Economics",
-        topic: "Clean Hands and Safe Water",
-        subtopic: "Practical habits for food preparation and water treatment",
+        topic: "Food Safety",
+        subtopic: "Food Hygiene",
         lessonContent: `
-            <p>Today we will learn two very important skills: how to wash our hands properly and how to make water safe to drink. These habits protect us from getting sick.</p>
-            <p><strong>Key Concept 1: Personal Hygiene</strong><br>
-            Before we touch any food, we must wash our hands with soap and water. Germs on our hands can get into food and make people sick.</p>
-            <p><strong>The 20-Second Rule:</strong> Wash your hands for 20 seconds (about the time it takes to sing "Happy Birthday" twice) to remove germs effectively.</p>
-            <p><strong>Key Concept 2: Water Treatment</strong><br>
-            Not all water is safe to drink. Water can contain invisible germs that cause diseases. We can make water safe through different methods.</p>
-            <p><strong>Methods to Make Water Safe:</strong></p>
+            <p>Today we'll learn about safe food storage and how to prevent food from spoiling!</p>
+            <p><strong>Key Question:</strong> Why is safe food storage important, and how does it prevent food spoilage?</p>
+            <p><strong>What is Food Spoilage?</strong></p>
+            <ul>
+                <li>Food spoilage happens when food goes bad and is no longer safe to eat</li>
+                <li>Spoiled food may look, smell, or taste different</li>
+                <li>Eating spoiled food can make you sick</li>
+            </ul>
+            <p><strong>Signs of Spoiled Food:</strong></p>
+            <ul>
+                <li>Bad or sour smell</li>
+                <li>Mold (fuzzy spots in green, white, or black)</li>
+                <li>Change in color</li>
+                <li>Slimy or sticky texture</li>
+                <li>Expired "use by" date</li>
+            </ul>
+            <p><strong>Safe Food Storage Methods:</strong></p>
             <ol>
-                <li><strong>Boiling:</strong> Heating water until it bubbles for 1-3 minutes kills most germs</li>
-                <li><strong>Chlorination:</strong> Adding a few drops of chlorine or bleach (specially made for water)</li>
-                <li><strong>Using Ash:</strong> In some traditional methods, clean ash can help purify water</li>
-                <li><strong>Filtration:</strong> Passing water through a clean cloth or special filter</li>
+                <li><strong>Refrigeration:</strong> Keep perishable foods in the fridge (milk, meat, eggs, cooked leftovers)</li>
+                <li><strong>Freezing:</strong> Keep food in the freezer for long-term storage</li>
+                <li><strong>Pantry/Cupboard:</strong> Store dry goods in cool, dark places (rice, pasta, canned food, cereals)</li>
+                <li><strong>Airtight Containers:</strong> Keep food covered to protect from insects and air</li>
             </ol>
-            <p><strong>Important:</strong> After boiling water, let it cool down safely in a clean, covered container.</p>
+            <p><strong>Food Storage Tips:</strong></p>
+            <ul>
+                <li>Put leftovers in the fridge within 2 hours of cooking</li>
+                <li>Keep raw meat on the bottom shelf so it doesn't drip on other foods</li>
+                <li>Check expiration dates before eating</li>
+                <li>When in doubt, throw it out!</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-wash" style="color: #4A90E2;"></i> Handwashing Example</div>
-                <p>Washing hands before cooking, after using the toilet, after touching pets, and after playing outside removes germs that could contaminate food.</p>
+                <div class="example-title"><i class="fas fa-temperature-low"></i> The Cold Chain</div>
+                <p>Milk stays fresh because it's kept cold from the farm, to the truck, to the store, to your refrigerator. If the cold chain breaks, milk spoils quickly!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #36B37E;"></i> Boiling Example</div>
-                <p>When camping or during emergencies, boiling water for 3 minutes makes it safe to drink. Remember to use clean containers!</p>
+                <div class="example-title"><i class="fas fa-bread-slice"></i> Bread Storage</div>
+                <p>Bread stays fresh longer in a bread box or sealed bag. If left open, it becomes hard and stale. In humid weather, it might grow mold!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-filter"></i> Filtration Example</div>
-                <p>Some families use cloth filters or ceramic filters to remove dirt and some germs from water. This is common in many homes and hospitality settings.</p>
+                <div class="example-title"><i class="fas fa-clock"></i> The 2-Hour Rule</div>
+                <p>Food should not sit out at room temperature for more than 2 hours. After that, bacteria can grow quickly and make the food unsafe to eat.</p>
             </div>
         `,
-        taskInstructions: "Practice proper handwashing and learn methods for water treatment.",
+        taskInstructions: "Explain safe food storage methods and identify signs of food spoilage.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Handwashing Practice</strong></p>
+                <p><strong>Part A: Where Does It Go?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> <strong>Handwashing Drill:</strong> Practice washing your hands for 20 seconds. Time yourself or sing "Happy Birthday" twice.
+                    <span class="task-number">1</span> Draw lines to match each food with the correct storage place:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <p>Steps to remember:</p>
-                        <ol style="font-size: 0.9em;">
-                            <li>Wet hands with clean water</li>
-                            <li>Apply soap</li>
-                            <li>Rub hands together (palms, backs, between fingers, under nails)</li>
-                            <li>Scrub for 20 seconds</li>
-                            <li>Rinse with clean water</li>
-                            <li>Dry with a clean towel</li>
-                        </ol>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Fresh milk</div>
+                                <div>• Rice</div>
+                                <div>• Raw chicken</div>
+                                <div>• Ice cream</div>
+                                <div>• Bread</div>
+                                <div>• Leftover soup</div>
+                            </div>
+                            <div>
+                                <div>→ Refrigerator</div>
+                                <div>→ Freezer</div>
+                                <div>→ Cupboard/Pantry</div>
+                                <div>→ Bread box/Sealed bag</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> List three times when you should always wash your hands:
-                    <div class="answer-space" style="height: 60px;"></div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Water Treatment Methods</strong></p>
+                <p><strong>Part B: Spot the Spoilage</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Demonstration: Watch how water is boiled and cooled safely for drinking.
-                    <div class="answer-space" style="height: 60px;">
-                        <p style="color: #666; padding: 10px;">Write down the steps you observe:</p>
+                    <span class="task-number">2</span> For each sign, name what food problem it might indicate:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Green fuzzy spots on bread: _________</div>
+                        <div>B. Sour smell from milk: _________</div>
+                        <div>C. Slimy chicken: _________</div>
+                        <div>D. Can with a bulging lid: _________ (danger! do not eat)</div>
                     </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> <strong>Success Check:</strong> Name at least two ways to treat water to make it safe for consumption:
-                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Application</strong></p>
+                <p><strong>Part C: Storage Rules</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture showing the proper steps for handwashing:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
+                    <span class="task-number">3</span> List three important rules for safe food storage at home:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Refrigerator Organization</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> Imagine you are helping prepare food for guests. Write two hygiene rules you would follow:
-                    <div class="answer-space" style="height: 60px;"></div>
+                    <span class="task-number">4</span> Draw a refrigerator and show where you would store: milk, raw meat, vegetables, and leftovers:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it important to put leftovers in the refrigerator within 2 hours?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Practice the 20-second handwashing rule at home before one meal today. Teach it to one family member.",
+        homework: "Check your refrigerator at home. Identify three foods that need to be kept cold and check their expiration dates. Write what you found.",
         homeworkDue: "Monday"
     }
 };
@@ -161,10 +219,10 @@ const grade4HomeEconomicsWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4HomeEconomicsWeek2);
-    console.log("homeeconomics-week2.js registered using registerWorksheet()");
+    console.log("grade4-homeeconomics-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4HomeEconomicsWeek2);
-    console.log("homeeconomics-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-homeeconomics-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -175,9 +233,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4HomeEconomicsWeek2.metadata,
         days: grade4HomeEconomicsWeek2
     });
-    console.log("homeeconomics-week2.js stored in window.registeredWorksheets");
+    console.log("grade4-homeeconomics-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4HomeEconomicsWeek2 = grade4HomeEconomicsWeek2;
-console.log("homeeconomics-week2.js loaded and registered successfully");
+console.log("grade4-homeeconomics-week2.js loaded and registered successfully");

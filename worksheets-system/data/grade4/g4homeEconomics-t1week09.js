@@ -1,173 +1,220 @@
-// Grade 4 Home Economics - Week 9 Data
+// Grade 4 Home Economics - Term 1 Week 9 Data
 const grade4HomeEconomicsWeek9 = {
     metadata: {
         grade: 4,
         subject: "Home Economics",
+        term: 1,
         week: 9,
-        title: "Understanding Portion and Serving Sizes",
-        description: "Learning about portion control and using hands to measure food for healthy eating"
+        title: "Introduction to the Six Food Groups",
+        description: "Exploring the Zambia Food-Based Dietary Guidelines (ZFB-DG) and safe practical kitchen skills"
     },
     
     tuesday: {
         subject: "Home Economics",
-        topic: "Portion vs. Serving Size",
-        subtopic: "Understanding recommended amounts versus what we eat",
+        topic: "Food",
+        subtopic: "Food Groups - Practical Kitchen Skills",
         lessonContent: `
-            <p>Welcome to our lesson on healthy eating habits! Today we will learn about how much food we should eat to keep our bodies healthy.</p>
-            <p><strong>Key Concept:</strong> Eating the right amount of food is just as important as eating the right kinds of food.</p>
-            <p><strong>What is a Serving Size?</strong> A serving size is the recommended amount of food to eat at one time. It's like a "food guideline" for healthy eating.</p>
-            <p><strong>What is a Portion Size?</strong> A portion size is the amount of food you actually choose to put on your plate and eat.</p>
-            <p><strong>Why This Matters:</strong></p>
+            <p>Welcome to our Home Economics class! Today we'll learn how to safely use kitchen utensils for measuring, cutting, and chopping.</p>
+            <p><strong>Key Question:</strong> How can we use kitchen tools safely and correctly?</p>
+            <p><strong>Introduction:</strong> Before we learn about the foods we eat, we need to know how to prepare them safely. Using the right utensils correctly keeps us safe and makes cooking easier!</p>
+            <p><strong>Important Safety Rules:</strong></p>
+            <ol>
+                <li>Always wash your hands before handling food</li>
+                <li>Ask an adult for help when using sharp knives</li>
+                <li>Keep your fingers away from the blade when cutting</li>
+                <li>Use a cutting board - never cut on a plate or counter</li>
+                <li>Clean up spills immediately to prevent slipping</li>
+            </ol>
+            <p><strong>Measuring Utensils:</strong></p>
             <ul>
-                <li>Helps us maintain a healthy weight</li>
-                <li>Gives our bodies the right amount of energy</li>
-                <li>Prevents us from eating too much or too little</li>
-                <li>Helps us get all the nutrients we need</li>
+                <li><strong>Measuring cups:</strong> For dry ingredients like flour and sugar</li>
+                <li><strong>Measuring spoons:</strong> For small amounts of ingredients</li>
+                <li><strong>Liquid measuring cup:</strong> Clear cup with markings for water, milk, oil</li>
+                <li><strong>Kitchen scale:</strong> For weighing ingredients accurately</li>
             </ul>
-            <p><strong>Think About It:</strong> How do you decide how much Nshima or relish to put on your plate? Do you think about how much you need, or just what you want?</p>
-            <p>When we control our portion sizes, we help our bodies stay healthy and strong!</p>
+            <p><strong>Cutting & Chopping Utensils:</strong></p>
+            <ul>
+                <li><strong>Paring knife:</strong> Small knife for peeling and cutting fruits/vegetables</li>
+                <li><strong>Chef's knife:</strong> Large knife for chopping (use with adult help)</li>
+                <li><strong>Vegetable peeler:</strong> For removing skins safely</li>
+                <li><strong>Cutting board:</strong> Always use one to protect your counter and knife</li>
+            </ul>
+            <p><strong>The Claw Grip (Safe Cutting Technique):</strong></p>
+            <ul>
+                <li>Tuck your fingertips under like a claw</li>
+                <li>Use your knuckles to guide the knife</li>
+                <li>Keep your thumb behind your fingers</li>
+                <li>Cut slowly and carefully</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #4A90E2;"></i> Serving Size Example</div>
-                <p>A serving of rice might be ½ cup (about the size of a small handful), but your portion might be 1 cup (two handfuls).</p>
+                <div class="example-title"><i class="fas fa-tape"></i> Measuring Flour Correctly</div>
+                <p>To measure flour: scoop it into the measuring cup, then level it off with a straight edge (like a knife back). Don't pack it down unless the recipe says so!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt"></i> Fruit Example</div>
-                <p>A serving of fruit is usually one medium apple or orange, but your portion might be two apples if you're very hungry.</p>
+                <div class="example-title"><i class="fas fa-carrot"></i> The Claw in Action</div>
+                <p>When cutting a carrot, curl your fingers like a claw on top of the carrot. Your knuckles touch the knife blade, keeping your fingertips safe!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bread-slice"></i> Nshima Example</div>
-                <p>A serving of Nshima might be one medium-sized ball, but sometimes we take two or three balls as our portion.</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Safety First</div>
+                <p>Always cut away from your body. If the knife slips, it will move away from you instead of toward you.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to understand serving sizes versus portion sizes.",
+        taskInstructions: "Practice safe measuring and cutting techniques with teacher supervision.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> What is the difference between a "serving size" and a "portion size"?
-                <div class="answer-space" style="height: 80px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> List two reasons why controlling portion sizes is important for our health:
-                <div class="answer-space" style="height: 60px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Look at the food packaging or drawings your teacher gives you. Write down:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>A. The recommended serving size: ________________</div>
-                    <div>B. Your usual portion size: ________________</div>
-                    <div>C. Are they the same or different? ________________</div>
+            <div class="content-box">
+                <p><strong>Part A: Utensil Identification</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw and label three measuring utensils and two cutting utensils:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw two plates: one with a healthy portion size and one with a too-large portion size:
-                <div style="display: flex; gap: 20px; margin-top: 10px;">
-                    <div style="flex: 1;">
-                        <p><strong>Healthy Portion:</strong></p>
-                        <div class="drawing-area" style="height: 120px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Measuring Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> With teacher supervision, practice measuring:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• 1 cup of flour (level it off!)</div>
+                        <div>• 1/2 cup of water (check at eye level)</div>
+                        <div>• 1 tablespoon of sugar</div>
                     </div>
-                    <div style="flex: 1;">
-                        <p><strong>Too Large Portion:</strong></p>
-                        <div class="drawing-area" style="height: 120px;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                        <p><em>What did you notice about measuring liquids vs. dry ingredients?</em></p>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Safe Cutting Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> With teacher supervision and a safe knife, practice the claw grip while cutting:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• A banana (soft and easy to cut)</div>
+                        <div>• A cucumber (practice slicing)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <p style="text-align: center; color: #999; padding-top: 35px;">[Draw your hand position using the claw grip]</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Safety Rules</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> List three kitchen safety rules you learned today:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it important to use a cutting board?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "At home tonight, notice how much food you put on your plate. Write down one food where your portion size matched the recommended serving size.",
+        homework: "With an adult's help at home, practice measuring 1 cup of rice and cutting a soft fruit like a banana. Ask the adult to sign your notebook.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Home Economics",
-        topic: "Using Your Hands to Measure",
-        subtopic: "Handy measures for estimating food portions",
+        topic: "Food",
+        subtopic: "The Six Food Groups (Zambia Food-Based Dietary Guidelines)",
         lessonContent: `
-            <p>Today we will learn a fun and easy way to measure food without using scales or measuring cups!</p>
-            <p><strong>Think About It:</strong> Do you always have a scale or measuring cup when you're eating? Probably not! That's why we can use our hands as measuring tools.</p>
-            <p><strong>Handy Measures:</strong></p>
+            <p>Today we'll learn about the six food groups following the Zambia Food-Based Dietary Guidelines (ZFB-DG)!</p>
+            <p><strong>Key Question:</strong> What are the six food groups, and why do we need foods from each group?</p>
+            <p><strong>Introduction:</strong> No single food gives us everything our bodies need. Eating a variety of foods from all six groups helps us grow strong, stay healthy, and have energy for school and play!</p>
+            <p><strong>The Six Food Groups (Zambia Food-Based Dietary Guidelines):</strong></p>
             <ol>
-                <li><strong>A Fist:</strong> Use your closed fist to measure portions of carbohydrates like rice, Nshima, or potatoes. One fist is about one serving.</li>
-                <li><strong>A Thumb:</strong> Use your thumb to measure fats or oils like cooking oil, butter, or peanut butter. One thumb is about one serving.</li>
-                <li><strong>The Palm:</strong> Use your palm (without fingers) to measure protein portions like meat, chicken, or fish. One palm is about one serving.</li>
-                <li><strong>A Handful:</strong> Use your cupped hand to measure snacks like nuts, chips, or fruit pieces.</li>
+                <li><strong>Staples (Energy Foods):</strong> Nshima, maize meal, rice, sorghum, millet, cassava, potatoes, bread
+                    <ul><li>Give us energy to move, think, and grow</li></ul>
+                </li>
+                <li><strong>Vegetables:</strong> Rape, cabbage, pumpkin leaves (chibwabwa), tomatoes, onions, okra
+                    <ul><li>Protect us from sickness and help our bodies work properly</li></ul>
+                </li>
+                <li><strong>Fruits:</strong> Mangoes, oranges, bananas, pawpaw, guavas, watermelon, wild fruits (masuku, masese)
+                    <ul><li>Provide vitamins that keep our skin, eyes, and immune system healthy</li></ul>
+                </li>
+                <li><strong>Legumes, Nuts, and Seeds (Body-Building Foods - Plant Source):</strong> Beans, cowpeas, soya beans, groundnuts, bambara nuts, sunflower seeds
+                    <ul><li>Help build and repair muscles and body tissues</li></ul>
+                </li>
+                <li><strong>Animal Source Foods (Body-Building Foods - Animal Source):</strong> Meat (beef, goat, chicken), fish (fresh, dried, kapenta), eggs, milk, cheese, caterpillars (ifinkubala/madora)
+                    <ul><li>Provide protein for strength and growth; milk gives calcium for strong bones</li></ul>
+                </li>
+                <li><strong>Fats and Oils:</strong> Cooking oil, butter, margarine, groundnut paste (peanut butter)
+                    <ul><li>Give concentrated energy and help absorb certain vitamins</li></ul>
+                </li>
             </ol>
-            <p><strong>The Half-Plate Rule:</strong> Fill half your plate with vegetables or salad. This helps you get enough vitamins and minerals.</p>
-            <p><strong>Why These Measures Are Useful:</strong></p>
-            <ul>
-                <li>You always have your hands with you!</li>
-                <li>Hand sizes grow with your body</li>
-                <li>Easy to remember and use at home</li>
-                <li>Helps you make healthy choices anywhere</li>
-            </ul>
+            <p><strong>Water - The Seventh Essential!</strong> While not a food group, clean drinking water is very important for health. Drink water throughout the day.</p>
+            <p><strong>Key Message from ZFB-DG:</strong> Eat a variety of foods from all six groups every day for good health!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-fist" style="color: #FF6B6B;"></i> Fist for Carbohydrates</div>
-                <p>One fist of Nshima or rice is about one serving. If you take two fists, that's two servings!</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> A Balanced Meal Example</div>
+                <p>A healthy Zambian plate: Nshima (staples) + rape with tomato and onion (vegetables) + kapenta or beans (protein) + a small spoon of cooking oil (fats). Add a piece of fruit for dessert!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-thumbs-up"></i> Thumb for Fats</div>
-                <p>One thumb of cooking oil or butter is enough for cooking or spreading. This helps us not use too much fat.</p>
+                <div class="example-title"><i class="fas fa-seedling"></i> Wild & Local Foods</div>
+                <p>Zambia has many nutritious local foods: masuku (wild loquats), ifinkubala (caterpillars - rich in protein), chibwabwa (pumpkin leaves), and munkoyo (fermented drink).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand" style="color: #8B4513;"></i> Palm for Protein</div>
-                <p>One palm-sized piece of fish or meat gives you enough protein for a meal. Your palm is about the size of a deck of cards.</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Why Variety Matters</div>
+                <p>Eating only nshima and fish would miss the vitamins from fruits and vegetables. Eating only fruits would miss the energy from staples. Every group has a special job!</p>
             </div>
         `,
-        taskInstructions: "Practice using your hands to measure different types of food.",
+        taskInstructions: "Identify and categorize foods into the six food groups.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Matching Hand Measures</strong></p>
+                <p><strong>Part A: Six Food Groups Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match each food with the correct hand measure:
+                    <span class="task-number">1</span> Complete the chart by writing at least 3 foods in each group:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A. Rice or Nshima ___</div>
-                        <div>B. Cooking oil ___</div>
-                        <div>C. Chicken or meat ___</div>
-                        <div>D. Vegetables for your plate ___</div>
-                        <div style="margin-top: 10px;">
-                            <em>Measures: 1. Fist 2. Thumb 3. Palm 4. Half your plate</em>
-                        </div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4CAF50; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Food Group</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Examples (3 or more)</th>
+                            </tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Staples</td><td style="padding: 8px; border: 1px solid #ddd; height: 60px;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Vegetables</td><td style="padding: 8px; border: 1px solid #ddd; height: 60px;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Fruits</td><td style="padding: 8px; border: 1px solid #ddd; height: 60px;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Legumes, Nuts & Seeds</td><td style="padding: 8px; border: 1px solid #ddd; height: 60px;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Animal Source Foods</td><td style="padding: 8px; border: 1px solid #ddd; height: 60px;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Fats & Oils</td><td style="padding: 8px; border: 1px solid #ddd; height: 60px;"></td></tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Practice Measuring</strong></p>
+                <p><strong>Part B: What's for Breakfast?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Use your hands to "measure" items on your desk or play-food:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A. Find something that's about one fist size: ________________</div>
-                        <div>B. Find something that's about one thumb size: ________________</div>
-                        <div>C. Find something that's about one palm size: ________________</div>
-                    </div>
+                    <span class="task-number">2</span> Look at this breakfast: <strong>Tea with sugar + bread</strong>
+                    <div>Which food groups are included? Which groups are missing?</div>
+                    <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create a Healthy Plate</strong></p>
+                <p><strong>Part C: Design a Balanced Meal</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a plate showing the "half-plate rule" and hand measures:
-                    <div class="drawing-area" style="height: 200px; margin-top: 10px;">
-                        <p style="text-align: center; color: #666; padding-top: 80px;">Draw a plate divided into sections. Label each section with the food group and hand measure.</p>
-                    </div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Include: Vegetables (½ plate), Protein (1 palm), Carbohydrates (1 fist)</p>
+                    <span class="task-number">3</span> Draw a plate showing a balanced meal that includes all six food groups:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px solid #4CAF50;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> List the foods you drew and which group each belongs to:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Real Life Application</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why are "handy measures" useful when cooking or eating at home?
+                    <span class="task-number">5</span> Why is it important to eat foods from ALL six groups, not just one or two?
                     <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Create a simple reminder rhyme or slogan about hand measures:
-                    <div class="answer-space" style="height: 60px; font-weight: bold; text-align: center;"></div>
                 </div>
             </div>
         `,
-        homework: "At home, help prepare a meal using hand measures. Tell your family about one 'handy measure' you learned.",
+        homework: "Look at the foods your family eats for dinner tonight. Write down each food and identify which of the six food groups it belongs to. Which group is missing?",
         homeworkDue: "Monday"
     }
 };
@@ -175,10 +222,10 @@ const grade4HomeEconomicsWeek9 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4HomeEconomicsWeek9);
-    console.log("homeeconomics-week9.js registered using registerWorksheet()");
+    console.log("grade4-homeeconomics-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4HomeEconomicsWeek9);
-    console.log("homeeconomics-week9.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-homeeconomics-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -189,9 +236,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4HomeEconomicsWeek9.metadata,
         days: grade4HomeEconomicsWeek9
     });
-    console.log("homeeconomics-week9.js stored in window.registeredWorksheets");
+    console.log("grade4-homeeconomics-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4HomeEconomicsWeek9 = grade4HomeEconomicsWeek9;
-console.log("homeeconomics-week9.js loaded and registered successfully");
+console.log("grade4-homeeconomics-week9.js loaded and registered successfully");

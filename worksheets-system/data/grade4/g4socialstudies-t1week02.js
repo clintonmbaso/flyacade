@@ -1,169 +1,197 @@
-// Grade 4 Social Studies - Week 2 Data
+// Grade 4 Social Studies - Term 1 Week 2 Data
 const grade4SocialStudiesWeek2 = {
     metadata: {
         grade: 4,
         subject: "Social Studies",
+        term: 1,
         week: 2,
-        title: "Understanding Families",
-        description: "Exploring family members and different family structures in society"
+        title: "Family Structures & Relationships",
+        description: "Understanding family members, relationships, and different types of family structures"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Family",
-        subtopic: "Members of the Family",
-        duration: "40 Minutes",
-        learningObjectives: "By the end of the lesson, the learner should be able to identify and name various members of their immediate and extended family.",
+        topic: "The Family",
+        subtopic: "Members of the Family & Relationships",
         lessonContent: `
-            <p>Welcome to Week 2 of Social Studies! This week, we are going to learn about families—who is in them and how they are related to us.</p>
-            <p><strong>Introduction:</strong> Let's begin by thinking about the people you live with or see often. Who makes up your family at home?</p>
-            <p><strong>Family Members We Will Learn:</strong> Here are some common family terms you might already know:</p>
+            <p>Welcome to our exploration of families! Today we'll learn about the different people who make up a family and how they are related to one another.</p>
+            <p><strong>Key Question:</strong> Who is in your family, and how are you related to them?</p>
+            <p><strong>Introduction:</strong> A family is a group of people who are related to each other by blood, marriage, or adoption. Families care for, support, and love one another.</p>
+            <p><strong>Immediate Family Members:</strong></p>
             <ul>
-                <li>Father (Dad)</li>
-                <li>Mother (Mom)</li>
-                <li>Brother</li>
-                <li>Sister</li>
-                <li>Uncle</li>
-                <li>Auntie (or Aunt)</li>
-                <li>Cousin</li>
-                <li>Grandparents (Grandma & Grandpa)</li>
+                <li><strong>Father/Mother:</strong> Your parents who gave birth to you or adopted you</li>
+                <li><strong>Brother:</strong> A male sibling (shares at least one parent with you)</li>
+                <li><strong>Sister:</strong> A female sibling (shares at least one parent with you)</li>
             </ul>
-            <p><strong>Understanding Relationships:</strong> Sometimes family members are connected through parents. For example:</p>
+            <p><strong>Extended Family Members:</strong></p>
             <ul>
-                <li>Your mother’s brother is your uncle.</li>
-                <li>Your father’s sister is your auntie.</li>
-                <li>Your uncle or auntie’s children are your cousins.</li>
-                <li>Your parents’ parents are your grandparents.</li>
+                <li><strong>Grandparents:</strong> Your parents' parents (grandfather, grandmother)</li>
+                <li><strong>Uncle:</strong> Your parent's brother or your aunt's husband</li>
+                <li><strong>Aunt:</strong> Your parent's sister or your uncle's wife</li>
+                <li><strong>Cousin:</strong> The child of your aunt or uncle</li>
             </ul>
-            <p><strong>Why Families Matter:</strong> Families help us feel loved, safe, and supported. Knowing who our family members are helps us understand our own story and background.</p>
+            <p><strong>Family Relationships:</strong> Understanding how family members are connected helps us appreciate our family history and heritage.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #4CAF50;"></i> Family Story Example</div>
-                <p>"My uncle Tom is my mother's brother. He visits us every Sunday and tells funny stories."</p>
+                <div class="example-title"><i class="fas fa-tree"></i> The Family Tree</div>
+                <p>A family tree is like a map of your family! It shows how each person is connected. Grandparents are at the top, parents in the middle, and children at the bottom.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree"></i> Family Tree Example</div>
-                <p>A family tree starts with grandparents at the top, then parents, then children. It helps us see how everyone is connected.</p>
+                <div class="example-title"><i class="fas fa-heart"></i> Family Bonds</div>
+                <p>Your cousins are your first friends in many families! Even though they don't live in your house, they are still part of your extended family.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-heart"></i> Everyone's Family is Unique</div>
-                <p>Some students may live with grandparents, some with many cousins, some with one parent. All families are special!</p>
+                <div class="example-title"><i class="fas fa-users"></i> Who Is Family?</div>
+                <p>Family isn't just about blood relations. Some families include step-parents, step-siblings, and adopted children who are loved just as much!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to show your understanding of family members and relationships.",
+        taskInstructions: "List family members and create a basic family tree.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Write the correct family member name next to each description:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>a) My father’s father is my _______________</div>
-                    <div>b) My mother’s sister is my _______________</div>
-                    <div>c) My uncle’s daughter is my _______________</div>
-                    <div>d) My mother and father are my _______________</div>
-                    <div>e) My brother’s son is my _______________</div>
+            <div class="content-box">
+                <p><strong>Part A: Identifying Family Members</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> List your immediate family members:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> List your extended family members (grandparents, aunts, uncles, cousins):
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw your own family tree in the space below. Include at least 5 family members and label each one:
-                <div class="drawing-area" style="height: 200px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">My family tree shows: ______________________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Family Tree Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a basic family tree showing at least 3 generations:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="font-size: 12px; color: #666;">Example layout: Grandparents (top) → Parents (middle) → Children/You (bottom)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write a short paragraph about one of your favorite family members. Explain who they are and why you like spending time with them:
-                <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Relationship Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Answer these relationship questions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Your mother's brother is your ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        <div>• Your aunt's daughter is your ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        <div>• Your father's father is your ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        <div>• Your sibling who is male is your ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                    </div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Match the family member on the left with the correct relationship on the right:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. Grandmother <span style="margin-left: 20px;">____ Mother’s brother</span></div>
-                    <div>2. Uncle <span style="margin-left: 20px;">____ Father’s mother</span></div>
-                    <div>3. Cousin <span style="margin-left: 20px;">____ Aunt’s child</span></div>
-                    <div>4. Sister <span style="margin-left: 20px;">____ Parents’ daughter</span></div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it important to know your family members and how you are related to them?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Interview one family member (e.g., grandparent, aunt, uncle) and ask them to tell you about one of their favorite family memories. Write down what they share.",
+        homework: "Ask a parent or guardian to help you add more names to your family tree. Find out the names of your great-grandparents if possible.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Family",
-        subtopic: "Different Types of Families",
-        duration: "40 Minutes",
-        learningObjectives: "By the end of the lesson, the learner should be able to describe and distinguish between different family structures, including nuclear, extended, and single-parent families.",
+        topic: "The Family",
+        subtopic: "Types of Families",
         lessonContent: `
-            <p>Welcome back! Today, we will learn that families come in many different shapes and sizes—and all of them are important.</p>
-            <p><strong>Recap:</strong> Let's quickly review the family members we talked about on Monday.</p>
-            <p><strong>Different Family Structures:</strong> Families can be organized in different ways. Here are some common types:</p>
-            <ul>
-                <li><strong>Nuclear Family:</strong> A family that includes only parents and their children.</li>
-                <li><strong>Extended Family:</strong> A family that includes not only parents and children but also other relatives like grandparents, aunts, uncles, and cousins living together or nearby.</li>
-                <li><strong>Single-Parent Family:</strong> A family where one parent raises the child or children.</li>
-                <li><strong>Child-Headed or Guardian-Headed Family:</strong> A family where children live with an older sibling, another relative, or a legal guardian instead of parents.</li>
-            </ul>
-            <p><strong>Why It Matters:</strong> No family type is better than another. What makes a family strong is love, care, and support. Every family is unique and special in its own way.</p>
-            <p><strong>Respect and Understanding:</strong> It's important to respect all family types. We should never make someone feel their family is “less than” because it looks different from ours.</p>
+            <p>Today we'll learn about the different ways families can be structured. Every family is unique and special!</p>
+            <p><strong>Key Question:</strong> What are the different types of family structures?</p>
+            <p><strong>Introduction:</strong> Families come in many shapes and sizes. No two families are exactly the same, and all families can be loving and supportive.</p>
+            <p><strong>Types of Family Structures:</strong></p>
+            <ol>
+                <li><strong>Nuclear Family:</strong> Two parents (mother and father) and their children living together in one home</li>
+                <li><strong>Extended Family:</strong> A family that includes grandparents, aunts, uncles, and cousins living together or nearby</li>
+                <li><strong>Single-Parent Family:</strong> One parent raising one or more children (could be mother or father)</li>
+                <li><strong>Child-Headed Family:</strong> A family where older children care for younger siblings without parents present</li>
+                <li><strong>Guardian-Headed Family:</strong> Children are raised by guardians (not their biological parents), such as grandparents, other relatives, or foster parents</li>
+            </ol>
+            <p><strong>Important to Remember:</strong> The structure of a family doesn't determine how much love exists within it. Every family type can be happy and healthy.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #2196F3;"></i> Nuclear Family Example</div>
-                <p>Maria lives with her mom, dad, and younger brother. This is a nuclear family.</p>
+                <div class="example-title"><i class="fas fa-home"></i> Nuclear Family Example</div>
+                <p>Maria lives with her mom, dad, and younger brother. They eat dinner together every night and help each other with homework. This is a nuclear family.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping"></i> Extended Family Example</div>
-                <p>David lives with his parents, his grandmother, and his cousin. This is an extended family.</p>
+                <div class="example-title"><i class="fas fa-house-user"></i> Extended Family Example</div>
+                <p>James lives with his parents, his baby sister, his grandmother, and his two cousins. His aunt and uncle live next door. This is an extended family.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-friends"></i> Single-Parent Family Example</div>
-                <p>Aisha lives with her mother. Her father lives in another city. This is a single-parent family.</p>
+                <div class="example-title"><i class="fas fa-hands-helping"></i> Guardian-Headed Family Example</div>
+                <p>After Sarah's parents moved away for work, her aunt and uncle became her guardians. They take care of her and send her to school. This is a guardian-headed family.</p>
             </div>
         `,
-        taskInstructions: "Show your understanding of different family types by completing the tasks below.",
+        taskInstructions: "Identify and describe different types of family structures.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Match the Family Type</strong></p>
+                <p><strong>Part A: Identifying Family Types</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Read each description and write the correct family type (Nuclear, Extended, Single-Parent, or Guardian-Headed):
+                    <span class="task-number">1</span> Read each description and write which type of family it describes:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) A family with a mother, father, and two children. ________________</div>
-                        <div>b) A family where children live with their aunt. ________________</div>
-                        <div>c) A family with a mother, son, grandmother, and cousin. ________________</div>
-                        <div>d) A family where a father raises his three children alone. ________________</div>
+                        <div><strong>Description 1:</strong> "Both parents live with their two children in a small apartment."</div>
+                        <div>Family Type: ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Description 2:</strong> "Grandparents, parents, and three generations live under one roof."</div>
+                        <div>Family Type: ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Description 3:</strong> "A mother raises her son alone after her husband passed away."</div>
+                        <div>Family Type: ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Description 4:</strong> "An older sister cooks, cleans, and takes her younger brother to school because their parents are no longer around."</div>
+                        <div>Family Type: ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Description 5:</strong> "A grandmother takes care of her grandchildren after their parents moved to another country for work."</div>
+                        <div>Family Type: ___________</div>
+                        <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Draw Your Family Type</strong></p>
+                <p><strong>Part B: Compare and Contrast</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a picture of your own family. Below your drawing, write which type of family you think you have and why:
-                    <div class="drawing-area" style="height: 180px;"></div>
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">My family is a ________________ family because ______________________________</div>
+                    <span class="task-number">2</span> How is a nuclear family different from an extended family?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> What is the difference between a single-parent family and a guardian-headed family?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Why Every Family is Special</strong></p>
+                <p><strong>Part C: Draw Your Family Type</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write one reason why each family type is important:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Nuclear families: ________________________________</div>
-                        <div>Extended families: ________________________________</div>
-                        <div>Single-parent families: ________________________________</div>
-                    </div>
+                    <span class="task-number">4</span> Draw a picture of your family. Then write which type of family you have:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Family Interview Reflection</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Share one thing you learned from the family interview homework. How did it help you understand your family better?
+                    <span class="task-number">5</span> Why is it important to respect different types of families?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Talk to someone in your family about what makes your family special. Write down three things you appreciate about your family.",
+        homework: "Ask a family member about your own family structure. What type of family do you have? Share one thing you learned about your family history.",
         homeworkDue: "Monday"
     }
 };
@@ -171,10 +199,10 @@ const grade4SocialStudiesWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade4SocialStudiesWeek2);
-    console.log("social-studies-week2.js registered using registerWorksheet()");
+    console.log("grade4-socialstudies-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade4SocialStudiesWeek2);
-    console.log("social-studies-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade4-socialstudies-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -185,9 +213,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade4SocialStudiesWeek2.metadata,
         days: grade4SocialStudiesWeek2
     });
-    console.log("social-studies-week2.js stored in window.registeredWorksheets");
+    console.log("grade4-socialstudies-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade4SocialStudiesWeek2 = grade4SocialStudiesWeek2;
-console.log("social-studies-week2.js loaded and registered successfully");
+console.log("grade4-socialstudies-week2.js loaded and registered successfully");
