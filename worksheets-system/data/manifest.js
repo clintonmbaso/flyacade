@@ -616,6 +616,25 @@ const WorksheetManifest = {
         'data/grade4/g4socialstudies-t1week08.js',
         'data/grade4/g4socialstudies-t1week09.js',
         'data/grade4/g4socialstudies-t1week10.js',
+    
+        'data/grade4/g4socialstudies-t2week02.js',
+        'data/grade4/g4socialstudies-t2week03.js',
+        'data/grade4/g4socialstudies-t2week04.js',
+        'data/grade4/g4socialstudies-t2week05.js',
+        'data/grade4/g4socialstudies-t2week07.js',
+        'data/grade4/g4socialstudies-t2week08.js',
+        'data/grade4/g4socialstudies-t2week09.js',
+        'data/grade4/g4socialstudies-t2week10.js',
+
+        'data/grade4/g4socialstudies-t3week02.js',
+        'data/grade4/g4socialstudies-t3week03.js',
+        'data/grade4/g4socialstudies-t3week04.js',
+        'data/grade4/g4socialstudies-t3week05.js',
+        'data/grade4/g4socialstudies-t3week07.js',
+        'data/grade4/g4socialstudies-t3week08.js',
+        'data/grade4/g4socialstudies-t3week09.js',
+        'data/grade4/g4socialstudies-t3week10.js',
+
          // Literacy
         'data/grade4/g4literacy-t1week02.js',
         'data/grade4/g4literacy-t1week03.js',
@@ -682,6 +701,24 @@ const WorksheetManifest = {
         'data/grade4/g4homeEconomics-t1week09.js',
         'data/grade4/g4homeEconomics-t1week10.js',
     
+        'data/grade4/g4homeEconomics-t2week02.js',
+        'data/grade4/g4homeEconomics-t2week03.js',
+        'data/grade4/g4homeEconomics-t2week04.js',
+        'data/grade4/g4homeEconomics-t2week05.js',
+        'data/grade4/g4homeEconomics-t2week07.js',
+        'data/grade4/g4homeEconomics-t2week08.js',
+        'data/grade4/g4homeEconomics-t2week09.js',
+        'data/grade4/g4homeEconomics-t2week10.js',
+
+        'data/grade4/g4homeEconomics-t3week02.js',
+        'data/grade4/g4homeEconomics-t3week03.js',
+        'data/grade4/g4homeEconomics-t3week04.js',
+        'data/grade4/g4homeEconomics-t3week05.js',
+        'data/grade4/g4homeEconomics-t3week07.js',
+        'data/grade4/g4homeEconomics-t3week08.js',
+        'data/grade4/g4homeEconomics-t3week09.js',
+        'data/grade4/g4homeEconomics-t3week10.js',
+
          // Technology Studies
         'data/grade4/g4technologyStudies-t1week02.js',
         'data/grade4/g4technologyStudies-t1week03.js',
