@@ -1,325 +1,323 @@
-// Grade 2 Literacy - Week 10 Data (Alternative Consonant Spellings)
+// Grade 2 Literacy - Term 1 Week 10 Data
 const grade2LiteracyWeek10 = {
     metadata: {
         grade: 2,
         subject: "Literacy",
+        term: 1,
         week: 10,
-        title: "Alternative Consonant Spellings - Blending and Fluency",
-        description: "Blending words with alternative consonants and reading them in context"
+        title: "Alternative Digraphs & Trigraphs",
+        description: "Reading sentences with alternative digraph spelling choices, introducing trigraphs (/ear/, /air/, /oor/), and blending words with trigraphs"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "Blending Practice with Mixed Consonants",
-        subtopic: "Fluent blending and reading of words with alternative consonant spellings",
+        topic: "Phonics",
+        subtopic: "Alternative Digraph Spelling Choices",
         lessonContent: `
-            <p>Welcome to our Literacy lesson! Today we are all "Word Builders" who will use all the special consonant teams we've learned so far.</p>
-            <p><strong>Key Concept:</strong> We can blend and read words with different consonant spellings smoothly and correctly.</p>
-            <p><strong>What we're reviewing:</strong></p>
+            <p>Welcome to our phonics lesson! Today we'll practice reading sentences with different digraph spelling choices.</p>
+            <p><strong>Key Question:</strong> Can you spot the digraphs in these sentences?</p>
+            <p><strong>Introduction:</strong> Digraphs are two letters that come together to make one sound. Sometimes the same sound can be spelled in different ways!</p>
+            <p><strong>Alternative Digraph Patterns:</strong></p>
             <ul>
-                <li><strong>"ph"</strong> makes the /f/ sound like in <strong>phone</strong></li>
-                <li><strong>"kn"</strong> makes the /n/ sound like in <strong>knock</strong></li>
-                <li><strong>"wr"</strong> makes the /r/ sound like in <strong>wrist</strong></li>
-                <li><strong>"wh"</strong> makes the /w/ sound like in <strong>white</strong></li>
-                <li><strong>"ck"</strong> makes the /k/ sound like in <strong>clock</strong></li>
-                <li><strong>Double consonants</strong> like in <strong>dress</strong></li>
+                <li><strong>ink / ing:</strong> pink, ring, wink, king</li>
+                <li><strong>atch / itch / etch:</strong> hatch, catch, pitch, fetch</li>
+                <li><strong>ish / ash / ush:</strong> fish, mash, push, wash</li>
             </ul>
-            <p><strong>Blending Strategy:</strong> Look at the whole word, find the special consonant team, then blend all the sounds together smoothly.</p>
-            <p><strong>Why is blending important?</strong> Smooth blending helps us read words quickly and understand what we're reading!</p>
+            <p><strong>Let's Practice Reading:</strong></p>
+            <ul>
+                <li>"pink bag" - The /ink/ sound</li>
+                <li>"hatching eggs" - The /atch/ sound</li>
+                <li>"I like to catch fish" - The /atch/ and /ish/ sounds</li>
+                <li>"The king can wink" - The /ing/ and /ink/ sounds</li>
+                <li>"Please wash the dish" - The /ash/ and /ish/ sounds</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-building" style="color: #2196F3;"></i> Word Building</div>
-                <p><strong>"phone"</strong> - "ph" says /f/, "o" says /ō/, "n" says /n/, "e" is silent. Blend: /f/ /ō/ /n/ = phone!</p>
+                <div class="example-title"><i class="fas fa-palette"></i> The Pink Bag</div>
+                <p>Look at the pink bag. The word "pink" has the /ink/ digraph. Can you think of other words that end with "ink"? (sink, wink, link)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hammer"></i> Construction Example</div>
-                <p><strong>"knock"</strong> - The "k" is silent! "kn" says /n/, "o" says /ŏ/, "ck" says /k/. Blend: /n/ /ŏ/ /k/ = knock!</p>
+                <div class="example-title"><i class="fas fa-egg"></i> Hatching Eggs</div>
+                <p>The baby chicks are hatching from their eggs. "Hatching" has the /atch/ digraph. Other words: match, catch, patch.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Flashcard Drill!</div>
-                <p>We'll use flashcards with words like phone, knock, dress, clock, and wrist. We'll blend them together as a class!</p>
+                <div class="example-title"><i class="fas fa-fish"></i> Catch Fish</div>
+                <p>"I like to catch fish" - This sentence has two digraphs! "catch" has /atch/ and "fish" has /ish/.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice blending words with alternative consonants.",
+        taskInstructions: "Read the sentences, circle the digraphs, and write your own sentences.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Flashcard Drill Practice:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                    <div>Read these words aloud to your partner:</div>
-                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px;">
-                        <div class="word-card" style="padding: 8px; background: white; border-radius: 4px; text-align: center;">phone</div>
-                        <div class="word-card" style="padding: 8px; background: white; border-radius: 4px; text-align: center;">knock</div>
-                        <div class="word-card" style="padding: 8px; background: white; border-radius: 4px; text-align: center;">dress</div>
-                        <div class="word-card" style="padding: 8px; background: white; border-radius: 4px; text-align: center;">clock</div>
-                        <div class="word-card" style="padding: 8px; background: white; border-radius: 4px; text-align: center;">wrist</div>
-                        <div class="word-card" style="padding: 8px; background: white; border-radius: 4px; text-align: center;">whale</div>
+            <div class="content-box">
+                <p><strong>Part A: Read and Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Read each sentence. Circle the digraphs you find:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• The pink bag is on the bed.</div>
+                        <div>• The hen is hatching eggs.</div>
+                        <div>• I like to catch fish.</div>
+                        <div>• The king can wink and blink.</div>
+                        <div>• Please wash the dish.</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Word Path Worksheet:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Read the word path from START to FINISH. Check off each word as you read it correctly:</div>
-                    <div style="margin-top: 10px; padding: 15px; background: #FFF8E1; border: 2px dashed #FFC107; border-radius: 8px;">
-                        <div style="text-align: center; font-weight: bold; color: #4CAF50;">START → phone → knock → whistle → dress → clock → wrist → photo → FINISH</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Word Sorting</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Sort these words into the correct digraph groups:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Words: pink, hatch, fish, ring, catch, wash, king, wink, mash, dish</div>
+                        <div style="margin-top: 10px;">
+                            <div>| /ink/ | /ing/ | /atch/ | /ish/ | /ash/ |</div>
+                            <div>|______|______|_______|_______|_______|</div>
+                        </div>
                     </div>
-                    <div style="margin-top: 10px;">
-                        <div>Partner check: My partner read _______ words correctly.</div>
-                        <div class="answer-space" style="width: 60px; display: inline-block;"></div> out of 7
-                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Sort the Words:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Write each word under the correct consonant pattern:</div>
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; background: #F3E5F5;">
-                            <div style="font-weight: bold; text-align: center;">"ph" words</div>
-                            <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; background: #E8F5E9;">
-                            <div style="font-weight: bold; text-align: center;">"kn" words</div>
-                            <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; background: #E3F2FD;">
-                            <div style="font-weight: bold; text-align: center;">"wr" words</div>
-                            <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
-                        </div>
-                    </div>
-                    <div style="margin-top: 10px;">Words: phone, knock, write, photo, knee, wrist, graph, know</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Sentence Writing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write your own sentence using at least two words with digraphs:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write a sentence with a word that has the /atch/ sound:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Beat the Clock Game:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFEBEE; border-radius: 5px;">
-                    <div><strong>Class Record:</strong> How many words can we read in 60 seconds?</div>
-                    <div style="margin-top: 10px;">
-                        <div>Number of words read: <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>Draw a clock showing 60 seconds:</div>
-                        <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                    </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reading Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Read aloud to a partner: "The king has a pink ring. He likes to catch fish and wash them in a dish."
+                    <div class="drawing-area" style="height: 60px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Find 5 words at home that have 'ph', 'kn', 'wr', 'wh', or 'ck' in them. Write them down and bring them to class.",
+        homework: "Find 5 things at home with digraph sounds (/ink/, /ing/, /atch/, /ish/, /ash/). Write their names in your notebook.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "Reading Fluency in Context",
-        subtopic: "Reading sentences and phrases containing alternative consonant spellings",
+        topic: "Phonics",
+        subtopic: "Introduction to Trigraphs (/ear/, /air/, /oor/)",
         lessonContent: `
-            <p>Today we will practice reading our special words in full sentences and stories!</p>
-            <p><strong>Key Concept:</strong> Reading words in lists is good practice, but reading them in sentences helps us understand real stories.</p>
-            <p><strong>What is fluency?</strong></p>
+            <p>Today we will learn about trigraphs! A trigraph is three letters that come together to make one sound.</p>
+            <p><strong>Key Question:</strong> What happens when three letters make one sound?</p>
+            <p><strong>Introduction:</strong> You already know digraphs (two letters, one sound). Now let's learn trigraphs (three letters, one sound)!</p>
+            <p><strong>Trigraph /ear/ (sounds like "eer"):</strong></p>
             <ul>
-                <li>Reading with correct speed - not too fast, not too slow</li>
-                <li>Reading with expression - using your voice to show meaning</li>
-                <li>Pausing at punctuation - stopping at periods, pausing at commas</li>
-                <li>Reading accurately - saying all the words correctly</li>
+                <li><strong>ear</strong> - I have two ears.</li>
+                <li><strong>hear</strong> - Can you hear the bell?</li>
+                <li><strong>tear</strong> - A tear rolled down his cheek.</li>
+                <li><strong>dear</strong> - She is my dear friend.</li>
+                <li><strong>near</strong> - The school is near my house.</li>
             </ul>
-            <p><strong>Model Sentence:</strong> "She took a photo of the white duck near the rock."</p>
-            <p><strong>Fluency Tips:</strong></p>
-            <ol>
-                <li>Take a breath before you start</li>
-                <li>Look for the special consonant teams first</li>
-                <li>Read to the punctuation mark</li>
-                <li>Use expression - make it sound interesting!</li>
-            </ol>
-            <p><strong>Why read in context?</strong> Stories are more fun than word lists! When we read sentences, we practice for real books.</p>
+            <p><strong>Trigraph /air/ (sounds like "air"):</strong></p>
+            <ul>
+                <li><strong>hair</strong> - She has long brown hair.</li>
+                <li><strong>chair</strong> - Please sit on the chair.</li>
+                <li><strong>fair</strong> - We went to the fun fair.</li>
+                <li><strong>pair</strong> - I need a pair of socks.</li>
+                <li><strong>stair</strong> - Walk up the stair.</li>
+            </ul>
+            <p><strong>Trigraph /oor/ (sounds like "or"):</strong></p>
+            <ul>
+                <li><strong>poor</strong> - The poor man had no food.</li>
+                <li><strong>door</strong> - Please close the door.</li>
+                <li><strong>floor</strong> - The book fell on the floor.</li>
+            </ul>
+            <p><strong>Remember:</strong> Three letters, but only ONE sound!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #673AB7;"></i> Sentence Example</div>
-                <p><strong>"The knight had a sore wrist."</strong> - Read smoothly: "The knight (pause) had a sore wrist (period)."</p>
+                <div class="example-title"><i class="fas fa-ear-listen"></i> The /ear/ Sound</div>
+                <p>Touch your ear. Can you hear? The word "ear" and "hear" both have the /ear/ trigraph. Three letters - e,a,r - making one sound!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-comments"></i> Dialogue Example</div>
-                <p><strong>"Pick up the phone and call him."</strong> - Read with expression like you're really telling someone to do this!</p>
+                <div class="example-title"><i class="fas fa-wind"></i> The /air/ Sound</div>
+                <p>Sit on a chair and brush your hair. Both "chair" and "hair" have the /air/ trigraph. Say it: ch-air, h-air.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Partner Reading!</div>
-                <p>We'll read sentences to a partner. Listeners give a thumbs up for good expression and accuracy!</p>
+                <div class="example-title"><i class="fas fa-door-open"></i> The /oor/ Sound</div>
+                <p>Open the door and look at the floor. "Door" and "floor" both have the /oor/ trigraph. Poor man, door, floor - they all rhyme!</p>
             </div>
         `,
-        taskInstructions: "Practice reading sentences and stories with alternative consonant words.",
+        taskInstructions: "Sound out and identify trigraphs /ear/, /air/, and /oor/ in words.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Partner Reading Practice</strong></p>
+                <p><strong>Part A: Sound It Out</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Read these sentences to your partner. Partner listens and checks for fluency:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                        <div>1. "The knight had a sore wrist."</div>
-                        <div>2. "Pick up the phone and call him."</div>
-                        <div>3. "I know how to write with my right hand."</div>
-                        <div>4. "The white whale is very big."</div>
-                        <div>5. "Knock on the door with your knuckles."</div>
-                    </div>
-                    <div style="margin-top: 10px;">
-                        <div>Partner feedback: My partner read with ☐ Good expression ☐ Good speed ☐ Good accuracy</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Story Reading and Underlining</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Read this short story. Underline all words with alternative consonant spellings:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 5px; line-height: 1.6;">
-                        <div><strong>The Photo Trip</strong></div>
-                        <div>My dad took a photo of a white duck. The duck was near a rock. Then we saw a big clock on a tower. I know how to tell time on that clock!</div>
-                    </div>
+                    <span class="task-number">1</span> Say each word aloud. Circle the trigraph in each word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Words I underlined: <span class="answer-space" style="width: 300px;"></span></div>
+                        <div>ear    hear    tear    dear</div>
+                        <div>hair   chair   fair    pair    stair</div>
+                        <div>poor   door    floor</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw the Story</strong></p>
+                <p><strong>Part B: Trigraph Sorting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a picture showing what happened in "The Photo Trip":
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My picture shows: <span class="answer-space" style="width: 250px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Create Your Own Sentence</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write one sentence using at least two alternative consonant words:
+                    <span class="task-number">2</span> Sort these words into the correct trigraph group:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div class="answer-space" style="height: 40px; width: 100%;"></div>
+                        <div>Words: ear, hair, poor, hear, chair, door, tear, fair, floor, dear, pair, stair</div>
+                        <div style="margin-top: 10px;">
+                            <div>/ear/ (ear, hear, tear, dear) | /air/ (hair, chair, fair, pair, stair) | /oor/ (poor, door, floor)</div>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Fill in the Blank</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Complete each sentence with the correct trigraph word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. Please close the _____ (d__r).</div>
+                        <div>b. I can _____ the music (h__r).</div>
+                        <div>c. Sit on the _____ (ch__r).</div>
+                        <div>d. She has long _____ (h__r).</div>
+                        <div>e. The book is on the _____ (fl__r).</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a picture of something with the /ear/ sound, something with the /air/ sound, and something with the /oor/ sound. Label each drawing:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Read a story from your home reading book. Find 3 sentences with special consonant words and copy them in your notebook.",
+        homework: "Find 3 words with /ear/, 3 words with /air/, and 3 words with /oor/ in a book at home. Write them in your notebook.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Fluency Showcase and Application",
-        subtopic: "Demonstrating reading fluency with alternative consonant words in extended text",
+        topic: "Phonics",
+        subtopic: "Blending and Reading with Trigraphs",
         lessonContent: `
-            <p>Today is our Fluency Celebration! We'll show how well we can read words with special consonants in longer texts.</p>
-            <p><strong>Key Concept:</strong> Good readers read smoothly, with expression, and understand what they're reading.</p>
-            <p><strong>What makes a fluent reader?</strong></p>
+            <p>Today we will blend, read, and match words and sentences containing trigraphs!</p>
+            <p><strong>Key Question:</strong> Can you blend trigraphs to read full sentences?</p>
+            <p><strong>Introduction:</strong> Now that you know the /ear/, /air/, and /oor/ trigraphs, let's put them together into words and sentences!</p>
+            <p><strong>Blending Practice:</strong></p>
             <ul>
-                <li><strong>Accuracy:</strong> Reading words correctly</li>
-                <li><strong>Rate:</strong> Reading at a good speed - not too fast, not too slow</li>
-                <li><strong>Expression:</strong> Using your voice to make the reading sound interesting</li>
-                <li><strong>Phrasing:</strong> Grouping words together in meaningful chunks</li>
+                <li><strong>p + oor = poor</strong> - The poor boy had no shoes.</li>
+                <li><strong>ch + air = chair</strong> - She sat on the chair.</li>
+                <li><strong>h + ear = hear</strong> - I can hear the birds.</li>
             </ul>
-            <p><strong>Performance Tips:</strong></p>
-            <ol>
-                <li>Practice reading your sentence 3 times before sharing</li>
-                <li>Stand up straight and hold your paper so you can see it</li>
-                <li>Look up at your audience when you can</li>
-                <li>Speak loud and clear so everyone can hear</li>
-                <li>Remember to pause at punctuation</li>
-            </ol>
-            <p><strong>Today's celebration:</strong> We'll share our reading with the class and celebrate our fluency growth!</p>
+            <p><strong>Sentences to Read:</strong></p>
+            <ul>
+                <li>"The poor boy sat on the chair."</li>
+                <li>"She sat on the chair near the door."</li>
+                <li>"Can you hear the fair music?"</li>
+                <li>"The hair on my head is brown."</li>
+                <li>"I need a pair of socks for my feet."</li>
+            </ul>
+            <p><strong>Let's Practice Reading Aloud:</strong></p>
+            <ul>
+                <li>"Poor boy" - blend /p/ + /oor/ + /b/ + /oy/</li>
+                <li>"She sat on the chair" - find the trigraph /air/ in "chair"</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-theater-masks" style="color: #FF9800;"></i> Performance Example</div>
-                <p><strong>"She took a photo of the white duck near the rock."</strong> - Read with excitement like you're telling a fun story!</p>
+                <div class="example-title"><i class="fas fa-child"></i> The Poor Boy</div>
+                <p>"poor boy" - The word "poor" has the /oor/ trigraph. Blend it: p-oor. Now try: "The poor boy has no coat."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-award" style="color: #FFC107;"></i> Fluency Checklist</div>
-                <p>1. All words correct ✓ 2. Good speed ✓ 3. Expression ✓ 4. Phrasing ✓ = FLUENT READER!</p>
+                <div class="example-title"><i class="fas fa-couch"></i> She Sat on the Chair</div>
+                <p>"She sat on the chair" - Find "chair" with the /air/ trigraph. Can you change "chair" to "stair"? "She sat on the stair."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Reading Theater!</div>
-                <p>We'll take turns reading sentences aloud like we're actors on a stage!</p>
+                <div class="example-title"><i class="fas fa-ear-deaf"></i> Near and Hear</div>
+                <p>"Come near so you can hear me." - Both "near" and "hear" have the /ear/ trigraph! They rhyme too.</p>
             </div>
         `,
-        taskInstructions: "Practice and demonstrate your reading fluency with alternative consonant words.",
+        taskInstructions: "Blend trigraphs, read sentences, and match words to pictures.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Practice Reading</strong></p>
+                <p><strong>Part A: Blend and Read</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Practice reading this paragraph 3 times silently, then once aloud to your partner:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E3F2FD; border-radius: 5px; line-height: 1.6;">
-                        <div><strong>The Clock Tower</strong></div>
-                        <div>I know a knight who lives near the clock tower. He has a white phone. He will knock when he wants to talk. He writes with his right hand. His wrist is strong!</div>
-                    </div>
+                    <span class="task-number">1</span> Blend the sounds to read each word. Write the word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Partner feedback: My partner needs to work on ☐ Speed ☐ Expression ☐ Accuracy ☐ Nothing - it was great!</div>
+                        <div>p + oor = _____</div>
+                        <div>ch + air = _____</div>
+                        <div>h + ear = _____</div>
+                        <div>f + air = _____</div>
+                        <div>d + oor = _____</div>
+                        <div>st + air = _____</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Reading</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each sentence aloud. Circle the trigraph words:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. The poor boy sat on the chair.</div>
+                        <div>b. Can you hear the fair from here?</div>
+                        <div>c. I have a pair of shoes near the door.</div>
+                        <div>d. She brushed her hair before sitting on the stair.</div>
+                        <div>e. The floor is cold, so put on your socks!</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Find the Words</strong></p>
+                <p><strong>Part C: Match the Sentence to the Picture</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Find and circle all alternative consonant words in the paragraph above:
+                    <span class="task-number">3</span> Draw a line to match each sentence to the correct picture:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I found <span class="answer-space" style="width: 40px;"></span> special words.</div>
-                        <div>List them here: <span class="answer-space" style="width: 300px;"></span></div>
+                        <div>Sentence A: "She sat on the chair." → [draw a chair]</div>
+                        <div>Sentence B: "The poor boy has no food." → [draw a sad boy]</div>
+                        <div>Sentence C: "Close the door." → [draw a door]</div>
+                        <div>Sentence D: "I can hear the bell." → [draw an ear]</div>
                     </div>
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Class Reading Performance</strong></p>
+                <p><strong>Part D: Write Your Own Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Prepare to read one sentence aloud to the class:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Choose your sentence (circle one):</div>
-                        <div>☐ "The knight had a sore wrist."</div>
-                        <div>☐ "Pick up the phone and call him."</div>
-                        <div>☐ "The white whale is very big."</div>
-                        <div>☐ "I know how to write with my right hand."</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Practice reading your sentence here (3 times):</div>
-                        <div class="answer-space" style="height: 80px; width: 100%;"></div>
-                    </div>
+                    <span class="task-number">4</span> Write a sentence using the word "chair":
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write a sentence using the word "hear":
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Write a sentence using the word "poor":
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Fluency Self-Check</strong></p>
+                <p><strong>Part E: Reading Challenge</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Rate your own fluency after practicing:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ I read all words correctly</div>
-                        <div>☐ I used good expression</div>
-                        <div>☐ I paused at the period</div>
-                        <div>☐ I read at a good speed</div>
-                        <div>☐ I looked at my audience</div>
+                    <span class="task-number">7</span> Read this passage to a partner. How many trigraph words can you find?
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5; border-radius: 8px;">
+                        "The poor girl sat on the chair near the door. She could hear the fair music from outside. She brushed her hair and put on a pair of shoes. Then she walked down the stair to the floor below."
                     </div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw yourself reading fluently to the class:</div>
-                        <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Fluency Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Design your own "Fluency Expert" certificate:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background: #FFF8E1; border: 3px solid #FFC107; border-radius: 8px; text-align: center;">
-                        <div style="font-size: 20px; font-weight: bold; color: #795548;">CERTIFICATE OF FLUENCY</div>
-                        <div style="margin-top: 10px;">This certifies that</div>
-                        <div class="answer-space" style="height: 30px; width: 200px; margin: 10px auto;"></div>
-                        <div>is a Fluent Reader of Alternative Consonant Words!</div>
-                        <div style="margin-top: 15px;">Date: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Teacher Signature: <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">Number of trigraph words I found: _____</div>
                 </div>
             </div>
         `,
-        homework: "Read the 'Clock Tower' paragraph to someone at home. Have them sign your fluency certificate as a witness!",
+        homework: "Write 5 sentences using trigraph words (/ear/, /air/, /oor/). Read them aloud to a family member.",
         homeworkDue: "Monday"
     }
 };
@@ -327,10 +325,10 @@ const grade2LiteracyWeek10 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2LiteracyWeek10);
-    console.log("literacy-week10-alternative-consonants.js registered using registerWorksheet()");
+    console.log("grade2-literacy-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2LiteracyWeek10);
-    console.log("literacy-week10-alternative-consonants.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-literacy-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -341,9 +339,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2LiteracyWeek10.metadata,
         days: grade2LiteracyWeek10
     });
-    console.log("literacy-week10-alternative-consonants.js stored in window.registeredWorksheets");
+    console.log("grade2-literacy-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2LiteracyWeek10 = grade2LiteracyWeek10;
-console.log("literacy-week10-alternative-consonants.js loaded and registered successfully");
+console.log("grade2-literacy-week10.js loaded and registered successfully");

@@ -1,300 +1,358 @@
-// Grade 2 Literacy - Week 9 Data (Phonics: ph, wh, ck)
+// Grade 2 Literacy - Term 1 Week 9 Data
 const grade2LiteracyWeek9 = {
     metadata: {
         grade: 2,
         subject: "Literacy",
+        term: 1,
         week: 9,
-        title: "Phonics Focus: ph, wh, ck",
-        description: "Learning the /f/ sound spelled 'ph', and the /w/ and /k/ variations 'wh' and 'ck'"
+        title: "Alternative Vowel Spellings & Digraphs",
+        description: "Reading phrases with alternative vowel spellings, identifying digraph alternatives (ch=tch, ng=n), and blending words with alternative spellings"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "The /f/ Sound Spelled 'ph'",
-        subtopic: "Blending and reading words with the 'ph' spelling choice",
+        topic: "Phonics",
+        subtopic: "Alternative Vowel Spellings",
         lessonContent: `
-            <p>Welcome to our phonics lesson! Today we will learn a special spelling for the /f/ sound that comes from Greek words.</p>
-            <p><strong>Key Concept:</strong> Sometimes the /f/ sound is spelled with the letters "ph" instead of "f".</p>
-            <p><strong>Where do we see "ph"?</strong></p>
+            <p>Welcome to our phonics lesson! Today we'll practice reading phrases and sentences with alternative vowel spellings.</p>
+            <p><strong>Key Question:</strong> Can you read words where vowels make different sounds?</p>
+            <p><strong>Introduction:</strong> Sometimes vowels can be spelled in different ways but sound the same or similar. Today we'll practice reading these special vowel spellings in phrases and sentences.</p>
+            <p><strong>Alternative Vowel Spellings to Practice:</strong></p>
             <ul>
-                <li>In words like <strong>photo</strong>, <strong>phone</strong>, and <strong>graph</strong></li>
-                <li>In animal names like <strong>dolphin</strong> and <strong>elephant</strong></li>
-                <li>In learning words like <strong>alphabet</strong></li>
+                <li><strong>"ir"</strong> sound as in <strong>bird, shirt, girl</strong></li>
+                <li><strong>"ur"</strong> sound as in <strong>fur, burn, turn</strong></li>
+                <li><strong>"er"</strong> sound as in <strong>her, fern, perch</strong></li>
+                <li><strong>"oo"</strong> sound as in <strong>blue, glue, true</strong></li>
             </ul>
-            <p><strong>How to blend "ph" words:</strong> Remember that "ph" makes the /f/ sound, just like the letter "f".</p>
-            <p><strong>Let's practice together:</strong> ph-o-t-o = photo, ph-o-n-e = phone</p>
-            <p><strong>Fun fact:</strong> The "ph" spelling often comes from Greek words that entered the English language long ago!</p>
+            <p><strong>Today's Phrases:</strong></p>
+            <ul>
+                <li>blue shirt</li>
+                <li>bird flying</li>
+                <li>girl with curly hair</li>
+                <li>true blue</li>
+                <li>burn the toast</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-camera" style="color: #3F51B5;"></i> Photo Words</div>
-                <p>"photo" - A picture taken with a camera. "ph" makes the /f/ sound at the beginning!</p>
+                <div class="example-title"><i class="fas fa-tshirt"></i> Phrase Practice</div>
+                <p><strong>"blue shirt"</strong> - The "ue" in blue makes the same sound as "oo" in moon. Can you read this phrase smoothly?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-phone" style="color: #4CAF50;"></i> Communication Words</div>
-                <p>"phone" - A device for talking to people far away. Listen for the /f/ sound!</p>
+                <div class="example-title"><i class="fas fa-dove"></i> Sentence Practice</div>
+                <p><strong>"The bird is flying high in the sky."</strong> - The "ir" in bird makes a special vowel sound. Read this sentence aloud!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-dolphin" style="color: #2196F3;"></i> Animal Words</div>
-                <p>"dolphin" - A smart sea animal. "ph" is in the middle making the /f/ sound!</p>
+                <div class="example-title"><i class="fas fa-female"></i> More Practice</div>
+                <p><strong>"The girl turned her shirt blue."</strong> - This sentence has "ir", "ur", and "ue" spellings. Try reading it slowly, then faster!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice reading and using 'ph' words.",
+        taskInstructions: "Read phrases and sentences with alternative vowel spellings aloud, then complete the writing activity.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Choral Reading: Read this paragraph together, then clap when you hear a 'ph' word:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                    <p>My dad took a <strong>photo</strong> of a <strong>dolphin</strong> at the sea. He used his <strong>phone</strong> to take it. The <strong>elephant</strong> at the zoo is big. I know my <strong>alphabet</strong> well.</p>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">How many times did you clap? ______</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Word Bank Fill-in: Use these words to complete the story below:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
-                        <strong>Word Bank:</strong> phone, photo, elephant, alphabet, dolphin
-                    </div>
-                    <div>
-                        I saw an <span class="answer-space" style="width: 80px;"></span> at the zoo. It was huge! I used my mom's <span class="answer-space" style="width: 80px;"></span> to take a <span class="answer-space" style="width: 80px;"></span>. At the aquarium, I saw a <span class="answer-space" style="width: 80px;"></span> jump. I know all the letters in the <span class="answer-space" style="width: 80px;"></span>.
+            <div class="content-box">
+                <p><strong>Part A: Read Aloud</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Practice reading these phrases to a partner or to yourself:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f5f5f5; padding: 15px; border-radius: 8px;">
+                        <div>• blue shirt</div>
+                        <div>• bird flying</div>
+                        <div>• girl with curls</div>
+                        <div>• her fur coat</div>
+                        <div>• true story</div>
+                        <div>• burn the candle</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> "ph" Word Hunt: Look around the classroom or think of books you've read. List any 'ph' words you find:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. <span class="answer-space" style="width: 120px;"></span></div>
-                    <div>2. <span class="answer-space" style="width: 120px;"></span></div>
-                    <div>3. <span class="answer-space" style="width: 120px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Reading</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each sentence three times. Check the box when you can read it smoothly:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>☐ The bird is flying to her nest.</div>
+                        <div>☐ My blue shirt has a burn on it.</div>
+                        <div>☐ The girl turned the page of her book.</div>
+                        <div>☐ Is it true that birds have fur? No!</div>
+                        <div>☐ The fern grows in the dirt by the curb.</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw a picture of something that has "ph" in its name:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">This is a: ________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Fill in the Blank</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Complete each sentence with the correct word from the word bank:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #e8f4f8; padding: 10px; border-radius: 8px;">
+                        <strong>Word Bank:</strong> bird, blue, fur, burn, shirt, true
+                    </div>
+                    <div style="margin-left: 20px; margin-top: 15px;">
+                        <div>a) The _____ is flying in the sky. (b__d)</div>
+                        <div>b) My favorite color is _____ . (bl___)</div>
+                        <div>c) The cat has soft _____ . (f__)</div>
+                        <div>d) Please don't _____ the toast. (b__n)</div>
+                        <div>e) I am wearing a red _____ . (sh__t)</div>
+                        <div>f) Is that story _____ ? (tr___)</div>
+                    </div>
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Write Your Own</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write two sentences using words with alternative vowel spellings:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
             </div>
         `,
-        homework: "Find and write down three 'ph' words from things at home or from a book. Draw one of them.",
+        homework: "Find 5 words in a book at home that have the 'ir', 'ur', 'er', or 'ue' spelling. Write them in your notebook and read them to a family member.",
         homeworkDue: "Wednesday"
     },
     
-    wednesday: {
+    tuesday: {
         subject: "Literacy",
-        topic: "The /w/ and /k/ Variations (wh, ck)",
-        subtopic: "Blending and reading words with 'wh' and 'ck'",
+        topic: "Phonics",
+        subtopic: "Digraph Alternative Spelling Choices",
         lessonContent: `
-            <p>Today we will learn two special spelling patterns: "wh" for the /w/ sound and "ck" for the /k/ sound.</p>
-            <p><strong>Key Concept 1:</strong> "wh" usually makes the /w/ sound at the beginning of words, especially question words!</p>
-            <p><strong>Key Concept 2:</strong> "ck" makes the /k/ sound at the END of words, usually after a short vowel.</p>
-            <p><strong>About "wh":</strong></p>
+            <p>Welcome back! Today we'll learn about digraphs - two letters that make one sound - and their alternative spellings!</p>
+            <p><strong>Key Question:</strong> Can the same sound be spelled in different ways?</p>
+            <p><strong>Introduction:</strong> A digraph is two letters that work together to make ONE sound. Today we'll learn that some sounds can be spelled in more than one way!</p>
+            <p><strong>Digraph Alternative #1: The /ch/ Sound</strong></p>
             <ul>
-                <li>Found in question words: <strong>who, what, when, where, why</strong></li>
-                <li>Also in other words: <strong>white, whale, whip, wheel</strong></li>
-                <li>Remember: "wh" = /w/ sound</li>
+                <li><strong>"ch" spelling</strong> - as in <strong>chick, lunch, chat</strong></li>
+                <li><strong>"tch" spelling</strong> - as in <strong>match, catch, witch, stretch</strong></li>
+                <li><em>Rule: We often use "tch" after a short vowel sound (like in ma<u>tch</u>, ca<u>tch</u>, wi<u>tch</u>)</em></li>
             </ul>
-            <p><strong>About "ck":</strong></p>
+            <p><strong>Digraph Alternative #2: The /ng/ Sound</strong></p>
             <ul>
-                <li>Always at the end of words: <strong>back, duck, lock, sack</strong></li>
-                <li>Comes after short vowels: a, e, i, o, u</li>
-                <li>Remember: "ck" never starts a word!</li>
+                <li><strong>"ng" spelling</strong> - as in <strong>ring, sing, long, king</strong></li>
+                <li><strong>"n" spelling</strong> (before k) - as in <strong>ink, pink, sink, think</strong></li>
+                <li><em>Rule: When "n" comes before "k", it often makes the /ng/ sound (like in i<u>nk</u>, pi<u>nk</u>)</em></li>
             </ul>
-            <p><strong>Blending practice:</strong> wh-e-n = when, b-a-ck = back</p>
+            <p><strong>Let's Compare:</strong></p>
+            <ul>
+                <li>match vs. catch (both end with the /ch/ sound, but one has "tch"!)</li>
+                <li>ink vs. ring (both have the /ng/ sound at the end, but different spellings!)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-question-circle" style="color: #FF9800;"></i> Question Words</div>
-                <p>"when, where, why" - All begin with "wh" making the /w/ sound. These help us ask questions!</p>
+                <div class="example-title"><i class="fas fa-gavel"></i> The "tch" Rule</div>
+                <p>After a short vowel sound (like a, e, i, o, u), we often use "tch" instead of just "ch". Example: ma<u>tch</u> (short 'a'), wi<u>tch</u> (short 'i'), fe<u>tch</u> (short 'e').</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-whale" style="color: #2196F3;"></i> Whale Words</div>
-                <p>"whale" - A huge ocean animal. "wh" makes the /w/ sound at the beginning!</p>
+                <div class="example-title"><i class="fas fa-paint-bucket"></i> The "nk" Pattern</div>
+                <p>When you see "nk" at the end of a word, the "n" makes the /ng/ sound! Try saying: pi<u>nk</u>, tha<u>nk</u>, bli<u>nk</u>. Feel how your tongue makes the /ng/ sound before the /k/?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lock" style="color: #795548;"></i> Ending with "ck"</div>
-                <p>"lock, back, duck" - All end with "ck" making the /k/ sound after a short vowel.</p>
+                <div class="example-title"><i class="fas fa-clipboard-list"></i> Spot the Difference</div>
+                <p><strong>ch</strong> vs. <strong>tch</strong>: which is correct?<br>
+                "ri<u>ch</u>" ✅ (NOT "ritch")<br>
+                "ca<u>tch</u>" ✅ (NOT "cach")</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice 'wh' and 'ck' words.",
+        taskInstructions: "Identify and sort words with alternative digraph spellings (ch/tch and ng/nk).",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Word Sorting</strong></p>
+                <p><strong>Part A: Circle the Digraph</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these words into the correct column:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Words:</strong> white, duck, whale, lock, whip, sack, when, back</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; padding: 10px; border: 1px solid #ccc; margin-right: 10px;">
-                                <div style="text-align: center; font-weight: bold; color: #3F51B5;">"wh" Words</div>
-                                <div class="answer-space" style="height: 100px;"></div>
-                            </div>
-                            <div style="flex: 1; padding: 10px; border: 1px solid #ccc;">
-                                <div style="text-align: center; font-weight: bold; color: #4CAF50;">"ck" Words</div>
-                                <div class="answer-space" style="height: 100px;"></div>
-                            </div>
-                        </div>
+                    <span class="task-number">1</span> Circle the "ch", "tch", "ng", or "nk" in each word:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                        <div>match</div>
+                        <div>ink</div>
+                        <div>chick</div>
+                        <div>catch</div>
+                        <div>pink</div>
+                        <div>ring</div>
+                        <div>witch</div>
+                        <div>sink</div>
+                        <div>long</div>
+                        <div>stretch</div>
+                        <div>think</div>
+                        <div>king</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Picture and Caption</strong></p>
+                <p><strong>Part B: Sort the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a picture of a "whale on a rock" and write a caption:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My caption (use at least 2 "wh" words and 2 "ck" words):</div>
-                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                    <span class="task-number">2</span> Sort the words from Part A into the correct columns:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Words with "ch"</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Words with "tch"</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Words with "ng"</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Words with "nk"</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Question Word Practice</strong></p>
+                <p><strong>Part C: Fill in the Missing Letters</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Fill in the question words. All begin with "wh":
+                    <span class="task-number">3</span> Add "ch", "tch", "ng", or "nk" to complete each word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>______ is your name? (who/what)</div>
-                        <div>______ are you going? (when/where)</div>
-                        <div>______ is the sky blue? (when/why)</div>
-                        <div>______ is your birthday? (when/where)</div>
-                        <div>______ is that person? (who/why)</div>
+                        <div>a) ma _____ (sports game)</div>
+                        <div>b) i _____ (writing liquid)</div>
+                        <div>c) ca _____ (to grab)</div>
+                        <div>d) ri _____ (sound a phone makes)</div>
+                        <div>e) pi _____ (color)</div>
+                        <div>f) stre _____ (to reach out)</div>
                     </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Word Building</strong></p>
+                <p><strong>Part D: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Add "ck" to complete these words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ba<span class="answer-space" style="width: 30px;"></span> (back)</div>
-                        <div>lo<span class="answer-space" style="width: 30px;"></span> (lock)</div>
-                        <div>du<span class="answer-space" style="width: 30px;"></span> (duck)</div>
-                        <div>sa<span class="answer-space" style="width: 30px;"></span> (sack)</div>
-                        <div>pi<span class="answer-space" style="width: 30px;"></span> (pick)</div>
-                    </div>
+                    <span class="task-number">4</span> Choose two words from the list and write a sentence for each:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Write three questions using 'wh' words (who, what, when, where, why). Circle the 'wh' in each word.",
+        homework: "Find 3 words with 'tch' and 3 words with 'nk' in books or around your home. Write them in a list and read them aloud.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Phonics Review: ph, wh, ck",
-        subtopic: "Practicing all three spelling patterns together",
+        topic: "Phonics",
+        subtopic: "Blending and Reading Words with Alternative Digraph Spellings",
         lessonContent: `
-            <p>Today is our phonics celebration day! We'll review all three spelling patterns we learned this week.</p>
-            <p><strong>Key Review Points:</strong></p>
+            <p>Great work this week! Today we'll practice blending and reading words with the alternative digraph spellings we learned: "tch" and "nk".</p>
+            <p><strong>Key Question:</strong> Can you blend sounds together to read words with "tch" and "nk"?</p>
+            <p><strong>Introduction:</strong> Blending is when we push sounds together smoothly to read a word. Today we'll practice blending words with our new digraphs!</p>
+            <p><strong>Blending Practice: Words with "tch"</strong></p>
             <ul>
-                <li><strong>"ph"</strong> makes the /f/ sound (photo, phone)</li>
-                <li><strong>"wh"</strong> makes the /w/ sound, often in question words (when, where)</li>
-                <li><strong>"ck"</strong> makes the /k/ sound at the END of words after short vowels (back, duck)</li>
+                <li>m - a - tch → match</li>
+                <li>c - a - tch → catch</li>
+                <li>wi - tch → witch</li>
+                <li>stre - tch → stretch</li>
+                <li>fe - tch → fetch</li>
             </ul>
-            <p><strong>Special Reminders:</strong></p>
+            <p><strong>Blending Practice: Words with "nk"</strong></p>
             <ul>
-                <li>"ph" words often come from Greek</li>
-                <li>"wh" starts many question words</li>
-                <li>"ck" never starts a word - only ends words!</li>
+                <li>i - nk → ink</li>
+                <li>pi - nk → pink</li>
+                <li>si - nk → sink</li>
+                <li>bli - nk → blink</li>
+                <li>thi - nk → think</li>
             </ul>
-            <p><strong>Today's activities:</strong> We'll play games, read sentences, and show what we've learned about these special spellings!</p>
+            <p><strong>Bonus Challenge Words:</strong></p>
+            <ul>
+                <li>kitchen (has both tch and a short vowel!)</li>
+                <li>drink (nk at the end!)</li>
+                <li>matchbox (two of our patterns in one word!)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-star" style="color: #FFC107;"></i> ph Review</div>
-                <p>"The elephant took a photo with a dolphin!" - Two 'ph' words in one sentence!</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> How to Blend "match"</div>
+                <p>Say each sound slowly: /m/ /a/ /tch/. Now say them faster: mmm-aaa-tch. Now say it normally: <strong>match</strong>! Great job blending!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-star" style="color: #3F51B5;"></i> wh Review</div>
-                <p>"When will the white whale appear?" - Two 'wh' words asking a question!</p>
+                <div class="example-title"><i class="fas fa-tint"></i> How to Blend "ink"</div>
+                <p>Say each sound: /i/ /nk/. Put them together: iii-nnk. Now smoothly: <strong>ink</strong>! You did it!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-star" style="color: #4CAF50;"></i> ck Review</div>
-                <p>"The duck went back to the sack." - Three 'ck' words in one sentence!</p>
+                <div class="example-title"><i class="fas fa-star"></i> Tongue Twister</div>
+                <p>Try this: "The witch with the itch had to fetch a match from the kitchen." Say it slowly, then try faster!</p>
             </div>
         `,
-        taskInstructions: "Complete the review activities to show what you've learned.",
+        taskInstructions: "Practice blending sounds to read words with 'tch' and 'nk', then complete reading and writing activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Pattern Sorting Game</strong></p>
+                <p><strong>Part A: Blend and Read</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these words into three groups: ph, wh, ck
+                    <span class="task-number">1</span> Practice blending the sounds. Point to each word and read it aloud:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; text-align: center;">
+                        <div><strong>match</strong><br><span style="font-size: 12px;">/m/ /a/ /tch/</span></div>
+                        <div><strong>catch</strong><br><span style="font-size: 12px;">/c/ /a/ /tch/</span></div>
+                        <div><strong>witch</strong><br><span style="font-size: 12px;">/w/ /i/ /tch/</span></div>
+                        <div><strong>stretch</strong><br><span style="font-size: 12px;">/str/ /e/ /tch/</span></div>
+                        <div><strong>ink</strong><br><span style="font-size: 12px;">/i/ /nk/</span></div>
+                        <div><strong>pink</strong><br><span style="font-size: 12px;">/p/ /i/ /nk/</span></div>
+                        <div><strong>sink</strong><br><span style="font-size: 12px;">/s/ /i/ /nk/</span></div>
+                        <div><strong>think</strong><br><span style="font-size: 12px;">/th/ /i/ /nk/</span></div>
+                        <div><strong>blink</strong><br><span style="font-size: 12px;">/bl/ /i/ /nk/</span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Reading Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each sentence. Circle the words with "tch" and underline words with "nk":
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Words:</strong> phone, when, back, graph, whale, duck, photo, where, lock</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; padding: 10px; border: 1px solid #ccc; margin-right: 5px;">
-                                <div style="text-align: center; font-weight: bold;">"ph" Words</div>
-                                <div class="answer-space" style="height: 120px;"></div>
+                        <div>a) The witch used pink ink to write a spell.</div>
+                        <div>b) Can you catch the ball and not let it sink?</div>
+                        <div>c) I think the match will light the candle.</div>
+                        <div>d) Please fetch a drink from the sink.</div>
+                        <div>e) Don't blink or you'll miss the pink bird!</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Word Matching</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a line to match each word to its picture or meaning:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• match</div>
+                                <div>• sink</div>
+                                <div>• witch</div>
+                                <div>• ink</div>
+                                <div>• pink</div>
                             </div>
-                            <div style="flex: 1; padding: 10px; border: 1px solid #ccc; margin-right: 5px;">
-                                <div style="text-align: center; font-weight: bold;">"wh" Words</div>
-                                <div class="answer-space" style="height: 120px;"></div>
-                            </div>
-                            <div style="flex: 1; padding: 10px; border: 1px solid #ccc;">
-                                <div style="text-align: center; font-weight: bold;">"ck" Words</div>
-                                <div class="answer-space" style="height: 120px;"></div>
+                            <div>
+                                <div>→ a color</div>
+                                <div>→ a magical person with a hat</div>
+                                <div>→ used to start a fire</div>
+                                <div>→ where water goes down</div>
+                                <div>→ used in a pen</div>
                             </div>
                         </div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Complete the Story</strong></p>
+                <p><strong>Part D: Write a Story</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Use words from the box to complete the story:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
-                            <strong>Word Box:</strong> when, phone, back, whale, photo, duck
-                        </div>
-                        <div>
-                            One day, I saw a <span class="answer-space" style="width: 80px;"></span> in the pond. I took out my <span class="answer-space" style="width: 80px;"></span> to take a <span class="answer-space" style="width: 80px;"></span>. <span class="answer-space" style="width: 80px;"></span> I looked at the picture, I saw a <span class="answer-space" style="width: 80px;"></span> in the ocean behind me! I ran <span class="answer-space" style="width: 80px;"></span> home to show my family.
-                        </div>
-                    </div>
+                    <span class="task-number">4</span> Write 2-3 sentences about a witch, a match, or pink ink. Use at least 3 words from this week:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw and Label</strong></p>
+                <p><strong>Part E: Week Review - Read Aloud to a Partner</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a scene that includes:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Something with "ph" in its name</div>
-                        <div>• Something with "wh" in its name</div>
-                        <div>• Something with "ck" in its name</div>
+                    <span class="task-number">5</span> Read this short story to a partner or to yourself:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f0f8ff; padding: 15px; border-radius: 8px;">
+                        <p><strong>The Pink Matchbox</strong></p>
+                        <p>I think I saw a witch in the kitchen. She had a pink matchbox. "Catch me if you can!" she said. Then she used her ink pen to write a spell. I did not blink. I watched her stretch her arms. She lit a match and made the sink turn pink! What a strange dream!</p>
                     </div>
-                    <div class="drawing-area" style="height: 180px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>Label your drawing:</div>
-                        <div>1. <span class="answer-space" style="width: 120px;"></span> (ph word)</div>
-                        <div>2. <span class="answer-space" style="width: 120px;"></span> (wh word)</div>
-                        <div>3. <span class="answer-space" style="width: 120px;"></span> (ck word)</div>
+                    <div class="task-item" style="margin-top: 15px;">
+                        <span class="task-number">⭐ Challenge</span> Read the story again, but this time try to read it faster!
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Question Time</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Answer these questions using complete sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. <strong>What</strong> is your favorite 'ph' word? ________________________</div>
-                        <div>2. <strong>When</strong> do you use question words? ________________________</div>
-                        <div>3. <strong>Why</strong> can't 'ck' start a word? ________________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Phonics Expert Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Create your own "Phonics Expert" badge. Draw it and write one thing you learned:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I learned that ________________</div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home about 'ph', 'wh', and 'ck'. Find one example of each in a book or magazine.",
+        homework: "Read the story 'The Pink Matchbox' to a family member. Find and list all the words with 'tch' and 'nk' from the story.",
         homeworkDue: "Monday"
     }
 };
@@ -302,10 +360,10 @@ const grade2LiteracyWeek9 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2LiteracyWeek9);
-    console.log("literacy-week9-phonics.js registered using registerWorksheet()");
+    console.log("grade2-literacy-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2LiteracyWeek9);
-    console.log("literacy-week9-phonics.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-literacy-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -316,9 +374,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2LiteracyWeek9.metadata,
         days: grade2LiteracyWeek9
     });
-    console.log("literacy-week9-phonics.js stored in window.registeredWorksheets");
+    console.log("grade2-literacy-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2LiteracyWeek9 = grade2LiteracyWeek9;
-console.log("literacy-week9-phonics.js loaded and registered successfully");
+console.log("grade2-literacy-week9.js loaded and registered successfully");

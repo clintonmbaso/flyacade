@@ -1,354 +1,346 @@
-// Grade 2 Literacy - Week 2 Data (Alternative Spellings for /s/ and /z/)
+// Grade 2 Literacy - Term 1 Week 2 Data
 const grade2LiteracyWeek2 = {
     metadata: {
         grade: 2,
         subject: "Literacy",
+        term: 1,
         week: 2,
-        title: "The Many Faces of /s/ and /z/ — Alternative Spellings",
-        description: "Identifying alternative spelling choices for the /s/ (ss, se, c, ce) and /z/ (zz, ze, s, se) sounds"
+        title: "Consonant Alternative Spellings",
+        description: "Exploring different graphemes that make the same consonant sounds: s, d, t, g, p, l, n, f"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "The Many Faces of /s/ and /z/",
-        subtopic: "Introducing alternative spellings for /s/ and /z/ sounds",
+        topic: "Phonics",
+        subtopic: "Alternative Spellings: s = ss, se, c, ce and d = dd",
         lessonContent: `
-            <p>Welcome to our Literacy lesson! Today we will explore how the same sound can be spelled in different ways.</p>
-            <p><strong>Key Concept:</strong> The /s/ and /z/ sounds can be made by different letter combinations, not just the letter 's'.</p>
-            <p><strong>What is the /s/ sound?</strong></p>
+            <p>Welcome to our phonics lesson! Today we'll learn that the same sound can be spelled in different ways.</p>
+            <p><strong>Key Question:</strong> Can you think of different ways to spell the /s/ sound?</p>
+            <p><strong>Introduction:</strong> Sometimes the same sound can be written with different letters. Let's explore the /s/ sound and the /d/ sound!</p>
+            
+            <p><strong>The /s/ Sound - Different Spellings:</strong></p>
             <ul>
-                <li>It's the hissing sound like a snake: sssss</li>
-                <li>We often hear it at the beginning, middle, or end of words</li>
-                <li>The letter 's' makes this sound, but so do other letters!</li>
+                <li><strong>s</strong> as in <strong>s</strong>un, <strong>s</strong>nake, <strong>s</strong>ix</li>
+                <li><strong>ss</strong> as in gla<strong>ss</strong>, gra<strong>ss</strong>, mi<strong>ss</strong></li>
+                <li><strong>se</strong> as in hou<strong>se</strong>, moo<strong>se</strong>, hor<strong>se</strong></li>
+                <li><strong>c</strong> as in <strong>c</strong>ircle, <strong>c</strong>ity, <strong>c</strong>ent</li>
+                <li><strong>ce</strong> as in dan<strong>ce</strong>, pri<strong>ce</strong>, spa<strong>ce</strong></li>
             </ul>
-            <p><strong>Alternative spellings for /s/:</strong></p>
+            
+            <p><strong>The /d/ Sound - Different Spelling:</strong></p>
             <ul>
-                <li><strong>'ss'</strong> as in <em>miss</em>, <em>kiss</em>, <em>class</em></li>
-                <li><strong>'se'</strong> as in <em>mouse</em>, <em>house</em>, <em>please</em></li>
-                <li><strong>'c'</strong> as in <em>city</em>, <em>circle</em>, <em>cent</em></li>
-                <li><strong>'ce'</strong> as in <em>ice</em>, <em>face</em>, <em>dance</em></li>
+                <li><strong>d</strong> as in <strong>d</strong>og, <strong>d</strong>uck, <strong>d</strong>oor</li>
+                <li><strong>dd</strong> as in pu<strong>dd</strong>le, sa<strong>dd</strong>le, mu<strong>dd</strong>le</li>
             </ul>
-            <p><strong>What is the /z/ sound?</strong></p>
-            <ul>
-                <li>It's the buzzing sound like a bee: zzzzz</li>
-                <li>Sometimes the letter 's' makes this sound too!</li>
-            </ul>
-            <p><strong>Alternative spellings for /z/:</strong></p>
-            <ul>
-                <li><strong>'zz'</strong> as in <em>fuzz</em>, <em>buzz</em>, <em>jazz</em></li>
-                <li><strong>'ze'</strong> as in <em>freeze</em>, <em>sneeze</em>, <em>breeze</em></li>
-                <li><strong>'s'</strong> as in <em>as</em>, <em>is</em>, <em>has</em></li>
-                <li><strong>'se'</strong> as in <em>please</em>, <em>cheese</em>, <em>noise</em></li>
-            </ul>
-            <p><strong>Why is this important?</strong> Knowing different spellings helps us become better readers and spellers!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-snake" style="color: #4CAF50;"></i> /s/ Sound Examples</div>
-                <p><strong>ss:</strong> miss, grass, lesson</p>
-                <p><strong>se:</strong> mouse, house, purse</p>
-                <p><strong>c:</strong> city, cent, cycle</p>
-                <p><strong>ce:</strong> ice, face, dance</p>
+                <div class="example-title"><i class="fas fa-magic"></i> Magic Spelling!</div>
+                <p>The /s/ sound can be spelled many ways: "s" in sun, "ss" in grass, "se" in house, "c" in city, and "ce" in dance! Same sound, different letters.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bee" style="color: #FFC107;"></i> /z/ Sound Examples</div>
-                <p><strong>zz:</strong> fuzz, buzz, jazz</p>
-                <p><strong>ze:</strong> freeze, sneeze, breeze</p>
-                <p><strong>s:</strong> as, is, was</p>
-                <p><strong>se:</strong> please, cheese, noise</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Double D Doggy</div>
+                <p>When you hear a strong /d/ sound in the middle of a word, it might be "dd" like in "puddle" or "saddle".</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sound Detective Game!</div>
-                <p>Let's play "Sound Detective!" I'll say a word, and you tell me if it has the /s/ sound or /z/ sound.</p>
+                <div class="example-title"><i class="fas fa-microphone"></i> Say It Aloud</div>
+                <p>Say these words: sun, glass, house, city, dance. Do you hear the /s/ sound in all of them?</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying /s/ and /z/ sounds.",
-        taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the words with the /s/ sound:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ miss ☐ buzz ☐ city ☐ freeze ☐ ice</div>
-                    <div>☐ as ☐ house ☐ please ☐ cent ☐ fuzz</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Circle the words with the /z/ sound:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ is ☐ mouse ☐ jazz ☐ dance ☐ sneeze</div>
-                    <div>☐ grass ☐ cheese ☐ cycle ☐ was ☐ breeze</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Match the word with its sound:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>miss → ☐ /s/ sound ☐ /z/ sound</div>
-                    <div>buzz → ☐ /s/ sound ☐ /z/ sound</div>
-                    <div>as → ☐ /s/ sound ☐ /z/ sound</div>
-                    <div>ice → ☐ /s/ sound ☐ /z/ sound</div>
-                    <div>please → ☐ /s/ sound ☐ /z/ sound</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw a picture for each sound:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">/s/ sound (snake)</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">/z/ sound (bee)</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
-                </div>
-            </div>
-        `,
-        homework: "Find 3 words at home with the /s/ sound and 3 words with the /z/ sound. Write them in your notebook.",
-        homeworkDue: "Wednesday"
-    },
-    
-    wednesday: {
-        subject: "Literacy",
-        topic: "Hunting for Sounds",
-        subtopic: "Identifying /s/ and /z/ sounds in text",
-        lessonContent: `
-            <p>Today we will become sound hunters! We'll listen for /s/ and /z/ sounds in stories and identify which letters make those sounds.</p>
-            <p><strong>Key Concept:</strong> The same sound can be spelled different ways, and we need to recognize all the possibilities.</p>
-            <p><strong>How to hunt for sounds:</strong></p>
-            <ol>
-                <li>Listen carefully as the story is read</li>
-                <li>When you hear a /s/ or /z/ sound, raise your hand</li>
-                <li>Look at the word to see which letters are making the sound</li>
-                <li>Sort the word into the correct "Sound Family"</li>
-            </ol>
-            <p><strong>Remember our sound families:</strong></p>
-            <div style="display: flex; margin-top: 10px;">
-                <div style="flex: 1; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <p><strong>/s/ Sound Family:</strong></p>
-                    <ul>
-                        <li>ss (miss)</li>
-                        <li>se (mouse)</li>
-                        <li>c (city)</li>
-                        <li>ce (ice)</li>
-                    </ul>
-                </div>
-                <div style="flex: 1; padding: 10px; background-color: #E3F2FD; border-radius: 5px; margin-left: 10px;">
-                    <p><strong>/z/ Sound Family:</strong></p>
-                    <ul>
-                        <li>zz (fuzz)</li>
-                        <li>ze (freeze)</li>
-                        <li>s (as)</li>
-                        <li>se (please)</li>
-                    </ul>
-                </div>
-            </div>
-            <p><strong>Story Time:</strong> We'll read "The Sassy Snake and the Buzzing Bee" and hunt for sounds together!</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #795548;"></i> Story Example</div>
-                <p>"Sam the snake sssslithered through the grass. He saw a bee buzzing near some flowers."</p>
-                <p><strong>/s/ words:</strong> snake, sssslithered, grass, saw, some</p>
-                <p><strong>/z/ words:</strong> bees, buzzing, flowers</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-search" style="color: #2196F3;"></i> Sound Hunting Tips</div>
-                <p>1. Listen for the hissing /s/ like a snake</p>
-                <p>2. Listen for the buzzing /z/ like a bee</p>
-                <p>3. Look at the word to see which letters make the sound</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Story Hunt Game!</div>
-                <p>Let's read a story together! Every time you hear a /s/ or /z/ sound, make the animal sound (snake hiss or bee buzz)!</p>
-            </div>
-        `,
-        taskInstructions: "Practice identifying /s/ and /z/ sounds in words and sorting them into sound families.",
+        taskInstructions: "Practice identifying and writing words with alternative spellings for /s/ and /d/ sounds.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Story Sound Hunt</strong></p>
+                <p><strong>Part A: Circle the /s/ Sound</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Read the short story and circle all words with /s/ or /z/ sounds:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <p><em>My cat Jazz has nice mice. She sees them in the house. They race on the ice. Please be nice, Jazz!</em></p>
+                    <span class="task-number">1</span> Circle the letter or letters that make the /s/ sound in each word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• sun → s u n</div>
+                        <div>• grass → g r a s s</div>
+                        <div>• house → h o u s e</div>
+                        <div>• city → c i t y</div>
+                        <div>• dance → d a n c e</div>
                     </div>
-                    <div style="margin-top: 10px;">Number of /s/ words found: <span class="answer-space" style="width: 50px;"></span></div>
-                    <div>Number of /z/ words found: <span class="answer-space" style="width: 50px;"></span></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sound Family Sort</strong></p>
+                <p><strong>Part B: Fill in the Blanks - /s/ Sound</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Sort these words into the correct columns:
+                    <span class="task-number">2</span> Complete each word with ss, se, c, or ce:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex;">
-                            <div style="flex: 1;">
-                                <div style="font-weight: bold; text-align: center;">/s/ Sound Family</div>
-                                <div style="border: 1px solid #ccc; height: 150px; margin: 5px; padding: 5px;">
-                                    Words: miss, city, ice, mouse
-                                </div>
-                            </div>
-                            <div style="flex: 1;">
-                                <div style="font-weight: bold; text-align: center;">/z/ Sound Family</div>
-                                <div style="border: 1px solid #ccc; height: 150px; margin: 5px; padding: 5px;">
-                                    Words: buzz, freeze, as, please
-                                </div>
-                            </div>
+                        <div>• gla ___ (gla__)</div>
+                        <div>• hou ___ (hou__)</div>
+                        <div>• ___ircle (__ircle)</div>
+                        <div>• dan ___ (dan__)</div>
+                        <div>• mi ___ (mi__)</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: The /d/ Sound - Double or Single?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write d or dd to complete each word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• ___og</div>
+                        <div>• pu___le</div>
+                        <div>• ___oor</div>
+                        <div>• sa___le</div>
+                        <div>• ___uck</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Sentence Writing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write two sentences using words with the /s/ sound and two sentences using words with the /d/ sound:
+                    <div class="answer-space" style="height: 120px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Find 5 things at home that have the /s/ sound in their name. Write each word and circle the letters that make the /s/ sound.",
+        homeworkDue: "Wednesday"
+    },
+    
+    tuesday: {
+        subject: "Literacy",
+        topic: "Phonics",
+        subtopic: "Alternative Spellings: t = tt, g = gg, p = pp, l = ll",
+        lessonContent: `
+            <p>Today we'll learn more consonant alternative spellings! Get ready to discover how many ways we can spell the same sound.</p>
+            <p><strong>Key Question:</strong> What happens when we double a consonant letter?</p>
+            <p><strong>Introduction:</strong> Sometimes we use two of the same letter together to make a sound. Let's explore!</p>
+            
+            <p><strong>The /t/ Sound - Different Spellings:</strong></p>
+            <ul>
+                <li><strong>t</strong> as in <strong>t</strong>able, <strong>t</strong>iger, <strong>t</strong>en</li>
+                <li><strong>tt</strong> as in bu<strong>tt</strong>er, li<strong>tt</strong>le, be<strong>tt</strong>er</li>
+            </ul>
+            
+            <p><strong>The /g/ Sound - Different Spellings:</strong></p>
+            <ul>
+                <li><strong>g</strong> as in <strong>g</strong>oat, <strong>g</strong>ame, <strong>g</strong>arden</li>
+                <li><strong>gg</strong> as in e<strong>gg</strong>, le<strong>gg</strong>, fu<strong>gg</strong>y</li>
+            </ul>
+            
+            <p><strong>The /p/ Sound - Different Spellings:</strong></p>
+            <ul>
+                <li><strong>p</strong> as in <strong>p</strong>ig, <strong>p</strong>en, <strong>p</strong>anda</li>
+                <li><strong>pp</strong> as in a<strong>pp</strong>le, ha<strong>pp</strong>y, pu<strong>pp</strong>y</li>
+            </ul>
+            
+            <p><strong>The /l/ Sound - Different Spellings:</strong></p>
+            <ul>
+                <li><strong>l</strong> as in <strong>l</strong>ion, <strong>l</strong>eaf, <strong>l</strong>amp</li>
+                <li><strong>ll</strong> as in ba<strong>ll</strong>, ca<strong>ll</strong>, sma<strong>ll</strong></li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-egg"></i> Egg-cellent Double Letters!</div>
+                <p>When you see "gg" in "egg" or "pp" in "apple", the sound is the same as a single g or p - but the word looks different!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-frog"></i> Silly Sentences</div>
+                <p>Try saying: "The little puppy put butter on his happy belly!" How many double letters can you hear?</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-ball"></i> Ball or Bal?</div>
+                <p>If we wrote "bal" instead of "ball", it wouldn't look right! Double letters help us spell words correctly.</p>
+            </div>
+        `,
+        taskInstructions: "Practice identifying and writing words with alternative spellings for /t/, /g/, /p/, and /l/ sounds.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Sort the Words</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Sort these words into the correct columns: t, tt, g, gg, p, pp, l, ll
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <p><strong>Word Bank:</strong> tiger, butter, goat, egg, pen, apple, lion, ball, table, little, garden, puppy, leaf, small</p>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/t/ words</strong><br>
+                            t: _______<br>
+                            tt: _______
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/g/ words</strong><br>
+                            g: _______<br>
+                            gg: _______
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/p/ words</strong><br>
+                            p: _______<br>
+                            pp: _______
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/l/ words</strong><br>
+                            l: _______<br>
+                            ll: _______
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Underline the Sound</strong></p>
+                <p><strong>Part B: Fill in the Blanks</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Underline the letters that make the /s/ or /z/ sound in each word:
+                    <span class="task-number">2</span> Complete each word with the correct double letter (tt, gg, pp, or ll):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>dance</div>
-                        <div>fuzz</div>
-                        <div>circle</div>
-                        <div>cheese</div>
-                        <div>grass</div>
-                        <div>sneeze</div>
+                        <div>• bu ___ er (bu__er)</div>
+                        <div>• e ___ (e__)</div>
+                        <div>• a ___ le (a__le)</div>
+                        <div>• ba ___ (ba__)</div>
+                        <div>• li ___ le (li__le)</div>
+                        <div>• pu ___ y (pu__y)</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Read and Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read each sentence. Circle the words with double letters:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• I have a little puppy.</div>
+                        <div>• The yellow ball is small.</div>
+                        <div>• My happy dog likes butter.</div>
+                        <div>• We ate an apple and an egg.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Create Your Own Sentence</strong></p>
+                <p><strong>Part D: Write Your Own</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Write a sentence with at least one /s/ word and one /z/ word:
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                    <span class="task-number">4</span> Write two silly sentences using words with double letters:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Read a book at home for 10 minutes. Write down 5 words with /s/ or /z/ sounds that you find.",
+        homework: "Write a list of 10 words that have double letters (tt, gg, pp, ll). Draw a picture for 3 of them.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Sound Families Celebration",
-        subtopic: "Reviewing and applying knowledge of /s/ and /z/ sound families",
+        topic: "Phonics",
+        subtopic: "Alternative Spellings: n = nn, kn and f = ff, ph",
         lessonContent: `
-            <p>Today is our Sound Families celebration! We'll review everything we've learned and show how well we can identify /s/ and /z/ sounds.</p>
-            <p><strong>Key Concept:</strong> We now know multiple ways to spell the /s/ and /z/ sounds, and we can recognize them in reading and writing.</p>
-            <p><strong>Quick Review:</strong></p>
-            <div style="display: flex; margin-top: 10px;">
-                <div style="flex: 1; padding: 10px; background-color: #FCE4EC; border-radius: 5px;">
-                    <p><strong>/s/ Sound Spellers:</strong></p>
-                    <ul>
-                        <li>s (sun)</li>
-                        <li>ss (class)</li>
-                        <li>se (house)</li>
-                        <li>c (cent)</li>
-                        <li>ce (face)</li>
-                    </ul>
-                </div>
-                <div style="flex: 1; padding: 10px; background-color: #E8F5E9; border-radius: 5px; margin-left: 10px;">
-                    <p><strong>/z/ Sound Spellers:</strong></p>
-                    <ul>
-                        <li>z (zoo)</li>
-                        <li>zz (buzz)</li>
-                        <li>ze (freeze)</li>
-                        <li>s (is)</li>
-                        <li>se (cheese)</li>
-                    </ul>
-                </div>
-            </div>
-            <p><strong>Why this matters:</strong></p>
+            <p>Happy Friday! Today we'll finish our week of consonant alternative spellings with the /n/ sound and the /f/ sound.</p>
+            <p><strong>Key Question:</strong> Can you think of a word that starts with "kn" but sounds like /n/?</p>
+            <p><strong>Introduction:</strong> Some spellings are tricky because the letters don't all make a sound. Let's discover the silent letters!</p>
+            
+            <p><strong>The /n/ Sound - Different Spellings:</strong></p>
             <ul>
-                <li>Helps us become better readers</li>
-                <li>Makes us better spellers</li>
-                <li>Shows us that English has patterns we can learn</li>
-                <li>Makes reading and writing more fun!</li>
+                <li><strong>n</strong> as in <strong>n</strong>est, <strong>n</strong>ose, <strong>n</strong>ight</li>
+                <li><strong>nn</strong> as in fu<strong>nn</strong>y, su<strong>nn</strong>y, ba<strong>nn</strong>er</li>
+                <li><strong>kn</strong> as in <strong>kn</strong>ee, <strong>kn</strong>ife, <strong>kn</strong>ot (the k is silent!)</li>
             </ul>
-            <p><strong>Today's activities:</strong> We'll play games, sort words, and create our own sound family charts!</p>
+            
+            <p><strong>The /f/ Sound - Different Spellings:</strong></p>
+            <ul>
+                <li><strong>f</strong> as in <strong>f</strong>ish, <strong>f</strong>rog, <strong>f</strong>our</li>
+                <li><strong>ff</strong> as in o<strong>ff</strong>, stu<strong>ff</strong>, cli<strong>ff</strong></li>
+                <li><strong>ph</strong> as in <strong>ph</strong>one, dol<strong>ph</strong>in, <strong>ph</strong>oto (ph makes the /f/ sound!)</li>
+            </ul>
+            
+            <p><strong>Remember:</strong> In "kn" words, the K is silent. In "ph" words, the two letters together make one sound: /f/.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-pie" style="color: #9C27B0;"></i> Sound Family Chart</div>
-                <p><strong>/s/ Family:</strong> snake, ice, city, grass, face</p>
-                <p><strong>/z/ Family:</strong> bees, jazz, please, freeze, has</p>
+                <div class="example-title"><i class="fas fa-silence"></i> Silent K!</div>
+                <p>In words like "knee" and "knife", the K is silent. We only say the N sound! That's why we call it a "silent letter".</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-star" style="color: #FF9800;"></i> Expert Tip</div>
-                <p>Remember: sometimes 's' makes the /z/ sound! Think of words like "is," "was," "has," and "as."</p>
+                <div class="example-title"><i class="fas fa-dolphin"></i> PH = F</div>
+                <p>The letters P and H together make the /f/ sound. Say "phone" - it sounds like "fone"! Same with "dolphin" and "photo".</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sound Family Bingo!</div>
-                <p>Let's play Sound Family Bingo! Mark your card when you hear a word with /s/ or /z/ sound!</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Sunny and Funny</div>
+                <p>When you add "nn" to a word, it doubles the N sound like in "sunny" (sun + ny) and "funny" (fun + ny).</p>
             </div>
         `,
-        taskInstructions: "Complete these final activities to show your understanding of /s/ and /z/ sound families.",
+        taskInstructions: "Practice identifying and writing words with alternative spellings for /n/ and /f/ sounds, including silent letters.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Word Sort Challenge</strong></p>
+                <p><strong>Part A: Circle the /n/ Sound</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these words into the correct sound family:
+                    <span class="task-number">1</span> Circle the letter or letters that make the /n/ sound in each word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex;">
-                            <div style="flex: 1; padding: 10px; border: 2px solid #4CAF50;">
-                                <div style="font-weight: bold; text-align: center;">/s/ Sound Family</div>
-                                <div style="min-height: 150px; margin-top: 5px;">
-                                    Words to sort: dance, miss, cycle, face, house
-                                </div>
-                            </div>
-                            <div style="flex: 1; padding: 10px; border: 2px solid #2196F3; margin-left: 10px;">
-                                <div style="font-weight: bold; text-align: center;">/z/ Sound Family</div>
-                                <div style="min-height: 150px; margin-top: 5px;">
-                                    Words to sort: fuzz, is, breeze, cheese, sneeze
-                                </div>
-                            </div>
+                        <div>• nest → n e s t</div>
+                        <div>• funny → f u n n y</div>
+                        <div>• knee → k n e e</div>
+                        <div>• sunny → s u n n y</div>
+                        <div>• knife → k n i f e</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: The /f/ Sound - Which Spelling?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete each word with f, ff, or ph:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• ___ish</div>
+                        <div>• o___</div>
+                        <div>• dol___in</div>
+                        <div>• stu___</div>
+                        <div>• ___one</div>
+                        <div>• ___rog</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Silent K Challenge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read each word. Cross out the silent letter:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• knee → k n e e</div>
+                        <div>• knife → k n i f e</div>
+                        <div>• knot → k n o t</div>
+                        <div>• knock → k n o c k</div>
+                        <div>• kneel → k n e e l</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Sort the Words</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Sort these words into the correct groups:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <p><strong>Word Bank:</strong> nest, funny, knee, fish, off, phone, sunny, knife, dolphin, frog, cliff, photo</p>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/n/ sound words</strong><br>
+                            <div class="answer-space" style="height: 100px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/f/ sound words</strong><br>
+                            <div class="answer-space" style="height: 100px;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Create Your Own Words</strong></p>
+                <p><strong>Part E: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Create new words using the sound families:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Make a word with 'ss' for /s/: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Make a word with 'ce' for /s/: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Make a word with 'zz' for /z/: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Make a word with 'ze' for /z/: <span class="answer-space" style="width: 100px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Sound Family Story</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Write a short story using at least 3 /s/ words and 2 /z/ words:
-                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Sound Family Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Design your "Sound Family Expert" certificate:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>I am an expert at finding <span class="answer-space" style="width: 80px;"></span> and <span class="answer-space" style="width: 80px;"></span> sounds!</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Reflection</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Complete these sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The most interesting thing I learned was: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>I can find /s/ and /z/ sounds when I: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>This helps me become a better reader because: <span class="answer-space" style="width: 200px;"></span></div>
-                    </div>
+                    <span class="task-number">5</span> Write one sentence using a "kn" word and one sentence using a "ph" word:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home about the /s/ and /z/ sound families. Find examples in a magazine or newspaper together.",
+        homework: "Create a word poster showing all the ways to spell the /n/ sound (n, nn, kn) and the /f/ sound (f, ff, ph). Draw a picture for each spelling pattern.",
         homeworkDue: "Monday"
     }
 };
@@ -356,10 +348,10 @@ const grade2LiteracyWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2LiteracyWeek2);
-    console.log("literacy-week2-sounds.js registered using registerWorksheet()");
+    console.log("grade2-literacy-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2LiteracyWeek2);
-    console.log("literacy-week2-sounds.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-literacy-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -370,9 +362,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2LiteracyWeek2.metadata,
         days: grade2LiteracyWeek2
     });
-    console.log("literacy-week2-sounds.js stored in window.registeredWorksheets");
+    console.log("grade2-literacy-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2LiteracyWeek2 = grade2LiteracyWeek2;
-console.log("literacy-week2-sounds.js loaded and registered successfully");
+console.log("grade2-literacy-week2.js loaded and registered successfully");

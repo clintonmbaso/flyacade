@@ -1,318 +1,302 @@
-// Grade 2 Literacy - Week 7 Data (The Clicking Sounds /k/ and /j/)
+// Grade 2 Literacy - Term 1 Week 7 Data
 const grade2LiteracyWeek7 = {
     metadata: {
         grade: 2,
         subject: "Literacy",
+        term: 1,
         week: 7,
-        title: "The Clicking Sounds — /k/ and /j/",
-        description: "Learning alternative spellings for the /k/ sound (ck, ch) and the /j/ sound (g, ge)"
+        title: "Vowel Alternative Spellings",
+        description: "Identifying alternative spellings for vowel sounds: /u:/, /o/, /o:/, /i/, and /ou/"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "The /k/ Sound",
-        subtopic: "Identifying and spelling /k/ with 'ck' and 'ch'",
+        topic: "Phonics",
+        subtopic: "Vowel Alternative Spellings: /u:/ sound",
         lessonContent: `
-            <p>Welcome to our Literacy lesson! Today we will explore the /k/ sound and learn its different spellings.</p>
-            <p><strong>Key Concept:</strong> The /k/ sound can be spelled in more than one way!</p>
-            <p><strong>How do we spell /k/?</strong></p>
+            <p>Welcome to our phonics lesson! Today we'll learn about different ways to spell the /u:/ sound (the long "oo" sound).</p>
+            <p><strong>Key Question:</strong> How many ways can we spell the /u:/ sound?</p>
+            <p><strong>Introduction:</strong> The /u:/ sound is the long "oo" sound you hear in words like "blue" and "true". There are three common spellings for this sound.</p>
+            <p><strong>The Three Spellings of /u:/:</strong></p>
+            <ol>
+                <li><strong>u</strong> (at the end of a word or before a consonant)</li>
+                <li><strong>u-e</strong> (the magic e makes the u say its name)</li>
+                <li><strong>ew</strong> (two letters working together)</li>
+            </ol>
+            <p><strong>Examples:</strong></p>
             <ul>
-                <li><strong>'k'</strong> as in <em>kite, king, milk</em></li>
-                <li><strong>'ck'</strong> as in <em>duck, back, sock</em></li>
-                <li><strong>'ch'</strong> as in <em>school, echo, chemist</em></li>
+                <li><strong>u</strong> = super, music, unit, unicorn</li>
+                <li><strong>u-e</strong> = tune, rude, June, prune, flute</li>
+                <li><strong>ew</strong> = new, few, grew, flew, drew, screw</li>
             </ul>
-            <p><strong>Why not just use 'k'?</strong> English has special spelling patterns. We often use 'ck' at the end of short words after a short vowel. 'Ch' for /k/ usually comes from Greek words.</p>
-            <p><strong>Remember:</strong> The sound is the same, but the letters can change!</p>
+            <p><strong>Remember:</strong> All these spellings make the same /u:/ sound! The magic 'e' at the end of u-e words jumps back and makes the u say its name.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-volume-up" style="color: #4CAF50;"></i> /k/ Sound Examples</div>
-                <p>"duck" – ends with 'ck'</p>
-                <p>"school" – 'ch' says /k/</p>
-                <p>"kite" – starts with 'k'</p>
+                <div class="example-title"><i class="fas fa-music"></i> Music Words</div>
+                <p>The word "music" has the /u:/ sound spelled with just the letter u. "Flute" has the same sound but spelled with u-e!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb" style="color: #FFC107;"></i> Spelling Rule</div>
-                <p>Use 'ck' right after a short vowel at the end of a word: ba<strong>ck</strong>, du<strong>ck</strong>, lo<strong>ck</strong>.</p>
+                <div class="example-title"><i class="fas fa-dragon"></i> Magical Creatures</div>
+                <p>A "unicorn" starts with the /u:/ sound (u). "New" has the same sound but spelled with ew.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sound Detective Game</div>
-                <p>Listen to the word. Hold up the card that shows how the /k/ sound is spelled: 'k', 'ck', or 'ch'.</p>
+                <div class="example-title"><i class="fas fa-pencil-alt"></i> Spelling Tip</div>
+                <p>When you hear the /u:/ sound at the end of a word, it's often spelled "ew" (like grew, flew, new).</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice spelling the /k/ sound.",
+        taskInstructions: "Sort words by their /u:/ spelling pattern and complete the sentences.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Fill in the missing spelling for the /k/ sound:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>ba__ (back) → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>__ite (kite) → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>__ool (school) → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>lo__ (lock) → <span class="answer-space" style="width: 80px;"></span></div>
-                    <div>__emi__t (chemist) → <span class="answer-space" style="width: 80px;"></span> and <span class="answer-space" style="width: 80px;"></span></div>
+            <div class="content-box">
+                <p><strong>Part A: Word Sorting</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Sort these words into the correct column: <strong>tune, super, few, June, music, grew, rude, new, unit, drew</strong>
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">u</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">u-e</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">ew</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                            </tr>
+                         </table>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Circle the words where the /k/ sound is spelled with 'ck':
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ duck ☐ kitten ☐ pocket ☐ school ☐ black</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Fill in the Blank</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete each sentence with a /u:/ word from the box:
+                    <div style="background-color: #f5f5f5; padding: 10px; margin: 10px 0;">
+                        <strong>Word Bank:</strong> new, tune, super, grew, June
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <div>a) My sunflower ________ very tall this summer.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>b) I learned a ________ song on my violin.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>c) ________ is a month when school ends.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>d) My mom bought me a ________ backpack.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>e) That movie was ________ funny!</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Circle the words where the /k/ sound is spelled with 'ch':
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ echo ☐ chicken ☐ chemist ☐ kitchen ☐ Christmas</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Write your own word for each /k/ spelling:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>'k': <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>'ck': <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>'ch': <span class="answer-space" style="width: 150px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reading Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read the sentence and circle all the words with the /u:/ sound:
+                    <div style="background-color: #e8f4f8; padding: 10px; margin: 10px 0;">
+                        "In June, a few new students came to our music class. They learned a new tune on the flute."
+                    </div>
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home whose names have the /k/ sound. Write the words and circle how the /k/ is spelled.",
+        homework: "Find 5 things at home that have the /u:/ sound in their name. Write them down and circle the spelling pattern (u, u-e, or ew).",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "The /j/ Sound",
-        subtopic: "Identifying and spelling /j/ with 'g' and 'ge'",
+        topic: "Phonics",
+        subtopic: "Vowel Alternative Spellings: /o/ and /o:/ sounds",
         lessonContent: `
-            <p>Today we will learn about the /j/ sound and its different spellings.</p>
-            <p><strong>Key Concept:</strong> Just like /k/, the /j/ sound can be spelled in more than one way!</p>
-            <p><strong>How do we spell /j/?</strong></p>
+            <p>Today we'll learn two different vowel sounds: the short /o/ sound and the long /o:/ sound!</p>
+            <p><strong>Key Question:</strong> How can the same letters make different sounds?</p>
+            <p><strong>Sound 1: /o/ (the short 'e' sound like in 'the')</strong></p>
+            <p>This is the soft 'uh' sound you hear at the beginning of words like "about". There are four spellings:</p>
             <ul>
-                <li><strong>'j'</strong> as in <em>jump, jam, enjoy</em></li>
-                <li><strong>'g'</strong> as in <em>giant, gem, magic</em></li>
-                <li><strong>'ge'</strong> as in <em>cage, page, huge</em></li>
+                <li><strong>e</strong> = open, hello, silent (the 'e' can sound like /o/ in some words)</li>
+                <li><strong>ea</strong> = ocean, tropical</li>
+                <li><strong>ey</strong> = they, hey</li>
+                <li><strong>y</strong> (at the end of long words) = family, happy, baby</li>
             </ul>
-            <p><strong>When does 'g' say /j/?</strong> Usually when 'g' is followed by 'e', 'i', or 'y' (like in giant, gem, gym).</p>
-            <p><strong>When do we use 'ge'?</strong> Often at the end of a word to make the /j/ sound after a consonant or long vowel.</p>
-            <p><strong>Remember:</strong> The sound /j/ is the same in 'jump' and 'gem'—but the letters are different!</p>
+            <p><strong>Sound 2: /o:/ (the long 'aw' sound like in 'saw')</strong></p>
+            <p>This is the sound you hear in "caught" or "ball". There are four spellings:</p>
+            <ul>
+                <li><strong>a</strong> (before 'l' or 'll') = ball, tall, call, small</li>
+                <li><strong>au</strong> = August, author, autumn, sauce</li>
+                <li><strong>aw</strong> = saw, draw, crawl, paw</li>
+                <li><strong>oor</strong> = door, floor</li>
+            </ul>
+            <p><strong>Important:</strong> Don't confuse these two sounds! /o/ is soft like "uh", while /o:/ is strong like "aw".</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-volume-up" style="color: #2196F3;"></i> /j/ Sound Examples</div>
-                <p>"jump" – starts with 'j'</p>
-                <p>"giant" – 'g' says /j/</p>
-                <p>"cage" – ends with 'ge'</p>
+                <div class="example-title"><i class="fas fa-calendar-alt"></i> August Example</div>
+                <p>The month "August" has the /o:/ sound spelled with "au". The word "ball" has the same sound spelled with "a" before 'll'.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb" style="color: #FFC107;"></i> Spelling Tip</div>
-                <p>If 'g' is followed by e, i, or y, it often says /j/. Think: gem, giraffe, gym.</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Paw and Draw</div>
+                <p>"Paw" and "draw" both have the /o:/ sound spelled with "aw". Can you think of more words like these?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Word Builder Game</div>
-                <p>Use letter cards to build words with the /j/ sound. Choose the right spelling: j, g, or ge.</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Happy Family</div>
+                <p>The word "happy" ends with the /o/ sound spelled with 'y'. "Family" also ends with the same sound!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice spelling the /j/ sound.",
+        taskInstructions: "Identify and sort words with /o/ and /o:/ sounds.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Fill in the Blanks</strong></p>
+                <p><strong>Part A: Sound Sorting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Fill in the missing spelling for the /j/ sound:
+                    <span class="task-number">1</span> Sort these words into /o/ (soft) or /o:/ (long): <strong>ball, they, draw, family, door, ocean, saw, happy, tall, hey, August, baby</strong>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>__ump (jump) → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>__iant (giant) → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>ca__ (cage) → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>__em (gem) → <span class="answer-space" style="width: 80px;"></span></div>
-                        <div>pa__ (page) → <span class="answer-space" style="width: 80px;"></span></div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">/o/ (soft - like "the")</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">/o:/ (long - like "saw")</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 180px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 180px; vertical-align: top;"></td>
+                            </tr>
+                         </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Word Sort</strong></p>
+                <p><strong>Part B: Circle the Spelling Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write each word under the correct spelling column:
+                    <span class="task-number">2</span> Read each word and circle the letters that make the /o/ or /o:/ sound:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Words: gem, jump, huge, jelly, giraffe, age</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">'j' spelling</div>
-                                <div class="answer-space" style="height: 80px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">'g' spelling</div>
-                                <div class="answer-space" style="height: 80px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">'ge' spelling</div>
-                                <div class="answer-space" style="height: 80px;"></div>
-                            </div>
-                        </div>
+                        <div>a) ocean → /o/ sound spelled ______</div>
+                        <div>b) door → /o:/ sound spelled ______</div>
+                        <div>c) they → /o/ sound spelled ______</div>
+                        <div>d) small → /o:/ sound spelled ______</div>
+                        <div>e) August → /o:/ sound spelled ______</div>
+                        <div>f) family → /o/ sound spelled ______</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Rule Practice</strong></p>
+                <p><strong>Part C: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Circle the words where 'g' makes the /j/ sound:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ gate ☐ gem ☐ gift ☐ goat ☐ gym</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Create Your Own</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture of something with a /j/ sound in its name. Label it with the word:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My word: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>The /j/ is spelled with: <span class="answer-space" style="width: 80px;"></span></div>
-                    </div>
+                    <span class="task-number">3</span> Write two sentences. One sentence must use a word with the /o/ sound. The other must use a word with the /o:/ sound.
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look for three words with the /j/ sound in a storybook. Write them down and circle the spelling of /j/.",
+        homework: "Find 3 words with the /o/ sound and 3 words with the /o:/ sound in a book you are reading. Write them down and show which spelling pattern each uses.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Sorting /k/ and /j/ Words",
-        subtopic: "Practicing and sorting words by sound and spelling pattern",
+        topic: "Phonics",
+        subtopic: "Vowel Alternative Spellings: /i/ and /ou/ sounds",
         lessonContent: `
-            <p>Today is our practice day! We will review both /k/ and /j/ sounds and sort words by their spellings.</p>
-            <p><strong>Key Concept:</strong> Listening carefully helps us know which spelling to use.</p>
-            <p><strong>Review /k/ spellings:</strong> k, ck, ch</p>
-            <p><strong>Review /j/ spellings:</strong> j, g, ge</p>
-            <p><strong>Sorting Steps:</strong></p>
-            <ol>
-                <li>First, listen for the sound: Is it /k/ or /j/?</li>
-                <li>Then, look at the word: How is the sound spelled?</li>
-                <li>Sort it into the right group!</li>
-            </ol>
-            <p><strong>Why does this matter?</strong> Knowing different spellings helps us read and write more words correctly.</p>
-            <p><strong>Today's activities:</strong> We'll play sorting games, complete puzzles, and become spelling detectives!</p>
+            <p>Today we'll learn two more vowel sounds: the long /i/ sound and the /ou/ sound!</p>
+            <p><strong>Key Question:</strong> How many ways can you spell the sound in "light" and the sound in "cow"?</p>
+            <p><strong>Sound 1: /i/ (the long 'i' sound like in 'bike')</strong></p>
+            <p>This is the sound you hear in "kite" and "fly". There are four spellings:</p>
+            <ul>
+                <li><strong>i</strong> (in short words) = I, hi, tiger</li>
+                <li><strong>i-e</strong> (magic e) = bike, time, like, kite, five</li>
+                <li><strong>igh</strong> (three letters together) = light, night, high, bright, right</li>
+                <li><strong>y</strong> (at the end of words) = my, by, fly, cry, try</li>
+            </ul>
+            <p><strong>Sound 2: /ou/ (the sound like in 'cow' and 'out')</strong></p>
+            <p>This is the sound you hear in "house" and "now". There is one main spelling pattern this week:</p>
+            <ul>
+                <li><strong>ow</strong> = cow, how, now, brown, down, town, flower</li>
+            </ul>
+            <p><strong>Remember:</strong> The /ou/ sound can also be spelled "ou" (like in "out" and "loud"), but today we focus on the "ow" spelling!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sort" style="color: #9C27B0;"></i> Sorting Example</div>
-                <p>"duck" → Sound: /k/ → Spelling: ck</p>
-                <p>"gem" → Sound: /j/ → Spelling: g</p>
-                <p>"school" → Sound: /k/ → Spelling: ch</p>
-                <p>"cage" → Sound: /j/ → Spelling: ge</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Light and Night</div>
+                <p>"Light" and "night" both have the /i/ sound spelled with "igh". These are tricky because there are three letters but only one sound!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-puzzle-piece" style="color: #FF9800;"></i> Puzzle Time</div>
-                <p>Can you fit each word into the right box on the sorting chart?</p>
+                <div class="example-title"><i class="fas fa-bicycle"></i> Magic e</div>
+                <p>In "bike" and "time", the magic 'e' at the end makes the 'i' say its name. Without the 'e', "bik" and "tim" would have short vowel sounds!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Spelling Detective Game</div>
-                <p>Work in teams to find words around the room that have /k/ or /j/ sounds. Write them and label the spelling.</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Brown Flower</div>
+                <p>"Brown" and "flower" both have the /ou/ sound spelled with "ow". Say them slowly: br-ow-n, fl-ow-er. Hear that /ou/ sound?</p>
             </div>
         `,
-        taskInstructions: "Complete the sorting and practice activities.",
+        taskInstructions: "Identify /i/ and /ou/ sounds in words and complete the activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Sort</strong></p>
+                <p><strong>Part A: /i/ Sound Spelling Sort</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these words by their sound (/k/ or /j/):
+                    <span class="task-number">1</span> Sort these /i/ sound words into the correct column: <strong>my, time, high, kite, fly, night, bike, cry, bright, tiger, try, light</strong>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Words: back, gem, jump, school, cage, kitten, giant, lock</div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/k/ Sound Words</div>
-                                <div class="answer-space" style="height: 100px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/j/ Sound Words</div>
-                                <div class="answer-space" style="height: 100px;"></div>
-                            </div>
-                        </div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">i</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">i-e</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">igh</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">y</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                            </tr>
+                         </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Spelling Sort</strong></p>
+                <p><strong>Part B: /ou/ Sound Identification</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Now sort the /k/ words by spelling (k, ck, ch) and /j/ words by spelling (j, g, ge):
+                    <span class="task-number">2</span> Circle the words that have the /ou/ sound (like "cow"):
+                    <div style="background-color: #f5f5f5; padding: 10px; margin: 10px 0;">
+                        down &nbsp;&nbsp; snow &nbsp;&nbsp; brown &nbsp;&nbsp; grow &nbsp;&nbsp; how &nbsp;&nbsp; show &nbsp;&nbsp; town &nbsp;&nbsp; now &nbsp;&nbsp; flower &nbsp;&nbsp; blow
+                    </div>
+                    <div class="answer-space" style="height: 40px;"></div>
+                    <div>Which words did you NOT circle? Why?</div>
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Fill in the Blank</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Complete each sentence with the correct word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/k/ spelled 'k'</div>
-                                <div class="answer-space" style="height: 60px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/k/ spelled 'ck'</div>
-                                <div class="answer-space" style="height: 60px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/k/ spelled 'ch'</div>
-                                <div class="answer-space" style="height: 60px;"></div>
-                            </div>
-                        </div>
-                        <div style="display: flex; margin-top: 10px;">
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/j/ spelled 'j'</div>
-                                <div class="answer-space" style="height: 60px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/j/ spelled 'g'</div>
-                                <div class="answer-space" style="height: 60px;"></div>
-                            </div>
-                            <div style="flex: 1; border: 1px solid #ccc; padding: 10px;">
-                                <div style="font-weight: bold;">/j/ spelled 'ge'</div>
-                                <div class="answer-space" style="height: 60px;"></div>
-                            </div>
-                        </div>
+                        <div>a) The stars shine ________ (bright/bring) in the sky.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>b) I like to ________ (kite/fly) my kite at the park.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>c) The ________ (brown/blow) bear lives in the forest.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>d) ________ (How/Now) many fish are in the tank?</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>e) Don't ________ (cry/try) if you make a mistake.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Fill-in-the-Blank Challenge</strong></p>
+                <p><strong>Part D: Reading Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Choose the correct spelling to complete each word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>bri__ (bridge) → ☐ dge ☐ ge ☐ j</div>
-                        <div>__icken (chicken) → ☐ ch ☐ k ☐ ck</div>
-                        <div>__iraffe (giraffe) → ☐ g ☐ j ☐ ge</div>
-                        <div>lo__ (lock) → ☐ k ☐ ck ☐ ch</div>
-                        <div>__iant (giant) → ☐ j ☐ g ☐ ge</div>
+                    <span class="task-number">4</span> Read the sentence. Circle all the /i/ sound words and underline all the /ou/ sound words:
+                    <div style="background-color: #e8f4f8; padding: 10px; margin: 10px 0;">
+                        "I saw a bright light high in the night sky. Down in the brown town, a cow cried out loud."
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Word Hunt Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw two things: one with a /k/ sound in its name, one with a /j/ sound. Label each with the word.
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">/k/ word</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">/j/ word</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div class="answer-space" style="height: 30px; margin-top: 5px;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Spelling Detective Badge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> You are now a Spelling Detective! Draw your detective badge and write one rule you learned:
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">One spelling rule I learned: ________________</div>
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a mini poster with two columns: /k/ words and /j/ words. Include at least three words in each column with different spellings.",
+        homework: "Write 5 sentences. Use at least one /i/ sound word in each sentence (try different spellings: i, i-e, igh, y). Then write 2 more sentences using /ou/ sound words with the 'ow' spelling.",
         homeworkDue: "Monday"
     }
 };
@@ -320,10 +304,10 @@ const grade2LiteracyWeek7 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade2LiteracyWeek7);
-    console.log("literacy-week7-clicking-sounds.js registered using registerWorksheet()");
+    console.log("grade2-literacy-week7.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade2LiteracyWeek7);
-    console.log("literacy-week7-clicking-sounds.js registered using DataLoader.registerWorksheet()");
+    console.log("grade2-literacy-week7.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -334,9 +318,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade2LiteracyWeek7.metadata,
         days: grade2LiteracyWeek7
     });
-    console.log("literacy-week7-clicking-sounds.js stored in window.registeredWorksheets");
+    console.log("grade2-literacy-week7.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade2LiteracyWeek7 = grade2LiteracyWeek7;
-console.log("literacy-week7-clicking-sounds.js loaded and registered successfully");
+console.log("grade2-literacy-week7.js loaded and registered successfully");
