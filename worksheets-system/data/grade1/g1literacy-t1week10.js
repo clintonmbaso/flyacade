@@ -1,547 +1,452 @@
-// Grade 1 Literacy - Week 10 Data
+// Grade 1 Literacy - Term 1 Week 10 Data
 const grade1LiteracyWeek10 = {
     metadata: {
         grade: 1,
         subject: "Literacy",
+        term: 1,
         week: 10,
-        title: "Blending, Segmenting, and Reading Digraphs",
-        description: "Practice blending, segmenting, and reading words with digraphs in VC and CVC patterns"
+        title: "Consonants (v, w, y, z, j, x) & Term Review",
+        description: "Identifying and sounding out remaining consonant sounds, letter formation, CVC reading practice, and mid-year baseline check"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "Blending VC and CVC Digraph Words",
-        subtopic: "Blending decodable words with digraphs using VC and CVC patterns",
+        topic: "Phonics",
+        subtopic: "Consonants: /v/, /w/, /y/, /z/, /j/, /x/",
         lessonContent: `
-            <p>Welcome to Week 10! This week we'll become experts at reading words with special letter teams called digraphs.</p>
-            <p><strong>What are digraphs?</strong> Digraphs are two letters that work together to make ONE sound. Today we'll focus on blending words with digraphs.</p>
-            <p><strong>Today's Objective:</strong> You will blend decodable words with digraphs, focusing on VC and CVC patterns.</p>
-            <p><strong>Key Concept:</strong> We use the "sound sliding" method to blend digraph words smoothly.</p>
-            <p><strong>VC Pattern:</strong> Vowel-Consonant words like "ash" (a-sh)</p>
-            <p><strong>CVC Pattern:</strong> Consonant-Vowel-Consonant words like "book" (b-oo-k)</p>
-            <p><strong>Blending Steps:</strong></p>
+            <p>Welcome to our phonics lesson! Today we will learn six new consonant sounds.</p>
+            <p><strong>Key Question:</strong> Can you hear the difference between /v/ and /w/?</p>
+            <p><strong>Introduction:</strong> Consonants are letters that are not vowels. Today we will learn the sounds for v, w, y, z, j, and x.</p>
+            <p><strong>Our New Sounds:</strong></p>
             <ol>
-                <li>Say each sound slowly: /a/ — /sh/</li>
-                <li>"Slide" the sounds together</li>
-                <li>Say the word at normal speed: "ash"</li>
+                <li><strong>/v/ sound:</strong> Like in "van", "vet", "vest"</li>
+                <li><strong>/w/ sound:</strong> Like in "wig", "wet", "web"</li>
+                <li><strong>/y/ sound:</strong> Like in "yak", "yes", "yarn"</li>
+                <li><strong>/z/ sound:</strong> Like in "zip", "zoo", "zag"</li>
+                <li><strong>/j/ sound:</strong> Like in "jam", "jug", "jet"</li>
+                <li><strong>/x/ sound:</strong> Like in "fox", "box", "six" (at the end of words)</li>
             </ol>
-            <p><strong>Remember:</strong> Digraphs like "sh", "oo", and "ng" make one sound even though they have two letters!</p>
+            <p><strong>How to Make Each Sound:</strong></p>
+            <ul>
+                <li>/v/ - Bite your bottom lip gently and blow (buzzing sound)</li>
+                <li>/w/ - Pucker your lips like you are blowing out a candle</li>
+                <li>/y/ - Smile and say "eee" quickly</li>
+                <li>/z/ - Put your tongue behind your teeth and buzz like a bee</li>
+                <li>/j/ - Push your tongue to the roof of your mouth and say "juh"</li>
+                <li>/x/ - Make the /k/ and /s/ sounds together quickly</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sliders-h" style="color: #2196F3;"></i> Sound Sliding Examples</div>
-                <p>"ash" - /a/ — /sh/ → "ash"</p>
-                <p>"book" - /b/ — /oo/ — /k/ → "book"</p>
-                <p>"ring" - /r/ — /i/ — /ng/ → "ring"</p>
+                <div class="example-title"><i class="fas fa-car"></i> /v/ Words</div>
+                <p>van, vet, vest, violin, volcano</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-farm" style="color: #4CAF50;"></i> Letter Card Practice</div>
-                <p>Use letter cards: /f/ + /ar/ + /m/</p>
-                <p>Push them together: /f/ /ar/ /m/ = "farm"</p>
+                <div class="example-title"><i class="fas fa-water"></i> /w/ Words</div>
+                <p>wig, web, wet, window, water</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-people-arrows"></i> Partner Practice</div>
-                <p>Take turns being the "sound slider" and the "word reader"</p>
-                <p>Practice with: wish, look, song, fish</p>
+                <div class="example-title"><i class="fas fa-smile"></i> /y/ Words</div>
+                <p>yak, yes, yarn, yellow, yogurt</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-bug"></i> /z/ Words</div>
+                <p>zip, zoo, zap, zebra, zigzag</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-pepper-hot"></i> /j/ Words</div>
+                <p>jam, jug, jet, jump, jungle</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-box"></i> /x/ Words</div>
+                <p>fox, box, six, wax, mix</p>
             </div>
         `,
-        taskInstructions: "Practice blending VC and CVC digraph words using the activities below.",
+        taskInstructions: "Practice saying each sound and circle the pictures that start with the given sound.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Use sound sliding to blend these words. Draw a line from the sounds to the word:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div style="margin-bottom: 10px;">
-                        <span>/a/ — /sh/</span>
-                        <span style="margin-left: 20px;">→</span>
-                        <span style="margin-left: 20px; padding: 5px 10px; border: 1px solid #ccc;">ash</span>
-                        <span style="margin-left: 20px; padding: 5px 10px; border: 1px solid #ccc;">ish</span>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <span>/b/ — /oo/ — /k/</span>
-                        <span style="margin-left: 20px;">→</span>
-                        <span style="margin-left: 20px; padding: 5px 10px; border: 1px solid #ccc;">back</span>
-                        <span style="margin-left: 20px; padding: 5px 10px; border: 1px solid #ccc;">book</span>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <span>/f/ — /ar/ — /m/</span>
-                        <span style="margin-left: 20px;">→</span>
-                        <span style="margin-left: 20px; padding: 5px 10px; border: 1px solid #ccc;">farm</span>
-                        <span style="margin-left: 20px; padding: 5px 10px; border: 1px solid #ccc;">form</span>
+            <div class="content-box">
+                <p><strong>Part A: Say the Sound</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Practice saying each sound after your teacher:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>v v v - van</div>
+                        <div>w w w - wig</div>
+                        <div>y y y - yak</div>
+                        <div>z z z - zip</div>
+                        <div>j j j - jam</div>
+                        <div>x x x - fox</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Cut out the letter cards and push them together to make words:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #f0f8ff; border-radius: 5px;">
-                    <div style="display: flex; gap: 15px; margin-bottom: 15px; justify-content: center;">
-                        <div style="width: 50px; height: 50px; border: 2px solid #4CAF50; display: flex; align-items: center; justify-content: center; font-size: 24px;">f</div>
-                        <div style="width: 50px; height: 50px; border: 2px solid #4CAF50; display: flex; align-items: center; justify-content: center; font-size: 24px;">ar</div>
-                        <div style="width: 50px; height: 50px; border: 2px solid #4CAF50; display: flex; align-items: center; justify-content: center; font-size: 24px;">m</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Circle the Sound</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Circle the pictures that start with /v/:
+                    <div style="display: flex; gap: 20px; margin-top: 10px; flex-wrap: wrap;">
+                        <div style="text-align: center;">[van]</div>
+                        <div style="text-align: center;">[cat]</div>
+                        <div style="text-align: center;">[vest]</div>
                     </div>
-                    <div style="text-align: center;">Word: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
                 </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Color the digraphs in these words:
-                <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <div style="text-align: center;">
-                        <div style="font-size: 24px; margin-bottom: 5px;">📖</div>
-                        <div style="font-size: 20px; padding: 5px; border: 1px solid #ccc;">b<strong>oo</strong>k</div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Circle the pictures that start with /w/:
+                    <div style="display: flex; gap: 20px; margin-top: 10px; flex-wrap: wrap;">
+                        <div style="text-align: center;">[wig]</div>
+                        <div style="text-align: center;">[dog]</div>
+                        <div style="text-align: center;">[web]</div>
                     </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 24px; margin-bottom: 5px;">💍</div>
-                        <div style="font-size: 20px; padding: 5px; border: 1px solid #ccc;">r<strong>ing</strong></div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 24px; margin-bottom: 5px;">🐟</div>
-                        <div style="font-size: 20px; padding: 5px; border: 1px solid #ccc;">f<strong>ish</strong></div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 24px; margin-bottom: 5px;">👑</div>
-                        <div style="font-size: 20px; padding: 5px; border: 1px solid #ccc;"><strong>qu</strong>een</div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Circle the pictures that end with /x/:
+                    <div style="display: flex; gap: 20px; margin-top: 10px; flex-wrap: wrap;">
+                        <div style="text-align: center;">[box]</div>
+                        <div style="text-align: center;">[cat]</div>
+                        <div style="text-align: center;">[six]</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Write two VC words and two CVC words with digraphs:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>VC words: <span class="answer-space" style="width: 80px; display: inline-block;"></span> , <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                    <div>CVC words: <span class="answer-space" style="width: 80px; display: inline-block;"></span> , <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Draw one thing that starts with /j/:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home with digraph sounds (sh, ch, th, ng, oo). Draw pictures of them.",
+        homework: "Find three things at home that start with the /v/, /w/, or /y/ sound. Share them with your family.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Literacy",
-        topic: "Sound Positioning and Isolation",
-        subtopic: "Identifying initial, middle, and end sounds in words with digraphs",
+        topic: "Handwriting",
+        subtopic: "Forming Lower-case Letters: v, w, y, z, j, x",
         lessonContent: `
-            <p>Today we'll become sound detectives! We'll learn where digraph sounds live in words.</p>
-            <p><strong>Today's Objective:</strong> You will identify initial, middle, and end sounds in words with digraphs.</p>
-            <p><strong>Key Concept:</strong> Sounds can be at the beginning, middle, or end of words.</p>
-            <p><strong>Initial Sound:</strong> The first sound you hear (like /qu/ in "queen")</p>
-            <p><strong>Middle Sound:</strong> The sound in the center (like /oo/ in "moon")</p>
-            <p><strong>End Sound:</strong> The last sound you hear (like /ng/ in "ring")</p>
-            <p><strong>Sound Boxes:</strong> We use boxes to show where sounds live:</p>
+            <p>Today we will learn how to write six new lower-case letters!</p>
+            <p><strong>Key Question:</strong> Can you write the letter 'j' so it goes below the line?</p>
+            <p><strong>Introduction:</strong> Writing letters correctly helps everyone read your words. Let's practice forming v, w, y, z, j, and x.</p>
+            <p><strong>How to Write Each Letter:</strong></p>
             <ul>
-                <li>First box = beginning sound</li>
-                <li>Middle box = vowel sound</li>
-                <li>Last box = ending sound</li>
+                <li><strong>v:</strong> Slant down, then slant up (like a valley)</li>
+                <li><strong>w:</strong> Slant down, up, down, up (like two v's together)</li>
+                <li><strong>y:</strong> Slant down, slant up, then straight down below the line</li>
+                <li><strong>z:</strong> Across, slant down, across (like a zigzag)</li>
+                <li><strong>j:</strong> Curve down, dot on top, then straight down below the line</li>
+                <li><strong>x:</strong> Slant down left to right, then slant down right to left (cross)</li>
             </ul>
-            <p><strong>Digraph Position Examples:</strong></p>
+            <p><strong>Remember:</strong></p>
             <ul>
-                <li>"queen" - /qu/ is at the beginning (initial)</li>
-                <li>"moon" - /oo/ is in the middle (medial)</li>
-                <li>"ring" - /ng/ is at the end (final)</li>
+                <li>Always start at the top (except for j which starts with a curve)</li>
+                <li>Letters v, w, and x sit on the line</li>
+                <li>Letters y and j go below the line (descenders)</li>
+                <li>Letter z is made of straight lines only</li>
             </ul>
-            <p><strong>Remember:</strong> Some digraphs like "ng" always come at the end of words!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-search" style="color: #FF9800;"></i> Sound Detective</div>
-                <p>"queen" - Digraph /qu/ is at the BEGINNING</p>
-                <p>"moon" - Digraph /oo/ is in the MIDDLE</p>
-                <p>"ring" - Digraph /ng/ is at the END</p>
+                <div class="example-title"><i class="fas fa-mountain"></i> Letter v</div>
+                <p>"v" is like a valley between two mountains. Start at the top, slant down to the line, then slant back up.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-th" style="color: #9C27B0;"></i> Sound Boxes Practice</div>
-                <p>Draw three boxes for "ring":</p>
-                <p>[r] [i] [ng] - /ng/ lives in the last box!</p>
+                <div class="example-title"><i class="fas fa-mountains"></i> Letter w</div>
+                <p>"w" is like two valleys! Down, up, down, up. It's two v's together.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-map-marker-alt"></i> Sound Position Game</div>
-                <p>Point to your head for beginning sounds</p>
-                <p>Point to your tummy for middle sounds</p>
-                <p>Point to your toes for ending sounds</p>
+                <div class="example-title"><i class="fas fa-fish"></i> Letter y</div>
+                <p>"y" has a tail that hangs down like a fish in the water. Start like a v, then drop straight down below the line.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-bolt"></i> Letter z</div>
+                <p>"z" is like a zigzag bolt of lightning! Across, slant down, across.</p>
             </div>
         `,
-        taskInstructions: "Practice identifying where digraph sounds live in words.",
+        taskInstructions: "Trace and write each letter. Practice proper pencil grip and sitting posture.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Position Identification</strong></p>
+                <p><strong>Part A: Tracing Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle where the digraph sound lives in each word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>queen: Beginning ☐ Middle ☐ End ☐</div>
-                        <div>moon: Beginning ☐ Middle ☐ End ☐</div>
-                        <div>ring: Beginning ☐ Middle ☐ End ☐</div>
-                        <div>fish: Beginning ☐ Middle ☐ End ☐</div>
-                        <div>ship: Beginning ☐ Middle ☐ End ☐</div>
-                    </div>
+                    <span class="task-number">1</span> Trace the letter v, then write it three times:
+                    <div style="font-family: monospace; font-size: 24px; margin: 10px 0;">v v v ___ ___ ___</div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Trace the letter w, then write it three times:
+                    <div style="font-family: monospace; font-size: 24px; margin: 10px 0;">w w w ___ ___ ___</div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Trace the letter y, then write it three times:
+                    <div style="font-family: monospace; font-size: 24px; margin: 10px 0;">y y y ___ ___ ___</div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Trace the letter z, then write it three times:
+                    <div style="font-family: monospace; font-size: 24px; margin: 10px 0;">z z z ___ ___ ___</div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Trace the letter j, then write it three times:
+                    <div style="font-family: monospace; font-size: 24px; margin: 10px 0;">j j j ___ ___ ___</div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Trace the letter x, then write it three times:
+                    <div style="font-family: monospace; font-size: 24px; margin: 10px 0;">x x x ___ ___ ___</div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 30px; margin: 5px 0;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sound Boxes</strong></p>
+                <p><strong>Part B: Write the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw sound boxes for these words. Circle the box where the digraph lives:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="margin-bottom: 15px;">
-                            <div>ring:</div>
-                            <div style="display: flex; gap: 15px; margin-top: 5px;">
-                                <div style="width: 40px; height: 40px; border: 2px solid #000; display: flex; align-items: center; justify-content: center;">r</div>
-                                <div style="width: 40px; height: 40px; border: 2px solid #000; display: flex; align-items: center; justify-content: center;">i</div>
-                                <div style="width: 40px; height: 40px; border: 2px solid #000; display: flex; align-items: center; justify-content: center;">ng</div>
-                            </div>
-                        </div>
-                        <div style="margin-bottom: 15px;">
-                            <div>moon:</div>
-                            <div style="display: flex; gap: 15px; margin-top: 5px;">
-                                <div style="width: 40px; height: 40px; border: 2px solid #000; display: flex; align-items: center; justify-content: center;">m</div>
-                                <div style="width: 40px; height: 40px; border: 2px solid #000; display: flex; align-items: center; justify-content: center;">oo</div>
-                                <div style="width: 40px; height: 40px; border: 2px solid #000; display: flex; align-items: center; justify-content: center;">n</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Body Position Game</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw yourself pointing to the correct body part for each word:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
-                        <div style="text-align: center;">
-                            <div>queen</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>Point to: head / tummy / toes</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>moon</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>Point to: head / tummy / toes</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>ring</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>Point to: head / tummy / toes</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Sound Sort</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Sort these words by where the digraph sound is:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <table style="width: 100%; border-collapse: collapse;">
-                            <tr>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center; background-color: #E3F2FD;">Beginning</th>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center; background-color: #F3E5F5;">Middle</th>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center; background-color: #E8F5E9;">End</th>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #000; height: 100px; padding: 5px;">
-                                    <div class="answer-space" style="height: 30px;"></div>
-                                    <div class="answer-space" style="height: 30px;"></div>
-                                </td>
-                                <td style="border: 1px solid #000; height: 100px; padding: 5px;">
-                                    <div class="answer-space" style="height: 30px;"></div>
-                                    <div class="answer-space" style="height: 30px;"></div>
-                                </td>
-                                <td style="border: 1px solid #000; height: 100px; padding: 5px;">
-                                    <div class="answer-space" style="height: 30px;"></div>
-                                    <div class="answer-space" style="height: 30px;"></div>
-                                </td>
-                            </tr>
-                        </table>
-                        <div style="margin-top: 10px; padding: 10px; background-color: #f5f5f5;">
-                            <strong>Words:</strong> ship, book, song, queen, fish, moon
-                        </div>
+                    <span class="task-number">7</span> Copy these words:
+                    <div style="margin-top: 10px;">
+                        <div>van: ___ ___ ___</div>
+                        <div>web: ___ ___ ___</div>
+                        <div>yak: ___ ___ ___</div>
+                        <div>zip: ___ ___ ___</div>
+                        <div>jug: ___ ___ ___</div>
+                        <div>box: ___ ___ ___</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find one thing at home with a digraph sound at the beginning, one in the middle, and one at the end.",
+        homework: "Practice writing v, w, y, z, j, x five times each. Show your family the correct way to write them.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "Word Manipulation",
-        subtopic: "Segmenting, adding, deleting, and substituting sounds in digraph words",
+        topic: "Reading",
+        subtopic: "CVC Reading Practice - Short Decodable Phrases",
         lessonContent: `
-            <p>Today we'll be word magicians! We'll learn how to change words by manipulating sounds.</p>
-            <p><strong>Today's Objective:</strong> You will segment, add, delete, and substitute sounds in digraph words.</p>
-            <p><strong>Key Concept:</strong> We can change words by changing their sounds!</p>
-            <p><strong>Segmenting:</strong> Breaking words into individual sounds (ring → /r/ /i/ /ng/)</p>
-            <p><strong>Deleting:</strong> Taking away a sound (ring - /r/ = ing)</p>
-            <p><strong>Adding:</strong> Putting a sound in (ing + /s/ = sing)</p>
-            <p><strong>Substituting:</strong> Changing one sound for another (ash → change /a/ to /i/ = ish)</p>
-            <p><strong>Word Magic Examples:</strong></p>
+            <p>Today we will practice reading short sentences with words we know!</p>
+            <p><strong>Key Question:</strong> Can you read "A fat cat sat on a mat"?</p>
+            <p><strong>Introduction:</strong> CVC words have a consonant, a vowel, and a consonant (like c-a-t). When we put CVC words together, we can read whole sentences!</p>
+            <p><strong>Review CVC Words:</strong></p>
             <ul>
-                <li>Start with: ring</li>
-                <li>Delete /r/: ing</li>
-                <li>Add /s/: sing</li>
-                <li>New word: sing!</li>
+                <li>Short a words: cat, bat, rat, mat, sat, fat, hat</li>
+                <li>Short e words: bed, red, pen, men, ten, jet, net</li>
+                <li>Short i words: pig, wig, big, dig, sit, hit, lip</li>
+                <li>Short o words: dog, log, frog, hot, pot, dot, box</li>
+                <li>Short u words: bug, rug, hug, sun, run, cup, bus</li>
             </ul>
-            <p><strong>Sound Isolation:</strong> We can also isolate (separate) the digraph sound from the rest of the word.</p>
-            <p><strong>Example:</strong> In "ash", the /sh/ is the digraph. The /a/ is the vowel sound.</p>
-            <p><strong>Remember:</strong> Changing just one sound can make a completely new word!</p>
+            <p><strong>Reading Tips:</strong></p>
+            <ul>
+                <li>Point to each word as you read it</li>
+                <li>Sound out each letter: c - a - t = cat</li>
+                <li>Read the words smoothly together</li>
+                <li>Look at the pictures for clues</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-magic" style="color: #9C27B0;"></i> Word Magic</div>
-                <p>ring → delete /r/ → ing → add /s/ → sing</p>
-                <p>ash → change /a/ to /i/ → ish</p>
-                <p>book → change /b/ to /h/ → hook</p>
+                <div class="example-title"><i class="fas fa-cat"></i> Short a Phrases</div>
+                <p>A fat cat.<br>A rat sat.<br>The cat sat on a mat.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cut" style="color: #F44336;"></i> Sound Isolation</div>
-                <p>"ash" = /a/ + /sh/</p>
-                <p>Digraph: /sh/</p>
-                <p>Vowel: /a/</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Short o Phrases</div>
+                <p>A hot pot.<br>The dog ran.<br>The frog is on a log.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exchange-alt"></i> Sound Substitution</div>
-                <p>Change the first sound: ring → sing</p>
-                <p>Change the vowel: ash → ish</p>
-                <p>Change the ending: book → boot</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Short u Phrases</div>
+                <p>The sun is hot.<br>A bug on a rug.<br>We had fun in the sun.</p>
             </div>
         `,
-        taskInstructions: "Practice word manipulation with digraph words.",
+        taskInstructions: "Read each phrase aloud. Point to each word as you read.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Deletion</strong></p>
+                <p><strong>Part A: Read Each Phrase</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Delete the first sound. What's the new word?
+                    <span class="task-number">1</span> Read these short phrases. Check each one when you can read it:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ring - /r/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>fish - /f/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>ship - /sh/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>book - /b/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+                        <div>☐ A fat cat</div>
+                        <div>☐ A red pen</div>
+                        <div>☐ A big pig</div>
+                        <div>☐ A hot pot</div>
+                        <div>☐ A bug on a rug</div>
+                        <div>☐ The dog ran</div>
+                        <div>☐ The sun is hot</div>
+                        <div>☐ A bat and a rat</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sound Addition</strong></p>
+                <p><strong>Part B: Read the Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Add the sound. What's the new word?
+                    <span class="task-number">2</span> Read these sentences to your teacher or a partner:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ing + /s/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>ish + /w/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>ook + /l/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>ash + /tr/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+                        <div><strong>Sentence 1:</strong> The fat cat sat on a mat.</div>
+                        <div><strong>Sentence 2:</strong> A red fox is in a box.</div>
+                        <div><strong>Sentence 3:</strong> The little pig has a big wig.</div>
+                        <div><strong>Sentence 4:</strong> We can see the yellow sun.</div>
+                        <div><strong>Sentence 5:</strong> The dog and the frog sat on a log.</div>
+                        <div><strong>Sentence 6:</strong> Put the cup on the red rug.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sound Substitution</strong></p>
+                <p><strong>Part C: Match the Sentence to the Picture</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Change one sound to make a new word:
+                    <span class="task-number">3</span> Draw a line from each sentence to the matching picture:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ring → change /r/ to /s/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>ash → change /a/ to /i/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>book → change /b/ to /h/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>fish → change /f/ to /w/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+                        <div>"A cat on a mat" → [picture of cat on mat]</div>
+                        <div>"A dog in a log" → [picture of dog near log]</div>
+                        <div>"A bug on a rug" → [picture of bug on rug]</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Sound Isolation Practice</strong></p>
+                <p><strong>Part D: Draw the Sentence</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Circle the digraph in each word, then write the vowel sound:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="margin-bottom: 10px;">
-                            <span style="font-size: 20px; padding: 5px 10px; border: 1px solid #ccc;">ash</span>
-                            <span style="margin-left: 20px;">Digraph: sh / th</span>
-                            <span style="margin-left: 20px;">Vowel sound: <span class="answer-space" style="width: 40px; display: inline-block;"></span></span>
-                        </div>
-                        <div style="margin-bottom: 10px;">
-                            <span style="font-size: 20px; padding: 5px 10px; border: 1px solid #ccc;">ish</span>
-                            <span style="margin-left: 20px;">Digraph: sh / ch</span>
-                            <span style="margin-left: 20px;">Vowel sound: <span class="answer-space" style="width: 40px; display: inline-block;"></span></span>
-                        </div>
-                        <div style="margin-bottom: 10px;">
-                            <span style="font-size: 20px; padding: 5px 10px; border: 1px solid #ccc;">ring</span>
-                            <span style="margin-left: 20px;">Digraph: ng / nk</span>
-                            <span style="margin-left: 20px;">Vowel sound: <span class="answer-space" style="width: 40px; display: inline-block;"></span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Word Transformation Chain</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Complete the word transformation chain:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div>Start: ring</div>
-                        <div>Delete /r/: <span class="answer-space" style="width: 60px; display: inline-block;"></span></div>
-                        <div>Add /s/: <span class="answer-space" style="width: 60px; display: inline-block;"></span></div>
-                        <div>Change /i/ to /a/: <span class="answer-space" style="width: 60px; display: inline-block;"></span></div>
-                        <div>Change /s/ to /p/: <span class="answer-space" style="width: 60px; display: inline-block;"></span></div>
-                        <div>Final word: <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> Read the sentence and draw a picture to match:
+                    <div style="margin-top: 10px;"><strong>"A fat cat sat on a red mat."</strong></div>
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Take the word 'fish'. Change one sound to make three different words. Draw pictures of your new words.",
+        homework: "Read the sentences to a family member. Practice reading 'A fat cat sat on a mat' until you can read it smoothly.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Literacy",
-        topic: "Reading Phrases and Fluency",
-        subtopic: "Reading decodable phrases containing digraphs with accuracy and fluency",
+        topic: "Assessment",
+        subtopic: "Mid-Year Baseline Check - Sitting Posture, Pencil Grip & Book Handling",
         lessonContent: `
-            <p>Today is fluency day! We'll practice reading whole phrases with our digraph words.</p>
-            <p><strong>Today's Objective:</strong> You will read decodable phrases containing digraphs correctly.</p>
-            <p><strong>Key Concept:</strong> Fluency means reading smoothly, with expression, and at a good pace.</p>
-            <p><strong>What is a phrase?</strong> A phrase is a small group of words that go together.</p>
-            <p><strong>Digraph Detective:</strong> Before reading, find the digraphs in the phrase!</p>
-            <p><strong>Example Phrase:</strong> "a green book"</p>
+            <p>Today we will check how we sit, hold our pencil, and take care of our books!</p>
+            <p><strong>Key Question:</strong> Are you sitting like a writer?</p>
+            <p><strong>Introduction:</strong> Good writers need good habits. Today your teacher will watch how you sit, how you hold your pencil, and how you care for books.</p>
+            <p><strong>Sitting Posture (How to Sit):</strong></p>
             <ul>
-                <li>Digraphs: /ee/ in "green", /oo/ in "book"</li>
-                <li>Read smoothly: "a green book"</li>
+                <li>Feet flat on the floor</li>
+                <li>Back straight against the chair</li>
+                <li>Both arms on the table</li>
+                <li>Head not too close to the paper</li>
+                <li>Paper tilted slightly</li>
             </ul>
-            <p><strong>Fluency Tips:</strong></p>
-            <ol>
-                <li>Point to each word as you read</li>
-                <li>Look for digraphs first</li>
-                <li>Read the whole phrase smoothly</li>
-                <li>Read it again faster</li>
-                <li>Add expression if there's an exclamation!</li>
-            </ol>
-            <p><strong>Partner Reading:</strong> Reading with a friend helps build fluency!</p>
-            <p><strong>Remember:</strong> Good readers practice reading the same words many times to become fluent!</p>
+            <p><strong>Pencil Grip (How to Hold Your Pencil):</strong></p>
+            <ul>
+                <li>Pinch the pencil with thumb and index finger</li>
+                <li>Rest the pencil on your middle finger</li>
+                <li>Other fingers curl gently under</li>
+                <li>Not too tight - like holding a feather!</li>
+                <li>Writing hand should not cover what you are writing</li>
+            </ul>
+            <p><strong>Book Handling Care:</strong></p>
+            <ul>
+                <li>Hold books with clean hands</li>
+                <li>Turn pages from the corner</li>
+                <li>Don't fold pages (use a bookmark instead)</li>
+                <li>Keep books away from food and drinks</li>
+                <li>Store books on a shelf, not on the floor</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #2196F3;"></i> Phrase Examples</div>
-                <p>"a green book" - digraphs: /ee/, /oo/</p>
-                <p>"thin red fish" - digraphs: /th/, /sh/</p>
-                <p>"the farm song" - digraphs: /ar/, /ng/</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Sitting Check</div>
+                <p>Your teacher will check: Are your feet flat? Is your back straight? Is your head too close to the paper?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bullseye" style="color: #4CAF50;"></i> Digraph Detective</div>
-                <p>Scan the phrase first</p>
-                <p>Circle all digraphs</p>
-                <p>Then read the whole phrase</p>
+                <div class="example-title"><i class="fas fa-pencil-alt"></i> Pencil Grip Check</div>
+                <p>Your teacher will check: Are you using a tripod grip (thumb, index, middle)? Is your grip relaxed?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #FF9800;"></i> Partner Practice</div>
-                <p>Read to a partner</p>
-                <p>Listen to your partner read</p>
-                <p>Give each other "fluency stars"</p>
+                <div class="example-title"><i class="fas fa-book"></i> Book Handling Check</div>
+                <p>Your teacher will check: Do you turn pages gently? Do you use a bookmark? Do you keep books clean?</p>
             </div>
         `,
-        taskInstructions: "Practice reading phrases with digraphs fluently.",
+        taskInstructions: "Follow your teacher's instructions for the assessment. Show your best sitting, writing, and book handling.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Digraph Detective</strong></p>
+                <p><strong>Part A: Sitting Posture Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle all the digraphs in these phrases:
-                    <div style="margin-left: 20px; margin-top: 10px; font-size: 18px;">
-                        <div style="margin-bottom: 10px; padding: 10px; border: 1px solid #E0E0E0;">a green book</div>
-                        <div style="margin-bottom: 10px; padding: 10px; border: 1px solid #E0E0E0;">thin red fish</div>
-                        <div style="margin-bottom: 10px; padding: 10px; border: 1px solid #E0E0E0;">the farm song</div>
-                        <div style="margin-bottom: 10px; padding: 10px; border: 1px solid #E0E0E0;">a quick ship</div>
-                        <div style="margin-bottom: 10px; padding: 10px; border: 1px solid #E0E0E0;">the long moon</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Phrase Reading Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Read each phrase three times. Color a star each time you read it smoothly:
+                    <span class="task-number">1</span> Your teacher will observe you while you sit at your desk. Show your best sitting posture:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="margin-bottom: 15px;">
-                            <div style="font-weight: bold; margin-bottom: 5px;">a green book</div>
-                            <div style="display: flex; gap: 10px;">
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                            </div>
-                        </div>
-                        <div style="margin-bottom: 15px;">
-                            <div style="font-weight: bold; margin-bottom: 5px;">thin red fish</div>
-                            <div style="display: flex; gap: 10px;">
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                            </div>
-                        </div>
-                        <div style="margin-bottom: 15px;">
-                            <div style="font-weight: bold; margin-bottom: 5px;">the farm song</div>
-                            <div style="display: flex; gap: 10px;">
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                                <div style="width: 30px; height: 30px; border: 1px solid #FFD700; border-radius: 50%;"></div>
-                            </div>
-                        </div>
+                        <div>□ Feet flat on the floor</div>
+                        <div>□ Back straight</div>
+                        <div>□ Arms on the table</div>
+                        <div>□ Head not too close to paper</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Partner Reading</strong></p>
+                <p><strong>Part B: Pencil Grip Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Read with a partner. Give each other fluency feedback:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #E8F5E9; border-radius: 5px;">
-                        <div style="font-weight: bold; margin-bottom: 10px;">Partner Reading Checklist:</div>
-                        <div>☐ We pointed to each word</div>
-                        <div>☐ We found the digraphs first</div>
-                        <div>☐ We read smoothly (not robot words)</div>
-                        <div>☐ We read with expression</div>
-                        <div style="margin-top: 10px;">Partner's name: <span class="answer-space" style="width: 120px; display: inline-block;"></span></div>
-                        <div>Stars given: <span style="color: #FFD700;">★</span> <span style="color: #FFD700;">★</span> <span style="color: #FFD700;">★</span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Create Your Own Phrases</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Create two phrases using digraph words:
+                    <span class="task-number">2</span> Your teacher will watch how you hold your pencil. Practice the correct grip:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Phrase 1: <span class="answer-space" style="width: 200px; display: inline-block;"></span></div>
-                        <div>Digraphs in phrase 1: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                        <div style="margin-top: 10px;">Phrase 2: <span class="answer-space" style="width: 200px; display: inline-block;"></span></div>
-                        <div>Digraphs in phrase 2: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
+                        <div>□ Thumb and index finger pinch the pencil</div>
+                        <div>□ Pencil rests on middle finger</div>
+                        <div>□ Other fingers curled under</div>
+                        <div>□ Relaxed grip (not too tight)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <p style="text-align: center; color: #999; padding-top: 25px;">[Draw a picture of your hand holding a pencil]</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Fluency Assessment</strong></p>
+                <p><strong>Part C: Book Handling Check</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Teacher Assessment: Read these phrases with your teacher:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div style="font-weight: bold; margin-bottom: 10px;">Phrases for Teacher Assessment:</div>
-                        <div>1. a green book</div>
-                        <div>2. thin red fish</div>
-                        <div>3. the farm song</div>
-                        <div>4. a quick ship</div>
-                        <div>5. the long moon</div>
-                        <div style="margin-top: 15px;">
-                            <div>Fluency Score: <span class="answer-space" style="width: 100px; display: inline-block;"></span> /5</div>
-                            <div>Teacher Notes: <span class="answer-space" style="width: 200px; display: inline-block;"></span></div>
-                        </div>
+                    <span class="task-number">3</span> Your teacher will watch how you handle a book. Show your best book care:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>□ Clean hands before touching book</div>
+                        <div>□ Turn pages from the corner</div>
+                        <div>□ No folding pages</div>
+                        <div>□ Book stored properly</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Writing Sample</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Your teacher will watch you write. Copy this sentence using your best handwriting:
+                    <div style="margin-top: 10px;"><strong>"The fat cat sat on a mat."</strong></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 40px; margin: 10px 0;"></div>
+                    <div class="writing-lines" style="border-bottom: 1px solid #ccc; height: 40px; margin: 10px 0;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Teacher Observation Notes</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> <em>For teacher use only:</em>
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f9f9f9; padding: 10px;">
+                        <div>Sitting Posture: ☐ Excellent ☐ Good ☐ Needs Improvement</div>
+                        <div>Pencil Grip: ☐ Excellent ☐ Good ☐ Needs Improvement</div>
+                        <div>Book Handling: ☐ Excellent ☐ Good ☐ Needs Improvement</div>
+                        <div>Handwriting: ☐ Excellent ☐ Good ☐ Needs Improvement</div>
+                        <div>Comments: _______________________________</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Read the phrase 'a green book' to three different people at home. Have them sign your reading log.",
-        homeworkDue: "Monday"
+        homework: "Practice sitting correctly and holding your pencil properly when you do your homework. Read one book to a family member and show gentle page turning.",
+        homeworkDue: "Friday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1LiteracyWeek10);
-    console.log("literacy-week10.js registered using registerWorksheet()");
+    console.log("grade1-literacy-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1LiteracyWeek10);
-    console.log("literacy-week10.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-literacy-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -552,9 +457,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1LiteracyWeek10.metadata,
         days: grade1LiteracyWeek10
     });
-    console.log("literacy-week10.js stored in window.registeredWorksheets");
+    console.log("grade1-literacy-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1LiteracyWeek10 = grade1LiteracyWeek10;
-console.log("literacy-week10.js loaded and registered successfully");
+console.log("grade1-literacy-week10.js loaded and registered successfully");

@@ -1,588 +1,374 @@
-// Grade 1 Literacy - Week 2 Data
+// Grade 1 Literacy - Term 1 Week 2 Data
 const grade1LiteracyWeek2 = {
     metadata: {
         grade: 1,
         subject: "Literacy",
+        term: 1,
         week: 2,
-        title: "Short Vowel Sounds: /a/, /e/, /i/, /o/, /u/",
-        description: "Introduction to short vowel sounds, identification, production, and blending in simple words"
+        title: "Mechanics, Print Concepts & Short Vowels (a, e)",
+        description: "Developing sitting posture, fine motor skills, short vowel sounds, and print concepts"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "The 'Apple' and 'Egg' Sounds",
-        subtopic: "Identifying and producing short /a/ and /e/ sounds",
+        topic: "Mechanics & Print Concepts",
+        subtopic: "Sitting Posture & Parts of a Book",
         lessonContent: `
-            <p>Welcome to our Literacy lesson! Today we will learn about two special vowel sounds: /a/ and /e/.</p>
-            <p><strong>What are vowels?</strong> Vowels are special letters that make sounds in every word. Today we learn the short sounds of 'a' and 'e'.</p>
-            <p><strong>Key Concept:</strong> We can make different mouth shapes to make different vowel sounds.</p>
-            <p><strong>The /a/ sound:</strong></p>
+            <p>Welcome to our Literacy lesson! Today we'll learn how to sit properly for reading and writing, and explore the parts of a book.</p>
+            <p><strong>Key Question:</strong> How should we sit when we read and write?</p>
+            <p><strong>Introduction:</strong> Good sitting posture helps us write neatly and prevents our bodies from getting tired. Let's learn the difference between sitting upright and slouching!</p>
+            <p><strong>Sitting Posture (1.11.1):</strong></p>
             <ul>
-                <li>Make a wide smile with your mouth</li>
-                <li>Say "/a/" like in "apple"</li>
-                <li>Other /a/ words: ant, ax, ask</li>
+                <li>Sit with your back straight against the chair</li>
+                <li>Keep both feet flat on the floor</li>
+                <li>Rest your arms comfortably on the desk</li>
+                <li>Keep your head up, not too close to the paper</li>
             </ul>
-            <p><strong>The /e/ sound:</strong></p>
+            <p><strong>Parts of a Book (1.11.3):</strong></p>
             <ul>
-                <li>Make a smaller opening with your mouth</li>
-                <li>Say "/e/" like in "egg"</li>
-                <li>Other /e/ words: elbow, elephant, end</li>
+                <li><strong>Front Cover:</strong> The outside front of the book that shows the title and pictures</li>
+                <li><strong>Back Cover:</strong> The outside back of the book that often has a summary</li>
+                <li><strong>Spine:</strong> The edge of the book that holds the pages together</li>
+                <li><strong>Title Page:</strong> The inside page with the book's title and author</li>
             </ul>
-            <p><strong>Why are these sounds important?</strong> Knowing vowel sounds helps us read and spell words!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt" style="color: #ff4444;"></i> /a/ Sound Words</div>
-                <p>"apple" - Starts with /a/</p>
-                <p>"ant" - Starts with /a/</p>
-                <p>"ax" - Starts with /a/</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Upright vs. Slouching</div>
+                <p>Sitting upright is like a tall tree reaching for the sun. Slouching is like a drooping flower - it makes writing harder and can hurt your back!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-egg" style="color: #FFD700;"></i> /e/ Sound Words</div>
-                <p>"egg" - Starts with /e/</p>
-                <p>"elbow" - Starts with /e/</p>
-                <p>"elephant" - Starts with /e/</p>
+                <div class="example-title"><i class="fas fa-book"></i> Book Detective</div>
+                <p>Be a book detective! Can you find the front cover? Where is the back cover? What do you see on the spine?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-air-freshener"></i> Air Writing Practice</div>
-                <p>Use your finger to write 'a' and 'e' in the air while saying their sounds!</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> Checklist Time</div>
+                <p>Back straight? ✓ Feet flat? ✓ Arms on desk? ✓ Head up? ✓ You're ready to learn!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice /a/ and /e/ sounds.",
+        taskInstructions: "Practice sitting posture and identify parts of a book.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Color the apples RED if the word starts with /a/. Color the eggs YELLOW if the word starts with /e/:
-                <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🍎</span>
-                        </div>
-                        <div>ant</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🥚</span>
-                        </div>
-                        <div>egg</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🍎</span>
-                        </div>
-                        <div>apple</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🥚</span>
-                        </div>
-                        <div>elbow</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🍎</span>
-                        </div>
-                        <div>ask</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🥚</span>
-                        </div>
-                        <div>end</div>
-                    </div>
+            <div class="content-box">
+                <p><strong>Part A: Posture Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Practice sitting upright for 2 minutes. How does it feel?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Try slouching for 1 minute. Which position feels better for writing?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw two pictures: one of something that starts with /a/, and one that starts with /e/:
-                <div style="display: flex; gap: 20px; margin-top: 10px;">
-                    <div style="flex: 1;">
-                        <div style="text-align: center; font-weight: bold;">/a/ sound</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div class="answer-space" style="height: 30px; text-align: center;">Word: ________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Parts of a Book</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Look at your book. Draw and label these parts:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Front cover</div>
+                        <div>• Back cover</div>
+                        <div>• Spine</div>
                     </div>
-                    <div style="flex: 1;">
-                        <div style="text-align: center; font-weight: bold;">/e/ sound</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div class="answer-space" style="height: 30px; text-align: center;">Word: ________</div>
-                    </div>
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Practice writing the letters 'a' and 'e':
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>a a a a a a a</div>
-                    <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                    <div>e e e e e e e</div>
-                    <div style="height: 30px; border-bottom: 1px solid #ccc;"></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Circle the pictures that start with /a/:
-                <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px;">
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🐜</div>
-                        <div>☐ ant</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🐘</div>
-                        <div>☐ elephant</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🍎</div>
-                        <div>☐ apple</div>
-                    </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why is it important to sit up straight when we read and write?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home that start with the /a/ sound. Draw pictures of them.",
+        homework: "Show a family member how to sit properly. Find the front cover and back cover of a book at home.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Literacy",
-        topic: "The 'Igloo' and 'Octopus' Sounds",
-        subtopic: "Distinguishing short /i/ and /o/ sounds in CVC words",
+        topic: "Fine Motor Skills",
+        subtopic: "Finger Manipulation & Tripod Pencil Grip",
         lessonContent: `
-            <p>Today we will learn two more vowel sounds: /i/ and /o/. We'll also learn about the middle sounds in words!</p>
-            <p><strong>Review:</strong> Yesterday we learned /a/ and /e/. Today we add /i/ and /o/!</p>
-            <p><strong>The /i/ sound:</strong></p>
+            <p>Today we'll strengthen our fingers and learn the correct way to hold a pencil!</p>
+            <p><strong>Key Question:</strong> How do we hold a pencil correctly?</p>
+            <p><strong>Introduction:</strong> Strong fingers help us write neatly. The tripod grip is the best way to hold a pencil for good handwriting.</p>
+            <p><strong>Fine Motor Skills - Finger Manipulation (1.11.2):</strong></p>
             <ul>
-                <li>Crinkle your nose like a mouse</li>
-                <li>Say "/i/" like in "igloo"</li>
-                <li>Short /i/ sounds like "it"</li>
+                <li>Finger exercises make our hands stronger</li>
+                <li>Pinching, squeezing, and moving small objects helps our fingers work better</li>
+                <li>Strong fingers help us hold our pencil correctly</li>
             </ul>
-            <p><strong>The /o/ sound:</strong></p>
+            <p><strong>The Tripod Pencil Grip:</strong></p>
             <ul>
-                <li>Make your mouth into an "O" shape</li>
-                <li>Say "/o/" like in "octopus"</li>
-                <li>Short /o/ sounds like "on"</li>
+                <li>Hold the pencil between your thumb and index finger (pointer finger)</li>
+                <li>Rest the pencil on your middle finger</li>
+                <li>Your ring finger and pinky curl gently toward your palm</li>
+                <li>Like a triangle (tripod = three legs: thumb, index, middle fingers)</li>
             </ul>
-            <p><strong>Middle Sounds:</strong> Vowels can be in the middle of words too! We use the "Sound Arm" to find them:</p>
-            <ol>
-                <li>Touch your shoulder for the first sound</li>
-                <li>Touch your elbow for the vowel (middle sound)</li>
-                <li>Touch your wrist for the last sound</li>
-            </ol>
-            <p><strong>Example:</strong> P-I-G (touch elbow for /i/), D-O-G (touch elbow for /o/)</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-igloo" style="color: #2196F3;"></i> /i/ Sound Words</div>
-                <p>"igloo" - Starts with /i/</p>
-                <p>"it" - Starts with /i/</p>
-                <p>"in" - Starts with /i/</p>
-                <p>Middle /i/: bin, fin, sit</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Tripod Triangle</div>
+                <p>Three fingers work together like a tripod holding a camera: thumb + index finger + middle finger = steady grip!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fish" style="color: #FF9800;"></i> /o/ Sound Words</div>
-                <p>"octopus" - Starts with /o/</p>
-                <p>"on" - Starts with /o/</p>
-                <p>"off" - Starts with /o/</p>
-                <p>Middle /o/: dog, hop, pot</p>
+                <div class="example-title"><i class="fas fa-dumbbell"></i> Finger Gym</div>
+                <p>Practice picking up small objects like beans or buttons. This is like a workout for your fingers!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-boxes"></i> Sound Boxes</div>
-                <p>We use boxes to see sounds: [b][i][n] - the middle box has /i/!</p>
+                <div class="example-title"><i class="fas fa-pencil-alt"></i> Pencil Check</div>
+                <p>Is your pencil resting on your middle finger? Are your thumb and index finger pinching? That's the tripod grip!</p>
             </div>
         `,
-        taskInstructions: "Practice identifying and using /i/ and /o/ sounds.",
+        taskInstructions: "Practice finger exercises and the tripod pencil grip.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Arm Practice</strong></p>
+                <p><strong>Part A: Finger Exercises</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Use your sound arm for these words. Circle the vowel sound you hear in the middle:
+                    <span class="task-number">1</span> Try these finger exercises:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>bin - middle sound: i / o</div>
-                        <div>hop - middle sound: i / o</div>
-                        <div>fin - middle sound: i / o</div>
-                        <div>lot - middle sound: i / o</div>
-                        <div>sit - middle sound: i / o</div>
-                        <div>pot - middle sound: i / o</div>
+                        <div>• Touch each finger to your thumb (5 times each hand)</div>
+                        <div>• Make a fist, then open your hand wide (5 times)</div>
+                        <div>• Pick up 5 small objects using only your thumb and index finger</div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">Circle one: Easy / Just right / Hard</div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Picture Match</strong></p>
+                <p><strong>Part B: Tripod Grip Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a line to match each picture to its correct vowel letter:
+                    <span class="task-number">2</span> Practice holding your pencil with the tripod grip. Draw a picture of your hand holding the pencil:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Trace these lines using the tripod grip:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">⚫</span>
-                            <span>dot</span>
-                            <span style="margin-left: 30px;">A) i</span>
-                            <span style="margin-left: 15px;">B) o</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">🐖</span>
-                            <span>pig</span>
-                            <span style="margin-left: 30px;">A) i</span>
-                            <span style="margin-left: 15px;">B) o</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">📦</span>
-                            <span>box</span>
-                            <span style="margin-left: 30px;">A) i</span>
-                            <span style="margin-left: 15px;">B) o</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">💡</span>
-                            <span>lid</span>
-                            <span style="margin-left: 30px;">A) i</span>
-                            <span style="margin-left: 15px;">B) o</span>
-                        </div>
+                        <div>___________ (straight line)</div>
+                        <div>~~~~~~~~~~~ (wavy line)</div>
+                        <div>........... (dotted line)</div>
                     </div>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px solid #ddd;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sound Boxes</strong></p>
+                <p><strong>Part C: Check Your Grip</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw boxes for these words. Put an X in the middle box for the vowel:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="margin-bottom: 15px;">
-                            <div>hop: [  ][  ][  ]</div>
-                            <div style="display: flex; gap: 20px; margin-top: 5px;">
-                                <div style="width: 40px; height: 40px; border: 1px solid #000;"></div>
-                                <div style="width: 40px; height: 40px; border: 1px solid #000;"></div>
-                                <div style="width: 40px; height: 40px; border: 1px solid #000;"></div>
-                            </div>
-                        </div>
-                        <div style="margin-bottom: 15px;">
-                            <div>bin: [  ][  ][  ]</div>
-                            <div style="display: flex; gap: 20px; margin-top: 5px;">
-                                <div style="width: 40px; height: 40px; border: 1px solid #000;"></div>
-                                <div style="width: 40px; height: 40px; border: 1px solid #000;"></div>
-                                <div style="width: 40px; height: 40px; border: 1px solid #000;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Vowel Sort</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write each word under the correct vowel sound:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                        <div>
-                            <div style="font-weight: bold;">/i/ sound</div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div>Words: sit, fin, pig</div>
-                        </div>
-                        <div>
-                            <div style="font-weight: bold;">/o/ sound</div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div>Words: dog, hop, pot</div>
-                        </div>
-                    </div>
+                    <span class="task-number">4</span> Check your grip with a partner. Is your pencil resting on your middle finger?
+                    <div class="answer-space" style="height: 50px;">Yes / Not yet</div>
                 </div>
             </div>
         `,
-        homework: "Practice making the /i/ and /o/ sounds in front of a mirror. Draw your mouth shape for each sound.",
+        homework: "Practice the tripod grip for 5 minutes at home. Pick up small objects like coins, beans, or buttons using only your thumb and index finger.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "The 'Umbrella' Sound and Vowel Review",
-        subtopic: "Producing short /u/ and comparing all five short vowels",
+        topic: "Phonics",
+        subtopic: "Short Vowels /a/ and /e/",
         lessonContent: `
-            <p>Today we learn our fifth vowel sound: /u/! We'll also review all five short vowels we've learned.</p>
-            <p><strong>The /u/ sound:</strong></p>
+            <p>Today we'll learn about two special vowel sounds: short /a/ and short /e/!</p>
+            <p><strong>Key Question:</strong> What sound does short /a/ make? What sound does short /e/ make?</p>
+            <p><strong>Introduction:</strong> Vowels are special letters: A, E, I, O, U. Today we focus on A and E and their short sounds.</p>
+            <p><strong>Short Vowel /a/ Sound (1.9.1):</strong></p>
             <ul>
-                <li>Hold up an invisible umbrella</li>
-                <li>Say "/u/ /u/ up!"</li>
-                <li>Short /u/ sounds like "umbrella" and "up"</li>
+                <li>The short /a/ sounds like "ah" as in "apple"</li>
+                <li>Open your mouth wide: /a/ /a/ /a/</li>
+                <li>Words with short /a/: cat, hat, bat, map, sad</li>
             </ul>
-            <p><strong>Short U words:</strong> sun, bug, cut, tub, rug</p>
-            <p><strong>Important difference:</strong> /o/ and /u/ can sound similar. Listen carefully!</p>
+            <p><strong>Short Vowel /e/ Sound (1.9.1):</strong></p>
             <ul>
-                <li>/o/ - mouth opens wider (say "hot")</li>
-                <li>/u/ - mouth stays more neutral (say "hut")</li>
+                <li>The short /e/ sounds like "eh" as in "egg"</li>
+                <li>Smile slightly and say: /e/ /e/ /e/</li>
+                <li>Words with short /e/: bed, red, pen, leg, net</li>
             </ul>
-            <p><strong>Review all five short vowels:</strong></p>
-            <ol>
-                <li>/a/ - apple (wide smile)</li>
-                <li>/e/ - egg (small opening)</li>
-                <li>/i/ - igloo (crinkled nose)</li>
-                <li>/o/ - octopus ("O" mouth)</li>
-                <li>/u/ - umbrella (neutral mouth)</li>
-            </ol>
-            <p><strong>Remember:</strong> You now know all five short vowel sounds!</p>
+            <p><strong>How to Tell Them Apart:</strong></p>
+            <ul>
+                <li>/a/ - mouth is open wide (like at the dentist!)</li>
+                <li>/e/ - mouth is more closed, corners pull back slightly</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-umbrella" style="color: #9C27B0;"></i> /u/ Sound Words</div>
-                <p>"umbrella" - Starts with /u/</p>
-                <p>"up" - Starts with /u/</p>
-                <p>"under" - Starts with /u/</p>
-                <p>Middle /u/: sun, bug, cut</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> /a/ as in Apple</div>
+                <p>Say "aaahhh" like you're showing the doctor your throat. That's the short /a/ sound! A - a - apple!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale"></i> Compare /o/ and /u/</div>
-                <p>"hot" - /o/ sound (mouth wide)</p>
-                <p>"hut" - /u/ sound (mouth neutral)</p>
-                <p>Practice both: "hop" vs. "hug"</p>
+                <div class="example-title"><i class="fas fa-egg"></i> /e/ as in Egg</div>
+                <p>Say "eh" like you're surprised. That's the short /e/ sound! E - e - egg!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-running"></i> Vowel Statues Game</div>
-                <p>/a/ = hands on head</p>
-                <p>/e/ = hands on shoulders</p>
-                <p>/i/ = hands on hips</p>
-                <p>/o/ = hands on knees</p>
-                <p>/u/ = hands up!</p>
+                <div class="example-title"><i class="fas fa-microphone"></i> Listen Carefully</div>
+                <p>Can you hear the difference? "cat" (/a/) vs "bet" (/e/). Say them slowly: c-a-t, b-e-t.</p>
             </div>
         `,
-        taskInstructions: "Practice /u/ sound and sort all five vowel sounds.",
+        taskInstructions: "Practice sounding out and identifying short vowel sounds /a/ and /e/.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Short U Practice</strong></p>
+                <p><strong>Part A: Sound Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the pictures with the /u/ sound:
-                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px; flex-wrap: wrap;">
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">☀️</div>
-                            <div>☐ sun</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🐕</div>
-                            <div>☐ dog</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🐛</div>
-                            <div>☐ bug</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🛁</div>
-                            <div>☐ tub</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🐱</div>
-                            <div>☐ cat</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🧽</div>
-                            <div>☐ rug</div>
-                        </div>
-                    </div>
+                    <span class="task-number">1</span> Practice making the short /a/ sound. What words start with /a/?
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Practice making the short /e/ sound. What words start with /e/?
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Vowel Sort</strong></p>
+                <p><strong>Part B: Which Vowel Do You Hear?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Cut out the pictures and glue them into the correct vowel column:
+                    <span class="task-number">3</span> Circle the vowel sound you hear in each word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <table style="width: 100%; border-collapse: collapse;">
-                            <tr>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center;">A</th>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center;">E</th>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center;">I</th>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center;">O</th>
-                                <th style="border: 1px solid #000; padding: 5px; text-align: center;">U</th>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #000; height: 100px;"></td>
-                                <td style="border: 1px solid #000; height: 100px;"></td>
-                                <td style="border: 1px solid #000; height: 100px;"></td>
-                                <td style="border: 1px solid #000; height: 100px;"></td>
-                                <td style="border: 1px solid #000; height: 100px;"></td>
-                            </tr>
-                        </table>
-                        <div style="margin-top: 10px; padding: 10px; background-color: #f5f5f5;">
-                            <strong>Pictures to cut:</strong> cup 🥤, bat 🦇, pen 🖊️, dog 🐕, wig 🎭
+                        <div>• hat → /a/ /e/</div>
+                        <div>• bed → /a/ /e/</div>
+                        <div>• cat → /a/ /e/</div>
+                        <div>• pen → /a/ /e/</div>
+                        <div>• map → /a/ /e/</div>
+                        <div>• red → /a/ /e/</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Picture Sort</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw or write words that have short /a/ in the first box and short /e/ in the second box:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Short /a/ (like apple)</strong>
+                            <div class="drawing-area" style="height: 100px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Short /e/ (like egg)</strong>
+                            <div class="drawing-area" style="height: 100px; margin-top: 5px;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sound Comparison</strong></p>
+                <p><strong>Part D: Reading Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write 'O' for /o/ sound or 'U' for /u/ sound:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>hot: ______</div>
-                        <div>hut: ______</div>
-                        <div>pot: ______</div>
-                        <div>cut: ______</div>
-                        <div>mop: ______</div>
-                        <div>mug: ______</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Vowel Statues Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw yourself doing the statue pose for each vowel:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;">
-                        <div style="text-align: center;">
-                            <div>/a/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/e/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/i/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/o/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/u/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                    </div>
+                    <span class="task-number">5</span> Read these words aloud: cat, bed, hat, pen, map, red
+                    <div class="answer-space" style="height: 50px;">I can read them! / I need more practice</div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home that have the /u/ sound in their name. Draw or list them.",
+        homework: "Find 3 things at home that have the short /a/ sound and 3 things that have the short /e/ sound. Practice saying the words to a family member.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Literacy",
-        topic: "Short Vowel Master Blaster",
-        subtopic: "Mastering all five short vowel sounds through blending and practice",
+        topic: "Mechanics & Print Concepts",
+        subtopic: "Copying Patterns & Left-to-Right Reading",
         lessonContent: `
-            <p>Today is our vowel celebration day! We'll use everything we learned this week to become Short Vowel Masters!</p>
-            <p><strong>Let's review all five short vowels:</strong></p>
+            <p>Today we'll practice drawing patterns and learn how to read from left to right!</p>
+            <p><strong>Key Question:</strong> Which direction do we read? How do we draw straight lines?</p>
+            <p><strong>Introduction:</strong> Writing uses many different strokes. Straight lines are the building blocks for writing letters.</p>
+            <p><strong>Copying Patterns - Horizontal and Vertical Strokes (1.11.4):</strong></p>
             <ul>
-                <li>/a/ - apple (wide smile)</li>
-                <li>/e/ - egg (small opening)</li>
-                <li>/i/ - igloo (crinkled nose)</li>
-                <li>/o/ - octopus ("O" mouth)</li>
-                <li>/u/ - umbrella (neutral mouth)</li>
+                <li><strong>Horizontal strokes:</strong> Lines that go across (left to right) — like sleeping lines</li>
+                <li><strong>Vertical strokes:</strong> Lines that go up and down — like standing lines</li>
+                <li>Practice copying these patterns to prepare for writing letters</li>
             </ul>
-            <p><strong>What is blending?</strong> Blending is putting sounds together to make words!</p>
-            <p><strong>Blending example:</strong> B-U-S = /b/ /u/ /s/ = "bus"!</p>
-            <p><strong>Vowel Valley:</strong> Imagine a valley with vowels. Your mouth goes from wide (/a/) to small (/u/) as you say them!</p>
-            <p><strong>Today's activities:</strong></p>
-            <ol>
-                <li>Vowel Song - Sing about our five vowels</li>
-                <li>Speed Sounds - Practice quick vowel recognition</li>
-                <li>Blending Practice - Put sounds together to make words</li>
-                <li>Vowel Master Assessment - Show what you know!</li>
-            </ol>
-            <p><strong>Remember:</strong> You are becoming reading experts by learning vowel sounds!</p>
+            <p><strong>Reading Print Left-to-Right (1.11.4):</strong></p>
+            <ul>
+                <li>In English, we read from the left side of the page to the right side</li>
+                <li>We start at the top of the page and move down</li>
+                <li>We use our finger to follow the words as we read</li>
+                <li>At the end of a line, we move to the next line on the left</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-music" style="color: #E91E63;"></i> Vowel Song</div>
-                <p>Sing to "B-I-N-G-O": There are five vowels in the alphabet, and these are their sounds: /a/ /e/ /i/ /o/ /u/!</p>
+                <div class="example-title"><i class="fas fa-arrows-alt-h"></i> Sleeping Lines vs. Standing Lines</div>
+                <p>Horizontal lines are like a sleeping person (—). Vertical lines are like a standing person (|). Both are important for writing letters!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bolt" style="color: #FFC107;"></i> Speed Sounds</div>
-                <p>Flash cards: a, e, i, o, u - Say the sound instantly!</p>
-                <p>Then: map, red, tin, mom, gum - Tap out each sound!</p>
+                <div class="example-title"><i class="fas fa-arrow-right"></i> Left to Right Train</div>
+                <p>Imagine a train traveling from the left station to the right station. That's how our eyes move when we read!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Blending Practice</div>
-                <p>C-A-T = /c/ /a/ /t/ = "cat"</p>
-                <p>B-E-D = /b/ /e/ /d/ = "bed"</p>
-                <p>H-O-P = /h/ /o/ /p/ = "hop"</p>
+                <div class="example-title"><i class="fas fa-fingerprint"></i> Finger Follow</div>
+                <p>Use your pointer finger to track the words as you read. This helps your eyes stay on the right track!</p>
             </div>
         `,
-        taskInstructions: "Show your vowel mastery through these activities.",
+        taskInstructions: "Practice drawing horizontal and vertical strokes and reading left-to-right.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Speed Sounds Practice</strong></p>
+                <p><strong>Part A: Pattern Copying</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Say the vowel sound for each letter quickly:
-                    <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px; font-size: 24px;">
-                        <div style="border: 2px solid #4CAF50; padding: 10px 15px; border-radius: 5px;">a</div>
-                        <div style="border: 2px solid #4CAF50; padding: 10px 15px; border-radius: 5px;">e</div>
-                        <div style="border: 2px solid #4CAF50; padding: 10px 15px; border-radius: 5px;">i</div>
-                        <div style="border: 2px solid #4CAF50; padding: 10px 15px; border-radius: 5px;">o</div>
-                        <div style="border: 2px solid #4CAF50; padding: 10px 15px; border-radius: 5px;">u</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Blending Words</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Blend these sounds to make words:
+                    <span class="task-number">1</span> Copy these horizontal strokes (left to right):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>/m/ /a/ /p/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/r/ /e/ /d/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/t/ /i/ /n/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/m/ /o/ /m/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/g/ /u/ /m/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+                        <div>_____ _____ _____ _____ _____</div>
+                        <div class="drawing-area" style="height: 40px; margin-top: 5px; border: 1px solid #ddd;"></div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Vowel Identification</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Circle the vowel sound you hear in each word:
+                    <span class="task-number">2</span> Copy these vertical strokes (top to bottom):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>cat: a e i o u</div>
-                        <div>bed: a e i o u</div>
-                        <div>sit: a e i o u</div>
-                        <div>top: a e i o u</div>
-                        <div>cup: a e i o u</div>
+                        <div>| | | | |</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 1px solid #ddd;"></div>
                     </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Copy this pattern: — | — | — |
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 1px solid #ddd;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Vowel Master Assessment</strong></p>
+                <p><strong>Part B: Left-to-Right Reading Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Teacher Assessment: Sound out these words with your teacher:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <div style="font-weight: bold;">Word List for Teacher:</div>
-                        <div>1. map</div>
-                        <div>2. red</div>
-                        <div>3. tin</div>
-                        <div>4. mom</div>
-                        <div>5. gum</div>
-                        <div>6. hat</div>
-                        <div>7. pet</div>
-                        <div>8. dig</div>
-                        <div>9. log</div>
-                        <div>10. sun</div>
+                    <span class="task-number">4</span> Use your finger to follow these words from left to right:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <div>cat hat mat</div>
+                        <div>bed red pen</div>
+                        <div>map sad leg</div>
                     </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I followed with my finger! / I need more practice</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Complete the Pattern</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Complete each pattern by copying what comes next:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Teacher Notes: <span class="answer-space" style="width: 200px; display: inline-block;"></span></div>
+                        <div>— — — ____</div>
+                        <div>| | | ____</div>
+                        <div>— | — | — ____</div>
                     </div>
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Vowel Master Certificate</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture of yourself as a Vowel Master. Write one word for each vowel:
-                    <div class="drawing-area" style="height: 120px; margin-bottom: 10px;"></div>
-                    <div style="margin-left: 20px;">
-                        <div>/a/: <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/e/: <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/i/: <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/o/: <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>/u/: <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">6</span> What direction do we read in English? Why is this important to remember?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home the vowel song. Practice blending three sounds together to make words.",
-        homeworkDue: "Monday"
+        homework: "Practice drawing 10 horizontal lines and 10 vertical lines. Show a family member which direction we read (left to right).",
+        homeworkDue: "Friday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1LiteracyWeek2);
-    console.log("literacy-week2.js registered using registerWorksheet()");
+    console.log("grade1-literacy-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1LiteracyWeek2);
-    console.log("literacy-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-literacy-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -593,9 +379,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1LiteracyWeek2.metadata,
         days: grade1LiteracyWeek2
     });
-    console.log("literacy-week2.js stored in window.registeredWorksheets");
+    console.log("grade1-literacy-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1LiteracyWeek2 = grade1LiteracyWeek2;
-console.log("literacy-week2.js loaded and registered successfully");
+console.log("grade1-literacy-week2.js loaded and registered successfully");

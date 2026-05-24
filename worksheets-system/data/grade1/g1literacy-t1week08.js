@@ -1,449 +1,384 @@
-// Grade 1 Literacy - Week 8 Data
+// Grade 1 Literacy - Term 1 Week 8 Data
 const grade1LiteracyWeek8 = {
     metadata: {
         grade: 1,
         subject: "Literacy",
+        term: 1,
         week: 8,
-        title: "Blending, Segmenting, and Reading with Long Vowels",
-        description: "Blending, segmenting, and reading VC and CVC words with long vowel sounds in phrases and sentences"
+        title: "CVC Word Blending & Word Families",
+        description: "Blending and reading CVC words, identifying initial sounds, writing word families, and copying geometric patterns"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "Blending VC and CVC Long Vowel Words",
-        subtopic: "Using arm blending to read words with long vowel sounds",
+        topic: "Phonics",
+        subtopic: "CVC Blending (1.9.2.2)",
         lessonContent: `
-            <p>Welcome to Week 8 of Literacy! This week we will become blending experts with long vowel words.</p>
-            <p><strong>What are long vowels?</strong> Long vowels say their own letter name: A says "ay", E says "ee", I says "eye", O says "oh", U says "you".</p>
-            <p><strong>Today's focus:</strong> We will blend sounds to read words like "aid" and "boat".</p>
-            <p><strong>Arm Blending Method:</strong></p>
+            <p>Welcome to our reading adventure! Today we'll learn how to blend sounds together to read words!</p>
+            <p><strong>Key Question:</strong> How do we put sounds together to make words?</p>
+            <p><strong>Introduction:</strong> CVC words have three letters: Consonant - Vowel - Consonant. When we blend, we push the sounds together smoothly.</p>
+            <p><strong>Let's Learn to Blend:</strong></p>
             <ol>
-                <li>Touch your shoulder for the first sound</li>
-                <li>Touch your elbow for the vowel sound (this is the long vowel!)</li>
-                <li>Touch your wrist for the last sound</li>
-                <li>Slide your hand down your whole arm to blend the word together</li>
+                <li><strong>Say each sound:</strong> c - a - t</li>
+                <li><strong>Blend slowly:</strong> cccaaattt</li>
+                <li><strong>Say the word:</strong> cat!</li>
             </ol>
-            <p><strong>Example with "boat":</strong></p>
+            <p><strong>Words to Practice Today:</strong></p>
             <ul>
-                <li>Shoulder: /b/</li>
-                <li>Elbow: /oa/ (long O sound)</li>
-                <li>Wrist: /t/</li>
-                <li>Slide: "boat"!</li>
+                <li><strong>pot:</strong> p - o - t → pot</li>
+                <li><strong>jam:</strong> j - a - m → jam</li>
+                <li><strong>cat:</strong> c - a - t → cat</li>
+                <li><strong>dog:</strong> d - o - g → dog</li>
+                <li><strong>sun:</strong> s - u - n → sun</li>
             </ul>
-            <p><strong>Why is blending important?</strong> Blending helps us read new words by putting sounds together!</p>
+            <p><strong>Blending Tip:</strong> Stretch the sounds like a rubber band, then snap them together!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-point-up" style="color: #2196F3;"></i> Arm Blending Examples</div>
-                <p>"aid" - /a/ /i/ /d/ (long A sound at elbow)</p>
-                <p>"boat" - /b/ /oa/ /t/ (long O sound at elbow)</p>
-                <p>"pain" - /p/ /ai/ /n/ (long A sound at elbow)</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Use Your Fingers</div>
+                <p>Hold up one finger for each sound. Tap your fingers as you say each sound, then slide them together to blend!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-long-alt" style="color: #9C27B0;"></i> Long Vowel Sounds</div>
-                <p>A - "ay" like in "aid"</p>
-                <p>E - "ee" like in "feet"</p>
-                <p>O - "oh" like in "boat"</p>
+                <div class="example-title"><i class="fas fa-train"></i> The Sound Train</div>
+                <p>Imagine each sound is a train car. Chug chug chug - connect the cars to make a word train!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shoe-prints"></i> Physical Learning</div>
-                <p>Stand up and use your whole arm! Big movements help our brains remember.</p>
+                <div class="example-title"><i class="fas fa-microphone-alt"></i> Robot Talk</div>
+                <p>Talk like a robot: c - a - t. Now talk like a person: cat! Robot talk helps us hear each sound.</p>
             </div>
         `,
-        taskInstructions: "Practice blending long vowel words using the arm blending method.",
+        taskInstructions: "Practice blending sounds to read CVC words.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Use arm blending for these words. Draw a line from each word to its blending steps:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                        <span style="font-weight: bold; min-width: 80px;">boat</span>
-                        <span style="margin-left: 15px;">A) /b/ - /oa/ - /t/</span>
-                    </div>
-                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                        <span style="font-weight: bold; min-width: 80px;">pain</span>
-                        <span style="margin-left: 15px;">B) /p/ - /ai/ - /n/</span>
-                    </div>
-                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                        <span style="font-weight: bold; min-width: 80px;">feet</span>
-                        <span style="margin-left: 15px;">C) /f/ - /ee/ - /t/</span>
-                    </div>
-                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                        <span style="font-weight: bold; min-width: 80px;">goat</span>
-                        <span style="margin-left: 15px;">D) /g/ - /oa/ - /t/</span>
+            <div class="content-box">
+                <p><strong>Part A: Blend and Read</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Blend the sounds and write the word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>p - o - t → ______</div>
+                        <div>j - a - m → ______</div>
+                        <div>c - a - t → ______</div>
+                        <div>d - o - g → ______</div>
+                        <div>s - u - n → ______</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Practice arm blending with a partner. Take turns being the "blender" and the "checker":
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                    <div><strong>Partner A:</strong> Say "boat" using arm blending slowly.</div>
-                    <div><strong>Partner B:</strong> Check if all three sounds are correct.</div>
-                    <div><strong>Switch roles</strong> for "pain", "feet", and "goat".</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Match the Word to the Picture</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a line from each word to its picture:
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; justify-content: space-around;">
+                        <div>
+                            <div>cat</div>
+                            <div>dog</div>
+                            <div>sun</div>
+                            <div>pot</div>
+                            <div>jam</div>
+                        </div>
+                        <div>
+                            <div>[☀️]</div>
+                            <div>[🐱]</div>
+                            <div>[🐕]</div>
+                            <div>[🍲]</div>
+                            <div>[🍓]</div>
+                        </div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write the three sounds for each word, then write the whole word:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>aid: /  / - /  / - /  / = <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                    <div>boat: /  / - /  / - /  / = <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                    <div>pain: /  / - /  / - /  / = <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                    <div>feet: /  / - /  / - /  / = <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw a picture of yourself doing arm blending. Label shoulder, elbow, and wrist:
-                <div class="drawing-area" style="height: 150px; margin: 10px 0;"></div>
-                <div style="display: flex; justify-content: space-around;">
-                    <div>Shoulder: ______ sound</div>
-                    <div>Elbow: ______ sound</div>
-                    <div>Wrist: ______ sound</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Read the Sentence</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read the sentence and circle the CVC words:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        "The cat sat on the pot."
+                    </div>
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home how to do arm blending with the word 'boat'. Practice three times.",
+        homework: "Find 3 things at home that have CVC names (like cup, bed, hat). Practice blending their sounds with a family member.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Literacy",
-        topic: "Segmenting and Substituting Sounds",
-        subtopic: "Manipulating sounds by adding, deleting, or substituting",
+        topic: "Phonemic Awareness",
+        subtopic: "Word Isolation - Initial Sounds (1.9.2.1)",
         lessonContent: `
-            <p>Today we become sound detectives! We will learn how to change words by changing their sounds.</p>
-            <p><strong>What is segmenting?</strong> Breaking words into individual sounds.</p>
-            <p><strong>What is substituting?</strong> Changing one sound to make a new word.</p>
-            <p><strong>Sound Swapping Game:</strong></p>
+            <p>Today we'll become sound detectives! We'll listen carefully to find the first sound in words.</p>
+            <p><strong>Key Question:</strong> What is the first sound you hear in a word?</p>
+            <p><strong>Introduction:</strong> Every word has a beginning sound. Being able to hear the first sound helps us read and spell words.</p>
+            <p><strong>How to Find the Initial Sound:</strong></p>
             <ol>
-                <li>Start with a word like "rain"</li>
-                <li>Change the /r/ to a /p/</li>
-                <li>New word: "pain"!</li>
+                <li>Say the word slowly: hhhhaaaatttt</li>
+                <li>Listen to the very first sound you make</li>
+                <li>That's the initial sound! (hat begins with /h/)</li>
             </ol>
-            <p><strong>More examples:</strong></p>
+            <p><strong>Practice Words:</strong></p>
             <ul>
-                <li>Change the /n/ in "boat" to a /k/ sound (book)</li>
-                <li>Delete the /s/ from "seeds" to get "eed"</li>
-                <li>Add /f/ to "eet" to get "feet"</li>
+                <li><strong>hat</strong> - first sound: /h/ (like a happy sigh)</li>
+                <li><strong>pot</strong> - first sound: /p/ (like a popping sound)</li>
+                <li><strong>mat</strong> - first sound: /m/ (like humming)</li>
+                <li><strong>sat</strong> - first sound: /s/ (like a snake)</li>
+                <li><strong>bat</strong> - first sound: /b/ (like a bouncing ball)</li>
             </ul>
-            <p><strong>Important:</strong> We focus on the SOUNDS, not just the letters. Sometimes the spelling changes too!</p>
-            <p><strong>Why learn this?</strong> Sound manipulation helps us with both reading AND spelling!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exchange-alt" style="color: #FF9800;"></i> Sound Substitution</div>
-                <p>"rain" → change /r/ to /p/ → "pain"</p>
-                <p>"boat" → change /n/ to /k/ → "book"</p>
-                <p>"seeds" → remove /s/ → "eed"</p>
+                <div class="example-title"><i class="fas fa-ear-listen"></i> Listen and Point</div>
+                <p>Say "dog." Point to your mouth. What sound do your lips make first? /d/!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-plus-circle" style="color: #4CAF50;"></i> Adding Sounds</div>
-                <p>"eet" + /f/ = "feet"</p>
-                <p>"aid" + /r/ = "raid"</p>
-                <p>"oat" + /g/ = "goat"</p>
+                <div class="example-title"><i class="fas fa-magic"></i> Mystery Bag</div>
+                <p>Put objects in a bag. Pull one out, say its name, and shout the first sound! "Sun begins with /s/!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-minus-circle" style="color: #F44336;"></i> Deleting Sounds</div>
-                <p>"seeds" - /s/ = "eed"</p>
-                <p>"train" - /t/ = "rain"</p>
-                <p>"float" - /f/ = "loat"</p>
+                <div class="example-title"><i class="fas fa-clap"></i> Clap the Sounds</div>
+                <p>Clap once for the first sound, then say the rest of the word. /h/ + at = hat!</p>
             </div>
         `,
-        taskInstructions: "Practice sound manipulation by adding, deleting, and substituting sounds.",
+        taskInstructions: "Identify and isolate initial sounds in simple words.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Substitution</strong></p>
+                <p><strong>Part A: Circle the First Sound</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Change the first sound to make a new word:
+                    <span class="task-number">1</span> Circle the letter that makes the first sound in each word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>rain → change /r/ to /p/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>mail → change /m/ to /n/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>goat → change /g/ to /b/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>feet → change /f/ to /m/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+                        <div>hat: <span style="display: inline-block; width: 30px;">h</span> <span style="display: inline-block; width: 30px;">a</span> <span style="display: inline-block; width: 30px;">t</span></div>
+                        <div>pot: <span style="display: inline-block; width: 30px;">p</span> <span style="display: inline-block; width: 30px;">o</span> <span style="display: inline-block; width: 30px;">t</span></div>
+                        <div>mat: <span style="display: inline-block; width: 30px;">m</span> <span style="display: inline-block; width: 30px;">a</span> <span style="display: inline-block; width: 30px;">t</span></div>
+                        <div>sun: <span style="display: inline-block; width: 30px;">s</span> <span style="display: inline-block; width: 30px;">u</span> <span style="display: inline-block; width: 30px;">n</span></div>
+                        <div>bug: <span style="display: inline-block; width: 30px;">b</span> <span style="display: inline-block; width: 30px;">u</span> <span style="display: inline-block; width: 30px;">g</span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sound Deletion</strong></p>
+                <p><strong>Part B: Write the First Letter</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Remove the first sound to find the new word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>seeds - /s/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>train - /t/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>float - /f/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>green - /g/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
+                    <span class="task-number">2</span> Look at the picture, say the word, and write the first letter:
+                    <div style="margin-left: 20px; margin-top: 10px; display: flex; flex-wrap: wrap; gap: 20px;">
+                        <div>[🐱] cat → ___</div>
+                        <div>[🍲] pot → ___</div>
+                        <div>[🐕] dog → ___</div>
+                        <div>[☀️] sun → ___</div>
+                        <div>[🐭] mouse → ___</div>
                     </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sound Addition</strong></p>
+                <p><strong>Part C: Same or Different?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Add a sound to the beginning to make a new word:
+                    <span class="task-number">3</span> Do these words start with the same sound? Write YES or NO:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>eet + /f/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>oat + /g/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>ain + /r/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                        <div>eed + /s/ = <span class="answer-space" style="width: 80px; display: inline-block;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Sound Detective</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Solve the sound puzzles:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div>Start with "boat". Change the /t/ to /k/. New word: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                        <div>Start with "rain". Remove the /r/. Add /p/. New word: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                        <div>Start with "feet". Change the /f/ to /m/. New word: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                        <div>Start with "goat". Remove the /g/. Add /b/. New word: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
+                        <div>cat - car: ______</div>
+                        <div>pot - pan: ______</div>
+                        <div>hat - hot: ______</div>
+                        <div>sun - run: ______</div>
+                        <div>bat - bag: ______</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Play 'Sound Swap' with a family member. Start with 'rain' and see how many words you can make.",
+        homework: "Say 5 things in your bedroom. Tell a family member the first sound of each thing (bed starts with /b/, lamp starts with /l/).",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "Reading Decodable Phrases",
-        subtopic: "Reading short phrases containing long vowel words",
+        topic: "Writing",
+        subtopic: "Letters of the Alphabet - Word Families (1.11.5)",
         lessonContent: `
-            <p>Today we put our blending skills to work! We will read short phrases with our long vowel words.</p>
-            <p><strong>What is a phrase?</strong> A group of words that go together but isn't a complete sentence.</p>
-            <p><strong>Example phrase:</strong> "six fat goats"</p>
-            <p><strong>How to read phrases:</strong></p>
-            <ol>
-                <li>Find the long vowel word first (goats)</li>
-                <li>Blend the long vowel word using arm blending</li>
-                <li>Read the other words around it</li>
-                <li>Put all the words together smoothly</li>
-            </ol>
-            <p><strong>More practice phrases:</strong></p>
+            <p>Today we'll learn to write words from the -at and -am families! Word families are words that share the same ending.</p>
+            <p><strong>Key Question:</strong> How can learning one word help you read many words?</p>
+            <p><strong>Introduction:</strong> Word families are like families of words that live together. They have the same ending but different beginning sounds.</p>
+            <p><strong>The -at Family:</strong></p>
             <ul>
-                <li>"a green jeep"</li>
-                <li>"wait for the boat"</li>
-                <li>"my red raincoat"</li>
+                <li>c + at = cat</li>
+                <li>b + at = bat</li>
+                <li>h + at = hat</li>
+                <li>m + at = mat</li>
+                <li>s + at = sat</li>
             </ul>
-            <p><strong>Choral reading:</strong> We'll read together as a class first, then you'll read by yourself.</p>
-            <p><strong>Why practice phrases?</strong> Phrases help us read more smoothly and understand what we're reading!</p>
+            <p><strong>The -am Family:</strong></p>
+            <ul>
+                <li>j + am = jam</li>
+                <li>r + am = ram</li>
+                <li>y + am = yam</li>
+                <li>s + am = sam (name)</li>
+                <li>cl + am = clam</li>
+            </ul>
+            <p><strong>Writing Tip:</strong> Write neatly between the lines. Start each letter at the top!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-quote-right" style="color: #2196F3;"></i> Practice Phrases</div>
-                <p>"six fat goats" - long vowel word: goats</p>
-                <p>"a green jeep" - long vowel word: jeep</p>
-                <p>"wait for the boat" - long vowel word: wait, boat</p>
+                <div class="example-title"><i class="fas fa-users"></i> Family Reunion</div>
+                <p>The -at family is having a party! cat, bat, hat, mat, and sat are all cousins. They all rhyme because they have the same ending!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-search" style="color: #FF9800;"></i> Long Vowel Detective</div>
-                <p>In "a green jeep": find "jeep" (long E)</p>
-                <p>In "wait for the boat": find "wait" (long A) and "boat" (long O)</p>
-                <p>In "my red raincoat": find "raincoat" (long A)</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Build a Word</div>
+                <p>Put a letter in front of "am" to make a new word: j+am=jam, r+am=ram, y+am=yam!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #4CAF50;"></i> Choral Reading</div>
-                <p>Read together first for confidence</p>
-                <p>Then read alone to show mastery</p>
-                <p>Use pointer finger to track words</p>
+                <div class="example-title"><i class="fas fa-chalkboard-teacher"></i> Practice Makes Perfect</div>
+                <p>Use your best handwriting. Remember: lowercase letters sit on the line like they're resting on a floor!</p>
             </div>
         `,
-        taskInstructions: "Practice reading phrases containing long vowel words.",
+        taskInstructions: "Write short words from the -at and -am word families.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Long Vowel Word Hunt</strong></p>
+                <p><strong>Part A: Trace and Write -at Family Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the long vowel word in each phrase:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>six fat <u>goats</u></div>
-                        <div>a green <u>jeep</u></div>
-                        <div><u>wait</u> for the boat</div>
-                        <div>my red <u>raincoat</u></div>
-                        <div>the blue <u>tie</u></div>
+                    <span class="task-number">1</span> Trace, then write each word:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace;">
+                        <div>c a t → ______ ______ ______</div>
+                        <div>b a t → ______ ______ ______</div>
+                        <div>h a t → ______ ______ ______</div>
+                        <div>m a t → ______ ______ ______</div>
+                        <div>s a t → ______ ______ ______</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Phrase Matching</strong></p>
+                <p><strong>Part B: Trace and Write -am Family Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a line to match each phrase to its picture:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                        <div>
-                            <div style="font-weight: bold;">Phrases:</div>
-                            <div>six fat goats</div>
-                            <div>a green jeep</div>
-                            <div>wait for the boat</div>
-                        </div>
-                        <div>
-                            <div style="font-weight: bold;">Pictures:</div>
-                            <div>🚤 (boat)</div>
-                            <div>🐐🐐🐐 (goats)</div>
-                            <div>🚙 (jeep)</div>
-                        </div>
+                    <span class="task-number">2</span> Trace, then write each word:
+                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace;">
+                        <div>j a m → ______ ______ ______</div>
+                        <div>r a m → ______ ______ ______</div>
+                        <div>y a m → ______ ______ ______</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Choral Reading Practice</strong></p>
+                <p><strong>Part C: Fill in the Missing Letter</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Read these phrases with a partner. Take turns being the "reader" and "listener":
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <div><strong>Phrase List:</strong></div>
-                        <div>1. six fat goats</div>
-                        <div>2. a green jeep</div>
-                        <div>3. wait for the boat</div>
-                        <div>4. my red raincoat</div>
-                        <div>5. the blue tie</div>
-                    </div>
+                    <span class="task-number">3</span> Write the missing first letter:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Partner feedback: <span class="answer-space" style="width: 200px; display: inline-block;"></span></div>
+                        <div>___ at (furry pet that says meow)</div>
+                        <div>___ at (wear it on your head)</div>
+                        <div>___ am (spread on toast)</div>
+                        <div>___ at (sit on the floor)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Create Your Own Phrase</strong></p>
+                <p><strong>Part D: Write a Sentence</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Create a phrase using one long vowel word. Draw a picture to match:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My phrase: <span class="answer-space" style="width: 250px; display: inline-block;"></span></div>
-                        <div class="drawing-area" style="height: 100px; margin: 10px 0;"></div>
-                        <div>Long vowel word in my phrase: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> Write a sentence using one -at word and one -am word:
+                    <div class="drawing-area" style="height: 60px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Find and read three phrases in a book at home. Write down one phrase with a long vowel word.",
+        homework: "Write 5 -at family words and 3 -am family words on paper. Draw a small picture for each word.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Literacy",
-        topic: "Reading Full Sentences",
-        subtopic: "Reading complete sentences with accuracy and fluency",
+        topic: "Fine Motor Skills",
+        subtopic: "Copying Patterns - Geometric Shapes (1.11.4)",
         lessonContent: `
-            <p>Today is our reading celebration! We will read full sentences with our long vowel words.</p>
-            <p><strong>What is a sentence?</strong> A complete thought that starts with a capital letter and ends with punctuation.</p>
-            <p><strong>Example sentence:</strong> "A red raincoat."</p>
-            <p><strong>Sentence reading steps:</strong></p>
+            <p>Today we'll practice copying shapes! Learning to draw shapes helps us write letters and numbers neatly.</p>
+            <p><strong>Key Question:</strong> Why is learning to draw shapes important for writing?</p>
+            <p><strong>Introduction:</strong> Shapes are everywhere! Letters are made of shapes. A triangle can help you draw the letter A. A circle helps you draw the letter O.</p>
+            <p><strong>Shapes We'll Learn Today:</strong></p>
             <ol>
-                <li>Find the long vowel word (raincoat)</li>
-                <li>Blend any tricky words</li>
-                <li>Read the whole sentence smoothly</li>
-                <li>Think about what it means</li>
+                <li><strong>Triangle:</strong> 3 sides, 3 corners (△)</li>
+                <li><strong>Rectangle:</strong> 4 sides, opposite sides equal (▭)</li>
+                <li><strong>Square:</strong> 4 equal sides, 4 corners (□)</li>
             </ol>
-            <p><strong>Practice sentences:</strong></p>
+            <p><strong>Drawing Tips:</strong></p>
             <ul>
-                <li>"The goat is in the rain."</li>
-                <li>"I see my feet."</li>
-                <li>"The tie is blue."</li>
+                <li>Hold your pencil comfortably</li>
+                <li>Go slowly and carefully</li>
+                <li>Connect the corners</li>
+                <li>Use a straight edge if needed</li>
             </ul>
-            <p><strong>Partner reading:</strong> You'll take turns reading sentences with a partner.</p>
-            <p><strong>Why sentences matter:</strong> Sentences tell complete stories and help us share ideas!</p>
-            <p><strong>Remember:</strong> You've worked hard all week on blending, segmenting, and now reading. You're becoming excellent readers!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sentence" style="color: #9C27B0;"></i> Sentence Examples</div>
-                <p>"A red raincoat." - long A in "raincoat"</p>
-                <p>"The goat is in the rain." - long O in "goat", long A in "rain"</p>
-                <p>"I see my feet." - long E in "feet"</p>
+                <div class="example-title"><i class="fas fa-shapes"></i> Shape Hunt</div>
+                <p>Look around the classroom! Can you find a rectangle (door), a square (window pane), a triangle (roof picture)?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-friends" style="color: #2196F3;"></i> Partner Reading</div>
-                <p>Take turns reading sentences</p>
-                <p>Help each other with tricky words</p>
-                <p>Give positive feedback: "Great blending!"</p>
+                <div class="example-title"><i class="fas fa-pencil-ruler"></i> Letters are Shapes</div>
+                <p>The letter A has a triangle shape at the top. The letter O is a circle. The letter E has rectangles!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb" style="color: #FFC107;"></i> Sentence Meaning</div>
-                <p>After reading, ask: "What does this sentence tell us?"</p>
-                <p>"A red raincoat" tells us about something red you wear in rain</p>
-                <p>"The goat is in the rain" tells us where the goat is</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Follow the Dots</div>
+                <p>Connect the dots to make a shape. Start at the dot, draw to the next dot - you've made a shape!</p>
             </div>
         `,
-        taskInstructions: "Practice reading complete sentences with long vowel words.",
+        taskInstructions: "Copy geometric shapes including triangles, rectangles, and squares.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sentence Reading</strong></p>
+                <p><strong>Part A: Copy the Triangle</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Read these sentences. Underline the long vowel words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A red raincoat.</div>
-                        <div>The goat is in the rain.</div>
-                        <div>I see my feet.</div>
-                        <div>The tie is blue.</div>
-                        <div>Wait for the boat.</div>
+                    <span class="task-number">1</span> Look at the triangle on the left. Draw the same shape on the right:
+                    <div style="display: flex; justify-content: space-around; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                            △
+                        </div>
+                        <div style="border: 1px dashed #ccc; width: 100px; height: 100px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Partner Reading Practice</strong></p>
+                <p><strong>Part B: Copy the Square</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> With a partner, take turns reading these sentences. Check each one when done:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                        <div>✅ "A red raincoat."</div>
-                        <div>✅ "The goat is in the rain."</div>
-                        <div>✅ "I see my feet."</div>
-                        <div>✅ "The tie is blue."</div>
-                        <div>✅ "Six fat goats wait."</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Partner's name: <span class="answer-space" style="width: 150px; display: inline-block;"></span></div>
-                        <div>I read ____ sentences correctly.</div>
+                    <span class="task-number">2</span> Look at the square on the left. Draw the same shape on the right:
+                    <div style="display: flex; justify-content: space-around; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center;">
+                            □
+                        </div>
+                        <div style="border: 1px dashed #ccc; width: 100px; height: 100px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Sentence Building</strong></p>
+                <p><strong>Part C: Copy the Rectangle</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Create sentences using these long vowel words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>raincoat: <span class="answer-space" style="width: 250px; display: inline-block;"></span></div>
-                        <div>goat: <span class="answer-space" style="width: 250px; display: inline-block;"></span></div>
-                        <div>feet: <span class="answer-space" style="width: 250px; display: inline-block;"></span></div>
-                        <div>boat: <span class="answer-space" style="width: 250px; display: inline-block;"></span></div>
+                    <span class="task-number">3</span> Look at the rectangle on the left. Draw the same shape on the right:
+                    <div style="display: flex; justify-content: space-around; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; width: 120px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                            ▭
+                        </div>
+                        <div style="border: 1px dashed #ccc; width: 120px; height: 70px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Reading Fluency Check</strong></p>
+                <p><strong>Part D: Draw a Picture Using Shapes</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Teacher Assessment: Read these sentences to your teacher:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <div style="font-weight: bold;">Sentence List for Teacher:</div>
-                        <div>1. A red raincoat.</div>
-                        <div>2. The goat is in the rain.</div>
-                        <div>3. I see my feet.</div>
-                        <div>4. The tie is blue.</div>
-                        <div>5. Wait for the boat.</div>
-                    </div>
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Teacher Notes: <span class="answer-space" style="width: 200px; display: inline-block;"></span></div>
-                        <div>Reading Score: ____ / 5 sentences read correctly</div>
-                    </div>
+                    <span class="task-number">4</span> Use triangles, squares, and rectangles to draw a house:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which shape was easiest to draw? Which was hardest?
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Week 8 Reading Certificate</strong></p>
+                <p><strong>Part E: Shape Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture of yourself reading. Write one sentence you can read now:
-                    <div class="drawing-area" style="height: 120px; margin-bottom: 10px;"></div>
-                    <div style="margin-left: 20px;">
-                        <div>I can read: <span class="answer-space" style="width: 300px; display: inline-block;"></span></div>
-                        <div>My favorite long vowel word this week: <span class="answer-space" style="width: 100px; display: inline-block;"></span></div>
-                    </div>
+                    <span class="task-number">6</span> Copy this pattern: △ □ △ □
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Read three sentences from this worksheet to someone at home. Teach them about long vowel words.",
+        homework: "Find 3 triangles, 3 squares, and 3 rectangles at home. Draw them on paper and show a family member.",
         homeworkDue: "Monday"
     }
 };
@@ -451,10 +386,10 @@ const grade1LiteracyWeek8 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1LiteracyWeek8);
-    console.log("literacy-week8.js registered using registerWorksheet()");
+    console.log("grade1-literacy-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1LiteracyWeek8);
-    console.log("literacy-week8.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-literacy-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -465,9 +400,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1LiteracyWeek8.metadata,
         days: grade1LiteracyWeek8
     });
-    console.log("literacy-week8.js stored in window.registeredWorksheets");
+    console.log("grade1-literacy-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1LiteracyWeek8 = grade1LiteracyWeek8;
-console.log("literacy-week8.js loaded and registered successfully");
+console.log("grade1-literacy-week8.js loaded and registered successfully");

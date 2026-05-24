@@ -1,565 +1,322 @@
-// Grade 1 Literacy - Week 9 Data
+// Grade 1 Literacy - Term 1 Week 9 Data
 const grade1LiteracyWeek9 = {
     metadata: {
         grade: 1,
         subject: "Literacy",
+        term: 1,
         week: 9,
-        title: "Introducing and Identifying Digraph Sounds",
-        description: "Introduction to digraph sounds: /ch/, /sh/, /th/ (voiced & unvoiced), /ng/, /qu/, /er/, and /ar/"
+        title: "Consonants (g, f, b, l) & Segmenting",
+        description: "Identifying consonant sounds, segmenting CVC words, forming letters with ascenders/descenders, and distinguishing letters from words"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "H-Digraphs: /ch/ and /sh/",
-        subtopic: "Identifying and sounding out digraph sounds /ch/ and /sh/",
+        topic: "Phonics",
+        subtopic: "Consonant Sounds: /g/, /f/, /b/, /l/",
         lessonContent: `
-            <p>Welcome to Digraph Week! Digraphs are two letters that stand together to make one new sound.</p>
-            <p><strong>What are digraphs?</strong> When 'c' and 'h' stand together, they make the /ch/ sound. When 's' and 'h' stand together, they make the /sh/ sound.</p>
-            <p><strong>The /sh/ sound:</strong> This is our "quiet" sound – like we're telling someone "shhh!"</p>
+            <p>Welcome to our phonics lesson! Today we will learn four new consonant sounds: /g/, /f/, /b/, and /l/.</p>
+            <p><strong>Key Question:</strong> What sounds do the letters g, f, b, and l make?</p>
+            <p><strong>Introduction:</strong> Consonants are letters that are not vowels. Today we will learn to identify and say the sounds of four consonants.</p>
+            
+            <p><strong>Let's Learn the Sounds:</strong></p>
             <ul>
-                <li>Put your finger to your lips</li>
-                <li>Say "/sh/" like in "ship"</li>
-                <li>Other /sh/ words: shop, fish, wish</li>
+                <li><strong>/g/ sound</strong> - like in <em>goat, girl, bag</em>. Put your tongue at the back of your mouth.</li>
+                <li><strong>/f/ sound</strong> - like in <em>fish, fun, leaf</em>. Bite your bottom lip gently.</li>
+                <li><strong>/b/ sound</strong> - like in <em>ball, bat, tub</em>. Press your lips together.</li>
+                <li><strong>/l/ sound</strong> - like in <em>leg, lion, hill</em>. Put your tongue on the roof of your mouth.</li>
             </ul>
-            <p><strong>The /ch/ sound:</strong> This is our "choo-choo train" sound – like a train moving!</p>
-            <ul>
-                <li>Move your arms like train wheels</li>
-                <li>Say "/ch/" like in "chin"</li>
-                <li>Other /ch/ words: chop, chat, much</li>
-            </ul>
-            <p><strong>Remember:</strong> Two letters, ONE sound!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-train" style="color: #FF9800;"></i> /ch/ Sound Words</div>
-                <p>"chin" - Starts with /ch/</p>
-                <p>"chop" - Starts with /ch/</p>
-                <p>"chat" - Starts with /ch/</p>
-                <p>Ending with /ch/: much, such, rich</p>
+                <div class="example-title"><i class="fas fa-microphone-alt"></i> Say It Aloud</div>
+                <p>Practice saying: /g/ - /g/ - goat &nbsp;&nbsp; /f/ - /f/ - fish &nbsp;&nbsp; /b/ - /b/ - ball &nbsp;&nbsp; /l/ - /l/ - leg</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-volume-mute" style="color: #2196F3;"></i> /sh/ Sound Words</div>
-                <p>"ship" - Starts with /sh/</p>
-                <p>"shop" - Starts with /sh/</p>
-                <p>"fish" - Ends with /sh/</p>
-                <p>"wish" - Ends with /sh/</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-sparkles"></i> Gesture Game</div>
-                <p>For /sh/: Finger to lips – "Shhh!"</p>
-                <p>For /ch/: Move arms like train wheels – "Ch-ch-ch!"</p>
+                <div class="example-title"><i class="fas fa-images"></i> Picture Match</div>
+                <p>A <strong>girl</strong> starts with /g/. A <strong>flower</strong> starts with /f/. A <strong>bird</strong> starts with /b/. A <strong>lamp</strong> starts with /l/.</p>
             </div>
         `,
-        taskInstructions: "Practice identifying and using /ch/ and /sh/ sounds.",
+        taskInstructions: "Say each sound, trace the letters, and circle pictures that match the sounds.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Do the gesture for each word: "Shhh" for /sh/ or train arms for /ch/:
-                <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🚂</span>
-                        </div>
-                        <div>chin</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🤫</span>
-                        </div>
-                        <div>ship</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🚂</span>
-                        </div>
-                        <div>chop</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="height: 80px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;">
-                            <span style="font-size: 24px;">🤫</span>
-                        </div>
-                        <div>shop</div>
+            <div class="content-box">
+                <p><strong>Part A: Sound Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Say each sound after your teacher:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>g - /g/ &nbsp;&nbsp; f - /f/ &nbsp;&nbsp; b - /b/ &nbsp;&nbsp; l - /l/</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Circle the correct digraph for each picture:
-                <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 20px; flex-wrap: wrap;">
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🚢</div>
-                        <div>sh / ch</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🧔</div>
-                        <div>sh / ch</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🐟</div>
-                        <div>sh / ch</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: 30px;">🪓</div>
-                        <div>sh / ch</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Letter Tracing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Trace the letters:
+                    <div style="font-family: monospace; font-size: 24px; margin-top: 10px;">
+                        <div>g g g ___ ___ ___</div>
+                        <div>f f f ___ ___ ___</div>
+                        <div>b b b ___ ___ ___</div>
+                        <div>l l l ___ ___ ___</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write 'ch' or 'sh' to complete the words:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>___in</div>
-                    <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                    <div>___ip</div>
-                    <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                    <div>fi___</div>
-                    <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                    <div>mu___</div>
-                    <div style="height: 30px; border-bottom: 1px solid #ccc;"></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw one picture that starts with /ch/ and one that starts with /sh/:
-                <div style="display: flex; gap: 20px; margin-top: 10px;">
-                    <div style="flex: 1;">
-                        <div style="text-align: center; font-weight: bold;">/ch/ sound</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div class="answer-space" style="height: 30px; text-align: center;">Word: ________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Circle the Sound</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Circle the pictures that start with /g/, /f/, /b/, or /l/:
+                    <div style="display: flex; gap: 20px; margin-top: 10px; flex-wrap: wrap;">
+                        <div>🐐 (goat)</div>
+                        <div>🐟 (fish)</div>
+                        <div>🐦 (bird)</div>
+                        <div>🦁 (lion)</div>
+                        <div>🎈 (balloon)</div>
+                        <div>🍃 (leaf)</div>
                     </div>
-                    <div style="flex: 1;">
-                        <div style="text-align: center; font-weight: bold;">/sh/ sound</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div class="answer-space" style="height: 30px; text-align: center;">Word: ________</div>
-                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home that have the /ch/ or /sh/ sound in their name. Draw pictures of them.",
+        homework: "Find three things at home that start with g, f, b, or l. Draw them and share tomorrow.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Literacy",
-        topic: "Voiced and Unvoiced /th/",
-        subtopic: "Distinguishing voiced /th/ (that) from unvoiced /th/ (thin)",
+        topic: "Phonemic Awareness",
+        subtopic: "Segmenting & Substituting in CVC Words",
         lessonContent: `
-            <p>Today we learn about a special digraph: TH! But there are TWO different /th/ sounds!</p>
-            <p><strong>The /th/ digraph:</strong> When 't' and 'h' stand together, they make the /th/ sound.</p>
-            <p><strong>Unvoiced /th/:</strong> This is our "quiet" /th/ sound – like in "thin" or "thank."</p>
+            <p>Today we will learn to break words into sounds and swap the first letter to make new words!</p>
+            <p><strong>Key Question:</strong> How can changing one letter make a whole new word?</p>
+            <p><strong>What is Segmenting?</strong> Segmenting means breaking a word into its individual sounds. For example: <strong>cat</strong> → /c/ /a/ /t/</p>
+            <p><strong>What is Substituting?</strong> Substituting means swapping one sound for another. For example: change the /c/ in <strong>cat</strong> to /m/ → <strong>mat</strong></p>
+            <p><strong>Let's Practice Together:</strong></p>
             <ul>
-                <li>No vibration in your throat</li>
-                <li>Say "/th/" like a soft whisper</li>
-                <li>Words: thin, thank, thick, thumb</li>
+                <li><strong>bat</strong> → /b/ /a/ /t/ (change /b/ to /c/) → <strong>cat</strong></li>
+                <li><strong>fan</strong> → /f/ /a/ /n/ (change /f/ to /m/) → <strong>man</strong></li>
+                <li><strong>log</strong> → /l/ /o/ /g/ (change /l/ to /f/) → <strong>fog</strong></li>
             </ul>
-            <p><strong>Voiced /th/:</strong> This is our "vibrating" /th/ sound – like in "that" or "them."</p>
-            <ul>
-                <li>Feel your throat vibrate</li>
-                <li>Say "/th/" with voice</li>
-                <li>Words: that, them, this, there</li>
-            </ul>
-            <p><strong>How to tell the difference:</strong> Put your hand on your throat! If it vibrates, it's voiced. If not, it's unvoiced.</p>
-            <p><strong>Remember:</strong> Same letters, two different sounds!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-volume-down" style="color: #757575;"></i> Unvoiced /th/ Words</div>
-                <p>"thin" - Quiet /th/</p>
-                <p>"thank" - Quiet /th/</p>
-                <p>"thick" - Quiet /th/</p>
-                <p>"thumb" - Quiet /th/</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Word Puzzle</div>
+                <p>Start with "bug". Change /b/ to /r/ → you get "rug"! Change /b/ to /m/ → you get "mug"!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-volume-up" style="color: #4CAF50;"></i> Voiced /th/ Words</div>
-                <p>"that" - Vibrating /th/</p>
-                <p>"them" - Vibrating /th/</p>
-                <p>"this" - Vibrating /th/</p>
-                <p>"there" - Vibrating /th/</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper"></i> Throat Check</div>
-                <p>Put your hand on your throat:</p>
-                <p>Voiced = Feel vibration</p>
-                <p>Unvoiced = No vibration</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Finger Tapping</div>
+                <p>Tap one finger for each sound: "dog" → tap (d) tap (o) tap (g). Three taps = three sounds!</p>
             </div>
         `,
-        taskInstructions: "Practice identifying voiced and unvoiced /th/ sounds.",
+        taskInstructions: "Segment CVC words into sounds and swap initial letters to create new words.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Throat Vibration Check</strong></p>
+                <p><strong>Part A: Segmenting Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Say each word with your hand on your throat. Check ✓ if you feel vibration:
+                    <span class="task-number">1</span> Break each word into sounds. Say each sound:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>that: Vibration? ☐ Yes ☐ No</div>
-                        <div>thin: Vibration? ☐ Yes ☐ No</div>
-                        <div>them: Vibration? ☐ Yes ☐ No</div>
-                        <div>thank: Vibration? ☐ Yes ☐ No</div>
-                        <div>this: Vibration? ☐ Yes ☐ No</div>
-                        <div>thick: Vibration? ☐ Yes ☐ No</div>
+                        <div>cat → ___ / ___ / ___</div>
+                        <div>dog → ___ / ___ / ___</div>
+                        <div>fish → ___ / ___ / ___</div>
+                        <div>ball → ___ / ___ / ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Word Sort</strong></p>
+                <p><strong>Part B: Swap the First Letter</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Sort the words into "Vibrating" (voiced) or "Quiet" (unvoiced):
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                        <div>
-                            <div style="font-weight: bold;">Vibrating /th/</div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div>Words: that, them, this</div>
-                        </div>
-                        <div>
-                            <div style="font-weight: bold;">Quiet /th/</div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div>Words: thin, thank, thick</div>
-                        </div>
+                    <span class="task-number">2</span> Change the first letter to make a new word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>cat → change /c/ to /b/ → _____</div>
+                        <div>fan → change /f/ to /p/ → _____</div>
+                        <div>leg → change /l/ to /b/ → _____</div>
+                        <div>bug → change /b/ to /r/ → _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Picture Match</strong></p>
+                <p><strong>Part C: Fill in the Blank</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Circle if the picture shows a voiced or unvoiced /th/ word:
+                    <span class="task-number">3</span> What new word do you get?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">👍</span>
-                            <span>thumb</span>
-                            <span style="margin-left: 30px;">☐ Voiced</span>
-                            <span style="margin-left: 15px;">☐ Unvoiced</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">👉</span>
-                            <span>that</span>
-                            <span style="margin-left: 30px;">☐ Voiced</span>
-                            <span style="margin-left: 15px;">☐ Unvoiced</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">📏</span>
-                            <span>thin</span>
-                            <span style="margin-left: 30px;">☐ Voiced</span>
-                            <span style="margin-left: 15px;">☐ Unvoiced</span>
-                        </div>
+                        <div>Start with "lip". Change /l/ to /z/ → _____</div>
+                        <div>Start with "gap". Change /g/ to /m/ → _____</div>
+                        <div>Start with "fox". Change /f/ to /b/ → _____</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: /th/ Writing Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write 'th' to complete these words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>___in</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>___at</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>___em</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>___ank</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc;"></div>
-                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home with the /th/ sound in their name. Say them and feel your throat for vibration.",
+        homework: "Practice segmenting with a family member. Say a CVC word (like 'sun' or 'hat') and tap each sound on your fingers.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "Nasal and Labial Digraphs: /ng/ and /qu/",
-        subtopic: "Sounding out and identifying /ng/ and /qu/ sounds",
+        topic: "Handwriting",
+        subtopic: "Forming Letters with Ascenders & Descenders: g, f, b, l",
         lessonContent: `
-            <p>Today we learn two more digraphs: /ng/ and /qu/!</p>
-            <p><strong>The /ng/ digraph:</strong> When 'n' and 'g' stand together, they make our "singing" sound!</p>
+            <p>Today we will learn how to write letters that go above and below the lines!</p>
+            <p><strong>Key Question:</strong> Which letters reach up high or hang down low?</p>
+            <p><strong>What are Ascenders and Descenders?</strong></p>
             <ul>
-                <li>Say "/ng/" like you're singing a song</li>
-                <li>This sound often comes at the END of words</li>
-                <li>Words: ring, sing, long, king</li>
+                <li><strong>Ascenders</strong> are parts of letters that go UP above the middle line (like b, l)</li>
+                <li><strong>Descenders</strong> are parts of letters that go DOWN below the bottom line (like g, f)</li>
             </ul>
-            <p><strong>The /qu/ digraph:</strong> When 'q' and 'u' stand together, they make our "duck" sound!</p>
+            <p><strong>Today's Letters:</strong></p>
             <ul>
-                <li>Say "/qu/" like a duck: "quack quack!"</li>
-                <li>This sound often comes at the BEGINNING of words</li>
-                <li>Words: queen, quick, quit, quiz</li>
+                <li><strong>g (descender):</strong> Round body with a tail that hangs below the line</li>
+                <li><strong>f (descender and ascender):</strong> A tall letter with a top curve and a tail below</li>
+                <li><strong>b (ascender):</strong> A tall stick going up with a round belly</li>
+                <li><strong>l (ascender):</strong> A tall straight line going from top to bottom</li>
             </ul>
-            <p><strong>Sound Hunt:</strong> Where is the digraph? Beginning or end?</p>
-            <p><strong>Remember:</strong> /ng/ = singing, /qu/ = duck!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-music" style="color: #E91E63;"></i> /ng/ Sound Words</div>
-                <p>"ring" - Ends with /ng/</p>
-                <p>"sing" - Ends with /ng/</p>
-                <p>"long" - Ends with /ng/</p>
-                <p>"king" - Ends with /ng/</p>
+                <div class="example-title"><i class="fas fa-arrow-up"></i> Ascenders Go Up</div>
+                <p>The letters <strong>b, d, f, h, k, l, t</strong> all have ascenders that reach above the middle line!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-feather-alt" style="color: #FF9800;"></i> /qu/ Sound Words</div>
-                <p>"queen" - Starts with /qu/</p>
-                <p>"quick" - Starts with /qu/</p>
-                <p>"quit" - Starts with /qu/</p>
-                <p>"quiz" - Starts with /qu/</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-search"></i> Sound Hunt</div>
-                <p>Listen: Where is the digraph?</p>
-                <p>Beginning: queen</p>
-                <p>End: ring</p>
+                <div class="example-title"><i class="fas fa-arrow-down"></i> Descenders Go Down</div>
+                <p>The letters <strong>g, j, p, q, y, f</strong> have descenders that hang below the bottom line!</p>
             </div>
         `,
-        taskInstructions: "Practice identifying /ng/ and /qu/ sounds and their position in words.",
+        taskInstructions: "Practice writing letters g, f, b, l with correct ascenders and descenders.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Hunt</strong></p>
+                <p><strong>Part A: Letter g (descender)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Is the digraph at the beginning or end? Circle:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ring: Beginning / End</div>
-                        <div>queen: Beginning / End</div>
-                        <div>sing: Beginning / End</div>
-                        <div>quick: Beginning / End</div>
-                        <div>long: Beginning / End</div>
-                        <div>quiz: Beginning / End</div>
+                    <span class="task-number">1</span> Trace and write letter g:
+                    <div style="font-family: monospace; font-size: 28px; margin-top: 10px; line-height: 2;">
+                        <div>g g g ___ ___ ___</div>
+                        <div>go  go  go  ___ ___ ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Picture Sort</strong></p>
+                <p><strong>Part B: Letter f (ascender + descender)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a line to match each picture to its correct digraph:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">👑</span>
-                            <span>queen</span>
-                            <span style="margin-left: 30px;">A) ng</span>
-                            <span style="margin-left: 15px;">B) qu</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">💍</span>
-                            <span>ring</span>
-                            <span style="margin-left: 30px;">A) ng</span>
-                            <span style="margin-left: 15px;">B) qu</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">🎤</span>
-                            <span>sing</span>
-                            <span style="margin-left: 30px;">A) ng</span>
-                            <span style="margin-left: 15px;">B) qu</span>
-                        </div>
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="font-size: 30px; margin-right: 15px;">🐥</span>
-                            <span>duck (quack)</span>
-                            <span style="margin-left: 30px;">A) ng</span>
-                            <span style="margin-left: 15px;">B) qu</span>
-                        </div>
+                    <span class="task-number">2</span> Trace and write letter f:
+                    <div style="font-family: monospace; font-size: 28px; margin-top: 10px; line-height: 2;">
+                        <div>f f f ___ ___ ___</div>
+                        <div>fun fun fun ___ ___ ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Digraph Sort</strong></p>
+                <p><strong>Part C: Letter b (ascender)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write each word under the correct digraph:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                        <div>
-                            <div style="font-weight: bold;">/ng/ sound</div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div>Words: ring, sing, long</div>
-                        </div>
-                        <div>
-                            <div style="font-weight: bold;">/qu/ sound</div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div class="answer-space" style="height: 30px; width: 100px;"></div>
-                            <div>Words: queen, quick, quit</div>
-                        </div>
+                    <span class="task-number">3</span> Trace and write letter b:
+                    <div style="font-family: monospace; font-size: 28px; margin-top: 10px; line-height: 2;">
+                        <div>b b b ___ ___ ___</div>
+                        <div>bat bat bat ___ ___ ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Writing Practice</strong></p>
+                <p><strong>Part D: Letter l (ascender)</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Write 'ng' or 'qu' to complete the words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ri___</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>___een</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>si___</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>___ick</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc;"></div>
+                    <span class="task-number">4</span> Trace and write letter l:
+                    <div style="font-family: monospace; font-size: 28px; margin-top: 10px; line-height: 2;">
+                        <div>l l l ___ ___ ___</div>
+                        <div>leg leg leg ___ ___ ___</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find one thing at home that has the /ng/ sound (like 'ring') and one that has the /qu/ sound (like 'queen' picture).",
+        homework: "Write each letter (g, f, b, l) five times on paper. Show a family member where the ascenders and descenders are.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Literacy",
-        topic: "R-Controlled Digraphs: /er/ and /ar/",
-        subtopic: "Identifying and sounding out /er/ and /ar/ sounds",
+        topic: "Concepts of Print",
+        subtopic: "Distinguishing Isolated Letters from Complete Words",
         lessonContent: `
-            <p>Today we learn our last two digraphs: /er/ and /ar/! These are called "r-controlled" vowels.</p>
-            <p><strong>The /ar/ digraph:</strong> When 'a' and 'r' stand together, they make our "pirate sound"!</p>
+            <p>Today we will learn the difference between a single letter and a whole word!</p>
+            <p><strong>Key Question:</strong> How can you tell if something is a letter or a word?</p>
+            <p><strong>Letters vs. Words:</strong></p>
             <ul>
-                <li>Say "/ar/" like a pirate: "Arrr!"</li>
-                <li>Words: farm, car, star, far</li>
-                <li>Often in the middle of words</li>
+                <li>A <strong>letter</strong> is one symbol: a, b, c, g, f, l</li>
+                <li>A <strong>word</strong> is made of letters put together: cat, dog, fish, ball</li>
+                <li>Letters make sounds. Words have meaning.</li>
             </ul>
-            <p><strong>The /er/ digraph:</strong> When 'e' and 'r' stand together, they make our "mixer sound"!</p>
+            <p><strong>Look at these examples:</strong></p>
             <ul>
-                <li>Say "/er/" like a mixer: "Errrrr"</li>
-                <li>Words: bird, her, fern, verb</li>
-                <li>Often in the middle of words</li>
+                <li>"b" is a <strong>letter</strong>. It makes the /b/ sound.</li>
+                <li>"ball" is a <strong>word</strong>. It means a round toy you throw.</li>
+                <li>"g" is a <strong>letter</strong>. "goat" is a <strong>word</strong>.</li>
             </ul>
-            <p><strong>Sound Practice:</strong> Say the sounds clearly: /ar/ like a pirate, /er/ like a mixer!</p>
-            <p><strong>Remember:</strong> When 'r' comes after a vowel, it changes the vowel's sound!</p>
+            <p><strong>In a sentence:</strong> "I see a big cat."</p>
+            <ul>
+                <li>Letters: I, s, e, a, b, i, g, c, a, t</li>
+                <li>Words: I, see, a, big, cat</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-skull-crossbones" style="color: #795548;"></i> /ar/ Sound Words</div>
-                <p>"farm" - Has /ar/ in middle</p>
-                <p>"car" - Ends with /ar/</p>
-                <p>"star" - Ends with /ar/</p>
-                <p>"far" - Ends with /ar/</p>
+                <div class="example-title"><i class="fas fa-sort-alpha-down"></i> Letter or Word?</div>
+                <p><strong>f</strong> → letter &nbsp;&nbsp; <strong>fish</strong> → word &nbsp;&nbsp; <strong>l</strong> → letter &nbsp;&nbsp; <strong>lion</strong> → word</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-blender" style="color: #9C27B0;"></i> /er/ Sound Words</div>
-                <p>"bird" - Has /er/ in middle</p>
-                <p>"her" - Ends with /er/</p>
-                <p>"fern" - Ends with /er/</p>
-                <p>"verb" - Starts with /er/</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-treasure-chest"></i> Digraph Treasure</div>
-                <p>We've learned 7 digraphs this week!</p>
-                <p>ch, sh, th, ng, qu, er, ar</p>
-                <p>You're a Digraph Detective!</p>
+                <div class="example-title"><i class="fas fa-paragraph"></i> In a Sentence</div>
+                <p>"The big frog jumped." The words are: The, big, frog, jumped. All the other symbols are letters inside the words!</p>
             </div>
         `,
-        taskInstructions: "Practice identifying and using /er/ and /ar/ sounds.",
+        taskInstructions: "Circle whether each item is a letter or a word. Identify words in sentences.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Identification</strong></p>
+                <p><strong>Part A: Letter or Word?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the correct digraph sound for each word:
+                    <span class="task-number">1</span> Circle "letter" or "word" for each:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>farm: er / ar</div>
-                        <div>bird: er / ar</div>
-                        <div>car: er / ar</div>
-                        <div>her: er / ar</div>
-                        <div>star: er / ar</div>
-                        <div>fern: er / ar</div>
+                        <div>g &nbsp;&nbsp;&nbsp; letter / word</div>
+                        <div>go &nbsp;&nbsp;&nbsp; letter / word</div>
+                        <div>ball &nbsp;&nbsp;&nbsp; letter / word</div>
+                        <div>f &nbsp;&nbsp;&nbsp; letter / word</div>
+                        <div>fish &nbsp;&nbsp;&nbsp; letter / word</div>
+                        <div>l &nbsp;&nbsp;&nbsp; letter / word</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Picture Match</strong></p>
+                <p><strong>Part B: Count the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw a line from the picture to its digraph:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🚜</div>
-                            <div>farm</div>
-                            <div style="margin-top: 5px;">
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">er</span>
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">ar</span>
-                            </div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🐦</div>
-                            <div>bird</div>
-                            <div style="margin-top: 5px;">
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">er</span>
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">ar</span>
-                            </div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🚗</div>
-                            <div>car</div>
-                            <div style="margin-top: 5px;">
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">er</span>
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">ar</span>
-                            </div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 30px;">🌿</div>
-                            <div>fern</div>
-                            <div style="margin-top: 5px;">
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">er</span>
-                                <span style="padding: 3px 10px; border: 1px solid #ccc; margin: 0 5px;">ar</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Complete the Words</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Write 'er' or 'ar' to finish each word:
+                    <span class="task-number">2</span> How many words are in each sentence?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>f___m</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>b___d</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>c___</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc; margin-bottom: 15px;"></div>
-                        <div>h___</div>
-                        <div style="height: 30px; border-bottom: 1px solid #ccc;"></div>
+                        <div>I like dogs. → _____ words</div>
+                        <div>See the big fox. → _____ words</div>
+                        <div>My cat is fun. → _____ words</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Digraph Master Review</strong></p>
+                <p><strong>Part C: Find the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a picture for each digraph sound:
-                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-                        <div style="text-align: center;">
-                            <div>/ch/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/sh/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/th/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/ng/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/qu/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/er/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>/ar/</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div>ME!</div>
-                            <div class="drawing-area" style="height: 60px;"></div>
-                        </div>
+                    <span class="task-number">3</span> Read the sentence. Circle each word:
+                    <div style="margin-left: 20px; margin-top: 10px; font-size: 18px;">
+                        <div>The frog is green and big.</div>
+                        <div style="margin-top: 10px;">I see a little bug.</div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Make Your Own</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write a short sentence (3-5 words) and circle all the words:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Make a list of all 7 digraphs you learned this week. Draw one picture for each digraph.",
+        homework: "Find a sentence in a book at home. Count how many words are in the sentence. Write the sentence and circle each word.",
         homeworkDue: "Monday"
     }
 };
@@ -567,10 +324,10 @@ const grade1LiteracyWeek9 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1LiteracyWeek9);
-    console.log("literacy-week9.js registered using registerWorksheet()");
+    console.log("grade1-literacy-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1LiteracyWeek9);
-    console.log("literacy-week9.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-literacy-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -581,9 +338,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1LiteracyWeek9.metadata,
         days: grade1LiteracyWeek9
     });
-    console.log("literacy-week9.js stored in window.registeredWorksheets");
+    console.log("grade1-literacy-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1LiteracyWeek9 = grade1LiteracyWeek9;
-console.log("literacy-week9.js loaded and registered successfully");
+console.log("grade1-literacy-week9.js loaded and registered successfully");

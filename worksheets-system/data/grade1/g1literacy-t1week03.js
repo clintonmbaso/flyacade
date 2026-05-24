@@ -1,440 +1,407 @@
-// Grade 1 Literacy - Week 3 Data
+// Grade 1 Literacy - Term 1 Week 3 Data
 const grade1LiteracyWeek3 = {
     metadata: {
         grade: 1,
         subject: "Literacy",
+        term: 1,
         week: 3,
-        title: "Consonant Sounds Adventure",
-        description: "Introduction to consonant sounds, identifying them in words, and sounding them out correctly"
+        title: "Short Vowels (i, o, u) & Circle Patterns",
+        description: "Sounding out short vowels, tracking print, and building handwriting skills through circular patterns"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "Meet the Consonants",
-        subtopic: "Introduction to consonant sounds in English",
+        topic: "Phonics",
+        subtopic: "Short Vowels (i, o, u)",
         lessonContent: `
-            <p>Welcome to our Literacy adventure! This week we will learn about special sounds called consonants. Today we'll meet our consonant friends!</p>
-            <p><strong>What are consonants?</strong> Consonants are sounds we make when we close or partly close our mouth. They are different from vowel sounds.</p>
-            <p><strong>Our consonant sounds:</strong></p>
-            <ul>
-                <li>/s/ - like a snake: sssss</li>
-                <li>/t/ - like tapping: t t t</li>
-                <li>/p/ - like popping: p p p</li>
-                <li>/n/ - like humming: nnnnn</li>
-                <li>/c/ or /k/ - like cracking: c c c</li>
-                <li>/h/ - like breathing: h h h</li>
-                <li>/r/ - like a race car: rrrrr</li>
-            </ul>
-            <p><strong>Why are consonants important?</strong> Consonants help us make words! Without consonants, we couldn't say words like "cat," "dog," or "sun."</p>
-            <p><strong>Let's practice together!</strong> We'll make each consonant sound and think of words that start with that sound.</p>
+            <p>Welcome to our phonics lesson! Today we'll learn three new short vowel sounds: /i/, /o/, and /u/.</p>
+            <p><strong>Key Question:</strong> Can you hear the difference between /i/, /o/, and /u/ in words?</p>
+            <p><strong>Introduction:</strong> Vowels are special letters that make open sounds. Today we focus on short i, short o, and short u.</p>
+            <p><strong>Short Vowel Sounds:</strong></p>
+            <ol>
+                <li><strong>Short /i/ sound:</strong> Like in "igloo" and "sit"</li>
+                <li><strong>Short /o/ sound:</strong> Like in "octopus" and "hot"</li>
+                <li><strong>Short /u/ sound:</strong> Like in "umbrella" and "cup"</li>
+            </ol>
+            <p><strong>Let's Practice:</strong> Say each sound after me. Listen to how your mouth moves differently for each vowel!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-snake" style="color: #4CAF50;"></i> /s/ Sound</div>
-                <p>"Sun" starts with /s/. Can you make the snake sound? Ssssssun! Other /s/ words: snake, sit, see.</p>
+                <div class="example-title"><i class="fas fa-volume-up"></i> Short /i/ Words</div>
+                <p>igloo, insect, sit, lip, fin, pin, wig</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-drum" style="color: #2196F3;"></i> /t/ Sound</div>
-                <p>"Tap" starts with /t/. Can you tap your tongue? T t t tap! Other /t/ words: top, ten, toy.</p>
+                <div class="example-title"><i class="fas fa-volume-up"></i> Short /o/ Words</div>
+                <p>octopus, ox, hot, pot, top, log, frog</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-popcorn" style="color: #FF9800;"></i> /p/ Sound</div>
-                <p>"Pop" starts with /p/. Can you pop your lips? P p p pop! Other /p/ words: pig, pen, pan.</p>
+                <div class="example-title"><i class="fas fa-volume-up"></i> Short /u/ Words</div>
+                <p>umbrella, up, cup, bus, bug, sun, run</p>
             </div>
         `,
-        taskInstructions: "Practice making consonant sounds and identify words that start with these sounds.",
+        taskInstructions: "Practice sounding out and identifying short vowel sounds /i/, /o/, and /u/.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Match the consonant sound to the picture:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>/s/ ☐ snake ☐ tiger ☐ parrot</div>
-                    <div>/t/ ☐ sun ☐ turtle ☐ nest</div>
-                    <div>/p/ ☐ pencil ☐ house ☐ rabbit</div>
-                    <div>/n/ ☐ nose ☐ cat ☐ kite</div>
+            <div class="content-box">
+                <p><strong>Part A: Say and Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look at each picture. Say the word. Circle the vowel sound you hear:
+                    <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="width: 80px; height: 80px; border: 1px dashed #ccc;"></div>
+                            <div>pig</div>
+                            <div style="font-size: 12px;">/i/ /o/ /u/</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="width: 80px; height: 80px; border: 1px dashed #ccc;"></div>
+                            <div>cup</div>
+                            <div style="font-size: 12px;">/i/ /o/ /u/</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="width: 80px; height: 80px; border: 1px dashed #ccc;"></div>
+                            <div>hot</div>
+                            <div style="font-size: 12px;">/i/ /o/ /u/</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="width: 80px; height: 80px; border: 1px dashed #ccc;"></div>
+                            <div>bug</div>
+                            <div style="font-size: 12px;">/i/ /o/ /u/</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Make the consonant sounds. Draw a face showing how your mouth looks for each:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>/s/ - snake sound: <div class="drawing-area" style="height: 50px; width: 100px; display: inline-block; margin-left: 10px;"></div></div>
-                    <div>/p/ - pop sound: <div class="drawing-area" style="height: 50px; width: 100px; display: inline-block; margin-left: 10px;"></div></div>
-                    <div>/t/ - tap sound: <div class="drawing-area" style="height: 50px; width: 100px; display: inline-block; margin-left: 10px;"></div></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Match the Vowel</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a line from each word to its short vowel sound:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>log → &nbsp;&nbsp;&nbsp; /i/</div>
+                        <div>fin → &nbsp;&nbsp;&nbsp; /o/</div>
+                        <div>sun → &nbsp;&nbsp;&nbsp; /u/</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Circle the pictures that start with /s/:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ sun ☐ moon ☐ star ☐ tree</div>
-                    <div>☐ snake ☐ lion ☐ seal ☐ bear</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Sound Hunt: Find three things in the classroom that start with /t/:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>2. <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>3. <span class="answer-space" style="width: 100px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Fill in the Missing Vowel</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write i, o, or u to complete each word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>p___g (pig)</div>
+                        <div>c___p (cup)</div>
+                        <div>h___t (hot)</div>
+                        <div>b___g (bug)</div>
+                        <div>f___n (fin)</div>
+                        <div>s___n (sun)</div>
+                    </div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home that start with /p/. Draw them and write the first letter.",
+        homework: "Find 3 things at home with the short /i/ sound, 3 with short /o/, and 3 with short /u/. Draw a picture of each.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Literacy",
-        topic: "More Consonant Sounds",
-        subtopic: "Learning consonant sounds /m/, /d/, /g/, /l/, /f/, /b/",
+        topic: "Concepts of Print",
+        subtopic: "Tracking Print: Top to Bottom, Left to Right, Return Sweep",
         lessonContent: `
-            <p>Today we meet more consonant friends! Let's learn how to make these sounds and find them in words.</p>
-            <p><strong>New consonant sounds:</strong></p>
-            <ul>
-                <li>/m/ - like munching: m m m</li>
-                <li>/d/ - like drumming: d d d</li>
-                <li>/g/ - like gurgling: g g g</li>
-                <li>/l/ - like laughing: l l l</li>
-                <li>/f/ - like blowing: f f f</li>
-                <li>/b/ - like bouncing: b b b</li>
-            </ul>
-            <p><strong>Where do we find consonant sounds?</strong> Consonants can be at the beginning, middle, or end of words!</p>
-            <p><strong>Examples in different positions:</strong></p>
-            <ul>
-                <li>Beginning: <strong>m</strong>om, <strong>d</strong>og, <strong>g</strong>ame</li>
-                <li>Middle: ha<strong>m</strong>mer, la<strong>d</strong>der, ba<strong>g</strong>gy</li>
-                <li>End: roo<strong>m</strong>, re<strong>d</strong>, bi<strong>g</strong></li>
-            </ul>
-            <p><strong>Let's listen carefully!</strong> I'll say some words, and you tell me which consonant sound you hear.</p>
+            <p>Today we'll learn how our eyes move when we read! Tracking print helps us become better readers.</p>
+            <p><strong>Key Question:</strong> Where do our eyes go when we read a book?</p>
+            <p><strong>Introduction:</strong> Good readers know exactly where to look. We start at the top of the page and move our eyes from left to right across each line.</p>
+            <p><strong>Tracking Rules:</strong></p>
+            <ol>
+                <li><strong>Top to Bottom:</strong> We always start reading at the top of the page</li>
+                <li><strong>Left to Right:</strong> Our eyes move across each line from left to right</li>
+                <li><strong>Return Sweep:</strong> At the end of a line, our eyes go back to the left side of the next line down</li>
+            </ol>
+            <p><strong>Let's Practice:</strong> Use your finger to follow along as we read together!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cookie-bite" style="color: #795548;"></i> /m/ Sound</div>
-                <p>"Mom" has /m/ at the beginning. "Hammer" has /m/ in the middle. "Room" has /m/ at the end.</p>
+                <div class="example-title"><i class="fas fa-arrow-right"></i> Left to Right</div>
+                <p>When you read "The cat sat," your eyes start at T, then h, then e, moving all the way to t.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-drum" style="color: #3F51B5;"></i> /d/ Sound</div>
-                <p>"Dog" starts with /d/. "Ladder" has /d/ in the middle. "Red" ends with /d/.</p>
+                <div class="example-title"><i class="fas fa-arrow-down"></i> Return Sweep</div>
+                <p>After finishing "The cat sat," your eyes jump back to the left side of the next line to read "on the mat."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-frog" style="color: #4CAF50;"></i> /f/ Sound</div>
-                <p>"Fish" starts with /f/. "Coffee" has /f/ in the middle. "Leaf" ends with /f/.</p>
+                <div class="example-title"><i class="fas fa-fingerprint"></i> Use Your Finger</div>
+                <p>Beginning readers can use their finger to point to each word as they read. This helps train your eyes!</p>
             </div>
         `,
-        taskInstructions: "Identify consonant sounds in different positions in words and create your own sound words.",
+        taskInstructions: "Practice tracking print from top to bottom and returning to the next line.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Sorting</strong></p>
+                <p><strong>Part A: Follow the Path</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Sort these words by their beginning sound:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>/m/: ☐ moon ☐ dog ☐ fish ☐ mom</div>
-                        <div>/d/: ☐ door ☐ ball ☐ duck ☐ girl</div>
-                        <div>/b/: ☐ boy ☐ cat ☐ bat ☐ fan</div>
+                    <span class="task-number">1</span> Use your finger to trace the reading path. Start at the star ★:
+                    <div style="background-color: #f5f5f5; padding: 15px; margin-top: 10px; font-family: monospace; font-size: 18px;">
+                        <div>★ The cat is fat.</div>
+                        <div style="margin-left: 20px;">The dog can run.</div>
+                        <div style="margin-left: 40px;">The pig is pink.</div>
+                        <div style="margin-left: 20px;">The bug is on the rug.</div>
+                        <div>The sun is hot.</div>
                     </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Middle Sounds</strong></p>
+                <p><strong>Part B: Which Line Comes Next?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Circle the words that have /m/ in the middle:
+                    <span class="task-number">2</span> After reading "I like to hop," where do your eyes go?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>hammer ☐ house ☐ lemon ☐ tiger</div>
-                        <div>camel ☐ candy ☐ summer ☐ pencil</div>
+                        <div>A. Back to the beginning of the same line</div>
+                        <div>B. Down to the next line on the left side</div>
+                        <div>C. Up to the line above</div>
                     </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Circle the words that have /d/ in the middle:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ladder ☐ lady ☐ radio ☐ rabbit</div>
-                        <div>body ☐ book ☐ candy ☐ cup</div>
-                    </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: End Sounds</strong></p>
+                <p><strong>Part C: Read and Track</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a line to match the word with its ending sound:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>roo<strong>m</strong> ☐ /b/</div>
-                        <div>ca<strong>b</strong> ☐ /m/</div>
-                        <div>lea<strong>f</strong> ☐ /g/</div>
-                        <div>bi<strong>g</strong> ☐ /f/</div>
+                    <span class="task-number">3</span> Read this sentence 3 times. Use your finger to track:
+                    <div style="background-color: #e8f4f8; padding: 15px; margin-top: 10px; text-align: center; font-size: 20px;">
+                        The little bug ran up the big hill.
                     </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Sound Creation</strong></p>
+                <p><strong>Part D: Drawing the Path</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Write two words for each consonant sound:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>/l/: _______________ _______________</div>
-                        <div>/g/: _______________ _______________</div>
-                        <div>/f/: _______________ _______________</div>
+                    <span class="task-number">4</span> Draw arrows to show how your eyes move when you read this:
+                    <div style="background-color: #f5f5f5; padding: 15px; margin-top: 10px;">
+                        <div>I have a red hat.</div>
+                        <div>It is on my head.</div>
+                        <div>The hat is warm.</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Sound Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">6</span> Draw something that starts with /b/. Write the word:
-                    <div class="drawing-area" style="height: 100px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My /b/ word: ________________</div>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Find one thing at home for each: something with /m/ sound, something with /d/ sound, something with /b/ sound.",
+        homework: "Read a short book with a family member. Use your finger to track each word. Have them watch to see if you return to the left side of the next line.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "Final Consonant Sounds",
-        subtopic: "Learning consonant sounds /j/, /z/, /w/, /v/, /y/, /x/",
+        topic: "Phonics",
+        subtopic: "Reviewing All Short Vowels (a, e, i, o, u)",
         lessonContent: `
-            <p>Today we'll meet the last of our consonant friends! These sounds help make our words complete.</p>
-            <p><strong>Final consonant sounds:</strong></p>
-            <ul>
-                <li>/j/ - like jumping: j j j</li>
-                <li>/z/ - like buzzing: z z z</li>
-                <li>/w/ - like wind: w w w</li>
-                <li>/v/ - like vibrating: v v v</li>
-                <li>/y/ - like yawning: y y y</li>
-                <li>/x/ - like box: x x x (usually at the end)</li>
-            </ul>
-            <p><strong>Special sounds to notice:</strong></p>
-            <ul>
-                <li>/x/ often comes at the end: fo<strong>x</strong>, bo<strong>x</strong></li>
-                <li>/z/ can buzz in the middle or end: bu<strong>zz</strong>, noi<strong>s</strong>e</li>
-                <li>/j/ usually starts words: <strong>j</strong>ump, <strong>j</strong>am</li>
-                <li>/v/ and /w/ are different! /v/ uses teeth, /w/ uses lips</li>
-            </ul>
-            <p><strong>Sound positions practice:</strong></p>
+            <p>Today we'll review ALL five short vowel sounds: /a/, /e/, /i/, /o/, and /u/!</p>
+            <p><strong>Key Question:</strong> Can you quickly identify each short vowel sound when you hear it?</p>
+            <p><strong>The Five Short Vowels:</strong></p>
             <ol>
-                <li>Beginning: <strong>j</strong>ar, <strong>z</strong>oo, <strong>w</strong>eb, <strong>v</strong>an, <strong>y</strong>es</li>
-                <li>Middle: a<strong>z</strong>ure, ne<strong>v</strong>er, a<strong>w</strong>ay</li>
-                <li>End: bo<strong>x</strong>, ha<strong>s</strong>, lo<strong>ve</strong></li>
+                <li><strong>Short /a/:</strong> apple, cat, hat, bat</li>
+                <li><strong>Short /e/:</strong> elephant, bed, red, pen</li>
+                <li><strong>Short /i/:</strong> igloo, sit, fin, pig</li>
+                <li><strong>Short /o/:</strong> octopus, hot, pot, log</li>
+                <li><strong>Short /u/:</strong> umbrella, cup, bug, sun</li>
             </ol>
-            <p><strong>Let's sound them out!</strong> We'll practice each sound and find them in our classroom words.</p>
+            <p><strong>Listen Carefully:</strong> Each vowel makes a different mouth shape. Let's practice saying all five sounds together!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bee" style="color: #FFC107;"></i> /z/ Sound</div>
-                <p>"Zoo" starts with /z/. "Buzz" has /z/ at the end. "Noise" has /z/ in the middle. Can you buzz like a bee? Zzzzz!</p>
+                <div class="example-title"><i class="fas fa-ear-listen"></i> Quick-Fire Practice</div>
+                <p>Listen to these words. Raise one finger for /a/, two for /e/, three for /i/, four for /o/, five for /u/: cat, bed, pig, hot, cup, hat, red, fin, log, sun.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box" style="color: #795548;"></i> /x/ Sound</div>
-                <p>"Box" ends with /x/. "Fox" ends with /x/. "Six" ends with /x/. The /x/ sound is like /k/ + /s/ together!</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Mouth Shapes</div>
+                <p>/a/ - mouth open wide. /e/ - mouth medium, lips back. /i/ - mouth small. /o/ - mouth round. /u/ - mouth tiny and round.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-wind" style="color: #03A9F4;"></i> /w/ vs /v/</div>
-                <p>"Wind" starts with /w/ - lips make a circle. "Van" starts with /v/ - teeth touch lip. Try both!</p>
+                <div class="example-title"><i class="fas fa-music"></i> Vowel Song</div>
+                <p>Sing to the tune of "Bingo": A-E-I-O-U, A-E-I-O-U, A-E-I-O-U, And now we know our vowels!</p>
             </div>
         `,
-        taskInstructions: "Practice the final consonant sounds and identify them in different word positions.",
+        taskInstructions: "Practice identifying all short vowel sounds through audio recognition activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound Matching</strong></p>
+                <p><strong>Part A: Vowel Sound Sort</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match the sound to its picture:
+                    <span class="task-number">1</span> Say each word. Write the short vowel sound (a, e, i, o, or u):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>/j/ ☐ zebra ☐ jar ☐ vase</div>
-                        <div>/z/ ☐ yo-yo ☐ zoo ☐ box</div>
-                        <div>/w/ ☐ web ☐ jet ☐ van</div>
-                        <div>/v/ ☐ violin ☐ window ☐ yellow</div>
+                        <div>cat → ___</div>
+                        <div>bed → ___</div>
+                        <div>pig → ___</div>
+                        <div>hot → ___</div>
+                        <div>cup → ___</div>
+                        <div>hat → ___</div>
+                        <div>red → ___</div>
+                        <div>fin → ___</div>
+                        <div>log → ___</div>
+                        <div>sun → ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Beginning Sounds</strong></p>
+                <p><strong>Part B: Circle the Correct Vowel</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write the beginning consonant sound for each picture:
+                    <span class="task-number">2</span> Look at each picture (your teacher will show or describe). Circle the vowel you hear:
+                    <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-top: 10px;">
+                        <div>1. a &nbsp; e &nbsp; i &nbsp; o &nbsp; u</div>
+                        <div>2. a &nbsp; e &nbsp; i &nbsp; o &nbsp; u</div>
+                        <div>3. a &nbsp; e &nbsp; i &nbsp; o &nbsp; u</div>
+                        <div>4. a &nbsp; e &nbsp; i &nbsp; o &nbsp; u</div>
+                        <div>5. a &nbsp; e &nbsp; i &nbsp; o &nbsp; u</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Listen and Write</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Your teacher will say 5 words. Write the vowel you hear in each:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>[Picture of jar] ____ ar</div>
-                        <div>[Picture of yo-yo] ____ o-yo</div>
-                        <div>[Picture of web] ____ eb</div>
-                        <div>[Picture of van] ____ an</div>
+                        <div>1. ___</div>
+                        <div>2. ___</div>
+                        <div>3. ___</div>
+                        <div>4. ___</div>
+                        <div>5. ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: End Sounds</strong></p>
+                <p><strong>Part D: Vowel Race</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Circle the words that end with /z/:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>buzz ☐ bus ☐ has ☐ his</div>
-                        <div>is ☐ it ☐ as ☐ us</div>
-                    </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Circle the words that end with /x/:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>box ☐ fox ☐ six ☐ fix</div>
-                        <div>ax ☐ ox ☐ mix ☐ tax</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Sound Hunt</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Find these sounds in the classroom:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Something with /w/: <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>Something with /j/: <span class="answer-space" style="width: 120px;"></span></div>
-                        <div>Something with /v/: <span class="answer-space" style="width: 120px;"></span></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Sound Art</strong></p>
-                <div class="task-item">
-                    <span class="task-number">6</span> Draw a picture that ends with /x/. Write the word:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">My word: ______________</div>
+                    <span class="task-number">4</span> Your teacher will say a word. Hold up the correct vowel card as fast as you can!
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a 'sound box' at home with items that have different ending consonant sounds.",
+        homework: "Practice saying all 5 short vowel sounds with a family member. Have them say a word, and you identify the vowel sound.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Literacy",
-        topic: "Consonant Sound Review",
-        subtopic: "Putting all consonant sounds together",
+        topic: "Handwriting / Fine Motor",
+        subtopic: "Copying Patterns: Circular Shapes and Curves",
         lessonContent: `
-            <p>Today we celebrate all our consonant sounds! Let's review everything we learned and show what we know.</p>
-            <p><strong>All our consonant sounds:</strong></p>
-            <ul>
-                <li>/s/ /t/ /p/ /n/ /c/ /k/ /h/ /r/</li>
-                <li>/m/ /d/ /g/ /l/ /f/ /b/</li>
-                <li>/j/ /z/ /w/ /v/ /y/ /x/</li>
-            </ul>
-            <p><strong>What we learned about consonants:</strong></p>
+            <p>Today we'll build our handwriting muscles by drawing circular shapes and curves!</p>
+            <p><strong>Key Question:</strong> Why do we practice drawing circles and curves before writing letters?</p>
+            <p><strong>Introduction:</strong> Many letters are made of circles and curves! Practicing these shapes helps our wrists and fingers get ready for writing.</p>
+            <p><strong>Patterns We'll Practice:</strong></p>
             <ol>
-                <li>Consonants can be at the beginning, middle, or end of words</li>
-                <li>Each consonant has its own special sound</li>
-                <li>We need consonants to make words</li>
-                <li>Some consonants make similar sounds but are different</li>
+                <li><strong>Circles:</strong> Round and round - like a rolling ball!</li>
+                <li><strong>Curves:</strong> Bumpy paths - like a caterpillar crawling!</li>
+                <li><strong>Rainbow Arcs:</strong> Up and down - like a rainbow!</li>
+                <li><strong>Spirals:</strong> Round and round getting bigger - like a snail shell!</li>
             </ol>
-            <p><strong>Today's sound celebration activities:</strong></p>
-            <ol>
-                <li>Consonant Sound Bingo - Find sounds in words</li>
-                <li>Sound Sorting Station - Sort words by their consonants</li>
-                <li>Consonant Creation - Make your own consonant words</li>
-                <li>Sound Story Time - Listen for consonants in a story</li>
-            </ol>
-            <p><strong>Remember:</strong> You are now consonant experts! You can hear, say, and find consonant sounds everywhere!</p>
+            <p><strong>Remember:</strong> Use a comfortable grip. Move from your wrist, not your whole arm!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bingo" style="color: #E91E63;"></i> Sound Bingo</div>
-                <p>"Cat" - beginning /c/, middle /a/, end /t/. Let's mark all the sounds we hear!</p>
+                <div class="example-title"><i class="fas fa-pencil-ruler"></i> Letters with Circles</div>
+                <p>Look at letters like a, b, d, g, o, p, q. They all have circles or curves! Practicing circles helps you write these letters neatly.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sort" style="color: #9C27B0;"></i> Sound Sorting</div>
-                <p>Words: "sun, tap, pet, net." Let's sort: /s/ words, /t/ words, /p/ words, /n/ words.</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Wrist Warm-Up</div>
+                <p>Before drawing, try this: Hold your hand out like a stop sign. Slowly make circles with your wrist. This loosens up your writing muscles!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #3F51B5;"></i> Sound Story</div>
-                <p>Listen to the story. Every time you hear /m/, tap your desk. Every time you hear /s/, snap your fingers!</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Tracing Tips</div>
+                <p>Always trace the dotted lines first before drawing on your own. Go slowly and carefully - neatness matters more than speed!</p>
             </div>
         `,
-        taskInstructions: "Show what you know about consonant sounds through these review activities.",
+        taskInstructions: "Draw circular shapes and curves to build wrist flexibility.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Consonant Bingo</strong></p>
+                <p><strong>Part A: Tracing Circles</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Listen to the words. Mark the consonant sounds you hear:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #f5f5f5; border-radius: 5px;">
-                        <table style="width: 100%; border-collapse: collapse;">
-                            <tr>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/s/</td>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/m/</td>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/t/</td>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/p/</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/d/</td>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/f/</td>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/b/</td>
-                                <td style="border: 1px solid #ccc; padding: 5px; text-align: center;">/g/</td>
-                            </tr>
-                        </table>
+                    <span class="task-number">1</span> Trace the circles below. Start at the dot and go around:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <div style="display: flex; justify-content: space-around; padding-top: 30px;">
+                            <div style="width: 60px; height: 60px; border: 2px dotted #999; border-radius: 50%;"></div>
+                            <div style="width: 60px; height: 60px; border: 2px dotted #999; border-radius: 50%;"></div>
+                            <div style="width: 60px; height: 60px; border: 2px dotted #999; border-radius: 50%;"></div>
+                            <div style="width: 60px; height: 60px; border: 2px dotted #999; border-radius: 50%;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sound Sorting</strong></p>
+                <p><strong>Part B: Tracing Curves</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Sort these words by their beginning sound:
+                    <span class="task-number">2</span> Trace the wavy lines and curves:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <div style="padding-top: 20px;">
+                            <div style="height: 20px; border-bottom: 2px dotted #999;"></div>
+                            <div style="height: 20px; margin-top: 10px; border-bottom: 2px dotted #999;"></div>
+                            <div style="height: 20px; margin-top: 10px; border-bottom: 2px dotted #999;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Copy the Pattern</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Look at each pattern. Copy it in the empty box next to it:
+                    <div style="margin-top: 10px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <div style="width: 80px; height: 50px; border: 1px solid #ccc; margin-right: 10px;"></div>
+                            <div>→</div>
+                            <div style="width: 80px; height: 50px; border: 1px solid #ccc; margin-left: 10px;"></div>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                            <div style="width: 80px; height: 50px; border: 1px solid #ccc; margin-right: 10px;"></div>
+                            <div>→</div>
+                            <div style="width: 80px; height: 50px; border: 1px solid #ccc; margin-left: 10px;"></div>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <div style="width: 80px; height: 50px; border: 1px solid #ccc; margin-right: 10px;"></div>
+                            <div>→</div>
+                            <div style="width: 80px; height: 50px; border: 1px solid #ccc; margin-left: 10px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw Your Own</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> On your own paper (or below), draw:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Words:</strong> sun, mom, top, dog, fan, box, yes, van</div>
-                        <div>/s/: _______________</div>
-                        <div>/m/: _______________</div>
-                        <div>/t/: _______________</div>
-                        <div>/d/: _______________</div>
-                        <div>/f/: _______________</div>
-                        <div>/b/: _______________</div>
-                        <div>/y/: _______________</div>
-                        <div>/v/: _______________</div>
+                        <div>• 5 big circles</div>
+                        <div>• 5 small circles</div>
+                        <div>• 3 wavy lines</div>
+                        <div>• A spiral starting small and getting bigger</div>
                     </div>
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Position Detective</strong></p>
+                <p><strong>Part E: Letter Connection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Find where the consonant sound is in each word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>"ham" - /m/ is at the: ☐ beginning ☐ middle ☐ end</div>
-                        <div>"ladder" - /d/ is at the: ☐ beginning ☐ middle ☐ end</div>
-                        <div>"fix" - /x/ is at the: ☐ beginning ☐ middle ☐ end</div>
-                        <div>"jump" - /j/ is at the: ☐ beginning ☐ middle ☐ end</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Create Your Own</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Create three words with different consonant sounds:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Word with /l/: ________________________</div>
-                        <div>Word with /r/: ________________________</div>
-                        <div>Word with /z/: ________________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Consonant Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a consonant expert. Write your three favorite consonant sounds:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">My favorite consonant sounds are: ____________, ____________, ____________</div>
+                    <span class="task-number">5</span> Which letters have circles or curves? Name or write them:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Make consonant sound flashcards for 5 different consonants. Draw a picture on one side, write the letter on the other.",
-        homeworkDue: "Monday"
+        homework: "Practice drawing 10 circles and 10 wavy lines on a piece of paper. Show a family member how your circles are getting rounder and smoother!",
+        homeworkDue: "Friday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade1LiteracyWeek3);
-    console.log("literacy-week3.js registered using registerWorksheet()");
+    console.log("grade1-literacy-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade1LiteracyWeek3);
-    console.log("literacy-week3.js registered using DataLoader.registerWorksheet()");
+    console.log("grade1-literacy-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -445,9 +412,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade1LiteracyWeek3.metadata,
         days: grade1LiteracyWeek3
     });
-    console.log("literacy-week3.js stored in window.registeredWorksheets");
+    console.log("grade1-literacy-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade1LiteracyWeek3 = grade1LiteracyWeek3;
-console.log("literacy-week3.js loaded and registered successfully");
+console.log("grade1-literacy-week3.js loaded and registered successfully");
