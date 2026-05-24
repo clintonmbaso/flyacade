@@ -1,285 +1,292 @@
-// Grade 3 Literacy - Week 5 Data (Alternative Consonant Spellings Review)
+// Grade 3 Literacy - Term 1 Week 5 Data
 const grade3LiteracyWeek5 = {
     metadata: {
         grade: 3,
         subject: "Literacy",
+        term: 1,
         week: 5,
-        title: "Mixing /j/, /zh/, and /w/ — Review & Consolidation",
-        description: "Reviewing alternative consonant spellings 'dge', 's', and 'u' through reading, writing, and assessment"
+        title: "Alternative Digraph Spelling Choices",
+        description: "Exploring alternative spellings for digraph sounds: sh = ti, ci, ch (as in chef, station, machine)"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "Mixing /j/, /zh/, and /w/",
-        subtopic: "Differentiating between three alternative consonant spellings",
+        topic: "Phonics",
+        subtopic: "Introduction to Alternative Digraph Spellings: sh = ti, ch",
         lessonContent: `
-            <p>Welcome to Week 5 of Literacy! This week, we will review and practice the three alternative consonant spellings we have learned.</p>
-            <p><strong>Key Concept:</strong> Some consonant sounds can be spelled in different ways. Today we focus on /j/, /zh/, and /w/.</p>
-            <p><strong>Review of Spelling Rules:</strong></p>
+            <p>Welcome to our phonics lesson! Today we'll discover that some sounds can be spelled in different ways.</p>
+            <p><strong>Key Question:</strong> Can the same sound be written with different letters?</p>
+            <p><strong>Introduction:</strong> You already know that "sh" makes the sound /sh/ like in "ship" and "fish". But did you know that /sh/ can also be spelled with other letter patterns?</p>
+            <p><strong>Today's Alternative Spellings for /sh/:</strong></p>
+            <ol>
+                <li><strong>"ti"</strong> making the /sh/ sound (like in station, action, nation)</li>
+                <li><strong>"ch"</strong> making the /sh/ sound (like in chef, machine, parachute)</li>
+            </ol>
+            <p><strong>Important Note:</strong> These are alternative spellings - they don't always make the /sh/ sound, but when they do, we need to recognize them!</p>
+            <p><strong>Examples:</strong></p>
             <ul>
-                <li><strong>/j/ spelled 'dge':</strong> Used after short vowel sounds (e.g., bridge, fridge, badge)</li>
-                <li><strong>/zh/ spelled 's':</strong> Used in words like treasure, measure, pleasure</li>
-                <li><strong>/w/ spelled 'u':</strong> Used after 'g' or 'q' (e.g., penguin, queen, language)</li>
+                <li>station → sta /ti/ on (the "ti" sounds like "sh")</li>
+                <li>chef → ch /ef/ (the "ch" sounds like "sh")</li>
             </ul>
-            <p><strong>Why it matters:</strong> Knowing different spellings helps us read and write more confidently!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-font" style="color: #2196F3;"></i> /j/ Sound Example</div>
-                <p>"bridge" - The /j/ sound is spelled with 'dge' because it comes after a short vowel.</p>
+                <div class="example-title"><i class="fas fa-train"></i> Station Words</div>
+                <p>Words ending with "tion" like nation, lotion, motion - the "ti" makes the /sh/ sound!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gem" style="color: #FF9800;"></i> /zh/ Sound Example</div>
-                <p>"treasure" - The /zh/ sound is spelled with 's' in the middle of the word.</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Chef Words</div>
+                <p>Words like chef, chic, machine - the "ch" makes the /sh/ sound. These often come from French!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-feather-alt" style="color: #4CAF50;"></i> /w/ Sound Example</div>
-                <p>"penguin" - The /w/ sound is spelled with 'u' after the letter 'g'.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sound Sort Game!</div>
-                <p>We'll play "Sound Sort" on the board with three columns: /j/, /zh/, and /w/. Listen carefully to each word and point to the correct column!</p>
+                <div class="example-title"><i class="fas fa-lightbulb"></i> Tricky Alert!</div>
+                <p>Not every "ch" says /sh/. Sometimes "ch" says /ch/ like in "chair" or /k/ like in "school". We learn them as we read!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice differentiating between /j/, /zh/, and /w/ spellings.",
+        taskInstructions: "Identify and practice words where 'ti' and 'ch' make the /sh/ sound.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Listen to your teacher. Point to the correct column for each word:
-                <div style="margin-left: 20px; margin-top: 10px; display: flex; gap: 30px;">
-                    <div style="border: 2px solid #2196F3; padding: 10px; border-radius: 5px; text-align: center;">
-                        <strong>/j/</strong><br>(dge)
+            <div class="content-box">
+                <p><strong>Part A: Listen and Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Circle the words where "ti" or "ch" makes the /sh/ sound:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>station &nbsp;&nbsp; chicken &nbsp;&nbsp; chef &nbsp;&nbsp; action &nbsp;&nbsp; chair</div>
+                        <div>nation &nbsp;&nbsp; machine &nbsp;&nbsp; fish &nbsp;&nbsp; lotion &nbsp;&nbsp; parachute</div>
                     </div>
-                    <div style="border: 2px solid #FF9800; padding: 10px; border-radius: 5px; text-align: center;">
-                        <strong>/zh/</strong><br>(s)
-                    </div>
-                    <div style="border: 2px solid #4CAF50; padding: 10px; border-radius: 5px; text-align: center;">
-                        <strong>/w/</strong><br>(u)
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Word Sorting</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Sort these words into the correct columns:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Words: station, chef, action, machine, nation, parachute, lotion</div>
+                        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">"ti" says /sh/</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">"ch" says /sh/</th>
+                             </tr>
+                             <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 120px; vertical-align: top;"> </td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 120px; vertical-align: top;"> </td>
+                             </tr>
+                         </table>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Mixed Spelling Worksheet: Fill in the missing letters:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>bri<span class="answer-space" style="width: 40px;"></span>e (bridge)</div>
-                    <div>trea<span class="answer-space" style="width: 40px;"></span>ure (treasure)</div>
-                    <div>pen<span class="answer-space" style="width: 40px;"></span>uin (penguin)</div>
-                    <div>fri<span class="answer-space" style="width: 40px;"></span>e (fridge)</div>
-                    <div>mea<span class="answer-space" style="width: 40px;"></span>ure (measure)</div>
-                    <div><span class="answer-space" style="width: 40px;"></span>ueen (queen)</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Sort the words into the correct sound group:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Words: bridge, measure, penguin, treasure, fridge, queen</div>
-                    <div style="margin-top: 10px;">
-                        <strong>/j/ (dge):</strong> <span class="answer-space" style="width: 200px;"></span><br>
-                        <strong>/zh/ (s):</strong> <span class="answer-space" style="width: 200px;"></span><br>
-                        <strong>/w/ (u):</strong> <span class="answer-space" style="width: 200px;"></span>
+            
+            <div class="content-box">
+                <p><strong>Part C: Write and Draw</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Choose two words from above. Write each word and draw a picture:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Word 1: _________ &nbsp;&nbsp;&nbsp; Drawing:</div>
+                        <div class="drawing-area" style="height: 60px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div style="margin-top: 10px;">Word 2: _________ &nbsp;&nbsp;&nbsp; Drawing:</div>
+                        <div class="drawing-area" style="height: 60px; margin-top: 5px; border: 2px dashed #ccc;"></div>
                     </div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Create your own word for each sound:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>/j/ word: <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>/zh/ word: <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>/w/ word: <span class="answer-space" style="width: 150px;"></span></div>
                 </div>
             </div>
         `,
-        homework: "Find three words at home that contain the /j/, /zh/, or /w/ sounds. Write them down and circle the special spelling.",
+        homework: "Find 3 words at home or in a book where 'ti' makes the /sh/ sound (like in station). Write them in your notebook.",
         homeworkDue: "Wednesday"
     },
     
-    wednesday: {
+    tuesday: {
         subject: "Literacy",
-        topic: "Fluency Reading",
-        subtopic: "Reading a short story containing all three alternative spellings",
+        topic: "Phonics",
+        subtopic: "Sounding Out and Practicing Alternative Digraph Spellings",
         lessonContent: `
-            <p>Today we will practice reading with fluency! We'll read a story that includes all the special spellings we've learned.</p>
-            <p><strong>Key Concept:</strong> Good readers read smoothly, with expression, and pay attention to special sounds and spellings.</p>
-            <p><strong>Reading Tips:</strong></p>
+            <p>Today we'll practice sounding out words with alternative /sh/ spellings - "ti" and "ch"!</p>
+            <p><strong>Key Question:</strong> How do we sound out words when the letters make an unexpected sound?</p>
+            <p><strong>Review:</strong> Remember that "ti" can say /sh/ (like in station) and "ch" can say /sh/ (like in chef).</p>
+            <p><strong>Sounding Out Strategy:</strong></p>
+            <ol>
+                <li>Look at the whole word</li>
+                <li>Try the regular sound first</li>
+                <li>If that doesn't make a real word, try the alternative sound</li>
+                <li>Check if the word makes sense in the sentence</li>
+            </ol>
+            <p><strong>Practice Words to Sound Out:</strong></p>
             <ul>
-                <li>Look for clues: 'dge', 's' in the middle, and 'u' after 'g' or 'q'</li>
-                <li>Read at a steady pace—not too fast, not too slow</li>
-                <li>Use expression to make the story interesting</li>
+                <li>action (ac /ti/ on) - the "ti" says /sh/</li>
+                <li>machine (ma /ch/ ine) - the "ch" says /sh/</li>
+                <li>nation (na /ti/ on) - the "ti" says /sh/</li>
+                <li>parachute (para /ch/ ute) - the "ch" says /sh/</li>
             </ul>
-            <p><strong>Today's Story:</strong> "The Penguin's Treasure Adventure"</p>
-            <p><strong>Why fluency matters:</strong> Fluent reading helps us understand and enjoy stories better!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #9C27B0;"></i> Story Preview</div>
-                <p><em>"The penguin found a treasure map. He crossed the bridge to measure the distance to the gold."</em></p>
-                <p>Look for: penguin (w), treasure (zh), bridge (j), measure (zh).</p>
+                <div class="example-title"><i class="fas fa-volume-up"></i> Sound It Out!</div>
+                <p>"Lotion" - Say "lo" then "shun" (ti says sh). Put together: lo-shun → lotion!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: #FF5722;"></i> Choral Reading</div>
-                <p>We'll read together as a class, following the teacher's pace and expression.</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Clue: French Origin</div>
+                <p>Many English words with "ch" saying /sh/ came from French! (chef, machine, chic, parachute)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Paired Reading Game!</div>
-                <p>With a partner, take turns reading sentences. Give each other a "fluency star" for smooth reading!</p>
+                <div class="example-title"><i class="fas fa-robot"></i> Robot Talk</div>
+                <p>Say each sound slowly like a robot: n-a-ti-o-n → then faster: nation. Practice makes perfect!</p>
             </div>
         `,
-        taskInstructions: "Practice reading the story with fluency and expression.",
+        taskInstructions: "Practice sounding out and writing words with alternative /sh/ spellings.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: The Penguin's Treasure Adventure</strong></p>
-                <div class="task-item" style="padding: 15px; background-color: #F3E5F5; border-radius: 5px;">
-                    <p><strong>Read the story below:</strong></p>
-                    <p>The penguin found a treasure map under the old bridge. He needed to measure how far to walk. He saw a queen near the fridge. She had gold! The penguin was quick. He took the treasure and felt great pleasure.</p>
-                    <p><em>Words to watch: penguin, treasure, bridge, measure, queen, fridge, pleasure</em></p>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Choral Reading Practice</strong></p>
+                <p><strong>Part A: Sound It Out!</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Listen and repeat after your teacher. Circle the words with special spellings as you read:
+                    <span class="task-number">1</span> Sound out each word slowly, then write the whole word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Line 1: The <u>penguin</u> found a <u>treasure</u> map under the old <u>bridge</u>.</div>
-                        <div>Line 2: He needed to <u>measure</u> how far to walk.</div>
-                        <div>Line 3: He saw a <u>queen</u> near the <u>fridge</u>.</div>
-                        <div>Line 4: The penguin was quick. He took the treasure and felt great <u>pleasure</u>.</div>
+                        <div>a-c-ti-o-n → _________ (action)</div>
+                        <div>n-a-ti-o-n → _________</div>
+                        <div>l-o-ti-o-n → _________</div>
+                        <div>m-a-ch-i-n-e → _________</div>
+                        <div>p-a-r-a-ch-u-t-e → _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Paired Reading</strong></p>
+                <p><strong>Part B: Fill in the Blank</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> With a partner, take turns reading the story. Rate each other's fluency:
+                    <span class="task-number">2</span> Complete each word with "ti" or "ch" to make the /sh/ sound:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Read smoothly</div>
-                        <div>☐ Used expression</div>
-                        <div>☐ Read special spellings correctly</div>
-                        <div>☐ Kept a steady pace</div>
+                        <div>1. sta ___ on &nbsp;&nbsp;&nbsp; (station)</div>
+                        <div>2. ___ ef &nbsp;&nbsp;&nbsp; (chef)</div>
+                        <div>3. ac ___ on &nbsp;&nbsp;&nbsp; (action)</div>
+                        <div>4. ma ___ ine &nbsp;&nbsp;&nbsp; (machine)</div>
+                        <div>5. na ___ on &nbsp;&nbsp;&nbsp; (nation)</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Comprehension Check</strong></p>
+                <p><strong>Part C: Partner Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Answer the questions about the story:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. What did the penguin find? <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>2. Who did he see near the fridge? <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>3. How did the penguin feel at the end? <span class="answer-space" style="width: 200px;"></span></div>
+                    <span class="task-number">3</span> With a partner, take turns reading these sentences aloud:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f5f5f5; padding: 10px;">
+                        <div>• The chef works at the train station.</div>
+                        <div>• The action movie had a parachute scene.</div>
+                        <div>• Our nation has a new machine factory.</div>
                     </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Which word was the trickiest to sound out? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Read the story aloud to someone at home. Ask them to give you one fluency compliment.",
+        homework: "Practice reading the three sentences from class to a family member. Ask them to sign your notebook.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Assessment and Dictation",
-        subtopic: "Demonstrating mastery of alternative consonant spellings through writing",
+        topic: "Phonics",
+        subtopic: "Blending Words with Alternative Digraph Spelling Choices",
         lessonContent: `
-            <p>Today is our assessment day! You will show what you've learned about alternative consonant spellings.</p>
-            <p><strong>Key Concept:</strong> Good spellers remember rules and practice writing words correctly.</p>
-            <p><strong>Final Review:</strong></p>
+            <p>Today we'll put it all together - blending words with alternative /sh/ spellings like position, station, chef, and machine!</p>
+            <p><strong>Key Question:</strong> Can you read and blend words with alternative digraph spellings fluently?</p>
+            <p><strong>Blending Strategy Review:</strong></p>
+            <ol>
+                <li>Look at each letter or letter group (chunk it!)</li>
+                <li>Say the sounds for each chunk</li>
+                <li>Blend the chunks together smoothly</li>
+                <li>Say the whole word</li>
+            </ol>
+            <p><strong>Words We Can Now Read:</strong></p>
             <ul>
-                <li>'dge' after short vowels (bridge, fridge)</li>
-                <li>'s' for /zh/ in treasure, measure, pleasure</li>
-                <li>'u' for /w/ after 'g' or 'q' (penguin, queen, language)</li>
+                <li>position (po-si-ti-on) - careful: the "ti" says /sh/!</li>
+                <li>station (sta-ti-on)</li>
+                <li>chef (ch-e-f) - "ch" says /sh/</li>
+                <li>machine (ma-ch-ine) - "ch" says /sh/</li>
+                <li>action (ac-ti-on)</li>
+                <li>nation (na-ti-on)</li>
+                <li>parachute (pa-ra-ch-ute)</li>
             </ul>
-            <p><strong>Assessment Tips:</strong></p>
+            <p><strong>Challenge Words:</strong></p>
             <ul>
-                <li>Listen carefully during dictation</li>
-                <li>Remember the spelling rules</li>
-                <li>Check your work before finishing</li>
+                <li>attention (at-ten-ti-on)</li>
+                <li>direction (di-rec-ti-on)</li>
+                <li>chute (ch-ute) - like in "parachute"</li>
             </ul>
-            <p><strong>You're ready!</strong> You've practiced all week. Now let's show what you know!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt" style="color: #009688;"></i> Dictation Example</div>
-                <p>"The bridge is high." → Listen for /j/ spelled 'dge' after the short vowel.</p>
+                <div class="example-title"><i class="fas fa-chalkboard-teacher"></i> Class Practice</div>
+                <p>Let's blend together: p-o-s-i-ti-o-n → po-si-tion → position! Notice how "ti" blends as /sh/.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-search" style="color: #3F51B5;"></i> Word Search Fun</div>
-                <p>Find hidden words like bridge, treasure, and penguin in a letter grid!</p>
+                <div class="example-title"><i class="fas fa-bicycle"></i> Keep Practicing</div>
+                <p>Reading is like riding a bike - the more you practice, the easier it gets! Try reading "attention" - have you seen this word before?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-award" style="color: #FFC107;"></i> Mastery Certificate</div>
-                <p>Everyone who completes the assessment will earn a "Spelling Specialist" certificate!</p>
+                <div class="example-title"><i class="fas fa-smile"></i> You're a Reader!</div>
+                <p>Now you can read longer words like "position" and "machine". That's amazing progress!</p>
             </div>
         `,
-        taskInstructions: "Complete the dictation and word search to show your spelling mastery.",
+        taskInstructions: "Blend and read words with alternative digraph spellings, then use them in sentences.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Formal Dictation</strong></p>
+                <p><strong>Part A: Blend and Write</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Listen to your teacher and write the sentences:
+                    <span class="task-number">1</span> Blend the sounds together, then write the whole word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. <span class="answer-space" style="width: 300px; height: 25px;"></span></div>
-                        <div>2. <span class="answer-space" style="width: 300px; height: 25px;"></span></div>
-                        <div>3. <span class="answer-space" style="width: 300px; height: 25px;"></span></div>
+                        <div>p-o-s-i-ti-o-n → _________</div>
+                        <div>s-t-a-ti-o-n → _________</div>
+                        <div>m-a-ch-i-n-e → _________</div>
+                        <div>p-a-r-a-ch-u-t-e → _________</div>
+                        <div>a-t-t-e-n-ti-o-n → _________</div>
                     </div>
-                    <div style="margin-left: 20px; margin-top: 10px; font-style: italic;">
-                        (Teacher will read: "The bridge is high.", "I measure the treasure.", "The penguin is quick.")
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Reading</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each sentence. Circle the words with "ti" or "ch" that say /sh/:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• The chef waited at the train station.</div>
+                        <div>• The machine needed a new position.</div>
+                        <div>• Pay attention to the direction of the parachute!</div>
+                        <div>• Our nation took action to help others.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Spelling Rule Check</strong></p>
+                <p><strong>Part C: Write Your Own Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Fill in the rule for each spelling:
+                    <span class="task-number">3</span> Write a sentence using each word below:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>'dge' is used after: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>'s' makes the /zh/ sound in words like: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>'u' makes the /w/ sound after these letters: <span class="answer-space" style="width: 150px;"></span></div>
+                        <div>station: _________________________________________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;">chef: _____________________________________________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;">machine: __________________________________________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Word Search Puzzle</strong></p>
+                <p><strong>Part D: Word Hunt Challenge</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Find and circle 6 words in the grid:
-                    <div style="margin-left: 20px; margin-top: 10px; font-family: monospace; line-height: 1.8;">
-                        <div>b r i d g e t r</div>
-                        <div>f r i d g e x s</div>
-                        <div>p e n g u i n u</div>
-                        <div>q u e e n m e a</div>
-                        <div>t r e a s u r e</div>
-                        <div>m e a s u r e p</div>
-                    </div>
+                    <span class="task-number">4</span> How many words can you find with "ti" saying /sh/? Write them below:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Words to find: bridge, fridge, penguin, queen, treasure, measure</div>
+                        <div class="answer-space" style="height: 80px;"></div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Write one sentence using two of our special spelling words:
-                    <div class="answer-space" style="height: 60px; width: 100%; margin-top: 10px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Self-Reflection</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Color the star to show how you feel about alternative spellings now:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>⭐ I need more practice</div>
-                        <div>⭐⭐ I understand some</div>
-                        <div>⭐⭐⭐ I understand well</div>
-                        <div>⭐⭐⭐⭐ I'm a spelling expert!</div>
-                    </div>
+                    <span class="task-number">5</span> Bonus: Can you think of another word with "ch" saying /sh/ (not chef, machine, or parachute)?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Share your assessment work with your family. Teach them one spelling rule you learned this week.",
+        homework: "Write 5 sentences using: station, chef, machine, action, parachute. Read them to someone at home.",
         homeworkDue: "Monday"
     }
 };
@@ -287,10 +294,10 @@ const grade3LiteracyWeek5 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3LiteracyWeek5);
-    console.log("literacy-week5-review.js registered using registerWorksheet()");
+    console.log("grade3-literacy-week5.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3LiteracyWeek5);
-    console.log("literacy-week5-review.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-literacy-week5.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -301,9 +308,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3LiteracyWeek5.metadata,
         days: grade3LiteracyWeek5
     });
-    console.log("literacy-week5-review.js stored in window.registeredWorksheets");
+    console.log("grade3-literacy-week5.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3LiteracyWeek5 = grade3LiteracyWeek5;
-console.log("literacy-week5-review.js loaded and registered successfully");
+console.log("grade3-literacy-week5.js loaded and registered successfully");

@@ -1,281 +1,308 @@
-// Grade 3 Literacy - Week 3 Data (The /zh/ Sound Spelled as 's')
+// Grade 3 Literacy - Term 1 Week 3 Data
 const grade3LiteracyWeek3 = {
     metadata: {
         grade: 3,
         subject: "Literacy",
+        term: 1,
         week: 3,
-        title: "The Buzzing 's' — Learning the /zh/ Sound",
-        description: "Learning that 's' can make a soft /zh/ sound in words like 'treasure'"
+        title: "Alternative Spelling Choices",
+        description: "Reading full sentences with alternative consonant spellings and introducing alternative vowel spellings"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "The Buzzing 's'",
-        subtopic: "Identifying the 's' spelling for the soft /zh/ sound",
+        topic: "Phonics",
+        subtopic: "Alternative Consonant Spellings",
         lessonContent: `
-            <p>Welcome to our Literacy lesson! Today we will learn about a special sound the letter 's' can make.</p>
-            <p><strong>Key Concept:</strong> Sometimes the letter 's' doesn't say /s/ or /z/, but makes a soft buzzing sound like /zh/.</p>
-            <p><strong>The Treasure Sound:</strong> The word "treasure" has this special sound in the middle: trea<span style="color: #FF5722; font-weight: bold;">s</span>ure.</p>
-            <p><strong>Why does 's' make this sound?</strong> In some special words, 's' gets help from the letters around it to make a vibrating, buzzing sound.</p>
-            <p><strong>Listening for the sound:</strong> Say "treasure" slowly. Feel how your voice vibrates on the 's'? That's the /zh/ sound!</p>
-            <p><strong>Important:</strong> This is not the common sound for 's'. It's a special sound in special words.</p>
+            <p>Welcome to our literacy lesson! Today we'll practice reading full sentences that contain words with alternative consonant spelling choices.</p>
+            <p><strong>Key Question:</strong> Can you spot the different ways to spell the same sound?</p>
+            <p><strong>Introduction:</strong> Sometimes, the same sound can be spelled in different ways. For example, the sound /zh/ (like in "treasure") can be spelled with 's' (treasure, measure, pleasure). Today we'll read sentences that use these special spellings!</p>
+            <p><strong>Alternative Consonant Spelling Patterns:</strong></p>
+            <ul>
+                <li><strong>/zh/ sound:</strong> 's' as in treasure, measure, pleasure, vision</li>
+                <li><strong>/j/ sound:</strong> 'g' as in giant, gem, magic, gentle</li>
+                <li><strong>/s/ sound:</strong> 'c' as in circle, city, cement, century</li>
+                <li><strong>/f/ sound:</strong> 'ph' as in phone, photo, elephant, graph</li>
+            </ul>
+            <p><strong>Example Sentence:</strong> "There is <strong>treasure</strong> under the bridge."</p>
+            <p>In this sentence, the word "treasure" has the /zh/ sound spelled with the letter 's'!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gem" style="color: #FFC107;"></i> Primary Example</div>
-                <p><strong>"treasure"</strong> - The 's' in the middle makes the /zh/ sound.</p>
+                <div class="example-title"><i class="fas fa-microphone-alt"></i> Listen and Say</div>
+                <p>Say these words aloud: treasure, measure, pleasure. Can you hear the /zh/ sound? It sounds like the middle sound in "usual"!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler-combined" style="color: #4CAF50;"></i> Similar Words</div>
-                <p><strong>"measure"</strong> - We measure things with a ruler.</p>
-                <p><strong>"pleasure"</strong> - Something that makes us happy.</p>
-                <p><strong>"leisure"</strong> - Time for fun and relaxation.</p>
+                <div class="example-title"><i class="fas fa-search"></i> Word Detective</div>
+                <p>In "The giant ate a giant gem," the word "giant" uses 'g' to make the /j/ sound. Not all 'g' words do this (like "goat" or "green")!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Buzzing Bee Game!</div>
-                <p>Let's play "Buzzing Bee"! When I say a word with the /zh/ sound, buzz like a bee! When I say a word with regular /s/, stay quiet!</p>
+                <div class="example-title"><i class="fas fa-camera"></i> Photo Fun</div>
+                <p>In "Take a photo with a phone," the 'ph' makes the /f/ sound. Phil the elephant loves phonics!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying the /zh/ sound in words.",
+        taskInstructions: "Read the sentences aloud and identify words with alternative consonant spellings.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Brainstorm words that sound like "treasure":
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>2. <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>3. <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>4. <span class="answer-space" style="width: 150px;"></span></div>
+            <div class="content-box">
+                <p><strong>Part A: Read and Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Read each sentence aloud. Circle the words with alternative consonant spellings:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. There is <u>treasure</u> under the bridge.</div>
+                        <div>b. The <u>giant</u> visited the <u>magic</u> city.</div>
+                        <div>c. My <u>phone</u> has a picture of an <u>elephant</u>.</div>
+                        <div>d. Reading brings me great <u>pleasure</u>.</div>
+                        <div>e. The <u>gentle</u> <u>giraffe</u> lives in the <u>circle</u> zoo.</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Copy this list of /zh/ words and highlight or circle the letter 's' in each one:
-                <div style="margin-left: 20px; margin-top: 10px; font-size: 18px;">
-                    <div>treasure → <span style="background-color: yellow;">t r e a s u r e</span></div>
-                    <div>measure → <span class="answer-space" style="width: 150px; display: inline-block;"></span></div>
-                    <div>pleasure → <span class="answer-space" style="width: 150px; display: inline-block;"></span></div>
-                    <div>leisure → <span class="answer-space" style="width: 150px; display: inline-block;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Reading Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read these sentences to a partner. Write the special spelling words you find:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• "Can you measure the treasure in the giant chest?"</div>
+                        <div>• "The elephant used a phone to call his friend."</div>
+                        <div>• "What a pleasant surprise to see the city lights!"</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Which words have the /zh/ sound? Circle them:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ treasure ☐ sand ☐ measure ☐ sun ☐ pleasure ☐ sit</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Write Your Own</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write two sentences using words with alternative consonant spellings:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw a treasure chest and write the word "treasure" underneath:
-                <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                <div style="text-align: center; margin-top: 5px; font-size: 18px;">
-                    <span class="answer-space" style="width: 100px; border-bottom: 1px solid #000;"></span>
+            
+            <div class="content-box">
+                <p><strong>Part D: Fluency Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Read this paragraph three times. Count how many words with alternative spellings you find:
+                    <div style="background: #f0f8ff; padding: 10px; margin-top: 10px; border-radius: 8px;">
+                        "The giant elephant found a magic gem in the city. He used his phone to take a photo of the treasure. What a pleasant day for a gentle giant!"
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three more words that might have the /zh/ sound. Ask a family member to help you say them aloud.",
+        homework: "Find 5 words at home (in books, on labels, or around the house) that have alternative consonant spellings. Write them in a list and read them to a family member.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Literacy",
-        topic: "Blending /zh/ Words",
-        subtopic: "Blending and reading multisyllabic words with the 's' alternative spelling",
+        topic: "Phonics",
+        subtopic: "Introduction to Vowels: The /u/ = o Sound",
         lessonContent: `
-            <p>Today we will learn how to blend longer words that have the special /zh/ sound.</p>
-            <p><strong>Key Concept:</strong> Breaking words into syllables helps us read longer words with the /zh/ sound.</p>
-            <p><strong>Syllable Breakdown:</strong> Let's break our /zh/ words into parts:</p>
+            <p>Today we're learning about alternative vowel spelling choices! We'll focus on the short /u/ sound that can be spelled with the letter 'o'.</p>
+            <p><strong>Key Question:</strong> Can the letter 'o' make the /u/ sound like in "glove"?</p>
+            <p><strong>Introduction:</strong> You already know that the letter 'u' makes the /u/ sound (like in "up" or "cup"). But did you know that sometimes the letter 'o' can also make the /u/ sound? Let's explore this pattern!</p>
+            <p><strong>The /u/ = o Sound Pattern:</strong></p>
             <ul>
-                <li><strong>trea•sure</strong> - Two syllables: trea and sure</li>
-                <li><strong>mea•sure</strong> - Two syllables: mea and sure</li>
-                <li><strong>plea•sure</strong> - Two syllables: plea and sure</li>
-                <li><strong>lei•sure</strong> - Two syllables: lei and sure</li>
+                <li>The letter 'o' can make the short /u/ sound in some words</li>
+                <li>This happens most often when 'o' comes before 'v', 'n', or 'th'</li>
+                <li>Examples: <strong>glove, love, dove, above, son, month, monkey, mother, brother, nothing</strong></li>
             </ul>
-            <p><strong>Where is the /zh/ sound?</strong> The /zh/ sound is always in the second syllable when 's' makes this special sound!</p>
-            <p><strong>Blending Strategy:</strong> Read the first syllable, then read the second syllable with the buzzing /zh/ sound!</p>
-            <p><strong>Remember:</strong> The 's' in these words is soft and vibrating, not sharp like /s/ or buzzing like /z/.</p>
+            <p><strong>Compare the Sounds:</strong></p>
+            <ul>
+                <li>'o' as /o/ sound: hot, pot, dot, hop</li>
+                <li>'o' as /u/ sound: glove, love, son, monkey</li>
+            </ul>
+            <p><strong>Example Words to Practice:</strong> glove, love, dove, above, son, month, monkey, mother, brother, nothing, wonder, honey</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-clapping" style="color: #FF9800;"></i> Clapping Syllables</div>
-                <p>"trea•sure" - Clap twice: one clap for "trea," one clap for "sure" with the /zh/ sound!</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Glove Example</div>
+                <p>Say the word "glove" slowly: g-l-o-v-e. The 'o' sounds like /u/ (like in "up"), not /o/ (like in "hot")!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-microphone-alt" style="color: #9C27B0;"></i> Sound Emphasis</div>
-                <p>Say "mea-SURE" with extra emphasis on the /zh/ sound in the second syllable!</p>
+                <div class="example-title"><i class="fas fa-family"></i> Family Words</div>
+                <p>Mother, brother, and son all have the letter 'o' making the /u/ sound. Try saying them: "My mother loves my brother and son."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Clap the Syllables Game!</div>
-                <p>Let's play "Clap the Syllables"! I'll say a word, and you clap for each syllable. If it has /zh/, buzz on the second clap!</p>
+                <div class="example-title"><i class="fas fa-calendar"></i> Month of Fun</div>
+                <p>"One month of nothing but honey!" The words month, nothing, and honey all use 'o' for the /u/ sound.</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice blending /zh/ words.",
+        taskInstructions: "Identify and read words where 'o' makes the /u/ sound.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Syllable Breakdown</strong></p>
+                <p><strong>Part A: Sort the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Break these words into syllables with dots (•):
+                    <span class="task-number">1</span> Sort these words into two groups: 'o' as /o/ (hot sound) OR 'o' as /u/ (glove sound):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>treasure → <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>measure → <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>pleasure → <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>leisure → <span class="answer-space" style="width: 100px;"></span></div>
+                        <div><strong>Word Bank:</strong> hot, love, pot, son, dot, glove, hop, monkey, top, mother</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Clap and Count</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Clap each word and write how many syllables:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>treasure → <span class="answer-space" style="width: 50px;"></span> syllables</div>
-                        <div>measure → <span class="answer-space" style="width: 50px;"></span> syllables</div>
-                        <div>pleasure → <span class="answer-space" style="width: 50px;"></span> syllables</div>
-                        <div>television → <span class="answer-space" style="width: 50px;"></span> syllables</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Partner Reading</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> With a partner, take turns reading these words. Check for the correct "vibrating" sound:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                        <div>1. treasure</div>
-                        <div>2. measure</div>
-                        <div>3. pleasure</div>
-                        <div>4. leisure</div>
-                        <div>5. usual</div>
-                        <div>6. vision</div>
-                    </div>
-                    <div style="margin-top: 10px;">
-                        <div>Partner's name: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>They read with good /zh/ sound: ☐ Yes ☐ Needs practice</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Syllable Sort</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Write these words in the correct column:
-                    <div style="margin-left: 20px; margin-top: 10px; display: flex;">
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="font-weight: bold;">2 Syllables</div>
-                            <div class="answer-space" style="height: 80px;"></div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/o/ sound (like hot):</strong>
+                            <div class="answer-space" style="height: 100px; margin-top: 5px;"></div>
                         </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="font-weight: bold;">3 Syllables</div>
-                            <div class="answer-space" style="height: 80px;"></div>
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>/u/ sound (like glove):</strong>
+                            <div class="answer-space" style="height: 100px; margin-top: 5px;"></div>
                         </div>
                     </div>
-                    <div style="margin-left: 20px;">
-                        <div>Words: treasure, measuring, pleasure, television, usually</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Read and Circle</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each sentence. Circle the words where 'o' makes the /u/ sound:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. My <u>mother</u> loves her <u>son</u>.</div>
+                        <div>b. The <u>monkey</u> found a red <u>glove</u>.</div>
+                        <div>c. There is <u>nothing</u> better than <u>honey</u>.</div>
+                        <div>d. My <u>brother</u> is one <u>month</u> old.</div>
+                        <div>e. The white <u>dove</u> flew high <u>above</u>.</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Fill in the Blank</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Complete each sentence with a word from the word bank:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Word Bank:</strong> glove, love, mother, month, monkey, honey</div>
+                        <div style="margin-top: 10px;">a. I _____ to read books with my family.</div>
+                        <div>b. My _____ helps me with my homework.</div>
+                        <div>c. There are four weeks in one _____.</div>
+                        <div>d. The _____ swung from the tree branch.</div>
+                        <div>e. I put on a warm _____ to play in the snow.</div>
+                        <div>f. Bees make sweet _____.</div>
+                    </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Sentence Writing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write two sentences using words where 'o' makes the /u/ sound:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Practice reading the /zh/ word list to a family member. Clap the syllables as you read.",
+        homework: "Find 5 more words where the letter 'o' makes the /u/ sound (like in glove). Write them in a sentence and practice reading aloud.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Using /zh/ Words in Sentences",
-        subtopic: "Reading and writing sentences with 's' sounding like /zh/'",
+        topic: "Phonics",
+        subtopic: "Alternative Vowel Spellings: /u:/ = ew, ue Sounds",
         lessonContent: `
-            <p>Today we will put our /zh/ words into sentences to show we can use them correctly!</p>
-            <p><strong>Key Concept:</strong> We can read and write sentences using words with the special /zh/ sound.</p>
-            <p><strong>Example Sentence:</strong> "It is a pleasure to find the treasure."</p>
-            <p><strong>What makes a good sentence?</strong> A complete thought with correct spelling and punctuation.</p>
-            <p><strong>Sentence Building Tips:</strong></p>
+            <p>Today we're learning more alternative vowel spellings! We'll discover how the long /u:/ sound can be spelled with 'ew' and 'ue'.</p>
+            <p><strong>Key Question:</strong> How many ways can you spell the long /u:/ sound?</p>
+            <p><strong>Introduction:</strong> You already know that 'u' makes the long /u:/ sound in words like "unicorn" and "use". But did you know that 'ew' and 'ue' can also make the same /u:/ sound? Let's explore these spelling patterns!</p>
+            <p><strong>The /u:/ Sound Spellings:</strong></p>
             <ul>
-                <li>Start with a capital letter</li>
-                <li>Include a /zh/ word spelled with 's'</li>
-                <li>Make sure it makes sense</li>
-                <li>End with proper punctuation (. ! ?)</li>
+                <li><strong>'ew' spelling:</strong> screw, grew, blew, flew, drew, chew, stew, new, few</li>
+                <li><strong>'ue' spelling:</strong> glue, blue, true, clue, due, argue, rescue, statue</li>
+                <li><strong>'u' spelling (review):</strong> unicorn, uniform, use, unit</li>
             </ul>
-            <p><strong>Common /zh/ words for sentences:</strong> treasure, measure, pleasure, leisure, usual, vision</p>
-            <p><strong>Today's goal:</strong> Become confident using /zh/ words in your own writing!</p>
+            <p><strong>Example Words to Practice:</strong></p>
+            <ul>
+                <li>ew words: screw, grew, blew, flew, drew, chew, stew, new, few, knew</li>
+                <li>ue words: glue, blue, true, clue, due, argue, rescue, statue, tissue</li>
+            </ul>
+            <p><strong>Notice the Pattern:</strong> Both 'ew' and 'ue' make the same long /u:/ sound. Try saying them: blue and blew sound the same! Glue and grew sound the same!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sentence" style="color: #2196F3;"></i> Example Sentence</div>
-                <p><strong>"It is a pleasure to find the treasure."</strong> - Two /zh/ words in one sentence!</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Glue and Grew</div>
+                <p>"I use glue on my project" and "The plant grew tall." - Glue and grew sound exactly the same at the end! But they are spelled differently.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-puzzle-piece" style="color: #4CAF50;"></i> Sentence Building</div>
-                <p>Word cards: measure, the, I, will, rug → <strong>"I will measure the rug."</strong></p>
+                <div class="example-title"><i class="fas fa-feather-alt"></i> Flew and Blue</div>
+                <p>"The bird flew away" and "The sky is blue." - Flew and blue have the same /u:/ ending sound but different spellings!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sentence Scramble Game!</div>
-                <p>Let's unscramble mixed-up words to make sentences with /zh/ words!</p>
+                <div class="example-title"><i class="fas fa-search"></i> Clue Hunt</div>
+                <p>"Do you have a clue about the treasure?" The word 'clue' uses 'ue' to make the /u:/ sound.</p>
             </div>
         `,
-        taskInstructions: "Practice reading and writing sentences with /zh/ words.",
+        taskInstructions: "Identify, sort, and read words with 'ew' and 'ue' spelling patterns.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Reading Practice</strong></p>
+                <p><strong>Part A: Sort the Words</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Read these sentences aloud. Circle all the words with /zh/ sound:
+                    <span class="task-number">1</span> Sort these words into two groups: 'ew' words OR 'ue' words:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. It is my pleasure to help.</div>
-                        <div>2. We found a treasure in the sand.</div>
-                        <div>3. Can you measure this for me?</div>
-                        <div>4. Leisure time is important.</div>
+                        <div><strong>Word Bank:</strong> blue, grew, glue, screw, true, blew, clue, chew, argue, flew, rescue, stew</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Sentence Building</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Arrange these word cards to make a sentence. Write it here:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <div>Word cards: measure, the, I, will, rug</div>
-                        <div style="margin-top: 10px;">
-                            <div>Your sentence: <span class="answer-space" style="width: 300px;"></span></div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>Words with 'ew':</strong>
+                            <div class="answer-space" style="height: 100px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px;">
+                            <strong>Words with 'ue':</strong>
+                            <div class="answer-space" style="height: 100px; margin-top: 5px;"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Original Sentences</strong></p>
+                <p><strong>Part B: Read and Circle</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write two original sentences using the words below:
+                    <span class="task-number">2</span> Read each sentence. Circle the words with 'ew' or 'ue' that make the /u:/ sound:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Sentence 1 (use "treasure"):</div>
-                        <div class="answer-space" style="height: 40px; width: 90%;"></div>
-                        <div style="margin-top: 10px;">Sentence 2 (use "measure"):</div>
-                        <div class="answer-space" style="height: 40px; width: 90%;"></div>
+                        <div>a. The <u>blue</u> bird <u>flew</u> high in the sky.</div>
+                        <div>b. I need <u>glue</u> and a <u>screw</u> for my project.</div>
+                        <div>c. Is it <u>true</u> that you <u>grew</u> three inches?</div>
+                        <div>d. Can you <u>chew</u> this <u>stew</u> carefully?</div>
+                        <div>e. The firefighters will <u>rescue</u> the kitten - that's a great <u>clue</u>!</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Sentence Completion</strong></p>
+                <p><strong>Part C: Fill in the Blank</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Complete these sentences with /zh/ words:
+                    <span class="task-number">3</span> Complete each sentence with a word from the word bank:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Finding a gold coin was a real <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>2. Please <span class="answer-space" style="width: 100px;"></span> the length of the table.</div>
-                        <div>3. Reading books is my favorite <span class="answer-space" style="width: 100px;"></span> activity.</div>
-                        <div>4. It was a <span class="answer-space" style="width: 100px;"></span> to meet you.</div>
+                        <div><strong>Word Bank:</strong> blue, glue, flew, true, clue, screw, grew, stew</div>
+                        <div style="margin-top: 10px;">a. The sky is _____ on a sunny day.</div>
+                        <div>b. The bird _____ south for the winter.</div>
+                        <div>c. I need a _____ to fix this chair.</div>
+                        <div>d. The puppy _____ very fast during its first year.</div>
+                        <div>e. Is the story you told me _____?</div>
+                        <div>f. We need one more _____ to solve the mystery.</div>
+                        <div>g. Use _____ to stick the paper together.</div>
+                        <div>h. Mom made a delicious vegetable _____ for dinner.</div>
                     </div>
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Picture Sentence</strong></p>
+                <p><strong>Part D: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture showing a sentence with a /zh/ word. Write your sentence below:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My sentence: <span class="answer-space" style="width: 350px;"></span></div>
+                    <span class="task-number">4</span> Write two sentences - one using an 'ew' word and one using a 'ue' word:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reading Fluency</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Read this paragraph aloud three times. Circle all 'ew' and 'ue' words:
+                    <div style="background: #f0f8ff; padding: 10px; margin-top: 10px; border-radius: 8px;">
+                        "The new blue kite flew high in the sky. It grew darker as a storm blew in. 'What should we do?' asked my friend. 'True,' I said, 'we need a clue to find our way home.' We used glue to fix our broken shoe and argued about which way was due south. What a rescue!"
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Write three sentences using /zh/ words. Read them to someone at home and explain the special 's' sound.",
+        homework: "Write a short story (3-5 sentences) using at least 3 'ew' words and 3 'ue' words. Read your story to a family member.",
         homeworkDue: "Monday"
     }
 };
@@ -283,10 +310,10 @@ const grade3LiteracyWeek3 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3LiteracyWeek3);
-    console.log("literacy-week3-zh-sound.js registered using registerWorksheet()");
+    console.log("grade3-literacy-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3LiteracyWeek3);
-    console.log("literacy-week3-zh-sound.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-literacy-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -297,9 +324,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3LiteracyWeek3.metadata,
         days: grade3LiteracyWeek3
     });
-    console.log("literacy-week3-zh-sound.js stored in window.registeredWorksheets");
+    console.log("grade3-literacy-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3LiteracyWeek3 = grade3LiteracyWeek3;
-console.log("literacy-week3-zh-sound.js loaded and registered successfully");
+console.log("grade3-literacy-week3.js loaded and registered successfully");

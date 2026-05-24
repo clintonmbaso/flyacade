@@ -1,281 +1,322 @@
-// Grade 3 Literacy - Week 2 Data (The /j/ Sound Spelled as 'dge')
+// Grade 3 Literacy - Term 1 Week 2 Data
 const grade3LiteracyWeek2 = {
     metadata: {
         grade: 3,
         subject: "Literacy",
+        term: 1,
         week: 2,
-        title: "The /j/ Sound Spelled as 'dge'",
-        description: "Learning to identify, blend, and read words with the 'dge' spelling for the /j/ sound"
+        title: "Alternative Consonant Spellings",
+        description: "Exploring alternative consonant spellings: dge (as in bridge), s (as in treasure), and w = u (as in penguin)"
     },
     
     monday: {
         subject: "Literacy",
-        topic: "Introducing the 'dge' Spelling",
-        subtopic: "Identifying 'dge' as a spelling for the /j/ sound after short vowels",
+        topic: "Phonics",
+        subtopic: "Alternative Consonant Spellings: j = dge",
         lessonContent: `
-            <p>Welcome to our Literacy lesson! Today we will learn a special spelling pattern for the /j/ sound.</p>
-            <p><strong>Key Concept:</strong> The letters 'dge' can make the /j/ sound at the end of a word.</p>
-            <p><strong>Review:</strong> We already know the letter 'j' makes the /j/ sound at the beginning of words like <strong>jam</strong> and <strong>jet</strong>.</p>
-            <p><strong>New Rule:</strong> When we hear a /j/ sound right after a <strong>short vowel</strong> at the <strong>end</strong> of a word, we often spell it with 'dge'.</p>
-            <p><strong>Why 'dge'?:</strong> This spelling helps us remember the short vowel sound that comes before the /j/ sound.</p>
-            <p><strong>Listen for the pattern:</strong> short vowel → /j/ sound → end of word = 'dge' spelling!</p>
+            <p>Welcome to our phonics lesson! Today we'll learn about an alternative way to spell the /j/ sound.</p>
+            <p><strong>Key Question:</strong> Can the /j/ sound be spelled in different ways?</p>
+            <p><strong>Introduction:</strong> You already know that the letter 'j' makes the /j/ sound, like in <strong>jump</strong> and <strong>jelly</strong>. But did you know that the letters <strong>dge</strong> can also make the /j/ sound?</p>
+            <p><strong>The Rule:</strong> When you hear the /j/ sound at the <strong>end</strong> of a word, right after a <strong>short vowel</strong>, it is often spelled <strong>dge</strong>.</p>
+            <p><strong>Examples:</strong></p>
+            <ul>
+                <li><strong>bridge</strong> - The /j/ sound at the end is spelled dge</li>
+                <li><strong>fridge</strong> - After the short vowel 'i', we use dge</li>
+                <li><strong>ledge</strong> - The /j/ sound comes after short vowel 'e'</li>
+                <li><strong>hedge</strong> - Another word ending with dge</li>
+                <li><strong>badge</strong> - The /j/ sound spelled with dge</li>
+            </ul>
+            <p><strong>Remember:</strong> The letters 'd' and 'g' work together with 'e' to make the /j/ sound. The 'e' is silent, but it's always there!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-spell-check" style="color: #4CAF50;"></i> 'dge' Words</div>
-                <p><strong>badge</strong> - We hear /b/ /ă/ /j/ → b-a-dge</p>
-                <p><strong>edge</strong> - We hear /ĕ/ /j/ → e-dge</p>
-                <p><strong>bridge</strong> - We hear /b/ /r/ /ĭ/ /j/ → br-i-dge</p>
+                <div class="example-title"><i class="fas fa-lightbulb"></i> Listen Carefully</div>
+                <p>Say these words aloud: bridge, fridge, hedge. Can you hear the /j/ sound at the end? That's the dge spelling!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb" style="color: #FFC107;"></i> Pattern Spotting</div>
-                <p>Look at these words: <strong>badge, edge, bridge</strong>. What do they all have in common?</p>
-                <p>1. They end with the /j/ sound</p>
-                <p>2. They have a short vowel right before the /j/ sound</p>
-                <p>3. They use 'dge' to spell the /j/ sound</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> The Short Vowel Rule</div>
+                <p>Words like "huge" have a long vowel sound before the /j/, so we just use 'ge'. Words like "bridge" have a short vowel sound, so we use 'dge'.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Detective Game!</div>
-                <p>Let's play "Sound Detective!" I'll say a word. If it ends with the /j/ sound after a short vowel, show me 'dge' with your fingers!</p>
+                <div class="example-title"><i class="fas fa-magic"></i> Memory Trick</div>
+                <p>Think of "dge" as a team of three letters that work together to make one sound - /j/. They are like three friends holding hands!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice identifying the 'dge' spelling pattern.",
+        taskInstructions: "Practice reading, writing, and identifying words with the dge spelling pattern.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the 'dge' in each word and underline the short vowel before it:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>badge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; edge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bridge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ridge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lodge</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Sort the words: Write each word in the correct column:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div style="display: flex;">
-                        <div style="flex: 1; padding: 10px; border: 1px solid #ccc;">
-                            <strong>Words with 'dge'</strong>
-                            <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; border: 1px solid #ccc; margin-left: 10px;">
-                            <strong>Words without 'dge'</strong>
-                            <div>jam, jump, fudge, judge, jet, badge, dog, edge</div>
-                        </div>
+            <div class="content-box">
+                <p><strong>Part A: Sounding Out Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Sound out and read these words aloud:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>bridge &nbsp;&nbsp;&nbsp; fridge &nbsp;&nbsp;&nbsp; hedge &nbsp;&nbsp;&nbsp; ledge &nbsp;&nbsp;&nbsp; badge &nbsp;&nbsp;&nbsp; ridge</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Write five 'dge' words in your notebook and draw a small star ★ next to the 'dge' ending:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. <span class="answer-space" style="width: 100px;"></span> ★</div>
-                    <div>2. <span class="answer-space" style="width: 100px;"></span> ★</div>
-                    <div>3. <span class="answer-space" style="width: 100px;"></span> ★</div>
-                    <div>4. <span class="answer-space" style="width: 100px;"></span> ★</div>
-                    <div>5. <span class="answer-space" style="width: 100px;"></span> ★</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Circle the dge Words</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Circle the words that have the dge spelling for the /j/ sound:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <div>bridge &nbsp;&nbsp;&nbsp; jump &nbsp;&nbsp;&nbsp; fridge &nbsp;&nbsp;&nbsp; jelly &nbsp;&nbsp;&nbsp; hedge &nbsp;&nbsp;&nbsp; jacket</div>
+                        <div>badge &nbsp;&nbsp;&nbsp; jug &nbsp;&nbsp;&nbsp; ledge &nbsp;&nbsp;&nbsp; just &nbsp;&nbsp;&nbsp; ridge &nbsp;&nbsp;&nbsp; jam</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Pattern Detective: Which words follow the 'dge' rule? Check (✓) the correct boxes:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ badge (short a before /j/)</div>
-                    <div>☐ judge (short u before /j/)</div>
-                    <div>☐ page (long a before /j/)</div>
-                    <div>☐ fudge (short u before /j/)</div>
-                    <div>☐ cage (long a before /j/)</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Writing Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write each dge word three times:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>bridge: _________ &nbsp; _________ &nbsp; _________</div>
+                        <div>fridge: _________ &nbsp; _________ &nbsp; _________</div>
+                        <div>hedge: _________ &nbsp; _________ &nbsp; _________</div>
+                        <div>badge: _________ &nbsp; _________ &nbsp; _________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Sentence Writing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write a sentence using at least one dge word:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three objects at home whose names could end with 'dge' if they had the /j/ sound. Draw them and write what you would call them with 'dge'.",
+        homework: "Find three things at home that have the dge sound in their name (like fridge). Write the words in your notebook.",
         homeworkDue: "Wednesday"
     },
     
-    wednesday: {
+    tuesday: {
         subject: "Literacy",
-        topic: "Blending 'dge' Words",
-        subtopic: "Blending and reading words containing the 'dge' spelling",
+        topic: "Phonics",
+        subtopic: "Alternative Consonant Spellings: s (as in treasure) and w = u (as in penguin)",
         lessonContent: `
-            <p>Today we will practice blending and reading words with our new 'dge' spelling pattern!</p>
-            <p><strong>Key Concept:</strong> 'dge' makes one sound: /j/.</p>
-            <p><strong>Blending Strategy:</strong> When we see 'dge' in a word, we treat it as one sound unit.</p>
-            <p><strong>Sound-Buttoning:</strong> We can put one dot or line under 'dge' because it makes only one sound, even though it has three letters.</p>
-            <p><strong>Example:</strong> f-u-dge = 3 sounds: /f/ /ŭ/ /j/</p>
-            <p><strong>Practice Words:</strong> ridge, lodge, fudge, dodge, judge</p>
-            <p><strong>Remember:</strong> Look for the short vowel right before the 'dge' to help you blend the word correctly!</p>
+            <p>Today we'll learn two more alternative consonant spellings! Get ready to discover new ways letters can make sounds.</p>
+            <p><strong>Key Question:</strong> Can the letter 's' make a different sound? What about the letter 'w'?</p>
+            
+            <p><strong>Spelling 1: The /zh/ Sound (s as in treasure)</strong></p>
+            <p>The letter 's' can sometimes make the /zh/ sound (like the middle sound in "treasure" or "measure").</p>
+            <ul>
+                <li><strong>treasure</strong> - The 's' sounds like /zh/</li>
+                <li><strong>measure</strong> - The 's' makes the /zh/ sound</li>
+                <li><strong>pleasure</strong> - Another word where 's' = /zh/</li>
+                <li><strong>usual</strong> - The 's' sounds like /zh/</li>
+            </ul>
+            
+            <p><strong>Spelling 2: The /w/ Sound (w = u as in penguin)</strong></p>
+            <p>Sometimes, the letter 'u' can make the /w/ sound, especially when it comes after 'q' or in some special words.</p>
+            <ul>
+                <li><strong>penguin</strong> - The 'u' makes the /w/ sound (peng-win)</li>
+                <li><strong>quiet</strong> - The 'u' works with 'q' to make /kw/ sound</li>
+                <li><strong>queen</strong> - 'qu' together make the /kw/ sound</li>
+                <li><strong>quick</strong> - Another word with 'qu' = /kw/</li>
+            </ul>
+            <p><strong>Remember:</strong> The letters 'q' and 'u' are best friends - they are almost always together in words!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-volume-up" style="color: #2196F3;"></i> Sound-Buttoning Example</div>
-                <p><strong>fudge</strong> = f • u • dge</p>
-                <p>Under each sound: f (•) u (•) dge (•)</p>
-                <p>Three sounds, three buttons!</p>
+                <div class="example-title"><i class="fas fa-ear-listen"></i> Listen to the /zh/ Sound</div>
+                <p>Say these words slowly: trea-sure, mea-sure. Can you feel your mouth make the /zh/ sound? It's like a buzzing sound, different from the /s/ sound in "snake".</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-puzzle-piece" style="color: #9C27B0;"></i> Blending Practice</div>
-                <p><strong>ridge</strong> = r • i • dge = /r/ /ĭ/ /j/</p>
-                <p><strong>lodge</strong> = l • o • dge = /l/ /ŏ/ /j/</p>
-                <p><strong>judge</strong> = ju • dge = /j/ /ŭ/ /j/ (Note: 'j' makes /j/ at start too!)</p>
+                <div class="example-title"><i class="fas fa-penguin"></i> The Penguin Trick</div>
+                <p>When you see "penguin," say "peng-win" not "peng-you-in." The letter 'u' after 'g' makes the /w/ sound here!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Flashcard Drill!</div>
-                <p>Let's play "Quick Flash!" I'll show a word card. Read it as fast as you can! Words: ridge, lodge, fudge, dodge, judge.</p>
+                <div class="example-title"><i class="fas fa-handshake"></i> QU are Best Friends</div>
+                <p>In English, 'q' is almost always followed by 'u'. Together they make the /kw/ sound, like in queen, quick, quiet, and quit.</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice blending and reading 'dge' words.",
+        taskInstructions: "Practice reading and identifying words with the /zh/ sound (s as in treasure) and the /w/ sound (u as in penguin).",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Sound-Buttoning Practice</strong></p>
+                <p><strong>Part A: Reading Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw sound buttons under each word. Remember: 'dge' gets ONE button:
+                    <span class="task-number">1</span> Read these words aloud to practice the /zh/ sound (s as in treasure):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>badge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            <div style="display: inline-block; border-bottom: 1px solid #000; width: 60px;"></div>
-                        </div>
-                        <div>edge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            <div style="display: inline-block; border-bottom: 1px solid #000; width: 50px;"></div>
-                        </div>
-                        <div>fudge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                            <div style="display: inline-block; border-bottom: 1px solid #000; width: 60px;"></div>
+                        <div>treasure &nbsp;&nbsp;&nbsp; measure &nbsp;&nbsp;&nbsp; pleasure &nbsp;&nbsp;&nbsp; usual &nbsp;&nbsp;&nbsp; casual</div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read these words aloud to practice the /w/ sound (u as in penguin):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>penguin &nbsp;&nbsp;&nbsp; quiet &nbsp;&nbsp;&nbsp; queen &nbsp;&nbsp;&nbsp; quick &nbsp;&nbsp;&nbsp; quilt</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Word Sort</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Sort these words into the correct columns:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><em>Words: treasure, penguin, queen, measure, quiet, pleasure, quick, usual</em></div>
+                        <div style="margin-top: 10px;">
+                            <table style="width: 100%; border-collapse: collapse;">
+                                <tr style="background-color: #4A90E2; color: white;">
+                                    <th style="padding: 10px; border: 1px solid #ddd;">s = /zh/ (like treasure)</th>
+                                    <th style="padding: 10px; border: 1px solid #ddd;">u = /w/ (like penguin)</th>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                    <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Unscramble the Letters</strong></p>
+                <p><strong>Part C: Fill in the Blank</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Unscramble these letters to make 'dge' words:
+                    <span class="task-number">4</span> Complete each sentence with the correct word from the box:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <div><em>Word box: treasure, measure, penguin, quiet, queen, pleasure</em></div>
+                    </div>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>e-d-g-i-r → <span class="answer-space" style="width: 80px;"></span> (ridge)</div>
-                        <div>e-g-o-d-l-g → <span class="answer-space" style="width: 80px;"></span> (lodge)</div>
-                        <div>g-e-d-u-f → <span class="answer-space" style="width: 80px;"></span> (fudge)</div>
-                        <div>e-d-g-g-o-d → <span class="answer-space" style="width: 80px;"></span> (dodge)</div>
-                        <div>e-g-d-u-j → <span class="answer-space" style="width: 80px;"></span> (judge)</div>
+                        <div>a. We used a ruler to ________ the length of the table. _________</div>
+                        <div>b. The pirate found a hidden ________ on the island. _________</div>
+                        <div>c. Please be ________ so the baby can sleep. _________</div>
+                        <div>d. The ________ wore a beautiful golden crown. _________</div>
+                        <div>e. The ________ waddled across the ice. _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Word Building</strong></p>
+                <p><strong>Part D: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Add 'dge' to complete each word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>ba_____ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e_____ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bri_____</div>
-                        <div>fu_____ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; do_____ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ju_____</div>
-                        <div>ri_____ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lo_____ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; he_____ (hedge)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Reading Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span) Read each word aloud to a partner:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                        <div style="font-size: 18px; font-weight: bold;">
-                            badge · edge · bridge · ridge · lodge · fudge · dodge · judge · hedge · wedge
-                        </div>
-                        <div style="margin-top: 10px;">Partner's signature: <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
+                    <span class="task-number">5</span> Write one sentence using a word with s = /zh/ and one sentence using a word with u = /w/:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Make five flashcards with 'dge' words on one side and a picture clue on the back. Practice reading them to someone at home.",
+        homework: "Draw a picture of a penguin and write the word 'penguin' underneath. Then draw a treasure chest and write the word 'treasure' underneath.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Literacy",
-        topic: "Reading 'dge' in Context",
-        subtopic: "Reading sentences and passages containing 'dge' words fluently",
+        topic: "Phonics",
+        subtopic: "Blending and Reading Alternative Consonants",
         lessonContent: `
-            <p>Today we will put our 'dge' words into sentences and stories!</p>
-            <p><strong>Key Concept:</strong> Good readers can read 'dge' words smoothly in sentences.</p>
-            <p><strong>Review from Curriculum:</strong> Remember the "Bridge" example we learned about?</p>
-            <p><strong>Fluency Tip:</strong> When you see a 'dge' word in a sentence, don't stop! Read through it like any other word.</p>
-            <p><strong>Sentence Practice:</strong> "The judge sat on the edge of the bridge eating fudge."</p>
-            <p><strong>Dictation Practice:</strong> We'll listen to sentences and write them down, focusing on spelling 'dge' words correctly.</p>
-            <p><strong>Celebration:</strong> You're becoming 'dge' word experts!</p>
+            <p>Great job this week! Today we will put everything together and practice reading words with all the alternative consonant spellings we learned.</p>
+            <p><strong>Key Question:</strong> Can you blend and read words with dge, s=/zh/, and u=/w/ spellings?</p>
+            <p><strong>This Week's Review:</strong></p>
+            <ul>
+                <li><strong>dge</strong> = /j/ sound (at the end of words after a short vowel) - bridge, fridge, hedge</li>
+                <li><strong>s</strong> = /zh/ sound (in some words like treasure and measure)</li>
+                <li><strong>u</strong> = /w/ sound (in penguin and with q as in queen, quiet)</li>
+            </ul>
+            <p><strong>Blending Practice:</strong></p>
+            <p>Remember: Blending means putting sounds together smoothly to read a word.</p>
+            <ul>
+                <li>b-r-i-dge → bridge</li>
+                <li>f-r-i-dge → fridge</li>
+                <li>trea-sure → treasure</li>
+                <li>mea-sure → measure</li>
+                <li>peng-u-in → penguin (the 'u' says /w/)</li>
+                <li>qu-ee-n → queen ('qu' says /kw/)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #795548;"></i> Sentence Example</div>
-                <p><strong>"The judge sat on the edge of the bridge eating fudge."</strong></p>
-                <p>Let's count the 'dge' words: judge, edge, bridge, fudge = FOUR 'dge' words in one sentence!</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Blending Practice</div>
+                <p>Try blending these: h-e-dge (hedge), l-e-dge (ledge), plea-sure (pleasure). Say each sound, then put them together!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bridge" style="color: #607D8B;"></i> Story Context</div>
-                <p><strong>From our curriculum:</strong> "The old bridge had a badge of honor. At its edge, a judge would sit and watch the water flow under the ridge."</p>
-                <p>See how 'dge' words help tell a complete story!</p>
+                <div class="example-title"><i class="fas fa-book"></i> Reading in Context</div>
+                <p>"The queen found a hidden treasure near the old bridge." Can you read this sentence using all the sounds you learned?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sentence Scramble Game!</div>
-                <p>Let's unscramble sentence parts to make silly sentences with 'dge' words!</p>
+                <div class="example-title"><i class="fas fa-star"></i> Challenge Words</div>
+                <p>Try these harder words: judgement, knowledge, questionnaire. The dge and qu patterns still work the same way!</p>
             </div>
         `,
-        taskInstructions: "Practice reading and writing sentences with 'dge' words.",
+        taskInstructions: "Blend, read, and write words using all the alternative consonant spellings from this week.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Fluency Reading</strong></p>
+                <p><strong>Part A: Blending Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Read this sentence aloud three times. Time yourself:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px; font-size: 18px;">
-                        <strong>"The judge sat on the edge of the bridge eating fudge."</strong>
+                    <span class="task-number">1</span> Blend the sounds to read each word. Write the complete word on the line:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. b-r-i-dge → _________</div>
+                        <div>b. h-e-dge → _________</div>
+                        <div>c. f-r-i-dge → _________</div>
+                        <div>d. tr-ea-sure → _________</div>
+                        <div>e. m-ea-sure → _________</div>
+                        <div>f. p-eng-u-in → _________</div>
+                        <div>g. qu-ee-n → _________</div>
+                        <div>h. qu-i-et → _________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Read and Match</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a line to match each word to its picture (or write the word next to its description):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>bridge → ______________</div>
+                        <div>treasure → ______________</div>
+                        <div>penguin → ______________</div>
+                        <div>queen → ______________</div>
+                        <div>fridge → ______________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Complete the Sentences</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Fill in the blank with the correct word from the word bank:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <div><em>Word bank: bridge, treasure, penguin, measure, fridge, quiet</em></div>
                     </div>
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>First read: <span class="answer-space" style="width: 50px;"></span> seconds</div>
-                        <div>Second read: <span class="answer-space" style="width: 50px;"></span> seconds</div>
-                        <div>Third read: <span class="answer-space" style="width: 50px;"></span> seconds</div>
+                        <div>a. We walked across the ________ to get to the other side.</div>
+                        <div>b. Please put the milk in the ________.</div>
+                        <div>c. The ________ is a bird that cannot fly.</div>
+                        <div>d. Use this ruler to ________ how long the paper is.</div>
+                        <div>e. The map showed where the buried ________ was located.</div>
+                        <div>f. The library is a ________ place for reading.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Dictation Practice</strong></p>
+                <p><strong>Part D: Read the Passage</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Listen carefully and write the sentences your teacher reads:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. <span class="answer-space" style="width: 100%; height: 30px; display: block;"></span></div>
-                        <div>2. <span class="answer-space" style="width: 100%; height: 30px; display: block; margin-top: 10px;"></span></div>
-                        <div>3. <span class="answer-space" style="width: 100%; height: 30px; display: block; margin-top: 10px;"></span></div>
+                    <span class="task-number">4</span> Read the passage below. Circle all the words with dge, s=/zh/, and u=/w/ patterns:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f0f8ff;">
+                        <p><em>"The penguin waddled across the ice. It was quiet and peaceful. Suddenly, it spotted a treasure chest near an old bridge. What a pleasure to find such a surprise!"</em></p>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Create Your Own Sentence</strong></p>
+                <p><strong>Part E: Write Your Own Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write a sentence using at least two 'dge' words:
-                    <div class="answer-space" style="width: 100%; height: 60px; margin-top: 10px; border: 1px solid #ccc; padding: 5px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>Circle the 'dge' words in your sentence.</div>
-                    </div>
+                    <span class="task-number">5</span> Write two sentences using at least one word from each spelling pattern we learned this week:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Picture Match</strong></p>
+                <p><strong>Part F: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a line from each picture to the correct 'dge' sentence:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>[Picture of a bridge] → ☐ "The badge was shiny."</div>
-                        <div>[Picture of a badge] → ☐ "Be careful at the edge!"</div>
-                        <div>[Picture of a cliff edge] → ☐ "We drove over the bridge."</div>
-                        <div>[Picture of fudge] → ☐ "I love chocolate fudge."</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: 'dge' Word Expert Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw a badge for yourself as a 'dge' Word Expert. Write your favorite 'dge' word on it:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <div style="margin-top: 10px; text-align: center;">
-                        <div>I am a 'dge' Word Expert!</div>
-                        <div>My favorite 'dge' word is: <span class="answer-space" style="width: 100px;"></span></div>
-                    </div>
+                    <span class="task-number">6</span> Which alternative consonant spelling was the trickiest for you? Which one was the easiest?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three 'dge' words in books or signs at home. Write them down and bring them to share next week.",
+        homework: "Write a short story (3-4 sentences) using at least three words from this week: bridge, fridge, hedge, badge, treasure, measure, pleasure, penguin, queen, quiet, quick. Read your story to a family member!",
         homeworkDue: "Monday"
     }
 };
@@ -283,10 +324,10 @@ const grade3LiteracyWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade3LiteracyWeek2);
-    console.log("literacy-week2-dge.js registered using registerWorksheet()");
+    console.log("grade3-literacy-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade3LiteracyWeek2);
-    console.log("literacy-week2-dge.js registered using DataLoader.registerWorksheet()");
+    console.log("grade3-literacy-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -297,9 +338,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade3LiteracyWeek2.metadata,
         days: grade3LiteracyWeek2
     });
-    console.log("literacy-week2-dge.js stored in window.registeredWorksheets");
+    console.log("grade3-literacy-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade3LiteracyWeek2 = grade3LiteracyWeek2;
-console.log("literacy-week2-dge.js loaded and registered successfully");
+console.log("grade3-literacy-week2.js loaded and registered successfully");
