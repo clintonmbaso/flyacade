@@ -300,6 +300,23 @@ const WorksheetManifest = {
         'data/grade1/g1literacy-t1week09.js',
         'data/grade1/g1literacy-t1week10.js',
     
+        'data/grade1/g1literacy-t2week02.js',
+        'data/grade1/g1literacy-t2week03.js',
+        'data/grade1/g1literacy-t2week04.js',
+        'data/grade1/g1literacy-t2week05.js',
+        'data/grade1/g1literacy-t2week07.js',
+        'data/grade1/g1literacy-t2week08.js',
+        'data/grade1/g1literacy-t2week09.js',
+        'data/grade1/g1literacy-t2week10.js',
+
+        'data/grade1/g1literacy-t3week02.js',
+        'data/grade1/g1literacy-t3week03.js',
+        'data/grade1/g1literacy-t3week04.js',
+        'data/grade1/g1literacy-t3week05.js',
+        'data/grade1/g1literacy-t3week07.js',
+        'data/grade1/g1literacy-t3week08.js',
+        'data/grade1/g1literacy-t3week09.js',
+        'data/grade1/g1literacy-t3week10.js',
     
     // ************* Grade 2 *************
         // mathematicsScience
@@ -396,6 +413,24 @@ const WorksheetManifest = {
         'data/grade2/g2literacy-t1week09.js',
         'data/grade2/g2literacy-t1week10.js',
     
+        'data/grade2/g2literacy-t2week02.js',
+        'data/grade2/g2literacy-t2week03.js',
+        'data/grade2/g2literacy-t2week04.js',
+        'data/grade2/g2literacy-t2week05.js',
+        'data/grade2/g2literacy-t2week07.js',
+        'data/grade2/g2literacy-t2week08.js',
+        'data/grade2/g2literacy-t2week09.js',
+        'data/grade2/g2literacy-t2week10.js',
+
+        'data/grade2/g2literacy-t3week02.js',
+        'data/grade2/g2literacy-t3week03.js',
+        'data/grade2/g2literacy-t3week04.js',
+        'data/grade2/g2literacy-t3week05.js',
+        'data/grade2/g2literacy-t3week07.js',
+        'data/grade2/g2literacy-t3week08.js',
+        'data/grade2/g2literacy-t3week09.js',
+        'data/grade2/g2literacy-t3week10.js',
+
          // English
         'data/grade2/g2english-t1week02.js',
         'data/grade2/g2english-t1week03.js',
@@ -520,6 +555,23 @@ const WorksheetManifest = {
         'data/grade3/g3literacy-t1week09.js',
         'data/grade3/g3literacy-t1week10.js',
     
+        'data/grade3/g3literacy-t2week02.js',
+        'data/grade3/g3literacy-t2week03.js',
+        'data/grade3/g3literacy-t2week04.js',
+        'data/grade3/g3literacy-t2week05.js',
+        'data/grade3/g3literacy-t2week07.js',
+        'data/grade3/g3literacy-t2week08.js',
+        'data/grade3/g3literacy-t2week09.js',
+        'data/grade3/g3literacy-t2week10.js',
+
+        'data/grade3/g3literacy-t3week02.js',
+        'data/grade3/g3literacy-t3week03.js',
+        'data/grade3/g3literacy-t3week04.js',
+        'data/grade3/g3literacy-t3week05.js',
+        'data/grade3/g3literacy-t3week07.js',
+        'data/grade3/g3literacy-t3week08.js',
+        'data/grade3/g3literacy-t3week09.js',
+        'data/grade3/g3literacy-t3week10.js',
     
          // English
         'data/grade3/g3english-t1week02.js',
