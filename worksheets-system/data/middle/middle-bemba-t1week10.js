@@ -1,210 +1,272 @@
-// Middle Class Bemba - Week 10 Data (Asking for Permission)
-const middleBembaWeek10 = {
+// Grade Middle - Zambian Language (Icibemba) - Term 1 Week 10
+const zambianLanguageIcibembaWeek10 = {
     metadata: {
         grade: "middle",
         subject: "Zambian Language (Icibemba)",
+        term: 1,
         week: 10,
-        title: "Asking for Permission — The Magic Word 'May I?'",
-        description: "Learning to ask for permission formally using 'Mukwai' and 'Napapata'"
+        title: "Rules & Early Boundaries",
+        description: "Learning to talk about home rules and school rules using appropriate Icibemba vocabulary"
     },
     
     monday: {
-        subject: "Bemba",
-        topic: "The Magic Word 'May I?'",
-        subtopic: "Formal way to ask for permission using respectful terms",
+        subject: "Zambian Language (Icibemba)",
+        topic: "Rules & Early Boundaries",
+        subtopic: "Home Rules - Amalayile Ya Munyanda",
         lessonContent: `
-            <p>Mwauka bwanji, baana! Welcome to Bemba class! Today we will learn a very important word – the magic word for asking permission.</p>
-            <p><strong>Key Concept:</strong> In Bemba culture, we use special respectful words when asking for something.</p>
-            <p><strong>What is permission?</strong></p>
+            <p>Mwabonwa! Welcome to our Icibemba lesson. Today we will learn how to talk about basic home rules in Icibemba.</p>
+            <p><strong>Key Question:</strong> Ni shani amalayile ya munyanda? (What are the rules at home?)</p>
+            <p><strong>Introduction:</strong> Every home has rules to keep children safe and healthy. Learning to talk about these rules in Icibemba helps us communicate better with our families.</p>
+            <p><strong>Home Rules Vocabulary (Amalayile Ya Munyanda):</strong></p>
+            <ol>
+                <li><strong>Washe amaboko:</strong> Wash your hands</li>
+                <li><strong>Pakesa ibintu byobe:</strong> Pack away your things/toys</li>
+                <li><strong>Lya ifyakulya fyonse:</strong> Eat all your food</li>
+                <li><strong>Epako mu nyanda panoona:</strong> Keep the house clean</li>
+                <li><strong>Ikala mu malayile:</strong> Obey the rules</li>
+                <li><strong>Landa mu musebo uwakusa:</strong> Speak respectfully</li>
+                <li><strong>Buka iminwe isambi wa kulya:</strong> Brush your teeth before eating</li>
+                <li><strong>Kosapo pa mesa:</strong> Wipe the table</li>
+            </ol>
+            <p><strong>Grammar Point - Command Form (Imperative):</strong></p>
             <ul>
-                <li>Asking before doing something</li>
-                <li>Showing respect to elders and teachers</li>
-                <li>Using polite words</li>
-                <li>Waiting for an answer</li>
+                <li>In Icibemba, we give commands using the verb stem</li>
+                <li>For example: "Washe" (Wash) comes from "ukwasamba" (to wash)</li>
+                <li>"Pakesa" (Pack) comes from "ukupakesa" (to pack)</li>
             </ul>
-            <p><strong>Magic Words:</strong></p>
-            <ul>
-                <li><strong>Mukwai:</strong> Respectful term for teacher or elder</li>
-                <li><strong>Napapata:</strong> Please (a polite word)</li>
-                <li><strong>Kuti nayako?:</strong> May I go?</li>
-            </ul>
-            <p><strong>How to ask to go outside:</strong> Stand politely and say, "Mukwai, kuti nayako panse?"</p>
-            <p><strong>Why use polite words?</strong> Polite words show respect and make people happy to help you!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-magic" style="color: #9C27B0;"></i> Magic Word Example</div>
-                <p>"Mukwai, kuti nayako panse?" - This means "Teacher, may I go outside?"</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Chishinka - Example</div>
+                <p>Amama bati: "Mwana, washe amaboko yo mwa kulya."<br>
+                <em>(Mother says: "Child, wash your hands before eating.")</em></p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-sparkles"></i> With Napapata</div>
-                <p>"Mukwai, napapata, kuti nayako?" - Adding "napapata" makes it extra polite!</p>
+                <div class="example-title"><i class="fas fa-couch"></i> Chishinka - Example</div>
+                <p>"Pakesa ibintu byobe panuma ya kuseka."<br>
+                <em>("Pack away your things after playing.")</em></p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-door-open"></i> Doorway Game</div>
-                <p>We will play a game where you must ask properly before going through the door!</p>
+                <div class="example-title"><i class="fas fa-car"></i> Chishinka - Example</div>
+                <p>"Pala wa manina ukulya, kosapo pa mesa."<br>
+                <em>("When you finish eating, wipe the table.")</em></p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice asking for permission politely.",
+        taskInstructions: "Draw and write home rules in Icibemba, then create a dialogue with a partner.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> The Doorway Game:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                    <p>Line up at the classroom door. When it's your turn:</p>
-                    <div>1. Stand straight and look at the teacher</div>
-                    <div>2. Say: "<strong>Mukwai, kuti nayako panse?</strong>"</div>
-                    <div>3. Wait for the teacher to say "Ee" (Yes)</div>
-                    <div>4. Then you may walk through the door</div>
+            <div class="content-box">
+                <p><strong>Part A: Home Rules Poster</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw 4 home rules in the boxes below. Write the Icibemba rule under each picture:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Practice with a partner:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <div>Partner A: Pretend to be the teacher</div>
-                    <div>Partner B: Ask to go outside</div>
-                    <div>Use: "<strong>Mukwai, napapata, kuti nayako?</strong>"</div>
-                    <div>Switch roles and practice again</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Sentence Construction</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete the following sentences in Icibemba:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. Before eating, I must: _________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>b. After playing, I must: _________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>c. My parents want me to: _________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Fill in the missing word:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>__________, kuti nayako panse? (Teacher)</div>
-                    <div class="answer-space" style="width: 200px; height: 30px; display: inline-block; margin-left: 10px;"></div>
-                    <div>Mukwai, __________, kuti nayako? (Please)</div>
-                    <div class="answer-space" style="width: 200px; height: 30px; display: inline-block; margin-left: 10px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Dialogue Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> With a partner, create a short dialogue between a parent and child about home rules. Write your dialogue here:
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw yourself asking politely:
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc; display: flex; align-items: center; justify-content: center;">
-                    <div style="font-size: 18px;">Draw: You saying "Mukwai, kuti nayako?" to a teacher</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Nshila imbi ili shani? (Why are home rules important?) Write your answer in Icibemba or English:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Practice asking one family member: 'Mukwai, kuti nayako?' (You can use it to ask to leave the room at home).",
-        homeworkDue: "Tuesday"
+        homework: "Ask your parent or guardian to tell you 3 home rules in Icibemba. Write them down and draw a picture for each rule.",
+        homeworkDue: "Wednesday"
     },
     
     tuesday: {
-        subject: "Bemba",
-        topic: "Permission in the Classroom",
-        subtopic: "Asking for items or help politely",
+        subject: "Zambian Language (Icibemba)",
+        topic: "Rules & Early Boundaries",
+        subtopic: "School Rules - Amalayile Ya Sukulu",
         lessonContent: `
-            <p>Mwauka bwanji! Today we will learn how to ask for things in the classroom politely.</p>
-            <p><strong>Key Concept:</strong> When we need something, we ask politely using respectful words.</p>
-            <p><strong>When to ask for permission:</strong></p>
+            <p>Mwabonwa! Today we continue with our rules topic but now focus on school rules in Icibemba.</p>
+            <p><strong>Key Question:</strong> Ni shani amalayile ya sukulu? (What are the school rules?)</p>
+            <p><strong>Introduction:</strong> Schools have rules to help all students learn safely and respectfully. Knowing how to talk about school rules in Icibemba helps you be a good student.</p>
+            <p><strong>School Rules Vocabulary (Amalayile Ya Sukulu):</strong></p>
+            <ol>
+                <li><strong>Ishina mu maali:</strong> Arrive on time</li>
+                <li><strong>Fwala ifwuulilo fyo sukulu:</strong> Wear your school uniform</li>
+                <li><strong>Umfwikila umwinaabo wa musambilisha:</strong> Listen to your teacher</li>
+                <li><strong>Landa mu musebo uwakusa:</strong> Speak respectfully</li>
+                <li><strong>Lekelanya abana banakwe:</strong> Be kind to other children</li>
+                <li><strong>Ichisha uboko wa kumulandu wa kulanda:</strong> Raise your hand to speak</li>
+                <li><strong>Epako icikuta muno mu kalasi:</strong> Keep the classroom clean</li>
+                <li><strong>Leka ukubutuka muno mu kalasi:</strong> No running in the classroom</li>
+                <li><strong>Iyandiko ulimo lwobe wamwiina:</strong> Do your own work (no cheating)</li>
+                <li><strong>Fwaisha ulusambo mu nshila isendama:</strong> Use the bathroom properly</li>
+            </ol>
+            <p><strong>Grammar Point - Positive vs. Negative Commands:</strong></p>
             <ul>
-                <li>When you want to borrow something</li>
-                <li>When you need help</li>
-                <li>When you want to use something that isn't yours</li>
-                <li>When you need to leave your seat</li>
+                <li>Positive commands tell someone what TO do (e.g., "Ishina" - Arrive)</li>
+                <li>Negative commands tell someone what NOT to do (e.g., "Leka ukubutuka" - Don't run)</li>
+                <li>"Leka" + verb means "Stop/Don't" do something</li>
             </ul>
-            <p><strong>New Vocabulary:</strong></p>
-            <ul>
-                <li><strong>Kuti nabula?:</strong> May I take? / May I borrow?</li>
-                <li><strong>Kuti mwangafwa?:</strong> Can you help me?</li>
-                <li><strong>Fye:</strong> Just / Only (makes request softer)</li>
-            </ul>
-            <p><strong>How to ask to borrow a pencil:</strong> "Mukwai, kuti nabula fye?" (Teacher, may I just borrow?)</p>
-            <p><strong>How to ask for help:</strong> "Mukwai, kuti mwangafwa?" (Teacher, can you help me?)</p>
-            <p><strong>Remember:</strong> Always wait for the answer before taking anything!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt" style="color: #FF9800;"></i> Borrowing Example</div>
-                <p>"Mukwai, kuti nabula fye?" - This means "Teacher, may I just borrow?"</p>
+                <div class="example-title"><i class="fas fa-clock"></i> Chishinka - Example</div>
+                <p>Musambilisha ati: "Ishina mu maali pa mulandu wa kwamba icilimo."<br>
+                <em>(Teacher says: "Arrive on time to start the lesson.")</em></p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping" style="color: #4CAF50;"></i> Asking for Help</div>
-                <p>"Mukwai, kuti mwangafwa?" - This means "Teacher, can you help me?"</p>
+                <div class="example-title"><i class="fas fa-hand-paper"></i> Chishinka - Example</div>
+                <p>"Ichisha uboko wa kumulandu wa kulanda - leka ukulanda mu mweso."<br>
+                <em>("Raise your hand to speak - don't shout out.")</em></p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exchange-alt"></i> Pair Practice</div>
-                <p>We will practice with partners – asking to borrow a pencil politely!</p>
+                <div class="example-title"><i class="fas fa-heart"></i> Chishinka - Example</div>
+                <p>"Lekelanya abana banakwe bamo saana nga mwa suulu."<br>
+                <em>("Be kind to other children especially at school.")</em></p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice asking for items and help politely.",
+        taskInstructions: "Create a school rules chart and practice giving commands to classmates.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Pencil Borrowing Activity</strong></p>
+                <p><strong>Part A: School Rules Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Pair work: One has a pencil, the other asks to borrow it:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <div>1. Partner A holds a pencil</div>
-                        <div>2. Partner B says: "<strong>Mukwai, kuti nabula fye?</strong>"</div>
-                        <div>3. Partner A responds: "<strong>Ee, napapata.</strong>" (Yes, please)</div>
-                        <div>4. Partner B takes the pencil and says: "<strong>Natotela.</strong>" (Thank you)</div>
-                        <div>5. Switch roles and repeat</div>
+                    <span class="task-number">1</span> Complete the chart with 5 school rules in Icibemba:
+                    <div style="margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Rule Number</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Icibemba Rule</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">English Translation</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 40px;"></div></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Help Request Role Play</strong></p>
+                <p><strong>Part B: Positive vs. Negative Commands</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Pretend you need help with a book:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div><strong>Child:</strong> "Mukwai, kuti mwangafwa?" (Teacher, can you help me?)</div>
-                        <div><strong>Teacher:</strong> "Ee, ninshi mwaleta? (Yes, with what?)"</div>
-                        <div><strong>Child:</strong> "Na buku." (With a book.)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Matching Game</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Match the Bemba phrase with its meaning:
+                    <span class="task-number">2</span> Change these positive commands into negative commands (Leka + verb):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Mukwai, kuti nayako? → <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>2. Kuti nabula fye? → <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>3. Kuti mwangafwa? → <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>4. Napapata → <span class="answer-space" style="width: 200px;"></span></div>
+                        <div>a. Ishina mu maali (Arrive on time) → _________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>b. Fwala ifwuulilo (Wear uniform) → _________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>c. Landa mu musebo uwakusa (Speak respectfully) → _________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Classroom Permission Scenarios</strong></p>
+                <p><strong>Part C: Role Play Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> What would you say in these situations?
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FCE4EC; border-radius: 5px;">
-                        <div>a) You need to sharpen your pencil:</div>
-                        <div class="answer-space" style="width: 300px; height: 30px; margin: 5px 0 15px 10px;"></div>
-                        <div>b) You want to borrow a classmate's crayon:</div>
-                        <div class="answer-space" style="width: 300px; height: 30px; margin: 5px 0 15px 10px;"></div>
-                        <div>c) You don't understand the exercise:</div>
-                        <div class="answer-space" style="width: 300px; height: 30px; margin: 5px 0 0 10px;"></div>
-                    </div>
+                    <span class="task-number">3</span> In pairs, act out a classroom scene. One person is the teacher giving commands in Icibemba. The other is a student responding. Write your script:
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Comparison</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Compare home rules and school rules. How are they similar? How are they different? Write in Icibemba or English:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Good Student Pledge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write and sign a "Good Student Pledge" in Icibemba promising to follow 3 school rules:
+                    <div class="answer-space" style="height: 80px;"></div>
+                    <div style="margin-top: 10px;">Signature: ___________________ Date: ___________</div>
                 </div>
             </div>
         `,
-        homework: "Ask to borrow something at home using: 'Mukwai, kuti nabula fye?' Remember to say 'Natotela' after!",
-        homeworkDue: "Wednesday"
+        homework: "Write 5 school rules in Icibemba that you will follow this week. Share them with a family member and explain what they mean.",
+        homeworkDue: "Thursday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleBembaWeek10);
-    console.log("bemba-week10-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(zambianLanguageIcibembaWeek10);
+    console.log("zambian-language-icibemba-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleBembaWeek10);
-    console.log("bemba-week10-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(zambianLanguageIcibembaWeek10);
+    console.log("zambian-language-icibemba-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleBembaWeek10',
-        metadata: middleBembaWeek10.metadata,
-        days: middleBembaWeek10
+        variableName: 'zambianLanguageIcibembaWeek10',
+        metadata: zambianLanguageIcibembaWeek10.metadata,
+        days: zambianLanguageIcibembaWeek10
     });
-    console.log("bemba-week10-objects.js stored in window.registeredWorksheets");
+    console.log("zambian-language-icibemba-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleBembaWeek10 = middleBembaWeek10;
-console.log("bemba-week10-objects.js loaded and registered successfully");
+window.zambianLanguageIcibembaWeek10 = zambianLanguageIcibembaWeek10;
+console.log("zambian-language-icibemba-week10.js loaded and registered successfully");

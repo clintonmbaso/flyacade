@@ -1,192 +1,246 @@
-// Middle Class Bemba - Week 2 Data (Personal and Social Identity)
-const middleBembaWeek2 = {
+// Grade Middle - Zambian Language (Icibemba) - Term 1 Week 2 Data
+const zambianLanguageIcibembaWeek2 = {
     metadata: {
         grade: "middle",
         subject: "Zambian Language (Icibemba)",
+        term: 1,
         week: 2,
-        title: "Personal and Social Identity — Ishina Lyandi na Cibusa Wandandi",
-        description: "Learning to state own name and identify a friend's name in Bemba"
+        title: "Identity & Names",
+        description: "Learning to respond to one's own name and state names of friends in Icibemba"
     },
     
     monday: {
-        subject: "Bemba",
-        topic: "Ishina Lyandi (Own Name)",
-        subtopic: "Clearly stating and responding to one's own name in Bemba",
+        subject: "Icibemba",
+        topic: "Identity",
+        subtopic: "My Own Name - Responding to One's Name",
         lessonContent: `
-            <p>Mwashibukeni abaana! Welcome to our Bemba lesson! Today we will learn about something very special about each of us – our names!</p>
-            <p><strong>Key Concept (Iyi citaayalo):</strong> Umuuntu alila na ishina lyakwe lyakupela. Ishina lyobe lyafula! (Everyone has their own special name. Your name is important!)</p>
-            <p><strong>What is a name? (Ishina ni caani?)</strong></p>
+            <p>Mwabonwa! (Welcome!) Today we will learn how to respond when someone calls our name in Icibemba.</p>
+            <p><strong>Key Question:</strong> How do you respond when your teacher calls your name?</p>
+            <p><strong>Introduction:</strong> In every language, responding to your name is one of the first and most important things to learn. It shows respect and attentiveness. In Icibemba, we have special ways to answer when someone calls us.</p>
+            <p><strong>Key Phrases for Today:</strong></p>
+            <ol>
+                <li><strong>"Na?" (Nah?)</strong> - "Yes?" (responding when someone calls your name)</li>
+                <li><strong>"Ndi pano" (Ndee pah-noh)</strong> - "I am here" (responding to attendance)</li>
+                <li><strong>"Nalipo" (Nah-lee-poh)</strong> - "I am present"</li>
+            </ol>
+            <p><strong>Classroom Commands:</strong></p>
             <ul>
-                <li>Ilyo icabo abantu bakukuta (The word people call you)</li>
-                <li>Cintu cacitumpa ukuti ni we ani (How we know who is who)</li>
-                <li>Cintu cacitumpa ukuti nga muli umo (What makes you unique)</li>
-                <li>Cintu abashikulu na ifibusa bacitumpa ukuti ni wewe (How teachers and friends know you)</li>
+                <li><strong>"Imfwa shina lyobe?"</strong> - "What is your name?"</li>
+                <li><strong>"Shina lyandi ndi..."</strong> - "My name is..."</li>
+                <li><strong>"Uli pano?"</strong> - "Are you here?"</li>
             </ul>
-            <p><strong>How to say your name (Ukwishiba ukutila ishina lyobe):</strong> Imina uletampa pantanshi uwishile ne cing'a, "Ishina lyandi ni [Ishina Lyobe]!"</p>
-            <p><strong>How to respond when called (Ukwishiba ukupusuka pantu uunfwile ishina lyobe):</strong> Pantu uunfwile ishina lyobe, uleponsha ukuti "Epo ndi!" nomba ukwiminina ukwasa ukuboko.</p>
-            <p><strong>Why are names important? (Cinshi ifishina fyafula?)</strong> Ifishina natuposha ukumanyana, ukupanga ifibusa, nomba ukumfwilisha ukuti nga muli umo!</p>
+            <p><strong>Cultural Note:</strong> In Bemba culture, names often have special meanings. Children may be named after grandparents, important events, or desired qualities. Responding promptly to your name shows good manners and respect for the person who named you.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user" style="color: #4CAF50;"></i> Ukwelekesha Iwe Mwine (Introducing Yourself)</div>
-                <p>"Ishina lyandi ni Amina." - Eyo ni katila tukasoselela abantu ukuti nifwe ani.</p>
+                <div class="example-title"><i class="fas fa-hand-paper"></i> Action Response</div>
+                <p><strong>Teacher:</strong> "Mulandu?" (Calling a student's name)<br>
+                <strong>Student:</strong> Raises hand and says "Na!" or "Ndi pano!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper"></i> Ukupusuka Pantu Uunfwile Ishina Lyobe (Roll Call Response)</div>
-                <p>Bashikulu: "Amina?" Amina: "Epo ndi!" - Eyo ni katila tukapusuka pantu tuunfwile ifishina fyetu.</p>
+                <div class="example-title"><i class="fas fa-users"></i> Attendance Practice</div>
+                <p><strong>Teacher:</strong> "Bwalya, uli pano?" (Bwalya, are you here?)<br>
+                <strong>Bwalya:</strong> "Na, ndi pano, Madame/Sir." (Yes, I am here.)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-music"></i> Ulwimbo lwa "Mwashibukeni"! (Hello Song!)</div>
-                <p>Twaletambe ulwimbo lwetu lwa "Mwashibukeni"! Pantu ilyo cilefika icashika, wewe wishile ishina lyobe nga ulicemfya!</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Introducing Yourself</div>
+                <p><strong>Teacher:</strong> "Imfwa shina lyobe?"<br>
+                <strong>Student:</strong> "Shina lyandi ndi Chanda." (My name is Chanda.)</p>
             </div>
         `,
-        taskInstructions: "Elimeni ifilambilamo ififintu fyonse ukuletamba ukwishiba ukutila ifishina nomba ukupusuka pantu uunfwile ishina lyobe.",
+        taskInstructions: "Listen for your name and respond with the correct action and phrase.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Ulwamfya wa Bola (Ball Toss Game):
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <p>Ikaleni mu mpanda. Pantu bola ilefika kuli iwe:</p>
-                    <div>1. Ikwata bola</div>
-                    <div>2. Imina uletampa pantanshi</div>
-                    <div>3. Wishile: "Ishina lyandi ni ______________"</div>
-                    <div>4. Icilasa cileponsha: "Mwashibukeni ______________!"</div>
+            <div class="content-box">
+                <p><strong>Part A: Name Response Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> When the teacher calls your name, do the following:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Raise your hand</div>
+                        <div>• Say <strong>"Na!"</strong> clearly</div>
+                        <div>• Or say <strong>"Ndi pano!"</strong> (I am here)</div>
+                    </div>
+                    <div class="practice-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Teacher will call each student's name. Practice your response here:</em></p>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Ulukalulo lwa Ishina Lyobe (Draw your name badge):
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc; display: flex; align-items: center; justify-content: center;">
-                    <div style="font-size: 24px; font-weight: bold;">Ishina Lyandi: ______________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Call and Response Game</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> In pairs, practice calling each other's names:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Student A: Calls Student B's name</div>
+                        <div>Student B: Responds with "Na!" and raises hand</div>
+                        <div>Switch roles and repeat</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                        <p><em>Write the name of your partner and practice:</em></p>
+                    </div>
                 </div>
-                <div style="margin-top: 10px;">Ikonkeni ulukalulo lwa ishina lyobe nga muli amalangishi yamunyoko!</div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Ukulemba ifishina (Roll call practice):
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                    <div><strong>Bashikulu:</strong> "David?"</div>
-                    <div class="answer-space" style="height: 30px; width: 200px; display: inline-block; margin-left: 10px;">Umwana aleponsha: ________________</div>
-                    <div><em>Kumbukilani ukwiminina ukwasa ukuboko pantu mwapusuka!</em></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Attendance Role-Play</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Pretend you are the teacher taking attendance. Say each name and have your partner respond:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Ulwamfya wa Ifishina (Name matching game):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Pantu bashikulu baleebele ishina lyobe, iminini uwaminine!</div>
-                    <div>Ukulemba: ☐ David ☐ Amina ☐ Samuel ☐ Fatima</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why is it important to respond quickly when someone calls your name?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Lembelela ukwishiba 'Ishina lyandi ni...' kuli balumendo batatu aba mu lukaya. Baambile ukuti na bo babeele ifishina fyabo.",
+        homework: "Practice responding to your name at home. When a family member calls you, say 'Na!' or 'Ndi pano!' Ask a family member to call your name 5 times.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Bemba",
-        topic: "Ishina lya Cibusa Wandandi (Friend's Name)",
-        subtopic: "Identifying and naming a friend's name in Bemba",
+        subject: "Icibemba",
+        topic: "Identity",
+        subtopic: "Names of Friends - Stating Own Name and Friend's Name",
         lessonContent: `
-            <p>Lelo tulilaba ukwishiba ukumanya no kukumbula ifishina fya fibusa fyetu!</p>
-            <p><strong>Key Concept (Iyi citaayalo):</strong> Ifibusa ni abantu abafula ifyo twalaba na bo nokutamba na bo. Ukumanya ifishina fyabo kukwonesha ukuti twabafula.</p>
-            <p><strong>What is a friend? (Cibusa ni caani?)</strong></p>
+            <p>Mwabonwa nga mwe! (Welcome everyone!) Today we will learn how to tell others our own name and our friend's name in Icibemba.</p>
+            <p><strong>Key Question:</strong> How do you say "My friend's name is..." in Icibemba?</p>
+            <p><strong>Introduction:</strong> Now that you know how to respond when someone calls YOUR name, it's time to learn how to tell others your name and the names of your friends. This helps us build community and show respect for one another.</p>
+            <p><strong>Key Phrases for Today:</strong></p>
+            <ol>
+                <li><strong>"Shina lyandi ndi..." (Shee-nah lyahn-dee ndee...)</strong> - "My name is..."</li>
+                <li><strong>"Shina lya mubwanga ndi..." (Shee-nah lyah moo-bwan-gah ndee...)</strong> - "My friend's name is..."</li>
+                <li><strong>"Mubwanga" (Moo-bwan-gah)</strong> - "My friend"</li>
+                <li><strong>"Uyu ni..." (Oo-yoo nee...)</strong> - "This is..." (introducing someone)</li>
+            </ol>
+            <p><strong>Useful Vocabulary:</strong></p>
             <ul>
-                <li>Umuuntu ifyo twatamba na we (Someone we play with)</li>
-                <li>Umuuntu ifyo twasangana na we (Someone we share with)</li>
-                <li>Umuuntu uwaleikala pafupi na ifwe (Someone who sits near us)</li>
-                <li>Umuuntu uwatwalabila (Someone we can talk to)</li>
+                <li><strong>"Ee" (Ay-ay)</strong> - "Yes"</li>
+                <li><strong>"Awe" (Ah-way)</strong> - "No"</li>
+                <li><strong>"Twendeni" (Twen-day-nee)</strong> - "Let's go"</li>
+                <li><strong>"Mwapoleni mukwai" (Mwah-poh-lay-nee moo-kwai)</strong> - "Hello everyone" (respectful greeting)</li>
             </ul>
-            <p><strong>How to ask for a name (Ukwishiba ukupusha ishina):</strong> Lolela cibusa cobe uwishile ne, "Ishina lyobe ni we ani?" nga muli umusebo!</p>
-            <p><strong>How to tell about a friend (Ukwishiba ukusoselela pantu cibusa):</strong> Wishile "Cibusa wandi ni [Ishina]."</p>
-            <p><strong>Remembering names (Ukukumbula ifishina):</strong> Pantu twalaba ifishina fya fibusa fyetu, twaleta ukupanga ifibusa ifingi nomba ukutamba pamo nga twasangana!</p>
+            <p><strong>Cultural Note:</strong> In Bemba culture, friendship is highly valued. The word "mubwanga" shows a close bond. When introducing a friend, you show respect by stating their name clearly and with pride. Friends often help each other learn and practice language skills.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-user-friends" style="color: #2196F3;"></i> Ukupusha Cibusa (Asking a Friend)</div>
-                <p>"Ishina lyobe ni we ani?" "Ishina lyandi ni David." - Eyo ni katila twalaba ifishina fyacilamuntu.</p>
+                <div class="example-title"><i class="fas fa-user"></i> Stating Your Own Name</div>
+                <p><strong>Teacher:</strong> "Imfwa shina lyobe?" (What is your name?)<br>
+                <strong>Student:</strong> "Shina lyandi ndi Mutale." (My name is Mutale.)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-train" style="color: #FF9800;"></i> Ing'anda ya Fibusa (Friendship Train)</div>
-                <p>"Cibusa wandi ni Amina!" - Eyo ni katila twalelekesha ifibusa fyetu kuli bandi.</p>
+                <div class="example-title"><i class="fas fa-user-friends"></i> Stating Your Friend's Name</div>
+                <p><strong>Teacher:</strong> "Shina lya mubwangu nani?" (What is your friend's name?)<br>
+                <strong>Student:</strong> "Shina lya mubwanga ndi Bwalya." (My friend's name is Bwalya.)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Ulwamfya wa Ing'anda ya Fibusa! (Friendship Train Game!)</div>
-                <p>Twaingile ing'anda! Umwana uwaleba mu mpoto apusha, "Ishina lyobe ni we ani?" na wishile, "Cibusa wandi ni..." kuli cibusa cilicilwa icileingila!</p>
+                <div class="example-title"><i class="fas fa-handshake"></i> Introducing a Friend</div>
+                <p><strong>Student A:</strong> "Uyu ni mubwanga, shina lyakwe ndi Chanda." (This is my friend, his/her name is Chanda.)<br>
+                <strong>Student B:</strong> "Mwapoleni, Chanda!" (Hello, Chanda!)</p>
             </div>
         `,
-        taskInstructions: "Elimeni ifilambilamo ififintu fyonse ukuletamba ukumanya no kukutila ifishina fya fibusa.",
+        taskInstructions: "State your own name clearly and learn to state a friend's name using 'My friend's name is...'",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Ing'anda ya Fibusa (The Friendship Train)</strong></p>
+                <p><strong>Part A: Introduce Yourself</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Twaletambe ulwamfya wa Ing'anda ya Fibusa:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <div>1. Umwana umo aleba nga engine</div>
-                        <div>2. Alendamukila kuli cibusa no kupusha: "Ishina lyobe ni we ani?"</div>
-                        <div>3. Cibusa cileponsha: "Ishina lyandi ni ______"</div>
-                        <div>4. Engine wishile: "Cibusa wandi ni ______"</div>
-                        <div>5. Cibusa cipya cileingila mu ng'anda!</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Ukwelekesha Icibusa (Partner Introductions)</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Ingileni na umwana uwaleikala pafupi na iwe. Lembelela ukwelekesha icibusa cobe:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FCE4EC; border-radius: 5px;">
-                        <div><strong>Kuli Bashikulu:</strong> "Aca ni cibusa candi. Cibusa wandi ni ______________."</div>
-                        <div style="margin-top: 10px;">Lukaluleni icikalamo cacili iwe na cibusa cobe pamo:</div>
-                        <div class="drawing-area" style="height: 120px; margin-top: 5px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Ulwamfya wa Ukukumbula Ifishina (Name Memory Game)</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Songelani kuli cibusa cakwesha pantu bashikulu baleebele ishina lyacobe:
+                    <span class="task-number">1</span> Stand up and say your name to the class using the correct phrase:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Bashikulu baleebele: "David" → Songela kuli David uwishile: "Cibusa wandi ni David!"</div>
-                        <div>Bashikulu baleebele: "Amina" → Songela kuli Amina uwishile: "Cibusa wandi ni Amina!"</div>
+                        <div>"Shina lyandi ndi ______________"</div>
+                    </div>
+                    <div class="practice-area" style="height: 60px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Practice writing and saying your name here:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Impanda ya Fibusa (Friendship Circle)</strong></p>
+                <p><strong>Part B: My Friend's Name</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Ikaleni mu mpanda. Sendekelani kuli umwana uwaleikala pafupi na iwe uwishile:
+                    <span class="task-number">2</span> Point to a friend next to you and say:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>"Mwashibukeni! Ishina lyandi ni ______________."</div>
-                        <div>"Ishina lyobe ni we ani?"</div>
-                        <div>"Cibusa wandi ni ______________."</div>
+                        <div>"Shina lya mubwanga ndi ______________"</div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                        <p><em>Write your friend's name:</em></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Pair Introduction Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Work with a partner. Take turns introducing each other to the class:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Student A:</strong> "Uyu ni mubwanga. Shina lyakwe ndi [Friend's Name]."</div>
+                        <div><strong>Class:</strong> "Mwapoleni, [Friend's Name]!"</div>
+                    </div>
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <p style="text-align: center; color: #999; padding-top: 35px;">[Draw a picture of you and your friend]</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Complete the Sentences</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Fill in the blanks with the correct Icibemba words:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) "________ lyandi ndi Mary." (My name is Mary.)</div>
+                        <div>b) "Shina lya ________ ndi John." (My friend's name is John.)</div>
+                        <div>c) "Uyu ni ________." (This is my friend.)</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Classroom Interview</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Walk around the classroom and ask 3 friends their names. Write them down:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Friend 1: "Shina lyakwe ndi ________"</div>
+                        <div>Friend 2: "Shina lyakwe ndi ________"</div>
+                        <div>Friend 3: "Shina lyakwe ndi ________"</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part F: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Why is it important to know and use your friends' names?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Pusha umwana umo aba mu lukaya, 'Ishina lyobe ni we ani?' Lembelela ukwishiba, 'Cibusa wandi ni...' (na bo balumendo aba mu lukaya linga muli fibusa!)",
+        homework: "Ask a family member 'Imfwa shina lyobe?' (What is your name?) and respond with 'Shina lyandi ndi...' Tell them the name of one friend from school using 'Shina lya mubwanga ndi...'",
         homeworkDue: "Wednesday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleBembaWeek2);
-    console.log("bemba-week2-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(zambianLanguageIcibembaWeek2);
+    console.log("zambian-language-icibemba-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleBembaWeek2);
-    console.log("bemba-week2-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(zambianLanguageIcibembaWeek2);
+    console.log("zambian-language-icibemba-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleBembaWeek2',
-        metadata: middleBembaWeek2.metadata,
-        days: middleBembaWeek2
+        variableName: 'zambianLanguageIcibembaWeek2',
+        metadata: zambianLanguageIcibembaWeek2.metadata,
+        days: zambianLanguageIcibembaWeek2
     });
-    console.log("bemba-week2-objects.js stored in window.registeredWorksheets");
+    console.log("zambian-language-icibemba-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleBembaWeek2 = middleBembaWeek2;
-console.log("bemba-week2-objects.js loaded and registered successfully");
+window.zambianLanguageIcibembaWeek2 = zambianLanguageIcibembaWeek2;
+console.log("zambian-language-icibemba-week2.js loaded and registered successfully");

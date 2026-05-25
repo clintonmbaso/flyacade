@@ -1,382 +1,414 @@
-// Grade 1 English - Week 5 Data (Commands & Personal Preferences)
-const middleEnglishWeek5 = {
+// Grade Middle English - Term 1 Week 5 Data
+const gradeMiddleEnglishWeek5 = {
     metadata: {
         grade: "middle",
         subject: "English",
+        term: 1,
         week: 5,
-        title: "Listening, Leading & Liking — Commands and Personal Expression",
-        description: "Learning to listen/follow commands, give commands, and express likes/dislikes"
+        title: "Things at Home (Part 2)",
+        description: "Identifying and describing items in the sitting room and bedroom, actions in the home, and sorting items by room"
     },
     
     monday: {
         subject: "English",
-        topic: "Listening to Commands (Action Game)",
-        subtopic: "Listening and responding to simple physical commands",
+        topic: "Home Vocabulary",
+        subtopic: "Items in the Sitting Room",
         lessonContent: `
-            <p>Welcome to Week 5! Today we will learn how to listen carefully and follow commands with fun actions.</p>
-            <p><strong>Key Concept:</strong> A command is an instruction that tells us to do something. When we listen well, we can follow the command correctly!</p>
-            <p><strong>Why are commands important?</strong></p>
+            <p>Welcome! Today we will learn the names of common items we find in the sitting room (also called the living room).</p>
+            <p><strong>Key Question:</strong> What objects can you see in your sitting room at home?</p>
+            <p><strong>Introduction:</strong> The sitting room is where families relax, watch television, and spend time together. Learning the names of items in this room helps us describe our home.</p>
+            <p><strong>New Vocabulary Words:</strong></p>
+            <ol>
+                <li><strong>Chair:</strong> A piece of furniture for one person to sit on. It has a back and four legs.</li>
+                <li><strong>Table:</strong> A piece of furniture with a flat top and legs. We put things on it like food, books, or a lamp.</li>
+                <li><strong>Mat:</strong> A piece of thick material placed on the floor. We wipe our feet on it or sit on it.</li>
+            </ol>
+            <p><strong>Sentence Practice:</strong></p>
             <ul>
-                <li>They help us learn and play games together</li>
-                <li>They keep us safe in the classroom</li>
-                <li>They help teachers and friends communicate</li>
+                <li>"This is a <strong>chair</strong>. I sit on the chair."</li>
+                <li>"That is a <strong>table</strong>. We eat at the table."</li>
+                <li>"Here is a <strong>mat</strong>. The mat is on the floor."</li>
             </ul>
-            <p><strong>Today's game:</strong> We will play "Teacher Says" – but only do the action if you hear "Teacher says" first!</p>
-            <p><strong>Simple commands we will practice:</strong> "Sit down," "Stand up," "Jump," "Come here."</p>
-            <p><strong>Classroom commands:</strong> "Close the door," "Raise your hand," "Go there."</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad" style="color: #FF5722;"></i> Teacher Says Game</div>
-                <p>"Teacher says stand up!" → We stand up!<br>
-                "Stand up!" → We do nothing (because Teacher didn't say "Teacher says"!)</p>
+                <div class="example-title"><i class="fas fa-home"></i> At Home Example</div>
+                <p>In my sitting room, there is a brown chair, a wooden table, and a round mat. My family sits together here every evening.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-running"></i> Action Commands</div>
-                <p>"Jump!" → We jump up and down.<br>
-                "Come here!" → We walk to the teacher.</p>
+                <div class="example-title"><i class="fas fa-question-circle"></i> Question Practice</div>
+                <p>Teacher asks: "What is this?" Student answers: "This is a table."</p>
+                <p>Teacher asks: "Where is the mat?" Student answers: "The mat is on the floor."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-door-closed"></i> Classroom Commands</div>
-                <p>"Close the door." → We close the door gently.<br>
-                "Raise your hand." → We raise our hand quietly.</p>
+                <div class="example-title"><i class="fas fa-language"></i> Words to Know</div>
+                <p>Remember: <strong>chair</strong> (for sitting), <strong>table</strong> (for placing things), <strong>mat</strong> (on the floor).</p>
             </div>
         `,
-        taskInstructions: "Practice listening and following commands with the activities below.",
+        taskInstructions: "Name, write, and draw sitting room items. Practice speaking in complete sentences.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the picture that shows the command:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>"Sit down" → ☐ Child standing ☐ Child sitting</div>
-                    <div>"Raise your hand" → ☐ Hand up ☐ Hand down</div>
-                    <div>"Jump" → ☐ Child sleeping ☐ Child jumping</div>
+            <div class="content-box">
+                <p><strong>Part A: Name the Items</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look at each picture. Write the correct word (chair, table, or mat):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>📷 Picture 1: A piece of furniture you sit on → _________</div>
+                        <div>📷 Picture 2: A flat surface on legs for placing things → _________</div>
+                        <div>📷 Picture 3: A piece of thick material on the floor → _________</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Listen and do! When your teacher says:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                    <div>"Teacher says stand up!" → <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>"Teacher says sit down!" → <span class="answer-space" style="width: 100px;"></span></div>
-                    <div>"Teacher says jump!" → <span class="answer-space" style="width: 100px;"></span></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Complete the Sentences</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Fill in the blank with the correct word:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) I sit on the _________.</div>
+                        <div>b) We put our food on the _________.</div>
+                        <div>c) The _________ is on the floor near the door.</div>
+                        <div>d) My grandmother likes to sit on that wooden _________.</div>
+                        <div>e) Please wipe your feet on the _________ before entering.</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Draw yourself following a command:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">I am following the command: ________________</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a sitting room. Include a chair, a table, and a mat. Label each item:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Match the command to the action:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>"Close the door" → ☐ Walk to a place</div>
-                    <div>"Go there" → ☐ Shut the door</div>
-                    <div>"Raise your hand" → ☐ Lift your hand up</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Speaking Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> With a partner, point to each item and say a sentence. Example: "This is a chair. I sit on the chair."
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Play 'Teacher Says' with someone at home. Practice three commands you learned today.",
+        homework: "Draw your sitting room at home. Label the chair, table, and mat. Show your drawing to your family and name each item in English.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Leading the Class (Giving Commands)",
-        subtopic: "Giving out simple commands to friends",
+        topic: "Home Vocabulary",
+        subtopic: "Actions in the Sitting Room",
         lessonContent: `
-            <p>Today we switch from following commands to GIVING commands! You will become the leader.</p>
-            <p><strong>Key Concept:</strong> When we give clear commands, our friends can understand and follow them.</p>
-            <p><strong>How to give a good command:</strong></p>
+            <p>Today we will learn action words (verbs) for things we do in the sitting room. We will also practice miming these actions!</p>
+            <p><strong>Key Question:</strong> What actions can you do with a mat or a table?</p>
+            <p><strong>Introduction:</strong> Knowing action words helps us describe what people do. Today we will practice miming (acting out) actions so you can remember the words better.</p>
+            <p><strong>Action Words (Verbs) for the Sitting Room:</strong></p>
+            <ol>
+                <li><strong>Sit (on a mat/chair):</strong> To rest your body on something. "I sit on the mat."</li>
+                <li><strong>Eat (at a table):</strong> To put food in your mouth. "We eat at the table."</li>
+                <li><strong>Drink (at a table):</strong> To take liquid into your mouth. "I drink water at the table."</li>
+                <li><strong>Wipe (your feet on a mat):</strong> To clean or dry something by rubbing. "Please wipe your feet on the mat."</li>
+                <li><strong>Relax (in a chair):</strong> To rest and feel calm. "My father relaxes in the chair."</li>
+            </ol>
+            <p><strong>Sentence Practice:</strong></p>
             <ul>
-                <li>Speak loudly and clearly</li>
-                <li>Look at the people you're talking to</li>
-                <li>Use a friendly but firm voice</li>
-                <li>Say "please" when it's not a game</li>
+                <li>"I <strong>sit on</strong> the mat."</li>
+                <li>"We <strong>eat at</strong> the table."</li>
+                <li>"She <strong>wipes</strong> her feet on the mat."</li>
             </ul>
-            <p><strong>Today's special role:</strong> Class Captain! The captain gets to give commands for 5 minutes.</p>
-            <p><strong>Commands you can give:</strong> "Write," "Read," "Stand up," "Sit down," "Look here."</p>
-            <p><strong>Activity:</strong> In small groups, take turns telling your friends what to do. Practice the power of your words!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-crown" style="color: #FFC107;"></i> Class Captain</div>
-                <p>"Class, please stand up." → Everyone stands up.<br>
-                "Friends, write your name." → Everyone writes their name.</p>
+                <div class="example-title"><i class="fas fa-theater-masks"></i> Miming Activity</div>
+                <p>Teacher says: "Sit on the mat." Students mime sitting on the floor.</p>
+                <p>Teacher says: "Eat at the table." Students mime eating food at a table.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bullhorn"></i> Clear Commands</div>
-                <p>"Sit down, please." → Friendly and clear.<br>
-                "Raise your hand." → Direct and easy to follow.</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Daily Routine</div>
+                <p>Every morning, I sit on a chair and eat breakfast at the table. Then I wipe my feet on the mat before going outside.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users"></i> Group Practice</div>
-                <p>In groups of three, take turns being the leader:<br>
-                Leader says: "Stand up." → Friends stand up.<br>
-                Leader says: "Sit down." → Friends sit down.</p>
+                <div class="example-title"><i class="fas fa-comments"></i> Partner Practice</div>
+                <p>Student A mimes an action. Student B guesses: "You are sitting on a mat!" or "You are eating at a table!"</p>
             </div>
         `,
-        taskInstructions: "Practice giving clear commands to others.",
+        taskInstructions: "Mime actions in the sitting room, match verbs to items, and write sentences.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Become Class Captain</strong></p>
+                <p><strong>Part A: Miming Game</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> As Class Captain, give these commands to a partner:
+                    <span class="task-number">1</span> With your teacher or a partner, mime these actions. Take turns guessing:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Command 1: "<span class="answer-space" style="width: 150px;"></span>"</div>
-                        <div>Command 2: "<span class="answer-space" style="width: 150px;"></span>"</div>
-                        <div>Command 3: "<span class="answer-space" style="width: 150px;"></span>"</div>
+                        <div>• Sitting on a mat</div>
+                        <div>• Eating at a table</div>
+                        <div>• Wiping your feet on a mat</div>
+                        <div>• Relaxing in a chair</div>
+                        <div>• Drinking water at a table</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;">
+                        <p><em>Write down one action you mimed and how your partner guessed:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Draw a Leader</strong></p>
+                <p><strong>Part B: Match the Action to the Item</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw yourself as Class Captain giving a command:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">I am saying: "<span class="answer-space" style="width: 200px;"></span>"</div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Command Cards</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Pick a command card and say it clearly to your group:
+                    <span class="task-number">2</span> Draw a line to match each action to the correct item:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ "Write your name."</div>
-                        <div>☐ "Read the picture."</div>
-                        <div>☐ "Stand up."</div>
-                        <div>☐ "Sit down."</div>
+                        <div>sitting → _________ (chair / table / mat)</div>
+                        <div>eating → _________ (chair / table / mat)</div>
+                        <div>wiping feet → _________ (chair / table / mat)</div>
+                        <div>relaxing → _________ (chair / table / mat)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Good Leader Rules</strong></p>
+                <p><strong>Part C: Write Your Own Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Circle what a good leader does:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Speaks softly</div>
-                        <div>☐ Looks at friends</div>
-                        <div>☐ Says commands clearly</div>
-                        <div>☐ Turns away when speaking</div>
-                    </div>
+                    <span class="task-number">3</span> Write two sentences about actions you do in your sitting room:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw and Describe</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a person doing an action in the sitting room. Write a sentence describing the drawing:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Be the 'Home Captain' for 5 minutes. Give two polite commands to family members.",
+        homework: "Teach your family one action word in English. Ask them to mime 'sitting on a mat' or 'eating at a table.' Write one sentence about what they did.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "My Favorite Things (Expressing Likes)",
-        subtopic: "Talking about likes",
+        topic: "Home Vocabulary",
+        subtopic: "Items in the Bedroom",
         lessonContent: `
-            <p>Today is all about what makes you happy! We will learn to talk about things we like.</p>
-            <p><strong>Key Concept:</strong> "I like..." is how we tell others about things that make us smile.</p>
-            <p><strong>What can we like?</strong></p>
+            <p>Today we will learn the names of common items we find in the bedroom!</p>
+            <p><strong>Key Question:</strong> What objects help you sleep and stay comfortable in your bedroom?</p>
+            <p><strong>Introduction:</strong> The bedroom is where we sleep, rest, and keep our clothes. Learning these words helps us talk about our personal space.</p>
+            <p><strong>New Vocabulary Words:</strong></p>
+            <ol>
+                <li><strong>Bed:</strong> A piece of furniture used for sleeping. It has a mattress and a frame.</li>
+                <li><strong>Blanket:</strong> A large piece of warm cloth that covers you when you sleep.</li>
+                <li><strong>Pillow:</strong> A soft cushion that supports your head when you sleep.</li>
+            </ol>
+            <p><strong>Sentence Practice:</strong></p>
             <ul>
-                <li>Food: apples, bananas, rice</li>
-                <li>Toys: balls, dolls, cars</li>
-                <li>Colors: red, blue, yellow</li>
-                <li>Activities: running, drawing, singing</li>
+                <li>"This is my <strong>bed</strong>. I sleep in my bed."</li>
+                <li>"That is a warm <strong>blanket</strong>. The blanket keeps me warm."</li>
+                <li>"Here is a soft <strong>pillow</strong>. I put my head on the pillow."</li>
             </ul>
-            <p><strong>How to say it:</strong> Point to the thing and say "I like [thing]."</p>
-            <p><strong>Activity 1:</strong> "The Happy Box" – pick a picture from the box and say "I like..."</p>
-            <p><strong>Activity 2:</strong> Draw something you like and tell the class about it.</p>
-            <p>Remember: Everyone likes different things, and that's what makes us special!</p>
+            <p><strong>Extra Words (Optional):</strong></p>
+            <ul>
+                <li><strong>Wardrobe/Closet:</strong> A place to hang clothes</li>
+                <li><strong>Lamp:</strong> A light for reading at night</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-heart" style="color: #E91E63;"></i> Happy Box</div>
-                <p>*Picks a picture of an apple*<br>
-                "I like apples!" – Sharing what I enjoy.</p>
+                <div class="example-title"><i class="fas fa-bed"></i> At Home Example</div>
+                <p>In my bedroom, I have a blue bed, a red blanket, and a white pillow. Every night, I put my head on the pillow and pull the blanket over me.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette"></i> Color Liking</div>
-                <p>"I like blue." – Telling my favorite color.<br>
-                "I like red." – Another favorite.</p>
+                <div class="example-title"><i class="fas fa-question-circle"></i> Question Practice</div>
+                <p>Teacher asks: "What do you put your head on?" Student answers: "I put my head on the pillow."</p>
+                <p>Teacher asks: "What keeps you warm at night?" Student answers: "The blanket keeps me warm."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Show and Tell</div>
-                <p>"This is my drawing. I like dogs!" – Showing and telling what I like.</p>
+                <div class="example-title"><i class="fas fa-moon"></i> Bedtime Routine</div>
+                <p>Before I sleep, I fluff my pillow, pull up my blanket, and lie down on my bed. Good night!</p>
             </div>
         `,
-        taskInstructions: "Practice saying 'I like...' with different things.",
+        taskInstructions: "Name, write, and draw bedroom items. Practice using complete sentences.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: The Happy Box</strong></p>
+                <p><strong>Part A: Name the Items</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Choose from the Happy Box pictures and complete the sentence:
+                    <span class="task-number">1</span> Write the correct word (bed, blanket, or pillow):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Picture of a ball: "I like <span class="answer-space" style="width: 100px;"></span>."</div>
-                        <div>Picture of a banana: "I like <span class="answer-space" style="width: 100px;"></span>."</div>
-                        <div>Picture of the color green: "I like <span class="answer-space" style="width: 100px;"></span>."</div>
+                        <div>📷 Picture 1: You sleep on this furniture → _________</div>
+                        <div>📷 Picture 2: A soft cushion for your head → _________</div>
+                        <div>📷 Picture 3: A warm cover for your body → _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Draw What You Like</strong></p>
+                <p><strong>Part B: Complete the Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw one thing you really like:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>I like <span class="answer-space" style="width: 150px;"></span>.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Class Survey</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Ask two friends what they like and write it here:
+                    <span class="task-number">2</span> Fill in the blank with the correct word:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><span class="answer-space" style="width: 100px;"></span> likes <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div><span class="answer-space" style="width: 100px;"></span> likes <span class="answer-space" style="width: 100px;"></span>.</div>
+                        <div>a) I sleep on my _________.</div>
+                        <div>b) The _________ keeps me warm at night.</div>
+                        <div>c) I rest my head on the _________.</div>
+                        <div>d) Please put the _________ on the bed so I can sleep.</div>
+                        <div>e) My _________ is very soft and comfortable.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Like a Star!</strong></p>
+                <p><strong>Part C: Draw and Label</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Present your drawing to the class. Say: "I like ____________."<br>
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FCE4EC; border-radius: 5px;">
-                        <div>Teacher's star rating: ★★★☆☆ (circle how well you presented)</div>
-                    </div>
+                    <span class="task-number">3</span> Draw a bedroom. Include a bed, a blanket, and a pillow. Label each item:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Describe Your Bedroom</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write 2-3 sentences describing your bedroom or your dream bedroom:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home you like. Tell a family member 'I like...' for each one.",
+        homework: "Look at your bed at home. Describe it using three words: bed, blanket, pillow. Write two sentences and draw a small picture.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "English",
-        topic: "Likes and Dislikes (Personal Expression)",
-        subtopic: "Talking about both likes and dislikes",
+        topic: "Home Vocabulary",
+        subtopic: "Home Environments - Sorting Game",
         lessonContent: `
-            <p>Today we learn to express both sides: what we LIKE and what we DON'T LIKE. Both are okay!</p>
-            <p><strong>Key Concept:</strong> We use "I like..." for things we enjoy and "I don't like..." for things we don't enjoy.</p>
-            <p><strong>Why is it okay to dislike something?</strong> Everyone has different tastes. We can be polite when we say we don't like something.</p>
-            <p><strong>Activity 1:</strong> Tasting Party! We'll use pretend food to practice "I like..." and "I don't like..."</p>
-            <p><strong>Activity 2:</strong> Thumbs Up/Thumbs Down game. Teacher names an activity, you show thumbs up (I like) or thumbs down (I don't like) and SAY the sentence.</p>
-            <p><strong>Full sentences:</strong><br>
-            • "I like running."<br>
-            • "I don't like eating spinach."</p>
-            <p>Remember: It's okay to be different from your friends!</p>
+            <p>Today we will play a sorting game! We will decide which items belong in the bedroom and which belong in the kitchen. Then we will learn about other rooms too!</p>
+            <p><strong>Key Question:</strong> Does this item belong in the bedroom or the kitchen? How do you know?</p>
+            <p><strong>Introduction:</strong> Every room in the house has different items. Today we will sort items by room. This helps us organize our vocabulary and describe our homes better.</p>
+            <p><strong>Items We Have Learned This Week:</strong></p>
+            <ul>
+                <li><strong>Sitting Room:</strong> chair, table, mat</li>
+                <li><strong>Bedroom:</strong> bed, blanket, pillow</li>
+            </ul>
+            <p><strong>New Items for Sorting (Kitchen):</strong></p>
+            <ul>
+                <li><strong>Stove/Cooker:</strong> Used for cooking food</li>
+                <li><strong>Pot:</strong> Used for boiling or cooking</li>
+                <li><strong>Cup:</strong> Used for drinking</li>
+                <li><strong>Plate:</strong> Used for eating food</li>
+                <li><strong>Spoon:</strong> Used for eating soup or stirring</li>
+            </ul>
+            <p><strong>Sentence Practice for Sorting:</strong></p>
+            <ul>
+                <li>"A _________ belongs in the bedroom because _________."</li>
+                <li>"A _________ belongs in the kitchen because _________."</li>
+                <li>"A _________ belongs in the sitting room because _________."</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #8BC34A;"></i> Tasting Party</div>
-                <p>*Tastes pretend broccoli*<br>
-                "I don't like broccoli." – It's okay to not like certain foods.</p>
+                <div class="example-title"><i class="fas fa-sort-amount-down"></i> Sorting Example</div>
+                <p>Bedroom: bed, blanket, pillow, wardrobe, lamp</p>
+                <p>Kitchen: stove, pot, cup, plate, spoon, fork, knife</p>
+                <p>Sitting Room: chair, table, mat, television, sofa</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-thumbs-up" style="color: #2196F3;"></i> Thumbs Up Game</div>
-                <p>Teacher: "Eating ice cream!"<br>
-                You: 👍 "I like eating ice cream!"</p>
+                <div class="example-title"><i class="fas fa-question-circle"></i> Why? Questions</div>
+                <p>"Does a pillow belong in the kitchen?" → "No, a pillow belongs in the bedroom because you put your head on it when you sleep."</p>
+                <p>"Does a pot belong in the bedroom?" → "No, a pot belongs in the kitchen because you cook food in it."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-thumbs-down" style="color: #F44336;"></i> Thumbs Down Game</div>
-                <p>Teacher: "Going to bed early!"<br>
-                You: 👎 "I don't like going to bed early!"</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> Game Time</div>
+                <p>Teacher holds up a picture. Students shout: "Bedroom!" or "Kitchen!" or "Sitting Room!"</p>
             </div>
         `,
-        taskInstructions: "Practice expressing both likes and dislikes.",
+        taskInstructions: "Sort items into bedrooms, kitchens, and sitting rooms. Complete charts and create your own sorting game.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Tasting Party Role Play</strong></p>
+                <p><strong>Part A: Sorting Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Taste the pretend food and complete the sentences:
+                    <span class="task-number">1</span> Write each item in the correct column:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Apple: "I <span class="answer-space" style="width: 80px;"></span> apple."</div>
-                        <div>Lemon: "I <span class="answer-space" style="width: 80px;"></span> lemon."</div>
-                        <div>Carrot: "I <span class="answer-space" style="width: 80px;"></span> carrot."</div>
+                        <p><strong>Items to sort:</strong> bed, blanket, pillow, chair, table, mat, stove, pot, cup, plate, spoon</p>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Bedroom</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Sitting Room</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Kitchen</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 150px; vertical-align: top;"></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Thumbs Up / Thumbs Down</strong></p>
+                <p><strong>Part B: Complete the Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw thumbs up or thumbs down for each, then write the sentence:
+                    <span class="task-number">2</span> Complete each sentence with the correct room and a reason:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Running: <span class="answer-space" style="width: 30px;"></span> "I <span class="answer-space" style="width: 80px;"></span> running."</div>
-                        <div>Eating spinach: <span class="answer-space" style="width: 30px;"></span> "I <span class="answer-space" style="width: 80px;"></span> eating spinach."</div>
-                        <div>Drawing pictures: <span class="answer-space" style="width: 30px;"></span> "I <span class="answer-space" style="width: 80px;"></span> drawing pictures."</div>
+                        <div>a) A blanket belongs in the _________ because _________.</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>b) A chair belongs in the _________ because _________.</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>c) A pot belongs in the _________ because _________.</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>d) A pillow belongs in the _________ because _________.</div>
+                        <div class="answer-space" style="height: 40px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: My Like & Dislike Chart</strong></p>
+                <p><strong>Part C: True or False</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw one thing you LIKE and one thing you DON'T LIKE:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div style="font-weight: bold; color: #4CAF50;">I LIKE</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div>I like <span class="answer-space" style="width: 100px;"></span>.</div>
-                        </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div style="font-weight: bold; color: #F44336;">I DON'T LIKE</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div>I don't like <span class="answer-space" style="width: 100px;"></span>.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Full Sentence Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Trace and complete the sentences:
-                    <div style="margin-left: 20px; margin-top: 10px; font-size: 20px;">
-                        <div>I like <span class="answer-space" style="width: 120px;"></span>.</div>
-                        <div>I don't like <span class="answer-space" style="width: 120px;"></span>.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Respectful Talk</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Circle the polite way to say you don't like something:
+                    <span class="task-number">3</span> Write T (True) or F (False) for each statement:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ "I don't like carrots, but that's okay."</div>
-                        <div>☐ "Carrots are yucky and bad!"</div>
-                        <div>☐ "I don't like carrots, but you can like them."</div>
+                        <div>a) A pillow belongs in the kitchen. ___</div>
+                        <div>b) A stove is used for cooking food. ___</div>
+                        <div>c) A mat belongs in the bedroom. ___</div>
+                        <div>d) A cup is used for drinking. ___</div>
+                        <div>e) A blanket keeps you warm in bed. ___</div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Create Your Own Sorting Game</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw 3 items from your home. Write the name of each item. Then write the room where it belongs:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Tell one family member something you like and something you don't like. Use full sentences.",
+        homework: "Look around your home. Find 2 items in your bedroom, 2 items in your sitting room, and 2 items in your kitchen. Write their names in a list and show your family. Ask them: 'Where does this belong?'",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleEnglishWeek5);
-    console.log("english-week5-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeMiddleEnglishWeek5);
+    console.log("grade-middle-english-week5.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleEnglishWeek5);
-    console.log("english-week5-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeMiddleEnglishWeek5);
+    console.log("grade-middle-english-week5.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleEnglishWeek5',
-        metadata: middleEnglishWeek5.metadata,
-        days: middleEnglishWeek5
+        variableName: 'gradeMiddleEnglishWeek5',
+        metadata: gradeMiddleEnglishWeek5.metadata,
+        days: gradeMiddleEnglishWeek5
     });
-    console.log("english-week5-objects.js stored in window.registeredWorksheets");
+    console.log("grade-middle-english-week5.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleEnglishWeek5 = middleEnglishWeek5;
-console.log("english-week5-objects.js loaded and registered successfully");
+window.gradeMiddleEnglishWeek5 = gradeMiddleEnglishWeek5;
+console.log("grade-middle-english-week5.js loaded and registered successfully");

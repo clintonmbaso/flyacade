@@ -1,391 +1,403 @@
-// Grade 1 English - Week 8 Data (Picture Stories)
-const middleEnglishWeek8 = {
+// Grade Middle English - Term 1 Week 8 Data
+const gradeMiddleEnglishWeek8 = {
     metadata: {
         grade: "middle",
         subject: "English",
+        term: 1,
         week: 8,
-        title: "Picture Stories — Interpretation and Description",
-        description: "Learning to observe, describe actions, and create simple stories from pictures"
+        title: "Things in Our Environment",
+        description: "Building vocabulary about nature, animals, flowers, and Earth elements through observation and naming"
     },
     
     monday: {
         subject: "English",
-        topic: "What Do You See?",
-        subtopic: "Interpreting picture stories through description",
+        topic: "Environmental Vocabulary",
+        subtopic: "Nature Around Us – Naming trees and grass outside",
         lessonContent: `
-            <p>Welcome to our picture story week! Today we will learn how to look at a picture and name what we see.</p>
-            <p><strong>Key Concept:</strong> Pictures tell stories without words. We use our eyes to find the story!</p>
-            <p><strong>How to look at a picture:</strong></p>
+            <p>Welcome to our exploration of the environment! Today we'll learn the names of trees and grass that grow around us.</p>
+            <p><strong>Key Question:</strong> What trees and grass can we see right outside our classroom?</p>
+            <p><strong>Introduction:</strong> Our environment is filled with living things. Trees and grass are all around us, and each has its own name and special features.</p>
+            <p><strong>Common Trees We Might See:</strong></p>
             <ul>
-                <li>Look at the whole picture first</li>
-                <li>Find the main things in the picture</li>
-                <li>Look for details and colors</li>
-                <li>Think about where things are placed</li>
+                <li><strong>Mango Tree:</strong> A large tree with dark green leaves and sweet yellow-orange fruits</li>
+                <li><strong>Acacia Tree:</strong> A tree with small leaves and thorns on its branches</li>
+                <li><strong>Eucalyptus Tree:</strong> A tall tree with leaves that smell like medicine</li>
+                <li><strong>Coconut Palm:</strong> A tall tree with a smooth trunk and large coconuts</li>
+                <li><strong>Banyan Tree:</strong> A huge tree with roots that hang down from its branches</li>
             </ul>
-            <p><strong>Naming words:</strong> When we see something in a picture, we use a naming word (noun) to tell what it is.</p>
-            <p><strong>Today's picture:</strong> A fun playground scene with many things to discover!</p>
-            <p><strong>Why is this important?</strong> Describing what we see helps us understand stories and share what we notice!</p>
+            <p><strong>Words to Describe Grass:</strong></p>
+            <ul>
+                <li><strong>Lawn:</strong> Short, soft grass that is cut regularly (often near buildings)</li>
+                <li><strong>Field:</strong> An open area covered with grass</li>
+                <li><strong>Tall grass:</strong> Grass that has not been cut and grows high</li>
+                <li><strong>Green grass:</strong> Healthy, growing grass</li>
+                <li><strong>Dry grass:</strong> Grass that is brown because it lacks water</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-eye" style="color: #2196F3;"></i> Observation Example</div>
-                <p>"I see a red ball." - We name the object and its color to describe it clearly.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Sentence Practice</div>
+                <p>"The mango tree in our school yard provides shade during break time."</p>
+                <p>"The green grass feels soft when I walk on it."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-list" style="color: #4CAF50;"></i> Listing Example</div>
-                <p>"I see a swing, a slide, and a tree." - We can name multiple things we find in a picture.</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Tree Differences</div>
+                <p>Not all trees look the same! Some have broad leaves (like mango trees), while others have tiny leaves (like acacia trees).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> I Spy Game!</div>
-                <p>Let's play "Picture I Spy!" Teacher will show a picture and say "I spy something yellow." You find and name it!</p>
+                <div class="example-title"><i class="fas fa-pen"></i> Describing Words</div>
+                <p>We can use adjectives to describe trees: tall, short, big, small, old, young, leafy, bare, green, brown.</p>
             </div>
         `,
-        taskInstructions: "Look carefully at the playground picture and name what you see.",
+        taskInstructions: "Name and describe trees and grass you see outside.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Look at the playground picture. Circle three things you can name:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ A tall slide</div>
-                    <div>☐ A flying bird</div>
-                    <div>☐ A blue swing</div>
-                    <div>☐ A green tree</div>
-                    <div>☐ A bouncing ball</div>
+            <div class="content-box">
+                <p><strong>Part A: Look Outside – Name What You See</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look out the window or step outside. Write the names of THREE trees you see:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Describe the grass you see. Is it green or dry? Short or tall?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw three things you might see in a playground:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">I drew: ________________, ________________, and ________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Name the objects in the picture:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <div>Picture of a slide: "This is a ________________"</div>
-                    <div>Picture of a swing: "This is a ________________"</div>
-                    <div>Picture of a ball: "This is a ________________"</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw one tree you saw outside. Label its parts (trunk, branches, leaves):
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Color the objects and label them:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Color the swing blue and write "swing"</div>
-                    <div>Color the slide red and write "slide"</div>
-                    <div>Color the ball yellow and write "ball"</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Sentence Writing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write TWO complete sentences about trees or grass:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Share with a Partner</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Tell your partner the name of your favorite tree. Why do you like it?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look at a picture book at home. Name and draw three things you see in one picture.",
+        homework: "Ask a family member the name of a tree near your home. Write the name and draw the tree in your notebook.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "The Action in the Picture",
-        subtopic: "Describing actions shown in pictures",
+        topic: "Environmental Vocabulary",
+        subtopic: "Animals and Flowers – Identifying local animals and colorful flowers",
         lessonContent: `
-            <p>Today we will learn how to look at pictures and tell what people or animals are doing.</p>
-            <p><strong>Key Concept:</strong> Pictures show actions! We use action words (verbs) to tell what is happening.</p>
-            <p><strong>What are action words?</strong></p>
+            <p>Today we'll learn about the animals and flowers that live in our environment!</p>
+            <p><strong>Key Question:</strong> What animals and flowers can we find in our neighborhood?</p>
+            <p><strong>Introduction:</strong> Our environment is full of living creatures and beautiful flowers. Learning their names helps us talk about the world around us.</p>
+            <p><strong>Local Animals We Might See:</strong></p>
             <ul>
-                <li>Words that show movement: run, jump, play</li>
-                <li>Words that show doing: eat, read, write</li>
-                <li>Words that show being: sleep, sit, stand</li>
+                <li><strong>Bird:</strong> An animal with feathers and wings that can fly (example: crow, sparrow, pigeon)</li>
+                <li><strong>Butterfly:</strong> An insect with colorful wings that flies from flower to flower</li>
+                <li><strong>Lizard:</strong> A small reptile that climbs on walls and eats insects</li>
+                <li><strong>Squirrel:</strong> A small animal with a bushy tail that climbs trees</li>
+                <li><strong>Ant:</strong> A tiny insect that lives in groups (colonies)</li>
+                <li><strong>Cat or Dog:</strong> Domestic animals that live near people</li>
             </ul>
-            <p><strong>How to describe actions:</strong></p>
-            <ol>
-                <li>Look at what the person/animal is doing</li>
-                <li>Find the action word that matches</li>
-                <li>Make a complete sentence: "The boy is running."</li>
-            </ol>
-            <p><strong>Today's picture:</strong> Children doing different activities like running, eating, and sleeping.</p>
-            <p><strong>Why is this important?</strong> Describing actions helps us tell better stories about what we see!</p>
+            <p><strong>Colorful Flowers We Might See:</strong></p>
+            <ul>
+                <li><strong>Hibiscus:</strong> A large flower that can be red, yellow, pink, or white</li>
+                <li><strong>Sunflower:</strong> A tall yellow flower that turns toward the sun</li>
+                <li><strong>Rose:</strong> A flower with soft petals and sometimes thorns on its stem</li>
+                <li><strong>Marigold:</strong> A small orange or yellow flower often used in celebrations</li>
+                <li><strong>Morning Glory:</strong> A purple or blue flower that opens in the morning</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-running" style="color: #FF9800;"></i> Action Example</div>
-                <p>"The girl is jumping." - We name the person and what they are doing.</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Sentence Practice</div>
+                <p>"A brown bird is sitting on the branch."</p>
+                <p>"The butterfly landed on a red hibiscus flower."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #795548;"></i> Doing Example</div>
-                <p>"The boy is eating." - We can describe everyday actions too.</p>
+                <div class="example-title"><i class="fas fa-flower"></i> Flower Colors</div>
+                <p>Flowers come in many colors! We can say: red rose, yellow sunflower, purple morning glory, orange marigold.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Freeze Dance Game!</div>
-                <p>Let's play "Picture Freeze!" When the music stops, freeze in an action pose. Friends will guess what you're doing!</p>
+                <div class="example-title"><i class="fas fa-paw"></i> Animal Actions</div>
+                <p>Animals do different things: birds fly, ants crawl, lizards climb, squirrels run, butterflies flutter.</p>
             </div>
         `,
-        taskInstructions: "Look at the action picture and describe what each person is doing.",
+        taskInstructions: "Identify and name local animals and colorful flowers.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Match the Action</strong></p>
+                <p><strong>Part A: Animal Name Hunt</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match each picture with the correct action word:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Picture of running child → ☐ eating</div>
-                        <div>Picture of sleeping child → ☐ running</div>
-                        <div>Picture of eating child → ☐ sleeping</div>
-                    </div>
+                    <span class="task-number">1</span> Look outside or think about animals you have seen nearby. Name THREE animals:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Choose one animal. Write a sentence describing what it does:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Complete the Sentences</strong></p>
+                <p><strong>Part B: Flower Names</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Look at the picture and complete the sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The boy is ________________. (running/jumping)</div>
-                        <div>The girl is ________________. (eating/sleeping)</div>
-                        <div>The baby is ________________. (crying/laughing)</div>
-                    </div>
+                    <span class="task-number">3</span> Name TWO flowers you have seen. What colors were they?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a flower and color it:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw and Describe</strong></p>
+                <p><strong>Part C: Matching Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw yourself doing your favorite activity:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>Write: "I am ________________"</div>
+                    <span class="task-number">5</span> Draw a line to match each animal to its action:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Bird → ________ (crawls / flies / climbs)</div>
+                        <div>Lizard → ________ (swims / climbs / jumps)</div>
+                        <div>Butterfly → ________ (runs / flutters / digs)</div>
+                        <div>Ant → ________ (crawls / flies / barks)</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Action Charades</strong></p>
+                <p><strong>Part D: Drawing and Labeling</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Act out an action for your partner to guess:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Your action: ________________</div>
-                        <div>Partner's guess: ________________</div>
-                    </div>
+                    <span class="task-number">6</span> Draw one animal and one flower. Write their names below your drawing:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
                 </div>
             </div>
         `,
-        homework: "Watch family members for 5 minutes. Draw one person and write what action they were doing.",
+        homework: "Find a flower near your home. Draw it, color it, and write its name and color in your notebook.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Creating the Tale",
-        subtopic: "Connecting pictures to tell short stories",
+        topic: "Environmental Vocabulary",
+        subtopic: "Elements of Earth – Naming water and soil",
         lessonContent: `
-            <p>Today we will learn how to connect two pictures to make a simple story.</p>
-            <p><strong>Key Concept:</strong> When pictures go together, they can tell a story about what happens next.</p>
-            <p><strong>What is a sequence?</strong> A sequence means things happen in an order: first, then, next.</p>
-            <p><strong>How to connect pictures:</strong></p>
+            <p>Today we'll learn about two very important parts of our environment: water and soil!</p>
+            <p><strong>Key Question:</strong> Where do we see water and soil in our environment?</p>
+            <p><strong>Introduction:</strong> Water and soil are non-living things, but they are essential for all living things. Without water and soil, trees, grass, animals, and flowers could not survive.</p>
+            <p><strong>Where We Find Water:</strong></p>
             <ul>
-                <li>Look at Picture 1: What is happening?</li>
-                <li>Look at Picture 2: What changed?</li>
-                <li>Think about what might have happened between them</li>
-                <li>Use words like "first," "then," and "now"</li>
+                <li><strong>River:</strong> A large flow of water that moves across the land</li>
+                <li><strong>Lake:</strong> A body of water surrounded by land (does not flow like a river)</li>
+                <li><strong>Pond:</strong> A small body of water</li>
+                <li><strong>Rain:</strong> Water that falls from clouds</li>
+                <li><strong>Tap water:</strong> Water that comes from a faucet in our homes and schools</li>
+                <li><strong>Puddle:</strong> A small pool of water on the ground after rain</li>
             </ul>
-            <p><strong>Today's pictures:</strong> First, a boy with an umbrella. Second, a rainy sky.</p>
-            <p><strong>Story words:</strong> We can use "because," "so," and "then" to connect our ideas.</p>
-            <p><strong>Why is this important?</strong> Connecting pictures helps our brains think about cause and effect in stories!</p>
+            <p><strong>Words for Soil and Earth:</strong></p>
+            <ul>
+                <li><strong>Soil:</strong> The top layer of earth where plants grow</li>
+                <li><strong>Dirt:</strong> Another word for soil or earth</li>
+                <li><strong>Sand:</strong> Tiny grains of rock (found in deserts and on beaches)</li>
+                <li><strong>Clay:</strong> Thick, sticky soil that holds water</li>
+                <li><strong>Mud:</strong> Wet, soft soil (soil mixed with water)</li>
+                <li><strong>Ground:</strong> The solid surface of the earth</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-umbrella" style="color: #2196F3;"></i> Picture 1</div>
-                <p>"The boy has an umbrella." - This is what we see in the first picture.</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Sentence Practice</div>
+                <p>"The river flows behind our school."</p>
+                <p>"Plants need good soil to grow healthy and strong."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cloud-rain" style="color: #607D8B;"></i> Picture 2</div>
-                <p>"Now it is raining." - This is what we see in the second picture.</p>
+                <div class="example-title"><i class="fas fa-cloud-rain"></i> Describing Rain</div>
+                <p>We can describe rain: light rain, heavy rain, steady rain, pouring rain.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Story Chain Game!</div>
-                <p>Let's make a story chain! I'll start with "The boy took his umbrella..." Next person adds "because..." and so on!</p>
+                <div class="example-title"><i class="fas fa-mud"></i> Wet vs. Dry</div>
+                <p>Soil can be dry (brown and crumbly) or wet (dark and sticky like mud).</p>
             </div>
         `,
-        taskInstructions: "Look at the two pictures and create a short story that connects them.",
+        taskInstructions: "Identify and name examples of water and soil in your environment.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Picture Order</strong></p>
+                <p><strong>Part A: Water Sources</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Number the pictures in the correct story order:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Rainy sky</div>
-                        <div>☐ Boy with umbrella</div>
-                        <div>Correct order: ______ then ______</div>
-                    </div>
+                    <span class="task-number">1</span> Name THREE places where you can find water in nature:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Where does the water at your school come from?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Complete the Story</strong></p>
+                <p><strong>Part B: Soil Types</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Use both pictures to complete this story:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div>First, the boy took his umbrella.</div>
-                        <div>Then, ________________________</div>
-                        <div>Now, he is ready for the rain!</div>
-                    </div>
+                    <span class="task-number">3</span> Look at the ground outside. Describe the soil. Is it dark or light? Dry or wet? Hard or soft?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name TWO things that grow in soil:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw What Happened Between</strong></p>
+                <p><strong>Part C: Sentence Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw what might have happened BETWEEN the two pictures:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>Between Picture 1 and Picture 2: ________________</div>
-                    </div>
+                    <span class="task-number">5</span> Write ONE sentence about water:
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Write ONE sentence about soil:
+                    <div class="answer-space" style="height: 50px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Story Circle</strong></p>
+                <p><strong>Part D: Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> With a partner, create a story using these words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>boy + umbrella + rain + dry</div>
-                        <div>Your story: "________________________________"</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: What Comes Next?</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw what might happen AFTER Picture 2:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 30px; margin-top: 10px;">After the rain, ________________</div>
+                    <span class="task-number">7</span> Draw a picture that shows BOTH water and soil (example: a river flowing over the ground, or rain falling on soil):
+                    <div class="drawing-area" style="height: 130px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Find two pictures in a magazine or book that could go together. Tell a family member your story about them.",
+        homework: "Look for water and soil near your home. Write two sentences: one about water you saw, and one about soil you saw.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "English",
-        topic: "The Young Storyteller",
-        subtopic: "Creative storytelling based on pictures",
+        topic: "Environmental Vocabulary",
+        subtopic: "Nature Walk – Stepping outside to actively point at and name environmental items",
         lessonContent: `
-            <p>Today is picture story celebration day! You will become the storyteller for your own picture.</p>
-            <p><strong>Key Concept:</strong> Every picture has a story waiting to be told by YOU!</p>
-            <p><strong>How to "read" a picture:</strong></p>
-            <ol>
-                <li>Look carefully at all the details</li>
-                <li>Decide who the characters are</li>
-                <li>Imagine what they are doing and feeling</li>
-                <li>Create a beginning, middle, and end</li>
-            </ol>
-            <p><strong>Story elements:</strong></p>
+            <p>Today we will go outside for a Nature Walk! We will point to things in our environment and say their names out loud.</p>
+            <p><strong>Key Question:</strong> What can we see, touch, and name in our school environment?</p>
+            <p><strong>Introduction:</strong> This week we learned many new words for things in our environment: trees, grass, animals, flowers, water, and soil. Today we will practice using these words outside!</p>
+            <p><strong>Things to Look For on Our Nature Walk:</strong></p>
             <ul>
-                <li><strong>Characters:</strong> Who is in the picture?</li>
-                <li><strong>Setting:</strong> Where are they?</li>
-                <li><strong>Action:</strong> What are they doing?</li>
-                <li><strong>Feeling:</strong> How do they feel?</li>
+                <li><strong>Trees:</strong> Can you name the trees you see? Mango? Acacia? Coconut?</li>
+                <li><strong>Grass:</strong> Is it green or dry? Short or tall?</li>
+                <li><strong>Animals:</strong> Do you see any birds, butterflies, ants, or lizards?</li>
+                <li><strong>Flowers:</strong> Do you see any colorful flowers? What colors are they?</li>
+                <li><strong>Water:</strong> Is there a puddle, a tap, or a pond nearby?</li>
+                <li><strong>Soil:</strong> Look at the ground. What does the soil look like?</li>
             </ul>
-            <p><strong>Today's activity:</strong> Each of you will receive a special picture card. You will tell its story to the class!</p>
-            <p><strong>Why is this important?</strong> Storytelling helps us use our imagination and share our ideas with others!</p>
+            <p><strong>Nature Walk Rules:</strong></p>
+            <ul>
+                <li>Stay with your teacher and classmates</li>
+                <li>Walk, do not run</li>
+                <li>Look with your eyes - do not pick flowers or harm animals</li>
+                <li>Point to things you can name</li>
+                <li>Listen to your teacher and take turns speaking</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book-reader" style="color: #9C27B0;"></i> Storytelling Example</div>
-                <p>"This is a girl in a garden. She is happy because she found a butterfly. She is gently looking at it."</p>
+                <div class="example-title"><i class="fas fa-arrow-pointer"></i> Point and Say</div>
+                <p>When you see something, point to it and say: "I see a [name of thing]."</p>
+                <p>Example: "I see a mango tree." "I see green grass." "I see a butterfly."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-theater-masks" style="color: #FF5722;"></i> Feeling Example</div>
-                <p>"The boy feels excited because he is on a swing. He is smiling and holding on tight!"</p>
+                <div class="example-title"><i class="fas fa-clipboard-list"></i> Nature Walk Checklist</div>
+                <p>□ Tree □ Grass □ Bird □ Flower □ Water □ Soil □ Insect □ Animal</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Picture Pass Game!</div>
-                <p>We'll pass a picture around the circle. Each person adds one sentence to the story!</p>
+                <div class="example-title"><i class="fas fa-comments"></i> Talk With Friends</div>
+                <p>After pointing, tell a friend: "Look at the [name of thing]! It is [adjective]."</p>
+                <p>Example: "Look at the flower! It is red and beautiful."</p>
             </div>
         `,
-        taskInstructions: "You will receive a picture card. Create and tell a story about what you see.",
+        taskInstructions: "Go outside, point to environmental items, and record what you see.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Picture Card Examination</strong></p>
+                <p><strong>Part A: Nature Walk Checklist</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at your picture card. Answer these questions:
+                    <span class="task-number">1</span> As you walk outside, check off each thing you see:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Who is in your picture? ________________</div>
-                        <div>Where are they? ________________</div>
-                        <div>What are they doing? ________________</div>
-                        <div>How do they feel? ________________</div>
+                        <div>□ A tree</div>
+                        <div>□ Grass</div>
+                        <div>□ A bird</div>
+                        <div>□ A butterfly or other insect</div>
+                        <div>□ A flower</div>
+                        <div>□ Water (puddle, tap, or other)</div>
+                        <div>□ Soil or dirt</div>
+                        <div>□ Another animal (lizard, squirrel, cat, dog)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Story Planning</strong></p>
+                <p><strong>Part B: Name and Describe</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Plan your story using this outline:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                        <div>Beginning: ________________________</div>
-                        <div>Middle: ________________________</div>
-                        <div>End: ________________________</div>
-                    </div>
+                    <span class="task-number">2</span> Write the names of THREE things you saw on your nature walk:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Choose one thing you saw. Write a sentence describing it:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Partner Story Share</strong></p>
+                <p><strong>Part C: Draw Your Favorite Discovery</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Tell your story to a partner. Listen to their story too:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My story title: ________________</div>
-                        <div>My partner's story title: ________________</div>
-                    </div>
+                    <span class="task-number">4</span> Draw the most interesting thing you saw on your nature walk:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write the name of what you drew:
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Draw Your Own Story Picture</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Create your own picture that tells a story:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My picture shows: ________________</div>
-                    </div>
+                    <span class="task-number">6</span> What was your favorite part of the nature walk? Why?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Storytelling Certificate</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> You are now a Young Storyteller! Complete your certificate:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 15px; border: 2px dashed #4CAF50; border-radius: 10px; text-align: center;">
-                        <div style="font-size: 18px; font-weight: bold;">Certificate of Storytelling</div>
-                        <div style="margin: 10px 0;">Awarded to: ________________</div>
-                        <div>For telling a wonderful picture story about:</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
-                        <div style="margin-top: 10px;">Signed: The Story Teacher</div>
-                    </div>
+                    <span class="task-number">7</span> What new word did you learn this week that you will use again?
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Choose a picture from a book at home. Tell a bedtime story about it to a family member.",
+        homework: "Tell a family member about your nature walk. Name three things you saw outside. Draw one of them in your notebook.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleEnglishWeek8);
-    console.log("english-week8-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeMiddleEnglishWeek8);
+    console.log("grade-middle-english-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleEnglishWeek8);
-    console.log("english-week8-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeMiddleEnglishWeek8);
+    console.log("grade-middle-english-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleEnglishWeek8',
-        metadata: middleEnglishWeek8.metadata,
-        days: middleEnglishWeek8
+        variableName: 'gradeMiddleEnglishWeek8',
+        metadata: gradeMiddleEnglishWeek8.metadata,
+        days: gradeMiddleEnglishWeek8
     });
-    console.log("english-week8-objects.js stored in window.registeredWorksheets");
+    console.log("grade-middle-english-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleEnglishWeek8 = middleEnglishWeek8;
-console.log("english-week8-objects.js loaded and registered successfully");
+window.gradeMiddleEnglishWeek8 = gradeMiddleEnglishWeek8;
+console.log("grade-middle-english-week8.js loaded and registered successfully");

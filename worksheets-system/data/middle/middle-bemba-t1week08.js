@@ -1,189 +1,256 @@
-// Middle Class Bemba - Week 8 Data (Likes and Dislikes)
-const middleBembaWeek8 = {
+// Grade Middle - Zambian Language (Icibemba) - Term 1 Week 8 Data
+const zambianLanguageIcibembaWeek8 = {
     metadata: {
         grade: "middle",
         subject: "Zambian Language (Icibemba)",
+        term: 1,
         week: 8,
-        title: "Likes and Dislikes — Ifyalitemwa nafyalishitemwa",
-        description: "Learning to express positive and negative preferences politely in Bemba"
+        title: "Animals & Social Expressions",
+        description: "Learning domestic animal names and common greetings in Icibemba"
     },
     
     monday: {
-        subject: "Bemba",
-        topic: "Ifyalitemwa (Things I Love)",
-        subtopic: "Expressing positive preferences",
+        subject: "Zambian Language (Icibemba)",
+        topic: "Domestic Animals",
+        subtopic: "Naming Common Animals Found Around the Home Environment",
         lessonContent: `
-            <p>Mwashibukeni bana! Today we will learn how to say what we like or love in Bemba!</p>
-            <p><strong>Key Concept:</strong> We all have things we enjoy. It's good to share what makes us happy.</p>
-            <p><strong>New Vocabulary:</strong></p>
-            <ul>
-                <li><strong>Nalitemwa</strong> – I like / I love</li>
-                <li><strong>Ifyakulya</strong> – food</li>
-                <li><strong>Ifitenge</strong> – clothes</li>
-            </ul>
-            <p><strong>How to say what you like:</strong></p>
-            <p>Say clearly: <strong>"Nalitemwa [something]"</strong></p>
-            <p>Example: <strong>"Nalitemwa amenshi"</strong> (I like water)</p>
-            <p><strong>Why is it good to share what we like?</strong> It helps friends know us better and we can enjoy things together!</p>
+            <p>Mwabonwa! Welcome to our Icibemba lesson! Today we will learn the names of domestic animals we find around the home.</p>
+            <p><strong>Key Question:</strong> What are the Icibemba names for common domestic animals?</p>
+            <p><strong>Introduction:</strong> Domestic animals are animals that live with us or near our homes. In Zambia, many families keep domestic animals for companionship, food, and security. Learning their names in Icibemba helps us communicate better in our communities.</p>
+            <p><strong>Domestic Animals Vocabulary:</strong></p>
+            <ol>
+                <li><strong>Umwa (Dog)</strong> - A loyal animal that guards the home</li>
+                <li><strong>Mbushi (Goat)</strong> - An animal often raised for meat and milk</li>
+                <li><strong>Pushi (Cat)</strong> - A small animal that hunts mice and rats</li>
+                <li><strong>Inkoko (Chicken)</strong> - A bird raised for eggs and meat</li>
+            </ol>
+            <p><strong>Grammar Note:</strong> In Icibemba, nouns belong to different classes. These animal names are in the noun class that begins with "i-" or "u-" for singular forms.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-heart" style="color: #e91e63;"></i> Positive Preference</div>
-                <p><strong>"Nalitemwa ifyakulya."</strong> – I like food.</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Example Sentence - Umwa</div>
+                <p><strong>Icibemba:</strong> Umwa uwaluka pa ng'anda.<br>
+                <strong>English:</strong> The dog barks at the house.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tshirt" style="color: #4CAF50;"></i> Clothing Preference</div>
-                <p><strong>"Nalitemwa ifitenge."</strong> – I like clothes.</p>
+                <div class="example-title"><i class="fas fa-goat"></i> Example Sentence - Mbushi</div>
+                <p><strong>Icibemba:</strong> Mbushi ilia icani.<br>
+                <strong>English:</strong> The goat eats grass.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt" style="color: #FF9800;"></i> Food Example</div>
-                <p>Teacher holds an apple: <strong>"Nalitemwa apula!"</strong> – I like apples!</p>
+                <div class="example-title"><i class="fas fa-cat"></i> Example Sentence - Pushi</div>
+                <p><strong>Icibemba:</strong> Pushi ipele inonka.<br>
+                <strong>English:</strong> The cat drinks milk.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-drumstick-bite"></i> Example Sentence - Inkoko</div>
+                <p><strong>Icibemba:</strong> Inkoko iikula amanda.<br>
+                <strong>English:</strong> The chicken scratches the ground.</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice saying what you like.",
+        taskInstructions: "Practice identifying and naming domestic animals in Icibemba through writing and speaking activities.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Object Show and Say:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFEBEE; border-radius: 5px;">
-                    <p>Teacher holds up an apple or a ball.</p>
-                    <div>Each student says: <strong>"Nalitemwa [object]"</strong></div>
-                    <div>Example: <strong>"Nalitemwa bola!"</strong> (I like ball)</div>
+            <div class="content-box">
+                <p><strong>Part A: Vocabulary Writing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Write the Icibemba name for each animal and draw a small picture:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Dog: _________ <span style="font-size: 12px; color: #666;">(draw here: _______)</span></div>
+                        <div>Goat: _________ <span style="font-size: 12px; color: #666;">(draw here: _______)</span></div>
+                        <div>Cat: _________ <span style="font-size: 12px; color: #666;">(draw here: _______)</span></div>
+                        <div>Chicken: _________ <span style="font-size: 12px; color: #666;">(draw here: _______)</span></div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw what you like:
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc; display: flex; align-items: center; justify-content: center;">
-                    <div style="font-size: 18px;">Nalitemwa: ______________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Matching Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Match the Icibemba word to the correct English translation:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. Umwa ___ &nbsp;&nbsp;&nbsp; A. Chicken</div>
+                        <div>2. Mbushi ___ &nbsp;&nbsp;&nbsp; B. Cat</div>
+                        <div>3. Pushi ___ &nbsp;&nbsp;&nbsp; C. Goat</div>
+                        <div>4. Inkoko ___ &nbsp;&nbsp;&nbsp; D. Dog</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
-                <div style="margin-top: 10px;">Draw something you love and label it in Bemba if you can!</div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Circle Sharing:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                    <div>Sit in a circle. Take turns saying:</div>
-                    <div><strong>"Icine naine, nalitemwa ______________."</strong></div>
-                    <div>(My name is ____, I like ________.)</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Sentence Construction</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Complete each sentence with the correct animal name:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) _________ ipele inonka. (Cat drinks milk)</div>
+                        <div>b) _________ uwaluka. (Dog barks)</div>
+                        <div>c) _________ ilia icani. (Goat eats grass)</div>
+                        <div>d) _________ iikula amanda. (Chicken scratches the ground)</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Match the phrase:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Draw a line from picture to phrase:</div>
-                    <div>☐ Picture of food → <strong>"Nalitemwa ifyakulya"</strong></div>
-                    <div>☐ Picture of clothes → <strong>"Nalitemwa ifitenge"</strong></div>
-                    <div>☐ Picture of water → <strong>"Nalitemwa amenshi"</strong></div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Speaking Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Say each animal name aloud. Practice with a partner:
+                    <div class="pronunciation-box" style="margin-left: 20px; margin-top: 10px; padding: 10px; background: #f5f5f5;">
+                        <div>• Umwa (OOM-wah) - Dog</div>
+                        <div>• Mbushi (MM-boo-shee) - Goat</div>
+                        <div>• Pushi (POO-shee) - Cat</div>
+                        <div>• Inkoko (een-KOH-koh) - Chicken</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which domestic animal is most common in your home or community? Why?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Tell one family member one thing you like using <strong>'Nalitemwa...'</strong>",
+        homework: "Ask a family member or neighbor the Icibemba names for other domestic animals (like pig, duck, or horse). Write down three new animal names you learn.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Bemba",
-        topic: "Ifyalishitemwa (Things I Don’t Like)",
-        subtopic: "Expressing negative preferences politely",
+        subject: "Zambian Language (Icibemba)",
+        topic: "Social Expressions",
+        subtopic: "Common Greetings for Different Times of the Day",
         lessonContent: `
-            <p>Mwashibukeni abanono! Today we learn how to say what we don’t like in a polite way.</p>
-            <p><strong>Key Concept:</strong> It's okay to not like something, but we say it politely.</p>
-            <p><strong>New Vocabulary:</strong></p>
+            <p>Mwabonwa! Today we will learn common Icibemba greetings for different times of the day. Greetings are very important in Zambian culture!</p>
+            <p><strong>Key Question:</strong> How do you say "Good morning" and "Good afternoon" in Icibemba?</p>
+            <p><strong>Introduction:</strong> In Zambia, greetings are not just polite - they show respect and build community. Before asking any question or starting any conversation, you must greet the person properly. Today we will learn the most common time-based greetings.</p>
+            <p><strong>Common Greetings Vocabulary:</strong></p>
+            <ol>
+                <li><strong>Mwabonwa (Good morning / Hello)</strong> - Used in the morning (from sunrise until around noon)</li>
+                <li><strong>Mwabonwa (Good afternoon / Hello)</strong> - Also used in the afternoon (the same word can be used with context)</li>
+                <li><strong>Shaleni po (Goodbye - to multiple people)</strong> - Used when leaving a group</li>
+                <li><strong>Shaleni bwino (Stay well - goodbye)</strong> - A kind farewell</li>
+            </ol>
+            <p><strong>Important Cultural Note:</strong> In Icibemba, "Mwabonwa" can be used for both morning and afternoon greetings. The time of day is understood from context. However, a more specific morning greeting is "Mwabonwa umutende" (Good morning peace), and afternoon greeting can be "Mwabonwa umutende wa cungulo" (Good afternoon peace).</p>
+            <p><strong>Response to Greetings:</strong></p>
             <ul>
-                <li><strong>Nshitemwa</strong> – I don’t like</li>
-                <li><strong>Ukubepa</strong> – lying</li>
-                <li><strong>Ifiko</strong> – dirt</li>
+                <li>When someone says "Mwabonwa", you respond with "Ee, mwabonwa" (Yes, hello/good morning)</li>
+                <li>This shows you acknowledge and return the greeting</li>
             </ul>
-            <p><strong>How to say what you don’t like:</strong></p>
-            <p>Say clearly: <strong>"Nshitemwa [something]"</strong></p>
-            <p>Example: <strong>"Nshitemwa ifiko"</strong> (I don’t like dirt)</p>
-            <p><strong>Face Game:</strong> When teacher shows a sad face, we name things we don’t like.</p>
-            <p><strong>Important:</strong> Remember the difference between <strong>Nalitemwa</strong> (like) and <strong>Nshitemwa</strong> (don’t like).</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-frown" style="color: #2196F3;"></i> Negative Preference</div>
-                <p><strong>"Nshitemwa ukubepa."</strong> – I don’t like lying.</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Morning Greeting</div>
+                <p><strong>Person A:</strong> Mwabonwa! (Good morning!)<br>
+                <strong>Person B:</strong> Ee, mwabonwa! (Yes, good morning!)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ban" style="color: #f44336;"></i> Disliking Dirt</div>
-                <p><strong>"Nshitemwa ifiko."</strong> – I don’t like dirt.</p>
+                <div class="example-title"><i class="fas fa-cloud-sun"></i> Afternoon Greeting</div>
+                <p><strong>Person A:</strong> Mwabonwa umutende wa cungulo. (Good afternoon peace.)<br>
+                <strong>Person B:</strong> Ee, mwabonwa. (Yes, good afternoon.)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-face-sad-tear" style="color: #FF9800;"></i> Face Game</div>
-                <p>Teacher shows sad face 😞 → Student says: <strong>"Nshitemwa..."</strong></p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Saying Goodbye</div>
+                <p><strong>Person A (leaving):</strong> Shaleni po! (Goodbye everyone!)<br>
+                <strong>Person B (staying):</strong> Kaya bwino! (Go well!)</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-users"></i> Greeting a Group</div>
+                <p>When greeting multiple people, you can say "Mwabonwa nonse" (Hello everyone). This shows respect to the whole group.</p>
             </div>
         `,
-        taskInstructions: "Complete activities to practice saying what you don’t like.",
+        taskInstructions: "Practice common Icibemba greetings through role-play and written exercises.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Face Game</strong></p>
+                <p><strong>Part A: Greeting Translation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Teacher shows a sad face. Students name one thing they dislike:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <div>😞 Teacher: "Show sad face"</div>
-                        <div>Student: <strong>"Nshitemwa ______________"</strong></div>
-                        <div>Example: <strong>"Nshitemwa ifiko"</strong></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Like vs. Don’t Like</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Circle the correct phrase for each picture:
+                    <span class="task-number">1</span> Translate these greetings from English to Icibemba:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Picture of clean hands → <strong>Nalitemwa / Nshitemwa</strong>?</div>
-                        <div>☐ Picture of dirty hands → <strong>Nalitemwa / Nshitemwa</strong>?</div>
-                        <div>☐ Picture of truth → <strong>Nalitemwa / Nshitemwa</strong>?</div>
-                        <div>☐ Picture of lying → <strong>Nalitemwa / Nshitemwa</strong>?</div>
+                        <div>a) Good morning: _________</div>
+                        <div>b) Good afternoon: _________</div>
+                        <div>c) Goodbye (to multiple people): _________</div>
+                        <div>d) Yes, good morning (response): _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Draw and Say</strong></p>
+                <p><strong>Part B: Time of Day Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw something you don’t like:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <div style="margin-top: 10px;">Write: <strong>"Nshitemwa ______________"</strong></div>
+                    <span class="task-number">2</span> Match the greeting to the correct time of day:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. Mwabonwa ___ &nbsp;&nbsp;&nbsp; A. When leaving a group</div>
+                        <div>2. Shaleni po ___ &nbsp;&nbsp;&nbsp; B. Morning and afternoon</div>
+                        <div>3. Ee, mwabonwa ___ &nbsp;&nbsp;&nbsp; C. Response to a greeting</div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Role Play – Polite Dislike</strong></p>
+                <p><strong>Part C: Dialogue Creation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Practice saying politely:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div>"Balyashi, nshitemwa ifiko." (Sorry, I don’t like dirt.)</div>
-                        <div>"Nshitemwa ukubepa, napapata." (I don’t like lying, honestly.)</div>
+                    <span class="task-number">3</span> Write a short dialogue between two people greeting each other in the morning. Use Icibemba:
+                    <div class="dialogue-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><strong>Person A:</strong> ___________________________________</p>
+                        <p><strong>Person B:</strong> ___________________________________</p>
+                        <p><strong>Person A:</strong> ___________________________________</p>
+                        <p><strong>Person B:</strong> ___________________________________</p>
                     </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Pronunciation Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Practice saying these phrases aloud. Write how each sounds to you:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Mwabonwa (Mwah-BOHN-wah): ________________________________</div>
+                        <div>• Shaleni po (shah-LEH-nee poh): ________________________________</div>
+                        <div>• Ee, mwabonwa (ay, mwah-BOHN-wah): ________________________________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Cultural Understanding</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why are greetings especially important in Zambian culture? What do they show about a person?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part F: Role-Play Preparation</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> With a partner, prepare a 30-second role-play showing a proper morning greeting. Write your lines below:
+                    <div class="roleplay-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Tell a family member one thing you don’t like using <strong>'Nshitemwa...'</strong>",
+        homework: "Practice greeting your family members in Icibemba tomorrow morning. Say 'Mwabonwa' to at least three people. Write down how they responded.",
         homeworkDue: "Wednesday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleBembaWeek8);
-    console.log("bemba-week8-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(zambianLanguageIcibembaWeek8);
+    console.log("zambian-language-icibemba-week8.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleBembaWeek8);
-    console.log("bemba-week8-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(zambianLanguageIcibembaWeek8);
+    console.log("zambian-language-icibemba-week8.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleBembaWeek8',
-        metadata: middleBembaWeek8.metadata,
-        days: middleBembaWeek8
+        variableName: 'zambianLanguageIcibembaWeek8',
+        metadata: zambianLanguageIcibembaWeek8.metadata,
+        days: zambianLanguageIcibembaWeek8
     });
-    console.log("bemba-week8-objects.js stored in window.registeredWorksheets");
+    console.log("zambian-language-icibemba-week8.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleBembaWeek8 = middleBembaWeek8;
-console.log("bemba-week8-objects.js loaded and registered successfully");
+window.zambianLanguageIcibembaWeek8 = zambianLanguageIcibembaWeek8;
+console.log("zambian-language-icibemba-week8.js loaded and registered successfully");

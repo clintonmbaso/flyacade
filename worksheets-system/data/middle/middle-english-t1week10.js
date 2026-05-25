@@ -1,400 +1,412 @@
-// Grade 1 English - Week 10 Data (Daily Activities)
-const middleEnglishWeek10 = {
+// Grade Middle English - Term 1 Week 10 Data
+const gradeMiddleEnglishWeek10 = {
     metadata: {
         grade: "middle",
         subject: "English",
+        term: 1,
         week: 10,
-        title: "My Busy Day — Describing Daily Activities",
-        description: "Learning to describe, role-play, and categorize daily activities like sleeping, eating, and morning/night routines"
+        title: "Simple Commands",
+        description: "Learning to listen and respond to basic action commands and classroom management instructions"
     },
     
     monday: {
         subject: "English",
-        topic: "My Busy Day",
-        subtopic: "Describing daily activities",
+        topic: "Listening & Speaking",
+        subtopic: "Action Commands (Part 1)",
         lessonContent: `
-            <p>Welcome to Week 10! This week we will learn all about our daily activities—the things we do every day!</p>
-            <p><strong>Key Concept:</strong> Daily activities are things we do regularly, like sleeping, eating, waking up, and going to bed.</p>
-            <p><strong>What are daily activities?</strong></p>
+            <p>Welcome to our lesson on action commands! Today we'll learn how to understand and respond to basic action words in English.</p>
+            <p><strong>Key Question:</strong> How do we understand and follow simple action commands?</p>
+            <p><strong>Introduction:</strong> Commands are instructions we give to tell someone to do something. Today we'll learn three important action commands.</p>
+            <p><strong>Action Commands - Part 1:</strong></p>
+            <ol>
+                <li><strong>"Sit down"</strong> - To move from standing to sitting position</li>
+                <li><strong>"Stand up"</strong> - To move from sitting to standing position</li>
+                <li><strong>"Jump"</strong> - To push your body off the ground using your legs</li>
+            </ol>
+            <p><strong>How to Respond:</strong></p>
             <ul>
-                <li>Activities we do every day</li>
-                <li>Things that happen at certain times</li>
-                <li>Actions that help us stay healthy and happy</li>
-                <li>Routines that make our days organized</li>
+                <li>Listen carefully to the command</li>
+                <li>Watch the teacher's gestures and body language</li>
+                <li>Perform the action immediately</li>
+                <li>Say "Okay!" or "Yes!" to show you understand</li>
             </ul>
-            <p><strong>Common daily activities:</strong></p>
-            <ul>
-                <li>Sleeping</li>
-                <li>Eating (breakfast, lunch, dinner)</li>
-                <li>Waking up</li>
-                <li>Brushing teeth</li>
-                <li>Going to school</li>
-                <li>Playing</li>
-            </ul>
-            <p><strong>Let's think:</strong> What do you do when you first wake up? What do you do before you go to bed?</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bed" style="color: #5C6BC0;"></i> Morning Activity</div>
-                <p>"When I wake up, I brush my teeth." - This is a daily morning activity.</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Sit Down</div>
+                <p>When your teacher says "Sit down," you bend your knees and lower your body onto your chair or the floor.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #FF9800;"></i> Eating Activity</div>
-                <p>"I eat breakfast with my family." - Eating is an important daily activity.</p>
+                <div class="example-title"><i class="fas fa-standing"></i> Stand Up</div>
+                <p>When your teacher says "Stand up," you push up from your chair and straighten your legs until you are standing tall.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Discussion Game!</div>
-                <p>Let's play "My Day"! We'll sit in a circle and share one thing we do every morning when we wake up.</p>
+                <div class="example-title"><i class="fas fa-frog"></i> Jump</div>
+                <p>When your teacher says "Jump," you push off the ground with both feet and lift your body into the air.</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice describing daily routines.",
+        taskInstructions: "Listen, respond, and practice the action commands with your classmates.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the pictures that show daily activities:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Picture of someone sleeping</div>
-                    <div>☐ Picture of a birthday cake</div>
-                    <div>☐ Picture of eating breakfast</div>
-                    <div>☐ Picture of brushing teeth</div>
-                    <div>☐ Picture of going on vacation</div>
+            <div class="content-box">
+                <p><strong>Part A: Listen and Do</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Follow your teacher's commands. Perform each action when you hear:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• "Sit down"</div>
+                        <div>• "Stand up"</div>
+                        <div>• "Jump"</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Check each action as you complete it:</em> ___ Sit down &nbsp;&nbsp; ___ Stand up &nbsp;&nbsp; ___ Jump</p>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw a picture of what you do when you first wake up:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">In the morning, I ________________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Complete the sentences about your day:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Before bed, I ________________</div>
-                    <div class="answer-space" style="height: 30px; width: 250px; margin-top: 5px;"></div>
-                    <div>My favorite daily activity is ________________</div>
-                    <div class="answer-space" style="height: 30px; width: 250px; margin-top: 5px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Partner Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Work with a partner. Take turns giving and following commands:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Match the activity with the time:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Brushing teeth → ☐ When I wake up</div>
-                    <div>Eating dinner → ☐ Before bed</div>
-                    <div>Reading a story → ☐ In the evening</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Drawing the Actions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a picture of someone following each command:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Sit down"</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Stand up"</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Jump"</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Which command was easiest for you to follow? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Observe your family's daily activities tonight. Draw one activity that someone in your family does every day.",
+        homework: "Practice the three commands with your family. Ask someone to say 'sit down,' 'stand up,' and 'jump' and show them the actions.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Acting Out My Day",
-        subtopic: "Role-playing daily activities",
+        topic: "Listening & Speaking",
+        subtopic: "Action Commands (Part 2)",
         lessonContent: `
-            <p>Today we will become actors! We'll role-play our daily activities to help us remember the words and actions.</p>
-            <p><strong>Key Concept:</strong> Role-playing helps us understand and remember activities by acting them out!</p>
-            <p><strong>What is role-playing?</strong></p>
+            <p>Welcome back! Today we'll learn two more action commands: "come here" and "go there."</p>
+            <p><strong>Key Question:</strong> How do we respond to commands that tell us to move toward or away from someone?</p>
+            <p><strong>Introduction:</strong> Some commands tell us to change our location. Today we'll learn commands for moving closer or farther away.</p>
+            <p><strong>Action Commands - Part 2:</strong></p>
+            <ol>
+                <li><strong>"Come here"</strong> - To move toward the person who is speaking</li>
+                <li><strong>"Go there"</strong> - To move away from the speaker toward a specific place</li>
+            </ol>
+            <p><strong>Understanding Direction:</strong></p>
             <ul>
-                <li>Pretending to do something</li>
-                <li>Using actions and words together</li>
-                <li>Showing instead of just telling</li>
-                <li>Having fun while learning!</li>
+                <li><strong>"Here"</strong> means the location of the speaker (near me)</li>
+                <li><strong>"There"</strong> means a different location (away from me)</li>
+                <li>The speaker often points to show where "there" is</li>
             </ul>
-            <p><strong>Activities we can act out:</strong></p>
-            <ul>
-                <li>Eating breakfast (pretend to chew, use spoon)</li>
-                <li>Sleeping (pretend to yawn, lay head down)</li>
-                <li>Brushing teeth (circular brushing motion)</li>
-                <li>Washing face (splash, splash!)</li>
-                <li>Putting on clothes</li>
-            </ul>
-            <p><strong>How to describe actions:</strong> Use words like "I am eating," "She is sleeping," "He is brushing."</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-theater-masks" style="color: #9C27B0;"></i> Breakfast Role-Play</div>
-                <p>"I am eating cereal with milk." - Act out pouring cereal, adding milk, and eating with a spoon.</p>
+                <div class="example-title"><i class="fas fa-hand-point-right"></i> Come Here</div>
+                <p>When your teacher says "Come here" and waves their hand, you walk toward the teacher until you are close to them.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-moon" style="color: #673AB7;"></i> Bedtime Role-Play</div>
-                <p>"I am sleeping in my bed." - Act out yawning, laying down, and closing eyes.</p>
+                <div class="example-title"><i class="fas fa-location-arrow"></i> Go There</div>
+                <p>When your teacher says "Go there" and points to the door, you walk away from the teacher to the door.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Action Charades Game!</div>
-                <p>Let's play charades! One person acts out a daily activity without talking, and the class guesses what they're doing!</p>
+                <div class="example-title"><i class="fas fa-exchange-alt"></i> Opposite Directions</div>
+                <p>"Come here" brings you closer to the speaker. "Go there" takes you farther from the speaker. They are opposites!</p>
             </div>
         `,
-        taskInstructions: "Practice role-playing daily activities with classmates.",
+        taskInstructions: "Practice moving toward and away from the speaker using the commands.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Action Cards</strong></p>
+                <p><strong>Part A: Listen and Move</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Choose an action card and act it out for your group:
+                    <span class="task-number">1</span> Follow your teacher's commands. Move when you hear:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Eating breakfast</div>
-                        <div>☐ Brushing teeth</div>
-                        <div>☐ Sleeping</div>
-                        <div>☐ Washing face</div>
+                        <div>• "Come here" (walk toward the teacher)</div>
+                        <div>• "Go there" (walk to a pointed location)</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Check each action as you complete it:</em> ___ Come here &nbsp;&nbsp; ___ Go there</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Describe the Action</strong></p>
+                <p><strong>Part B: Point and Say</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Watch a classmate's role-play. Write what they are doing:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My classmate is ________________</div>
-                        <div class="answer-space" style="height: 30px; width: 250px; margin-top: 5px;"></div>
+                    <span class="task-number">2</span> In pairs, point to a location (door, window, desk) and tell your partner "Go there":
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Take turns. One person says "Come here" while waving. The other person responds:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Drawing Directions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw a picture showing someone responding to each command:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Come here"</strong>
+                            <div class="drawing-area" style="height: 120px; border: 1px dashed #ccc;"></div>
+                        </div>
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Go there"</strong>
+                            <div class="drawing-area" style="height: 120px; border: 1px dashed #ccc;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Partner Role-Play</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> With a partner, act out this morning scene:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FFF3E0; border-radius: 5px;">
-                        <div><strong>Partner 1:</strong> Wake up and stretch</div>
-                        <div><strong>Partner 2:</strong> Brush teeth</div>
-                        <div><strong>Both:</strong> Eat breakfast together</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Action Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw yourself doing your favorite daily activity:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>In this picture, I am ________________</div>
-                        <div class="answer-space" style="height: 30px; width: 250px; margin-top: 5px;"></div>
-                    </div>
+                    <span class="task-number">5</span> How is "come here" different from "go there"? Explain in your own words.
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Role-play two daily activities for your family tonight. Ask them to guess what you're doing.",
+        homework: "Practice 'come here' and 'go there' at home. Ask a family member to say each command and point where to go.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Morning vs. Night",
-        subtopic: "Differentiating daily activities by time",
+        topic: "Listening & Speaking",
+        subtopic: "Classroom Management Commands",
         lessonContent: `
-            <p>Today we will sort activities into morning activities and night activities!</p>
-            <p><strong>Key Concept:</strong> Some activities happen in the morning, and some happen at night.</p>
-            <p><strong>Morning activities:</strong> Things we do when the sun rises</p>
+            <p>Today we'll learn important classroom commands that help us follow rules and stay organized!</p>
+            <p><strong>Key Question:</strong> What commands do we use to manage our classroom and follow school rules?</p>
+            <p><strong>Introduction:</strong> Classroom management commands help teachers give instructions and help students know what to do. These commands keep everyone safe and focused.</p>
+            <p><strong>Classroom Management Commands:</strong></p>
+            <ol>
+                <li><strong>"Close the door"</strong> - To push or pull the door until it is shut</li>
+                <li><strong>"Raise your hand"</strong> - To lift one hand in the air to get the teacher's attention</li>
+            </ol>
+            <p><strong>Why We Use These Commands:</strong></p>
             <ul>
-                <li>Waking up</li>
-                <li>Eating breakfast</li>
-                <li>Brushing teeth</li>
-                <li>Getting dressed</li>
-                <li>Going to school</li>
+                <li>Closing the door keeps noise out and helps us focus</li>
+                <li>Raising your hand shows respect and takes turns when speaking</li>
+                <li>These commands create a calm, organized classroom</li>
             </ul>
-            <p><strong>Night activities:</strong> Things we do when the sun sets</p>
-            <ul>
-                <li>Eating dinner</li>
-                <li>Taking a bath</li>
-                <li>Reading a bedtime story</li>
-                <li>Sleeping</li>
-                <li>Putting on pajamas</li>
-            </ul>
-            <p><strong>Some activities can be both:</strong> Like eating (breakfast in morning, dinner at night) or washing (face in morning, bath at night).</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sun" style="color: #FFC107;"></i> Morning Example</div>
-                <p>"I eat breakfast in the morning." - Breakfast is a morning activity.</p>
+                <div class="example-title"><i class="fas fa-door-closed"></i> Close the Door</div>
+                <p>When your teacher says "Close the door," you walk to the door, grab the handle, and gently push or pull until the door clicks shut.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-moon" style="color: #673AB7;"></i> Night Example</div>
-                <p>"I sleep at night." - Sleeping is a night activity.</p>
+                <div class="example-title"><i class="fas fa-hand-paper"></i> Raise Your Hand</div>
+                <p>When you want to answer a question or speak, you raise your hand in the air. Your teacher will call on you when it's your turn.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sorting Game!</div>
-                <p>Let's play the "Sun and Moon Sort"! When I hold up the sun picture, shout a morning activity. When I hold up the moon, shout a night activity!</p>
+                <div class="example-title"><i class="fas fa-school"></i> Classroom Rules</div>
+                <p>Using commands like "raise your hand" helps everyone get a chance to speak. It's a sign of respect for the teacher and classmates.</p>
             </div>
         `,
-        taskInstructions: "Sort activities into morning and night categories.",
+        taskInstructions: "Practice responding to classroom management commands.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Morning or Night?</strong></p>
+                <p><strong>Part A: Listen and Do</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write "Morning" or "Night" for each activity:
+                    <span class="task-number">1</span> Follow your teacher's commands:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Eating breakfast: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Sleeping: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Brushing teeth before bed: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Waking up: <span class="answer-space" style="width: 100px;"></span></div>
-                        <div>Eating dinner: <span class="answer-space" style="width: 100px;"></span></div>
+                        <div>• "Close the door" (walk to the door and close it gently)</div>
+                        <div>• "Raise your hand" (lift your hand in the air)</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Check each action as you complete it:</em> ___ Close the door &nbsp;&nbsp; ___ Raise your hand</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sort the Pictures</strong></p>
+                <p><strong>Part B: Role Play</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Draw lines to connect activities to the correct time:
+                    <span class="task-number">2</span> Act out these classroom scenarios with a partner:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>🌞 Morning &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☐ Putting on pajamas</div>
-                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☐ Eating breakfast</div>
-                        <div>🌙 Night &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☐ Going to school</div>
-                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☐ Reading a bedtime story</div>
+                        <div>• The classroom is noisy from the hallway. What command does the teacher give?</div>
+                        <div>• You have a question for the teacher. What should you do?</div>
                     </div>
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: My Morning and Night</strong></p>
+                <p><strong>Part C: Drawing and Writing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw two pictures: one morning activity and one night activity:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">🌞 Morning</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div style="text-align: center; margin-top: 5px;">I ________________ in the morning.</div>
+                    <span class="task-number">3</span> Draw a picture of someone following each command:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Close the door"</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
                         </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">🌙 Night</div>
-                            <div class="drawing-area" style="height: 120px;"></div>
-                            <div style="text-align: center; margin-top: 5px;">I ________________ at night.</div>
+                        <div style="border: 1px solid #ccc; text-align: center;">
+                            <strong>"Raise your hand"</strong>
+                            <div class="drawing-area" style="height: 100px; border: 1px dashed #ccc;"></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Activity Hunt</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Find 2 things in the classroom that we might use in the morning and 2 at night:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Morning: ________________ and ________________</div>
-                        <div>Night: ________________ and ________________</div>
-                    </div>
+                    <span class="task-number">4</span> Why is it important to raise your hand instead of shouting out?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Make a list of 3 morning activities and 3 night activities you do at home. Draw one from each list.",
+        homework: "Practice 'close the door' and 'raise your hand' at home. Show your family the correct way to do each action.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "English",
-        topic: "Putting it All Together",
-        subtopic: "Describing objects, chores, and activities",
+        topic: "Listening & Speaking",
+        subtopic: "Simon Says - Review Game",
         lessonContent: `
-            <p>Today is our review celebration! We'll put everything together: describing objects, chores, AND daily activities!</p>
-            <p><strong>Key Concept:</strong> We can use descriptive language for objects, chores we do, and our daily routines.</p>
-            <p><strong>Three types of descriptions:</strong></p>
+            <p>Today we'll play Simon Says, a fun game that uses all the commands we learned this term!</p>
+            <p><strong>Key Question:</strong> Can you listen carefully and follow commands only when "Simon says"?</p>
+            <p><strong>Introduction:</strong> Simon Says is a game that tests your listening skills. You only follow the command if it starts with "Simon says." If it doesn't, you stay still!</p>
+            <p><strong>Commands We Learned This Term (Review):</strong></p>
+            <ul>
+                <li><strong>Sit down</strong> - Lower your body to a sitting position</li>
+                <li><strong>Stand up</strong> - Rise to a standing position</li>
+                <li><strong>Jump</strong> - Push off the ground with both feet</li>
+                <li><strong>Come here</strong> - Walk toward the speaker</li>
+                <li><strong>Go there</strong> - Walk to a pointed location</li>
+                <li><strong>Close the door</strong> - Shut the door gently</li>
+                <li><strong>Raise your hand</strong> - Lift one hand in the air</li>
+            </ul>
+            <p><strong>Simon Says Rules:</strong></p>
             <ol>
-                <li><strong>Describing objects:</strong> "I have a big black bag." (size + color + object)</li>
-                <li><strong>Describing chores:</strong> "I help with sweeping." (action + chore)</li>
-                <li><strong>Describing activities:</strong> "I like eating." (feeling + activity)</li>
+                <li>Listen carefully to the command</li>
+                <li>If the command starts with "Simon says..." - DO the action!</li>
+                <li>If the command does NOT start with "Simon says..." - DO NOT move!</li>
+                <li>If you move when Simon didn't say, you are out (or try again)</li>
             </ol>
-            <p><strong>Putting it all together:</strong></p>
-            <p>"I have a small red toothbrush. I help with cleaning my room. I like brushing my teeth."</p>
-            <p><strong>Why this is important:</strong> Being able to describe different things helps us communicate clearly and share about our lives!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shopping-bag" style="color: #795548;"></i> Object Description</div>
-                <p>"I have a soft blue pillow." - Describing an object with color and texture.</p>
+                <div class="example-title"><i class="fas fa-gamepad"></i> How to Play Simon Says</div>
+                <p>Teacher says: "Simon says jump!" → Everyone jumps. ✓<br>
+                Teacher says: "Sit down!" (without Simon says) → Everyone stays still. ✗ (Anyone who sits is out!)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-broom" style="color: #8D6E63;"></i> Chore Description</div>
-                <p>"I help with washing dishes." - Describing a household chore.</p>
+                <div class="example-title"><i class="fas fa-ear-listen"></i> Listening is Key</div>
+                <p>Simon Says teaches you to listen for the magic words "Simon says" before following any command. It's all about careful listening!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-running" style="color: #4CAF50;"></i> Activity Description</div>
-                <p>"I enjoy playing outside." - Describing a daily activity with feeling.</p>
+                <div class="example-title"><i class="fas fa-tasks"></i> All Term 1 Commands</div>
+                <p>Today we will use sit down, stand up, jump, come here, go there, close the door, and raise your hand. You've learned them all!</p>
             </div>
         `,
-        taskInstructions: "Practice describing objects, chores, and activities.",
+        taskInstructions: "Play Simon Says using all the commands from Term 1.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Describe an Object</strong></p>
+                <p><strong>Part A: Simon Says Game</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at your pencil case or bag. Describe it:
+                    <span class="task-number">1</span> Your teacher will lead the game. Follow these rules:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I have a <span class="answer-space" style="width: 80px;"></span> <span class="answer-space" style="width: 80px;"></span> <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>(size) (color) (object)</div>
+                        <div>• If you hear "Simon says" + command → DO the action</div>
+                        <div>• If you hear a command without "Simon says" → DON'T move</div>
+                    </div>
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;">
+                        <p><em>Game notes - How many commands did you follow correctly?</em> ___</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Describe a Chore</strong></p>
+                <p><strong>Part B: Be the Leader</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Think of a chore you do at home. Complete the sentence:
+                    <span class="task-number">2</span> Take turns being "Simon" and giving commands to the class:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write three "Simon says" commands you would give:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I help with <span class="answer-space" style="width: 200px;"></span>.</div>
-                        <div style="margin-top: 10px;">Draw yourself doing this chore:</div>
-                        <div class="drawing-area" style="height: 120px; margin-top: 5px;"></div>
+                        <div>a. Simon says, "_____________________"</div>
+                        <div>b. Simon says, "_____________________"</div>
+                        <div>c. Simon says, "_____________________"</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Describe an Activity</strong></p>
+                <p><strong>Part C: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Think of a daily activity you enjoy. Complete the sentence:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I like <span class="answer-space" style="width: 200px;"></span>.</div>
-                        <div style="margin-top: 10px;">Is this a morning or night activity? <span class="answer-space" style="width: 100px;"></span></div>
-                    </div>
+                    <span class="task-number">4</span> What was the most challenging part of Simon Says?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Which command from this term is your favorite? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Put It All Together</strong></p>
+                <p><strong>Part D: Term 1 Review Checklist</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Now combine all three! Write one sentence for each:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                        <div>Object: I have a ________________</div>
-                        <div>Chore: I help with ________________</div>
-                        <div>Activity: I like ________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Daily Expert Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw a picture of your busy day. Include one object, one chore, and one activity:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
-                        In my picture: I have a ________________. I help with ________________. I like ________________.
+                    <span class="task-number">6</span> Check off all the commands you can now understand and follow:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr;">
+                        <div>___ Sit down</div>
+                        <div>___ Stand up</div>
+                        <div>___ Jump</div>
+                        <div>___ Come here</div>
+                        <div>___ Go there</div>
+                        <div>___ Close the door</div>
+                        <div>___ Raise your hand</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home how to describe three things: an object, a chore, and an activity. Share your sentences from today.",
+        homework: "Teach Simon Says to a family member or friend. Use all the commands you learned this term and play together!",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleEnglishWeek10);
-    console.log("english-week10-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeMiddleEnglishWeek10);
+    console.log("grade-middle-english-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleEnglishWeek10);
-    console.log("english-week10-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeMiddleEnglishWeek10);
+    console.log("grade-middle-english-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleEnglishWeek10',
-        metadata: middleEnglishWeek10.metadata,
-        days: middleEnglishWeek10
+        variableName: 'gradeMiddleEnglishWeek10',
+        metadata: gradeMiddleEnglishWeek10.metadata,
+        days: gradeMiddleEnglishWeek10
     });
-    console.log("english-week10-objects.js stored in window.registeredWorksheets");
+    console.log("grade-middle-english-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleEnglishWeek10 = middleEnglishWeek10;
-console.log("english-week10-objects.js loaded and registered successfully");
+window.gradeMiddleEnglishWeek10 = gradeMiddleEnglishWeek10;
+console.log("grade-middle-english-week10.js loaded and registered successfully");

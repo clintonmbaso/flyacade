@@ -1,410 +1,407 @@
-// Grade 1 English - Week 3 Data (Objects in Our World)
-const middleEnglishWeek3 = {
+// Grade Middle English - Term 1 Week 3 Data
+const gradeEnglishWeek3 = {
     metadata: {
         grade: "middle",
         subject: "English",
+        term: 1,
         week: 3,
-        title: "Objects in Our World — Naming Things Around Us",
-        description: "Learning to identify and name common household objects, classroom items, and elements in the environment"
+        title: "My Family Members",
+        description: "Introducing family members, naming parents and siblings, and roleplaying family introductions"
     },
     
     monday: {
         subject: "English",
-        topic: "Things at Home (The Kitchen & Sitting Room)",
-        subtopic: "Naming common household objects",
+        topic: "Family Vocabulary",
+        subtopic: "Introduction to Family – Stating 'This is my family.'",
         lessonContent: `
-            <p>Welcome to our English lesson! Today we will learn about the objects we find at home in the kitchen and sitting room.</p>
-            <p><strong>Key Concept:</strong> Every room in our home has special objects we use every day.</p>
-            <p><strong>What do we find in the kitchen?</strong></p>
+            <p>Welcome to our lesson about family! Today we'll learn how to talk about our families in English.</p>
+            <p><strong>Key Question:</strong> How do you introduce your family to someone?</p>
+            <p><strong>Introduction:</strong> Family is very important. Learning to talk about your family helps you share about yourself and get to know others.</p>
+            <p><strong>Key Sentences:</strong></p>
             <ul>
-                <li>Objects for eating: spoon, plate, cup</li>
-                <li>Objects for cooking: pot, pan</li>
-                <li>Objects for storing: fridge, cupboard</li>
+                <li><strong>"This is my family."</strong> - Use this to show a photo or point to your family</li>
+                <li><strong>"I have a family."</strong> - A simple statement about your family</li>
+                <li><strong>"My family is big/small."</strong> - Describe the size of your family</li>
             </ul>
-            <p><strong>What do we find in the sitting room?</strong></p>
+            <p><strong>Family Vocabulary:</strong></p>
             <ul>
-                <li>Objects for sitting: chair, sofa, mat</li>
-                <li>Objects for relaxing: table, lamp</li>
-                <li>Objects for family time: television, books</li>
+                <li>Family - a group of people related to each other</li>
+                <li>Mother/Mom - your female parent</li>
+                <li>Father/Dad - your male parent</li>
+                <li>Brother - a male sibling</li>
+                <li>Sister - a female sibling</li>
+                <li>Parents - mother and father together</li>
+                <li>Siblings - brothers and sisters together</li>
             </ul>
-            <p><strong>Why is this important?</strong> Knowing the names of these objects helps us talk about our home and what we do there!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #FF5722;"></i> Kitchen Objects</div>
-                <p>"This is a spoon." - We use a spoon to eat food.</p>
+                <div class="example-title"><i class="fas fa-users"></i> Example Sentences</div>
+                <p>"Hello! This is my family. I have two brothers and one sister."</p>
+                <p>"This is a picture of my family. My mom, my dad, and me."</p>
+                <p>"My family is small. It's just me, my mother, and my grandmother."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-couch" style="color: #795548;"></i> Sitting Room Objects</div>
-                <p>"This is a chair." - We sit on chairs in the sitting room.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> The Magic Bag Game!</div>
-                <p>Let's play "The Magic Bag!" Feel an object inside the bag, guess what it is, and say "This is a ______" when you pull it out!</p>
+                <div class="example-title"><i class="fas fa-comment-dots"></i> Conversation Practice</div>
+                <p><strong>A:</strong> Do you have a family?</p>
+                <p><strong>B:</strong> Yes! This is my family. <em>(shows photo)</em></p>
+                <p><strong>A:</strong> Your family looks lovely!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice naming kitchen and sitting room objects.",
+        taskInstructions: "Practice stating 'This is my family' and complete the drawing and writing activities.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the objects you would find in a kitchen:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Spoon</div>
-                    <div>☐ Tree</div>
-                    <div>☐ Plate</div>
-                    <div>☐ Bed</div>
-                    <div>☐ Cup</div>
-                    <div>☐ Flower</div>
+            <div class="content-box">
+                <p><strong>Part A: Draw Your Family</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw a picture of your family in the space below:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Match the object to the correct room:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Spoon → ☐ Sitting Room</div>
-                    <div>Chair → ☐ Kitchen</div>
-                    <div>Cup → ☐ Sitting Room</div>
-                    <div>Mat → ☐ Kitchen</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Play "Simon Says" with your teacher:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <div>When teacher says "Simon says touch your plate," mime touching a plate!</div>
-                    <div>When teacher says "Simon says touch your chair," mime touching a chair!</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw two objects from your kitchen and two from your sitting room:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">Kitchen</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Complete the Sentences</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Fill in the blanks about your family:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. This is _____________ family.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>b. My family has _____________ people.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>c. I have _____________ brothers and _____________ sisters.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
                     </div>
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">Sitting Room</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Speaking Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Practice saying these sentences out loud. Then write one sentence about your family:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look around your kitchen and sitting room. Name 4 objects you see to someone at home. Draw one kitchen object and one sitting room object.",
+        homework: "Draw your family on a piece of paper. Write 'This is my family' at the bottom. Bring it to class on Wednesday.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Things at Home (The Bedroom)",
-        subtopic: "Naming items related to sleep and rest",
+        topic: "Family Vocabulary",
+        subtopic: "Father and Mother – Naming parents ('My father's name is...')",
         lessonContent: `
-            <p>Today we will learn about the special objects we find in the bedroom.</p>
-            <p><strong>Key Concept:</strong> The bedroom is where we sleep and rest, so it has special objects for comfort.</p>
-            <p><strong>What do we find in the bedroom?</strong></p>
+            <p>Today we'll learn how to talk about our parents - our father and mother!</p>
+            <p><strong>Key Question:</strong> How do you tell someone your parents' names?</p>
+            <p><strong>Introduction:</strong> Your parents are very special people. Learning to talk about them helps you share about your life.</p>
+            <p><strong>Key Sentences:</strong></p>
             <ul>
-                <li><strong>Bed:</strong> Where we sleep at night</li>
-                <li><strong>Pillow:</strong> We rest our head on it</li>
-                <li><strong>Blanket:</strong> Keeps us warm</li>
-                <li><strong>Lamp:</strong> Gives us light to read</li>
-                <li><strong>Wardrobe:</strong> Where we keep our clothes</li>
+                <li><strong>"My father's name is ________."</strong> - Tell someone your dad's name</li>
+                <li><strong>"My mother's name is ________."</strong> - Tell someone your mom's name</li>
+                <li><strong>"This is my father/mother."</strong> - Introducing your parent</li>
+                <li><strong>"I love my father and mother."</strong> - Express your feelings</li>
             </ul>
-            <p><strong>Bedtime routine:</strong> At night, we get into bed, put our head on the pillow, and cover with a blanket.</p>
-            <p><strong>Morning routine:</strong> In the morning, we wake up, fold our blanket, and leave the bed.</p>
-            <p><strong>Why is this important?</strong> Knowing bedroom objects helps us talk about our sleep and rest time!</p>
+            <p><strong>Different Ways to Say Parents:</strong></p>
+            <ul>
+                <li>Father = Dad = Daddy = Papa</li>
+                <li>Mother = Mom = Mommy = Mama</li>
+            </ul>
+            <p><strong>Questions You Might Hear:</strong></p>
+            <ul>
+                <li>"What is your father's name?"</li>
+                <li>"What does your mother do?"</li>
+                <li>"Do you have a brother or sister?"</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bed" style="color: #2196F3;"></i> Bedroom Objects</div>
-                <p>"This is a bed." - We sleep in a bed every night.</p>
+                <div class="example-title"><i class="fas fa-male"></i> About My Father</div>
+                <p>"My father's name is David. He is a teacher. I love my father very much."</p>
+                <p>"This is my dad. His name is Mr. Johnson."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-moon" style="color: #673AB7;"></i> Sleep Actions</div>
-                <p>Let's mime: "Sleeping" in bed, "Waking up," and "Folding" the blanket.</p>
+                <div class="example-title"><i class="fas fa-female"></i> About My Mother</div>
+                <p>"My mother's name is Maria. She is a nurse. My mom is kind and helpful."</p>
+                <p>"This is my mother. Her name is Mrs. Smith."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Flashcard Matching Game!</div>
-                <p>Let's match objects to the correct room! Is a blanket for the kitchen or bedroom?</p>
+                <div class="example-title"><i class="fas fa-heart"></i> Talking About Both Parents</div>
+                <p>"My father's name is John and my mother's name is Lisa. They are both doctors."</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice naming bedroom objects.",
+        taskInstructions: "Practice naming your parents and complete the writing and drawing activities.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Bedroom Vocabulary</strong></p>
+                <p><strong>Part A: Write About Your Parents</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Circle the objects you would find in a bedroom:
+                    <span class="task-number">1</span> Complete these sentences about your parents:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Bed</div>
-                        <div>☐ Spoon</div>
-                        <div>☐ Blanket</div>
-                        <div>☐ Plate</div>
-                        <div>☐ Pillow</div>
-                        <div>☐ Cup</div>
+                        <div>a. My father's name is _____________________________________.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>b. My mother's name is ___________________________________.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>c. I call my father _______________________________________. (Dad, Papa, Daddy?)</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>d. I call my mother ______________________________________. (Mom, Mama, Mommy?)</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Mime Time!</strong></p>
+                <p><strong>Part B: Draw Your Parents</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Mime these actions and say what object you use:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Sleeping: "I sleep on a ________."</div>
-                        <div>Staying warm: "I cover with a ________."</div>
-                        <div>Resting head: "I put my head on a ________."</div>
-                    </div>
+                    <span class="task-number">2</span> Draw a picture of your father and mother. Write their names below your drawing:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Room Matching Game</strong></p>
+                <p><strong>Part C: Answer the Questions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a line to match each object to its room:
+                    <span class="task-number">3</span> Write complete sentences to answer these questions:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Spoon → Bedroom</div>
-                        <div>Bed → Kitchen</div>
-                        <div>Plate → Sitting Room</div>
-                        <div>Blanket → Bedroom</div>
-                        <div>Chair → Kitchen</div>
-                        <div>Pillow → Bedroom</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Draw Your Bedroom</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw your bedroom and label 3 objects:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>In my bedroom, I have: 1. ________ 2. ________ 3. ________</div>
+                        <div>a. What is your father's name?</div>
+                        <div class="answer-space" style="height: 40px; margin: 5px 0;"></div>
+                        <div>b. What is your mother's name?</div>
+                        <div class="answer-space" style="height: 40px; margin: 5px 0;"></div>
+                        <div>c. Do you love your parents?</div>
+                        <div class="answer-space" style="height: 40px; margin: 5px 0;"></div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Look in your bedroom before bed. Name 3 objects you see. Draw your bed with a pillow and blanket.",
+        homework: "Ask your parents what their full names are. Practice saying 'My father's name is...' and 'My mother's name is...' three times each.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Things at School (The Classroom)",
-        subtopic: "Identifying and naming classroom stationary and furniture",
+        topic: "Family Vocabulary",
+        subtopic: "Brothers and Sisters – Naming siblings or identifying as an only child",
         lessonContent: `
-            <p>Today we will learn about the objects we find right here in our classroom!</p>
-            <p><strong>Key Concept:</strong> Our classroom has many special objects that help us learn.</p>
-            <p><strong>What do we find in the classroom?</strong></p>
+            <p>Today we'll learn how to talk about brothers and sisters - also called siblings!</p>
+            <p><strong>Key Question:</strong> How do you tell someone about your brothers and sisters?</p>
+            <p><strong>Introduction:</strong> Some people have brothers and sisters. Some people are only children. Both are wonderful!</p>
+            <p><strong>Key Sentences (If you have siblings):</strong></p>
             <ul>
-                <li><strong>Furniture:</strong> Chair, Table, Desk</li>
-                <li><strong>Writing tools:</strong> Pencil, Pen, Chalk, Marker</li>
-                <li><strong>Learning tools:</strong> Book, Notebook, Board</li>
-                <li><strong>Other objects:</strong> Bag, Ruler, Eraser</li>
+                <li><strong>"I have one brother."</strong> / <strong>"I have two sisters."</strong></li>
+                <li><strong>"My brother's name is ________."</strong></li>
+                <li><strong>"My sister's name is ________."</strong></li>
+                <li><strong>"This is my brother/sister."</strong></li>
+                <li><strong>"I am the oldest/middle/youngest."</strong></li>
             </ul>
-            <p><strong>How we use classroom objects:</strong></p>
+            <p><strong>Key Sentences (If you are an only child):</strong></p>
             <ul>
-                <li>We sit on chairs at tables</li>
-                <li>We write with pencils in our books</li>
-                <li>We read from books</li>
-                <li>We write on the board with chalk or markers</li>
+                <li><strong>"I don't have any brothers or sisters."</strong></li>
+                <li><strong>"I am an only child."</strong></li>
+                <li><strong>"It's just me and my parents."</strong></li>
             </ul>
-            <p><strong>Why is this important?</strong> Knowing classroom objects helps us follow directions and talk about our learning!</p>
+            <p><strong>Sibling Vocabulary:</strong></p>
+            <ul>
+                <li>Brother - a male sibling</li>
+                <li>Sister - a female sibling</li>
+                <li>Sibling - brother or sister</li>
+                <li>Only child - a person with no siblings</li>
+                <li>Older/Younger brother/sister</li>
+                <li>Twin - two siblings born at the same time</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chair" style="color: #795548;"></i> Classroom Furniture</div>
-                <p>"This is a chair." - We sit on chairs to learn.</p>
+                <div class="example-title"><i class="fas fa-male"></i> Having Brothers</div>
+                <p>"I have two brothers. Their names are Michael and James. I am the youngest."</p>
+                <p>"My brother's name is Alex. He is 10 years old."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt" style="color: #FF9800;"></i> Classroom Tools</div>
-                <p>"This is a pencil." - We use pencils to write and draw.</p>
+                <div class="example-title"><i class="fas fa-female"></i> Having Sisters</div>
+                <p>"I have one sister. Her name is Sophia. She is older than me."</p>
+                <p>"My sisters' names are Emma and Olivia."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> I Spy Game!</div>
-                <p>Let's play "I Spy!" Teacher says "I spy with my little eye something we use to write on the board." Can you find it?</p>
+                <div class="example-title"><i class="fas fa-child"></i> Only Child</div>
+                <p>"I don't have any brothers or sisters. I am an only child. I play with my cousins."</p>
+                <p>"I have no siblings. It's just me, my mom, and my dad."</p>
             </div>
         `,
-        taskInstructions: "Practice identifying and naming classroom objects.",
+        taskInstructions: "Complete the sentences about your siblings and answer the questions.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: I Spy in Our Classroom</strong></p>
+                <p><strong>Part A: Tell About Your Siblings</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look around the classroom. Find and point to:
+                    <span class="task-number">1</span> Complete the sentences that are true for you:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Something we sit on: ________</div>
-                        <div>Something we write with: ________</div>
-                        <div>Something we write in: ________</div>
-                        <div>Something the teacher writes on: ________</div>
+                        <div>☐ I have ________ brother(s). Their names are: ________________________</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>☐ I have ________ sister(s). Their names are: ________________________</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>☐ I don't have any brothers or sisters. I am an only child.</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>☐ I am the: (circle one) oldest / middle / youngest / only child</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Object Placement Game</strong></p>
+                <p><strong>Part B: Draw Your Siblings</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Take a pencil and walk to the table. Say:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <div>"This is a pencil. I will put it on the table."</div>
-                        <div>Now try with: book on chair, chalk on board</div>
-                    </div>
+                    <span class="task-number">2</span> Draw your brothers and sisters. If you have no siblings, draw yourself with your parents or friends:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Classroom Objects Drawing</strong></p>
+                <p><strong>Part C: Write Complete Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw and label 4 objects from our classroom:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>1. ________ 2. ________ 3. ________ 4. ________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Complete the Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Fill in the blanks with classroom object names:
+                    <span class="task-number">3</span> Answer these questions in complete sentences:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>We sit on a ________.</div>
-                        <div>We write with a ________.</div>
-                        <div>We read from a ________.</div>
-                        <div>We write on the ________.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Classroom Treasure Hunt</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Find these objects in our classroom and check them off:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Chair</div>
-                        <div>☐ Table</div>
-                        <div>☐ Book</div>
-                        <div>☐ Pencil</div>
-                        <div>☐ Board</div>
+                        <div>a. Do you have any brothers or sisters?</div>
+                        <div class="answer-space" style="height: 40px; margin: 5px 0;"></div>
+                        <div>b. What is/are your brother's/sister's name(s)?</div>
+                        <div class="answer-space" style="height: 40px; margin: 5px 0;"></div>
+                        <div>c. Do you like having siblings? OR Do you like being an only child? Why?</div>
+                        <div class="answer-space" style="height: 50px; margin: 5px 0;"></div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Look around your classroom or learning area at home. Name 5 objects you see. Draw your favorite classroom object.",
+        homework: "Practice saying 'I have ___ brother(s) and ___ sister(s)' or 'I am an only child' five times. Write one sentence about your siblings or being an only child.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "English",
-        topic: "Things in the Environment",
-        subtopic: "Naming natural elements in our surroundings",
+        topic: "Family Vocabulary",
+        subtopic: "Family Roleplay – Pretending to introduce family members to a friend",
         lessonContent: `
-            <p>Today we will learn about the beautiful natural objects we find all around us in our environment!</p>
-            <p><strong>Key Concept:</strong> Nature gives us many wonderful things to see and enjoy.</p>
-            <p><strong>What do we find in nature?</strong></p>
+            <p>Today we'll practice everything we learned about family! We'll pretend to introduce our family members to a friend.</p>
+            <p><strong>Key Question:</strong> How do you introduce your family to a friend?</p>
+            <p><strong>Introduction:</strong> When a friend comes to your home or meets your family, you need to introduce everyone. Today you'll practice being the host!</p>
+            <p><strong>Roleplay Sentences:</strong></p>
             <ul>
-                <li><strong>Plants:</strong> Trees, Grass, Flowers, Leaves</li>
-                <li><strong>Land:</strong> Soil, Rocks, Hills</li>
-                <li><strong>Water:</strong> Rain, Rivers, Puddles</li>
-                <li><strong>Animals:</strong> Birds, Insects, Butterflies</li>
-                <li><strong>Sky:</strong> Sun, Clouds, Moon, Stars</li>
+                <li><strong>"Hello! Welcome to my home!"</strong></li>
+                <li><strong>"This is my family."</strong></li>
+                <li><strong>"This is my father. His name is ________."</strong></li>
+                <li><strong>"This is my mother. Her name is ________."</strong></li>
+                <li><strong>"This is my brother/sister. His/Her name is ________."</strong></li>
+                <li><strong>"Nice to meet you!"</strong></li>
             </ul>
-            <p><strong>How to talk about nature:</strong> We use full sentences like "I see a green tree" or "I hear a bird singing."</p>
-            <p><strong>Why is this important?</strong> Knowing nature words helps us appreciate and talk about the world around us!</p>
+            <p><strong>What Your Friend Might Say:</strong></p>
+            <ul>
+                <li>"Nice to meet your family!"</li>
+                <li>"Your family is very nice!"</li>
+                <li>"Thank you for introducing me!"</li>
+            </ul>
+            <p><strong>Tips for Introducing Your Family:</strong></p>
+            <ul>
+                <li>Smile and look at the person you're talking to</li>
+                <li>Speak clearly so everyone can hear</li>
+                <li>Use full sentences: "This is..." or "His name is..."</li>
+                <li>Point to or gesture toward the person you're introducing</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Plants in Nature</div>
-                <p>"This is a tree." - Trees give us shade and clean air.</p>
+                <div class="example-title"><i class="fas fa-comments"></i> Sample Roleplay Conversation</div>
+                <p><strong>Student:</strong> "Hi Sarah! Welcome to my home. This is my family."</p>
+                <p><strong>Friend:</strong> "Hello! Nice to meet your family."</p>
+                <p><strong>Student:</strong> "This is my father. His name is Mr. Chen."</p>
+                <p><strong>Father:</strong> "Nice to meet you, Sarah."</p>
+                <p><strong>Student:</strong> "And this is my mother. Her name is Mrs. Chen."</p>
+                <p><strong>Mother:</strong> "Welcome!"</p>
+                <p><strong>Student:</strong> "This is my little sister, Mei."</p>
+                <p><strong>Friend:</strong> "It's nice to meet everyone!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-dove" style="color: #2196F3;"></i> Animals in Nature</div>
-                <p>"I see a bird." - Birds fly in the sky and sing beautiful songs.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Nature Sound Game!</div>
-                <p>Let's play the "Nature Sound" game! Listen to the sound and guess what makes it: wind, water, or a bird?</p>
+                <div class="example-title"><i class="fas fa-star"></i> Example Without Siblings</div>
+                <p>"Hi! This is my family. This is my father, Mr. Jones. This is my mother, Mrs. Jones. I don't have any brothers or sisters. I am an only child."</p>
             </div>
         `,
-        taskInstructions: "Practice naming natural elements in our environment.",
+        taskInstructions: "Practice the roleplay conversation with a partner and complete the writing activity.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Nature Walk Observation</strong></p>
+                <p><strong>Part A: Prepare Your Introduction</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look outside or imagine being outside. What do you see?
+                    <span class="task-number">1</span> Write your introduction script. Pretend you are introducing your family to a friend:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I see a ________ (tree/flower/grass).</div>
-                        <div>I see a ________ (bird/butterfly/bug).</div>
-                        <div>I see the ________ (sun/clouds).</div>
-                        <div>I see ________ (water/rocks).</div>
+                        <div>You say: "Hello! Welcome! This is my family."</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>Introduce your father: "This is my father. His name is ________."</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>Introduce your mother: "This is my mother. Her name is ________."</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>Introduce your siblings (or say you have none):</div>
+                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>End with: "Nice to meet you!"</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Complete the Nature Sentences</strong></p>
+                <p><strong>Part B: Roleplay with a Partner</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Finish these sentences about nature:
+                    <span class="task-number">2</span> Practice with a partner. One person is the host (you). The other person is the friend visiting.
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #f0f8ff; border-radius: 8px;">
+                        <p><strong>Partner 1 (Host):</strong> Introduce your family members.</p>
+                        <p><strong>Partner 2 (Friend):</strong> Say "Nice to meet your family!" and ask one question.</p>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                        <p><em>Write what you said during the roleplay:</em></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Answer these questions about today's activity:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The ________ is green. (grass/tree)</div>
-                        <div>The ________ flies in the sky. (bird/rock)</div>
-                        <div>The ________ gives us light. (sun/moon)</div>
-                        <div>The ________ grows in the ground. (flower/chair)</div>
+                        <div>a. Was it easy or difficult to introduce your family? Why?</div>
+                        <div class="answer-space" style="height: 50px; margin: 5px 0;"></div>
+                        <div>b. What new English sentence did you learn this week?</div>
+                        <div class="answer-space" style="height: 50px; margin: 5px 0;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Nature Drawing</strong></p>
+                <p><strong>Part D: Family Poster</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Draw a beautiful nature scene with at least 4 natural elements:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>In my picture, I drew: 1. ________ 2. ________ 3. ________ 4. ________</div>
+                    <span class="task-number">4</span> Create a small poster about your family. Include drawings or names. Use these sentences:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #fff3e0; border-radius: 8px;">
+                        <p>"This is my family."</p>
+                        <p>"My father's name is ________."</p>
+                        <p>"My mother's name is ________."</p>
+                        <p>"I have ________ brothers and ________ sisters." (OR "I am an only child.")</p>
                     </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Nature Sound Matching</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Match the sound to what makes it:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Chirping sound → ☐ Water</div>
-                        <div>Rushing sound → ☐ Bird</div>
-                        <div>Whooshing sound → ☐ Wind</div>
-                        <div>Buzzing sound → ☐ Bee</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Nature Explorer Certificate</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a nature explorer. Write one sentence about what you love in nature:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I love nature because ________________</div>
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Go outside or look out a window. Name 4 natural things you see. Draw your favorite thing in nature.",
+        homework: "Practice introducing your family to someone at home. Say at least 3 sentences in English. Have a parent sign that you practiced. Bring your family poster to class on Monday.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleEnglishWeek3);
-    console.log("english-week3-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeEnglishWeek3);
+    console.log("grade-english-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleEnglishWeek3);
-    console.log("english-week3-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeEnglishWeek3);
+    console.log("grade-english-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleEnglishWeek3',
-        metadata: middleEnglishWeek3.metadata,
-        days: middleEnglishWeek3
+        variableName: 'gradeEnglishWeek3',
+        metadata: gradeEnglishWeek3.metadata,
+        days: gradeEnglishWeek3
     });
-    console.log("english-week3-objects.js stored in window.registeredWorksheets");
+    console.log("grade-english-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleEnglishWeek3 = middleEnglishWeek3;
-console.log("english-week3-objects.js loaded and registered successfully");
+window.gradeEnglishWeek3 = gradeEnglishWeek3;
+console.log("grade-english-week3.js loaded and registered successfully");

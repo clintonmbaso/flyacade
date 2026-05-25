@@ -1,428 +1,501 @@
-// Grade 1 English - Week 9 Data (Describing Things and Chores)
-const middleEnglishWeek9 = {
+// Grade Middle English - Term 1 Week 9 Data
+const gradeMiddleEnglishWeek9 = {
     metadata: {
         grade: "middle",
         subject: "English",
+        term: 1,
         week: 9,
-        title: "Describing Things and Helping at Home",
-        description: "Learning to describe objects by size and color, and learning vocabulary for common home chores"
+        title: "Greetings & Polite Phrases",
+        description: "Learning morning, afternoon, and evening greetings and responding to 'How are you?'"
     },
     
     monday: {
         subject: "English",
-        topic: "Big and Small",
-        subtopic: "Describing things by size",
+        topic: "Greetings",
+        subtopic: "Morning Greetings",
         lessonContent: `
-            <p>Welcome to Week 9! Today we will learn how to describe things by their size using "big" and "small".</p>
-            <p><strong>Key Concept:</strong> Everything around us has a size. We use words to describe how big or small things are.</p>
-            <p><strong>What does "big" mean?</strong></p>
+            <p>Welcome to our lesson on morning greetings! Today we'll learn how to greet people politely in the morning.</p>
+            <p><strong>Key Question:</strong> What do you say when you see someone in the morning?</p>
+            <p><strong>Introduction:</strong> Greetings are an important part of every culture. They show respect and friendliness. In English, the way we greet someone often depends on the time of day.</p>
+            <p><strong>Morning Greetings:</strong></p>
             <ul>
-                <li>Big things take up more space</li>
-                <li>Big things are larger than other things</li>
-                <li>Examples: big book, big chair, big tree</li>
+                <li><strong>"Good morning"</strong> - Used from sunrise until noon (12:00 PM)</li>
+                <li><strong>"Morning!"</strong> - An informal, shorter way to say "Good morning"</li>
             </ul>
-            <p><strong>What does "small" mean?</strong></p>
+            <p><strong>Asking "How are you?":</strong></p>
             <ul>
-                <li>Small things take up less space</li>
-                <li>Small things are little or tiny</li>
-                <li>Examples: small pencil, small ball, small ant</li>
+                <li><strong>"How are you?"</strong> - A common question after greeting someone</li>
+                <li><strong>"How's it going?"</strong> - An informal way to ask how someone is</li>
+                <li><strong>"How are you doing?"</strong> - Another common phrase</li>
             </ul>
-            <p><strong>How to compare:</strong> Look at two things side by side. The one that takes more space is big. The one that takes less space is small!</p>
+            <p><strong>Common Responses to "How are you?":</strong></p>
+            <ul>
+                <li><strong>"I'm fine, thank you."</strong> - Polite and standard</li>
+                <li><strong>"I'm good, thanks."</strong> - Informal and friendly</li>
+                <li><strong>"Pretty good, how about you?"</strong> - Shows interest in the other person</li>
+                <li><strong>"Not bad, thanks."</strong> - A modest response</li>
+                <li><strong>"I'm great!"</strong> - Enthusiastic and positive</li>
+            </ul>
+            <p><strong>Polite Follow-Up:</strong></p>
+            <ul>
+                <li>Always return the question: <strong>"And you?"</strong> or <strong>"How about you?"</strong></li>
+                <li>This shows you care about the other person</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-weight" style="color: #2196F3;"></i> Big Example</div>
-                <p>"This is a big pot." - We say this when we see a large cooking pot.</p>
+                <div class="example-title"><i class="fas fa-comment-dots"></i> Sample Conversation 1</div>
+                <p><strong>Anna:</strong> Good morning, Mr. Johnson!<br>
+                <strong>Mr. Johnson:</strong> Good morning, Anna. How are you today?<br>
+                <strong>Anna:</strong> I'm fine, thank you. And you?<br>
+                <strong>Mr. Johnson:</strong> I'm great, thanks for asking!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-feather-alt" style="color: #9C27B0;"></i> Small Example</div>
-                <p>"This is a small pot." - We say this when we see a tiny cooking pot.</p>
+                <div class="example-title"><i class="fas fa-user-friends"></i> Sample Conversation 2 (Friends)</div>
+                <p><strong>Tom:</strong> Morning, Sarah! How's it going?<br>
+                <strong>Sarah:</strong> Hey Tom! Pretty good, how about you?<br>
+                <strong>Tom:</strong> Not bad, thanks. Ready for class?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Size Hunt Game!</div>
-                <p>Let's play "Find the Big and Small!" The teacher will show objects and we'll shout "big" or "small" together!</p>
+                <div class="example-title"><i class="fas fa-clock"></i> When to Use</div>
+                <p>Use "Good morning" from the time you wake up until 12:00 PM (noon). After 12:00 PM, switch to "Good afternoon"!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice identifying big and small things.",
+        taskInstructions: "Practice morning greetings and responding to 'How are you?' through roleplay and writing.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Circle the big things. Put a square around the small things:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Picture of a big elephant</div>
-                    <div>☐ Picture of a small mouse</div>
-                    <div>☐ Picture of a big house</div>
-                    <div>☐ Picture of a small bird</div>
-                    <div>☐ Picture of a big ball</div>
-                    <div>☐ Picture of a small marble</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Draw one big thing and one small thing from your classroom:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">BIG</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div style="text-align: center; margin-top: 5px;">This is a big: <span class="answer-space" style="width: 80px;"></span></div>
+            <div class="content-box">
+                <p><strong>Part A: Vocabulary Match</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Match the greeting or response to its correct meaning:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>1. Good morning ___</div>
+                                <div>2. How are you? ___</div>
+                                <div>3. I'm fine, thank you ___</div>
+                                <div>4. And you? ___</div>
+                                <div>5. Pretty good ___</div>
+                            </div>
+                            <div>
+                                <div>A. Asking about someone's well-being</div>
+                                <div>B. A positive response</div>
+                                <div>C. Morning greeting</div>
+                                <div>D. Returning the question</div>
+                                <div>E. Polite standard response</div>
+                            </div>
+                        </div>
                     </div>
-                    <div style="flex: 1; padding: 10px;">
-                        <div style="text-align: center; font-weight: bold;">SMALL</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div style="text-align: center; margin-top: 5px;">This is a small: <span class="answer-space" style="width: 80px;"></span></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Fill in the Blanks</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete the conversation with the correct words:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f5f5f5; padding: 15px;">
+                        <p><strong>Teacher:</strong> __________ morning, class!</p>
+                        <p><strong>Students:</strong> Good __________, Teacher!</p>
+                        <p><strong>Teacher:</strong> How __________ you today?</p>
+                        <p><strong>Student:</strong> I'm __________, thank you. And __________?</p>
+                        <p><strong>Teacher:</strong> I'm great, __________ for asking!</p>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Roleplay Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> With a partner, practice this conversation. Then write your own version:
+                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; border-left: 3px solid #4A90E2;">
+                        <p><strong>Write your own morning greeting conversation here:</strong></p>
+                        <div class="answer-space" style="height: 150px;"></div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Practice saying these sentences:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <div>"The teacher's desk is <span class="answer-space" style="width: 80px;"></span>." (big/small)</div>
-                    <div>"My pencil is <span class="answer-space" style="width: 80px;"></span>." (big/small)</div>
-                    <div>"Our classroom door is <span class="answer-space" style="width: 80px;"></span>." (big/small)</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Match the object with its size:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Elephant → ☐ Small</div>
-                    <div>Ant → ☐ Big</div>
-                    <div>Mountain → ☐ Small</div>
-                    <div>Button → ☐ Big</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why is it important to say "And you?" or return the question when someone asks "How are you?"?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find 3 big things and 3 small things at home. Draw one of each and write 'big' or 'small' under your drawings.",
+        homework: "Practice saying 'Good morning' to three family members or neighbors tomorrow morning. Ask them 'How are you?' and write down their responses.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "English",
-        topic: "Colors and Sizes",
-        subtopic: "Describing things by both color and size",
+        topic: "Greetings",
+        subtopic: "Afternoon & Evening Greetings",
         lessonContent: `
-            <p>Today we will learn how to describe things using both color AND size together!</p>
-            <p><strong>Key Concept:</strong> We can use more than one word to describe something. We can tell its color AND its size!</p>
-            <p><strong>How to describe with two words:</strong></p>
+            <p>Today we'll learn how to greet people in the afternoon and evening!</p>
+            <p><strong>Key Question:</strong> What do you say when you see someone in the afternoon or evening?</p>
+            <p><strong>Introduction:</strong> Just like "Good morning," there are special greetings for the afternoon and evening. Using the correct greeting shows you understand English time customs.</p>
+            <p><strong>Afternoon Greetings:</strong></p>
             <ul>
-                <li>First say the color: red, blue, yellow, black, white, green</li>
-                <li>Then say the size: big or small</li>
-                <li>Then say what it is: bag, ball, book, cup</li>
+                <li><strong>"Good afternoon"</strong> - Used from 12:00 PM (noon) until sunset (around 5:00-6:00 PM)</li>
+                <li><strong>"Afternoon!"</strong> - An informal, shorter way to say "Good afternoon"</li>
             </ul>
-            <p><strong>Examples:</strong></p>
+            <p><strong>Evening Greetings:</strong></p>
             <ul>
-                <li>"black bag" - a bag that is black in color</li>
-                <li>"small bag" - a bag that is little in size</li>
-                <li>"big red ball" - a ball that is big and red</li>
-                <li>"small yellow cup" - a cup that is small and yellow</li>
+                <li><strong>"Good evening"</strong> - Used from sunset until bedtime</li>
+                <li><strong>Note:</strong> "Good night" is NOT a greeting - it's used when saying goodbye or going to bed!</li>
             </ul>
-            <p><strong>Practice Pattern:</strong> Color + Size + Thing = Complete Description!</p>
+            <p><strong>Saying Goodbye at Night:</strong></p>
+            <ul>
+                <li><strong>"Good night"</strong> - Used when leaving someone at night or going to sleep</li>
+                <li><strong>"Good night, sleep tight!"</strong> - A friendly way to say good night to family</li>
+                <li><strong>"See you tomorrow"</strong> - Common evening goodbye</li>
+            </ul>
+            <p><strong>Time of Day Summary:</strong></p>
+            <ul>
+                <li>🌅 Morning: Sunrise - 12:00 PM → "Good morning"</li>
+                <li>☀️ Afternoon: 12:00 PM - Sunset → "Good afternoon"</li>
+                <li>🌙 Evening: Sunset - Bedtime → "Good evening"</li>
+                <li>😴 Night (goodbye/bedtime) → "Good night"</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-palette" style="color: #FF9800;"></i> Color + Size Example</div>
-                <p>"I have a black bag." - This tells the color of my bag.</p>
-                <p>"I have a small bag." - This tells the size of my bag.</p>
-                <p>"I have a small black bag." - This tells BOTH the size AND color!</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Afternoon Conversation</div>
+                <p><strong>Maria:</strong> Good afternoon, Mrs. Davis.<br>
+                <strong>Mrs. Davis:</strong> Good afternoon, Maria. How is your day going?<br>
+                <strong>Maria:</strong> It's going well, thank you. How are you?<br>
+                <strong>Mrs. Davis:</strong> I'm doing fine, thanks for asking!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-school" style="color: #4CAF50;"></i> School Bag Activity</div>
-                <p>Look at your school bag. What color is it? What size is it? Put the words together!</p>
+                <div class="example-title"><i class="fas fa-moon"></i> Evening Conversation</div>
+                <p><strong>Dad:</strong> Good evening, everyone! Dinner is ready.<br>
+                <strong>Mom:</strong> Good evening, dear. We'll be right there.<br>
+                <strong>Child:</strong> Good evening, Dad! I'm hungry.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Rainbow Description Game!</div>
-                <p>We'll play with colored blocks! When the teacher holds up a block, say its color AND size!</p>
+                <div class="example-title"><i class="fas fa-bed"></i> Saying Good Night</div>
+                <p><strong>Mom:</strong> It's time for bed. Good night, sweetheart!<br>
+                <strong>Child:</strong> Good night, Mom. See you in the morning!<br>
+                <strong>Mom:</strong> Sleep tight! Don't let the bed bugs bite!</p>
             </div>
         `,
-        taskInstructions: "Complete the activities to practice describing things with color and size.",
+        taskInstructions: "Practice using 'Good afternoon,' 'Good evening,' and 'Good night' correctly.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Color and Size Match</strong></p>
+                <p><strong>Part A: Choose the Correct Greeting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write the missing word (color or size) for each picture:
+                    <span class="task-number">1</span> Which greeting would you use in these situations?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Picture of a big blue ball: <span class="answer-space" style="width: 60px;"></span> blue ball</div>
-                        <div>Picture of a small red apple: small <span class="answer-space" style="width: 60px;"></span> apple</div>
-                        <div>Picture of a big yellow sun: <span class="answer-space" style="width: 60px;"></span> <span class="answer-space" style="width: 60px;"></span> sun</div>
-                        <div>Picture of a small green leaf: <span class="answer-space" style="width: 60px;"></span> <span class="answer-space" style="width: 60px;"></span> leaf</div>
+                        <div>A. You see your teacher at 2:30 PM: _________</div>
+                        <div>B. You are leaving a friend's house at 9:00 PM: _________</div>
+                        <div>C. You meet your neighbor at 7:00 PM: _________</div>
+                        <div>D. You are going to bed: _________</div>
+                        <div>E. You see the principal at 1:15 PM: _________</div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Describe Your School Bag</strong></p>
+                <p><strong>Part B: Good Night vs. Good Evening</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Look at your school bag. Draw it and describe it:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>My school bag is <span class="answer-space" style="width: 80px;"></span> and <span class="answer-space" style="width: 80px;"></span>.</div>
-                        <div>(color) (size)</div>
-                    </div>
+                    <span class="task-number">2</span> Explain the difference between "Good evening" and "Good night":
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Complete the Descriptions</strong></p>
+                <p><strong>Part C: Complete the Conversations</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Fill in the blanks with color and size words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>A <span class="answer-space" style="width: 80px;"></span> <span class="answer-space" style="width: 80px;"></span> elephant (gray/big)</div>
-                        <div>A <span class="answer-space" style="width: 80px;"></span> <span class="answer-space" style="width: 80px;"></span> button (red/small)</div>
-                        <div>A <span class="answer-space" style="width: 80px;"></span> <span class="answer-space" style="width: 80px;"></span> house (white/big)</div>
-                        <div>A <span class="answer-space" style="width: 80px;"></span> <span class="answer-space" style="width: 80px;"></span> bird (blue/small)</div>
+                    <span class="task-number">3</span> Fill in the blanks with the correct greeting or goodbye:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f5f5f5; padding: 15px;">
+                        <p><strong>Conversation 1 (3:00 PM at school):</strong></p>
+                        <p>Student: "__________, Mr. Chen!"<br>Mr. Chen: "Good afternoon! How was lunch?"<br>Student: "It was good, thanks!"</p>
+                        <p><strong>Conversation 2 (8:00 PM at home):</strong></p>
+                        <p>Parent: "__________, everyone. Time for dinner."<br>Child: "__________, Mom. What's for dinner?"</p>
+                        <p><strong>Conversation 3 (10:00 PM before bed):</strong></p>
+                        <p>Child: "__________, Dad."<br>Dad: "__________. Sweet dreams!"</p>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Drawing Challenge</strong></p>
+                <p><strong>Part D: Write Your Own Conversation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw what the teacher describes:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>"Draw a big red circle."</div>
-                        <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
-                        <div style="margin-top: 10px;">"Draw a small yellow star."</div>
-                        <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
-                    </div>
+                    <span class="task-number">4</span> Write a short conversation that happens in the afternoon OR evening. Include a greeting and a response:
+                    <div class="answer-space" style="height: 120px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find 5 things at home and describe them using both color and size words. Example: 'big white refrigerator' or 'small blue cup'.",
+        homework: "At dinner time tonight, say 'Good evening' to your family. Before you go to bed, say 'Good night' to everyone. Write one sentence about how they responded.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "English",
-        topic: "Helping at Home",
-        subtopic: "Learning vocabulary for home chores",
+        topic: "Greetings",
+        subtopic: "Greetings by Time of Day",
         lessonContent: `
-            <p>Today we will learn about different chores we can do to help at home!</p>
-            <p><strong>Key Concept:</strong> Chores are small jobs we do to help our family and keep our home clean and happy.</p>
-            <p><strong>Common Home Chores:</strong></p>
+            <p>Today we'll practice matching the correct greeting to different times of the day using interactive activities!</p>
+            <p><strong>Key Question:</strong> Can you look at the sun or moon and know which greeting to use?</p>
+            <p><strong>Introduction:</strong> Greetings change with the position of the sun. When the sun is rising, we say "Good morning." When the sun is high in the sky, we say "Good afternoon." When the sun is setting, we switch to "Good evening."</p>
+            <p><strong>Review of Time-Based Greetings:</strong></p>
             <ul>
-                <li><strong>Cooking</strong> - helping to prepare food</li>
-                <li><strong>Washing</strong> - cleaning clothes or dishes</li>
-                <li><strong>Sweeping</strong> - cleaning the floor with a broom</li>
-                <li><strong>Cleaning</strong> - making things neat and tidy</li>
-                <li><strong>Setting the table</strong> - putting plates and cups on the table</li>
+                <li><strong>🌅 Morning (Sunrise - 12:00 PM):</strong> "Good morning"</li>
+                <li><strong>☀️ Afternoon (12:00 PM - Sunset):</strong> "Good afternoon"</li>
+                <li><strong>🌙 Evening (Sunset - Bedtime):</strong> "Good evening"</li>
+                <li><strong>😴 Night (Bedtime/Leaving):</strong> "Good night" (goodbye, not a greeting)</li>
             </ul>
-            <p><strong>How to describe chores:</strong> We use action words that end with "-ing"</p>
+            <p><strong>Visual Cues for Greetings:</strong></p>
             <ul>
-                <li>I am cooking.</li>
-                <li>She is washing.</li>
-                <li>He is sweeping.</li>
-                <li>We are cleaning.</li>
+                <li>Sun low in the east → Morning</li>
+                <li>Sun high overhead → Afternoon</li>
+                <li>Sun low in the west / darkening sky → Evening</li>
+                <li>Moon and stars out / very dark → Night (use "Good night" for goodbye)</li>
             </ul>
-            <p><strong>Why we help:</strong> When everyone helps with chores, our home stays nice and we work together as a family!</p>
+            <p><strong>Remember:</strong> You can still say "Hello" or "Hi" at ANY time of day! These time-specific greetings are just more polite and specific.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-utensils" style="color: #FF5722;"></i> Cooking Example</div>
-                <p>"Mom is cooking dinner." - This means mom is preparing food in the kitchen.</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Sun Position Practice</div>
+                <p>🌅 The sun is just rising over the trees. → "Good morning!"<br>
+                ☀️ The sun is directly above you at the park. → "Good afternoon!"<br>
+                🌅 The sun is setting and the sky is orange. → "Good evening!"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-broom" style="color: #795548;"></i> Sweeping Example</div>
-                <p>"Dad is sweeping the floor." - This means dad is cleaning the floor with a broom.</p>
+                <div class="example-title"><i class="fas fa-clock"></i> Clock Time Practice</div>
+                <p>🕗 8:00 AM → "Good morning"<br>
+                🕛 12:30 PM → "Good afternoon"<br>
+                🕔 5:00 PM → "Good afternoon" (if still light) OR "Good evening" (if dark)<br>
+                🕗 8:00 PM → "Good evening"</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Picture Description Game!</div>
-                <p>We'll look at pictures of people doing chores and practice describing what we see!</p>
+                <div class="example-title"><i class="fas fa-exchange-alt"></i> Mix and Match</div>
+                <p>Not sure which greeting to use? "Hello" is always correct! But learning time-specific greetings makes you sound more natural in English.</p>
             </div>
         `,
-        taskInstructions: "Practice identifying and describing different home chores.",
+        taskInstructions: "Match greetings to pictures of the sun and moon. Then roleplay greetings at different times.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Match the Chore</strong></p>
+                <p><strong>Part A: Match the Picture to the Greeting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match the picture with the correct chore word:
+                    <span class="task-number">1</span> Look at each description and write the correct greeting:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Picture of someone with a broom → ☐ Washing</div>
-                        <div>Picture of someone at the sink → ☐ Cooking</div>
-                        <div>Picture of someone at the stove → ☐ Sweeping</div>
-                        <div>Picture of someone with toys → ☐ Cleaning</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Picture Description</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Look at the picture of home life. What chore do you see?
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px; background-color: #f5f5f5;">
-                        <div style="text-align: center; padding-top: 50px;">[Picture of family doing chores]</div>
-                    </div>
-                    <div style="margin-top: 10px;">
-                        <div>In this picture, I see someone <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>(cooking/washing/sweeping/cleaning)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: My Chores at Home</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw yourself helping with a chore at home:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>In my picture, I am <span class="answer-space" style="width: 150px;"></span>.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Chore Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Complete the sentences about chores:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>When we wash dishes, we are <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>When we use a broom, we are <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>When we prepare food, we are <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>When we tidy our toys, we are <span class="answer-space" style="width: 100px;"></span>.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Helping Hands</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Trace your hand and write one chore you can do with that hand:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div class="drawing-area" style="height: 120px; width: 120px; border: 1px dashed #ccc;"></div>
-                        <div style="margin-left: 20px; padding-top: 40px;">
-                            <div>With this hand, I can help by <span class="answer-space" style="width: 150px;"></span>.</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                            <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                                <div style="font-size: 40px;">🌅</div>
+                                <div>Sun rising in the east</div>
+                                <div>Time: 7:00 AM</div>
+                                <div>Greeting: _________</div>
+                            </div>
+                            <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                                <div style="font-size: 40px;">☀️</div>
+                                <div>Sun high in the sky</div>
+                                <div>Time: 1:00 PM</div>
+                                <div>Greeting: _________</div>
+                            </div>
+                            <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                                <div style="font-size: 40px;">🌅</div>
+                                <div>Sun setting in the west</div>
+                                <div>Time: 6:30 PM</div>
+                                <div>Greeting: _________</div>
+                            </div>
+                            <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                                <div style="font-size: 40px;">🌙</div>
+                                <div>Moon and stars visible</div>
+                                <div>Time: 9:00 PM (leaving)</div>
+                                <div>Saying: _________</div>
+                            </div>
                         </div>
                     </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: What Would You Say?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each scenario and write the appropriate greeting or goodbye:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. You see your friend at school at 8:30 AM: _________</div>
+                        <div>B. You meet your neighbor at 4:00 PM: _________</div>
+                        <div>C. You leave a party at 10:00 PM: _________</div>
+                        <div>D. You see your teacher at 2:45 PM: _________</div>
+                        <div>E. You say goodbye to your family before bed: _________</div>
+                        <div>F. You arrive at a restaurant at 7:30 PM: _________</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Interactive Roleplay</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> With a partner, practice greeting each other at different times. Your teacher will show pictures of the sun/moon. Use the correct greeting each time!
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Draw and Label</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw the sun in three positions (morning, afternoon, evening). Label each with the correct greeting:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Watch your family members doing chores tonight. Draw one chore you see and write what they are doing.",
+        homework: "Draw a clock showing 8:00 AM, 1:00 PM, 5:00 PM, and 8:00 PM. Next to each time, write the correct greeting.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "English",
-        topic: "Action Role-Play (Chores)",
-        subtopic: "Describing home chores through role-play",
+        topic: "Greetings",
+        subtopic: "Interactive Greeting Circle",
         lessonContent: `
-            <p>Today is our chore celebration day! We'll act out different chores and practice describing them.</p>
-            <p><strong>Key Concept:</strong> We can show what chore we're doing by acting it out, and others can guess what we're doing!</p>
-            <p><strong>Role-Play Rules:</strong></p>
+            <p>Today we'll practice everything we've learned this week in a fun, interactive greeting circle!</p>
+            <p><strong>Key Question:</strong> Can you confidently greet people at any time of day?</p>
+            <p><strong>Introduction:</strong> Today is all about practice and movement! We'll form a circle and practice greeting classmates using all the phrases we've learned.</p>
+            <p><strong>What We've Learned This Week:</strong></p>
             <ul>
-                <li>One pupil acts out a chore without talking</li>
-                <li>Other pupils watch carefully</li>
-                <li>When the teacher says "Freeze!", the actor stops</li>
-                <li>Classmates describe what chore they saw</li>
+                <li><strong>Morning:</strong> "Good morning" + "How are you?" responses</li>
+                <li><strong>Afternoon:</strong> "Good afternoon"</li>
+                <li><strong>Evening:</strong> "Good evening"</li>
+                <li><strong>Night/Bedtime:</strong> "Good night" (goodbye)</li>
+                <li><strong>Follow-up questions:</strong> "And you?" / "How about you?"</li>
             </ul>
-            <p><strong>Common Chores to Act Out:</strong></p>
+            <p><strong>Activity Rules:</strong></p>
+            <ol>
+                <li>Form a large circle with the whole class</li>
+                <li>One person starts by greeting the person to their right</li>
+                <li>The person responds and then greets the next person</li>
+                <li>Continue around the circle until everyone has greeted and been greeted</li>
+                <li>Try to use different greetings (morning, afternoon, evening) as if time is passing</li>
+            </ol>
+            <p><strong>Polite Greeting Tips:</strong></p>
             <ul>
-                <li>Sweeping the floor</li>
-                <li>Washing dishes</li>
-                <li>Cooking food</li>
-                <li>Washing clothes</li>
-                <li>Setting the table</li>
-                <li>Cleaning windows</li>
+                <li>👀 Make eye contact when greeting someone</li>
+                <li>😊 Smile to show friendliness</li>
+                <li>🗣️ Speak clearly so others can hear</li>
+                <li>👋 You can wave while you greet</li>
+                <li>💬 Remember to ask "And you?" to be polite</li>
             </ul>
-            <p><strong>How to Describe:</strong> "He is sweeping." "She is washing dishes." "They are cooking."</p>
-            <p><strong>Today's activities:</strong> We'll play chore charades and practice our observation and description skills!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-theater-masks" style="color: #9C27B0;"></i> Role-Play Example</div>
-                <p>If a pupil pretends to hold a broom and sweep, we say: "You are sweeping the floor!"</p>
+                <div class="example-title"><i class="fas fa-users"></i> Greeting Circle Example</div>
+                <p><strong>Student 1:</strong> Good morning, Maria! How are you?<br>
+                <strong>Student 2 (Maria):</strong> Good morning! I'm fine, thank you. And you?<br>
+                <strong>Student 1:</strong> I'm great, thanks!<br>
+                <strong>Student 2 (Maria):</strong> (turns to Student 3) Good morning, Juan! How's it going?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping" style="color: #4CAF50;"></i> Teamwork Example</div>
-                <p>Two pupils can act out washing dishes together: one washing, one drying. We say: "They are washing dishes!"</p>
+                <div class="example-title"><i class="fas fa-clock"></i> Changing Greetings</div>
+                <p>As you go around the circle, pretend time is passing:<br>
+                First 5 people: "Good morning"<br>
+                Next 5 people: "Good afternoon"<br>
+                Next 5 people: "Good evening"<br>
+                Last person: "Good night" (as you "leave" the circle)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Chore Charades Game!</div>
-                <p>We'll take turns acting out chores while classmates guess what we're doing!</p>
+                <div class="example-title"><i class="fas fa-comment"></i> Different Responses</div>
+                <p>Try using different responses to "How are you?":<br>
+                - "I'm good, thanks!"<br>
+                - "Pretty good, how about you?"<br>
+                - "Not bad, thanks."<br>
+                - "I'm great! And you?"</p>
             </div>
         `,
-        taskInstructions: "Participate in role-play activities and practice describing the chores you see.",
+        taskInstructions: "Participate in the greeting circle activity, then reflect on what you learned.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Chore Charades</strong></p>
+                <p><strong>Part A: Greeting Circle Participation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Act out a chore. Your classmates will guess:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <div>My chore to act out: <span class="answer-space" style="width: 150px;"></span></div>
-                        <div>What my classmates guessed: <span class="answer-space" style="width: 150px;"></span></div>
-                    </div>
+                    <span class="task-number">1</span> Join the class greeting circle. Greet at least 5 classmates using different greetings. Pay attention to:
+                    <ul style="margin-left: 30px; margin-top: 10px;">
+                        <li>Making eye contact</li>
+                        <li>Smiling</li>
+                        <li>Speaking clearly</li>
+                        <li>Asking "And you?"</li>
+                    </ul>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Guess the Chore</strong></p>
+                <p><strong>Part B: Greeting Circle Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Watch a classmate act. Draw what you think they are doing:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>I think <span class="answer-space" style="width: 100px;"></span> is <span class="answer-space" style="width: 150px;"></span>.</div>
-                        <div>(name) (chore)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Chore Sequence</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> With a partner, act out this chore sequence:
+                    <span class="task-number">2</span> Answer these questions after the activity:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Sweep the floor</div>
-                        <div>2. Wash dishes</div>
-                        <div>3. Set the table</div>
-                        <div>Draw your favorite part of the sequence:</div>
-                        <div class="drawing-area" style="height: 120px; margin-top: 5px;"></div>
+                        <div>A. How did it feel to greet your classmates?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                        <div>B. Which greeting was easiest for you? Which was hardest?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                        <div>C. What did you learn from watching others greet?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Chore Description</strong></p>
+                <p><strong>Part C: Write Your Favorite Greeting Conversation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Watch the teacher act out a chore. Describe it using full sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>The teacher is <span class="answer-space" style="width: 150px;"></span>.</div>
-                        <div>She is using a <span class="answer-space" style="width: 100px;"></span>.</div>
-                        <div>This chore helps to <span class="answer-space" style="width: 150px;"></span>.</div>
-                    </div>
+                    <span class="task-number">3</span> Write a greeting conversation you had today in the circle (or make one up):
+                    <div class="answer-space" style="height: 120px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Helping Hero Certificate</strong></p>
+                <p><strong>Part D: Week 9 Review</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a helping hero doing your favorite chore:
-                    <div class="drawing-area" style="height: 150px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>I am a helping hero when I <span class="answer-space" style="width: 200px;"></span>.</div>
-                    </div>
+                    <span class="task-number">4</span> List all the greetings you learned this week:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> When do you say "Good night"? Why isn't it a greeting?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> What was your favorite activity this week? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Personal Commitment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">7</span> I will practice greeting people politely by:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home how to play chore charades. Act out a chore and have them guess what you're doing.",
+        homework: "This weekend, greet five different people using the correct time-of-day greeting. Write down who you greeted and which greeting you used.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleEnglishWeek9);
-    console.log("english-week9-objects.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeMiddleEnglishWeek9);
+    console.log("grade-middle-english-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleEnglishWeek9);
-    console.log("english-week9-objects.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeMiddleEnglishWeek9);
+    console.log("grade-middle-english-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleEnglishWeek9',
-        metadata: middleEnglishWeek9.metadata,
-        days: middleEnglishWeek9
+        variableName: 'gradeMiddleEnglishWeek9',
+        metadata: gradeMiddleEnglishWeek9.metadata,
+        days: gradeMiddleEnglishWeek9
     });
-    console.log("english-week9-objects.js stored in window.registeredWorksheets");
+    console.log("grade-middle-english-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleEnglishWeek9 = middleEnglishWeek4;
-console.log("english-week9-objects.js loaded and registered successfully");
+window.gradeMiddleEnglishWeek9 = gradeMiddleEnglishWeek9;
+console.log("grade-middle-english-week9.js loaded and registered successfully");

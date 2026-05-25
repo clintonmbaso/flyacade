@@ -1,202 +1,292 @@
-// Middle Class Bemba - Week 9 Data (Rules at Home and School)
-const middleBembaWeek9 = {
+// Grade 6 Zambian Language (Icibemba) - Term 1 Week 9 Data
+const grade6IcibembaWeek9 = {
     metadata: {
         grade: "middle",
         subject: "Zambian Language (Icibemba)",
+        term: 1,
         week: 9,
-        title: "Amafunde ya pa Ng’anda ne pe Sukulu (Rules at Home and School)",
-        description: "Learning to identify and discuss rules at home and school in Bemba"
+        title: "Family Sharing & Preferences",
+        description: "Talking about family experiences and expressing likes and dislikes in Icibemba"
     },
     
     monday: {
-        subject: "Bemba",
-        topic: "Amafunde ya pa Ng’anda (Rules at Home)",
-        subtopic: "Identifying and stating home expectations",
+        subject: "Icibemba",
+        topic: "Family Sharing",
+        subtopic: "Family Experiences",
         lessonContent: `
-            <p>Mwalibwanji baana! Lelo tulilanda pa ma-funde ya pa ng’anda.</p>
-            <p><strong>Inshita sha buumi:</strong> Amafunde ya pa ng’anda (Home rules)</p>
-            <p><strong>Inshita isha:</strong></p>
+            <p>Mwapoleni mukwai! (Hello everyone!) Welcome to our Icibemba lesson. Today we'll learn how to talk about shared family experiences.</p>
+            <p><strong>Key Question:</strong> How do we talk about things our family does together in Icibemba?</p>
+            <p><strong>Introduction:</strong> In Bemba culture, family is very important. Sharing experiences together strengthens family bonds. Today we'll learn to talk about common family activities.</p>
+            
+            <p><strong>Vocabulary for Family Experiences:</strong></p>
+            <ol>
+                <li><strong>Ukupita ku calo (Ukupita kucalo)</strong> - Going to the farm / farming</li>
+                <li><strong>Ukupita ku misangano</strong> - Going to church</li>
+                <li><strong>Ukushitisha / Ukupita ku malayilo (malailo)</strong> - Going shopping</li>
+                <li><strong>Ukupita ku mapati / Ukusekelela (Ukusekelela)</strong> - Going to parties / celebrating</li>
+                <li><strong>Ukulya pampe (Ukulya pampe)</strong> - Eating together</li>
+                <li><strong>Ukusambilila pampe (Ukusambilila pampe)</strong> - Learning together</li>
+            </ol>
+            
+            <p><strong>Useful Sentence Structures:</strong></p>
             <ul>
-                <li><strong>Ukucindika:</strong> To respect</li>
-                <li><strong>Ukulaala:</strong> To sleep</li>
-                <li><strong>Abafyashi:</strong> Parents</li>
-                <li><strong>Tulecindika abafyashi:</strong> We respect parents</li>
+                <li><strong>Tuleya ku...</strong> - We are going to...</li>
+                <li><strong>Icine cine (icine cine)</strong> - Truly / Really</li>
+                <li><strong>Pamo (pamo)</strong> - Together</li>
+                <li><strong>Ilyo twali baice (baice)</strong> - When we were young</li>
             </ul>
-            <p><strong>Amafunde ya pa ng’anda:</strong></p>
+            
+            <p><strong>Example Sentences:</strong></p>
             <ul>
-                <li>Ukulaala panono (Sleeping early)</li>
-                <li>Ukucindika abafyashi (Respecting parents)</li>
-                <li>Ukusenda amafungulo (Cleaning up)</li>
-                <li>Ukulya inshita sha kulya (Eating at mealtime)</li>
+                <li><em>Tuleya ku calo na ba mama na ba tata.</em> (We are going to the farm with mother and father.)</li>
+                <li><em>Ilyo mulishaba (mulishaba), tuleya ku misangano pamo.</em> (On Sunday, we go to church together.)</li>
+                <li><em>Twapitile ku malayilo inshita yashale (malayilo inshita yashale).</em> (We went shopping last week.)</li>
             </ul>
-            <p><strong>Inganekwane (Story):</strong> Umwana uwacindikile abafyashi. Alalile panono, asendile amafungulo, ne alilile inshita sha kulya.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #4CAF50;"></i> Amafunde ya pa Ng’anda</div>
-                <p>"Tulelaala panono." - This means "We sleep early."</p>
+                <div class="example-title"><i class="fas fa-tractor"></i> Family Farming</div>
+                <p>In many Zambian families, everyone helps on the farm. Children learn from their parents: "Tulelima ifyumwa (ifyumwa) na ba mbuya" - We plant maize with grandparents.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users"></i> Ukucindika</div>
-                <p>"Tulecindika abafyashi." - This means "We respect parents."</p>
+                <div class="example-title"><i class="fas fa-church"></i> Sunday Together</div>
+                <p>Church is an important family experience: "Twita mu misangano" (We go to church). After church, families often eat together - "Tulekula pampe."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book"></i> Inganekwane ya Mwana</div>
-                <p>A story about a child who follows home rules and sleeps early.</p>
+                <div class="example-title"><i class="fas fa-shopping-bag"></i> Market Day</div>
+                <p>"Ku malayilo" (at the market) is where families shop for vegetables, fish (isabi), and dried meat (inkanda). "Tuleta ifyakulya" - We bring food home.</p>
             </div>
         `,
-        taskInstructions: "Bombeni ifi fibako ukwishiba pa ma-funde ya pa ng’anda.",
+        taskInstructions: "Practice talking about family experiences using Icibemba vocabulary and sentence structures.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Inganekwane ne kuyanda (Storytime and Discussion):
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E8F5E9; border-radius: 5px;">
-                    <p><strong>Teacher reads:</strong> "Kabili kabili, pali umwana uwacindikile abafyashi. Alalile panono, asendile amafungulo, ne alilile inshita sha kulya."</p>
-                    <p><strong>Discussion:</strong> "Tulecindika abafyashi" - What does this mean?</p>
-                    <div class="answer-space" style="height: 40px; width: 300px; border: 1px dashed #ccc; margin-top: 5px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Vocabulary Match</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Match the Icibemba phrase to its English meaning:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. Ukupita ku calo ___</div>
+                        <div>2. Ukushitisha ___</div>
+                        <div>3. Ukupita ku misangano ___</div>
+                        <div>4. Ukusekelela ___</div>
+                        <div>5. Ukulya pampe ___</div>
+                    </div>
+                    <div style="margin-left: 40px; margin-top: 5px;">
+                        <div>A. Going to church</div>
+                        <div>B. Eating together</div>
+                        <div>C. Going to the farm</div>
+                        <div>D. Celebrating / going to parties</div>
+                        <div>E. Shopping</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Amafunde ya pa ng’anda (Home Rules Drawing):
-                <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc; display: flex; align-items: center; justify-content: center;">
-                    <div style="font-size: 18px; font-weight: bold;">Amafunde ya pa ng’anda: ______________</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Complete the Sentences</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Fill in the blanks with the correct Icibemba word/phrase:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) Twapitile ___________ (to the market) na ba mayo.</div>
+                        <div>b) Pa Mulungu, tuleya ___________ (to church).</div>
+                        <div>c) Abaice basha misepo (misepo) ___________ (farming) na ba shikulu.</div>
+                        <div>d) Tulekula ___________ (together) mu nteko (mu nteko).</div>
+                    </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
-                <div style="margin-top: 10px;">Draw one home rule you follow. Label it in Bemba.</div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Practice saying home rules:
-                <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #F3E5F5; border-radius: 5px;">
-                    <div><strong>Teacher:</strong> "Nga mwalaala?" (When do you sleep?)</div>
-                    <div class="answer-space" style="height: 30px; width: 200px; display: inline-block; margin-left: 10px;">Child says: ________________</div>
-                    <div><em>Answer: "Ndalaala panono." (I sleep early.)</em></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Write About Your Family</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write 3 sentences in Icibemba about things your family does together:
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Ukucindika abafyashi (Respecting Parents):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Show how you respect parents:</div>
-                    <div>Practice: ☐ Ukumfwa (Listening) ☐ Ukulanda nabo (Talking to them) ☐ Ukubasenda (Helping them)</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Speaking Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> With a partner, ask and answer: "Muliya kupi (kupi) na ba mwenu (ba mwenu) ilyo mulishaba (mulishaba)?" (Where do you go with your family on Sunday?)
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Landa na bafyashi bobe pa ma-funde ya pa ng’anda. Tila 'Nshacindika abafyashi' (I respect parents).",
-        homeworkDue: "Tuesday"
+        homework: "Ask a family member in Icibemba: 'Twapitile kupi pampe?' (Where did we go together?) Write their answer in Icibemba and English.",
+        homeworkDue: "Wednesday"
     },
     
     tuesday: {
-        subject: "Bemba",
-        topic: "Amafunde ya pe Sukulu (Rules at School)",
-        subtopic: "Using appropriate language to discuss school conduct",
+        subject: "Icibemba",
+        topic: "Personal Preferences",
+        subtopic: "Likes and Dislikes",
         lessonContent: `
-            <p>Lelo tulilanda pa ma-funde ya pe sukulu!</p>
-            <p><strong>Inshita sha buumi:</strong> Amafunde ya pe sukulu (School rules)</p>
-            <p><strong>Inshita isha:</strong></p>
+            <p>Mwapoleni! Today we'll learn how to express things we like and don't like in Icibemba.</p>
+            <p><strong>Key Question:</strong> How do we say "I like" and "I don't like" in Icibemba?</p>
+            <p><strong>Introduction:</strong> Being able to share our preferences helps us communicate with friends and family. Let's learn to talk about foods, clothes, and games we enjoy!</p>
+            
+            <p><strong>Key Verbs for Likes and Dislikes:</strong></p>
             <ul>
-                <li><strong>Ukwikala tondolo:</strong> Sit quietly</li>
-                <li><strong>Ukubutuka:</strong> Running</li>
-                <li><strong>Ukuyumfwa:</strong> To listen</li>
-                <li><strong>Ukulanda:</strong> To speak</li>
+                <li><strong>Ukutemwa (Ukutemwa)</strong> - To like / to love</li>
+                <li><strong>Ukutemwa nga (Ukutemwa nga)</strong> - To like very much / to love</li>
+                <li><strong>Ukutemwa ukucila (ukucila)</strong> - To prefer / to like more</li>
+                <li><strong>Ukutemwa nokutemwa (nokutemwa)</strong> - To like a lot</li>
+                <li><strong>Icitikilwa (icitikilwa)</strong> - Favorite / preference</li>
             </ul>
-            <p><strong>Amafunde ya pe sukulu:</strong></p>
+            
+            <p><strong>Negative Form (Dislikes):</strong></p>
             <ul>
-                <li>Ikwikala tondolo (Sit quietly)</li>
-                <li>Kuyumfwa mwa ncesha (Listen carefully)</li>
-                <li>Kubomba ifyakubomba (Do your work)</li>
-                <li>Kucindika ba nina (Respect teachers)</li>
+                <li><strong>Temutemenwa (temutemenwa)</strong> - Do not like (I don't like)</li>
+                <li><strong>Nshakulibako (nshakulibako)</strong> - I don't like it at all</li>
+                <li><strong>Tanditwishibe (tanditwishibe)</strong> - I don't prefer it</li>
             </ul>
-            <p><strong>Umulandu uwakwiba (Good behavior):</strong> Ukwikala tondolo, kuyumfwa, ne kucindika.</p>
-            <p><strong>Simoni Atila (Simon Says):</strong> Tulebomba ifi fibako ukwishiba ma-funde ya pe sukulu.</p>
+            
+            <p><strong>Vocabulary for Preferences:</strong></p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <div>
+                    <strong>Foods (Ifyakulya):</strong>
+                    <ul>
+                        <li>Ifyumwa (ifyumwa) - Maize</li>
+                        <li>Umupunga - Rice</li>
+                        <li>Ifisabi - Fish</li>
+                        <li>Inkanda - Dried meat</li>
+                        <li>Utwali - Nshima</li>
+                        <li>Icungwa - Orange</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong>Clothes (Zinga):</strong>
+                    <ul>
+                        <li>Mpale - Dress</li>
+                        <li>Zibutushi - Shoes</li>
+                        <li>Mukofu (mukofu) - Hat</li>
+                        <li>Chilaya - Shirt</li>
+                        <li>Mukanda - Skirt</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p><strong>Games (Imikanka):</strong></p>
+            <ul>
+                <li>Bola ya misepo (misepo) - Football</li>
+                <li>Nsolo - Traditional board game</li>
+                <li>Ukukonkola - Tag / chasing game</li>
+                <li>Kasese (kasese) - Hide and seek</li>
+            </ul>
+            
+            <p><strong>Example Sentences:</strong></p>
+            <ul>
+                <li><em>Natemwa ukulya ifisabi.</em> (I like eating fish.)</li>
+                <li><em>Temutemenwa umuto (umuto).</em> (I don't like vegetables.)</li>
+                <li><em>Icitikilwa (icitikilwa) lyanga ukucila (ukucila) utwali ni misepo (misepo).</em> (My favorite food is nshima with meat.)</li>
+                <li><em>Natemwa ukusamba mu nsita (mu nsita).</em> (I like playing football.)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-school" style="color: #2196F3;"></i> Amafunde ya pe Sukulu</div>
-                <p>"Ikwikala tondolo." - This means "Sit quietly."</p>
+                <div class="example-title"><i class="fas fa-utensils"></i> Talking About Food</div>
+                <p>"Natemwa ukulya inkanda, but temutemenwa kapenta." (I like eating dried meat, but I don't like small dried fish.)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-running" style="color: #FF9800;"></i> Imilimo ya pe Sukulu</div>
-                <p>"Tabutukile mu sukulu." - This means "Do not run in school."</p>
+                <div class="example-title"><i class="fas fa-tshirt"></i> Talking About Clothes</div>
+                <p>"Icitikilwa (icitikilwa) manga ilya (ilya) bibala?" (What is your favorite color?) "Natemwa bula (bula) na lubilo (lubilo)." (I like blue and yellow.)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Simoni Atila!</div>
-                <p>Let's play "Simoni Atila" with school rules like "Ikwikala tondolo" (Sit quietly)!</p>
+                <div class="example-title"><i class="fas fa-futbol"></i> Talking About Games</div>
+                <p>"Tulekenye (tulekenye) ukusamba nsolo? Temutemenwa nsolo, natemwa bola ya misepo (misepo)." (Shall we play nsolo? I don't like nsolo, I like football.)</p>
             </div>
         `,
-        taskInstructions: "Bombeni ifi fibako ukwishiba pa ma-funde ya pe sukulu.",
+        taskInstructions: "Practice expressing likes and dislikes about foods, clothes, and games in Icibemba.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Simoni Atila (Simon Says)</strong></p>
+                <p><strong>Part A: Translate These Sentences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Let's play Simoni Atila with school rules:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #E3F2FD; border-radius: 5px;">
-                        <div>1. Simoni atila: "Ikwikala tondolo!" (Sit quietly!)</div>
-                        <div>2. Simoni atila: "Iyumfwe!" (Listen!)</div>
-                        <div>3. Simoni atila: "Imulandile!" (Line up!)</div>
-                        <div>4. Simoni atila: "Tabutukile!" (Don't run!)</div>
-                        <div><em>If teacher says "Simoni atila" first, do it. If not, don't move!</em></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Good School Behavior</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Point to pictures showing good school behavior in Bemba:
-                    <div style="margin-left: 20px; margin-top: 10px; padding: 10px; background-color: #FCE4EC; border-radius: 5px;">
-                        <div>Picture 1: Child sitting quietly → "Umuwana uwikala tondolo"</div>
-                        <div>Picture 2: Child listening → "Umuwana uyumfwa"</div>
-                        <div>Picture 3: Child running → "Umuwana ubutuka" (This is not good behavior)</div>
-                        <div>Circle the good behaviors and say their names in Bemba.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Complete the Sentences</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Finish these sentences about school rules:
+                    <span class="task-number">1</span> Translate from Icibemba to English:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Mu sukulu, tule <span class="answer-space" style="width: 150px;"></span>. (In school, we ___)</div>
-                        <div>Tatule <span class="answer-space" style="width: 150px;"></span> mu sukulu. (We do not ___ in school)</div>
-                        <div>Tulecindika <span class="answer-space" style="width: 150px;"></span>. (We respect ___)</div>
+                        <div>a) Temutemenwa umupunga. = _________________</div>
+                        <div>b) Natemwa ukucila (ukucila) ukusamba nsolo. = _________________</div>
+                        <div>c) Icitikilwa (icitikilwa) change chili mpale. = _________________</div>
+                        <div>d) Twatemwa ukulya utwali na misepo (misepo). = _________________</div>
+                    </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Likes and Dislikes Chart</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete the chart with your preferences in Icibemba:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Category</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Natemwa (I like)</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Temutemenwa (I don't like)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Ifyakulya (Foods)</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Zinga (Clothes)</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Imikanka (Games)</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                            </tr>
+                        建成
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: School Rules Drawing</strong></p>
+                <p><strong>Part C: Write About Your Preferences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw one good school rule and label it in Bemba:
-                    <div class="drawing-area" style="height: 120px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">
-                        <div>Write: "Mu sukulu, tule ______________."</div>
-                    </div>
+                    <span class="task-number">3</span> Write 4 sentences in Icibemba telling what you like and don't like:
+                    <div class="answer-space" style="height: 120px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Partner Interview</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Ask a classmate in Icibemba: "Natemwa shani (shani) ukusamba bola?" (How much do you like playing ball?) Write their answer:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Ask: "Icitikilwa (icitikilwa) cobe chili ku zinga?" (What is your favorite clothing?)
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Landa na ba nina bobe pa ma-funde ya pe sukulu. Tila 'Nshacindika ba nina' (I respect teachers).",
-        homeworkDue: "Wednesday"
+        homework: "Write 5 sentences in Icibemba telling a family member what foods you like and don't like. Ask them one thing they like: 'Natemwa shani?'",
+        homeworkDue: "Thursday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(middleBembaWeek9);
-    console.log("bemba-week9-rules.js registered using registerWorksheet()");
+    window.registerWorksheet(grade6IcibembaWeek9);
+    console.log("grade6-icibemba-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(middleBembaWeek9);
-    console.log("bemba-week9-rules.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(grade6IcibembaWeek9);
+    console.log("grade6-icibemba-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'middleBembaWeek9',
-        metadata: middleBembaWeek9.metadata,
-        days: middleBembaWeek9
+        variableName: 'grade6IcibembaWeek9',
+        metadata: grade6IcibembaWeek9.metadata,
+        days: grade6IcibembaWeek9
     });
-    console.log("bemba-week9-rules.js stored in window.registeredWorksheets");
+    console.log("grade6-icibemba-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.middleBembaWeek9 = middleBembaWeek9;
-console.log("bemba-week9-rules.js loaded and registered successfully");
+window.grade6IcibembaWeek9 = grade6IcibembaWeek9;
+console.log("grade6-icibemba-week9.js loaded and registered successfully");
