@@ -1,184 +1,199 @@
          // Array of events with their respective dates and reminder thresholds
          const events = [
-
-     // Term One (1)
             { 
-               name: "School Opens", 
-               date: new Date("Jan 8, 2025 08:00:00").getTime(), 
+               name: "KEMD Inductions", 
+               date: new Date("Feb 8, 2026 08:00:00").getTime(), 
                reminderDays: 2, 
                reminderHours: 12, 
-               caption: "School Opens", 
-               details: "School Opens without Baby Birds, Feather Flyers and Sky Soarers", 
-               imageUrl: "images/schoolOpens.jpg" 
+               caption: "KEMD Inductions", 
+               details: "Description of KEMD Inductions", 
+               imageUrl: "images/KEMD Inductions.jpg" 
             },
      
      
-             { name: "Second Opening", 
-               date: new Date("Feb 10, 2025 08:00:00").getTime(), 
+// February
+             { name: "KEMD Adventurer Bible Quiz", 
+               date: new Date("Feb 25, 2025 08:00:00").getTime(), 
                reminderDays: 2, reminderHours: 12,
-               caption: "Second Opening", 
-               details: "The other classes open", 
-               imageUrl: "images/2Opening.jpg" 
+               caption: "KEMD Adventurer Bible Quiz", 
+               details: "Description of KEMD Adventurer Bible Quiz", 
+               imageUrl: "images/KEMD Adventurer Bible Quiz.jpg" 
              },
      
-             { name: "Valentine Special", 
-               date: new Date("Feb 14, 2025 08:00:00").getTime(), 
-               reminderDays: 3, reminderHours: 12,
-               caption: "Valentine Special", 
-               details: "We will have a special valentine day with the children. Only K30.", 
-               imageUrl: "images/valentineSpecial.jpg" 
-             },
-     
-             { name: "Mid Tests", 
-               date: new Date("Feb 17, 2025 08:00:00").getTime(), 
-               reminderDays: 3, reminderHours: 12,
-               caption: "Mid Tests", 
-               details: "The onset of Mid term tests.", 
-               imageUrl: "images/midTests.jpg" 
-             },
-     
-             { name: "Cultural Appreciation", 
-               date: new Date("Mar 14, 2025 08:00:00").getTime(), 
-               reminderDays: 3, reminderHours: 12,
-               caption: "Cultural Appreciation", 
-               details: "We will have a day to appreciate our cultural dishes. Payments will be K50, K75 and 100 for parents with 1, 2 and 3 children respectively.", 
-               imageUrl: "images/culturalAppreciation.jpg"
-             },
 
-             { name: "End Tests", 
-               date: new Date("Mar 17, 2025 08:00:00").getTime(), 
+// March
+             { name: "KEMD Leadership Seminar", 
+               date: new Date("Mar 9, 2026 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
-               caption: "End Tests", 
-               details: "Onset of End Term Assessments.", 
-               imageUrl: "images/endTests.jpg"
+               caption: "MEZC Leadership Seminar", 
+               details: "Description of MEZC Leadership Seminar", 
+               imageUrl: "images/MEZC Leadership Seminar.jpg" 
              },
 
      
-     // Term Two (2)
-             { name: "School Opens", 
-               date: new Date("Mar 17, 2024 08:00:00").getTime(), 
+             { name: "GYD", 
+               date: new Date("Mar 21, 2026 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
-               caption: "School Opens", 
+               caption: "GYD", 
+               details: "Global Youth Day", 
+               imageUrl: "images/GYD.jpg" 
+             },
+     
+             { name: "Youth Week of Prayer", 
+               date: new Date("Mar 16, 2026 17:00:00").getTime(), 
+               reminderDays: 3, reminderHours: 12,
+               caption: "Youth Week of Prayer", 
                details: "Description of Youth Week of Prayer", 
-               imageUrl: "images/weekPrayer.jpg" 
+               imageUrl: "images/Youth Week of Prayer.jpg" 
              },
-
-             { name: "Mid Assessments", 
-               date: new Date("Jun 10, 2024 08:00:00").getTime(), 
+     
+         	   { name: "Assessments", 
+         	     date: new Date("Jun 21, 2026 08:00:00").getTime(), 
+         	     reminderDays: 2, reminderHours: 12,
+               caption: "Assessments", 
+               details: "", 
+               imageUrl: "images/Assessments.jpg" 	     
+         	   },
+     
+         	   { name: "Fun, Arts and Skills Day", 
+         	     date: new Date("Apr 6, 2025 06:00:00").getTime(), 
+         	     reminderDays: 2, reminderHours: 12,
+               caption: "Fun, Arts and Skills Day", 
+               details: "", 
+               imageUrl: "images/MEZC I Love my Neighbor.jpg" 	     
+         	   },
+     
+             { name: "Rockside Drill Clinic", 
+               date: new Date("Apr 13, 2025 08:00:00").getTime(), 
                reminderDays: 5, reminderHours: 12,
-               caption: "Mid Assessments", 
-               details: "All classes will begin the tests on this date. Therefore, all the learners should habe their report books paid for and handed over to the teachers. All those that have not brought the reams of paper this year should do so before this day.", 
-               imageUrl: "images/mid_assessments.jpg" 
+               caption: "Rockside Drill Clinic", 
+               details: "", 
+               imageUrl: "images/drillClinic.jpg" 
              },
-     
-         	   { name: "Father's Day", 
-         	     date: new Date("Jun 16, 2024 08:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "Father's Day", 
-               details: "Description of KEMD Pathfinder Fair", 
-               imageUrl: "images/Fathers_Day.jpg" 	     
-         	   },
 
-         	   { name: "Hero's Day", 
-         	     date: new Date("Jul 1, 2024 08:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "Hero's Day", 
-               details: "Description of MEZC CMT Camp", 
-               imageUrl: "images/Heros_Day.jpg" 	     
-         	   },
-     
-         	   { name: "Unity Day", 
-         	     date: new Date("Jul 2, 2024 08:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "Unity Day", 
-               details: "Description of MEZC CMT Camp", 
-               imageUrl: "images/Unity_Day.jpg" 	     
-         	   },
-     
-         	   { name: "School Tour", 
-         	     date: new Date("Jul 19, 2024 08:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "School Tour", 
-               details: "For only K100 for all logistics, attend the tour with us to 'Little Paradise Park' and one of the 'important places in our community' within town", 
-               imageUrl: "images/School_Tour.jpg" 	     
-         	   },
+            { name: "KEMD Pathfinder Fair", 
+               date: new Date("Apr 20, 2025 08:00:00").getTime(), 
+               reminderDays: 5, reminderHours: 12,
+               caption: "KEMD Pathfinder Fair", 
+               details: "", 
+               imageUrl: "images/KEMD Big Sabbath.jpg" 
+             },
 
-         	   { name: "End Assessments", 
-         	     date: new Date("May 5, 2024 08:00:00").getTime(), 
+// April
+         	   { name: "Music Camp", 
+         	     date: new Date("Apr 18, 2025 08:00:00").getTime(), 
+         	     reminderDays: 2, reminderHours: 12,
+               caption: "Music Camp", 
+               details: "", 
+               imageUrl: "images/KEMD Pathfinder Fair.jpg" 	     
+         	   },
+     
+
+     
+
+// May
+         	   { name: "Capacity Building", 
+         	     date: new Date("May 27, 2025 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "End Assessments", 
+               caption: "Capacity Building", 
                details: "Description of KEMD Adventurer Quiz Day", 
-               imageUrl: "images/End_Assessments.jpg" 	     
+               imageUrl: "images/KEMD Adventurer Quiz Day.jpg" 	     
          	   },
-
-         	   { name: "Assessment Ended", 
-         	     date: new Date("Jul 31, 2024 08:00:00").getTime(), 
-         	     reminderDays: 3, reminderHours: 12,
-               caption: "Assessment Ended", 
-               details: "Description of KEMD Adventurer Quiz Day", 
-               imageUrl: "images/Assessment_Ended.jpg" 	     
-         	   },
-
-         	   { name: "Compilling Results", 
-         	     date: new Date("Aug 1, 2024 06:00:00").getTime(), 
+     
+         	   { name: "Assessments", 
+         	     date: new Date("May 29, 2025 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "Compilling Results", 
-               details: "Description of Rockside Survival Camp", 
+               caption: "Assessments", 
+               details: "", 
                imageUrl: "images/Rockside Survival Camp.jpg" 	     
          	   },
 
-         	   { name: "Open Day / Closing", 
-         	     date: new Date("Aug 2, 2024 06:00:00").getTime(), 
-         	     reminderDays: 0, reminderHours: 2,
-               caption: "Open Day / Closing", 
-               details: "Description of Rockside Survival Camp", 
-               imageUrl: "images/Rockside Survival Camp.jpg" 	     
-         	   },
-
-     // Term Three (3)
-         	   { name: "School Opens", 
-         	     date: new Date("Sep 8, 2025 06:00:00").getTime(), 
-         	     reminderDays: 0, reminderHours: 2,
-               caption: "School Opens", 
-               details: "Description of Rockside Survival Camp", 
-               imageUrl: "images/Rockside Survival Camp.jpg" 	     
-         	   },
-
-      	      { name: "Civilian Day", 
-      	        date: new Date("Sep 27, 2024 08:00:00").getTime(), 
+      	      { name: "GC Adventurer Day", 
+      	        date: new Date("May 18, 2026 08:00:00").getTime(), 
       	        reminderDays: 2, reminderHours: 12,
-               caption: "Embracing Self-Expression", 
-               details: "Civilian Day at school allows students to wear casual clothes, fostering self-expression, creativity, and promoting a relaxed atmosphere.", 
-               imageUrl: "images/tour1/IMG-20240809-WA0061.jpg" 	        
+               caption: "GC Adventurer Day", 
+               details: "Description of GC Adventurer Day", 
+               imageUrl: "images/GC Adventurer Day.jpg" 	        
       	      },
      
-       	     { name: "Teachers Party", 
-       	       date: new Date("Oct 5, 2024 08:00:00").getTime(), 
-       	       reminderDays: 2, reminderHours: 12,
-               caption: "Pre-World Teachers' Day Celebration: Honoring Educators with Joy and Appreciation", 
-               details: "A lively celebration for teachers, filled with laughter, music, and appreciation, honoring their dedication on the eve of World Teachers' Day.", 
-               imageUrl: "images/MEZC Council.jpg" 	       
-       	     },
-     
-     
-         	   { name: "Teachers Day", 
-         	     date: new Date("Oct 5, 2025 08:00:00").getTime(), 
+
+// June
+         	   { name: "Quiz and Debate", 
+         	     date: new Date("Jun 29, 2025 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "Pre-World Teachers' Day Celebration: Honoring Educators with Joy and Appreciation", 
-               details: "A lively celebration for teachers, filled with laughter, music, and appreciation, honoring their dedication on the eve of World Teachers' Day.", 
+               caption: "Quiz and Debate", 
+               details: "", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
      
-         	   { name: "Independence Day", 
-         	     date: new Date("Oct 24, 2025 06:00:00").getTime(), 
-         	     reminderDays: 0, reminderHours: 2,
-               caption: "National Independence Day", 
-               details: "Zambia Turns 65 years", 
-               imageUrl: "images/KEMD Investiture.jpg" 	     
-         	   }
 
+// July
+         	   { name: "Big Sabbatg", 
+         	     date: new Date("Jul 4, 2026 08:00:00").getTime(), 
+         	     reminderDays: 3, reminderHours: 12,
+               caption: "Big Sabbath", 
+               details: "The event will be held at Muteteshi Main SDA Church.", 
+               imageUrl: "images/KEMD CH Exams.jpg" 	     
+         	   },
      
+         	   { name: "Skills Camp", 
+         	     date: new Date("Jul 31, 2026 08:00:00").getTime(), 
+         	     reminderDays: 3, reminderHours: 12,
+               caption: "Skills Camp", 
+               details: "This will be a weekend camp running from 31st of July to 3rd of August, at Luanshimba Secondary. Only K200 per participant. Be there!!!", 
+               imageUrl: "images/KEMD CH Exams.jpg" 	     
+         	   },
      
+
+
+// August
+
+// September
+             { name: "Preacher’s Training Seminar", 
+         	     date: new Date("Sep 14, 2025 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Preacher’s Training Seminar", 
+               details: "", 
+               imageUrl: "../images/PathfinderWeekOfPrayer.jpg" 	     
+         	   },
+
+
+	   { name: "Pathfinder Day", 
+         	     date: new Date("Sep 21, 2025 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Global Pathfinder Day", 
+               details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
+               imageUrl: "../images/pathfinderDay.jpg" 	     
+         	   },
+     
+            { name: "Assessments", 
+         	     date: new Date("Sep 21, 2025 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Assessments", 
+               details: "", 
+               imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
+         	   },
+
+            { name: "Silver and Gold Expedition", 
+         	     date: new Date("Oct 18, 2025 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Silver and Gold Expedition", 
+               details: "", 
+               imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
+         	   },
+
+            { name: "Youth Council", 
+         	     date: new Date("Dec 7, 2025 07:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "The last Youth Council this year.", 
+               details: "It will be in Zone A, venue will be communicated. Executive meeting at 8 and council at 14.", 
+               imageUrl: "../images/crossoverCamp.jpg" 	     
+            }
+
+
+
+
+                  
             // Add other events here
          ];
 
@@ -262,4 +277,3 @@
             // Update the countdown every 1 second
             setInterval(updateCountdown, 1000);
          };
-
