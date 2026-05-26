@@ -1,497 +1,476 @@
-// Grade 1 Mathematics & Science - Week 10 Data (Measuring and Comparing)
-const grade1MathScienceWeek10 = {
+// Grade Middle - Term 1 Week 10 Data
+const gradeMiddleWeek10 = {
     metadata: {
         grade: "middle",
         subject: "Mathematics & Science",
+        term: 1,
         week: 10,
-        title: "Measuring and Comparing — Size, Length, and Width",
-        description: "Learning to compare and measure objects using non-standard units and comparison vocabulary"
+        title: "Money Pacing & Shopping Language",
+        description: "Recognizing small notes, counting money, money patterns, making market choices, and understanding the barter system"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "Big and Small Waste",
-        subtopic: "Comparing the sizes of different waste objects",
+        topic: "Financial Literacy",
+        subtopic: "Recognizing Small Notes",
         lessonContent: `
-            <p>Welcome to our measuring week! Today we will learn how to compare different waste objects by their size.</p>
-            <p><strong>Key Concept:</strong> Objects can be compared using words like long, short, wide, and narrow.</p>
-            <p><strong>What does "longest" mean?</strong></p>
+            <p>Welcome to our week about money! Today we'll learn to identify and recognize small paper notes up to K5 value.</p>
+            <p><strong>Key Question:</strong> How can you tell different banknotes apart?</p>
+            <p><strong>Introduction:</strong> Money helps us buy the things we need and want. Different banknotes have different values, colors, and features that help us recognize them.</p>
+            <p><strong>Small Notes We Will Learn:</strong></p>
+            <ol>
+                <li><strong>K1 (One Kwacha):</strong> The smallest paper note</li>
+                <li><strong>K2 (Two Kwacha):</strong> Worth two single Kwachas</li>
+                <li><strong>K5 (Five Kwacha):</strong> The largest small note we'll study this week</li>
+            </ol>
+            <p><strong>How to Recognize Banknotes:</strong></p>
             <ul>
-                <li>The item that stretches the farthest from one end to the other</li>
-                <li>The greatest distance between two points</li>
-                <li>What takes up the most space in one direction</li>
+                <li>Look at the number printed on each note</li>
+                <li>Notice the different colors</li>
+                <li>Feel the texture of the paper</li>
+                <li>Look for special security features</li>
             </ul>
-            <p><strong>What does "shortest" mean?</strong></p>
-            <ul>
-                <li>The item that takes up the least space from end to end</li>
-                <li>The smallest distance between two points</li>
-                <li>What fits in a small area</li>
-            </ul>
-            <p><strong>Our Mission:</strong> We will gather clean waste items and compare them to find the longest and shortest objects!</p>
-            <p><strong>Why is this important?</strong> Knowing how to compare sizes helps us organize our world and manage waste properly.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box" style="color: #795548;"></i> Cereal Box</div>
-                <p>"This cereal box is long and tall" - It has length from top to bottom and width from side to side.</p>
+                <div class="example-title"><i class="fas fa-search"></i> Look and Learn</div>
+                <p>Hold a K1 note next to a K5 note. Can you see the difference in color, size, and the numbers printed on them?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-wine-bottle" style="color: #4CAF50;"></i> Bottle Cap</div>
-                <p>"This bottle cap is short and small" - It doesn't take up much space in any direction.</p>
+                <div class="example-title"><i class="fas fa-eye"></i> Color Clues</div>
+                <p>Each banknote has its own color. Learning the colors helps you quickly identify how much money you have.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Size Detective Game!</div>
-                <p>We'll have a line of waste objects. Can you point to the longest item and the shortest item as fast as you can?</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Counting by Ones</div>
+                <p>A K5 note is the same as having five K1 notes. That's like counting: 1, 2, 3, 4, 5!</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities comparing waste objects.",
+        taskInstructions: "Identify, match, and draw small banknotes up to K5 value.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Gather these clean waste items:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ One cereal box (large)</div>
-                    <div>☐ One bottle cap (small)</div>
-                    <div>☐ One paper towel tube</div>
-                    <div>☐ One plastic spoon</div>
-                    <div>☐ One mystery waste item!</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Line up your items from longest to shortest:
-                <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                <div class="answer-space" style="height: 40px; margin-top: 10px;">Longest: ________, Shortest: ________</div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Draw the longest item and the shortest item:
-                <div style="display: flex; margin-top: 10px;">
-                    <div style="flex: 1; text-align: center;">
-                        <div>Longest Item</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                    </div>
-                    <div style="flex: 1; text-align: center;">
-                        <div>Shortest Item</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Note Identification</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Look at each banknote (or picture) and write its value:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• A green note with the number 1: _________</div>
+                        <div>• A blue note with the number 2: _________</div>
+                        <div>• A purple note with the number 5: _________</div>
                     </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Circle the correct comparison words:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>The cereal box is: ☐ Long ☐ Short ☐ Wide ☐ Narrow</div>
-                    <div>The bottle cap is: ☐ Long ☐ Short ☐ Wide ☐ Narrow</div>
-                    <div>The paper tube is: ☐ Long ☐ Short ☐ Wide ☐ Narrow</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Match the Note</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw a line from each note description to its correct value:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Smallest paper note → K1 &nbsp;&nbsp;&nbsp; K2 &nbsp;&nbsp;&nbsp; K5</div>
+                        <div>• Purple in color → K1 &nbsp;&nbsp;&nbsp; K2 &nbsp;&nbsp;&nbsp; K5</div>
+                        <div>• Worth five K1 notes → K1 &nbsp;&nbsp;&nbsp; K2 &nbsp;&nbsp;&nbsp; K5</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Drawing Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw a K5 note. Include the number "5" and color it purple:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Quick Check</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> How many K1 notes make one K5 note?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three items at home and compare them. Tell your family which is longest and which is shortest.",
+        homework: "Ask a family member to show you a K1, K2, and K5 note. Draw each one and write its value underneath.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "Measuring Length with Handspans",
-        subtopic: "Measuring length using non-standard units",
+        topic: "Financial Literacy",
+        subtopic: "Counting Money",
         lessonContent: `
-            <p>Today we will learn how to measure length using our own hands as measuring tools!</p>
-            <p><strong>Key Concept:</strong> We can measure objects even without a ruler by using our body parts.</p>
-            <p><strong>What is a handspan?</strong></p>
+            <p>Today we'll practice counting money using single coins and small notes up to K5 value!</p>
+            <p><strong>Key Question:</strong> How do you count different coins and notes to find the total value?</p>
+            <p><strong>Introduction:</strong> Counting money is an important skill for shopping and saving. When you have multiple coins or notes, you add them together to find the total.</p>
+            <p><strong>Counting Strategies:</strong></p>
+            <ol>
+                <li><strong>Sort First:</strong> Group all the same coins/notes together</li>
+                <li><strong>Start with the Largest:</strong> Count the biggest values first</li>
+                <li><strong>Add Step by Step:</strong> Keep a running total as you count</li>
+                <li><strong>Check Your Work:</strong> Count again to make sure you're correct</li>
+            </ol>
+            <p><strong>Small Coin Values:</strong></p>
             <ul>
-                <li>The distance from the tip of your thumb to the tip of your pinky when your hand is stretched out</li>
-                <li>Your personal measuring tool that you always have with you</li>
-                <li>A way to measure "how many hands long" something is</li>
+                <li>5 ngwee (smallest coin)</li>
+                <li>10 ngwee</li>
+                <li>50 ngwee (half of 1 Kwacha)</li>
+                <li>K1 (100 ngwee)</li>
             </ul>
-            <p><strong>How to Measure with Handspans:</strong></p>
-            <ul>
-                <li>Place your hand at one end of the object</li>
-                <li>Mark where your pinky reaches</li>
-                <li>Move your hand to that mark and repeat</li>
-                <li>Count how many handspans it takes to reach the end</li>
-            </ul>
-            <p><strong>Let's Count:</strong> We'll count together as we measure our classroom tables!</p>
+            <p><strong>Remember:</strong> 100 ngwee = K1 (One Kwacha)</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper" style="color: #FF9800;"></i> Handspan Measuring</div>
-                <p>"This book is 3 handspans long" - I placed my hand three times along the book to measure it.</p>
+                <div class="example-title"><i class="fas fa-coins"></i> Coin Counting</div>
+                <p>If you have two 50 ngwee coins, that equals K1 because 50 + 50 = 100 ngwee!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler" style="color: #2196F3;"></i> Table Measurement</div>
-                <p>"Our classroom table is 8 handspans long" - Different people might get different numbers because our hands are different sizes!</p>
+                <div class="example-title"><i class="fas fa-calculator"></i> Adding Notes</div>
+                <p>K2 + K1 + K2 = K5. Start: K2, then +K1 = K3, then +K2 = K5. Total value is K5.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Handspan Race!</div>
-                <p>We'll measure different objects around the room. Who can find something that measures exactly 5 handspans?</p>
+                <div class="example-title"><i class="fas fa-shopping-basket"></i> Real Shopping</div>
+                <p>If a pencil costs K3 and you have a K2 note and two K1 notes, do you have enough? K2 + K1 + K1 = K4. Yes, you have K1 extra!</p>
             </div>
         `,
-        taskInstructions: "Measure different objects using your handspans.",
+        taskInstructions: "Count combinations of coins and notes to find total values up to K5.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Classroom Table Measurement</strong></p>
+                <p><strong>Part A: Counting Coins</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Measure your classroom table using handspans:
+                    <span class="task-number">1</span> Count each group and write the total:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My table is ____ handspans long.</div>
-                        <div>Draw how you measured it:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div>• 10 ngwee + 10 ngwee + 5 ngwee = _________ ngwee</div>
+                        <div>• 50 ngwee + 50 ngwee = _________ ngwee = K________</div>
+                        <div>• K1 + 50 ngwee + 50 ngwee = K________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Different Objects</strong></p>
+                <p><strong>Part B: Counting Notes</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure three different objects:
+                    <span class="task-number">2</span> Add the following note combinations:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Book: ____ handspans</div>
-                        <div>Pencil case: ____ handspans</div>
-                        <div>Your shoe: ____ handspans</div>
+                        <div>• K1 + K1 + K1 + K1 + K1 = K________</div>
+                        <div>• K2 + K2 + K1 = K________</div>
+                        <div>• K5 + K2 + K1 = K________ (this is more than K5 - challenge!)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Compare with a Friend</strong></p>
+                <p><strong>Part C: Mixed Money</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Measure the same book with a friend. Are your measurements the same?
+                    <span class="task-number">3</span> Count the total (notes + coins):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My measurement: ____ handspans</div>
-                        <div>My friend's measurement: ____ handspans</div>
-                        <div>Why are they different? ________________________________</div>
+                        <div>• K2 note + K1 note + 50 ngwee + 50 ngwee = K________</div>
                     </div>
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Handspan Drawing</strong></p>
+                <p><strong>Part D: Draw Your Own</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Trace your hand and use it to measure a line:
-                    <div class="drawing-area" style="height: 100px; margin-top: 10px;"></div>
-                    <div style="margin-top: 10px;">This line is ____ of my handspans long.</div>
+                    <span class="task-number">4</span> Draw coins and notes that add up to K3:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
         `,
-        homework: "Measure three things at home using your handspans. Tell your family how many handspans each item is.",
+        homework: "Find 5 different coins at home. Write down each coin's value, then add them all together to find the total.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Comparing Widths",
-        subtopic: "Understanding wide and narrow objects",
+        topic: "Financial Literacy",
+        subtopic: "Money Patterns",
         lessonContent: `
-            <p>Today we will learn about width - how wide or narrow objects are!</p>
-            <p><strong>Key Concept:</strong> Width tells us how much space something takes from side to side.</p>
-            <p><strong>Width Vocabulary:</strong></p>
+            <p>Today we'll discover patterns in money by laying out coins and small notes in repeating sequences!</p>
+            <p><strong>Key Question:</strong> What patterns can you make using coins and notes?</p>
+            <p><strong>Introduction:</strong> Money isn't just for spending - it can also help us learn about patterns! A pattern is something that repeats in a predictable way.</p>
+            <p><strong>Types of Money Patterns:</strong></p>
+            <ol>
+                <li><strong>Color Patterns:</strong> Alternating note colors (K1 green, K2 blue, K1 green, K2 blue)</li>
+                <li><strong>Value Patterns:</strong> Increasing or decreasing values (1, 2, 1, 2 or 5, 2, 5, 2)</li>
+                <li><strong>Coin Patterns:</strong> Using different coin sizes in a sequence</li>
+                <li><strong>Mixed Patterns:</strong> Combining notes and coins in a repeating order</li>
+            </ol>
+            <p><strong>Pattern Vocabulary:</strong></p>
             <ul>
-                <li><strong>Wide:</strong> Takes up a lot of space from side to side</li>
-                <li><strong>Narrow:</strong> Takes up very little space from side to side</li>
-                <li><strong>Wider than:</strong> When one object has more width than another</li>
-                <li><strong>Narrower than:</strong> When one object has less width than another</li>
+                <li><strong>Repeating Pattern:</strong> A sequence that repeats the same order again and again</li>
+                <li><strong>Core:</strong> The smallest part of the pattern that repeats</li>
+                <li><strong>Term:</strong> One item in the pattern</li>
             </ul>
-            <p><strong>Science Connection:</strong> We can predict whether an object will fit into a bin based on its width!</p>
-            <p><strong>Think About It:</strong> Would a wide box fit through a narrow doorway? Why or why not?</p>
-            <p><strong>Answer:</strong> No, because the box is wider than the doorway opening!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box-open" style="color: #795548;"></i> Wide Box</div>
-                <p>"This box is wide" - It takes up a lot of space from left to right. You might need to turn it sideways to fit through a door!</p>
+                <div class="example-title"><i class="fas fa-chart-line"></i> Simple Pattern</div>
+                <p>Pattern: K1, K2, K1, K2, K1, K2... The core is "K1, K2" repeating.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler" style="color: #4CAF50;"></i> Narrow Ruler</div>
-                <p>"This ruler is narrow" - It doesn't take up much space from side to side. It can fit through small gaps easily!</p>
+                <div class="example-title"><i class="fas fa-exchange-alt"></i> Three-Item Pattern</div>
+                <p>Pattern: 50 ngwee, K1, 50 ngwee, K1, 50 ngwee, K1... What comes next? (50 ngwee!)</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Width Walk Game!</div>
-                <p>We'll create gaps of different widths. Can you walk through the wide gap? The narrow gap? Which was easier?</p>
+                <div class="example-title"><i class="fas fa-arrow-up"></i> Growing Pattern</div>
+                <p>Not all patterns repeat! A growing pattern: K1, K2, K3, K4, K5 (each step adds 1 Kwacha).</p>
             </div>
         `,
-        taskInstructions: "Compare the widths of different objects and predict what will fit where.",
+        taskInstructions: "Create and extend repeating patterns using coins and small notes.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Box Comparison</strong></p>
+                <p><strong>Part A: Complete the Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Compare two boxes. Which is wider? Which is narrower?
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; text-align: center;">
-                            <div>Box A</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>☐ Wide ☐ Narrow</div>
-                        </div>
-                        <div style="flex: 1; text-align: center;">
-                            <div>Box B</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>☐ Wide ☐ Narrow</div>
-                        </div>
+                    <span class="task-number">1</span> What comes next in each pattern?
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• K1, K2, K1, K2, K1, ___</div>
+                        <div>• 5 ngwee, 10 ngwee, 5 ngwee, 10 ngwee, ___</div>
+                        <div>• K5, K2, K5, K2, K5, ___</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Fitting Challenge</strong></p>
+                <p><strong>Part B: Draw the Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Will these objects fit through the bin opening?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Wide cardboard: ☐ Yes ☐ No (Why? ________________)</div>
-                        <div>Narrow bottle: ☐ Yes ☐ No (Why? ________________)</div>
-                        <div>Draw the bin opening: <div class="drawing-area" style="height: 60px; width: 200px; display: inline-block;"></div></div>
-                    </div>
+                    <span class="task-number">2</span> Draw the next three items in this pattern: K1, 50 ngwee, K1, 50 ngwee
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Side-by-Side Comparison</strong></p>
+                <p><strong>Part C: Create Your Own Pattern</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Place objects side-by-side to compare widths:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw two objects with different widths:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>Object 1 is ________ than Object 2.</div>
-                    </div>
+                    <span class="task-number">3</span> Create a repeating pattern using coins and/or notes. Draw 8 items in your pattern:
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Circle the "core" (the part that repeats) in your pattern above:
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Width Scavenger Hunt</strong></p>
+                <p><strong>Part D: Growing Patterns</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Find one wide and one narrow object in the classroom:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Wide object: ________________ (draw it)</div>
-                        <div class="drawing-area" style="height: 60px;"></div>
-                        <div>Narrow object: ________________ (draw it)</div>
-                        <div class="drawing-area" style="height: 60px;"></div>
-                    </div>
+                    <span class="task-number">5</span> Create a growing pattern where each step increases by K1:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find two objects at home - one wide and one narrow. Show your family the difference.",
+        homework: "Create a pattern using real coins or paper cut-outs. Write or draw your pattern and show it to a family member.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "Measuring with Footsteps",
-        subtopic: "Measuring distance using non-standard units",
+        topic: "Financial Literacy",
+        subtopic: "Market Choice",
         lessonContent: `
-            <p>Today we will learn how to measure longer distances using our footsteps!</p>
-            <p><strong>Key Concept:</strong> We can use our bodies to measure how far things are from each other.</p>
-            <p><strong>What is step measuring?</strong></p>
+            <p>Today we'll practice making shopping decisions! You'll look at classroom items and choose what to buy within a K5 limit.</p>
+            <p><strong>Key Question:</strong> How do you decide what to buy when you have a limited amount of money?</p>
+            <p><strong>Introduction:</strong> When you go shopping, you can't always buy everything you want. You need to make choices based on how much money you have and what you need most.</p>
+            <p><strong>Smart Shopping Steps:</strong></p>
+            <ol>
+                <li><strong>Know Your Budget:</strong> How much money do you have to spend? (Today: K5)</li>
+                <li><strong>Look at Prices:</strong> Check how much each item costs</li>
+                <li><strong>Make a Plan:</strong> Decide what you want to buy before you start</li>
+                <li><strong>Add It Up:</strong> Make sure the total doesn't go over K5</li>
+                <li><strong>Make Your Choice:</strong> Pick the items that fit your budget</li>
+            </ol>
+            <p><strong>Decision Questions to Ask Yourself:</strong></p>
             <ul>
-                <li>Counting how many normal steps it takes to get from one place to another</li>
-                <li>Using our feet as measuring tools</li>
-                <li>A way to measure distance without a measuring tape</li>
+                <li>Do I need this item or just want it?</li>
+                <li>Can I afford this along with other items?</li>
+                <li>Is there a cheaper alternative?</li>
+                <li>Will I have money left over?</li>
             </ul>
-            <p><strong>How to Measure with Steps:</strong></p>
-            <ul>
-                <li>Start with your heels at the starting point</li>
-                <li>Take normal-sized steps (not too big, not too small)</li>
-                <li>Count each step out loud</li>
-                <li>Stop when you reach the destination</li>
-            </ul>
-            <p><strong>Mathematics:</strong> We'll practice counting while measuring - this helps us understand distance and length in real life!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shoe-prints" style="color: #2196F3;"></i> Step Counting</div>
-                <p>"It takes 15 steps to get from my desk to the door" - I counted each step as I walked normally.</p>
+                <div class="example-title"><i class="fas fa-store"></i> Classroom Market</div>
+                <p>Pencil = K2 | Eraser = K1 | Ruler = K3 | Sharpener = K2 | Notebook = K4 | Sticker = K1</p>
+                <p>With K5, you could buy: Pencil (K2) + Eraser (K1) + Sharpener (K2) = K5 exactly!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash-alt" style="color: #4CAF50;"></i> Waste Area Distance</div>
-                <p>"The garbage bin is 20 steps from our classroom" - We need to know this to plan our waste disposal trips!</p>
+                <div class="example-title"><i class="fas fa-balance-scale"></i> Need vs. Want</div>
+                <p>You need a pencil for school (K2). You want a sticker (K1) and a fancy eraser (K3). Total with all = K6 - too much! Choose the pencil and one other item.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Step Estimation Game!</div>
-                <p>Look at a distance and guess how many steps it will take. Then walk it and see how close your guess was!</p>
+                <div class="example-title"><i class="fas fa-coins"></i> Saving Money</div>
+                <p>If you only spend K4 of your K5, you have K1 left to save for another day!</p>
             </div>
         `,
-        taskInstructions: "Measure different distances using your footsteps.",
+        taskInstructions: "Choose items to buy within a K5 budget from a classroom market list.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Classroom to Waste Bin</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Measure from classroom door to waste bin:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Guess first: ____ steps</div>
-                        <div>Actual count: ____ steps</div>
-                        <div>Draw your path: <div class="drawing-area" style="height: 80px;"></div></div>
+                <p><strong>Classroom Market Price List:</strong></p>
+                <div style="background-color: #f5f5f5; padding: 10px; margin: 10px 0; text-align: center;">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                        <div>📝 Pencil: K2</div>
+                        <div>🧽 Eraser: K1</div>
+                        <div>📏 Ruler: K3</div>
+                        <div>✂️ Sharpener: K2</div>
+                        <div>📓 Notebook: K4</div>
+                        <div>⭐ Sticker: K1</div>
+                        <div>🖍️ Crayon: K2</div>
+                        <div>📎 Paper clip: K1 (set of 5)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Different Distances</strong></p>
+                <p><strong>Part A: Make Your Choice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure these classroom distances:
+                    <span class="task-number">1</span> You have K5 to spend. Choose 2-4 items you would buy:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>From your desk to teacher's desk: ____ steps</div>
-                        <div>From whiteboard to bookshelf: ____ steps</div>
-                        <div>From sink to recycling bin: ____ steps</div>
+                        <div>Item 1: _________ (K___)</div>
+                        <div>Item 2: _________ (K___)</div>
+                        <div>Item 3: _________ (K___)</div>
+                        <div>Item 4: _________ (K___)</div>
+                        <div><strong>Total: K____</strong></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Compare Step Sizes</strong></p>
+                <p><strong>Part B: Explain Your Decision</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Measure the same distance with a friend:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Distance: From door to window</div>
-                        <div>My steps: ____</div>
-                        <div>Friend's steps: ____</div>
-                        <div>Why different? _________________________</div>
-                    </div>
+                    <span class="task-number">2</span> Why did you choose these items?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Step Drawing Challenge</strong></p>
+                <p><strong>Part C: Different Choice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a path that would take exactly 10 steps to walk:
-                    <div class="drawing-area" style="height: 100px;"></div>
-                    <div>What did you draw? ________________________</div>
+                    <span class="task-number">3</span> If you had to buy a notebook (K4), what else could you buy with your remaining K1?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Real-World Application</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Why is measuring steps useful for waste management?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw or write your answer:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                        <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
-                    </div>
+                    <span class="task-number">4</span> Was it easy or hard to stay within K5? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Measure how many steps it takes to get from your bedroom door to the kitchen trash can at home.",
+        homework: "With a family member, look at prices of 3 small items at home or in a shop. Write the items and their prices. Would K5 be enough to buy all three?",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "The 'Clean and Measure' Review",
-        subtopic: "Managing waste while practicing measurement",
+        topic: "Financial Literacy",
+        subtopic: "The Barter System",
         lessonContent: `
-            <p>Today is our measurement celebration! We'll combine everything we learned to manage waste properly.</p>
-            <p><strong>Key Concept 1:</strong> We can use measurement to help sort and manage waste effectively.</p>
-            <p><strong>What have we learned this week?</strong></p>
+            <p>Today we'll travel back in time to learn about the barter system - trading without money!</p>
+            <p><strong>Key Question:</strong> How did people buy and sell things before money was invented?</p>
+            <p><strong>Introduction:</strong> Long ago, there were no coins or banknotes. People used the barter system - trading one item for another. If you had extra eggs and needed salt, you would find someone with salt who needed eggs!</p>
+            <p><strong>What is Barter?</strong></p>
             <ul>
-                <li>Long vs. short objects</li>
-                <li>Measuring with handspans</li>
-                <li>Wide vs. narrow objects</li>
-                <li>Measuring distance with steps</li>
+                <li>Trading goods or services directly without using money</li>
+                <li>Each person gives something and receives something in return</li>
+                <li>Both people should feel the trade is fair</li>
             </ul>
-            <p><strong>Key Concept 2:</strong> Proper waste management requires understanding sizes and measurements.</p>
-            <p><strong>Today's Mission:</strong> Sort waste into correct bins while identifying the longest, shortest, widest, and narrowest items!</p>
-            <p><strong>Evaluation:</strong> We'll see if everyone can correctly sort waste and identify measurements!</p>
-            <p><strong>Celebration:</strong> We've become measurement experts who can help keep our environment clean!</p>
+            <p><strong>Challenges of Barter:</strong></p>
+            <ul>
+                <li><strong>Double Coincidence of Wants:</strong> You need to find someone who has what you want AND wants what you have</li>
+                <li><strong>No Standard Value:</strong> How many eggs equal one chicken?</li>
+                <li><strong>Can't Save:</strong> You can't save a trade for later like you can save money</li>
+            </ul>
+            <p><strong>Why Money Was Invented:</strong> Money solved these problems! It's a standard way to measure value and can be saved for later.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle" style="color: #4CAF50;"></i> Recycling Sorting</div>
-                <p>"The longest piece of cardboard goes in recycling" - We measure to make sure it fits in the bin!</p>
+                <div class="example-title"><i class="fas fa-handshake"></i> Simple Trade</div>
+                <p>Maria has a pencil but needs an eraser. John has an eraser but needs a pencil. They trade! Both get what they need without using money.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash" style="color: #795548;"></i> Waste Management</div>
-                <p>"The smallest piece of general waste goes in the food bin" - Small items fit in smaller openings!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Fair or Not?</div>
+                <p>Is one apple worth one banana? It depends! If apples are scarce and bananas are plentiful, one apple might be worth two bananas.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Clean-Up Challenge Game!</div>
-                <p>We'll have a timed clean-up where you must correctly measure and sort items into the right bins!</p>
+                <div class="example-title"><i class="fas fa-history"></i> History Connection</div>
+                <p>Before coins, people used shells, salt, cattle, and even chocolate as money! These were items that everyone wanted and could trade easily.</p>
             </div>
         `,
-        taskInstructions: "Complete the final measurement and sorting challenges.",
+        taskInstructions: "Participate in a barter game by swapping classroom items without using money.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Waste Sorting Challenge</strong></p>
+                <p><strong>Part A: Barter Game Instructions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Find and sort these waste items:
+                    <span class="task-number">1</span> You will receive one classroom item. Your goal is to trade with classmates to get an item you want more. Rules:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Find the LONGEST piece of cardboard → Put in ☐ Recycling ☐ General Waste</div>
-                        <div>Find the SMALLEST piece of waste → Put in ☐ Food Bin ☐ Recycling</div>
-                        <div>Find the WIDEST item → Put in ☐ Recycling ☐ General Waste</div>
-                        <div>Find the NARROWEST item → Put in ☐ Food Bin ☐ Recycling</div>
+                        <div>✓ No money allowed - only trading items</div>
+                        <div>✓ You can trade directly (1 for 1) or negotiate (2 for 1)</div>
+                        <div>✓ Keep trading until time is called</div>
+                        <div>✓ Your final item is what you "bought" through barter</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Measurement Check</strong></p>
+                <p><strong>Part B: Before Trading</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure and compare these items:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Item A: ____ handspans long, ____ steps from bin</div>
-                        <div>Item B: ____ handspans long, ____ steps from bin</div>
-                        <div>Which is longer? ☐ Item A ☐ Item B</div>
-                        <div>Which is wider? ☐ Item A ☐ Item B</div>
-                    </div>
+                    <span class="task-number">2</span> My starting item is: _________
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> What item do I hope to end with? Why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Bin Capacity</strong></p>
+                <p><strong>Part C: After Trading</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Test which items fit in which bins:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Recycling bin opening: ____ handspans wide</div>
-                        <div>Food bin opening: ____ handspans wide</div>
-                        <div>General waste bin: ____ steps from your desk</div>
-                        <div>Draw a too-wide item that won't fit: <div class="drawing-area" style="height: 60px;"></div></div>
-                    </div>
+                    <span class="task-number">4</span> My final item after trading is: _________
+                    <div class="answer-space" style="height: 40px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Describe one trade you made. What did you give and what did you receive?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Measurement Summary</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Show what you learned this week:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My favorite way to measure is: ☐ Handspans ☐ Footsteps ☐ Comparing</div>
-                        <div>The most useful measurement for waste is: ________________</div>
-                        <div>Draw yourself measuring something: <div class="drawing-area" style="height: 100px;"></div></div>
-                    </div>
+                    <span class="task-number">6</span> Was barter easier or harder than using money? Why?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Measurement Expert Certificate</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a measurement expert. Write what you learned:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">This week I learned to measure using ________________</div>
-                    <div style="text-align: center; margin-top: 20px; font-weight: bold; color: #2196F3;">
-                        CONGRATULATIONS!<br>
-                        You are now a Measurement Expert!
-                    </div>
+                    <span class="task-number">7</span> What is one problem with the barter system that money solves?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Help sort recycling at home. Find the longest cardboard item and the smallest waste item. Tell your family why measurement matters for recycling.",
+        homework: "Ask a family member if they have ever traded something (not with money). Write one sentence about what they traded and why.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1MathScienceWeek10);
-    console.log("math-science-week10-measuring.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeMiddleWeek10);
+    console.log("grade-middle-week10.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1MathScienceWeek10);
-    console.log("math-science-week10-measuring.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeMiddleWeek10);
+    console.log("grade-middle-week10.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1MathScienceWeek10',
-        metadata: grade1MathScienceWeek10.metadata,
-        days: grade1MathScienceWeek10
+        variableName: 'gradeMiddleWeek10',
+        metadata: gradeMiddleWeek10.metadata,
+        days: gradeMiddleWeek10
     });
-    console.log("math-science-week10-measuring.js stored in window.registeredWorksheets");
+    console.log("grade-middle-week10.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1MathScienceWeek10 = grade1MathScienceWeek10;
-console.log("math-science-week10-measuring.js loaded and registered successfully");
+window.gradeMiddleWeek10 = gradeMiddleWeek10;
+console.log("grade-middle-week10.js loaded and registered successfully");

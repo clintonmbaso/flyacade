@@ -1,514 +1,535 @@
-// Grade 1 Mathematics & Science - Week 9 Data (Waste Management and Sorting)
-const grade1MathScienceWeek9 = {
+// Middle School Mathematics & Science - Term 1 Week 9 Data
+const middleMathScienceWeek9 = {
     metadata: {
         grade: "middle",
         subject: "Mathematics & Science",
+        term: 1,
         week: 9,
-        title: "Waste Management and Sorting",
-        description: "Learning to identify, sort, and manage different types of waste through observation and classification"
+        title: "Operations & Recognizing Money",
+        description: "Combining groups, concrete addition and subtraction, and introduction to coins up to K5 value"
     },
     
     monday: {
-        subject: "Mathematics & Science",
-        topic: "Introduction to Waste Bins",
-        subtopic: "Proper disposal and keeping our surroundings clean",
+        subject: "Mathematics",
+        topic: "Operations",
+        subtopic: "Combining Groups to 5 – Putting a group of 2 concrete objects and 1 object together",
         lessonContent: `
-            <p>Welcome to our waste management week! Today we will learn how to dispose of waste in the correct bins.</p>
-            <p><strong>Key Concept:</strong> Waste should not be thrown on the floor but in designated places.</p>
-            <p><strong>Why is this important?</strong></p>
-            <ul>
-                <li>Keeps our classroom and school clean</li>
-                <li>Helps us stay healthy by preventing germs</li>
-                <li>Makes our environment beautiful and safe</li>
-            </ul>
-            <p><strong>Bin Basics:</strong> Different bins are for different types of waste. Today we learn to use them properly!</p>
-            <p><strong>Science Connection:</strong> We keep our surroundings clean to stay healthy and prevent the spread of illness.</p>
-            <p><strong>Let's Practice:</strong> We'll set up different bins in our classroom and practice proper disposal.</p>
+            <p>Welcome to our math lesson! Today we'll learn how to combine groups of objects to make a total of 5.</p>
+            <p><strong>Key Question:</strong> How many objects do you have when you put 2 objects together with 1 object?</p>
+            <p><strong>Introduction:</strong> Combining groups means putting things together to find out how many you have in total. Today we'll practice combining groups of 2 and 1 to make 3, then work our way up to 5!</p>
+            <p><strong>Key Concepts:</strong></p>
+            <ol>
+                <li><strong>Grouping:</strong> Putting objects together</li>
+                <li><strong>Total:</strong> The final number when you combine groups</li>
+                <li><strong>Counting:</strong> Saying numbers in order to find how many</li>
+            </ol>
+            <p><strong>Example:</strong> If you have 2 blocks and add 1 more block, you now have 3 blocks total!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash-alt" style="color: #4CAF50;"></i> Paper Bin</div>
-                <p>"Used worksheets, scrap paper, and cardboard go here" - Paper waste can often be recycled!</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Fruit Bowl</div>
+                <p>You have 2 apples in a bowl. You add 1 orange. Now you have 3 pieces of fruit total!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash" style="color: #795548;"></i> General Waste Bin</div>
-                <p>"Food wrappers, used tissues, and other non-recyclable items go here" - Not everything can be recycled.</p>
+                <div class="example-title"><i class="fas fa-cubes"></i> Block Tower</div>
+                <p>You build a tower with 2 red blocks. Your friend adds 1 blue block. Your tower now has 3 blocks.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Bin Relay Game!</div>
-                <p>We'll have different bins around the room. When I show an item, walk quickly to the correct bin!</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Finger Counting</div>
+                <p>Hold up 2 fingers on one hand. Add 1 finger from the other hand. Count: 1, 2, 3. You have 3 fingers up!</p>
             </div>
         `,
-        taskInstructions: "Set up and use different waste bins in the classroom.",
+        taskInstructions: "Use concrete objects to combine groups and count the total.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Set up three different bins in the classroom:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Paper Bin (green)</div>
-                    <div>☐ General Waste Bin (black)</div>
-                    <div>☐ Recycle Bin (blue)</div>
+            <div class="content-box">
+                <p><strong>Part A: Combining 2 and 1</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Take 2 blocks. Add 1 more block. How many do you have?
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div>Total: _____ blocks</div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Practice walking to the correct bin to dispose of scrap paper:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Walk safely to the paper bin</div>
-                    <div>Place your paper inside gently</div>
-                    <div>Return to your seat quietly</div>
-                    <div class="drawing-area" style="height: 80px; margin-top: 10px;">Draw yourself walking to the bin:</div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Combining Groups to Make 5</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Complete the table by combining groups:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">First Group</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Second Group</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Total</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">2 objects</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">1 object</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">_____</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">3 objects</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">2 objects</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">_____</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">4 objects</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">1 object</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">_____</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">2 objects</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">3 objects</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">_____</td>
+                             </tr>
+                         </table>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Sort these items into the correct bins:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ Used worksheet (goes to ______ bin)</div>
-                    <div>☐ Banana peel (goes to ______ bin)</div>
-                    <div>☐ Plastic bottle (goes to ______ bin)</div>
-                    <div>☐ Broken crayon (goes to ______ bin)</div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Draw and Combine</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Draw 2 circles and 1 triangle. How many shapes total?
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div>Total: _____ shapes</div>
                 </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Count how many items went in each bin today:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Paper Bin: ____ items</div>
-                    <div>General Waste: ____ items</div>
-                    <div>Recycle Bin: ____ items</div>
-                    <div>Which bin had the most? ________</div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw 3 squares and 2 stars. How many shapes total?
+                    <div class="drawing-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div>Total: _____ shapes</div>
                 </div>
             </div>
         `,
-        homework: "Look at the waste bins in your home. How many different bins do you have? Draw a picture of your kitchen bin.",
+        homework: "Find 5 small objects at home (buttons, beans, or coins). Practice combining different groups (2+1, 3+2, 4+1) and tell a family member how many you have.",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
-        subject: "Mathematics & Science",
-        topic: "Sorting Solid and Liquid Waste",
-        subtopic: "Distinguishing between solid garbage and liquid waste",
+        subject: "Mathematics",
+        topic: "Operations",
+        subtopic: "Concrete Addition – Grouping items up to a total sum of 5",
         lessonContent: `
-            <p>Today we will learn the difference between solid waste and liquid waste!</p>
-            <p><strong>Key Concept:</strong> Solid garbage holds its shape, while liquid waste pours and flows.</p>
-            <p><strong>Solid Waste:</strong></p>
+            <p>Welcome back! Today we'll practice addition using real objects. Addition means putting groups together to find the total!</p>
+            <p><strong>Key Question:</strong> How do we add two groups of objects together?</p>
+            <p><strong>Introduction:</strong> Addition is like joining two teams. When you put them together, you count everyone to find the total. Today we'll add numbers that make 5 or less.</p>
+            <p><strong>Key Vocabulary:</strong></p>
             <ul>
-                <li>Holds its shape</li>
-                <li>Can be picked up</li>
-                <li>Examples: paper, plastic, food scraps</li>
+                <li><strong>Addition:</strong> Putting groups together</li>
+                <li><strong>Plus (+):</strong> The symbol that means "add"</li>
+                <li><strong>Equals (=):</strong> The symbol that means "is the same as"</li>
+                <li><strong>Sum/Total:</strong> The answer after adding</li>
             </ul>
-            <p><strong>Liquid Waste:</strong></p>
+            <p><strong>Number Pairs to 5:</strong></p>
             <ul>
-                <li>Pours and flows</li>
-                <li>Takes the shape of its container</li>
-                <li>Examples: dirty water, used oil, old juice</li>
+                <li>0 + 5 = 5</li>
+                <li>1 + 4 = 5</li>
+                <li>2 + 3 = 5</li>
+                <li>3 + 2 = 5</li>
+                <li>4 + 1 = 5</li>
+                <li>5 + 0 = 5</li>
             </ul>
-            <p><strong>Important Rule:</strong> Liquids shouldn't go in the paper bin! They can make a mess and ruin recyclable paper.</p>
-            <p><strong>Science Observation:</strong> We'll observe the physical properties of solids vs. liquids using our senses (except taste!).</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-wine-bottle" style="color: #2196F3;"></i> Dry Plastic Bottle</div>
-                <p>"This is solid waste" - It holds its shape and can go in the recycling bin if it's empty and dry.</p>
+                <div class="example-title"><i class="fas fa-pencil-alt"></i> Pencil Case</div>
+                <p>You have 2 pencils. Your friend gives you 3 more pencils. Now you have 5 pencils total! 2 + 3 = 5</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint" style="color: #03A9F4;"></i> Cup of Dirty Water</div>
-                <p>"This is liquid waste" - It pours and flows. We need special containers for liquids.</p>
+                <div class="example-title"><i class="fas fa-egg"></i> Egg Hunt</div>
+                <p>You find 1 egg under a bush. You find 4 eggs near the tree. How many eggs did you find? 1 + 4 = 5 eggs!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Solid or Liquid Game!</div>
-                <p>I'll show you different items. Give a thumbs up for solid, thumbs down for liquid!</p>
+                <div class="example-title"><i class="fas fa-car"></i> Toy Cars</div>
+                <p>You have 3 toy cars. Your sister has 2 toy cars. If you put them together, you have 5 toy cars. 3 + 2 = 5</p>
             </div>
         `,
-        taskInstructions: "Sort pictures and examples of solids and liquids into two groups.",
+        taskInstructions: "Use concrete objects to solve addition problems with sums up to 5.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Observation Station</strong></p>
+                <p><strong>Part A: Adding with Objects</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Observe a dry plastic bottle (solid) and a cup of dirty water (liquid):
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; border-right: 1px solid #ccc;">
-                            <div style="text-align: center; font-weight: bold;">Solid Waste</div>
-                            <div>Dry plastic bottle</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>It feels: ☐ Hard ☐ Holds shape</div>
-                        </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">Liquid Waste</div>
-                            <div>Cup of dirty water</div>
-                            <div class="drawing-area" style="height: 80px;"></div>
-                            <div>It can: ☐ Pour ☐ Flow</div>
-                        </div>
+                    <span class="task-number">1</span> Use blocks or counters to solve these addition problems:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) 2 + 1 = _____</div>
+                        <div>b) 3 + 2 = _____</div>
+                        <div>c) 1 + 3 = _____</div>
+                        <div>d) 4 + 1 = _____</div>
+                        <div>e) 2 + 2 = _____</div>
+                        <div>f) 0 + 5 = _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Sorting Practice</strong></p>
+                <p><strong>Part B: Draw and Add</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Sort these pictures into solid or liquid waste:
+                    <span class="task-number">2</span> Draw the objects and write the addition sentence:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Apple core (______ waste)</div>
-                        <div>☐ Spilled milk (______ waste)</div>
-                        <div>☐ Old newspaper (______ waste)</div>
-                        <div>☐ Used cooking oil (______ waste)</div>
+                        <div><strong>a)</strong> Draw 3 stars and 2 hearts. How many in total?</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>_____ + _____ = _____</div>
+                        
+                        <div style="margin-top: 15px;"><strong>b)</strong> Draw 4 circles and 1 square.</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>_____ + _____ = _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Counting Collections</strong></p>
+                <p><strong>Part C: Word Problems</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Count how many solid waste items you found today:
+                    <span class="task-number">3</span> Solve these word problems:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I found ____ solid waste items</div>
-                        <div>Draw that many solid items:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Safety First</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Circle the safe ways to handle liquid waste:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Tell an adult about spills</div>
-                        <div>☐ Try to clean it up alone</div>
-                        <div>☐ Use a cloth or paper towel with help</div>
-                        <div>☐ Pour liquids down the sink with permission</div>
+                        <div><strong>a)</strong> Maria has 2 red balloons. Juan has 2 blue balloons. How many balloons do they have together?</div>
+                        <div>_____ + _____ = _____ balloons</div>
+                        
+                        <div style="margin-top: 15px;"><strong>b)</strong> There are 4 birds on a fence. 1 more bird joins them. How many birds are on the fence now?</div>
+                        <div>_____ + _____ = _____ birds</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Find three solid waste items and one liquid waste item in your home (with adult help). Describe them to your family.",
+        homework: "Find 5 small objects. Practice showing different addition facts to 5 (1+4, 2+3, 3+2, 4+1). Draw pictures to show your work.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
-        subject: "Mathematics & Science",
-        topic: "Understanding E-Waste",
-        subtopic: "Identifying electronic waste and special handling",
+        subject: "Mathematics",
+        topic: "Operations",
+        subtopic: "Concrete Subtraction – Taking 1 item away from a pile of 4 items to check what remains",
         lessonContent: `
-            <p>Today we will learn about a special type of waste called "e-waste" - electronic waste!</p>
-            <p><strong>Key Concept:</strong> E-waste includes damaged phones, electric toys, and other electronic items that need special care.</p>
-            <p><strong>What is e-waste?</strong></p>
+            <p>Today we'll learn about subtraction! Subtraction means taking away objects from a group.</p>
+            <p><strong>Key Question:</strong> If you have 4 items and you take 1 away, how many are left?</p>
+            <p><strong>Introduction:</strong> Subtraction is the opposite of addition. Instead of putting groups together, we take some away and see what remains. Today we'll practice taking 1 away from groups of up to 4.</p>
+            <p><strong>Key Vocabulary:</strong></p>
             <ul>
-                <li>Electronic items that don't work anymore</li>
-                <li>Things with batteries or cords</li>
-                <li>Examples: broken toys, old phones, damaged tablets</li>
+                <li><strong>Subtraction:</strong> Taking away objects from a group</li>
+                <li><strong>Minus (−):</strong> The symbol that means "take away"</li>
+                <li><strong>Remain/Difference:</strong> What is left after subtracting</li>
             </ul>
-            <p><strong>Why is e-waste special?</strong></p>
+            <p><strong>Subtraction Facts with 1:</strong></p>
             <ul>
-                <li>Contains parts that can be harmful if thrown in regular trash</li>
-                <li>Some parts can be recycled and used again</li>
-                <li>Batteries can be dangerous if damaged</li>
+                <li>1 − 1 = 0</li>
+                <li>2 − 1 = 1</li>
+                <li>3 − 1 = 2</li>
+                <li>4 − 1 = 3</li>
+                <li>5 − 1 = 4</li>
             </ul>
-            <p><strong>Safety First:</strong> Always ask an adult before touching or disposing of broken electronics.</p>
-            <p><strong>Observation:</strong> We'll look at examples of e-waste and learn how to identify them.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mobile-alt" style="color: #9C27B0;"></i> Non-Working Phone</div>
-                <p>"This is e-waste" - It has batteries and electronic parts that need special disposal.</p>
+                <div class="example-title"><i class="fas fa-cookie-bite"></i> Cookie Time</div>
+                <p>You have 4 cookies. You eat 1 cookie. How many cookies are left? 4 − 1 = 3 cookies!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-battery-three-quarters" style="color: #FF9800;"></i> Battery-Powered Toy</div>
-                <p>"This broken toy is e-waste" - Anything with batteries becomes e-waste when it stops working.</p>
+                <div class="example-title"><i class="fas fa-fish"></i> Fish Tank</div>
+                <p>There are 3 fish in the tank. 1 fish swims away behind a rock. How many fish can you see? 3 − 1 = 2 fish.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> E-Waste Detective Game!</div>
-                <p>Look around the classroom. Can you spot items that might become e-waste someday?</p>
+                <div class="example-title"><i class="fas fa-chair"></i> Classroom Chairs</div>
+                <p>There are 5 chairs in a row. The teacher moves 1 chair to another table. How many chairs remain? 5 − 1 = 4 chairs.</p>
             </div>
         `,
-        taskInstructions: "Identify e-waste and practice proper safety around electronic items.",
+        taskInstructions: "Use concrete objects to subtract by taking 1 away from piles of up to 4 items.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: E-Waste Identification</strong></p>
+                <p><strong>Part A: Take Away 1</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at examples of e-waste. Circle which items are e-waste:
+                    <span class="task-number">1</span> Use blocks or counters. Start with the first number, then take 1 away. Write what remains:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Broken remote control car</div>
-                        <div>☐ Banana peel</div>
-                        <div>☐ Old newspaper</div>
-                        <div>☐ Damaged phone with battery</div>
-                        <div>☐ Plastic water bottle</div>
-                        <div>☐ Non-working electronic toy</div>
+                        <div>a) Start with 4 blocks. Take 1 away. _____ remain.</div>
+                        <div>b) Start with 3 blocks. Take 1 away. _____ remain.</div>
+                        <div>c) Start with 2 blocks. Take 1 away. _____ remain.</div>
+                        <div>d) Start with 5 blocks. Take 1 away. _____ remain.</div>
+                        <div>e) Start with 1 block. Take 1 away. _____ remain.</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Safety Rules</strong></p>
+                <p><strong>Part B: Draw and Subtract</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> What should you do if you find broken electronics?
+                    <span class="task-number">2</span> Draw the starting group, cross out 1, then write how many remain:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Always: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Never: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Draw yourself asking an adult for help:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div><strong>a)</strong> Draw 4 apples. Cross out 1. How many left?</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>4 − 1 = _____</div>
+                        
+                        <div style="margin-top: 15px;"><strong>b)</strong> Draw 3 balls. Cross out 1. How many left?</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>3 − 1 = _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Counting E-Waste Items</strong></p>
+                <p><strong>Part C: Word Problems</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> How many e-waste items do we have in our examples?
+                    <span class="task-number">3</span> Solve these subtraction stories:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Count the e-waste examples: ____ items</div>
-                        <div>Write the number: ________</div>
-                        <div>Draw that many battery symbols:</div>
-                        <div class="drawing-area" style="height: 60px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Special Disposal</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> E-waste needs special bins. Color the e-waste bin:
-                    <div style="margin-left: 20px; margin-top: 10px; text-align: center;">
-                        <div style="width: 100px; height: 100px; border: 2px solid #9C27B0; display: inline-block;">
-                            <div style="margin-top: 35px;">E-Waste</div>
-                        </div>
-                        <div>Color it purple to remember it's special!</div>
+                        <div><strong>a)</strong> Ana has 4 stickers. She gives 1 sticker to her friend. How many stickers does Ana have left?</div>
+                        <div>_____ − _____ = _____ stickers</div>
+                        
+                        <div style="margin-top: 15px;"><strong>b)</strong> There are 5 cupcakes on a plate. Mom takes 1 cupcake. How many cupcakes are left on the plate?</div>
+                        <div>_____ − _____ = _____ cupcakes</div>
+                        
+                        <div style="margin-top: 15px;"><strong>c)</strong> Leo has 2 toy cars. He loses 1 car under the couch. How many cars does Leo still have?</div>
+                        <div>_____ − _____ = _____ cars</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "With an adult, look for one electronic item in your home that might become e-waste someday. What is it?",
+        homework: "Find 4 small objects (beans, coins, or buttons). Practice taking 1 away and counting what remains. Do this 5 times and write your answers.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
-        subject: "Mathematics & Science",
-        topic: "General Waste and Food Scraps",
-        subtopic: "Identifying food waste and understanding compost",
+        subject: "Mathematics",
+        topic: "Operations",
+        subtopic: "Subtraction Practice – Working with concrete blocks to subtract items up to the difference of 4",
         lessonContent: `
-            <p>Today we will learn about general waste, especially food scraps!</p>
-            <p><strong>Key Concept:</strong> Food waste like banana peels and leftover crusts is "general waste" that can sometimes help plants grow.</p>
-            <p><strong>What is food waste?</strong></p>
+            <p>Today we'll practice more subtraction! We'll take away different amounts, not just 1, from groups up to 4.</p>
+            <p><strong>Key Question:</strong> How many remain when you take away 2 from 4? What about taking away 3 from 4?</p>
+            <p><strong>Introduction:</strong> Now that we know how to take away 1, we'll practice taking away different numbers. Subtraction helps us find out what is left when we give some away, eat some, or lose some!</p>
+            <p><strong>Subtraction Facts (Differences up to 4):</strong></p>
             <ul>
-                <li>Leftover food we don't eat</li>
-                <li>Fruit and vegetable peels</li>
-                <li>Bread crusts and other scraps</li>
+                <li>4 − 1 = 3</li>
+                <li>4 − 2 = 2</li>
+                <li>4 − 3 = 1</li>
+                <li>4 − 4 = 0</li>
+                <li>3 − 1 = 2</li>
+                <li>3 − 2 = 1</li>
+                <li>3 − 3 = 0</li>
+                <li>5 − 2 = 3</li>
+                <li>5 − 3 = 2</li>
+                <li>5 − 4 = 1</li>
             </ul>
-            <p><strong>Compost Magic:</strong> Some food waste can become "compost" - a special soil that helps plants grow big and strong!</p>
-            <p><strong>Observation Activity:</strong> We'll use our five senses (except taste!) to describe fresh food versus old "waste" food.</p>
-            <p><strong>Important:</strong> Not all food waste should go in regular bins. Some can be composted to help our garden!</p>
-            <p><strong>Science Connection:</strong> Observing how food changes over time teaches us about decomposition and recycling in nature.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-banana" style="color: #FFEB3B;"></i> Banana Peel</div>
-                <p>"This is food waste" - The peel we don't eat can become compost to help new plants grow!</p>
+                <div class="example-title"><i class="fas fa-gift"></i> Birthday Balloons</div>
+                <p>You have 4 balloons. 2 balloons float away. How many balloons do you have left? 4 − 2 = 2 balloons!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-seedling" style="color: #4CAF50;"></i> Compost Bin</div>
-                <p>"Food scraps can go here" - In a compost bin, food waste turns into rich soil over time.</p>
+                <div class="example-title"><i class="fas fa-pizza-slice"></i> Pizza Party</div>
+                <p>There are 5 slices of pizza. Your family eats 3 slices. How many slices are left? 5 − 3 = 2 slices.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Fresh vs. Old Food Game!</div>
-                <p>We'll look at fresh apple slices and old apple cores. Use your senses to describe the difference!</p>
+                <div class="example-title"><i class="fas fa-book"></i> Library Books</div>
+                <p>You check out 4 books from the library. You return 2 books. How many books do you still have? 4 − 2 = 2 books.</p>
             </div>
         `,
-        taskInstructions: "Observe food waste and learn about composting possibilities.",
+        taskInstructions: "Use concrete blocks to practice subtraction with differences up to 4.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Five Senses Observation</strong></p>
+                <p><strong>Part A: Subtraction Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Observe fresh food vs. food waste using your senses:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; border-right: 1px solid #ccc;">
-                            <div style="text-align: center; font-weight: bold;">Fresh Apple Slice</div>
-                            <div>Looks: ______________</div>
-                            <div>Smells: _____________</div>
-                            <div>Feels: ______________</div>
-                        </div>
-                        <div style="flex: 1; padding: 10px;">
-                            <div style="text-align: center; font-weight: bold;">Old Apple Core</div>
-                            <div>Looks: ______________</div>
-                            <div>Smells: _____________</div>
-                            <div>Feels: ______________</div>
-                        </div>
+                    <span class="task-number">1</span> Use blocks to solve these subtraction problems:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) 4 − 1 = _____</div>
+                        <div>b) 4 − 2 = _____</div>
+                        <div>c) 4 − 3 = _____</div>
+                        <div>d) 3 − 1 = _____</div>
+                        <div>e) 3 − 2 = _____</div>
+                        <div>f) 5 − 2 = _____</div>
+                        <div>g) 5 − 3 = _____</div>
+                        <div>h) 5 − 4 = _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Food Waste Sorting</strong></p>
+                <p><strong>Part B: Draw and Subtract</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Which food items become waste? Circle them:
+                    <span class="task-number">2</span> Draw the starting group, cross out the number to subtract, then write the answer:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Banana peel</div>
-                        <div>☐ Apple seeds</div>
-                        <div>☐ Bread crust</div>
-                        <div>☐ Orange slice (eaten part)</div>
-                        <div>☐ Carrot tops</div>
+                        <div><strong>a)</strong> Draw 4 stars. Cross out 2. How many left?</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>4 − 2 = _____</div>
+                        
+                        <div style="margin-top: 15px;"><strong>b)</strong> Draw 5 circles. Cross out 3. How many left?</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>5 − 3 = _____</div>
+                        
+                        <div style="margin-top: 15px;"><strong>c)</strong> Draw 3 squares. Cross out 1. How many left?</div>
+                        <div class="drawing-area" style="height: 80px; margin-top: 5px; border: 2px dashed #ccc;"></div>
+                        <div>3 − 1 = _____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Counting Food Scraps</strong></p>
+                <p><strong>Part C: Word Problems</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Count food waste from our snack time:
+                    <span class="task-number">3</span> Solve these subtraction word problems:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Apple cores: ____</div>
-                        <div>Banana peels: ____</div>
-                        <div>Orange peels: ____</div>
-                        <div>Total food waste: ____ items</div>
-                        <div>Draw the total number of food waste items:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Compost Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw a compost bin with food scraps turning into soil:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Draw food scraps in a bin:</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                        <div>Compost helps ________ grow!</div>
+                        <div><strong>a)</strong> Rosa has 5 crayons. She gives 2 crayons to her little brother. How many crayons does Rosa have left?</div>
+                        <div>_____ − _____ = _____ crayons</div>
+                        
+                        <div style="margin-top: 15px;"><strong>b)</strong> There are 4 cookies on a plate. Dad eats 3 cookies. How many cookies are left?</div>
+                        <div>_____ − _____ = _____ cookies</div>
+                        
+                        <div style="margin-top: 15px;"><strong>c)</strong> Miguel has 3 toy dinosaurs. He loses 2 dinosaurs on the playground. How many dinosaurs does Miguel still have?</div>
+                        <div>_____ − _____ = _____ dinosaurs</div>
                     </div>
                 </div>
             </div>
         `,
-        homework: "Help separate food waste after a meal at home. What food scraps did you find? Draw one of them.",
+        homework: "Practice subtraction facts with a family member. Use 5 small objects and practice taking away 1, 2, 3, and 4 objects.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "The Three Rs (Reduce, Reuse, Recycle)",
-        subtopic: "Participating in waste management activities",
+        topic: "Money Recognition",
+        subtopic: "Introduction to Coins – Looking at and touching local coins up to the value of K5",
         lessonContent: `
-            <p>Today is our waste management celebration! We'll learn about the Three Rs: Reduce, Reuse, and Recycle!</p>
-            <p><strong>Key Concept 1: REDUCE</strong> - Use less stuff to begin with!</p>
+            <p>Today we'll learn about money! We'll look at and touch real coins and learn their values.</p>
+            <p><strong>Key Question:</strong> What do different coins look like, and how much are they worth?</p>
+            <p><strong>Introduction:</strong> Money helps us buy things we need and want. Coins are a type of money made of metal. Today we'll explore local coins worth up to K5 (Kina 5).</p>
+            <p><strong>Coin Values (Local Currency):</strong></p>
             <ul>
-                <li>Use a refillable water bottle instead of buying new ones</li>
-                <li>Take only what you need</li>
-                <li>Say "no thank you" to extra packaging</li>
+                <li><strong>Small coins:</strong> Lower value (like toea coins - 5t, 10t, 20t, 50t)</li>
+                <li><strong>Larger coins:</strong> Higher value (K1, K2 coins)</li>
+                <li><strong>K5:</strong> May be a coin or note depending on your country</li>
             </ul>
-            <p><strong>Key Concept 2: REUSE</strong> - Find new uses for old things!</p>
+            <p><strong>What to Notice About Coins:</strong></p>
             <ul>
-                <li>Turn a yogurt tub into a pencil holder</li>
-                <li>Use both sides of paper</li>
-                <li>Donate toys you don't play with anymore</li>
+                <li><strong>Size:</strong> Bigger or smaller?</li>
+                <li><strong>Color:</strong> Gold, silver, or copper?</li>
+                <li><strong>Shape:</strong> Round or have edges?</li>
+                <li><strong>Numbers:</strong> The number shows the value</li>
+                <li><strong>Pictures:</strong> What images are on the coin?</li>
             </ul>
-            <p><strong>Key Concept 3: RECYCLE</strong> - Turn old materials into new things!</p>
+            <p><strong>Coin Combinations to Make K5:</strong></p>
             <ul>
-                <li>Paper becomes new paper</li>
-                <li>Plastic bottles become new plastic items</li>
-                <li>Glass jars become new glass products</li>
+                <li>5 × K1 coins = K5</li>
+                <li>2 × K2 coins + 1 × K1 coin = K5</li>
+                <li>1 × K2 coin + 3 × K1 coins = K5</li>
             </ul>
-            <p><strong>Creative Arts:</strong> Today we'll brainstorm creative ways to reuse items!</p>
-            <p><strong>Celebration:</strong> We've learned to identify, sort, and manage waste responsibly!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint-slash" style="color: #2196F3;"></i> Reduce Example</div>
-                <p>"Use a refillable water bottle" - This reduces plastic waste because you don't buy new bottles every day!</p>
+                <div class="example-title"><i class="fas fa-coins"></i> Coin Detective</div>
+                <p>Look closely at a K1 coin. What color is it? What picture is on it? Does it have writing around the edge?</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle" style="color: #4CAF50;"></i> Reuse Example</div>
-                <p>"Empty yogurt tub as pencil holder" - Instead of throwing it away, we give it a new job!</p>
+                <div class="example-title"><i class="fas fa-store"></i> Buying at the Store</div>
+                <p>If a pencil costs K2 and you have K5, you can buy the pencil and still have K3 left over!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Three Rs Sorting Game!</div>
-                <p>We'll have three stations: Reduce, Reuse, Recycle. You'll decide where each action belongs!</p>
+                <div class="example-title"><i class="fas fa-piggy-bank"></i> Saving Coins</div>
+                <p>If you save K1 each week, after 5 weeks you will have K5 saved up in your piggy bank!</p>
             </div>
         `,
-        taskInstructions: "Practice the Three Rs through creative activities and brainstorming.",
+        taskInstructions: "Observe and identify local coins up to K5 value, then practice counting coin combinations.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Reuse Demonstration</strong></p>
+                <p><strong>Part A: Coin Observation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Watch how to reuse a plastic yogurt tub:
+                    <span class="task-number">1</span> Look at each coin (or picture of coins). Describe what you see:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Clean the empty tub</div>
-                        <div>2. Decorate it with markers</div>
-                        <div>3. Use it to hold pencils!</div>
-                        <div class="drawing-area" style="height: 100px;">Draw your decorated pencil holder:</div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Coin</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Color</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Picture/Design</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Value</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Coin 1</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Coin 2</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Coin 3</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"></td>
+                            </tr>
+                         </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Three Rs Sorting</strong></p>
+                <p><strong>Part B: Coin Values and Counting</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Sort these actions into Reduce, Reuse, or Recycle:
+                    <span class="task-number">2</span> Count the value of these coin groups:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ Using both sides of paper (______)</div>
-                        <div>☐ Putting plastic bottles in recycling bin (______)</div>
-                        <div>☐ Bringing lunch in reusable containers (______)</div>
-                        <div>☐ Turning old newspaper into art (______)</div>
+                        <div>a) 2 × K1 coins = K_____</div>
+                        <div>b) 3 × K1 coins = K_____</div>
+                        <div>c) 1 × K2 coin + 2 × K1 coins = K_____</div>
+                        <div>d) 2 × K2 coins + 1 × K1 coin = K_____</div>
+                        <div>e) 5 × K1 coins = K_____</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Creative Brainstorming</strong></p>
+                <p><strong>Part C: Draw Your Own Coins</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Brainstorm one thing you can reuse at home:
+                    <span class="task-number">3</span> Draw a coin design of your own. Include:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>I can reuse a/an ______________</div>
-                        <div>To make it into a ______________</div>
-                        <div>Draw your reuse idea:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div>• A number to show its value</div>
+                        <div>• A picture or symbol</div>
+                        <div>• The color you would use</div>
                     </div>
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Counting Our Impact</strong></p>
+                <p><strong>Part D: Shopping Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Count how many items we saved from the trash this week:
+                    <span class="task-number">4</span> If you have K5, which items can you buy?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Paper recycled: ____ items</div>
-                        <div>Items reused: ____ items</div>
-                        <div>Compost created: ____ items</div>
-                        <div>Total waste reduced: ____ items</div>
-                        <div>Draw a happy Earth celebrating:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div>• Pencil: K1 _____ (yes/no)</div>
+                        <div>• Eraser: K2 _____ (yes/no)</div>
+                        <div>• Notebook: K3 _____ (yes/no)</div>
+                        <div>• Crayons: K4 _____ (yes/no)</div>
+                        <div>• Pencil case: K5 _____ (yes/no)</div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Waste Warrior Certificate</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Draw yourself as a Waste Warrior. Write your waste-fighting promise:
-                    <div class="drawing-area" style="height: 120px;"></div>
-                    <div class="answer-space" style="height: 40px; margin-top: 10px;">I promise to _______________ to help our planet!</div>
+                    <span class="task-number">5</span> If you buy a K2 eraser with your K5, how much money will you have left?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
             </div>
         `,
-        homework: "Teach someone at home about the Three Rs. Find one item in your home that you can reduce, reuse, or recycle.",
+        homework: "Ask a family member to show you different coins at home. Draw 3 different coins and write their values. Practice counting coins up to K5.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1MathScienceWeek9);
-    console.log("math-science-week9-waste-management.js registered using registerWorksheet()");
+    window.registerWorksheet(middleMathScienceWeek9);
+    console.log("middle-math-science-week9.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1MathScienceWeek9);
-    console.log("math-science-week9-waste-management.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(middleMathScienceWeek9);
+    console.log("middle-math-science-week9.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1MathScienceWeek9',
-        metadata: grade1MathScienceWeek9.metadata,
-        days: grade1MathScienceWeek9
+        variableName: 'middleMathScienceWeek9',
+        metadata: middleMathScienceWeek9.metadata,
+        days: middleMathScienceWeek9
     });
-    console.log("math-science-week9-waste-management.js stored in window.registeredWorksheets");
+    console.log("middle-math-science-week9.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1MathScienceWeek9 = grade1MathScienceWeek9;
-console.log("math-science-week9-waste-management.js loaded and registered successfully");
+window.middleMathScienceWeek9 = middleMathScienceWeek9;
+console.log("middle-math-science-week9.js loaded and registered successfully");

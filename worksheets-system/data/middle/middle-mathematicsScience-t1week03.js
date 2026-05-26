@@ -1,555 +1,544 @@
-// Grade 1 Mathematics & Science - Week 3 Data (Measuring, Comparing, and Exploring)
-const grade1MathScienceWeek3 = {
+// Grade Middle - Term 1 Week 3 Data
+const gradeMiddleWeek3 = {
     metadata: {
         grade: "middle",
         subject: "Mathematics & Science",
+        term: 1,
         week: 3,
-        title: "Measuring, Comparing, and Exploring",
-        description: "Learning about length, measurement, texture, and habitats through hands-on exploration"
+        title: "Places Where Living Things Are Found",
+        description: "Exploring habitats of land animals, water animals, and plants - matching creatures to their homes"
     },
     
     monday: {
         subject: "Mathematics & Science",
-        topic: "Long and Short",
-        subtopic: "Introducing length through direct comparison",
+        topic: "Habitats",
+        subtopic: "Where Animals Live - Land Animals and Domestic Spaces",
         lessonContent: `
-            <p>Welcome to our measurement adventure! Today we will explore the exciting world of LONG and SHORT.</p>
-            <p><strong>Key Concept:</strong> Everything around us has length - some things are long, some are short!</p>
-            <p><strong>What is length?</strong></p>
+            <p>Welcome to our exploration of animal habitats! Today we'll discover where land animals live, including wild spaces and our own homes.</p>
+            <p><strong>Key Question:</strong> Where do different land animals make their homes?</p>
+            <p><strong>Introduction:</strong> A <strong>habitat</strong> is the natural home or environment where a living thing lives. Different animals need different things to survive - food, water, shelter, and space.</p>
+            <p><strong>Land Animal Habitats:</strong></p>
+            <ol>
+                <li><strong>Forests:</strong> Deer, bears, squirrels, wolves, rabbits</li>
+                <li><strong>Grasslands:</strong> Lions, zebras, elephants, giraffes</li>
+                <li><strong>Deserts:</strong> Camels, snakes, lizards, scorpions</li>
+                <li><strong>Mountains:</strong> Goats, eagles, yaks, snow leopards</li>
+            </ol>
+            <p><strong>Domestic Spaces (Animals Near People):</strong></p>
             <ul>
-                <li>How far something reaches from one end to the other</li>
-                <li>How tall something is</li>
-                <li>How much space something takes up in one direction</li>
+                <li><strong>Homes:</strong> Dogs, cats, hamsters, birds (pets)</li>
+                <li><strong>Farms:</strong> Cows, chickens, pigs, horses, sheep, goats</li>
+                <li><strong>Gardens/Yards:</strong> Ants, worms, butterflies, snails, birds</li>
+                <li><strong>City streets:</strong> Rats, pigeons, squirrels, raccoons</li>
             </ul>
-            <p><strong>Vocabulary:</strong></p>
-            <ul>
-                <li><strong>Long/Longer:</strong> Reaches far, takes more space</li>
-                <li><strong>Short/Shorter:</strong> Doesn't reach as far, takes less space</li>
-            </ul>
-            <p><strong>Our Mission:</strong> We will each get a special measuring stick and explore our classroom to find things that are longer and shorter than our stick!</p>
-            <p><strong>Why is this important?</strong> Understanding length helps us describe our world accurately and solve problems in math and science.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler" style="color: #4CAF50;"></i> Measuring Stick</div>
-                <p>"This stick is my measuring tool. I'll use it to compare with other objects in our room!"</p>
+                <div class="example-title"><i class="fas fa-home"></i> My Home, Their Home</div>
+                <p>Your house is a habitat too! If you have a pet dog or cat, your home is their habitat. Ants might live in your garden, and spiders might live in corners!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-pencil-alt" style="color: #2196F3;"></i> Pencil Example</div>
-                <p>"A pencil is SHORTER than my arm but LONGER than my finger" - Objects can be both long AND short depending on what we compare them to!</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Forest Layers</div>
+                <p>In a forest, different animals live at different heights. Birds live in treetops, squirrels live in tree trunks, and rabbits live on the ground!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Length Hunt Game!</div>
-                <p>We're going on a classroom length hunt! Find something longer than your stick and something shorter. Ready, set, MEASURE!</p>
+                <div class="example-title"><i class="fas fa-tent"></i> Desert Adaptations</div>
+                <p>Camels have humps that store fat for energy when food is scarce. They can go days without water - perfect for desert life!</p>
             </div>
         `,
-        taskInstructions: "Complete these measurement activities during our length exploration.",
+        taskInstructions: "Identify and draw animals in their land habitats.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Find and draw two objects:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>☐ One object LONGER than your stick</div>
-                    <div class="drawing-area" style="height: 60px; margin: 5px 0;"></div>
-                    <div>This is a: ____________________</div>
-                    <div>☐ One object SHORTER than your stick</div>
-                    <div class="drawing-area" style="height: 60px; margin: 5px 0;"></div>
-                    <div>This is a: ____________________</div>
+            <div class="content-box">
+                <p><strong>Part A: Match the Animal to Its Habitat</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw a line to match each animal to where it lives:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div>
+                            <div>• Camel</div>
+                            <div>• Squirrel</div>
+                            <div>• Cow</div>
+                            <div>• Dog</div>
+                            <div>• Deer</div>
+                        </div>
+                        <div>
+                            <div>→ Forest</div>
+                            <div>→ Desert</div>
+                            <div>→ Farm</div>
+                            <div>→ Home (pet)</div>
+                            <div>→ Forest</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Compare with a partner:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>My stick is: ☐ Longer than my partner's ☐ Shorter than my partner's ☐ Same length</div>
-                    <div>Draw both sticks together:</div>
-                    <div class="drawing-area" style="height: 80px; margin-top: 5px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Animal Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw one land animal in its natural habitat. Show what makes its home special:
+                    <div class="drawing-area" style="height: 180px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Body measurement:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Is your arm LONGER or SHORTER than your stick?</div>
-                    <div>☐ Longer ☐ Shorter</div>
-                    <div>Trace your arm and the stick:</div>
-                    <div class="drawing-area" style="height: 100px; margin-top: 5px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Domestic Animals</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> List three animals that live on a farm and three animals that live in or near human homes:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Farm animals: _________, _________, _________</div>
+                        <div style="margin-top: 5px;">Animals near homes: _________, _________, _________</div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Length sentences:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Complete the sentences:</div>
-                    <div>A table is __________ than a book.</div>
-                    <div>A crayon is __________ than a pencil box.</div>
-                    <div>My foot is __________ than my shoe.</div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> What does every animal need in its habitat to survive?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three things at home: something longer than your hand, something shorter than your hand, and something about the same length. Tell a family member about them.",
+        homework: "Observe your home or yard for 10 minutes. Write down or draw any animals you see (insects, birds, pets). Where were they living?",
         homeworkDue: "Tuesday"
     },
     
     tuesday: {
         subject: "Mathematics & Science",
-        topic: "The Measuring Worm",
-        subtopic: "Using non-standard units to measure",
+        topic: "Habitats",
+        subtopic: "Water Habitats - Fish and Animals That Survive in Water",
         lessonContent: `
-            <p>Today we become measuring scientists! We'll learn how to measure using special "units" like paperclips or leaves.</p>
-            <p><strong>Key Concept:</strong> We can measure anything by counting how many "units" fit along its length.</p>
-            <p><strong>What is a non-standard unit?</strong></p>
-            <ul>
-                <li>Something we use to measure that isn't a ruler</li>
-                <li>It stays the same size (all our paperclips are the same)</li>
-                <li>We can count how many fit along something</li>
-            </ul>
-            <p><strong>Our Measuring Unit:</strong> Today we'll use large paperclips as our "measuring worms!"</p>
-            <p><strong>How to Measure:</strong></p>
+            <p>Today we'll dive into water habitats! From oceans to ponds, let's discover the amazing animals that live in water.</p>
+            <p><strong>Key Question:</strong> How do animals survive in water habitats?</p>
+            <p><strong>Introduction:</strong> Water covers about 71% of Earth's surface. Many animals spend their entire lives in water - they breathe, eat, sleep, and reproduce there!</p>
+            <p><strong>Types of Water Habitats:</strong></p>
             <ol>
-                <li>Line up your first paperclip at one end</li>
-                <li>Place the next paperclip right after it</li>
-                <li>Keep going until you reach the end</li>
-                <li>Count how many paperclips you used</li>
+                <li><strong>Oceans (Saltwater):</strong>
+                    <ul>
+                        <li>Animals: Fish (sharks, clownfish, tuna), whales, dolphins, octopus, jellyfish, sea turtles, crabs, lobsters</li>
+                        <li>Features: Salt water, very large, deep, different zones</li>
+                    </ul>
+                </li>
+                <li><strong>Rivers and Streams (Freshwater, moving):</strong>
+                    <ul>
+                        <li>Animals: Trout, salmon, otters, frogs, crayfish, catfish</li>
+                        <li>Features: Fresh water, flowing, often shallow</li>
+                    </ul>
+                </li>
+                <li><strong>Ponds and Lakes (Freshwater, still):</strong>
+                    <ul>
+                        <li>Animals: Ducks, turtles, frogs, snakes, dragonflies, perch, bass</li>
+                        <li>Features: Fresh water, still or slow-moving</li>
+                    </ul>
+                </li>
+                <li><strong>Swamps and Marshes (Wetlands):</strong>
+                    <ul>
+                        <li>Animals: Alligators, beavers, herons, frogs, mosquitoes, turtles</li>
+                        <li>Features: Mix of water and land, very wet soil</li>
+                    </ul>
+                </li>
             </ol>
-            <p><strong>Important:</strong> No gaps between paperclips! No overlapping!</p>
+            <p><strong>How Water Animals Survive:</strong></p>
+            <ul>
+                <li>Gills to breathe underwater (fish, crabs, some insects)</li>
+                <li>Fins and flippers to swim (fish, whales, turtles)</li>
+                <li>Streamlined bodies to move easily through water</li>
+                <li>Some come to surface to breathe air (whales, dolphins, turtles)</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paperclip" style="color: #f44336;"></i> Paperclip Measuring</div>
-                <p>"This book is 5 paperclips long" - We count: 1, 2, 3, 4, 5 paperclips from one end to the other!</p>
+                <div class="example-title"><i class="fas fa-fish"></i> How Fish Breathe</div>
+                <p>Fish have gills that take oxygen from water. Water goes in through the mouth, passes over the gills, and oxygen enters their blood - just like our lungs take oxygen from air!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-book" style="color: #795548;"></i> Book Measurement</div>
-                <p>"The desk is 8 paperclips long. That's MORE than the book which is only 5 paperclips long!"</p>
+                <div class="example-title"><i class="fas fa-water"></i> Fresh vs. Salt Water</div>
+                <p>Most fish can only live in one type of water. A saltwater fish would get sick in fresh water because its body is designed for salt! Salmon are special - they can live in both!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Measuring Race!</div>
-                <p>We'll measure different objects around the room! Who can find something that's exactly 4 paperclips long?</p>
+                <div class="example-title"><i class="fas fa-frog"></i> Amphibians</div>
+                <p>Frogs and toads are amphibians - they start life in water with gills, then grow lungs and live on land as adults! But they still need to stay near water.</p>
             </div>
         `,
-        taskInstructions: "Use paperclips to measure different objects and complete these activities.",
+        taskInstructions: "Identify water animals and their specific water habitats.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Measuring Practice</strong></p>
+                <p><strong>Part A: Water Animal Identification</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Measure your pencil with paperclips:
+                    <span class="task-number">1</span> For each water habitat, name two animals that live there:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>My pencil is ____ paperclips long.</div>
-                        <div>Draw your pencil with paperclips along it:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div>Ocean: _________ and _________</div>
+                        <div>River: _________ and _________</div>
+                        <div>Pond: _________ and _________</div>
+                        <div>Swamp: _________ and _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Classroom Measurement</strong></p>
+                <p><strong>Part B: Water Habitat Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure three classroom objects:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Object 1 (book): ____ paperclips</div>
-                        <div>Object 2 (desk edge): ____ paperclips</div>
-                        <div>Object 3 (your choice): _________: ____ paperclips</div>
-                    </div>
+                    <span class="task-number">2</span> Draw a water habitat (ocean, pond, river, or swamp). Include at least three animals that live there:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Which is Longer?</strong></p>
+                <p><strong>Part C: Compare Habitats</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Measure and compare:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Red crayon: ____ paperclips</div>
-                        <div>Blue crayon: ____ paperclips</div>
-                        <div>Which is longer? ☐ Red ☐ Blue</div>
-                        <div>How many more paperclips? ____ more</div>
-                    </div>
+                    <span class="task-number">3</span> How is an ocean different from a pond? How are they the same?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Measurement Drawing</strong></p>
+                <p><strong>Part D: Adaptation Question</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw something that is 3 paperclips long:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div class="drawing-area" style="height: 100px;"></div>
-                        <div>This is a: ____________________</div>
-                        <div>It measures: 3 paperclips</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Counting Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Count out loud with the class:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>When we measure, we count: 1 paperclip, 2 paperclips, 3 paperclips...</div>
-                        <div>Practice counting to 15: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15!</div>
-                        <div class="answer-space" style="height: 30px; width: 250px; margin-top: 10px;">Write numbers 1-15:</div>
-                    </div>
+                    <span class="task-number">4</span> Why do fish have gills instead of lungs like humans?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Measure three things at home using something small and same-sized (like pennies, Lego blocks, or pasta pieces). Count how many you use for each.",
+        homework: "Look at a body of water near your home (or a picture of one). Draw three animals that might live there and label your drawing.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Mathematics & Science",
-        topic: "Texture and Touch",
-        subtopic: "Grouping non-living things by how they feel",
+        topic: "Habitats",
+        subtopic: "Where Plants Grow - Observing Soil Types and Garden Plants",
         lessonContent: `
-            <p>Today we will explore with our hands! We'll discover how things feel - are they ROUGH or SMOOTH?</p>
-            <p><strong>Key Concept:</strong> Objects have texture - how their surface feels to our touch.</p>
-            <p><strong>What is texture?</strong></p>
+            <p>Today we'll explore where plants grow! Plants need specific conditions to survive - just like animals do.</p>
+            <p><strong>Key Question:</strong> What do plants need to grow, and where can they grow?</p>
+            <p><strong>Introduction:</strong> Plants are living things too! They need sunlight, water, air, nutrients (food from soil), and space to grow.</p>
+            <p><strong>Where Plants Grow:</strong></p>
+            <ol>
+                <li><strong>Gardens:</strong> Vegetables (tomatoes, carrots, lettuce), flowers (roses, sunflowers), herbs (basil, mint)</li>
+                <li><strong>Forests:</strong> Trees (oak, maple, pine), ferns, mosses, mushrooms (fungi), wild berries</li>
+                <li><strong>Grasslands:</strong> Grasses, wildflowers, small bushes</li>
+                <li><strong>Deserts:</strong> Cacti, succulents, desert shrubs (plants that store water)</li>
+                <li><strong>Water (Ponds/Lakes):</strong> Water lilies, algae, cattails, lotus</li>
+                <li><strong>Mountains:</strong> Mosses, small wildflowers, hardy bushes</li>
+            </ol>
+            <p><strong>Soil Types:</strong></p>
             <ul>
-                <li>How something feels when you touch it</li>
-                <li>The "feel" of a surface</li>
-                <li>Can be rough, smooth, bumpy, soft, hard, etc.</li>
+                <li><strong>Sandy Soil:</strong> Drains quickly, warm, good for carrots and potatoes</li>
+                <li><strong>Clay Soil:</strong> Holds water, heavy, good for cabbage and broccoli</li>
+                <li><strong>Loamy Soil:</strong> Best for most plants - mixture of sand, silt, and clay</li>
+                <li><strong>Potting Soil:</strong> Used in pots and gardens, has nutrients added</li>
             </ul>
-            <p><strong>Vocabulary:</strong></p>
-            <ul>
-                <li><strong>Rough:</strong> Not smooth, bumpy, scratchy</li>
-                <li><strong>Smooth:</strong> Even, flat, not bumpy</li>
-            </ul>
-            <p><strong>Our Mission:</strong> We'll use MYSTERY BAGS! Reach in without looking, feel the object, and decide: is it rough or smooth?</p>
-            <p><strong>Science Connection:</strong> Scientists use their senses to learn about the world. Today we're being texture scientists!</p>
-            <p><strong>Safety First:</strong> We only touch gently. No poking or rough handling.</p>
+            <p><strong>Garden Observation:</strong> Different plants grow best in different conditions. Some like sun, some like shade. Some need lots of water, some need very little.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-paper" style="color: #FF9800;"></i> Feeling Textures</div>
-                <p>"This marble feels SMOOTH and cool" - Some smooth things are also hard!</p>
+                <div class="example-title"><i class="fas fa-seedling"></i> What Plants Need</div>
+                <p>Plants make their own food using sunlight (photosynthesis)! They need water, air, and soil nutrients too. That's why a seed won't grow in a dark closet.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #795548;"></i> Bark and Leaf</div>
-                <p>"Tree bark is ROUGH, but a leaf can be smooth" - Different parts of nature have different textures!</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Garden Helpers</div>
+                <p>Worms are great for gardens! They eat dead leaves and turn them into rich soil that helps plants grow strong. Worms also dig tunnels that let air and water reach plant roots.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Mystery Bag Challenge!</div>
-                <p>Can you guess what's in the bag just by feeling? Is it rough like sandpaper or smooth like a stone?</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Water Plants</div>
+                <p>Water lilies have special air pockets in their leaves and stems that help them float. Their roots are underwater, but their flowers bloom above the surface!</p>
             </div>
         `,
-        taskInstructions: "Explore textures through mystery bags and complete these activities.",
+        taskInstructions: "Observe soil types and plants in a garden or picture.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Mystery Bag Exploration</strong></p>
+                <p><strong>Part A: Plant Habitat Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Reach into Mystery Bag #1. What do you feel?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Texture: ☐ Rough ☐ Smooth</div>
-                        <div>Draw what you THINK it is:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                        <div>It feels like: ____________________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Texture Sorting</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Sort these objects into Rough or Smooth:
-                    <div style="display: flex; margin-top: 10px;">
-                        <div style="flex: 1; padding: 10px; text-align: center; border-right: 1px solid #ccc;">
-                            <div style="font-weight: bold; color: #795548;">ROUGH PILE</div>
-                            <div>☐ Sandpaper</div>
-                            <div>☐ Pinecone</div>
-                            <div>☐ ________</div>
-                            <div class="drawing-area" style="height: 60px; margin-top: 10px;"></div>
+                    <span class="task-number">1</span> Match each plant to where it grows best:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div>
+                            <div>• Cactus</div>
+                            <div>• Water lily</div>
+                            <div>• Pine tree</div>
+                            <div>• Tomato plant</div>
+                            <div>• Grass</div>
                         </div>
-                        <div style="flex: 1; padding: 10px; text-align: center;">
-                            <div style="font-weight: bold; color: #2196F3;">SMOOTH PILE</div>
-                            <div>☐ Marble</div>
-                            <div>☐ Plastic spoon</div>
-                            <div>☐ ________</div>
-                            <div class="drawing-area" style="height: 60px; margin-top: 10px;"></div>
+                        <div>
+                            <div>→ Pond</div>
+                            <div>→ Garden</div>
+                            <div>→ Desert</div>
+                            <div>→ Forest</div>
+                            <div>→ Grassland</div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Texture Hunt</strong></p>
+                <p><strong>Part B: Garden Observation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Find objects in the classroom:
+                    <span class="task-number">2</span> If you have a garden or potted plant nearby, observe it. If not, use the picture your teacher shows:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Find something ROUGH: ____________________</div>
-                        <div>Find something SMOOTH: ____________________</div>
-                        <div>Draw one of them:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
+                        <div>What plant did you observe? _________</div>
+                        <div>What color are its leaves? _________</div>
+                        <div>Does it have flowers or fruits? _________</div>
+                        <div>What does the soil look/feel like? _________</div>
                     </div>
+                    <div class="drawing-area" style="height: 120px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Texture Words</strong></p>
+                <p><strong>Part C: Plant Needs</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Learn new texture words:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Bumpy:</strong> Has small lumps</div>
-                        <div><strong>Soft:</strong> Gentle to touch</div>
-                        <div><strong>Hard:</strong> Firm, doesn't bend</div>
-                        <div>Circle textures you find:</div>
-                        <div>☐ Rough ☐ Smooth ☐ Bumpy ☐ Soft ☐ Hard</div>
-                    </div>
+                    <span class="task-number">3</span> List four things every plant needs to grow:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Texture Art</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Create a texture rubbing:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Place paper over something rough. Rub with crayon!</div>
-                        <div class="drawing-area" style="height: 100px; background-color: #f5f5f5;"></div>
-                        <div>This texture is: ____________________</div>
-                    </div>
+                    <span class="task-number">4</span> Why can't a cactus grow in a pond? Why can't a water lily grow in a desert?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find five different textures at home (like a rough towel, smooth plate, bumpy orange peel, soft pillow, hard table). Tell a family member about each texture.",
+        homework: "Look at a plant in your home or neighborhood. Draw it and write down what you think it needs to stay healthy (water, sun, soil type).",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Mathematics & Science",
-        topic: "High and Low Habitats",
-        subtopic: "Exploring where living things are found",
+        topic: "Habitats",
+        subtopic: "Matching Habitats - Animal Cards to Home Locations",
         lessonContent: `
-            <p>Today we become habitat explorers! We'll learn about where different living things make their homes - HIGH, MIDDLE, and LOW.</p>
-            <p><strong>Key Concept:</strong> Different living things live at different heights in their environment.</p>
-            <p><strong>What is a habitat?</strong></p>
+            <p>Today we'll practice matching animals to their correct habitats! Can you figure out where each creature belongs?</p>
+            <p><strong>Key Question:</strong> How do you know which habitat is right for each animal?</p>
+            <p><strong>Introduction:</strong> Every animal has a home where it can find food, water, shelter, and space. Today we'll become habitat detectives!</p>
+            <p><strong>Review - Animal Habitats:</strong></p>
             <ul>
-                <li>A home for living things</li>
-                <li>A place where animals and plants live</li>
-                <li>Provides food, water, and shelter</li>
+                <li><strong>Land habitats:</strong> Forests, grasslands, deserts, mountains, farms, homes</li>
+                <li><strong>Water habitats:</strong> Oceans, rivers, ponds, swamps</li>
+                <li><strong>Plant habitats:</strong> Gardens, forests, grasslands, deserts, water</li>
             </ul>
-            <p><strong>Vertical Habitats:</strong></p>
+            <p><strong>Clues to Find the Right Habitat:</strong></p>
+            <ol>
+                <li>What does the animal eat? (Where can it find that food?)</li>
+                <li>What kind of body does it have? (Fins for water? Legs for land?)</li>
+                <li>What weather does it like? (Hot? Cold? Wet? Dry?)</li>
+                <li>Does it need to hide from predators? (Where can it hide?)</li>
+            </ol>
+            <p><strong>Examples:</strong></p>
             <ul>
-                <li><strong>High:</strong> Tops of trees, rooftops, tall places</li>
-                <li><strong>Middle:</strong> Branches, bushes, middle of trees</li>
-                <li><strong>Low:</strong> Ground, grass, under rocks</li>
+                <li>A polar bear has thick fur and eats seals - it belongs in the ARCTIC (cold, icy habitat)</li>
+                <li>A fish has gills and fins - it belongs in WATER (ocean, river, or pond)</li>
+                <li>A cow eats grass - it belongs on a GRASSLAND or FARM</li>
             </ul>
-            <p><strong>Our Mission:</strong> We'll look at a tree (or picture of a tree) and discover what lives at each level!</p>
-            <p><strong>Science Thinking:</strong> Why do birds live high up? Why do ants live low down? Each habitat meets different needs!</p>
-            <p><strong>Habitat Ladder:</strong> We'll create a special "ladder" showing where different creatures live.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree" style="color: #4CAF50;"></i> Tree Habitat</div>
-                <p>"Birds live HIGH in nests, squirrels live in the MIDDLE branches, and ants live LOW on the ground" - One tree, many homes!</p>
+                <div class="example-title"><i class="fas fa-puzzle-piece"></i> Detective Work</div>
+                <p>If you see an animal with webbed feet, it probably lives near water (like a duck or frog). If you see sharp claws, it might be a predator that climbs trees (like a squirrel or cat)!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #FF9800;"></i> Different Homes</div>
-                <p>"Just like we live in houses, animals live in different 'apartments' in nature - some upstairs, some downstairs!"</p>
+                <div class="example-title"><i class="fas fa-map-marked-alt"></i> Wrong Home</div>
+                <p>What would happen if you put a fish in a desert? It would die because it needs water to breathe and move. Every animal belongs in its special habitat!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Habitat Sticker Game!</div>
-                <p>We'll have animal stickers and a big habitat ladder. Place each animal where it belongs - high, middle, or low!</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Domestic Animals</div>
+                <p>Some animals (like dogs and cats) can live with humans because we give them food, water, and shelter. In the wild, their ancestors lived in forests or grasslands!</p>
             </div>
         `,
-        taskInstructions: "Explore habitats and complete these activities.",
+        taskInstructions: "Match animal cards to their correct habitats using clues.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Tree Habitat Exploration</strong></p>
+                <p><strong>Part A: Animal-Habitat Matching Game</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Look at the tree picture. What lives where?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>HIGH</strong> (top): Birds, nests, ________</div>
-                        <div><strong>MIDDLE</strong> (branches): Squirrels, ________, ________</div>
-                        <div><strong>LOW</strong> (ground): Ants, worms, ________</div>
-                        <div>Draw the tree with animals:</div>
-                        <div class="drawing-area" style="height: 120px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Habitat Ladder</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Create your habitat ladder:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div style="border-left: 3px solid #4CAF50; padding-left: 10px;">
-                            <div><strong>TOP:</strong> ☐ Bird ☐ Butterfly</div>
-                            <div><strong>MIDDLE:</strong> ☐ Squirrel ☐ Beetle</div>
-                            <div><strong>BOTTOM:</strong> ☐ Ant ☐ Worm</div>
+                    <span class="task-number">1</span> Draw a line connecting each animal to its correct habitat:
+                    <div style="margin-left: 20px; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div>
+                            <div>🐫 Camel → _________</div>
+                            <div>🐟 Goldfish → _________</div>
+                            <div>🐄 Cow → _________</div>
+                            <div>🐧 Penguin → _________</div>
+                            <div>🐘 Elephant → _________</div>
+                            <div>🐸 Frog → _________</div>
+                            <div>🦜 Parrot → _________</div>
+                            <div>🐕 Dog → _________</div>
                         </div>
-                        <div>Add your own animal: ________ at the ________ level</div>
+                        <div>
+                            <div>🌵 Desert</div>
+                            <div>🏠 Human home</div>
+                            <div>🌾 Grassland</div>
+                            <div>❄️ Arctic/Ice</div>
+                            <div>🌴 Rainforest</div>
+                            <div>💧 Pond</div>
+                            <div>🏝️ Ocean</div>
+                            <div>🌳 Forest</div>
+                        </div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Create Your Own Matching Cards</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw two animals and their habitats on the cards below. Then have a friend match them!
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Animal Card 1</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <span style="font-size: 12px;">Animal: _________</span>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Habitat Card 1</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <span style="font-size: 12px;">Habitat: _________</span>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Animal Card 2</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <span style="font-size: 12px;">Animal: _________</span>
+                        </div>
+                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                            <strong>Habitat Card 2</strong>
+                            <div class="drawing-area" style="height: 80px; border: 1px dashed #ccc;"></div>
+                            <span style="font-size: 12px;">Habitat: _________</span>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Wall Habitat</strong></p>
+                <p><strong>Part C: Habitat Clues</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> What might live on a wall or fence?
+                    <span class="task-number">3</span> Read the clue and name the habitat:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>High: ☐ Spider web ☐ ________</div>
-                        <div>Middle: ☐ Lizard ☐ ________</div>
-                        <div>Low: ☐ Snail ☐ ________</div>
-                        <div>Draw a wall with creatures:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div>Clue 1: "It's very hot and dry. Camels live here." → _________</div>
+                        <div>Clue 2: "It's salty and very large. Whales live here." → _________</div>
+                        <div>Clue 3: "It has many trees. Squirrels and deer live here." → _________</div>
+                        <div>Clue 4: "It's a small body of still water. Frogs and ducks live here." → _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Why Different Levels?</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Think about why:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Birds live high to: ☐ Find food ☐ Stay safe ☐ Build nests</div>
-                        <div>Worms live low to: ☐ Eat dirt ☐ Stay moist ☐ Hide</div>
-                        <div>Complete: Squirrels live in the middle because _______________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Home Habitat</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> What lives near your home?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>High: ________ (like birds on roof)</div>
-                        <div>Middle: ________ (like spiders on window)</div>
-                        <div>Low: ________ (like ants on ground)</div>
-                        <div>Draw your home with animal neighbors:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
-                    </div>
+                    <span class="task-number">4</span> Why is it important for an animal to live in the right habitat?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Look outside your home. Find one living thing that lives high up and one that lives low down. Draw them or tell a family member about them.",
+        homework: "Create three animal-habitat matching pairs on index cards or paper. Bring them to share with a friend tomorrow.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Mathematics & Science",
-        topic: "The Giant and the Ant",
-        subtopic: "Comparing lengths and sizes of living vs. non-living things",
+        topic: "Habitats",
+        subtopic: "Creative Play - Drawing or Mimicking Animals in Their Habitats",
         lessonContent: `
-            <p>Today is our big comparison day! We'll compare GIANT things and TINY things, living and non-living!</p>
-            <p><strong>Key Concept:</strong> We can compare anything - living or non-living - by its size and length.</p>
-            <p><strong>Review:</strong> We've learned about long/short, measuring, textures, and habitats. Today we put it all together!</p>
-            <p><strong>Living vs. Non-living:</strong></p>
+            <p>Today we'll have fun with creative play! We'll draw animals in their homes and even act like them!</p>
+            <p><strong>Key Question:</strong> How can we show what we've learned about habitats creatively?</p>
+            <p><strong>Introduction:</strong> Scientists study animals by observing them in their natural habitats. Today we'll become scientists and artists - showing what we know through drawing and movement!</p>
+            <p><strong>Week 3 Review - What We Learned:</strong></p>
+            <ol>
+                <li><strong>Monday:</strong> Land animals - forests, grasslands, deserts, mountains, farms, and homes</li>
+                <li><strong>Tuesday:</strong> Water animals - oceans, rivers, ponds, and swamps</li>
+                <li><strong>Wednesday:</strong> Plants - where they grow and what they need</li>
+                <li><strong>Thursday:</strong> Matching animals to the right habitats</li>
+            </ol>
+            <p><strong>Today's Activities:</strong></p>
             <ul>
-                <li><strong>Living:</strong> Grows, needs food/water, can have babies (plants, animals)</li>
-                <li><strong>Non-living:</strong> Doesn't grow, doesn't need food (rocks, toys, books)</li>
+                <li><strong>Draw & Create:</strong> Draw an animal in its habitat, showing what makes that home special</li>
+                <li><strong>Mimic & Move:</strong> Act like an animal in its habitat - how does it move? What does it do?</li>
+                <li><strong>Share & Explain:</strong> Tell the class about your animal and why it belongs in that habitat</li>
             </ul>
-            <p><strong>Our Mission:</strong> We'll create a "Sorting Gallery" showing objects from shortest to longest!</p>
-            <p><strong>Comparison Vocabulary:</strong></p>
-            <ul>
-                <li>Short, shorter, shortest</li>
-                <li>Long, longer, longest</li>
-                <li>Small, medium, large</li>
-            </ul>
-            <p><strong>Celebration:</strong> We've become expert observers, measurers, and comparers of our world!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf" style="color: #4CAF50;"></i> Giant Leaf vs. Tiny Insect</div>
-                <p>"This giant leaf is LONGER than this tiny ant" - Living things come in all sizes!</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Drawing Ideas</div>
+                <p>Draw a monkey swinging through rainforest trees! Draw a fish swimming in coral reefs! Draw a camel walking across hot desert sand! Show the animal doing something special for its home.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mountain" style="color: #795548;"></i> Branch and Pebble</div>
-                <p>"This long branch and this short pebble are both from nature but very different sizes!"</p>
+                <div class="example-title"><i class="fas fa-child"></i> Mimic Game Ideas</div>
+                <p>• Hop like a frog near a pond!<br>• Swim like a fish in the ocean!<br>• Climb like a monkey in the rainforest!<br>• Slither like a snake in the desert!<br>• Fly like a bird in the forest!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Sorting Gallery Game!</div>
-                <p>We'll arrange all our collected objects from shortest to longest to create our Class Sorting Gallery!</p>
+                <div class="example-title"><i class="fas fa-microphone-alt"></i> Share Your Work</div>
+                <p>When you share, tell us: "This is a [animal]. It lives in [habitat]. It needs [food, water, shelter] to survive. One interesting thing about this animal is..."</p>
             </div>
         `,
-        taskInstructions: "Compare objects and create your Sorting Gallery display.",
+        taskInstructions: "Draw an animal in its habitat and/or act out animal movements.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Object Collection</strong></p>
+                <p><strong>Part A: Habitat Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Gather three objects:
+                    <span class="task-number">1</span> Choose an animal and draw it in its natural habitat. Include:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>☐ One living thing (leaf, twig, pinecone)</div>
-                        <div>☐ One non-living thing (stone, bottle cap)</div>
-                        <div>☐ One mystery object of your choice</div>
-                        <div>Draw your three objects:</div>
-                        <div class="drawing-area" style="height: 100px;"></div>
+                        <div>✓ The animal itself</div>
+                        <div>✓ Its habitat features (trees, water, sand, ice, etc.)</div>
+                        <div>✓ What the animal might eat in that habitat</div>
+                        <div>✓ Where it finds shelter</div>
+                    </div>
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Animal Description</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Write a short paragraph about the animal you drew:
+                    <div class="answer-space" style="height: 120px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Mimic Activity (Movement)</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Choose an animal to act out. Answer these questions about how you will move:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Animal I will act out: _________</div>
+                        <div>Its habitat: _________</div>
+                        <div>How does it move? (fast/slow, on ground/in water/in trees?) _________</div>
+                        <div>What sounds does it make? _________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Measurement Comparison</strong></p>
+                <p><strong>Part D: Week 3 Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Measure each object with paperclips:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Object 1: ________ is ____ paperclips</div>
-                        <div>Object 2: ________ is ____ paperclips</div>
-                        <div>Object 3: ________ is ____ paperclips</div>
-                        <div>Which is longest? ________</div>
-                        <div>Which is shortest? ________</div>
-                    </div>
+                    <span class="task-number">4</span> What was your favorite thing you learned about habitats this week?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Living vs. Non-living</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Sort your objects:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Living:</strong> ________, ________</div>
-                        <div><strong>Non-living:</strong> ________, ________</div>
-                        <div>Circle: My living object is ☐ Longer ☐ Shorter than my non-living object</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Ordering Challenge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Arrange from shortest to longest:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Shortest: ________ (____ paperclips)</div>
-                        <div>2. Middle: ________ (____ paperclips)</div>
-                        <div>3. Longest: ________ (____ paperclips)</div>
-                        <div>Draw them in order:</div>
-                        <div class="drawing-area" style="height: 80px;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part E: Sorting Gallery Display</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Create your gallery label:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div class="drawing-area" style="height: 120px; border: 2px dashed #ccc;"></div>
-                        <div>Title: "From Short to Long" by ________</div>
-                        <div>My objects show: ☐ Different sizes ☐ Different textures ☐ Living and non-living</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 10px;">This week I learned to measure, compare, and explore habitats!</div>
-                    </div>
+                    <span class="task-number">5</span> If you could be any animal for a day, which animal would you be and where would you live?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three objects outside and arrange them from shortest to longest. Take a picture or draw them. Tell someone what you learned about measurement this week.",
+        homework: "Draw your favorite animal in its home habitat. Write 2-3 sentences telling why that habitat is perfect for the animal.",
         homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(grade1MathScienceWeek3);
-    console.log("math-science-week3-measuring.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeMiddleWeek3);
+    console.log("grade-middle-week3.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(grade1MathScienceWeek3);
-    console.log("math-science-week3-measuring.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeMiddleWeek3);
+    console.log("grade-middle-week3.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'grade1MathScienceWeek3',
-        metadata: grade1MathScienceWeek3.metadata,
-        days: grade1MathScienceWeek3
+        variableName: 'gradeMiddleWeek3',
+        metadata: gradeMiddleWeek3.metadata,
+        days: gradeMiddleWeek3
     });
-    console.log("math-science-week3-measuring.js stored in window.registeredWorksheets");
+    console.log("grade-middle-week3.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.grade1MathScienceWeek3 = grade1MathScienceWeek3;
-console.log("math-science-week3-measuring.js loaded and registered successfully");
+window.gradeMiddleWeek3 = gradeMiddleWeek3;
+console.log("grade-middle-week3.js loaded and registered successfully");
