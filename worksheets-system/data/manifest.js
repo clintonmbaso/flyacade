@@ -166,6 +166,24 @@ const WorksheetManifest = {
         'data/middle/middle-mathematicsScience-t1week09.js',
         'data/middle/middle-mathematicsScience-t1week10.js',
     
+        'data/middle/middle-mathematicsScience-t2week02.js',
+        'data/middle/middle-mathematicsScience-t2week03.js',
+        'data/middle/middle-mathematicsScience-t2week04.js',
+        'data/middle/middle-mathematicsScience-t2week05.js',
+        'data/middle/middle-mathematicsScience-t2week07.js',
+        'data/middle/middle-mathematicsScience-t2week08.js',
+        'data/middle/middle-mathematicsScience-t2week09.js',
+        'data/middle/middle-mathematicsScience-t2week10.js',
+
+        'data/middle/middle-mathematicsScience-t3week02.js',
+        'data/middle/middle-mathematicsScience-t3week03.js',
+        'data/middle/middle-mathematicsScience-t3week04.js',
+        'data/middle/middle-mathematicsScience-t3week05.js',
+        'data/middle/middle-mathematicsScience-t3week07.js',
+        'data/middle/middle-mathematicsScience-t3week08.js',
+        'data/middle/middle-mathematicsScience-t3week09.js',
+        'data/middle/middle-mathematicsScience-t3week10.js',
+
     
     // ************* Reception *************
         // mathematicsScience
