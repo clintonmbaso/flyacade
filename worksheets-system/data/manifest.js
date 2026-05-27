@@ -931,6 +931,15 @@ const WorksheetManifest = {
         'data/grade5/g5science-t2week09.js',
         'data/grade5/g5science-t2week10.js',
     
+        'data/grade5/g5science-t3week02.js',
+        'data/grade5/g5science-t3week03.js',
+        'data/grade5/g5science-t3week04.js',
+        'data/grade5/g5science-t3week05.js',
+        'data/grade5/g5science-t3week07.js',
+        'data/grade5/g5science-t3week08.js',
+        'data/grade5/g5science-t3week09.js',
+        'data/grade5/g5science-t3week10.js',
+
          // Social Studies
         'data/grade5/g5socialstudies-t1week02.js',
         'data/grade5/g5socialstudies-t1week03.js',
