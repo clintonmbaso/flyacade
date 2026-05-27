@@ -5,269 +5,337 @@ const grade5ScienceWeek10 = {
         subject: "Science",
         term: 2,
         week: 10,
-        title: "Health and Business",
-        description: "Exploring poultry nutrition, health care, marketing, and value-added products"
+        title: "Soil Maintenance",
+        description: "Exploring water conservation, soil health, and methods of improving soil fertility"
     },
     
     monday: {
         subject: "Science",
-        topic: "Poultry Farming",
-        subtopic: "Nutrition and Health Care",
+        topic: "Environmental Science",
+        subtopic: "Environmental Mitigation: Water Conservation & Reforestation",
         lessonContent: `
-            <p>Welcome to our exploration of poultry health and business! Today we'll learn how to keep chickens healthy through proper nutrition and care.</p>
-            <p><strong>Key Question:</strong> What do chickens need to stay healthy and grow well?</p>
-            <p><strong>Introduction:</strong> Just like humans, chickens need proper food, clean water, and protection from diseases. A healthy chicken produces more eggs and better meat!</p>
-            <p><strong>Types of Poultry Feed:</strong></p>
+            <p>Welcome! Today we'll learn how communities can protect our environment through water conservation and reforestation.</p>
+            <p><strong>Key Question:</strong> How can communities work together to protect water and soil resources?</p>
+            <p><strong>Introduction:</strong> Environmental mitigation means taking action to reduce or prevent damage to our environment. Communities around the world are finding smart ways to save water and restore forests.</p>
+            <p><strong>Water Conservation Strategies:</strong></p>
             <ol>
-                <li><strong>Starter Mash:</strong> For chicks (0-6 weeks old). High in protein to help them grow quickly.</li>
-                <li><strong>Grower Mash:</strong> For young chickens (6-20 weeks old). Helps them develop strong bones and bodies.</li>
-                <li><strong>Layer Pellets:</strong> For adult hens (20+ weeks old). Contains calcium for strong eggshells.</li>
+                <li><strong>Fixing Leaks:</strong> A dripping tap can waste thousands of liters per year</li>
+                <li><strong>Shorter Showers:</strong> Reducing shower time saves significant water</li>
+                <li><strong>Turning Off Taps:</strong> Not letting water run while brushing teeth or washing dishes</li>
+                <li><strong>Water-Efficient Appliances:</strong> Using washing machines and dishwashers with high efficiency ratings</li>
+                <li><strong>Collecting Rainwater:</strong> Using rain barrels to capture water for gardens and cleaning</li>
             </ol>
-            <p><strong>Health Care for Poultry:</strong></p>
+            <p><strong>Rainwater Harvesting:</strong></p>
             <ul>
-                <li><strong>Vaccination:</strong> "Prevention is better than cure!" Birds need shots to stay safe from diseases like Newcastle Disease.</li>
-                <li><strong>Clean Water:</strong> Chickens need fresh, clean water every day. Dirty water can make them sick.</li>
-                <li><strong>Temperature (Brooding):</strong> Young chicks need warmth (about 35°C/95°F) for the first few weeks. A heat lamp keeps them comfortable.</li>
-                <li><strong>Clean Housing:</strong> Regular cleaning prevents diseases from spreading.</li>
+                <li>Collecting rain that falls on roofs and storing it in tanks</li>
+                <li>Water can be used for watering plants, washing cars, and sometimes drinking (after treatment)</li>
+                <li>Reduces demand on municipal water supplies</li>
+            </ul>
+            <p><strong>Reforestation:</strong></p>
+            <ul>
+                <li>Planting trees in areas where forests have been cut down</li>
+                <li>Trees prevent soil erosion, absorb carbon dioxide, and provide habitat for animals</li>
+                <li>Community tree-planting events bring people together to restore local forests</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-egg"></i> Chick to Hen</div>
-                <p>A chick eats starter mash for 6 weeks, then grower mash until week 20, then switches to layer pellets. Each feed is specially designed for their age!</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Rain Barrel Success</div>
+                <p>A single rain barrel can collect over 1,000 liters of water from a small roof during a single rainy season - enough to water a garden for months!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-syringe"></i> Vaccination Schedule</div>
-                <p>Chicks often receive their first Newcastle Disease vaccine at just 7-10 days old. A second dose is given at 4 weeks to ensure protection.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Forest Heroes</div>
+                <p>Communities in Kenya have planted over 50 million trees through the Green Belt Movement, restoring forests and improving water availability.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-temperature-high"></i> Brooding Basics</div>
-                <p>Chicks cannot regulate their body temperature for the first two weeks. A heat lamp keeps them warm - if they huddle together, they're cold; if they spread out, they're comfortable!</p>
+                <div class="example-title"><i class="fas fa-hand-holding-water"></i> Small Changes, Big Impact</div>
+                <p>If every household fixed just one leaky tap, millions of liters of water could be saved each year!</p>
             </div>
         `,
-        taskInstructions: "Complete fill-in-the-blanks exercise about poultry nutrition and health care.",
+        taskInstructions: "Evaluate community strategies and create your own water conservation plan.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Fill in the Blanks</strong></p>
+                <p><strong>Part A: Community Strategy Evaluation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Complete each sentence with the correct word:
+                    <span class="task-number">1</span> Read each strategy and rate its effectiveness (1-5, where 5 is most effective):
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) Chicks aged 0-6 weeks should eat _________ mash.</div>
-                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
-                        
-                        <div>b) Adult hens that lay eggs need _________ pellets for strong eggshells.</div>
-                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
-                        
-                        <div>c) "Prevention is better than _________." This is why we vaccinate birds.</div>
-                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
-                        
-                        <div>d) Keeping the chicken house _________ prevents diseases from spreading.</div>
-                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
-                        
-                        <div>e) A disease that can kill chickens and is prevented by vaccination is _________ Disease.</div>
-                        <div class="answer-space" style="height: 30px; margin: 5px 0;"></div>
+                        <div>• Fixing household leaks: ___ / 5</div>
+                        <div>• Rainwater harvesting: ___ / 5</div>
+                        <div>• Community tree planting: ___ / 5</div>
+                        <div>• Reducing shower time: ___ / 5</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;">
+                        <p><em>Explain your highest-rated strategy:</em></p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: True or False</strong></p>
+                <p><strong>Part B: Rainwater Harvesting Design</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Write T (True) or F (False) for each statement:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>___ a) Chicks need a heat lamp to stay warm.</div>
-                        <div>___ b) Chickens can drink dirty water without getting sick.</div>
-                        <div>___ c) Layer pellets contain calcium for strong eggshells.</div>
-                        <div>___ d) Vaccinations are only for humans, not for chickens.</div>
-                        <div>___ e) Clean housing helps prevent disease in poultry.</div>
-                    </div>
+                    <span class="task-number">2</span> Draw and label a simple rainwater harvesting system for a home:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> List three uses for harvested rainwater:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Reflection Questions</strong></p>
+                <p><strong>Part C: Reforestation Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Why is clean water important for chickens?
-                    <div class="answer-space" style="height: 60px;"></div>
+                    <span class="task-number">4</span> Why are trees important for protecting water and soil?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">4</span> What might happen to a farmer if their chickens get sick and die?
-                    <div class="answer-space" style="height: 60px;"></div>
+                    <span class="task-number">5</span> What could your community do to encourage more tree planting?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member or neighbor who raises chickens what they feed their birds. Write down three things you learned.",
+        homework: "Walk around your home and identify three places where water could be conserved. Write down your observations and suggestions.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Science",
-        topic: "Poultry Farming",
-        subtopic: "Marketing Your Birds",
+        topic: "Soil Science",
+        subtopic: "Introduction to Soil Health: Fertility & pH Testing",
         lessonContent: `
-            <p>Today we'll explore how to sell poultry products and build a successful business!</p>
-            <p><strong>Key Question:</strong> How do farmers find customers for their eggs and meat?</p>
-            <p><strong>Introduction:</strong> Raising healthy chickens is only half the job. Farmers also need to sell their products to earn money!</p>
-            <p><strong>Finding Your Target Market:</strong></p>
+            <p>Today we'll become soil scientists as we explore what makes soil fertile and how to test soil health!</p>
+            <p><strong>Key Question:</strong> What makes some soil better for growing plants than others?</p>
+            <p><strong>Properties of Fertile Soil:</strong></p>
             <ul>
-                <li><strong>Neighbors:</strong> People who live nearby may buy eggs or chickens for their families</li>
-                <li><strong>Local Markets:</strong> Weekly markets where farmers sell fresh produce and meat</li>
-                <li><strong>Hotels and Restaurants:</strong> They need a steady supply of eggs and chicken meat</li>
-                <li><strong>Schools:</strong> Some schools buy eggs for student meals</li>
-                <li><strong>Supermarkets:</strong> Large stores that sell packaged eggs and chicken</li>
+                <li><strong>Nutrient-rich:</strong> Contains nitrogen, phosphorus, potassium, and other minerals plants need</li>
+                <li><strong>Good texture:</strong> Loamy soil (a mix of sand, silt, and clay) is ideal</li>
+                <li><strong>Organic matter:</strong> Decayed plants and animals (humus) provide nutrients</li>
+                <li><strong>Good drainage:</strong> Water flows through but doesn't wash away nutrients</li>
+                <li><strong>Appropriate pH:</strong> Most plants grow best in soil that is neither too acidic nor too alkaline</li>
+                <li><strong>Living organisms:</strong> Earthworms, bacteria, and fungi help break down organic matter</li>
             </ul>
-            <p><strong>Setting the Right Price:</strong></p>
+            <p><strong>Soil pH (Acidity/Alkalinity):</strong></p>
             <ul>
-                <li>Calculate how much it costs to raise a bird (feed, medicine, housing)</li>
-                <li>Check what other farmers are charging</li>
-                <li>Set a price that covers costs PLUS gives you profit</li>
+                <li>pH scale runs from 0 (very acidic) to 14 (very alkaline)</li>
+                <li>pH 7 is neutral (pure water)</li>
+                <li>Most plants prefer pH between 6 and 7.5 (slightly acidic to slightly alkaline)</li>
+                <li>Different plants have different pH preferences!</li>
             </ul>
-            <p><strong>Advertising Your Products:</strong></p>
+            <p><strong>Testing Soil Fertility:</strong></p>
             <ul>
-                <li>Tell neighbors and friends about your farm</li>
-                <li>Put up signs in your community</li>
-                <li>Use social media or word of mouth</li>
-                <li>Offer samples to first-time customers</li>
+                <li><strong>Jar Test:</strong> Shake soil with water to see layers of sand, silt, and clay</li>
+                <li><strong>pH Test:</strong> Use pH paper or a probe to measure acidity/alkalinity</li>
+                <li><strong>Earthworm Count:</strong> More earthworms usually means healthier soil</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-line"></i> Cost vs. Price</div>
-                <p>If it costs 25 kwacha to raise one chicken to market size, a farmer might sell it for 40 kwacha. That's a 15 kwacha profit per bird! With 50 birds, that's 750 kwacha profit.</p>
+                <div class="example-title"><i class="fas fa-flask"></i> The Jar Test</div>
+                <p>When you shake soil in water, heavy sand settles first, then silt, then clay. The best soil (loam) has a balanced mix of all three!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-store"></i> Market Options</div>
-                <p>A farmer with 100 eggs might sell 30 to neighbors, 40 at the local market, and 30 to a restaurant that bakes cakes. Selling to different customers means steady income!</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> pH Preferences</div>
+                <p>Blueberries love acidic soil (pH 4.5-5.5), while asparagus prefers alkaline soil (pH 7.0-8.0). Knowing your soil pH helps you choose the right plants!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-megaphone"></i> Free Advertising</div>
-                <p>Word of mouth is powerful! One happy customer tells their friends, who tell their friends. Before long, everyone knows about your delicious eggs!</p>
+                <div class="example-title"><i class="fas fa-worm"></i> Earthworm Heroes</div>
+                <p>Earthworms are nature's tillers! They tunnel through soil, creating air passages and leaving behind nutrient-rich castings (worm poop).</p>
             </div>
         `,
-        taskInstructions: "Design an attractive advertisement for your poultry farm.",
+        taskInstructions: "Perform soil experiments to test fertility and pH.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: The Farmer's Signpost - Advertisement Design</strong></p>
+                <p><strong>Part A: Soil Observation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Create an advertisement for your poultry farm. Include:
+                    <span class="task-number">1</span> Using a soil sample, record your observations:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• The name of your farm</div>
-                        <div>• What products you sell (eggs, meat, or both)</div>
-                        <div>• Why people should buy from you (fresh, healthy, local)</div>
-                        <div>• Your price (optional)</div>
-                        <div>• A colorful drawing or design</div>
+                        <div>• Color of soil: _________</div>
+                        <div>• Texture (feels like): _________</div>
+                        <div>• Smell (earthy, musty, other): _________</div>
+                        <div>• Visible living things (worms, insects, roots): _________</div>
                     </div>
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Target Market Identification</strong></p>
+                <p><strong>Part B: Jar Test Experiment</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List three different types of customers who might buy your poultry products:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Pricing Practice</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> If it costs you 20 kwacha to raise one chicken, and you want to make 15 kwacha profit, what price will you sell it for?
-                    <div class="answer-space" style="height: 50px;"></div>
+                    <span class="task-number">2</span> Follow the jar test procedure (soil + water, shake, let settle). Draw and label the layers you observe:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why might a hotel be willing to pay more for eggs than a neighbor?
+                    <span class="task-number">3</span> Which layer was thickest? What does this tell you about your soil type?
                     <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: pH Testing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Test your soil sample using pH paper or a probe. Record the pH level:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• My soil pH is: _________</div>
+                        <div>• This means my soil is: (circle one) Acidic / Neutral / Alkaline</div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Based on the pH, what types of plants would grow well in this soil?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Fertility Conclusion</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Is your soil sample fertile? Why or why not? Use evidence from your tests.
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
         `,
-        homework: "Look for advertisements for food products in your home or community. What makes them catch your attention? Write two observations.",
+        homework: "Collect a soil sample from a different location (garden, park, potted plant). Bring it to class and write down where you found it.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "Poultry Farming",
-        subtopic: "Adding Value to Products",
+        topic: "Soil Science",
+        subtopic: "Methods of Improving Soil Fertility",
         lessonContent: `
-            <p>Today we'll discover how farmers can earn more money by adding value to their poultry products!</p>
-            <p><strong>Key Question:</strong> How can a farmer make more money from the same chickens and eggs?</p>
-            <p><strong>What is "Value-Add"?</strong></p>
-            <p>Value-adding means taking a basic product and changing it to make it more useful or appealing to customers. This allows farmers to charge a higher price!</p>
-            <p><strong>Ways to Add Value to Poultry Products:</strong></p>
+            <p>Today we'll learn how farmers and gardeners improve soil fertility using both natural and man-made methods!</p>
+            <p><strong>Key Question:</strong> What's the difference between organic and inorganic fertilizers?</p>
+            <p><strong>Organic Approaches (Natural):</strong></p>
             <ol>
-                <li><strong>Dressed Chicken:</strong> Instead of selling a live bird, clean and cut it into pieces. Customers pay more for ready-to-cook meat.</li>
-                <li><strong>Egg Trays:</strong> Selling eggs in trays or cartons protects them from breaking. Customers appreciate the convenience.</li>
-                <li><strong>Egg Grading:</strong> Sorting eggs by size (small, medium, large, jumbo). Bigger eggs can be sold for a higher price.</li>
-                <li><strong>Boiled Eggs:</strong> Cook eggs and sell them as snacks at schools or bus stations.</li>
-                <li><strong>Chicken Manure:</strong> Chicken droppings make excellent fertilizer for vegetable gardens. Farmers can sell this too!</li>
-                <li><strong>Nice Packaging:</strong> Attractive labels and clean containers make products look more professional.</li>
+                <li><strong>Manure:</strong> Animal waste (cow, horse, chicken) rich in nutrients
+                    <ul>
+                        <li>Advantages: Improves soil structure, adds organic matter, slow-release nutrients</li>
+                        <li>Disadvantages: Can contain weed seeds, needs to be aged before use</li>
+                    </ul>
+                </li>
+                <li><strong>Compost:</strong> Decayed kitchen scraps, leaves, and garden waste
+                    <ul>
+                        <li>Advantages: Free to make, recycles waste, improves soil texture</li>
+                        <li>Disadvantages: Takes time to decompose, requires space</li>
+                    </ul>
+                </li>
+                <li><strong>Agricultural Lime:</strong> Ground limestone used to reduce soil acidity
+                    <ul>
+                        <li>Advantages: Raises pH (makes acidic soil more neutral)</li>
+                        <li>Disadvantages: Takes months to work, can be dusty to apply</li>
+                    </ul>
+                </li>
+                <li><strong>Green Manure:</strong> Growing plants (like clover) and tilling them into soil</li>
             </ol>
-            <p><strong>Why Value-Add Matters:</strong> Adding value means more money for the farmer, better products for customers, and even new jobs in the community!</p>
+            <p><strong>Inorganic Fertilizers (Man-Made/ Synthetic):</strong></p>
+            <ul>
+                <li><strong>NPK Fertilizers:</strong> Contain Nitrogen (N), Phosphorus (P), and Potassium (K) - the three main plant nutrients</li>
+                <li><strong>Advantages:</strong> Fast-acting, precise nutrient control, easy to apply</li>
+                <li><strong>Disadvantages:</strong> Can harm soil organisms if overused, can pollute waterways, doesn't improve soil structure</li>
+            </ul>
+            <p><strong>Comparison Summary:</strong></p>
+            <ul>
+                <li><strong>Organic:</strong> Slower, improves long-term soil health, environmentally friendly</li>
+                <li><strong>Inorganic:</strong> Fast results, but can damage soil over time, requires careful application</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-simple"></i> Value-Add in Action</div>
-                <p>A live chicken might sell for 50 kwacha. The same chicken, dressed and cut into pieces, could sell for 80 kwacha! The farmer earns 30 kwacha more for the same bird.</p>
+                <div class="example-title"><i class="fas fa-apple-alt"></i> Compost Magic</div>
+                <p>Banana peels, eggshells, coffee grounds, and fallen leaves can all become nutrient-rich compost. You're turning "trash" into plant food!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-box"></i> Egg Trays</div>
-                <p>Loose eggs often sell for 1 kwacha each. Eggs in a clean tray with a label might sell for 1.50 kwacha each. With 50 eggs, that's an extra 25 kwacha!</p>
+                <div class="example-title"><i class="fas fa-cow"></i> Manure Manners</div>
+                <p>Fresh manure is too "hot" for plants - it can burn roots. Farmers let it age for several months before adding it to soil.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf"></i> Waste Not, Want Not</div>
-                <p>Chicken manure is valuable to vegetable farmers. A bag of dried chicken manure can sell for 10-20 kwacha. What some see as waste, others see as gold!</p>
+                <div class="example-title"><i class="fas fa-chart-line"></i> NPK Explained</div>
+                <p>A bag labeled "10-10-10" contains 10% nitrogen, 10% phosphorus, and 10% potassium. Different plants need different ratios - leafy greens need more nitrogen!</p>
             </div>
         `,
-        taskInstructions: "Brainstorm ways to add value to eggs and poultry products.",
+        taskInstructions: "Compare organic and inorganic fertilizers and design a soil improvement plan.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Egg Value-Add Brainstorm</strong></p>
+                <p><strong>Part A: Comparison Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Imagine you have 50 fresh eggs. Brainstorm TWO ways you could make them more valuable to customers:
+                    <span class="task-number">1</span> Complete the comparison chart:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Idea 1:</strong></div>
-                        <div class="answer-space" style="height: 60px;"></div>
-                        <div><strong>Idea 2:</strong></div>
-                        <div class="answer-space" style="height: 60px;"></div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Feature</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Organic (Manure/Compost)</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Inorganic (Chemical Fertilizers)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Speed of results</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Improves soil structure</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Environmental impact</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Cost</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Chicken Value-Add Brainstorm</strong></p>
+                <p><strong>Part B: Advantages & Disadvantages</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Imagine you have 10 healthy chickens ready for market. Brainstorm TWO ways to add value beyond selling them live:
+                    <span class="task-number">2</span> List two advantages and two disadvantages of using manure or compost:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div><strong>Idea 1:</strong></div>
-                        <div class="answer-space" style="height: 60px;"></div>
-                        <div><strong>Idea 2:</strong></div>
-                        <div class="answer-space" style="height: 60px;"></div>
+                        <div>Advantages:</div>
+                        <div class="answer-space" style="height: 50px;"></div>
+                        <div style="margin-top: 10px;">Disadvantages:</div>
+                        <div class="answer-space" style="height: 50px;"></div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> List two advantages and two disadvantages of using chemical fertilizers:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>Advantages:</div>
+                        <div class="answer-space" style="height: 50px;"></div>
+                        <div style="margin-top: 10px;">Disadvantages:</div>
+                        <div class="answer-space" style="height: 50px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Egg Grading Practice</strong></p>
+                <p><strong>Part C: Soil Improvement Plan</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> You have 30 eggs: 10 small, 12 medium, 8 large. If small eggs sell for 1 kwacha, medium for 1.50 kwacha, and large for 2 kwacha, how much money will you earn?
+                    <span class="task-number">4</span> Imagine you have a garden with poor soil. Create a 3-step plan to improve its fertility:
+                    <div class="answer-space" style="height: 120px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Agricultural Lime Purpose</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> If a soil test shows pH 5.0 (acidic), why might a farmer add agricultural lime?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Reflection - Poultry Farming in Zambia</strong></p>
+                <p><strong>Part E: Which Would You Choose?</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> How can poultry farming provide a good income for a family in Zambia?
-                    <div class="answer-space" style="height: 100px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Choose one value-added product you would like to sell. Explain why you chose it.
+                    <span class="task-number">6</span> If you were starting a vegetable garden, would you use organic or inorganic fertilizers? Explain your choice:
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "With your family, discuss if there are any value-added products you could make at home (like selling boiled eggs to neighbors, or packaging vegetables nicely). Write down one idea you could try.",
+        homework: "Ask a family member who gardens or farms what they use to improve soil. Write down their answer and whether they use organic or inorganic methods.",
         homeworkDue: "Monday"
     }
 };

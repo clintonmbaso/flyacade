@@ -1,247 +1,341 @@
-// Grade 5 Science - Week 10 Data
+// Grade 5 Science - Term 1 Week 10 Data
 const grade5ScienceWeek10 = {
     metadata: {
         grade: 5,
         subject: "Science",
         term: 1,
         week: 10,
-        title: "Health and Disease Prevention",
-        description: "Understanding parasitic diseases, STIs/HIV prevention, and healthy behaviors for community health"
+        title: "Nutrient Classification & Testing",
+        description: "Classifying basic food nutrients, understanding vitamins, minerals, and fibre, and conducting practical food tests"
     },
     
     monday: {
         subject: "Science",
-        topic: "Health and Disease",
-        subtopic: "Prevention of Parasitic Diseases",
+        topic: "Nutrition",
+        subtopic: "Introduction to Nutrition: Basic Food Nutrients",
         lessonContent: `
-            <p>Welcome to our lesson on preventing parasitic diseases! Today we will explore how to keep our community healthy by stopping parasites from spreading.</p>
-            <p><strong>Key Concept:</strong> Parasites are organisms that live on or in another organism (the host) and get their food from the host. They can cause diseases like malaria, worms, and skin infections.</p>
-            <p><strong>How Parasites Spread:</strong></p>
+            <p>Welcome to our study of nutrition! Today we'll learn about the essential nutrients our bodies need from food.</p>
+            <p><strong>Key Question:</strong> Why do we need to eat different types of food?</p>
+            <p><strong>Introduction:</strong> Nutrients are substances in food that our bodies need to grow, repair themselves, and function properly. No single food contains all the nutrients we need!</p>
+            <p><strong>The Basic Food Nutrients:</strong></p>
+            <ol>
+                <li><strong>Proteins:</strong> The body's building blocks. They help build and repair muscles, skin, hair, and organs.</li>
+                <li><strong>Carbohydrates:</strong> The body's main source of energy. They fuel our brain, muscles, and all body activities.</li>
+                <li><strong>Fats and Oils (Lipids):</strong> Stored energy, insulation for warmth, and protection for organs. They also help absorb certain vitamins.</li>
+            </ol>
+            <p><strong>Food Sources:</strong></p>
             <ul>
-                <li>Through contaminated water or food</li>
-                <li>Through insect bites (like mosquitoes)</li>
-                <li>Through poor personal hygiene</li>
-                <li>Through unclean environments that breed parasites</li>
+                <li><strong>Proteins:</strong> Meat, fish, eggs, beans, lentils, nuts, tofu, milk, cheese</li>
+                <li><strong>Carbohydrates:</strong> Bread, rice, pasta, potatoes, maize, cereals, fruits, sugar</li>
+                <li><strong>Fats and Oils:</strong> Butter, cooking oils, nuts, avocados, fatty fish, cheese</li>
             </ul>
-            <p><strong>Why is prevention important?</strong> Preventing parasitic diseases keeps our community healthy, allows children to attend school regularly, and helps adults work productively.</p>
+            <p><strong>Key Concept:</strong> We need all three types of nutrients, but in different amounts. Carbohydrates should be the largest part of our diet, while fats should be the smallest.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt" style="color: #4A90E2;"></i> Real-Life Prevention</div>
-                <p>Sleeping under treated mosquito nets prevents malaria parasites from entering our bodies while we sleep. This simple action saves millions of lives each year.</p>
+                <div class="example-title"><i class="fas fa-dumbbell"></i> Protein Power</div>
+                <p>When you exercise and build muscle, your body needs extra protein to repair and strengthen muscle fibres. Athletes often eat more protein-rich foods!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-trash-alt"></i> Environmental Cleanliness</div>
-                <p>Burying rubbish properly prevents flies from breeding. Flies can carry parasites from waste to our food, spreading diseases.</p>
+                <div class="example-title"><i class="fas fa-bolt"></i> Carbohydrate Energy</div>
+                <p>Eating a bowl of porridge or rice in the morning gives you slow-release energy that lasts for hours. That's why breakfast is called "break-fast" - you're breaking your overnight fast!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-leaf"></i> Community Action</div>
-                <p>Slashing tall grass around homes removes hiding places for parasites and insects that carry diseases. This makes our living spaces safer.</p>
+                <div class="example-title"><i class="fas fa-oil-can"></i> Fat Facts</div>
+                <p>Not all fats are bad! Avocados, nuts, and fish contain healthy fats that help your brain develop and keep your heart healthy.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to understand how to prevent parasitic diseases in your community.",
+        taskInstructions: "Classify foods into nutrient groups and create a balanced meal plan.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Class Discussion: What are four practical measures to prevent parasitic diseases? List them:
-                <div class="answer-space" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Explain why each prevention method works:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>• Sleeping under treated nets: <div class="answer-space" style="height: 40px;"></div></div>
-                    <div>• Slashing tall grass: <div class="answer-space" style="height: 40px;"></div></div>
-                    <div>• Burying rubbish: <div class="answer-space" style="height: 40px;"></div></div>
-                    <div>• Good hygiene: <div class="answer-space" style="height: 40px;"></div></div>
+            <div class="content-box">
+                <p><strong>Part A: Food Classification</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Sort these foods into the correct nutrient groups (Protein, Carbohydrate, or Fat/Oil):
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><em>Foods: Rice • Chicken • Butter • Bread • Fish • Cooking oil • Pasta • Eggs • Beans • Potatoes • Avocado • Cheese</em></div>
+                    </div>
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Proteins</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Carbohydrates</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Fats and Oils</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 120px; vertical-align: top;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 120px; vertical-align: top;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd; height: 120px; vertical-align: top;"></td>
+                            </tr>
+                         </table>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> "Community Clean-up" Simulation: List three potential parasite breeding grounds around our school:
-                <div class="answer-space" style="height: 100px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Meal Planning</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Plan a balanced breakfast, lunch, and dinner that includes all three nutrient types:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Breakfast:</strong> <span style="border-bottom: 1px dotted #ccc; min-width: 200px; display: inline-block; width: 200px;"></span></div>
+                        <div><strong>Lunch:</strong> <span style="border-bottom: 1px dotted #ccc; min-width: 200px; display: inline-block; width: 200px;"></span></div>
+                        <div><strong>Dinner:</strong> <span style="border-bottom: 1px dotted #ccc; min-width: 200px; display: inline-block; width: 200px;"></span></div>
+                    </div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Design a simple sign to remind people to keep one area of the school clean:
-                <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Include a clear message and simple picture)</p>
+            
+            <div class="content-box">
+                <p><strong>Part C: Nutrient Functions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Match each nutrient to its main function:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. Protein ___ &nbsp;&nbsp;&nbsp; a. Provides quick energy</div>
+                        <div>2. Carbohydrate ___ &nbsp;&nbsp;&nbsp; b. Builds and repairs body tissues</div>
+                        <div>3. Fat/Oil ___ &nbsp;&nbsp;&nbsp; c. Stores energy and insulates the body</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why is it important to eat a variety of foods rather than just one type?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
             </div>
         `,
-        homework: "Observe your home environment. Identify one area that could be a breeding ground for parasites and suggest how to fix it.",
+        homework: "Look in your kitchen and list 5 protein foods, 5 carbohydrate foods, and 5 fats/oils you find. Write them in your notebook.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Science",
-        topic: "Health and Disease",
-        subtopic: "Understanding STIs and HIV/AIDS",
+        topic: "Nutrition",
+        subtopic: "Vitamins, Minerals, and Dietary Fibre",
         lessonContent: `
-            <p>Today we will learn about STIs (Sexually Transmitted Infections) and HIV/AIDS, focusing on how they spread and how to prevent infection.</p>
-            <p><strong>Key Definitions:</strong></p>
+            <p>Today we'll continue exploring nutrients by learning about vitamins, minerals, and the crucial role of dietary fibre!</p>
+            <p><strong>Key Question:</strong> What other nutrients does our body need besides proteins, carbs, and fats?</p>
+            <p><strong>Vitamins:</strong> Organic compounds needed in small amounts for various body functions. Our bodies cannot make most vitamins - we must get them from food!</p>
             <ul>
-                <li><strong>STIs:</strong> Infections passed from one person to another through sexual contact</li>
-                <li><strong>HIV:</strong> Human Immunodeficiency Virus - a virus that attacks the body's immune system</li>
-                <li><strong>AIDS:</strong> Acquired Immunodeficiency Syndrome - the late stage of HIV infection</li>
+                <li><strong>Vitamin A:</strong> Good for eyesight and healthy skin. Found in carrots, sweet potatoes, spinach, eggs</li>
+                <li><strong>Vitamin C:</strong> Helps heal cuts and fight infections. Found in oranges, lemons, tomatoes, bell peppers</li>
+                <li><strong>Vitamin D:</strong> Helps absorb calcium for strong bones. Found in eggs, fatty fish, and from sunlight!</li>
+                <li><strong>B Vitamins:</strong> Help turn food into energy. Found in whole grains, meat, eggs, beans</li>
             </ul>
-            <p><strong>Risky Behaviors that Spread STIs and HIV:</strong></p>
-            <ol>
-                <li><strong>Sharing unsterilized sharp instruments:</strong> Needles, razor blades, piercing tools</li>
-                <li><strong>Unprotected sexual contact:</strong> Without proper protection</li>
-                <li><strong>Drug abuse with shared needles:</strong> Injecting drugs with shared equipment</li>
-                <li><strong>From mother to child:</strong> During pregnancy, birth, or breastfeeding</li>
-            </ol>
-            <p><strong>Important Fact:</strong> HIV/AIDS cannot be spread through casual contact like hugging, shaking hands, or sharing food with someone who is infected.</p>
+            <p><strong>Minerals:</strong> Inorganic elements that help our bodies work properly.</p>
+            <ul>
+                <li><strong>Calcium:</strong> Builds strong bones and teeth. Found in milk, cheese, yoghurt, leafy greens</li>
+                <li><strong>Iron:</strong> Helps blood carry oxygen. Found in red meat, spinach, beans, fortified cereals</li>
+                <li><strong>Potassium:</strong> Helps muscles and nerves work. Found in bananas, potatoes, avocados</li>
+            </ul>
+            <p><strong>Dietary Fibre (Roughage):</strong></p>
+            <ul>
+                <li>Not digested by the body, but very important!</li>
+                <li>Helps food move through the digestive system</li>
+                <li>Prevents constipation</li>
+                <li>Makes us feel full, which helps maintain healthy weight</li>
+                <li><strong>Sources:</strong> Whole grains, fruits, vegetables, beans, nuts, seeds</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-syringe"></i> Sharp Instruments Danger</div>
-                <p>Medical needles should only be used once and properly disposed. Sharing needles for tattoos, piercings, or medical injections can transmit HIV.</p>
+                <div class="example-title"><i class="fas fa-eye"></i> Vitamin A for Sight</div>
+                <p>Carrots contain beta-carotene, which your body turns into vitamin A. That's why people say carrots help you see in the dark!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fasfa-exclamation-triangle"></i> Substance Abuse Risk</div>
-                <p>Drug abuse impairs judgment and can lead to risky behaviors. Injecting drugs with shared needles is a major way HIV spreads.</p>
+                <div class="example-title"><i class="fas fa-bone"></i> Calcium for Bones</div>
+                <p>Your bones store calcium like a bank. Drinking milk when you're young helps build strong bones that last your whole life!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping"></i> Safe Behaviors</div>
-                <p>Using sterilized instruments in healthcare settings, getting tested regularly, and making healthy choices protect ourselves and others.</p>
+                <div class="example-title"><i class="fas fa-broom"></i> Fibre is a Broom</div>
+                <p>Think of fibre as a broom that sweeps through your digestive system, pushing waste along and keeping everything clean and moving.</p>
             </div>
         `,
-        taskInstructions: "Complete the 'Safety First' workshop activities to identify risky behaviors and learn prevention methods.",
+        taskInstructions: "Create a vitamin/mineral chart and design a fibre-rich meal.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: "Safety First" Workshop</strong></p>
+                <p><strong>Part A: Vitamin and Mineral Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Identify which items should NEVER be shared. Mark ✓ for safe to share, ✗ for never share:
+                    <span class="task-number">1</span> Complete this chart with the function and food sources:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Toothbrush: ___ a. ✓ Safe to share ___ b. ✗ Never share</div>
-                        <div>Water bottle: ___ a. ✓ Safe to share ___ b. ✗ Never share</div>
-                        <div>Razor: ___ a. ✓ Safe to share ___ b. ✗ Never share</div>
-                        <div>Needle: ___ a. ✓ Safe to share ___ b. ✗ Never share</div>
-                        <div>Comb: ___ a. ✓ Safe to share ___ b. ✗ Never share</div>
-                        <div>Nail clippers: ___ a. ✓ Safe to share ___ b. ✗ Never share</div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Nutrient</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Function (What it does)</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Food Sources</th>
+                            </tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Vitamin A</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Vitamin C</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Calcium</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Iron</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                         </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Understanding Transmission</strong></p>
+                <p><strong>Part B: Fibre Investigation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> List three ways STIs and HIV can be transmitted through risky behavior:
-                    <div class="answer-space" style="height: 120px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: True or False</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Mark whether each statement is true (T) or false (F):
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>___ HIV can be spread by sharing food with someone infected.</div>
-                        <div>___ Sharing needles for tattoos can transmit HIV.</div>
-                        <div>___ You can get HIV from a mosquito bite.</div>
-                        <div>___ STIs only affect older people, not children.</div>
-                        <div>___ Getting tested regularly helps prevent spread of STIs.</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Critical Thinking</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Why is substance abuse particularly dangerous in relation to HIV transmission?
+                    <span class="task-number">2</span> List five high-fibre foods you can eat this week:
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">5</span> What should you do if you accidentally get cut by a sharp object you found on the ground?
+                    <span class="task-number">3</span> Why is fibre important even though our bodies don't digest it?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Design a Fibre-Rich Meal</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Draw and describe a meal that is high in fibre:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Deficiency Discussion</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> What might happen to a person who doesn't eat enough Vitamin C? What about not enough calcium?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Talk with a family member about the dangers of sharing sharp objects. Write down one safety rule your family follows.",
+        homework: "Look at a food label from a packaged food at home. Write down any vitamins or minerals listed. Bring the label to share with the class.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "Health and Disease",
-        subtopic: "Healthy Behaviors and Prevention",
+        topic: "Nutrition",
+        subtopic: "Practical Food Science: Testing for Nutrients",
         lessonContent: `
-            <p>Today we will focus on healthy behaviors that prevent STIs, HIV, and other diseases. Prevention is always better than treatment!</p>
-            <p><strong>Key Prevention Strategies:</strong></p>
+            <p>Today we become food scientists! We'll learn how to test foods to find out what nutrients they contain.</p>
+            <p><strong>Key Question:</strong> How can we tell what nutrients are in our food without reading a label?</p>
+            <p><strong>Simple Food Tests:</strong></p>
             <ol>
-                <li><strong>Regular Testing:</strong> Getting tested for STIs and HIV helps with early detection and treatment</li>
-                <li><strong>Avoiding Substance Abuse:</strong> Drugs and alcohol impair judgment and lead to risky behaviors</li>
-                <li><strong>Education:</strong> Learning about diseases and how they spread helps us make informed choices</li>
-                <li><strong>Healthy Relationships:</strong> Respecting ourselves and others in all relationships</li>
-                <li><strong>Medical Care:</strong> Seeking professional medical advice when needed</li>
+                <li><strong>Brown Paper Grease Spot Test (Test for Fats/Lipids):</strong>
+                    <ul>
+                        <li>Rub a small food sample on a piece of brown paper (paper bag)</li>
+                        <li>Hold the paper up to the light</li>
+                        <li><strong>Positive result:</strong> A greasy, translucent (see-through) spot that lets light pass through</li>
+                        <li><strong>Example foods that test positive:</strong> Butter, cooking oil, nuts, fried foods, chocolate</li>
+                    </ul>
+                </li>
+                <li><strong>Iodine Test (Test for Starch - a type of Carbohydrate):</strong>
+                    <ul>
+                        <li>Add a few drops of iodine solution to the food sample</li>
+                        <li><strong>Positive result:</strong> The food turns blue-black or dark purple</li>
+                        <li><strong>Example foods that test positive:</strong> Bread, rice, pasta, potato, maize meal</li>
+                    </ul>
+                </li>
+                <li><strong>Biuret Test (Test for Protein):</strong>
+                    <ul>
+                        <li>Add Biuret solution (copper sulfate and sodium hydroxide) to a liquid food sample</li>
+                        <li><strong>Positive result:</strong> The solution turns purple or violet</li>
+                        <li><strong>Example foods that test positive:</strong> Egg white, milk, beans (mashed with water)</li>
+                    </ul>
+                </li>
             </ol>
-            <p><strong>The Importance of Prevention:</strong> Preventing diseases means:</p>
+            <p><strong>Lab Safety Rules:</strong></p>
             <ul>
-                <li>Living longer, healthier lives</li>
-                <li>Being able to attend school and work regularly</li>
-                <li>Reducing medical costs for families and communities</li>
-                <li>Protecting future generations from disease</li>
+                <li>Never eat or drink anything in the science lab</li>
+                <li>Wear safety goggles when using chemicals</li>
+                <li>Wash hands thoroughly after handling food samples</li>
+                <li>Follow all teacher instructions carefully</li>
             </ul>
-            <p><strong>Remember:</strong> Healthy behaviors today protect our health for a lifetime!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-clipboard-check"></i> Regular Testing</div>
-                <p>Getting tested for STIs and HIV is a responsible health behavior. Many clinics offer confidential testing for free or low cost.</p>
+                <div class="example-title"><i class="fas fa-grease"></i> The Grease Spot Test</div>
+                <p>If you've ever dropped a piece of buttered bread on a paper bag, you've seen this test in action! The grease leaves a permanent see-through spot.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ban"></i> Avoiding Substance Abuse</div>
-                <p>Substance abuse affects decision-making abilities. People under the influence are more likely to engage in risky behaviors.</p>
+                <div class="example-title"><i class="fas fa-flask"></i> Iodine Colour Change</div>
+                <p>Iodine is brownish-orange. When it touches starch, it reacts and changes to a dramatic blue-black colour. It's like a magic trick!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-graduation-cap"></i> Education as Prevention</div>
-                <p>Learning about disease prevention in school empowers you to make healthy choices and teach others in your community.</p>
+                <div class="example-title"><i class="fas fa-egg"></i> Testing Egg White</div>
+                <p>Egg white is almost pure protein. When you add Biuret solution, it turns purple - a clear sign that protein is present!</p>
             </div>
         `,
-        taskInstructions: "Design your 'Prevention Shield' poster and complete activities about healthy behaviors.",
+        taskInstructions: "Conduct the brown paper grease spot test and record observations for various food samples.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: "Prevention Shield" Poster Design</strong></p>
+                <p><strong>Part A: Brown Paper Grease Spot Test - Prediction</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Design a shield-shaped poster that lists healthy choices and prevention methods:
-                    <div class="drawing-area" style="height: 300px; margin-top: 10px; border: 2px solid #4A90E2;">
-                        <p style="text-align: center; color: #999; padding-top: 130px;">[Design your Prevention Shield here]<br>Include at least 5 prevention methods</p>
-                    </div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Your shield should include: Regular testing, Avoiding substance abuse, Good hygiene, Education, and one more of your choice)</p>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Healthy Behavior Analysis</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Explain why each of these behaviors helps prevent long-term illness:
+                    <span class="task-number">1</span> Before testing, predict which foods will leave a grease spot:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Regular health testing: <div class="answer-space" style="height: 40px;"></div></div>
-                        <div>• Avoiding drug abuse: <div class="answer-space" style="height: 40px;"></div></div>
-                        <div>• Maintaining good hygiene: <div class="answer-space" style="height: 40px;"></div></div>
-                        <div>• Getting proper education: <div class="answer-space" style="height: 40px;"></div></div>
+                        <div><em>Food samples: Water • Cooking oil • Apple slice • Bread • Butter • Cheese • Potato • Chocolate</em></div>
+                    </div>
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Grease Spot Test - Results Table</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Rub each food sample on brown paper. Record your results:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Food Sample</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Grease Spot? (Yes/No)</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Does it contain Fat/Oil?</th>
+                            </tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Water</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Cooking oil</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Apple slice</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Bread</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Butter</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Cheese</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Potato</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                            <tr><td style="padding: 8px; border: 1px solid #ddd;">Chocolate</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+                         </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Personal Commitment</strong></p>
+                <p><strong>Part C: Observation and Conclusion</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Which three healthy behaviors will you commit to practicing? Why?
-                    <div class="answer-space" style="height: 120px;"></div>
+                    <span class="task-number">3</span> Which foods left the darkest, most obvious grease spot?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Did any food surprise you? Which one and why?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Community Impact</strong></p>
+                <p><strong>Part D: Other Food Tests - Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> How can healthy behaviors in individuals help the entire community?
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">5</span> Draw and label what a positive iodine test (starch) and a positive Biuret test (protein) look like:
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px;">
+                        <div>
+                            <strong>Iodine Test (Starch)</strong>
+                            <div class="drawing-area" style="height: 100px; border: 2px dashed #ccc; margin-top: 5px;"></div>
+                            <span style="font-size: 12px;">Colour before: _____ &nbsp; After: _____</span>
+                        </div>
+                        <div>
+                            <strong>Biuret Test (Protein)</strong>
+                            <div class="drawing-area" style="height: 100px; border: 2px dashed #ccc; margin-top: 5px;"></div>
+                            <span style="font-size: 12px;">Colour before: _____ &nbsp; After: _____</span>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Lab Safety Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Create a slogan for a community health campaign:
+                    <span class="task-number">6</span> List two important safety rules to remember when doing food tests in the lab:
                     <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Share one thing you learned about disease prevention with a family member. Write down their reaction or response.",
+        homework: "At home (with adult permission), test three different foods using the brown paper method. Record which foods contain fats/oils and which do not. Bring your results to class.",
         homeworkDue: "Monday"
     }
 };

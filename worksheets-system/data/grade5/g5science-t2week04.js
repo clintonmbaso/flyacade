@@ -5,79 +5,173 @@ const grade5ScienceWeek4 = {
         subject: "Science",
         term: 2,
         week: 4,
-        title: "Impact and Protection of the Water Cycle",
-        description: "Exploring weather extremes, the importance of the water cycle, and mitigation measures"
+        title: "Substance Abuse & Community Health",
+        description: "Understanding the triple burden of malnutrition, identifying harmful substances, and analyzing their effects on the human body"
     },
     
     monday: {
         subject: "Science",
-        topic: "Earth Science",
-        subtopic: "Weather Patterns and Extremes",
+        topic: "Community Health",
+        subtopic: "Solving the Triple Burden of Malnutrition",
         lessonContent: `
-            <p>Welcome! Today we'll explore how changes in the water cycle can lead to extreme weather events like floods and droughts.</p>
-            <p><strong>Key Question:</strong> What happens when the water cycle gets "too much" or "too little" water?</p>
-            <p><strong>Introduction:</strong> The water cycle usually brings us a balanced amount of rain. But sometimes, the cycle speeds up or slows down, causing problems for people, animals, and plants.</p>
-            <p><strong>Too Much Water - Floods:</strong></p>
+            <p>Welcome to our special session on nutrition and community health! Today we'll learn about the triple burden of malnutrition and how we can solve it.</p>
+            <p><strong>Key Question:</strong> What is the triple burden of malnutrition and how can we address it?</p>
+            <p><strong>Introduction:</strong> Malnutrition means not getting the right balance of nutrients for good health. The "triple burden" refers to three nutrition problems that affect communities worldwide.</p>
+            <p><strong>The Triple Burden of Malnutrition:</strong></p>
+            <ol>
+                <li><strong>Undernutrition:</strong> Not getting enough food or essential nutrients (leading to wasting, stunting, or being underweight)</li>
+                <li><strong>Micronutrient Deficiencies:</strong> Lacking essential vitamins and minerals (like iron, vitamin A, or iodine) - often called "hidden hunger"</li>
+                <li><strong>Overweight/Obesity:</strong> Consuming too many calories, especially from unhealthy foods (leading to diabetes, heart disease, and other health problems)</li>
+            </ol>
+            <p><strong>Solutions to the Triple Burden:</strong></p>
             <ul>
-                <li><strong>What causes floods?</strong> Rapid condensation leads to heavy precipitation (lots of rain in a short time)</li>
-                <li>Clouds form quickly when warm, moist air rises and cools</li>
-                <li>When clouds release too much rain too fast, rivers overflow and lands become submerged</li>
-                <li>Floodwaters can enter homes, schools, and farms</li>
+                <li><strong>Education:</strong> Teaching families about balanced diets and healthy eating</li>
+                <li><strong>Food Fortification:</strong> Adding nutrients to common foods (like iodized salt or vitamin-enriched flour)</li>
+                <li><strong>School Meal Programs:</strong> Providing nutritious meals to children at school</li>
+                <li><strong>Community Gardens:</strong> Growing fresh fruits and vegetables locally</li>
+                <li><strong>Reducing Processed Foods:</strong> Limiting sugary drinks, snacks, and fast food</li>
             </ul>
-            <p><strong>Flood Problems:</strong></p>
+            <p><strong>Guest Speaker / Seminar:</strong> Today we welcome a nutritionist or health worker who will share their expertise on solving the triple burden of malnutrition in our community.</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-chart-line"></i> Understanding the Three Burdens</div>
+                <p>A community might have some children who are underweight (undernutrition), some who lack iron (micronutrient deficiency), and others who eat too much junk food (obesity) - all in the same neighborhood!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-carrot"></i> Local Solutions</div>
+                <p>School gardens teach children to grow vegetables, providing fresh produce for meals while educating families about nutrition. This addresses all three burdens!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Community Action</div>
+                <p>When communities work together - schools, health clinics, markets, and families - they can create environments that make healthy eating easier for everyone.</p>
+            </div>
+        `,
+        taskInstructions: "Listen to the guest speaker, take notes, and complete reflection activities.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Guest Speaker Notes</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> During the presentation, take notes on three important facts you learn:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Understanding the Triple Burden</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Define each part of the triple burden in your own words:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Undernutrition:</strong> _________________________________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;"><strong>Micronutrient Deficiencies:</strong> _________________________________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;"><strong>Overweight/Obesity:</strong> _________________________________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Solution Brainstorming</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> List three ways our school or community can help solve the triple burden of malnutrition:
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Personal Action Plan</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> What is one change you can make in your own eating habits to promote better nutrition?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write one question you would like to ask the guest speaker:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Interview a family member about what they eat in a typical day. Identify one thing your family does well for nutrition and one area for improvement.",
+        homeworkDue: "Wednesday"
+    },
+    
+    wednesday: {
+        subject: "Science",
+        topic: "Community Health",
+        subtopic: "Identifying Harmful Substances Abused in Communities",
+        lessonContent: `
+            <p>Today we'll learn about harmful substances that are sometimes abused in communities and why they are dangerous.</p>
+            <p><strong>Key Question:</strong> What harmful substances are commonly abused, and why are they dangerous?</p>
+            <p><strong>Introduction:</strong> Substance abuse means using a drug or chemical in a way that harms your health or interferes with your life. Many substances that are legal for adults (like alcohol and tobacco) can still be very harmful, especially for young people.</p>
+            <p><strong>Commonly Abused Substances:</strong></p>
+            <ol>
+                <li><strong>Alcohol:</strong> A depressant that slows down the brain and body. Found in beer, wine, spirits, and some medicines.</li>
+                <li><strong>Tobacco:</strong> Contains nicotine (an addictive chemical) and thousands of harmful chemicals. Smoked in cigarettes or cigars, or chewed.</li>
+                <li><strong>Marijuana (Cannabis):</strong> A drug that affects perception, coordination, and memory. Often smoked or eaten.</li>
+                <li><strong>Cocaine:</strong> A powerful stimulant that speeds up the body and is highly addictive. Comes as a powder or crystal ("crack").</li>
+                <li><strong>Common Solvents:</strong> Household chemicals like glue, paint thinner, nail polish remover, and aerosol sprays that can be inhaled ("huffing").</li>
+            </ol>
+            <p><strong>Why Are These Substances Harmful?</strong></p>
             <ul>
-                <li>Damage to homes, roads, and bridges</li>
-                <li>Dirty, contaminated water (can cause diseases like cholera)</li>
-                <li>Drowning danger for people and animals</li>
-                <li>Crops destroyed, leading to food shortages</li>
-            </ul>
-            <p><strong>Too Little Water - Droughts:</strong></p>
-            <ul>
-                <li><strong>What causes droughts?</strong> A lack of precipitation (very little or no rain for a long time)</li>
-                <li>High pressure systems can block rain clouds from forming</li>
-                <li>Rivers, lakes, and wells dry up when no rain falls to refill them</li>
-            </ul>
-            <p><strong>Drought Problems:</strong></p>
-            <ul>
-                <li>Crops wither and die (farmers lose their harvest)</li>
-                <li>Animals and people suffer from thirst (not enough drinking water)</li>
-                <li>Food becomes scarce and expensive</li>
-                <li>Wildfires can start more easily because the land is dry</li>
+                <li>They damage growing brains and bodies</li>
+                <li>They can lead to addiction (loss of control over use)</li>
+                <li>They cause accidents, injuries, and risky behavior</li>
+                <li>They harm families and communities</li>
+                <li>They are illegal for minors (and some are illegal for everyone)</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-water"></i> Flood Example</div>
-                <p>In 2020, heavy rains caused flooding in many parts of Africa. Rivers broke their banks, washing away homes and leaving thousands of people without shelter or clean water.</p>
+                <div class="example-title"><i class="fas fa-beer"></i> Alcohol Facts</div>
+                <p>Alcohol is the most commonly abused substance among young people. Even small amounts can affect judgment, leading to dangerous decisions like drunk driving or unprotected sex.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sun"></i> Drought Example</div>
-                <p>The Horn of Africa experienced a severe drought from 2020-2023. Rivers dried up, crops failed, and millions of people faced hunger because there was no rain for planting.</p>
+                <div class="example-title"><i class="fas fa-smoking"></i> Tobacco Truths</div>
+                <p>A single cigarette contains over 7,000 chemicals, including formaldehyde (used to preserve dead bodies) and arsenic (rat poison). Nicotine is as addictive as heroin.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale"></i> The Balance</div>
-                <p>Think of the water cycle like a bank account. Rain is the deposit. Drought happens when there are no deposits for a long time. Flood happens when there's a huge deposit all at once!</p>
+                <div class="example-title"><i class="fas fa-spray-can"></i> Solvent Dangers</div>
+                <p>Household products like glue or air freshener seem harmless, but inhaling them can cause sudden death - even the first time. They damage the brain, heart, and lungs.</p>
             </div>
         `,
-        taskInstructions: "Create a T-chart comparing the problems caused by floods and droughts.",
+        taskInstructions: "Identify harmful substances and understand their dangers through research and discussion.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: T-Chart - Floods vs. Droughts</strong></p>
+                <p><strong>Part A: Substance Identification</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Complete the T-chart below by listing problems caused by each extreme weather event:
+                    <span class="task-number">1</span> Complete the table below with information about each harmful substance:
                     <div style="margin-left: 20px; margin-top: 10px;">
                         <table style="width: 100%; border-collapse: collapse;">
-                            <tr style="background-color: #2196F3; color: white;">
-                                <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">FLOODS (Too Much Water)</th>
-                                <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">DROUGHTS (Too Little Water)</th>
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Substance</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Common Forms</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">One Danger</th>
                             </tr>
                             <tr>
-                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;">
-                                    <div class="answer-space" style="height: 180px;"></div>
-                                </td>
-                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;">
-                                    <div class="answer-space" style="height: 180px;"></div>
-                                </td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Alcohol</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Tobacco</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Marijuana</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Cocaine</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Solvents</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">____________</td>
                             </tr>
                         </table>
                     </div>
@@ -85,208 +179,163 @@ const grade5ScienceWeek4 = {
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Cause and Effect</strong></p>
+                <p><strong>Part B: Recognizing Signs of Abuse</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> What weather conditions cause a flood to occur?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> What weather conditions cause a drought to occur?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Reflection</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Which do you think is more dangerous for your community - a flood or a drought? Why?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-        `,
-        homework: "Ask a parent or grandparent: Has our area ever experienced a flood or drought? Write down what they remember happening.",
-        homeworkDue: "Wednesday"
-    },
-    
-    wednesday: {
-        subject: "Science",
-        topic: "Earth Science",
-        subtopic: "Why the Water Cycle Matters",
-        lessonContent: `
-            <p>Today we'll discover why the water cycle is essential for all life on Earth!</p>
-            <p><strong>Key Question:</strong> What would happen if the water cycle stopped?</p>
-            <p><strong>Introduction:</strong> The water cycle isn't just about rain and rivers. It performs two critical jobs that make life possible on our planet.</p>
-            <p><strong>Job #1: Providing Fresh Drinking Water</strong></p>
-            <ul>
-                <li>Most of Earth's water (about 97%) is salty ocean water - we cannot drink it!</li>
-                <li>The water cycle works like a natural filter</li>
-                <li><strong>How it works:</strong> The sun heats ocean water → water evaporates → salt stays behind → water vapor rises → condenses into clouds → falls as FRESH rain</li>
-                <li>This fresh rain fills our rivers, lakes, and wells so we have water to drink, cook, and farm with</li>
-            </ul>
-            <p><strong>Job #2: Keeping Earth's Temperature Stable</strong></p>
-            <ul>
-                <li>Have you noticed how it feels cooler near a river or after it rains?</li>
-                <li><strong>Evaporation cools the land:</strong> When water evaporates, it absorbs heat from the surroundings</li>
-                <li>This is like how sweating cools your body on a hot day</li>
-                <li>Without evaporation, the land would get much hotter</li>
-                <li>Clouds also reflect sunlight back into space, keeping Earth from overheating</li>
-            </ul>
-            <p><strong>Why the Water Cycle is Like a Miracle:</strong></p>
-            <ul>
-                <li>It turns undrinkable salt water into fresh water we need</li>
-                <li>It acts like Earth's natural air conditioner</li>
-                <li>It moves water from oceans to land so inland communities can have water too</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint"></i> Nature's Filter</div>
-                <p>If you tried to drink seawater, you would get very sick. But the water cycle "distills" ocean water into pure, fresh rain. That's why we can survive far from the ocean!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-temperature-low"></i> Earth's Air Conditioner</div>
-                <p>Have you ever stood near a waterfall or sprinkler on a hot day? The mist feels cool because evaporation is pulling heat from the air around you. The water cycle does this for the whole planet!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-globe-africa"></i> Without the Water Cycle</div>
-                <p>If the water cycle stopped, rain would stop forever. Rivers would dry up. Within weeks, most animals and people would have no drinking water. Within months, almost all plants would die.</p>
-            </div>
-        `,
-        taskInstructions: "Write a paragraph explaining what would happen if the water cycle stopped.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: If the Water Cycle Stopped Today...</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Write a short paragraph explaining: "What would happen to the animals and people in our town if the water cycle stopped today?"
-                    <div class="answer-space" style="height: 150px; margin-top: 10px; border: 1px solid #ddd; padding: 10px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: The Two Jobs of the Water Cycle</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> How does the water cycle provide us with fresh drinking water?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> How does the water cycle help keep Earth's temperature from getting too hot?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Why It Matters</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Why can't we just drink seawater? What does the water cycle do to make it safe?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Do you think the water cycle is important? Explain your answer in one sentence.
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-        `,
-        homework: "Look outside at the sky. If you see clouds, draw them. If not, draw what the sky looks like. Write one sentence about how clouds help our planet.",
-        homeworkDue: "Friday"
-    },
-    
-    friday: {
-        subject: "Science",
-        topic: "Earth Science",
-        subtopic: "Mitigating Adverse Effects (Solutions)",
-        lessonContent: `
-            <p>Today we'll learn how we can protect the water cycle and conserve water!</p>
-            <p><strong>Key Question:</strong> What can we do to keep the water cycle healthy?</p>
-            <p><strong>Introduction:</strong> Human actions can harm the water cycle. But the good news is, there are things we can do to protect it and make sure we always have clean water.</p>
-            <p><strong>Solution #1: Reafforestation (Planting Trees)</strong></p>
-            <ul>
-                <li>Trees help the water cycle in two important ways:</li>
-                <li><strong>Transpiration:</strong> Trees release water vapor from their leaves, adding moisture to the air to form clouds</li>
-                <li><strong>Holding water in soil:</strong> Tree roots hold soil together and help water soak into the ground instead of running off</li>
-                <li><strong>Action:</strong> Plant native trees and protect existing forests from cutting</li>
-            </ul>
-            <p><strong>Solution #2: Water Harvesting</strong></p>
-            <ul>
-                <li><strong>What is it?</strong> Collecting and storing rainwater for later use</li>
-                <li><strong>How to do it:</strong> Use gutters and pipes to direct rain from your roof into a storage tank or barrel</li>
-                <li><strong>Benefits:</strong> Stored rainwater can be used for watering plants, washing, or even drinking (if treated)</li>
-                <li>This reduces pressure on rivers and wells during dry seasons</li>
-            </ul>
-            <p><strong>Solution #3: Fire Guards (Protecting Forests from Burning)</strong></p>
-            <ul>
-                <li><strong>Problem:</strong> Indiscriminate burning (uncontrolled fires) destroys forests</li>
-                <li>Burned forests cannot release water vapor through transpiration</li>
-                <li>Ash and bare soil wash away, polluting rivers</li>
-                <li><strong>Solution:</strong> Create firebreaks, follow fire bans, and educate communities about the dangers of uncontrolled burning</li>
-            </ul>
-            <p><strong>Solution #4: Everyday Water Conservation</strong></p>
-            <ul>
-                <li>Close taps while brushing teeth</li>
-                <li>Fix leaking pipes and taps</li>
-                <li>Use a bucket instead of a hose to wash cars</li>
-                <li>Collect used water (from washing vegetables) to water plants</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree"></i> Trees = Water Makers</div>
-                <p>One large tree can release up to 400 liters of water into the air per day through transpiration! That's like 20 large buckets of water becoming cloud-making vapor.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-home"></i> Rain Harvesting at Home</div>
-                <p>In many parts of Africa, families collect rainwater from their roofs during the rainy season. A 1,000-liter tank can provide water for a family for weeks during a dry spell.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-hand-holding-water"></i> Small Actions Add Up</div>
-                <p>If every person in a school of 500 students saved just 2 liters of water per day (by closing taps), that would save 1,000 liters daily - enough to fill a small swimming pool in a month!</p>
-            </div>
-        `,
-        taskInstructions: "Create a 'Water Guardian Poster' showing one way to protect the water cycle or save water.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: The Water Guardian Poster</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Create a poster showing ONE way to protect the water cycle or save water. Choose from:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Plant a tree (reafforestation)</div>
-                        <div>• Harvest rainwater from a roof</div>
-                        <div>• Close the tap while brushing teeth</div>
-                        <div>• Prevent forest fires (fire guards)</div>
-                        <div>• Fix a leaking pipe</div>
-                    </div>
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4CAF50; background: #f9fff9;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Explain Your Poster</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Write 2-3 sentences explaining what your poster shows and why it helps the water cycle:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Water Conservation Actions</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> List three simple ways YOU can save water every day at home or school:
+                    <span class="task-number">2</span> List three behavioral or physical signs that someone might be abusing substances:
                     <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Protecting the Cycle</strong></p>
+                <p><strong>Part C: Refusal Skills</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why is it harmful to burn forests? How does this affect the water cycle?
+                    <span class="task-number">3</span> Write two different ways you could say "no" if someone offered you an illegal or harmful substance:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Community Impact</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> How does substance abuse affect not just the user, but also their family and community?
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Create a 'Say No to Drugs' poster that warns about one specific harmful substance. Include facts about its dangers and positive alternatives.",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "Science",
+        topic: "Community Health",
+        subtopic: "Systemic Effects of Substance Abuse on the Human Body",
+        lessonContent: `
+            <p>Today we'll analyze how substance abuse affects the entire human body - physically, mentally, and emotionally.</p>
+            <p><strong>Key Question:</strong> How does substance abuse change a person's body, mind, and behavior?</p>
+            <p><strong>Introduction:</strong> Substance abuse doesn't just harm one organ - it affects every system in the body. The effects can be short-term (while using) or long-term (lasting for years or a lifetime).</p>
+            <p><strong>Systemic Effects of Substance Abuse:</strong></p>
+            
+            <p><strong>1. Aggressiveness (Behavioral Effects):</strong></p>
+            <ul>
+                <li>Increased irritability and mood swings</li>
+                <li>Violent or aggressive behavior toward others</li>
+                <li>Poor impulse control (doing things without thinking)</li>
+                <li>Risk-taking behavior (driving fast, fighting, dangerous activities)</li>
+                <li>Verbal abuse and arguments with family and friends</li>
+            </ul>
+            
+            <p><strong>2. Organ Damage (Physical Effects):</strong></p>
+            <ul>
+                <li><strong>Brain:</strong> Memory loss, difficulty learning, brain damage, seizures</li>
+                <li><strong>Heart:</strong> Heart attacks, irregular heartbeat, high blood pressure</li>
+                <li><strong>Lungs:</strong> Lung cancer, chronic coughing, breathing problems (from smoking)</li>
+                <li><strong>Liver:</strong> Liver damage, cirrhosis, liver failure (especially from alcohol)</li>
+                <li><strong>Kidneys:</strong> Kidney failure and damage</li>
+                <li><strong>Digestive System:</strong> Stomach ulcers, vomiting, weight changes</li>
+            </ul>
+            
+            <p><strong>3. Mental Illness (Psychological Effects):</strong></p>
+            <ul>
+                <li>Depression (feeling sad, hopeless, and worthless)</li>
+                <li>Anxiety (constant worry, fear, panic attacks)</li>
+                <li>Paranoia (unreasonable suspicion of others)</li>
+                <li>Hallucinations (seeing or hearing things that aren't there)</li>
+                <li>Psychosis (losing touch with reality)</li>
+                <li>Suicidal thoughts or actions</li>
+            </ul>
+            
+            <p><strong>4. Addiction (Dependence):</strong></p>
+            <ul>
+                <li><strong>Tolerance:</strong> Needing more of the substance to get the same effect</li>
+                <li><strong>Withdrawal:</strong> Getting sick when not using the substance</li>
+                <li><strong>Cravings:</strong> Intense desire to use the substance</li>
+                <li><strong>Loss of Control:</strong> Using more than intended, unable to stop</li>
+                <li><strong>Neglecting Responsibilities:</strong> Prioritizing substance use over school, family, health</li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-brain"></i> Brain Development</div>
+                <p>The human brain continues developing until about age 25. Substance abuse during adolescence can cause permanent damage to decision-making, memory, and emotional control.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-heartbeat"></i> Real Life Consequences</div>
+                <p>A person who starts smoking at age 15 is three times more likely to die from lung cancer than someone who starts at age 25 - and five times more likely than a non-smoker.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-fist-raised"></i> The Aggression Cycle</div>
+                <p>Alcohol and stimulants like cocaine can trigger aggressive behavior. A person might yell, break things, or hurt loved ones while under the influence - then feel guilty and use more to escape the guilt.</p>
+            </div>
+        `,
+        taskInstructions: "Analyze the systemic effects of substance abuse through case studies and reflection.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Four Effects Analysis</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> For each category below, list two specific effects of substance abuse:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Aggressiveness:</strong></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;"><strong>Organ Damage:</strong></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;"><strong>Mental Illness:</strong></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div style="margin-top: 10px;"><strong>Addiction:</strong></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Case Study Analysis</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read the case study and answer the questions:
+                    <div style="margin-left: 20px; margin-top: 10px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+                        <p><strong>Case Study - Maria's Story:</strong> Maria started smoking cigarettes at age 13. By 15, she was smoking daily. At 17, she tried alcohol and marijuana. Now at 19, she has a persistent cough, struggles to remember things for her job, gets angry easily at her family, and feels depressed most days. She wants to quit but gets headaches and feels sick when she tries to stop.</p>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <div>A. What signs of organ damage does Maria show? ____________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>B. What signs of mental illness does Maria show? ____________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>C. What signs of addiction does Maria show? ____________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                        <div>D. How is Maria's aggressiveness affecting her relationships? ____________</div>
+                        <div class="answer-space" style="height: 40px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Body Systems Diagram</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> On the body outline below, draw and label where different substances cause organ damage:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc; text-align: center; padding-top: 80px; color: #999;">[Human Body Outline Diagram]</div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection & Healthy Alternatives</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why do you think people might start using harmful substances even when they know the dangers?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">5</span> How does planting trees help prevent both floods AND droughts?
+                    <span class="task-number">5</span> List three healthy activities that can replace substance use and promote well-being:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> If a friend was struggling with substance abuse, what could you do to help them?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "With your family, find one leaking tap at home or in your community and report it to an adult. Write down what happened when you reported it.",
+        homework: "Create a pamphlet or brochure warning young people about the systemic effects of substance abuse. Include information on aggressiveness, organ damage, mental illness, and addiction, plus a list of help resources.",
         homeworkDue: "Monday"
     }
 };

@@ -5,303 +5,343 @@ const grade5ScienceWeek9 = {
         subject: "Science",
         term: 2,
         week: 9,
-        title: "Getting Started with Poultry",
-        description: "Exploring poultry breeds, housing design, and cleanliness management for healthy birds"
+        title: "Water Cycle Dynamics & Soil Health",
+        description: "Exploring evaporation, transpiration, condensation, precipitation, and the environmental effects of water cycle variations"
     },
     
     monday: {
         subject: "Science",
-        topic: "Agriculture",
-        subtopic: "Types of Poultry Breeds",
+        topic: "Earth Science",
+        subtopic: "Water Cycle Experiments (Evaporation, Transpiration, Condensation, Precipitation)",
         lessonContent: `
-            <p>Welcome to our exploration of poultry farming! Today we'll learn about different types of chickens and why farmers choose specific breeds for specific purposes.</p>
-            <p><strong>Key Question:</strong> If you wanted to start a business selling eggs, would you buy the same type of chicken as someone who wants to sell meat?</p>
-            <p><strong>Introduction:</strong> Not all chickens are the same! Just like dogs have different breeds for different jobs (herding, hunting, companionship), chickens have been bred for specific purposes.</p>
-            <p><strong>Three Main Types of Poultry Breeds:</strong></p>
+            <p>Welcome to our hands-on exploration of the water cycle! Today we'll become scientists and conduct experiments to see the water cycle in action.</p>
+            <p><strong>Key Question:</strong> How does water move through the environment?</p>
+            <p><strong>The Water Cycle - Four Main Processes:</strong></p>
             <ol>
-                <li><strong>Laying Breeds (Layers):</strong> Specifically bred to produce a high volume of eggs
+                <li><strong>Evaporation:</strong> Liquid water turns into water vapor (gas) when heated by the sun</li>
+                <li><strong>Transpiration:</strong> Water evaporates from the leaves of plants</li>
+                <li><strong>Condensation:</strong> Water vapor cools and turns back into liquid water droplets (forming clouds)</li>
+                <li><strong>Precipitation:</strong> Water falls back to Earth as rain, snow, sleet, or hail</li>
+            </ol>
+            <p><strong>Today's Experiments:</strong></p>
+            <ul>
+                <li>Evaporation: Water disappearing from a dish over time</li>
+                <li>Transpiration: A plastic bag over a plant's leaves collecting moisture</li>
+                <li>Condensation: Ice water in a cup creating water droplets on the outside</li>
+                <li>Precipitation: Simulating rain using a sponge and water</li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-sun"></i> Evaporation in Action</div>
+                <p>Puddles disappearing after a rainstorm is evaporation in action! The sun's heat turns the water into invisible water vapor that rises into the air.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-leaf"></i> Plant Breathing</div>
+                <p>A single corn plant can transpire (release) up to 50 gallons of water into the air during one growing season. That's more than a bathtub full!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-cloud-rain"></i> Cloud Formation</div>
+                <p>Those fluffy white clouds you see are made of billions of tiny water droplets that formed when water vapor condensed around dust particles in the air.</p>
+            </div>
+        `,
+        taskInstructions: "Conduct four hands-on experiments to simulate each stage of the water cycle.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Evaporation Experiment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Place a small dish of water near a sunny window. Predict how long it will take to disappear:
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Measure and record the water level each hour. What do you observe?
+                    <div class="observation-area" style="height: 80px; margin-top: 10px; border: 2px dashed #ccc; padding: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Transpiration Experiment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Place a clear plastic bag over a leafy branch and secure it. Observe after 1 hour:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Where did the moisture inside the bag come from?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Condensation Experiment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Fill a glass with ice water. Draw what happens to the outside of the glass after 10 minutes:
+                    <div class="drawing-area" style="height: 100px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Explain why water droplets appear on the outside of the glass:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Precipitation Simulation</strong></p>
+                <div class="task-item">
+                    <span class="task-number">7</span> Soak a sponge with water, then squeeze it over a container. How does this model precipitation?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">8</span> Draw and label the four main stages of the water cycle:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Observe a puddle or wet area outside. Check on it every few hours and record what happens. Draw what you see.",
+        homeworkDue: "Wednesday"
+    },
+    
+    wednesday: {
+        subject: "Science",
+        topic: "Earth Science",
+        subtopic: "Environmental Effects of Water Cycle Variations",
+        lessonContent: `
+            <p>Today we'll explore how changes in the water cycle can affect our environment and cause extreme weather!</p>
+            <p><strong>Key Question:</strong> What happens when the water cycle is disrupted?</p>
+            <p><strong>Normal vs. Disrupted Water Cycle:</strong></p>
+            <ul>
+                <li>In a healthy water cycle, water moves in balance: evaporation = precipitation (roughly)</li>
+                <li>When this balance changes, extreme weather can occur</li>
+                <li>Climate change, deforestation, and pollution can disrupt the cycle</li>
+            </ul>
+            <p><strong>Extreme Weather Patterns Caused by Water Cycle Variations:</strong></p>
+            <ol>
+                <li><strong>Floods:</strong> Too much precipitation too quickly
                     <ul>
-                        <li>Example: White Leghorn</li>
-                        <li>Can lay 250-300 eggs per year!</li>
-                        <li>Smaller body size - they put energy into eggs, not meat</li>
+                        <li>Melting snow combined with heavy rain</li>
+                        <li>Ground too dry or hard to absorb water</li>
+                        <li>Deforestation reduces water absorption</li>
                     </ul>
                 </li>
-                <li><strong>Meat Breeds (Broilers):</strong> Bred to grow very fast and heavy for meat production
+                <li><strong>Droughts:</strong> Too little precipitation over a long period
                     <ul>
-                        <li>Example: Cornish Cross</li>
-                        <li>Ready for market in 6-8 weeks</li>
-                        <li>Large breast and thigh muscles</li>
+                        <li>High temperatures increase evaporation</li>
+                        <li>Lack of rainfall for weeks or months</li>
+                        <li>Soil becomes dry and cracks</li>
                     </ul>
                 </li>
-                <li><strong>Dual-Purpose Breeds:</strong> Birds that are good for both eggs and meat
+                <li><strong>Other Effects:</strong>
                     <ul>
-                        <li>Example: Rhode Island Red, Plymouth Rock</li>
-                        <li>Good egg production (200-250 eggs/year)</li>
-                        <li>Decent meat quality when processed</li>
+                        <li>Soil erosion (when heavy rain washes away topsoil)</li>
+                        <li>Landslides (saturated soil sliding down slopes)</li>
+                        <li>Water shortages for drinking and farming</li>
                     </ul>
                 </li>
             </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-line"></i> Egg Production</div>
-                <p>A White Leghorn hen can lay nearly one egg every day! That's enough to feed a family breakfast every morning.</p>
+                <div class="example-title"><i class="fas fa-water"></i> Flood Case Study</div>
+                <p>When Hurricane Katrina hit New Orleans in 2005, over 80% of the city flooded. The water cycle produced extreme precipitation that overwhelmed the city's defenses.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-weight-hanging"></i> Fast Growers</div>
-                <p>A broiler chicken can grow from a tiny chick to a 2.5kg bird in just 6-7 weeks. That's like a human baby growing to 100kg in 6 months!</p>
+                <div class="example-title"><i class="fas fa-tint-slash"></i> Drought Impact</div>
+                <p>The California drought (2012-2016) was the worst in 1,200 years! Farmers couldn't grow crops, and cities had strict water rationing.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale"></i> Best of Both Worlds</div>
-                <p>Rhode Island Reds are popular on small farms because they provide both brown eggs for the family and a good roasting chicken when needed.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Tree Connection</div>
+                <p>Trees help prevent floods by absorbing water through their roots. When forests are cut down, rainwater runs off quickly instead of soaking into the ground.</p>
             </div>
         `,
-        taskInstructions: "Create a 'Poultry Catalog' showing the three breed types.",
+        taskInstructions: "Analyze case studies and explain how water cycle variations cause extreme weather.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Poultry Catalog Creation</strong></p>
+                <p><strong>Part A: Cause and Effect Analysis</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw three different chickens and label them as "Layer," "Broiler," or "Dual-Purpose":
-                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px;">
-                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
-                            <strong>Layer</strong><br>
-                            <div class="drawing-area" style="height: 120px; border: 1px dashed #ccc; margin-top: 5px;"></div>
-                            <span style="font-size: 12px;">What it provides: _________</span>
-                        </div>
-                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
-                            <strong>Broiler</strong><br>
-                            <div class="drawing-area" style="height: 120px; border: 1px dashed #ccc; margin-top: 5px;"></div>
-                            <span style="font-size: 12px;">What it provides: _________</span>
-                        </div>
-                        <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
-                            <strong>Dual-Purpose</strong><br>
-                            <div class="drawing-area" style="height: 120px; border: 1px dashed #ccc; margin-top: 5px;"></div>
-                            <span style="font-size: 12px;">What it provides: _________</span>
-                        </div>
+                    <span class="task-number">1</span> Complete the cause-and-effect table:
+                    <div style="margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Cause</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Effect on Water Cycle</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Resulting Weather Event</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Too much rain in a short time</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">No rainfall for months</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Deforestation (cutting trees)</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Very hot temperatures</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Breed Matching</strong></p>
+                <p><strong>Part B: Case Study Analysis</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Match each breed to its best use:
+                    <span class="task-number">2</span> Read the scenario and answer: "A farming community has had no rain for 6 months. Crops are dying, and the river has dried up."
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• White Leghorn → _________</div>
-                        <div>• Cornish Cross → _________</div>
-                        <div>• Rhode Island Red → _________</div>
+                        <div>a) What type of extreme weather is this? _________</div>
+                        <div>b) How does this affect people's lives? _________</div>
+                        <div class="answer-space" style="height: 50px;"></div>
+                        <div>c) What could the community do to prepare? _________</div>
+                        <div class="answer-space" style="height: 50px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Farm Scenario</strong></p>
+                <p><strong>Part C: Flood vs. Drought Comparison</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> A farmer wants to sell eggs to a local restaurant AND raise meat for her family. Which breed should she choose? Why?
-                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
-                </div>
-            </div>
-        `,
-        homework: "Ask at home what type of chicken products your family buys most (eggs or meat). Write down your findings.",
-        homeworkDue: "Wednesday"
-    },
-    
-    wednesday: {
-        subject: "Science",
-        topic: "Agriculture",
-        subtopic: "Designing the Home (Housing)",
-        lessonContent: `
-            <p>Today we'll learn how to design a safe and healthy home for poultry!</p>
-            <p><strong>Key Question:</strong> What does a chicken need to be safe, healthy, and productive?</p>
-            <p><strong>Introduction:</strong> Just like humans need good housing, chickens need proper shelter to stay healthy and produce eggs or meat. A well-designed poultry house prevents disease and protects birds from danger.</p>
-            <p><strong>Three Key Requirements for Poultry Housing:</strong></p>
-            
-            <p><strong>1. Safety - Protection from Predators</strong></p>
-            <ul>
-                <li>Dogs, snakes, hawks, rats, and even foxes love to eat chickens!</li>
-                <li>Wire mesh (chicken wire) should cover all openings</li>
-                <li>Doors must close securely, especially at night</li>
-                <li>Buried wire can prevent predators from digging underneath</li>
-            </ul>
-            
-            <p><strong>2. Environment - Ventilation and Dry Floors</strong></p>
-            <ul>
-                <li><strong>Ventilation (Fresh Air):</strong> Windows and vents let fresh air in and remove ammonia from droppings</li>
-                <li><strong>Dry Floors:</strong> Wet floors cause disease. Use wood shavings, rice hulls, or straw as bedding (litter)</li>
-                <li>Change wet or dirty litter regularly</li>
-            </ul>
-            
-            <p><strong>3. Equipment - Feeders and Drinkers</strong></p>
-            <ul>
-                <li><strong>Feeders:</strong> Containers that hold chicken feed without wasting it</li>
-                <li><strong>Drinkers (Waterers):</strong> Clean, fresh water must always be available</li>
-                <li><strong>Nesting Boxes:</strong> For laying hens to lay eggs in a clean, private space</li>
-                <li><strong>Perches (Roosts):</strong> Chickens like to sleep off the ground</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Predator Proof</div>
-                <p>One farmer lost 20 chickens to a single snake in one night! After installing fine wire mesh over all gaps, no more snakes could enter.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-wind"></i> Fresh Air Saves Lives</div>
-                <p>Poor ventilation causes respiratory disease in chickens. A simple window on each side of the house creates cross-breeze and removes harmful ammonia gas.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint"></i> Clean Water</div>
-                <p>Chickens drink 2-3 times more water than they eat feed! A bell drinker keeps water clean because chickens can't scratch dirt into it.</p>
-            </div>
-        `,
-        taskInstructions: "Draw a floor plan of a poultry house with all necessary features labeled.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Poultry House Floor Plan</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Draw a floor plan of a poultry house. Label the following:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Windows for ventilation</div>
-                        <div>• Door (secure closure)</div>
-                        <div>• Feeding area (feeders)</div>
-                        <div>• Watering area (drinkers)</div>
-                        <div>• Nesting boxes (for layers)</div>
-                        <div>• Perches (roosting bars)</div>
+                    <span class="task-number">3</span> Complete the Venn diagram comparing floods and droughts:
+                    <div style="text-align: center; margin-top: 10px;">
+                        <div style="display: inline-block; width: 45%; border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+                            <strong>Flood</strong>
+                            <div class="answer-space" style="height: 100px;"></div>
+                        </div>
+                        <div style="display: inline-block; width: 45%; border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+                            <strong>Drought</strong>
+                            <div class="answer-space" style="height: 100px;"></div>
+                        </div>
                     </div>
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <div style="margin-top: 10px; text-align: center;"><strong>Similarities:</strong> <span class="answer-space" style="display: inline-block; width: 200px; height: 30px;"></span></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Problem Solving</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> A farmer's chickens keep getting eaten by hawks during the day. What should the farmer add to the poultry house?
-                    <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> The chicken house floor is always wet and the birds are getting sick. What is the problem and what should the farmer do?
-                    <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Equipment Match</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> What equipment would you use for each need?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Giving chickens water: _________</div>
-                        <div>• Giving chickens food: _________</div>
-                        <div>• Collecting eggs: _________</div>
-                        <div>• Chickens sleeping: _________</div>
-                    </div>
+                    <span class="task-number">4</span> How can protecting forests help prevent floods and droughts?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Draw your own dream chicken coop design. Include at least 5 features that keep chickens safe and healthy.",
+        homework: "Watch the weather forecast or look up weather news. Identify if your area is experiencing normal, wet, or dry conditions. Write a paragraph about what you found.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "Agriculture",
-        subtopic: "Cleanliness and Management",
+        topic: "Earth Science",
+        subtopic: "Water Cycle Models - Sketching and Building",
         lessonContent: `
-            <p>Today we'll learn how to maintain a healthy environment for poultry through proper cleaning and daily management!</p>
-            <p><strong>Key Question:</strong> How does a farmer prevent disease in a poultry house?</p>
-            <p><strong>Introduction:</strong> Cleanliness is the most important factor in poultry health. A clean house means healthy birds, more eggs, and better meat production.</p>
-            
-            <p><strong>Types of Cleaning:</strong></p>
+            <p>Today we'll put our knowledge into action by sketching diagrams and building physical working models of the water cycle!</p>
+            <p><strong>Key Question:</strong> How can we build a model that shows all four stages of the water cycle?</p>
+            <p><strong>Review - The Four Main Stages:</strong></p>
             <ul>
-                <li><strong>Dry Cleaning:</strong> Sweeping out dry litter, cobwebs, and dust. Done regularly (daily/weekly).</li>
-                <li><strong>Wet Cleaning:</strong> Washing surfaces with water and soap. Done between flocks when the house is empty.</li>
+                <li>Evaporation (sun heats water → vapor rises)</li>
+                <li>Transpiration (water vapor from plant leaves)</li>
+                <li>Condensation (vapor cools → forms clouds)</li>
+                <li>Precipitation (water falls as rain/snow)</li>
             </ul>
-            
-            <p><strong>Disinfection & Fumigation:</strong></p>
+            <p><strong>Today's Activities:</strong></p>
+            <ol>
+                <li>Create a detailed, labeled diagram of the water cycle</li>
+                <li>Build a working water cycle model using local and recycled items</li>
+                <li>Observe and record the water cycle in action</li>
+            </ol>
+            <p><strong>Materials We'll Use (Local Items):</strong></p>
             <ul>
-                <li><strong>Disinfection:</strong> Using special chemicals (disinfectants) to kill germs on floors, walls, and equipment</li>
-                <li><strong>Fumigation:</strong> Sealing the house and using gas to kill germs in hard-to-reach places</li>
-                <li>These are done BEFORE new chicks arrive to give them a clean, disease-free start</li>
-            </ul>
-            
-            <p><strong>The Feed System - Reducing Waste:</strong></p>
-            <ul>
-                <li>Feeders should be at the right height (back height of the birds)</li>
-                <li>Don't overfill feeders - birds will scratch and waste feed</li>
-                <li>Keep feeders away from waterers to prevent wet feed (mold!)</li>
-                <li>Clean feeders daily to remove old, wet, or moldy feed</li>
+                <li>Clear plastic bottle or container</li>
+                <li>Soil, sand, or pebbles</li>
+                <li>Small plant or grass</li>
+                <li>Water</li>
+                <li>Plastic wrap</li>
+                <li>Rubber band or string</li>
+                <li>Ice cubes</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-broom"></i> Dry vs. Wet</div>
-                <p>Sweep dry litter daily. But once a month, wash waterers with soap and water. Between flocks, scrub and disinfect the entire house!</p>
+                <div class="example-title"><i class="fas fa-draw-polygon"></i> Diagram Tips</div>
+                <p>When sketching your water cycle diagram, use arrows to show the direction of movement. Use blue for water, light blue for vapor, and gray for clouds.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-skull-crossbones"></i> Fumigation Facts</div>
-                <p>After thorough cleaning, some farmers fumigate the empty house with formaldehyde gas. This kills any remaining bacteria or viruses before day-old chicks arrive.</p>
+                <div class="example-title"><i class="fas fa-flask"></i> Bottle Terrarium Model</div>
+                <p>A closed plastic bottle with soil, water, and a plant creates a miniature water cycle. Water evaporates, condenses on the sides, and "rains" back down!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chart-line"></i> Feed Savings</div>
-                <p>A farmer who raises feeders to the right height saves 10% on feed costs! That's because chickens can't scratch feed out of the feeder.</p>
+                <div class="example-title"><i class="fas fa-recycle"></i> Local Materials</div>
+                <p>You can use an old soda bottle, rocks from your yard, soil from the garden, and a small weed or grass. The water cycle works anywhere!</p>
             </div>
         `,
-        taskInstructions: "Write a 'Daily Checklist' for a poultry farmer and answer management questions.",
+        taskInstructions: "Sketch a detailed diagram of the water cycle and build a physical working model using local items.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Daily Checklist for a Poultry Farmer</strong></p>
+                <p><strong>Part A: Water Cycle Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write 5 things a poultry farmer should do EVERY day:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. _________________________________</div>
-                        <div>2. _________________________________</div>
-                        <div>3. _________________________________</div>
-                        <div>4. _________________________________</div>
-                        <div>5. _________________________________</div>
+                    <span class="task-number">1</span> Create a detailed, colorful diagram of the water cycle including:
+                    <div style="margin-left: 20px;">
+                        <div>• Sun (source of heat energy)</div>
+                        <div>• Bodies of water (ocean, lake, river)</div>
+                        <div>• Trees and plants (transpiration)</div>
+                        <div>• Clouds (condensation)</div>
+                        <div>• Rain/snow (precipitation)</div>
+                        <div>• Arrows showing water movement</div>
+                        <div>• Labels for each stage</div>
+                    </div>
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Build Your Water Cycle Model</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Follow these steps to build your model:
+                    <div style="margin-left: 20px; margin-top: 10px; background: #f5f5f5; padding: 10px;">
+                        <div>Step 1: Place pebbles at the bottom of a clear container</div>
+                        <div>Step 2: Add soil on top of the pebbles</div>
+                        <div>Step 3: Plant a small plant or grass in the soil</div>
+                        <div>Step 4: Add water (but don't flood it)</div>
+                        <div>Step 5: Cover tightly with plastic wrap</div>
+                        <div>Step 6: Place ice cubes on top of the plastic wrap</div>
+                        <div>Step 7: Place in a sunny spot and observe!</div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Cleaning Decisions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Would you use dry cleaning or wet cleaning for each situation?
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Removing cobwebs from the ceiling: _________</div>
-                        <div>• Cleaning up spilled water on the floor: _________</div>
-                        <div>• Preparing empty house for new chicks: _________</div>
-                        <div>• Daily sweeping of dry litter: _________</div>
-                    </div>
+                    <span class="task-number">3</span> Draw your completed model and label its parts:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Feed Management</strong></p>
+                <p><strong>Part C: Observations and Predictions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> A farmer notices chickens are wasting a lot of feed by scratching it out of the feeders. What should they do?
-                    <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
+                    <span class="task-number">4</span> Predict what will happen in your model after 1 hour, 1 day, and 1 week:
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why should feeders and waterers be placed far apart?
-                    <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Disinfection Knowledge</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Why is it important to disinfect the poultry house BEFORE new chicks arrive (not after)?
-                    <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
+                    <span class="task-number">5</span> In your model, where will evaporation happen? Where will condensation happen?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part E: Sick Bird Check</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> List three signs that a chicken might be sick:
-                    <div class="answer-space" style="height: 80px; margin-top: 5px;"></div>
+                    <span class="task-number">6</span> What did you learn from building a physical model that you couldn't learn from a diagram alone?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> How is your model similar to Earth's actual water cycle? How is it different?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a one-page 'Poultry Farmer's Guide' with 10 rules for keeping chickens healthy. Include tips on breeds, housing, cleaning, feeding, and daily checks.",
+        homework: "Observe your water cycle model over the weekend. Record changes each day (water droplets on the plastic, water level, plant growth). Draw what you see on Monday.",
         homeworkDue: "Monday"
     }
 };

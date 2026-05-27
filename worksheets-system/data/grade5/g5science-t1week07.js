@@ -1,245 +1,277 @@
-// Grade 5 Science - Week 7 Data
+// Grade 5 Science - Term 1 Week 7 Data
 const grade5ScienceWeek7 = {
     metadata: {
         grade: 5,
         subject: "Science",
         term: 1,
         week: 7,
-        title: "Nutrition and Food Science",
-        description: "Understanding nutrients, food testing, and interpreting food labels"
+        title: "Puberty Changes & Personal Hygiene",
+        description: "Understanding physical, social, and emotional changes during puberty and learning about personal hygiene requirements"
     },
     
     monday: {
         subject: "Science",
-        topic: "Nutrition",
-        subtopic: "The Building Blocks of Food",
+        topic: "Human Development",
+        subtopic: "Physical Changes During Puberty (Both Sexes)",
         lessonContent: `
-            <p>Welcome to our study of nutrition! Today we will explore the six main nutrients that make up our food and how they help our bodies function.</p>
-            <p><strong>Key Concept:</strong> Nutrients are the building blocks in food that our bodies need to grow, repair, and stay healthy.</p>
-            <p><strong>The Six Main Nutrients:</strong></p>
+            <p>Welcome to our exploration of puberty! Today we'll learn about the physical changes that happen to everyone during this special time of growth.</p>
+            <p><strong>Key Question:</strong> What physical changes do both boys and girls experience during puberty?</p>
+            <p><strong>Introduction:</strong> Puberty is the time when your body begins to change from a child's body to an adult's body. These changes happen to everyone, though they may start at different ages and happen at different rates.</p>
+            <p><strong>Shared Physical Changes (Both Boys and Girls):</strong></p>
             <ol>
-                <li><strong>Proteins:</strong> Building blocks for growth and repair of body tissues</li>
-                <li><strong>Carbohydrates:</strong> Main source of energy for our bodies</li>
-                <li><strong>Fats/Oils:</strong> Provide energy, protect organs, and help absorb vitamins</li>
-                <li><strong>Vitamins:</strong> Help with various body functions and prevent diseases</li>
-                <li><strong>Minerals:</strong> Build strong bones and teeth, help nerves function</li>
-                <li><strong>Dietary Fibre:</strong> Helps digestion and keeps our digestive system healthy</li>
+                <li><strong>Growth of Pubic Hair:</strong> Hair begins to grow around the private areas (pubic region). This is a normal and healthy sign of development.</li>
+                <li><strong>Growth of Axillary Hair:</strong> Hair begins to grow in the armpits (axillary region).</li>
+                <li><strong>Acne Development:</strong> The skin produces more oil, which can lead to pimples or acne on the face, back, and chest.</li>
+                <li><strong>Body Odor:</strong> Sweat glands become more active, and when sweat mixes with bacteria on the skin, it can create body odor.</li>
+                <li><strong>Growth Spurt:</strong> A rapid increase in height and weight.</li>
+                <li><strong>Increased Sweating:</strong> Sweat glands become more active throughout the body.</li>
             </ol>
-            <p><strong>Why Do We Need All Six Nutrients?</strong> Each nutrient has a special job. Just like a car needs different parts to run, our bodies need all six nutrients to work properly!</p>
+            <p><strong>Important Reminder:</strong> These changes are normal and happen to everyone! People may experience these changes at different times - some earlier, some later. This is perfectly normal.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-dumbbell" style="color: #4A90E2;"></i> Real-Life Example</div>
-                <p>Think of protein like bricks for building a house. Just as bricks build strong walls, protein builds strong muscles, skin, and hair.</p>
+                <div class="example-title"><i class="fas fa-calendar-alt"></i> Different Timelines</div>
+                <p>Some people start puberty as early as age 8 or 9, while others don't start until age 14 or 15. Both are completely normal! Everyone develops at their own pace.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bolt"></i> Energy Sources</div>
-                <p>Carbohydrates are like gasoline for a car - they provide quick energy. Fats are like backup fuel tanks - they store energy for later use.</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Why Acne Happens</div>
+                <p>During puberty, your skin produces more oil (sebum). This oil can clog pores and trap bacteria, causing pimples. Washing your face twice a day can help!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-apple-alt"></i> Food Sources</div>
-                <p>Oranges have Vitamin C, milk has calcium (a mineral), and whole grains have dietary fibre. Different foods contain different nutrients!</p>
+                <div class="example-title"><i class="fas fa-wind"></i> What Causes Body Odor?</div>
+                <p>Sweat itself doesn't smell! Body odor happens when bacteria on your skin break down the sweat. That's why washing regularly and using deodorant can help.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to understand the six main nutrients and their functions.",
-        taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Class Discussion: Why do we need different types of nutrients? Write 2-3 key points:
-                <div class="answer-space" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Name the six main nutrients:
-                <div class="answer-space" style="height: 120px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Create a "Nutrient Function Map": Match each nutrient to its primary job:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>Proteins ___ a. Main energy source</div>
-                    <div>Carbohydrates ___ b. Growth and repair</div>
-                    <div>Fats/Oils ___ c. Help digestion</div>
-                    <div>Vitamins ___ d. Various body functions</div>
-                    <div>Minerals ___ e. Stored energy, organ protection</div>
-                    <div>Dietary Fibre ___ f. Strong bones and teeth</div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> List one food source for each nutrient:
-                <div class="answer-space" style="height: 150px;"></div>
-            </div>
-        `,
-        homework: "Look in your kitchen at home. Find one food item for each of the six nutrients. Create a simple chart.",
-        homeworkDue: "Wednesday"
-    },
-    
-    wednesday: {
-        subject: "Science",
-        topic: "Nutrition",
-        subtopic: "Science in the Kitchen (Food Testing)",
-        lessonContent: `
-            <p>Today we become food scientists! We will learn how to test foods to find out what nutrients they contain.</p>
-            <p><strong>Why Test Food?</strong> Food tests help us understand what we're eating and make healthy choices.</p>
-            <p><strong>The Grease Spot Test for Fats and Oils:</strong></p>
-            <ol>
-                <li>Rub a small piece of food on brown paper (like a paper bag)</li>
-                <li>Let it dry for 2-3 minutes</li>
-                <li>Hold the paper up to the light</li>
-                <li>If you see a translucent (see-through) spot, the food contains fat or oil</li>
-            </ol>
-            <p><strong>Other Food Tests:</strong></p>
-            <ul>
-                <li><strong>Starch Test:</strong> Add iodine solution to food. If it turns blue-black, starch is present.</li>
-                <li><strong>Protein Test:</strong> Biuret solution turns purple in the presence of protein.</li>
-                <li><strong>Sugar Test:</strong> Benedict's solution turns orange/red when heated with sugars.</li>
-            </ul>
-            <p><strong>Safety First:</strong> Always wash hands before and after handling food. Some tests require adult supervision.</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-flask"></i> The Grease Spot Test</div>
-                <p>When you rub potato chips on paper, they leave a grease spot. When you rub an apple slice, they don't. This shows chips have fat!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-vial"></i> Iodine and Starch</div>
-                <p>Bread, potatoes, and rice will make iodine turn dark because they're starchy foods. Meat and cheese won't change the iodine color.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-search"></i> Detective Work</div>
-                <p>Food testing is like being a detective! You're looking for clues (nutrients) hidden inside different foods.</p>
-            </div>
-        `,
-        taskInstructions: "Perform the Grease Spot Test and complete the observation activities.",
+        taskInstructions: "Identify and describe shared physical changes during puberty.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Grease Spot Test</strong></p>
+                <p><strong>Part A: Identifying Changes</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Test these foods using the Grease Spot Test:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Potato chip: Result: _________ (Fat/No Fat)</div>
-                        <div>• Apple slice: Result: _________ (Fat/No Fat)</div>
-                        <div>• Cheese: Result: _________ (Fat/No Fat)</div>
-                        <div>• Bread: Result: _________ (Fat/No Fat)</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Observations</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Draw what the paper looks like after each test:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Label each spot with the food tested)</p>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Analysis</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Which foods had the most fat based on your tests?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Explain how the Grease Spot Test works in your own words:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Thinking Ahead</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> How could you test a food to see if it contains starch? Describe the method:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-        `,
-        homework: "Test three different foods at home using the Grease Spot Test. Record your results in a table.",
-        homeworkDue: "Friday"
-    },
-    
-    friday: {
-        subject: "Science",
-        topic: "Nutrition",
-        subtopic: "Decoding Food Labels",
-        lessonContent: `
-            <p>Today we learn to read the secret language of food packages! Food labels tell us exactly what's inside our food.</p>
-            <p><strong>Parts of a Food Label:</strong></p>
-            <ol>
-                <li><strong>Nutrition Facts:</strong> Shows amounts of nutrients per serving</li>
-                <li><strong>Ingredients List:</strong> Lists all ingredients from most to least</li>
-                <li><strong>Serving Size:</strong> Tells you how much equals one serving</li>
-                <li><strong>Dates:</strong> "Best Before" vs. "Expiry" dates</li>
-            </ol>
-            <p><strong>"Best Before" vs. "Expiry Date":</strong></p>
-            <ul>
-                <li><strong>Best Before:</strong> Food is at its best quality before this date, but still safe to eat after</li>
-                <li><strong>Expiry Date:</strong> Do not eat after this date - could be unsafe</li>
-            </ul>
-            <p><strong>How to Spot Healthy vs. Unhealthy Foods:</strong></p>
-            <ul>
-                <li>Look for high fibre, protein, vitamins, and minerals</li>
-                <li>Watch out for high sugar, sodium (salt), and saturated fat</li>
-                <li>Check if sugar is listed in the first 3 ingredients</li>
-                <li>Compare similar products to choose the healthier option</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-search" style="color: #4A90E2;"></i> Label Detective</div>
-                <p>If sugar, corn syrup, or fructose are in the first 3 ingredients, the food is likely high in sugar!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale"></i> Comparing Labels</div>
-                <p>Two cereal boxes might look similar, but one could have 5g of sugar per serving while another has 15g!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-calendar-alt"></i> Date Meanings</div>
-                <p>"Best Before Mar 15" means the food tastes best before that date. "Expires Mar 15" means don't eat it after that date.</p>
-            </div>
-        `,
-        taskInstructions: "Analyze real food labels and practice making healthy choices.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Label Investigation</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Using a cereal box or snack wrapper, find:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Sugar content per serving: _________ g</div>
-                        <div>Protein amount per serving: _________ g</div>
-                        <div>Fibre amount per serving: _________ g</div>
-                        <div>Expiry or Best Before date: _________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Ingredients Analysis</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> List the first 5 ingredients from your food package:
-                    <div class="answer-space" style="height: 100px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Is sugar in the first 3 ingredients? What does this tell you?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Healthy or Unhealthy?</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> Based on the label, is this food "healthy" or "unhealthy"? Give 3 reasons:
+                    <span class="task-number">1</span> List four physical changes that happen to both boys and girls during puberty:
                     <div class="answer-space" style="height: 120px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Create Your Own Label</strong></p>
+                <p><strong>Part B: Body Changes Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Design a nutrition label for a healthy snack. Include:
-                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Include: Food name, serving size, nutrients, ingredients)</p>
+                    <span class="task-number">2</span> On the body outline below, label where the following changes occur:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Pubic hair growth</div>
+                        <div>• Axillary (armpit) hair growth</div>
+                        <div>• Acne (face, back, chest)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: True or False</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read each statement and circle True or False:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Everyone starts puberty at exactly the same age. (True / False)</div>
+                        <div>B. Body odor is caused by bacteria mixing with sweat. (True / False)</div>
+                        <div>C. Acne means something is wrong with your body. (True / False)</div>
+                        <div>D. Both boys and girls grow pubic hair during puberty. (True / False)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> How do you feel about the physical changes that happen during puberty? Write one question you have about these changes.
+                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find and compare labels from two similar products at home (like two different cereal boxes). Note which is healthier and why.",
+        homework: "Talk with a trusted adult (parent, guardian, or older sibling) about one physical change that happens during puberty. Write down one new thing you learned from the conversation.",
+        homeworkDue: "Wednesday"
+    },
+    
+    wednesday: {
+        subject: "Science",
+        topic: "Human Development",
+        subtopic: "Social and Emotional Changes During Puberty",
+        lessonContent: `
+            <p>Today we'll explore the social and emotional changes that happen during puberty. These changes are just as important as physical changes!</p>
+            <p><strong>Key Question:</strong> What emotional and social changes do young people experience during puberty?</p>
+            <p><strong>Introduction:</strong> While your body is changing on the outside, your brain and feelings are also growing and changing. These emotional and social changes are a normal part of becoming a young adult.</p>
+            <p><strong>Emotional Changes (Both Boys and Girls):</strong></p>
+            <ol>
+                <li><strong>Mood Swings:</strong> Feelings may change quickly - happy one moment, sad or frustrated the next. This is caused by hormones.</li>
+                <li><strong>Increased Self-Awareness:</strong> You may think more about how others see you and become more self-conscious.</li>
+                <li><strong>New Feelings:</strong> You may experience new emotions like romantic feelings or stronger friendships.</li>
+                <li><strong>Seeking Independence:</strong> Wanting more privacy and making more decisions for yourself.</li>
+                <li><strong>Increased Sensitivity:</strong> Feeling things more deeply or being more easily hurt by others' words.</li>
+            </ol>
+            <p><strong>Social Changes (Both Boys and Girls):</strong></p>
+            <ol>
+                <li><strong>Changing Friendships:</strong> Friendships may become more important, and friend groups might change.</li>
+                <li><strong>Interest in Relationships:</strong> Becoming more interested in romantic relationships or having a "crush."</li>
+                <li><strong>Wanting More Privacy:</strong> Needing time alone and wanting personal space.</li>
+                <li><strong>Comparing Yourself to Others:</strong> Noticing how you look and act compared to friends and classmates.</li>
+                <li><strong>Peer Influence:</strong> Friends' opinions may feel more important than before.</li>
+            </ol>
+            <p><strong>Healthy Ways to Cope:</strong> Talk to trusted adults, write in a journal, get enough sleep, exercise regularly, and remember that these feelings are normal!</p>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-smile"></i> <i class="fas fa-sad-tear"></i> Mood Swings</div>
+                <p>Have you ever felt really happy, then suddenly felt annoyed or sad for no clear reason? That's a mood swing! It's caused by changing hormone levels in your body.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-users"></i> Friendship Changes</div>
+                <p>During puberty, you might find that you have different interests than some of your old friends - and that's okay! New friendships can form based on shared interests and values.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-journal-whills"></i> Healthy Coping</div>
+                <p>Many people find that talking to a parent, older sibling, school counselor, or writing in a journal helps them understand and manage their changing emotions.</p>
+            </div>
+        `,
+        taskInstructions: "Identify and discuss social and emotional changes experienced by both boys and girls during puberty.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Emotional Changes List</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> List five emotional changes that can happen during puberty:
+                    <div class="answer-space" style="height: 120px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Social Changes Scenarios</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each scenario and identify which social change is being described:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Maria wants to close her bedroom door when she's getting dressed. → _________</div>
+                        <div>B. Jamal notices that his best friend has grown taller than him. → _________</div>
+                        <div>C. Aisha feels nervous and excited when a certain classmate is near. → _________</div>
+                        <div>D. David's friends want him to try something he's not sure about. → _________</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Healthy Coping Strategies</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> List three healthy ways to cope with emotional changes during puberty:
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Think about a time you felt a strong emotion recently. What helped you feel better? If nothing helped, what might you try next time?
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Name one trusted adult you could talk to if you're feeling confused or overwhelmed about changes during puberty.
+                    <div class="answer-space" style="height: 50px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Write a short paragraph about one emotional or social change you have noticed in yourself or a friend. (Remember: no names, just describe the change.)",
+        homeworkDue: "Friday"
+    },
+    
+    friday: {
+        subject: "Science",
+        topic: "Human Development",
+        subtopic: "Personal Hygiene During Puberty",
+        lessonContent: `
+            <p>Today we'll learn about personal hygiene during puberty - why it matters, how to maintain it, and why there's nothing to be embarrassed about!</p>
+            <p><strong>Key Question:</strong> Why is personal hygiene especially important during puberty, and how can we maintain good habits?</p>
+            <p><strong>Introduction:</strong> Because of the physical changes during puberty (more sweat, more oil, hair growth), keeping clean becomes more important than ever. Good hygiene helps you feel fresh, confident, and healthy.</p>
+            <p><strong>Personal Hygiene Requirements During Puberty:</strong></p>
+            <ol>
+                <li><strong>Daily Showering or Bathing:</strong> Wash your entire body with soap and warm water every day.</li>
+                <li><strong>Using Deodorant or Antiperspirant:</strong> Apply daily to help control body odor and sweat.</li>
+                <li><strong>Washing Hair Regularly:</strong> Shampoo your hair every few days (or more often if it gets oily).</li>
+                <li><strong>Face Washing:</strong> Wash your face twice a day with gentle cleanser to help prevent acne.</li>
+                <li><strong>Changing Clothes Daily:</strong> Wear clean underwear, socks, and clothes every day.</li>
+                <li><strong>Oral Hygiene:</strong> Brush teeth twice daily and floss once daily.</li>
+                <li><strong>Hand Washing:</strong> Wash hands regularly, especially before eating and after using the bathroom.</li>
+            </ol>
+            <p><strong>Breaking Down Common Taboos:</strong></p>
+            <ul>
+                <li><strong>Taboo:</strong> "It's embarrassing to talk about body odor or sweat."</li>
+                <li><strong>Truth:</strong> Everyone experiences these changes! Talking openly helps everyone stay healthy and confident.</li>
+                <li><strong>Taboo:</strong> "Only girls need to worry about hygiene."</li>
+                <li><strong>Truth:</strong> Good hygiene is important for EVERYONE, regardless of gender.</li>
+                <li><strong>Taboo:</strong> "Asking questions about puberty is weird."</li>
+                <li><strong>Truth:</strong> Asking questions is how we learn! Trusted adults, teachers, and doctors are there to help.</li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-pump-soap"></i> Daily Routine Example</div>
+                <p>A good hygiene routine: Morning - wash face, brush teeth, apply deodorant. Evening - shower, wash face, brush teeth. Change underwear and socks daily.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-comments"></i> It's Okay to Ask!</div>
+                <p>If you're not sure how to use deodorant, how often to shower, or what products to use - just ask! Parents, older siblings, and school nurses are happy to help.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-smile"></i> Confidence Connection</div>
+                <p>Good hygiene helps you feel fresh and confident. When you know you look clean and smell good, it's easier to focus on learning and having fun with friends!</p>
+            </div>
+        `,
+        taskInstructions: "Group discussion on hygiene requirements and breaking down common taboos.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Hygiene Checklist</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Create a personal daily hygiene checklist with at least 5 items:
+                    <div class="answer-space" style="height: 150px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Taboo or Truth?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each statement. Write "TABOO" if it's an embarrassing myth or "TRUTH" if it's a fact:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. "Only teenagers get body odor." _________</div>
+                        <div>B. "It's normal to have questions about puberty." _________</div>
+                        <div>C. "Good hygiene is only important for girls." _________</div>
+                        <div>D. "Washing your face can help prevent acne." _________</div>
+                        <div>E. "You shouldn't talk about body changes with anyone." _________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Group Discussion Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> In your group, discuss these questions. Write your answers after discussing:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. Why do you think some people feel embarrassed to talk about puberty and hygiene?</div>
+                        <div class="answer-space" style="height: 80px;"></div>
+                        <div>B. How can we make it easier for people to ask questions about these topics?</div>
+                        <div class="answer-space" style="height: 80px;"></div>
+                        <div>C. What is one myth or taboo about puberty that you think should be talked about more openly?</div>
+                        <div class="answer-space" style="height: 80px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Personal Action Plan</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write one hygiene habit you will start or improve starting today:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write one question about puberty or hygiene that you would like to ask a trusted adult:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "With a parent or guardian, create a small hygiene kit (deodorant, face wash, shampoo, etc.) or make a list of hygiene products you need. Write down any questions you have about using these products.",
         homeworkDue: "Monday"
     }
 };

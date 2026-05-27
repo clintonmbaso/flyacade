@@ -5,105 +5,183 @@ const grade5ScienceWeek8 = {
         subject: "Science",
         term: 2,
         week: 8,
-        title: "Why Vertebrates Matter",
-        description: "Exploring the importance of vertebrates as food, resources, tourism assets, pets, and understanding their roles as pests and vectors"
+        title: "Climate Change & The Water Cycle",
+        description: "Exploring climate change causes and consequences, and understanding Earth's water cycle"
     },
     
     monday: {
         subject: "Science",
-        topic: "Animal Biology",
-        subtopic: "Vertebrates as Food and Resources",
+        topic: "Environmental Science",
+        subtopic: "Introduction to Climate Change",
         lessonContent: `
-            <p>Welcome to our exploration of why vertebrates matter in our daily lives! Today we'll discover how animals provide us with food and raw materials.</p>
-            <p><strong>Key Question:</strong> How do vertebrates help us survive and live comfortably?</p>
-            <p><strong>Introduction:</strong> Vertebrates (animals with backbones) are incredibly important to humans. They provide us with food, clothing, and many other products we use every day.</p>
-            <p><strong>Vertebrates as Food Sources:</strong></p>
+            <p>Welcome to our exploration of climate change! Today we'll learn what climate change means and how human activities affect our planet.</p>
+            <p><strong>Key Question:</strong> What is climate change and what causes it?</p>
+            <p><strong>Introduction:</strong> Climate change refers to the long-term changes in temperature, rainfall, and weather patterns on Earth. While climate has always changed naturally, scientists have observed that Earth is warming much faster than ever before.</p>
+            <p><strong>What's the difference between weather and climate?</strong></p>
             <ul>
-                <li><strong>Cattle (Cows):</strong> Provide beef (meat) and milk (for cheese, yogurt, butter)</li>
-                <li><strong>Goats:</strong> Provide meat and milk (popular in many cultures)</li>
-                <li><strong>Chickens:</strong> Provide chicken meat and eggs (a vital protein source worldwide)</li>
-                <li><strong>Fish:</strong> Provide protein and healthy fats (salmon, tilapia, tuna, and many more)</li>
-                <li><strong>Pigs:</strong> Provide pork (bacon, ham, sausages)</li>
-                <li><strong>Sheep:</strong> Provide lamb meat and milk</li>
+                <li><strong>Weather:</strong> What happens outside today - rain, sun, clouds, temperature</li>
+                <li><strong>Climate:</strong> The average weather pattern over many years in a region</li>
             </ul>
-            <p><strong>Vertebrates as Sources of Raw Materials:</strong></p>
-            <ul>
-                <li><strong>Leather (from cattle hides):</strong> Used for shoes, belts, bags, jackets, furniture</li>
-                <li><strong>Wool (from sheep):</strong> Used for sweaters, blankets, scarves, carpets</li>
-                <li><strong>Feathers (from chickens, ducks, geese):</strong> Used for pillows, comforters, insulation in jackets</li>
-                <li><strong>Bones (from various animals):</strong> Used for gelatin (in gummy candies, marshmallows), buttons, and tools</li>
-            </ul>
+            <p><strong>Human-Driven Causes of Climate Change:</strong></p>
+            <ol>
+                <li><strong>Deforestation:</strong> Cutting down forests removes trees that absorb carbon dioxide (a greenhouse gas)</li>
+                <li><strong>Bush Burning:</strong> Burning vegetation releases large amounts of smoke and carbon dioxide into the air</li>
+                <li><strong>Emissions:</strong> Pollution from cars, factories, and power plants releases greenhouse gases</li>
+            </ol>
+            <p><strong>The Greenhouse Effect:</strong> Certain gases trap heat in our atmosphere like a blanket. This is natural and necessary for life, but too much trapped heat causes global warming.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-egg"></i> Protein Power</div>
-                <p>One chicken egg contains about 6-7 grams of protein - that's like building blocks for your muscles! Eggs are one of the most complete protein sources available.</p>
+                <div class="example-title"><i class="fas fa-tree"></i> Trees Are Climate Helpers</div>
+                <p>One large tree can absorb about 22 kilograms of carbon dioxide per year. That's why deforestation - cutting down forests - makes climate change worse!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tshirt"></i> Wool Wonders</div>
-                <p>Sheep grow a new coat of wool every year. One sheep can produce enough wool for 5-10 sweaters! Wool keeps you warm even when it's wet.</p>
+                <div class="example-title"><i class="fas fa-car"></i> Transportation Impact</div>
+                <p>An average car produces about 4.6 metric tons of carbon dioxide each year. Walking, biking, or taking public transport helps reduce emissions.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-industry"></i> No Waste</div>
-                <p>Farmers and industries use almost every part of animals. Even animal hooves can be turned into glue or pet food. Nothing goes to waste!</p>
+                <div class="example-title"><i class="fas fa-fire"></i> Bush Burning Facts</div>
+                <p>When farmers burn bush to clear land, the smoke contains carbon dioxide, methane, and black carbon - all of which contribute to warming our planet.</p>
             </div>
         `,
-        taskInstructions: "Identify vertebrate-derived products in your home and reflect on animal importance.",
+        taskInstructions: "Define climate change, identify causes, and create a cause-and-effect diagram.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Home Investigation</strong></p>
+                <p><strong>Part A: Key Terms</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List five items in your house that come from a vertebrate animal:
+                    <span class="task-number">1</span> Define the following terms in your own words:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Item 1: _________ (comes from: _________ )</div>
-                        <div>Item 2: _________ (comes from: _________ )</div>
-                        <div>Item 3: _________ (comes from: _________ )</div>
-                        <div>Item 4: _________ (comes from: _________ )</div>
-                        <div>Item 5: _________ (comes from: _________ )</div>
-                    </div>
-                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Food Source Matching</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Match each animal to the food it provides:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>___ Cow &nbsp;&nbsp;&nbsp; a. Eggs</div>
-                        <div>___ Chicken &nbsp;&nbsp;&nbsp; b. Beef and milk</div>
-                        <div>___ Fish &nbsp;&nbsp;&nbsp; c. Pork and bacon</div>
-                        <div>___ Pig &nbsp;&nbsp;&nbsp; d. Salmon or tilapia</div>
-                        <div>___ Sheep &nbsp;&nbsp;&nbsp; e. Lamb meat</div>
+                        <div>Climate Change: <span class="answer-space" style="display: inline-block; width: 60%; border-bottom: 1px dotted #ccc;"></span></div>
+                        <div style="margin-top: 10px;">Greenhouse Effect: <span class="answer-space" style="display: inline-block; width: 60%; border-bottom: 1px dotted #ccc;"></span></div>
+                        <div style="margin-top: 10px;">Emissions: <span class="answer-space" style="display: inline-block; width: 60%; border-bottom: 1px dotted #ccc;"></span></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Raw Materials Chart</strong></p>
+                <p><strong>Part B: Cause and Effect Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Complete the chart below:
-                    <div style="margin-left: 20px; margin-top: 10px;">
+                    <span class="task-number">2</span> Complete the diagram showing how human activities cause climate change:
+                    <div style="margin-top: 10px; text-align: center;">
+                        <div style="display: inline-block; width: 200px; border: 2px solid #E74C3C; padding: 10px; border-radius: 10px;">Deforestation</div>
+                        <div style="display: inline-block; margin: 0 20px;">→</div>
+                        <div style="display: inline-block; width: 200px; border: 2px solid #E74C3C; padding: 10px; border-radius: 10px;">?</div>
+                    </div>
+                    <div style="margin-top: 15px; text-align: center;">
+                        <div style="display: inline-block; width: 200px; border: 2px solid #E74C3C; padding: 10px; border-radius: 10px;">Bush Burning</div>
+                        <div style="display: inline-block; margin: 0 20px;">→</div>
+                        <div style="display: inline-block; width: 200px; border: 2px solid #E74C3C; padding: 10px; border-radius: 10px;">?</div>
+                    </div>
+                    <div style="margin-top: 15px; text-align: center;">
+                        <div style="display: inline-block; width: 200px; border: 2px solid #E74C3C; padding: 10px; border-radius: 10px;">Emissions from Cars/Factories</div>
+                        <div style="display: inline-block; margin: 0 20px;">→</div>
+                        <div style="display: inline-block; width: 200px; border: 2px solid #E74C3C; padding: 10px; border-radius: 10px;">?</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 15px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reflection Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Why is deforestation considered a cause of climate change?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> List two things humans can do to reduce emissions:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Ask a family member what they know about climate change. Write down three things they tell you and add one fact you learned today.",
+        homeworkDue: "Wednesday"
+    },
+    
+    wednesday: {
+        subject: "Science",
+        topic: "Environmental Science",
+        subtopic: "Consequences of Climate Change",
+        lessonContent: `
+            <p>Today we'll explore how climate change affects our environment, wildlife, and communities!</p>
+            <p><strong>Key Question:</strong> What happens to our planet as temperatures rise?</p>
+            <p><strong>Major Consequences of Climate Change:</strong></p>
+            <ol>
+                <li><strong>Loss of Wildlife Habitats:</strong>
+                    <ul>
+                        <li>Animals lose their homes as forests disappear and temperatures change</li>
+                        <li>Polar bears struggle as Arctic ice melts</li>
+                        <li>Many species may become extinct if they can't adapt</li>
+                    </ul>
+                </li>
+                <li><strong>Severe Droughts:</strong>
+                    <ul>
+                        <li>Long periods without rain damage crops and reduce water supply</li>
+                        <li>Farmers struggle to grow food</li>
+                        <li>Wildfires become more common in dry areas</li>
+                    </ul>
+                </li>
+                <li><strong>Rising Temperatures:</strong>
+                    <ul>
+                        <li>Heatwaves become more frequent and intense</li>
+                        <li>Plants and animals struggle to survive in hotter conditions</li>
+                        <li>Increased energy use for cooling</li>
+                    </ul>
+                </li>
+                <li><strong>Floods:</strong>
+                    <ul>
+                        <li>Sea levels rise as polar ice melts</li>
+                        <li>Heavier rainfall causes rivers to overflow</li>
+                        <li>Coastal communities face flooding risks</li>
+                    </ul>
+                </li>
+            </ol>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-paw"></i> Wildlife at Risk</div>
+                <p>The polar bear depends on sea ice to hunt seals. As Arctic ice melts earlier each spring, polar bears have less time to hunt and store energy for summer.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-tint"></i> Drought Impact</div>
+                <p>In some parts of Africa, droughts have become so severe that crops fail and communities face food shortages. Farmers are forced to find new ways to grow food.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-water"></i> Rising Seas</div>
+                <p>Island nations like Tuvalu in the Pacific Ocean are threatened by rising sea levels. Some communities may need to relocate as their land becomes flooded.</p>
+            </div>
+        `,
+        taskInstructions: "Analyze consequences of climate change and complete an impact chart.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Consequences Chart</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Complete the chart below by describing each consequence:
+                    <div style="margin-top: 10px;">
                         <table style="width: 100%; border-collapse: collapse;">
                             <tr style="background-color: #4A90E2; color: white;">
-                                <th style="padding: 8px; border: 1px solid #ddd;">Raw Material</th>
-                                <th style="padding: 8px; border: 1px solid #ddd;">Source Animal</th>
-                                <th style="padding: 8px; border: 1px solid #ddd;">Products Made From It</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Consequence</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">What Happens?</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Example</th>
                             </tr>
                             <tr>
-                                <td style="padding: 8px; border: 1px solid #ddd;">Leather</td>
-                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
-                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Loss of Wildlife Habitats</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
                             </tr>
                             <tr>
-                                <td style="padding: 8px; border: 1px solid #ddd;">Wool</td>
-                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
-                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Severe Droughts</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
                             </tr>
                             <tr>
-                                <td style="padding: 8px; border: 1px solid #ddd;">Feathers</td>
-                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
-                                <td style="padding: 8px; border: 1px solid #ddd;">_________</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Rising Temperatures</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Floods</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 60px;"></div></td>
                             </tr>
                         </table>
                     </div>
@@ -111,195 +189,153 @@ const grade5ScienceWeek8 = {
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Reflection</strong></p>
+                <p><strong>Part B: Connection Chain</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Why do you think humans have domesticated (tamed) these animals instead of hunting them in the wild?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-        `,
-        homework: "With a parent's help, check the labels on 5 packaged foods in your kitchen. How many contain ingredients that came from vertebrate animals? (Hint: Look for gelatin, milk products, eggs, etc.)",
-        homeworkDue: "Wednesday"
-    },
-    
-    wednesday: {
-        subject: "Science",
-        topic: "Animal Biology",
-        subtopic: "Tourism, Pets, and Pollination",
-        lessonContent: `
-            <p>Today we'll discover how vertebrates contribute to tourism, help plants grow, and become our beloved companions!</p>
-            <p><strong>Key Question:</strong> How do animals bring joy, money, and ecological balance to our world?</p>
-            <p><strong>Vertebrates and Tourism:</strong></p>
-            <ul>
-                <li><strong>National Parks and Game Reserves:</strong> People travel from around the world to see lions, elephants, giraffes, zebras, and rhinos</li>
-                <li><strong>Bird Watching:</strong> Many tourists come specifically to see exotic bird species</li>
-                <li><strong>Economic Impact:</strong> Tourism creates jobs (guides, hotel workers, drivers) and brings money to local communities</li>
-                <li><strong>Conservation:</strong> Money from tourism helps protect animals and their habitats</li>
-            </ul>
-            <p><strong>Vertebrates and Pollination:</strong></p>
-            <ul>
-                <li><strong>Birds (Sunbirds, Hummingbirds):</strong> Drink nectar from flowers and carry pollen from flower to flower</li>
-                <li><strong>Bats:</strong> Many bats are important pollinators for fruits like bananas, mangoes, and guavas</li>
-                <li><strong>Why it matters:</strong> Without these vertebrate pollinators, many plants couldn't reproduce and produce fruits or seeds</li>
-            </ul>
-            <p><strong>Vertebrates as Companions (Pets):</strong></p>
-            <ul>
-                <li><strong>Dogs:</strong> Provide friendship, security, and help for people with disabilities</li>
-                <li><strong>Cats:</strong> Offer companionship and help control rodent populations</li>
-                <li><strong>Birds, Fish, Hamsters, Rabbits:</strong> Also make wonderful pets</li>
-                <li><strong>Health Benefits:</strong> Having pets can reduce stress, lower blood pressure, and increase physical activity</li>
-            </ul>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree"></i> Tourism Success</div>
-                <p>Countries like Kenya, Tanzania, South Africa, and Costa Rica earn millions of dollars each year from wildlife tourism. One lion can be worth more alive (tourists photographing it) than dead!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-feather-alt"></i> Bird Pollinators</div>
-                <p>Sunbirds are called "nature's hummingbirds of Africa." They have long, curved beaks perfect for reaching deep into flowers for nectar.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-dog"></i> Pets and Health</div>
-                <p>Studies show that petting a dog or cat for just 10 minutes can lower stress hormones and make you feel happier! That's why therapy animals visit hospitals.</p>
-            </div>
-        `,
-        taskInstructions: "Design a travel poster for a national park and explore animal roles.",
-        taskContent: `
-            <div class="content-box">
-                <p><strong>Part A: Travel Poster Design</strong></p>
-                <div class="task-item">
-                    <span class="task-number">1</span> Design a small "Travel Poster" for a local national park or a park you know. Feature one vertebrate animal that tourists would want to see:
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;">
-                        <p style="text-align: center; color: #999; padding-top: 100px;">[Draw your travel poster here]</p>
+                    <span class="task-number">2</span> How are rising temperatures connected to floods? Complete the chain:
+                    <div style="margin-top: 10px; text-align: center;">
+                        <div style="display: inline-block; width: 150px; border: 2px solid #E67E22; padding: 8px; border-radius: 10px;">Rising Temperatures</div>
+                        <div style="display: inline-block; margin: 0 10px;">→</div>
+                        <div style="display: inline-block; width: 150px; border: 2px solid #E67E22; padding: 8px; border-radius: 10px;">?</div>
+                        <div style="display: inline-block; margin: 0 10px;">→</div>
+                        <div style="display: inline-block; width: 150px; border: 2px solid #E67E22; padding: 8px; border-radius: 10px;">Rising Sea Levels</div>
+                        <div style="display: inline-block; margin: 0 10px;">→</div>
+                        <div style="display: inline-block; width: 150px; border: 2px solid #E67E22; padding: 8px; border-radius: 10px;">?</div>
                     </div>
-                    <div style="margin-top: 10px;">
-                        <div>• Name of park: _________</div>
-                        <div>• Featured animal: _________</div>
-                        <div>• Slogan: _________</div>
-                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 15px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Pollination Partners</strong></p>
+                <p><strong>Part C: Impact Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Name two vertebrate animals that help pollinate plants and one plant that each helps:
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">3</span> Draw one consequence of climate change that concerns you most:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">3</span> Why would it be a problem if all the sunbirds disappeared?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Pet Benefits</strong></p>
-                <div class="task-item">
-                    <span class="task-number">4</span> List three benefits of having a pet as a companion:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> If you could have any vertebrate as a pet, which would you choose and why? (Remember: some animals belong in the wild, not as pets!)
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">4</span> Explain your drawing and why this consequence matters:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member about their favorite wild animal they would like to see on a safari or in a national park. Why do they want to see that animal?",
+        homework: "Find a news article or video about climate change impacts in your country or region. Write a short summary of what you learned.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "Animal Biology",
-        subtopic: "The Good and the Bad (Vectors and Pests)",
+        topic: "Earth Science",
+        subtopic: "The Water Cycle - Earth's Hydrological Engine",
         lessonContent: `
-            <p>Today we'll learn that while vertebrates are valuable, some can also cause problems - and why every animal has an important "job" in nature!</p>
-            <p><strong>Key Question:</strong> Can the same animal be both helpful and harmful?</p>
-            <p><strong>Vertebrates as Vectors (Disease Carriers):</strong></p>
+            <p>Today we'll discover how water moves around our planet in an amazing never-ending journey called the Water Cycle!</p>
+            <p><strong>Key Question:</strong> How does water travel from the ocean to the sky to the ground and back again?</p>
+            <p><strong>Introduction:</strong> The water cycle (also called the hydrological cycle) is Earth's natural system for moving and recycling water. The same water has been cycling for billions of years!</p>
+            <p><strong>The Steps of the Water Cycle:</strong></p>
+            <ol>
+                <li><strong>Evaporation:</strong> Heat from the sun turns liquid water into water vapor (gas). This happens in oceans, lakes, rivers, and even puddles!</li>
+                <li><strong>Condensation:</strong> Water vapor rises and cools, turning back into tiny liquid water droplets. These droplets form clouds.</li>
+                <li><strong>Precipitation:</strong> When cloud droplets join together and become heavy, they fall as rain, snow, sleet, or hail.</li>
+                <li><strong>Collection:</strong> Precipitation falls back into oceans, lakes, rivers, and soaks into the ground (groundwater).</li>
+            </ol>
+            <p><strong>Other Important Pathways:</strong></p>
             <ul>
-                <li><strong>Rodents (Rats and Mice):</strong> Can carry diseases like hantavirus, leptospirosis, and historically the plague (through fleas on rats)</li>
-                <li><strong>How they spread disease:</strong> Through droppings, urine, bites, or fleas that live on them</li>
-                <li><strong>Prevention:</strong> Proper food storage, sealing holes in buildings, and maintaining clean environments</li>
-            </ul>
-            <p><strong>Vertebrates as Pests (Crop Damage):</strong></p>
-            <ul>
-                <li><strong>Elephants:</strong> Can destroy farmers' crops when they wander onto farmland</li>
-                <li><strong>Monkeys and Baboons:</strong> Often raid fruit and vegetable farms</li>
-                <li><strong>Birds (Quelea finches):</strong> Can swarm and eat entire grain fields</li>
-                <li><strong>Wild pigs:</strong> Root up crops and damage soil</li>
-                <li><strong>Human-wildlife conflict:</strong> A major challenge in areas where wild animals and people live close together</li>
-            </ul>
-            <p><strong>Ecosystem Balance - Every Animal Has a Job:</strong></p>
-            <ul>
-                <li><strong>Natural pest control:</strong> Owls and hawks eat rats and mice. Without them, rodent populations would explode!</li>
-                <li><strong>Scavengers:</strong> Vultures clean up dead animals, preventing disease spread</li>
-                <li><strong>Balance:</strong> Killing predators often makes pest problems worse</li>
-                <li><strong>Solutions:</strong> Using natural predators instead of poison; building fences; creating wildlife corridors</li>
+                <li><strong>Transpiration:</strong> Water released from plant leaves into the air</li>
+                <li><strong>Runoff:</strong> Water that flows over land into rivers, lakes, and oceans</li>
+                <li><strong>Infiltration:</strong> Water that soaks into the ground</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-rat"></i> The Rat Problem</div>
-                <p>One pair of rats can produce up to 2,000 descendants in a single year if conditions are perfect! That's why natural predators like owls are so important.</p>
+                <div class="example-title"><i class="fas fa-sun"></i> Sun-Powered Engine</div>
+                <p>The sun is the engine that powers the entire water cycle! Without the sun's heat, water wouldn't evaporate and the cycle would stop.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-owl"></i> Nature's Pest Control</div>
-                <p>A single barn owl family can eat over 3,000 rats and mice in one year! Farmers who put up owl boxes often see fewer rodents damaging their grain.</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Puddle Disappearance</div>
+                <p>Have you ever seen a puddle disappear on a sunny day? That's evaporation in action! The water turns into invisible vapor and rises into the air.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-elephant"></i> Elephant Solutions</div>
-                <p>In some African countries, beehive fences keep elephants away from farms. Elephants are afraid of bees, so hanging beehives around fields protects crops AND gives farmers honey!</p>
+                <div class="example-title"><i class="fas fa-leaf"></i> Trees and Water</div>
+                <p>A large tree can release over 400 liters of water into the air through transpiration each day! That's like 2 bathtubs full of water!</p>
             </div>
         `,
-        taskInstructions: "Write an advice column for a farmer and reflect on ecosystem balance.",
+        taskInstructions: "Describe the water cycle steps and create a labeled diagram.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Advice Column</strong></p>
+                <p><strong>Part A: Water Cycle Steps</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Write a short "Advice Column" response to this farmer's letter:
-                    <div style="background-color: #f5f5f5; padding: 15px; margin: 10px 0; border-left: 4px solid #4A90E2;">
-                        <p><strong>Dear Science Helper,</strong></p>
-                        <p>I have too many rats in my grain store! They are eating my harvest and leaving droppings everywhere. My neighbor says I should kill all the owls and hawks nearby because they might eat my chickens too. Should I do that? What should I do instead?</p>
-                        <p>Sincerely,<br>Desperate Farmer</p>
+                    <span class="task-number">1</span> Complete the table with the correct information:
+                    <div style="margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #3498DB; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Step</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">What Happens?</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Example</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Evaporation</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Condensation</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Precipitation</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                             </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">Collection</td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                                <td style="padding: 10px; border: 1px solid #ddd;"><div class="answer-space" style="height: 50px;"></div></td>
+                             </tr>
+                         </table>
                     </div>
-                    <div class="answer-space" style="height: 150px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Vectors and Pests</strong></p>
+                <p><strong>Part B: Water Cycle Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> What is the difference between a "vector" and a "pest"?
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">2</span> Draw and label the complete water cycle including:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Evaporation (from ocean/lake)</div>
+                        <div>• Transpiration (from tree)</div>
+                        <div>• Condensation (cloud formation)</div>
+                        <div>• Precipitation (rain/snow)</div>
+                        <div>• Runoff (water flowing to ocean)</div>
+                        <div>• Infiltration (water soaking into ground)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Understanding Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> What provides the energy for the water cycle?
+                    <div class="answer-space" style="height: 40px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">3</span> Name two vertebrate animals that can be considered pests for farmers:
+                    <span class="task-number">4</span> Why is the water cycle called a "cycle"?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> How might climate change affect the water cycle?
                     <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Ecosystem Balance</strong></p>
+                <p><strong>Part D: Connection Question</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Explain why killing all the owls would actually make the farmer's rat problem WORSE, not better:
-                    <div class="answer-space" style="height: 100px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> List two solutions for human-wildlife conflict that don't involve killing animals:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Week Wrap-up Reflection</strong></p>
-                <div class="task-item">
-                    <span class="task-number">6</span> What is the most important thing you learned this week about why vertebrates matter?
+                    <span class="task-number">6</span> How is the water cycle connected to climate change? (Think about evaporation, droughts, and floods)
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a "Balance in Nature" poster showing a food chain that includes a predator and its prey. Explain why both are important to keep the ecosystem healthy.",
+        homework: "Observe the weather over the weekend. Draw a picture showing where water might be evaporating, condensing, or precipitating in your area.",
         homeworkDue: "Monday"
     }
 };

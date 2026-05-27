@@ -1,264 +1,404 @@
-// Grade 5 Science - Week 3 Data
+// Grade 5 Science - Term 1 Week 3 Data
 const grade5ScienceWeek3 = {
     metadata: {
         grade: 5,
         subject: "Science",
         term: 1,
         week: 3,
-        title: "The Human Skeletal System",
-        description: "Understanding bone functions, comparing skeletons, and bone health with modeling"
+        title: "Functions & Comparisons of the Skeleton",
+        description: "Exploring primary and secondary functions of the human skeleton and comparing it with other vertebrates"
     },
     
     monday: {
         subject: "Science",
-        topic: "The Human Body",
-        subtopic: "Why Do We Need Bones? (Functions)",
+        topic: "Human Biology",
+        subtopic: "Primary Functions of the Human Skeleton",
         lessonContent: `
-            <p>Welcome to our study of the skeletal system! Today we will explore the five main functions of our bones and why they are so important for our bodies.</p>
-            <p><strong>The Five Main Functions of Bones:</strong></p>
+            <p>Welcome to our exploration of the amazing human skeleton! Today we'll learn about the three primary functions that keep us alive and active.</p>
+            <p><strong>Key Question:</strong> What would happen to your body without a skeleton?</p>
+            <p><strong>Introduction:</strong> The human skeleton is a living framework of 206 bones that works like an internal support system. Without it, we would be a shapeless blob on the floor!</p>
+            <p><strong>Three Primary Functions of the Skeleton:</strong></p>
             <ol>
-                <li><strong>Support:</strong> Bones provide a framework that supports our body, just like beams support a house.</li>
-                <li><strong>Protection:</strong> Bones protect delicate organs (skull protects brain, ribs protect heart and lungs).</li>
-                <li><strong>Shape:</strong> Bones give our body its unique human shape and structure.</li>
-                <li><strong>Movement:</strong> Bones act as levers that muscles pull on to create movement.</li>
-                <li><strong>Blood Cell Production:</strong> Bone marrow inside bones produces red blood cells, white blood cells, and platelets.</li>
+                <li><strong>Providing Support:</strong> The skeleton acts like a building's steel frame, holding your body upright and giving it structure. Your spine supports your head, your legs support your body weight, and your ribs support your chest wall.</li>
+                <li><strong>Physical Protection:</strong> Hard bones create protective cages around your most delicate organs:
+                    <ul>
+                        <li><strong>Skull:</strong> Protects your brain like a helmet</li>
+                        <li><strong>Rib Cage:</strong> Shields your heart and lungs</li>
+                        <li><strong>Spine (Vertebrae):</strong> Surrounds and protects your spinal cord</li>
+                        <li><strong>Pelvis:</strong> Protects lower abdominal organs</li>
+                    </ul>
+                </li>
+                <li><strong>Maintaining Shape:</strong> Your skeleton determines your overall body shape and size. It creates the framework that muscles attach to, giving your body its unique form.</li>
             </ol>
-            <p><strong>Special Focus: Bone Marrow</strong></p>
-            <p>Bone marrow is a soft, spongy tissue inside some bones. It works like a factory producing:
-            • Red blood cells (carry oxygen)
-            • White blood cells (fight infections)
-            • Platelets (help blood clot)</p>
-            <p><strong>Why is this important?</strong> Without bone marrow, our bodies couldn't make new blood cells, which are essential for life!</p>
+            <p><strong>Quick Fact:</strong> Your skeleton is completely replaced about every 10 years through a process called remodeling!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #4A90E2;"></i> Support Like a House</div>
-                <p>Just as a house needs beams and pillars to stand, your body needs bones for support. Try standing without your skeleton - you'd collapse like a jellyfish!</p>
+                <div class="example-title"><i class="fas fa-building"></i> Support Like a Building</div>
+                <p>Just as a building needs steel beams and columns to stand up, your body needs bones. Without your leg bones, you would collapse like a tent without poles!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Protection in Action</div>
-                <p>Your rib cage is like a protective cage around your heart and lungs. Your skull is like a helmet for your brain - both keeping vital organs safe.</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> Nature's Helmet</div>
+                <p>Your skull is made of several bones fused together. It's strong enough to protect your brain - the control center of your entire body - from everyday bumps.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint"></i> Blood Cell Factory</div>
-                <p>Bone marrow produces about 2 million red blood cells every second! That's why bone health affects your entire body's health.</p>
+                <div class="example-title"><i class="fas fa-ruler"></i> Shape Matters</div>
+                <p>Why are some people tall and others short? The length of their leg and spine bones! Your skeleton's size determines your height.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to explore bone functions and their importance.",
+        taskInstructions: "Identify and explain the three primary functions of the skeleton with examples.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: The Five Functions</strong></p>
+                <p><strong>Part A: Three Functions Graphic Organizer</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List the five main functions of bones and give one example for each:
-                    <div class="answer-space" style="height: 150px;"></div>
+                    <span class="task-number">1</span> Complete the chart below with the three primary functions and an example for each:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Function</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">What It Does</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Example</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">1. Support</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">2. Protection</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd;">3. Shape</td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 60px;"></td>
+                             </tr>
+                         </table>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Bone Marrow Understanding</strong></p>
+                <p><strong>Part B: Protection Match-Up</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> In your own words, explain what bone marrow does and why it's important:
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">2</span> Draw lines to match each bone with what it protects:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Skull</div>
+                                <div>• Rib Cage</div>
+                                <div>• Spine (Vertebrae)</div>
+                                <div>• Pelvis</div>
+                            </div>
+                            <div>
+                                <div>→ Heart and Lungs</div>
+                                <div>→ Brain</div>
+                                <div>→ Lower abdominal organs</div>
+                                <div>→ Spinal Cord</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Creative Thinking</strong></p>
+                <p><strong>Part C: Drawing Activity</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> "What if we had no bones?" Write a short creative story or description:
-                    <div class="answer-space" style="height: 150px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw what you think a human would look like without bones:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <span class="task-number">3</span> Draw a simple human figure and label three bones that provide protection:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Real-Life Connection</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Think about an activity you did today. Which bone functions were most important during that activity?
+                    <span class="task-number">4</span> Which of the three primary functions do you think is most important? Why?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Find three objects at home that serve similar functions to bones (e.g., chair legs for support, helmet for protection). List them with explanations.",
+        homework: "Find three objects at home that provide protection (like a helmet, phone case, or lunchbox). Explain how each is like a bone protecting an organ.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Science",
-        topic: "The Human Body",
-        subtopic: "Humans vs. Other Vertebrates",
+        topic: "Human Biology",
+        subtopic: "Secondary Functions of the Human Skeleton",
         lessonContent: `
-            <p>Today we will compare and contrast human skeletons with other vertebrate animals. All vertebrates have backbones, but their skeletons have adapted to different needs!</p>
-            <p><strong>Similarities Across Vertebrates:</strong></p>
-            <ul>
-                <li>Most mammals have the same basic bone structure</li>
-                <li>All have a backbone (vertebral column)</li>
-                <li>All have skulls to protect the brain</li>
-                <li>Most have four limbs (though some are modified)</li>
-            </ul>
-            <p><strong>Key Differences and Adaptations:</strong></p>
+            <p>Today we'll discover two more amazing jobs your skeleton does that you might not know about!</p>
+            <p><strong>Key Question:</strong> How does your skeleton help you move and create blood?</p>
+            <p><strong>Introduction:</strong> Beyond support, protection, and shape, your skeleton has two additional "hidden" functions that are essential for life.</p>
+            <p><strong>Two Secondary Functions of the Skeleton:</strong></p>
             <ol>
-                <li><strong>Birds:</strong> Have hollow bones to make them lighter for flight. Their breastbone (sternum) is large for flight muscle attachment.</li>
-                <li><strong>Fish:</strong> Have many small bones (especially in bony fish). Their skeletons are streamlined for swimming.</li>
-                <li><strong>Mammals:</strong> Have solid bones. Different mammals have adaptations - bats have elongated finger bones for wings, whales have modified arm bones for flippers.</li>
-                <li><strong>Reptiles:</strong> Often have extra bones in their skulls. Some have bony plates or scales.</li>
+                <li><strong>Facilitating Body Movement:</strong>
+                    <ul>
+                        <li>Bones act as levers that muscles pull on to create movement</li>
+                        <li>Joints (where two bones meet) allow your body to bend, twist, and stretch</li>
+                        <li>Without bones, your muscles would have nothing to pull against - you'd be like a jellyfish on land!</li>
+                        <li>Example: When you lift your arm, your bicep muscle pulls on your radius bone, causing your elbow joint to bend</li>
+                    </ul>
+                </li>
+                <li><strong>Production of Blood Cells (within Bone Marrow):</strong>
+                    <ul>
+                        <li>Inside many of your bones is a soft, spongy tissue called <strong>bone marrow</strong></li>
+                        <li>Bone marrow produces billions of new blood cells every day!</li>
+                        <li>Three types of blood cells made in bone marrow:
+                            <ul>
+                                <li><strong>Red blood cells:</strong> Carry oxygen throughout your body</li>
+                                <li><strong>White blood cells:</strong> Fight infections and keep you healthy</li>
+                                <li><strong>Platelets:</strong> Help your blood clot when you get a cut</li>
+                            </ul>
+                        </li>
+                        <li>Major bones that produce blood cells: Spine (vertebrae), ribs, breastbone (sternum), pelvis, and ends of long bones (femur, humerus)</li>
+                    </ul>
+                </li>
             </ol>
-            <p><strong>Finding Equivalent Bones:</strong> Even though animals look different, we can often find the same bones. For example, the humerus in human arms is similar to the humerus in dog legs, bird wings, and whale flippers!</p>
+            <p><strong>Quick Fact:</strong> Your bone marrow produces about 500 billion blood cells every single day!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-dove"></i> Bird Adaptation</div>
-                <p>Bird bones are hollow but strong - like airplane wings. This makes them light enough to fly while still being strong enough for flight muscles.</p>
+                <div class="example-title"><i class="fas fa-dumbbell"></i> Bones as Levers</div>
+                <p>Your arm works like a seesaw! When your bicep muscle contracts, it pulls on your forearm bone (radius), lifting your hand. The elbow joint acts as the pivot point (fulcrum).</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fish"></i> Fish Streamlining</div>
-                <p>Fish skeletons are flexible and streamlined. Their ribs protect organs while allowing flexible movement through water.</p>
+                <div class="example-title"><i class="fas fa-tint"></i> Blood Factory</div>
+                <p>Your bone marrow is like a non-stop factory. Every second, it produces about 2-3 million red blood cells to replace old ones that wear out!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paw"></i> Mammal Similarities</div>
-                <p>A dog's leg bones are surprisingly similar to human arm bones! Both have humerus, radius, and ulna - just different proportions.</p>
+                <div class="example-title"><i class="fas fa-running"></i> Movement in Action</div>
+                <p>When you run, jump, write, or even blink, your bones and muscles are working together. Your skeleton provides the rigid levers, and your muscles provide the pulling force.</p>
             </div>
         `,
-        taskInstructions: "Compare vertebrate skeletons and identify equivalent bones between humans and other animals.",
+        taskInstructions: "Explain how bones enable movement and describe the role of bone marrow in blood cell production.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Comparing Skeletons</strong></p>
+                <p><strong>Part A: Bone and Muscle Partners</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List three similarities between human skeletons and other mammal skeletons:
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">1</span> Draw and label how your arm bends. Include: bicep muscle, radius bone, elbow joint:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">2</span> How are bird bones different from human bones? Why is this adaptation useful for birds?
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">2</span> Explain in 2-3 sentences how bones and muscles work together to create movement:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Bone Matching</strong></p>
+                <p><strong>Part B: Bone Marrow - The Blood Factory</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Match these animal bone features with their purposes:
+                    <span class="task-number">3</span> List the three types of blood cells made in bone marrow and what each one does:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Hollow bird bones ___ a. Protection while swimming</div>
-                        <div>2. Fish's many small bones ___ b. Lightweight for flight</div>
-                        <div>3. Whale's modified arm bones ___ c. Flexible movement in water</div>
-                        <div>4. Bat's elongated finger bones ___ d. Forming wings for flying</div>
+                        <div>a. ____________________ : _________________________________</div>
+                        <div>b. ____________________ : _________________________________</div>
+                        <div>c. ____________________ : _________________________________</div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name four bones in the body that contain bone marrow:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: True or False?</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Read each statement and circle True or False:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. Bones can move by themselves without muscles. (True / False)</div>
+                        <div>b. Bone marrow produces white blood cells that fight infection. (True / False)</div>
+                        <div>c. Joints are places where two bones meet. (True / False)</div>
+                        <div>d. Only the skull contains bone marrow. (True / False)</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Finding Equivalent Bones</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Look at pictures of different animal skeletons. Find the "equivalent" of these human bones:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Human femur (thigh bone) in a dog: __________</div>
-                        <div>• Human humerus (upper arm) in a bird: __________</div>
-                        <div>• Human rib cage in a fish: __________</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Creative Comparison</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> Choose one animal and draw a simple comparison showing one similar bone structure between humans and that animal:
-                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                    <span class="task-number">6</span> What do you think would happen to your blood if your bone marrow stopped working?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Research one vertebrate animal and find two ways its skeleton is adapted to its lifestyle. Write a short paragraph about your findings.",
+        homework: "Count how many times you bend your elbow in 5 minutes (while eating, writing, etc.). Write down your number and explain which bones and muscles were involved.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "The Human Body",
-        subtopic: "Bone Health and Creative Modeling",
+        topic: "Comparative Anatomy",
+        subtopic: "Comparing Human Skeleton to Other Vertebrates",
         lessonContent: `
-            <p>Today we will learn about bone health and create our own skeletal models! Understanding how to keep bones healthy is as important as understanding how they work.</p>
-            <p><strong>Common Bone Conditions:</strong></p>
+            <p>Today we'll become comparative anatomists as we explore how the human skeleton is similar to and different from other vertebrates!</p>
+            <p><strong>Key Question:</strong> What do humans, birds, fish, and dogs have in common? (Hint: It's inside us!)</p>
+            <p><strong>Introduction:</strong> Vertebrates are animals with backbones. All vertebrates share a basic skeletal plan, but each group has adapted its skeleton to survive in different environments.</p>
+            <p><strong>Similarities Across All Vertebrates:</strong></p>
             <ul>
-                <li><strong>Fractures:</strong> Broken bones that need time to heal. Different types include simple, compound, and hairline fractures.</li>
-                <li><strong>Rickets:</strong> A childhood disease caused by lack of Vitamin D and calcium, leading to soft, weak bones that can bend.</li>
-                <li><strong>Osteoporosis:</strong> An adult condition where bones become brittle and fragile from loss of tissue, often due to aging or poor nutrition.</li>
+                <li><strong>Vertebral Column (Backbone/Spine):</strong> All have a series of bones (vertebrae) protecting the spinal cord</li>
+                <li><strong>Skull:</strong> All have a skull protecting the brain</li>
+                <li><strong>Ribs:</strong> Most vertebrates have ribs protecting the heart and lungs</li>
+                <li><strong>Limbs (or limb equivalents):</strong> All have paired appendages (arms/legs, wings, or fins)</li>
+                <li><strong>Jaw:</strong> All vertebrates have a jaw structure (except lampreys)</li>
             </ul>
-            <p><strong>Keeping Bones Healthy:</strong></p>
-            <ol>
-                <li><strong>Calcium:</strong> Found in dairy products, leafy greens, and fortified foods</li>
-                <li><strong>Vitamin D:</strong> From sunlight, fish, eggs, and fortified milk (helps absorb calcium)</li>
-                <li><strong>Exercise:</strong> Weight-bearing activities like running and jumping strengthen bones</li>
-                <li><strong>Good Posture:</strong> Sitting and standing properly helps maintain bone alignment</li>
-            </ol>
-            <p><strong>Model Building Tip:</strong> When creating your skeletal model, think about how bones connect at joints. Some joints move (like knees) while others don't (like skull sutures).</p>
+            <p><strong>Differences: How Skeletons Adapt to Different Lifestyles:</strong></p>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                <tr style="background-color: #4A90E2; color: white;">
+                    <th style="padding: 8px; border: 1px solid #ddd;">Animal</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">Skeleton Feature</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">How It Helps Survival</th>
+                 </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Bird</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Hollow, lightweight bones</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Makes flying possible - reduces weight</td>
+                 </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Fish</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Fins instead of legs; flexible spine</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Swimming and maneuvering in water</td>
+                 </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Dog (Mammal)</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Runs on four legs (quadrupedal)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Speed and stability for chasing prey</td>
+                 </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Human</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Walks on two legs (bipedal); S-curved spine</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Frees hands for tools; efficient walking</td>
+                 </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Snake</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">No limbs; up to 400 vertebrae</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Slithering and fitting through tight spaces</td>
+                 </tr>
+            </table>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-bone"></i> Fracture Facts</div>
-                <p>Children's bones heal faster than adults' because they're still growing! Most simple fractures heal in 6-8 weeks with proper care.</p>
+                <div class="example-title"><i class="fas fa-dove"></i> Bird Bones Are Hollow!</div>
+                <p>A bird's skeleton weighs less than its feathers! Hollow bones with internal struts make birds light enough to fly while still being strong.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-sun"></i> Vitamin D Connection</div>
-                <p>Your skin makes Vitamin D when exposed to sunlight. Just 10-15 minutes of sun exposure a few times a week helps bone health!</p>
+                <div class="example-title"><i class="fas fa-dog"></i> Same Bones, Different Shapes</div>
+                <p>Humans, dogs, bats, and whales all have the same basic arm bones (one upper bone, two lower bones, wrist and finger bones). They've just been modified for different uses!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-recycle"></i> Modeling Materials</div>
-                <p>Get creative with materials: straws for long bones, clay for joints, cardboard for flat bones, pipe cleaners for connecting pieces.</p>
+                <div class="example-title"><i class="fas fa-fish"></i> Fish Flexibility</div>
+                <p>A fish's spine is very flexible, allowing its whole body to bend side to side. This creates the S-shaped movement that pushes water backward and propels the fish forward.</p>
             </div>
         `,
-        taskInstructions: "Learn about bone health and build your own skeletal model using available materials.",
+        taskInstructions: "Compare and contrast human skeleton features with other vertebrates using a Venn diagram and chart.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Bone Health Knowledge</strong></p>
+                <p><strong>Part A: Venn Diagram - Human vs. Bird Skeleton</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> What are the main differences between rickets and osteoporosis?
+                    <span class="task-number">1</span> Compare human and bird skeletons using the Venn diagram below:
+                    <div style="display: flex; justify-content: center; margin: 20px 0;">
+                        <div style="border: 2px solid #4A90E2; border-radius: 50%; width: 200px; height: 200px; display: inline-block; position: relative; background: #f0f8ff; text-align: center; padding-top: 80px;">
+                            <strong>HUMAN</strong>
+                        </div>
+                        <div style="width: 50px; text-align: center; padding-top: 90px;">Both</div>
+                        <div style="border: 2px solid #4A90E2; border-radius: 50%; width: 200px; height: 200px; display: inline-block; position: relative; background: #f0f8ff; text-align: center; padding-top: 80px;">
+                            <strong>BIRD</strong>
+                        </div>
+                    </div>
                     <div class="answer-space" style="height: 100px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> List three ways to keep your bones healthy and strong:
-                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Model Planning</strong></p>
+                <p><strong>Part B: Adaptation Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Plan your skeletal model. What materials will you use for:
+                    <span class="task-number">2</span> Match the animal to its special skeletal adaptation:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Long bones (arms/legs): __________</div>
-                        <div>• Joints (elbows/knees): __________</div>
-                        <div>• Skull: __________</div>
-                        <div>• Rib cage: __________</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <div>• Fish</div>
+                                <div>• Bird</div>
+                                <div>• Snake</div>
+                                <div>• Human</div>
+                                <div>• Dog</div>
+                            </div>
+                            <div>
+                                <div>→ Hollow, lightweight bones</div>
+                                <div>→ S-curved spine for walking upright</div>
+                                <div>→ Up to 400 vertebrae, no limbs</div>
+                                <div>→ Fins and flexible spine</div>
+                                <div>→ Runs on four legs (quadrupedal)</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Model Building</strong></p>
+                <p><strong>Part C: Human vs. Dog - Locomotion Comparison</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Build your human skeletal model using available materials:
-                    <div class="drawing-area" style="height: 300px; margin-top: 10px; border: 2px solid #4A90E2; text-align: center; padding-top: 120px;">
-                        <p><i>Build your model here or on your workspace</i></p>
-                        <p style="font-size: 0.9em; color: #666;">(You may use: sticks, straws, clay, cardboard, pipe cleaners, etc.)</p>
+                    <span class="task-number">3</span> Answer the following questions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. How many legs does a human use for walking? ________</div>
+                        <div>b. How many legs does a dog use for walking? ________</div>
+                        <div>c. What is the scientific term for walking on two legs? ________</div>
+                        <div>d. What is the scientific term for walking on four legs? ________</div>
+                        <div>e. What advantage does walking on two legs give humans? ________</div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Model Labeling & Reflection</strong></p>
+                <p><strong>Part D: Comparative Anatomy Table</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Label at least five bones on your model:
+                    <span class="task-number">4</span> Complete the table below:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 8px; border: 1px solid #ddd;">Feature</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Human</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Fish</th>
+                                <th style="padding: 8px; border: 1px solid #ddd;">Bird</th>
+                             </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Has backbone?</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                             </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Number of legs/limbs</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                             </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Bone type (solid/hollow)</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                             </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Main way of moving</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"></td>
+                             </tr>
+                         </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> What is one way the human skeleton is similar to other vertebrates, and one way it is different?
                     <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">6</span> What was the most challenging part of building your model? What did you learn from this activity?
-                    <div class="answer-space" style="height: 100px;"></div>
                 </div>
             </div>
         `,
-        homework: "Research one more fact about bone health or skeletal adaptations. Add this fact to your model or create a small information card to display with it.",
+        homework: "Observe a pet or an animal in your neighborhood. Notice how it moves. Does it walk on two legs or four? Draw its skeleton shape based on what you learned today.",
         homeworkDue: "Monday"
     }
 };

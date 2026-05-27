@@ -5,272 +5,322 @@ const grade5ScienceWeek2 = {
         subject: "Science",
         term: 2,
         week: 2,
-        title: "Climate Change",
-        description: "Understanding what climate change is, its causes, and its effects on wildlife and human life"
+        title: "Food Functions & Label Interpretation",
+        description: "Investigating nutrient functions, reading food labels, and understanding food safety checkpoints"
     },
     
     monday: {
         subject: "Science",
-        topic: "Environmental Science",
-        subtopic: "What is Climate Change?",
+        topic: "Nutrition",
+        subtopic: "Functional Roles of Different Nutrients",
         lessonContent: `
-            <p>Welcome to our exploration of climate change! Today we'll learn the difference between weather and climate, and what climate change really means.</p>
-            <p><strong>Key Question:</strong> What is the difference between weather and climate?</p>
-            <p><strong>Introduction:</strong> Have you ever noticed that some years have hotter summers than others? Climate change is about long-term shifts in temperature and weather patterns around the world.</p>
-            <p><strong>Weather vs. Climate:</strong></p>
+            <p>Welcome to our exploration of nutrients! Today we'll discover how different foods help our bodies grow, produce energy, and fight off illness.</p>
+            <p><strong>Key Question:</strong> Why does our body need different types of food?</p>
+            <p><strong>Introduction:</strong> Nutrients are substances in food that our bodies need to function properly. Different nutrients have different jobs!</p>
+            <p><strong>The 3 Main Functions of Nutrients:</strong></p>
+            <ol>
+                <li><strong>Body Growth:</strong> Building new cells and repairing damaged ones</li>
+                <li><strong>Energy Production:</strong> Fueling all body activities from breathing to running</li>
+                <li><strong>Immunity:</strong> Fighting off germs and keeping us healthy</li>
+            </ol>
+            <p><strong>Key Nutrients and Their Jobs:</strong></p>
             <ul>
-                <li><strong>Weather:</strong> What is happening outside RIGHT NOW (rain, sun, clouds, temperature today)</li>
-                <li><strong>Climate:</strong> The average weather pattern over MANY years (what a place is usually like)</li>
+                <li><strong>Carbohydrates:</strong> Main source of ENERGY (bread, rice, pasta, potatoes)</li>
+                <li><strong>Proteins:</strong> Build and repair body tissues for GROWTH (meat, eggs, beans, fish)</li>
+                <li><strong>Fats:</strong> Store energy and protect organs (oil, butter, nuts, avocados)</li>
+                <li><strong>Vitamins:</strong> Support IMMUNITY and body functions (fruits, vegetables)</li>
+                <li><strong>Minerals:</strong> Strengthen bones and teeth (milk, leafy greens, salt)</li>
+                <li><strong>Water:</strong> Transports nutrients and keeps body hydrated</li>
             </ul>
-            <p><strong>The Greenhouse Effect (Simple Explanation):</strong></p>
-            <p>Think of a car sitting in the sun with the windows closed. The glass lets heat in but doesn't let it all escape. The Earth's atmosphere works similarly - certain gases trap heat like the car windows. This is natural and necessary, but too much trapped heat causes problems.</p>
-            <p><strong>Climate Change Defined:</strong> A long-term shift in global or regional climate patterns. Even a small rise of 1 or 2 degrees can change the whole world!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-car"></i> The Car Analogy</div>
-                <p>On a sunny day, a car with windows up gets much hotter inside than outside. The glass lets sunlight in but traps the heat. Greenhouse gases work the same way around Earth!</p>
+                <div class="example-title"><i class="fas fa-bolt"></i> Energy Connection</div>
+                <p>Eating a banana (carbohydrates) before sports gives you quick energy. That's why many athletes eat pasta the night before a big race!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-calendar-alt"></i> Weather vs. Climate</div>
-                <p>"It's raining today" is weather. "Summers here are usually hot and dry" is climate. Climate is what you expect; weather is what you get!</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> Immunity Boosters</div>
+                <p>Vitamin C from oranges helps your white blood cells fight off colds. Eating colorful fruits and vegetables builds a strong immune army!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-temperature-high"></i> Just 2 Degrees</div>
-                <p>A 2°C rise might not sound like much, but during the last Ice Age, Earth was only about 5°C colder than today - and covered in ice!</p>
+                <div class="example-title"><i class="fas fa-chart-line"></i> Growth Builders</div>
+                <p>Protein is like bricks for your body. When you eat eggs or beans, you're giving your body the materials it needs to grow taller and stronger!</p>
             </div>
         `,
-        taskInstructions: "Draw two pictures comparing a healthy Earth to a warming Earth.",
+        taskInstructions: "Identify and categorize foods based on their nutrient functions.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Weather vs. Climate Discussion</strong></p>
+                <p><strong>Part A: Nutrient Function Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> What is the weather like where you live today?
-                    <div class="answer-space" style="height: 50px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> How would you describe the typical climate of your area across the whole year?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Healthy Earth vs. Warm Earth Drawing</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Draw a "Healthy Earth" with a balanced atmosphere:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #4CAF50;"></div>
-                    <p style="font-size: 12px; color: #666;">Show a thin, balanced layer of greenhouse gases</p>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Draw a "Warming Earth" with a thick layer of greenhouse gases:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #FF9800;"></div>
-                    <p style="font-size: 12px; color: #666;">Show a thick layer trapping too much heat</p>
+                    <span class="task-number">1</span> Match each nutrient to its main function:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Carbohydrates ___ a. Builds and repairs body tissues</div>
+                        <div>• Proteins ___ b. Provides quick energy</div>
+                        <div>• Vitamin C ___ c. Supports immunity</div>
+                        <div>• Calcium ___ d. Strengthens bones and teeth</div>
+                        <div>• Fats ___ e. Stores long-term energy</div>
+                    </div>
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Reflection</strong></p>
+                <p><strong>Part B: Food Function Chart</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Why do you think even a small rise in temperature (1-2 degrees) can cause big changes around the world?
+                    <span class="task-number">2</span> Complete the table by adding one food example for each function:
+                    <div style="margin-top: 10px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Function</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Nutrient</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Food Example</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Energy Production</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Carbohydrates</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"><div class="answer-space" style="height: 30px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Body Growth</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Protein</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"><div class="answer-space" style="height: 30px;"></div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Immunity</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Vitamins</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"><div class="answer-space" style="height: 30px;"></div></td>
+                             </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Bone Strength</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;">Calcium</td>
+                                <td style="padding: 8px; border: 1px solid #ddd;"><div class="answer-space" style="height: 30px;"></div></td>
+                             </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reflection Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Why do you need to eat different types of foods instead of just one?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> What would happen to your body if you only ate carbohydrates and no protein for a month?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Ask a family member or neighbor: 'Has the weather or seasons changed where you live since you were my age?' Write down what they tell you.",
+        homework: "Look at your dinner tonight. Identify at least three different nutrients in your meal and what each does for your body.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Science",
-        topic: "Environmental Science",
-        subtopic: "Why is it Happening? (Causes)",
+        topic: "Consumer Science",
+        subtopic: "Reading Food Labels",
         lessonContent: `
-            <p>Today we'll investigate the human activities that are making Earth's atmosphere get thicker with greenhouse gases!</p>
-            <p><strong>Key Question:</strong> What are humans doing to cause climate change?</p>
-            <p><strong>Review:</strong> Remember the "Warming Earth" drawing from Monday? The thick layer of gases is getting thicker because of human activities.</p>
-            <p><strong>Main Causes of Climate Change:</strong></p>
-            
-            <p><strong>1. Deforestation (Cutting Down Trees)</strong></p>
+            <p>Today we'll become smart shoppers by learning how to read and understand food labels!</p>
+            <p><strong>Key Question:</strong> How can food labels help us make healthy choices?</p>
+            <p><strong>Introduction:</strong> Every packaged food has a label with important information. Learning to read these labels helps us choose healthier foods for our bodies.</p>
+            <p><strong>Parts of a Food Label:</strong></p>
+            <ol>
+                <li><strong>Nutrition Facts Panel:</strong> Shows the nutrients in one serving</li>
+                <li><strong>Serving Size:</strong> The amount of food the nutrition numbers are based on</li>
+                <li><strong>Servings Per Container:</strong> How many servings are in the whole package</li>
+                <li><strong>Calories:</strong> The energy the food provides</li>
+                <li><strong>Nutrient Amounts:</strong> How much fat, sugar, protein, vitamins, and minerals are in each serving</li>
+                <li><strong>Ingredient List:</strong> All the ingredients listed from most to least</li>
+                <li><strong>Daily Value (%):</strong> How much a nutrient contributes to your daily needs</li>
+            </ol>
+            <p><strong>What to Look For:</strong></p>
             <ul>
-                <li>Trees "breathe in" carbon dioxide (a greenhouse gas) and store it</li>
-                <li>When we cut down forests, fewer trees are left to remove carbon dioxide from the air</li>
-                <li>Burning trees releases stored carbon back into the atmosphere</li>
-            </ul>
-            
-            <p><strong>2. Burning (Indiscriminate Burning of Bushes/Trash)</strong></p>
-            <ul>
-                <li>When we burn bushes, trash, or crop residue, we release smoke and greenhouse gases</li>
-                <li>This is common in many regions and adds significantly to the problem</li>
-            </ul>
-            
-            <p><strong>3. Emissions (Cars, Factories, Electricity)</strong></p>
-            <ul>
-                <li>Cars and trucks burn fuel and release exhaust gases</li>
-                <li>Factories and power plants burn coal, oil, or gas for energy</li>
-                <li>Even the electricity we use at home often comes from burning fuels</li>
+                <li>✓ Less sugar (aim for under 10g per serving)</li>
+                <li>✓ More fiber (helps digestion)</li>
+                <li>✓ More vitamins and minerals</li>
+                <li>✓ Shorter ingredient lists with recognizable foods</li>
+                <li>✓ Watch out for high sodium (salt)</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree"></i> Trees as Carbon Sponges</div>
-                <p>One large tree can absorb about 22 kilograms (48 pounds) of carbon dioxide per year. A whole forest removes tons of greenhouse gases from the air!</p>
+                <div class="example-title"><i class="fas fa-search"></i> Label Detective</div>
+                <p>A cereal box might say "Serving Size: 1 cup" and "Servings Per Container: 12". That means the whole box has 12 bowls of cereal!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fire"></i> Bush Burning</div>
-                <p>In many farming communities, people burn dry bushes to clear land. The smoke releases carbon that was stored in plants, plus other harmful gases.</p>
+                <div class="example-title"><i class="fas fa-list-ul"></i> Ingredient Order</div>
+                <p>If sugar is the first ingredient on a label, that means there's MORE sugar than anything else in that food.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-industry"></i> Everyday Emissions</div>
-                <p>Every time you ride in a car, take a bus, or use electricity from a power plant, you are using energy that may come from burning fossil fuels.</p>
+                <div class="example-title"><i class="fas fa-percent"></i> Daily Value Guide</div>
+                <p>5% Daily Value or less = LOW. 20% Daily Value or more = HIGH. Look for LOW saturated fat and sugar, HIGH fiber and vitamins!</p>
             </div>
         `,
-        taskInstructions: "Create a 'Cause Map' showing the main causes of climate change.",
+        taskInstructions: "Analyze a real food label and answer questions about its nutritional content.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Cause Map Creation</strong></p>
+                <p><strong>Part A: Food Label Analysis</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Create a "Cause Map" in the space below:
-                    <div style="text-align: center; margin: 10px 0;">
-                        <div style="border: 2px solid #333; border-radius: 50%; width: 120px; height: 120px; display: inline-flex; align-items: center; justify-content: center; background-color: #f0f0f0;">
-                            <strong>CLIMATE<br>CHANGE</strong>
-                        </div>
+                    <span class="task-number">1</span> Using the provided food label (or bring one from home), answer these questions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a) What is the serving size? _________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>b) How many servings are in the package? _________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>c) How many calories per serving? _________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>d) How much sugar is in one serving? _________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>e) How much protein is in one serving? _________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
-                    <div>Draw arrows from "CLIMATE CHANGE" to three cause bubbles:</div>
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <div style="margin-top: 10px;">Label the bubbles: <strong>Cutting Trees</strong> | <strong>Burning Trash/Bushes</strong> | <strong>Car Fumes & Factories</strong></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Identifying Local Causes</strong></p>
+                <p><strong>Part B: Ingredient List Investigation</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Which cause of climate change do you see most often in your own community?
-                    <div class="answer-space" style="height: 60px;"></div>
+                    <span class="task-number">2</span> Look at the ingredient list on your food label:
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">3</span> How does cutting down trees make climate change worse?
+                    <span class="task-number">3</span> What are the first three ingredients? Why are they first?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Comparison Challenge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Compare two similar products (like two cereal boxes). Which is healthier? Why?
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Cause and Effect Connection</strong></p>
+                <p><strong>Part D: Healthy Choice Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Complete these sentences:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• When we burn bushes or trash, _________</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
-                        <div>• If there are more cars on the road, _________</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
-                        <div>• When forests are cut down, _________</div>
-                        <div class="answer-space" style="height: 40px; margin-top: 5px;"></div>
-                    </div>
+                    <span class="task-number">5</span> Would you recommend this food to a friend? Why or why not?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Observe your neighborhood. List three things you see that might contribute to climate change (examples: cars, smoke, burning trash).",
+        homework: "Find three food packages at home. Write down the serving size, calories, and sugar content for each. Which is the healthiest choice?",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "Environmental Science",
-        subtopic: "What Happens Next? (Effects)",
+        topic: "Food Safety",
+        subtopic: "Dates, Portions, and Safe Consumption",
         lessonContent: `
-            <p>Today we'll analyze how climate change affects animals, weather, and human lives!</p>
-            <p><strong>Key Question:</strong> What happens to our world when the Earth gets warmer?</p>
-            <p><strong>Three Main Categories of Effects:</strong></p>
-            
-            <p><strong>1. Weather Extremes</strong></p>
+            <p>Today we'll learn how to keep ourselves safe by checking food dates and eating the right portions!</p>
+            <p><strong>Key Question:</strong> How do we know if food is safe to eat?</p>
+            <p><strong>Introduction:</strong> Eating safe food means checking dates, storing food properly, and eating the right amount. Let's learn how!</p>
+            <p><strong>Understanding Food Dates:</strong></p>
+            <ol>
+                <li><strong>Manufacturing Date:</strong> When the food was made or packaged</li>
+                <li><strong>Expiry Date (Best Before):</strong> Last date the food is at its best quality</li>
+                <li><strong>Use By Date:</strong> Last safe date to eat the food (especially for meat, dairy, eggs)</li>
+            </ol>
+            <p><strong>What Happens After Expiry?</strong></p>
             <ul>
-                <li><strong>Hotter Temperatures:</strong> Heatwaves become more common and more intense</li>
-                <li><strong>Droughts:</strong> Some places get too little rain, causing crops to fail</li>
-                <li><strong>Floods:</strong> Warmer air holds more moisture, leading to heavy rains and floods</li>
-                <li><strong>Severe Storms:</strong> Hurricanes and typhoons become stronger and more destructive</li>
+                <li>Food can spoil (smell bad, change color, grow mold)</li>
+                <li>Harmful bacteria can grow and cause food poisoning</li>
+                <li>Nutrients break down and food loses quality</li>
             </ul>
-            
-            <p><strong>2. Effects on Nature (Loss of Habitat)</strong></p>
+            <p><strong>Safe Portions:</strong></p>
             <ul>
-                <li>Polar bears lose sea ice where they hunt for seals</li>
-                <li>Forests dry out and become more likely to burn</li>
-                <li>Coral reefs "bleach" and die when water gets too warm</li>
-                <li>Animals must move to find food and shelter, but some cannot adapt fast enough</li>
-            </ul>
-            
-            <p><strong>3. Effects on Human Safety & Food</strong></p>
-            <ul>
-                <li>Severe storms can damage houses, schools, and roads</li>
-                <li>Droughts make it hard to grow food, leading to higher prices and hunger</li>
-                <li>Floods can contaminate drinking water and cause disease</li>
-                <li>Farmers struggle to grow crops when weather patterns change</li>
+                <li><strong>Serving Size:</strong> The recommended amount to eat at one time</li>
+                <li><strong>Why it matters:</strong> Eating too much can cause weight gain, stomach pain, or nutrient imbalance</li>
+                <li><strong>Easy Visual Guides:</strong>
+                    <ul>
+                        <li>Meat/protein = size of your palm</li>
+                        <li>Vegetables = size of your fist</li>
+                        <li>Carbohydrates = cupped hand</li>
+                        <li>Cheese = size of your thumb</li>
+                    </ul>
+                </li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paw"></i> Polar Bears in Trouble</div>
-                <p>Polar bears need sea ice to hunt seals. As the Arctic warms, sea ice melts earlier and forms later each year. Bears have less time to hunt and are getting thinner.</p>
+                <div class="example-title"><i class="fas fa-calendar-alt"></i> Date Detective</div>
+                <p>A yogurt carton says "Use By: Oct 15". If today is Oct 20, DO NOT eat it - harmful bacteria may have grown even if it looks and smells fine!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tint"></i> Drought and Flood Cycle</div>
-                <p>Climate change can cause extreme swings - first the ground bakes dry (drought), then heavy rains cause floods because hard, dry soil can't absorb water quickly.</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Portion Perfection</div>
+                <p>A serving of pasta should be about the size of your fist. Many restaurants serve 3-4 times that amount!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home"></i> Storms Get Stronger</div>
-                <p>Warmer ocean water gives hurricanes more energy. Scientists have noticed that the strongest storms are becoming even stronger than they used to be.</p>
+                <div class="example-title"><i class="fas fa-skull-crossbones"></i> Food Poisoning Facts</div>
+                <p>Eating expired food can cause stomach pain, vomiting, diarrhea, and fever. Always check dates before eating packaged foods!</p>
             </div>
         `,
-        taskInstructions: "Write as a 'Future Reporter' describing the effects of climate change.",
+        taskInstructions: "Evaluate food products for safety based on dates and recommend appropriate portions.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Story or Photo Analysis</strong></p>
+                <p><strong>Part A: Date Check Challenge</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> After looking at the image of a polar bear on melting ice or a farmer in a dry field, write your reaction:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: "The Future Reporter" Activity</strong></p>
-                <div class="task-item">
-                    <span class="task-number">2</span> Complete these three sentences as if you are a news reporter explaining climate change effects:
+                    <span class="task-number">1</span> For each product, decide if it's safe to eat. Today's date is June 15.
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• "Because of climate change, the animals will..."</div>
-                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
-                        <div>• "Because of climate change, our weather will..."</div>
-                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
-                        <div>• "Because of climate change, our farms will..."</div>
-                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        <div>a) Bread with "Best Before: June 20" → Safe? ___ Why? ______________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>b) Milk with "Use By: June 10" → Safe? ___ Why? ______________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>c) Canned beans with "Manufacturing Date: Jan 2023" and "Best Before: Jan 2026" → Safe? ___</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Effect Categorization</strong></p>
+                <p><strong>Part B: Portion Practice</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Write each effect in the correct category (Weather, Nature, or People):
+                    <span class="task-number">2</span> Use your hand to estimate these portions:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>• Loss of habitat for polar bears → <span style="border-bottom: 1px dotted;">_________</span></div>
-                        <div>• Droughts damaging crops → <span style="border-bottom: 1px dotted;">_________</span></div>
-                        <div>• Stronger hurricanes damaging houses → <span style="border-bottom: 1px dotted;">_________</span></div>
-                        <div>• Coral reefs dying → <span style="border-bottom: 1px dotted;">_________</span></div>
-                        <div>• More frequent heatwaves → <span style="border-bottom: 1px dotted;">_________</span></div>
+                        <div>a) What does one serving of rice look like? _________________________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>b) How much chicken should you eat in one meal? _________________________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
+                        <div>c) What happens if you eat 3 servings of cookies instead of 1? _________________________________</div>
+                        <div class="answer-space" style="height: 30px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Looking Ahead</strong></p>
+                <p><strong>Part C: Food Storage Safety</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Climate change can feel scary. But understanding the causes helps us find solutions. Name one thing you think could help "cool down" the Earth:
+                    <span class="task-number">3</span> List three rules for keeping food safe at home:
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Weekly Meal Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Look at a packaged food in your kitchen. Write down:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Product name: _________________</div>
+                        <div>• Manufacturing date: _________________</div>
+                        <div>• Expiry/Best Before date: _________________</div>
+                        <div>• Is it still safe to eat? _________________</div>
+                        <div>• Recommended serving size: _________________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Safety Pledge</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write one promise you will make about checking food dates before eating:
                     <div class="answer-space" style="height: 60px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Why is it important to learn about climate change even if it's a big problem?
-                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Draw a picture showing one effect of climate change you learned about today. Write one sentence explaining your drawing.",
+        homework: "Check the expiry dates on 5 food items in your home. List them as 'Safe' or 'Expired' and show a family member how to check dates.",
         homeworkDue: "Monday"
     }
 };

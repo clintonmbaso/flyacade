@@ -1,265 +1,309 @@
-// Grade 5 Science - Week 2 Data
+// Grade 5 Science - Term 1 Week 2 Data
 const grade5ScienceWeek2 = {
     metadata: {
         grade: 5,
         subject: "Science",
         term: 1,
         week: 2,
-        title: "The Human Skeleton",
-        description: "Introduction to the human skeleton, its structure, and protective functions"
+        title: "The Skeletal System",
+        description: "Exploring the human skeletal system: structural components, axial skeleton (skull & vertebral column), and appendicular skeleton (ribcage, girdles & limbs)"
     },
     
     monday: {
         subject: "Science",
-        topic: "The Human Body",
-        subtopic: "Introduction to the Human Skeleton",
+        topic: "Human Biology",
+        subtopic: "Introduction to the Human Skeletal System",
         lessonContent: `
-            <p>Welcome to our exploration of the human skeleton! Today we will discover how our bones create an amazing internal framework that supports our entire body.</p>
-            <p><strong>Key Concept:</strong> The skeleton is the internal framework of bones that gives our body shape, protects our organs, and allows us to move.</p>
-            <p><strong>Two Main Skeleton Divisions:</strong></p>
+            <p>Welcome to our exploration of the human skeletal system! Today we'll discover the amazing framework that supports our bodies.</p>
+            <p><strong>Key Question:</strong> What would we look like without our bones?</p>
+            <p><strong>Introduction:</strong> The skeletal system is the internal framework of the human body. An adult has 206 bones! Without bones, we would be like jellyfish - unable to stand, walk, or protect our vital organs.</p>
+            <p><strong>Main Functions of the Skeletal System:</strong></p>
+            <ol>
+                <li><strong>Support:</strong> Bones provide a hard framework that holds our body upright</li>
+                <li><strong>Protection:</strong> Bones surround and protect vital organs (skull protects brain, ribcage protects heart and lungs)</li>
+                <li><strong>Movement:</strong> Muscles attach to bones to help us move</li>
+                <li><strong>Blood Cell Production:</strong> Bones produce red and white blood cells</li>
+                <li><strong>Mineral Storage:</strong> Bones store calcium and other minerals</li>
+            </ol>
+            <p><strong>Main Parts of the Skeleton:</strong></p>
             <ul>
-                <li><strong>Axial Skeleton:</strong> The central core - skull, vertebral column (spine), and ribcage</li>
-                <li><strong>Appendicular Skeleton:</strong> The limbs and their attachments - arms, legs, shoulders, and pelvis</li>
+                <li><strong>Skull:</strong> Protects the brain</li>
+                <li><strong>Vertebral Column (Spine):</strong> Supports the body and protects the spinal cord</li>
+                <li><strong>Ribcage:</strong> Protects the heart and lungs</li>
+                <li><strong>Upper Limbs:</strong> Arms, shoulders, and hands</li>
+                <li><strong>Lower Limbs:</strong> Legs, pelvis, and feet</li>
             </ul>
-            <p><strong>Why Do We Have a Skeleton?</strong></p>
-            <ul>
-                <li>Provides structure and support for our body</li>
-                <li>Protects delicate organs like the brain, heart, and lungs</li>
-                <li>Works with muscles to allow movement</li>
-                <li>Produces blood cells in the bone marrow</li>
-                <li>Stores important minerals like calcium</li>
-            </ul>
-            <p><strong>Did You Know?</strong> Babies have about 300 bones at birth, but as they grow, some bones fuse together. Adults have 206 bones!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-home" style="color: #4A90E2;"></i> Framework Analogy</div>
-                <p>Think of your skeleton like the framework of a house. Just as wooden beams hold up a house, your bones hold up your body and give it shape.</p>
+                <div class="example-title"><i class="fas fa-building"></i> The Body's Framework</div>
+                <p>Think of bones as the steel beams inside a building. Without these beams, the building would collapse. Your skeleton works the same way!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Protective Function</div>
-                <p>Your skull is like a built-in helmet that protects your brain. Your ribcage is like a cage that protects your heart and lungs.</p>
+                <div class="example-title"><i class="fas fa-helmet-battle"></i> Built-in Protection</div>
+                <p>Your skull is like a natural helmet. It's one of the strongest parts of your body because it protects your brain - your body's control center!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands"></i> Feeling Your Bones</div>
-                <p>Right now, feel your own wrist bones or knuckles. Those hard parts are bones! You can feel bones all through your body under your skin and muscles.</p>
+                <div class="example-title"><i class="fas fa-dumbbell"></i> Movable Joints</div>
+                <p>Your skeleton isn't one solid piece! It has movable joints that allow you to bend, twist, wave, and run. Without joints, you'd be as stiff as a statue.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to explore the basic structure of the human skeleton.",
+        taskInstructions: "Draw and label an overview of the full skeleton, then complete the function matching activity.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> In your own words, define what a skeleton is:
-                <div class="answer-space" style="height: 80px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> <strong>Body Mapping Activity:</strong> Feel different parts of your body and sketch where you think major bones are located:
-                <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Draw a simple body outline and mark where you feel bones)</p>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> List the two main divisions of the skeleton and give one example for each:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. Axial Skeleton: Example: _______________</div>
-                    <div>2. Appendicular Skeleton: Example: _______________</div>
+            <div class="content-box">
+                <p><strong>Part A: Full Skeleton Diagram</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw and label the main parts of the human skeleton:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Skull</div>
+                        <div>• Vertebral Column (Spine)</div>
+                        <div>• Ribcage</div>
+                        <div>• Arm bones</div>
+                        <div>• Leg bones</div>
+                    </div>
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Why is the skeleton often called the body's "framework"? Explain:
-                <div class="answer-space" style="height: 100px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Function Matching</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Match each bone/part to its main job:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>1. Skull ___    a. Protects the heart and lungs</div>
+                        <div>2. Ribcage ___   b. Protects the brain</div>
+                        <div>3. Spine ___    c. Helps us move and supports weight</div>
+                        <div>4. Leg bones ___  d. Protects the spinal cord and supports the body</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reflection Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Why do you think babies have more bones than adults (about 300) that fuse together as they grow?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> What would happen if we didn't have a skeleton?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
             </div>
         `,
-        homework: "Find and list 5 different bones you can feel in your own body. Write down where they are located and what they feel like.",
+        homework: "Ask a family member to help you count how many bones you can feel in your own body (skull, ribs, spine, arms, legs). Write down what you discover.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Science",
-        topic: "The Human Body",
-        subtopic: "The Core Framework: Skull & Spine",
+        topic: "Human Biology",
+        subtopic: "The Upper Axial Skeleton: Skull & Vertebral Column",
         lessonContent: `
-            <p>Today we will focus on the central core of our skeleton: the skull and vertebral column (spine). These structures protect our most vital organs!</p>
-            <p><strong>The Skull:</strong></p>
+            <p>Today we'll take a closer look at two very important parts of your skeleton - your skull and your spine!</p>
+            <p><strong>Key Question:</strong> Why is your skull shaped the way it is? Why does your spine have curves?</p>
+            <p><strong>The Skull (Cranium):</strong></p>
             <ul>
-                <li>Made of 22 bones that fit together like puzzle pieces</li>
-                <li>Main function: Protects the brain</li>
-                <li>Has openings for eyes, nose, ears, and mouth</li>
-                <li>Only the jaw bone (mandible) can move for talking and eating</li>
+                <li>Made up of 22 bones that are fused together in adults</li>
+                <li>The cranium (upper part) protects the brain</li>
+                <li>The facial bones form our face and hold our eyes, nose, and mouth</li>
+                <li>The only movable bone in the skull is the mandible (lower jaw bone)</li>
             </ul>
-            <p><strong>The Vertebral Column (Spine):</strong></p>
+            <p><strong>The Vertebral Column (Spine/Backbone):</strong></p>
             <ul>
-                <li>Made of 33 small bones called vertebrae</li>
-                <li>Main function: Protects the spinal cord (nerve pathway)</li>
-                <li>Has a natural "S" shape that helps us stand upright and absorb shock</li>
-                <li>Divided into 5 sections: Cervical (neck), Thoracic (chest), Lumbar (lower back), Sacrum, Coccyx (tailbone)</li>
+                <li>Made up of 33 small bones called vertebrae (24 are movable)</li>
+                <li>The vertebrae are stacked on top of each other like building blocks</li>
+                <li>Between each vertebra are soft discs that act as shock absorbers</li>
+                <li>The spine has four natural curves that help with balance and flexibility</li>
+                <li>It protects the spinal cord (the superhighway of nerves from your brain)</li>
             </ul>
-            <p><strong>Why the "S" Shape Matters:</strong> The curved shape of our spine acts like a spring, absorbing shock when we walk, run, or jump. A straight spine wouldn't handle impact as well!</p>
+            <p><strong>Spine Sections (from top to bottom):</strong></p>
+            <ol>
+                <li><strong>Cervical Spine:</strong> Neck region (7 vertebrae)</li>
+                <li><strong>Thoracic Spine:</strong> Upper/mid back (12 vertebrae, each connects to a rib)</li>
+                <li><strong>Lumbar Spine:</strong> Lower back (5 vertebrae - the largest and strongest)</li>
+                <li><strong>Sacrum:</strong> 5 fused vertebrae at the base of the spine</li>
+                <li><strong>Coccyx:</strong> 4 fused vertebrae (the tailbone)</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-helmet-safety"></i> Skull Protection</div>
-                <p>Your skull is like a bicycle helmet for your brain - it's hard on the outside to absorb impact and protect what's inside.</p>
+                <div class="example-title"><i class="fas fa-motorcycle"></i> The Helmet Comparison</div>
+                <p>Your skull is like a natural motorcycle helmet! It's hard, curved, and designed to protect your most important organ - your brain.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-wave-square"></i> Spinal Curves</div>
-                <p>The "S" shape of your spine is like a coiled spring. Try standing completely straight - you'll notice it's harder to balance!</p>
+                <div class="example-title"><i class="fas fa-spring"></i> Built-in Springs</div>
+                <p>The discs between your vertebrae act like tiny springs or cushions. When you jump or run, they absorb the shock so your spine doesn't get damaged!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-cogs"></i> Spinal Sections</div>
-                <p>Think of the spine as a stack of building blocks (vertebrae) with cushioning discs between them. This allows flexibility while maintaining strength.</p>
+                <div class="example-title"><i class="fas fa-smile"></i> The Movable Jaw</div>
+                <p>Your lower jaw (mandible) is the only bone in your skull that moves. It allows you to talk, chew, and yawn. Try wiggling your jaw right now!</p>
             </div>
         `,
-        taskInstructions: "Complete these activities about the skull and spine. Use your worksheet and spine model/chart if available.",
+        taskInstructions: "Draw and label the skull and vertebral column, then answer detailed questions about their structure.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Skull Knowledge</strong></p>
+                <p><strong>Part A: The Skull - Structure Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> What is the main function of the skull?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> Why do you think the skull bones are fused together (not separate)?
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Spine Exploration</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> <strong>Spine Section Count:</strong> Using a model or chart, identify the 5 sections of the spine:
+                    <span class="task-number">1</span> Draw and label the main parts of the skull:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. _______________ (neck - 7 vertebrae)</div>
-                        <div>2. _______________ (chest - 12 vertebrae)</div>
-                        <div>3. _______________ (lower back - 5 vertebrae)</div>
-                        <div>4. _______________ (5 fused vertebrae)</div>
-                        <div>5. _______________ (tailbone - 4 fused vertebrae)</div>
+                        <div>• Cranium (brain case)</div>
+                        <div>• Eye sockets</div>
+                        <div>• Nasal bone</div>
+                        <div>• Upper jaw (maxilla)</div>
+                        <div>• Lower jaw (mandible)</div>
                     </div>
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Drawing Activity</strong></p>
+                <p><strong>Part B: The Vertebral Column - Structure Drawing</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Draw a simple side view of the spine showing its natural "S" curve:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Label: Neck curve, Middle back curve, Lower back curve)</p>
+                    <span class="task-number">2</span> Draw and label the sections of the spine:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Cervical (neck - 7 vertebrae)</div>
+                        <div>• Thoracic (upper back - 12 vertebrae)</div>
+                        <div>• Lumbar (lower back - 5 vertebrae)</div>
+                        <div>• Sacrum (5 fused vertebrae)</div>
+                        <div>• Coccyx (tailbone - 4 fused vertebrae)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Critical Thinking</strong></p>
+                <p><strong>Part C: Detailed Questions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> How does the "S" shape of the spine help us in daily activities like walking or carrying a backpack?
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">3</span> Which part of the skull is movable? What does it allow us to do?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">6</span> What might happen if someone's spine was injured and couldn't protect the spinal cord?
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">4</span> Why does the spine have curves instead of being perfectly straight?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> What would happen if you didn't have discs between your vertebrae?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
         `,
-        homework: "Practice good posture! For 10 minutes today, sit and stand with your back straight, shoulders back. Notice how your spine feels.",
+        homework: "Gently feel the back of your neck and down your spine. Can you feel the bumps of your vertebrae? Draw a picture showing where you felt them.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "The Human Body",
-        subtopic: "The Cage and the Limbs: Ribcage & Pelvis",
+        topic: "Human Biology",
+        subtopic: "Thoracic and Appendicular Skeleton",
         lessonContent: `
-            <p>Today we complete our skeleton study by exploring the protective ribcage, the pelvic girdle, and our limb bones.</p>
-            <p><strong>The Ribcage:</strong></p>
+            <p>Today we'll complete our study of the skeleton by exploring the ribcage, shoulder bones, pelvic girdle, and our amazing limbs!</p>
+            <p><strong>Key Question:</strong> How do your arms and legs attach to your main skeleton?</p>
+            <p><strong>The Thoracic Skeleton (Ribcage):</strong></p>
             <ul>
-                <li>Made of 12 pairs of ribs (24 total)</li>
-                <li>Forms a protective cage around the heart and lungs</li>
-                <li>Most ribs connect to the spine in back and sternum (breastbone) in front</li>
-                <li>The bottom two pairs are "floating ribs" - they only attach to the spine</li>
+                <li><strong>Sternum (Breastbone):</strong> The flat bone in the center of your chest</li>
+                <li><strong>Ribs:</strong> 12 pairs of curved bones that attach to the spine in the back</li>
+                <li><strong>True ribs (7 pairs):</strong> Attach directly to the sternum</li>
+                <li><strong>False ribs (3 pairs):</strong> Attach indirectly to the sternum</li>
+                <li><strong>Floating ribs (2 pairs):</strong> Only attach to the spine in the back (no front attachment)</li>
+                <li>The ribcage protects the heart and lungs</li>
             </ul>
-            <p><strong>The Shoulder Girdle:</strong></p>
+            <p><strong>The Appendicular Skeleton (Our Limbs and Girdles):</strong></p>
             <ul>
-                <li><strong>Clavicle (collarbone):</strong> The long bone you can feel across the top of your chest</li>
-                <li><strong>Scapula (shoulder blade):</strong> The flat triangular bones on your upper back</li>
-            </ul>
-            <p><strong>The Pelvic Girdle:</strong></p>
-            <ul>
-                <li>A bowl-shaped structure that supports our abdominal organs</li>
-                <li>Connects the spine to the leg bones</li>
-                <li>Very strong to support our body weight</li>
-            </ul>
-            <p><strong>The Limbs:</strong></p>
-            <ul>
-                <li>Arms and legs are part of the appendicular skeleton</li>
-                <li>Long bones in limbs act as levers for movement</li>
-                <li>Joints allow bones to move in different ways</li>
+                <li><strong>Clavicle (Collarbone):</strong> Connects the sternum to the shoulder blade</li>
+                <li><strong>Scapula (Shoulder Blade):</strong> Large triangular bone on the back of the shoulder</li>
+                <li><strong>Humerus:</strong> Upper arm bone (connects shoulder to elbow)</li>
+                <li><strong>Radius & Ulna:</strong> Lower arm bones (forearm)</li>
+                <li><strong>Pelvic Girdle (Hip Bones):</strong> Strong structure that supports the body and protects lower organs</li>
+                <li><strong>Femur:</strong> Thigh bone (the longest and strongest bone in the body)</li>
+                <li><strong>Tibia & Fibula:</strong> Lower leg bones (shin and calf)</li>
+                <li><strong>Patella (Kneecap):</strong> Protects the knee joint</li>
             </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-virus"></i> Ribcage Protection</div>
-                <p>Your ribcage is like a built-in suit of armor for your heart and lungs. Gently press on your chest - you can feel how the ribs create a protective barrier.</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> The Ribcage Shield</div>
+                <p>Your ribcage is like a bony shield! It protects your heart and lungs while still allowing your chest to expand when you breathe.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-basketball-ball"></i> Shoulder Mobility</div>
-                <p>Your shoulder joint (where clavicle, scapula, and arm bone meet) is the most mobile joint in your body - it allows you to throw, swim, and reach in many directions.</p>
+                <div class="example-title"><i class="fas fa-bicycle"></i> The Collarbone Connection</div>
+                <p>Your clavicle (collarbone) acts like a strut, keeping your shoulder away from your chest so your arm can move freely. It's one of the most commonly broken bones because it's relatively thin and gets a lot of force during falls.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-chair"></i> Pelvic Support</div>
-                <p>Your pelvis is like a sturdy chair that holds up your body when you sit. It's shaped perfectly to support your weight and protect organs below.</p>
+                <div class="example-title"><i class="fas fa-weight-hanging"></i> The Strongest Bone</div>
+                <p>Your femur (thigh bone) is the longest and strongest bone in your body. It can support up to 30 times your body weight! That's why it's so hard to break.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-baby-carriage"></i> The Pelvic Girdle</div>
+                <p>The pelvic girdle is like a strong bowl that holds and protects your lower abdominal organs. It's also where your leg bones attach, allowing you to stand and walk upright.</p>
             </div>
         `,
-        taskInstructions: "Complete these hands-on activities about the ribcage, pelvis, and limb bones.",
+        taskInstructions: "Draw and label the ribcage, collarbone, shoulder blades, pelvic girdle, and limb bones.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Ribcage Exploration</strong></p>
+                <p><strong>Part A: Ribcage and Shoulder Bones Diagram</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> <strong>"Protect the Heart" Demonstration:</strong> After the teacher's demonstration, explain how the ribcage protects vital organs:
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">1</span> Draw and label the following:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Sternum (breastbone)</div>
+                        <div>• Ribs (12 pairs)</div>
+                        <div>• Clavicle (collarbone)</div>
+                        <div>• Scapula (shoulder blade)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Pelvic Girdle and Limbs Diagram</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Draw and label the following:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Pelvic girdle (hip bones)</div>
+                        <div>• Femur (thigh bone)</div>
+                        <div>• Patella (kneecap)</div>
+                        <div>• Tibia (shin bone)</div>
+                        <div>• Fibula (calf bone)</div>
+                        <div>• Humerus (upper arm bone)</div>
+                        <div>• Radius & Ulna (forearm bones)</div>
+                    </div>
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Bone Identification & Function</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Match each bone to its location and function:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>a. Clavicle ___    1. Upper arm bone</div>
+                        <div>b. Scapula ___     2. Thigh bone (longest bone)</div>
+                        <div>c. Humerus ___     3. Collarbone</div>
+                        <div>d. Femur ___       4. Kneecap</div>
+                        <div>e. Patella ___     5. Shoulder blade</div>
+                        <div>f. Tibia ___       6. Shin bone</div>
+                    </div>
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why do you think the ribs are curved rather than straight?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">2</span> Count your own ribs (gently!). How many rib pairs can you feel on one side?
+                    <span class="task-number">5</span> Why is the femur the longest and strongest bone in the human body?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> Name two differences between your arm bones and your leg bones.
                     <div class="answer-space" style="height: 60px;"></div>
                 </div>
             </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Shoulder and Pelvis Identification</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Find and label these bones on your body:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>✓ Clavicle (collarbone) - Location: ________________</div>
-                        <div>✓ Scapula (shoulder blade) - Location: ________________</div>
-                        <div>✓ Pelvis (hip bones) - Location: ________________</div>
-                    </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> What is one major difference between the shoulder girdle and the pelvic girdle?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Limb Bones</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> List the long bones in your arms and legs:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Arm: 1. _______________ 2. _______________ (forearm)</div>
-                        <div>Leg: 1. _______________ 2. _______________ (lower leg)</div>
-                    </div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">6</span> Why are limb bones typically long and cylindrical?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part D: Complete the Picture</strong></p>
-                <div class="task-item">
-                    <span class="task-number">7</span> Add the ribcage, pelvis, and limb bones to your skeleton drawing from Monday:
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
-                </div>
-            </div>
         `,
-        homework: "Review all three lessons. Create a study card listing 3 functions of the skeleton and 3 major bone structures with their purposes.",
+        homework: "Create a complete one-page study guide about the skeletal system including: 5 functions of the skeleton, labeled drawing of the skull and spine, labeled drawing of the ribcage and limbs, and 5 interesting bone facts.",
         homeworkDue: "Monday"
     }
 };

@@ -1,223 +1,303 @@
-// Grade 5 Science - Week 9 Data
+// Grade 5 Science - Term 1 Week 9 Data
 const grade5ScienceWeek9 = {
     metadata: {
         grade: 5,
         subject: "Science",
         term: 1,
         week: 9,
-        title: "Health and Disease Awareness",
-        description: "Understanding harmful substances and common parasitic diseases in the community"
+        title: "Risks, Mitigation & Introduction to Nutrition",
+        description: "Identifying physical and health risks during puberty, exploring lifestyle risks, and devising protective measures"
     },
     
     monday: {
         subject: "Science",
-        topic: "Health Awareness",
-        subtopic: "Understanding Harmful Substances",
+        topic: "Health Education",
+        subtopic: "Physical and Health Risks During Puberty",
         lessonContent: `
-            <p>Welcome to our health awareness unit! Today we will learn about harmful substances that some people misuse in our community and why this is dangerous.</p>
-            <p><strong>Key Concept:</strong> Substance abuse means using drugs or other substances in ways that are harmful to your health or not following medical advice.</p>
-            <p><strong>Common Harmful Substances:</strong></p>
+            <p>Welcome! Today we'll learn about important health risks that can occur during puberty and how to stay safe and healthy.</p>
+            <p><strong>Key Question:</strong> What health risks should young people be aware of during puberty?</p>
+            <p><strong>Introduction:</strong> Puberty is a time of great change in our bodies. With these changes come new responsibilities and understanding of health risks. Being informed helps us make wise decisions.</p>
+            <p><strong>Understanding Teenage Pregnancy:</strong></p>
             <ul>
-                <li><strong>Alcohol:</strong> Can damage the liver and brain, affecting judgment and coordination</li>
-                <li><strong>Marijuana (Cannabis):</strong> Affects memory, learning, and can lead to breathing problems</li>
-                <li><strong>Cocaine:</strong> Highly addictive substance that can cause heart problems and mental health issues</li>
-                <li><strong>Solvents (Inhalants):</strong> Chemicals found in glue, paint, or gasoline that can cause brain damage and organ failure</li>
+                <li>Teenage pregnancy occurs when a young person becomes pregnant before age 20</li>
+                <li>It can happen when people have sexual intercourse without understanding the consequences</li>
+                <li>Teenage parents may struggle to complete school, find jobs, or care for a baby properly</li>
+                <li>Babies born to teenagers may have higher health risks</li>
             </ul>
-            <p><strong>Why is substance abuse harmful?</strong> These substances can change how your brain works, damage your body, and affect your relationships with family and friends.</p>
+            <p><strong>Understanding STIs (Sexually Transmitted Infections):</strong></p>
+            <ul>
+                <li>STIs are infections passed from one person to another through sexual contact</li>
+                <li>Many STIs have no obvious symptoms, so people may not know they have them</li>
+                <li>Some STIs can be cured with medicine; others (like HIV) can be managed but not cured</li>
+            </ul>
+            <p><strong>Understanding HIV and AIDS:</strong></p>
+            <ul>
+                <li><strong>HIV</strong> (Human Immunodeficiency Virus) is a virus that attacks the immune system</li>
+                <li><strong>AIDS</strong> (Acquired Immunodeficiency Syndrome) is the late stage of HIV infection</li>
+                <li>HIV is spread through certain body fluids: blood, semen, vaginal fluids, and breast milk</li>
+                <li>You CANNOT get HIV from: hugging, sharing food, toilet seats, insect bites, or casual contact</li>
+                <li>With proper medicine, people with HIV can live long, healthy lives</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-exclamation-triangle" style="color: #ff6b6b;"></i> Real-Life Example</div>
-                <p>Some cleaning products at home contain solvents that can be harmful if inhaled. Always use them in well-ventilated areas and never use them to get "high."</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> Protection Facts</div>
+                <p>Abstinence (choosing not to have sex) is the only 100% effective way to prevent pregnancy and STIs. This is a healthy choice many young people make.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-lightbulb"></i> Did You Know?</div>
-                <p>Alcohol is legal for adults in many places, but underage drinking is illegal and especially harmful to developing brains.</p>
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Support Matters</div>
+                <p>Talking to trusted adults (parents, teachers, counselors) about health questions is smart and responsible. They want to help you stay safe!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-brain"></i> Brain Science</div>
-                <p>Harmful substances can "rewire" your brain, making it difficult to feel happy without them. This is called addiction.</p>
+                <div class="example-title"><i class="fas fa-book"></i> Knowledge is Power</div>
+                <p>Understanding your body and health risks helps you make informed decisions. Never be afraid to ask questions or seek accurate information.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to understand harmful substances and substance abuse.",
+        taskInstructions: "Identify health risks and complete the awareness worksheet.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> In your own words, define "substance abuse":
-                <div class="answer-space" style="height: 80px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> List four harmful substances commonly abused in communities:
-                <div class="answer-space" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> "Fact vs. Myth" Sorting Game: Classify each statement below as Fact (F) or Myth (M):
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>___ "Only illegal drugs are harmful."</div>
-                    <div>___ "Substance abuse can affect anyone in a community."</div>
-                    <div>___ "Trying drugs once won't hurt you."</div>
-                    <div>___ "Alcohol is less dangerous than other drugs."</div>
+            <div class="content-box">
+                <p><strong>Part A: Risk Identification</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> List three health risks associated with teenage pregnancy:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> What does HIV stand for, and how does it affect the body?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Why is it important to learn about harmful substances even if you never plan to use them?
-                <div class="answer-space" style="height: 80px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: True or False</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Write "True" or "False" for each statement:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>A. You can get HIV from sharing a drinking glass with someone: _________</div>
+                        <div>B. Teenage pregnancy can make it harder to finish school: _________</div>
+                        <div>C. Some STIs have no symptoms: _________</div>
+                        <div>D. HIV can be spread through mosquito bites: _________</div>
+                        <div>E. People with HIV can live long lives with proper treatment: _________</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Why is it important for young people to learn about STIs and HIV before becoming sexually active?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Name two trusted adults you could talk to if you have questions about puberty or health risks:
+                    <div class="answer-space" style="height: 60px; margin-top: 10px;"></div>
+                </div>
             </div>
         `,
-        homework: "Talk with a family member about why substance abuse is harmful. Write down three important points from your discussion.",
+        homework: "Write a short paragraph explaining one thing you learned today about staying healthy during puberty. Share it with a parent or guardian and ask them to sign it.",
         homeworkDue: "Wednesday"
     },
     
     wednesday: {
         subject: "Science",
-        topic: "Health Awareness",
-        subtopic: "Impact on the Body and Mind",
+        topic: "Health Education",
+        subtopic: "Lifestyle Risks During Puberty: Drugs, Alcohol, and Peer Pressure",
         lessonContent: `
-            <p>Today we will examine how harmful substances affect both the body and mind. Understanding these effects helps us make healthy choices.</p>
-            <p><strong>Physical Effects of Substance Abuse:</strong></p>
-            <ol>
-                <li><strong>Brain Damage:</strong> Memory loss, poor decision-making, and changes in personality</li>
-                <li><strong>Liver Damage:</strong> From alcohol and some drugs, leading to liver failure</li>
-                <li><strong>Lung Damage:</strong> Breathing problems, lung cancer, and respiratory failure</li>
-                <li><strong>Heart Problems:</strong> Irregular heartbeat, heart attacks, and high blood pressure</li>
-                <li><strong>Nausea and Digestive Issues:</strong> Stomach pain, vomiting, and poor nutrition</li>
-            </ol>
-            <p><strong>Mental and Social Effects:</strong></p>
+            <p>Today we'll explore how lifestyle choices like drug abuse, alcohol consumption, and responding to peer pressure can affect our health during puberty.</p>
+            <p><strong>Key Question:</strong> How do drugs, alcohol, and peer pressure create risks for young people?</p>
+            <p><strong>The Impact of Drug Abuse:</strong></p>
             <ul>
-                <li>Aggressive or violent behavior</li>
-                <li>Addiction (strong need to keep using the substance)</li>
-                <li>Mental illnesses like depression and anxiety</li>
-                <li>Social isolation from family and friends</li>
-                <li>Problems at school or work</li>
+                <li>Drugs are substances that change how your body and brain work</li>
+                <li><strong>Short-term effects:</strong> Confusion, poor judgment, accidents, vomiting, loss of consciousness</li>
+                <li><strong>Long-term effects:</strong> Brain damage, organ failure (liver, heart, lungs), addiction, memory problems, death</li>
+                <li>Drug abuse can ruin relationships with family and friends</li>
+                <li>It can lead to trouble at school, legal problems, and difficulty finding jobs</li>
             </ul>
-            <p><strong>Important Fact:</strong> Substance abuse doesn't just affect the person using drugs—it affects their entire family and community.</p>
+            <p><strong>The Impact of Alcohol Consumption:</strong></p>
+            <ul>
+                <li>Alcohol is a depressant that slows down the brain and nervous system</li>
+                <li>For young people, alcohol is especially dangerous because brains are still developing</li>
+                <li><strong>Risks include:</strong> Poor decision-making, risky behaviors, alcohol poisoning, addiction, liver damage</li>
+                <li>Drinking under age 18 is illegal in many countries for good reason</li>
+                <li>Alcohol can make you more likely to engage in other risky behaviors</li>
+            </ul>
+            <p><strong>Understanding Peer Pressure:</strong></p>
+            <ul>
+                <li><strong>Peer pressure</strong> is when friends or people your age try to influence you to do something</li>
+                <li><strong>Positive peer pressure:</strong> Encouraging you to study, exercise, or make good choices</li>
+                <li><strong>Negative peer pressure:</strong> Trying to make you do something dangerous, wrong, or unhealthy</li>
+                <li>It can be hard to say "no" when you want to fit in</li>
+                <li>True friends respect your decisions and don't pressure you to do things that hurt you</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-heartbeat"></i> Physical Health</div>
-                <p>Alcohol damages liver cells, which the body tries to repair. Over time, this creates scar tissue that can lead to liver failure.</p>
+                <div class="example-title"><i class="fas fa-brain"></i> Brain Development</div>
+                <p>Your brain continues developing until about age 25. Alcohol and drugs can permanently damage this development, affecting memory, learning, and decision-making forever.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-brain"></i> Mental Health</div>
-                <p>Some substances can cause paranoia (feeling everyone is against you) or hallucinations (seeing or hearing things that aren't there).</p>
+                <div class="example-title"><i class="fas fa-users"></i> Peer Pressure Scenarios</div>
+                <p>"Everyone is trying this vape. Don't be a chicken!" - This is negative peer pressure. A strong response: "No thanks, I care about my health. Real friends don't pressure each other."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-users-slash"></i> Social Impact</div>
-                <p>People with addiction often withdraw from friends and activities they once enjoyed, leading to loneliness and isolation.</p>
+                <div class="example-title"><i class="fas fa-heartbeat"></i> Health Connections</div>
+                <p>Alcohol and drugs weaken your immune system, making it harder for your body to fight infections. During puberty, your body needs all its strength for healthy development!</p>
             </div>
         `,
-        taskInstructions: "Create a 'Body Map' and analyze how substance abuse affects different organs and social life.",
+        taskInstructions: "Analyze scenarios and develop refusal strategies.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Body Map Activity</strong></p>
+                <p><strong>Part A: Risk Analysis</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Draw a simple human body outline and label which organs are damaged by specific substances:
-                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Label: Brain, Liver, Lungs, Heart. Connect each to at least one harmful substance)</p>
+                    <span class="task-number">1</span> List three ways drug abuse can harm a young person's life:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Why is alcohol especially dangerous for teenagers compared to adults?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Effect Matching</strong></p>
+                <p><strong>Part B: Peer Pressure Scenarios</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Match the substance with its common effects:
+                    <span class="task-number">3</span> Read each scenario and write a response the person could give:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Alcohol ___ a. Memory problems, lung damage</div>
-                        <div>2. Marijuana ___ b. Liver damage, poor coordination</div>
-                        <div>3. Cocaine ___ c. Heart problems, nose damage</div>
-                        <div>4. Solvents ___ d. Brain damage, sudden death</div>
+                        <div><strong>Scenario 1:</strong> "Come on, just try one sip. It won't hurt you. Everyone is doing it!"</div>
+                        <div>Your response: _________________________________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 2:</strong> "If you were really my friend, you would take this pill with me."</div>
+                        <div>Your response: _________________________________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 3:</strong> "Don't be scared. Just one cigarette won't get you addicted."</div>
+                        <div>Your response: _________________________________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Social Impact Analysis</strong></p>
+                <p><strong>Part C: Refusal Strategies</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> How does substance abuse lead to social isolation?
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">4</span> List three polite but firm ways to say "no" to negative peer pressure:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">4</span> Describe how physical health declines when someone abuses substances:
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">5</span> How can you tell the difference between a good friend and someone who just wants you to fit in?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a poster showing one harmful substance and its effects on the body OR mind. Include at least three facts.",
+        homework: "Discuss with a family member what they would do if offered drugs or alcohol. Write down three refusal phrases you practiced together.",
         homeworkDue: "Friday"
     },
     
     friday: {
         subject: "Science",
-        topic: "Disease Awareness",
-        subtopic: "Introduction to Parasitic Diseases",
+        topic: "Health Education",
+        subtopic: "Protective Measures: Personal and Community Strategies",
         lessonContent: `
-            <p>Today we shift from substance abuse to another health topic: parasitic diseases common in many communities. These are illnesses caused by parasites living in or on our bodies.</p>
-            <p><strong>Common Parasitic Diseases:</strong></p>
-            <ol>
-                <li><strong>Malaria:</strong> Caused by a parasite spread by mosquito bites. Symptoms include fever, chills, and fatigue.</li>
-                <li><strong>Sleeping Sickness:</strong> Caused by a parasite spread by tsetse fly bites. Can affect the nervous system.</li>
-                <li><strong>Anthrax:</strong> Caused by bacteria that can infect animals and humans through contact or contaminated food.</li>
-                <li><strong>Yellow Fever:</strong> Viral disease spread by mosquitoes, causing fever and sometimes liver damage.</li>
-            </ol>
-            <p><strong>Understanding Vectors:</strong> Many parasitic diseases are spread by "vectors" - animals (usually insects) that carry and transmit the disease to humans.</p>
-            <p><strong>Important Prevention:</strong> Understanding how diseases spread helps us prevent them through mosquito nets, clean water, and proper food handling.</p>
+            <p>Today we'll create actionable strategies to reduce risks associated with puberty - both for ourselves and our communities!</p>
+            <p><strong>Key Question:</strong> What can we do personally and as a community to stay safe and healthy during puberty?</p>
+            <p><strong>Personal Protective Measures:</strong></p>
+            <ul>
+                <li><strong>Set personal boundaries:</strong> Know what you are and aren't comfortable with</li>
+                <li><strong>Practice abstinence:</strong> Choosing not to have sex eliminates pregnancy and STI risks</li>
+                <li><strong>Learn to say "NO":</strong> Develop and practice refusal skills for drugs and alcohol</li>
+                <li><strong>Choose friends wisely:</strong> Surround yourself with people who respect your choices</li>
+                <li><strong>Stay informed:</strong> Learn accurate health information from trusted sources</li>
+                <li><strong>Talk to trusted adults:</strong> Parents, teachers, counselors, and religious leaders can help</li>
+                <li><strong>Have healthy activities:</strong> Sports, hobbies, and clubs keep you busy and positive</li>
+            </ul>
+            <p><strong>Community Protective Measures:</strong></p>
+            <ul>
+                <li><strong>Youth programs:</strong> Join or start after-school programs that teach life skills</li>
+                <li><strong>Peer education:</strong> Young people can teach other young people about health risks</li>
+                <li><strong>Safe spaces:</strong> Create places where youth can talk openly without judgment</li>
+                <li><strong>Mentorship programs:</strong> Connect younger students with responsible older role models</li>
+                <li><strong>Community awareness:</strong> Share information about risks through posters, announcements, and events</li>
+                <li><strong>Support services:</strong> Know where to find help (school counselors, clinics, hotlines)</li>
+            </ul>
+            <p><strong>Creating Your Action Plan:</strong></p>
+            <ul>
+                <li>A personal action plan is a written commitment to protect your health</li>
+                <li>It includes specific steps you will take and people who will support you</li>
+                <li>Review and update your plan as you grow and face new situations</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-mosquito"></i> Malaria Vector</div>
-                <p>Only female Anopheles mosquitoes spread malaria. They bite mainly between dusk and dawn.</p>
+                <div class="example-title"><i class="fas fa-clipboard-list"></i> Personal Action Plan Example</div>
+                <p>"I will avoid parties where I know there will be alcohol. I will practice saying 'No thanks' with my older sister. If I feel pressured, I will text my mom to come pick me up."</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-fly"></i> Sleeping Sickness Vector</div>
-                <p>Tsetse flies are found only in sub-Saharan Africa. Their bites can transmit the parasite that causes sleeping sickness.</p>
+                <div class="example-title"><i class="fas fa-school"></i> Community Action Example</div>
+                <p>A group of students started a "Health Heroes" club where older students teach younger students about puberty and healthy choices. They made posters and presented during assembly.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Prevention</div>
-                <p>Using insecticide-treated bed nets reduces malaria transmission by up to 90% by preventing mosquito bites while sleeping.</p>
+                <div class="example-title"><i class="fas fa-comments"></i> Support Network</div>
+                <p>Your support network includes people you can trust: parents, grandparents, teachers, coaches, counselors, aunts, uncles, and older siblings. Keep their contact info handy!</p>
             </div>
         `,
-        taskInstructions: "Research and match diseases to their vectors, and demonstrate understanding of parasitic diseases.",
+        taskInstructions: "Create a personal action plan and community strategy for risk reduction.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Disease-Vector Matching</strong></p>
+                <p><strong>Part A: My Personal Action Plan</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match each parasitic disease to its vector (carrier):
+                    <span class="task-number">1</span> Complete your personal protective plan:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Malaria ___ a. Tsetse fly</div>
-                        <div>2. Sleeping Sickness ___ b. Mosquito</div>
-                        <div>3. Anthrax ___ c. Contaminated soil/animal products</div>
-                        <div>4. Yellow Fever ___ d. Mosquito (different type)</div>
+                        <div><strong>Goal:</strong> I want to stay healthy and safe during puberty by...</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>Three specific actions I will take:</strong></div>
+                        <div class="answer-space" style="height: 100px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>People who will support me:</strong></div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 10px;"><strong>What I will say if someone pressures me:</strong></div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Research and Describe</strong></p>
+                <p><strong>Part B: Community Strategy</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Name three parasitic diseases and their causes:
-                    <div class="answer-space" style="height: 150px;"></div>
+                    <span class="task-number">2</span> Design a community awareness poster or campaign idea:
+                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">3</span> Describe your campaign and how it would help young people:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Comparison Activity</strong></p>
+                <p><strong>Part C: Resources and Support</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> How are malaria and yellow fever similar? How are they different?
-                    <div class="answer-space" style="height: 120px;"></div>
+                    <span class="task-number">4</span> List three trusted adults or places you could go for help if you or a friend faced a risky situation:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> How can you help a friend who is being pressured to try drugs or alcohol?
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Prevention Strategies</strong></p>
+                <p><strong>Part D: Commitment</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> List two ways to prevent each:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Malaria: 1. ________________ 2. ________________</div>
-                        <div>Anthrax: 1. ________________ 2. ________________</div>
-                    </div>
+                    <span class="task-number">6</span> Write a personal commitment statement about protecting your health:
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> Signature: _________________ Date: _________
                 </div>
             </div>
         `,
-        homework: "Choose one parasitic disease and create a simple fact sheet. Include: cause, symptoms, vector (if any), and one prevention method.",
+        homework: "Share your personal action plan with a parent or guardian. Ask them to add one suggestion and sign your plan. Bring it back to class on Monday.",
         homeworkDue: "Monday"
     }
 };
