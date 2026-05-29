@@ -1,151 +1,236 @@
-// Grade 5 Social Studies - Week 8 Data
+// Grade 5 Social Studies - Term 1 Week 8 Data
 const grade5SocialStudiesWeek8 = {
     metadata: {
         grade: 5,
         subject: "Social Studies",
         term: 1,
         week: 8,
-        title: "Gender Equality and Children's Rights",
-        description: "Understanding gender equality institutions and basic children's rights"
+        title: "Political Geography of Zambia",
+        description: "Exploring Zambia's map outline, geographic position, 10 provinces, and provincial headquarters"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Gender Equality",
-        subtopic: "Identifying Institutions that Promote Gender Equality",
+        topic: "Political Geography",
+        subtopic: "Introduction to the Geography of Zambia",
         lessonContent: `
-            <p>Welcome to our lesson on gender equality! Today we will explore what gender equality means and learn about organizations that work to promote fairness for everyone in society.</p>
-            <p><strong>Key Concept:</strong> Gender equality means that all people, regardless of whether they are male or female, have equal rights, responsibilities, and opportunities.</p>
-            <p><strong>Why Gender Equality Matters:</strong></p>
+            <p>Welcome to our exploration of Zambia's political geography! Today we'll learn about where Zambia is located and practice drawing its map outline.</p>
+            <p><strong>Key Question:</strong> Where is Zambia located on the African continent, and what does its shape look like?</p>
+            <p><strong>Introduction:</strong> Zambia is a landlocked country in southern Africa. It gained independence from Britain on October 24, 1964, and is named after the Zambezi River.</p>
+            <p><strong>Zambia's Geographic Position:</strong></p>
             <ul>
-                <li>Everyone deserves to be treated fairly and with respect</li>
-                <li>Boys and girls should have equal chances to learn and grow</li>
-                <li>Communities are stronger when everyone can contribute</li>
-                <li>It helps create a more just and peaceful society</li>
+                <li><strong>Continent:</strong> Africa</li>
+                <li><strong>Region:</strong> Southern Africa</li>
+                <li><strong>Landlocked:</strong> No coastline; surrounded by 8 neighboring countries</li>
+                <li><strong>Total Area:</strong> Approximately 752,618 square kilometers</li>
+                <li><strong>Capital City:</strong> Lusaka</li>
             </ul>
-            <p><strong>What Does Fairness Look Like?</strong> Gender equality means both boys and girls can go to school, both men and women can work in any job they choose, and everyone's opinions are valued equally.</p>
+            <p><strong>Countries Bordering Zambia:</strong></p>
+            <ol>
+                <li><strong>North:</strong> Democratic Republic of Congo (DRC) and Tanzania</li>
+                <li><strong>East:</strong> Malawi and Mozambique</li>
+                <li><strong>South:</strong> Zimbabwe, Botswana, and Namibia</li>
+                <li><strong>West:</strong> Angola</li>
+            </ol>
+            <p><strong>Major Physical Features:</strong></p>
+            <ul>
+                <li>Zambezi River (Zambia's namesake)</li>
+                <li>Victoria Falls (Mosi-oa-Tunya - "The Smoke that Thunders")</li>
+                <li>Lake Kariba (one of the world's largest man-made lakes)</li>
+                <li>Lake Tanganyika (shared with neighboring countries)</li>
+                <li>Luangwa Valley</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-balance-scale" style="color: #4A90E2;"></i> Real-Life Example</div>
-                <p>Think about your classroom: Both boys and girls get to answer questions, both can be class leaders, and both are encouraged to participate in all activities equally.</p>
+                <div class="example-title"><i class="fas fa-map-marker-alt"></i> Zambia's Shape</div>
+                <p>Zambia's outline is often described as resembling a butterfly or a flying bird! Look closely at the map and see what shape you notice.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping"></i> Institution Example</div>
-                <p>The United Nations has a special agency called UN Women that works worldwide to promote gender equality and empower women and girls.</p>
+                <div class="example-title"><i class="fas fa-water"></i> The Zambezi River</div>
+                <p>The Zambezi River is Africa's fourth-longest river. It flows through six countries before emptying into the Indian Ocean!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-school"></i> Local Example</div>
-                <p>Many schools have rules that ensure both boys and girls can participate in sports, leadership roles, and all school activities without discrimination.</p>
+                <div class="example-title"><i class="fas fa-globe-africa"></i> Landlocked but Connected</div>
+                <p>Even though Zambia has no ocean coastline, it connects to the sea through railways, roads, and the Zambezi River to ports in Mozambique, Tanzania, and South Africa.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to understand gender equality and the institutions that promote it.",
+        taskInstructions: "Draw Zambia's map outline and identify its geographic position and neighboring countries.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Class Discussion: What does "gender equality" mean to you? Write 2-3 key points from our discussion:
-                <div class="answer-space" style="height: 100px;"></div>
+            <div class="content-box">
+                <p><strong>Part A: Map Outline Drawing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Using the outline provided, carefully trace and then draw Zambia's map outline:
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <p style="text-align: center; color: #999; padding-top: 80px;">[Zambia Map Outline - Draw Here]</p>
+                    </div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Identify two institutions that promote gender equality and describe their roles:
-                <div class="answer-space" style="height: 120px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Neighboring Countries Activity</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> On your map, label Zambia's eight neighboring countries in their correct positions:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• Democratic Republic of Congo (DRC) - North</div>
+                        <div>• Tanzania - Northeast</div>
+                        <div>• Malawi - East</div>
+                        <div>• Mozambique - Southeast</div>
+                        <div>• Zimbabwe - South</div>
+                        <div>• Botswana - Southwest</div>
+                        <div>• Namibia - Southwest (the Caprivi Strip)</div>
+                        <div>• Angola - West</div>
+                    </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Draw or describe a picture showing gender equality in action (e.g., boys and girls sharing classroom responsibilities):
-                <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Show equal participation and opportunity)</p>
+            
+            <div class="content-box">
+                <p><strong>Part C: Geographic Position Questions</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> What does it mean that Zambia is a "landlocked" country?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">4</span> Name three major rivers or lakes found in Zambia:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> What is the capital city of Zambia, and where is it located on the map?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Why is promoting gender equality important in our society? Give two reasons:
-                <div class="answer-space" style="height: 80px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Why do you think Zambia's shape and location are important for trade and travel?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
             </div>
         `,
-        homework: "Look for examples of gender equality in your home, school, or community. Write down one example you observe.",
+        homework: "Research one of Zambia's neighboring countries. Write 3 interesting facts about it and draw its approximate location relative to Zambia.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Human Rights",
-        subtopic: "Understanding Children's Rights",
+        topic: "Political Geography",
+        subtopic: "Mapping the 10 Provinces of Zambia",
         lessonContent: `
-            <p>Today we will learn about children's rights! These are special protections and freedoms that every child in the world should have.</p>
-            <p><strong>What Are Children's Rights?</strong> These are basic things that all children need to grow up healthy, safe, and happy. The United Nations has identified specific rights for children.</p>
-            <p><strong>10 Common Children's Rights:</strong></p>
+            <p>Today we'll learn about Zambia's 10 provinces! Each province has its own capital city (called the provincial headquarters) and unique characteristics.</p>
+            <p><strong>Key Question:</strong> What are the 10 provinces of Zambia, and where is each provincial headquarters located?</p>
+            <p><strong>Introduction:</strong> Zambia is divided into 10 provinces for administrative purposes. Each province is governed by a Provincial Minister and has a Provincial Permanent Secretary.</p>
+            <p><strong>The 10 Provinces and Their Headquarters:</strong></p>
             <ol>
-                <li><strong>Right to Education:</strong> Every child has the right to go to school and learn</li>
-                <li><strong>Right to Healthcare:</strong> Children should get medical care when they're sick</li>
-                <li><strong>Right to Protection:</strong> Children must be kept safe from harm and abuse</li>
-                <li><strong>Right to Play:</strong> Children need time to play and have fun</li>
-                <li><strong>Right to Food and Clean Water:</strong> Children should have enough healthy food and clean water</li>
-                <li><strong>Right to a Name and Nationality:</strong> Every child has the right to an identity</li>
-                <li><strong>Right to Express Opinions:</strong> Children's thoughts and feelings should be heard</li>
-                <li><strong>Right to Family Care:</strong> Children should live with or stay connected to their family</li>
-                <li><strong>Right to Special Care for Disabilities:</strong> Children with disabilities get extra support</li>
-                <li><strong>Right to Protection from Harmful Work:</strong> Children shouldn't do dangerous or heavy work</li>
+                <li><strong>Central Province</strong> - Headquarters: <strong>Kabwe</strong></li>
+                <li><strong>Copperbelt Province</strong> - Headquarters: <strong>Ndola</strong></li>
+                <li><strong>Eastern Province</strong> - Headquarters: <strong>Chipata</strong></li>
+                <li><strong>Luapula Province</strong> - Headquarters: <strong>Mansa</strong></li>
+                <li><strong>Lusaka Province</strong> - Headquarters: <strong>Lusaka</strong> (also the national capital)</li>
+                <li><strong>Muchinga Province</strong> - Headquarters: <strong>Chinsali</strong> (newest province, created in 2011)</li>
+                <li><strong>Northern Province</strong> - Headquarters: <strong>Kasama</strong></li>
+                <li><strong>North-Western Province</strong> - Headquarters: <strong>Solwezi</strong></li>
+                <li><strong>Southern Province</strong> - Headquarters: <strong>Choma</strong> (formerly Livingstone)</li>
+                <li><strong>Western Province</strong> - Headquarters: <strong>Mongu</strong></li>
             </ol>
-            <p><strong>Why These Rights Matter:</strong> These rights help protect children and make sure they can grow up to reach their full potential.</p>
+            <p><strong>Did You Know?</strong></p>
+            <ul>
+                <li>Muchinga Province is the newest province, created in 2011 from parts of Northern and Eastern provinces</li>
+                <li>Lusaka is the smallest province by area but has the largest population</li>
+                <li>Western Province was formerly known as Barotseland</li>
+                <li>Copperbelt Province is named after the rich copper mining region</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-stethoscope"></i> Healthcare Right</div>
-                <p>When you visit a doctor or get vaccines at school, you're experiencing your right to healthcare!</p>
+                <div class="example-title"><i class="fas fa-city"></i> Provincial Capitals</div>
+                <p>Just like Lusaka is the national capital, each province has its own capital (headquarters) where the provincial government offices are located.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-gamepad"></i> Right to Play</div>
-                <p>Recess time, sports, and after-school games are examples of your right to play and relax.</p>
+                <div class="example-title"><i class="fas fa-star-of-life"></i> Muchinga Province</div>
+                <p>Muchinga is Zambia's youngest province, named after the Muchinga Mountains. Its capital, Chinsali, is the hometown of Zambia's first president, Dr. Kenneth Kaunda.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Protection Right</div>
-                <p>School rules against bullying and laws against child abuse protect your right to safety.</p>
+                <div class="example-title"><i class="fas fa-tools"></i> Copperbelt's Name</div>
+                <p>The Copperbelt Province got its name from the rich copper deposits in the area. Copper mining is a major part of Zambia's economy!</p>
             </div>
         `,
-        taskInstructions: "Match children's rights to real-life situations and complete the understanding exercises.",
+        taskInstructions: "Locate and label each province and its headquarters on a blank map of Zambia.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Match the Rights</strong></p>
+                <p><strong>Part A: Blank Map Labeling</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Match each children's right with its correct description:
-                    <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>1. Right to Education ___ a. Getting medical care when sick</div>
-                        <div>2. Right to Healthcare ___ b. Going to school and learning</div>
-                        <div>3. Right to Play ___ c. Being kept safe from harm</div>
-                        <div>4. Right to Protection ___ d. Having time for games and fun</div>
+                    <span class="task-number">1</span> On the blank map of Zambia below, label all 10 provinces:
+                    <div class="drawing-area" style="height: 250px; margin-top: 10px; border: 2px dashed #ccc;">
+                        <p style="text-align: center; color: #999; padding-top: 100px;">[Blank Map of Zambia - Label Provinces Here]</p>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Identify the Rights</strong></p>
+                <p><strong>Part B: Provincial Headquarters Matching</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> Which children's rights are shown in these scenarios?
+                    <span class="task-number">2</span> Match each province to its correct headquarters:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>a) Maria goes to school every day: ______</div>
-                        <div>b) Tom gets medicine when he has a fever: ______</div>
-                        <div>c) Children have recess after lunch: ______</div>
-                        <div>d) Laws prevent children from working in mines: ______</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div>
+                                <div>1. Central Province ___</div>
+                                <div>2. Copperbelt Province ___</div>
+                                <div>3. Eastern Province ___</div>
+                                <div>4. Luapula Province ___</div>
+                                <div>5. Lusaka Province ___</div>
+                            </div>
+                            <div>
+                                <div>6. Muchinga Province ___</div>
+                                <div>7. Northern Province ___</div>
+                                <div>8. North-Western Province ___</div>
+                                <div>9. Southern Province ___</div>
+                                <div>10. Western Province ___</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <p><strong>Headquarters options:</strong> Kabwe, Ndola, Chipata, Mansa, Lusaka, Chinsali, Kasama, Solwezi, Choma, Mongu</p>
+                        </div>
                     </div>
+                    <div class="answer-space" style="height: 80px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Short Answer</strong></p>
+                <p><strong>Part C: Province Facts</strong></p>
                 <div class="task-item">
-                    <span class="task-number">3</span> Why is the right to education important for children?
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">3</span> Which province is the newest and when was it created?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">4</span> How does the right to express opinions help children?
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">4</span> Which province has the same capital as the national capital? What is it?
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">5</span> Choose one children's right and draw a picture showing it:
-                    <div class="drawing-area" style="height: 150px; margin-top: 10px; border: 2px dashed #ccc;"></div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Label your drawing with the right you chose)</p>
+                    <span class="task-number">5</span> Name the province known for copper mining:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Create Your Own Province Guide</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Choose one province and write 3 interesting things about it (landmarks, languages, products, or geography):
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">7</span> Why do you think countries divide themselves into provinces or states?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a poster showing 3 children's rights that are important to you. Use drawings and simple explanations.",
-        homeworkDue: "Monday"
+        homework: "Memorize the 10 provinces and their headquarters. Practice drawing a simple map of Zambia and labeling all 10 provinces from memory. Be ready for a quick quiz next week!",
+        homeworkDue: "Monday (Week 9)"
     }
 };
 

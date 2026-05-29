@@ -1,169 +1,221 @@
-// Grade 5 Social Studies - Week 2 Data
+// Grade 5 Social Studies - Term 1 Week 2 Data
 const grade5SocialStudiesWeek2 = {
     metadata: {
         grade: 5,
         subject: "Social Studies",
+        term: 1,
         week: 2,
-        title: "Zambian Geography: Districts and Physical Features",
-        description: "Locating districts on the map of Zambia and identifying physical features including water bodies"
+        title: "Healthy Friendships",
+        description: "Identifying traits of good vs. bad friends, exploring how friendships form, and practices to sustain healthy relationships"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Locating a District on the Map of Zambia",
-        subtopic: "Understanding Zambia's geography and using coordinates",
+        topic: "Social Relationships",
+        subtopic: "Introduction to Friendship: Good Friend vs. Bad Friend",
         lessonContent: `
-            <p>Welcome to our exploration of Zambian geography! This week we will learn how to locate districts on the map of Zambia and understand our country's physical features.</p>
-            <p><strong>Key Concept:</strong> Zambia is divided into 10 provinces and 116 districts. Each district has unique geographical characteristics.</p>
-            <p><strong>Zambia's Geographical Position:</strong></p>
+            <p>Welcome to our exploration of friendships! Today we'll learn what makes a friendship healthy and how to identify positive and negative traits in relationships.</p>
+            <p><strong>Key Question:</strong> What makes someone a good friend versus a bad friend?</p>
+            <p><strong>Introduction:</strong> Friendships are special relationships built on trust, respect, and care. Not all friendships are the same - some make us feel happy and supported, while others might make us feel sad or uncomfortable.</p>
+            <p><strong>Traits of a Good Friend:</strong></p>
             <ul>
-                <li>Zambia is a landlocked country in Southern Africa</li>
-                <li>It shares borders with 8 neighboring countries</li>
-                <li>The country lies between 8°S and 18°S latitude and 22°E and 34°E longitude</li>
+                <li><strong>Kind:</strong> Speaks and acts with consideration for your feelings</li>
+                <li><strong>Honest:</strong> Tells the truth, even when it's difficult</li>
+                <li><strong>Trustworthy:</strong> Keeps promises and secrets you've shared</li>
+                <li><strong>Respectful:</strong> Values your opinions, boundaries, and differences</li>
+                <li><strong>Supportive:</strong> Celebrates your successes and comforts you during hard times</li>
+                <li><strong>Good Listener:</strong> Pays attention when you speak and cares about what you say</li>
+                <li><strong>Reliable:</strong> Shows up when they say they will and follows through</li>
             </ul>
-            <p><strong>Neighboring Countries:</strong> Zambia is surrounded by: Democratic Republic of Congo, Tanzania, Malawi, Mozambique, Zimbabwe, Botswana, Namibia, and Angola.</p>
-            <p><strong>Using Latitude and Longitude:</strong> These coordinates help us locate exact positions on maps. Latitude lines run east-west, longitude lines run north-south.</p>
+            <p><strong>Traits of a Bad Friend (Unhealthy Friendship):</strong></p>
+            <ul>
+                <li><strong>Mean or Cruel:</strong> Says hurtful things or makes fun of you</li>
+                <li><strong>Dishonest:</strong> Lies or hides important information</li>
+                <li><strong>Untrustworthy:</strong> Shares your secrets or breaks promises</li>
+                <li><strong>Disrespectful:</strong> Ignores your boundaries or puts you down</li>
+                <li><strong>Selfish:</strong> Only cares about their own needs and never compromises</li>
+                <li><strong>Bossy:</strong> Tries to control what you do, wear, or say</li>
+                <li><strong>Excludes You:</strong> Leaves you out or makes you feel unwelcome</li>
+            </ul>
+            <p><strong>Remember:</strong> All friendships have disagreements sometimes. But a healthy friendship makes you feel GOOD about yourself most of the time!</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-map-marked-alt"></i> District Example</div>
-                <p>Lusaka District is located at approximately 15°S latitude and 28°E longitude. It's the capital district and sits in the central part of Zambia.</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Good Friend Example</div>
+                <p>When Maria got a bad grade on her test, her friend Jordan said, "It's okay. I can help you study for the next one. You've got this!" That's supportive and kind.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-globe-africa"></i> Border Facts</div>
-                <p>Zambia shares its longest border with the Democratic Republic of Congo (about 1,930 km) and its shortest with Botswana (less than 1 km at the quadripoint).</p>
+                <div class="example-title"><i class="fas fa-frown"></i> Bad Friend Example</div>
+                <p>When Carlos wanted to play soccer at recess, his friend David said, "No, we're playing my game or I won't be your friend anymore." That's bossy and controlling.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-ruler-combined"></i> Coordinate Practice</div>
-                <p>If a district is at 13°S, 30°E, you would find it by looking where the 13°S latitude line crosses the 30°E longitude line on your map.</p>
+                <div class="example-title"><i class="fas fa-balance-scale"></i> It's Okay to Disagree</div>
+                <p>Friends don't have to agree about everything! A healthy friendship means you can disagree respectfully and still remain friends.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to practice locating districts on the map of Zambia.",
-        taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> Label Zambia's 8 neighboring countries on your blank map:
-                <div class="drawing-area" style="height: 150px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> List three major rivers that flow through Zambia:
-                <div class="answer-space" style="height: 90px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Locate these districts using approximate coordinates:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>a) 12°S, 26°E (Copperbelt Province): <span class="answer-space"></span></div>
-                    <div>b) 17°S, 27°E (Southern Province): <span class="answer-space"></span></div>
-                    <div>c) 10°S, 31°E (Northern Province): <span class="answer-space"></span></div>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw Zambia's approximate shape and mark its location within Africa:
-                <div class="drawing-area" style="height: 120px;"></div>
-            </div>
-        `,
-        homework: "Research your own district. Find out which province it's in, its approximate coordinates, and one neighboring district. Prepare to share tomorrow.",
-        homeworkDue: "Thursday"
-    },
-    
-    thursday: {
-        subject: "Social Studies",
-        topic: "Identifying Rivers, Lakes, and Swamps in Zambia",
-        subtopic: "Major water bodies and their characteristics",
-        lessonContent: `
-            <p>Today we will explore Zambia's water bodies - the rivers, lakes, and swamps that are vital to our country's geography and life.</p>
-            <p><strong>Major Rivers of Zambia:</strong></p>
-            <ol>
-                <li><strong>Zambezi River:</strong> Africa's fourth-longest river, forms southern border, home to Victoria Falls</li>
-                <li><strong>Kafue River:</strong> Longest river lying entirely within Zambia, flows through Kafue National Park</li>
-                <li><strong>Luangwa River:</strong> Major tributary of the Zambezi, known for wildlife in Luangwa Valley</li>
-                <li><strong>Lualaba River:</strong> Headstream of the Congo River in northern Zambia</li>
-            </ol>
-            <p><strong>Important Lakes:</strong></p>
-            <ul>
-                <li><strong>Lake Tanganyika:</strong> World's second-deepest lake, borders northern Zambia</li>
-                <li><strong>Lake Kariba:</strong> Man-made lake on Zambezi River, one of world's largest reservoirs</li>
-                <li><strong>Lake Bangweulu:</strong> System of lakes and swamps in northern Zambia</li>
-            </ul>
-            <p><strong>Swamp Systems:</strong> Zambia has important wetlands including Bangweulu Swamps, Kafue Flats, and Luangwa Valley Swamps that support unique ecosystems.</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-water"></i> River Importance</div>
-                <p>The Zambezi River provides hydroelectric power from Kariba Dam, water for agriculture, and supports tourism through activities like white-water rafting.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-fish"></i> Lake Tanganyika</div>
-                <p>Lake Tanganyika is home to about 250 species of cichlid fish, with about 98% found nowhere else in the world - this is called endemic species.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-feather-alt"></i> Swamp Ecosystems</div>
-                <p>The Bangweulu Swamps are home to the unique black lechwe antelope and shoebill stork, birds that stand up to 1.5 meters tall!</p>
-            </div>
-        `,
-        taskInstructions: "Identify and label Zambia's major water bodies on the map and answer questions about their importance.",
+        taskInstructions: "Compare good and bad friend traits and reflect on your own friendships.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Label the Map</strong></p>
+                <p><strong>Part A: T-Chart Comparison</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Label these major rivers on your map of Zambia:
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Zambezi River</li>
-                        <li>Kafue River</li>
-                        <li>Luangwa River</li>
-                        <li>Lualaba River</li>
-                    </ul>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">2</span> Label these lakes on your map:
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Lake Tanganyika</li>
-                        <li>Lake Kariba</li>
-                        <li>Lake Bangweulu</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part B: Water Body Functions</strong></p>
-                <div class="task-item">
-                    <span class="task-number">3</span> Which river forms Zambia's southern border with Zimbabwe? <span class="answer-space"></span>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Which lake is man-made and created by damming the Zambezi River? <span class="answer-space"></span>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">5</span> Name two animals that live in Zambia's swamp systems:
-                    <div class="answer-space" style="height: 60px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Matching Activity</strong></p>
-                <div class="task-item">
-                    <span class="task-number">6</span> Match the water body with its description:
+                    <span class="task-number">1</span> Create a T-chart comparing traits of a good friend vs. a bad friend:
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>___ World's second-deepest lake <span style="margin-left: 20px;">A. Kafue River</span></div>
-                        <div>___ Longest river entirely within Zambia <span style="margin-left: 20px;">B. Lake Tanganyika</span></div>
-                        <div>___ Home to Victoria Falls <span style="margin-left: 20px;">C. Zambezi River</span></div>
-                        <div>___ Northern river flowing into Congo <span style="margin-left: 20px;">D. Bangweulu Swamps</span></div>
-                        <div>___ Wetland with black lechwe antelope <span style="margin-left: 20px;">E. Lualaba River</span></div>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr style="background-color: #4A90E2; color: white;">
+                                <th style="padding: 10px; border: 1px solid #ddd;">Good Friend Traits</th>
+                                <th style="padding: 10px; border: 1px solid #ddd;">Bad Friend Traits</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;"></td>
+                                <td style="padding: 10px; border: 1px solid #ddd; height: 200px; vertical-align: top;"></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Importance</strong></p>
+                <p><strong>Part B: Scenario Analysis</strong></p>
                 <div class="task-item">
-                    <span class="task-number">7</span> Why are rivers important to Zambia? Give three reasons:
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">2</span> Read each scenario. Is this a good friend or bad friend action? Why?
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Scenario A:</strong> Your friend asks to borrow your favorite pencil. They accidentally break it and immediately apologize, offering to replace it.</div>
+                        <div>Good or Bad? _________</div>
+                        <div>Why? <span class="answer-space" style="display: inline-block; width: 200px; border-bottom: 1px dotted #000;"></span></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario B:</strong> Your friend tells a secret you shared with them to another classmate, and now everyone knows.</div>
+                        <div>Good or Bad? _________</div>
+                        <div>Why? <span class="answer-space" style="display: inline-block; width: 200px; border-bottom: 1px dotted #000;"></span></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario C:</strong> You're nervous about a presentation. Your friend says, "You practiced so much. I know you'll do great!"</div>
+                        <div>Good or Bad? _________</div>
+                        <div>Why? <span class="answer-space" style="display: inline-block; width: 200px; border-bottom: 1px dotted #000;"></span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Self-Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Think about your own friendships. List two traits you look for in a friend:
+                    <div class="answer-space" style="height: 60px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">8</span> Draw a simple diagram showing how water flows from rivers to lakes:
-                    <div class="drawing-area" style="height: 120px;"></div>
+                    <span class="task-number">4</span> What is one way you can be a better friend to someone this week?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Create a poster showing Zambia's major water bodies. Include at least 3 rivers, 2 lakes, and 1 swamp system with labels and brief descriptions.",
+        homework: "Write a short paragraph describing your best friend (or someone you'd like to be friends with). What three good friend traits do they have?",
+        homeworkDue: "Thursday"
+    },
+    
+    thursday: {
+        subject: "Social Studies",
+        topic: "Social Relationships",
+        subtopic: "Building and Sustaining Healthy Friendships",
+        lessonContent: `
+            <p>Today we'll explore how people become friends and learn practices to keep friendships healthy and strong!</p>
+            <p><strong>Key Question:</strong> How do friendships begin, and what helps them last?</p>
+            <p><strong>How Friendships Begin:</strong></p>
+            <ul>
+                <li><strong>At School:</strong> Sitting next to someone in class, working on a project together, playing at recess</li>
+                <li><strong>In the Neighborhood:</strong> Playing outside, walking to school together, attending community events</li>
+                <li><strong>Through Activities:</strong> Sports teams, clubs, religious groups, or hobbies</li>
+                <li><strong>Acts of Kindness:</strong> Helping someone who dropped their books, sharing a snack, inviting someone to join a game</li>
+                <li><strong>Being Introduced:</strong> Friends introducing you to their other friends</li>
+            </ul>
+            <p><strong>Practices to Sustain Healthy Friendships:</strong></p>
+            <ol>
+                <li><strong>Communication:</strong> Talk openly about your feelings. If something bothers you, say it kindly.</li>
+                <li><strong>Active Listening:</strong> Put down your phone or game. Make eye contact. Show you care about what they're saying.</li>
+                <li><strong>Show Appreciation:</strong> Say "thank you," give genuine compliments, and let them know you value them.</li>
+                <li><strong>Be Reliable:</strong> Show up when you say you will. Keep your promises.</li>
+                <li><strong>Apologize Sincerely:</strong> When you make a mistake, say "I'm sorry" and mean it. Try to do better.</li>
+                <li><strong>Forgive:</strong> Everyone makes mistakes. Learn to forgive and move forward.</li>
+                <li><strong>Respect Boundaries:</strong> Everyone needs alone time sometimes. Respect when a friend needs space.</li>
+                <li><strong>Share and Compromise:</strong> Take turns choosing activities. Be willing to meet halfway.</li>
+            </ol>
+            <p><strong>Red Flags to Watch For:</strong></p>
+            <ul>
+                <li>Feeling scared or uncomfortable around the person</li>
+                <li>They pressure you to do things you don't want to do</li>
+                <li>They spread rumors or gossip about you</li>
+                <li>They only want to be friends when it benefits them</li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-hand-holding-heart"></i> Kindness Opens Doors</div>
+                <p>When Lena saw a new student eating alone, she invited her to sit with her group. That small act of kindness started a wonderful friendship that lasted all year!</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-comments"></i> Communication in Action</div>
+                <p>Maya felt upset when her friend Keisha kept canceling plans. Instead of staying silent, Maya said, "I feel hurt when our plans change. Can we talk about it?" They worked out a solution together.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-heart"></i> The Apology Formula</div>
+                <p>A good apology has three parts: "I'm sorry for [what I did]. It was wrong because [why it hurt you]. Next time, I will [do better]."</p>
+            </div>
+        `,
+        taskInstructions: "Explore how friendships form and create a 'Friendship Recipe' for sustaining healthy relationships.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Friendship Beginnings</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> List three ways people can become friends in your school or neighborhood:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> Describe a time when you saw an act of kindness that led to a friendship (this can be something you experienced or observed):
+                    <div class="answer-space" style="height: 100px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: The Friendship Recipe</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Create a "Recipe for a Healthy Friendship." Include ingredients (traits) and steps (practices):
+                    <div style="margin-left: 20px; margin-top: 10px; border: 2px solid #4A90E2; padding: 15px; border-radius: 10px;">
+                        <p><strong>🍪 Recipe for a Healthy Friendship</strong></p>
+                        <p><em>Ingredients (Traits):</em></p>
+                        <div class="answer-space" style="height: 60px;"></div>
+                        <p><em>Steps (Practices):</em></p>
+                        <div class="answer-space" style="height: 100px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Problem-Solving Scenarios</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> How would you handle each situation?
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Situation 1:</strong> Your friend is spreading a rumor about someone in your class. What do you do?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Situation 2:</strong> You accidentally said something that hurt your friend's feelings. How do you make it right?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Situation 3:</strong> Your friend wants to play a game, but you want to do something different. How do you decide?</div>
+                        <div class="answer-space" style="height: 60px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Personal Commitment</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Write one specific thing you will do this week to be a better friend:
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">6</span> What is one new way you can try to make a new friend or include someone who seems left out?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Perform one act of kindness for a friend or classmate this weekend. Write a short paragraph describing what you did and how it made you both feel.",
         homeworkDue: "Monday"
     }
 };
@@ -171,10 +223,10 @@ const grade5SocialStudiesWeek2 = {
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade5SocialStudiesWeek2);
-    console.log("social-studies-week2.js registered using registerWorksheet()");
+    console.log("grade5-socialstudies-week2.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade5SocialStudiesWeek2);
-    console.log("social-studies-week2.js registered using DataLoader.registerWorksheet()");
+    console.log("grade5-socialstudies-week2.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -185,9 +237,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade5SocialStudiesWeek2.metadata,
         days: grade5SocialStudiesWeek2
     });
-    console.log("social-studies-week2.js stored in window.registeredWorksheets");
+    console.log("grade5-socialstudies-week2.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade5SocialStudiesWeek2 = grade5SocialStudiesWeek2;
-console.log("social-studies-week2.js loaded and registered successfully");
+console.log("grade5-socialstudies-week2.js loaded and registered successfully");

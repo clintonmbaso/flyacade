@@ -1,163 +1,226 @@
-// Grade 5 Social Studies - Week 4 Data
+// Grade 5 Social Studies - Term 1 Week 4 Data
 const grade5SocialStudiesWeek4 = {
     metadata: {
         grade: 5,
         subject: "Social Studies",
+        term: 1,
         week: 4,
-        title: "Zambian Wildlife and Cultural Diversity",
-        description: "Exploring Zambia's main wildlife animals and understanding the cultural composition of Zambian society"
+        title: "Personal Boundaries & Individual Differences",
+        description: "Understanding respect for one's body, appropriate dressing, avoiding inappropriate touches, and respecting individual differences"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Main Wildlife Animals in Zambia",
-        subtopic: "Identification, habitats, behaviors, and conservation",
+        topic: "Personal Boundaries",
+        subtopic: "Ways of Showing Respect to One's Body",
         lessonContent: `
-            <p>Welcome to our exploration of Zambia's amazing wildlife! Today we will learn about the incredible animals that call Zambia home.</p>
-            <p><strong>Key Concept:</strong> Zambia is home to some of Africa's most spectacular wildlife, living in diverse habitats from national parks to river systems.</p>
-            <p><strong>Major Wildlife Animals in Zambia:</strong></p>
+            <p>Welcome to our lesson on respecting our bodies! Today we'll learn about appropriate dressing and how to recognize and avoid inappropriate touches.</p>
+            <p><strong>Key Question:</strong> What does it mean to respect your own body and the bodies of others?</p>
+            <p><strong>Introduction:</strong> Our bodies are special and deserve respect. Just as we show respect to others through our words and actions, we can show respect through how we dress and how we allow others to touch us.</p>
+            <p><strong>What is Appropriate Dressing?</strong></p>
             <ul>
-                <li><strong>Elephants:</strong> Africa's largest land mammals, found in South Luangwa and Lower Zambezi</li>
-                <li><strong>Lions:</strong> The "king of the jungle" living in prides in Zambia's savannahs</li>
-                <li><strong>Hippopotamuses:</strong> Semi-aquatic giants found in Zambia's rivers and lakes</li>
-                <li><strong>Zebras:</strong> Striped equines grazing in Zambia's grasslands</li>
-                <li><strong>Giraffes:</strong> The world's tallest animals browsing on acacia trees</li>
-                <li><strong>Crocodiles:</strong> Ancient reptiles living in Zambia's waterways</li>
-                <li><strong>Various antelope species:</strong> Including impala, kudu, and waterbuck</li>
+                <li>Wearing clothes that are right for the place you are (school, home, beach, religious places)</li>
+                <li>Covering private body parts (areas covered by a swimsuit)</li>
+                <li>Wearing clean clothes that fit properly</li>
+                <li>Dressing in a way that shows you value yourself</li>
             </ul>
-            <p><strong>Why is wildlife important to Zambia?</strong> Wildlife is part of Zambia's natural heritage, attracts tourism (which creates jobs), maintains ecosystem balance, and represents our national identity.</p>
-            <p><strong>Conservation Status:</strong> Many Zambian animals are protected in national parks like South Luangwa, Kafue, and Lower Zambezi National Parks.</p>
+            <p><strong>Understanding Touches:</strong></p>
+            <ul>
+                <li><strong>Appropriate touches:</strong> Handshakes, high-fives, pats on the back, hugs from family members you trust</li>
+                <li><strong>Inappropriate touches:</strong> Touching private areas, touches that hurt or make you feel uncomfortable, touches from strangers or people you don't trust</li>
+                <li><strong>Your body belongs to YOU!</strong> You have the right to say "NO" to any touch that makes you feel uncomfortable</li>
+            </ul>
+            <p><strong>Safety Rules to Remember:</strong></p>
+            <ol>
+                <li>Your private parts are private – no one should ask to see or touch them</li>
+                <li>Say "NO" loudly if someone tries to touch you inappropriately</li>
+                <li>Get away from the situation as quickly as you can</li>
+                <li>Tell a trusted adult (parent, teacher, guardian) what happened</li>
+                <li>Keep telling until someone believes you and helps you</li>
+            </ol>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-paw"></i> Animal Behavior</div>
-                <p>Hippos may look calm, but they're actually very territorial and can be dangerous. They spend most of the day in water to keep cool and come out at night to graze.</p>
+                <div class="example-title"><i class="fas fa-tshirt"></i> Dressing for Different Places</div>
+                <p>At school, we wear our uniform. At the beach, we wear swimsuits. At a party, we might wear nice clothes. Each place has different "dressing rules" that show respect for ourselves and others.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tree"></i> Habitat Connection</div>
-                <p>Elephants in Zambia need large areas to roam. An adult elephant can eat up to 300 pounds of vegetation and drink 50 gallons of water in a single day!</p>
+                <div class="example-title"><i class="fas fa-hand-peace"></i> Good Touch, Bad Touch</div>
+                <p>A high-five from a friend after winning a game is a good touch! But if someone touches you in a way that feels scary or uncomfortable – even if you know them – that is not okay.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-shield-alt"></i> Conservation Fact</div>
-                <p>Zambia has banned hunting of certain endangered species and established community conservation programs to protect wildlife while supporting local people.</p>
+                <div class="example-title"><i class="fas fa-shield-alt"></i> Your Safety Voice</div>
+                <p>Imagine you're at a family gathering and an older cousin wants to play a "secret touching game." Your body feels nervous. This is your signal to say NO and tell a trusted adult.</p>
             </div>
         `,
-        taskInstructions: "Complete the following activities to reinforce your understanding of Zambia's wildlife.",
+        taskInstructions: "Complete the reflection questions and safety rules activity.",
         taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> List five main wildlife animals found in Zambia:
-                <div class="answer-space" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Match the animal to its habitat:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>A. Elephant <span class="answer-space" style="width: 200px;"></span></div>
-                    <div>B. Hippopotamus <span class="answer-space" style="width: 200px;"></span></div>
-                    <div>C. Crocodile <span class="answer-space" style="width: 200px;"></span></div>
-                    <div>Choices: Rivers, Savannah, Waterways</div>
+            <div class="content-box">
+                <p><strong>Part A: Understanding Appropriate Dressing</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> Draw or describe appropriate clothing for each situation:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Going to school:</strong></div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        <div style="margin-top: 10px;"><strong>Going to the beach or swimming pool:</strong></div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        <div style="margin-top: 10px;"><strong>Attending a religious service:</strong></div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                    </div>
                 </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Why is wildlife conservation important in Zambia? Give three reasons:
-                <div class="answer-space" style="height: 120px;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Appropriate vs. Inappropriate Touches</strong></p>
+                <div class="task-item">
+                    <span class="task-number">2</span> Read each situation. Circle "Appropriate" or "Inappropriate":
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• A doctor checks your arm with a parent in the room → Appropriate / Inappropriate</div>
+                        <div style="margin-top: 5px;">• A stranger asks you to help find their lost puppy and touches your shoulder → Appropriate / Inappropriate</div>
+                        <div style="margin-top: 5px;">• Your mom gives you a hug goodnight → Appropriate / Inappropriate</div>
+                        <div style="margin-top: 5px;">• An older student touches your private area and says it's a secret game → Appropriate / Inappropriate</div>
+                        <div style="margin-top: 5px;">• Your teacher gives you a high-five for good work → Appropriate / Inappropriate</div>
+                    </div>
+                </div>
             </div>
-            <div class="task-item">
-                <span class="task-number">4</span> Draw and label two Zambian wildlife animals in their natural habitat:
-                <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px dashed #ccc;"></div>
+            
+            <div class="content-box">
+                <p><strong>Part C: Safety Rules Poster</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> List the 5 safety rules for protecting your body:
+                    <div class="answer-space" style="height: 150px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> What would you do if someone made you feel uncomfortable with a touch?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Name three trusted adults you could talk to if you needed help.
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
             </div>
         `,
-        homework: "Research one Zambian national park. Write down three animals found there and one conservation effort happening in that park.",
+        homework: "Talk with a parent or guardian about the safety rules you learned. Ask them to name two more trusted adults you could go to for help. Write their names and roles.",
         homeworkDue: "Thursday"
     },
     
     thursday: {
         subject: "Social Studies",
-        topic: "Cultural Composition and Main Tribes in Zambia",
-        subtopic: "Understanding Zambia's cultural diversity and main tribal groups",
+        topic: "Individual Differences",
+        subtopic: "Identifying and Respecting Individual Differences",
         lessonContent: `
-            <p>Today we explore the beautiful tapestry of cultures that make up Zambia! Zambia is known as a peaceful nation with "One Zambia, One Nation" as its motto.</p>
-            <p><strong>Key Concept:</strong> Zambia has over 70 ethnic groups living together in harmony, each with unique traditions, languages, and customs.</p>
-            <p><strong>Major Tribal Groups in Zambia:</strong></p>
+            <p>Today we'll learn about the beautiful ways people are different – and why these differences make our world special!</p>
+            <p><strong>Key Question:</strong> What makes each person unique, and how can we respect our differences?</p>
+            <p><strong>Introduction:</strong> Every person is like a snowflake – no two are exactly alike! Our differences are not good or bad; they are just part of what makes us who we are.</p>
+            <p><strong>Types of Individual Differences:</strong></p>
+            <ul>
+                <li><strong>Gender:</strong> Some people are boys, some are girls, and some identify differently. Everyone deserves equal respect.</li>
+                <li><strong>Complexion (Skin Color):</strong> Skin comes in many beautiful shades – from very light to very dark. Our skin color is determined by our ancestors and where our families came from.</li>
+                <li><strong>Age:</strong> People can be babies, children, teenagers, adults, or elders. Each age brings different experiences and wisdom.</li>
+                <li><strong>Physical Traits:</strong> Height, body shape, hair color and texture, eye color, facial features, and abilities.</li>
+                <li><strong>Other Differences:</strong> Religion, language, culture, abilities/disabilities, interests, talents, and learning styles.</li>
+            </ul>
+            <p><strong>Why Respecting Differences Matters:</strong></p>
+            <ul>
+                <li>Everyone wants to feel accepted and valued</li>
+                <li>Respecting differences helps us learn from each other</li>
+                <li>Our world is richer because of diversity</li>
+                <li>Respect builds friendships and peaceful communities</li>
+            </ul>
+            <p><strong>Ways to Show Respect:</strong></p>
             <ol>
-                <li><strong>Bemba:</strong> The largest ethnic group, mainly in Northern, Luapula, and Copperbelt provinces</li>
-                <li><strong>Tonga:</strong> Primarily in Southern Province, known for cattle farming and the Tonga language</li>
-                <li><strong>Chewa (Nyanja):</strong> Found in Eastern and Central provinces, speaking Chichewa</li>
-                <li><strong>Lozi:</strong> In Western Province, known for the Kuomboka ceremony and Barotse culture</li>
-                <li><strong>Kaonde:</strong> In Northwestern Province, known for traditional leadership and farming</li>
-                <li><strong>Lunda:</strong> In Northwestern Province, with rich cultural ceremonies</li>
-                <li><strong>Luvale:</strong> In Northwestern Province, known for Makishi masks and initiation ceremonies</li>
+                <li>Use kind words – never make fun of how someone looks</li>
+                <li>Include everyone in games and activities</li>
+                <li>Listen when someone shares their experiences</li>
+                <li>Stand up for someone who is being teased</li>
+                <li>Celebrate what makes each person special</li>
             </ol>
-            <p><strong>Cultural Harmony:</strong> Despite this diversity, Zambians live together peacefully, respecting each other's traditions while building a united nation.</p>
-            <p><strong>Traditions and Ceremonies:</strong> Each tribe has unique ceremonies, like the Bemba's Chisungu, Lozi's Kuomboka, and Luvale's Makishi dances.</p>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-hands-helping"></i> Unity in Diversity</div>
-                <p>In Lusaka, you can hear Bemba, Nyanja, Tonga, and English spoken on the same street. Zambians often learn multiple languages to communicate across tribes.</p>
+                <div class="example-title"><i class="fas fa-palette"></i> A World of Colors</div>
+                <p>Think of crayons – a box with only one color would be boring! Our different skin colors, hair types, and features are like different crayons that make our world beautiful.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-music"></i> Cultural Celebration</div>
-                <p>The Kuomboka ceremony of the Lozi people marks the movement of the Litunga (king) from the flooded plains to higher ground. It features royal barges, traditional music, and dancing.</p>
+                <div class="example-title"><i class="fas fa-users"></i> Classmates Are Different</div>
+                <p>In your classroom, you have friends who are tall and short, fast readers and slow readers, good at math and good at art. All these differences mean you can learn from each other!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tshirt"></i> Traditional Clothing</div>
-                <p>Different tribes have distinct traditional wear. The Tonga are known for their beadwork, while the Lozi wear colourful siziba (skirts) and musinsi (shirts) during ceremonies.</p>
+                <div class="example-title"><i class="fas fa-wheelchair"></i> Different Abilities</div>
+                <p>Some people use wheelchairs to move around. Some people read Braille using their fingers. Some people communicate with sign language. These are not weaknesses – just different ways of doing things!</p>
             </div>
         `,
-        taskInstructions: "Complete activities to understand Zambia's cultural diversity and major tribal groups.",
+        taskInstructions: "Complete the respect reflection activities and create a celebration of differences poster.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Identifying Tribes</strong></p>
+                <p><strong>Part A: Identifying Differences</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> Name four main tribes in Zambia and the province where each is mainly found:
-                    <div class="answer-space" style="height: 120px;"></div>
+                    <span class="task-number">1</span> List three ways people in your class are different from each other:
+                    <div class="answer-space" style="height: 100px; margin-top: 10px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Cultural Understanding</strong></p>
+                <p><strong>Part B: Respect Scenarios</strong></p>
                 <div class="task-item">
-                    <span class="task-number">2</span> What does "One Zambia, One Nation" mean in terms of cultural diversity?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> Why is it important to respect different cultural traditions?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">4</span> Name one traditional ceremony from a Zambian tribe and describe what it celebrates:
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-            </div>
-            
-            <div class="content-box">
-                <p><strong>Part C: Your District's Diversity</strong></p>
-                <div class="task-item">
-                    <span class="task-number">5</span> What different cultural groups live in your district? How do they contribute to your community?
-                    <div class="answer-space" style="height: 100px;"></div>
+                    <span class="task-number">2</span> Read each scenario. Write how you would show respect:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Scenario 1:</strong> A new student joins your class. They have a different skin color and speak a different language at home.</div>
+                        <div>How do you show respect? _________________________________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 2:</strong> A classmate uses a wheelchair. Some kids say they can't play soccer during recess.</div>
+                        <div>What could you say or do? _________________________________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 3:</strong> Someone makes fun of your friend because they wear glasses.</div>
+                        <div>How would you help your friend? _________________________________</div>
+                        <div class="answer-space" style="height: 50px; margin-top: 5px;"></div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Cultural Representation</strong></p>
+                <p><strong>Part C: "Celebrating Our Differences" Poster</strong></p>
                 <div class="task-item">
-                    <span class="task-number">6</span> Draw traditional clothing or an artifact from one Zambian tribe:
-                    <div class="drawing-area" style="height: 150px;"></div>
+                    <span class="task-number">3</span> Create a poster that celebrates individual differences. Include:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• A title like "We Are All Special" or "Celebrating Our Differences"</div>
+                        <div>• Drawings of people with different skin colors, hair types, body shapes, and abilities</div>
+                        <div>• One sentence about why respect matters</div>
+                    </div>
+                    <div class="drawing-area" style="height: 200px; margin-top: 10px; border: 2px solid #4A90E2;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> What makes YOU unique? Write three things that are special about you:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">5</span> Why is it wrong to tease someone because of how they look?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Interview a family member or neighbor about their cultural background. Ask about one tradition, food, or celebration from their culture.",
-        homeworkDue: "Monday next week"
+        homework: "Draw a picture of yourself and write 5 things that make you unique (appearance, talents, interests, family background). Share it with a family member and ask what makes them unique too.",
+        homeworkDue: "Monday"
     }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade5SocialStudiesWeek4);
-    console.log("social-studies-week4.js registered using registerWorksheet()");
+    console.log("grade5-socialstudies-week4.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade5SocialStudiesWeek4);
-    console.log("social-studies-week4.js registered using DataLoader.registerWorksheet()");
+    console.log("grade5-socialstudies-week4.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -168,9 +231,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade5SocialStudiesWeek4.metadata,
         days: grade5SocialStudiesWeek4
     });
-    console.log("social-studies-week4.js stored in window.registeredWorksheets");
+    console.log("grade5-socialstudies-week4.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade5SocialStudiesWeek4 = grade5SocialStudiesWeek4;
-console.log("social-studies-week4.js loaded and registered successfully");
+console.log("grade5-socialstudies-week4.js loaded and registered successfully");

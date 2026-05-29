@@ -1,196 +1,271 @@
-// Grade 5 Social Studies - Week 5 Data
+// Grade 5 Social Studies - Term 1 Week 5 Data
 const grade5SocialStudiesWeek5 = {
     metadata: {
         grade: 5,
         subject: "Social Studies",
+        term: 1,
         week: 5,
-        title: "Zambian Culture, Economy and Heritage",
-        description: "Exploring traditional ceremonies, economic activities, and historical sites in Zambia"
+        title: "Emotional Management & Religious Perspectives",
+        description: "Exploring respect through behavior, identifying personal emotions, and managing difficult emotions with religious perspectives"
     },
     
     monday: {
         subject: "Social Studies",
-        topic: "Main Traditional Ceremonies in Zambia",
-        subtopic: "Cultural significance and communities that celebrate them",
+        topic: "Emotional Management",
+        subtopic: "Showing Respect & Identifying Personal Emotions",
         lessonContent: `
-            <p>Welcome to our study of Zambia's rich cultural heritage! Today we will explore the main traditional ceremonies celebrated across our nation.</p>
-            <p><strong>Key Concept:</strong> Traditional ceremonies are important cultural events that bring communities together to celebrate their history, beliefs, and customs.</p>
-            <p><strong>Why Traditional Ceremonies Matter:</strong></p>
-            <ul>
-                <li>Preserve cultural heritage and traditions</li>
-                <li>Strengthen community bonds</li>
-                <li>Teach younger generations about their history</li>
-                <li>Celebrate important seasonal events like harvests</li>
-                <li>Honor ancestors and traditional leaders</li>
-            </ul>
-            <p><strong>Major Traditional Ceremonies in Zambia:</strong></p>
-            <ul>
-                <li><strong>Kuomboka Ceremony</strong> (Lozi people) - Celebrated when the Zambezi River floods</li>
-                <li><strong>Likumbi Lya Mize Ceremony</strong> (Luvale people) - Celebrates the coming of age</li>
-                <li><strong>Ncwala Ceremony</strong> (Ngoni people) - First fruits celebration</li>
-                <li><strong>Kulamba Ceremony</strong> (Chewa people) - Thanksgiving ceremony</li>
-                <li><strong>Umutomboko Ceremony</strong> (Lunda people) - Celebrates victory in migration</li>
-            </ul>
-            <p>Each ceremony has unique dances, music, costumes, and rituals that reflect the community's identity.</p>
-        `,
-        examples: `
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-users" style="color: green;"></i> Community Connection</div>
-                <p>The Kuomboka ceremony involves the Litunga (Lozi king) moving from his flooded palace to higher ground. Thousands of people participate in this colorful procession by boat!</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-music"></i> Cultural Elements</div>
-                <p>During the Likumbi Lya Mize ceremony, Makishi dancers wear elaborate masks and costumes representing spirits. These masks are important cultural symbols.</p>
-            </div>
-            <div class="example-box">
-                <div class="example-title"><i class="fas fa-history"></i> Historical Significance</div>
-                <p>The Umutomboko ceremony reenacts the Lunda people's migration into Zambia. It includes a special dance performed only by the chief or king.</p>
-            </div>
-        `,
-        taskInstructions: "Complete the following activities to reinforce your understanding of Zambia's traditional ceremonies.",
-        taskContent: `
-            <div class="task-item">
-                <span class="task-number">1</span> In your own words, explain why traditional ceremonies are important in Zambia:
-                <div class="answer-space" style="height: 100px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">2</span> Match the ceremony with the community that celebrates it:
-                <div style="margin-left: 20px; margin-top: 10px;">
-                    <div>1. Kuomboka <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>2. Likumbi Lya Mize <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>3. Ncwala <span class="answer-space" style="width: 150px;"></span></div>
-                    <div>4. Umutomboko <span class="answer-space" style="width: 150px;"></span></div>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 5px;">(Options: Lunda, Lozi, Ngoni, Luvale)</p>
-                </div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">3</span> Choose one ceremony and draw or describe two cultural elements from it (dance, clothing, music, etc.):
-                <div class="drawing-area" style="height: 150px; margin-top: 10px;"></div>
-            </div>
-            <div class="task-item">
-                <span class="task-number">4</span> How do traditional ceremonies help preserve Zambia's cultural heritage?
-                <div class="answer-space" style="height: 80px;"></div>
-            </div>
-        `,
-        homework: "Interview a family member or elder about any traditional ceremony they know or have attended. Write down three interesting things you learn.",
-        homeworkDue: "Thursday"
-    },
-    
-    thursday: {
-        subject: "Social Studies",
-        topic: "Economic Activities in the District",
-        subtopic: "Categorizing primary, secondary and tertiary economic activities",
-        lessonContent: `
-            <p>Today we will explore different economic activities that people engage in within our district and across Zambia.</p>
-            <p><strong>What are Economic Activities?</strong> These are activities people do to earn a living, produce goods, or provide services.</p>
-            <p><strong>The Three Main Categories:</strong></p>
+            <p>Welcome to our exploration of emotions and respect! Today we'll learn how our behavior shows respect and how to identify our own feelings.</p>
+            <p><strong>Key Question:</strong> How does our behavior show respect for ourselves and others?</p>
+            <p><strong>Introduction:</strong> Respect is a way of treating people, things, and ourselves with care and kindness. The way we behave shows others what we feel inside.</p>
+            <p><strong>Showing Respect Through Behavior:</strong></p>
             <ol>
-                <li><strong>Primary Activities:</strong> Involve getting raw materials directly from nature
-                    <ul>
-                        <li>Farming (agriculture)</li>
-                        <li>Fishing</li>
-                        <li>Mining</li>
-                        <li>Forestry</li>
-                    </ul>
-                </li>
-                <li><strong>Secondary Activities:</strong> Involve processing raw materials into finished goods
-                    <ul>
-                        <li>Manufacturing (making products)</li>
-                        <li>Construction (building)</li>
-                        <li>Food processing</li>
-                    </ul>
-                </li>
-                <li><strong>Tertiary Activities:</strong> Involve providing services to people
-                    <ul>
-                        <li>Teaching (education)</li>
-                        <li>Healthcare</li>
-                        <li>Transportation</li>
-                        <li>Retail (shops and markets)</li>
-                    </ul>
-                </li>
+                <li><strong>Kindness:</strong> Speaking gently, helping others, sharing, and being friendly</li>
+                <li><strong>Openness:</strong> Listening when others speak, being willing to learn new things, accepting differences</li>
+                <li><strong>Good Manners:</strong> Saying "please," "thank you," and "excuse me"</li>
+                <li><strong>Respecting Space:</strong> Not taking things that don't belong to you, keeping hands to yourself</li>
+                <li><strong>Respecting Time:</strong> Being punctual, not keeping others waiting</li>
             </ol>
-            <p><strong>Economic Activities in Our District:</strong> Every district in Zambia has a mix of these activities that support people's livelihoods and contribute to the economy.</p>
+            <p><strong>Identifying Personal Emotions:</strong></p>
+            <ul>
+                <li><strong>Strengths:</strong> Things you are good at (e.g., patience, listening, helping, creativity)</li>
+                <li><strong>Weaknesses:</strong> Things you find challenging (e.g., anger, shyness, giving up easily)</li>
+                <li><strong>Why it matters:</strong> Knowing our emotions helps us control them and grow as people</li>
+            </ul>
+            <p><strong>Religious Perspective on Respect:</strong></p>
+            <ul>
+                <li>Many religions teach that all people are created equal and deserve respect</li>
+                <li>Treating others with kindness is a value shared across faiths</li>
+                <li>Respecting parents, elders, and teachers is emphasized in many traditions</li>
+            </ul>
         `,
         examples: `
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-tractor"></i> Primary Activity Example</div>
-                <p>A farmer growing maize in Chongwe District is engaged in primary economic activity. The maize is a raw material that comes directly from the land.</p>
+                <div class="example-title"><i class="fas fa-smile"></i> Kindness in Action</div>
+                <p>When a new student joins your class, showing openness means inviting them to play and helping them find their way around the school.</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-industry"></i> Secondary Activity Example</div>
-                <p>A factory in Lusaka that makes breakfast cereal from maize is engaged in secondary activity. They process the raw maize into a finished product.</p>
+                <div class="example-title"><i class="fas fa-heart"></i> Know Yourself</div>
+                <p>If you know that loud noises make you feel angry, you can prepare by taking deep breaths or moving to a quieter place. That's emotional intelligence!</p>
             </div>
             <div class="example-box">
-                <div class="example-title"><i class="fas fa-store"></i> Tertiary Activity Example</div>
-                <p>A shopkeeper who sells the breakfast cereal to customers is engaged in tertiary activity. They provide the service of making goods available to consumers.</p>
+                <div class="example-title"><i class="fas fa-hands-helping"></i> Respect Across Faiths</div>
+                <p>In Christianity, Jesus taught "Love your neighbor as yourself." In Islam, the Prophet Muhammad said "None of you truly believes until he loves for his brother what he loves for himself." In Hinduism, the concept of "Vasudhaiva Kutumbakam" means the world is one family.</p>
             </div>
         `,
-        taskInstructions: "Identify and categorize different economic activities in your district and answer analysis questions.",
+        taskInstructions: "Complete the self-reflection and behavior scenarios.",
         taskContent: `
             <div class="content-box">
-                <p><strong>Part A: Categorizing Activities</strong></p>
+                <p><strong>Part A: Self-Reflection - My Emotions</strong></p>
                 <div class="task-item">
-                    <span class="task-number">1</span> List three primary economic activities in your district:
+                    <span class="task-number">1</span> List three emotional strengths you have:
                     <div class="answer-space" style="height: 80px;"></div>
                 </div>
                 <div class="task-item">
-                    <span class="task-number">2</span> List two secondary economic activities in your district (or nearby areas):
+                    <span class="task-number">2</span> List one emotional weakness you would like to improve:
                     <div class="answer-space" style="height: 60px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">3</span> List three tertiary economic activities in your district:
-                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part B: Economic Chains</strong></p>
+                <p><strong>Part B: Behavior Scenarios</strong></p>
                 <div class="task-item">
-                    <span class="task-number">4</span> Choose one product (like maize, fish, or timber) and describe how it goes through all three economic activities:
+                    <span class="task-number">3</span> Read each scenario. How would you show respect?
                     <div style="margin-left: 20px; margin-top: 10px;">
-                        <div>Primary: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Secondary: <span class="answer-space" style="width: 200px;"></span></div>
-                        <div>Tertiary: <span class="answer-space" style="width: 200px;"></span></div>
+                        <div><strong>Scenario 1:</strong> Your classmate is from a different country and speaks a different language. Other students are laughing at his accent.</div>
+                        <div>How would you show respect? _________</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 2:</strong> Your teacher is explaining a lesson but you already understand it and feel bored.</div>
+                        <div>How would you show respect? _________</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 3:</strong> Your friend is upset because they didn't do well on a test.</div>
+                        <div>How would you show kindness? _________</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
                     </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part C: Analysis Questions</strong></p>
+                <p><strong>Part C: Emotion Identification</strong></p>
                 <div class="task-item">
-                    <span class="task-number">5</span> Why are all three types of economic activities important for a community?
-                    <div class="answer-space" style="height: 80px;"></div>
-                </div>
-                <div class="task-item">
-                    <span class="task-number">6</span> Which type of economic activity do you think employs the most people in your district? Why?
-                    <div class="answer-space" style="height: 80px;"></div>
+                    <span class="task-number">4</span> Draw and label four different emotions on the faces below:
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 10px;">
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 60px; border: 2px dashed #ccc;"></div>
+                            <span>Face 1</span>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 60px; border: 2px dashed #ccc;"></div>
+                            <span>Face 2</span>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 60px; border: 2px dashed #ccc;"></div>
+                            <span>Face 3</span>
+                        </div>
+                        <div style="text-align: center;">
+                            <div class="drawing-area" style="height: 60px; border: 2px dashed #ccc;"></div>
+                            <span>Face 4</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <div class="content-box">
-                <p><strong>Part D: Community Connection</strong></p>
+                <p><strong>Part D: Reflection</strong></p>
                 <div class="task-item">
-                    <span class="task-number">7</span> Draw a simple map of your district showing where different economic activities take place:
-                    <div class="drawing-area" style="height: 150px;"></div>
+                    <span class="task-number">5</span> Why is it important to know your own strengths and weaknesses?
+                    <div class="answer-space" style="height: 80px;"></div>
                 </div>
             </div>
         `,
-        homework: "Interview a family member about their job or economic activity. Categorize it as primary, secondary, or tertiary and explain why.",
-        homeworkDue: "Monday"
+        homework: "Ask a family member what they think is your greatest strength. Write it down and explain whether you agree or disagree.",
+        homeworkDue: "Thursday"
     },
     
-    // Note: The third lesson about Historical and Cultural Sites in Zambia 
-    // could be included in next week's lessons or as an extended activity
-    _note: "Historical and Cultural Sites in Zambia topic can be included in Week 6 lessons"
+    thursday: {
+        subject: "Social Studies",
+        topic: "Emotional Management",
+        subtopic: "Managing Difficult Emotions & Maintaining Healthy Relationships",
+        lessonContent: `
+            <p>Today we'll learn strategies for managing difficult emotions like anger, and explore how seeking forgiveness helps maintain healthy relationships.</p>
+            <p><strong>Key Question:</strong> How can we manage anger and build healthy relationships?</p>
+            <p><strong>Understanding Anger:</strong></p>
+            <ul>
+                <li>Anger is a normal emotion that everyone feels</li>
+                <li>It's not wrong to feel angry - it's what we DO with anger that matters</li>
+                <li>Uncontrolled anger can hurt relationships and ourselves</li>
+            </ul>
+            <p><strong>Anger Management Strategies:</strong></p>
+            <ol>
+                <li><strong>Pause and Breathe:</strong> Take 5 deep breaths before reacting</li>
+                <li><strong>Walk Away:</strong> Remove yourself from the situation temporarily</li>
+                <li><strong>Use Words:</strong> Say "I feel angry because..." instead of yelling or hitting</li>
+                <li><strong>Count to 10:</strong> Give yourself time to calm down</li>
+                <li><strong>Talk to Someone:</strong> Share your feelings with a trusted adult or friend</li>
+            </ol>
+            <p><strong>Seeking Forgiveness:</strong></p>
+            <ul>
+                <li>Everyone makes mistakes - apologizing shows strength, not weakness</li>
+                <li>A sincere apology includes: saying "I'm sorry," explaining what you did wrong, and trying to do better</li>
+                <li>Forgiveness helps heal relationships and allows people to move forward</li>
+            </ul>
+            <p><strong>Maintaining Healthy Relationships:</strong></p>
+            <ul>
+                <li>Listen actively when others speak</li>
+                <li>Respect boundaries and personal space</li>
+                <li>Be trustworthy - keep promises and be honest</li>
+                <li>Support friends when they are struggling</li>
+            </ul>
+            <p><strong>Religious Perspective on Forgiveness:</strong></p>
+            <ul>
+                <li>Many religions emphasize the importance of forgiveness and mercy</li>
+                <li>Seeking forgiveness from God and from people is encouraged</li>
+                <li>Letting go of grudges is seen as a virtue</li>
+            </ul>
+        `,
+        examples: `
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-angry"></i> When Anger Strikes</div>
+                <p>Imagine your little brother broke your toy. Before you shout, try: pause, take 3 deep breaths, then say "I feel upset that my toy broke. Can we talk about this?"</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-hand-peace"></i> The Power of Apology</div>
+                <p>"I'm sorry I pushed you. I was angry, but that was wrong. Next time I will use my words instead." A sincere apology can repair even broken friendships.</p>
+            </div>
+            <div class="example-box">
+                <div class="example-title"><i class="fas fa-pray"></i> Forgiveness in Faith</div>
+                <p>In Christianity, the Lord's Prayer includes "Forgive us our trespasses as we forgive those who trespass against us." In Islam, Allah is described as "Al-Ghafoor" (The All-Forgiving). In Judaism, Yom Kippur is a day of atonement and seeking forgiveness.</p>
+            </div>
+        `,
+        taskInstructions: "Complete the anger management scenarios and forgiveness reflection.",
+        taskContent: `
+            <div class="content-box">
+                <p><strong>Part A: Anger Management Strategies</strong></p>
+                <div class="task-item">
+                    <span class="task-number">1</span> List three healthy ways to manage anger:
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">2</span> What should you NEVER do when you feel angry?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part B: Scenario Practice</strong></p>
+                <div class="task-item">
+                    <span class="task-number">3</span> Read each scenario and write a calm, appropriate response:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div><strong>Scenario 1:</strong> Someone cuts in front of you in the lunch line.</div>
+                        <div>Calm response: _________</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 2:</strong> A friend spread a rumor about you that isn't true.</div>
+                        <div>Calm response: _________</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                        
+                        <div style="margin-top: 15px;"><strong>Scenario 3:</strong> You lost a game and feel frustrated.</div>
+                        <div>Calm response: _________</div>
+                        <div class="answer-space" style="height: 60px; margin-top: 5px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part C: The Apology Letter</strong></p>
+                <div class="task-item">
+                    <span class="task-number">4</span> Write a short apology letter to someone you have hurt (real or imaginary). Include:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>• What you did wrong</div>
+                        <div>• Why it was wrong</div>
+                        <div>• What you will do differently next time</div>
+                    </div>
+                    <div class="answer-space" style="height: 150px; margin-top: 10px;"></div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part D: Healthy Relationships Checklist</strong></p>
+                <div class="task-item">
+                    <span class="task-number">5</span> Check the behaviors that build healthy relationships:
+                    <div style="margin-left: 20px; margin-top: 10px;">
+                        <div>___ Listening when others speak</div>
+                        <div>___ Keeping secrets that hurt others</div>
+                        <div>___ Apologizing when you make a mistake</div>
+                        <div>___ Respecting personal space</div>
+                        <div>___ Holding grudges</div>
+                        <div>___ Being honest and trustworthy</div>
+                        <div>___ Supporting friends when they struggle</div>
+                        <div>___ Blaming others for your mistakes</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-box">
+                <p><strong>Part E: Reflection</strong></p>
+                <div class="task-item">
+                    <span class="task-number">6</span> Why is seeking forgiveness important for maintaining friendships?
+                    <div class="answer-space" style="height: 80px;"></div>
+                </div>
+                <div class="task-item">
+                    <span class="task-number">7</span> What is one anger management strategy you will try to use this week?
+                    <div class="answer-space" style="height: 60px;"></div>
+                </div>
+            </div>
+        `,
+        homework: "Practice one anger management strategy this week. Write about a situation where you used it and what happened.",
+        homeworkDue: "Monday"
+    }
 };
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
     window.registerWorksheet(grade5SocialStudiesWeek5);
-    console.log("socialstudies-week5.js registered using registerWorksheet()");
+    console.log("grade5-socialstudies-week5.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
     window.DataLoader.registerWorksheet(grade5SocialStudiesWeek5);
-    console.log("socialstudies-week5.js registered using DataLoader.registerWorksheet()");
+    console.log("grade5-socialstudies-week5.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
@@ -201,9 +276,9 @@ if (typeof window.registerWorksheet !== 'undefined') {
         metadata: grade5SocialStudiesWeek5.metadata,
         days: grade5SocialStudiesWeek5
     });
-    console.log("socialstudies-week5.js stored in window.registeredWorksheets");
+    console.log("grade5-socialstudies-week5.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
 window.grade5SocialStudiesWeek5 = grade5SocialStudiesWeek5;
-console.log("socialstudies-week5.js loaded and registered successfully");
+console.log("grade5-socialstudies-week5.js loaded and registered successfully");
