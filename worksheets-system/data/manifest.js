@@ -950,6 +950,24 @@ const WorksheetManifest = {
         'data/grade5/g5socialstudies-t1week09.js',
         'data/grade5/g5socialstudies-t1week10.js',
     
+        'data/grade5/g5socialstudies-t2week02.js',
+        'data/grade5/g5socialstudies-t2week03.js',
+        'data/grade5/g5socialstudies-t2week04.js',
+        'data/grade5/g5socialstudies-t2week05.js',
+        'data/grade5/g5socialstudies-t2week07.js',
+        'data/grade5/g5socialstudies-t2week08.js',
+        'data/grade5/g5socialstudies-t2week09.js',
+        'data/grade5/g5socialstudies-t2week10.js',
+
+        'data/grade5/g5socialstudies-t3week02.js',
+        'data/grade5/g5socialstudies-t3week03.js',
+        'data/grade5/g5socialstudies-t3week04.js',
+        'data/grade5/g5socialstudies-t3week05.js',
+        'data/grade5/g5socialstudies-t3week07.js',
+        'data/grade5/g5socialstudies-t3week08.js',
+        'data/grade5/g5socialstudies-t3week09.js',
+        'data/grade5/g5socialstudies-t3week10.js',
+
          // English
         'data/grade5/g5english-t1week02.js',
         'data/grade5/g5english-t1week03.js',
