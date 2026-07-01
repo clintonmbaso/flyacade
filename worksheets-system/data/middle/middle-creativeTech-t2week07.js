@@ -1,5 +1,5 @@
 // Creative and Technology Studies - Term 2 Week 7
-const creativeTechWeek7 = {
+const gradeCTSWeek7 = {
     metadata: {
         grade: "middle",
         subject: "Creative and Technology Studies",
@@ -179,24 +179,24 @@ const creativeTechWeek7 = {
 
 // Register the worksheet
 if (typeof window.registerWorksheet !== 'undefined') {
-    window.registerWorksheet(creativeTechWeek7);
-    console.log("creative-tech-week7.js registered using registerWorksheet()");
+    window.registerWorksheet(gradeCTSWeek7);
+    console.log("grade-cts-week7.js registered using registerWorksheet()");
 } else if (typeof window.DataLoader !== 'undefined') {
-    window.DataLoader.registerWorksheet(creativeTechWeek7);
-    console.log("creative-tech-week7.js registered using DataLoader.registerWorksheet()");
+    window.DataLoader.registerWorksheet(gradeCTSWeek7);
+    console.log("grade-cts-week7.js registered using DataLoader.registerWorksheet()");
 } else {
     // Fallback: store in global array
     if (!window.registeredWorksheets) {
         window.registeredWorksheets = [];
     }
     window.registeredWorksheets.push({
-        variableName: 'creativeTechWeek7',
-        metadata: creativeTechWeek7.metadata,
-        days: creativeTechWeek7
+        variableName: 'gradeCTSWeek7',
+        metadata: gradeCTSWeek7.metadata,
+        days: gradeCTSWeek7
     });
-    console.log("creative-tech-week7.js stored in window.registeredWorksheets");
+    console.log("grade-cts-week7.js stored in window.registeredWorksheets");
 }
 
 // Also expose it globally for backward compatibility
-window.creativeTechWeek7 = creativeTechWeek7;
-console.log("creative-tech-week7.js loaded and registered successfully");
+window.gradeCTSWeek7 = gradeCTSWeek7;
+console.log("grade-cts-week7.js loaded and registered successfully");
